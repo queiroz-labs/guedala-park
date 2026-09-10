@@ -1,0 +1,10 @@
+{
+  "frame_original": "DRB-01_11m06s.jpg",
+  "classificacao_anterior": "Quarto B",
+  "classificacao_R02": "Revisita ao quarto A",
+  "correspondencia_estimada": {
+    "quarto_A": "Dormitório 02 de P01, considerando espelhamento",
+    "quarto_B": "Dormitório 01 de P01, considerando espelhamento"
+  },
+  "base": "Percursos 09:21–09:29, 10:23–11:14 e 12:24–12:37; não é medição geométrica."
+}

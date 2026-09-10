@@ -1,0 +1,226 @@
+[
+  {
+    "ambiente": "entrada",
+    "segundo": 90,
+    "id": "ENT-01",
+    "path": "frames/entrada/ENT-01_01m30s.jpg",
+    "legenda": "Entrada e relação entre ambientes"
+  },
+  {
+    "ambiente": "entrada",
+    "segundo": 126,
+    "id": "ENT-02",
+    "path": "frames/entrada/ENT-02_02m06s.jpg",
+    "legenda": "Quadro elétrico"
+  },
+  {
+    "ambiente": "cozinha",
+    "segundo": 150,
+    "id": "COZ-01",
+    "path": "frames/cozinha/COZ-01_02m30s.jpg",
+    "legenda": "Teto da cozinha"
+  },
+  {
+    "ambiente": "cozinha",
+    "segundo": 162,
+    "id": "COZ-02",
+    "path": "frames/cozinha/COZ-02_02m42s.jpg",
+    "legenda": "Cozinha e lavanderia: vista geral"
+  },
+  {
+    "ambiente": "cozinha",
+    "segundo": 186,
+    "id": "COZ-03",
+    "path": "frames/cozinha/COZ-03_03m06s.jpg",
+    "legenda": "Bancada e pontos de parede"
+  },
+  {
+    "ambiente": "cozinha",
+    "segundo": 210,
+    "id": "COZ-04",
+    "path": "frames/cozinha/COZ-04_03m30s.jpg",
+    "legenda": "Instalação sob a pia"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 234,
+    "id": "LAV-01",
+    "path": "frames/lavanderia/LAV-01_03m54s.jpg",
+    "legenda": "Gás, tomadas e conexões próximas ao tanque"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 258,
+    "id": "LAV-02",
+    "path": "frames/lavanderia/LAV-02_04m18s.jpg",
+    "legenda": "Piso, ralo e transição"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 270,
+    "id": "LAV-03",
+    "path": "frames/lavanderia/LAV-03_04m30s.jpg",
+    "legenda": "Conexões e tubulação sob o tanque"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 282,
+    "id": "LAV-04",
+    "path": "frames/lavanderia/LAV-04_04m42s.jpg",
+    "legenda": "Aviso para instalação do aquecedor"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 306,
+    "id": "LAV-05",
+    "path": "frames/lavanderia/LAV-05_05m06s.jpg",
+    "legenda": "Conexões próximas ao tanque"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 318,
+    "id": "LAV-06",
+    "path": "frames/lavanderia/LAV-06_05m18s.jpg",
+    "legenda": "Volumes no teto e abertura circular"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 330,
+    "id": "LAV-07",
+    "path": "frames/lavanderia/LAV-07_05m30s.jpg",
+    "legenda": "Tanque e área de piso"
+  },
+  {
+    "ambiente": "lavanderia",
+    "segundo": 342,
+    "id": "LAV-08",
+    "path": "frames/lavanderia/LAV-08_05m42s.jpg",
+    "legenda": "Janela e entorno superior"
+  },
+  {
+    "ambiente": "sala",
+    "segundo": 378,
+    "id": "SAL-01",
+    "path": "frames/sala/SAL-01_06m18s.jpg",
+    "legenda": "Sala e acesso ao setor íntimo"
+  },
+  {
+    "ambiente": "sala",
+    "segundo": 402,
+    "id": "SAL-02",
+    "path": "frames/sala/SAL-02_06m42s.jpg",
+    "legenda": "Tomadas e placas de telecomunicação"
+  },
+  {
+    "ambiente": "sala",
+    "segundo": 414,
+    "id": "SAL-03",
+    "path": "frames/sala/SAL-03_06m54s.jpg",
+    "legenda": "Superfície de piso da sala"
+  },
+  {
+    "ambiente": "sala",
+    "segundo": 450,
+    "id": "SAL-04",
+    "path": "frames/sala/SAL-04_07m30s.jpg",
+    "legenda": "Janela e ponto de teto da sala"
+  },
+  {
+    "ambiente": "banheiro",
+    "segundo": 474,
+    "id": "BAN-01",
+    "path": "frames/banheiro/BAN-01_07m54s.jpg",
+    "legenda": "Louças, ralo e limite da área de banho"
+  },
+  {
+    "ambiente": "banheiro",
+    "segundo": 486,
+    "id": "BAN-02",
+    "path": "frames/banheiro/BAN-02_08m06s.jpg",
+    "legenda": "Lavatório e ponto elétrico"
+  },
+  {
+    "ambiente": "banheiro",
+    "segundo": 510,
+    "id": "BAN-03",
+    "path": "frames/banheiro/BAN-03_08m30s.jpg",
+    "legenda": "Janela do banheiro aberta"
+  },
+  {
+    "ambiente": "banheiro",
+    "segundo": 534,
+    "id": "BAN-04",
+    "path": "frames/banheiro/BAN-04_08m54s.jpg",
+    "legenda": "Teto e ponto alto na parede do banheiro"
+  },
+  {
+    "ambiente": "banheiro",
+    "segundo": 558,
+    "id": "BAN-05",
+    "path": "frames/banheiro/BAN-05_09m18s.jpg",
+    "legenda": "Ligação na região do vaso"
+  },
+  {
+    "ambiente": "dormitorio_A",
+    "segundo": 570,
+    "id": "DRA-01",
+    "path": "frames/dormitorio_A/DRA-01_09m30s.jpg",
+    "legenda": "Primeiro quarto: teto e janela"
+  },
+  {
+    "ambiente": "dormitorio_A",
+    "segundo": 582,
+    "id": "DRA-02",
+    "path": "frames/dormitorio_A/DRA-02_09m42s.jpg",
+    "legenda": "Primeiro quarto: porta e tomada"
+  },
+  {
+    "ambiente": "dormitorio_A",
+    "segundo": 594,
+    "id": "DRA-03",
+    "path": "frames/dormitorio_A/DRA-03_09m54s.jpg",
+    "legenda": "Primeiro quarto: janela"
+  },
+  {
+    "ambiente": "dormitorio_A",
+    "segundo": 642,
+    "id": "DRA-04",
+    "path": "frames/dormitorio_A/DRA-04_10m42s.jpg",
+    "legenda": "Primeiro quarto: piso e rodapé"
+  },
+  {
+    "ambiente": "dormitorio_B",
+    "segundo": 666,
+    "id": "DRB-01",
+    "path": "frames/dormitorio_B/DRB-01_11m06s.jpg",
+    "legenda": "Segundo quarto: acesso e piso"
+  },
+  {
+    "ambiente": "dormitorio_B",
+    "segundo": 690,
+    "id": "DRB-02",
+    "path": "frames/dormitorio_B/DRB-02_11m30s.jpg",
+    "legenda": "Segundo quarto: teto e janela"
+  },
+  {
+    "ambiente": "dormitorio_B",
+    "segundo": 702,
+    "id": "DRB-03",
+    "path": "frames/dormitorio_B/DRB-03_11m42s.jpg",
+    "legenda": "Segundo quarto: parede e piso"
+  },
+  {
+    "ambiente": "dormitorio_B",
+    "segundo": 714,
+    "id": "DRB-04",
+    "path": "frames/dormitorio_B/DRB-04_11m54s.jpg",
+    "legenda": "Segundo quarto: fechamento da janela"
+  },
+  {
+    "ambiente": "dormitorio_B",
+    "segundo": 726,
+    "id": "DRB-05",
+    "path": "frames/dormitorio_B/DRB-05_12m06s.jpg",
+    "legenda": "Segundo quarto: acionamento lateral"
+  }
+]

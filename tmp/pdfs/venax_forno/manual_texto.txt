@@ -1,0 +1,1272 @@
+PAGE 1
+MANUAL DE
+INSTRUÇÕES
+Leia atentamente este manual antes de utilizar o produto.
+FORNO DE EMBUTIR A GÁS
+Versões: 50L e 90L
+
+
+PAGE 2
+
+
+PAGE 3
+PARABÉNS!
+Você acaba de adquirir um produto de qualidade da marca Venax. Chegou o 
+momento de conhecer melhor o modelo adquirido. Os nossos produtos são fabricados 
+seguindo normas nacionais e internacionais de qualidade, procurando sempre colocar à 
+disposição dos consumidores o que há de melhor em termos de tecnologia, design e 
+respeito ao meio ambiente.
+Recomendamos leitura atenta deste manual, pois nele estão dispostas inúmeras 
+informações e procedimentos que vão fazer com que o seu produto tenha um 
+rendimento maior, menor consumo e o máximo de bem-estar a você e sua família.
+CONSCIÊNCIA COM O MEIO AMBIENTE!
+Desde o desenvolvimento do projeto até conclusão dos produtos, cadeia produtiva e 
+parque fabril, a Venax preocupa-se em aplicar com responsabilidade socioambiental o 
+uso de materiais recicláveis, juntamente com processos que reduzem desperdícios e 
+energias renováveis, evidenciando assim, a sustentabilidade do meio ambiente.
+A embalagem do produto é produzida com materiais que podem ser reciclados ou 
+reutilizados. Ao descartá-los, dê destinação correta e ajude a preservar o meio ambiente.
+Para descarte do seu produto VENAX pós-consumo, se ele estiver em boas 
+condições de uso e funcionando perfeitamente nossa sugestão é fazer uma doação para 
+instituições e/ou associações que estiverem precisando. 
+Caso queira fazer descarte consciente do produto para que seja feita desmontagem 
+e destinação correta dos resíduos faça contato conosco:
+E-mail: reciclagem@venax.com.br ou preencha formulário no nosso site 
+www.venax.com.br
+APRESENTAÇÃO
+PARA ABERTURA DE ASSISTÊNCIA TÉCNICA É NECESSÁRIO QUE 
+TENHA EM MÃOS ESTE MANUAL, UMA VEZ QUE O TÉCNICO SOLICITARÁ O 
+NÚMERO DE SÉRIE DO SEU PRODUTO, O QUAL CONSTA NA ETIQUETA ACIMA!
+A AUSÊNCIA DESTA ETIQUETA OCORRERÁ NA PERDA DE 
+GARANTIA DO SEU PRODUTO!!!
+Antes de tudo, leia o manual.
+Tire o máximo de proveito das dicas aqui contidas.
+Você evitará muitos problemas, os quais podem ser ocasionados pelo mau uso.
+IMPORTANTE!
+Nº de série (em caso de assistência, informe esse nº)
+
+PAGE 4
+1. INTRODUÇÃO
+2. CARACTERÍSTICAS
+3. DADOS TÉCNICOS
+4. DIAGRAMA ELÉTRICO
+5. SEGURANÇA
+5.1 Cuidados especiais com crianças
+5.2 Cuidados especiais no manuseio do produto
+5.3 Evitando riscos de incêndio
+6. DESEMBALANDO O PRODUTO
+7. MOVIMENTANDO O PRODUTO
+8. LOCAL DE INSTALAÇÃO
+9. INSTALAÇÃO
+9.1 Fixação do forno no nicho
+10. INSTALAÇÃO DO GÁS
+10.1 Itens para adquirir antes da instalação
+10.2 Procedimento para instalação
+10.3 Conversão de gás GN
+10.4 Instalação do forno combinada com cooktop
+11. INSTALAÇÃO ELÉTRICA
+11.1 Orientações gerais
+11.2 Aterramento
+11.3 Ligando o produto na tomada
+11.4 Orientações quanto ao cabo de alimentação
+12. CONHECENDO SEU FORNO
+12.1 Painel de comandos
+12.2 Prateleiras
+12.3 Timer grill
+12.4 Espeto giratório
+12.5 Válvula de segurança
+13. ACENDIMENTO E LUZ DO FORNO
+13.1 Botão de acendimento automático e luz do forno
+13.2 Botão de acendimento superautomático e luz do forno
+13.3 Acendimento automático pulsante
+13.4 Acendimento superautomático
+13.5 Acendimento manual do forno
+14. USANDO O FORNO
+14.1 Orientações gerais
+14.2 Modo de operação do timer grill
+14.3 Utilizando o espeto giratório
+14.4 Trocando a lâmpada do forno
+15. ORIENTAÇÕES DELIMPEZA
+16. RESOLUÇÃO DE PROBLEMAS
+17. CERTIFICADO DE GARANTIA
+05
+05
+06
+08
+09
+09
+09
+09
+10
+10
+10
+11
+13
+13
+13
+14
+14
+14
+15
+15
+15
+16
+16
+16
+16
+17
+17
+17
+17
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+22
+24
+ÍNDICE
+
+PAGE 5
+1. INTRODUÇÃO
+O forno de embutir a gás Venax é de uso exclusivo para fins domésticos, sendo proibido seu emprego 
+para qualquer outro fim ou método de utilização.
+A correta instalação e utilização do produto prolongam a vida útil e melhoram o aproveitamento, 
+evitando dificuldades no uso diário.
+Para obter peças originais de fábrica, procure os postos de Assistência Técnica ou entre em contato 
+conosco, através dos telefones/e-mail disponibilizados na última página deste manual.
+2. CARACTERÍSTICAS
+05
+CARACTERÍSTICAS
+MODELOS
+Acendimento super
+automático
+Acendimento automático
+pulsante
+Timer Grill elét. 120 min.
+(grelhadeira superior por
+irradiação)
+Válvula de segurança 5
+posições de temperatura
+Luz no forno
+Revestimento interno no
+forno: esmalte EASY
+CLEAN (limpa fácil)
+Porta forno vidro preto
+Porta forno vidro branco
+Puxador porta forno curvo
+(perfil retangular em alum.)
+Puxador do forno
+arredondado em aço 
+Duas prateleiras
+deslizantes no forno
+Forno com frente em aço
+inox escovado
+Uma prateleira fixa 
+Espeto giratório 
+Cor
+Arena - EG
+AREG50G3.GLP.XX.127
+AREG50G3.GLP.XX.220
+Onde XX pode ser:
+AM - Amarelo
+BR - Branco
+INX - Inox
+PF - Preto Fosco
+PK - Pink
+VM - Vermelho
+Semplice
+FGE50G3.GLP.XX.127
+FGE50G3.GLP.XX.220
+Onde XX é:
+GFT - Graﬁte
+Totale Nero
+FGE50G3.GLP.XX.127
+FGE50G3.GLP.XX.220
+Onde XX é:
+PTO - Preto Fosco
+Cristallo
+FGE50G3.GLP.XX.127
+FGE50G3.GLP.XX.220
+Onde XX é:
+INX - Inox 
+Bianco
+FGE50G3.GLP.XX.127
+FGE50G3.GLP.XX.220
+NOMES
+Onde XX é:
+BR - Branco
+x
+xxxx
+xxxx
+xxx
+x
+x
+x
+x
+xxx
+x
+xxxxx
+xxxxx
+xxxxx
+xx
+x
+Branco Inox Preto Graﬁte-
+x
+x
+xx
+
+PAGE 6
+3. DADOS TÉCNICOS 
+Classe do aparelho 3 (forno de embutir) 
+Categoria do aparelho: I  . (para gás GLP/GN)2
+DADOS ELÉTRICOS
+DESCRIÇÃO
+VERSÕES
+FORNO 90 LFORNO 50 L
+1300 W735 W
+1250 W700 W
+25 W25 W
+10 W10 W
+127 V / 60 Hz127V / 60 Hz
+220 V / 60 Hz220 V / 60 Hz
+127 V – 11 A127 V – 6,0 A
+220 V – 6,0 A220 V – 3,5 A
+Corrente (Ampères)
+Tensão / Frequência
+Potência do acendedor (usina ignitora)
+Potência máxima da lâmpada
+Potência elétrica do grill 
+Potência nominal do aparelho
+DIMENSÕES DO CORPO DO FORNO A SER EMBUTIDO
+VERSÃO
+57 cm 48,5 cm 56 cm
+57 cm 75 cm 56 cm
+PROFUNDIDADELARGURAALTURA
+FORNO A GÁS 90 L
+FORNO A GÁS 50 L
+Aparelhos com corrente nominal de até 10 A
+TIPO DE PLUGUE
+Plugue com pinos de ø 4 mm
+Aparelhos com corrente nominal de 10 A a 20 A Plugue com pinos de ø 4,8 mm 
+DIMENSÕES EXTERNAS TOTAIS DO PRODUTO E INTERNAS DO FORNO
+VERSÃO
+62 cm 29 cm 54 cm 37,8 cm 59,7 cm 47 cm
+62 cm
+61,3 cm
+29 cm
+29 cm
+78 cm
+78,5 cm
+64,8 cm
+64,8 cm
+59,7 cm
+62,8 cm
+47 cm
+47 cm
+PROFUNDIDADELARGURAALTURA
+Externa
+do
+produto
+Externa
+do
+produto
+Externa
+do
+produto
+Interna
+do
+forno
+Interna
+do
+forno
+Interna
+do
+forno
+FORNO A GÁS 90 L
+FORNO A GÁS 90 L GIII
+FORNO A GÁS 50 L
+61 cm 29 cm 51,7 cm 37,8 cm 61,5 cm 47 cmFORNO A GÁS 50 L GIII
+06
+Botijão mínimo a ser utilizado para os dois modelos = 13 kg (P13)
+Pressão de alimentação do Gás (GLP) = 2,75 kPa (280mm. H2O)
+Consumo e potência térmica dos queimadores (Gás)
+Queimador a gás
+Consumo de Gás por 
+queimador na (vazão máxima) 
+valores indicativos
+Potência nominal 
+dos queimadores 
+(vazão máxima)
+Potência nominal 
+dos queimadores 
+(vazão mínima)
+Forno de embutir 90 L
+Forno de embutir 50 L 0,120 kg/h
+0,170 kg/h
+1,65 kW
+2,30 kW
+1,25 kW
+1,25 kW
+
+PAGE 7
+CAPACIDADE DE CARGA MÁXIMA NAS PRATELEIRAS DO FORNO
+Forno a gás
+50 L
+Forno a gás
+90 L
+6,0 kg
+9,0 kg
+RENDIMENTO DO FORNO
+TEMPERATURA MÉDIA °CCLASSIFICAÇÃO DA TEMPERATURA
+Muito suave 180
+Suave 180 a 230
+Quente  250 a 270
+Muito quente 270 a 290
+Média 230 a 250
+PESO BRUTO E LÍQUIDO APROXIMADO DOS PRODUTOS
+Peso do forno 50 L embalado 25 kg
+35 kg
+22 kg
+32 kg
+Peso do forno 90 L embalado
+Peso líquido do forno 50 L
+Peso líquido do forno 90 L
+07
+DIMENSÕES DO CORTE FRONTAL DO NICHO OU MÓVEL PARA EMBUTIR O FORNO 
+VERSÃO
+Forno a gás 50 L 60 cm 49 cm
+Forno a gás 90 L 60 cm 76 cm
+ALTURA LARGURA
+Obs.: Ver corte frontal dos nichos neste manual (INSTALAÇÃO DO FORNO NO NICHO), também 
+observar as dimensões mínimas que deverão ter em volta do forno. Ver tabela abaixo.
+ESPAÇAMENTO MÍNIMO ENTRE O FORNO E AS PAREDES DO NICHO OU MÓVEL
+VERSÃO
+Forno a gás 50 L 3 cm de cada lado 5 cm
+Forno a gás 90 L 3 cm de cada lado 5 cm
+LATERAIS PROFUNDIDADE
+Obs.: Ver dimensões dos modelos de nichos neste manual (INSTALAÇÃO DO FORNO NO NICHO).
+Sobre o nicho tipo “torre” a altura é determinada pelo usuário conforme sua necessidade. 
+
+PAGE 8
+4. DIAGRAMA ELÉTRICO
+ESQUEMA ELÉTRICO FORNO A GÁS (Bianco, Cristallo, Totale Nero e Semplice)
+ESQUEMA ELÉTRICO FORNO A GÁS (Arena 50L e 90L)
+08
+Verde/amarelo
+Verde/amarelo
+Verde/amarelo
+Terminal Vermelho
+Terminal Azul
+Terminal Marrom Terminal Marrom
+Terminal
+Vermelho
+Terminal Bandeira
+Branco
+Terminal Bandeira
+Branco
+Terminal Bandeira
+Branco
+Terminal Branco
+Terminal Vermelho
+Motoredutor
+Terminal Branco
+Usina
+LED Chave Seletora
+Terminal Incolor
+Terminal Vermelho
+Resistência
+Lâmpada
+Termina Azul
+Terminal AzulTerminal Azul
+Cabo 3 pinos
+Terminal Branco
+Terminal Incolor
+Terminal Incolor
+Terminal Incolor
+Timer Grill SuperautomáticoTerminal Vermelho
+Terminal Bandeira
+Branco
+
+PAGE 9
+5. DICAS DE SEGURANÇA 
+A instalação deve seguir rigorosamente as normas descritas nesse manual. Caso contrário, a 
+garantia do seu produto poderá ser invalidada.
+Não altere as especificações ou características do produto.
+Este aparelho não se destina à utilização por crianças ou pessoas com capacidades físicas, 
+sensoriais ou mentais reduzidas. Pessoas com falta de experiência e conhecimento devem receber 
+instruções referentes à utilização do aparelho ou estar sob a supervisão de uma pessoa responsável pela 
+sua segurança.
+5.1 CUIDADOS ESPECIAIS COM CRIANÇAS
+• Não permita o manuseio da embalagem deste produto;
+• Não permita o manuseio do forno mesmo estando desligado. 
+• Não permita que toquem na superfície do forno;
+• Não permita que se mantenham próximos do mesmo quando em funcionamento e ainda quente, ou 
+mesmo desligado. 
+Recomenda-se que as crianças sejam vigiadas para assegurar que elas não estejam 
+brincando com o aparelho.
+5.2 CUIDADOS ESPECIAIS NO MANUSEIO DO PRODUTO
+• Evite o contato com o interior do forno enquanto aquecido.
+• Se necessário, utilize luvas térmicas;
+• Ao utilizar óleo ou gordura nas frituras, o cuidado deve ser maior, pois os 
+mesmos são inflamáveis;
+• Não armazene utensílios no forno;
+• Antes de acender o forno, abra sua porta para evitar o acúmulo de gás dentro 
+dele;
+• Nunca deixe panos ou materiais inflamáveis entre a porta do forno durante o 
+uso do mesmo;
+• Verifique sempre se os botões estão na posição “● ” (desligado) quando o 
+forno não estiver sendo usado;
+Mantenha o registro de gás fechado sempre que o forno não estiver sendo 
+utilizado;
+ATENÇÃO: Durante o uso o aparelho torna-se quente. Cuidado deve ser tomado para evitar o 
+contato com os elementos de aquecimento dentro do forno. 
+5.3 EVITANDO RISCOS DE INCÊNDIO
+Nunca armazene álcool, gasolina ou qualquer outro líquido ou vapor inflamável próximo do forno;
+Não acumule resíduos de gordura na superfície ou partes internas do forno;
+Nunca use chamas ou faíscas para localizar vazamentos de gás;
+Ao sentir cheiro de gás tome as seguintes providências: 
+Feche o registro de gás;
+Não acenda qualquer tipo de chama; 
+Não mexa em interruptores elétricos; 
+Abra a janela e as portas, permitindo maior ventilação do ambiente;
+Não utilize telefone e nem celular próximo ao local;
+Caso o vazamento seja no botijão retire-o e leve-o para um local aberto e bem 
+ventilado;
+Saia do ambiente e faça a ligação de um local aberto e ventilado; 
+Chame o distribuidor de gás;
+FORNO
+POSIÇÃO FECHADA
+09
+
+PAGE 10
+Abastecimento por gás canalizado ou central (prédios): feche imediatamente os registros de 
+abastecimento; 
+Entre em contato com a companhia de gás responsável;
+Chame a assistência técnica para verificar o problema.
+Nunca utilize seu forno para secar roupas, tênis ou panos de cozinha.
+Nunca utilize seu produto para aquecer ambientes.
+6. DESEMBALANDO O PRODUTO
+Para desembalar o seu forno, faça o seguinte: 
+a) Vire cuidadosamente a caixa e retire os grampos metálicos da parte inferior da mesma. Você pode 
+retirá-los com o auxílio de uma chave de fenda. 
+b) Abra a parte de baixo da caixa, virando as abas para o lado de fora.
+c) Coloque o forno na sua posição normal novamente (com as setas da caixa para cima) e retire a 
+caixa de papelão, puxando-a para cima.
+d) Retire todas as fitas, plásticos e películas que acompanham o produto. Retire 
+também a etiqueta colada no vidro da porta do forno.
+Nos modelos com acabamento em inox, remova com cuidado o filme plástico 
+azul, colocado para proteção. 
+Os resíduos dos adesivos devem ser removidos com um pano embebido em 
+removedor, a ser esfregado suavemente. Em seguida, com uma esponja macia e 
+sabão neutro, conclua a limpeza e seque o fogão.
+Atenção: Não remova a etiqueta de identificação do produto (localizada 
+atrás do forno).
+Não use materiais pontiagudos (facas, tesoura com ponta, etc...), para a 
+remoção da embalagem, pois isso pode danificar o produto. 
+7. MOVIMENTANDO O PRODUTO 
+Para deslocá-lo faça-o com duas pessoas, devido ao peso;
+Nunca movimente o seu produto pelo puxador da porta do forno;
+8. LOCAL DE INSTALAÇÃO
+O forno de embutir deve ser posicionado em local bem arejado. A má ventilação produz falta de 
+oxigênio, que é prejudicial ao desempenho do forno;
+Nunca instale seu forno sobre superfícies plásticas ou carpetes. Evite também a instalação próxima a 
+materiais inflamáveis (cortinas, panos de cozinha etc.);
+O local de instalação deve prever uma distância mínima de 10 cm em toda volta do forno para que 
+possa fluir uma boa circulação de ar;
+ Ao colocar seu forno sobre uma base, tenha cuidado para que o mesmo 
+fique seguro e bem nivelado. A base deve possuir dimensões superiores às 
+do forno, para sua segurança;
+Não instale seu forno em local de passagem, em frente à portas e 
+janelas 
+Evite instalar em locais com correntes de ar;
+ A utilização produz calor e umidade no local onde o forno está instalado.
+A utilização intensiva e prolongada do forno requer uma ventilação 
+suplementar como a abertura de uma janela ou de uma ventilação mais 
+eficaz que aumente o fluxo de ar, por exemplo.
+ Sugerimos não instalar o forno ao lado de refrigeradores.
+Não instalar seu produto em áreas externas em ambientes de alta 
+concentração salina, tais como regiões litorâneas, pois pode ocorrer 
+oxidação das peças.
+10
+
+PAGE 11
+9. INSTALAÇÃO
+MEDIDAS EXTERNAS E INTERNAS DO SEU FORNO
+MODELOS 50 LITROS (Arena / Bianco / Cristallo / Totale Nero / Semplice)
+INSTRUÇÕES DE INSTALAÇÃO NO MÓVEL TIPO TORRE
+Os desenhos abaixo informam todas as medidas necessárias para a instalação do seu forno 50 litros
+INSTRUÇÕES DE INSTALAÇÃO NO MÓVEL TIPO BANCADA
+Os desenhos abaixo informam todas as medidas necessárias para a instalação do seu forno 50 litros
+Tomada
+Plugue
+VENAX
+61
+20
+61 cm - mínimo
+Base de apoio forno
+Recorte p/ ventilação
+45 cm
+Corte lateral do nicho
+Fundo do Cooktop
+56
+60
+9
+38
+20 cm (medida mínima)
+entre o fundo do cooktop 
+e o topo do forno.
+60
+49
+* Medidas em centímetros.
+* Medidas em centímetros.
+* Medidas em centímetros.
+VISTA LATERAL DO NICHO
+13
+61
+10
+75 frente
+área vazada 
+(38x45cm)
+VISTA FRONTAL 
+RECORTE DO NICHO
+49
+60
+9
+38
+área vazada (38x45cm)
+60
+Imagens meramente ilustrativas.
+profundidade do forno: 47 cm
+29
+38
+47
+51
+57
+56
+4351
+61
+
+PAGE 12
+MEDIDAS EXTERNAS E INTERNAS DO SEU FORNO
+MODELOS 90 LITROS (Arena / Bianco / Cristallo / Totale Nero / Semplice)
+INSTRUÇÕES DE INSTALAÇÃO NO MÓVEL TIPO TORRE
+Os desenhos abaixo informam todas as medidas necessárias para a instalação do seu forno 90 litros
+INSTRUÇÕES DE INSTALAÇÃO NO MÓVEL TIPO BANCADA
+Os desenhos abaixo informam todas as medidas necessárias para a instalação do seu forno 90 litros
+* Medidas em centímetros.
+VISTA LATERAL DO NICHO
+13
+61
+10
+75 frente
+área vazada 
+(65,4x45cm)
+VISTA FRONTAL 
+RECORTE DO NICHO
+76
+60
+87
+9
+65,4
+área vazada (65x45 cm)
+Tomada
+Plugue
+VENAX
+61
+20
+61 cm - mínimo
+Base de apoio forno
+Recorte p/ ventilação
+45 cm
+Corte lateral do nicho
+Fundo do Cooktop
+83
+87
+9
+65,4
+200mm (medida mínima)
+entre o fundo do cooktop 
+e o topo do forno.
+60
+76
+* Medidas em centímetros.
+* Medidas em centímetros.
+74
+78
+57
+56
+61
+4378
+profundidade do forno: 47 cm
+29
+65
+Imagens meramente ilustrativas.
+
+PAGE 13
+9.1 FIXAÇÃO DO FORNO NO NICHO  
+Para fixar o forno apenas encaixe o produto no nicho.
+10. INSTALAÇÃO DO GÁS 
+No interior do forno de embutir você encontrará os acessórios adicionais fornecidos pela Venax. No 
+item 9.2 estão especificados os demais itens que você precisa adquirir para fazer a instalação do gás. 
+A entrada de gás no aparelho e o cabo de alimentação elétrica ficam à direita do aparelho, com o 
+produto também visto de frente.
+Antes de instalar o forno, verifique se o tipo de gás disponível na sua residência ou condomínio é o 
+mesmo para o qual o aparelho foi especificado (gás liquefeito de petróleo – GLP) ou (gás natural – GN). 
+A verificação pode ser feita no ponto de venda do produto, seja ele pela internet através de sites de 
+comércio eletrônico (e-commerce) ou loja física. Já no produto, essa informação consta na embalagem e 
+na etiqueta de identificação (localizada na parte traseira do aparelho). 
+Atenção! A utilização de um fogão ou forno com um tipo diferente de gás danifica o aparelho 
+e é extremamente perigosa.
+Em caso de dúvidas contatar responsáveis pela manutenção da rede de gás do local.
+10.1 ITENS PARA ADQUIRIR ANTES DA INSTALAÇÃO
+a) Botijão de gás: P13 (13 kg)
+b) Regulador de gás: Para fogões concebidos para utilizar GLP (gás 
+liquefeito de petróleo), o regulador deve possuir vazão nominal mínima de 1 kg/h 
+e pressão nominal recomendada de 2,8 kPa. Já para o gás GN (gás natural), o 
+regulador deve possuir vazão nominal mínima de 1 kg/h e pressão de 1,96 kPa. 
+O regulador deve possuir a marcação da norma NBR 8473.
+c) Mangueira Flexível Metálica: Deve ser obrigatoriamente utilizada MANGUEIRA FLEXÍVEL 
+METÁLICA, de acordo com a norma NBR 14177, com comprimento entre 80 e 125 cm;
+Confira se a mangueira e o regulador de gás são certificados pelo INMETRO.
+Observações:
+Se a residência possuir fornecimento de gás encanado não será necessária a aquisição de um 
+botijão. O gás GN (gás natural) é fornecido somente encanado (através de redes de distribuição).
+O regulador de gás deve ser para uso exclusivo do fogão;
+Não faça emendas na mangueira, pois as mesmas podem causar vazamento de gás;
+Verifique o prazo de validade da mangueira (03 anos) e do regulador de pressão (05 anos), a contar 
+da data de fabricação declarada pelo fabricante.
+A ausência do regulador de pressão (exclusivo para fogão) pode causar excesso de pressão e 
+vazamento de gás, ocasionando danos.
+
+PAGE 14
+10.2 PROCEDIMENTO PARA INSTALAÇÃO
+- GÁS GLP
+a) Aplique algumas camadas de fita veda rosca no conector 
+macho da mangueira metálica - com rosca de diâmetro de  ½”
+polegada - no ponto de entrada de gás do fogão.
+b) Fixar a outra extremidade do tubo flexível metálico no 
+regulador de baixa pressão.
+c) Certifique-se de que o registro do regulador esteja 
+fechado antes de rosqueá-lo no botijão.
+d) No ato da instalação e a cada troca do botijão de gás, 
+verifique IMEDIATAMENTE se há vazamento na região do 
+encaixe do regulador de pressão de gás. Sugerimos a utilização 
+de espuma de sabão para essa verificação.
+Obs.: Rosqueie com cuidado o regulador de pressão no botijão. O registro deve estar visível, com 
+fácil acesso e fora do nicho, podendo ser fechado rapidamente caso ocorra algum problema.
+- GÁS GN
+Para a realização da instalação do gás GN, recomendamos que entre em contato com um 
+centro de atendimento autorizado, com profissionais qualificados.
+Para o gás GN, a pressão de alimentação é de 1,96 kPa.
+• Encaixe um adaptador para mangueira metálica flexível no bico de entrada 
+de gás do fogão;
+• Aplique fita veda rosca e rosqueie a mangueira no adaptador;
+• Com o registro do regulador de gás fechado, rosqueie a outra extremidade 
+da mangueira no registro de gás da parede.
+• Verifique se não há vazamentos de gás.
+10.3 CONVERSÃO DE GÁS GN
+Este aparelho é fabricado pronto para utilização apenas com gás GLP (gás liquefeito de petróleo, ou 
+gás de botijão). Para utilizar o fogão com gás GN (gás natural, ou "gás de rua"), é necessário solicitar a 
+conversão a um técnico credenciado pela VENAX. Tal conversão não é coberta pela garantia. Para mais 
+informações entre em contato com a nossa central de atendimento. As informações de contato estão no 
+verso deste manual.
+10.4 INSTALAÇÃO DO FORNO COMBINADA COM COOKTOP 
+1. Você irá precisar de duas mangueiras flexíveis metálicas. Conecte as extremidades das duas 
+mangueiras no forno e no cooktop. Para isso, utilize uma chave de boca. Recomendamos também o uso 
+de veda rosca.
+2. Coloque a arruela de vedação (vedante) nas outras duas extremidades das mangueiras de gás e 
+passe-as pelo furo do nicho. 
+3. Verifique se os registros das conexões de gás estão fechados.
+4. Rosqueie os registros metálicos com saída de ½” em uma conexão “T” metálica de ½” (específica 
+para aplicações a gás) com saídas do tipo fêmea;  
+5. Então rosqueie a conexão “T” de ½” no regulador de pressão do botijão ou no registro de gás 
+encanado (dependendo da instalação de gás da sua residência). 
+6. Abra os registros metálicos da conexão “T”. Posteriormente, passe uma esponja com água e 
+detergente/sabão em todas as conexões e verifique se não há vazamento de gás.
+Atenção! É obrigatório que o tubo condutor de gás não passe por trás do produto/móveis ou áreas de 
+estocagem nos móveis de cozinha. 
+Atenção, para as instalações em botijões respeite as condições seguintes: 
+Distância mínima obrigatória de 20 cm entre o FORNO DE EMBUTIR e o botijão.
+12
+Conector
+da mangueira
+Entrada de
+gás
+Chave
+inglesa
+Mangueira
+metálica
+Vedante
+Regulador
+de gás
+Botijão
+de gás
+
+
+PAGE 15
+Se o botijão ficar a mais de 120 cm do forno (exemplo: na área de serviço), a instalação deverá ser 
+feita conforme norma da ABNT, NBR 13932 (Instalações internas para GLP.)
+ IMPORTANTE! Rosqueie com cuidado o regulador de pressão no botijão. O registro deve estar 
+visível, com fácil acesso, sem quaisquer restrições e sempre fora do nicho/gabinete, podendo ser 
+fechado/desligado rapidamente, caso ocorra algum problema.
+11. INSTALAÇÃO ELÉTRICA
+Os níveis de tensão de alimentação com o qual este produto opera são estabelecidos nos 
+Procedimentos de Distribuição de Energia Elétrica no Sistema Nacional – PRODIST da ANEEL Agência 
+Nacional de Energia Elétrica.
+Atenção: Se houver necessidade de modificar a instalação elétrica de sua residência, esta deverá ser 
+efetuada obrigatoriamente por pessoa qualificada, em conformidade com as normas em vigor. 
+Não modifique nenhum componente do seu forno. 
+11.1 ORIENTAÇÕES GERAIS 
+Indicamos a utilização de tomada exclusiva para o forno. A mesma deve estar em perfeito estado para 
+utilização e ser de fácil acesso, mesmo após a instalação ter sido finalizada. 
+Sempre desligue o cabo de força puxando pelo plugue.
+Indicamos a utilização de disjuntores térmicos para a proteção do forno. Os mesmos devem ser de 
+fácil acesso. Caso não existam disjuntores térmicos disponíveis no quadro de distribuição de força da sua 
+residência, consulte uma empresa com profissionais especializados para realizar a instalação
+Não use extensões ou benjamins, assim evitando mau contato, aquecimento, curto circuito, 
+derretimento, etc.;
+Nunca ligue o fio terra à rede elétrica, canos de gás, água ou tubos de PVC;
+11.2 ATERRAMENTO 
+O novo formato de plugue (3 Pinos - classe de aterramento I) 
+é obrigatório para ambas as tensões (127 V e 220 V).
+Caso a sua tomada esteja fora do padrão brasileiro, solicite a 
+substituição da mesma à uma empresa com profissionais 
+capacitados.
+Lembre-se! A alteração ou violação do plugue ou do cabo 
+de alimentação implicará na perda da garantia do produto. 
+20 cm 20 cm
+Tensão do produto (V)
+127 V
+220 V
+Mínima (V)
+Variação Admissível de Tensão
+Máxima (V)
+117
+202
+133
+231
+15
+
+PAGE 16
+11.3 LIGANDO O PRODUTO NA TOMADA 
+Antes de ligar o produto, certifique-se de que a tensão do mesmo é igual a tensão da tomada a 
+qual será ligado (os fornos não são bivolt). 
+Os Fornos de embutir 90 litros com tensão 127 V possuem corrente 
+superior a 10 A. Antes de ligá-lo, verifique se a mesma possui o novo 
+formato conforme figura ao lado. Sua capacidade deverá ser de 10 a 20 
+Ampères conforme NBR 14136:2000. 
+11.4 ORIENTAÇÕES QUANTO AO CABO DE ALIMENTAÇÃO 
+O cabo de alimentação deve ser colocado de modo a nunca se encostar às partes quentes do fogão, 
+por risco de derretimento ou curto circuito;
+Não prenda, não torça e não o amarre;
+Não realize consertos no cabo elétrico;
+Não apoie seu fogão sobre o cabo elétrico;
+Não o cruze pela parte traseira do fogão;
+Se o cabo de força estiver danificado, o mesmo deve ser obrigatoriamente substituído por um posto 
+de assistência técnica autorizado pela VENAX. 
+12. CONHECENDO SEU FORNO 
+12.1 PAINEL DE COMANDOS 
+Painel de Comandos das versões: Bianco – Cristallo – Totale Nero – Semplice
+Painel de Comandos das versões: Arena EG
+GRILL
+15
+30
+45
+60
+7590
+105
+120
+Timer
+(min.)
+FORNO
+290º
+270º
+250º 230º
+210º
+Temperatura
+ºC
+ACENDIMENTO 
+DO FORNO
+LUZ DO 
+FORNO
+TEMPERATURA
+E ACIONAMENTO
+DO FORNO
+TIMER
+GRILL
+FORNO
+Temperatura
+ºC
+290º
+270º
+230º 210º
+180º
+LUZ DO FORNO
+E ESPETO GIRATÓRIO
+TEMPERATURA
+E ACIONAMENTO
+DO FORNO
+TIMER
+GRILL
+DESL. GRILL
+15
+30
+45
+60
+7590
+105
+120
+Timer
+(min.)
+16
+
+PAGE 17
+12.2 PRATELEIRAS
+*Não se aplica ao 
+modelo Semplice.
+12.3 TIMER GRILL (ELÉTRICO)
+O Grill do forno é usado para dourar, gratinar ou caramelizar os alimentos, assim como para gratinar 
+pratos preparados no microondas.
+Não deixe o Grill e o queimador a gás ligados juntos (simultaneamente) por mais de 15 
+minutos, dessa forma evitando superaquecimento nos componentes internos do forno.
+12.4 ESPETO GIRATÓRIOApenas no modelo Arena
+O espeto giratório permite que alimentos de até 2 kg sejam assados no forno. No item 14.3 você 
+encontra todas as orientações referentes ao uso desse componente. 
+12.5 VÁLVULA DE SEGURANÇA 
+É um sistema de segurança implantado pelo INMETRO que busca garantir segurança na utilização 
+do forno.
+A válvula de segurança é equipada com um dispositivo supervisor de chama que interrompe 
+automaticamente a passagem de gás no forno em aproximadamente 30 segundos se não houver fogo.
+13. ACENDIMENTO E LUZ DO FORNO 
+13.1 BOTÃO DE ACENDIMENTO AUTOMÁTICO E LUZ DO FORNO
+Versões: Bianco – Cristallo – Totale Nero – Semplice
+O botão (1) de acendimento automático do forno é identificado por uma estrela, como demonstra a 
+figura abaixo.
+O botão (2) de acendimento da luz do forno é identificado por uma lâmpada, como demonstra a figura 
+abaixo.
+ FORNO
+290º
+270º
+250º 230º
+210º
+GRILL
+15
+30
+45
+60
+7590
+105
+120
+Timer
+(min.)
+Temperatura
+ºC
+17
+Articuladores
+Articulador
+Esquerdo
+Articulador
+Direito
+Puxadores
+1. Fixe o articulador no 
+s u p o r t e  d a  p o r t a , 
+conforme Imagem 1.
+2. Fixe o articulador na 
+prateleira superior e 
+inferior.
+3 .  P o s i c i o n e  o s 
+puxadores conforme 
+indicado.
+Imagem 1
+D
+E
+
+PAGE 18
+13.2 BOTÃO DE ACENDIMENTO SUPERAUTOMÁTICO E LUZ DO FORNO
+Versões: Arena EG
+O botão (1) de acendimento superautomático do forno possui seu acionamento para ignição da 
+chama juntamente com o botão que libera o gás para o queimador a gás, identificado no painel de 
+comando como (FORNO). Ver figura abaixo
+Para ligar a luz do forno, basta girar o botão central do painel no sentido horário e para desligar, girar 
+no sentido anti-horário. Ver figura abaixo: 
+13.3 ACENDIMENTO AUTOMÁTICO PULSANTE
+ Versões: Bianco – Cristallo – Totale Nero – Semplice
+Siga corretamente as instruções abaixo para o acendimento do forno:
+Antes de ligar o forno, verifique se há utensílios em seu interior que possam ser danificados pelo 
+calor.
+Com a porta do forno aberta, pressione o botão do queimador do forno, girando-o no sentido anti-
+horário até a posição máxima de saída do gás (290 °C).
+Após, ainda mantendo o botão do queimador pressionado, acione a tecla pulsante de acendimento 
+automático no painel até o surgimento da chama. Mantenha o botão pressionado por mais 10 segundos. 
+Com o forno devidamente ligado, regule o botão do queimador conforme sua necessidade.
+Assegure-se que a chama está acesa e feche a porta cuidadosamente para evitar que o golpe de ar 
+possa apagá-la.
+Se a chama se apagar, repita a operação.
+No caso da extinção da chama no queimador, a válvula de segurança interrompe automaticamente o 
+fornecimento de gás no forno em aproximadamente 30 segundos.
+Jamais acenda o forno se o chão do mesmo não estiver corretamente encaixado.
+Não deixe de usar luvas térmicas ao manusear utensílios quentes.
+Obs. 1: Em caso de falta de energia elétrica, você poderá acender o queimador normalmente 
+conforme orientações “acendimento manual do forno”.
+Obs. 2: Esse sistema somente é usado no queimador inferior do forno.
+13.4 ACENDIMENTO SUPERAUTOMÁTICO 
+Versões: Arena EG
+Siga corretamente as instruções abaixo para o acendimento do forno:
+• Com a porta do forno aberta, gire o botão do queimador (FORNO) no sentido anti-horário até a 
+posição máxima de saída do gás (290 °C).
+• Após, pressione o botão do queimador contra o forno para o surgimento da chama. Mantenha o 
+botão pressionado por mais 10 segundos. Nesse período o ruído da chispa continuará, o que é normal 
+para o acionamento da válvula de segurança;
+• Com o forno devidamente ligado, regule o botão do queimador conforme sua necessidade;
+• Assegure-se que a chama está acesa, feche a porta cuidadosamente para evitar que o golpe de ar 
+possa apagá-la.
+• Se a chama se apagar, repita a operação.
+• No caso da extinção da chama no queimador, a válvula de segurança interrompe automaticamente 
+o fornecimento de gás no forno em aproximadamente 30 segundos.
+FORNO
+Temperatura
+ºC
+290º
+270º
+230º 210º
+180º
+DESL. GRILL
+15
+30
+45
+60
+7590
+105
+120
+Timer
+(min.)
+18
+
+PAGE 19
+Obs. 1: Em caso de falta de energia elétrica, você poderá acender o queimador normalmente 
+conforme orientações “Acendimento manual do forno”.
+Obs. 2: Esse sistema somente é usado no queimador inferior do forno.
+Atenção: Nunca toque nas velas de acendimento automático.
+13.5 ACENDIMENTO MANUAL DO FORNO
+Em caso de falta de energia elétrica, ainda é possível acender o forno (mas não usar o grill). Para isso, 
+pressione e gire no sentido anti-horário o botão do queimador do forno até a posição 290ºC. 
+Imediatamente aproxime um fósforo ou isqueiro aceso do furo no chão do forno. Com o fogo aceso, 
+mantenha o botão do forno pressionado por 12 segundos para que a chama permaneça acesa.
+Em caso de mais de 2 tentativas de acender o fogo sem sucesso, espere pelo menos 1 minuto até 
+nova tentativa.
+14. USANDO O FORNO  
+Atenção: Use luvas térmicas ao manusear utensílios quentes.
+14.1 ORIENTAÇÕES GERAIS
+Para um bom desempenho, o forno deve estar sempre nivelado;
+Para interromper o fornecimento do gás gire o botão no sentido horário até a posição “fechado”.
+Antes de ligar o forno, verifique se há utensílios em seu interior que possam ser danificados pelo 
+calor.
+Recomenda-se um pré-aquecimento por 15 minutos na posição máxima, antes de colocar os 
+alimentos dentro do forno;
+Certifique-se de que o forno acendeu antes de fechar a porta.
+Os orifícios no chão do forno não devem ser obstruídos, nem devem ser revestidos com folha de 
+papel alumínio. As paredes do forno, bem como as grades, também não devem ser revestidas com folha 
+de papel alumínio, podendo prejudicar a circulação de ar.
+O isolamento térmico do forno produz fumaça e odores característicos durante os primeiros minutos 
+de funcionamento, o que é totalmente normal;
+A distribuição de calor no forno é uniforme, siga as instruções básicas e obtenha economia de tempo 
+e gás e uma melhor qualidade do assado.
+Recomenda-se o uso da grelha do forno na regulagem central;
+Nunca coloque formas ou outros objetos diretamente sobre a base, fundo ou laterais do forno; 
+Recomenda-se uma folga de aproximadamente 3 cm entre a forma e as laterais do forno para uma 
+melhor circulação do calor;
+Caso ocorra o derramamento de qualquer líquido ou alimento dentro do forno, desligue-o, espere 
+esfriar e limpe para evitar manchas, entupimento ou atração de insetos;
+Quando em funcionamento, evite abrir seguidamente a porta do forno, para evitar a perda de calor. 
+Acompanhe o assado através do visor panorâmico, acendendo a luz interna do forno;
+Não feche a porta do forno de forma brusca, a chama do queimador do forno pode se apagar.
+14.2 MODO DE OPERAÇÃO DO TIMER GRILL 
+ 
+ Gire o botão do Timer Grill elétrico no sentido horário até ligar o LED ao lado do mesmo; 
+ Selecione o tempo de operação desejado no próprio botão de acionamento do timer grill: 15, 30, 45, 
+60, 75, 90, 105 ou 120 minutos. Para manter o grill aceso por tempo indeterminado, gire o botão no 
+sentido anti-horário até a posição “M” (não disponível em todos os modelos).
+Atenção: é necessário controlar corretamente o grill e acioná-lo nos tempos corretos conforme o 
+alimento necessita e também segundo seu paladar. 
+Não deixe o Timer Grill elétrico e o queimador inferior a gás ligados juntos (simultaneamente) 
+por mais de 15 minutos, dessa forma evitando superaquecimento nos componentes internos do 
+forno.
+19
+
+PAGE 20
+14.3 UTILIZANDO O ESPETO GIRATÓRIO 
+Para a utilização do espeto giratório, siga as instruções abaixo:
+a). Certifique-se ao encaixar o suporte do espeto no produto (parte 
+superior frontal do forno), se as duas pontas estão bem encaixadas e 
+reguladas para que permaneça firme juntamente no apoio do teto do 
+produto. Conforme imagem; 
+b) Faça o pré-aquecimento do forno por um tempo de 15 minutos; 
+c) Antes de dar início ao assado, verifique se os garfos (hastes) do 
+espeto estão bem fixados ao alimento a ser assado, deixando-o firme no 
+espeto para posteriormente proporcionar a rotação simultânea de 
+ambos no processo de cocção; verifique também se o alimento está 
+bem ajustado entre os dois garfos (hastes), equilibrando o peso a fim de 
+impedir o esforço excessivo do motor.
+d) Coloque a ponta do espeto (já com o alimento) no furo de encaixe 
+do motor (na parte traseira esquerda do forno) e apoie a outra 
+extremidade no suporte do espeto (parte direita frontal do forno), 
+conforme uma das imagens ao lado. Para facilitar a colocação do espeto 
+no forno e o próprio manuseio do mesmo, deve-se utilizar o cabo 
+removível de baquelite que acompanha o espeto, porém o mesmo 
+sempre deve ser removido do espeto antes de  fechar a porta do forno e 
+dar início ao processo de cocção.
+e) Finalizado o processo, coloque o cabo removível de baquelite no 
+espeto novamente e retire-o do forno cuidadosamente e sempre 
+utilizando luvas térmicas para proteção.
+Observação: O peso máximo a ser colocado em cada espeto é de 2 Kg.
+Dica de utilização: Ao preparar alimentos com o espeto giratório utilize a bandeja coletora de 
+gordura na parte de baixo do forno. Despeje um ou dois copos de água na bandeja para evitar que as 
+gotas de gordura ou molho queimem, produzindo mau cheiro e fumaça.
+14.4 TROCANDO A LÂMPADA DO FORNO
+ATENÇÃO!
+Agora seu produto já vai equipado com uma lâmpada modelo G9. Caso 
+necessitar substituir, adquira uma lâmpada do tipo G9 própria para fogões na 
+mesma tensão do local de uso e com potência máxima de 25W.
+Assegure-se de que o fogão esteja desligado da tomada para evitar choque 
+elétrico. Para a retirada do protetor de vidro da lâmpada, gire-o no sentido anti-
+horário. Puxe a lâmpada para remover.
+Para a instalação da nova lâmpada, encaixe-a no soquete.
+Para a limpeza, basta desconectar o fogão da tomada e passar um espanador de pó ou pano 
+levemente úmido para remover sujeiras da superfície. Após, seque a peça e reconecte o fogão na 
+tomada.
+Espeto
+Cabo Baquelite
+Garfos
+Forno 90 L Forno 50 L
+20
+
+PAGE 21
+Para a limpeza, basta desconectar o fogão da tomada e passar um espanador de pó ou pano 
+levemente úmido para remover sujeiras da superfície. Após, seque a peça e reconecte o fogão na 
+tomada.
+RISCO DE EXPLOSÃO!
+Se por algum motivo a chama do forno apagar ou não acender, retorne imediatamente o botão do 
+forno para a posição desligado.
+Abra a porta do forno e espere pelo menos 1 minuto para que o gás liberado se espalhe.
+Só então tente acender novamente o forno de acordo com as instruções acima.
+RISCO DE ACIDENTE!
+Nunca se apoie ou permita que crianças subam na porta do forno, pois o forno pode tombar para 
+frente e causar acidentes.
+15.ORIENTAÇÕES DE LIMPEZA
+ Primeiramente, verifique se o cabo de força está desligado e se as 
+grades/parte interna não estão excessivamente quentes;
+ Certifique-se de que a válvula de gás e todos os botões estão desligados.
+Atenção: Na limpeza do fogão, não se deve usar limpadores a vapor
+Limpe os componentes do seu forno conforme as orientações da tabela 
+abaixo:
+ATENÇÃO
+PEÇA INSTRUÇÕES DE LIMPEZA
+Basta desencaixar o suporte junto à porta do forno e a 
+prateleira inferior e também os dois suportes que fazem 
+a união entre elas, posteriormente puxando-as para fora do 
+forno para limpá-las.. Use detergente neutro e uma esponja macia. 
+Ao final da limpeza, proceda do modo inverso para a remontagem. 
+Aqueça o forno por um tempo médio de 02 a 05 minutos para 
+amolecer os resíduos de gordura;
+Retire a prateleira interna do forno;
+Passe um pano úmido ou esponja embebida em água e amoníaco;
+Enxágue, pressionando com uma esponja embebida em água fria;
+Após realizar a limpeza, ligue o forno por 15 minutos na 
+posição máxima para secagem interna.
+Utilize esponja macia ou um pano úmido com água morna e 
+sabão neutro. Não deixe que as substâncias ácidas ou alcalinas, 
+como: vinagre, café, leite, água salgada, molho de tomate etc., 
+permaneçam por muito tempo em contato com as superfícies 
+esmaltadas (porta do forno, as grades, o topo e o chão do forno.)
+Utilize uma esponja macia com detergente. 
+Conserve-as limpas e isentas de crostas de sujeira.
+Peças em aço inoxidável,
+esmaltadas, vidros, painel
+e botões
+Grades
+Velas de acendimento 
+Paredes internas do forno 
+Prateleiras
+21
+
+PAGE 22
+Por motivo de higiene e segurança, evite o acúmulo de 
+resíduos, como gorduras ou outros alimentos, evitando o mau 
+funcionamento e risco de acidentes.
+A limpeza deve ser feita periodicamente com água morna e 
+sabão neutro;
+Alguns agentes de limpeza não devem ser utilizados em hipótese alguma:
+ Querosene, gasolina, solventes, ácidos, vinagres, produtos químicos ou abrasivos, pois podem 
+causar manchas.
+Obs: Não use produtos de limpeza abrasivos ou raspadores metálicos afiados para limpar o vidro da 
+porta uma vez que podem arranhar a superfície, que pode resultar em quebra de vidro. 
+OUTROS CUIDADOS IMPORTANTES
+Não deixe a água secar ou evaporar diretamente sobre peças em inox, segue imediatamente com um 
+pano seco e macio, evitando manchas. 
+Não use palha de aço ou similares para limpeza de qualquer parte do forno.
+Ao derramar qualquer líquido ou alimento dentro do forno, limpe imediatamente para evitar manchas 
+e possíveis acúmulos de resíduos nos condutores.
+Não deixe que as substâncias ácidas ou alcalinas, como: vinagre, café, leite, água salgada, molho de 
+tomate etc., permaneçam por muito tempo em contato com as superfícies esmaltadas (porta do forno, as 
+grades, o topo e o chão do forno.)
+16. RESOLUÇÃO DE PROBLEMAS
+• LEIA O MANUAL DE INSTRUÇÕES DO USUÁRIO;
+• Procure orientação na tabela: PROBLEMA + CAUSA = SOLUÇÃO
+• Caso permaneçam dúvidas ou os problemas persistam, consulte nosso PÓS-VENDAS:
+Fone: (51) 3793-2000;
+E-mail: posvendas@venax.com.br;
+• Recomendamos a aquisição de peças e acessórios originais para substituição, se necessário.
+• Para sua tranquilidade, mantenha o Manual do Consumidor, este Termo de Garantia e a Nota Fiscal 
+de compra do produto em local seguro e de fácil acesso.
+PROBLEMA + CAUSA = SOLUÇÃO
+Em alguns casos, com um simples procedimento, você pode solucionar um eventual problema em 
+seu produto. Antes de acionar o Serviço Técnico Autorizado, faça as verificações seguindo a tabela 
+abaixo. Se o defeito persistir, solicite o atendimento de um técnico da rede autorizada.
+Queimador não acende
+Acendimento automático 
+não funciona (não da chispa)
+Forno não assa
+Luz do forno não acende
+Cheiro de gás (vazamento)
+Grill elétrico não liga
+CAUSA E SOLUÇÃO
+PROBLEMA
+O regulador de pressão do gás esta com a data 
+de validade vencida / Vazando
+O regulador de pressão do gás está fechado
+x x x
+A mangueira do gás está dobrada
+x
+x x
+22
+
+PAGE 23
+O queimador está sujo ou molhado x
+O gás está no fim x x
+A lâmpada esta queimada, mal rosqueada ou não 
+foi instalada
+Injetor sujo ou obstruído
+x
+x x
+O forno não está ligado à tomada / a tomada 
+não está energizadaVerifique se o eletrodo de ignição está seco e limpo
+Falta de energia elétrica
+Todos os botões de acionamento estão desligados
+A mangueira está furada ou mal encaixada
+O regulador de pressão está com vazamento
+Pressionar botão da válvula de segurança por 
+10 segundos
+x
+x
+x
+x
+x
+x x
+x
+x
+x
+x
+x
+Queimador não acende/
+não permanece aceso
+Acendimento automático 
+não funciona (não da chispa)
+Forno não assa
+Luz do forno não acende
+Cheiro de gás (vazamento)
+Grill elétrico não liga
+CAUSA E SOLUÇÃO
+PROBLEMA
+x
+x
+23
+
+PAGE 24
+17. CERTIFICADO DE GARANTIA
+1) Todos os produtos fabricados pela Venax Eletrodomésticos possuem garantia de 1 (um) ano, a contar 
+da data de emissão da Nota Fiscal do produto, sendo: 90 (noventa) dias de garantia legal, estabelecida 
+pelo art. 26, inc. II, da Lei 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), e mais 9 
+(nove) meses de garantia contratual, subsequentes à garantia legal, oferecida pela Fabricante. 
+2) Para acionar a garantia, legal ou contratual, é necessário que o produto esteja sendo utilizado 
+exclusivamente para fins domésticos e de forma adequada, conforme as normas e instruções constantes 
+deste manual. Também é necessário ter em mãos a Nota Fiscal de compra e o número de série do 
+produto. 
+3) As garantias legal e contratual cobrem apenas vícios e defeitos comprovadamente oriundos de 
+fabricação, incluindo a substituição de peças e mão de obra para conserto do produto.
+4) As garantias legal e contratual não cobrem:
+a) produtos que estejam em desacordo com qualquer das instruções contidas neste manual;
+b) despesas com a instalação do produto, peças/componentes extras e respectiva mão de obra;
+c) avarias causadas por terceiros, resultantes do transporte e/ou manuseio do produto;
+d) defeitos ocasionados pela má instalação, uso e/ou acondicionamento incorreto do produto e seus 
+componentes; 
+e) conversão de gás (quando se tratar de produto a gás);
+f) falhas e/ou defeitos nas partes em vidro e mesas vitrocerâmicas, lâmpadas, botões de comando, 
+puxadores, queimadores, espalhadores e trempes;
+g) desgastes ocasionados pelo uso do produto.
+5) Ocorrerá a perda das garantias legal e contratual nas seguintes hipóteses:
+a) o produto estiver em desacordo com qualquer das instruções contidas neste manual;
+b) ausência da Nota Fiscal do produto;
+c) ausência da etiqueta de identificação do produto com número de série;
+d) utilização de peças não originais de fábrica;
+e) substituição ou alteração das condições, peças ou componentes originais do produto;
+f) atuação de terceiros ou de Assistência Técnica não autorizados pela Venax Eletrodomésticos;
+g) oxidação ou qualquer detrimento por uso irregular e/ou umidade excessiva; 
+h) danos decorrentes da utilização de produto inflamável.
+6) Considerações gerais: 
+a) Esgotado o período de abrangência da garantia, todas as despesas em virtude de reparos, peças 
+ou qualquer outro tipo de suporte serão de encargo exclusivo do Consumidor.
+b) O atendimento será prestado, preferencialmente, no local onde se encontra o produto, contanto 
+que o mesmo esteja dentro do perímetro urbano da cidade, no endereço constante na nota fiscal de 
+compra e que o local não seja considerado de risco e/ou de difícil acesso, ocasiões em que deve o 
+Consumidor, mediante prévia autorização da Venax Eletrodomésticos, transportar o produto até a 
+sede da assistência técnica designada para o atendimento, às suas expensas. 
+c) Se tratando de produto a gás, e sendo constatada a necessidade de conversão de gás no produto 
+(para que o mesmo possa operar utilizando gás natural), tal procedimento deve ser realizado com 
+assistente técnico da rede credenciada da Venax Eletrodomésticos às expensas exclusivas do 
+Consumidor. 
+d) A Venax Eletrodomésticos reserva-se o direito de a qualquer tempo, sem notificação prévia, 
+realizar alterações nas características gerais, técnicas e estéticas de seus produtos. 
+24
+
+PAGE 25
+ANOTAÇÃO
+
+PAGE 26
+ANOTAÇÃO
+
+PAGE 27
+
+
+PAGE 28
+CÓD. 375 | ED.2 | R.21 | 05/2025
+Nos conte como foi a sua experiência com a marca Venax! 
+Já usou o seu produto?
+Conheça nossos outros produtos
+Rua Tiradentes, 100 - Centro - CEP: 95800-000
+Venâncio Aires/RS - Brasil - Fone: 51 3793 2000
+CNPJ: 90.295.338/0001-00
+WWW.VENAX.COM.BR
+@venaxeletro
+Siga nosso Instagram!
+Valorizamos muito sua opinião! 
+Convidamos você a participar da nossa
+Pesquisa de Satisfação.
+Fogões a gás| Fogões industriais | Cooktops | Fogões de indução | Coifas
+Fogões a lenha | Fogões a Pellets | Calefatores | Lareiras | Aquecedores
+Fornos de embutir | Fornos elétricos | Fornos Industriais | Churrasqueiras
+Adegas | Champanheiras | Frigobares | Expositores refrigerados | Freezers
+Maturadoras | Cervejeiras | Chopeiras | Bebedouros
+PREZADO CLIENTE
+A Venax Eletrodomésticos Ltda coloca-se à disposição.
+Solicite este manual em PDF pelo e-mail abaixo. 
+Nossos contatos são:
+Fone: (51) 3793-2000
+E-mail: contato@venax.com.br

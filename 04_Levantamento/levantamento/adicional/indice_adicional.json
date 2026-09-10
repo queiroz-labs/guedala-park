@@ -1,0 +1,338 @@
+[
+  {
+    "id": "AD-0110",
+    "segundo": 110,
+    "path": "frames/AD-0110.jpg",
+    "legenda": "Entrada: quadro fechado e posição junto à porta"
+  },
+  {
+    "id": "AD-0130",
+    "segundo": 130,
+    "path": "frames/AD-0130.jpg",
+    "legenda": "Quadro: geral/DR e posições de manobra"
+  },
+  {
+    "id": "AD-0142",
+    "segundo": 142,
+    "path": "frames/AD-0142.jpg",
+    "legenda": "Quadro: tampas laterais; capacidade não determinada"
+  },
+  {
+    "id": "AD-0154",
+    "segundo": 154,
+    "path": "frames/AD-0154.jpg",
+    "legenda": "Teto da cozinha e transição de planos"
+  },
+  {
+    "id": "AD-0166",
+    "segundo": 166,
+    "path": "frames/AD-0166.jpg",
+    "legenda": "K-E01, K-E02 e K-E04: tomadas na região da pia"
+  },
+  {
+    "id": "AD-0170",
+    "segundo": 170,
+    "path": "frames/AD-0170.jpg",
+    "legenda": "K-E02: placa dupla à direita da pia"
+  },
+  {
+    "id": "AD-0178",
+    "segundo": 178,
+    "path": "frames/AD-0178.jpg",
+    "legenda": "K-E03: tomada alta na parede da pia"
+  },
+  {
+    "id": "AD-0186",
+    "segundo": 186,
+    "path": "frames/AD-0186.jpg",
+    "legenda": "K-E04: tomada acima da pia e contexto do gás"
+  },
+  {
+    "id": "AD-0202",
+    "segundo": 202,
+    "path": "frames/AD-0202.jpg",
+    "legenda": "K-H02 e K-E05: espaço sob a pia"
+  },
+  {
+    "id": "AD-0206",
+    "segundo": 206,
+    "path": "frames/AD-0206.jpg",
+    "legenda": "K-E05: tomada, sifão, lacres e suportes metálicos"
+  },
+  {
+    "id": "AD-0218",
+    "segundo": 218,
+    "path": "frames/AD-0218.jpg",
+    "legenda": "K-H01: torneira com dois comandos"
+  },
+  {
+    "id": "AD-0238",
+    "segundo": 238,
+    "path": "frames/AD-0238.jpg",
+    "legenda": "K-G01 / AV-01: ponto de gás e aviso do fogão"
+  },
+  {
+    "id": "AD-0246",
+    "segundo": 246,
+    "path": "frames/AD-0246.jpg",
+    "legenda": "K-E06, K-E07 e conexões no retorno do tanque"
+  },
+  {
+    "id": "AD-0262",
+    "segundo": 262,
+    "path": "frames/AD-0262.jpg",
+    "legenda": "L-D01, L-H04 e instalações sob o tanque"
+  },
+  {
+    "id": "AD-0278",
+    "segundo": 278,
+    "path": "frames/AD-0278.jpg",
+    "legenda": "L-H02, L-G01 / AV-02: região do futuro aquecedor"
+  },
+  {
+    "id": "AD-0302",
+    "segundo": 302,
+    "path": "frames/AD-0302.jpg",
+    "legenda": "L-H03: ponto tampado e abertura para conexão"
+  },
+  {
+    "id": "AD-0322",
+    "segundo": 322,
+    "path": "frames/AD-0322.jpg",
+    "legenda": "L-C01 e L-V02: volumes e abertura circular alta"
+  },
+  {
+    "id": "AD-0334",
+    "segundo": 334,
+    "path": "frames/AD-0334.jpg",
+    "legenda": "L-I01 / E-C02: interfone e duas teclas"
+  },
+  {
+    "id": "AD-0350",
+    "segundo": 350,
+    "path": "frames/AD-0350.jpg",
+    "legenda": "Porta de entrada fechada"
+  },
+  {
+    "id": "AD-0358",
+    "segundo": 358,
+    "path": "frames/AD-0358.jpg",
+    "legenda": "E-C01: comando junto à entrada"
+  },
+  {
+    "id": "AD-0382",
+    "segundo": 382,
+    "path": "frames/AD-0382.jpg",
+    "legenda": "S-E03: ponto na face do volume central"
+  },
+  {
+    "id": "AD-0398",
+    "segundo": 398,
+    "path": "frames/AD-0398.jpg",
+    "legenda": "S-E01 / S-T01: posição dos grupos na sala"
+  },
+  {
+    "id": "AD-0406",
+    "segundo": 406,
+    "path": "frames/AD-0406.jpg",
+    "legenda": "S-E01 / S-T01: placas de energia e comunicação"
+  },
+  {
+    "id": "AD-0414",
+    "segundo": 414,
+    "path": "frames/AD-0414.jpg",
+    "legenda": "S-E02: tomada na parede longa da sala"
+  },
+  {
+    "id": "AD-0430",
+    "segundo": 430,
+    "path": "frames/AD-0430.jpg",
+    "legenda": "E-C03: comandos junto à circulação"
+  },
+  {
+    "id": "AD-0446",
+    "segundo": 446,
+    "path": "frames/AD-0446.jpg",
+    "legenda": "T-I01: quatro saídas de teto no conjunto social"
+  },
+  {
+    "id": "AD-0482",
+    "segundo": 482,
+    "path": "frames/AD-0482.jpg",
+    "legenda": "B-D01/02: ralos da área de banho e das louças"
+  },
+  {
+    "id": "AD-0486",
+    "segundo": 486,
+    "path": "frames/AD-0486.jpg",
+    "legenda": "B-E01: interruptor e tomada junto ao lavatório"
+  },
+  {
+    "id": "AD-0502",
+    "segundo": 502,
+    "path": "frames/AD-0502.jpg",
+    "legenda": "Banheiro: janela e retorno da área de banho"
+  },
+  {
+    "id": "AD-0506",
+    "segundo": 506,
+    "path": "frames/AD-0506.jpg",
+    "legenda": "AV-03: aviso de 2 cm para fixação do box"
+  },
+  {
+    "id": "AD-0514",
+    "segundo": 514,
+    "path": "frames/AD-0514.jpg",
+    "legenda": "Janela do banheiro: detalhe da ferragem lateral"
+  },
+  {
+    "id": "AD-0518",
+    "segundo": 518,
+    "path": "frames/AD-0518.jpg",
+    "legenda": "Janela do banheiro: folha projetante aberta"
+  },
+  {
+    "id": "AD-0538",
+    "segundo": 538,
+    "path": "frames/AD-0538.jpg",
+    "legenda": "B-H02: região dos pontos da área de banho"
+  },
+  {
+    "id": "AD-0554",
+    "segundo": 554,
+    "path": "frames/AD-0554.jpg",
+    "legenda": "B-H01: alimentação da caixa do vaso"
+  },
+  {
+    "id": "AD-0562",
+    "segundo": 562,
+    "path": "frames/AD-0562.jpg",
+    "legenda": "Banheiro: área de banho e pontos no retorno"
+  },
+  {
+    "id": "AD-0566",
+    "segundo": 566,
+    "path": "frames/AD-0566.jpg",
+    "legenda": "Quarto A: entrada, piso e placas sob a janela"
+  },
+  {
+    "id": "AD-0574",
+    "segundo": 574,
+    "path": "frames/AD-0574.jpg",
+    "legenda": "A-E01: tomada e placa com conector"
+  },
+  {
+    "id": "AD-0578",
+    "segundo": 578,
+    "path": "frames/AD-0578.jpg",
+    "legenda": "Quarto A: trecho lateral e parede da janela"
+  },
+  {
+    "id": "AD-0602",
+    "segundo": 602,
+    "path": "frames/AD-0602.jpg",
+    "legenda": "Quarto A: vista frontal da janela e pontos baixos"
+  },
+  {
+    "id": "AD-0610",
+    "segundo": 610,
+    "path": "frames/AD-0610.jpg",
+    "legenda": "Janela do quarto A: manipulação da folha"
+  },
+  {
+    "id": "AD-0618",
+    "segundo": 618,
+    "path": "frames/AD-0618.jpg",
+    "legenda": "Janela do quarto A: detalhe do fecho"
+  },
+  {
+    "id": "AD-0626",
+    "segundo": 626,
+    "path": "frames/AD-0626.jpg",
+    "legenda": "Quarto A: banheiro visível em frente à porta"
+  },
+  {
+    "id": "AD-0634",
+    "segundo": 634,
+    "path": "frames/AD-0634.jpg",
+    "legenda": "Quarto A: piso e transição com circulação"
+  },
+  {
+    "id": "AD-0650",
+    "segundo": 650,
+    "path": "frames/AD-0650.jpg",
+    "legenda": "Percurso: vista do quarto lateral ainda escuro"
+  },
+  {
+    "id": "AD-0658",
+    "segundo": 658,
+    "path": "frames/AD-0658.jpg",
+    "legenda": "Porta do banheiro: fecho e placa elétrica"
+  },
+  {
+    "id": "AD-0662",
+    "segundo": 662,
+    "path": "frames/AD-0662.jpg",
+    "legenda": "Revisita ao quarto A — não é ainda o quarto B"
+  },
+  {
+    "id": "AD-0698",
+    "segundo": 698,
+    "path": "frames/AD-0698.jpg",
+    "legenda": "B-E01: tomada e placa de comunicação"
+  },
+  {
+    "id": "AD-0702",
+    "segundo": 702,
+    "path": "frames/AD-0702.jpg",
+    "legenda": "B-E02: duas placas próximas ao canto"
+  },
+  {
+    "id": "AD-0706",
+    "segundo": 706,
+    "path": "frames/AD-0706.jpg",
+    "legenda": "B-E03: tomada baixa em parede lateral"
+  },
+  {
+    "id": "AD-0714",
+    "segundo": 714,
+    "path": "frames/AD-0714.jpg",
+    "legenda": "Quarto B: persiana fechada"
+  },
+  {
+    "id": "AD-0718",
+    "segundo": 718,
+    "path": "frames/AD-0718.jpg",
+    "legenda": "Quarto B: persiana em movimento"
+  },
+  {
+    "id": "AD-0722",
+    "segundo": 722,
+    "path": "frames/AD-0722.jpg",
+    "legenda": "Quarto B: vidro e abertura com entrada de luz"
+  },
+  {
+    "id": "AD-0730",
+    "segundo": 730,
+    "path": "frames/AD-0730.jpg",
+    "legenda": "Quarto B: detalhe da fita e do fechamento"
+  },
+  {
+    "id": "AD-0734",
+    "segundo": 734,
+    "path": "frames/AD-0734.jpg",
+    "legenda": "Quarto B: retorno em direção à porta"
+  },
+  {
+    "id": "AD-0750",
+    "segundo": 750,
+    "path": "frames/AD-0750.jpg",
+    "legenda": "Percurso de saída de B: banheiro lateral"
+  },
+  {
+    "id": "AD-0754",
+    "segundo": 754,
+    "path": "frames/AD-0754.jpg",
+    "legenda": "Percurso: relação entre acessos dos dois quartos"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "revisao": "R00",
+  "data": "2026-09-09",
+  "status": "estudo preliminar; equipamentos não aprovados",
+  "orcamento_brl": 9000,
+  "moradores": 1,
+  "moradores_futuros": 2,
+  "visitas_adicionais": 4,
+  "apoio": {
+    "forma": "retorno em L junto à janela",
+    "largura_aproximada_cm": 15,
+    "comprimento_cm": null,
+    "altura_cm": null
+  },
+  "agua_quente": {
+    "desejo": "todas as torneiras",
+    "necessita_banho_e_torneira_simultaneos": false,
+    "resposta_sobre_simultaneidade_recebida": true,
+    "rede_existente_confirmada": false,
+    "aquecedor_em_avaliacao_apos_resposta": "Rinnai E15 FEH"
+  },
+  "reserva_orcamento_brl": {
+    "lava_seca": 3200,
+    "geladeira": 2900,
+    "aquecedor": 2900
+  },
+  "precos_observados": {
+    "midea_pix": 3199,
+    "midea_parcelado": 3367.37,
+    "if44_catalogo": 2899,
+    "if44_pagina": 3199,
+    "e21_vista_validade_2026_09_08": 2519,
+    "ib6": 3699
+  },
+  "video": {
+    "caminho": "90_Arquivo_de_apoio/Video Apartamento Espelhado.mp4",
+    "bytes": 179596236,
+    "duracao_s": 774.131,
+    "dimensoes_px": [
+      1920,
+      1080
+    ],
+    "sha256": "1cd9822933d7199fc92150184379912301e205012e5e4fcd312cd72ffda6dc3d",
+    "nova_reproducao_integral": false
+  },
+  "fontes": {
+    "midea": "https://www.midea.com.br/lava-e-seca-11kg-branca-inverter-midea-2731/p",
+    "manual_midea": "https://conteudo.midea.com.br/manuais/lava-e-seca-ciclo-pets.pdf",
+    "if44": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-400l-autosense-inverter-duplex-branca--if44-/p",
+    "catalogo_electrolux": "https://loja.electrolux.com.br/eletrodomesticos/geladeiras---refrigeradores?page=3",
+    "ib6": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-400l-efficient-rapid-freeze-inverse-branca--ib6-/p",
+    "rinnai": "https://www.rinnai.com.br/aquecedores-a-gas/aquecedores-a-g%C3%81s/e21-1/",
+    "manual_rinnai": "https://www.rinnai.com.br/uploads/repositorio/REUE170_E210FEH%202c242dc3bad3726f1f78ae69ba40e1334.pdf",
+    "oferta_e21": "https://www.leroymerlin.com.br/aquecedor-a-gas-rinnai-21-gn-prata-e21_91697305",
+    "lg": "https://www.lg.com/br/lavanderia/lava-e-seca/cv3012wc5/",
+    "e15": "https://www.rinnai.com.br/aquecedores-a-gas/linha-prata/e15-1/"
+  },
+  "aviso_historico": {
+    "documento": "revisão histórica",
+    "teto_vigente_brl": 10000,
+    "fonte_atual": "A04.3 R01",
+    "nao_usar_teto_da_revisao_como_atual": true
+  }
+}

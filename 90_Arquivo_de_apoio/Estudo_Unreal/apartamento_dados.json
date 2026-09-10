@@ -1,0 +1,51 @@
+{
+  "_sobre": "Planta reconstruida a partir do memorial oficial 'GUEDALA PARK III' (Cury), Torre 02, apartamento final 06, valido do 4o ao 16o pavimento. Todas as medidas de cada comodo vieram direto do documento em PDF. A area integrada (circulacao + sala + cozinha + area de servico) nao tem paredes internas na planta original, entao aqui ela vira um unico ambiente retangular, com rotulos de texto marcando onde fica cada uso. Se ao medir o apartamento pessoalmente voce notar diferenca em algum numero, so editar aqui - o script le este arquivo toda vez que roda.",
+  "unidade": "metros",
+  "pe_direito_m": 2.60,
+  "_pe_direito_nota": "Pe-direito (altura do teto) nao vem no memorial de unidade - 2.60m e um valor tipico desse padrao de empreendimento. Ajuste se souber o valor real.",
+  "espessura_parede_m": 0.15,
+  "altura_porta_m": 2.10,
+
+  "ambientes_fechados": [
+    {
+      "nome": "Quarto Principal",
+      "x": 0.0,
+      "y": 0.90,
+      "largura": 2.45,
+      "profundidade": 2.95,
+      "porta": { "parede": "leste", "distancia_do_canto": 1.50, "largura": 0.80 }
+    },
+    {
+      "nome": "Escritorio",
+      "x": 2.45,
+      "y": 0.0,
+      "largura": 2.30,
+      "profundidade": 2.95,
+      "porta": { "parede": "sul", "distancia_do_canto": 1.15, "largura": 0.80 }
+    },
+    {
+      "nome": "Banho",
+      "x": 2.45,
+      "y": 3.85,
+      "largura": 2.09,
+      "profundidade": 1.24,
+      "porta": { "parede": "norte", "distancia_do_canto": 0.20, "largura": 0.70 }
+    }
+  ],
+
+  "area_integrada": {
+    "nome": "Sala, Cozinha, Circulacao e Area de Servico (ambiente unico)",
+    "x": 2.45,
+    "y": 2.95,
+    "largura": 4.78,
+    "profundidade": 6.05,
+    "porta_entrada": { "parede": "sul", "distancia_do_canto": 3.75, "largura": 0.90 }
+  },
+
+  "rotulos_internos": [
+    { "nome": "CIRCULACAO", "x": 3.60, "y": 3.40 },
+    { "nome": "SALA", "x": 6.00, "y": 5.20 },
+    { "nome": "COZINHA", "x": 5.50, "y": 8.20 },
+    { "nome": "AREA DE SERVICO", "x": 3.10, "y": 8.20 }
+  ]
+}

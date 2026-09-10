@@ -1,0 +1,265 @@
+A01.1 · Extração adicional · R02 Relatório Frames Percurso Áudio Imprimir A01.1 — Extração adicional do vídeo · R02 
+Guedala Park III · referência ao projeto Torre 02 / Final 06 · 07/09/2026 
+Resultado:  inventário ampliado de pontos visíveis, análise de movimentos, percurso dos quartos, leitura de avisos, transcrição automática e mapa das lacunas de cobertura. Complementa a R01 e corrige a identificação do frame de 11:06. 
+1. O que foi acrescentado 
+1.  9 posições de conexão de tomada, em 7 placas, identificadas na parede de equipamentos da cozinha/serviço.  Incluem uma tomada sob a pia e uma tomada alta. É uma contagem mínima visível, não um levantamento de circuitos. 
+2.  Interfone e comandos de iluminação:  duas teclas junto ao interfone, comando junto à entrada e conjunto de três teclas junto à circulação. As funções elétricas não foram testadas. 
+3.  Dois ralos no banheiro:  um na área de banho e outro junto às louças. A R01 não destacava os dois no inventário. 
+4.  Aviso do box com 2 cm , distinto do aviso de 3 cm para o aquecedor. Ambos são locais à unidade filmada. 
+5.  Janelas:  movimento da folha de vidro no primeiro quarto, fechamento de escurecimento operado por fita no segundo e folha projetante com ferragem lateral no banheiro. 
+6.  Correspondência provável dos quartos:  A → Dormitório 02; B → Dormitório 01, considerando o espelhamento identificado na R01. A conclusão se apoia no percurso, não na aparência de tamanho. 
+2. Método, fontes e classificação 
+V01:  mesmo vídeo de 12min54,13s usado na R01. Nova triagem: 173 posições entre 01:26 e 12:54, a cada quatro segundos. Nos trechos de transição entre quartos/banheiro, foram inspecionados mais 51 frames com intervalo de um segundo. Foram selecionados  56 frames adicionais em 1920 × 1080 , identificados como AD-xxxx, em que xxxx é o segundo do vídeo. As 3 folhas de percurso preservam os horários de cada imagem. 
+P01:  PDF oficial torre_02_tipo_final_06 (1).pdf, já conferido na R01. Não foi editado. Suas cotas e orientação continuam sendo a verdade geométrica. A unidade filmada apresenta lateralidade oposta; as posições abaixo descrevem o vídeo, não coordenadas prontas para copiar à planta. 
+A01-áudio:  transcrição local automática do áudio completo, em português, com Whisper small. A saída bruta tem erros de reconhecimento e não foi validada por escuta manual palavra a palavra. Os relatos selecionados foram confrontados com as imagens quando possível; não são especificações oficiais. A transcrição com horários acompanha o pacote. 
+Código Critério 
+CV Confirmado visualmente na unidade filmada. 
+E Estimado/interpretado, sem confirmação física ou documental suficiente. 
+R Relato identificado na transcrição automática; pode conter erro de reconhecimento e opinião do apresentador. 
+O A conferir na unidade de Elias, no manual ou em projeto específico. 
+Não foram extraídas medidas lineares, tensão, capacidade de carga, bitolas, estanqueidade, isolamento acústico ou material interno das paredes. Movimento aparente não comprova desempenho nem abertura máxima permitida pelo fabricante. 
+3. Inventário da cozinha e área de serviço 
+Parede K1 — parede da pia e dos equipamentos 
+Para localizar os itens, olhar  de frente para a parede da pia  no vídeo: lavanderia à esquerda e entrada à direita. Essa convenção é apenas descritiva e não altera P01. 
+ID Elemento / localização relativa Qtd. visível Evidência Status e pendência 
+K-E01 Placa de tomada mais próxima da entrada, à direita da pia 1 tomada AD-0166  · 02:46 CV; possível posição de geladeira é relato, não destinação comprovada. O: circuito, tensão e eixo. 
+K-E02 Placa dupla à direita da cuba 2 tomadas AD-0166  /  AD-0170  · 02:46–02:50 CV; O: uso/circuito e altura em relação à bancada futura. 
+K-E03 Placa alta acima da região da pia 1 tomada AD-0178  · 02:58 CV; não classificar automaticamente como micro-ondas/coifa. 
+K-E04 Placa acima da pia, próxima à torneira 1 tomada AD-0186  · 03:06 CV; O: posição em relação ao novo frontão e equipamentos. 
+K-E05 Placa sob a pia, ao lado do fechamento vertical 1 tomada AD-0202  /  AD-0206  · 03:22–03:26 CV; ponto relevante para o interior do gabinete; função desconhecida. 
+K-E06 Placa dupla entre pia e ressalto do tanque 2 tomadas AD-0246  · 04:06 CV; O: identificação individual dos circuitos. 
+K-E07 Placa abaixo de K-E06, acima da tubulação aparente 1 tomada AD-0246  · 04:06 CV; O: compatibilizar com equipamentos e gás. 
+K-G01 Registro/ponto com identificação GÁS entre pia e tanque 1 ponto AD-0238  /  AD-0246  · 03:58–04:06 CV; aviso associa o trecho ao fogão e gás natural. O: manual e conexão do aparelho. 
+K-H01 Torneira da pia com dois comandos laterais 1 conjunto AD-0218  · 03:38 CV; dois comandos não comprovam água quente disponível. 
+K-H02 Sifão, fechamento vertical e suportes da pia 1 conjunto AD-0202  /  AD-0206 CV; dois suportes metálicos laterais visíveis. O: geometria do volume, acesso e possibilidade de substituição. 
+Contagem sem duplicação:  K-E01 a K-E07 somam 9 tomadas físicas em 7 placas; as mesmas placas reaparecem em vários frames e foram contadas uma vez. Não há garantia de que todas as tomadas do ambiente estejam visíveis. 
+Parede L1 — face do tanque / trecho técnico; L2 — retorno lateral; L3 — janela 
+ID Elemento / localização relativa Evidência Status e pendência 
+L-H01 Tanque suspenso e torneira AD-0262  /  AD-0278 CV; O: altura, largura, profundidade e fixação. 
+L-H02 Duas conexões tampadas acima da torneira, junto ao aviso do aquecedor AD-0278  · 04:38 CV; função de entrada/saída de água estimada pelo contexto. O: identificar cada conexão. 
+L-G01 Ponto com válvula amarela junto a L-H02 AD-0278 CV; região indicada para aquecedor. O: ligação conforme aparelho/manual. 
+L-H03 No retorno lateral: ponto superior tampado e abertura inferior de maior diâmetro aparente AD-0302  · 05:02 CV; destinação à máquina/lava e seca reforçada pelo relato de 04:53–05:10. O: confirmar funções e diâmetros. 
+L-H04 Registro metálico abaixo do tanque e à direita do sifão AD-0262  · 04:22 CV; não foi demonstrado o trecho que ele efetivamente isola. 
+L-G02 Tubulação aparente com mudanças de direção, fixadores e válvula sob o tanque AD-0262  /  AD-0246 CV; provável rede de gás conforme sinalização no conjunto. O: percurso completo. 
+L-D01 Ralo de piso próximo ao tanque AD-0262 CV; O: acesso e caimentos após a marcenaria. 
+L-V01 Grelha retangular abaixo da janela AD-0262  e contexto da R01 CV; área livre e percurso de ventilação não conhecidos. 
+L-V02 Abertura circular acima da janela AD-0322  · 05:22 CV; ligação à exaustão do aquecedor é interpretação/relato, não verificada. 
+L-C01 Ressalto vertical revestido e volumes no encontro com o teto AD-0322 CV; O: dimensões e correspondência exata com P01/manual. 
+L-I01 Interfone na parede oposta aos equipamentos, ao lado de duas teclas AD-0334  · 05:34 CV; funcionamento citado pelo apresentador, sem teste independente. 
+Para a marcenaria:  preservar no estudo uma zona de acesso sob pia e tanque; levantar a posição real da tomada K-E05 e dos suportes; não tratar a faixa entre tanque e pia como um retângulo totalmente livre. O vídeo não determina a largura que sobra para a lava e seca e o armário vertical. 
+4. Sala, comandos e quartos 
+ID Ponto / localização no vídeo Evidência Status e limite 
+E-QD01 Quadro junto à porta de entrada AD-0110  /  AD-0130  /  AD-0142 CV: dispositivo identificado como geral/DR, cinco posições de manobra menores e tampas cegas laterais. Não confundir tampas com capacidade elétrica disponível. 
+E-C01 Comando junto à porta de entrada AD-0350  /  AD-0358  · 05:50–05:58 CV; função não testada. 
+E-C02 Duas teclas junto ao interfone AD-0334 CV; associação à iluminação da cozinha/serviço é hipótese do narrador. 
+E-C03 Conjunto de três teclas próximo à circulação AD-0430  · 07:10 CV; a mão encobre parte do conjunto nesse frame; sequência de triagem e relato ajudam a leitura. O: mapear retorno de cada tecla. 
+S-E01 Placa dupla baixa na região entre janela da sala e acesso íntimo AD-0398  /  AD-0406 CV: duas tomadas. 
+S-T01 Duas placas ao lado de S-E01 AD-0406  · 06:46 CV: conectores visíveis; um com aparência coaxial. Telefone/internet/TV precisam de identificação. Não foi comprovada porta HDMI ou Ethernet. 
+S-E02 Tomada baixa na parede longa oposta AD-0414  · 06:54 CV; O: eixo e circuito. 
+S-E03 Tomada baixa na face do volume central voltada à sala/entrada AD-0382  · 06:22 CV; O: compatibilizar com móvel/painel. 
+T-I01 Quatro saídas de teto simultaneamente visíveis no conjunto social/cozinha/serviço AD-0446  · 07:26 CV: quatro saídas no enquadramento; não equivalem a quatro circuitos independentes. 
+A-E01 Tomada ao lado de placa com conector na parede lateral do quarto A AD-0574  · 09:34 CV; aparência de coaxial na placa adjacente. O: função e cabeamento. 
+A-E02 Grupo baixo de duas placas sob a janela do quarto A AD-0566  /  AD-0602 CV: placas; resolução/ângulo não permitem identificar todo o conteúdo. 
+A-E03 Tomada baixa junto à região atrás da porta do quarto A DRA-02 da R01 · 09:42 CV; pode ser obstruída por móvel/folha da porta. 
+A-C01 Interruptor junto à porta do quarto A AD-0626  e percurso 10:32 CV; O: posição e função. 
+B-E01 Tomada e conector na região sob a janela do quarto B AD-0698  · 11:38 CV, com menor nitidez; tipo do conector estimado. 
+B-E02 Duas placas baixas próximas ao canto do quarto B AD-0702  · 11:42 CV; não declarar duas tomadas: uma pode ser telecomunicação. 
+B-E03 Tomada baixa na parede lateral do quarto B AD-0706  · 11:46 CV; posição de cabeceira é sugestão do apresentador. 
+Os pontos dos quartos são grupos distintos pelo percurso da câmera, mas o inventário não fecha um total elétrico do apartamento. Pontos encobertos pelas portas, placas pouco nítidas e circuitos continuam pendentes. 
+5. Banheiro e avisos legíveis 
+ID Registro Evidência Classificação / efeito 
+B-D01/02 Dois ralos: área de banho e área das louças AD-0482  · 08:02;  AD-0562  · 09:22 CV; diâmetro de 10 cm citado no áudio não adotado como cota. 
+B-E01 Placa com interruptor e tomada junto ao lavatório/porta AD-0486  /  AD-0658 CV; comando único visível nessa placa. Circuito não identificado. 
+B-H01 Alimentação flexível da caixa do vaso e ponto de parede AD-0554  · 09:14 CV; manipulação no vídeo não comprova estanqueidade. 
+B-H02 Dois comandos/pontos na região do banho e ponto alto na parede AD-0538  /  AD-0562 CV; provável conjunto de banho. Água quente/fria e função individual continuam O. 
+B-C01 Fechamento vertical sob lavatório e ressalto na área de banho AD-0482  /  AD-0538 CV; ocupam espaço útil. Material e removibilidade não demonstrados. 
+AV-01 Aviso para instalar fogão operado com gás natural AD-0238  · 03:58 Texto legível; é informação da unidade filmada. 
+AV-02 Aviso do aquecedor: reforço/drywall, bucha específica, limitador de profundidade de  3 cm  e proteção da tubulação AD-0278  · 04:38 e LAV-04 da R01 CV do aviso; O: aplicabilidade à sua unidade e instrução do manual. 
+AV-03 Aviso do box: bucha específica e limitador de profundidade de  2 cm  para não atingir tubulação AD-0506  · 08:26 Novo registro CV. Não confundir com os 3 cm de AV-02; não é espessura total da parede. 
+AV-04 Etiquetas/lacres na região do sifão/fechamento da pia AD-0206  · 03:26 Presença e referência à garantia visíveis. Efeito contratual e possibilidade de intervenção exigem manual; não foram validados aqui. 
+6. Portas e janelas: o que o movimento esclarece 
+Elemento Sequência inspecionada Extração confiável Limite para projeto 
+Porta de entrada 01:26–01:30 e 05:50–05:58 Folha de abrir, dobradiças laterais, acesso para dentro do apartamento; comandos ao lado. Vão, espessura, folga inferior, vedação e ângulo máximo não medidos. Giro da sua unidade vem de P01. 
+Porta do banheiro 10:52–10:59 Maçaneta, dobradiças e fecho com comando interno visíveis. Não houve ciclo completo suficiente para testar interferências com futuro gabinete. 
+Portas dos quartos 09:24–09:29; 10:25–10:32; 11:00–11:10; 12:24–12:37 Folhas de abrir e fechaduras com chaves mostradas; passagem entre quartos documentada. Não copiar lado das dobradiças para P01 sem considerar espelhamento. 
+Janela do banheiro 08:22–08:38 Folha superior projeta-se para fora; vidro translúcido; faixa inferior separada; ferragem lateral visível. Tipo maxim-ar provável. Ângulo máximo e função de limitador não medidos; não adotar sugestão do narrador de remover parafuso. 
+Janela do quarto A 10:02–10:24 Manipulação do fecho e deslocamento da folha de vidro no plano da esquadria. Compatível com correr. Medidas de vão e passagem livre não obtidas. 
+Escurecimento do quarto B 11:14–11:26; 11:54–12:10 Forte escurecimento ao fechar a porta; subida/descida das lâminas acionada por fita lateral, com entrada de luz variando. Aparência de persiana de enrolar integrada. Não quantifica vedação luminosa total, isolamento acústico ou desempenho térmico. 
+Janelas da sala e serviço Vistas gerais; sem demonstração completa de operação Painéis de vidro; veneziana superior na área de serviço. Mecanismos e aberturas totais não testados no material inspecionado. 
+7. Percurso: associação dos quartos e correção da R01 
+09:21–09:26:  a câmera sai do banheiro, atravessa a circulação e entra no quarto A.  10:26:  de dentro de A, vê-se a porta do banheiro em frente e, lateralmente, o setor da cozinha. Em P01, essa relação de portas opostas corresponde ao  Dormitório 02 . 
+10:48–11:06:  o apresentador mostra novamente as portas e o quarto A; só depois se volta ao quarto B, com o escurecimento fechado, por volta de  11:10–11:14 .  12:24–12:37:  ao sair de B, ele mostra a circulação, o banheiro lateralmente e o outro quarto. Essa relação corresponde ao  Dormitório 01  na planta. 
+Nome de trabalho no vídeo Correspondência em P01 Grau de conclusão 
+Quarto A — primeiro visitado Provável Dormitório 02, 2,30 × 2,95 m em P01 E, confiança elevada pela relação entre acessos; não confirma medidas da unidade filmada. 
+Quarto B — segundo visitado Provável Dormitório 01, 2,45 × 2,95 m em P01 E, pela posição lateral na circulação e sequência de retorno. 
+Correção explícita:  o arquivo  DRB-01_11m06s.jpg  da R00/R01 foi classificado cedo demais como quarto B; ele ainda mostra A. Nesta revisão,  AD-0662  (11:02) pertence à revisita de A; B é documentado nos frames posteriores a 11:10. Os arquivos antigos foram preservados como histórico e não devem prevalecer sobre esta correção. 
+Permanece o indício de espelhamento global já registrado na R01: o PDF define a orientação da sua unidade. A associação dos quartos serve para aproveitar suas características visuais, não para espelhar o projeto oficial. 
+8. Relatos do áudio: informação útil sem transformar fala em fato 
+Os intervalos abaixo são aproximados. A coluna “tratamento” distingue relato, opinião e evidência. A saída automática completa está no anexo, com erros mantidos visíveis em vez de uma falsa transcrição revisada. 
+Horário Conteúdo identificado na transcrição automática Tratamento 
+01:18–01:48 Apresentador diz ter acabado de receber/vistoriar a unidade e ainda não ter iniciado reforma. R; contextualiza os acabamentos mostrados, sem comprovar memorial de entrega. 
+01:48–02:18 Diz que a energia ainda não foi ligada e descreve grupos de circuitos. R; não há teste de funcionamento das tomadas. Etiquetas do quadro ajudam, mas não substituem projeto elétrico. 
+02:32–03:20 Sugere geladeira, forno, micro-ondas e coifa para determinadas tomadas. Opiniões de uso; não usadas para especificar circuitos ou equipamentos. 
+04:53–05:10 Associa as conexões ao lado do tanque à máquina/lava e seca. R coerente com a imagem; funções individuais ainda O. 
+05:10–06:23 Expressa dúvida sobre o volume e a abertura alta; depois associa a saída ao aquecedor. Hipótese do próprio apresentador. Função não promovida a CV. 
+05:31–05:57 Diz que o interfone já foi testado; especula sobre quais luzes os interruptores comandam. Interfone funcionando = R; retornos de iluminação = E. 
+06:23–06:53 Descreve pontos de TV e telefone/internet e intenção de mudar a posição da TV. R; há termos ambíguos na fala/transcrição. Não comprova HDMI, rede Ethernet pronta ou internet ativa. 
+07:53–08:07 Cita medida de ralo. R; não adotar como medida oficial nem como medição independente. 
+08:17–08:27 Diferencia o limite de furação do box, 2 cm. Conteúdo corroborado pelo aviso legível  AD-0506 . 
+08:27–08:43 Comenta limite da janela e especula sobre remoção de parafuso. Não adotado como instrução técnica; mecanismo/limite permanecem O. 
+10:29–10:49 Chama o piso dos dois quartos de “laminado”. R, compatível com aparência amadeirada; material, marca e espessura não comprovados. Atualiza a R01 apenas como relato. 
+11:12–12:10 Descreve e demonstra escurecimento e operação por fita. Movimento corroborado visualmente; “blackout” é descrição do narrador, sem ensaio. 
+Falas sobre dimensões por andar, liberdade de reforma, garantias ou materiais de teto não foram adotadas como regras. O próprio áudio contém conjecturas, e o reconhecimento automático troca termos em diversos pontos. 
+9. Mapa de cobertura: o que o vídeo mostra e o que falta 
+“Cobertura boa” significa que o elemento aparece em vários ângulos, não que tenha sido medido ou aprovado em vistoria. 
+Face / sistema Cobertura visual Lacuna concreta Melhor registro complementar 
+K1 — parede da pia/equipamentos Boa, com detalhes altos e baixos Cotas e circuito de cada ponto Foto frontal com trena/laser, eixos marcados e tabela elétrica. 
+Parede oposta da cozinha / face do interfone Parcial Extremidades, espessura dos retornos e todos os pontos baixos Varredura contínua do piso ao teto e de canto a canto. 
+L1/L2 — tanque e retorno técnico Boa na frente, parcial sob o tanque Percurso oculto, profundidade do volume e folgas Fotos laterais/por baixo, croqui cotado e manual hidráulico/gás. 
+L3 — janela e ventilação do serviço Boa na frente Área livre, parte externa e função da abertura circular Detalhe de grelhas/saída e documentação do sistema. 
+Entrada e quadro Boa do quadro, parcial da porta Vedações, vãos, corrente nominal legível de todos os dispositivos Foto frontal nítida da identificação e inspeção da porta fechada. 
+Sala — face de TV e parede longa Boa para pontos aparentes Medidas, encontros com fachada e trechos fora do enquadramento Quatro fotos por parede, incluindo rodapés e teto. 
+Banheiro — janela, box e louças Boa Atrás/abaixo de louças, ponto alto, medidas da janela e desníveis Quatro elevações fotográficas e detalhes dos eixos. 
+Quarto A Parcial a boa; porta oculta parte de parede Placas sob janela pouco nítidas e trecho atrás da porta Fotografar com porta aberta e fechada; aproximar cada placa. 
+Quarto B Parcial a boa; trecho escuro em 11:18–11:22 Perda de informação no escuro e pequenas placas desfocadas Repetir varredura com persiana aberta e luz adequada. 
+Tetos / shafts / estrutura Superfícies visíveis Composição e instalações ocultas Projeto específico e medidas de altura; o vídeo não resolve. 
+10. Aplicação prática e arquivos 
+Antes da marcenaria:  cotar K-E05 e os suportes sob a pia; medir o volume sob o tanque; confirmar funções de L-H02/L-H03; localizar as ventilacões; conferir o aviso do box no manual da unidade. Para o escritório, conferir os pontos do Dormitório 02 de P01 usando A como referência provável. 
+O pacote contém o relatório, 56 frames adicionais, 3 folhas de percurso e transcrição automática com horários. A galeria HTML incorpora as imagens para consulta sem internet; cada referência AD-xxxx no texto leva à respectiva foto. O arquivo V01 original e o PDF oficial não foram modificados. Permanecem válidas as cotas e ressalvas documentais da R01, exceto a classificação de 11:06 corrigida aqui. 
+56 frames adicionais · resolução original 
+Selecione a imagem para ampliar. As referências no relatório levam diretamente ao frame. O código AD corresponde ao segundo do vídeo. 
+Entrada e cozinha 
+AD-0110 · 01:50 — Entrada: quadro fechado e posição junto à porta 
+AD-0130 · 02:10 — Quadro: geral/DR e posições de manobra 
+AD-0142 · 02:22 — Quadro: tampas laterais; capacidade não determinada 
+AD-0154 · 02:34 — Teto da cozinha e transição de planos 
+AD-0166 · 02:46 — K-E01, K-E02 e K-E04: tomadas na região da pia 
+AD-0170 · 02:50 — K-E02: placa dupla à direita da pia 
+AD-0178 · 02:58 — K-E03: tomada alta na parede da pia 
+AD-0186 · 03:06 — K-E04: tomada acima da pia e contexto do gás 
+AD-0202 · 03:22 — K-H02 e K-E05: espaço sob a pia 
+AD-0206 · 03:26 — K-E05: tomada, sifão, lacres e suportes metálicos 
+AD-0218 · 03:38 — K-H01: torneira com dois comandos 
+Instalações e lavanderia 
+AD-0238 · 03:58 — K-G01 / AV-01: ponto de gás e aviso do fogão 
+AD-0246 · 04:06 — K-E06, K-E07 e conexões no retorno do tanque 
+AD-0262 · 04:22 — L-D01, L-H04 e instalações sob o tanque 
+AD-0278 · 04:38 — L-H02, L-G01 / AV-02: região do futuro aquecedor 
+AD-0302 · 05:02 — L-H03: ponto tampado e abertura para conexão 
+AD-0322 · 05:22 — L-C01 e L-V02: volumes e abertura circular alta 
+AD-0334 · 05:34 — L-I01 / E-C02: interfone e duas teclas 
+Sala e comandos 
+AD-0350 · 05:50 — Porta de entrada fechada 
+AD-0358 · 05:58 — E-C01: comando junto à entrada 
+AD-0382 · 06:22 — S-E03: ponto na face do volume central 
+AD-0398 · 06:38 — S-E01 / S-T01: posição dos grupos na sala 
+AD-0406 · 06:46 — S-E01 / S-T01: placas de energia e comunicação 
+AD-0414 · 06:54 — S-E02: tomada na parede longa da sala 
+AD-0430 · 07:10 — E-C03: comandos junto à circulação 
+AD-0446 · 07:26 — T-I01: quatro saídas de teto no conjunto social 
+Banheiro e janelas 
+AD-0482 · 08:02 — B-D01/02: ralos da área de banho e das louças 
+AD-0486 · 08:06 — B-E01: interruptor e tomada junto ao lavatório 
+AD-0502 · 08:22 — Banheiro: janela e retorno da área de banho 
+AD-0506 · 08:26 — AV-03: aviso de 2 cm para fixação do box 
+AD-0514 · 08:34 — Janela do banheiro: detalhe da ferragem lateral 
+AD-0518 · 08:38 — Janela do banheiro: folha projetante aberta 
+AD-0538 · 08:58 — B-H02: região dos pontos da área de banho 
+AD-0554 · 09:14 — B-H01: alimentação da caixa do vaso 
+AD-0562 · 09:22 — Banheiro: área de banho e pontos no retorno 
+Quarto A e percurso 
+AD-0566 · 09:26 — Quarto A: entrada, piso e placas sob a janela 
+AD-0574 · 09:34 — A-E01: tomada e placa com conector 
+AD-0578 · 09:38 — Quarto A: trecho lateral e parede da janela 
+AD-0602 · 10:02 — Quarto A: vista frontal da janela e pontos baixos 
+AD-0610 · 10:10 — Janela do quarto A: manipulação da folha 
+AD-0618 · 10:18 — Janela do quarto A: detalhe do fecho 
+AD-0626 · 10:26 — Quarto A: banheiro visível em frente à porta 
+AD-0634 · 10:34 — Quarto A: piso e transição com circulação 
+AD-0650 · 10:50 — Percurso: vista do quarto lateral ainda escuro 
+AD-0658 · 10:58 — Porta do banheiro: fecho e placa elétrica 
+AD-0662 · 11:02 — Revisita ao quarto A — não é ainda o quarto B 
+Quarto B e retorno 
+AD-0698 · 11:38 — B-E01: tomada e placa de comunicação 
+AD-0702 · 11:42 — B-E02: duas placas próximas ao canto 
+AD-0706 · 11:46 — B-E03: tomada baixa em parede lateral 
+AD-0714 · 11:54 — Quarto B: persiana fechada 
+AD-0718 · 11:58 — Quarto B: persiana em movimento 
+AD-0722 · 12:02 — Quarto B: vidro e abertura com entrada de luz 
+AD-0730 · 12:10 — Quarto B: detalhe da fita e do fechamento 
+AD-0734 · 12:14 — Quarto B: retorno em direção à porta 
+AD-0750 · 12:30 — Percurso de saída de B: banheiro lateral 
+AD-0754 · 12:34 — Percurso: relação entre acessos dos dois quartos 
+Sequências do percurso · intervalos de 1 segundo 
+As folhas contêm trechos selecionados separados por saltos de tempo; leia o horário em cada quadro. Não representam uma sequência contínua do início ao fim. 
+Percurso — folha 1/3: horários individuais em cada quadro 
+Percurso — folha 2/3: horários individuais em cada quadro 
+Percurso — folha 3/3: horários individuais em cada quadro 
+Narração · transcrição automática 
+Reconhecimento automático, com erros. Não é uma transcrição revisada por escuta manual. O relatório separa relatos, hipóteses e confirmações visuais. 
+Abrir transcrição completa com horários 00:00–00:31  Bom pessoal, dez em amelo, deixei o carro aqui, parado na garagem, como subiu o elevador agora, vou mostrar pra vocês os detalhes de um apartamento dois dormitório, que acabei de pegar a chave, o elevador chegou, vamos subir, estamos subindo o elevador daquele serviço, né, que tem essas proteções aqui, pra enfim, pelo que eu entendia e percebi os demais não estão funcionando, 
+00:31–00:47  que deve ser uma questão aí de início, né, de entrega de chaves, eu sou um dos primeiros que estou pegando a chave aqui, então acho que eles não estão utilizando, porque não tem tanta gente e não faz sentido de fato, né, já estamos no set mandar, 
+00:47–01:15  e aí até que eu ia cortar o vídeo, mas eu vou fazer direto, né, e aí o seguinte, eu fazer um vídeo, acredito eu que com quem as pessoas querem ver, não vou ficar falando, ai, eu não sei o que, fica mostrando a cara da pessoa e não mostra o que interessa, aqui nós estamos no mandar o décimo primeiro, as luzes vão acendendo com o sensor, isso é bom, e aqui vamos chegar na hora de ver, 
+01:17–01:46  aqui a comunidade que eu comprei, vamos mostrar, eu acabei de fazer a mistoria, estou voltando agora sozinho aqui pro apartamento, então vamos lá, essa é a vista que você tem no apartamento quando você pega as chaves, tá, não tem nada nesse apartamento além que eu já coloquei, eu fiz, vou começar a reforma ainda, então ele vem assim, e eu vou tentar mostrar, deixa eu fechar a porta aqui, vou tentar mostrar o que a gente precisa de fato ver, 
+01:47–02:16  aqui tem uma campanha, detalhe, não tem energia ainda, assim que você pega a chave, você tem que ligar na Enel, aqui em São Paulo, pra solicitar energia, no seu prazo ainda não liguei, me informaram isso, aqui você tem uma caixa de energia geral, e aqui fora iluminação, tomadas, sala e dormitorios, tomadas e banheiros, tomadas cozinhas, tomadas microondas, ou seja, tá separadinho aqui ele me falou que pode, 
+02:17–02:31  colocar mais casas se já é necessário, tem algumas informações, não pode tirar esse laque, se tem por causa da garantia, tá, aí é uma coisa que eu lembrei muito do YouTube, não vi em vídeo, nem eu fazendo, contando isso aqui, olha o teto, ele é chavuscado, eu acho ridículo, 
+02:31–02:59  como eu vou botar o forno, então vai ficar assim, ok, ele vem com esse azulejo, que eu vou chamar de revestimento, apenas nessa parede da cozinha, e da lavanderia, e vem no piso, tá, tomado, essa aqui fica muito mais pra geladeira, aí vem duas aqui, que já tem mais uma ali né, acredito que puxe o microoldas ou o forno, tem mais uma ali também que dá pra usar pra forno, 
+02:59–03:23  o microoldas ou uma coifa, por causa da carteira aqui, aqui tem uma que acho que fica legal pra manter, é, ligar um liquidificador aqui em cima da pia, eu vou colocar o mármore de ponta a ponta até o final, tá, aqui embaixo tem mais uma tomada, tá bom, isso daqui, tá vendo, 
+03:23–03:43  também foi pra não tirar, que par de garantia, se for trocar a pia, é bom não mexer naquela etiqueta, ou seja, não mexer nessas duas partes aqui, a pia é um pia comum, vem com uma torneirinha, até legal, foi essa questão aqui de abrir e fechar né, mas é uma pia até bonitinha, 
+03:44–03:57  aqui já vem instalação que sai do futuro aquecedor que eu vou colocar, já sai para o cookie ou fogão, tá, pra sair o gás, tá, vem as informações aqui, 
+03:58–04:14  dei uma olhadinha, duas tomadas, três tomadas, a pia que você já tava lá de seca né, o amar que vai te lavar, e duas que duma, pode ser pra coifa e outra pode ser pro cookie, já falei que tem mais uma tomada aqui, perfeito, tem o ralinho, 
+04:15–04:25  nessa parte que tem essa divisão, tem o ralinho aqui, aqui tá a torneira que libera essa área de água ou não, mais uma informação aqui que não pode violar, isso aqui isso não perto da minha garantia, 
+04:25–04:42  a parte da tubulação de gás que vem, acredito que de fora, lingunha ali, vem aqui, tá ligando o aquecedor, perto como eu vou sair, mas informações também, isso aqui não pode perfurar mais de três centímetros, tá dizendo aqui, 
+04:43–04:52  então só aqui que vou colocar agora o amário aqui, um repado, enfim, não pode perfurar mais que isso, tá, o gás tá fechado, vamos lá instalar, o tanque é um tanque padrão, simples, 
+04:52–05:09  torneira simples também, deixa eu fechar aqui, e aqui uma coisa que também não vem nem ver nenhum, essa informação, liga isso na máquina de lavar ou na saiglava e seca, e aqui o ralo, que isso aqui foi fantástico, já tá pronto, não precisa mexer, não precisa quebrar, beleza? 
+05:09–05:30  Eu não estou com a moçela vista, porque vocês devem estar comprando uma outra unidade, não é assim, então ela é assim, tem um ponto de luz aqui, tem essa caixa feia pra caramba, mas eu acho que é necessário pra questões de esgluto, né, aí vem essa saída de ar aqui, eu não sei pra que ser, mas tem uma saída de ar aqui, tentando ser rápido, 
+05:30–05:56  aqui vem, deixa eu ver, tá, um telefone que funciona, já testei, tem sinal, e aqui iluminação que acredito eu que seja pra essa, da lavanderia, tá, e tem mais uma aqui, que é da cozinha, e eu perguntei pra eles, dá pra fazer, colocar mais uma, mais um interruptor pra mais iluminação, que quer fazer um anti-próico, enfim, 
+05:56–06:22  eu acredito, eu que seja interruptor, tô sem energia ainda, que eu não pedi, tá, mas é isso, essa parte acho que a gente matou, né, tem uma saída de ar também ali, tá, não sei que seria aquilo, ah não, ela é pro aquecedor, certeza, já vi algumas fotos que o aquecedor sai ali, acho que é a vazão dele, enfim, aí o cara vai me explicar direitinho, aqui, normalmente as pessoas fazem sala de jantar aqui, eu vou fazer aqui a minha sala, entendeu, vou colocar ela aqui, 
+06:22–06:41  então, tem um problema, a saída de TV, o HF tá desse lado, então vou ter que dar um jeito de trans, jogá-la pra lá, ou por baixo, ou por cima, tá, mas é isso, beleza, então aqui nós temos duas tomadas, 
+06:41–06:52  uma saída de telefone, ou internet, futura ainda que eles não decidirem como é que vai ser, e aqui tem uma antena padrão em cima que dá pra conectar TV, HDMI, desse lado, 
+06:52–07:06  os pessoas provavelmente põem aqui a mesa, né, nesse lado, e ali pra passagem, eu vou botar no sofá aqui, tem uma tomada, legal, bota minha mesa também aqui, e aqui eu vou colocar um parador, acho que bacana, 
+07:06–07:20  tem que ter um pintor de três combinações, acreditou, acreditou, acreditou que seja essa, essa e talvez essa da sala, agora eu não sei se essa daqui tá repetindo a da sala, 
+07:20–07:33  ou tá repetindo a essa da cozinha, perfeito, então o teto já tem que tudo chamuscado, ele vem chamuscado nessa, nessa área que é da sala, 
+07:33–07:45  assim, a sala de jantar, cozinha, tudo chamuscado, eu vou colocar um fogo, então vai ficar, ele vai ver essa coisa feia, acho que dá mais trabalho fazer isso que eles fazem em plano, né, lixo, 
+07:45–07:51  tem um barulho aqui, eu não sei se alguém tá reformando, vai só rolando um barulho aqui, vamos pro banheiro, vai, pro banheiro, 
+07:52–08:07  banheiro vem um ralinho aqui, tá, de dez centímetros a medir, outro ralinho aqui, e é privada com caixa sem danta, desse lado, vem um interruptor mais tomado, 
+08:07–08:16  o interruptor desce, ilumina só aqui, então o que quer colocar de cróica ali dentro, vai ter que pedir pra fazer mais interruptor, tá, 
+08:16–08:26  vem o revestimento que é um piso desse lado, aqui também, aqui a mesma coisa, não pode furar por mais de dois centímetros, é menos do que do outro lado, 
+08:26–08:36  a janela, ela vem travada até esse ângulo, ela não vai mais que isso, acredito que o parafuso aqui, se tirar esse parafuso, ela consegue deslizar nesse trilho, 
+08:36–08:43  esse é o aberto da maior, tá, e o teto aqui, não vai achar uma música daquela coisa feia, aqui é realmente feito, 
+08:43–08:50  acredito que o Marga Massa, né, o Marga Massa era uma massa corrida, e fizeram o plano aqui que ficou bonito, 
+08:50–08:57  aqui ficou bonito, aqui ficou ridido, a minha opinião, beleza, e aqui é iluminação, aqui também massa corrida, 
+08:57–09:03  nesse lado também, e aqui o piso, o revestimento que é o mesmo do chão, não, a mesma formalidade, 
+09:03–09:10  só que esse brilho e esse núbio é fosco, beleza, acho que eu tirei todas as dúvidas, né, aqui também vem a, 
+09:10–09:20  nossa, olha, deixa até certo, vou mexer então, aqui vem então a água, né, saída de água para caixa da privada, 
+09:20–09:31  beleza, vamos entrar então para o quarto, seria o quarto choteiro, chato, aquela coisa feia no teto de novo, 
+09:31–09:38  e eu achei estranho porque vem desse lado, a questão da TV e mais uma tomada, normalmente ficaria desse lado, 
+09:38–09:47  inclusive a da sala está bem aqui atrás da porta, tem uma tomada aqui, outra ali, TV ali, o interruptor, 
+09:47–09:54  e uma iluminação sobre a janela, imaginando o tamanho muito legal, mas essa janela aqui, ela é absurda de grande, 
+09:54–10:00  a cura está de parabéns porque, olha, não estou com energia e está extremamente claro o apartamento, 
+10:00–10:07  e aí o que eu gostei, vou fazer nesse, não vou repetir no outro, o melhor, aqui está aberto, né, 
+10:07–10:15  aqui está aberto, vai ficar meio escuro aqui, aqui está aberto, e aí eu vou mexer no outro, 
+10:15–10:22  a forma aqui de abrir é bem simples, tá, você vira para trás e tem o acesso aqui aberto do vídeo, 
+10:22–10:28  e ele é blackout, vou mostrar no outro quarto, esse quarto aqui acho que a gente já exauriu, né, perfeito, 
+10:28–10:37  e aqui o blackout, o interruptor aqui, a verdade, os dois quartos vêm conlaminados, nessa tonalidade que eu achei bonito, 
+10:37–10:48  não tem um rodapé alto, ele encosta aqui no chão e na parede, tanto do quarto choteiro e quarto casado, 
+10:48–10:56  quartos, obviamente pequeno, tá, essa porta aqui não, não, tem chave sim, tem uma chave só, que ela é fixa, 
+10:56–11:03  não é chave que sai, esse daqui já tem duas, uma chave só, não sei o que que é essa chave aqui, 
+11:03–11:11  mas tem uma, duas chaves, perfeito, e no outro quarto também, uma, duas chaves, ok, aqui é blackout, 
+11:11–11:18  você já percebeu que tudo escuro, olha a janela, não passa nenhuma qualidade, então você deixa a porta, 
+11:18–11:26  escureceu totalmente o ambiente, então para quem gosta de ambiente para dormir escuro, perfeito, a Curi mandou muito bem, 
+11:26–11:33  e aí para abrir, aqui é a mesma coisa, tá, aquele teto fecha a luz, ela tem uma saída de iluminação, 
+11:33–11:39  o interruptor tá ali, aqui nós temos uma tomada, e aqui nós temos também a saída de TV, 
+11:39–11:48  tem mais uma tomada aqui, saída de telefone ou internet, enfim, e mais uma que acredita que fique ali na posição daquele móvel que fica do lado da cama, 
+11:48–11:54  tá, para carregar celulares, e aqui é a janela fechada e para abrir gente, extremamente fácil, 
+11:54–12:02  é só puxando que ela vai clarear os focos, e aí ó, clareou totalmente, eu vou deixar fechado, 
+12:03–12:10  muito simples, vai só puxar, ela vai descendo, e aí ó, fechou tudo, ela fica blackout, 
+12:10–12:18  tem que ser rápido, mostrar tudo, as medidas, ela tem um padrão, acho que é legal até pegar o Redux, 
+12:18–12:22  se você não comprou no seu apartamento, mas lembrando que sempre pode ter uma variação, 
+12:22–12:28  para menos ou para mais, normalmente, nas andares mais altas, para menos, que o meu tá bem no alto, 
+12:28–12:36  ok, é isso, portas todas brancas, apartamento branco já vem pintado, é isso, 
+12:36–12:41  eu gostei muito, o apartamento barato, bem localizado aqui, com uma região boa, 
+12:41–12:45  e o apartamento que dá para mexer bastante, dá para editar bastante, 
+12:45–12:50  esse apartamento aqui, quando estiver pronto, faça outro vídeo para linkar com esse para ver o que ficou, 
+12:50–12:53  beleza, espero ter ajudado, abraço, valeu! 
+Fechar 
