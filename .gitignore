@@ -2,3 +2,7 @@
 *.mp4
 .git_alt/
 .claude/
+
+# Arquivos locais de trabalho e verificacao
+/tmp/
+__pycache__/

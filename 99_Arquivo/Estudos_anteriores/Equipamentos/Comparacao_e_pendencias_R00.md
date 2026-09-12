@@ -1,0 +1,82 @@
+# A04.3 - Comparação LG e orçamento parcelado
+
+> **Orçamento vigente: R$ 10.000**, atualizado por Elias. Os valores anteriores neste documento são histórico; consultar os documentos R01 e o índice do projeto para decisões atuais.
+
+**R00 | 09/09/2026 | Comparação histórica; seleção atual na A04.3 R01**
+
+[Abrir comparação e ensaio dimensional em PDF](Comparacao_LG_e_orcamento_R00.pdf)
+
+> **Histórico - substituído pela [A04.3 R01](../../../01_Projeto/Equipamentos/LG_VC4_escolha_e_pendencias_R01.md):** Elias escolheu a LG VC4 com Wi-Fi. A recomendação da VC5 e seu ensaio dimensional não são a referência de instalação da máquina escolhida.
+
+## Respostas de Elias incorporadas
+
+- Pagamento dos equipamentos: **parcelado**. Comparar pelo total pago, excluindo descontos de Pix e cupons não verificados.
+- Tensão disponível para a lava e seca: **ainda desconhecida**. Não escolher 127 V ou 220 V por suposição.
+- Permanecem: teto de R$ 9.000, geladeira IB6 escolhida, marca LG obrigatória, aquecedor pendente, sem banho e torneira quente simultâneos. Modelo e cor da LG ainda não aprovados.
+
+## Duas candidatas LG
+
+| Critério | VC5 branca | VC4 branca |
+|---|---|---|
+| Código 127 V | CV3012WC5 | CV5012WC4 |
+| Código 220 V | CV3012WC5A | CV5012WC4A |
+| Lavagem / secagem | 12 / 7 kg | 12 / 7 kg |
+| AI DD / vapor Steam | Sim / sim | Sim / sim |
+| Wi-Fi ThinQ | Não | Sim |
+| Total parcelado na loja LG | R$ 3.999 | R$ 4.599 |
+| Parcelamento observado | Até 12x sem juros | Até 12x sem juros |
+
+As quatro páginas oficiais mostraram esses valores ao vivo. A VC5 custa R$ 600 menos nesta comparação. Recomendo-a como candidata principal pelo custo e pela capacidade; isso não representa escolha de Elias. Não foi feita uma busca exaustiva pelo menor preço nem verificado estoque/frete por CEP. Não se presume que a numeração VC5 indique uma categoria superior à VC4.
+
+## Orçamento em parcelas
+
+| Item | Total | Condição consultada |
+|---|---:|---|
+| IB6, loja Electrolux | R$ 3.699,00 | 10x de R$ 369,90 sem juros |
+| LG VC5, loja LG | R$ 3.999,00 | Até 12x sem juros |
+| Rinnai E15 GN branco, Leroy Merlin 90555640 | R$ 2.446,70 | Até 8x; parcela de R$ 305,84 exibida pela loja |
+| **Cenário VC5** | **R$ 10.144,70** | **Excesso de R$ 1.144,70** |
+| **Cenário VC4** | **R$ 10.744,70** | **Excesso de R$ 1.744,70** |
+
+Consulta ao vivo em 09/09/2026; Leroy indicou São Paulo e Região e validade nessa data. As parcelas podem apresentar arredondamento; a soma usa o total anunciado. A Electrolux também exibia 12x com juros, condição não usada no cenário. Cada loja tem seu prazo: não tratar o conjunto inteiro como uma única compra em 12x sem juros.
+
+O aquecedor é candidato, não modelo dimensionado nem aprovado. O preço é da oferta E15 GN indicada; conferir código completo, versão e gás antes da compra. Gás da unidade não confirmado. Não extrapolar cotação GN para GLP. Frete, instalação, kits e adaptações não incluídos.
+
+**Meta para respeitar o teto:** LG + aquecedor <= R$ 5.301. Mantendo a LG em R$ 3.999, o aquecedor teria de custar até R$ 1.302. Mantendo o aquecedor desta cotação, a LG teria de custar até R$ 2.854,30. São limites aritméticos, não ofertas encontradas. O orçamento não foi aumentado.
+
+## Ensaio de instalação da VC5 127 V
+
+Manual LG MFL72097501 Rev.00_112323, obtido no suporte oficial do código CV3012WC5.ABWFBRS. Cópia em `02_Plantas_e_manuais/Manuais/LG_CV3012WC5_127V_MFL72097501.pdf`. Páginas 10 e 12 verificadas visualmente.
+
+- Corpo: **60 x 85 x 56,5 cm**, L x A x P.
+- Traseira até a porta fechada: **62 cm**; até porta a 90°: **110 cm**.
+- Folgas mínimas do manual: **2 cm em cada lateral, 10 cm atrás e 0,5 cm acima**.
+- Vão livre mínimo calculado: **64 cm de largura** e **85,5 cm de altura**, antes de eventual acréscimo pelo nivelamento. Não é a altura acabada da bancada. Espessura e apoios da pedra entram acima/fora do vão necessário.
+- Profundidade instalada calculada: **72 cm até porta fechada**, **120 cm com porta a 90°**. Tubos/obstáculos podem pedir mais. Não adotar bancada de 60 cm supondo alinhamento da frente.
+- Se a seção útil real coincidir com a cota de 154 cm da planta, restariam 82 cm com porta fechada e 34 cm com porta a 90°. São contas condicionais, não circulação medida nem prova de conforto. Avaliar operação da porta, posição da pessoa e outras interferências no local.
+- Na extensão de 129 cm paralela à bancada, 129 - 64 = 65 cm antes de shaft, tanque, cesto, painéis, tubos e estrutura. Não prova cabimento.
+- Entrada de água fria; manter alimentação disponível também conforme o ciclo de secagem. Não conectar à rede quente do aquecedor. Conferir drenagem e acesso com o manual.
+- Pedra com estrutura independente, sem retirada presumida da tampa. Preservar acesso à gaveta, filtro, plugue e retirada da máquina para manutenção. Não fechar a frente com portas sem validação do fabricante.
+
+A ficha VC5 220 V publica as mesmas dimensões externas, mas o manual elétrico dessa versão precisa ser conferido se escolhida. A VC4 127 V publica 60 x 85 x 56,5 cm e profundidades 62/110 cm; a página VC4 220 V contém valores conflitantes (largura 660 mm e ordem das dimensões). Não dimensionar a alternativa 220 V sem conferir seu manual. As folgas da VC5 não foram automaticamente atribuídas à VC4.
+
+## Aquecedor e levantamento pendente
+
+O Rinnai E15 FEH informa 15 L/min a uma elevação de 20 °C e acionamento mínimo de 3,5 L/min. A escolha depende da vazão do chuveiro e das torneiras, temperatura, pressão dinâmica, gás, rede quente, ventilação e exaustão. Torneiras com fluxo restritivo podem não acionar o aparelho. Número de visitas não implica demanda simultânea. Fonte técnica: Rinnai, não a descrição comercial do varejo.
+
+Conferir com construtora/condomínio ou profissional a tensão da lavanderia e o gás da unidade. No local, levantar peitoril e janela aberta, grelhas e abertura circular, eixos de água/esgoto/gás, recessos e shaft, altura livre, largura útil e comprimento do retorno em L. O vídeo não confirma tensão ou gás nem resolve as medidas restantes.
+
+Depois da escolha e dessas conferências: implantação cotada com giro de portas, manutenção, cesto removível ventilado abaixo do tanque, varal e apoio independente da pedra. Manter o retorno em L de aproximadamente 15 cm junto à janela; não tratá-lo como módulo linear depois da máquina. Nada foi liberado para fabricação.
+
+## Prioridade e fontes
+
+A04.3 R00 prevalece sobre referências de orçamento da A04.2 R01 para esta cotação e registra as respostas sobre parcelas/tensão. A04.2 R01 continua válida para o partido e decisões anteriores; A01.2 é a base dimensional. Memorial v2 e demais escolhas, inclusive ausência de azul no quarto, permanecem.
+
+- [LG VC5 127 V](https://www.lg.com/br/lavanderia/lava-e-seca/cv3012wc5/)
+- [LG VC5 220 V](https://www.lg.com/br/lavanderia/lava-e-seca/cv3012wc5a/)
+- [LG VC4 127 V](https://www.lg.com/br/lavanderia/lava-e-seca/cv5012wc4/)
+- [LG VC4 220 V](https://www.lg.com/br/lavanderia/lava-e-seca/cv5012wc4a/)
+- [Manual LG VC5 127 V](https://www.lg.com/br/suporte/suporte-ao-producto/cs-CV3012WC5.ABWFBRS#manual-tab)
+- [Electrolux IB6](https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-400l-efficient-rapid-freeze-inverse-branca--ib6-/p)
+- [E15 GN - oferta Leroy Merlin](https://www.leroymerlin.com.br/aquecedor-a-gas-rinnai-15-gn-branco-e15_90555640)
+- [Rinnai E15 - ficha técnica](https://www.rinnai.com.br/aquecedores-a-gas/linha-prata/e15-1/)

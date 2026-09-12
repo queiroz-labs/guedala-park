@@ -1,0 +1,185 @@
+{
+  "revisao": "R01",
+  "data": "2026-09-09",
+  "status": "LG VC4 com Wi-Fi escolhida como referência; tensão e aquecedor pendentes; teto atualizado para R$ 10.000 por Elias",
+  "orcamento_brl": 10000,
+  "moradores": 1,
+  "moradores_futuros": 2,
+  "visitas_adicionais": 4,
+  "apoio": {
+    "forma": "retorno em L junto à janela",
+    "largura_aproximada_cm": 15,
+    "comprimento_cm": null,
+    "altura_cm": null
+  },
+  "agua_quente": {
+    "desejo": "todas as torneiras",
+    "necessita_banho_e_torneira_simultaneos": false,
+    "resposta_sobre_simultaneidade_recebida": true,
+    "rede_existente_confirmada": false,
+    "aquecedor_em_avaliacao_apos_resposta": "Rinnai E15 FEH"
+  },
+  "video": {
+    "caminho": "90_Arquivo_de_apoio/Video Apartamento Espelhado.mp4",
+    "bytes": 179596236,
+    "duracao_s": 774.131,
+    "dimensoes_px": [
+      1920,
+      1080
+    ],
+    "sha256": "1cd9822933d7199fc92150184379912301e205012e5e4fcd312cd72ffda6dc3d",
+    "nova_reproducao_integral": false
+  },
+  "fontes": {
+    "ib6": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-400l-efficient-rapid-freeze-inverse-branca--ib6-/p",
+    "e15": "https://www.rinnai.com.br/aquecedores-a-gas/linha-prata/e15-1/",
+    "LG VC5 127 V": "https://www.lg.com/br/lavanderia/lava-e-seca/cv3012wc5/",
+    "LG VC5 220 V": "https://www.lg.com/br/lavanderia/lava-e-seca/cv3012wc5a/",
+    "LG VC4 127 V": "https://www.lg.com/br/lavanderia/lava-e-seca/cv5012wc4/",
+    "LG VC4 220 V": "https://www.lg.com/br/lavanderia/lava-e-seca/cv5012wc4a/",
+    "Manual LG VC5 127 V": "https://www.lg.com/br/suporte/suporte-ao-producto/cs-CV3012WC5.ABWFBRS#manual-tab",
+    "Electrolux IB6": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-400l-efficient-rapid-freeze-inverse-branca--ib6-/p",
+    "E15 GN - oferta Leroy Merlin": "https://www.leroymerlin.com.br/aquecedor-a-gas-rinnai-15-gn-branco-e15_90555640",
+    "Rinnai E15 - ficha técnica": "https://www.rinnai.com.br/aquecedores-a-gas/linha-prata/e15-1/"
+  },
+  "equipamentos": {
+    "geladeira": {
+      "marca": "Electrolux",
+      "modelo": "IB6",
+      "cor": "branca",
+      "tipo": "inverse",
+      "capacidade_l": 400,
+      "status": "modelo escolhido por Elias",
+      "dimensoes_corpo_cm_LAP": [
+        60.1,
+        186.6,
+        74.7
+      ],
+      "nicho_dimensionado": false
+    },
+    "lava_seca": {
+      "marca": "LG",
+      "marca_obrigatoria": true,
+      "modelo": "VC4",
+      "capacidade_lavagem_kg": 12,
+      "capacidade_secagem_kg": 7,
+      "cor": "branca",
+      "tensao_v": null,
+      "dimensoes_cm": null,
+      "preco_brl": null,
+      "status": "LG VC4 escolhida como referência; versão elétrica e instalação pendentes",
+      "linha": "VC4",
+      "wifi": true,
+      "codigo_compra": null,
+      "codigos_por_tensao": {
+        "127": "CV5012WC4",
+        "220": "CV5012WC4A"
+      },
+      "modelo_referencia_escolhido": true,
+      "motivo_escolha": "Elias prefere ter Wi-Fi",
+      "referencia_ficha_127v": {
+        "corpo_LAP_cm": [
+          60,
+          85,
+          56.5
+        ],
+        "profundidade_porta_fechada_cm": 62,
+        "profundidade_porta_90_cm": 110,
+        "fonte": "https://www.lg.com/br/lavanderia/lava-e-seca/cv5012wc4/",
+        "folgas_validadas": false
+      }
+    },
+    "aquecedor": {
+      "modelo": null,
+      "capacidade_l_min": null,
+      "tipo_gas": "GN",
+      "fonte_confirmacao_gas": "Elias confirmou gás natural em 09/09/2026; continuidade na A04.4 R00",
+      "preco_brl": null,
+      "candidato": "Rinnai E15 FEH",
+      "status": "pendente de dimensionamento e escolha"
+    }
+  },
+  "orcamento_atual": {
+    "teto_brl": 10000,
+    "pagamento": "parcelado",
+    "ib6_brl": 3699,
+    "ib6_parcelas_sem_juros": 10,
+    "saldo_LG_mais_aquecedor_brl": 6301,
+    "lg_vc5_brl": 3999,
+    "lg_vc4_brl": 4599,
+    "lg_parcelas_sem_juros_ate": 12,
+    "rinnai_e15_gn_brl": 2446.7,
+    "rinnai_codigo_loja": "Leroy Merlin 90555640",
+    "rinnai_parcelas_ate": 8,
+    "cenario_vc5_brl": 10144.7,
+    "cenario_vc4_brl": 10744.7,
+    "excesso_vc5_brl": 144.7,
+    "excesso_vc4_brl": 744.7,
+    "total_conjunto_escolhido_brl": null,
+    "instalacao_incluida": false,
+    "frete_incluido": false,
+    "kits_incluidos": false,
+    "consulta": "2026-09-09",
+    "metodo": "páginas ao vivo; sem Pix/cupons; CEP final pendente; referência Rinnai em GN, gás da unidade desconhecido",
+    "cenario_referencia": "IB6 + LG VC4 + candidato E15 GN",
+    "cenario_referencia_brl": 10744.7,
+    "excesso_referencia_brl": 744.7,
+    "saldo_para_aquecedor_apos_ib6_vc4_brl": 1702,
+    "aumento_teto_autorizado": true,
+    "nova_cotacao_nesta_revisao": false,
+    "referencia_precos": "A04.3 R00, consulta de 09/09/2026"
+  },
+  "historico": {
+    "revisao_anterior": "A04.3 R00",
+    "comparacoes_descartadas_da_selecao_atual": [
+      "Midea MFA01D110B/WK",
+      "Electrolux IF44",
+      "LG VC5 - alternativa não escolhida"
+    ],
+    "dimensoes_Midea_aplicaveis_a_LG": false,
+    "escolha_atual": "VC4 com Wi-Fi substitui a recomendação anterior de VC5; tensão permanece pendente"
+  },
+  "documento": "A04.3",
+  "pagamento": "parcelado",
+  "tensao_lavanderia_status": "Elias ainda não sabe",
+  "ensaio_vc5_127v": {
+    "corpo_LAP_cm": [
+      60,
+      85,
+      56.5
+    ],
+    "profundidade_porta_fechada_cm": 62,
+    "profundidade_porta_90_cm": 110,
+    "folgas_cm": {
+      "lateral_cada": 2,
+      "traseira": 10,
+      "superior": 0.5
+    },
+    "minimos_calculados_cm": {
+      "largura_livre": 64,
+      "altura_livre_sem_acrescimo_nivelamento": 85.5,
+      "parede_ate_porta_fechada": 72,
+      "parede_ate_porta_90": 120
+    },
+    "cabimento_no_apartamento_comprovado": false,
+    "fonte_manual": "../../02_Plantas_e_manuais/Manuais/LG_CV3012WC5_127V_MFL72097501.pdf",
+    "manual_sha256": "bc98948396237ecb965161de25db6c50edf13770374427453692ab0b3bc91396",
+    "manual_paginas": [
+      10,
+      11,
+      12,
+      13,
+      16,
+      18
+    ],
+    "status": "histórico da R00; não utilizar no dimensionamento da VC4",
+    "aplicavel_a_modelo_escolhido": false
+  },
+  "pendencia_vc4_220v": "Ficha online contém 660 mm e ordem L/A/P conflitante; confirmar manual do código exato, não transferir medidas sem validação.",
+  "atualizacao_orcamento": {
+    "data": "2026-09-09",
+    "teto_atual_brl": 10000,
+    "fonte": "Instrução expressa de Elias para atualizar o teto nos documentos e arquivos Markdown",
+    "nova_cotacao": false
+  }
+}

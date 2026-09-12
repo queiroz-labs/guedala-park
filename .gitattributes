@@ -1,0 +1,11 @@
+# Preservar arquivos de midia e documentos sem conversao de fim de linha.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.docx binary
+*.wav binary
+*.mp4 binary
+*.zip binary
