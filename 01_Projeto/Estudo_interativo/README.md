@@ -2,6 +2,8 @@
 
 13/09/2026 · F156 · Escolhas consolidadas até F155.
 
+**Publicado no GitHub Pages:** [site](https://queiroz-labs.github.io/guedala-park/) · [moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/). [Escopo autorizado e continuidade da publicação](Publicacao_GitHub_Pages.md): somente site e moodboard foram enviados; o restante novo permanece local.
+
 [Abrir o apartamento](Guedala_Park_Interativo.html) · [Moodboard com medidas](../../03_Referencias/Moodboard_atualizado_R01.html) · [Painel visual atualizado](../../03_Referencias/Moodboard_visual_atualizado_R01.png) · [Resumo do projeto](../Resumo.md)
 
 ## Como usar
