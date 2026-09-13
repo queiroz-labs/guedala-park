@@ -4,8 +4,9 @@
 
 ## Documentos do apartamento
 
+- [Memorial oficial Cury — Guedala Park III, R00 de 03/04/2023](Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf): documento de entrega recebido do portal em 12/09/2026, preservado sem edição. [Leitura e impactos no projeto](../01_Projeto/Memorial_Cury_entrega_e_impactos.md).
 - [Planta oficial](Planta_oficial.pdf): referência documental original.
-- [Memorial do apartamento v2](Memorial_do_apartamento_v2.pdf): base de escolhas, complementada pelo [registro atual](../01_Projeto/Registro_de_decisoes.md).
+- [Memorial do apartamento v2](Memorial_do_apartamento_v2.pdf): memorial de escolhas de interiores de Elias, distinto do memorial oficial de entrega; complementada pelo [registro atual](../01_Projeto/Registro_de_decisoes.md).
 
 ## Manuais disponíveis
 
@@ -22,3 +23,14 @@ Os nomes preservam fabricante, modelo e versão para evitar confusão. A presen�
 - [Venax Forno embutir gas 50 90L 26019](Manuais/Venax_Forno_embutir_gas_50_90L_26019.pdf)
 
 [Consultar medidas e folgas de instalação](../01_Projeto/Cozinha/Medidas_e_folgas_R00.md).
+
+## Manuais incorporados na conferência F103 — 12/09/2026
+
+- [ME23P: instalação e elétrica](Manuais/Electrolux_ME23P_Manual.pdf)
+- [ME23P: guia e especificações](Manuais/Electrolux_ME23P_Guia.pdf)
+- [PE11X: instalação, folgas e especificações](Manuais/Electrolux_PE11X_Manual.pdf)
+- [RI9252: folheto de segurança](Manuais/Philips_Walita_RI9252_Manual.pdf)
+
+## Aquecedor escolhido — F107
+
+- [Rinnai E21 REU-E211 FEH — manual oficial 176](Manuais/Rinnai_E21_Manual_176.pdf), duas folhas; Rev.26292 – D08092 – RA04352. Fonte conferida em 12/09/2026.

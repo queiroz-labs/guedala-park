@@ -1,0 +1,28 @@
+{
+  "result": "PASSOU",
+  "viewports": [
+    "1440×1100",
+    "412×915 toque",
+    "915×412 paisagem"
+  ],
+  "checks": [
+    "21 combinações ambiente/vista",
+    "72 cm aberto /67 cm com recuo5",
+    "1 PS5,3 cadeiras e nenhuma caixa",
+    "rotação por toque",
+    "pinça para zoom",
+    "interior R02 incorporado",
+    "cópia HTML reaberta",
+    "sem requisições de rede",
+    "sem erro JavaScript ou overflow"
+  ],
+  "counts": {
+    "ps5": 1,
+    "chairs": 3,
+    "officeChair": 1,
+    "box": 0,
+    "finite": true
+  },
+  "errors": [],
+  "external": []
+}

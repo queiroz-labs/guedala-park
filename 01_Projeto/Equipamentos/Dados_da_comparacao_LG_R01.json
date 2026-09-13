@@ -1,7 +1,7 @@
 {
   "revisao": "R01",
   "data": "2026-09-09",
-  "status": "LG VC4 com Wi-Fi escolhida como referência; tensão e aquecedor pendentes; teto atualizado para R$ 10.000 por Elias",
+  "status": "LG VC4 CV5012WC4, 127 V, escolhida; aquecedor e validação da instalação pendentes; teto R$ 10.000",
   "orcamento_brl": 10000,
   "moradores": 1,
   "moradores_futuros": 2,
@@ -181,5 +181,12 @@
     "teto_atual_brl": 10000,
     "fonte": "Instrução expressa de Elias para atualizar o teto nos documentos e arquivos Markdown",
     "nova_cotacao": false
+  },
+  "atualizacao_F102": {
+    "data": "2026-09-12",
+    "tensao_escolhida_v": 127,
+    "codigo_vc4_escolhido": "CV5012WC4",
+    "origem": "Decisão explícita de Elias",
+    "limite": "Dados comparativos e preços de 220 V abaixo são históricos; não são escolha de compra."
   }
 }

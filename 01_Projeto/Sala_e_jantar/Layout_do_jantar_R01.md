@@ -1,4 +1,8 @@
+> **Correção de referência F119:** para a interface IB6/entrada, prevalece o ensaio F38 em [Layout da pia R02](../Cozinha/Layout_da_pia_R02.md): faixa de entrada85 cm e corpo da geladeira fora do giro hipotético. O conflito descrito nesta revisão anterior é histórico; medidas reais, portas da própria IB6 e circulação ainda precisam de conferência.
+
 # Layout do jantar — R01
+
+**Revisão F143:** requisito cotidiano substituído: as três cadeiras devem ficar recolhidas na própria mesa. Ver [R02 de formato e base](Mesa_e_tres_cadeiras_R02.md). Terceira cadeira em outro ambiente abaixo é histórico.
 
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md) · [Abrir PDF](Layout_do_jantar_R01.pdf)
 

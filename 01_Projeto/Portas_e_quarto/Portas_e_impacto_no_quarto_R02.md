@@ -1,3 +1,5 @@
+> **Atualização de 12/09/2026 (F53):** layout-base com portas originais; alterações de portas adiadas até fechar o apartamento. Escritório com sofá-cama móvel e TV/PS5, sem cama de parede. Este documento retrata um estudo anterior; consultar o [resumo vigente](../Resumo.md).
+
 # Portas e impacto no quarto — R02
 
 > **Decisão posterior ao ensaio (F52):** Elias escolheu portas de correr externas com trilho oculto para banheiro e escritório, e porta camarão na entrada recuada do dormitório. As passagens abaixo que falam em alternativa ou candidatura retratam a etapa do teste. As medidas e a execução continuam sem validação; consulte o [registro atual](../Registro_de_decisoes.md).

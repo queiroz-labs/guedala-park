@@ -1,0 +1,99 @@
+{
+  "errors": [],
+  "report": [
+    {
+      "name": "desktop",
+      "overflow": false,
+      "canvas": {
+        "x": 201,
+        "y": 161,
+        "width": 928,
+        "height": 614
+      }
+    },
+    {
+      "name": "desktop",
+      "states": {
+        "state": {
+          "room": "all",
+          "view": "iso",
+          "angle": -0.62,
+          "tilt": 0.92,
+          "side": "east",
+          "sideCut": true,
+          "zoom": 1,
+          "pan": [
+            0,
+            0
+          ],
+          "sofa": "open",
+          "office": "guest",
+          "dining": "use",
+          "console": "escritorio",
+          "dry": "stored",
+          "sofaGap": 0,
+          "rackDepth": 37,
+          "headDepth": 5,
+          "upper": true,
+          "walls": false,
+          "measures": true,
+          "selected": "bonnie"
+        },
+        "ps5": 1,
+        "metric": "72 cm\nFrente do sofá\nEstimativa; aberto\n65 cm*\nLateral do jantar\nCadeira ocupada 55 cm\n110 cm\nLargura das prateleiras\nParede ~120 cm a medir"
+      }
+    },
+    {
+      "name": "desktop",
+      "bedCards": 5,
+      "decisionsOverflow": false
+    },
+    {
+      "name": "s24plus",
+      "overflow": false,
+      "canvas": {
+        "x": 13,
+        "y": 222,
+        "width": 386,
+        "height": 446.34375
+      }
+    },
+    {
+      "name": "s24plus",
+      "states": {
+        "state": {
+          "room": "all",
+          "view": "iso",
+          "angle": -0.62,
+          "tilt": 0.92,
+          "side": "east",
+          "sideCut": true,
+          "zoom": 1,
+          "pan": [
+            0,
+            0
+          ],
+          "sofa": "open",
+          "office": "guest",
+          "dining": "use",
+          "console": "escritorio",
+          "dry": "stored",
+          "sofaGap": 0,
+          "rackDepth": 37,
+          "headDepth": 5,
+          "upper": true,
+          "walls": false,
+          "measures": true,
+          "selected": "bonnie"
+        },
+        "ps5": 1,
+        "metric": "72 cm\nFrente do sofá\nEstimativa; aberto\n65 cm*\nLateral do jantar\nCadeira ocupada 55 cm\n110 cm\nLargura das prateleiras\nParede ~120 cm a medir"
+      }
+    },
+    {
+      "name": "s24plus",
+      "bedCards": 5,
+      "decisionsOverflow": false
+    }
+  ]
+}

@@ -6,3 +6,9 @@
 # Arquivos locais de trabalho e verificacao
 /tmp/
 __pycache__/
+
+# Saida gerada para o GitHub Pages
+/.site/
+
+# Inspecao pontual de desenvolvimento
+/01_Projeto/Estudo_interativo/inspecionar.cjs

@@ -1,5 +1,11 @@
 # Equipamentos e instalação
 
+**F104 — 12/09/2026:** Elias decide manter o ME23P com **10 cm livres acima**, mesmo após conhecer a exigência de 30 cm do manual. Registrar como escolha de layout, **em desacordo com o fabricante e sem validação técnica**. Não afirmar que folgas laterais/traseiras compensam a redução. Permanecem 10 cm laterais e traseiros, frente aberta e circuito exclusivo de 20 A em 127 V. Nenhuma alteração foi solicitada para os 20 cm entre cooktop e forno.
+
+**Atualização F103:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md) registra a conferência atual e os manuais recém-arquivados. Trechos históricos abaixo que dizem não haver manual do ME23P ou mantêm tensão pendente foram superados. Folgas de 10 cm seguem sem atendimento ao manual: adotar 30 cm no estudo do ME23P e 20 cm sob o cooktop no estudo do Venax.
+
+**F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.
+
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)
 
 Referência original: A04.4. As capas dos PDFs conservam esse código.
@@ -8,7 +14,7 @@ Referência original: A04.4. As capas dos PDFs conservam esse código.
 
 ## Instruções atuais de Elias
 
-- Manter a tensão da lavanderia em aberto. Isso não impede o estudo geométrico comum às duas versões da VC4.
+- F102: lavanderia com LG VC4 CV5012WC4, 127 V. Comparações entre versões abaixo são histórico técnico.
 - Avançar nas etapas 2 a 5: manuais, aquecedor, medidas e implantação cotada.
 - Fazer perguntas diretamente na conversa e parar para aguardar a resposta, sem formulário com contagem regressiva e sem presumir resposta por silêncio.
 - Permanecem: IB6 branca, LG VC4 branca com Wi-Fi, teto de R$ 10.000 para os três equipamentos, pagamento parcelado e demais decisões do memorial/A04.2.

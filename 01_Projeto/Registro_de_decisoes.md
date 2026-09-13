@@ -1,12 +1,14 @@
 # Registro de decisões — Guedala Park
 
-**Versão 0.6 · Atualização: 2026-09-11 · Responsável pelas escolhas: Elias**
+**Versão 0.7 · Atualização: 2026-09-12 · Responsável pelas escolhas: Elias**
 
 > Registro das escolhas, requisitos, alternativas e pendências disponíveis nas fontes locais e nas instruções de Elias desta conversa. **Não é projeto executivo, aprovação técnica ou lista de compras.**
 
 [Início](../README.md) · [Resumo para leitura rápida](Resumo.md)
 
 **Navegação:** [Pendências](#2-pendências-conciliadas) · [Medidas](#21-base-disponível-e-limites-das-medidas) · [Decisões por tema](#3-cadastro-mestre) · [Respostas originais](#4-respostas-preservadas--canto-alemão) · [Fontes](#6-fontes-consultadas-nesta-consolidação)
+
+**Disposição vigente do escritório — F89:** [documento consolidado](Escritorio/README.md). Daiane escolhido, encosto principal na lateral esquerda e braço próximo à parede da porta no cotidiano; nas visitas, girar para abrir rumo à janela. Bancada de 70 cm de profundidade confirmada, 200 cm de largura em estudo. Ultra Comfort é cenário, sem escolha definitiva; entrada dos braços sob tampo a conferir. TV Samsung 43″ oposta ao sofá, PS5 Slim futuro deitado. Aéreos visualmente até o gesso, prateleiras internas reguláveis e removíveis. Altura de 2,47 m é cenário de projeto. Portas originais mantidas; marcenaria e folgas ainda não executivas. O histórico F53–F88 abaixo preserva as etapas, não prevalece sobre esta consolidação.
 
 ## 1. Como usar este registro
 
@@ -16,7 +18,7 @@ Esta revisão concilia o memorial v2, os estudos A01.2/A04.2/A04.3/A04.4, os HTM
 
 **Fonte de leitura vigente:** este Markdown. A v0.1 mencionava um JSON, mas nenhum registro mestre JSON correspondente foi localizado na pasta examinada. Não presumir sincronização automática ou base estruturada existente. Os JSONs A04.2/A04.3 são registros setoriais.
 
-**Precedência:** correções explícitas atuais de Elias prevalecem; o memorial é a base das escolhas, complementada por confirmações posteriores documentadas. Dentro de arquivos cumulativos, a confirmação ou correção final substitui o status anterior de candidato. Imagens e propostas não criam aprovações. Divergências não resolvidas continuam identificadas.
+**Precedência das escolhas:** correções explícitas atuais de Elias prevalecem; o memorial de interiores v2 é a base das escolhas, complementada por confirmações posteriores documentadas. Dentro de arquivos cumulativos, a confirmação ou correção final substitui o status anterior de candidato. Imagens e propostas não criam aprovações. Divergências não resolvidas continuam identificadas.
 
 **Limite dimensional confirmado por Elias:** estão disponíveis a planta baixa oficial e os HTMLs da pasta; não há levantamento de medidas acabadas da própria unidade disponível. Cota de planta é referência documental; observação do vídeo de unidade espelhada não é medição local. Não repetir pedidos de medidas ou documentos indisponíveis nem interromper escolhas funcionais por isso.
 
@@ -32,20 +34,22 @@ Esta revisão concilia o memorial v2, os estudos A01.2/A04.2/A04.3/A04.4, os HTM
 
 Uma escolha confirmada pode continuar com medidas, equipamentos e validações pendentes. Não há dimensões de fabricação liberadas por este registro.
 
+**Fonte de entrega — F101:** [memorial oficial Cury e impactos](Memorial_Cury_entrega_e_impactos.md). Especificações de entrega e restrições documentais são separadas das escolhas de reforma; estas não aprovam intervenções.
+
 ## 2. Pendências conciliadas
 
 | ID preservado | Situação vigente | Próximo passo adequado |
 |---|---|---|
 | P-001 | Canto alemão: dimensões e capacidade física não validadas | Testar alternativas com cotas documentais e identificar margens provisórias; conferir a unidade quando acessível. |
 | P-002 | Memorial v2 localizado e lido; pendência de recebê-lo encerrada | Usar F09 com as confirmações posteriores F12–F15. |
-| P-003 | Aquecedor sem modelo fechado; GN e ducha já escolhidos | Compatibilizar vazão, pressão, exaustão e acesso; ripado segue intenção sem aprovação técnica. |
+| P-003 | Aquecedor sem modelo fechado; infraestrutura de gás para chuveiro confirmada por F101, aparelhos não fornecidos; GN e ducha já escolhidos | Compatibilizar vazão, pressão, exaustão e acesso; ripado segue intenção sem aprovação técnica. |
 | P-004 | Acabamento do banco e tecido exato não escolhidos | Comparar as três linguagens já solicitadas, preservando estofamento e critérios aprovados. |
-| P-005 | Equipamentos principais, cuba Dora e torneira Apurema escolhidos; tensões específicas, aquecedor e especificação final da tábua pendentes | Não repetir seleção encerrada. Distinguir escolha, reserva geométrica e instalação. |
+| P-005 | Equipamentos principais, cuba Dora e torneira Apurema escolhidos; tensões antes pendentes definidas em 127 V por F102; aquecedor e especificação final da tábua pendentes | Não repetir seleção encerrada. Distinguir escolha, reserva geométrica e instalação. |
 | P-006 | Conteúdo do banco conhecido por categorias; volumes não levantados | Trabalhar com organização provisória; pedir somente informação que altere uma decisão relevante. |
-| P-007 | Infraestrutura elétrica e iluminação executiva pendentes | Manter intenções; validar cargas e pontos quando houver documentação/acesso. |
+| P-007 | Memorial F101 indica tomadas “110V” predefinidas e restrições de alteração; circuitos e iluminação executiva pendentes | Validar cargas, tensões por ponto e intervenções compatíveis antes de comprar/instalar. |
 | P-008 | Tetos parciais definidos, orçamento global não informado | Usar ORC-001–003; preços são históricos de 09/09/2026, sem nova cotação. |
 | P-009 | Programa respondido; A04.5 desenvolve estudo de carga e interface com aquecedor | Meta proposta de 30 kg molhados e grelha de estudo 100 × 50 cm; fabricante/mecanismo, ancoragem e implantação ainda sem validação executiva. |
-| P-010 | ME23P: 10 cm solicitados versus 30 cm acima registrados no manual | Resolver compatibilização antes da execução; não tratar solicitação como validação. |
+| P-010 | F104: Elias mantém 10 cm superiores após conhecer os 30 cm exigidos pelo manual | Escolha de layout confirmada; divergência técnica permanece, sem aprovação de instalação. |
 | P-011 | Forno sob cooktop: 10 cm solicitados versus 20 cm registrados no manual Venax | Preservar posição desejada e divergência explícita; ventilação traseira não comprova equivalência. |
 | P-012 | F25 encerra a dúvida do total: máximo de seis pessoas, cinco amigos mais Elias; três no canto alemão e três cadeiras | Validar cabimento, conforto e circulação no layout; não acrescentar o segundo morador ao máximo definido. |
 
@@ -472,7 +476,7 @@ IB6 reconfirmada como oficial por F29. Demais modelos principais já escolhidos:
 #### LAV-001 — Lava e seca
 **CONFIRMADO** · Fontes: F12; F13; F14.
 
-LG VC4 branca com Wi-Fi, unidade única, 12 kg lavagem / 7 kg secagem. Códigos CV5012WC4 (127 V) ou CV5012WC4A (220 V); tensão em aberto.
+LG VC4 branca com Wi-Fi, unidade única, 12 kg lavagem / 7 kg secagem. Código CV5012WC4 (127 V) escolhido por F102; versão CV5012WC4A (220 V) apenas histórica.
 
 **Execução/limite:** F14 já registra conferência de ambos os manuais e reservas comuns. Preservar tampa, suporte da pedra independente, conexões e retirada frontal. Cabimento final pendente. Não usar folgas de Midea ou VC5.
 **Histórico:** Escolha VC4 complementa A04.2 e supera referências anteriores; não houve compra.
@@ -710,26 +714,26 @@ Electrolux IB6 branca inverse, 400 L, reconfirmada por Elias como modelo oficial
 
 **Histórico:** F28 abriu comparação por largura e freezer; F29 encerra essa seleção e mantém a IB6. O valor anterior de 81,1 cm era erro de soma, corrigido. Não aplicar a reserva a outros modelos.
 
-**Limite:** Modelo confirmado não significa posição aprovada. A interferência com a porta de entrada continua no estudo R01; resolução do layout pendente. Nenhuma compra efetuada.
+**Limite:** Modelo confirmado não significa posição aprovada. O estudo posterior F38/R02 afasta o corpo da IB6 do giro hipotético, com85 cm reservados à entrada. O conflito R01 é histórico; conferir geometria real e operação dos aparelhos. Nenhuma compra efetuada.
 
 #### COZ-012 — Forno
 **CONFIRMADO** · Fontes: F14; F15.
 
-Venax Totale Nero GIII 50 L, preto, de embutir; aquecimento principal a gás, conversão GN prevista e grill elétrico. Tensão em aberto. Forno sob cooktop é a posição escolhida.
+Venax Totale Nero GIII 50 L, preto, de embutir; aquecimento principal a gás, conversão GN prevista e grill elétrico. Tensão definida em 127 V por F102. Forno sob cooktop é a posição escolhida.
 
 **Limite:** Elias solicitou 10 cm entre fundo do cooktop e topo do forno e mencionou ventilação traseira; F14/F15 registram exigência de 20 cm no manual Venax. Divergência não resolvida nem instalação aprovada. Não substituir posição ou modelo silenciosamente.
 
 #### COZ-013 — Micro-ondas
 **CONFIRMADO** · Fontes: F14; F15.
 
-Electrolux ME23P preto, 23 L, escolhido para nicho superior. Tensão pendente. Local sobre preparo é proposta; nunca representar aprovação de instalação sobre queimadores.
+Electrolux ME23P preto, 23 L, escolhido para nicho superior. Tensão definida em 127 V por F102. Local sobre preparo é proposta; nunca representar aprovação de instalação sobre queimadores.
 
-**Limite:** 10 cm acima solicitados por Elias versus 30 cm registrados no manual consultado anteriormente. Nicho não validado. Manual não foi salvo localmente na pesquisa anterior. Altura de uso a detalhar; F15 registra altura de Elias de 1,75 m.
+**Limite:** 10 cm acima solicitados por Elias versus 30 cm registrados no manual consultado anteriormente. Nicho não validado. Manual e guia arquivados e inspecionados em F103; anteriormente não estavam salvos. Altura de uso a detalhar; F15 registra altura de Elias de 1,75 m.
 
 #### COZ-014 — Depurador
 **CONFIRMADO** · Fontes: F14.
 
-Suggar Slim de Embutir 60 cm, frontal inox, referência aprovada. DE61IX (127 V) / DE62IX (220 V), tensão em aberto. Integrado aos aéreos e discreto; faixa inox aceita.
+Suggar Slim de Embutir 60 cm, frontal inox, referência aprovada. DE61IX (127 V) definido por F102; DE62IX (220 V) apenas histórico. Integrado aos aéreos e discreto; faixa inox aceita.
 
 **Limite:** Oferta disponível dentro de R$ 800 não confirmada na pesquisa anterior. Modo depurador como base enquanto saída externa não confirmada; retorno do ar, fixação e medidas a compatibilizar.
 
@@ -854,6 +858,8 @@ GN confirmado por Elias. Tensões da VC4, forno, micro-ondas, depurador e air fr
 **Limite:** Não selecionar tensão pelo anúncio. Circuitos, carga e instalações da unidade ainda não conferidos.
 
 #### ESC-003 — Uso do escritório
+
+> **Atualização F89:** consultar a [disposição consolidada](Escritorio/README.md) e F86–F88. Daiane escolhido; bancada de 70 cm; posição diária junto à entrada. As comparações e limites datados abaixo preservam o histórico.
 **CONFIRMADO** · Fontes: F01; F16; atualização F44.
 
 Programa definido por Elias:
@@ -861,14 +867,16 @@ Programa definido por Elias:
 - Uma estação para uso de Elias (1A); home office em alguns períodos da semana (2B).
 - Dois monitores convencionais (3A) e notebook corporativo junto do PC gamer (4A). Modelos, tamanhos e conexões ainda pendentes; não presumir propriedade dos monitores ou compra já realizada.
 - Volante e pedais removíveis (5B); não cockpit permanente. Fixação, modelo e guarda a detalhar.
-- Acomodar duas pessoas para dormir (F44/6C), aproximadamente uma vez por mês, por uma ou duas noites (F45/1B/2A). Podem compartilhar uma cama (F45/4A). Comparar sofá-cama e cama retrátil de parede no layout (F45/5C); tipo, modelo e dimensões ainda não escolhidos.
+- Acomodar duas pessoas para dormir (F44/6C), aproximadamente uma vez por mês, por uma ou duas noites (F45/1B/2A). Podem compartilhar uma cama (F45/4A). F53 substitui a comparação F45/5C: sofá-cama móvel confirmado e cama retrátil de parede descartada; modelo e dimensões ainda em estudo.
 - Durante a hospedagem, aceita interromper o uso da estação com a cama aberta (F45/3A). Aceita mover a cadeira e guardar volante/pedais para preparar o quarto, com lugares previstos para esses itens (F45/6A). Não presumir retirada do PC ou dos monitores da bancada.
 - Ciclismo: capacete, sapatilhas, roupas e acessórios (7A). Bicicleta inteira e rolo não integram o programa escolhido desta rodada; seu local fora do escritório não foi definido.
 - Armazenamento predominantemente fechado, com poucos nichos (8A).
 - Gabinete do PC visível sobre a bancada (9A), conforme ESC-002.
-- TV separada: decidir depois do teste de layout (10C); não dispensada nem aprovada.
+- TV separada para PS5: confirmada em F53; F54 destina a Samsung de 43 polegadas existente ao escritório. Código do modelo, suporte e implantação pendentes.
 - Estética: madeira, base clara e azul-petróleo pontual (11A). Quantidade e posição do azul a detalhar; não reintroduzir azul no quarto principal.
 - Prioridade expressa: conforto na estação > receber hóspedes > armazenamento (12). Esta hierarquia prevalece sobre a recomendação anterior do assistente.
+
+**Atualização F53:** Sofá-cama na lateral e TV oposta para PS5 no dia a dia; nas visitas mover o sofá à parede da porta original e abrir rumo à janela. Aurora de referência: 146 × 102 cm fechado, 146 × 194 cm aberto; colchão 128 × 184 cm; peso anunciado 53 kg. Consulta à VouLevar via Magalu em 12/09/2026, pois o endereço direto retornou 403. Com bancada hipotética de 65 cm, sobra longitudinal bruta de 36 cm e lateral de 84 cm. Largura de 146 cm supera em 1 cm o início hipotético do vão em x145 do R01: cabimento, giro de porta e trajetória do sofá não validados. Ver [R02](Escritorio/Sofa_cama_e_TV_R02.md).
 
 **Decisão F47 - orientação confirmada:** Elias quer trabalhar de frente para a janela. A estação lateral do R00 é substituída. [Estudo R01](Escritorio/Layout_do_escritorio_R01.md): bancada 200 x 65 cm sob a janela apenas como hipótese dimensional; reserva de móvel aberto 140 x 210 cm, 90 cm à direita e 20 cm até a bancada (não corredor). Não é modelo escolhido, nem colchão de 140 cm, nem comprovação de conforto para dois. Giro de porta aproximado deixa apenas 5 cm de margem gráfica. Móvel fechado, mecanismo, peitoril, equipamentos e guarda da cadeira pendentes. A recomendação anterior da retrátil horizontal deixa de orientar a escolha; reavaliar o móvel de hóspedes respeitando a estação de frente para a janela.
 **Estudo F46 (11/09/2026), histórico superado quanto à orientação e recomendação de cama:** [Teste de encaixe A05.1 R00](../99_Arquivo/Estudos_anteriores/Escritorio/Layout_do_escritorio_R00.md). P01 indica 2,30 x 2,95 m. Bancada lateral 200 x 65 cm proposta; sofá-cama de projeção aberta 200 cm sobrepõe 35 cm do tampo. Retrátil horizontal com módulo hipotético de 210 x 45 cm fechado e projeção total aberta limitada a 155 cm deixa 120 cm no modo trabalho e 10 cm até a bancada no modo hóspedes (não é corredor), com acesso pelos pés pela faixa frontal de ensaio de 85 cm. Retrátil é candidata para pesquisa, não escolha aprovada. Modelo, trajetória de abertura, fixação, dimensões acabadas, equipamentos e destino da cadeira ainda pendentes. Nenhuma medida de móvel passa a confirmada.
@@ -1320,3 +1328,549 @@ Conciliação de arquivos locais e instruções disponíveis nesta conversa; nã
 
 
 **Correção aritmética de 11/09/2026:** reserva lateral básica da IB6 = 60,1 + 10 + 10 = 80,1 cm. O valor anterior de 81,1 cm era erro de soma. Folgas de 10 cm conferidas visualmente no guia oficial G0046764/003, página 2. A prancha histórica A04.6 R00 usa a reserva anterior 1 cm maior; a interferência com a entrada permanece. IB6 reconfirmada por F29; posição no layout ainda pendente.
+
+### F53 — Portas originais e escritório com sofá-cama e PS5 (12/09/2026)
+
+**Direção vigente — F53, 12/09/2026:** manter portas e vãos originais de entrega no apartamento até fechar o layout; somente depois retomar portas de correr, recuo e porta camarão. No escritório, sofá-cama móvel e TV para PS5 confirmados, cama guardada na parede descartada. Estação permanece de frente para a janela; sofá lateral voltado para a TV no cotidiano, movido para a parede da porta e aberto rumo à janela nas visitas. Herval Aurora enviado como referência, sem compra/modelo definitivamente aprovado. [Estudo atual](Escritorio/Sofa_cama_e_TV_R02.md). Esta decisão prevalece sobre F45/F47 quanto à tipologia, F44 quanto à TV e F52 quanto à base de portas.
+
+Fonte: pedido explícito de Elias nesta conversa e link VouLevar VL162380, preservado no estudo R02. Referência visual local consultada: 03_Referencias/Ideia_inicial.jpeg. As medidas do anúncio são referência comercial; o estudo R02 registra a fonte e separa as contas hipotéticas da escolha funcional. Teto anterior de portas preservado para futura comparação, sem contratação. Histórico do dia anterior: Registro_v0.6.md em 99_Arquivo/Registros_anteriores. Revisão 0.7 consolida F53.
+
+
+### F54 — Sofá até R$ 1.500, Samsung 43 e armazenamento (12/09/2026)
+
+**Atualização vigente — F54 (12/09/2026):** sofá-cama até R$ 1.500; Aurora descartado como compra, link era apenas referência do tipo desejado. Usar a Samsung de 43 polegadas já existente no escritório. Elias sugere 70–75 cm para a bancada (interpretado como profundidade), admitindo 65 cm somente se suficientes para o setup; dimensão não fechada. Armários altos devem acomodar acessórios, roupa de cama, almofadas e caixas, inclusive a caixa grande do gabinete. Cortina e boa iluminação confirmadas. Medidas internas do armário, equipamento/embalagem, implantação e iluminação ainda em estudo. F53 preservado para portas originais e sofá móvel; F54 substitui o status do Aurora e a pendência de escolha da TV. Ver [estudo atualizado](Escritorio/Sofa_cama_e_TV_R02.md).
+
+Fonte: respostas 1–5 de Elias nesta conversa. Orçamento do sofá não inclui autorização implícita para frete adicional. Preferência de 70–75 cm interpretada como profundidade e mantida como estudo, não dimensão aprovada. Caixa do gabinete deve ser dimensionada separadamente do equipamento. Mantida revisão diária 0.7, agora consolidada até F54.
+
+### F55 — Gabinete e reserva da embalagem (12/09/2026)
+
+Elias identifica seu gabinete como **DeepCool CH360**. A caixa é um pouco maior que o gabinete; medidas exatas desconhecidas. Não solicitar novamente essa medição nesta etapa.
+
+A [ficha oficial DeepCool CH360](https://www.deepcool.com/products/Cases/CH360-New-Generation-of-Airflow-M-ATX-Case/2023/17713.shtml), consultada em 12/09/2026, informa 428 × 215 × 431 mm (comprimento × largura × altura): **21,5 cm de largura × 43,1 cm de altura × 42,8 cm de profundidade**. São dimensões do gabinete, não da embalagem, nem reserva de ventilação/cabos.
+
+Para continuar o estudo, reservar provisoriamente um compartimento com **40 cm de largura × 60 cm de altura × 60 cm de profundidade livres internos** para a caixa montada. Essa é uma hipótese de projeto, não medida obtida da embalagem nem garantia de cabimento. Conferir antes de fabricar; considerar também abertura útil da porta e ferragens. Dimensões externas do armário serão maiores conforme espessuras e construção. Testar orientação alternativa da caixa para reduzir a profundidade somente quando houver dimensões conhecidas.
+
+Esse volume precisa de compatibilização com a circulação e o sofá; não aprova um armário de 60 cm de profundidade em toda a parede. A posição do módulo alto continua em estudo. O gabinete permanece sobre a bancada, conforme decisão anterior. Seu corpo de 42,8 cm cabe geometricamente na profundidade estudada de 70 cm, mas conforto do setup, cabos, ventilação, monitores e volante ainda devem ser considerados.
+
+### F56 — Monitores e bancada (12/09/2026)
+
+Elias confirma **dois monitores de 27 polegadas com braços articulados individuais**. Modelos dos monitores, alcance e fixação dos braços não informados. Não presumir orientação vertical ou disposição definitiva.
+
+Com as bases dos monitores fora do tampo, manter **70 cm de profundidade como proposta inicial de estudo**, sem fechar fabricação. Comparar 75 cm se alcance dos braços, distância de uso, notebook ou volante exigirem; 65 cm não estão validados. A largura anterior de 200 cm permanece hipótese, a compatibilizar com gabinete CH360, notebook e movimentos dos braços. Prever a área de fixação dos braços, resistência do tampo e espaço para cabos; conferir a trajetória das telas e braços em relação à janela e cortina. Polegadas e uso de braços não comprovam sozinhos conforto ou cabimento do setup.
+
+### F57 — Notebook como terceira tela (12/09/2026)
+
+Elias confirma que usa o notebook aberto como tela, além dos dois monitores de 27 polegadas com braços articulados individuais. Não prever armazenamento vertical fechado como posição de uso.
+
+Manter bancada de 200 × 70 cm como hipótese de estudo. A distribuição deve contemplar notebook aberto em posição visível e alcançável, dois monitores, gabinete DeepCool CH360 sobre o tampo, teclado, mouse e uso eventual do volante. Não presumir que todos caibam confortavelmente em uma única linha: testar deslocamento do notebook para a frente/lateral e posicionamento dos monitores pelos braços, sem aprovar suporte ou sobreposição que oculte telas. Tamanho do notebook, dimensões externas das telas e alcance dos braços ainda não informados. A confirmação do notebook como terceira tela não valida as medidas finais da bancada.
+
+### F58 — Conferência dimensional solicitada (12/09/2026)
+
+Elias solicita conferir as medidas. [Conferência R03](Escritorio/Conferencia_da_bancada_R03.md): proposta 200 × 70 cm passa no ensaio em planta com faixas 40/128/32 cm para notebook/dois monitores/CH360. Notebook 36 × 25 cm e monitores de 62 cm de largura externa são hipóteses explícitas, não medidas confirmadas. Proporção 16:9 usada apenas para cálculo condicional do painel de 27″. Comparadas profundidades 65/70/75 cm, sem comprovar ergonomia ou fabricação; proposta permanece 70 cm. Parede de 230 cm deixa 30 cm ao lado do tampo de 200: insuficiente para compartimento de caixa com 40 cm internos, antes de espessuras. Armários, giro do sofá e porta original continuam pendentes. Não alterados orçamento, equipamentos ou escolhas. Mantida revisão diária 0.7.
+
+### F59 — Profundidade da bancada confirmada (12/09/2026)
+
+Elias aprova explicitamente **70 cm de profundidade** após a conferência R03 e pede continuidade das decisões do escritório. Profundidade passa de hipótese a escolha funcional confirmada, ainda dependente de detalhamento executivo. Largura de 200 cm continua proposta, não aprovação implícita; altura, espessura/reforço do tampo, braços, janela e cortina seguem em compatibilização. Próxima decisão: organização dos armários altos, preservando sofá móvel, TV e porta original. Nenhuma implantação ou dimensão de armário aprovada nesta rodada.
+
+### F60 — Armários suspensos perto do teto (12/09/2026)
+
+Elias esclarece que os armários altos desejados são **suspensos perto do teto**. Essa é a tipologia escolhida para o escritório; não manter armário do chão ao teto como solução presumida. Preservar armazenamento de caixas, roupa de cama e acessórios. Paredes de implantação, extensão, altura inferior, profundidade e divisões internas permanecem em estudo. Não obstruir janela/cortina, TV ou movimentos dos braços dos monitores; conferir espaço de cabeça ao sentar/levantar do sofá e uso de acesso aos compartimentos altos.
+
+A reserva anterior de 40 L × 60 A × 60 P cm para a caixa é hipótese interna, não medida da embalagem nem aprovação de aéreo com 60 cm de profundidade. Reavaliar a orientação da caixa e o volume necessário antes de aplicar essa profundidade aos suspensos. Fixação e cargas dependem de parede e detalhamento, ainda não definidos. Acesso frequente a controles, volante e pedais deve ser compatibilizado com a escolha de armários junto ao teto; não presumir que todos os itens ficarão facilmente alcançáveis nem adicionar módulos baixos sem nova decisão.
+
+### F61 — Armários fechados e prateleiras decorativas (12/09/2026)
+
+Elias escolhe **todos os armários suspensos fechados com portas**, sem nichos abertos nesses módulos, e **prateleiras na parede da janela para decorações**. Quantidade, posição, comprimento, profundidade, acabamento e objetos não definidos. Compatibilizar prateleiras com abertura da janela, cortina, braços articulados e telas; não presumir espaço lateral disponível nem instalar prateleiras diante do vão. Distribuição dos armários nas laterais continua em estudo. Profundidade de bancada de 70 cm e demais escolhas preservadas.
+
+### F62 — Acabamentos do escritório confirmados (12/09/2026)
+
+Elias aprova a proposta de acabamentos: **madeira Arenza na bancada e nas prateleiras; armários suspensos fechados em off-white fosco; azul-petróleo apenas em pequenos detalhes decorativos, como quadros e objetos; cortina clara**. Para o sofá-cama, aprovada a direção de cor clara **bege ou cinza-claro**, sem seleção entre essas duas cores nem modelo escolhido; teto de R$ 1.500 preservado. Não interpretar aprovação da paleta como compra, definição de fabricante/código de chapa, tecido, tipo de cortina ou dimensões executivas. Equipamentos pretos existentes compõem o contraste. Armários, prateleiras e profundidade da bancada de 70 cm preservados.
+
+### F63 — Cortina para suavizar a claridade (12/09/2026)
+
+Elias escolhe **cortina clara para suavizar a claridade**, pois informa que a janela já possui função blackout embutida. Não prever camada blackout adicional na cortina. Blackout da janela é informação do usuário; mecanismo e operação não detalhados. Modelo, tecido, transparência, comprimento e fixação da cortina seguem pendentes, compatibilizando abertura da janela, bancada, monitores e prateleiras. Paleta F62 preservada.
+
+### F64 — Iluminação inteligente com ajuste de tonalidade (12/09/2026)
+
+Elias escolhe **luzes inteligentes que mudam de tonalidade** para o escritório. Registrar ajuste de tonalidade como requisito; não presumir escolha de RGB, marca, ecossistema, protocolo ou assistente de voz. Esclarecer se deseja somente variação de branco quente a frio ou também cores. Quantidade, posições, potência, controle de intensidade, circuitos e luminárias seguem em estudo. A proposta anterior de luzes com temperaturas fixas não é a especificação escolhida. Preservar cortina clara para suavizar claridade, blackout embutido da janela informado pelo usuário e demais decisões do escritório.
+
+### F65 — Cores na iluminação inteligente (12/09/2026)
+
+Elias confirma que deseja **cores** na iluminação inteligente, esclarecendo F64. Programa: iluminação inteligente com cores e ajuste de tonalidade de branco para o uso de trabalho. Não registrar marca, modelo, protocolo, ecossistema ou compatibilidade como escolhidos. Distribuição entre luz geral e luz indireta, controle de intensidade, potência, comandos e automações continuam pendentes.
+
+### F66 — Alexa como sistema de controle (12/09/2026)
+
+Elias informa que **já usa Alexa**. Adotar compatibilidade com Alexa como requisito de seleção da iluminação inteligente do escritório, com cores e ajuste de branco conforme F64/F65. Não há marca, produto, protocolo, necessidade de hub ou funcionamento sem internet validados. A proposta de luz geral no teto e luz indireta atrás da TV e sob as prateleiras, com controles separados, permanece proposta do assistente: a resposta sobre Alexa não aprova automaticamente essa distribuição.
+
+### F67 — Distribuição da iluminação confirmada (12/09/2026)
+
+Elias aprova a distribuição proposta: **luz geral no teto, iluminação indireta atrás da TV e sob as prateleiras, com controles separados**. Preservar requisito de iluminação inteligente com cores, ajuste de branco e compatibilidade com Alexa. Cenas de trabalho, jogos e descanso são possibilidades de configuração, ainda sem parâmetros definidos ou automações criadas. Modelos, potência, perfis/difusores, alimentação, cabeamento, pontos de instalação e orçamento seguem em estudo; não presumir três circuitos elétricos independentes por haver três grupos controláveis.
+
+### F68 — PS5 Slim futuro e posição delegada (12/09/2026)
+
+Elias esclarece que **ainda não possui o PS5**, pretende comprar o **Slim** e delega ao assistente decidir entre deitado e em pé. Não registrar compra realizada; edição com leitor/digital, revisão e orçamento não definidos.
+
+**Decisão de projeto tomada por delegação:** PS5 Slim **deitado**, em prateleira suspensa aberta abaixo da TV, preservando a proposta de piso livre. Orientação horizontal escolhida pelo perfil baixo sob a tela; não alegar menor profundidade que na vertical. Acabamento off-white proposto para o apoio, ainda não expressamente escolhido para essa peça. Dimensões e altura da prateleira permanecem em estudo, fora do giro da porta e do percurso do sofá.
+
+Referência oficial consultada em 12/09/2026: [PlayStation Blog BR, novo PS5](https://blog.br.playstation.com/2023/10/10/o-novo-visual-do-console-ps5-que-chega-em-breve/). Versão Slim com leitor apresentada em 2023: aproximadamente 35,8 L × 9,6 A × 21,6 P cm, sem saliências; é referência, não identificação da revisão futura. Usar os pés horizontais compatíveis conforme o manual da unidade adquirida. [Manual oficial CFI-2118](https://manuals.playstation.net/document/pdf/CFI-2118_11.2.pdf) orienta os pés horizontais e informa base vertical vendida separadamente.
+
+Dimensionar apoio considerando corpo, pés, cabos e ventilação conforme manual da revisão comprada; não adotar 21,6 cm como profundidade final de prateleira. Volume externo, capacidade da fixação e interferências ainda não validados. A autorização de escolher orientação não é autorização para comprar console ou acessórios.
+
+### F69 — Duas gavetas discretas na bancada (12/09/2026)
+
+Elias escolhe **duas gavetas discretas sob uma das laterais da bancada**, respondendo à proposta de guardar documentos, cabos, controles e pequenos acessórios. Quantidade confirmada; lado, disposição, largura, altura, profundidade, ferragens e acabamento das frentes ainda em estudo. Preservar vão das pernas, cadeira e fixação/uso do volante. Não converter a escolha em gaveteiro até o piso nem ocupar a faixa central da estação sem compatibilização. Profundidade do tampo de 70 cm confirmada; largura de 200 cm permanece proposta.
+
+### F70 — Volante Logitech futuro e custo-benefício (12/09/2026)
+
+Elias informa que **ainda não possui volante** e deseja um Logitech com bom custo-benefício. Modelo, orçamento e uso preso à bancada versus suporte separado ainda não escolhidos. Corrige qualquer leitura de volante como equipamento existente.
+
+Recomendação preliminar do assistente: **G29 como candidato de referência**, compatível com PC e PS5 conforme [Logitech](https://www-gaming.logitech.com/pt-br/shop/p/driving-force-racing-wheel). Não confundir com G920, destinado a Xbox/PC. G923 na versão PlayStation/PC é alternativa a comparar conforme preço; TRUEFORCE documentado pela [Logitech](https://www-gaming.logitech.com/pt-br/shop/p/g923-trueforce-sim-racing-wheel).
+
+Pesquisa de 12/09/2026: resultados indexados da KaBuM mostraram G29 a R$ 1.979,99 e G923 PlayStation a R$ 2.399,00 no Pix, sem frete, disponibilidade/vendedor ou preço de fechamento validados. Referências: https://www.kabum.com.br/produto/1029957/volante-logitech-g29-driving-force-ps5-ps4-ps3-e-pc- e https://www.kabum.com.br/produto/117284/volante-logitech-g923-para-ps5-ps4-e-pc-com-force-feedback-trueforce-pedais-responsivos-launch-control-941-000148 . Não constituem menor preço garantido nem orçamento aprovado.
+
+Para continuidade do ambiente, propor fixação removível à bancada, com região frontal central livre por baixo para presilhas, duas gavetas na lateral e acomodação dos pedais a resolver. É proposta, não resposta dada por Elias. Espessura/reforço do tampo e espaço de montagem dependem do modelo final. Não fixar dimensões de gavetas ou compartimento de guarda com base apenas na marca do volante. Acesso ao conjunto nos armários perto do teto continua pendência de uso.
+
+### F71 — Montar e guardar o volante a cada uso (12/09/2026)
+
+Elias aceita **montar o volante na bancada somente quando jogar e guardá-lo após o uso**, em resposta à proposta anterior. Adotar fixação removível à bancada; não reservar suporte separado no layout-base. Preservar região frontal central livre por baixo para fixação e duas gavetas discretas em uma lateral. Modelo Logitech ainda pendente, G29 apenas candidato; orçamento não definido.
+
+Detalhamento da fixação, espessura/reforço do tampo, montagem dos pedais, deslocamento do teclado e mouse, contenção de movimento da cadeira e destino acessível para guardar volante/pedais seguem em estudo. A aceitação da montagem não confirma um local de guarda nem torna prático o acesso frequente aos armários junto ao teto. Não presumir que volante/pedais caibam nas duas gavetas discretas.
+
+### F72 — Cadeira nova, ergonomia e design (12/09/2026)
+
+Elias comprará cadeira nova e considera uma GenioDesk (modelo não informado) ou cadeira importada vendida pela Sensetup, lembrada na faixa de R$ 6 mil. **Prioridades confirmadas: ergonomia e design.** Nenhum modelo, cor ou teto de orçamento confirmado; R$ 6 mil é lembrança de preço de candidata, não limite autorizado.
+
+Identificação provável pelo assistente: **LiberNovo Omni Dynamic**, anunciada pela [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-libernovo-omni-dynamic) a R$ 6.390 na consulta de 12/09/2026; página indica esgotado na variante exibida. Confirmar com Elias se é essa cadeira. Loja informa assento 53 L × 48 P cm, altura do assento 43–53 cm, braços 4D, limite anunciado 136 kg e estatura até 1,86 m. Esses limites não comprovam adaptação individual; não confundir largura do assento/entre braços com largura externa total. Página apresenta inconsistência de garantia: selo 5 anos e tabela 6 anos de estrutura/2 de eletrônicos; verificar condições antes de eventual compra.
+
+Comparação preliminar escolhida pelo assistente: [GenioDesk ErgoChair Ultra Comfort](https://geniodesk.com.br/products/cadeira-ergonomica-ergochair-ultra-comfort), R$ 4.084,05 no Pix ou R$ 4.299 parcelado na consulta, sem significar que seja o modelo referido por Elias. Fabricante anuncia assento e encosto mesh, profundidade de assento ajustável em até 6 cm, regulagem de altura do encosto e braços 3D. Nenhuma superioridade ergonômica universal estabelecida pela ficha.
+
+Para avaliar adequação, falta altura e peso aproximado de Elias e identificar o modelo GenioDesk considerado. Comparar ajuste do assento, lombar e braços, conforto em uso, largura total/base e recuo atrás da bancada, além da guarda nas visitas. Bancada de 70 cm refere-se à profundidade: altura do tampo ainda não definida e deve ser compatibilizada com cadeira e usuário. Compra não realizada; não assumir cadeira escolhida nem circulação validada.
+
+### F73 — Duas candidatas de cadeira identificadas (12/09/2026)
+
+Elias confirma que as cadeiras consideradas são **GenioDesk ErgoChair Ultra Comfort** e **LiberNovo Omni Dynamic vendida pela Sensetup**. Identificação deixa de ser hipótese; **escolha permanece em aberto**. Prioridades de ergonomia e design preservadas. Não converter referências de preço em teto aprovado. Altura e peso do usuário ainda não informados; altura final da bancada, adequação individual e volume externo da cadeira permanecem pendentes. Não interromper demais decisões do escritório pela indecisão entre as cadeiras nem declarar cabimento de ambas sem conferência.
+
+### F74 — Manter duas cadeiras candidatas e prosseguir (12/09/2026)
+
+Elias solicita manter **GenioDesk ErgoChair Ultra Comfort** e **LiberNovo Omni Dynamic/Sensetup** anotadas e seguir com o escritório. Escolha da cadeira adiada; nenhuma compra, cor ou teto aprovado. Não insistir em dados corporais nesta etapa. Preservar a comparação anterior como avaliação do assistente, não preferência do usuário. Continuar demais decisões; dimensões externas da cadeira e destino nas visitas ainda deverão ser compatibilizados.
+
+### F75 — Marcenaria com foco em custo-benefício, sem teto definido (12/09/2026)
+
+Elias não tem referência de orçamento para bancada, duas gavetas, armários suspensos e prateleiras/apoio do PS5 e orienta **priorizar custo-benefício**. Não estabelecer teto monetário nem presumir orçamento ilimitado. Preservar materiais/cores e funções escolhidas; valores só poderão ser avaliados após definição de quantidades, dimensões e orçamentos comparáveis.
+
+Diretriz de estudo do assistente: volumes retos, divisões internas simples, ferragens adequadas ao uso e módulos dimensionados conforme conteúdo. Propor portas convencionais de abrir nos aéreos antes de mecanismos basculantes especiais; abertura e acesso precisam ser compatibilizados, e a tipologia de porta ainda não foi escolhida por Elias. Evitar acrescentar painéis decorativos extensos, nichos ou módulos sem função. Preservar duas gavetas, apoio do PS5, iluminação escolhida e fixação/reforço necessários à bancada, braços dos monitores e armários suspensos. Não reduzir materiais ou ferragens de forma a comprometer uso ou estabilidade para atingir preço arbitrário.
+
+Para controle de custo, separar o futuro orçamento em bancada/gavetas, armários, prateleiras/apoio PS5 e instalação; iluminação discriminada à parte quando fornecida. Quantidade de armários deve decorrer do inventário e do encaixe, não da ocupação automática de todas as paredes. Não há contratação nem compra autorizada nesta decisão.
+
+### F76 — Estudo dos armários suspensos (12/09/2026)
+
+Elias autoriza seguir com o encaixe dos armários. [R04](Escritorio/Armarios_suspensos_R04.md) propõe conjunto sobre sofá de 160 × 40 × 35 cm e sobre TV de 120 × 40 × 35 cm, dimensões externas de estudo, sem aprovação do usuário ou execução. Coordenadas preservam bancada de 70 cm e trecho de entrada no ensaio. Altura acabada desconhecida: base dos armários calculada condicionalmente, sem inventar pé-direito. Caixa do gabinete não cabe na reserva dos módulos rasos; reserva anterior arbitrária pode ser girada, mas corpo maior exigiria verificar altura/projeção e acesso. Não aumentar todos os armários nem declarar guarda resolvida. Volante/pedais precisam de acesso frequente e continuam sem local validado; não presumir cabimento nas gavetas. Sete portas e dimensões são propostas, não decisões confirmadas. Demais escolhas preservadas.
+
+### F77 — Pesquisa do pé-direito (12/09/2026)
+
+Elias solicita pesquisar a altura do apartamento na internet e usar o vídeo local se útil. [Pesquisa R01](Pesquisa_pe_direito_R01.md): planta confirma Guedala Park III, torre 02, final 06, mas não fornece cota vertical; catálogo do empreendimento também não trouxe a cota. Memorial local é do nosso projeto, não documento técnico da Cury. MP4 ausente nesta cópia; imagens extraídas disponíveis não permitem medição vertical confiável. Corte público de outro empreendimento Cury em Campinas traz 2,70 m entre pavimentos e cotas internas de 2,57/2,60 m em linhas distintas: comparação, não confirmação do Guedala. DIM-001 permanece pendente. Não atualizar altura do apartamento nem liberar armários com base nessa referência. Cenário adicional de 2,57 m é estritamente condicional. Pedido técnico à Cury preparado no relatório, não enviado.
+
+### F78 — Cenário de 2,57 m e forro com menor rebaixo possível (12/09/2026)
+
+Elias aceita **2,57 m como cenário**, não como medida comprovada. Informa intenção de usar gesso no teto, deseja perder o mínimo de altura e incluir lã de rocha se possível. Área exata de aplicação, sistema, espessura da lã e finalidade térmica/acústica ainda não definidos.
+
+Proposta do assistente: estudar forro de gesso acartonado com lã de rocha, buscando rebaixo total de 10 cm como meta a verificar, sem garantia de viabilidade. Cenários puramente aritméticos: perda total de 10/12/15 cm resulta em altura livre de 2,47/2,45/2,42 m, supondo 2,57 m já referidos ao piso acabado. Rebaixo total inclui estrutura, placa, instalações e folgas; não confundir com espessura da lã ou vão interno. Guia Placo F530 especifica plenum mínimo de 150 mm e consulta à fabricante para menor: não prometer 10 cm com montagem convencional nem converter plenum em rebaixo total sem detalhe. Fonte: https://www.placo.com.br/documentos/guia-de-especificacao-rigitone/guia-forros-f530.pdf .
+
+Rockfibras documenta aplicação de lã de rocha em forros de drywall, com estrutura dimensionada e vedação; espessura/densidade dependem do projeto: https://rockfibras.com.br/storage/uploads/home/67d2eedfc0b8b.pdf . Camada próxima de 50 mm é hipótese para compatibilizar, não produto especificado nem desempenho garantido. Luminárias e equipamentos precisam ser compatibilizados com o espaço e acesso. Nenhuma promessa de eliminar ruídos.
+
+No cenário total de 10 cm, o aéreo de 40 cm com folga de 5 cm ao novo teto teria base a 2,02 m; com 12 cm, a 2,00 m. Alturas continuam condicionais e módulos não liberados para fabricação.
+
+### F79 — Altura final de projeto de 2,47 m e tratamento do teto (12/09/2026)
+
+Elias aceita **2,47 m como altura final de projeto**, com gesso e tratamento acústico no teto, e confirma três objetivos para a lã de rocha: reduzir ruído vindo do vizinho de cima, reduzir transmissão do som do escritório e melhorar conforto térmico. Usar esse cenário para continuar o escritório. Não é medição nem confirmação da altura entregue: depende da hipótese inicial de 2,57 m e de um sistema compatível com rebaixo total de 10 cm.
+
+Gesso acartonado com lã de rocha é a direção do estudo; espessura, densidade, suspensão, vedação, instalações e desempenho do conjunto ainda não especificados. A hipótese anterior de lã de cerca de 5 cm não foi convertida em especificação executiva. Preservar ressalva F78 sobre o sistema F530 e consulta técnica para vão reduzido. Não prometer eliminar ruídos ou isolar todo o cômodo apenas pelo teto.
+
+No escritório, aéreo proposto de 40 cm de altura e folga hipotética de 5 cm ao teto final de 2,47 m tem base a **2,02 m**. Altura final de projeto aceita não aprova os módulos, folgas ou fabricação. Caixa do gabinete e guarda acessível do volante continuam pendentes.
+
+### F80 — Fechamento visual dos aéreos até o gesso (12/09/2026)
+
+Elias aprova fechar visualmente os armários até o gesso com arremate superior ajustado na instalação. Eliminar a fresta aparente de 5 cm como diretriz estética; folga técnica oculta e arremate terão medidas definidas no detalhamento. Não implica folga zero nem aumento automático de capacidade. Fixação do armário na parede, sem transferir seu peso ao forro.
+
+Altura final de projeto permanece 2,47 m. Com corpo proposto de 40 cm, base = 207 cm menos a folga técnica efetiva; a antiga base de 202 cm era condicionada a 5 cm e deixa de ser cota única vigente. Corpo, fixações e arremate ainda não dimensionados para execução.
+
+Continuidade proposta: definir divisões internas pelo conteúdo, evitando fixar as sete divisões de 40 cm antes de resolver caixas e roupas de cama. Para a caixa do CH360, esclarecer se será guardada montada com proteções ou se pode ser desmontada preservando as proteções separadamente; nenhuma opção presumida. Dimensões da embalagem seguem desconhecidas. Não declarar guarda resolvida.
+
+### F81 — Caixa do gabinete contém as embalagens das demais peças (12/09/2026)
+
+Elias esclarece que a caixa grande do gabinete não está vazia: dentro dela guarda as caixas de CPU, GPU, watercooler, headset, teclado e mouse. Tratar como conjunto de armazenamento montado e ocupado; retirar a sugestão de desmontar o papelão como solução-base. Não presumir que os equipamentos estejam guardados dentro das caixas; a informação é sobre as embalagens.
+
+Requisito de guardar o conjunto no escritório permanece. Dimensões externas da caixa cheia ainda desconhecidas; dimensões do CH360 não substituem as da embalagem. Não considerar os módulos propostos de 40 × 40 × 35 cm compatíveis. Estudar um compartimento dedicado sem divisória ou prateleira atravessando o volume necessário; tamanho, localização, portas, acesso e capacidade de fixação seguem pendentes. Não aumentar indiscriminadamente todos os aéreos nem aprovar a reserva arbitrária anterior de 40 × 60 × 60 cm. Próximo dado útil: largura, altura e profundidade externas da caixa montada, idealmente na posição de guarda, incluindo abaulamentos. Preservar conteúdo e organização informados pelo usuário.
+
+### F82 — Reserva estimada para a caixa ocupada (12/09/2026)
+
+Elias autoriza estimar a embalagem como gabinete acrescido de 7 cm nas laterais e 10 cm acima. Interpretação explicitada pelo assistente: 7 cm em cada lado, incluindo frente e atrás, e 10 cm totais adicionais na altura; não há acréscimo inferior separado. Com CH360 de 21,5 L × 43,1 A × 42,8 P cm, resulta reserva externa estimada de **35,5 L × 53,1 A × 56,8 P cm**. É estimativa autorizada, não medida da caixa cheia, e pode ser corrigida se Elias pretendia outra interpretação.
+
+Proposta condicional: deitar a caixa, se conteúdo/proteções permitirem, orientando 56,8 cm na largura do armário, 53,1 cm na altura e 35,5 cm na profundidade. Reservar vão interno livre de estudo **60 L × 56 A × 39 P cm**, já com margem geométrica; abertura efetiva precisa respeitar caixa, portas e ferragens. Com painéis hipotéticos de 2 cm em cada face, corpo externo aproximado de **64 L × 60 A × 43 P cm**, sujeito à construção real. Não constitui escolha aprovada de módulo ou prova de cabimento.
+
+No teto de projeto a 247 cm, corpo de 60 cm teria base a **187 cm menos a folga técnica superior**. Evitar assumir que a altura seja adequada sobre sofá ou passagem; local, acesso e movimento ainda por testar. Estudar esse módulo específico na lateral da TV sem aumentar todos os aéreos e sem fixar posição ou substituir o conjunto de 120 cm automaticamente. Guarda do volante permanece separada e pendente. Confirmar dimensões reais antes de fabricar.
+
+### F83 — Aceite da continuidade com módulo dedicado estimado (12/09/2026)
+
+Elias responde “ok” à proposta F82. Manter como base de estudo a reserva estimada da caixa e o compartimento dedicado com vão interno de 60 L × 56 A × 39 P cm, corpo externo aproximado de 64 L × 60 A × 43 P cm, estudando encaixe na lateral da TV. Aceite de continuidade não confirma medidas reais, possibilidade de deitar o conteúdo, posição final, acesso, interferências ou fabricação. Altura inferior próxima de 187 cm menos folga superior permanece cálculo condicional. Demais aéreos rasos e guarda acessível do volante seguem a compatibilizar.
+
+### F84 — Prateleiras reguláveis e removíveis confirmadas
+
+Elias aprova prateleiras internas reguláveis e removíveis nos demais armários do escritório, permitindo ajustar o espaço para caixas menores ou retirar prateleiras para roupa de cama e travesseiros. Preservar o vão livre necessário no módulo dedicado à caixa do gabinete. Quantidade, posições, materiais, capacidade de carga e ferragens das prateleiras ainda a detalhar; não implica capacidade validada para todo o conteúdo. Dimensões e localização dos módulos mantêm as condições de estudo anteriores.
+
+### F85 — Circulação prioritária e pesquisa de sofás-cama
+
+Elias reafirma preservar circulação e abertura do sofá-cama e autoriza pesquisa de opções até R$ 1.500 coerentes com o estilo do apartamento. Módulo baixo proposto para volante não reservado por enquanto; resolver sofá, porta e cadeira primeiro. [Pesquisa R05](Escritorio/Pesquisa_sofas_R05.md) compara CR45259 bege, Daiane Veludo Light Cinza/Mobly e Charlotte Matrix bege. Primeiros dois priorizados pelo assistente para conferência; nenhum escolhido pelo usuário. Preços sem frete, disponibilidade por CEP não validada. Dimensões externas não comprovam área útil para duas pessoas; trajetória e giro da porta ainda pendentes. Baú pode ajudar acessórios, sem cabimento do volante confirmado. Demais decisões preservadas.
+
+### F86 — Sofá-cama Daiane escolhido
+
+Elias prefere o design do Daiane e confirma: “vou com o daiane mesmo”. **Modelo Daiane escolhido** para continuidade do escritório, substituindo a prioridade anterior do assistente pelo CR45259. Referência pesquisada: Daiane Veludo Light Cinza, anunciado como Modern na Mobly, 140 L × 90 P cm fechado e 140 L × 182 P cm aberto, com baú; não transferir automaticamente dados de outras versões Daiane. Cor, vendedor e compra ainda não definidos. Teto de R$ 1.500 preservado.
+
+Elias observa que o CR45259 de 138 cm externos, descontados dois braços de 14 cm, teria 110 cm livres; registrar como comparação informada pelo usuário, sem verificação independente dos braços. O Daiane de referência anuncia 112 cm de largura dos assentos. A escolha aceita a preferência relativa de design e espaço, mas não comprova superfície útil de cama de casal padrão: área plana aberta ainda precisa ser confirmada. Não insistir na escolha entre modelos nem tratar a decisão como compra realizada.
+
+Usar envelope do Daiane de referência nos estudos: sobra bruta até bancada de 295 − 70 − 182 = 43 cm sem afastamento atrás; faixa lateral bruta 230 − 140 = 90 cm. Giro da porta, trajetória do sofá, cadeira e apoio do PS5 seguem pendentes. Baú não resolve automaticamente guarda do volante/pedais; medidas internas desta versão ainda não conferidas.
+
+### F87 — Conferência geométrica do Daiane
+
+A pedido de Elias, [R06](Escritorio/Encaixe_Daiane_R06.md) testa dia, giro e cama aberta na planta. Envelope fechado consegue transladar/girar com cadeira temporariamente retirada e porta mantida aberta. Com afastamentos hipotéticos de 2 cm lateral/3 cm atrás: cama deixa 40 cm até bancada, 88 cm laterais brutos e só 3 cm até limite hipotético do giro da porta. Cadeira de reserva 70 × 70 cm pode estacionar junto ao canto direito da bancada depois da abertura, mas não valida as cadeiras reais nem uso da estação. Apoio PS5 de 30 cm hipotéticos reduz faixa lateral a 58 cm; dimensões/posição seguem pendentes. Não reservar módulo baixo. Encaixe condicional, não comprovação executiva ou aprovação pelo usuário. Baú e área útil de dormir continuam pendentes.
+
+### F88 — Sofá aproximado da entrada e hipótese Ultra Comfort
+
+Elias solicita sofá diário com braço lateral próximo à parede da porta para liberar movimento junto à bancada; estudar Ultra Comfort entrando parcialmente sob o tampo com braços abaixados. Não é escolha definitiva da cadeira. [R07](Escritorio/Ajuste_sofa_e_UltraComfort_R07.md): diagrama oficial inspecionado mostra 74,5 cm de largura e 73 cm de profundidade; corrige reserva genérica de 70 × 70 cm. Altura mínima do topo dos braços ao piso não informada, logo cabimento vertical ainda não confirmado. Manter faixa sob bancada sem gavetas/travessas para entrada; altura do tampo não definida.
+
+Posição diária proposta: Daiane x2..92, y152..292, braço a 3 cm hipotéticos da parede da entrada. Libera faixa de 82 cm após bancada, ganho de 62 cm ante R06. Não equivale a circulação ergonômica validada. Cama aberta mantém R06; giro com cadeira sob tampo não testado. Imagem R06 histórica para posição diária; consultar R07 vigente.
+
+### F89 — Consolidação documental da disposição do escritório
+
+Elias aprova a direção apresentada em F88 e solicita atualizar a documentação. Consolidado o documento principal do escritório, sincronizado o resumo e atualizado o destaque do registro mestre. Sofá diário junto à entrada, faixa de estudo de 82 cm após bancada, Daiane escolhido, Ultra Comfort condicional e entrada sob tampo a verificar. Mantidos cenário de hóspedes, TV/PS5, armários, caixa, gavetas, acabamentos e iluminação; medidas propostas continuam propostas. Estudos anteriores sinalizados como históricos quando divergentes. A aprovação não converte a cadeira em compra/escolha definitiva nem confirma cabimento vertical dos braços.
+
+### F90 — Proposta de detalhamento da bancada para continuidade
+
+Elias solicita seguir nas decisões, retomando as cinco pendências da consolidação. Próxima proposta do assistente, ainda não aprovada: duas gavetas discretas sobrepostas sob a extremidade esquerda da bancada, em um módulo com cerca de 40 cm de largura; preservar centro e lado direito livres para pernas, entrada da cadeira e guarda estacionada nas visitas. Lado esquerdo foi escolhido na proposta por manter livre o canto direito utilizado no ensaio de cadeira, não por aprovação anterior do usuário. Alturas, profundidade, ferragens e capacidade das gavetas ainda a detalhar.
+
+Manter bancada 200 × 70 cm como estudo, com 70 cm de profundidade confirmada e largura ainda proposta. Propor altura superior de 75 cm como ponto de partida dimensional, não altura ergonômica validada. Com tampo hipotético de 3 cm, vão bruto vertical de 72 cm antes dos suportes, ferragens e calha. Não confirmar passagem dos braços da Ultra Comfort, cuja altura mínima ao piso não foi localizada. Preservar faixa central frontal livre por baixo para presilhas do volante, dimensionadas após modelo escolhido; G29 é apenas candidato. Reforço estrutural da bancada permanece necessário de dimensionar e não deve ser removido para criar vão livre. Proposta não autoriza fabricação nem compra.
+
+### F91 — Duas gavetas à esquerda confirmadas
+
+Elias confirma duas gavetas à esquerda, em resposta à proposta de duas gavetas sobrepostas. Quantidade, lado e disposição vertical confirmados. Preservar centro e canto direito livres para pernas, entrada da cadeira, fixação removível do volante e estacionamento da cadeira nas visitas. Largura aproximada de 40 cm do módulo segue proposta; altura, profundidade, ferragens e reforços não definidos. Altura superior de bancada de 75 cm e tampo de 3 cm continuam hipóteses, não aprovadas por esta resposta. Entrada dos braços da Ultra Comfort permanece a conferir.
+
+### F92 — Acabamentos, ferragens e permanência da cadeira nas visitas
+
+Elias aprova frentes das gavetas em Arenza e pega discreta na borda, conforme proposta anterior. Responde ao grupo de escolhas: (1) Daiane cinza-claro para transmitir uma imagem mais gamer no escritório; (2) portas convencionais de abrir nos aéreos, marcenaria simples; (3) puxadores em perfil na borda dos aéreos; (4) corrediças de abertura total nas gavetas. A proposta de dobradiças dos aéreos com amortecimento foi aceita no contexto do item 2; não transferir esse aceite para amortecimento das gavetas, que não foi confirmado. Não inferir mudança dos demais acabamentos.
+
+(5) Elias considera improvável caber volante no baú e solicita conferir medidas: não priorizar o baú como guarda já aceita/validada; dimensões internas da versão Daiane e envelope do conjunto volante/pedais ainda pendentes. (6) A cadeira pode sair apenas durante a movimentação do sofá; após abrir a cama, **deve voltar ao escritório**. Retira-se alternativa de mantê-la em outro cômodo durante a hospedagem. Encaixe interno é requisito, não resultado comprovado. Ultra Comfort continua cenário; não escolha definitiva.
+
+Elias solicita ajuda para determinar alturas e medidas, pois não tem referência. Assistente deve propor e compatibilizar valores sem exigir decisão técnica às cegas. Bancada superior a 75 cm, tampo de 3 cm e vão bruto de 72 cm permanecem cenário inicial; altura mínima dos braços não confirmada. Não usar a aceitação dos acabamentos como aprovação dessas medidas ou fabricação.
+
+### F93 — Alternativa de manobra mantendo cadeira no escritório
+
+Continuidade autorizada por Elias. Conferência encontra limitação do retorno da cadeira após abrir cama: apoio PS5 hipotético de 30 cm reduz faixa lateral a 58 cm, menor que envelope de cadeira de 74,5 cm. Isso não prova colisão tridimensional com apoio elevado, mas impede garantir retorno sem estudar alturas. Porta hipotética de 75 cm deixa apenas 0,5 cm ante largura da cadeira; não validar passagem com essa cota nominal.
+
+Alternativa proposta, não aprovada nem operacionalmente validada: estacionar cadeira antes da manobra em x150..224,5 y75..148, sem depender de recolhimento sob tampo, e mantê-la no quarto enquanto gira sofá. Daiane diário centro (47,222), envelope90×140; transladar para centro (87,205), girar90graus, transladar para (72,247) e abrir rumo à janela. Translações com orientação fixa não interceptam cadeira. Círculo envolvente da rotação tem raio83,2166cm: sobra3,78cm à esquerda,6,78cm à parede da entrada,51,78cm à bancada e1,74cm até o canto mais próximo da reserva de cadeira. Isso prova apenas separação dos envelopes rígidos neste cenário ideal; operador, tecido, base real, tolerâncias e mecanismo precisam de conferência. Não considerar folga de1,74cm suficiente operacionalmente. Abertura final x2..142 mantém8cm até reserva da cadeira.
+
+Essa alternativa preserva requisito de cadeira no escritório durante hospedagem e evita depender de sua reentrada com cama aberta. Não confirma altura mínima dos braços ou dispensa estudo das alturas do apoio do PS5. Gavetas à esquerda preservam canto direito para estacionamento; largura de40cm do módulo permanece proposta. Nenhuma nova compra ou dimensão executiva aprovada.
+
+### F94 — Aceite do ensaio com cadeira no escritório durante a manobra
+
+Elias aceita a alternativa F93 e autoriza continuidade: estacionar a cadeira junto ao canto direito da bancada antes de transformar o sofá, mantendo-a no escritório. Aceite da direção funcional não converte folgas pequenas do ensaio em operação prática validada. Não depender de recolhimento integral sob o tampo ou reentrada com cama aberta; requisitos de permanência interna preservados.
+
+Próximo estudo do assistente: TV na parede direita, deslocada em direção à janela relativamente ao centro do sofá, para evitar trecho do giro da porta. Reserva externa de tela de 100 cm ao longo da parede, apenas hipótese para a Samsung43 sem código identificado, entre y115..215 (centro y165). Porta hipotética ocupa y220..295; margem longitudinal de5cm na projeção, sem validação de suporte, espessura ou mão de abertura. Centro diário do sofá em y222 implica desalinhamento longitudinal de57cm; conforto visual a avaliar. Não afirmar que TV pode ser centralizada exatamente em frente ao sofá sem conflito com porta.
+
+Apoio do PS5 permanece aberto e suspenso, mas comprimento, profundidade, altura e posição não fechados. Compatibilizar com cadeira estacionada até y148, tela, porta, cabos e ventilação. Não transformar reserva genérica de30cm de profundidade em medida aprovada. Aéreos e módulo da caixa precisam ser revistos junto com posição da tela. Nenhuma altura nova aprovada.
+
+### F95 — Conferência TV/porta e restrição do apoio PS5
+
+Elias solicita averiguar F94. [R08](Escritorio/TV_e_PS5_R08.md): TV com reserva100cm centrada y165 evita trecho longitudinal estimado da porta por5cm. Desvio57cm ao centro do sofá resulta17–20graus de direção de olhar, conforme posição hipotética dos olhos; distância170–194cm. Não garante conforto. Suporte giratório orienta painel, mas não elimina desvio corporal nem tem curso/fixação validados.
+
+Manual Sony CFI-2118 documenta21,6cm de profundidade e mínimo10cm de parede;30cm de apoio anterior era insuficiente para essa soma. Ensaio de35cm deixa53cm laterais junto à cama, restrição de passagem ainda sem solução. Não aprovar prateleira fixa nessas medidas. TV deslocada continua proposta, apoio removível ou outra posição para console são alternativas a estudar, não decisões do usuário. Altura central de TV110cm apenas ponto inicial de ensaio. Compatibilização estática de aéreos não valida portas/acesso. Demais escolhas preservadas.
+
+
+### F96 — PS5 Digital e ensaio com reserva para Xbox acima da TV
+
+Elias confirma PS5 sem leitor e autoriza testar prateleira acima da TV com espaço adicional para Xbox, cujo modelo não está escolhido. R08 compara Series S e X deitados. Proposta 110 × 35 cm atende ao ensaio dimensional de ambos; superfície a 195 cm, espessura hipotética 3 cm, é direção sugerida pelo assistente, não altura aprovada. Alternativas a 155/180 cm mantêm interferência corporal ou pouca folga de cabeça. Opção alta exige redistribuir aéreos e módulo da caixa, preservando armazenamento; não considerar remoção desses armários aceita. Conferir alcance, fixação, ventilação, TV/suporte, pessoas mais altas e cotas reais antes de fechar. Nenhuma compra autorizada por esta escolha.
+
+
+### F97 — Ensaio de redistribuição após consoles acima da TV
+
+Elias autoriza continuar o teste F96. R09 propõe aéreo comum 200 × 55 × 35 cm na parede do sofá, y90..290, e módulo da caixa 64 × 60 × 43 cm na parede direita junto à janela, y25..89. Prateleira dos consoles permanece y105..215, topo195 cm em estudo. Cinco módulos comuns de40 cm permitem estimar285 L internos geométricos contra281 L anteriores, com painéis hipotéticos2 cm, sem descontar ferragens/prateleiras. Caixa mantém reserva separada. Alturas, dimensões e cinco divisões não foram aprovadas pelo usuário nesta rodada. Conferir sobretudo monitores, braços, cortina, acesso à caixa e portas abertas. Não considerar a comparação de volumes validação de conteúdo, fixação ou manobra.
+
+
+### F98 — Início da compatibilização da bancada e caixa
+
+Elias escolhe começar pelo item1. R10 testa notebook à esquerda, monitores ao centro e CH360 à direita, sob o módulo dedicado à caixa. Monitor principal proposto à direita, centro x150. Folga vertical nominal gabinete/armário68,9 cm menos folga superior; separação horizontal monitor/módulo6 cm no envelope estático. Não confirma curso dos braços, cortina ou acesso à caixa. Modelos dos dois monitores, braços e notebook solicitados em uma pergunta conjunta. Ordem e posição principal são propostas do assistente, não escolha confirmada.
+
+
+### F99 — Aceite da distribuição e proposta de gavetas/vão
+
+Elias aceita distribuição F98 e autoriza continuidade. Equipamentos informados: AOC27 polegadas240 Hz, braços da Kabum sem modelo conhecido, notebook corporativo HP prata. Códigos exatos continuam desconhecidos. R10 detalha proposta de módulo de gavetas40 ×45 ×24 cm à esquerda e faixa de cadeira80 cm centrada x150. Altura75 cm, tampo3 cm e novas medidas seguem hipóteses. Preservar fixação do volante na borda e vão sem obstrução; não dispensar dimensionamento estrutural. Gavetas podem não abrir totalmente com cama aberta, conforme comparação de envelopes.
+
+
+### F100 — Conferência sofá-cama e porta original
+
+Elias solicita iniciar sofá/porta. R11 revê P01 e referência Mobly Daiane. Planta não fornece cotas específicas do eixo/folha; manter cenário220/75 sem converter em medição. Cama140 ×182 externa x2..142,y110..292 deixa3 cm laterais ao setor hipotético; distância exata ideal3,06 cm. Folha80 gera interferência. Recuar cama17,8 cm da entrada para obter5 cm do arco ideal reduziria vão frontal a25,2 cm; alternativa calculada, não adotada. Mantêm-se sofá e porta original, com operação do mecanismo e margem real ainda não validadas.
+
+
+### F101 — Memorial oficial de entrega incorporado ao projeto
+
+Em 12/09/2026, Elias forneceu o memorial do portal Cury e solicitou incluí-lo e atualizar o projeto. Original de 19 páginas, Guedala Park III, R00 de 03/04/2023, preservado em [Plantas e manuais](../02_Plantas_e_manuais/Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf). [Análise vigente](Memorial_Cury_entrega_e_impactos.md) identifica entrega por ambiente e páginas de origem. Pendência de obter memorial oficial encerrada; manual do proprietário previsto com as chaves.
+
+Confirmados no documento: laminado nos quartos, laje acabada como piso de sala/circulação/cozinha, cerâmica e impermeabilização no banho/lavanderia; forro no banho e sancas na cozinha/lavanderia; bancada de pedra natural e cuba inox na cozinha; ponto/tubulação de aquecimento a gás dos chuveiros, sem fornecimento de aquecedor ou chuveiro. Sem confirmação de água quente nas torneiras.
+
+Restrições: proibição expressa de ar-condicionado; tomadas descritas como “110V”, sem alteração de tensão segundo texto; sem ralo na cozinha ou infraestrutura de coifa, com ponto de depurador; alvenaria estrutural e limitações a alterações. Não tratar equipamentos escolhidos, mudanças de pontos ou portas como instalação aprovada.
+
+Preservadas escolhas de reforma, inclusive gesso/lã e cenário final de 2,47 m. Altura real de 2,57 m e montagem em 10 cm continuam hipóteses. Faltam cortes, forros cotados, esquadrias, circuitos e instalações do final 06. Revisão posterior à R00 não verificada. O memorial de interiores v2 mantém sua função de escolhas; não é documento Cury.
+
+
+### F102 — Tensões de eletrodomésticos definidas em 127 V
+
+Elias determina: “todos os eletrodomesticos q nao haviamos decidido a tensão, altere todos para 127v”. Encerrada a pendência de escolha da tensão. VC4: CV5012WC4; depurador: DE61IX; forno Venax, micro-ondas ME23P e air fryer RI9252: 127 V. Outros aparelhos com alimentação ainda não definida passam a ter requisito de compatibilidade com 127 V, incluindo o futuro aquecedor. Modelos já bivolt permanecem bivolt; não presumir alteração da tensão física dos aparelhos já possuídos.
+
+[Quadro vigente de tensões](Equipamentos/README.md). Modelos e orçamentos preservados. Disponibilidade de versões/códigos comerciais, circuitos e instalação são conferências distintas; não reabrir a decisão de tensão. Referências de preço de 220 V não comprovam preço da versão 127 V.
+
+
+### F103 — Conferência das versões 127 V, elétrica e folgas
+
+Elias solicita executar etapa 1. [Quadro técnico vigente](Equipamentos/Conferencia_127V_e_folgas.md) reúne versões, potências, tomadas, folgas e fontes. RI9252/91 preta 127 V identificada em ficha oficial; KE4GC bivolt confirmado. ME23P exige circuito exclusivo de 20 A em 127 V e folga superior de 30 cm; envelope calculado 66,1 × 59 × 45,2 cm, sem aprovação de nicho fechado. Venax 50 L: 735 W, 6 A, mínimo 20 cm do fundo do cooktop ao topo do forno e recortes/ventilação específicos.
+
+As propostas de 10 cm em ambos os pontos não atendem aos respectivos manuais. Isso esclarece P-010/P-011, mas não encerra a compatibilização do layout. Proposta: estudar prateleira aberta do ME23P sobre preparo e corte do forno sob cooktop com afastamentos documentados. Nenhuma mudança de modelo/posição foi aprovada automaticamente. Circuitos reais da Cury permanecem pendentes. Folgas do PE11X e VC4 preservadas; interface térmica VC4/forno a detalhar. Manuais ME23P, guia, PE11X e folheto RI9252 adicionados. Suggar consultado por texto web, sem renderização disponível; não liberar fixações com essa limitação.
+
+
+### F104 — Escolha de 10 cm acima do micro-ondas
+
+**F104 — 12/09/2026:** Elias decide manter o ME23P com **10 cm livres acima**, mesmo após conhecer a exigência de 30 cm do manual. Registrar como escolha de layout, **em desacordo com o fabricante e sem validação técnica**. Não afirmar que folgas laterais/traseiras compensam a redução. Permanecem 10 cm laterais e traseiros, frente aberta e circuito exclusivo de 20 A em 127 V. Nenhuma alteração foi solicitada para os 20 cm entre cooktop e forno.
+
+Aparelho mantido: Electrolux ME23P 127 V. Altura externa de 29 cm mais 10 cm superiores resulta em reserva geométrica de 39 cm; com as demais folgas mantidas, envelope 66,1 × 39 × 45,2 cm. Não rotular esse envelope como mínimo seguro ou aprovado pelo fabricante. A escolha encerra a dúvida de preferência de Elias, mas não a incompatibilidade técnica. Não houve compra ou liberação de execução.
+
+### F105 — Orçamento ampliado e comparação dos aquecedores
+
+Em 12/09/2026, Elias aceita ampliar para aproximadamente R$ 11.000 o total de geladeira, lava e seca e aquecedor, com instalação à parte, e solicita comparação Lorenzetti/Rinnai. O teto anterior de R$ 10.000 fica superado para esse conjunto. Nenhum modelo escolhido nem compra autorizada. Comparação em [aquecedores de 20–21 L](Lavanderia/Comparacao_aquecedores_20_21L.md). Recomendação do assistente: E21 se preços próximos; Lorenzetti pode compensar com desconto significativo verificado. Manter GN, uso em 127 V, ducha Addra Livo e condições já registradas. Instalação e ripado permanecem pendentes.
+
+### F106 — Rinnai E21 escolhido e próxima etapa
+
+Elias responde “perfeito, vamos para o proximo passo” à recomendação do Rinnai E21 GN sem Wi-Fi adicional. Aceite interpretado como escolha do Rinnai E21 REU-E211 FEH GN, alimentação em 127 V mediante chave seletora. Sem compra, instalação ou cor final confirmada; branco foi a referência de preço. Teto aproximado de R$ 11 mil preservado.
+
+Próxima etapa: compatibilizar lavanderia com o modelo escolhido, fechamento ripado e varal. Corpo de referência 48,3 × 35 × 15,7 cm não é nicho. Não transferir os afastamentos do E15 ao E21. Direção preliminar: compartimento técnico dedicado e estudo do varal no módulo vizinho, alternativa já aceita, sem roupa ou gotejamento sobre o aquecedor. Posição dos pontos, saída de exaustão, ventilação, afastamentos específicos e suporte resistente ainda precisam ser compatibilizados; não solicitar novamente medidas que Elias ainda não tem.
+
+### F107 — Desenvolvimento E21, ripado e varal vizinho
+
+Elias autoriza os três tópicos. Manual E21 176 arquivado e ambas as folhas inspecionadas. Estudo [E21/ripado/varal](Lavanderia/E21_ripado_varal_R01.md) usa recomendação lateral específica de 20 cm e registra distância frontal ideal acima de 60 cm da figura 3. Faixa 75 cm + grelha proposta 100 cm = 175 cm: supera trecho129 em46 cm antes dos painéis. Arranjo integral lado a lado não cabe neste ensaio. Proposta seguinte: testar módulo na transição com cozinha, sem alteração aprovada dos aéreos. Ripado próximo não validado, dimensões de fabricação pendentes. Meta30 kg preservada como proposta a comprovar; não reduzida nem certificada. Nenhuma mudança de pontos ou compra.
+
+### F108 — Varal obrigatoriamente dentro da lavanderia
+
+Elias rejeita avanço do varal para a cozinha: todo o conjunto e seu uso precisam permanecer na área da lavanderia. Quer impedir respingos no E21 e manter distância adequada. Declara intenção de desobedecer ao afastamento do aquecedor, sem especificar qual distância nem aprovar uma cota alternativa. Registrar a preferência, sem tratar afastamento reduzido como tecnicamente validado. Ausência de respingos não substitui ventilação, exaustão, proteção térmica e acesso. Não definir distância segura arbitrária nem inserir divisória junto ao E21 sem verificar seus efeitos.
+
+A direção F107 de avançar o módulo para a cozinha está rejeitada. Próximo estudo deve trabalhar exclusivamente dentro da lavanderia, priorizando zona sobre tanque/máquina que não sobreponha roupa, curso ou gotejamento à área técnica. Cabimento não demonstrado. Grelha100 ×50 cm e meta30 kg continuam propostas, não dimensões/capacidade obrigatórias confirmadas. A autorização não equivale à aprovação de qualquer redução específica ou fabricação.
+
+### F109 — Grelha do varal de 100 × 50 cm confirmada
+
+Elias confirma que gostou do varal de 100 × 50 cm e quer manter essa medida. A dimensão da grelha deixa de ser apenas proposta e passa a escolha confirmada; não reduzir silenciosamente nem substituir por outro formato dimensional. O conjunto deve permanecer inteiramente na lavanderia conforme F108. Os 100 × 50 cm não incluem automaticamente caixa, trilhos, ferragens e folgas: envelope externo depende do mecanismo. Meta30 kg continua proposta a comprovar, sem nova confirmação ou certificação nesta fala. Posição, orientação, curso e distância do aquecedor seguem sem solução validada. Não interpretar a escolha dimensional como aprovação de afastamento reduzido, compra ou fabricação.
+
+### F110 — Ensaio das duas orientações do varal
+
+Elias autoriza seguir o plano. [Ensaio R02](Lavanderia/Encaixe_varal_R02.md) e desenho HTML com retângulo129 ×154 cm, posições hipotéticas do E21 e VC4 explicitadas. A100 paralelos: cabe extração72 com projeção até122, mas recolhido conflita com E21 no exemplo. B50 paralelos: separação entre corpos22 cm no exemplo, mas extração72 leva profundidade172, excedendo154 em18; curso máximo ideal54 não limpa projeção72 da máquina. Caixa, tecido, ferragens e pontos desconhecidos impedem validação. Nenhum afastamento reduzido adotado. Próxima preferência a esclarecer: quadro permanecer acima da bancada ou baixar à frente dela. Meta30 kg segue a comprovar. Ripado/ferragens não especificados para execução.
+
+### F111 — Varal deve baixar à frente da bancada
+
+Elias confirma que o varal precisa descer à frente da bancada. Não adotar descida apenas acima do tampo como alternativa aceita. Preservar grelha100 ×50 cm e todo o uso dentro da lavanderia. No ensaio R02, orientação B (50 cm paralelos/100 cm profundidade) com extração reta não atende: precisa ultrapassar projeção da máquina de72 cm, mas100+72=172>154, sem margens/ferragens. Resultado condicionado às reservas documentais, não medição acabada.
+
+Orientação A (100 cm paralelos/50 cm profundidade) permanece em estudo: 72+50=122 cm, sobra32 cm no retângulo, antes de margens, tecido e pessoa. Extração precisa vencer o maior obstáculo real (bancada, puxadores e máquina), não somente72 cm. Não aprovar curso72 exato. Conflito de recolhimento/passagem junto ao E21 ainda não resolvido; não considerar A escolhida ou instalada. Sequência funcional exigida: extração para liberar a borda, trava e descida controlada à frente. Altura de operação e acomodação da pessoa seguem pendentes.
+
+### F112 — Percurso e operação do varal
+
+Elias autoriza continuidade. [R03](Lavanderia/Percurso_varal_R03.md) testa borda traseira da grelha em77/85/95 cm, com frente127/135/145 e sobra27/19/9 cm no retângulo154. Todas hipóteses, não distâncias seguras ou posições escolhidas. Recolhimento deslocado para y25–75 reduz curso, porém não resolve afastamento/duto e não foi aprovado. Trilhos não especificados. Separação da grelha ao corpo não comprova separação de roupa/caixa. Recolhimento e acesso da pessoa permanecem obstáculos. Pergunta funcional seguinte: operação pela lateral voltada à cozinha, sem deslocar varal ou roupa para fora da lavanderia; ainda não aceita.
+
+### F113 — Acesso ao varal pelo lado da cozinha aceito
+
+Elias aceita pendurar e retirar roupas pela lateral voltada à cozinha, mantendo varal e roupas inteiramente dentro da lavanderia. A preferência funcional fica resolvida; não repetir a pergunta. Preservar100 ×50 cm e descida à frente da bancada. Aceite não valida alcance de todas as barras, circulação ou posição do aquecedor/duto.
+
+Próximo teste: acesso pela extremidade x129 do estudo. A grelha tem100 cm de extensão no sentido oposto; não presumir alcance confortável às barras mais distantes. Verificar acesso por outra borda, distribuição das barras ou mecanismo que aproxime pontos de carga sem projetar grelha/roupa para cozinha. Não reduzir capacidade/medidas nem adotar articulação ou giro automaticamente. Recolhimento junto ao E21 continua sem solução validada.
+
+### F114 — Alcance e escopo de validação do varal
+
+Em13/09/2026 Elias autoriza continuidade. R04 calcula distâncias mínimas de acesso0/25/50/75/100 cm desde a extremidade da grelha; são geometria, não alcance humano aprovado. Descida não reduz extensão horizontal. Nenhuma orientação de barras ou mecanismo móvel é considerada solução validada. Consolidado escopo de consulta técnica com os requisitos confirmados e retorno necessário: planta/corte de todos os estados, alcance de todos os pontos de carga, mecanismo/travas, compatibilização E21/duto/ripado e fixação. Dados reais de instalação continuam indisponíveis; não exigir medição imediata. Sem envio a terceiros, compra ou fabricação. Documento: Lavanderia/Alcance_e_validacao_varal_R04.md.
+
+### F115 — Ciclo de varal elevatório esclarecido
+
+Em13/09/2026 Elias esclarece que usa varal alto acionado por corda: baixa para colocar/retirar roupas e sobe carregado para secagem. Quer funcionamento semelhante. Registrar como requisito funcional: posição baixa temporária para carga/descarga; posição alta de secagem com roupas. Não manter a interpretação de que as roupas secam com o quadro baixado.
+
+Preservados100 ×50 cm, permanência na lavanderia e descida à frente da bancada, acesso pelo lado da cozinha, conforme decisões anteriores. Sem escolha nova de mecanismo comercial, corda, manivela ou motor: referência de corda descreve o uso atual. Proposta de ciclo a desenvolver: vazio oculto → extração além da bancada → descida para carregar → subida carregado para secar, mantendo a projeção fora da bancada/volume técnico → descida para descarregar → subida vazio → recolhimento. A permanência extraída durante secagem é proposta do assistente a compatibilizar, não posição aprovada pelo usuário.
+
+Distinguir altura de secagem de recolhimento na caixa. Não presumir que roupa molhada entre na caixa ou se aproxime do E21 ao subir. Verificar tecidos e balanço também na altura elevada; quadro alto não garante que peças longas liberem bancada/máquina. R04 continua válido quanto a alcance horizontal e geometria desconhecida do duto, mas duração das interferências na posição baixa muda: carga/descarga apenas. Nenhum afastamento alternativo aprovado.
+
+### F116 — Três estados confirmados e conceito funcional R05
+
+Em13/09/2026 Elias confirma: sem uso guardado fora da visão; secando no alto; baixado para retirar roupas, com carga/descarga já esclarecida emF115. [R05](Lavanderia/Varal_tres_estados_R05.md) consolida o ciclo. Proposta do assistente: extração vazia, trava, descida/carga, subida carregada para secar mantendo extração, descida/descarga, subida vazia e recolhimento. Recolher somente vazio; separação das frentes de varal/E21 e retenção funcional propostas para desenvolvimento, sem mecanismo aprovado. Manivela removível anterior preservada como referência; corda atual não interpretada como troca. Estudo vertical parametrizado por altura da barra e comprimento das peças. Sem novas cotas de instalação. Encaixe, alcance, estrutura e exaustão permanecem pendentes; nenhuma compra/fabricação.
+
+### F117 — Pesquisa de mecanismos reais
+
+Em13/09/2026 Elias autoriza continuidade. R06 compara O Meu Varal, Maria do Varal, Varaltop e Mad Varais pelas páginas dos próprios fornecedores. Não confirmado conjunto pronto que reúna100 ×50, extração, subida carregada e ocultação. OMV recomendado para consulta por anunciar sob medida e movimento vertical;50 cm e extração precisam confirmação.30 kg anunciado no motor OMV não transferido à manivela ou conjunto customizado. Referência manual/manivela mantida; nenhum motor escolhido. Sem cotação completa, compra, contratação ou mensagem a terceiros. Documento Lavanderia/Mecanismos_e_fornecedores_R06.md.
+
+### F118 — Planta mobiliada geral vista de cima
+
+Em13/09/2026 Elias solicita visão de planta com os móveis. Criada Planta_mobiliada/Planta_mobiliada_R01 emPNG,SVG eHTML ampliável, com memória de fontes noREADME. Base P01 reconstituída graficamente, cenário cotidiano, portas originais. Daiane fechado e setup atuais; quarto/sala/jantar com envelopes de estudo identificados; sequência cozinha preservada e conflito IB6/porta marcado. Varal como projeção aérea de estudo, sem posição do E21 inventada. Aéreos omitidos para leitura não significam remoção. Nenhuma nova medida ou implantação aprovada pelo usuário. PNG revisado visualmente.
+
+### F119 — Correção da planta geral: entrada já tratada em F38
+
+Elias aponta que a colisão geladeira/porta já havia sido corrigida. Conferência confirma F38/Layout_da_pia_R02:65+60+61,9+80,1+85=352 cm, corpo IB6 x196,9..257 e giro hipotético x267..352. A planta F118 utilizou indevidamente a distribuição anterior R01. Corrigidos PNG/SVG/HTML nos mesmos caminhos, identificados como R01 corrigida F119. IB6 afastada e faixa85 preservada; não é decisão nova nem aprovação de novas medidas. Atualizadas referências antigas com aviso de precedência do R02. Medidas reais, portas da própria IB6, folgas/uso da bancada e circulação seguem pendentes. Purificador suspenso omitido da vista do piso.
+
+### F120 — Correção gráfica da porta do banheiro
+
+Elias identifica duas entradas aparentes no banheiro. Corrigida a continuidade da parede que separa o banho do acesso ao quarto; símbolo do quarto reposicionado no lado da circulação, mantendo apenas o vão original do banheiro. PNG/SVG/HTML regenerados e PNG inspecionado. Correção de desenho, sem proposta de obra ou mudança das portas originais. Correção F119 da geladeira preservada.
+
+### F121 — Prioridade sofá da sala e guarda-roupa (13/09/2026)
+
+Elias prioriza escolher primeiro o sofá da sala e depois as medidas do guarda-roupa do dormitório. Sofá retrátil e reclinável, conforto intermediário, aberto para uso cotidiano e recolhido para receber visitas; deve acomodar uma pessoa para dormir eventualmente quando o quarto de hóspedes estiver ocupado. Teto de R$ 3.000 sem frete. Entrega em São Paulo capital, próximo ao Butantã; apartamento terá elevador de serviço, dimensões úteis ainda desconhecidas. Altura de Elias de 1,75 m já registrada em F15. Não há modelo, tecido, cor ou tamanho aprovado.
+
+Leitura do projeto: largura documental da sala 245 cm; sofá180 ×90 e chaise60 ×70 são apenas envelopes de teste, não limites aprovados. Posição da TV da sala pendente na planta mobiliada F118. Precisam ser esclarecidos circulação com retrátil aberto, TV/rack e presença de pets/crianças; não assumir respostas. Dimensionar superfície útil para dormir, além das medidas externas. Medidas finais do apartamento ainda não conferidas.
+
+### F122 — Passagem com sofá aberto, painel e possível pet (13/09/2026)
+
+Elias confirma circulação frontal com retrátil totalmente aberto, TV em painel na parede e possibilidade de pet no futuro. Parede exata da TV não escolhida. Registrada primeira pesquisa em Sala_e_jantar/Sofa_da_sala_R00.md: largura245 cm permite calcular sobras brutas de95/85/65 cm para profundidades abertas150/160/180 cm, antes de painel/TV e afastamento traseiro. Sofá maior que o envelope180 cm exige compatibilizar jantar; não aprovar layout pelo cálculo transversal isolado. Lisboa200/ braços10 cm candidato para conferência, R$2.992,40 no Pix, profundidade aberta ausente; nenhum modelo escolhido. Perguntado se pernoite pode ser transversal entre braços ou voltado para TV; resposta pendente. Tecido e capacidade de entrega não validados. Demais decisões preservadas.
+
+Complemento de F122, na mesma conversa: Elias confirma que a pessoa pode dormir de lado a lado, entre os braços. Retira-se a pendência de direção do pernoite. Proposta do assistente: buscar cerca de190 cm úteis transversais, ainda não medida aprovada;180 cm nominais deixam somente5 cm além da altura175. Largura externa210–220 cm com braços estreitos passa a ser faixa de investigação, dependente do jantar. Lisboa200 permanece referência compacta, não indicação final para dormir confortavelmente.
+
+### F123 — Pesquisa de sofá180 cm com baú (13/09/2026)
+
+Elias solicita opções confortáveis com baú inferior e considera necessária largura180 cm pelo apartamento. Tratada como limite provisório de pesquisa, sem converter em medição acabada. Substitui faixa210–220 cm sugerida pelo assistente. Atualizado Sala_e_jantar/Sofa_da_sala_R00.md: Cama inBox Secret180 R$2.099 Pix, aberto130 cm, braços14 cm e152 cm nominais internos; Petit180 R$2.549 Pix, aberto136 cm, reclina180°, marca classifica macio e área interna ausente. Dados de páginas indexadas oficiais; abertura direta retornou403, sem preço/entrega no CEP confirmados. Maiorca180 acima do teto. Não comprovado pernoite esticado para175 cm; não assumir concessão de dormir encolhido/diagonal. Baú é interesse pesquisado, não obrigatoriedade afirmada. Nenhum modelo, cor ou tecido escolhido. Cama inBox informa entrega até portaria sem subida por elevador; percurso/volumes pendentes.
+
+### F124 — Investigação de braços estreitos ou lateral sem braço (13/09/2026)
+
+Elias pergunta se existem braços menores ou sofá sem braço de um lado. Pesquisa confirma Petri/Anjos com braços8 cm e módulos sem/com um braço, abertura158 cm; preço/baú/composição final180 cm não confirmados. Vancouver/Conexão Home tem módulos sem braço, mas abertura180 cm prejudica passagem. Atualizado estudo do sofá. Nenhuma retirada de braço, modelo ou concessão de pernoite aprovada. Interesse em baú e limite provisório180 cm preservados.
+
+### F125 — Baú, braços estreitos e integração à paleta (13/09/2026)
+
+Elias explicita conforto, baú e braços curtos para maior espaço interno, com cores que combinem com o apartamento. Baú agora requisito; braços interpretados como estreitos pela finalidade, sem dimensão aprovada. Mantidos180 cm provisórios e R$3.000 sem frete. Assistente propõe bege areia/greige, não escolhidos. Ravena180 baú/braços10 cm/firmeza média encontrado esgotado; Bonnie180 bege-claro R$2.409 Pix no Magalu tem baú, mas largura de braços e área útil não informadas. Estudo atualizado; nenhum modelo aprovado nem concessão sobre pernoite presumida.
+
+### F126 — Bonnie escolhido para a sala (13/09/2026)
+
+Elias diz que gostou mais do Bonnie e solicita deixá-lo como escolha no projeto. Registrado Bonnie SoftGel Cama inBox de180 cm com baú, retrátil/reclinável, na versão bouclê bege-claro apresentada em F125. Teto R$3.000 sem frete preservado; referência anterior R$2.409 Pix/R$2.737,50 até10x, sem nova cotação ou compra. Atualizados resumo, página da sala e estudo principal, com pesquisas anteriores identificadas como histórico. Largura de braços, superfície útil para dormir, dimensões internas do baú, conforto e encaixe ainda por conferir. Escolha não comprova pernoite esticado nem aprova concessão não respondida. Planta geral conserva envelope antigo180 ×90 cm e deve ser compatibilizada com Bonnie anunciado180 ×110 fechado/136 aberto. Próxima prioridade: guarda-roupa do dormitório.
+
+### F127 — Guarda-roupa: capacidade e circulação (13/09/2026)
+
+Elias solicita priorizar espaço interno para muitas roupas e sapatos/tênis, circulação na entrada e dentro do quarto, sugerindo tamanho mais próximo da cama. Perguntado se significa encurtar largura/alinhamento aos pés ou aproximar fisicamente o armário; resposta pendente. Solicitados inventário aproximado e medidas externas da cama. Estudo Guarda_roupa_R00 compara larguras200/210/220/245 cm com profundidade55 e cama hipotética200 ×160, preservando portas originais. Encurtamento libera canto, não altera40 cm frente cama/armário; pés45 cm. Mover cama para janela apenas transfere folga de um lado ao outro. Nenhuma dimensão, alteração de porta, tipologia de armário ou concessão de passagem aprovada.
+
+### F128 — Entrada liberada, cabides e10 pares de tênis (13/09/2026)
+
+Elias esclarece encurtar largura do guarda-roupa para liberar entrada; prioridade roupas em cabides,10 pares de tênis. Pede consulta da queen padrão: Ortobom confirma158 ×198 cm; referência autorizada para estudo, sem medir base/cabeceira. Proposta do assistente200 cm de largura, comparação55–60 cm de profundidade. Sem dimensões aprovadas. Colchão158 deixa82/77 cm totais laterais nos dois cenários; pés47 cm antes dos acréscimos reais. Capacidade em cabides e compartimento para10 pares a detalhar. Pergunta sobre acesso aos dois lados antes de mover cama. Portas originais preservadas.
+
+### F129 — Lado da janela mais estreito aceito (13/09/2026)
+
+Elias aceita estreitar a passagem do lado da janela para ampliar o lado do guarda-roupa. Registrado aceite funcional, sem aprovação de centímetros. Estudo atualizado: proposta do assistente200 ×60 cm externos, incluindo portas/trilhos, com20 cm na janela deixa295 −60 −158 −20 =57 cm frente ao armário, ou55 cm com reserva de cama160. Alternativa profundidade55 deixa62/60 cm. Portas de correr em estudo, sem escolha. Medidas internas para cabides, curso de gavetas, tênis e altura pendentes. Pés continuam45–47 cm conforme reserva/colchão, antes de base/cabeceira; canto liberado pelo encurtamento não equivale a ampliação de todo corredor. Não aprovada cama encostada, obra ou fabricação.
+
+### F130 — Continuidade da divisão interna do guarda-roupa (13/09/2026)
+
+Elias autoriza seguir. Desenvolvido esboço200 ×60 cm com vãos úteis95/42,8/55 cm mais quatro painéis hipotéticos18 mm: soma200. Vão95 com dois cabideiros,42,8 para peças longas,55 para cinco níveis de dois pares de tênis e dobrados acima. Meta de pares condicionada aos calçados; alturas não fixadas. Perguntados predominância de peças curtas/longas, maior numeração e necessidade de gavetas. Portas de correr e compatibilidade das aberturas ainda em estudo; gavetas exigem conferir uso no corredor55–57 cm. Autorização de continuidade não é liberação para fabricação nem aprovação de todas as medidas.
+
+### F131 — Guarda-roupa dividido igualmente e quatro gavetas (13/09/2026)
+
+Elias confirma camisas, camisetas, polos, calças penduradas dobradas na metade e casacos;10 pares de tênis até42; quatro gavetas; metade para cada morador. Atualizado estudo para dois lados iguais, cabideiro superior e parcial inferior por lado, duas gavetas por pessoa e dois níveis inferiores para cinco pares por lado como proposta. Ensaio97,3 cm internos por metade com painéis18 mm e vão parcial47,75 cm; total nominal de cabideiros290,1 cm, sem garantia de quantidade de peças. Altura não fechada: roupas/casacos, sapatos e maleiro a compatibilizar. Gavetas com curso30–35 cm apenas cenário, uso lateral e acesso pelas portas ainda não validados. Nenhuma dimensão executiva aprovada; quatro gavetas são requisito, não removidas por dificuldade de passagem.
+
+### F132 — Esquema interno cotado e casacos curtos (13/09/2026)
+
+Elias autoriza seguir e confirma todos os casacos até cintura/quadril. Criados Guarda_roupa_interior_R01.md e SVG frontal: proposta 200 × 60 × 240 cm, duas metades iguais com cabides em coluna de 60 cm úteis e armazenamento lateral de 35,5 cm úteis. Cada pessoa: dois varões, cinco níveis de um par de tênis, duas gavetas e maleiro. Colunas de sapatos substituem sapatos sob cabides para permitir ensaio vertical; varões nominais totais caem de 290,1 para 240 cm. Varões a 103 e 205 cm, cerca de 95 cm de queda das roupas; maleiro com 23,2 cm livres. Altura 240 cm é hipótese, teto real e montagem não validados. Atualizados resumo e índice. Não há aprovação das novas dimensões nem fabricação; alcance, cabides vestidos, calçados, portas e operação lateral de gavetas continuam condicionantes. Planta geral não alterada.
+
+### F133 — Reserva para dois casacos longos (13/09/2026)
+
+Elias solicita pequeno espaço para cerca de dois casacos longos. Atualizados estudo, esquema R01/SVG, resumo e índice: proposta de um vão de 25 cm úteis por metade, sem prateleira intermediária, com cerca de 197 cm de queda até a base. Varão superior permanece 60 cm; inferior passa a 33,2 cm após divisória parcial de 1,8 cm. Total nominal de varões 186,4 cm, antes de suportes. Mantidas quatro gavetas, dez níveis de tênis e divisão igual. Reserva de 25 cm é proposta a conferir com volume real dos casacos; sem mudança no envelope ou aprovação executiva.
+
+### F134 — Novo plano de organização interna R02 (13/09/2026)
+
+Elias solicita otimizar todo o interior preservando o discutido. Criados R02.md, SVG e PNG, com vista frontal revisada visualmente e contas de largura/varões conferidas. Envelope de estudo 200 × 60 × 240 cm mantido. Colunas externas de sapatos/gavetas baixam até 110 cm; varões superiores ampliados a 97,3 cm por pessoa, inferiores de 33,2 cm e vãos longos de 25 cm mantidos. Total nominal 261 cm, +74,6 cm (~40%) sobre F133; não equivale a quantidade de roupas. Sapateira por pessoa: níveis a 8/34/60 cm, alvo 2+2+1 pares, oito suportes sobrepostos individuais no total para os níveis duplos; cabimento com tênis 42 e acesso precisam teste. Quatro gavetas com frentes de 15 cm na faixa 80–110 cm; menor volume e prateleiras superiores cedidas a cabides são trocas explícitas. Fonte primária Joseph Joseph confirma existência/dimensões de organizador, sem escolha de produto ou garantia de encaixe. Atualizados resumo, índice e estudo; R01 marcado histórico. Sem aprovação executiva, compra ou alteração de planta geral.
+
+### F135 — Guarda-roupa R02 aprovado, quarto sem TV e retomada da sala (13/09/2026)
+
+Elias aprova expressamente o plano de organização interna R02 e pede salvá-lo. Registrado como escolha vigente, preservando conferências executivas de medidas, ferragens, alcance e cabimento real dos tênis. Informa que o dormitório não terá TV. Próxima prioridade: definir painel e tamanho da TV da sala. Mantidos Bonnie escolhido e TV existente de 43 polegadas no escritório. Criado Painel_e_TV_R00 com comparação preliminar 55/65 polegadas, dimensões geométricas e distâncias de referência Samsung, sem escolha de tamanho, parede exata ou acabamento. Perguntados orçamento, uso principal e itens/armazenamento necessários no painel. Teto do sofá não transferido para TV. Nenhuma compra ou fabricação realizada.
+
+### F136 — Uso da TV e equipamentos do painel da sala (13/09/2026)
+
+Elias informa orçamento de R$ 4.000, foco em filmes/séries/streaming, soundbar, decoração e possível PS5 Slim sem disco ou Xbox. Solicitado esclarecer se valor é TV+painel ou apenas TV, e inclusão/existência da soundbar. Sem modelo de Xbox presumido nem alteração do escritório. Atualizado estudo da sala: comparar 55/65 polegadas; apoio baixo com projeção total hipotética de 35/40 cm deixaria 74/69 cm brutos diante do Bonnie aberto136 cm em sala245 cm, antes de afastamento traseiro. Não há escolha de painel, TV, console ou cotação validada.
+
+### F137 — TV até R$ 3.000 e painel por custo-benefício (13/09/2026)
+
+Elias esclarece teto de R$ 3.000 só para TV, painel sem preço definido e soundbar fora por enquanto. Atualizados resumo/estudo/índice. Proposta inicial55″, TCL55P7K candidata: Carrefour exibe R$2.699 mas sem estoque; Magalu direto também indisponível. Não registrada oferta de TV disponível dentro do teto nem escolha. Painel+rack Paris180×174×39,5 cm, Sallar Home/MadeiraMadeira, R$832,03, anunciado até60″; rack Santorini180×20×35 cm R$485,79 sem painel. Betria R$1.291,50 esgotado. Frete/montagem e disponibilidade no CEP não calculados. Passagem bruta Paris69,5 cm, Santorini74 cm antes de afastamentos/espessura adicional. Paleta madeira/off-white apenas proposta; nichos e console não validados. Não efetuada compra ou alteração da planta.
+
+### F138 — Correção da parede da TV junto ao corredor (13/09/2026)
+
+Elias aponta inviabilidade de painel180 cm por existir corredor ao lado. Releitura visual de P01 confirma parede curta oposta ao sofá entre janela e acesso à circulação. Recorte arquivado; comparação gráfica ~252 pixels de trecho para515 pixels na cota245 cm resulta ~120 cm, estimativa sem cota explícita e não medida de execução. Retiradas recomendações Paris180, Santorini180 e TV55P7K122,6 cm dessa posição;55/65 não cabem integralmente na parede estimada. Nova direção de estudo: TV50″ (~111–112 cm externos), painel~115 cm e rack100–110 cm, a medir e conferir console/soundbar/linha de visão. Assumido erro anterior de validar apenas profundidade sem comprimento da parede. Orçamento e demais requisitos preservados. Atualizados estudo, índice e resumo; sem escolha ou compra.
+
+### F139 — Direção compacta da TV e painel aprovada (13/09/2026)
+
+Elias confirma a correção da parede e diz seguir assim. Registrada aprovação da direção: TV50 polegadas, painel próximo de115 cm e rack100–110 cm, preservando corredor. Parede~120 cm continua estimativa gráfica sujeita à medida acabada. Modelos, acabamento, profundidade e alturas não escolhidos. Mantidos TV até R$3.000, painel por custo-benefício, soundbar adiada e reserva para decoração/possível console. Atualizados estudo, índice e resumo; sem compra ou execução.
+
+### F140 — Preferência por Ambilight e aplicativos da sala (13/09/2026)
+
+Elias pede TV com luzes traseiras Philips e confirma Netflix, Disney+, Stremio, HBO Max, YouTube e Prime Video. Pesquisa50PUG8100/78: Ambilight três lados, Titan OS,111,1 cm de largura. Catálogo oficial Titan lista HBO Max e Stremio Lite no Brasil, sem comprovar equivalência ao Android ou instalação no modelo. Referência Magalu/TaQi R$2.668,46 Pix, mas descrição diverge do título no código do produto; não validada para compra. Manual pede7–10 cm atrás na montagem Ambilight e20 cm ao redor para ventilação: conferir janela/cortina e parede real. Halo lateral tende a ser assimétrico pelo corredor. Mantida direção50″/painel115/rack100–110 e tetoTV R$3.000; preferência registrada, modelo e compra não aprovados. Fontes e pendências em Sala_e_jantar/Painel_e_TV_R00.md; resumo e índice atualizados.
+
+### F141 — Desenvolvimento do conjunto compacto da sala (13/09/2026)
+
+Elias autoriza seguir. Detalhada proposta de painel liso off-white115 cm e rack suspenso110 cm em madeira clara/Arenza, projeção total30–35 cm em estudo (passagem bruta79–74 cm antes de afastamentos). Acabamento não aprovado; console e instalação junto à janela pendentes. Nova pesquisa não validou oferta direta adicional nem funcionamento do Stremio Lite no modelo Philips. Perguntado aparelho e complementos atuais do Stremio. Ver Painel_e_TV_R00.md. Sem compra ou escolha definitiva.
+
+### F142 — Stremio com Torrentio RD já configurado (13/09/2026)
+
+Elias usa Stremio no computador e celular, com Torrentio RD configurado na conta. Pendência de identificação dos complementos resolvida. Conferência deve usar a mesma conta e verificar reprodução, áudio e legendas no Stremio Lite do modelo Philips, sem presumir compatibilidade pela configuração prévia. Mantida candidata50PUG8100/78, sem compra ou aparelho externo acrescentado. Estudo da sala atualizado.
+
+### F143 — Recolher as três cadeiras sob a mesa (13/09/2026)
+
+Elias prioriza decidir formato da mesa e posição da terceira cadeira. Quer todas sob o tampo, somente encostos para fora, aceitando reorganizar posições e destacando interferência do pé central. Substitui terceira cadeira em outro ambiente. Criado Mesa_e_tres_cadeiras_R02.md: proposta de retângulo arredondado180 ×75 cm, ainda hipótese; investigar base com dois apoios estreitos entre cadeiras, dependente de aceite da mudança do pedestal único, ou duas laterais e uma na cabeceira sem encaixe comprovado. Não definidos modelo, dimensões executivas ou estrutura; atualizado resumo/índice e aviso no estudo anterior.
+
+### F144 — Pedestal único e cadeiras em arranjo2+1 (13/09/2026)
+
+Elias rejeita dois apoios e mantém pedestal central. Define intenção de tampo retangular com cantos bem arredondados e guarda de duas cadeiras na lateral e uma na cabeceira. R03 testa180 ×75 cm: gabaritos compactos42 cm de largura/38 de inserção, coluna12 e folgas2 permitem encaixe simplificado; envelopes maiores44/40, coluna20 e folgas3 exigem200 cm pela condição calculada. Nenhum produto, estrutura ou ampliação aprovado. R15 cm proposto; cabeceira da cozinha prioritária para conferir acesso ao banco, evitando margem longitudinal de10 cm junto ao sofá. Planta geral não alterada.
+
+### F145 — Aprovação da mesa e retorno ao rack/painel (13/09/2026)
+
+Elias concorda em deixar a mesa conforme proposta:180 ×75 cm, cantos R15 cm, pedestal único e recolhimento de duas cadeiras laterais e uma na cabeceira da cozinha. Aprovação de projeto preserva conferência de modelos reais, sapata, estrutura e acesso ao banco; não comprova encaixe ou libera fabricação. Solicita decidir tipo de rack/painel da sala. R03, resumo e índice atualizados.
+
+### F146 — Apoio da sala para decoração, sem gavetas (13/09/2026)
+
+Elias responde decoração e sem gavetas. Requisito confirmado; assistente propõe apoio/prateleira suspensa110 cm em madeira clara/Arenza com painel liso off-white~115 cm, sem adicionar armazenamento fechado. Tipo exato/acabamento não aprovados. Profundidade30–35 cm, altura, espessura e estrutura pendentes; console possível e soundbar futura preservados. Estudo, resumo e índice atualizados.
+
+### F147 — Régua oculta e cabimento de console/soundbar (13/09/2026)
+
+Elias precisa esconder régua de TV/soundbar/console e pergunta sobre ambos na bancada. Registrado requisito e ensaio110 cm: PS5 Slim Digital35,8 + soundbar compacta67 =102,8 cm, restando7,2 totais sem validação de folgas. Barra centralizada67 deixa21,5 cm por ponta, insuficientes para PS5 deitado. Proposta de soundbar no painel abaixo da TV e console sobre bancada, ainda não aprovada. Compartimento técnico acessível/ventilado para régua a detalhar sem consumir folga traseira do console. Fontes e cálculo no estudo da sala.
+
+### F148 — Duas prateleiras para PS5 e soundbar (13/09/2026)
+
+Elias solicita PS5 deitado embaixo e soundbar em cima em duas prateleiras. Proposta inferior110 ×35 cm, superior110 ×25 cm; topos35/60 cm do piso e espessura hipotética3 cm dão22 cm livres. Dimensões/alturas não aprovadas. Régua em compartimento lateral acessível fora da ventilação do console. Painel hipotético2 cm acrescido à prateleira35 gera projeção37 e passagem bruta72 cm com sofá aberto, antes de afastamentos. Fontes e ressalvas no estudo da sala; resumo e índice atualizados.
+
+### F149 — Sala aprovada e início da cabeceira (13/09/2026)
+
+Elias aprova encerrar conjunto da sala com decisões atuais: painel~115, duas prateleiras110 com profundidades35/25 cm, vão22 cm, PS5 deitado embaixo/soundbar em cima, sem gavetas e régua lateral oculta. Aceita passagem estimada72 cm nas condições do cálculo; medidas executivas e aparelhos a compatibilizar. Solicita cabeceira e armário superior do quarto. Criado estudo inicial preservando quarto sem TV/azul, queen e guarda-roupa aprovado; cabeceira pouco espessa proposta pela circulação de45–47 cm aos pés antes de acréscimos. Tipo e volume do aéreo dependem de uso sentado e itens volumosos.
+
+### F150 — Cabeceira estofada e armário alto/raso (13/09/2026)
+
+Elias escolhe apoio estofado e pede capacidade máxima sem armário sufocante ou sensação de queda sobre a cabeça: alto e pouco profundo. Assistente propõe25 cm totais de profundidade, base205 cm e largura180–200 cm a conferir; aumentar capacidade em largura/altura disponível, não baixar sobre a cama. Cabeceira5–7 cm e cores claras propostas, com impacto na passagem aos pés explicitado. Medidas, acabamento e acesso ainda não aprovados; estudo, índice e resumo atualizados.
+
+### F151 — Apoios para celular e óculos dos dois lados (13/09/2026)
+
+Elias confirma apoio pequeno de cada lado da cama para celular e óculos. Propostas abas integradas à cabeceira, sem pés/gavetas, superfície útil20 ×15 cm por pessoa a testar. Não projetar automaticamente sobre passagem55–57 cm do guarda-roupa nem ocupar faixa20 cm da janela. Ensaio voltado aos cantos internos da cama depende de conforto e não autoriza perda de área útil. Altura depende do colchão real. Estudo da cabeceira, resumo e índice atualizados.
+
+### F152 — Quarto aprovado e retomada do escritório (13/09/2026)
+
+Elias declara decisões fechadas: composição de cabeceira estofada, aéreo alto/raso e dois apoios para celular/óculos aprovada como direção de projeto, com medidas/encaixes a conferir conforme estudo. Solicita decidir pendências do escritório. Revisados estudosR08–R11: reserva antiga de console acima da TV precisa ser reconciliada com apoio agora aprovado na sala; destino/quantidade não presumidos. Aéreos/módulo da caixa, bancada/gavetas, cadeira e guarda do volante permanecem pontos de decisão ou compatibilização. Atualizados estudo do quarto, índices e resumo.
+
+### F153 — PS5 disponível na sala e escritório (13/09/2026)
+
+Elias quer possibilidade de usar o console nos dois locais. Preservar preparação de ambos, sem presumir segundo PS5. Cabos próprios/acessíveis em cada ambiente propostos para eventual transporte. Frequência de mudança ainda desconhecida; prateleira a195 cm favorece circulação mas dificulta manuseio, portanto altura permanece pendente. Reserva anterior para Xbox não cancelada. Atualizados índice do escritório, R08 e resumo.
+
+### F154 — Prateleira dos consoles a195 cm aprovada (13/09/2026)
+
+Elias mantém altura195 cm para priorizar circulação e pede próxima decisão. Registrado topo da prateleira nessa cota como escolha; fixação, acesso, ventilação e posição longitudinal a conferir. Frequência de transporte não impede continuidade. Próxima decisão proposta: distribuição dos aéreos e módulo da caixa em R09. Índice, resumo e R08 atualizados.
+
+### F155 — Retirada do módulo da caixa e aprovação dos demais aéreos (13/09/2026)
+
+Elias dispensa módulo exclusivo para caixa do gabinete; encontrará lugar, provavelmente cama-baú queen, sem confirmação de destino/cabimento. Retirado módulo64 ×60 ×43 cm perto da janela. Aprova restante apresentado: aéreo200 ×55 ×35 cm sobre sofá e região aberta sobre consoles; topo195 cm já aprovado. Não preencher espaço liberado automaticamente. Divisão interna e conferências de execução preservadas. Atualizados R09, índice e resumo.
+
+
+### F156 — Estudo interativo e moodboard consolidados (13/09/2026)
+
+Elias solicita HTML interativo adaptado a computador e Samsung S24 Plus, com vistas superior/lateral/3D, estudo proporcional de móveis e circulação, paletas, estados de uso e moodboard atualizado com medidas e separação entre escolhas e pendências. Criados Estudo_interativo/Guedala_Park_Interativo.html e 03_Referencias/Moodboard_atualizado_R01.html, autônomos e sem bibliotecas externas, mais Moodboard_visual_atualizado_R01.png como ilustração de materiais/ambientes. Base consolidada até F155; não constitui aprovação adicional de móvel ou dimensão.
+
+Incluídos Bonnie fechado/aberto/baú conceitual, Daiane em trabalho/hóspedes, três cadeiras em2+1 ou uso com seis lugares, único PS5 alternado entre sala/escritório e três estados conceituais do varal. Armário principal incorpora desenho interno R02; mantidos quarto sem TV, aéreo raso/alto, apoios pequenos e aéreo do escritório aprovado. Retirados módulo da caixa e qualquer ar-condicionado. Sala usa projeção total37 cm e passagem calculada72 cm com Bonnie aberto; simular5 cm adicionais atrás reduz a67 cm. Gabaritos da cadeira/sapata não comprovam conjunto comercial. Alturas, aberturas e trajetórias sem medida real permanecem identificadas como hipóteses.
+
+Verificados computador e celular em emulação, incluindo21 combinações ambiente/vista, rotação por toque, pinça, estados, contas de circulação, contagens de móveis, interior SVG incorporado e cópia HTML reaberta; sem erros JavaScript, pedidos de rede ou transbordamento horizontal nos cenários testados. Não houve teste físico no S24 Plus nem publicação na internet. Atualizados índices/resumo e marcada planta F118–F120 e antigo painel de materiais como históricos. PNG de atmosfera gerado e revisado visualmente; medidas e estado de aprovação prevalecem nas fichas do HTML e documentos de origem.
+
+
+### F157 — Publicação do estudo no GitHub Pages (13/09/2026)
+
+Elias solicita commit, push e transformação do estudo em GitHub Pages. Preparado fluxo automático de publicação da branch main, com página principal e moodboard em caminhos próprios e imagem de materiais disponível no site. O artefato web contém apenas os HTML, a imagem e a identificação da versão; o repositório mantém os estudos, fontes e decisões do projeto. Cópia local continua autônoma. Validação da versão web via HTTP em computador e celular, com circulação, estados, links e imagens. Endereço configurado: https://queiroz-labs.github.io/guedala-park/; publicação efetiva depende da execução concluída do fluxo no GitHub. Sem mudança nas escolhas de móveis.

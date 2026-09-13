@@ -1,11 +1,18 @@
 # Guedala Park — projeto do apartamento
 
+**Versão web:** [Apartamento interativo](https://queiroz-labs.github.io/guedala-park/) · [Moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/).
+
 Comece pelo **[resumo do projeto](01_Projeto/Resumo.md)**: escolhas atuais, orçamento e o que falta resolver.
+
+**Explore o apartamento:** [HTML interativo para computador e celular](01_Projeto/Estudo_interativo/Guedala_Park_Interativo.html) · [Moodboard atualizado com medidas e pendências](03_Referencias/Moodboard_atualizado_R01.html) · [Painel visual de materiais](03_Referencias/Moodboard_visual_atualizado_R01.png).
+
+Vistas superior, lateral e 3D, móveis em diferentes estados de uso e circulação estimada. [Como usar e enviar ao celular](01_Projeto/Estudo_interativo/README.md).
 
 ## O que você quer consultar?
 
 | Assunto | Abrir |
 |---|---|
+| Entrega da Cury e efeitos na reforma | [Memorial oficial e análise](01_Projeto/Memorial_Cury_entrega_e_impactos.md) |
 | Decisões e suas fontes | [Registro de decisões](01_Projeto/Registro_de_decisoes.md) |
 | Cozinha, pia e purificador | [Estudos da cozinha](01_Projeto/Cozinha/README.md) |
 | Lavanderia, varal e aquecedor | [Estudos da lavanderia](01_Projeto/Lavanderia/README.md) |
@@ -14,6 +21,7 @@ Comece pelo **[resumo do projeto](01_Projeto/Resumo.md)**: escolhas atuais, orç
 | Trabalho, jogos e hóspedes | [Escritório](01_Projeto/Escritorio/README.md) |
 | Portas, recuo e quarto | [Portas e quarto](01_Projeto/Portas_e_quarto/README.md) |
 | Medidas e pontos de instalação | [Base de medidas](01_Projeto/Medidas/README.md) |
+| Plantas parecidas de outros Cury e detalhes do Guedala | [Pesquisa comparativa de 40 m²](01_Projeto/Pesquisa_comparativa_Cury/Pesquisa_Cury_40m2.md) · [Relatório com plantas — anterior ao memorial](output/pdf/Pesquisa_Cury_40m2.pdf) |
 | Planta original e manuais | [Plantas e manuais](02_Plantas_e_manuais/README.md) |
 | Imagens de inspiração | [Referências visuais](03_Referencias/README.md) |
 | Fotos e relatórios em HTML | [Visita ao apartamento](04_Visita_ao_apartamento/README.md) |
@@ -26,7 +34,7 @@ Comece pelo **[resumo do projeto](01_Projeto/Resumo.md)**: escolhas atuais, orç
 - **Pendente:** informação, decisão ou conferência que falta.
 - **Histórico:** versão anterior, guardada para consulta.
 
-Os estudos partem da planta e de imagens de uma unidade espelhada. O apartamento ainda não foi entregue; não há medidas acabadas conferidas nem projeto liberado para fabricação. Os preços registrados são referências das pesquisas anteriores.
+Os estudos partem da planta, do memorial oficial de entrega da Cury (R00, 03/04/2023) e de imagens de uma unidade espelhada. O apartamento ainda não foi entregue; não há medidas acabadas conferidas nem projeto liberado para fabricação. Os preços registrados são referências das pesquisas anteriores.
 
 ## Como manter organizado
 

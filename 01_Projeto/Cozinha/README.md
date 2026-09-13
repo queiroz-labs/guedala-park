@@ -1,5 +1,11 @@
 # Cozinha, pia e purificador
 
+**F103 — conferência de instalação:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md). ME23P: 30 cm acima e circuito exclusivo de 20 A; Venax: 20 cm entre fundo do cooktop e topo do forno. RI9252/91 identificada como preta de 127 V. Compatibilização do layout ainda pendente.
+
+**F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.
+
+**Atualização documental F101 — 12/09/2026:** memorial oficial recebido e arquivado. Consultar [entrega e impactos no projeto](../Memorial_Cury_entrega_e_impactos.md). Entrega com bancada de pedra natural e cuba inox; Dora, Apurema e Branco Itaúnas são reforma planejada. Cozinha sem ralo e sem impermeabilização prevista; há ponto para depurador, sem infraestrutura para coifa. Tomadas indicadas como “110V” no memorial; circuitos específicos ainda pendentes.
+
 [Início](../../README.md) · [Resumo](../Resumo.md) · [Registro de decisões](../Registro_de_decisoes.md)
 
 Leia a ordem dos móveis para entender o conjunto, o layout da pia para o teste mais recente da bancada e o purificador lateral para seu detalhamento. As hipóteses dimensionais continuam em estudo.

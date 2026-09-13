@@ -1,3 +1,5 @@
+> **Correção de referência F119:** para a interface IB6/entrada, prevalece o ensaio F38 em [Layout da pia R02](../Cozinha/Layout_da_pia_R02.md): faixa de entrada85 cm e corpo da geladeira fora do giro hipotético. O conflito descrito nesta revisão anterior é histórico; medidas reais, portas da própria IB6 e circulação ainda precisam de conferência.
+
 # Ordem dos móveis
 
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)

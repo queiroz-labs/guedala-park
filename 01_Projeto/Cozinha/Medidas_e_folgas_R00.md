@@ -1,5 +1,7 @@
 # Medidas e folgas
 
+**F104 — 12/09/2026:** Elias decide manter o ME23P com **10 cm livres acima**, mesmo após conhecer a exigência de 30 cm do manual. Registrar como escolha de layout, **em desacordo com o fabricante e sem validação técnica**. Não afirmar que folgas laterais/traseiras compensam a redução. Permanecem 10 cm laterais e traseiros, frente aberta e circuito exclusivo de 20 A em 127 V. Nenhuma alteração foi solicitada para os 20 cm entre cooktop e forno.
+
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)
 
 Referência original: A04.4. As capas dos PDFs conservam esse código.
@@ -64,7 +66,7 @@ Registrar cada medida com referência identificável: piso acabado para alturas 
 | Alimentação de gás e capacidade prevista | Pendente | Manual do proprietário/projeto de gás e verificação da instalação. |
 | Exaustão e ventilação | Pendente | Tipo de ambiente, saídas e requisitos do sistema previsto para a unidade. |
 | Aquecedor | Sem modelo escolhido | Compatibilizar capacidade, modulação, instalação e orçamento; o Rinnai E15 segue apenas como candidato. |
-| Tensão da lavanderia | Em aberto por decisão de Elias | A pendência não impede a consolidação geométrica da VC4. |
+| Tensão escolhida da lavanderia | 127 V, CV5012WC4, por F102 | Circuito e ponto real a conferir; não reabrir escolha de tensão. |
 
 ## Critérios para a próxima implantação
 
@@ -83,3 +85,7 @@ Antes de fixar o início da bancada após a geladeira, aplicar as folgas da IB6 
 - [A04.2 - Partido da lavanderia](../Lavanderia/Decisoes_da_lavanderia_R01.md), complementado pelas decisões posteriores da A04.4.
 
 **Correção aritmética de 11/09/2026:** reserva lateral básica da IB6 = 60,1 + 10 + 10 = 80,1 cm. O valor anterior de 81,1 cm era erro de soma. Folgas de 10 cm conferidas visualmente no guia oficial G0046764/003, página 2. A prancha histórica A04.6 R00 usa a reserva anterior 1 cm maior; a interferência com a entrada permanece. Geladeira em revisão por solicitação de Elias; nenhuma substituta aprovada.
+
+## Conferência F103
+
+[Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md) detalha elétrica e envelopes. ME23P: 66,1 × 59 × 45,2 cm preliminares incluindo folgas; 30 cm livres acima. Venax: mínimo 20 cm entre fundo do cooktop e topo do forno. Recortes e apoios precisam de corte conjunto, sem converter as reservas em liberação de fabricação.

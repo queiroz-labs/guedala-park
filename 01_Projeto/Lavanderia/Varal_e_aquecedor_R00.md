@@ -1,5 +1,7 @@
 # Varal e aquecedor
 
+**Atualização F107:** E21 GN escolhido em F106. Para instalação e encaixe do conjunto, consultar [estudo vigente E21/ripado/varal](E21_ripado_varal_R01.md). A análise do E15 abaixo é histórica; o estudo de cargas do varal permanece referência preliminar.
+
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)
 
 Referência original: A04.5. As capas dos PDFs conservam esse código.

@@ -1,12 +1,14 @@
 # LG VC4: escolha e pendências
 
+**F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.
+
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)
 
 Referência original: A04.3. As capas dos PDFs conservam esse código.
 
 **R01 | 09/09/2026 | Revisão vigente para seleção de equipamentos**
 
-> **Conferência posterior:** [A04.4 R00](../Cozinha/Equipamentos_e_instalacao_R00.md) registra a leitura dos manuais VC4 de 127 e 220 V, que confirmam dimensões e folgas iguais. Resolve a divergência de largura da ficha comercial. A tensão permanece em aberto por instrução de Elias; as pendências de manual descritas abaixo retratam o estado anterior a essa conferência. Cabimento e instalações reais continuam sem validação.
+> **Conferência posterior:** [A04.4 R00](../Cozinha/Equipamentos_e_instalacao_R00.md) registra a leitura dos manuais VC4 de 127 e 220 V, que confirmam dimensões e folgas iguais. Resolve a divergência de largura da ficha comercial. A tensão foi definida em 127 V por F102; as pendências de manual descritas abaixo retratam o estado anterior a essa conferência. Cabimento e instalações reais continuam sem validação.
 
 [Abrir o PDF atualizado](LG_VC4_e_orcamento_R01.pdf)
 
@@ -16,7 +18,7 @@ Referência original: A04.3. As capas dos PDFs conservam esse código.
 
 - 127 V: CV5012WC4.
 - 220 V: CV5012WC4A.
-- A tensão do ponto da lavanderia continua desconhecida. Código final de compra pendente; o aparelho não é bivolt.
+- A tensão do ponto da lavanderia continua desconhecida. Código escolhido: CV5012WC4 (127 V); o aparelho não é bivolt.
 - A VC5 passa a alternativa histórica não escolhida. Não é mais a candidata principal.
 - A geladeira permanece Electrolux IB6 branca inverse de 400 L.
 - Aquecedor ainda pendente; E15 FEH permanece candidato em avaliação.
