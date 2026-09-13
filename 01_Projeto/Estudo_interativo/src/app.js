@@ -80,22 +80,25 @@ function buildScene(){nodes=[];
   // Fridge body with the 10 cm rear clearance, not the old placement.
   add('fridge','cozinha',584.9,615.25,60.1,74.75,0,186.6,'offwhite','fridge');
   upper('kitchenupper','cozinha',388,665,65,35,165,75,'petrol','x',2);
+  upper('kitchenupper','cozinha',453,665,60,35,165,75,'petrol','x',2);
   upper('kitchenupper','cozinha',513,665,61.9,35,180,60,'petrol','x',2);
+  upper('kitchenupper','cozinha',574.9,665,80.1,35,210,30,'petrol','x',2);
   add('microwave','cozinha',520,657,46.1,35.2,147,29,'black','microwave',{upper:true});
   add('hood','cozinha',390.5,666,60,32,158,7,'#afb4b0','box',{upper:true});
   add('filter','cozinha',480,670,28.4,25,125,33,'offwhite');add('filter','cozinha',478,669,32,28,122,3,'wood');
   // Lavanderia: state is intention only, not an engineered mechanism.
-  add('washer','lavanderia',260,628,60,62,0,85.5,'offwhite','washer');slab('laundrybase','lavanderia',255,625,129,75,89,3,'stone',1);
-  add('laundrybase','lavanderia',325,642,59,58,8,81,'wood');add('laundrybase','lavanderia',333,649,42,39,90,2,'#aaa99b','sink');
+  add('washer','lavanderia',320,628,60,62,0,85.5,'offwhite','washer');slab('laundrybase','lavanderia',255,625,129,75,89,3,'stone',1);
+  add('laundrybase','lavanderia',255,642,59,58,8,81,'wood');add('laundrybase','lavanderia',263,649,42,39,90,2,'#aaa99b','sink');
+  upper('laundryupper','lavanderia',302,665,86,35,165,58,'wood','x',2);
   add('heater','lavanderia',262,675,35,15.7,157,53,'offwhite');add('heater','lavanderia',276,679,8,8,210,35,'#afb3ae');
   const dy=state.dry==='stored'?231:state.dry==='high'?204:145,dz=state.dry==='stored'?639:564;
   add('drying','lavanderia',270,dz,100,50,dy,3,'wood','drying',{upper:true});
-  add('drying','lavanderia',268,636,104,3,223,18,'wood','box',{upper:true});
+  add('laundryupper','lavanderia',255,636,133,3,223,17,'wood','box',{upper:true});
   if(state.dry!=='stored')for(const x of[281,303,327,349])add('drying','lavanderia',x,dz+12,13,2,dy-75,74,'#dddccf','box',{upper:true});
   // Banho: fixtures reconstructed from plan; materials fixed, furniture dimensions not.
-  add('shower','banho',255,405,80,93,0,2,'greige');add('shower','banho',255,405,80,2,0,225,'sage','box',{upper:true});
-  add('shower','banho',255,497,80,1,0,state.walls?210:95,'#9fb2aa','glass');
-  add('shower','banho',291,407,2,22,207,2,'black');add('shower','banho',284,418,16,14,207,2,'black','round',{r:6});
+  add('shower','banho',255,405,80,93,0,2,'greige');add('shower','banho',255,497,80,2,0,225,'sage','box',{upper:true});
+  add('shower','banho',334,405,1,93,0,state.walls?210:95,'#9fb2aa','glass');
+  add('shower','banho',291,475,2,22,207,2,'black');add('shower','banho',284,470,16,14,207,2,'black','round',{r:6});
   add('bathvanity','banho',410,483,49,40,30,54,'wood');slab('bathvanity','banho',410,483,49,40,84,3,'stone');add('bathvanity','banho',417,490,34,24,87,7,'offwhite','sink');add('bathvanity','banho',411,525,47,1,115,72,'#bbc6bf','glass',{upper:true});
   add('toilet','banho',355,463,35,60,0,42,'offwhite','toilet');
   return nodes;
@@ -210,7 +213,7 @@ function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimati
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
 function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
-function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','fridge','sink','filter','cooktop','oven','microwave','airfryer','hood'],lavanderia:['washer','laundrybase','drying','heater'],banho:['shower','bathvanity','toilet']};
+function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','kitchenupper','fridge','sink','filter','cooktop','oven','microwave','airfryer','hood'],lavanderia:['washer','laundrybase','laundryupper','drying','heater'],banho:['shower','bathvanity','toilet']};
   $('moodRooms').innerHTML=PROJECT.rooms.filter(r=>r.id!=='all').map(r=>`<article class="mood-room"><canvas id="mood-${r.id}" aria-label="Volumetria proporcional: ${esc(r.name)}"></canvas><div class="content"><span class="eyebrow">${r.id==='quarto'?'NEUTROS · SEM TV · SEM AZUL':r.id==='escritorio'?'TRABALHO + HÓSPEDES':'PALETA E MOBILIÁRIO'}</span><h2>${esc(r.name)}</h2><div class="mini-palette">${PROJECT.materials.filter(m=>m.rooms.includes(r.id)&&m.id!=='altblue').slice(0,6).map(m=>`<i style="background:${m.color}" title="${esc(m.name)}"></i>`).join('')}</div><ul>${highlights[r.id].map(id=>{let o=ITEMS.find(o=>o.id===id);return`<li><strong>${esc(o.name)}</strong><span>${esc(o.dimensions)}<br><small>${esc(o.measure)}</small></span></li>`;}).join('')}</ul><p style="margin-top:14px">${esc(ROOM_NOTES[r.id])}</p><button data-explore="${r.id}">Explorar este ambiente</button></div></article>`).join('');
   $('materials').innerHTML=PROJECT.materials.map(m=>`<article class="material"><div class="swatch ${m.type}" style="${materialStyle(m)}"></div><div class="body"><strong>${esc(m.name)}</strong><span class="badge ${m.status==='Alternativa'?'study':''}">${esc(m.status)}</span><p>${esc(m.note)}</p></div></article>`).join('');
   document.querySelectorAll('[data-explore]').forEach(b=>b.onclick=()=>{setRoom(b.dataset.explore);tab('model');});

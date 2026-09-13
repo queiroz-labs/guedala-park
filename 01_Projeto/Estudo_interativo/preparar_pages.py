@@ -24,7 +24,7 @@ for source, destination, image_path in [
 
 shutil.copyfile(root / '03_Referencias/Moodboard_visual_atualizado_R01.png', site / 'moodboard.png')
 (site / '.nojekyll').write_text('', encoding='utf-8')
-(site / 'versao.json').write_text(json.dumps({'revisao':'R01','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+(site / 'versao.json').write_text(json.dumps({'revisao':'R02','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
 
 expected = {'index.html', 'moodboard/index.html', 'moodboard.png', '.nojekyll', 'versao.json'}
 actual = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file()}
