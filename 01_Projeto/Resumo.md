@@ -1,5 +1,7 @@
 # Resumo do projeto
 
+**Cozinha — 15/09/2026:** [Decisões consolidadas e pendências](Cozinha/Decisoes_consolidadas_2026-09-15.md). Organização aprovada: A/D com divisórias verticais; B com uma prateleira; C com três e as duas superiores alinhadas a B. Inclui base com rodas de silicone, escorredor sobre a cuba/guarda inferior e conferência do inventário.
+
 [Voltar ao início](../README.md) · [Consultar todas as decisões e fontes](Registro_de_decisoes.md)
 
 Base: decisões registradas até **11/09/2026**. Este resumo facilita a leitura; os detalhes e o histórico ficam no registro de decisões. Uma escolha confirmada não significa compra realizada ou instalação aprovada.

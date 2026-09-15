@@ -1,5 +1,7 @@
 # Cozinha, pia e purificador
 
+**Cozinha — 15/09/2026:** [Decisões consolidadas e pendências](Decisoes_consolidadas_2026-09-15.md). Organização aprovada: A/D com divisórias verticais; B com uma prateleira; C com três e as duas superiores alinhadas a B. Inclui base com rodas de silicone, escorredor sobre a cuba/guarda inferior e conferência do inventário.
+
 [Início](../../README.md) · [Resumo](../Resumo.md) · [Registro de decisões](../Registro_de_decisoes.md)
 
 Leia a ordem dos móveis para entender o conjunto, o layout da pia para o teste mais recente da bancada e o purificador lateral para seu detalhamento. As hipóteses dimensionais continuam em estudo.
