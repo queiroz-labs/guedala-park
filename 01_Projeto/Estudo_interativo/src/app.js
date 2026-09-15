@@ -48,6 +48,7 @@ function buildScene(){nodes=[];
   slab('queen','quarto',hx+5,130,44,62,60,9,'#faf8ee',6);slab('queen','quarto',hx+5,207,44,62,60,9,'#faf8ee',6);
   slab('headboard','quarto',0,120,hx,160,20,95,'head',2);
   add('wardrobe','quarto',0,335,200,60,0,240,'offwhite');add('wardrobe','quarto',99.5,334.7,1,1,0,240,'#bdb8ac');
+  add('mirror','quarto',200,340,.5,50,20,180,'#b9d0d3','glass');
   upper('bedcabinet','quarto',0,110,25,180,205,35,'offwhite','z',3);
   add('ledges','quarto',hx+3,120,15,20,69,2,'wood');add('ledges','quarto',hx+3,260,15,20,69,2,'wood');
   // Escritório. Global origin [255,0], same local coordinates as R07.
@@ -90,7 +91,15 @@ function buildScene(){nodes=[];
   upper('kitchenupper','cozinha',574.9,665,80.1,35,198.4,56.6,'petrol','x',2);
   add('microwave','cozinha',516.5,657,46.1,35.2,155,29,'black','microwave',{upper:true});
   add('hood','cozinha',390.5,666,60,32,158,7,'#afb4b0','box',{upper:true});
-  add('filter','cozinha',552,653,16,42,92,35,'offwhite','box');
+  add('filter','cozinha',552,653,16,42,92,35,'black','box');
+  add('trash','cozinha',474,508,34,21,0,45,'inox','round',{r:3});
+  add('trash','cozinha',474,508,34,21,45,2,'black','round',{r:3});
+  add('trash','cozinha',505,514,5,9,1,2,'black');
+  add('recycling','lavanderia',257,541,29,29,0,42,'inox','round',{r:14.5});
+  add('recycling','lavanderia',257,541,29,29,42,1.7,'black','round',{r:14.5});
+  add('recycling','lavanderia',267,568,9,5,1,2,'black');
+  add('dishrack','cozinha',514,641,27.8,19.9,92,2,'black','round',{r:2});
+  add('dishrack','cozinha',514,641,27.8,2,94,10.6,'black');
   // Lavanderia: state is intention only, not an engineered mechanism.
   add('washer','lavanderia',320,628,60,62,0,85.5,'inox','washer');slab('laundrybase','lavanderia',255,625,129,75,89,3,'stone',1);
   add('laundrybase','lavanderia',255,642,59,58,8,81,'wood');add('laundrybase','lavanderia',263,649,42,39,90,2,'#aaa99b','sink');
@@ -220,7 +229,7 @@ function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimati
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
 function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
-function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','sinkstorage','lowdrawer','kitchenupper','fridge','sink','filter','cooktop','oven','microwave','hood'],lavanderia:['washer','laundrybase','airfryer','coffeemaker','laundryupper','drying','heater'],banho:['shower','bathvanity','toilet']};
+function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','mirror','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','sinkstorage','lowdrawer','kitchenupper','fridge','sink','filter','dishrack','pressurecooker','trash','cooktop','oven','microwave','hood'],lavanderia:['washer','laundrybase','recycling','airfryer','coffeemaker','laundryupper','drying','heater'],banho:['shower','bathvanity','toilet']};
   $('moodRooms').innerHTML=PROJECT.rooms.filter(r=>r.id!=='all').map(r=>`<article class="mood-room"><canvas id="mood-${r.id}" aria-label="Volumetria proporcional: ${esc(r.name)}"></canvas><div class="content"><span class="eyebrow">${r.id==='quarto'?'NEUTROS · SEM TV · SEM AZUL':r.id==='escritorio'?'TRABALHO + HÓSPEDES':'PALETA E MOBILIÁRIO'}</span><h2>${esc(r.name)}</h2><div class="mini-palette">${PROJECT.materials.filter(m=>m.rooms.includes(r.id)&&m.id!=='altblue').slice(0,6).map(m=>`<i style="background:${m.color}" title="${esc(m.name)}"></i>`).join('')}</div><ul>${highlights[r.id].map(id=>{let o=ITEMS.find(o=>o.id===id);return`<li><strong>${esc(o.name)}</strong><span>${esc(o.dimensions)}<br><small>${esc(o.measure)}</small></span></li>`;}).join('')}</ul><p style="margin-top:14px">${esc(ROOM_NOTES[r.id])}</p><button data-explore="${r.id}">Explorar este ambiente</button></div></article>`).join('');
   $('materials').innerHTML=PROJECT.materials.map(m=>`<article class="material"><div class="swatch ${m.type}" style="${materialStyle(m)}"></div><div class="body"><strong>${esc(m.name)}</strong><span class="badge ${m.status==='Alternativa'?'study':''}">${esc(m.status)}</span><p>${esc(m.note)}</p></div></article>`).join('');
   document.querySelectorAll('[data-explore]').forEach(b=>b.onclick=()=>{setRoom(b.dataset.explore);tab('model');});
@@ -252,7 +261,7 @@ function init(){
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=()=>$('inspector').classList.remove('open');$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R03.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R04.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
   buildMood();buildScene();setRoom('all');setView('iso');selectItem('bonnie',false);$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
