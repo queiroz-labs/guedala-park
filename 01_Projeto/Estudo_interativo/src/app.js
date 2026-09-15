@@ -30,7 +30,7 @@ function buildScene(){nodes=[];
   slab('bonnie','sala',740-state.sofaGap-25,189,23,172,36,open?43:64,'head',5);
   for(const zz of[185,351])slab('bonnie','sala',sx+8,zz,sd-8,14,35,31,'beige',3);
   add('panel','sala',495,187.5,2,115,25,165,'offwhite');
-  add('racks','sala',497,190,state.rackDepth-2,110,32,3,'wood');add('racks','sala',497,190,25,110,57,3,'wood');
+  add('racks','sala',497,190,state.rackDepth-2,110,32,3,'wood');add('racks','sala',497,190,25,110,162,3,'wood');
   add('power','sala',497,192,15,20,35,12,'wood');
   // Screen luminous dark face along x, Ambilight is only a muted visual cue.
   add('tv50','sala',504,189.45,8.8,111.1,77,64.9,'black','screenX');
@@ -71,24 +71,31 @@ function buildScene(){nodes=[];
   add('officeshelf','escritorio',450,105,35,110,192,3,'wood','box',{upper:true});
   add('tv43','escritorio',473,128,5,97,82,56,'black','screenX');
   if(state.console==='sala'){add('ps5','sala',507,226.1,21.6,35.8,35,8,'offwhite','console');}else{add('ps5','escritorio',453.4,115,21.6,35.8,195,8,'offwhite','console',{upper:true});}
-  // Cozinha longitudinal updated F38: origin388; no conflict with entrance85.
-  add('kitchenbase','cozinha',388,639,186.9,61,8,81,'wood');slab('kitchenbase','cozinha',388,639,186.9,61,89,3,'stone',1);
-  for(const x of[453,513])add('kitchenbase','cozinha',x,638.9,.6,1,8,81,'#9c825f');
+  // Cozinha: composição funcional aprovada; cotas continuam de estudo.
+  add('kitchenbase','cozinha',388,639,65,61,8,81,'wood');
+  add('sinkstorage','cozinha',453,639,60,61,18,71,'wood');
+  add('kitchenbase','cozinha',513,639,61.9,61,18,71,'wood');
+  slab('kitchenbase','cozinha',388,639,186.9,61,89,3,'stone',1);
+  for(const x of[453,513])add('kitchenbase','cozinha',x,638.9,.6,1,18,71,'#9c825f');
+  add('sinkstorage','cozinha',482.7,638.7,.6,1,18,71,'#9c825f');
+  for(const y of[46,60,74])add('kitchenbase','cozinha',513,638.7,61.9,1,y,.6,'#9c825f');
+  add('lowdrawer','cozinha',453,647,121.9,40.6,4.5,10,'wood');
   add('oven','cozinha',395.5,641,50,55,24,35,'black','oven');add('cooktop','cozinha',392,646,56,46,92,1.5,'black','cooktop');
   add('sink','cozinha',461.5,650,43,37,90,2.6,'#959d97','sink');add('sink','cozinha',505,678,2,2,92,43,'black');add('sink','cozinha',489,677,17,2,133,2,'black');
-  add('airfryer','cozinha',545,652,26.4,36,92,29.5,'black','round',{r:5});
   // Fridge body with the 10 cm rear clearance, not the old placement.
-  add('fridge','cozinha',584.9,615.25,60.1,74.75,0,186.6,'offwhite','fridge');
-  upper('kitchenupper','cozinha',388,665,65,35,165,75,'petrol','x',2);
-  upper('kitchenupper','cozinha',453,665,60,35,165,75,'petrol','x',2);
-  upper('kitchenupper','cozinha',513,665,61.9,35,180,60,'petrol','x',2);
-  upper('kitchenupper','cozinha',574.9,665,80.1,35,210,30,'petrol','x',2);
-  add('microwave','cozinha',520,657,46.1,35.2,147,29,'black','microwave',{upper:true});
+  add('fridge','cozinha',584.9,615.25,60.1,74.75,0,186.6,'inox','fridge');
+  upper('kitchenupper','cozinha',388,665,65,35,197.6,57.4,'petrol','x',2);
+  upper('kitchenupper','cozinha',453,665,52.2,35,155,100,'petrol','x',2);
+  upper('kitchenupper','cozinha',505.2,665,69.7,35,194,61,'petrol','x',2);
+  upper('kitchenupper','cozinha',574.9,665,80.1,35,198.4,56.6,'petrol','x',2);
+  add('microwave','cozinha',516.5,657,46.1,35.2,155,29,'black','microwave',{upper:true});
   add('hood','cozinha',390.5,666,60,32,158,7,'#afb4b0','box',{upper:true});
-  add('filter','cozinha',480,670,28.4,25,125,33,'offwhite');add('filter','cozinha',478,669,32,28,122,3,'wood');
+  add('filter','cozinha',552,653,16,42,92,35,'offwhite','box');
   // Lavanderia: state is intention only, not an engineered mechanism.
-  add('washer','lavanderia',320,628,60,62,0,85.5,'offwhite','washer');slab('laundrybase','lavanderia',255,625,129,75,89,3,'stone',1);
+  add('washer','lavanderia',320,628,60,62,0,85.5,'inox','washer');slab('laundrybase','lavanderia',255,625,129,75,89,3,'stone',1);
   add('laundrybase','lavanderia',255,642,59,58,8,81,'wood');add('laundrybase','lavanderia',263,649,42,39,90,2,'#aaa99b','sink');
+  if(state.dry==='stored')add('airfryer','lavanderia',349,651,26.4,36,92,29.5,'black','round',{r:5});
+  else add('airfryer','cozinha',520,651,26.4,36,92,29.5,'black','round',{r:5});
   upper('laundryupper','lavanderia',302,665,86,35,165,58,'wood','x',2);
   add('heater','lavanderia',262,675,35,15.7,157,53,'offwhite');add('heater','lavanderia',276,679,8,8,210,35,'#afb3ae');
   const dy=state.dry==='stored'?231:state.dry==='high'?204:145,dz=state.dry==='stored'?639:564;
@@ -189,7 +196,7 @@ function drawAnnotations(ctx,pr,cam,w,h,st){
 
 function chosen(o){return /Aprovado|aprovada|Existente|Entrega/.test(o.choice);}
 function needsCheck(o){return !/^Projeto aprovado$/.test(o.measure);}
-function activeRoom(o){return o.id==='ps5'?state.console:o.room;}
+function activeRoom(o){if(o.id==='ps5')return state.console;if(o.id==='airfryer')return state.dry==='stored'?'lavanderia':'cozinha';return o.room;}
 function roomItems(room=state.room){return ITEMS.filter(o=>room==='all'||activeRoom(o)===room);}
 function selectItem(id,open=true){let it=ITEMS.find(o=>o.id===id);if(!it)return;state.selected=id;
   $('selectedInfo').innerHTML=`<h2>${esc(it.name)}</h2><span class="badge ${chosen(it)?'':'study'}">${esc(it.choice)}</span><span class="badge ${needsCheck(it)?'study':''}">${esc(it.measure)}</span><canvas id="itemPreview" class="item-preview" aria-label="Volume ilustrativo do móvel selecionado"></canvas><div class="dimensions">${esc(it.dimensions)}</div><dl><dt>Material / cor</dt><dd>${esc(MAT[it.material]?.name||it.material)}</dd>${it.budget?'<dt>Orçamento registrado</dt><dd>'+esc(it.budget)+'</dd>':''}<dt>Conferir antes de executar</dt><dd>${esc(it.notes)}</dd></dl><h3>Origem da decisão</h3><p>${esc(it.source)}</p>`;
@@ -203,8 +210,8 @@ function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-st
   if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(state.dining==='stored'?'114 cm*':'65 cm*','Lateral do jantar',state.dining==='stored'?'Encosto 6 cm · gabarito':'Cadeira ocupada 55 cm',true),metric('110 cm','Largura das prateleiras','Parede ~120 cm a medir')];}
   else if(state.room==='quarto')list=[metric('55 cm*','Frente do armário','Cama de reserva 160 cm',true),metric((45-state.headDepth)+' cm*','Aos pés da cama','Reserva200 + cabeceira'+state.headDepth,true),metric('20 cm*','Lado da janela','Faixa estreita aceita',true)];
   else if(state.room==='escritorio')list=state.office==='guest'?[metric('40 cm*','Cama → bancada','Sem usuário na estação',true),metric('88 cm*','Lateral da cama','Brutos, fora da cadeira',true),metric('3 cm*','Porta → cama','Margem gráfica crítica',true)]:[metric('82 cm*','Bancada → sofá','Antes da cadeira ocupada',true),metric('195 cm','Topo prateleira','Altura aprovada'),metric('200 × 70','Bancada · cm','Largura ainda proposta',true)];
-  else if(state.room==='cozinha')list=[metric('85 cm*','Reserva da entrada','Distribuição F38/F119'),metric('70,25 cm*','Frente da IB6','Antes de pessoa/porta',true),metric('61,9 cm*','Preparo + air fryer','Inclui o aparelho',true)];
-  else if(state.room==='lavanderia')list=[metric('100 × 50','Grelha · cm','Escolhida'),metric('72 cm*','Reserva VC4 fechada','Corpo +10cm atrás'),metric('Pendente','Recolhimento varal','Conflito com E21',true)];
+  else if(state.room==='cozinha')list=[metric('85 cm*','Reserva da entrada','Distribuição F38/F119'),metric('70,25 cm*','Frente da IB6S','Antes de pessoa/porta',true),metric('61,9 cm*','Filtro + preparo','Faixa compartilhada',true),metric('121,9 cm*','Gaveta baixa','Externo; encaixe a conferir',true)];
+  else if(state.room==='lavanderia')list=[metric('100 × 50','Grelha · cm','Escolhida'),metric('72 cm*','Reserva VC4 fechada','Corpo +10cm atrás'),metric(state.dry==='stored'?'Aparelhos aqui':'Aparelhos na cozinha','Uso da bancada','Sem operar sob roupas',true),metric('Pendente','Recolhimento varal','Conflito com E21',true)];
   else list=[metric('209 × 124','Banheiro · cm','Cotas de planta'),metric('80 × 93*','Box · cm','Implantação gráfica',true),metric('A conferir','Marcenaria','Modelo/dimensões',true)];
   $('metrics').innerHTML=list.map(m=>`<div class="metric ${m.warn?'warning':''}"><b>${m.value}</b><span>${m.title}</span><small>${m.note}</small></div>`).join('');
   $('gapValue').textContent=state.sofaGap+' cm';$('rackValue').textContent=state.rackDepth+' cm';$('headValue').textContent=state.headDepth+' cm';
@@ -213,7 +220,7 @@ function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimati
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
 function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
-function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','kitchenupper','fridge','sink','filter','cooktop','oven','microwave','airfryer','hood'],lavanderia:['washer','laundrybase','laundryupper','drying','heater'],banho:['shower','bathvanity','toilet']};
+function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','sinkstorage','lowdrawer','kitchenupper','fridge','sink','filter','cooktop','oven','microwave','hood'],lavanderia:['washer','laundrybase','airfryer','coffeemaker','laundryupper','drying','heater'],banho:['shower','bathvanity','toilet']};
   $('moodRooms').innerHTML=PROJECT.rooms.filter(r=>r.id!=='all').map(r=>`<article class="mood-room"><canvas id="mood-${r.id}" aria-label="Volumetria proporcional: ${esc(r.name)}"></canvas><div class="content"><span class="eyebrow">${r.id==='quarto'?'NEUTROS · SEM TV · SEM AZUL':r.id==='escritorio'?'TRABALHO + HÓSPEDES':'PALETA E MOBILIÁRIO'}</span><h2>${esc(r.name)}</h2><div class="mini-palette">${PROJECT.materials.filter(m=>m.rooms.includes(r.id)&&m.id!=='altblue').slice(0,6).map(m=>`<i style="background:${m.color}" title="${esc(m.name)}"></i>`).join('')}</div><ul>${highlights[r.id].map(id=>{let o=ITEMS.find(o=>o.id===id);return`<li><strong>${esc(o.name)}</strong><span>${esc(o.dimensions)}<br><small>${esc(o.measure)}</small></span></li>`;}).join('')}</ul><p style="margin-top:14px">${esc(ROOM_NOTES[r.id])}</p><button data-explore="${r.id}">Explorar este ambiente</button></div></article>`).join('');
   $('materials').innerHTML=PROJECT.materials.map(m=>`<article class="material"><div class="swatch ${m.type}" style="${materialStyle(m)}"></div><div class="body"><strong>${esc(m.name)}</strong><span class="badge ${m.status==='Alternativa'?'study':''}">${esc(m.status)}</span><p>${esc(m.note)}</p></div></article>`).join('');
   document.querySelectorAll('[data-explore]').forEach(b=>b.onclick=()=>{setRoom(b.dataset.explore);tab('model');});
@@ -238,14 +245,14 @@ function init(){
   $('rooms').innerHTML=PROJECT.rooms.map(r=>`<button data-room="${r.id}" class="${r.id==='all'?'active':''}"><strong>${esc(r.name)}</strong><small>${esc(r.sub)}</small></button>`).join('');document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>setRoom(b.dataset.room));
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
-  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{state[key]=e.target.value;updateMetrics();drawLists();requestRender();if(key==='office'&&state.office==='guest')toast('Posições finais: a trajetória do sofá e da cadeira ainda precisa de conferência.');if(key==='dry'&&state.dry!=='stored')toast('Movimento conceitual: recolhimento e distância do aquecedor pendentes.');};
+  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{state[key]=e.target.value;updateMetrics();drawLists();requestRender();if(key==='office'&&state.office==='guest')toast('Posições finais: a trajetória do sofá e da cadeira ainda precisa de conferência.');if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=()=>$('inspector').classList.remove('open');$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R01.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R03.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
   buildMood();buildScene();setRoom('all');setView('iso');selectItem('bonnie',false);$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
