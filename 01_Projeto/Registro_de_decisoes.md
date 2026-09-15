@@ -1876,3 +1876,309 @@ Verificados computador e celular em emulação, incluindo21 combinações ambien
 **Resultado e limite autorizado:** após bloqueio da revisão automática do push amplo, Elias escolheu expressamente publicar apenas site e moodboard e preservar o restante localmente. Commit completo8f0a2ae mantido local; commit público separadoa439989 com14 arquivos enviado a origin/main. Fluxo34775941883 concluído com sucesso; site e moodboard verificados no endereço público em computador/celular emulados. Nenhum novo PDF, áudio, pesquisa ou registro foi incluído no push restrito. [Continuidade e separação dos históricos](Estudo_interativo/Publicacao_GitHub_Pages.md).
 
 Elias solicita commit, push e transformação do estudo em GitHub Pages. Preparado fluxo automático de publicação da branch main, com página principal e moodboard em caminhos próprios e imagem de materiais disponível no site. O artefato web contém apenas os HTML, a imagem e a identificação da versão; o repositório mantém os estudos, fontes e decisões do projeto. Cópia local continua autônoma. Validação da versão web via HTTP em computador e celular, com circulação, estados, links e imagens. Endereço configurado: https://queiroz-labs.github.io/guedala-park/; publicação efetiva depende da execução concluída do fluxo no GitHub. Sem mudança nas escolhas de móveis.
+
+### F158 — Correções do estudo interativo (13/09/2026)
+
+Elias corrige os superiores: continuidade em Azul Petróleo de cima da geladeira até acima do cooktop, incluindo a pia; lavanderia passa a ter superiores Arenza. Tanque junto à janela e lava e seca entre cooktop e tanque, conforme P01. Ducha invertida para a parede voltada à lavanderia; fechamento de vidro na lateral do box voltada às louças. Fontes, HTML e moodboard atualizados em R02. Dimensões dos módulos e compatibilização dos equipamentos continuam em estudo.
+
+### F159 — Uma prateleira acima e outra abaixo da TV (13/09/2026)
+
+Elias define duas prateleiras no painel da TV da sala: uma acima da TV e uma abaixo dela. Esta disposição substitui a anterior de duas prateleiras abaixo da TV (F148/F149). As alturas anteriores de 35 e 60 cm não definem a nova implantação; alturas, profundidades e distribuição dos equipamentos devem ser compatibilizadas com esta disposição. Não foram aprovadas novas medidas nesta solicitação. Por pedido expresso, atualizado somente este registro de decisões; HTML e demais arquivos permanecem na versão anterior.
+
+### F160 — Geladeira e lava e seca em inox; HTML somente sob pedido (13/09/2026)
+
+Elias aprova acabamento inox para a geladeira e a lava e seca, substituindo a escolha anterior de branco nos dois aparelhos. Direção estética: inox escovado, com tons próximos entre os equipamentos, em composição com Azul Petróleo, Arenza e detalhes pretos. A alteração aprova o acabamento; códigos e disponibilidade das versões em inox ainda precisam ser conferidos, sem presumir que os códigos anteriormente registrados para os aparelhos brancos correspondam às novas versões.
+
+**Orientação permanente de manutenção:** só modificar o HTML quando Elias pedir explicitamente. Novas decisões não autorizam atualização automática do HTML, de suas fontes geradoras ou do site publicado. Nesta solicitação, alterado somente este registro de decisões.
+
+### F161 — Pesquisa de preços das versões inox (13/09/2026)
+
+A pedido de Elias, salva [pesquisa da IB6S e LG VC4 CV5012PC4](Equipamentos/Precos_inox_IB6S_VC4_R00.md), com códigos correspondentes, tensão, preços Pix/parcelados, vendedores, links e limitações. Referências consultadas: IB6S R$ 3.998,76 Pix / R$ 4.254,00 parcelado; VC4 inox 127 V R$ 4.949,10 Pix / R$ 5.499,00 parcelado. Soma R$ 8.947,86 Pix ou R$ 9.753,00 parcelado, sem frete. Acabamento comercial Inox Look. Nenhuma compra ou aumento de orçamento aprovado. HTML e suas fontes não alterados.
+
+### F162 — Organização interna da cozinha e lavanderia: inventário e escolhas (15/09/2026)
+
+Consolidação da rodada de perguntas desta conversa. Atualizar esta mesma entrada ao longo do dia. Prioridade de Elias: aproveitar o espaço, manter organização e facilidade de uso, com distribuição familiar ao cotidiano brasileiro. Consultar as escolhas existentes antes de perguntar; não reabrir decisões fechadas. Respostas atuais prevalecem nos pontos explicitamente alterados. Esta etapa ainda está em andamento.
+
+#### Rotina e compras — confirmado
+
+- Uma pessoa cozinha por vez, cerca de três vezes por semana. Elias informa almoço às terças e sextas e jantar nos demais dias; prepara refeições para os próximos dois dias e pretende experimentar receitas mais elaboradas.
+- Feijão congelado para duas semanas, em potes pequenos. Carne também para duas semanas; aceita porcionar em sacos próprios para congelamento, achatados e identificados, agrupados por tipo.
+- Pretende comprar todos os utensílios desta etapa; isso atualiza a informação antiga de que já possuía os itens do inventário. Preferência por panelas pequenas e médias.
+- Compras quinzenais, repondo aos poucos. Mantimentos: arroz, feijão seco, macarrão, café, açúcar, farinha de trigo, farinha de mandioca/farofa, aveia, tapioca, óleo, azeite, molhos, enlatados e biscoitos.
+- Estoque informado agora: seis caixas de leite e três embalagens de suco de 1,5 L. Usar seis caixas de leite como referência atual, em lugar das 12 ocasionais do registro anterior. Volume de cada caixa de leite e tamanho dos demais pacotes ainda não informados.
+- Organização mista da despensa: potes padronizados para secos frequentes e cestos para embalagens e reservas. Capacidades dos potes a dimensionar.
+- Respostas ao bloco, perguntas 1–2: arroz, feijão seco, açúcar e café comprados em embalagens de 1 kg cada. Elias pretende cozinhar 1 kg de feijão seco por preparo. Não estender a resposta aos demais mantimentos nem equiparar 1 kg a 1 litro. Reavaliar a capacidade da panela de pressão anteriormente sugerida (4,5 L) pelo limite de enchimento para feijão do modelo; capacidade final ainda não definida.
+
+#### Louças e bebidas
+
+- Confirmado: louça de visitas completa para seis pessoas, separada da diária. Aprovados quatro pratos rasos, quatro fundos e quatro pequenos para o dia a dia.
+- Guarda dos pratos do dia a dia no armário superior confirmada. Prateleira de fácil alcance próxima da pia é proposta de localização, ainda a compatibilizar com os módulos e o purificador; não há cota de instalação aprovada.
+- Recebem visitas para refeições aproximadamente duas vezes por mês. Louça de visitas e taças devem ter acesso secundário, mas sem exigir desmontar pilhas de outras categorias; localização ainda proposta.
+- Ao ser perguntado sobre a altura da parceira, Elias pediu manter a altura igual. Adotada referência comum de alcance para organizar os itens, sem registrar a estatura da parceira como medida conhecida nem alterar alturas executivas dos móveis.
+- Composição apresentada para visitas: seis rasos grandes, seis fundos e seis pequenos/de sobremesa, totalizando 30 pratos com os diários. Base de planejamento da conversa; modelos e dimensões não escolhidos.
+- Elias quer copos, canecas, xícaras com pires e taças. Retirou expressamente as seis taças de vinho da proposta. Xícaras pequenas para cafezinho confirmadas.
+- Quantidades de trabalho apresentadas: seis copos, quatro canecas, seis xícaras pequenas com pires, seis taças de espumante e seis de cerveja. Mantidas na sequência da conversa após a retirada do vinho; não houve aprovação individual de cada quantidade. Cabimento e modelos pendentes.
+- Um único conjunto de talheres para seis pessoas, para cotidiano e visitas, confirmado. Facas de preparo guardadas em gaveta com proteção das lâminas; compartilhamento da gaveta com talheres depende do espaço.
+
+#### Gavetas, panelas e potes — escolhas confirmadas
+
+- Temperos em gaveta, com identificação visível. Reserva proposta de 18–24 frascos pequenos; número e lista final ainda a ajustar. Óleo, azeite, vinagre e molhos não foram destinados automaticamente a essa gaveta.
+- Utensílios de cozinhar em gaveta, preservando a bancada.
+- Preservada COZ-022: panelas empilhadas em gavetões. Agora confirmado: tampas em divisórias verticais no próprio gavetão das panelas. Separadores removíveis propostos para ajuste e limpeza.
+- Potes mistos: pequenos de plástico próprios para congelamento para feijão e de vidro para refeições a reaquecer, conforme aprovação da proposta. Produtos devem ser adequados ao uso; capacidades e quantidades ainda pendentes.
+- Elias aprova guardar potes vazios encaixados por tamanho e tampas em divisórias verticais, juntos em um gavetão. Não equivale a número de gavetões ou largura de módulo aprovado; compatibilizar com panelas, temperos, talheres e demais necessidades.
+- Deseja panela de pressão e prioriza preço acessível e facilidade de uso. Tradicional de fogão com cerca de 4,5 L foi sugestão do assistente, não escolha expressa de modelo/capacidade; conferir quantidade de feijão por preparo antes de dimensionar.
+- Conjunto sugerido, ainda sem confirmação explícita das quantidades: duas panelas pequenas, duas médias com tampa, uma frigideira e uma panela de pressão.
+
+#### Pequenos aparelhos e acessórios
+
+- Confirmada intenção de ter liquidificador, batedeira, mixer, sanduicheira e cafeteira elétrica de café coado. Cafeteira usada diariamente; lugar fixo na bancada foi proposto, localização/cabimento ainda não aprovados.
+- Elias não fará pães. Batedeira portátil com base/tigela removíveis foi sugerida para bolos e preparos ocasionais, sem escolha expressa de modelo ou formato. Frequências dos demais aparelhos ainda não levantadas.
+- Frequência posteriormente informada nesta rodada: mixer e sanduicheira aproximadamente uma vez por semana; liquidificador ocasionalmente. Proposta de organização: mixer e sanduicheira guardados em acesso fácil, liquidificador em posição secundária; nenhum destes três exige lugar permanente na bancada apenas pela frequência informada. Localização e dimensões de guarda ainda a compatibilizar. Frequência da batedeira continua pendente.
+- Cesto removível em compartimento ventilado para batatas, cebolas e alho confirmado. Fruteira pequena na mesa confirmada.
+- Deseja assadeiras, travessas de vidro e tigelas de mistura. Proposta apresentada: duas assadeiras (pequena/média), duas travessas encaixáveis e três tigelas encaixáveis. Elias afirma que as assadeiras atendem, dispensando formas extras para bolos/tortas. Quantidades de travessas/tigelas ainda não aprovadas individualmente; compatibilizar dimensões com forno e guarda. A forma de pizza de 30 cm do histórico não foi explicitamente cancelada.
+
+#### Fechamento do bloco de perguntas 3–16 — respostas confirmadas
+
+As confirmações abaixo prevalecem sobre as ressalvas de falta de aprovação das quantidades nos parágrafos anteriores desta entrada.
+
+- 3. Conjunto de panelas aprovado: duas pequenas, duas médias, uma panela de pressão e uma frigideira. Capacidades, diâmetros e modelos ainda pendentes. Capacidade da pressão deve atender ao preparo informado de 1 kg de feijão seco conforme limites do fabricante; não considerar 4,5 L aprovado.
+- 4. Cada pote pequeno de feijão deve conter uma porção para uma pessoa. Frequência de consumo de feijão ainda não respondida; duas semanas de estoque não comprovam 28 porções nem um número de refeições diário.
+- 5. Potes de refeições destinados principalmente a guardar e reaquecer em casa, sem necessidade declarada de marmitas para transporte.
+- 6. Quantidades de bebidas aprovadas expressamente: seis copos, quatro canecas, seis xícaras pequenas com pires, seis taças de espumante e seis de cerveja. Sem taças de vinho.
+- 7. Aprovadas duas travessas de vidro e três tigelas de mistura encaixáveis, além das duas assadeiras pequena/média. Não equivale a validação de dimensões ou encaixe no forno.
+- 8. Batedeira usada muito ocasionalmente. Resposta não confirma expressamente a tipologia portátil sugerida.
+- 9. Incluir jarra, garrafa térmica, garrafas de água para levar, bowls de cereal, peneira, escorredor de macarrão e acessórios de ralar/espremer. Quantidades e tamanhos ainda não informados. A resposta reproduz "ralador ou espremedor"; esclarecer se deseja os dois e o tipo de espremedor antes de contar peças.
+- 10. Aceita usar banquinho dobrável para alcançar itens pouco usados no alto. Prever sua guarda; itens cotidianos devem permanecer em faixa de alcance direto.
+- 11. Produtos de limpeza: sabão líquido ou em pó, amaciante, tira-manchas, água sanitária, desinfetante, multiuso, desengordurante, limpa-vidros e álcool. Tipo do sabão ainda ambíguo na resposta; não contar líquido e pó como dois itens confirmados. Mantida a regra já registrada de produto em uso e uma reposição, separados de alimentos.
+- 12. Embalagens de limpeza de referência: frascos de 900 ml. Dimensões externas e embalagens de produtos em pó ainda a conferir; volume nominal não define largura/altura dos nichos.
+- 13. Incluir aspirador e balde, além dos itens anteriores de limpeza. Tipo/modelo de aspirador e tipo do mop ainda não definidos.
+- 14. Não pretende ferro/tábua nem passadeira a vapor nesta etapa; não reservar esses equipamentos automaticamente.
+- 15. Pretende lavar roupas duas vezes por semana. Mantido cesto único removível sob tanque; capacidade ainda a dimensionar.
+- 16. Incluir sacolas de compras (resposta digitada "cola de compras", interpretada pelo contexto da pergunta), sacos de lixo, pregadores e escovas de limpeza. Não acrescentada caixa de costura. Quantidades e guarda a propor.
+
+#### Complemento do inventário — respostas ao bloco final
+
+- Feijão: consumo diário dos dois moradores, uma refeição por dia. Correção expressa de Elias: dez potes atendem duas semanas conforme sua experiência. Adotar dez potes pequenos como quantidade escolhida, substituindo a sugestão calculada de 28 potes; não exigir correspondência de um pote por pessoa/refeição nem repetir a pergunta de rendimento. Capacidade em ml e dimensões externas ainda não especificadas; não inferir rendimento do preparo de 1 kg de feijão seco.
+- Acessórios: aprovada a proposta de uma jarra, uma garrafa térmica, duas garrafas de água para levar, quatro bowls de cereal, uma peneira e um escorredor de macarrão.
+- Espremedores: após proposta de ralador plano e espremedor manual pequeno para limão/laranja, Elias confirma "2 espremedores igual sua sugestao". Registrar dois espremedores manuais pequenos para cítricos, sem presumir modelos ou tamanhos distintos. Ralador plano permanece proposta, sem confirmação expressa de formato/quantidade nessa resposta; não interpretar os dois espremedores como um ralador mais um espremedor.
+- Sabão para roupas: líquido confirmado, substituindo a alternativa líquido/ou em pó. Frascos de referência de 900 ml e política de um em uso mais uma reposição preservados.
+- Aspirador: prioriza portabilidade e custo-benefício. Tipo, modelo, alimentação e dimensões não escolhidos; não presumir robô ou necessidade de base de recarga.
+- Mop: quer modelo portátil/compacto. Tipo (spray, com balde ou base simples) ainda não escolhido, nem autorizado excluir o balde previamente incluído.
+- Batedeira portátil compacta aprovada, para uso muito ocasional. Modelo e dimensões de guarda pendentes.
+
+#### Mudança de posição dos aparelhos e pesquisa de purificador compacto
+
+**Escolha de Elias nesta rodada:** air fryer RI9252/91 e cafeteira elétrica passam para a bancada de pedra sobre a lava e seca, para liberar preparo na cozinha. Apoio na pedra independente da máquina, não diretamente na tampa da VC4. Novo purificador compacto deverá ficar sobre a bancada no local antes reservado à air fryer, após a geladeira. A busca de substituto reabre o modelo PE11X; sua implantação lateral junto à cuba (F42/F43) deixa de ser a direção vigente. Não há substituto comprado ou escolhido ainda. Tanque, máquina, cooktop e demais posições não foram alterados.
+
+Sequência funcional para o próximo estudo: geladeira → purificador compacto → preparo livre → pia → cooktop/forno → bancada sobre VC4 com air fryer/cafeteira → tanque/janela. O ganho de área útil ainda precisa ser calculado, pois o filtro ocupará parte da antiga zona da air fryer. Abertura do aéreo e apoio lateral do PE11X deixam de ser necessários nessa direção, mas o redesenho do módulo não foi realizado.
+
+**Compatibilização da lavanderia:** conferir largura e profundidade efetivas da pedra, cafeteira ainda sem dimensões, abertura frontal da air fryer, tampa/reservatório da cafeteira, armários superiores, calor/vapor, respingos do tanque e percurso/roupas no varal. Preservar acesso ao E21/duto, grelhas e tomadas adequadas. O uso anterior da bancada para apoio rápido do cesto/produtos precisará ser conciliado; não cancelar o cesto nem presumir uso simultâneo com varal carregado.
+
+RI9252/91: corpo 26,4 L × 36 P × 29,5 A cm; manual exige 10 cm livres nas duas laterais, atrás e acima, inclusive em relação a outros aparelhos. A reserva preliminar de largura da air fryer em uso é 46,4 cm, antes de acomodar o corpo da cafeteira; não comprovar cabimento apenas pela soma dos corpos. Fonte dimensional: [ficha Philips](https://www.documents.philips.com/assets/20230119/34cd3673fb3548b7a34daf8f010d0635.pdf). Fonte de afastamentos: [manual RI9252 vinculado ao suporte oficial](https://dam.versuni.com/m/474519592cb7762e/original/RI9252-Manual.pdf), consultados em 15/09/2026.
+
+**Candidato de pesquisa, não escolhido: Electrolux PE12G cinza.** Corpo 16 L × 42 P × 35 A cm; comparado aos 25 L × 28,4 P × 33 A cm do PE11X, economiza 9 cm em largura e acrescenta 13,6 cm em profundidade. Manual pede 5 cm de cada lado, 10 atrás e 22 acima: reserva resultante 26 L × 52 P × 57 A cm, sem representar nicho fechado autorizado. Reservatório gelado 800 ml, refrigeração declarada 0,24 L/h; preservar a necessidade anterior de água gelada sem prometer 800 ml continuamente gelados. Conferir alimentação de água desde o ponto disponível, pressão, manutenção e tomada na nova posição. [Manual oficial da família PE12](https://api.electrolux-medialibrary.com/asset/2766b234-544a-4587-b0e8-7545af48356c/E4RM3Q/251021JAXM/PDF/251021JAXM.pdf), pp. 4–5 e 9, consulta 15/09/2026.
+
+Comparação secundária: Consul CPB34AB, 26,1 L × 29 P × 37,6 A cm, não reduz largura em relação ao PE11X; não priorizado para liberar comprimento de bancada. [Página oficial Consul](https://www.consul.com.br/purificador-de-agua-consul-placa-eletronica-cpb34ab/p?skuId=2003773).
+
+Preço PE12G: categoria da loja oficial indexada informa R$ 659,90; preço/condições finais e frete ainda não validados no carrinho. [Categoria Electrolux](https://loja.electrolux.com.br/eletroportateis/purificadores-de-agua-e-bebedouros/purificador-eletronico?utmi_p=categoria&utmi_pc=menu-visual). Elias aceita ampliar o teto de pesquisa do purificador de R$ 600 para aproximadamente R$ 660. Isso não confirma modelo, compra, preço final entregue ou aumento de outros tetos. PE12G cinza permanece candidato. HTML, fontes geradoras e site preservados conforme F160.
+
+**Modo de uso dos aparelhos confirmado por Elias:**
+
+- Local habitual de permanência da air fryer e cafeteira: bancada de pedra sobre a lava e seca, desligadas quando não estiverem em uso.
+- Sem roupas no varal: pretende usar os aparelhos nesse local, condicionada a implantação às folgas e acessos já indicados.
+- Com roupas no varal: aceita alternar os usos; quando precisar de um aparelho, transfere-o temporariamente para a bancada próxima à geladeira e o utiliza ali. Não aprovou operação dos aparelhos sob roupas penduradas.
+- Reservar no próximo estudo apoio temporário na cozinha junto da região do novo purificador, mantendo o filtro no lugar e conciliando suas folgas, a geladeira, calor/vapor, abertura da air fryer e acesso a tomada. A bancada livre de preparo será compartilhada nesse modo; não contar essa área como permanentemente livre.
+- Não presumir uso simultâneo da air fryer e cafeteira, cabimento automático dos dois locais ou retirada de todos os aparelhos de uma vez. Também conferir se o repouso dos aparelhos desligados na lavanderia permanece fora de gotejamento e do movimento das roupas/varal.
+
+#### Proposta de armários e gavetas apresentada
+
+A pedido de Elias, criada [Organização interna R00 — cozinha e lavanderia](Cozinha/Organizacao_interna_R00.md). **Proposta para avaliação, sem aprovação automática das divisões.** Base dimensional F38/F119 e modelo R02 deixam 61,9 cm para apoio/preparo/gaveteiro, em vez dos antigos 40 + 80 cm. Propõe um gaveteiro de aproximadamente 60 cm com três gavetas rasas (talheres/facas, utensílios, temperos) e dois gavetões (potes/tampas; panelas/tampas); alturas/capacidade a conferir. Mantém duas portas da pia com lixeira de 12 L, guarda vertical de tábuas e escorredor, respeitando sifão/mangueira.
+
+Nos aéreos, distribui categorias por frequência e preserva espaço técnico de micro-ondas, depurador e geladeira. Inventário completo não tem cabimento demonstrado; considerar redução de capacidade pelo micro-ondas, cuja reserva de largura supera a do gaveteiro. Lavanderia: cesto único prioritário sob tanque; recicláveis em recipiente estreito vizinho apenas como teste, sem espaço confirmado. Produtos de limpeza em compartimento separado fora da área técnica E21/varal; nove categorias com uma reserva representam até 18 embalagens de referência, não capacidade já disponível. Aspirador, balde, banquinho e gaveta horizontal de cabos ainda exigem solução de encaixe. Não acrescentados armário alto ou bancada na circulação.
+
+Proposta destaca que o modo temporário de air fryer/cafeteira perto da geladeira precisa ser compatibilizado com o novo filtro na mesma faixa; não garantia de cabimento. Escolhas de cor, inventário e posições aprovadas preservadas. Sem alteração de HTML, fontes geradoras, site, compra ou fabricação.
+
+#### Ajustes aprovados após a proposta de armários
+
+Elias define três gavetas independentes na cozinha: uma para talheres e facas, uma para utensílios e uma para temperos; abaixo, um único gavetão para panelas, mantendo as tampas separadas verticalmente dentro dele. Potes passam a um armário superior, substituindo o gavetão de potes sugerido e a guarda inferior antes aceita nesta rodada. Preservar potes encaixados e tampas separadas, agora no mesmo armário superior. Quantidade de frentes principais passa a quatro; não juntar gavetas por bandeja interna sem nova decisão. Largura aproximada de 60 cm e alturas permanecem propostas a dimensionar.
+
+Retiradas expressamente as seis taças/copos de cerveja do inventário; mantidos os seis copos comuns e as seis taças de espumante. Taças de vinho já estavam retiradas. A organização nos aéreos deve incorporar os potes e essa redução do conjunto de bebidas.
+
+Aspirador e demais itens grandes de apoio podem ser guardados no baú do banco da mesa. Interpretado pelo contexto imediato como aspirador, balde e banquinho dobrável; não é transferência de produtos químicos, recicláveis ou cesto de roupa. Conciliar com jogos de tabuleiro, acessórios de ciclismo e mochilas/malas de JAN-018, sem cancelá-los automaticamente. Compartimento lavável separado para acessórios secos é proposta; cabimento e acesso ainda não conferidos.
+
+Gaveta baixa para vassoura permanece possibilidade a verificar, conforme instrução de Elias. Não contar como espaço aprovado ou pressupor continuidade livre sob módulos; preservar apoios, instalações, forno e gavetão de panelas. Atualizada a [Organização interna R00](Cozinha/Organizacao_interna_R00.md) com as escolhas; outras divisões e medidas seguem em estudo. HTML/site não alterados.
+
+#### Visualização da organização
+
+A pedido de Elias, criado esquema interativo para consulta na conversa, com cozinha, lavanderia e baú do banco, mostrando frentes/conteúdo. Representa três gavetas separadas e um gavetão, potes nos superiores, retirada das taças de cerveja e destino de aspirador/balde/banquinho no banco. Itens ainda em estudo aparecem identificados: gaveta baixa, encaixe dos recicláveis, capacidade remanescente da limpeza e posições internas. Esquema sem escala; não comprova capacidade, dimensões, distribuição final dos aéreos ou instalação dos aparelhos. Nenhuma decisão adicional criada pelo desenho; site existente e suas fontes preservados.
+
+#### Gabinete tradicional sob a pia e gaveta baixa atravessando a base
+
+Elias esclarece que deseja duas portas sob a pia abrindo para duas prateleiras amplas, como no armário de sua casa atual, para guardar panelas, tábuas, escorredor e itens semelhantes. Essa escolha substitui a guarda das panelas no gavetão aprovada anteriormente nesta rodada. Manter as três gavetas independentes de talheres/facas, utensílios e temperos. Destino e frente da parte inferior antes reservada às panelas ficam em aberto, sem preenchê-la automaticamente. Prateleiras amplas devem ser dimensionadas na largura útil do gabinete, com recortes/trechos removíveis quando necessários para cuba, sifão e percurso da torneira extensível. A lixeira de 12 L acionada pela porta não foi cancelada; seu encaixe junto das prateleiras precisa ser revisto.
+
+Define o percurso desejado da gaveta fina e longa de vassouras: de fora a fora sob os móveis, começando perto da geladeira e terminando no forno. Interpretação adotada e mostrada: sob gaveteiro/preparo e pia, encerrando na lateral inicial do módulo do forno, sem avançar sob o aparelho. Base do estudo: 61,9 + 60 = 121,9 cm externos; descontar laterais, ferragens e estrutura antes de comparar com a vassoura completa. Não presumir cabimento, cabo telescópico ou remoção de apoios/tubulações. Desenvolver estrutura que permita a gaveta contínua, preservando espaço para os pés, manutenção e ventilação do forno. Escolha funcional confirmada; execução e dimensões úteis ainda em estudo.
+
+Concorda com a organização dos superiores e reforça que o micro-ondas permanece no aéreo. O esquema anterior omitia o aparelho visualmente, apesar de estar no documento; corrigido para mostrar ME23P junto das zonas de potes, louças e despensa/aparelhos. Folgas do micro-ondas continuam parte de sua reserva e não contam como armazenamento. Atualizados Organização interna R00, índice da cozinha e visualização da conversa. O site publicado e suas fontes permanecem intactos.
+
+#### Aprovação da organização funcional e do esquema visual — 15/09/2026
+
+Após receber o desenho corrigido, Elias responde “perfeito, aprogva”, confirmando a aprovação da organização apresentada. Ficam aprovados: três gavetas independentes para talheres/facas, utensílios e temperos; gabinete da pia com duas portas e duas prateleiras amplas para panelas, tábuas e escorredor; organização dos aéreos com potes e micro-ondas; e percurso da gaveta baixa contínua sob gaveteiro e pia, desde o móvel próximo à geladeira até a lateral inicial do módulo do forno. Mantidas as escolhas apresentadas para lavanderia e baú do banco, inclusive a retirada das seis taças/copos de cerveja do inventário.
+
+Esta aprovação encerra a avaliação da composição funcional e do esquema visual, que passam a orientar o detalhamento. Permanecem as pendências mostradas: vão útil e estrutura da gaveta longa (121,9 cm externos na hipótese atual), cabimento da vassoura inteira, encaixe da lixeira de 12 L com as prateleiras e instalações, distribuição dimensional dos aéreos, folgas dos aparelhos e capacidades da lavanderia/baú. O espaço inferior remanescente do gaveteiro continua sem função definida. Não tratar esses pontos como resolvidos pela aprovação nem repetir perguntas sobre escolhas já encerradas; apresentar somente conflitos concretos no detalhamento. Atualizados o status da Organização interna R00 e o índice da cozinha. A aprovação não inclui fabricação, compra ou publicação no site.
+
+#### Continuidade do tópico 1 — primeiro detalhamento dimensional
+
+Elias solicita seguir o tópico 1 (cozinha e lavanderia). Consultado sobre vassoura/rodo e cafeteira existentes, responde “nao tenho”; não há medidas ou modelo para usar como objetos existentes. A continuidade autoriza o estudo, não aprovação automática das cotas propostas.
+
+Criado [Detalhamento dimensional R00](Cozinha/Detalhamento_dimensional_R00.md). Hipótese de chapas de 18 mm: pia 56,4 cm entre laterais; gaveteiro 58,3 cm. Ensaio da gaveta contínua de 121,9 cm externos chega a 112,1 × 45 × 8 cm internos com descontos hipotéticos de caixa/ferragens. Meta de triagem de objeto reto até 110 cm, sem seleção de produto ou aprovação de cabo telescópico/desmontável. Dois planos de guarda da pia em cotas propostas de 22/46 cm; recortes, lixeira de 12 L, sifão e mangueira pendentes. Três faixas de gaveta de 14 cm e espaço inferior de 30 cm brutos sem função escolhida. Base estrutural de 18 cm é reserva de ensaio, não solução resistente dimensionada.
+
+Aéreos: módulo de micro com 69,7 cm externos para 66,1 livres; restam 52,2 cm externos para o armário da pia, ou 48,6 entre laterais próprias. Profundidade técnica de 45,2 cm supera os 35 cm de referência. Corte de teste usa os 30 cm superiores do manual, sem tratar a escolha anterior de 10 cm como revogada por Elias. Altura real da cozinha e capacidade total de guarda não comprovadas.
+
+Bancada: ensaio com PE12G candidato e air fryer temporária usa vão compartilhado de ar de 10 cm entre corpos; folga direita avança 5,5 cm na lateral sólida da pia, sem aparelho sobre cuba/tábua. Cabe geometricamente sob as hipóteses, mas proximidade de fonte de calor vedada no manual PE12 mantém uso não validado, assim como respingos/abertura e tomadas. Lavanderia recebe testes de largura para cesto/recicláveis e limite condicional para cafeteira; nenhum produto escolhido.
+
+Criada visualização na conversa com vistas da base, bancada, aéreos e lavanderia, identificando hipóteses e pendências. HTML do apartamento, fontes geradoras e publicação preservados. Próximo fechamento indicado: gabarito de lixeira de 12 L acionada pela porta, seguido de ferragens da gaveta e capacidade dos aéreos. Nenhuma compra, fabricação ou dimensão nova aprovada nesta continuidade.
+
+#### Continuidade da lixeira — candidata FGVTN e conflito com prateleiras
+
+Após “ok, seguimos”, pesquisada FGVTN Automática Inox 12 L, 590PAFG101204, com engate na porta e tampa levantada pelo mecanismo. Ficha oficial baixada, arquivada em Manuais/FGVTN_Lixeira_automatica_12L.pdf e inspecionada visualmente: corpo 29 cm de largura representada × 30 cm de altura; nicho mínimo 36,4 cm de largura × 43 cm de altura. Candidata, não escolha de Elias.
+
+Conferência no [Detalhamento dimensional R00](Cozinha/Detalhamento_dimensional_R00.md): interior de 56,4 cm não comprova passagem pela folha de cerca de 30 cm. Intervalo de 22,2 cm entre prateleiras não recebe corpo de 30 cm. Alternativa apresentada para decisão: duas folhas desiguais próximas de 40 + 20 cm, conferindo abertura efetiva de 36,4 cm, e recorte da prateleira intermediária no setor da lixeira; ou priorizar prateleiras amplas e reestudar mecanismo/modelo/local da lixeira. Mantidos 12 L e acionamento pela porta como requisitos até eventual escolha explícita. Nenhuma retirada de prateleira, redistribuição de panelas, redução de litros ou transferência de lixeira aprovada.
+
+Referência comercial Varotti em 15/09/2026: R$ 253,42 Pix ou R$ 281,58 em seis parcelas, frete não calculado. HAILO Mono 12 comparada, sem encaixe da folha atual demonstrado ou indicação de compra. HTML e fontes do apartamento preservados. O desenho anterior da conversa não incorpora candidata ou alterações ainda não escolhidas.
+
+#### Teste das portas desiguais e recorte aceito
+
+Elias responde “pode ser sua solução, veremos como fica” à proposta de portas 40 + 20 cm e recorte da prateleira intermediária para a lixeira. Adotada alternativa A como direção do teste visual; não repetir a pergunta entre A/B. Não interpretar como aprovação de fabricação, cotas finais, compra da FGVTN ou cabimento de todo o inventário.
+
+Desenho na conversa mostra frente fechada e interior, com porta maior/lixeira à esquerda junto ao gaveteiro e porta menor junto ao forno. Lado esquerdo é proposta do assistente, sujeito às instalações. Reserva lateral de 36,4 cm e vertical de 43 cm para a candidata; prateleira intermediária representada na faixa direita restante de 20 cm, com recorte conservador à esquerda. Prateleira inferior preservada na hipótese de altura, sem dupla contagem do volume da lixeira. Desenho não representa trajetória real, profundidade do recorte, furação ou sifão/mangueira já compatibilizados. Capacidade das panelas/tábuas/escorredor permanece pendente; nenhuma realocação automática. Arquivos do site e fontes geradoras preservados.
+
+#### Lixeira interna descartada — lixeira comum no chão e preferência visual
+
+Elias informa que o teste ocupou muito espaço, pede esquecer a ideia de lixeira dentro do armário e diz que deixará uma lixeira comum no chão. **Decisão vigente:** retirar lixeira, mecanismo pela porta e recorte dedicado do gabinete. Candidata FGVTN e ensaio 40 + 20 cm ficam históricos. Preservar as duas prateleiras amplas para panelas, tábuas e escorredor, com recortes localizados somente onde as instalações exigirem. Não tratar os desenhos históricos como escolhas atuais.
+
+Retorno às duas portas iguais de cerca de 30 + 30 cm apresentado como proposta natural após retirar o mecanismo, não como cotas expressamente aprovadas. Lixeira comum no chão sem localização ou modelo escolhido; não ocupar circulação automaticamente. Os 12 L são referência anterior não explicitamente alterada nesta resposta; não presumir aumento/redução ou compra. Recicláveis separados na lavanderia permanecem.
+
+Elias afirma que a apresentação visual ajuda muito. Registrar preferência por visualizar layouts e alternativas relevantes antes de decisões, com rótulos claros para hipóteses. Criado novo esquema na conversa, frente/interior, retirando a lixeira e recuperando a largura das prateleiras. Capacidade real, sifão, mangueira, estrutura da gaveta longa e medidas finais continuam pendentes. Site e fontes geradoras preservados.
+
+#### Aprovação do desenho sem lixeira e ensaio do conteúdo
+
+Elias responde “perfeito, seguimos” ao esquema com duas prateleiras amplas e portas iguais, sem lixeira interna. Composição visual aceita; cotas finais continuam em estudo. Nova distribuição proposta na conversa: duas pilhas no superior, cada uma com uma panela pequena e uma média; panela de pressão isolada no inferior e organizador removível vizinho para tampas, frigideira, tábuas e escorredor secos. Inclui todas as seis panelas/peças de cocção aprovadas. Não registrar essa nova distribuição como já aprovada por Elias.
+
+Mostrado limite de altura: vão inferior atual de 22,2 cm não comprova guarda da pressão e itens em pé. Topo intermediário alternativo a 50 cm daria 26,2 cm inferiores e 21,5 cm até o fundo estimado da cuba, antes de instalações. Prateleira regulável como proposta, cota e produtos ainda sem escolha. Próxima conferência: gabaritos de pressão e escorredor, depois pilhas/cabos e tampas. Não comprar, reduzir inventário ou realocar itens para outro móvel automaticamente. Visualização da conversa não altera o site/fontes geradoras.
+
+#### Organização aprovada e recuo obrigatório para os pés
+
+Elias diz “nao esquece que na base do movel, perto do chão precisa de um recuo para os pés, tirando isso esta aprovado, seguimos”. Aprovada a distribuição apresentada: duas pilhas de pequena + média no superior; pressão isolada embaixo e organizador removível para tampas, frigideira, tábuas e escorredor; prateleira intermediária regulável. Mantidas duas portas e lixeira comum no chão. Aprovação não comprova capacidade ou modelos/dimensões dos utensílios.
+
+Recuo para os pés passa a requisito explícito da base. A frente da gaveta longa fechada deve acompanhar o recuo; não desenhar base avançada nem puxador/apoio ocupando a região dos pés. Proposta visual em corte lateral: frente das portas a 59 cm da parede, pedra a 61 cm e frente da gaveta a 51 cm, ou 8 cm atrás das portas. Faixa inferior de 18 cm preservada como hipótese. Com reserva traseira de 5 cm, frente aplicada de 1,8 cm e frente/fundo da caixa de 1,8 cm cada, profundidade interna estimada passa a 40,6 cm. Substitui os 45 cm anteriores no cenário, sem validar ferragem ou estrutura. Largura interna de 112,1 cm e altura alvo de 8 cm continuam ensaios.
+
+Recuo funcional aprovado; 8 cm e demais cotas novas não são escolhas expressas de Elias. Estrutura acima do vão contínuo, abertura, limpeza, pontos e cabimento da vassoura ainda pendentes. Desenho da conversa ilustra a gaveta fechada e a reserva dos pés; não altera HTML/fontes/site.
+
+#### Gaveta baixa com rodas de silicone — confirmado
+
+Elias diz “perfeito, nao esquece que a gaveta baixa terá rodas de silicone”. Confirmadas rodas de silicone como requisito, mantendo a direção do recuo para os pés apresentada. Não atribuir aprovação executiva às cotas do corte por esse aceite. Quantidade/diâmetro/carga/fixação das rodas e eventual guia ou limitador ainda a dimensionar. Não substituir silicone por outro material automaticamente.
+
+Rever altura da caixa, altura útil, apoios e descontos anteriores de corrediças; não presumir ferragem convencional escolhida, retirada de todos os guias ou ganho automático de largura. Rodas e suportes devem preservar a região dos pés com gaveta fechada. Desenho anterior não contém rodas e permanece hipótese a atualizar no próximo detalhamento visual. Atualizados documentos da cozinha e resumo, sem alteração de HTML/fontes do apartamento ou publicação.
+
+#### Corte da gaveta com rodas de silicone
+
+Elias pede “segue” após confirmar rodas de silicone. Atualizada visualização na conversa: gabarito geométrico de roda Ø3 cm com altura total roda/suporte de 4,5 cm; fundo de 1,8 cm e borda da caixa a 14,5 cm resultam em 8,2 cm internos. Frente de 3 a 15 cm do piso, início do gabinete a 18 cm e recuo proposto de 8 cm mantidos. Rodas desenhadas em corte não fixam quantidade total, produto, carga ou posição na largura. Cotas novas continuam propostas.
+
+Memória adicionada ao Detalhamento dimensional R00: rodas suportam a gaveta/conteúdo, com apoios independentes dos gabinetes/pedra; prever guiamento/limitador e retirada para limpeza sem escolher ferragem automaticamente. Roda/suporte de 6 cm reduziria altura útil para 6,7 cm no mesmo corte. Profundidade de 40,6 cm estimada; largura de 112,1 cm anterior ainda precisa revisão dos guias/apoios. Vassoura/mop não têm cabimento comprovado. Não houve compra, fabricação ou alteração do site/fontes.
+
+#### Fechamento da decisão — gaveta baixa com rodas e recuo
+
+Elias responde “perfeito, fechar decisão” ao corte com rodas de silicone. **Solução aprovada e encerrada como decisão de projeto:** gaveta baixa contínua sob gaveteiro e pia, terminando antes do forno; rodas de silicone; frente recuada para os pés; corte apresentado como referência para detalhamento. Recuo de 8 cm atrás das portas, faixa inferior de 18 cm, altura útil calculada de 8,2 cm e profundidade interna estimada de 40,6 cm passam a referências aprovadas de projeto, condicionadas às premissas do corte. Esse aceite substitui o status anterior de proposta dessas referências, sem converter estimativas em medidas acabadas.
+
+Roda/suporte de 4,5 cm e fundo de 18 mm são premissas do cálculo; produto, quantidade, capacidade, posição/fixação das rodas, guia/limitador, rigidez da caixa, apoios independentes dos móveis e medidas reais continuam pendências técnicas. A imagem de corte não define quantidade de rodas. Não reabrir perguntas sobre a solução funcional; apresentar apenas incompatibilidades concretas que exijam alterar o aprovado. Não houve autorização de compra, fabricação, alteração de HTML/fontes do apartamento ou publicação. Atualizados resumo, índice da cozinha e estudos vigentes.
+
+#### Utensílios compactos — prioridade confirmada
+
+Elias pede panela de pressão e escorredor compactos e responde “Sim, priorizar a panela compacta” à pergunta sobre dividir 1 kg de feijão em mais de uma rodada. Fica superado o requisito de preparar 1 kg de uma vez; respeitar o limite de enchimento do modelo, sem prescrever quantidade por rodada nesta etapa. Capacidade e modelo ainda são propostas, não escolhas ou compras confirmadas.
+
+Candidata indicada: Tramontina Vancouver Effect 3 L preta, 20593420. Página oficial consultada em 15/09/2026 informa altura sem embalagem 18,1 cm, largura 23,1 cm, diâmetro 20 cm, peso 1,55 kg e preço à vista R$ 208,05, sem frete. No vão inferior hipotético de 22,2 cm, sobra vertical calculada de 4,1 cm. Isso não comprova comprimento com cabo, acesso pelas portas nem compatibilidade com sifão/mangueira. Comprimento de 38,6 cm publicado é da embalagem e não deve ser usado como medida do produto. A Effect 4,5 L tem altura de 22,9 cm e exigiria rever a prateleira atual.
+
+Escorredor proposto: esteira removível Mimo Style SN19070, código 6622, inox e silicone, 47,5 × 24,5 × 1,5 cm conforme catálogo oficial 2026, página 178. Proposta de apoiar o comprimento de 47,5 cm transversalmente ao recorte de 39 cm: apoio nominal de 4,25 cm de cada lado, em geometria centralizada. Cobre 24,5 dos 33 cm do recorte na outra direção. Necessário conferir apoio efetivo, estabilidade, capacidade de carga e interferência com torneira. Não tem divisórias para pratos em pé; aceitação desse formato ainda pendente. Guardar seca; posição e envelope dobrado ainda sem validação. Mantida alternância com tábua parcial e guarda no gabinete da pia.
+
+Elias reconfirma somente 10 cm acima do micro-ondas. Registrar como escolha de layout, mantendo a divergência com os 30 cm do manual já documentada; não declarar instalação validada nem retomar esse tópico durante a seleção dos utensílios. Site e fontes do apartamento preservados.
+
+Fontes: [Tramontina 3 L](https://www.tramontina.com.br/panela-de-pressao-tramontina-vancouver-effect-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-preto-20-cm-3-l/20593420.html); [catálogo Mimo Style 2026, p. 178](https://www.mimostyle.com.br/catalogo/smart/modulos/catalogos/arquivos/catalogo-2026_31-42.pdf).
+
+#### Aceite das referências compactas e próximos passos
+
+Após a apresentação da Vancouver Effect 3 L e da esteira Mimo SN19070, Elias responde “ok, proximos passos”. Adotar os dois como referências aceitas para continuar o projeto, incluindo o formato de esteira sem divisórias para pratos em pé. Não confundir esse aceite com compra ou encaixe final comprovado. Mantidos preparo do feijão em rodadas e guarda do escorredor seco no gabinete da pia.
+
+Sequência vigente: primeiro conferir o conjunto completo do gabinete da pia, com comprimento/cabos da pressão, duas pilhas de panelas, tampas, frigideira, tábuas, esteira e percurso de sifão/mangueira; ajustar apenas a prateleira regulável se necessário. Depois detalhar os aéreos com louças, potes, mantimentos e micro-ondas; em seguida compatibilizar lavanderia, aparelhos, cesto e recicláveis. Mostrar a organização da pia visualmente no próximo detalhamento. A lixeira interna continua descartada e a solução da gaveta baixa com rodas de silicone/recuo permanece fechada.
+
+#### Correção do escorredor e início do detalhamento dos aéreos
+
+Elias questiona a esteira e reforça a decisão anterior: escorredor em uso sobre a cuba, guardado no armário de baixo quando fora de uso. Assistente reconhece aceite prematuro da Mimo. **Modelo/formato do escorredor continua em avaliação; somente localização e rotina estão definidos.** Esta correção supera o aceite da esteira registrado acima. Pressão compacta permanece como referência; não reabrir escolhas não afetadas.
+
+Elias pede detalhar os armários superiores, passando a esse tópico antes de fechar a conferência completa da pia. Criado [Aéreos R00](Cozinha/Aereos_R00.md): caixas de 80,1 + 69,7 + 52,2 + 65 cm; duas portas de abrir propostas nos setores de guarda, interior da pia com 48,6 cm livres e prateleiras reguláveis. Louças diárias e potes priorizados no setor da pia; mantimentos leves acima do micro e assadeiras leves acima da geladeira são destinações condicionais à altura e alcance. Depurador continua reserva técnica. Inventário restante explicitamente sem endereço comprovado; não declarar capacidade fechada.
+
+Mantidos 10 cm acima do micro como escolha de layout, sem validar instalação diante da divergência documental. Apoio hipotético a 155 cm e corpo de 29 cm levam à face inferior da chapa acima a 194 cm, topo a 195,8 cm. Armário acima da geladeira tem outra cota mínima, respeitando os 196,6 cm de reserva anterior mais nivelamento. Pé-direito/forro perguntado a Elias; não assumir teto de outro ambiente. Esquema visual de largura proporcional, alturas sem escala até medição. Não houve alteração de HTML/fontes do apartamento ou publicação.
+
+#### Hipótese de altura da cozinha fornecida por Elias
+
+Elias responde: “nao, considere 2,57 direto na laje como algo ainda a ser validado”. Adotar 257 cm piso–laje somente como hipótese de estudo, sem tratar como medição nem transferir os 247 cm do escritório. [Aéreos R00](Cozinha/Aereos_R00.md) atualizado com proposta de topo a 255 cm e 2 cm para ajuste, chapas de 18 mm e prateleiras cotadas. Os 2 cm e as novas prateleiras são propostas do assistente, não escolhas confirmadas.
+
+Ensaio sobre a pia: apoios a 155 / 174,8 / 198,6 / 225,4 cm, com vãos de 18 / 22 / 25 / 27,8 cm. Potencial conflito de alcance dos potes no terceiro nível explicitado; se pratos exigirem dois níveis, falta capacidade nos níveis baixos. Não considerar o ganho no alto solução automática para leite, sucos, potes de vidro ou aparelhos. Acima do micro e geladeira, dois níveis leves propostos com alturas próprias; manter as respectivas reservas técnicas e ajustes de nivelamento. Capacidade global continua pendente, sem retirar inventário.
+
+#### Aproveitamento acima do depurador
+
+Elias diz que gostou do estudo dos aéreos e pede avaliar espaço adicional no setor do depurador. Aceite da direção visual, sem converter todas as cotas em medidas executivas. Manual Suggar DE61IX/DE62IX REV.0025 conferido visualmente: altura total 17,6 cm, nicho mínimo 60,3 × 13,7 × 30,5 cm e abertura mínima de retorno de 2 cm na largura do armário. Assim, a reserva integral anterior do setor D deixa de ser a única hipótese: proposta de dois níveis de guarda acima do aparelho, com canal de retorno separado.
+
+[Aéreos R00](Cozinha/Aereos_R00.md) atualizado: módulo de 65 cm, 61,4 cm entre laterais antes do canal; borda inferior do depurador a 174 cm sobre placa hipotética a 92 cm (82 cm), topo do envelope a 191,6 cm. Apoios de guarda propostos a 197,6 e 225,4 cm, vãos de 26 e 27,8 cm sob topo 255 cm. Canal central posterior com reserva ilustrativa de 19,6 × 19,6 cm descontado das prateleiras; não é seção técnica aprovada. Saída para o ambiente deve preservar abertura livre e não pode ser tampada pelo acabamento na laje. Dois níveis adicionais ainda não aprovados por Elias nem liberados para fabricação. Local do escorredor, micro-ondas, base com rodas e demais decisões preservados. HTML/fontes do apartamento e publicação inalterados.
+
+#### Setor do depurador — divisão horizontal meio a meio
+
+Elias pede dividir o armário acima do depurador “pela metade (meio a meio na horizontal apenas) sem prateleiras”. Registrada a interpretação comunicada: uma única divisória horizontal central, dois vãos iguais um acima do outro, sem prateleiras adicionais nem divisória vertical de guarda. Reserva técnica de retorno ao fundo preservada, sem novas escolhas de canal ou portas inferidas. No ensaio atual, os vãos de 26 / 27,8 cm passam a 26,9 / 26,9 cm: chapa central com face inferior a 224,5 cm e topo a 226,3 cm. Cotas calculadas continuam referências de estudo; instalação e fabricação pendentes. Visual anterior conserva medidas históricas e deve ser atualizado antes de reutilização.
+
+#### Correção expressa — divisória vertical acima do depurador
+
+Elias esclarece: “é uma divisorio vertical no meio, deixando o armario pronto pra receber coisas mais altas”. Substituir a interpretação anterior de divisão horizontal por **uma divisória vertical central**, dois compartimentos altos lado a lado e nenhuma prateleira horizontal intermediária. No ensaio, altura livre 253,2 − 197,6 = 55,6 cm; largura nominal por lado (61,4 − 1,8) / 2 = 29,8 cm, antes das interferências do canal e ferragens. Divisória de guarda termina no fechamento do canal posterior, sem bloquear o fluxo; cada lado tem planta irregular, não largura de 29,8 cm em toda a profundidade. Desenho anterior com dois níveis fica histórico, sem representar esta decisão. Atualizados Aéreos R00 e resumo; site e fontes preservados.
+
+#### Acima da geladeira — mesma divisão vertical
+
+Elias pede “quero msm coisa no armario acima da geladeira”, em continuidade à correção do setor do depurador. Confirmada uma divisória vertical central, dois compartimentos lado a lado e nenhuma prateleira horizontal intermediária no setor A. No ensaio vigente, 76,5 cm entre laterais menos chapa central de 1,8 cm resultam em 37,35 cm de largura livre por lado; altura contínua de 54,8 cm entre apoio a 198,4 cm e face inferior do tampo a 253,2 cm. Preservar ventilação/nivelamento da geladeira, topo e laje ainda hipotéticos. Retirada a prateleira antes proposta a 225,8 cm; não aplicar a alteração ao armário do micro ou da pia sem pedido. Conferir encaixe das assadeiras antes previstas na largura contínua. Desenho anterior de dois níveis sobre a geladeira fica histórico. Atualizados Aéreos R00 e resumo, sem mudança no site/fontes ou publicação.
+
+#### Continuidade — armário acima do micro-ondas
+
+Elias responde “perfeito, gostei, seguimos” após a divisão vertical sobre a geladeira. Confirmada a direção funcional dos setores A/D com dois compartimentos altos lado a lado e nenhuma prateleira horizontal intermediária; medidas continuam estimativas. Desenho geral da conversa atualizado para refletir as escolhas, inclusive setor D elevado sobre o depurador e ressalva do canal posterior.
+
+Apresentada continuidade do setor B: duas portas, uma prateleira horizontal regulável, largura interna contínua de 66,1 cm, vãos de estudo de 25,8 / 29,8 cm acima da reserva do micro. Uso proposto para mantimentos secos leves e reservas de acesso secundário. É proposta em avaliação, não aceite automático nem capacidade comprovada do inventário completo. Preservados os 10 cm escolhidos acima do micro e a divergência documental existente. Nenhuma mudança no site do apartamento/fontes ou publicação.
+
+#### Alinhamento das duas prateleiras superiores de C com B
+
+Elias envia imagem anotada e pede baixar as duas prateleiras superiores de C para alinhar às bases das prateleiras de B, reconhecendo que os vãos mudam. Aplicado: topo da prateleira superior de C de 225,4 para 223,4 cm; topo da outra de 198,6 para 195,8 cm. Chapas de 18 mm, faces inferiores a 221,6 e 194 cm, coincidindo com as de B. Base de C a 155 cm e primeira prateleira a 174,8 cm preservadas. B, A e D mantidos.
+
+Vãos livres de C, de baixo para cima: 18 / 19,2 / 25,8 / 29,8 cm. Conferir cabimento e retirada de copos/canecas no vão reduzido; potes continuam com alcance a verificar. Alinhamento solicitado incorporado ao Aéreos R00, resumo e visualização da conversa; cotas permanecem hipóteses de projeto. Nenhuma alteração no site/fontes geradoras ou publicação.
+
+#### Organização dos armários superiores aprovada
+
+Elias confirma “Perfeito, organização aprovada” após o desenho com B/C alinhados. **Composição interna dos aéreos aprovada e encerrada:** A e D com uma divisória vertical central e dois compartimentos altos lado a lado, sem prateleiras horizontais; B com uma prateleira horizontal e dois níveis acima do micro; C com três prateleiras, as duas superiores alinhadas à base e à intermediária de B, primeira prateleira inferior preservada. Adotar essa organização na continuidade sem repetir aprovação.
+
+Vãos de C de 18 / 19,2 / 25,8 / 29,8 cm e demais cotas apresentadas permanecem referências de estudo, condicionadas às premissas, medição e instalação. Hipótese de laje a 257 cm ainda não validada. Aprovação não demonstra acomodação de todo o inventário nem resolve alcance, retorno de ar do depurador ou divergência de folga do micro documentada. Próximo detalhamento: conferir conteúdo e acesso na composição aprovada e depois ferragens/medidas executivas; apresentar somente conflitos concretos que exijam alteração. Registros locais atualizados, sem alteração de HTML/fontes do apartamento, publicação, compra ou fabricação.
+
+#### Conferência do conteúdo dos aéreos iniciada
+
+Após “ok, vamos conferir”, criado [Conferência do conteúdo R00](Cozinha/Conferencia_conteudo_aereos_R00.md), mantendo a organização aprovada. Vãos A/B/C/D e inventário completo organizados para comparação, sem declarar encaixe de grupo sem dimensões reais. Profundidade útil de 31,4 cm para A/B/C apresentada apenas como ensaio com frente/fundo de 18 mm em profundidade externa de 35 cm; D continua com planta irregular e canal reservado.
+
+Prioridade da rodada: 12 pratos diários, 6 copos, 4 canecas e potes, incluindo os 10 de feijão. Perguntado se Elias já possui esses itens e quais medidas estão disponíveis. Vão C2 de 19,2 cm é ponto de atenção para copos/canecas; divisão de A em 37,35 cm por lado exige reconferir assadeiras. Nenhum conflito definitivo com objetos reais declarado, nenhuma redução de quantidades, compra, realocação ou alteração de divisórias aprovada inferida. Site e fontes preservados.
+
+#### Consolidação documental solicitada por Elias
+
+Elias pede “ok, deixe todas essas decisoes documentadas”. Criado [Decisões consolidadas da cozinha — 15/09/2026](Cozinha/Decisoes_consolidadas_2026-09-15.md), reunindo organização aprovada dos aéreos A/B/C/D, alinhamento B/C, correções de divisórias verticais, hipóteses de altura, ventilação pendente, gabinete da pia, lixeira no chão, escorredor sobre cuba/guarda inferior com modelo em avaliação, pressão compacta e gaveta baixa com rodas de silicone/recuo. Incluídas conferências pendentes e links para os detalhamentos. Índice da cozinha e resumo apontam para a consolidação, distinguindo situação vigente de propostas históricas. Medidas dos utensílios ainda não respondidas; nenhuma nova aprovação de encaixe ou compra inferida. Site/fontes/publicação preservados.
+
+#### Decisões anteriores preservadas e limites — histórico
+
+As menções a lixeira interna e acionamento pela porta nesta seção foram superadas pela decisão acima.
+
+- COZ-021/F42/F43: escorredor removível sobre a cuba, guardado após secagem, sem escorredor no aéreo. Alternância com a tábua parcial aceita. Elias reconfirma e pede evitar perguntas duplicadas. Modelo e local exato de guarda continuam pendentes.
+- Preservados tábua parcial com guarda vertical limpa/seca, lixeira comum extraível acionada pela porta sob a pia, duas portas no gabinete da pia, recicláveis separados na lavanderia e cesto removível sob tanque. Não reabrir essas escolhas por falta de detalhamento executivo.
+- Capacidade da lixeira comum sob a pia definida por Elias: 12 litros. Prefere não levar lixo para fora diariamente. Tampa e balde removível foram propostos; modelo, ferragem acionada pela porta e envelope externo ainda a compatibilizar com cuba, sifão, mangueira/contrapeso e demais itens. A sugestão de retirada a cada dois dias não constitui garantia de ausência de odor nem intervalo obrigatório.
+- Recicláveis: Elias informa que dobra as embalagens para reduzir volume. Não inferir desse hábito frequência de retirada ou capacidade do recipiente na lavanderia; ambas ainda pendentes.
+- Complemento: retirada dos recicláveis uma vez por semana confirmada. Capacidade do recipiente ainda a dimensionar. Elias pede receber as perguntas restantes em bloco, em vez de uma por vez.
+- Próximos passos: completar somente lacunas do inventário, avaliar frequência/acesso, dimensionar conteúdo e propor distribuição nos módulos disponíveis. Não presumir que todas as gavetas e volumes desejados já caibam.
+- Nenhuma compra, dimensão de fabricação, alteração de HTML/fontes geradoras ou publicação foi autorizada nesta rodada. A única mudança de teto registrada nesta etapa é a pesquisa do purificador até aproximadamente R$ 660. Registro mestre atualizado localmente; estudo permanece preliminar.

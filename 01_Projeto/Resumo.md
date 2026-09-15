@@ -1,5 +1,35 @@
 # Resumo do projeto
 
+**Cozinha — consolidação solicitada por Elias:** [Todas as decisões vigentes desta etapa](Cozinha/Decisoes_consolidadas_2026-09-15.md), incluindo organização aprovada, divisórias A/D, alinhamento B/C, gaveta com rodas, escorredor, lixeira e pendências de medidas dos utensílios. Este resumo consolidado prevalece sobre propostas históricas superadas abaixo.
+
+**Organização dos aéreos aprovada:** A e D com divisória vertical central, sem prateleiras horizontais; B com uma prateleira horizontal; C com três prateleiras e as duas superiores alinhadas a B. Composição fechada por Elias após o último desenho. Medidas reais, capacidade, alcance, ventilação e ferragens permanecem para conferência; laje de 257 cm é hipótese.
+
+**Alinhamento dos aéreos B/C:** duas prateleiras superiores de C baixadas para coincidir com B, com topos a 195,8 e 223,4 cm. Primeira prateleira de C mantida. Novos vãos de baixo para cima: 18 / 19,2 / 25,8 / 29,8 cm, em estudo; conferir conteúdo no vão reduzido.
+
+**Acima da geladeira:** Elias pede a mesma composição do armário sobre o depurador: divisória vertical central e dois compartimentos altos, sem prateleiras horizontais intermediárias. Ensaio com 37,35 cm livres de largura por lado e 54,8 cm de altura, preservando ventilação da geladeira; encaixe das assadeiras a reconferir.
+
+**Armário acima do depurador — correção de Elias:** divisória vertical central, dois compartimentos altos lado a lado, sem prateleiras horizontais. Altura livre de estudo 55,6 cm; largura nominal por lado 29,8 cm antes da interferência do canal de ar ao fundo. Substitui os dois níveis anteriores.
+
+**Aéreos — setor do depurador:** a pedido de Elias, guarda acima do Suggar com canal de retorno de ar separado. [Detalhamento](Cozinha/Aereos_R00.md) em avaliação; substitui a reserva integral provisória da coluna, sem validar instalação/capacidade.
+
+**Altura de estudo da cozinha:** 2,57 m até a laje, hipótese fornecida por Elias e ainda a validar. Aéreos ensaiados com topo a 2,55 m; cotas de prateleiras propostas, capacidade e alcance pendentes.
+
+**Etapa atual — aéreos, 15/09/2026:** [Detalhamento dos armários superiores](Cozinha/Aereos_R00.md) em avaliação, com alturas dependentes do teto/forro e capacidade total ainda não comprovada. Correção: escorredor sobre a cuba em uso e no inferior quando seco; modelo/formato segue em avaliação, superando aceite anterior da Mimo.
+
+**Continuidade após aceite — 15/09/2026:** pressão Vancouver Effect 3 L e esteira Mimo SN19070 passam a referências aceitas de projeto, com encaixe final pendente. Próxima etapa: conferir visualmente o conjunto completo do gabinete da pia; depois aéreos e lavanderia.
+
+**Utensílios — 15/09/2026:** priorizar pressão e escorredor compactos. Elias aceita cozinhar o feijão em mais de uma rodada; modelo/capacidade ainda não escolhidos. Propostas em avaliação: pressão Vancouver Effect 3 L e esteira removível Mimo SN19070. Folga de 10 cm acima do micro-ondas reconfirmada como escolha de layout, mantendo a divergência do manual documentada.
+
+**Decisão fechada — gaveta baixa, 15/09/2026:** corte com rodas de silicone aprovado por Elias; frente recuada 8 cm atrás das portas, faixa inferior de 18 cm e referências calculadas de 8,2 cm de altura útil / 40,6 cm de profundidade interna. Percurso sob gaveteiro e pia até antes do forno. Rodas, guia, apoios e medidas acabadas a detalhar antes da fabricação.
+
+**Gaveta baixa — 15/09/2026:** rodas de silicone confirmadas, com recuo para os pés preservado. Altura útil, rodas, apoios e eventual guiamento ainda a dimensionar.
+
+**Pia e base — 15/09/2026:** aprovada distribuição com duas pilhas de panelas no superior, pressão e organizador no inferior, prateleira regulável. Elias exige recuo para os pés na base. Gaveta longa deve acompanhar o recuo; corte propõe 8 cm atrás das portas, sem aprovação dessa medida executiva. Lixeira permanece no chão.
+
+**Última decisão — 15/09/2026:** lixeira comum passa ao chão, com local/modelo a definir. Elias descartou a lixeira no gabinete para preservar armazenamento. Pia volta ao estudo de duas prateleiras amplas, sem recorte para lixeira; sifão e mangueira continuam a compatibilizar. Portas iguais são a proposta visual retomada. Preferência de trabalho: apresentar soluções visualmente para facilitar decisões.
+
+**Continuidade em 15/09/2026 — cozinha/lavanderia:** organização funcional F162 aprovada e [primeiro detalhamento dimensional](Cozinha/Detalhamento_dimensional_R00.md) em avaliação. Pia com duas prateleiras e três gavetas separadas mantidas; gaveta longa, lixeira, aéreos e uso das bancadas em compatibilização. Filtro compacto perto da geladeira (PE12G candidato), air fryer/cafeteira sobre a lava e seca. Esta nota prevalece sobre as posições antigas desses aparelhos abaixo. Cotas novas não aprovadas; modelo visual do apartamento permanece na versão anterior.
+
 [Voltar ao início](../README.md) · [Consultar todas as decisões e fontes](Registro_de_decisoes.md)
 
 Base: decisões registradas até **13/09/2026**. Este resumo facilita a leitura; os detalhes e o histórico ficam no registro de decisões. Uma escolha confirmada não significa compra realizada ou instalação aprovada.
