@@ -156,7 +156,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('laundryupper','lavanderia',255,636,133,3,223,17,'wood','box',{upper:true});
   if(state.dry!=='stored')for(const x of[281,303,327,349])add('drying','lavanderia',x,dz+12,13,2,dy-75,74,'#dddccf','box',{upper:true});
   // Bathroom decisions 18/09; dimensional envelopes remain a study.
-  add('shower','banho',255,405,80,124,0,2,'greige');
+  add('shower','banho',255,405,80,124,0,2,'greige','floor');
   add('bathshaft','banho',255,499,80,30,2,18,'greige');
   add('shower','banho',255,527,80,2,0,225,'sage','box',{upper:true});
   add('shower','banho',334,405,1,124,0,210,'#9fb2aa','glass');
@@ -231,6 +231,35 @@ function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t
   return{project:p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];},raw,scale};
 }
 function visible(n,st){return(st.room==='all'||n.room===st.room)&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
+// Only upward floor faces receive a finish; furniture using the same palette stays unchanged.
+function floorStyle(f){return f.node?.kind==='floor'&&f.normal[1]>.99?({vinyl:1,greige:2,ivory:3}[f.node.mat]||0):0;}
+function drawFloorFallback(ctx,f,project){
+  const style=floorStyle(f);if(!style)return;
+  const xs=f.p.map(p=>p[0]),zs=f.p.map(p=>p[2]),xmin=Math.min(...xs),xmax=Math.max(...xs),zmin=Math.min(...zs),zmax=Math.max(...zs),y=f.p[0][1];
+  const width=style===1?20.845:90,length=style===1?123.03:90;
+  const hash=(x,z)=>{const n=Math.sin(x*127.1+z*311.7)*43758.5453;return n-Math.floor(n);};
+  const path=points=>{ctx.beginPath();points.forEach((p,i)=>{const q=project([p[0],y,p[1]]);if(i)ctx.lineTo(q[0],q[1]);else ctx.moveTo(q[0],q[1]);});};
+  ctx.save();ctx.clip();
+  for(let col=Math.floor(xmin/width);col*width<xmax;col++){
+    const offset=style===1?((col%3+3)%3)*41.01:0;
+    for(let row=Math.floor((zmin+offset)/length);row*length-offset<zmax;row++){
+      const x=col*width,z=row*length-offset,seed=hash(col,row);
+      path([[x,z],[x+width,z],[x+width,z+length],[x,z+length]]);ctx.closePath();
+      ctx.fillStyle=shade(f.c,1.04*(.975+(seed-.5)*(style===1?.065:.025)));ctx.fill();
+      ctx.strokeStyle=shade(f.c,.91);ctx.lineWidth=.35;ctx.stroke();
+      if(style===1){
+        ctx.strokeStyle=shade(f.c,.99);ctx.lineWidth=.45;
+        for(let i=1;i<=7;i++){
+          const points=[];for(let j=0;j<=12;j++)points.push([x+width*i/8+Math.sin(j*.6+seed*12+i)*.35,z+j*length/12]);
+          path(points);ctx.stroke();
+        }
+      }
+    }
+  }
+  ctx.restore();
+  // Restore the face outline for selection after the decorative paths.
+  ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
+}
 function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const ratio=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*ratio);canvas.height=Math.round(h*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
   let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
@@ -243,7 +272,8 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
   const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null);
   if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;let lighting=f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2];ctx.fillStyle=shade(f.c,lighting);ctx.fill();
-    ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();ctx.globalAlpha=1;
+    if(floorStyle(f))drawFloorFallback(ctx,f,project);
+    else{ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}

@@ -53,7 +53,7 @@ const PROJECT={revision:'R05 · decisões até 18/09/2026',date:'18 setembro 202
     {id:'greige',name:'Travertino Reale Greige',color:'#c6bcaa',type:'stone',rooms:['banho'],status:'Escolhido',note:'Biancogres PB-01 Satin 90 × 90 cm; PB-01B EXT no box.'},
     {id:'ivory',name:'Eliane Iseo Marfim AC',color:'#dcd4c3',type:'stone',rooms:['lavanderia'],status:'Escolhido',note:'PL-01 · 90 × 90 cm. Entrega cerâmica; este é acabamento de reforma.'},
     {id:'black',name:'Preto / grafite',color:'#282d2e',type:'solid',rooms:['all'],status:'Escolhido',note:'Metais, pedestal, eletrônicos e detalhes.'},
-    {id:'vinyl',name:'Tarkett Ambienta Design Olmo · 24192727',color:'#c7ac86',type:'wood',rooms:['sala','quarto','escritorio','cozinha'],status:'Preferência aprovada',note:'Vinílico em toda a casa, exceto banheiro/lavanderia. Olmo é a preferência; Aveia e Bétula ficam para comparar na loja. Amostra e instalação a conferir.'},
+    {id:'vinyl',name:'Tarkett Ambienta Design Olmo · 24192727',color:'#c9b99d',type:'wood',rooms:['sala','quarto','escritorio','cozinha'],status:'Preferência aprovada',note:'Vinílico em toda a casa, exceto banheiro/lavanderia. Olmo é a preferência; Aveia e Bétula ficam para comparar na loja. Réguas de 20,845 × 123,03 cm no modelo; cor e veios aproximados. Direção e juntas desenhadas são simulação, com paginação e amostra a conferir.'},
     {id:'bathbeige',name:'Bege fosco liso · banheiro',color:'#c9bca8',type:'solid',rooms:['banho'],status:'Direção aprovada',note:'Frentes fechadas, sem ripado nem puxadores salientes. Código da chapa a definir.'},
     {id:'lightwood',name:'Madeira clara · laterais do banheiro',color:'#c8a77d',type:'wood',rooms:['banho'],status:'Direção aprovada',note:'Madeira apenas nas laterais do gabinete e armário espelhado; padrão exato pendente.'}
   ]};
@@ -151,27 +151,67 @@ class DepthRenderer {
     const gl=this.gl;
     const shader=(type,source)=>{const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s;};
     const program=gl.createProgram();
-    gl.attachShader(program,shader(gl.VERTEX_SHADER,'attribute vec3 position; attribute vec4 color; varying vec4 tint; void main(){gl_Position=vec4(position,1.0);tint=color;}'));
-    gl.attachShader(program,shader(gl.FRAGMENT_SHADER,'precision mediump float; varying vec4 tint; void main(){gl_FragColor=tint;}'));
+    gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 position; attribute vec4 color; attribute vec3 surface;
+      varying vec4 tint; varying vec3 flooring;
+      void main(){gl_Position=vec4(position,1.0);tint=color;flooring=surface;}`));
+    const derivatives=gl.getExtension('OES_standard_derivatives');
+    gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`${derivatives?'#extension GL_OES_standard_derivatives : enable\n':''}
+      precision highp float;
+      varying vec4 tint; varying vec3 flooring;
+      float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+      float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);
+        return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
+      void main(){
+        vec3 c=tint.rgb;vec2 p=flooring.xy;
+        if(flooring.z>0.5){
+          vec2 aa=${derivatives?'max(fwidth(p),vec2(0.04))':'vec2(0.25)'};
+          if(flooring.z<1.5){
+            // World centimetres: continuous 20.845 x 123.03 cm planks, staggered by thirds.
+            float row=floor(p.x/20.845),offset=mod(row,3.0)*41.01;
+            vec2 cell=vec2(row,floor((p.y+offset)/123.03));
+            vec2 q=vec2(mod(p.x,20.845),mod(p.y+offset,123.03));
+            float seed=hash(cell),broad=noise(vec2(q.x*.38,q.y*.027)+seed*71.0);
+            float bend=noise(vec2(q.x*.13,q.y*.021)+seed*39.0);
+            float grain=noise(vec2(q.x*3.2+bend*3.0,q.y*.075)+seed*113.0);
+            float fineFade=1.0-smoothstep(.15,1.1,aa.x);
+            c*=.975+(seed-.5)*.065+(broad-.5)*.085+(grain-.5)*.055*fineFade;
+            vec2 edge=min(q,vec2(20.845,123.03)-q);
+            vec2 joint=1.0-smoothstep(vec2(0.0),aa*.8+vec2(.07),edge);
+            c*=1.0-max(joint.x,joint.y)*.13;
+          }else{
+            // Both specified porcelain finishes use 90 x 90 cm modules.
+            vec2 cell=floor(p/90.0),q=mod(p,90.0),edge=min(q,90.0-q);
+            float seed=hash(cell),cloud=noise(p*.055+seed*21.0);
+            float stone=noise(p*.22+seed*53.0);
+            float veins=noise(vec2(p.x*.04,p.y*.18)+cloud*2.0);
+            c*=.99+(seed-.5)*.025+(cloud-.5)*.045+(stone-.5)*.02;
+            if(flooring.z<2.5)c*=1.0+(veins-.5)*.06;
+            vec2 joint=1.0-smoothstep(vec2(.06),aa*.7+vec2(.12),edge);
+            c=mix(c,tint.rgb*.85,max(joint.x,joint.y));
+          }
+        }
+        gl_FragColor=vec4(c,tint.a);
+      }`));
     gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));
     gl.useProgram(program);this.buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,this.buffer);
-    for(const [name,size,offset] of [['position',3,0],['color',4,12]]){const p=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(p);gl.vertexAttribPointer(p,size,gl.FLOAT,false,28,offset);}
+    for(const [name,size,offset] of [['position',3,0],['color',4,12],['surface',3,28]]){const p=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(p);gl.vertexAttribPointer(p,size,gl.FLOAT,false,40,offset);}
     gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.disable(gl.CULL_FACE);
   }
   draw(ctx,faces,w,h,ratio,selected){
     const gl=this.gl;this.canvas.width=Math.round(w*ratio);this.canvas.height=Math.round(h*ratio);gl.viewport(0,0,this.canvas.width,this.canvas.height);
     gl.clearColor(0,0,0,0);gl.depthMask(true);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
     const opaque=[],transparent=[],edges=[];
-    const vertex=(arr,p,c,a)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,...c,a);
+    const vertex=(arr,p,c,a,world=[0,0,0],surface=0)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,...c,a,world[0],world[2],surface);
     for(const f of faces){
       const light=f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2];
       const c=rgb(shade(f.c,light)).map(v=>v/255), a=f.alpha??1;
+      const surface=floorStyle(f);
       const arr=a<.995?[]:opaque;
-      for(let i=1;i<f.points.length-1;i++)for(const p of [f.points[0],f.points[i],f.points[i+1]])vertex(arr,p,c,a);
+      for(let i=1;i<f.points.length-1;i++)for(const j of [0,i,i+1])vertex(arr,f.points[j],c,a,f.p?.[j],surface);
       if(a<.995)transparent.push({vertices:arr,depth:f.depth});
-      if(a>.995){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++)for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}
+      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++)for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}
     }
-    const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/7);};
+    const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/10);};
     gl.disable(gl.BLEND);gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(1,1);upload(opaque,gl.TRIANGLES);gl.disable(gl.POLYGON_OFFSET_FILL);
     upload(edges,gl.LINES);
     gl.enable(gl.BLEND);gl.blendFuncSeparate(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA,gl.ONE,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);
@@ -343,7 +383,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('laundryupper','lavanderia',255,636,133,3,223,17,'wood','box',{upper:true});
   if(state.dry!=='stored')for(const x of[281,303,327,349])add('drying','lavanderia',x,dz+12,13,2,dy-75,74,'#dddccf','box',{upper:true});
   // Bathroom decisions 18/09; dimensional envelopes remain a study.
-  add('shower','banho',255,405,80,124,0,2,'greige');
+  add('shower','banho',255,405,80,124,0,2,'greige','floor');
   add('bathshaft','banho',255,499,80,30,2,18,'greige');
   add('shower','banho',255,527,80,2,0,225,'sage','box',{upper:true});
   add('shower','banho',334,405,1,124,0,210,'#9fb2aa','glass');
@@ -418,6 +458,35 @@ function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t
   return{project:p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];},raw,scale};
 }
 function visible(n,st){return(st.room==='all'||n.room===st.room)&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
+// Only upward floor faces receive a finish; furniture using the same palette stays unchanged.
+function floorStyle(f){return f.node?.kind==='floor'&&f.normal[1]>.99?({vinyl:1,greige:2,ivory:3}[f.node.mat]||0):0;}
+function drawFloorFallback(ctx,f,project){
+  const style=floorStyle(f);if(!style)return;
+  const xs=f.p.map(p=>p[0]),zs=f.p.map(p=>p[2]),xmin=Math.min(...xs),xmax=Math.max(...xs),zmin=Math.min(...zs),zmax=Math.max(...zs),y=f.p[0][1];
+  const width=style===1?20.845:90,length=style===1?123.03:90;
+  const hash=(x,z)=>{const n=Math.sin(x*127.1+z*311.7)*43758.5453;return n-Math.floor(n);};
+  const path=points=>{ctx.beginPath();points.forEach((p,i)=>{const q=project([p[0],y,p[1]]);if(i)ctx.lineTo(q[0],q[1]);else ctx.moveTo(q[0],q[1]);});};
+  ctx.save();ctx.clip();
+  for(let col=Math.floor(xmin/width);col*width<xmax;col++){
+    const offset=style===1?((col%3+3)%3)*41.01:0;
+    for(let row=Math.floor((zmin+offset)/length);row*length-offset<zmax;row++){
+      const x=col*width,z=row*length-offset,seed=hash(col,row);
+      path([[x,z],[x+width,z],[x+width,z+length],[x,z+length]]);ctx.closePath();
+      ctx.fillStyle=shade(f.c,1.04*(.975+(seed-.5)*(style===1?.065:.025)));ctx.fill();
+      ctx.strokeStyle=shade(f.c,.91);ctx.lineWidth=.35;ctx.stroke();
+      if(style===1){
+        ctx.strokeStyle=shade(f.c,.99);ctx.lineWidth=.45;
+        for(let i=1;i<=7;i++){
+          const points=[];for(let j=0;j<=12;j++)points.push([x+width*i/8+Math.sin(j*.6+seed*12+i)*.35,z+j*length/12]);
+          path(points);ctx.stroke();
+        }
+      }
+    }
+  }
+  ctx.restore();
+  // Restore the face outline for selection after the decorative paths.
+  ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
+}
 function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const ratio=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*ratio);canvas.height=Math.round(h*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
   let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
@@ -430,7 +499,8 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
   const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null);
   if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;let lighting=f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2];ctx.fillStyle=shade(f.c,lighting);ctx.fill();
-    ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();ctx.globalAlpha=1;
+    if(floorStyle(f))drawFloorFallback(ctx,f,project);
+    else{ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
