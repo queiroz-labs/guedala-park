@@ -113,7 +113,11 @@ function buildScene(){nodes=[];nodeSequence={};
   add('tv43','escritorio',473,128,5,97,82,56,'black','screenX');
   if(state.console==='sala'){add('ps5','sala',507,226.1,21.6,35.8,35,8,'offwhite','console');}else{add('ps5','escritorio',453.4,115,21.6,35.8,195,8,'offwhite','console',{upper:true});}
   // Cozinha: composição funcional aprovada; cotas continuam de estudo.
-  add('kitchenbase','cozinha',388,639,65,61,8,81,'wood');
+  // Open oven niche: a solid cabinet here hides the appliance with depth rendering.
+  for(const x of [388,445.5])add('kitchenbase','cozinha',x,639,7.5,61,8,81,'wood');
+  add('kitchenbase','cozinha',395.5,639,50,61,8,16,'wood');
+  add('kitchenbase','cozinha',395.5,639,50,61,59,30,'wood');
+  add('kitchenbase','cozinha',395.5,698.2,50,1.8,24,35,'wood');
   cabinet('sinkstorage','cozinha',453,639,60,61,22,67,'wood',[48.2],[]);
   cabinet('kitchenbase','cozinha',513,639,61.9,61,18,71,'wood',[44.2,62.2],[]);
   slab('kitchenbase','cozinha',388,639,186.9,61,89,3,'stone',1);
