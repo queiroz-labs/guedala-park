@@ -46,14 +46,17 @@ function leg(id,room,x,z,y,h){add(id,room,x,z,3,3,y,h,'black');}
 function chairDining(x,z,r){const id='diningchairs',room='sala';add(id,room,x,z,42,44,0,85,'head','chair',{rot:r});}
 function buildScene(){nodes=[];nodeSequence={};
   // Physical footprint: documentary room dimensions and graphically reconstructed connections.
-  const floors=[['quarto',0,100,245,295,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',465,405,30,140,'vinyl'],['circulacao',255,305,240,90,'vinyl'],['circulacao',245,305,10,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['lavanderia',255,539,129,161,'ivory'],['banho',255,405,209,124,'greige']];
+  const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',465,405,30,140,'vinyl'],['circulacao',365,305,130,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['lavanderia',255,539,129,161,'ivory'],['banho',255,405,209,124,'greige']];
   for(const [r,x,z,w,d,m]of floors)add(null,r,x,z,w,d,-5,5,m,'floor');
   const H=state.walls?247:32;
-  const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,145,10],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,430],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,539,10,30],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,64],['banho',255,529,219,10],['banho',464,395,10,134],['banho',365,395,20,10],['banho',455,395,19,10]];
-  for(const [r,x,z,w,d]of walls)add(null,r,x,z,w,d,0,H,'#e4dfd2','wall');
+  const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,145,10,['quarto']],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,430],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,539,10,30],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,64],['banho',255,529,219,10],['banho',464,395,10,134],['banho',255,395,130,10,['quarto']],['banho',455,395,19,10],['quarto',365,305,10,10],['quarto',365,390,10,5]];
+  for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,H,'#e4dfd2','wall',{sharedRooms});
+  // P01 / F120: continuous bathroom partition, separate bedroom access on its east side.
+  // Opening and leaf dimensions remain graphic estimates, not construction measurements.
+  if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
   for(const[r,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]]){add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
   // Original doors, graphic envelopes only. Cutaway leaves keep furniture visible.
-  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['circulacao',365,320,2,75],['banho',454,405,2,70],['cozinha',655,698,85,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
+  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',655,698,85,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
   // Sala: narrow TV wall, current Bonnie, no obsolete detachable chaise.
   const open=state.sofa!=='closed',sd=open?136:110,sx=740-state.sofaGap-sd;
   slab('bonnie','sala',sx,185,sd,180,9,29,'beige',5);
@@ -230,7 +233,7 @@ function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t
   const cx=w/2-(minx+maxx)/2*scale+st.pan[0],cy=spaceTop+(h-spaceTop-spaceBottom)/2-(miny+maxy)/2*scale+st.pan[1];
   return{project:p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];},raw,scale};
 }
-function visible(n,st){return(st.room==='all'||n.room===st.room)&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
+function visible(n,st){return(st.room==='all'||n.room===st.room||n.sharedRooms?.includes(st.room))&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
 // Only upward floor faces receive a finish; furniture using the same palette stays unchanged.
 function floorStyle(f){return f.node?.kind==='floor'&&f.normal[1]>.99?({vinyl:1,greige:2,ivory:3}[f.node.mat]||0):0;}
 function drawFloorFallback(ctx,f,project){
@@ -284,7 +287,7 @@ function dimension(ctx,project,a,b,text){let p=project(a),q=project(b),dx=q[0]-p
 function drawAnnotations(ctx,pr,cam,w,h,st){
   if(st.room==='all'&&st.view==='top'){for(const[r,x,z]of [['quarto',125,305],['escritorio',388,175],['sala',565,330],['cozinha',688,570],['banho',379,445],['lavanderia',320,568]]){const p=pr([x,2,z]);label(ctx,p[0],p[1],PROJECT.rooms.find(q=>q.id===r).name.toUpperCase(),'#384d46',w<500?8:10);}}
   if(st.view==='top'){
-    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,700,85,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
+    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,700,85,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
   }
   if(st.measures&&st.view!=='side'){
     if(st.room==='sala'||st.room==='all'){const depth=st.sofa==='closed'?110:136,gap=245-depth-st.rackDepth-st.sofaGap;dimension(ctx,pr,[495+st.rackDepth,2,268],[740-depth-st.sofaGap,2,268],gap+' cm*');if(st.room==='sala')dimension(ctx,pr,[705,2,375],[705,2,555],'180 cm');}

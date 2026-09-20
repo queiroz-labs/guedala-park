@@ -4,7 +4,7 @@ const PROJECT={revision:'R05 · decisões até 18/09/2026',date:'18 setembro 202
   rooms:[
     {id:'all',name:'Apartamento',sub:'Visão completa',bounds:[-10,-10,750,710],color:'#e8e0d3'},
     {id:'sala',name:'Sala + jantar',sub:'Bonnie, mesa e painel',bounds:[485,175,750,565],color:'#dcc5a2'},
-    {id:'quarto',name:'Quarto',sub:'Queen e armazenamento',bounds:[-10,90,250,405],color:'#c4b9a8'},
+    {id:'quarto',name:'Quarto',sub:'Queen e armazenamento',bounds:[-10,90,375,405],color:'#c4b9a8'},
     {id:'escritorio',name:'Escritório',sub:'Trabalho e hóspedes',bounds:[245,-10,495,305],color:'#748a8f'},
     {id:'cozinha',name:'Cozinha',sub:'Arenza + Azul Petróleo',bounds:[380,530,750,710],color:'#2d4a50'},
     {id:'lavanderia',name:'Lavanderia',sub:'Varal e área de serviço',bounds:[245,530,390,710],color:'#cfcbc0'},
