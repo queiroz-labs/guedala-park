@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+<title id="title">Cortina — limite de encaixe de sete centímetros</title><desc id="desc">Vista superior esquemática. Cortina dentro de faixa de sete centímetros. Sofá deslocado sete centímetros, mantendo três até o banco. Painel reduzido a cento e doze e prateleiras a cento e sete. Hipótese condicionada à cortina real, não produto dimensionado.</desc>
+<rect width="1000" height="720" fill="#faf8f3"/>
+<style>text{font:17px sans-serif;fill:#302f2a}.title{font-size:25px;font-weight:bold}.small{font-size:14px}.line{fill:none;stroke:#817b70;stroke-width:1}.dash{fill:none;stroke:#ad7340;stroke-dasharray:5 5}</style>
+<text x="35" y="42" class="title">Cortina compacta · cenário condicionado</text>
+<text x="35" y="72">Vista de cima · não representa uma cortina comercial já validada</text>
+<text x="268" y="120" text-anchor="middle">Parede da janela: 245 cm</text>
+<path d="M60 152H476.5 M60 152V355 M476.5 152V580" class="line"/>
+<path d="M124.6 152H360.9" stroke="#80a7ad" stroke-width="5"/>
+<rect x="60" y="155.4" width="416.5" height="8.5" fill="#87a6a5"/>
+<path d="M60 163.9H476.5" class="dash"/>
+<text x="60" y="142" class="small">TV</text><text x="440" y="142" class="small">Sofá</text>
+<rect x="60" y="163.9" width="4" height="190.4" fill="#c5a47d"/>
+<rect x="64" y="168.15" width="59.5" height="181.9" fill="#dac6a7"/>
+<text x="96" y="260" text-anchor="middle" transform="rotate(-90 96 260)">Prateleiras: 107</text>
+<rect x="289.5" y="163.9" width="187" height="306" rx="8" fill="#c9c0b1"/>
+<text x="383" y="290" text-anchor="middle">Sofá preservado</text><text x="383" y="317" text-anchor="middle">180 × 110</text>
+<path d="M289.5 152H476.5 M289.5 458H476.5" class="dash"/>
+<text x="383" y="399" text-anchor="middle">Avanço: 7 cm</text>
+<rect x="383" y="475" width="93.5" height="85" fill="#c5a47d"/>
+<text x="430" y="519" text-anchor="middle">Banco</text>
+<path d="M383 469.9H250 M383 475H250" class="line"/>
+<text x="225" y="478" text-anchor="end">Fresta: 3 cm</text>
+<path d="M476.5 163.9H530V198H550" class="line"/>
+<text x="565" y="197">Limite total: 7 cm</text><text x="565" y="222" class="small">Inclui tecido, ferragens e folga.</text>
+<text x="565" y="276">Blackout de enrolar no vão</text><text x="565" y="301" class="small">Profundidade da janela ainda a conferir.</text>
+<text x="565" y="355">Painel: 115 → 112 cm</text><text x="565" y="380" class="small">TV mantida; margem lateral muito justa.</text>
+<text x="565" y="434">Prateleiras: 110 → 107 cm</text><text x="565" y="459" class="small">Profundidades preservadas.</text>
+<text x="565" y="513">Mesa e banco ficam onde estão</text><text x="565" y="538" class="small">Sem deslocar o jantar para a cozinha.</text>
+<text x="35" y="611">Condição: tecido quase plano, recolhido para o sofá, precisa atender ao limite de 7 cm.</text>
+<text x="35" y="640">Wave convencional não atende. Pacote aberto, nicho e TV real ainda precisam ser conferidos.</text>
+<text x="35" y="682" class="small">Proposta para revisão; cotas gráficas. Não usar como ordem de compra, corte de marcenaria ou instalação.</text>
+</svg>

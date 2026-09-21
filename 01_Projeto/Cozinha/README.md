@@ -4,7 +4,15 @@
 
 **Aéreos — organização aprovada por Elias:** composição A/D com divisórias verticais e B/C com prateleiras alinhadas conforme último desenho. [Detalhamento vigente](Aereos_R00.md). Prosseguir com conteúdo, acesso e medidas sem reabrir a organização funcional.
 
-**Etapa atual — superiores:** [Aéreos R00](Aereos_R00.md): módulos, portas, prioridades de guarda e pendências de altura/capacidade. Escorredor permanece no inferior quando seco; modelo em avaliação.
+**Escorredor definido — 15/09/2026:** Tramontina Mini Plurale Grafite, referência 61537000, 27,8 × 19,9 × 12,6 cm, para até nove pratos, copos e talheres. Usado junto à cuba com a bandeja direcionada para ela e guardado seco no gabinete inferior. Encaixe e posição exata ainda serão conferidos; site preservado.
+
+**Lixeiras definidas — 15/09/2026:** lixo comum: Biovis Coleta 15 L, 21 × 34 × 47 cm, em aço inox escovado, com pedal e balde interno removível, na parede externa do banheiro voltada para a mesa, no ponto verde; passagem nominal de aproximadamente 107 cm no desenho. Recicláveis: Tramontina Loop 20 L, referência 94547020, 29 × 29 × 43,7 cm, no chão da lavanderia, no ponto vermelho. A solução libera o armário baixo para o cesto de roupas. Conferir medidas reais, rodapés, curso das tampas, pedais e circulação. Nenhuma das duas volta para dentro dos gabinetes.
+
+**Panela de pressão definida — 15/09/2026:** Tramontina Vancouver Effect preta, 3 L, referência 20593420. Altura 18,1 cm, largura 23,1 cm e diâmetro 20 cm. Guardar no nível inferior do gabinete da pia; comprimento total com cabo, manobra e convivência com instalações ainda serão conferidos.
+
+**Prateleira regulável da pia — referência aprovada:** posição inicial com topo a aproximadamente 50 cm do piso, gerando no ensaio 26,2 cm úteis embaixo e 21,5 cm acima, antes das instalações. A pressão de 18,1 cm fica com cerca de 8,1 cm de folga vertical. Ajustar após medir sifão, mangueira e utensílios reais.
+
+**Etapa atual — superiores:** [Aéreos R00](Aereos_R00.md): módulos, portas, prioridades de guarda e pendências de altura/capacidade. Escorredor permanece no inferior quando seco.
 
 **Gaveta baixa — decisão fechada por Elias, 15/09/2026:** rodas de silicone, frente recuada 8 cm em relação às portas e corte apresentado aprovado como referência de projeto. Faixa inferior de 18 cm; caixa com 8,2 cm úteis de altura e 40,6 cm internos de profundidade no ensaio. Detalhar rodas, guia e estrutura antes de fabricar. [Registro do fechamento](Detalhamento_dimensional_R00.md).
 

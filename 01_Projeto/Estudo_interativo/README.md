@@ -1,6 +1,6 @@
-# Apartamento interativo — R01
+# Apartamento interativo — R05
 
-13/09/2026 · F156 · Escolhas consolidadas até F155.
+18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
 
 **Publicado no GitHub Pages:** [site](https://queiroz-labs.github.io/guedala-park/) · [moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/). [Escopo autorizado e continuidade da publicação](Publicacao_GitHub_Pages.md): somente site e moodboard foram enviados; o restante novo permanece local.
 
@@ -11,9 +11,10 @@
 1. Escolha o ambiente e a vista: superior, 3D ou lateral. A vista lateral tem quatro direções e pode ocultar a metade oposta do ambiente para facilitar a leitura.
 2. Arraste para girar o 3D; use a roda do mouse ou pinça com dois dedos para aproximar. Nas vistas superior/lateral, arrastar desloca o desenho. “Enquadrar” restaura a câmera.
 3. Toque ou clique em um móvel para abrir sua ficha, com dimensões, material, origem da decisão e o que falta conferir. No celular, também existe “Ver móveis deste ambiente”.
-4. Alterne Bonnie fechado/aberto/baú, escritório em trabalho/hóspedes, três cadeiras recolhidas em 2+1/em uso, PS5 na sala/escritório e os três estados conceituais do varal.
+4. Veja as transições animadas ao alternar Bonnie fechado/aberto/baú, escritório em trabalho/hóspedes, três cadeiras recolhidas em 2+1/em uso, PS5 na sala/escritório e os três estados conceituais do varal.
 5. Consulte as passagens e expanda “Ajustar hipóteses de circulação” para testar afastamento do sofá, profundidade do apoio da TV e espessura da cabeceira. Esses ajustes são simulações; recarregar restaura as decisões.
-6. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
+6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
+7. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
 
 O arquivo permite salvar uma cópia completa do HTML, exportar dados das escolhas, imprimir o moodboard e salvar uma imagem da vista no computador.
 
@@ -36,12 +37,12 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 | Jantar | Mesa 180 × 75 cm, R15; pedestal central; três cadeiras sob o tampo em 2+1 | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
 | Quarto | Reserva queen 200 × 160 cm; armário 200 × 60 × 240 cm; interior R02; cabeceira, dois apoios e aéreo raso/alto | Base real da cama, alturas, portas do armário, gavetas, conforto e fixação dos apoios |
 | Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
-| Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
-| Banheiro | Paleta Sauge/greige, pedra clara e metais escuros | Louças e bancada são volumes de referência; dimensões e instalações a conferir |
+| Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
+| Banheiro | VIP 59 cm, Slim como primeira opção, Arion atrás da cuba, gabinete fechado, espelho raso com luz frontal, uma parede verde, Livo e quatro percursos de água quente em estudo | Medidas de bancada/box, registros, ducha higiênica e hidráulica ainda a conferir |
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
-Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficamente. O teto de 247 cm é cenário do escritório; demais alturas de paredes são ilustrativas. Este é um estudo de layout, não desenho para fabricação. Piso da sala/cozinha e cor do laminado entregue continuam ilustrativos. Cores digitais não substituem amostras físicas.
+Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficamente. O teto de 247 cm é cenário do escritório; demais alturas de paredes são ilustrativas. Este é um estudo de layout, não desenho para fabricação. Piso vinílico definido, exceto banheiro/lavanderia; Olmo é a preferência, com Aveia/Bétula para comparar amostras. Cores digitais não substituem amostras físicas.
 
 ## Base documental e manutenção
 
@@ -54,3 +55,7 @@ As fontes editáveis ficam em `src`; `construir.py` gera os dois HTML autônomos
 O fluxo `.github/workflows/pages.yml` executa `preparar_pages.py` a cada push em `main` e publica o artefato `.site` com página principal, moodboard, imagem de materiais e identificação da versão. A configuração do repositório deve usar GitHub Actions como origem do Pages. PDFs, fotos da visita, registros e arquivos de apoio não integram o artefato do site. O repositório conserva os documentos do projeto.
 
 Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de ambientes/vistas, estados, fórmulas de circulação, gestos de toque, esquema R02 incorporado e cópia HTML reaberta. Sem erros JavaScript, requisições externas ou transbordamento horizontal nos cenários testados.
+
+## Verificação R05
+
+Teste de oclusão com duas faces cruzadas e seleção pela profundidade real; órbita de 360° com 24 vistas; sete ambientes nas três vistas; animações intermediárias, finais e reversas, redução de movimento, 12 fichas de interiores, 59 decisões, cópia HTML independente e telas de 1440, 412 e 340 px. Renderização WebGL sem erros JavaScript. Animações são ilustrativas e não certificam colisões ou execução.

@@ -28,13 +28,26 @@ Elias aprovou a organização após o alinhamento B/C. Não repetir perguntas so
 
 Detalhes: [Aéreos R00](Aereos_R00.md).
 
-## 2. Gabinete inferior da pia e utensílios
+## 2. Purificador escolhido
+
+- **Electrolux PE12G grafite**, com água natural, fria e gelada, definido por Elias em 15/09/2026.
+- Corpo de referência: **16 × 42 × 35 cm** (largura × profundidade × altura).
+- Reserva preliminar de estudo: **26 × 52 × 57 cm**, incorporando as folgas documentadas; não representa nicho fechado liberado.
+- Posição de projeto: sobre a bancada, junto à geladeira, substituindo a implantação lateral do PE11X.
+- Teto de pesquisa ampliado para aproximadamente **R$ 660**. Compra, frete e instalação não realizados.
+- Alimentação de água, tomada, pressão, acesso para manutenção, respingos e afastamento de fontes de calor continuam a compatibilizar.
+
+Detalhes: [Detalhamento dimensional R00](Detalhamento_dimensional_R00.md).
+
+## 3. Gabinete inferior da pia e utensílios
 
 - Gabinete com duas portas iguais e duas prateleiras amplas, sem lixeira interna.
 - Distribuição funcional aprovada: duas pilhas de panelas no nível superior, cada uma com uma pequena e uma média; pressão separada e organizador para tampas, frigideira, tábuas e escorredor no inferior. Prateleira regulável; cabimento e instalações a conferir.
-- **Lixeira comum no chão**. Solução interna com mecanismo na porta e recorte nas prateleiras foi rejeitada. Local e modelo da lixeira de chão ainda pendentes; 12 L é referência anterior não expressamente alterada.
-- **Escorredor sobre a cuba durante o uso; guardado seco no armário inferior depois.** Alternância com a tábua parcial preservada. Modelo/formato ainda em avaliação: a esteira Mimo foi sugestão, e seu registro como aceita foi corrigido. Não destinar escorredor aos aéreos.
-- **Panela de pressão compacta priorizada.** Elias aceita dividir o preparo de 1 kg de feijão em rodadas. Vancouver Effect 3 L é referência de projeto; não houve compra nem comprovação completa de encaixe com cabo e instalações.
+- Posição inicial aprovada da prateleira regulável: topo a aproximadamente 50 cm do piso. No ensaio, resulta em 26,2 cm úteis embaixo e 21,5 cm acima, antes das instalações. Ajustar após medir sifão, mangueira e utensílios reais.
+- **Lixeira comum Biovis Coleta 15 L**, no chão. Corpo de 21 × 34 × 47 cm em aço inox escovado, com pedal e balde interno removível. Posição aprovada: parede externa do banheiro, voltada para a mesa, no ponto verde. A profundidade de 34 cm deixa cerca de 107 cm nominais até a mesa no modelo gráfico.
+- **Lixeira de recicláveis Tramontina Loop 20 L**, referência 94547020, definida no chão da lavanderia, no ponto vermelho indicado por Elias. Corpo de 29 × 29 × 43,7 cm em aço inox polido, com pedal, fechamento suave e balde interno removível. A solução libera o armário baixo para o cesto de roupas. Conferir medidas reais, rodapés, abertura das tampas, pedais e circulação. Soluções internas nos gabinetes permanecem rejeitadas.
+- **Escorredor Tramontina Mini Plurale Grafite 61537000**, 27,8 × 19,9 × 12,6 cm, capacidade declarada para nove pratos, copos e talheres. Usado junto à cuba com a bandeja direcionada para ela e guardado seco no armário inferior. Alternância com a tábua parcial preservada; encaixe final a conferir. A esteira Mimo foi descartada. Não destinar escorredor aos aéreos.
+- **Panela de pressão Tramontina Vancouver Effect preta 3 L**, referência 20593420, definida por Elias. Altura 18,1 cm, largura 23,1 cm e diâmetro 20 cm. Elias aceita dividir o preparo de 1 kg de feijão em rodadas. Não houve compra nem comprovação completa de encaixe com cabo e instalações.
 - Três gavetas principais independentes: talheres/facas, utensílios de preparo e temperos.
 
 Detalhes: [Organização interna](Organizacao_interna_R00.md).

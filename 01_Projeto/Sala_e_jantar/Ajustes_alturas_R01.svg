@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
+<title id="title">Sala — proposta de alturas</title><desc id="desc">Elevações esquemáticas separadas: espelho de 70 por 120 começando a 85 centímetros, quadro de 120 por 85 começando a 120, pendente com globos a 155, 170 e 185. Medidas para estudo, não instalação.</desc>
+<rect width="1100" height="660" fill="#faf8f3"/>
+<style>text{font:16px sans-serif;fill:#302f2a}.title{font-size:25px;font-weight:bold}.small{font-size:14px}.dim{stroke:#817b70;stroke-width:1;fill:none}.align{stroke:#9a785a;stroke-dasharray:6 6;fill:none}</style>
+<text x="40" y="40" class="title">Composição em altura · proposta R01</text>
+<text x="40" y="68">Vistas separadas, na mesma escala vertical · medidas em cm a partir do piso</text>
+<text x="70" y="108">Parede do espelho</text><text x="410" y="108">Parede do banco</text><text x="790" y="108">Pendente sobre a mesa</text>
+<path d="M50 550H1050 M50 154.8H1050" class="dim"/>
+<text x="55" y="146" class="small">Teto do modelo: 247</text>
+<path d="M55 222H730" class="align"/><text x="55" y="210" class="small">Topo comum: 205</text>
+<rect x="115" y="222" width="112" height="192" rx="12" fill="#c5a47d"/>
+<rect x="120" y="227" width="102" height="182" rx="8" fill="#d4e1df"/>
+<path d="M245 414H270 M245 222H270 M258 222V414" class="dim"/>
+<text x="271" y="322">120</text><text x="144" y="439">70 × 120</text>
+<text x="88" y="465">Base: 85</text>
+<rect x="252" y="475" width="34" height="75" rx="4" fill="#b3b5b3"/>
+<path d="M250 434H290" class="align"/>
+<text x="65" y="493" class="small">Lixeira aberta: 72,5</text>
+<text x="65" y="578" class="small">Espelho centrado na parede.</text><text x="65" y="598" class="small">Lixeira preservada ao lado.</text>
+<rect x="435" y="222" width="192" height="136" rx="2" fill="#c5a47d"/>
+<rect x="440" y="227" width="182" height="126" fill="#f0ece4"/>
+<text x="531" y="285" text-anchor="middle">Composição única</text><text x="531" y="312" text-anchor="middle">120 × 85</text>
+<path d="M650 358V406 M642 358H660 M642 406H660" class="dim"/><text x="667" y="387">30</text>
+<rect x="387" y="406" width="288" height="69" rx="5" fill="#bbb0a0"/>
+<rect x="387" y="475" width="288" height="75" fill="#c5a47d"/>
+<path d="M483 410V471 M579 410V471" class="dim"/>
+<text x="531" y="445" text-anchor="middle">Encosto: 90</text>
+<text x="531" y="505" text-anchor="middle">Banco: 180</text>
+<text x="395" y="578" class="small">Quadro começa a 120.</text><text x="395" y="598" class="small">30 livres em cada ponta do banco.</text>
+<rect x="872" y="151" width="32" height="6" rx="2" fill="#343431"/>
+<path d="M878 157V254 M888 157V278 M898 157V230" stroke="#343431" fill="none"/>
+<circle cx="878" cy="266" r="12" fill="#bd8c42"/><circle cx="888" cy="290" r="12" fill="#bd8c42"/><circle cx="898" cy="242" r="12" fill="#bd8c42"/>
+<path d="M916 254H974 M916 278H974 M916 302H974" class="dim"/>
+<text x="980" y="259">185</text><text x="980" y="283">170</text><text x="980" y="307">155</text>
+<rect x="816" y="430" width="120" height="5" rx="2" fill="#c5a47d"/>
+<rect x="866" y="435" width="19" height="112" rx="4" fill="#343431"/>
+<text x="944" y="438">Tampo: 75</text>
+<path d="M792 302V430 M785 302H800 M785 430H800" class="dim"/><text x="758" y="370">80</text>
+<text x="783" y="578" class="small">Globos: Ø15; cascata de 15.</text><text x="783" y="598" class="small">Base da mesa não dimensionada.</text>
+<text x="40" y="639" class="small">Estudo proporcional. Pendente esquemático: manter fixações originais. Conferir piso, teto e ferragens antes da instalação.</text>
+</svg>

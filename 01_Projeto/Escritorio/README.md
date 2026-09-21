@@ -1,5 +1,7 @@
 # Escritório — disposição atual dos móveis
 
+**Arte — 18/09/2026:** Elias escolheu duas artes para o escritório: **São Paulo cinematográfica** e **Cyberpunk**. Obras/imagens, dimensões, molduras e posições ainda a definir; não interferir automaticamente nos aéreos, TV ou setup aprovados.
+
 **F155 — aéreos aprovados, módulo da caixa retirado:** Elias dispensa compartimento dedicado à caixa do gabinete e providenciará guarda, possivelmente na cama-baú queen; destino/cabimento não confirmados. Aprovado armário principal sobre o sofá200 ×55 ×35 cm (L ×A ×P) e área aberta sobre a prateleira dos consoles, com topo195 cm já escolhido. Retirar módulo64 ×60 ×43 cm junto à janela; não preencher automaticamente o espaço liberado. Conferências executivas preservadas. Registros anteriores de obrigatoriedade do módulo da caixa são históricos.
 
 **F154 — prateleira dos consoles:** topo a195 cm aprovado por Elias para priorizar circulação. Próxima decisão: distribuição dos aéreos comuns e do módulo da caixa conforme R09, preservando área aberta sobre consoles. Medidas e interferências com cortina/telas continuam a conferir.

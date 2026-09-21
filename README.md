@@ -1,5 +1,7 @@
 # Guedala Park — projeto do apartamento
 
+**Referências visuais aprovadas:** [Sala R03](03_Referencias/Sala_referencia_aprovada_R03.png) · [Quarto R03](03_Referencias/Quarto_referencia_aprovada_R03.png).
+
 **Versão web:** [Apartamento interativo](https://queiroz-labs.github.io/guedala-park/) · [Moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/).
 
 Comece pelo **[resumo do projeto](01_Projeto/Resumo.md)**: escolhas atuais, orçamento e o que falta resolver.
@@ -16,6 +18,7 @@ Vistas superior, lateral e 3D, móveis em diferentes estados de uso e circulaç�
 | Decisões e suas fontes | [Registro de decisões](01_Projeto/Registro_de_decisoes.md) |
 | Cozinha, pia e purificador | [Estudos da cozinha](01_Projeto/Cozinha/README.md) |
 | Lavanderia, varal e aquecedor | [Estudos da lavanderia](01_Projeto/Lavanderia/README.md) |
+| Banheiro, escolhas e percursos de água quente | [Decisões e estudos do banheiro](01_Projeto/Banheiro/README.md) |
 | Geladeira, lava e seca e orçamento | [Equipamentos](01_Projeto/Equipamentos/README.md) |
 | Mesa para seis e sala | [Sala e jantar](01_Projeto/Sala_e_jantar/README.md) |
 | Trabalho, jogos e hóspedes | [Escritório](01_Projeto/Escritorio/README.md) |

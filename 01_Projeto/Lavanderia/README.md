@@ -1,5 +1,7 @@
 # Lavanderia, varal e aquecedor
 
+**Lixeira de recicláveis definida — 15/09/2026:** Tramontina Loop 20 L, referência 94547020, em aço inox AISI 430 com acabamento polido, pedal, fechamento suave e balde interno removível. Dimensões: 29 × 29 × 43,7 cm. Posição aprovada: no chão, no ponto marcado em vermelho por Elias, fora do armário baixo. Essa implantação libera o vão sob o tanque para o cesto de roupas. Conferir em obra rodapé, abertura da tampa, acesso ao pedal e circulação. [Ficha oficial](https://www.tramontina.com.br/lixeira-com-pedal-tramontina-loop-em-aco-inox-com-acabamento-polido-e-balde-interno-20-l/94547020.html).
+
 **F103 — conferência de instalação:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md). ME23P: 30 cm acima e circuito exclusivo de 20 A; Venax: 20 cm entre fundo do cooktop e topo do forno. RI9252/91 identificada como preta de 127 V. Compatibilização do layout ainda pendente.
 
 **F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.

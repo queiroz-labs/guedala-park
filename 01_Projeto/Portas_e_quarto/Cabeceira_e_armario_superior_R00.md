@@ -1,5 +1,15 @@
 # Cabeceira e armário superior — R00
 
+## Quarto — janela, madeira e cabeceira definidos, 21/09/2026
+
+Elias confirmou as seguintes escolhas para preparar a imagem realista:
+
+- **Sem cortina no quarto.** Representar a janela já mapeada nas imagens do apartamento espelhado, com esquadria branca e fechamento em lâminas/persiana integrada. Referências DRB-04/DRB-05 e Complemento da visita R02; usar a posição da planta P01 da unidade de Elias, sem copiar o espelhamento do apartamento filmado. Não acrescentar cortina, trilho ou blackout externo.
+- **Armário com acabamento amadeirado**, seguindo o padrão de cor do quarto. Usar Arenza como referência já presente na paleta da marcenaria do quarto; código/amostra e material construtivo ainda a conferir. Para a composição visual, seguir essa direção no conjunto de armários, substituindo a proposta anterior de aéreo off-white. Não interpretar “madeira” como exigência de madeira maciça.
+- **Cabeceira estofada lisa dividida em dois painéis**, lado a lado, sem capitonê ou ripado. Tipo e divisão aprovados; manter bege/greige claro como referência visual já estudada, sem inventar código de tecido aprovado.
+
+Iluminação aprovada, roupa de cama off-white/bege com verde-oliva, espelho lateral do guarda-roupa, dois apoios pequenos e ausência de TV preservados. Dimensões, ferragens e funcionamento das portas dos armários seguem pendências técnicas; não exigem reabrir essas escolhas visuais para preparar a primeira proposta. Imagem do quarto ainda não gerada nem aprovada.
+
 ## Decisões encerradas como direção de projeto — F152
 
 Elias confirma decisões fechadas e pede seguir para o escritório. Aprovada a composição: cabeceira estofada clara, armário alto/raso e dois apoios pequenos para celular/óculos. Referências apresentadas25 cm de profundidade do aéreo, base~205 cm e apoios20 ×15 cm passam a base do detalhamento, mantendo largura180–200 cm ainda a compatibilizar. Posição precisa dos apoios deve preservar circulação e conforto; não transformar aceite em autorização de invasão do colchão ou em encaixe comprovado. Altura real do colchão/teto, fixações, portas e peças dobradas serão conferidas na execução. Próxima prioridade: pendências do escritório.

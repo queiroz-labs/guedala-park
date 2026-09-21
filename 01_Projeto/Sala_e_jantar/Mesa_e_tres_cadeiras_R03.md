@@ -1,5 +1,17 @@
 # Mesa retangular arredondada com pedestal único — R03
 
+**Base da mesa aprovada — 20/09/2026:** Elias confirmou coluna central única redonda e apoio oval baixo, alongado no sentido do comprimento da mesa, em metal preto fosco, sob medida. Tampo Arenza 180 × 75 cm com cantos R15 preservado. Aparência definida; diâmetro da coluna, dimensões/espessura da chapa, estabilidade e espaço para pernas/cadeiras continuam a conferir antes da fabricação.
+
+## Mesa — prioridade de acesso ao banco, 20/09/2026
+
+Elias determinou que aparência e formato da base favoreçam entrar, sair e deslizar pelo banco do canto alemão, evitando bater pernas e pés. Esse é requisito funcional confirmado, não garantia de ausência de contato nem aprovação de dimensões da base.
+
+Manter pedestal único preto fosco. Direção de estudo: coluna compacta de seção circular ou oval, sem quinas; apoio no piso baixo, com contorno arredondado e bordas suaves; evitar braços, travessas ou pés salientes no percurso do banco. Se oval, estudar o menor eixo na direção banco–cadeiras. Formato e medidas executivas ainda pendentes, sem reduzir a base de apoio arbitrariamente: dimensionamento precisa preservar estabilidade do tampo 180 × 75 cm.
+
+Conferir o movimento de entrada pela cozinha e o deslizamento até os três lugares, especialmente a passagem das pernas diante da coluna central. Incluir sapata, fixações sob o tampo, joelhos, canelas e pés no ensaio; não validar apenas pessoas sentadas. A cadeira guardada na cabeceira de acesso precisa ser afastada para a entrada se obstruir o percurso. Guarda 2+1 não deve ser apresentada como acesso permanentemente livre.
+
+Para comparar colunas centradas, a distância entre a borda longa do tampo e a face da coluna é (75 − largura transversal da coluna)/2. Exemplos exclusivamente geométricos: coluna de 12 cm deixa 31,5 cm; de 20 cm deixa 27,5 cm. Esses valores não são folgas corporais, não comprovam conforto e não especificam estrutura. Base real e teste de movimento ainda necessários. Não deslocar coluna para fora do centro sem rever estrutura e recolhimento das cadeiras.
+
 ## Aprovação F145
 
 Elias aprova a proposta apresentada: tampo180 ×75 cm, cantos R15 cm, pedestal central único e recolhimento com duas cadeiras na lateral e uma na cabeceira voltada à cozinha. São escolhas de projeto; continuam pendentes o encaixe dos modelos reais de cadeira/pedestal/sapata, a estrutura e o acesso ao banco. Os gabaritos compactos abaixo não equivalem a produtos escolhidos ou fabricação liberada. Próximo assunto solicitado: tipo de rack/painel da sala.

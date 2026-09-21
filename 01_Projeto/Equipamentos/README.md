@@ -37,3 +37,7 @@ Veja também [manuais dos equipamentos](../../02_Plantas_e_manuais/README.md) e 
 | Aquecedor Rinnai E21 REU-E211 FEH GN | Bivolt com chave seletora; uso em **127 V**. Sem módulo Wi-Fi adicional — F106. |
 
 A regra também vale para futuras especificações de eletrodomésticos com tensão ainda não escolhida. Aparelhos pequenos já possuídos não tiveram sua tensão física conferida por esta atualização: não presumir que um aparelho existente mudou de tensão. Modelos, cores e tetos de orçamento permanecem. Preços antigos de versões 220 V não são cotações da versão 127 V. Nenhuma compra realizada.
+
+## Pesquisa de preços em inox — 13/09/2026
+
+[IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes](Precos_inox_IB6S_VC4_R00.md). Acabamento vigente Inox Look conforme F160; pesquisa F161.

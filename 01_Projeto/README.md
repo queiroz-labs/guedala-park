@@ -7,6 +7,7 @@
 
 - [Cozinha, pia e purificador](Cozinha/README.md)
 - [Lavanderia, varal e aquecedor](Lavanderia/README.md)
+- [Banheiro, medidas e água quente](Banheiro/README.md)
 - [Equipamentos e orçamento](Equipamentos/README.md)
 - [Sala e jantar](Sala_e_jantar/README.md)
 - [Escritório e hóspedes](Escritorio/README.md)

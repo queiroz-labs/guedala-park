@@ -1,5 +1,7 @@
 # Decisões da lavanderia
 
+**Correção vigente — 15/09/2026:** a lixeira de recicláveis não divide mais o armário baixo com o cesto de roupas. Elias definiu a **Tramontina Loop 20 L, referência 94547020**, no chão, no ponto marcado em vermelho na imagem enviada. Produto de 29 × 29 × 43,7 cm, em aço inox AISI 430 polido, com pedal, fechamento suave e balde interno removível. O armário sob o tanque fica priorizado para o cesto de roupas e instalações. Menções posteriores neste documento a recicláveis dentro do móvel são históricas nesse aspecto. Conferir rodapé, curso da tampa, pedal e passagem antes da implantação executiva.
+
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)
 
 Referência original: A04.2. As capas dos PDFs conservam esse código.

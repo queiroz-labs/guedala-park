@@ -1,5 +1,236 @@
 # Registro de decisões — Guedala Park
 
+## Quarto — imagem R03 aprovada e envio completo autorizado, 21/09/2026
+
+Elias confirmou: “perfeito, salva essa image, como referencia e dê commit push no q ja fizemos até agr”. A **[imagem aprovada R03 do quarto](../03_Referencias/Quarto_referencia_aprovada_R03.png)** passa a ser referência visual do plano real, superando as propostas pendentes. Mantidas escolhas e correções da R03; aprovação visual não define cotas executivas. Solicitado commit e push de todo o trabalho acumulado, incluindo documentos e referências antes mantidos apenas localmente.
+
+## Quarto — guarda-roupa até o teto com maleiro, 21/09/2026
+
+Elias determinou: “o guarda roupa deve ir até o teto para ter o maleiro”. Requisito incorporado à [imagem realista R03](../03_Referencias/Quarto_proposta_realista_R03.md), ainda pendente de aprovação. Substitui a folga superior da R02 e a altura de 240 cm como limite final. Manter implantação do armário não embutido e espelho na lateral de 60 cm voltada para entrada. Altura efetiva, maleiro, cotas internas e arremate ao teto a compatibilizar com medição; divisão de portas ilustrada não constitui aprovação de ferragens. Sem publicação.
+
+## Quarto — correção do guarda-roupa e espelho, 21/09/2026
+
+Elias esclareceu que o guarda-roupa **não é embutido** e o espelho fica **na lateral do móvel**. Planta 2D conferida: frentes voltadas para a passagem ao lado da cama; espelho na lateral de 60 cm voltada à entrada, perpendicular às portas. Armário termina próximo ao pé da cama, preservando acesso. Gerada [proposta realista R02](../03_Referencias/Quarto_proposta_realista_R02.md), com móvel independente e espelho sobre painel amadeirado. Correção de implantação confirmada; imagem R02 ainda aguarda aprovação. Demais escolhas preservadas, sem publicação.
+
+## Quarto — janela, madeira e cabeceira definidos, 21/09/2026
+
+Elias confirmou as seguintes escolhas para preparar a imagem realista:
+
+- **Sem cortina no quarto.** Representar a janela já mapeada nas imagens do apartamento espelhado, com esquadria branca e fechamento em lâminas/persiana integrada. Referências DRB-04/DRB-05 e Complemento da visita R02; usar a posição da planta P01 da unidade de Elias, sem copiar o espelhamento do apartamento filmado. Não acrescentar cortina, trilho ou blackout externo.
+- **Armário com acabamento amadeirado**, seguindo o padrão de cor do quarto. Usar Arenza como referência já presente na paleta da marcenaria do quarto; código/amostra e material construtivo ainda a conferir. Para a composição visual, seguir essa direção no conjunto de armários, substituindo a proposta anterior de aéreo off-white. Não interpretar “madeira” como exigência de madeira maciça.
+- **Cabeceira estofada lisa dividida em dois painéis**, lado a lado, sem capitonê ou ripado. Tipo e divisão aprovados; manter bege/greige claro como referência visual já estudada, sem inventar código de tecido aprovado.
+
+Iluminação aprovada, roupa de cama off-white/bege com verde-oliva, espelho lateral do guarda-roupa, dois apoios pequenos e ausência de TV preservados. Dimensões, ferragens e funcionamento das portas dos armários seguem pendências técnicas; não exigem reabrir essas escolhas visuais para preparar a primeira proposta. Imagem do quarto ainda não gerada nem aprovada.
+
+## Quarto — verde-oliva suave aprovado, 20/09/2026
+
+Elias respondeu “gosto” à proposta de roupa de cama off-white e bege com verde-oliva suave na manta e nas almofadas. Confirmada essa composição de cores para o quarto e sua próxima imagem. Substitui a pendência de tonalidade registrada anteriormente; não define produtos, tecidos ou códigos de cor exatos. Móveis neutros e sem azul preservados.
+
+## Quarto — roupa de cama com toque de cor, 20/09/2026
+
+Elias escolheu “um toque de cor” entre roupa de cama inteiramente neutra e base clara com cor pontual. Registrar base clara e acento de cor como direção aprovada; verde-oliva suave na manta e nas almofadas, mencionado como exemplo, permanece proposta para a imagem, não confirmação específica de tonalidade. Preservar móveis neutros e decisões anteriores do quarto.
+
+## Quarto — arandelas discretas, 20/09/2026
+
+À escolha entre arandelas brancas discretas e pretas, Elias respondeu “quero discretas”. Confirmada direção de arandelas brancas, compactas e de desenho simples, preservando duas unidades direcionáveis de leitura e comandos independentes. Modelos e dimensões pendentes. Ver [iluminação R00](Portas_e_quarto/Iluminacao_R00.md).
+
+## Quarto — composição da iluminação aprovada, 20/09/2026
+
+Elias respondeu “sim, iluminação de cabeceira, e todo o resto q vc disse eu quero”. Confirmados plafon branco discreto no teto com luz difusa 3000 K e intensidade regulável, LED indireto escondido na cabeceira e duas arandelas pequenas direcionáveis para leitura, uma de cada lado com comando independente. Preservar os apoios para celular/óculos e compatibilizar com o aéreo alto/raso. [Detalhamento R00](Portas_e_quarto/Iluminacao_R00.md). Modelos, acabamento das arandelas, fluxo/potência, alturas, pontos e compatibilidade com dimmer ainda pendentes; sem compra ou publicação.
+
+## Imagem da sala aprovada — R03, 20/09/2026
+
+Elias confirmou: “aprovado, deixa salvo como imagem a ser seguida”. **[Sala — referência visual aprovada R03](../03_Referencias/Sala_referencia_aprovada_R03.png)** passa a ser a imagem a seguir no plano real da sala/jantar, substituindo as versões R01/R02 e o status pendente da R03. Preservar a composição aprovada, quatro fotos na moldura e porta fechada no batente indicado. A lixeira permanece prevista no canto, fora do enquadramento.
+
+A aprovação define a referência visual; medidas, encaixes e dimensionamento estrutural continuam regidos pelos estudos técnicos. Não extrair novas cotas do render nem interpretá-lo como alteração da planta. Nenhuma publicação do site foi solicitada nesta aprovação.
+
+## Sala — correção da imagem R02, 20/09/2026
+
+Elias pediu recuperar as três fotos escolhidas de Fagner Martins e incluí-las na moldura; corrigiu a identificação do cômodo visto no corredor para escritório e permitiu representá-lo com porta fechada. Produzida [R02](../03_Referencias/Sala_proposta_realista_R02.md) com as fotos recuperadas, composição completa e porta fechada. Cópias web e links específicos preservados. Imagem ainda pendente de aprovação para se tornar referência do plano real; nenhuma publicação.
+
+## Base da mesa — aparência aprovada, 20/09/2026
+
+Elias respondeu “gosto, deixe assim documentado” à proposta de coluna redonda com apoio oval baixo. **Base da mesa aprovada — 20/09/2026:** Elias confirmou coluna central única redonda e apoio oval baixo, alongado no sentido do comprimento da mesa, em metal preto fosco, sob medida. Tampo Arenza 180 × 75 cm com cantos R15 preservado. Aparência definida; diâmetro da coluna, dimensões/espessura da chapa, estabilidade e espaço para pernas/cadeiras continuam a conferir antes da fabricação. Ver [seleção R01](Sala_e_jantar/Base_mesa_selecao_R01.md). Nenhuma compra ou publicação.
+
+## Base da mesa — pesquisa para escolha, 20/09/2026
+
+Elias pediu avançar na base. [Seleção R01](Sala_e_jantar/Base_mesa_selecao_R01.md) compara tulipas comerciais e fabricação sob medida. Recomendada para decisão coluna circular única, chapa baixa oval longitudinal e preto fosco. Não registrar recomendação como aceite. Nenhuma base pronta confirmou suporte ao tampo 180 × 75 junto ao acesso do banco; DecoCasa largura 59 deixa 3 cm até a frente do banco no eixo central. Dimensões da coluna, chapa, apoio superior e estabilidade exigem desenho do fabricante; não aprovar sapata fictícia 26 × 30 do modelo. Nenhum contato externo ou compra.
+
+## Ajustes integrados da sala — 20/09/2026
+
+Elias autorizou resolver os ajustes e respondeu “Sim, priorizar os móveis” ao estudo de blackout de enrolar no vão com tecido decorativo mais compacto de parede inteira. Recolhimento para o sofá preservado. [Estudo R01](Sala_e_jantar/Ajustes_integrados_R01.md): cenário condicionado a reserva total de 7 cm, sofá avançando 7, painel 112 e prateleiras 107; jantar mantido. Não é produto de cortina validado, medida de corte ou implantação aprovada; pacote, nicho e TV real ainda a conferir. Duas waves de 28 cm deixam de ser a direção prioritária do estudo.
+
+Alturas propostas para simulação: espelho 70 × 120 de 85 a 205, centrado na parede e não na lixeira; quadro 120 × 85 de 120 a 205, centrado no banco; bases dos globos do pendente a 155/170/185 sobre tampo a 75. Medidas de estudo, não aprovação expressa de cada cota. Mesa: coluna compacta arredondada e apoio baixo como direção; corrigida distância banco–coluna para 26,5 no envelope central de 12; base estrutural e passagem corporal não comprovadas. Lina 44 também exige rever a inserção na guarda 2+1. Desenhos separados, site preservado.
+
+## Espelho da sala — moldura combinando com os móveis, 20/09/2026
+
+Ao escolher entre moldura fina de madeira e espelho sem moldura, Elias respondeu “combinar com os moveis”. Confirmada moldura fina de madeira no tom do conjunto, com Arenza como referência. Material/padrão exato e espessura ainda a detalhar. A medida inicial de 70 × 120 cm continua referência de simulação, sem aprovação dimensional de compra. Mantido local na face externa da parede do banheiro voltada à sala/jantar, compatibilizando com a lixeira. Não altera o espelho do quarto.
+
+## Mesa — prioridade de acesso ao banco, 20/09/2026
+
+Elias determinou que aparência e formato da base favoreçam entrar, sair e deslizar pelo banco do canto alemão, evitando bater pernas e pés. Esse é requisito funcional confirmado, não garantia de ausência de contato nem aprovação de dimensões da base.
+
+Manter pedestal único preto fosco. Direção de estudo: coluna compacta de seção circular ou oval, sem quinas; apoio no piso baixo, com contorno arredondado e bordas suaves; evitar braços, travessas ou pés salientes no percurso do banco. Se oval, estudar o menor eixo na direção banco–cadeiras. Formato e medidas executivas ainda pendentes, sem reduzir a base de apoio arbitrariamente: dimensionamento precisa preservar estabilidade do tampo 180 × 75 cm.
+
+Conferir o movimento de entrada pela cozinha e o deslizamento até os três lugares, especialmente a passagem das pernas diante da coluna central. Incluir sapata, fixações sob o tampo, joelhos, canelas e pés no ensaio; não validar apenas pessoas sentadas. A cadeira guardada na cabeceira de acesso precisa ser afastada para a entrada se obstruir o percurso. Guarda 2+1 não deve ser apresentada como acesso permanentemente livre.
+
+Para comparar colunas centradas, a distância entre a borda longa do tampo e a face da coluna é (75 − largura transversal da coluna)/2. Exemplos exclusivamente geométricos: coluna de 12 cm deixa 31,5 cm; de 20 cm deixa 27,5 cm. Esses valores não são folgas corporais, não comprovam conforto e não especificam estrutura. Base real e teste de movimento ainda necessários. Não deslocar coluna para fora do centro sem rever estrutura e recolhimento das cadeiras.
+
+## Cortina — recolhimento para o sofá aprovado, 20/09/2026
+
+Elias confirmou: “ok, anota recolhimento para o sofa e seguimos”. A cortina da parede inteira terá recolhimento para o lado do sofá. Mantidas as escolhas de tecido e acabamento; volume, profundidade e encontros com sofá/painel continuam pendentes conforme [estudo de compatibilização](Sala_e_jantar/Cortina_compatibilizacao_R00.md). Não há aprovação de deslocamento dos móveis nem substituição por blackout de enrolar. Sentido de abertura encerrado como decisão; seguir às próximas escolhas.
+
+
+## Cortina — compatibilização solicitada com os móveis, 20/09/2026
+
+Elias pediu calcular o melhor sentido de abertura considerando proximidade dos móveis. Criado Sala_e_jantar/Cortina_compatibilizacao_R00.md. Modelo/P01: parede245 cm, janela gráfica139 cm e margens38 cm no lado TV/68 cm no sofá; sofá a0 cm da parede da janela, painel a2,5 cm e prateleiras a5 cm. Referência técnica Silent Gliss wave60 estima56,35 cm por pacote unilateral ou28,175 cm por lado na central, antes de extremidades/retornos. Recolher no lado do sofá é candidata preferida, condicionada ao pacote real e operação da janela; central continua alternativa.
+
+Encontrado conflito não contemplado no 3D: duas camadas wave60 no ensaio ocupam reserva de28 cm em profundidade, mesmo fechadas. Mover sofá28 cm sobrepõe18 cm ao banco; deslocar painel preservando115 cm ultrapassa23 cm a parede gráfica antes do corredor. Mover jantar também reduz folgas junto à geladeira. Nenhuma configuração completa aprovada: manter intenção de parede inteira e estudar seção/retorno mais compactos antes da imagem fiel. Alternativa de blackout de enrolar com tecido frontal mencionada apenas para futuro ensaio; não substitui automaticamente as duas camadas escolhidas. Modelo, móveis e site não alterados.
+
+## Cortina cobrindo toda a parede da janela — 20/09/2026
+
+Elias confirmou: “sim, quero q cubra a parede inteira, para dar sensação de sala grande”. A extensão de ponta a ponta da parede da janela passa a ser escolha aprovada para sala/jantar, substituindo a pendência de cobrir apenas o vão ou toda a parede. Mantidos trilho duplo discreto no teto, ondas suaves, comprimento até perto do piso e duas camadas independentes: tecido com aparência de linho off-white quente à frente e blackout claro atrás. Objetivo é sensação visual de amplitude; não alterar as dimensões da sala na futura imagem.
+
+Próxima definição: sentido de abertura e distribuição do tecido recolhido, considerando sofá e painel/TV próximos às extremidades. Não registrar abertura central ou unilateral como aprovada. Largura/altura acabadas, afastamento do trilho, volume de tecido, amostras e instalação ainda a conferir. Escolha documentada localmente; nenhuma compra ou publicação nesta etapa.
+
+## Espelho na sala e preparação da imagem — 20/09/2026
+
+Elias respondeu “pode ser o espelho” à proposta para a parede externa do banheiro voltada à sala/jantar, e pediu registrar a escolha e seguir às decisões que faltam para uma imagem fiel. Confirmada a escolha de espelho nessa parede, com objetivo de sensação de amplitude. Direção visual apresentada: vertical, retangular com cantos arredondados, espelho prata e moldura fina no tom do Arenza. A referência de 70 × 120 cm é ponto de partida para simular, não dimensão executiva nem produto comprado; altura, tamanho final, espessura, fixação e enquadramento do reflexo continuam a conferir. Manter a parte inferior livre para uso da lixeira e circulação. Não garantir que refletirá o quadro e o pendente sem testar o ponto de vista.
+
+O espelho não substitui a composição única do Caminho da Fé acima do banco e é distinto do espelho lateral do guarda-roupa. Criado Sala_e_jantar/Visualizacao_fiel_R00.md para consolidar referências atuais e separar decisões visuais de conferências físicas. Próximos pontos visuais: formato final do pedestal e extensão da cortina; compatibilizar quadro/espelho/pendente antes da imagem. Sem geração de imagem, alteração do modelo ou publicação externa nesta etapa.
+
+## Tapete Almeidas escolhido — 20/09/2026
+
+Elias confirmou “ok, almeidas como tapete”. Referência escolhida: Almeidas bege/off-white, pelo baixo, sem franjas, anúncio de140×200cm e R$269 sem cupom (preço pesquisado, sem frete). Substitui greige mesclado como direção visual do tapete. Conferir lavagem/peso/adequação à LG VC4, secagem e encaixe com sofá retrátil e banco antes da compra. Não considerar lavagem em máquina já validada nem alterar teto da iluminação de R$1.200. Detalhes e link em Sala_e_jantar/Tapete_R00.md.
+
+## Quadro da sala — composição única confirmada — 20/09/2026
+
+Elias respondeu “sim, composição unica” à proposta de reunir as quatro fotografias escolhidas de Fagner Martins, incluindo a placa, em um único quadro acima do banco. Confirmada composição única; adotar arranjo 2×2 como proposta de montagem apresentada. Moldura fina em madeira próxima ao Arenza, fundo off-white, espaçamento uniforme e cerca de 120×85cm continuam referências propostas, sem confirmação individual nem medida executiva. Preservar cores originais e a fotografia em P&B. Conferir proporções/recortes e interferência visual do pendente; arquivos originais e autorização de impressão/montagem pendentes. Não gerar substituições das fotografias escolhidas como se fossem obras do autor.
+
+## Indireta como direção visual e conferência elétrica — 20/09/2026
+
+Após esclarecimento de que a passagem elétrica é desconhecida, Elias respondeu “ok, seguimos”. Prosseguir com indireta quente acima da prateleira superior da TV como direção visual. Não registrar conduíte como existente: Elias disse “precisa existir, mas n sei”. Conferir em vistoria percurso aproveitável entre comando na entrada e painel; prever botão cabeado se viável ou comando sem fio na entrada. Controlador, fonte, perfil e orçamento completo ainda não fechados; teto R$1.200 preservado. A medida de 90–100cm e temperatura proposta de 3000K permanecem referências de estudo, não especificação executiva. Pendência adicionada ao índice da visita.
+
+## Plafon escolhido e avanço para indireta — 19/09/2026
+
+Elias aceitou a recomendação do **Taschibra Jurerê branco, redondo 30cm, vidro fosco, 2xE27** e pediu avançar para as indiretas. Registrar modelo como escolha de projeto; encaixe/ventilação das WiZ ainda pendentes de conferência. Teto do conjunto permanece R$1.200. Localização e componentes da indireta são propostas em desenvolvimento no estudo R01, não escolhas aprovadas por esta resposta.
+
+## Novo teto para iluminação e pesquisa de plafon — 19/09/2026
+
+Elias autorizou **até R$1.200 para o conjunto de iluminação de sala e jantar**, substituindo o teto de R$1.000, e pediu pesquisar o plafon. Mantidos frete/instalação separados e requisitos de branco/RGB, intensidade, Alexa e comando físico. Nenhum plafon aprovado neste momento. Pesquisa comparativa e orçamento parcial atualizados em Sala_e_jantar/Iluminacao_R01.md; preferência técnica/econômica inicial pelo Taschibra Jurerê 30cm 2xE27, condicionada à acomodação e ventilação das lâmpadas WiZ.
+
+## Equipamentos Alexa existentes — 19/09/2026
+
+Elias informou **Echo Dot e Echo Show 5**, sem especificar gerações. Aproveitar assistentes existentes para controle de voz da iluminação; não pressupor hub Zigbee nem adicionar novo Echo à lista. Seleção de dispositivos e controles físicos ainda pendente de compatibilidade; orçamentoR$1.000 mantido.
+
+## Posição dos comandos de iluminação — 19/09/2026
+
+Elias confirmou “comando na entrada da sala com possivel controle sem fio”. Comandos físicos na entrada aprovados como intenção de uso, mantendo smart; controle sem fio junto ao sofá é opcional, condicionado a preço/compatibilidade. Não implica autorização de alteração de pontos/estrutura, escolha de protocolo ou aumento do teto de R$1.000. Desenvolver conjunto completo no estudo Sala_e_jantar/Iluminacao_R01.md.
+
+## Controle físico e smart da iluminação — 19/09/2026
+
+Elias aprovou **controle físico também, além de smart**, após pergunta sobre ligar e regular as luzes pela parede. Incorporar requisito ao estudo da sala/jantar. Comandos independentes para pendente, luz geral e indireta como proposta funcional, com arquitetura/modelos e compatibilidade elétrica a definir. Não presumir que lâmpada G9 dimerizável seja smart ou que dimmer comum seja compatível com plafon inteligente. Orçamento aprovado permaneceR$1.000; eventual acréscimo deve ser apresentado, não presumido.
+
+## Cenas de TV e filmes — 19/09/2026
+
+Elias prefere **luz indireta na maioria das vezes e ambiente apagado para alguns filmes importantes**. Incorporar ambas as cenas ao estudo, com indireta, luz geral e pendente acionáveis separadamente. Não equivale à aprovação de localização/produto de fita ou novo orçamento. Comportamento da possível Ambilight nesse modo e escolha de controle físico ainda pendentes.
+
+## Programa de iluminação — 19/09/2026
+
+Elias definiu clima noturno **aconchegante, luz quente e suave, com alguns pontos de destaque**. Mesa também usada para estudar, ler e jogar, com pouca frequência: prever cena funcional além da decorativa. Aceita avaliar luz indireta no painel/prateleiras e possível acréscimo de custo com benefício claro; não aprovou valor extra, instalação específica ou novo teto. MantidosR$1.000 como orçamento aprovado. Estudo consolidado em Sala_e_jantar/Iluminacao_R01.md. Não depender do Arevo central compacto como única luz funcional da mesa nem duplicar automaticamente a possível Ambilight com fita atrás da TV.
+
+## Orçamento de iluminação ampliado — 19/09/2026
+
+Elias autorizou “pode subir orçamento pra 1.000 do conjunto”. Novo teto **R$1.000 para o conjunto de iluminação sala/jantar**, incluindo pendente Arevo âmbar, três lâmpadas G9, controle de intensidade/dimmer e iluminação principal inteligente da sala (RGB para colorir o ambiente, branco, intensidade e Alexa). Substitui o teto anterior de R$600; frete e instalação continuam separados conforme escopo anterior. Manter prioridade do pendente e custo-benefício, sem obrigação de consumir todo o teto. Não constitui compra nem aprovação da cascata moderada proposta na pergunta anterior.
+
+Referência de cálculo, sem preço final garantido: Arevo âmbar R$359,73 + três G9 candidatas a R$28,71 = R$445,86; saldo **R$554,14** para dimmer e luz inteligente. Tensão do circuito, encaixe das G9 e compatibilidade de dimerização continuam pendentes.
+
+## Pendente preferido — Arevo âmbar — 19/09/2026
+
+**Conferência da variante e proposta seguinte:** navegador confirma VIDRO ÂMBAR variant_id=3381, referência específica **82P3A** (C82P3 é referência geral), R$399,70 ou **R$359,73 no boleto**. Foto mostra três globos em cascata sob canopla circular; não é barra horizontal. Proposta do assistente, ainda sem aprovação: um conjunto centralizado sobre a mesa, cascata moderada, luz quente3000K; alturas executivas dependem de pé-direito, folga entre globos e visão do quadro. Lâmpada candidata anunciada: Brilia Mini G9 3,5W3000K dimerizável127V314450, R$28,71 à vista por unidade na André Iluminação (https://www.andreiluminacao.com.br/lampadas-led/lampada-led-mini-g9-dimerizavel-3-5w-127v-314450-brilia). Três somam R$86,13, com pendente R$445,86; saldo R$154,14 dos R$600 ainda precisa cobrir dimmer e iluminação da sala. Não confirmado encaixe, tensão do circuito ou compatibilidade com dimmer; não é lista de compra fechada. Não prometer orçamento conjunto viável antes de completar seleção.
+
+Elias respondeu “gostei do arevo vidro ambar” à comparação de pendentes. Registrar como preferência atual o **Arevo Jabuticaba triplo C82P3, estrutura preta fosca e três globos de vidro âmbar**, substituindo a barra linear preta como referência estética principal para o estudo da sala. Página: https://www.arevoiluminacao.com.br/pendentes/pendente-jabuticaba-2xg9-preto-fosco-2623 . Não constitui compra nem confirmação de preço da variante.
+
+Ficha previamente consultada: três globos de 15cm, base de 20cm, três lâmpadas G9 não inclusas e suspensão ajustável. Validar composição/altura sobre mesa180×75cm, luz quente e conjunto compatível para regular intensidade. Preferência pelo âmbar não confirma desempenho de difusão, ausência de ofuscamento ou dimmer. Mantidos orçamento conjunto de R$600 sem frete/instalação e prioridade do pendente; luz principal inteligente RGB/branco/Alexa da sala a pesquisar depois. Preço final da variante e custo de lâmpadas/controle pendentes. Não gerar/publicar imagem definitiva antes de compatibilizar a composição.
+
+## Pendentes em comparação — 19/09/2026
+
+Elias gostou de duas propostas diferentes: Ohad 12cm âmbar com cristais K9 (https://www.lustresonline.com.br/produto/lustre-pendente-ohad-12cm-ambar-com-cristais-k9-legitimos.html) e Maze /3 preto (https://www.lustresgenesis.com.br/produtos/lustre-pendente-aramado-preto-infinito-maze-3-infinity-para-mesa-de-jantar-sala-de-estar-quartos-balcao-banheiroelavabo/). São candidatos, nenhum escolhido; reabre comparação estética além da barra linear anterior. Não interpretar como aprovação de lâmpadas expostas ou retirada do requisito de dimmer.
+
+Páginas e fotos verificadas no navegador: Ohad R$399 por unidade, diâmetro12cm/altura8cm, cabo150cm ajustável, 1 G9 não inclusa. Duas peças custam R$798 e três R$1.197 antes de lâmpadas/frete/descontos. Maze variante60×20cm, altura20cm, 3 E27, R$412,30 ou R$379,32 à vista anunciado; lâmpadas de carbono anunciadas como brinde condicionado a seguir Instagram. Não foi seguida conta nem feito contato/compra. Dimmer e lâmpadas compatíveis não confirmados em ambos. Opinião do assistente: Maze mais alinhado ao pedestal preto e orçamento, mas aramado/lâmpadas aparentes adicionam informação visual diante do quadro; Ohad traz âmbar e brilho, com composição de várias unidades mais cara. Não alterar moodboard final até escolha.
+
+## Sala e jantar — fechamento visual em 18/09/2026
+
+**Iluminação — prioridade de compra revista:** Elias pediu pesquisar primeiro o pendente, buscando design e preço baixo, e depois uma luz inteligente mais barata para a sala. Priorizar o pendente na distribuição dos R$ 600 totais; nenhum aumento de orçamento aprovado. Preservar a direção linear preta fosca, luz difusa e regulagem de intensidade. Plafon LEDVANCE permanece apenas candidato e deixa de orientar a divisão do orçamento. Não retirar RGB principal, branco, intensidade e Alexa sem nova decisão.
+
+**Detalhe confirmado na triagem BRDrop:** os 150cm do título referem-se à altura; a descrição informa comprimento de 100cm e largura 1,2cm. Alimentação 175–265V, explicitamente incompatível com 110/127V; verificar circuito antes de considerar. Não assumir comprimento de 150cm nem bivolt.
+
+**Triagem de pendentes, sem escolha de produto:** Lumier Lumi35 LU34039-PT anunciado a R$ 299,20 na Lustres Online (https://www.lustresonline.com.br/pendente-lumier-lumi35-115cm-50w-3000k-preto-fosco): título 115cm/3000K, descrição mistura 120cm/4000K, sem confirmação de dimerização; referência econômica de design, exige esclarecer ficha. Fit Linear Gênesis (https://www.lustresgenesis.com.br/produtos/lustre-pendente-de-led-fit-linear-preto-80cm-para-sala-de-jantar-quartos-sala-de-estar-escritorios-e-apartamentos/): página na variante 100cm anuncia R$ 524,31 à vista, 3000K, sem confirmação de dimmer. BRDrop Linear 150cm (https://www.brdrop.com.br/produtos/pendente-lustre-linear-led-dimerizavel-c-controle-150cm/): R$ 635,55 Pix, anuncia controle/dimerização, excede sozinho orçamento total. Valores pesquisados em 18/09/2026, sujeitos a variante/frete; não são orçamentos fechados. Faixa de 100–120cm proposta para estudar sobre mesa de 180cm, não dimensão aprovada.
+
+**Plafon — efeito RGB confirmado:** Elias escolheu “colorindo a sala”. Exigir **RGB na iluminação principal**, além de luz branca para uso cotidiano, ajuste de intensidade e compatibilidade Alexa. **RGB apenas na borda/halo no teto não atende**; o EKAZA EKHM-T5024R com borda RGB anteriormente apresentado não é selecionado para esse requisito. Mantido orçamento total de R$ 600 para plafon e pendente, sem frete/instalação. Fluxo e alcance reais no modo colorido dependem do modelo e precisam ser avaliados, sem equiparar lúmens brancos a lúmens RGB.
+
+**Orçamento de iluminação aprovado:** Elias respondeu “pode ser 600 reais” à proposta de orçamento para **pendente do jantar + plafon inteligente da sala**, sem frete e instalação. Adotar **R$ 600 para os dois aparelhos juntos** como limite de seleção. Esta decisão substitui a ausência de teto numérico registrada anteriormente. Não constitui escolha do plafon EKAZA apresentado nem aceitação de RGB apenas na borda; preferência entre halo colorido no teto e luz principal colorida ainda pendente. Preservar os demais requisitos aprovados e conferir se o preço do pendente inclui o sistema necessário para regular intensidade.
+
+**Orçamento de iluminação — preferência:** ao ser perguntado sobre valor total para pendente e plafon sem instalação, Elias respondeu “nao quero gastar mt”. Priorizar opções econômicas e custo-benefício; nenhum teto numérico aprovado. Preservar pendente linear preto fosco com luz difusa e intensidade regulável e plafon inteligente com cores/intensidade e Alexa. Não confundir ajuste de branco com RGB nem halo RGB periférico com iluminação colorida principal.
+
+**Almofadas — formato aprovado:** Elias respondeu “sim” à proposta de **45 × 45 cm, lisas, com textura discreta e capas removíveis com zíper**. Mantidas duas unidades: uma greige e outra azul-petróleo discreto. Tecido/código, enchimento e produto ainda a escolher; lavagem depende da etiqueta, sem aprovação automática de lavagem em máquina.
+
+**Almofadas do sofá — composição aprovada:** Elias respondeu “amei” à proposta de **apenas duas almofadas**, **uma greige e outra azul-petróleo discreto**, para conectar o sofá à cozinha sem carregar a sala. Quantidade e cores aprovadas; tamanhos, tecido, textura, enchimento e modelos ainda a definir. Sofá Bonnie bouclê bege-claro mantido.
+
+**Rodapé da sala — direção aprovada:** Elias respondeu “sim, quero q o rodape de sensação se ambiente amplos” à proposta de rodapé **branco, liso, fosco, perfil reto e sem frisos**, com **7 cm de altura como referência inicial**. Prioridade: sensação de amplitude e acabamento discreto. Material, modelo, espessura, tom de branco e encontros com portas/móveis ainda a definir; 7 cm é base do estudo visual, não dimensão executiva liberada. Não estender automaticamente esta escolha aos outros cômodos. A aparência de amplitude é intenção estética, não ganho de espaço físico.
+
+**Quadro — seleção de fotografias de Fagner Martins:** Elias escolheu três fotos do ensaio Caminho da Fé (https://www.behance.net/gallery/229576867/Caminho-da-F): módulo **1315385779**, ponte de madeira/riacho e paisagem rural; **1315385751**, estrada sinuosa entre montanhas em preto e branco; **1315385745**, estrada com ciclista ao longe entre cercas e montanhas. Pediu incluir, se houver espaço, a foto da placa “Você é o viajante mas também é a viagem”, enviada em anexo. Correspondência visual da quarta confirmada no grupo Project Module 30 da galeria; imagem pública: https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6968a4229576867.6866e66c2da60.jpg . Captura enviada preservada em 03_Referencias/Caminho_da_Fe_Fagner_placa_referencia_2026-09-18.png. As quatro são horizontais, aproximadamente 3:2. Proposta do assistente: composição 2×2 em moldura única, cerca de 120×85 cm como estudo acima do banco de 180 cm; não aprovada nem validada com parede/pendente. Preservar P&B da segunda foto. Arquivos originais, autorização para impressão/montagem, orçamento e resolução final pendentes; nenhum contato externo realizado.
+
+**Quadro Caminho da Fé — linguagem escolhida:** Elias respondeu “linguagem fotografica”. Confirmada **linguagem fotográfica** para a obra do Caminho da Fé de bicicleta na sala/jantar. Fotografia específica, trecho retratado, autoria/licença, dimensões e moldura continuam pendentes. Imagem horizontal com ciclista pequeno, montanhas/estrada, cores naturais e moldura fina próxima ao Arenza foi proposta, sem aprovação individual desses detalhes. Se for criada uma imagem sintética posteriormente, identificá-la como interpretação de linguagem fotográfica, não como registro documental de trecho real nem foto pessoal.
+
+**Arte — temas e ambientes escolhidos:** Elias definiu **quadro do Caminho da Fé de bicicleta para a sala/jantar**, no contexto da parede acima do banco. Para o **escritório**, escolheu **uma arte de São Paulo cinematográfica e uma arte de Cyberpunk**. Obras/imagens específicas, autoria, técnica, dimensões, molduras e posições exatas ainda a escolher. Não inventar fotografia pessoal nem afirmar que Elias já percorreu o Caminho da Fé. A escolha dos temas substitui a exploração anterior de abstrato genérico e das alternativas de arte da sala.
+
+**Quadro do jantar — revisão de direção:** Elias rejeitou a proposta de abstrato suave escolhido apenas para combinar com a paleta. Quer quadro ligado à própria personalidade. Referências pessoais fornecidas pertinentes à arte: ciclismo/MTB e cicloviagens, viagens com natureza/história/aventura, vivência em Campinas e São Paulo, jogos e estética cyberpunk/Mr. Robot. Tema, obra, formato, moldura e dimensões ainda não escolhidos; proposta anterior de abstrato areia/off-white/azul-petróleo não aprovada. Usar identidade pessoal como critério, sem converter automaticamente profissão, dados financeiros ou outros detalhes do perfil em elementos decorativos.
+
+**Tapete — direção aceita para seleção:** Elias respondeu “acho q pode ser” à proposta de **greige claro mesclado, sem desenhos marcantes, trama baixa, sem pelos altos e sem franjas**. Tratar como direção visual aceita para procurar modelos, condicionada à limpeza doméstica fácil. Priorizar produto expressamente lavável em máquina, verificando etiqueta, manual da LG, volume e secagem viável em casa; nenhum modelo, dimensão, material específico ou cabimento na máquina foi aprovado/comprovado. Não transformar esta aceitação preliminar em compra ou seleção definitiva.
+
+**Tapete da sala — preferência condicionada à limpeza doméstica:** Elias gosta de tapete, desde que consiga limpá-lo facilmente em casa, sem precisar levá-lo à lavanderia. Não presumir que aceita lavagem manual de peça grande ou que tapete cabe na lava e seca. Modelo, material, trama/altura, cor, dimensões e método de manutenção ainda a escolher; verificar instruções do fabricante, secagem, peso/volume se houver lavagem e compatibilidade com piso vinílico e abertura do sofá retrátil. A facilidade de limpeza é requisito para a seleção.
+
+**Alexa na sala — confirmado:** Elias respondeu “sim” à compatibilidade com Alexa para o plafon inteligente da sala. Requisitos vigentes: plafon branco discreto, próximo ao teto, luz difusa, ajuste de intensidade e cores, **compatível com Alexa**, com comando separado do pendente. Modelo, protocolo, eventual central, potência/fluxo, dimensões e instalação ainda a selecionar. Esta confirmação encerra a pendência de assistente da sala registrada abaixo; não estende automaticamente Alexa ao pendente.
+
+**Luz geral da sala — plafon inteligente aprovado:** Elias aprovou a solução de **plafon discreto, branco, próximo ao teto, com luz difusa e comando separado do pendente**, acrescentando que a luz da sala deve ser **inteligente, com ajuste de intensidade e cores**. Modelo, dimensões, potência/fluxo, qualidade da luz branca, faixa de brancos, protocolo, aplicativo/assistente e forma de comando ainda a selecionar. Não inferir compatibilidade Alexa aprovada para a sala apenas pelo requisito existente no escritório. O requisito inteligente/colorido refere-se à luz geral da sala; não estendê-lo automaticamente ao pendente do jantar, cuja intensidade regulável já foi aprovada. Compatibilizar comandos com o modelo escolhido, sem presumir uso de dimmer convencional.
+
+**Pendente do jantar — direção aprovada:** Elias respondeu “eu gosto” à proposta de **pendente linear fino, com extremidades arredondadas, acabamento preto fosco**, orientado no comprimento da mesa. Aprovadas **luz difusa, sem lâmpadas expostas, e intensidade regulável**, para refeições/jogos e uso mais suave. Esta aprovação complementa a escolha de ter pendente registrada abaixo. Modelo comercial, comprimento, altura de instalação, temperatura de cor, potência, sistema de dimerização e compatibilidade elétrica continuam pendentes; nenhuma compra realizada.
+
+**Iluminação do jantar — pendente escolhido:** Elias respondeu “pendente sobre a mesa”. Confirmada presença de pendente sobre a mesa de jantar. Modelo, formato, material/cor, dimensões, altura de instalação, fonte de luz, temperatura, dimerização e ponto elétrico ainda a definir. A resposta não aprova automaticamente um pendente linear nem um acabamento específico.
+
+**Cortina da sala — composição aprovada:** Elias respondeu “perfeito, pode fechar” à solução em **duas camadas independentes**: tecido leve com aparência de linho **off-white quente na frente** e **blackout claro atrás**, trilho duplo discreto no teto, ondas suaves e comprimento até perto do piso. Filtrar a luz no cotidiano e fechar o blackout quando quiser escurecer. Esta aprovação substitui o status de solução ainda não escolhida registrado abaixo. Marca/modelo, códigos dos tecidos, medidas, volume recolhido, instalação e tratamento de frestas continuam a detalhar, especialmente junto ao painel/TV. Não afirmar escuridão total do ambiente nem compra realizada.
+
+**Cortina da sala — requisitos:** Elias quer aparência **clean e clara**, permitindo filtrar a claridade no cotidiano e **escurecer quando precisar**. Não definiu percentual de bloqueio nem exigiu blackout total. Solução em duas camadas com acionamento independente será proposta; tecido, cor exata, trilho, dimensões e camadas ainda não aprovados. Compatibilizar volume da cortina com painel/TV e janela.
+
+**Painel da TV — acabamentos aprovados:** Elias respondeu “sim” à composição com **painel liso off-white fosco, sem ripado, e prateleiras em Greenplac Arenza**, uma acima e outra abaixo da TV. Aprovada intenção de fixações e fios ocultos, com acesso à régua preservado. Código exato da chapa off-white, alturas, dimensões finais, fixação, ventilação dos aparelhos e compatibilização com Ambilight continuam pendentes. Esta aprovação fecha acabamentos antes tratados como referência; não retoma o arranjo histórico com ambas as prateleiras abaixo da TV.
+
+**Tampo — composição aprovada:** Elias respondeu “gosto” à proposta de tampo no **tom Arenza do banco, acabamento fosco e borda visualmente fina**, preservando **180 × 75 cm e cantos R15 já aprovados**. A aprovação é da aparência; material construtivo/revestimento, espessura real, acabamento da borda, reforço e fixação ao pedestal ainda a especificar. Não interpretar “tom Arenza” como escolha automática de tampo em chapa MDF. Pedestal preto fosco mantido; compatibilidade com Lina e recolhimento 2+1 pendentes.
+
+**Pedestal — acabamento confirmado:** Elias respondeu “preto fosco pode ser”. Confirmado acabamento **preto fosco** do pedestal central único da mesa. Pés das cadeiras permanecem em madeira no tom do Arenza. Coluna metálica estreita, chapa baixa retangular com cantos arredondados e reforço discreto sob o tampo são propostas de desenvolvimento, não aprovadas como dimensões ou estrutura. A resposta confirma a cor/acabamento; formato final, fornecedor, estabilidade e compatibilidade com a Lina no recolhimento 2+1 continuam pendentes.
+
+**Preferência pela Lina e continuidade no pedestal:** Elias disse “gostei da lina, vamos ver o pedestal da mesa”, referindo-se à Lina Estofada da Versatile (página id=783). Registrar como modelo preferido para compatibilização, sem compra ou encaixe aprovado. Madeira no tom do Arenza preservada; acabamento comercial, tecido, preço e medidas detalhadas pendentes. Próxima etapa: pedestal central único da mesa 180 × 75 cm, mantendo cantos R15 e guarda 2+1. Preto/grafite continua escolha registrada da mesa; rejeição de preto anterior foi específica dos pés das cadeiras.
+
+**Pesquisa de cadeiras nesta etapa:** Elias aceita valores acima de R$ 800 por cadeira se compensarem no conforto; não estabeleceu teto máximo. Triagem aponta Lina Estofada da Versatile (44 L × 47 P × 94 A cm, pés de madeira maciça, encosto estofado, opções de tecido, preço sob consulta) como candidata compacta. Fonte: https://versatilemoveis.com.br/produto.php?id=783 (conteúdo indexado; abertura direta indisponível). Alternativa Duna Ayla, madeira maciça de eucalipto, personalizável, 46 L × 56 P × 84 A cm; preço não confirmado: https://www.aylaambientes.com.br/cadeira-duna-em-madeira-estofada-off-white . Nenhum modelo aprovado. Faltam tom próximo ao Arenza, tecido, preço para três unidades, medidas do assento/pés, conforto presencial e encaixe com pedestal/sapata. O ensaio anterior usava largura 42 cm e inserção 38 cm; não prova o recolhimento 2+1 de nenhuma candidata. Não confundir Lina Versatile com Lina de outras marcas.
+
+Elias escolheu **greige claro para o estofado do banco de jantar**, ao responder “greige claro” à comparação com bege próximo ao sofá. Cor aprovada para assento e encosto; tecido, fabricante, código, textura e amostra ainda a definir, preservando resistência e facilidade de limpeza. O sofá Bonnie permanece bouclê bege-claro.
+
+**Aprovação posterior na mesma conversa:** Elias respondeu “pode ser, gostei” à composição recomendada: base em **Greenplac Arenza** e encosto com **três painéis largos e lisos em greige claro**, definidos por costuras discretas, sem vãos profundos, botões, gomos ou costuras contrastantes. Direção de estofado mais liso aprovada para equilibrar o bouclê do sofá. Tecido/código/amostra, espumas, dimensões e execução ainda a detalhar. Divisões do assento e acesso ao baú permanecem pendentes; não inferir três tampas a partir dos três painéis do encosto.
+
+Objetivo desta etapa: fechar sala/jantar para imagem realista no moodboard; nenhuma imagem nova ou publicação nesta decisão.
+
+**Cadeiras — continuação de 18/09/2026:** Elias rejeitou pés pretos e escolheu pés em madeira na mesma cor da madeira do conjunto. Usar Arenza como referência de tom, conferindo amostras do produto real; não presumir que pés estruturais sejam feitos da chapa Arenza. A escolha não altera o pedestal preto da mesa. Elias perguntou se encosto levemente curvo melhora conforto para permanecer muito tempo sentado; formato, modelo e tecido das cadeiras ainda não aprovados. Priorizar conforto prolongado na seleção, além do recolhimento 2+1 já escolhido.
+
+## Comparação presencial do vinílico — 15/09/2026
+
+**Confirmação posterior de Elias:** “deixe salvo olmo como preferência e os outros como opções”. Olmo 24192727 passa a preferência principal expressamente confirmada; Aveia 24176655 e Bétula 24176606 permanecem alternativas. Atualizados registro específico e resumo. Confirmação final por amostra e compra pendentes.
+
+Elias gostou do Olmo e solicitou mais duas opções, totalizando três para visitar uma loja. Lista registrada em Pisos_e_rodapes.md: Tarkett Ambienta Design Olmo 24192727 (referência preferida), Ambienta Series Aveia 24176655 e Ambienta Series Bétula 24176606. Pedir amostras das versões LVT coladas, conferir ficha/capa de uso e comparar com Arenza, sob luz natural/artificial, incluindo visibilidade de cabelos pretos. Lista para avaliação; não equivale à escolha definitiva de cor ou compra. Site preservado.
+
+## Piso vinílico — critérios reconfirmados em 15/09/2026
+
+Elias confirma vinílico em toda a casa, inclusive cozinha, exceto banheiro e lavanderia. Quer madeira clara/quente, natural, sem muito contraste, compatível com Arenza, visual leve, resistência e longa durabilidade. Modelo escolhido em outra IA não recuperado; autoriza nova seleção e pede registro persistente. [Registro específico](Pisos_e_rodapes.md) preserva critérios e proposta Tarkett Ambienta Design Olmo como candidata, sem aprovação automática de modelo, colagem ou compra. Não reabrir a escolha de vinílico nem confundir laminado de entrega com acabamento final desejado.
+
 **Versão 0.7 · Atualização: 2026-09-12 · Responsável pelas escolhas: Elias**
 
 > Registro das escolhas, requisitos, alternativas e pendências disponíveis nas fontes locais e nas instruções de Elias desta conversa. **Não é projeto executivo, aprovação técnica ou lista de compras.**
@@ -2182,3 +2413,263 @@ As menções a lixeira interna e acionamento pela porta nesta seção foram supe
 - Complemento: retirada dos recicláveis uma vez por semana confirmada. Capacidade do recipiente ainda a dimensionar. Elias pede receber as perguntas restantes em bloco, em vez de uma por vez.
 - Próximos passos: completar somente lacunas do inventário, avaliar frequência/acesso, dimensionar conteúdo e propor distribuição nos módulos disponíveis. Não presumir que todas as gavetas e volumes desejados já caibam.
 - Nenhuma compra, dimensão de fabricação, alteração de HTML/fontes geradoras ou publicação foi autorizada nesta rodada. A única mudança de teto registrada nesta etapa é a pesquisa do purificador até aproximadamente R$ 660. Registro mestre atualizado localmente; estudo permanece preliminar.
+
+#### Purificador Electrolux PE12G definido
+
+Elias confirma em 15/09/2026: “PE12G DEFINIDO ENTÃO”. O **Electrolux PE12G grafite** passa de candidato a modelo escolhido do projeto, substituindo o PE11X e encerrando a comparação de purificadores. Permanecem as funções de água natural, fria e gelada, corpo de referência de 16 × 42 × 35 cm e reserva preliminar de 26 × 52 × 57 cm já documentados. O teto de pesquisa fica em aproximadamente R$ 660.
+
+A escolha do modelo não constitui compra nem libera instalação ou fabricação. Alimentação de água, pressão, tomada, proximidade da air fryer e de outras fontes de calor, respingos, acesso ao refil/manutenção e posição final sobre a bancada junto à geladeira ainda precisam de compatibilização. Documentação local atualizada; site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Espelho de corpo inteiro na lateral do guarda-roupa definido
+
+Elias confirma “definido” à proposta para o dormitório. Adotar **espelho Cebrace prata de 5 mm, 50 × 180 cm**, sem moldura e sem bisotê, com bordas lapidadas e cantos levemente arredondados. Posição: centralizado na lateral de 60 cm do guarda-roupa, com margens nominais de 5 cm e base de referência a 20 cm do piso. A solução é de corpo inteiro e deve permanecer visualmente leve, coerente com o quarto sem azul nos móveis.
+
+Antes da execução, medir a lateral pronta, confirmar sua planicidade e resistência, especificar fixador próprio para espelho e compatibilizar ventilação e proteção das bordas segundo o fabricante. A escolha não constitui compra nem instalação realizada. Site e fontes geradoras não foram alterados; atualização futura depende de autorização expressa de Elias.
+
+#### Escorredor compacto definido
+
+Elias escolhe a tipologia tradicional compacta e aprova o **Tramontina Mini Plurale Grafite, referência 61537000**. Dimensões oficiais: 27,8 × 19,9 × 12,6 cm; capacidade declarada para nove pratos, copos e talheres; porta-talheres removível, porta-copos expansível, pés de silicone e bandeja inclinada para conduzir a água à cuba. Esta escolha substitui definitivamente a esteira Mimo SN19070.
+
+Manter a rotina já aprovada: usar junto à cuba, com a saída da bandeja direcionada para ela, deixar a louça cotidiana secar e guardar o escorredor limpo e seco no gabinete inferior. Não dimensionar para panelas e formas. O produto cabe verticalmente no vão inferior provisório de 22,2 cm, com sobra nominal de 9,6 cm, mas posição, manobra, sifão, demais utensílios e medidas acabadas ainda precisam de conferência. Compra não realizada. Site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Lixeira de chão definida
+
+Elias aprova a **Tramontina Loop 12 L com pedal, referência 94547012**. Especificações da referência consultada: 24,8 × 24,8 × 37,2 cm, corpo em aço inox AISI 430, tampa com fechamento suave, balde interno plástico removível, base antiderrapante e sistema stay-open. Sacos recomendados de 12 a 20 L. A escolha substitui o status anterior de modelo pendente e preserva a decisão de não ocupar o gabinete da pia com lixeira.
+
+A posição exata no chão ainda será compatibilizada com circulação, pedal, abertura das portas e gavetas e trajeto de trabalho. Não houve compra. Site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Panela de pressão compacta definida
+
+Após manter inicialmente a Vancouver Effect 3 L como candidata, Elias confirma: “sim, será essa”. Fica escolhida a **panela de pressão Tramontina Vancouver Effect preta, 3 L, referência 20593420**. A ficha oficial informa 18,1 cm de altura, 23,1 cm de largura e 20 cm de diâmetro. Preservar a decisão de preparar 1 kg de feijão em mais de uma rodada, respeitando o limite de enchimento do produto.
+
+No vão inferior provisório de 22,2 cm, a sobra vertical calculada é de 4,1 cm. Isso não comprova retirada confortável, comprimento com cabo, abertura da tampa nem compatibilidade com sifão, mangueira e demais utensílios; conferir antes de fixar a prateleira. O comprimento de 38,6 cm registrado na página comercial é da embalagem e não deve ser tratado como dimensão do produto. Compra não realizada. Site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Posição inicial da prateleira regulável aprovada
+
+Elias responde “podemos” à proposta de posicionar inicialmente o topo da prateleira regulável do gabinete da pia a aproximadamente 50 cm do piso. Nas premissas atuais, isso produz vão inferior útil de 26,2 cm e vão superior de 21,5 cm até o fundo estimado da cuba, antes de sifão, mangueira e espaço para a mão. A panela de pressão escolhida, com 18,1 cm de altura, recebe cerca de 8,1 cm de folga vertical.
+
+A referência de 50 cm orienta o detalhamento, mas a prateleira permanece regulável e deve ser ajustada após medição das instalações e utensílios reais. Não transformar os vãos calculados em medidas acabadas nem declarar todo o conteúdo acomodado sem teste. Site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Posição da lixeira aprovada pela planta
+
+Elias envia recorte da planta e indica com círculo verde a posição desejada: **lixeira encostada na parede externa do banheiro, voltada para a mesa**. Esta posição substitui a proposta anterior ao lado da geladeira. Adotar a Tramontina Loop 12 L nesse ponto, com pedal voltado para o acesso e sem fixação ao piso ou à parede.
+
+No modelo gráfico vigente, a face externa da parede do banheiro está aproximadamente 141 cm antes do início da mesa; descontando os 24,8 cm da lixeira, a passagem nominal fica em torno de 116 cm. O ponto também se mantém afastado do giro gráfico da porta do banheiro. São valores do desenho, não medição acabada: confirmar parede, rodapé, curso da tampa, acesso ao pedal e circulação real antes de consolidar a implantação executiva. Site e fontes geradoras preservados até autorização expressa de Elias.
+
+#### Capacidade da lixeira comum corrigida e definida em 15 L
+
+Elias determina: “só muda o tamanho da lixeira comum para 15L, e salve como definido”. A capacidade vigente da lixeira comum passa de 12 para **15 litros**, preservando a posição já aprovada na parede externa do banheiro, voltada para a mesa. A Tramontina Loop 12 L deixa de ser o modelo vigente, pois a linha Loop não possui versão de 15 L.
+
+Adotar a **Biovis Coleta 15 L**, com corpo em aço inox escovado, pedal e balde interno removível. Dimensões declaradas pelo fabricante: 47 cm de altura, 21 cm de largura e 34 cm de profundidade; altura aberta de 72,5 cm. No desenho, os 34 cm de profundidade deixam passagem nominal de aproximadamente 107 cm até a mesa, antes da conferência em obra. Confirmar rodapé, abertura da tampa e acesso ao pedal. Fonte oficial consultada em 15/09/2026: https://novo.biovis.com.br/produto/lixeira-coleta-15l/.
+
+A lixeira de recicláveis de 20 L desenhada na lavanderia continua como proposta separada, ainda sem aprovação definitiva. Documentação local atualizada; site, fontes geradoras e publicação preservados conforme orientação expressa de Elias.
+
+#### Lixeira de recicláveis da lavanderia definida
+
+Elias aprova a candidata apresentada e determina sua definição no projeto: **Tramontina Loop 20 L com pedal, referência 94547020**. Produto em aço inox AISI 430 com acabamento polido, fechamento suave, alça para transporte e balde interno plástico removível. Dimensões sem embalagem: 29 cm de largura × 29 cm de comprimento × 43,7 cm de altura; saco recomendado de 20 L, com compatibilidade indicada pelo fabricante entre 20 e 40 L.
+
+Implantação aprovada: no chão da lavanderia, no ponto marcado em vermelho por Elias, fora do armário baixo. Esta decisão libera o vão sob o tanque para o cesto de roupas e instalações e substitui os ensaios anteriores em que cesto e recicláveis dividiam o gabinete. Antes da execução, conferir rodapé, curso da tampa, acesso ao pedal, retirada do balde e circulação. Fonte oficial consultada em 15/09/2026: https://www.tramontina.com.br/lixeira-com-pedal-tramontina-loop-em-aco-inox-com-acabamento-polido-e-balde-interno-20-l/94547020.html.
+
+Compra não realizada. Documentação local atualizada; site, fontes geradoras e publicação preservados conforme orientação expressa de Elias.
+
+## Banheiro — cuba e conforto de uso, 18/09/2026
+
+**Confirmado por Elias nesta conversa:** referência visual “Imagem do Codex 7 de set. de 2026, 23_23_07.png”; cuba de apoio branca, retangular, semelhante à imagem. Altura do conjunto deve atender à sua estatura de 1,75 m, já informada em F15. Marca e modelo da cuba ainda não escolhidos.
+
+**Proposta dimensional, ainda a validar:** borda superior da cuba a 90 cm do piso acabado como ponto de partida para teste de conforto. Altura do tampo = 90 cm menos a altura efetiva da cuba acima da pedra. Exemplo apenas: cuba com 12 cm acima do tampo implica tampo a 78 cm. Não usar automaticamente os 92 cm da bancada da cozinha. Conferir conforto com simulação e compatibilizar cuba, torneira, sifão e gabinete antes da fabricação. A estatura isolada não garante a altura ideal.
+
+As demais sugestões de composição apresentadas nesta conversa permanecem propostas; esta confirmação não aprova automaticamente todo o banheiro.
+
+### Seleção da cuba — continuação de 18/09/2026
+
+Elias prioriza facilidade de limpeza, pouco acúmulo de sujeira, beleza e integração com o projeto. Recomendação apresentada: Deca Slim retangular branca sem mesa L.13040.17, nominal 40 × 30 × 13,5 cm. Modelo candidato, sem aprovação do usuário ou compra. A ficha de dimensões e a página oficial indicam formato de cantos suavizados; fabricante anuncia esmalte Protekto e retentor Smart Block. Isso não comprova ausência de acúmulo ou desempenho comparativo: retentor e tampa da válvula exigem limpeza. Prever acesso para limpeza ao redor/atrás e vedação conforme manual; largura/profundidade final da bancada ainda não conferidas.
+
+Com borda proposta a 90 cm, altura nominal do tampo seria 76,5 cm, a confirmar pela altura efetivamente instalada da peça e teste de conforto; substitui apenas o exemplo anterior de cuba hipotética de 12 cm. A altura de 90 cm ainda não é executiva.
+
+Fontes consultadas em 18/09/2026:
+- https://www.deca.com.br/ambientes/banheiro-e-lavabo/cubas-para-banheiro/cuba-de-apoio/cuba-retangular-de-apoio-40-cm-branco-cubas-slim--l1304017 (conteúdo indexado; acesso direto retornou 403).
+- https://produtos.deca.com.br/Deca/L.13040.17/fichaTecnica/ficha_tecnica_1714550630635_L.13040.17.pdf
+- https://produtos.deca.com.br/Deca/L.13040.17/pdf/pecasdereposicao-l13040.pdf
+
+Alternativa pesquisada: Celite QR3, código 1730750017300; não priorizada nesta rodada, pois página oficial tem divergência entre dimensões no cabeçalho e desenho técnico e indica indisponibilidade. Não inferir encaixe definitivo da Deca apenas pelas medidas gerais do banheiro.
+
+### Cuba — primeira opção confirmada por Elias em 18/09/2026
+
+Elias pediu: “ok, deixa essa como 1 opção”. Deca Slim retangular branca sem mesa, L.13040.17, nominal 40 × 30 × 13,5 cm, passa de candidata apresentada a **primeira opção de projeto**. Não equivale a compra ou aprovação para fabricação. Prioridades confirmadas: facilidade de limpeza, beleza, integração com a referência e sensação de banheiro amplo. Preservar leveza visual e espaço utilizável ao redor da cuba; verificar encaixe com bancada e torneira. Altura proposta da borda: 90 cm do piso acabado para Elias (1,75 m), ainda sujeita a teste de conforto; tampo nominal de 76,5 cm somente se a altura instalada da cuba for 13,5 cm. Demais sugestões de gabinete, espelho, nichos e box continuam em estudo.
+
+### Lavatório — água quente e torneira preta confirmadas, 18/09/2026
+
+Elias confirmou água quente na pia do banheiro e apoiou a torneira preta após proposta de acabamento preto fosco. Registrar como requisito funcional e acabamento escolhido. Infraestrutura de água quente do lavatório NÃO comprovada: memorial confirma previsão para chuveiro; conferir percurso permitido, pontos, pressão, vazão e compatibilidade do aquecimento antes de executar. Não implica autorização técnica de rasgos ou derivações.
+
+Proposta do assistente: misturador monocomando de bancada, bica alta, com comando único de vazão e temperatura. Candidato inicial para avaliação visual: Deca Level Black Matte 2885.BL26.MT. Marca/modelo e mecanismo ainda não aprovados por Elias. Verificar alcance/altura do jato com a cuba Slim L.13040.17, espaço para limpeza, pressão exigida e funcionamento com aquecedor; orçamento da torneira ainda não informado.
+
+Fonte de produto: https://www.deca.com.br/ambientes/banheiro-e-lavabo/torneiras-e-misturadores-para-banheiro/monocomando-para-cuba-e-lavatorio/misturador-monocomando-de-mesa-bica-alta-para-lavatorio-level-black-matte-2885bl26mt
+
+### Misturador — orçamento informado em 18/09/2026
+
+Elias informou R$ 750 para a torneira. Adotado como teto de seleção do misturador, sem presumir inclusão de instalação, frete ou infraestrutura de água quente.
+
+Candidato dentro da referência de preço encontrada: Addra Arion Black, monocomando de mesa para banheiro, bica alta. Resultado indexado da loja oficial Addra no Mercado Livre exibia R$ 671,89 sem cupom (R$ 641,89 com cupom); preço de referência, não cotação final, estoque/frete/CEP não confirmados. Modelo do catálogo Addra; não confundir com Arion de cozinha ou bica baixa. Não aprovado pelo usuário. Pressão mínima, alcance e altura de saída, manutenção/peças e encaixe na Deca Slim ainda não verificados em ficha/manual, portanto não liberar compra nem afirmar compatibilidade hidráulica/dimensional. Deca Level fica sem prioridade de seleção até demonstrar oferta dentro do teto.
+
+Fontes da pesquisa:
+- https://www.mercadolivre.com.br/loja/addra?category_id=MLB1574&client=recoview-selleritems&item_id=MLB4600325671&official_store_id=303342&recos_listing=true
+- https://www.addra.com.br/
+- https://www.cassol.com.br/torneira-misturador-monocomando-para-banheiro-de-mesa-bica-alta-1x2polegadas-metal-arion-black-addra/p
+
+### Misturador escolhido — Addra Arion Black, 18/09/2026
+
+**CONFIRMADO por Elias:** “ok, confirmado essa”, referindo-se à Addra Arion Black, misturador monocomando de mesa para BANHEIRO, BICA ALTA, acabamento preto fosco, conexão nominal 1/2", apresentada na página Cassol abaixo. Passa de candidata a escolha de projeto; substitui a proposta Deca Level. Não confundir com versões de cozinha ou bica baixa.
+
+Teto informado: R$ 750 para o misturador. Referência de preço anterior: R$ 671,89 sem cupom em resultado indexado da loja oficial Addra; não é preço final confirmado. Frete, estoque e preço no momento da compra pendentes. Compra não realizada.
+
+Conjunto previsto: cuba Deca Slim branca L.13040.17 como primeira opção; água quente e fria na pia. Conferir manual/ficha do misturador, pressão, vazão, compatibilidade com aquecimento, altura e alcance da saída, furação e espaço de limpeza antes da execução. Infraestrutura quente do lavatório ainda não comprovada pelo memorial. Escolha estética e funcional aprovada; dimensionamento executivo ainda pendente.
+
+Página identificadora: https://www.cassol.com.br/torneira-misturador-monocomando-para-banheiro-de-mesa-bica-alta-1x2polegadas-metal-arion-black-addra/p
+
+### Bancada do banheiro — pedra confirmada em 18/09/2026
+
+Elias solicitou: “quero q seja a mesma pedra da cozinha”. Confirmado **granito Branco Itaúnas**, conforme escolha vigente da cozinha (MAT-004). Aplica-se à bancada do lavatório do banheiro, substituindo a proposta genérica anterior de pedra bege a escolher. Não estender automaticamente a nicho, soleira, paredes ou piso; não altera os revestimentos já registrados. Acabamento superficial, seleção da chapa, espessura/borda e dimensões permanecem a detalhar. A escolha do mesmo material não transfere a altura de 92 cm proposta para a cozinha: no banheiro permanece a proposta de borda da cuba a 90 cm, com altura do tampo ajustada à cuba e teste de conforto.
+
+Conjunto vigente: bancada Branco Itaúnas; cuba Deca Slim branca L.13040.17 como primeira opção; misturador Addra Arion Black de banheiro, bica alta, preto fosco, escolhido; água quente e fria desejadas, infraestrutura ainda a conferir.
+
+### Gabinete do banheiro — fechamento confirmado, 18/09/2026
+
+Elias escolheu “gabinete inteiro fechado” em resposta à alternativa de nicho aberto para toalhas. **Confirmado: gabinete inferior totalmente fechado, sem nichos abertos**, substituindo a proposta anterior de fechamento parcial com pequeno nicho. Organização interna, portas ou gavetas, materiais, cores, puxadores e dimensões permanecem a definir. Instalação suspensa continua como proposta para preservar piso aparente e sensação de amplitude; esta resposta não aprova automaticamente todos os detalhes da proposta anterior. Compatibilizar interior com cuba de apoio, sifão, engates quente/frio e acesso à manutenção.
+
+### Gabinete suspenso confirmado — 18/09/2026
+
+Elias respondeu “sim” à proposta de deixar o gabinete do banheiro suspenso, com o piso aparecendo embaixo. **Confirmado: gabinete inferior inteiro fechado, sem nichos abertos, suspenso.** Objetivo: visual organizado e sensação de amplitude. Distância do piso, dimensões, portas/gavetas, acabamento e fixações ainda a definir; compatibilizar sifão, conexões de água quente/fria e acesso à manutenção. Não inferir aprovação de cor ou organização interna.
+
+### Acabamento do gabinete inferior confirmado — 18/09/2026
+
+Elias concordou e definiu a proposta apresentada: **frentes bege foscas, lisas, sem ripado e sem puxadores salientes; madeira clara nas laterais**. Mantêm-se as decisões de gabinete suspenso, inteiramente fechado e sem nichos abertos. Intenção: proximidade com a referência, sensação de amplitude, integração com o granito Branco Itaúnas e facilidade de limpeza.
+
+Marca/código do bege, padrão exato da madeira, material construtivo, mecanismo de abertura, portas/gavetas, dimensões e fixação permanecem a detalhar. Não adotar automaticamente Arenza nas laterais sem confirmação de padrão. A proposta de madeira mais presente no futuro armário do espelho orienta o estudo desse conjunto, sem definir sua composição ou aprovar nichos abertos.
+
+### Armário superior espelhado — escolha confirmada em 18/09/2026
+
+Elias escolheu “armazenamento raso atrás do espelho, para não ocupar muita profundidade”. **Confirmado: armário superior raso com armazenamento atrás do espelho**, priorizando pouca projeção sobre a bancada e sensação de amplitude. Profundidade numérica, largura, altura, portas/divisões, prateleiras, acabamento lateral e iluminação ainda a detalhar; não inferir aprovação automática de todos os elementos sugeridos anteriormente. Compatibilizar abertura e uso com a torneira Addra Arion de bica alta e a cuba Deca Slim, além de acesso confortável ao lavatório.
+
+### Conteúdo do armário espelhado confirmado — 18/09/2026
+
+Elias informou que pretende guardar **escovas, pasta de dentes, desodorante e pequenos cosméticos** no armário raso atrás do espelho. Usar esses itens como base do dimensionamento interno, preservando a prioridade de pouca profundidade. Conferir embalagens reais, incluindo posição de armazenamento das escovas, antes de fechar profundidade útil e vãos. Não há profundidade numérica aprovada nem necessidade informada de acomodar frascos grandes. Prateleiras reguláveis são proposta de organização, ainda sem detalhamento executivo.
+
+### Composição do armário espelhado confirmada — 18/09/2026
+
+Elias respondeu “sim” à proposta de **toda a frente espelhada, sem nichos abertos, e madeira clara apenas nas laterais**. Confirmado para o armário superior raso, destinado a escovas, pasta de dentes, desodorante e pequenos cosméticos. Preservar sensação de amplitude e integração com o gabinete inferior. Profundidade, largura, altura, quantidade de portas, ferragens, prateleiras e padrão exato da madeira permanecem a detalhar. Frente toda espelhada não implica uma única porta ou ausência de juntas. Prateleiras reguláveis continuam proposta, sem aprovação específica nesta resposta.
+
+### Iluminação e imagem final — confirmadas em 18/09/2026
+
+Elias aprovou a proposta de **luz quente e indireta, inspirada na referência, complementada por luz junto ao espelho para iluminar o rosto**. Temperatura de cor exata, luminárias, potência, posicionamento, proteção e instalação ainda a detalhar; não inferir aprovação específica de 3000 K nesta resposta.
+
+Elias solicitou que, **ao final das decisões do banheiro**, seja gerada uma imagem realista para avaliar o resultado e decidir eventuais mudanças. Entrega futura autorizada dentro desta conversa: gerar após fechar as decisões, usando as escolhas vigentes e a geometria disponível, distinguindo medidas conhecidas de hipóteses. Não gerar agora nem tratar imagem como comprovação de encaixe executivo. Preservar as escolhas já aprovadas (cuba primeira opção Deca Slim, misturador Addra Arion Black, granito Branco Itaúnas, gabinete inferior suspenso fechado bege/madeira e armário superior raso todo espelhado).
+
+### Verde nas paredes de todo o box — direção aceita, 18/09/2026
+
+Após manifestar preferência estética pelo verde no box inteiro e perguntar sobre amplitude, Elias respondeu “ok, seguimos” à recomendação de seguir com verde sálvia nas paredes de todo o box e comparar visualmente ao final. **Direção aceita para desenvolvimento: revestimento verde nas paredes internas de todo o box**, ampliando a aplicação anteriormente registrada como parede focal (MAT-009). Manter como referência de produto já registrada Portobello Vivant Sauge Mate 7 × 24,4; tom real, amostra, paginação, áreas e quantidades ainda a conferir. Esta decisão se refere às paredes; não altera automaticamente piso ou teto.
+
+Para a imagem realista final já solicitada, prever comparação entre paredes do box todas verdes e somente uma parede verde, com geometria, iluminação e enquadramento equivalentes. A versão de uma parede é alternativa de comparação, não nova escolha vigente. Resultado visual sujeito à avaliação de Elias.
+
+### Paredes fora do box — Algodão Egípcio confirmado, 18/09/2026
+
+Elias especificou “paredes do banheiro na cor algodão egípcio” ao decidir o acabamento fora do box. **Confirmado: cor Algodão Egípcio nas paredes fora do box**, mantendo o verde sálvia nas paredes internas de todo o box conforme decisão anterior. Esta escolha substitui a proposta imediatamente anterior de revestimento bege na parede da bancada/vaso e off-white nas demais; não tratar essa proposta como aprovada.
+
+Marca, código, produto, acabamento superficial e preparação da base ainda a especificar; não inferir fabricante pelo nome da cor. Compatibilizar proteção da região sujeita a respingos junto à bancada. Não implica remoção automática de revestimentos de entrega nem aprovação de pintura sobre cerâmica sem preparação especificada. Teto não definido por esta escolha.
+
+### Teto do banheiro — branco confirmado, 18/09/2026
+
+Elias respondeu “sim” à proposta de teto branco. **Confirmado: teto branco**, compondo com paredes fora do box em Algodão Egípcio e paredes internas do box em verde sálvia. Marca, tonalidade/código de branco, produto e acabamento superficial ainda a especificar. A aprovação de cor não altera altura ou solução de forro.
+
+### Aparência do box confirmada — 18/09/2026
+
+Elias respondeu “sim” à proposta de **box com vidro transparente e perfis pretos finos**, inspirado na referência e preservando visão do revestimento verde e sensação de amplitude. Confirmada a aparência. Tipo/sentido de abertura, altura, espessura e especificação do vidro, ferragens, dimensões, vedação e fixação permanecem a definir conforme espaço e condições reais. Não inferir box até o teto ou fechamento idêntico ao desenho da referência.
+
+### Apoio de produtos no box — prateleira confirmada, 18/09/2026
+
+Elias escolheu “prateleira pois acho pouco provável que seja possível colocar nicho”, em resposta à proposta de prateleira compacta em Branco Itaúnas, a mesma pedra da bancada. **Confirmado: prateleira no box para shampoo/sabonete, em granito Branco Itaúnas conforme proposta aceita; não prever nicho embutido.** A avaliação do usuário sobre pouca probabilidade de nicho não é comprovação técnica de inviabilidade. Posição, quantidade/dimensões, bordas, escoamento e suportes/fixação permanecem a detalhar conforme os produtos e o espaço, preservando circulação, janela e instalações existentes. Não autoriza recortes de parede. Verificar condições de fixação e limites locais de furação.
+
+### Vaso sanitário — substituição e critérios confirmados, 18/09/2026
+
+Elias quer escolher um vaso novo, mais compacto, para transmitir sensação premium e de banheiro maior. Substitui a proposta anterior de avaliar aproveitamento do vaso entregue pela Cury. **Confirmados: intenção de substituição e prioridades de compacidade, aparência refinada e amplitude.** Marca/modelo, orçamento, cor, dimensões e tipo construtivo ainda não aprovados. Pesquisa deve comparar projeção total instalada a partir da parede acabada, largura, conforto, eixo de saída de esgoto e manutenção; não assumir monobloco como sinônimo de compacto nem ganho real de espaço sem conhecer vaso de entrega e ponto existente. Laterais lisas e assento de fechamento suave são propostas do assistente, não escolhas confirmadas.
+
+### Vaso sanitário — custo-benefício, 18/09/2026
+
+Elias quer manter barato/bom custo-benefício e não conhece os valores. **Não informou nem aprovou teto numérico.** Pesquisa sugere faixa inicial de R$ 600–800 para kit econômico e aproximadamente R$ 1.100–1.300 para alternativa com acabamento visual mais elaborado; são propostas, sem frete/instalação, não orçamento aprovado.
+
+Candidato econômico apresentado: Celite Like branco, kit 1647230010300, nominal 61 × 36 × 74 cm segundo fabricante. Página oficial exibe R$ 699,00 e indisponibilidade; listagem Sodimac consultada exibe R$ 628, sujeito a confirmação de produto/CEP. Não prometer economia de espaço em relação à entrega sem comparar vaso existente e eixo do esgoto. Confirmar versão/conteúdo do assento no fornecedor.
+
+Alternativa de comparação estética: Celite Elite branco, kit com assento soft close, anúncio Loja do Pedrão R$ 1.089,90 (valor pesquisado, não compra/estoque/frete confirmados). Não classificar Elite como mais compacto sem conferir seu desenho técnico. Nenhum vaso escolhido nesta etapa.
+
+Fontes:
+- https://www.celite.com.br/produtos/kit-bacia-caixa-acoplada-assento-pp-itens-instalacao-CE647231
+- https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1647230010300/
+- https://www.sodimac.com.br/sodimac-br/k/kit-vaso-sanitario-elite-branco-celite/
+- https://www.lojadopedrao.com.br/kit-bacia-com-caixa-acoplada-elite-branco-com-assento-soft-close-e-itens-de-instalacao---celite-41025/p
+
+### Vaso sanitário — preferência Celite Elite branco, 18/09/2026
+
+Elias informou “elite branco eu gostei mais” após comparar Celite Like e Celite Elite. **Celite Elite branco passa a ser a preferência principal de projeto para o vaso**, no conjunto apresentado com caixa acoplada, assento soft close e itens de instalação. Like deixa de ser a primeira recomendação para o projeto e permanece apenas alternativa econômica. Não interpretar como compra realizada ou aprovação de valor final; teto do vaso não informado. Referência anterior de preço R$ 1.089,90 na Loja do Pedrão, sujeita a confirmação.
+
+Prioridades preservadas: custo-benefício, aparência refinada, conforto e sensação de amplitude. Dimensões e projeção instalada do Elite, código exato do kit, eixo de saída, espaço frontal e compatibilidade com a unidade ainda a verificar antes da compra. Não afirmar que o Elite é menor que o Like ou que o vaso entregue. Não usar as medidas de 61 × 36 × 74 cm do Like para o Elite.
+
+Página do conjunto apresentado: https://www.lojadopedrao.com.br/kit-bacia-com-caixa-acoplada-elite-branco-com-assento-soft-close-e-itens-de-instalacao---celite-41025/p
+
+### Acessórios e ducha higiênica — 18/09/2026
+
+Elias respondeu “sim, e quero ducha higiênica” à proposta de acessórios discretos em preto fosco (papeleira simples, toalheiro de rosto perto da bancada e ganchos para toalhas de banho) e à pergunta sobre ducha ao lado do vaso. Registrar direção aceita dos acessórios em preto fosco e **inclusão confirmada de ducha higiênica junto ao vaso**. Marca/modelo, quantidades, dimensões e posições exatas ainda a definir. Água fria ou quente/fria na ducha ainda não escolhida; não estender automaticamente a aprovação de água quente do lavatório à ducha. Compatibilizar ponto, registro, pressão e acesso com vaso Elite, gabinete e circulação antes da instalação.
+
+### Ducha higiênica — água quente e fria confirmadas, 18/09/2026
+
+Elias respondeu “água quente também” à escolha de alimentação da ducha higiênica. **Confirmado: ducha higiênica com água quente e fria**, em preto fosco conforme direção dos acessórios. Selecionar conjunto com mistura de temperatura e registro apropriados; modelo, posição e solução de instalação ainda a definir. Não tratar como ducha simples apenas fria. Compatibilizar percurso de água quente, pressão e funcionamento do aquecedor, incluindo vazão de acionamento, antes da execução. Infraestrutura de água quente junto ao vaso ainda não comprovada; aprovação do requisito não comprova ponto existente nem autoriza solução executiva específica. Água quente na pia permanece confirmada.
+
+### Piso confirmado e visualização iniciada — 18/09/2026
+
+Elias confirmou manter o piso claro Travertino Reale Greige, inclusive no box, com acabamento adequado à área molhada. Mantêm-se os registros MAT-007 (Satin fora) e MAT-008 (EXT dentro), sujeitos à ficha e adequação técnica antes de compra. Iniciada visualização realista autorizada ao final das escolhas visuais principais. P01 coloca box à esquerda e lavatório à direita quando vistos da parede de entrada; referência estética é invertida. Render deve respeitar essa disposição e o banheiro nominal 2,09 × 1,24 m. Altura de teto, janela, dimensões de móveis e ferragens não estão executivamente definidas; imagens são estudos, não comprovação de encaixe. Comparar versão principal com todas as paredes internas verdes e alternativa de uma parede verde.
+
+### Revisão após imagens — decisões de Elias, 18/09/2026
+
+Elias escolheu **apenas uma parede verde no box**, citando impacto na iluminação. Substitui a decisão anterior de todas as paredes internas verdes. Usar versão comparativa apresentada: parede do fundo/chuveiro verde; parede da janela clara. Revestimento exato da parede clara ainda a especificar, mantendo aparência clara do estudo.
+
+Correções expressas: **espelho precisa de iluminação para maquiagem**, com proposta de luz frontal difusa nas laterais para iluminar o rosto; luz indireta sob armário não substitui essa função. **Torneira da pia atrás da cuba, entre cuba e espelho, centralizada em relação à cuba**, sem instalação lateral. Compatibilizar alcance do jato, acesso da alavanca, profundidade da bancada e armário raso; imagem não libera furação. Preparar imagem revisada com essas correções; manter demais escolhas.
+
+### Referência visual escolhida e primeiro encaixe — 18/09/2026
+
+Elias pediu salvar R01 como referência visual do banheiro e avançar às medidas para verificar cabimento. Imagem copiada para 03_Referencias/Banheiro_referencia_aprovada_2026-09-18.png e vinculada no índice. Essa aprovação estética não confirma medidas, furação ou reprodução exata de produtos.
+
+Criado Banheiro/Medidas_e_encaixe_2026-09-18.md e esquema proporcional Encaixe_R00.svg. Fonte oficial do Elite branco 1747230010300 confirma 66 × 36 × 81 cm: é 5 cm mais longo que Like, não menor. Em profundidade nominal 124 cm restam 58 cm à frente antes de afastamentos adicionais. Cenário de estudo, sem aprovação: box80 + faixa vaso69 + bancada60 = 209 cm; bancada60 ×45, cuba40 ×30, 15 cm restantes entre faixas frontal e traseira, armário espelhado12–15 cm externos. Porta hipotética70 deixa9 cm até bancada45; folha real desconhecida. Enchimento existente no box precisa ser medido: reserva hipotética30 reduz profundidade livre124 para94. Não remover esse volume para fazer caber nem usar render como prova. Resultado: cabimento preliminar condicionado, pendentes giro real da porta, abertura do box, esgoto, ficha Arion e instalações. Nenhuma mudança de produto ou dimensão executiva aprovada.
+
+### Alternativa compacta ao Elite — pesquisa de 18/09/2026
+
+Elias pediu vaso de estilo semelhante e menor, para ampliar circulação frontal. Candidato recomendado: **Celite VIP branco, kit 1977230012300**, com caixa acoplada e assento PP de queda amortecida. Ficha oficial consultada indica **59 × 37,5 × 80 cm** (comprimento × largura × altura), paredes lisas e sistema Rimless. Há anúncios com58/58,5 cm; neste estudo prevalecem59 cm do fabricante. Comparado com Elite66 ×36, encurta7 cm e alarga1,5 cm. Na profundidade124 cm, sobra nominal frontal passa58 para65 cm, sob mesma hipótese de encosto/instalação. Ganho real condicionado a eixo de esgoto, folga traseira e desenho de instalação; conforto do assento compacto deve ser conferido.
+
+Modelo apenas apresentado, **não substitui automaticamente o Elite escolhido**. Página Mundial aberta mostra R$1.249 e esgotado, embora busca indexada apresentasse R$1.208,70. Não afirmar oferta disponível por esse preço. Fonte oficial: https://www.celite.com.br/celite-services/productSheet30/BR/pt/CE1977230012300/
+
+### Vaso Celite VIP branco aprovado — 18/09/2026
+
+Elias respondeu “perfeito, aprovado” à recomendação do **Celite VIP branco, kit 1977230012300** com caixa acoplada e assento PP de queda amortecida. **Substitui o Celite Elite na escolha vigente.** Dimensões nominais de ficha: comprimento59 × largura37,5 × altura80 cm. Em124 cm de profundidade, frente nominal65 cm, ganho7 cm sobre Elite66. Largura aumenta1,5 cm; na faixa hipotética69, folgas laterais simétricas15,75 cm. Ganho final depende de eixo/afastamento de instalação. Atualizados estudo e esquema Encaixe_R01.svg; demais medidas seguem hipóteses. Preço pesquisado R$992,14 na Ferreira Gonçalves, sem frete/estoque/CEP confirmados; compra não realizada. Imagem salva permanece referência estética, com vaso representado de modo aproximado.
+
+### Conferência bancada, Arion e porta — 18/09/2026
+
+Realizada conferência preliminar autorizada por Elias. Ver Banheiro/Conferencia_bancada_porta_2026-09-18.md. Bancada60 ×45 continua hipótese: cuba40 ×30 deixa10 cm laterais e15 cm somados atrás/à frente, ensaiados como10 +5. Falta desenho da Arion73131B para validar base, alcance, alavanca, fixação e limpeza; armário raso também precisa liberar torneira e abertura das portas. Porta real desconhecida: modelo ideal com folhas70/75/80 deixa9/4/−1 cm até bancada45. Não aumentar profundidade sem compatibilizar porta. Nenhuma dimensão executiva nova aprovada; vaso VIP permanece escolhido.
+
+### Porta do banheiro — informação indisponível, 18/09/2026
+
+Elias não dispõe de medidas além dos documentos da construtora. Revisão da planta P01 e memorial oficial não localizou largura da folha da porta do banheiro. Registrar como pendência de vistoria/quadro de esquadrias, sem reiterar pedido da medida ao usuário. Bancada60 ×45 permanece estudo, não medida liberada para fabricação.
+
+### Água quente aparente sob prateleira — estudo solicitado em 18/09/2026
+
+Elias propôs ocultar uma tubulação externa sob extensão de pedra, inspirada na foto enviada, para alimentar pia e ducha higiênica sem quebrar paredes. Fonte quente imaginada na região do chuveiro, com menção a mangueira; não validar derivação pela mangueira/saída final, que normalmente fica após os controles do banho. Estudar origem quente independente, acessível e permitida. Memorial pp.14/17 confirma restrição a alterações de pontos e previsão quente apenas para chuveiros; rede aparente não é autorização automática. Prateleira sobre caixa precisa de altura própria: tampo76,5 cm é inferior ao VIP80 cm; preservar acesso à tampa e descarga, sem elevar automaticamente a cuba. E21 demanda3,9 L/min para acionar: testar funcionamento da ducha em baixa vazão e espera pela água quente. Referência copiada para03_Referencias/Banheiro_prateleira_ocultacao_tubulacao_2026-09-18.png. Estudo: Banheiro/Agua_quente_aparente_estudo_2026-09-18.md. Conceito em avaliação, sem dimensões executivas ou intervenção autorizada.
+
+### Esclarecimento do percurso quente — 18/09/2026
+
+Elias pretende puxar água quente pela área de enchimento, que informa ser de gesso. Tratar como hipótese de derivação em área técnica, não como decisão de alimentar pela mangueira do chuveiro. Acesso a fechamento não estrutural é distinto de corte em alvenaria estrutural; derivação ainda altera instalação. Memorial não detalha esse caso nem traz exceção explícita. Estudo segue plausível condicionado ao ramal quente privativo acessível, percurso e requisitos técnicos/permissão aplicáveis; sem conclusão de proibição definitiva ou autorização automática. Detalhamento em Banheiro/Agua_quente_aparente_estudo_2026-09-18.md.
+
+### Comparação de percursos de água quente — 18/09/2026
+
+Elias pediu melhores soluções plausíveis e econômicas de ocultação, propondo tubo no teto coberto por gesso no canto. Considerar origem no enchimento como base de estudo. Pesquisa de fabricantes confirma possibilidade de PEX em instalações aéreas; memorialp.13 prevê forro no banheiro. Recomendação preliminar: aproveitar espaço acima do forro existente, se contínuo e suficiente, com descida externa junto ao espelho/gabinete; alternativa de faixa fechada no teto. Comparadas prateleira elevada de pedra e rota baixa atrás do vaso, esta apenas se couber sem avançar a louça. Nenhuma seleção executiva aprovada. Ver Banheiro/Comparacao_rotas_agua_quente_2026-09-18.md, incluindo custos relativos, referência de preço do tubo e limitações. Foco é o percurso completo, incluindo trecho visível entre espelho e bancada e chegada à ducha higiênica. Não rebaixar automaticamente teto inteiro nem engrossar toda a parede.
+
+### Consolidação de toda a conversa do banheiro — 18/09/2026
+
+A pedido de Elias (“documente tudo que falamos aqui”), criado Banheiro/Decisoes_consolidadas_2026-09-18.md, com escolhas vigentes, modelos/códigos, orçamento, medidas oficiais versus hipóteses, histórico de substituições, discussão do memorial, quatro rotas de água quente, custos relativos e pendências. Criado índice Banheiro/README.md e atualizados acessos no início, índice de estudos, resumo e referências. Imagem original de inspiração preservada em03_Referencias/Banheiro_inspiracao_original_2026-09-18.png; referências aprovada e de prateleira já salvas. Comparador exportado como Banheiro/Comparacao_visual_dos_percursos.html para abrir fora da conversa.
+
+Direção de registros pretos simples aceita em “ok prox” após manter chuveiro Livo previamente escolhido; acabamento Livo para base Docol continua candidato condicionado, sem código definitivo. A ducha higiênica permanece quente/fria, modelo e orçamento pendentes. Não registrar a visualização de uma opção no comparador nem o pedido de documentação como aprovação executiva de percurso. Nenhum produto, medida ou obra nova foi autorizado por esta consolidação; nenhuma compra ou publicação externa realizada.

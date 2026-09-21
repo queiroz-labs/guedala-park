@@ -1,5 +1,12 @@
 # Visita ao apartamento — fotos e relatórios
 
+## Conferência pendente — iluminação de sala/jantar (20/09/2026)
+
+- Conferir se existe conduíte aproveitável entre a caixa de comandos na entrada e a região do painel da TV. Elias não sabe se existe; não tratar como infraestrutura entregue.
+- Identificar pontos do teto, alimentação disponível no painel, neutro/retornos e espaço das caixas com o eletricista; verificar viabilidade do comando escolhido antes de especificar ligações.
+- Medir pé-direito, posição/altura da prateleira superior e relação com a TV para ocultar a indireta e evitar reflexos.
+- Se não houver caminho viável, comparar comando sem fio na entrada; respeitar restrições de estrutura e orçamento. Estudo: [iluminação da sala](../01_Projeto/Sala_e_jantar/Iluminacao_R01.md).
+
 [Voltar ao início](../README.md)
 
 O levantamento vem do vídeo de **outra unidade, espelhada**. Registra evidências visuais e não medidas acabadas da unidade de Elias.

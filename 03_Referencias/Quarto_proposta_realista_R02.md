@@ -1,0 +1,24 @@
+# Quarto principal — proposta realista R02
+
+21/09/2026. **Proposta corrigida para avaliação; ainda não aprovada por Elias.**
+
+[Imagem R02](Quarto_proposta_realista_R02_pendente.png). Revisão da R01 com a ferramenta integrada de imagens (modo edição, precise-object-edit).
+
+Elias corrigiu explicitamente: o guarda-roupa não é embutido e o espelho fica na lateral do móvel. Conferida a disposição nas capturas da planta 2D e do modelo isométrico: armário ao lado da cama, frentes voltadas para a passagem lateral e extremidade próxima ao pé da cama/entrada. Espelho na lateral de 60 cm voltada para a entrada, perpendicular às portas. Representado móvel independente, com lateral de madeira aparente, rodapé próprio e folga superior. Retirado espelho da parede.
+
+Mantidas escolhas de madeira, cabeceira lisa em dois painéis, aéreo alto e raso, roupa de cama com verde-oliva, iluminação discreta e janela com persiana integrada sem cortina.
+
+Referências: R01 como base de aparência; `tmp/wall-quarto-top.png` e `tmp/wall-quarto-iso.png` para implantação. Cor branca antiga do modelo não prevalece sobre a escolha amadeirada atual.
+
+O espelho especificado continua Cebrace prata 5 mm, 50 × 180 cm, sem moldura/bisotê, bordas lapidadas e cantos levemente arredondados, centralizado na lateral de 60 cm, base de referência a 20 cm do piso. A imagem é aproximação visual; não medir proporções pelo render. Dimensões de fabricação, folgas, ferragens, apoios, elétrica e fixações seguem os estudos e conferência no local. Portas e puxadores ilustrados são provisórios. R01 preservada como histórico. Sem publicação.
+
+Origem: `exec-54d6d057-9b43-4986-8d17-fdad8ecbffa7.png`.
+
+## Prompt integral da edição
+
+Use case: precise-object-edit.
+Edit image 1, the photorealistic bedroom. Images 2 (top plan) and 3 (isometric furniture massing) are authoritative for wardrobe placement and mirror geometry, not for colors.
+PRIMARY CORRECTION: replace the incorrect built-in-looking wardrobe at left with the actual FREESTANDING rectangular wood wardrobe shown in the plan. It stands against the left wall alongside the bed. Its long 200cm FRONT with closed wood doors faces the side of the bed, and its SHORT 60cm deep END PANEL faces the entry camera. The end panel stops approximately aligned with the bed foot, leaving entry space in front of it. Show the complete nearest end, its wood surround and its 90-degree corner joining the long doors. It is a distinct 240cm-high piece with a small visible air gap above below the ceiling, its own plinth, and no drywall surround, no filler walls, no alcove, no built-in enclosure. The wardrobe rear touches the left room wall, its far end meets the headboard wall. Do NOT move wardrobe to the foot wall.
+Mount ONE frameless 50x180cm full-length mirror directly ON the short 60cm WOOD END SIDE PANEL nearest the entrance, with 5cm of wood visible each side and mirror bottom 20cm above floor. This mirrored side is PERPENDICULAR to the wardrobe's long front doors. See the precise end-side mirror in isometric image 3. The mirror reflects the entry-side area physically plausibly. REMOVE the current mirror on the white wall at extreme left of image 1; no mirror on any wall or on the long wardrobe door fronts. Need unmistakable wood furniture end panel around bare-edged glass, not a framed mirror on a separate wall.
+Camera: may move slightly back into the entrance recess and slightly toward the wardrobe to make the full 60cm mirrored end panel and its corner with doors clearly visible at left foreground, doors receding toward headboard. Keep realistic eye-level architecture photography. Camera can reveal more entrance floor but do not enlarge the compact bedroom: main rectangle 245cm along bed length x295cm across, queen160x200cm, wardrobe200x60, only55cm aisle between bed and wardrobe and20cm on window side. End of wardrobe stops near foot of bed; NOT extended forward into entrance or cropped as if full-length wall. Preserve correct bed orientation from image2: headboard on wall perpendicular to window wall, window right of bed.
+Preserve all other approved features from image1: Arenza warm light wood on BOTH wardrobes; high SHALLOW overhead cabinet above headboard ~35cm high x25cm deep, no lowering; beige plain TWO upholstered headboard panels; tiny wood bedside ledges; concealed warm LED behind headboard (NOT under overhead cabinet); two discreet WHITE reading sconces; white diffuse ceiling flushmount; offwhite/beige bedding with muted olive cushions and throw; white sliding window with integrated horizontal roller shutter, NO curtain; pale warm wood floor, white skirting, offwhite walls. No new furniture, decoration, people, text, watermark. Photorealistic natural materials and soft warm daylight. Prioritize faithfully reconstructing freestanding wardrobe and mirrored end per plan, not preserving the incorrect left-side geometry of image1.

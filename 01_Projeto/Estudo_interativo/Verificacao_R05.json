@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-18",
+  "version": {
+    "revisao": "R05",
+    "commit": "b45bf3d31c185338e87a4ebc4c2c6a2f3303d1c7"
+  },
+  "url": "https://queiroz-labs.github.io/guedala-park/",
+  "pass": true,
+  "items": 59,
+  "interiors": 12,
+  "localChecks": [
+    "depth and picking of crossing faces",
+    "24 orbit views",
+    "7 rooms x 3 views",
+    "animation midpoint, reversal and reduced motion",
+    "offline copy",
+    "1440, 412 and 340 px"
+  ],
+  "publishedChecks": [
+    "HTTP 200 main and moodboard",
+    "revision and exact commit",
+    "depth renderer",
+    "bathroom decisions",
+    "cabinet interiors",
+    "animation",
+    "mobile overflow",
+    "material image"
+  ],
+  "errors": []
+}

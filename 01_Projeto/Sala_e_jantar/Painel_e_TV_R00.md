@@ -1,5 +1,9 @@
 # Sala — painel e tamanho da TV
 
+## Atualização vigente — 18/09/2026
+
+Elias aprovou painel liso **off-white fosco, sem ripado**, e prateleiras em **Greenplac Arenza**, com fixações/fios ocultos e acesso à régua. Disposição vigente: **uma prateleira acima e outra abaixo da TV**, conforme correção F159; o arranjo e as alturas históricos abaixo, com ambas sob a TV, não prevalecem. Código da chapa off-white, alturas finais, dimensões, fixação e compatibilidade com aparelhos/Ambilight ainda a detalhar.
+
 ## Conjunto da sala aprovado — F149
 
 Elias encerra a etapa e aprova as decisões apresentadas: painel de referência115 cm, duas prateleiras110 cm, inferior35 cm de profundidade para PS5 deitado e superior25 cm para soundbar, vão livre22 cm, alturas de topo35/60 cm como configuração de projeto; sem gavetas e régua oculta em compartimento lateral acessível/ventilado. Passagem estimada72 cm com sofá aberto, painel hipotético2 cm e sem afastamento extra do sofá foi aceita. Acabamentos propostos off-white/Arenza permanecem referência da composição; aprovação não substitui amostras, medidas reais, estrutura ou compatibilização dos aparelhos e altura da TV. Não reabrir detalhes da TV como prioridade. Próxima etapa solicitada: cabeceira e armário acima dela no dormitório.

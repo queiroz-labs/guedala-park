@@ -1,5 +1,7 @@
 # Guarda-roupa — organização interna R02
 
+**Atualização de altura — 21/09/2026:** Elias determinou guarda-roupa até o teto para aproveitar o maleiro. A altura de 240 cm nos desenhos e cálculos abaixo passa a ser referência histórica de estudo, não limite da solução final. Preservar o programa e a organização escolhidos; compatibilizar cotas verticais, capacidade do maleiro e montagem com o pé-direito medido. Móvel não embutido, com lateral aparente e espelho voltado para entrada. [Proposta visual R03](../../03_Referencias/Quarto_proposta_realista_R03.md), ainda não aprovada como imagem final.
+
 **Plano aprovado por Elias — F135, 13/09/2026.** R02 salva como organização interna escolhida, com envelope de referência 200 × 60 × 240 cm, divisão igual, quatro gavetas, dez pares de tênis previstos e dois casacos longos. As conferências de medidas reais, ferragens, alcance e tênis descritas neste documento permanecem etapas de detalhamento para execução, não pendência de aprovação do plano. **O dormitório não terá TV.**
 
 13/09/2026 · F134 · Nova proposta solicitada por Elias.

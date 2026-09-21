@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700">
+<rect width="960" height="700" fill="#faf8f3"/><style>text{font-family:Arial,sans-serif;fill:#26332e}.small{font-size:14px}.label{font-size:16px}.dim{font-size:18px;font-weight:bold}</style>
+<text x="55" y="42" font-size="25" font-weight="bold">Banheiro — teste de encaixe em planta</text><text x="55" y="70" class="label">209 × 124 cm da planta • móveis e subdivisões abaixo são hipóteses</text>
+<g transform="translate(100 155)">
+<rect width="627" height="372" fill="#eee7db" stroke="#333" stroke-width="7"/>
+<rect x="0" y="0" width="240" height="282" fill="#d4dfd0"/>
+<rect x="0" y="282" width="240" height="90" fill="#b5b2aa"/><path d="M0 282L90 372M50 282L140 372M100 282L190 372M150 282L240 372" stroke="#8b8983"/>
+<text x="120" y="120" text-anchor="middle" class="dim">BOX</text><text x="120" y="145" text-anchor="middle" class="label">80 × 94 cm*</text><text x="120" y="315" text-anchor="middle" class="small">Reserva de enchimento*</text><text x="120" y="338" text-anchor="middle" class="small">30 cm — conferir forma/altura</text>
+<path d="M240 0V372" stroke="#53645c" stroke-width="4"/><text x="252" y="160" class="small" transform="rotate(-90 252 160)">Divisória / abertura a estudar</text>
+<rect x="289.5" y="174" width="108" height="198" rx="38" fill="white" stroke="#737b78" stroke-width="2"/><rect x="289.5" y="322" width="108" height="50" rx="7" fill="#f7f7f7" stroke="#737b78"/><ellipse cx="343.5" cy="240" rx="39" ry="52" fill="#edece8" stroke="#737b78"/><text x="343.5" y="304" text-anchor="middle" class="small">Elite 66 × 36</text>
+<path d="M343.5 8V166" stroke="#b16e35" stroke-width="2"/><path d="M337 16l6.5 -8 6.5 8M337 158l6.5 8 6.5 -8" fill="none" stroke="#b16e35"/><text x="351" y="90" class="dim">58 cm</text><text x="351" y="110" class="small">frente nominal</text>
+<rect x="447" y="237" width="180" height="135" fill="#d5c6af" stroke="#665e51" stroke-width="2"/><rect x="477" y="252" width="120" height="90" rx="8" fill="white" stroke="#777"/><circle cx="537" cy="300" r="5" fill="#999"/><circle cx="537" cy="356" r="6" fill="#252825"/><path d="M537 356V330" stroke="#252825" stroke-width="5"/><text x="537" y="223" class="label" text-anchor="middle">Bancada 60 × 45</text>
+<path d="M447 366H627" stroke="#bb9257" stroke-width="7"/><text x="643" y="332" class="small">Espelho raso</text><text x="643" y="352" class="small">12–15 cm*</text>
+<path d="M387 0H597" stroke="#faf8f3" stroke-width="10"/><path d="M597 0V210M387 0A210 210 0 0 0 597 210" fill="none" stroke="#a67a4b" stroke-width="2" stroke-dasharray="6 4"/><text x="509" y="100" class="small">Giro de porta*</text><text x="509" y="120" class="small">folha ensaiada: 70</text><text x="530" y="-18" text-anchor="middle" class="label">ENTRADA</text>
+<path d="M0 -42H627M0 -50V-34M627 -50V-34" stroke="#333"/><text x="314" y="-52" text-anchor="middle" class="dim">209 cm</text>
+<path d="M-38 0V372M-46 0H-30M-46 372H-30" stroke="#333"/><text x="-54" y="190" transform="rotate(-90 -54 190)" text-anchor="middle" class="dim">124 cm</text>
+<text x="120" y="407" text-anchor="middle" class="dim">80*</text><text x="343.5" y="407" text-anchor="middle" class="dim">69*</text><text x="537" y="407" text-anchor="middle" class="dim">60*</text>
+</g><text x="55" y="610" class="label">* Propostas de ensaio, não medidas acabadas. Não usar para fabricar.</text><text x="55" y="638" class="label">Conferir esgoto, ressalto técnico, porta, abertura do box e alcance da torneira.</text><text x="55" y="666" class="small">A folga de 58 cm diminui se a instalação exigir afastamento adicional do vaso da parede.</text></svg>
