@@ -1,5 +1,12 @@
 # Resumo do projeto
 
+## Mesa extensível — direção salva e atualização do 3D, 23/09/2026
+Elias aceitou salvar o anteprojeto apresentado e pediu atualizar o site 3D com a opção de reduzir a mesa, além de quantificar o ganho de circulação da entrada. Adotada como direção de desenvolvimento a mesa **150/180 × 75 cm**, altura 75, duas metades de 75 e folha central de 30, centro fixo, Arenza/R15 e pedestal preto. **Folha guardada em compartimento no banco aceita como direção**, substituindo a preferência por armazenamento sob o tampo; dimensões internas, acesso e ferragem continuam sujeitos a projeto. Não é liberação para corte.
+
+Modelo com seletor independente “Mesa extensível”, iniciando recolhida. Banco de 180 cm e cadeiras mantidos na comparação, sem supor encaixe melhor. Ganho bruto longitudinal: **15 cm por ponta**. No trecho transversal comum entre tampo e corpo da IB6, faixa nominal **60,25 → 75,25 cm**. Cadeira na cabeceira termina em z=561 e mantém **54,25 cm** até a frente nominal da IB6 na faixa comum entre eles; ganho nessa faixa **zero**. Largura transversal de entrada de **85 cm** permanece. Puxadores, pessoas, portas e trajetória de giro não estão descontados; não declarar toda a entrada com 75,25 cm livres.
+
+[Anteprojeto aceito para desenvolvimento](Sala_e_jantar/Mesa_extensivel_anteprojeto_R00.md) · [conferência da circulação](Sala_e_jantar/Mesa_circulacao_entrada_2026-09-23.md). Atualização e publicação do site autorizadas pelo pedido atual.
+
 **Quarto — imagem aprovada R03, 21/09/2026:** salva como **[referência visual a seguir](../03_Referencias/Quarto_referencia_aprovada_R03.png)** por aprovação explícita de Elias. Guarda-roupa até o teto com maleiro e espelho lateral, madeira, cabeceira em dois painéis, iluminação discreta, verde-oliva e janela sem cortina. Substitui o status pendente registrado abaixo; medidas finais a conferir.
 
 **Quarto — guarda-roupa até o teto, 21/09/2026:** requisito confirmado para aproveitar a parte superior como maleiro, mantendo espelho lateral e móvel não embutido. Altura final conforme medição do teto; [imagem R03](../03_Referencias/Quarto_proposta_realista_R03.md) gerada, aguardando aprovação e substituindo R02 como proposta visual atual.

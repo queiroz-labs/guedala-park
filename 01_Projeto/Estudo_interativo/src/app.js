@@ -2,7 +2,10 @@
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const WARDROBE_IMAGE='/*WARDROBE*/';
-const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:true,inside:false,selected:null};
+const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:true,inside:false,selected:null};
+// Nominal body-to-body distances; handles, people and door swings are separate.
+function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,headChairToFridge:615.25-561,entryWidth:85};}
+const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,nodeSequence={},motion=null;
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 function transitionState(key,value){
@@ -71,10 +74,19 @@ function buildScene(){nodes=[];nodeSequence={};
   add('tv50','sala',504,189.45,8.8,111.1,77,64.9,'black','screenX');
   add('soundbar','sala',505,200,10.5,90,60,7,'black','round',{r:3});
   add('decor','sala',505,193,7,5,60,12,'sage','vase');
-  // Jantar: 180 x 75 R15, narrow column illustrates compatible hypothesis.
+  // Jantar: 150/180 x 75, fixed center; base remains an unvalidated graphic envelope.
   add('bench','sala',685,375,55,180,0,40,'wood');slab('bench','sala',685,375,45,180,40,7,'head',3);slab('bench','sala',730,375,10,180,40,50,'head',3);
-  slab('table','sala',615,375,75,180,72,3,'wood',15);
-  add('table','sala',646.5,459,12,12,2,70,'black');slab('table','sala',639.5,450,26,30,0,2,'black',6);
+  const dining=diningClearance();
+  add('table','sala',615,dining.start,75,75,72,3,'wood','tableHalf',{r:15,end:'near'});
+  add('table','sala',615,dining.end-75,75,75,72,3,'wood','tableHalf',{r:15,end:'far'});
+  // The removable leaf is shown in place only when extended; storage in the bench is documented.
+  if(state.table==='extended')add('table','sala',615,450,75,30,72,3,'wood','tableLeaf');
+  // Visible joint lines; geometry remains nominal, not a tolerance/cutting drawing.
+  for(const zz of state.table==='compact'?[465]:[450,480])add('table','sala',615,zz-.07,75,.14,75,.015,'#9c825f');
+  slab('table','sala',646.5,459,12,12,2,65.3,'black',6);slab('table','sala',639.5,450,26,30,0,2,'black',13);
+  for(const xx of [628,674])add('table','sala',xx,420,3,90,67.3,4.7,'black');
+  add('table','sala',631,448,43,34,64.3,3,'black');
+  // Keep chair positions fixed: shrinking the top does not certify deeper chair storage.
   if(state.dining==='stored'){chairDining(609,384,Math.PI/2);chairDining(609,473,Math.PI/2);chairDining(631.5,517,-Math.PI);}else{for(let i=0;i<3;i++)chairDining(560,384+i*60,Math.PI/2);}
   // Quarto: more space at wardrobe; no TV and no blue furniture.
   const hx=state.headDepth;
@@ -184,9 +196,9 @@ function buildScene(){nodes=[];nodeSequence={};
 }
 
 // Mesh generation: actual 3D coordinates; orthographic camera with orbit and elevations.
-function ring(w,d,r=0){r=Math.min(r,w/2,d/2);if(!r)return [[0,0],[w,0],[w,d],[0,d]];let a=[];for(const[cx,cz,start]of [[w-r,r,-Math.PI/2],[w-r,d-r,0],[r,d-r,Math.PI/2],[r,r,Math.PI]])for(let i=0;i<=5;i++){const q=start+i*Math.PI/10;a.push([cx+r*Math.cos(q),cz+r*Math.sin(q)]);}return a;}
+function ring(w,d,r=0,end=null){r=Math.min(r,w/2,d/2);if(!r)return [[0,0],[w,0],[w,d],[0,d]];let a=[];for(const[cx,cz,start,side]of [[w-r,r,-Math.PI/2,'near'],[w-r,d-r,0,'far'],[r,d-r,Math.PI/2,'far'],[r,r,Math.PI,'near']]){if(end&&side!==end){a.push([cx>w/2?w:0,side==='near'?0:d]);continue;}for(let i=0;i<=5;i++){const q=start+i*Math.PI/10;a.push([cx+r*Math.cos(q),cz+r*Math.sin(q)]);}}return a;}
 function mesh(n){const out=[];
-  function extrude(x,z,w,d,y,h,c,r=0,alpha=1){let p=ring(w,d,r),bottom=p.map(([a,b])=>[x+a,y,z+b]),top=p.map(([a,b])=>[x+a,y+h,z+b]);out.push({p:top,c,alpha,normal:[0,1,0]},{p:bottom,c,alpha,normal:[0,-1,0]});for(let i=0;i<p.length;i++){let j=(i+1)%p.length,dx=p[j][0]-p[i][0],dz=p[j][1]-p[i][1],l=Math.hypot(dx,dz)||1;out.push({p:[bottom[i],bottom[j],top[j],top[i]],c,alpha,normal:[dz/l,0,-dx/l]});}}
+  function extrude(x,z,w,d,y,h,c,r=0,alpha=1,end=null){let p=ring(w,d,r,end),bottom=p.map(([a,b])=>[x+a,y,z+b]),top=p.map(([a,b])=>[x+a,y+h,z+b]);out.push({p:top,c,alpha,normal:[0,1,0]},{p:bottom,c,alpha,normal:[0,-1,0]});for(let i=0;i<p.length;i++){let j=(i+1)%p.length,dx=p[j][0]-p[i][0],dz=p[j][1]-p[i][1],l=Math.hypot(dx,dz)||1;out.push({p:[bottom[i],bottom[j],top[j],top[i]],c,alpha,normal:[dz/l,0,-dx/l]});}}
   const {x,z,w,d,y,h,c,kind}=n;
   if(kind==='chair'){
     // Local chair points into +z. rotation aligns compact body with dining edges.
@@ -216,7 +228,7 @@ function mesh(n){const out=[];
   }else if(kind==='toilet'){
     extrude(x,z+d-18,w,18,y+38,h-38,c,3);extrude(x+5,z+6,w-10,d-20,y,36,c,9);extrude(x,z,w,d-12,y+36,7,c,14);extrude(x+6,z+6,w-12,d-26,y+43,.5,'#b4b8ac',9);
   }else if(kind==='vase'){extrude(x,z,w,d,y,h,c,3);}
-  else extrude(x,z,w,d,y,h,c,kind==='round'?n.r:0,kind==='glass'?.32:1);
+  else extrude(x,z,w,d,y,h,c,kind==='round'||kind==='tableHalf'?n.r:0,kind==='glass'?.32:1,n.end||null);
   if(n.yaw){const r=n.yaw,seen=new Set();for(const f of out){for(const p of f.p){if(seen.has(p))continue;seen.add(p);const a=p[0]-n.rootX,b=p[2]-n.rootZ;p[0]=n.rootX+a*Math.cos(r)+b*Math.sin(r);p[2]=n.rootZ-a*Math.sin(r)+b*Math.cos(r);}const[a,b,c]=f.normal;f.normal=[a*Math.cos(r)+c*Math.sin(r),b,-a*Math.sin(r)+c*Math.cos(r)];}}
   if(n.tiltZ){const [px,py]=n.pivot,seen=new Set();for(const f of out){for(const p of f.p){if(seen.has(p))continue;seen.add(p);const a=p[0]-px,b=p[1]-py;p[0]=px+a*Math.cos(n.tiltZ)-b*Math.sin(n.tiltZ);p[1]=py+a*Math.sin(n.tiltZ)+b*Math.cos(n.tiltZ);}const [a,b,c]=f.normal;f.normal=[a*Math.cos(n.tiltZ)-b*Math.sin(n.tiltZ),a*Math.sin(n.tiltZ)+b*Math.cos(n.tiltZ),c];}}
   if(kind==='chair'){const r=n.rot||0;for(const f of out){const [a,b,c]=f.normal;f.normal=[a*Math.cos(r)+c*Math.sin(r),b,-a*Math.sin(r)+c*Math.cos(r)];}}
@@ -290,10 +302,11 @@ function drawAnnotations(ctx,pr,cam,w,h,st){
     ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,700,85,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
   }
   if(st.measures&&st.view!=='side'){
-    if(st.room==='sala'||st.room==='all'){const depth=st.sofa==='closed'?110:136,gap=245-depth-st.rackDepth-st.sofaGap;dimension(ctx,pr,[495+st.rackDepth,2,268],[740-depth-st.sofaGap,2,268],gap+' cm*');if(st.room==='sala')dimension(ctx,pr,[705,2,375],[705,2,555],'180 cm');}
+    if(st.room==='sala'||st.room==='all'){const depth=st.sofa==='closed'?110:136,gap=245-depth-st.rackDepth-st.sofaGap,dc=diningClearance(st);dimension(ctx,pr,[495+st.rackDepth,2,268],[740-depth-st.sofaGap,2,268],gap+' cm*');if(st.room==='sala')dimension(ctx,pr,[705,2,dc.start],[705,2,dc.end],dc.length+' cm · mesa');}
     if(st.room==='quarto'){dimension(ctx,pr,[150,2,280],[150,2,335],'55 cm*');dimension(ctx,pr,[200+st.headDepth,2,215],[245,2,215],(45-st.headDepth)+' cm*');dimension(ctx,pr,[100,2,100],[100,2,120],'20 cm*');}
     if(st.room==='escritorio'){if(st.office==='guest'){dimension(ctx,pr,[355,2,70],[355,2,110],'40 cm*');dimension(ctx,pr,[397,2,200],[485,2,200],'88 cm*');}else dimension(ctx,pr,[337,2,70],[337,2,152],'82 cm*');}
-    if(st.room==='cozinha'){dimension(ctx,pr,[655,2,580],[740,2,580],'85 cm*');dimension(ctx,pr,[613,2,545],[613,2,615.25],'70,25 cm*');}
+    if(st.room==='cozinha'){dimension(ctx,pr,[655,2,580],[740,2,580],'85 cm*');}
+    if(st.room==='all'||st.room==='cozinha'){const dc=diningClearance(st);dimension(ctx,pr,[625,76,dc.end],[625,76,615.25],cm(dc.tableToFridge)+' cm · tampo/IB6*');}
   }
   if(st.room!=='all'&&st.view==='side'&&st.measures){let bounds=PROJECT.rooms.find(r=>r.id===st.room).bounds;const a=[bounds[0]+7,0,bounds[1]+7],b=[...a];b[1]=st.room==='escritorio'?195:st.room==='quarto'?205:60;dimension(ctx,pr,a,b,b[1]+' cm*');}
   // Physical scale independent of camera rotation in top view.
@@ -314,10 +327,11 @@ function drawLists(){let list=roomItems();const markup=list.map(o=>`<button data
 function setRoom(id){state.room=id;state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[id]??-.62;let room=PROJECT.rooms.find(r=>r.id===id);$('roomHeading').textContent=room.name;$('roomSubtitle').textContent=room.sub.toUpperCase();$('roomNote').textContent=ROOM_NOTES[id];document.querySelectorAll('[data-room]').forEach(b=>b.classList.toggle('active',b.dataset.room===id));if(state.selected&&!roomItems().some(o=>o.id===state.selected))state.selected=null;drawLists();if(!state.selected){$('selectedInfo').innerHTML=`<h2>${esc(room.name)}</h2><p>${esc(ROOM_NOTES[id])}</p><p>Selecione um móvel no desenho ou na lista para consultar medidas e pendências.</p>`;}updateMetrics();requestRender();}
 function setView(v){state.view=v;state.zoom=1;state.pan=[0,0];document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);b.setAttribute('aria-pressed',b.dataset.view===v);});$('sideLabel').hidden=v!=='side';$('sideCutLabel').hidden=v!=='side';$('gestureHint').textContent=v==='iso'?'Arraste para girar · pinça ou roda para aproximar':'Arraste para deslocar · pinça ou roda para aproximar';requestRender();}
 function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-state.sofaGap-state.rackDepth;const metric=(value,title,note,warn=false)=>({value,title,note,warn});
-  if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(state.dining==='stored'?'114 cm*':'65 cm*','Lateral do jantar',state.dining==='stored'?'Encosto 6 cm · gabarito':'Cadeira ocupada 55 cm',true),metric('110 cm','Largura das prateleiras','Parede ~120 cm a medir')];}
+  const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo → frente da IB6','60,25 → 75,25 cm; ganho bruto de 15 cm',true),metric(state.dining==='stored'?cm(dc.headChairToFridge)+' cm*':'Sem cadeira na ponta','Cabeceira → frente da IB6',state.dining==='stored'?'Guarda 2+1: faixa não aumenta ao recolher':'Cadeiras na lateral; seis lugares só com mesa aberta',true),metric('85 cm*','Largura da entrada','Reserva transversal; não muda com a mesa',true)];
+  if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(state.dining==='stored'?'114 cm*':'65 cm*','Lateral do jantar',state.dining==='stored'?'Gabarito; encaixe real das cadeiras pendente':'Cadeira ocupada 55 cm; largura da mesa igual',true),...diningMetrics];}
   else if(state.room==='quarto')list=[metric('55 cm*','Frente do armário','Cama de reserva 160 cm',true),metric((45-state.headDepth)+' cm*','Aos pés da cama','Reserva200 + cabeceira'+state.headDepth,true),metric('20 cm*','Lado da janela','Faixa estreita aceita',true)];
   else if(state.room==='escritorio')list=state.office==='guest'?[metric('40 cm*','Cama → bancada','Sem usuário na estação',true),metric('88 cm*','Lateral da cama','Brutos, fora da cadeira',true),metric('3 cm*','Porta → cama','Margem gráfica crítica',true)]:[metric('82 cm*','Bancada → sofá','Antes da cadeira ocupada',true),metric('195 cm','Topo prateleira','Altura aprovada'),metric('200 × 70','Bancada · cm','Largura ainda proposta',true)];
-  else if(state.room==='cozinha')list=[metric('85 cm*','Reserva da entrada','Distribuição F38/F119'),metric('70,25 cm*','Frente da IB6S','Antes de pessoa/porta',true),metric('61,9 cm*','Filtro + preparo','Faixa compartilhada',true),metric('121,9 cm*','Gaveta baixa','Externo; encaixe a conferir',true)];
+  else if(state.room==='cozinha')list=[...diningMetrics,metric('61,9 cm*','Filtro + preparo','Faixa compartilhada',true)];
   else if(state.room==='lavanderia')list=[metric('100 × 50','Grelha · cm','Escolhida'),metric('72 cm*','Reserva VC4 fechada','Corpo +10cm atrás'),metric(state.dry==='stored'?'Aparelhos aqui':'Aparelhos na cozinha','Uso da bancada','Sem operar sob roupas',true),metric('Pendente','Recolhimento varal','Conflito com E21',true)];
   else list=[metric('209 × 124','Banheiro · cm','Cotas de planta'),metric('65 cm*','Frente do VIP','Nominal; conferir instalação',true),metric('60 × 45*','Bancada · cm','Borda da cuba a 90 cm no ensaio',true)];
   $('metrics').innerHTML=list.map(m=>`<div class="metric ${m.warn?'warning':''}"><b>${m.value}</b><span>${m.title}</span><small>${m.note}</small></div>`).join('');
@@ -388,21 +402,21 @@ function init(){
   $('rooms').innerHTML=PROJECT.rooms.map(r=>`<button data-room="${r.id}" class="${r.id==='all'?'active':''}"><strong>${esc(r.name)}</strong><small>${esc(r.sub)}</small></button>`).join('');document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>setRoom(b.dataset.room));
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
-  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');};
+  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: recuo de 15 cm por ponta. Cadeira da cabeceira e banco permanecem no lugar.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=()=>$('inspector').classList.remove('open');$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R05.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R06.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
   buildMood();buildScene();setRoom('all');setView('iso');selectItem('bonnie',false);$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
-  for(const[id,value]of [['sofaState','closed'],['officeState','work'],['diningState','stored'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
+  for(const[id,value]of [['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
   $('measureToggle').checked=true;$('upperToggle').checked=true;$('wallToggle').checked=false;$('insideToggle').checked=false;
-  window.GuedalaStudy={state,items:ITEMS,project:PROJECT,transitionState,pickFace,getNodes:()=>nodes,buildScene:()=>{buildScene();return nodes;},render,tab,setRoom,setView,selectItem};
+  window.GuedalaStudy={state,items:ITEMS,project:PROJECT,transitionState,pickFace,diningClearance,getNodes:()=>nodes,buildScene:()=>{buildScene();return nodes;},render,tab,setRoom,setView,selectItem};
 }
 init();

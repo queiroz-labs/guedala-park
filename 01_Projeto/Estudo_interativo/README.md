@@ -1,4 +1,4 @@
-# Apartamento interativo — R05
+# Apartamento interativo — R06
 
 18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
 
@@ -11,7 +11,7 @@
 1. Escolha o ambiente e a vista: superior, 3D ou lateral. A vista lateral tem quatro direções e pode ocultar a metade oposta do ambiente para facilitar a leitura.
 2. Arraste para girar o 3D; use a roda do mouse ou pinça com dois dedos para aproximar. Nas vistas superior/lateral, arrastar desloca o desenho. “Enquadrar” restaura a câmera.
 3. Toque ou clique em um móvel para abrir sua ficha, com dimensões, material, origem da decisão e o que falta conferir. No celular, também existe “Ver móveis deste ambiente”.
-4. Veja as transições animadas ao alternar Bonnie fechado/aberto/baú, escritório em trabalho/hóspedes, três cadeiras recolhidas em 2+1/em uso, PS5 na sala/escritório e os três estados conceituais do varal.
+4. Em “Mesa extensível”, alterne 150 cm recolhida e 180 cm aberta. O centro fica fixo; banco e cadeiras permanecem na posição. As passagens distinguem recuo do tampo e faixa ocupada pela cadeira de cabeceira. Folha removível prevista no banco; encaixe real pendente. Veja também as transições animadas ao alternar Bonnie fechado/aberto/baú, escritório em trabalho/hóspedes, três cadeiras recolhidas em 2+1/em uso, PS5 na sala/escritório e os três estados conceituais do varal.
 5. Consulte as passagens e expanda “Ajustar hipóteses de circulação” para testar afastamento do sofá, profundidade do apoio da TV e espessura da cabeceira. Esses ajustes são simulações; recarregar restaura as decisões.
 6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
 7. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
@@ -34,7 +34,7 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 |---|---|---|
 | Sala | Bonnie 180 cm, profundidades 110/136 cm; painel 115 cm; prateleiras 110 × 35 e 110 × 25 cm, topos 35/60 cm | Parede acabada, ventilação, afastamento do sofá, instalação, modelo final da TV/soundbar |
 | Circulação da sala | 245 − 136 − 37 = 72 cm com retrátil aberto; 67 cm se houver mais 5 cm atrás do sofá | Medidas reais e obstáculos; cálculo de faixa reta, sem simular o trajeto de uma pessoa |
-| Jantar | Mesa 180 × 75 cm, R15; pedestal central; três cadeiras sob o tampo em 2+1 | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
+| Jantar | Mesa 150/180 × 75 cm, R15, extensão central; pedestal fixo; guarda 2+1 comparada sem mover cadeiras | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
 | Quarto | Reserva queen 200 × 160 cm; armário 200 × 60 × 240 cm; interior R02; cabeceira, dois apoios e aéreo raso/alto | Base real da cama, alturas, portas do armário, gavetas, conforto e fixação dos apoios |
 | Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
 | Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |

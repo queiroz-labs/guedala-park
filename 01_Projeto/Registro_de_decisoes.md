@@ -1,5 +1,12 @@
 # Registro de decisões — Guedala Park
 
+## Mesa extensível — direção salva e atualização do 3D, 23/09/2026
+Elias aceitou salvar o anteprojeto apresentado e pediu atualizar o site 3D com a opção de reduzir a mesa, além de quantificar o ganho de circulação da entrada. Adotada como direção de desenvolvimento a mesa **150/180 × 75 cm**, altura 75, duas metades de 75 e folha central de 30, centro fixo, Arenza/R15 e pedestal preto. **Folha guardada em compartimento no banco aceita como direção**, substituindo a preferência por armazenamento sob o tampo; dimensões internas, acesso e ferragem continuam sujeitos a projeto. Não é liberação para corte.
+
+Modelo com seletor independente “Mesa extensível”, iniciando recolhida. Banco de 180 cm e cadeiras mantidos na comparação, sem supor encaixe melhor. Ganho bruto longitudinal: **15 cm por ponta**. No trecho transversal comum entre tampo e corpo da IB6, faixa nominal **60,25 → 75,25 cm**. Cadeira na cabeceira termina em z=561 e mantém **54,25 cm** até a frente nominal da IB6 na faixa comum entre eles; ganho nessa faixa **zero**. Largura transversal de entrada de **85 cm** permanece. Puxadores, pessoas, portas e trajetória de giro não estão descontados; não declarar toda a entrada com 75,25 cm livres.
+
+[Anteprojeto aceito para desenvolvimento](Sala_e_jantar/Mesa_extensivel_anteprojeto_R00.md) · [conferência da circulação](Sala_e_jantar/Mesa_circulacao_entrada_2026-09-23.md). Atualização e publicação do site autorizadas pelo pedido atual.
+
 ## Quarto — imagem R03 aprovada e envio completo autorizado, 21/09/2026
 
 Elias confirmou: “perfeito, salva essa image, como referencia e dê commit push no q ja fizemos até agr”. A **[imagem aprovada R03 do quarto](../03_Referencias/Quarto_referencia_aprovada_R03.png)** passa a ser referência visual do plano real, superando as propostas pendentes. Mantidas escolhas e correções da R03; aprovação visual não define cotas executivas. Solicitado commit e push de todo o trabalho acumulado, incluindo documentos e referências antes mantidos apenas localmente.
