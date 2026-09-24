@@ -1,5 +1,7 @@
 # Sala — painel e tamanho da TV
 
+**Continuidade em 23/09/2026:** Elias escolheu desenvolver painel sob medida. Ver [R01](Painel_sob_medida_R01.md): proposta 112/107 condicionada ao cenário de cortina compacta e novo detalhe para soundbar. Não é aprovação de cotas executivas.
+
 ## Atualização vigente — 18/09/2026
 
 Elias aprovou painel liso **off-white fosco, sem ripado**, e prateleiras em **Greenplac Arenza**, com fixações/fios ocultos e acesso à régua. Disposição vigente: **uma prateleira acima e outra abaixo da TV**, conforme correção F159; o arranjo e as alturas históricos abaixo, com ambas sob a TV, não prevalecem. Código da chapa off-white, alturas finais, dimensões, fixação e compatibilidade com aparelhos/Ambilight ainda a detalhar.

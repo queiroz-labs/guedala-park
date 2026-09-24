@@ -1,5 +1,7 @@
 # Sala e jantar
 
+**Painel sob medida — 23/09/2026:** modalidade escolhida. [Desenho proposto R01](Painel_sob_medida_R01.md), com frente/perfil, alturas, cabos, soundbar e circulação. Novas medidas e fixação da soundbar ainda para avaliação.
+
 **Mesa extensível — proposta construtiva, 23/09/2026:** [anteprojeto R00](Mesa_extensivel_anteprojeto_R00.md), com montagem, peças, operação e corte de altura para 150/180 × 75 cm. Direção aceita: guardar a folha inteira em compartimento no banco; acesso e dimensões internas ainda por conferir. Opção 150/180 autorizada no site. [Ganho na entrada](Mesa_circulacao_entrada_2026-09-23.md): plano aceito com três cadeiras na lateral, central mais para fora. Cabeceira sem cadeira; em 150 a faixa nominal até a IB6 passa a 75,25 cm, contra 54,25 da antiga guarda 2+1. Encaixe final pendente. Ferragem específica e base seguem por dimensionar.
 
 ## Imagem da sala aprovada — R03, 20/09/2026

@@ -1,5 +1,7 @@
 # Registro de decisões — Guedala Park
 
+**Painel da sala — sob medida, 23/09/2026:** Elias escolheu fechar o desenho sob medida. Preservada a estética aprovada: off-white fosco, uma prateleira Arenza acima e outra abaixo da TV. [Proposta R01](Sala_e_jantar/Painel_sob_medida_R01.md): painel suspenso 112 × 165, prateleiras 107 × 25/35, projeção instalada de 4 e soundbar em suporte próprio abaixo da tela. Esses detalhes novos estão para avaliação; só a modalidade sob medida foi confirmada nesta rodada. Largura condicionada à cortina/parede real e montagem da TV; 70 cm nominais diante do sofá aberto no novo ensaio. Site não alterado nesta etapa.
+
 ## Mesa extensível — direção salva e atualização do 3D, 23/09/2026
 Elias aceitou salvar o anteprojeto apresentado e pediu atualizar o site 3D com a opção de reduzir a mesa, além de quantificar o ganho de circulação da entrada. Adotada como direção de desenvolvimento a mesa **150/180 × 75 cm**, altura 75, duas metades de 75 e folha central de 30, centro fixo, Arenza/R15 e pedestal preto. **Folha guardada em compartimento no banco aceita como direção**, substituindo a preferência por armazenamento sob o tampo; dimensões internas, acesso e ferragem continuam sujeitos a projeto. Não é liberação para corte.
 
