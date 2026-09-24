@@ -1,35 +1,45 @@
-# Mesa recolhida — quanto libera na entrada
+# Mesa recolhida — cadeiras e circulação da entrada
 
-23/09/2026. Cálculo sobre a geometria do site; cotas de móveis e implantação ainda não conferidas na obra. Unidade: centímetros. Eixo z cresce em direção à entrada/cozinha; centro da mesa em z=465.
+23/09/2026. **Plano aceito por Elias:** guardar as três cadeiras na lateral livre da mesa de 150 cm, com a central um pouco mais para fora, deixando a cabeceira voltada à entrada sem cadeira. Atualização do site autorizada. Esta é a direção de layout; encaixe real e fabricação continuam pendentes.
 
-| Verificação | Aberta 180 | Recolhida 150 | Mudança |
-|---|---:|---:|---:|
-| Ponta do tampo voltada à cozinha/entrada | z=555 | z=540 | Recua 15 |
-| Ponta do tampo voltada ao sofá | z=375 | z=390 | Recua 15 |
-| Frente nominal do corpo da IB6 | z=615,25 | z=615,25 | Não muda |
-| Tampo → corpo da IB6 | 60,25 | 75,25 | +15 brutos |
-| Extremo da cadeira de cabeceira na guarda 2+1 | z=561 | z=561 | Não muda |
-| Cadeira de cabeceira → corpo da IB6 | 54,25 | 54,25 | Zero nessa faixa |
-| Largura transversal reservada para entrada | 85 | 85 | Não muda |
-| Ponta do banco voltada à cozinha | z=555 | z=555 | Não muda |
+## Arranjo em 150 cm
 
-**Resposta:** reduzir 30 cm no total libera 15 cm de tampo em cada ponta, não 30 cm na entrada. Há ganho geométrico real junto ao tampo, mas manter a cadeira na cabeceira pode impedir que ele vire ganho na passagem do conjunto.
+Envelope externo usado: 44 L × 47 P × 94 A cm, conforme registro da Lina de 18/09 em [Sala e jantar](README.md). Não houve nova verificação comercial. Desenho do assento, pés e encosto é simplificado; não é reprodução técnica da cadeira.
 
-## Onde cada número se aplica
+| Cadeira | Centro a partir da ponta do tampo | Faixa longitudinal | Inserção sob o tampo | Projeção externa |
+|---|---:|---:|---:|---:|
+| Próxima ao sofá | 25 | 3–47 | 38 | 9 |
+| Central | 75 | 53–97 | 29,5 | 17,5 |
+| Próxima à entrada | 125 | 103–147 | 38 | 9 |
 
-- Tampo x=615..690; corpo da geladeira x=584,9..645. A faixa comum x=615..645 permite comparar suas posições longitudinais. Nas quinas arredondadas pode haver folga maior; a conta usa a ponta mais avançada do tampo.
-- Cadeira de cabeceira x=631,5..673,5, corpo/encosto termina em z=561 no gabarito atual. A faixa comum com a geladeira é x=631,5..645. Nesse trecho, 615,25−561=54,25 nos dois estados.
-- A reserva de entrada de 85 é transversal, x=655..740, próxima da cozinha. Ela não é a mesma faixa da conta tampo–geladeira. Não soma 15 e não passa para 100.
-- Banco x=685..740 e z=375..555, preservado com 180. Recolher o tampo não encurta o banco. Atrás das cadeiras laterais também não há ganho decorrente apenas desta redução, porque a largura do tampo permanece 75.
+Três larguras de 44 somam 132; os 18 restantes se distribuem em 6 entre cadeiras e 3 em cada ponta. São envelopes em planta, antes de validar contorno real e cantos R15.
 
-Os valores até a IB6 referem-se à frente nominal do **corpo** em z=615,25. A representação inclui puxadores mais salientes, que não foram deduzidos nesses números. Pessoas sentadas, portas abertas e percurso de giro também não foram descontados. Portanto 75,25 não deve ser anunciado como largura livre real de toda a entrada.
+Centro da coluna a 37,5 da borda lateral, com diâmetro **hipotético** de 12: inserção central = 37,5−6−2 = 29,5, deixando 2 até a face da coluna. A cadeira central fica 8,5 mais para fora que as laterais. A coluna de 12 não é especificação estrutural aprovada. A sapata e as travessas reais podem limitar antes.
 
-## Como o site representa a comparação
+Coordenadas globais do 3D: tampo x=615..690, z=390..540. Cadeiras laterais x=606..653, central x=597,5..644,5; faixas longitudinais z=393..437, 443..487 e 493..537. Coluna gráfica x=646,5..658,5. Nenhuma cadeira ultrapassa a ponta z=540 rumo à entrada.
 
-Seletor independente “Mesa extensível”: recolhida 150 ou aberta 180. Duas metades com cantos externos R15; folha central de 30 visível no estado aberto, centro fixo. Estado inicial recolhido. O seletor de cadeiras continua separado: guarda 2+1 ou três cadeiras na lateral. Seis lugares só com a mesa aberta; três cadeiras na lateral do tampo recolhido não significam conforto ou recolhimento validado.
+Em 180 cm, manter as três na lateral com centros a 30/90/150 da ponta, mesmas inserções e centro da mesa em z=465. A redistribuição animada no site é ilustrativa; não certifica trajetória sem colisões. Seis pessoas exigem mesa aberta; mesa recolhida não oferece três lugares confortáveis por lado apenas porque guarda três cadeiras.
 
-As cadeiras **não são movidas automaticamente** ao recolher. Isso preserva a comparação e evita representar inserção impossível como ganho. Modelo gráfico usa cadeiras 42 × 44; o estudo de seleção trabalha com cadeira real candidata de 44 de largura e ainda exige compatibilização.
+## Ganho na entrada
 
-O mecanismo/base foi representado esquematicamente. Folha no banco é direção aceita, mas seu compartimento e retirada precisam ser detalhados; não foi modelado um trajeto automático fictício para guardar a folha. Dimensões estruturais do pedestal, sapata e quadro permanecem pendentes.
+| Verificação nominal | Guarda antiga 2+1, mesa 150 | Plano atual, mesa 150 |
+|---|---:|---:|
+| Tampo → frente do corpo da IB6 | 75,25 | 75,25 |
+| Faixa antes ocupada pela cadeira da cabeceira | 54,25 | 75,25 até o tampo |
+| Ganho nesse trecho com a retirada da cadeira da ponta | — | **21 cm** |
+| Largura transversal reservada à entrada | 85 | 85 |
+| Comprimento do banco | 180 | 180 |
 
-Fontes: geometria em [app.js](../Estudo_interativo/src/app.js), [anteprojeto](Mesa_extensivel_anteprojeto_R00.md), [comparação anterior](Mesa_extensivel_estudo_2026-09-22.md). Nenhuma medição presencial nova nesta rodada.
+A mesa de 180 termina em z=555; a de 150 em z=540. A frente nominal do corpo da geladeira é z=615,25, portanto o tampo deixa 60,25/75,25. O encosto do antigo gabarito de cabeceira terminava em z=561, gerando 54,25. Os 21 cm comparam o novo tampo recolhido com aquele gabarito histórico, não uma cadeira Lina real já instalada.
+
+A conta tampo–IB6 vale na faixa transversal comum x=615..645; a antiga cadeira sobrepunha a IB6 em x=631,5..645. A reserva transversal de entrada de 85 fica em x=655..740 e não é a mesma medida. Banco continua até z=555 e segue como obstáculo próprio. Puxadores, portas, pessoas e giro não foram descontados: **75,25 não é passagem livre comprovada em toda a rota**.
+
+## Contrapartida na lateral
+
+Com limite nominal da sala em x=495, a cadeira central termina externamente em x=597,5, deixando **102,5 cm nominais nesse trecho**. Cadeiras laterais deixam 111 até esse mesmo limite. Não são mínimos garantidos de todo o corredor: outros obstáculos devem ser descontados onde se sobrepõem. Por exemplo, junto à cadeira próxima à entrada, a lixeira/pedal gráfico chega a x=510, reduzindo a faixa local de 111 para cerca de 96. Medidas de referência, sem pessoa sentada.
+
+## Conferências restantes
+
+Testar cadeira real, abertura dos pés, encosto acima do tampo, cantos R15, sapata, guias e altura livre; verificar acesso ao banco e ao compartimento da folha. A prioridade aceita é manter as três cadeiras na própria mesa e liberar a cabeceira. Não reduzir arbitrariamente a base para forçar o encaixe.
+
+Fontes: [geometria do site](../Estudo_interativo/src/app.js), [anteprojeto](Mesa_extensivel_anteprojeto_R00.md), [comparação inicial](Mesa_extensivel_estudo_2026-09-22.md). A análise anterior de 2+1 fica histórica e não é mais o plano de guarda publicado.

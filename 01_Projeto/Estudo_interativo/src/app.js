@@ -4,7 +4,8 @@ const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const WARDROBE_IMAGE='/*WARDROBE*/';
 const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:true,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
-function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,headChairToFridge:615.25-561,entryWidth:85};}
+const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
+function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,nodeSequence={},motion=null;
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
@@ -46,7 +47,8 @@ function add(id,room,x,z,w,d,y,h,mat,kind='box',extra={}){const group=(id||room)
 function slab(id,room,x,z,w,d,y,h,mat,r=0){add(id,room,x,z,w,d,y,h,mat,r?'round':'box',{r});}
 function upper(id,room,x,z,w,d,y,h,mat,along='x',doors=3){add(id,room,x,z,w,d,y,h,mat,'box',{upper:true});for(let i=1;i<doors;i++){if(along==='x')add(id,room,x+w*i/doors-.25,z-.25,.5,d+.5,y,h,'#c9c7bb','box',{upper:true});else add(id,room,x-.25,z+d*i/doors-.25,w+.5,.5,y,h,'#c9c7bb','box',{upper:true});}}
 function leg(id,room,x,z,y,h){add(id,room,x,z,3,3,y,h,'black');}
-function chairDining(x,z,r){const id='diningchairs',room='sala';add(id,room,x,z,42,44,0,85,'head','chair',{rot:r});}
+// Coordinates supplied as the global back edge and longitudinal center; chairs face the bench.
+function chairDining(backX,centerZ){const {width:w,depth:d,height:h}=DINING_CHAIR;add('diningchairs','sala',backX+d/2-w/2,centerZ-d/2,w,d,0,h,'head','chair',{rot:Math.PI/2});}
 function buildScene(){nodes=[];nodeSequence={};
   // Physical footprint: documentary room dimensions and graphically reconstructed connections.
   const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',465,405,30,140,'vinyl'],['circulacao',365,305,130,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['lavanderia',255,539,129,161,'ivory'],['banho',255,405,209,124,'greige']];
@@ -86,8 +88,9 @@ function buildScene(){nodes=[];nodeSequence={};
   slab('table','sala',646.5,459,12,12,2,65.3,'black',6);slab('table','sala',639.5,450,26,30,0,2,'black',13);
   for(const xx of [628,674])add('table','sala',xx,420,3,90,67.3,4.7,'black');
   add('table','sala',631,448,43,34,64.3,3,'black');
-  // Keep chair positions fixed: shrinking the top does not certify deeper chair storage.
-  if(state.dining==='stored'){chairDining(609,384,Math.PI/2);chairDining(609,473,Math.PI/2);chairDining(631.5,517,-Math.PI);}else{for(let i=0;i<3;i++)chairDining(560,384+i*60,Math.PI/2);}
+  // Planned storage: three on the free side, central chair shallower to clear the column.
+  // Spacing follows the tabletop length; movement remains illustrative, not a collision simulation.
+  for(let i=0;i<3;i++){const insertion=i===1?DINING_CHAIR.centerInsertion:DINING_CHAIR.sideInsertion;chairDining(state.dining==='stored'?615+insertion-DINING_CHAIR.depth:560,dining.start+dining.length*(i+.5)/3);}
   // Quarto: more space at wardrobe; no TV and no blue furniture.
   const hx=state.headDepth;
   slab('queen','quarto',hx,120,200,160,0,34,'head',3);slab('queen','quarto',hx,120,200,160,34,26,'offwhite',5);
@@ -203,9 +206,9 @@ function mesh(n){const out=[];
   if(kind==='chair'){
     // Local chair points into +z. rotation aligns compact body with dining edges.
     const local=[];const old=out;
-    extrude(0,0,42,6,43,42,shade(c,.91),2);extrude(0,6,42,38,43,5,c,3);
-    for(const[xx,zz]of [[3,7],[36,7],[3,37],[36,37]])extrude(xx,zz,3,3,0,43,'#45453f');
-    let r=n.rot||0,seen=new Set();for(const f of out)for(const p of f.p){if(seen.has(p))continue;seen.add(p);let xx=p[0]-21,zz=p[2]-22;p[0]=x+21+Math.abs(Math.sin(r))+xx*Math.cos(r)+zz*Math.sin(r);p[2]=z+22-Math.abs(Math.sin(r))-xx*Math.sin(r)+zz*Math.cos(r);}
+    extrude(0,0,w,6,43,h-43,shade(c,.91),2);extrude(0,6,w,d-6,43,5,c,3);
+    for(const[xx,zz]of [[3,7],[w-6,7],[3,d-7],[w-6,d-7]])extrude(xx,zz,3,3,0,43,'#45453f');
+    let r=n.rot||0,seen=new Set();for(const f of out)for(const p of f.p){if(seen.has(p))continue;seen.add(p);let xx=p[0]-w/2,zz=p[2]-d/2;p[0]=x+w/2+xx*Math.cos(r)+zz*Math.sin(r);p[2]=z+d/2-xx*Math.sin(r)+zz*Math.cos(r);}
   }else if(kind==='officechair'){
     extrude(x+7,z+9,w-14,d-24,43,7,'#636d6b',9);extrude(x+9,z+d-18,w-18,9,49,h-49,'#3b4d4c',4);extrude(x+w/2-3,z+d/2-3,6,6,8,35,'#555b56');extrude(x+3,z+d/2,w-6,4,7,3,'#333b39');extrude(x+w/2,z+3,4,d-6,7,3,'#333b39');
     for(const xx of[x+1,x+w-6]){extrude(xx,z+15,5,30,65,4,'#303b37');extrude(xx,z+25,4,4,49,16,'#515c57');}
@@ -327,8 +330,8 @@ function drawLists(){let list=roomItems();const markup=list.map(o=>`<button data
 function setRoom(id){state.room=id;state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[id]??-.62;let room=PROJECT.rooms.find(r=>r.id===id);$('roomHeading').textContent=room.name;$('roomSubtitle').textContent=room.sub.toUpperCase();$('roomNote').textContent=ROOM_NOTES[id];document.querySelectorAll('[data-room]').forEach(b=>b.classList.toggle('active',b.dataset.room===id));if(state.selected&&!roomItems().some(o=>o.id===state.selected))state.selected=null;drawLists();if(!state.selected){$('selectedInfo').innerHTML=`<h2>${esc(room.name)}</h2><p>${esc(ROOM_NOTES[id])}</p><p>Selecione um móvel no desenho ou na lista para consultar medidas e pendências.</p>`;}updateMetrics();requestRender();}
 function setView(v){state.view=v;state.zoom=1;state.pan=[0,0];document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);b.setAttribute('aria-pressed',b.dataset.view===v);});$('sideLabel').hidden=v!=='side';$('sideCutLabel').hidden=v!=='side';$('gestureHint').textContent=v==='iso'?'Arraste para girar · pinça ou roda para aproximar':'Arraste para deslocar · pinça ou roda para aproximar';requestRender();}
 function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-state.sofaGap-state.rackDepth;const metric=(value,title,note,warn=false)=>({value,title,note,warn});
-  const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo → frente da IB6','60,25 → 75,25 cm; ganho bruto de 15 cm',true),metric(state.dining==='stored'?cm(dc.headChairToFridge)+' cm*':'Sem cadeira na ponta','Cabeceira → frente da IB6',state.dining==='stored'?'Guarda 2+1: faixa não aumenta ao recolher':'Cadeiras na lateral; seis lugares só com mesa aberta',true),metric('85 cm*','Largura da entrada','Reserva transversal; não muda com a mesa',true)];
-  if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(state.dining==='stored'?'114 cm*':'65 cm*','Lateral do jantar',state.dining==='stored'?'Gabarito; encaixe real das cadeiras pendente':'Cadeira ocupada 55 cm; largura da mesa igual',true),...diningMetrics];}
+  const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo → frente da IB6','Cabeceira sem cadeira; antes 54,25 cm na guarda 2+1',true),metric(state.dining==='stored'?cm(dc.centerProjection)+' cm*':'Seis só com mesa aberta','Projeção da cadeira central',state.dining==='stored'?'Mais para fora por causa da coluna; encaixe a conferir':'Três cadeiras na lateral; banco preservado',true),metric('85 cm*','Largura da entrada','Reserva transversal; não muda com a mesa',true)];
+  if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(cm(dc.lateralGap)+' cm*','Lateral · cadeira central',state.dining==='stored'?'Até limite da sala; outros obstáculos não descontados':'Cadeira ocupada 55 cm; largura da mesa igual',true),...diningMetrics];}
   else if(state.room==='quarto')list=[metric('55 cm*','Frente do armário','Cama de reserva 160 cm',true),metric((45-state.headDepth)+' cm*','Aos pés da cama','Reserva200 + cabeceira'+state.headDepth,true),metric('20 cm*','Lado da janela','Faixa estreita aceita',true)];
   else if(state.room==='escritorio')list=state.office==='guest'?[metric('40 cm*','Cama → bancada','Sem usuário na estação',true),metric('88 cm*','Lateral da cama','Brutos, fora da cadeira',true),metric('3 cm*','Porta → cama','Margem gráfica crítica',true)]:[metric('82 cm*','Bancada → sofá','Antes da cadeira ocupada',true),metric('195 cm','Topo prateleira','Altura aprovada'),metric('200 × 70','Bancada · cm','Largura ainda proposta',true)];
   else if(state.room==='cozinha')list=[...diningMetrics,metric('61,9 cm*','Filtro + preparo','Faixa compartilhada',true)];
@@ -402,14 +405,14 @@ function init(){
   $('rooms').innerHTML=PROJECT.rooms.map(r=>`<button data-room="${r.id}" class="${r.id==='all'?'active':''}"><strong>${esc(r.name)}</strong><small>${esc(r.sub)}</small></button>`).join('');document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>setRoom(b.dataset.room));
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
-  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: recuo de 15 cm por ponta. Cadeira da cabeceira e banco permanecem no lugar.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
+  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=()=>$('inspector').classList.remove('open');$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R06.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R07.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
   buildMood();buildScene();setRoom('all');setView('iso');selectItem('bonnie',false);$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});

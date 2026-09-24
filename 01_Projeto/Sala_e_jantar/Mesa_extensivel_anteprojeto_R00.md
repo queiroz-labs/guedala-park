@@ -2,6 +2,8 @@
 
 **Atualização — direção aceita em 23/09/2026:** Elias autorizou salvar a proposta e atualizar o site com 150/180. Armazenamento da folha no banco passa a direção aceita para desenvolvimento; nicho, acesso, ferragem, base e conforto seguem a validar. As menções abaixo a alternativa ainda não aprovada descrevem o momento inicial da proposta e ficam superadas por este registro.
 
+**Plano de cadeiras aceito no mesmo dia:** três na lateral livre, central mais para fora para evitar a coluna; cabeceira de entrada sem cadeira. [Envelopes e circulação](Mesa_circulacao_entrada_2026-09-23.md). O antigo arranjo 2+1 deixa de ser a direção de guarda.
+
 23/09/2026. Proposta para avaliação e orçamento, em resposta ao pedido de uma ideia real de construção. Não substitui escolhas aprovadas nem libera corte. Desenvolve a configuração prioritária 150/180 do estudo de 22/09.
 
 ## Solução proposta

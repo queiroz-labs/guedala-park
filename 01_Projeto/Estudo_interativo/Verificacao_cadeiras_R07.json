@@ -1,0 +1,67 @@
+{
+  "pass": true,
+  "states": 4,
+  "viewports": [
+    1440,
+    412,
+    340
+  ],
+  "animation": true,
+  "reducedMotion": true,
+  "moodboard": true,
+  "clearances": [
+    {
+      "table": "compact",
+      "dining": "stored",
+      "length": 150,
+      "start": 390,
+      "end": 540,
+      "gain": 15,
+      "tableToFridge": 75.25,
+      "previousHeadChairToFridge": 54.25,
+      "entryWidth": 85,
+      "centerProjection": 17.5,
+      "lateralGap": 102.5
+    },
+    {
+      "table": "compact",
+      "dining": "use",
+      "length": 150,
+      "start": 390,
+      "end": 540,
+      "gain": 15,
+      "tableToFridge": 75.25,
+      "previousHeadChairToFridge": 54.25,
+      "entryWidth": 85,
+      "centerProjection": 55,
+      "lateralGap": 65
+    },
+    {
+      "table": "extended",
+      "dining": "stored",
+      "length": 180,
+      "start": 375,
+      "end": 555,
+      "gain": 0,
+      "tableToFridge": 60.25,
+      "previousHeadChairToFridge": 54.25,
+      "entryWidth": 85,
+      "centerProjection": 17.5,
+      "lateralGap": 102.5
+    },
+    {
+      "table": "extended",
+      "dining": "use",
+      "length": 180,
+      "start": 375,
+      "end": 555,
+      "gain": 0,
+      "tableToFridge": 60.25,
+      "previousHeadChairToFridge": 54.25,
+      "entryWidth": 85,
+      "centerProjection": 55,
+      "lateralGap": 65
+    }
+  ],
+  "errors": []
+}
