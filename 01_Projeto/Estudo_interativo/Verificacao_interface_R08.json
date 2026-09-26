@@ -1,0 +1,19 @@
+{
+  "revisao": "R08",
+  "data": "2026-09-26",
+  "metodo": "Interacoes reais no navegador integrado e inspecao de DOM/screenshot; sintaxe JavaScript e geracao dos dois HTML conferidas localmente.",
+  "telas": ["1440x1000", "412x915", "340x740", "915x412"],
+  "resultados": {
+    "ambientes_e_vistas_em_340px": "21 combinacoes verificadas, sem transbordamento horizontal, controles ativos e canvas renderizado",
+    "sala": "Sofa esticado, mesa aberta e cadeiras em uso; medidas exibidas de 72 cm e 60,25 cm conferidas",
+    "escritorio": "Trabalho/hospedes e local do PS5 respondem; acionamento por teclado conferido",
+    "lavanderia": "Tres estados do varal respondem; ficha publicada inclui tanque/cesto/Telca/escoamento e pendencias",
+    "cenas": "Receber amigos e restauracao para Dia a dia verificadas",
+    "visita_guiada": "Seis ambientes, progresso e conclusao para visao geral conferidos",
+    "fichas_mobile": "Lista acessivel, abertura do dialogo e fechamento por Escape conferidos",
+    "ajuda": "Abre e fecha; explicacoes de uso presentes",
+    "materiais_e_escolhas": "Abas e filtro por lavanderia conferidos em tela estreita",
+    "console": "Sem erros ou avisos JavaScript na sessao de verificacao"
+  },
+  "limites": "Emulacao de tamanhos de tela, sem ensaio em telefone fisico. Visualizacao nao valida instalacoes, mecanismos ou medidas executivas. Geometria existente preservada, exceto percurso do varal ajustado para vertical conforme decisao; alturas e implantacao continuam ilustrativas."
+}

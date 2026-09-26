@@ -4,7 +4,7 @@ import base64
 root=Path(__file__).resolve().parent
 src=root/'src'
 html=(src/'shell.html').read_text(encoding='utf-8')
-for name,token in [('app.css','/*CSS*/'),('data.js','/*DATA*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
+for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     html=html.replace(token,(src/name).read_text(encoding='utf-8'))
 wardrobe=root.parent/'Portas_e_quarto'/'Guarda_roupa_interior_R02.svg'
 ward='data:image/svg+xml;base64,'+base64.b64encode(wardrobe.read_bytes()).decode('ascii')

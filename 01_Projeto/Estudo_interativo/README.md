@@ -1,4 +1,14 @@
-# Apartamento interativo — R07
+# Apartamento interativo — R08
+
+## Navegação reformulada — 26/09/2026
+
+A abertura apresenta o projeto e explica como explorar. Ambientes em cartões com ícones; mudanças de sofá, mesa, cadeiras, escritório, PS5 e varal em botões visuais, mostrados conforme o cômodo. No computador, o desenho permanece ao lado das opções. No celular, os controles ficam abaixo e “Ver no desenho” retorna à cena.
+
+Visita guiada por seis ambientes, cenas “Dia a dia”, “Receber amigos” e “Hospedar”, botão Recomeçar e ajuda acessível a qualquer momento. A abertura não seleciona um móvel automaticamente. Medidas e ajustes ficam em seções expansíveis. Cores e materiais e Escolhas continuam disponíveis no menu.
+
+Fichas da lavanderia atualizadas com tanque 38 × 35 × 20 cm úteis, cesto basculante removível 45 × 25 × 45 cm, Telca Flex preta e escoamento posterior com tampão/retentor removíveis. O percurso ilustrativo do varal é vertical; posições, alturas, fixações e encaixes continuam para conferência. Não foi produzido detalhamento executivo em 3D.
+
+Verificação: [registro R08](Verificacao_interface_R08.json), incluindo 21 combinações de ambientes/vistas, tour completo, controles, fichas, teclado, abas e tamanhos de computador/celular. As seções abaixo descrevem a base geométrica e recursos mantidos; a experiência inicial e os seletores foram substituídos pela R08.
 
 18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
 

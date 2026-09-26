@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const WARDROBE_IMAGE='/*WARDROBE*/';
-const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:true,inside:false,selected:null};
+const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
 const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
 function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
@@ -12,7 +12,7 @@ const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 function transitionState(key,value){
   const from=new Map(nodes.map(n=>[n.key,{...n}]));state[key]=value;
   motion=reducedMotion.matches?null:{from,start:performance.now(),duration:key==='office'?1700:850,key,goal:value};
-  updateMetrics();drawLists();requestRender();
+  updateMetrics();drawLists();syncExperience();requestRender();
 }
 function sampleMotion(now){
   if(!motion)return;
@@ -169,7 +169,7 @@ function buildScene(){nodes=[];nodeSequence={};
   else add('airfryer','cozinha',520,651,26.4,36,92,29.5,'black','round',{r:5});
   upper('laundryupper','lavanderia',302,665,86,35,165,58,'wood','x',2);
   add('heater','lavanderia',262,675,35,15.7,157,53,'offwhite');add('heater','lavanderia',276,679,8,8,210,35,'#afb3ae');
-  const dy=state.dry==='stored'?231:state.dry==='high'?204:145,dz=state.dry==='stored'?639:564;
+  const dy=state.dry==='stored'?231:state.dry==='high'?204:145,dz=564;
   add('drying','lavanderia',270,dz,100,50,dy,3,'wood','drying',{upper:true});
   add('laundryupper','lavanderia',255,636,133,3,223,17,'wood','box',{upper:true});
   if(state.dry!=='stored')for(const x of[281,303,327,349])add('drying','lavanderia',x,dz+12,13,2,dy-75,74,'#dddccf','box',{upper:true});
@@ -324,10 +324,10 @@ function selectItem(id,open=true){let it=ITEMS.find(o=>o.id===id);if(!it)return;
   $('selectedInfo').innerHTML=`<h2>${esc(it.name)}</h2><span class="badge ${chosen(it)?'':'study'}">${esc(it.choice)}</span><span class="badge ${needsCheck(it)?'study':''}">${esc(it.measure)}</span><canvas id="itemPreview" class="item-preview" aria-label="Volume ilustrativo do móvel selecionado"></canvas><div class="dimensions">${esc(it.dimensions)}</div><dl><dt>Material / cor</dt><dd>${esc(MAT[it.material]?.name||it.material)}</dd>${it.budget?'<dt>Orçamento registrado</dt><dd>'+esc(it.budget)+'</dd>':''}<dt>Conferir antes de executar</dt><dd>${esc(it.notes)}</dd></dl><h3>Origem da decisão</h3><p>${esc(it.source)}</p>`;
   if(id==='wardrobe')$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Organização interna R02 aprovada</summary><a href="${WARDROBE_IMAGE}" target="_blank" rel="noopener"><img src="${WARDROBE_IMAGE}" alt="Desenho cotado do guarda-roupa R02, dois lados iguais com cabides, quatro gavetas e dez pares de tênis" style="width:100%;height:auto"></a><p>Toque no desenho para ampliar. As medidas reais e ferragens continuam a conferir.</p></details>`);
   if(INTERNALS[id]){$('selectedInfo').insertAdjacentHTML('beforeend','<button id="itemStorage" class="storage-link">Ver organização interna →</button>');$('itemStorage').onclick=()=>openStorage(id);}
-  if(open)$('inspector').classList.add('open');drawLists();requestRender();setTimeout(()=>render($('itemPreview'),{...state,room:'all',view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true,selected:null},true,id),0);
+  if(open){infoReturnTarget=document.activeElement;$('inspector').classList.add('open');if(matchMedia('(max-width:1150px)').matches){$('inspector').setAttribute('role','dialog');$('inspector').setAttribute('aria-modal','true');$('closeInfo').focus({preventScroll:true});}else $('inspector').scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'nearest'});}drawLists();requestRender();setTimeout(()=>render($('itemPreview'),{...state,room:'all',view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true,selected:null},true,id),0);
 }
 function drawLists(){let list=roomItems();const markup=list.map(o=>`<button data-item="${o.id}" class="${state.selected===o.id?'active':''}"><span class="color-square" style="background:${color(o.material)}"></span><span>${esc(o.name)}<br><span class="source-label">${esc(o.choice)}</span></span></button>`).join('');$('objectList').innerHTML=markup;$('inlineItems').innerHTML=markup;for(const parent of[$('objectList'),$('inlineItems')])parent.querySelectorAll('[data-item]').forEach(b=>b.onclick=()=>selectItem(b.dataset.item));}
-function setRoom(id){state.room=id;state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[id]??-.62;let room=PROJECT.rooms.find(r=>r.id===id);$('roomHeading').textContent=room.name;$('roomSubtitle').textContent=room.sub.toUpperCase();$('roomNote').textContent=ROOM_NOTES[id];document.querySelectorAll('[data-room]').forEach(b=>b.classList.toggle('active',b.dataset.room===id));if(state.selected&&!roomItems().some(o=>o.id===state.selected))state.selected=null;drawLists();if(!state.selected){$('selectedInfo').innerHTML=`<h2>${esc(room.name)}</h2><p>${esc(ROOM_NOTES[id])}</p><p>Selecione um móvel no desenho ou na lista para consultar medidas e pendências.</p>`;}updateMetrics();requestRender();}
+function setRoom(id){state.room=id;$('inlineItems').hidden=true;$('mobileItems').setAttribute('aria-expanded','false');state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[id]??-.62;let room=PROJECT.rooms.find(r=>r.id===id);$('roomHeading').textContent=room.name;$('roomSubtitle').textContent=room.sub.toUpperCase();$('roomNote').textContent=ROOM_NOTES[id];document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===id);b.setAttribute('aria-pressed',String(b.dataset.room===id));});if(state.selected&&!roomItems().some(o=>o.id===state.selected))state.selected=null;drawLists();if(!state.selected){$('selectedInfo').innerHTML=roomWelcome(id);}syncExperience();updateMetrics();requestRender();}
 function setView(v){state.view=v;state.zoom=1;state.pan=[0,0];document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);b.setAttribute('aria-pressed',b.dataset.view===v);});$('sideLabel').hidden=v!=='side';$('sideCutLabel').hidden=v!=='side';$('gestureHint').textContent=v==='iso'?'Arraste para girar · pinça ou roda para aproximar':'Arraste para deslocar · pinça ou roda para aproximar';requestRender();}
 function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-state.sofaGap-state.rackDepth;const metric=(value,title,note,warn=false)=>({value,title,note,warn});
   const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo → frente da IB6','Cabeceira sem cadeira; antes 54,25 cm na guarda 2+1',true),metric(state.dining==='stored'?cm(dc.centerProjection)+' cm*':'Seis só com mesa aberta','Projeção da cadeira central',state.dining==='stored'?'Mais para fora por causa da coluna; encaixe a conferir':'Três cadeiras na lateral; banco preservado',true),metric('85 cm*','Largura da entrada','Reserva transversal; não muda com a mesa',true)];
@@ -342,7 +342,7 @@ function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-st
 }
 function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(now=>{renderQueued=false;const moving=!!motion;buildScene();sampleMotion(now);if($('model').classList.contains('active'))render($('scene'));if(moving&&!motion&&state.selected)render($('itemPreview'),{...state,view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true},true,state.selected);if(motion)requestRender();});}
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
-function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();window.scrollTo({top:0,behavior:'instant'});}
+function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
 function storageDiagram(id){
  const kind=INTERNALS[id].diagram;
@@ -402,7 +402,7 @@ function init(){
   $('closeStorage').onclick=()=>$('storageDialog').close();
   $('storageDialog').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect();if(e.target===e.currentTarget&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))e.currentTarget.close();});
 
-  $('rooms').innerHTML=PROJECT.rooms.map(r=>`<button data-room="${r.id}" class="${r.id==='all'?'active':''}"><strong>${esc(r.name)}</strong><small>${esc(r.sub)}</small></button>`).join('');document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>setRoom(b.dataset.room));
+  buildRoomNavigation();
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
   for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
@@ -410,16 +410,17 @@ function init(){
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
-  $('closeInfo').onclick=()=>$('inspector').classList.remove('open');$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;};
+  $('closeInfo').onclick=closeInspector;$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;$('mobileItems').setAttribute('aria-expanded',String(!$('inlineItems').hidden));};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R07.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R08.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
-  buildMood();buildScene();setRoom('all');setView('iso');selectItem('bonnie',false);$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
+  buildMood();buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
   for(const[id,value]of [['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
-  $('measureToggle').checked=true;$('upperToggle').checked=true;$('wallToggle').checked=false;$('insideToggle').checked=false;
+  $('measureToggle').checked=false;$('upperToggle').checked=true;$('wallToggle').checked=false;$('insideToggle').checked=false;
+  initializeExperience();
   window.GuedalaStudy={state,items:ITEMS,project:PROJECT,transitionState,pickFace,diningClearance,getNodes:()=>nodes,buildScene:()=>{buildScene();return nodes;},render,tab,setRoom,setView,selectItem};
 }
 init();
