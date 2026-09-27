@@ -1,0 +1,42 @@
+# Despensa acessível — comparação de alternativas
+
+**27/09/2026 — barra discreta para pano em uso aprovada:** Elias respondeu “se for uma barra discreta pode ser” à proposta de uma pequena barra próxima à pia, para deixar o pano estendido e a bancada livre. Discrição é condição da escolha. Posição exata, comprimento, acabamento e fixação a detalhar, conferindo portas, gavetas e circulação. Panos limpos permanecem em caixa no C3. Nenhum modelo ou furação definido.
+
+**Banquinho acessível — 25/09/2026:** Elias exige guarda sempre de fácil acesso e sugere o final do corredor da cozinha, na parede final da lavanderia. Essa preferência substitui guardar o banquinho no baú do banco. Parede final é localização candidata, não encaixe confirmado. Proposta: modelo dobrável próprio para subir, guardado fechado em suporte de parede de retirada simples, baixo o suficiente para alcançar do piso, fora do percurso de máquina, cesto, lixeira, janela e varal. Conferir trecho livre, projeção fechado, altura de pega e base de fixação; não presumir parede livre nem definir furação em fachada/shaft. Quantidade de degraus, altura, modelo, carga e posição exata ainda não escolhidos. O varal e o aquecedor já têm compatibilização pendente; não usar sua área técnica para pendurar o banquinho. Molhos e enlatados passam a ter destino funcional no gavetão após concordância de Elias com a correção de alcance do B1; capacidade conjunta segue pendente. B1 fica priorizado para reservas mais leves e ocasionais.
+
+**Setorização aprovada — 25/09/2026:** Elias confirmou que gostou da organização e definiu óleo e azeite em pé junto do leite. A faixa lateral direita do gavetão reúne leite, sucos, óleo e azeite; temperos permanecem à frente esquerda e alimentos abertos ao fundo esquerdo. Aprovação funcional, sem comprovação de cabimento conjunto das embalagens ou aprovação das dimensões dos organizadores. Molhos e enlatados continuam sem posição demonstrada. Ajustar as larguras dos setores se necessário após conferir embalagens, preservando a frente aprovada 16/16/40.
+
+**Visão frontal aprovada — 25/09/2026:** Elias confirmou “perfeito, aprovado visão frontal” para a composição de duas gavetas superiores de 16 cm brutos cada e um gavetão inferior de 40 cm brutos. Aprovação das proporções e composição frontal apresentadas. Preservados os destinos definidos: talheres/facas, utensílios e mantimentos/bebidas/temperos; panos no C3. Medidas internas, juntas, ferragens/carga e encaixe do conteúdo permanecem para detalhamento; não é liberação de fabricação.
+
+**VIGENTE — implementação aprovada em 25/09/2026:** Elias aprovou a proposta com “podemos implementar”: G1 talheres/facas com 16 cm brutos, G2 utensílios com 16 cm brutos e G3 gavetão de mantimentos/bebidas com 40 cm brutos, somando 72 cm. Temperos em pé em organizador removível na frente do gavetão; panos limpos em caixa no C3 junto dos potes vazios, permanecendo na cozinha. Gaveta baixa de limpeza preservada. Esta decisão substitui quatro gavetas iguais de 18 cm e a alternativa 18/18/36. Proporções e destinos aprovados para projeto; altura útil, ferragens/carga, encaixe de embalagens, panos e dez potes continuam a conferir antes de fabricação. C3 é reposição em altura; barra discreta próxima à pia escolhida em 27/09/2026 para o pano em uso, com posição e especificação a detalhar. Ver Despensa_acessivel_2026-09-25.md e Interior_gavetas_2026-09-25.png. Trechos anteriores conflitantes são histórico.
+
+**Revisão autorizada por Elias — despensa, 25/09/2026:** aceita mudar panos e temperos de lugar desde que permaneçam na cozinha, e reduzir um pouco as outras gavetas para guardar mantimentos. Supera a obrigação anterior de quatro gavetas iguais de 18 cm. Nova proposta, ainda não aprovada em centímetros: G1 16 cm brutos para talheres/facas; G2 16 cm brutos para utensílios; G3 40 cm brutos para mantimentos (total 72 cm). Gaveta baixa de limpeza preservada separadamente. Temperos propostos em organizador removível dentro do gavetão, com frascos em pé e identificação superior; panos limpos/secos em caixa no C3, junto aos potes vazios, com encaixe conjunto ainda a testar. Não declarar cabimento de todo o estoque, nem transferir itens para fora da cozinha. Ver Despensa_acessivel_2026-09-25.md. Desenhos anteriores de quatro gavetas ficam históricos neste ponto.
+
+Continuidade de 25/09/2026. Elias aceitou avançar após a distribuição proposta para B1/B2. Nenhuma alteração nas quatro gavetas aprovadas é aplicada por este estudo.
+
+## Resultado da conferência
+
+Não existe módulo inferior seco livre na implantação atual: os 61,9 cm de preparo recebem quatro gavetas de 18 cm brutos; os 60 cm da pia recebem panelas e utensílios, com interferências hidráulicas; os 65 cm seguintes recebem forno. A gaveta baixa contínua é destinada a limpeza. Não contar o gabinete da pia, a base do forno ou a lavanderia como despensa disponível.
+
+## Alternativas para decisão
+
+| Alternativa | Mudança concreta | Limite |
+|---|---|---|
+| Preservar as quatro gavetas iguais | Manter G1 talheres, G2 utensílios, G3 temperos e G4 panos. Buscar armazenamento seco complementar fora dessa base. | Exige conferir o restante do apartamento antes de propor um móvel ou local; não há posição aprovada ou capacidade comprovada. B1/B2 altos não solucionam acesso diário. |
+| Criar um gavetão de mantimentos | Manter G1/G2 em 18 cm brutos cada e substituir G3/G4 por um gavetão de 36 cm brutos na mesma faixa total de 72 cm. | Perde a igualdade das quatro frentes; temperos e panos precisam de novos destinos. 36 cm brutos não são altura interna. Dimensionar caixa, carga, retirada e embalagens antes de afirmar que leites, sucos e alimentos cabem. |
+
+A segunda alternativa cria altura potencialmente mais útil para embalagens em pé, mas não resolve automaticamente todo o inventário. Não prometer acomodação de garrafas sem dimensões. Eventual frente visual dupla ou gaveta interna não integra esta proposta: adicionaria complexidade e custo antes de fechar a função.
+
+Próxima ação depende da preferência entre preservar as quatro gavetas iguais ou estudar a mudança para duas gavetas e um gavetão. A decisão anterior permanece vigente até manifestação de Elias.
+
+## Desenvolvimento da alternativa autorizada
+
+Propor 16 + 16 + 40 = 72 cm brutos: duas gavetas reduzidas em 2 cm cada e gavetão ampliado em 4 cm frente à alternativa inicial de 36 cm. São módulos verticais incluindo futuras juntas, não alturas internas nem cortes finais de frentes. G1 ocupa z74–90, G2 z58–74 e G3 z18–58 no estudo. G2 depende especialmente da altura de conchas/espremedores; caso não caibam, testar 15 + 18 + 39, sem decidir nova proporção automaticamente.
+
+No gavetão, priorizar bebidas em pé numa zona e alimentos abertos na outra. Temperos passam de deitados para em pé em organizador removível acessível pela frente, junto dos mantimentos. Não acrescentar bandeja suspensa sobre garrafas ou presumir espaço sobre elas. A referência horizontal anterior de 52,7 × 47 cm é apenas envelope de teste; a ferragem para carga maior pode exigir descontos diferentes. Dimensionar para o peso combinado de caixa, bebidas, alimentos e organizadores. Abertura total é relevante para alcançar o fundo.
+
+O estoque de seis leites e três sucos de 1,5 L continua integral no inventário; não afirmar que todos, mais secos e temperos, cabem juntos antes de conferir embalagens. Reservas secas permanecem candidatas ao B1/B2. Óleo, azeite e molhos entram no teste do gavetão, sem encostar no forno nem usar o seu nicho.
+
+Panos: candidato C3 em caixa pequena exclusiva, ao lado das duas pilhas de potes vazios. O antigo teste dos potes ocupa 34 cm de largura, diante de 48,6 cm nominais do C3; os 14,6 cm restantes são saldo geométrico antes de folgas, dobradiças e separação, não largura disponível garantida para caixa. Quantidade de panos e volume dobrado ainda precisam ser compatibilizados sem reduzir os dez potes. C3 fica alto, a 195,8 cm de apoio: adequado apenas se aceito como reposição de panos, com pano em uso num suporte acessível cuja posição será definida. Não apresentar isso como acesso diário confortável ou como arranjo já aprovado.
+
+As alternativas anteriores neste arquivo ficam históricas na parte em que exigiam manter quatro gavetas iguais. Autorização de mudar a função não equivale a aprovação da proposta 16/16/40, da posição C3 ou de medidas executivas.

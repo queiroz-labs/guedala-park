@@ -1,0 +1,96 @@
+<div id="tanque-cesto-r08">
+  <h3>Tanque e cesto · corte de estudo</h3>
+  <div class="viz-row text-small" aria-label="Legenda">
+    <span><span class="tc-swatch tc-basket"></span>Cesto em movimento</span>
+    <span><span class="tc-swatch tc-reserve"></span>Reserva para conexões</span>
+    <span><span class="tc-swatch tc-stone"></span>Pedra</span>
+  </div>
+  <div class="tc-drawing"></div>
+  <label class="form-label" for="tc-angle">Abertura do cesto <output class="tabular-nums" id="tc-angle-value">29°</output></label>
+  <input class="form-range" id="tc-angle" type="range" min="0" max="55" step="1" value="29" aria-describedby="tc-state">
+  <div id="tc-state" class="text-small tabular-nums" aria-live="polite"></div>
+  <div class="text-small text-muted">Reserva calculada · peças e ferragens a conferir</div>
+</div>
+<style>
+  #tanque-cesto-r08 .tc-drawing { width:100%; }
+  #tanque-cesto-r08 .tc-section { display:block; width:100%; overflow:visible; }
+  #tanque-cesto-r08 .tc-section text { fill:var(--foreground); font-size:var(--font-size-base); font-weight:400; }
+  #tanque-cesto-r08 .tc-swatch { display:inline-block; width:12px; height:12px; margin-right:5px; }
+  #tanque-cesto-r08 .tc-basket { background:var(--viz-series-1); }
+  #tanque-cesto-r08 .tc-reserve { background:var(--viz-series-2); }
+  #tanque-cesto-r08 .tc-stone { background:var(--muted-foreground); }
+  #tanque-cesto-r08 #tc-state { margin-top:5px; }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('tanque-cesto-r08');
+  const host = root.querySelector('.tc-drawing');
+  const input = root.querySelector('#tc-angle');
+  const output = root.querySelector('#tc-angle-value');
+  const status = root.querySelector('#tc-state');
+  let angle = 29;
+  const initial = window.openai?.widgetState?.privateContent?.angle;
+  if (Number.isFinite(initial)) angle = Math.max(0, Math.min(55, initial));
+  const pointsAt = a => {
+    const t = a * Math.PI / 180;
+    return [[0,0],[-25,0],[-25,45],[0,45]].map(([u,v]) => [56+u*Math.cos(t)+v*Math.sin(t),12-u*Math.sin(t)+v*Math.cos(t)]);
+  };
+  function draw() {
+    const width = Math.max(280, host.getBoundingClientRect().width);
+    const scale = Math.min((width-38)/100,4.5);
+    const left = (width-100*scale)/2;
+    const top = 26;
+    const height = top+98*scale+28;
+    const x = v => left+v*scale;
+    const y = v => top+(96-v)*scale;
+    const points = p => p.map(([a,b])=>`${x(a)},${y(b)}`).join(' ');
+    const rect = (a,b,c,d,attrs) => `<rect x="${x(a)}" y="${y(d)}" width="${(c-a)*scale}" height="${(d-b)*scale}" ${attrs}/>`;
+    const line = (a,b,c,d,attrs) => `<line x1="${x(a)}" y1="${y(b)}" x2="${x(c)}" y2="${y(d)}" ${attrs}/>`;
+    const current = pointsAt(angle);
+    const ztop = Math.max(...current.map(p=>p[1]));
+    const path = Array.from({length:56},(_,i)=>pointsAt(i)[2]);
+    host.innerHTML = `<svg class="tc-section" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="tc-title tc-desc">
+      <title id="tc-title">Movimento do cesto abaixo do tanque</title>
+      <desc id="tc-desc">Corte lateral idealizado. Pedra com topo a 92 cm e fundo externo a 70 cm. Reserva posterior para conexão entre 63 e 70 cm de altura, até 33 cm da parede. Cesto de 25 por 45 cm gira ao redor do eixo a 56 cm da parede e 12 cm do piso. Nenhuma peça hidráulica real está representada.</desc>
+      ${rect(0,0,28,70,'fill="var(--viz-series-2)" opacity="0.07"')}
+      ${rect(21,63,33,70,'fill="var(--viz-series-2)" opacity="0.25"')}
+      ${line(0,0,0,94,'stroke="var(--muted-foreground)" stroke-width="1.5"')}
+      ${line(0,0,99,0,'stroke="var(--muted-foreground)" stroke-width="1.5"')}
+      ${rect(0,90,23,92,'fill="var(--muted-foreground)" opacity="0.45"')}
+      ${rect(58,90,75,92,'fill="var(--muted-foreground)" opacity="0.45"')}
+      ${rect(21,70,23,90,'fill="var(--muted-foreground)" opacity="0.45"')}
+      ${rect(58,70,60,90,'fill="var(--muted-foreground)" opacity="0.45"')}
+      ${rect(21,70,60,72,'fill="var(--muted-foreground)" opacity="0.45"')}
+      <polygon points="${points(pointsAt(0))}" fill="none" stroke="var(--muted-foreground)" stroke-width="1" stroke-dasharray="4 4"/>
+      <polyline points="${points(path)}" fill="none" stroke="var(--viz-series-1)" stroke-width="1" opacity="0.4"/>
+      <polygon points="${points(current)}" fill="var(--viz-series-1)" fill-opacity="0.15" stroke="var(--viz-series-1)" stroke-width="1.5"/>
+      <circle cx="${x(56)}" cy="${y(12)}" r="3" fill="var(--foreground)"/>
+      ${line(36,63,36,70,'stroke="var(--foreground)" stroke-width="1"')}
+      ${line(34.5,63,37.5,63,'stroke="var(--foreground)" stroke-width="1"')}
+      ${line(34.5,70,37.5,70,'stroke="var(--foreground)" stroke-width="1"')}
+      <text x="${x(39)}" y="${y(66.5)+4}">7 cm</text>
+      <text x="${x(40.5)}" y="${y(81)}" text-anchor="middle">Tanque</text>
+      <text x="${x(0)}" y="${y(96)-6}">Parede</text>
+      <text x="${x(75)}" y="${y(94)-2}" text-anchor="end">92 cm</text>
+      <text x="${x(98)}" y="${y(0)+21}" text-anchor="end">Piso</text>
+      <text x="${x(14)}" y="${y(8)}" text-anchor="middle">≤ 28 cm</text>
+    </svg>`;
+    input.value = String(angle);
+    output.textContent = `${angle}°`;
+    status.textContent = `Topo do cesto: ${ztop.toFixed(1).replace('.',',')} cm do piso · curso de 0 a 55°`;
+  }
+  input.addEventListener('input',()=>{
+    angle = Number(input.value);
+    draw();
+  });
+  input.addEventListener('change',()=>{
+    if (window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{angle,context:'Exploração do giro; não aprova dimensões ou peças.'},privateContent:{angle}}).catch(()=>{});
+  });
+  window.addEventListener('openai:set_globals',event=>{
+    const saved=event.detail?.globals?.widgetState?.privateContent?.angle;
+    if(Number.isFinite(saved)){angle=Math.max(0,Math.min(55,saved));draw();}
+  });
+  new ResizeObserver(draw).observe(host);
+  draw();
+})();
+</script>

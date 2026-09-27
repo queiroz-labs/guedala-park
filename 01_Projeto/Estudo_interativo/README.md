@@ -1,4 +1,20 @@
-# Apartamento interativo — R07
+# Apartamento interativo — R08
+
+## Revisão R09 — cozinha e lavanderia, 27/09/2026
+
+Site e moodboard atualizados com as decisões até o aceite do formato quadrado do plafon, condicionado à abertura livre dos aéreos. Fichas, materiais e interiores incluem gavetas 16/16/40 cm, cabos fixos com cabeças retiradas, cesto liso com saco removível, ferragens, pintura fosca, faixa de pedra, tomadas 20 A e três comandos de luz 3000 K. O desenho usa o cenário de bancada 63 cm e módulos 60/65/61,9 cm; aéreos C/D e frente do forno são estudos condicionais identificados nas fichas. Tanque 38 × 35 cm em planta, cesto em corte e chapa única do varal atualizados. Torre, tomada da lavanderia e sua luminária não recebem posições inventadas no 3D. Plafon da cozinha tem eixo transversal conferido; posição longitudinal e cobertura ainda ilustrativas.
+
+Nesta rodada, Elias autorizou também publicar todo o trabalho acumulado no repositório. Isso supera as restrições históricas de envio apenas do site/moodboard abaixo. Caches e temporários ficam locais; o artefato Pages permanece restrito aos arquivos do site.
+
+## Navegação reformulada — 26/09/2026
+
+A abertura apresenta o projeto e explica como explorar. Ambientes em cartões com ícones; mudanças de sofá, mesa, cadeiras, escritório, PS5 e varal em botões visuais, mostrados conforme o cômodo. No computador, o desenho permanece ao lado das opções. No celular, os controles ficam abaixo e “Ver no desenho” retorna à cena.
+
+Visita guiada por seis ambientes, cenas “Dia a dia”, “Receber amigos” e “Hospedar”, botão Recomeçar e ajuda acessível a qualquer momento. A abertura não seleciona um móvel automaticamente. Medidas e ajustes ficam em seções expansíveis. Cores e materiais e Escolhas continuam disponíveis no menu.
+
+Fichas da lavanderia atualizadas com tanque 38 × 35 × 20 cm úteis, cesto basculante removível 45 × 25 × 45 cm, Telca Flex preta e escoamento posterior com tampão/retentor removíveis. O percurso ilustrativo do varal é vertical; posições, alturas, fixações e encaixes continuam para conferência. Não foi produzido detalhamento executivo em 3D.
+
+Verificação: [registro R08](Verificacao_interface_R08.json), incluindo 21 combinações de ambientes/vistas, tour completo, controles, fichas, teclado, abas e tamanhos de computador/celular. As seções abaixo descrevem a base geométrica e recursos mantidos; a experiência inicial e os seletores foram substituídos pela R08.
 
 18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
 

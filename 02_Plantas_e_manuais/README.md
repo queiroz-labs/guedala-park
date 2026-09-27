@@ -4,6 +4,8 @@
 
 ## Documentos do apartamento
 
+- [Convenção / minuta do Guedala Park III — arquivo R01](convencao_de_condominio_r01_compressed.pdf): 42 páginas, assinatura em 10/05/2023; publicação oito meses após o memorial segundo Elias. [Impactos na reforma, piso, marcenaria e ar-condicionado](../01_Projeto/Convencao_e_ata_impactos_no_projeto.md). Planta do pavimento tipo na p. 14; cópia comprimida com limitações de leitura.
+- [Ata da comissão de representantes — arquivo R00](ata_guedala_iii_r00.pdf): assembleia de 13–15/09/2023, 8 páginas com anexos. Documento de acompanhamento da incorporação; contém dados pessoais de participantes. Original preservado localmente, sem publicação no site.
 - [Memorial oficial Cury — Guedala Park III, R00 de 03/04/2023](Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf): documento de entrega recebido do portal em 12/09/2026, preservado sem edição. [Leitura e impactos no projeto](../01_Projeto/Memorial_Cury_entrega_e_impactos.md).
 - [Planta oficial](Planta_oficial.pdf): referência documental original.
 - [Memorial do apartamento v2](Memorial_do_apartamento_v2.pdf): memorial de escolhas de interiores de Elias, distinto do memorial oficial de entrega; complementada pelo [registro atual](../01_Projeto/Registro_de_decisoes.md).
@@ -34,3 +36,7 @@ Os nomes preservam fabricante, modelo e versão para evitar confusão. A presen�
 ## Aquecedor escolhido — F107
 
 - [Rinnai E21 REU-E211 FEH — manual oficial 176](Manuais/Rinnai_E21_Manual_176.pdf), duas folhas; Rev.26292 – D08092 – RA04352. Fonte conferida em 12/09/2026.
+
+## Piso Tarkett — consulta em 25/09/2026
+
+Catálogos oficiais preservados em Manuais/Pisos: Tarkett_catalogo_Ambienta_consulta_2026-09-25.pdf e Tarkett_Artground_consulta_2026-09-25.pdf. Datas dos nomes indicam consulta. [Conferência do Olmo e aplicação no projeto](../01_Projeto/Revisao_piso_e_armarios_2026-09-25.md).

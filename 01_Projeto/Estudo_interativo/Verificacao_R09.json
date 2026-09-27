@@ -1,0 +1,90 @@
+{
+  "result": "PASSOU",
+  "revision": "R09 · cozinha e lavanderia · 27/09/2026",
+  "items": 67,
+  "interiors": 12,
+  "cases": [
+    {
+      "dry": "stored",
+      "inside": false,
+      "office": "work",
+      "nodes": 248
+    },
+    {
+      "dry": "stored",
+      "inside": false,
+      "office": "guest",
+      "nodes": 248
+    },
+    {
+      "dry": "stored",
+      "inside": true,
+      "office": "work",
+      "nodes": 304
+    },
+    {
+      "dry": "stored",
+      "inside": true,
+      "office": "guest",
+      "nodes": 304
+    },
+    {
+      "dry": "high",
+      "inside": false,
+      "office": "work",
+      "nodes": 252
+    },
+    {
+      "dry": "high",
+      "inside": false,
+      "office": "guest",
+      "nodes": 252
+    },
+    {
+      "dry": "high",
+      "inside": true,
+      "office": "work",
+      "nodes": 308
+    },
+    {
+      "dry": "high",
+      "inside": true,
+      "office": "guest",
+      "nodes": 308
+    },
+    {
+      "dry": "low",
+      "inside": false,
+      "office": "work",
+      "nodes": 252
+    },
+    {
+      "dry": "low",
+      "inside": false,
+      "office": "guest",
+      "nodes": 252
+    },
+    {
+      "dry": "low",
+      "inside": true,
+      "office": "work",
+      "nodes": 308
+    },
+    {
+      "dry": "low",
+      "inside": true,
+      "office": "guest",
+      "nodes": 308
+    }
+  ],
+  "checks": [
+    "Unique item ids",
+    "12 combinations of drying/cutaway/office states",
+    "Finite positive dimensions",
+    "Exactly one PS5",
+    "Every drawn item has a card",
+    "G1/G2/G3 and fixed cleaning handles",
+    "Ceiling lamp door clearance condition",
+    "Laundry paint continuity"
+  ]
+}

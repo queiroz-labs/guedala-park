@@ -1,0 +1,81 @@
+from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
+P=Path(__file__).parent
+BG='#f7f4ee'; INK='#263a3d'; BLUE='#315c67'; WOOD='#cbaa7e'; STONE='#e4d8c2'; RED='#a63d2b'; GREY='#c6cbcb'
+def font(n): return ImageFont.truetype('C:/Windows/Fonts/arial.ttf',n)
+def sheet(title,sub,h=1250):
+ im=Image.new('RGB',(1500,h),BG);d=ImageDraw.Draw(im);d.text((55,30),title,font=font(35),fill=INK);d.text((55,85),sub,font=font(21),fill=INK);return im,d
+def txt(d,x,y,s,n=20,c=INK):d.text((x,y),s,font=font(n),fill=c)
+def box(d,b,c,label=None):
+ d.rectangle(b,fill=c,outline=INK,width=2)
+ if label: txt(d,b[0]+9,b[1]+9,label,18)
+im,d=sheet('COZINHA | Frente de estudo','25/09/2026 · medidas em cm · posição frontal esquemática · não liberado para fabricação',1280)
+s=3.7;x0=80;floor=1100
+def X(x):return x0+x*s
+def Y(z):return floor-z*s
+def r(x,z,w,h,c,l=None):box(d,(X(x),Y(z+h),X(x+w),Y(z)),c,l)
+def line(x,z,w):d.line((X(x),Y(z),X(x+w),Y(z)),fill=INK,width=3)
+# Crop covers appliance reservation and three base units, not entrance/laundry.
+r(0,0,80.1,196.6,'#e6e6e0');r(10,0,60.1,186.6,GREY,'IB6S*');line(10,62,60.1)
+r(0,196.6,80.1,58.4,BLUE);d.line((X(40.05),Y(198.4),X(40.05),Y(253.2)),fill=BG,width=2)
+r(80.1,18,61.9,72,WOOD);r(142,18,60,72,WOOD)
+for z in [58,74]:line(80.1,z,61.9)
+for z,label in [(84,'Talheres · 16*'),(68,'Utensílios · 16*'),(40,'Mantimentos · 40*')]:txt(d,X(82),Y(z),label,17)
+d.line((X(172),Y(18),X(172),Y(90)),fill=INK,width=2)
+txt(d,X(146),Y(50),'Pia: duas portas',18)
+r(80.1,3,121.9,12,'#a98b64');txt(d,X(85),Y(12),'Gaveta baixa contínua • recuada',17)
+r(80.1,90,186.9,2,STONE);r(80.1,92,186.9,10,STONE)
+r(202,0,65,90,'#eee4d6');txt(d,X(205),Y(80),'FORNO',22);txt(d,X(205),Y(69),'Posição vertical',17);txt(d,X(205),Y(61),'a compatibilizar',17)
+line(211,92,47)
+r(80.1,194,69.7,61,BLUE);line(80.1,223.4,69.7)
+r(90.1,155,46.1,29,GREY,'ME23P');r(90.1,184,46.1,10,'#edd2c9');txt(d,X(92),Y(192),'10 cm*',17,RED)
+line(80.1,155,69.7)
+r(149.8,153.2,52.2,101.8,BLUE)
+for z in [174.8,195.8,223.4]:d.line((X(151.6),Y(z),X(200.2),Y(z)),fill=BG,width=2)
+r(202,195.8,65,59.2,BLUE);d.line((X(234.5),Y(197.6),X(234.5),Y(253.2)),fill=BG,width=2)
+r(204.5,174,60,17.6,GREY,'Depurador')
+r(85.1,92,16,35,GREY);txt(d,X(84),Y(141),'PE12G',17)
+line(154,92,36);d.line((X(175),Y(92),X(175),Y(125)),fill=INK,width=5)
+for x,w,l in [(0,80.1,'80,1*'),(80.1,61.9,'61,9'),(142,60,'60'),(202,65,'65')]:
+ d.line((X(x),1140,X(x+w),1140),fill=INK,width=2);txt(d,X(x)+w*s/2-26,1150,l,20)
+txt(d,1120,170,'Aéreos: topo 255',20);txt(d,1120,202,'Laje hipotética 257',20)
+txt(d,1120,340,'Divisões internas',20);txt(d,1120,370,'mostradas nos aéreos.',20)
+txt(d,1120,450,'*10 cm escolhidos;',20,RED);txt(d,1120,480,'manual registra 30.',20,RED)
+txt(d,1120,560,'Pedra baixa: 10 cm',20);txt(d,1120,590,'apenas para ensaio.',20)
+txt(d,1120,670,'Bancada: 92',20);txt(d,1120,700,'Base de estudo.',20)
+txt(d,55,1210,'*Reserva IB6 herdada: conferir manual da versão IB6S. Entrada 85 cm e lavanderia fora deste recorte.',20)
+txt(d,1120,800,'2 gavetas + gavetão',22);txt(d,1120,838,'*16 / 16 / 40 cm.',20);txt(d,1120,870,'Frente e altura útil',20);txt(d,1120,902,'menores após folgas.',20)
+im.save(P/'Frente_cozinha_estudo_2026-09-25.png')
+im,d=sheet('COZINHA | Cortes de compatibilização','Cotas de estudos arquivados · micro em proporção; forno esquemático · sem liberação executiva',1130)
+txt(d,65,145,'1. MICRO-ONDAS — perfil',26)
+# depth horizontal, heights screen relative
+sc=4.3;wx=80;fy=790
+def rr(x,z,w,h,c):box(d,(wx+x*sc,fy-(z+h)*sc,wx+(x+w)*sc,fy-z*sc),c)
+rr(0,0,61,2,STONE);rr(0,2,2,10,STONE)
+# relative to counter top 92: shelf top 63
+rr(0,61.2,45.2,1.8,WOOD);rr(0,102,35,25,BLUE)
+rr(10,63,35.2,29,GREY);rr(10,92,35.2,10,'#edd2c9')
+d.line((wx+35*sc,fy-130*sc,wx+35*sc,fy-55*sc),fill=RED,width=2)
+txt(d,330,230,'Aéreo: 35 de profundidade',19)
+txt(d,330,340,'Reserva do micro: 45,2',19)
+txt(d,330,380,'Diferença: 10,2 cm',21,RED)
+txt(d,330,430,'Corpo 35,2 + 10 atrás',18)
+txt(d,65,830,'Apoio a 155 do piso; topo do micro a 184.',21)
+txt(d,65,867,'Prateleira acima: face inferior a 194 (10 livres).',20)
+txt(d,65,904,'Manual registrado: 30 livres → face inferior a 214.',20,RED)
+txt(d,65,950,'45,2 é reserva geométrica, não medida de corte.',20)
+txt(d,785,145,'2. FORNO / COOKTOP — altura',26)
+box(d,(790,270,1130,282),STONE);txt(d,1150,260,'Bancada 92',20)
+box(d,(820,282,1090,320),GREY);txt(d,1150,300,'d = descida real',20)
+txt(d,1150,330,'do cooktop',20)
+d.line((970,320,970,430),fill=RED,width=3);txt(d,990,360,'20 cm',22,RED)
+box(d,(835,430,1105,760),GREY);txt(d,875,490,'FORNO',28);txt(d,865,535,'Envelope externo',20);txt(d,890,575,'61 cm*',22)
+d.line((790,805,1130,805),fill=INK,width=3);txt(d,1150,787,'Piso',20)
+txt(d,785,830,'Topo do forno ≤ 72 − d (bancada a 92).',21)
+txt(d,785,867,'Envelope externo de 61 → base ≤ 11 − d.*',20)
+txt(d,785,904,'Não repetir aqui a base de 18 cm da pia.',20,RED)
+txt(d,785,950,'*Envelope externo não define apoio nem nicho.',20)
+txt(d,55,1035,'O corte do forno usa d simbólico: não há medida confirmada do avanço do cooktop sob a pedra.',21)
+txt(d,55,1072,'Fixação, recortes, bordas da frente, ventilação inferior e profundidade do nicho exigem desenho do fabricante.',20)
+im.save(P/'Cortes_aparelhos_estudo_2026-09-25.png')
+print('Geradas frente e cortes de estudo.')

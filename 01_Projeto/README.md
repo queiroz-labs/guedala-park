@@ -2,6 +2,8 @@
 
 [Início](../README.md) · [Resumo do projeto](Resumo.md) · [Registro de decisões](Registro_de_decisoes.md)
 
+[Decisões e próximos passos](Painel_de_decisoes.md) — índice local de acompanhamento.
+
 - [Apartamento interativo — computador e celular](Estudo_interativo/Guedala_Park_Interativo.html)
 - [Moodboard atualizado, medidas e escolhas](../03_Referencias/Moodboard_atualizado_R01.html)
 
@@ -13,3 +15,4 @@
 - [Escritório e hóspedes](Escritorio/README.md)
 - [Portas e quarto](Portas_e_quarto/README.md)
 - [Medidas e instalações](Medidas/README.md)
+- [Revisão do piso Olmo e dos armários afetados pela convenção](Revisao_piso_e_armarios_2026-09-25.md)

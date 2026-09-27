@@ -1,5 +1,33 @@
 # Publicação do estudo — 13/09/2026
 
+## Autorização vigente — 27/09/2026
+
+Pedido explícito de Elias: “sobe tudo que fizemos ate o moemnto no github (commit push) e atualiza o site tambem com as novas atualizações”. Autoriza o envio do trabalho acumulado, incluindo documentos, desenhos, manuais e fontes, além da atualização do site e moodboard R09. Supera o escopo antigo restrito a arquivos públicos selecionados. Não alterar visibilidade ou configurações do repositório. Temporários e caches brutos ficam locais; evidências úteis e três ensaios interativos foram preservados em pastas do projeto. Publicação pelo fluxo Pages existente após push na main; verificar a versão online correspondente ao commit.
+
+## Navegação amigável R08 — 26/09/2026 · publicado
+
+Reformulação solicitada e publicação autorizada por Elias. Cartões de ambientes com ícones, botões visuais contextuais para as mudanças dos móveis, três cenas prontas, visita guiada por seis ambientes e ajuda de uso. Desenho ao lado dos controles no computador; disposição adaptada ao celular. Medidas e ajustes agrupados em seções expansíveis. A pedido de Elias, título final **“Conheça o meu apê”**, também aplicado ao título da página e à linguagem de apresentação.
+
+Atualizadas as fichas da lavanderia com tanque integrado, cesto basculante removível, Telca Flex preta e escoamento posterior aprovado para detalhamento. Movimento ilustrativo do varal corrigido para vertical; alturas, posição, fixações e encaixes continuam em estudo. Nenhuma geometria executiva de tanque/sifão/mangueira foi inventada.
+
+Publicação realizada pela cópia isolada `tmp/site-amigavel`, branch `codex/site-amigavel-20260926`, criada após o gerenciador do aplicativo não reconhecer a raiz externa ao repositório. Commit da reformulação `1954e7671e418acadd9e98ac855f12cdc204320d`; texto final no commit **`bed9cfe383ada9ebd253540910ecdfb99590fabf`**. [GitHub Actions concluído com sucesso](https://github.com/queiroz-labs/guedala-park/actions/runs/36215512158). Enviados somente 11 arquivos relacionados ao site, geração, documentação e verificação; demais alterações locais do projeto preservadas.
+
+Confirmados no site público o título corrigido, o seletor da mesa funcionando e a página de cores e materiais ativa no endereço `/moodboard/`, sem erros JavaScript observados. Validação local em 1440 × 1000, 412 × 915, 340 × 740 e 915 × 412; 21 combinações de ambientes/vistas, tour completo, estados principais, filtros, teclado e fichas móveis. [Registro da verificação](Verificacao_interface_R08.json). Arquivos do site sincronizados na cópia principal; esta mantém o histórico local e documentos ainda não publicados.
+
+## Três cadeiras na lateral R07 — 23/09/2026 · publicado
+
+Plano aceito por Elias e publicado: três cadeiras guardadas na lateral livre, central 8,5 cm mais para fora, cabeceira sem cadeira. Envelope Lina 44 × 47 × 94, com formas simplificadas; inserções 38/29,5/38. Posições acompanham os comprimentos 150/180; banco e centro do tampo preservados. Cotagem nominal tampo–IB6 permanece 75,25 na mesa de 150, contra 54,25 da antiga cadeira na ponta. Atualizados fichas, métricas, moodboard e registros; encaixe físico não liberado.
+
+Commit `58320d5b6a05507a60b8a5ff7840a0629015d869`; [publicação concluída](https://github.com/queiroz-labs/guedala-park/actions/runs/35947572900). Testados quatro estados mesa/cadeiras, envelopes de 44 × 47, folga central de 2 no gabarito, nenhuma cadeira ultrapassando a ponta, animações, movimento reduzido, telas 1440/412/340 e moodboard. Sem erros JavaScript. [Verificação R07](Verificacao_cadeiras_R07.json). Site público e moodboard responderam HTTP 200; versão exata e novo seletor confirmados.
+
+## Mesa extensível R06 — 23/09/2026 · publicado
+
+A pedido de Elias, salvo o anteprojeto 150/180 × 75 e publicado o seletor de mesa recolhida/aberta, com centro fixo, folha central e cantos externos R15. Banco e cadeiras mantidos na comparação. Cotas e indicadores distinguem o ganho bruto de 15 cm por ponta, tampo–IB6 60,25/75,25 e faixa da cadeira de cabeceira–IB6 de 54,25 cm inalterada. Reserva transversal da entrada permanece 85. Valores nominais, antes de puxadores, pessoas e portas.
+
+Commit `ec3378796379a7f11535b6505fa29409faccf940`; [publicação concluída](https://github.com/queiroz-labs/guedala-park/actions/runs/35946691119). Endereço público e moodboard responderam HTTP 200, com commit exato em versao.json e seletor novo confirmado. Testados quatro estados mesa/cadeiras, animação e reversão, movimento reduzido, geometria e cotas, telas 1440/412/340 e moodboard, sem erros JavaScript. Ver [verificação R06](Verificacao_mesa_R06.json).
+
+Incluídos nesta publicação o site, estudos da mesa e somente os novos trechos de decisão desta solicitação. Alterações anteriores de iluminação ficaram locais. Ferragem, estabilidade e encaixe das cadeiras continuam pendentes; visualização não libera fabricação.
+
 ## Envio completo autorizado — 21/09/2026
 
 Após aprovar a referência R03 do quarto, Elias solicitou explicitamente commit e push de tudo feito até agora. Esta autorização amplia o escopo anterior restrito ao site/moodboard para incluir o histórico completo de documentos, estudos e referências do projeto. Os registros anteriores descrevem o escopo daqueles envios, não impedem o envio completo agora solicitado. O artefato do Pages continua restrito aos arquivos definidos em preparar_pages.py; as imagens aprovadas ficam no repositório e nos registros do projeto.

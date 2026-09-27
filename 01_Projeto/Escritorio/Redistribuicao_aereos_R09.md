@@ -1,5 +1,7 @@
 # Redistribuição dos aéreos — ensaio F97
 
+**Compatibilização com a convenção — 25/09/2026:** aéreo principal preservado em 200 × 55 × 35 cm. A implantação sugere faixa inicial de cerca de 10 cm junto à parede externa; restante em divisa com dormitório. Medir transição e compatibilizar proteção mínima de 1 cm sem aplicar automaticamente à parede inteira. Gabinete dedicado ao PC continua excluído. [Revisão](../Revisao_piso_e_armarios_2026-09-25.md).
+
 ## Revisão aprovada — F155
 
 Elias retira a exigência do módulo dedicado à caixa do gabinete. Guardará a caixa em lugar a definir, possivelmente na cama-baú queen; não considerar cabimento comprovado. Excluir do projeto o módulo64 ×60 ×43 cm na parede direita próximo à janela, sem substituí-lo automaticamente por outro armário.

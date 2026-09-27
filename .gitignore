@@ -7,6 +7,9 @@
 /tmp/
 __pycache__/
 
+# Respostas brutas de pesquisa; fontes e resultados úteis ficam nos estudos.
+/.firecrawl/
+
 # Saida gerada para o GitHub Pages
 /.site/
 

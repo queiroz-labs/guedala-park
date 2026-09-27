@@ -1,6 +1,6 @@
 # Resumo do projeto
 
-[Voltar ao início](../README.md) · [Consultar todas as decisões e fontes](Registro_de_decisoes.md)
+[Voltar ao início](../../../README.md) · [Consultar todas as decisões e fontes](../../../01_Projeto/Registro_de_decisoes.md)
 
 Base: decisões registradas até **12/09/2026**. Este resumo facilita a leitura; os detalhes e o histórico ficam no registro de decisões. Uma escolha confirmada não significa compra realizada ou instalação aprovada.
 
@@ -12,12 +12,12 @@ Apartamento de cerca de 40 m² para dois moradores. A ideia é uma casa clara, o
 
 | Ambiente | O que está definido | O que falta resolver |
 |---|---|---|
-| [Cozinha](Cozinha/README.md) | Geladeira → air fryer → preparo → pia/purificador → cooktop com forno abaixo, seguindo para a lavanderia. Superiores azul-petróleo, inferiores Arenza e granito Branco Itaúnas. | Encaixe dos módulos, circulação, instalações e organização interna. Altura da pedra de 92 cm é provisória. |
-| [Pia e purificador](Cozinha/README.md) | Cuba Dora, torneira Apurema, tábua parcial de madeira e escorredor removível. PE11X girado de lado, com apoio de aparência fina em Arenza e abertura no aéreo. | Altura e posição exatas do filtro, estrutura do apoio, ventilação, mangueira da torneira e encaixe da tábua. Base do filtro a 125 cm é hipótese. |
-| [Lavanderia](Lavanderia/README.md) | LG VC4, tanque esculpido, cesto removível e recicláveis separados. Varal ocasional, oculto por testeira Arenza, com manivela removível. | Aquecedor, fixação e posição do varal, tensões e cabimento. Meta de 30 kg e grelha de 100 × 50 cm são propostas de estudo. |
-| [Sala e jantar](Sala_e_jantar/README.md) | Máximo de seis pessoas: três no banco e três em cadeiras sem braços. Duas cadeiras à mesa no dia a dia. Mesa com cantos arredondados. | Medidas, conforto, circulação e lugar da terceira cadeira. Banco de 180 cm e tampo de 180 × 75 cm são hipóteses. |
-| [Escritório](Escritorio/README.md) | Estação de frente para a janela; PC com gabinete DeepCool CH360 sobre a bancada, dois monitores de 27″ com braços articulados individuais e notebook corporativo aberto como terceira tela. Receber duas pessoas para dormir, aceitando interromper o trabalho durante a hospedagem. | Sofá-cama até R$ 1.500 (Aurora apenas inspiração), Samsung 43″ existente e futuro PS5 Slim deitado em prateleira suspensa aberta, armários suspensos fechados perto do teto para acessórios e caixas grandes, prateleiras decorativas na parede da janela, cortina e iluminação inteligente com cores e ajuste de branco, compatível com Alexa, confirmadas. Volante Logitech a comprar, com foco em custo-benefício; modelo pendente. Montagem removível na bancada e guarda após o uso confirmadas. Cadeira nova com foco em ergonomia e design; GenioDesk ErgoChair Ultra Comfort e LiberNovo Omni Dynamic/Sensetup em avaliação, sem escolha final. Duas gavetas discretas sob uma lateral da bancada. Profundidade da bancada confirmada em 70 cm; largura de 200 cm ainda proposta. Validar capacidade dos armários, giro do sofá e porta original. Prioridade: conforto para trabalhar, depois hóspedes, depois armazenamento. |
-| [Portas e quarto](Portas_e_quarto/README.md) | Manter portas e vãos originais de entrega como base do layout. | Reavaliar portas de correr após fechar o layout completo. Recuo e porta camarão também adiados; estudos anteriores preservados. |
+| [Cozinha](../../../01_Projeto/Cozinha/README.md) | Geladeira → air fryer → preparo → pia/purificador → cooktop com forno abaixo, seguindo para a lavanderia. Superiores azul-petróleo, inferiores Arenza e granito Branco Itaúnas. | Encaixe dos módulos, circulação, instalações e organização interna. Altura da pedra de 92 cm é provisória. |
+| [Pia e purificador](../../../01_Projeto/Cozinha/README.md) | Cuba Dora, torneira Apurema, tábua parcial de madeira e escorredor removível. PE11X girado de lado, com apoio de aparência fina em Arenza e abertura no aéreo. | Altura e posição exatas do filtro, estrutura do apoio, ventilação, mangueira da torneira e encaixe da tábua. Base do filtro a 125 cm é hipótese. |
+| [Lavanderia](../../../01_Projeto/Lavanderia/README.md) | LG VC4, tanque esculpido, cesto removível e recicláveis separados. Varal ocasional, oculto por testeira Arenza, com manivela removível. | Aquecedor, fixação e posição do varal, tensões e cabimento. Meta de 30 kg e grelha de 100 × 50 cm são propostas de estudo. |
+| [Sala e jantar](../../../01_Projeto/Sala_e_jantar/README.md) | Máximo de seis pessoas: três no banco e três em cadeiras sem braços. Duas cadeiras à mesa no dia a dia. Mesa com cantos arredondados. | Medidas, conforto, circulação e lugar da terceira cadeira. Banco de 180 cm e tampo de 180 × 75 cm são hipóteses. |
+| [Escritório](../../../01_Projeto/Escritorio/README.md) | Estação de frente para a janela; PC com gabinete DeepCool CH360 sobre a bancada, dois monitores de 27″ com braços articulados individuais e notebook corporativo aberto como terceira tela. Receber duas pessoas para dormir, aceitando interromper o trabalho durante a hospedagem. | Sofá-cama até R$ 1.500 (Aurora apenas inspiração), Samsung 43″ existente e futuro PS5 Slim deitado em prateleira suspensa aberta, armários suspensos fechados perto do teto para acessórios e caixas grandes, prateleiras decorativas na parede da janela, cortina e iluminação inteligente com cores e ajuste de branco, compatível com Alexa, confirmadas. Volante Logitech a comprar, com foco em custo-benefício; modelo pendente. Montagem removível na bancada e guarda após o uso confirmadas. Cadeira nova com foco em ergonomia e design; GenioDesk ErgoChair Ultra Comfort e LiberNovo Omni Dynamic/Sensetup em avaliação, sem escolha final. Duas gavetas discretas sob uma lateral da bancada. Profundidade da bancada confirmada em 70 cm; largura de 200 cm ainda proposta. Validar capacidade dos armários, giro do sofá e porta original. Prioridade: conforto para trabalhar, depois hóspedes, depois armazenamento. |
+| [Portas e quarto](../../../01_Projeto/Portas_e_quarto/README.md) | Manter portas e vãos originais de entrega como base do layout. | Reavaliar portas de correr após fechar o layout completo. Recuo e porta camarão também adiados; estudos anteriores preservados. |
 | Banheiro | Ducha Addra Livo Black Matte, metais escuros e parede focal verde. Revestimentos registrados no memorial e no registro. | Compatibilidade hidráulica, aquecedor e detalhamento. |
 
 **Iluminação do escritório:** teto, atrás da TV e sob as prateleiras, com controles separados; inteligente, com cores, ajuste de branco e compatibilidade com Alexa.
@@ -40,7 +40,7 @@ Apartamento de cerca de 40 m² para dois moradores. A ideia é uma casa clara, o
 | Torneira | Pingoo Apurema preta, extensível e sem molas aparentes |
 | Tábua | Madeira própria para alimentos, cobrindo aproximadamente metade da cuba; especificação final pendente |
 
-O aquecedor continua sem modelo escolhido. Lava-louças ficou fora do projeto por decisão de espaço. GN está confirmado; as tensões específicas ainda em aberto devem ser conferidas antes das compras. Consulte [equipamentos](Equipamentos/README.md) e [cozinha](Cozinha/README.md) para condições e fontes.
+O aquecedor continua sem modelo escolhido. Lava-louças ficou fora do projeto por decisão de espaço. GN está confirmado; as tensões específicas ainda em aberto devem ser conferidas antes das compras. Consulte [equipamentos](../../../01_Projeto/Equipamentos/README.md) e [cozinha](../../../01_Projeto/Cozinha/README.md) para condições e fontes.
 
 **Marcenaria do escritório:** custo-benefício como prioridade; sem teto definido. Dimensionar e comparar orçamentos antes de aprovar valores.
 
@@ -95,7 +95,7 @@ A planta e os relatórios visuais permitem continuar os estudos. Medições acab
 
 ## Pesquisa de altura — 12/09/2026
 
-[Pé-direito — pesquisa R01](Pesquisa_pe_direito_R01.md): altura do Guedala Park III ainda sem confirmação. Um corte de outro empreendimento Cury oferece comparação, mas não valida a medida desta unidade. Altura dos armários permanece condicional.
+[Pé-direito — pesquisa R01](../../../01_Projeto/Pesquisa_pe_direito_R01.md): altura do Guedala Park III ainda sem confirmação. Um corte de outro empreendimento Cury oferece comparação, mas não valida a medida desta unidade. Altura dos armários permanece condicional.
 
 **Atualização F78:** 2,57 m aceitos apenas como cenário antes do novo forro. Gesso com menor rebaixo possível e lã de rocha se viável são intenções do usuário; perda total de 10 cm é meta proposta a validar, resultando condicionalmente em 2,47 m livres.
 
@@ -109,10 +109,10 @@ A planta e os relatórios visuais permitem continuar os estudos. Medições acab
 
 **F84:** prateleiras internas reguláveis e removíveis confirmadas nos armários do escritório, preservando o vão da caixa do gabinete.
 
-**F85:** pesquisa de sofá-cama até R$ 1.500 em [R05](Escritorio/Pesquisa_sofas_R05.md). Nenhum escolhido; não reservar módulo baixo para volante antes de validar circulação, abertura do sofá e porta.
+**F85:** pesquisa de sofá-cama até R$ 1.500 em [R05](../../../01_Projeto/Escritorio/Pesquisa_sofas_R05.md). Nenhum escolhido; não reservar módulo baixo para volante antes de validar circulação, abertura do sofá e porta.
 
 **F86 — escolha vigente:** sofá-cama Daiane para o escritório; cor e vendedor ainda pendentes, compra não realizada. Referência de estudo 140 × 90 cm fechado e 140 × 182 cm aberto. Confirmar versão, área útil da cama e compatibilização da circulação.
 
-**F87:** [Ensaio do Daiane R06](Escritorio/Encaixe_Daiane_R06.md) permite continuidade do layout, com margem crítica de 3 cm junto ao giro estimado da porta. Trajetória testada com cadeira temporariamente fora; medidas acabadas, cadeira real e apoio do PS5 ainda a compatibilizar.
+**F87:** [Ensaio do Daiane R06](../../../01_Projeto/Escritorio/Encaixe_Daiane_R06.md) permite continuidade do layout, com margem crítica de 3 cm junto ao giro estimado da porta. Trajetória testada com cadeira temporariamente fora; medidas acabadas, cadeira real e apoio do PS5 ainda a compatibilizar.
 
-**F88:** sofá diário próximo à parede da porta para liberar movimento junto à bancada; faixa de estudo de 82 cm. Ultra Comfort considerada condicionalmente, sem escolha definitiva; entrada sob bancada depende da altura mínima dos braços e vão livre. [R07](Escritorio/Ajuste_sofa_e_UltraComfort_R07.md).
+**F88:** sofá diário próximo à parede da porta para liberar movimento junto à bancada; faixa de estudo de 82 cm. Ultra Comfort considerada condicionalmente, sem escolha definitiva; entrada sob bancada depende da altura mínima dos braços e vão livre. [R07](../../../01_Projeto/Escritorio/Ajuste_sofa_e_UltraComfort_R07.md).

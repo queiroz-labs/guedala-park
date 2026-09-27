@@ -1,0 +1,17 @@
+{
+  "samples": 5501,
+  "rear_min_cm": 31.0,
+  "top_max_cm": 63.47815053873272,
+  "front_max_cm": 92.86184199300463,
+  "pivot_cm": [
+    56,
+    12
+  ],
+  "envelope_LPA_cm": [
+    45,
+    25,
+    45
+  ],
+  "opening_degrees": 55,
+  "measured_installation": false
+}

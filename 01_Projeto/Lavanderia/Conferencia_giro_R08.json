@@ -1,0 +1,22 @@
+{
+  "units": "cm",
+  "model": "Rigid 25 x 45 section, pivot y56 z12, rotation 0..55 degrees",
+  "samples": 5501,
+  "obstacle_front_max": 33.0,
+  "obstacle_bottom_min": 63.0,
+  "design_clearance": 3.0,
+  "analytic_top_bound_at_y36": 59.434164902525694,
+  "numerical_top_at_y_le36": [
+    59.43328697197945,
+    6.19
+  ],
+  "expanded_obstacle_bottom": 60.0,
+  "global_top": [
+    63.47815053873272,
+    29.05
+  ],
+  "minimum_y": 31.0,
+  "space_below_tank_underside70": 7.0,
+  "clearance_condition_pass": true,
+  "limits": "No physical fitting, front, hinge, load, sack bulge, valve or hose verified."
+}

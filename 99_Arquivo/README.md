@@ -18,3 +18,13 @@ Aqui ficam versões anteriores e materiais usados na produção dos estudos. Par
 Os PDFs, imagens, áudios e documentos Word foram preservados byte a byte. Os textos tiveram links e navegação ajustados; decisões anteriores continuam identificadas como histórico. Nenhum arquivo existente foi descartado. Novos temporários de trabalho ficam em `tmp/`, fora do Git, assim como vídeos e ZIPs conforme a regra que já existia.
 
 Para localizar uma referência com código antigo (A01.2, A04.4, A05.1 etc.), consulte o mapa ou procure o código no texto do estudo. As capas dos PDFs mantêm os códigos originais. Códigos de geração em `Temporarios` são históricos e podem depender do ambiente original; não são a entrada de leitura do projeto.
+
+## Unificação das pastas — 25/09/2026
+
+A pasta antiga `Guedala Park` foi incorporada a esta estrutura. Consulte o [relatório da unificação](Unificacao_2026-09-25/README.md) e o [mapa de todos os arquivos de origem](Unificacao_2026-09-25/Mapa_da_unificacao.json). Cópias idênticas usam o arquivo já existente; versões diferentes e metadados Git antigos estão preservados em ZIPs históricos.
+
+- [Backup original de 09/09/2026](Backups/Guedala_Park_Backup_2026-09-09.zip).
+- [Pacotes originais dos levantamentos e manual](Pacotes_originais/).
+- [Vídeo original da unidade espelhada](../04_Visita_ao_apartamento/Video_Apartamento_Espelhado.mp4).
+
+Os ZIPs e o vídeo são arquivos locais ignorados pelo Git. Devem acompanhar uma cópia completa da pasta para outro computador.

@@ -1,5 +1,7 @@
 # Medidas e instalações
 
+**Convenção recebida — 25/09/2026:** p. 4 corrobora área privativa de 40,180 m² para a categoria torre 02/final 06/8º andar. P. 14 contém planta do pavimento tipo aplicável, útil para contexto do andar; a compressão impede confirmar várias cotas/anotações. Não substituir P01 nem validar alturas, vãos ou pontos por essa cópia. Solicitar a prancha original legível. [Análise documental](../Convencao_e_ata_impactos_no_projeto.md).
+
 **Atualização documental F101 — 12/09/2026:** memorial oficial recebido e arquivado. Consultar [entrega e impactos no projeto](../Memorial_Cury_entrega_e_impactos.md). Memorial confirma acabamentos e infraestrutura prevista, mas não informa pé-direito, dimensões de sancas, janelas ou posições cotadas dos pontos. As cotas das plantas são de face a face com acabamento; não são levantamento da unidade.
 
 [Início](../../README.md) · [Resumo](../Resumo.md) · [Registro de decisões](../Registro_de_decisoes.md)

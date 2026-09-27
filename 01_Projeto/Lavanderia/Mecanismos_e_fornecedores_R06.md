@@ -1,5 +1,7 @@
 # Mecanismos e fornecedores — R06
 
+**Atualização R09:** a direção atual usa chapa visual e estudo de elevação vertical; caixa completa e extração horizontal deixam de ser requisitos obrigatórios dessa nova alternativa. [Pesquisa e critérios atualizados](Varal_linha_de_visao_e_mecanismo_R09.md), incluindo varal individual anunciado em 100 × 50 cm, sem adoção. A pesquisa histórica abaixo tratava da extração em móvel; não usá-la como escopo vigente sem atualização.
+
 13/09/2026 · F117 · Pesquisa preliminar; nenhum fornecedor contratado ou contatado.
 
 ## Resultado

@@ -1,5 +1,11 @@
 # Guedala Park — projeto do apartamento
 
+**Atualização de 27/09/2026:** decisões de cozinha/lavanderia consolidadas no [fechamento](01_Projeto/Fechamento_cozinha_lavanderia_2026-09-27.md) e incorporadas ao site R09. [Ensaios interativos preservados](01_Projeto/Estudos_interativos_2026-09-27/README.md). Commit/push de todo o projeto e atualização do site autorizados por Elias nesta data.
+
+[Decisões aprovadas, pendências e próximo passo](01_Projeto/Painel_de_decisoes.md) — acompanhamento local do projeto.
+
+**Pasta única do projeto:** `guedala-park`. As duas pastas foram unificadas em 25/09/2026, com conferência de conteúdo e preservação dos arquivos exclusivos. [Relatório e mapa da unificação](99_Arquivo/Unificacao_2026-09-25/README.md).
+
 **Referências visuais aprovadas:** [Sala R03](03_Referencias/Sala_referencia_aprovada_R03.png) · [Quarto R03](03_Referencias/Quarto_referencia_aprovada_R03.png).
 
 **Versão web:** [Apartamento interativo](https://queiroz-labs.github.io/guedala-park/) · [Moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/).
@@ -15,6 +21,7 @@ Vistas superior, lateral e 3D, móveis em diferentes estados de uso e circulaç�
 | Assunto | Abrir |
 |---|---|
 | Entrega da Cury e efeitos na reforma | [Memorial oficial e análise](01_Projeto/Memorial_Cury_entrega_e_impactos.md) |
+| Convenção, ata e regras para nosso projeto | [Reforma, ar-condicionado, pisos e marcenaria](01_Projeto/Convencao_e_ata_impactos_no_projeto.md) |
 | Decisões e suas fontes | [Registro de decisões](01_Projeto/Registro_de_decisoes.md) |
 | Cozinha, pia e purificador | [Estudos da cozinha](01_Projeto/Cozinha/README.md) |
 | Lavanderia, varal e aquecedor | [Estudos da lavanderia](01_Projeto/Lavanderia/README.md) |

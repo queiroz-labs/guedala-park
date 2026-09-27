@@ -1,5 +1,7 @@
 # Iluminação de sala e jantar — estudo R01
 
+**Atualização vigente — 22/09/2026:** Elias retirou o teto de R$1.200 e pediu foco no projeto com bom custo-benefício, sem orçamento máximo predefinido. Todos os limites e saldos abaixo são históricos. Preservar funções e escolhas estéticas, comparar custos completos e justificar diferenças por benefício real. Continuidade no [estudo integrado](../Iluminacao/Estudo_integrado_2026-09-22.md). Não há compra ou substituição automática de produtos autorizada por esta atualização.
+
 ## Continuidade do estudo — 20/09/2026
 
 Elias autorizou seguir com a direção de indireta quente acima da prateleira da TV, após esclarecer que não sabe se existe conduíte entre entrada e painel. Infraestrutura **não confirmada**. Vistoria deverá conferir passagem aproveitável, pontos, alimentação, espaço de caixas e cotas. Botão cabeado se houver caminho tecnicamente viável; alternativa de comando sem fio fixado na entrada se não houver. Modelos/custos completos continuam pendentes; não presumir obra estrutural nem acréscimo ao teto de R$1.200. Para futura imagem, usar a direção visual e identificar medidas ainda estimadas.

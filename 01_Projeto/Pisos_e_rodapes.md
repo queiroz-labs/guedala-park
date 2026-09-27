@@ -1,5 +1,9 @@
 # Pisos e rodapés
 
+**Conferência técnica — 25/09/2026:** Olmo 24192727 mantido como preferência. Catálogo Ambienta: versão padrão com 3 mm, capa de uso de 0,5 mm e ΔLw de 4 dB; confirmar ficha do lote. Esse resultado não comprova equivalência ao exemplo acústico da convenção. Retirar o laminado entregue nos quartos; não instalar o LVT sobre ele nem acrescentar manta solta por conta própria. Compatibilizar níveis finais com portas e marcenaria. [Revisão completa do piso e dos armários](Revisao_piso_e_armarios_2026-09-25.md).
+
+**Atualização documental — 25/09/2026:** a convenção, p. 20, art. 6º, alínea w, exige material que assegure isolamento acústico nos pisos preparados para carpete/áreas não frias e cita carpete de nylon de pelo menos 6 mm. Preservar Olmo como preferência; verificar critério aceito pelo condomínio e desempenho/compatibilidade do sistema completo antes de especificar a instalação. Não interpretar 6 mm como espessura universal do vinílico nem acrescentar manta genérica sob LVT colado. Considerar efeitos de eventual solução nas transições e portas. [Fonte e aplicação](Convencao_e_ata_impactos_no_projeto.md).
+
 ## Requisitos definidos — 15/09/2026
 
 Vinílico na sala, jantar, circulação, dormitório, escritório e cozinha. Banheiro e lavanderia preservam os revestimentos escolhidos. Nos quartos, o vinílico é o acabamento final desejado em substituição ao laminado previsto na entrega; preparação a detalhar.
@@ -22,9 +26,9 @@ Na visita: colocar várias réguas lado a lado no chão, levar amostra de Arenza
 
 ## Referência principal — Olmo
 
-Tarkett Ambienta Design, cor Olmo, referência 24192727, réguas 208,45 × 1230,3 mm segundo catálogo oficial. A fabricante apresenta Olmo como amadeirado claro; a harmonia com Arenza é avaliação proposta, a conferir com amostras físicas.
+Tarkett Ambienta Design, cor Olmo, referência 24192727, réguas de formato nominal **208 × 1230 mm** nos catálogos conferidos em 25/09/2026. A dimensão anteriormente registrada de 208,45 × 1230,3 mm fica sujeita à conferência na ficha/embalagem do lote. A fabricante apresenta Olmo como amadeirado claro; a harmonia com Arenza é avaliação proposta, a conferir com amostras físicas.
 
-Proposta técnica: LVT colado, pesquisando capa de uso de pelo menos 0,5 mm. Confirmar espessura total e capa de uso do código cotado na ficha vigente; não transferir dados de versões antigas. Colagem e cor específica ainda não aprovadas.
+Proposta técnica: LVT colado. O catálogo consultado associa a versão padrão a 3 mm totais e capa de uso de 0,5 mm; Olmo aparece sem indicação da versão especial de 0,7 mm. Confirmar esses dados no código cotado e ficha vigente. Compra e sistema executivo de instalação ainda pendentes.
 
 A linha anuncia Extreme Protection e garantia de 15 anos contra defeitos de fabricação, condicionada à instalação e conservação. Garantia não é promessa de vida útil nem proteção contra todo risco. Fabricante recomenda colado para cozinha, com limpeza conforme instruções e sem água acumulada.
 

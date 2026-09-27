@@ -1,6 +1,6 @@
 # Escritório e hóspedes
 
-[Início](../../README.md) · [Resumo](../Resumo.md) · [Registro de decisões](../Registro_de_decisoes.md)
+[Início](../../README.md) · [Resumo](../../../01_Projeto/Resumo.md) · [Registro de decisões](../../../01_Projeto/Registro_de_decisoes.md)
 
 A estação deve ficar de frente para a janela. A prioridade é conforto para trabalhar, depois receber hóspedes e depois armazenamento. Sofá-cama móvel e TV para PS5 confirmados em 12/09/2026; cama de parede descartada. Portas originais mantidas. Sofá até R$ 1.500; Aurora apenas inspiração, descartado como compra. TV Samsung 43″ existente destinada ao escritório. Armários suspensos todos fechados perto do teto para acessórios e caixas grandes, com prateleiras decorativas na parede da janela, cortina e iluminação inteligente com cores e ajuste de branco, compatível com Alexa, confirmadas; profundidade da bancada confirmada em 70 cm; largura e detalhamento ainda em estudo.
 
@@ -24,14 +24,14 @@ Bancada e prateleiras em Arenza; armários em off-white fosco; azul-petróleo no
 
 | Abrir | Conteúdo |
 |---|---|
-| [Armários suspensos — R04](Armarios_suspensos_R04.md) | Distribuição preliminar sobre sofá e TV; caixa e guarda do volante ainda pendentes. |
-| [Conferência dimensional — R03](Conferencia_da_bancada_R03.md) | Teste da bancada com três telas, comparação 65/70/75 cm e limite para armário lateral. |
-| [Sofá-cama e TV — R02](Sofa_cama_e_TV_R02.md) | Direção vigente, orçamento, TV existente, bancada e armazenamento; ensaio anterior do Aurora preservado. |
-| [Layout do escritório — R01](Layout_do_escritorio_R01.md) · [PDF](Layout_do_escritorio_R01.pdf) | Ensaio anterior com reserva genérica; não valida o Aurora. |
+| [Armários suspensos — R04](../../../01_Projeto/Escritorio/Armarios_suspensos_R04.md) | Distribuição preliminar sobre sofá e TV; caixa e guarda do volante ainda pendentes. |
+| [Conferência dimensional — R03](../../../01_Projeto/Escritorio/Conferencia_da_bancada_R03.md) | Teste da bancada com três telas, comparação 65/70/75 cm e limite para armário lateral. |
+| [Sofá-cama e TV — R02](../../../01_Projeto/Escritorio/Sofa_cama_e_TV_R02.md) | Direção vigente, orçamento, TV existente, bancada e armazenamento; ensaio anterior do Aurora preservado. |
+| [Layout do escritório — R01](../../../01_Projeto/Escritorio/Layout_do_escritorio_R01.md) · [PDF](../../../01_Projeto/Escritorio/Layout_do_escritorio_R01.pdf) | Ensaio anterior com reserva genérica; não valida o Aurora. |
 
-A proposta da porta está em [Portas e quarto](../Portas_e_quarto/README.md).
+A proposta da porta está em [Portas e quarto](../../../01_Projeto/Portas_e_quarto/README.md).
 
-[Consultar estudos anteriores](../../99_Arquivo/Estudos_anteriores/README.md). Os estudos não liberam fabricação ou instalação.
+[Consultar estudos anteriores](../../Estudos_anteriores/README.md). Os estudos não liberam fabricação ou instalação.
 
 
 
@@ -56,9 +56,9 @@ A proposta da porta está em [Portas e quarto](../Portas_e_quarto/README.md).
 
 ## Pé-direito — F77
 
-[Pesquisa R01](../Pesquisa_pe_direito_R01.md): altura da unidade continua pendente. Cotas de outro empreendimento Cury não substituem a confirmação do Guedala Park III; não liberar alturas de marcenaria por essa comparação.
+[Pesquisa R01](../../../01_Projeto/Pesquisa_pe_direito_R01.md): altura da unidade continua pendente. Cotas de outro empreendimento Cury não substituem a confirmação do Guedala Park III; não liberar alturas de marcenaria por essa comparação.
 
-**Forro (F78):** cenário de 2,57 m aceito antes do novo gesso. Prioridade de menor rebaixo possível, com lã de rocha se viável. Perda total de 10 cm daria 2,47 m livres, mas é meta de investigação, sem sistema validado. [Pesquisa e condições](../Pesquisa_pe_direito_R01.md).
+**Forro (F78):** cenário de 2,57 m aceito antes do novo gesso. Prioridade de menor rebaixo possível, com lã de rocha se viável. Perda total de 10 cm daria 2,47 m livres, mas é meta de investigação, sem sistema validado. [Pesquisa e condições](../../../01_Projeto/Pesquisa_pe_direito_R01.md).
 
 **F79 — cenário vigente:** altura final de projeto aceita de **2,47 m**, com gesso e tratamento acústico/térmico, visando ruído de cima, som do escritório e conforto térmico. Altura entregue e montagem em 10 cm ainda por validar. Aéreos de 40 cm com folga de 5 cm teriam base a 2,02 m; dimensões dos móveis seguem propostas.
 
@@ -70,10 +70,10 @@ A proposta da porta está em [Portas e quarto](../Portas_e_quarto/README.md).
 
 **F84 — interiores:** prateleiras reguláveis e removíveis aprovadas nos demais aéreos; módulo da caixa do gabinete mantém o vão livre necessário. Quantidades e capacidade a detalhar.
 
-**F85 — sofá em seleção:** [Pesquisa R05](Pesquisa_sofas_R05.md), com CR45259 bege e Daiane cinza como candidatos prioritários do assistente; Charlotte bege em reserva. Nenhum modelo escolhido. Circulação e abertura do sofá precedem eventual módulo baixo para volante; não reservar esse móvel por enquanto.
+**F85 — sofá em seleção:** [Pesquisa R05](../../../01_Projeto/Escritorio/Pesquisa_sofas_R05.md), com CR45259 bege e Daiane cinza como candidatos prioritários do assistente; Charlotte bege em reserva. Nenhum modelo escolhido. Circulação e abertura do sofá precedem eventual módulo baixo para volante; não reservar esse móvel por enquanto.
 
 **F86 — sofá escolhido:** Daiane, por preferência de design de Elias. Cor, vendedor e compra ainda pendentes. Referência Mobly: 140 × 90 cm fechado, 140 × 182 cm aberto, com baú; confirmar versão e área útil de dormir no detalhamento. Preservar circulação e giro da porta.
 
-**F87 — encaixe conferido em ensaio:** [R06 com desenho](Encaixe_Daiane_R06.md). Giro possível com cadeira retirada; cama deixa 40 cm até bancada, 88 cm laterais brutos e apenas 3 cm até giro hipotético da porta. Cadeira e apoio PS5 ainda condicionam resultado; não é validação executiva.
+**F87 — encaixe conferido em ensaio:** [R06 com desenho](../../../01_Projeto/Escritorio/Encaixe_Daiane_R06.md). Giro possível com cadeira retirada; cama deixa 40 cm até bancada, 88 cm laterais brutos e apenas 3 cm até giro hipotético da porta. Cadeira e apoio PS5 ainda condicionam resultado; não é validação executiva.
 
-**F88 — implantação diária revista:** [R07](Ajuste_sofa_e_UltraComfort_R07.md). Sofá deslocado para perto da parede da porta, liberando faixa de estudo de 82 cm após bancada. Ultra Comfort é hipótese; dimensões oficiais 74,5 × 73 cm, cabimento dos braços sob tampo ainda a confirmar. Imagem R06 não representa a nova posição diária.
+**F88 — implantação diária revista:** [R07](../../../01_Projeto/Escritorio/Ajuste_sofa_e_UltraComfort_R07.md). Sofá deslocado para perto da parede da porta, liberando faixa de estudo de 82 cm após bancada. Ultra Comfort é hipótese; dimensões oficiais 74,5 × 73 cm, cabimento dos braços sob tampo ainda a confirmar. Imagem R06 não representa a nova posição diária.

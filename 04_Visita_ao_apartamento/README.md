@@ -30,4 +30,4 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 
 **Histórico:** [relatório R00 em HTML](Relatorio_da_visita_R00.html) e [texto R00](Relatorio_da_visita_R00.md). Use R01 com as correções de R02 para continuar. Os códigos dos quartos nas fotos foram mantidos para rastreabilidade; a identificação corrigida está no complemento.
 
-O antigo índice citava um vídeo MP4, mas esse arquivo não está presente nesta cópia do projeto. Vídeos e ZIPs continuam fora do Git.
+O [vídeo original do apartamento espelhado](Video_Apartamento_Espelhado.mp4) foi recuperado da pasta antiga na unificação de 25/09/2026. Os [pacotes originais dos levantamentos](../99_Arquivo/Pacotes_originais/) também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.

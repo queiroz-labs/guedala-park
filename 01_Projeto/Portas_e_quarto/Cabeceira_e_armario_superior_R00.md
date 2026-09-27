@@ -1,5 +1,13 @@
 # Cabeceira e armário superior — R00
 
+**Forma confirmada por Elias — 25/09/2026:** conjunto superior virando o canto em L, com frentes retas. Não usar frente arredondada. Esclarecimento encerrado; desenvolver encontro entre maleiro e aéreo raso da cabeceira.
+
+**Aéreos contínuos do quarto — nova direção de Elias, 25/09/2026:** usuário quer que os armários aéreos ocupem a parte superior do guarda-roupa e continuem virando o canto até a cabeceira da cama. Integrar visualmente o maleiro ao conjunto superior; não empilhar outro armário sobre o guarda-roupa já previsto até o teto. Forma da virada (L com frentes retas ou frente arredondada) em esclarecimento. Preservar Arenza, cabeceira estofada, programa interno do guarda-roupa e profundidade de referência25 cm sobre a cama; guarda-roupa permanece60 cm de caixa, com proteção posterior a compatibilizar. Topo contínuo até o teto; base única ainda não definida: maleiro de referência a215 cm e aéreo da cabeceira a205 cm. Não baixar maleiro nem comprometer varões para alinhar frentes sem estudo.
+
+**Acesso à cabeceira — decisão pessoal encerrada:** Elias informou que acessará o armário subindo no colchão e pediu considerar esse ponto resolvido. Registrar como decisão de uso assumida pelo usuário, encerrada para novas perguntas; não classificar como validação técnica de estabilidade/segurança. Banquinho deixa de ser requisito para esse acesso. Prosseguir com o desenho solicitado, sem reiterar a advertência já comunicada.
+
+**Compatibilização com a convenção — 25/09/2026:** superior em parede externa requer proteção mínima de 1 cm. Caixa de 25 cm mais camada projeta pelo menos 26 cm; preservar projeção total de 25 cm exige revisar profundidade útil. Alternativa ainda não escolhida. [Revisão](../Revisao_piso_e_armarios_2026-09-25.md).
+
 ## Quarto — janela, madeira e cabeceira definidos, 21/09/2026
 
 Elias confirmou as seguintes escolhas para preparar a imagem realista:

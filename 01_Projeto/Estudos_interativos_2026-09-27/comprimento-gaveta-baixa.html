@@ -1,0 +1,64 @@
+<section id="gaveta-comprimento-estudo">
+  <h3>De onde pode vir o comprimento extra</h3>
+  <label class="form-label" for="gaveta-cenario">Cenário de estudo</label>
+  <select class="form-select" id="gaveta-cenario">
+    <option value="0">Conta anterior — 112,1 cm internos</option>
+    <option value="1">Recalcular para rodas — até 114,7 cm</option>
+    <option value="2">Rodas + transferir 5 cm da cocção — até 119,7 cm</option>
+  </select>
+  <div class="text-small" style="margin-top:16px">Trecho entre a reserva da geladeira e a lavanderia · 186,9 cm</div>
+  <svg id="gaveta-esquema" role="img" aria-label="Comparação do trecho da gaveta e do módulo de cocção" style="width:100%;display:block"></svg>
+  <div id="gaveta-resultado" aria-live="polite" class="tabular-nums"></div>
+  <div id="gaveta-condicao" class="text-small" style="margin-top:8px"></div>
+</section>
+<script>
+(() => {
+  const root = document.getElementById('gaveta-comprimento-estudo');
+  const selector = root.querySelector('#gaveta-cenario');
+  const svg = root.querySelector('#gaveta-esquema');
+  const result = root.querySelector('#gaveta-resultado');
+  const condition = root.querySelector('#gaveta-condicao');
+  const scenarios = [
+    {span:121.9,oven:65,inner:112.1,label:'Comprimento interno anterior: 112,1 cm',note:'Inclui reserva de 2,6 cm para corrediças anterior à escolha por rodas.'},
+    {span:121.9,oven:65,inner:114.7,label:'Limite calculado: 114,7 cm, menos guias e folgas',note:'Mesmo trecho externo. Apoios mantidos na conta; guias ainda por especificar.'},
+    {span:126.9,oven:60,inner:119.7,label:'Limite calculado: 119,7 cm, menos guias e folgas',note:'Exige validar forno e cooktop no módulo de 60 cm. Nenhuma alteração aprovada.'}
+  ];
+  const fmt = value => value.toLocaleString('pt-BR',{maximumFractionDigits:1});
+  function draw() {
+    const s = scenarios[Number(selector.value)];
+    const width = Math.max(280,root.getBoundingClientRect().width);
+    const pad = 8, gap = 3, usable = width - pad * 2, scale = usable / 186.9;
+    const split = pad + s.span * scale, leftWidth = s.span * scale - gap/2;
+    const rightWidth = s.oven * scale - gap/2;
+    svg.setAttribute('viewBox',`0 0 ${width} 156`);
+    svg.setAttribute('height','156');
+    svg.innerHTML = `<title>Gaveta: ${fmt(s.span)} cm de trecho externo; cocção: ${fmt(s.oven)} cm</title>
+      <desc>Desenho proporcional em largura. Cenário ${Number(selector.value)+1}, sem confirmação de fabricação.</desc>
+      <g style="fill:var(--foreground);font-size:12px">
+        <rect x="${pad}" y="22" width="${leftWidth}" height="60" fill="var(--viz-series-1)" opacity="0.18"/>
+        <rect x="${split+gap/2}" y="22" width="${rightWidth}" height="60" fill="var(--muted)"/>
+        <text x="${pad+leftWidth/2}" y="46" text-anchor="middle">Gaveteiro + pia</text>
+        <text x="${pad+leftWidth/2}" y="66" text-anchor="middle">${fmt(s.span)} cm</text>
+        <text x="${split+gap/2+rightWidth/2}" y="46" text-anchor="middle">Cocção</text>
+        <text x="${split+gap/2+rightWidth/2}" y="66" text-anchor="middle">${fmt(s.oven)} cm</text>
+        <path d="M${pad} 95 v7 H${split-gap/2} v-7" fill="none" stroke="var(--foreground)" stroke-width="1"/>
+        <text x="${pad+leftWidth/2}" y="121" text-anchor="middle">Trecho da gaveta baixa</text>
+        <text x="${split+gap/2+rightWidth/2}" y="121" text-anchor="middle">Forno abaixo</text>
+      </g>`;
+    result.textContent = s.label;
+    condition.textContent = s.note;
+  }
+  function restore(state) {
+    const n = state?.modelContent?.cenario;
+    if(Number.isInteger(n) && n >= 0 && n <= 2) selector.value=String(n);
+    draw();
+  }
+  selector.addEventListener('change',() => {
+    draw();
+    if(window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{cenario:Number(selector.value),estudo:'comprimento da gaveta; sem aprovação de mudança'},privateContent:null}).catch(()=>{});
+  });
+  new ResizeObserver(draw).observe(root);
+  window.addEventListener('openai:set_globals',event=>restore(event.detail?.globals?.widgetState));
+  restore(window.openai?.widgetState);
+})();
+</script>

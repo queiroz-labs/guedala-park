@@ -1,5 +1,7 @@
 # Varal oculto elevatório — três estados
 
+**Atualização posterior:** a ocultação atual é chapa visual R08, sem caixa completa. A [R10](Varal_sequencia_de_uso_R10.md) desenvolve o ciclo na direção de elevação vertical R07–R09. Descrições abaixo de extração horizontal e recolhimento em caixa pertencem ao conceito anterior; três estados de vazio/manuseio/secagem permanecem, com cotas e mecanismo ainda em estudo.
+
 13/09/2026 · F116 · Conceito funcional atualizado, sem liberação para fabricação.
 
 Esta revisão passa a ser a referência de funcionamento. Os ensaios R02–R04 permanecem como verificações de geometria, mas não representam a secagem habitual com o varal baixado.

@@ -1,5 +1,7 @@
 # Varal: alcance e requisitos para detalhamento — R04
 
+**Complemento R09:** as distâncias abaixo pressupõem pessoa parada na entrada. Não demonstram impossibilidade de aproximação sob o quadro elevado. A [R09](Varal_linha_de_visao_e_mecanismo_R09.md) testa entrada sob o quadro a 190–200 cm, sem validação de altura ou de operação com roupas longas. A ocultação vigente é chapa visual R08, sem caixa completa.
+
 13/09/2026 · F114 · Estudo de viabilidade, não projeto de fabricação.
 
 ## Resultado

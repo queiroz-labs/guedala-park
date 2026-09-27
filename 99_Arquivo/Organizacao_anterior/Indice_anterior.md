@@ -45,7 +45,7 @@ Pasta organizada em 09/09/2026. Os 436 arquivos existentes foram preservados e c
 - [Partido e decisões anteriores — A04.2 R01](../../01_Projeto/Lavanderia/Decisoes_da_lavanderia_R01.md)
 - [Levantamento R01](../../04_Visita_ao_apartamento/Relatorio_da_visita_R01.html)
 - [Levantamento adicional R02](../../04_Visita_ao_apartamento/Complemento/Complemento_da_visita_R02.html)
-- Vídeo original do apartamento espelhado — citado no índice anterior; arquivo não presente nesta cópia
+- [Vídeo original do apartamento espelhado](../../04_Visita_ao_apartamento/Video_Apartamento_Espelhado.mp4) — recuperado na unificação de 25/09/2026
 
 ## Histórico e materiais para futura limpeza
 
