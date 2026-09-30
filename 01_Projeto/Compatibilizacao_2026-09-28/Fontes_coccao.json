@@ -1,0 +1,26 @@
+[
+  {
+    "fonte": "https://www.bimobject.com/en/electroluxbrasil/product/ke4gc",
+    "consultado": "2026-09-28",
+    "metodo": "Firecrawl MCP",
+    "resultado": "Publicador Electrolux Brasil; PNC 926565292; altura total 131 mm, largura 600 mm e profundidade 450 mm. Cota d não encontrada; modelo BIM não baixado."
+  },
+  {
+    "fonte": "https://venax.com.br/categoria-produto/fornos/fornos-de-embutir-a-gas/forno-a-gas-de-embutir-50-l-totale-nero/forno-de-embutir-a-gas-50l-totale-nero-giii-gas-glp/",
+    "consultado": "2026-09-28",
+    "metodo": "Firecrawl MCP",
+    "resultado": "Venax Totale Nero GIII 50 L, código 25975; externo 61 A × 51,7 L × 61,5 P cm. Link do manual ainda aponta ao pacote modificado em 04/07/2026. Sem nova comparação binária."
+  },
+  {
+    "fonte": "https://loja.electrolux.com.br/cooktop-4-bocas-electrolux-gas-experience-mesa-vidro-tripla-chama-e-grade-de-ferro-fundido-ke4gc/p",
+    "consultado": "2026-09-28",
+    "metodo": "Firecrawl MCP",
+    "resultado": "KE4GC: altura total 13,1 cm, largura 60 cm, profundidade 45 cm. Cota inferior instalada não encontrada."
+  },
+  {
+    "fonte": "https://content.electrolux.com.br/brasil/electrolux/poke/v1/experience/ke4gc/index.html",
+    "consultado": "2026-09-28",
+    "metodo": "Firecrawl MCP",
+    "resultado": "Imagens specifications_1.webp e specifications_2.webp lidas visualmente: produto 13,1 A × 60 L × 45 P e nicho 15 A × 52 L × 39 P cm. Nenhuma define d."
+  }
+]

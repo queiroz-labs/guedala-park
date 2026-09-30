@@ -1,5 +1,7 @@
 # Gaveta baixa e cocção — três pendências, R02
 
+**Continuidade — 28/09/2026:** [corte e tolerâncias da cocção](../Compatibilizacao_2026-09-28/Corte_coccao.md). Identificada divergência documental Venax: tabela específica 3/5 cm versus texto geral de 10 cm. Largura de 60 cm permanece hipótese condicional, além da cota inferior do KE4GC e das referências de apoio ainda ausentes.
+
 27/09/2026. Continuidade solicitada por Elias: “vamos resolver essas 3 pendencias agr”. Conferência documental e geométrica; não medição física. Este estudo complementa a [conferência lateral R01](Coccao_60cm_conferencia_R01_2026-09-27.md).
 
 ## Decisões desta rodada

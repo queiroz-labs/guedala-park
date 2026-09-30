@@ -1,5 +1,9 @@
 # Cozinha e lavanderia — seleção de luminárias R01
 
+**Continuidade C2 — 28/09/2026:** [apoio e fotometria com obstáculos](../Compatibilizacao_2026-09-28/Micro_C2.md). Proposta de eixos B/C a 42/30 cm da parede, perfis de 65,7/50,7 cm e fita ativa de teste 62,5/47,5 cm após reservas para terminais. Com 800 lm/m úteis e pessoa, médias diretas aproximadas de 513 lx no preparo prioritário e 522 lx sobre pia; geometria/áreas e limitações na memória. Novo ensaio incorpora apoio, filtro e air fryer; não equiparar números diretamente à primeira malha. Nenhum conjunto comercial selecionado.
+
+**Cálculo posterior — 28/09/2026:** [primeira simulação fotométrica e C2](../Compatibilizacao_2026-09-28/README.md#2-iluminação-primeiro-cálculo-com-a-fotometria-disponível). Usado o IES salvo; contribuição direta média de 253 lx no plano de preparo e 235 lx na pia, antes de reflexões/objetos/pessoa. Dois trechos C2 de 50,7 + 65,7 cm testados com fluxos úteis de 400/600/800 lm/m e sombra de pessoa. Direção de seleção em torno de 800 lm/m após difusor, regulável, ainda dependente de produto, apoio do micro e uniformidade. Supera apenas a ausência de cálculo desta R01; não altera formato, cor ou comandos, nem confirma equivalência entre IES e produto atual.
+
 27/09/2026. Pesquisa e conferência preliminar após Elias autorizar continuidade. **Atualização: formato quadrado, branco e próximo ao teto aprovado para a cozinha, condicionado à abertura livre dos armários.** Elias respondeu “gosto do formato, desde que nao atrapalhe a abertura dos armarios de cima”. Marca/modelo final, quantidade, dimensionamento e ponto não foram fechados por esse aceite.
 
 ## Resultado da rodada

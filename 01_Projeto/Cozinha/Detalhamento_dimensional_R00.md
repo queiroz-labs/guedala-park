@@ -1,5 +1,7 @@
 # Cozinha e lavanderia — primeiro detalhamento dimensional
 
+**Compatibilização posterior — 28/09/2026:** a [cena de bancada atualizada](../Compatibilizacao_2026-09-28/README.md#cena-de-uso-da-air-fryer-na-cozinha) retoma o arranjo da seção 4, com pia agora de 65 cm e cocção de 60 cm conforme R03. Mantém vão de 10 cm entre PE12G/air fryer; a margem entre reserva lateral da air fryer e envelope da cuba sobe de 3 para 5,5 cm. Escorredor guardado nessa cena. Torre, gavetas e iluminação C2 também conferidas no caderno; cotas e funcionamento executivo seguem condicionais.
+
 **Hipótese de altura atual:** Elias pede considerar 257 cm do piso até a laje, ainda a validar. [Aéreos R00](Aereos_R00.md) testa topo a 255 cm com 2 cm de ajuste propostos e níveis cotados; supera a ausência de hipótese de teto nas notas anteriores. Não é medida de obra.
 
 **Continuidade vigente:** [Aéreos R00](Aereos_R00.md) detalha os superiores a pedido de Elias. Teto/forro ainda a medir, distribuição por prioridade sem capacidade total demonstrada. Escorredor definido: Tramontina Mini Plurale Grafite 61537000, 27,8 × 19,9 × 12,6 cm; uso junto à cuba e guarda seca no inferior. A esteira Mimo deixa de ser candidata.

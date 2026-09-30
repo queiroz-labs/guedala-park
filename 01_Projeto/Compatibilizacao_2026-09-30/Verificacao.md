@@ -1,0 +1,11 @@
+# Verificação — 30/09/2026
+
+- Base documental local R04/R05/R08 e decisões vigentes conferidas. Dimensões aprovadas separadas das novas hipóteses de frente, painel, rodapé, aro e corpo carregado do saco. Sem fonte comercial nova ou produto selecionado.
+- Giro: 5.501 posições entre 0 e 55°, passo 0,01°, com interseção de polígonos completos pelo teorema dos eixos separadores. Cesto e frente confrontados com pedra, tanque, reserva hidráulica alta/posterior, base, painel e rodapé. Zero interseções nos obstáculos idealizados.
+- Rodapé modelado como painel y=56,2–58, topo z=11. Não foi representado como bloco maciço ocupando a caixa interna. O cesto nunca desce de z=12; a frente passa adiante da base/rodapé recuados. Apoios, pegas e ferragens não modelados permanecem fora dessa conclusão.
+- Saco: 891 posições na extração axial e 551 no endireitamento, total 1.442 amostras. Após sair do aro, incluída verificação de não retorno ao volume do cesto, além dos obstáculos fixos e frente móvel. Justificativa por coordenadas locais documentada para complementar a amostragem.
+- Seis conferências matemáticas passaram: SAT com cruzamento de arestas sem quinas internas; invariância/pico da rotação; giro sem interseções; extração e rotação do saco; reserva de 3+1 cm até painel; perda de folga ao puxar apenas verticalmente. Momento gravitacional calculado como sensibilidade, sem selecionar capacidade de ferragem ou fixação.
+- Prancha inspecionada em navegador de 1280 px: corte aberto/fechado, saco em início/fim de extração e em pé; controles alteram figuras, valores e etapa. Saldo da interface considera pedra/frente/saco, para não sugerir passagem maior quando um elemento mais profundo permanece no caminho. Diagramas com rolagem própria em telas estreitas; versão móvel não inspecionada visualmente.
+- Fonte, memória, tabelas e índices atualizados em conjunto. Conferidos 329 links locais, sem destino ausente; `git diff --check` sem erro (apenas avisos de LF/CRLF). Documento com 1265 px de largura útil em janela de 1280, sem transbordamento horizontal; nenhum aviso/erro de JavaScript capturado.
+
+Não há demonstração de conforto para uma pessoa, deformação do saco cheio, alças/mãos, perfil de ferragens, contrapeso Telca, estrutura, capacidade de carga, medida em obra ou furação executiva. Não houve publicação ou contato com fornecedores.

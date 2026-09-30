@@ -1,5 +1,9 @@
 # Tanque e cesto — compatibilização R08
 
+**Continuação — 30/09/2026:** [frente, rodapé e retirada](../Compatibilizacao_2026-09-30/Cesto_retirada.md). Corrigida a incompatibilidade entre tanque de teste até y=60 e frente ilustrativa a 58 por proposta de face a 63, mantendo tanque/pedra/eixo. Inferior basculante z=15–67,1 e superior removível z=67,5–89,7; base/rodapé até y=58, topo do rodapé 11. Frente e saco agora têm percursos próprios calculados; não considerar os 61,1 cm após o recipiente como sobra após o conjunto completo. Novas cotas são propostas, hidráulica real e Telca continuam pendentes.
+
+**Tolerância de acesso — 28/09/2026:** [ensaio complementar](../Compatibilizacao_2026-09-28/README.md#3-cesto-acrescentar-tolerância-de-acesso-ao-teste-de-colisão). A 55°, a boca ultrapassa a pedra em 3,52 cm, só 5,2 mm além da reserva comparativa de 3 cm; ângulo mínimo calculado 54,36°. Pedra 1 cm maior, eixo 1 cm mais recuado ou curso limitado a 54° consomem essa reserva. A conferência hidráulica abaixo permanece; incluir frente/ferragem e retirada do saco no detalhamento, sem alterar eixo/curso automaticamente.
+
 27/09/2026. Desenvolvimento após a conferência dos aparelhos. Mantidos tanque interno de 38 × 35 × 20 cm, pedra Branco Itaúnas, Telca Flex preta com ducha extraível, escoamento posterior, cesto basculante 45 × 25 × 45 cm e saco removível/lavável com alças. Esta revisão calcula uma reserva melhor para o escoamento; não seleciona peças nem autoriza furação.
 
 ## Resultado principal

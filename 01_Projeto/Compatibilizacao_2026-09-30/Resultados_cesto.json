@@ -1,0 +1,179 @@
+{
+  "data": "2026-09-30",
+  "status": "proposta geométrica; sem fabricação ou produto selecionado",
+  "premissas": {
+    "eixoY": 56,
+    "eixoZ": 12,
+    "angulo": 55,
+    "cestoL": 45,
+    "cestoP": 25,
+    "cestoA": 45,
+    "pedraP": 75,
+    "pedraZ": 92,
+    "pedraE": 2,
+    "gabineteL": 59,
+    "lateralE": 1.8,
+    "secao": 154,
+    "tanque": [
+      21,
+      70,
+      60,
+      90
+    ],
+    "hidraulica": [
+      0,
+      63,
+      33,
+      70
+    ],
+    "posteriorY": 28,
+    "base": [
+      0,
+      8,
+      58,
+      9.8
+    ],
+    "frenteY": 63,
+    "frenteE": 1.8,
+    "frenteBaixo": 15,
+    "frenteTopo": 67.1,
+    "painelBaixo": 67.5,
+    "painelTopo": 89.7,
+    "rodapeY": 58,
+    "rodapeTopo": 11,
+    "folgaGiro": 3,
+    "reservaAdicionalPainel": 1,
+    "bag": [
+      -22.5,
+      2.5,
+      -2.5,
+      42.5
+    ],
+    "bagL": 40,
+    "folgaExtracao": 2
+  },
+  "frenteLocal": [
+    5.200000000000003,
+    3,
+    7,
+    55.099999999999994
+  ],
+  "giro": {
+    "colisoes": {},
+    "posicoes": 5501,
+    "pisoFrente": 7.98666,
+    "frenteYMin": 61.2,
+    "cestoZMax": 63.47815,
+    "frenteYMax": 105.15031,
+    "saldoSecao": 48.84969,
+    "folgaPainel": 4.02185,
+    "folgaTanquePainel": 1.2
+  },
+  "comparacaoFrentes": [
+    {
+      "nome": "Frente alta no plano ilustrativo 58",
+      "face": 58,
+      "topo": 89.7,
+      "avanco": 120.79527,
+      "saldoSecao": 33.20473
+    },
+    {
+      "nome": "Frente alta no plano proposto 63",
+      "face": 63,
+      "topo": 89.7,
+      "avanco": 123.66315,
+      "saldoSecao": 30.33685
+    },
+    {
+      "nome": "Frente dividida no plano proposto 63",
+      "face": 63,
+      "topo": 67.1,
+      "avanco": 105.15031,
+      "saldoSecao": 48.84969
+    }
+  ],
+  "saco": {
+    "corpo": [
+      40,
+      20,
+      40
+    ],
+    "extracao": 44.5,
+    "deslocamentoY": 36.45227,
+    "deslocamentoZ": 25.52415,
+    "pivot": [
+      81.59468,
+      57.38901
+    ],
+    "yMax": 125.83229,
+    "saldoSecao": 28.16771,
+    "alturaMaxAoEndireitar": 97.38901,
+    "distanciaPedraAoEndireitar": 6.59468,
+    "avancoFinal": 0,
+    "uprightFinal": [
+      81.59468,
+      57.38901,
+      101.59468,
+      97.38901
+    ],
+    "colisoes": {},
+    "amostras": 1442
+  },
+  "aberturas": [
+    {
+      "aro": 1,
+      "aberturaL": 43,
+      "aberturaP": 23,
+      "corpoL": 41,
+      "corpoP": 21,
+      "folgaPorLado": 1
+    },
+    {
+      "aro": 1.5,
+      "aberturaL": 42,
+      "aberturaP": 22,
+      "corpoL": 40,
+      "corpoP": 20,
+      "folgaPorLado": 1
+    },
+    {
+      "aro": 2,
+      "aberturaL": 41,
+      "aberturaP": 21,
+      "corpoL": 39,
+      "corpoP": 19,
+      "folgaPorLado": 1
+    }
+  ],
+  "cargas": [
+    {
+      "massaCestoEConteudo": 5,
+      "massaFrente": 3,
+      "torqueFechadoNm": -4.33602,
+      "torqueAbertoNm": 13.5566,
+      "inversaoGraus": 12.48322
+    },
+    {
+      "massaCestoEConteudo": 8,
+      "massaFrente": 3,
+      "torqueFechadoNm": -8.01477,
+      "torqueAbertoNm": 16.87077,
+      "inversaoGraus": 17.00472
+    },
+    {
+      "massaCestoEConteudo": 12,
+      "massaFrente": 5,
+      "torqueFechadoNm": -11.72295,
+      "torqueAbertoNm": 26.64499,
+      "inversaoGraus": 16.05468
+    }
+  ],
+  "checks": [
+    "SAT detecta cruzamento de arestas mesmo sem quinas internas",
+    "Rotação preserva distâncias e reproduz o pico analítico",
+    "Conjunto proposto sem interseções com obstáculos modelados em 5501 posições",
+    "Saco sai do aro com 2 cm axiais; rotação posterior não retorna ao cesto e fica fora da pedra",
+    "Painel superior preserva reserva global de 3 cm mais 1 cm de tolerância de estudo",
+    "Retirada estritamente vertical excede a folga traseira do saco em menos de 3 cm"
+  ]
+}

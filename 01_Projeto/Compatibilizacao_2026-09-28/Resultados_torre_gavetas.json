@@ -1,0 +1,145 @@
+{
+  "data": "2026-09-28",
+  "status": "estudo, sem posição de furo aprovada",
+  "premissas": {
+    "pedraP": 63,
+    "pedraA": 92,
+    "pedraE": 2,
+    "frentePlano": 61,
+    "frenteE": 1.8,
+    "caixaP": 50,
+    "caixaPi": 47,
+    "moduloL": 61.9,
+    "lateralE": 1.8,
+    "corredicasTotal": 2.6,
+    "caixaLateralE": 1.5,
+    "corpoD": 6.4,
+    "furoD": 6.5,
+    "tampaD": 7.6,
+    "folgaMontagem": 0.5,
+    "corpoSobAba": 20.6,
+    "terminal": 3.5,
+    "subida": 8.98,
+    "rodabancaE": 2,
+    "afastamentoAguaEnsaio": 60
+  },
+  "medidas": {
+    "caixaFrente": 59.2,
+    "caixaTras": 9.2,
+    "caixaL": 55.7,
+    "caixaS": 3.1,
+    "caixaLi": 52.7,
+    "lateralLivre": 1.3,
+    "limiteS60": 9.5424,
+    "rodabancaMax": 1.7,
+    "fundoCorpo": 71.4,
+    "fundoTerminal": 67.9,
+    "profundidadeAbaixoPedra": 22.1,
+    "perdaArea50a45": 10.6383,
+    "areaInterna": 2476.9,
+    "correnteAirFryer": 11.0236,
+    "saldoPotencia20": 632,
+    "deficit10": 130
+  },
+  "cenarios": [
+    {
+      "fundo": 0,
+      "recuo": 0,
+      "traseira": 9.2,
+      "faixa": 9.2,
+      "diametroMax": 8.2,
+      "centroMin": 3.7,
+      "centroMax": 5.5,
+      "saldoCorpo": 1.8
+    },
+    {
+      "fundo": 0,
+      "recuo": 0.5,
+      "traseira": 8.7,
+      "faixa": 8.7,
+      "diametroMax": 7.7,
+      "centroMin": 3.7,
+      "centroMax": 5,
+      "saldoCorpo": 1.3
+    },
+    {
+      "fundo": 0.6,
+      "recuo": 0,
+      "traseira": 9.2,
+      "faixa": 8.6,
+      "diametroMax": 7.6,
+      "centroMin": 4.3,
+      "centroMax": 5.5,
+      "saldoCorpo": 1.2
+    },
+    {
+      "fundo": 0.6,
+      "recuo": 0.5,
+      "traseira": 8.7,
+      "faixa": 8.1,
+      "diametroMax": 7.1,
+      "centroMin": 4.3,
+      "centroMax": 5,
+      "saldoCorpo": 0.7
+    },
+    {
+      "fundo": 1.8,
+      "recuo": 0,
+      "traseira": 9.2,
+      "faixa": 7.4,
+      "diametroMax": 6.4,
+      "centroMin": 5.5,
+      "centroMax": 5.5,
+      "saldoCorpo": 0
+    },
+    {
+      "fundo": 1.8,
+      "recuo": 0.5,
+      "traseira": 8.7,
+      "faixa": 6.9,
+      "diametroMax": 5.9,
+      "centroMin": 5.5,
+      "centroMax": 5,
+      "saldoCorpo": -0.5
+    }
+  ],
+  "testesPosicao": [
+    {
+      "id": "A",
+      "s": 8,
+      "t": 5.5,
+      "nota": "Atrás do filtro: tampa invade 3 mm da rodabanca de teste; acesso frontal à tomada fica oculto pelo aparelho.",
+      "distanciaCuba": 61.5319,
+      "folgaFiltro": 0.7,
+      "folgaRodabanca": -0.3,
+      "intersecaoCaixa": false
+    },
+    {
+      "id": "B",
+      "s": 26,
+      "t": 5.5,
+      "nota": "Entre aparelhos por cima, mas não atende ao ensaio de 60 cm até a cuba.",
+      "distanciaCuba": 43.6959,
+      "folgaFiltro": 2.9268,
+      "folgaRodabanca": -0.3,
+      "intersecaoCaixa": false
+    },
+    {
+      "id": "C",
+      "s": 8,
+      "t": 57,
+      "nota": "À frente do filtro: invade o volume horizontal das caixas; passagem da mão e plugue também não demonstrada.",
+      "distanciaCuba": 61.4764,
+      "folgaFiltro": 1.2,
+      "folgaRodabanca": 51.2,
+      "intersecaoCaixa": true
+    }
+  ],
+  "checks": [
+    "Distância a retângulo: interior, face e canto",
+    "Translação de abertura afasta a caixa da coluna traseira",
+    "Limite analítico de 60 cm conferido na geometria",
+    "Envelope cabe no caso limite e falha com recuo adicional",
+    "Frente invadida e posição traseira fora da caixa"
+  ]
+}

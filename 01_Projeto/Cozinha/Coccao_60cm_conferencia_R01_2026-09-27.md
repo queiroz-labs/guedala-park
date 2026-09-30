@@ -1,5 +1,7 @@
 # Módulo de cocção de 60 cm — conferência dimensional R01
 
+**Ressalva posterior — 28/09/2026:** o [corte desenvolvido](../Compatibilizacao_2026-09-28/Corte_coccao.md) identificou conflito entre as folgas da tabela Venax p. 7 (3 cm laterais/5 atrás) e o texto p. 10 (10 cm em toda a volta). A conclusão de largura favorável abaixo vale somente no ramo específico da tabela/desenho, sujeito a esclarecimento do fabricante. Não considerar a largura definitivamente validada.
+
 **Continuidade:** [R02 — três pendências](Fechamento_tres_pendencias_R02_2026-09-27.md) confirma que o manual Venax atual é idêntico, calcula corte vertical condicional e explicita possível déficit de profundidade. Elias aprovou retirar as cabeças da vassoura e do rodo para guardar com cabos fixos; não mais exigir ambos montados. Útil de estudo revisto para 118,7 × 40,6 × 8,8 cm com reserva de guias e rodízio real de 39 mm. Instalação completa e detalhes executivos ainda não fechados.
 
 27/09/2026. Elias gostou da hipótese de ganhar 5 cm da cocção para a gaveta baixa e pediu medir a viabilidade. Direção preferida para estudo; sem liberação de fabricação. Conferência baseada nos manuais locais e na geometria do projeto, não em medição física do apartamento.

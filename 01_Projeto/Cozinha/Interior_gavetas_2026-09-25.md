@@ -1,5 +1,7 @@
 # Interior das gavetas — estudo de 25/09/2026
 
+**Torre × gavetas — complemento de 28/09:** [corte e critérios](../Compatibilizacao_2026-09-28/Torre_gavetas.md). Preservar caixa externa de 50 cm; seção proposta até frente aplicada de 61 cm deixa 9,2 cm atrás, antes de fundo/recuo. Não encurtar G3 ou as três caixas pela altura geral da torre; envelope de referência cruza G1/G2 e precisa ser compatibilizado em profundidade. Modelo preto 20 A e anel ainda não comprovados.
+
 **Ferragens — definição vigente em 27/09/2026:** Elias aprovou abertura total e fechamento amortecido nas três gavetas principais G1/G2/G3, de frentes 16/16/40 cm. Perfis estreitos de alumínio preto fosco nas bordas também escolhidos. Quantidade de gavetas, distribuição e funções vigentes prevalecem sobre os trechos históricos de quatro gavetas abaixo; marca, carga, modelo e montagem continuam para especificação. Gaveta baixa sobre rodas permanece separada.
 
 **Setorização aprovada — 25/09/2026:** Elias confirmou que gostou da organização e definiu óleo e azeite em pé junto do leite. A faixa lateral direita do gavetão reúne leite, sucos, óleo e azeite; temperos permanecem à frente esquerda e alimentos abertos ao fundo esquerdo. Aprovação funcional, sem comprovação de cabimento conjunto das embalagens ou aprovação das dimensões dos organizadores. Molhos e enlatados continuam sem posição demonstrada. Ajustar as larguras dos setores se necessário após conferir embalagens, preservando a frente aprovada 16/16/40.

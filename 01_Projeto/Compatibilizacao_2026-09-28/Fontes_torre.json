@@ -1,0 +1,13 @@
+{
+  "consultadoEm": "2026-09-28",
+  "metodo": "Firecrawl MCP para páginas; PDFs oficiais baixados e renderizados localmente com pypdfium2",
+  "fontes": [
+    {"url":"https://qtmov.com.br/produtos/linha-pratik/mini-totem-automatico/","achado":"Página individual ainda descreve 10 A, tampa 76 mm e furo 65 mm; não identifica dimensionalmente a variante 20 A."},
+    {"url":"https://qtmov.com.br/torre-de-tomada/","achado":"Família Mini Totem Automático menciona tomadas 10 A ou 20 A; não basta para atribuir a ficha de um código a outro."},
+    {"url":"https://qtmov.com.br/manuais/mini-totem-automatico/","achado":"Página online contém orientação de 60 cm de áreas úmidas. Escopo e medição precisam ser esclarecidos pelo fabricante; estudo não a afirma como regra universal da NBR."},
+    {"url":"https://qtmov.com.br/midias/produtos/arquivos_download/mini-totem-automatico1.pdf","arquivo":"Fontes_torre/QTMOV_ficha_10A.pdf","paginasConferidas":[1],"achado":"Referências QM12200.00/.01/.02, 10 A. Desenho com corpo 64 mm, tampa 76 mm, furo 65 mm; cadeia vertical contém discrepância e não cota anel nem ambos os estados."},
+    {"url":"https://qtmov.com.br/wp-content/uploads/2023/08/Manual-de-instalacao-Mini-Totem-Automatico.pdf","arquivo":"Fontes_torre/QTMOV_manual.pdf","paginasConferidas":[1,2,3],"achado":"Tabela diferencia modelos 10/20 A e potência em 127 V; fixação por anel abaixo da superfície. Frase dos 60 cm não localizada no PDF consultado."},
+    {"url":"https://www.soprano.com.br/acesso-e-seguranca/acessorios-para-moveis/iluminacao-e-energizacao/torre-de-tomada/06910.0200.79_torre-de-tomada-de-embutir-3-modulos-de-energia-preta","achado":"Página do código preto anuncia furo 60 mm e compatibilidade com plugue 16 A. Não comprova requisito de aceitação direta do plugue 20 A; não selecionado."}
+  ],
+  "observacoes": ["Sem consulta de estoque/preço ou compra.","Medidas da torre 10 A são referência de triagem, não dimensões aprovadas da versão 20 A.","Não foi enviado formulário, mensagem ou pedido ao fabricante."]
+}

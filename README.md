@@ -1,5 +1,15 @@
 # Guedala Park — projeto do apartamento
 
+**Cesto e retirada — 30/09:** [estudo interativo](01_Projeto/Compatibilizacao_2026-09-30/Cesto_retirada.html) · [memória](01_Projeto/Compatibilizacao_2026-09-30/Cesto_retirada.md). Proposta de frente inferior basculante e painel superior removível economiza 18,51 cm de projeção frente à folha alta no mesmo plano. Cesto e tanque preservados; face da lavanderia proposta a 63, pedra mantida a 75. Percurso do saco calculado; ergonomia, ferragem e montagem real continuam a conferir.
+
+**Torre × gavetas — 28/09:** [planta e corte](01_Projeto/Compatibilizacao_2026-09-28/Torre_gavetas.html) · [memória e critérios de seleção](01_Projeto/Compatibilizacao_2026-09-28/Torre_gavetas.md). Caixas de 50 cm preservadas como objetivo; faixa traseira calculada em 9,2 cm brutos, 7,4 cm com fundo de 18 mm. Rodabanca e acesso atrás do filtro impedem considerar o encaixe resolvido apenas pelo diâmetro. Variante preta 20 A e furação ainda sem validação.
+
+**Micro e luz C2 — 28/09:** [prancha e mapas de luz](01_Projeto/Compatibilizacao_2026-09-28/Micro_C2.html) · [memória](01_Projeto/Compatibilizacao_2026-09-28/Micro_C2.md). Proposto apoio aberto de 69,7 × 47 cm e perfil sob B a 42 cm da parede. Mantidos organização dos aéreos e registro dos 10 cm superiores escolhidos; instalação completa do ME23P ainda não validada.
+
+**Cocção — corte desenvolvido em 28/09:** [prancha cotada](01_Projeto/Compatibilizacao_2026-09-28/Corte_coccao.html) · [memória e dúvidas técnicas prontas](01_Projeto/Compatibilizacao_2026-09-28/Corte_coccao.md). Tolerâncias e projeção frontal calculadas; divergência entre instruções Venax identificada, sem alterar layout ou liberar instalação.
+
+**Avanço técnico — 28/09/2026:** [caderno visual de compatibilização](01_Projeto/Compatibilizacao_2026-09-28/Caderno.html) · [contas, critérios e resultados](01_Projeto/Compatibilizacao_2026-09-28/README.md) · [briefing para detalhamento](01_Projeto/Compatibilizacao_2026-09-28/Briefing_tecnico.md). Bancada, luz de tarefa, torre/gavetas, cesto e sensibilidade das passagens conferidos com a base existente. Estudos locais; sem nova publicação do site ou liberação de fabricação.
+
 **Atualização de 27/09/2026:** decisões de cozinha/lavanderia consolidadas no [fechamento](01_Projeto/Fechamento_cozinha_lavanderia_2026-09-27.md) e incorporadas ao site R09. [Ensaios interativos preservados](01_Projeto/Estudos_interativos_2026-09-27/README.md). Commit/push de todo o projeto e atualização do site autorizados por Elias nesta data.
 
 [Decisões aprovadas, pendências e próximo passo](01_Projeto/Painel_de_decisoes.md) — acompanhamento local do projeto.
