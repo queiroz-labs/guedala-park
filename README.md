@@ -1,5 +1,13 @@
 # Guedala Park — projeto do apartamento
 
+**Formas acima da geladeira — 30/09:** [estudo de guarda em pé e retirada](01_Projeto/Compatibilizacao_2026-09-30/Formas_A.html). Mantida forma de pizza Ø30 já escolhida; proposta ocupa uma metade de A sem nova prateleira. Limites incluem elevar a peça sobre os separadores, com estabilidade e acesso real ainda pendentes. Sem nova pesquisa.
+
+**B1/B2 — pratos e mantimentos, 30/09:** [prancha completa](01_Projeto/Compatibilizacao_2026-09-30/B1_B2.html). Uma pilha de 18 pratos em metade do B1 e três caixas largas para reserva no restante. Limites dimensionais calculados, conteúdo real ainda a conferir. Organização do C3 aprovada por Elias e registrada; sem nova pesquisa externa.
+
+**C3 — panos e potes, 30/09:** [prancha de organização](01_Projeto/Compatibilizacao_2026-09-30/C3_reserva.html). Panos em caixa própria, dez potes vazios e tampas separados em bandeja sem divisórias fixas. Duas pilhas de cinco reduzem a altura necessária; capacidade real depende dos objetos e da largura final do armário. Contas com cenários de 51,1 e 48,6 cm internos, sem nova pesquisa externa.
+
+**Operação da lavanderia — 30/09:** [planta de duas cenas](01_Projeto/Compatibilizacao_2026-09-30/Operacao_lavanderia.html). Retirada do saco e carga da máquina estudadas separadamente. Guarda baixa do banquinho junto à janela conflita com giro/lixeira. Trabalho anterior salvo no commit **571da11**; esta continuação está separada para revisão.
+
 **Cesto e retirada — 30/09:** [estudo interativo](01_Projeto/Compatibilizacao_2026-09-30/Cesto_retirada.html) · [memória](01_Projeto/Compatibilizacao_2026-09-30/Cesto_retirada.md). Proposta de frente inferior basculante e painel superior removível economiza 18,51 cm de projeção frente à folha alta no mesmo plano. Cesto e tanque preservados; face da lavanderia proposta a 63, pedra mantida a 75. Percurso do saco calculado; ergonomia, ferragem e montagem real continuam a conferir.
 
 **Torre × gavetas — 28/09:** [planta e corte](01_Projeto/Compatibilizacao_2026-09-28/Torre_gavetas.html) · [memória e critérios de seleção](01_Projeto/Compatibilizacao_2026-09-28/Torre_gavetas.md). Caixas de 50 cm preservadas como objetivo; faixa traseira calculada em 9,2 cm brutos, 7,4 cm com fundo de 18 mm. Rodabanca e acesso atrás do filtro impedem considerar o encaixe resolvido apenas pelo diâmetro. Variante preta 20 A e furação ainda sem validação.
@@ -61,3 +69,11 @@ Os estudos partem da planta, do memorial oficial de entrega da Cury (R00, 03/04/
 Atualize o [registro de decisões](01_Projeto/Registro_de_decisoes.md) e o resumo quando uma escolha mudar. Mantenha um registro por dia, atualizado ao longo do dia; não crie versão a cada resposta. Guarde versões substituídas no arquivo e atualize os links do assunto correspondente.
 
 Os arquivos usam nomes por assunto. `R00`, `R01` etc. identificam revisões do mesmo estudo; uma revisão de pia não substitui um estudo de lavanderia. Os códigos antigos, como A04.4, continuam dentro dos documentos e PDFs para permitir a conferência das fontes.
+
+
+**Mesa extensível — consolidação de 30/09:** [apresentação completa](01_Projeto/Compatibilizacao_2026-09-30/Mesa_completa.html), com guarda da folha, apoio no assento, operação, dimensões e condições para execução.
+
+**Continuação — 02/10:** [C4, D e mapa de armazenamento](01_Projeto/Compatibilizacao_2026-10-02/Armazenamento_C4_D.html) e [redistribuição da pia](01_Projeto/Compatibilizacao_2026-10-02/Pia_compatibilizada.html). Pressão transversal resolve excesso dimensional anterior; pilhas e reservas hidráulicas condicionadas às peças reais. Escorredor posterior exige retirar pressão e suporte. Capacidade global de guarda permanece em aberto.
+
+
+**Continuação — 03/10:** [saldo da pia](01_Projeto/Compatibilizacao_2026-10-03/Saldo_da_pia.html) e [tampas/G2](01_Projeto/Compatibilizacao_2026-10-03/Tampas_e_G2.html). Conjunto de utensílios definido; mixer e tábua extra com reservas condicionais, armazenamento global ainda em aberto.

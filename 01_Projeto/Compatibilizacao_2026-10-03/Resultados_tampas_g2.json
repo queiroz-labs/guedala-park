@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-03",
+  "units": "cm",
+  "technical": [
+    {
+      "name": "sifão: reserva",
+      "x": 25.4,
+      "y": 0,
+      "z": 22,
+      "w": 10,
+      "d": 31.3,
+      "h": 49.5
+    },
+    {
+      "name": "mangueira: reserva",
+      "x": 1,
+      "y": 0,
+      "z": 22,
+      "w": 16,
+      "d": 28.3,
+      "h": 68
+    }
+  ],
+  "upper": [
+    {
+      "name": "Pilha esquerda: Solar16+20",
+      "x": 1,
+      "y": 28.9,
+      "z": 50,
+      "w": 22.1,
+      "d": 27.5,
+      "h": 17.7
+    },
+    {
+      "name": "Pilha direita: Solar16+20",
+      "x": 36.4,
+      "y": 27.8,
+      "z": 50,
+      "w": 22.1,
+      "d": 27.5,
+      "h": 17.7
+    },
+    {
+      "name": "Quatro tampas deitadas: limite",
+      "x": 36.4,
+      "y": 1,
+      "z": 50,
+      "w": 22.1,
+      "d": 22.1,
+      "h": 18.5
+    }
+  ],
+  "lower": [
+    {
+      "name": "Pressão escolhida",
+      "x": 1,
+      "y": 33.3,
+      "z": 22,
+      "w": 40.8,
+      "d": 23.1,
+      "h": 18.1
+    },
+    {
+      "name": "Escorredor deitado",
+      "x": 37.4,
+      "y": 1,
+      "z": 22,
+      "w": 19.9,
+      "d": 27.8,
+      "h": 12.6
+    },
+    {
+      "name": "Tábua parcial: hipótese",
+      "x": 58.4,
+      "y": 19.4,
+      "z": 22,
+      "w": 2,
+      "d": 36,
+      "h": 20
+    }
+  ],
+  "operations": {
+    "leftStack": [],
+    "rightStack": [],
+    "lidsInitially": [
+      "Pilha direita: Solar16+20"
+    ],
+    "lidsAfterRightStack": [],
+    "pressure": [],
+    "drainerInitially": [
+      "Pressão escolhida"
+    ],
+    "drainerAfterPressure": [],
+    "board": []
+  },
+  "g2": {
+    "longClear": [
+      19.2,
+      45.2
+    ],
+    "wideClear": [
+      30.4,
+      45.2
+    ],
+    "wide": [
+      {
+        "name": "Frigideira Turim20",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0,
+        "w": 21,
+        "d": 35.3,
+        "h": 9.7
+      },
+      {
+        "name": "Espremedor1: limite",
+        "x": 22.9,
+        "y": 1,
+        "z": 0,
+        "w": 7,
+        "d": 19,
+        "h": 6.5
+      },
+      {
+        "name": "Espremedor2: limite",
+        "x": 22.9,
+        "y": 22,
+        "z": 0,
+        "w": 7,
+        "d": 19,
+        "h": 6.5
+      },
+      {
+        "name": "Ralador deitado: limite",
+        "x": 0.5,
+        "y": 37.2,
+        "z": 0,
+        "w": 21,
+        "d": 7.5,
+        "h": 4
+      }
+    ],
+    "long": [
+      {
+        "name": "Concha: 1",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.4,
+        "w": 7,
+        "d": 31,
+        "h": 6
+      },
+      {
+        "name": "Escumadeira: 1",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 6.6,
+        "w": 8,
+        "d": 32,
+        "h": 2.5
+      },
+      {
+        "name": "Espátula lisa: 1",
+        "x": 10.1,
+        "y": 0.5,
+        "z": 0.4,
+        "w": 6,
+        "d": 30,
+        "h": 2.5
+      },
+      {
+        "name": "Espátula vazada: 1",
+        "x": 10.1,
+        "y": 0.5,
+        "z": 3.1,
+        "w": 6,
+        "d": 30,
+        "h": 2.5
+      },
+      {
+        "name": "Peneira pequena: 1",
+        "x": 10.1,
+        "y": 0.5,
+        "z": 5.8,
+        "w": 8,
+        "d": 26,
+        "h": 4.2
+      }
+    ],
+    "longStackHeights": [
+      8.7,
+      9.6
+    ],
+    "longGroup": "1 concha,1 escumadeira,1 espátula lisa,1 espátula vazada,1 peneira pequena. Dois espremedores definidos como alho e cítricos;1 ralador plano. Utensílios ainda a comprar; dimensões são critérios de seleção, não produtos medidos.",
+    "minimumRealHeight": 11.1,
+    "heightSensitivity": [
+      {
+        "H": 8,
+        "objectLimit": 6.6,
+        "fryingPanFits": false,
+        "wholePlannedSetFitsHeight": false
+      },
+      {
+        "H": 10,
+        "objectLimit": 8.6,
+        "fryingPanFits": false,
+        "wholePlannedSetFitsHeight": false
+      },
+      {
+        "H": 11.1,
+        "objectLimit": 9.7,
+        "fryingPanFits": true,
+        "wholePlannedSetFitsHeight": true
+      },
+      {
+        "H": 12,
+        "objectLimit": 10.6,
+        "fryingPanFits": true,
+        "wholePlannedSetFitsHeight": true
+      }
+    ],
+    "status": "Composição e limites definidos com autorização de Elias. Frigideira documental; demais produtos ainda sem marcas/códigos, devem respeitar os gabaritos. H real e fabricação pendentes."
+  },
+  "lids": {
+    "maxTotalStackHeight": 18.5,
+    "clearToBowl": 3,
+    "projectedSum": 17,
+    "padHypothesis": 0.2,
+    "baseHypothesis": 0.4,
+    "allowanceForFourLidSeatingEdges": 0.4999999999999999,
+    "status": "A diferença tampa+corpo menos corpo dá somente projeção superior, não altura isolada da tampa. Soma completa empilhada desconhecida; exigir altura total com apoio/proteção até18,5."
+  },
+  "status": "Alternativa C de guarda: tampas no superior atrás da pilha direita; frigideira candidata em G2. Sem novos níveis de marcenaria, sem inventário excluído; tampas, acessórios e hidráulica condicionais, sem aprovação de compra/fabricação."
+}

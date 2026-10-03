@@ -1,0 +1,123 @@
+{
+  "units": "cm",
+  "parameters": {
+    "cabinet": [
+      37.35,
+      31.4,
+      54.8
+    ],
+    "support": 198.4,
+    "rack": [
+      35,
+      28,
+      5
+    ],
+    "wall": 0.4,
+    "topReserve": 3,
+    "liftOverRail": 1,
+    "insideSideReserve": 1,
+    "slotReserve": 0.5,
+    "pizzaDiameter": 30
+  },
+  "rackPosition": [
+    1.1750000000000007,
+    2.4
+  ],
+  "slots": [
+    {
+      "indexBackToFront": 0,
+      "x": 1.5750000000000006,
+      "y": 2.8,
+      "width": 34.2,
+      "depth": 8.799999999999999
+    },
+    {
+      "indexBackToFront": 1,
+      "x": 1.5750000000000006,
+      "y": 12,
+      "width": 34.2,
+      "depth": 8.799999999999999
+    },
+    {
+      "indexBackToFront": 2,
+      "x": 1.5750000000000006,
+      "y": 21.2,
+      "width": 34.2,
+      "depth": 8.799999999999999
+    }
+  ],
+  "maxObject": {
+    "width": 32.2,
+    "thickness": 7.799999999999999,
+    "heightForExtraction": 45.8
+  },
+  "extractionBottom": 6,
+  "lift": 5.6,
+  "objects": [
+    {
+      "name": "Pizza: diâmetro escolhido; espessura hipotética",
+      "w": 30,
+      "h": 30,
+      "t": 3,
+      "slot": 2,
+      "y": 24.5
+    },
+    {
+      "name": "Forma retangular inteiramente hipotética",
+      "w": 30,
+      "h": 40,
+      "t": 6,
+      "slot": 1,
+      "y": 13
+    }
+  ],
+  "tilt": [
+    {
+      "name": "Pizza: diâmetro escolhido; espessura hipotética",
+      "rows": [
+        {
+          "deg": 0,
+          "projectedDepth": 3,
+          "limit": 7.799999999999999
+        },
+        {
+          "deg": 5,
+          "projectedDepth": 5.603256376704982,
+          "limit": 7.799999999999999
+        },
+        {
+          "deg": 10,
+          "projectedDepth": 8.163868589044533,
+          "limit": 7.799999999999999
+        }
+      ]
+    },
+    {
+      "name": "Forma retangular inteiramente hipotética",
+      "rows": [
+        {
+          "deg": 0,
+          "projectedDepth": 6,
+          "limit": 7.799999999999999
+        },
+        {
+          "deg": 5,
+          "projectedDepth": 9.463397898456801,
+          "limit": 7.799999999999999
+        },
+        {
+          "deg": 10,
+          "projectedDepth": 12.854773624750461,
+          "limit": 7.799999999999999
+        }
+      ]
+    }
+  ],
+  "posesChecked": 404,
+  "flatPizza": {
+    "totalDepthRemainder": 1.3999999999999986,
+    "requiredDepthWithReserves": 34,
+    "deficit": 2.6000000000000014
+  },
+  "status": "Ensaio geométrico isolado. Não valida estabilidade, suporte, portas, ergonomia, forno ou medidas de peças existentes."
+}

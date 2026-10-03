@@ -1,0 +1,74 @@
+{
+  "units": "cm",
+  "parameters": {
+    "drawer": [
+      52.7,
+      47
+    ],
+    "edge": 0.5,
+    "gap": 0.5,
+    "wall": 0.4
+  },
+  "g1": {
+    "cutleryOuter": [
+      39.2,
+      46
+    ],
+    "knivesOuter": [
+      12,
+      46
+    ],
+    "cutleryCells": [
+      9.3,
+      30
+    ],
+    "rearClear": [
+      38.4,
+      14.8
+    ],
+    "knivesClear": [
+      11.2,
+      45.2
+    ]
+  },
+  "g2": {
+    "longOuter": [
+      20,
+      46
+    ],
+    "adjustableOuter": [
+      31.2,
+      46
+    ],
+    "longClear": [
+      19.2,
+      45.2
+    ],
+    "accessoryClear": [
+      30.4,
+      22.4
+    ],
+    "withoutDivider": [
+      30.4,
+      45.2
+    ]
+  },
+  "heightSensitivity": [
+    {
+      "totalHypotheticalLoss": 4,
+      "freeHeight": 12,
+      "maxObjectHeight": 10.6
+    },
+    {
+      "totalHypotheticalLoss": 6,
+      "freeHeight": 10,
+      "maxObjectHeight": 8.6
+    },
+    {
+      "totalHypotheticalLoss": 8,
+      "freeHeight": 8,
+      "maxObjectHeight": 6.6
+    }
+  ],
+  "status": "Organizadores removíveis de estudo. Não define ferragem, altura útil real ou cabimento do inventário."
+}

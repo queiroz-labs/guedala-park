@@ -1,0 +1,45 @@
+{
+  "centralChairTemporaryMove": 32.5,
+  "units": "cm",
+  "body": {
+    "height": 3,
+    "width": 75,
+    "depth": 30
+  },
+  "rotationCenter": [
+    -12.5,
+    205.5
+  ],
+  "rotationRadius": 40.38873605350879,
+  "rotationToChairLongitudinal": 3.1112639464912206,
+  "rotationToFridgeCircleBound": 3.9261880691837803,
+  "rotationToWall": 27.111263946491214,
+  "transportBottom": 97,
+  "transportTop": 100,
+  "chairHeight": 94,
+  "verticalChairGap": 3,
+  "pendantBottom": 155,
+  "pendantVerticalGap": 55,
+  "supportClosed": [
+    -70,
+    115,
+    5,
+    145
+  ],
+  "supportOpen": [
+    -70,
+    130,
+    5,
+    160
+  ],
+  "protectiveSpacer": 1,
+  "supportedBottom": 76,
+  "supportedTop": 79,
+  "temporaryChairMove": 41,
+  "chairToLeaf": 3,
+  "centralChairToLeaf": 3,
+  "leafShiftWithHalf": 15,
+  "leafShiftToCenter": 55,
+  "assemblyGapNominal": 30,
+  "status": "Ciclo geométrico candidato; transporte da folha sobre metade móvel depende de ferragem e operação confirmadas."
+}

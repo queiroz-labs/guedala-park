@@ -1,5 +1,7 @@
 # Banquinho — conferência de guarda e acesso, 25/09/2026
 
+**Conferência em planta — 30/09:** [operação da lavanderia](../Compatibilizacao_2026-09-30/Operacao_lavanderia.md). Na base 129 × 154, a reserva inferior de 45 cm junto à janela não cabe fora do giro do cesto e antes da lixeira: sobram 17,85 cm, déficit de 27,15. Não liberar suporte nessa faixa. Modelo e preferência por retirada fácil preservados; outra face/local exige conferência própria. As posições propostas abaixo não são encaixes aprovados.
+
 **Aéreos contínuos do quarto — nova direção de Elias, 25/09/2026:** usuário quer que os armários aéreos ocupem a parte superior do guarda-roupa e continuem virando o canto até a cabeceira da cama. Integrar visualmente o maleiro ao conjunto superior; não empilhar outro armário sobre o guarda-roupa já previsto até o teto. Forma da virada (L com frentes retas ou frente arredondada) em esclarecimento. Preservar Arenza, cabeceira estofada, programa interno do guarda-roupa e profundidade de referência25 cm sobre a cama; guarda-roupa permanece60 cm de caixa, com proteção posterior a compatibilizar. Topo contínuo até o teto; base única ainda não definida: maleiro de referência a215 cm e aéreo da cabeceira a205 cm. Não baixar maleiro nem comprometer varões para alinhar frentes sem estudo.
 
 **Acesso à cabeceira — decisão pessoal encerrada:** Elias informou que acessará o armário subindo no colchão e pediu considerar esse ponto resolvido. Registrar como decisão de uso assumida pelo usuário, encerrada para novas perguntas; não classificar como validação técnica de estabilidade/segurança. Banquinho deixa de ser requisito para esse acesso. Prosseguir com o desenho solicitado, sem reiterar a advertência já comunicada.
@@ -34,3 +36,6 @@ Com Elias de175 cm sobre ganho nominal64,5, topo da cabeça~239,5 cm sem calçad
 Modelo mantido como referência escolhida. Guarda baixa na lavanderia detalhada como proposta; acesso universal ainda não validado. Principal conflito a tratar é o aéreo da cabeceira. Evitar continuar fechando armazenamento nesse armário como se o banquinho já resolvesse a retirada. Não pedir medição em obra agora: Elias ainda não tem acesso ao apartamento. Conferência dimensional final na entrega; usar desenhos disponíveis para revisar o acesso desde já.
 
 Fontes locais: Banquinho_modelo_e_alcance_2026-09-25.md; Decisoes_da_lavanderia_R01.md; ../Portas_e_quarto/Cabeceira_e_armario_superior_R00.md; ../Portas_e_quarto/Guarda_roupa_interior_R02.md; ../Escritorio/Redistribuicao_aereos_R09.md. Medidas do produto já verificadas na loja oficial em25/09/2026; sem nova cotação.
+
+
+**30/09 — continuação:** Elias compreendeu a incompatibilidade da faixa junto à janela. [Alternativa sob a TV do escritório](../Compatibilizacao_2026-09-30/Banquinho_alternativa.md) calculada, ainda sem destino definitivo: retirada com a cama aberta depende de gabarito com pessoa; nenhuma mudança de modelo aprovada.

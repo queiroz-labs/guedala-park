@@ -1,0 +1,81 @@
+{
+  "data": "2026-09-30",
+  "premissas": {
+    "largura": 129,
+    "profundidade": 154,
+    "bancada": [
+      0,
+      0,
+      129,
+      75
+    ],
+    "gabinete": [
+      0,
+      0,
+      59,
+      63
+    ],
+    "maquina": [
+      65,
+      10,
+      125,
+      72
+    ],
+    "portaReserva": [
+      63,
+      72,
+      127,
+      120
+    ],
+    "lixeira": [
+      2,
+      123,
+      31,
+      152
+    ],
+    "alturaLixeira": 43.7,
+    "frente": [
+      0.2,
+      0,
+      58.8,
+      105.15031
+    ],
+    "sacoX": [
+      9.5,
+      49.5
+    ],
+    "pessoaCesto": [
+      62,
+      80,
+      92,
+      125
+    ],
+    "pessoaMaquina": [
+      7,
+      80,
+      52,
+      110
+    ],
+    "guardaP": 25,
+    "guardaL": 45
+  },
+  "checks": {
+    "pessoaCestoVsMaquina": false,
+    "pessoaCestoVsFrente": false,
+    "pessoaCestoVsPortaAberta": true,
+    "pessoaMaquinaVsPorta": false,
+    "pessoaMaquinaVsCestoAberto": true
+  },
+  "sacoSobreLixeira": {
+    "amostras": 70,
+    "folgaVerticalMin": 18.266,
+    "condicao": "lixeira fechada, corpo rígido de teste sem alças/roupa pendente"
+  },
+  "guarda": {
+    "faixaEntrePedraELixeira": 48,
+    "sobraFechado": 3,
+    "faixaDepoisDaFrente": 17.85,
+    "deficit": 27.15
+  },
+  "estado": "Ensaio documental de operação; não antropometria nem levantamento"
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-03",
+  "units": "cm",
+  "base": "Resultados_tampas_g2.json",
+  "zones": [
+    {
+      "name": "R1: bandeja frontal candidata",
+      "x": 43.8,
+      "y": 33.3,
+      "z": 22,
+      "w": 13.6,
+      "d": 23.1,
+      "h": 23.2
+    },
+    {
+      "name": "R2: reserva estreita posterior",
+      "x": 18,
+      "y": 1,
+      "z": 22,
+      "w": 6.4,
+      "d": 30.3,
+      "h": 23.2
+    }
+  ],
+  "usable": {
+    "R1": [
+      12.8,
+      22.3,
+      22.8
+    ],
+    "R2": [
+      5.6,
+      29.5,
+      22.8
+    ],
+    "walls": 0.4,
+    "upperMargin": 3
+  },
+  "mixerHypothesis": [
+    {
+      "name": "Motor compacto: limite",
+      "x": 0.9,
+      "y": 0.9,
+      "z": 0.4,
+      "w": 5.5,
+      "d": 5.5,
+      "h": 21
+    },
+    {
+      "name": "Haste desmontada: limite",
+      "x": 7,
+      "y": 0.9,
+      "z": 0.4,
+      "w": 5.5,
+      "d": 5.5,
+      "h": 21
+    },
+    {
+      "name": "Copo: limite",
+      "x": 1.8,
+      "y": 8,
+      "z": 0.4,
+      "w": 10,
+      "d": 10,
+      "h": 17
+    },
+    {
+      "name": "Cabo enrolado: limite",
+      "x": 0.9,
+      "y": 19,
+      "z": 0.4,
+      "w": 11.4,
+      "d": 2.8,
+      "h": 3
+    }
+  ],
+  "meatBoard": {
+    "name": "Tábua extra carnes: hipótese",
+    "x": 19,
+    "y": 2,
+    "z": 22.4,
+    "w": 1,
+    "d": 28,
+    "h": 20
+  },
+  "operation": {
+    "mixerTray": [],
+    "meatBoardInitially": [
+      "Pressão escolhida"
+    ],
+    "meatBoardAfterPressure": [],
+    "drainerWithMixer": [
+      "Pressão escolhida",
+      "R1: bandeja frontal candidata"
+    ],
+    "drainerAfterPressureAndMixer": []
+  },
+  "exclusiveAlternativesR1": [
+    "Mixer desmontável completo nos limites",
+    "Jarra/térmica ou grupo de recipientes dentro do mesmo limite, substituindo o mixer"
+  ],
+  "notAllocated": [
+    "Sanduicheira",
+    "Liquidificador",
+    "Batedeira portátil",
+    "Potes de vidro de refeições",
+    "Duas travessas de vidro",
+    "Quatro bowls e três tigelas",
+    "Peneira/escorredor de macarrão",
+    "Cesto ventilado de batatas/cebolas/alho",
+    "Jarra/térmica se R1 receber mixer"
+  ],
+  "status": "Duas reservas geométricas condicionais. Mixer e tábua de carnes são candidaturas, sem modelo/dimensões reais. Não comprova armazenamento global; usar vazios aumenta dependências de retirada."
+}

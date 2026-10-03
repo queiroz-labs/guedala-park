@@ -1,0 +1,102 @@
+{
+  "units": "cm",
+  "parameters": {
+    "width": 66.1,
+    "depth": 31.4,
+    "half": 33.05,
+    "B1": {
+      "support": 195.8,
+      "clear": 25.8
+    },
+    "B2": {
+      "support": 223.4,
+      "clear": 29.8
+    },
+    "platePad": 0.3,
+    "topReserve": 3,
+    "plateFrontReserve": 3,
+    "plateBackReserve": 1,
+    "wall": 0.4,
+    "basket": [
+      30,
+      28,
+      12
+    ]
+  },
+  "plate": {
+    "maxDiameter": 27.4,
+    "maxStackHeight": 22.5,
+    "center": [
+      16.525,
+      14.7
+    ],
+    "widthMarginEach": 2.8249999999999993
+  },
+  "baskets": [
+    {
+      "id": "B1 reserva",
+      "x": 34.05,
+      "y": 2.4,
+      "w": 30,
+      "d": 28
+    },
+    {
+      "id": "B2 esquerda",
+      "x": 1,
+      "y": 2.4,
+      "w": 30,
+      "d": 28
+    },
+    {
+      "id": "B2 direita",
+      "x": 35.1,
+      "y": 2.4,
+      "w": 30,
+      "d": 28
+    }
+  ],
+  "insideBasket": [
+    29.2,
+    27.2,
+    11.6
+  ],
+  "maxGoodsHeight": {
+    "B1": 22.400000000000002,
+    "B2": 26.400000000000002
+  },
+  "hypotheticalStack": [
+    {
+      "firstHeight": 4,
+      "meanAddedHeight": 0.8,
+      "total": 17.6,
+      "margin": 4.899999999999999
+    },
+    {
+      "firstHeight": 4,
+      "meanAddedHeight": 1,
+      "total": 21,
+      "margin": 1.5
+    },
+    {
+      "firstHeight": 4,
+      "meanAddedHeight": 1.2,
+      "total": 24.4,
+      "margin": -1.8999999999999986
+    }
+  ],
+  "hypotheticalMass": [
+    {
+      "kgPerPlate": 0.35,
+      "total18kg": 6.3
+    },
+    {
+      "kgPerPlate": 0.5,
+      "total18kg": 9
+    },
+    {
+      "kgPerPlate": 0.65,
+      "total18kg": 11.700000000000001
+    }
+  ],
+  "status": "Organização proposta; dimensões documentais e sensibilidades, sem louça ou embalagens medidas e sem capacidade estrutural comprovada."
+}

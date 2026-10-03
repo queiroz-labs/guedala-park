@@ -1,0 +1,229 @@
+{
+  "units": "cm",
+  "parameters": {
+    "w": 61.4,
+    "d": 57.4,
+    "base": 22,
+    "shelf": 50,
+    "shelfThickness": 1.8,
+    "sinkBottom": 71.5
+  },
+  "technical": [
+    {
+      "name": "Sifão e ligações: limite de projeto",
+      "x": 25.4,
+      "y": 0,
+      "z": 22,
+      "w": 10,
+      "d": 31.3,
+      "h": 49.5
+    },
+    {
+      "name": "Mangueira móvel: limite de projeto",
+      "x": 1,
+      "y": 0,
+      "z": 22,
+      "w": 16,
+      "d": 28.3,
+      "h": 68
+    }
+  ],
+  "lower": [
+    {
+      "name": "Pressão transversal",
+      "x": 1,
+      "y": 33.3,
+      "z": 22,
+      "w": 40.8,
+      "d": 23.1,
+      "h": 18.1
+    },
+    {
+      "name": "Escorredor girado",
+      "x": 37.4,
+      "y": 1,
+      "z": 22,
+      "w": 19.9,
+      "d": 27.8,
+      "h": 12.6
+    },
+    {
+      "name": "Suporte de 4 tampas + frigideira",
+      "x": 44,
+      "y": 33.3,
+      "z": 22,
+      "w": 13.4,
+      "d": 23.1,
+      "h": 23.2
+    },
+    {
+      "name": "Tábua em pé: hipótese",
+      "x": 58.4,
+      "y": 19.4,
+      "z": 22,
+      "w": 2,
+      "d": 36,
+      "h": 20
+    }
+  ],
+  "upper": [
+    {
+      "name": "Pilha A: pequena + média",
+      "x": 1,
+      "y": 29.3,
+      "z": 50,
+      "w": 23.4,
+      "d": 25,
+      "h": 18
+    },
+    {
+      "name": "Pilha B: pequena + média",
+      "x": 36.4,
+      "y": 29.3,
+      "z": 50,
+      "w": 24,
+      "d": 25,
+      "h": 18
+    }
+  ],
+  "rack": {
+    "outside": [
+      13.4,
+      23.1
+    ],
+    "wall": 0.4,
+    "inside": [
+      12.6,
+      22.3
+    ],
+    "pieceCount": 5,
+    "gap": 0.5,
+    "totalThicknessBudget": 10.6,
+    "maximumStaticPieceHeight": 22.8,
+    "removal": "Retirar o conjunto horizontalmente; levantar peças fora do gabinete. Pegas e peso pendentes."
+  },
+  "limits": {
+    "siphon": [
+      10,
+      31.3
+    ],
+    "hose": [
+      16,
+      28.3
+    ],
+    "upperStacks": [
+      [
+        23.4,
+        25,
+        18
+      ],
+      [
+        24,
+        25,
+        18
+      ]
+    ],
+    "board": [
+      36,
+      20,
+      2
+    ],
+    "pressureFrontGap": 1,
+    "pressureToSiphonDepthGap": 2,
+    "drainerToSiphonSideGap": 2,
+    "upperToHoseDepthGap": 1
+  },
+  "operation": {
+    "pressure": [],
+    "rack": [],
+    "board": [],
+    "drainerInitially": [
+      "Pressão transversal",
+      "Suporte de 4 tampas + frigideira"
+    ],
+    "drainerAfterRemovingPressureAndRack": [],
+    "upper": [
+      [],
+      []
+    ]
+  },
+  "sensitivity": [
+    {
+      "centralWidth": 10,
+      "symmetricStackMaximumWidth": 23.7
+    },
+    {
+      "centralWidth": 14,
+      "symmetricStackMaximumWidth": 21.7
+    },
+    {
+      "centralWidth": 18,
+      "symmetricStackMaximumWidth": 19.7
+    }
+  ],
+  "sideAlternative": {
+    "objects": [
+      {
+        "name": "Pressão transversal",
+        "x": 1,
+        "y": 33.3,
+        "z": 22,
+        "w": 40.8,
+        "d": 23.1,
+        "h": 18.1
+      },
+      {
+        "name": "Escorredor de lado + reserva de berço",
+        "x": 43.5,
+        "y": 27.6,
+        "z": 22,
+        "w": 13.6,
+        "d": 28.8,
+        "h": 20.9
+      },
+      {
+        "name": "Suporte de tampas posterior",
+        "x": 37.4,
+        "y": 1,
+        "z": 22,
+        "w": 13.4,
+        "d": 23.1,
+        "h": 23.2
+      },
+      {
+        "name": "Tábua em pé: hipótese",
+        "x": 58.4,
+        "y": 19.4,
+        "z": 22,
+        "w": 2,
+        "d": 36,
+        "h": 20
+      }
+    ],
+    "operation": [
+      {
+        "name": "Pressão transversal",
+        "collisions": []
+      },
+      {
+        "name": "Escorredor de lado + reserva de berço",
+        "collisions": []
+      },
+      {
+        "name": "Suporte de tampas posterior",
+        "collisions": [
+          "Escorredor de lado + reserva de berço",
+          "Pressão transversal"
+        ]
+      },
+      {
+        "name": "Tábua em pé: hipótese",
+        "collisions": []
+      }
+    ],
+    "upperGap": 5.3,
+    "status": "Escorredor, pressão e tábua têm retirada direta; tampas exigem retirar pressão e escorredor. Berço, retenção da bandeja e guarda de lado não validados fisicamente ou pelo fabricante."
+  },
+  "utensilsExist": false,
+  "status": "Redistribuição geométrica condicional. Elias informa que as panelas/tampas/frigideira ainda não existem: limites passam a orientar seleção, sem modelos aprovados. Duas alternativas de acesso; hidráulica desconhecida. Não liberado para fabricação."
+}

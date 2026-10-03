@@ -1,0 +1,114 @@
+{
+  "units": "cm",
+  "status": "Sequência geométrica candidata; não comprova ergonomia ou passagem pela porta real.",
+  "main": {
+    "depth": 40,
+    "width": 50,
+    "samples": 804,
+    "collisions": 0,
+    "outside": 0,
+    "minBodyBedClearance": 5,
+    "carryGroupWidth": 68,
+    "idealDoorLeftClearance": 2
+  },
+  "sensitivity": [
+    {
+      "depth": 30,
+      "width": 50,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 15,
+      "carryGroupWidth": 58,
+      "idealDoorLeftClearance": 12
+    },
+    {
+      "depth": 35,
+      "width": 50,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 10,
+      "carryGroupWidth": 63,
+      "idealDoorLeftClearance": 7
+    },
+    {
+      "depth": 40,
+      "width": 50,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 5,
+      "carryGroupWidth": 68,
+      "idealDoorLeftClearance": 2
+    },
+    {
+      "depth": 45,
+      "width": 50,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 0,
+      "carryGroupWidth": 73,
+      "idealDoorLeftClearance": -3
+    },
+    {
+      "depth": 50,
+      "width": 50,
+      "samples": 804,
+      "collisions": 536,
+      "outside": 0,
+      "minBodyBedClearance": -5,
+      "carryGroupWidth": 78,
+      "idealDoorLeftClearance": -8
+    }
+  ],
+  "bodyWidthSensitivity": [
+    {
+      "depth": 40,
+      "width": 45,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 5,
+      "carryGroupWidth": 68,
+      "idealDoorLeftClearance": 2
+    },
+    {
+      "depth": 40,
+      "width": 50,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 5,
+      "carryGroupWidth": 68,
+      "idealDoorLeftClearance": 2
+    },
+    {
+      "depth": 40,
+      "width": 55,
+      "samples": 804,
+      "collisions": 0,
+      "outside": 0,
+      "minBodyBedClearance": 5,
+      "carryGroupWidth": 68,
+      "idealDoorLeftClearance": 2
+    }
+  ],
+  "door": "Aberta a 90 graus, folha ideal na linha x=220, y=220..295. Vão hipotético x=145..220; não é largura livre medida.",
+  "end": {
+    "person": [
+      147,
+      242.5,
+      187,
+      292.5
+    ],
+    "stool": [
+      190,
+      245,
+      215,
+      290
+    ]
+  },
+  "sofaRigidClearance": 34.783415114533796
+}

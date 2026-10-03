@@ -1,5 +1,7 @@
 # Interior do gavetão — estudo de 25/09/2026
 
+**30/09 — comparação de escala e interiores:** [fabricantes e dimensões](../Compatibilizacao_2026-09-30/Padroes_gavetas.md); [prancha dos organizadores](../Compatibilizacao_2026-09-30/Organizadores_g3.html). Manter 61,9 e 16/16/40; organizar o útil sem fixar grades antes das embalagens.
+
 **Setorização aprovada — 25/09/2026:** Elias confirmou que gostou da organização e definiu óleo e azeite em pé junto do leite. A faixa lateral direita do gavetão reúne leite, sucos, óleo e azeite; temperos permanecem à frente esquerda e alimentos abertos ao fundo esquerdo. Aprovação funcional, sem comprovação de cabimento conjunto das embalagens ou aprovação das dimensões dos organizadores. Molhos e enlatados continuam sem posição demonstrada. Ajustar as larguras dos setores se necessário após conferir embalagens, preservando a frente aprovada 16/16/40.
 
 Proporção frontal aprovada: 40 cm brutos, sob duas gavetas de 16 cm. Este estudo detalha a organização interna para avaliação; as dimensões abaixo são envelopes de teste, não medidas de compra ou fabricação.

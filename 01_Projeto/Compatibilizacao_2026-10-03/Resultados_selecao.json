@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-03",
+  "units": "cm",
+  "technical": [
+    {
+      "name": "sifão: reserva hipotética",
+      "x": 25.4,
+      "y": 0,
+      "z": 22,
+      "w": 10,
+      "d": 31.3,
+      "h": 49.5
+    },
+    {
+      "name": "mangueira: reserva hipotética",
+      "x": 1,
+      "y": 0,
+      "z": 22,
+      "w": 16,
+      "d": 28.3,
+      "h": 68
+    }
+  ],
+  "stacks": [
+    {
+      "name": "Pilha esquerda: limite de seleção",
+      "x": 1,
+      "y": 29.3,
+      "z": 50,
+      "w": 23.4,
+      "d": 25,
+      "h": 18
+    },
+    {
+      "name": "Pilha direita: reserva ampliada",
+      "x": 36.4,
+      "y": 20,
+      "z": 50,
+      "w": 24,
+      "d": 34.2,
+      "h": 18
+    }
+  ],
+  "turim": {
+    "name": "Turim 20: uma unidade, com tampa",
+    "x": 36.4,
+    "y": 20,
+    "z": 50,
+    "w": 21.2,
+    "d": 34.2,
+    "h": 13.8
+  },
+  "productChecks": {
+    "turim20": {
+      "dimensions": [
+        34.2,
+        21.2,
+        13.8
+      ],
+      "rightSingleFits": true,
+      "rightCompleteStackFits": null,
+      "leftOrthogonalFits": false,
+      "frontGap": 3.2,
+      "shelfToSinkGap": 3.5
+    },
+    "itria": {
+      "pan20": [
+        20,
+        22.1,
+        10.4
+      ],
+      "pan22": [
+        22,
+        24.1,
+        9.4
+      ],
+      "singlePansFitLeft": true,
+      "unnestedHeight": 19.8,
+      "heightDeficit": 1.8,
+      "nestedHeight": null,
+      "completeKitFits": false
+    },
+    "brinoxLoft": {
+      "casseroleCount": 1,
+      "fryingPanCount": 2,
+      "nominalDiameters": [
+        24,
+        23,
+        24
+      ],
+      "completeKitFits": false,
+      "reason": "Não corresponde a quatro panelas e uma frigideira; dimensões externas/empilhadas não obtidas."
+    },
+    "mimoVersat": {
+      "reference": "9454 / PJ3UBK",
+      "completeKitFits": null,
+      "reason": "Catálogo indica venda em conjunto e cabos removíveis, mas sem envelope externo inequívoco dos corpos sem cabo e pilhas."
+    }
+  },
+  "status": "Quatro caçarolas avulsas dimensionalmente candidatas. Esquerda exige redução de folgas geométricas; tampas e frigideira não fecham o suporte inferior existente. Sem aprovação de compra.",
+  "avulsasProposal": {
+    "quantity": {
+      "solar16": 2,
+      "solar20": 2,
+      "totalPans": 4,
+      "lids": 4
+    },
+    "codes": {
+      "solar16": "62503160",
+      "solar20": "62503200"
+    },
+    "bodyHeights": [
+      7.6,
+      9.7
+    ],
+    "protectionAllowance": 0.4,
+    "totalStackUpperBound": 17.7,
+    "stacks": [
+      {
+        "name": "Solar16 + Solar20 esquerda",
+        "x": 1,
+        "y": 28.9,
+        "z": 50,
+        "w": 22.1,
+        "d": 27.5,
+        "h": 17.7
+      },
+      {
+        "name": "Solar16 + Solar20 direita",
+        "x": 36.4,
+        "y": 20,
+        "z": 50,
+        "w": 22.1,
+        "d": 27.5,
+        "h": 17.7
+      }
+    ],
+    "leftHoseGap": 0.6,
+    "leftFrontGap": 1,
+    "rightFrontGap": 9.9,
+    "lidRack": {
+      "minimumIndependentBoundingThickness": 17,
+      "previousBudget": 10.6,
+      "deficit": 6.4,
+      "status": "Teste de envelopes paralelos independentes; alternância/encaixe de pomos não demonstrados."
+    },
+    "fryingPan": {
+      "reference": "20260720",
+      "size": [
+        35.3,
+        21,
+        9.7
+      ],
+      "oldRackOrthogonalFit": false,
+      "g2WideCompartment": [
+        30.4,
+        45.2
+      ],
+      "minimumRealClearHeight": 11.1,
+      "destination": "Candidatura G2; não aprovada e disputa acessórios existentes."
+    },
+    "status": "Quatro caçarolas avulsas dimensionalmente candidatas. Esquerda exige redução de folgas geométricas; tampas e frigideira não fecham o suporte inferior existente. Sem aprovação de compra."
+  }
+}

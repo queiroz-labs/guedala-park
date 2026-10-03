@@ -1,0 +1,72 @@
+{
+  "units": "cm",
+  "niche": [
+    98.2,
+    178.2
+  ],
+  "nicheFree": [
+    80,
+    35,
+    7
+  ],
+  "leaf": [
+    75,
+    30,
+    3
+  ],
+  "snapshots": [
+    [
+      2.5,
+      100.7,
+      32.5,
+      175.7
+    ],
+    [
+      -32.5,
+      100.7,
+      -2.5,
+      175.7
+    ],
+    [
+      -32.5,
+      168,
+      -2.5,
+      243
+    ]
+  ],
+  "samples": 1402,
+  "oldChairCollisions": 648,
+  "movedChairCollisions": 0,
+  "chairTemporaryMove": 5,
+  "columnDiameterSensitivity": [
+    {
+      "diameter": 12,
+      "gap": 4.700000000000003
+    },
+    {
+      "diameter": 15,
+      "gap": 3.200000000000003
+    },
+    {
+      "diameter": 20,
+      "gap": 0.7000000000000028
+    },
+    {
+      "diameter": 25,
+      "gap": -1.7999999999999972
+    },
+    {
+      "diameter": 30,
+      "gap": -4.299999999999997
+    }
+  ],
+  "maxColumnFor3Margin": 15.400000000000006,
+  "withdrawal": 35,
+  "slideClosed": 67.3,
+  "slideOpen": 82.3,
+  "protrusionPastBenchClosed": 63,
+  "protrusionPastBenchOpen": 78,
+  "limitAt264Closed": 21,
+  "limitAt264Open": 6,
+  "status": "Percurso condicional: coluna, porta do nicho, sapata, estrutura e pessoa reais não validadas."
+}

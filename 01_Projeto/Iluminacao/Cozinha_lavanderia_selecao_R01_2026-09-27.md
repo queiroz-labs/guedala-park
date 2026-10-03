@@ -104,3 +104,6 @@ O LP1233 de 14 cm é fisicamente compacto, mas a foto/desenho mostram difusor sa
 - [Brilia sobrepor 24 W — fabricante](https://www.brilia.com/product-page/painel-led-quadrado-de-sobrepor-24w).
 
 Base local: [iluminação integrada](Estudo_integrado_2026-09-22.md), [aparelhos R03](../Cozinha/Aparelhos_compatibilizacao_R03_2026-09-27.md), [cozinha consolidada](../Cozinha/Decisoes_consolidadas_2026-09-15.md), [varal](../Lavanderia/Varal_especificacao_consolidada.md) e [fechamento conjunto](../Fechamento_cozinha_lavanderia_2026-09-27.md).
+
+
+**Desenvolvimento local em 30/09:** [luz da lavanderia × varal](../Compatibilizacao_2026-09-30/Luz_varal.md). Comparação de corpo até 30 cm e centro y=55, sem seleção comercial nova; sombra das roupas e do aéreo separadas. Mantidos requisitos acima.

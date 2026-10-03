@@ -1,5 +1,7 @@
 # Interior das gavetas — estudo de 25/09/2026
 
+**30/09 — comparação de escala e interiores:** [fabricantes e dimensões](../Compatibilizacao_2026-09-30/Padroes_gavetas.md); [prancha dos organizadores](../Compatibilizacao_2026-09-30/Organizadores_g3.html). Manter 61,9 e 16/16/40; organizar o útil sem fixar grades antes das embalagens.
+
 **Torre × gavetas — complemento de 28/09:** [corte e critérios](../Compatibilizacao_2026-09-28/Torre_gavetas.md). Preservar caixa externa de 50 cm; seção proposta até frente aplicada de 61 cm deixa 9,2 cm atrás, antes de fundo/recuo. Não encurtar G3 ou as três caixas pela altura geral da torre; envelope de referência cruza G1/G2 e precisa ser compatibilizado em profundidade. Modelo preto 20 A e anel ainda não comprovados.
 
 **Ferragens — definição vigente em 27/09/2026:** Elias aprovou abertura total e fechamento amortecido nas três gavetas principais G1/G2/G3, de frentes 16/16/40 cm. Perfis estreitos de alumínio preto fosco nas bordas também escolhidos. Quantidade de gavetas, distribuição e funções vigentes prevalecem sobre os trechos históricos de quatro gavetas abaixo; marca, carga, modelo e montagem continuam para especificação. Gaveta baixa sobre rodas permanece separada.
@@ -51,3 +53,6 @@ Dimensionar a caixa com a ferragem escolhida, nunca encomendar ambas de forma in
 ## Resultado
 
 Distribuição interna proposta para as quatro funções, com teste dimensional explícito para a futura seleção. Sem mudanças nas frentes aprovadas, nas demais escolhas da cozinha ou no site. Próximas conferências: utensílios/modelos reais e capacidade dos aéreos, onde ainda há inventário sem endereço demonstrado.
+
+
+**30/09 — G1/G2:** [planta dos organizadores](../Compatibilizacao_2026-09-30/G1_G2.html) e [memória](../Compatibilizacao_2026-09-30/G1_G2.md). Divisões amplas/removíveis, incluindo paredes e margens; altura do objeto confrontada com vão útil, sem alterar frentes.

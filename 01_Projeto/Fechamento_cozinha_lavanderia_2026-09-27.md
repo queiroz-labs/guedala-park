@@ -74,3 +74,6 @@
 Fechamento das escolhas: materiais visuais, uso, organização e funções definidos, com cada proposta aceita ou substituída explicitamente. Fechamento executivo: desenhos compatibilizados, produtos especificados e conferências acima resolvidas. Não declarar cozinha/lavanderia completamente prontas para fabricação enquanto houver conflitos ou dados indispensáveis sem confirmação.
 
 Fontes locais: [cozinha consolidada](Cozinha/Decisoes_consolidadas_2026-09-15.md), [fechamento preliminar](Cozinha/Fechamento_preliminar_2026-09-25.md), [cesto R04](Lavanderia/Cesto_basculante_calculo_R04.md), [escoamento R07](Lavanderia/Escoamento_posicao_R07.md), [varal consolidado](Lavanderia/Varal_especificacao_consolidada.md), [iluminação integrada](Iluminacao/Estudo_integrado_2026-09-22.md) e [registro de decisões](Registro_de_decisoes.md).
+
+
+**30/09/2026 — luz da lavanderia × varal:** [compatibilização geométrica](Compatibilizacao_2026-09-30/Luz_varal.md) prepara faixa para plafon de até 30 cm. Corpo de 28, centro de ensaio x=64,5/y=55, com 6 cm até projeção dos aéreos e 6 até roupa avançando 10. Mais afastamento da roupa aumenta sombra do aéreo no teste. Não é produto, ponto ou iluminação suficiente aprovados; mantidos aparência branca, sobrepor, 3000 K e comandos escolhidos. Sem pesquisa externa.

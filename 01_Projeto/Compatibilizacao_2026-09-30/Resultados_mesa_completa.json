@@ -1,0 +1,111 @@
+{
+  "units": "cm",
+  "states": [
+    {
+      "u": -17.5,
+      "v": 205.5,
+      "h": 34,
+      "angle": 0,
+      "open": 0
+    },
+    {
+      "u": -17.5,
+      "v": 205.5,
+      "h": 97,
+      "angle": 0,
+      "open": 0
+    },
+    {
+      "u": 25,
+      "v": 205.5,
+      "h": 97,
+      "angle": 0,
+      "open": 0
+    },
+    {
+      "u": 25,
+      "v": 137.5,
+      "h": 97,
+      "angle": 0,
+      "open": 0
+    },
+    {
+      "u": 25,
+      "v": 137.5,
+      "h": 48,
+      "angle": 0,
+      "open": 0
+    },
+    {
+      "u": 25,
+      "v": 137.5,
+      "h": 48,
+      "angle": 0,
+      "open": 15
+    },
+    {
+      "u": 25,
+      "v": 137.5,
+      "h": 97,
+      "angle": 0,
+      "open": 15
+    },
+    {
+      "u": 10,
+      "v": 137.5,
+      "h": 97,
+      "angle": 0,
+      "open": 15
+    },
+    {
+      "u": 10,
+      "v": 137.5,
+      "h": 97,
+      "angle": 1.5707963267948966,
+      "open": 15
+    },
+    {
+      "u": -32.5,
+      "v": 90,
+      "h": 97,
+      "angle": 1.5707963267948966,
+      "open": 15
+    },
+    {
+      "u": -32.5,
+      "v": 90,
+      "h": 72,
+      "angle": 1.5707963267948966,
+      "open": 15
+    }
+  ],
+  "samples": 2010,
+  "collisions": [],
+  "maxU": 50.3884865110796,
+  "maxV": 243,
+  "benchSupport": {
+    "u": [
+      10,
+      40
+    ],
+    "v": [
+      100,
+      175
+    ],
+    "bottom": 48,
+    "top": 51,
+    "seatTop": 47,
+    "frontToTableGap": 5,
+    "backrestGap": 5,
+    "endGap": 5
+  },
+  "chairMoves": {
+    "end": 5,
+    "central": 32.5
+  },
+  "rotationWallGap": 4.6112639464912135,
+  "leafClearsBackrest": 7,
+  "leafClearsChair": 3,
+  "lowExtractionColumnCondition": 15.4,
+  "limitations": "Objeto rígido idealizado; sem pessoa, peso, sapata/travessas reais, porta do nicho, pinos ou curso extra de montagem. Apoio no estofado depende de estabilidade/proteção e protótipo."
+}

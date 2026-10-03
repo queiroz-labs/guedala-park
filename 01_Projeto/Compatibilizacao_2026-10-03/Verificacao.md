@@ -1,0 +1,9 @@
+# Verificação — 03/10/2026
+
+Executado selecao_panelas.cjs: fronteiras, alturas e colisões estáticas das duas pilhas e da Turim individual com reservas hidráulicas; resultado passou. Confirmadas folga frontal 3,2 e diferença 1,8 da soma não encaixada Ítria. Medidas de produto individual diferenciadas de pilha/embalagem. Metadados Brinox usados para composição, sem cotação. Sem inspeção visual renderizada, teste de encaixe real ou capacidade global comprovada.
+
+Continuação do dia: desenhos oficiais Solar16/Solar20 e frigideira Turim20 inspecionados visualmente. Envelopes de duas pilhas22,1 ×27,5 ×17,7 passaram limites e colisões estáticas. Folgas esquerdas0,6/1 são menores que a base e não certificam operação. Suporte de tampas não fechado; projeções independentes17 superam10,6 antes de frigideira. Teste G2:21 ×35,3 cabe em30,4 ×45,2 com1 em cada borda; H12 passa e H10 reprova o requisito11,1. Conteúdo dos acessórios não validado, sem fabricação ou inspeção renderizada.
+
+Tampas/G2: executado tampas_g2.cjs. Fronteiras/colisões da pia e201 amostras por retirada verificadas; tampas dependem da pilha direita, escorredor da pressão. Todos os gabaritos individuais de G2 passam fronteiras/colisões e H≥11,1, com pilhas8,7/9,6 e fundo0,4 +margem1. A informação do usuário permitiu definir oito utensílios ainda a comprar. Não há medição de produtos novos, altura real de caixa ou pilha de tampas; sem Firecrawl, pesquisa externa ou ensaio físico nesta continuação.
+
+Saldo da pia: executado saldo_pia.cjs, lendo a base C atual. Duas reservas passam fronteiras/colisões estáticas; quatro componentes hipotéticos de mixer separados em planta e dentro da bandeja.201 posições por percurso confirmam custo de acesso: escorredor cruza pressão e R1; tábua extra cruza pressão. Nenhum produto/modelo de aparelho ou capacidade global comprovado. Sem Firecrawl ou consulta externa.

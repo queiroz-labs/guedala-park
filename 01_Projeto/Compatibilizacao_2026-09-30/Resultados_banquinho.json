@@ -1,0 +1,67 @@
+{
+  "sofaRigidTurnClearance": 34.783415114533796,
+  "units": "cm",
+  "geometry": {
+    "room": [
+      230,
+      295
+    ],
+    "bed": [
+      2,
+      110,
+      142,
+      292
+    ],
+    "sofa": [
+      2,
+      152,
+      92,
+      292
+    ],
+    "chairGuest": [
+      150,
+      75,
+      224.5,
+      148
+    ],
+    "chairDaily": [
+      112.75,
+      80,
+      187.25,
+      153
+    ],
+    "desk": [
+      15,
+      0,
+      215,
+      70
+    ],
+    "store": [
+      205,
+      165,
+      230,
+      210
+    ],
+    "hinge": [
+      220,
+      295
+    ],
+    "tvFront": 218,
+    "tvBottom": 81,
+    "stoolHeight": 75,
+    "supportHeight": 3,
+    "pull": 15
+  },
+  "storedPassage": 63,
+  "extractionPassage": 48,
+  "dailyExtractionGap": 98,
+  "tvGap": 3,
+  "tvHorizontalClearance": 3,
+  "minDoorDistance": 85,
+  "doorGap75": 10,
+  "doorGap80": 5,
+  "oldReserveOverlap": 4,
+  "collisions": 0,
+  "samples": 151,
+  "status": "Candidato condicional: guarda e retirada reta do objeto apenas; pessoa e mecanismo de abertura do sofá não verificados."
+}

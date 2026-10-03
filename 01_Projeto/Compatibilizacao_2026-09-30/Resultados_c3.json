@@ -1,0 +1,77 @@
+{
+  "units": "cm",
+  "parameters": {
+    "width": 51.1,
+    "oldWidth": 48.6,
+    "depth": 31.4,
+    "clearHeight": 25.8,
+    "shelfTop": 195.8,
+    "wall": 0.4,
+    "topReserve": 3,
+    "sideReserve": 1,
+    "between": 1.1,
+    "towelWidth": 18,
+    "trayDepth": 28
+  },
+  "scenarios": [
+    {
+      "cabinetWidth": 51.1,
+      "trayOuterWidth": 30,
+      "trayInner": [
+        29.2,
+        27.2
+      ],
+      "maxEqualEnvelopeOneStack": 14.1,
+      "maxEqualEnvelopeTwoStacks": 13.1
+    },
+    {
+      "cabinetWidth": 48.6,
+      "trayOuterWidth": 27.5,
+      "trayInner": [
+        26.7,
+        27.2
+      ],
+      "maxEqualEnvelopeOneStack": 12.85,
+      "maxEqualEnvelopeTwoStacks": 12.85
+    }
+  ],
+  "maxStackHeight": 22.400000000000002,
+  "maxNestingStepForFirstPot8": {
+    "ten": 1.6000000000000003,
+    "five": 3.6000000000000005
+  },
+  "heightSensitivity": [
+    {
+      "firstPotHeight": 8,
+      "nestingStep": 1,
+      "ten": 17,
+      "five": 12
+    },
+    {
+      "firstPotHeight": 8,
+      "nestingStep": 1.5,
+      "ten": 21.5,
+      "five": 14
+    },
+    {
+      "firstPotHeight": 8,
+      "nestingStep": 2,
+      "ten": 26,
+      "five": 16
+    }
+  ],
+  "towels": {
+    "outer": [
+      18,
+      28,
+      12
+    ],
+    "inner": [
+      17.2,
+      27.2,
+      11.6
+    ],
+    "stackWithTopReserve1": 10.6
+  },
+  "status": "Limites condicionais de estudo. Nenhum pote, tampa ou pano real foi medido; largura e altura do armário permanecem propostas documentais."
+}

@@ -1,5 +1,7 @@
 # Mesa extensível — anteprojeto construtivo R00
 
+**Consolidação de 30/09:** [mesa completa — HTML](../Compatibilizacao_2026-09-30/Mesa_completa.html). Proposta de operação com apoio temporário no assento do banco; substitui a direção anterior sobre metade móvel. Medidas executivas e protótipo ainda necessários.
+
 **Atualização — direção aceita em 23/09/2026:** Elias autorizou salvar a proposta e atualizar o site com 150/180. Armazenamento da folha no banco passa a direção aceita para desenvolvimento; nicho, acesso, ferragem, base e conforto seguem a validar. As menções abaixo a alternativa ainda não aprovada descrevem o momento inicial da proposta e ficam superadas por este registro.
 
 **Plano de cadeiras aceito no mesmo dia:** três na lateral livre, central mais para fora para evitar a coluna; cabeceira de entrada sem cadeira. [Envelopes e circulação](Mesa_circulacao_entrada_2026-09-23.md). O antigo arranjo 2+1 deixa de ser a direção de guarda.
@@ -88,3 +90,9 @@ O projeto continua exigindo guardar as três cadeiras na própria mesa. O antepr
 **Resultado desta revisão:** montagem e operação definidas como proposta concreta para orçamento, com uma alternativa explícita de armazenamento. Ferragem específica, estrutura, encaixe corporal e alteração do banco permanecem por validar. Sem orçamento inventado, compra ou publicação do site.
 
 Base interna: [estudo anterior](Mesa_extensivel_estudo_2026-09-22.md), [mesa e cadeiras](Mesa_e_tres_cadeiras_R03.md), [base](Base_mesa_selecao_R01.md).
+
+
+**30/09/2026 — desenvolvimento autônomo do acesso:** [retirada da folha no banco](../Compatibilizacao_2026-09-30/Folha_mesa.md). Sequência candidata retira a folha antes de abrir a mesa, poupando 15 cm no deslizamento longitudinal; exige afastar temporariamente a cadeira da ponta 5 cm. Coluna ainda limita o percurso, sem redução estrutural autorizada. Apoio temporário para abrir a mesa após retirar a folha não resolvido. Complementa a direção aceita, sem liberar corte do banco.
+
+
+**30/09 — apoio temporário desenvolvido:** [posição sobre uma metade e montagem](../Compatibilizacao_2026-09-30/Apoio_folha.md). Percurso geométrico candidato, com recuo temporário de duas cadeiras. Operação com folha apoiada na metade móvel depende de fabricante/protótipo; não libera fabricação.

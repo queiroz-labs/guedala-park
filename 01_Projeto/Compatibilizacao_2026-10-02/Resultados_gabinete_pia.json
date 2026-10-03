@@ -1,0 +1,195 @@
+{
+  "units": "cm",
+  "parameters": {
+    "outerWidth": 65,
+    "wall": 1.8,
+    "innerWidth": 61.4,
+    "stoneFront": 63,
+    "doorFront": 61,
+    "innerDepth": 57.4,
+    "stoneTop": 92,
+    "stoneBottom": 90,
+    "bottomSupport": 22,
+    "shelfTop": 50,
+    "shelfThickness": 1.8,
+    "sinkBottom": 71.5,
+    "hydraulicStrip": 20
+  },
+  "clear": {
+    "lower": 26.200000000000003,
+    "upper": 21.5
+  },
+  "technical": {
+    "name": "Reserva hidráulica de teste",
+    "x": 0,
+    "y": 0,
+    "z": 22,
+    "w": 61.4,
+    "d": 20,
+    "h": 68
+  },
+  "sink": {
+    "name": "Envelope Dora inferido",
+    "x": 9.2,
+    "y": 10.2,
+    "z": 71.5,
+    "w": 43,
+    "d": 37,
+    "h": 18.5
+  },
+  "upper": [
+    {
+      "name": "Pilha A: pequena + média",
+      "x": 1,
+      "y": 21,
+      "z": 50,
+      "w": 28,
+      "d": 25,
+      "h": 18
+    },
+    {
+      "name": "Pilha B: pequena + média",
+      "x": 31,
+      "y": 21,
+      "z": 50,
+      "w": 28,
+      "d": 25,
+      "h": 18
+    }
+  ],
+  "lower": [
+    {
+      "name": "Pressão real: excede a posição",
+      "x": 1,
+      "y": 21,
+      "z": 22,
+      "w": 23.1,
+      "d": 40.8,
+      "h": 18.1
+    },
+    {
+      "name": "Mini Plurale deitado",
+      "x": 26.1,
+      "y": 21,
+      "z": 22,
+      "w": 27.8,
+      "d": 19.9,
+      "h": 12.6
+    },
+    {
+      "name": "Área do organizador, conteúdo não comprovado",
+      "x": 26.1,
+      "y": 44.4,
+      "z": 22,
+      "w": 33,
+      "d": 12,
+      "h": 3
+    }
+  ],
+  "protrusion": {
+    "name": "Sifão protuberante hipotético",
+    "x": 24.7,
+    "y": 20,
+    "z": 35,
+    "w": 12,
+    "d": 12,
+    "h": 36.5
+  },
+  "stressed": {
+    "upperCollisions": [
+      "Pilha A: pequena + média",
+      "Pilha B: pequena + média"
+    ],
+    "lowerCollisions": [],
+    "drainerGapToHypotheticalPipe": 0.3999999999999986
+  },
+  "scenarios": [
+    {
+      "strip": 12,
+      "frontDepth": 45.4,
+      "pressureMaximumLength": 43.4,
+      "maximumUpperStackDepth": 41.4,
+      "remainingRackDepth": 21.5
+    },
+    {
+      "strip": 18,
+      "frontDepth": 39.4,
+      "pressureMaximumLength": 37.4,
+      "maximumUpperStackDepth": 35.4,
+      "remainingRackDepth": 15.5
+    },
+    {
+      "strip": 20,
+      "frontDepth": 37.4,
+      "pressureMaximumLength": 35.4,
+      "maximumUpperStackDepth": 33.4,
+      "remainingRackDepth": 13.5
+    },
+    {
+      "strip": 24,
+      "frontDepth": 33.4,
+      "pressureMaximumLength": 31.4,
+      "maximumUpperStackDepth": 29.4,
+      "remainingRackDepth": 9.5
+    },
+    {
+      "strip": 28,
+      "frontDepth": 29.4,
+      "pressureMaximumLength": 27.4,
+      "maximumUpperStackDepth": 25.4,
+      "remainingRackDepth": 5.5
+    }
+  ],
+  "rack": {
+    "external": [
+      33,
+      12,
+      3
+    ],
+    "wall": 0.4,
+    "inside": [
+      32.2,
+      11.2
+    ],
+    "heightStatic": 22.800000000000004,
+    "heightWhenLiftingOverLip": 19.200000000000003,
+    "piecesMinimum": 6,
+    "gapBetweenPieces": 0.5,
+    "totalThicknessBudget": 8.7,
+    "averageThicknessBudget": 1.45
+  },
+  "boardHypothesis": {
+    "size": [
+      36,
+      20,
+      2
+    ],
+    "horizontalFits": false,
+    "rotatedFits": false
+  },
+  "pressureLimit": {
+    "documentedLength": 40.8,
+    "maximumWithStrip20": 35.4,
+    "deficit": 5.4,
+    "maximumRearStripForLengthwise": 14.6
+  },
+  "viablePressure": {
+    "name": "Pressão em condição técnica mais restrita",
+    "x": 1,
+    "y": 15.6,
+    "z": 22,
+    "w": 23.1,
+    "d": 40.8,
+    "h": 18.1
+  },
+  "upperMaximumEqualStackWidth": 28.7,
+  "upperMaximumStackHeight": 18.5,
+  "pressureData": {
+    "documentedWidth": 23.1,
+    "documentedDiameter": 20,
+    "documentedHeight": 18.1,
+    "totalLength": 40.8,
+    "source": "Fontes/Vancouver_20593420_desenho.jpg"
+  },
+  "status": "Pressão reprova a posição longitudinal com faixa técnica 20. Cabimento longitudinal requer faixa até14,6 nesta geometria. Instalações e conteúdo restante ainda não comprovados; sem capacidade extra atribuída."
+}

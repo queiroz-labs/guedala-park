@@ -1,0 +1,198 @@
+{
+  "parameters": {
+    "units": "cm",
+    "C": {
+      "widths": [
+        51.1,
+        48.6
+      ],
+      "depth": 31.4,
+      "height": 29.8,
+      "support": 223.4
+    },
+    "D": {
+      "width": 61.4,
+      "depth": 31.4,
+      "height": 55.6,
+      "support": 197.6,
+      "channel": {
+        "x": 20.9,
+        "y": 0,
+        "w": 19.6,
+        "d": 19.6
+      },
+      "divider": {
+        "x": 29.8,
+        "y": 19.6,
+        "w": 1.8,
+        "d": 11.8
+      }
+    }
+  },
+  "margins": {
+    "side": 1,
+    "back": 1,
+    "front": 3,
+    "betweenGroups": 2,
+    "betweenObjects": 1,
+    "top": 3,
+    "sheet": 0.3
+  },
+  "combinedLimits": {
+    "gobletMaximumFootprint": 6,
+    "saucerMaximumDiameter": 13.4,
+    "cupMaximumIncludingHandle": [
+      10,
+      8
+    ],
+    "staticMaximumHeight": 26.5,
+    "requiredWidth": 45,
+    "requiredDepth": 31.4
+  },
+  "combinedObjects": [
+    {
+      "group": "taça",
+      "x": 1,
+      "y": 1,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "taça",
+      "x": 8,
+      "y": 1,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "taça",
+      "x": 15,
+      "y": 1,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "taça",
+      "x": 1,
+      "y": 8,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "taça",
+      "x": 8,
+      "y": 8,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "taça",
+      "x": 15,
+      "y": 8,
+      "w": 6,
+      "d": 6
+    },
+    {
+      "group": "pilha de seis pires",
+      "x": 1,
+      "y": 15,
+      "w": 13.4,
+      "d": 13.4
+    },
+    {
+      "group": "xícara com alça",
+      "x": 23,
+      "y": 1,
+      "w": 10,
+      "d": 8
+    },
+    {
+      "group": "xícara com alça",
+      "x": 34,
+      "y": 1,
+      "w": 10,
+      "d": 8
+    },
+    {
+      "group": "xícara com alça",
+      "x": 23,
+      "y": 10,
+      "w": 10,
+      "d": 8
+    },
+    {
+      "group": "xícara com alça",
+      "x": 34,
+      "y": 10,
+      "w": 10,
+      "d": 8
+    },
+    {
+      "group": "xícara com alça",
+      "x": 23,
+      "y": 19,
+      "w": 10,
+      "d": 8
+    },
+    {
+      "group": "xícara com alça",
+      "x": 34,
+      "y": 19,
+      "w": 10,
+      "d": 8
+    }
+  ],
+  "olderComparison": {
+    "gobletMaximumFootprint": 7,
+    "saucerDiameter": 14,
+    "requiredWidth": 48,
+    "requiredDepth": 34,
+    "depthDeficit": 2.6000000000000014
+  },
+  "gobletsOnly": {
+    "maximumFootprint": 13.2,
+    "maximumHeight": 26.5
+  },
+  "trays": [
+    {
+      "group": "D esquerdo",
+      "x": 1,
+      "y": 2.4,
+      "w": 19,
+      "d": 28
+    },
+    {
+      "group": "D direito",
+      "x": 41.4,
+      "y": 2.4,
+      "w": 19,
+      "d": 28
+    }
+  ],
+  "dLimits": {
+    "trayExternal": [
+      19,
+      28,
+      2
+    ],
+    "trayWall": 0.4,
+    "inside": [
+      18.2,
+      27.2
+    ],
+    "objectHorizontalEnvelope": [
+      17.2,
+      26.2
+    ],
+    "twoObjectsMaximumDepthEach": 12.6,
+    "extractionBottom": 3,
+    "maximumHeightForLifting": 49.6
+  },
+  "DPlanAreas": {
+    "nominal": 1927.9599999999998,
+    "channelAndDivider": 405.4000000000001,
+    "geometricRemainder": 1522.5599999999997,
+    "trays": 1064
+  },
+  "status": "Gabaritos locais. Nenhum produto, carga, ergonomia, ventilação ou capacidade total validado. Nenhuma aprovação de C4/D atribuída ao usuário."
+}
