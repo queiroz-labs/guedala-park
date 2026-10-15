@@ -1,0 +1,68 @@
+{
+  "nominal_panel_mm": [
+    750,
+    300,
+    30
+  ],
+  "start_mm": [
+    43,
+    65,
+    330
+  ],
+  "stroke_mm": 813,
+  "opening_hypothesis_mm": [
+    320,
+    40
+  ],
+  "opening_yz_mm": [
+    55,
+    325,
+    375,
+    365
+  ],
+  "remaining_top_strip_mm": 35,
+  "clearances_mm": {
+    "side_each": 10,
+    "vertical_each": 5,
+    "above_shelf": 10
+  },
+  "panel_sweep_original": [
+    {
+      "name": "Peca406",
+      "volume": 162000.0
+    }
+  ],
+  "panel_sweep_virtual_opening": [],
+  "panel_lift_hits": [],
+  "envelope_tip_to_closed_door_mm": 610,
+  "panel_tip_to_closed_door_mm": 660,
+  "envelope_side_to_fridge_mm": 440,
+  "panel_side_to_fridge_mm": 465,
+  "operators": {
+    "frontal_600": {
+      "box": [
+        -1420,
+        -85,
+        0,
+        -820,
+        515,
+        1800
+      ],
+      "note": "600x600 footprint ahead of conservative envelope, not a body standard; 10 mm from closed door; secondary lateral gap to fridge315.",
+      "hits": []
+    },
+    "lateral_600": {
+      "box": [
+        -600,
+        -600,
+        0,
+        0,
+        0,
+        1800
+      ],
+      "note": "600x600 footprint on room side; only2.5 mm to fridge front plane. Does not prove reach or movement.",
+      "hits": []
+    }
+  },
+  "limits": "Operator boxes are sensitivity examples, not ergonomic, accessible or regulatory clearance. Door closed and fridge closed; no door swing, hand, load or full leaf-to-table cycle validation. Opening has no engineered reinforcement. Nominal panel dimensions are design hypotheses."
+}

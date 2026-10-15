@@ -1,0 +1,10 @@
+﻿ID;Tema;Divergencia_ou_risco;Tratamento
+D01;Controle da porta vizinha;README R04 ainda indicava ControleCanto.B4, que pertence à etapa anterior.;Guia vigente identifica ControleVizinhaR18.Abertura. Nota de precedência adicionada ao histórico.
+D02;Quantidade de dobradiças;Somar R10+R11+R12+R18 duplicaria sete montagens e manteria a71B3650 aposentada.;"Inventário deduplicado por folha atual:24+16+10+4=54;54calços."
+D03;Carga útil;A fórmula R08 subtraía o conteúdo mas era chamada payload.;"Quadro R28 distingue orçamento para conteúdo de margem restante; histórico anotado."
+D04;Folga teto/escritório;Tabela histórica R26 registrava zero e base1920/topo2470.;Atual R28: base1900/topo2450 e folga20 sob teto hipotético2470. Nota de supersessão sem apagar evidência antiga.
+D05;Manutenção Loop;Textos antigos diziam apenas desobstruir a lixeira, sem endereço.;"R26 define estacionamento650; guia e sequências atuais incorporam ida/volta e limites físicos."
+D06;Cotas de corpo e acabado;Banco450x400 e baixa145 podem ser confundidos com envelope acabado.;Pranchas separam corpo CAD, banco externo550/topo470 e baixa frente106/base180/recuo80.
+D07;Quantidade de controles;"R21/R23 tinham45 acessos; textos históricos ainda usam essa contagem.";"R26/R28 têm46, incluindo Loop; os57 campos pertencem aos controles originais."
+D08;Dados oficiais e gabaritos;Sólidos de ferragem, esquemas, cursos e reservas podem parecer lista de compra.;"Classificação explícita de referência oficial/aplicação proposta/reserva; sem quantidade executiva inventada."
+D09;Revisão Astra e prazo;"Documentos antigos registram reserva18h30; prazo19h já encerrou.";"Resultado final é pendente/não verificado; automação excluída. Este novo trabalho é pedido humano posterior, sem reiniciar agendamento."

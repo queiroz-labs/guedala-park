@@ -1,0 +1,44 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Programa_R25_2026-10-14\\Guedala_Park_R25_Programa_Conferido.FCStd",
+  "status": "complete_changed_program_scope",
+  "sha256_before": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "scope": "Only saved mirror centering and equal-envelope two-panel headboard representation; unaffected motions not repeated",
+  "mirror_pairs": 959,
+  "mirror_bbox_separated": 959,
+  "mirror_booleans": 0,
+  "contacts": [],
+  "errors": [],
+  "objects": 5898,
+  "invalid": [],
+  "panel_count": 2,
+  "headboard_bbox_source": [
+    0.0,
+    1200.0,
+    200.0,
+    50.0,
+    2800.0,
+    1150.0
+  ],
+  "headboard_bbox_mirrored": [
+    7350.0,
+    1200.0,
+    200.0,
+    7400.0,
+    2800.0,
+    1150.0
+  ],
+  "headboard_added_volume_mm3": 0.0,
+  "headboard_removed_volume_mm3": 0.0,
+  "mirror_bbox_source": [
+    2010.0,
+    3365.0,
+    200.0,
+    2015.0,
+    3865.0,
+    2000.0
+  ],
+  "sha256_after": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "source_unchanged": true,
+  "elapsed_s": 3.389999999999418,
+  "limits": "Nominal geometry/representation only; panel seam and dimensions remain proposals. No adhesive/fixation/capacity certification. No CAD save or unrelated tests."
+}

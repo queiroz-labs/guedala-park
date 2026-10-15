@@ -1,0 +1,76 @@
+{
+  "premissas": {
+    "modulo": 60,
+    "lateral": 1.8,
+    "corpoL": 48.5,
+    "corpoP": 56,
+    "corpoA": 57,
+    "frenteL": 51.7,
+    "externoA": 61,
+    "externoP": 61.5,
+    "aberturaL": 49,
+    "aberturaA": 60,
+    "folgaL": 3,
+    "folgaP": 5,
+    "bancadaA": 92,
+    "bancadaP": 63,
+    "cozinhaL": 155,
+    "b": 5,
+    "separacao": 20,
+    "aberturaBaseL": 38,
+    "aberturaBaseP": 45
+  },
+  "larguraUtil": 56.4,
+  "folgaLateral": 3.95,
+  "toleranciaLateral": 0.95,
+  "folgaGargalo": 0.25,
+  "coberturaFrontal": 1.35,
+  "nichoProfundidade": 61,
+  "saldoProfundidade": 0,
+  "envelopeCondicional": 66.5,
+  "passagemPedra": 92,
+  "passagemEnvelopeCondicional": 88.5,
+  "avancamentoCondicional": 3.5,
+  "moduloCom10cm": 72.1,
+  "nichoCom10cm": 66,
+  "areaBase": 1710,
+  "suporteHipoteticoMinimo": 4.8,
+  "vertical": [
+    {
+      "dHipotetico": 4,
+      "topoForno": 66,
+      "separacao": 22,
+      "saldo": 2,
+      "bMax": 7
+    },
+    {
+      "dHipotetico": 5,
+      "topoForno": 66,
+      "separacao": 21,
+      "saldo": 1,
+      "bMax": 6
+    },
+    {
+      "dHipotetico": 6,
+      "topoForno": 66,
+      "separacao": 20,
+      "saldo": 0,
+      "bMax": 5
+    },
+    {
+      "dHipotetico": 7,
+      "topoForno": 66,
+      "separacao": 19,
+      "saldo": -1,
+      "bMax": 4
+    },
+    {
+      "dHipotetico": 8,
+      "topoForno": 66,
+      "separacao": 18,
+      "saldo": -2,
+      "bMax": 3
+    }
+  ],
+  "verificacao": "Aritmética; não valida dimensões ausentes, ventilação efetiva ou instalação."
+}

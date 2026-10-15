@@ -1,0 +1,13 @@
+{
+  "source": "Calculadora oficial Blum E-SERVICES, sistema de dobradiças (peso frontal e quantidade), sessão existente",
+  "height_mm": 748,
+  "width_mm": 297,
+  "wood_thickness_mm": 18,
+  "material_scenario": "MDF",
+  "wood_density_kg_m3": 900,
+  "additional_mass_in_handle_field_kg": 2.5,
+  "additional_mass_explanation": "Campo peso do puxador usado para massa adicional de espelho, pega e reserva, não para afirmar puxador de2,5kg. Hipótese espelho4mm/densidade2500:2,22156kg + pega0,2kg =2,42156; arredondado para2,5 com reserva0,07844kg. Material/vidro/adesivo/peso reais não confirmados.",
+  "calculator_total_rounded_kg": 6.1,
+  "recommended_hinge_count": 3,
+  "scope": "Referência de quantidade para o cenário de massa adotado, não homologação da aplicação de espelho ou fixação da folha. Resultado corrigido de18mm; captura de19mm não foi usada."
+}

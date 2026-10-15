@@ -1,0 +1,9 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const round=n=>Math.round(n*1000)/1000;
+const limits=W=>round(Math.min(22,W-28.5));
+const widths=[48.6,49.5,50,51.1].map(W=>({W,completeWidthLimit:limits(W),SAN405:{width:21,saldo:round(limits(W)-21),passes:limits(W)>=21},SAN265:{width:21.5,saldo:round(limits(W)-21.5),passes:limits(W)>=21.5}}));
+const g2=[{group:'concha + escumadeira',contents:6+.2+2.5},{group:'espátulas + peneira',contents:2.5+.2+2.5+.2+4.2},{group:'frigideira candidata',contents:9.7}].map(o=>({...o,contents:round(o.contents),requiredH:round(o.contents+.4+1)}));
+const heights=[10,11,11.1,11.3,12].map(H=>({H,groups:g2.map(o=>({name:o.group,saldo:round(H-o.requiredH),passes:H+1e-9>=o.requiredH})),withExtraProtection02:g2.map(o=>({name:o.group,requiredH:round(o.requiredH+.2),passes:H+1e-9>=o.requiredH+.2}))}));
+assert.equal(limits(48.6),20.1);assert.equal(limits(51.1),22);assert.equal(limits(50),21.5);assert.equal(round(19.2-.4-.5-3),15.3);assert.equal(Math.max(...g2.map(o=>o.requiredH)),11.1);assert.equal(heights[2].groups.every(o=>o.passes),true);assert.equal(heights[2].withExtraProtection02.every(o=>o.passes),false);
+const result={date:'2026-10-06',units:'cm',status:'Verificação documental; não é seleção de produto ou liberação de fabricação',sources:['Compatibilizacao_2026-10-04/c2_reorganizado.cjs','Compatibilizacao_2026-10-03/Tampas_e_G2.md'],c2:{widths,heightLimit:15.3,depthLimit:22,guardIncludesCordAndPlug:true,ergonomicsValidated:false},g2:{groups:g2,heights,frontGrossHeight:16,realHUnknown:true},g3:{minimumTestPackages:6+3+1+1,externalRightAreaCm2:22*45,packingProven:false}};
+fs.writeFileSync(path.join(__dirname,'Resultados_conferencia.json'),JSON.stringify(result,null,2)+'\n');console.log('C2/G2: cálculos e cenários de fronteira verificados.');

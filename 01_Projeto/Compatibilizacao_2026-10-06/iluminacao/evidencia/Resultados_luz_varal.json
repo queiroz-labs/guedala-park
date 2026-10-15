@@ -1,0 +1,202 @@
+{
+  "parameters": {
+    "room": [
+      129,
+      154
+    ],
+    "center": [
+      64.5,
+      60
+    ],
+    "diameter": 28,
+    "ceiling": 247,
+    "projection": 5,
+    "grid": [
+      14.5,
+      85,
+      114.5,
+      135
+    ],
+    "upper": [
+      47,
+      0,
+      165,
+      130.5,
+      35,
+      223
+    ]
+  },
+  "sizes": [
+    {
+      "diameter": 14,
+      "centerY": 60,
+      "bodyToUpper": 18,
+      "bodyToGrid": 18,
+      "cloth10Gap": 8
+    },
+    {
+      "diameter": 28,
+      "centerY": 60,
+      "bodyToUpper": 11,
+      "bodyToGrid": 11,
+      "cloth10Gap": 1
+    },
+    {
+      "diameter": 35,
+      "centerY": 60,
+      "bodyToUpper": 7.5,
+      "bodyToGrid": 7.5,
+      "cloth10Gap": -2.5
+    },
+    {
+      "diameter": 40,
+      "centerY": 60,
+      "bodyToUpper": 5,
+      "bodyToGrid": 5,
+      "cloth10Gap": -5
+    },
+    {
+      "diameter": 41,
+      "centerY": 60,
+      "bodyToUpper": 4.5,
+      "bodyToGrid": 4.5,
+      "cloth10Gap": -5.5
+    }
+  ],
+  "sources": 149,
+  "targets": [
+    [
+      10,
+      21,
+      92
+    ],
+    [
+      10,
+      40.5,
+      92
+    ],
+    [
+      10,
+      60,
+      92
+    ],
+    [
+      29,
+      21,
+      92
+    ],
+    [
+      29,
+      40.5,
+      92
+    ],
+    [
+      29,
+      60,
+      92
+    ],
+    [
+      48,
+      21,
+      92
+    ],
+    [
+      48,
+      40.5,
+      92
+    ],
+    [
+      48,
+      60,
+      92
+    ]
+  ],
+  "shadow": [
+    {
+      "expansion": 0,
+      "rays": 1341,
+      "byCloth": 0,
+      "byUpper": 13,
+      "either": 13,
+      "clothFraction": 0
+    },
+    {
+      "expansion": 5,
+      "rays": 1341,
+      "byCloth": 0,
+      "byUpper": 13,
+      "either": 13,
+      "clothFraction": 0
+    },
+    {
+      "expansion": 10,
+      "rays": 1341,
+      "byCloth": 0,
+      "byUpper": 13,
+      "either": 13,
+      "clothFraction": 0
+    },
+    {
+      "expansion": 15,
+      "rays": 1341,
+      "byCloth": 72,
+      "byUpper": 13,
+      "either": 85,
+      "clothFraction": 0.053691275167785234
+    },
+    {
+      "expansion": 20,
+      "rays": 1341,
+      "byCloth": 369,
+      "byUpper": 13,
+      "either": 382,
+      "clothFraction": 0.2751677852348993
+    }
+  ],
+  "refined": {
+    "center": [
+      64.5,
+      55
+    ],
+    "diameter": 28,
+    "bodyToUpper": 6,
+    "cloth10Gap": 6,
+    "shadow": [
+      {
+        "expansion": 0,
+        "byCloth": 0,
+        "byUpper": 72,
+        "rays": 1341
+      },
+      {
+        "expansion": 5,
+        "byCloth": 0,
+        "byUpper": 72,
+        "rays": 1341
+      },
+      {
+        "expansion": 10,
+        "byCloth": 0,
+        "byUpper": 72,
+        "rays": 1341
+      },
+      {
+        "expansion": 15,
+        "byCloth": 0,
+        "byUpper": 72,
+        "rays": 1341
+      },
+      {
+        "expansion": 20,
+        "byCloth": 72,
+        "byUpper": 72,
+        "rays": 1341
+      }
+    ]
+  },
+  "maxDiameterWith5Margin": 40,
+  "maxDiameterWithCloth10And5Margin": 30,
+  "upperVerticalGap": 19,
+  "cloth10Gap": 1,
+  "limitations": "Amostras igualmente contadas, sem intensidade, lux ou uniformidade. Roupa é bloco opaco de teste; duto, roldanas e suportes desconhecidos. Não libera instalação."
+}

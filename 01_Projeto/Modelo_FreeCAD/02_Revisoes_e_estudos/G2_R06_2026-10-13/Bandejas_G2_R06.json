@@ -1,0 +1,246 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\G2_R06_2026-10-13\\Guedala_Park_R06_G2_Simples.FCStd",
+  "floor_mm": [
+    541.0,
+    460.0
+  ],
+  "tray_outer_mm": [
+    [
+      200,
+      455
+    ],
+    [
+      312,
+      455
+    ]
+  ],
+  "tray_inner_mm": [
+    [
+      192,
+      447
+    ],
+    [
+      304,
+      447
+    ]
+  ],
+  "front_rear_gap_each_mm": 2.5,
+  "side_gaps_mm": [
+    5,
+    5,
+    19
+  ],
+  "items": [
+    {
+      "item": "Concha",
+      "source_name": "Concha: 1",
+      "tray": "long",
+      "size_mm": [
+        70,
+        310,
+        60
+      ],
+      "position_inside_mm": [
+        5.0,
+        5.0,
+        4.0
+      ],
+      "planar_margins_mm": [
+        5.0,
+        117.0,
+        5.0,
+        132.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 42.5
+    },
+    {
+      "item": "Escumadeira",
+      "source_name": "Escumadeira: 1",
+      "tray": "long",
+      "size_mm": [
+        80,
+        320,
+        25.0
+      ],
+      "position_inside_mm": [
+        5.0,
+        5.0,
+        66.0
+      ],
+      "planar_margins_mm": [
+        5.0,
+        107.0,
+        5.0,
+        122.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 15.5
+    },
+    {
+      "item": "Espátula lisa",
+      "source_name": "Espátula lisa: 1",
+      "tray": "long",
+      "size_mm": [
+        60,
+        300,
+        25.0
+      ],
+      "position_inside_mm": [
+        101.0,
+        5.0,
+        4.0
+      ],
+      "planar_margins_mm": [
+        101.0,
+        31.0,
+        5.0,
+        142.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 77.5
+    },
+    {
+      "item": "Espátula vazada",
+      "source_name": "Espátula vazada: 1",
+      "tray": "long",
+      "size_mm": [
+        60,
+        300,
+        25.0
+      ],
+      "position_inside_mm": [
+        101.0,
+        5.0,
+        31.0
+      ],
+      "planar_margins_mm": [
+        101.0,
+        31.0,
+        5.0,
+        142.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 50.5
+    },
+    {
+      "item": "Peneira pequena",
+      "source_name": "Peneira pequena: 1",
+      "tray": "long",
+      "size_mm": [
+        80,
+        260,
+        42.0
+      ],
+      "position_inside_mm": [
+        101.0,
+        5.0,
+        58.0
+      ],
+      "planar_margins_mm": [
+        101.0,
+        11.0,
+        5.0,
+        182.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 6.5
+    },
+    {
+      "item": "Frigideira Turim20 - candidata",
+      "source_name": "Frigideira Turim20",
+      "tray": "wide",
+      "size_mm": [
+        210,
+        353.0,
+        97.0
+      ],
+      "position_inside_mm": [
+        5.0,
+        5.0,
+        4
+      ],
+      "planar_margins_mm": [
+        5.0,
+        89.0,
+        5.0,
+        89.0
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 5.5
+    },
+    {
+      "item": "Espremedor de alho - limite",
+      "source_name": "Espremedor1: limite",
+      "tray": "wide",
+      "size_mm": [
+        70,
+        190,
+        65.0
+      ],
+      "position_inside_mm": [
+        229.0,
+        10,
+        4
+      ],
+      "planar_margins_mm": [
+        229.0,
+        5.0,
+        10,
+        247
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 37.5
+    },
+    {
+      "item": "Espremedor de cítricos - limite",
+      "source_name": "Espremedor2: limite",
+      "tray": "wide",
+      "size_mm": [
+        70,
+        190,
+        65.0
+      ],
+      "position_inside_mm": [
+        229.0,
+        220,
+        4
+      ],
+      "planar_margins_mm": [
+        229.0,
+        5.0,
+        220,
+        37
+      ],
+      "rear_position_shift_mm": 0,
+      "estimated_vertical_margin_with10mm_allowance": 37.5
+    },
+    {
+      "item": "Ralador plano - limite",
+      "source_name": "Ralador deitado: limite",
+      "tray": "wide",
+      "size_mm": [
+        210,
+        75.0,
+        40
+      ],
+      "position_inside_mm": [
+        5.0,
+        370,
+        4
+      ],
+      "planar_margins_mm": [
+        5.0,
+        89.0,
+        370,
+        2.0
+      ],
+      "rear_position_shift_mm": -2,
+      "estimated_vertical_margin_with10mm_allowance": 62.5
+    }
+  ],
+  "item_count": 9,
+  "collisions": [],
+  "invalid_shapes": [],
+  "scope": "Nove gabaritos, oito utensílios e frigideira candidata. Cotas propostas, não lista de corte. Altura116.5 e planejamento; corrediça superior real ainda nao montada."
+}

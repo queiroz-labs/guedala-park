@@ -1,0 +1,42 @@
+{
+  "old_lights": [
+    {
+      "name": "Peca188",
+      "placement": "Placement [Pos=(4050,5130,1150), Yaw-Pitch-Roll=(0,0,0)]",
+      "dimensions_mm": [
+        20.0,
+        7.0,
+        750.0
+      ]
+    },
+    {
+      "name": "Peca189",
+      "placement": "Placement [Pos=(4610,5130,1150), Yaw-Pitch-Roll=(0,0,0)]",
+      "dimensions_mm": [
+        20.0,
+        7.0,
+        750.0
+      ]
+    }
+  ],
+  "new_lights": {
+    "dimensions_mm": [
+      560,
+      7,
+      20
+    ],
+    "x": 4060,
+    "y": 5130,
+    "lower_z": 1110,
+    "upper_z": 1910
+  },
+  "entrance_control": "PortaEntradaBanheiroR12",
+  "original_open_pose_input_deg": 90,
+  "closed_study_input_deg": 0,
+  "entrance_reference_leaf_mm": [
+    20.0,
+    700.0,
+    2050.0
+  ],
+  "scope": "Somente propostas geométricas. Sem medição de porta/maçaneta, fotometria ou instalação; não muda escolha de manter porta original. Luz lateral da imagem não era posição executiva aprovada."
+}

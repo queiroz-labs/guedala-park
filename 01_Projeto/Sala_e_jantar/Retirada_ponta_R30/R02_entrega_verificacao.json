@@ -1,0 +1,11 @@
+{
+  "desktop": {
+    "width": 1300,
+    "scroll": 1300
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "missing": []
+}

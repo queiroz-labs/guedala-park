@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "name": "MontagemG2R007",
+      "old_edges": 860,
+      "old_faces": 331,
+      "edge_samples": 5160,
+      "max_edge_sample_distance_mm": 3.4173061461522245e-13,
+      "face_samples": 1772,
+      "max_face_sample_distance_mm": 3.411761417959814e-13,
+      "native_new_valid": true
+    },
+    {
+      "name": "MontagemG2R014",
+      "old_edges": 838,
+      "old_faces": 323,
+      "edge_samples": 5028,
+      "max_edge_sample_distance_mm": 4.552501427383468e-13,
+      "face_samples": 1736,
+      "max_face_sample_distance_mm": 4.548340787900342e-13,
+      "native_new_valid": true
+    }
+  ],
+  "errors": [],
+  "sampling_only": true,
+  "elapsed_s": 6.0939999999973224
+}

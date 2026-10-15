@@ -1,0 +1,11 @@
+{
+  "reason": "Novo envelope70 do primeiro assento: limite anterior5graus=-2,20mm não confirmava separação contínua. Refinar1grau, sem repetir901 do modelo antigo ou28 poses CAD.",
+  "samples": 91,
+  "minimum": {
+    "angle_deg": 41,
+    "distance_mm": 16.568938846228072
+  },
+  "half_step_vertex_displacement_bound_mm": 3.9569735903157865,
+  "continuous_ideal_gap_lower_bound_mm": 12.611965255912285,
+  "proof_scope": "A distância entre polígonos é Lipschitz no maior deslocamento de vértice. Cada ângulo está até0,5grau de uma amostra; movimento máximo limitado porR*delta, R=hypot448,70. Primeiro assento conservador70/448 em eixo448/470 e tampo no corteu[-700,50]/Z[720,750]. Almofada extra2 posterior permaneceu>=398, fora da projeção da mesa. Não prova ferragem/carga/tolerância/mãos/deformação/objetos no tampo ou entorno completo."
+}

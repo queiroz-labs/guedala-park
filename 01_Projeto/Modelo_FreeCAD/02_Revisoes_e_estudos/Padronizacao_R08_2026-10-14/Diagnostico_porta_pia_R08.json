@@ -1,0 +1,59 @@
+[
+  {
+    "angle": 30,
+    "hits": [
+      {
+        "structure": "Lateral esquerda003",
+        "mm3": 69833.69467629628
+      },
+      {
+        "structure": "Base002",
+        "mm3": 89713.99147600512
+      },
+      {
+        "structure": "Prateleira de estudo · hidráulica a recortar",
+        "mm3": 94991.2850922407
+      }
+    ],
+    "front_y_min_module": 0.0,
+    "front_y_max_module": 177.08845726811978
+  },
+  {
+    "angle": 45,
+    "hits": [
+      {
+        "structure": "Lateral esquerda003",
+        "mm3": 173903.3294419782
+      },
+      {
+        "structure": "Base002",
+        "mm3": 88650.76104853526
+      },
+      {
+        "structure": "Prateleira de estudo · hidráulica a recortar",
+        "mm3": 93865.51169844934
+      }
+    ],
+    "front_y_min_module": 0.0,
+    "front_y_max_module": 241.1234123846134
+  },
+  {
+    "angle": 86,
+    "hits": [
+      {
+        "structure": "Lateral esquerda003",
+        "mm3": 2508948.6991324364
+      },
+      {
+        "structure": "Base002",
+        "mm3": 3737.2701006317047
+      },
+      {
+        "structure": "Prateleira de estudo · hidráulica a recortar",
+        "mm3": 3957.1095183158905
+      }
+    ],
+    "front_y_min_module": 0.0,
+    "front_y_max_module": 323.4688047613181
+  }
+]

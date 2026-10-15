@@ -1,0 +1,111 @@
+[
+  {
+    "drawer": "Gaveta de roupa",
+    "floor_top_z_module": 847.0,
+    "first_obstacle": [
+      953.4,
+      "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa001 - proposta R08"
+    ],
+    "conservative_clearance_mm": 106.39999999999998,
+    "rear_inside_module_mm": 632.0,
+    "profile_end_y_module_mm": 582.4950000000001,
+    "profile_rear_margin_mm": 49.50499999999988
+  },
+  {
+    "drawer": "Gaveta de roupa001",
+    "floor_top_z_module": 997.0,
+    "first_obstacle": [
+      1082.0,
+      "Prateleira curta · topo 1100"
+    ],
+    "conservative_clearance_mm": 85.0,
+    "rear_inside_module_mm": 632.0,
+    "profile_end_y_module_mm": 582.4950000000001,
+    "profile_rear_margin_mm": 49.50499999999988
+  },
+  {
+    "drawer": "Gaveta de roupa002",
+    "floor_top_z_module": 847.0,
+    "first_obstacle": [
+      953.4,
+      "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa003 - proposta R08"
+    ],
+    "conservative_clearance_mm": 106.39999999999998,
+    "rear_inside_module_mm": 632.0,
+    "profile_end_y_module_mm": 582.4950000000001,
+    "profile_rear_margin_mm": 49.50499999999988
+  },
+  {
+    "drawer": "Gaveta de roupa003",
+    "floor_top_z_module": 997.0,
+    "first_obstacle": [
+      1082.0,
+      "Prateleira curta · topo 1101"
+    ],
+    "conservative_clearance_mm": 85.0,
+    "rear_inside_module_mm": 632.0,
+    "profile_end_y_module_mm": 582.4950000000001,
+    "profile_rear_margin_mm": 49.50499999999988
+  },
+  {
+    "drawer": "G3 · mantimentos",
+    "floor_top_z_module": 64.0,
+    "first_obstacle": [
+      404.4,
+      "48346342[48346342] - proposta R07"
+    ],
+    "conservative_clearance_mm": 340.4,
+    "rear_inside_module_mm": 592.0,
+    "profile_end_y_module_mm": 520.4950000000001,
+    "profile_rear_margin_mm": 71.50499999999988
+  },
+  {
+    "drawer": "G2 · utensílios",
+    "floor_top_z_module": 448.00000010000025,
+    "first_obstacle": [
+      564.4,
+      "MOVENTO500 · bau0019179630_v(760H5001S) · G1 · talheres - proposta R08"
+    ],
+    "conservative_clearance_mm": 116.39999989999973,
+    "rear_inside_module_mm": 592.0,
+    "profile_end_y_module_mm": 520.4950000000001,
+    "profile_rear_margin_mm": 71.50499999999988
+  },
+  {
+    "drawer": "G1 · talheres",
+    "floor_top_z_module": 608.0,
+    "first_obstacle": [
+      720.0,
+      "Bancada cozinha · reserva de recortes"
+    ],
+    "conservative_clearance_mm": 112.0,
+    "rear_inside_module_mm": 592.0,
+    "profile_end_y_module_mm": 520.4950000000001,
+    "profile_rear_margin_mm": 71.50499999999988,
+    "scope": "Bancada CAD em z900, módulo em z180: cota inferior relativa720. Ainda reserva geométrica sem recortes executivos."
+  },
+  {
+    "drawer": "Gaveta escritório 1",
+    "floor_top_z_module": 64.0,
+    "first_obstacle": [
+      124.39999999999998,
+      "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 2 - proposta R08"
+    ],
+    "conservative_clearance_mm": 60.39999999999998,
+    "rear_inside_module_mm": 432.0,
+    "profile_end_y_module_mm": 420.49500000000006,
+    "profile_rear_margin_mm": 11.504999999999939
+  },
+  {
+    "drawer": "Gaveta escritório 2",
+    "floor_top_z_module": 168.0,
+    "first_obstacle": [
+      222.0,
+      "Tampo007"
+    ],
+    "conservative_clearance_mm": 54.0,
+    "rear_inside_module_mm": 432.0,
+    "profile_end_y_module_mm": 420.49500000000006,
+    "profile_rear_margin_mm": 11.504999999999939
+  }
+]

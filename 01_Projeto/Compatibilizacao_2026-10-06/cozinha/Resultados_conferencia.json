@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-06",
+  "units": "cm",
+  "status": "Verificação documental; não é seleção de produto ou liberação de fabricação",
+  "sources": [
+    "Compatibilizacao_2026-10-04/c2_reorganizado.cjs",
+    "Compatibilizacao_2026-10-03/Tampas_e_G2.md"
+  ],
+  "c2": {
+    "widths": [
+      {
+        "W": 48.6,
+        "completeWidthLimit": 20.1,
+        "SAN405": {
+          "width": 21,
+          "saldo": -0.9,
+          "passes": false
+        },
+        "SAN265": {
+          "width": 21.5,
+          "saldo": -1.4,
+          "passes": false
+        }
+      },
+      {
+        "W": 49.5,
+        "completeWidthLimit": 21,
+        "SAN405": {
+          "width": 21,
+          "saldo": 0,
+          "passes": true
+        },
+        "SAN265": {
+          "width": 21.5,
+          "saldo": -0.5,
+          "passes": false
+        }
+      },
+      {
+        "W": 50,
+        "completeWidthLimit": 21.5,
+        "SAN405": {
+          "width": 21,
+          "saldo": 0.5,
+          "passes": true
+        },
+        "SAN265": {
+          "width": 21.5,
+          "saldo": 0,
+          "passes": true
+        }
+      },
+      {
+        "W": 51.1,
+        "completeWidthLimit": 22,
+        "SAN405": {
+          "width": 21,
+          "saldo": 1,
+          "passes": true
+        },
+        "SAN265": {
+          "width": 21.5,
+          "saldo": 0.5,
+          "passes": true
+        }
+      }
+    ],
+    "heightLimit": 15.3,
+    "depthLimit": 22,
+    "guardIncludesCordAndPlug": true,
+    "ergonomicsValidated": false
+  },
+  "g2": {
+    "groups": [
+      {
+        "group": "concha + escumadeira",
+        "contents": 8.7,
+        "requiredH": 10.1
+      },
+      {
+        "group": "espátulas + peneira",
+        "contents": 9.6,
+        "requiredH": 11
+      },
+      {
+        "group": "frigideira candidata",
+        "contents": 9.7,
+        "requiredH": 11.1
+      }
+    ],
+    "heights": [
+      {
+        "H": 10,
+        "groups": [
+          {
+            "name": "concha + escumadeira",
+            "saldo": -0.1,
+            "passes": false
+          },
+          {
+            "name": "espátulas + peneira",
+            "saldo": -1,
+            "passes": false
+          },
+          {
+            "name": "frigideira candidata",
+            "saldo": -1.1,
+            "passes": false
+          }
+        ],
+        "withExtraProtection02": [
+          {
+            "name": "concha + escumadeira",
+            "requiredH": 10.3,
+            "passes": false
+          },
+          {
+            "name": "espátulas + peneira",
+            "requiredH": 11.2,
+            "passes": false
+          },
+          {
+            "name": "frigideira candidata",
+            "requiredH": 11.3,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "H": 11,
+        "groups": [
+          {
+            "name": "concha + escumadeira",
+            "saldo": 0.9,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "saldo": 0,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "saldo": -0.1,
+            "passes": false
+          }
+        ],
+        "withExtraProtection02": [
+          {
+            "name": "concha + escumadeira",
+            "requiredH": 10.3,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "requiredH": 11.2,
+            "passes": false
+          },
+          {
+            "name": "frigideira candidata",
+            "requiredH": 11.3,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "H": 11.1,
+        "groups": [
+          {
+            "name": "concha + escumadeira",
+            "saldo": 1,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "saldo": 0.1,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "saldo": 0,
+            "passes": true
+          }
+        ],
+        "withExtraProtection02": [
+          {
+            "name": "concha + escumadeira",
+            "requiredH": 10.3,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "requiredH": 11.2,
+            "passes": false
+          },
+          {
+            "name": "frigideira candidata",
+            "requiredH": 11.3,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "H": 11.3,
+        "groups": [
+          {
+            "name": "concha + escumadeira",
+            "saldo": 1.2,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "saldo": 0.3,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "saldo": 0.2,
+            "passes": true
+          }
+        ],
+        "withExtraProtection02": [
+          {
+            "name": "concha + escumadeira",
+            "requiredH": 10.3,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "requiredH": 11.2,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "requiredH": 11.3,
+            "passes": true
+          }
+        ]
+      },
+      {
+        "H": 12,
+        "groups": [
+          {
+            "name": "concha + escumadeira",
+            "saldo": 1.9,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "saldo": 1,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "saldo": 0.9,
+            "passes": true
+          }
+        ],
+        "withExtraProtection02": [
+          {
+            "name": "concha + escumadeira",
+            "requiredH": 10.3,
+            "passes": true
+          },
+          {
+            "name": "espátulas + peneira",
+            "requiredH": 11.2,
+            "passes": true
+          },
+          {
+            "name": "frigideira candidata",
+            "requiredH": 11.3,
+            "passes": true
+          }
+        ]
+      }
+    ],
+    "frontGrossHeight": 16,
+    "realHUnknown": true
+  },
+  "g3": {
+    "minimumTestPackages": 11,
+    "externalRightAreaCm2": 990,
+    "packingProven": false
+  }
+}

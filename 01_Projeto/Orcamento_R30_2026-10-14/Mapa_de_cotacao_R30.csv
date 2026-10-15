@@ -1,0 +1,28 @@
+﻿Item;Ambiente;Descricao;Quantidade;Unidade;Preco_R$;Premissas
+P01;Quarto;Roupeiro;1;conjunto;;
+P02;Quarto;Canto em L;1;conjunto;;
+P03;Quarto;Maleiro;1;conjunto;;
+P04;Quarto;Cabeceira - aéreo;1;conjunto;;
+P05;Cozinha;Gabinete da pia;1;conjunto;;
+P06;Cozinha;Gavetas G1/G2/G3;1;conjunto;;
+P07;Cozinha;Estrutura de cocção;1;conjunto;;
+P08;Cozinha;Gaveta baixa;1;conjunto;;
+P09;Cozinha;Aéreo D;1;conjunto;;
+P10;Cozinha;Aéreo C;1;conjunto;;
+P11;Cozinha;Aéreo B;1;conjunto;;
+P12;Cozinha;Aéreo A;1;conjunto;;
+P13;Cozinha;Apoio do micro;1;conjunto;;
+P14;Lavanderia;Tanque e cesto;1;conjunto;;
+P15;Lavanderia;Aéreo lavanderia;1;conjunto;;
+P16;Escritório;Gavetas escritório;1;conjunto;;
+P17;Escritório;Aéreo escritório;1;conjunto;;
+P18;Banheiro;Gabinete banheiro;1;conjunto;;
+P19;Banheiro;Armário espelhado;1;conjunto;;
+P20;Sala;Banco baú;1;conjunto;;
+C01;;Complementos quarto;;a discriminar;;
+C02;;Bancada escritorio;;a discriminar;;
+C03;;Mesa encosto estofados;;a discriminar;;
+C04;;Arremates e auxiliares;;a discriminar;;
+C05;;Logistica montagem;;a discriminar;;
+C06;;Interfaces terceirizadas;;a discriminar;;
+A01;;Alternativa sete apoios;;a discriminar;;

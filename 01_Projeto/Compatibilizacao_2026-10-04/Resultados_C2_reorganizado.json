@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-04",
+  "units": "cm",
+  "status": "Distribuição funcional de C2 aceita por Elias em04/10/2026; produto, medidas reais de guarda e acesso em altura ainda condicionados.",
+  "acceptedDirection": "C2 candidato à sanduicheira; duas pilhas de pratos em C1 preservadas.",
+  "shelfBase": 174.8,
+  "depth": 31.4,
+  "height": 19.2,
+  "scenarios": [
+    {
+      "cabinetWidth": 51.1,
+      "maxAppliance": [
+        22,
+        22,
+        15.3
+      ],
+      "objects": [
+        {
+          "name": "Sanduicheira",
+          "x": 27.5,
+          "y": 1,
+          "z": 0.4,
+          "w": 22,
+          "d": 22,
+          "h": 12
+        },
+        {
+          "name": "Caneca posterior 1",
+          "x": 1,
+          "y": 1,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca posterior 2",
+          "x": 1,
+          "y": 10.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca frontal 1",
+          "x": 1,
+          "y": 21.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca frontal 2",
+          "x": 12.5,
+          "y": 21.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 1",
+          "x": 12.5,
+          "y": 1,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 2",
+          "x": 20,
+          "y": 1,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 3",
+          "x": 12.5,
+          "y": 8.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 4",
+          "x": 20,
+          "y": 8.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo frontal 1",
+          "x": 27.5,
+          "y": 23.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo frontal 2",
+          "x": 35,
+          "y": 23.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        }
+      ],
+      "applianceBlockedBy": [
+        "Copo frontal 1",
+        "Copo frontal 2"
+      ],
+      "rearAccess": [
+        {
+          "name": "Caneca posterior 1",
+          "blockedBy": [
+            "Caneca posterior 2",
+            "Caneca frontal 1"
+          ]
+        },
+        {
+          "name": "Caneca posterior 2",
+          "blockedBy": [
+            "Caneca frontal 1"
+          ]
+        },
+        {
+          "name": "Copo posterior 1",
+          "blockedBy": [
+            "Copo posterior 3",
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 2",
+          "blockedBy": [
+            "Copo posterior 4",
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 3",
+          "blockedBy": [
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 4",
+          "blockedBy": [
+            "Caneca frontal 2"
+          ]
+        }
+      ],
+      "frontItemsDirect": true,
+      "completeUnloadingSequence": [
+        "Caneca frontal 1",
+        "Caneca frontal 2",
+        "Copo frontal 1",
+        "Copo frontal 2",
+        "Caneca posterior 2",
+        "Caneca posterior 1",
+        "Copo posterior 3",
+        "Copo posterior 4",
+        "Copo posterior 1",
+        "Copo posterior 2",
+        "Sanduicheira"
+      ],
+      "samplesPerPath": 201
+    },
+    {
+      "cabinetWidth": 48.6,
+      "maxAppliance": [
+        20.1,
+        22,
+        15.3
+      ],
+      "objects": [
+        {
+          "name": "Sanduicheira",
+          "x": 27.5,
+          "y": 1,
+          "z": 0.4,
+          "w": 20.1,
+          "d": 22,
+          "h": 12
+        },
+        {
+          "name": "Caneca posterior 1",
+          "x": 1,
+          "y": 1,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca posterior 2",
+          "x": 1,
+          "y": 10.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca frontal 1",
+          "x": 1,
+          "y": 21.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Caneca frontal 2",
+          "x": 12.5,
+          "y": 21.5,
+          "z": 0.3,
+          "w": 11,
+          "d": 9,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 1",
+          "x": 12.5,
+          "y": 1,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 2",
+          "x": 20,
+          "y": 1,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 3",
+          "x": 12.5,
+          "y": 8.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo posterior 4",
+          "x": 20,
+          "y": 8.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo frontal 1",
+          "x": 27.5,
+          "y": 23.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        },
+        {
+          "name": "Copo frontal 2",
+          "x": 35,
+          "y": 23.5,
+          "z": 0.3,
+          "w": 7,
+          "d": 7,
+          "h": 12
+        }
+      ],
+      "applianceBlockedBy": [
+        "Copo frontal 1",
+        "Copo frontal 2"
+      ],
+      "rearAccess": [
+        {
+          "name": "Caneca posterior 1",
+          "blockedBy": [
+            "Caneca posterior 2",
+            "Caneca frontal 1"
+          ]
+        },
+        {
+          "name": "Caneca posterior 2",
+          "blockedBy": [
+            "Caneca frontal 1"
+          ]
+        },
+        {
+          "name": "Copo posterior 1",
+          "blockedBy": [
+            "Copo posterior 3",
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 2",
+          "blockedBy": [
+            "Copo posterior 4",
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 3",
+          "blockedBy": [
+            "Caneca frontal 2"
+          ]
+        },
+        {
+          "name": "Copo posterior 4",
+          "blockedBy": [
+            "Caneca frontal 2"
+          ]
+        }
+      ],
+      "frontItemsDirect": true,
+      "completeUnloadingSequence": [
+        "Caneca frontal 1",
+        "Caneca frontal 2",
+        "Copo frontal 1",
+        "Copo frontal 2",
+        "Caneca posterior 2",
+        "Caneca posterior 1",
+        "Copo posterior 3",
+        "Copo posterior 4",
+        "Copo posterior 1",
+        "Copo posterior 2",
+        "Sanduicheira"
+      ],
+      "samplesPerPath": 201
+    }
+  ],
+  "modelCheck": [
+    {
+      "model": "Mondial S-12",
+      "dimensions": [
+        23.5,
+        23.5,
+        8.5
+      ],
+      "source": "https://paginadeproduto.emondial.com/HTML-S-12/index.html",
+      "evidence": "Quadro Dimensões: altura 8,5, largura 23,5, profundidade 23,5 cm.",
+      "consultedAt": "2026-10-03",
+      "checks": [
+        {
+          "cabinetWidth": 51.1,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": null
+        },
+        {
+          "cabinetWidth": 48.6,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": null
+        }
+      ]
+    },
+    {
+      "model": "Britânia BGR27I",
+      "dimensions": [
+        26,
+        22,
+        8.2
+      ],
+      "source": "https://sac.britania.com.br/marketing/pagina/grill-e-sanduicheira-bgr27i/",
+      "evidence": "Produto sem embalagem: largura 26, profundidade 22, altura 8,2 cm; informa dois sanduíches simultâneos.",
+      "consultedAt": "2026-10-03",
+      "checks": [
+        {
+          "cabinetWidth": 51.1,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": null
+        },
+        {
+          "cabinetWidth": 48.6,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": null
+        }
+      ]
+    },
+    {
+      "model": "Cadence SAN405 Click Inox",
+      "dimensions": [
+        21,
+        21,
+        8
+      ],
+      "source": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-click-inox/p",
+      "evidence": "Tabela específica SAN405-127/220: L×A×P 210×80×210 mm. Peso divergente entre tabela e material da página; não usado para validar acesso. Link de dados técnicos remete a outro modelo, não usado.",
+      "consultedAt": "2026-10-04",
+      "checks": [
+        {
+          "cabinetWidth": 51.1,
+          "passesPublishedDimensions": true,
+          "minimumWidthForFixedLayout": 49.5
+        },
+        {
+          "cabinetWidth": 48.6,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": 49.5
+        }
+      ]
+    },
+    {
+      "model": "Cadence SAN265 Toast & Grill Branca",
+      "dimensions": [
+        21.5,
+        21.5,
+        8
+      ],
+      "source": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill-branca/p",
+      "evidence": "Consulta04/10/2026: tabela do modelo SAN265-127/220 L×A×P215×80×215mm; descrição indica dois sanduíches simultâneos, porta-fio e trava. Texto comercial dáH7,5/peso0,85 contraH8/peso0,9 da tabela; adotadaH8 e peso não usado. Página consultada marca esgotado; referência dimensional, sem disponibilidade de compra demonstrada.",
+      "consultedAt": "2026-10-04",
+      "checks": [
+        {
+          "cabinetWidth": 51.1,
+          "passesPublishedDimensions": true,
+          "minimumWidthForFixedLayout": 50
+        },
+        {
+          "cabinetWidth": 48.6,
+          "passesPublishedDimensions": false,
+          "minimumWidthForFixedLayout": 50
+        }
+      ]
+    }
+  ],
+  "modelPaths": [
+    {
+      "model": "Cadence SAN405 Click Inox",
+      "blockedBy": [
+        "Copo frontal 1",
+        "Copo frontal 2"
+      ],
+      "samples": 201,
+      "storedCordIncluded": false
+    },
+    {
+      "model": "Cadence SAN265 Toast & Grill Branca",
+      "blockedBy": [
+        "Copo frontal 1",
+        "Copo frontal 2"
+      ],
+      "samples": 201,
+      "storedCordIncluded": false
+    }
+  ],
+  "tradeoffs": [
+    "Retirar dois copos frontais para o aparelho, em vez de duas canecas. Todos os quatro itens frontais mantêm saída direta.",
+    "Canecas posteriores exigem liberar caneca frontal esquerda; a mais próxima da frente sai antes da de trás.",
+    "Os quatro copos posteriores exigem liberar caneca frontal direita; os dois de trás também dependem dos copos da mesma coluna à frente.",
+    "Na largura proposta51,1, aparelhos publicados21/21,5 passam. Na referência48,6 reprovam largura; não usar essa opção sem confirmar interior.",
+    "Sanduicheira permanece a174,8 do piso. Nenhuma melhora de altura ou ergonomia comprovada."
+  ],
+  "limitations": [
+    "Capacidade desejada não respondida; mini não escolhido, dois sanduíches não presumidos como requisito do usuário.",
+    "Cabo e plugue guardados podem exceder dimensão publicada; limite completo22 ×22 ×15,3 inclui todos os elementos.",
+    "Copos7 ×7 e canecas11 ×9 com alças eH12 são hipóteses. Limite de altura15,4 com pad0,3/lift0,5/top3.",
+    "Folgas mínimas0,5 entre alguns grupos,1 laterais/fundo e0,9 frente. Portas, mãos, pega, sustentação e apoio temporário não modelados.",
+    "Não criar prateleira, alterar largura do móvel, reduzir inventário ou escolher aparelho apenas por encaixe.",
+    "Modelos reais com medidas publicadas não são objetos medidos em guarda; ensaio físico necessário.",
+    "Pesquisa oficial sem Firecrawl; sem compra ou publicação."
+  ],
+  "userAcceptance": {
+    "date": "2026-10-04",
+    "quote": "ok, n vejo problema",
+    "scope": "Sanduicheira atrás à direita, duas canecas/quatro copos posteriores à esquerda; duas canecas/dois copos frontais. Retirar dois copos para aparelho; dependências das louças posteriores aceitas como organização funcional.",
+    "productSelected": false,
+    "constructionDimensionsApproved": false,
+    "ergonomicsValidated": false
+  }
+}

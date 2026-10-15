@@ -1,0 +1,1117 @@
+{
+  "cases": [
+    {
+      "door": "Folha004",
+      "module": "Gabinete da pia",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha004",
+      "module": "Gabinete da pia",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha004",
+      "module": "Gabinete da pia",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha004",
+      "module": "Gabinete da pia",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha005",
+      "module": "Gabinete da pia",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha005",
+      "module": "Gabinete da pia",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha005",
+      "module": "Gabinete da pia",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha005",
+      "module": "Gabinete da pia",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha006",
+      "module": "D · acima do depurador",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha006",
+      "module": "D · acima do depurador",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha006",
+      "module": "D · acima do depurador",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha006",
+      "module": "D · acima do depurador",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha007",
+      "module": "D · acima do depurador",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha007",
+      "module": "D · acima do depurador",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha007",
+      "module": "D · acima do depurador",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha007",
+      "module": "D · acima do depurador",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha008",
+      "module": "C · uso diário",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha008",
+      "module": "C · uso diário",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha008",
+      "module": "C · uso diário",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha008",
+      "module": "C · uso diário",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha009",
+      "module": "C · uso diário",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha009",
+      "module": "C · uso diário",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha009",
+      "module": "C · uso diário",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha009",
+      "module": "C · uso diário",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha010",
+      "module": "B · acima do micro",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha010",
+      "module": "B · acima do micro",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha010",
+      "module": "B · acima do micro",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha010",
+      "module": "B · acima do micro",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha011",
+      "module": "B · acima do micro",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha011",
+      "module": "B · acima do micro",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha011",
+      "module": "B · acima do micro",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha011",
+      "module": "B · acima do micro",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha012",
+      "module": "A · acima da geladeira",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha012",
+      "module": "A · acima da geladeira",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha012",
+      "module": "A · acima da geladeira",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha012",
+      "module": "A · acima da geladeira",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha013",
+      "module": "A · acima da geladeira",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha013",
+      "module": "A · acima da geladeira",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha013",
+      "module": "A · acima da geladeira",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha013",
+      "module": "A · acima da geladeira",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha014",
+      "module": "Aéreo da lavanderia",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha014",
+      "module": "Aéreo da lavanderia",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha014",
+      "module": "Aéreo da lavanderia",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha014",
+      "module": "Aéreo da lavanderia",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha015",
+      "module": "Aéreo da lavanderia",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha015",
+      "module": "Aéreo da lavanderia",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha015",
+      "module": "Aéreo da lavanderia",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha015",
+      "module": "Aéreo da lavanderia",
+      "angle": 86,
+      "hits": []
+    }
+  ],
+  "joints": [
+    {
+      "door": "Folha004",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha004",
+      "level": 640.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha004",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha004",
+      "level": 640.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha004",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha004",
+      "level": 640.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha004",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha004",
+      "level": 640.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 1.1368683772161603e-13
+    },
+    {
+      "door": "Folha005",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha005",
+      "level": 640.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha005",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha005",
+      "level": 640.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha005",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha005",
+      "level": 640.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha005",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha005",
+      "level": 640.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 1.1368683772161603e-13
+    },
+    {
+      "door": "Folha006",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha006",
+      "level": 512.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha006",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha006",
+      "level": 512.0,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha006",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha006",
+      "level": 512.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha006",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha006",
+      "level": 512.0,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha007",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha007",
+      "level": 512.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha007",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha007",
+      "level": 512.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha007",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha007",
+      "level": 512.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha007",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha007",
+      "level": 512.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha008",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha008",
+      "level": 938.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha008",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha008",
+      "level": 938.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha008",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha008",
+      "level": 938.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha008",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha008",
+      "level": 938.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha009",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha009",
+      "level": 938.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha009",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha009",
+      "level": 938.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha009",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha009",
+      "level": 938.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha009",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha009",
+      "level": 938.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha010",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha010",
+      "level": 530.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha010",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha010",
+      "level": 530.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha010",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha010",
+      "level": 530.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha010",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha010",
+      "level": 530.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha011",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha011",
+      "level": 530.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha011",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha011",
+      "level": 530.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha011",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha011",
+      "level": 530.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha011",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha011",
+      "level": 530.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha012",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha012",
+      "level": 504.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha012",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha012",
+      "level": 504.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha012",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha012",
+      "level": 504.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha012",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha012",
+      "level": 504.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha013",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha013",
+      "level": 504.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha013",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha013",
+      "level": 504.0,
+      "angle": 30,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha013",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha013",
+      "level": 504.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "Folha013",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha013",
+      "level": 504.0,
+      "angle": 86,
+      "joint_residual_mm": 1.2862197421537486e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 500.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 500.0,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha014",
+      "level": 500.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha014",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha014",
+      "level": 500.0,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 500.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 500.0,
+      "angle": 30,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha015",
+      "level": 500.0,
+      "angle": 60,
+      "joint_residual_mm": 9.094947017729282e-13,
+      "cup_axis_reference_residual_mm": 1.016845989170083e-12
+    },
+    {
+      "door": "Folha015",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha015",
+      "level": 500.0,
+      "angle": 86,
+      "joint_residual_mm": 1.016845989170083e-12,
+      "cup_axis_reference_residual_mm": 0.0
+    }
+  ],
+  "closed": [
+    {
+      "door": "Folha004",
+      "bbox": [
+        4482.0,
+        6390.0,
+        181.0,
+        4804.0,
+        6408.0,
+        899.0
+      ]
+    },
+    {
+      "door": "Folha005",
+      "bbox": [
+        4806.0,
+        6390.0,
+        181.0,
+        5128.0,
+        6408.0,
+        899.0
+      ]
+    },
+    {
+      "door": "Folha006",
+      "bbox": [
+        3857.0,
+        6650.0,
+        1959.0,
+        4179.0,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha007",
+      "bbox": [
+        4181.0,
+        6650.0,
+        1959.0,
+        4503.0,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha008",
+      "bbox": [
+        4507.0,
+        6650.0,
+        1533.0,
+        4777.5,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha009",
+      "bbox": [
+        4779.5,
+        6650.0,
+        1533.0,
+        5050.0,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha010",
+      "bbox": [
+        5054.0,
+        6650.0,
+        1941.0,
+        5399.5,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha011",
+      "bbox": [
+        5401.5,
+        6650.0,
+        1941.0,
+        5747.0,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha012",
+      "bbox": [
+        5751.0,
+        6650.0,
+        1967.0,
+        6148.5,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha013",
+      "bbox": [
+        6150.5,
+        6650.0,
+        1967.0,
+        6548.0,
+        6668.0,
+        2549.0
+      ]
+    },
+    {
+      "door": "Folha014",
+      "bbox": [
+        3022.0,
+        6650.0,
+        1651.0,
+        3436.5,
+        6668.0,
+        2229.0
+      ]
+    },
+    {
+      "door": "Folha015",
+      "bbox": [
+        3438.5,
+        6650.0,
+        1651.0,
+        3853.0,
+        6668.0,
+        2229.0
+      ]
+    }
+  ],
+  "simultaneous": [
+    {
+      "angle_all": 30,
+      "hits": []
+    },
+    {
+      "angle_all": 60,
+      "hits": []
+    },
+    {
+      "angle_all": 86,
+      "hits": []
+    }
+  ],
+  "max_joint_residual_mm": 1.2862197421537486e-12,
+  "max_cup_reference_residual_mm": 1.016845989170083e-12,
+  "scope": "Geometria rigidamente articulada pelos eixos STEP,48 posições individuais e3 iguais simultâneas. Não testa batente70T3553, carga, tolerâncias ou todas as combinações com gavetas."
+}

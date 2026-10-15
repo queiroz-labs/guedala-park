@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-03",
+  "units": "cm",
+  "status": "Comparação nova, não adotada. Prioridade funcional de aspirador/balde/poucos jogos preservada.",
+  "inside": [
+    94.6,
+    39,
+    30
+  ],
+  "objects": [
+    {
+      "name": "Aspirador completo desmontado",
+      "x": 1,
+      "y": 4,
+      "z": 0.3,
+      "w": 35,
+      "d": 26,
+      "h": 16
+    },
+    {
+      "name": "Balde com alça recolhida",
+      "x": 37,
+      "y": 7,
+      "z": 0.3,
+      "w": 25,
+      "d": 25,
+      "h": 25
+    },
+    {
+      "name": "Poucos jogos: duas caixas de teste",
+      "x": 63,
+      "y": 4,
+      "z": 0.3,
+      "w": 30,
+      "d": 30,
+      "h": 16.2
+    }
+  ],
+  "widthRequired": 94,
+  "widthBeyondReserves": 0.5999999999999943,
+  "heightLimit": 26.2,
+  "extraction": [
+    {
+      "name": "Aspirador completo desmontado",
+      "positions": [
+        {
+          "name": "Aspirador completo desmontado",
+          "x": 10.799999999999997,
+          "y": 2.8,
+          "z": 10.3,
+          "w": 26,
+          "d": 35,
+          "h": 16
+        },
+        {
+          "name": "Aspirador completo desmontado",
+          "x": 10.799999999999997,
+          "y": 2.8,
+          "z": 97,
+          "w": 26,
+          "d": 35,
+          "h": 16
+        },
+        {
+          "name": "Aspirador completo desmontado",
+          "x": -26,
+          "y": 32.5,
+          "z": 97,
+          "w": 26,
+          "d": 35,
+          "h": 16
+        },
+        {
+          "name": "Aspirador completo desmontado",
+          "x": -26,
+          "y": 32.5,
+          "z": 75,
+          "w": 26,
+          "d": 35,
+          "h": 16
+        }
+      ],
+      "samples": 603,
+      "collisions": 0
+    },
+    {
+      "name": "Balde com alça recolhida",
+      "positions": [
+        {
+          "name": "Balde com alça recolhida",
+          "x": 8.799999999999997,
+          "y": 38.8,
+          "z": 10.3,
+          "w": 25,
+          "d": 25,
+          "h": 25
+        },
+        {
+          "name": "Balde com alça recolhida",
+          "x": 8.799999999999997,
+          "y": 38.8,
+          "z": 97,
+          "w": 25,
+          "d": 25,
+          "h": 25
+        },
+        {
+          "name": "Balde com alça recolhida",
+          "x": -25.5,
+          "y": 37.5,
+          "z": 97,
+          "w": 25,
+          "d": 25,
+          "h": 25
+        },
+        {
+          "name": "Balde com alça recolhida",
+          "x": -25.5,
+          "y": 37.5,
+          "z": 75,
+          "w": 25,
+          "d": 25,
+          "h": 25
+        }
+      ],
+      "samples": 603,
+      "collisions": 0
+    },
+    {
+      "name": "Poucos jogos: duas caixas de teste",
+      "positions": [
+        {
+          "name": "Poucos jogos: duas caixas de teste",
+          "x": 6.799999999999997,
+          "y": 64.8,
+          "z": 10.3,
+          "w": 30,
+          "d": 30,
+          "h": 16.2
+        },
+        {
+          "name": "Poucos jogos: duas caixas de teste",
+          "x": 6.799999999999997,
+          "y": 64.8,
+          "z": 97,
+          "w": 30,
+          "d": 30,
+          "h": 16.2
+        },
+        {
+          "name": "Poucos jogos: duas caixas de teste",
+          "x": -28,
+          "y": 35,
+          "z": 97,
+          "w": 30,
+          "d": 30,
+          "h": 16.2
+        },
+        {
+          "name": "Poucos jogos: duas caixas de teste",
+          "x": -28,
+          "y": 35,
+          "z": 75,
+          "w": 30,
+          "d": 30,
+          "h": 16.2
+        }
+      ],
+      "samples": 603,
+      "collisions": 0
+    }
+  ],
+  "comparison": {
+    "withClean": {
+      "cleanLength": 60,
+      "upperSharedLength": 32.8,
+      "lowerHeightLimit": 16.4,
+      "lowerAdditionalHeightLoss1Passes": false
+    },
+    "withoutClean": {
+      "upperSharedLength": 94.6,
+      "needsUnderLeafStorage": false,
+      "additionalLengthLoss1Passes": false,
+      "additionalHeightLoss1Passes": true,
+      "additionalHeightLoss2Passes": false
+    }
+  },
+  "kitchenConflicts": [
+    {
+      "zone": "C1",
+      "alternatives": [
+        "Duas pilhas diárias aprovadas",
+        "Quatro bowls sobre os rasos, mantendo duas pilhas",
+        "Sanduicheira junto de uma pilha única de12 pratos"
+      ],
+      "condition": "Bowls e sanduicheira não foram demonstrados juntos. Pilha única não adotada."
+    },
+    {
+      "zone": "R1 da pia",
+      "alternatives": [
+        "Mixer desmontado completo",
+        "Potes de vidro de refeições",
+        "Passagem livre para acesso"
+      ],
+      "condition": "Reservas alternativas, sem soma de capacidade; ocupação adiciona retirada antes do escorredor."
+    }
+  ],
+  "groupsWithoutDestinationInNewBenchOption": [
+    "Duas travessas de vidro",
+    "Liquidificador completo",
+    "Batedeira portátil completa"
+  ],
+  "unresolvedAcrossWholePlan": [
+    "Sanduicheira semanal",
+    "Jarra e térmica",
+    "Cesto ventilado de batatas/cebolas/alho",
+    "Quantidade e guarda dos potes de refeições",
+    "Destino do ciclismo caso necessário e de mochilas/malas"
+  ],
+  "sources": [
+    "Resultados_banco_limpo.json",
+    "Resultados_bau_saldo.json",
+    "../Compatibilizacao_2026-10-02/Mapa_do_inventario.md"
+  ],
+  "limitations": [
+    "94,6 ×39 ×30 é hipótese interna, não levantamento do banco real",
+    "Retirar o compartimento limpo é alternativa, não decisão atribuída a Elias",
+    "Não há validação estrutural de um trecho contínuo de94,6; apoios e ferragens podem impedir o arranjo",
+    "Aspirador completo inclui corpo, tubos, bocal, cabo e demais acessórios dentro do envelope",
+    "Balde inclui alça e deve ter capacidade adequada; dimensões reais desconhecidas",
+    "Dois jogos30 ×30 ×8 com proteção0,2 são cenário, não quantidade real",
+    "Giro do assento reutiliza seção idealizada do estudo anterior; tampas divididas, peso, retenção e ferragens não dimensionados",
+    "Percurso rígido vertical até base97 não comprova ergonomia, força ou manuseio; jogos retirados por partes",
+    "Não há convivência simultânea desses três grupos com o compartimento limpo60",
+    "Faixa inferior sob a folha não recebe novos itens nesta alternativa"
+  ]
+}

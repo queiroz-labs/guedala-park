@@ -1,0 +1,508 @@
+{
+  "date_local": "2026-10-13",
+  "timezone": "America/Sao_Paulo",
+  "source": "https://e-services.blum.com/",
+  "service": "CAD/CAM > Pacotes > Produto unico (3D) > STEP MEDIUM; todos os produtos individualmente",
+  "scope": "Biblioteca de familias candidatas, nao selecao executiva de ferragens ou compra.",
+  "packages": [
+    {
+      "family": "CLIP_top_BLUMOTION",
+      "archive": "Pacotes/CLIP_top_BLUMOTION_STEP.zip",
+      "bytes_zip": 150516546,
+      "sha256_zip": "39bbf7ae034a13d4d4e5604f709035dd6bbfa9898a2d04f5f7e4fa908f27cc92",
+      "references": [
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "40126418",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_40126418.step",
+          "sha256": "e89bae32fd1f451ddde8afffa232e8cb85398dd30cf0b6427b3edf3c95cccb6c"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "173H7100",
+          "cad_id": "42501451",
+          "path": "Referencias/CLIP_top_BLUMOTION/173H7100_42501451.step",
+          "sha256": "b597180456706eff32421b64c6ddc204f57c4475c3e6ccd375e769ce04061fc4"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "46187859",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_46187859.step",
+          "sha256": "b997653bc617c653fd5f51077aff6885f2fc90f0207c09b831f25397dc23dcdf"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "49451261",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_49451261.step",
+          "sha256": "ac0f966fe8203d04624fe34b3e09034a96434b3fc81ac6be82c72d3058494db3"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "41309636",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_41309636.step",
+          "sha256": "8177d9b150e238fb120a8eb66e5715ebfc863e83cfd97c017a9ec01af97a3a24"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "44335874",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_44335874.step",
+          "sha256": "371616e311796a192426045d3fa3cdfe0619afc27a97cf5decd4d8a958feba0b"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "45528914",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_45528914.step",
+          "sha256": "1054b4acea21e4c44b928f8d403173d3b6df59f584aef3b636a2a2f6f9c1256d"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "46187859",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_46187859.step",
+          "sha256": "b997653bc617c653fd5f51077aff6885f2fc90f0207c09b831f25397dc23dcdf"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "41309636",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_41309636.step",
+          "sha256": "8177d9b150e238fb120a8eb66e5715ebfc863e83cfd97c017a9ec01af97a3a24"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "48389170",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_48389170.step",
+          "sha256": "db97c6e885e54c2c77466648245463979ad8c4e35324e217d231d88ddc6af7ef"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "49322875",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_49322875.step",
+          "sha256": "254fdcce8a92faf7811b40366c6564450e774957ec2cb022dc8cd3963661add8"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3550",
+          "cad_id": "43192717",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3550_43192717.step",
+          "sha256": "57529744d5d476ba0fe974a22ed3883a60263e0fec5bcf9aa213c7849e895d65"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "173H7100",
+          "cad_id": "44226109",
+          "path": "Referencias/CLIP_top_BLUMOTION/173H7100_44226109.step",
+          "sha256": "399071a2987483c44b3fbfb46395a7659b3253678d4fe1a93f2e29f55b8b2a30"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "44326054",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_44326054.step",
+          "sha256": "aefd36663564fa39773829d682ef33c1eea268ce37736b34e5258b7ca8e94448"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "46088242",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_46088242.step",
+          "sha256": "51c1b5406af825ddce108bd8cbcbd8e69a9885054819ed073fd6640397bc17fb"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "173H7130",
+          "cad_id": "46403131",
+          "path": "Referencias/CLIP_top_BLUMOTION/173H7130_46403131.step",
+          "sha256": "1fb1c08a9f96ba932c4bd4f61cc992fb57e64d6c71ec88d0c43019ed7b535a86"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "48389170",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_48389170.step",
+          "sha256": "db97c6e885e54c2c77466648245463979ad8c4e35324e217d231d88ddc6af7ef"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "173H7130",
+          "cad_id": "48590039",
+          "path": "Referencias/CLIP_top_BLUMOTION/173H7130_48590039.step",
+          "sha256": "48e7ca57d3c21319a2a427223f0e664bcf92fa52cfe67ae5e9c3bdb106ba502b"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3550",
+          "cad_id": "49462410",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3550_49462410.step",
+          "sha256": "176c2ace5aa574478e03e2fb8f5efe6303d247c2b4ca47b6181a5d5b7fbe6629"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3550",
+          "cad_id": "42542984",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3550_42542984.step",
+          "sha256": "4dbd7f135b6cffded462023b3a8389c5bbc373efab62f1a2bf3a9e14fd581756"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "43125465",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_43125465.step",
+          "sha256": "b5db4ddf090abb61ab3a7764bb1434aefee8ae4aa67a9fb8035a6489c2361c84"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "173H7100",
+          "cad_id": "45225727",
+          "path": "Referencias/CLIP_top_BLUMOTION/173H7100_45225727.step",
+          "sha256": "2b366747be87d5d093fc71c4d6d86c6ccca90e1a14103349280cf5c4dd34f7b8"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "46088242",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_46088242.step",
+          "sha256": "51c1b5406af825ddce108bd8cbcbd8e69a9885054819ed073fd6640397bc17fb"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "44226109",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_44226109.step",
+          "sha256": "399071a2987483c44b3fbfb46395a7659b3253678d4fe1a93f2e29f55b8b2a30"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3650",
+          "cad_id": "46508632",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3650_46508632.step",
+          "sha256": "ef14838470e25e11912f0e509213ee8ba3c9a4cee15fee9c5855eff50ee7a55f"
+        },
+        {
+          "family": "CLIP_top_BLUMOTION",
+          "code": "71B3750",
+          "cad_id": "49322875",
+          "path": "Referencias/CLIP_top_BLUMOTION/71B3750_49322875.step",
+          "sha256": "254fdcce8a92faf7811b40366c6564450e774957ec2cb022dc8cd3963661add8"
+        }
+      ],
+      "crc_all_entries_ok": true,
+      "step_entries": 1228,
+      "bytes_steps_expanded": 743765571,
+      "distinct_cad_ids": 399
+    },
+    {
+      "family": "CLIP_top",
+      "archive": "Pacotes/CLIP_top_STEP.zip",
+      "bytes_zip": 156291237,
+      "sha256_zip": "21f1259376b5aa0f4d616a19e9029e8b888e196568c0b05edf851d42b9b0f338",
+      "references": [
+        {
+          "family": "CLIP_top",
+          "code": "71T7550",
+          "cad_id": "40004143",
+          "path": "Referencias/CLIP_top/71T7550_40004143.step",
+          "sha256": "bb38634d6ae2f62f9a44396cccace0c48d65b23dc31f866b714d91798d246b78"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "173H7100",
+          "cad_id": "42501451",
+          "path": "Referencias/CLIP_top/173H7100_42501451.step",
+          "sha256": "b597180456706eff32421b64c6ddc204f57c4475c3e6ccd375e769ce04061fc4"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "79T8500",
+          "cad_id": "43077543",
+          "path": "Referencias/CLIP_top/79T8500_43077543.step",
+          "sha256": "62252e9e725c2f965d5e7e29e7356a8399115885cd4fd5b15cf494693d211c57"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "71T7550",
+          "cad_id": "47226281",
+          "path": "Referencias/CLIP_top/71T7550_47226281.step",
+          "sha256": "8635559ead6e353a9562c15e14e5730634918df180f09ac14837d30f048a6229"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "173H7100",
+          "cad_id": "44226109",
+          "path": "Referencias/CLIP_top/173H7100_44226109.step",
+          "sha256": "399071a2987483c44b3fbfb46395a7659b3253678d4fe1a93f2e29f55b8b2a30"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "79T8500",
+          "cad_id": "46088242",
+          "path": "Referencias/CLIP_top/79T8500_46088242.step",
+          "sha256": "51c1b5406af825ddce108bd8cbcbd8e69a9885054819ed073fd6640397bc17fb"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "173H7130",
+          "cad_id": "46403131",
+          "path": "Referencias/CLIP_top/173H7130_46403131.step",
+          "sha256": "1fb1c08a9f96ba932c4bd4f61cc992fb57e64d6c71ec88d0c43019ed7b535a86"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "173H7130",
+          "cad_id": "48590039",
+          "path": "Referencias/CLIP_top/173H7130_48590039.step",
+          "sha256": "48e7ca57d3c21319a2a427223f0e664bcf92fa52cfe67ae5e9c3bdb106ba502b"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "70T7553.09",
+          "cad_id": "41054330",
+          "path": "Referencias/CLIP_top/70T7553.09_41054330.step",
+          "sha256": "ccdca03e58d9b642178ddf59f4f99cbf3865237b9b5ccda64d937588c9aa6a5b"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "173H7100",
+          "cad_id": "45225727",
+          "path": "Referencias/CLIP_top/173H7100_45225727.step",
+          "sha256": "2b366747be87d5d093fc71c4d6d86c6ccca90e1a14103349280cf5c4dd34f7b8"
+        },
+        {
+          "family": "CLIP_top",
+          "code": "79T8500",
+          "cad_id": "46584366",
+          "path": "Referencias/CLIP_top/79T8500_46584366.step",
+          "sha256": "0c9179b6c6c4b8637bcf08b52b001c519442b0adcf7a51ad6c7d10e63a5084f4"
+        }
+      ],
+      "crc_all_entries_ok": true,
+      "step_entries": 1188,
+      "bytes_steps_expanded": 776419894,
+      "distinct_cad_ids": 527
+    },
+    {
+      "family": "MOVENTO",
+      "archive": "Pacotes/MOVENTO_STEP.zip",
+      "bytes_zip": 45510434,
+      "sha256_zip": "a7bbc35f95dcee5819288be4763245d02e3b36d103962cba125d3029599d7452",
+      "references": [
+        {
+          "family": "MOVENTO",
+          "code": "T51.7601",
+          "cad_id": "46166126",
+          "path": "Referencias/MOVENTO/T51.7601_46166126.step",
+          "sha256": "275a727f96fd0f318ea1dd45757160ce6672264070e8947f8580b51b62a7d8ca"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "45404603",
+          "path": "Referencias/MOVENTO/760H5000S_45404603.step",
+          "sha256": "69ff9fb57ab6f87fb35c6c2b90e3ec65b0806618ee457ee3cc5cd14aa4acf787"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H4000S",
+          "cad_id": "46166126",
+          "path": "Referencias/MOVENTO/760H4000S_46166126.step",
+          "sha256": "275a727f96fd0f318ea1dd45757160ce6672264070e8947f8580b51b62a7d8ca"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "44158394",
+          "path": "Referencias/MOVENTO/760H5000S_44158394.step",
+          "sha256": "b1e5f4e4e4e8146f5363f9f17dcd48e25e7d268a5a4ba7d5511503d727c67906"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H4000S",
+          "cad_id": "45431782",
+          "path": "Referencias/MOVENTO/760H4000S_45431782.step",
+          "sha256": "8ee4f2ff248a16652d70cb7920e94e0539f0735f80b82b68d86c637bd94c2b79"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "46166126",
+          "path": "Referencias/MOVENTO/760H5000S_46166126.step",
+          "sha256": "275a727f96fd0f318ea1dd45757160ce6672264070e8947f8580b51b62a7d8ca"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "49027541",
+          "path": "Referencias/MOVENTO/760H5000S_49027541.step",
+          "sha256": "fa5ffe6879c15d02fad183989e16152db77211b2fb633f7dba1e1872ff43d4f7"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "T51.7600",
+          "cad_id": "46166126",
+          "path": "Referencias/MOVENTO/T51.7600_46166126.step",
+          "sha256": "275a727f96fd0f318ea1dd45757160ce6672264070e8947f8580b51b62a7d8ca"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "T51.7600",
+          "cad_id": "43107713",
+          "path": "Referencias/MOVENTO/T51.7600_43107713.step",
+          "sha256": "90d7a46237f0fff4ef297e935b90f7352e6d1a1ceb3f12a506f260263dc04d5c"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "43107713",
+          "path": "Referencias/MOVENTO/760H5000S_43107713.step",
+          "sha256": "90d7a46237f0fff4ef297e935b90f7352e6d1a1ceb3f12a506f260263dc04d5c"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "48346342",
+          "path": "Referencias/MOVENTO/760H5000S_48346342.step",
+          "sha256": "4f2ff807bb1d8f77fba163059b4861ce2c32189cccd128b0cabd81d6c63eebe5"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H4000S",
+          "cad_id": "43107713",
+          "path": "Referencias/MOVENTO/760H4000S_43107713.step",
+          "sha256": "90d7a46237f0fff4ef297e935b90f7352e6d1a1ceb3f12a506f260263dc04d5c"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "44284912",
+          "path": "Referencias/MOVENTO/760H5000S_44284912.step",
+          "sha256": "e6048b593277914f809627f9dca529b44a87bbf32d47ff05d6e5bfece86c1e84"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H5000S",
+          "cad_id": "46358398",
+          "path": "Referencias/MOVENTO/760H5000S_46358398.step",
+          "sha256": "68377f7387c10e405932cdbae2452c23e74075e103735b593f889c704be2f7b4"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "T51.7601",
+          "cad_id": "43107713",
+          "path": "Referencias/MOVENTO/T51.7601_43107713.step",
+          "sha256": "90d7a46237f0fff4ef297e935b90f7352e6d1a1ceb3f12a506f260263dc04d5c"
+        },
+        {
+          "family": "MOVENTO",
+          "code": "760H4000S",
+          "cad_id": "46103240",
+          "path": "Referencias/MOVENTO/760H4000S_46103240.step",
+          "sha256": "1e99415a2d9569c1e2f331929c20c13892c3b967e30e128333500a8376fb8a0c"
+        }
+      ],
+      "crc_all_entries_ok": true,
+      "step_entries": 542,
+      "bytes_steps_expanded": 263305169,
+      "distinct_cad_ids": 249
+    },
+    {
+      "family": "TANDEM",
+      "archive": "Pacotes/TANDEM_STEP.zip",
+      "bytes_zip": 116394302,
+      "sha256_zip": "bbb4e1c942e444cb8538c9c850c516e970264ac42dcd675f869d7ba44802524c",
+      "references": [
+        {
+          "family": "TANDEM",
+          "code": "560H4000B",
+          "cad_id": "43253973",
+          "path": "Referencias/TANDEM/560H4000B_43253973.step",
+          "sha256": "ec85627efc82ba619a0f30afb928cb5432caf9f673f37c9918fcda2b2dc600de"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H4000B",
+          "cad_id": "44010087",
+          "path": "Referencias/TANDEM/560H4000B_44010087.step",
+          "sha256": "20055bcc104b8077fdbcb24164615e5d25b9c51e2a69384fa5265bcdd99f1931"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H4000B",
+          "cad_id": "49470082",
+          "path": "Referencias/TANDEM/560H4000B_49470082.step",
+          "sha256": "0bd2692263cb07f300cdf8c0d6108f2b53520311ce5c94d0323cd178fc33ecbe"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H5000B",
+          "cad_id": "45339868",
+          "path": "Referencias/TANDEM/560H5000B_45339868.step",
+          "sha256": "2d3b5fef33a7f1a80c2d15cead069a7a95a027ef6c42441d38f1d3d3ba929999"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H5000B",
+          "cad_id": "49470082",
+          "path": "Referencias/TANDEM/560H5000B_49470082.step",
+          "sha256": "0bd2692263cb07f300cdf8c0d6108f2b53520311ce5c94d0323cd178fc33ecbe"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H5000B",
+          "cad_id": "41050099",
+          "path": "Referencias/TANDEM/560H5000B_41050099.step",
+          "sha256": "b83500ffb3dad53e8f1526408a168cd6241821c1a3bcc513ce3d9b9109fa237a"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H4000B",
+          "cad_id": "46077857",
+          "path": "Referencias/TANDEM/560H4000B_46077857.step",
+          "sha256": "29be45c2537f9327c72c8392c31e5d67be9462fb222fc77e5cafc15991b3a95c"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H4000B",
+          "cad_id": "45339868",
+          "path": "Referencias/TANDEM/560H4000B_45339868.step",
+          "sha256": "2d3b5fef33a7f1a80c2d15cead069a7a95a027ef6c42441d38f1d3d3ba929999"
+        },
+        {
+          "family": "TANDEM",
+          "code": "T51.1901",
+          "cad_id": "49120927",
+          "path": "Referencias/TANDEM/T51.1901_49120927.step",
+          "sha256": "4302317e2bfcab17a0966b858fc7e2d2ce48e96c40526742dfcde69ad348a127"
+        },
+        {
+          "family": "TANDEM",
+          "code": "T51.1901",
+          "cad_id": "41411517",
+          "path": "Referencias/TANDEM/T51.1901_41411517.step",
+          "sha256": "0cb9877f3c6498b3b678348fdc43a13d9d16761b9a18dd5833fba137bc5789de"
+        },
+        {
+          "family": "TANDEM",
+          "code": "560H5000B",
+          "cad_id": "47112027",
+          "path": "Referencias/TANDEM/560H5000B_47112027.step",
+          "sha256": "1b28093486b25e3c7f446f9a83a9cf0f82cd81ec66fabebde3f94c6ea67437d2"
+        }
+      ],
+      "crc_all_entries_ok": true,
+      "step_entries": 1253,
+      "bytes_steps_expanded": 693125637,
+      "distinct_cad_ids": 641
+    }
+  ],
+  "total_step_entries": 4211,
+  "total_zip_bytes": 468712519,
+  "extracted_reference_entries": 64
+}

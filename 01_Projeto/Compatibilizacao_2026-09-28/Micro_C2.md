@@ -1,5 +1,7 @@
 # Apoio do micro-ondas e luz C2 — 28/09/2026
 
+**Reafirmação em 12/10/2026:** Elias respondeu “mantenho meus 10cm no plano atual”. Preservar a folga superior desenhada, apoio e organização de B/C; não reduzir guarda nem substituir aparelho automaticamente. O ME23P continua referência do desenho. Seu manual local, página 3, exige 30 cm acima; portanto a decisão de layout não encerra a compatibilidade de instalação. Pesquisa preliminar desta rodada não confirmou alternativa adequada aos 10 cm. Encerrar somente com solução documentada aplicável ao aparelho e às demais folgas, dimensões, apoios e conexões.
+
 **[Abrir prancha e mapas de luz](Micro_C2.html).** Desenvolvimento autorizado por Elias após o corte de cocção. Proposta técnica para detalhamento; medidas documentais, sem levantamento ou liberação de fabricação. A escolha de 10 cm acima do micro permanece registrada; não se pediu novamente essa decisão.
 
 ## Direção de projeto

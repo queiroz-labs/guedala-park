@@ -1,5 +1,13 @@
 # Sala e jantar
 
+**08/10/2026 — cozinha e banco, atualização vigente:** Elias aprovou a proposta de organização da cozinha e do banco em 08/10, com a resposta “ok, aprovado”, e confirmou térmica guardada vazia e seca, poucas unidades de batatas/cebolas/alho e escolheu fruteira com base ventilada na mesa. Dimensões da fruteira seguem de estudo. Proposta do banco preserva 180 × 55 cm externos, assento com 45 cm de profundidade e topo a 47; os 45 cm antes chamados de profundidade externa foram corrigidos pela fonte. Folha preservada; setores 36,2 / 35 / 19,8 com duas divisórias de 1,8. Fundo a 8 cm somente no setor dos potes é nova hipótese construtiva: preserva reserva inferior 3,5, superior 4 e montagem de apoio testada de 24 mm. Estacionamento estático 67 × 95 na mesa conferido. Continuação técnica: o assento de 7 cm do modelo zera a sobra do balde e interfere com a subida direta da jarra. Alternativa de tampas de 2 cm e almofadas separadas amplia a passagem para 37,8 cm (2,4 cm por lado do corpo do balde); exige retirar almofada também no acesso diário à térmica, rotina aceita em 09/10/2026 por Elias (“entendo q funciona sim”). Dez percursos de potes/apoios/objetos inferiores reconferidos com assento de 7 cm; painéis agora têm 3 mm de montagem lateral. Estrutura, ferragens, acesso real, produtos, estoque e capacidade global não estão concluídos. Organização funcional adotada; construção, cotas executivas e fabricação seguem condicionadas às conferências técnicas. [Prancha e mapa conjunto](../Compatibilizacao_2026-10-08/Cozinha_e_banco.html). Registros anteriores abaixo são históricos onde superados.
+
+**Vidros ocasionais —03/10:** Elias confirmou frequência só ocasional para potes de refeições. [Novo nível removível no compartimento limpo](../Compatibilizacao_2026-10-03/Vidros_no_banco.html) testa três potes em uma camada acima de travessas/batedeira, sem ocupar faixa do balde, nicho da folha ou vãos de aspirador/jogos. Não adotado; apoios/medidas e quantidade real pendentes. Potes, bandejas vazias e painéis devem sair antes dos itens inferiores; não executar apoio fixo a partir desse desenho.
+
+**Baú — prioridades definidas03/10:** aspirador, balde e poucas caixas de jogos; ciclismo pode ter outro destino se faltar espaço. [Saldo e proposta atual](../Compatibilizacao_2026-10-03/Saldo_do_bau.html) mantém folha guardada, testa balde na faixa central e aspirador/jogos em vãos baixos condicionais. Sem número/tamanho de jogos ou estrutura real definidos; mochilas/malas continuam por resolver.
+
+**Alternativa de apoio à cozinha — 03/10:** [compartimento limpo no banco](../Compatibilizacao_2026-10-03/Banco_compartimento_limpo.html) propõe60 ×39 ×30 internos para duas travessas e liquidificador/batedeira completos. Folha da mesa preservada; outros usos do baú precisam de conferência no restante. Nova proposta não adotada; sem aumentar banco, alterar estética ou liberar estrutura/ferragens.
+
 **Consolidação de 30/09:** [mesa completa — HTML](../Compatibilizacao_2026-09-30/Mesa_completa.html). Proposta de operação com apoio temporário no assento do banco; substitui a direção anterior sobre metade móvel. Medidas executivas e protótipo ainda necessários.
 
 **Painel sob medida — 23/09/2026:** modalidade escolhida. [Desenho proposto R01](Painel_sob_medida_R01.md), com frente/perfil, alturas, cabos, soundbar e circulação. Novas medidas e fixação da soundbar ainda para avaliação.
@@ -121,3 +129,6 @@ Programa confirmado: até seis pessoas, três no banco e três nas cadeiras. A I
 | [Layout do jantar — R01](Layout_do_jantar_R01.md) · [PDF](Layout_do_jantar_R01.pdf) | Hipóteses para uso diário e seis lugares, cantos arredondados e circulação. |
 
 [Consultar estudos anteriores](../../99_Arquivo/Estudos_anteriores/README.md). Os estudos não liberam fabricação ou instalação.
+
+
+**Banco — revisão de15/10/2026:** [madeira, ligações e trava da bandeja (R02)](Retirada_ponta_R30/Materiais_ligacoes_trava_R02.html). Especificação para cotação da solução híbrida; capacidade240 kg e liberação de fabricação ainda dependem das verificações indicadas.

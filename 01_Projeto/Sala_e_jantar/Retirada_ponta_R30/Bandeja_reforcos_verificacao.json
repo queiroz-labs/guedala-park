@@ -1,0 +1,76 @@
+{
+  "status": "Geometric proposal; no source changes or fabrication release",
+  "design_requirement": {
+    "occupants": 3,
+    "kg_each": 80,
+    "total_kg": 240,
+    "capacity_verified": false
+  },
+  "portal_external_projection_mm": 30,
+  "opening_mm": [
+    380,
+    62
+  ],
+  "opening_yz_mm": [
+    25,
+    308,
+    405,
+    370
+  ],
+  "shelf_new_z_mm": [
+    292,
+    310
+  ],
+  "lower_divider_new_top_mm": 292,
+  "tray_mm": [
+    750,
+    330,
+    10
+  ],
+  "tray_assembled_max_height_mm": 50,
+  "rail_fit_only_mm": [
+    750,
+    19.1,
+    53.1
+  ],
+  "rail_required_travel_mm": 750,
+  "panel_mm": [
+    750,
+    300,
+    30
+  ],
+  "panel_start_mm": [
+    43,
+    65,
+    322
+  ],
+  "tray_travel_mm": 750,
+  "panel_additional_slide_mm": 93,
+  "panel_total_travel_mm": 843,
+  "panel_final_x_mm": [
+    -800,
+    -50
+  ],
+  "tray_final_x_mm": [
+    -722,
+    28
+  ],
+  "supported_panel_length_final_mm": 672,
+  "leading_overhang_mm": 78,
+  "panel_cg_final_x_mm": -425,
+  "panel_cg_inside_support_interval": true,
+  "tip_to_closed_door_mm": 630,
+  "frame_to_panel_tail_mm": 20,
+  "static_collisions": [],
+  "sweep_collisions": [],
+  "lower_content_top_mm": 274,
+  "new_clearance_content_to_shelf_mm": 18,
+  "source_sha256": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "limits": "All member shapes are spatial envelopes, not tube wall or structural sizing. Rail inner members and lock not modeled. Static CG check only, not forces, flexure, tilt or durability. Floor support, welds, fixings, tray composition, stops and occupant concentrated loads pending. Portal30 occupies passage permanently; mounted whole bench end becomes1830 nominal.",
+  "rear_connection_envelope_mm": [
+    750,
+    22,
+    30
+  ],
+  "rear_connection_collisions": []
+}

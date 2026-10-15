@@ -1,0 +1,1517 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Implantacao_R24_2026-10-14\\Guedala_Park_R24_Implantacao_Corrigida.FCStd",
+  "status": "complete_static_imported_families_scope",
+  "sha256_before": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "scope": "Static imported adopted furniture/equipment, distinct family IDs. Architecture, modules and internal assembly contacts excluded; their audits are separate.",
+  "manifest": [
+    {
+      "name": "Peca102",
+      "family": "queen",
+      "label": "Cama queen existente"
+    },
+    {
+      "name": "Peca103",
+      "family": "queen",
+      "label": "Cama queen existente001"
+    },
+    {
+      "name": "Peca104",
+      "family": "queen",
+      "label": "Cama queen existente002"
+    },
+    {
+      "name": "Peca105",
+      "family": "queen",
+      "label": "Cama queen existente003"
+    },
+    {
+      "name": "Peca106",
+      "family": "queen",
+      "label": "Cama queen existente004"
+    },
+    {
+      "name": "Peca107",
+      "family": "headboard",
+      "label": "Cabeceira estofada clara"
+    },
+    {
+      "name": "Peca108",
+      "family": "ledges",
+      "label": "Dois apoios para celular e óculos"
+    },
+    {
+      "name": "Peca109",
+      "family": "ledges",
+      "label": "Dois apoios para celular e óculos001"
+    },
+    {
+      "name": "Peca110",
+      "family": "desk",
+      "label": "Bancada de trabalho"
+    },
+    {
+      "name": "Peca111",
+      "family": "desk",
+      "label": "Bancada de trabalho001"
+    },
+    {
+      "name": "Peca112",
+      "family": "desk",
+      "label": "Bancada de trabalho002"
+    },
+    {
+      "name": "Peca113",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH360"
+    },
+    {
+      "name": "Peca114",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH361"
+    },
+    {
+      "name": "Peca115",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH362"
+    },
+    {
+      "name": "Peca116",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH363"
+    },
+    {
+      "name": "Peca117",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH364"
+    },
+    {
+      "name": "Peca118",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH365"
+    },
+    {
+      "name": "Peca119",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH366"
+    },
+    {
+      "name": "Peca120",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH367"
+    },
+    {
+      "name": "Peca121",
+      "family": "setup",
+      "label": "Notebook + dois monitores + CH368"
+    },
+    {
+      "name": "Peca122",
+      "family": "daiane",
+      "label": "Sofá-cama Daiane cinza-claro"
+    },
+    {
+      "name": "Peca123",
+      "family": "daiane",
+      "label": "Sofá-cama Daiane cinza-claro001"
+    },
+    {
+      "name": "Peca124",
+      "family": "daiane",
+      "label": "Sofá-cama Daiane cinza-claro002"
+    },
+    {
+      "name": "Peca125",
+      "family": "daiane",
+      "label": "Sofá-cama Daiane cinza-claro003"
+    },
+    {
+      "name": "Peca126",
+      "family": "daiane",
+      "label": "Sofá-cama Daiane cinza-claro004"
+    },
+    {
+      "name": "Peca129",
+      "family": "officechair",
+      "label": "Cadeira · cenário Ultra Comfort"
+    },
+    {
+      "name": "Peca130",
+      "family": "officeshelf",
+      "label": "Prateleira alta dos consoles"
+    },
+    {
+      "name": "Peca131",
+      "family": "tv43",
+      "label": "Samsung 43″ existente"
+    },
+    {
+      "name": "Peca077",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox"
+    },
+    {
+      "name": "Peca078",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox001"
+    },
+    {
+      "name": "Peca079",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox002"
+    },
+    {
+      "name": "Peca080",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox003"
+    },
+    {
+      "name": "Peca081",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox004"
+    },
+    {
+      "name": "Peca082",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox005"
+    },
+    {
+      "name": "Peca083",
+      "family": "bonnie",
+      "label": "Sofá Bonnie SoftGel · Cama inBox006"
+    },
+    {
+      "name": "Peca084",
+      "family": "panel",
+      "label": "Painel liso da TV"
+    },
+    {
+      "name": "Peca085",
+      "family": "racks",
+      "label": "Uma prateleira acima e outra abaixo da TV"
+    },
+    {
+      "name": "Peca086",
+      "family": "racks",
+      "label": "Uma prateleira acima e outra abaixo da TV001"
+    },
+    {
+      "name": "Peca087",
+      "family": "power",
+      "label": "Compartimento da régua"
+    },
+    {
+      "name": "Peca088",
+      "family": "tv50",
+      "label": "TV 50″ · preferência Ambilight"
+    },
+    {
+      "name": "Peca089",
+      "family": "soundbar",
+      "label": "Soundbar futura"
+    },
+    {
+      "name": "Peca090",
+      "family": "decor",
+      "label": "vase"
+    },
+    {
+      "name": "Peca091",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo"
+    },
+    {
+      "name": "Peca092",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo001"
+    },
+    {
+      "name": "Peca093",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo002"
+    },
+    {
+      "name": "Peca094",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo003"
+    },
+    {
+      "name": "Peca095",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo004"
+    },
+    {
+      "name": "Peca096",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo005"
+    },
+    {
+      "name": "Peca097",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo006"
+    },
+    {
+      "name": "Peca098",
+      "family": "table",
+      "label": "Mesa extensível com pedestal fixo007"
+    },
+    {
+      "name": "Peca099",
+      "family": "diningchairs",
+      "label": "Três cadeiras Lina · guarda na lateral"
+    },
+    {
+      "name": "Peca100",
+      "family": "diningchairs",
+      "label": "Três cadeiras Lina · guarda na lateral001"
+    },
+    {
+      "name": "Peca101",
+      "family": "diningchairs",
+      "label": "Três cadeiras Lina · guarda na lateral002"
+    },
+    {
+      "name": "Peca132",
+      "family": "ps5",
+      "label": "PS5 Slim Digital · um aparelho"
+    },
+    {
+      "name": "Peca133",
+      "family": "oven",
+      "label": "Venax Totale Nero GIII 50 L"
+    },
+    {
+      "name": "Peca134",
+      "family": "cooktop",
+      "label": "Cooktop Electrolux KE4GC"
+    },
+    {
+      "name": "Peca135",
+      "family": "sink",
+      "label": "Cuba Dora + torneira Apurema"
+    },
+    {
+      "name": "Peca136",
+      "family": "sink",
+      "label": "Cuba Dora + torneira Apurema001"
+    },
+    {
+      "name": "Peca137",
+      "family": "sink",
+      "label": "Cuba Dora + torneira Apurema002"
+    },
+    {
+      "name": "Peca138",
+      "family": "fridge",
+      "label": "Geladeira Electrolux IB6S Inox Look"
+    },
+    {
+      "name": "Peca139",
+      "family": "hood",
+      "label": "Depurador Suggar DE61IX"
+    },
+    {
+      "name": "Peca140",
+      "family": "filter",
+      "label": "Purificador Electrolux PE12G grafite"
+    },
+    {
+      "name": "Peca141",
+      "family": "kitchenfinish",
+      "label": "Pedra, pintura e pegas"
+    },
+    {
+      "name": "Peca142",
+      "family": "kitchenlight",
+      "label": "Plafon quadrado branco"
+    },
+    {
+      "name": "Peca143",
+      "family": "kitchenlight",
+      "label": "Plafon quadrado branco001"
+    },
+    {
+      "name": "Peca144",
+      "family": "trash",
+      "label": "Lixeira comum Biovis Coleta 15 L"
+    },
+    {
+      "name": "Peca145",
+      "family": "trash",
+      "label": "Lixeira comum Biovis Coleta 15 L001"
+    },
+    {
+      "name": "Peca146",
+      "family": "trash",
+      "label": "Lixeira comum Biovis Coleta 15 L002"
+    },
+    {
+      "name": "Peca150",
+      "family": "dishrack",
+      "label": "Escorredor Tramontina Mini Plurale grafite"
+    },
+    {
+      "name": "Peca151",
+      "family": "dishrack",
+      "label": "Escorredor Tramontina Mini Plurale grafite001"
+    },
+    {
+      "name": "Peca147",
+      "family": "recycling",
+      "label": "Lixeira de recicláveis Tramontina Loop 20 L"
+    },
+    {
+      "name": "Peca148",
+      "family": "recycling",
+      "label": "Lixeira de recicláveis Tramontina Loop 20 L001"
+    },
+    {
+      "name": "Peca149",
+      "family": "recycling",
+      "label": "Lixeira de recicláveis Tramontina Loop 20 L002"
+    },
+    {
+      "name": "Peca152",
+      "family": "washer",
+      "label": "LG VC4 CV5012PC4 Inox Look"
+    },
+    {
+      "name": "Peca153",
+      "family": "laundryfinish",
+      "label": "Continuidade de pedra e pintura"
+    },
+    {
+      "name": "Peca154",
+      "family": "airfryer",
+      "label": "Philips Walita RI9252/91"
+    },
+    {
+      "name": "Peca155",
+      "family": "heater",
+      "label": "Rinnai E21 GN REU-E211 FEH"
+    },
+    {
+      "name": "Peca156",
+      "family": "heater",
+      "label": "Rinnai E21 GN REU-E211 FEH001"
+    },
+    {
+      "name": "Peca157",
+      "family": "drying",
+      "label": "Varal vertical com chapa de ocultação"
+    },
+    {
+      "name": "Peca158",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte"
+    },
+    {
+      "name": "Peca159",
+      "family": "bathshaft",
+      "label": "Enchimento técnico existente"
+    },
+    {
+      "name": "Peca160",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte001"
+    },
+    {
+      "name": "Peca161",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte002"
+    },
+    {
+      "name": "Peca162",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte003"
+    },
+    {
+      "name": "Peca163",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte004"
+    },
+    {
+      "name": "Peca164",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte005"
+    },
+    {
+      "name": "Peca165",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte006"
+    },
+    {
+      "name": "Peca166",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte007"
+    },
+    {
+      "name": "Peca167",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte008"
+    },
+    {
+      "name": "Peca168",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte009"
+    },
+    {
+      "name": "Peca169",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte010"
+    },
+    {
+      "name": "Peca170",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte011"
+    },
+    {
+      "name": "Peca171",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte012"
+    },
+    {
+      "name": "Peca172",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte013"
+    },
+    {
+      "name": "Peca173",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte014"
+    },
+    {
+      "name": "Peca174",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte015"
+    },
+    {
+      "name": "Peca175",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte016"
+    },
+    {
+      "name": "Peca176",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte017"
+    },
+    {
+      "name": "Peca177",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte018"
+    },
+    {
+      "name": "Peca178",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte019"
+    },
+    {
+      "name": "Peca179",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte020"
+    },
+    {
+      "name": "Peca180",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte021"
+    },
+    {
+      "name": "Peca181",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte022"
+    },
+    {
+      "name": "Peca182",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte023"
+    },
+    {
+      "name": "Peca183",
+      "family": "shower",
+      "label": "Box transparente + Addra Livo Black Matte024"
+    },
+    {
+      "name": "Peca184",
+      "family": "bath shelf",
+      "label": "Prateleira do box em Branco Itaúnas"
+    },
+    {
+      "name": "Peca185",
+      "family": "basin",
+      "label": "Cuba Deca Slim branca L.13040.17"
+    },
+    {
+      "name": "Peca186",
+      "family": "bath tap",
+      "label": "Addra Arion Black · bica alta"
+    },
+    {
+      "name": "Peca187",
+      "family": "bath tap",
+      "label": "Addra Arion Black · bica alta001"
+    },
+    {
+      "name": "Peca188",
+      "family": "bathlight",
+      "label": "Luz frontal fixa inferior - proposta"
+    },
+    {
+      "name": "Peca189",
+      "family": "bathlight",
+      "label": "Luz frontal fixa superior - proposta"
+    },
+    {
+      "name": "Peca190",
+      "family": "toilet",
+      "label": "Celite VIP branco · kit 1977230012300"
+    },
+    {
+      "name": "Peca191",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria"
+    },
+    {
+      "name": "Peca192",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria001"
+    },
+    {
+      "name": "Peca193",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria002"
+    },
+    {
+      "name": "Peca194",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria003"
+    },
+    {
+      "name": "Peca195",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria004"
+    },
+    {
+      "name": "Peca196",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria005"
+    },
+    {
+      "name": "Peca197",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria006"
+    },
+    {
+      "name": "Peca198",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria007"
+    },
+    {
+      "name": "Peca199",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria008"
+    },
+    {
+      "name": "Peca200",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria009"
+    },
+    {
+      "name": "Peca201",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria010"
+    },
+    {
+      "name": "Peca202",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria011"
+    },
+    {
+      "name": "Peca203",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria012"
+    },
+    {
+      "name": "Peca204",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria013"
+    },
+    {
+      "name": "Peca205",
+      "family": "hygiene",
+      "label": "Ducha higiênica preta quente e fria014"
+    }
+  ],
+  "stats": {
+    "pairs": 7469,
+    "bbox_separated": 7456,
+    "candidates": 13,
+    "booleans": 13
+  },
+  "contacts": [
+    {
+      "one": {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          3900.0,
+          720.0,
+          6900.0,
+          4650.0,
+          750.0
+        ]
+      },
+      "two": {
+        "name": "Peca099",
+        "label": "Três cadeiras Lina · guarda na lateral",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          3930.0,
+          0.0,
+          6530.0,
+          4370.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 5016000.000000001,
+      "common_bbox_source_mm": [
+        6150.0,
+        3930.0,
+        720.0,
+        6530.0,
+        4370.0,
+        750.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          3900.0,
+          720.0,
+          6900.0,
+          4650.0,
+          750.0
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 1947000.0,
+      "common_bbox_source_mm": [
+        6150.0,
+        4430.0,
+        720.0,
+        6445.0,
+        4650.0,
+        750.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4650.0,
+          720.0,
+          6900.0,
+          5400.0,
+          750.0
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 1947000.0,
+      "common_bbox_source_mm": [
+        6150.0,
+        4650.0,
+        720.0,
+        6445.0,
+        4870.0,
+        750.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4650.0,
+          720.0,
+          6900.0,
+          5400.0,
+          750.0
+        ]
+      },
+      "two": {
+        "name": "Peca101",
+        "label": "Três cadeiras Lina · guarda na lateral002",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          4930.0,
+          0.0,
+          6530.0,
+          5370.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 5016000.0,
+      "common_bbox_source_mm": [
+        6150.0,
+        4930.0,
+        720.0,
+        6530.0,
+        5370.0,
+        750.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca093",
+        "label": "Mesa extensível com pedestal fixo002",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4649.3,
+          750.0,
+          6900.0,
+          4650.7,
+          750.15
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 61.94999999999007,
+      "common_bbox_source_mm": [
+        6150.0,
+        4649.3,
+        750.0,
+        6445.0,
+        4650.7,
+        750.15
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca095",
+        "label": "Mesa extensível com pedestal fixo004",
+        "family": "table",
+        "bbox_source_mm": [
+          6395.0,
+          4500.0,
+          0.0,
+          6655.0,
+          4800.0,
+          20.0
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 299999.9999999999,
+      "common_bbox_source_mm": [
+        6395.0,
+        4500.0,
+        0.0,
+        6445.0,
+        4800.0,
+        20.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      "two": {
+        "name": "Peca099",
+        "label": "Três cadeiras Lina · guarda na lateral",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          3930.0,
+          0.0,
+          6530.0,
+          4370.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 239700.0,
+      "common_bbox_source_mm": [
+        6280.0,
+        4200.0,
+        673.0,
+        6310.0,
+        4370.0,
+        720.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 620400.0,
+      "common_bbox_source_mm": [
+        6280.0,
+        4430.0,
+        673.0,
+        6310.0,
+        4870.0,
+        720.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      "two": {
+        "name": "Peca101",
+        "label": "Três cadeiras Lina · guarda na lateral002",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          4930.0,
+          0.0,
+          6530.0,
+          5370.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 239700.0,
+      "common_bbox_source_mm": [
+        6280.0,
+        4930.0,
+        673.0,
+        6310.0,
+        5100.0,
+        720.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca098",
+        "label": "Mesa extensível com pedestal fixo007",
+        "family": "table",
+        "bbox_source_mm": [
+          6310.0,
+          4480.0,
+          643.0,
+          6740.0,
+          4820.0,
+          673.0
+        ]
+      },
+      "two": {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "volume_mm3": 1377000.0,
+      "common_bbox_source_mm": [
+        6310.0,
+        4480.0,
+        643.0,
+        6445.0,
+        4820.0,
+        673.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      "two": {
+        "name": "Peca160",
+        "label": "Box transparente + Addra Livo Black Matte001",
+        "family": "shower",
+        "bbox_source_mm": [
+          2550.0,
+          5270.0,
+          0.0,
+          3350.0,
+          5290.0,
+          2250.0
+        ]
+      },
+      "volume_mm3": 2880000.0,
+      "common_bbox_source_mm": [
+        2550.0,
+        5270.0,
+        20.0,
+        3350.0,
+        5290.0,
+        200.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      "two": {
+        "name": "Peca161",
+        "label": "Box transparente + Addra Livo Black Matte002",
+        "family": "shower",
+        "bbox_source_mm": [
+          3340.0,
+          4050.0,
+          0.0,
+          3350.0,
+          5290.0,
+          2100.0
+        ]
+      },
+      "volume_mm3": 540000.0,
+      "common_bbox_source_mm": [
+        3340.0,
+        4990.0,
+        20.0,
+        3350.0,
+        5290.0,
+        200.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    },
+    {
+      "one": {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      "two": {
+        "name": "Peca163",
+        "label": "Box transparente + Addra Livo Black Matte004",
+        "family": "shower",
+        "bbox_source_mm": [
+          3335.0,
+          5280.0,
+          0.0,
+          3355.0,
+          5290.0,
+          2100.0
+        ]
+      },
+      "volume_mm3": 27000.0,
+      "common_bbox_source_mm": [
+        3335.0,
+        5280.0,
+        20.0,
+        3350.0,
+        5290.0,
+        200.0
+      ],
+      "classification": "requires_context_not_automatic_error"
+    }
+  ],
+  "errors": [],
+  "criterion_mm3": 0.1,
+  "candidate_manifest": [
+    [
+      {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          3900.0,
+          720.0,
+          6900.0,
+          4650.0,
+          750.0
+        ]
+      },
+      {
+        "name": "Peca099",
+        "label": "Três cadeiras Lina · guarda na lateral",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          3930.0,
+          0.0,
+          6530.0,
+          4370.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          3900.0,
+          720.0,
+          6900.0,
+          4650.0,
+          750.0
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4650.0,
+          720.0,
+          6900.0,
+          5400.0,
+          750.0
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4650.0,
+          720.0,
+          6900.0,
+          5400.0,
+          750.0
+        ]
+      },
+      {
+        "name": "Peca101",
+        "label": "Três cadeiras Lina · guarda na lateral002",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          4930.0,
+          0.0,
+          6530.0,
+          5370.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca093",
+        "label": "Mesa extensível com pedestal fixo002",
+        "family": "table",
+        "bbox_source_mm": [
+          6150.0,
+          4649.3,
+          750.0,
+          6900.0,
+          4650.7,
+          750.15
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca095",
+        "label": "Mesa extensível com pedestal fixo004",
+        "family": "table",
+        "bbox_source_mm": [
+          6395.0,
+          4500.0,
+          0.0,
+          6655.0,
+          4800.0,
+          20.0
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      {
+        "name": "Peca099",
+        "label": "Três cadeiras Lina · guarda na lateral",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          3930.0,
+          0.0,
+          6530.0,
+          4370.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "family": "table",
+        "bbox_source_mm": [
+          6280.0,
+          4200.0,
+          673.0,
+          6310.0,
+          5100.0,
+          720.0
+        ]
+      },
+      {
+        "name": "Peca101",
+        "label": "Três cadeiras Lina · guarda na lateral002",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          6060.0,
+          4930.0,
+          0.0,
+          6530.0,
+          5370.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca098",
+        "label": "Mesa extensível com pedestal fixo007",
+        "family": "table",
+        "bbox_source_mm": [
+          6310.0,
+          4480.0,
+          643.0,
+          6740.0,
+          4820.0,
+          673.0
+        ]
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "family": "diningchairs",
+        "bbox_source_mm": [
+          5975.0,
+          4430.0,
+          0.0,
+          6445.0,
+          4870.0,
+          940.0000000000002
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      {
+        "name": "Peca160",
+        "label": "Box transparente + Addra Livo Black Matte001",
+        "family": "shower",
+        "bbox_source_mm": [
+          2550.0,
+          5270.0,
+          0.0,
+          3350.0,
+          5290.0,
+          2250.0
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      {
+        "name": "Peca161",
+        "label": "Box transparente + Addra Livo Black Matte002",
+        "family": "shower",
+        "bbox_source_mm": [
+          3340.0,
+          4050.0,
+          0.0,
+          3350.0,
+          5290.0,
+          2100.0
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "family": "bathshaft",
+        "bbox_source_mm": [
+          2550.0,
+          4990.0,
+          20.0,
+          3350.0,
+          5290.0,
+          200.0
+        ]
+      },
+      {
+        "name": "Peca163",
+        "label": "Box transparente + Addra Livo Black Matte004",
+        "family": "shower",
+        "bbox_source_mm": [
+          3335.0,
+          5280.0,
+          0.0,
+          3355.0,
+          5290.0,
+          2100.0
+        ]
+      }
+    ]
+  ],
+  "elapsed_s": 3.4690000000009604,
+  "sha256_after": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "source_unchanged": true,
+  "limits": "Simplified saved static volumes, selected imported families only; no physical product/material/cutout validation or continuous movements. No CAD changes/save/GUI."
+}

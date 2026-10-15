@@ -1,0 +1,31 @@
+{
+ "ok": true,
+ "movidos": [
+  "Ambiente_quarto",
+  "Ambiente_escritorio",
+  "Ambiente_sala",
+  "Ambiente_cozinha",
+  "Ambiente_lavanderia",
+  "Ambiente_banho",
+  "Ambiente_circulacao",
+  "ParedesInteiras",
+  "ParedesCortadas",
+  "ControlesPortasR10",
+  "ControlesPortasR11",
+  "ControlesPortasR12",
+  "ControlesCorrerR14",
+  "ControlesBancoR16",
+  "ControlesPortasR18"
+ ],
+ "vinculos": 236,
+ "vinculos_alterados": [],
+ "invalidos": [],
+ "objetos": 6033,
+ "topo": [
+  "00 · Dados, hipóteses e fontes",
+  "02 — APARTAMENTO ATUAL — espelhado",
+  "01 — CONTROLES ATUAIS — abrir / retirar",
+  "99 — BASE DE EDIÇÃO (oculta; alimenta o apartamento atual — não apagar)"
+ ],
+ "salvo": true
+}

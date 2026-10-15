@@ -1,0 +1,369 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Montagem_R07_2026-10-14\\Guedala_Park_R07_Montagem_G2.FCStd",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\G2_R06_2026-10-13\\Blum_configurado\\G2_MOVENTO_500_40kg_Recobrimento3_5.STEP",
+  "parts": [
+    {
+      "name": "MontagemG2R07",
+      "source": "Part__Feature",
+      "label": "46166126[46166126]",
+      "category": "locking",
+      "bboxLocal": [
+        38.0,
+        17.999999999999993,
+        16.541952209599923,
+        119.03852338136994,
+        106.49698223440002,
+        31.925000000000004
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R001",
+      "source": "Part__Feature001",
+      "label": "43107713[43107713]",
+      "category": "locking",
+      "bboxLocal": [
+        498.4614766187,
+        17.999999999999993,
+        16.541363726644462,
+        579.0,
+        106.49698223440002,
+        31.925000000000008
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R002",
+      "source": "Part__Feature002",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.1",
+      "category": "screw",
+      "bboxLocal": [
+        4.999999999999999,
+        34.50274934939024,
+        39.000000000000014,
+        17.000000000000004,
+        39.49620183365748,
+        43.99617965018427
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R003",
+      "source": "Part__Feature003",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.2",
+      "category": "screw",
+      "bboxLocal": [
+        4.999999999999998,
+        52.50274934939025,
+        39.000000000000014,
+        17.000000000000007,
+        57.49620183365747,
+        43.99617965018427
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R004",
+      "source": "Part__Feature004",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.3",
+      "category": "screw",
+      "bboxLocal": [
+        4.999999999999999,
+        84.50274934939024,
+        39.00000000000002,
+        17.000000000000004,
+        89.49620183365747,
+        43.99617965018427
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R005",
+      "source": "Part__Feature005",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.4",
+      "category": "screw",
+      "bboxLocal": [
+        4.999999999999998,
+        276.5027493493903,
+        39.000000000000064,
+        17.000000000000007,
+        281.49620183365755,
+        43.99617965018431
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R006",
+      "source": "Part__Feature006",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.5",
+      "category": "screw",
+      "bboxLocal": [
+        4.999999999999999,
+        308.50274934939034,
+        39.00000000000007,
+        17.000000000000007,
+        313.49620183365755,
+        43.99617965018432
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R007",
+      "source": "Part__Feature007",
+      "label": "48346342[48346342]",
+      "category": "profile",
+      "bboxLocal": [
+        17.0,
+        19.999999999999996,
+        3.399999999999999,
+        82.77500000000009,
+        520.4950000000002,
+        54.32500000000013
+      ],
+      "valid": false
+    },
+    {
+      "name": "MontagemG2R008",
+      "source": "Part__Feature008",
+      "label": "48346342[48346342]001",
+      "category": "profile",
+      "bboxLocal": [
+        69.7749999999969,
+        105.00000000000001,
+        7.225000000000022,
+        84.27499999999691,
+        358.00000000000006,
+        31.12500000000008
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R009",
+      "source": "Part__Feature009",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.1",
+      "category": "screw",
+      "bboxLocal": [
+        599.9999999999999,
+        34.50274934939025,
+        39.00382034981576,
+        612.0000000000002,
+        39.49620183365745,
+        44.000000000000014
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R010",
+      "source": "Part__Feature010",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.2",
+      "category": "screw",
+      "bboxLocal": [
+        599.9999999999999,
+        52.50274934939025,
+        39.00382034981576,
+        612.0000000000001,
+        57.49620183365748,
+        44.000000000000014
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R011",
+      "source": "Part__Feature011",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.3",
+      "category": "screw",
+      "bboxLocal": [
+        599.9999999999999,
+        84.50274934939024,
+        39.00382034981577,
+        612.0000000000002,
+        89.49620183365745,
+        44.00000000000002
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R012",
+      "source": "Part__Feature012",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.4",
+      "category": "screw",
+      "bboxLocal": [
+        599.9999999999999,
+        276.5027493493903,
+        39.00382034981582,
+        612.0000000000002,
+        281.49620183365755,
+        44.000000000000064
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R013",
+      "source": "Part__Feature013",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.5",
+      "category": "screw",
+      "bboxLocal": [
+        599.9999999999999,
+        308.5027493493903,
+        39.003820349815825,
+        612.0000000000001,
+        313.49620183365755,
+        44.00000000000007
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R014",
+      "source": "Part__Feature014",
+      "label": "49027541[49027541]",
+      "category": "profile",
+      "bboxLocal": [
+        534.225,
+        19.999999999999996,
+        3.399999999999999,
+        600.0,
+        520.4950000000002,
+        54.32500000000013
+      ],
+      "valid": false
+    },
+    {
+      "name": "MontagemG2R015",
+      "source": "Part__Feature015",
+      "label": "49027541[49027541]001",
+      "category": "profile",
+      "bboxLocal": [
+        532.72500000001,
+        105.00000000000001,
+        7.225000000000022,
+        547.2250000000101,
+        358.00000000000006,
+        31.12500000000008
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R016",
+      "source": "Part__Feature016",
+      "label": "Parte_traseira_da_gaveta[3B0R-000X]",
+      "category": "wood",
+      "bboxLocal": [
+        38.0,
+        493.0000000000001,
+        47.000000000000114,
+        579.0,
+        508.0000000000001,
+        120.00000000000014
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R017",
+      "source": "Part__Feature017",
+      "label": "Lateral_da_gaveta_à_esquerda[3B0R-0010]",
+      "category": "wood",
+      "bboxLocal": [
+        23.0,
+        17.999999999999975,
+        20.000000000000004,
+        38.000000000000114,
+        507.9999999999999,
+        120.00000000000014
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R018",
+      "source": "Part__Feature018",
+      "label": "Lateral_da_gaveta_à_direita[3B0R-0015]",
+      "category": "wood",
+      "bboxLocal": [
+        578.9999999999999,
+        17.999999999999975,
+        20.000000000000004,
+        594.0,
+        508.0000000000001,
+        120.00000000000014
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R019",
+      "source": "Part__Feature019",
+      "label": "Fundo_da_gaveta[3B0R-001A]",
+      "category": "wood",
+      "bboxLocal": [
+        33.0,
+        17.99999999999999,
+        32.00000000000001,
+        584.0,
+        508.00000000000017,
+        47.00000000000023
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R020",
+      "source": "Part__Feature020",
+      "label": "Frente_da_gaveta[3B0R-001H]",
+      "category": "wood",
+      "bboxLocal": [
+        0.0,
+        -3.907985046680551e-14,
+        -4.884981308350689e-15,
+        617.0,
+        18.0,
+        156.00000000000003
+      ],
+      "valid": true
+    },
+    {
+      "name": "MontagemG2R021",
+      "source": "Part__Feature021",
+      "label": "Pe栟frontal_da_gaveta[3B0R-001O]",
+      "category": "wood",
+      "bboxLocal": [
+        38.0,
+        17.999999999999975,
+        47.00000000000001,
+        579.0,
+        33.99999999999999,
+        120.00000000000003
+      ],
+      "valid": true
+    }
+  ],
+  "wood_internal_hits": [],
+  "hardware_wood_hits": [
+    {
+      "hardware": "48346342[48346342] - proposta R07",
+      "wood": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "mm3": 52.138625325905444
+    },
+    {
+      "hardware": "49027541[49027541] - proposta R07",
+      "wood": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "mm3": 54.04097618495301
+    }
+  ],
+  "front_bbox": [
+    0.0,
+    -3.907985046680551e-14,
+    -4.884981308350689e-15,
+    617.0,
+    18.0,
+    156.00000000000003
+  ],
+  "visible_internal_floor_mm": [
+    541,
+    459
+  ],
+  "tray_depth_mm": 455,
+  "front_rear_gap_mm": [
+    2,
+    2
+  ],
+  "contents_count": 9,
+  "proposed_changes": "Dianteira16, rasgos laterais5, fundo551x490 incluindo encaixes; corpo avançado7mm para apoiar diretamente na frente. Frentes e conteúdo preservados.",
+  "scope": "Montagem fechada oficial e sólidos estáticos. Carga40kg inclui caixa/frente/conteúdo; peso total ainda não medido. Parafusos EURO entram nos apoios por definição; não classificados como colisão livre. Não certifica tolerâncias ou movimento telescópico."
+}

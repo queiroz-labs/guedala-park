@@ -1,0 +1,2496 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Folga_teto_R28_2026-10-14\\Guedala_Park_R28_Folga_Teto_Proposta.FCStd",
+  "sha256": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+  "navigation": [
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControlePortaR015",
+      "original": "ControlePortaR015",
+      "entry_label": "Cabeceira porta 4 - abrir para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControlePortaR016",
+      "original": "ControlePortaR016",
+      "entry_label": "Cabeceira porta 3 - abrir para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControlePortaR017",
+      "original": "ControlePortaR017",
+      "entry_label": "Cabeceira porta 2 - abrir para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleVizinhaR18",
+      "original": "ControleVizinhaR18",
+      "entry_label": "Cabeceira porta 1 - abrir para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleSimplesR04",
+      "original": "ControleSimplesR04",
+      "entry_label": "R04 - abertura independente das duas portas",
+      "entry_type": "Spreadsheet::Sheet"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleCorrerR14",
+      "original": "ControleCorrerR14",
+      "entry_label": "Roupeiro — porta direita — deslizar para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleCorrerR001",
+      "original": "ControleCorrerR001",
+      "entry_label": "Roupeiro — porta esquerda — deslizar para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleCorrerR002",
+      "original": "ControleCorrerR002",
+      "entry_label": "Maleiro — porta direita — deslizar para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "ControleCorrerR003",
+      "original": "ControleCorrerR003",
+      "entry_label": "Maleiro — porta esquerda — deslizar para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "AcessoControleR21",
+      "original": "Gaveta",
+      "entry_label": "Gaveta de roupa — acesso ao objeto Gaveta",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "AcessoControleR001",
+      "original": "Gaveta001",
+      "entry_label": "Gaveta de roupa001 — acesso ao objeto Gaveta001",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "AcessoControleR002",
+      "original": "Gaveta002",
+      "entry_label": "Gaveta de roupa002 — acesso ao objeto Gaveta002",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Quarto — cabeceira, canto, roupeiro",
+      "entry": "AcessoControleR003",
+      "original": "Gaveta003",
+      "entry_label": "Gaveta de roupa003 — acesso ao objeto Gaveta003",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "ControlePortaR11",
+      "original": "ControlePortaR11",
+      "entry_label": "Escritório porta 4 - abrir para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "ControlePortaR012",
+      "original": "ControlePortaR012",
+      "entry_label": "Escritório porta 3 - abrir para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "ControlePortaR013",
+      "original": "ControlePortaR013",
+      "entry_label": "Escritório porta 2 - abrir para direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "ControlePortaR014",
+      "original": "ControlePortaR014",
+      "entry_label": "Escritório porta 1 - abrir para esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "AcessoControleR008",
+      "original": "Gaveta008",
+      "entry_label": "Gaveta escritório 1 — acesso ao objeto Gaveta008",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Escritório — portas e gavetas",
+      "entry": "AcessoControleR009",
+      "original": "Gaveta009",
+      "entry_label": "Gaveta escritório 2 — acesso ao objeto Gaveta009",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR10",
+      "original": "ControlePortaR10",
+      "entry_label": "Gabinete da pia - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR001",
+      "original": "ControlePortaR001",
+      "entry_label": "Gabinete da pia - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR002",
+      "original": "ControlePortaR002",
+      "entry_label": "D · acima do depurador - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR003",
+      "original": "ControlePortaR003",
+      "entry_label": "D · acima do depurador - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR004",
+      "original": "ControlePortaR004",
+      "entry_label": "C · uso diário - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR005",
+      "original": "ControlePortaR005",
+      "entry_label": "C · uso diário - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR006",
+      "original": "ControlePortaR006",
+      "entry_label": "B · acima do micro - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR007",
+      "original": "ControlePortaR007",
+      "entry_label": "B · acima do micro - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR008",
+      "original": "ControlePortaR008",
+      "entry_label": "A · acima da geladeira - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "ControlePortaR009",
+      "original": "ControlePortaR009",
+      "entry_label": "A · acima da geladeira - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "AcessoControleR004",
+      "original": "Gaveta004",
+      "entry_label": "G3 · mantimentos — acesso ao objeto Gaveta004",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "AcessoControleR005",
+      "original": "Gaveta005",
+      "entry_label": "G2 · utensílios — acesso ao objeto Gaveta005",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "AcessoControleR006",
+      "original": "Gaveta006",
+      "entry_label": "G1 · talheres — acesso ao objeto Gaveta006",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Cozinha — portas e gavetas",
+      "entry": "AcessoControleR007",
+      "original": "Gaveta007",
+      "entry_label": "Gaveta baixa — rodas de silicone / cabos fixos — acesso ao objeto Gaveta007",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Lavanderia — aéreo, cesto e manutenção da lixeira",
+      "entry": "ControlePortaR010",
+      "original": "ControlePortaR010",
+      "entry_label": "Aéreo da lavanderia - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Lavanderia — aéreo, cesto e manutenção da lixeira",
+      "entry": "ControlePortaR011",
+      "original": "ControlePortaR011",
+      "entry_label": "Aéreo da lavanderia - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Lavanderia — aéreo, cesto e manutenção da lixeira",
+      "entry": "AcessoControleR010",
+      "original": "ControleCestoR15",
+      "entry_label": "Cesto R15 - Abertura55 e RetiradaSaco — acesso ao objeto ControleCestoR15",
+      "entry_type": "App::Link"
+    },
+    {
+      "room": "Lavanderia — aéreo, cesto e manutenção da lixeira",
+      "entry": "ControleLoopManutencaoR26",
+      "original": "ControleLoopManutencaoR26",
+      "entry_label": "Loop 20 L — afastamento temporário para manutenção (proposta)",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Banheiro — portas e entrada",
+      "entry": "ControlePortaR12",
+      "original": "ControlePortaR12",
+      "entry_label": "Gabinete do banheiro - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Banheiro — portas e entrada",
+      "entry": "ControlePortaR018",
+      "original": "ControlePortaR018",
+      "entry_label": "Gabinete do banheiro - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Banheiro — portas e entrada",
+      "entry": "ControlePortaR019",
+      "original": "ControlePortaR019",
+      "entry_label": "Armário espelhado raso - porta direita",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Banheiro — portas e entrada",
+      "entry": "ControlePortaR020",
+      "original": "ControlePortaR020",
+      "entry_label": "Armário espelhado raso - porta esquerda",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Banheiro — portas e entrada",
+      "entry": "PortaEntradaBanheiroR12",
+      "original": "PortaEntradaBanheiroR12",
+      "entry_label": "Entrada banheiro - folha700 de referência, NÃO medida",
+      "entry_type": "App::Part"
+    },
+    {
+      "room": "Sala — banco e almofadas",
+      "entry": "ControleBancoR16",
+      "original": "ControleBancoR16",
+      "entry_label": "1 - Potes/travessas/batedeira",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Sala — banco e almofadas",
+      "entry": "ControleBancoR001",
+      "original": "ControleBancoR001",
+      "entry_label": "2 - Liquidificador e bebidas",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Sala — banco e almofadas",
+      "entry": "ControleBancoR002",
+      "original": "ControleBancoR002",
+      "entry_label": "3 - Balde",
+      "entry_type": "App::FeaturePython"
+    },
+    {
+      "room": "Sala — banco e almofadas",
+      "entry": "ControleBancoR003",
+      "original": "ControleBancoR003",
+      "entry_label": "4 - Folha/aspirador/jogos",
+      "entry_type": "App::FeaturePython"
+    }
+  ],
+  "catalog": [
+    {
+      "control": "ControlePortaR10",
+      "label": "Gabinete da pia - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha004",
+        "Peca281",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha004",
+          "path": "Abertura",
+          "expression": "ControlePortaR10.Abertura"
+        },
+        {
+          "object": "Folha004",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR10.CursoEstudo"
+        },
+        {
+          "object": "Peca281",
+          "path": "Length",
+          "expression": "Dimensoes004.Comprimento / 2 - ControlePortaR10.JuntaCentralProposta / 2 - ControlePortaR10.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR001",
+      "label": "Gabinete da pia - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha005",
+        "Peca282",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha005",
+          "path": "Abertura",
+          "expression": "ControlePortaR001.Abertura"
+        },
+        {
+          "object": "Folha005",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR001.CursoEstudo"
+        },
+        {
+          "object": "Peca282",
+          "path": "Length",
+          "expression": "Dimensoes004.Comprimento / 2 - ControlePortaR001.JuntaCentralProposta / 2 - ControlePortaR001.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR002",
+      "label": "D · acima do depurador - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha006",
+        "Peca322",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha006",
+          "path": "Abertura",
+          "expression": "ControlePortaR002.Abertura"
+        },
+        {
+          "object": "Folha006",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR002.CursoEstudo"
+        },
+        {
+          "object": "Peca322",
+          "path": "Length",
+          "expression": "Dimensoes008.Comprimento / 2 - ControlePortaR002.JuntaCentralProposta / 2 - ControlePortaR002.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR003",
+      "label": "D · acima do depurador - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha007",
+        "Peca323",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha007",
+          "path": "Abertura",
+          "expression": "ControlePortaR003.Abertura"
+        },
+        {
+          "object": "Folha007",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR003.CursoEstudo"
+        },
+        {
+          "object": "Peca323",
+          "path": "Length",
+          "expression": "Dimensoes008.Comprimento / 2 - ControlePortaR003.JuntaCentralProposta / 2 - ControlePortaR003.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR004",
+      "label": "C · uso diário - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha008",
+        "Peca332",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha008",
+          "path": "Abertura",
+          "expression": "ControlePortaR004.Abertura"
+        },
+        {
+          "object": "Folha008",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR004.CursoEstudo"
+        },
+        {
+          "object": "Peca332",
+          "path": "Length",
+          "expression": "Dimensoes009.Comprimento / 2 - ControlePortaR004.JuntaCentralProposta / 2 - ControlePortaR004.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR005",
+      "label": "C · uso diário - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha009",
+        "Peca333",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha009",
+          "path": "Abertura",
+          "expression": "ControlePortaR005.Abertura"
+        },
+        {
+          "object": "Folha009",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR005.CursoEstudo"
+        },
+        {
+          "object": "Peca333",
+          "path": "Length",
+          "expression": "Dimensoes009.Comprimento / 2 - ControlePortaR005.JuntaCentralProposta / 2 - ControlePortaR005.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR006",
+      "label": "B · acima do micro - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha010",
+        "Peca340",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha010",
+          "path": "Abertura",
+          "expression": "ControlePortaR006.Abertura"
+        },
+        {
+          "object": "Folha010",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR006.CursoEstudo"
+        },
+        {
+          "object": "Peca340",
+          "path": "Length",
+          "expression": "Dimensoes010.Comprimento / 2 - ControlePortaR006.JuntaCentralProposta / 2 - ControlePortaR006.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR007",
+      "label": "B · acima do micro - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha011",
+        "Peca341",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha011",
+          "path": "Abertura",
+          "expression": "ControlePortaR007.Abertura"
+        },
+        {
+          "object": "Folha011",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR007.CursoEstudo"
+        },
+        {
+          "object": "Peca341",
+          "path": "Length",
+          "expression": "Dimensoes010.Comprimento / 2 - ControlePortaR007.JuntaCentralProposta / 2 - ControlePortaR007.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR008",
+      "label": "A · acima da geladeira - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha012",
+        "Peca348",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha012",
+          "path": "Abertura",
+          "expression": "ControlePortaR008.Abertura"
+        },
+        {
+          "object": "Folha012",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR008.CursoEstudo"
+        },
+        {
+          "object": "Peca348",
+          "path": "Length",
+          "expression": "Dimensoes011.Comprimento / 2 - ControlePortaR008.JuntaCentralProposta / 2 - ControlePortaR008.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR009",
+      "label": "A · acima da geladeira - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR002",
+        "Folha013",
+        "Peca349",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha013",
+          "path": "Abertura",
+          "expression": "ControlePortaR009.Abertura"
+        },
+        {
+          "object": "Folha013",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR009.CursoEstudo"
+        },
+        {
+          "object": "Peca349",
+          "path": "Length",
+          "expression": "Dimensoes011.Comprimento / 2 - ControlePortaR009.JuntaCentralProposta / 2 - ControlePortaR009.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR010",
+      "label": "Aéreo da lavanderia - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR003",
+        "Folha014",
+        "Peca364",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha014",
+          "path": "Abertura",
+          "expression": "ControlePortaR010.Abertura"
+        },
+        {
+          "object": "Folha014",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR010.CursoEstudo"
+        },
+        {
+          "object": "Peca364",
+          "path": "Length",
+          "expression": "Dimensoes014.Comprimento / 2 - ControlePortaR010.JuntaCentralProposta / 2 - ControlePortaR010.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR011",
+      "label": "Aéreo da lavanderia - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR003",
+        "Folha015",
+        "Peca365",
+        "CinematicaComumR10"
+      ],
+      "bindings": [
+        {
+          "object": "Folha015",
+          "path": "Abertura",
+          "expression": "ControlePortaR011.Abertura"
+        },
+        {
+          "object": "Folha015",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR011.CursoEstudo"
+        },
+        {
+          "object": "Peca365",
+          "path": "Length",
+          "expression": "Dimensoes014.Comprimento / 2 - ControlePortaR011.JuntaCentralProposta / 2 - ControlePortaR011.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR12",
+      "label": "Gabinete do banheiro - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR004",
+        "CinematicaComumR12",
+        "FolhaBanheiroR12",
+        "PainelBanheiroR12"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaBanheiroR12",
+          "path": "Abertura",
+          "expression": "ControlePortaR12.Abertura"
+        },
+        {
+          "object": "FolhaBanheiroR12",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR12.CursoEstudo"
+        },
+        {
+          "object": "PainelBanheiroR12",
+          "path": "Length",
+          "expression": "Dimensoes017.Comprimento / 2 - ControlePortaR12.JuntaCentralProposta / 2 - ControlePortaR12.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR018",
+      "label": "Gabinete do banheiro - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR004",
+        "CinematicaComumR12",
+        "FolhaBanheiroR001",
+        "PainelBanheiroR001"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaBanheiroR001",
+          "path": "Abertura",
+          "expression": "ControlePortaR018.Abertura"
+        },
+        {
+          "object": "FolhaBanheiroR001",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR018.CursoEstudo"
+        },
+        {
+          "object": "PainelBanheiroR001",
+          "path": "Length",
+          "expression": "Dimensoes017.Comprimento / 2 - ControlePortaR018.JuntaCentralProposta / 2 - ControlePortaR018.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR019",
+      "label": "Armário espelhado raso - porta direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR004",
+        "CinematicaComumR12",
+        "FolhaBanheiroR002",
+        "PainelBanheiroR002"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaBanheiroR002",
+          "path": "Abertura",
+          "expression": "ControlePortaR019.Abertura"
+        },
+        {
+          "object": "FolhaBanheiroR002",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR019.CursoEstudo"
+        },
+        {
+          "object": "PainelBanheiroR002",
+          "path": "Length",
+          "expression": "Dimensoes018.Comprimento / 2 - ControlePortaR019.JuntaCentralProposta / 2 - ControlePortaR019.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR020",
+      "label": "Armário espelhado raso - porta esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR004",
+        "CinematicaComumR12",
+        "FolhaBanheiroR003",
+        "PainelBanheiroR003"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaBanheiroR003",
+          "path": "Abertura",
+          "expression": "ControlePortaR020.Abertura"
+        },
+        {
+          "object": "FolhaBanheiroR003",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR020.CursoEstudo"
+        },
+        {
+          "object": "PainelBanheiroR003",
+          "path": "Length",
+          "expression": "Dimensoes018.Comprimento / 2 - ControlePortaR020.JuntaCentralProposta / 2 - ControlePortaR020.JuntaExternaProposta"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR11",
+      "label": "Escritório porta 4 - abrir para direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR001",
+        "CinematicaComumR11",
+        "FolhaEscritorioR11"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaEscritorioR11",
+          "path": "Abertura",
+          "expression": "ControlePortaR11.Abertura"
+        },
+        {
+          "object": "FolhaEscritorioR11",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR11.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR012",
+      "label": "Escritório porta 3 - abrir para esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR001",
+        "CinematicaComumR11",
+        "FolhaEscritorioR001"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaEscritorioR001",
+          "path": "Abertura",
+          "expression": "ControlePortaR012.Abertura"
+        },
+        {
+          "object": "FolhaEscritorioR001",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR012.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR013",
+      "label": "Escritório porta 2 - abrir para direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR001",
+        "CinematicaComumR11",
+        "FolhaEscritorioR002"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaEscritorioR002",
+          "path": "Abertura",
+          "expression": "ControlePortaR013.Abertura"
+        },
+        {
+          "object": "FolhaEscritorioR002",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR013.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR014",
+      "label": "Escritório porta 1 - abrir para esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR001",
+        "CinematicaComumR11",
+        "FolhaEscritorioR003"
+      ],
+      "bindings": [
+        {
+          "object": "FolhaEscritorioR003",
+          "path": "Abertura",
+          "expression": "ControlePortaR014.Abertura"
+        },
+        {
+          "object": "FolhaEscritorioR003",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR014.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR015",
+      "label": "Cabeceira porta 4 - abrir para direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "Folha",
+        "CinematicaComumR11"
+      ],
+      "bindings": [
+        {
+          "object": "Folha",
+          "path": "Abertura",
+          "expression": "ControlePortaR015.Abertura"
+        },
+        {
+          "object": "Folha",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR015.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR016",
+      "label": "Cabeceira porta 3 - abrir para esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "Folha001",
+        "CinematicaComumR11"
+      ],
+      "bindings": [
+        {
+          "object": "Folha001",
+          "path": "Abertura",
+          "expression": "ControlePortaR016.Abertura"
+        },
+        {
+          "object": "Folha001",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR016.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControlePortaR017",
+      "label": "Cabeceira porta 2 - abrir para direita",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "Folha002",
+        "CinematicaComumR11"
+      ],
+      "bindings": [
+        {
+          "object": "Folha002",
+          "path": "Abertura",
+          "expression": "ControlePortaR017.Abertura"
+        },
+        {
+          "object": "Folha002",
+          "path": "CursoEstudo",
+          "expression": "ControlePortaR017.CursoEstudo"
+        }
+      ]
+    },
+    {
+      "control": "ControleVizinhaR18",
+      "label": "Cabeceira porta 1 - abrir para esquerda",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "CinematicaComumR18",
+        "VizinhaComumR18"
+      ],
+      "bindings": [
+        {
+          "object": "VizinhaComumR18",
+          "path": "Abertura",
+          "expression": "ControleVizinhaR18.Abertura"
+        }
+      ]
+    },
+    {
+      "control": "ControleSimplesR04",
+      "label": "R04 - abertura independente das duas portas",
+      "fields": [
+        {
+          "field": "B2",
+          "value": "=0 deg",
+          "editor_mode": "spreadsheet cell"
+        },
+        {
+          "field": "B3",
+          "value": "=0 deg",
+          "editor_mode": "spreadsheet cell"
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "PortaIndependenteR04",
+        "FerragemSimplesR002",
+        "FerragemSimplesR003",
+        "FerragemSimplesR004",
+        "FerragemSimplesR008",
+        "FerragemSimplesR009",
+        "FerragemSimplesR010",
+        "PortaIndependenteR001",
+        "FerragemSimplesR014",
+        "FerragemSimplesR015",
+        "FerragemSimplesR016",
+        "FerragemSimplesR020",
+        "FerragemSimplesR021",
+        "FerragemSimplesR022"
+      ],
+      "bindings": [
+        {
+          "object": "PortaIndependenteR04",
+          "path": ".Placement.Base.x",
+          "expression": "(632 + ControleSimplesR04.AT4x - 632 * cos(-ControleSimplesR04.ATheta) + -593.5 * sin(-ControleSimplesR04.ATheta)) * 1 mm"
+        },
+        {
+          "object": "PortaIndependenteR04",
+          "path": ".Placement.Base.y",
+          "expression": "(-593.5 + -ControleSimplesR04.AT4z - 632 * sin(-ControleSimplesR04.ATheta) - -593.5 * cos(-ControleSimplesR04.ATheta)) * 1 mm"
+        },
+        {
+          "object": "PortaIndependenteR04",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta"
+        },
+        {
+          "object": "FerragemSimplesR002",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT2x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR002",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT2z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR002",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta2"
+        },
+        {
+          "object": "FerragemSimplesR003",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT3x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR003",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT3z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR003",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta3"
+        },
+        {
+          "object": "FerragemSimplesR004",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT4x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR004",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT4z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR004",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta"
+        },
+        {
+          "object": "FerragemSimplesR008",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT2x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR008",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT2z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR008",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta2"
+        },
+        {
+          "object": "FerragemSimplesR009",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT3x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR009",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT3z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR009",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta3"
+        },
+        {
+          "object": "FerragemSimplesR010",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.AT4x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR010",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.AT4z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR010",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleSimplesR04.ATheta"
+        },
+        {
+          "object": "PortaIndependenteR001",
+          "path": ".Placement.Base.x",
+          "expression": "(193.5 + ControleSimplesR04.BT4z - 193.5 * cos(ControleSimplesR04.BTheta) + -1032 * sin(ControleSimplesR04.BTheta)) * 1 mm"
+        },
+        {
+          "object": "PortaIndependenteR001",
+          "path": ".Placement.Base.y",
+          "expression": "(-1032 + -ControleSimplesR04.BT4x - 193.5 * sin(ControleSimplesR04.BTheta) - -1032 * cos(ControleSimplesR04.BTheta)) * 1 mm"
+        },
+        {
+          "object": "PortaIndependenteR001",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta"
+        },
+        {
+          "object": "FerragemSimplesR014",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT2z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR014",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT2x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR014",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta2"
+        },
+        {
+          "object": "FerragemSimplesR015",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT3z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR015",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT3x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR015",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta3"
+        },
+        {
+          "object": "FerragemSimplesR016",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT4z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR016",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT4x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR016",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta"
+        },
+        {
+          "object": "FerragemSimplesR020",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT2z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR020",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT2x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR020",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta2"
+        },
+        {
+          "object": "FerragemSimplesR021",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT3z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR021",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT3x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR021",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta3"
+        },
+        {
+          "object": "FerragemSimplesR022",
+          "path": ".Placement.Base.x",
+          "expression": "ControleSimplesR04.BT4z * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR022",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleSimplesR04.BT4x * 1 mm"
+        },
+        {
+          "object": "FerragemSimplesR022",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleSimplesR04.BTheta"
+        }
+      ]
+    },
+    {
+      "control": "ControleCorrerR14",
+      "label": "Roupeiro — porta direita — deslizar para esquerda",
+      "fields": [
+        {
+          "field": "Deslocamento",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "PortaCorrer"
+      ],
+      "bindings": [
+        {
+          "object": "PortaCorrer",
+          "path": "Deslocamento",
+          "expression": "ControleCorrerR14.Deslocamento"
+        }
+      ]
+    },
+    {
+      "control": "ControleCorrerR001",
+      "label": "Roupeiro — porta esquerda — deslizar para direita",
+      "fields": [
+        {
+          "field": "Deslocamento",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "PortaCorrer001"
+      ],
+      "bindings": [
+        {
+          "object": "PortaCorrer001",
+          "path": "Deslocamento",
+          "expression": "ControleCorrerR001.Deslocamento"
+        }
+      ]
+    },
+    {
+      "control": "ControleCorrerR002",
+      "label": "Maleiro — porta direita — deslizar para esquerda",
+      "fields": [
+        {
+          "field": "Deslocamento",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "PortaMaleiroR14"
+      ],
+      "bindings": [
+        {
+          "object": "PortaMaleiroR14",
+          "path": "Deslocamento",
+          "expression": "ControleCorrerR002.Deslocamento"
+        }
+      ]
+    },
+    {
+      "control": "ControleCorrerR003",
+      "label": "Maleiro — porta esquerda — deslizar para direita",
+      "fields": [
+        {
+          "field": "Deslocamento",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR21",
+        "PortaMaleiroR001"
+      ],
+      "bindings": [
+        {
+          "object": "PortaMaleiroR001",
+          "path": "Deslocamento",
+          "expression": "ControleCorrerR003.Deslocamento"
+        }
+      ]
+    },
+    {
+      "control": "Gaveta",
+      "label": "Gaveta de roupa",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "62 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo",
+        "AcessoControleR21"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta001",
+      "label": "Gaveta de roupa001",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "62 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo",
+        "AcessoControleR001"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta002",
+      "label": "Gaveta de roupa002",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "62 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo",
+        "AcessoControleR002"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta003",
+      "label": "Gaveta de roupa003",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "62 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo",
+        "AcessoControleR003"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta004",
+      "label": "G3 · mantimentos",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo005",
+        "AcessoControleR004"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta005",
+      "label": "G2 · utensílios",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo005",
+        "AcessoControleR005"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta006",
+      "label": "G1 · talheres",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo005",
+        "AcessoControleR006"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta007",
+      "label": "Gaveta baixa — rodas de silicone / cabos fixos",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo007",
+        "AcessoControleR007"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta008",
+      "label": "Gaveta escritório 1",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo015",
+        "AcessoControleR008"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "Gaveta009",
+      "label": "Gaveta escritório 2",
+      "fields": [
+        {
+          "field": "Extensao",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parents": [
+        "Modulo015",
+        "AcessoControleR009"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "ControleCestoR15",
+      "label": "Cesto R15 - Abertura55 e RetiradaSaco",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        },
+        {
+          "field": "RetiradaSaco",
+          "value": "0.0 mm",
+          "editor_mode": []
+        },
+        {
+          "field": "EndireitarSaco",
+          "value": "0.0 deg",
+          "editor_mode": []
+        },
+        {
+          "field": "RetiradaPainelSuperior",
+          "value": "0.0 mm",
+          "editor_mode": []
+        },
+        {
+          "field": "RetiradaConjunto",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "Modulo013",
+        "AcessoControleR010",
+        "PecaCestoR002",
+        "BasculanteCestoR15",
+        "SacoRemovivelR15"
+      ],
+      "bindings": [
+        {
+          "object": "PecaCestoR002",
+          "path": ".Placement.Base.y",
+          "expression": "-ControleCestoR15.RetiradaPainelSuperior"
+        },
+        {
+          "object": "BasculanteCestoR15",
+          "path": ".Placement.Base.y",
+          "expression": "70 mm - ControleCestoR15.RetiradaConjunto"
+        },
+        {
+          "object": "BasculanteCestoR15",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "ControleCestoR15.Abertura"
+        },
+        {
+          "object": "SacoRemovivelR15",
+          "path": ".Placement.Base.z",
+          "expression": "25 mm + ControleCestoR15.RetiradaSaco"
+        },
+        {
+          "object": "SacoRemovivelR15",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleCestoR15.EndireitarSaco"
+        }
+      ]
+    },
+    {
+      "control": "PortaEntradaBanheiroR12",
+      "label": "Entrada banheiro - folha700 de referência, NÃO medida",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "90.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [
+        [
+          ".Placement.Rotation.Angle",
+          "90 deg - min(90 deg; max(0 deg; Abertura))"
+        ]
+      ],
+      "parents": [
+        "EspelhoPecaR180",
+        "ControlesAmbienteR004"
+      ],
+      "bindings": []
+    },
+    {
+      "control": "ControleBancoR16",
+      "label": "1 - Potes/travessas/batedeira",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR005",
+        "TampaBancoR16"
+      ],
+      "bindings": [
+        {
+          "object": "TampaBancoR16",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleBancoR16.Abertura"
+        }
+      ]
+    },
+    {
+      "control": "ControleBancoR001",
+      "label": "2 - Liquidificador e bebidas",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        },
+        {
+          "field": "ElevarAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        },
+        {
+          "field": "DeslocamentoAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR005",
+        "TampaBancoR001",
+        "PecaBancoR011"
+      ],
+      "bindings": [
+        {
+          "object": "TampaBancoR001",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleBancoR001.Abertura"
+        },
+        {
+          "object": "PecaBancoR011",
+          "path": ".Placement.Base.x",
+          "expression": "1043 mm - ControleBancoR001.DeslocamentoAlmofada"
+        },
+        {
+          "object": "PecaBancoR011",
+          "path": ".Placement.Base.z",
+          "expression": "420 mm + ControleBancoR001.ElevarAlmofada"
+        }
+      ]
+    },
+    {
+      "control": "ControleBancoR002",
+      "label": "3 - Balde",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        },
+        {
+          "field": "ElevarAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        },
+        {
+          "field": "DeslocamentoAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR005",
+        "TampaBancoR002",
+        "PecaBancoR013"
+      ],
+      "bindings": [
+        {
+          "object": "TampaBancoR002",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleBancoR002.Abertura"
+        },
+        {
+          "object": "PecaBancoR013",
+          "path": ".Placement.Base.x",
+          "expression": "827 mm - ControleBancoR002.DeslocamentoAlmofada"
+        },
+        {
+          "object": "PecaBancoR013",
+          "path": ".Placement.Base.z",
+          "expression": "420 mm + ControleBancoR002.ElevarAlmofada"
+        }
+      ]
+    },
+    {
+      "control": "ControleBancoR003",
+      "label": "4 - Folha/aspirador/jogos",
+      "fields": [
+        {
+          "field": "Abertura",
+          "value": "0.0 deg",
+          "editor_mode": []
+        },
+        {
+          "field": "ElevarAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        },
+        {
+          "field": "DeslocamentoAlmofada",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR005",
+        "TampaBancoR003",
+        "PecaBancoR015"
+      ],
+      "bindings": [
+        {
+          "object": "TampaBancoR003",
+          "path": ".Placement.Rotation.Angle",
+          "expression": "-ControleBancoR003.Abertura"
+        },
+        {
+          "object": "PecaBancoR015",
+          "path": ".Placement.Base.x",
+          "expression": "ControleBancoR003.DeslocamentoAlmofada"
+        },
+        {
+          "object": "PecaBancoR015",
+          "path": ".Placement.Base.z",
+          "expression": "420 mm + ControleBancoR003.ElevarAlmofada"
+        }
+      ]
+    },
+    {
+      "control": "ControleLoopManutencaoR26",
+      "label": "Loop 20 L — afastamento temporário para manutenção (proposta)",
+      "fields": [
+        {
+          "field": "Afastamento",
+          "value": "0.0 mm",
+          "editor_mode": []
+        }
+      ],
+      "expressions": [],
+      "parents": [
+        "ControlesAmbienteR003",
+        "Peca147",
+        "Peca148",
+        "Peca149"
+      ],
+      "bindings": [
+        {
+          "object": "Peca147",
+          "path": ".Placement.Base.x",
+          "expression": "2570 mm + ControleLoopManutencaoR26.Afastamento"
+        },
+        {
+          "object": "Peca148",
+          "path": ".Placement.Base.x",
+          "expression": "2570 mm + ControleLoopManutencaoR26.Afastamento"
+        },
+        {
+          "object": "Peca149",
+          "path": ".Placement.Base.x",
+          "expression": "2670 mm + ControleLoopManutencaoR26.Afastamento"
+        }
+      ]
+    }
+  ],
+  "bank": {
+    "module": "Modulo019",
+    "placement_matrix": [
+      -2.220446049250313e-16,
+      1.0,
+      0.0,
+      6850.0,
+      -1.0,
+      -2.220446049250313e-16,
+      0.0,
+      5550.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "longitudinal_world_axis": [
+      -2.220446049250313e-16,
+      -1.0,
+      0.0
+    ],
+    "lids": [
+      {
+        "sector": 1,
+        "control": "ControleBancoR16",
+        "driver": "TampaBancoR16",
+        "driver_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "driver_expressions": [
+          [
+            ".Placement.Rotation.Angle",
+            "-ControleBancoR16.Abertura"
+          ]
+        ],
+        "lid": "PecaBancoR008",
+        "lid_bbox": [
+          6850.0,
+          3751.0,
+          400.0,
+          7298.0,
+          4138.0,
+          420.0
+        ],
+        "cushion": "PecaBancoR009",
+        "cushion_bbox": [
+          6850.0,
+          3750.0,
+          420.0,
+          7300.0,
+          4139.0,
+          470.0
+        ],
+        "cushion_placement_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          -448.0,
+          0.0,
+          0.0,
+          1.0,
+          -50.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "cushion_expressions": [],
+        "pad_length_mm": 389.0,
+        "separate": false
+      },
+      {
+        "sector": 2,
+        "control": "ControleBancoR001",
+        "driver": "TampaBancoR001",
+        "driver_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "driver_expressions": [
+          [
+            ".Placement.Rotation.Angle",
+            "-ControleBancoR001.Abertura"
+          ]
+        ],
+        "lid": "PecaBancoR010",
+        "lid_bbox": [
+          6850.0,
+          4140.0,
+          400.0,
+          7298.0,
+          4506.0,
+          420.0
+        ],
+        "cushion": "PecaBancoR011",
+        "cushion_bbox": [
+          6850.0,
+          4139.0,
+          420.0,
+          7300.0,
+          4507.0,
+          470.0
+        ],
+        "cushion_placement_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1043.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          420.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "cushion_expressions": [
+          [
+            ".Placement.Base.x",
+            "1043 mm - ControleBancoR001.DeslocamentoAlmofada"
+          ],
+          [
+            ".Placement.Base.z",
+            "420 mm + ControleBancoR001.ElevarAlmofada"
+          ]
+        ],
+        "pad_length_mm": 368.0,
+        "separate": true
+      },
+      {
+        "sector": 3,
+        "control": "ControleBancoR002",
+        "driver": "TampaBancoR002",
+        "driver_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "driver_expressions": [
+          [
+            ".Placement.Rotation.Angle",
+            "-ControleBancoR002.Abertura"
+          ]
+        ],
+        "lid": "PecaBancoR012",
+        "lid_bbox": [
+          6850.0,
+          4508.0,
+          400.0,
+          7298.0,
+          4722.0,
+          420.0
+        ],
+        "cushion": "PecaBancoR013",
+        "cushion_bbox": [
+          6850.0,
+          4507.0,
+          420.0,
+          7300.0,
+          4723.0,
+          470.0
+        ],
+        "cushion_placement_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          827.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          420.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "cushion_expressions": [
+          [
+            ".Placement.Base.x",
+            "827 mm - ControleBancoR002.DeslocamentoAlmofada"
+          ],
+          [
+            ".Placement.Base.z",
+            "420 mm + ControleBancoR002.ElevarAlmofada"
+          ]
+        ],
+        "pad_length_mm": 216.0,
+        "separate": true
+      },
+      {
+        "sector": 4,
+        "control": "ControleBancoR003",
+        "driver": "TampaBancoR003",
+        "driver_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "driver_expressions": [
+          [
+            ".Placement.Rotation.Angle",
+            "-ControleBancoR003.Abertura"
+          ]
+        ],
+        "lid": "PecaBancoR014",
+        "lid_bbox": [
+          6850.0,
+          4724.0,
+          400.0,
+          7298.0,
+          5549.0,
+          420.0
+        ],
+        "cushion": "PecaBancoR015",
+        "cushion_bbox": [
+          6850.0,
+          4723.0,
+          420.0,
+          7300.0,
+          5550.0,
+          470.0
+        ],
+        "cushion_placement_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          420.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "cushion_expressions": [
+          [
+            ".Placement.Base.x",
+            "ControleBancoR003.DeslocamentoAlmofada"
+          ],
+          [
+            ".Placement.Base.z",
+            "420 mm + ControleBancoR003.ElevarAlmofada"
+          ]
+        ],
+        "pad_length_mm": 827.0,
+        "separate": true
+      }
+    ],
+    "content": [
+      {
+        "object": "PecaBancoR016",
+        "bbox": [
+          7058.0,
+          3778.0,
+          313.0,
+          7248.0,
+          3923.0,
+          360.0
+        ]
+      },
+      {
+        "object": "PecaBancoR017",
+        "bbox": [
+          7058.0,
+          3778.0,
+          264.0,
+          7248.0,
+          3923.0,
+          311.0
+        ]
+      },
+      {
+        "object": "PecaBancoR018",
+        "bbox": [
+          7058.0,
+          3933.0,
+          313.0,
+          7248.0,
+          4078.0,
+          360.0
+        ]
+      },
+      {
+        "object": "PecaBancoR019",
+        "bbox": [
+          7058.0,
+          3933.0,
+          264.0,
+          7248.0,
+          4078.0,
+          311.0
+        ]
+      },
+      {
+        "object": "PecaBancoR020",
+        "bbox": [
+          6893.0,
+          3854.0,
+          313.0,
+          7038.0,
+          4044.0,
+          360.0
+        ]
+      },
+      {
+        "object": "PecaBancoR021",
+        "bbox": [
+          6893.0,
+          3854.0,
+          264.0,
+          7038.0,
+          4044.0,
+          311.0
+        ]
+      },
+      {
+        "object": "PecaBancoR022",
+        "bbox": [
+          6878.0,
+          3779.0,
+          83.0,
+          7098.0,
+          4119.0,
+          183.0
+        ]
+      },
+      {
+        "object": "PecaBancoR023",
+        "bbox": [
+          7108.0,
+          3799.0,
+          83.0,
+          7248.0,
+          4099.0,
+          203.0
+        ]
+      },
+      {
+        "object": "PecaBancoR024",
+        "bbox": [
+          7068.0,
+          4158.0,
+          103.0,
+          7248.0,
+          4338.0,
+          303.0
+        ]
+      },
+      {
+        "object": "PecaBancoR025",
+        "bbox": [
+          6878.0,
+          4158.0,
+          103.0,
+          7058.0,
+          4338.0,
+          343.0
+        ]
+      },
+      {
+        "object": "PecaBancoR026",
+        "bbox": [
+          6898.9,
+          4353.0,
+          103.0,
+          7064.0,
+          4483.175,
+          350.65
+        ]
+      },
+      {
+        "object": "PecaBancoR027",
+        "bbox": [
+          7074.0,
+          4360.5,
+          103.0,
+          7234.0,
+          4475.5,
+          333.0
+        ]
+      },
+      {
+        "object": "PecaBancoR028",
+        "bbox": [
+          6905.0,
+          4535.0,
+          103.0,
+          7235.0,
+          4695.0,
+          353.0
+        ]
+      },
+      {
+        "object": "PecaBancoR036",
+        "bbox": [
+          6890.0,
+          4742.0,
+          110.0,
+          7240.0,
+          5113.0,
+          274.0
+        ]
+      },
+      {
+        "object": "PecaBancoR037",
+        "bbox": [
+          6890.0,
+          5151.0,
+          110.0,
+          7240.0,
+          5522.0,
+          274.0
+        ]
+      },
+      {
+        "object": "PecaBancoR029",
+        "bbox": [
+          7053.0,
+          3771.0,
+          244.0,
+          7255.0,
+          4127.0,
+          262.0
+        ]
+      },
+      {
+        "object": "PecaBancoR030",
+        "bbox": [
+          6871.0,
+          3771.0,
+          244.0,
+          7048.0,
+          4127.0,
+          262.0
+        ]
+      },
+      {
+        "object": "PecaBancoR035",
+        "bbox": [
+          6890.0,
+          4732.0,
+          330.0,
+          7240.0,
+          5532.0,
+          400.0
+        ]
+      }
+    ],
+    "leaf": "PecaBancoR035"
+  },
+  "sofa": [
+    {
+      "object": "Peca122",
+      "bbox": [
+        2569.999999999999,
+        1519.9999999999998,
+        80.0,
+        3469.9999999999995,
+        2920.0,
+        360.0
+      ]
+    },
+    {
+      "object": "Peca123",
+      "bbox": [
+        2759.999999999999,
+        1559.9999999999998,
+        360.0,
+        3439.9999999999995,
+        2880.0,
+        470.0
+      ]
+    },
+    {
+      "object": "Peca124",
+      "bbox": [
+        2569.999999999999,
+        1540.0000000000005,
+        350.0,
+        2759.9999999999995,
+        2900.0000000000005,
+        820.0
+      ]
+    },
+    {
+      "object": "Peca125",
+      "bbox": [
+        2749.9999999999995,
+        1519.9999999999998,
+        350.0,
+        3459.9999999999995,
+        1660.0,
+        610.0
+      ]
+    },
+    {
+      "object": "Peca126",
+      "bbox": [
+        2750.0,
+        2780.0,
+        350.0,
+        3460.0,
+        2920.0,
+        610.0
+      ]
+    }
+  ],
+  "method": "Read only, no recompute, save, movement, boolean or reopening.",
+  "control_instructions": {
+    "ControleCestoR15": "Uso diário: abrir55, retirar saco445, endireitar55. Manutenção: no lugar habitual a armação bate na Loop20L em300/400; proposta R26 afastar a lixeira650 usando ControleLoopManutencaoR26 antes de retirar. Endereço/percurso geométricos conferidos, manuseio/peso/pega/piso/ferragem/retenção reais pendentes. Voltar armação/painel e fechar cesto antes de devolver lixeira0. Controles independentes sem intertravamento físico ou de software.",
+    "ControleLoopManutencaoR26": "Antes de abrir para manutenção: lixeira vazia/fechada, afastar650 mm lateralmente para o centro da cozinha no CAD espelhado. Só então saco fora e conjunto sustentado/retenções reais liberadas; painel200 e armação0–400 são estudos. Repor armação/painel, fechar cesto e devolver lixeira0 antes do uso diário. Sem intertravamento, manuseio/pega/peso/piso/ferragens físicos não validados.",
+    "ControleBancoR16": "Giro ideal do assento integral70; massa/retenção/pega reais pendentes. Não abrir a folha com almofadas estacionadas neste setor.",
+    "ControleBancoR001": "Banco desocupado: elevar60, deslocar711, baixar elevação para50; abrir90. Guardar em ordem inversa. Ponta acima da folha ocupada pela almofada: não acessar folha ao mesmo tempo.",
+    "ControleBancoR002": "Banco desocupado: elevar60, deslocar733, baixar elevação para50; abrir90. Guardar em ordem inversa. Ponta acima da folha ocupada pela almofada: não acessar folha ao mesmo tempo.",
+    "ControleBancoR003": "PROPOSTA NOVA: elevar60, deslocar873 rumo ao sofá, baixar elevação50; almofada sobre os três setores fechados. Abrir tampa90; recuar folha24 e levantar. Não acessar outros setores enquanto a almofada ocupa seus assentos. Devolver em ordem inversa."
+  },
+  "sha256_after": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99"
+}

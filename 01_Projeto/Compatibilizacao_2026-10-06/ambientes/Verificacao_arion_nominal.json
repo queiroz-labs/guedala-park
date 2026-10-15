@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "limitations": "Arion base, outlet, handle and hole unknown. No installation or fabrication approval.",
+  "count": 3,
+  "checks": [
+    {
+      "formula": "(600 - 400) / 2",
+      "actual": 100,
+      "expected": 100,
+      "unit": "mm",
+      "scope": "nominal lateral reserve each side",
+      "pass": true
+    },
+    {
+      "formula": "100 + 300 + 50",
+      "actual": 450,
+      "expected": 450,
+      "unit": "mm",
+      "scope": "nominal countertop depth budget",
+      "pass": true
+    },
+    {
+      "formula": "600 / 2",
+      "actual": 300,
+      "expected": 300,
+      "unit": "mm",
+      "scope": "nominal common transverse axis",
+      "pass": true
+    }
+  ]
+}

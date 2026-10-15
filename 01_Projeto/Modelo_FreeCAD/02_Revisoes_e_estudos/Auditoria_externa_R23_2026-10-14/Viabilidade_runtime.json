@@ -1,0 +1,39 @@
+{
+  "started": 1791987057.9145298,
+  "scope": "Isolated console runtime feasibility only; no GUI/document save",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "gui_up": false,
+  "probe_common_volume_mm3": 0.9999999999999998,
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Rotulos_R23_2026-10-14\\Guedala_Park_R23_Rotulos_Consistentes.FCStd",
+  "objects": 5895,
+  "sample_shape_valid": true,
+  "sample_global_matrix": [
+    0.0,
+    0.0,
+    1.0,
+    2843.5,
+    -1.0,
+    0.0,
+    0.0,
+    918.0,
+    0.0,
+    -1.0,
+    0.0,
+    2000.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "ok": true,
+  "elapsed_s": 4.828000000001339
+}

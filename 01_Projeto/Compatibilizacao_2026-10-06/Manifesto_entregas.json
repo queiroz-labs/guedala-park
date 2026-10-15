@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "path": "ambientes/Auditoria_ambientes_2026-10-06.md",
+      "bytes": 23246,
+      "sha256": "dd4b7bfd6ee93b10ad9981ea9a46c4ce10d2cd6a0571819b0c851e4a4ed287cd"
+    },
+    {
+      "path": "ambientes/conferir_arion_nominal.cjs",
+      "bytes": 854,
+      "sha256": "db30605eb0f77b7ba743c7d4dca247503c62c58846d0a04acdbda54919928a96"
+    },
+    {
+      "path": "ambientes/conferir_contas.cjs",
+      "bytes": 1929,
+      "sha256": "f53673656cb029380985fc7e740798a473c76475128ca3f9e514eb79fc213990"
+    },
+    {
+      "path": "ambientes/Contas_conferidas.json",
+      "bytes": 642,
+      "sha256": "69399c393be26488ae607f2d6a9737affaa3a88e342433e334cc133323546a17"
+    },
+    {
+      "path": "ambientes/Fontes_locais_SHA256.csv",
+      "bytes": 3377,
+      "sha256": "be583ab79c7ea79788b8ccac3a2502e222df10105df451b11b948a1150330d2d"
+    },
+    {
+      "path": "ambientes/Fontes_oficiais_2026-10-06.csv",
+      "bytes": 1246,
+      "sha256": "e03eee445cfb20ff4e24a3a253f402c6b987e02f8634014a84e6c6d7f63a886e"
+    },
+    {
+      "path": "ambientes/Verificacao_arion_nominal.json",
+      "bytes": 702,
+      "sha256": "48ea9caf74fd045bf619bb847dcf7342f3b1d9920f08306772358ad61f99494b"
+    },
+    {
+      "path": "ambientes/Verificacao_contas.json",
+      "bytes": 2927,
+      "sha256": "2aa93dd40f2aa5cf499fbbca02cab90d6460bef436921f05c3e7a073805de6a3"
+    },
+    {
+      "path": "Complemento_tecnico_2026-10-06.md",
+      "bytes": 4712,
+      "sha256": "6407056c5e3b77d0383160afc8782cacf12a6559564f4c3d38520d8f64437e0b"
+    },
+    {
+      "path": "cozinha/Apoio_diario_termica.md",
+      "bytes": 3612,
+      "sha256": "bc6f8948d535260ef708fa8273b69027e8ceee9837284c192be40165af58f67a"
+    },
+    {
+      "path": "cozinha/auditoria_G2.cjs",
+      "bytes": 1495,
+      "sha256": "a265f6f66d4fe85aa55ab7057286fc2a8b006d731ef255474a206a51c3cd3b7b"
+    },
+    {
+      "path": "cozinha/auditoria_G2.json",
+      "bytes": 2863,
+      "sha256": "2b058009171cded671a07e70c703e178e49f914fb5c8ac1ee23badcfff07730a"
+    },
+    {
+      "path": "cozinha/auditoria_G2_respostas.cjs",
+      "bytes": 2152,
+      "sha256": "5f91b0cf943dd4640255944eb736de16ff9b544d56b7d6e7a55dc71bda5952a5"
+    },
+    {
+      "path": "cozinha/auditoria_G2_respostas.json",
+      "bytes": 5068,
+      "sha256": "df00861e554efea51577f16720d60fa33665c26ad3040339d2c9231afd878788"
+    },
+    {
+      "path": "cozinha/BGRE03A_retomada_atual.md",
+      "bytes": 5207,
+      "sha256": "75b296729c3e9f94f5c24e3511dac4e5800031ecea9e6162de0f1cc4c7afecde"
+    },
+    {
+      "path": "cozinha/calcular_conferencia.cjs",
+      "bytes": 1855,
+      "sha256": "9cc633410568d0fe13cc2fe197fc35267f462c7527e49d2ab89df7c791c307d3"
+    },
+    {
+      "path": "cozinha/Complemento_G2.md",
+      "bytes": 9045,
+      "sha256": "2dfbcb41950977d567b31f30909f2a5f473296b78c1179683bc4fde3e5045f63"
+    },
+    {
+      "path": "cozinha/Complemento_G2_respostas.md",
+      "bytes": 9822,
+      "sha256": "d61144470129e85abb12ebecfdca12906e89c8da32dfdf2c0afac3d6ab4dc37f"
+    },
+    {
+      "path": "cozinha/Conclusao_G2_sem_ampliacao.md",
+      "bytes": 7485,
+      "sha256": "8949c5bcbe077e582b1b442c0dbea7970be957c98e33f018595ebc14f61dcbd7"
+    },
+    {
+      "path": "cozinha/Conferencia_cozinha_2026-10-06.md",
+      "bytes": 10568,
+      "sha256": "17c3e4314496965568645c2bb00ceca368ef3e0498cc9900bb54360acb7559cb"
+    },
+    {
+      "path": "cozinha/conferir_conjunto_800ml.cjs",
+      "bytes": 3498,
+      "sha256": "5376f861d58290b7c4554fb05115b98560b2e6ddc957c2ccdc90742377700e73"
+    },
+    {
+      "path": "cozinha/conferir_detalhe_8L.cjs",
+      "bytes": 4736,
+      "sha256": "428b19e18753aaf2ef39ac8a1d4054ccbc7f391fa2063e512adfb5f6f0a04808"
+    },
+    {
+      "path": "cozinha/conferir_potes_individuais.cjs",
+      "bytes": 3951,
+      "sha256": "4ea629667480eb639f9f60bdc144337c3e4bb89c91b0a0ac8bb4e5448875e7be"
+    },
+    {
+      "path": "cozinha/conferir_vidros_15L.cjs",
+      "bytes": 3128,
+      "sha256": "aab28577c96fb997d9bf394add561552f6786bcfa28b9370513282dc22674111"
+    },
+    {
+      "path": "cozinha/Conjunto_800ml_guardado.json",
+      "bytes": 3695,
+      "sha256": "6c3d9897cf4ef7d8ede73ec0014a84fe9a336dc2613b97406aa8d76d5016133e"
+    },
+    {
+      "path": "cozinha/Conjunto_800ml_guardado.md",
+      "bytes": 8388,
+      "sha256": "2f9a8b5b723302fe1106ea47454fbcd54f515f105fd8ffd11ff7a9f98a70fee1"
+    },
+    {
+      "path": "cozinha/Destinos_alternativos_modelo.cjs",
+      "bytes": 9667,
+      "sha256": "751f28fcb9d3dcc5494ece4bdb88c910a1dff5a418522389aaf3dd0447d34e09"
+    },
+    {
+      "path": "cozinha/Destinos_alternativos_modelo.json",
+      "bytes": 129126,
+      "sha256": "d1b859b9fc82e9d340c207da7dde2e867767fad826dfc9c69f8e738c325d83fb"
+    },
+    {
+      "path": "cozinha/Destinos_alternativos_modelo.md",
+      "bytes": 15890,
+      "sha256": "bde051a7e06d9b4e33cafa2f593e00622654c61d9f18ff3facaf660552988eb4"
+    },
+    {
+      "path": "cozinha/Detalhe_8L_resultados.json",
+      "bytes": 18056,
+      "sha256": "3b47df30827c4836a41240a62d508d3392b71f5672964d4270756a05c6dff110"
+    },
+    {
+      "path": "cozinha/Detalhe_apoios_e_separacao.json",
+      "bytes": 6816,
+      "sha256": "eed44af543e5434438cc3b2cf2d5f9604f60ac8e3117f3b951d7fa01ffaaeff0"
+    },
+    {
+      "path": "cozinha/Detalhe_apoios_e_separacao.md",
+      "bytes": 14309,
+      "sha256": "33fcdb9694240c5b8cc42c6a3c13b692585785ba4ee45e467a82b8cddf5cf615"
+    },
+    {
+      "path": "cozinha/Detalhe_conjunto_8L.md",
+      "bytes": 9104,
+      "sha256": "289f2a40823cc3829d338b4bf1d6d8fbb9c3973605fc70042fe08911c8344886"
+    },
+    {
+      "path": "cozinha/Esclarecimento_C2_e_concha.md",
+      "bytes": 3635,
+      "sha256": "a98d09c20aba5a3373ec9cab080e33961d5c79496c6fd25d95d53aeb414a8785"
+    },
+    {
+      "path": "cozinha/Esclarecimento_reservas_e_programa.md",
+      "bytes": 4250,
+      "sha256": "9493a947ad442d5a0380bd409adcbec3138c12a1a6eea3b6b67e077c61c6f513"
+    },
+    {
+      "path": "cozinha/Estudo_G2_redistribuido.md",
+      "bytes": 10317,
+      "sha256": "3accfd76e68395454300ac67d85a083acf9c1a7207fe314ab9da49502b7f02cb"
+    },
+    {
+      "path": "cozinha/evidencias_G2/25609100.jpg",
+      "bytes": 55414,
+      "sha256": "43d459a8690184671b9ffb14ccce7030669a199eee705d681699f8118b9a3004"
+    },
+    {
+      "path": "cozinha/evidencia_BGRE03A/Catalogo_publico_atual.json",
+      "bytes": 38621,
+      "sha256": "1ac85773fb889e3de8e25a2dbfa39a6b3dea4ea856758993ee5e1f4c7ac9097b"
+    },
+    {
+      "path": "cozinha/evidencia_BGRE03A/Manual_atual.pdf",
+      "bytes": 1247279,
+      "sha256": "b01abd04d1ba67a5b6d2df50d5cf8cdaf208fe0ba826e9637757c1b575039113"
+    },
+    {
+      "path": "cozinha/evidencia_BGRE03A/Prancha_oficial.jpg",
+      "bytes": 1743463,
+      "sha256": "836fd2d5b9894a9b6be456cfe8ea1805c0cd1ad63cf6f544fa9004ced1e8f773"
+    },
+    {
+      "path": "cozinha/Filtro_mixer_conjunto.md",
+      "bytes": 1907,
+      "sha256": "1f8186edd73dce1ef3ddbb636585f088aeef1b9fe88a769c0c4557c7dddbc89d"
+    },
+    {
+      "path": "cozinha/Fontes_detalhe_8L.cjs",
+      "bytes": 4596,
+      "sha256": "16587b3ce929b7830d9f2f87681ccad7af8ac33994f5b1a2b395be3f874def5c"
+    },
+    {
+      "path": "cozinha/Fontes_detalhe_8L.json",
+      "bytes": 5858,
+      "sha256": "1411266503c3a1e73ba7461a8f15484aba4616a55274ee975e2367cb648720a4"
+    },
+    {
+      "path": "cozinha/Fontes_detalhe_8L.md",
+      "bytes": 10707,
+      "sha256": "be007d9c5c85d5b5bc619796a3b897a0a3fde395ddb30dd57871377eb9896050"
+    },
+    {
+      "path": "cozinha/Fontes_potes_refeicoes_individuais.csv",
+      "bytes": 747,
+      "sha256": "c9c7b8043a615b0f08916c432ed57413a055a626b78e6583c248a491f6b80960"
+    },
+    {
+      "path": "cozinha/fontes_recipientes/alfi_gusto_tt.json",
+      "bytes": 23415,
+      "sha256": "476371b30a2ae9faad41bed113813c4c45fbf88a7c4468a71673d0eb8ee9380a"
+    },
+    {
+      "path": "cozinha/fontes_recipientes/alfi_gusto_tt_15L.html",
+      "bytes": 611740,
+      "sha256": "19192bc0a1e436a7d4612ed48d8a7dde831280f81ff454f70e2c40779044b07e"
+    },
+    {
+      "path": "cozinha/g2_redistribuido.cjs",
+      "bytes": 4278,
+      "sha256": "a305b46179daec3918d80ecb764f35fc5af411963de8d96b8a32411411c836e7"
+    },
+    {
+      "path": "cozinha/g2_redistribuido.json",
+      "bytes": 7363,
+      "sha256": "c23e8cb9c528f2230e529e8b6e12a6cec32bdddc23ba92b35ec27f97fb381b4d"
+    },
+    {
+      "path": "cozinha/Matriz_espacos_800ml_termica.json",
+      "bytes": 37182,
+      "sha256": "6910d013af6484561d1726b9dc141d103e34f15c68811f80e2c9171339143665"
+    },
+    {
+      "path": "cozinha/Matriz_espacos_800ml_termica.md",
+      "bytes": 30046,
+      "sha256": "a019ccd02eb3cf227918028a4c624171d38b5cdac2447340e26d404453a5b2de"
+    },
+    {
+      "path": "cozinha/montar_matriz_800ml.cjs",
+      "bytes": 33296,
+      "sha256": "9cf354dfb3af162444f50bcfeb6f37a9ed99fb919f0e01b6821189a6a2089003"
+    },
+    {
+      "path": "cozinha/Potes_refeicoes_individuais.md",
+      "bytes": 10923,
+      "sha256": "8de2ee1725640da8e25beeddb9ae9435d941ce254e547ca4956710f199124c0a"
+    },
+    {
+      "path": "cozinha/Referencias_800ml_guardadas.cjs",
+      "bytes": 9021,
+      "sha256": "323bae6a00fbc63dabc3dc39d06ef1a3dbfa0827fd3b8bb963a31e85b724acb8"
+    },
+    {
+      "path": "cozinha/Referencias_800ml_guardadas.csv",
+      "bytes": 3493,
+      "sha256": "b842fc841b4ba2725cb8f8b87b6add5c25b63f40773d112dea64b03513595da7"
+    },
+    {
+      "path": "cozinha/Referencias_800ml_guardadas.json",
+      "bytes": 15817,
+      "sha256": "905885131168e1ee11bc875730536385b9c1eae1e6adcfa89df0778442c404d7"
+    },
+    {
+      "path": "cozinha/Referencias_800ml_guardadas.md",
+      "bytes": 12375,
+      "sha256": "255e8107ecf90f69ec788fd42a5513cd75b7f35065bed7330e9d70fe85dfb51f"
+    },
+    {
+      "path": "cozinha/Resultados_conferencia.json",
+      "bytes": 6362,
+      "sha256": "a948fbf3f6d624a0909fdf0d772c17a19972c14568784b5b208336d7ef87a739"
+    },
+    {
+      "path": "cozinha/Resultados_potes_refeicoes_individuais.json",
+      "bytes": 10333,
+      "sha256": "6cfa2631f918b5243a2e29740f0e18a7f37861768401bb0b48c18c123179ebb6"
+    },
+    {
+      "path": "cozinha/Resultados_vidros_15L.json",
+      "bytes": 5135,
+      "sha256": "3b4fd1790c5c9a929774fbd2bb0c37179a062257f5f3fdd1810af736421896e8"
+    },
+    {
+      "path": "cozinha/Sanduicheira_1_pequeno.md",
+      "bytes": 3301,
+      "sha256": "20680ee016f4560b315c6811d929648b201b0f1f0746ff5bff397814b54b829e"
+    },
+    {
+      "path": "cozinha/Termicas_compactas_15L.md",
+      "bytes": 3241,
+      "sha256": "d877b777d6f6a1950c16eda4c5e4500f5c41d554efafadd4dbc89efa33f1ae17"
+    },
+    {
+      "path": "cozinha/Verificacao_BGRE03A.json",
+      "bytes": 1613,
+      "sha256": "cdfba85cf4511016b092de0b4c7a2a3f0808b68fbcee15a55e3f1e278305ac26"
+    },
+    {
+      "path": "cozinha/verificar_BGRE03A.cjs",
+      "bytes": 1994,
+      "sha256": "8dc97adc138121647d79ed7dadc03e2ebb3ada892d86120d87e4b5a7360be948"
+    },
+    {
+      "path": "cozinha/Vidros_e_recipientes_15L.md",
+      "bytes": 11525,
+      "sha256": "42b6edff17dfb54de35461cc6d02c02487eb930c3a16c0db77ec1c94e250ac23"
+    },
+    {
+      "path": "Estado_atual.md",
+      "bytes": 7658,
+      "sha256": "35982adaba3b481f947ac77484290e22b83e3777c12eb59b0c55a120dc3c3e71"
+    },
+    {
+      "path": "evidencias/800ml/duralex_catalogue_2026.pdf",
+      "bytes": 10377142,
+      "sha256": "eabd8e7fab0bca93d0aa0620c7d2318eaa95d60789296039bd8006e100f09327"
+    },
+    {
+      "path": "evidencias/800ml/duralex_catalogue_page.html",
+      "bytes": 399970,
+      "sha256": "9ac68d975eaca053baf1a68da5469b4eb05a9a91e35e9fc4889090af35d3fd1e"
+    },
+    {
+      "path": "evidencias/800ml/duralex_p-47.png",
+      "bytes": 1057266,
+      "sha256": "74a2e4e02ebe326fb00ac0d27d38d283f1c8df5166e129358475ab4b1ce928ce"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Compatibilizacao_2026-10-06/Estado_atual.md",
+      "bytes": 5028,
+      "sha256": "1dc47e3e26a6b91d68a4266804b8a77d91b0ee77c7cdf0744e152176abc5db42"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Compatibilizacao_2026-10-06/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 24970,
+      "sha256": "f9eb51b5b16346b0411a671a7027326b33f0c7c07d6f5b432c562931ec21976f"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Compatibilizacao_2026-10-06/README.md",
+      "bytes": 11605,
+      "sha256": "88c1af0cfba2b1b4bac939fc1b0cf87c0839fb7a00d82402427a0b9a6dda6405"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Cozinha/README.md",
+      "bytes": 26743,
+      "sha256": "82956d63917e2378a2b89ae8358469857657acdbd51d3f576beaef16107ae06d"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/README.md",
+      "bytes": 1310,
+      "sha256": "8811440e57a1b32aa297d8cd77302a95ddaeb1a096e030d1d5de09efe5324c8c"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Registro_de_decisoes.md",
+      "bytes": 428152,
+      "sha256": "44321688d45201d1f3c68c1ff5f6d9326bb3d89a122dab1fc0189a0dfda517ba"
+    },
+    {
+      "path": "evidencias/antes_800ml_guardada/01_Projeto/Resumo.md",
+      "bytes": 84301,
+      "sha256": "8ddaf2c6a515f8bdb0c8b5f1618373fa2937ad85136c1438b6f9d89030c28d1e"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Compatibilizacao_2026-10-06/cozinha/Conjunto_800ml_guardado.md",
+      "bytes": 7985,
+      "sha256": "acbacda7eac2fb0679cdcf9298802d3de1e5dab85779afdc7285e72aad4f6e75"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Compatibilizacao_2026-10-06/cozinha/Matriz_espacos_800ml_termica.md",
+      "bytes": 29643,
+      "sha256": "08fcfb7ce070855af12640ae933b026d0da79cc7ca8502388c97790634eda3a6"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Compatibilizacao_2026-10-06/Estado_atual.md",
+      "bytes": 6759,
+      "sha256": "054279f9f03d150457c6e5c51a39506c158274a10924072f884c9e6dffa15406"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Compatibilizacao_2026-10-06/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 24570,
+      "sha256": "1e0cca9b2010d6c56add95fd5d55d0cbbece8d57750463c4945d2ef2ac693e4d"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Compatibilizacao_2026-10-06/README.md",
+      "bytes": 12516,
+      "sha256": "bb74a53a6014477d5373d449c2d80b5363cb19eadbafa38c13f020e22df7c32e"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Cozinha/README.md",
+      "bytes": 27541,
+      "sha256": "fba49312b0998f9a6361824bd55a41ed5c956ab74db54b379c3902b39a07a7f7"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/README.md",
+      "bytes": 2105,
+      "sha256": "336faba649a2607af2847c4811a3f1a9a6de7ff185f27bc1db440cddfc068ad5"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Registro_de_decisoes.md",
+      "bytes": 428988,
+      "sha256": "3c7b32ea4961f6c6a9990ebbc0436ecf5303f374fc1fd4c84f9faf79c567f0c9"
+    },
+    {
+      "path": "evidencias/antes_balde8_aceito/01_Projeto/Resumo.md",
+      "bytes": 85096,
+      "sha256": "261553a20123c38db5b1b11476a79780ceada3987bd128067708ad470ef4772a"
+    },
+    {
+      "path": "evidencias/antes_continuacao/ambientes/Auditoria_ambientes_2026-10-06.md",
+      "bytes": 16671,
+      "sha256": "eb5b66048211afa0c7349e71a0300b6a89b4404c71aac8b1acf2bba3a368b637"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/cozinha/Destinos_alternativos_modelo.cjs",
+      "bytes": 9010,
+      "sha256": "739662b64520dbbed6ee17ad3d38b5f6f4a19cedb35368bf892afd678c7ff755"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/cozinha/Destinos_alternativos_modelo.json",
+      "bytes": 126006,
+      "sha256": "d48e5d48421a99c18e2abf08aac6babda6318d0b8e6a97c3545cbdedac40be00"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/cozinha/Destinos_alternativos_modelo.md",
+      "bytes": 13972,
+      "sha256": "f0bbc7e2ec251f5978439a436ce772a066a7077a53e2eba6dddd242bf0f7c653"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/Estado_atual.md",
+      "bytes": 4417,
+      "sha256": "42f107b5fe04525ead08004506d40057334dfde77b1addfd7bb5ca7c59b3adb6"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 24885,
+      "sha256": "274fc389b781e4f66e9753d51ce5129fe1be9bac2d6f634506423be4221a4b59"
+    },
+    {
+      "path": "evidencias/antes_correcao_reservas/README.md",
+      "bytes": 10994,
+      "sha256": "e18fe1c12eec81a856ca00c2d71333d65e90c223a4fcdb1e07e70b9b159502b0"
+    },
+    {
+      "path": "evidencias/antes_esclarecimento/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 15399,
+      "sha256": "36fd9bc7ad7633217360b1e74b10a7731faac92aae1d09da658f41c162e43ccc"
+    },
+    {
+      "path": "evidencias/antes_esclarecimento/README.md",
+      "bytes": 7378,
+      "sha256": "46c23206aae55f144f38b362f9098764d12b482999bbdf674c2214275f376834"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Compatibilizacao_2026-10-06/Estado_atual.md",
+      "bytes": 3951,
+      "sha256": "a9ab305df631e245580ceb0db9d8a3b2b878ffe24120e247411a6847a24ff9a4"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Compatibilizacao_2026-10-06/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 21586,
+      "sha256": "f03baf8f3c5fa6f083bf09b0c0e013a5ca494b88b93263c0ed9ed2427c21d156"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Compatibilizacao_2026-10-06/README.md",
+      "bytes": 9954,
+      "sha256": "d8b7af3de0bf37aaee6c6e60f92bfabfef1c2f620852878f4f780c0c0583b71a"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Cozinha/README.md",
+      "bytes": 26479,
+      "sha256": "82153c73486c27cd1dc2b193f6e4ee8ffbcbd975f2cf5a8681c666f6a7a869e1"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/README.md",
+      "bytes": 1310,
+      "sha256": "3b535f9d1229d2ed11e72d6ace9c6b7bc91a0900512f161ee1b484d444f18101"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Registro_de_decisoes.md",
+      "bytes": 427466,
+      "sha256": "624de2907b65739f0f34b307cd3e799995792e605982f66b5835d2d9b678dad8"
+    },
+    {
+      "path": "evidencias/antes_estudo_destinos/01_Projeto/Resumo.md",
+      "bytes": 84181,
+      "sha256": "f2be89ae9802569beb84fe17d2b44b9a88c9c99994c020a60993a9a4b3adf1bd"
+    },
+    {
+      "path": "evidencias/antes_integracao_final/01_Projeto/Compatibilizacao_2026-10-06/README.md",
+      "bytes": 9593,
+      "sha256": "b5ffd93bf1176ac26b0501179ccde63b11579d3aa123ffd2838fd77746c42286"
+    },
+    {
+      "path": "evidencias/antes_integracao_final/01_Projeto/Cozinha/README.md",
+      "bytes": 25918,
+      "sha256": "b7a3b25322a552b27330a95df6df7fbc465a04e9c9184d478c878ba6f1fea6d1"
+    },
+    {
+      "path": "evidencias/antes_integracao_final/01_Projeto/README.md",
+      "bytes": 940,
+      "sha256": "2def9dcd9c4a801c78041c4a27783b7a800dc92c221f0510e9100178a3fdc0da"
+    },
+    {
+      "path": "evidencias/antes_integracao_final/01_Projeto/Registro_de_decisoes.md",
+      "bytes": 426391,
+      "sha256": "3b7fce45f0710c2273358affc46b4ee2e42f9c9d234cd182c135f23b9824d03d"
+    },
+    {
+      "path": "evidencias/antes_integracao_final/01_Projeto/Resumo.md",
+      "bytes": 83597,
+      "sha256": "b017bf41c2075008fdb6c7375c2f34a46dd3901ef2f21e2aaf140c0f3753d45b"
+    },
+    {
+      "path": "evidencias/antes_novas_definicoes/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 15961,
+      "sha256": "bf6041c3e6a17f6831430a11373b0b3c65f18ee969a5524e53e43ffcf34cf34b"
+    },
+    {
+      "path": "evidencias/antes_novas_definicoes/README.md",
+      "bytes": 7827,
+      "sha256": "c7d3edd89158eb437d994f1ecbadb6683142ef48db1b9bc5ed39ea5afa0fdf5b"
+    },
+    {
+      "path": "evidencias/antes_portabilidade800/conferir_conjunto_800ml.cjs",
+      "bytes": 3478,
+      "sha256": "a942c2b7dbbc66b19a73c23b248d1bceb21d23feafb405bd7a4d87e8c848d97f"
+    },
+    {
+      "path": "evidencias/antes_respostas/Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 13554,
+      "sha256": "82202ae6b35c0aa9595f8022caabd7c84adb2620746dfbe1590b9e3ce3e11696"
+    },
+    {
+      "path": "evidencias/antes_respostas/README.md",
+      "bytes": 6619,
+      "sha256": "d0af0dc345ecca06e04809be4e6e29aa35cc25469cbad0bb533737b8ea4e6f0b"
+    },
+    {
+      "path": "evidencias/apoios8L/Greenplac_cuidados.pdf",
+      "bytes": 234176,
+      "sha256": "057ff92d7e6b54216dda423964abf27adeaeb3da3b016f8fcfaeb7978db4dc90"
+    },
+    {
+      "path": "evidencias/apoios8L/Greenplac_p6.png",
+      "bytes": 155825,
+      "sha256": "c0d4b2bf26135ed4d989b92f997c607d1d3898265383bc08b3cac19a26cabda6"
+    },
+    {
+      "path": "evidencias/apoios8L/Hettich_apoios_p1307.pdf",
+      "bytes": 151421,
+      "sha256": "f4f9f4bc3b5cf59e41d8c32c62c0ff75f3e5da24ffdbd119b149a8930ef74c51"
+    },
+    {
+      "path": "evidencias/apoios8L/Hettich_p1307.png",
+      "bytes": 185307,
+      "sha256": "5ab22432040f03cea86d3bf9cad957dcc37ca452a47efc7e5596ee75fe2dd6b8"
+    },
+    {
+      "path": "evidencias/apoios8L/Sugatsune_p2.png",
+      "bytes": 150548,
+      "sha256": "57bbf586de489afcadf2d817add74f4a9eb4764261189966a2ef4b4e8fadb743"
+    },
+    {
+      "path": "evidencias/apoios8L/Sugatsune_SDSc301_manual.pdf",
+      "bytes": 1372089,
+      "sha256": "52225fa2558ea2b83aaa0d8ef0ee6aa1ca5ad8454f1fb0c00958148c29c08083"
+    },
+    {
+      "path": "evidencias/detalhe8L/tts_8L_ficha-1.png",
+      "bytes": 182429,
+      "sha256": "7cb864a73fbe8279fc363ddebeb2b19631f541b73a36c2bac4e73c802fffc1ae"
+    },
+    {
+      "path": "evidencias/detalhe8L/tts_8L_ficha_2025-12-22.pdf",
+      "bytes": 917638,
+      "sha256": "7c222f8d823663b436bfc0add757cb9912757882988fc432c1ea950a71a793ff"
+    },
+    {
+      "path": "evidencias/detalhe8L/zojirushi_manual_p-2.png",
+      "bytes": 508492,
+      "sha256": "1ba3b697530424b7a211ca1d2d4e479935fb0d98a135ba9d8fe5d59ce60ce64e"
+    },
+    {
+      "path": "evidencias/detalhe8L/zojirushi_manual_p-9.png",
+      "bytes": 415247,
+      "sha256": "9c4949605e4ae874e89b35d55b8bd0db9464c6bb0cfd647220d58a264d22ad6d"
+    },
+    {
+      "path": "evidencias/detalhe8L/zojirushi_SHHB_SHHC_EN.pdf",
+      "bytes": 480865,
+      "sha256": "d7bcd67167dee0a7182f7d9286a1693b41605ccd2e0ad11d7e121b57061daceb"
+    },
+    {
+      "path": "evidencias/fontes_antes.json",
+      "bytes": 58952,
+      "sha256": "306d64a102fce78143de80e6517e43b37320228035908a6f8b1a384a3d462adf"
+    },
+    {
+      "path": "evidencias/Links_apos_gravacao.json",
+      "bytes": 201,
+      "sha256": "60f5185ad1949442ac127346e1ef097581abc21e787190babdd5c9a8de6d023f"
+    },
+    {
+      "path": "evidencias/Links_locais.json",
+      "bytes": 201,
+      "sha256": "98c073f344f13f09192e73900bbcbd3e613c68c62aeb2445dbda2036ca63a7a2"
+    },
+    {
+      "path": "evidencias/Preservacao_fontes.json",
+      "bytes": 67,
+      "sha256": "33dd3f98256a08ef37490a735f7ba47a68832caef0eb9ae14fef38212ce02fc8"
+    },
+    {
+      "path": "evidencias/README_06-10_antes_continuacao.md",
+      "bytes": 5828,
+      "sha256": "8cba5770add0f22626e586e54ae5d893c61ec2b49d3d6c2c9414f0daf4deadcc"
+    },
+    {
+      "path": "evidencias/README_principal_antes.md",
+      "bytes": 9313,
+      "sha256": "2c17de875992f044d48536b6c8878ef0c7b1fbcf810448c07a20e34ba6b7e4b1"
+    },
+    {
+      "path": "evidencias/Reproducao_C2.json",
+      "bytes": 12627,
+      "sha256": "79b45d0c8bc94faee523a666fe84e69f26b1ef4a53d03f0ca9b8497a59d69508"
+    },
+    {
+      "path": "evidencias/Reproducao_coccao.json",
+      "bytes": 1520,
+      "sha256": "096dd4bfc82133bb73b753b89e890d17c66022703c7e9fa8349fa3ff1411f726"
+    },
+    {
+      "path": "evidencias/Verificacao_gravacao.json",
+      "bytes": 166,
+      "sha256": "fc299f7769564fcde599f7e6f3d0504673e505f69876ce2143e78c9b4f850c8a"
+    },
+    {
+      "path": "evidencias/verificar_links.cjs",
+      "bytes": 1251,
+      "sha256": "3d1c7fba13f0683c8b54d5caae763be0f893c999a107f9d94b3d84461c593b52"
+    },
+    {
+      "path": "Guedala_Park_Retomada_2026-10-06.pdf",
+      "bytes": 27352,
+      "sha256": "23be9c5e98c5b9f84f209c203e5c61984a44288e3e55bd5aff0c56f7d706147e"
+    },
+    {
+      "path": "iluminacao/Auditoria_2026-10-06.md",
+      "bytes": 14305,
+      "sha256": "6c7051e61060d051b869d966b345f45f017d53ca7f9209eb64171ab639829362"
+    },
+    {
+      "path": "iluminacao/calculos_complementares.cjs",
+      "bytes": 1374,
+      "sha256": "fea16ad8bdcb500b04d465964048e60e997985ba47f46cd247604a49943c9e2a"
+    },
+    {
+      "path": "iluminacao/Calculos_complementares.json",
+      "bytes": 1738,
+      "sha256": "a101a4fe35d8d9ec22bb0621be31c32c2cdab290192b35a3359b8566e7c5dc2f"
+    },
+    {
+      "path": "iluminacao/evidencia/calcular_micro_c2_log.txt",
+      "bytes": 31774,
+      "sha256": "9fadd14d2454a02141c63178237a4d7801bec8198e5e60f02f0f399370713a2e"
+    },
+    {
+      "path": "iluminacao/evidencia/calcular_torre_gavetas_log.txt",
+      "bytes": 2829,
+      "sha256": "13b93b52cf72393e08dd6e05ff4ce8a9e6910c1906fe04d6b6c584fae798fe44"
+    },
+    {
+      "path": "iluminacao/evidencia/luz_varal_log.txt",
+      "bytes": 3162,
+      "sha256": "e716391f08ede6032538784922959e92508a462870a4f1f971dd362e42944e07"
+    },
+    {
+      "path": "iluminacao/evidencia/Resultados_luz_varal.json",
+      "bytes": 3163,
+      "sha256": "80fab7d634ed20202bf85a3b4913ff0f81fc72800631d05eb5f1e49464b60e38"
+    },
+    {
+      "path": "iluminacao/evidencia/Resultados_micro_c2.json",
+      "bytes": 891795,
+      "sha256": "2bdad452621cd2b68b6c9b8b9f15bf6f2b9c9792a5ae76e72647864a20d1806e"
+    },
+    {
+      "path": "iluminacao/evidencia/Resultados_torre_gavetas.json",
+      "bytes": 3360,
+      "sha256": "ae9f50d5097f0b3bca8ae55e5a0c6d382769b32ffd1f4fe401a9cc2ae4dcbaa2"
+    },
+    {
+      "path": "iluminacao/reproduzir_calculos.cjs",
+      "bytes": 1082,
+      "sha256": "65f66939e7b593ad2c37648da92b1ac0abb98538e2240ea4464ed2cf1d9e7096"
+    },
+    {
+      "path": "Integracao_800ml_guardada.json",
+      "bytes": 2075,
+      "sha256": "6a805c103656558e2be1da434a5ca361cdabc9b026642a231ebaf9b6b78ea042"
+    },
+    {
+      "path": "Integracao_destinos.json",
+      "bytes": 1666,
+      "sha256": "d6552d64430c0857b2628aa528dd863dfed171b731cdc88937c6ba807a7a4126"
+    },
+    {
+      "path": "Integracao_detalhe_8L.json",
+      "bytes": 2074,
+      "sha256": "0c535c087e3812db1201ffc0df2532c7d30d4746f241a15ca43b356597deea49"
+    },
+    {
+      "path": "Integracao_final.json",
+      "bytes": 1554,
+      "sha256": "ac0ac7f91087fcbc6288f6353a03429a7d1bc2dacad00d11b243772783ec99a5"
+    },
+    {
+      "path": "lavanderia/auditoria_analitica.cjs",
+      "bytes": 1859,
+      "sha256": "97e61db07aec46aa96f2b08412f3e6dc26deb786165d16db4c1ac8e98ffa8340"
+    },
+    {
+      "path": "lavanderia/auditoria_analitica.json",
+      "bytes": 1600,
+      "sha256": "1ebee4520dbc2f13403ee8a11d7fe0ad66f4270155d7be0dd3a3283735ee3c5e"
+    },
+    {
+      "path": "lavanderia/Relatorio_lavanderia_2026-10-06.md",
+      "bytes": 12000,
+      "sha256": "27ba44999e283a317ffaa080b8fb6743652ce7135db9bdd14ac83e29b046e627"
+    },
+    {
+      "path": "Library_800ml_guardada.json",
+      "bytes": 474,
+      "sha256": "ff3d603c25276cabedf830b3ccb06ed9a24b16cf9d3588f8b1b552bcbf94d3b7"
+    },
+    {
+      "path": "Library_detalhe_8L.json",
+      "bytes": 493,
+      "sha256": "dbe21cc75afe7a09cdceee3f381dc776f625060bd022b6c7c30f25cde8bfff8a"
+    },
+    {
+      "path": "Novas_definicoes_e_acesso_2026-10-06.md",
+      "bytes": 4624,
+      "sha256": "b121435e07728188f952a5e1090ae622e35d2872f2e952074706534e1da47bc7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13384,
+      "sha256": "c362cba68d33b4f612422ea2fb503921599bbea0ef3da81df038b6c96f3751a1"
+    },
+    {
+      "path": "Respostas_e_desdobramentos_2026-10-06.md",
+      "bytes": 2649,
+      "sha256": "6b636d1d596ecce318fdba0e72c9f864a7da501e8c68e8e35eafba323fdd6bd9"
+    },
+    {
+      "path": "Verificacao.md",
+      "bytes": 3635,
+      "sha256": "0b9874bbb92c1f83b9633aadbb99f690ef913b2333baf2bb1f2edb86b7a7d297"
+    }
+  ]
+}

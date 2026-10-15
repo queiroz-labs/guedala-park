@@ -1,5 +1,7 @@
 # Visita ao apartamento — fotos e relatórios
 
+**Próxima visita — roteiro baseado na R30:** [ficha preenchível e imprimível](Roteiro_R30_2026-10-14/Roteiro_de_conferencia.html) · [instruções e lista completa](Roteiro_R30_2026-10-14/README.md). São 21 itens, com referências de medição, fotos e dependências técnicas. Nenhuma medida nova de campo foi preenchida. Exporte os registros da ficha antes de fechar o navegador.
+
 ## Conferência pendente — iluminação de sala/jantar (20/09/2026)
 
 - Conferir se existe conduíte aproveitável entre a caixa de comandos na entrada e a região do painel da TV. Elias não sabe se existe; não tratar como infraestrutura entregue.

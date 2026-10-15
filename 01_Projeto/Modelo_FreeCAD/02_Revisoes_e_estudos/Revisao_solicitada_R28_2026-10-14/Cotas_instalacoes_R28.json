@@ -1,0 +1,47 @@
+{
+  "micro_top_z": 1840.0,
+  "module_B_base_z": 1940.0,
+  "e21_body_bbox": [
+    4430.0,
+    6750.0,
+    1570.0,
+    4780.0,
+    6907.0,
+    2100.0
+  ],
+  "venax_rear_y": 6985.0,
+  "suggar_channel_bbox": [
+    3122.0,
+    6804.0,
+    1976.0,
+    3318.0,
+    6982.0,
+    2532.0
+  ],
+  "suggar_base_bbox": [
+    2913.0,
+    6670.0,
+    1958.0,
+    3527.0,
+    6982.0,
+    1976.0
+  ],
+  "suggar_top_bbox": [
+    2913.0,
+    6670.0,
+    2532.0,
+    3527.0,
+    6982.0,
+    2550.0
+  ],
+  "wall_y_reference": 7000,
+  "wall_e21_x_reference": 4850,
+  "laundry_edge_x_reference": 4380,
+  "datum_warning": "Wall and cabinetry reference planes inherited from R17, not measured on site.",
+  "micro_top_clearance": 100.0,
+  "e21_side_gaps": [
+    70.0,
+    50.0
+  ],
+  "venax_envelope_rear_clearance": 15.0
+}

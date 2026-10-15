@@ -1,0 +1,11 @@
+{
+  "itens": 21,
+  "exportacao_testada": true,
+  "desktop_sem_overflow": true,
+  "mobile_sem_overflow": true,
+  "dados_de_campo_preenchidos": false,
+  "links_verificados": 30,
+  "links_ausentes": [],
+  "fcstd_preservado": true,
+  "revisao_visual": "Cabeçalho, instruções e campos iniciais inspecionados em captura; exportação real testada com dados fictícios fora do isolamento."
+}

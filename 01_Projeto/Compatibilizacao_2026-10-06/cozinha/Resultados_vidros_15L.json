@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-06",
+  "units": "cm; g; L",
+  "status": "Conferência nominal; sem produto escolhido ou liberação de fabricação",
+  "pots": [
+    {
+      "id": "Ou PFL100",
+      "volumeML": 370,
+      "w": 10,
+      "d": 14,
+      "h": 6.5,
+      "massG": 330,
+      "sixVolumeL": 2.22,
+      "sixMassKg": 1.98,
+      "trayGridPerLayer": [
+        2,
+        1
+      ],
+      "sixArea": 840,
+      "trayArea": 702,
+      "singleLayerAreaImpossible": true,
+      "twoLayersHeight": 13.2,
+      "twoLayersFitBenchHeight": false,
+      "r1GridEmptyUpright": 1,
+      "r1StackEmptyNoProtection": 3,
+      "r1ActualAdditionalCapacityWithMixer": 0
+    },
+    {
+      "id": "Ou PFL200",
+      "volumeML": 725,
+      "w": 12,
+      "d": 17,
+      "h": 7.5,
+      "massG": 550,
+      "sixVolumeL": 4.35,
+      "sixMassKg": 3.3,
+      "trayGridPerLayer": [
+        2,
+        1
+      ],
+      "sixArea": 1224,
+      "trayArea": 702,
+      "singleLayerAreaImpossible": true,
+      "twoLayersHeight": 15.2,
+      "twoLayersFitBenchHeight": false,
+      "r1GridEmptyUpright": 1,
+      "r1StackEmptyNoProtection": 3,
+      "r1ActualAdditionalCapacityWithMixer": 0
+    },
+    {
+      "id": "Invicta 101528291773",
+      "volumeML": 520,
+      "w": 14,
+      "d": 14,
+      "h": 6.5,
+      "massG": 440,
+      "sixVolumeL": 3.12,
+      "sixMassKg": 2.64,
+      "trayGridPerLayer": [
+        1,
+        0
+      ],
+      "sixArea": 1176,
+      "trayArea": 702,
+      "singleLayerAreaImpossible": true,
+      "twoLayersHeight": 13.2,
+      "twoLayersFitBenchHeight": false,
+      "r1GridEmptyUpright": 0,
+      "r1StackEmptyNoProtection": 3,
+      "r1ActualAdditionalCapacityWithMixer": 0
+    },
+    {
+      "id": "Invicta 101528291769",
+      "volumeML": 640,
+      "w": 13.5,
+      "d": 17.9,
+      "h": 6.3,
+      "massG": 460,
+      "sixVolumeL": 3.84,
+      "sixMassKg": 2.76,
+      "trayGridPerLayer": [
+        1,
+        0
+      ],
+      "sixArea": 1449.8999999999999,
+      "trayArea": 702,
+      "singleLayerAreaImpossible": true,
+      "twoLayersHeight": 12.799999999999999,
+      "twoLayersFitBenchHeight": false,
+      "r1GridEmptyUpright": 0,
+      "r1StackEmptyNoProtection": 3,
+      "r1ActualAdditionalCapacityWithMixer": 0
+    },
+    {
+      "id": "Invicta 101528291770",
+      "volumeML": 1000,
+      "w": 15.3,
+      "d": 20.4,
+      "h": 6.9,
+      "massG": 732,
+      "sixVolumeL": 6,
+      "sixMassKg": 4.392,
+      "trayGridPerLayer": [
+        1,
+        0
+      ],
+      "sixArea": 1872.72,
+      "trayArea": 702,
+      "singleLayerAreaImpossible": true,
+      "twoLayersHeight": 14,
+      "twoLayersFitBenchHeight": false,
+      "r1GridEmptyUpright": 0,
+      "r1StackEmptyNoProtection": 3,
+      "r1ActualAdditionalCapacityWithMixer": 0
+    }
+  ],
+  "recipients": [
+    {
+      "id": "Ou JB2100NT",
+      "volumeL": 1.5,
+      "w": 9.5,
+      "d": 15.5,
+      "h": 27,
+      "massG": 450,
+      "frequency": "semanal",
+      "r3Upright": false,
+      "r1EmptyUpright": false,
+      "r3HeightExcess": 9.399999999999999,
+      "r1HeightExcess": 4.199999999999999,
+      "massFilledWith1500gWaterKg": 1.95
+    },
+    {
+      "id": "alfi 3527205150",
+      "volumeL": 1.5,
+      "w": 13.5,
+      "d": 15.6,
+      "h": 26.3,
+      "massG": 1012,
+      "frequency": "diária",
+      "r3Upright": false,
+      "r1EmptyUpright": false,
+      "r3HeightExcess": 8.7,
+      "r1HeightExcess": 3.5,
+      "massFilledWith1500gWaterKg": 2.512
+    }
+  ],
+  "benchSix370Alternative": {
+    "positions": [
+      {
+        "x": 0.8,
+        "y": 1,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      },
+      {
+        "x": 11.8,
+        "y": 1,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      },
+      {
+        "x": 22.8,
+        "y": 1,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      },
+      {
+        "x": 0.8,
+        "y": 21,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      },
+      {
+        "x": 11.8,
+        "y": 21,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      },
+      {
+        "x": 22.8,
+        "y": 21,
+        "z": 17.8,
+        "w": 10,
+        "d": 14,
+        "h": 6.5
+      }
+    ],
+    "lowerPreserved": [
+      {
+        "x": 1.1,
+        "y": 16,
+        "z": 0.3,
+        "w": 34,
+        "d": 22,
+        "h": 10
+      },
+      {
+        "x": 3.1,
+        "y": 1,
+        "z": 0.3,
+        "w": 30,
+        "d": 14,
+        "h": 12
+      },
+      {
+        "x": 39,
+        "y": 1,
+        "z": 0.3,
+        "w": 18,
+        "d": 18,
+        "h": 20
+      },
+      {
+        "x": 39,
+        "y": 20,
+        "z": 0.3,
+        "w": 18,
+        "d": 18,
+        "h": 24
+      }
+    ],
+    "allInsidePanels": true,
+    "staticCollisions": 0,
+    "structuralApproval": false,
+    "extractionRevalidated": false,
+    "traysOmitted": true,
+    "adopted": false
+  },
+  "method": "Grades ortogonais como layouts testados; área como limite necessário; sem encaixe de potes vazios ou remoção de tampas presumidos. Massa com água: hipótese 1 g/mL, não carga técnica."
+}

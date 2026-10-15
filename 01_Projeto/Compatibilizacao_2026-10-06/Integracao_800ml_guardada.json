@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-06",
+  "matrixSpaces": 37,
+  "decisions": [
+    "seis aproximadamente800mL",
+    "termica diaria guardada"
+  ],
+  "wholePhysicalSolutionApproved": false,
+  "nominalEightCandidateConditional": true,
+  "userQuestion": "Um balde de8L atende à função necessária?",
+  "editedOriginals": [
+    {
+      "path": "01_Projeto/README.md",
+      "before": "8811440e57a1b32aa297d8cd77302a95ddaeb1a096e030d1d5de09efe5324c8c",
+      "after": "336faba649a2607af2847c4811a3f1a9a6de7ff185f27bc1db440cddfc068ad5",
+      "backup": "evidencias/antes_800ml_guardada/01_Projeto/README.md"
+    },
+    {
+      "path": "01_Projeto/Resumo.md",
+      "before": "8ddaf2c6a515f8bdb0c8b5f1618373fa2937ad85136c1438b6f9d89030c28d1e",
+      "after": "261553a20123c38db5b1b11476a79780ceada3987bd128067708ad470ef4772a",
+      "backup": "evidencias/antes_800ml_guardada/01_Projeto/Resumo.md"
+    },
+    {
+      "path": "01_Projeto/Registro_de_decisoes.md",
+      "before": "44321688d45201d1f3c68c1ff5f6d9326bb3d89a122dab1fc0189a0dfda517ba",
+      "after": "3c7b32ea4961f6c6a9990ebbc0436ecf5303f374fc1fd4c84f9faf79c567f0c9",
+      "backup": "evidencias/antes_800ml_guardada/01_Projeto/Registro_de_decisoes.md"
+    },
+    {
+      "path": "01_Projeto/Cozinha/README.md",
+      "before": "82956d63917e2378a2b89ae8358469857657acdbd51d3f576beaef16107ae06d",
+      "after": "fba49312b0998f9a6361824bd55a41ed5c956ab74db54b379c3902b39a07a7f7",
+      "backup": "evidencias/antes_800ml_guardada/01_Projeto/Cozinha/README.md"
+    }
+  ],
+  "pdf": {
+    "pages": 8,
+    "sha256": "1e0cca9b2010d6c56add95fd5d55d0cbbece8d57750463c4945d2ef2ac693e4d",
+    "visuallyReviewedPages": [
+      7,
+      8
+    ]
+  },
+  "additions": [
+    "Matriz_espacos_800ml_termica.md",
+    "Matriz_espacos_800ml_termica.json",
+    "montar_matriz_800ml.cjs",
+    "Referencias_800ml_guardadas.md",
+    "Referencias_800ml_guardadas.cjs",
+    "Referencias_800ml_guardadas.csv",
+    "Referencias_800ml_guardadas.json",
+    "Conjunto_800ml_guardado.md",
+    "Conjunto_800ml_guardado.json",
+    "conferir_conjunto_800ml.cjs"
+  ]
+}

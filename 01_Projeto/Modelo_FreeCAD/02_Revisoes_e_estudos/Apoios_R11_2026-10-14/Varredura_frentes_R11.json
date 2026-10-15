@@ -1,0 +1,245 @@
+{
+  "step_deg": 0.5,
+  "positions_each_leaf": 173,
+  "height_overlapping_pairs_separated_by_sampled_envelopes": 21,
+  "broadphase_pairs": [
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "FolhaEscritorioR001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        3.1852698584614245
+      ],
+      "positive_separation_mm": 3.1852698584614245
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "FolhaEscritorioR002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        503.1852698584614
+      ],
+      "positive_separation_mm": 503.1852698584614
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "FolhaEscritorioR003"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        1003.1852698584614
+      ],
+      "positive_separation_mm": 1003.1852698584614
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "Folha"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -306.8147301415386
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "Folha001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        136.93526985846142
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        580.6852698584614
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "FolhaEscritorioR002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        3.1852698584614245
+      ],
+      "positive_separation_mm": 3.1852698584614245
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "FolhaEscritorioR003"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        503.1852698584614
+      ],
+      "positive_separation_mm": 503.1852698584614
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -131.58366293663903
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -363.0647301415386
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        80.68526985846142
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "FolhaEscritorioR003"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -499.11874901411056,
+        3.185269858461197
+      ],
+      "positive_separation_mm": 3.185269858461197
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "Folha"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        368.41633706336097
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "Folha001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -75.33366293663903
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -419.3147301415388
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        868.416337063361
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        424.66633706336097
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        2195.9966647627443,
+        -19.08366293663903
+      ],
+      "positive_separation_mm": 2195.9966647627443
+    },
+    {
+      "pair": [
+        "Folha",
+        "Folha001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -444.00333523725556,
+        2.16633706336097
+      ],
+      "positive_separation_mm": 2.16633706336097
+    },
+    {
+      "pair": [
+        "Folha",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -444.00333523725556,
+        445.91633706336097
+      ],
+      "positive_separation_mm": 445.91633706336097
+    },
+    {
+      "pair": [
+        "Folha001",
+        "Folha002"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        -444.00333523725556,
+        2.16633706336097
+      ],
+      "positive_separation_mm": 2.16633706336097
+    }
+  ],
+  "minimum_same_module_sampled_envelope_separation_mm": 2.16633706336097,
+  "minimum_cross_module_sampled_envelope_separation_mm": 2195.9966647627443,
+  "minimum_sampled_envelope_separation_mm": 2.16633706336097,
+  "pairs_examined_after_broadphase": 0,
+  "angle_combinations_tested": 0,
+  "pairs": [],
+  "method": "SAT de retângulos externos de frente no plano, movimento de quatro barras comparado à auditoria nativa. Menor separação projetada positiva prova separação nas amostras; não é distância euclidiana nem prova contínua/tolerância. Pares sem sobreposição das envoltórias gerais ou altura excluídos."
+}

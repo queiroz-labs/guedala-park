@@ -1,0 +1,475 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Programa_R25_2026-10-14\\Guedala_Park_R25_Programa_Conferido.FCStd",
+  "sha256_before": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "gui_up": false,
+  "phase": "complete",
+  "objects": [
+    {
+      "name": "Modulo",
+      "label": "Guarda-roupa · inferior R02",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_quarto"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo001",
+      "label": "Canto integrado em L - R04 simples - proposta",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_quarto"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes001",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo002",
+      "label": "Maleiro reto · portas de correr",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_quarto"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes002",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo003",
+      "label": "Aéreo raso da cabeceira · alinhado",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_quarto"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes003",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo004",
+      "label": "Gabinete da pia",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes004",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo005",
+      "label": "Gaveteiro G1 / G2 / G3",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes005",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo006",
+      "label": "Estrutura do módulo de cocção",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes006",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo007",
+      "label": "Gaveta baixa de limpeza - rodas R13 - proposta",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes007",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo008",
+      "label": "D · acima do depurador",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes008",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo009",
+      "label": "C · uso diário",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes009",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo010",
+      "label": "B · acima do micro",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes010",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo011",
+      "label": "A · acima da geladeira",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes011",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo012",
+      "label": "Apoio aberto do micro",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes012",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo013",
+      "label": "Gabinete tanque e cesto",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_lavanderia"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes013",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo014",
+      "label": "Aéreo da lavanderia",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_lavanderia"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes014",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo015",
+      "label": "Gaveteiro do escritório",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_escritorio"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes015",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo016",
+      "label": "Aéreo principal do escritório",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_escritorio"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes016",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo017",
+      "label": "Gabinete do banheiro",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_banho"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes017",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo018",
+      "label": "Armário espelhado raso",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_banho"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes018",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modulo019",
+      "label": "Banco baú · 180×55 externo",
+      "type": "App::Part",
+      "geometric_parent": null,
+      "group_parents": [
+        "Ambiente_sala"
+      ],
+      "parameter_links": [
+        {
+          "property": "PlanilhaDimensoes",
+          "property_type": "App::PropertyLink",
+          "target": "Dimensoes019",
+          "target_geometric_parent": null,
+          "target_group_parents": [
+            "Documentacao"
+          ],
+          "property_status": [
+            21
+          ]
+        }
+      ]
+    }
+  ],
+  "doc_objects": 5898,
+  "recompute_result": 53,
+  "invalid": [],
+  "touched_after": [],
+  "sha256_after": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "elapsed_s": 3.4059999999990396,
+  "source_unchanged": true
+}

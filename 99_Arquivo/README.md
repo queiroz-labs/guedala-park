@@ -6,6 +6,8 @@ Aqui ficam versões anteriores e materiais usados na produção dos estudos. Par
 
 | Pasta ou arquivo | Para que serve |
 |---|---|
+| [Organização de 14/10](Organizacao_2026-10-14/Registro.json) | Mapa de movimentações, hashes e textos anteriores preservados. |
+| [Diagnóstico do FreeCAD](Erros_FreeCAD_2026-10-14/README.md) | Registros de erros e correções de 14/10. |
 | [Registros anteriores](Registros_anteriores/) | Registros v0.1 a v0.5 e texto de contexto de 11/09. Esse texto antecede algumas decisões do registro atual. |
 | [Estudos anteriores](Estudos_anteriores/README.md) | Comparações e implantações substituídas, organizadas por assunto. |
 | [Documentos anteriores](Documentos_anteriores/) | Conceito e especificação inicial em Word. |

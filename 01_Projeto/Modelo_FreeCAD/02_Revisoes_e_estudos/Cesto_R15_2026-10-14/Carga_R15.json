@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "basket_frame_content_scenario_kg": 5,
+      "front_scenario_kg": 4.64211,
+      "closed_torque_Nm": -3.3533649549000004,
+      "open55_torque_Nm": 17.953606726854535,
+      "change_of_sign_deg": 7.868186413547553
+    },
+    {
+      "basket_frame_content_scenario_kg": 8,
+      "front_scenario_kg": 4.64211,
+      "closed_torque_Nm": -7.032114954900001,
+      "open55_torque_Nm": 21.267782460898754,
+      "change_of_sign_deg": 12.825991185817161
+    },
+    {
+      "basket_frame_content_scenario_kg": 12,
+      "front_scenario_kg": 4.64211,
+      "closed_torque_Nm": -11.9371149549,
+      "open55_torque_Nm": 25.686683439624385,
+      "change_of_sign_deg": 16.728730898690753
+    }
+  ],
+  "assumption": "Corpo uniformemente distribuído450x250x450/front521x550x18/densidade900; pega/fixações/choques/esforço humano/distribuição real omitidos. Não carga autorizada, escolha de mola/pistão ou verificação de estrutura."
+}

@@ -1,0 +1,32 @@
+{
+ "ok": true,
+ "visiveis_na_base_antes": [
+  "CadeiraEscritorioR30_1",
+  "CadeiraLinaR30_1",
+  "CadeiraLinaR30_2",
+  "CadeiraLinaR30_3"
+ ],
+ "conferencia": {
+  "CadeiraLinaR30_1": {
+   "origem_visivel": false,
+   "vinculo_visivel": true,
+   "vinculo_tem_forma": true
+  },
+  "CadeiraLinaR30_2": {
+   "origem_visivel": false,
+   "vinculo_visivel": true,
+   "vinculo_tem_forma": true
+  },
+  "CadeiraLinaR30_3": {
+   "origem_visivel": false,
+   "vinculo_visivel": true,
+   "vinculo_tem_forma": true
+  },
+  "CadeiraEscritorioR30_1": {
+   "origem_visivel": false,
+   "vinculo_visivel": true,
+   "vinculo_tem_forma": true
+  }
+ },
+ "salvo": true
+}

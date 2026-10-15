@@ -1,0 +1,162 @@
+{
+  "scope": "Affected dependency: bank documented lid/cushion/content/leaf access versus only five daily sofa primitives restoredR24; original bank/other-target tests are not rerun. Source frame and mirrored frame shareY unchanged.",
+  "sofa_max_y": 2920.0,
+  "projection_ranges": [
+    {
+      "item": "PecaBancoR008",
+      "y_min": 3751.0,
+      "y_max": 4138.0,
+      "reason": "LocalX rotation preserves longitudinal projection for every angle.",
+      "gap_to_sofa_mm": 831.0
+    },
+    {
+      "item": "PecaBancoR009",
+      "y_min": 3750.0,
+      "y_max": 4139.0,
+      "reason": "First cushion follows same lid axis.",
+      "gap_to_sofa_mm": 830.0
+    },
+    {
+      "item": "PecaBancoR010",
+      "y_min": 4140.0,
+      "y_max": 4506.0,
+      "reason": "LocalX rotation preserves longitudinal projection for every angle.",
+      "gap_to_sofa_mm": 1220.0
+    },
+    {
+      "item": "PecaBancoR011",
+      "y_min": 4139.0,
+      "y_max": 5218.0,
+      "reason": "Endpoints bound complete fixed-orientation translation; vertical lift does not changeY.",
+      "gap_to_sofa_mm": 1219.0
+    },
+    {
+      "item": "PecaBancoR012",
+      "y_min": 4508.0,
+      "y_max": 4722.0,
+      "reason": "LocalX rotation preserves longitudinal projection for every angle.",
+      "gap_to_sofa_mm": 1588.0
+    },
+    {
+      "item": "PecaBancoR013",
+      "y_min": 4507.0,
+      "y_max": 5456.0,
+      "reason": "Endpoints bound complete fixed-orientation translation; vertical lift does not changeY.",
+      "gap_to_sofa_mm": 1587.0
+    },
+    {
+      "item": "PecaBancoR014",
+      "y_min": 4724.0,
+      "y_max": 5549.0,
+      "reason": "LocalX rotation preserves longitudinal projection for every angle.",
+      "gap_to_sofa_mm": 1804.0
+    },
+    {
+      "item": "PecaBancoR015",
+      "y_min": 3850.0,
+      "y_max": 5550.0,
+      "reason": "Endpoints bound complete fixed-orientation translation; vertical lift does not changeY.",
+      "gap_to_sofa_mm": 930.0
+    },
+    {
+      "item": "PecaBancoR026",
+      "y_min": 4353.0,
+      "y_max": 4483.175,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 1433.0
+    },
+    {
+      "item": "PecaBancoR027",
+      "y_min": 4360.5,
+      "y_max": 4475.5,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 1440.5
+    },
+    {
+      "item": "PecaBancoR028",
+      "y_min": 4535.0,
+      "y_max": 4695.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 1615.0
+    },
+    {
+      "item": "PecaBancoR016",
+      "y_min": 3778.0,
+      "y_max": 3923.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 858.0
+    },
+    {
+      "item": "PecaBancoR017",
+      "y_min": 3778.0,
+      "y_max": 3923.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 858.0
+    },
+    {
+      "item": "PecaBancoR018",
+      "y_min": 3933.0,
+      "y_max": 4078.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 1013.0
+    },
+    {
+      "item": "PecaBancoR019",
+      "y_min": 3933.0,
+      "y_max": 4078.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 1013.0
+    },
+    {
+      "item": "PecaBancoR020",
+      "y_min": 3854.0,
+      "y_max": 4044.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 934.0
+    },
+    {
+      "item": "PecaBancoR021",
+      "y_min": 3854.0,
+      "y_max": 4044.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 934.0
+    },
+    {
+      "item": "PecaBancoR029",
+      "y_min": 3771.0,
+      "y_max": 4127.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 851.0
+    },
+    {
+      "item": "PecaBancoR030",
+      "y_min": 3771.0,
+      "y_max": 4127.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 851.0
+    },
+    {
+      "item": "PecaBancoR022",
+      "y_min": 3779.0,
+      "y_max": 4119.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 859.0
+    },
+    {
+      "item": "PecaBancoR023",
+      "y_min": 3799.0,
+      "y_max": 4099.0,
+      "reason": "Recorded native translation path, all endpoint projections; no replay.",
+      "gap_to_sofa_mm": 879.0
+    },
+    {
+      "item": "PecaBancoR035",
+      "y_min": 4732.0,
+      "y_max": 5532.0,
+      "reason": "R16 final leaf route changes only localY/Z, preserving longitudinalX.",
+      "gap_to_sofa_mm": 1812.0
+    }
+  ],
+  "minimum_projected_gap_mm": 830.0,
+  "limits": "Only ideal longitudinal envelopes for documented commands; no arbitrary control entries, people, physical sofa bed mechanism, transfer of leaf to tabletop, loading, tolerances or hardware. No booleans or poses executed. Native models and source file unchanged."
+}

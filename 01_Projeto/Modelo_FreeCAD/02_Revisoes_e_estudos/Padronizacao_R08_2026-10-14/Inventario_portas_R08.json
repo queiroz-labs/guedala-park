@@ -1,0 +1,431 @@
+[
+  {
+    "module": "Modulo003",
+    "label": "Aéreo raso da cabeceira · alinhado",
+    "position": "Placement [Pos=(260,1090,2132), Yaw-Pitch-Roll=(90,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha",
+        "label": "Porta 1",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "(1800 mm - ControleCanto.Faixa) * 0 / 4 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ],
+          [
+            "Abertura",
+            "0 deg"
+          ]
+        ]
+      },
+      {
+        "name": "Folha001",
+        "label": "Porta 2",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(444.75,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "(1800 mm - ControleCanto.Faixa) * 1 / 4 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ],
+          [
+            "Abertura",
+            "0 deg"
+          ]
+        ]
+      },
+      {
+        "name": "Folha002",
+        "label": "Porta 3",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(888.5,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "(1800 mm - ControleCanto.Faixa) * 2 / 4 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ],
+          [
+            "Abertura",
+            "0 deg"
+          ]
+        ]
+      },
+      {
+        "name": "Folha003",
+        "label": "Porta 4",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1332.25,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "(1800 mm - ControleCanto.Faixa) * 3 / 4 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ],
+          [
+            "Abertura",
+            "-ControleCanto.Vizinha"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo004",
+    "label": "Gabinete da pia",
+    "position": "Placement [Pos=(4480,6390,180), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha004",
+        "label": "Porta 001",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes004.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha005",
+        "label": "Porta 002",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(326,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes004.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo008",
+    "label": "D · acima do depurador",
+    "position": "Placement [Pos=(3855,6650,1958), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha006",
+        "label": "Porta 003",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes008.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha007",
+        "label": "Porta 004",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(326,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes008.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo009",
+    "label": "C · uso diário",
+    "position": "Placement [Pos=(4505,6650,1532), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha008",
+        "label": "Porta 005",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes009.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha009",
+        "label": "Porta 006",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(274.5,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes009.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo010",
+    "label": "B · acima do micro",
+    "position": "Placement [Pos=(5052,6650,1940), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha010",
+        "label": "Porta 007",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes010.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha011",
+        "label": "Porta 008",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(349.5,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes010.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo011",
+    "label": "A · acima da geladeira",
+    "position": "Placement [Pos=(5749,6650,1966), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha012",
+        "label": "Porta 009",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes011.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha013",
+        "label": "Porta 010",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(401.5,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes011.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo014",
+    "label": "Aéreo da lavanderia",
+    "position": "Placement [Pos=(3020,6650,1650), Yaw-Pitch-Roll=(0,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha014",
+        "label": "Porta 011",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes014.Comprimento * 0 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha015",
+        "label": "Porta 012",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(418.5,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes014.Comprimento * 1 / 2 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Modulo016",
+    "label": "Aéreo principal do escritório",
+    "position": "Placement [Pos=(2900,900,1920), Yaw-Pitch-Roll=(90,0,0)]",
+    "fronts": [
+      {
+        "name": "Folha016",
+        "label": "Porta 013",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes016.Comprimento * 0 / 5 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha017",
+        "label": "Porta 014",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(401,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes016.Comprimento * 1 / 5 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha018",
+        "label": "Porta 015",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(801,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes016.Comprimento * 2 / 5 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha019",
+        "label": "Porta 016",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1201,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes016.Comprimento * 3 / 5 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      },
+      {
+        "name": "Folha020",
+        "label": "Porta 5",
+        "type": "App::Part",
+        "size": null,
+        "placement": "Placement [Pos=(1601,0,1), Yaw-Pitch-Roll=(0,0,0)]",
+        "expressions": [
+          [
+            ".Placement.Base.x",
+            "Dimensoes016.Comprimento * 4 / 5 + 1 mm"
+          ],
+          [
+            ".Placement.Rotation.Angle",
+            "Abertura"
+          ]
+        ]
+      }
+    ]
+  }
+]

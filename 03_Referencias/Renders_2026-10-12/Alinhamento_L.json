@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-b3fb2810-0207-4f68-9873-ced3306ccb7b.png",
+  "prompt": "Use case: precise-object-edit. Edit this exact approved bedroom composition with ONE very important cabinetry geometry change. The overhead shallow wood cabinet over the HEADBOARD at the back currently hangs lower than the maleiro/upper storage band over the LEFT tall wardrobe. RAISE ONLY THE BOTTOM EDGE of the headboard overhead cabinet until its underside is at EXACTLY THE SAME HEIGHT as the underside of the maleiro band above the left wardrobe doors. BOTH UPPER CABINET RUNS MUST HAVE IDENTICAL HEIGHT, with one continuous level bottom datum wrapping around the 90-degree L corner and a shared level ceiling/top datum. REMOVE the 8.2cm DOWNWARD STEP at that corner. Keep top fixed against existing ceiling; this makes headboard upper cabinet 8.2cm SHORTER vertically, not move whole cabinet upward through ceiling, not lower left maleiro. Datum approximately213.2cm abovefloor, shelf upper215cm on bothruns, shared carcass top244 and ceiling247 incltrim; therefore both carcasses30.8cmhigh. At inner corner bottom lines must meet at same actual 3D elevation, perspective correct, continuous level L, tiny3cm joint allowed. Preserve its four plain flat doors, shallow25cmdepth, woodfinish,217cmlength, actualwidth. Keep left wardrobe exactly65cmdeep, sliding main doors, mirrorendpanel, all other original features unchanged: queenbed, two smooth beige upholstered headboardpanels, olivebedlinen, littlebedsideledges, whitewall readinglamps, windowandshutters no curtains, room/camera/light/floor. Do not widen room, alter bed, add decor or change wardrobe depths or maleiro height. This is a localized adjustment raising the headboard cabinet bottom only, make the equal-height L unmistakable. Photorealistic, no text/labels.",
+  "under_maleiro_cm": 213.2,
+  "under_aerial_cm": 213.2,
+  "step_cm": 0,
+  "wardrobe_depth_cm": 65,
+  "aerial_depth_cm": 25,
+  "aerial_length_cm": 217,
+  "gap_cm": 3,
+  "body_top_scenario_cm": 244,
+  "ceiling_scenario_cm": 247,
+  "clear_height_scenario_cm": 27.2,
+  "body_height_scenario_cm": 30.8
+}

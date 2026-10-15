@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-03",
+  "units": "cm",
+  "status": "Uso ocasional dos potes confirmado por Elias. Alternativa nova no banco em comparação; quantidade e dimensões reais ainda desconhecidas.",
+  "inside": [
+    60,
+    39,
+    30
+  ],
+  "shelfBottom": 15.8,
+  "shelfThickness": 1.8,
+  "shelfTop": 17.6,
+  "panels": [
+    {
+      "id": "panelFront",
+      "name": "Apoio frontal removível",
+      "x": 0,
+      "y": 20,
+      "z": 15.8,
+      "w": 36.2,
+      "d": 19,
+      "h": 1.8
+    },
+    {
+      "id": "panelRear",
+      "name": "Apoio posterior removível",
+      "x": 0,
+      "y": 0,
+      "z": 15.8,
+      "w": 36.2,
+      "d": 19,
+      "h": 1.8
+    }
+  ],
+  "trays": [
+    {
+      "id": "trayFront",
+      "name": "Bandeja frontal vazia",
+      "x": 4.6,
+      "y": 16,
+      "z": 17.6,
+      "w": 27,
+      "d": 18.8,
+      "h": 1.4
+    },
+    {
+      "id": "trayRear",
+      "name": "Bandeja posterior vazia",
+      "x": 8.1,
+      "y": 1,
+      "z": 17.6,
+      "w": 20,
+      "d": 12.8,
+      "h": 1.4
+    }
+  ],
+  "pots": [
+    {
+      "id": "pot1",
+      "name": "Pote frontal esquerdo completo",
+      "x": 5.3,
+      "y": 16.4,
+      "z": 18,
+      "w": 12,
+      "d": 18,
+      "h": 7
+    },
+    {
+      "id": "pot2",
+      "name": "Pote frontal direito completo",
+      "x": 18.3,
+      "y": 16.4,
+      "z": 18,
+      "w": 12,
+      "d": 18,
+      "h": 7
+    },
+    {
+      "id": "pot3",
+      "name": "Pote posterior completo, girado em planta",
+      "x": 9.1,
+      "y": 1.4,
+      "z": 18,
+      "w": 18,
+      "d": 12,
+      "h": 7
+    }
+  ],
+  "lowerObjectsPreserved": [
+    {
+      "name": "Duas travessas encaixadas: envelope completo",
+      "x": 1.1,
+      "y": 16,
+      "z": 0.3,
+      "w": 34,
+      "d": 22,
+      "h": 10,
+      "id": "lower0"
+    },
+    {
+      "name": "Batedeira portátil: conjunto completo",
+      "x": 3.1,
+      "y": 1,
+      "z": 0.3,
+      "w": 30,
+      "d": 14,
+      "h": 12,
+      "id": "lower1"
+    },
+    {
+      "name": "Liquidificador: motor, cabo e plugue",
+      "x": 39,
+      "y": 1,
+      "z": 0.3,
+      "w": 18,
+      "d": 18,
+      "h": 20,
+      "id": "lower2"
+    },
+    {
+      "name": "Liquidificador: jarra, tampa e lâminas",
+      "x": 39,
+      "y": 20,
+      "z": 0.3,
+      "w": 18,
+      "d": 18,
+      "h": 24,
+      "id": "lower3"
+    }
+  ],
+  "glassCountDesired": null,
+  "glassFrequency": "Só ocasionalmente, conforme resposta de Elias em03/10",
+  "glassTestCount": 3,
+  "potHeightLimit": 8.499999999999998,
+  "extraction": [
+    {
+      "id": "pot1",
+      "name": "Pote frontal esquerdo completo",
+      "positions": [
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": 6.399999999999999,
+          "y": 7.1,
+          "z": 28,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": 6.399999999999999,
+          "y": 7.1,
+          "z": 36,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": 8,
+          "y": 7.1,
+          "z": 36,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": 8,
+          "y": 7.1,
+          "z": 97,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": -19,
+          "y": 44,
+          "z": 97,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot1",
+          "name": "Pote frontal esquerdo completo",
+          "x": -19,
+          "y": 44,
+          "z": 75,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "pot2",
+      "name": "Pote frontal direito completo",
+      "positions": [
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": 6.399999999999999,
+          "y": 20.1,
+          "z": 28,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": 6.399999999999999,
+          "y": 20.1,
+          "z": 36,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": 8,
+          "y": 20.1,
+          "z": 36,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": 8,
+          "y": 20.1,
+          "z": 97,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": -19,
+          "y": 44,
+          "z": 97,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        },
+        {
+          "id": "pot2",
+          "name": "Pote frontal direito completo",
+          "x": -19,
+          "y": 44,
+          "z": 75,
+          "w": 18,
+          "d": 12,
+          "h": 7
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "pot3",
+      "name": "Pote posterior completo, girado em planta",
+      "positions": [
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": 27.4,
+          "y": 10.9,
+          "z": 28,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        },
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": 27.4,
+          "y": 10.9,
+          "z": 36,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        },
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": 8,
+          "y": 10.9,
+          "z": 36,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        },
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": 8,
+          "y": 10.9,
+          "z": 97,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        },
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": -16,
+          "y": 41,
+          "z": 97,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        },
+        {
+          "id": "pot3",
+          "name": "Pote posterior completo, girado em planta",
+          "x": -16,
+          "y": 41,
+          "z": 75,
+          "w": 12,
+          "d": 18,
+          "h": 7
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "trayFront",
+      "name": "Bandeja frontal vazia",
+      "positions": [
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": 5.9999999999999964,
+          "y": 6.3999999999999995,
+          "z": 27.6,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        },
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": 5.9999999999999964,
+          "y": 6.3999999999999995,
+          "z": 31,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        },
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": 8,
+          "y": 6.3999999999999995,
+          "z": 31,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        },
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": 8,
+          "y": 6.3999999999999995,
+          "z": 97,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        },
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": -19.4,
+          "y": 36.5,
+          "z": 97,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        },
+        {
+          "id": "trayFront",
+          "name": "Bandeja frontal vazia",
+          "x": -19.4,
+          "y": 36.5,
+          "z": 75,
+          "w": 18.8,
+          "d": 27,
+          "h": 1.4
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "trayRear",
+      "name": "Bandeja posterior vazia",
+      "positions": [
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": 26.999999999999996,
+          "y": 9.9,
+          "z": 27.6,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        },
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": 26.999999999999996,
+          "y": 9.9,
+          "z": 31,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        },
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": 8,
+          "y": 9.9,
+          "z": 31,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        },
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": 8,
+          "y": 9.9,
+          "z": 97,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        },
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": -16.4,
+          "y": 40,
+          "z": 97,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        },
+        {
+          "id": "trayRear",
+          "name": "Bandeja posterior vazia",
+          "x": -16.4,
+          "y": 40,
+          "z": 75,
+          "w": 12.8,
+          "d": 20,
+          "h": 1.4
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "panelFront",
+      "name": "Apoio frontal removível",
+      "positions": [
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": 1.7999999999999972,
+          "y": 1.8,
+          "z": 25.8,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": 1.7999999999999972,
+          "y": 1.8,
+          "z": 31,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": 8,
+          "y": 1.8,
+          "z": 31,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": 8,
+          "y": 1.8,
+          "z": 97,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": -19.5,
+          "y": 31.9,
+          "z": 97,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelFront",
+          "name": "Apoio frontal removível",
+          "x": -19.5,
+          "y": 31.9,
+          "z": 75,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "panelRear",
+      "name": "Apoio posterior removível",
+      "positions": [
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": 21.799999999999997,
+          "y": 1.8,
+          "z": 25.8,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": 21.799999999999997,
+          "y": 1.8,
+          "z": 31,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": 8,
+          "y": 1.8,
+          "z": 31,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": 8,
+          "y": 1.8,
+          "z": 97,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": -19.5,
+          "y": 31.9,
+          "z": 97,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        },
+        {
+          "id": "panelRear",
+          "name": "Apoio posterior removível",
+          "x": -19.5,
+          "y": 31.9,
+          "z": 75,
+          "w": 19,
+          "d": 36.2,
+          "h": 1.8
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "lower0",
+      "name": "Duas travessas encaixadas: envelope completo",
+      "positions": [
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 2.799999999999997,
+          "y": 2.9000000000000004,
+          "z": 10.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 2.799999999999997,
+          "y": 2.9000000000000004,
+          "z": 23.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 8,
+          "y": 2.9000000000000004,
+          "z": 23.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 8,
+          "y": 2.9000000000000004,
+          "z": 97,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": -21,
+          "y": 33,
+          "z": 97,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "lower0",
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": -21,
+          "y": 33,
+          "z": 75,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    },
+    {
+      "id": "lower1",
+      "name": "Batedeira portátil: conjunto completo",
+      "positions": [
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 25.799999999999997,
+          "y": 4.9,
+          "z": 10.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 25.799999999999997,
+          "y": 4.9,
+          "z": 10.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 8,
+          "y": 4.9,
+          "z": 10.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 8,
+          "y": 4.9,
+          "z": 97,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": -17,
+          "y": 35,
+          "z": 97,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "lower1",
+          "name": "Batedeira portátil: conjunto completo",
+          "x": -17,
+          "y": 35,
+          "z": 75,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        }
+      ],
+      "samples": 1005,
+      "collisions": 0
+    }
+  ],
+  "functionalTradeoff": {
+    "gain": "Três potes de teste em uma camada, preservando candidatura do mixer em R1 e duas pilhas de C1",
+    "cost": "Travessas e batedeira ficam dependentes da retirada dos três potes, duas bandejas vazias e dois painéis; os apoios precisam ser removíveis",
+    "unchanged": "Folha da mesa, faixa do balde e vãos baixos priorizados não recebem nova ocupação"
+  },
+  "c1": {
+    "direction": "Manter duas pilhas diárias e desenvolver bowls sobre os rasos; sanduicheira continua sem destino nesse desenho",
+    "plateHeightTest": 6,
+    "bowlsHeightTest": 7.5,
+    "maxSum": 13.9,
+    "spare": 0.4,
+    "condition": "Não somar a alternativa de sanduicheira que exige pilha única de12 pratos"
+  },
+  "r1": {
+    "withGlassInBench": "Candidatura do mixer completo12,8 ×22,3 ×22,8 pode ser preservada",
+    "withGlassInR1": "Mixer perde essa reserva; vidro pode exigir retirar por partes para liberar escorredor",
+    "condition": "Não transportar bandeja cheia de vidro como operação garantida"
+  },
+  "limitations": [
+    "Não há comprovação estrutural dos painéis, apoios ou retenção; peças propostas não são plano de fabricação",
+    "Painéis de1,8 divididos em dois segmentos36,2 ×19, com intervalo1, para ensaiar retirada; apoio das bandejas sobre as juntas precisa de detalhamento",
+    "Não instalar os painéis de modo fixo: isso invalida a retirada superior das travessas e batedeira",
+    "Bandejas com paredes/fundo0,4 são hipóteses geométricas, sem produto selecionado",
+    "Potes12 ×18 ×7 completos podem não ter capacidade adequada para refeições; não limitar o inventário a três",
+    "Potes saem um por vez; bandejas e painéis saem vazios. Área temporária liberada entre operações",
+    "Apoio na mesa é um ensaio por peça; não pressupõe acumular tudo ali",
+    "Manuseio do vidro, massa, corpo, portas, ferragens, retenção da tampa e espaço da pessoa não modelados",
+    "Interior60 ×39 ×30 e base10 continuam hipotéticos; assentamento, estrutura e abertura precisam ser medidos",
+    "Percursos anteriores de jarra/motor não substituídos; esta rodada testa somente novos grupos e a retirada afetada de travessas/batedeira"
+  ],
+  "sources": [
+    "Resultados_banco_limpo.json",
+    "Resultados_bowls_vidros.json",
+    "Resultados_saldo_pia.json",
+    "Conjunto_armazenamento.html"
+  ]
+}

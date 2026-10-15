@@ -1,0 +1,53 @@
+{
+  "documents": [
+    {
+      "name": "Guedala_Park_R18_Portas_Opostas",
+      "label": "Guedala_Park_R18_Portas_Opostas",
+      "file": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Portas_opostas_R18_2026-10-14/Guedala_Park_R18_Portas_Opostas.FCStd",
+      "objects": 5629,
+      "invalid": []
+    },
+    {
+      "name": "Guedala_Park_R20_Apartamento_Espelhado",
+      "label": "Guedala_Park_R20_Apartamento_Espelhado",
+      "file": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R20_2026-10-14/Guedala_Park_R20_Apartamento_Espelhado.FCStd",
+      "objects": 5877,
+      "invalid": []
+    },
+    {
+      "name": "Guedala_Park_R21_Controles_Organizados",
+      "label": "Guedala_Park_R21_Controles_Organizados",
+      "file": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Controles_R21_2026-10-14/Guedala_Park_R21_Controles_Organizados.FCStd",
+      "objects": 5895,
+      "invalid": []
+    },
+    {
+      "name": "Guedala_Park_R22_Visibilidade_Atual",
+      "label": "Guedala_Park_R22_Visibilidade_Atual",
+      "file": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Visibilidade_R22_2026-10-14/Guedala_Park_R22_Visibilidade_Atual.FCStd",
+      "objects": 5895,
+      "invalid": []
+    },
+    {
+      "name": "Guedala_Park_R23_Rotulos_Consistentes",
+      "label": "Guedala Park — R23 — espelhado / rótulos consistentes",
+      "file": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Rotulos_R23_2026-10-14/Guedala_Park_R23_Rotulos_Consistentes.FCStd",
+      "objects": 5895,
+      "invalid": []
+    },
+    {
+      "name": "TesteEspelhoGrupoR19",
+      "label": "TesteEspelhoGrupoR",
+      "file": "",
+      "objects": 3,
+      "invalid": []
+    },
+    {
+      "name": "TesteEspelhoR19",
+      "label": "TesteEspelhoR19",
+      "file": "",
+      "objects": 13,
+      "invalid": []
+    }
+  ]
+}

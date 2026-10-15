@@ -1,0 +1,36 @@
+{
+  "step_deg": 0.5,
+  "positions_each_leaf": 173,
+  "height_overlapping_pairs_separated_by_sampled_envelopes": 2,
+  "broadphase_pairs": [
+    {
+      "pair": [
+        "FolhaBanheiroR12",
+        "FolhaBanheiroR001"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        1.5928643886163627,
+        -300.6035030124058
+      ],
+      "positive_separation_mm": 1.5928643886163627
+    },
+    {
+      "pair": [
+        "FolhaBanheiroR002",
+        "FolhaBanheiroR003"
+      ],
+      "sampled_envelope_axis_gaps_mm": [
+        1.5928643886163627,
+        -300.88252890738204
+      ],
+      "positive_separation_mm": 1.5928643886163627
+    }
+  ],
+  "minimum_same_module_sampled_envelope_separation_mm": 1.5928643886163627,
+  "minimum_cross_module_sampled_envelope_separation_mm": null,
+  "minimum_sampled_envelope_separation_mm": 1.5928643886163627,
+  "pairs_examined_after_broadphase": 0,
+  "angle_combinations_tested": 0,
+  "pairs": [],
+  "method": "SAT de retângulos externos de frente no plano, movimento de quatro barras comparado à auditoria nativa. Menor separação projetada positiva prova separação nas amostras; não é distância euclidiana nem prova contínua/tolerância. Pares sem sobreposição das envoltórias gerais ou altura excluídos."
+}

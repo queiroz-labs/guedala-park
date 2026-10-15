@@ -1,0 +1,4 @@
+{
+  "camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 6815.3447 384.65674 4375.3438\n  orientation 0.74290609 0.30772209 0.59447283  1.2171158\n  nearDistance 366.84567\n  farDistance 10435.081\n  aspectRatio 1\n  focalDistance 5395.9336\n  height 10791.867\n\n}\n",
+  "document": "Guedala_Park_R28_Folga_Teto_Proposta"
+}

@@ -1,0 +1,681 @@
+{
+  "module_children": [
+    {
+      "module": "Modulo016",
+      "name": "Peca384",
+      "label": "Lateral direita028",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        330.0,
+        550.0
+      ],
+      "volume": 3267000.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "Peca385",
+      "label": "Lateral esquerda012",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        330.0,
+        550.0
+      ],
+      "volume": 3267000.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "Peca386",
+      "label": "Fundo012",
+      "type": "Part::Box",
+      "dimensions": [
+        1964.0,
+        18.0,
+        514.0
+      ],
+      "volume": 18170928.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "Peca387",
+      "label": "Base010",
+      "type": "Part::Box",
+      "dimensions": [
+        1964.0,
+        312.0,
+        18.0
+      ],
+      "volume": 11029824.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "Peca388",
+      "label": "Tampo008",
+      "type": "Part::Box",
+      "dimensions": [
+        1964.0,
+        312.0,
+        18.0
+      ],
+      "volume": 11029824.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "HistoricoFrentesEscritorioR11",
+      "label": "Histórico oculto - cinco folhas ilustrativas anteriores",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "ApoioComumR11",
+      "label": "Apoio interno escritório 1 - proposta18",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        312.0,
+        514.0
+      ],
+      "volume": 2886624.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "ApoioComumR001",
+      "label": "Apoio interno escritório 2 - proposta18",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        312.0,
+        514.0
+      ],
+      "volume": 2886624.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "ApoioComumR002",
+      "label": "Apoio interno escritório 3 - proposta18",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        312.0,
+        514.0
+      ],
+      "volume": 2886624.0
+    },
+    {
+      "module": "Modulo016",
+      "name": "FolhaEscritorioR11",
+      "label": "Escritório porta 4 - abrir para direita — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "FolhaEscritorioR001",
+      "label": "Escritório porta 3 - abrir para esquerda — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "FolhaEscritorioR002",
+      "label": "Escritório porta 2 - abrir para direita — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "FolhaEscritorioR003",
+      "label": "Escritório porta 1 - abrir para esquerda — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR11",
+      "label": "71B3550 — Escritório porta 4 - abrir para direita — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR024",
+      "label": "71B3550 — Escritório porta 4 - abrir para direita — z470.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR025",
+      "label": "71B3550 — Escritório porta 3 - abrir para esquerda — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR026",
+      "label": "71B3550 — Escritório porta 3 - abrir para esquerda — z470.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR027",
+      "label": "71B3550 — Escritório porta 2 - abrir para direita — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR028",
+      "label": "71B3550 — Escritório porta 2 - abrir para direita — z470.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR029",
+      "label": "71B3550 — Escritório porta 1 - abrir para esquerda — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "DobradicaComumR030",
+      "label": "71B3550 — Escritório porta 1 - abrir para esquerda — z470.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo016",
+      "name": "ApoioOpostoR18",
+      "label": "Escritório - segundo18 no divisor das portas2/3; conjunto36",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        312.0,
+        514.0
+      ],
+      "volume": 2886624.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Peca266",
+      "label": "Lateral direita018",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        230.0,
+        308.0
+      ],
+      "volume": 1275120.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Peca267",
+      "label": "Lateral esquerda002",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        230.0,
+        308.0
+      ],
+      "volume": 1275120.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Peca268",
+      "label": "Fundo002",
+      "type": "Part::Box",
+      "dimensions": [
+        1764.0,
+        18.0,
+        272.0
+      ],
+      "volume": 8636544.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Peca269",
+      "label": "Base001",
+      "type": "Part::Box",
+      "dimensions": [
+        1764.0,
+        212.0,
+        18.0
+      ],
+      "volume": 6731424.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Peca270",
+      "label": "Tampo001",
+      "type": "Part::Box",
+      "dimensions": [
+        1764.0,
+        212.0,
+        18.0
+      ],
+      "volume": 6731424.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "Folha",
+      "label": "Cabeceira porta 4 - abrir para direita — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "Folha001",
+      "label": "Cabeceira porta 3 - abrir para esquerda — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "Folha002",
+      "label": "Cabeceira porta 2 - abrir para direita — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "Folha003",
+      "label": "Porta 4",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "FaixaFixaEstudo",
+      "label": "Faixa fixa · proposta, não aprovada",
+      "type": "Part::Box",
+      "dimensions": [
+        7.0,
+        18.0,
+        272.0
+      ],
+      "volume": 34272.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "ApoioComumR003",
+      "label": "Apoio interno cabeceira 1 - proposta18",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        212.0,
+        272.0
+      ],
+      "volume": 1037952.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "ApoioComumR004",
+      "label": "Apoio interno cabeceira 2 - proposta18",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        212.0,
+        272.0
+      ],
+      "volume": 1037952.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR031",
+      "label": "71B3550 — Cabeceira porta 4 - abrir para direita — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR032",
+      "label": "71B3550 — Cabeceira porta 4 - abrir para direita — z228.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR033",
+      "label": "71B3550 — Cabeceira porta 3 - abrir para esquerda — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR034",
+      "label": "71B3550 — Cabeceira porta 3 - abrir para esquerda — z228.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR035",
+      "label": "71B3550 — Cabeceira porta 2 - abrir para direita — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaComumR036",
+      "label": "71B3550 — Cabeceira porta 2 - abrir para direita — z228.0 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "ApoioOpostoR001",
+      "label": "Cabeceira - segundo18 no divisor das portas2/3; conjunto36",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        212.0,
+        272.0
+      ],
+      "volume": 1037952.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "ApoioOpostoR002",
+      "label": "Cabeceira - apoio18 da vizinha à direita; proposta",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        212.0,
+        272.0
+      ],
+      "volume": 1037952.0
+    },
+    {
+      "module": "Modulo003",
+      "name": "VizinhaComumR18",
+      "label": "Cabeceira porta 1 - abrir para esquerda — folha proposta",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaVizinhaR18",
+      "label": "71B3550 — Cabeceira porta 1 - abrir para esquerda — z80 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo003",
+      "name": "DobradicaVizinhaR001",
+      "label": "71B3550 — Cabeceira porta 1 - abrir para esquerda — z228 (proposta)",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca251",
+      "label": "Suporte geométrico principal",
+      "type": "Part::Box",
+      "dimensions": [
+        650.0,
+        630.0,
+        18.0
+      ],
+      "volume": 7371000.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca252",
+      "label": "Suporte geométrico retorno",
+      "type": "Part::Box",
+      "dimensions": [
+        230.0,
+        420.0,
+        18.0
+      ],
+      "volume": 1738800.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "PlacaL",
+      "label": "Base em L",
+      "type": "Part::Fuse",
+      "volume": 9109800.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca253",
+      "label": "Suporte geométrico principal001",
+      "type": "Part::Box",
+      "dimensions": [
+        650.0,
+        630.0,
+        18.0
+      ],
+      "volume": 7371000.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca254",
+      "label": "Suporte geométrico retorno001",
+      "type": "Part::Box",
+      "dimensions": [
+        230.0,
+        420.0,
+        18.0
+      ],
+      "volume": 1738800.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "PlacaL001",
+      "label": "Tampo em L",
+      "type": "Part::Fuse",
+      "volume": 9109800.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca255",
+      "label": "Fundo do braço principal",
+      "type": "Part::Box",
+      "dimensions": [
+        632.0,
+        18.0,
+        272.0
+      ],
+      "volume": 3094272.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "Peca256",
+      "label": "Fundo do retorno",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        1032.0,
+        272.0
+      ],
+      "volume": 5052672.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "FolhaAReal",
+      "label": "Folha A - acompanha caneco principal",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "FolhaBReal",
+      "label": "Folha B - dobradica de uniao com regulagem travada",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "LateralApoioPrincipal",
+      "label": "Lateral 18 mm de apoio da principal - proposta R03",
+      "type": "Part::Box",
+      "dimensions": [
+        18.0,
+        612.0,
+        272.0
+      ],
+      "volume": 2996352.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "PrincipalBlumR03",
+      "label": "71T7550 - bracos reconstruidos - nivel 51",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "PrincipalBlumR001",
+      "label": "71T7550 - bracos reconstruidos - nivel 255",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "DivisorApoioVizinhaR03",
+      "label": "Divisor 18 mm de apoio da vizinha - proposta",
+      "type": "Part::Box",
+      "dimensions": [
+        212.0,
+        18.0,
+        272.0
+      ],
+      "volume": 1037952.0
+    },
+    {
+      "module": "Modulo001",
+      "name": "CantoSimplesR04",
+      "label": "Canto R04 - portas independentes - proposta simples",
+      "type": "App::Part"
+    },
+    {
+      "module": "Modulo001",
+      "name": "HistoricoVizinhaR18",
+      "label": "Histórico oculto - vizinha71B3650 à esquerda, substituídaR18",
+      "type": "App::Part"
+    }
+  ],
+  "corners": [
+    {
+      "name": "FrenteSimplesR04",
+      "label": "Porta A - canecos comuns",
+      "type": "Part::Cut"
+    },
+    {
+      "name": "FerragemSimplesR04",
+      "label": "71B3550 A - corpo 0",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR001",
+      "label": "71B3550 A - corpo 1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR002",
+      "label": "71B3550 A - corpo 2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR003",
+      "label": "71B3550 A - corpo 3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR004",
+      "label": "71B3550 A - corpo 4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR005",
+      "label": "173H7100 - calco da porta A",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR006",
+      "label": "71B3550 A - corpo 001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR007",
+      "label": "71B3550 A - corpo 002",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR008",
+      "label": "71B3550 A - corpo 003",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR009",
+      "label": "71B3550 A - corpo 004",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR010",
+      "label": "71B3550 A - corpo 005",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR011",
+      "label": "173H7100 - calco da porta A001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FrenteSimplesR001",
+      "label": "Porta B - canecos comuns",
+      "type": "Part::Cut"
+    },
+    {
+      "name": "FerragemSimplesR012",
+      "label": "71B3550 B - corpo 0",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR013",
+      "label": "71B3550 B - corpo 1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR014",
+      "label": "71B3550 B - corpo 2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR015",
+      "label": "71B3550 B - corpo 3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR016",
+      "label": "71B3550 B - corpo 4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR017",
+      "label": "173H7100 - calco da porta B",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR018",
+      "label": "71B3550 B - corpo 001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR019",
+      "label": "71B3550 B - corpo 002",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR020",
+      "label": "71B3550 B - corpo 003",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR021",
+      "label": "71B3550 B - corpo 004",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR022",
+      "label": "71B3550 B - corpo 005",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "FerragemSimplesR023",
+      "label": "173H7100 - calco da porta B001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "ApoioPortaBR04",
+      "label": "Lateral 18 mm de apoio da porta B - proposta",
+      "type": "Part::Box"
+    },
+    {
+      "name": "FaixaQuinaAR04",
+      "label": "Faixa fixa A 142 mm - proposta",
+      "type": "Part::Box"
+    },
+    {
+      "name": "FaixaQuinaBR04",
+      "label": "Faixa fixa B 124 mm - proposta",
+      "type": "Part::Box"
+    }
+  ]
+}

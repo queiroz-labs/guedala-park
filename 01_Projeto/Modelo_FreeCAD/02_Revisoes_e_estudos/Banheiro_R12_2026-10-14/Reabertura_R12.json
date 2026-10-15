@@ -1,0 +1,57 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Banheiro_R12_2026-10-14\\Guedala_Park_R12_Banheiro_Simples.FCStd",
+  "checks": [
+    {
+      "door": "FolhaBanheiroR12",
+      "input_deg": 30.0,
+      "front_valid": true,
+      "front_state": [
+        "Up-to-date"
+      ],
+      "mirror_valid": null
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "input_deg": 30.0,
+      "front_valid": true,
+      "front_state": [
+        "Up-to-date"
+      ],
+      "mirror_valid": true
+    }
+  ],
+  "entry_control": [
+    {
+      "input_deg": 0,
+      "bbox": [
+        3840.0,
+        4050.0,
+        0.0,
+        4540.0,
+        4070.0,
+        2050.0000000000005
+      ],
+      "valid": true
+    },
+    {
+      "input_deg": 90,
+      "bbox": [
+        4540.0,
+        4050.0,
+        0.0,
+        4560.0,
+        4750.0,
+        2050.0
+      ],
+      "valid": true
+    }
+  ],
+  "resting_cabinet_controls": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "resting_entry_deg": 90.0,
+  "saved": true
+}

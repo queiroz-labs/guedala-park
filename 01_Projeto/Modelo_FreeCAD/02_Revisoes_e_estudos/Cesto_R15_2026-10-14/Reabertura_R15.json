@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "BasculanteCestoR15",
+      "placement": "Placement [Pos=(2620,6440,120), Yaw-Pitch-Roll=(0,0,55)]",
+      "state": [
+        "Up-to-date"
+      ],
+      "valid": null
+    },
+    {
+      "name": "SacoRemovivelR15",
+      "placement": "Placement [Pos=(2645,6184.05,573.89), Yaw-Pitch-Roll=(0,-0,0)]",
+      "state": [
+        "Up-to-date"
+      ],
+      "valid": null
+    },
+    {
+      "name": "PecaCestoR003",
+      "placement": "Placement [Pos=(2620,6440,120), Yaw-Pitch-Roll=(0,0,55)]",
+      "state": [
+        "Up-to-date"
+      ],
+      "valid": true
+    },
+    {
+      "name": "PecaCestoR021",
+      "placement": "Placement [Pos=(2645,6184.05,573.89), Yaw-Pitch-Roll=(0,-0,0)]",
+      "state": [
+        "Up-to-date"
+      ],
+      "valid": true
+    }
+  ],
+  "driver_axis": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "driver_angle_deg": 55.0,
+  "upright_bag_bbox_world_mm": [
+    2645.0,
+    3045.0,
+    5984.0532373631595,
+    6184.0532373631595,
+    573.8901350500148,
+    973.8901350500148
+  ],
+  "final_controls": {
+    "Abertura": 0.0,
+    "RetiradaSaco": 0.0,
+    "EndireitarSaco": 0.0,
+    "RetiradaPainelSuperior": 0.0,
+    "RetiradaConjunto": 0.0
+  }
+}

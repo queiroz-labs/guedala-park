@@ -1,0 +1,62 @@
+{
+  "status": "proposta R01 para estudo; conceito acolhido, medidas não aprovadas para fabricação",
+  "date": "2026-10-12",
+  "units": "cm",
+  "plan_coordinates": "x ao longo do guarda-roupa; y ao longo da cabeceira; origem na quina externa nominal, sem camadas posteriores",
+  "corner_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      65,
+      0
+    ],
+    [
+      65,
+      65
+    ],
+    [
+      25,
+      65
+    ],
+    [
+      25,
+      105
+    ],
+    [
+      0,
+      105
+    ]
+  ],
+  "nominal_front_bands": [
+    40,
+    40
+  ],
+  "straight_maleiro": [
+    135,
+    65
+  ],
+  "straight_aerial": [
+    180,
+    25
+  ],
+  "aerial_nominal_front_bands": [
+    45,
+    45,
+    45,
+    45
+  ],
+  "underside": 213.2,
+  "shelf_top": 215,
+  "body_top_assumed": 244,
+  "ceiling_assumed": 247,
+  "body_height": 30.8,
+  "inner_geometric_height": 27.2,
+  "panels_assumed": 1.8,
+  "old_gap_3cm": "substituída por módulo de canto integrado; folgas de ferragem a detalhar",
+  "opening_diagram": "segmentos ideais; giro ilustrativo 90 na caixa e 60 entre folhas; sem validação cinemática, colisão, carga ou limitador",
+  "hardware_candidate": "Blum 79T8500 + dobradiça de caixa 155 ou 170; quantidades e montagem pendentes",
+  "source": "https://d2.blum.com/services/BEC003/concealedhinges_ep_dok_bus_%24sen-us_%24aof_%24v18.pdf",
+  "source_page": 32
+}

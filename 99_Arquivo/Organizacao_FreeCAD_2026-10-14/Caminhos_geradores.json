@@ -1,0 +1,102 @@
+[
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Portas_e_quarto/Canto_independente_R01_2026-10-12.json",
+    "depois": "../../Portas_e_quarto/Canto_independente_R01_2026-10-12.json"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Portas_e_quarto/Canto_independente_R01_2026-10-12.json",
+    "depois": "../../Portas_e_quarto/Canto_independente_R01_2026-10-12.json"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Portas_e_quarto/Canto_independente_R01_2026-10-12.json",
+    "depois": "../../Portas_e_quarto/Canto_independente_R01_2026-10-12.json"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Cozinha/Detalhamento_dimensional_R00.md",
+    "depois": "../../Cozinha/Detalhamento_dimensional_R00.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Cozinha/Interior_gavetas_2026-09-25.md",
+    "depois": "../../Cozinha/Interior_gavetas_2026-09-25.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Compatibilizacao_2026-09-28/Corte_coccao.md",
+    "depois": "../../Compatibilizacao_2026-09-28/Corte_coccao.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Cozinha/Gaveta_baixa_ampliacao_comprimento_2026-09-27.md",
+    "depois": "../../Cozinha/Gaveta_baixa_ampliacao_comprimento_2026-09-27.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Compatibilizacao_2026-09-28/Micro_C2.md",
+    "depois": "../../Compatibilizacao_2026-09-28/Micro_C2.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Lavanderia/Tanque_cesto_compatibilizacao_R08.md",
+    "depois": "../../Lavanderia/Tanque_cesto_compatibilizacao_R08.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Lavanderia/README.md",
+    "depois": "../../Lavanderia/README.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Auditoria_dimensional_2026-10-12/Ajuste_profundidades_dados.json",
+    "depois": "../../Auditoria_dimensional_2026-10-12/Ajuste_profundidades_dados.json"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Escritorio/README.md",
+    "depois": "../../Escritorio/README.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Banheiro/Medidas_e_encaixe_2026-09-18.md",
+    "depois": "../../Banheiro/Medidas_e_encaixe_2026-09-18.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Banheiro/Medidas_e_encaixe_2026-09-18.md",
+    "depois": "../../Banheiro/Medidas_e_encaixe_2026-09-18.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Compatibilizacao_2026-10-08/Cozinha_e_banco.html",
+    "depois": "../../Compatibilizacao_2026-10-08/Cozinha_e_banco.html"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/gerar_modelo.py",
+    "antes": "../Cozinha/Aereos_R00.md",
+    "depois": "../../Cozinha/Aereos_R00.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Consistencia_controles_R28_2026-10-14/analisar_leitura.py",
+    "antes": "../Entrega_atual_R23.md",
+    "depois": "../../04_Documentacao/Entrega_atual_R23.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Consistencia_controles_R28_2026-10-14/analisar_leitura.py",
+    "antes": "../Entrega_atual_R28.md",
+    "depois": "../../04_Documentacao/Entrega_atual_R28.md"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Detalhamento_documental_R28_2026-10-14/gerar_entregas.py",
+    "antes": "../../../05_Entregas/pdf/",
+    "depois": "../../../../05_Entregas/pdf/"
+  },
+  {
+    "arquivo": "guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Detalhamento_documental_R28_2026-10-14/gerar_entregas.py",
+    "antes": "../../../05_Entregas/pdf/",
+    "depois": "../../../../05_Entregas/pdf/"
+  }
+]

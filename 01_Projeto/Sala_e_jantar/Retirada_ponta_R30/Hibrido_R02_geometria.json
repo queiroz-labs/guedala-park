@@ -1,0 +1,51 @@
+{
+  "static_collisions": [],
+  "sweep_collisions": [],
+  "empty_panel_route_new_reinforcement_collisions": [],
+  "rail": "DZ5321-0070",
+  "travel_mm": 723,
+  "leaf_extra_slide_mm": 120,
+  "support_length_mm": 645,
+  "overhang_mm": 105,
+  "door_clearance_mm": 630,
+  "opening_mm": [
+    390,
+    62
+  ],
+  "tray_mm": [
+    750,
+    337,
+    50
+  ],
+  "source_sha256": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "capacity_verified": false,
+  "limits": "Hardware internals, locks, screws, operator and final tray structure not modeled. Empty-panel route checked against new reinforcements only. Preliminary conditional sizing.",
+  "lock": {
+    "pin_diameter_mm": 8,
+    "pin_length_mm": 80,
+    "fixed_plate_mm": [
+      20,
+      74,
+      6
+    ],
+    "receiver_plate_mm": [
+      120,
+      15,
+      3
+    ],
+    "bushing_outer_inner_length_mm": [
+      12,
+      9,
+      40
+    ],
+    "open_axis_xyz_mm": [
+      -40,
+      65,
+      290
+    ],
+    "closed_receiver_x_mm": 683,
+    "fixed_projection_mm": 50,
+    "collisions": [],
+    "note": "Pin head, retaining clip, tether, receiver screws and welding allowances not modeled. Bushing intentionally embedded in tray side; bore required. Fixed ear adds20mm beyond R01 portal."
+  }
+}

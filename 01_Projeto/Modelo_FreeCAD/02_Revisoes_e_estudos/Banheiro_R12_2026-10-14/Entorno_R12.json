@@ -1,0 +1,1047 @@
+{
+  "cases": [
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 110,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 60,
+      "hits": [
+        {
+          "moving": "FrenteComumR018",
+          "target": "Peca075",
+          "target_label": "door002",
+          "mm3": 225029.03227028737
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 110,
+      "hits": [
+        {
+          "moving": "FrenteComumR018",
+          "target": "Peca051",
+          "target_label": "Parede · Banheiro003",
+          "mm3": 2276279.431929867
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 30,
+      "hits": [
+        {
+          "moving": "FrenteComumR019",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 58744.450324770405
+        },
+        {
+          "moving": "EspelhoAplicadoR12",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 35090.33361307186
+        },
+        {
+          "moving": "FerragemComumR212",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 404.8823291327923
+        },
+        {
+          "moving": "FerragemComumR217",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 404.88232913282786
+        },
+        {
+          "moving": "FerragemComumR222",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 404.88232913393256
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 60,
+      "hits": [
+        {
+          "moving": "FrenteComumR019",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 72843.1514982977
+        },
+        {
+          "moving": "EspelhoAplicadoR12",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 21944.067979056326
+        },
+        {
+          "moving": "FerragemComumR212",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1163.8956097371372
+        },
+        {
+          "moving": "FerragemComumR217",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1163.8956097326839
+        },
+        {
+          "moving": "FerragemComumR222",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1163.8956097281612
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 86,
+      "hits": [
+        {
+          "moving": "FrenteComumR019",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 85068.77679257248
+        },
+        {
+          "moving": "EspelhoAplicadoR12",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 2308.1904916645826
+        },
+        {
+          "moving": "FerragemComumR212",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1866.9256731737437
+        },
+        {
+          "moving": "FerragemComumR217",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1866.9256731730288
+        },
+        {
+          "moving": "FerragemComumR222",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1866.925673172522
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 110,
+      "hits": [
+        {
+          "moving": "FrenteComumR019",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 52936.695519186804
+        },
+        {
+          "moving": "FerragemComumR212",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1829.729009617494
+        },
+        {
+          "moving": "FerragemComumR217",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1829.7290096152847
+        },
+        {
+          "moving": "FerragemComumR222",
+          "target": "Peca188",
+          "target_label": "Luz frontal para maquiagem",
+          "mm3": 1829.729009554506
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 30,
+      "hits": [
+        {
+          "moving": "FrenteComumR020",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 58744.450324769954
+        },
+        {
+          "moving": "EspelhoAplicadoR001",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 35090.333613072544
+        },
+        {
+          "moving": "FerragemComumR227",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 404.88232913498194
+        },
+        {
+          "moving": "FerragemComumR232",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 404.88232913279865
+        },
+        {
+          "moving": "FerragemComumR237",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 404.8823291327998
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 60,
+      "hits": [
+        {
+          "moving": "FrenteComumR020",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 72843.15149833917
+        },
+        {
+          "moving": "EspelhoAplicadoR001",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 21944.067979056366
+        },
+        {
+          "moving": "FerragemComumR227",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1163.895609728275
+        },
+        {
+          "moving": "FerragemComumR232",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1163.895609728277
+        },
+        {
+          "moving": "FerragemComumR237",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1163.8956097282796
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 86,
+      "hits": [
+        {
+          "moving": "FrenteComumR020",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 85068.7767925732
+        },
+        {
+          "moving": "EspelhoAplicadoR001",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 2308.1904916640315
+        },
+        {
+          "moving": "FerragemComumR227",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1866.9256731459925
+        },
+        {
+          "moving": "FerragemComumR232",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1866.9256731452804
+        },
+        {
+          "moving": "FerragemComumR237",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1866.9256731447742
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 110,
+      "hits": [
+        {
+          "moving": "FrenteComumR020",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 52936.69551907754
+        },
+        {
+          "moving": "FrenteComumR020",
+          "target": "Peca051",
+          "target_label": "Parede · Banheiro003",
+          "mm3": 3135648.278238525
+        },
+        {
+          "moving": "EspelhoAplicadoR001",
+          "target": "Peca051",
+          "target_label": "Parede · Banheiro003",
+          "mm3": 787235.7053265402
+        },
+        {
+          "moving": "FerragemComumR227",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1829.7293384961185
+        },
+        {
+          "moving": "FerragemComumR232",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1829.7293384973746
+        },
+        {
+          "moving": "FerragemComumR237",
+          "target": "Peca189",
+          "target_label": "Luz frontal para maquiagem001",
+          "mm3": 1829.7293384984628
+        }
+      ]
+    }
+  ],
+  "target_inventory": {
+    "Modulo017": [
+      {
+        "name": "Peca008",
+        "label": "floor008"
+      },
+      {
+        "name": "Peca071",
+        "label": "glass004"
+      },
+      {
+        "name": "Peca072",
+        "label": "box004"
+      },
+      {
+        "name": "Peca075",
+        "label": "door002"
+      },
+      {
+        "name": "Peca158",
+        "label": "Box transparente + Addra Livo Black Matte"
+      },
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente"
+      },
+      {
+        "name": "Peca160",
+        "label": "Box transparente + Addra Livo Black Matte001"
+      },
+      {
+        "name": "Peca161",
+        "label": "Box transparente + Addra Livo Black Matte002"
+      },
+      {
+        "name": "Peca162",
+        "label": "Box transparente + Addra Livo Black Matte003"
+      },
+      {
+        "name": "Peca163",
+        "label": "Box transparente + Addra Livo Black Matte004"
+      },
+      {
+        "name": "Peca164",
+        "label": "Box transparente + Addra Livo Black Matte005"
+      },
+      {
+        "name": "Peca165",
+        "label": "Box transparente + Addra Livo Black Matte006"
+      },
+      {
+        "name": "Peca166",
+        "label": "Box transparente + Addra Livo Black Matte007"
+      },
+      {
+        "name": "Peca167",
+        "label": "Box transparente + Addra Livo Black Matte008"
+      },
+      {
+        "name": "Peca168",
+        "label": "Box transparente + Addra Livo Black Matte009"
+      },
+      {
+        "name": "Peca169",
+        "label": "Box transparente + Addra Livo Black Matte010"
+      },
+      {
+        "name": "Peca170",
+        "label": "Box transparente + Addra Livo Black Matte011"
+      },
+      {
+        "name": "Peca171",
+        "label": "Box transparente + Addra Livo Black Matte012"
+      },
+      {
+        "name": "Peca172",
+        "label": "Box transparente + Addra Livo Black Matte013"
+      },
+      {
+        "name": "Peca173",
+        "label": "Box transparente + Addra Livo Black Matte014"
+      },
+      {
+        "name": "Peca174",
+        "label": "Box transparente + Addra Livo Black Matte015"
+      },
+      {
+        "name": "Peca175",
+        "label": "Box transparente + Addra Livo Black Matte016"
+      },
+      {
+        "name": "Peca176",
+        "label": "Box transparente + Addra Livo Black Matte017"
+      },
+      {
+        "name": "Peca177",
+        "label": "Box transparente + Addra Livo Black Matte018"
+      },
+      {
+        "name": "Peca178",
+        "label": "Box transparente + Addra Livo Black Matte019"
+      },
+      {
+        "name": "Peca179",
+        "label": "Box transparente + Addra Livo Black Matte020"
+      },
+      {
+        "name": "Peca180",
+        "label": "Box transparente + Addra Livo Black Matte021"
+      },
+      {
+        "name": "Peca181",
+        "label": "Box transparente + Addra Livo Black Matte022"
+      },
+      {
+        "name": "Peca182",
+        "label": "Box transparente + Addra Livo Black Matte023"
+      },
+      {
+        "name": "Peca183",
+        "label": "Box transparente + Addra Livo Black Matte024"
+      },
+      {
+        "name": "Peca184",
+        "label": "Prateleira do box em Branco Itaúnas"
+      },
+      {
+        "name": "Peca185",
+        "label": "Cuba Deca Slim branca L.13040.17"
+      },
+      {
+        "name": "Peca186",
+        "label": "Addra Arion Black · bica alta"
+      },
+      {
+        "name": "Peca187",
+        "label": "Addra Arion Black · bica alta001"
+      },
+      {
+        "name": "Peca188",
+        "label": "Luz frontal para maquiagem"
+      },
+      {
+        "name": "Peca189",
+        "label": "Luz frontal para maquiagem001"
+      },
+      {
+        "name": "Peca190",
+        "label": "Celite VIP branco · kit 1977230012300"
+      },
+      {
+        "name": "Peca191",
+        "label": "Ducha higiênica preta quente e fria"
+      },
+      {
+        "name": "Peca192",
+        "label": "Ducha higiênica preta quente e fria001"
+      },
+      {
+        "name": "Peca193",
+        "label": "Ducha higiênica preta quente e fria002"
+      },
+      {
+        "name": "Peca194",
+        "label": "Ducha higiênica preta quente e fria003"
+      },
+      {
+        "name": "Peca195",
+        "label": "Ducha higiênica preta quente e fria004"
+      },
+      {
+        "name": "Peca196",
+        "label": "Ducha higiênica preta quente e fria005"
+      },
+      {
+        "name": "Peca197",
+        "label": "Ducha higiênica preta quente e fria006"
+      },
+      {
+        "name": "Peca198",
+        "label": "Ducha higiênica preta quente e fria007"
+      },
+      {
+        "name": "Peca199",
+        "label": "Ducha higiênica preta quente e fria008"
+      },
+      {
+        "name": "Peca200",
+        "label": "Ducha higiênica preta quente e fria009"
+      },
+      {
+        "name": "Peca201",
+        "label": "Ducha higiênica preta quente e fria010"
+      },
+      {
+        "name": "Peca202",
+        "label": "Ducha higiênica preta quente e fria011"
+      },
+      {
+        "name": "Peca203",
+        "label": "Ducha higiênica preta quente e fria012"
+      },
+      {
+        "name": "Peca204",
+        "label": "Ducha higiênica preta quente e fria013"
+      },
+      {
+        "name": "Peca205",
+        "label": "Ducha higiênica preta quente e fria014"
+      },
+      {
+        "name": "Peca399",
+        "label": "Bancada banheiro · cuba a recortar"
+      },
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007"
+      }
+    ],
+    "Modulo018": [
+      {
+        "name": "Peca008",
+        "label": "floor008"
+      },
+      {
+        "name": "Peca071",
+        "label": "glass004"
+      },
+      {
+        "name": "Peca072",
+        "label": "box004"
+      },
+      {
+        "name": "Peca075",
+        "label": "door002"
+      },
+      {
+        "name": "Peca158",
+        "label": "Box transparente + Addra Livo Black Matte"
+      },
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente"
+      },
+      {
+        "name": "Peca160",
+        "label": "Box transparente + Addra Livo Black Matte001"
+      },
+      {
+        "name": "Peca161",
+        "label": "Box transparente + Addra Livo Black Matte002"
+      },
+      {
+        "name": "Peca162",
+        "label": "Box transparente + Addra Livo Black Matte003"
+      },
+      {
+        "name": "Peca163",
+        "label": "Box transparente + Addra Livo Black Matte004"
+      },
+      {
+        "name": "Peca164",
+        "label": "Box transparente + Addra Livo Black Matte005"
+      },
+      {
+        "name": "Peca165",
+        "label": "Box transparente + Addra Livo Black Matte006"
+      },
+      {
+        "name": "Peca166",
+        "label": "Box transparente + Addra Livo Black Matte007"
+      },
+      {
+        "name": "Peca167",
+        "label": "Box transparente + Addra Livo Black Matte008"
+      },
+      {
+        "name": "Peca168",
+        "label": "Box transparente + Addra Livo Black Matte009"
+      },
+      {
+        "name": "Peca169",
+        "label": "Box transparente + Addra Livo Black Matte010"
+      },
+      {
+        "name": "Peca170",
+        "label": "Box transparente + Addra Livo Black Matte011"
+      },
+      {
+        "name": "Peca171",
+        "label": "Box transparente + Addra Livo Black Matte012"
+      },
+      {
+        "name": "Peca172",
+        "label": "Box transparente + Addra Livo Black Matte013"
+      },
+      {
+        "name": "Peca173",
+        "label": "Box transparente + Addra Livo Black Matte014"
+      },
+      {
+        "name": "Peca174",
+        "label": "Box transparente + Addra Livo Black Matte015"
+      },
+      {
+        "name": "Peca175",
+        "label": "Box transparente + Addra Livo Black Matte016"
+      },
+      {
+        "name": "Peca176",
+        "label": "Box transparente + Addra Livo Black Matte017"
+      },
+      {
+        "name": "Peca177",
+        "label": "Box transparente + Addra Livo Black Matte018"
+      },
+      {
+        "name": "Peca178",
+        "label": "Box transparente + Addra Livo Black Matte019"
+      },
+      {
+        "name": "Peca179",
+        "label": "Box transparente + Addra Livo Black Matte020"
+      },
+      {
+        "name": "Peca180",
+        "label": "Box transparente + Addra Livo Black Matte021"
+      },
+      {
+        "name": "Peca181",
+        "label": "Box transparente + Addra Livo Black Matte022"
+      },
+      {
+        "name": "Peca182",
+        "label": "Box transparente + Addra Livo Black Matte023"
+      },
+      {
+        "name": "Peca183",
+        "label": "Box transparente + Addra Livo Black Matte024"
+      },
+      {
+        "name": "Peca184",
+        "label": "Prateleira do box em Branco Itaúnas"
+      },
+      {
+        "name": "Peca185",
+        "label": "Cuba Deca Slim branca L.13040.17"
+      },
+      {
+        "name": "Peca186",
+        "label": "Addra Arion Black · bica alta"
+      },
+      {
+        "name": "Peca187",
+        "label": "Addra Arion Black · bica alta001"
+      },
+      {
+        "name": "Peca188",
+        "label": "Luz frontal para maquiagem"
+      },
+      {
+        "name": "Peca189",
+        "label": "Luz frontal para maquiagem001"
+      },
+      {
+        "name": "Peca190",
+        "label": "Celite VIP branco · kit 1977230012300"
+      },
+      {
+        "name": "Peca191",
+        "label": "Ducha higiênica preta quente e fria"
+      },
+      {
+        "name": "Peca192",
+        "label": "Ducha higiênica preta quente e fria001"
+      },
+      {
+        "name": "Peca193",
+        "label": "Ducha higiênica preta quente e fria002"
+      },
+      {
+        "name": "Peca194",
+        "label": "Ducha higiênica preta quente e fria003"
+      },
+      {
+        "name": "Peca195",
+        "label": "Ducha higiênica preta quente e fria004"
+      },
+      {
+        "name": "Peca196",
+        "label": "Ducha higiênica preta quente e fria005"
+      },
+      {
+        "name": "Peca197",
+        "label": "Ducha higiênica preta quente e fria006"
+      },
+      {
+        "name": "Peca198",
+        "label": "Ducha higiênica preta quente e fria007"
+      },
+      {
+        "name": "Peca199",
+        "label": "Ducha higiênica preta quente e fria008"
+      },
+      {
+        "name": "Peca200",
+        "label": "Ducha higiênica preta quente e fria009"
+      },
+      {
+        "name": "Peca201",
+        "label": "Ducha higiênica preta quente e fria010"
+      },
+      {
+        "name": "Peca202",
+        "label": "Ducha higiênica preta quente e fria011"
+      },
+      {
+        "name": "Peca203",
+        "label": "Ducha higiênica preta quente e fria012"
+      },
+      {
+        "name": "Peca204",
+        "label": "Ducha higiênica preta quente e fria013"
+      },
+      {
+        "name": "Peca205",
+        "label": "Ducha higiênica preta quente e fria014"
+      },
+      {
+        "name": "Peca399",
+        "label": "Bancada banheiro · cuba a recortar"
+      },
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007"
+      }
+    ]
+  },
+  "supplemental_native110": [
+    {
+      "door": "FolhaBanheiroR12",
+      "angle_deg": 110,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "angle_deg": 110,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle_deg": 110,
+      "hits": [
+        {
+          "moving": "EspelhoAplicadoR12",
+          "target": "Peca400",
+          "mm3": 1102.2403328902349
+        }
+      ]
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle_deg": 110,
+      "hits": [
+        {
+          "moving": "EspelhoAplicadoR001",
+          "target": "Peca401",
+          "mm3": 1102.2403328900716
+        }
+      ]
+    }
+  ],
+  "scope": "Quatro folhas R12 e ferragens contra paredes inteiras/volumes diretos do banheiro;110 é estudo adicional antes de decidir curso. Não valida medidas físicas, alavanca real, sifão, tubulação ou todas as poses da porta de entrada."
+}

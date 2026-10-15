@@ -1,0 +1,74 @@
+[
+  {
+    "drawer": "Gaveta de roupa",
+    "wood_volume_m3": 0.005380033122881343,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "Gaveta de roupa001",
+    "wood_volume_m3": 0.005380033122881343,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "Gaveta de roupa002",
+    "wood_volume_m3": 0.005380033122881343,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "Gaveta de roupa003",
+    "wood_volume_m3": 0.005380033122881343,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "G3 · mantimentos",
+    "wood_volume_m3": 0.017361705122881346,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "G2 · utensílios",
+    "wood_volume_m3": 0.008402060011034813,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "G1 · talheres",
+    "wood_volume_m3": 0.007772645122881345,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "Gaveta escritório 1",
+    "wood_volume_m3": 0.004192994122881345,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  },
+  {
+    "drawer": "Gaveta escritório 2",
+    "wood_volume_m3": 0.004192994122881345,
+    "wood_mass_formula_kg": "volume_m3 * densidade_real_kg_m3",
+    "nominal_candidate_kg": 40,
+    "payload_formula_kg": "40 - madeira - bandejas/organizadores - outros componentes móveis - conteúdo",
+    "mass_known": false
+  }
+]

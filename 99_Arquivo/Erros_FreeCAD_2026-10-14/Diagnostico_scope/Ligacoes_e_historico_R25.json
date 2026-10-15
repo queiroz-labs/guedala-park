@@ -1,0 +1,752 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Programa_R25_2026-10-14\\Guedala_Park_R25_Programa_Conferido.FCStd",
+  "doc_objects": 5898,
+  "parameter_links": [
+    {
+      "object": "Modulo",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes",
+      "owner_group_parents": [
+        "Ambiente_quarto"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo001",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes001",
+      "owner_group_parents": [
+        "Ambiente_quarto"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo002",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes002",
+      "owner_group_parents": [
+        "Ambiente_quarto"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo003",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes003",
+      "owner_group_parents": [
+        "Ambiente_quarto"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo004",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes004",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo005",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes005",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo006",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes006",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo007",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes007",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo008",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes008",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo009",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes009",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo010",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes010",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo011",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes011",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo012",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes012",
+      "owner_group_parents": [
+        "Ambiente_cozinha"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo013",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes013",
+      "owner_group_parents": [
+        "Ambiente_lavanderia"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo014",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes014",
+      "owner_group_parents": [
+        "Ambiente_lavanderia"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo015",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes015",
+      "owner_group_parents": [
+        "Ambiente_escritorio"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo016",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes016",
+      "owner_group_parents": [
+        "Ambiente_escritorio"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo017",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes017",
+      "owner_group_parents": [
+        "Ambiente_banho"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo018",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes018",
+      "owner_group_parents": [
+        "Ambiente_banho"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    },
+    {
+      "object": "Modulo019",
+      "property": "PlanilhaDimensoes",
+      "property_type": "App::PropertyLink",
+      "target": "Dimensoes019",
+      "owner_group_parents": [
+        "Ambiente_sala"
+      ],
+      "owner_geometric_parents": [],
+      "target_group_parents": [
+        "Documentacao"
+      ],
+      "target_geometric_parents": []
+    }
+  ],
+  "owner_property_counts": {
+    "PlanilhaDimensoes": 20
+  },
+  "property_types": {
+    "App::PropertyLink": 20
+  },
+  "historical_scope_lines": [
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes' go out of the allowed scope 'Modulo'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes001 ControleCanto' go out of the allowed scope 'Modulo001'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes002' go out of the allowed scope 'Modulo002'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes003' go out of the allowed scope 'Modulo003'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes004' go out of the allowed scope 'Modulo004'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes005' go out of the allowed scope 'Modulo005'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes007' go out of the allowed scope 'Modulo007'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes008' go out of the allowed scope 'Modulo008'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes009' go out of the allowed scope 'Modulo009'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes010' go out of the allowed scope 'Modulo010'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes011' go out of the allowed scope 'Modulo011'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes013' go out of the allowed scope 'Modulo013'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes014' go out of the allowed scope 'Modulo014'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes015' go out of the allowed scope 'Modulo015'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:15  App::Part: Link(s) to object(s) 'Dimensoes016' go out of the allowed scope 'Modulo016'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:18  App::Part: Link(s) to object(s) 'Dimensoes017' go out of the allowed scope 'Modulo017'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:18  App::Part: Link(s) to object(s) 'Dimensoes018' go out of the allowed scope 'Modulo018'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:23:18  App::Part: Link(s) to object(s) 'Dimensoes019' go out of the allowed scope 'Modulo019'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes' go out of the allowed scope 'Modulo'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes001 ControleCanto' go out of the allowed scope 'Modulo001'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes005' go out of the allowed scope 'Modulo005'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes007' go out of the allowed scope 'Modulo007'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes013' go out of the allowed scope 'Modulo013'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes015' go out of the allowed scope 'Modulo015'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes016' go out of the allowed scope 'Modulo016'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes017' go out of the allowed scope 'Modulo017'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes018' go out of the allowed scope 'Modulo018'. Instead, the linked object(s) reside within 'N/A'.",
+    "08:27:05  App::Part: Link(s) to object(s) 'Dimensoes019' go out of the allowed scope 'Modulo019'. Instead, the linked object(s) reside within 'N/A'.",
+    "09:11:14  App::DocumentObjectGroup: Link(s) to object(s) 'Gaveta' go out of the allowed scope 'ControlesAmbienteR21'. Instead, the linked object(s) reside within 'Modulo EspelhoPecaR013'."
+  ],
+  "historical_scope_timestamps": {
+    "08:23:15": 15,
+    "08:23:18": 3,
+    "08:27:05": 10,
+    "09:11:14": 1
+  },
+  "module_corner_expression_xml": "<Property name=\"ExpressionEngine\" type=\"App::PropertyExpressionEngine\" status=\"67108864\">\n                    <ExpressionEngine count=\"7\">\n                        <Expression path=\"Altura\" expression=\"Dimensoes001.Altura\" />\n                        <Expression path=\"Chapa\" expression=\"Dimensoes001.Chapa\" />\n                        <Expression path=\"Comprimento\" expression=\"Dimensoes001.Comprimento\" />\n                        <Expression path=\"Frente\" expression=\"Dimensoes001.Frente\" />\n                        <Expression path=\"Fundo\" expression=\"Dimensoes001.Fundo\" />\n                        <Expression path=\"Junta\" expression=\"Dimensoes001.Junta\" />\n                        <Expression path=\"Profundidade\" expression=\"Dimensoes001.Profundidade\" />\n                    </ExpressionEngine>\n                </Property>\n                ",
+  "aborted_R19_wrapper_exists_in_R25": false,
+  "aborted_R19_geometric_room_parts_in_R25": [],
+  "FonteControle_property_present_in_R25": false,
+  "distinct_AppPart_warning_count": 28,
+  "distinct_DocGroup_warning_count": 1,
+  "current_ControleCanto_expression_dependents": [
+    {
+      "object": "Folha003",
+      "field": ".Placement.Base.x",
+      "expression": "(1800 mm - ControleCanto.Faixa) * 3 / 4 + 1 mm"
+    },
+    {
+      "object": "Folha003",
+      "field": "Abertura",
+      "expression": "-ControleCanto.Vizinha"
+    },
+    {
+      "object": "Peca274",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NBoardStart * 1 mm"
+    },
+    {
+      "object": "Peca274",
+      "field": "Length",
+      "expression": "(1800 mm - ControleCanto.Faixa) / 4 - 2 mm"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "field": ".Placement.Base.x",
+      "expression": "1800 mm - ControleCanto.Faixa"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.Recuo"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "field": ".Placement.Base.z",
+      "expression": "ControleCanto.Recuo == 0 mm ? 1 mm : 18 mm"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "field": "Height",
+      "expression": "ControleCanto.Recuo == 0 mm ? 306 mm : 272 mm"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "field": "Length",
+      "expression": "max(1 mm; ControleCanto.Faixa - (ControleCanto.Recuo == 0 mm ? 0 mm : 18 mm))"
+    },
+    {
+      "object": "FolhaAReal",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.DeltaAx * 1 mm"
+    },
+    {
+      "object": "FolhaAReal",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.DeltaAy * 1 mm"
+    },
+    {
+      "object": "FolhaAReal",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.PrincipalReal"
+    },
+    {
+      "object": "FolhaBReal",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.DeltaBx * 1 mm"
+    },
+    {
+      "object": "FolhaBReal",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.DeltaBy * 1 mm"
+    },
+    {
+      "object": "FolhaBReal",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.PrincipalReal + ControleCanto.BetaReal"
+    },
+    {
+      "object": "PrincipalCorpoR002",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T2x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR002",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T2z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR002",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta2"
+    },
+    {
+      "object": "PrincipalCorpoR003",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T3x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR003",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T3z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR003",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta3"
+    },
+    {
+      "object": "PrincipalCorpoR004",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T4x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR004",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T4z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR004",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.DriveQ"
+    },
+    {
+      "object": "PrincipalCorpoR005",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T5x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR005",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T5z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR005",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta5"
+    },
+    {
+      "object": "PrincipalCorpoR006",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T6x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR006",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T6z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR006",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta6"
+    },
+    {
+      "object": "LimitadorR03",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T6x * 1 mm"
+    },
+    {
+      "object": "LimitadorR03",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T6z * 1 mm"
+    },
+    {
+      "object": "LimitadorR03",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta6"
+    },
+    {
+      "object": "BracoUniaoMovel",
+      "field": ".Placement.Base.x",
+      "expression": "27 mm - 27 mm * cos(ControleCanto.BetaReal) + 49.5 mm * sin(ControleCanto.BetaReal)"
+    },
+    {
+      "object": "BracoUniaoMovel",
+      "field": ".Placement.Base.y",
+      "expression": "49.5 mm - 27 mm * sin(ControleCanto.BetaReal) - 49.5 mm * cos(ControleCanto.BetaReal)"
+    },
+    {
+      "object": "BracoUniaoMovel",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.BetaReal"
+    },
+    {
+      "object": "PrincipalCorpoR009",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T2x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR009",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T2z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR009",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta2"
+    },
+    {
+      "object": "PrincipalCorpoR010",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T3x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR010",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T3z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR010",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta3"
+    },
+    {
+      "object": "PrincipalCorpoR011",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T4x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR011",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T4z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR011",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.DriveQ"
+    },
+    {
+      "object": "PrincipalCorpoR012",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T5x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR012",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T5z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR012",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta5"
+    },
+    {
+      "object": "PrincipalCorpoR013",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T6x * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR013",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T6z * 1 mm"
+    },
+    {
+      "object": "PrincipalCorpoR013",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta6"
+    },
+    {
+      "object": "LimitadorR001",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.T6x * 1 mm"
+    },
+    {
+      "object": "LimitadorR001",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.T6z * 1 mm"
+    },
+    {
+      "object": "LimitadorR001",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "-ControleCanto.Theta6"
+    },
+    {
+      "object": "BracoUniaoMovel001",
+      "field": ".Placement.Base.x",
+      "expression": "27 mm - 27 mm * cos(ControleCanto.BetaReal) + 49.5 mm * sin(ControleCanto.BetaReal)"
+    },
+    {
+      "object": "BracoUniaoMovel001",
+      "field": ".Placement.Base.y",
+      "expression": "49.5 mm - 27 mm * sin(ControleCanto.BetaReal) - 49.5 mm * cos(ControleCanto.BetaReal)"
+    },
+    {
+      "object": "BracoUniaoMovel001",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.BetaReal"
+    },
+    {
+      "object": "VizinhaCADR03",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NDeltaX * 1 mm"
+    },
+    {
+      "object": "VizinhaCADR03",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NDeltaY * 1 mm"
+    },
+    {
+      "object": "VizinhaCADR03",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NThetaCup"
+    },
+    {
+      "object": "CanecoVizinhaR03",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NmountY * 1 mm + 16 mm"
+    },
+    {
+      "object": "CanecoVizinhaR001",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NmountY * 1 mm + 16 mm"
+    },
+    {
+      "object": "DivisorApoioVizinhaR03",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NmountY * 1 mm - 18 mm"
+    },
+    {
+      "object": "BlumVizinhaR03",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NmountY * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR002",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT2z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR002",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT2x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR002",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NTheta2"
+    },
+    {
+      "object": "VizinhaCorpoR003",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT3z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR003",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT3x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR003",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NTheta3"
+    },
+    {
+      "object": "VizinhaCorpoR004",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT4z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR004",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT4x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR004",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NThetaCup"
+    },
+    {
+      "object": "BlumVizinhaR001",
+      "field": ".Placement.Base.y",
+      "expression": "ControleCanto.NmountY * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR007",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT2z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR007",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT2x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR007",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NTheta2"
+    },
+    {
+      "object": "VizinhaCorpoR008",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT3z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR008",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT3x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR008",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NTheta3"
+    },
+    {
+      "object": "VizinhaCorpoR009",
+      "field": ".Placement.Base.x",
+      "expression": "ControleCanto.NT4z * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR009",
+      "field": ".Placement.Base.y",
+      "expression": "-ControleCanto.NT4x * 1 mm"
+    },
+    {
+      "object": "VizinhaCorpoR009",
+      "field": ".Placement.Rotation.Angle",
+      "expression": "ControleCanto.NThetaCup"
+    }
+  ]
+}

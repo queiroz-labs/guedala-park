@@ -1,0 +1,105 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Canto_2026-10-13\\Guedala_Park_R02_Canto.FCStd",
+  "poses": [
+    {
+      "name": "R01_colisao",
+      "alpha": 10,
+      "beta": 0,
+      "neighbour": 11.055,
+      "filler_mm": 0,
+      "neighbour_intersection_mm3": 133611.587,
+      "distance_to_neighbour_mm": 0.0,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "Faixa_alinhada_bate",
+      "alpha": 1,
+      "beta": 0,
+      "neighbour": 0,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 146.765,
+      "recess_mm": 0,
+      "intersection_with_fixed_strip_mm3": 13988.109,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "Faixa_recuada_inicio",
+      "alpha": 1,
+      "beta": 0,
+      "neighbour": 0,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 146.765,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "R02_mesma_abertura",
+      "alpha": 10,
+      "beta": 0,
+      "neighbour": 11.055,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 91.689,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "R02_posicao_critica",
+      "alpha": 23.75,
+      "beta": 0,
+      "neighbour": 24,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 54.228,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "R02_abertura_maxima",
+      "alpha": 92,
+      "beta": 60,
+      "neighbour": 90,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 538.343,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "R03_faixa20_abertura",
+      "alpha": 92,
+      "beta": 60,
+      "neighbour": 90,
+      "filler_mm": 200,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 576.402,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 0.0
+    },
+    {
+      "name": "Sem_limitador_155",
+      "alpha": 155,
+      "beta": 60,
+      "neighbour": 0,
+      "filler_mm": 150,
+      "neighbour_intersection_mm3": 0.0,
+      "distance_to_neighbour_mm": 663.814,
+      "recess_mm": 40,
+      "intersection_with_fixed_strip_mm3": 0.0,
+      "intersection_with_maleiro_fronts_mm3": 121032.476
+    }
+  ],
+  "invalid_objects": [],
+  "manufacturer_linkage_imported": false,
+  "default_variant": "Faixa nominal 150 mm, recuada 40 mm: proposta, não aprovada.",
+  "scope": "Colisões 3D em poses selecionadas + varredura 2D independente. Giro ideal, não modelo cinemático das dobradiças reais."
+}

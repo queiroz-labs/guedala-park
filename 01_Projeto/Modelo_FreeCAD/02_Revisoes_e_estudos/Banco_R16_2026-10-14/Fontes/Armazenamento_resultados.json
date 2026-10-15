@@ -1,0 +1,997 @@
+{
+  "date": "2026-10-08",
+  "units": "cm",
+  "status": "Organização funcional aprovada em 08/10/2026; execução condicionada às verificações técnicas",
+  "approval": {
+    "date": "2026-10-08",
+    "quote": "ok, aprovado",
+    "scope": "Organização da cozinha e do banco apresentada na prancha, incluindo a fruteira com base ventilada",
+    "functionalLayoutApproved": true,
+    "executiveDimensionsValidated": false,
+    "fabricationReleased": false
+  },
+  "newUserFacts": {
+    "thermalStored": "Vazia e seca após o uso",
+    "produceStock": "Poucas unidades"
+  },
+  "outsideBench": [
+    180,
+    55,
+    47
+  ],
+  "seatDepth": 45,
+  "routeModel": {
+    "lidThickness": 6,
+    "status": "Ensaio inicial histórico; ver Detalhe_banco_resultados.json para revisão com assento real de 7 cm e alternativa de tampas finas"
+  },
+  "section": [
+    {
+      "id": "Potes, travessas e batedeira",
+      "x": 0,
+      "y": 0,
+      "z": 8,
+      "w": 36.2,
+      "d": 39,
+      "h": 32
+    },
+    {
+      "id": "Liquidificador e bebidas",
+      "x": 38,
+      "y": 0,
+      "z": 10,
+      "w": 35,
+      "d": 39,
+      "h": 30
+    },
+    {
+      "id": "Balde",
+      "x": 74.8,
+      "y": 0,
+      "z": 10,
+      "w": 19.8,
+      "d": 39,
+      "h": 30
+    }
+  ],
+  "dividers": [
+    {
+      "id": "Divisória limpa",
+      "x": 36.2,
+      "y": 0,
+      "z": 8,
+      "w": 1.8,
+      "d": 39,
+      "h": 32
+    },
+    {
+      "id": "Separação do balde",
+      "x": 73,
+      "y": 0,
+      "z": 8,
+      "w": 1.8,
+      "d": 39,
+      "h": 32
+    }
+  ],
+  "pots": [
+    {
+      "id": "Pote 1",
+      "x": 1,
+      "y": 1,
+      "z": 31.3,
+      "w": 14.5,
+      "d": 19,
+      "h": 4.7
+    },
+    {
+      "id": "Pote 2",
+      "x": 1,
+      "y": 1,
+      "z": 26.4,
+      "w": 14.5,
+      "d": 19,
+      "h": 4.7
+    },
+    {
+      "id": "Pote 3",
+      "x": 16.5,
+      "y": 1,
+      "z": 31.3,
+      "w": 14.5,
+      "d": 19,
+      "h": 4.7
+    },
+    {
+      "id": "Pote 4",
+      "x": 16.5,
+      "y": 1,
+      "z": 26.4,
+      "w": 14.5,
+      "d": 19,
+      "h": 4.7
+    },
+    {
+      "id": "Pote 5",
+      "x": 8.6,
+      "y": 22,
+      "z": 31.3,
+      "w": 19,
+      "d": 14.5,
+      "h": 4.7
+    },
+    {
+      "id": "Pote 6",
+      "x": 8.6,
+      "y": 22,
+      "z": 26.4,
+      "w": 19,
+      "d": 14.5,
+      "h": 4.7
+    }
+  ],
+  "panels": [
+    {
+      "id": "Apoio frontal",
+      "x": 0,
+      "y": 21,
+      "z": 23.8,
+      "w": 36.2,
+      "d": 18,
+      "h": 2.4
+    },
+    {
+      "id": "Apoio posterior",
+      "x": 0,
+      "y": 0,
+      "z": 23.8,
+      "w": 36.2,
+      "d": 20.5,
+      "h": 2.4
+    }
+  ],
+  "lower": [
+    {
+      "id": "Travessas",
+      "x": 1.1,
+      "y": 16,
+      "z": 8.3,
+      "w": 34,
+      "d": 22,
+      "h": 10
+    },
+    {
+      "id": "Batedeira",
+      "x": 3.1,
+      "y": 1,
+      "z": 8.3,
+      "w": 30,
+      "d": 14,
+      "h": 12
+    },
+    {
+      "id": "Motor",
+      "x": 39,
+      "y": 1,
+      "z": 10.3,
+      "w": 18,
+      "d": 18,
+      "h": 20
+    },
+    {
+      "id": "Jarra do liquidificador",
+      "x": 39,
+      "y": 20,
+      "z": 10.3,
+      "w": 18,
+      "d": 18,
+      "h": 24
+    }
+  ],
+  "drinks": [
+    {
+      "id": "Térmica vazia e seca",
+      "x": 58.5,
+      "y": 19.4,
+      "z": 10.3,
+      "w": 13.0175,
+      "d": 16.51,
+      "h": 24.765
+    },
+    {
+      "id": "Jarra 1,5 L",
+      "x": 59.25,
+      "y": 2.4,
+      "z": 10.3,
+      "w": 11.5,
+      "d": 16,
+      "h": 23
+    }
+  ],
+  "bucket": {
+    "id": "Balde 8 L",
+    "x": 76.7,
+    "y": 2.3,
+    "z": 10.3,
+    "w": 16,
+    "d": 33,
+    "h": 25
+  },
+  "tray": {
+    "outer": {
+      "id": "Contenção removível",
+      "x": 75.7,
+      "y": 1,
+      "z": 10,
+      "w": 18,
+      "d": 35,
+      "h": 3.3
+    },
+    "inside": {
+      "id": "Interior da contenção",
+      "x": 76.1,
+      "y": 1.4,
+      "z": 10.3,
+      "w": 17.2,
+      "d": 34.2,
+      "h": 3
+    }
+  },
+  "leaf": {
+    "unchangedStart": 98.2,
+    "unchangedEnd": 178.2,
+    "niche": [
+      80,
+      35,
+      7
+    ],
+    "underCells": [
+      39.1,
+      39,
+      20.2
+    ],
+    "selectionEach": [
+      37.1,
+      35,
+      16.4
+    ],
+    "vacuumAndGamesStillHypothetical": true
+  },
+  "clearances": {
+    "below": 3.5,
+    "above": 4,
+    "assemblyMax": 2.8999999999999995,
+    "assemblyBudget": 2.4,
+    "positiveExtraAboveRequired": 0.5,
+    "drinkSideToBucketPartition": 1.4825000000000017,
+    "cleanFloor": 8,
+    "oldFloor": 10,
+    "assumedFloorThickness": 1.8,
+    "underCleanFloor": 6.2
+  },
+  "parking": {
+    "area": [
+      67,
+      95
+    ],
+    "table": [
+      75,
+      150
+    ],
+    "items": [
+      {
+        "id": "Pote estacionado 1",
+        "x": 2,
+        "y": 2,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Pote estacionado 2",
+        "x": 22,
+        "y": 2,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Pote estacionado 3",
+        "x": 2,
+        "y": 17.5,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Pote estacionado 4",
+        "x": 22,
+        "y": 17.5,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Pote estacionado 5",
+        "x": 2,
+        "y": 33,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Pote estacionado 6",
+        "x": 22,
+        "y": 33,
+        "z": 0,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "Apoio posterior estacionado",
+        "x": 44,
+        "y": 2,
+        "z": 0,
+        "w": 20.5,
+        "d": 36.2,
+        "h": 2.4
+      },
+      {
+        "id": "Apoio frontal estacionado",
+        "x": 44,
+        "y": 40,
+        "z": 0,
+        "w": 18,
+        "d": 36.2,
+        "h": 2.4
+      },
+      {
+        "id": "Travessas estacionadas",
+        "x": 2,
+        "y": 51,
+        "z": 0,
+        "w": 34,
+        "d": 22,
+        "h": 10
+      },
+      {
+        "id": "Batedeira estacionada",
+        "x": 2,
+        "y": 77,
+        "z": 0,
+        "w": 30,
+        "d": 14,
+        "h": 12
+      }
+    ],
+    "staticOnly": true,
+    "tableMustBeCleared": true
+  },
+  "routes": [
+    {
+      "id": "Pote 1",
+      "nodes": [
+        {
+          "id": "Pote 1",
+          "x": 20.799999999999997,
+          "y": 2.8,
+          "z": 31.3,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 1",
+          "x": 20.799999999999997,
+          "y": 2.8,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 1",
+          "x": 8,
+          "y": 2.8,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 1",
+          "x": 8,
+          "y": 2.8,
+          "z": 97,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Pote 2",
+      "nodes": [
+        {
+          "id": "Pote 2",
+          "x": 20.799999999999997,
+          "y": 2.8,
+          "z": 26.4,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 2",
+          "x": 20.799999999999997,
+          "y": 2.8,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 2",
+          "x": 8,
+          "y": 2.8,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 2",
+          "x": 8,
+          "y": 2.8,
+          "z": 97,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Pote 3",
+      "nodes": [
+        {
+          "id": "Pote 3",
+          "x": 20.799999999999997,
+          "y": 18.3,
+          "z": 31.3,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 3",
+          "x": 20.799999999999997,
+          "y": 18.3,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 3",
+          "x": 8,
+          "y": 18.3,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 3",
+          "x": 8,
+          "y": 18.3,
+          "z": 97,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Pote 4",
+      "nodes": [
+        {
+          "id": "Pote 4",
+          "x": 20.799999999999997,
+          "y": 18.3,
+          "z": 26.4,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 4",
+          "x": 20.799999999999997,
+          "y": 18.3,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 4",
+          "x": 8,
+          "y": 18.3,
+          "z": 36.6,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 4",
+          "x": 8,
+          "y": 18.3,
+          "z": 97,
+          "w": 19,
+          "d": 14.5,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Pote 5",
+      "nodes": [
+        {
+          "id": "Pote 5",
+          "x": 4.299999999999997,
+          "y": 10.4,
+          "z": 31.3,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 5",
+          "x": 4.299999999999997,
+          "y": 10.4,
+          "z": 36.6,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 5",
+          "x": 8,
+          "y": 10.4,
+          "z": 36.6,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 5",
+          "x": 8,
+          "y": 10.4,
+          "z": 97,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Pote 6",
+      "nodes": [
+        {
+          "id": "Pote 6",
+          "x": 4.299999999999997,
+          "y": 10.4,
+          "z": 26.4,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 6",
+          "x": 4.299999999999997,
+          "y": 10.4,
+          "z": 36.6,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 6",
+          "x": 8,
+          "y": 10.4,
+          "z": 36.6,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        },
+        {
+          "id": "Pote 6",
+          "x": 8,
+          "y": 10.4,
+          "z": 97,
+          "w": 14.5,
+          "d": 19,
+          "h": 4.7
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Apoio frontal",
+      "nodes": [
+        {
+          "id": "Apoio frontal",
+          "x": 1.7999999999999972,
+          "y": 1.8,
+          "z": 23.8,
+          "w": 18,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio frontal",
+          "x": 1.7999999999999972,
+          "y": 1.8,
+          "z": 31,
+          "w": 18,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio frontal",
+          "x": 8,
+          "y": 1.8,
+          "z": 31,
+          "w": 18,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio frontal",
+          "x": 8,
+          "y": 1.8,
+          "z": 97,
+          "w": 18,
+          "d": 36.2,
+          "h": 2.4
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Apoio posterior",
+      "nodes": [
+        {
+          "id": "Apoio posterior",
+          "x": 20.299999999999997,
+          "y": 1.8,
+          "z": 23.8,
+          "w": 20.5,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio posterior",
+          "x": 20.299999999999997,
+          "y": 1.8,
+          "z": 31,
+          "w": 20.5,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio posterior",
+          "x": 8,
+          "y": 1.8,
+          "z": 31,
+          "w": 20.5,
+          "d": 36.2,
+          "h": 2.4
+        },
+        {
+          "id": "Apoio posterior",
+          "x": 8,
+          "y": 1.8,
+          "z": 97,
+          "w": 20.5,
+          "d": 36.2,
+          "h": 2.4
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Travessas",
+      "nodes": [
+        {
+          "id": "Travessas",
+          "x": 2.799999999999997,
+          "y": 2.9000000000000004,
+          "z": 8.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "Travessas",
+          "x": 2.799999999999997,
+          "y": 2.9000000000000004,
+          "z": 21.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "Travessas",
+          "x": 8,
+          "y": 2.9000000000000004,
+          "z": 21.3,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        },
+        {
+          "id": "Travessas",
+          "x": 8,
+          "y": 2.9000000000000004,
+          "z": 97,
+          "w": 22,
+          "d": 34,
+          "h": 10
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Batedeira",
+      "nodes": [
+        {
+          "id": "Batedeira",
+          "x": 25.799999999999997,
+          "y": 4.9,
+          "z": 8.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "Batedeira",
+          "x": 25.799999999999997,
+          "y": 4.9,
+          "z": 8.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "Batedeira",
+          "x": 8,
+          "y": 4.9,
+          "z": 8.3,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        },
+        {
+          "id": "Batedeira",
+          "x": 8,
+          "y": 4.9,
+          "z": 97,
+          "w": 14,
+          "d": 30,
+          "h": 12
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Térmica vazia e seca",
+      "nodes": [
+        {
+          "id": "Térmica vazia e seca",
+          "x": 4.889999999999997,
+          "y": 60.3,
+          "z": 10.3,
+          "w": 16.51,
+          "d": 13.0175,
+          "h": 24.765
+        },
+        {
+          "id": "Térmica vazia e seca",
+          "x": 4.889999999999997,
+          "y": 60.3,
+          "z": 41,
+          "w": 16.51,
+          "d": 13.0175,
+          "h": 24.765
+        },
+        {
+          "id": "Térmica vazia e seca",
+          "x": 8,
+          "y": 60.3,
+          "z": 41,
+          "w": 16.51,
+          "d": 13.0175,
+          "h": 24.765
+        },
+        {
+          "id": "Térmica vazia e seca",
+          "x": 8,
+          "y": 60.3,
+          "z": 97,
+          "w": 16.51,
+          "d": 13.0175,
+          "h": 24.765
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Jarra 1,5 L",
+      "nodes": [
+        {
+          "id": "Jarra 1,5 L",
+          "x": 22.4,
+          "y": 61.05,
+          "z": 10.3,
+          "w": 16,
+          "d": 11.5,
+          "h": 23
+        },
+        {
+          "id": "Jarra 1,5 L",
+          "x": 22.4,
+          "y": 61.05,
+          "z": 41,
+          "w": 16,
+          "d": 11.5,
+          "h": 23
+        },
+        {
+          "id": "Jarra 1,5 L",
+          "x": 8,
+          "y": 61.05,
+          "z": 41,
+          "w": 16,
+          "d": 11.5,
+          "h": 23
+        },
+        {
+          "id": "Jarra 1,5 L",
+          "x": 8,
+          "y": 61.05,
+          "z": 97,
+          "w": 16,
+          "d": 11.5,
+          "h": 23
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    },
+    {
+      "id": "Balde 8 L",
+      "nodes": [
+        {
+          "id": "Balde 8 L",
+          "x": 5.5,
+          "y": 78.5,
+          "z": 10.3,
+          "w": 33,
+          "d": 16,
+          "h": 25
+        },
+        {
+          "id": "Balde 8 L",
+          "x": 5.5,
+          "y": 78.5,
+          "z": 41,
+          "w": 33,
+          "d": 16,
+          "h": 25
+        },
+        {
+          "id": "Balde 8 L",
+          "x": 5.5,
+          "y": 78.5,
+          "z": 41,
+          "w": 33,
+          "d": 16,
+          "h": 25
+        },
+        {
+          "id": "Balde 8 L",
+          "x": 5.5,
+          "y": 78.5,
+          "z": 97,
+          "w": 33,
+          "d": 16,
+          "h": 25
+        }
+      ],
+      "objectOnlyExtractionClear": true,
+      "transferToParkingAndHumanAccessValidated": false
+    }
+  ],
+  "produce": {
+    "userQuantity": "Poucas unidades; sem quantidade exata",
+    "status": "Direção funcional aceita em 08/10: fruteira com base ventilada. Dimensões são de estudo, sem produto ou fabricação aprovados.",
+    "location": "Base ventilada da fruteira sobre a mesa, reaproveitando o destino funcional da fruteira, sem afirmar mesma dimensão do objeto existente",
+    "outside": [
+      18,
+      30,
+      16
+    ],
+    "fruitTrayOutside": [
+      18,
+      30,
+      5.4
+    ],
+    "totalNominalHeight": 21.4,
+    "bins": [
+      {
+        "id": "Batatas",
+        "x": 0.4,
+        "y": 0.4,
+        "z": 0.4,
+        "w": 17.2,
+        "d": 16,
+        "h": 13.6
+      },
+      {
+        "id": "Cebolas",
+        "x": 0.4,
+        "y": 16.8,
+        "z": 0.4,
+        "w": 10,
+        "d": 12.8,
+        "h": 13.6
+      },
+      {
+        "id": "Alho",
+        "x": 10.8,
+        "y": 16.8,
+        "z": 0.4,
+        "w": 6.8,
+        "d": 12.8,
+        "h": 13.6
+      }
+    ],
+    "foodCapacityInUnitsOrKg": null,
+    "unverified": [
+      "Dimensões/quantidade dos alimentos",
+      "Ventilação e material",
+      "Volume de frutas",
+      "Posição durante refeições e extensão",
+      "Lugar temporário quando a mesa servir ao banco"
+    ]
+  },
+  "limitations": [
+    "Lower floor at 8 instead of 10 is a NEW construction hypothesis; underside 6.2 cm only if floor is 18 mm. No existing support or plinth may be cut by inference.",
+    "Support 24 mm is the complete construction envelope. Strength, retention, hinges and loads not dimensioned.",
+    "Actual product tolerances, handles and double-stack dimensions remain unknown. Existing product references are not new purchasing recommendations.",
+    "Separate clean/bucket lids and full-height partition are requirements; hinges, seals, access and spills not validated by these boxes.",
+    "Static table parking does not prove hand/body access, panel rotation or transfer trajectory.",
+    "Stock, G3 packages, C4 cups/glasses, mixer accessories, games, cycling and bags remain unquantified or without final physical fit."
+  ]
+}

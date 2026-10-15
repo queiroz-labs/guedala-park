@@ -1,0 +1,50 @@
+{
+  "base": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Programa_R25_2026-10-14\\Guedala_Park_R25_Programa_Conferido.FCStd",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Manutencao_R26_2026-10-14\\Guedala_Park_R26_Manutencao_Simples.FCStd",
+  "base_sha256_before": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "base_sha256_after": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "sha256": "94b8e59708276190908f7e66f5b5cb701b1a7d003c05b03d685c25bee1a7bb5f",
+  "objects_before": 5898,
+  "objects_after": 5899,
+  "changes": [
+    {
+      "name": "Peca147",
+      "fields": [
+        "expressions"
+      ]
+    },
+    {
+      "name": "Peca148",
+      "fields": [
+        "expressions"
+      ]
+    },
+    {
+      "name": "Peca149",
+      "fields": [
+        "expressions"
+      ]
+    },
+    {
+      "name": "ControlesAmbienteR003",
+      "fields": [
+        "group"
+      ]
+    }
+  ],
+  "new_control": "ControleLoopManutencaoR26",
+  "group": "ControlesAmbienteR003",
+  "bin_parts": [
+    "Peca147",
+    "Peca148",
+    "Peca149"
+  ],
+  "default_mm": 0,
+  "temporary_mm": 650,
+  "cesto_sequence_before": "Uso diário: abrir55, retirar saco445, endireitar55. Retirada completa da armação bate na Loop20L em300/400; retirar temporariamente a lixeira é proposta ainda sem endereço/manuseio comprovados. Não usar essa retirada como percurso livre. Controles independentes, sem intertravamento físico ou de software; ferragem/retenções/carga reais pendentes.",
+  "cesto_sequence_after": "Uso diário: abrir55, retirar saco445, endireitar55. Manutenção: no lugar habitual a armação bate na Loop20L em300/400; proposta R26 afastar a lixeira650 usando ControleLoopManutencaoR26 antes de retirar. Endereço/percurso geométricos conferidos, manuseio/peso/pega/piso/ferragem/retenção reais pendentes. Voltar armação/painel e fechar cesto antes de devolver lixeira0. Controles independentes sem intertravamento físico ou de software.",
+  "navigation_label": "Lavanderia — aéreo, cesto e manutenção da lixeira",
+  "all_previous_placements_visibility_link_targets_geometric_parents_preserved": true,
+  "invalid": [],
+  "limits": "No geometry change in saved home state, no bin reparenting, no new hardware. 46 navigation accesses, including one independent new control. Parking remains a proposal with physical handling, retention, load and floor unknown."
+}

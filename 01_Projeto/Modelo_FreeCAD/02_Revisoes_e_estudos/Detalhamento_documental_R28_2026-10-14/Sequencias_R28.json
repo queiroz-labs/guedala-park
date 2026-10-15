@@ -1,0 +1,103 @@
+[
+  [
+    "S01 - Preparação e montagem geral",
+    [
+      "Usar o arquivo R28 e o módulo indicado na prancha; confirmar que a cozinha fica à esquerda ao entrar. Os nomes de controle vigentes referem-se à implantação espelhada.",
+      "Antes de executar: conferir paredes, teto acabado, piso, pontos hidráulicos/elétricos/gás, produtos e substrato de fixação. O caderno não contém pilotos, ancoragens ou cortes executivos.",
+      "Conferir o corpo e a ordem dos apoios/divisores; depois apresentar frentes e ferragens comuns na configuração comercial correspondente. Apoios duplos36 e montagens de18 continuam propostas a dimensionar.",
+      "Instalar somente após fechar fixação/carga e instruções do produto escolhido; regular folgas e batentes. A etapa final em obra deve verificar os acessos reais e as interferências, sem tratar os testes CAD como substituto."
+    ],
+    "R28; R10/R18/R12; relatório de pendências. Sequência de planejamento, não instrução executiva de instalação."
+  ],
+  [
+    "S02 - Portas comuns e canto",
+    [
+      "Usar os controles originais do guia vigente. Nas folhas comuns, Abertura0 é fechado e86 é limite do estudo; não editar Placement dos vínculos.",
+      "Escritório e cabeceira alternam esquerda/direita na vista frontal vigente. Na vizinha do canto usar ControleVizinhaR18.Abertura; ControleCanto.B4 pertence ao histórico.",
+      "No canto, ControleSimplesR04.B2 controla A e B3 controla B. As duas folhas são independentes com faixas fixas; o cenário R04 estudou ambas abertas. Não voltar à articulação79T8500.",
+      "Em montagem real, confirmar caneco/calço/parafusos e limitador conforme ferragem. O curso86 da planilha não comprova o contato do70T3553, e o mapa de centros dos calços não é mapa de furação."
+    ],
+    "Guia vigente R28; R04; R18. Não pressupõe intertravamento físico."
+  ],
+  [
+    "S03 - Roupeiro, maleiro e gavetas comuns",
+    [
+      "Abrir a folha de correr correspondente antes de acessar as quatro gavetas do roupeiro. Os controles de correr têm valor positivo em ambos os lados, com drivers em sentidos opostos.",
+      "Roupeiro: Deslocamento0–965 de estudo; maleiro0–640. Essas distâncias não comprovam freio, batente, antidesencaixe ou curso comercial.",
+      "Gavetas do roupeiro e escritório: Extensao0–400; cozinha G1/G2/G3:0–500. Manipular o objeto original através do atalho, sem deslocar a geometria do módulo.",
+      "Para retirada física/manutenção, seguir a instrução da configuração comercial efetivamente instalada. Não inferir destravamento ou telescópio pelo sólido estático; não forçar uma gaveta contra uma porta parcialmente aberta.",
+      "Fechar as gavetas antes de devolver a porta de correr. Conferir massa total com o quadro de carga; saldo calculado não é carga útil liberada."
+    ],
+    "R08/R14; guia vigente; Cargas_gavetas_R28. Puxadores, mãos e configuração de cama preparada não homologados."
+  ],
+  [
+    "S04 - G2 e bandejas removíveis",
+    [
+      "Abrir G2 na posição de estudo500 antes de iniciar as rotas documentadas de retirada. As duas bandejas têm455mm de profundidade, com2mm à frente e atrás no interno459.",
+      "Manter os oito utensílios e a frigideira candidata nos respectivos gabaritos; suas caixas não informam peso, alças ou pega real.",
+      "As rotas documentadas são translações com orientação fixa. Não inclinar, trocar posição ou empilhar objetos e assumir que a mesma conferência cobre a nova operação.",
+      "Recolocar bandejas e conteúdo no arranjo previsto, verificar livre assentamento e fechar G2. Confirmar materiais, massas, tolerâncias e fixação antes da execução."
+    ],
+    "R06/R07/R08; Complementos_R24; orçamento de carga R28."
+  ],
+  [
+    "S05 - Gaveta baixa sobre rodas",
+    [
+      "Preservar cabos fixos com as cabeças retiradas; não trocar por cabos retráteis nem corrediças MOVENTO.",
+      "Extensao530 é a retirada completa ilustrativa. A posição400 herdada não é comprimento nominal de guia;442 é profundidade da caixa, não NL comercial.",
+      "No percurso ideal documentado, retirar até530 e elevar40 para manutenção. Pega, esforço, piso, batente e rodízios reais continuam pendentes; essa trajetória não é instrução física já validada.",
+      "Repor sobre as guias/piso sem sobrecarregar o fundo. Confirmar o material silicone e a distribuição de carga, sem garantir seis apoios simultâneos."
+    ],
+    "R13; Cotas/rodízios em Pendencias_autonomas. Frente106/base180/recuo80 preservados."
+  ],
+  [
+    "S06 - Cesto: uso diário",
+    [
+      "ControleCestoR15: abrir55; retirar o saco445; endireitar o saco55, nessa ordem do estudo.",
+      "Não confundir retirada diária do saco com remoção completa da armação. O saco removível e o giro55 fazem parte do programa preservado.",
+      "Repor em ordem inversa: desfazer endireitamento, devolver saco e fechar o cesto. Confirmar retenção, ferragem, carga e manuseio reais antes de uso físico."
+    ],
+    "R15; guia vigente. Valores CAD não constituem trava ou intertravamento."
+  ],
+  [
+    "S07 - Cesto: manutenção da armação",
+    [
+      "Desocupar o trajeto e deslocar a Loop20L por ControleLoopManutencaoR26.Afastamento650, do lugar habitual em direção ao centro da cozinha. O controle0 é a posição cotidiana.",
+      "Com a lixeira na posição proposta, seguir a abertura55 e os comandos de manutenção do painel/armação documentados na R15/R26. A retirada integral é estudo condicionado, não uma operação física já homologada.",
+      "A posição habitual da lixeira colide com a armação nas retiradas300/400. Não ocultar a lixeira e não iniciar essa retirada mantendo-a em0.",
+      "Repor armação e painel, fechar o cesto e somente então devolver a Loop para0. Piso, pessoa, pega, peso e apoios reais ainda precisam ser conferidos."
+    ],
+    "R26; R15. Há100mm nominais no encontro avaliado; não garantia de manuseio."
+  ],
+  [
+    "S08 - Banco: uso dos setores diários",
+    [
+      "Banco desocupado. A ordem do programa parte do sofá: potes/travessas/batedeira; liquidificador/bebidas; balde; folha/aspirador/jogos.",
+      "Primeiro setor: o estudo gira assento integral70. Não tratar a almofada como solta durante o giro; acoplamento, massa, pega e retenção continuam pendentes.",
+      "Bebidas: elevar almofada60, deslocar711, baixar elevação para50; depois abrir tampa90. Balde: elevar60, deslocar733, baixar para50; depois abrir90.",
+      "As almofadas estacionam sobre o último setor fechado. Enquanto estiverem ali, não abrir o setor da folha. Devolver cada almofada após fechar sua tampa, em ordem inversa.",
+      "Para retirar os painéis de armazenamento dos potes, esvaziá-los primeiro. O balde segue a rota ideal de levantar32 e recuar19 antes de subir; alça e mão reais não foram validadas."
+    ],
+    "R16. Apoios7mm/24mm de montagem são propostas geométricas, não capacidade de assento."
+  ],
+  [
+    "S09 - Banco: acesso à folha da mesa",
+    [
+      "Devolver primeiro as almofadas de bebidas e balde aos seus setores e manter os três primeiros setores fechados. Não abrir contra almofadas estacionadas.",
+      "Nova proposta do último setor: elevar a almofada60, deslocar873 rumo ao sofá e baixar a elevação para50, sobre os três outros setores fechados. Eles ficam temporariamente inacessíveis.",
+      "Abrir a tampa fina90. Recuar a folha inteira800x350x70 em24 antes de subir pela rota documentada; a vista de estudo usou elevação970. Não reduzir a folha.",
+      "Transporte, pessoa, pega e instalação na mesa não foram validados. Repor em ordem inversa e devolver a almofada antes de usar os outros setores. Não atribuir esta nova rotina ao aceite antigo de09/10."
+    ],
+    "R16 e complemento banco×sofá R28. Rotas limitadas ao cenário documentado, sem intertravamento."
+  ],
+  [
+    "S10 - Banheiro e equipamentos",
+    [
+      "Fechar a entrada ideal antes de abrir o gabinete inferior do banheiro. A folha700, eixo e maçaneta são referências não medidas; não há bloqueio físico que imponha essa ordem.",
+      "Fechar o gabinete inferior antes de reabrir a entrada. Não usar110° nas portas de estudo: há interferências com parede/espelho nas condições registradas.",
+      "Prateleiras removíveis, vidro, adesivo, pinos, LED e hidráulica precisam de especificação real. Não apoiar peso ou deduzir capacidade das caixas CAD.",
+      "Antes da instalação dos equipamentos, fechar as divergências do relatório: E21, micro100vs300, retorno Suggar, forno/cooktop e isolamento LG. Não operar a airfryer no nicho de guarda por ausência de colisão; o programa prevê uso temporário no preparo."
+    ],
+    "R12/R17; relatório de correções. Não há nova decisão de modelo ou ponto de instalação."
+  ]
+]

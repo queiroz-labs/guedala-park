@@ -1,0 +1,30 @@
+{
+ "ok": true,
+ "novos": [
+  "CadeiraEscritorioR30_1"
+ ],
+ "conferencia_espelho": {
+  "EspelhoPecaR043": {
+   "origem": [
+    3677.5,
+    800.0,
+    0.0,
+    4422.5,
+    1530.0,
+    1200.0
+   ],
+   "espelho": [
+    2977.5,
+    800.0,
+    0.0,
+    3722.5,
+    1530.0,
+    1200.0
+   ],
+   "confere": true
+  }
+ },
+ "invalidos": [],
+ "objetos": 6128,
+ "salvo": true
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-06",
+  "functionalBucketLitresAccepted": 8,
+  "transcript": {
+    "question": "Um balde de8 litros atende ao que você pretende usar na limpeza?",
+    "answer": "atende"
+  },
+  "modelsOrLayoutApproved": false,
+  "physicalValidationApproved": false,
+  "exact35DepthConflict": true,
+  "newDepthNominal": 33.51,
+  "newDepthSpareNominal": 1.49,
+  "continuousObjectRoutes": 10,
+  "editedOriginals": [
+    {
+      "path": "01_Projeto/README.md",
+      "before": "336faba649a2607af2847c4811a3f1a9a6de7ff185f27bc1db440cddfc068ad5",
+      "after": "d66136a0210076fefe50d1c627bd29b98ebe058ba4f7c2484c93c6d28020a9a7",
+      "backup": "evidencias/antes_balde8_aceito/01_Projeto/README.md"
+    },
+    {
+      "path": "01_Projeto/Resumo.md",
+      "before": "261553a20123c38db5b1b11476a79780ceada3987bd128067708ad470ef4772a",
+      "after": "ac70e56c4099f3377b78783542c9c199cc385c2ee5a7630cae48d368a6cea053",
+      "backup": "evidencias/antes_balde8_aceito/01_Projeto/Resumo.md"
+    },
+    {
+      "path": "01_Projeto/Registro_de_decisoes.md",
+      "before": "3c7b32ea4961f6c6a9990ebbc0436ecf5303f374fc1fd4c84f9faf79c567f0c9",
+      "after": "1127e34f71c86efd4feb87366dc41166bd7e7249e2e36b21f53b5da5e5beaf0e",
+      "backup": "evidencias/antes_balde8_aceito/01_Projeto/Registro_de_decisoes.md"
+    },
+    {
+      "path": "01_Projeto/Cozinha/README.md",
+      "before": "fba49312b0998f9a6361824bd55a41ed5c956ab74db54b379c3902b39a07a7f7",
+      "after": "999498670d714bd44b181b8d7a0e87a6b406aaec0e7fda14cb95798de5faca91",
+      "backup": "evidencias/antes_balde8_aceito/01_Projeto/Cozinha/README.md"
+    }
+  ],
+  "pdf": {
+    "pages": 9,
+    "sha256": "23be9c5e98c5b9f84f209c203e5c61984a44288e3e55bd5aff0c56f7d706147e",
+    "visuallyReviewedPages": [
+      7,
+      8,
+      9
+    ]
+  },
+  "additions": [
+    "Detalhe_conjunto_8L.md",
+    "conferir_detalhe_8L.cjs",
+    "Detalhe_8L_resultados.json",
+    "Fontes_detalhe_8L.md",
+    "Fontes_detalhe_8L.cjs",
+    "Fontes_detalhe_8L.json",
+    "Detalhe_apoios_e_separacao.md",
+    "Detalhe_apoios_e_separacao.json"
+  ]
+}

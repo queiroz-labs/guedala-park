@@ -1,0 +1,176 @@
+{
+  "wood_internal_hits": [],
+  "hardware_wood_hits": [
+    {
+      "drawer": "Gaveta de roupa",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa - proposta R08",
+      "mm3": 52.13003768035783
+    },
+    {
+      "drawer": "Gaveta de roupa",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa - proposta R08",
+      "mm3": 54.03238968858039
+    },
+    {
+      "drawer": "Gaveta de roupa001",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa001 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa001 - proposta R08",
+      "mm3": 52.130037680357844
+    },
+    {
+      "drawer": "Gaveta de roupa001",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa001 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa001 - proposta R08",
+      "mm3": 54.03238968783289
+    },
+    {
+      "drawer": "Gaveta de roupa002",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa002 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa002 - proposta R08",
+      "mm3": 52.13003768035779
+    },
+    {
+      "drawer": "Gaveta de roupa002",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa002 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa002 - proposta R08",
+      "mm3": 54.032389688637885
+    },
+    {
+      "drawer": "Gaveta de roupa003",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa003 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa003 - proposta R08",
+      "mm3": 52.13003768035779
+    },
+    {
+      "drawer": "Gaveta de roupa003",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa003 - proposta R08",
+      "wood": "Fundo comum · Gaveta de roupa003 - proposta R08",
+      "mm3": 54.032389688637764
+    },
+    {
+      "drawer": "G3 · mantimentos",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G3 · mantimentos - proposta R08",
+      "wood": "Fundo comum · G3 · mantimentos - proposta R08",
+      "mm3": 52.13003768032911
+    },
+    {
+      "drawer": "G3 · mantimentos",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · G3 · mantimentos - proposta R08",
+      "wood": "Fundo comum · G3 · mantimentos - proposta R08",
+      "mm3": 54.032389676243525
+    },
+    {
+      "drawer": "G1 · talheres",
+      "hardware": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G1 · talheres - proposta R08",
+      "wood": "Fundo comum · G1 · talheres - proposta R08",
+      "mm3": 52.130037680311716
+    },
+    {
+      "drawer": "G1 · talheres",
+      "hardware": "MOVENTO500 · bau0019179630_v(760H5001S) · G1 · talheres - proposta R08",
+      "wood": "Fundo comum · G1 · talheres - proposta R08",
+      "mm3": 54.032389677875614
+    },
+    {
+      "drawer": "Gaveta escritório 1",
+      "hardware": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 1 - proposta R08",
+      "wood": "Fundo comum · Gaveta escritório 1 - proposta R08",
+      "mm3": 52.1300376802238
+    },
+    {
+      "drawer": "Gaveta escritório 1",
+      "hardware": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 1 - proposta R08",
+      "wood": "Fundo comum · Gaveta escritório 1 - proposta R08",
+      "mm3": 54.032389688441
+    },
+    {
+      "drawer": "Gaveta escritório 2",
+      "hardware": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 2 - proposta R08",
+      "wood": "Fundo comum · Gaveta escritório 2 - proposta R08",
+      "mm3": 52.130037680207955
+    },
+    {
+      "drawer": "Gaveta escritório 2",
+      "hardware": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 2 - proposta R08",
+      "wood": "Fundo comum · Gaveta escritório 2 - proposta R08",
+      "mm3": 54.03238968843925
+    },
+    {
+      "drawer": "G2 · utensílios",
+      "hardware": "48346342[48346342] - proposta R07",
+      "wood": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "mm3": 52.13862552586267
+    },
+    {
+      "drawer": "G2 · utensílios",
+      "hardware": "49027541[49027541] - proposta R07",
+      "wood": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "mm3": 54.04097618495291
+    }
+  ],
+  "profile_structure_hits": [],
+  "courses": [
+    {
+      "drawer": "Gaveta de roupa",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "Gaveta de roupa001",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "Gaveta de roupa002",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "Gaveta de roupa003",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "G3 · mantimentos",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "G1 · talheres",
+      "poses": 21,
+      "maximum_candidate_mm": 500.0,
+      "hits": []
+    },
+    {
+      "drawer": "Gaveta escritório 1",
+      "poses": 17,
+      "maximum_candidate_mm": 400.0,
+      "hits": []
+    },
+    {
+      "drawer": "Gaveta escritório 2",
+      "poses": 17,
+      "maximum_candidate_mm": 400.0,
+      "hits": []
+    }
+  ],
+  "G2_height": {
+    "floor_top_global_mm": 628.0000001000002,
+    "upper_runner_min_global_mm": 744.4,
+    "conservative_vertical_space_mm": 116.39999989999978,
+    "required_program_with_reserve_mm": 111,
+    "nominal_margin_mm": 5.399999899999784,
+    "scope": "Menor cota Z da montagem fechada proposta G1, sobre toda a largura. Nominal, sem flexão/tolerância/regulagem ou homologação cinemática.",
+    "floor_broad_bbox_top_global_mm": 629.1961524227069,
+    "method": "optimalBoundingBox do fundo; BoundBox comum expandiu B-spline em1.196mm após translação, sem vértices nesse topo. Perfil superior mínimo conservador3.4mm."
+  },
+  "invalid": [],
+  "scope": "Oito caixas alteradas, candidato500/400. Geometria rígida, demais caixas fechadas; perfis próprios estáticos não animados. Não repete os ensaios antigos intactos nem certifica mecanismo real/carga."
+}

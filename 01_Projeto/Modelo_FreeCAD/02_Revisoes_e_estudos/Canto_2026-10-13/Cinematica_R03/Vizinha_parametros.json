@@ -1,0 +1,26 @@
+{
+  "joint_source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\03_Recursos\\Ferragens_STEP_2026-10-13\\Referencias\\CLIP_top_BLUMOTION\\71B3650_49451261.step",
+  "a": [
+    -27.499999994926394,
+    42.60999997874942
+  ],
+  "b": [
+    -17.939999995726648,
+    34.319999977826576
+  ],
+  "c": [
+    -7.440000000000627,
+    45.400000000000006
+  ],
+  "d": [
+    -2.640000000000537,
+    40.8000000000001
+  ],
+  "circle_branch": 1,
+  "native_four_bar": true,
+  "hinge_count_study": 2,
+  "max_opening_deg": 110,
+  "bore_distance_study_mm": 24,
+  "K_study_mm": 6.5,
+  "scope": "Candidata 71B3650 com calco0, divisor18, sem homologacao de carga, fixacao e ajustes."
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-06",
+  "scope": "Arithmetic only; hypotheses are not measured geometry or installation approval.",
+  "count": 17,
+  "checks": [
+    {
+      "key": "banheiro_frente_nominal",
+      "formula": "124 - 59",
+      "actual": 65,
+      "reported": 65,
+      "pass": true
+    },
+    {
+      "key": "banheiro_frente_com_tolerancia_positiva_louca",
+      "formula": "124 - (59 + 1)",
+      "actual": 64,
+      "reported": 64,
+      "pass": true
+    },
+    {
+      "key": "tampo",
+      "formula": "90 - 13.5",
+      "actual": 76.5,
+      "reported": 76.5,
+      "pass": true
+    },
+    {
+      "key": "varoes",
+      "formula": "2 * (97.3 + 33.2)",
+      "actual": 261,
+      "reported": 261,
+      "pass": true
+    },
+    {
+      "key": "ganho_varoes_pct",
+      "formula": "100 * (261 - 186.4) / 186.4",
+      "actual": 40.02145922746781,
+      "reported": 40.02145922746781,
+      "pass": true
+    },
+    {
+      "key": "largura_armario",
+      "formula": "2 * 97.3 + 3 * 1.8",
+      "actual": 200,
+      "reported": 200,
+      "pass": true
+    },
+    {
+      "key": "passagem_protegida_queen160",
+      "formula": "295 - 61 - 160 - 20",
+      "actual": 54,
+      "reported": 54,
+      "pass": true
+    },
+    {
+      "key": "passagem_protegida_queen158",
+      "formula": "295 - 61 - 158 - 20",
+      "actual": 56,
+      "reported": 56,
+      "pass": true
+    },
+    {
+      "key": "aereo_antigo_cm3",
+      "formula": "7 * 36 * 36 * 31",
+      "actual": 281232,
+      "reported": 281232,
+      "pass": true
+    },
+    {
+      "key": "aereo_atual_cm3",
+      "formula": "5 * 36 * 51 * 31",
+      "actual": 284580,
+      "reported": 284580,
+      "pass": true
+    },
+    {
+      "key": "aereo_variacao_pct",
+      "formula": "100 * (284580 / 281232 - 1)",
+      "actual": 1.1904761904761862,
+      "reported": 1.1904761904761862,
+      "pass": true
+    },
+    {
+      "key": "escritorio_porta_margem",
+      "formula": "220 - 75 - 142",
+      "actual": 3,
+      "reported": 3,
+      "pass": true
+    },
+    {
+      "key": "escritorio_arco",
+      "formula": "sqrt(78^2 + 3^2) - 75",
+      "actual": 3.0576709875461177,
+      "reported": 3.0576709875461177,
+      "pass": true
+    },
+    {
+      "key": "escritorio_recuo_comparativo",
+      "formula": "sqrt(80^2 - 78^2)",
+      "actual": 17.776388834631177,
+      "reported": 17.776388834631177,
+      "pass": true
+    },
+    {
+      "key": "folha_raio",
+      "formula": "sqrt(15^2 + 37.5^2)",
+      "actual": 40.38873605350878,
+      "reported": 40.38873605350878,
+      "pass": true
+    },
+    {
+      "key": "folha_parede",
+      "formula": "55 - 10 - sqrt(15^2 + 37.5^2)",
+      "actual": 4.611263946491221,
+      "reported": 4.611263946491221,
+      "pass": true
+    },
+    {
+      "key": "coluna_limite_comparativo",
+      "formula": "2 * (10.7 - 3)",
+      "actual": 15.399999999999999,
+      "reported": 15.399999999999999,
+      "pass": true
+    }
+  ]
+}

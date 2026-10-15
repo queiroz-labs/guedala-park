@@ -1,0 +1,123 @@
+{
+  "internal_wood_program_hits": [],
+  "wheel_wood_hits": [],
+  "courses": [
+    {
+      "extension_mm": 0,
+      "hits": []
+    },
+    {
+      "extension_mm": 25,
+      "hits": []
+    },
+    {
+      "extension_mm": 50,
+      "hits": []
+    },
+    {
+      "extension_mm": 75,
+      "hits": []
+    },
+    {
+      "extension_mm": 100,
+      "hits": []
+    },
+    {
+      "extension_mm": 125,
+      "hits": []
+    },
+    {
+      "extension_mm": 150,
+      "hits": []
+    },
+    {
+      "extension_mm": 175,
+      "hits": []
+    },
+    {
+      "extension_mm": 200,
+      "hits": []
+    },
+    {
+      "extension_mm": 225,
+      "hits": []
+    },
+    {
+      "extension_mm": 250,
+      "hits": []
+    },
+    {
+      "extension_mm": 275,
+      "hits": []
+    },
+    {
+      "extension_mm": 300,
+      "hits": []
+    },
+    {
+      "extension_mm": 325,
+      "hits": []
+    },
+    {
+      "extension_mm": 350,
+      "hits": []
+    },
+    {
+      "extension_mm": 375,
+      "hits": []
+    },
+    {
+      "extension_mm": 400,
+      "hits": []
+    },
+    {
+      "extension_mm": 425,
+      "hits": []
+    },
+    {
+      "extension_mm": 450,
+      "hits": []
+    },
+    {
+      "extension_mm": 460,
+      "hits": []
+    },
+    {
+      "extension_mm": 500,
+      "hits": []
+    },
+    {
+      "extension_mm": 520,
+      "hits": []
+    },
+    {
+      "extension_mm": 530,
+      "hits": []
+    }
+  ],
+  "lift40_at_extension530_hits": [],
+  "wood_volume_mm3": 17224344.0,
+  "wood_mass_scenario750_kg": 12.918258,
+  "wood_mass_scenario900_kg": 15.5019096,
+  "program_margins_mm": {
+    "handle_end_each": 31,
+    "broom_top_to_rim": 23
+  },
+  "nominal_guide_gap_each_mm": 2,
+  "closed_vertical_reserve_mm": 35,
+  "full_withdrawal_rear_to_upper_carcass_front_mm": 10,
+  "target_count": 63,
+  "invalid": [],
+  "scope": "Somente caixa nova/rodas-gabarito/conteúdo nominal R13. Translação ideal e levantamento ilustrativo, não rolagem/piso/pessoa/carga/tolerâncias. Apoios são reservas, sem resistência calculada. Não repete nove gavetasR08.",
+  "support_reserve_trim_after_test": {
+    "tested_local_y_mm": [
+      -60,
+      530
+    ],
+    "final_local_y_mm": [
+      0,
+      530
+    ],
+    "reason": "Removidos60mm da frente das reservas para não invadir recuo80. Geometria final é subconjunto da testada; não pode introduzir nova interseção. Não certifica estrutura."
+  }
+}

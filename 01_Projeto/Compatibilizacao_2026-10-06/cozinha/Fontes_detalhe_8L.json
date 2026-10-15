@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-06",
+  "units": "cm",
+  "decisionReconciled": {
+    "bucket8LFunctionalCapacityAccepted": true,
+    "bucketSKUSelected": false,
+    "thermal1500mlStoredDaily": true,
+    "sixMealGlassesApprox800ml": true,
+    "belowReserve": 3.5,
+    "aboveReserve": 3.5,
+    "noOriginalEdits": true
+  },
+  "duralex": {
+    "model": "Freshbox800",
+    "refs": [
+      "9232A M06",
+      "9234A M06"
+    ],
+    "dims": [
+      19,
+      14.5,
+      4.7
+    ],
+    "capacityMl": 800,
+    "productIncludesLeakProofLid": true,
+    "stackableClaim": true,
+    "officialCatalogPagePDF": 47,
+    "printedPage": 92,
+    "sourceLanding": "https://www.duralex.com/pages/catalogue-duralex-2026",
+    "source": "https://cdn.shopify.com/s/files/1/0558/9483/5360/files/Catalogue_2026_OFFICIEL_BD_1.pdf?v=1770887486",
+    "twoClosedMeasuredHeight": null,
+    "sameSizeEmptyClosedNestingPitch": null,
+    "stackLimitOrLoad": null,
+    "dimensionalTolerance": null,
+    "cleanUnitMass": null,
+    "cartonMassKg": 3.72,
+    "cartonPieces": 6,
+    "protection": 0.2,
+    "nominalTwoHeight": 9.6,
+    "totalVerticalSupportMax": 0.9,
+    "notStructureApproved": true
+  },
+  "bucket": {
+    "model": "TTSHermetic8L",
+    "refs": [
+      "0R003255",
+      "0B003255",
+      "0G003255",
+      "0E003255"
+    ],
+    "capacityLitres": 8,
+    "commercialDims": [
+      16,
+      33,
+      25
+    ],
+    "completeDescription": "Bucket with hermetic lid and handle",
+    "source": "https://www.ttsystem.com/en/products/8-l-hermetic-bucket-0",
+    "dataSheet": "https://share.ttsystem.com/schede/EN/PROD_0R003255_en-GB.pdf",
+    "sheetDate": "2025-12-22",
+    "sheetPage": 1,
+    "materialManufacturer": "Polypropylene",
+    "lidHookAndGasketAirtightClaim": true,
+    "handleRaisedDimensions": null,
+    "handleLoweredSpecificDrawing": null,
+    "closingOrHandleSweep": null,
+    "dimensionalTolerance": null,
+    "unitCleanMass": null,
+    "cartonMassKg": 3.42,
+    "cartonPieces": 5,
+    "foodAdjacentStorageApproval": null,
+    "cleaningSanitationProtocolForThisSKU": null,
+    "sanitizedAndDryPhysicalValidationPending": true
+  },
+  "thermal": {
+    "model": "ZojirushiSH-HC15",
+    "capacityLitres": 1.5,
+    "JapanExternalApprox": [
+      13,
+      16.5,
+      24.5
+    ],
+    "USAThreePublishedInches": [
+      5.125,
+      6.5,
+      9.75
+    ],
+    "USAConverted": [
+      13.0175,
+      16.51,
+      24.765
+    ],
+    "conversion": "1 inch=2.54cm",
+    "dimensionalTolerance": null,
+    "JapanApproxMassKg": 0.8,
+    "hotAndColdBeveragesSupported": true,
+    "heatRetention10hCAtLeast": 73,
+    "coldRetention10hCAtMost": 8,
+    "sourceJapan": "https://www.zojirushi.co.jp/syohin/pot_kettle/pot/sh-hc/index.html",
+    "sourceUSA": "https://www.zojirushi.com/app/product/shhc",
+    "manualLanding": "https://www.zojirushi.global/manual/en/shhc10-15-19/",
+    "manual": "https://www.zojirushi.global/manual/pdf/SHHB_SHHC(EN).pdf",
+    "manualPagesRelevant": [
+      2,
+      3,
+      4,
+      9
+    ],
+    "manualSaysCarryUprightByHandle": true,
+    "manualSaysMayLeakEvenLeverClosed": true,
+    "manualSaysKeepAwayHighTemperatureHumidity": true,
+    "manualSaysWashDryAfterUse": true,
+    "manualSaysNoDishwasherOrBoilingSanitation": true,
+    "manualNoGeometryHandOrDisassemblyEnvelope": true
+  },
+  "jar": {
+    "model": "Vilde139289",
+    "capacityLitres": 1.5,
+    "commercialDims": [
+      16,
+      11.5,
+      23
+    ],
+    "source": "https://b2b.vilde.trade/product-eng-9946-Jug-Glass-with-Lid-1-5-l.html"
+  },
+  "studies": {
+    "JapanCommercial": {
+      "objects": [
+        {
+          "id": "TTS8L",
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 16,
+          "d": 33,
+          "h": 25
+        },
+        {
+          "id": "SHHC15",
+          "x": 17,
+          "y": 0,
+          "z": 0,
+          "w": 13,
+          "d": 16.5,
+          "h": 24.5
+        },
+        {
+          "id": "Vilde139289",
+          "x": 17,
+          "y": 17.5,
+          "z": 0,
+          "w": 11.5,
+          "d": 16,
+          "h": 23
+        }
+      ],
+      "slot": [
+        30.8,
+        35,
+        26.2
+      ],
+      "contained": true,
+      "collisionPairs": [],
+      "envelope": [
+        30,
+        33.5,
+        25
+      ],
+      "remaining": [
+        0.8,
+        1.5,
+        1.2
+      ],
+      "betweenThermJar": 1,
+      "betweenBucketVessels": 1,
+      "positiveDepthClearance": 1.5,
+      "nominalStaticOnly": true,
+      "actualFitValidated": false,
+      "extractionValidated": false,
+      "hygieneValidated": false
+    },
+    "USACommercialConverted": {
+      "objects": [
+        {
+          "id": "TTS8L",
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 16,
+          "d": 33,
+          "h": 25
+        },
+        {
+          "id": "SHHC15",
+          "x": 17,
+          "y": 0,
+          "z": 0,
+          "w": 13.0175,
+          "d": 16.51,
+          "h": 24.765
+        },
+        {
+          "id": "Vilde139289",
+          "x": 17,
+          "y": 17.51,
+          "z": 0,
+          "w": 11.5,
+          "d": 16,
+          "h": 23
+        }
+      ],
+      "slot": [
+        30.8,
+        35,
+        26.2
+      ],
+      "contained": true,
+      "collisionPairs": [],
+      "envelope": [
+        30.0175,
+        33.51,
+        25
+      ],
+      "remaining": [
+        0.7825,
+        1.49,
+        1.2
+      ],
+      "betweenThermJar": 1,
+      "betweenBucketVessels": 1,
+      "positiveDepthClearance": 1.49,
+      "nominalStaticOnly": true,
+      "actualFitValidated": false,
+      "extractionValidated": false,
+      "hygieneValidated": false
+    }
+  },
+  "contrastTTC18": {
+    "thermalDepth": 18,
+    "jarDepth": 16,
+    "gap": 1,
+    "usedDepth": 35,
+    "positiveExtraDepthClearance": 0,
+    "status": "nao resolve conflito de igualdade requerido nesta rodada"
+  },
+  "wholeProgramApproved": false
+}

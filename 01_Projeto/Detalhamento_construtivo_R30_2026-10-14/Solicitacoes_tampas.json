@@ -1,0 +1,69 @@
+{
+  "hipotese": "Tampa homogênea ocupando todo envelope de20 mm; eixo ideal na borda traseira, centro a224 mm. Só gravidade, exclui almofada/pega/ferragem, pessoa, choque e atrito. Não dimensiona ferragem ou capacidade de assento.",
+  "itens": [
+    {
+      "setor": 1,
+      "envelope_mm": [
+        387,
+        448,
+        20
+      ],
+      "massa_madeira_kg": [
+        2.60064,
+        3.120768
+      ],
+      "momento_fechado_Nm": [
+        5.7147503616,
+        6.857700433920001
+      ]
+    },
+    {
+      "setor": 2,
+      "envelope_mm": [
+        366,
+        448,
+        20
+      ],
+      "massa_madeira_kg": [
+        2.45952,
+        2.951424
+      ],
+      "momento_fechado_Nm": [
+        5.4046476288,
+        6.48557715456
+      ]
+    },
+    {
+      "setor": 3,
+      "envelope_mm": [
+        214,
+        448,
+        20
+      ],
+      "massa_madeira_kg": [
+        1.43808,
+        1.725696
+      ],
+      "momento_fechado_Nm": [
+        3.1600945152,
+        3.7921134182399996
+      ]
+    },
+    {
+      "setor": 4,
+      "envelope_mm": [
+        825,
+        448,
+        20
+      ],
+      "massa_madeira_kg": [
+        5.544,
+        6.6528
+      ],
+      "momento_fechado_Nm": [
+        12.18260736,
+        14.619128832000001
+      ]
+    }
+  ]
+}

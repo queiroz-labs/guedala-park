@@ -1,0 +1,1547 @@
+{
+  "scope": "Translacao rigida de caixas e frentes em passos25 mm. Corrediças reais ainda nao montadas. Portas de correr do roupeiro abertas por deslocamento ideal, ferragem real pendente. Sofa diario simplificado; nao valida cama preparada, uso ou carga.",
+  "office_orientation_fix": {
+    "closed_footprint_mm": [
+      2700,
+      3100,
+      250,
+      700
+    ],
+    "front_Y_closed_mm": 700,
+    "front_Y_open400_mm": 1100,
+    "prior_wall_intersection_at300_mm3": 845352,
+    "guest_bed_reference_starts_Y_mm": 1100,
+    "guest_scope": "Coincidencia em planta, nao margem de uso. Altura/roupa de cama nao verificadas."
+  },
+  "drawers": [
+    {
+      "name": "Gaveta",
+      "drawer": "Gaveta de roupa",
+      "virtual_sliding_door_opened": true,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            3352.0,
+            3370.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            3327.0,
+            3345.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            3302.0,
+            3320.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            3277.0,
+            3295.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            3252.0,
+            3270.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            3227.0,
+            3245.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            3202.0,
+            3220.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            3177.0,
+            3195.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            3152.0,
+            3170.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            3127.0,
+            3145.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            3102.0,
+            3120.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            3077.0,
+            3095.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            3052.0,
+            3070.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            3027.0,
+            3045.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            3002.0,
+            3020.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            2977.0,
+            2995.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            2952.0,
+            2970.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            2927.0,
+            2945.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            2902.0,
+            2920.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            2877.0,
+            2895.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            2852.0,
+            2870.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta001",
+      "drawer": "Gaveta de roupa001",
+      "virtual_sliding_door_opened": true,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            3352.0,
+            3370.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            3327.0,
+            3345.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            3302.0,
+            3320.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            3277.0,
+            3295.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            3252.0,
+            3270.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            3227.0,
+            3245.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            3202.0,
+            3220.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            3177.0,
+            3195.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            3152.0,
+            3170.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            3127.0,
+            3145.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            3102.0,
+            3120.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            3077.0,
+            3095.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            3052.0,
+            3070.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            3027.0,
+            3045.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            3002.0,
+            3020.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            2977.0,
+            2995.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            2952.0,
+            2970.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            2927.0,
+            2945.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            2902.0,
+            2920.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            2877.0,
+            2895.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            2852.0,
+            2870.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta002",
+      "drawer": "Gaveta de roupa002",
+      "virtual_sliding_door_opened": true,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            3352.0,
+            3370.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            3327.0,
+            3345.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            3302.0,
+            3320.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            3277.0,
+            3295.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            3252.0,
+            3270.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            3227.0,
+            3245.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            3202.0,
+            3220.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            3177.0,
+            3195.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            3152.0,
+            3170.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            3127.0,
+            3145.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            3102.0,
+            3120.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            3077.0,
+            3095.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            3052.0,
+            3070.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            3027.0,
+            3045.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            3002.0,
+            3020.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            2977.0,
+            2995.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            2952.0,
+            2970.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            2927.0,
+            2945.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            2902.0,
+            2920.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            2877.0,
+            2895.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            2852.0,
+            2870.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta003",
+      "drawer": "Gaveta de roupa003",
+      "virtual_sliding_door_opened": true,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            3352.0,
+            3370.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            3327.0,
+            3345.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            3302.0,
+            3320.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            3277.0,
+            3295.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            3252.0,
+            3270.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            3227.0,
+            3245.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            3202.0,
+            3220.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            3177.0,
+            3195.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            3152.0,
+            3170.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            3127.0,
+            3145.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            3102.0,
+            3120.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            3077.0,
+            3095.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            3052.0,
+            3070.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            3027.0,
+            3045.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            3002.0,
+            3020.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            2977.0,
+            2995.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            2952.0,
+            2970.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            2927.0,
+            2945.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            2902.0,
+            2920.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            2877.0,
+            2895.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            2852.0,
+            2870.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta004",
+      "drawer": "G3 · mantimentos",
+      "virtual_sliding_door_opened": false,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            6390.0,
+            6408.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            6365.0,
+            6383.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            6340.0,
+            6358.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            6315.0,
+            6333.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            6290.0,
+            6308.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            6265.0,
+            6283.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            6240.0,
+            6258.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            6215.0,
+            6233.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            6190.0,
+            6208.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            6165.0,
+            6183.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            6140.0,
+            6158.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            6115.0,
+            6133.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            6090.0,
+            6108.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            6065.0,
+            6083.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            6040.0,
+            6058.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            6015.0,
+            6033.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            5990.0,
+            6008.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            5965.0,
+            5983.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            5940.0,
+            5958.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            5915.0,
+            5933.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            5890.0,
+            5908.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta005",
+      "drawer": "G2 · utensílios",
+      "virtual_sliding_door_opened": false,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            6390.0,
+            6408.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            6365.0,
+            6383.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            6340.0,
+            6358.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            6315.0,
+            6333.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            6290.0,
+            6308.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            6265.0,
+            6283.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            6240.0,
+            6258.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            6215.0,
+            6233.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            6190.0,
+            6208.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            6165.0,
+            6183.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            6140.0,
+            6158.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            6115.0,
+            6133.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            6090.0,
+            6108.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            6065.0,
+            6083.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            6040.0,
+            6058.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            6015.0,
+            6033.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            5990.0,
+            6008.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            5965.0,
+            5983.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            5940.0,
+            5958.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            5915.0,
+            5933.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            5890.0,
+            5908.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta006",
+      "drawer": "G1 · talheres",
+      "virtual_sliding_door_opened": false,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            6390.0,
+            6408.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            6365.0,
+            6383.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            6340.0,
+            6358.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            6315.0,
+            6333.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            6290.0,
+            6308.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            6265.0,
+            6283.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            6240.0,
+            6258.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            6215.0,
+            6233.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            6190.0,
+            6208.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            6165.0,
+            6183.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            6140.0,
+            6158.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            6115.0,
+            6133.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            6090.0,
+            6108.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            6065.0,
+            6083.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            6040.0,
+            6058.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            6015.0,
+            6033.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            5990.0,
+            6008.0
+          ]
+        },
+        {
+          "extension_mm": 425,
+          "hits": [],
+          "front_global_Y_mm": [
+            5965.0,
+            5983.0
+          ]
+        },
+        {
+          "extension_mm": 450,
+          "hits": [],
+          "front_global_Y_mm": [
+            5940.0,
+            5958.0
+          ]
+        },
+        {
+          "extension_mm": 475,
+          "hits": [],
+          "front_global_Y_mm": [
+            5915.0,
+            5933.0
+          ]
+        },
+        {
+          "extension_mm": 500,
+          "hits": [],
+          "front_global_Y_mm": [
+            5890.0,
+            5908.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta008",
+      "drawer": "Gaveta escritório 1",
+      "virtual_sliding_door_opened": false,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            682.0,
+            700.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            707.0,
+            725.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            732.0,
+            750.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            757.0,
+            775.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            782.0,
+            800.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            807.0,
+            825.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            832.0,
+            850.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            857.0,
+            875.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            882.0,
+            900.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            907.0,
+            925.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            932.0,
+            950.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            957.0,
+            975.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            982.0,
+            1000.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            1007.0,
+            1025.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            1032.0,
+            1050.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            1057.0,
+            1075.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            1082.0,
+            1100.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    },
+    {
+      "name": "Gaveta009",
+      "drawer": "Gaveta escritório 2",
+      "virtual_sliding_door_opened": false,
+      "internal_box_hits": [],
+      "paths": [
+        {
+          "extension_mm": 0,
+          "hits": [],
+          "front_global_Y_mm": [
+            682.0,
+            700.0
+          ]
+        },
+        {
+          "extension_mm": 25,
+          "hits": [],
+          "front_global_Y_mm": [
+            707.0,
+            725.0
+          ]
+        },
+        {
+          "extension_mm": 50,
+          "hits": [],
+          "front_global_Y_mm": [
+            732.0,
+            750.0
+          ]
+        },
+        {
+          "extension_mm": 75,
+          "hits": [],
+          "front_global_Y_mm": [
+            757.0,
+            775.0
+          ]
+        },
+        {
+          "extension_mm": 100,
+          "hits": [],
+          "front_global_Y_mm": [
+            782.0,
+            800.0
+          ]
+        },
+        {
+          "extension_mm": 125,
+          "hits": [],
+          "front_global_Y_mm": [
+            807.0,
+            825.0
+          ]
+        },
+        {
+          "extension_mm": 150,
+          "hits": [],
+          "front_global_Y_mm": [
+            832.0,
+            850.0
+          ]
+        },
+        {
+          "extension_mm": 175,
+          "hits": [],
+          "front_global_Y_mm": [
+            857.0,
+            875.0
+          ]
+        },
+        {
+          "extension_mm": 200,
+          "hits": [],
+          "front_global_Y_mm": [
+            882.0,
+            900.0
+          ]
+        },
+        {
+          "extension_mm": 225,
+          "hits": [],
+          "front_global_Y_mm": [
+            907.0,
+            925.0
+          ]
+        },
+        {
+          "extension_mm": 250,
+          "hits": [],
+          "front_global_Y_mm": [
+            932.0,
+            950.0
+          ]
+        },
+        {
+          "extension_mm": 275,
+          "hits": [],
+          "front_global_Y_mm": [
+            957.0,
+            975.0
+          ]
+        },
+        {
+          "extension_mm": 300,
+          "hits": [],
+          "front_global_Y_mm": [
+            982.0,
+            1000.0
+          ]
+        },
+        {
+          "extension_mm": 325,
+          "hits": [],
+          "front_global_Y_mm": [
+            1007.0,
+            1025.0
+          ]
+        },
+        {
+          "extension_mm": 350,
+          "hits": [],
+          "front_global_Y_mm": [
+            1032.0,
+            1050.0
+          ]
+        },
+        {
+          "extension_mm": 375,
+          "hits": [],
+          "front_global_Y_mm": [
+            1057.0,
+            1075.0
+          ]
+        },
+        {
+          "extension_mm": 400,
+          "hits": [],
+          "front_global_Y_mm": [
+            1082.0,
+            1100.0
+          ]
+        }
+      ],
+      "invalid_individual_pieces": []
+    }
+  ]
+}

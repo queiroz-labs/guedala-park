@@ -1,0 +1,194 @@
+[
+  {
+    "angles": [
+      0,
+      0,
+      0
+    ],
+    "joints": [
+      {
+        "family": "main",
+        "joint": "a",
+        "axis_delta_mm": 2.2737367544323206e-13
+      },
+      {
+        "family": "main",
+        "joint": "b",
+        "axis_delta_mm": 2.2737367544323206e-13
+      },
+      {
+        "family": "main",
+        "joint": "c",
+        "axis_delta_mm": 7.958078640513122e-13
+      },
+      {
+        "family": "main",
+        "joint": "d",
+        "axis_delta_mm": 5.684341886080801e-13
+      },
+      {
+        "family": "main",
+        "joint": "e",
+        "axis_delta_mm": 1.0725194820289065e-12
+      },
+      {
+        "family": "main",
+        "joint": "f",
+        "axis_delta_mm": 0.0
+      },
+      {
+        "family": "main",
+        "joint": "g",
+        "axis_delta_mm": 9.713407672867936e-13
+      },
+      {
+        "family": "near",
+        "joint": "a",
+        "axis_delta_mm": 5.684341886080801e-13
+      },
+      {
+        "family": "near",
+        "joint": "b",
+        "axis_delta_mm": 5.084229945850415e-13
+      },
+      {
+        "family": "near",
+        "joint": "c",
+        "axis_delta_mm": 1.374858882450988e-12
+      },
+      {
+        "family": "near",
+        "joint": "d",
+        "axis_delta_mm": 9.112693272687351e-13
+      }
+    ]
+  },
+  {
+    "angles": [
+      45,
+      30,
+      90
+    ],
+    "joints": [
+      {
+        "family": "main",
+        "joint": "a",
+        "axis_delta_mm": 1.1368683772161603e-13
+      },
+      {
+        "family": "main",
+        "joint": "b",
+        "axis_delta_mm": 4.547473508864641e-13
+      },
+      {
+        "family": "main",
+        "joint": "c",
+        "axis_delta_mm": 6.821210263296962e-13
+      },
+      {
+        "family": "main",
+        "joint": "d",
+        "axis_delta_mm": 5.084229945850415e-13
+      },
+      {
+        "family": "main",
+        "joint": "e",
+        "axis_delta_mm": 1.6553053431563326e-12
+      },
+      {
+        "family": "main",
+        "joint": "f",
+        "axis_delta_mm": 9.374856803373542e-13
+      },
+      {
+        "family": "main",
+        "joint": "g",
+        "axis_delta_mm": 4.547473508864641e-13
+      },
+      {
+        "family": "near",
+        "joint": "a",
+        "axis_delta_mm": 7.105427357601002e-13
+      },
+      {
+        "family": "near",
+        "joint": "b",
+        "axis_delta_mm": 7.059806164519512e-13
+      },
+      {
+        "family": "near",
+        "joint": "c",
+        "axis_delta_mm": 9.165725883006586e-13
+      },
+      {
+        "family": "near",
+        "joint": "d",
+        "axis_delta_mm": 3.979039320256561e-13
+      }
+    ]
+  },
+  {
+    "angles": [
+      92,
+      60,
+      110
+    ],
+    "joints": [
+      {
+        "family": "main",
+        "joint": "a",
+        "axis_delta_mm": 7.958078640513122e-13
+      },
+      {
+        "family": "main",
+        "joint": "b",
+        "axis_delta_mm": 0.0
+      },
+      {
+        "family": "main",
+        "joint": "c",
+        "axis_delta_mm": 4.547473508864641e-13
+      },
+      {
+        "family": "main",
+        "joint": "d",
+        "axis_delta_mm": 5.084229945850415e-13
+      },
+      {
+        "family": "main",
+        "joint": "e",
+        "axis_delta_mm": 1.1368683772161603e-12
+      },
+      {
+        "family": "main",
+        "joint": "f",
+        "axis_delta_mm": 8.198074455012805e-13
+      },
+      {
+        "family": "main",
+        "joint": "g",
+        "axis_delta_mm": 5.084229945850415e-13
+      },
+      {
+        "family": "near",
+        "joint": "a",
+        "axis_delta_mm": 6.536993168992922e-13
+      },
+      {
+        "family": "near",
+        "joint": "b",
+        "axis_delta_mm": 7.059806164519512e-13
+      },
+      {
+        "family": "near",
+        "joint": "c",
+        "axis_delta_mm": 1.2085076619694803e-12
+      },
+      {
+        "family": "near",
+        "joint": "d",
+        "axis_delta_mm": 6.431098710768743e-13
+      }
+    ]
+  }
+]

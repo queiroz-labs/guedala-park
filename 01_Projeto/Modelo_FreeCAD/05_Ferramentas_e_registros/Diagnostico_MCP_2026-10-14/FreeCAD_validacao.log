@@ -1,0 +1,400 @@
+﻿Msg: FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Log: Time = 2026-Oct-14 22:43:22
+Log: AboutImage = freecadabout
+Log: AppDataSkipVendor = true
+Log: AppHomePath = C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\
+Log: AppIcon = freecad
+Log: AppTempPath = C:\Users\Elias\AppData\Local\Temp\\\
+Log: BOOST_VERSION = 1_86
+Log: BinPath = C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin\
+Log: BuildRepositoryURL = Unknown
+Log: BuildRevision = 20260928 (Git shallow)
+Log: BuildRevisionBranch = (HEAD detached at 4fd3bf320)
+Log: BuildRevisionDate = 2026/09/28 13:46:34
+Log: BuildRevisionHash = 4fd3bf320d9566a27e60069fc8387448aaa3a094
+Log: BuildVersionMajor = 1
+Log: BuildVersionMinor = 1
+Log: BuildVersionPoint = 4
+Log: BuildVersionSuffix = 
+Log: Console = 0
+Log: CopyrightInfo = (C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+
+Log: Debug = 0
+Log: DesktopFileName = org.freecad.FreeCAD
+Log: DocPath = C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\doc\
+Log: EIGEN_VERSION = 3.4.0
+Log: ExeName = FreeCAD
+Log: ExeVendor = FreeCAD
+Log: ExeVersion = 1.1.4
+Log: LoggingConsole = 1
+Log: LoggingFile = 1
+Log: LoggingFileName = C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/05_Ferramentas_e_registros/Diagnostico_MCP_2026-10-14/FreeCAD_validacao.log
+Log: MaintainerUrl = https://freecad.org
+Log: OCC_VERSION = 7.8.1
+Log: PATH = C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Elias\.codex\tmp\arg0\codex-arg0vjeyyH;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\nodejs\;C:\Users\Elias\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Elias\AppData\Local\Programs\Python\Python312\;C:\Users\Elias\AppData\Local\Programs\Python\Launcher\;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Elias\AppData\Local\Microsoft\WindowsApps;C:\Users\Elias\AppData\Local\Programs\Ollama;C:\Users\Elias\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Elias\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Elias\AppData\Roaming\npm;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Elias\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a;C:\Users\Elias\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f
+Log: PYSIDE_VERSION = 6.8.3
+Log: PYTHON_VERSION = 3.11.14
+Log: PythonSearchPath = C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin\python311.zip;C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin\DLLs;C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin\Lib;C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin;C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin\Lib\site-packages
+Log: QT_VERSION = 6.8.3
+Log: RunMode = Gui
+Log: SplashAlignment = Bottom|Left
+Log: SplashInfoColor = #000000
+Log: SplashInfoPosition = 6,75
+Log: SplashScreen = freecadsplash
+Log: SplashTextColor = #418FDE
+Log: SplashWarningColor = #CA333B
+Log: StartWorkbench = PartDesignWorkbench
+Log: SystemParameter = C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\system.cfg
+Log: UserAppData = C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\
+Log: UserCachePath = C:\Users\Elias\AppData\Local\Temp\\FreeCAD\v1-1\Cache\
+Log: UserConfigPath = C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\
+Log: UserHomePath = C:/Users/Elias
+Log: UserMacroPath = C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Macro\
+Log: UserParameter = C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\user.cfg
+Log: Verbose = 
+Log: XERCESC_VERSION = 3.3.0
+Log: Create Application
+Log: Run App init script
+Log: Init: starting App::FreeCADInit.py
+Log: Init:   Searching for modules...
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\AddonManager\.\... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Assembly... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\BIM... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\CAM... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Draft... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Fem... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Help(Init.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Idf... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Import... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Inspection... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Material... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Measure... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Mesh... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\MeshPart... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\OpenSCAD... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Part... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\PartDesign... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Plot(Init.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Points... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\ReverseEngineering... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Robot... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Show(Init.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Sketcher... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Spreadsheet... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Start... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Surface... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\TechDraw... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Test... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Tux(Init.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Web... done
+Msg: AICopilot Workbench loading...
+Log: Init:      Initializing C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\manifest.json(Init.py not found)... ignore
+Log: Using C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod as module path!
+Log: System path after init:
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\bin
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\AddonManager
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\AddonManager\.\
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Assembly
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\BIM
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\CAM
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Draft
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Fem
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Help
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Idf
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Import
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Inspection
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Material
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Measure
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Mesh
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\MeshPart
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\OpenSCAD
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Part
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\PartDesign
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Plot
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Points
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\ReverseEngineering
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Robot
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Show
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Sketcher
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Spreadsheet
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Start
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Surface
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\TechDraw
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Test
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Tux
+Log:    C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Web
+Log:    C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot
+Log:    C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\manifest.json
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell
+Log:    C:\Users\Elias\.codex\tmp\arg0\codex-arg0vjeyyH
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override
+Log:    C:\Program Files\Microsoft MPI\Bin\
+Log:    C:\Program Files\Common Files\Oracle\Java\javapath
+Log:    C:\Program Files (x86)\Common Files\Oracle\Java\java8path
+Log:    C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+Log:    C:\WINDOWS\system32
+Log:    C:\WINDOWS
+Log:    C:\WINDOWS\System32\Wbem
+Log:    C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+Log:    C:\WINDOWS\System32\OpenSSH\
+Log:    C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR
+Log:    C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+Log:    C:\Program Files\Docker\Docker\resources\bin
+Log:    C:\Program Files\Git\cmd
+Log:    C:\Program Files\GitHub CLI\
+Log:    C:\Program Files\nodejs\
+Log:    C:\Users\Elias\AppData\Local\Programs\Python\Python312\Scripts\
+Log:    C:\Users\Elias\AppData\Local\Programs\Python\Python312\
+Log:    C:\Users\Elias\AppData\Local\Programs\Python\Launcher\
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell
+Log:    C:\Users\Elias\AppData\Local\Microsoft\WindowsApps
+Log:    C:\Users\Elias\AppData\Local\Programs\Ollama
+Log:    C:\Users\Elias\AppData\Local\Programs\Microsoft VS Code\bin
+Log:    C:\Users\Elias\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe
+Log:    C:\Users\Elias\AppData\Roaming\npm
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin
+Log:    C:\Users\Elias\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd
+Log:    C:\Users\Elias\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a
+Log:    C:\Users\Elias\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f
+Log: Init: App::FreeCADInit.py done
+Log: Init: Creating Gui::Application and QApplication
+Log: Local server 'FreeCAD' started
+Log: OpenGL version is: 4.6 (4.6.0 NVIDIA 617.14)
+Log: Run Gui init script
+Log: Init: Running FreeCADGuiInit.py start script...
+Log: Init:   Searching modules
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\AddonManager\.\... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Assembly... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\BIM... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\CAM... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Draft... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Fem... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Help... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Idf(InitGui.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Import... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Inspection... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Material... done
+Log: Loading Material module… done
+Log: Module: Part
+Log: Loading Part module... done
+Log: Loading Measure module… done
+Log: Loading GUI of Measure module… done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Measure... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Mesh... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\MeshPart... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\OpenSCAD... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Part... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\PartDesign... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Plot(InitGui.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Points... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\ReverseEngineering... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Robot... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Show(InitGui.py not found)... ignore
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Sketcher... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Spreadsheet... done
+Log: Loading GUI of Start module… Log: done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Start... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Surface... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\TechDraw... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Test... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Tux... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Local\Programs\FreeCAD-1.1.4\Mod\Web(InitGui.py not found)... ignore
+Msg: 🤖 Starting FreeCAD AI Copilot Service...
+Msg: Socket server initialized with Universal Selector (agent import failed)
+Msg: Socket server started on 127.0.0.1:23456 (Windows TCP)
+Msg: Socket server started on localhost:23456
+Msg: ✅ AI Socket Server started - Claude Desktop ready
+Msg: Starting event observation...\nMsg: ✅ AI Event Observer started - Learning enabled
+Msg: 🎯 AI Copilot Service running - Available from ALL workbenches!
+Msg: 🚀 FreeCAD AI Copilot ready! Works from any workbench.
+Log: Init:      Initializing C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot... done
+Log: Init:      Initializing C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\manifest.json(InitGui.py not found)... ignore
+Log: All modules with GUIs using InitGui.py are now initialized
+Log: All modules with GUIs initialized using pkgutil are now initialized
+Log: Init: Loading FreeCAD GUI
+Log: Init: Running FreeCADGuiInit.py start script... done
+Log: Init: Activating default workbench PartDesignWorkbench
+Log: Loading Sketcher module… done
+Log: Loading Part Design module… done
+Log: Loading GUI of Material module… done
+Log: Loading GUI of Part module… done
+Log: Loading GUI of Sketcher module… done
+Log: Loading GUI of Part Design module… done
+Log: Init: Showing main window
+Log: Main window restored
+Log: Show main window
+Log: Toolbars restored
+Log: Init: Entering event loop
+Log: Init: Executing event loop…
+Log: Running f3d version 0.0
+Log: Init: Processing command line files
+Msg: [2026-10-14 22:43:45] EXEC START: "import FreeCAD as App, FreeCADGui as Gui\nfrom PySide import QtCore\nGui.activateWorkbench('AICopilotW"...
+Msg: EXEC: Starting code execution...
+Msg: AI Copilot Workbench initialized
+Msg: ✅ Global AI Service is running
+Wrn: Cannot find icon: AICopilot.svg
+Wrn: Cannot find icon: AICopilot.svg
+Msg: AI Copilot management workbench activated
+Msg: AI Service Status: Running
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'before': 2215120025040, 'factory': True, 'restart_scheduled': True}
+Msg: 🔄 Restarting AI Copilot Service...
+Msg: 🔄 Stopping AI Copilot Service...
+Msg: Socket server stopped
+Msg: ✅ AI Copilot Service stopped
+Msg: 🤖 Starting FreeCAD AI Copilot Service...
+Msg: Socket server initialized with Universal Selector (agent import failed)
+Msg: Socket server started on 127.0.0.1:23456 (Windows TCP)
+Msg: Socket server started on localhost:23456
+Msg: ✅ AI Socket Server started - Claude Desktop ready
+Msg: Starting event observation...\nMsg: ✅ AI Event Observer started - Learning enabled
+Msg: 🎯 AI Copilot Service running - Available from ALL workbenches!
+Msg: ✅ AI Service restarted successfully
+Msg: [2026-10-14 22:43:58] EXEC START: "import FreeCAD as App, FreeCADGui as Gui, json\nfrom pathlib import Path\nr={'service_recreated':id(Ap"...
+Msg: EXEC: Starting code execution...
+Log: Loading Spreadsheet module... done
+Log: Loading GUI of Spreadsheet module… done
+Err: Client handler error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'service_recreated': True, 'running': True, 'server_running': True, 'documents_before_open': [], 'document': 'Guedala_Park_R30_Juntas_Rotulos', 'file': 'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd', 'objects': 6128}
+Msg: [2026-10-14 22:49:15] EXEC START: 'import FreeCAD as App, FreeCADGui as Gui, json, hashlib\nfrom pathlib import Path\nd=App.ActiveDocumen'...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'fresh_rpc_after_load': True, 'active_document': 'Guedala_Park_R30_Juntas_Rotulos', 'objects': 6128, 'file_unchanged': True, 'service_running': True}
+Msg: [2026-10-14 22:50:24] EXEC START: "import FreeCAD as App\nD=App.ActiveDocument\nresult={'document':D.Name if D else None,'file':D.FileNam"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'document': 'Guedala_Park_R30_Juntas_Rotulos', 'file': 'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd', 'modules': [{'name': 'Modulo007', 'label': 'Gaveta baixa de limpeza - rodas R13 - proposta', 'children': ['Gaveta007', 'PecaBaixaR036', 'PecaBaixaR037', 'PecaBaixaR038', 'PecaBaixaR039']}, {'name': 'Modulo008', 'label': 'D · acima do depurador', 'children': ['Peca315', 'Peca316', 'Peca317', 'Peca318', 'Peca319', 'Peca320', 'Peca321', 'Folha006', 'Folha007', 'DobradicaComumR004', 'DobradicaComumR005', 'DobradicaComumR006', 'DobradicaComumR007']}, {'name': 'Modulo019', 'label': 'Banco baú · 180×55 externo', 'children': ['Peca406', 'Peca407', 'Peca408', 'HistoricoBancoR16', 'PecaBancoR16', 'PecaBancoR001', 'PecaBancoR002', 'PecaBancoR003', 'PecaBancoR004', 'PecaBancoR005', 'PecaBancoR006', 'PecaBancoR007', 'TampaBancoR16', 'TampaBancoR001', 'PecaBancoR011', 'TampaBancoR002', 'PecaBancoR013', 'TampaBancoR003', 'PecaBancoR016', 'PecaBancoR017', 'PecaBancoR018', 'PecaBancoR019', 'PecaBancoR020', 'PecaBancoR021', 'PecaBancoR022', 'PecaBancoR023', 'PecaBancoR024', 'PecaBancoR025', 'PecaBancoR026', 'PecaBancoR027', 'PecaBancoR028', 'PecaBancoR029', 'PecaBancoR030', 'PecaBancoR031', 'PecaBancoR032', 'PecaBancoR033', 'PecaBancoR034', 'ContencaoBaldeR16', 'PecaBancoR035', 'PecaBancoR036', 'PecaBancoR037', 'PecaBancoR015']}, {'name': 'ControleCestoR15', 'label': 'Cesto R15 - Abertura55 e RetiradaSaco', 'children': []}]}
+Msg: [2026-10-14 22:50:45] EXEC START: "import FreeCAD as App\nD=App.ActiveDocument\nresult=[{'name':o.Name,'label':o.Label,'children':[c.Name"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: [{'name': 'Modulo013', 'label': 'Gabinete tanque e cesto', 'children': ['Peca352', 'Peca353', 'Peca354', 'HistoricoCestoR15', 'PecaCestoR15', 'PecaCestoR001', 'PecaCestoR002', 'ControleCestoR15', 'BasculanteCestoR15', 'PecaCestoR017', 'PecaCestoR018', 'PecaCestoR022', 'PecaCestoR023', 'PecaCestoR024', 'PecaCestoR025', 'FundoTanqueR29', 'AberturaHidraulicaR29']}, {'name': 'Modulo017', 'label': 'Gabinete do banheiro', 'children': ['Peca394', 'Peca395', 'Peca396', 'Peca397', 'HistoricoFrenteBanheiroR12', 'FolhaBanheiroR12', 'FolhaBanheiroR001', 'DobradicaComumR12', 'DobradicaComumR037', 'DobradicaComumR038', 'DobradicaComumR039']}, {'name': 'Modulo018', 'label': 'Armário espelhado raso', 'children': ['Peca400', 'Peca401', 'Peca402', 'Peca403', 'Peca404', 'HistoricoFrenteBanheiroR001', 'FolhaBanheiroR002', 'FolhaBanheiroR003', 'DobradicaComumR040', 'DobradicaComumR041', 'DobradicaComumR042', 'DobradicaComumR043', 'DobradicaComumR044', 'DobradicaComumR045', 'PrateleiraEspelhadoR12', 'PrateleiraEspelhadoR001']}]
+Msg: [2026-10-14 22:51:27] EXEC START: "import runpy\nresult=runpy.run_path('C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_P"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'bank_parts': 19, 'basket_parts': 24, 'saved': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Detalhamento_construtivo_R30_2026-10-14\\Geometria_atual.json'}
+Msg: [2026-10-14 22:53:55] EXEC START: "import runpy\nroot='C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Detalhamen"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'study': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Detalhamento_construtivo_R30_2026-10-14\\Estudo_Apoios_Banco_Cesto_R30.FCStd', 'support_count': 7, 'overlaps': [], 'basket_arc': {'method': 'Limites contínuos das caixas locais durante rotação rígida ideal +0..55 graus, eixo X em Y70/Z120. Somente contra os três novos apoios; exclui saco deformável, mãos e ferragem real.', 'min_x': 20.0, 'max_x': 570.0, 'max_y': 320.0, 'left_support_gap': 2.0, 'right_support_gap': 2.0, 'rear_support_gap': 274.0}, 'source_unchanged': True}
+Log: Hide main window
+Log: Save auto-recovery file in 1.970677s
+Log: Show main window
+Msg: [2026-10-14 23:04:03] EXEC START: 'import FreeCAD as App\nresult=[(d.Name,len(d.Objects)) for d in App.listDocuments().values()]'...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: [('Estudo_Apoios_Banco_Cesto_R30', 81), ('Guedala_Park_R30_Juntas_Rotulos', 6128)]
+Log: Hide main window
+Log: Show main window
+Msg: [2026-10-14 23:04:33] EXEC START: "d=App.getDocument('Guedala_Park_R30_Juntas_Rotulos')\nresult=[(o.Name,o.Label,o.TypeId) for o in d.Ob"...
+Msg: EXEC: Starting code execution...
+Err: EXEC: Code execution failed: name 'App' is not defined
+Err: EXEC: Traceback: Traceback (most recent call last):
+  File "C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot\socket_server.py", line 2247, in _execute_python
+    exec(code, exec_context)
+  File "<string>", line 1, in <module>
+NameError: name 'App' is not defined
+
+Err: EXEC ERROR: Python execution error: name 'App' is not defined
+Err: EXEC TRACEBACK: Traceback (most recent call last):
+  File "C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot\socket_server.py", line 2252, in _execute_python
+    raise exec_error
+  File "C:\Users\Elias\AppData\Roaming\FreeCAD\v1-1\Mod\AICopilot\socket_server.py", line 2247, in _execute_python
+    exec(code, exec_context)
+  File "<string>", line 1, in <module>
+NameError: name 'App' is not defined
+
+Msg: [2026-10-14 23:04:46] EXEC START: "import FreeCAD as App\nd=App.getDocument('Guedala_Park_R30_Juntas_Rotulos')\nresult=[(o.Name,o.Label,o"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: [('AberturaHidraulicaR29', 'Abertura hidráulica 450x602 do fundo - R29 (ferramenta)', 'Part::Box'), ('FundoTanqueR29', 'Fundo009 com abertura hidráulica 450x602 - R29', 'Part::Cut')]
+Log: Hide main window
+Msg: [2026-10-14 23:05:02] EXEC START: "import FreeCAD as App\nfrom pathlib import Path\nimport json\nd=App.getDocument('Guedala_Park_R30_Junta"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'missing': [], 'fronts': [('FrenteComumR004', [('Folha008', 'App::Part')]), ('FrenteComumR005', [('Folha009', 'App::Part')])]}
+Msg: [2026-10-14 23:05:32] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: No explicit result, returning success
+Log: Save auto-recovery file in 0.019508s
+Log: Save auto-recovery file in 0.000000s
+Msg: [2026-10-14 23:18:33] EXEC START: "import FreeCAD as App\nimport json\nfrom pathlib import Path\nd=App.getDocument('Guedala_Park_R30_Junta"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'placement': 'Placement [Pos=(6850,5550,0), Yaw-Pitch-Roll=(-90,-0,0)]', 'objects': [('ParedesInteiras', 'Paredes inteiras · alturas de cenário'), ('ParedesCortadas', 'Paredes em corte · inspeção'), ('Peca009', 'Parede · Quarto'), ('Peca010', 'Parede em corte · Quarto'), ('Peca011', 'Parede · Quarto001'), ('Peca012', 'Parede em corte · Quarto001'), ('Peca013', 'Parede · Quarto002'), ('Peca014', 'Parede em corte · Quarto002'), ('Peca015', 'Parede · Quarto003'), ('Peca016', 'Parede em corte · Quarto003'), ('Peca017', 'Parede · Quarto004'), ('Peca018', 'Parede em corte · Quarto004'), ('Peca019', 'Parede · Escritório'), ('Peca020', 'Parede em corte · Escritório'), ('Peca021', 'Parede · Escritório001'), ('Peca022', 'Parede em corte · Escritório001'), ('Peca023', 'Parede · Escritório002'), ('Peca024', 'Parede em corte · Escritório002'), ('Peca025', 'Parede · Escritório003'), ('Peca026', 'Parede em corte · Escritório003'), ('Peca027', 'Parede · Escritório004'), ('Peca028', 'Parede em corte · Escritório004'), ('Peca029', 'Parede · Escritório005'), ('Peca030', 'Parede em corte · Escritório005'), ('Peca031', 'Parede · Sala e jantar'), ('Peca032', 'Parede em corte · Sala e jantar'), ('Peca033', 'Parede · Sala e jantar001'), ('Peca034', 'Parede em corte · Sala e jantar001'), ('Peca035', 'Parede · Sala e jantar002'), ('Peca036', 'Parede em corte · Sala e jantar002'), ('Peca037', 'Parede · Cozinha'), ('Peca038', 'Parede em corte · Cozinha'), ('Peca039', 'Parede · Cozinha001'), ('Peca040', 'Parede em corte · Cozinha001'), ('Peca041', 'Parede · Lavanderia'), ('Peca042', 'Parede em corte · Lavanderia'), ('Peca043', 'Parede · Lavanderia001'), ('Peca044', 'Parede em corte · Lavanderia001'), ('Peca045', 'Parede · Banheiro'), ('Peca046', 'Parede em corte · Banheiro'), ('Peca047', 'Parede · Banheiro001'), ('Peca048', 'Parede em corte · Banheiro001'), ('Peca049', 'Parede · Banheiro002'), ('Peca050', 'Parede em corte · Banheiro002'), ('Peca051', 'Parede · Banheiro003'), ('Peca052', 'Parede em corte · Banheiro003'), ('Peca053', 'Parede · Banheiro004'), ('Peca054', 'Parede em corte · Banheiro004'), ('Peca055', 'Parede · Banheiro005'), ('Peca056', 'Parede em corte · Banheiro005'), ('Peca057', 'Parede · Quarto005'), ('Peca058', 'Parede em corte · Quarto005'), ('Peca059', 'Parede · Quarto006'), ('Peca060', 'Parede em corte · Quarto006'), ('Peca061', 'Parede · Quarto007'), ('Peca062', 'Parede em corte · Quarto007'), ('Peca091', 'Mesa extensível com pedestal fixo'), ('Peca092', 'Mesa extensível com pedestal fixo001'), ('Peca093', 'Mesa extensível com pedestal fixo002'), ('Peca094', 'Mesa extensível com pedestal fixo003'), ('Peca095', 'Mesa extensível com pedestal fixo004'), ('Peca096', 'Mesa extensível com pedestal fixo005'), ('Peca097', 'Mesa extensível com pedestal fixo006'), ('Peca098', 'Mesa extensível com pedestal fixo007'), ('Peca110', 'Bancada de trabalho')]}
+Msg: [2026-10-14 23:19:06] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'leaf': 'PecaBancoR035', 'bbox': [18.0, 40.0, 330.0, 818.0, 390.0, 400.0], 'stroke': 838.0, 'hits': [{'name': 'Peca406', 'label': 'Lateral direita031', 'volume': 441000.0}], 'count': 278}
+Msg: [2026-10-14 23:19:44] EXEC START: "import FreeCAD as App\nd=App.getDocument('Guedala_Park_R30_Juntas_Rotulos')\no=d.getObject('Peca076')\n"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'door': [('Height', '2050.0 mm'), ('Label', 'door003'), ('Label2', ''), ('Length', '850.0 mm'), ('Placement', 'Placement [Pos=(6550,6980,0), Yaw-Pitch-Roll=(0,0,0)]'), ('Width', '20.0 mm')], 'parents': [('Ambiente_cozinha', 'Cozinha'), ('EspelhoPecaR081', 'door006')], 'near': [('Peca069', 'glass003', 'Placement [Pos=(2450,5690,950), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca070', 'box003', 'Placement [Pos=(2450,5690,920), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca071', 'glass004', 'Placement [Pos=(2450,4350,950), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca072', 'box004', 'Placement [Pos=(2450,4350,920), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca073', 'door', 'Placement [Pos=(4740,2200,0), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca074', 'door001', 'Placement [Pos=(2900,3880,0), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca075', 'door002', 'Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca076', 'door003', 'Placement [Pos=(6550,6980,0), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca077', 'Sofá Bonnie SoftGel · Cama inBox', 'Placement [Pos=(6300,1850,90), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca078', 'Sofá Bonnie SoftGel · Cama inBox001', 'Placement [Pos=(6380,1950,370), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca079', 'Sofá Bonnie SoftGel · Cama inBox002', 'Placement [Pos=(6340,1990,380), Yaw-Pitch-Roll=(0,0,0)]'), ('Peca080', 'Sofá Bonnie SoftGel · Cama inBox003', 'Placement [Pos=(6340,2760,380), Yaw-Pitch-Roll=(0,0,0)]')]}
+Msg: [2026-10-14 23:20:59] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'nominal_panel_mm': [750, 300, 30], 'start_mm': [43, 65, 330], 'stroke_mm': 813, 'opening_hypothesis_mm': [320, 40], 'opening_yz_mm': [55, 325, 375, 365], 'remaining_top_strip_mm': 35, 'clearances_mm': {'side_each': 10, 'vertical_each': 5, 'above_shelf': 10}, 'panel_sweep_original': [{'name': 'Peca406', 'volume': 162000.0}], 'panel_sweep_virtual_opening': [], 'panel_lift_hits': [], 'envelope_tip_to_closed_door_mm': 610, 'panel_tip_to_closed_door_mm': 660, 'envelope_side_to_fridge_mm': 440, 'panel_side_to_fridge_mm': 465, 'operators': {'frontal_600': {'box': [-1420, -85, 0, -820, 515, 1800], 'note': '600x600 footprint ahead of conservative envelope, not a body standard; 10 mm from closed door; secondary lateral gap to fridge315.', 'hits': []}, 'lateral_600': {'box': [-600, -600, 0, 0, 0, 1800], 'note': '600x600 footprint on room side; only2.5 mm to fridge front plane. Does not prove reach or movement.', 'hits': []}}, 'limits': 'Operator boxes are sensitivity examples, not ergonomic, accessible or regulatory clearance. Door closed and fridge closed; no door swing, hand, load or full leaf-to-table cycle validation. Opening has no engineered reinforcement. Nominal panel dimensions are design hypotheses.'}
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.000000s
+Msg: [2026-10-14 23:29:45] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'saved': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Bandeja_Ponta_R30.FCStd', 'collisions': [], 'remaining_to_door_mm': 630, 'design_load_kg': 240, 'capacity_verified': False}
+Msg: [2026-10-14 23:30:15] EXEC START: "import FreeCAD as App,FreeCADGui as Gui\nfrom pathlib import Path\np=Path(r'C:/Users/Elias/Documents/P"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: C:\Users\Elias\Documents\PROJETOS\Guedala park\guedala-park\01_Projeto\Sala_e_jantar\Retirada_ponta_R30\Bandeja_aberta.png
+Msg: [2026-10-14 23:30:52] EXEC START: "import FreeCAD as App,Part,FreeCADGui as Gui\nimport json\nfrom pathlib import Path\np=Path(r'C:/Users/"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'rear_connection_hits': []}
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.014229s
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.000000s
+Msg: [2026-10-14 23:59:36] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'static_collisions': [], 'sweep_collisions': [], 'empty_panel_route_new_reinforcement_collisions': [], 'rail': 'DZ5321-0070', 'travel_mm': 723, 'leaf_extra_slide_mm': 120, 'support_length_mm': 645, 'overhang_mm': 105, 'door_clearance_mm': 630, 'opening_mm': [390, 62], 'tray_mm': [750, 337, 50], 'source_sha256': 'ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2', 'capacity_verified': False, 'limits': 'Hardware internals, locks, screws, operator and final tray structure not modeled. Empty-panel route checked against new reinforcements only. Preliminary conditional sizing.', 'saved': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Banco_Hibrido_R01.FCStd'}
+Log: Save auto-recovery file in 0.000000s
+Log: Show main window
+Log: Hide main window
+Log: Save auto-recovery file in 0.000000s
+Msg: [2026-10-15 00:10:47] EXEC START: "from pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Pro"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'static_collisions': [], 'sweep_collisions': [], 'empty_panel_route_new_reinforcement_collisions': [], 'rail': 'DZ5321-0070', 'travel_mm': 723, 'leaf_extra_slide_mm': 120, 'support_length_mm': 645, 'overhang_mm': 105, 'door_clearance_mm': 630, 'opening_mm': [390, 62], 'tray_mm': [750, 337, 50], 'source_sha256': 'ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2', 'capacity_verified': False, 'limits': 'Hardware internals, locks, screws, operator and final tray structure not modeled. Empty-panel route checked against new reinforcements only. Preliminary conditional sizing.', 'lock': {'pin_diameter_mm': 6, 'pin_length_mm': 80, 'fixed_plate_mm': [20, 74, 6], 'receiver_plate_mm': [120, 15, 3], 'bushing_outer_inner_length_mm': [10, 7, 40], 'open_axis_xyz_mm': [-40, 65, 290], 'closed_receiver_x_mm': 683, 'fixed_projection_mm': 50, 'collisions': [], 'note': 'Pin head, retaining clip, tether, receiver screws and welding allowances not modeled. Bushing intentionally embedded in tray side; bore required. Fixed ear adds20mm beyond R01 portal.'}, 'saved': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Banco_Hibrido_R02.FCStd'}
+Msg: [2026-10-15 00:11:52] EXEC START: "import FreeCAD as App\nfrom pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala pa"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'pin_diameter_mm': 8, 'pin_length_mm': 80, 'fixed_plate_mm': [20, 74, 6], 'receiver_plate_mm': [120, 15, 3], 'bushing_outer_inner_length_mm': [12, 9, 40], 'open_axis_xyz_mm': [-40, 65, 290], 'closed_receiver_x_mm': 683, 'fixed_projection_mm': 50, 'collisions': [], 'note': 'Pin head, retaining clip, tether, receiver screws and welding allowances not modeled. Bushing intentionally embedded in tray side; bore required. Fixed ear adds20mm beyond R01 portal.'}
+Msg: [2026-10-15 00:13:06] EXEC START: "import FreeCAD as App\nfrom pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETOS/Guedala pa"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'static_collisions': [], 'sweep_collisions': [], 'empty_panel_route_new_reinforcement_collisions': [], 'rail': 'DZ5321-0070', 'travel_mm': 723, 'leaf_extra_slide_mm': 120, 'support_length_mm': 645, 'overhang_mm': 105, 'door_clearance_mm': 630, 'opening_mm': [390, 62], 'tray_mm': [750, 337, 50], 'source_sha256': 'ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2', 'capacity_verified': False, 'limits': 'Hardware internals, locks, screws, operator and final tray structure not modeled. Empty-panel route checked against new reinforcements only. Preliminary conditional sizing.', 'lock': {'pin_diameter_mm': 8, 'pin_length_mm': 80, 'fixed_plate_mm': [20, 74, 6], 'receiver_plate_mm': [120, 15, 3], 'bushing_outer_inner_length_mm': [12, 9, 40], 'open_axis_xyz_mm': [-40, 65, 290], 'closed_receiver_x_mm': 683, 'fixed_projection_mm': 50, 'collisions': [], 'note': 'Pin head, retaining clip, tether, receiver screws and welding allowances not modeled. Bushing intentionally embedded in tray side; bore required. Fixed ear adds20mm beyond R01 portal.'}, 'saved': 'C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Banco_Hibrido_R02.FCStd'}
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.015766s
+Log: Save auto-recovery file in 0.000000s
+Msg: [2026-10-15 00:16:07] EXEC START: "import FreeCAD as App, Part, json\nfrom pathlib import Path\np=Path(r'C:/Users/Elias/Documents/PROJETO"...
+Msg: EXEC: Starting code execution...
+Msg: EXEC: Code completed successfully
+Msg: EXEC: Result: {'bolt_count': 68, 'washer_head_rail_collisions': [], 'limits': 'Only washers and bolt-head envelopes vs static rail envelopes; nuts, tools, manufacturer moving members and full joints need assembly validation.'}
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.016748s
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.000000s
+Log: Save auto-recovery file in 0.000000s
+Log: Show main window
+Log: Hide main window

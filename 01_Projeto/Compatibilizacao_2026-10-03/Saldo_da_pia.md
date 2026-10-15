@@ -1,5 +1,11 @@
 # Saldo da pia e grupos pendentes —03/10/2026
 
+**Nova R3 —03/10:** [faixa frontal no superior](Pendencias_da_cozinha.html) entre as pilhas e à frente do sifão, externa11,3 ×24,1 ×18,5, com conteúdo até10,5 ×23,3 ×17,6 após paredes/fundo/elevação e reserva superior. Elias não tem jarra/térmica; são limites de confronto futuros, sem escolha de volume/modelo ou cabimento real atribuído. Saída de R3 e pilhas livres nos envelopes; tampas continuam dependendo da direita. Não interfere em R1/R2 no nível inferior. Apoios, hidráulica e abertura reais pendentes.
+
+**Potes ocasionais —03/10:** frequência confirmada por Elias. [Nova alternativa de vidro no banco](Vidros_no_banco.html) permite conservar a candidatura do mixer em R1 se os potes forem para o nível removível do compartimento limpo, não adotado. Três completos12 ×18 ×7 em uma camada são cenário; quantidade/capacidade reais desconhecidas. O nível bloqueia acesso direto a travessas/batedeira, exigindo retirar potes, bandejas vazias e apoios primeiro. Não muda o custo de acesso do escorredor quando R1 tem mixer.
+
+**Atualização da retomada:** Elias informou que ainda não possui sanduicheira, liquidificador, batedeira ou mixer. As reservas passam a orientar tamanhos futuros desses aparelhos. [Comparação de sanduicheira em C1](Sanduicheira_C1.html) depende de mudar duas pilhas diárias para uma pilha de 12; essa alteração não foi adotada ou aprovada. Os limites de R1/R2 e o custo de acesso abaixo continuam válidos como hipóteses.
+
 [Prancha](Saldo_da_pia.html) · [Resultados](Resultados_saldo_pia.json) · [Base C](Tampas_e_G2.md) · [Inventário](../Compatibilizacao_2026-10-02/Mapa_do_inventario.md)
 
 Elias pediu continuar e já restringiu uso de Firecrawl hoje. Sem consulta externa nesta rodada. Medidas dos aparelhos foram solicitadas como informação opcional, sem bloquear análise independente. Não inferir que aparelhos ainda não existem só porque os utensílios de G2 não existem.

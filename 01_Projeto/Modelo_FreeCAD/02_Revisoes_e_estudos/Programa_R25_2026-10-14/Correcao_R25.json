@@ -1,0 +1,77 @@
+{
+  "base": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Implantacao_R24_2026-10-14\\Guedala_Park_R24_Implantacao_Corrigida.FCStd",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Programa_R25_2026-10-14\\Guedala_Park_R25_Programa_Conferido.FCStd",
+  "base_sha256_before": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "changes": [
+    {
+      "name": "Peca275",
+      "fields": [
+        "placement"
+      ]
+    },
+    {
+      "name": "EspelhoPecaR010",
+      "fields": [
+        "linked"
+      ]
+    }
+  ],
+  "mirror_before_bbox": [
+    2010.0,
+    3350.0,
+    200.0,
+    2015.0,
+    3850.0,
+    2000.0
+  ],
+  "mirror_after_bbox": [
+    2010.0,
+    3365.0,
+    200.0,
+    2015.0,
+    3865.0,
+    2000.0
+  ],
+  "mirror_centering": "Lateral composed at mirror height: Peca207 + ApoioReferenciaCorrerR001, Y3290..3940; center3615, mirror500 wide at3365..3865, margins75/75. Nominal geometry, not installation certification.",
+  "headboard_source": "Peca107",
+  "headboard_link": "EspelhoPecaR010",
+  "new_panels": [
+    "PainelCabeceiraR25",
+    "PainelCabeceiraR001"
+  ],
+  "compound": "CabeceiraDoisPaineisR25",
+  "headboard_bbox_source": [
+    0.0,
+    1200.0,
+    200.0,
+    50.0,
+    2800.0,
+    1150.0
+  ],
+  "headboard_bbox_mirrored": [
+    7350.0,
+    1200.0,
+    200.0,
+    7400.0,
+    2800.0,
+    1150.0
+  ],
+  "headboard_volume_mm3": 76000000.0,
+  "objects_before": 5895,
+  "objects_after": 5898,
+  "invalid": [],
+  "limits": "Nominal CAD centering/visual division only. No new physical dimensions, cutout, panel joint, fixings, adhesive, loads or fabrication release.",
+  "base_sha256_after": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "sha256": "eef8683b0b9a1743156ef769540381492d1b3f32b2a3e32ff9f79b7d9ff1f40a",
+  "headboard_old_label_after": "Histórico oculto — cabeceira anterior em bloco único",
+  "source_group": "Ambiente_quarto",
+  "source_group_added_members": [
+    "PainelCabeceiraR25",
+    "PainelCabeceiraR001",
+    "CabeceiraDoisPaineisR25"
+  ],
+  "label_changes": [
+    "Peca107",
+    "EspelhoPecaR010"
+  ]
+}

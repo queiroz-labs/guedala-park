@@ -1,0 +1,325 @@
+{
+  "courses": [
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 0.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 120.625,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 241.25,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 361.875,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 482.5,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 603.125,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 723.75,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 844.375,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR14",
+      "position_mm": 965.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 0.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 120.625,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 241.25,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 361.875,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 482.5,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 603.125,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 723.75,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 844.375,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR001",
+      "position_mm": 965.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 0.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 80.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 160.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 240.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 320.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 400.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 480.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 560.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR002",
+      "position_mm": 640.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 0.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 80.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 160.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 240.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 320.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 400.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 480.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 560.0,
+      "hits": []
+    },
+    {
+      "control": "ControleCorrerR003",
+      "position_mm": 640.0,
+      "hits": []
+    }
+  ],
+  "simultaneous": [
+    {
+      "fraction": 0.25,
+      "hits": []
+    },
+    {
+      "fraction": 0.5,
+      "hits": []
+    },
+    {
+      "fraction": 1,
+      "hits": []
+    }
+  ],
+  "drawer_access": [
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta",
+      "extension_mm": 0,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta",
+      "extension_mm": 100,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta",
+      "extension_mm": 200,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta",
+      "extension_mm": 300,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta",
+      "extension_mm": 400,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta001",
+      "extension_mm": 0,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta001",
+      "extension_mm": 100,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta001",
+      "extension_mm": 200,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta001",
+      "extension_mm": 300,
+      "hits": []
+    },
+    {
+      "side": "esquerda",
+      "drawer": "Gaveta001",
+      "extension_mm": 400,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta002",
+      "extension_mm": 0,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta002",
+      "extension_mm": 100,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta002",
+      "extension_mm": 200,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta002",
+      "extension_mm": 300,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta002",
+      "extension_mm": 400,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta003",
+      "extension_mm": 0,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta003",
+      "extension_mm": 100,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta003",
+      "extension_mm": 200,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta003",
+      "extension_mm": 300,
+      "hits": []
+    },
+    {
+      "side": "direita",
+      "drawer": "Gaveta003",
+      "extension_mm": 400,
+      "hits": []
+    }
+  ],
+  "fixed_hits": [],
+  "targets": 154,
+  "explicit_corner_targets": 34,
+  "invalid": [],
+  "scope": "Somente mudanças R14; poses discretas de gabaritos hipotéticos, não hardware real/engrenamento/retenção/continuidade/tolerância/carga. Trilhos e contatos de guiamento excluídos das colisões, pois envelopes de seção/altura não são sólidos reais. Quatro gavetas apenas contra novas portas/apoios; não repetição da auditoria R08. R04 vigente selecionada por namespace, pois visibilidade de display herdada era falsa."
+}

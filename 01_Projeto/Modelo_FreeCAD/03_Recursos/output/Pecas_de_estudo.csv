@@ -1,0 +1,429 @@
+﻿Objeto;Descrição;Tipo;Comprimento_mm;Profundidade_mm;Altura_mm;Material;Status
+Peca;floor;Arquitetura de estudo;2450.0;2950.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca001;floor001;Arquitetura de estudo;1200.0;900.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca002;floor002;Arquitetura de estudo;2300.0;2950.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca003;floor003;Arquitetura de estudo;2450.0;3800.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca004;floor004;Arquitetura de estudo;300.0;1400.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca005;floor005;Arquitetura de estudo;1300.0;900.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca006;floor006;Arquitetura de estudo;3520.0;1550.0;50.0;#c9b99d;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca007;floor007;Arquitetura de estudo;1290.0;1610.0;50.0;#dcd4c3;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca008;floor008;Arquitetura de estudo;2090.0;1240.0;50.0;#c6bcaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca009;Parede · Quarto;Parede;700.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca010;Parede em corte · Quarto;Parede em corte;700.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca011;Parede · Quarto001;Parede;750.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca012;Parede em corte · Quarto001;Parede em corte;750.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca013;Parede · Quarto002;Parede;100.0;2950.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca014;Parede em corte · Quarto002;Parede em corte;100.0;2950.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca015;Parede · Quarto003;Parede;2650.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca016;Parede em corte · Quarto003;Parede em corte;2650.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca017;Parede · Quarto004;Parede;100.0;1950.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca018;Parede em corte · Quarto004;Parede em corte;100.0;1950.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca019;Parede · Escritório;Parede;700.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca020;Parede em corte · Escritório;Parede em corte;700.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca021;Parede · Escritório001;Parede;650.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca022;Parede em corte · Escritório001;Parede em corte;650.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca023;Parede · Escritório002;Parede;100.0;1000.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca024;Parede em corte · Escritório002;Parede em corte;100.0;1000.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca025;Parede · Escritório003;Parede;100.0;3150.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca026;Parede em corte · Escritório003;Parede em corte;100.0;3150.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca027;Parede · Escritório004;Parede;1450.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca028;Parede em corte · Escritório004;Parede em corte;1450.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca029;Parede · Escritório005;Parede;200.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca030;Parede em corte · Escritório005;Parede em corte;200.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca031;Parede · Sala e jantar;Parede;380.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca032;Parede em corte · Sala e jantar;Parede em corte;380.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca033;Parede · Sala e jantar001;Parede;780.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca034;Parede em corte · Sala e jantar001;Parede em corte;780.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca035;Parede · Sala e jantar002;Parede;100.0;4300.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca036;Parede em corte · Sala e jantar002;Parede em corte;100.0;4300.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca037;Parede · Cozinha;Parede;100.0;200.0;2570.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca038;Parede em corte · Cozinha;Parede em corte;100.0;200.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca039;Parede · Cozinha001;Parede;4950.0;100.0;2570.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca040;Parede em corte · Cozinha001;Parede em corte;4950.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca041;Parede · Lavanderia;Parede;100.0;300.0;2570.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca042;Parede em corte · Lavanderia;Parede em corte;100.0;300.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca043;Parede · Lavanderia001;Parede;100.0;250.0;2570.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca044;Parede em corte · Lavanderia001;Parede em corte;100.0;250.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca045;Parede · Banheiro;Parede;100.0;300.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca046;Parede em corte · Banheiro;Parede em corte;100.0;300.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca047;Parede · Banheiro001;Parede;100.0;640.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca048;Parede em corte · Banheiro001;Parede em corte;100.0;640.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca049;Parede · Banheiro002;Parede;2190.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca050;Parede em corte · Banheiro002;Parede em corte;2190.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca051;Parede · Banheiro003;Parede;100.0;1340.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca052;Parede em corte · Banheiro003;Parede em corte;100.0;1340.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca053;Parede · Banheiro004;Parede;1300.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca054;Parede em corte · Banheiro004;Parede em corte;1300.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca055;Parede · Banheiro005;Parede;190.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca056;Parede em corte · Banheiro005;Parede em corte;190.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca057;Parede · Quarto005;Parede;100.0;100.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca058;Parede em corte · Quarto005;Parede em corte;100.0;100.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca059;Parede · Quarto006;Parede;100.0;50.0;2470.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca060;Parede em corte · Quarto006;Parede em corte;100.0;50.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca061;Parede · Quarto007;Parede;100.0;750.0;420.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca062;Parede em corte · Quarto007;Parede em corte;100.0;750.0;320.0;#e4dfd2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca063;glass;Arquitetura de estudo;1200.0;100.0;1100.0;#aabeb5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca064;box;Arquitetura de estudo;1200.0;100.0;30.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca065;glass001;Arquitetura de estudo;1150.0;100.0;1100.0;#aabeb5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca066;box001;Arquitetura de estudo;1150.0;100.0;30.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca067;glass002;Arquitetura de estudo;1390.0;100.0;1100.0;#aabeb5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca068;box002;Arquitetura de estudo;1390.0;100.0;30.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca069;glass003;Arquitetura de estudo;100.0;1060.0;1100.0;#aabeb5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca070;box003;Arquitetura de estudo;100.0;1060.0;30.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca071;glass004;Arquitetura de estudo;100.0;400.0;1100.0;#aabeb5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca072;box004;Arquitetura de estudo;100.0;400.0;30.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca073;door;Arquitetura de estudo;20.0;750.0;2050.0;#b39c7b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca074;door001;Arquitetura de estudo;750.0;20.0;2050.0;#b39c7b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca075;door002;Arquitetura de estudo;20.0;700.0;2050.0;#b39c7b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca076;door003;Arquitetura de estudo;850.0;20.0;2050.0;#b39c7b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca077;Sofá Bonnie SoftGel · Cama inBox;Reserva de equipamento ou móvel;1100.0;1800.0;290.0;#d9c9b1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca078;Sofá Bonnie SoftGel · Cama inBox001;Reserva de equipamento ou móvel;810.0;1600.0;10.0;#665446;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca079;Sofá Bonnie SoftGel · Cama inBox002;Reserva de equipamento ou móvel;780.0;740.0;130.0;#d9c9b1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca080;Sofá Bonnie SoftGel · Cama inBox003;Reserva de equipamento ou móvel;780.0;740.0;130.0;#d9c9b1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca081;Sofá Bonnie SoftGel · Cama inBox004;Reserva de equipamento ou móvel;230.0;1720.0;640.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca082;Sofá Bonnie SoftGel · Cama inBox005;Reserva de equipamento ou móvel;1020.0;140.0;310.0;#d9c9b1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca083;Sofá Bonnie SoftGel · Cama inBox006;Reserva de equipamento ou móvel;1020.0;140.0;310.0;#d9c9b1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca084;Painel liso da TV;Reserva de equipamento ou móvel;20.0;1150.0;1650.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca085;Uma prateleira acima e outra abaixo da TV;Reserva de equipamento ou móvel;350.0;1100.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca086;Uma prateleira acima e outra abaixo da TV001;Reserva de equipamento ou móvel;250.0;1100.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca087;Compartimento da régua;Reserva de equipamento ou móvel;150.0;200.0;120.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca088;TV 50″ · preferência Ambilight;Reserva de equipamento ou móvel;88.0;1111.0;649.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca089;Soundbar futura;Reserva de equipamento ou móvel;105.0;900.0;70.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca090;vase;Reserva de equipamento ou móvel;70.0;50.0;120.0;#78846a;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca091;Mesa extensível com pedestal fixo;Reserva de equipamento ou móvel;750.0;750.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca092;Mesa extensível com pedestal fixo001;Reserva de equipamento ou móvel;750.0;750.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca093;Mesa extensível com pedestal fixo002;Reserva de equipamento ou móvel;750.0;1.4000000000000001;0.15;#9c825f;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca094;Mesa extensível com pedestal fixo003;Reserva de equipamento ou móvel;120.0;120.0;653.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca095;Mesa extensível com pedestal fixo004;Reserva de equipamento ou móvel;260.0;300.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca096;Mesa extensível com pedestal fixo005;Reserva de equipamento ou móvel;30.0;900.0;47.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca097;Mesa extensível com pedestal fixo006;Reserva de equipamento ou móvel;30.0;900.0;47.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca098;Mesa extensível com pedestal fixo007;Reserva de equipamento ou móvel;430.0;340.0;30.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca099;Três cadeiras Lina · guarda na lateral;Reserva de equipamento ou móvel;440.0;470.0;940.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca100;Três cadeiras Lina · guarda na lateral001;Reserva de equipamento ou móvel;440.0;470.0;940.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca101;Três cadeiras Lina · guarda na lateral002;Reserva de equipamento ou móvel;440.0;470.0;940.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca102;Cama queen existente;Reserva de equipamento ou móvel;2000.0;1600.0;340.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca103;Cama queen existente001;Reserva de equipamento ou móvel;2000.0;1600.0;260.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca104;Cama queen existente002;Reserva de equipamento ou móvel;1340.0;1580.0;20.0;#c9c1ae;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca105;Cama queen existente003;Reserva de equipamento ou móvel;440.0;620.0;90.0;#faf8ee;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca106;Cama queen existente004;Reserva de equipamento ou móvel;440.0;620.0;90.0;#faf8ee;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca107;Cabeceira estofada clara;Reserva de equipamento ou móvel;50.0;1600.0;950.0;#c9bbaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca108;Dois apoios para celular e óculos;Reserva de equipamento ou móvel;150.0;200.0;20.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca109;Dois apoios para celular e óculos001;Reserva de equipamento ou móvel;150.0;200.0;20.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca110;Bancada de trabalho;Reserva de equipamento ou móvel;2000.0;700.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca111;Bancada de trabalho001;Reserva de equipamento ou móvel;30.0;30.0;720.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca112;Bancada de trabalho002;Reserva de equipamento ou móvel;30.0;30.0;720.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca113;Notebook + dois monitores + CH360;Reserva de equipamento ou móvel;360.0;250.0;15.0;#7c8381;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca114;Notebook + dois monitores + CH361;Reserva de equipamento ou móvel;360.0;15.0;220.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca115;Notebook + dois monitores + CH362;Reserva de equipamento ou móvel;620.0;30.0;350.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca116;Notebook + dois monitores + CH363;Reserva de equipamento ou móvel;20.0;90.0;190.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca117;Notebook + dois monitores + CH364;Reserva de equipamento ou móvel;620.0;30.0;350.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca118;Notebook + dois monitores + CH365;Reserva de equipamento ou móvel;20.0;90.0;190.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca119;Notebook + dois monitores + CH366;Reserva de equipamento ou móvel;215.0;428.0;431.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca120;Notebook + dois monitores + CH367;Reserva de equipamento ou móvel;4.0;340.0;310.0;#526b70;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca121;Notebook + dois monitores + CH368;Reserva de equipamento ou móvel;470.0;150.0;10.0;#555b59;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca122;Sofá-cama Daiane cinza-claro;Reserva de equipamento ou móvel;1400.0;900.0;280.0;#aeb1b2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca123;Sofá-cama Daiane cinza-claro001;Reserva de equipamento ou móvel;1320.0;680.0;110.0;#aeb1b2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca124;Sofá-cama Daiane cinza-claro002;Reserva de equipamento ou móvel;1360.0;190.0;470.0;#969da0;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca125;Sofá-cama Daiane cinza-claro003;Reserva de equipamento ou móvel;140.0;710.0;260.0;#aeb1b2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca126;Sofá-cama Daiane cinza-claro004;Reserva de equipamento ou móvel;140.0;710.0;260.0;#aeb1b2;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca127;Sofá-cama Daiane cinza-claro005;Reserva de equipamento ou móvel;560.0;310.0;70.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca128;Sofá-cama Daiane cinza-claro006;Reserva de equipamento ou móvel;560.0;310.0;70.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca129;Cadeira · cenário Ultra Comfort;Reserva de equipamento ou móvel;745.0;730.0;1200.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca130;Prateleira alta dos consoles;Reserva de equipamento ou móvel;350.0;1100.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca131;Samsung 43″ existente;Reserva de equipamento ou móvel;50.0;970.0;560.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca132;PS5 Slim Digital · um aparelho;Reserva de equipamento ou móvel;216.0;358.0;80.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca133;Venax Totale Nero GIII 50 L;Reserva de equipamento ou móvel;517.0;615.0;610.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca134;Cooktop Electrolux KE4GC;Reserva de equipamento ou móvel;600.0;450.0;15.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca135;Cuba Dora + torneira Apurema;Reserva de equipamento ou móvel;430.0;370.0;26.0;#959d97;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca136;Cuba Dora + torneira Apurema001;Reserva de equipamento ou móvel;20.0;20.0;430.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca137;Cuba Dora + torneira Apurema002;Reserva de equipamento ou móvel;170.0;20.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca138;Geladeira Electrolux IB6S Inox Look;Reserva de equipamento ou móvel;601.0;747.5;1866.0;#aeb5b5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca139;Depurador Suggar DE61IX;Reserva de equipamento ou móvel;600.0;300.0;176.0;#aeb5b5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca140;Purificador Electrolux PE12G grafite;Reserva de equipamento ou móvel;160.0;420.0;350.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca141;Pedra, pintura e pegas;Reserva de equipamento ou móvel;1869.0;20.0;100.0;#ded7c7;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca142;Plafon quadrado branco;Reserva de equipamento ou móvel;410.0;410.0;35.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca143;Plafon quadrado branco001;Reserva de equipamento ou móvel;370.0;370.0;3.0;#fff1d7;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca144;Lixeira comum Biovis Coleta 15 L;Reserva de equipamento ou móvel;340.0;210.0;450.0;#aeb5b5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca145;Lixeira comum Biovis Coleta 15 L001;Reserva de equipamento ou móvel;340.0;210.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca146;Lixeira comum Biovis Coleta 15 L002;Reserva de equipamento ou móvel;50.0;90.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca147;Lixeira de recicláveis Tramontina Loop 20 L;Reserva de equipamento ou móvel;290.0;290.0;420.0;#aeb5b5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca148;Lixeira de recicláveis Tramontina Loop 20 L001;Reserva de equipamento ou móvel;290.0;290.0;17.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca149;Lixeira de recicláveis Tramontina Loop 20 L002;Reserva de equipamento ou móvel;90.0;50.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca150;Escorredor Tramontina Mini Plurale grafite;Reserva de equipamento ou móvel;278.0;199.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca151;Escorredor Tramontina Mini Plurale grafite001;Reserva de equipamento ou móvel;278.0;20.0;106.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca152;LG VC4 CV5012PC4 Inox Look;Reserva de equipamento ou móvel;600.0;620.0;850.0;#aeb5b5;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca153;Continuidade de pedra e pintura;Reserva de equipamento ou móvel;1330.0;20.0;100.0;#ded7c7;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca154;Philips Walita RI9252/91;Reserva de equipamento ou móvel;264.0;360.0;295.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca155;Rinnai E21 GN REU-E211 FEH;Reserva de equipamento ou móvel;350.0;157.0;530.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca156;Rinnai E21 GN REU-E211 FEH001;Reserva de equipamento ou móvel;80.0;80.0;350.0;#afb3ae;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca157;Varal vertical com chapa de ocultação;Reserva de equipamento ou móvel;1000.0;500.0;30.0;#c4a27b;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca158;Box transparente + Addra Livo Black Matte;Reserva de equipamento ou móvel;800.0;1240.0;20.0;#c6bcaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca159;Enchimento técnico existente;Reserva de equipamento ou móvel;800.0;300.0;180.0;#c6bcaa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca160;Box transparente + Addra Livo Black Matte001;Reserva de equipamento ou móvel;800.0;20.0;2250.0;#78846a;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca161;Box transparente + Addra Livo Black Matte002;Reserva de equipamento ou móvel;10.0;1240.0;2100.0;#9fb2aa;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca162;Box transparente + Addra Livo Black Matte003;Reserva de equipamento ou móvel;20.0;10.0;2100.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca163;Box transparente + Addra Livo Black Matte004;Reserva de equipamento ou móvel;20.0;10.0;2100.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca164;Box transparente + Addra Livo Black Matte005;Reserva de equipamento ou móvel;20.0;1240.0;10.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca165;Box transparente + Addra Livo Black Matte006;Reserva de equipamento ou móvel;20.0;420.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca166;Box transparente + Addra Livo Black Matte007;Reserva de equipamento ou móvel;132.0;132.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca167;Box transparente + Addra Livo Black Matte008;Reserva de equipamento ou móvel;30.0;30.0;150.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca168;Box transparente + Addra Livo Black Matte009;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca169;Box transparente + Addra Livo Black Matte010;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca170;Box transparente + Addra Livo Black Matte011;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca171;Box transparente + Addra Livo Black Matte012;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca172;Box transparente + Addra Livo Black Matte013;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca173;Box transparente + Addra Livo Black Matte014;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca174;Box transparente + Addra Livo Black Matte015;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca175;Box transparente + Addra Livo Black Matte016;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca176;Box transparente + Addra Livo Black Matte017;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca177;Box transparente + Addra Livo Black Matte018;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca178;Box transparente + Addra Livo Black Matte019;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca179;Box transparente + Addra Livo Black Matte020;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca180;Box transparente + Addra Livo Black Matte021;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca181;Box transparente + Addra Livo Black Matte022;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca182;Box transparente + Addra Livo Black Matte023;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca183;Box transparente + Addra Livo Black Matte024;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca184;Prateleira do box em Branco Itaúnas;Reserva de equipamento ou móvel;280.0;100.0;20.0;#ded7c7;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca185;Cuba Deca Slim branca L.13040.17;Reserva de equipamento ou móvel;400.0;300.0;135.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca186;Addra Arion Black · bica alta;Reserva de equipamento ou móvel;40.0;40.0;300.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca187;Addra Arion Black · bica alta001;Reserva de equipamento ou móvel;40.0;180.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca188;Luz frontal para maquiagem;Reserva de equipamento ou móvel;20.0;7.0;750.0;#fff4cf;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca189;Luz frontal para maquiagem001;Reserva de equipamento ou móvel;20.0;7.0;750.0;#fff4cf;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca190;Celite VIP branco · kit 1977230012300;Reserva de equipamento ou móvel;375.0;590.0;800.0;#eeeae1;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca191;Ducha higiênica preta quente e fria;Reserva de equipamento ou móvel;20.0;20.0;130.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca192;Ducha higiênica preta quente e fria001;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca193;Ducha higiênica preta quente e fria002;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca194;Ducha higiênica preta quente e fria003;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca195;Ducha higiênica preta quente e fria004;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca196;Ducha higiênica preta quente e fria005;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca197;Ducha higiênica preta quente e fria006;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca198;Ducha higiênica preta quente e fria007;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca199;Ducha higiênica preta quente e fria008;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca200;Ducha higiênica preta quente e fria009;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca201;Ducha higiênica preta quente e fria010;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca202;Ducha higiênica preta quente e fria011;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca203;Ducha higiênica preta quente e fria012;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca204;Ducha higiênica preta quente e fria013;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca205;Ducha higiênica preta quente e fria014;Reserva de equipamento ou móvel;10.0;10.0;20.0;#282d2e;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca206;Lateral esquerda;Painel;18.0;568.0;2132.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca207;Lateral direita;Painel;18.0;568.0;2132.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca208;Fundo;Painel;1964.0;18.0;2096.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca209;Base · topo 80 mm;Painel;1964.0;550.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca210;Divisória;Painel;18.0;550.0;2052.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca211;Sapateira · três níveis;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca212;Sapateira · três níveis001;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca213;Sapateira · três níveis002;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca214;Frente · Gaveta de roupa;Frente;353.0;18.0;142.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca215;Fundo da caixa;Caixa de gaveta;329.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca216;Lateral da caixa;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca217;Lateral da caixa001;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca218;Travessa da caixa;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca219;Travessa da caixa001;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca220;Frente · Gaveta de roupa001;Frente;353.0;18.0;142.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca221;Fundo da caixa001;Caixa de gaveta;329.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca222;Lateral da caixa002;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca223;Lateral da caixa003;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca224;Travessa da caixa002;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca225;Travessa da caixa003;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca226;Sapateira · três níveis003;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca227;Sapateira · três níveis004;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca228;Sapateira · três níveis005;Painel;355.0;400.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca229;Frente · Gaveta de roupa002;Frente;353.0;18.0;142.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca230;Fundo da caixa002;Caixa de gaveta;329.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca231;Lateral da caixa004;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca232;Lateral da caixa005;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca233;Travessa da caixa004;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca234;Travessa da caixa005;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca235;Frente · Gaveta de roupa003;Frente;353.0;18.0;142.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca236;Fundo da caixa003;Caixa de gaveta;329.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca237;Lateral da caixa006;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca238;Lateral da caixa007;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca239;Travessa da caixa006;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca240;Travessa da caixa007;Caixa de gaveta;299.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca241;Divisória001;Painel;18.0;550.0;1002.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca242;Divisória002;Painel;18.0;550.0;1002.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca243;Divisória003;Painel;18.0;550.0;1002.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca244;Divisória004;Painel;18.0;550.0;1002.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca245;Prateleira curta · topo 1100;Painel;705.0;550.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca246;Prateleira curta · topo 1101;Painel;705.0;550.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Varao;Varão · 973 mm nominal;Forma;;;973.0;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Varao001;Varão · 973 mm nominal001;Forma;;;973.0;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Varao002;Varão · 332 mm nominal;Forma;;;332.0;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Varao003;Varão · 332 mm nominal001;Forma;;;332.0;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca247;Frente inferior 1;Porta;1015.0;18.0;2050.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca248;Frente inferior 2;Porta;1015.0;18.0;2050.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca249;Proteção posterior · 10 mm adicionais;Proteção;2000.0;10.0;2440.0;#c6c5b9;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca250;Proteção lateral · reserva de 10 mm;Proteção;10.0;2860.0;2440.0;#c6c5b9;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca251;Suporte geométrico principal;Painel;650.0;630.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca252;Suporte geométrico retorno;Painel;230.0;420.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+PlacaL;Base em L;Forma;;;;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca253;Suporte geométrico principal001;Painel;650.0;630.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca254;Suporte geométrico retorno001;Painel;230.0;420.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+PlacaL001;Tampo em L;Forma;;;;;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca255;Fundo do braço principal;Painel;632.0;18.0;272.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca256;Fundo do retorno;Painel;18.0;1032.0;272.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca257;Frente articulada A;Porta;400.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca258;Frente articulada B;Porta;18.0;400.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca259;Lateral esquerda001;Painel;18.0;610.0;308.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca260;Lateral direita001;Painel;18.0;610.0;308.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca261;Fundo001;Painel;1314.0;18.0;272.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca262;Base;Painel;1314.0;592.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca263;Tampo;Painel;1314.0;592.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca264;Frente de correr do maleiro 1;Porta;690.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca265;Frente de correr do maleiro 2;Porta;690.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca266;Lateral esquerda002;Painel;18.0;230.0;308.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca267;Lateral direita002;Painel;18.0;230.0;308.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca268;Fundo002;Painel;1764.0;18.0;272.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca269;Base001;Painel;1764.0;212.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca270;Tampo001;Painel;1764.0;212.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca271;Frente 1;Porta;448.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca272;Frente 2;Porta;448.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca273;Frente 3;Porta;448.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca274;Frente 4;Porta;448.0;18.0;306.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca275;Espelho lateral · reserva;Espelho;5.0;500.0;1800.0;#b9d0d3;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca276;Lateral esquerda003;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca277;Lateral direita003;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca278;Fundo003;Painel;614.0;18.0;684.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca279;Base002;Painel;614.0;572.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca280;Prateleira de estudo · hidráulica a recortar;Painel;614.0;572.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca281;Frente 001;Porta;323.0;18.0;718.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca282;Frente 002;Porta;323.0;18.0;718.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca283;Lateral esquerda004;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca284;Lateral direita004;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca285;Fundo004;Painel;583.0;18.0;684.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca286;Base003;Painel;583.0;572.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca287;Frente · G3 · mantimentos;Frente;617.0;18.0;396.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca288;Fundo da caixa004;Caixa de gaveta;557.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca289;Lateral da caixa008;Caixa de gaveta;15.0;500.0;285.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca290;Lateral da caixa009;Caixa de gaveta;15.0;500.0;285.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca291;Travessa da caixa008;Caixa de gaveta;527.0;15.0;285.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca292;Travessa da caixa009;Caixa de gaveta;527.0;15.0;285.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca293;Frente · G2 · utensílios;Frente;617.0;18.0;156.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca294;Fundo da caixa005;Caixa de gaveta;557.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca295;Lateral da caixa010;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca296;Lateral da caixa011;Caixa de gaveta;15.0;500.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca297;Travessa da caixa010;Caixa de gaveta;527.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca298;Travessa da caixa011;Caixa de gaveta;527.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca299;Frente · G1 · talheres;Frente;617.0;18.0;156.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca300;Fundo da caixa006;Caixa de gaveta;557.0;500.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca301;Lateral da caixa012;Caixa de gaveta;15.0;500.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca302;Lateral da caixa013;Caixa de gaveta;15.0;500.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca303;Travessa da caixa012;Caixa de gaveta;527.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca304;Travessa da caixa013;Caixa de gaveta;527.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca305;Lateral esquerda do forno;Painel;18.0;590.0;900.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca306;Lateral direita do forno;Painel;18.0;590.0;900.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca307;Travessa superior de estudo;Painel;564.0;212.0;30.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca308;Bancada cozinha · reserva de recortes;Pedra a detalhar;1869.0;630.0;20.0;stone;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca309;Frente · Gaveta baixa;Frente;1223.0;18.0;106.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca310;Fundo da caixa007;Caixa de gaveta;1190.0;442.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca311;Lateral da caixa014;Caixa de gaveta;15.0;442.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca312;Lateral da caixa015;Caixa de gaveta;15.0;442.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca313;Travessa da caixa014;Caixa de gaveta;1160.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca314;Travessa da caixa015;Caixa de gaveta;1160.0;15.0;85.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca315;Lateral esquerda005;Painel;18.0;330.0;592.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca316;Lateral direita005;Painel;18.0;330.0;592.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca317;Fundo005;Painel;614.0;18.0;556.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca318;Base004;Painel;614.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca319;Tampo002;Painel;614.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca320;Divisória005;Painel;18.0;118.0;556.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca321;Reserva canal técnico · sem armazenamento;Reserva técnica;196.0;178.0;556.0;#dca864;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca322;Frente 003;Porta;323.0;18.0;590.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca323;Frente 004;Porta;323.0;18.0;590.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca324;Lateral esquerda006;Painel;18.0;330.0;1018.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca325;Lateral direita006;Painel;18.0;330.0;1018.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca326;Fundo006;Painel;511.0;18.0;982.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca327;Base005;Painel;511.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca328;Tampo003;Painel;511.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca329;Prateleira;Painel;511.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca330;Prateleira001;Painel;511.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca331;Prateleira002;Painel;511.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca332;Frente 005;Porta;271.5;18.0;1016.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca333;Frente 006;Porta;271.5;18.0;1016.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca334;Lateral esquerda007;Painel;18.0;330.0;610.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca335;Lateral direita007;Painel;18.0;330.0;610.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca336;Fundo007;Painel;661.0;18.0;574.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca337;Base006;Painel;661.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca338;Tampo004;Painel;661.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca339;Prateleira003;Painel;661.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca340;Frente 007;Porta;346.5;18.0;608.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca341;Frente 008;Porta;346.5;18.0;608.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca342;Lateral esquerda008;Painel;18.0;330.0;584.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca343;Lateral direita008;Painel;18.0;330.0;584.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca344;Fundo008;Painel;765.0;18.0;548.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca345;Base007;Painel;765.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca346;Tampo005;Painel;765.0;312.0;18.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca347;Divisória006;Painel;18.0;312.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca348;Frente 009;Porta;398.5;18.0;582.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca349;Frente 010;Porta;398.5;18.0;582.0;petrol;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca350;Prateleira de apoio · topo 1550;Painel;697.0;470.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca351;Micro-ondas · envelope ME23P de referência;Equipamento · ventilação pendente;461.0;452.0;290.0;black;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca352;Lateral esquerda009;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca353;Lateral direita009;Painel;18.0;590.0;720.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca354;Fundo009;Painel;554.0;18.0;684.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca355;Frente basculante · estudo;Frente;554.0;18.0;710.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca356;Reserva do cesto removível;Reserva técnica;450.0;250.0;450.0;#c4b9a8;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca357;Bancada lavanderia · tanque a recortar;Pedra a detalhar;1330.0;750.0;20.0;stone;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca358;Tanque · vazio útil 38×35×20;Reserva técnica;380.0;350.0;200.0;#9baaa3;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca359;Lateral esquerda010;Painel;18.0;330.0;580.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca360;Lateral direita010;Painel;18.0;330.0;580.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca361;Fundo010;Painel;799.0;18.0;544.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca362;Base008;Painel;799.0;312.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca363;Tampo006;Painel;799.0;312.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca364;Frente 011;Porta;415.5;18.0;578.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca365;Frente 012;Porta;415.5;18.0;578.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca366;Chapa de vista do varal · estudo;Chapa de vista;18.0;500.0;400.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca367;Lateral esquerda011;Painel;18.0;430.0;240.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca368;Lateral direita011;Painel;18.0;430.0;240.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca369;Fundo011;Painel;364.0;18.0;204.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca370;Base009;Painel;364.0;412.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca371;Tampo007;Painel;364.0;412.0;18.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca372;Frente · Gaveta escritório 1;Frente;398.0;18.0;118.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca373;Fundo da caixa008;Caixa de gaveta;338.0;400.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca374;Lateral da caixa016;Caixa de gaveta;15.0;400.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca375;Lateral da caixa017;Caixa de gaveta;15.0;400.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca376;Travessa da caixa016;Caixa de gaveta;308.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca377;Travessa da caixa017;Caixa de gaveta;308.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca378;Frente · Gaveta escritório 2;Frente;398.0;18.0;118.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca379;Fundo da caixa009;Caixa de gaveta;338.0;400.0;15.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca380;Lateral da caixa018;Caixa de gaveta;15.0;400.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca381;Lateral da caixa019;Caixa de gaveta;15.0;400.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca382;Travessa da caixa018;Caixa de gaveta;308.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca383;Travessa da caixa019;Caixa de gaveta;308.0;15.0;65.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca384;Lateral esquerda012;Painel;18.0;330.0;550.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca385;Lateral direita012;Painel;18.0;330.0;550.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca386;Fundo012;Painel;1964.0;18.0;514.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca387;Base010;Painel;1964.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca388;Tampo008;Painel;1964.0;312.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca389;Frente 013;Porta;398.0;18.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca390;Frente 014;Porta;398.0;18.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca391;Frente 015;Porta;398.0;18.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca392;Frente 016;Porta;398.0;18.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca393;Frente 5;Porta;398.0;18.0;548.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca394;Lateral esquerda013;Painel;18.0;400.0;545.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca395;Lateral direita013;Painel;18.0;400.0;545.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca396;Fundo013;Painel;564.0;18.0;509.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca397;Base011;Painel;564.0;382.0;18.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca398;Frente fechada · divisão pendente;Frente;598.0;18.0;543.0;bathbeige;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca399;Bancada banheiro · cuba a recortar;Pedra a detalhar;600.0;450.0;20.0;stone;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca400;Lateral esquerda014;Painel;18.0;130.0;750.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca401;Lateral direita014;Painel;18.0;130.0;750.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca402;Fundo014;Painel;564.0;18.0;714.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca403;Base012;Painel;564.0;112.0;18.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca404;Tampo009;Painel;564.0;112.0;18.0;lightwood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca405;Frente toda espelhada · divisão pendente;Frente;598.0;6.0;748.0;#b8cdcf;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca406;Lateral esquerda015;Painel;18.0;430.0;400.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca407;Lateral direita015;Painel;18.0;430.0;400.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca408;Fundo015;Painel;1764.0;18.0;364.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca409;Fundo · topo 100 mm;Painel;1764.0;390.0;18.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca410;Divisória007;Painel;18.0;390.0;300.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca411;Divisória008;Painel;18.0;390.0;300.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca412;Divisória009;Painel;18.0;390.0;300.0;offwhite;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca413;Tampa independente 1;Tampa;378.0;448.0;20.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca414;Almofada removível 1;Almofada;378.0;450.0;50.0;head;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca415;Tampa independente 2;Tampa;366.0;448.0;20.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca416;Almofada removível 2;Almofada;366.0;450.0;50.0;head;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca417;Tampa independente 3;Tampa;214.0;448.0;20.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca418;Almofada removível 3;Almofada;214.0;450.0;50.0;head;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca419;Tampa independente 4;Tampa;834.0;448.0;20.0;wood;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca420;Almofada removível 4;Almofada;834.0;450.0;50.0;head;ESTUDO — NÃO USAR COMO LISTA DE CORTE
+Peca421;Encosto do banco · reserva;Estofado de estudo;100.0;1800.0;500.0;head;ESTUDO — NÃO USAR COMO LISTA DE CORTE

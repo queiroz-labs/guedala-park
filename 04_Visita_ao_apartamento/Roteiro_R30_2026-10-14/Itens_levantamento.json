@@ -1,0 +1,191 @@
+[
+  [
+    "GER-01",
+    "Entrada e identificação",
+    "Identificar unidade e orientação",
+    "Registrar torre, apartamento, andar e data. Fotografar da entrada em direção à lavanderia e marcar cozinha à esquerda ou direita num croqui.",
+    "Foto geral + identificação da planta usada.",
+    "Confirma correspondência da unidade com planta e modelo espelhado.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "GER-02",
+    "Todos os ambientes",
+    "Dimensões acabadas e esquadro",
+    "Em cada cômodo medir comprimento e largura junto ao piso, na altura da bancada e perto do teto; medir diagonais quando acessíveis. Marcar ressaltos e espessura/projeção de rodapés.",
+    "Croqui com medidas e pontos de início/fim; foto de cada parede.",
+    "Define envelopes reais e desvios de parede; não fabricar pela cota comercial.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "GER-03",
+    "Todos os ambientes",
+    "Pé-direito e teto",
+    "Medir piso acabado → teto acabado nos extremos e no meio de cada trecho de aéreo. Localizar vigas, sancas, rebaixos e pontos de montagem. Registrar piso ou teto ainda sem acabamento.",
+    "Mínimo, máximo e localização de cada leitura; fotos dos encontros.",
+    "Confere as folgas nominais de estudo: escritório/cozinha 20 e quarto 30 mm.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "GER-04",
+    "Portas e circulação",
+    "Vãos, folhas e giros",
+    "Medir vão livre, folha, batente, guarnições, maçaneta e soleira. Registrar lado das dobradiças e curso real de abertura com fotos fechado/aberto.",
+    "Croqui por porta; fotos com escala fora do caminho de giro.",
+    "Confere portas opostas, circulação e acesso ao banheiro sem trocar a porta original.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "COZ-01",
+    "Cozinha",
+    "Parede de equipamentos",
+    "Medir comprimento acabado, profundidade disponível e distância à parede oposta em três trechos. Localizar mudança para lavanderia, ressaltos, rodapés e janelas.",
+    "Vista frontal geral + croqui; medidas em mm.",
+    "Confere a cadeia de módulos e a bancada de estudo a 920 mm.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "COZ-02",
+    "Cozinha",
+    "Água, esgoto, tomadas e gás aparentes",
+    "Para cada ponto visível medir posição horizontal desde o canto marcado, altura desde o piso acabado e projeção da face da parede. Fotografar registros, válvulas e tampas sem desmontar.",
+    "Uma foto geral com IDs e uma foto de detalhe por ponto.",
+    "Compatibiliza hidráulica da pia, acesso, aparelhos e reservas; função não confirmada fica pendente.",
+    "Levantador; função das redes com profissional"
+  ],
+  [
+    "COZ-03",
+    "Cozinha e lavanderia",
+    "Emenda e apoio da pedra",
+    "Medir posições de apoios existentes, transição de profundidade e interferências no encontro. Se móveis/pedra não existem, registrar como proposta, sem preencher como executado.",
+    "Foto do trecho e croqui distinguindo existente/proposto.",
+    "Confronta lateral R30 que cruza a emenda em 13 mm; detalhe final com marmoraria.",
+    "Levantador e marmoraria"
+  ],
+  [
+    "COZ-04",
+    "Aparelhos, se disponíveis",
+    "Identificação do forno e cooktop",
+    "Fotografar etiqueta do modelo/variante/PNC e registrar se os aparelhos estão disponíveis. Medidas inferiores, conexões e plano de apoio somente com acesso adequado e profissional; não desmontar aparelho instalado para esta visita.",
+    "Etiquetas + desenho cotado do fabricante ou levantamento identificado.",
+    "Obtém d do KE4GC e datums do Venax. Não substituir d por altura total nem resolver divergência de manual por medição.",
+    "Fabricante ou instalador responsável"
+  ],
+  [
+    "COZ-05",
+    "Cozinha",
+    "Micro-ondas e depurador",
+    "Medir os espaços acabados destinados aos módulos e fotografar teto/parede e possíveis saídas existentes. Se não instalados, marcar equipamentos e canais como projeto.",
+    "Croqui dos obstáculos e aberturas existentes.",
+    "Alimenta a revisão da folga superior do ME23P e do caminho de ar do depurador; não comprova ventilação.",
+    "Levantador; solução com instalador"
+  ],
+  [
+    "LAV-01",
+    "Lavanderia",
+    "Tanque e escoamento",
+    "Se existente, medir L/P/A externos do tanque, borda e parte inferior; localizar válvula, sifão, tubos, suportes e registros, incluindo projeções. Se for substituído, identificar isso.",
+    "Fotos frontal e inferior + croqui com limites dos componentes.",
+    "Fecha envelope do cesto, manutenção do sifão e abertura do fundo em U.",
+    "Levantador; desmontagem/alteração com instalador"
+  ],
+  [
+    "LAV-02",
+    "Lavanderia",
+    "Máquina, cesto e lixeira",
+    "Medir largura e profundidade livres no piso e na faixa dos aparelhos; registrar soleira/ralo e espaço de saída. Se LG presente, fotografar etiqueta e medir posição e abertura com aparelho desligado e acesso livre.",
+    "Planta do trecho com obstáculos; fotos das posições.",
+    "Confere acesso, retirada do cesto e espaço para estacionamento temporário da Loop.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "LAV-03",
+    "Lavanderia",
+    "Aquecedor e ventilação existente",
+    "Localizar pontos aparentes, abertura de exaustão, grelha, janela e obstáculos. Medir posições e dimensões externas acessíveis; fotografar avisos. Não atribuir função de gás/exaustão só pela aparência.",
+    "Foto frontal e do teto + medidas de posição.",
+    "Compatibiliza E21, faixa lateral, acesso e exaustão; validação de gás e fixação com instalador.",
+    "Levantador e instalador habilitado"
+  ],
+  [
+    "LAV-04",
+    "Lavanderia",
+    "Varal, janela e luz",
+    "Medir altura da janela, curso de folhas, ressaltos e posição dos pontos do teto. Marcar a área proposta do varal 1000 × 500 no croqui; registrar zona de manivela e chapa.",
+    "Fotos janela aberta/fechada + croqui do teto.",
+    "Confere implantação e futura altura de uso; fixação/carga dependem de base e mecanismo reais.",
+    "Levantador; ensaio de uso com usuário"
+  ],
+  [
+    "QUA-01",
+    "Quarto",
+    "Roupeiro, cabeceira e janela",
+    "Medir paredes acabadas nos trechos do L, diagonais, peitoril, guarnições e curso da janela. Registrar tomadas e projeção do rodapé. Se cama presente, medir envelope completo, não só colchão.",
+    "Croqui + quatro vistas do ambiente.",
+    "Confronta roupeiro de 650, aéreo de 250, passagem e gaveta aberta de curso 500.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "ESC-01",
+    "Escritório",
+    "Bancada e sofá-cama",
+    "Medir paredes, janela/guarnições, tomadas e passagem da porta; registrar obstáculos. Se sofá-cama disponível, medir fechado e aberto e identificar o modelo.",
+    "Fotos das duas configurações, se disponíveis.",
+    "Confere bancada, gavetas de curso 400, cadeira e aéreo com topo de estudo 2450.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "BAN-01",
+    "Banheiro",
+    "Enchimento, box e gabinete",
+    "Medir L/P/A dos ressaltos e enchimentos, piso/soleira, vão e perfis do box, posição do lavatório e vaso. Registrar janela, ralos e hidráulica aparente.",
+    "Fotos gerais + detalhes com escala.",
+    "Resolve contato de gabaritos enchimento/box e cotas do gabinete.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "BAN-02",
+    "Banheiro",
+    "Porta e abertura do gabinete",
+    "Registrar largura real da folha, maçaneta, batente e arco de giro. Se gabinete ainda não existe, sobrepor sua proposta apenas em croqui.",
+    "Fotos da porta aberta/fechada e distâncias aos obstáculos.",
+    "Confere a condição de fechar a entrada antes de abrir o gabinete, sem supor intertravamento.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "SAL-01",
+    "Sala e jantar",
+    "Mesa, banco, sofá e TV",
+    "Medir paredes úteis, janelas e obstáculos; marcar tomadas e passagem da entrada. Registrar móveis existentes com modelo e dimensões completas.",
+    "Croqui da sala e fotos dos cantos.",
+    "Confere banco 1800 × 550, mesa e circulação; o desenho da Lina é gabarito, não produto medido.",
+    "Responsável pelo levantamento"
+  ],
+  [
+    "INS-01",
+    "Sala e instalações",
+    "Comandos e caminhos elétricos",
+    "Fotografar placas, quadro fechado e posições. Solicitar ao eletricista identificação de circuitos, tensão, aterramento, neutro/retornos e conduítes aproveitáveis; não deduzir pela placa.",
+    "Ficha do eletricista com pontos identificados.",
+    "Fecha comando de iluminação entrada/painel e alimentação dos aparelhos.",
+    "Eletricista"
+  ],
+  [
+    "INS-02",
+    "Paredes e teto",
+    "Bases de fixação",
+    "Obter projetos/manual da unidade e identificar o suporte nos locais de armários/varal. Registrar revestimento e espessuras conhecidas. Fotografias não determinam resistência ou passagem oculta.",
+    "Documentação e parecer do responsável; sem furos exploratórios.",
+    "Permite dimensionar fixações e cargas, preservando estrutura e instalações.",
+    "Responsável técnico/instalador"
+  ],
+  [
+    "DOC-01",
+    "Documentação",
+    "Pendências que a visita não resolve",
+    "Reunir plantas aplicáveis à unidade/andar, instalações e condições do condomínio para piso, ar-condicionado e reforma. Solicitar cortes e esclarecimentos dos fabricantes separadamente.",
+    "Nome, revisão, origem e data de cada documento.",
+    "Evita confundir levantamento físico com autorização ou conformidade de instalação.",
+    "Condomínio, construtora e fabricantes"
+  ]
+]

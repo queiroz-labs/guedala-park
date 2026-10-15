@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Part__Feature",
+    "label": "46166126[46166126]",
+    "bboxGlobal": [
+      -562.0,
+      13.02500000001,
+      -88.49698223440487,
+      -480.96147661863,
+      28.425000000000004,
+      0.0
+    ],
+    "placement": "Placement [Pos=(-583,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature001",
+    "label": "43107713[43107713]",
+    "bboxGlobal": [
+      -101.5385233813,
+      13.02500000001,
+      -88.49698223440296,
+      -21.0,
+      28.425000000000004,
+      0.0
+    ],
+    "placement": "Placement [Pos=(0,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature002",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.1",
+    "bboxGlobal": [
+      -595.0,
+      35.5,
+      -21.5,
+      -583.0,
+      40.5,
+      -16.5
+    ],
+    "placement": "Placement [Pos=(-595,38,-19), Yaw-Pitch-Roll=(-90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature003",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.2",
+    "bboxGlobal": [
+      -595.0,
+      35.5,
+      -39.5,
+      -583.0,
+      40.5,
+      -34.5
+    ],
+    "placement": "Placement [Pos=(-595,38,-37), Yaw-Pitch-Roll=(-90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature004",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.3",
+    "bboxGlobal": [
+      -595.0,
+      35.5,
+      -71.5,
+      -583.0,
+      40.5,
+      -66.5
+    ],
+    "placement": "Placement [Pos=(-595,38,-69), Yaw-Pitch-Roll=(-90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature005",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.4",
+    "bboxGlobal": [
+      -595.0,
+      35.5,
+      -263.5,
+      -583.0,
+      40.5,
+      -258.5
+    ],
+    "placement": "Placement [Pos=(-595,38,-261), Yaw-Pitch-Roll=(-90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature006",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.5",
+    "bboxGlobal": [
+      -595.0,
+      35.5,
+      -295.5,
+      -583.0,
+      40.5,
+      -290.5
+    ],
+    "placement": "Placement [Pos=(-595,38,-293), Yaw-Pitch-Roll=(-90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature007",
+    "label": "48346342[48346342]",
+    "bboxGlobal": [
+      -583.0000000000011,
+      -0.10000000000000174,
+      -502.495,
+      -517.225,
+      50.825,
+      -1.9999999999987592
+    ],
+    "placement": "Placement [Pos=(-583,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature008",
+    "label": "48346342[48346342]001",
+    "bboxGlobal": [
+      -530.225000000003,
+      3.7249999999926366,
+      -340.0,
+      -515.7249999999971,
+      27.625,
+      -87.0
+    ],
+    "placement": "Placement [Pos=(-583,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature009",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.1",
+    "bboxGlobal": [
+      0.0,
+      35.5,
+      -21.5,
+      12.0,
+      40.5,
+      -16.5
+    ],
+    "placement": "Placement [Pos=(12,38,-19), Yaw-Pitch-Roll=(90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature010",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.2",
+    "bboxGlobal": [
+      0.0,
+      35.5,
+      -39.5,
+      12.0,
+      40.5,
+      -34.5
+    ],
+    "placement": "Placement [Pos=(12,38,-37), Yaw-Pitch-Roll=(90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature011",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.3",
+    "bboxGlobal": [
+      0.0,
+      35.5,
+      -71.5,
+      12.0,
+      40.5,
+      -66.5
+    ],
+    "placement": "Placement [Pos=(12,38,-69), Yaw-Pitch-Roll=(90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature012",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.4",
+    "bboxGlobal": [
+      0.0,
+      35.5,
+      -263.5,
+      12.0,
+      40.5,
+      -258.5
+    ],
+    "placement": "Placement [Pos=(12,38,-261), Yaw-Pitch-Roll=(90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature013",
+    "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.5",
+    "bboxGlobal": [
+      0.0,
+      35.5,
+      -295.5,
+      12.0,
+      40.5,
+      -290.5
+    ],
+    "placement": "Placement [Pos=(12,38,-293), Yaw-Pitch-Roll=(90,0,-90)]"
+  },
+  {
+    "name": "Part__Feature014",
+    "label": "49027541[49027541]",
+    "bboxGlobal": [
+      -65.775,
+      -0.10000000000000174,
+      -502.495,
+      1.1787237852445287e-12,
+      50.825,
+      -1.9999999999974887
+    ],
+    "placement": "Placement [Pos=(0,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature015",
+    "label": "49027541[49027541]001",
+    "bboxGlobal": [
+      -67.2750000000025,
+      3.7249999999926953,
+      -340.0,
+      -52.77499999999,
+      27.625,
+      -87.0
+    ],
+    "placement": "Placement [Pos=(0,38,-37), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  {
+    "name": "Part__Feature016",
+    "label": "Parte_traseira_da_gaveta[3B03-000X]",
+    "bboxGlobal": [
+      -562.0,
+      43.5,
+      -490.0,
+      -21.0,
+      116.5,
+      -475.0
+    ],
+    "placement": "Placement [Pos=(-562,43.5,-475), Yaw-Pitch-Roll=(180,0,180)]"
+  },
+  {
+    "name": "Part__Feature017",
+    "label": "Lateral_da_gaveta_à_esquerda[3B03-0010]",
+    "bboxGlobal": [
+      -577.0,
+      16.5,
+      -490.0,
+      -561.9999999999999,
+      116.5,
+      3.3306690738754696e-15
+    ],
+    "placement": "Placement [Pos=(-577,16.5,0), Yaw-Pitch-Roll=(0,90,0)]"
+  },
+  {
+    "name": "Part__Feature018",
+    "label": "Lateral_da_gaveta_à_direita[3B03-0015]",
+    "bboxGlobal": [
+      -21.00000000000011,
+      16.5,
+      -490.0,
+      -6.0,
+      116.5,
+      3.3306690738754696e-15
+    ],
+    "placement": "Placement [Pos=(-6,16.5,0), Yaw-Pitch-Roll=(0,-90,0)]"
+  },
+  {
+    "name": "Part__Feature019",
+    "label": "Fundo_da_gaveta[3B03-001A]",
+    "bboxGlobal": [
+      -567.0,
+      28.5,
+      -490.0,
+      -16.0,
+      43.50000000000011,
+      0.0
+    ],
+    "placement": "Placement [Pos=(-567,43.5,0), Yaw-Pitch-Roll=(180,0,-90)]"
+  },
+  {
+    "name": "Part__Feature020",
+    "label": "Frente_da_gaveta[3B03-001H]",
+    "bboxGlobal": [
+      -600.0,
+      -20.0,
+      0.0,
+      17.0,
+      136.0,
+      18.0
+    ],
+    "placement": "Placement [Pos=(17,-20,18), Yaw-Pitch-Roll=(180,0,180)]"
+  },
+  {
+    "name": "Part__Feature021",
+    "label": "Pe栟frontal_da_gaveta[3B03-001O]",
+    "bboxGlobal": [
+      -562.0,
+      43.5,
+      -16.0,
+      -21.0,
+      116.5,
+      0.0
+    ],
+    "placement": "Placement [Pos=(-21,43.5,0), Yaw-Pitch-Roll=(180,0,180)]"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "door": "FolhaEscritorioR11",
+    "module": "Modulo016",
+    "side": "left",
+    "module_base": [
+      2900.0,
+      900.0,
+      1920.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 18,
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      496.0000001,
+      18.0000001,
+      548.0000001
+    ],
+    "front_height": 548.0
+  },
+  {
+    "door": "FolhaEscritorioR001",
+    "module": "Modulo016",
+    "side": "left",
+    "module_base": [
+      2900.0,
+      900.0,
+      1920.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 518,
+    "closed_leaf_base": [
+      502.0,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      496.0000001,
+      18.0000001,
+      548.0000001
+    ],
+    "front_height": 548.0
+  },
+  {
+    "door": "FolhaEscritorioR002",
+    "module": "Modulo016",
+    "side": "left",
+    "module_base": [
+      2900.0,
+      900.0,
+      1920.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 1018,
+    "closed_leaf_base": [
+      1002.0,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      496.0000001,
+      18.0000001,
+      548.0000001
+    ],
+    "front_height": 548.0
+  },
+  {
+    "door": "FolhaEscritorioR003",
+    "module": "Modulo016",
+    "side": "left",
+    "module_base": [
+      2900.0,
+      900.0,
+      1920.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 1518,
+    "closed_leaf_base": [
+      1502.0,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      496.0000001,
+      18.0000001,
+      548.0000001
+    ],
+    "front_height": 548.0
+  },
+  {
+    "door": "Folha",
+    "module": "Modulo003",
+    "side": "left",
+    "module_base": [
+      260.0,
+      1090.0,
+      2132.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 18.0,
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      440.7500001,
+      18.0000001,
+      306.0000001
+    ],
+    "front_height": 306.0
+  },
+  {
+    "door": "Folha001",
+    "module": "Modulo003",
+    "side": "left",
+    "module_base": [
+      260.0,
+      1090.0,
+      2132.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 461.75,
+    "closed_leaf_base": [
+      445.75,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      440.7500001,
+      18.0000001,
+      306.0000001
+    ],
+    "front_height": 306.0
+  },
+  {
+    "door": "Folha002",
+    "module": "Modulo003",
+    "side": "left",
+    "module_base": [
+      260.0,
+      1090.0,
+      2132.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "module_yaw_deg": 90.0,
+    "hinge_inner_x_mm": 905.5,
+    "closed_leaf_base": [
+      889.5,
+      0.0,
+      1.0
+    ],
+    "front_local_box": [
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      440.7500001,
+      18.0000001,
+      306.0000001
+    ],
+    "front_height": 306.0
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "pdfs": [
+    {
+      "file": "Guedala_R28_Pranchas_cotadas.pdf",
+      "pages": 21,
+      "characters_outside_page": 0,
+      "sha256": "98e7c125a6c871d206f0307e4153bf96f78f7e3c9de33cc77edff25baedce1b3"
+    },
+    {
+      "file": "Guedala_R28_Ferragens_sequencias_conferencia.pdf",
+      "pages": 20,
+      "characters_outside_page": 0,
+      "sha256": "6e4325781e575dc85ba2f37cdb1eb2518d8946ab1da7bfeab25af8e107b1e87e"
+    }
+  ],
+  "csvs": {
+    "Ferragens_consolidadas_R28.csv": {
+      "rows": 15,
+      "unique_objects_checked": false
+    },
+    "Referencias_calcos_54_R28.csv": {
+      "rows": 54,
+      "unique_objects_checked": true
+    },
+    "Componentes_774_R28.csv": {
+      "rows": 774,
+      "unique_objects_checked": true
+    },
+    "Conferencia_documental_R28.csv": {
+      "rows": 9,
+      "unique_objects_checked": false
+    }
+  },
+  "links": [
+    {
+      "href": "../../../output/pdf/Guedala_R28_Pranchas_cotadas.pdf",
+      "exists": true
+    },
+    {
+      "href": "../../../output/pdf/Guedala_R28_Ferragens_sequencias_conferencia.pdf",
+      "exists": true
+    },
+    {
+      "href": "Ferragens_consolidadas_R28.csv",
+      "exists": true
+    },
+    {
+      "href": "Referencias_calcos_54_R28.csv",
+      "exists": true
+    },
+    {
+      "href": "Componentes_774_R28.csv",
+      "exists": true
+    },
+    {
+      "href": "Conferencia_documental_R28.csv",
+      "exists": true
+    },
+    {
+      "href": "Sequencias_R28.json",
+      "exists": true
+    },
+    {
+      "href": "../Revisao_solicitada_R28_2026-10-14/Relatorio_revisao_R28.html",
+      "exists": true
+    },
+    {
+      "href": "../Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html",
+      "exists": true
+    }
+  ],
+  "cad_changed": false,
+  "canonical_sha256": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+  "visual_review": "Todas as 41 páginas renderizadas e inspecionadas; detalhes do canto e escritório conferidos. Sem nova simulação de movimento."
+}

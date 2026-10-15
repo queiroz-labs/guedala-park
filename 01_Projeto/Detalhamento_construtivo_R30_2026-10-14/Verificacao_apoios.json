@@ -1,0 +1,129 @@
+{
+  "source": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd",
+  "source_sha256_before": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "source_sha256_after": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "study": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Detalhamento_construtivo_R30_2026-10-14\\Estudo_Apoios_Banco_Cesto_R30.FCStd",
+  "supports": [
+    {
+      "id": "B01",
+      "group": "banco",
+      "label": "Apoio sob divisória dos potes",
+      "origin_mm": [
+        1402,
+        20,
+        0
+      ],
+      "envelope_mm": [
+        18,
+        390,
+        80
+      ]
+    },
+    {
+      "id": "B02",
+      "group": "banco",
+      "label": "Apoio sob base e divisória das bebidas",
+      "origin_mm": [
+        1034,
+        20,
+        0
+      ],
+      "envelope_mm": [
+        18,
+        390,
+        82
+      ]
+    },
+    {
+      "id": "B03",
+      "group": "banco",
+      "label": "Apoio sob base e divisória da folha",
+      "origin_mm": [
+        818,
+        20,
+        0
+      ],
+      "envelope_mm": [
+        18,
+        390,
+        82
+      ]
+    },
+    {
+      "id": "B04",
+      "group": "banco",
+      "label": "Fechamento de apoio sob posterior",
+      "origin_mm": [
+        18,
+        432,
+        0
+      ],
+      "envelope_mm": [
+        1764,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "C01",
+      "group": "cesto",
+      "label": "Apoio inferior lateral 1 recuado",
+      "origin_mm": [
+        0,
+        50,
+        0
+      ],
+      "envelope_mm": [
+        18,
+        580,
+        98
+      ]
+    },
+    {
+      "id": "C02",
+      "group": "cesto",
+      "label": "Apoio inferior lateral 2 recuado",
+      "origin_mm": [
+        572,
+        50,
+        0
+      ],
+      "envelope_mm": [
+        18,
+        580,
+        98
+      ]
+    },
+    {
+      "id": "C03",
+      "group": "cesto",
+      "label": "Apoio traseiro sob base",
+      "origin_mm": [
+        18,
+        594,
+        0
+      ],
+      "envelope_mm": [
+        554,
+        18,
+        80
+      ]
+    }
+  ],
+  "reference_shape_counts": {
+    "banco": 42,
+    "cesto": 28
+  },
+  "overlap_candidates": [],
+  "overlaps": [],
+  "basket_arc": {
+    "method": "Limites contínuos das caixas locais durante rotação rígida ideal +0..55 graus, eixo X em Y70/Z120. Somente contra os três novos apoios; exclui saco deformável, mãos e ferragem real.",
+    "min_x": 20.0,
+    "max_x": 570.0,
+    "max_y": 320.0,
+    "left_support_gap": 2.0,
+    "right_support_gap": 2.0,
+    "rear_support_gap": 274.0
+  },
+  "limits": "Estudo de contatos e envelopes. Não dimensiona resistência, união, material, retenção, ferragens ou fixação à obra. Estado fechado; movimentos antigos não repetidos."
+}

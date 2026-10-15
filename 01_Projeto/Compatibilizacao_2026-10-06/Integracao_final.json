@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-06",
+  "authorizedAction": "Salvar/organizar conforme padrão existente; duas perguntas finais permanecem sem resposta",
+  "editedOriginals": [
+    {
+      "path": "01_Projeto/README.md",
+      "before": "2def9dcd9c4a801c78041c4a27783b7a800dc92c221f0510e9100178a3fdc0da",
+      "after": "3b535f9d1229d2ed11e72d6ace9c6b7bc91a0900512f161ee1b484d444f18101",
+      "backup": "evidencias/antes_integracao_final/01_Projeto/README.md"
+    },
+    {
+      "path": "01_Projeto/Resumo.md",
+      "before": "b017bf41c2075008fdb6c7375c2f34a46dd3901ef2f21e2aaf140c0f3753d45b",
+      "after": "f2be89ae9802569beb84fe17d2b44b9a88c9c99994c020a60993a9a4b3adf1bd",
+      "backup": "evidencias/antes_integracao_final/01_Projeto/Resumo.md"
+    },
+    {
+      "path": "01_Projeto/Registro_de_decisoes.md",
+      "before": "3b7fce45f0710c2273358affc46b4ee2e42f9c9d234cd182c135f23b9824d03d",
+      "after": "624de2907b65739f0f34b307cd3e799995792e605982f66b5835d2d9b678dad8",
+      "backup": "evidencias/antes_integracao_final/01_Projeto/Registro_de_decisoes.md"
+    },
+    {
+      "path": "01_Projeto/Cozinha/README.md",
+      "before": "b7a3b25322a552b27330a95df6df7fbc465a04e9c9184d478c878ba6f1fea6d1",
+      "after": "82153c73486c27cd1dc2b193f6e4ee8ffbcbd975f2cf5a8681c666f6a7a869e1",
+      "backup": "evidencias/antes_integracao_final/01_Projeto/Cozinha/README.md"
+    }
+  ],
+  "pdf": {
+    "pages": 7,
+    "sha256": "f03baf8f3c5fa6f083bf09b0c0e013a5ca494b88b93263c0ed9ed2427c21d156",
+    "present": true
+  },
+  "libraryVersionPreviouslyConfirmed": 4
+}

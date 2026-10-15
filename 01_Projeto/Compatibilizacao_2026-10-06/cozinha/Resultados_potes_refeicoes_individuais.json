@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-06",
+  "units": {
+    "dimensions": "cm",
+    "mass": "g / kg",
+    "capacity": "mL / L"
+  },
+  "status": "Estudo nominal não adotado, sem compra ou aprovação técnica.",
+  "assumptions": {
+    "count": 6,
+    "content_mass_g_each": [
+      300,
+      500,
+      700
+    ],
+    "illustrative_headspace_fraction": 0.2,
+    "horizontal_gap_cm": 1,
+    "interlayer_protection_cm": 0.2,
+    "base_protection_cm": 0.2,
+    "top_clearance_cm": 0.5,
+    "hand_clearance_cm": 3,
+    "no_nesting_credit": true,
+    "tray_available_area_cm2": 702,
+    "old_bank_unit_height_limit_cm": 8.5,
+    "empty_R1_cm": [
+      12.8,
+      22.3,
+      22.8
+    ],
+    "R1_with_mixer_additional_pots": 0
+  },
+  "results": [
+    {
+      "id": "Ou_PFL200",
+      "ml": 725,
+      "l": 17,
+      "w": 12,
+      "h": 7.5,
+      "g": 550,
+      "url": "https://www.ou.com.br/products/pote-de-vidro-hermetico-ou-725ml-linha-fresh-lock",
+      "dimension_status": "Campos comerciais do produto com tampa incluída; desenho do envelope fechado com travas não publicado. Não são cotas de embalagem.",
+      "mass_status": "Massa comercial nominal; repartição corpo/tampa e pesagem independente ausentes.",
+      "six_volume_L": 4.35,
+      "six_empty_kg": 3.3,
+      "illustrative_volume_with_20pct_headspace_ml": 580,
+      "content_scenarios": [
+        {
+          "content_g_each": 300,
+          "unit_total_kg": 0.85,
+          "six_total_kg": 5.1,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 500,
+          "unit_total_kg": 1.05,
+          "six_total_kg": 6.3,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 700,
+          "unit_total_kg": 1.25,
+          "six_total_kg": 7.5,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        }
+      ],
+      "six_one_layer_2by3_cm": [
+        35,
+        38,
+        7.5
+      ],
+      "three_columns_two_layers_cm": [
+        38,
+        17,
+        15.2
+      ],
+      "two_layers_total_clearance_cm": 18.9,
+      "three_layers_total_clearance_cm": 26.6,
+      "six_footprint_area_cm2": 1224,
+      "six_in_old_trays_area_lower_bound_pass": false,
+      "one_pot_old_bank_height_pass": true,
+      "empty_R1_static_unit_footprint_pass": true,
+      "empty_R1_three_layer_conservative_height_pass": false,
+      "stacking_status": "Alturas são soma de envelopes sem crédito de encaixe. Não demonstram estabilidade ou autorização do fabricante."
+    },
+    {
+      "id": "Luminarc_V5495",
+      "ml": 820,
+      "l": 17.9,
+      "w": 13.5,
+      "h": 6.7,
+      "g": 550,
+      "url": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-pure-box-active",
+      "dimension_status": "Campos comerciais do produto com tampa incluída; desenho do envelope fechado com travas não publicado. Não são cotas de embalagem.",
+      "mass_status": "Massa comercial nominal; repartição corpo/tampa e pesagem independente ausentes.",
+      "six_volume_L": 4.92,
+      "six_empty_kg": 3.3,
+      "illustrative_volume_with_20pct_headspace_ml": 656,
+      "content_scenarios": [
+        {
+          "content_g_each": 300,
+          "unit_total_kg": 0.85,
+          "six_total_kg": 5.1,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 500,
+          "unit_total_kg": 1.05,
+          "six_total_kg": 6.3,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 700,
+          "unit_total_kg": 1.25,
+          "six_total_kg": 7.5,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        }
+      ],
+      "six_one_layer_2by3_cm": [
+        36.8,
+        42.5,
+        6.7
+      ],
+      "three_columns_two_layers_cm": [
+        42.5,
+        17.9,
+        13.6
+      ],
+      "two_layers_total_clearance_cm": 17.3,
+      "three_layers_total_clearance_cm": 24.2,
+      "six_footprint_area_cm2": 1449.9,
+      "six_in_old_trays_area_lower_bound_pass": false,
+      "one_pot_old_bank_height_pass": true,
+      "empty_R1_static_unit_footprint_pass": false,
+      "empty_R1_three_layer_conservative_height_pass": false,
+      "stacking_status": "Alturas são soma de envelopes sem crédito de encaixe. Não demonstram estabilidade ou autorização do fabricante."
+    },
+    {
+      "id": "Luminarc_P0740",
+      "ml": 820,
+      "l": 17.9,
+      "w": 13.3,
+      "h": 6.2,
+      "g": 530,
+      "url": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-keepn-box",
+      "dimension_status": "Campos comerciais do produto com tampa incluída; desenho do envelope fechado com travas não publicado. Não são cotas de embalagem.",
+      "mass_status": "Massa comercial nominal; repartição corpo/tampa e pesagem independente ausentes.",
+      "six_volume_L": 4.92,
+      "six_empty_kg": 3.18,
+      "illustrative_volume_with_20pct_headspace_ml": 656,
+      "content_scenarios": [
+        {
+          "content_g_each": 300,
+          "unit_total_kg": 0.83,
+          "six_total_kg": 4.98,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 500,
+          "unit_total_kg": 1.03,
+          "six_total_kg": 6.18,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 700,
+          "unit_total_kg": 1.23,
+          "six_total_kg": 7.38,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        }
+      ],
+      "six_one_layer_2by3_cm": [
+        36.8,
+        41.9,
+        6.2
+      ],
+      "three_columns_two_layers_cm": [
+        41.9,
+        17.9,
+        12.6
+      ],
+      "two_layers_total_clearance_cm": 16.3,
+      "three_layers_total_clearance_cm": 22.7,
+      "six_footprint_area_cm2": 1428.42,
+      "six_in_old_trays_area_lower_bound_pass": false,
+      "one_pot_old_bank_height_pass": true,
+      "empty_R1_static_unit_footprint_pass": false,
+      "empty_R1_three_layer_conservative_height_pass": true,
+      "stacking_status": "Alturas são soma de envelopes sem crédito de encaixe. Não demonstram estabilidade ou autorização do fabricante."
+    },
+    {
+      "id": "Invicta_101528291770",
+      "ml": 1000,
+      "l": 20.4,
+      "w": 15.3,
+      "h": 6.9,
+      "g": 732,
+      "url": "https://www.invictaonline.com.br/kit-com-6-potes-de-vidro-hermetico-1000ml-retangular-invicta/p",
+      "dimension_status": "Campos comerciais do produto com tampa incluída; desenho do envelope fechado com travas não publicado. Não são cotas de embalagem.",
+      "mass_status": "Massa comercial nominal; repartição corpo/tampa e pesagem independente ausentes.",
+      "six_volume_L": 6,
+      "six_empty_kg": 4.392,
+      "illustrative_volume_with_20pct_headspace_ml": 800,
+      "content_scenarios": [
+        {
+          "content_g_each": 300,
+          "unit_total_kg": 1.032,
+          "six_total_kg": 6.192,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 500,
+          "unit_total_kg": 1.232,
+          "six_total_kg": 7.392,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 700,
+          "unit_total_kg": 1.432,
+          "six_total_kg": 8.592,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        }
+      ],
+      "six_one_layer_2by3_cm": [
+        41.8,
+        47.9,
+        6.9
+      ],
+      "three_columns_two_layers_cm": [
+        47.9,
+        20.4,
+        14
+      ],
+      "two_layers_total_clearance_cm": 17.7,
+      "three_layers_total_clearance_cm": 24.8,
+      "six_footprint_area_cm2": 1872.72,
+      "six_in_old_trays_area_lower_bound_pass": false,
+      "one_pot_old_bank_height_pass": true,
+      "empty_R1_static_unit_footprint_pass": false,
+      "empty_R1_three_layer_conservative_height_pass": false,
+      "stacking_status": "Alturas são soma de envelopes sem crédito de encaixe. Não demonstram estabilidade ou autorização do fabricante."
+    },
+    {
+      "id": "Ou_PFL300",
+      "ml": 1200,
+      "l": 19.5,
+      "w": 14,
+      "h": 9,
+      "g": 788,
+      "url": "https://www.ou.com.br/products/pote-de-vidro-hermetico-ou-1-2l-linha-fresh-lock",
+      "dimension_status": "Campos comerciais do produto com tampa incluída; desenho do envelope fechado com travas não publicado. Não são cotas de embalagem.",
+      "mass_status": "Massa comercial nominal; repartição corpo/tampa e pesagem independente ausentes.",
+      "six_volume_L": 7.2,
+      "six_empty_kg": 4.728,
+      "illustrative_volume_with_20pct_headspace_ml": 960,
+      "content_scenarios": [
+        {
+          "content_g_each": 300,
+          "unit_total_kg": 1.088,
+          "six_total_kg": 6.528,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 500,
+          "unit_total_kg": 1.288,
+          "six_total_kg": 7.728,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        },
+        {
+          "content_g_each": 700,
+          "unit_total_kg": 1.488,
+          "six_total_kg": 8.928,
+          "volume_fit": "Não inferido: densidade e receita desconhecidas."
+        }
+      ],
+      "six_one_layer_2by3_cm": [
+        40,
+        44,
+        9
+      ],
+      "three_columns_two_layers_cm": [
+        44,
+        19.5,
+        18.2
+      ],
+      "two_layers_total_clearance_cm": 21.9,
+      "three_layers_total_clearance_cm": 31.1,
+      "six_footprint_area_cm2": 1638,
+      "six_in_old_trays_area_lower_bound_pass": false,
+      "one_pot_old_bank_height_pass": false,
+      "empty_R1_static_unit_footprint_pass": false,
+      "empty_R1_three_layer_conservative_height_pass": false,
+      "stacking_status": "Alturas são soma de envelopes sem crédito de encaixe. Não demonstram estabilidade ou autorização do fabricante."
+    }
+  ],
+  "checks": "PASS: área disponível, rejeição das cinco referências nas bandejas antigas, altura de 1,2 L, massas e cenário de conteúdo."
+}

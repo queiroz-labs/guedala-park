@@ -1,0 +1,853 @@
+{
+  "date": "2026-10-06",
+  "units": "cm",
+  "approvedBucketFunctionalLitres": 8,
+  "bucketModelSelected": false,
+  "containerModelsSelected": false,
+  "depthExactOldCandidateRejectedAsReady": true,
+  "supportStudy": {
+    "panels": [
+      {
+        "id": "panelFront",
+        "x": 0,
+        "y": 21.5,
+        "z": 15.8,
+        "w": 36.2,
+        "d": 17.5,
+        "h": 0.8
+      },
+      {
+        "id": "panelRear",
+        "x": 0,
+        "y": 0,
+        "z": 15.8,
+        "w": 36.2,
+        "d": 20.5,
+        "h": 0.8
+      }
+    ],
+    "pots": [
+      {
+        "id": "pot0top",
+        "x": 1,
+        "y": 1,
+        "z": 21.7,
+        "w": 14.5,
+        "d": 19,
+        "h": 4.7
+      },
+      {
+        "id": "pot0bottom",
+        "x": 1,
+        "y": 1,
+        "z": 16.8,
+        "w": 14.5,
+        "d": 19,
+        "h": 4.7
+      },
+      {
+        "id": "pot1top",
+        "x": 16.5,
+        "y": 1,
+        "z": 21.7,
+        "w": 14.5,
+        "d": 19,
+        "h": 4.7
+      },
+      {
+        "id": "pot1bottom",
+        "x": 16.5,
+        "y": 1,
+        "z": 16.8,
+        "w": 14.5,
+        "d": 19,
+        "h": 4.7
+      },
+      {
+        "id": "pot2top",
+        "x": 1,
+        "y": 21.5,
+        "z": 21.7,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      },
+      {
+        "id": "pot2bottom",
+        "x": 1,
+        "y": 21.5,
+        "z": 16.8,
+        "w": 19,
+        "d": 14.5,
+        "h": 4.7
+      }
+    ],
+    "lowerObjectsPreserved": [
+      {
+        "id": "travessas",
+        "x": 1.1,
+        "y": 16,
+        "z": 0.3,
+        "w": 34,
+        "d": 22,
+        "h": 10
+      },
+      {
+        "id": "batedeira",
+        "x": 3.1,
+        "y": 1,
+        "z": 0.3,
+        "w": 30,
+        "d": 14,
+        "h": 12
+      },
+      {
+        "id": "motor",
+        "x": 39,
+        "y": 1,
+        "z": 0.3,
+        "w": 18,
+        "d": 18,
+        "h": 20
+      },
+      {
+        "id": "blendJar",
+        "x": 39,
+        "y": 20,
+        "z": 0.3,
+        "w": 18,
+        "d": 18,
+        "h": 24
+      }
+    ],
+    "totalSupportBudget": 0.8,
+    "maxWholeAssembly": 0.9,
+    "belowReserve": 3.5,
+    "aboveReserve": 3.6,
+    "allPotBasesOnNominalPanels": true,
+    "rearPanelSpareAtPotEdge": 0.5,
+    "frontPotRearSpare": 0,
+    "structureOrStrengthApproved": false,
+    "hardwareAndEdgeDetailsUnknown": true
+  },
+  "routes": {
+    "count": 10,
+    "routes": [
+      {
+        "id": "pot0top",
+        "nodes": [
+          {
+            "id": "pot0top",
+            "x": 20.799999999999997,
+            "y": 2.8,
+            "z": 31.7,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0top",
+            "x": 20.799999999999997,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0top",
+            "x": 8,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0top",
+            "x": 8,
+            "y": 2.8,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0top",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0top",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 75,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "pot0bottom",
+        "nodes": [
+          {
+            "id": "pot0bottom",
+            "x": 20.799999999999997,
+            "y": 2.8,
+            "z": 26.8,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0bottom",
+            "x": 20.799999999999997,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0bottom",
+            "x": 8,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0bottom",
+            "x": 8,
+            "y": 2.8,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0bottom",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot0bottom",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 75,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "pot1top",
+        "nodes": [
+          {
+            "id": "pot1top",
+            "x": 20.799999999999997,
+            "y": 18.3,
+            "z": 31.7,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1top",
+            "x": 20.799999999999997,
+            "y": 18.3,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1top",
+            "x": 8,
+            "y": 18.3,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1top",
+            "x": 8,
+            "y": 18.3,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1top",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1top",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 75,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "pot1bottom",
+        "nodes": [
+          {
+            "id": "pot1bottom",
+            "x": 20.799999999999997,
+            "y": 18.3,
+            "z": 26.8,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1bottom",
+            "x": 20.799999999999997,
+            "y": 18.3,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1bottom",
+            "x": 8,
+            "y": 18.3,
+            "z": 36.6,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1bottom",
+            "x": 8,
+            "y": 18.3,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1bottom",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 97,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          },
+          {
+            "id": "pot1bottom",
+            "x": -19.5,
+            "y": 42.75,
+            "z": 75,
+            "w": 19,
+            "d": 14.5,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "pot2top",
+        "nodes": [
+          {
+            "id": "pot2top",
+            "x": 4.799999999999997,
+            "y": 2.8,
+            "z": 31.7,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2top",
+            "x": 4.799999999999997,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2top",
+            "x": 8,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2top",
+            "x": 8,
+            "y": 2.8,
+            "z": 97,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2top",
+            "x": -17.25,
+            "y": 40.5,
+            "z": 97,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2top",
+            "x": -17.25,
+            "y": 40.5,
+            "z": 75,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "pot2bottom",
+        "nodes": [
+          {
+            "id": "pot2bottom",
+            "x": 4.799999999999997,
+            "y": 2.8,
+            "z": 26.8,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2bottom",
+            "x": 4.799999999999997,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2bottom",
+            "x": 8,
+            "y": 2.8,
+            "z": 36.6,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2bottom",
+            "x": 8,
+            "y": 2.8,
+            "z": 97,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2bottom",
+            "x": -17.25,
+            "y": 40.5,
+            "z": 97,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          },
+          {
+            "id": "pot2bottom",
+            "x": -17.25,
+            "y": 40.5,
+            "z": 75,
+            "w": 14.5,
+            "d": 19,
+            "h": 4.7
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "panelFront",
+        "nodes": [
+          {
+            "id": "panelFront",
+            "x": 1.7999999999999972,
+            "y": 1.8,
+            "z": 25.8,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelFront",
+            "x": 1.7999999999999972,
+            "y": 1.8,
+            "z": 31,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelFront",
+            "x": 8,
+            "y": 1.8,
+            "z": 31,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelFront",
+            "x": 8,
+            "y": 1.8,
+            "z": 97,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelFront",
+            "x": -18.75,
+            "y": 31.9,
+            "z": 97,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelFront",
+            "x": -18.75,
+            "y": 31.9,
+            "z": 75,
+            "w": 17.5,
+            "d": 36.2,
+            "h": 0.8
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "panelRear",
+        "nodes": [
+          {
+            "id": "panelRear",
+            "x": 20.299999999999997,
+            "y": 1.8,
+            "z": 25.8,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelRear",
+            "x": 20.299999999999997,
+            "y": 1.8,
+            "z": 31,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelRear",
+            "x": 8,
+            "y": 1.8,
+            "z": 31,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelRear",
+            "x": 8,
+            "y": 1.8,
+            "z": 97,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelRear",
+            "x": -20.25,
+            "y": 31.9,
+            "z": 97,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          },
+          {
+            "id": "panelRear",
+            "x": -20.25,
+            "y": 31.9,
+            "z": 75,
+            "w": 20.5,
+            "d": 36.2,
+            "h": 0.8
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "travessas",
+        "nodes": [
+          {
+            "id": "travessas",
+            "x": 2.799999999999997,
+            "y": 2.9000000000000004,
+            "z": 10.3,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          },
+          {
+            "id": "travessas",
+            "x": 2.799999999999997,
+            "y": 2.9000000000000004,
+            "z": 23.3,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          },
+          {
+            "id": "travessas",
+            "x": 8,
+            "y": 2.9000000000000004,
+            "z": 23.3,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          },
+          {
+            "id": "travessas",
+            "x": 8,
+            "y": 2.9000000000000004,
+            "z": 97,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          },
+          {
+            "id": "travessas",
+            "x": -21,
+            "y": 33,
+            "z": 97,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          },
+          {
+            "id": "travessas",
+            "x": -21,
+            "y": 33,
+            "z": 75,
+            "w": 22,
+            "d": 34,
+            "h": 10
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      },
+      {
+        "id": "batedeira",
+        "nodes": [
+          {
+            "id": "batedeira",
+            "x": 25.799999999999997,
+            "y": 4.9,
+            "z": 10.3,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          },
+          {
+            "id": "batedeira",
+            "x": 25.799999999999997,
+            "y": 4.9,
+            "z": 10.3,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          },
+          {
+            "id": "batedeira",
+            "x": 8,
+            "y": 4.9,
+            "z": 10.3,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          },
+          {
+            "id": "batedeira",
+            "x": 8,
+            "y": 4.9,
+            "z": 97,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          },
+          {
+            "id": "batedeira",
+            "x": -17,
+            "y": 35,
+            "z": 97,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          },
+          {
+            "id": "batedeira",
+            "x": -17,
+            "y": 35,
+            "z": 75,
+            "w": 14,
+            "d": 30,
+            "h": 12
+          }
+        ],
+        "continuousSweptVolumesClear": true,
+        "parkingValidated": false
+      }
+    ],
+    "continuousObjectOnlyRoutesClear": true,
+    "handBodyActualHingesUnknown": true,
+    "parkingForSixPotsAndTwoPanelsUnknown": true,
+    "idealSeatGeometryFrom20261003": true
+  },
+  "narrowerThermal": {
+    "id": "ZojirushiSHHC15",
+    "capacityLitres": 1.5,
+    "approxJapan": [
+      13,
+      16.5,
+      24.5
+    ],
+    "convertedUS": [
+      13.0175,
+      16.51,
+      24.765
+    ],
+    "conversionNotManufacturingTolerance": true
+  },
+  "drinksBucket": {
+    "recipients": [
+      {
+        "id": "TTS8L",
+        "x": 0,
+        "y": 0,
+        "z": 0.2,
+        "w": 16,
+        "d": 33,
+        "h": 25
+      },
+      {
+        "id": "Vilde",
+        "x": 17,
+        "y": 0,
+        "z": 0.2,
+        "w": 11.5,
+        "d": 16,
+        "h": 23
+      },
+      {
+        "id": "SHHC15",
+        "x": 17,
+        "y": 17,
+        "z": 0.2,
+        "w": 13.0175,
+        "d": 16.51,
+        "h": 24.765
+      }
+    ],
+    "bay": {
+      "id": "selection",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 30.8,
+      "d": 35,
+      "h": 26.2
+    },
+    "depthUsed": 33.51,
+    "depthSpare": 1.49,
+    "widthUsed": 30.0175,
+    "widthSpare": 0.7825,
+    "highestTop": 25.2,
+    "heightSpare": 1,
+    "barrierAndAllLateralLossMaxBeforeTolerances": 0.7825,
+    "verticalRoutes": [
+      {
+        "id": "TTS8L",
+        "deltaToBaseAboveSelection": 26.8,
+        "objectsOnlyVerticalSweepClear": true,
+        "actualOpeningOrHandlesValidated": false
+      },
+      {
+        "id": "Vilde",
+        "deltaToBaseAboveSelection": 26.8,
+        "objectsOnlyVerticalSweepClear": true,
+        "actualOpeningOrHandlesValidated": false
+      },
+      {
+        "id": "SHHC15",
+        "deltaToBaseAboveSelection": 26.8,
+        "objectsOnlyVerticalSweepClear": true,
+        "actualOpeningOrHandlesValidated": false
+      }
+    ],
+    "actualDrawingsAndTolerancesKnown": false,
+    "separationSanitaryValidated": false,
+    "wholePhysicalSolutionApproved": false
+  },
+  "reserveSensitivity": {
+    "potSupport8mm": {
+      "combinedStackHeightBudget": 9.7,
+      "assumedStackHeight": 9.6,
+      "spare": 0.1
+    },
+    "extra1mmConsumesAllAboveReserve": true
+  },
+  "blockers": [
+    "actual closed double-stack dimension/mass",
+    "all support/frame/fixation <=9mm and structural calculation",
+    "sanitary partition/containment and cleanability drawing",
+    "dimensions/tolerances/handles folded and upright",
+    "seat hinges real opening and temporary parking",
+    "unquantified competing stock remains occupied"
+  ]
+}

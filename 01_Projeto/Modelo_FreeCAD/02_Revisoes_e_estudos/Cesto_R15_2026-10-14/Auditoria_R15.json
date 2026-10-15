@@ -1,0 +1,365 @@
+{
+  "giro": [
+    {
+      "angle_deg": 0,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 150.0,
+      "frame_max_height_mm": 570.0
+    },
+    {
+      "angle_deg": 5,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 143.7849389504163,
+      "frame_max_height_mm": 590.0765498282001
+    },
+    {
+      "angle_deg": 10,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 137.38886015368112,
+      "frame_max_height_mm": 606.5755332722263
+    },
+    {
+      "angle_deg": 15,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 130.8604416314956,
+      "frame_max_height_mm": 619.371383105711
+    },
+    {
+      "angle_deg": 20,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 124.24936859078043,
+      "frame_max_height_mm": 628.366715185076
+    },
+    {
+      "angle_deg": 25,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 117.60595528925055,
+      "frame_max_height_mm": 633.4930696016675
+    },
+    {
+      "angle_deg": 30,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 110.98076211353316,
+      "frame_max_height_mm": 634.7114317029975
+    },
+    {
+      "angle_deg": 35,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 104.42421078409653,
+      "frame_max_height_mm": 632.012529017808
+    },
+    {
+      "angle_deg": 40,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 97.98620061551159,
+      "frame_max_height_mm": 625.416901825175
+    },
+    {
+      "angle_deg": 45,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 91.7157287525381,
+      "frame_max_height_mm": 614.9747468305832
+    },
+    {
+      "angle_deg": 50,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 85.66051727226771,
+      "frame_max_height_mm": 600.7655351386873
+    },
+    {
+      "angle_deg": 55,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 79.86664999030195,
+      "frame_max_height_mm": 582.8974074302188
+    },
+    {
+      "angle_deg": 29.054604099077146,
+      "hits": [],
+      "bag_frame_hits": [],
+      "front_floor_min_mm": 112.22971310114188,
+      "frame_max_height_mm": 634.7815070493501
+    }
+  ],
+  "bag_withdrawal": [
+    {
+      "phase": "axial",
+      "distance_mm": 0,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        6106.199792085955,
+        6548.575897071761,
+        154.81821201600096,
+        548.0791954142178
+      ]
+    },
+    {
+      "phase": "axial",
+      "distance_mm": 100,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        6024.284587657055,
+        6466.660692642861,
+        212.17585565110554,
+        605.4368390493223
+      ]
+    },
+    {
+      "phase": "axial",
+      "distance_mm": 200,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5942.369383228156,
+        6384.745488213962,
+        269.53349928621014,
+        662.794482684427
+      ]
+    },
+    {
+      "phase": "axial",
+      "distance_mm": 300,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5860.4541787992575,
+        6302.830283785063,
+        326.8911429213148,
+        720.1521263195316
+      ]
+    },
+    {
+      "phase": "axial",
+      "distance_mm": 400,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5778.538974370358,
+        6220.915079356164,
+        384.2487865564193,
+        777.5097699546361
+      ]
+    },
+    {
+      "phase": "axial",
+      "distance_mm": 445,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5741.677132377354,
+        6184.0532373631595,
+        410.05972619221643,
+        803.3207095904334
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 0,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5741.677132377354,
+        6184.0532373631595,
+        410.05972619221643,
+        803.3207095904334
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 10,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5759.789168651231,
+        6184.0532373631595,
+        432.4687788127053,
+        856.7328475246338
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 20,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5790.792253964943,
+        6184.0532373631595,
+        459.1748477798056,
+        901.5509527656116
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 30,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5833.74437525955,
+        6184.0532373631595,
+        489.36648270187504,
+        936.413249864675
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 40,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5887.340454064338,
+        6184.0532373631595,
+        522.1263260295107,
+        960.2604655656421
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 50,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5949.952000645747,
+        6184.0532373631595,
+        556.4589865004832,
+        972.3680142867131
+      ]
+    },
+    {
+      "phase": "upright",
+      "angle_deg": 55,
+      "hits": [],
+      "frame_hits": [],
+      "bbox_world_mm": [
+        2645.0,
+        3045.0,
+        5984.0532373631595,
+        6184.0532373631595,
+        573.8901350500148,
+        973.8901350500148
+      ]
+    }
+  ],
+  "maintenance": [
+    {
+      "phase": "upper_panel",
+      "distance_mm": 0,
+      "hits": []
+    },
+    {
+      "phase": "upper_panel",
+      "distance_mm": 50,
+      "hits": []
+    },
+    {
+      "phase": "upper_panel",
+      "distance_mm": 100,
+      "hits": []
+    },
+    {
+      "phase": "upper_panel",
+      "distance_mm": 200,
+      "hits": []
+    },
+    {
+      "phase": "released_frame",
+      "distance_mm": 0,
+      "hits": []
+    },
+    {
+      "phase": "released_frame",
+      "distance_mm": 100,
+      "hits": []
+    },
+    {
+      "phase": "released_frame",
+      "distance_mm": 200,
+      "hits": []
+    },
+    {
+      "phase": "released_frame",
+      "distance_mm": 300,
+      "hits": [
+        {
+          "moving": "PecaCestoR003",
+          "target": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "mm3": 295305.0088494246
+        }
+      ]
+    },
+    {
+      "phase": "released_frame",
+      "distance_mm": 400,
+      "hits": [
+        {
+          "moving": "PecaCestoR003",
+          "target": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "mm3": 932549.3441829067
+        },
+        {
+          "moving": "PecaCestoR005",
+          "target": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "mm3": 3304.1437390197193
+        },
+        {
+          "moving": "PecaCestoR009",
+          "target": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "mm3": 8816.306056247726
+        },
+        {
+          "moving": "PecaCestoR011",
+          "target": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "mm3": 50624.99999999989
+        }
+      ]
+    }
+  ],
+  "internal_hits_except_pins": [],
+  "targets": 69,
+  "invalid": [],
+  "front_wood_volume_mm3": 5157900.0,
+  "front_panel_mass750_kg": 3.868425,
+  "front_panel_mass900_kg": 4.64211,
+  "scope": "Giro de armação/frontais/gabaritos R15 e retirada13poses de corpo400x200x400. Não repetir prova2D5501/1442; novo CAD3D. Pinos idealizados/apoios são reservas, interpenetração de montagem excluída; não ferragem, carga, retenção55, deformação, mãos/pessoa/alças, hidráulica real, apoio/remoção física. Tanque/vazios/reservas condicionaisR08, não levantamento."
+}

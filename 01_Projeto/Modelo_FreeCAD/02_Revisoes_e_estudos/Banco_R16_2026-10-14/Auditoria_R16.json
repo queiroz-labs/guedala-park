@@ -1,0 +1,892 @@
+{
+  "closed_internal_hits": [],
+  "bearing_geometry": [
+    {
+      "lid": "PecaBancoR008",
+      "contacts": [
+        {
+          "support": "Peca407",
+          "label": "Lateral direita015",
+          "area_mm2": 7615.999999999796
+        },
+        {
+          "support": "Peca408",
+          "label": "Fundo015",
+          "area_mm2": 5920.0
+        },
+        {
+          "support": "PecaBancoR16",
+          "label": "Frente18 estrutural - apoio não calculado",
+          "area_mm2": 6660.0
+        },
+        {
+          "support": "PecaBancoR003",
+          "label": "Divisória18 contínua - centro da junta",
+          "area_mm2": 3120.0
+        }
+      ],
+      "total_area_mm2": 23315.999999999796
+    },
+    {
+      "lid": "PecaBancoR010",
+      "contacts": [
+        {
+          "support": "Peca408",
+          "label": "Fundo015",
+          "area_mm2": 5856.0
+        },
+        {
+          "support": "PecaBancoR16",
+          "label": "Frente18 estrutural - apoio não calculado",
+          "area_mm2": 6588.0
+        },
+        {
+          "support": "PecaBancoR003",
+          "label": "Divisória18 contínua - centro da junta",
+          "area_mm2": 3120.0
+        },
+        {
+          "support": "PecaBancoR004",
+          "label": "Divisória18 contínua - centro da junta001",
+          "area_mm2": 3120.0
+        }
+      ],
+      "total_area_mm2": 18684.0
+    },
+    {
+      "lid": "PecaBancoR012",
+      "contacts": [
+        {
+          "support": "Peca408",
+          "label": "Fundo015",
+          "area_mm2": 3424.0
+        },
+        {
+          "support": "PecaBancoR16",
+          "label": "Frente18 estrutural - apoio não calculado",
+          "area_mm2": 3852.0
+        },
+        {
+          "support": "PecaBancoR004",
+          "label": "Divisória18 contínua - centro da junta001",
+          "area_mm2": 3120.0
+        },
+        {
+          "support": "PecaBancoR005",
+          "label": "Divisória18 contínua - centro da junta002",
+          "area_mm2": 3120.0
+        }
+      ],
+      "total_area_mm2": 13516.0
+    },
+    {
+      "lid": "PecaBancoR014",
+      "contacts": [
+        {
+          "support": "Peca406",
+          "label": "Lateral esquerda015",
+          "area_mm2": 7616.0
+        },
+        {
+          "support": "Peca408",
+          "label": "Fundo015",
+          "area_mm2": 12928.0
+        },
+        {
+          "support": "PecaBancoR16",
+          "label": "Frente18 estrutural - apoio não calculado",
+          "area_mm2": 14544.0
+        },
+        {
+          "support": "PecaBancoR005",
+          "label": "Divisória18 contínua - centro da junta002",
+          "area_mm2": 3120.0
+        }
+      ],
+      "total_area_mm2": 38208.0
+    }
+  ],
+  "lid_positions": [
+    {
+      "sector": 1,
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 15,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 45,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 75,
+      "hits": []
+    },
+    {
+      "sector": 1,
+      "angle_deg": 90,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 15,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 45,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 75,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "angle_deg": 90,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 15,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 45,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 75,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "angle_deg": 90,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 15,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 45,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 75,
+      "hits": []
+    },
+    {
+      "sector": 4,
+      "angle_deg": 90,
+      "hits": []
+    }
+  ],
+  "cushion_nodes": [
+    {
+      "sector": 2,
+      "lift_mm": 0,
+      "shift_mm": 0,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "lift_mm": 60,
+      "shift_mm": 0,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "lift_mm": 60,
+      "shift_mm": 711,
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "lift_mm": 50,
+      "shift_mm": 711,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "lift_mm": 0,
+      "shift_mm": 0,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "lift_mm": 60,
+      "shift_mm": 0,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "lift_mm": 60,
+      "shift_mm": 733,
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "lift_mm": 50,
+      "shift_mm": 733,
+      "hits": []
+    }
+  ],
+  "two_daily_sectors_open_hits": [],
+  "content_routes": [
+    {
+      "item": "Térmica vazia e seca",
+      "name": "PecaBancoR026",
+      "segments": [
+        {
+          "from_mm": [
+            1066.825,
+            48.89999999999997,
+            103.0
+          ],
+          "to_mm": [
+            1066.825,
+            48.89999999999997,
+            410.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1066.825,
+            48.89999999999997,
+            410.0
+          ],
+          "to_mm": [
+            1066.825,
+            80.0,
+            410.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1066.825,
+            80.0,
+            410.0
+          ],
+          "to_mm": [
+            1066.825,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Jarra 1,5 L",
+      "name": "PecaBancoR027",
+      "segments": [
+        {
+          "from_mm": [
+            1074.5,
+            224.0,
+            103.0
+          ],
+          "to_mm": [
+            1074.5,
+            224.0,
+            410.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1074.5,
+            224.0,
+            410.0
+          ],
+          "to_mm": [
+            1074.5,
+            80.0,
+            410.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1074.5,
+            80.0,
+            410.0
+          ],
+          "to_mm": [
+            1074.5,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Balde 8 L",
+      "name": "PecaBancoR028",
+      "segments": [
+        {
+          "from_mm": [
+            855.0,
+            55.0,
+            103.0
+          ],
+          "to_mm": [
+            855.0,
+            55.0,
+            135.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            855.0,
+            55.0,
+            135.0
+          ],
+          "to_mm": [
+            855.0,
+            74.0,
+            135.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            855.0,
+            74.0,
+            135.0
+          ],
+          "to_mm": [
+            855.0,
+            74.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 1",
+      "name": "PecaBancoR016",
+      "segments": [
+        {
+          "from_mm": [
+            1627.0,
+            207.99999999999997,
+            313.0
+          ],
+          "to_mm": [
+            1627.0,
+            207.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1627.0,
+            207.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1627.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1627.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1627.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 2",
+      "name": "PecaBancoR017",
+      "segments": [
+        {
+          "from_mm": [
+            1627.0,
+            207.99999999999997,
+            264.0
+          ],
+          "to_mm": [
+            1627.0,
+            207.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1627.0,
+            207.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1627.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1627.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1627.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 3",
+      "name": "PecaBancoR018",
+      "segments": [
+        {
+          "from_mm": [
+            1472.0,
+            207.99999999999997,
+            313.0
+          ],
+          "to_mm": [
+            1472.0,
+            207.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1472.0,
+            207.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1472.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1472.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1472.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 4",
+      "name": "PecaBancoR019",
+      "segments": [
+        {
+          "from_mm": [
+            1472.0,
+            207.99999999999997,
+            264.0
+          ],
+          "to_mm": [
+            1472.0,
+            207.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1472.0,
+            207.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1472.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1472.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1472.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 5",
+      "name": "PecaBancoR020",
+      "segments": [
+        {
+          "from_mm": [
+            1506.0,
+            42.99999999999997,
+            313.0
+          ],
+          "to_mm": [
+            1506.0,
+            42.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1506.0,
+            42.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1506.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1506.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1506.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Pote 6",
+      "name": "PecaBancoR021",
+      "segments": [
+        {
+          "from_mm": [
+            1506.0,
+            42.99999999999997,
+            264.0
+          ],
+          "to_mm": [
+            1506.0,
+            42.99999999999997,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1506.0,
+            42.99999999999997,
+            366.0
+          ],
+          "to_mm": [
+            1506.0,
+            80.0,
+            366.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1506.0,
+            80.0,
+            366.0
+          ],
+          "to_mm": [
+            1506.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Painel posterior de estudo",
+      "name": "PecaBancoR029",
+      "segments": [
+        {
+          "from_mm": [
+            1423.0,
+            203.0,
+            244.0
+          ],
+          "to_mm": [
+            1423.0,
+            203.0,
+            310.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1423.0,
+            203.0,
+            310.0
+          ],
+          "to_mm": [
+            1423.0,
+            80.0,
+            310.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1423.0,
+            80.0,
+            310.0
+          ],
+          "to_mm": [
+            1423.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Painel frontal de estudo",
+      "name": "PecaBancoR030",
+      "segments": [
+        {
+          "from_mm": [
+            1423.0,
+            20.99999999999998,
+            244.0
+          ],
+          "to_mm": [
+            1423.0,
+            20.99999999999998,
+            310.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1423.0,
+            20.99999999999998,
+            310.0
+          ],
+          "to_mm": [
+            1423.0,
+            80.0,
+            310.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1423.0,
+            80.0,
+            310.0
+          ],
+          "to_mm": [
+            1423.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Travessas",
+      "name": "PecaBancoR022",
+      "segments": [
+        {
+          "from_mm": [
+            1431.0,
+            27.99999999999997,
+            83.0
+          ],
+          "to_mm": [
+            1431.0,
+            27.99999999999997,
+            213.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1431.0,
+            27.99999999999997,
+            213.0
+          ],
+          "to_mm": [
+            1431.0,
+            80.0,
+            213.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1431.0,
+            80.0,
+            213.0
+          ],
+          "to_mm": [
+            1431.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    },
+    {
+      "item": "Batedeira",
+      "name": "PecaBancoR023",
+      "segments": [
+        {
+          "from_mm": [
+            1451.0,
+            258.0,
+            83.0
+          ],
+          "to_mm": [
+            1451.0,
+            258.0,
+            83.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1451.0,
+            258.0,
+            83.0
+          ],
+          "to_mm": [
+            1451.0,
+            80.0,
+            83.0
+          ],
+          "hits": []
+        },
+        {
+          "from_mm": [
+            1451.0,
+            80.0,
+            83.0
+          ],
+          "to_mm": [
+            1451.0,
+            80.0,
+            970.0
+          ],
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "fixed_external_targets": 58,
+  "invalid": [],
+  "limits": "Somente banco R16, programa de envelopes propostos/importados. Novos suportes e tampas, sentidos/ordem longitudinal corrigidos. Contato de apoio não comprova resistência; giro de eixos ideais sem ferragem/retencão. Translações de conteúdo por envoltórias, não mão/pega/alças/produtos reais. Almofadas: nós apenas; varredura entre nós a conferir separadamente. Não repete901 poses2D nem testes antigos do apartamento."
+}

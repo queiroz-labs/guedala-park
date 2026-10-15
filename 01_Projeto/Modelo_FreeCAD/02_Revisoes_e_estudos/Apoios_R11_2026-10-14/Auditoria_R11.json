@@ -1,0 +1,684 @@
+{
+  "neighbor_changed_leaf": [
+    {
+      "new_door_angle": 0,
+      "neighbor_input_deg": 86,
+      "front_intersection_mm3": 0
+    },
+    {
+      "new_door_angle": 30,
+      "neighbor_input_deg": 86,
+      "front_intersection_mm3": 0
+    },
+    {
+      "new_door_angle": 60,
+      "neighbor_input_deg": 86,
+      "front_intersection_mm3": 0
+    },
+    {
+      "new_door_angle": 86,
+      "neighbor_input_deg": 86,
+      "front_intersection_mm3": 0
+    }
+  ],
+  "cases": [
+    {
+      "door": "FolhaEscritorioR11",
+      "module": "Aéreo principal do escritório",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "module": "Aéreo principal do escritório",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "module": "Aéreo principal do escritório",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "module": "Aéreo principal do escritório",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "module": "Aéreo principal do escritório",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "module": "Aéreo principal do escritório",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "module": "Aéreo principal do escritório",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "module": "Aéreo principal do escritório",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "module": "Aéreo principal do escritório",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "module": "Aéreo principal do escritório",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "module": "Aéreo principal do escritório",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "module": "Aéreo principal do escritório",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "module": "Aéreo principal do escritório",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "module": "Aéreo principal do escritório",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "module": "Aéreo principal do escritório",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "module": "Aéreo principal do escritório",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "module": "Aéreo raso da cabeceira · alinhado",
+      "angle": 86,
+      "hits": []
+    }
+  ],
+  "joints": [
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 470.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 470.0,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 4.687428401686771e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 470.0,
+      "angle": 60,
+      "joint_residual_mm": 4.687428401686771e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "level": 470.0,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 470.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 470.0,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 470.0,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "level": 470.0,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 470.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 470.0,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 470.0,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "level": 470.0,
+      "angle": 86,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 470.0,
+      "angle": 0,
+      "joint_residual_mm": 0.0,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 470.0,
+      "angle": 30,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 470.0,
+      "angle": 60,
+      "joint_residual_mm": 4.547473508864641e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 6.431098710768743e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "level": 470.0,
+      "angle": 86,
+      "joint_residual_mm": 6.431098710768743e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "Folha",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha",
+      "level": 228.0,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 2.2737367544323206e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha",
+      "level": 228.0,
+      "angle": 30,
+      "joint_residual_mm": 2.2737367544323206e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha",
+      "level": 228.0,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha",
+      "level": 228.0,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha001",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha001",
+      "level": 228.0,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha001",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 2.2737367544323206e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "Folha001",
+      "level": 228.0,
+      "angle": 30,
+      "joint_residual_mm": 2.2737367544323206e-13,
+      "cup_axis_reference_residual_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "Folha001",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha001",
+      "level": 228.0,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha001",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha001",
+      "level": 228.0,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha002",
+      "level": 80,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha002",
+      "level": 228.0,
+      "angle": 0,
+      "joint_residual_mm": 2.842170943040401e-14,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha002",
+      "level": 80,
+      "angle": 30,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha002",
+      "level": 228.0,
+      "angle": 30,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha002",
+      "level": 80,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha002",
+      "level": 228.0,
+      "angle": 60,
+      "joint_residual_mm": 2.2914314707516465e-13,
+      "cup_axis_reference_residual_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "Folha002",
+      "level": 80,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    },
+    {
+      "door": "Folha002",
+      "level": 228.0,
+      "angle": 86,
+      "joint_residual_mm": 2.3437142008433856e-13,
+      "cup_axis_reference_residual_mm": 0.0
+    }
+  ],
+  "closed": [
+    {
+      "door": "FolhaEscritorioR11",
+      "bbox": [
+        2882.0,
+        902.0,
+        1921.0,
+        2900.0,
+        1398.0,
+        2469.0
+      ]
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "bbox": [
+        2882.0,
+        1402.0,
+        1921.0,
+        2900.0,
+        1898.0,
+        2469.0
+      ]
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "bbox": [
+        2882.0,
+        1902.0000000000002,
+        1921.0,
+        2900.0,
+        2398.0000000000005,
+        2469.0
+      ]
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "bbox": [
+        2882.0,
+        2402.0,
+        1921.0,
+        2900.0,
+        2898.0,
+        2469.0
+      ]
+    },
+    {
+      "door": "Folha",
+      "bbox": [
+        241.9999999999999,
+        1092.0,
+        2133.0,
+        260.0,
+        1532.75,
+        2439.0
+      ]
+    },
+    {
+      "door": "Folha001",
+      "bbox": [
+        241.9999999999999,
+        1535.75,
+        2133.0,
+        260.0,
+        1976.5,
+        2439.0
+      ]
+    },
+    {
+      "door": "Folha002",
+      "bbox": [
+        241.9999999999999,
+        1979.5000000000002,
+        2133.0,
+        260.0,
+        2420.2500000000005,
+        2439.0
+      ]
+    }
+  ],
+  "simultaneous": [
+    {
+      "angle_all": 30,
+      "hits": []
+    },
+    {
+      "angle_all": 60,
+      "hits": []
+    },
+    {
+      "angle_all": 86,
+      "hits": []
+    }
+  ],
+  "max_joint_residual_mm": 6.431098710768743e-13,
+  "max_cup_reference_residual_mm": 6.431098710768743e-13,
+  "scope": "Geometria rigidamente articulada pelos eixos STEP,28 posições individuais e3 iguais simultâneas. Não testa batente70T3553, carga, tolerâncias ou todas as combinações com gavetas."
+}

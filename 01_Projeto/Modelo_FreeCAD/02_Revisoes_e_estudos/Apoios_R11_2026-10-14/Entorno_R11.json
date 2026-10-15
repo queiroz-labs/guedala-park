@@ -1,0 +1,553 @@
+{
+  "cases": [
+    {
+      "door": "FolhaEscritorioR11",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha001",
+      "angle_deg": 86,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "door": "Folha002",
+      "angle_deg": 86,
+      "hits": []
+    }
+  ],
+  "target_inventory": {
+    "Modulo016": [
+      {
+        "name": "Peca002",
+        "label": "floor002"
+      },
+      {
+        "name": "Peca065",
+        "label": "glass001"
+      },
+      {
+        "name": "Peca066",
+        "label": "box001"
+      },
+      {
+        "name": "Peca073",
+        "label": "door"
+      },
+      {
+        "name": "Peca110",
+        "label": "Bancada de trabalho"
+      },
+      {
+        "name": "Peca111",
+        "label": "Bancada de trabalho001"
+      },
+      {
+        "name": "Peca112",
+        "label": "Bancada de trabalho002"
+      },
+      {
+        "name": "Peca113",
+        "label": "Notebook + dois monitores + CH360"
+      },
+      {
+        "name": "Peca114",
+        "label": "Notebook + dois monitores + CH361"
+      },
+      {
+        "name": "Peca115",
+        "label": "Notebook + dois monitores + CH362"
+      },
+      {
+        "name": "Peca116",
+        "label": "Notebook + dois monitores + CH363"
+      },
+      {
+        "name": "Peca117",
+        "label": "Notebook + dois monitores + CH364"
+      },
+      {
+        "name": "Peca118",
+        "label": "Notebook + dois monitores + CH365"
+      },
+      {
+        "name": "Peca119",
+        "label": "Notebook + dois monitores + CH366"
+      },
+      {
+        "name": "Peca120",
+        "label": "Notebook + dois monitores + CH367"
+      },
+      {
+        "name": "Peca121",
+        "label": "Notebook + dois monitores + CH368"
+      },
+      {
+        "name": "Peca122",
+        "label": "Sofá-cama Daiane cinza-claro"
+      },
+      {
+        "name": "Peca123",
+        "label": "Sofá-cama Daiane cinza-claro001"
+      },
+      {
+        "name": "Peca124",
+        "label": "Sofá-cama Daiane cinza-claro002"
+      },
+      {
+        "name": "Peca125",
+        "label": "Sofá-cama Daiane cinza-claro003"
+      },
+      {
+        "name": "Peca126",
+        "label": "Sofá-cama Daiane cinza-claro004"
+      },
+      {
+        "name": "Peca127",
+        "label": "Sofá-cama Daiane cinza-claro005"
+      },
+      {
+        "name": "Peca128",
+        "label": "Sofá-cama Daiane cinza-claro006"
+      },
+      {
+        "name": "Peca129",
+        "label": "Cadeira · cenário Ultra Comfort"
+      },
+      {
+        "name": "Peca130",
+        "label": "Prateleira alta dos consoles"
+      },
+      {
+        "name": "Peca131",
+        "label": "Samsung 43″ existente"
+      },
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007"
+      }
+    ],
+    "Modulo003": [
+      {
+        "name": "Peca",
+        "label": "floor"
+      },
+      {
+        "name": "Peca001",
+        "label": "floor001"
+      },
+      {
+        "name": "Peca063",
+        "label": "glass"
+      },
+      {
+        "name": "Peca064",
+        "label": "box"
+      },
+      {
+        "name": "Peca074",
+        "label": "door001"
+      },
+      {
+        "name": "Peca102",
+        "label": "Cama queen existente"
+      },
+      {
+        "name": "Peca103",
+        "label": "Cama queen existente001"
+      },
+      {
+        "name": "Peca104",
+        "label": "Cama queen existente002"
+      },
+      {
+        "name": "Peca105",
+        "label": "Cama queen existente003"
+      },
+      {
+        "name": "Peca106",
+        "label": "Cama queen existente004"
+      },
+      {
+        "name": "Peca107",
+        "label": "Cabeceira estofada clara"
+      },
+      {
+        "name": "Peca108",
+        "label": "Dois apoios para celular e óculos"
+      },
+      {
+        "name": "Peca109",
+        "label": "Dois apoios para celular e óculos001"
+      },
+      {
+        "name": "Peca249",
+        "label": "Proteção posterior · 10 mm adicionais"
+      },
+      {
+        "name": "Peca250",
+        "label": "Proteção lateral · reserva de 10 mm"
+      },
+      {
+        "name": "Peca275",
+        "label": "Espelho lateral · reserva"
+      },
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007"
+      }
+    ]
+  },
+  "support_wood_intersections": [],
+  "preserved_neighbor_and_strip": [
+    {
+      "object": "VizinhaComCanecosR03",
+      "bbox_delta_mm": 1.1368683772161603e-13,
+      "volume_delta_mm3": 4.656612873077393e-10
+    },
+    {
+      "object": "DivisorApoioVizinhaR03",
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    }
+  ],
+  "scope": "Somente folhas/ferragens novas R11 contra paredes inteiras e volumes diretos de seu ambiente. Não inventário completo dos demais módulos, pessoas, tolerâncias ou cargas."
+}

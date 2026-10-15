@@ -1,0 +1,89 @@
+{
+  "data": "2026-10-06",
+  "natureza": "Contas com premissas dos estudos locais; nao liberacao",
+  "cesto": {
+    "picoZ": 63.47815,
+    "anguloPico": 29.0546,
+    "folgaPainel": 4.02185,
+    "saldoAlemReserva3": 1.02185,
+    "frenteMaxY": 105.15031,
+    "frenteAltaMaxY": 123.66315,
+    "economia": 18.51284,
+    "pisoMin": 7.98666
+  },
+  "saco": {
+    "volumeEnvelopeExternoL": 32,
+    "aroInterno": [
+      42,
+      22
+    ],
+    "corpo": [
+      40,
+      20
+    ],
+    "crescimentoPorLado": [
+      {
+        "delta": 0,
+        "folgaPorLado": 1
+      },
+      {
+        "delta": 0.5,
+        "folgaPorLado": 0.5
+      },
+      {
+        "delta": 1,
+        "folgaPorLado": 0
+      }
+    ],
+    "limiteTranslacaoVertical": 1.22077
+  },
+  "tanque": {
+    "volumeRetangularAteBordaL": 26.6,
+    "cenariosBordaLivre": [
+      {
+        "borda": 0,
+        "volumeGeometricoL": 26.6
+      },
+      {
+        "borda": 2,
+        "volumeGeometricoL": 23.94
+      },
+      {
+        "borda": 5,
+        "volumeGeometricoL": 19.95
+      }
+    ]
+  },
+  "ambiente": {
+    "volumeIsoladoM3": 4.9069,
+    "deficitAte6M3": 1.0931
+  },
+  "chapa": [
+    {
+      "distancia": 50,
+      "queda": 64.5
+    },
+    {
+      "distancia": 100,
+      "queda": 52.71429
+    },
+    {
+      "distancia": 150,
+      "queda": 45.46154
+    },
+    {
+      "distancia": 200,
+      "queda": 40.54839
+    },
+    {
+      "distancia": 250,
+      "queda": 37
+    }
+  ],
+  "banquinho": {
+    "faixaAposFrente": 17.84969,
+    "deficitReserva45": 27.15031,
+    "deficitProduto39_5": 21.65031,
+    "folgaManobraSofa": 34.78342
+  }
+}

@@ -1,0 +1,361 @@
+{
+ "revisao": "R29",
+ "data": "2026-10-14",
+ "base": "R28 Guedala_Park_R28_Folga_Teto_Proposta.FCStd",
+ "sha256_R28_antes_e_depois": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+ "sha256_R29": "77d08ba1e58c6aa7782650951cc1de0e7e1fbdb496ded1a4aa4e72e73be45dbe",
+ "objetos": {
+  "R28": 5899,
+  "R29": 6041,
+  "invalidos_R29": []
+ },
+ "geometria_conferida": {
+  "porta_tras": [
+   995.0,
+   3334.0,
+   90.0,
+   1990.0,
+   3352.0,
+   2089.0
+  ],
+  "frentes": {
+   "GavetaComumR005": [
+    29.0,
+    3362.0,
+    800.0,
+    382.0,
+    3380.0,
+    942.0
+   ],
+   "GavetaComumR017": [
+    29.0,
+    3362.0,
+    950.0,
+    382.0,
+    3380.0,
+    1080.0
+   ],
+   "GavetaComumR029": [
+    1638.0,
+    3362.0,
+    800.0,
+    1991.0,
+    3380.0,
+    942.0
+   ],
+   "GavetaComumR041": [
+    1638.0,
+    3362.0,
+    950.0,
+    1991.0,
+    3380.0,
+    1080.0
+   ]
+  },
+  "prateleiras": {
+   "Peca245": [
+    28.0,
+    3372.0,
+    1082.0,
+    733.0,
+    3922.0,
+    1100.0
+   ],
+   "Peca246": [
+    1287.0,
+    3372.0,
+    1082.0,
+    1992.0,
+    3922.0,
+    1100.0
+   ]
+  },
+  "guias": {
+   "GavetaComumR008": [
+    28.0,
+    3382.0,
+    803.4,
+    93.8,
+    3882.5,
+    854.3
+   ],
+   "GavetaComumR020": [
+    28.0,
+    3382.0,
+    953.4,
+    93.8,
+    3882.5,
+    1004.3
+   ]
+  },
+  "frente001_aberta500": [
+   29.0,
+   2862.0,
+   950.0,
+   382.0,
+   2880.0,
+   1080.0
+  ],
+  "rodape": [
+   2568.0,
+   6420.0,
+   0.0,
+   3122.0,
+   6438.0,
+   80.0
+  ],
+  "base": [
+   2568.0,
+   6420.0,
+   80.0,
+   3122.0,
+   6982.0,
+   98.0
+  ],
+  "fundo_cut_vol_l": 3.121,
+  "fundo_x_reservas": [
+   0.0,
+   0.0
+  ],
+  "copo_fechada": {
+   "DobradicaComumR008": [
+    [
+     4512.5,
+     6655.2,
+     1583.5,
+     4549.7,
+     6671.4,
+     1640.5
+    ]
+   ],
+   "DobradicaComumR046": [
+    [
+     4512.5,
+     6655.2,
+     2012.5,
+     4549.7,
+     6671.4,
+     2069.5
+    ]
+   ],
+   "DobradicaComumR009": [
+    [
+     4512.5,
+     6655.2,
+     2441.5,
+     4549.7,
+     6671.4,
+     2498.5
+    ]
+   ],
+   "DobradicaComumR010": [
+    [
+     5007.3,
+     6655.2,
+     1583.5,
+     5044.5,
+     6671.4,
+     1640.5
+    ]
+   ],
+   "DobradicaComumR047": [
+    [
+     5007.3,
+     6655.2,
+     2012.5,
+     5044.5,
+     6671.4,
+     2069.5
+    ]
+   ],
+   "DobradicaComumR011": [
+    [
+     5007.3,
+     6655.2,
+     2441.5,
+     5044.5,
+     6671.4,
+     2498.5
+    ]
+   ]
+  },
+  "copo_aberta90_dir": {
+   "DobradicaComumR008": [
+    [
+     4519.4,
+     6622.3,
+     1583.5,
+     4537.9,
+     6659.3,
+     1640.5
+    ]
+   ],
+   "DobradicaComumR046": [
+    [
+     4519.4,
+     6622.3,
+     2012.5,
+     4537.9,
+     6659.3,
+     2069.5
+    ]
+   ],
+   "DobradicaComumR009": [
+    [
+     4519.4,
+     6622.3,
+     2441.5,
+     4537.9,
+     6659.3,
+     2498.5
+    ]
+   ]
+  },
+  "porta_dir_aberta90": [
+   4513.8,
+   6393.8,
+   1533.0,
+   4550.6,
+   6664.9,
+   2549.0
+  ],
+  "porta_dir_fechada": [
+   4507.0,
+   6650.0,
+   1533.0,
+   4777.5,
+   6668.0,
+   2549.0
+  ],
+  "furos_frente_dir_vol": 4909381.6,
+  "invalid": []
+ },
+ "copos_removidos_mm3": {
+  "C_dir": 37522,
+  "C_esq": 37522,
+  "B_dir_referencia_2copos": 25015
+ },
+ "interferencias_estado_fechado": {
+  "R28": {
+   "pecas": 774,
+   "pares": 1006,
+   "contatos": 494
+  },
+  "R29": {
+   "pecas": 786,
+   "pares": 1033,
+   "contatos": 505
+  },
+  "removidos": [
+   [
+    "Apoio de pivô52x40x44 - reserva não calculada",
+    "Rodapé110 recuado50 da face - proposta",
+    11232.0
+   ],
+   [
+    "Base98 - frente até580 desde parede",
+    "Rodapé110 recuado50 da face - proposta",
+    179496.0
+   ],
+   [
+    "Fundo009",
+    "Reserva hidráulica posterior até280 da parede",
+    4309200.0
+   ],
+   [
+    "Fundo009",
+    "Reserva hidráulica superior até330 da parede/base630",
+    567000.0
+   ],
+   [
+    "Rodapé110 recuado50 da face - proposta",
+    "Apoio de pivô52x40x44 - reserva não calculada001",
+    11232.0
+   ]
+  ],
+  "novos": [
+   [
+    "bau0015088251_v(70T310M02.01) · Porta 028",
+    "173H7100 calço0 · Porta 028",
+    546.4
+   ],
+   [
+    "bau0015088251_v(70T310M02.01) · Porta 028",
+    "bau0015088783_v(71T310-04) · Porta 028",
+    370.3
+   ],
+   [
+    "bau0015088251_v(70T310M02.01) · Porta 028",
+    "bau0015088853_v(70T310-05.02) · Porta 028",
+    197.4
+   ],
+   [
+    "bau0015088251_v(70T310M02.01) · Porta 029",
+    "173H7100 calço0 · Porta 029",
+    546.4
+   ],
+   [
+    "bau0015088251_v(70T310M02.01) · Porta 029",
+    "bau0015088783_v(71T310-04) · Porta 029",
+    370.3
+   ],
+   [
+    "bau0015088783_v(71T310-04) · Porta 028",
+    "bau0015088853_v(70T310-05.02) · Porta 028",
+    54.7
+   ],
+   [
+    "bau0015088783_v(71T310-04) · Porta 029",
+    "bau0015089612_v(71B355M01.01) · Porta 029",
+    26.3
+   ],
+   [
+    "bau0015088853_v(70T310-05.02) · Porta 029",
+    "bau0015088251_v(70T310M02.01) · Porta 029",
+    197.4
+   ],
+   [
+    "bau0015088853_v(70T310-05.02) · Porta 029",
+    "bau0015088783_v(71T310-04) · Porta 029",
+    54.7
+   ],
+   [
+    "bau0015088853_v(70T310-05.02) · Porta 029",
+    "bau0015089612_v(71B355M01.01) · Porta 029",
+    48.8
+   ],
+   [
+    "bau0015089612_v(71B355M01.01) · Porta 028",
+    "bau0015088783_v(71T310-04) · Porta 028",
+    26.3
+   ],
+   [
+    "bau0015089612_v(71B355M01.01) · Porta 028",
+    "bau0015088853_v(70T310-05.02) · Porta 028",
+    48.8
+   ],
+   [
+    "bau0019416036_v(70T510M14.02) · Porta 028",
+    "173H7100 calço0 · Porta 028",
+    701.2
+   ],
+   [
+    "bau0019416036_v(70T510M14.02) · Porta 028",
+    "bau0015088251_v(70T310M02.01) · Porta 028",
+    5354.0
+   ],
+   [
+    "bau0019416036_v(70T510M14.02) · Porta 029",
+    "173H7100 calço0 · Porta 029",
+    701.2
+   ],
+   [
+    "bau0019416036_v(70T510M14.02) · Porta 029",
+    "bau0015088251_v(70T310M02.01) · Porta 029",
+    5354.0
+   ]
+  ],
+  "nota": "Novos contatos são apenas internos às duas dobradiças copiadas (fontes STEP Blum), com os mesmos volumes das 54 existentes."
+ },
+ "limites": "Movimento verificado só para a porta direita do C a 90° e gaveta001 a 500 mm. Sem homologação física, carga, fixação ou tolerâncias."
+}

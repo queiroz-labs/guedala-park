@@ -1,5 +1,11 @@
 # Bancada, telas e módulo da caixa — ensaio F98
 
+**13/10, retomada noturna — representação no FreeCAD:** corrigido o sentido das gavetas na [R05](../Modelo_FreeCAD/02_Revisoes_e_estudos/Gavetas_R05_2026-10-13/README.md), preservando o envelope40×45×24 e curso nominal400. Frente agora em y70 e extensão para y110, conforme esta memória; o CAD anterior estava invertido. Caixas candidatas390 mm, vãos internos322 mm com laterais15; corrediças reais e fixação continuam em desenvolvimento. O uso com cama preparada permanece sem margem comprovada.
+
+**12/10/2026 - gavetas de 40 cm e proposta de profundidade do roupeiro:** Ajuste aceito: corrediças nominais 400 mm e abertura total; manter módulo 40 L × 45 P × 24 A cm e duas frentes próximas de 12 cm. Marca e amortecimento ainda não escolhidos. Na construção hipotética com frente e fundo de 18 mm, 414 mm disponíveis acomodam a referência MOVENTO 400 (403 mm, ou 404 mm na condição de montagem indicada); lateral de caixa 390 mm, não 400 mm úteis. [Desenho atualizado](../../05_Entregas/pdf/Ajuste_gavetas_e_profundidade_roupeiro_2026-10-12.pdf).
+
+**Auditoria de 12/10/2026:** curso de 45 cm abaixo era ensaio geométrico e não ferragem compatibilizada com o módulo externo de 45 cm. Com frente/fundo hipotéticos de 18 mm, restam 414 mm; nominal 450 não cabe nessa construção. Desenvolver referência nominal 400 mm e recalcular caixa/útil com a ferragem exata. Exemplo MOVENTO: espaço 403 mm sem estabilizador lateral; lateral da caixa 390 mm. Não se escolheu marca ou mudou o módulo. Curso de estudo 40 leva de y70 a y110, coincidente com a cama aberta, sem folga de uso garantida. [Auditoria](../../05_Entregas/pdf/Auditoria_dimensional_marcenaria_2026-10-12.pdf), página 5; dados antigos abaixo ficam históricos neste ponto.
+
 Elias solicita começar pelo item 1: disposição do setup e interferências com módulo da caixa e cortina. Este ensaio usa as reservas documentadas em R03 e R09; não cria medidas reais dos equipamentos nem confirma preferência de lado. Modelos dos monitores, braços e notebook solicitados conjuntamente para a próxima conferência.
 
 ## Distribuição inicial proposta
@@ -52,9 +58,9 @@ Elias aceita a distribuição notebook à esquerda, dois monitores e gabinete à
 
 ### Abertura das gavetas
 
-Com curso de45 cm apenas como hipótese, a gaveta aberta alcança y115. No modo diário, sofá começa y152:37 cm de separação longitudinal entre envelopes. Não há colisão estática entre gaveta e sofá nessa hipótese, mas operador e cadeira precisam de espaço.
+Atualização de 12/10: com curso de estudo de 40 cm, a gaveta aberta alcança y110. No modo diário, sofá começa y152:42 cm de separação longitudinal entre envelopes. Operador e cadeira precisam de espaço; curso efetivo depende da ferragem escolhida. A hipótese anterior de 45 cm foi superada.
 
-No modo hóspedes, cama começa y110 e sobrepõe a faixa x15..55: gaveta alcançaria5 cm sobre o envelope da cama em planta. Altura real da gaveta em movimento e roupa de cama não conferidas. Portanto não garantir abertura total com a cama aberta; retirar acessórios necessários antes de preparar a cama. Não alterar o requisito de manter cadeira no escritório.
+No modo hóspedes, cama começa y110 e sobrepõe a faixa x15..55: frente aberta e início da cama coincidem nominalmente, sem folga de uso. A sobreposição anterior de 5 cm foi eliminada no ensaio de curso. Altura real da gaveta em movimento e roupa de cama não conferidas. Portanto não garantir abertura total com a cama aberta; retirar acessórios necessários antes de preparar a cama. Não alterar o requisito de manter cadeira no escritório.
 
 ### Resultado
 

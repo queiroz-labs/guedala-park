@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "sector": 1,
+      "wood_envelope_mm": [
+        387,
+        448,
+        20
+      ],
+      "wood_filled_scenario750_kg": 2.60064,
+      "wood_filled_scenario900_kg": 3.120768
+    },
+    {
+      "sector": 2,
+      "wood_envelope_mm": [
+        366,
+        448,
+        20
+      ],
+      "wood_filled_scenario750_kg": 2.45952,
+      "wood_filled_scenario900_kg": 2.951424
+    },
+    {
+      "sector": 3,
+      "wood_envelope_mm": [
+        214,
+        448,
+        20
+      ],
+      "wood_filled_scenario750_kg": 1.43808,
+      "wood_filled_scenario900_kg": 1.725696
+    },
+    {
+      "sector": 4,
+      "wood_envelope_mm": [
+        825,
+        448,
+        20
+      ],
+      "wood_filled_scenario750_kg": 5.544,
+      "wood_filled_scenario900_kg": 6.6528
+    }
+  ],
+  "scope": "Sensibilidades se o envelope20 fosse inteiramente madeira. Não composição/carga executiva, não inclui almofada/pega/ferragem nem define retenção."
+}

@@ -1,0 +1,3398 @@
+{
+  "source": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd",
+  "sha256": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "coordinates": "Bank local: X0 kitchen end, X1800 sofa end, Y0 front, Y450 rear, floor Z0. Unmirrored source coordinate frame; distances invariant under apartment reflection.",
+  "leaf": "PecaBancoR035",
+  "bank_names": [
+    "PecaBancoR003",
+    "PecaBancoR008",
+    "PecaBancoR007",
+    "PecaBancoR006",
+    "PecaBancoR002",
+    "PecaBancoR015",
+    "PecaBancoR017",
+    "PecaBancoR035",
+    "PecaBancoR028",
+    "PecaBancoR012",
+    "PecaBancoR036",
+    "PecaBancoR005",
+    "PecaBancoR024",
+    "Peca407",
+    "Peca406",
+    "PecaBancoR016",
+    "PecaBancoR020",
+    "PecaBancoR010",
+    "PecaBancoR032",
+    "PecaBancoR033",
+    "PecaBancoR025",
+    "PecaBancoR001",
+    "PecaBancoR011",
+    "ContencaoBaldeR16",
+    "PecaBancoR013",
+    "PecaBancoR029",
+    "PecaBancoR018",
+    "PecaBancoR014",
+    "PecaBancoR16",
+    "PecaBancoR019",
+    "PecaBancoR030",
+    "PecaBancoR009",
+    "PecaBancoR022",
+    "PecaBancoR021",
+    "PecaBancoR023",
+    "PecaBancoR027",
+    "PecaBancoR004",
+    "PecaBancoR034",
+    "Peca408",
+    "PecaBancoR026",
+    "PecaBancoR031",
+    "PecaBancoR037"
+  ],
+  "context": [
+    {
+      "name": "CadeiraLinaR30_1",
+      "label": "Cadeira Lina Estofada (Versatile) — gabarito R30 1",
+      "bbox": [
+        1180.0,
+        -790.0,
+        0.0,
+        1620.0,
+        -320.0,
+        940.0
+      ]
+    },
+    {
+      "name": "CadeiraLinaR30_2",
+      "label": "Cadeira Lina Estofada (Versatile) — gabarito R30 2",
+      "bbox": [
+        680.0,
+        -875.0,
+        0.0,
+        1120.0,
+        -405.0,
+        940.0
+      ]
+    },
+    {
+      "name": "CadeiraLinaR30_3",
+      "label": "Cadeira Lina Estofada (Versatile) — gabarito R30 3",
+      "bbox": [
+        180.0,
+        -790.0,
+        0.0,
+        620.0,
+        -320.0,
+        940.0
+      ]
+    },
+    {
+      "name": "CalcoComumR002",
+      "label": "173H7100 calço0 · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -917.5,
+        -1746.5,
+        231.4174,
+        -875.99,
+        -1738.0,
+        288.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR003",
+      "label": "173H7100 calço0 · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -917.5,
+        -1746.5,
+        791.4174,
+        -875.99,
+        -1738.0,
+        848.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR010",
+      "label": "173H7100 calço0 · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1177.5,
+        -1824.5,
+        1583.4174,
+        -1135.99,
+        -1816.0,
+        1640.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR011",
+      "label": "173H7100 calço0 · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1177.5,
+        -1824.5,
+        2441.4174,
+        -1135.99,
+        -1816.0,
+        2498.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR012",
+      "label": "173H7100 calço0 · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1177.5,
+        -1780.0,
+        1991.4174,
+        -1135.99,
+        -1771.5,
+        2048.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR013",
+      "label": "173H7100 calço0 · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1177.5,
+        -1780.0,
+        2441.4174,
+        -1135.99,
+        -1771.5,
+        2498.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR014",
+      "label": "173H7100 calço0 · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1177.5,
+        -1127.5,
+        1991.4174,
+        -1135.99,
+        -1119.0,
+        2048.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR015",
+      "label": "173H7100 calço0 · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1177.5,
+        -1127.5,
+        2441.4174,
+        -1135.99,
+        -1119.0,
+        2498.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR016",
+      "label": "173H7100 calço0 · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1177.5,
+        -1083.0,
+        2017.4174,
+        -1135.99,
+        -1074.5,
+        2074.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR017",
+      "label": "173H7100 calço0 · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1177.5,
+        -1083.0,
+        2441.4174,
+        -1135.99,
+        -1074.5,
+        2498.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR018",
+      "label": "173H7100 calço0 · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1177.5,
+        -326.5,
+        2017.4174,
+        -1135.99,
+        -318.0,
+        2074.5826
+      ]
+    },
+    {
+      "name": "CalcoComumR019",
+      "label": "173H7100 calço0 · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1177.5,
+        -326.5,
+        2441.4174,
+        -1135.99,
+        -318.0,
+        2498.5826
+      ]
+    },
+    {
+      "name": "ContencaoBaldeR16",
+      "label": "Contenção removível180x350x33 - estanqueidade/material não confirmados",
+      "bbox": [
+        845.0,
+        48.0,
+        100.0,
+        1025.0,
+        398.0,
+        133.0
+      ]
+    },
+    {
+      "name": "FerragemComumR010",
+      "label": "bau0019416036_v(70T510M14.02) · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -925.931,
+        -1752.925,
+        252.45,
+        -874.0,
+        -1740.0,
+        267.55
+      ]
+    },
+    {
+      "name": "FerragemComumR011",
+      "label": "bau0015088251_v(70T310M02.01) · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -924.709,
+        -1759.4893,
+        251.125,
+        -850.3086,
+        -1741.0096,
+        268.875
+      ]
+    },
+    {
+      "name": "FerragemComumR012",
+      "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -857.1036,
+        -1758.368,
+        252.725,
+        -846.3732,
+        -1733.19,
+        267.275
+      ]
+    },
+    {
+      "name": "FerragemComumR013",
+      "label": "bau0015088853_v(70T310-05.02) · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -865.3589,
+        -1750.1593,
+        256.35,
+        -851.5688,
+        -1728.14,
+        263.65
+      ]
+    },
+    {
+      "name": "FerragemComumR014",
+      "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta esquerda · z80",
+      "bbox": [
+        -861.4472,
+        -1764.7472,
+        231.5,
+        -845.2,
+        -1727.5157,
+        288.5
+      ]
+    },
+    {
+      "name": "FerragemComumR015",
+      "label": "bau0019416036_v(70T510M14.02) · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -925.931,
+        -1752.925,
+        812.45,
+        -874.0,
+        -1740.0,
+        827.55
+      ]
+    },
+    {
+      "name": "FerragemComumR016",
+      "label": "bau0015088251_v(70T310M02.01) · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -924.709,
+        -1759.4893,
+        811.125,
+        -850.3086,
+        -1741.0096,
+        828.875
+      ]
+    },
+    {
+      "name": "FerragemComumR017",
+      "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -857.1036,
+        -1758.368,
+        812.725,
+        -846.3732,
+        -1733.19,
+        827.275
+      ]
+    },
+    {
+      "name": "FerragemComumR018",
+      "label": "bau0015088853_v(70T310-05.02) · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -865.3589,
+        -1750.1593,
+        816.35,
+        -851.5688,
+        -1728.14,
+        823.65
+      ]
+    },
+    {
+      "name": "FerragemComumR019",
+      "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta esquerda · z640",
+      "bbox": [
+        -861.4472,
+        -1764.7472,
+        791.5,
+        -845.2,
+        -1727.5157,
+        848.5
+      ]
+    },
+    {
+      "name": "FerragemComumR050",
+      "label": "bau0019416036_v(70T510M14.02) · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1185.931,
+        -1830.925,
+        1604.45,
+        -1134.0,
+        -1818.0,
+        1619.55
+      ]
+    },
+    {
+      "name": "FerragemComumR051",
+      "label": "bau0015088251_v(70T310M02.01) · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1184.709,
+        -1837.4893,
+        1603.125,
+        -1110.3086,
+        -1819.0096,
+        1620.875
+      ]
+    },
+    {
+      "name": "FerragemComumR052",
+      "label": "bau0015088783_v(71T310-04) · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1117.1036,
+        -1836.368,
+        1604.725,
+        -1106.3732,
+        -1811.19,
+        1619.275
+      ]
+    },
+    {
+      "name": "FerragemComumR053",
+      "label": "bau0015088853_v(70T310-05.02) · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1125.3589,
+        -1828.1593,
+        1608.35,
+        -1111.5688,
+        -1806.14,
+        1615.65
+      ]
+    },
+    {
+      "name": "FerragemComumR054",
+      "label": "bau0015089612_v(71B355M01.01) · C · uso diário - porta esquerda · z80",
+      "bbox": [
+        -1121.4472,
+        -1842.7472,
+        1583.5,
+        -1105.2,
+        -1805.5157,
+        1640.5
+      ]
+    },
+    {
+      "name": "FerragemComumR055",
+      "label": "bau0019416036_v(70T510M14.02) · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1185.931,
+        -1830.925,
+        2462.45,
+        -1134.0,
+        -1818.0,
+        2477.55
+      ]
+    },
+    {
+      "name": "FerragemComumR056",
+      "label": "bau0015088251_v(70T310M02.01) · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1184.709,
+        -1837.4893,
+        2461.125,
+        -1110.3086,
+        -1819.0096,
+        2478.875
+      ]
+    },
+    {
+      "name": "FerragemComumR057",
+      "label": "bau0015088783_v(71T310-04) · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1117.1036,
+        -1836.368,
+        2462.725,
+        -1106.3732,
+        -1811.19,
+        2477.275
+      ]
+    },
+    {
+      "name": "FerragemComumR058",
+      "label": "bau0015088853_v(70T310-05.02) · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1125.3589,
+        -1828.1593,
+        2466.35,
+        -1111.5688,
+        -1806.14,
+        2473.65
+      ]
+    },
+    {
+      "name": "FerragemComumR059",
+      "label": "bau0015089612_v(71B355M01.01) · C · uso diário - porta esquerda · z938",
+      "bbox": [
+        -1121.4472,
+        -1842.7472,
+        2441.5,
+        -1105.2,
+        -1805.5157,
+        2498.5
+      ]
+    },
+    {
+      "name": "FerragemComumR060",
+      "label": "bau0019416036_v(70T510M14.02) · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1185.931,
+        -1778.0,
+        2012.45,
+        -1134.0,
+        -1765.075,
+        2027.55
+      ]
+    },
+    {
+      "name": "FerragemComumR061",
+      "label": "bau0015088251_v(70T310M02.01) · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1184.709,
+        -1776.9904,
+        2011.125,
+        -1110.3086,
+        -1758.5107,
+        2028.875
+      ]
+    },
+    {
+      "name": "FerragemComumR062",
+      "label": "bau0015088783_v(71T310-04) · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1117.1036,
+        -1784.81,
+        2012.725,
+        -1106.3732,
+        -1759.632,
+        2027.275
+      ]
+    },
+    {
+      "name": "FerragemComumR063",
+      "label": "bau0015088853_v(70T310-05.02) · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1125.3589,
+        -1789.86,
+        2016.35,
+        -1111.5688,
+        -1767.8407,
+        2023.65
+      ]
+    },
+    {
+      "name": "FerragemComumR064",
+      "label": "bau0015089612_v(71B355M01.01) · B · acima do micro - porta direita · z80",
+      "bbox": [
+        -1121.4472,
+        -1790.4843,
+        1991.5,
+        -1105.2,
+        -1753.2528,
+        2048.5
+      ]
+    },
+    {
+      "name": "FerragemComumR065",
+      "label": "bau0019416036_v(70T510M14.02) · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1185.931,
+        -1778.0,
+        2462.45,
+        -1134.0,
+        -1765.075,
+        2477.55
+      ]
+    },
+    {
+      "name": "FerragemComumR066",
+      "label": "bau0015088251_v(70T310M02.01) · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1184.709,
+        -1776.9904,
+        2461.125,
+        -1110.3086,
+        -1758.5107,
+        2478.875
+      ]
+    },
+    {
+      "name": "FerragemComumR067",
+      "label": "bau0015088783_v(71T310-04) · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1117.1036,
+        -1784.81,
+        2462.725,
+        -1106.3732,
+        -1759.632,
+        2477.275
+      ]
+    },
+    {
+      "name": "FerragemComumR068",
+      "label": "bau0015088853_v(70T310-05.02) · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1125.3589,
+        -1789.86,
+        2466.35,
+        -1111.5688,
+        -1767.8407,
+        2473.65
+      ]
+    },
+    {
+      "name": "FerragemComumR069",
+      "label": "bau0015089612_v(71B355M01.01) · B · acima do micro - porta direita · z530",
+      "bbox": [
+        -1121.4472,
+        -1790.4843,
+        2441.5,
+        -1105.2,
+        -1753.2528,
+        2498.5
+      ]
+    },
+    {
+      "name": "FerragemComumR070",
+      "label": "bau0019416036_v(70T510M14.02) · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1185.931,
+        -1133.925,
+        2012.45,
+        -1134.0,
+        -1121.0,
+        2027.55
+      ]
+    },
+    {
+      "name": "FerragemComumR071",
+      "label": "bau0015088251_v(70T310M02.01) · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1184.709,
+        -1140.4893,
+        2011.125,
+        -1110.3086,
+        -1122.0096,
+        2028.875
+      ]
+    },
+    {
+      "name": "FerragemComumR072",
+      "label": "bau0015088783_v(71T310-04) · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1117.1036,
+        -1139.368,
+        2012.725,
+        -1106.3732,
+        -1114.19,
+        2027.275
+      ]
+    },
+    {
+      "name": "FerragemComumR073",
+      "label": "bau0015088853_v(70T310-05.02) · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1125.3589,
+        -1131.1593,
+        2016.35,
+        -1111.5688,
+        -1109.14,
+        2023.65
+      ]
+    },
+    {
+      "name": "FerragemComumR074",
+      "label": "bau0015089612_v(71B355M01.01) · B · acima do micro - porta esquerda · z80",
+      "bbox": [
+        -1121.4472,
+        -1145.7472,
+        1991.5,
+        -1105.2,
+        -1108.5157,
+        2048.5
+      ]
+    },
+    {
+      "name": "FerragemComumR075",
+      "label": "bau0019416036_v(70T510M14.02) · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1185.931,
+        -1133.925,
+        2462.45,
+        -1134.0,
+        -1121.0,
+        2477.55
+      ]
+    },
+    {
+      "name": "FerragemComumR076",
+      "label": "bau0015088251_v(70T310M02.01) · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1184.709,
+        -1140.4893,
+        2461.125,
+        -1110.3086,
+        -1122.0096,
+        2478.875
+      ]
+    },
+    {
+      "name": "FerragemComumR077",
+      "label": "bau0015088783_v(71T310-04) · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1117.1036,
+        -1139.368,
+        2462.725,
+        -1106.3732,
+        -1114.19,
+        2477.275
+      ]
+    },
+    {
+      "name": "FerragemComumR078",
+      "label": "bau0015088853_v(70T310-05.02) · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1125.3589,
+        -1131.1593,
+        2466.35,
+        -1111.5688,
+        -1109.14,
+        2473.65
+      ]
+    },
+    {
+      "name": "FerragemComumR079",
+      "label": "bau0015089612_v(71B355M01.01) · B · acima do micro - porta esquerda · z530",
+      "bbox": [
+        -1121.4472,
+        -1145.7472,
+        2441.5,
+        -1105.2,
+        -1108.5157,
+        2498.5
+      ]
+    },
+    {
+      "name": "FerragemComumR080",
+      "label": "bau0019416036_v(70T510M14.02) · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1185.931,
+        -1081.0,
+        2038.45,
+        -1134.0,
+        -1068.075,
+        2053.55
+      ]
+    },
+    {
+      "name": "FerragemComumR081",
+      "label": "bau0015088251_v(70T310M02.01) · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1184.709,
+        -1079.9904,
+        2037.125,
+        -1110.3086,
+        -1061.5107,
+        2054.875
+      ]
+    },
+    {
+      "name": "FerragemComumR082",
+      "label": "bau0015088783_v(71T310-04) · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1117.1036,
+        -1087.81,
+        2038.725,
+        -1106.3732,
+        -1062.632,
+        2053.275
+      ]
+    },
+    {
+      "name": "FerragemComumR083",
+      "label": "bau0015088853_v(70T310-05.02) · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1125.3589,
+        -1092.86,
+        2042.35,
+        -1111.5688,
+        -1070.8407,
+        2049.65
+      ]
+    },
+    {
+      "name": "FerragemComumR084",
+      "label": "bau0015089612_v(71B355M01.01) · A · acima da geladeira - porta direita · z80",
+      "bbox": [
+        -1121.4472,
+        -1093.4843,
+        2017.5,
+        -1105.2,
+        -1056.2528,
+        2074.5
+      ]
+    },
+    {
+      "name": "FerragemComumR085",
+      "label": "bau0019416036_v(70T510M14.02) · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1185.931,
+        -1081.0,
+        2462.45,
+        -1134.0,
+        -1068.075,
+        2477.55
+      ]
+    },
+    {
+      "name": "FerragemComumR086",
+      "label": "bau0015088251_v(70T310M02.01) · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1184.709,
+        -1079.9904,
+        2461.125,
+        -1110.3086,
+        -1061.5107,
+        2478.875
+      ]
+    },
+    {
+      "name": "FerragemComumR087",
+      "label": "bau0015088783_v(71T310-04) · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1117.1036,
+        -1087.81,
+        2462.725,
+        -1106.3732,
+        -1062.632,
+        2477.275
+      ]
+    },
+    {
+      "name": "FerragemComumR088",
+      "label": "bau0015088853_v(70T310-05.02) · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1125.3589,
+        -1092.86,
+        2466.35,
+        -1111.5688,
+        -1070.8407,
+        2473.65
+      ]
+    },
+    {
+      "name": "FerragemComumR089",
+      "label": "bau0015089612_v(71B355M01.01) · A · acima da geladeira - porta direita · z504",
+      "bbox": [
+        -1121.4472,
+        -1093.4843,
+        2441.5,
+        -1105.2,
+        -1056.2528,
+        2498.5
+      ]
+    },
+    {
+      "name": "FerragemComumR090",
+      "label": "bau0019416036_v(70T510M14.02) · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1185.931,
+        -332.925,
+        2038.45,
+        -1134.0,
+        -320.0,
+        2053.55
+      ]
+    },
+    {
+      "name": "FerragemComumR091",
+      "label": "bau0015088251_v(70T310M02.01) · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1184.709,
+        -339.4893,
+        2037.125,
+        -1110.3086,
+        -321.0096,
+        2054.875
+      ]
+    },
+    {
+      "name": "FerragemComumR092",
+      "label": "bau0015088783_v(71T310-04) · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1117.1036,
+        -338.368,
+        2038.725,
+        -1106.3732,
+        -313.19,
+        2053.275
+      ]
+    },
+    {
+      "name": "FerragemComumR093",
+      "label": "bau0015088853_v(70T310-05.02) · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1125.3589,
+        -330.1593,
+        2042.35,
+        -1111.5688,
+        -308.14,
+        2049.65
+      ]
+    },
+    {
+      "name": "FerragemComumR094",
+      "label": "bau0015089612_v(71B355M01.01) · A · acima da geladeira - porta esquerda · z80",
+      "bbox": [
+        -1121.4472,
+        -344.7472,
+        2017.5,
+        -1105.2,
+        -307.5157,
+        2074.5
+      ]
+    },
+    {
+      "name": "FerragemComumR095",
+      "label": "bau0019416036_v(70T510M14.02) · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1185.931,
+        -332.925,
+        2462.45,
+        -1134.0,
+        -320.0,
+        2477.55
+      ]
+    },
+    {
+      "name": "FerragemComumR096",
+      "label": "bau0015088251_v(70T310M02.01) · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1184.709,
+        -339.4893,
+        2461.125,
+        -1110.3086,
+        -321.0096,
+        2478.875
+      ]
+    },
+    {
+      "name": "FerragemComumR097",
+      "label": "bau0015088783_v(71T310-04) · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1117.1036,
+        -338.368,
+        2462.725,
+        -1106.3732,
+        -313.19,
+        2477.275
+      ]
+    },
+    {
+      "name": "FerragemComumR098",
+      "label": "bau0015088853_v(70T310-05.02) · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1125.3589,
+        -330.1593,
+        2466.35,
+        -1111.5688,
+        -308.14,
+        2473.65
+      ]
+    },
+    {
+      "name": "FerragemComumR099",
+      "label": "bau0015089612_v(71B355M01.01) · A · acima da geladeira - porta esquerda · z504",
+      "bbox": [
+        -1121.4472,
+        -344.7472,
+        2441.5,
+        -1105.2,
+        -307.5157,
+        2498.5
+      ]
+    },
+    {
+      "name": "FrenteComumR001",
+      "label": "Gabinete da pia - porta esquerda — frente com canecos",
+      "bbox": [
+        -858.0,
+        -2044.0,
+        181.0,
+        -840.0,
+        -1722.0,
+        899.0
+      ]
+    },
+    {
+      "name": "FrenteComumR004",
+      "label": "C · uso diário - porta direita — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -2343.0,
+        1533.0,
+        -1100.0,
+        -2072.5,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR005",
+      "label": "C · uso diário - porta esquerda — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -2070.5,
+        1533.0,
+        -1100.0,
+        -1800.0,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR006",
+      "label": "B · acima do micro - porta direita — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -1796.0,
+        1941.0,
+        -1100.0,
+        -1450.5,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR007",
+      "label": "B · acima do micro - porta esquerda — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -1448.5,
+        1941.0,
+        -1100.0,
+        -1103.0,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR008",
+      "label": "A · acima da geladeira - porta direita — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -1099.0,
+        1967.0,
+        -1100.0,
+        -701.5,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR009",
+      "label": "A · acima da geladeira - porta esquerda — frente com canecos",
+      "bbox": [
+        -1118.0,
+        -699.5,
+        1967.0,
+        -1100.0,
+        -302.0,
+        2549.0
+      ]
+    },
+    {
+      "name": "FrenteComumR10",
+      "label": "Gabinete da pia - porta direita — frente com canecos",
+      "bbox": [
+        -858.0,
+        -2368.0,
+        181.0,
+        -840.0,
+        -2046.0,
+        899.0
+      ]
+    },
+    {
+      "name": "GavetaComumR048",
+      "label": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1696.0,
+        217.0,
+        -858.0,
+        -1681.0,
+        517.0
+      ]
+    },
+    {
+      "name": "GavetaComumR049",
+      "label": "Lateral comum direita · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1140.0,
+        217.0,
+        -858.0,
+        -1125.0,
+        517.0
+      ]
+    },
+    {
+      "name": "GavetaComumR050",
+      "label": "Fundo comum · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1686.0,
+        229.0,
+        -858.0,
+        -1135.0,
+        244.0
+      ]
+    },
+    {
+      "name": "GavetaComumR051",
+      "label": "Traseira comum · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1681.0,
+        244.0,
+        -1333.0,
+        -1140.0,
+        517.0
+      ]
+    },
+    {
+      "name": "GavetaComumR052",
+      "label": "Dianteira comum16 · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -874.0,
+        -1681.0,
+        244.0,
+        -858.0,
+        -1140.0,
+        517.0
+      ]
+    },
+    {
+      "name": "GavetaComumR053",
+      "label": "Frente preservada · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -858.0,
+        -1719.0,
+        181.0,
+        -840.0,
+        -1102.0,
+        577.0
+      ]
+    },
+    {
+      "name": "GavetaComumR054",
+      "label": "Trava T51.7600 · 46166126 · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -946.497,
+        -1681.0,
+        210.3494,
+        -858.0,
+        -1599.6864,
+        228.925
+      ]
+    },
+    {
+      "name": "GavetaComumR055",
+      "label": "Trava T51.7600 · 43107713 · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -946.497,
+        -1220.8136,
+        210.3494,
+        -858.0,
+        -1140.0,
+        228.925
+      ]
+    },
+    {
+      "name": "GavetaComumR056",
+      "label": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1360.495,
+        -1702.0,
+        200.4,
+        -860.0,
+        -1636.225,
+        251.325
+      ]
+    },
+    {
+      "name": "GavetaComumR057",
+      "label": "MOVENTO500 · bau0086023263_v(T75S746M00_L)001 · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1198.0,
+        -1649.225,
+        204.225,
+        -945.0,
+        -1634.725,
+        228.125
+      ]
+    },
+    {
+      "name": "GavetaComumR058",
+      "label": "MOVENTO500 · bau0019179630_v(760H5001S) · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1360.495,
+        -1184.775,
+        200.4,
+        -860.0,
+        -1119.0,
+        251.325
+      ]
+    },
+    {
+      "name": "GavetaComumR059",
+      "label": "MOVENTO500 · bau0086023290_v(T75S746M00)001 · G3 · mantimentos - proposta R08",
+      "bbox": [
+        -1198.0,
+        -1186.275,
+        204.225,
+        -945.0,
+        -1171.775,
+        228.125
+      ]
+    },
+    {
+      "name": "GavetaComumR060",
+      "label": "Lateral comum esquerda · G1 · talheres - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1696.0,
+        761.0,
+        -858.0,
+        -1681.0,
+        841.0
+      ]
+    },
+    {
+      "name": "GavetaComumR061",
+      "label": "Lateral comum direita · G1 · talheres - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1140.0,
+        761.0,
+        -858.0,
+        -1125.0,
+        841.0
+      ]
+    },
+    {
+      "name": "GavetaComumR062",
+      "label": "Fundo comum · G1 · talheres - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1686.0,
+        773.0,
+        -858.0,
+        -1135.0,
+        788.0
+      ]
+    },
+    {
+      "name": "GavetaComumR063",
+      "label": "Traseira comum · G1 · talheres - proposta R08",
+      "bbox": [
+        -1348.0,
+        -1681.0,
+        788.0,
+        -1333.0,
+        -1140.0,
+        841.0
+      ]
+    },
+    {
+      "name": "GavetaComumR064",
+      "label": "Dianteira comum16 · G1 · talheres - proposta R08",
+      "bbox": [
+        -874.0,
+        -1681.0,
+        788.0,
+        -858.0,
+        -1140.0,
+        841.0
+      ]
+    },
+    {
+      "name": "GavetaComumR065",
+      "label": "Frente preservada · G1 · talheres - proposta R08",
+      "bbox": [
+        -858.0,
+        -1719.0,
+        741.0,
+        -840.0,
+        -1102.0,
+        897.0
+      ]
+    },
+    {
+      "name": "GavetaComumR066",
+      "label": "Trava T51.7600 · 46166126 · G1 · talheres - proposta R08",
+      "bbox": [
+        -946.497,
+        -1681.0,
+        754.3494,
+        -858.0,
+        -1599.6864,
+        772.925
+      ]
+    },
+    {
+      "name": "GavetaComumR067",
+      "label": "Trava T51.7600 · 43107713 · G1 · talheres - proposta R08",
+      "bbox": [
+        -946.497,
+        -1220.8136,
+        754.3494,
+        -858.0,
+        -1140.0,
+        772.925
+      ]
+    },
+    {
+      "name": "GavetaComumR068",
+      "label": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G1 · talheres - proposta R08",
+      "bbox": [
+        -1360.495,
+        -1702.0,
+        744.4,
+        -860.0,
+        -1636.225,
+        795.325
+      ]
+    },
+    {
+      "name": "GavetaComumR069",
+      "label": "MOVENTO500 · bau0086023263_v(T75S746M00_L)001 · G1 · talheres - proposta R08",
+      "bbox": [
+        -1198.0,
+        -1649.225,
+        748.225,
+        -945.0,
+        -1634.725,
+        772.125
+      ]
+    },
+    {
+      "name": "GavetaComumR070",
+      "label": "MOVENTO500 · bau0019179630_v(760H5001S) · G1 · talheres - proposta R08",
+      "bbox": [
+        -1360.495,
+        -1184.775,
+        744.4,
+        -860.0,
+        -1119.0,
+        795.325
+      ]
+    },
+    {
+      "name": "GavetaComumR071",
+      "label": "MOVENTO500 · bau0086023290_v(T75S746M00)001 · G1 · talheres - proposta R08",
+      "bbox": [
+        -1198.0,
+        -1186.275,
+        748.225,
+        -945.0,
+        -1171.775,
+        772.125
+      ]
+    },
+    {
+      "name": "MontagemG2R001",
+      "label": "43107713[43107713] - proposta R07",
+      "bbox": [
+        -946.497,
+        -1220.8136,
+        594.3494,
+        -858.0,
+        -1140.0,
+        612.925
+      ]
+    },
+    {
+      "name": "MontagemG2R002",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.1 - proposta R07",
+      "bbox": [
+        -881.3301,
+        -1714.0,
+        620.0,
+        -872.6699,
+        -1702.0,
+        627.5
+      ]
+    },
+    {
+      "name": "MontagemG2R003",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.2 - proposta R07",
+      "bbox": [
+        -899.3301,
+        -1714.0,
+        620.0,
+        -890.6699,
+        -1702.0,
+        627.5
+      ]
+    },
+    {
+      "name": "MontagemG2R004",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.3 - proposta R07",
+      "bbox": [
+        -931.3301,
+        -1714.0,
+        620.0,
+        -922.6699,
+        -1702.0,
+        627.5
+      ]
+    },
+    {
+      "name": "MontagemG2R005",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.4 - proposta R07",
+      "bbox": [
+        -1123.3301,
+        -1714.0,
+        620.0,
+        -1114.6699,
+        -1702.0,
+        627.5
+      ]
+    },
+    {
+      "name": "MontagemG2R006",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.5 - proposta R07",
+      "bbox": [
+        -1155.3301,
+        -1714.0,
+        620.0,
+        -1146.6699,
+        -1702.0,
+        627.5
+      ]
+    },
+    {
+      "name": "MontagemG2R007",
+      "label": "48346342[48346342] - proposta R07",
+      "bbox": [
+        -1360.495,
+        -1702.0,
+        584.4,
+        -860.0,
+        -1636.225,
+        635.325
+      ]
+    },
+    {
+      "name": "MontagemG2R008",
+      "label": "48346342[48346342]001 - proposta R07",
+      "bbox": [
+        -1198.0,
+        -1649.225,
+        588.225,
+        -945.0,
+        -1634.725,
+        612.125
+      ]
+    },
+    {
+      "name": "MontagemG2R009",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.1 - proposta R07",
+      "bbox": [
+        -881.3301,
+        -1119.0,
+        617.5,
+        -872.6699,
+        -1107.0,
+        625.0
+      ]
+    },
+    {
+      "name": "MontagemG2R010",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.2 - proposta R07",
+      "bbox": [
+        -899.3301,
+        -1119.0,
+        617.5,
+        -890.6699,
+        -1107.0,
+        625.0
+      ]
+    },
+    {
+      "name": "MontagemG2R011",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.3 - proposta R07",
+      "bbox": [
+        -931.3301,
+        -1119.0,
+        617.5,
+        -922.6699,
+        -1107.0,
+        625.0
+      ]
+    },
+    {
+      "name": "MontagemG2R012",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.4 - proposta R07",
+      "bbox": [
+        -1123.3301,
+        -1119.0,
+        617.5,
+        -1114.6699,
+        -1107.0,
+        625.0
+      ]
+    },
+    {
+      "name": "MontagemG2R013",
+      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.5 - proposta R07",
+      "bbox": [
+        -1155.3301,
+        -1119.0,
+        617.5,
+        -1146.6699,
+        -1107.0,
+        625.0
+      ]
+    },
+    {
+      "name": "MontagemG2R014",
+      "label": "49027541[49027541] - proposta R07",
+      "bbox": [
+        -1360.495,
+        -1184.775,
+        584.4,
+        -860.0,
+        -1119.0,
+        635.325
+      ]
+    },
+    {
+      "name": "MontagemG2R015",
+      "label": "49027541[49027541]001 - proposta R07",
+      "bbox": [
+        -1198.0,
+        -1186.275,
+        588.225,
+        -945.0,
+        -1171.775,
+        612.125
+      ]
+    },
+    {
+      "name": "MontagemG2R016",
+      "label": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
+      "bbox": [
+        -1348.0,
+        -1681.0,
+        628.0,
+        -1333.0,
+        -1140.0,
+        701.0
+      ]
+    },
+    {
+      "name": "MontagemG2R017",
+      "label": "Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07",
+      "bbox": [
+        -1348.0,
+        -1696.0,
+        601.0,
+        -858.0,
+        -1681.0,
+        701.0
+      ]
+    },
+    {
+      "name": "MontagemG2R018",
+      "label": "Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07",
+      "bbox": [
+        -1348.0,
+        -1140.0,
+        601.0,
+        -858.0,
+        -1125.0,
+        701.0
+      ]
+    },
+    {
+      "name": "MontagemG2R019",
+      "label": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "bbox": [
+        -1348.0,
+        -1686.0,
+        613.0,
+        -858.0,
+        -1135.0,
+        629.1962
+      ]
+    },
+    {
+      "name": "MontagemG2R020",
+      "label": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+      "bbox": [
+        -858.0,
+        -1719.0,
+        581.0,
+        -840.0,
+        -1102.0,
+        737.0
+      ]
+    },
+    {
+      "name": "MontagemG2R021",
+      "label": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+      "bbox": [
+        -874.0,
+        -1681.0,
+        628.0,
+        -858.0,
+        -1140.0,
+        701.0
+      ]
+    },
+    {
+      "name": "MontagemG2R07",
+      "label": "46166126[46166126] - proposta R07",
+      "bbox": [
+        -946.497,
+        -1681.0,
+        594.3494,
+        -858.0,
+        -1599.6864,
+        612.925
+      ]
+    },
+    {
+      "name": "OrganizadorG2R001",
+      "label": "Parede esquerda bandeja long",
+      "bbox": [
+        -1331.0,
+        -1676.0,
+        632.0,
+        -876.0,
+        -1672.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R002",
+      "label": "Parede direita bandeja long",
+      "bbox": [
+        -1331.0,
+        -1480.0,
+        632.0,
+        -876.0,
+        -1476.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R003",
+      "label": "Parede frontal bandeja long",
+      "bbox": [
+        -880.0,
+        -1672.0,
+        632.0,
+        -876.0,
+        -1480.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R004",
+      "label": "Parede posterior bandeja long",
+      "bbox": [
+        -1331.0,
+        -1672.0,
+        632.0,
+        -1327.0,
+        -1480.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R005",
+      "label": "Concha",
+      "bbox": [
+        -1195.0,
+        -1667.0,
+        632.0,
+        -885.0,
+        -1597.0,
+        692.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R006",
+      "label": "Escumadeira",
+      "bbox": [
+        -1205.0,
+        -1667.0,
+        694.0,
+        -885.0,
+        -1587.0,
+        719.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R007",
+      "label": "Espátula lisa",
+      "bbox": [
+        -1185.0,
+        -1571.0,
+        632.0,
+        -885.0,
+        -1511.0,
+        657.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R008",
+      "label": "Espátula vazada",
+      "bbox": [
+        -1185.0,
+        -1571.0,
+        659.0,
+        -885.0,
+        -1511.0,
+        684.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R009",
+      "label": "Peneira pequena",
+      "bbox": [
+        -1145.0,
+        -1571.0,
+        686.0,
+        -885.0,
+        -1491.0,
+        728.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R010",
+      "label": "Fundo bandeja wide",
+      "bbox": [
+        -1331.0,
+        -1471.0,
+        628.0,
+        -876.0,
+        -1159.0,
+        632.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R011",
+      "label": "Parede esquerda bandeja wide",
+      "bbox": [
+        -1331.0,
+        -1471.0,
+        632.0,
+        -876.0,
+        -1467.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R012",
+      "label": "Parede direita bandeja wide",
+      "bbox": [
+        -1331.0,
+        -1163.0,
+        632.0,
+        -876.0,
+        -1159.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R013",
+      "label": "Parede frontal bandeja wide",
+      "bbox": [
+        -880.0,
+        -1467.0,
+        632.0,
+        -876.0,
+        -1163.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R014",
+      "label": "Parede posterior bandeja wide",
+      "bbox": [
+        -1331.0,
+        -1467.0,
+        632.0,
+        -1327.0,
+        -1163.0,
+        667.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R015",
+      "label": "Frigideira Turim20 - candidata",
+      "bbox": [
+        -1238.0,
+        -1462.0,
+        632.0,
+        -885.0,
+        -1252.0,
+        729.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R016",
+      "label": "Espremedor de alho - limite",
+      "bbox": [
+        -1080.0,
+        -1238.0,
+        632.0,
+        -890.0,
+        -1168.0,
+        697.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R017",
+      "label": "Espremedor de cítricos - limite",
+      "bbox": [
+        -1290.0,
+        -1238.0,
+        632.0,
+        -1100.0,
+        -1168.0,
+        697.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R018",
+      "label": "Ralador plano - limite",
+      "bbox": [
+        -1325.0,
+        -1462.0,
+        632.0,
+        -1250.0,
+        -1252.0,
+        672.0
+      ]
+    },
+    {
+      "name": "OrganizadorG2R06",
+      "label": "Fundo bandeja long",
+      "bbox": [
+        -1331.0,
+        -1676.0,
+        628.0,
+        -876.0,
+        -1476.0,
+        632.0
+      ]
+    },
+    {
+      "name": "Peca035",
+      "label": "Parede · Sala e jantar002",
+      "bbox": [
+        -600.0,
+        550.0,
+        0.0,
+        3700.0,
+        650.0,
+        2470.0
+      ]
+    },
+    {
+      "name": "Peca037",
+      "label": "Parede · Cozinha",
+      "bbox": [
+        -1550.0,
+        550.0,
+        0.0,
+        -1350.0,
+        650.0,
+        2570.0
+      ]
+    },
+    {
+      "name": "Peca039",
+      "label": "Parede · Cozinha001",
+      "bbox": [
+        -1550.0,
+        -4300.0,
+        0.0,
+        -1450.0,
+        650.0,
+        2570.0
+      ]
+    },
+    {
+      "name": "Peca049",
+      "label": "Parede · Banheiro002",
+      "bbox": [
+        160.0,
+        -4300.0,
+        0.0,
+        260.0,
+        -2110.0,
+        2470.0
+      ]
+    },
+    {
+      "name": "Peca051",
+      "label": "Parede · Banheiro003",
+      "bbox": [
+        260.0,
+        -2210.0,
+        0.0,
+        1600.0,
+        -2110.0,
+        2470.0
+      ]
+    },
+    {
+      "name": "Peca055",
+      "label": "Parede · Banheiro005",
+      "bbox": [
+        1500.0,
+        -2300.0,
+        0.0,
+        1600.0,
+        -2110.0,
+        2470.0
+      ]
+    },
+    {
+      "name": "Peca076",
+      "label": "door003",
+      "bbox": [
+        -1450.0,
+        -300.0,
+        0.0,
+        -1430.0,
+        550.0,
+        2050.0
+      ]
+    },
+    {
+      "name": "Peca077",
+      "label": "Sofá Bonnie SoftGel · Cama inBox",
+      "bbox": [
+        1900.0,
+        -550.0,
+        90.0,
+        3700.0,
+        550.0,
+        380.0
+      ]
+    },
+    {
+      "name": "Peca081",
+      "label": "Sofá Bonnie SoftGel · Cama inBox004",
+      "bbox": [
+        1940.0,
+        300.0,
+        360.0,
+        3660.0,
+        530.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Peca083",
+      "label": "Sofá Bonnie SoftGel · Cama inBox006",
+      "bbox": [
+        1900.0,
+        -470.0,
+        350.0,
+        2040.0,
+        550.0,
+        660.0
+      ]
+    },
+    {
+      "name": "Peca091",
+      "label": "Mesa extensível com pedestal fixo",
+      "bbox": [
+        900.0,
+        -700.0,
+        720.0,
+        1650.0,
+        50.0,
+        750.0
+      ]
+    },
+    {
+      "name": "Peca092",
+      "label": "Mesa extensível com pedestal fixo001",
+      "bbox": [
+        150.0,
+        -700.0,
+        720.0,
+        900.0,
+        50.0,
+        750.0
+      ]
+    },
+    {
+      "name": "Peca093",
+      "label": "Mesa extensível com pedestal fixo002",
+      "bbox": [
+        899.3,
+        -700.0,
+        750.0,
+        900.7,
+        50.0,
+        750.15
+      ]
+    },
+    {
+      "name": "Peca094",
+      "label": "Mesa extensível com pedestal fixo003",
+      "bbox": [
+        840.0,
+        -385.0,
+        20.0,
+        960.0,
+        -265.0,
+        673.0
+      ]
+    },
+    {
+      "name": "Peca095",
+      "label": "Mesa extensível com pedestal fixo004",
+      "bbox": [
+        750.0,
+        -455.0,
+        0.0,
+        1050.0,
+        -195.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Peca096",
+      "label": "Mesa extensível com pedestal fixo005",
+      "bbox": [
+        450.0,
+        -570.0,
+        673.0,
+        1350.0,
+        -540.0,
+        720.0
+      ]
+    },
+    {
+      "name": "Peca097",
+      "label": "Mesa extensível com pedestal fixo006",
+      "bbox": [
+        450.0,
+        -110.0,
+        673.0,
+        1350.0,
+        -80.0,
+        720.0
+      ]
+    },
+    {
+      "name": "Peca098",
+      "label": "Mesa extensível com pedestal fixo007",
+      "bbox": [
+        730.0,
+        -540.0,
+        643.0,
+        1070.0,
+        -110.0,
+        673.0
+      ]
+    },
+    {
+      "name": "Peca135",
+      "label": "Cuba Dora + torneira Apurema",
+      "bbox": [
+        -1320.0,
+        -2260.0,
+        900.0,
+        -950.0,
+        -1830.0,
+        926.0
+      ]
+    },
+    {
+      "name": "Peca136",
+      "label": "Cuba Dora + torneira Apurema001",
+      "bbox": [
+        -1250.0,
+        -1825.0,
+        920.0,
+        -1230.0,
+        -1805.0,
+        1350.0
+      ]
+    },
+    {
+      "name": "Peca137",
+      "label": "Cuba Dora + torneira Apurema002",
+      "bbox": [
+        -1240.0,
+        -1985.0,
+        1330.0,
+        -1220.0,
+        -1815.0,
+        1350.0
+      ]
+    },
+    {
+      "name": "Peca138",
+      "label": "Geladeira Electrolux IB6S Inox Look",
+      "bbox": [
+        -1350.0,
+        -1001.0,
+        0.0,
+        -602.5,
+        -400.0,
+        1866.0
+      ]
+    },
+    {
+      "name": "Peca140",
+      "label": "Purificador Electrolux PE12G grafite",
+      "bbox": [
+        -1330.0,
+        -1330.0,
+        920.0,
+        -910.0,
+        -1170.0,
+        1270.0
+      ]
+    },
+    {
+      "name": "Peca141",
+      "label": "Pedra, pintura e pegas",
+      "bbox": [
+        -1450.0,
+        -2970.0,
+        920.0,
+        -1430.0,
+        -1101.0,
+        1020.0
+      ]
+    },
+    {
+      "name": "Peca144",
+      "label": "Lixeira comum Biovis Coleta 15 L",
+      "bbox": [
+        260.0,
+        -2110.0,
+        0.0,
+        470.0,
+        -1770.0,
+        450.0
+      ]
+    },
+    {
+      "name": "Peca145",
+      "label": "Lixeira comum Biovis Coleta 15 L001",
+      "bbox": [
+        260.0,
+        -2110.0,
+        450.0,
+        470.0,
+        -1770.0,
+        470.0
+      ]
+    },
+    {
+      "name": "Peca146",
+      "label": "Lixeira comum Biovis Coleta 15 L002",
+      "bbox": [
+        320.0,
+        -1800.0,
+        10.0,
+        410.0,
+        -1750.0,
+        30.0
+      ]
+    },
+    {
+      "name": "Peca150",
+      "label": "Escorredor Tramontina Mini Plurale grafite",
+      "bbox": [
+        -1059.0,
+        -1710.0,
+        920.0,
+        -860.0,
+        -1432.0,
+        940.0
+      ]
+    },
+    {
+      "name": "Peca151",
+      "label": "Escorredor Tramontina Mini Plurale grafite001",
+      "bbox": [
+        -880.0,
+        -1710.0,
+        940.0,
+        -860.0,
+        -1432.0,
+        1046.0
+      ]
+    },
+    {
+      "name": "Peca277",
+      "label": "Lateral esquerda003",
+      "bbox": [
+        -1450.0,
+        -1738.0,
+        180.0,
+        -860.0,
+        -1720.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca278",
+      "label": "Fundo003",
+      "bbox": [
+        -1450.0,
+        -2352.0,
+        198.0,
+        -1432.0,
+        -1738.0,
+        882.0
+      ]
+    },
+    {
+      "name": "Peca279",
+      "label": "Base002",
+      "bbox": [
+        -1432.0,
+        -2352.0,
+        180.0,
+        -860.0,
+        -1738.0,
+        198.0
+      ]
+    },
+    {
+      "name": "Peca280",
+      "label": "Prateleira de estudo · hidráulica a recortar",
+      "bbox": [
+        -1432.0,
+        -2352.0,
+        482.0,
+        -860.0,
+        -1738.0,
+        500.0
+      ]
+    },
+    {
+      "name": "Peca283",
+      "label": "Lateral direita020",
+      "bbox": [
+        -1450.0,
+        -1720.0,
+        180.0,
+        -860.0,
+        -1702.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca284",
+      "label": "Lateral esquerda004",
+      "bbox": [
+        -1450.0,
+        -1119.0,
+        180.0,
+        -860.0,
+        -1101.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca285",
+      "label": "Fundo004",
+      "bbox": [
+        -1450.0,
+        -1702.0,
+        198.0,
+        -1432.0,
+        -1119.0,
+        882.0
+      ]
+    },
+    {
+      "name": "Peca286",
+      "label": "Base003",
+      "bbox": [
+        -1432.0,
+        -1702.0,
+        180.0,
+        -860.0,
+        -1119.0,
+        198.0
+      ]
+    },
+    {
+      "name": "Peca308",
+      "label": "Bancada cozinha · reserva de recortes",
+      "bbox": [
+        -1450.0,
+        -2970.0,
+        900.0,
+        -820.0,
+        -1101.0,
+        920.0
+      ]
+    },
+    {
+      "name": "Peca325",
+      "label": "Lateral esquerda006",
+      "bbox": [
+        -1450.0,
+        -1816.0,
+        1532.0,
+        -1120.0,
+        -1798.0,
+        2550.0
+      ]
+    },
+    {
+      "name": "Peca326",
+      "label": "Fundo006",
+      "bbox": [
+        -1450.0,
+        -2327.0,
+        1550.0,
+        -1432.0,
+        -1816.0,
+        2532.0
+      ]
+    },
+    {
+      "name": "Peca327",
+      "label": "Base005",
+      "bbox": [
+        -1432.0,
+        -2327.0,
+        1532.0,
+        -1120.0,
+        -1816.0,
+        1550.0
+      ]
+    },
+    {
+      "name": "Peca329",
+      "label": "Prateleira",
+      "bbox": [
+        -1432.0,
+        -2327.0,
+        1730.0,
+        -1120.0,
+        -1816.0,
+        1748.0
+      ]
+    },
+    {
+      "name": "Peca330",
+      "label": "Prateleira001",
+      "bbox": [
+        -1432.0,
+        -2327.0,
+        1940.0,
+        -1120.0,
+        -1816.0,
+        1958.0
+      ]
+    },
+    {
+      "name": "Peca331",
+      "label": "Prateleira002",
+      "bbox": [
+        -1432.0,
+        -2327.0,
+        2216.0,
+        -1120.0,
+        -1816.0,
+        2234.0
+      ]
+    },
+    {
+      "name": "Peca334",
+      "label": "Lateral direita023",
+      "bbox": [
+        -1450.0,
+        -1798.0,
+        1940.0,
+        -1120.0,
+        -1780.0,
+        2550.0
+      ]
+    },
+    {
+      "name": "Peca335",
+      "label": "Lateral esquerda007",
+      "bbox": [
+        -1450.0,
+        -1119.0,
+        1940.0,
+        -1120.0,
+        -1101.0,
+        2550.0
+      ]
+    },
+    {
+      "name": "Peca336",
+      "label": "Fundo007",
+      "bbox": [
+        -1450.0,
+        -1780.0,
+        1958.0,
+        -1432.0,
+        -1119.0,
+        2532.0
+      ]
+    },
+    {
+      "name": "Peca337",
+      "label": "Base006",
+      "bbox": [
+        -1432.0,
+        -1780.0,
+        1940.0,
+        -1120.0,
+        -1119.0,
+        1958.0
+      ]
+    },
+    {
+      "name": "Peca339",
+      "label": "Prateleira003",
+      "bbox": [
+        -1432.0,
+        -1780.0,
+        2216.0,
+        -1120.0,
+        -1119.0,
+        2234.0
+      ]
+    },
+    {
+      "name": "Peca342",
+      "label": "Lateral direita024",
+      "bbox": [
+        -1450.0,
+        -1101.0,
+        1966.0,
+        -1120.0,
+        -1083.0,
+        2550.0
+      ]
+    },
+    {
+      "name": "Peca343",
+      "label": "Lateral esquerda008",
+      "bbox": [
+        -1450.0,
+        -318.0,
+        1966.0,
+        -1120.0,
+        -300.0,
+        2550.0
+      ]
+    },
+    {
+      "name": "Peca344",
+      "label": "Fundo008",
+      "bbox": [
+        -1450.0,
+        -1083.0,
+        1984.0,
+        -1432.0,
+        -318.0,
+        2532.0
+      ]
+    },
+    {
+      "name": "Peca345",
+      "label": "Base007",
+      "bbox": [
+        -1432.0,
+        -1083.0,
+        1966.0,
+        -1120.0,
+        -318.0,
+        1984.0
+      ]
+    },
+    {
+      "name": "Peca347",
+      "label": "Divisória006",
+      "bbox": [
+        -1432.0,
+        -709.5,
+        1984.0,
+        -1120.0,
+        -691.5,
+        2532.0
+      ]
+    },
+    {
+      "name": "Peca350",
+      "label": "Prateleira de apoio · topo 1550",
+      "bbox": [
+        -1450.0,
+        -1798.0,
+        1532.0,
+        -980.0,
+        -1101.0,
+        1550.0
+      ]
+    },
+    {
+      "name": "Peca351",
+      "label": "ME23P - corpo documental 461x352x290; folgas separadas R17",
+      "bbox": [
+        -1350.0,
+        -1685.0,
+        1550.0,
+        -998.0,
+        -1224.0,
+        1840.0
+      ]
+    },
+    {
+      "name": "Peca406",
+      "label": "Lateral direita031",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        18.0,
+        450.0,
+        400.0
+      ]
+    },
+    {
+      "name": "Peca407",
+      "label": "Lateral esquerda015",
+      "bbox": [
+        1782.0,
+        0.0,
+        0.0,
+        1800.0,
+        450.0,
+        400.0
+      ]
+    },
+    {
+      "name": "Peca408",
+      "label": "Fundo015",
+      "bbox": [
+        18.0,
+        432.0,
+        18.0,
+        1782.0,
+        450.0,
+        400.0
+      ]
+    },
+    {
+      "name": "Peca421",
+      "label": "Encosto do banco · reserva",
+      "bbox": [
+        -0.0,
+        450.0,
+        400.0,
+        1800.0,
+        550.0,
+        900.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR001",
+      "label": "Fundo18 sobre rodas - proposta",
+      "bbox": [
+        -1380.0,
+        -2347.0,
+        39.0,
+        -938.0,
+        -1124.0,
+        57.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR003",
+      "label": "Lateral18 baixa - proposta001",
+      "bbox": [
+        -1362.0,
+        -1142.0,
+        57.0,
+        -956.0,
+        -1124.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR004",
+      "label": "Parede frente/trás18 baixa - proposta",
+      "bbox": [
+        -956.0,
+        -2347.0,
+        57.0,
+        -938.0,
+        -1124.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR005",
+      "label": "Parede frente/trás18 baixa - proposta001",
+      "bbox": [
+        -1380.0,
+        -2347.0,
+        57.0,
+        -1362.0,
+        -1124.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR011",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese001",
+      "bbox": [
+        -1018.0,
+        -1746.0,
+        37.0,
+        -978.0,
+        -1725.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR012",
+      "label": "Garfo simplificado - NÃO desenho executivo002",
+      "bbox": [
+        -984.0,
+        -1746.0,
+        15.0,
+        -972.0,
+        -1744.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR013",
+      "label": "Garfo simplificado - NÃO desenho executivo003",
+      "bbox": [
+        -984.0,
+        -1727.0,
+        15.0,
+        -972.0,
+        -1725.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR014",
+      "label": "Eixo simplificado - hipótese001",
+      "bbox": [
+        -980.0,
+        -1748.0,
+        13.0,
+        -976.0,
+        -1723.0,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR015",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado001",
+      "bbox": [
+        -993.0,
+        -1742.25,
+        0.0,
+        -963.0,
+        -1728.75,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR016",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese002",
+      "bbox": [
+        -1018.0,
+        -1184.5,
+        37.0,
+        -978.0,
+        -1163.5,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR017",
+      "label": "Garfo simplificado - NÃO desenho executivo004",
+      "bbox": [
+        -984.0,
+        -1184.5,
+        15.0,
+        -972.0,
+        -1182.5,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR018",
+      "label": "Garfo simplificado - NÃO desenho executivo005",
+      "bbox": [
+        -984.0,
+        -1165.5,
+        15.0,
+        -972.0,
+        -1163.5,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR019",
+      "label": "Eixo simplificado - hipótese002",
+      "bbox": [
+        -980.0,
+        -1186.5,
+        13.0,
+        -976.0,
+        -1161.5,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR020",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado002",
+      "bbox": [
+        -993.0,
+        -1180.75,
+        0.0,
+        -963.0,
+        -1167.25,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR026",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese004",
+      "bbox": [
+        -1358.0,
+        -1746.0,
+        37.0,
+        -1318.0,
+        -1725.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR027",
+      "label": "Garfo simplificado - NÃO desenho executivo008",
+      "bbox": [
+        -1324.0,
+        -1746.0,
+        15.0,
+        -1312.0,
+        -1744.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR028",
+      "label": "Garfo simplificado - NÃO desenho executivo009",
+      "bbox": [
+        -1324.0,
+        -1727.0,
+        15.0,
+        -1312.0,
+        -1725.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR029",
+      "label": "Eixo simplificado - hipótese004",
+      "bbox": [
+        -1320.0,
+        -1748.0,
+        13.0,
+        -1316.0,
+        -1723.0,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR030",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado004",
+      "bbox": [
+        -1333.0,
+        -1742.25,
+        0.0,
+        -1303.0,
+        -1728.75,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR031",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese005",
+      "bbox": [
+        -1358.0,
+        -1184.5,
+        37.0,
+        -1318.0,
+        -1163.5,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR032",
+      "label": "Garfo simplificado - NÃO desenho executivo010",
+      "bbox": [
+        -1324.0,
+        -1184.5,
+        15.0,
+        -1312.0,
+        -1182.5,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR033",
+      "label": "Garfo simplificado - NÃO desenho executivo011",
+      "bbox": [
+        -1324.0,
+        -1165.5,
+        15.0,
+        -1312.0,
+        -1163.5,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR034",
+      "label": "Eixo simplificado - hipótese005",
+      "bbox": [
+        -1320.0,
+        -1186.5,
+        13.0,
+        -1316.0,
+        -1161.5,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR035",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado005",
+      "bbox": [
+        -1333.0,
+        -1180.75,
+        0.0,
+        -1303.0,
+        -1167.25,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR037",
+      "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001",
+      "bbox": [
+        -1450.0,
+        -1119.0,
+        0.0,
+        -920.0,
+        -1101.0,
+        180.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR039",
+      "label": "Guia lateral simples3 + corrida2 - proposta sem apoio vertical001",
+      "bbox": [
+        -1362.0,
+        -1122.0,
+        85.0,
+        -956.0,
+        -1119.0,
+        115.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR040",
+      "label": "Cabo fixo1 - referência1125",
+      "bbox": [
+        -1007.0,
+        -2298.0,
+        57.0,
+        -986.0,
+        -1173.0,
+        78.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR041",
+      "label": "Cabo fixo2 - referência1125",
+      "bbox": [
+        -1042.0,
+        -2298.0,
+        57.0,
+        -1021.0,
+        -1173.0,
+        78.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR042",
+      "label": "Cabeça vassoura retirada - referência315x190x65",
+      "bbox": [
+        -1286.0,
+        -2279.0,
+        57.0,
+        -1096.0,
+        -1964.0,
+        122.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR043",
+      "label": "Cabeça rodo retirada - referência325x95x35",
+      "bbox": [
+        -1221.0,
+        -1899.0,
+        57.0,
+        -1126.0,
+        -1574.0,
+        92.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR13",
+      "label": "Frente baixa preservada1223x106 - recuo80",
+      "bbox": [
+        -938.0,
+        -2347.0,
+        39.0,
+        -920.0,
+        -1124.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBancoR001",
+      "label": "Fundo potes/travessas a80 - hipótese18",
+      "bbox": [
+        1420.0,
+        20.0,
+        62.0,
+        1782.0,
+        410.0,
+        80.0
+      ]
+    },
+    {
+      "name": "PecaBancoR002",
+      "label": "Fundo demais setores a100 - hipótese18",
+      "bbox": [
+        18.0,
+        20.0,
+        82.0,
+        1402.0,
+        410.0,
+        100.0
+      ]
+    },
+    {
+      "name": "PecaBancoR003",
+      "label": "Divisória18 contínua - centro da junta",
+      "bbox": [
+        1402.0,
+        20.0,
+        80.0,
+        1420.0,
+        410.0,
+        400.0
+      ]
+    },
+    {
+      "name": "PecaBancoR004",
+      "label": "Divisória18 contínua - centro da junta001",
+      "bbox": [
+        1034.0,
+        20.0,
+        100.0,
+        1052.0,
+        410.0,
+        400.0
+      ]
+    },
+    {
+      "name": "PecaBancoR005",
+      "label": "Divisória18 contínua - centro da junta002",
+      "bbox": [
+        818.0,
+        20.0,
+        100.0,
+        836.0,
+        410.0,
+        400.0
+      ]
+    },
+    {
+      "name": "PecaBancoR006",
+      "label": "Divisão inferior aspirador/jogos - proposta",
+      "bbox": [
+        409.0,
+        20.0,
+        100.0,
+        427.0,
+        410.0,
+        302.0
+      ]
+    },
+    {
+      "name": "PecaBancoR007",
+      "label": "Base do nicho da folha18 - proposta não calculada",
+      "bbox": [
+        18.0,
+        20.0,
+        302.0,
+        818.0,
+        410.0,
+        320.0
+      ]
+    },
+    {
+      "name": "PecaBancoR008",
+      "label": "Tampa20 - envelope total, não chapa liberada",
+      "bbox": [
+        1412.0,
+        0.0,
+        400.0,
+        1799.0,
+        448.0,
+        420.0
+      ]
+    },
+    {
+      "name": "PecaBancoR009",
+      "label": "Almofada50 no giro do assento - hipótese",
+      "bbox": [
+        1411.0,
+        0.0,
+        420.0,
+        1800.0,
+        450.0,
+        470.0
+      ]
+    },
+    {
+      "name": "PecaBancoR010",
+      "label": "Tampa20 - envelope total, não chapa liberada001",
+      "bbox": [
+        1044.0,
+        0.0,
+        400.0,
+        1410.0,
+        448.0,
+        420.0
+      ]
+    },
+    {
+      "name": "PecaBancoR011",
+      "label": "Almofada50 removível - Liquidificador e bebidas",
+      "bbox": [
+        1043.0,
+        0.0,
+        420.0,
+        1411.0,
+        450.0,
+        470.0
+      ]
+    },
+    {
+      "name": "PecaBancoR012",
+      "label": "Tampa20 - envelope total, não chapa liberada002",
+      "bbox": [
+        828.0,
+        0.0,
+        400.0,
+        1042.0,
+        448.0,
+        420.0
+      ]
+    },
+    {
+      "name": "PecaBancoR013",
+      "label": "Almofada50 removível - Balde",
+      "bbox": [
+        827.0,
+        0.0,
+        420.0,
+        1043.0,
+        450.0,
+        470.0
+      ]
+    },
+    {
+      "name": "PecaBancoR014",
+      "label": "Tampa20 - envelope total, não chapa liberada003",
+      "bbox": [
+        1.0,
+        0.0,
+        400.0,
+        826.0,
+        448.0,
+        420.0
+      ]
+    },
+    {
+      "name": "PecaBancoR015",
+      "label": "Almofada50 no giro do assento - hipótese001",
+      "bbox": [
+        0.0,
+        0.0,
+        420.0,
+        827.0,
+        450.0,
+        470.0
+      ]
+    },
+    {
+      "name": "PecaBancoR016",
+      "label": "Pote 1 - gabarito da organização aprovada",
+      "bbox": [
+        1627.0,
+        208.0,
+        313.0,
+        1772.0,
+        398.0,
+        360.0
+      ]
+    },
+    {
+      "name": "PecaBancoR017",
+      "label": "Pote 2 - gabarito da organização aprovada",
+      "bbox": [
+        1627.0,
+        208.0,
+        264.0,
+        1772.0,
+        398.0,
+        311.0
+      ]
+    },
+    {
+      "name": "PecaBancoR018",
+      "label": "Pote 3 - gabarito da organização aprovada",
+      "bbox": [
+        1472.0,
+        208.0,
+        313.0,
+        1617.0,
+        398.0,
+        360.0
+      ]
+    },
+    {
+      "name": "PecaBancoR019",
+      "label": "Pote 4 - gabarito da organização aprovada",
+      "bbox": [
+        1472.0,
+        208.0,
+        264.0,
+        1617.0,
+        398.0,
+        311.0
+      ]
+    },
+    {
+      "name": "PecaBancoR020",
+      "label": "Pote 5 - gabarito da organização aprovada",
+      "bbox": [
+        1506.0,
+        43.0,
+        313.0,
+        1696.0,
+        188.0,
+        360.0
+      ]
+    },
+    {
+      "name": "PecaBancoR021",
+      "label": "Pote 6 - gabarito da organização aprovada",
+      "bbox": [
+        1506.0,
+        43.0,
+        264.0,
+        1696.0,
+        188.0,
+        311.0
+      ]
+    },
+    {
+      "name": "PecaBancoR022",
+      "label": "Travessas - gabarito da organização aprovada",
+      "bbox": [
+        1431.0,
+        28.0,
+        83.0,
+        1771.0,
+        248.0,
+        183.0
+      ]
+    },
+    {
+      "name": "PecaBancoR023",
+      "label": "Batedeira - gabarito da organização aprovada",
+      "bbox": [
+        1451.0,
+        258.0,
+        83.0,
+        1751.0,
+        398.0,
+        203.0
+      ]
+    },
+    {
+      "name": "PecaBancoR024",
+      "label": "Motor - gabarito da organização aprovada",
+      "bbox": [
+        1212.0,
+        218.0,
+        103.0,
+        1392.0,
+        398.0,
+        303.0
+      ]
+    },
+    {
+      "name": "PecaBancoR025",
+      "label": "Jarra do liquidificador - gabarito da organização aprovada",
+      "bbox": [
+        1212.0,
+        28.0,
+        103.0,
+        1392.0,
+        208.0,
+        343.0
+      ]
+    },
+    {
+      "name": "PecaBancoR026",
+      "label": "Térmica vazia e seca - gabarito da organização aprovada",
+      "bbox": [
+        1066.825,
+        48.9,
+        103.0,
+        1197.0,
+        214.0,
+        350.65
+      ]
+    },
+    {
+      "name": "PecaBancoR027",
+      "label": "Jarra 1,5 L - gabarito da organização aprovada",
+      "bbox": [
+        1074.5,
+        224.0,
+        103.0,
+        1189.5,
+        384.0,
+        333.0
+      ]
+    },
+    {
+      "name": "PecaBancoR028",
+      "label": "Balde 8 L - gabarito da organização aprovada",
+      "bbox": [
+        855.0,
+        55.0,
+        103.0,
+        1015.0,
+        385.0,
+        353.0
+      ]
+    },
+    {
+      "name": "PecaBancoR029",
+      "label": "Painel posterior de estudo18 removível - folgas3",
+      "bbox": [
+        1423.0,
+        203.0,
+        244.0,
+        1779.0,
+        405.0,
+        262.0
+      ]
+    },
+    {
+      "name": "PecaBancoR030",
+      "label": "Painel frontal de estudo18 removível - folgas3",
+      "bbox": [
+        1423.0,
+        21.0,
+        244.0,
+        1779.0,
+        198.0,
+        262.0
+      ]
+    },
+    {
+      "name": "PecaBancoR031",
+      "label": "Faixa de suporte E010x6 - reserva sem peça/carga confirmadas",
+      "bbox": [
+        1772.0,
+        203.0,
+        238.0,
+        1782.0,
+        405.0,
+        244.0
+      ]
+    },
+    {
+      "name": "PecaBancoR032",
+      "label": "Faixa de suporte D010x6 - reserva sem peça/carga confirmadas",
+      "bbox": [
+        1420.0,
+        203.0,
+        238.0,
+        1430.0,
+        405.0,
+        244.0
+      ]
+    },
+    {
+      "name": "PecaBancoR033",
+      "label": "Faixa de suporte E110x6 - reserva sem peça/carga confirmadas",
+      "bbox": [
+        1772.0,
+        21.0,
+        238.0,
+        1782.0,
+        198.0,
+        244.0
+      ]
+    },
+    {
+      "name": "PecaBancoR034",
+      "label": "Faixa de suporte D110x6 - reserva sem peça/carga confirmadas",
+      "bbox": [
+        1420.0,
+        21.0,
+        238.0,
+        1430.0,
+        198.0,
+        244.0
+      ]
+    },
+    {
+      "name": "PecaBancoR035",
+      "label": "Reserva folha800x350x70 - dimensões completas a conferir",
+      "bbox": [
+        18.0,
+        40.0,
+        330.0,
+        818.0,
+        390.0,
+        400.0
+      ]
+    },
+    {
+      "name": "PecaBancoR036",
+      "label": "Aspirador - reserva371x350x164; programa real não reduzido a caixa",
+      "bbox": [
+        437.0,
+        40.0,
+        110.0,
+        808.0,
+        390.0,
+        274.0
+      ]
+    },
+    {
+      "name": "PecaBancoR037",
+      "label": "Jogos - reserva371x350x164; programa real não reduzido a caixa",
+      "bbox": [
+        28.0,
+        40.0,
+        110.0,
+        399.0,
+        390.0,
+        274.0
+      ]
+    },
+    {
+      "name": "PecaBancoR16",
+      "label": "Frente18 estrutural - apoio não calculado",
+      "bbox": [
+        18.0,
+        2.0,
+        0.0,
+        1782.0,
+        20.0,
+        400.0
+      ]
+    }
+  ],
+  "stroke_mm": 838.0,
+  "end_gap_mm": 20,
+  "sweep_hits": [
+    {
+      "name": "Peca406",
+      "label": "Lateral direita031",
+      "volume": 441000.0
+    }
+  ],
+  "limits": "Selected adopted R28 objects refreshed in R30, current Lina substituted, full-height walls. Fixed closed pose; bounding context with exact common volumes for sweep candidates. No model mutation."
+}

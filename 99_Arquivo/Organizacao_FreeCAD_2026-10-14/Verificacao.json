@@ -1,0 +1,14 @@
+{
+  "md_verificados": 678,
+  "referencias_locais": 9830,
+  "externos_ou_ancoras_nao_testados": 1664,
+  "links_quebrados": [],
+  "arquivos_sem_link_direto_md": [
+    ".gitattributes",
+    ".gitignore",
+    ".github/workflows/pages.yml"
+  ],
+  "binarios_movidos_verificados": 366,
+  "binarios_alterados": [],
+  "erros_sintaxe_python": []
+}

@@ -1,0 +1,56 @@
+{
+  "fronts": [
+    {
+      "door": "FolhaBanheiroR12",
+      "wood_volume_mm3": 2877863.0684957914,
+      "glass_volume_mm3": 0,
+      "scenario_wood900_glass2500_handle200g_kg": 2.7900767616462123,
+      "hinge_quantity_candidate": 2
+    },
+    {
+      "door": "FolhaBanheiroR001",
+      "wood_volume_mm3": 2877863.0684957914,
+      "glass_volume_mm3": 0,
+      "scenario_wood900_glass2500_handle200g_kg": 2.7900767616462123,
+      "hinge_quantity_candidate": 2
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "wood_volume_mm3": 3961285.6027436876,
+      "glass_volume_mm3": 888624.0,
+      "scenario_wood900_glass2500_handle200g_kg": 5.986717042469319,
+      "hinge_quantity_candidate": 3
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "wood_volume_mm3": 3961285.6027436876,
+      "glass_volume_mm3": 888624.0,
+      "scenario_wood900_glass2500_handle200g_kg": 5.986717042469319,
+      "hinge_quantity_candidate": 3
+    }
+  ],
+  "lower_internal_nominal_mm": [
+    564,
+    382,
+    509
+  ],
+  "mirror_internal_nominal_mm": [
+    564,
+    108,
+    714
+  ],
+  "mirror_closed_assembly_depth_mm": 150,
+  "mirror_closed_front_layering_mm": {
+    "mirror": [
+      0,
+      4
+    ],
+    "wood": [
+      4,
+      22
+    ],
+    "carcass_front": 24,
+    "rear": 150
+  },
+  "scope": "Vãos de madeira nominais, antes de ferragem/conteúdo/tubulação. Massas são cenários, não pesos reais. Fundo inferior inteiro ainda exige detalhamento hidráulico; não é comprovação de sifão/torneira."
+}

@@ -1,0 +1,30 @@
+{
+  "a": [
+    -17.9948095708183,
+    42.57293209494855
+  ],
+  "b": [
+    -8.427729453778758,
+    34.29110391307067
+  ],
+  "c": [
+    2.059999999999985,
+    45.40000000000008
+  ],
+  "d": [
+    6.860000000000579,
+    40.79999999999998
+  ],
+  "parts": [
+    "Part__Feature",
+    "Part__Feature001",
+    "Part__Feature002",
+    "Part__Feature003",
+    "Part__Feature004"
+  ],
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Canto_2026-10-13\\Canto_simples_R04\\Fontes_STEP_Simples.FCStd",
+  "plate": "Part__Feature005",
+  "cup_center_raw_x": -6.5,
+  "plate_backplane_raw_x": 0,
+  "scope": "Eixos extraídos dos cilindros STEP, algoritmo da R04 previamente verificado. Dados de montagem da aplicação ainda a conferir."
+}

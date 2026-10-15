@@ -1,0 +1,423 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Padronizacao_R08_2026-10-14\\Guedala_Park_R08_Gavetas_Comuns.FCStd",
+  "changed_drawers": [
+    {
+      "drawer": "Gaveta",
+      "label": "Gaveta de roupa",
+      "module": "Modulo",
+      "LW": 355.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        353.0,
+        142.0,
+        18.0
+      ],
+      "box_mm": [
+        343.0,
+        490.0,
+        100.0
+      ],
+      "usable_floor_mm": [
+        313.0,
+        459.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 20.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR08",
+        "GavetaComumR001",
+        "GavetaComumR002",
+        "GavetaComumR003",
+        "GavetaComumR004",
+        "GavetaComumR005"
+      ],
+      "moving_names": [
+        "GavetaComumR08",
+        "GavetaComumR001",
+        "GavetaComumR002",
+        "GavetaComumR003",
+        "GavetaComumR004",
+        "GavetaComumR005",
+        "GavetaComumR006",
+        "GavetaComumR007"
+      ],
+      "profile_names": [
+        "GavetaComumR008",
+        "GavetaComumR009",
+        "GavetaComumR010",
+        "GavetaComumR011"
+      ],
+      "fixed_part": "GuiasComunsR08",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta001",
+      "label": "Gaveta de roupa001",
+      "module": "Modulo",
+      "LW": 355.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        353.0,
+        142.0,
+        18.0
+      ],
+      "box_mm": [
+        343.0,
+        490.0,
+        100.0
+      ],
+      "usable_floor_mm": [
+        313.0,
+        459.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 20.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR012",
+        "GavetaComumR013",
+        "GavetaComumR014",
+        "GavetaComumR015",
+        "GavetaComumR016",
+        "GavetaComumR017"
+      ],
+      "moving_names": [
+        "GavetaComumR012",
+        "GavetaComumR013",
+        "GavetaComumR014",
+        "GavetaComumR015",
+        "GavetaComumR016",
+        "GavetaComumR017",
+        "GavetaComumR018",
+        "GavetaComumR019"
+      ],
+      "profile_names": [
+        "GavetaComumR020",
+        "GavetaComumR021",
+        "GavetaComumR022",
+        "GavetaComumR023"
+      ],
+      "fixed_part": "GuiasComunsR001",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta002",
+      "label": "Gaveta de roupa002",
+      "module": "Modulo",
+      "LW": 355.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        353.0,
+        142.0,
+        18.0
+      ],
+      "box_mm": [
+        343.0,
+        490.0,
+        100.0
+      ],
+      "usable_floor_mm": [
+        313.0,
+        459.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 20.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR024",
+        "GavetaComumR025",
+        "GavetaComumR026",
+        "GavetaComumR027",
+        "GavetaComumR028",
+        "GavetaComumR029"
+      ],
+      "moving_names": [
+        "GavetaComumR024",
+        "GavetaComumR025",
+        "GavetaComumR026",
+        "GavetaComumR027",
+        "GavetaComumR028",
+        "GavetaComumR029",
+        "GavetaComumR030",
+        "GavetaComumR031"
+      ],
+      "profile_names": [
+        "GavetaComumR032",
+        "GavetaComumR033",
+        "GavetaComumR034",
+        "GavetaComumR035"
+      ],
+      "fixed_part": "GuiasComunsR002",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta003",
+      "label": "Gaveta de roupa003",
+      "module": "Modulo",
+      "LW": 355.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        353.0,
+        142.0,
+        18.0
+      ],
+      "box_mm": [
+        343.0,
+        490.0,
+        100.0
+      ],
+      "usable_floor_mm": [
+        313.0,
+        459.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 20.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR036",
+        "GavetaComumR037",
+        "GavetaComumR038",
+        "GavetaComumR039",
+        "GavetaComumR040",
+        "GavetaComumR041"
+      ],
+      "moving_names": [
+        "GavetaComumR036",
+        "GavetaComumR037",
+        "GavetaComumR038",
+        "GavetaComumR039",
+        "GavetaComumR040",
+        "GavetaComumR041",
+        "GavetaComumR042",
+        "GavetaComumR043"
+      ],
+      "profile_names": [
+        "GavetaComumR044",
+        "GavetaComumR045",
+        "GavetaComumR046",
+        "GavetaComumR047"
+      ],
+      "fixed_part": "GuiasComunsR003",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta004",
+      "label": "G3 · mantimentos",
+      "module": "Modulo005",
+      "LW": 583.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        617.0,
+        396.0,
+        18.0
+      ],
+      "box_mm": [
+        571.0,
+        490.0,
+        300.0
+      ],
+      "usable_floor_mm": [
+        541.0,
+        459.0
+      ],
+      "sidebase_mm": 36.0,
+      "floor_surface_mm": 63.0,
+      "inside_left_mm": 38.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 500.0,
+      "wood_names": [
+        "GavetaComumR048",
+        "GavetaComumR049",
+        "GavetaComumR050",
+        "GavetaComumR051",
+        "GavetaComumR052",
+        "GavetaComumR053"
+      ],
+      "moving_names": [
+        "GavetaComumR048",
+        "GavetaComumR049",
+        "GavetaComumR050",
+        "GavetaComumR051",
+        "GavetaComumR052",
+        "GavetaComumR053",
+        "GavetaComumR054",
+        "GavetaComumR055"
+      ],
+      "profile_names": [
+        "GavetaComumR056",
+        "GavetaComumR057",
+        "GavetaComumR058",
+        "GavetaComumR059"
+      ],
+      "fixed_part": "GuiasComunsR004",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta006",
+      "label": "G1 · talheres",
+      "module": "Modulo005",
+      "LW": 583.0,
+      "NL": 500.0,
+      "front_preserved_mm": [
+        617.0,
+        156.0,
+        18.0
+      ],
+      "box_mm": [
+        571.0,
+        490.0,
+        80.0
+      ],
+      "usable_floor_mm": [
+        541.0,
+        459.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 38.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 500.0,
+      "wood_names": [
+        "GavetaComumR060",
+        "GavetaComumR061",
+        "GavetaComumR062",
+        "GavetaComumR063",
+        "GavetaComumR064",
+        "GavetaComumR065"
+      ],
+      "moving_names": [
+        "GavetaComumR060",
+        "GavetaComumR061",
+        "GavetaComumR062",
+        "GavetaComumR063",
+        "GavetaComumR064",
+        "GavetaComumR065",
+        "GavetaComumR066",
+        "GavetaComumR067"
+      ],
+      "profile_names": [
+        "GavetaComumR068",
+        "GavetaComumR069",
+        "GavetaComumR070",
+        "GavetaComumR071"
+      ],
+      "fixed_part": "GuiasComunsR005",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta008",
+      "label": "Gaveta escritório 1",
+      "module": "Modulo015",
+      "LW": 364.0,
+      "NL": 400.0,
+      "front_preserved_mm": [
+        398.0,
+        118.0,
+        18.0
+      ],
+      "box_mm": [
+        352.0,
+        390.0,
+        80.0
+      ],
+      "usable_floor_mm": [
+        322.0,
+        359.0
+      ],
+      "sidebase_mm": 36.0,
+      "floor_surface_mm": 63.0,
+      "inside_left_mm": 38.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR072",
+        "GavetaComumR073",
+        "GavetaComumR074",
+        "GavetaComumR075",
+        "GavetaComumR076",
+        "GavetaComumR077"
+      ],
+      "moving_names": [
+        "GavetaComumR072",
+        "GavetaComumR073",
+        "GavetaComumR074",
+        "GavetaComumR075",
+        "GavetaComumR076",
+        "GavetaComumR077",
+        "GavetaComumR078",
+        "GavetaComumR079"
+      ],
+      "profile_names": [
+        "GavetaComumR080",
+        "GavetaComumR081",
+        "GavetaComumR082",
+        "GavetaComumR083"
+      ],
+      "fixed_part": "GuiasComunsR006",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    },
+    {
+      "drawer": "Gaveta009",
+      "label": "Gaveta escritório 2",
+      "module": "Modulo015",
+      "LW": 364.0,
+      "NL": 400.0,
+      "front_preserved_mm": [
+        398.0,
+        118.0,
+        18.0
+      ],
+      "box_mm": [
+        352.0,
+        390.0,
+        80.0
+      ],
+      "usable_floor_mm": [
+        322.0,
+        359.0
+      ],
+      "sidebase_mm": 20.0,
+      "floor_surface_mm": 47.0,
+      "inside_left_mm": 38.0,
+      "body_front_mm": 18.0,
+      "course_preserved_mm": 400.0,
+      "wood_names": [
+        "GavetaComumR084",
+        "GavetaComumR085",
+        "GavetaComumR086",
+        "GavetaComumR087",
+        "GavetaComumR088",
+        "GavetaComumR089"
+      ],
+      "moving_names": [
+        "GavetaComumR084",
+        "GavetaComumR085",
+        "GavetaComumR086",
+        "GavetaComumR087",
+        "GavetaComumR088",
+        "GavetaComumR089",
+        "GavetaComumR090",
+        "GavetaComumR091"
+      ],
+      "profile_names": [
+        "GavetaComumR092",
+        "GavetaComumR093",
+        "GavetaComumR094",
+        "GavetaComumR095"
+      ],
+      "fixed_part": "GuiasComunsR007",
+      "notes": "Aplicação parametrizada com posição da referência oficial G2; sem escalar ferragens/furos. Parafusos dos apoios não replicados automaticamente. Configurador individual e tolerâncias pendentes."
+    }
+  ],
+  "invalid": [],
+  "scope": "Oito caixas padronizadas; G2 R07 preservada. Novas caixas propostas pela referência comum, não STEP configurado individual. Frentes/cursos/implantações preservados."
+}

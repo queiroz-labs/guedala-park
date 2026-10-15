@@ -1,0 +1,584 @@
+{
+  "closed_geometry": [
+    {
+      "door": "Porta 001",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 002",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 003",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 004",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 005",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 006",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 007",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 008",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 009",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 010",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 011",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 012",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 013",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 014",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 015",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 016",
+      "maximum_closed_delta_mm": 0.0
+    },
+    {
+      "door": "Porta 5",
+      "maximum_closed_delta_mm": 0.0
+    }
+  ],
+  "single_doors": [
+    {
+      "door": "Folha004",
+      "module": "Gabinete da pia",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha005",
+      "module": "Gabinete da pia",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha006",
+      "module": "D · acima do depurador",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha007",
+      "module": "D · acima do depurador",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha008",
+      "module": "C · uso diário",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha009",
+      "module": "C · uso diário",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha010",
+      "module": "B · acima do micro",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha011",
+      "module": "B · acima do micro",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha012",
+      "module": "A · acima da geladeira",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha013",
+      "module": "A · acima da geladeira",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha014",
+      "module": "Aéreo da lavanderia",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha015",
+      "module": "Aéreo da lavanderia",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha016",
+      "module": "Aéreo principal do escritório",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha017",
+      "module": "Aéreo principal do escritório",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha018",
+      "module": "Aéreo principal do escritório",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha019",
+      "module": "Aéreo principal do escritório",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "door": "Folha020",
+      "module": "Aéreo principal do escritório",
+      "cases": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 110,
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "simultaneous": [
+    {
+      "angle_all": 30,
+      "hits": []
+    },
+    {
+      "angle_all": 60,
+      "hits": []
+    },
+    {
+      "angle_all": 86,
+      "hits": []
+    },
+    {
+      "angle_all": 90,
+      "hits": []
+    },
+    {
+      "angle_all": 110,
+      "hits": [
+        {
+          "pair": [
+            "Porta 003",
+            "Porta 012"
+          ],
+          "objects": [
+            "Folha006",
+            "Folha015"
+          ],
+          "mm3": 136094.7203737503
+        },
+        {
+          "pair": [
+            "Porta 004",
+            "Porta 005"
+          ],
+          "objects": [
+            "Folha007",
+            "Folha008"
+          ],
+          "mm3": 297392.1667426274
+        },
+        {
+          "pair": [
+            "Porta 006",
+            "Porta 007"
+          ],
+          "objects": [
+            "Folha009",
+            "Folha010"
+          ],
+          "mm3": 306465.1481008766
+        },
+        {
+          "pair": [
+            "Porta 008",
+            "Porta 009"
+          ],
+          "objects": [
+            "Folha011",
+            "Folha012"
+          ],
+          "mm3": 293359.7305834086
+        }
+      ]
+    }
+  ],
+  "scope": "17 controles ideais, sem deslocamento real de dobradiças. Não certifica hardware, batente, tolerância ou movimento com gavetas abertas."
+}

@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "America/Sao_Paulo",
+  "deadline_local": "19:00",
+  "clock_checked_utc": "2026-10-14 22:00:30 UTC",
+  "automation_id": "confer-ncia-noturna-dos-arm-rios-guedala-park",
+  "automation_delete_status": "deleted",
+  "reason": "User deadline reached; not all technical dependencies resolved",
+  "current_revision": "R28",
+  "cad_modified_this_closeout": false,
+  "final_astra_review_status": "pending_unverified",
+  "supported_evidence": {
+    "dispatch": "send_message_to_thread requested gpt-6-astra in same original chat at18:30; returned threadId without effective-model metadata",
+    "read_thread_at_deadline": "Current closeout in progress; preceding completed turn is18:30 dispatch, no subsequent review result exposed",
+    "effective_model_field_exposed": false,
+    "internal_transcript_or_metadata_access": false,
+    "repeat_dispatch": false
+  },
+  "delivered": [
+    "Entrega_atual_R28.md",
+    "Revisao_solicitada_R28_2026-10-14/Relatorio_revisao_R28.html",
+    "Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html"
+  ],
+  "fabrication_released": false,
+  "old_automation_update_json": "Historical snapshot only; do not execute to recreate the schedule"
+}

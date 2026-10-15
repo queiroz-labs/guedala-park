@@ -1,0 +1,541 @@
+{
+  "poses": [
+    {
+      "name": "Fechado",
+      "alpha_requested_deg": 0,
+      "alpha_actual_deg": -3.979039320256561e-13,
+      "beta_deg": 0,
+      "near_deg": 0,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.547473508864641e-13,
+      "gaps_mm": {
+        "A / B": 1.4142135623730951,
+        "A / vizinha": 551.0009074402718,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 2.0,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 953.7312252411609,
+        "A / faixa": 420.00595233877607,
+        "A / Frente de correr do maleiro 1": 3.0000000000002274,
+        "A / Frente de correr do maleiro 2": 663.0030165843896,
+        "B / vizinha": 154.00000000000273,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 382.5767896775759,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 556.5035938787844,
+        "B / faixa": 30.413812651490346,
+        "B / Frente de correr do maleiro 1": 400.00124999804723,
+        "B / Frente de correr do maleiro 2": 1060.2079984606798,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 686.9970887856805,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 1.9999999999999716,
+        "vizinha / faixa": 22.022715545545147,
+        "vizinha / Frente de correr do maleiro 1": 680.8825155634414,
+        "vizinha / Frente de correr do maleiro 2": 1204.0103820150389
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Inicio",
+      "alpha_requested_deg": 1,
+      "alpha_actual_deg": 0.9999998714095852,
+      "beta_deg": 0,
+      "near_deg": 0,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.547473508864641e-13,
+      "gaps_mm": {
+        "A / B": 1.4142135623729843,
+        "A / vizinha": 543.8812378524862,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 2.2111573537217737,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 946.6119834817655,
+        "A / faixa": 412.9146438274412,
+        "A / Frente de correr do maleiro 1": 3.1272601153095625,
+        "A / Frente de correr do maleiro 2": 663.3757870282452,
+        "B / vizinha": 146.6093013999016,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 383.08088947648906,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 549.1809002567813,
+        "B / faixa": 31.91485395540006,
+        "B / Frente de correr do maleiro 1": 400.1289238268182,
+        "B / Frente de correr do maleiro 2": 1060.4195346825907,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 686.9970887856805,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 1.9999999999999716,
+        "vizinha / faixa": 22.022715545545147,
+        "vizinha / Frente de correr do maleiro 1": 680.8825155634414,
+        "vizinha / Frente de correr do maleiro 2": 1204.0103820150389
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Critico_simultaneo",
+      "alpha_requested_deg": 24.25,
+      "alpha_actual_deg": 24.24998994995002,
+      "beta_deg": 0,
+      "near_deg": 25,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.582862941503293e-13,
+      "gaps_mm": {
+        "A / B": 1.4142135623729153,
+        "A / vizinha": 432.01109623831906,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 8.671049872513322,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 787.6774428439238,
+        "A / faixa": 261.196016234351,
+        "A / Frente de correr do maleiro 1": 5.913494411951587,
+        "A / Frente de correr do maleiro 2": 664.6696128425056,
+        "B / vizinha": 49.37767150191343,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 395.81989882293055,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 461.7866299120173,
+        "B / faixa": 151.9422500028949,
+        "B / Frente de correr do maleiro 1": 402.93247396665834,
+        "B / Frente de correr do maleiro 2": 1012.8908645747201,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 641.8890183708932,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 4.883783035269829,
+        "vizinha / faixa": 193.1686118675163,
+        "vizinha / Frente de correr do maleiro 1": 629.864524874571,
+        "vizinha / Frente de correr do maleiro 2": 1074.7139742843215
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Meio_curso",
+      "alpha_requested_deg": 45,
+      "alpha_actual_deg": 44.999999324117645,
+      "beta_deg": 30,
+      "near_deg": 45,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.687428401686771e-13,
+      "gaps_mm": {
+        "A / B": 3.825317547305798,
+        "A / vizinha": 399.8342855013901,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 16.144386224592836,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 678.5601987758413,
+        "A / faixa": 202.22621284609022,
+        "A / Frente de correr do maleiro 1": 8.477940541441724,
+        "A / Frente de correr do maleiro 2": 663.7455666020115,
+        "B / vizinha": 299.62562351422855,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 363.30444121202083,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 663.0696084199395,
+        "B / faixa": 195.79493773994605,
+        "B / Frente de correr do maleiro 1": 348.6446677642468,
+        "B / Frente de correr do maleiro 2": 688.409519600655,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 684.6679765848942,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 8.145478249844619,
+        "vizinha / faixa": 297.6869956110616,
+        "vizinha / Frente de correr do maleiro 1": 668.0610847062167,
+        "vizinha / Frente de correr do maleiro 2": 1035.0857157837745
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Principal_aberta",
+      "alpha_requested_deg": 92,
+      "alpha_actual_deg": 92.00000000002666,
+      "beta_deg": 0,
+      "near_deg": 90,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.687428401686771e-13,
+      "gaps_mm": {
+        "A / B": 1.414213562373297,
+        "A / vizinha": 524.8321794483096,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 33.432599401624486,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 686.0634653207998,
+        "A / faixa": 438.3759038652722,
+        "A / Frente de correr do maleiro 1": 13.364841030152547,
+        "A / Frente de correr do maleiro 2": 658.3221218921927,
+        "B / vizinha": 507.0478565463064,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 430.43905794547356,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 684.0460258677504,
+        "B / faixa": 457.446831461982,
+        "B / Frente de correr do maleiro 1": 396.2678991656503,
+        "B / Frente de correr do maleiro 2": 483.96303518810777,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 954.567878243954,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 3.8583981640480176,
+        "vizinha / faixa": 385.3001893328566,
+        "vizinha / Frente de correr do maleiro 1": 934.5856029682566,
+        "vizinha / Frente de correr do maleiro 2": 1163.8001265979137
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.0,
+          "overlap_mm3": 3.018468106409112
+        },
+        {
+          "min_gap_mm": 0.0,
+          "overlap_mm3": 3.018468106409097
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Abertura_completa",
+      "alpha_requested_deg": 92,
+      "alpha_actual_deg": 92.00000000002666,
+      "beta_deg": 60,
+      "near_deg": 110,
+      "filler_mm": 150,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 2 - bau0015088783_v(71T310-04)",
+          "wood": "vizinha",
+          "volume_mm3": 21.4077
+        },
+        {
+          "hardware": "71B3650 - corpo 3 - bau0015088853_v(70T310-05.02)",
+          "wood": "vizinha",
+          "volume_mm3": 24.3507
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 2 - bau0015088783_v(71T310-04)001",
+          "wood": "vizinha",
+          "volume_mm3": 21.4077
+        },
+        {
+          "hardware": "71B3650 - corpo 3 - bau0015088853_v(70T310-05.02)001",
+          "wood": "vizinha",
+          "volume_mm3": 24.3507
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.687428401686771e-13,
+      "gaps_mm": {
+        "A / B": 2.5442286340598437,
+        "A / vizinha": 631.2288149046369,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 33.432599401624486,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 686.0634653207998,
+        "A / faixa": 438.3759038652722,
+        "A / Frente de correr do maleiro 1": 13.364841030152547,
+        "A / Frente de correr do maleiro 2": 658.3221218921927,
+        "B / vizinha": 649.7019057317374,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 210.9330357791923,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 710.2253864255608,
+        "B / faixa": 458.977714801752,
+        "B / Frente de correr do maleiro 1": 45.070978507747895,
+        "B / Frente de correr do maleiro 2": 445.91218510919964,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 1029.4696428687312,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 4.813221083269528,
+        "vizinha / faixa": 381.93445482245244,
+        "vizinha / Frente de correr do maleiro 1": 1016.8321530328749,
+        "vizinha / Frente de correr do maleiro 2": 1290.8215704044505
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.0,
+          "overlap_mm3": 3.018468106409112
+        },
+        {
+          "min_gap_mm": 0.0,
+          "overlap_mm3": 3.018468106409097
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "Alternativa_faixa200",
+      "alpha_requested_deg": 25,
+      "alpha_actual_deg": 24.999988336176735,
+      "beta_deg": 0,
+      "near_deg": 25,
+      "filler_mm": 200,
+      "front_collisions": [],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.687428401686771e-13,
+      "gaps_mm": {
+        "A / B": 1.4142135623727974,
+        "A / vizinha": 472.4180294238723,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 8.919320671023343,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 820.387187894973,
+        "A / faixa": 257.1819188763403,
+        "A / Frente de correr do maleiro 1": 6.004119553908582,
+        "A / Frente de correr do maleiro 2": 664.6638244340885,
+        "B / vizinha": 96.42019030192345,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 396.2580834429871,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 496.0501722049468,
+        "B / faixa": 154.42570088388703,
+        "B / Frente de correr do maleiro 1": 403.0237133481571,
+        "B / Frente de correr do maleiro 2": 1009.6196773248938,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 689.6045604652344,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 4.883783035269943,
+        "vizinha / faixa": 187.8858835957577,
+        "vizinha / Frente de correr do maleiro 1": 677.125750454843,
+        "vizinha / Frente de correr do maleiro 2": 1107.373910935758
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    },
+    {
+      "name": "R01_sem_faixa",
+      "alpha_requested_deg": 24.25,
+      "alpha_actual_deg": 24.24998994995002,
+      "beta_deg": 0,
+      "near_deg": 25,
+      "filler_mm": 0,
+      "front_collisions": [
+        {
+          "pair": [
+            "B",
+            "vizinha"
+          ],
+          "volume_mm3": 130871.96086
+        }
+      ],
+      "hardware_wood_collisions": [
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "79T8500 - corpo 3 - bau0018301825_v(78.850-01.02)001",
+          "wood": "A",
+          "volume_mm3": 45.00204
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        },
+        {
+          "hardware": "71B3650 - corpo 4 - bau0015089612_v(71B355M01.01)001",
+          "wood": "vizinha",
+          "volume_mm3": 0.01101
+        }
+      ],
+      "max_joint_error_mm": 4.582862941503293e-13,
+      "gaps_mm": {
+        "A / B": 1.4142135623729153,
+        "A / vizinha": 301.1423757352119,
+        "A / Lateral 18 mm de apoio da principal - proposta R03": 8.671049872513322,
+        "A / Divisor 18 mm de apoio da vizinha - proposta": 675.4947536975465,
+        "A / Frente de correr do maleiro 1": 5.913494411951587,
+        "A / Frente de correr do maleiro 2": 664.6696128425056,
+        "B / vizinha": 5.684341886080802e-14,
+        "B / Lateral 18 mm de apoio da principal - proposta R03": 395.81989882293055,
+        "B / Divisor 18 mm de apoio da vizinha - proposta": 363.7351691302765,
+        "B / Frente de correr do maleiro 1": 402.93247396665834,
+        "B / Frente de correr do maleiro 2": 1012.8908645747201,
+        "vizinha / Lateral 18 mm de apoio da principal - proposta R03": 500.36852497075563,
+        "vizinha / Divisor 18 mm de apoio da vizinha - proposta": 4.883783035269943,
+        "vizinha / Frente de correr do maleiro 1": 489.8405739645515,
+        "vizinha / Frente de correr do maleiro 2": 984.9647368452833
+      },
+      "stop_attachment_inferred_body6": [
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        },
+        {
+          "min_gap_mm": 0.5458065023922245,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "invalid": []
+    }
+  ],
+  "hardware_objects_checked": 40,
+  "mechanisms": {
+    "main": "6 links / 7 axes inferred from STEP",
+    "fold": "CAD pivot with adjustment locked",
+    "neighbour": "4 links / 4 axes inferred from STEP"
+  },
+  "scope": "Sólidos CAD e mecanismos reconstruidos. Nao inclui extremos de regulagem, carga, tolerancias ou homologacao da Blum.",
+  "new_geometry": "A/B396, caneco uniao12.5, suporte principal18, divisor vizinha18; variantes propostas."
+}

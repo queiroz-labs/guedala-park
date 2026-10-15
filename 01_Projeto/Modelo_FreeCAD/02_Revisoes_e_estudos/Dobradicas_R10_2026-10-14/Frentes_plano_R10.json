@@ -1,0 +1,410 @@
+[
+  {
+    "door": "Folha004",
+    "module": "Modulo004",
+    "side": "left",
+    "module_base": [
+      4480.0,
+      6390.0,
+      180.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 650.0,
+    "H": 720.0,
+    "front_width": 322.0,
+    "front_thickness": 18.0,
+    "front_height": 718.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      322.0,
+      18.0,
+      718.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha005",
+    "module": "Modulo004",
+    "side": "right",
+    "module_base": [
+      4480.0,
+      6390.0,
+      180.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 650.0,
+    "H": 720.0,
+    "front_width": 322.0,
+    "front_thickness": 18.0,
+    "front_height": 718.0,
+    "front_local_box": [
+      -322.0,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      718.0
+    ],
+    "closed_leaf_base": [
+      648.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha006",
+    "module": "Modulo008",
+    "side": "left",
+    "module_base": [
+      3855.0,
+      6650.0,
+      1958.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 650.0,
+    "H": 592.0,
+    "front_width": 322.0,
+    "front_thickness": 18.0,
+    "front_height": 590.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      322.0,
+      18.0,
+      590.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha007",
+    "module": "Modulo008",
+    "side": "right",
+    "module_base": [
+      3855.0,
+      6650.0,
+      1958.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 650.0,
+    "H": 592.0,
+    "front_width": 322.0,
+    "front_thickness": 18.0,
+    "front_height": 590.0,
+    "front_local_box": [
+      -322.0,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      590.0
+    ],
+    "closed_leaf_base": [
+      648.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha008",
+    "module": "Modulo009",
+    "side": "left",
+    "module_base": [
+      4505.0,
+      6650.0,
+      1532.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 547.0,
+    "H": 1018.0,
+    "front_width": 270.5,
+    "front_thickness": 18.0,
+    "front_height": 1016.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      270.5,
+      18.0,
+      1016.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha009",
+    "module": "Modulo009",
+    "side": "right",
+    "module_base": [
+      4505.0,
+      6650.0,
+      1532.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 547.0,
+    "H": 1018.0,
+    "front_width": 270.5,
+    "front_thickness": 18.0,
+    "front_height": 1016.0,
+    "front_local_box": [
+      -270.5,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      1016.0
+    ],
+    "closed_leaf_base": [
+      545.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha010",
+    "module": "Modulo010",
+    "side": "left",
+    "module_base": [
+      5052.0,
+      6650.0,
+      1940.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 697.0,
+    "H": 610.0,
+    "front_width": 345.5,
+    "front_thickness": 18.0,
+    "front_height": 608.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      345.5,
+      18.0,
+      608.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha011",
+    "module": "Modulo010",
+    "side": "right",
+    "module_base": [
+      5052.0,
+      6650.0,
+      1940.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 697.0,
+    "H": 610.0,
+    "front_width": 345.5,
+    "front_thickness": 18.0,
+    "front_height": 608.0,
+    "front_local_box": [
+      -345.5,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      608.0
+    ],
+    "closed_leaf_base": [
+      695.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha012",
+    "module": "Modulo011",
+    "side": "left",
+    "module_base": [
+      5749.0,
+      6650.0,
+      1966.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 801.0,
+    "H": 584.0,
+    "front_width": 397.5,
+    "front_thickness": 18.0,
+    "front_height": 582.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      397.5,
+      18.0,
+      582.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha013",
+    "module": "Modulo011",
+    "side": "right",
+    "module_base": [
+      5749.0,
+      6650.0,
+      1966.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 801.0,
+    "H": 584.0,
+    "front_width": 397.5,
+    "front_thickness": 18.0,
+    "front_height": 582.0,
+    "front_local_box": [
+      -397.5,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      582.0
+    ],
+    "closed_leaf_base": [
+      799.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha014",
+    "module": "Modulo014",
+    "side": "left",
+    "module_base": [
+      3020.0,
+      6650.0,
+      1650.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 835.0,
+    "H": 580.0,
+    "front_width": 414.5,
+    "front_thickness": 18.0,
+    "front_height": 578.0,
+    "front_local_box": [
+      0.0,
+      0.0,
+      0.0,
+      414.5,
+      18.0,
+      578.0
+    ],
+    "closed_leaf_base": [
+      2.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "door": "Folha015",
+    "module": "Modulo014",
+    "side": "right",
+    "module_base": [
+      3020.0,
+      6650.0,
+      1650.0
+    ],
+    "module_rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "W": 835.0,
+    "H": 580.0,
+    "front_width": 414.5,
+    "front_thickness": 18.0,
+    "front_height": 578.0,
+    "front_local_box": [
+      -414.5,
+      0.0,
+      0.0,
+      0.0,
+      18.0,
+      578.0
+    ],
+    "closed_leaf_base": [
+      833.0,
+      0.0,
+      1.0
+    ]
+  }
+]

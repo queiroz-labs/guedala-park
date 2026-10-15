@@ -1,0 +1,16 @@
+﻿ID;Referencia;Quantidade_do_estudo;Aplicacao;Classificacao;Limite
+F01;Blum71B3550;54 conjuntos;26 portas:24 comuns +2 canto;"Referência oficial; quantidade/montagem candidata";"R10:24; R18:16; R12:10; R04:4. Não somar R11 antigo ou71B3650 aposentada."
+F02;Blum173H7100;54 calços;Um por dobradiça F01;"Referência oficial; aplicação proposta";"Calço0, recobrimentos/K conforme cada montagem; parafusos/apoio a conferir."
+F03;Blum70T3553;Quantidade executiva não definida;Portas com estudo86°;"Referência oficial; encaixe/batente pendentes";"Fabricante orienta todas as dobradiças da folha;54 seria cenário para equipar todas as F01, não lista de compra."
+F04;MOVENTO NL500 /40kg candidato;7 pares;4 roupeiro + G1/G2/G3;"Fontes oficiais; 6 aplicações parametrizadas +G2 configurada";"Curso roupeiro400/cozinha500. Sólidos estáticos, não telescópio; carga inclui caixa/frente/conteúdo."
+F05;MOVENTO NL400 /40kg candidato;2 pares;Escritório;"Fontes oficiais; aplicações propostas";Curso400. Capacidade/fixação individuais a confirmar.
+F06;BlumT51.7600;9 pares /18 travas;Nove gavetas F04/F05;"Referência oficial; aplicação proposta";Par esquerdo/direito por gaveta. Não tratar um par como18 pares.
+F07;RometalRO-62 - carros;8 reservas;"2 carros por folha;4 folhas";"Manual oficial; semSTEP oficial";"Dimensões dos carros são hipotéticas;60kg/porta não é capacidade por carro."
+F08;Guia Flex / freios / retenções;8 /8 /8 reservas;Roupeiro e maleiro;"Manual e reservas; kit exato pendente";Aplicação maleiro baixo/largo não comprovada. Não fabricar peças pelos gabaritos.
+F09;RM-025 superior / RM-023 inferior;4 /4 trechos modelados;Duas vias em cada um dos2 módulos;"Larguras oficiais; seções restantes hipotéticas";Contagem de trechos CAD, não barras comerciais ou comprimentos de compra.
+F10;Rodízio fixo de silicone;6 gabaritos;Gaveta baixa;Sem produto/composição/carga confirmados;"Roda30/altura39 é estudo; não substituir por PVC nem dividir carga por6 como garantia."
+F11;Guias laterais da baixa;2 faixas propostas;Gaveta baixa;"Peças de marcenaria; não ferragem selecionada";"3mm +2mm de corrida/lado; não são apoios verticais."
+F12;Pivô/retentor do cesto;"2 pinos ideais; retenção a definir";Cesto55°;Gabaritos sem SKU/carga;"PinosØ10x20 não são prescrição de fabricação; apoios/hidráulica reais pendentes."
+F13;Giro/retenção das tampas do banco;"4 eixos ideais; quantidade comercial indefinida";Quatro setores;Sem ferragem executiva selecionada;Não interpretar4eixos como4dobradiças suficientes. Preservar tampas/rotina e carga do assento.
+F14;Pinos das prateleiras do banheiro;A definir;2 prateleiras removíveis;Produto/fixação/carga pendentes;Não atribuir quantidade/capacidade a apoios não selecionados.
+F15;Fixações de parede, apoios, puxadores e vidro;A definir;Todos os módulos aplicáveis;Dependência física/comercial;Substrato, carga, material, adesivo, ferragem e acabamento reais necessários.

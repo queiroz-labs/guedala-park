@@ -1,5 +1,7 @@
 # Mesa extensível — anteprojeto construtivo R00
 
+**Decisão posterior à entrega do tópico 5:** Elias escolheu manter a extensão removível e facilitar sua guarda. Preservar mesa 150/180 × 75, folha central removível e aparência da base. A rotina de retirar almofada e abrir o assento deixa de ser a direção prioritária para desenvolvimento. Estudar acesso independente, começando pela ponta do banco voltada à cozinha; essa localização ainda não foi escolhida nem validada. A R30 tem lateral inteira nesse extremo (Peca406, 18 mm): não existe abertura pronta, e abrir passagem exige rever suporte do assento, ligações, acabamento e percurso exterior da folha. Uma retirada longitudinal pede liberar aproximadamente o comprimento da folha (750 mm), mais espaço para manuseio, a conferir no apartamento. Acesso, porta, ferragem e medidas permanecem em estudo; o aceite da direção não altera a R30 nem libera corte.
+
 **Consolidação de 30/09:** [mesa completa — HTML](../Compatibilizacao_2026-09-30/Mesa_completa.html). Proposta de operação com apoio temporário no assento do banco; substitui a direção anterior sobre metade móvel. Medidas executivas e protótipo ainda necessários.
 
 **Atualização — direção aceita em 23/09/2026:** Elias autorizou salvar a proposta e atualizar o site com 150/180. Armazenamento da folha no banco passa a direção aceita para desenvolvimento; nicho, acesso, ferragem, base e conforto seguem a validar. As menções abaixo a alternativa ainda não aprovada descrevem o momento inicial da proposta e ficam superadas por este registro.
@@ -96,3 +98,9 @@ Base interna: [estudo anterior](Mesa_extensivel_estudo_2026-09-22.md), [mesa e c
 
 
 **30/09 — apoio temporário desenvolvido:** [posição sobre uma metade e montagem](../Compatibilizacao_2026-09-30/Apoio_folha.md). Percurso geométrico candidato, com recuo temporário de duas cadeiras. Operação com folha apoiada na metade móvel depende de fabricante/protótipo; não libera fabricação.
+
+
+**Estudo da retirada pela ponta concluído:** [planta interativa e abertura hipotética](Retirada_ponta_R30/Estudo_retirada.html). Folha nominal750×300×30 sai e sobe com abertura virtual na lateral; projeção externa770 mm, sobra660 até porta fechada. Reserva CAD800×350×70 projeta820 e deixa610. O operador ocupa essa faixa; passagem simultânea não demonstrada. Abertura de estudo320×40 deixa35 acima do vão na lateral, exigindo redefinição estrutural. Alternativa candidata para operação ocasional com passagem reservada; não adotada automaticamente. R30 preservada.
+
+
+**Acesso pela ponta aceito; reforço e bandeja em proposta:** [novo detalhamento](Retirada_ponta_R30/Bandeja_e_reforcos.html). Requisito do banco confirmado: três pessoas de80 kg (240 kg total), capacidade ainda não demonstrada. Proposta de quadro metálico até o piso, avanço30 mm na ponta e bandeja extraível750; folha desliza mais93 antes de levantar, mantendo672 de apoio. Base do nicho10 mm mais baixa; abertura380×62. Sobra630 até porta fechada. Alterações em estudo separado, sem incorporação à R30/PDF ou seleção final de ferragem.

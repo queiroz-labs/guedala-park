@@ -1,0 +1,49 @@
+{
+  "imports": [
+    {
+      "module": "event_observer",
+      "file": "C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\event_observer.py",
+      "import": "ok"
+    },
+    {
+      "module": "ai_commands",
+      "file": "C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\commands\\ai_commands.py",
+      "import": "ok"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "notificationArea",
+      "class": "QPushButton",
+      "visible": true
+    },
+    {
+      "name": "Selection view",
+      "class": "QDockWidget",
+      "visible": false
+    },
+    {
+      "name": "Model",
+      "class": "QDockWidget",
+      "visible": true
+    },
+    {
+      "name": "Python console",
+      "class": "QDockWidget",
+      "visible": false
+    },
+    {
+      "name": "Report view",
+      "class": "QDockWidget",
+      "visible": false
+    },
+    {
+      "name": "Tasks",
+      "class": "QDockWidget",
+      "visible": true
+    }
+  ],
+  "notification_tables": [],
+  "saveCopy_doc": "Save a copy of the document under a new name to disk",
+  "observer_started_by_validation": false
+}

@@ -1,0 +1,433 @@
+{
+  "step_deg": 0.5,
+  "positions_each": 173,
+  "native_agreement": [
+    {
+      "door": "FolhaEscritorioR11",
+      "angle": 0,
+      "max_error_mm": 0.0
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle": 0,
+      "max_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle": 0,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle": 0,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "Folha",
+      "angle": 0,
+      "max_error_mm": 8.526512829121202e-14
+    },
+    {
+      "door": "Folha001",
+      "angle": 0,
+      "max_error_mm": 2.8421709430404007e-13
+    },
+    {
+      "door": "Folha002",
+      "angle": 0,
+      "max_error_mm": 5.362597410144533e-13
+    },
+    {
+      "door": "VizinhaComumR18",
+      "angle": 0,
+      "max_error_mm": 5.362597410144533e-13
+    },
+    {
+      "door": "PainelSimplesR001",
+      "angle": 0,
+      "max_error_mm": 6.844854043943255e-13
+    },
+    {
+      "door": "PainelSimplesR04",
+      "angle": 0,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "angle": 30,
+      "max_error_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle": 30,
+      "max_error_mm": 4.547473508864641e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle": 30,
+      "max_error_mm": 9.094947017729282e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle": 30,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "Folha",
+      "angle": 30,
+      "max_error_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "Folha001",
+      "angle": 30,
+      "max_error_mm": 2.5421149729252077e-13
+    },
+    {
+      "door": "Folha002",
+      "angle": 30,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "VizinhaComumR18",
+      "angle": 30,
+      "max_error_mm": 6.042538309847401e-13
+    },
+    {
+      "door": "PainelSimplesR001",
+      "angle": 30,
+      "max_error_mm": 1.1368683772161603e-13
+    },
+    {
+      "door": "PainelSimplesR04",
+      "angle": 30,
+      "max_error_mm": 9.374856803373542e-13
+    },
+    {
+      "door": "FolhaEscritorioR11",
+      "angle": 86,
+      "max_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "angle": 86,
+      "max_error_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "angle": 86,
+      "max_error_mm": 5.084229945850415e-13
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "angle": 86,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "Folha",
+      "angle": 86,
+      "max_error_mm": 0.0
+    },
+    {
+      "door": "Folha001",
+      "angle": 86,
+      "max_error_mm": 5.684341886080801e-13
+    },
+    {
+      "door": "Folha002",
+      "angle": 86,
+      "max_error_mm": 3.410605131648481e-13
+    },
+    {
+      "door": "VizinhaComumR18",
+      "angle": 86,
+      "max_error_mm": 6.431098710768743e-13
+    },
+    {
+      "door": "PainelSimplesR001",
+      "angle": 86,
+      "max_error_mm": 4.687428401686771e-13
+    },
+    {
+      "door": "PainelSimplesR04",
+      "angle": 86,
+      "max_error_mm": 1.0725194820289065e-12
+    }
+  ],
+  "pairs": [
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "FolhaEscritorioR001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 3.776479464886279,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "FolhaEscritorioR003"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 1003.7764794648863,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "Folha001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2196.9942290197364,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR11",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969477,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "FolhaEscritorioR002"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2.5940606903011485,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "FolhaEscritorioR003"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 503.1852700775937,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969476,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2196.9942290197364,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "Folha002"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.9966649694766,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969477,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "PainelSimplesR001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2364.335598450822,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR001",
+        "PainelSimplesR04"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2224.2788724188604,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "FolhaEscritorioR003"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 3.7764794648865063,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "Folha001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2196.994229019736,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR002",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969476,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969476,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2196.994229019736,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "Folha002"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969476,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2195.996664969476,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "PainelSimplesR001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2364.3355984508216,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "FolhaEscritorioR003",
+        "PainelSimplesR04"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2224.27887241886,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha",
+        "Folha001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2.738271199661085,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 889.2386138746856,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha001",
+        "Folha002"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 2.594060690301376,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha001",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 445.9163372824935,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha001",
+        "PainelSimplesR001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 916.0759027640108,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha001",
+        "PainelSimplesR04"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 1056.132628795973,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "Folha002",
+        "VizinhaComumR18"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 1.7386138746855977,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "VizinhaComumR18",
+        "PainelSimplesR001"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 27.592647856446547,
+      "intersections": 0
+    },
+    {
+      "pair": [
+        "VizinhaComumR18",
+        "PainelSimplesR04"
+      ],
+      "method": "sampled envelope",
+      "gap_mm": 167.64937388840872,
+      "intersections": 0
+    }
+  ],
+  "static_targets": 230,
+  "static_narrowphase_poses": 0,
+  "static_hits": [],
+  "pair_hits": [],
+  "method": "External numpy SAT of rectangular front envelopes, checked against native FreeCAD positions 0/30/86. Ten fronts include current R04 A/B explicitly. Only pairs and static encounters affected by four R18 changes checked. Planar sweep with height overlap; conservative 2.5D projection of stationary boxes. Excludes retired DivisorApoioVizinhaR03. Not continuous proof, fitting-body collision audit, load, fixation, mechanical stop or tolerance validation. Whole-apartment reflection preserves these ideal geometric distances."
+}

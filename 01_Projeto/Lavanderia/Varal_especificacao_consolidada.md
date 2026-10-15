@@ -1,5 +1,7 @@
 # Varal e chapa — especificação consolidada
 
+**Decisão posterior à entrega do tópico 5:** Elias confirmou manter o quadro inteiro com manivela. Permanecem a grelha de 100 × 50 cm, elevação vertical e chapa visual independente. Referência de manivela removível preservada, a confirmar no produto. Não foram escolhidos motor, varetas individuais ou extração horizontal. Modelo comercial, dimensões totais, curso, retenção, carga útil e fixação ainda dependem de confirmação; os 30 kg continuam meta de estudo, não capacidade aprovada.
+
 Referência atual para detalhamento após aprovação da sequência R10 por Elias. Reúne as escolhas funcionais e os requisitos de mecanismo/instalação, evitando usar como obrigatórias as alternativas históricas de caixa e extração horizontal.
 
 ## Escolhas consolidadas

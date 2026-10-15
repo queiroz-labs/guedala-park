@@ -1,0 +1,304 @@
+{
+  "data": "2026-10-14",
+  "movimentos": [
+    {
+      "origem": "output\\pdf\\Ajuste_gavetas_e_profundidade_roupeiro_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Ajuste_gavetas_e_profundidade_roupeiro_2026-10-12.pdf",
+      "sha256_antes": "36a516ab2649249f4c22e76db52971f4640de664bdebb94b019169398613fa65",
+      "sha256_depois": "36a516ab2649249f4c22e76db52971f4640de664bdebb94b019169398613fa65"
+    },
+    {
+      "origem": "output\\pdf\\Auditoria_dimensional_marcenaria_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Auditoria_dimensional_marcenaria_2026-10-12.pdf",
+      "sha256_antes": "09d749388da5ee431c218c5682a219aa9fb805133e8ca043404366a2feb8d84c",
+      "sha256_depois": "09d749388da5ee431c218c5682a219aa9fb805133e8ca043404366a2feb8d84c"
+    },
+    {
+      "origem": "output\\pdf\\Caderno_visual_Guedala_Park_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Caderno_visual_Guedala_Park_2026-10-12.pdf",
+      "sha256_antes": "5891d142c0e5bd1531ee49dded134eb35c999502d42ce36fd8ce9fd225e73829",
+      "sha256_depois": "5891d142c0e5bd1531ee49dded134eb35c999502d42ce36fd8ce9fd225e73829"
+    },
+    {
+      "origem": "output\\pdf\\Canto_quarto_FreeCAD_R03_2026-10-13.pdf",
+      "destino": "05_Entregas\\pdf\\Canto_quarto_FreeCAD_R03_2026-10-13.pdf",
+      "sha256_antes": "9f46e530f39092a74e76465441776b85a7550fc2f105bbb4af463f3e741b236a",
+      "sha256_depois": "9f46e530f39092a74e76465441776b85a7550fc2f105bbb4af463f3e741b236a"
+    },
+    {
+      "origem": "output\\pdf\\Guedala_R28_Ferragens_sequencias_conferencia.pdf",
+      "destino": "05_Entregas\\pdf\\Guedala_R28_Ferragens_sequencias_conferencia.pdf",
+      "sha256_antes": "6e4325781e575dc85ba2f37cdb1eb2518d8946ab1da7bfeab25af8e107b1e87e",
+      "sha256_depois": "6e4325781e575dc85ba2f37cdb1eb2518d8946ab1da7bfeab25af8e107b1e87e"
+    },
+    {
+      "origem": "output\\pdf\\Guedala_R28_Pranchas_cotadas.pdf",
+      "destino": "05_Entregas\\pdf\\Guedala_R28_Pranchas_cotadas.pdf",
+      "sha256_antes": "98e7c125a6c871d206f0307e4153bf96f78f7e3c9de33cc77edff25baedce1b3",
+      "sha256_depois": "98e7c125a6c871d206f0307e4153bf96f78f7e3c9de33cc77edff25baedce1b3"
+    },
+    {
+      "origem": "output\\pdf\\Pesquisa_Cury_40m2.pdf",
+      "destino": "05_Entregas\\pdf\\Pesquisa_Cury_40m2.pdf",
+      "sha256_antes": "9123b0ac10dcdebf5868d7d8f0b39c01560eea2c46f5bbdf1818af1c2814d30d",
+      "sha256_depois": "9123b0ac10dcdebf5868d7d8f0b39c01560eea2c46f5bbdf1818af1c2814d30d"
+    },
+    {
+      "origem": "output\\pdf\\Quarto_armario_em_L_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Quarto_armario_em_L_2026-10-12.pdf",
+      "sha256_antes": "1ba844dcbc823160662302ebe2757bdb567333f10b8eaa3a5c295ec2ff7be53a",
+      "sha256_depois": "1ba844dcbc823160662302ebe2757bdb567333f10b8eaa3a5c295ec2ff7be53a"
+    },
+    {
+      "origem": "output\\pdf\\Quarto_canto_independente_R01_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Quarto_canto_independente_R01_2026-10-12.pdf",
+      "sha256_antes": "186756b64f9e43b6ec110d3bbe809d032aacb1278c1aa887c4a0969c42bee6ca",
+      "sha256_depois": "186756b64f9e43b6ec110d3bbe809d032aacb1278c1aa887c4a0969c42bee6ca"
+    },
+    {
+      "origem": "output\\pdf\\Quarto_conferencia_giro_R02_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Quarto_conferencia_giro_R02_2026-10-12.pdf",
+      "sha256_antes": "4cc46c90183a3461dff6412eb263271c8ddd770bad27ecdd4ddfa45f9c70943e",
+      "sha256_depois": "4cc46c90183a3461dff6412eb263271c8ddd770bad27ecdd4ddfa45f9c70943e"
+    },
+    {
+      "origem": "output\\pdf\\Renders_dos_ambientes_2026-10-12.pdf",
+      "destino": "05_Entregas\\pdf\\Renders_dos_ambientes_2026-10-12.pdf",
+      "sha256_antes": "6b587c0dd48953569c3ba3fcf5c33a949009a0c6c17a62b50c589c11494e5ab2",
+      "sha256_depois": "6b587c0dd48953569c3ba3fcf5c33a949009a0c6c17a62b50c589c11494e5ab2"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\aplicar_compatibilidade.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\aplicar_compatibilidade.py",
+      "sha256_antes": "aa286c309081bfe10ee6c7904641892e2984e3e7ab46a9650dd868bf1c52bcaa",
+      "sha256_depois": "aa286c309081bfe10ee6c7904641892e2984e3e7ab46a9650dd868bf1c52bcaa"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Compatibilidade_aplicada.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Compatibilidade_aplicada.json",
+      "sha256_antes": "340876037c263a07c73c027e192cc744e9131de69cd8c34a8bc830ae6dec1369",
+      "sha256_depois": "340876037c263a07c73c027e192cc744e9131de69cd8c34a8bc830ae6dec1369"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Erros_interface.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Erros_interface.json",
+      "sha256_antes": "74956b22c27df6e7b881b8f08a9d717f91a9fa5bb3f2281f12fd0ee38ab5ff94",
+      "sha256_depois": "74956b22c27df6e7b881b8f08a9d717f91a9fa5bb3f2281f12fd0ee38ab5ff94"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Imports_paineis.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Imports_paineis.json",
+      "sha256_antes": "ec83fd4ff345dbe397ccfc6032a232dfbe27aff754897d69289102e19e00477a",
+      "sha256_depois": "ec83fd4ff345dbe397ccfc6032a232dfbe27aff754897d69289102e19e00477a"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\ler_erros_interface.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\ler_erros_interface.py",
+      "sha256_antes": "0da142a6124644db49731a259d3414310274062355a280658e6375b26259490b",
+      "sha256_depois": "0da142a6124644db49731a259d3414310274062355a280658e6375b26259490b"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\limpar_historico_validar.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\limpar_historico_validar.py",
+      "sha256_antes": "e377f31d29dcf4e8d80ae354fd8e4d0cc96e4469d86f85d82d5ee656aab14bef",
+      "sha256_depois": "e377f31d29dcf4e8d80ae354fd8e4d0cc96e4469d86f85d82d5ee656aab14bef"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Notificacoes_antes.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Notificacoes_antes.json",
+      "sha256_antes": "cc67ee4da495fa93fe3ffba7ce9015eb52a67d37f4150527b0578e76b749afd1",
+      "sha256_depois": "cc67ee4da495fa93fe3ffba7ce9015eb52a67d37f4150527b0578e76b749afd1"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\README.md",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\README.md",
+      "sha256_antes": "64a369559068460550abdae1e53fbacdfd37722cecd23fa619066c07b86c260f",
+      "sha256_depois": "bd553a926958848ec67422cb8f3e03f2be17fdf391816af7c7d341d6c0574bd8"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\resumir_erros.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\resumir_erros.py",
+      "sha256_antes": "27b90c1d5033d59d7b56a31a742dbd7f59e6c71b90481716d8a4477af23a7178",
+      "sha256_depois": "27b90c1d5033d59d7b56a31a742dbd7f59e6c71b90481716d8a4477af23a7178"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Resumo_erros.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Resumo_erros.json",
+      "sha256_antes": "a255845b412bfb2ed34362e5666feb1f42afd56466ce09939cf222b4e95bda02",
+      "sha256_depois": "a255845b412bfb2ed34362e5666feb1f42afd56466ce09939cf222b4e95bda02"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Validacao_interface_limpa.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Validacao_interface_limpa.json",
+      "sha256_antes": "f8dbbb5a6ac909392924cd29802e660cc3bcaff706beb8cbce0444fa7dbbc797",
+      "sha256_depois": "f8dbbb5a6ac909392924cd29802e660cc3bcaff706beb8cbce0444fa7dbbc797"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Validacao_notificacoes_final.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Validacao_notificacoes_final.json",
+      "sha256_antes": "5e6e856c2ffbd2d70b1280a22969e3f484d53c900ac045aee3b695624c2ed006",
+      "sha256_depois": "5e6e856c2ffbd2d70b1280a22969e3f484d53c900ac045aee3b695624c2ed006"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\validar_imports_e_paineis.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\validar_imports_e_paineis.py",
+      "sha256_antes": "14a95be2ef4bcced78ddab14f00055101e4f490c92a2e208c021b29b62330892",
+      "sha256_depois": "14a95be2ef4bcced78ddab14f00055101e4f490c92a2e208c021b29b62330892"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Backup_addon\\ai_commands.py.antes.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Backup_addon\\ai_commands.py.antes.py",
+      "sha256_antes": "2b20b0fccf7cdeb7513fde04f8b7a91b2ef4fb2a1e614ce07182f084b68701c8",
+      "sha256_depois": "2b20b0fccf7cdeb7513fde04f8b7a91b2ef4fb2a1e614ce07182f084b68701c8"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Backup_addon\\event_observer.py.antes.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Backup_addon\\event_observer.py.antes.py",
+      "sha256_antes": "e8cd305ad5c6d43d585e4060bfd0e190d6bebddb2879850a190319eec9bd9c06",
+      "sha256_depois": "e8cd305ad5c6d43d585e4060bfd0e190d6bebddb2879850a190319eec9bd9c06"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\ai_commands.py.proposto",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\ai_commands.py.proposto",
+      "sha256_antes": "a304ba4ff69b3b4a2351bc39a896c9739245feef8443f2f753a56182717ea854",
+      "sha256_depois": "a304ba4ff69b3b4a2351bc39a896c9739245feef8443f2f753a56182717ea854"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\Compatibilidade_Qt.patch",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\Compatibilidade_Qt.patch",
+      "sha256_antes": "2465cd706242abd9fb6ecc1f4442e14685fbeaad04b4100a0cbee906b6089bf7",
+      "sha256_depois": "2465cd706242abd9fb6ecc1f4442e14685fbeaad04b4100a0cbee906b6089bf7"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\Diagnostico_Qt.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\Diagnostico_Qt.json",
+      "sha256_antes": "e83cd85c6f825d6b373390ef94be3724debfac41f9c3bab99edd966bd0407adc",
+      "sha256_depois": "e83cd85c6f825d6b373390ef94be3724debfac41f9c3bab99edd966bd0407adc"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\event_observer.py.proposto",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\event_observer.py.proposto",
+      "sha256_antes": "b8728d79deb8c83930184ad2f1af8d199b85fac8ddc68aa896981eac0003b093",
+      "sha256_depois": "b8728d79deb8c83930184ad2f1af8d199b85fac8ddc68aa896981eac0003b093"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\preparar_patch.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\preparar_patch.py",
+      "sha256_antes": "ec7e3a8c232f510afec5ef009da6a2daf04131e181d6b72817362bc8bb9bec6d",
+      "sha256_depois": "ec7e3a8c232f510afec5ef009da6a2daf04131e181d6b72817362bc8bb9bec6d"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\README.md",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\README.md",
+      "sha256_antes": "e8b879e461d82641e580b92a57ffed1b2d516cd2b272dac4f1e0521e18bd8aea",
+      "sha256_depois": "e8b879e461d82641e580b92a57ffed1b2d516cd2b272dac4f1e0521e18bd8aea"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\verificar_api.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_addon\\verificar_api.py",
+      "sha256_antes": "9c0897fc43845808876346f6b4566effac7d75b52560dcd127c85ed97cd2f9ec",
+      "sha256_depois": "9c0897fc43845808876346f6b4566effac7d75b52560dcd127c85ed97cd2f9ec"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Ligacoes_e_historico_R25.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Ligacoes_e_historico_R25.json",
+      "sha256_antes": "4fd54f7ea4a565c2312ec2d8494c3385a6f9132b51aecfc7b0f8bac1c7e1eaa4",
+      "sha256_depois": "4fd54f7ea4a565c2312ec2d8494c3385a6f9132b51aecfc7b0f8bac1c7e1eaa4"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Probe_console_R25.log",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Probe_console_R25.log",
+      "sha256_antes": "a806433c4e6d56b7e26551eb0efe63ba569b2bb8786608217e5ee9c827457119",
+      "sha256_depois": "a806433c4e6d56b7e26551eb0efe63ba569b2bb8786608217e5ee9c827457119"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_scope.py",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_scope.py",
+      "sha256_antes": "eb869ca962281a506696033bba38712b682d5fa0e1f46bbefbaef69efdaf83e3",
+      "sha256_depois": "361a3d5b697446c834911d85eef7464f7222b1124f2a878564995b9f6fa268d2"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Probe_scope_R25.json",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\Probe_scope_R25.json",
+      "sha256_antes": "3aa0663e548d851f2fcf72c650a212ae86e04f170f457d773281c6ad8c4e6189",
+      "sha256_depois": "3aa0663e548d851f2fcf72c650a212ae86e04f170f457d773281c6ad8c4e6189"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_system.cfg",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_system.cfg",
+      "sha256_antes": "68d59f8342d609f53a8a43a4ab309fbfa76c0fa48c20a9e8eb729c487370cd24",
+      "sha256_depois": "68d59f8342d609f53a8a43a4ab309fbfa76c0fa48c20a9e8eb729c487370cd24"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_user.cfg",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_user.cfg",
+      "sha256_antes": "71db061174865ad3f2e24cfc3a6dfdcea4e54b8e7cffc8d141fec37391b2aafb",
+      "sha256_depois": "71db061174865ad3f2e24cfc3a6dfdcea4e54b8e7cffc8d141fec37391b2aafb"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\README.md",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\README.md",
+      "sha256_antes": "a55d5b59eeb36dde7fe3c9e10667a7b168a5794c356b4f2bf2e50966fe22b87d",
+      "sha256_depois": "a55d5b59eeb36dde7fe3c9e10667a7b168a5794c356b4f2bf2e50966fe22b87d"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Recuperacao_memoria\\TesteEspelhoGrupoR19.FCStd",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Recuperacao_memoria\\TesteEspelhoGrupoR19.FCStd",
+      "sha256_antes": "08f17dbda588bd1def09ed8d4ed4899f661a506be1bc369f5c58ba7b4ceb9de0",
+      "sha256_depois": "08f17dbda588bd1def09ed8d4ed4899f661a506be1bc369f5c58ba7b4ceb9de0"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Recuperacao_memoria\\TesteEspelhoR19.FCStd",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Recuperacao_memoria\\TesteEspelhoR19.FCStd",
+      "sha256_antes": "842174d1243e0ca38dc357db265aa698458af17e85aaee7d357a0d0f8613c541",
+      "sha256_depois": "842174d1243e0ca38dc357db265aa698458af17e85aaee7d357a0d0f8613c541"
+    },
+    {
+      "origem": "Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\__pycache__\\probe_scope.cpython-311.pyc",
+      "destino": "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\__pycache__\\probe_scope.cpython-311.pyc",
+      "sha256_antes": "93e5a906db88170c9fd04f7ac37a942e787d55d193a9fc64efc8d0b7ed003926",
+      "sha256_depois": "93e5a906db88170c9fd04f7ac37a942e787d55d193a9fc64efc8d0b7ed003926"
+    }
+  ],
+  "textos_atualizados": [
+    "README.md",
+    "01_Projeto\\Painel_de_decisoes.md",
+    "01_Projeto\\Registro_de_decisoes.md",
+    "01_Projeto\\Resumo.md",
+    "tmp\\registrar_ajuste_profundidades.py",
+    "tmp\\registrar_auditoria_dimensional.py",
+    "tmp\\registrar_canto_independente.py",
+    "tmp\\registrar_giro_canto_R02.py",
+    "01_Projeto\\Auditoria_dimensional_2026-10-12\\gerar_ajuste_profundidades.py",
+    "01_Projeto\\Auditoria_dimensional_2026-10-12\\gerar_auditoria.py",
+    "01_Projeto\\Caderno_visual_2026-10-12\\gerar_caderno.py",
+    "01_Projeto\\Cozinha\\Interior_gavetas_2026-09-25.md",
+    "01_Projeto\\Escritorio\\Setup_e_caixa_R10.md",
+    "01_Projeto\\Portas_e_quarto\\Aereos_continuos_quarto_2026-09-25.md",
+    "01_Projeto\\Portas_e_quarto\\gerar_canto_articulado_2026-10-12.py",
+    "01_Projeto\\Portas_e_quarto\\gerar_conferencia_giro_R02.py",
+    "01_Projeto\\Portas_e_quarto\\gerar_encontro_L_2026-10-12.py",
+    "01_Projeto\\Portas_e_quarto\\Guarda_roupa_interior_R02.md",
+    "01_Projeto\\Portas_e_quarto\\README.md",
+    "01_Projeto\\Compatibilizacao_2026-10-06\\evidencias\\README_principal_antes.md",
+    "01_Projeto\\Modelo_FreeCAD\\Canto_2026-10-13\\gerar_prancha.py",
+    "01_Projeto\\Modelo_FreeCAD\\Canto_2026-10-13\\README.md",
+    "01_Projeto\\Modelo_FreeCAD\\Detalhamento_documental_R28_2026-10-14\\gerar_entregas.py",
+    "01_Projeto\\Modelo_FreeCAD\\Detalhamento_documental_R28_2026-10-14\\Indice_entregas_R28.html",
+    "01_Projeto\\Modelo_FreeCAD\\Detalhamento_documental_R28_2026-10-14\\README.md",
+    "01_Projeto\\Modelo_FreeCAD\\Detalhamento_documental_R28_2026-10-14\\Verificacao_entregas.json",
+    "01_Projeto\\Modelo_FreeCAD\\Canto_2026-10-13\\Cinematica_R03\\Estado_noturno.md",
+    "03_Referencias\\Renders_2026-10-12\\gerar_caderno.py",
+    "99_Arquivo\\Erros_FreeCAD_2026-10-14\\README.md",
+    "99_Arquivo\\Unificacao_2026-09-25\\Inventario_antes.json",
+    "99_Arquivo\\Erros_FreeCAD_2026-10-14\\Diagnostico_scope\\probe_scope.py",
+    "tmp\\documentacao-push\\README.md",
+    "tmp\\pages-publication\\README.md",
+    "tmp\\pages-r03\\README.md",
+    "tmp\\pesquisa_cury\\montar_relatorio.py",
+    "tmp\\site-amigavel\\README.md",
+    "tmp\\unificacao\\inventario_antes.json",
+    "tmp\\pdfs\\memorial_cury\\atualizar_projeto.py"
+  ],
+  "exclusoes": []
+}

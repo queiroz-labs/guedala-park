@@ -1,0 +1,15 @@
+{
+  "canonical_sha256": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+  "modules": 20,
+  "module_pieces": 774,
+  "hinge_assemblies": 54,
+  "plates": 54,
+  "hardware_rows": 15,
+  "sequences": 10,
+  "document_audit_rows": 9,
+  "pdfs": [
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\output\\pdf\\Guedala_R28_Pranchas_cotadas.pdf",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\output\\pdf\\Guedala_R28_Ferragens_sequencias_conferencia.pdf"
+  ],
+  "cad_changed": false
+}

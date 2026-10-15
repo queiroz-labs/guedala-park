@@ -1,0 +1,78 @@
+{
+  "shelves": [
+    {
+      "name": "PrateleiraEspelhadoR12",
+      "dimensions_mm": [
+        560,
+        104,
+        18
+      ],
+      "position_mm": [
+        20.0,
+        26.0,
+        244.0
+      ],
+      "valid": true
+    },
+    {
+      "name": "PrateleiraEspelhadoR001",
+      "dimensions_mm": [
+        560,
+        104,
+        18
+      ],
+      "position_mm": [
+        20.0,
+        26.0,
+        488.0
+      ],
+      "valid": true
+    }
+  ],
+  "nominal_clear_height_each_mm": 226,
+  "side_front_rear_clearances_mm": 2,
+  "static_hits": [],
+  "changed_cases": [
+    {
+      "door": "FolhaBanheiroR002",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR002",
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "door": "FolhaBanheiroR003",
+      "angle": 86,
+      "hits": []
+    }
+  ],
+  "scope": "Duas prateleiras removíveis propostas, três níveis nominais226. Pinos/furação/carga não modelados nem liberados; não reserva tubulação por assumir rota hidráulica."
+}

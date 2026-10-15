@@ -1,0 +1,328 @@
+[
+  {
+    "rows": 64,
+    "columns": 3,
+    "cells": [
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 290, in run_path\n  File \"<frozen runpy>\", line 259, in _get_code_from_file\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py\", line 57\n    elif name=='Cesto':\n    ^^^^\nSyntaxError: invalid syntax"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: invalid syntax (C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py, line 57)"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 290, in run_path\n  File \"<frozen runpy>\", line 259, in _get_code_from_file\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py\", line 57\n    elif name=='Cesto':\n    ^^^^\nSyntaxError: invalid syntax"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: invalid syntax (C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py, line 57)"
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 290, in run_path\n  File \"<frozen runpy>\", line 259, in _get_code_from_file\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py\", line 57\n    elif name=='Cesto':\n    ^^^^\nSyntaxError: invalid syntax"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: invalid syntax (C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py, line 57)"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 290, in run_path\n  File \"<frozen runpy>\", line 259, in _get_code_from_file\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py\", line 57\n    elif name=='Cesto':\n    ^^^^\nSyntaxError: invalid syntax"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: invalid syntax (C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Vistas_R21_2026-10-14/preparar_vistas.py, line 57)"
+      ],
+      [
+        "None",
+        "",
+        "App::DocumentObjectGroup: Link(s) to object(s) 'Gaveta' go out of the allowed scope 'ControlesAmbienteR21'. Instead, the linked object(s) reside within 'Modulo EspelhoPecaR013'."
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Controles_R21_2026-10-14/organizar_controles.py\", line 45, in <module>\n    add(key,n,{'Extensao':'0–530 mm de estudo' if i==7 else f'0–{int(o.CursoNominal.Value)} mm de estudo'},note)\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Controles_R21_2026-10-14/organizar_controles.py\", line 23, in add\n    assert o.getParentGeoFeatureGroup()==previous,(name,'Pai geométrico alterado')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Gaveta', 'Pai geométrico alterado')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: ('Gaveta', 'Pai geométrico alterado')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Controles_R21_2026-10-14/organizar_controles.py\", line 45, in <module>\n    add(key,n,{'Extensao':'0–530 mm de estudo' if i==7 else f'0–{int(o.CursoNominal.Value)} mm de estudo'},note)\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Controles_R21_2026-10-14/organizar_controles.py\", line 23, in add\n    assert o.getParentGeoFeatureGroup()==previous,(name,'Pai geométrico alterado')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Gaveta', 'Pai geométrico alterado')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: ('Gaveta', 'Pai geométrico alterado')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R20_2026-10-14/visibilidade_atual.py\", line 43, in <module>\n    assert max(abs(x-y) for x,y in zip(actual,sample['mirrored_bbox']))<1e-6\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error:"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R20_2026-10-14/visibilidade_atual.py\", line 43, in <module>\n    assert max(abs(x-y) for x,y in zip(actual,sample['mirrored_bbox']))<1e-6\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed:"
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 1, in <module>\nNameError: name 'd' is not defined"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: name 'd' is not defined"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 1, in <module>\nNameError: name 'd' is not defined"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: name 'd' is not defined"
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/finalizar_composicao.py\", line 29, in <module>\n    linked=mirror.getSubObject(path);assert linked is not None,(n,path)\n                                            ^^^^^^^^^^^^^^^^^^\nAssertionError: ('Modulo016', 'FonteAmbienteR001.Modulo016.')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: ('Modulo016', 'FonteAmbienteR001.Modulo016.')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/finalizar_composicao.py\", line 29, in <module>\n    linked=mirror.getSubObject(path);assert linked is not None,(n,path)\n                                            ^^^^^^^^^^^^^^^^^^\nAssertionError: ('Modulo016', 'FonteAmbienteR001.Modulo016.')"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: ('Modulo016', 'FonteAmbienteR001.Modulo016.')"
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes019' go out of the allowed scope 'Modulo019'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes018' go out of the allowed scope 'Modulo018'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes017' go out of the allowed scope 'Modulo017'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes016' go out of the allowed scope 'Modulo016'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes015' go out of the allowed scope 'Modulo015'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes013' go out of the allowed scope 'Modulo013'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes007' go out of the allowed scope 'Modulo007'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes005' go out of the allowed scope 'Modulo005'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes001 ControleCanto' go out of the allowed scope 'Modulo001'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes' go out of the allowed scope 'Modulo'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 84, in <module>\n    linked=mirror.getSubObject(path);new=bb(linked)\n                                         ^^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 22, in bb\n    b=s.optimalBoundingBox();return [b.XMin,b.YMin,b.ZMin,b.XLength,b.YLength,b.ZLength]\n      ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'optimalBoundingBox'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: 'NoneType' object has no attribute 'optimalBoundingBox'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 84, in <module>\n    linked=mirror.getSubObject(path);new=bb(linked)\n                                         ^^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 22, in bb\n    b=s.optimalBoundingBox();return [b.XMin,b.YMin,b.ZMin,b.XLength,b.YLength,b.ZLength]\n      ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'optimalBoundingBox'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: 'NoneType' object has no attribute 'optimalBoundingBox'"
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes019' go out of the allowed scope 'Modulo019'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes018' go out of the allowed scope 'Modulo018'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes017' go out of the allowed scope 'Modulo017'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes016' go out of the allowed scope 'Modulo016'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes015' go out of the allowed scope 'Modulo015'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes014' go out of the allowed scope 'Modulo014'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes013' go out of the allowed scope 'Modulo013'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes011' go out of the allowed scope 'Modulo011'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes010' go out of the allowed scope 'Modulo010'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes009' go out of the allowed scope 'Modulo009'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes008' go out of the allowed scope 'Modulo008'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes007' go out of the allowed scope 'Modulo007'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes005' go out of the allowed scope 'Modulo005'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes004' go out of the allowed scope 'Modulo004'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes003' go out of the allowed scope 'Modulo003'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes002' go out of the allowed scope 'Modulo002'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes001 ControleCanto' go out of the allowed scope 'Modulo001'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "App::Part: Link(s) to object(s) 'Dimensoes' go out of the allowed scope 'Modulo'. Instead, the linked object(s) reside within 'N/A'."
+      ],
+      [
+        "None",
+        "",
+        "EXEC TRACEBACK: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2252, in _execute_python\n    raise exec_error\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 19, in <module>\n    old_world={o.Name:matrix(o) for o in original_roots}\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 19, in <dictcomp>\n    old_world={o.Name:matrix(o) for o in original_roots}\n                      ^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 15, in matrix\n    def matrix(o):return list(o.getGlobalPlacement().Matrix.A)\n                              ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'App.DocumentObjectGroup' object has no attribute 'getGlobalPlacement'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC ERROR: Python execution error: 'App.DocumentObjectGroup' object has no attribute 'getGlobalPlacement'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Traceback: Traceback (most recent call last):\n  File \"C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\socket_server.py\", line 2247, in _execute_python\n    exec(code, exec_context)\n  File \"<string>\", line 2, in <module>\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 19, in <module>\n    old_world={o.Name:matrix(o) for o in original_roots}\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 19, in <dictcomp>\n    old_world={o.Name:matrix(o) for o in original_roots}\n                      ^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Apartamento_espelhado_R19_2026-10-14/espelhar_apartamento.py\", line 15, in matrix\n    def matrix(o):return list(o.getGlobalPlacement().Matrix.A)\n                              ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'App.DocumentObjectGroup' object has no attribute 'getGlobalPlacement'"
+      ],
+      [
+        "None",
+        "",
+        "EXEC: Code execution failed: 'App.DocumentObjectGroup' object has no attribute 'getGlobalPlacement'"
+      ],
+      [
+        "None",
+        "",
+        "Original project file is corrupted:  \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Equipamentos_R17_2026-10-14/Guedala_Park_R17_Equipamentos.FCStd\""
+      ],
+      [
+        "None",
+        "",
+        "Error reading from file"
+      ],
+      [
+        "None",
+        "",
+        "❌ Event observer error: No module named 'PySide2'"
+      ]
+    ]
+  }
+]

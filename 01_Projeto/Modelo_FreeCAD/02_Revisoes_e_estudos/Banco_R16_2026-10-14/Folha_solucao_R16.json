@@ -1,0 +1,105 @@
+{
+  "closed_lid_pad_bbox_delta_mm": 0.0,
+  "new_last_cushion_continuous_route": [
+    {
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        60,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "start": [
+        60,
+        0
+      ],
+      "end": [
+        60,
+        873
+      ],
+      "hits": []
+    },
+    {
+      "start": [
+        60,
+        873
+      ],
+      "end": [
+        50,
+        873
+      ],
+      "hits": []
+    }
+  ],
+  "new_last_lid_poses": [
+    {
+      "angle_deg": 0,
+      "hits": []
+    },
+    {
+      "angle_deg": 15,
+      "hits": []
+    },
+    {
+      "angle_deg": 30,
+      "hits": []
+    },
+    {
+      "angle_deg": 45,
+      "hits": []
+    },
+    {
+      "angle_deg": 60,
+      "hits": []
+    },
+    {
+      "angle_deg": 75,
+      "hits": []
+    },
+    {
+      "angle_deg": 90,
+      "hits": []
+    }
+  ],
+  "leaf_back24_then_lift": [
+    {
+      "from": [
+        18.0,
+        40.0,
+        330.0
+      ],
+      "to": [
+        18.0,
+        64.0,
+        330.0
+      ],
+      "hits": []
+    },
+    {
+      "from": [
+        18.0,
+        64.0,
+        330.0
+      ],
+      "to": [
+        18.0,
+        64.0,
+        970.0
+      ],
+      "hits": []
+    }
+  ],
+  "nominal_aperture_depth_mm": 378,
+  "leaf_depth_mm": 350,
+  "leaf_to_table_and_open_lid_gap_mm": 14,
+  "parking_source_v_interval_mm": [
+    100,
+    927
+  ],
+  "source_of_correction": "Complemento_R16: subida direta com assento70 bateu mesa; tampas finas nos outros setores já fazem parte da direção. Nova rotina no setor da folha é proposta, não aceite anterior. Não repetiu28 poses/13 percursos nem alterou tamanho da folha.",
+  "limits": "Caminho de gabarito rígido, não ferragem/estrutura/material/pega/manuseio/pessoa/folha real. Almofada bloqueia os três outros acessos enquanto estacionada; controlar sequência de uso."
+}

@@ -1,0 +1,70 @@
+{
+ "ok": true,
+ "novos": [
+  "CadeiraLinaR30_1",
+  "CadeiraLinaR30_2",
+  "CadeiraLinaR30_3"
+ ],
+ "conferencia_espelho": {
+  "EspelhoPecaR074": {
+   "origem": [
+    6060.0,
+    3930.0,
+    0.0,
+    6530.0,
+    4370.0,
+    940.0
+   ],
+   "espelho": [
+    870.0,
+    3930.0,
+    0.0,
+    1340.0,
+    4370.0,
+    940.0
+   ],
+   "confere": true
+  },
+  "EspelhoPecaR075": {
+   "origem": [
+    5975.0,
+    4430.0,
+    0.0,
+    6445.0,
+    4870.0,
+    940.0
+   ],
+   "espelho": [
+    955.0,
+    4430.0,
+    0.0,
+    1425.0,
+    4870.0,
+    940.0
+   ],
+   "confere": true
+  },
+  "EspelhoPecaR076": {
+   "origem": [
+    6060.0,
+    4930.0,
+    0.0,
+    6530.0,
+    5370.0,
+    940.0
+   ],
+   "espelho": [
+    870.0,
+    4930.0,
+    0.0,
+    1340.0,
+    5370.0,
+    940.0
+   ],
+   "confere": true
+  }
+ },
+ "invalidos": [],
+ "objetos": 6096,
+ "salvo": true
+}

@@ -1,0 +1,2430 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Implantacao_R24_2026-10-14\\Guedala_Park_R24_Implantacao_Corrigida.FCStd",
+  "status": "complete_scoped_complements",
+  "budget_s": 180,
+  "criterion_mm3": 0.1,
+  "bbox_epsilon_mm": 1e-06,
+  "sha256_before": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "tray_segments": [
+    {
+      "tray": "BandejaG2R06",
+      "label": "Bandeja removivel utensílios longos - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "elevar120",
+      "from_local_mm": [
+        43.0,
+        36.0,
+        47.0
+      ],
+      "to_local_mm": [
+        43.0,
+        36.0,
+        167.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R06",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5926.0,
+            628.0,
+            5374.0,
+            6381.0,
+            752.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R005",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5935.0,
+            632.0,
+            5253.0,
+            6245.0,
+            812.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R006",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5935.0,
+            694.0,
+            5263.0,
+            6255.0,
+            839.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R007",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5935.0,
+            632.0,
+            5339.0,
+            6235.0,
+            777.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R008",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5935.0,
+            659.0,
+            5339.0,
+            6235.0,
+            804.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R009",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5935.0,
+            686.0,
+            5359.0,
+            6195.0,
+            848.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R001",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5926.0,
+            632.0,
+            5178.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R002",
+          "swept_bbox_source_mm": [
+            5370.0,
+            5926.0,
+            632.0,
+            5374.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R003",
+          "swept_bbox_source_mm": [
+            5178.0,
+            5926.0,
+            632.0,
+            5370.0,
+            5930.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R004",
+          "swept_bbox_source_mm": [
+            5178.0,
+            6377.0,
+            632.0,
+            5370.0,
+            6381.0,
+            787.0
+          ]
+        }
+      ]
+    },
+    {
+      "tray": "BandejaG2R06",
+      "label": "Bandeja removivel utensílios longos - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "avancar40",
+      "from_local_mm": [
+        43.0,
+        36.0,
+        167.0
+      ],
+      "to_local_mm": [
+        43.0,
+        -4.0,
+        167.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R06",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5886.0,
+            748.0,
+            5374.0,
+            6381.0,
+            752.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R005",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5895.0,
+            752.0,
+            5253.0,
+            6245.0,
+            812.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R006",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5895.0,
+            814.0,
+            5263.0,
+            6255.0,
+            839.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R007",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            752.0,
+            5339.0,
+            6235.0,
+            777.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R008",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            779.0,
+            5339.0,
+            6235.0,
+            804.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R009",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            806.0,
+            5359.0,
+            6195.0,
+            848.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R001",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5886.0,
+            752.0,
+            5178.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R002",
+          "swept_bbox_source_mm": [
+            5370.0,
+            5886.0,
+            752.0,
+            5374.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R003",
+          "swept_bbox_source_mm": [
+            5178.0,
+            5886.0,
+            752.0,
+            5370.0,
+            5930.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R004",
+          "swept_bbox_source_mm": [
+            5178.0,
+            6337.0,
+            752.0,
+            5370.0,
+            6381.0,
+            787.0
+          ]
+        }
+      ]
+    },
+    {
+      "tray": "BandejaG2R06",
+      "label": "Bandeja removivel utensílios longos - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "elevarmais100",
+      "from_local_mm": [
+        43.0,
+        -4.0,
+        167.0
+      ],
+      "to_local_mm": [
+        43.0,
+        -4.0,
+        267.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R06",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5886.0,
+            748.0,
+            5374.0,
+            6341.0,
+            852.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R005",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5895.0,
+            752.0,
+            5253.0,
+            6205.0,
+            912.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R006",
+          "swept_bbox_source_mm": [
+            5183.0,
+            5895.0,
+            814.0,
+            5263.0,
+            6215.0,
+            939.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R007",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            752.0,
+            5339.0,
+            6195.0,
+            877.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R008",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            779.0,
+            5339.0,
+            6195.0,
+            904.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R009",
+          "swept_bbox_source_mm": [
+            5279.0,
+            5895.0,
+            806.0,
+            5359.0,
+            6155.0,
+            948.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R001",
+          "swept_bbox_source_mm": [
+            5174.0,
+            5886.0,
+            752.0,
+            5178.0,
+            6341.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R002",
+          "swept_bbox_source_mm": [
+            5370.0,
+            5886.0,
+            752.0,
+            5374.0,
+            6341.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R003",
+          "swept_bbox_source_mm": [
+            5178.0,
+            5886.0,
+            752.0,
+            5370.0,
+            5890.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R004",
+          "swept_bbox_source_mm": [
+            5178.0,
+            6337.0,
+            752.0,
+            5370.0,
+            6341.0,
+            887.0
+          ]
+        }
+      ]
+    },
+    {
+      "tray": "BandejaG2R001",
+      "label": "Bandeja removivel frigideira e acessórios - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "elevar120",
+      "from_local_mm": [
+        248.0,
+        36.0,
+        47.0
+      ],
+      "to_local_mm": [
+        248.0,
+        36.0,
+        167.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R010",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5926.0,
+            628.0,
+            5691.0,
+            6381.0,
+            752.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R015",
+          "swept_bbox_source_mm": [
+            5388.0,
+            5935.0,
+            632.0,
+            5598.0,
+            6288.0,
+            849.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R016",
+          "swept_bbox_source_mm": [
+            5612.0,
+            5940.0,
+            632.0,
+            5682.0,
+            6130.0,
+            817.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R017",
+          "swept_bbox_source_mm": [
+            5612.0,
+            6150.0,
+            632.0,
+            5682.0,
+            6340.0,
+            817.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R018",
+          "swept_bbox_source_mm": [
+            5388.0,
+            6300.0,
+            632.0,
+            5598.0,
+            6375.0,
+            792.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R011",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5926.0,
+            632.0,
+            5383.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R012",
+          "swept_bbox_source_mm": [
+            5687.0,
+            5926.0,
+            632.0,
+            5691.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R013",
+          "swept_bbox_source_mm": [
+            5383.0,
+            5926.0,
+            632.0,
+            5687.0,
+            5930.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R014",
+          "swept_bbox_source_mm": [
+            5383.0,
+            6377.0,
+            632.0,
+            5687.0,
+            6381.0,
+            787.0
+          ]
+        }
+      ]
+    },
+    {
+      "tray": "BandejaG2R001",
+      "label": "Bandeja removivel frigideira e acessórios - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "avancar40",
+      "from_local_mm": [
+        248.0,
+        36.0,
+        167.0
+      ],
+      "to_local_mm": [
+        248.0,
+        -4.0,
+        167.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R010",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5886.0,
+            748.0,
+            5691.0,
+            6381.0,
+            752.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R015",
+          "swept_bbox_source_mm": [
+            5388.0,
+            5895.0,
+            752.0,
+            5598.0,
+            6288.0,
+            849.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R016",
+          "swept_bbox_source_mm": [
+            5612.0,
+            5900.0,
+            752.0,
+            5682.0,
+            6130.0,
+            817.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R017",
+          "swept_bbox_source_mm": [
+            5612.0,
+            6110.0,
+            752.0,
+            5682.0,
+            6340.0,
+            817.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R018",
+          "swept_bbox_source_mm": [
+            5388.0,
+            6260.0,
+            752.0,
+            5598.0,
+            6375.0,
+            792.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R011",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5886.0,
+            752.0,
+            5383.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R012",
+          "swept_bbox_source_mm": [
+            5687.0,
+            5886.0,
+            752.0,
+            5691.0,
+            6381.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R013",
+          "swept_bbox_source_mm": [
+            5383.0,
+            5886.0,
+            752.0,
+            5687.0,
+            5930.0,
+            787.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R014",
+          "swept_bbox_source_mm": [
+            5383.0,
+            6337.0,
+            752.0,
+            5687.0,
+            6381.0,
+            787.0
+          ]
+        }
+      ]
+    },
+    {
+      "tray": "BandejaG2R001",
+      "label": "Bandeja removivel frigideira e acessórios - proposta455",
+      "drawer_extension_mm": 500,
+      "segment": "elevarmais100",
+      "from_local_mm": [
+        248.0,
+        -4.0,
+        167.0
+      ],
+      "to_local_mm": [
+        248.0,
+        -4.0,
+        267.0
+      ],
+      "parts": [
+        {
+          "name": "OrganizadorG2R010",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5886.0,
+            748.0,
+            5691.0,
+            6341.0,
+            852.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R015",
+          "swept_bbox_source_mm": [
+            5388.0,
+            5895.0,
+            752.0,
+            5598.0,
+            6248.0,
+            949.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R016",
+          "swept_bbox_source_mm": [
+            5612.0,
+            5900.0,
+            752.0,
+            5682.0,
+            6090.0,
+            917.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R017",
+          "swept_bbox_source_mm": [
+            5612.0,
+            6110.0,
+            752.0,
+            5682.0,
+            6300.0,
+            917.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R018",
+          "swept_bbox_source_mm": [
+            5388.0,
+            6260.0,
+            752.0,
+            5598.0,
+            6335.0,
+            892.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R011",
+          "swept_bbox_source_mm": [
+            5379.0,
+            5886.0,
+            752.0,
+            5383.0,
+            6341.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R012",
+          "swept_bbox_source_mm": [
+            5687.0,
+            5886.0,
+            752.0,
+            5691.0,
+            6341.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R013",
+          "swept_bbox_source_mm": [
+            5383.0,
+            5886.0,
+            752.0,
+            5687.0,
+            5890.0,
+            887.0
+          ]
+        },
+        {
+          "name": "OrganizadorG2R014",
+          "swept_bbox_source_mm": [
+            5383.0,
+            6337.0,
+            752.0,
+            5687.0,
+            6341.0,
+            887.0
+          ]
+        }
+      ]
+    }
+  ],
+  "office_drawer_sweeps": [
+    {
+      "drawer": "Gaveta008",
+      "label": "Gaveta escritório 1",
+      "interval_mm": [
+        0,
+        400
+      ],
+      "source_expression_engine": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parent": "Modulo015",
+      "global_translation_mm": [
+        0.0,
+        400.0,
+        0.0
+      ],
+      "parts": [
+        {
+          "name": "GavetaComumR072",
+          "swept_bbox_source_mm": [
+            3061.0,
+            292.0,
+            517.0,
+            3076.0,
+            1082.0,
+            597.0
+          ]
+        },
+        {
+          "name": "GavetaComumR073",
+          "swept_bbox_source_mm": [
+            2724.0,
+            292.0,
+            517.0,
+            2739.0,
+            1082.0,
+            597.0
+          ]
+        },
+        {
+          "name": "GavetaComumR074",
+          "swept_bbox_source_mm": [
+            2734.0,
+            292.0,
+            529.0,
+            3066.0,
+            1082.0,
+            544.0
+          ]
+        },
+        {
+          "name": "GavetaComumR075",
+          "swept_bbox_source_mm": [
+            2739.0,
+            292.0,
+            544.0,
+            3061.0,
+            707.0,
+            597.0
+          ]
+        },
+        {
+          "name": "GavetaComumR076",
+          "swept_bbox_source_mm": [
+            2739.0,
+            666.0,
+            544.0,
+            3061.0,
+            1082.0,
+            597.0
+          ]
+        },
+        {
+          "name": "GavetaComumR077",
+          "swept_bbox_source_mm": [
+            2701.0,
+            682.0,
+            481.0,
+            3099.0,
+            1100.0,
+            599.0
+          ]
+        },
+        {
+          "name": "GavetaComumR078",
+          "swept_bbox_source_mm": [
+            2979.686447789916,
+            593.5030177655951,
+            510.34939024391116,
+            3061.0,
+            1082.0,
+            528.9250000000001
+          ]
+        },
+        {
+          "name": "GavetaComumR079",
+          "swept_bbox_source_mm": [
+            2739.0,
+            593.5030177655971,
+            510.34939024391616,
+            2819.813552210079,
+            1082.0,
+            528.9250000000001
+          ]
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "label": "Gaveta escritório 2",
+      "interval_mm": [
+        0,
+        400
+      ],
+      "source_expression_engine": [
+        [
+          ".Placement.Base.y",
+          "0 mm - Extensao"
+        ]
+      ],
+      "parent": "Modulo015",
+      "global_translation_mm": [
+        0.0,
+        400.0,
+        0.0
+      ],
+      "parts": [
+        {
+          "name": "GavetaComumR084",
+          "swept_bbox_source_mm": [
+            3061.0,
+            292.0,
+            621.0,
+            3076.0,
+            1082.0,
+            701.0
+          ]
+        },
+        {
+          "name": "GavetaComumR085",
+          "swept_bbox_source_mm": [
+            2724.0,
+            292.0,
+            621.0,
+            2739.0,
+            1082.0,
+            701.0
+          ]
+        },
+        {
+          "name": "GavetaComumR086",
+          "swept_bbox_source_mm": [
+            2734.0,
+            292.0,
+            633.0,
+            3066.0,
+            1082.0,
+            648.0
+          ]
+        },
+        {
+          "name": "GavetaComumR087",
+          "swept_bbox_source_mm": [
+            2739.0,
+            292.0,
+            648.0,
+            3061.0,
+            707.0,
+            701.0
+          ]
+        },
+        {
+          "name": "GavetaComumR088",
+          "swept_bbox_source_mm": [
+            2739.0,
+            666.0,
+            648.0,
+            3061.0,
+            1082.0,
+            701.0
+          ]
+        },
+        {
+          "name": "GavetaComumR089",
+          "swept_bbox_source_mm": [
+            2701.0,
+            682.0,
+            601.0,
+            3099.0,
+            1100.0,
+            719.0
+          ]
+        },
+        {
+          "name": "GavetaComumR090",
+          "swept_bbox_source_mm": [
+            2979.686447789916,
+            593.5030177655951,
+            614.3493902439112,
+            3061.0,
+            1082.0,
+            632.9250000000001
+          ]
+        },
+        {
+          "name": "GavetaComumR091",
+          "swept_bbox_source_mm": [
+            2739.0,
+            593.5030177655971,
+            614.3493902439161,
+            2819.813552210079,
+            1082.0,
+            632.9250000000001
+          ]
+        }
+      ]
+    }
+  ],
+  "upper_office_z_proof": {
+    "moving_parts": [
+      {
+        "name": "FrenteComumR11",
+        "z_interval_source_mm": [
+          1921.0,
+          2469.0
+        ]
+      },
+      {
+        "name": "FerragemComumR11",
+        "z_interval_source_mm": [
+          1992.45,
+          2007.55
+        ]
+      },
+      {
+        "name": "FerragemComumR120",
+        "z_interval_source_mm": [
+          1991.125,
+          2008.875
+        ]
+      },
+      {
+        "name": "FerragemComumR121",
+        "z_interval_source_mm": [
+          1992.725,
+          2007.275
+        ]
+      },
+      {
+        "name": "FerragemComumR122",
+        "z_interval_source_mm": [
+          1996.35,
+          2003.65
+        ]
+      },
+      {
+        "name": "FerragemComumR123",
+        "z_interval_source_mm": [
+          1971.5,
+          2028.5
+        ]
+      },
+      {
+        "name": "FerragemComumR124",
+        "z_interval_source_mm": [
+          2382.45,
+          2397.55
+        ]
+      },
+      {
+        "name": "FerragemComumR125",
+        "z_interval_source_mm": [
+          2381.125,
+          2398.875
+        ]
+      },
+      {
+        "name": "FerragemComumR126",
+        "z_interval_source_mm": [
+          2382.725,
+          2397.275
+        ]
+      },
+      {
+        "name": "FerragemComumR127",
+        "z_interval_source_mm": [
+          2386.35,
+          2393.65
+        ]
+      },
+      {
+        "name": "FerragemComumR128",
+        "z_interval_source_mm": [
+          2361.5,
+          2418.5
+        ]
+      },
+      {
+        "name": "CalcoComumR11",
+        "z_interval_source_mm": [
+          1971.417440948465,
+          2028.582559051535
+        ]
+      },
+      {
+        "name": "CalcoComumR024",
+        "z_interval_source_mm": [
+          2361.417440948465,
+          2418.582559051535
+        ]
+      },
+      {
+        "name": "FrenteComumR012",
+        "z_interval_source_mm": [
+          1921.0,
+          2469.0
+        ]
+      },
+      {
+        "name": "FerragemComumR129",
+        "z_interval_source_mm": [
+          1992.45,
+          2007.55
+        ]
+      },
+      {
+        "name": "FerragemComumR130",
+        "z_interval_source_mm": [
+          1991.125,
+          2008.875
+        ]
+      },
+      {
+        "name": "FerragemComumR131",
+        "z_interval_source_mm": [
+          1992.725,
+          2007.275
+        ]
+      },
+      {
+        "name": "FerragemComumR132",
+        "z_interval_source_mm": [
+          1996.35,
+          2003.65
+        ]
+      },
+      {
+        "name": "FerragemComumR133",
+        "z_interval_source_mm": [
+          1971.5,
+          2028.5
+        ]
+      },
+      {
+        "name": "FerragemComumR134",
+        "z_interval_source_mm": [
+          2382.45,
+          2397.55
+        ]
+      },
+      {
+        "name": "FerragemComumR135",
+        "z_interval_source_mm": [
+          2381.125,
+          2398.875
+        ]
+      },
+      {
+        "name": "FerragemComumR136",
+        "z_interval_source_mm": [
+          2382.725,
+          2397.275
+        ]
+      },
+      {
+        "name": "FerragemComumR137",
+        "z_interval_source_mm": [
+          2386.35,
+          2393.65
+        ]
+      },
+      {
+        "name": "FerragemComumR138",
+        "z_interval_source_mm": [
+          2361.5,
+          2418.5
+        ]
+      },
+      {
+        "name": "CalcoComumR025",
+        "z_interval_source_mm": [
+          1971.417440948465,
+          2028.582559051535
+        ]
+      },
+      {
+        "name": "CalcoComumR026",
+        "z_interval_source_mm": [
+          2361.417440948465,
+          2418.582559051535
+        ]
+      },
+      {
+        "name": "FrenteComumR013",
+        "z_interval_source_mm": [
+          1921.0,
+          2469.0
+        ]
+      },
+      {
+        "name": "FerragemComumR139",
+        "z_interval_source_mm": [
+          1992.45,
+          2007.55
+        ]
+      },
+      {
+        "name": "FerragemComumR140",
+        "z_interval_source_mm": [
+          1991.125,
+          2008.875
+        ]
+      },
+      {
+        "name": "FerragemComumR141",
+        "z_interval_source_mm": [
+          1992.725,
+          2007.275
+        ]
+      },
+      {
+        "name": "FerragemComumR142",
+        "z_interval_source_mm": [
+          1996.35,
+          2003.65
+        ]
+      },
+      {
+        "name": "FerragemComumR143",
+        "z_interval_source_mm": [
+          1971.5,
+          2028.5
+        ]
+      },
+      {
+        "name": "FerragemComumR144",
+        "z_interval_source_mm": [
+          2382.45,
+          2397.55
+        ]
+      },
+      {
+        "name": "FerragemComumR145",
+        "z_interval_source_mm": [
+          2381.125,
+          2398.875
+        ]
+      },
+      {
+        "name": "FerragemComumR146",
+        "z_interval_source_mm": [
+          2382.725,
+          2397.275
+        ]
+      },
+      {
+        "name": "FerragemComumR147",
+        "z_interval_source_mm": [
+          2386.35,
+          2393.65
+        ]
+      },
+      {
+        "name": "FerragemComumR148",
+        "z_interval_source_mm": [
+          2361.5,
+          2418.5
+        ]
+      },
+      {
+        "name": "CalcoComumR027",
+        "z_interval_source_mm": [
+          1971.417440948465,
+          2028.582559051535
+        ]
+      },
+      {
+        "name": "CalcoComumR028",
+        "z_interval_source_mm": [
+          2361.417440948465,
+          2418.582559051535
+        ]
+      },
+      {
+        "name": "FrenteComumR014",
+        "z_interval_source_mm": [
+          1921.0,
+          2469.0
+        ]
+      },
+      {
+        "name": "FerragemComumR149",
+        "z_interval_source_mm": [
+          1992.45,
+          2007.55
+        ]
+      },
+      {
+        "name": "FerragemComumR150",
+        "z_interval_source_mm": [
+          1991.125,
+          2008.875
+        ]
+      },
+      {
+        "name": "FerragemComumR151",
+        "z_interval_source_mm": [
+          1992.725,
+          2007.275
+        ]
+      },
+      {
+        "name": "FerragemComumR152",
+        "z_interval_source_mm": [
+          1996.35,
+          2003.65
+        ]
+      },
+      {
+        "name": "FerragemComumR153",
+        "z_interval_source_mm": [
+          1971.5,
+          2028.5
+        ]
+      },
+      {
+        "name": "FerragemComumR154",
+        "z_interval_source_mm": [
+          2382.45,
+          2397.55
+        ]
+      },
+      {
+        "name": "FerragemComumR155",
+        "z_interval_source_mm": [
+          2381.125,
+          2398.875
+        ]
+      },
+      {
+        "name": "FerragemComumR156",
+        "z_interval_source_mm": [
+          2382.725,
+          2397.275
+        ]
+      },
+      {
+        "name": "FerragemComumR157",
+        "z_interval_source_mm": [
+          2386.35,
+          2393.65
+        ]
+      },
+      {
+        "name": "FerragemComumR158",
+        "z_interval_source_mm": [
+          2361.5,
+          2418.5
+        ]
+      },
+      {
+        "name": "CalcoComumR029",
+        "z_interval_source_mm": [
+          1971.417440948465,
+          2028.582559051535
+        ]
+      },
+      {
+        "name": "CalcoComumR030",
+        "z_interval_source_mm": [
+          2361.417440948465,
+          2418.582559051535
+        ]
+      }
+    ],
+    "dynamic_transform_checks": [
+      {
+        "name": "FolhaEscritorioR11",
+        "parent": "Modulo016",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "(18 + -CinematicaComumR11.D1T4x + -16 * cos(CinematicaComumR11.D1Theta) - -56.5 * sin(CinematicaComumR11.D1Theta)) * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0000000000000002,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.y",
+            "expression": "(56.5 + -CinematicaComumR11.D1T4z + -16 * sin(CinematicaComumR11.D1Theta) + -56.5 * cos(CinematicaComumR11.D1Theta)) * 1 mm",
+            "world_axis": [
+              -1.0000000000000002,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "CinematicaComumR11.D1Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0000000000000002
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR121",
+        "parent": "AjusteProfundidadeR11",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR122",
+        "parent": "AjusteProfundidadeR11",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR123",
+        "parent": "AjusteProfundidadeR11",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR126",
+        "parent": "AjusteProfundidadeR024",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR127",
+        "parent": "AjusteProfundidadeR024",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR128",
+        "parent": "AjusteProfundidadeR024",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D1T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D1T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D1Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "FolhaEscritorioR001",
+        "parent": "Modulo016",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "(982 + CinematicaComumR11.D2T4x + 16 * cos(-CinematicaComumR11.D2Theta) - -56.5 * sin(-CinematicaComumR11.D2Theta)) * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0000000000000002,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.y",
+            "expression": "(56.5 + -CinematicaComumR11.D2T4z + 16 * sin(-CinematicaComumR11.D2Theta) + -56.5 * cos(-CinematicaComumR11.D2Theta)) * 1 mm",
+            "world_axis": [
+              -1.0000000000000002,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0000000000000002
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR131",
+        "parent": "AjusteProfundidadeR025",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR132",
+        "parent": "AjusteProfundidadeR025",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR133",
+        "parent": "AjusteProfundidadeR025",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR136",
+        "parent": "AjusteProfundidadeR026",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR137",
+        "parent": "AjusteProfundidadeR026",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR138",
+        "parent": "AjusteProfundidadeR026",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D2T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D2T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D2Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "FolhaEscritorioR002",
+        "parent": "Modulo016",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "(1018 + -CinematicaComumR11.D3T4x + -16 * cos(CinematicaComumR11.D3Theta) - -56.5 * sin(CinematicaComumR11.D3Theta)) * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0000000000000002,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.y",
+            "expression": "(56.5 + -CinematicaComumR11.D3T4z + -16 * sin(CinematicaComumR11.D3Theta) + -56.5 * cos(CinematicaComumR11.D3Theta)) * 1 mm",
+            "world_axis": [
+              -1.0000000000000002,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "CinematicaComumR11.D3Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0000000000000002
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR141",
+        "parent": "AjusteProfundidadeR027",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR142",
+        "parent": "AjusteProfundidadeR027",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR143",
+        "parent": "AjusteProfundidadeR027",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR146",
+        "parent": "AjusteProfundidadeR028",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR147",
+        "parent": "AjusteProfundidadeR028",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR148",
+        "parent": "AjusteProfundidadeR028",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D3T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D3T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D3Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "FolhaEscritorioR003",
+        "parent": "Modulo016",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "(1982 + CinematicaComumR11.D4T4x + 16 * cos(-CinematicaComumR11.D4Theta) - -56.5 * sin(-CinematicaComumR11.D4Theta)) * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0000000000000002,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.y",
+            "expression": "(56.5 + -CinematicaComumR11.D4T4z + 16 * sin(-CinematicaComumR11.D4Theta) + -56.5 * cos(-CinematicaComumR11.D4Theta)) * 1 mm",
+            "world_axis": [
+              -1.0000000000000002,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0000000000000002
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR151",
+        "parent": "AjusteProfundidadeR029",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR152",
+        "parent": "AjusteProfundidadeR029",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR153",
+        "parent": "AjusteProfundidadeR029",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR156",
+        "parent": "AjusteProfundidadeR030",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T2x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T2z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta2",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR157",
+        "parent": "AjusteProfundidadeR030",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T3x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T3z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta3",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      },
+      {
+        "name": "CorpoArticuladoR158",
+        "parent": "AjusteProfundidadeR030",
+        "checks": [
+          {
+            "field": "Placement.Base.x",
+            "expression": "CinematicaComumR11.D4T4x * 1 mm",
+            "world_axis": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Base.z",
+            "expression": "CinematicaComumR11.D4T4z * 1 mm",
+            "world_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "z_invariant": true
+          },
+          {
+            "field": "Placement.Rotation.Angle",
+            "expression": "-CinematicaComumR11.D4Theta",
+            "world_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "z_invariant": true
+          }
+        ]
+      }
+    ],
+    "z_invariant": true,
+    "upper_office_interval_mm": [
+      1921.0,
+      2469.0
+    ],
+    "sofa_max_z_mm": 820.0,
+    "minimum_vertical_separation_mm": 1101.0,
+    "proven_separate_for_all_inputs_of_current_horizontal_model": true
+  },
+  "contacts": [],
+  "inconclusive": [],
+  "errors": [],
+  "stats": {
+    "pairs": 2132,
+    "bbox_rejected": 2132,
+    "booleans": 0
+  },
+  "gui_up": false,
+  "elapsed_s": 7.123999999996158,
+  "sofa": [
+    {
+      "name": "Peca122",
+      "label": "Sofá-cama Daiane cinza-claro",
+      "bbox_source_mm": [
+        2569.999999999999,
+        1519.9999999999998,
+        80.0,
+        3469.9999999999995,
+        2920.0,
+        360.0
+      ]
+    },
+    {
+      "name": "Peca123",
+      "label": "Sofá-cama Daiane cinza-claro001",
+      "bbox_source_mm": [
+        2759.999999999999,
+        1559.9999999999998,
+        360.0,
+        3439.9999999999995,
+        2880.0,
+        470.0
+      ]
+    },
+    {
+      "name": "Peca124",
+      "label": "Sofá-cama Daiane cinza-claro002",
+      "bbox_source_mm": [
+        2569.999999999999,
+        1540.0000000000005,
+        350.0,
+        2759.9999999999995,
+        2900.0000000000005,
+        820.0
+      ]
+    },
+    {
+      "name": "Peca125",
+      "label": "Sofá-cama Daiane cinza-claro003",
+      "bbox_source_mm": [
+        2749.9999999999995,
+        1519.9999999999998,
+        350.0,
+        3459.9999999999995,
+        1660.0,
+        610.0
+      ]
+    },
+    {
+      "name": "Peca126",
+      "label": "Sofá-cama Daiane cinza-claro004",
+      "bbox_source_mm": [
+        2750.0,
+        2780.0,
+        350.0,
+        3460.0,
+        2920.0,
+        610.0
+      ]
+    }
+  ],
+  "sha256_after": "b2382d8a66045e430a3bd21e54c60e00406f9949c3ad47428449be4362dd04f9",
+  "source_unchanged": true,
+  "limits": "Continuous envelopes of specified rigid translations only; no new inside/bancada tests, old pose repeats, actual hand/people/cushions/guest conversion, intrahardware, physical guide/caster functioning or tolerance/load/fixation/fabrication release. Upper-office proof is only invariant Z separation from adopted daily sofa.",
+  "resume_note": "Six completed tray segments retained without rerun. Leading-dot FreeCAD expression path guard corrected; only sofa-related complements continued.",
+  "previous_elapsed_s": 3.561999999998079
+}

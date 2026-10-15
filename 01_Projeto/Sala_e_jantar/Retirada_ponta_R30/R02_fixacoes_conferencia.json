@@ -1,0 +1,5 @@
+{
+  "bolt_count": 68,
+  "washer_head_rail_collisions": [],
+  "limits": "Only washers and bolt-head envelopes vs static rail envelopes; nuts, tools, manufacturer moving members and full joints need assembly validation."
+}

@@ -1,0 +1,311 @@
+{
+  "data": "2026-10-06",
+  "unidade": "cm",
+  "resposta_usuario": "concha para sopa/feijao;molho nao atende",
+  "descartado_por_funcao": "Tramontina25159100",
+  "escopo": "comparacoes documentais;nao compra ou liberacao executiva",
+  "comparacoes": [
+    {
+      "id": "concha_Rosle100006",
+      "limite": [
+        31,
+        7,
+        6
+      ],
+      "envelope": [
+        26,
+        6.7,
+        5
+      ],
+      "folga": [
+        5,
+        0.3,
+        1
+      ],
+      "contido": true,
+      "status": "candidata_geometria; sopa_feijao_nao_explicitos;40ml"
+    },
+    {
+      "id": "peneira_Westmark12812270",
+      "limite": [
+        26,
+        8,
+        4.2
+      ],
+      "envelope": [
+        20.5,
+        7,
+        3
+      ],
+      "folga": [
+        5.5,
+        1,
+        1.2
+      ],
+      "contido": true,
+      "status": "candidata_documental"
+    },
+    {
+      "id": "escumadeira_Rosle100050",
+      "limite": [
+        32,
+        8,
+        2.5
+      ],
+      "envelope": [
+        33,
+        10,
+        6.2
+      ],
+      "folga": [
+        -1,
+        -2,
+        -3.7
+      ],
+      "contido": false,
+      "status": "reprovada"
+    },
+    {
+      "id": "escumadeira_Westmark28502270",
+      "limite": [
+        32,
+        8,
+        2.5
+      ],
+      "envelope": [
+        32.2,
+        11.8,
+        8
+      ],
+      "folga": [
+        -0.2,
+        -3.8,
+        -5.5
+      ],
+      "contido": false,
+      "status": "reprovada"
+    },
+    {
+      "id": "vazada_Westmark20352270",
+      "limite": [
+        30,
+        6,
+        2.5
+      ],
+      "envelope": [
+        28.3,
+        7,
+        2
+      ],
+      "folga": [
+        1.7,
+        -1,
+        0.5
+      ],
+      "contido": false,
+      "status": "reprovada"
+    },
+    {
+      "id": "vazada_Westmark20152270",
+      "limite": [
+        30,
+        6,
+        2.5
+      ],
+      "envelope": [
+        26,
+        7.4,
+        1.6
+      ],
+      "folga": [
+        4,
+        -1.4,
+        0.9
+      ],
+      "contido": false,
+      "status": "reprovada"
+    },
+    {
+      "id": "peneira_Kuhn24346",
+      "limite": [
+        26,
+        8,
+        4.2
+      ],
+      "envelope": [
+        26.8,
+        8,
+        5
+      ],
+      "folga": [
+        -0.8,
+        0,
+        -0.8
+      ],
+      "contido": false,
+      "status": "reprovada"
+    },
+    {
+      "id": "citrico_Westmark50002260",
+      "limite": [
+        19,
+        7,
+        6.5
+      ],
+      "envelope": [
+        23.7,
+        11.6,
+        6.9
+      ],
+      "folga": [
+        -4.7,
+        -4.6,
+        -0.4
+      ],
+      "contido": false,
+      "status": "reprovado"
+    },
+    {
+      "id": "citrico_Westmark30932280",
+      "limite": [
+        19,
+        7,
+        6.5
+      ],
+      "envelope": [
+        7.2,
+        7.2,
+        7.7
+      ],
+      "folga": [
+        11.8,
+        -0.2,
+        -1.2
+      ],
+      "contido": false,
+      "status": "reprovado"
+    },
+    {
+      "id": "citrico_Westmark90882280",
+      "limite": [
+        19,
+        7,
+        6.5
+      ],
+      "envelope": [
+        8.5,
+        7.1,
+        1.9
+      ],
+      "folga": [
+        10.5,
+        -0.1,
+        4.6
+      ],
+      "contido": false,
+      "status": "reprovado;fatias"
+    },
+    {
+      "id": "citrico_OXO1057962",
+      "limite": [
+        19,
+        7,
+        6.5
+      ],
+      "envelope": [
+        26.67,
+        10.7696,
+        3.81
+      ],
+      "folga": [
+        -7.67,
+        -3.7696,
+        2.69
+      ],
+      "contido": false,
+      "status": "reprovado"
+    },
+    {
+      "id": "ralador_Westmark10022270",
+      "limite": [
+        21,
+        7.5,
+        4
+      ],
+      "envelope": [
+        24.3,
+        10.3,
+        1
+      ],
+      "folga": [
+        -3.3,
+        -2.8,
+        3
+      ],
+      "contido": false,
+      "status": "reprovado"
+    },
+    {
+      "id": "ralador_MicroplaneSpice",
+      "limite": [
+        21,
+        7.5,
+        4
+      ],
+      "envelope": [
+        21.5,
+        3,
+        2
+      ],
+      "folga": [
+        -0.5,
+        4.5,
+        2
+      ],
+      "contido": false,
+      "status": "reprovado"
+    },
+    {
+      "id": "ralador_Westmark11532270",
+      "limite": [
+        21,
+        7.5,
+        4
+      ],
+      "envelope": [
+        15,
+        5.3,
+        2.6
+      ],
+      "folga": [
+        6,
+        2.2,
+        1.4
+      ],
+      "contido": true,
+      "status": "geometria_contida;formato_curvo_nao_selecionado"
+    }
+  ],
+  "condicionais": {
+    "H_faixa1": 9.1,
+    "H_faixa2": 8.95,
+    "H_governante_original": 11.1,
+    "porcoes_ilustrativas_40ml": [
+      {
+        "volume_ml": 250,
+        "numero": 7
+      },
+      {
+        "volume_ml": 300,
+        "numero": 8
+      }
+    ]
+  },
+  "lacunas": [
+    "Fackelmann680938 sem envelope primario",
+    "alho25601100 fechado nao explicito",
+    "concha Rosle100006 nao descreve sopa/feijao explicitamente",
+    "escumadeira citrico ralador plano sem candidato apto nesta rodada",
+    "H real pega retirada estabilidade tolerancias"
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "drawer": "Gaveta de roupa",
+    "floor_top_z_module_mm": 847.0,
+    "wall_above_floor_mm": 73.0,
+    "estimated_clearance_to_first_obstacle_mm": 106.5,
+    "first_obstacle": {
+      "name": "Planejamento sob Gaveta de roupa001",
+      "underside_z_module_mm": 953.5,
+      "type": "Estimativa baseada no requisito28.5 mm; conferir corrediça superior real e regulagens"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "Gaveta de roupa001",
+    "floor_top_z_module_mm": 997.0,
+    "wall_above_floor_mm": 73.0,
+    "estimated_clearance_to_first_obstacle_mm": 85.0,
+    "first_obstacle": {
+      "name": "Prateleira curta · topo 1100",
+      "underside_z_module_mm": 1082.0,
+      "type": "Madeira do modulo"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "Gaveta de roupa002",
+    "floor_top_z_module_mm": 847.0,
+    "wall_above_floor_mm": 73.0,
+    "estimated_clearance_to_first_obstacle_mm": 106.5,
+    "first_obstacle": {
+      "name": "Planejamento sob Gaveta de roupa003",
+      "underside_z_module_mm": 953.5,
+      "type": "Estimativa baseada no requisito28.5 mm; conferir corrediça superior real e regulagens"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "Gaveta de roupa003",
+    "floor_top_z_module_mm": 997.0,
+    "wall_above_floor_mm": 73.0,
+    "estimated_clearance_to_first_obstacle_mm": 85.0,
+    "first_obstacle": {
+      "name": "Prateleira curta · topo 1101",
+      "underside_z_module_mm": 1082.0,
+      "type": "Madeira do modulo"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "G3 · mantimentos",
+    "floor_top_z_module_mm": 64.0,
+    "wall_above_floor_mm": 273.0,
+    "estimated_clearance_to_first_obstacle_mm": 340.5,
+    "first_obstacle": {
+      "name": "Planejamento sob G2 · utensílios",
+      "underside_z_module_mm": 404.5,
+      "type": "Estimativa baseada no requisito28.5 mm; conferir corrediça superior real e regulagens"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "G2 · utensílios",
+    "floor_top_z_module_mm": 448.0,
+    "wall_above_floor_mm": 73.0,
+    "estimated_clearance_to_first_obstacle_mm": 116.5,
+    "first_obstacle": {
+      "name": "Planejamento sob G1 · talheres",
+      "underside_z_module_mm": 564.5,
+      "type": "Estimativa baseada no requisito28.5 mm; conferir corrediça superior real e regulagens"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado.",
+    "content_height_requirement_mm": 111,
+    "estimated_margin_to_requirement_mm": 5.5,
+    "organizer_depth_mm": {
+      "existing_proposal": 460,
+      "floor_available": 460.0,
+      "status": "Coincidencia nominal sem folga; encurtar bandejas removiveis como proposta, conferir gabaritos."
+    }
+  },
+  {
+    "drawer": "G1 · talheres",
+    "floor_top_z_module_mm": 608.0,
+    "wall_above_floor_mm": 53.0,
+    "estimated_clearance_to_first_obstacle_mm": 112.0,
+    "first_obstacle": {
+      "name": "Bancada no topo720 do modulo",
+      "underside_z_module_mm": 720,
+      "type": "Hipotese geometrica da bancada existente"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "Gaveta escritório 1",
+    "floor_top_z_module_mm": 64.0,
+    "wall_above_floor_mm": 53.0,
+    "estimated_clearance_to_first_obstacle_mm": 60.5,
+    "first_obstacle": {
+      "name": "Planejamento sob Gaveta escritório 2",
+      "underside_z_module_mm": 124.5,
+      "type": "Estimativa baseada no requisito28.5 mm; conferir corrediça superior real e regulagens"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  },
+  {
+    "drawer": "Gaveta escritório 2",
+    "floor_top_z_module_mm": 168.0,
+    "wall_above_floor_mm": 53.0,
+    "estimated_clearance_to_first_obstacle_mm": 54.0,
+    "first_obstacle": {
+      "name": "Tampo007",
+      "underside_z_module_mm": 222.0,
+      "type": "Madeira do modulo"
+    },
+    "scope": "Altura acima das paredes da caixa pode ser utilizada; o limite e o primeiro obstaculo. Corrediça superior ainda representada por requisito minimo28.5 mm, nao STEP montado."
+  }
+]

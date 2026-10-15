@@ -1,0 +1,832 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Equipamentos_R17_2026-10-14\\Guedala_Park_R17_Equipamentos.FCStd",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\02_Revisoes_e_estudos\\Banco_R16_2026-10-14\\Guedala_Park_R16_Banco_Simples.FCStd",
+  "source_sha256": "988509ca59b8a7525a2f6d231c36b1179d242ddd551b5b955d51c9ea534278a4",
+  "units": "mm",
+  "old_bboxes": {
+    "Peca133": [
+      3921.5,
+      6370.0,
+      50.0,
+      517.0,
+      615.0,
+      610.0
+    ],
+    "Peca134": [
+      3880.0,
+      6460.0,
+      920.0,
+      600.0,
+      450.0,
+      15.0
+    ],
+    "Peca138": [
+      5849.0,
+      6152.5,
+      0.0,
+      601.0,
+      747.5,
+      1866.0
+    ],
+    "Peca139": [
+      3880.0,
+      6700.0,
+      1740.0,
+      600.0,
+      300.0,
+      176.0
+    ],
+    "Peca140": [
+      5520.0,
+      6530.0,
+      920.0,
+      160.0,
+      420.0,
+      350.0
+    ],
+    "Peca152": [
+      3200.0,
+      6280.0,
+      0.0,
+      600.0,
+      620.0,
+      850.0
+    ],
+    "Peca154": [
+      3490.0,
+      6510.0,
+      920.0,
+      264.0,
+      360.0,
+      295.0
+    ],
+    "Peca155": [
+      2620.0,
+      6750.0,
+      1570.0,
+      350.0,
+      157.0,
+      530.0
+    ],
+    "Peca156": [
+      2760.0,
+      6790.0,
+      2100.0,
+      80.0,
+      80.0,
+      350.0
+    ],
+    "Peca157": [
+      2695.0,
+      5650.0,
+      2310.0,
+      1000.0,
+      500.0,
+      30.0
+    ],
+    "Peca351": [
+      5165.0,
+      6548.0,
+      1550.0,
+      461.0,
+      452.0,
+      290.0
+    ]
+  },
+  "current_bboxes": {
+    "Peca133": [
+      3921.5,
+      6370.0,
+      50.0,
+      517.0,
+      615.0,
+      610.0
+    ],
+    "Peca134": [
+      3880.0,
+      6460.0,
+      920.0,
+      600.0,
+      450.0,
+      15.0
+    ],
+    "Peca138": [
+      5849.0,
+      6152.5,
+      0.0,
+      601.0,
+      747.5,
+      1866.0
+    ],
+    "Peca139": [
+      3880.0,
+      6700.0,
+      1740.0,
+      600.0,
+      300.0,
+      176.0
+    ],
+    "Peca140": [
+      5520.0,
+      6460.0,
+      920.0,
+      160.0,
+      420.0,
+      350.0
+    ],
+    "Peca152": [
+      3200.0,
+      6280.0,
+      0.0,
+      600.0,
+      620.0,
+      850.0
+    ],
+    "Peca154": [
+      3490.0,
+      6510.0,
+      920.0,
+      264.0,
+      360.0,
+      295.0
+    ],
+    "Peca155": [
+      2620.0,
+      6750.0,
+      1570.0,
+      350.0,
+      157.0,
+      530.0
+    ],
+    "Peca156": [
+      2760.0,
+      6790.0,
+      2100.0,
+      80.0,
+      80.0,
+      350.0
+    ],
+    "Peca157": [
+      2695.0,
+      5650.0,
+      2310.0,
+      1000.0,
+      500.0,
+      30.0
+    ],
+    "Peca351": [
+      5165.0,
+      6548.0,
+      1550.0,
+      461.0,
+      352.0,
+      290.0
+    ]
+  },
+  "zones": [
+    {
+      "name": "ReservaEquipamentoR17",
+      "label": "ME23P - traseira100 livre",
+      "bbox": [
+        5165.0,
+        6900.0,
+        1550.0,
+        461.0,
+        100.0,
+        290.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR001",
+      "label": "ME23P - lateral100 esquerda",
+      "bbox": [
+        5065.0,
+        6548.0,
+        1550.0,
+        100.0,
+        352.0,
+        290.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR002",
+      "label": "ME23P - lateral100 direita",
+      "bbox": [
+        5626.0,
+        6548.0,
+        1550.0,
+        100.0,
+        352.0,
+        290.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR003",
+      "label": "ME23P - acima100 escolhidos",
+      "bbox": [
+        5165.0,
+        6548.0,
+        1840.0,
+        461.0,
+        352.0,
+        100.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR004",
+      "label": "ME23P - acima300 exigidos",
+      "bbox": [
+        5165.0,
+        6548.0,
+        1840.0,
+        461.0,
+        352.0,
+        300.0
+      ],
+      "hits": [
+        {
+          "name": "Peca337",
+          "label": "Base006",
+          "volume_mm3": 1908540.0
+        },
+        {
+          "name": "FrenteComumR006",
+          "label": "Frente com canecos comuns · Porta 007",
+          "volume_mm3": 839979.0
+        },
+        {
+          "name": "FrenteComumR007",
+          "label": "Frente com canecos comuns · Porta 008",
+          "volume_mm3": 804159.0
+        }
+      ],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR005",
+      "label": "PE12G - traseira100",
+      "bbox": [
+        5520.0,
+        6880.0,
+        920.0,
+        160.0,
+        100.0,
+        350.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR006",
+      "label": "PE12G - lateral50 esquerda",
+      "bbox": [
+        5470.0,
+        6460.0,
+        920.0,
+        50.0,
+        420.0,
+        350.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR007",
+      "label": "PE12G - lateral50 direita",
+      "bbox": [
+        5680.0,
+        6460.0,
+        920.0,
+        50.0,
+        420.0,
+        350.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR008",
+      "label": "PE12G - topo220",
+      "bbox": [
+        5520.0,
+        6460.0,
+        1270.0,
+        160.0,
+        420.0,
+        220.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR009",
+      "label": "IB6S - traseira100",
+      "bbox": [
+        5849.0,
+        6900.0,
+        0.0,
+        601.0,
+        100.0,
+        1866.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR010",
+      "label": "IB6S - lateral100 esquerda",
+      "bbox": [
+        5749.0,
+        6152.5,
+        0.0,
+        100.0,
+        747.5,
+        1866.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR011",
+      "label": "IB6S - lateral100 direita",
+      "bbox": [
+        6450.0,
+        6152.5,
+        0.0,
+        100.0,
+        747.5,
+        1866.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR012",
+      "label": "IB6S - topo100",
+      "bbox": [
+        5849.0,
+        6152.5,
+        1866.0,
+        601.0,
+        747.5,
+        100.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR013",
+      "label": "LG - traseira100",
+      "bbox": [
+        3200.0,
+        6900.0,
+        0.0,
+        600.0,
+        100.0,
+        850.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR014",
+      "label": "LG - lateral20 esquerda",
+      "bbox": [
+        3180.0,
+        6280.0,
+        0.0,
+        20.0,
+        620.0,
+        850.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR015",
+      "label": "LG - lateral20 direita",
+      "bbox": [
+        3800.0,
+        6280.0,
+        0.0,
+        20.0,
+        620.0,
+        850.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR016",
+      "label": "LG - topo5",
+      "bbox": [
+        3200.0,
+        6280.0,
+        850.0,
+        600.0,
+        620.0,
+        5.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR017",
+      "label": "RI9252 - traseira100",
+      "bbox": [
+        3490.0,
+        6870.0,
+        920.0,
+        264.0,
+        100.0,
+        295.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR018",
+      "label": "RI9252 - lateral100 esquerda",
+      "bbox": [
+        3390.0,
+        6510.0,
+        920.0,
+        100.0,
+        360.0,
+        295.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR019",
+      "label": "RI9252 - lateral100 direita",
+      "bbox": [
+        3754.0,
+        6510.0,
+        920.0,
+        100.0,
+        360.0,
+        295.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR020",
+      "label": "RI9252 - topo100",
+      "bbox": [
+        3490.0,
+        6510.0,
+        1215.0,
+        264.0,
+        360.0,
+        100.0
+      ],
+      "hits": [],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR021",
+      "label": "E21 - lateral200 esquerda recomendada",
+      "bbox": [
+        2420.0,
+        6750.0,
+        1570.0,
+        200.0,
+        157.0,
+        530.0
+      ],
+      "hits": [
+        {
+          "name": "Peca043",
+          "label": "Parede · Lavanderia001",
+          "volume_mm3": 8321000.000000002
+        }
+      ],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR022",
+      "label": "E21 - lateral200 direita recomendada",
+      "bbox": [
+        2970.0,
+        6750.0,
+        1570.0,
+        200.0,
+        157.0,
+        530.0
+      ],
+      "hits": [
+        {
+          "name": "Peca359",
+          "label": "Lateral esquerda010",
+          "volume_mm3": 1271700.0
+        },
+        {
+          "name": "Peca362",
+          "label": "Base008",
+          "volume_mm3": 373032.0
+        }
+      ],
+      "valid": true
+    },
+    {
+      "name": "ReservaEquipamentoR023",
+      "label": "E21 - frente600 referência ideal",
+      "bbox": [
+        2620.0,
+        6150.0,
+        1570.0,
+        350.0,
+        600.0,
+        530.0
+      ],
+      "hits": [],
+      "valid": true
+    }
+  ],
+  "targets": [
+    "Peca001",
+    "Peca002",
+    "Peca003",
+    "Peca004",
+    "Peca005",
+    "Peca006",
+    "Peca007",
+    "Peca008",
+    "Peca009",
+    "Peca011",
+    "Peca013",
+    "Peca015",
+    "Peca017",
+    "Peca019",
+    "Peca021",
+    "Peca023",
+    "Peca025",
+    "Peca027",
+    "Peca029",
+    "Peca031",
+    "Peca033",
+    "Peca035",
+    "Peca037",
+    "Peca039",
+    "Peca041",
+    "Peca043",
+    "Peca045",
+    "Peca047",
+    "Peca049",
+    "Peca051",
+    "Peca053",
+    "Peca055",
+    "Peca057",
+    "Peca059",
+    "Peca061",
+    "Peca063",
+    "Peca064",
+    "Peca065",
+    "Peca066",
+    "Peca067",
+    "Peca068",
+    "Peca069",
+    "Peca070",
+    "Peca071",
+    "Peca072",
+    "Peca073",
+    "Peca074",
+    "Peca075",
+    "Peca076",
+    "Peca077",
+    "Peca078",
+    "Peca079",
+    "Peca080",
+    "Peca081",
+    "Peca082",
+    "Peca083",
+    "Peca084",
+    "Peca085",
+    "Peca086",
+    "Peca087",
+    "Peca088",
+    "Peca089",
+    "Peca090",
+    "Peca091",
+    "Peca092",
+    "Peca093",
+    "Peca094",
+    "Peca095",
+    "Peca096",
+    "Peca097",
+    "Peca098",
+    "Peca099",
+    "Peca100",
+    "Peca101",
+    "Peca102",
+    "Peca103",
+    "Peca104",
+    "Peca105",
+    "Peca106",
+    "Peca107",
+    "Peca108",
+    "Peca109",
+    "Peca110",
+    "Peca111",
+    "Peca112",
+    "Peca113",
+    "Peca114",
+    "Peca115",
+    "Peca116",
+    "Peca117",
+    "Peca118",
+    "Peca119",
+    "Peca120",
+    "Peca121",
+    "Peca122",
+    "Peca123",
+    "Peca124",
+    "Peca125",
+    "Peca126",
+    "Peca127",
+    "Peca128",
+    "Peca129",
+    "Peca130",
+    "Peca131",
+    "Peca132",
+    "Peca135",
+    "Peca136",
+    "Peca137",
+    "Peca141",
+    "Peca142",
+    "Peca143",
+    "Peca144",
+    "Peca145",
+    "Peca146",
+    "Peca147",
+    "Peca148",
+    "Peca149",
+    "Peca150",
+    "Peca151",
+    "Peca153",
+    "Peca158",
+    "Peca159",
+    "Peca160",
+    "Peca161",
+    "Peca162",
+    "Peca163",
+    "Peca164",
+    "Peca165",
+    "Peca166",
+    "Peca167",
+    "Peca168",
+    "Peca169",
+    "Peca170",
+    "Peca171",
+    "Peca172",
+    "Peca173",
+    "Peca174",
+    "Peca175",
+    "Peca176",
+    "Peca177",
+    "Peca178",
+    "Peca179",
+    "Peca180",
+    "Peca181",
+    "Peca182",
+    "Peca183",
+    "Peca184",
+    "Peca185",
+    "Peca186",
+    "Peca187",
+    "Peca188",
+    "Peca189",
+    "Peca190",
+    "Peca191",
+    "Peca192",
+    "Peca193",
+    "Peca194",
+    "Peca195",
+    "Peca196",
+    "Peca197",
+    "Peca198",
+    "Peca199",
+    "Peca200",
+    "Peca201",
+    "Peca202",
+    "Peca203",
+    "Peca204",
+    "Peca205",
+    "Peca206",
+    "Peca207",
+    "Peca208",
+    "Peca209",
+    "Peca210",
+    "Peca211",
+    "Peca212",
+    "Peca213",
+    "Peca214",
+    "Peca215",
+    "Peca216",
+    "Peca217",
+    "Peca218",
+    "Peca219",
+    "Peca220",
+    "Peca221",
+    "Peca222",
+    "Peca223",
+    "Peca224",
+    "Peca225",
+    "Peca226",
+    "Peca227",
+    "Peca228",
+    "Peca229",
+    "Peca230",
+    "Peca231",
+    "Peca232",
+    "Peca233",
+    "Peca234",
+    "Peca276",
+    "Peca277",
+    "Peca278",
+    "Peca279",
+    "Peca280",
+    "Peca283",
+    "Peca284",
+    "Peca285",
+    "Peca286",
+    "Peca305",
+    "Peca306",
+    "Peca307",
+    "Peca315",
+    "Peca316",
+    "Peca317",
+    "Peca318",
+    "Peca319",
+    "Peca320",
+    "Peca324",
+    "Peca325",
+    "Peca326",
+    "Peca327",
+    "Peca328",
+    "Peca329",
+    "Peca330",
+    "Peca331",
+    "Peca334",
+    "Peca335",
+    "Peca336",
+    "Peca337",
+    "Peca338",
+    "Peca339",
+    "Peca342",
+    "Peca343",
+    "Peca344",
+    "Peca345",
+    "Peca346",
+    "Peca347",
+    "Peca350",
+    "Peca359",
+    "Peca360",
+    "Peca361",
+    "Peca362",
+    "Peca363",
+    "Peca308",
+    "Peca357",
+    "FrenteComumR10",
+    "FrenteComumR001",
+    "FrenteComumR002",
+    "FrenteComumR003",
+    "FrenteComumR004",
+    "FrenteComumR005",
+    "FrenteComumR006",
+    "FrenteComumR007",
+    "FrenteComumR008",
+    "FrenteComumR009",
+    "FrenteComumR010",
+    "FrenteComumR011"
+  ],
+  "target_count": 255,
+  "corrections": {
+    "purifier_swept_envelope_hits": [],
+    "micro_body_hits": [],
+    "purifier_body_hits": []
+  },
+  "scope": "Interseções estacionárias em subconjunto explícito. Equipamentos proprietários excluídos das reservas; sem portas/gavetas reais de aparelho, fluxo, térmica, conexões/pessoas/hardware. Não valida instalação.",
+  "rodabanca_correction": {
+    "initial_R16_y": 6530,
+    "first_proposal_y": 6480,
+    "final_y": 6460,
+    "total_advance": 70,
+    "rodabanca_y": 6980,
+    "rear_y": 6880,
+    "rear_clearance": 100,
+    "front_to_stone": 90,
+    "first_result": "Reserva100 até parede colidia com rodabanca Peca141. Primeira auditoria preservada em Conferencia_pre_rodabanca.json."
+  }
+}

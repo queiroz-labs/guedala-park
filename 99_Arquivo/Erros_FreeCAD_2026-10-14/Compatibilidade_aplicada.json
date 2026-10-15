@@ -1,0 +1,20 @@
+{
+  "status": "applied",
+  "files": [
+    {
+      "path": "C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\event_observer.py",
+      "backup": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\Erros_FreeCAD_2026-10-14\\Backup_addon\\event_observer.py.antes.py",
+      "sha256_before": "e8cd305ad5c6d43d585e4060bfd0e190d6bebddb2879850a190319eec9bd9c06",
+      "sha256_after": "b8728d79deb8c83930184ad2f1af8d199b85fac8ddc68aa896981eac0003b093",
+      "change": "Qt import only"
+    },
+    {
+      "path": "C:\\Users\\Elias\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\commands\\ai_commands.py",
+      "backup": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\Erros_FreeCAD_2026-10-14\\Backup_addon\\ai_commands.py.antes.py",
+      "sha256_before": "2b20b0fccf7cdeb7513fde04f8b7a91b2ef4fb2a1e614ce07182f084b68701c8",
+      "sha256_after": "0eee059f86085394710a3d7ae4cbeedc01cb69b71509e167d3d52d6776ff067c",
+      "change": "Qt import only"
+    }
+  ],
+  "scope": "Only two imports; no server/observer activation, dependencies, CAD or model settings changed"
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-06",
+  "scenarios": [
+    {
+      "W": 48.6,
+      "limit": [
+        20.1,
+        22,
+        15.3
+      ],
+      "bodyConservative": [
+        12.9,
+        16.4,
+        9
+      ],
+      "saldos": [
+        7.2,
+        5.6,
+        6.3
+      ],
+      "bodyFits": true,
+      "rotatedBodyFits": true
+    },
+    {
+      "W": 51.1,
+      "limit": [
+        22,
+        22,
+        15.3
+      ],
+      "bodyConservative": [
+        12.9,
+        16.4,
+        9
+      ],
+      "saldos": [
+        9.1,
+        5.6,
+        6.3
+      ],
+      "bodyFits": true,
+      "rotatedBodyFits": true
+    }
+  ],
+  "manufacturerCurrent": {
+    "sku": "24536",
+    "reference": "066701203",
+    "ean": "7891356122842",
+    "voltage": "127V",
+    "quantity": 1,
+    "latch": false,
+    "plateShape": "Redonda",
+    "plateDiameterCm": 12.5
+  },
+  "fullGuardEnvelopeConfirmed": false,
+  "cord70cmAndPlug10A3PinsSource": "FichaRev00_2024 indexada; link direto404 nesta data",
+  "closedLidHandlingConfirmed": false,
+  "plateSquareMaximumSideIfFullyContained": 8.838835,
+  "usesElectricalInstallationApproved": false,
+  "files": [
+    {
+      "name": "Manual_atual.pdf",
+      "bytes": 1247279,
+      "sha256": "b01abd04d1ba67a5b6d2df50d5cf8cdaf208fe0ba826e9637757c1b575039113"
+    },
+    {
+      "name": "Catalogo_publico_atual.json",
+      "bytes": 38621,
+      "sha256": "1ac85773fb889e3de8e25a2dbfa39a6b3dea4ea856758993ee5e1f4c7ac9097b"
+    },
+    {
+      "name": "Prancha_oficial.jpg",
+      "bytes": 1743463,
+      "sha256": "836fd2d5b9894a9b6be456cfe8ea1805c0cd1ad63cf6f544fa9004ced1e8f773"
+    }
+  ]
+}

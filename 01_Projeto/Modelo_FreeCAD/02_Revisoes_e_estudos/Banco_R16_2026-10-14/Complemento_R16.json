@@ -1,0 +1,148 @@
+{
+  "cushion_continuous_segments": [
+    {
+      "sector": 2,
+      "start_lift_shift_mm": [
+        0,
+        0
+      ],
+      "end_lift_shift_mm": [
+        60,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "start_lift_shift_mm": [
+        60,
+        0
+      ],
+      "end_lift_shift_mm": [
+        60,
+        711
+      ],
+      "hits": []
+    },
+    {
+      "sector": 2,
+      "start_lift_shift_mm": [
+        60,
+        711
+      ],
+      "end_lift_shift_mm": [
+        50,
+        711
+      ],
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "start_lift_shift_mm": [
+        0,
+        0
+      ],
+      "end_lift_shift_mm": [
+        60,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "start_lift_shift_mm": [
+        60,
+        0
+      ],
+      "end_lift_shift_mm": [
+        60,
+        733
+      ],
+      "hits": []
+    },
+    {
+      "sector": 3,
+      "start_lift_shift_mm": [
+        60,
+        733
+      ],
+      "end_lift_shift_mm": [
+        50,
+        733
+      ],
+      "hits": []
+    }
+  ],
+  "leaf_advance16_then_lift": [
+    {
+      "from_mm": [
+        18.0,
+        40.0,
+        330.0
+      ],
+      "to_mm": [
+        18.0,
+        24.0,
+        330.0
+      ],
+      "hits": []
+    },
+    {
+      "from_mm": [
+        18.0,
+        24.0,
+        330.0
+      ],
+      "to_mm": [
+        18.0,
+        24.0,
+        970.0
+      ],
+      "hits": [
+        {
+          "target": "Peca092",
+          "label": "Mesa extensível com pedestal fixo001",
+          "mm3": 521040.0
+        }
+      ]
+    }
+  ],
+  "negative_leaf_open_with_parked_pad_hits": [
+    {
+      "pair": [
+        "PecaBancoR014",
+        "PecaBancoR011"
+      ],
+      "mm3": 1417794.2942174275
+    },
+    {
+      "pair": [
+        "PecaBancoR015",
+        "PecaBancoR011"
+      ],
+      "mm3": 3554607.0407437743
+    }
+  ],
+  "table_ideal_bounds": [
+    {
+      "thickness_mm": 20,
+      "pivot_height_mm": 420,
+      "new_2D_samples": 19,
+      "min_sample_mm": 50.0846115658666,
+      "half_step_displacement_bound_mm": 19.567157047714264,
+      "continuous_ideal_table_gap_lower_bound_mm": 30.517454518152338,
+      "limitations": "Somente retângulo ideal da tampa/assento e tampo, não ferragem/mãos/deformação/outros objetos. Faixa70 usa envelope conservador por448; almofada tem2 mm adicionais para trás do eixo, limitados a u450 e abaixo470, fora do tampo720–750."
+    },
+    {
+      "thickness_mm": 70,
+      "pivot_height_mm": 470,
+      "new_2D_samples": 19,
+      "min_sample_mm": 17.58259078298814,
+      "half_step_displacement_bound_mm": 19.78486795157893,
+      "continuous_ideal_table_gap_lower_bound_mm": -2.20227716859079,
+      "limitations": "Somente retângulo ideal da tampa/assento e tampo, não ferragem/mãos/deformação/outros objetos. Faixa70 usa envelope conservador por448; almofada tem2 mm adicionais para trás do eixo, limitados a u450 e abaixo470, fora do tampo720–750."
+    }
+  ],
+  "analytic_own_body_separation": "Tampa20: Z>=420-20*cos(theta)>=400; madeira do assento70: Z>=470-70*cos(theta)>=400. Corpo/programa até400 não são penetrados em0–90; Xlongitudinal constante e juntas1/2 separam folhas/setores. Para encosto, madeira u<=448; almofada integral u<=448+2*cos(theta)<=450. Contato macio no fechado não é folga física certificada.",
+  "limits": "Novos caminhos geométricos com banco R16. Folha800x350x70 é reserva; não prova peça/estrutura real, transporte ou implantação na mesa. Teste negativo impõe sequência de uso, sem intertravamento físico."
+}

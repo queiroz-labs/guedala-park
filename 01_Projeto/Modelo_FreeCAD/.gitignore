@@ -1,0 +1,5 @@
+__pycache__/
+Falha*.txt
+03_Recursos/output/*.FCStd1
+03_Recursos/output/*.FCStd.*
+*.FCBak

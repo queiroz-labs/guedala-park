@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-12",
+  "status": "Renders de estudo para revisão; imagens novas não aprovadas automaticamente",
+  "wardrobe": {
+    "depth_cm": 65,
+    "status": "Aceito expressamente por Elias nesta rodada",
+    "minimum_clear_cm": 55,
+    "aisle_study_cm": 49,
+    "overhead_L": {
+      "status": "Alturas iguais escolhidas por Elias, alinhadas pela base maior do maleiro",
+      "common_lower_cm": 213.2,
+      "common_shelf_upper_cm": 215,
+      "step_cm": 0,
+      "aerial_clear_height_scenario_cm": 27.2
+    }
+  },
+  "assets": [
+    {
+      "key": "Sala_jantar",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-ebd45759-2435-438a-afa7-2ff2e2ea5960.png",
+      "file": "Sala_jantar_R01.png",
+      "prompts": [
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/03_Referencias/Sala_referencia_aprovada_R03.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: precise-object-edit. Produce a highly photorealistic UPDATED study of this exact approved Guedala Park living/dining room, preserve camera, architecture, near closed white door in LEFT jamb, mirror at entrance, wood floor, beige/offwhite walls, window at rear, cozy compact room and same framed 2x2 four photographs exactly. Corrections from current plan: three dining chairs must ALL be along the FREE LONG SIDE of dining table, no chair at either short head/end. Middle chair may sit slightly out to fit. Table is150x75 in everyday closed configuration, rounded corners radius15cm, warm Arenza wood top, one black cylindrical pedestal, no giant dining table. Wall bench180x55 outside, seat top47cm, light beige upholstered back, wood base, thin opening lids underneath separate removable beige cushions (closed in image); bench remains along right wall. Add one small understated VENTILATED fruit basket on table containing very few onions/potatoes/garlic, replaces old decorative empty tray. SofaBonnie180cm width, cream upholstery,110cm closed depth near window right, bluepetrol pillows. TV50inch on LEFT on a SMOOTH offwhite matte panel, with one slim Arenza shelf above and one below; no fluted wood panel, no floor rack. Curtain hardware spans ENTIRE window wall but lightweight warm offwhite linen-like fabric is gathered to RIGHT/sofa side; discreet light roller blackout in window opening. Preserve three amber glass hanging pendant lights over dining and white simple ceiling light. Maintain tight realistic circulation rather than stretching room. Photoreal fabric and wood, soft day+warm ambient lighting, no labels/no watermark/no extra furniture, no trashbin in this view. Do not change wall art photos or camera."
+        }
+      ]
+    },
+    {
+      "key": "Cozinha",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-3aaa58f4-31f2-47cf-abb7-c582d54a88b4.png",
+      "file": "Cozinha_R01.png",
+      "prompts": [
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/03_Referencias/Cozinha_e_lavanderia_vista_frontal_R00.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: precise-object-edit / photorealistic architectural study. This old kitchen/laundry image is a palette and orientation reference ONLY. Create an updated dedicated KITCHEN view of compact GuedalaPark apartment, straight verticals, slightly oblique wide landscape framing from dining entry, show kitchen from fridge onLEFT to cooking onRIGHT and just a glimpse of laundry beyond right. Finishes: matte dark blue-petrol flat UPPER fronts (Guararapes AzulPetroleo), warm light Arenza wood LOWER fronts, fine continuous very slim black edge handle profiles (not protruding handles), light creamy finely speckled BrancoItaunas GRANITE top and10cm backsplash, above this warm pale AlgodaoEgipcio matte paint, greige travertine-look porcelain floor, white ceiling with one shallow white SQUARE diffused plafon. Warm3000K light and undercabinet light limited to sink/prep. STRICT sequence left-to-right: ONE slim60cm ElectroluxIB6S STAINLESS/INOX LOOK inverse refrigerator (single tall fridge door above, freezer below, NOT white or Frenchdoor), beside it ONE61.9cmwide drawer module with EXACTLY3 drawers with fronts16/16/40cm (deep bottom drawer), then ONE65cmwide sink cabinet with TWO closed doors and stainless undermount rectangular40x34 Dora basin, matteblack curved high pullout kitchen faucet, then60cm cooking module with four-burner BLACK GAS glass cooktop and BLACK VenaxTotaleNero50L oven below. No extra drawer banks. Counter92high63deep and realistic narrow92cm corridor. Graphite ElectroluxPE12G compact countertop water purifier is on the prep counter nearest refrigerator, NOT elevated sideways or by faucet. Remaining preparation top clear, no airfryer here (kept in laundry). Black23L ME23P microwave on open shelf/niche ABOVE prep, ~10cm visible top gap kept as visual design decision, not proof of installation compliance; above it two blue doors. Above sink tall closed blue upper cabinet; above cooker recessed stainless Suggar60cm extractor under65cmblue upper, NO chimneyhood. Cabinet tops nearly ceiling, different bottomlevels as required for microwave and hood. Latest written counts/appliances override old image. Do not copy whitefridge, whitewasher, old drawer layout, marble veining. No island/no coffee bar/no decorativeplants/no labels/no watermark. Realistic natural material details, compact believable room. Appliances approximated visually."
+        },
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/.codex/generated_images/01a13064-823d-7480-b360-b2076e024efa/exec-cc457265-56ad-4df6-9612-30aaec5b58a5.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Precise architectural image correction. Preserve refrigeratorLEFT inox, 3 wood drawers,2 sinkdoors,blackgas cooktop,blackoven,bluepetrol uppers,materials,camera,lighting. There is NO WALL, NO DOORWAY and NO PARTITION between kitchen and laundry on theRIGHT. Remove entirely the invented right vertical beige wall/pier and white/gray jamb/frame/door opening. CONTINUE the same cabinet backing wall and counter straight to RIGHT from oven into laundry, only edge of silver washer below and continuouscounter above visible at right edge; far laundrywindow remains distant/rightmost beyond crop. The kitchen and laundry are one uninterrupted linear cabinet run. Remove the extra skinny lower wood cabinet to RIGHT of oven and extra skinny blue upper boxRIGHT of hood: hood cabinet directly precedes laundry run. Improve very slim black edge-profile pulls integrated along upperedge of lowers and loweredge of uppers, not chunky barhandles. Divide BLUE cupboard above microwave into TWO equal vertical doors, cupboard aboveSINK intoTWO doors, hoodcupboard TWOdoors, fridgeupperTWOdoors. Under microwave leave visually about10cm between applianceTOP and shelf above. Keep EXACTLY 3drawer fronts beneathprep, two equal narrow topfronts and one muchtaller bottomfront16/16/40 proportion. Fine speckled BrancoItaunas stone, NO bold veins. No change elsewhere,no new decorations,no text."
+        },
+        {
+          "referenced_image_paths": [
+            "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-3b912aa6-dc4a-4024-8500-5ea5c0415c5a.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Edit this exact image: remove the entire extra WOOD BASE CUPBOARD BETWEEN THE BLACK OVEN AND THE SILVER WASHER at far right. The silver front-loading washer must be DIRECTLY NEXT TO the oven module, immediately touching its rightside with only a thin divider/smallinstallationgap, no intermediate door/cabinet. Thus shift the laundrywasher LEFT into the space occupied by the extra wooddoor. Show a little more of washerfront, black circulardoor. The blueupper above this area is retained as laundryupper, but WITHOUT any glowing LED underneath it. Keep kitchen sink and blackoven and burner positions, cabinetcolors, drawerbank, refrigerator, microwave andcamera exact. Continuousstone counter across washer, no partitionwall. No other changes."
+        }
+      ]
+    },
+    {
+      "key": "Lavanderia",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-a347937c-70ab-4b47-880d-a61314751d7e.png",
+      "file": "Lavanderia_R01.png",
+      "prompts": [
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/03_Referencias/Cozinha_e_lavanderia_vista_frontal_R00.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: architectural photorealistic study, updated LAUNDRY ONLY, GuedalaPark compact apartment. Reference old photo for material palette and orientation, latest instructions override old white appliances and obsolete upper box. Camera from kitchen toward laundry near window, natural compact alcove, show full-height small laundry area with unobstructed window on RIGHT perpendicular wall. At countertop wall: ONE LGVC4 CV5012PC4 INOX LOOK silver front-loading washerdryer onLEFT beneath92cmhigh continuous BrancoItaunas creamy fine-speckle GRANITE counter75cmdeep; ONE assembled/sculpted utility sink in SAME granite onRIGHT near window, basin38x35x20, not ceramic or stainless tub. Below sink warm lightArenza wood cabinet59cmwide with CLOSED modest tilting front laundrybasket, slim matteblack edge grip, discreet ventilation, no open baskets. No cabinet directly under window; only shallow15cmstone ledge return. A black PhilipsWalitaRI9252 compact basket airfryer rests on counter above washer, small clearances visibly preserved; no extra huge appliances. Matteblack utilitytap. High flat bluepetrol closed storage over washer; near window WHITE small RinnaiE21 wallgasheater with visible flue in OPEN independent accessible technical bay, don't box in appliance, no implausible duct connection through glass. Precise heater/flue route is a study hypothesis. Drying rack100x50 lies raised near ceiling over passage, with single narrow vertical ARENZA sight-screen across its50cm kitchen-facing end; screen is FIXED separate from rack, sides and underside OPEN, NOT a full cabinet enclosure or horizontal underside box, no clothes hanging. A small hint of rack behind screen may show from this close angle. Keep heater separate from screen. Warm AlgodaoEgipcio matte walls above10cmgranite backsplash, greige travertine-look tilefloor, whiteceiling with discreet white surface-mounted diffused light3000K. No invented LED under laundry cupboards. Respect compact space about133cm cabinet run, don't make large American laundry room; no islands, no stacked machines, no extra sink. Photoreal render, natural windowlight, no labels/no watermark."
+        },
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/.codex/generated_images/01a13064-823d-7480-b360-b2076e024efa/exec-1ab9bbe8-91c5-49a1-93e2-d905a487b026.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Precise local edit of current laundry render. Only correct THREE visible details, preserve all geometry, inoxwasher, stonecounterandutilitysink, windowright, blueupper, gasheater/flue, blackairfryer, lights, camera. 1) The wood dryerrack sight-screen at upperLEFT is wrong: replace the tall vertical slatted open grille with ONE SOLID FLAT thin warm Arenza wood board, NO slats/no slots/no box. It must be a modest rectangular SCREEN close to ceiling in the same plane facing kitchen, roughly50cmwide and25cmhigh, rather than extending down near top of bluecabinet. Behind it maintain a small horizontal empty steel dryingrack just under ceiling; screen is vertical, bottom and sides of rack open, NO bottom enclosure. 2) Remove ornamental pottedplant from right of utilitytap, keep smallsoappump. 3) Stone is light creamy BrancoItaunas GRANITE with small restrained speckles, remove dark sweeping marble-like veins fromcounteranddeepstonebasin. All other elements untouched. No undercabinet LED strip. Photoreal, no labels/no text."
+        }
+      ]
+    },
+    {
+      "key": "Quarto",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-b3fb2810-0207-4f68-9873-ced3306ccb7b.png",
+      "file": "Quarto_R02_L_alinhado.png",
+      "prompts": [
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/03_Referencias/Quarto_referencia_aprovada_R03.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: precise-object-edit / architectural photorealistic study. Update this approved Guedala Park bedroom reference faithfully to the CURRENT design. Keep exact room orientation, entrance camera, window on RIGHT with white integrated shutters and NO curtains, queen bed facing camera, warm Arenza wood floor-to-ceiling wardrobe LEFT, mirror only on exposed short end facing entrance, smooth beige headboard TWO panels, two tiny floating wood bedside ledges and white reading sconces, olive and ivory bedding, white unobtrusive ceiling light. Critical changes: wardrobe total depth now 65 cm, width 200 cm along left wall; keep a NARROW approximately 49 cm passage to a 160 cm bed envelope (room cross dimension 295 including20 window allowance and1 rear protection); do NOT widen room to make it luxurious. Main wardrobe fronts TWO large sliding wood leaves with subtle integrated grips, no hinged multi-door array. Above these a distinct low maleiro band with TWO sliding leaves, until ceiling. Maleiro floor top215cm, underside213.2cm. The shallow overhead Arenza cabinet above headboard is 25cm deep with underside205cm, ceiling top continuous with wardrobe: form a STRAIGHT L turn at corner, not a disconnected cabinet. Its underside is 8.2cm lower than maleiro underside; preserve small3cm joint at corner, four modest closed flat doors along approximately217cm run; no doubled bulky corner cubby. Visual study ceiling approximately247cm; discreet top filler, no gap above wardrobe. Preserve mirror50x180 on65cm end side. Real wood texture, natural daylight mixed soft warm light, photographic materials, straight verticals, no labels, no diagram, no TV, no new decor. Latest written geometry supersedes old image; subtle tightness of room must remain believable."
+        },
+        {
+          "referenced_image_paths": [
+            "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Referencias\\Renders_2026-10-12\\Quarto_R01.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: precise-object-edit. Edit this exact approved bedroom composition with ONE very important cabinetry geometry change. The overhead shallow wood cabinet over the HEADBOARD at the back currently hangs lower than the maleiro/upper storage band over the LEFT tall wardrobe. RAISE ONLY THE BOTTOM EDGE of the headboard overhead cabinet until its underside is at EXACTLY THE SAME HEIGHT as the underside of the maleiro band above the left wardrobe doors. BOTH UPPER CABINET RUNS MUST HAVE IDENTICAL HEIGHT, with one continuous level bottom datum wrapping around the 90-degree L corner and a shared level ceiling/top datum. REMOVE the 8.2cm DOWNWARD STEP at that corner. Keep top fixed against existing ceiling; this makes headboard upper cabinet 8.2cm SHORTER vertically, not move whole cabinet upward through ceiling, not lower left maleiro. Datum approximately213.2cm abovefloor, shelf upper215cm on bothruns, shared carcass top244 and ceiling247 incltrim; therefore both carcasses30.8cmhigh. At inner corner bottom lines must meet at same actual 3D elevation, perspective correct, continuous level L, tiny3cm joint allowed. Preserve its four plain flat doors, shallow25cmdepth, woodfinish,217cmlength, actualwidth. Keep left wardrobe exactly65cmdeep, sliding main doors, mirrorendpanel, all other original features unchanged: queenbed, two smooth beige upholstered headboardpanels, olivebedlinen, littlebedsideledges, whitewall readinglamps, windowandshutters no curtains, room/camera/light/floor. Do not widen room, alter bed, add decor or change wardrobe depths or maleiro height. This is a localized adjustment raising the headboard cabinet bottom only, make the equal-height L unmistakable. Photorealistic, no text/labels."
+        }
+      ],
+      "previous_file": "Quarto_R01.png"
+    },
+    {
+      "key": "Escritorio",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-dca797ea-7e12-4873-915c-ba417277e394.png",
+      "file": "Escritorio_R01.png",
+      "prompts": [
+        {
+          "transparent_background": false,
+          "prompt": "Use case: photorealistic architectural interior study. Render the CURRENT GuedalaPark home office/guest room, compact Brazilian second bedroom230cmwide x295cmdeep, camera just inside entrance near front right looking toward window on far230cm wall, wide but not fisheye, straight verticals. Fullwidth-looking centered200cm long70cmdeep light warm GreenplacArenza wood floating-style DESK facing far window, height75cm. Desk holds notebookLEFT, TWO27inch gaming monitors landscape on slim adjustable arms in center (main monitorRIGHT of secondary), and compact black DeepCoolCH360 desktop tower at farRIGHT. Exactly TWO shallow stacked wood-front drawers suspended under FAR LEFT of desktop, module40W45D24H, nominal400mm runners, nofloorpedestal. Center/right knee space uncluttered, one reasonable generic black ergonomic mesh officechair facing main monitor (model not finalized, not racingbucket). Window integrated white shutter with simple light curtain, no AC. On LEFT long wall near entrance a lightGRAY compact Daiane-type sofa-bed140cmwide90cmdeep CLOSED, back againstleftwall, facingRIGHT TV wall; sofa begins nearer entrance leaving a realistic clear zone after desk. Above sofa a single200W55H35D closed OFFWHITE MATTE uppercabinet with aboutfive slim40cmhinged doors and small top filler towhiteceiling (studyheight247), do NOT place bulky cabinet next to window. On RIGHT wall opposite sofa one43inchTV, above it ONE slim Arenza shelf top195cm for PS5SlimDigital lying horizontally, with small empty reserve for future console. Area ABOVE console shelf is OPEN, no rightuppercabinet, no secondPS5, noXbox supplied. Two modest decorative prints, cinematicSaoPaulo and Cyberpunk themes, only on remaining freewall without moving cabinets or TV. Warm pale walls, pale naturalwood floor, restrained bluepetrol accent in decor, realistic warmdaylight, discreet white diffused ceilinglamp, organizedcables, noRGB neonroom, noextra furniture, noTV overdesk, noextrabox-storage cabinet. Spatial arrangement moreimportantthan styling. Real wood, linen, mesh, plastic textures. No text labels or watermark. Image depicts everydayworkingmode, guestbed not open."
+        }
+      ]
+    },
+    {
+      "key": "Banheiro",
+      "source": "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-38c5cf36-7b1c-4b89-9e14-7b024411c807.png",
+      "file": "Banheiro_R01.png",
+      "prompts": [
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/03_Referencias/Banheiro_referencia_aprovada_2026-09-18.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: precise-object-edit. Faithfully update this approved compact bathroom reference, keeping orientation showerLEFT, toiletCENTER, vanityRIGHT, room only209cm wide124cm deep, existing small left showerwindow and shaft volume NOT removed, white ceiling. Important latest selected changes: replace square rainfall shower with SMALL ROUND MATTE BLACK wall shower approx13.2cm diameter, AddraLivo type, with diverter and handheld shower hose; not a giant square head. Toilet is compact white CeliteVIP type59cm projection37.5width80height, clearly separate close-coupled cistern, NOT long expensive sculptural toilet. Vanity60cmwide45depth; white rectangular thin-wall vessel bowl40x30x13.5 DecaSlim style, matteblack high spout monobloc faucet centered BEHIND bowl between bowl and mirror, never at side. Counter and small shower shelf are Branco Itaunas light creamy finely speckled GRANITE, NOT marble veins. Floating entirely CLOSED vanity matteBEIGE smooth fronts, light wood sides, no niches/fluting/protruding handles; retain illustrative two fronts. Shallow full mirrored medicine cabinet lightwood side edges, no open shelves, frontal diffused vertical makeup lights and warm indirect underside glow. Exactly ONE showerwall, rear/showerwall, in muted sage green small rectangular tile7x24.4; window wall lightbeige, all remaining walls outside shower warm pale AlgodaoEgipcio matte. Floor subtle lightgreige travertine-look porcelain, not bold marble; transparent showerglass with fineBLACK profiles. Small black hygienic douche, black paperholder, black hooks, simple neutral towel. No stone ledge across toilet and no newly invented external water pipe route or boxed ceiling soffit: hidden hydraulic route remains a study assumption, not construction solution. Preserve approximate existing framing and realistic small-room scale, no stretched wide room. Photoreal natural textures, daylight warm illumination, no text/labels/watermark."
+        },
+        {
+          "referenced_image_paths": [
+            "C:/Users/Elias/.codex/generated_images/01a13064-823d-7480-b360-b2076e024efa/exec-00610023-3b3a-4ba5-b876-8ade096229dc.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Precise material-only architectural image correction. Keep bathroom geometry, camera, compact toilet, black ROUND shower with handheld hose, green showerwallONLY, window, cabinet, lights, bowl, black faucetbehindbowl, glass, all objects exactly. Change ONLY stone vanityCOUNTER with shortback/sideupstands and small showerSHELF from strongly veined marble to BrancoItaunas GRANITE: near-ivory creamy uniform naturalstone with restrained fine beige gray black mineralSPECKLES, no flowingveins/no thickgraystreaks/no fossilmarble. Counter clean light modest2cmthin edge. Floor/walltiles remain lightgreige travertinelook, not changing theirmaterial. Very faithful local material edit, no new objects, no text."
+        },
+        {
+          "referenced_image_paths": [
+            "C:\\Users\\Elias\\.codex\\generated_images\\01a13064-823d-7480-b360-b2076e024efa\\exec-7adbd3e5-6011-485a-82a7-43fdbd084216.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Edit only vanity horizontal counter, short backsplash and shower shelf material. Replace them with NEAR UNIFORM PALE CREAM STONE with very tiny sandlike dots. Absolutely remove the current prominent brown/gray flowing swirls, large irregular veins, darkmarbling. The new countertop looks almost plain ivory at this viewing distance; sparse fine 1mm lightbeige/grayspeckles, straight2cmthin edge. Do not alter floor or walls or cabinet faces or faucet or bowl. Keep all other pixels/composition same. This is crucial: current rendered dark swirling marble is not the selected fine creamy granite. No changes anywhereelse."
+        }
+      ]
+    }
+  ]
+}

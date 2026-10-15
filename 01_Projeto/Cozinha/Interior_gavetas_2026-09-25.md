@@ -1,5 +1,7 @@
 # Interior das gavetas — estudo de 25/09/2026
 
+**Auditoria de escala em 12/10/2026:** referências atuais de fabricantes sustentam manter o módulo 61,9 e frentes 16/16/40; não há evidência de gavetas principais excessivamente largas ou profundas. Confirmar úteis com o sistema exato, H livre de G2 ≥ 11,1 e carga total de G3. Caixa de 50 e corrediça nominal de 50 não são equivalentes em todas as famílias. [Auditoria por ambiente](../../05_Entregas/pdf/Auditoria_dimensional_marcenaria_2026-10-12.pdf).
+
 **30/09 — comparação de escala e interiores:** [fabricantes e dimensões](../Compatibilizacao_2026-09-30/Padroes_gavetas.md); [prancha dos organizadores](../Compatibilizacao_2026-09-30/Organizadores_g3.html). Manter 61,9 e 16/16/40; organizar o útil sem fixar grades antes das embalagens.
 
 **Torre × gavetas — complemento de 28/09:** [corte e critérios](../Compatibilizacao_2026-09-28/Torre_gavetas.md). Preservar caixa externa de 50 cm; seção proposta até frente aplicada de 61 cm deixa 9,2 cm atrás, antes de fundo/recuo. Não encurtar G3 ou as três caixas pela altura geral da torre; envelope de referência cruza G1/G2 e precisa ser compatibilizado em profundidade. Modelo preto 20 A e anel ainda não comprovados.

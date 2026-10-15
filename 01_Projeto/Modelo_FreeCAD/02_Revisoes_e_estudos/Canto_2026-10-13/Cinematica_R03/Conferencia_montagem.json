@@ -1,0 +1,102 @@
+{
+  "poses": [
+    {
+      "name": "Fechado",
+      "requested_alpha_deg": 0,
+      "real_alpha_deg": -3.979039320256561e-13,
+      "beta_deg": 0,
+      "neighbour_ideal_deg": 0,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 154.00000000000273,
+        "faixa": 30.413812651490346,
+        "Frente de correr do maleiro 1": 3.0000000000002274,
+        "Frente de correr do maleiro 2": 663.0030165843896
+      },
+      "invalid": []
+    },
+    {
+      "name": "Inicio",
+      "requested_alpha_deg": 1,
+      "real_alpha_deg": 0.9999998714095852,
+      "beta_deg": 0,
+      "neighbour_ideal_deg": 0,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 146.6093013999016,
+        "faixa": 31.91485395540006,
+        "Frente de correr do maleiro 1": 3.1272601153095625,
+        "Frente de correr do maleiro 2": 663.3757870282452
+      },
+      "invalid": []
+    },
+    {
+      "name": "Vizinha_critica",
+      "requested_alpha_deg": 24.25,
+      "real_alpha_deg": 24.24998994995002,
+      "beta_deg": 0,
+      "neighbour_ideal_deg": 24,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 50.24970454064626,
+        "faixa": 151.9422500028949,
+        "Frente de correr do maleiro 1": 5.913494411951587,
+        "Frente de correr do maleiro 2": 664.6696128425056
+      },
+      "invalid": []
+    },
+    {
+      "name": "Intermediario",
+      "requested_alpha_deg": 45,
+      "real_alpha_deg": 44.999999324117645,
+      "beta_deg": 30,
+      "neighbour_ideal_deg": 45,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 301.117203385058,
+        "faixa": 195.79493773994605,
+        "Frente de correr do maleiro 1": 8.477940541441724,
+        "Frente de correr do maleiro 2": 663.7455666020115
+      },
+      "invalid": []
+    },
+    {
+      "name": "Principal_aberta",
+      "requested_alpha_deg": 92,
+      "real_alpha_deg": 92.00000000002666,
+      "beta_deg": 0,
+      "neighbour_ideal_deg": 0,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 422.6556799879465,
+        "faixa": 438.3759038652722,
+        "Frente de correr do maleiro 1": 13.364841030152547,
+        "Frente de correr do maleiro 2": 483.96303518810777
+      },
+      "invalid": []
+    },
+    {
+      "name": "Conjugado_aberto",
+      "requested_alpha_deg": 92,
+      "real_alpha_deg": 92.00000000002666,
+      "beta_deg": 60,
+      "neighbour_ideal_deg": 90,
+      "front_collisions": [],
+      "hardware_wood_collisions": [],
+      "distance_mm": {
+        "vizinha": 533.7482005296383,
+        "faixa": 438.3759038652722,
+        "Frente de correr do maleiro 1": 13.364841030152547,
+        "Frente de correr do maleiro 2": 445.91218510919964
+      },
+      "invalid": []
+    }
+  ],
+  "scope": "Principal multilink reconstruida. Uniao com ajuste travado. Vizinha ainda com giro ideal nesta etapa; nao certificar sua trajetória real.",
+  "invalid": []
+}

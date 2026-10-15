@@ -1,0 +1,5626 @@
+{
+  "date": "2026-10-06",
+  "units": "cm",
+  "status": "estudo novo condicionado;nenhum destino adotado",
+  "preservedPriority": {
+    "upperRemaining": [
+      32.8,
+      39,
+      30
+    ],
+    "bucket": [
+      25,
+      25,
+      25
+    ],
+    "underLeaf": {
+      "width": 80,
+      "depth": 39,
+      "height": 20.2,
+      "lowerFloor": 10,
+      "ceiling": 30.2,
+      "midSupport": 1.8,
+      "previousConservativeDepth": 31.4,
+      "depthStatus": "Nova hipótese usa a profundidade39 já estudada no banco; apoio do nicho deve ser compatibilizado sem alterar folha35"
+    },
+    "selectionLimits": {
+      "underCell": [
+        37.1,
+        35,
+        16.4
+      ],
+      "upperRemaining": [
+        30.799999999999997,
+        35,
+        26.2
+      ]
+    },
+    "vacuum": [
+      35,
+      26,
+      16
+    ],
+    "gamesHeight": 16.2,
+    "clean60": [
+      60,
+      39,
+      30
+    ],
+    "cleanStatus": "alternativa compativel com prioridade;nao adotada",
+    "noClean94_6": "Comparação nova, não adotada. Prioridade funcional de aspirador/balde/poucos jogos preservada.",
+    "noCleanDisplaces": [
+      "Duas travessas de vidro",
+      "Liquidificador completo",
+      "Batedeira portátil completa"
+    ]
+  },
+  "studies": [
+    {
+      "kind": "Ou725",
+      "panelThicknessHypothesis": 0.4,
+      "panelBottom": 12.8,
+      "panelTop": 13.2,
+      "pad": 0.2,
+      "potZ": 13.4,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 0.4
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 0.4
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 1,
+          "z": 13.4,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote2",
+          "x": 18.5,
+          "y": 1,
+          "z": 13.4,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 13.4,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote4",
+          "x": 18.5,
+          "y": 23,
+          "z": 13.4,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote5",
+          "x": 0.5,
+          "y": 23,
+          "z": 21.099999999999998,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote6",
+          "x": 18.5,
+          "y": 23,
+          "z": 21.099999999999998,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 28.6,
+      "closedGap": 1.4,
+      "passesOldReserve": false,
+      "shortOldReserve": 2.1,
+      "extraction": [
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 31.099999999999998,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 31.099999999999998,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 27.799999999999997,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 27.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 27.799999999999997,
+              "y": 20.3,
+              "z": 23.4,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 27.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 23.4,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "Ou725",
+      "panelThicknessHypothesis": 1.8,
+      "panelBottom": 12.8,
+      "panelTop": 14.6,
+      "pad": 0.2,
+      "potZ": 14.8,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 1.8
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 1.8
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 1,
+          "z": 14.8,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote2",
+          "x": 18.5,
+          "y": 1,
+          "z": 14.8,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 14.8,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote4",
+          "x": 18.5,
+          "y": 23,
+          "z": 14.8,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote5",
+          "x": 0.5,
+          "y": 23,
+          "z": 22.5,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        },
+        {
+          "id": "pote6",
+          "x": 18.5,
+          "y": 23,
+          "z": 22.5,
+          "w": 17,
+          "d": 12,
+          "h": 7.5
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 30,
+      "closedGap": 0,
+      "passesOldReserve": false,
+      "shortOldReserve": 3.5,
+      "extraction": [
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 32.5,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote5",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 32.5,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote6",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 27.799999999999997,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 27.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote1",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 27.799999999999997,
+              "y": 20.3,
+              "z": 24.8,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 27.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote2",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 5.799999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote3",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 24.8,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 5.799999999999997,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 20.3,
+              "z": 36,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 20.3,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": -16,
+              "y": 41.5,
+              "z": 97,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            },
+            {
+              "id": "pote4",
+              "x": -16,
+              "y": 41.5,
+              "z": 75,
+              "w": 12,
+              "d": 17,
+              "h": 7.5
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": false,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "Invicta1L",
+      "panelThicknessHypothesis": 0.4,
+      "panelBottom": 12.8,
+      "panelTop": 13.2,
+      "pad": 0.2,
+      "potZ": 13.4,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 0.4
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 0.4
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 20.5,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote2",
+          "x": 16.8,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote5",
+          "x": 16.8,
+          "y": 0.5,
+          "z": 20.5,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 13.4,
+          "w": 20.4,
+          "d": 15.3,
+          "h": 6.9
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 20.5,
+          "w": 20.4,
+          "d": 15.3,
+          "h": 6.9
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 27.4,
+      "closedGap": 2.6,
+      "passesOldReserve": false,
+      "shortOldReserve": 0.9,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 30.5,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 75,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 30.5,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 30.5,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 18.6,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 75,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 23.4,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 18.6,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "Invicta1L",
+      "panelThicknessHypothesis": 1.8,
+      "panelBottom": 12.8,
+      "panelTop": 14.6,
+      "pad": 0.2,
+      "potZ": 14.8,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 1.8
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 1.8
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 21.900000000000002,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote2",
+          "x": 16.8,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote5",
+          "x": 16.8,
+          "y": 0.5,
+          "z": 21.900000000000002,
+          "w": 15.3,
+          "d": 20.4,
+          "h": 6.9
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 14.8,
+          "w": 20.4,
+          "d": 15.3,
+          "h": 6.9
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 21.900000000000002,
+          "w": 20.4,
+          "d": 15.3,
+          "h": 6.9
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 28.8,
+      "closedGap": 1.2,
+      "passesOldReserve": false,
+      "shortOldReserve": 2.3,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 31.900000000000002,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote6",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 75,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 31.900000000000002,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote4",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 31.900000000000002,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 18.6,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote5",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 2.4999999999999964,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 97,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            },
+            {
+              "id": "pote3",
+              "x": -17.65,
+              "y": 39.8,
+              "z": 75,
+              "w": 15.3,
+              "d": 20.4,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 19.9,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote1",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 24.8,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 19.9,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 18.6,
+              "z": 39,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 18.6,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 97,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            },
+            {
+              "id": "pote2",
+              "x": -20.2,
+              "y": 42.35,
+              "z": 75,
+              "w": 20.4,
+              "d": 15.3,
+              "h": 6.9
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "Luminarc820",
+      "panelThicknessHypothesis": 0.4,
+      "panelBottom": 12.8,
+      "panelTop": 13.2,
+      "pad": 0.2,
+      "potZ": 13.4,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 0.4
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 0.4
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 20.3,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote2",
+          "x": 15,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote5",
+          "x": 15,
+          "y": 0.5,
+          "z": 20.3,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 13.4,
+          "w": 17.9,
+          "d": 13.5,
+          "h": 6.7
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 20.3,
+          "w": 17.9,
+          "d": 13.5,
+          "h": 6.7
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 27,
+      "closedGap": 3,
+      "passesOldReserve": false,
+      "shortOldReserve": 0.5,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 30.3,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 30.3,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 30.3,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.8,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 23.4,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.8,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "Luminarc820",
+      "panelThicknessHypothesis": 1.8,
+      "panelBottom": 12.8,
+      "panelTop": 14.6,
+      "pad": 0.2,
+      "potZ": 14.8,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 1.8
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 1.8
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 21.7,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote2",
+          "x": 15,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote5",
+          "x": 15,
+          "y": 0.5,
+          "z": 21.7,
+          "w": 13.5,
+          "d": 17.9,
+          "h": 6.7
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 14.8,
+          "w": 17.9,
+          "d": 13.5,
+          "h": 6.7
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 21.7,
+          "w": 17.9,
+          "d": 13.5,
+          "h": 6.7
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 28.4,
+      "closedGap": 1.6,
+      "passesOldReserve": false,
+      "shortOldReserve": 1.9,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 31.7,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote6",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 31.7,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 31.7,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.8,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 4.299999999999997,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            },
+            {
+              "id": "pote3",
+              "x": -16.75,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.5,
+              "d": 17.9,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 24.8,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.8,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.8,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.25,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.5,
+              "h": 6.7
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "KeepnBox820",
+      "panelThicknessHypothesis": 0.4,
+      "panelBottom": 12.8,
+      "panelTop": 13.2,
+      "pad": 0.2,
+      "potZ": 13.4,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 0.4
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 0.4
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 19.8,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote2",
+          "x": 14.8,
+          "y": 0.5,
+          "z": 13.4,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote5",
+          "x": 14.8,
+          "y": 0.5,
+          "z": 19.8,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 13.4,
+          "w": 17.9,
+          "d": 13.3,
+          "h": 6.2
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 19.8,
+          "w": 17.9,
+          "d": 13.3,
+          "h": 6.2
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 26,
+      "closedGap": 4,
+      "passesOldReserve": true,
+      "shortOldReserve": 0,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 29.8,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 29.8,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 29.8,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.6,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 23.4,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 23.4,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.6,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 0.4
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    },
+    {
+      "kind": "KeepnBox820",
+      "panelThicknessHypothesis": 1.8,
+      "panelBottom": 12.8,
+      "panelTop": 14.6,
+      "pad": 0.2,
+      "potZ": 14.8,
+      "panels": [
+        {
+          "id": "painel_frontal",
+          "x": 0,
+          "y": 22.5,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 16.5,
+          "h": 1.8
+        },
+        {
+          "id": "painel_posterior",
+          "x": 0,
+          "y": 0,
+          "z": 12.8,
+          "w": 36.2,
+          "d": 21.5,
+          "h": 1.8
+        }
+      ],
+      "pots": [
+        {
+          "id": "pote1",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote4",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 21.2,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote2",
+          "x": 14.8,
+          "y": 0.5,
+          "z": 14.8,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote5",
+          "x": 14.8,
+          "y": 0.5,
+          "z": 21.2,
+          "w": 13.3,
+          "d": 17.9,
+          "h": 6.2
+        },
+        {
+          "id": "pote3",
+          "x": 0.5,
+          "y": 23,
+          "z": 14.8,
+          "w": 17.9,
+          "d": 13.3,
+          "h": 6.2
+        },
+        {
+          "id": "pote6",
+          "x": 0.5,
+          "y": 23,
+          "z": 21.2,
+          "w": 17.9,
+          "d": 13.3,
+          "h": 6.2
+        }
+      ],
+      "lowerPreserved": [
+        {
+          "name": "Duas travessas encaixadas: envelope completo",
+          "x": 1.1,
+          "y": 16,
+          "z": 0.3,
+          "w": 34,
+          "d": 22,
+          "h": 10,
+          "id": "inferior0"
+        },
+        {
+          "name": "Batedeira portátil: conjunto completo",
+          "x": 3.1,
+          "y": 1,
+          "z": 0.3,
+          "w": 30,
+          "d": 14,
+          "h": 12,
+          "id": "inferior1"
+        },
+        {
+          "name": "Liquidificador: motor, cabo e plugue",
+          "x": 39,
+          "y": 1,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 20,
+          "id": "inferior2"
+        },
+        {
+          "name": "Liquidificador: jarra, tampa e lâminas",
+          "x": 39,
+          "y": 20,
+          "z": 0.3,
+          "w": 18,
+          "d": 18,
+          "h": 24,
+          "id": "inferior3"
+        }
+      ],
+      "contained": true,
+      "support": [
+        {
+          "id": "pote1",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote4",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote2",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote5",
+          "painel": [
+            "painel_posterior"
+          ]
+        },
+        {
+          "id": "pote3",
+          "painel": [
+            "painel_frontal"
+          ]
+        },
+        {
+          "id": "pote6",
+          "painel": [
+            "painel_frontal"
+          ]
+        }
+      ],
+      "collisions": [],
+      "maxTop": 27.4,
+      "closedGap": 2.6,
+      "passesOldReserve": false,
+      "shortOldReserve": 0.9,
+      "extraction": [
+        {
+          "id": "pote6",
+          "waypoints": [
+            {
+              "id": "pote6",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 31.2,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote6",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote4",
+          "waypoints": [
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 31.2,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote4",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote5",
+          "waypoints": [
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 31.2,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": 8,
+              "y": 16.6,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote5",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote3",
+          "waypoints": [
+            {
+              "id": "pote3",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 4.4999999999999964,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 97,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            },
+            {
+              "id": "pote3",
+              "x": -16.65,
+              "y": 41.05,
+              "z": 75,
+              "w": 13.3,
+              "d": 17.9,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote1",
+          "waypoints": [
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 24.8,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 22.4,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": 8,
+              "y": 2.3,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote1",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "pote2",
+          "waypoints": [
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 24.8,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 22.4,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.6,
+              "z": 36,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": 8,
+              "y": 16.6,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 97,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            },
+            {
+              "id": "pote2",
+              "x": -18.95,
+              "y": 43.35,
+              "z": 75,
+              "w": 17.9,
+              "d": 13.3,
+              "h": 6.2
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_frontal",
+          "waypoints": [
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 1.7999999999999972,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 97,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_frontal",
+              "x": -18.25,
+              "y": 31.9,
+              "z": 75,
+              "w": 16.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        },
+        {
+          "id": "painel_posterior",
+          "waypoints": [
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 22.8,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 19.299999999999997,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 31,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": 8,
+              "y": 1.8,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 97,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            },
+            {
+              "id": "painel_posterior",
+              "x": -20.75,
+              "y": 31.9,
+              "z": 75,
+              "w": 21.5,
+              "d": 36.2,
+              "h": 1.8
+            }
+          ],
+          "continuousAxisAligned": true,
+          "blocked": []
+        }
+      ],
+      "lowerOriginalPathsUnchanged": true,
+      "nominalConditioned": true,
+      "limitations": [
+        "t e novas juntas nao sao especificacao estrutural",
+        "sem passo de nesting: cada pote completo mais.2 entre eles",
+        "pega aberta nao certificada pela sobra fechada",
+        "carga/retencao/ferragens/massa com comida nao verificadas"
+      ]
+    }
+  ],
+  "jarThermChecks": [
+    {
+      "zone": "PiaR3",
+      "limit": [
+        10.5,
+        23.3,
+        17.6
+      ],
+      "status": "reserva estreita proposta;nao adotar",
+      "objects": [
+        {
+          "id": "jarraSense",
+          "dims": [
+            9.5,
+            15.5,
+            27
+          ],
+          "unitFit": false,
+          "heightBeyond": 9.4
+        },
+        {
+          "id": "termicaAlfi",
+          "dims": [
+            13.5,
+            15.6,
+            26.3
+          ],
+          "unitFit": false,
+          "heightBeyond": 8.7
+        }
+      ]
+    },
+    {
+      "zone": "PiaR1",
+      "limit": [
+        12.8,
+        22.3,
+        22.8
+      ],
+      "status": "mixer preservado;zero saldo adicional",
+      "objects": [
+        {
+          "id": "jarraSense",
+          "dims": [
+            9.5,
+            15.5,
+            27
+          ],
+          "unitFit": false,
+          "heightBeyond": 4.2
+        },
+        {
+          "id": "termicaAlfi",
+          "dims": [
+            13.5,
+            15.6,
+            26.3
+          ],
+          "unitFit": false,
+          "heightBeyond": 3.5
+        }
+      ]
+    },
+    {
+      "zone": "PiaR2",
+      "limit": [
+        5.6,
+        29.5,
+        22.8
+      ],
+      "status": "tabua carnes candidata preservada",
+      "objects": [
+        {
+          "id": "jarraSense",
+          "dims": [
+            9.5,
+            15.5,
+            27
+          ],
+          "unitFit": false,
+          "heightBeyond": 4.2
+        },
+        {
+          "id": "termicaAlfi",
+          "dims": [
+            13.5,
+            15.6,
+            26.3
+          ],
+          "unitFit": false,
+          "heightBeyond": 3.5
+        }
+      ]
+    },
+    {
+      "zone": "C3_altura",
+      "limit": [
+        51.1,
+        31.4,
+        25.8
+      ],
+      "status": "panos e dez potes aprovados;sem saldo livre",
+      "objects": [
+        {
+          "id": "jarraSense",
+          "dims": [
+            9.5,
+            15.5,
+            27
+          ],
+          "unitFit": false,
+          "heightBeyond": 1.2
+        },
+        {
+          "id": "termicaAlfi",
+          "dims": [
+            13.5,
+            15.6,
+            26.3
+          ],
+          "unitFit": false,
+          "heightBeyond": 0.5
+        }
+      ]
+    },
+    {
+      "zone": "C4_altura_com_reserva",
+      "limit": [
+        51.1,
+        31.4,
+        26.5
+      ],
+      "status": "seis tacas/seis xicaras/seis pires candidatos preservados;nao area livre",
+      "objects": [
+        {
+          "id": "jarraSense",
+          "dims": [
+            9.5,
+            15.5,
+            27
+          ],
+          "unitFit": false,
+          "heightBeyond": 0.5
+        },
+        {
+          "id": "termicaAlfi",
+          "dims": [
+            13.5,
+            15.6,
+            26.3
+          ],
+          "unitFit": true,
+          "heightBeyond": -0.2
+        }
+      ]
+    }
+  ],
+  "benchVessels": {
+    "leftArea": 1411.8000000000002,
+    "leftExistingArea": 1168,
+    "jarThermArea": 357.85,
+    "leftAreaBeyondIfBoth": 114.05,
+    "rightArea": 858,
+    "rightMotorAndJarArea": 648,
+    "rightSpare": 210,
+    "thermBase": 210.6,
+    "thermBeyondRightArea": 0.6,
+    "bucketSideMaximum": 7.8,
+    "aboveBucketMaximum": 4.7,
+    "jarsStanding": true
+  },
+  "compactThermos": {
+    "TTC1500pro": [
+      12.5,
+      18,
+      22.5
+    ],
+    "THX1500": [
+      12.5,
+      19,
+      23
+    ],
+    "R3width": 10.5,
+    "R1occupied": true,
+    "destinationResolved": false
+  },
+  "wholeTargetGroupResolved": false,
+  "priorityNominalChecks": {
+    "vacuumFitsExistingCell": true,
+    "twoGamesFitsExistingCell": true,
+    "bucketFitsExistingUpperReserve": true,
+    "underLeafUnchanged": true,
+    "cleanFourLowerEnvelopesUnchanged": true,
+    "newOccupationsOutsideClean60": false
+  },
+  "bucketJarThermSensitivity": {
+    "currentUpperSelection": [
+      30.799999999999997,
+      35,
+      26.2
+    ],
+    "jarHeightBeyond": 0.8,
+    "alfiHeightBeyond": 0.1,
+    "depthBucket25PlusAlfiMinDepth13_5": 38.5,
+    "nominalDepth": 39,
+    "totalDepthLeftForBackGapFront": 0.5,
+    "legacyUsefulDepth": 35,
+    "shortUsefulDepth": 3.5,
+    "status": "mesmo sem reserva de altura, alinhamento bruto precisaria reduzir reservas; nao validado"
+  },
+  "sources": {
+    "localRoot": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto",
+    "localFiles": [
+      "Compatibilizacao_2026-10-03/Resultados_banco_limpo.json",
+      "Compatibilizacao_2026-10-03/Resultados_bau_saldo.json",
+      "Compatibilizacao_2026-10-03/Resultados_conjunto_armazenamento.json"
+    ],
+    "productQueryDate": "2026-10-06",
+    "Luminarc820": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-pure-box-active",
+    "KeepnBox820": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-keepn-box",
+    "Ou725": "https://www.ou.com.br/products/pote-de-vidro-hermetico-ou-725ml-linha-fresh-lock",
+    "Invicta1L": "https://www.invictaonline.com.br/kit-com-6-potes-de-vidro-hermetico-1000ml-retangular-invicta/p"
+  }
+}

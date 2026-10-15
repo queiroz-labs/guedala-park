@@ -1,0 +1,26 @@
+# Guedala Park — conjunto atual R28, folga proposta
+
+[Detalhamento documental solicitado por Elias](../02_Revisoes_e_estudos/Detalhamento_documental_R28_2026-10-14/Indice_entregas_R28.html): quatro entregas concluídas após novo pedido humano, sem reiniciar o agendamento. Caderno A3 com 20 pranchas dos módulos (21 páginas com capa) e caderno A4 com ferragens, dez sequências de montagem/uso/manutenção e conferência documental (20 páginas). Inclui 15 linhas de ferragens, 54 referências de calços, inventário de 774 componentes dos módulos e nove itens reconciliados. Corrigidas instruções históricas sobre o controle da vizinha do canto e a folga ao teto, com preservação das revisões anteriores. Todas as páginas renderizadas e inspecionadas; nove links e contagens conferidos. [Evidência da verificação](../02_Revisoes_e_estudos/Detalhamento_documental_R28_2026-10-14/Verificacao_entregas.json).
+
+R28 e seu SHA256 permanecem inalterados. As pranchas são de compatibilização: centros de envoltória dos calços não são coordenadas de furação; cotas de corpo não são lista de corte. Referências comerciais, aplicações propostas e gabaritos estão diferenciados. Fixação, carga, materiais reais, tolerâncias e demais pendências físicas/comerciais continuam explícitas. Esta entrega não comprova a execução da revisão Astra.
+
+[Avanço autônomo — carga das nove gavetas](../02_Revisoes_e_estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html): corrigida a distinção documental entre orçamento para conteúdo e margem restante. Leitura de 54 peças de caixa/frente e dez de bandeja, sem alteração CAD. No cenário 900 kg/m³, G3 soma15,63 kg de madeira e G2 com bandejas8,75 kg; saldos ainda precisam comportar acessórios e conteúdo. Capacidade40kg candidata, não homologada; pesos reais/fixação pendentes.
+
+Abrir [Guedala_Park_R28_Folga_Teto_Proposta.FCStd](../02_Revisoes_e_estudos/Folga_teto_R28_2026-10-14/Guedala_Park_R28_Folga_Teto_Proposta.FCStd). IncorporaR27/R26 e anteriores, preservando cozinha à esquerda, alternância de portas, modelos, programa e46 acessos/20 módulos.
+
+Elias pediu uma folga simples sem perder espaço interno. **Proposta: baixar o aéreo inteiro do escritório20 mm.** Base1900/topo2450, sob teto de estudo2470; caixa2000×350×550 e todos os vãos internos preservados. Quatro portas, apoios e ferragens descem juntos; nenhuma peça foi encurtada, nenhum mecanismo ou arremate acrescentado. [Cotas, conferência e limites](../02_Revisoes_e_estudos/Folga_teto_R28_2026-10-14/README.md).
+
+O trecho afetado passou54.900 pares de envoltórias durante o deslocamento vertical; fonteR27 preservada. R28 salva e61 posições atuais/vínculo espelhado conferidos.5.899 objetos, nenhumInvalid; apenasPlacement do módulo e metadados informativos mudaram. Não repetiu as antigas varreduras de portas ou o apartamento inteiro.
+
+Mantém [a restauração dos dois perfis oficiaisR27](Entrega_atual_R27.md) e [o estacionamento temporário proposto da lixeiraR26](Entrega_atual_R26.md). As925 formas nativas atuais continuam as daR27: alteração de posição do pai não substitui Shapes.
+
+**Proposta de instalação, sem aprovação executiva.** Altura acabada do teto, montagem/fixação/tolerâncias e uso real permanecem pendentes. Não garante que20 mm bastem em obra. Demais pendências de ferragens, carga, hidráulica, tanque/pedra, banco e aparelhos permanecem. Sem corte, furação, compra ou fabricação.
+
+Agendamento encerrado e excluído ao atingir19h de14/10/2026 emSãoPaulo. A revisão final Astra foi solicitada às18h30 nesta conversa, mas sua execução/conclusão não foi comprovada pelas ferramentas suportadas; permanece pendente. [Registro do encerramento e limitação](Revisao_final_Astra_2026-10-14.md). Este encerramento não libera fabricação.
+
+[Conferência adicional dos controles e instruções](../02_Revisoes_e_estudos/Consistencia_controles_R28_2026-10-14/README.md):46acessos/57campos de comando conferidos; guia vigente corrigido para o estacionamento temporárioR26. Encontro específico dos percursos documentados do banco com o sofá corrigido:22intervalos projetados separados,830mm nominais mínimos emY. Sem mudançaCAD ou repetição de poses; limites físicos preservados. [Guia de controles vigente](../02_Revisoes_e_estudos/Consistencia_controles_R28_2026-10-14/Guia_controles_vigentes_R28.md).
+
+[Interface organizada e recuperação](../02_Revisoes_e_estudos/Organizacao_interface_2026-10-14/README.md):R28 única aberta após preservar dez cópias da sessão; memória observada reduzida de16,05 para7,03GB. Árvore visual com controles/atual no início, painel sem erros novos/logs ativos. Complemento externo das quatro portas depois da nova altura:12poses/140.400pares separados, escopo amostrado sem homologação física. ArquivoR28 inalterado.
+
+
+[Relatório solicitado — cotas, oito vistas e correções](../02_Revisoes_e_estudos/Revisao_solicitada_R28_2026-10-14/Relatorio_revisao_R28.html):20 módulos comparados às planilhas e925 sólidos inventariados, sem divergência nos parâmetros comparados. Doze pendências consolidadas com evidência/ação, sem novo erro de posição confirmado nesta rodada. R28 inalterada; somente ela aberta, câmera restaurada. Medidas CAD não são levantamento físico ou cotas de fabricação. A reserva de revisão final Astra segue sem comprovação de execução pelo aplicativo.

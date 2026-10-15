@@ -1,0 +1,66 @@
+{
+  "source_clip": "70T3553_48175386.step",
+  "source_hinge": "71B3550_42542984.step",
+  "clip_volume_mm3": 154.8825500565116,
+  "cup_overlap_mm3": 86.7114719402101,
+  "link3_overlap_mm3": 8.409316877956572,
+  "clip_hook_cylinders": [
+    {
+      "radius": 1.250000000000001,
+      "center": [
+        6.860000004343755,
+        -7.1,
+        40.79999999999932
+      ]
+    },
+    {
+      "radius": 1.250000000000001,
+      "center": [
+        6.860000004343755,
+        -7.1,
+        40.79999999999932
+      ]
+    }
+  ],
+  "link3_cylinders": [
+    {
+      "radius": 1.250000000000001,
+      "center": [
+        6.860000000000579,
+        -3.65,
+        40.79999999999998
+      ]
+    },
+    {
+      "radius": 3.0000000000000027,
+      "center": [
+        6.860000000000579,
+        3.65,
+        40.79999999999998
+      ]
+    },
+    {
+      "radius": 3.0000000000000027,
+      "center": [
+        6.860000000000579,
+        3.65,
+        40.79999999999998
+      ]
+    },
+    {
+      "radius": 1.250000000000001,
+      "center": [
+        6.860000000000579,
+        -3.65,
+        40.79999999999998
+      ]
+    }
+  ],
+  "placements": {
+    "cup": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]",
+    "clip": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+  },
+  "facts": "Gancho do limitador e eixo d da dobradica coincidem a cerca de4.4e-9 mm em XZ. A curvatura R17.4 do limitador e centrada no mesmo caneco (-6.5,0). Posicionamento global original corresponde ao conjunto, mas sobreposicao rigida permanece. Nao e prova de encaixe fisico ou origem do conflito.",
+  "assembly_pdf": "Fontes/Blum_70T3553_montagem.pdf",
+  "scope": "Sem remover material da madeira ou alterar a ferragem para apagar a sobreposicao."
+}

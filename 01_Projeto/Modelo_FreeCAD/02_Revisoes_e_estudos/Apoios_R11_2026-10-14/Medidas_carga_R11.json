@@ -1,0 +1,101 @@
+{
+  "doors": [
+    {
+      "door": "FolhaEscritorioR11",
+      "dimensions_mm": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "wood_volume_mm3": 4867529.0684957905,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 4.580776161646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "FolhaEscritorioR001",
+      "dimensions_mm": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "wood_volume_mm3": 4867529.0684957905,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 4.580776161646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "FolhaEscritorioR002",
+      "dimensions_mm": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "wood_volume_mm3": 4867529.0684957905,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 4.580776161646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "FolhaEscritorioR003",
+      "dimensions_mm": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "wood_volume_mm3": 4867529.0684957905,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 4.580776161646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "Folha",
+      "dimensions_mm": [
+        440.75,
+        18.0,
+        306.0
+      ],
+      "wood_volume_mm3": 2402636.0684957914,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 2.362372461646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "Folha001",
+      "dimensions_mm": [
+        440.75,
+        18.0,
+        306.0
+      ],
+      "wood_volume_mm3": 2402636.0684957914,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 2.362372461646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    },
+    {
+      "door": "Folha002",
+      "dimensions_mm": [
+        440.75,
+        18.0,
+        306.0
+      ],
+      "wood_volume_mm3": 2402636.0684957914,
+      "scenario_MDF900kg_m3_plus_handle200g_kg": 2.362372461646212,
+      "hinges_candidate": 2,
+      "real_material_weight_and_fixation_pending": true
+    }
+  ],
+  "office_clear_cells_nominal_mm": [
+    482,
+    482,
+    482,
+    464
+  ],
+  "headboard_clear_cells_nominal_mm": [
+    425.75,
+    425.75,
+    416.75,
+    441.75
+  ],
+  "scope": "Larguras entre faces de madeira, antes de ferragens/mãos. Último vão cabeceira existente/vizinha calculado entre1340,25 e1782. Cenário900 de referência; pesos reais/carga/fixação pendentes."
+}

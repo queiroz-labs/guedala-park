@@ -1,0 +1,615 @@
+{
+  "date": "2026-10-06",
+  "units": "cm",
+  "decisions": [
+    "seis vidros aproximadamente800mL",
+    "termica1.5L diaria guardada; bancada nao e destino",
+    "preservar reservas3.5 abaixo e acima; estudo anterior rebaixado rejeitado"
+  ],
+  "capacities": [
+    {
+      "t": 1.8,
+      "structurallySelected": false,
+      "totalVerticalSupportBudget": true,
+      "panelBottom": 15.8,
+      "belowReserve": 3.5,
+      "aboveReserve": 3.5,
+      "pad": 0.2,
+      "between": 0.2,
+      "available": 8.7,
+      "maxSingleHeightFor2": 4.25
+    },
+    {
+      "t": 0.8,
+      "structurallySelected": false,
+      "totalVerticalSupportBudget": true,
+      "panelBottom": 15.8,
+      "belowReserve": 3.5,
+      "aboveReserve": 3.5,
+      "pad": 0.2,
+      "between": 0.2,
+      "available": 9.7,
+      "maxSingleHeightFor2": 4.75
+    },
+    {
+      "t": 0.4,
+      "structurallySelected": false,
+      "totalVerticalSupportBudget": true,
+      "panelBottom": 15.8,
+      "belowReserve": 3.5,
+      "aboveReserve": 3.5,
+      "pad": 0.2,
+      "between": 0.2,
+      "available": 10.1,
+      "maxSingleHeightFor2": 4.95
+    }
+  ],
+  "potTests": [
+    {
+      "id": "DuralexFreshbox9232AM06_9234AM06",
+      "ml": 800,
+      "dims": [
+        19,
+        14.5,
+        4.7
+      ],
+      "source": "https://cdn.shopify.com/s/files/1/0558/9483/5360/files/Catalogue_2026_OFFICIEL_BD_1.pdf?v=1770887486",
+      "lidIncluded": true,
+      "externalField": false,
+      "stackClaim": true,
+      "nestSameClosedPitch": null,
+      "note": "PDFp47/impressa92: artigo com tampa estanque,19x14.5H4.7. Caixa6/massa3.72kg: nao e massa unitaria. Nao ha desenho cotado/passo de nesting.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 9.6,
+          "excess": 0.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 9.6,
+          "excess": -0.1,
+          "nominalHeightPass": true,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 9.6,
+          "excess": -0.5,
+          "nominalHeightPass": true,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "Pyrex241P000",
+      "ml": 800,
+      "dims": [
+        19,
+        14,
+        5
+      ],
+      "source": "https://www.pyrex.eu/products/cook-freeze-plat-rectangulaire-avec-couvercle-plastique?variant=49597407035717",
+      "lidIncluded": true,
+      "externalField": true,
+      "stackClaim": true,
+      "nestSameClosedPitch": null,
+      "note": "H4 interno; H5 externo. Nao descontar encaixe; campo nao traz tolerancia/desenho.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 10.2,
+          "excess": 1.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 10.2,
+          "excess": 0.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 10.2,
+          "excess": 0.1,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "Pyrex241A000",
+      "ml": 800,
+      "dims": [
+        19,
+        14,
+        5
+      ],
+      "source": "https://www.pyrex.eu/products/pure-glass-boite-de-conservation-avec-couvercle-en-verre-rectangulaire",
+      "lidIncluded": true,
+      "externalField": true,
+      "stackClaim": true,
+      "nestSameClosedPitch": null,
+      "note": "Base e tampa de vidro; altura externa5. Sem passo de duas unidades iguais.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 10.2,
+          "excess": 1.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 10.2,
+          "excess": 0.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 10.2,
+          "excess": 0.1,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "DuralexLys800_regional",
+      "ml": 800,
+      "dims": [
+        19,
+        14.5,
+        4.7
+      ],
+      "source": "https://www.duralex.com.tw/products/lysrectanglefrostedtackbowl",
+      "lidIncluded": true,
+      "externalField": false,
+      "stackClaim": null,
+      "nestSameClosedPitch": null,
+      "note": "Pagina regional da marca; campo geral H4.7 nao separa corpo/tampa; sem SKU de variante800 inequivoco.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 9.6,
+          "excess": 0.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 9.6,
+          "excess": -0.1,
+          "nominalHeightPass": true,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 9.6,
+          "excess": -0.5,
+          "nominalHeightPass": true,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "LuminarcV5495",
+      "ml": 820,
+      "dims": [
+        17.9,
+        13.5,
+        6.7
+      ],
+      "source": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-pure-box-active",
+      "lidIncluded": true,
+      "externalField": false,
+      "stackClaim": null,
+      "nestSameClosedPitch": null,
+      "note": "Medidas comerciais; tampa incluída; sem desenho fechado/travas.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 13.6,
+          "excess": 4.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 13.6,
+          "excess": 3.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 13.6,
+          "excess": 3.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "LuminarcP0740",
+      "ml": 820,
+      "dims": [
+        17.9,
+        13.3,
+        6.2
+      ],
+      "source": "https://www.latabledarc.com/products/boite-de-conservation-rectangulaire-82-cl-keepn-box",
+      "lidIncluded": true,
+      "externalField": false,
+      "stackClaim": null,
+      "nestSameClosedPitch": null,
+      "note": "Indisponivel na loja francesa na consulta anterior da mesma data; sem passo de nesting.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": 12.6,
+          "excess": 3.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": 12.6,
+          "excess": 2.9,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": 12.6,
+          "excess": 2.5,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        }
+      ]
+    },
+    {
+      "id": "LocknLockFreshStackable800",
+      "ml": 800,
+      "dims": null,
+      "source": "https://locknlock.com/buyer/image/catalog/1/2025_CT.pdf",
+      "lidIncluded": true,
+      "externalField": false,
+      "stackClaim": true,
+      "nestSameClosedPitch": null,
+      "note": "Catalogo2025: tampa hidden7mm e capacidade800; nao e passo vertical de recipientes; PDF53.99MB limitou leitura integral.",
+      "date": "2026-10-06",
+      "tests": [
+        {
+          "t": 1.8,
+          "twoCompleteHeight": null,
+          "excess": null,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.8,
+          "twoCompleteHeight": null,
+          "excess": null,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        },
+        {
+          "t": 0.4,
+          "twoCompleteHeight": null,
+          "excess": null,
+          "nominalHeightPass": false,
+          "declaredPhysicalFit": false
+        }
+      ]
+    }
+  ],
+  "thermTests": [
+    {
+      "id": "ThermosTTC1500pro",
+      "ml": 1500,
+      "dims": [
+        18,
+        12.5,
+        22.5
+      ],
+      "source": "https://www.thermos.jp/english/product/detail/ttc-1500pro.html",
+      "note": "Aproximado em passos0.5cm; referencia profissional estrangeira; sem escolha.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 12.5,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": true,
+      "originalBucketPair": false
+    },
+    {
+      "id": "ThermosTTG1500",
+      "ml": 1500,
+      "dims": [
+        18.5,
+        12.5,
+        22.5
+      ],
+      "source": "https://www.thermos.jp/english/product/detail/ttg-1500.html",
+      "note": "Aproximado em passos0.5cm; sem disponibilidade brasileira presumida.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 12.5,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": true,
+      "originalBucketPair": false
+    },
+    {
+      "id": "ThermosJOY1500",
+      "ml": 1500,
+      "dims": [
+        9.5,
+        11,
+        33
+      ],
+      "source": "https://www.thermos.jp/english/product/detail/joy-1500.html",
+      "note": "Mobile mug; envelope nao resolve9cm/H26.2.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 9.5,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": false,
+      "originalBucketPair": false
+    },
+    {
+      "id": "ThermosFJU1501",
+      "ml": 1500,
+      "dims": [
+        9.5,
+        10.5,
+        32.5
+      ],
+      "source": "https://www.thermos.jp/english/product/detail/fju-1501.html",
+      "note": "Sports bottle: pagina divulga conservacao fria; nao equivalente automatico de jarra para quente.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 9.5,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": false,
+      "originalBucketPair": false
+    },
+    {
+      "id": "ZojirushiSFCC15",
+      "ml": 1500,
+      "dims": [
+        13.0175,
+        11.7475,
+        26.67
+      ],
+      "source": "https://www.zojirushi.com/app/product/sfcc",
+      "note": "Campo oficial em inches5-1/8 x4-5/8 x10-1/2; conversao1in=2.54cm.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 11.7475,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": false,
+      "originalBucketPair": false
+    },
+    {
+      "id": "EmsaSamba1500",
+      "ml": 1500,
+      "dims": [
+        18.2,
+        14.4,
+        28
+      ],
+      "source": "https://www.emsa.com/produkt/samba-quick-press-verschluss-15-liter",
+      "note": "Envelope oficial1.5L; nao usar medidas1L.",
+      "date": "2026-10-06",
+      "minimumHorizontal": 14.4,
+      "sideMax": 4.8,
+      "rowMax": 9,
+      "sidePass": false,
+      "rowPass": false,
+      "heightPass": false,
+      "originalBucketPair": false
+    }
+  ],
+  "originalBucket": [
+    25,
+    25,
+    25
+  ],
+  "alternativeBucket": {
+    "id": "TTSHermetic8L",
+    "litres": 8,
+    "dims": [
+      16,
+      33,
+      25
+    ],
+    "source": "https://www.ttsystem.com/en/products/8-l-hermetic-bucket-0",
+    "codes": [
+      "0R003255",
+      "0B003255",
+      "0G003255",
+      "0E003255"
+    ],
+    "completeClaim": "Bucket with hermetic lid and handle",
+    "date": "2026-10-06",
+    "adopted": false,
+    "adequateCapacityUnknown": true,
+    "unitWeight": null,
+    "note": "kg3.42 na tabela compcs5 e m3.044: nao atribuir massa de caixa a unidade. Exa leu fonte; webopen403 apos search indexado."
+  },
+  "conditionalPair": {
+    "slot": [
+      30.8,
+      35,
+      26.2
+    ],
+    "objects": [
+      {
+        "id": "baldeAlternativo",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 16,
+        "d": 33,
+        "h": 25
+      },
+      {
+        "id": "termicaAlternativa",
+        "x": 17,
+        "y": 0,
+        "z": 0,
+        "w": 12.5,
+        "d": 18,
+        "h": 22.5
+      }
+    ],
+    "fits": true,
+    "clearGap": 1,
+    "combined": [
+      29.5,
+      33,
+      25
+    ],
+    "remaining": [
+      1.3,
+      2,
+      1.2
+    ],
+    "alreadyUsesSelectionReserves": true,
+    "originalBucketRetained": false,
+    "onlyAlternativeStudy": true,
+    "notWholeProgramSolved": true,
+    "physicalExtractionValidated": false,
+    "cleanlinessSegregationValidated": false,
+    "jarSenseHeightBeyond": 0.8,
+    "conditions": [
+      "balde8L nao aprovado; capacidade funcional do balde atual desconhecida",
+      "confirma dimensoes completas incluindo alca abaixada e tampa",
+      "retirada da termica diaria com banco aberto e mesa/ferragens nao recalculada",
+      "limpeza/barreira entre balde e recipiente de bebida nao especificadas",
+      "separacao1cm nao e barreira higienica",
+      "dimensoesThermos aproximadas; medir conjunto real"
+    ]
+  },
+  "duralexConditional": {
+    "sourceCatalogLanding": "https://www.duralex.com/pages/catalogue-duralex-2026",
+    "pdfPage": 47,
+    "printedPage": 92,
+    "potCompleteCommercial": [
+      19,
+      14.5,
+      4.7
+    ],
+    "twoHeight": 9.6,
+    "totalVerticalSupportMaximum": 0.9,
+    "totalVerticalSupportHypothesis": 0.8,
+    "potBase": 16.8,
+    "top26_4": 26.4,
+    "closedGap": 3.6,
+    "lowerGap": 3.5,
+    "threeBasesFootprint": [
+      30,
+      34.5
+    ],
+    "leftFootprint": [
+      36.2,
+      39
+    ],
+    "sixCount": 6,
+    "nominalHeightConditional": true,
+    "structureSelected": false,
+    "wholeStorageProven": false,
+    "limitations": [
+      "apoios/frames verticalmente incluidos em total<=0.9",
+      "retentores nao podem invadir reservas3.5 nem modulos",
+      "juntas/apoio em planta/retirada nao recalculados para novos paineis",
+      "dimensao comercial inclui descricao produto com tampa mas sem desenho/tolerancia",
+      "empilhavel nao significa nesting de unidades iguais",
+      "massa unitaria limpa indisponivel"
+    ]
+  },
+  "closedSameSizeNestingDocumented": false,
+  "wholeGroupResolved": false,
+  "alternativeThreeObjects": {
+    "jar": {
+      "id": "Vilde139289",
+      "ml": 1500,
+      "dims": [
+        16,
+        11.5,
+        23
+      ],
+      "grams": 967,
+      "source": "https://b2b.vilde.trade/product-eng-9946-Jug-Glass-with-Lid-1-5-l.html",
+      "date": "2026-10-06",
+      "lidIncluded": true,
+      "note": "Descricao de produto completo; medidas comerciais sem desenho cotado; referencia sem escolha."
+    },
+    "objects": [
+      {
+        "id": "baldeAlternativo",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 16,
+        "d": 33,
+        "h": 25
+      },
+      {
+        "id": "termicaAlternativa",
+        "x": 17,
+        "y": 0,
+        "z": 0,
+        "w": 12.5,
+        "d": 18,
+        "h": 22.5
+      },
+      {
+        "id": "jarraAlternativa",
+        "x": 17,
+        "y": 19,
+        "z": 0,
+        "w": 11.5,
+        "d": 16,
+        "h": 23
+      }
+    ],
+    "contained": true,
+    "intersections": false,
+    "combined": [
+      29.5,
+      35,
+      25
+    ],
+    "remaining": [
+      1.3,
+      0,
+      1.2
+    ],
+    "extraDepthInsideAlreadyReservedLimit": 0,
+    "nominalStaticOnly": true,
+    "physicalExtractionValidated": false,
+    "wholeProgramResolved": false
+  }
+}

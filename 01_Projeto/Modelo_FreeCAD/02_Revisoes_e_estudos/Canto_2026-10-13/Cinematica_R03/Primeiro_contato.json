@@ -1,0 +1,113 @@
+{
+  "scope": "Uma das duas dobradiças em cada sistema; montagens simétricas. Curso nominal do modelo; regulagens travadas. Limitador montado por inferência.",
+  "vizinha": [
+    {
+      "angle_deg": 0,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.737777593648806
+    },
+    {
+      "angle_deg": 60,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.7377775936488196
+    },
+    {
+      "angle_deg": 80,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.737777593649077
+    },
+    {
+      "angle_deg": 86,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.7377775936494505
+    },
+    {
+      "angle_deg": 90,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.737777593648695
+    },
+    {
+      "angle_deg": 95,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.5020065209702288
+    },
+    {
+      "angle_deg": 100,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.020677094619979866
+    },
+    {
+      "angle_deg": 105,
+      "volume_mm3": 1.034638701425743,
+      "min_gap_mm": 0.0
+    },
+    {
+      "angle_deg": 110,
+      "volume_mm3": 45.75839723773275,
+      "min_gap_mm": 0.0
+    }
+  ],
+  "principal": [
+    {
+      "angle_deg": 0,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.5458065023922245
+    },
+    {
+      "angle_deg": 60,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.5458065023922245
+    },
+    {
+      "angle_deg": 80,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 1.7838252928108405
+    },
+    {
+      "angle_deg": 86,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.7608009248281623
+    },
+    {
+      "angle_deg": 90,
+      "volume_mm3": 0.0,
+      "min_gap_mm": 0.1252644157130591
+    },
+    {
+      "angle_deg": 91,
+      "volume_mm3": 0.10894753680462395,
+      "min_gap_mm": 0.0
+    },
+    {
+      "angle_deg": 92,
+      "volume_mm3": 3.018468106409112,
+      "min_gap_mm": 0.0
+    }
+  ],
+  "thresholds": {
+    "vizinha": [
+      {
+        "threshold_volume_mm3": 0.001,
+        "last_below_deg": 100.73936462402344,
+        "first_above_deg": 100.73944091796875
+      },
+      {
+        "threshold_volume_mm3": 0.1,
+        "last_below_deg": 102.6397705078125,
+        "first_above_deg": 102.63984680175781
+      }
+    ],
+    "principal": [
+      {
+        "threshold_volume_mm3": 0.001,
+        "last_below_deg": 90.834716796875,
+        "first_above_deg": 90.83476257324219
+      },
+      {
+        "threshold_volume_mm3": 0.1,
+        "last_below_deg": 90.99273681640625,
+        "first_above_deg": 90.99278259277344
+      }
+    ]
+  }
+}
