@@ -1,4 +1,10 @@
-# Apartamento interativo — R10: luz e sombras de contato
+# Apartamento interativo — R11 em branch: armário C da cozinha
+
+## Protótipo do armário C — 18/10/2026
+
+Na branch `codex/armario-cozinha-interativo-20261018`, a ficha dos aéreos da cozinha abre um estudo frontal interativo do armário C sobre a pia. As duas portas podem ser abertas ou fechadas; C1, C2, C3 e C4 podem ser selecionados para ver o conteúdo e as pendências de cada nível. A organização aprovada foi preservada e C4 aparece como reserva ainda em estudo. O desenho é ilustrativo, sem validação de ferragens, alcance ou cabimento real. O site publicado pela `main` permanece na R10 até uma decisão posterior de incorporar a branch.
+
+As fontes editáveis do protótipo são `src/cabinet-tour.js` e `src/cabinet-tour.css`; `construir.py` as incorpora ao HTML autônomo. A geração de `preparar_pages.py`, a sintaxe JavaScript e `git diff --check` passaram. A inspeção visual em navegador não ocorreu nesta rodada porque a política do navegador bloqueou a URL local.
 
 ## Luz e sombras de contato — 17/10/2026
 
