@@ -66,3 +66,8 @@ Começar por este README e fontes.json; conferir os HTMLs originais em documento
 Não repetir a busca com o número errado -28. Abrir a pesquisa pública SEI no navegador, que funcionou quando a ferramenta de busca web falhou.
 A pesquisa não terminou: validar 254 dias é a pendência principal.
 
+
+
+## Continuação: oito documentos adicionais
+
+Veja [a análise complementar](Continuacao_2026-10-18.md), incluindo achado em abril, Torre 03, cronograma de fundações e manifestação de 2025. Essa atualização complementa as pendências listadas acima.

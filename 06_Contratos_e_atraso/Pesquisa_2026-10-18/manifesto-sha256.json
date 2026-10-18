@@ -5,14 +5,19 @@
     "sha256": "4491c37f4f52c85e56055d608fe05173f8874e7ec2d2132159a96aa1a7ab12ea"
   },
   {
+    "arquivo": "Continuacao_2026-10-18.md",
+    "bytes": 4730,
+    "sha256": "69da513875774be403de0c0285f8e88fede1f3ce26a692c718feeb2e02d74694"
+  },
+  {
     "arquivo": "fontes.json",
-    "bytes": 3253,
-    "sha256": "ae14ba1f8585b3882a7790de3b752362b4336fc7bda37aee145617b7e1eff26c"
+    "bytes": 6247,
+    "sha256": "610ff5bb54e7a0d2c7ee7e0aae929517626e8b019e3115f19eb34d57bc641f61"
   },
   {
     "arquivo": "README.md",
-    "bytes": 7449,
-    "sha256": "63dde9b63ecc61cc74030e9283de0cc39f5938944871def8f6d615ae97c876ac"
+    "bytes": 7780,
+    "sha256": "d75320f9d170f75620c3c857a3bba496774cb8fd32779911778fd7e9af16b23a"
   },
   {
     "arquivo": "documentos/4693172.html",
@@ -65,6 +70,36 @@
     "sha256": "fa40400b6bbd9a99bc1a58f341441435987f7e466c6b62e15f63f01e3de2fd9e"
   },
   {
+    "arquivo": "documentos/5423163.html",
+    "bytes": 1117638,
+    "sha256": "a47c57371afc1810a79ead964820196801a7c85008cb6c04290b17103fae4de2"
+  },
+  {
+    "arquivo": "documentos/5423163.txt",
+    "bytes": 5153,
+    "sha256": "fff5738767e5afbd9f11dd3413bd548a49d0435428f6500c5805c5a83c6db6c5"
+  },
+  {
+    "arquivo": "documentos/5467236.html",
+    "bytes": 65109,
+    "sha256": "e0671d759613447bdd32b8c37a303a4a3e0df9a4030575f8357c5859da94fa22"
+  },
+  {
+    "arquivo": "documentos/5467236.txt",
+    "bytes": 1798,
+    "sha256": "ce70327432f4dadb0537412119d095f30589efe4fb4cd73e8a4508d88ce174bf"
+  },
+  {
+    "arquivo": "documentos/5479228.html",
+    "bytes": 69658,
+    "sha256": "77102c26be70efab66d434f893dd50f61db0a293a0821e538faa1a0f708368c3"
+  },
+  {
+    "arquivo": "documentos/5479228.txt",
+    "bytes": 2869,
+    "sha256": "913f821a17210cea5a914d20d56fc5842a0d5a295a835979a87bacdff651d941"
+  },
+  {
     "arquivo": "documentos/5817618.pdf",
     "bytes": 44705,
     "sha256": "0d33c9cbd9ce5e7cc574217800bb1ebb87a2c4c131e54ee2553f84eb985a04c6"
@@ -85,6 +120,36 @@
     "sha256": "ca1dfa6973aa1cfa9cb84cba3e7a418e378064be8a21be0f3b5f5d913d10f579"
   },
   {
+    "arquivo": "documentos/5900792.txt",
+    "bytes": 28245,
+    "sha256": "1d887cd23af091ed9d72f76e7025e47157c68e046b14e3bedfd2d5a639b2da73"
+  },
+  {
+    "arquivo": "documentos/5900792.xlsx",
+    "bytes": 54729,
+    "sha256": "6e98a03be3fe9fa705ede55f2a0fff6045070631a968d2a11c7eed7daddad58a"
+  },
+  {
+    "arquivo": "documentos/5911081.pdf",
+    "bytes": 353335,
+    "sha256": "8c2eadf7d6b117c9c39bae58ab02bf49bdd5f380c52c17e500b50700353ea8b5"
+  },
+  {
+    "arquivo": "documentos/5911081.txt",
+    "bytes": 12594,
+    "sha256": "2c6e8ea4c800fc9dd82fa8b80391de5b1fb5b84fab7c117158952667daca6d53"
+  },
+  {
+    "arquivo": "documentos/5911101.pdf",
+    "bytes": 4368364,
+    "sha256": "5aad55a3ff2e4078e30f4a697e9fa5eb50c020efb8a7d9348d8c62452ee893a0"
+  },
+  {
+    "arquivo": "documentos/5911101.txt",
+    "bytes": 33458,
+    "sha256": "afb20bad98a6038b5dbb23dae0c1dd45f0f3d133b5c80f91e06be4098ad23937"
+  },
+  {
     "arquivo": "documentos/5917533.html",
     "bytes": 67875,
     "sha256": "93bdff2506498ff5a91c4b9979706b99cf69d8045e49084c97efbd42bf22eb1f"
@@ -103,6 +168,26 @@
     "arquivo": "documentos/5955411.txt",
     "bytes": 2142,
     "sha256": "79769b50c8da1a6525b1e083ad88387f5a4234b88f167ba12c65c804f58fd147"
+  },
+  {
+    "arquivo": "documentos/6774998.html",
+    "bytes": 78957,
+    "sha256": "fbf835629600d86146bfe45be5c11000d7c1556c0ae18d11b20772b8917a1c38"
+  },
+  {
+    "arquivo": "documentos/6774998.txt",
+    "bytes": 11480,
+    "sha256": "f7a64834a4d129a683338b5cf3ec09ff8425c47e156e75145bfa8ca9ee8ecdb5"
+  },
+  {
+    "arquivo": "documentos/6779854.html",
+    "bytes": 69838,
+    "sha256": "bbb90b3e92bbbe5c773b3c187af72e97bf5eba674304d17a7434ab5196eb3e8d"
+  },
+  {
+    "arquivo": "documentos/6779854.txt",
+    "bytes": 1923,
+    "sha256": "d36dcb2149f687cd0ad4eabca454d3b67ead2daa0239dabefd16f7c0974c087b"
   },
   {
     "arquivo": "pesquisa-contatos-publicos/309-signatures.png",

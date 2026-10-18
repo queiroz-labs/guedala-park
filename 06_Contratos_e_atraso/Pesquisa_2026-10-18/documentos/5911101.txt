@@ -1,0 +1,834 @@
+Consultoria e Projetos em Arqueologia   1 
+ 
+ 
+ 
+Consultoria e Projetos em Arqueologia 
+ 
+ 
+ 
+ 
+GIOVANI SCARAMELLA 
+ (Coordenador Geral) 
+ 
+ 
+ 
+ 
+ 
+GIRLENE SOUSA 
+(Coordenadora de Campo) 
+ 
+ 
+ 
+ 
+ 
+PLANO DE TRABALHO 
+ 
+REMANESCENTES DE PISO RELACIONADOS AO SÍTIO ARQUEOLÓGICO 
+CAXINGUI, ÁREA DO EMPREENDIMENTO GUEDALA PARK III, CIDADE DE 
+SÃO PAULO, SÃO PAULO 
+ 
+Processo IPHAN nº 01506.006120/2016-68 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rio de Janeiro 
+2024
+
+Consultoria e Projetos em Arqueologia   2 
+ 
+GIOVANI SCARAMELLA 
+ (Coordenador Geral) 
+ 
+ 
+ 
+ 
+ 
+GIRLENE SOUSA 
+(Coordenadora de Campo) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PLANO DE TRABALHO 
+ 
+REMANESCENTES DE PISO RELACIONADOS AO SÍTIO ARQUEOLÓGICO 
+CAXINGUI, ÁREA DO EMPREENDIMENTO GUEDALA PARK III, CIDADE DE 
+SÃO PAULO, SÃO PAULO 
+ 
+Processo IPHAN nº 01506.006120/2016-68 
+ 
+ 
+Plano de trabalho  apresentado à Cury 
+Construtora e ao Instituto do Patrimônio 
+Histórico e Artístico Nacional - IPHAN. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rio de Janeiro 
+2024
+Consultoria e Projetos em Arqueologia   3 
+ 
+EMPRESA DE ARQUEOLOGIA 
+ 
+Razão social: G Scaramella Consultoria e Projetos em Arqueologia ME  
+Nome de fantasia: GRIFO Consultoria e Projetos em Arqueologia 
+CNPJ:  14.721.707/0001-00 
+Inscrição Municipal:  110343 
+Endereço:  Avenida das Jabuticabeiras, 91 - Cinco Lagos - Mendes - 
+RJ - 26700-000 
+Website:  www.grifo.arq.br 
+Contato:  Giovani Scaramella 
+Email:  grifo@grifo.arq.br 
+Telefones:  (+55 24) 2436-0123 
+(+55 21) 9 9284-2434 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTRATANTE 
+ 
+Razão social: Cury Construtora e Incorporadora S. A. 
+Endereço:  Rua Fuchal, 411 1º Andar – Vila Olímpia, São Paulo – SP, 
+04551-060 
+Contato:  Camila Felix Toledo 
+E-mail: camila.toledo@cury.net 
+Telefone:  (+55 11) 3117-1300 
+                                            
+  
+Consultoria e Projetos em Arqueologia   4 
+ 
+ 
+LISTA DE FIGURAS 
+  
+Figura 1 - Localização da ADA em relação ao Sítio Arqueológico Caxingui ...... 11 
+Figura 2 - Perfil estratigráfico evidenciando a presença de estrutura de tijolos na 
+área do Sítio ............................................................................................................. 15 
+Figura 3 - Vista geral da área de dispersão do piso residual .............................. 16 
+Figura 4 - Vestígios de contrapiso evidenciado em algumas porções dos 
+remanescentes ........................................................................................................ 17 
+Figura 5 - Tijolos maciços evidenciados em algumas porções da área de 
+dispersão .................................................................................................................. 17 
+Figura 6 - Tijolo maciço com inscrição.................................................................. 18 
+Figura 7 - Vista geral da área isolada preliminarmente ........................................ 18 
+Figura 8 - Isolamento atual da área de dispersão dos vestígios de piso residual
+ .................................................................................................................................. 19 
+Figura 9 - Área de dispersão dos remanescentes de piso isolada com tapumes
+ .................................................................................................................................. 19 
+Figura 10 - Localização dos remanescentes de piso em relação à Torre 03 do 
+empreendimento ...................................................................................................... 20 
+Figura 11 - Levantamento topográfico dos vestígios de piso residuais 
+identificados na ADA do empreendimento ........................................................... 21 
+Figura 12 - Levantamento 3D dos remanescentes de piso .................................. 22 
+ 
+ 
+ 
+ 
+LISTA DE TABELAS 
+ 
+ 
+Tabela 1 - Cronograma de atividades .................................................................... 27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Consultoria e Projetos em Arqueologia   5 
+ 
+SUMÁRIO 
+ 
+ 
+LISTA DE FIGURAS ................................................................................................... 4 
+LISTA DE TABELAS .................................................................................................. 4 
+1 INTRODUÇÃO ......................................................................................................... 6 
+1.1 Histórico do Processo ........................................................................................ 6 
+2 CARACTERIZAÇÃO DO EMPREENDIMENTO .................................................... 10 
+3 OBJETIVOS DA PESQUISA ................................................................................. 12 
+3.1 Objetivo Geral ....................................................................................................12 
+3.2 Objetivos Específicos .......................................................................................12 
+4 ÁREA DA PESQUISA ............................................................................................ 13 
+5 PROPOSTA METODOLÓGICA ............................................................................. 23 
+5.1 Ações de desmonte controlado dos remanescentes de piso .......................23 
+5.2 Ações voltadas à Educação Patrimonial .........................................................24 
+6 CRONOGRAMA ..................................................................................................... 27 
+REFERÊNCIAS ......................................................................................................... 28 
+ 
+  
+Consultoria e Projetos em Arqueologia   6 
+ 
+1 INTRODUÇÃO  
+Este documento tem por objetivo apresentar um plano de trabalho contendo 
+uma proposta metodológica para a retirada dos remanescentes de piso identificados 
+durante as ações de Acompanhamento Arqueológico na ADA do Empreendimento 
+Residencial Jardim Guedala 03, Município de São Paulo, Estado de São Paulo. Além 
+disso, o plano prevê ações educacionais  complementares direcionadas à 
+comunidade, tendo em vista o interesse comunitário na área contígua do Parque 
+Linear, além da relevância de ações dessa natureza junto à comunidade do entorno, 
+contribuindo para a promoção e extroversão do patrimônio arqueológico. 
+ 
+1.1 Histórico do Processo 
+ 
+O empreendimento residencial Guedala Park III, inicialmente,  havia sido 
+enquadrado no nível I da IN nº 001/2015, dada a tipologia de empreendimento e    área 
+de projeção das instalações previstas, conforme poderá ser observado no  Parecer 
+Técnico 1234/16 SE/IPHAN/SP, de 05 de dezembro de 2016, e no Ofício nº 0560/2017-
+IPHAN/SP (Processo IPHAN nº 01506.006120/2016 -68). No entanto, durante um  
+caminhamento oportunístico realizado na superfície no terreno, os colaboradores do 
+empreendimento identificaram fragmentos de louça brasileira seguramente do século 
+XX (observadas as marcas de fabricantes) e por outras também sem decoração com 
+antiguidade e procedência não identificadas.  
+Conforme prevê a Instrução Normativa Nº 001/2015 , o empreendedor 
+comunicou formalmente o IPHAN sobre a presença de bens móveis dispersos na área 
+do terreno, através do Oficio Cury nº 01/2023, de   07 de agosto de 2023 (SEI 4626723). 
+Os achados arqueológicos observados estão relacionados ao sítio Caxingui, objeto de 
+ações de delimitação e resgate arqueológico no  contexto do Processo IPHAN nº 
+01506.000764/2004-17, relacionado a implantação da Linha 04 Amarela. Este 
+contexto foi investigado por meio da abertura de poços-teste, trincheiras e 
+escavação em área               ampla (quadras), distribuídas na área de dispersão dos vestígios 
+arqueológicos. 
+As ações resultaram na   identificação   de   restos construtivos articulados, 
+a exemplo de piso e alicerces de tijolos, a partir de 20 cm de profundidade 
+(DOCUMENTO, 2007). Além disso, foram observados  fragmentos de cerâmica 
+Consultoria e Projetos em Arqueologia   7 
+ 
+(principalmente material construtivo), de louça (faiança  fina, porcelana e grés) e de 
+vidro (frascos, garrafas, vidro plano, entre outros), associados aos séculos XIX e XX. 
+Em resposta ao Ofício Cury nº 01/2023, o IPHAN -SP se manifestou  por 
+meio da Nota Técnica nº 501/2023/COTEC ARQUEO IPHAN-SP/ COTEC IPHAN-SP/ 
+IPHAN-SP, de 16 de agosto de 2022, ratificada pelo Ofício nº 3539/2023/IPHAN-SP-
+IPHAN, de 05 de setembro de 2023. Para melhor entendimento, o órgão realizou 
+vistoria in loco no dia 10 de agosto de 2023. A partir disso, recomendou a contratação 
+de um (a) profissional de Arqueologia para a elaboração de levantamento e avaliação 
+arqueológica da área, com o  objetivo de subsidiar a manifestação do IPHAN no que 
+tange a solicitação de novos estudos de arqueologia para a área do empreendimento. 
+Dessa forma, as ações de Acompanhamento Arqueológico em andamento 
+têm por escopo atender as exigências da  Nota Técnica nº 634/2023 (SEI 4790255), 
+de modo a garantir a integridade e preservação de possíveis evidências arqueológicas 
+sob risco de impacto ou destruição, eventualmente identificadas durante as ações de 
+escavação e revolvimento de sedimentos. Essas ações estão sendo realizadas a partir 
+da presença de um (a) arqueólogo (a) em campo, em ação de acompanhamento, 
+monitorando e orientando quaisquer intervenções no solo. Concomitantemente, estão 
+sendo realizadas atividades de divulgação e extroversão do patrimônio arqueológico 
+junto aos colaboradores do empreendimento, moradores do entorno e transeuntes. 
+No dia 04 de abril de 2024, durante o processo de escavação no entorno 
+das estacas hélice contínua, na área da Torre 03, foi evidenciada a 1,50 m de 
+profundidade, um piso residual de tijolos maciços no perfil da escavação e fragmentos 
+de telhas francesas.  O estado de preservação d esse piso se encontra bastante 
+comprometido, em decorrência de ações interventivas anteriores à realização das 
+obras de engen haria pertinentes ao empreendimento Guedala 03 . O IPHAN-SP foi 
+formalmente comunicado através do Ofício GRIFO nº 021/2024, datado de 05 de abril 
+de 2024 (SEI 5266628). 
+Considerando que o Sítio Caxingui foi objeto de ações de delimitação e 
+resgate arqueológico no contexto do Processo IPHAN nº 01506.000764/2004-17, bem 
+como o avançado estado de degradação d os remanescentes evidenciados, o Ofício 
+GRIFO nº 021/2024 sugeriu que os remanescentes de piso fossem  objeto de ações 
+de desmonte manual controlado, com co leta de amostras e levantamento fotográfico 
+e construtivo complementares, sendo a documentação produzida, reunida e 
+apresentada ao IPHAN-SP.  
+Consultoria e Projetos em Arqueologia   8 
+ 
+Em resposta ao Ofício GRIFO nº 021/2024, mediante a realização de 
+vistoria in loco, o Parecer Técnico Nº 63/IPHAN -SP (SEI 5423163), datado de 19 de 
+junho de 2024, corroborou que os vestígios constituem uma pequena porção residual 
+de piso em tijolos e em cerâmica da área registrada e estudada, anteriormente 
+devidamente documentada e aprovada pelo IPHAN, denominada como Sítio Caxingui, 
+composta por remanescentes de construção de interesse histórico. 
+ 
+Desta forma, destacamos que, uma vez que a área fora devidamente 
+estudada, pesquisada e registrada, esta pode ser liberada para seu uso 
+econômico, conforme Lei Federal 3924 de 1961, Instrução Normativa IPHAN 
+01/2015 e extinta Portaria IPHAN 230/2002. Contudo, uma vez que há um 
+interesse comunitário na área contígua do Parque Linear, manifestada por 
+meio de Processo aberto no Ministério Público Federal 01450.003 647/2023-
+52, recomendamos primeiramente o encaminhamento a esta instância 
+visando a consulta aos interessados na participação colaborativa da pesquisa 
+arqueológica, ou seja, no acompanhamento da retirada metodológica dos 
+remanescentes, higienização, triage m, curadoria, etc...ou outra metodologia 
+educacional a ser proposta pelo arqueólogo permissionário (Parecer Técnico 
+Nº 63/IPHAN-SP - SEI 5423163). 
+ 
+ 
+Em síntese, o IPHAN-SP entendeu que a área fora devidamente estudada 
+e resgatada no âmbito do Licenciamento  Ambiental da Linha Amarela do Metrô,  
+contudo, condicionou a sua liberação  somente após a manifestação do Ministério 
+Público Federal . A presente manifestação refere -se à participação colaborativa da 
+comunidade no resgate  e/ou processamento dos vestígios e/ ou metodologia 
+educacional a ser proposta pelo arqueólogo permissionário. 
+Após análise técnica dos documentos inseridos no sistema pericial e 
+complementados com os documentos constantes no SEI/IPHAN, no dia 29 de outubro 
+de 2024, o MPF determinou que fosse  expedido ofício, encaminhando cópia do 
+LAUDO TÉCNICO Nº 1141 /2024-ANPMA/CNP, para que o IPHAN: 
+ 
+[...] se posicione conclusivamente e proceda com a avaliação das atividades 
+de resgate, processamento de vestígios e adoção de metodologia 
+educacional, sem prejuízo de demais atribuições e competências legalmente 
+definidas ao órgão federal, que sejam aplicáveis ao caso, já que tal função 
+não é de atribuição legal por parte do Ministério Público Federal e, conforme 
+o caso, posicione-se o IPHAN efetivamente sobre a liberação econômica da 
+área, também de sua atribuição legal, visto que há alegação de prejuízos 
+financeiros por parte do empreendedor, frisando a urgência de seu parecer 
+final (PR-SP-00149371/2024). 
+ 
+Consultoria e Projetos em Arqueologia   9 
+ 
+Considerando que a área de pesquis a já foi objeto de ações de resgate 
+arqueológico, e que os remanescentes de pisos identificados se encontram em 
+avançado estado de degradação, o entendimento da equipe de arqueologia 
+responsável pelas ações de acompanhamento arqueológico é de que os vestíg ios 
+sejam objeto de desmonte controlado  para liberação de área  para fins econômicos , 
+conforme metodologia apresentada em seção própria. Dessa forma, entende -se que 
+a participação da comunidade poderá ocorrer no contexto de ações voltadas à 
+Educação Patrimonial, a serem realizadas a partir de recursos audiovisuais e mostra 
+de materiais arqueológicos identificados durante as ações de acompanhamento 
+arqueológico em curso, conforme proposta metodológica apresentada neste 
+documento. 
+Consultoria e Projetos em Arqueologia   10 
+ 
+ 
+2 CARACTERIZAÇÃO DO EMPREENDIMENTO 
+ 
+Trata-se da implantação de um condomínio residencial de habitação  de 
+interesse social e do mercado popular, na Avenida Francisco Morato, esquina com 
+Avenida Roberto Lorenz, Vila Sônia, denominado Jardim Guedala Park III,                   em terreno 
+equivalete a 5.843,91 m
+2
+ (Figura 1). 
+Considerando os possíveis impactos no terreno, a execução de ações de 
+acompanhamento arqueológico visa garantir a integridade e  preservação de 
+possíveis vestígios arqueológicos eventualmente identificados  durante tais 
+intervenções. Dessa forma,  quaisquer intervenções com  potencial de provocar 
+alterações nas condições vigentes no terreno estão sendo  devidamente 
+acompanhadas pela equipe  de arqueologia. Além disso, as ações de  
+acompanhamento arqueológico possuem o potencial de gerar dados 
+complementares sobre o local, sendo  relevantes na  elaboração de estratégias  
+mitigativas que objetivem a preservação do patrimônio. 
+A Área Diretamente Afetada (ADA) consiste no local onde as intervenções 
+estão sendo realizadas, ou seja, a área total do terreno que corresponde a 5.843,91 
+m².  
+Entende-se como Área de Influência Direta (AID) um raio de 200 m em 
+relação à ADA do empreendimento. Os impactos e efeitos da implantação do 
+empreendimento são considerados menos significativos que os registrados na ADA, 
+a exemplo da dinâmica do tráfego de veículos.  
+A Área de Influência Indireta (AII) compreende a ADA e AID, contudo, 
+possui suas dimensões definidas em razão dos impactos de maior duração.  Neste 
+caso, geralmente abrange os limites geopolíticos, como fronteiras municipais e 
+estaduais, entretanto, neste caso em específico, será considerado  o bairro Jardim 
+Guedala, Vila Sônia  e arredores, município de São Paulo.  Segundo dados 
+consultados no Cadastro Nacional dos Sítios Arqueológicos  (CNSA) e no Sistema 
+Integrado de Conhecimento e Gestão (SICG), o contexto  geográfico dessa região 
+apresenta mais de 100 (cem) sítios arqueológicos reconhecidos pelo IPHAN. 
+Consultoria e Projetos em Arqueologia   11 
+ 
+ 
+ 
+ 
+Figura 1 - Localização da ADA em relação ao Sítio Arqueológico Caxingui 
+ 
+Fonte: GRIFO Arqueologia, 2023. 
+
+Consultoria e Projetos em Arqueologia   12 
+ 
+ 
+ 
+3 OBJETIVOS DA PESQUISA 
+ 
+3.1 Objetivo Geral 
+O presente plano de trabalho tem como objetivo apresentar uma proposta 
+metodológica para a retirada dos remanescentes de piso identificados durante as ações 
+de Acompanhamento Arqueológico  na ADA do  Empreendimento Residencial Jardim 
+Guedala 0 3, Município de  São Paulo, Estado de São Paulo . De igual modo, propõe  
+ações educacionais voltadas à comunidade, tendo em vista o interesse comunitário na 
+área contígua do Parque Linear , como também a relevância de ações dessa natureza 
+na promoção e divulgação do patrimônio arqueológico. 
+ 
+3.2 Objetivos Específicos  
+ 
+a) Realizar ações de desmonte controlado dos remanescentes de piso em tela, já 
+bastante degradado, identificados na área do empreendimento; 
+b) Acompanhar quaisquer interferências  que impliquem em revolvimento e 
+movimentação de sedimentos , com o objetivo de identificar eventuais bens 
+móveis ou continuidades/complementações estruturais  que possam ser 
+identificados durante as ações de retirada dos remanescentes; 
+c) Coletar amostras de interesse arqueológ ico, a exemplo de tijolos ou fragmentos 
+de telhas associados ao piso residual; 
+d) Submeter os vestígios coletados aos procedimentos recomendados pela Portaria 
+Nº 196/2016; 
+e) Desenvolver ações educativas complementares voltadas à divulgação e 
+extroversão do patrimônio arqueológico da região de implantação do 
+empreendimento, contribuindo para a valorização do patrimônio e aproximação 
+entre arqueologia e comunidade. 
+ 
+ 
+ 
+ 
+ 
+Consultoria e Projetos em Arqueologia   13 
+ 
+ 
+ 
+4 ÁREA DA PESQUISA  
+ 
+Na Área Diretamente Afetada (ADA) do empreendimento Guedala Park III foi 
+identificado o sítio arqueológico Caxingui no âmbito do Programa de Prospecção e 
+Resgate Arqueológico – Implantação da Linha 04 – Amarela Metrô de São Paulo, 
+Município de São Paulo/SP (DOCUMENTO, 2007). Este contexto foi investigado por 
+meio de ações de delimitação e resgate arqueológico, representadas pela abertura 
+de poços-teste, trincheiras e escavação em área ampla (quadras), distribuídas na área 
+de dispersão dos vestígios arqueológicos.  
+As investigações iniciais resultaram na   identificação   de   restos  
+construtivos articulados, a exemplo de piso e alicerces de tijolos, a partir de 20 cm de 
+profundidade (DOCUMENTO, 2007). Logo, com o objetivo de evidenciar   as estruturas 
+observadas in loco, as escavações foram expandidas por meio da abertura de trincheiras 
+e sondagens de 1 m
+2
+, de forma a delimitar a área de ocorrência dos vestígios. Esta 
+etapa deu ênfase para a dimensão horizontal do               sítio, de modo a revelar as relações 
+espaciais entre as estruturas e artefatos móveis no espaço. 
+As ações de resgate do sítio Caxingui revelaram a presença de uma camada 
+superficial escura, composta por restos de lixo doméstico e entulho construtivo recente, 
+provavelmente devido a alguma reforma da casa do lado  Oeste (DOCUMENTO, 2007). 
+Além disso, foi observada uma camada de coloração marrom clara com vestígios que 
+remetem à época de demolição da referida estrutura. Os materiais observados consistem 
+em fragmentos de cerâmica (principalmente material construtivo), de louça (faiança fina, 
+porcelana e grés) e de vidro (frascos, garrafas, vidro plano, entre outros), associados aos 
+séculos XIX e XX. 
+A partir da análise dos vestígios enco ntrados, o histórico de uso e  ocupação 
+da área foi dividido em 4 (quatro) momentos de deposição de vestígios no sítio 
+(DOCUMENTO, 2007), a saber: 
+ 
+1) O primeiro momento de deposição está associado a presença de 
+vestígios, que se encontram visíveis ao sul da área adquirida pelo Metrô, 
+nas proximidades de vestígios de alicerces de uma edificação. 
+Cronologicamente, apresenta vestígios de faiança fina relacionados ao  
+final do século XIX e início do século XX. 
+Consultoria e Projetos em Arqueologia   14 
+ 
+ 
+2) O segundo momento de deposição compreende fragmentos de utensílios 
+de faiança fina que remontam cronologicamente à década de 1920. 
+3) O terceiro momento de deposição está associado à demolição da 
+edificação e ao uso da área para descarte de rejeitos indesejados. Os  
+materiais observados se enquadram na produção e consumo da década 
+de 1950. 
+4) O quarto momento de deposição corresponde ao acúmulo de lixo 
+doméstico contemporâneo e de entulho construtivo proveniente de obras 
+executadas nas edificações contíguas ao sítio. É importante ressaltar que 
+esses vestígios não correspondem a uma ocupação do sítio histórico  
+arqueológico, mas ao uso recente e atual da área. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Consultoria e Projetos em Arqueologia   15 
+ 
+ 
+ 
+ 
+Figura 2 - Perfil estratigráfico evidenciando a presença de estrutura de tijolos na área do 
+Sítio 
+ 
+Fonte: DOCUMENTO (2007). 
+ 
+ 
+
+Consultoria e Projetos em Arqueologia   16 
+ 
+ 
+ 
+Mais recentemente, durante as a ções de acompanhamento arqueológico 
+realizadas na área do empreendimento Guedala Park III, foram evidenciados 
+remanescentes de piso, em avançado estado de degradação, associados ao sítio 
+arqueológico Caxingui, objeto de ações de delimitação e resgate arqueológico no âmbito 
+do Processo IPHAN nº 01506.000764/2004-17.  
+É importante ressaltar que após a identificação d o piso  residual, foram 
+realizados procedimentos de limpeza manual, com o objetivo de evidenciá -lo. Na 
+ocasião, foi registrad o um piso residual medindo aproximadamente 5,00 x 4,30 m, 
+composto por uma camada de tijolos maciços, sobreposta por uma camada de 
+argamassa, provavelmente, relacionada a cimentação desse espaço. Após a 
+evidenciação do piso, iniciou-se o registro fotográfico e topográfico das evidências. Em 
+seguida, a área de dispersão dos vestígios foi isolada. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 3 - Vista geral da área de dispersão do piso residual 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+ 
+
+Consultoria e Projetos em Arqueologia   17 
+ 
+ 
+ 
+ 
+Figura 4 - Vestígios de contrapiso evidenciado em algumas porções dos remanescentes 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 5 - Tijolos maciços evidenciados em algumas porções da área de dispersão 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+
+Consultoria e Projetos em Arqueologia   18 
+ 
+ 
+ 
+ 
+Figura 6 - Tijolo maciço com inscrição 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 7 - Vista geral da área isolada preliminarmente 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+
+Consultoria e Projetos em Arqueologia   19 
+ 
+ 
+ 
+ 
+Figura 8 - Isolamento atual da área de dispersão dos vestígios de piso residual 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 9 - Área de dispersão dos remanescentes de piso isolada com tapumes 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+
+20 
+ 
+ 
+ 
+ 
+Figura 10 - Localização dos remanescentes de piso em relação à Torre 03 do empreendimento 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+ 
+
+21 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 11 - Levantamento topográfico dos vestígios de piso residuais identificados na ADA do empreendimento 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+
+22 
+ 
+ 
+ 
+ 
+Figura 12 - Levantamento 3D dos remanescentes de piso 
+ 
+Fonte: GRIFO Arqueologia, 2024. 
+ 
+ 
+ 
+
+23 
+ 
+ 
+ 
+ 
+5 PROPOSTA METODOLÓGICA 
+ 
+As ações arqueológicas serão desenvolvidas a partir de um viés 
+metodológico interdisciplinar, de forma que vestígios de natureza distintas sejam 
+devidamente compreendidos e relacionados ao histórico de ocupação do terreno. As 
+estratégias metodológicas irão considerar as características dos bens imóveis 
+residuais evidenciados, já bastante s impactados, além do  conhecimento prévio 
+sobre o sítio arqueológico Caxingui , em consonância com aportes teóricos 
+comumente utilizados em atividades de arqueologia (BURKE e SMITH, 2004 ; 
+DOMINGO, BURKE e SMITH, 2007; RENFREW e BAHN, 2011). 
+ 
+5.1 Ações de desmonte controlado dos remanescentes de piso 
+ 
+  Os vestígios de piso  residuais identificados na área da Torre 03 do 
+empreendimento residencial Guedala park III, já foram objeto de ações de limpeza, 
+registro fotográfico detalhado (2D e 3D) e levantamento topográfico. Esses 
+procedimentos foram adotados quando da identificação desses vestígios na ADA, de 
+modo a fornecer uma caracterização desses bens, com ênfase para os elementos 
+composicionais dos remanescentes de piso e o estado de conservação d essas 
+evidências.  
+Considerando o alto grau de impacto do piso residual, propõe-se que 
+esses remanescentes sejam objeto de ações de desmonte controlado, a partir do 
+registro pormenorizado por meio de fotografias, coleta de amostras de tijolos e outros 
+vestígios que sejam de interesse arqu eológico. Dessa forma, esses serviços serão 
+executados com a presença de um arqueólogo, em ação de acompanhamento das 
+atividades de desmonte , orientando os colaboradores durante as intervenções, e 
+registrando quaisquer evidências e escolhas metodológicas adotadas durante esse 
+processo.  
+As ações de desmonte serão realizadas a partir da sequência de 
+operações exemplificada a seguir:  
+ 
+a) Orientação dos colaboradores que irão atuar nas ações de desmonte; 
+24 
+ 
+ 
+ 
+ 
+b) Desmonte controlado dos vestígios residuais de piso orientado por 
+níveis artificiais de 20 cm; 
+c) Acompanhamento da s atividades de escavação  subsequentes aos 
+procedimentos de desmonte; 
+d) Coleta de eventuais bens arqueológicos móveis; 
+e) Procedimentos de curadoria dos bens eventualmente coletados de 
+acordo com as diretrizes da Portaria IPHAN Nº 196 /2016, quando 
+pertinentes; 
+f) Registro detalhado das ações a partir de fotografias digitais; 
+g) Caso pertinente, realização de levantamento topográfico 
+complementar; 
+h) Apresentação de relatório técnico-científico ao IPHAN-SP, contendo o 
+detalhamento das ações realizadas. 
+ 
+Ao final das ações de campo, os vestígios arqueológicos eventualmente 
+coletados, serão submetidos aos procedimentos laboratoriais  recomendados pela 
+Portaria IPHAN Nº 196/2016, ficando sob-responsabilidade da instituição de guarda 
+aprovada pelo IPHAN. Esses procedimentos compreendem atividades de curadoria, 
+análise e interpretação dos vestígios. Para tanto, serão utilizados princípios 
+comumente utiliza dos e presentes em protocolos curatoriais, observando os 
+diferentes vestígios encontrados, bem como a forma para o acondicionamento 
+definitivo do material. 
+Ao final das ações, os elementos históricos  reconhecidos para a região 
+serão combinados aos resultad os alcançados durante as ações de desmonte 
+controlado do piso residual , de modo a fornecer os subsídios necessários para a 
+caracterização e contextualização dos vestígios identificados.  
+ 
+ 
+5.2 Ações voltadas à Educação Patrimonial  
+  
+As ações voltadas à Educação Patrimonial propostas neste documento 
+serão direcionadas à comunidade local e aos  agentes diretamente envolvidos n o 
+Processo aberto no Ministério Público Federal (01450.003647/2023 -52), no que 
+25 
+ 
+ 
+ 
+ 
+concerne ao interesse comunitário na área contígua do Parque Linear, adjacente à 
+ADA do empreendimento. As estratégias pensadas consideraram o atual estado de 
+conservação dos remanescentes residuais de piso identificados, os quais estão 
+relacionados ao sítio arqueológico Caxingui, objeto d e ações de resgate no ano de 
+2007. 
+Dessa forma, as ações propostas visam à valorização e (re)conhecimento 
+do patrimônio cultural pela comunidade  local, tendo como finalidade o 
+aprofundamento das discussões acerca do conhecimento sobre o tema e como este 
+se torna um instrumento importante de promoção e vivência da cidadania, gerando 
+responsabilidade, valorização e preservação do patrimônio. As atividades propostas 
+tem como objetivo: 
+a) Compreender conceitos fundamentais referentes à cultura e 
+patrimônio e a interface com memória, história e identidade; 
+b) Proporcionar ao s participantes  o conhecimento de  métodos e 
+ações referentes à Arqueologia;  
+c) Integrar os conhecimentos sobre a arqueologia local  com a 
+comunidade;  
+d) Identificar e relacionar os bens culturais relevantes do entorno do 
+local;  
+e) Apresentar à comunidade o resultado das atividades 
+arqueológicas em desenvolvimento na área. 
+ 
+Para o alcance dos objetivos propostos , a estratégia  de ação a ser 
+utilizada compreenderá: 
+ 
+a) Roda de conversa com  a comunidade: objetiva levar ao conhecimento do 
+público alvo aspectos relacionados ao contexto histórico e geográfico no qual 
+se insere o local do empreendimento, visando para que atentem ao significado 
+e importância dos  bens culturais materiais, imateriais e arqueológicos da 
+região. Esta ação será mediada pela arqueóloga responsável pelas ações de 
+acompanhamento arqueológico. 
+b) Mostra de materiais arqueológicos móveis coletados durante as ações 
+de acompanhamento arqueológico: esta ação visa proporcionar o contato 
+do público  alvo com vestígios móveis identificados durante as ações de 
+26 
+ 
+ 
+ 
+ 
+acompanhamento arqueológico. Esses materiais foram encont rados 
+dispersos, descontextualizados, associados a uma espessa camada de 
+aterro. A presente ação  será realizada em um único dia,  após a finalização 
+das ações de campo e laboratório, associadas ao processo de retirada dos 
+remanescentes, em local externo a ser definido, juntamente com uma palestra 
+sobre o patrimônio arqueológico da região de implantação do 
+empreendimento. 
+c) Distribuição de material informativo sobre Arqueologia e Patrimônio , com 
+ênfase para o contexto arqueológico da área de implantação do 
+empreendimento. Este material será produzido ao final dos trabalhos, a partir 
+dos resultados obtidos. 
+ 
+As ações de divulgação e  extroversão do patrimônio elencadas nesta 
+seção visam integrar à comunidade às atividades de arqueologia em andamento, 
+sem prejuízos às ações de retirada dos remanescentes e a continuidade das obras 
+na área em questão. Entende-se que o atual estado de conservação do piso residual 
+impossibilita a aplicação efetiva de uma metodologia colaborativa na retirada desses 
+remanescentes. Dessa forma, as ações propostas tem como escopo permitir a 
+participação da comunidade neste processo, a partir de metodologias edu cacionais 
+voltadas à promoção do patrimônio arqueológico. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+27 
+ 
+ 
+ 
+ 
+6 CRONOGRAMA 
+ 
+As atividades desta proposta serão realizada s de acordo com o 
+cronograma apresentado a seguir: 
+ 
+ 
+Tabela 1 - Cronograma de atividades 
+Fases 
+Semanas 
+01 02 03 04 
+Desmonte controlado dos remanescentes de piso ●    
+Procedimentos laboratoriais  ● ●   
+Ações educativas (roda de conversa, mostra de materiais* 
+arqueológicos e palestra)   ●  
+Distribuição de material informativo   ●  
+Apresentação de Relatório ao IPHAN    ● 
+Fonte: GRIFO Arqueologia, 2024. 
+  
+ 
+Obs: considerando a necessidade de alinhamento dessas ações junto ao público alvo, o 
+cronograma poderá sofrer ajustes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+28 
+ 
+ 
+ 
+ 
+ 
+ 
+REFERÊNCIAS 
+ 
+BURKE, H; SMITH, C . The Archaeologist’s Field Handbook . Allen and Unwin, 
+Crows Nest, 2004, 406p. 
+DOMINGO, I; BURKE, H; SMITH, C. Manual de campo del arqueólogo. Barcelona: 
+Ariel, 2007, 478p. 
+DOCUMENTO. Programa de Prospecção e Resgate Arqueológico – Implantação 
+da Linha 04 – Amarela Metrô de São Paulo, Município de São Paulo/SP. Relatório 
+Final, Volume II, São Paulo, 2007. 
+RENFREW, Colin; Paul BAHN. Arqueologia: teorias, métodos y prácticas. Madrid: 
+AKAL, 2011. 
+ 
+ 
+ 
