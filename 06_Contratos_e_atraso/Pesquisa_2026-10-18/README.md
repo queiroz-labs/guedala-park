@@ -1,3 +1,7 @@
+## Atualização: origem plausível dos 254 dias identificada
+
+A leitura dos relatórios localizou paralisação da área arqueológica em 04/04/2024 e início do desmonte em 13/12/2024: 254 dias com ambos os extremos incluídos. Houve serviços nas torres durante o intervalo. Veja [a análise dos relatórios](Relatorios_paralisacao_e_torres_2026-10-18.md). Esta atualização supera a ausência anterior de marcos que coincidissem com 254, sem comprovar igual atraso na entrega.
+
 # Pesquisa Cury / Guedala / IPHAN — 18 de outubro de 2026
 
 ## Conclusão atual

@@ -1,3 +1,5 @@
+> Atualização posterior nesta data: os relatórios já foram obtidos. Os marcos 04/04 e 13/12/2024 correspondem a 254 dias inclusivos. Consulte [os novos achados](Relatorios_paralisacao_e_torres_2026-10-18.md); as pendências abaixo representam a etapa anterior.
+
 # Continuação da pesquisa — 18/10/2026
 
 Foram consultados mais oito documentos públicos do processo 01506.006120/2016-68. Os originais, transcrições e links estão em documentos/ e fontes.json. Esta análise não determina responsabilidade jurídica nem valida a contagem alegada de 254 dias.

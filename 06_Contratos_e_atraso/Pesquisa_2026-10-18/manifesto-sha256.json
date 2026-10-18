@@ -6,8 +6,8 @@
   },
   {
     "arquivo": "Continuacao_2026-10-18.md",
-    "bytes": 4730,
-    "sha256": "69da513875774be403de0c0285f8e88fede1f3ce26a692c718feeb2e02d74694"
+    "bytes": 4998,
+    "sha256": "217b12ed1ac918312064a1b04792042c0225a768857c3066df180cfbc3c20359"
   },
   {
     "arquivo": "fontes.json",
@@ -16,8 +16,13 @@
   },
   {
     "arquivo": "README.md",
-    "bytes": 7780,
-    "sha256": "d75320f9d170f75620c3c857a3bba496774cb8fd32779911778fd7e9af16b23a"
+    "bytes": 8267,
+    "sha256": "666de0e8859054be70c135b36eeeeb396d622e7262ff12acec29a933f134a660"
+  },
+  {
+    "arquivo": "Relatorios_paralisacao_e_torres_2026-10-18.md",
+    "bytes": 6217,
+    "sha256": "1c6274060775be9a2d7eb4c1402b38157e569d1472e29b95920ac1c8b3ddbd83"
   },
   {
     "arquivo": "documentos/4693172.html",
@@ -48,6 +53,11 @@
     "arquivo": "documentos/4830084.txt",
     "bytes": 2247,
     "sha256": "4276585b6301488adf019820ed2148864008d6829983e12fb377fda60e54fcf8"
+  },
+  {
+    "arquivo": "documentos/5266628.txt",
+    "bytes": 6840,
+    "sha256": "4b61cae098f42bfa361c80746ae1248f31959cdc3a4976cea3556d6624d4e7f1"
   },
   {
     "arquivo": "documentos/5316839.html",
@@ -98,6 +108,11 @@
     "arquivo": "documentos/5479228.txt",
     "bytes": 2869,
     "sha256": "913f821a17210cea5a914d20d56fc5842a0d5a295a835979a87bacdff651d941"
+  },
+  {
+    "arquivo": "documentos/5612083.txt",
+    "bytes": 226274,
+    "sha256": "9c0aaf76803638a3a3256187837954e2eac2af6fdec9d8bb1a01f6cf76ef59eb"
   },
   {
     "arquivo": "documentos/5817618.pdf",
@@ -160,6 +175,11 @@
     "sha256": "85461a5c7f40b01816fdb9948de455db41e526744c5b0cefb0f2327bd6cd2161"
   },
   {
+    "arquivo": "documentos/5944587.txt",
+    "bytes": 241979,
+    "sha256": "722d5721a0c3881d4b6839fa4ac8c2f1e2817028c6ebc3c601156070ffa58827"
+  },
+  {
     "arquivo": "documentos/5955411.html",
     "bytes": 66254,
     "sha256": "cc5effcce6e7da7a15fcab0b2df0f22be23a707e0ae90616da547d574240e55a"
@@ -168,6 +188,11 @@
     "arquivo": "documentos/5955411.txt",
     "bytes": 2142,
     "sha256": "79769b50c8da1a6525b1e083ad88387f5a4234b88f167ba12c65c804f58fd147"
+  },
+  {
+    "arquivo": "documentos/6491004.txt",
+    "bytes": 815343,
+    "sha256": "31da0e684f8c5ee5bf3cc83e7aa22c457bbf21dba87bb6f1236a522010a34877"
   },
   {
     "arquivo": "documentos/6774998.html",
@@ -218,5 +243,70 @@
     "arquivo": "pesquisa-contatos-publicos/prospecto370-safra.pdf",
     "bytes": 27412861,
     "sha256": "aa46926df3f03266f81faf5b936d210dac67e3549a7fe0bc2f3c918da940e72a"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5266628.pdf.parte001",
+    "bytes": 1411814,
+    "sha256": "62c3070ce43c4f702a62de12c0123ded1dc6c09531c259ceea3f41937cbaf1d3"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5430155.zip.parte001",
+    "bytes": 6020020,
+    "sha256": "43df9895c1fc05b6fb34a2b889c4e2869549a8f9143a2eb5e2438411712d43ef"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5612083.pdf.parte001",
+    "bytes": 83886080,
+    "sha256": "7acc777f1fcf8bba0b60609feebb3891ed43f95ffa02ec0c959581156767d059"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5612083.pdf.parte002",
+    "bytes": 7391445,
+    "sha256": "140ab102289e9c282101ab22641e210bbf82e70ac0290de77a4e717a75f3246b"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5944587.pdf.parte001",
+    "bytes": 83886080,
+    "sha256": "8096e184df9063561e439c7ac75e72420a654bb6c5ada56e108e46cbf11a8487"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5944587.pdf.parte002",
+    "bytes": 83886080,
+    "sha256": "1e74efb20296ec23488dc70568726e3168f87a9e4657754baa368a7cc9788ddf"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/5944587.pdf.parte003",
+    "bytes": 73161446,
+    "sha256": "0c5ba58c678e8497f99403bff5d5513070d8f714d7653645f38ed2a632b40265"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/6491004.pdf.parte001",
+    "bytes": 83886080,
+    "sha256": "cba0fd229f9f4e89b506d4586cee72f330196903ab06b6e6894570bb0e7e9c27"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/6491004.pdf.parte002",
+    "bytes": 83886080,
+    "sha256": "3c5b399f0211255f4acfa662079986d71edc2fac196f0204deceb777da19b914"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/6491004.pdf.parte003",
+    "bytes": 83886080,
+    "sha256": "780efcec7bc6c081e85adf8e6de28fc259883a47070bf3a8d0942772781011db"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/6491004.pdf.parte004",
+    "bytes": 59068048,
+    "sha256": "d150d3295a6dd4e18aab06a1e2b8064ba72fdcbc4901941826b7cc0108749bbc"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/indice.json",
+    "bytes": 2449,
+    "sha256": "60724d4a1736658612b0f744d7455bb0f6a9b231bd61cbf7c02e654344ee7a8b"
+  },
+  {
+    "arquivo": "relatorios-fragmentados/restaurar.py",
+    "bytes": 958,
+    "sha256": "931067f61dc4e044fe41dc30a65fc1e0d25d27c396a8801966a066b9134e0704"
   }
 ]
