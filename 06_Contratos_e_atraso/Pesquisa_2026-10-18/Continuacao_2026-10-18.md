@@ -35,4 +35,4 @@ Não selecionar marcos apenas para fazer a soma coincidir com 254. A descoberta 
 - Sequência de atividades que determinava a data final (caminho crítico), folgas, outras frentes possíveis e medidas de mitigação.
 - Separação entre duração da restrição, duração de procedimentos administrativos e impacto líquido na entrega.
 
-Próximas fontes úteis: ofício GRIFO 5266628; relatórios de junho/agosto/dezembro de 2024 e relatório final 6491004, particularmente plantas e registros datados de retomada. A leitura integral desses relatórios permanece pendente.
+Na etapa posterior, o ofício GRIFO 5266628 e os relatórios parciais I e II e final 6491004 foram obtidos. Houve busca textual e leitura aprofundada dos trechos relevantes, com conferência visual de páginas-chave. A revisão visual de todas as páginas não foi realizada. Os resultados atuais estão em [Registros de paralisação, retomada e identificação das torres](Relatorios_paralisacao_e_torres_2026-10-18.md).
