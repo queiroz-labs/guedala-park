@@ -1,4 +1,8 @@
-# Apartamento interativo — R08
+# Apartamento interativo — R10: luz e sombras de contato
+
+## Luz e sombras de contato — 17/10/2026
+
+Sala e cozinha receberam comparação **Antes / Depois** na vista 3D, com luz suave e contatos aproximados calculados sobre os móveis atuais. Controles e personalização preservados; configuração visual separada em `src/lighting.js`. [Comparação e conferências](Luz_e_contato_2026-10-17/README.md). HTML e artefato Pages regenerados. Publicação da R10 autorizada por Elias em 18/10/2026.
 
 ## Revisão R09 — cozinha e lavanderia, 27/09/2026
 
@@ -18,7 +22,7 @@ Verificação: [registro R08](Verificacao_interface_R08.json), incluindo 21 comb
 
 18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
 
-**Publicado no GitHub Pages:** [site](https://queiroz-labs.github.io/guedala-park/) · [moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/). [Escopo autorizado e continuidade da publicação](Publicacao_GitHub_Pages.md): somente site e moodboard foram enviados; o restante novo permanece local.
+**GitHub Pages:** [site](https://queiroz-labs.github.io/guedala-park/) · [moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/). O [registro inicial de publicação](Publicacao_GitHub_Pages.md) descreve uma etapa histórica; a autorização foi ampliada em 27/09, como registrado acima. A publicação da R10 de iluminação foi autorizada em 18/10/2026. Um push para `main` aciona a publicação automática do site e moodboard.
 
 [Abrir o apartamento](Guedala_Park_Interativo.html) · [Moodboard com medidas](../../03_Referencias/Moodboard_atualizado_R01.html) · [Painel visual atualizado](../../03_Referencias/Moodboard_visual_atualizado_R01.png) · [Resumo do projeto](../Resumo.md)
 

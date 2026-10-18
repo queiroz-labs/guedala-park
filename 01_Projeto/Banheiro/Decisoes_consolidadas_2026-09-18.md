@@ -1,5 +1,7 @@
 # Banheiro — decisões consolidadas
 
+**17/10/2026 — iluminação aprovada:** Elias escolheu frontal do espelho4000 K e indireta3000 K, com comandos físicos separados, após a apresentação da proposta de frontal difusa e uso independente das duas luzes. Encerradas temperatura desses dois grupos e separação dos comandos. Luminárias, potência, reprodução de cores, uniformidade no rosto, intensidade, proteção adequada, manutenção, ofuscamento e esquema executivo continuam para detalhamento. A iluminação geral do teto não recebeu temperatura por este aceite. Referência de temperaturas/funções da proposta: [orientação residencial LEDVANCE](https://data.ledvance.com/ledvance.global/en-uk/home-lighting/rooms/bathroom-lighting), consultada em17/10/2026. As barras fixas acima/abaixo da R12 continuam somente proposta geométrica, não posição executiva aprovada.
+
 Atualizado em 18/09/2026 a pedido de Elias: “documente tudo que falamos aqui”. Este documento reúne o estado atual do banheiro, substituindo para consulta rápida as propostas antigas superadas. O histórico detalhado permanece no [registro de decisões](../Registro_de_decisoes.md).
 
 [Início do projeto](../../README.md) · [Índice do banheiro](README.md) · [Comparação visual dos percursos de água quente](Comparacao_visual_dos_percursos.html)
@@ -24,7 +26,7 @@ Atualizado em 18/09/2026 a pedido de Elias: “documente tudo que falamos aqui�
 | Gabinete inferior | **Suspenso e totalmente fechado**, sem nichos; frentes bege foscas lisas, sem ripado ou puxadores salientes; madeira clara nas laterais | Portas/gavetas, interior, ferragens, padrão exato, acesso ao sifão e conexões |
 | Armário do espelho | **Raso**, toda a frente espelhada, sem nichos abertos; madeira clara nas laterais | Dimensões, número de portas, divisões e passagem hidráulica se adotada |
 | Conteúdo atrás do espelho | Escovas, pasta, desodorante e pequenos cosméticos | Profundidade útil a partir das embalagens |
-| Iluminação | Luz quente indireta e **luz frontal para maquiagem** | Luz lateral difusa proposta na imagem; temperatura exata, potência, luminárias, comandos e instalação não fechados |
+| Iluminação | **Espelho4000 K e indireta3000 K, com comandos físicos separados**, aprovados em17/10/2026; frontal difusa para maquiagem | Luminárias, intensidade, reprodução de cores, posição, potência e instalação; temperatura da geral de teto ainda por definir. Barras da R12 são proposta |
 | Paredes fora do box | **Algodão Egípcio** | Marca, código, produto, preparo e proteção nas regiões de respingo |
 | Parede verde | **Somente uma parede do box**, fundo/chuveiro no estudo; referência Portobello Vivant Sauge Mate7 ×24,4 | Amostra, paginação e quantidade; demais paredes internas não ficam todas verdes |
 | Parede da janela no box | Aparência clara/bege da referência revisada | Revestimento exato ainda não escolhido |

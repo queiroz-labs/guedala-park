@@ -1,5 +1,7 @@
 # Banheiro
 
+**17/10/2026 — iluminação escolhida:** espelho4000 K, indireta3000 K e comandos físicos separados. Luminárias, intensidade, posição e execução ainda serão detalhadas; a proposta de barras fixas R12 não vira posição aprovada por esse aceite. [Decisões consolidadas](Decisoes_consolidadas_2026-09-18.md).
+
 [Proposta de marcenaria CAD R12 — 14/10/2026](../Modelo_FreeCAD/02_Revisoes_e_estudos/Banheiro_R12_2026-10-14/README.md): duas portas comuns inferiores e duas folhas espelhadas com prateleiras removíveis. Luzes frontais fixas acima/abaixo propostas para liberar abertura; gabinete inferior exige entrada fechada no estudo. Preserva escolhas abaixo; cotas, vidro, fixação, hidráulica e batente não liberados.
 
 [Início](../../README.md) · [Resumo geral](../Resumo.md)

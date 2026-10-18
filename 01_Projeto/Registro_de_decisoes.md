@@ -1,5 +1,47 @@
 # Registro de decisões — Guedala Park
 
+## 17/10/2026 — aplicativos na própria TV e segunda candidata
+
+Elias faz questão de todos os aplicativos na própria TV, sem reprodutor externo. Considera aceitável o StremioLite na Ambilight e pediu verificar/anotar uma segunda opção que permita instalar Stremio. Preservar preferência principal pela PhilipsAmbilight50 polegadas e tetoR$3000 somenteTV. Aceite doLite é preferência funcional, não comprovação de reprodução da sua conta nem seleção definitiva da50PUG8100/78.
+
+Segunda candidata pesquisada: **TCL50P7K,50 polegadas,QLED,GoogleTV**, para instalarStremioAndroidTV na própriaTV pelo método oficial disponível. Alternativa anotada, sem substituirAmbilight ou adotar compra. Não preverTVstick/box como solução-base. [Comparação e fontes](Sala_e_jantar/Painel_e_TV_R00.md#segunda-candidata-sem-aparelho-externo--17102026).
+
+## 17/10/2026 — ciclismo no armário do escritório
+
+Elias confirmou: “sim, pode deixar o capacete, a sapatilha e o kit de ferramentas no armário do escritório”. Adotar um setor do aéreo já aprovado como direção de guarda, com prateleiras reguláveis e ferramentas no próprio estojo, conforme proposta apresentada. Encerrada a decisão de destino desses três itens. Medidas, carga, alcance, ventilação e divisões internas ainda serão conferidos; não criar novo módulo baixo ou atribuir capacidade não demonstrada. Preservar a guarda aprovada da cozinha/banco e a reserva da mala grande no baú da queen futura.
+
+## 17/10/2026 — iluminação do espelho e indireta do banheiro
+
+Elias aprovou a combinação apresentada: **4000 K no espelho e3000 K na indireta, com comandos separados**. Manter acionamento físico independente de cada grupo. Não repetir temperatura ou separação dos comandos como perguntas pendentes. A aprovação da frontal difusa/indireta não seleciona marca/modelo, potência, posição das barras R12, dimmer, esquema elétrico nem temperatura da iluminação geral do teto. Esses parâmetros seguem para detalhamento e compatibilização.
+
+## 16/10/2026 — queen futura escolhida, cama de viúvo na mudança
+
+Elias confirmou: “queen me atende sim, vamos deixar o quarto preparado pra ela e por enquanto uso a de viuvo”. Adotar **queen com baú como tamanho futuro**, mantendo a cama de viúvo com baú existente para a mudança e uso inicial. Encerra a escolha entre casal/queen/king nesta rodada. Não repetir a pergunta nem tratar a queen como cama já possuída ou compra realizada.
+
+Preparar implantação, cabeceira, apoios e iluminação pela cama futura, preservando o roupeiro de650 mm. Referência inicial de colchão queen158 ×198 cm; envelope160 ×200 cm já usado no desenho permanece gabarito de estudo, não dimensão externa validada de uma base-baú. Estudar a cama atual centralizada no mesmo eixo da futura, conferindo alcance dos apoios e acesso ao baú em ambas as fases. Produto futuro, altura final, abertura, divisórias e vão interno precisam de conferência. A mala grande futura continua requisito do baú da queen; coexistência com caixa do PC e demais volumes não está comprovada. Nenhuma geometria CAD alterada por este registro.
+
+## 16/10/2026 — correção da cama existente e troca futura
+
+Elias esclareceu que possui **cama de viúvo com baú**, com a qual fará a mudança, e pretende trocá-la depois por **cama de casal ou king, também com baú**. Esta informação substitui as menções anteriores de cama queen existente. Medidas externas, modelo e dimensões internas do baú atual permanecem desconhecidos. Queen/160 cm no desenho é cenário de estudo, não inventário nem nova escolha da cama futura.
+
+O quarto deve estar pronto na mudança para usar a cama atual, com a futura troca compatibilizada antes de fixar cabeceira, apoios, iluminação e folgas da marcenaria. A troca posterior da cama é intenção expressa do usuário e não cancela o fechamento integrado dos ambientes antes da ocupação. A mala grande futura deve ser confrontada com o baú da cama que vier a ser escolhida; não presumir que o baú de viúvo ou uma futura base bipartida tenha o mesmo vão útil. Comparar casal, queen como alternativa intermediária e king por dimensões reais, sem adotar tamanho novo nem reduzir o guarda-roupa650 já aprovado.
+
+## 16/10/2026 — volumes de viagem, ciclismo e jogos
+
+Elias informou uma mala de bordo da categoria10 kg existente e deseja ter uma mala grande no futuro, para viagens maiores, que caiba no baú da cama. Adotar a guarda da mala grande futura no baú como requisito de armazenamento. As dimensões externas das duas malas e o volume interno do baú não foram informados; a categoria10 kg não define medidas. Há cerca de cinco mochilas vazias, que podem ser encaixadas umas dentro das outras. Isso reduz o número de volumes de mochilas a guardar; não foi confirmado que caibam dentro de qualquer mala. Para ciclismo: um capacete, uma sapatilha e um kit de ferramentas, conforme informado, sem acrescentar outros conjuntos. Ainda não possui jogos de tabuleiro e pretende comprar aos poucos, com máximo de três. Reservar para até três caixas futuras, sem presumir formato ou tamanho de caixas ainda não escolhidas.
+
+Quantidades ficam definidas para o estudo; dimensões das malas, envelope das mochilas encaixadas e dos itens de ciclismo permanecem por conferir. Baú como destino da mala grande é direção escolhida; encaixe físico, guarda simultânea da mala de bordo e mochilas, e coexistência com a possível caixa do PC não estão demonstrados. Demais destinos continuam propostas. Preservar cozinha/banco já aprovados, prioridade do aspirador/balde e a possibilidade previamente aceita de guardar ciclismo em outro lugar.
+
+## 16/10/2026 — mudança com todos os ambientes prontos
+
+Elias definiu: “Quero me mudar com tudo pronto, então vamos fechar o projeto de todos os ambientes.” Planejar cozinha, lavanderia, sala/jantar, quarto, escritório e banheiro como uma entrega integrada anterior à mudança. Sequência técnica de obra e montagem pode ser organizada, sem presumir aceite para deixar ambientes para depois de morar. A decisão não amplia automaticamente tetos de orçamento, não define data de mudança e não encerra medições/compatibilizações pendentes. A comparação Fischer × Venax continua deixada em aberto a pedido do usuário.
+
+## 16/10/2026 — flexibilidade na seleção dos aparelhos
+
+**Complemento — forno elétrico:** Elias autoriza incluí-lo na comparação se não contrariar os documentos oficiais e se trouxer benefício ao projeto. Não adotado produto específico. Triagem dos originais não encontrou proibição específica nas páginas examinadas, mas também não demonstrou carga ou circuito disponível: memorial p. 19(h), p. 17(5.1) e p. 14(3.1); convenção p. 33, art. 57(i), sobre instalações que importem em sobrecarga. Comparação permanece condicionada à instalação elétrica e às regras aplicáveis. [Resultado e candidato](Cozinha/Fechamento_R30_2026-10-14/README.md#comparação-condicionada-de-forno-elétrico--16102026).
+
+Elias informou: “Ainda não comprei nenhum aparelho, estão só escolhidos. Podemos avaliar trocar algum se isso facilitar o projeto.” Fica autorizado estudar alternativas e comparar impactos no projeto, sem atribuir aprovação a uma substituição específica ou compra. Preservar as escolhas vigentes como referência de comparação. Ainda não há acesso ao apartamento para levantamento; medidas do modelo permanecem provisórias.
+
 **14/10 — FreeCAD atual R28, proposta solicitada:** [arquivo e cotas](Modelo_FreeCAD/04_Documentacao/Entrega_atual_R28.md). Aéreo inteiro do escritório20mm mais baixo: folga nominal ao teto20mm, sem perda de altura interna. R27 e anteriores preservadas; instalação/teto reais pendentes.
 
 
@@ -1516,7 +1558,7 @@ Servir comida na bancada, deixando a mesa para pratos e copos (4B). Encontros à
 #### INV-001 — Móveis e TV existentes
 **CONFIRMADO** · Fontes: F26, resposta livre.
 
-Elias possui cama queen e TV de 43 polegadas. Mesa, cadeiras e sofá serão comprados novos; no contexto desta rodada, os demais móveis serão novos.
+**Inventário da cama corrigido em16/10/2026:** Elias possui cama de viúvo com baú, que levará à mudança, com intenção de troca posterior por casal ou king com baú. A antiga menção a queen existente está superada. TV de43 polegadas existente preservada. Mesa, cadeiras e sofá serão comprados novos; no contexto desta rodada, os demais móveis serão novos.
 
 **Execução/limite:** Medidas externas da cama/base/cabeceira, modelo e dimensões externas da TV e ambiente de instalação da TV não informados. Não converter a designação queen em medida acabada nem manter automaticamente a cama de casal ilustrativa da imagem como especificação. Esta resposta sobre móveis não cancela o inventário anterior de aparelhos, utensílios e PC já existentes.
 

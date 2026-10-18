@@ -1,5 +1,58 @@
 # Decisões e próximos passos
 
+**17/10/2026 — iluminação do banheiro aprovada:** espelho4000 K, indireta3000 K e comandos físicos separados. Encerradas essas escolhas; produtos, potência, posições e execução continuam para detalhamento, sem estender o aceite à iluminação geral de teto. [Decisão e limites](Banheiro/Decisoes_consolidadas_2026-09-18.md).
+
+**17/10/2026 — ciclismo no escritório aprovado:** capacete, sapatilha e kit de ferramentas terão destino num setor do aéreo já aprovado, com prateleiras reguláveis e ferramentas no próprio estojo. Encerrada a decisão de destino; dimensões, carga e alcance precisam ser conferidos. Não criar módulo baixo nem restaurar o módulo dedicado à caixa do PC excluído.
+
+**17/10/2026 — aplicativos diretamente naTV, decisão encerrada:** Elias faz questão de todos os apps na própriaTV e aceitaStremioLite naAmbilight, mantendo-a como preferência principal. Não prever reprodutor externo.50PUG8100/78 segue candidata, com teste de uso pendente. Segunda opção anotada a pedido: **TCL50P7K50″,QLED,GoogleTV**, compatível em plataforma com instalação oficialStremioAndroidTV; não substituiPhilips nem aprova compra. TetoR$3000 preservado. [Fontes e referência anunciada deR$2448,98](Sala_e_jantar/Painel_e_TV_R00.md#segunda-candidata-sem-aparelho-externo--17102026).
+
+**16/10/2026 — frente atual: todos os ambientes prontos antes da mudança.** Elias escolheu fechar e executar o apartamento inteiro antes de morar, sem deixar sala/escritório para uma segunda etapa de ocupação. Cozinha, lavanderia, sala/jantar, quarto, escritório e banheiro devem compor uma entrega integrada. Sequência técnica de obra pode ser organizada; data e orçamento global não foram definidos por essa escolha. Comparação Fischer × Venax deixada em aberto, preservando o estudo e sem escolher substituto. Quantidades dos objetos grandes e cama futura já esclarecidas abaixo; destinos e cabimento continuam para detalhamento.
+
+## Fechamento integrado antes da mudança
+
+| Ambiente | Base preservada | Fechamento necessário |
+|---|---|---|
+| Cozinha | Organização aprovada, duas pilhas de pratos, acabamentos e iluminação/comandos escolhidos | Compatibilizar micro-ondas e depurador; detalhar hidráulica, pedra, ferragens e ventilação. Forno/cooktop ficam como pendência preservada para retomar depois. |
+| Lavanderia | Varal de quadro inteiro com manivela, chapa independente, tanque/cesto e sequência de uso | Compatibilizar aquecedor/duto, fixações, varal, hidráulica e remoção do cesto. Não trocar escolhas por uma pergunta estética para resolver essas lacunas técnicas. |
+| Sala e jantar | Referência visual aprovada, mesa150/180 ×75, banco híbrido, retirada da folha pela ponta e especificaçãoR02 | Coordenar estudoR02 do banco com mesa, acessos e orçamento; definir ferragens/cargas/retenção e seleção comercial restante. Compatibilizar TV, cortina e luminárias. |
+| Quarto | Cama de viúvo com baú existente para a mudança; queen com baú escolhida como cama futura. Roupeiro650, aéreo250, alturas alinhadas e canto de portas independentes preservados | Preparar cabeceira/apoios/iluminação e implantação para queen; estudar viúvo no mesmo eixo. Queen158 ×198 e envelope CAD160 ×200 são referências, não medidas finais de base. Conferir circulação/gavetas, ferragens, altura e baús. Não repetir a escolha do tamanho. |
+| Escritório | Trabalho como prioridade, bancadaP700, gavetas à esquerda, Daiane cinza, consoles nos dois ambientes e sem módulo dedicado à caixa do gabinete | Detalhar bancada/suportes/cabos; resolver guarda de volumes e volante/pedais. Cadeira foi adiada anteriormente; não usar nova pergunta sobre cadeira/dados corporais como condição para avançar. |
+| Banheiro | VIP branco, cuba/Arion/Livo, água quente/fria desejada, Itaúnas, móveis fechados suspensos e uma parede verde | Compatibilizar cuba/torneira/espelho, portas/box, sifão, luz frontal e distribuição hidráulica. Rota quente depende de viabilidade técnica; não pedir escolha de trajeto sem evidência. |
+
+**Inventário confirmado em16/10/2026:** uma mala de bordo10 kg existente e uma mala grande futura para viagens maiores, com guarda desejada no baú da cama; cerca de cinco mochilas vazias encaixáveis umas dentro das outras; um capacete, uma sapatilha e um kit de ferramentas. Nenhum jogo existente, com limite desejado de até três futuros. Encerradas as perguntas de quantidades e do porte da mala atual. Não presumir mochilas ou mala de bordo dentro da mala grande, caixas de jogos padronizadas ou capacidade dos baús/maleiros. Preservar a prioridade do aspirador/balde no banco e a possibilidade de ciclismo ter outro destino.
+
+### Proposta de destinos para os volumes confirmados
+
+| Conteúdo | Primeira opção de estudo | Conferência que falta |
+|---|---|---|
+| Mala de bordo atual e mala grande futura | Mala grande no baú da cama, como requisito escolhido; destino conjunto da mala de bordo a conferir | Dimensões internas e abertura útil do baú, divisórias/mecanismo e dimensões externas das malas com rodas/alças. Confrontar também possível caixa do PC. Aninhamento das malas/mochilas é hipótese, sem cabimento confirmado. |
+| Mochilas encaixadas | Maleiro do quarto; aéreo do escritório como alternativa | Envelope do conjunto encaixado e abertura útil. Altura geométrica do maleiro de estudo é27,2 cm, antes de ferragens/perdas; não está integralmente livre. |
+| Capacete, sapatilha e kit de ferramentas | **Destino aprovado em17/10:** setor do aéreo do escritório, ferramentas no próprio estojo | Dimensões, divisão interna, carga e alcance. Aéreo aprovado200 ×55 ×35 cm externos; posição das prateleiras ainda por detalhar. Não criar módulo baixo ou restaurar o módulo de PC excluído. |
+| Até três jogos futuros | Reserva do banco já prevista | Selecionar caixas futuras pelo vão real. GabaritoR30 de371 ×350 ×164 mm é reserva conjunta de estudo, não promessa de cabimento de quaisquer três jogos. |
+
+Baú como destino da mala grande futura e armário do escritório para ciclismo são escolhas do usuário; demais destinos acima são propostas técnicas. Nenhuma mudança da R30 foi aplicada. Não reduzir a guarda aprovada da cozinha, do banco ou das roupas. **Cama definida em16/10:** atual de viúvo com baú para a mudança; queen com baú escolhida para a troca posterior. Preparar o quarto pela queen e conferir também uso inicial da viúvo. Guarda da mala grande deve ser confrontada com baú do produto futuro; considerar cada compartimento e abertura, sem somar capacidades dos dois baús. Modelo comercial, altura, abertura e volumes internos pendentes.
+
+As pendências técnicas são trabalho de desenvolvimento, não novas aprovações genéricas do usuário. Seleções comerciais serão apresentadas com opções concretas e custos. Medidas de fabricação, instalações e revisão executiva dependem dos dados oficiais e da conferência no imóvel ainda sem acesso. Este roteiro não declara os ambientes fechados.
+
+**16/10/2026 — aparelhos ainda não comprados:** Elias informou que todos estão apenas escolhidos e autorizou avaliar a troca de algum se facilitar o projeto. As referências atuais continuam como base até a comparação e escolha de uma alternativa; não há troca específica adotada. Priorizar compatibilização do conjunto forno–cooktop e do nicho do micro-ondas, comparando o efeito sobre móveis, armazenamento, instalações e custo.
+
+**Forno elétrico aceito para comparação condicionada:** pode ser avaliado se não contrariar os documentos oficiais e ajudar o projeto. O Fischer Infinity 50 L preto 127 V (15740-17055) entra como candidato dimensional; potência 2422 W e corrente declarada 19 A exigem conferência do projeto elétrico e ponto disponível. Não substitui o Venax neste estágio. [Fontes, ganho e limites](Cozinha/Fechamento_R30_2026-10-14/README.md#comparação-condicionada-de-forno-elétrico--16102026).
+
+**Comparação de custo-benefício concluída como estudo:** Fischer tem vantagem dimensional e dispensa ramal/conversão de gás para o forno, condicionado à elétrica19 A; sua altura externa é cerca de16 cm menor. Ofertas127 V de referência: FischerR$2137,17 versus VenaxR$1095,00, diferençaR$1042,17 antes de frete/serviços. O teto anterior deR$1050 somente aparelho não foi ampliado; manter Venax como base econômica, sujeito a confirmar preço127 V e instalação, e Fischer como alternativa de investimento maior. Custo total e consumo por receita não fechados. Ambos exigem200 mm até o fundo do cooktop e detalhamento térmico/ventilação. Não há substituição aprovada nem alteração da R30.
+
+### Triagem documental de aparelhos — 16/10/2026
+
+| Ordem de estudo | Direção e critério |
+|---|---|
+| 1 · Forno e cooktop | Comparar primeiro o forno: a referência Venax ainda tem afastamentos contraditórios e depende do corte do conjunto. Trocar só o cooktop não encerra essas pendências. Preservar como referência a posição sob a bancada e os usos aprovados, incluindo pizza de 30 cm. Avaliação de forno elétrico 127 V depende da preferência do usuário e da instalação real; ainda não adotada. |
+| 2 · Micro-ondas | Comparar instalações documentadas que preservem o armazenamento: o ME23P permanece escolhido com 100 mm superiores, diante dos 300 mm da fonte arquivada. Uma alternativa precisa comprovar todas as folgas, não apenas menor altura externa; não repetir a pergunta sobre aceitar os 100 mm. |
+| 3 · Aquecedor | Compatibilizar primeiro faixa, duto, ventilação, fixação e manutenção. A faixa de 470 mm do modelo não contém o envelope documental do E21 com reservas laterais. Um corpo de outra marca alguns milímetros menor não resolve necessariamente a implantação. |
+| 4 · Depurador | Detalhar entrada e saída contínuas de ar e acesso ao filtro antes de atribuir o problema à escolha do produto. Troca só será justificada se houver ganho documentado. |
+
+Triagem baseada nos [achados R28](Modelo_FreeCAD/02_Revisoes_e_estudos/Revisao_solicitada_R28_2026-10-14/Achados_R28.json), conciliados com a R30, e na [conferência de cocção](Cozinha/Fechamento_R30_2026-10-14/README.md). Nenhuma pesquisa comercial nova, substituição de aparelho ou alteração geométrica realizada nesta triagem.
+
+**16/10/2026 — acesso ao apartamento:** Elias confirmou que ainda não tem acesso para levantamento. Medidas de campo permanecem pendentes; avançar em estudos, compatibilização documental e orçamento preliminar com cotas provisórias, sem tratar medidas do modelo como conferidas no imóvel.
+
 **Escolhas posteriores ao tópico 5 — mesa e varal:** manter mesa extensível 150/180 × 75 com folha removível, desenvolvendo uma guarda de acesso mais fácil. Acesso pela ponta do banco é a primeira hipótese a conferir, não uma abertura aprovada: a lateral atual é inteira, e a retirada exige espaço exterior e recomposição estrutural. Para o varal, manter quadro inteiro com manivela, subida/descida vertical e chapa independente. Nenhuma dessas decisões aprova produto, carga ou corte; R30 preservada. Antes da entrega executiva, incorporar a solução da mesa e o envelope do varal selecionado às pranchas.
 
 **Base atual: R30 · consolidado em 14/10/2026.** Este painel substitui a antiga sequência de atualizações como entrada para o trabalho. As decisões de uso permanecem; perguntas já encerradas não precisam ser repetidas.

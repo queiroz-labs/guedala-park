@@ -5,15 +5,19 @@ class DepthRenderer {
     this.gl=this.canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
     if(!this.gl)throw new Error('WebGL indisponível');
     const gl=this.gl;
+    this.maxContacts=Math.max(1,Math.min(48,Math.floor((gl.getParameter(gl.MAX_FRAGMENT_UNIFORM_VECTORS)-8)/2)));
     const shader=(type,source)=>{const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s;};
     const program=gl.createProgram();
-    gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 position; attribute vec4 color; attribute vec3 surface;
-      varying vec4 tint; varying vec3 flooring;
-      void main(){gl_Position=vec4(position,1.0);tint=color;flooring=surface;}`));
+    gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 position; attribute vec4 color; attribute vec3 surface; attribute vec2 contactSurface;
+      varying vec4 tint; varying vec3 flooring; varying vec2 contactInfo;
+      void main(){gl_Position=vec4(position,1.0);tint=color;flooring=surface;contactInfo=contactSurface;}`));
     const derivatives=gl.getExtension('OES_standard_derivatives');
     gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`${derivatives?'#extension GL_OES_standard_derivatives : enable\n':''}
       precision highp float;
-      varying vec4 tint; varying vec3 flooring;
+      varying vec4 tint; varying vec3 flooring; varying vec2 contactInfo;
+      uniform int contactCount;
+      uniform vec4 contactRects[${this.maxContacts}];
+      uniform vec4 contactSettings[${this.maxContacts}];
       float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
       float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);
         return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
@@ -46,28 +50,46 @@ class DepthRenderer {
             c=mix(c,tint.rgb*.85,max(joint.x,joint.y));
           }
         }
-        gl_FragColor=vec4(c,tint.a);
+        float occlusion=0.0;
+        if(contactInfo.y>0.5){
+          for(int i=0;i<${this.maxContacts};i++){
+            if(i>=contactCount)break;
+            vec4 r=contactRects[i],s=contactSettings[i];
+            if(abs(contactInfo.x-s.x)<0.15){
+              vec2 q=max(abs(p-r.xy)-r.zw,vec2(0.0));
+              float falloff=1.0-smoothstep(0.0,s.z,length(q));
+              occlusion=max(occlusion,s.y*falloff);
+            }
+          }
+        }
+        gl_FragColor=vec4(c*(1.0-occlusion),tint.a);
       }`));
     gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));
+    this.program=program;
+    this.contactUniforms={count:gl.getUniformLocation(program,"contactCount"),rects:gl.getUniformLocation(program,"contactRects[0]"),settings:gl.getUniformLocation(program,"contactSettings[0]")};
     gl.useProgram(program);this.buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,this.buffer);
-    for(const [name,size,offset] of [['position',3,0],['color',4,12],['surface',3,28]]){const p=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(p);gl.vertexAttribPointer(p,size,gl.FLOAT,false,40,offset);}
+    for(const [name,size,offset] of [['position',3,0],['color',4,12],['surface',3,28],['contactSurface',2,40]]){const p=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(p);gl.vertexAttribPointer(p,size,gl.FLOAT,false,48,offset);}
     gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.disable(gl.CULL_FACE);
   }
-  draw(ctx,faces,w,h,ratio,selected){
-    const gl=this.gl;this.canvas.width=Math.round(w*ratio);this.canvas.height=Math.round(h*ratio);gl.viewport(0,0,this.canvas.width,this.canvas.height);
+  draw(ctx,faces,w,h,ratio,selected,enhanced=false){
+    const gl=this.gl;
+    this.canvas.width=Math.round(w*ratio);this.canvas.height=Math.round(h*ratio);gl.viewport(0,0,this.canvas.width,this.canvas.height);
     gl.clearColor(0,0,0,0);gl.depthMask(true);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+    const patches=enhanced?contactPatches(faces).slice(0,this.maxContacts):[];
+    gl.uniform1i(this.contactUniforms.count,patches.length);
+    if(patches.length){gl.uniform4fv(this.contactUniforms.rects,new Float32Array(patches.flatMap(p=>p.rect)));gl.uniform4fv(this.contactUniforms.settings,new Float32Array(patches.flatMap(p=>p.settings)));}
+    this.lastContactCount=patches.length;
     const opaque=[],transparent=[],edges=[];
-    const vertex=(arr,p,c,a,world=[0,0,0],surface=0)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,...c,a,world[0],world[2],surface);
+    const vertex=(arr,p,c,a,world=[0,0,0],surface=0,receiver=0)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,...c,a,world[0],world[2],surface,world[1],receiver);
     for(const f of faces){
-      const light=f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2];
-      const c=rgb(shade(f.c,light)).map(v=>v/255), a=f.alpha??1;
-      const surface=floorStyle(f);
+      const c=faceLighting(f,enhanced), a=f.alpha??1;
+      const surface=floorStyle(f),receiver=enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)&&f.normal[1]>.99&&a>.995&&f.node.kind!=="wall"?1:0;
       const arr=a<.995?[]:opaque;
-      for(let i=1;i<f.points.length-1;i++)for(const j of [0,i,i+1])vertex(arr,f.points[j],c,a,f.p?.[j],surface);
+      for(let i=1;i<f.points.length-1;i++)for(const j of [0,i,i+1])vertex(arr,f.points[j],c,a,f.p?.[j],surface,receiver);
       if(a<.995)transparent.push({vertices:arr,depth:f.depth});
-      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++)for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}
+      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++)for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}
     }
-    const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/10);};
+    const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/12);};
     gl.disable(gl.BLEND);gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(1,1);upload(opaque,gl.TRIANGLES);gl.disable(gl.POLYGON_OFFSET_FILL);
     upload(edges,gl.LINES);
     gl.enable(gl.BLEND);gl.blendFuncSeparate(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA,gl.ONE,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);
@@ -76,8 +98,8 @@ class DepthRenderer {
   }
 }
 let depthRenderer;
-function renderDepth(ctx,faces,w,h,ratio,selected){
+function renderDepth(ctx,faces,w,h,ratio,selected,enhanced=false){
   if(depthRenderer===false)return false;
-  try{depthRenderer??=new DepthRenderer();depthRenderer.draw(ctx,faces,w,h,ratio,selected);return true;}
+  try{depthRenderer??=new DepthRenderer();depthRenderer.draw(ctx,faces,w,h,ratio,selected,enhanced);return true;}
   catch(e){depthRenderer=false;console.warn('Renderização simplificada disponível:',e.message);return false;}
 }

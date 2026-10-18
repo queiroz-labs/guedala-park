@@ -1,5 +1,42 @@
 # Sala — painel e tamanho da TV
 
+## 17/10/2026 — candidata atual e compatibilidade dos aplicativos
+
+Manter50 polegadas, preferênciaAmbilight e tetoR$3000 somente TV. Philips50PUG8100/78 segue candidata, sem modelo adotado nem compra. [Produto oficial](https://www.philips.com.br/c-p/50PUG8100_78) · [ficha oficial](https://www.documents.philips.com/assets/20251120/61496b40626a4cc09bb2b39b009e6a5f.pdf) · [manual oficial](https://www.documents.philips.com/assets/20250626/bc9b71e9ab744d19a369b3080031fc18.pdf).
+
+Referências oficiais:111,1 ×64,9 ×8,8 cm sem base,8,4 kg, VESA200 ×100; TitanOS,4K até60 Hz. Não tratar como GoogleTV/120 Hz. O manual indica7–10 cm à parede e20 cm em volta para ventilação; cotejar prateleiras e suporte. Um painel plano112–115 não é nicho fechado, e a pequena borda de painel não deve ser chamada de folga lateral de ventilação. Essas referências não aprovam suporte, parafusos ou furação.
+
+O [catálogo TitanOS](https://www.titanos.tv/apps) anuncia no Brasil os aplicativos solicitados, incluindoStremioLite. O [anúncio oficial Stremio/Titan](https://blog.stremio.com/stremio-is-now-available-on-philips-tvs-with-titanos-models-2024/) informa ausência de torrent direto e de abertura de aplicativos externos; a [página de downloads](https://www.stremio.com/translation/pt/downloads) mantém a indicação de versão limitada. Não foi encontrada garantia oficial específica da combinação do usuárioTitan +Torrentio +RD. Disponibilidade na plataforma não prova reprodução com sua conta, áudio e legendas no modelo real; testar antes de comprar. Não extrapolar funções anunciadas paraLiteVidaa/macOS aoTitan.
+
+**Preferência decidida em17/10/2026:** Elias faz questão de todos os aplicativos na própriaTV e não aceita reprodutor externo como solução-base. ConsideraStremioLite aceitável naAmbilight, preservada como principal candidata; compatibilidade real da conta/reprodução ainda será testada. Pediu verificar/anotar segunda TV com instalação doStremio. Nenhum modelo foi escolhido definitivamente nem houve compra; tetoR$3000 somenteTV preservado.
+
+### Segunda candidata sem aparelho externo — 17/10/2026
+
+**TCL50P7K,50 polegadas,QLED,GoogleTV.** A [página TCLBrasil da linhaP7K](https://www.tcl.com/br/pt/tvs/p7k) confirma variante50 eGoogleTV; o [suporte TCLBrasil50P7K](https://www.tcl.com/br/pt/support-tv/model-tv/50p7k) identifica o código específico. O [suporte oficialStremio](https://stremio.zendesk.com/hc/en-us/articles/360021473791-Smart-TV), atualizado em02/10/2026, descreve instalação na própriaAndroidTV pelaPlayStore ou por download oficial; a [página de downloads](https://www.stremio.com/downloads) disponibiliza a versãoAndroidTV. Essa combinação sustenta aTCL como alternativa para instalarStremio naTV, semTVstick/box. Não é teste de sua conta, complementos, reprodução, áudio ou legendas nesse modelo.
+
+| Critério | Principal candidata: Philips50PUG8100/78 | Segunda candidata: TCL50P7K |
+|---|---|---|
+| Tamanho | 50 polegadas | 50 polegadas |
+| Sistema | TitanOS | GoogleTV |
+| Stremio | StremioLite; aceito como preferência pelo usuário, teste de uso ainda pendente | VersãoAndroidTV instalável naTV por método oficial; disponibilidade regional/reprodução por conferir |
+| Diferencial | Ambilight trilateral | QLED/GoogleTV; não ofereceAmbilight |
+| Situação | Preferência principal preservada; modelo/compra não fechados | Alternativa anotada a pedido, sem substituir aPhilips |
+
+Não declarar vantagem geral de imagem ou equivalência de todos os aplicativos sem comparação específica. A página TCLBrasil limita oGameAccelerator120Hz emulado aos tamanhos55/65/75/85; não atribuir esse recurso à50P7K. Painel da família é60Hz, não120Hz nativo.
+
+**Preço de referência consultado em17/10:** [Carrefour marketplace, vendido e entregue porponto](https://www.carrefour.com.br/produto/smart-tv-0-0pk-k-qled-uhd-0hz-com-sistema-operacional-google-tv-tcl-337440849),TCL50P7K: **R$2448,98 Pix** ou até8 parcelas anunciadas deR$306,12 sem juros. A extração consultada tinha captura de cerca de três semanas; sem confirmação de disponibilidade regional, frete ou checkout. Não é proposta comercial recebida. AnúnciosMagalu direto/LojaTCLSemp consultados estavam indisponíveis e não foram usados como oferta.
+
+O varejista informa1111 ×646 ×72 mm sem base, referência indicativa; dimensões/manuais da versão brasileira, VESA, ventilação, conectores e montagem precisam de conferência antes da marcenaria. Não extrapolar dados das variantes europeia ou japonesa. Preservar composição aberta, painel112–115 de estudo, prateleiras acima/abaixo e corredor; não alterar o modeloR30 por essa alternativa.
+
+### Preços exibidos nas páginas consultadas em17/10/2026
+
+| Página e vendedor | Valor exibido | Limite da referência |
+|---|---|---|
+| [Magalu — LojasTaQi](https://www.magazineluiza.com.br/smart-tv-philips-50-polegadas-4k-uhd-com-ambilight-pug8100-78/p/gbed096gfg/et/elit/) | R$2526,91 Pix ouR$2659,90 em10×R$265,99 | Título50PUG8100/78, descrição cita50PUG8929/78 e outros dados incompatíveis. ConferirSKU/EAN antes de compra; oferta não validada. |
+| [Shopee — taQiOficial](https://shopee.com.br/Smart-TV-Philips-50-Polegadas-4K-UHD-com-Ambilight-PUG8100-78-i.1541325700.22499245439) | R$2446,03 Pix com cupom; R$2685,90 sem cupom em outros meios | Condições/elegibilidade do cupom e parcelas não confirmadas; ficha insuficiente para validar revisão do produto. |
+
+Páginas indexadas/cache, sem checkout ao vivo, disponibilidade/frete paraCEP ou reserva de estoque. Valores não são proposta comercial recebida. Não comprar por indicação de buscador nem tratar esses preços como compra validada.
+
 **Continuidade em 23/09/2026:** Elias escolheu desenvolver painel sob medida. Ver [R01](Painel_sob_medida_R01.md): proposta 112/107 condicionada ao cenário de cortina compacta e novo detalhe para soundbar. Não é aprovação de cotas executivas.
 
 ## Atualização vigente — 18/09/2026

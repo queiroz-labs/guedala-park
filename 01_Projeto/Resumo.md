@@ -1,5 +1,9 @@
 # Resumo do projeto
 
+**Objetivo definido em 16/10/2026: mudar com todos os ambientes prontos.** Fechar e compatibilizar o apartamento inteiro antes da mudança, incluindo cozinha, lavanderia, sala/jantar, quarto, escritório e banheiro. Não planejar sala/escritório como etapa posterior à ocupação. Orçamentos existentes permanecem referência, sem aumento presumido; data de mudança ainda não definida. Comparação dos fornos preservada em aberto.
+
+**Cama — decisão vigente de16/10/2026:** existente de viúvo com baú para a mudança e uso inicial; **queen com baú escolhida como cama futura**. Preparar implantação, cabeceira, apoios e iluminação para essa transição, preservando o roupeiro650. Referência inicial queen158 ×198 cm; o envelope160 ×200 do desenho é gabarito, não dimensão externa validada da base futura. Marca/modelo, altura, abertura do baú e guarda da mala grande continuam para conferência; não há compra ou alteração CAD por essa escolha.
+
 **Decisões posteriores ao tópico 5:** mesa 150/180 × 75 mantida com extensão removível e desenvolvimento de guarda mais acessível; acesso pela ponta do banco adotado, com solução híbrida e especificação R02 para cotação; execução ainda por validar. Varal mantido com quadro inteiro e manivela, elevação vertical e chapa visual independente. A R30 e o PDF de orçamento ainda representam a geometria anterior ao novo acesso; informar essa revisão de intenção ao marceneiro e atualizar o executivo após definir a solução.
 
 **Versão atual documentada: R30 · consolidação em 14/10/2026.** O apartamento está espelhado, com cozinha à esquerda ao entrar. O layout e o programa adotados são a base do detalhamento; o conjunto ainda tem pendências de instalações, ferragens, cargas e medidas reais.
@@ -24,7 +28,7 @@ As correções da R29/R30 são mudanças documentadas no modelo; não equivalem 
 
 ## Frente de trabalho escolhida agora
 
-Elias escolheu primeiro consolidar a documentação e desenvolver forno–cooktop–bancada. A consolidação está nesta página e no painel. A [conferência de cocção](Cozinha/Fechamento_R30_2026-10-14/README.md) reconcilia os parâmetros salvos da R30 com o estudo documental, distingue corpo e envelope do forno e apresenta cortes e cenários condicionais.
+Em16/10/2026, Elias definiu fechar todos os ambientes para uma mudança com o apartamento pronto. A frente atual é o fechamento integrado de usos, armazenamento, marcenaria, instalações, iluminação e orçamento. Preservar escolhas aprovadas e resolver uma decisão de uso por vez. A comparação Fischer × Venax foi deixada em aberto; a [conferência de cocção](Cozinha/Fechamento_R30_2026-10-14/README.md) permanece disponível para a retomada desse conjunto.
 
 As pendências principais desse conjunto são a cota inferior instalada do KE4GC, as referências de corpo/frente/apoio do Venax, a divergência entre instruções de afastamento, a travessa, o percurso de ventilação e a transição para a lavanderia. A geometria R30 foi preservada.
 

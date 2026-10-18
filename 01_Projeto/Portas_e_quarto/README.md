@@ -1,5 +1,27 @@
 # Portas e quarto
 
+**16/10/2026 — cama atual e futura, escolha encerrada:** cama de viúvo com baú existente para a mudança e uso inicial; **queen com baú escolhida para troca posterior**. Menções históricas a queen existente estão superadas; o tamanho futuro agora foi aceito expressamente. Preparar implantação, cabeceira, apoios e iluminação para a queen, preservando o roupeiro650. Estudar a cama de viúvo centralizada no mesmo eixo e conferir alcance dos apoios no uso inicial. Referência de colchão queen158 ×198 cm e gabarito CAD160 ×200 não substituem medidas externas da base, altura final, abertura e vão do baú. Mala grande futura deve caber no baú da queen; não há produto comprado nem alteração da R30 nesta decisão.
+
+### Triagem do tamanho futuro — 16/10/2026
+
+Premissas locais: quarto de estudo245 ×295 cm, roupeiro650 mm totais, proteção posterior10 mm e reserva de200 mm junto à janela. Nesse arranjo, passagem diante do armário =209 cm menos largura externa da cama. As medidas de colchão abaixo são apenas gabaritos; base, cabeceira, roupa de cama e tolerâncias podem consumir folgas. Os200 mm junto à janela são hipótese preservada, não dimensão medida. [Premissas aprovadas/condicionais](Aereos_continuos_quarto_2026-09-25.md) · [cotas P01](Portas_e_impacto_no_quarto_R02.md).
+
+| Gabarito de comparação | Passagem lateral nominal | Folga até gaveta totalmente aberta, no cenário indicado |
+|---|---:|---:|
+| Casal138 ×188 cm | 71 cm | 28,2 cm |
+| Queen158 ×198 cm, tamanho futuro escolhido | 51 cm | 8,2 cm |
+| Gabarito CAD160 ×200 cm | 49 cm | 6,2 cm |
+| King186 ×198 cm | 23 cm | Interferência de19,8 cm |
+| King/superking193 ×203 cm | 16 cm | Interferência de26,8 cm |
+
+Medidas de referência consultadas em16/10/2026: [guia oficial Ortobom](https://www.ortobom.com.br/3-passos-escolher-colchao-ideal), com casal138 ×188, queen158 ×198 e king193 ×203; a [linha Orion oficial](https://www.ortobom.com.br/orion) também distingue king186 ×198 e superking193 ×203. Confirmar dimensões do produto, não apenas o nome comercial. Nenhum modelo ou marca de cama foi escolhido.
+
+Folga de gaveta derivada das coordenadas [R29](../Modelo_FreeCAD/02_Revisoes_e_estudos/Correcoes_R29_2026-10-14/README.md): frente aberta emy2862 mm, borda da cama160 emy2800, bordo oposto emy1200. Mantendo esse bordo oposto fixo, folga emcm =166,2 − largura. É comparação translacional, não nova auditoria de movimentos. Folga positiva não demonstra espaço para o usuário operar a gaveta. No sentido dos pés,245 menos comprimento do gabarito dá57/47/42 cm para casal/queen/king193, antes dos acréscimos da base/cabeceira.
+
+**Resultado adotado pelo usuário:** queen com baú como tamanho futuro, mantendo a cama de viúvo inicialmente. Casal e king ficam como comparação desta decisão; não são novas alternativas pendentes. Modelo comercial e medidas externas da queen ainda por conferir. Folgas acima continuam nominais, sem validação de uso frontal das gavetas; R30 preservada.
+
+**16/10/2026 — reserva no baú da cama:** Elias possui mala de bordo da categoria10 kg e deseja adquirir uma mala grande para viagens maiores que caiba no baú da cama. A guarda da mala grande no baú fica como requisito; medidas internas, abertura/divisórias e dimensões externas das malas ainda por conferir. Há cerca de cinco mochilas vazias encaixáveis entre si, sem confirmação de que caibam em qualquer mala. Considerar também a caixa do PC, cujo destino no baú era apenas possibilidade, evitando dupla contagem. [Inventário e destinos](../Painel_de_decisoes.md#proposta-de-destinos-para-os-volumes-confirmados).
+
 **13/10/2026 — direção atual: simplicidade nos armários:** Elias pediu soluções comuns, fáceis de regular/manter, e autorizou a melhor escolha. O canto articulado deixa de ser a proposta vigente. Desenvolvida [R04 no FreeCAD](../Modelo_FreeCAD/02_Revisoes_e_estudos/Canto_2026-10-13/Canto_simples_R04/README.md), com duas portas independentes e faixa fixa em L na quina. Folhas propostas271×306×18, faixas142/124, faixa junto à vizinha25 recuada40. Vinte posições CAD passaram no cenário nominal, com curso86; montagem do limitador padrão70T3553, carga/fixação e abertura útil continuam a conferir. A faixa reduz acesso frontal; cotas não são corte aprovado. R01/R02/R03 abaixo são histórico. Elias autorizou continuação durante a madrugada, com retomada até7h de14/10 e prioridade de simplicidade para todos os módulos.
 
 **13/10/2026 — canto no FreeCAD, conferência R03:** colisões reproduzidas com a primeira porta vizinha, com uma faixa fixa aplicada na face e com o maleiro no curso livre de 155°. Proposta de faixa nominal de 150 mm recuada 40 mm e limitador de 92°, sem aprovação das novas cotas. Comparada alternativa de 200 mm. Margens calculadas apenas para pivôs ideais; aplicação real, ajustes, carga, calços e furação pendentes. [Prancha em cinco páginas](../../05_Entregas/pdf/Canto_quarto_FreeCAD_R03_2026-10-13.pdf) · [Modelo e evidências](../Modelo_FreeCAD/02_Revisoes_e_estudos/Canto_2026-10-13/README.md).

@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const WARDROBE_IMAGE='/*WARDROBE*/';
-const state={room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
+const state={lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
 const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
 function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
@@ -301,9 +301,11 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
   for(const n of list){for(const f of mesh(n)){let p=f.p.map(project),depth=p.reduce((s,p)=>s+p[2],0)/p.length;fs.push({...f,points:p,depth});}}
   fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);
   const main=canvas.id==='scene';if(main){hitFaces=[];lastProject=cam;}
-  const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null);
+  const enhanced=!mini&&!selectionOnly&&enhancedLighting(st);
+  if(main)syncLightingControls();
+  const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null,enhanced);
   if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';}
-  if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;let lighting=f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2];ctx.fillStyle=shade(f.c,lighting);ctx.fill();
+  if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;ctx.fillStyle='#'+faceLighting(f,enhanced).map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');ctx.fill();
     if(floorStyle(f))drawFloorFallback(ctx,f,project);
     else{ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
@@ -416,6 +418,7 @@ function init(){
   $('closeStorage').onclick=()=>$('storageDialog').close();
   $('storageDialog').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect();if(e.target===e.currentTarget&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))e.currentTarget.close();});
 
+  document.querySelectorAll("[data-lighting]").forEach(b=>b.onclick=()=>{state.lighting=b.dataset.lighting;syncLightingControls();requestRender();});
   buildRoomNavigation();
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};

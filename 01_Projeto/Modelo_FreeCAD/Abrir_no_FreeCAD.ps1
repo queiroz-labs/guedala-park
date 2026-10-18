@@ -1,5 +1,9 @@
 $ErrorActionPreference = 'Stop'
-$exePath = Join-Path $env:LOCALAPPDATA 'Programs/FreeCAD-1.1.4/bin/freecad.exe'
+$exePath = @(
+    (Join-Path $env:LOCALAPPDATA 'Programs/FreeCAD 1.1/bin/freecad.exe'),
+    (Join-Path $env:LOCALAPPDATA 'Programs/FreeCAD-1.1.4/bin/freecad.exe')
+) | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+if (-not $exePath) { throw 'FreeCAD não encontrado nos locais registrados.' }
 if (-not (Test-Path -LiteralPath $exePath)) { throw 'FreeCAD não encontrado no local registrado.' }
 
 # Pasta do script; se as linhas forem coladas no console ($PSScriptRoot vazio), usa o caminho do projeto.

@@ -1,5 +1,7 @@
 # Escritório — disposição atual dos móveis
 
+**17/10/2026 — guarda do ciclismo aprovada:** Elias confirmou capacete, sapatilha e kit de ferramentas no armário do escritório, após proposta de reservar um setor do aéreo aprovado200 ×55 ×35 cm, com prateleiras reguláveis e ferramentas no próprio estojo. Destino funcional escolhido; não repetir a pergunta. Priorizar o nível acessível disponível. Quantidade de divisões, dimensões, cargas e alcance dependem dos objetos reais; o aceite não demonstra cabimento nem altera a R30. Preservar circulação, setup, baús e armazenamento de cozinha/banco; não criar módulo baixo ou restaurar o módulo da caixa do PC.
+
 **Arte — 18/09/2026:** Elias escolheu duas artes para o escritório: **São Paulo cinematográfica** e **Cyberpunk**. Obras/imagens, dimensões, molduras e posições ainda a definir; não interferir automaticamente nos aéreos, TV ou setup aprovados.
 
 **F155 — aéreos aprovados, módulo da caixa retirado:** Elias dispensa compartimento dedicado à caixa do gabinete e providenciará guarda, possivelmente na cama-baú queen; destino/cabimento não confirmados. Aprovado armário principal sobre o sofá200 ×55 ×35 cm (L ×A ×P) e área aberta sobre a prateleira dos consoles, com topo195 cm já escolhido. Retirar módulo64 ×60 ×43 cm junto à janela; não preencher automaticamente o espaço liberado. Conferências executivas preservadas. Registros anteriores de obrigatoriedade do módulo da caixa são históricos.
