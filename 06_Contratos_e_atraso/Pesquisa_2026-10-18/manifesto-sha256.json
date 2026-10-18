@@ -1,0 +1,137 @@
+[
+  {
+    "arquivo": ".gitattributes",
+    "bytes": 75,
+    "sha256": "4491c37f4f52c85e56055d608fe05173f8874e7ec2d2132159a96aa1a7ab12ea"
+  },
+  {
+    "arquivo": "fontes.json",
+    "bytes": 3253,
+    "sha256": "ae14ba1f8585b3882a7790de3b752362b4336fc7bda37aee145617b7e1eff26c"
+  },
+  {
+    "arquivo": "README.md",
+    "bytes": 7449,
+    "sha256": "63dde9b63ecc61cc74030e9283de0cc39f5938944871def8f6d615ae97c876ac"
+  },
+  {
+    "arquivo": "documentos/4693172.html",
+    "bytes": 67006,
+    "sha256": "1a1eaaf86e170f34700ab3b2bedd7c725ee2776b6eeca5e7c4e6c533025c1438"
+  },
+  {
+    "arquivo": "documentos/4693172.txt",
+    "bytes": 2950,
+    "sha256": "6693f0c708f417a1a16bcb384b6c4dd713dc9e394355e7243895ce0d3f73dc2a"
+  },
+  {
+    "arquivo": "documentos/4790255.html",
+    "bytes": 67964,
+    "sha256": "e9a147131c34d4ce629547f643203a5e15e4ecfc6e408b95dd9d72d4cb72ec42"
+  },
+  {
+    "arquivo": "documentos/4790255.txt",
+    "bytes": 4011,
+    "sha256": "d0b881662bd8cdd7126f840515be3182a57322e05ed2f9b2ec73d73dc703d3ab"
+  },
+  {
+    "arquivo": "documentos/4830084.html",
+    "bytes": 66037,
+    "sha256": "994d190001867bb866d2d2a3ada059ade7a337411979567fe1de13155d395991"
+  },
+  {
+    "arquivo": "documentos/4830084.txt",
+    "bytes": 2247,
+    "sha256": "4276585b6301488adf019820ed2148864008d6829983e12fb377fda60e54fcf8"
+  },
+  {
+    "arquivo": "documentos/5316839.html",
+    "bytes": 66615,
+    "sha256": "19a4ddfc222439357f5cc83b27b8dd51e5e4769709feca2922226c8c684d8207"
+  },
+  {
+    "arquivo": "documentos/5316839.txt",
+    "bytes": 3104,
+    "sha256": "39b324671cacb6ea1949cef107a5d35680605f82c27ba666396714d80bfc0742"
+  },
+  {
+    "arquivo": "documentos/5332464.html",
+    "bytes": 67220,
+    "sha256": "233d4b7bb768bb9a40a04ebd15ee3ed8e8b328a45919a13321351bfe82b558f2"
+  },
+  {
+    "arquivo": "documentos/5332464.txt",
+    "bytes": 2727,
+    "sha256": "fa40400b6bbd9a99bc1a58f341441435987f7e466c6b62e15f63f01e3de2fd9e"
+  },
+  {
+    "arquivo": "documentos/5817618.pdf",
+    "bytes": 44705,
+    "sha256": "0d33c9cbd9ce5e7cc574217800bb1ebb87a2c4c131e54ee2553f84eb985a04c6"
+  },
+  {
+    "arquivo": "documentos/5817618.txt",
+    "bytes": 13722,
+    "sha256": "33ca602de34a3b036a59c04a2f54a3be559a47763df3c46ee19ec4f741585688"
+  },
+  {
+    "arquivo": "documentos/5887058.html",
+    "bytes": 67751,
+    "sha256": "ae22cb7a4ee6ea84eba42e708201afd87ef8eff03e58c515b551ff6d8c64a6e2"
+  },
+  {
+    "arquivo": "documentos/5887058.txt",
+    "bytes": 3271,
+    "sha256": "ca1dfa6973aa1cfa9cb84cba3e7a418e378064be8a21be0f3b5f5d913d10f579"
+  },
+  {
+    "arquivo": "documentos/5917533.html",
+    "bytes": 67875,
+    "sha256": "93bdff2506498ff5a91c4b9979706b99cf69d8045e49084c97efbd42bf22eb1f"
+  },
+  {
+    "arquivo": "documentos/5917533.txt",
+    "bytes": 3159,
+    "sha256": "85461a5c7f40b01816fdb9948de455db41e526744c5b0cefb0f2327bd6cd2161"
+  },
+  {
+    "arquivo": "documentos/5955411.html",
+    "bytes": 66254,
+    "sha256": "cc5effcce6e7da7a15fcab0b2df0f22be23a707e0ae90616da547d574240e55a"
+  },
+  {
+    "arquivo": "documentos/5955411.txt",
+    "bytes": 2142,
+    "sha256": "79769b50c8da1a6525b1e083ad88387f5a4234b88f167ba12c65c804f58fd147"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/309-signatures.png",
+    "bytes": 3452752,
+    "sha256": "8b834077c7c876260aeb6e19109246d10bad722cc07a12eeb2fe6fefcbb8af97"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/370-signatures.png",
+    "bytes": 1618403,
+    "sha256": "e313b61818b71d719366a9597e5ef32cee8fa7de32159c8139ce73a03b9482f4"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/ata-cury-2026.pdf",
+    "bytes": 769298,
+    "sha256": "31e0e135227a3af52332d265a0210cf92666ff9a6a9ff4770d4f543c1d1fa3f6"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/prospecto2026-safra.pdf",
+    "bytes": 17242540,
+    "sha256": "d24849e7b989437bc21c2ed2acc26888633ac76e14147a44076c808335b08510"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/prospecto309-safra.pdf",
+    "bytes": 27590299,
+    "sha256": "62e78c6a17a4feb39cc94a9a1639dbbe2236c9ac0843df71eabe1a1aab558d61"
+  },
+  {
+    "arquivo": "pesquisa-contatos-publicos/prospecto370-safra.pdf",
+    "bytes": 27412861,
+    "sha256": "aa46926df3f03266f81faf5b936d210dac67e3549a7fe0bc2f3c918da940e72a"
+  }
+]

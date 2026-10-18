@@ -1,5 +1,7 @@
 # Guedala Park — projeto do apartamento
 
+**Pesquisa contratual e IPHAN (18/10/2026):** [documentos públicos, cronologia, contatos e verificação ainda pendente dos 254 dias](06_Contratos_e_atraso/Pesquisa_2026-10-18/README.md). Contratos e e-mails privados foram preservados apenas localmente, fora deste repositório.
+
 Comece pelo [resumo](01_Projeto/Resumo.md) ou pelo [painel de decisões e pendências](01_Projeto/Painel_de_decisoes.md).
 
 **Resumo e painel consolidados pela R30.** Nova [prancha de conferência forno–cooktop–bancada](01_Projeto/Cozinha/Fechamento_R30_2026-10-14/Corte_coccao_R30.html), com cotas salvas, cenários e pendências de instalação. Não altera o modelo nem substitui as entregas gerais.
