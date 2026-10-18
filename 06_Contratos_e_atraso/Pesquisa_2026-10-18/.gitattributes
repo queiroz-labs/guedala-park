@@ -1,2 +1,3 @@
 # Preservar bytes originais para verificacao do manifesto SHA-256.
 * -text
+relatorios-fragmentados/*.parte* -diff -text
