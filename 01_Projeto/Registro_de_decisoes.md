@@ -1,5 +1,29 @@
 # Registro de decisões — Guedala Park
 
+## 20/10/2026 — atualização geral solicitada: FreeCAD R31 e site R11
+
+Elias pediu atualizar site e FreeCAD com tudo que ainda estava separado. [R31](Modelo_FreeCAD/01_Atual/Consolidacao_R31_2026-10-20/README.md) consolida os estudos no modelo completo e [R11](Estudo_interativo/Consolidacao_R11_2026-10-20/README.md) atualiza o site existente. Fontes anteriores preservadas. A preferência sobre o banco recebida durante o trabalho foi apenas registrada: não aplicar a reversão para o baú convencional. Conferências geométricas e de interface não liberam fabricação nem compra.
+
+## 20/10/2026 — banco: bandeja lateral não agradou; reversão adiada, somente anotação
+
+Elias disse: “deixa anotado q eu nao gostei da ideia da bandeja entrar pela lateral, quero dps voltar como estava antes de guardar de maneira convencional abrindo o bau (mas nao altera nd ainda s´´o anota)”. Registrar a preferência de retomar a guarda convencional da folha, com acesso abrindo o baú, em vez da bandeja lateral. **Não aplicar a mudança agora.** Não criar nova geometria convencional, desfazer peças, alterar medidas, ferragens ou movimentos por esta anotação. Tampouco tratar a bandeja/híbrido como solução ainda aceita para execução. Os modelos e estudos existentes permanecem referências a revisar futuramente. A atualização geral de site/FreeCAD já em andamento deve preservar essa distinção e não antecipar a reversão do banco.
+
+## 20/10/2026 — continuação do detalhamento: grelhas e manutenção
+
+Elias autorizou “podemos seguir mais”. [R02](Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md) desenvolve duas grelhas removíveis candidatas600 ×90,12 rasgos134 ×17R3, área272,43 cm² por peça, quatro fixações e réguas fora do ar. Gabarito1:1 para cotação, sem liberação industrial. Conceito de fixação do acabamento não equivale ao dimensionamento de ligações, do apoio ou do kit Fischer. Área e195 pares conferidos; retirada frontal hipotética600 mm sem conflito nos envelopes. Acesso pelo gabinete da pia é direção técnica proposta, a compatibilizar com hidráulica/área seca, sem aprovar perda de guarda. GN já estava confirmado nas anotações e foi reconsolidado; ponto/capacidade/conversão do cooktop continuam para instalação. R30 e R01 preservadas; sem envio, compra ou fabricação. Não reabrir escolha dos aparelhos nem pedir medidas ainda indisponíveis.
+
+## 19/10/2026 — avanço autorizado nos apoios e na ventilação do conjunto
+
+Elias pediu: “ok, vamos conferir o cooktop e fechar os apoios e a ventilação do móvel, avança no q der sem as medidas do apartamento”. Autorizado continuar o detalhamento com os dados existentes, sem repetir escolhas ou pedir medidas indisponíveis. [Desenvolvimento R01](Cozinha/Fischer_Grill_2026-10-19/Apoios_ventilacao_R01/README.md): base plana18 sobre três nervuras até o piso, vãos261,5; entrada/saída560 ×60 e canal traseiro45 ×560; contramarcos ligados às laterais e travessa avançada27. Soluções propostas pelo agente, não cotas executivas aprovadas pelo usuário. KE4GC confirmado no manual correto; corpo inferior e ligações reais ainda não cotados. Meta50 kg do conjunto para dimensionamento, sem capacidade comprovada.90 pares e percurso de ar conectados passaram na conferência geométrica; sem validação térmica/estrutural. R30 preservada. Nenhum contato externo, compra, corte ou instalação.
+
+## 19/10/2026 — Fischer com grill, sem turbo, escolhido
+
+Elias confirmou “ok, vamos seguir com o Fischer com grill sem turbo, confere como fica no móvel com o cooktop e o q falta pra fechar”. Adotar **Fischer Infinity50 L com grill, sem turbo, preto127 V,28349-64929** como forno do desenvolvimento, substituindo a referência Venax; KE4GC preservado. Compra, contratação e cotas executivas não aprovadas por essa escolha. [Encaixe e pendências](Cozinha/Fischer_Grill_2026-10-19/README.md): manual oficial32305 rev.00 localizado e conferido; estudo separado com topo candidato570, apoio e ventilação. Largura613 e bancada920 preservadas; 51 pares de sólidos sem sobreposição no escopo. R30 e PDF geral ainda mostram Venax e não foram sobrescritos. Posição, resistência, instalação elétrica, conexões e medidas reais seguem técnicas; não repetir escolha do forno.
+
+## 19/10/2026 — investimento maior no forno autorizado para comparação
+
+Elias confirmou: “aceito avaliar um investimento maior se facilitar o projeto, compara as opções e me mostra o q muda”. O teto anterior de R$ 1.050 deixa de excluir alternativas nesta comparação; não foi definido novo teto nem aprovada compra ou troca. Comparar o custo instalado e o efeito sobre largura, altura, armazenamento, ventilação e instalações. [Resultado, preços anunciados e limites](Cozinha/Fechamento_R30_2026-10-14/README.md#comparação-ampliada--19102026). Fischer Infinity com grill 28349-64929 entra como candidato de melhor equilíbrio preliminar; modelo com Air Fryer e Mueller também comparados. Recomendação do estudo não equivale a escolha do usuário. R30 preservada.
+
 ## 17/10/2026 — aplicativos na própria TV e segunda candidata
 
 Elias faz questão de todos os aplicativos na própria TV, sem reprodutor externo. Considera aceitável o StremioLite na Ambilight e pediu verificar/anotar uma segunda opção que permita instalar Stremio. Preservar preferência principal pela PhilipsAmbilight50 polegadas e tetoR$3000 somenteTV. Aceite doLite é preferência funcional, não comprovação de reprodução da sua conta nem seleção definitiva da50PUG8100/78.

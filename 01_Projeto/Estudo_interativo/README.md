@@ -1,5 +1,6 @@
-# Apartamento interativo — R10: luz e sombras de contato
+# Apartamento interativo — R11: consolidação com o FreeCAD R31
 
+**R11 — consolidação em 20/10/2026.** [Atualizações, imagens e conferências](Consolidacao_R11_2026-10-20/README.md). Geometria fixa derivada do FreeCAD R31; fichas e interiores atuais, com a preferência de voltar depois ao baú convencional apenas anotada. As seções R10 e anteriores abaixo preservam o histórico.
 ## Luz e sombras de contato — 17/10/2026
 
 Sala e cozinha receberam comparação **Antes / Depois** na vista 3D, com luz suave e contatos aproximados calculados sobre os móveis atuais. Controles e personalização preservados; configuração visual separada em `src/lighting.js`. [Comparação e conferências](Luz_e_contato_2026-10-17/README.md). HTML e artefato Pages regenerados. Publicação da R10 autorizada por Elias em 18/10/2026.
@@ -55,7 +56,7 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 | Sala | Bonnie 180 cm, profundidades 110/136 cm; painel 115 cm; prateleiras 110 × 35 e 110 × 25 cm, topos 35/60 cm | Parede acabada, ventilação, afastamento do sofá, instalação, modelo final da TV/soundbar |
 | Circulação da sala | 245 − 136 − 37 = 72 cm com retrátil aberto; 67 cm se houver mais 5 cm atrás do sofá | Medidas reais e obstáculos; cálculo de faixa reta, sem simular o trajeto de uma pessoa |
 | Jantar | Mesa 150/180 × 75 cm, R15, extensão central; pedestal fixo; três cadeiras na lateral, central mais para fora | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
-| Quarto | Reserva queen 200 × 160 cm; armário 200 × 60 × 240 cm; interior R02; cabeceira, dois apoios e aéreo raso/alto | Base real da cama, alturas, portas do armário, gavetas, conforto e fixação dos apoios |
+| Quarto | Cama atual de viúvo com baú, sem medidas; queen futura com envelope 200 × 160 cm; armário e aéreos nativos R31, esquema funcional atualizado | Bases reais das camas, circulação, ferragens, conforto e fixação |
 | Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
 | Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
 | Banheiro | VIP 59 cm, Slim como primeira opção, Arion atrás da cuba, gabinete fechado, espelho raso com luz frontal, uma parede verde, Livo e quatro percursos de água quente em estudo | Medidas de bancada/box, registros, ducha higiênica e hidráulica ainda a conferir |

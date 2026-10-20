@@ -1,0 +1,18 @@
+{
+  "status": "PASSOU",
+  "date": "2026-10-20",
+  "objects": 6191,
+  "native_shapes_checked": 1094,
+  "invalid_native_shapes": [],
+  "invalid_states": [],
+  "navigation_links_hidden": [
+    "AcessoControleR004",
+    "AcessoControleR005",
+    "AcessoControleR006",
+    "AcessoControleR007"
+  ],
+  "source_models_unchanged": true,
+  "future_conventional_bank_reversal_applied": false,
+  "bank_preference_recorded": true,
+  "model_sha256": "b057ef06187da42dbc2b6dc986feeb4599be924259bdb12b6150a634acea1c55"
+}

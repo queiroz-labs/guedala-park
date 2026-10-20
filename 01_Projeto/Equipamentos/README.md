@@ -1,5 +1,11 @@
 # Equipamentos e orçamento
 
+**20/10/2026 — grelhas e manutenção R02.** [Detalhamento atual](../Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md): duas grelhas candidatas600 ×90 removíveis, com12 rasgos e272,43 cm² de área aberta cada, réguas fora da passagem de ar e gabarito1:1 para cotação. Foram conferidos195 pares sem sobreposição e retirada frontal hipotética600 mm, sem validar calor/carga/cabos/pessoas. A saída superior agora termina na face perfuradaY6402,5; a hipótese antiga sem grelha real é superada nesse detalhe. Desenvolver acesso às conexões pelo gabinete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas; sem fabricação, compra ou contato externo.
+
+**19/10/2026 — apoios e ventilação desenvolvidos em R01.** [Solução atual](../Cozinha/Fischer_Grill_2026-10-19/Apoios_ventilacao_R01/README.md): base plana sobre três nervuras até o piso, vãos livres261,5 mm, entrada inferior e saída superior560 ×60, canal traseiro45 ×560, travessa fora do caminho do ar. KE4GC preservado com recorte520 ×390. Foram conferidos90 pares sem sobreposição e um percurso de ar conectado no estudo; isso não comprova resistência ou resfriamento. Material/ligações/capacidade do apoio, datums dos aparelhos, grelha efetiva, instalações e medidas de campo continuam para o executivo. Fonte R30 preservada; escolha dos aparelhos encerrada.
+
+**19/10/2026 — forno escolhido:** Fischer Infinity50 L **com grill, sem turbo, preto127 V,28349-64929**, substitui o Venax como referência vigente. [Encaixe com o KE4GC, manual oficial e pendências](../Cozinha/Fischer_Grill_2026-10-19/README.md).2061 W/16,22 A; conferir circuito da unidade. Nenhuma compra feita; referências anteriores ao Venax são históricas neste ponto.
+
 **F103 — conferência de instalação:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md). ME23P: 30 cm acima e circuito exclusivo de 20 A; Venax: 20 cm entre fundo do cooktop e topo do forno. RI9252/91 identificada como preta de 127 V. Compatibilização do layout ainda pendente.
 
 **F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.
@@ -27,7 +33,7 @@ Veja também [manuais dos equipamentos](../../02_Plantas_e_manuais/README.md) e 
 | Aparelho | Especificação vigente |
 |---|---|
 | Lava e seca LG VC4 | **127 V — CV5012WC4**; CV5012WC4A de 220 V deixa de ser alternativa de compra. |
-| Forno Venax Totale Nero GIII 50 L a gás | **127 V** para a alimentação elétrica e grill. |
+| Forno Fischer Infinity50 L com grill, sem turbo,28349-64929 — escolha19/10/2026 | **127 V**,2061 W/16,22 A; tomada20 A recomendada no manual, circuito ainda a conferir. |
 | Micro-ondas Electrolux ME23P | **127 V**. |
 | Depurador Suggar Slim de Embutir 60 cm inox | **127 V — DE61IX**; DE62IX de 220 V fica como referência histórica. |
 | Air fryer Philips Walita Série 3000 RI9252 | **127 V**; código confirmado RI9252/91 em F103. |

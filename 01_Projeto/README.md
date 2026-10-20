@@ -1,5 +1,6 @@
 # Estudos e decisões
 
+**Atualização geral de 20/10/2026:** [FreeCAD R31](Modelo_FreeCAD/01_Atual/Consolidacao_R31_2026-10-20/README.md) e [site R11](Estudo_interativo/Consolidacao_R11_2026-10-20/README.md) consolidados. Fischer com grill sem turbo, apoios e ventilação de estudo, móveis e decisões recentes incorporados. Banco: preferência de voltar depois à guarda convencional abrindo o baú apenas anotada; reversão não aplicada.
 **14/10 — FreeCAD atual R28, proposta solicitada:** [arquivo e cotas](Modelo_FreeCAD/04_Documentacao/Entrega_atual_R28.md). Aéreo inteiro do escritório20mm mais baixo: folga nominal ao teto20mm, sem perda de altura interna. R27 e anteriores preservadas; instalação/teto reais pendentes.
 
 

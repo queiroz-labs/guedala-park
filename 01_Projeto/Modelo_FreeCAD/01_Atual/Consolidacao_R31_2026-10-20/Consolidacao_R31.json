@@ -1,0 +1,49 @@
+{
+  "revision": "R31",
+  "date": "2026-10-20",
+  "model": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Consolidacao_R31_2026-10-20\\Guedala_Park_R31_Consolidado.FCStd",
+  "objects": 6191,
+  "reference_hashes_before": {
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Cozinha\\Fischer_Grill_2026-10-19\\Grelhas_manutencao_R02\\Grelhas_Manutencao_R02.FCStd": "8a29e187a38a151da0ef164b2efc51aaac056c43113fffbe031234949c134db4",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Banco_Hibrido_R02.FCStd": "664fb8e3ebba2745ed28f80c59b876b892846a59c5975ce48b0418139ab02377"
+  },
+  "reference_hashes_after": {
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Cozinha\\Fischer_Grill_2026-10-19\\Grelhas_manutencao_R02\\Grelhas_Manutencao_R02.FCStd": "8a29e187a38a151da0ef164b2efc51aaac056c43113fffbe031234949c134db4",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Sala_e_jantar\\Retirada_ponta_R30\\Estudo_Banco_Hibrido_R02.FCStd": "664fb8e3ebba2745ed28f80c59b876b892846a59c5975ce48b0418139ab02377"
+  },
+  "invalid_states": [],
+  "invalid_native_shapes": [],
+  "invalid_auxiliary_historical_shapes": [
+    "UniaoCorpoR001",
+    "UniaoCorpoR005"
+  ],
+  "current_native_shapes_checked": 1094,
+  "unchanged_links_checked": 242,
+  "unexpected_link_changes": [],
+  "expected_changed_links": [
+    "EspelhoPecaR078",
+    "EspelhoPecaR082",
+    "EspelhoPecaR100",
+    "EspelhoPecaR121"
+  ],
+  "moving_bank_features": [
+    "BancoPlataformaR31",
+    "BancoAba_frenteR31",
+    "BancoAba_trasR31",
+    "BancoReceptorR31",
+    "BancoFolhaR31"
+  ],
+  "integrated": [
+    "Fischer grill sem turbo e envelopesR02",
+    "base/três nervuras/contramarcos/grelhas/réguas/travessa",
+    "banco híbridoR02/apoios/bandeja/guarda/trava",
+    "apoiosC01–C03 do cesto",
+    "queen futura/viúvo atual",
+    "ciclismo",
+    "luz4000/3000 e comandos",
+    "inventário/TV/apps/entrega integrada"
+  ],
+  "limits": "Sem auditoria térmica/estrutural/global de colisões. Conferências localizadas dos estudos preservadas; medidas, produtos e fabricação condicionados."
+}

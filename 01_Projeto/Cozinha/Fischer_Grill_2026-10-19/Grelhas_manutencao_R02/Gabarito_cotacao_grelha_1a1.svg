@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600mm" height="90mm" viewBox="0 0 600 90"><title>Grelha R02 — gabarito de cotação, conferir antes de cortar</title><g fill="none" stroke="black" stroke-width="0.1">
+<rect x="0" y="0" width="600" height="90" rx="2"/>
+<rect x="23" y="56" width="134" height="17" rx="3"/>
+<rect x="23" y="36.5" width="134" height="17" rx="3"/>
+<rect x="23" y="17" width="134" height="17" rx="3"/>
+<rect x="163" y="56" width="134" height="17" rx="3"/>
+<rect x="163" y="36.5" width="134" height="17" rx="3"/>
+<rect x="163" y="17" width="134" height="17" rx="3"/>
+<rect x="303" y="56" width="134" height="17" rx="3"/>
+<rect x="303" y="36.5" width="134" height="17" rx="3"/>
+<rect x="303" y="17" width="134" height="17" rx="3"/>
+<rect x="443" y="56" width="134" height="17" rx="3"/>
+<rect x="443" y="36.5" width="134" height="17" rx="3"/>
+<rect x="443" y="17" width="134" height="17" rx="3"/>
+<circle cx="100" cy="82.5" r="2.25"/>
+<circle cx="100" cy="7.5" r="2.25"/>
+<circle cx="500" cy="82.5" r="2.25"/>
+<circle cx="500" cy="7.5" r="2.25"/>
+</g></svg>

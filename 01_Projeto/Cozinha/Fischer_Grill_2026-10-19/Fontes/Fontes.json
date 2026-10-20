@@ -1,0 +1,31 @@
+{
+  "pagina_origem": "https://www.fischer.com.br/forno-eletrico-fischer-infinity-de-embutir-50l-com-grill/p",
+  "fontes": [
+    {
+      "sha256": "d3fd0c43d83b0a38d986cd39bf6c9ca6a648450b0d3b1053f73bbc06360c94db",
+      "observacao": "Texto majoritariamente convertido em curvas; consulta visual das paginas relevantes.",
+      "identificacao": "32305 rev.00",
+      "paginas_visualmente_conferidas": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "arquivo": "Fischer_Grill_manual_oficial.pdf",
+      "url": "https://www.fischer.com.br/media/amasty/amfile/attach/1Ylh32XinLgwiPPH6MpsxPXsGttypjOb.pdf",
+      "bytes": 25315830
+    },
+    {
+      "sha256": "850fdec59fb71a179b5de5c5d6f210ae4c39fb7048031af78da04a0c550785ea",
+      "observacao": "SKU preto127V28349-64929; profundidade547 no desenho versus544 no manual mantida como divergencia.",
+      "identificacao": "Nicho Rev.03",
+      "arquivo": "Fischer_nicho_oficial.jpg",
+      "url": "https://www.fischer.com.br/media/amasty/amfile/attach/a875KU20WuJQrCZ1BE1VI9Oi8EzoWxNt.jpg",
+      "bytes": 524728
+    }
+  ],
+  "timezone": "America/Sao_Paulo",
+  "limites": "Links publicos da pagina de consumo do fabricante. Sem contato, compra, inspecao fisica ou medicao da unidade.",
+  "data": "2026-10-19"
+}

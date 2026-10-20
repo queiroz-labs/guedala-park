@@ -1,0 +1,24 @@
+{
+  "status": "PASSOU",
+  "date": "2026-10-20",
+  "initial": {
+    "revision": "R11 · consolidado com FreeCAD R31 · 20/10/2026",
+    "renderer": "depth",
+    "native": 327,
+    "triangles": 72472,
+    "mirrored": true,
+    "bankNote": "Elias não gostou da bandeja lateral e quer retomar depois a guarda convencional abrindo o baú. Pediu apenas anotar, sem alterar agora. A representação lateral existente é estudo a revisar; não é solução aceita para execução. Programa de guarda preservado, sem nova geometria convencional."
+  },
+  "room_view_combinations": 21,
+  "viewports": [
+    "1440x1100",
+    "412x915"
+  ],
+  "bed_current_future_correct": true,
+  "bank_preference_recorded_no_conventional_reversal": true,
+  "native_bank_motion_mm": 843,
+  "copy_reopened": true,
+  "errors": [],
+  "external_requests": [],
+  "elapsed_ms": 5494
+}

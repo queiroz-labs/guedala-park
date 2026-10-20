@@ -2,7 +2,8 @@
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const WARDROBE_IMAGE='/*WARDROBE*/';
-const state={lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
+const DETAILS_IMAGES=globalThis.GUEDALA_DETAILS||{};
+const state={bench:'closed',lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
 const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
 function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
@@ -209,12 +210,13 @@ function buildScene(){nodes=[];nodeSequence={};
   add('toilet','banho',350.75,470,37.5,59,0,80,'offwhite','toilet');
   add('hygiene','banho',400,524,2,2,60,13,'black');
   for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',396+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
+  if(typeof applyCadSync==='function')nodes=applyCadSync(nodes,state);
   return nodes;
 }
 
 // Mesh generation: actual 3D coordinates; orthographic camera with orbit and elevations.
 function ring(w,d,r=0,end=null){r=Math.min(r,w/2,d/2);if(!r)return [[0,0],[w,0],[w,d],[0,d]];let a=[];for(const[cx,cz,start,side]of [[w-r,r,-Math.PI/2,'near'],[w-r,d-r,0,'far'],[r,d-r,Math.PI/2,'far'],[r,r,Math.PI,'near']]){if(end&&side!==end){a.push([cx>w/2?w:0,side==='near'?0:d]);continue;}for(let i=0;i<=5;i++){const q=start+i*Math.PI/10;a.push([cx+r*Math.cos(q),cz+r*Math.sin(q)]);}}return a;}
-function mesh(n){const out=[];
+function mesh(n){if(n.kind==='cad')return cadMesh(n);const out=[];
   function extrude(x,z,w,d,y,h,c,r=0,alpha=1,end=null){let p=ring(w,d,r,end),bottom=p.map(([a,b])=>[x+a,y,z+b]),top=p.map(([a,b])=>[x+a,y+h,z+b]);out.push({p:top,c,alpha,normal:[0,1,0]},{p:bottom,c,alpha,normal:[0,-1,0]});for(let i=0;i<p.length;i++){let j=(i+1)%p.length,dx=p[j][0]-p[i][0],dz=p[j][1]-p[i][1],l=Math.hypot(dx,dz)||1;out.push({p:[bottom[i],bottom[j],top[j],top[i]],c,alpha,normal:[dz/l,0,-dx/l]});}}
   const {x,z,w,d,y,h,c,kind}=n;
   if(kind==='chair'){
@@ -254,7 +256,7 @@ function mesh(n){const out=[];
 function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t=st.tilt;
   if(st.view==='top')t=Math.PI/2,a=0;
   if(st.view==='side'){t=0;a={east:-Math.PI/2,west:Math.PI/2,south:0,north:Math.PI}[st.side];}
-  const raw=p=>{let X=p[0]-(xmin+xmax)/2,Z=p[2]-(zmin+zmax)/2,Y=p[1],u=X*Math.cos(a)+Z*Math.sin(a),v=-X*Math.sin(a)+Z*Math.cos(a);return[u,v*Math.sin(t)-Y*Math.cos(t),v*Math.cos(t)+Y*Math.sin(t)];};
+  const raw=p=>{let X=(p[0]-(xmin+xmax)/2)*(PROJECT.mirrored?-1:1),Z=p[2]-(zmin+zmax)/2,Y=p[1],u=X*Math.cos(a)+Z*Math.sin(a),v=-X*Math.sin(a)+Z*Math.cos(a);return[u,v*Math.sin(t)-Y*Math.cos(t),v*Math.cos(t)+Y*Math.sin(t)];};
   let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[0,st.view==='top'?0:(st.ymax||247)])q.push(raw([x,y,z]));
   let minx=Math.min(...q.map(p=>p[0])),maxx=Math.max(...q.map(p=>p[0])),miny=Math.min(...q.map(p=>p[1])),maxy=Math.max(...q.map(p=>p[1]));
   let pad=w<500?28:45,spaceTop=st.mini?12:78,spaceBottom=st.mini?12:52;
@@ -307,7 +309,7 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
   if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;ctx.fillStyle='#'+faceLighting(f,enhanced).map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');ctx.fill();
     if(floorStyle(f))drawFloorFallback(ctx,f,project);
-    else{ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
+    else{if(f.edgeMask){ctx.beginPath();p.forEach((v,i)=>{if(f.edgeMask[i]){ctx.moveTo(v[0],v[1]);ctx.lineTo(p[(i+1)%p.length][0],p[(i+1)%p.length][1]);}});}ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
@@ -338,7 +340,8 @@ function activeRoom(o){if(o.id==='ps5')return state.console;if(o.id==='airfryer'
 function roomItems(room=state.room){return ITEMS.filter(o=>room==='all'||activeRoom(o)===room);}
 function selectItem(id,open=true){let it=ITEMS.find(o=>o.id===id);if(!it)return;state.selected=id;
   $('selectedInfo').innerHTML=`<h2>${esc(it.name)}</h2><span class="badge ${chosen(it)?'':'study'}">${esc(it.choice)}</span><span class="badge ${needsCheck(it)?'study':''}">${esc(it.measure)}</span><canvas id="itemPreview" class="item-preview" aria-label="Volume ilustrativo do móvel selecionado"></canvas><div class="dimensions">${esc(it.dimensions)}</div><dl><dt>Material / cor</dt><dd>${esc(MAT[it.material]?.name||it.material)}</dd>${it.budget?'<dt>Orçamento registrado</dt><dd>'+esc(it.budget)+'</dd>':''}<dt>Conferir antes de executar</dt><dd>${esc(it.notes)}</dd></dl><h3>Origem da decisão</h3><p>${esc(it.source)}</p>`;
-  if(id==='wardrobe')$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Organização interna R02 aprovada</summary><a href="${WARDROBE_IMAGE}" target="_blank" rel="noopener"><img src="${WARDROBE_IMAGE}" alt="Desenho cotado do guarda-roupa R02, dois lados iguais com cabides, quatro gavetas e dez pares de tênis" style="width:100%;height:auto"></a><p>Toque no desenho para ampliar. As medidas reais e ferragens continuam a conferir.</p></details>`);
+  if(id==='wardrobe')$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Programa de guarda e medidas atuais</summary><a href="${WARDROBE_IMAGE}" target="_blank" rel="noopener"><img src="${WARDROBE_IMAGE}" alt="Programa do roupeiro com profundidade65, aéreos alinhados, quatro gavetas e dez pares de tênis" style="width:100%;height:auto"></a><p>Esquema funcional. Os painéis do desenho3D vêm da revisão FreeCADR31; medidas reais e ferragens continuam a conferir.</p></details>`);
+  if(DETAILS_IMAGES[id])$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Ver o detalhamento atualizado</summary><a href="${DETAILS_IMAGES[id]}" target="_blank" rel="noopener"><img src="${DETAILS_IMAGES[id]}" alt="Detalhamento de estudo de ${esc(it.name)}, com limites de execução" style="width:100%;height:auto"></a><p>Proposta para conferência e cotação. Não libera fabricação.</p></details>`);
   if(INTERNALS[id]){$('selectedInfo').insertAdjacentHTML('beforeend','<button id="itemStorage" class="storage-link">Ver organização interna →</button>');$('itemStorage').onclick=()=>openStorage(id);}
   if(open){infoReturnTarget=document.activeElement;$('inspector').classList.add('open');if(matchMedia('(max-width:1150px)').matches){$('inspector').setAttribute('role','dialog');$('inspector').setAttribute('aria-modal','true');$('closeInfo').focus({preventScroll:true});}else $('inspector').scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'nearest'});}drawLists();requestRender();setTimeout(()=>render($('itemPreview'),{...state,room:'all',view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true,selected:null},true,id),0);
 }
@@ -422,20 +425,20 @@ function init(){
   buildRoomNavigation();
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
-  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
+  for(const[id,key]of [['benchState','bench'],['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=closeInspector;$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;$('mobileItems').setAttribute('aria-expanded',String(!$('inlineItems').hidden));};
   $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R08.json');
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R11.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
   buildMood();buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
-  for(const[id,value]of [['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
+  for(const[id,value]of [['benchState','closed'],['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
   $('measureToggle').checked=false;$('upperToggle').checked=true;$('wallToggle').checked=false;$('insideToggle').checked=false;
   initializeExperience();
   window.GuedalaStudy={state,items:ITEMS,project:PROJECT,transitionState,pickFace,diningClearance,getNodes:()=>nodes,buildScene:()=>{buildScene();return nodes;},render,tab,setRoom,setView,selectItem};

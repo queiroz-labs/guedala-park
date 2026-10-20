@@ -1,0 +1,39 @@
+{
+  "data_consulta": "2026-10-19",
+  "metodo": "Pesquisa de paginas oficiais e lojas; PDFs publicos baixados sem autenticacao. Sem compra, envio ou alteracao CAD.",
+  "fontes": [
+    {
+      "arquivo": "Fischer_Grill_28516_rev02.pdf",
+      "url": "https://cdn2.madeiramadeira.com.br/atributo/fischer/808850-28516-manual-instru-es-forno-fischer-infinity-de-embutir-50l-rev-02.pdf",
+      "paginas_conferidas": [
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "limite": "Portal oficial lista SKU 28349-64929 e aponta manual 32305, que redirecionou a tela de acesso; atualidade e equivalencia nao confirmadas",
+      "sha256": "96f694e72e8d141e9510f112f33fb0e88be5765bb2ebc3f9b25c872141b5a0c0",
+      "bytes": 22034733,
+      "origem": "Manual de autoria Fischer, copia publicada por revendedor"
+    },
+    {
+      "arquivo": "Mueller_MFE50K_MFE50L_110002914.pdf",
+      "url": "https://drive.google.com/uc?export=download&id=1V21XFMzYHUrLUDY0j_vgMw9gJ7FZ0AeJ",
+      "paginas_conferidas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "limite": "Texto extraido paginas 2 a 8; conferencia visual paginas 4,6,7; divergencia de nicho frente a pagina comercial mantida",
+      "sha256": "39d558015a3ff16b053f73c019cd13d861ce14f191e44401c3b7442bc9669e35",
+      "bytes": 4801817,
+      "origem": "Link de manual na pagina oficial Mueller MFE50L/MFE50K"
+    }
+  ],
+  "timezone": "America/Sao_Paulo"
+}

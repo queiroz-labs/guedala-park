@@ -87,7 +87,7 @@ class DepthRenderer {
       const arr=a<.995?[]:opaque;
       for(let i=1;i<f.points.length-1;i++)for(const j of [0,i,i+1])vertex(arr,f.points[j],c,a,f.p?.[j],surface,receiver);
       if(a<.995)transparent.push({vertices:arr,depth:f.depth});
-      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++)for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}
+      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++){if(f.edgeMask&&!f.edgeMask[i])continue;for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}}
     }
     const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/12);};
     gl.disable(gl.BLEND);gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(1,1);upload(opaque,gl.TRIANGLES);gl.disable(gl.POLYGON_OFFSET_FILL);

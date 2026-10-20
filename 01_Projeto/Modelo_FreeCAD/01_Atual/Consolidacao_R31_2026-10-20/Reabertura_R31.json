@@ -1,0 +1,8 @@
+{
+  "status": "PASSOU",
+  "model_sha256": "b057ef06187da42dbc2b6dc986feeb4599be924259bdb12b6150a634acea1c55",
+  "objects": 6191,
+  "reopened_from_disk": true,
+  "source_unchanged": true,
+  "bank_preference_preserved": true
+}

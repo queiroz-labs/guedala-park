@@ -1,0 +1,59 @@
+{
+  "status": "pronto",
+  "closed_bounds_mm": {
+    "BancoPlataformaR31": [
+      6907.2058,
+      4772.0,
+      312.0,
+      7244.5,
+      5522.0,
+      322.0
+    ],
+    "BancoFolhaR31": [
+      6926.0,
+      4757.0,
+      322.0,
+      7226.0,
+      5507.0,
+      352.0
+    ],
+    "BancoReceptorR31": [
+      6904.6077,
+      4807.0,
+      322.0,
+      6925.3923,
+      4927.0,
+      365.0
+    ]
+  },
+  "open_bounds_mm": {
+    "BancoPlataformaR31": [
+      6907.2058,
+      5495.0,
+      312.0,
+      7244.5,
+      6245.0,
+      322.0
+    ],
+    "BancoFolhaR31": [
+      6926.0,
+      5600.0,
+      322.0,
+      7226.0,
+      6350.0,
+      352.0
+    ],
+    "BancoReceptorR31": [
+      6904.6077,
+      5530.0,
+      322.0,
+      6925.3923,
+      5650.0,
+      365.0
+    ]
+  },
+  "movement_and_return_verified": true,
+  "future_conventional_reversal_applied": false,
+  "source_R30_unchanged": true,
+  "model_sha256": "f40624e6ba49cb62cf0576de7763b5f6fca4ebb6095a12065d3a8030bcce1ab3"
+}

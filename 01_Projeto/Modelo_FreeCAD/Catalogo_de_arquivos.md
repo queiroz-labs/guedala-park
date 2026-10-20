@@ -4,7 +4,21 @@
 
 Índice de todos os arquivos do acervo, incluindo fontes, imagens, resultados, scripts e cópias históricas. Cache Python não incluído.
 
-## Modelo atual — R30
+## Modelo atual — R31
+
+- [01_Atual/Consolidacao_R31_2026-10-20/Apartamento_R31.png](01_Atual/Consolidacao_R31_2026-10-20/Apartamento_R31.png)
+- [01_Atual/Consolidacao_R31_2026-10-20/Conferencia_representacao_R31.json](01_Atual/Consolidacao_R31_2026-10-20/Conferencia_representacao_R31.json)
+- [01_Atual/Consolidacao_R31_2026-10-20/conferir_representacao.py](01_Atual/Consolidacao_R31_2026-10-20/conferir_representacao.py)
+- [01_Atual/Consolidacao_R31_2026-10-20/Consolidacao_R31.json](01_Atual/Consolidacao_R31_2026-10-20/Consolidacao_R31.json)
+- [01_Atual/Consolidacao_R31_2026-10-20/consolidar_r31.py](01_Atual/Consolidacao_R31_2026-10-20/consolidar_r31.py)
+- [01_Atual/Consolidacao_R31_2026-10-20/Exportacao_site_R31.json](01_Atual/Consolidacao_R31_2026-10-20/Exportacao_site_R31.json)
+- [01_Atual/Consolidacao_R31_2026-10-20/exportar_site.py](01_Atual/Consolidacao_R31_2026-10-20/exportar_site.py)
+- [01_Atual/Consolidacao_R31_2026-10-20/finalizar_r31.py](01_Atual/Consolidacao_R31_2026-10-20/finalizar_r31.py)
+- [01_Atual/Consolidacao_R31_2026-10-20/Guedala_Park_R31_Consolidado.FCStd](01_Atual/Consolidacao_R31_2026-10-20/Guedala_Park_R31_Consolidado.FCStd)
+- [01_Atual/Consolidacao_R31_2026-10-20/Reabertura_R31.json](01_Atual/Consolidacao_R31_2026-10-20/Reabertura_R31.json)
+- [01_Atual/Consolidacao_R31_2026-10-20/README.md](01_Atual/Consolidacao_R31_2026-10-20/README.md)
+- [01_Atual/Consolidacao_R31_2026-10-20/Verificacao_final_R31.json](01_Atual/Consolidacao_R31_2026-10-20/Verificacao_final_R31.json)
+
 
 - [01_Atual/Consistencia_R30_2026-10-14/Cadeira_escritorio_R30.json](01_Atual/Consistencia_R30_2026-10-14/Cadeira_escritorio_R30.json)
 - [01_Atual/Consistencia_R30_2026-10-14/cadeira_escritorio_ultra.py](01_Atual/Consistencia_R30_2026-10-14/cadeira_escritorio_ultra.py)
