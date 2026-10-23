@@ -1,0 +1,14 @@
+﻿ID CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca384;Lateral direita;1;550.0;330.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca385;Lateral esquerda;1;550.0;330.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca386;Fundo;1;1964.0;514.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca387;Base;1;1964.0;312.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca388;Tampo;1;1964.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+ApoioComumR11;Apoio interno escritório 1 - proposta18;1;514.0;312.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+ApoioComumR001;Apoio interno escritório 2 - proposta18;1;514.0;312.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+ApoioComumR002;Apoio interno escritório 3 - proposta18;1;514.0;312.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR11;Escritório porta 4 - abrir para direita — frente com canecos;1;548.0;496.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR012;Escritório porta 3 - abrir para esquerda — frente com canecos;1;548.0;496.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR013;Escritório porta 2 - abrir para direita — frente com canecos;1;548.0;496.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR014;Escritório porta 1 - abrir para esquerda — frente com canecos;1;548.0;496.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Off-white fosco";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+ApoioOpostoR18;"Escritório - segundo18 no divisor das portas2/3; conjunto36";1;514.0;312.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";

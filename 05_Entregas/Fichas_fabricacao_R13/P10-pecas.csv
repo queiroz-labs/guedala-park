@@ -1,0 +1,11 @@
+﻿ID CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca324;Lateral direita;1;1018.0;330.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca325;Lateral esquerda;1;1018.0;330.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca326;Fundo;1;982.0;511.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca327;Base;1;511.0;312.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca328;Tampo;1;511.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca329;Prateleira;1;511.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca330;Prateleira;1;511.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca331;Prateleira;1;511.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR004;C · uso diário - porta direita — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR005;C · uso diário - porta esquerda — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";

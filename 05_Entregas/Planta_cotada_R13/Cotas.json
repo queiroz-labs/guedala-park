@@ -1,0 +1,98 @@
+{
+  "source": {
+    "path": "02_Plantas_e_manuais/Planta_oficial.pdf",
+    "page": 1,
+    "method": "Cotas escritas conferidas visualmente na página integral."
+  },
+  "units": "mm in arrays; displayed in metres",
+  "cotas": [
+    {
+      "id": "quarto",
+      "title": "Quarto / dormitório 01",
+      "official": "2,45 × 2,95 m",
+      "mm": [
+        2450,
+        2950
+      ],
+      "scope": "Retângulo principal do dormitório; não inclui a reentrância reconstruída.",
+      "match": "Cotas escritas correspondem ao retângulo principal do modelo."
+    },
+    {
+      "id": "escritorio",
+      "title": "Escritório / dormitório 02",
+      "official": "2,30 × 2,95 m",
+      "mm": [
+        2300,
+        2950
+      ],
+      "scope": "Entre faces internas do retângulo principal.",
+      "match": "Cotas escritas correspondem ao modelo."
+    },
+    {
+      "id": "sala",
+      "title": "Sala",
+      "official": "Largura 2,45 m",
+      "mm": [
+        2450
+      ],
+      "scope": "Largura da sala; a cota 5,15 m é o eixo contínuo sala/cozinha.",
+      "match": "Não atribuir 5,15 m somente à sala."
+    },
+    {
+      "id": "sala cozinha",
+      "title": "Eixo sala + cozinha",
+      "official": "5,15 m",
+      "mm": [
+        5150
+      ],
+      "scope": "Da parede superior da sala à parede inferior da cozinha, no eixo direito.",
+      "match": "Correspondência nominal no modelo: y185 a700 cm."
+    },
+    {
+      "id": "banho",
+      "title": "Banheiro",
+      "official": "2,09 × 1,24 m",
+      "mm": [
+        2090,
+        1240
+      ],
+      "scope": "Retângulo interno cotado; volumes e equipamentos não desenhados nesta vista.",
+      "match": "Cotas escritas correspondem ao modelo."
+    },
+    {
+      "id": "lavanderia",
+      "title": "Área de serviço",
+      "official": "1,29 × 1,54 m",
+      "mm": [
+        1290,
+        1540
+      ],
+      "scope": "Cotas da planta oficial. Altura/profundidade 1,54 m está apenas na tabela: os pontos extremos não coincidem com a reconstrução.",
+      "match": "Reconstrução do site:1,29 ×1,61 m. Diferença de7 cm no segundo eixo; não resolvida por deslocar uma linha de cota."
+    },
+    {
+      "id": "cozinha",
+      "title": "Faixa da cozinha",
+      "official": "3,52 × 1,55 m",
+      "mm": [
+        3520,
+        1550
+      ],
+      "scope": "Faixa indicada na planta; não representa todo o ambiente integrado nem confirma a parede divisória com a área de serviço.",
+      "match": "Faixa nominal correspondente no modelo; limites abertos não são novas paredes."
+    },
+    {
+      "id": "circulacao",
+      "title": "Circulação",
+      "official": "Trechos de 0,90 m e 1,05 m",
+      "mm": [
+        900,
+        1050
+      ],
+      "scope": "Dois trechos cotados. Não formam um retângulo genérico de0,90 ×1,05.",
+      "match": "Faixa reconstruída do site:1,30 ×0,90 m. O trecho1,05 m não é substituído pelo envelope1,30 m."
+    }
+  ],
+  "reconstructionSource": "01_Projeto/Estudo_interativo/src/app.js: floors/walls",
+  "note": "Cotas transcritas da planta oficial, página1. Geometria de apoio reconstruída a partir do site. As medidas podem variar com os acabamentos, conforme a nota da planta; não são levantamento do apartamento nem liberação de corte."
+}

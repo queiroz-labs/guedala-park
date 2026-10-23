@@ -1,0 +1,10 @@
+﻿ID CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca400;Lateral direita;1;750.0;126.0;18.0;Madeira clara (referência CAD);"face interna Branco TX; face aparente Madeira clara, padrão exato a escolher";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca401;Lateral esquerda;1;750.0;126.0;18.0;Madeira clara (referência CAD);"face interna Branco TX; face aparente Madeira clara, padrão exato a escolher";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca402;Fundo;1;714.0;564.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca403;Base;1;564.0;108.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";"Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais."
+Peca404;Tampo;1;564.0;108.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR019;Armário espelhado raso - porta direita — frente com canecos;1;748.0;297.0;18.0;Não individualizado;"face interna Branco TX; face aparente Espelho (camada distinta do substrato)";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+FrenteComumR020;Armário espelhado raso - porta esquerda — frente com canecos;1;748.0;297.0;18.0;Não individualizado;"face interna Branco TX; face aparente Espelho (camada distinta do substrato)";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+PrateleiraEspelhadoR12;Prateleira removível espelhado 1 - proposta;1;560.0;104.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+PrateleiraEspelhadoR001;Prateleira removível espelhado 2 - proposta;1;560.0;104.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";

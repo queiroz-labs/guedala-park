@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "modules": 20,
+  "unique_panels": 249,
+  "csv_files": 20,
+  "all_panel_dimensions_match_CAD": true,
+  "all_material_overrides_have_evidence": true,
+  "original_CAD_unchanged": true,
+  "specified_panel_faces": 248
+}

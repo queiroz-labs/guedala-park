@@ -1,0 +1,8 @@
+﻿ID CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca259;Lateral direita;1;650.0;308.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca260;Lateral esquerda;1;650.0;308.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca261;Fundo;1;1314.0;272.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca262;Base;1;1314.0;632.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca263;Tampo;1;1314.0;632.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca264;Maleiro — porta direita — deslizar para esquerda — frente proposta;1;670.0;237.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca265;Maleiro — porta esquerda — deslizar para direita — frente proposta;1;670.0;237.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";

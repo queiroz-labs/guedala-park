@@ -1,0 +1,22 @@
+﻿ID CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca283;Lateral direita;1;720.0;590.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca284;Lateral esquerda;1;720.0;590.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca285;Fundo;1;684.0;583.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+Peca286;Base;1;583.0;572.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR048;Lateral comum esquerda · G3 · mantimentos - proposta R08;1;490.0;300.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR049;Lateral comum direita · G3 · mantimentos - proposta R08;1;490.0;300.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR050;Fundo comum · G3 · mantimentos - proposta R08;1;551.0;490.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR051;Traseira comum · G3 · mantimentos - proposta R08;1;541.0;273.0;15.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR052;Dianteira comum16 · G3 · mantimentos - proposta R08;1;541.0;273.0;16.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR053;Frente preservada · G3 · mantimentos - proposta R08;1;617.0;396.0;18.0;Não individualizado;"face interna Branco TX; face aparente Greenplac Arenza";Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+MontagemG2R016;Parte_traseira_da_gaveta[3B0R-000X] - proposta R07;1;541.0;73.0;15.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+MontagemG2R017;Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07;1;490.0;100.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+MontagemG2R018;Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07;1;490.0;100.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+MontagemG2R019;Fundo_da_gaveta[3B0R-001A] - proposta R07;1;551.0;490.0;16.2;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+MontagemG2R020;Frente_da_gaveta[3B0R-001H] - proposta R07;1;617.0;156.0;18.0;Não individualizado;"face interna Branco TX; face aparente Greenplac Arenza";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR060;Lateral comum esquerda · G1 · talheres - proposta R08;1;490.0;80.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR061;Lateral comum direita · G1 · talheres - proposta R08;1;490.0;80.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR062;Fundo comum · G1 · talheres - proposta R08;1;551.0;490.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR063;Traseira comum · G1 · talheres - proposta R08;1;541.0;53.0;15.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR064;Dianteira comum16 · G1 · talheres - proposta R08;1;541.0;53.0;16.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";
+GavetaComumR065;Frente preservada · G1 · talheres - proposta R08;1;617.0;156.0;18.0;Não individualizado;"face interna Branco TX; face aparente Greenplac Arenza";Recortado/especial;"Detalhamento técnico por peça; não descontado do envelope";

@@ -73,21 +73,23 @@ class DepthRenderer {
   }
   draw(ctx,faces,w,h,ratio,selected,enhanced=false){
     const gl=this.gl;
-    this.canvas.width=Math.round(w*ratio);this.canvas.height=Math.round(h*ratio);gl.viewport(0,0,this.canvas.width,this.canvas.height);
+    const pw=Math.round(w*ratio),ph=Math.round(h*ratio);
+    if(this.canvas.width!==pw)this.canvas.width=pw;if(this.canvas.height!==ph)this.canvas.height=ph;
+    gl.viewport(0,0,pw,ph);
     gl.clearColor(0,0,0,0);gl.depthMask(true);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
     const patches=enhanced?contactPatches(faces).slice(0,this.maxContacts):[];
     gl.uniform1i(this.contactUniforms.count,patches.length);
     if(patches.length){gl.uniform4fv(this.contactUniforms.rects,new Float32Array(patches.flatMap(p=>p.rect)));gl.uniform4fv(this.contactUniforms.settings,new Float32Array(patches.flatMap(p=>p.settings)));}
     this.lastContactCount=patches.length;
     const opaque=[],transparent=[],edges=[];
-    const vertex=(arr,p,c,a,world=[0,0,0],surface=0,receiver=0)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,...c,a,world[0],world[2],surface,world[1],receiver);
+    const vertex=(arr,p,c,a,world=[0,0,0],surface=0,receiver=0)=>arr.push(p[0]/w*2-1,1-p[1]/h*2,-p[2]/4096,c[0],c[1],c[2],a,world[0],world[2],surface,world[1],receiver);
     for(const f of faces){
       const c=faceLighting(f,enhanced), a=f.alpha??1;
       const surface=floorStyle(f),receiver=enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)&&f.normal[1]>.99&&a>.995&&f.node.kind!=="wall"?1:0;
       const arr=a<.995?[]:opaque;
       for(let i=1;i<f.points.length-1;i++)for(const j of [0,i,i+1])vertex(arr,f.points[j],c,a,f.p?.[j],surface,receiver);
       if(a<.995)transparent.push({vertices:arr,depth:f.depth});
-      if(a>.995&&!surface){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++){if(f.edgeMask&&!f.edgeMask[i])continue;for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}}
+      if(a>.995&&!surface&&(!f.edgeMask||f.edgeMask.some(Boolean))){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.points.length;i++){if(f.edgeMask&&!f.edgeMask[i])continue;for(const p of [f.points[i],f.points[(i+1)%f.points.length]])vertex(edges,[p[0],p[1],p[2]+.06],stroke,1);}}
     }
     const upload=(v,mode)=>{if(!v.length)return;gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.DYNAMIC_DRAW);gl.drawArrays(mode,0,v.length/12);};
     gl.disable(gl.BLEND);gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(1,1);upload(opaque,gl.TRIANGLES);gl.disable(gl.POLYGON_OFFSET_FILL);

@@ -5,7 +5,7 @@ root=Path(__file__).resolve().parent
 src=root/'src'
 html=(src/'shell.html').read_text(encoding='utf-8')
 html=html.replace('</style>',(src/'workshop.css').read_text(encoding='utf-8')+'\n</style>')
-html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encoding='utf-8')+'\n'+(src/'workshop.js').read_text(encoding='utf-8')+'</script></body>')
+html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encoding='utf-8')+'\n'+(src/'workshop.js').read_text(encoding='utf-8')+'\n'+(src/'fabrication-ui.js').read_text(encoding='utf-8')+'\n'+(src/'floorplan-ui.js').read_text(encoding='utf-8')+'</script></body>')
 for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('cad-data.js','/*CAD_DATA*/'),('cad-sync.js','/*CAD_SYNC*/'),('lighting.js','/*LIGHTING*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     html=html.replace(token,(src/name).read_text(encoding='utf-8'))
 wardrobe=root/'Consolidacao_R11_2026-10-20/Guarda_roupa_R31.svg'
