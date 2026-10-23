@@ -1,0 +1,1387 @@
+{
+  "revision": "R14 revisão independente de campo",
+  "date": "2026-10-23",
+  "scope": "20 módulos; somente guedala-park; sem alteração de site/CAD/builders",
+  "commonRules": [
+    "Registrar tudo em mm, com data, responsável, instrumento, foto e croqui; preservar valores mínimo/máximo. Não substituir por dimensões nominais do CAD.",
+    "O protocolo de datum e os pontos de coleta são recomendações de execução desta revisão. Não são tolerâncias publicadas, nem registro de medição.",
+    "Caixa, folga de mecanismo, usinagem, espessura real do lote, veio/borda, massa de porta, carga de uso e desenho de suspensão são projeto/produto/oficina. Só dimensões/condições físicas existentes no apartamento são campo.",
+    "A parede é um dado de campo; projeto de ancoragem é uma decisão técnica posterior. Não chamar o sistema inteiro de medição pendente.",
+    "Branco TX interno e padrões aparentes são decisões já tomadas; fabricante/substrato/mapa de bordas/processo de dupla face são técnicos e não justificam visita.",
+    "Furação do móvel usa datum local da peça acabada e gabarito da ferragem. Datum do apartamento serve à implantação, não para transferir coordenadas globais do CAD diretamente à furadeira."
+  ],
+  "reclassifications": [
+    {
+      "modules": [
+        "P05",
+        "P14",
+        "P18"
+      ],
+      "fromField": "Produto real de cuba/tanque/sifão e gabarito de recorte.",
+      "to": "Projeto/produto; somente ponto existente ou produto já instalado exige apartamento."
+    },
+    {
+      "modules": [
+        "P11",
+        "P12",
+        "P13"
+      ],
+      "fromField": "Cabo, dimensões de catálogo, modelo, pés e mínimos de ventilação dos eletros.",
+      "to": "Projeto/produto/oficina; campo só alturas/posições/interferências da instalação real."
+    },
+    {
+      "modules": [
+        "P14"
+      ],
+      "fromField": "Teste do saco/armação real e escolha dos pivôs/retentor.",
+      "to": "Projeto/produto e pré-montagem em oficina."
+    },
+    {
+      "modules": [
+        "P20"
+      ],
+      "fromField": "Medir espuma/encosto/almofada, eixo e folga da Southco.",
+      "to": "Projeto/produto e pré-montagem em oficina; campo apenas obstáculos instalados e assentamento."
+    },
+    {
+      "modules": [
+        "P16"
+      ],
+      "fromField": "Retirada da gaveta e conflito com novos reforços da bancada.",
+      "to": "Compatibilização de projeto e pré-montagem; campo confere a bancada instalada e o espaço frontal."
+    },
+    {
+      "modules": [
+        "P08",
+        "P16",
+        "P20"
+      ],
+      "fromField": "Repetição automática de levantamento da parede em móvel sem interface de parede especificada.",
+      "to": "Não repetir como condição obrigatória do móvel. Registrar no levantamento do ambiente se o projeto final incluir ancoragem."
+    }
+  ],
+  "verifiedCounts": {
+    "hingesCurrent": 52,
+    "hingesCurrentDerivation": {
+      "P02": 4,
+      "P04": 8,
+      "P05": 4,
+      "P09": 4,
+      "P10": 6,
+      "P11": 4,
+      "P12": 4,
+      "P15": 4,
+      "P17": 8,
+      "P19": 6
+    },
+    "slidingDoorsRO62": 4,
+    "RO62Kits": 4,
+    "RO62WheelsIncluded": 8,
+    "RO62GuidesIncluded": 8,
+    "RO62StopsIncluded": 8,
+    "RO25KitsBathroom": 2,
+    "drawerPairs500": 7,
+    "drawerPairs400ExclusiveAlternatives": 2,
+    "totalDrawers": 9,
+    "drawerWheels": 6,
+    "mirrorShelfPins": 8,
+    "minifixCAlternativeSets": 20,
+    "rectangularPanelInterfaces": 171,
+    "bathroomRemovableFrameM6": 4,
+    "bathroomDowelTotal": 8,
+    "bathroomRO25Screws": 24,
+    "southcoHingesCandidate": 4
+  },
+  "modules": {
+    "P01": {
+      "name": "Roupeiro",
+      "fieldChecks": [
+        {
+          "measure": "Largura entre paredes acabadas, profundidade e pé-direito na implantação do roupeiro.",
+          "method": "Registrar largura junto à base, meio e topo; profundidade nos dois extremos; altura nos extremos e centro. Anotar mínimo e máximo, não apenas média.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Caixa, arremates, trilhos e montagem do conjunto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P01-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Prumo/esquadro, rodapé e interferências existentes no curso das portas.",
+          "method": "Nivelar uma linha de referência; medir desvios e diagonais. Cotar saliência/altura do rodapé e o acesso frontal real.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Compensadores e implantação; não muda o desenho de furação da ferragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P01-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-QUARTO",
+          "id": "P01-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar quantidade documental do correr e gavetas",
+          "decision": "2 kits RO-62 de uma porta; 4 pares FGVTN500; os componentes dos kits não somam compra. Os 4 cortes de varão somam 2610 mm nominais, antes de descontos de suporte.",
+          "source": "01_Projeto/Estudo_interativo/fabrication/hardware-audit.json",
+          "status": "documental/dimensional; não libera fabricação por si"
+        },
+        {
+          "topic": "Separar corte de trilho/varão da medição de apartamento",
+          "decision": "Os comprimentos de corte vêm da caixa final e dos encaixes dos produtos. Levantamento de parede apenas informa se é necessário revisar a caixa.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Confirmar envelope real, retenção antidescarrilamento, padrão de furação, seções completas dos trilhos e posição dos freios.",
+        "Dimensionar suporte dos trilhos e ligações da base/topo; capacidade de60 kg por porta não dimensiona a marcenaria.",
+        "Determinar datum vertical, recortes traseiros e desenho dos engates da FGVTN; o STEP400 não deve ser escalado para500.",
+        "Fechar carga útil incluindo massa da caixa, frente, acessórios e conteúdo; 35kg não significa35kg de conteúdo.",
+        "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
+        "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Portas externas do roupeiro: amadeirado/Arenza; interiores e gavetas internas Branco TX. offwhite no CAD é referência anterior; não recolorido nesta auditoria.",
+        "Resistência dos varões e suportes, carga das prateleiras, montagem das divisórias; mecanismo correr em estudo próprio.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P02": {
+      "name": "Canto superior em L",
+      "fieldChecks": [
+        {
+          "measure": "Dois braços do canto, ângulo real e teto sobre a caixa em L.",
+          "method": "Desenhar o canto com origem no encontro acabado, cotar os dois braços e diagonais com extremos identificados; medir altura nos três extremos.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Contorno de ajuste em L, arremates e abertura das frentes.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P02-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Saliências e desvios nas paredes que recebem o canto.",
+          "method": "Registrar distância das paredes a uma linha laser em alturas inferior e superior da caixa. Fotografar obstáculos com escala.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Apoio lateral e plano de instalação; ferragens permanecem decisão de projeto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P02-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-QUARTO",
+          "id": "P02-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Conservar quantitativo e contorno em L",
+          "decision": "4 dobradiças; geometria do painel em L exige o contorno efetivo, não o retângulo 650×1050. Quatro formas de dobradiça inválidas devem ser corrigidas em projeto.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Detalhar união das placas em L e apoio lateral proposto; o retângulo envolvente650 ×1050 não é área útil da placa.",
+        "Revisar as quatro formas de dobradiças do canto apontadas como inválidas no inventário.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Corte real em L e união de canto; não calcular carga nem volume útil pelo retângulo envolvente. Apoio LateralApoioPrincipal é proposta.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P03": {
+      "name": "Maleiro",
+      "fieldChecks": [
+        {
+          "measure": "Altura do teto e faixa livre de montagem do maleiro.",
+          "method": "Medir nos extremos e no encontro com P02 a partir do mesmo zero de P01; cotar vigas/rebaixos existentes.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Arremate superior, encaixe com roupeiro e passagem de montagem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P03-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Alinhamento real do encontro P01/P02/P03 após implantação.",
+          "method": "Registrar cota de referência comum e planos acabados; conferir o espaço de inserção da caixa antes de fixar.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Ajuste de campo do conjunto; os trilhos são dimensionados pela caixa final em oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P03-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-QUARTO",
+          "id": "P03-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar correr sem amortecedor incompatível",
+          "decision": "2 kits RO-62; não adicionar Comfort240 às folhas baixas/leve. AP=272−35=237 mm é compatibilidade nominal já calculada.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Confirmar envelope real, retenção antidescarrilamento, padrão de furação, seções completas dos trilhos e posição dos freios.",
+        "Dimensionar suporte dos trilhos e ligações da base/topo; capacidade de60 kg por porta não dimensiona a marcenaria.",
+        "Maleiro: folhas670 ×237 ×18 são baixas/largas. Não adotar Comfort240: massa estimada2,14–2,57kg abaixo da faixa mínima15kg do acessório.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Contato é nominal: ligação e transferência de carga não demonstradas. Acoplamento de montagem e capacidade da base sob malas.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P04": {
+      "name": "Aéreo da cabeceira",
+      "fieldChecks": [
+        {
+          "measure": "Comprimento livre e faixa de instalação do aéreo da cabeceira.",
+          "method": "Medir extremos e desvio da parede; cotar tomadas, caixas e saída de iluminação por centro e dimensões.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Comprimento de arremate, instalação e acesso à iluminação.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P04-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Interferências existentes no giro das portas.",
+          "method": "Cotar cabeceira/encosto já instalados e obstáculos; usar gabarito da frente na altura de montagem.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Altura final e eventual limitação de giro; o limitador é escolhido em projeto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P04-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-QUARTO",
+          "id": "P04-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar distribuição nominal e verificar portas largas",
+          "decision": "8 dobradiças. Vãos 425,75/407,75/851,5 não são três vãos iguais; reforço e carga do vão maior são decisão estrutural de projeto.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Validar folhas439,75/440,25 ×306, mais largas que altas, com fabricante: não extrapolar a orientação de carga de portas altas.",
+        "Verificar a ligação/rigidez no vão851,5 e dimensionar contribuição do fundo, sem presumir três vãos iguais.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Vão 851,5 merece reforço ou limite de conteúdo. Fundo contínuo pode ajudar somente se sua união for dimensionada; não presumir três vãos iguais.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P05": {
+      "name": "Gabinete da pia",
+      "fieldChecks": [
+        {
+          "measure": "Água/esgoto existentes e espaço sob pedra/cuba instalada.",
+          "method": "Registrar centros X/Z, diâmetros e projeção desde a parede de cada ponto; cotar intradorso da pedra e da cuba se já instaladas. Fotografar conexões e acesso.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Recorte hidráulico e acesso à manutenção; usar gabarito do produto selecionado para recorte final.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P05-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Vão acabado e posição da pedra sobre o gabinete.",
+          "method": "Medir largura em três alturas, profundidade útil nos extremos e altura inferior da pedra. Registrar rodapé e revestimento saliente.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Encaixe do gabinete e fechamento lateral.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P05-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P05-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar quantidade e separar hidráulica",
+          "decision": "4 dobradiças. Selecionar cuba/sifão e fazer gabarito de bancada é projeto/produto; posições existentes dos pontos são campo.",
+          "source": "01_Projeto/Estudo_interativo/fabrication/hardware-audit.json",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Compatibilizar recorte hidráulico e acesso às conexões do cooktop/forno com armazenamento; não atribuir apoio à prateleira só pelo contato com laterais.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Prateleira explicitamente marcada hidráulica a recortar; não liberar corte/armazenamento sem sifão e cuba. Apoio inferior não decorre só de encostar na lateral.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P06": {
+      "name": "Gaveteiro G1/G2/G3",
+      "fieldChecks": [
+        {
+          "measure": "Vão sob pedra e plano acabado dos vizinhos.",
+          "method": "Medir largura/altura/profundidade nos extremos; registrar esquadro e a cota da face inferior da pedra.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Caixa e alinhamento das frentes.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P06-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Curso livre frontal e interferências físicas nas laterais/traseira.",
+          "method": "Traçar o volume da gaveta aberta e cotar obstáculos instalados, tubulação e tomadas que possam avançar no módulo.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Extração e manutenção; folgas da corrediça são verificadas na caixa final em oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P06-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P06-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar quantitativo de corrediças",
+          "decision": "3 pares FGVTN500, somados aos 4 de P01 =7 pares500. Datum, recortes e engates exatos permanecem projeto/fabricante, sem depender da visita.",
+          "source": "01_Projeto/Estudo_interativo/fabrication/hardware-audit.json",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Determinar datum vertical, recortes traseiros e desenho dos engates da FGVTN; o STEP400 não deve ser escalado para500.",
+        "Fechar carga útil incluindo massa da caixa, frente, acessórios e conteúdo; 35kg não significa35kg de conteúdo.",
+        "G3: cenário de madeira900kg/m³ consome15,626kg e deixa19,374kg até35kg, antes de acessórios. Recalcular com materiais e caixa definitivos.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Gavetas e ferragens por estudo específico. Fixação e carga da caixa/base ainda condicionais.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P07": {
+      "name": "Módulo de cocção",
+      "fieldChecks": [
+        {
+          "measure": "Pontos existentes de energia/gás e espaço para ventilação/manutenção.",
+          "method": "Cotar centros, saliências e percurso acessível das conexões desde piso e parede acabados. Registrar saída das aberturas sem as cobrir.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Recortes e acesso ao forno; não altera requisitos de ventilação do manual.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P07-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Vão acabado do forno/cooktop e espaço frontal para retirada.",
+          "method": "Registrar altura inferior da pedra, largura e profundidade até a parede e objetos instalados; confrontar com o aparelho já especificado.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Apoios, réguas e retirada do aparelho. Manter canais e grelhas do projeto livres.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P07-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P07-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar necessidades das grelhas",
+          "decision": "2 grelhas, 8 parafusos M4,8 roscas retidas,4 réguas. Inserto RAMPA para madeira dura não aprova retenção em MDF; comprimento/torque não pode ser inventado.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Dimensionar ligações da base/nervuras e das réguas; capacidade térmica e estrutural não é comprovada apenas pela área das grelhas.",
+        "Fechar tipo/comprimento de M4, retenção de rosca, torque, piloto e acesso; conferir resistência no material efetivo.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Respeitar estudo Fischer R31/R02 de ventilação; a travessa e base não autorizam fechar canais. Ligações, apoios e instalação real pendentes.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P08": {
+      "name": "Gaveta de limpeza",
+      "fieldChecks": [
+        {
+          "measure": "Perfil de nível do piso no percurso completo das seis rodas.",
+          "method": "Marcar no croqui as linhas de rodagem e registrar alturas com régua/nível desde uma linha laser; medir soleiras e irregularidades.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Cota do fundo, apoio real nas rodas e funcionamento do batente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P08-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Altura livre sob gabinetes e curso frontal da gaveta baixa.",
+          "method": "Medir nos extremos e no caminho de retirada; cotar rodapé, rejuntes salientes e obstáculos.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Gabarito da gaveta e manutenção. Seleção/capacidade/furação das rodas é técnica.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P08-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fixar a contagem de rodas",
+          "decision": "6 rodas, não um décimo par de corrediças. Selecionar e obter ficha da roda real antes da furação: RB30 altura38,5 não equivale automaticamente à hipótese silicone altura39.",
+          "source": "01_Projeto/Estudo_interativo/fabrication/hardware-audit.json",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter ficha primária do rodízio: silicone, capacidade dinâmica, altura39 e furação; BigferRB30/12.02.008 é polímero e38,5, não substituição automática.",
+        "Dimensionar piso de apoio, distribuição entre rodas e batente de impacto com massa própria da gaveta e conteúdo.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Rodízios/seis rodas e mecanismo em estudo de gavetas. Não tratar guias como suporte de peso.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
+        "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes; não há solução estrutural executiva."
+      ]
+    },
+    "P09": {
+      "name": "Aéreo D",
+      "fieldChecks": [
+        {
+          "measure": "Eixo, seção e projeção da saída real de exaustão.",
+          "method": "Cotar centro X/Z e diâmetro ou largura/altura; medir projeção do conjunto instalado e mudanças de direção. Fotografar conexão com escala.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Canal posterior, divisores curtos e acesso ao duto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P09-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Faixa livre e prumo da parede na implantação do aéreo D.",
+          "method": "Medir extremos, altura e obstáculos junto à faixa de suspensão; registrar com o mesmo datum de P10/P11/P12.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Alinhamento de instalação e arremates.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P09-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P09-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Conservar canal técnico",
+          "decision": "4 dobradiças; não anunciar dois nichos completos298×312 porque a reserva posterior196×178×556 intercepta a profundidade. Isso já está fechado geometricamente.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Dimensionar ligações dos divisores curtos, suspensão e acesso ao duto; não tratar como dois nichos livres298 ×312.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Não apresentar dois nichos íntegros de 298×312: canal técnico corta profundidade. Manter acesso ao duto e definir conexão dos divisores curtos.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P10": {
+      "name": "Aéreo C",
+      "fieldChecks": [
+        {
+          "measure": "Faixa de parede, prumo e obstáculos atrás do aéreo C.",
+          "method": "Registrar desvios da parede, centros de tomadas e limites dos vizinhos desde a linha de referência comum dos aéreos.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Cota de instalação, arremates e faixa disponível de ancoragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P10-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P10-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Adotar como base detalhável a ligação fixa desmontável",
+          "decision": "20 caixas Minifix262.26.034 +20 pinos262.28.920,5 painéis×4; não somar pinos removíveis. AlojamentoØ15,13,5+0,5 profundidade, A9/B34,passagemØ7; pilotoØ5×8,5 proposto. Cargas e montagem/ferramenta não foram aprovadas.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Confirmar opção de prateleiras fixas desmontáveis ou reguláveis; se reguláveis, projetar folga e suporte próprios.",
+        "Validar ferramenta/acesso, material, tolerâncias, resistência das uniões e contribuição do fundo; teste sem colisão não dimensiona carga.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Alternativa Minifix modelada para peças fixas. Se removíveis, criar folga de montagem e apoiar conforme ferragem; não comprar pinos presumindo encaixe sem ajuste.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P11": {
+      "name": "Aéreo B",
+      "fieldChecks": [
+        {
+          "measure": "Faixa livre do aéreo B e posição das tomadas próximas ao apoio aberto do micro.",
+          "method": "Cotar centros/contornos das tomadas e saliências; registrar alturas e planos dos vizinhos já existentes.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Posição de montagem e passagem do cabo. Comprimento do cabo e mínimos de ventilação são conferidos no produto/manual fora do apartamento.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P11-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P11-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Separar geometria de resistência",
+          "decision": "4 dobradiças; prateleira661×312 e alturas258/298 conhecidas. Flecha2,64 mm para20kg é cenário e não capacidade aprovada.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Prateleira661 ×312 ×18: definir carga, ligação com fundo e rigidez;2,64mm sob20kg é cenário de flexão imediata, não carga aprovada.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Flexão da prateleira sob 20 kg estimada 2,64 mm imediata; não é carga aprovada. Ligações e suspensão pendentes.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P12": {
+      "name": "Aéreo A",
+      "fieldChecks": [
+        {
+          "measure": "Nível do piso sob os pés da geladeira e altura disponível até a base do aéreo.",
+          "method": "Medir o desnível nos pontos de apoio; registrar aparelho nivelado se já instalado e a cota da base projetada/instalada do aéreo.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Reserva superior de ventilação e cota de montagem.",
+          "acceptance": "A matriz registra reserva nominal de 100 mm sem margem além do mínimo considerado. Confrontar mínimo do manual do modelo final e dimensões niveladas; não absorver desnível reduzindo essa reserva.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P12-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Largura/profundidade acabadas do espaço da geladeira e obstáculos de abertura.",
+          "method": "Cotar paredes, rodapé, tomadas e percurso frontal disponível. Registrar faixa de abertura das portas com o produto instalado quando houver.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Implantação, ventilação e manutenção; dimensão de catálogo do produto é decisão técnica.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P12-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P12-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Conservar divisão e conferir produto antes de campo",
+          "decision": "4 dobradiças e dois vãos373,5; geladeira real/modelo/manual e reserva superior podem ser compatibilizados documentalmente antes da visita.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Detalhar ligação do divisor central18 e suspensão; reserva100mm sobre geladeira não tem tolerância adicional além do mínimo considerado.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Fixação do divisor e suspensão; reserva 100 sobre geladeira tem margem nominal zero além do mínimo considerado.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P13": {
+      "name": "Apoio do micro-ondas",
+      "fieldChecks": [
+        {
+          "measure": "Posição da tomada e espaço físico de retirada do micro.",
+          "method": "Cotar centro/contorno da tomada e objetos instalados próximos ao apoio; registrar espaço frontal e acima na implantação real.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Passagem do cabo e retirada. Os quatro pés e o cabo do aparelho são conferência de produto em oficina.",
+          "acceptance": "A medição não resolve o conflito documental: projeto F104 guarda 100 mm acima e o manual citado pede 300 mm. Resolver o requisito de instalação em projeto antes da liberação.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P13-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-COZINHA",
+          "id": "P13-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Resolver ventilação como pendência de projeto",
+          "decision": "100 mm acima da escolhaF104 divergem de300 mm citados no manual; medir o apartamento não equivale a aprovar essa redução. Posição dos pés e cabo podem ser medidas no aparelho fora da obra.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Fechar suporte/fixação da chapa697 e posição dos pés do ME23P.",
+        "Resolver documentalmente a divergência de ventilação: escolhaF104 mantém100mm acima enquanto manual pede300mm; não chamar a instalação de validada.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "100 acima mantém escolha F104, divergente de 300 no manual. Pés reais e suporte da chapa não demonstrados. Não chamar espaço ventilado de nicho fechado.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P14": {
+      "name": "Tanque e cesto",
+      "fieldChecks": [
+        {
+          "measure": "Pontos existentes de água/esgoto, janela e tanque se já instalado.",
+          "method": "Cotar centros, projeções e diâmetros dos pontos; posição do peitoril e giro da janela. Se tanque/sifão já instalados, mapear seus volumes e acesso.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Recortes, painel removível e envelope hidráulico real.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P14-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Faixa livre frontal e percurso de retirada para manutenção.",
+          "method": "Cotar obstáculos instalados diante do móvel e a distância aos vizinhos; testar gabarito do conjunto aprovado.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Acesso ao cesto e às conexões. Escolha do mecanismo e ensaio de saco/armação são projeto/oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P14-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-LAVANDERIA",
+          "id": "P14-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Consolidar exclusões de mecanismo",
+          "decision": "FGVTN não fornece esta aplicação; Hailo de extração e Sige largo/profundo excluídos. Marathon35L é estudo de conjunto completo, não aprovação de braços avulsos.2 pivôs e1 sistema de controle são necessidades funcionais, ainda sem SKU validado.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Escolher material e construção da armação;15,134kg móveis e38,73Nm são cenário com roupa8kg e densidade900, antes de saco/pivôs/pega.",
+        "Obter mecanismo ensaiado para55°, carga variável e desenho aberto/fechado com fixações. FGVTN já excluiu fornecimento desta aplicação.",
+        "Marathon04-LHF450-35-W é conjunto completo de comparação, não autorização para usar seus braços com saco/frente atuais. HDS-10H24,5–29,4Nm/90° não comprova esta aplicação.",
+        "Compatibilizar produto real do tanque/cuba e hidráulica; reserva geométrica não autoriza recorte.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Seleção do tanque/cuba e hidráulica. Não converter reserva de volume útil 380×350×200 em capacidade garantida. Pivôs/cesto em estudo articulado.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P15": {
+      "name": "Aéreo lavanderia",
+      "fieldChecks": [
+        {
+          "measure": "Janela, aquecedor, tubulações e pontos existentes na faixa do aéreo.",
+          "method": "Cotar extremos e centros a partir de piso/parede acabados; registrar giro da janela e os acessos do aquecedor instalado.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Cota de montagem, aberturas e acesso técnico.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P15-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Percurso real do varal e afastamentos na instalação.",
+          "method": "Registrar posição e altura do conjunto instalado ou dos pontos existentes; testar trajetórias sem substituir limites do manual.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Interferências entre varal, aéreo e janela.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P15-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-LAVANDERIA",
+          "id": "P15-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar quantidade e deixar reforço fora de campo",
+          "decision": "4 dobradiças. Base799×312×18 e4,78mm sob20kg são cenário, não carga. Reforço/ligação/fundo é projeto e ensaio de oficina.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Base799 ×312 ×18:4,78mm sob20kg é cenário, não carga. Dimensionar reforço ou ligação estrutural com fundo/suspensão preservando o vão.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Cenário de base somente nas laterais dá 4,78 mm imediata para 20 kg. Reforço ou suspensão/ligação com fundo dimensionada, antes de limitar carga.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P16": {
+      "name": "Gaveteiro escritório",
+      "fieldChecks": [
+        {
+          "measure": "Altura sob bancada instalada e curso livre diante dos gaveteiros.",
+          "method": "Cotar intradorso e reforços existentes desde o piso; registrar obstáculo frontal, cadeira e sofá na posição real de uso quando presentes.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Instalação, extração e retirada das gavetas. Compatibilidade MOVENTO/caixa e reforços novos é oficina/projeto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P16-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Escolher continuidade documental MOVENTO",
+          "decision": "2 pares760H4000S +2engates esquerdos e2direitosT51.7601; não somar FGVTN400 nem TIP-ON. FGVTN400 demanda420mm frente aos412mm existentes. A montagemMOVENTO tem conflitos de datum/gancho ainda técnicos.",
+          "source": "01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Corrigir datum/recortes sem apagar interferências por tentativa: conflitos0,125–0,175mm no fundo e1,902mm³ no gancho direito registrados.",
+        "Resolver reserva superior de retirada e coordenar as duas caixas com tampo/estrutura; diferença pequena não equivale a tolerância aprovada.",
+        "Escolher MOVENTO400 ou varianteFGVTN400; quantitativos são alternativas e não somam4pares.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Variante de traseira 20 e folgas da corrediça no estudo de gavetas; preservar compatibilidade com estrutura da bancada.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
+        "Arenza aprovado explicitamente nas frentes; padrão comercial da face lateral aparente da caixa não individualizado. wood é referência CAD."
+      ]
+    },
+    "P17": {
+      "name": "Aéreo escritório",
+      "fieldChecks": [
+        {
+          "measure": "Faixa livre da parede, prumo e tomadas do aéreo do escritório.",
+          "method": "Medir largura e alturas nos extremos; cotar tomada por centro/contorno e obstáculos instalados.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Cota de montagem e ancoragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P17-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Altura ocupada por monitores/equipamentos existentes sob o aéreo.",
+          "method": "Registrar os envelopes reais e a posição de uso em relação à bancada instalada.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Conferência de acesso/giro. Se os produtos não estão instalados, sua seleção/dimensão é conferência de produto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P17-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-ESCRITORIO",
+          "id": "P17-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Conservar quantitativo e distribuição",
+          "decision": "8 dobradiças; vãos482/464/482/464. Divisórias não chegam ao piso: caminho de carga e suspensão são decisões de projeto, mesmo depois de medir parede.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Dimensionar distribuição de carga, suspensão e ligações dos quatro vãos482/464/482/464; não somar capacidades de suspensores sem distribuição.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Divisórias 18 não equivalem a montantes até piso: carga depende das ligações e da suspensão. Não somar capacidade das ferragens sem distribuição.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
+      ]
+    },
+    "P18": {
+      "name": "Gabinete banheiro BC43",
+      "fieldChecks": [
+        {
+          "measure": "Parede, intradorso da pedra e hidráulica existentes do banheiro.",
+          "method": "Cotar centros/projeções de engates e sifão; largura/profundidade acabadas e altura inferior da pedra nos dois lados.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Recortes e instalação. O recorte Ø100 do estudo não é ordem de corte.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P18-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Percurso frontal de retirada do quadro junto ao vaso e à porta.",
+          "method": "Cotar obstáculos e giro da porta; testar gabarito do quadro inteiro na trajetória de saída, com acesso à ferramenta nos quatro M6.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Manutenção sem desmontar a pedra; preservar a junta removível sem cola.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P18-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-BANHO",
+          "id": "P18-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar conjunto BC43 sem ferragens históricas",
+          "decision": "4Confirmat7×50;8cavilhasØ8×30 em duas funções;4M6×100;4porcastransversais;2kitsRO25;4trilhosRM026×564;24parafusosRO25. Carros/guias incluídos. Altura frontal507mm, não509;4dobradiças de abrir antigas excluídas.",
+          "source": "01_Projeto/Estudo_interativo/fabrication/hardware-audit.json",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Validar resistência do conjunto removível, porcas/cavilhas e suspensão no material escolhido;30kgRO25não é capacidade do gabinete.",
+        "Conferir variante sobreposta/embutida RO25 e desenho real antes de usinar cavidadeØ32×10 e pilotos ilustrativos.",
+        "Fechar comprimento útilM6, retenção dos batentes, acabamento de bordas/cavas/furos e ferramenta compacta nos acessos.",
+        "Definir produto hidráulico e acesso; recorteØ100 do sifão de referência é cenário e não ordem de corte.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Abertura frontal 507 não é altura útil 509 de versões anteriores. Hidráulica e frente removível M6 dependem de estudo BC43. Não usar Modulo017 histórico oculto.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
+        "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir."
+      ]
+    },
+    "P19": {
+      "name": "Espelheiro",
+      "fieldChecks": [
+        {
+          "measure": "Posição instalada da cuba/torneira e faixa livre do espelheiro.",
+          "method": "Cotar centro e volume ocupado pela torneira, cota da cuba e extremos livres; conferir giro com gabarito de frente.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Altura de instalação e colisões com as portas.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P19-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Saída elétrica e desvio da parede atrás do espelheiro.",
+          "method": "Registrar centro/contorno da saída e desvios com laser; identificar acesso de manutenção e saliências.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Iluminação, montagem e faixa de ancoragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P19-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
+          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "sharedCheckId": "PAREDE-BANHO",
+          "id": "P19-CAMPO-R14-3",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar oito apoios e desenho proposto",
+          "decision": "8Häfele282.04.711, não.712, para2prateleiras560×104×18; furoØ5×8,5 proposto; folgas2mm. Coordenadas existem emEspelheiro_pinos.json; eixo da cabeça/tolerâncias e carga são conferência de produto, não campo.",
+          "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
+        "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
+        "Definir carga das prateleiras rasas e validar retenção/adesivo do vidro4mm independentemente da dobradiça.",
+        "Não transferir80kg publicados para4pinos à capacidade da chapa; confirmar furação, eixo da cabeça e acabamento do SKU.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
+        "Não usar material mirror como acabamento integral das chapas FrenteComumR019/R020: vidro frontal e substrato de madeira são camadas distintas.",
+        "Oito apoios .711 cabem no estudo separado. Resistência da chapa estreita limita carga; ancoragem da caixa na parede desconhecida.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
+        "Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais."
+      ]
+    },
+    "P20": {
+      "name": "Banco baú",
+      "fieldChecks": [
+        {
+          "measure": "Nível do piso, prumo da parede e encontro real com o sofá.",
+          "method": "Registrar desníveis sob a base, desvios da parede e obstáculos instalados em planta e elevação.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Assentamento, arremates e implantação do banco.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P20-CAMPO-R14-1",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        },
+        {
+          "measure": "Percurso disponível para abrir as duas tampas e acessar o baú.",
+          "method": "Usar gabaritos das tampas/almofadas aprovados em oficina, na posição de uso; registrar obstáculos da sala.",
+          "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
+          "affects": "Abertura e manutenção. Eixo Southco, torque, espuma, bolsões e ferragem real são decisões/ensaios de oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "value": null,
+          "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
+          "id": "P20-CAMPO-R14-2",
+          "sources": [
+            "01_Projeto/Estudo_interativo/fabrication/finish-audit.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+          ]
+        }
+      ],
+      "closeableFromLocalEvidence": [
+        {
+          "topic": "Fechar contagem sem antecipar homologação",
+          "decision": "2Southco6110 para tampa971 +2Southco695 para825. Padrão oficial da folha:46±0,2mm e preparaçãoØ6,7+0,1; não fechar coordenada do eixo a partir de20,3mm/2. SentidoF0 é inferência até montagem real. Massa móvel0,5kg antiga já superada.",
+          "source": "01_Projeto/Southco_banco_R47_2026-10-23/Geometria_fabricante.md",
+          "status": "documental/dimensional; não libera fabricação por si"
+        }
+      ],
+      "technicalChecksToKeepSeparate": [
+        "Obter CAD/medida oficial da distância eixo–face, envelope montado e identificação inequívoca do sentidoF0/R0. Não usar20,3/2nem escala de imagem como cota de eixo.",
+        "Recalcular torque com massa e centro de gravidade móveis: NBK publica181g/180g por conjunto;2dobradiças6110+contraplacas somam688,56g antes de parafusos/batente, invalidando a suposição anterior de0,5kgcomo valor fechado.",
+        "Dimensionar dobramento/solda, receptores, roscas, classe/torqueM6, madeira e apoio local; verificar batente por impacto e ligações completas.",
+        "Ajustar bolsões provisórios e batente ao CAD real sem reduzir armazenamento; verificar revestimento e conforto, sem inferir comportamento da espuma.",
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Estrutura, ligações, eixos e retenção das duas tampas devem seguir revisão R47; a menção Rockler da matriz é histórica e foi superada.",
+        "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
+        "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
+        "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
+        "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
+        "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
+        "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+      ]
+    }
+  }
+}

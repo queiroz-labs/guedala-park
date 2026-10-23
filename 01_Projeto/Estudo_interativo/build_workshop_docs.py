@@ -19,6 +19,7 @@ def doc(id, title, category, rooms, status, summary, path):
     DOCS.append(dict(id=id,title=title,category=category,rooms=rooms.split(','),status=status,summary=summary,path=path))
 
 doc('dossie','Guia do montador','Começar','all','Consolidado','Medidas, ferragens, acabamentos e pendências por módulo.','05_Entregas/Dossie_marcenaria_R45.html')
+doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','R14','FreeCAD R45, fichas técnicas R14, planta cotada e instruções de abertura em um ZIP.','05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip')
 doc('matriz','Medidas dos 20 módulos','Medidas','all','Nominal','Vãos internos em milímetros e o que falta fechar.',R45+'Inventario/Matriz_20_modulos.md')
 doc('interfaces','Uniões entre chapas','Montagem','all','Em estudo','171 contatos nominais; ligação e caminho da carga a definir.',R45+'Inventario/Interfaces_retangulares.md')
 doc('fixas','Ferragens fixas e suspensão','Ferragens','all','Candidatas','Pinos, conectores, suportes e restrições de montagem.',R45+'Inventario/Ferragens_fixas.md')
@@ -50,6 +51,7 @@ doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido'
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','05_Entregas/Planta_cotada_R13/index.html')
 
 ASSETS = [
+    '05_Entregas/Compartilhar_R14/manifest.json',
     '05_Entregas/Planta_cotada_R13/Planta_cotada.svg',
     '05_Entregas/Planta_cotada_R13/Planta_oficial.png',
     '05_Entregas/Planta_cotada_R13/Cotas.json',
@@ -134,6 +136,7 @@ def write_sources():
     guidance={r['id']:dict(hardware=HARDWARE[r['id']],pending=[r['pending'],'Conferir medidas de campo, material efetivo, bordas, furação e ligações antes do corte.'],finish=finish(r['id']),documentIds=list(dict.fromkeys(['matriz','fixas']+EXTRA_DOCS[r['id']]))) for r in rows}
     for code,f in FABRICATION.items():
         guidance[code].update(fabrication=f,finish=f['finishSummary'],pending=f['technicalChecks'])
+        guidance[code]['hardware']=[r['item']+': '+str(r.get('reference') or 'definição específica na ficha')+' · '+r['status'] for r in f['hardwareRows']]
         guidance[code]['documentIds'].insert(0,'ficha-'+code)
         guidance[code]['documentIds'].append('acabamentos-r13')
     (STUDY/'src/workshop-docs.js').write_text('/* Fontes explícitas. Medidas nominais; não constitui liberação para fabricação. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n',encoding='utf-8')
@@ -148,7 +151,7 @@ def write_sources():
     for d in DOCS[1:]:
         body+='<p>'+('<a href="../'+d['path']+'">'+escape(d['title'])+'</a>' if d['path'] else '<strong>'+escape(d['title'])+'</strong>')+' — '+escape(d['status'])+'. '+escape(d['summary'])+'</p>'
     if FABRICATION:
-        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R13</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao_R13/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao_R13/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
+        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao_R13/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao_R13/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
         for code,f in FABRICATION.items():
             body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao_R13/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
     (ROOT/'05_Entregas/Dossie_marcenaria_R45.html').write_text(page('Guedala Park · guia do montador',body),encoding='utf-8')
@@ -157,11 +160,13 @@ def build():
     global FABRICATION
     generated=runpy.run_path(str(STUDY/'build_fabrication.py'))
     FABRICATION,assets=generated['build']()
+    runpy.run_path(str(STUDY/'build_share_package.py'))['build']()
     base='05_Entregas/Fichas_fabricacao_R13/'
-    doc('fichas','Fichas completas dos 20 móveis','Começar','all','R13','Medidas, vistas, peças, acabamentos, ferragens e montagem.',base+'index.html')
+    doc('fichas','Fichas completas dos 20 móveis','Começar','all','R14','Medidas, peças, acabamentos, ferragens selecionadas e furação rastreável.',base+'index.html')
+    doc('pendencias-r14','O que falta · projeto, oficina e apartamento','Começar','all','R14','Próximos passos separados por etapa, com decisões e fontes nas fichas.',base+'Pendencias.html')
     doc('campo','O que medir no apartamento','Levantamento','all','Preencher em campo','Folha por móvel: dimensões físicas, instalações, níveis e paredes.',base+'Levantamento.html')
     for code,f in FABRICATION.items():
-        doc('ficha-'+code,code+' · '+f['name'],'Ficha de montagem',f['room'],'R13','Ficha imprimível, peças CSV e fechamentos técnicos.',base+code+'.html')
+        doc('ficha-'+code,code+' · '+f['name'],'Ficha de montagem',f['room'],'R14','Ferragens, furação com referências, peças CSV e próximas conferências.',base+code+'.html')
     ASSETS.extend(base+p for p in assets)
     ASSETS.append(base+'manifest.json')
     write_sources()

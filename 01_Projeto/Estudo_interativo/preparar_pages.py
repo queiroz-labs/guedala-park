@@ -26,7 +26,7 @@ for source, destination, image_path in [
 
 shutil.copyfile(root / '03_Referencias/Moodboard_visual_atualizado_R01.png', site / 'moodboard.png')
 (site / '.nojekyll').write_text('', encoding='utf-8')
-(site / 'versao.json').write_text(json.dumps({'revisao':'R13-fichas-fabricacao-R45','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+(site / 'versao.json').write_text(json.dumps({'revisao':'R14-ferragens-furacoes-R45','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
 
 
 expected = {'index.html', 'moodboard/index.html', 'moodboard.png', '.nojekyll', 'versao.json'}

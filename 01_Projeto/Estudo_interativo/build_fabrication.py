@@ -1,7 +1,11 @@
-"""Fichas R13: fonte CAD preservada, evidência documental e campo separados."""
+"""Fichas R14: fonte CAD preservada, evidência documental e campo separados."""
 from pathlib import Path
 from html import escape as esc
 import json,re,csv,io
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+import technical_details as tech
+import drilling_drawings
 
 STUDY=Path(__file__).resolve().parent
 ROOT=STUDY.parent.parent
@@ -18,7 +22,7 @@ def table(headers,rows): return '<div class="table-scroll"><table><thead><tr>'+'
 
 CSS='''*{box-sizing:border-box}body{font:15px/1.55 system-ui,sans-serif;color:#263c35;background:#f7f6f1;margin:0}main{max-width:1160px;margin:auto;padding:32px 28px}h1{font:38px/1.15 Georgia;margin:12px 0}h2{font:25px Georgia;margin:30px 0 14px}h3{font-size:16px}p{max-width:920px}.eyebrow,small{font-size:12px;color:#617269}.top,.nav,.metrics,.cards{display:flex;gap:14px;flex-wrap:wrap}.top{justify-content:space-between}a{color:#265647;text-underline-offset:3px}button,.action{padding:10px 15px;border:1px solid #c7cec4;border-radius:8px;background:white;font:inherit;color:inherit}.metrics>div{padding:16px 20px;background:white;border-radius:10px;min-width:150px}.metrics b{display:block;font:28px Georgia}.metrics span{font-size:12px}.note{padding:14px 18px;border-left:3px solid #b38d49;background:#f1ebdd}.panel{background:#fffefa;padding:20px 24px;margin:18px 0;border:1px solid #dce1d7;border-radius:12px}.table-scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:12px}th,td{border-bottom:1px solid #dce1d7;text-align:left;padding:9px 8px;vertical-align:top}th{background:#e9eee5}td small{display:block;font-size:10px}.tag{display:inline-block;border-radius:20px;padding:3px 9px;background:#e5ece1;font-size:11px}.cards{display:grid;grid-template-columns:repeat(3,1fr)}.card{display:block;text-decoration:none;background:white;border:1px solid #dce1d7;border-radius:10px;padding:18px}.card h3{font:22px Georgia;margin:8px 0}.drawing{width:100%;height:auto;max-height:480px}details summary{cursor:pointer;padding:10px 0;font-weight:600}input{border:0;border-bottom:1px solid #84988c;width:130px;padding:8px;background:white}li{margin:7px 0}footer{border-top:1px solid #c7cec4;margin-top:32px;padding-top:15px;font-size:11px;color:#617269}@media(max-width:650px){main{padding:20px 16px}h1{font-size:30px}.cards{grid-template-columns:1fr}.panel{padding:15px}.metrics{gap:8px}.metrics>div{min-width:0;flex:1;padding:10px}.metrics b{font-size:22px}table{min-width:590px}.drawing{min-height:200px}}@media print{body{background:white;font-size:10pt}main{padding:0;max-width:none}.no-print{display:none!important}.panel{border:0;border-radius:0;padding:0;margin:15px 0}.metrics>div{padding:5px 15px 5px 0}.table-scroll{overflow:visible}table{font-size:8pt;min-width:0!important}thead{display:table-header-group}tr{break-inside:avoid}.drawing{max-height:290px}h2,h3{break-after:avoid}h1{font-size:25pt}.note{padding:7px}.cards{grid-template-columns:repeat(2,1fr)}a{color:inherit;text-decoration:none}input{background:white}details>*{display:block}footer{font-size:8pt}}'''
 
-def page(title,body): return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+text(title)+'</title><style>'+CSS+'</style></head><body><main>'+body+'</main></body></html>'
+def page(title,body): return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+text(title)+'</title><style>'+CSS+tech.CSS+'</style></head><body><main>'+body+'</main></body></html>'
 
 def diagram(module,parts,frame):
     # Project each panel's local bounding box. These are explicit envelope diagrams,
@@ -50,6 +54,7 @@ def diagram(module,parts,frame):
 
 def build():
     DEST.mkdir(parents=True,exist_ok=True)
+    revision=tech.load_revision()
     raw=(STUDY/'src/cad-data.js').read_text(encoding='utf-8');cad=json.loads(raw.split('const CAD_DATA=',1)[1].rstrip(';\n'))
     frames=json.loads((DATA/'module-frames.json').read_text(encoding='utf-8'));assert frames['sha256']==cad['source_sha256']
     hw=json.loads((DATA/'hardware-audit.json').read_text(encoding='utf-8'))
@@ -71,7 +76,15 @@ def build():
         technical=list(dict.fromkeys(h.get('technicalChecks',[])+f.get('technicalChecks',[])))
         assembly=list(dict.fromkeys(f.get('assembly',[])+h.get('assembly',[])))
         g=dict(code=code,name=m['name'],room=m['room'],dimensions=m['dimensionsLocal'],internalMeasures=matrix[code],panels=panels,hardwareRows=h['hardwareRows'],finishSummary=f['finishSummary'],finishSpecs=f.get('finishSpecs',[]),fieldChecks=fields,technicalChecks=technical,assembly=assembly,sources=list(dict.fromkeys(h.get('sources',[])+f.get('sources',[]))),sheetPath=f'05_Entregas/Fichas_fabricacao_R13/{code}.html',drawingPath=f'05_Entregas/Fichas_fabricacao_R13/{code}.svg')
+        tech.apply_revision(g,revision)
+        technical=g['technicalChecks'];fields=g['fieldChecks'];assembly=g['assembly']
         modules[code]=g
+        assets.append(tech.write_drilling_csv(g,DEST))
+        if g.get('drawings'):
+            filename=code+'-furacao.svg'
+            (DEST/filename).write_text(drilling_drawings.render(g['drawings'],code),encoding='utf-8')
+            assets.append(filename)
+            g['drillingDrawingPath']='05_Entregas/Fichas_fabricacao_R13/'+filename
         (DEST/f'{code}.svg').write_text(diagram(m,parts,frames['frames'][code]),encoding='utf-8');assets.append(f'{code}.svg')
         headers=['ID CAD','Peça','Qtd','C nominal mm','L nominal mm','Esp. envelope mm','Referência CAD','Especificação documental','Contorno','Bordas/veios/usinagem','Acabamento parcial']
         rows=[[p['id'],p['name'],1,*p['dimensions'],p['cadMaterial'],p['specifiedMaterial'] or 'Ver regra de acabamento da ficha','Retangular' if p['rectangular'] else 'Recortado/especial','Detalhamento técnico por peça; não descontado do envelope',p['remainingFinish'] or ''] for p in panels]
@@ -79,28 +92,37 @@ def build():
         hardware_rows=[[text(r.get('quantity'))+' '+text(r.get('unit','')),text(r['item'])+'<small>'+text(r.get('reference'))+'</small>',text(r['status']),text(r.get('assembly',''))] for r in g['hardwareRows']]
         parts_rows=[[text(p['id'])+'<small>'+text(p['name'])+'</small>','1',text(mm(p['dimensions'][0]))+' × '+text(mm(p['dimensions'][1])),text(mm(p['thickness'])),text(p['specifiedMaterial'] or p['cadMaterial'])+'<small>'+('Documento vigente' if p['specifiedMaterial'] else 'Referência CAD; confrontar acabamento acima')+'</small>'+('<small>Parcial: '+text(p['remainingFinish'])+'</small>' if p['remainingFinish'] else ''),'Retangular' if p['rectangular'] else 'Recortado/especial'] for p in panels]
         finish_rows=[[text(r['area']),text(r['material']),text(r['status'])] for r in g['finishSpecs']]
-        body=f'<div class="top no-print"><a href="index.html">← Todas as fichas</a><a href="Levantamento.html#{code}">Medições deste móvel ↗</a></div><p class="eyebrow">{code} · {ROOMS[m["room"]]} · FICHA R13 / MODELO R45 · mm</p><h1>{text(m["name"])}</h1><p class="no-print nav"><button onclick="window.print()">Imprimir / salvar PDF</button><a class="action" href="{code}-pecas.csv" download>Baixar peças CSV</a></p><div class="metrics">'+''.join(f'<div><b>{mm(v)}</b><span>{label} · mm</span></div>' for v,label in zip(g['dimensions'],['Largura','Profundidade','Altura']))+'</div><p class="eyebrow">Envelope nominal do conjunto, incluindo componentes e reservas. Peças abaixo têm medidas próprias.</p>'
+        body=f'<div class="top no-print"><a href="index.html">← Todas as fichas</a><a href="Levantamento.html#{code}">Medições deste móvel ↗</a></div><p class="eyebrow">{code} · {ROOMS[m["room"]]} · FICHA R14 / MODELO R45 · mm</p><h1>{text(m["name"])}</h1><p class="no-print nav"><button onclick="window.print()">Imprimir / salvar PDF</button><a class="action" href="{code}-pecas.csv" download>Baixar peças CSV</a></p><div class="metrics">'+''.join(f'<div><b>{mm(v)}</b><span>{label} · mm</span></div>' for v,label in zip(g['dimensions'],['Largura','Profundidade','Altura']))+'</div><p class="eyebrow">Envelope nominal do conjunto, incluindo componentes e reservas. Peças abaixo têm medidas próprias.</p>'
+        body+='<p class="revision-summary">'+text(g['technicalSummary'])+'</p><nav class="sheet-nav no-print"><a href="#definido">Definições</a><a href="#furacao">Furação</a><a href="#pecas">Peças</a><a href="#proximos">O que falta</a></nav>'
+        body+='<section id="definido" class="panel"><h2>Definido para este móvel</h2>'+tech.choices_html(g)+'</section>'
         body+=f'<img class="drawing" src="{code}.svg" alt="{code}: esquema dimensional de envelopes em três projeções"><div class="panel"><h2>Medidas internas e encontros</h2><p>{text(g["internalMeasures"])}</p></div>'
         body+='<div class="panel"><h2>Acabamentos</h2><p>'+text(g['finishSummary'])+'</p>'+table(['Aplicação','Material / acabamento','Situação'],finish_rows)+'<p class="eyebrow">A especificação documental vigente prevalece sobre cores antigas do modelo. Código comercial não informado permanece a definir.</p></div>'
-        body+='<div class="panel"><h2>Peças e espessuras</h2>'+table(['ID / peça','Qtd.','C × L · mm','Esp. · mm','Material','Forma'],parts_rows)+'<p class="eyebrow">C e L são as duas maiores dimensões do envelope local, sem indicar sentido do veio. Espessura é a menor dimensão geométrica. Recortes e furação não podem ser recuperados destas três medidas. Fita de borda e folgas não foram descontadas; lista nominal, não plano de corte.</p></div>'
+        body+='<div class="panel" id="pecas"><h2>Peças e espessuras</h2>'+table(['ID / peça','Qtd.','C × L · mm','Esp. · mm','Material','Forma'],parts_rows)+'<p class="eyebrow">C e L são as duas maiores dimensões do envelope local, sem indicar sentido do veio. Espessura é a menor dimensão geométrica. Recortes e furação não podem ser recuperados destas três medidas. Fita de borda e folgas não foram descontadas; lista nominal, não plano de corte.</p></div>'
         body+='<div class="panel"><h2>Ferragens e ligações</h2>'+table(['Qtd.','Ferragem / referência','Situação','Montagem / conferência'],hardware_rows)+'<p class="eyebrow">Quantidade de referência não equivale a compra liberada. Itens candidatos conservam seu status até fechar compatibilidade.</p></div>'
-        body+='<div class="panel"><h2>Roteiro de montagem e compatibilização</h2>'+ul(assembly)+'</div><div class="panel"><h2>Fechamentos técnicos deste móvel</h2><p>Tratáveis com projeto, marcenaria ou fabricante; não dependem de medir o apartamento.</p>'+ul(technical)+'</div>'
+        body+='<section class="panel" id="furacao"><h2>Furação e fixação</h2>'+tech.drilling_html(g)+'</section>'
+        body+='<div class="panel"><h2>Roteiro de montagem e compatibilização</h2>'+ul(assembly)+'</div><section class="panel" id="proximos"><h2>Fechamentos técnicos deste móvel</h2>'+tech.gates_html(g)+'</section>'
         body+=f'<div class="note"><b>Medição no apartamento, em folha separada</b><p>{len(fields)} conferências para este móvel. <a href="Levantamento.html#{code}">Abrir levantamento de campo →</a></p></div>'
-        body+='<details><summary>Rastreabilidade documental</summary>'+ul(g['sources'])+'</details><footer>Ficha R13 · 23/10/2026 · CAD R45 SHA256 '+cad['source_sha256']+'<br>Pronta para consulta e compatibilização. Liberação de fabricação exige resolver os fechamentos técnicos e as cotas de campo aplicáveis.</footer>'
+        body+='<details><summary>Rastreabilidade documental</summary>'+ul(g['sources'])+'</details><footer>Ficha R14 · 23/10/2026 · CAD R45 SHA256 '+cad['source_sha256']+'<br>Pronta para consulta e compatibilização. Liberação de fabricação exige resolver os fechamentos técnicos e as cotas de campo aplicáveis.</footer>'
         (DEST/f'{code}.html').write_text(page(code+' · '+m['name'],body),encoding='utf-8')
-    index='<p class="eyebrow">GUEDALA PARK · FICHAS DE MARCENARIA R13</p><h1>Uma ficha para cada móvel.</h1><p>Medidas, peças, acabamento e ferragens no mesmo documento. As medições do apartamento estão em uma folha separada.</p><p class="nav"><a class="action" href="Levantamento.html">Abrir levantamento no apartamento</a></p><div class="cards">'
+    index='<p class="eyebrow">GUEDALA PARK · FICHAS DE MARCENARIA R14</p><h1>Uma ficha para cada móvel.</h1><p>Medidas, peças, acabamento e ferragens no mesmo documento. As medições do apartamento estão em uma folha separada.</p><p class="nav"><a class="action" href="Levantamento.html">Abrir levantamento no apartamento</a></p><div class="cards">'
     for code,g in modules.items():
         index+=f'<a class="card" href="{code}.html"><span class="eyebrow">{code} · {ROOMS[g["room"]]}</span><h3>{text(g["name"])}</h3><p>{" × ".join(mm(v) for v in g["dimensions"])} mm</p><small>{len(g["panels"])} peças · ferragens · acabamento · montagem</small></a>'
-    index+='</div><p class="note">As fichas distinguem especificação documentada, referência do modelo e alternativa técnica. Fechamentos de materiais, usinagens e ligações permanecem na ficha; não foram transferidos para a medição de campo.</p>'
-    (DEST/'index.html').write_text(page('Fichas de marcenaria R13',index),encoding='utf-8')
+    index+='</div><p class="note">Revisão R14: consulte as definições e a furação de cada móvel. Projeto, prova de oficina e medição no apartamento têm listas separadas. Seleção de ferragem não equivale a liberação de usinagem.</p><p><a href="Pendencias.html">Ver próximos passos dos 20 móveis →</a></p>'
+    (DEST/'index.html').write_text(page('Fichas de marcenaria R14',index),encoding='utf-8')
     field='<div class="no-print"><a href="index.html">← Fichas dos móveis</a></div><p class="eyebrow">GUEDALA PARK · LEVANTAMENTO DE CAMPO</p><h1>O que medir no apartamento.</h1><p>Preencher em milímetros, com data, responsável e referência de piso acabado. Anexar fotos com régua e marcar cada ponto na planta. Estes campos são uma folha de coleta: preencher no navegador não salva os valores; imprima ou salve em PDF.</p><p>Data: __________________ Responsável: __________________</p><button class="no-print" onclick="window.print()">Imprimir / salvar PDF</button><p class="note">Material, ferragens, cargas, folgas de mecanismos e usinagem são decisões técnicas das fichas. Aqui entram apenas condições físicas existentes no apartamento.</p>'
     for code,g in modules.items():
-        field+=f'<section id="{code}" class="panel"><h2>{code} · {text(g["name"])}</h2>'+table(['Conferência','Como registrar','Afeta','Valor / observação'],[[text(c.get('measure')),text(c.get('method')),text(c.get('affects')),'<input aria-label="'+text(code+' '+c.get('measure',''))+'" placeholder="____________">'] for c in g['fieldChecks']])+'</section>'
+        field+=f'<section id="{code}" class="panel"><h2>{code} · {text(g["name"])}</h2>'+table(['Conferência','Como registrar','Afeta','Valor / observação'],[[text(c.get('measure')),text(c.get('method'))+'<small>Referência: '+text(c.get('datum'))+'</small>',text(c.get('affects')),'<input aria-label="'+text(code+' '+c.get('measure',''))+'" placeholder="____________">'] for c in g['fieldChecks']])+'<details><summary>Como conferir o levantamento</summary>'+ul(list(dict.fromkeys(c.get('acceptance','Confrontar com projeto executivo.') for c in g['fieldChecks'])))+'</details></section>'
     (DEST/'Levantamento.html').write_text(page('Levantamento no apartamento',field),encoding='utf-8')
-    package={'revision':'R13','cadRevision':'R45','source_sha256':cad['source_sha256'],'modules':modules}
+    pending='<div class="no-print"><a href="index.html">← Fichas dos móveis</a></div><p class="eyebrow">REVISÃO R14 · ETAPAS DE FECHAMENTO</p><h1>O que falta, no lugar certo.</h1><p>As escolhas de ferragens e os parâmetros disponíveis estão nas fichas. Aqui, cada móvel distingue compatibilização de projeto, conferência em oficina e levantamento físico no apartamento.</p><p class="note">A seleção das dobradiças Blum substitui alternativas de orçamento ainda abertas. Recotar essa família antes da compra; esta revisão não confirma o total do orçamento anterior.</p>'
+    for code,g in modules.items():
+        pending+='<section class="panel" id="'+code+'"><h2><a href="'+code+'.html">'+code+' · '+text(g['name'])+'</a></h2><p>'+text(g['technicalSummary'])+'</p>'+tech.gates_html(g)+'</section>'
+    (DEST/'Pendencias.html').write_text(page('Próximos passos · R14',pending),encoding='utf-8')
+    (DEST/'Tecnica_R14.json').write_text(json.dumps(revision,ensure_ascii=False,indent=2),encoding='utf-8')
+    assets.append('Tecnica_R14.json')
+    package={'revision':'R14','cadRevision':'R45','source_sha256':cad['source_sha256'],'modules':modules}
     (STUDY/'src/fabrication-data.js').write_text('const FABRICATION_DATA = '+json.dumps(package,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
-    (DEST/'manifest.json').write_text(json.dumps({'modules':20,'panels':sum(len(g['panels']) for g in modules.values()),'files':['index.html','Levantamento.html']+[c+'.html' for c in modules]+assets},indent=2),encoding='utf-8')
-    print('Fichas R13: 20 módulos; '+str(sum(len(g['panels']) for g in modules.values()))+' painéis; levantamento separado.')
+    (DEST/'manifest.json').write_text(json.dumps({'revision':'R14','modules':20,'panels':sum(len(g['panels']) for g in modules.values()),'files':['index.html','Levantamento.html','Pendencias.html']+[c+'.html' for c in modules]+assets},indent=2),encoding='utf-8')
+    print('Fichas R14: 20 módulos; '+str(sum(len(g['panels']) for g in modules.values()))+' painéis; levantamento separado.')
     return modules,assets
 
 if __name__=='__main__':build()

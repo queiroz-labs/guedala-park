@@ -1,0 +1,782 @@
+[
+  {
+    "module": "P02",
+    "partId": "FrenteSimplesR04",
+    "width": 271.0,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 21.5,
+        "y": 50.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "FuroSimplesR04"
+      },
+      {
+        "x": 21.5,
+        "y": 254.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "FuroSimplesR001"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P02",
+    "partId": "FrenteSimplesR001",
+    "width": 271.0,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+Y local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada Y do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 21.5,
+        "y": 50.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "FuroSimplesR002"
+      },
+      {
+        "x": 21.5,
+        "y": 254.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "FuroSimplesR003"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P04",
+    "partId": "FrenteComumR015",
+    "width": 439.75,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 417.25,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR031"
+      },
+      {
+        "x": 417.25,
+        "y": 227.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR032"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P04",
+    "partId": "FrenteComumR016",
+    "width": 439.75,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR033"
+      },
+      {
+        "x": 22.5,
+        "y": 227.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR034"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P04",
+    "partId": "FrenteComumR017",
+    "width": 440.25,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 417.75,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR035"
+      },
+      {
+        "x": 417.75,
+        "y": 227.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR036"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P04",
+    "partId": "FrenteVizinhaR18",
+    "width": 440.25,
+    "height": 306.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 23.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoVizinhaR18"
+      },
+      {
+        "x": 23.5,
+        "y": 227.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoVizinhaR002"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P05",
+    "partId": "FrenteComumR10",
+    "width": 322.0,
+    "height": 718.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 299.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR10"
+      },
+      {
+        "x": 299.5,
+        "y": 639.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR001"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P05",
+    "partId": "FrenteComumR001",
+    "width": 322.0,
+    "height": 718.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR002"
+      },
+      {
+        "x": 22.5,
+        "y": 639.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR003"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P09",
+    "partId": "FrenteComumR002",
+    "width": 322.0,
+    "height": 590.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 299.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR004"
+      },
+      {
+        "x": 299.5,
+        "y": 511.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR005"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P09",
+    "partId": "FrenteComumR003",
+    "width": 322.0,
+    "height": 590.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR006"
+      },
+      {
+        "x": 22.5,
+        "y": 511.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR007"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P10",
+    "partId": "FrenteComumR004",
+    "width": 270.5,
+    "height": 1016.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 248.0,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR008"
+      },
+      {
+        "x": 248.0,
+        "y": 937.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR009"
+      },
+      {
+        "x": 248.0,
+        "y": 508.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR046"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P10",
+    "partId": "FrenteComumR005",
+    "width": 270.5,
+    "height": 1016.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR010"
+      },
+      {
+        "x": 22.5,
+        "y": 937.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR011"
+      },
+      {
+        "x": 22.5,
+        "y": 508.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR047"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P11",
+    "partId": "FrenteComumR006",
+    "width": 345.5,
+    "height": 608.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 323.0,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR012"
+      },
+      {
+        "x": 323.0,
+        "y": 529.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR013"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P11",
+    "partId": "FrenteComumR007",
+    "width": 345.5,
+    "height": 608.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR014"
+      },
+      {
+        "x": 22.5,
+        "y": 529.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR015"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P12",
+    "partId": "FrenteComumR008",
+    "width": 397.5,
+    "height": 582.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 375.0,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR016"
+      },
+      {
+        "x": 375.0,
+        "y": 503.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR017"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P12",
+    "partId": "FrenteComumR009",
+    "width": 397.5,
+    "height": 582.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR018"
+      },
+      {
+        "x": 22.5,
+        "y": 503.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR019"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P15",
+    "partId": "FrenteComumR010",
+    "width": 414.5,
+    "height": 578.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 392.0,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR020"
+      },
+      {
+        "x": 392.0,
+        "y": 499.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR021"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P15",
+    "partId": "FrenteComumR011",
+    "width": 414.5,
+    "height": 578.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR022"
+      },
+      {
+        "x": 22.5,
+        "y": 499.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR023"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P17",
+    "partId": "FrenteComumR11",
+    "width": 496.0,
+    "height": 548.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 473.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR11"
+      },
+      {
+        "x": 473.5,
+        "y": 469.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR024"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P17",
+    "partId": "FrenteComumR012",
+    "width": 496.0,
+    "height": 548.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR025"
+      },
+      {
+        "x": 22.5,
+        "y": 469.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR026"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P17",
+    "partId": "FrenteComumR013",
+    "width": 496.0,
+    "height": 548.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 473.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR027"
+      },
+      {
+        "x": 473.5,
+        "y": 469.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR028"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P17",
+    "partId": "FrenteComumR014",
+    "width": 496.0,
+    "height": 548.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR029"
+      },
+      {
+        "x": 22.5,
+        "y": 469.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR030"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P19",
+    "partId": "FrenteComumR019",
+    "width": 297.0,
+    "height": 748.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 274.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR040"
+      },
+      {
+        "x": 274.5,
+        "y": 374.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR041"
+      },
+      {
+        "x": 274.5,
+        "y": 669.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR042"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  },
+  {
+    "module": "P19",
+    "partId": "FrenteComumR020",
+    "width": 297.0,
+    "height": 748.0,
+    "thickness": 18.0,
+    "face": "Face interna em que entram os canecos; eixos locais da peça CAD",
+    "orientation": "u=+X local, v=+Z local; não inferir esquerda/direita do apartamento pela orientação do esquema",
+    "origin": "Quina inferior de menor coordenada X do painel-base local; cotas desde as bordas nominais, antes de fita/tolerâncias",
+    "holes": [
+      {
+        "x": 22.5,
+        "y": 79.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR043"
+      },
+      {
+        "x": 22.5,
+        "y": 374.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR044"
+      },
+      {
+        "x": 22.5,
+        "y": 669.0,
+        "diameter": 35.0,
+        "depth": 13.0,
+        "status": "centro nominal extraído da R45; conferir primeira peça com ferragem selecionada",
+        "kind": "caneco",
+        "sourceObject": "CanecoComumR045"
+      }
+    ],
+    "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5"
+  }
+]
