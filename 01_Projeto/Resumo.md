@@ -1,3 +1,5 @@
+> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+
 # Resumo do projeto
 
 **Objetivo definido em 16/10/2026: mudar com todos os ambientes prontos.** Fechar e compatibilizar o apartamento inteiro antes da mudança, incluindo cozinha, lavanderia, sala/jantar, quarto, escritório e banheiro. Não planejar sala/escritório como etapa posterior à ocupação. Orçamentos existentes permanecem referência, sem aumento presumido; data de mudança ainda não definida. Comparação dos fornos preservada em aberto.

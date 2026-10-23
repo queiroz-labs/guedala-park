@@ -1,3 +1,5 @@
+> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+
 # Estudos e decisões
 
 **14/10 — FreeCAD atual R28, proposta solicitada:** [arquivo e cotas](Modelo_FreeCAD/04_Documentacao/Entrega_atual_R28.md). Aéreo inteiro do escritório20mm mais baixo: folga nominal ao teto20mm, sem perda de altura interna. R27 e anteriores preservadas; instalação/teto reais pendentes.
