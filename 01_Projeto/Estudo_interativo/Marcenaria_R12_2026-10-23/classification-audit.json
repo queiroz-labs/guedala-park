@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "parts": 383,
+  "panel_rows": 249,
+  "unknown_finish_panels": 128,
+  "unknown_by_module": {
+    "P01": 24,
+    "P02": 6,
+    "P04": 6,
+    "P06": 17,
+    "P07": 8,
+    "P08": 8,
+    "P14": 7,
+    "P16": 12,
+    "P17": 4,
+    "P18": 7,
+    "P19": 4,
+    "P20": 25
+  },
+  "front_colors_verified": true,
+  "original_freecad_unchanged": true
+}

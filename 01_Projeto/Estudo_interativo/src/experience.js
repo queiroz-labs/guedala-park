@@ -9,6 +9,7 @@ function uiIcon(name){
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]||paths.home}</svg>`;
 }
 const STATE_OPTIONS=[
+  {id:'benchState',key:'bench',rooms:['sala'],icon:'kitchen',title:'Estudo lateral do banco',hint:'Não agradou; retorno à guarda convencional adiado. Representação existente.',choices:[['closed','Guardada','Bandeja recolhida'],['open','Retirar pela ponta','Curso e trava a conferir']]},
   {id:'sofaState',key:'sofa',rooms:['sala'],icon:'sofa',title:'Sofá da sala',hint:'Do bate-papo ao filme no sofá.',choices:[['closed','Fechado','110 cm'],['open','Esticado','136 cm'],['storage','Abrir baú','Demonstração']]},
   {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Uma mesa que cresce para receber.',choices:[['compact','Dia a dia','150 × 75 cm'],['extended','Mesa aberta','180 × 75 cm']]},
   {id:'diningState',key:'dining',rooms:['sala'],icon:'home',title:'Cadeiras',hint:'Seis lugares com a mesa aberta.',choices:[['stored','Guardadas','3 na lateral'],['use','Em uso','Afastadas da mesa']]},
@@ -17,9 +18,9 @@ const STATE_OPTIONS=[
   {id:'dryState',key:'dry',rooms:['lavanderia'],icon:'laundry',title:'Varal',hint:'Estados ilustrativos; posição e mecanismo em estudo.',choices:[['stored','Recolhido','Sem roupas'],['high','Secando','No alto'],['low','Carregar','Na altura de uso']]}
 ];
 const SCENARIOS=[
-  {id:'daily',icon:'home',title:'Dia a dia',detail:'Tudo pronto para a rotina',values:{sofa:'closed',office:'work',table:'compact',dining:'stored',console:'sala',dry:'stored'}},
-  {id:'friends',icon:'kitchen',title:'Receber amigos',detail:'Mesa aberta e cadeiras em uso',values:{sofa:'closed',office:'work',table:'extended',dining:'use',console:'sala',dry:'stored'}},
-  {id:'guests',icon:'bed',title:'Hospedar',detail:'Escritório com a cama aberta',values:{sofa:'closed',office:'guest',table:'compact',dining:'stored',console:'sala',dry:'stored'}}
+  {id:'daily',icon:'home',title:'Dia a dia',detail:'Tudo pronto para a rotina',values:{sofa:'closed',office:'work',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}},
+  {id:'friends',icon:'kitchen',title:'Receber amigos',detail:'Mesa aberta e cadeiras em uso',values:{sofa:'closed',office:'work',table:'extended',dining:'use',console:'sala',dry:'stored',bench:'closed'}},
+  {id:'guests',icon:'bed',title:'Hospedar',detail:'Escritório com a cama aberta',values:{sofa:'closed',office:'guest',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}}
 ];
 const TOUR_STEPS=[
   ['sala','A casa se abre para receber.','Experimente esticar o sofá ou abrir a mesa nos botões abaixo do desenho. Toque em um móvel para conhecer os detalhes.'],
