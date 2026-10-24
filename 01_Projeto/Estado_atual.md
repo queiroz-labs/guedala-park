@@ -14,7 +14,7 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | FreeCAD R45, cores R16 | [Guedala_Park_R45_Cores_R16.FCStd](Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd) |
+| Modelo 3D | FreeCAD R45, cores R16, rodízios P08 | [Guedala_Park_R45_Rodizios_P08.FCStd](Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd) |
 | Fichas dos 20 móveis | R14 | [Fichas](../05_Entregas/Fichas_fabricacao_R13/index.html) · [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
 | Programa | R01 | [Programa de necessidades](Programa_de_necessidades_R01.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](Planta_mobiliada/README.md) |
@@ -24,9 +24,9 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 | Pranchas (A3, com carimbo) | R00 | [Caderno de pranchas](../05_Entregas/Caderno_pranchas_R00/index.html) · [PDF](../05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](Mapa_conectores_R00/README.md) |
 | Orçamento | R43 | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md) |
-| Site 3D | Local atualizado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) (a versão publicada ainda é anterior) |
+| Site 3D | Publicado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) · [versão online](https://queiroz-labs.github.io/guedala-park/) |
 
-As fichas R14 têm decisões que ainda não estão aplicadas ao modelo R45.
+As fichas R14 têm decisões que ainda não estão aplicadas ao modelo R45 (por exemplo, P20 com dobradiça piano e Minifix do P19); a P08 já está no modelo.
 
 ## Onde estamos
 
@@ -34,7 +34,7 @@ As fichas R14 têm decisões que ainda não estão aplicadas ao modelo R45.
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
 | Anteprojeto | 75% | Faltam códigos de chapa, tons exatos e luminárias |
-| Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, mapa de conectores e medidas reais |
+| Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores (proposta no [mapa R00](Mapa_conectores_R00/README.md)) e medidas reais |
 | Complementares | 30% | Planta de pontos preliminar; circuitos e traçados com o responsável técnico |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
 | Orçamento | 60% | Cenário de R$137,8 mil para teto de R$120 mil; pacote de marcenaria pronto, **em espera** |
@@ -46,17 +46,17 @@ Detalhes no [roteiro para projeto oficial](Roteiro_para_projeto_oficial.md).
 ## Principais decisões tomadas
 
 - **Cores:** interiores Branco TX; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
-- **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiças.
+- **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (nas fichas R14; protótipo pendente).
 - **Quarto:** roupeiro de 65 cm de profundidade com portas de correr; queen futura; apoios de celular retirados.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
 - **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box. Luz: teto/indireta 3000 K e espelho 4000 K, três comandos. [Componentes L02: R$612,64 à vista](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html); conjunto montado e instalação condicionados.
-- **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório.
+- **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix definidos (P10, P11, P15, P19).
 
 ## O que falta, em ordem
 
 1. **Antes das chaves** (dá para fazer agora):
    - concluir as luminárias dos demais ambientes na [lista curta](Lista_curta_luminarias_e_madeira_R00.md); no banheiro os componentes estão selecionados e precificados em L02, faltando prova do perfil, terminações e montagem. Chapas do banheiro: Arauco Beige Matt e Louro Freijó Poro;
-   - fechar as ferragens do banco e do cesto;
+   - banco: provar o apoio da piano na junta do encosto e os terminais dos articuladores no protótipo; cesto: fechar pivôs, limitadores a 55° e retenção;
    - pedir orçamentos de marcenaria quando o pacote sair da espera;
    - contratar o responsável técnico e enviar os [e-mails preparados](Rascunhos_emails_R00.md);
    - comprar 1 dobradiça piano e 2 pares de articuladores (~R$150) para o protótipo do banco ([preços](Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md)).

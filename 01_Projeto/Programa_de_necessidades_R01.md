@@ -110,7 +110,7 @@ O desenho correspondente está na [planta mobiliada R02](Planta_mobiliada/README
 | Uso | Escolha | Situação |
 |---|---|---|
 | Interiores dos armários | Branco TX | Escolhido; código a definir |
-| Faces aparentes | Arenza (cozinha, escritório, lavanderia), Azul Petróleo (aéreos da cozinha), off-white fosco (sala, quarto, escritório), bege fosco e madeira clara (banheiro) | Cores escolhidas; códigos e amostras pendentes |
+| Faces aparentes | Arenza (cozinha, escritório, lavanderia), Azul Petróleo (aéreos da cozinha), off-white fosco (sala, quarto, escritório); banheiro com Arauco Beige Matt nas frentes e Arauco Louro Freijó Poro nas laterais aparentes | Cores escolhidas; banheiro com códigos (24/10); demais códigos e amostras pendentes |
 | Pedra | Granito Branco Itaúnas | Escolhido |
 | Piso | Vinílico Tarkett Olmo (exceto áreas molhadas) | Preferência; comparar Aveia e Bétula na loja |
 | Pintura | Algodão Egípcio; fosca e lavável na cozinha e lavanderia | Escolhido |
@@ -120,19 +120,19 @@ O desenho correspondente está na [planta mobiliada R02](Planta_mobiliada/README
 
 Estes itens **não mudam o programa acima**: são o "como" de cada necessidade e seguem nas [pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html).
 
-- **Gaveta de limpeza P08:** produto dos seis rodízios, fixação, guia e batente.
-- **Banco P20:** dobradiça piano com suporte e trava.
+- **Gaveta de limpeza P08:** seis rodízios Leão Aço de 38 mm + espaçadores de 1 mm selecionados (24/10); fixação, guia e batente.
+- **Banco P20:** dobradiça piano com articuladores com trava, já nas fichas R14; apoio da piano e protótipo pendentes.
 - **Cesto P14:** pivôs, limitadores a 55° e retenção aberta.
 - **Gavetas:** FGVTN 500 no roupeiro; MOVENTO 400 no escritório.
 - **Aéreos e roupeiro:** suspensão e cargas.
 - **Torneira e cuba:** vedação; modelo do varal; apoios do forno e do micro-ondas.
-- **Escolhas pessoais:** códigos de chapa, tons exatos de bege/off-white, madeira clara do banheiro e modelos de luminárias.
+- **Escolhas pessoais:** códigos de chapa fora do banheiro, tom exato do off-white e modelos de luminárias dos demais ambientes.
 
 Se uma dessas decisões mudar o que um ambiente faz (tamanho, uso ou posição de um móvel), este programa ganha uma nova revisão.
 
 ## Divergências do site interativo — corrigidas em 24/10/2026
 
-Os quatro itens abaixo foram corrigidos em `Estudo_interativo/src/data.js` e `app.js`, e o site local foi reconstruído. Os apoios também saíram do desenho 3D. A versão publicada no GitHub Pages só muda quando o site for publicado de novo. As fichas R14 ainda citam a Southco nos dados técnicos do banco; elas serão revisadas quando a ferragem da dobradiça piano for selecionada.
+Os quatro itens abaixo foram corrigidos em `Estudo_interativo/src/data.js` e `app.js`, e o site local foi reconstruído. Os apoios também saíram do desenho 3D. A versão corrigida foi publicada no GitHub Pages em 24/10. As fichas R14 também foram revisadas: a P20 lista dobradiça piano e articuladores com trava, e a Southco ficou como alternativa histórica.
 
 1. "Dois apoios para celular e óculos" ainda aparece como aprovado; foram retirados em 22/10.
 2. O varal aparece "com chapa de ocultação"; a placa foi removida na R35.

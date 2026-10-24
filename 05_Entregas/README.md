@@ -2,7 +2,7 @@
 
 | Uso | Abrir | Revisão |
 |---|---|---|
-| Modelo 3D (FreeCAD) | [Guedala_Park_R45_Cores_R16.FCStd](../01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd) | Geometria R45 · cores R16 |
+| Modelo 3D (FreeCAD) | [Guedala_Park_R45_Rodizios_P08.FCStd](../01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd) | Geometria R45 · cores R16 · rodízios P08 |
 | Pacote para o montador | [Compartilhar_R16](Compartilhar_R16/Guedala_Park_R16.zip) | R16 |
 | Fichas dos 20 móveis, furação e pendências | [Fichas_fabricacao_R13](Fichas_fabricacao_R13/index.html) (conteúdo R14) | R14 |
 | Planta cotada | [Planta_cotada_R13](Planta_cotada_R13/index.html) | R13 |

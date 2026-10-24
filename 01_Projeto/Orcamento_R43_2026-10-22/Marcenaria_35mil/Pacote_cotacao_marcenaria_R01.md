@@ -46,7 +46,7 @@ Um único responsável pelo conjunto, com preço **aberto por item** no formulá
 | Cozinha (inferiores), lavanderia, escritório (bancada e gavetas), quarto, banco e prateleiras da sala | **Greenplac Arenza** |
 | Aéreos da cozinha | **Guararapes Azul Petróleo** (Matt) |
 | Aéreo do escritório, painel da TV | **Off-white fosco** (código a propor com amostra) |
-| Banheiro | **Bege fosco liso** nas frentes; **madeira clara** nas laterais (padrões a propor com amostra) |
+| Banheiro | **Arauco Beige Matt** nas frentes; **Arauco Louro Freijó Poro** nas laterais aparentes (escolhidos em 24/10; confirmar com amostra e indicar chapa adequada à área úmida) |
 | Estofados | Greige / bege claro (tecido a propor com amostra) |
 
 Frentes lisas. Os puxadores seguem o projeto: perfil de alumínio preto nos inferiores da cozinha e pegas discretas nos demais. Pedimos amostras físicas dos padrões a confirmar.

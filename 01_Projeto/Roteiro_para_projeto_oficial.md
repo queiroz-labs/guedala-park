@@ -1,6 +1,6 @@
 # Roteiro para projeto oficial de arquitetura de interiores
 
-24/10/2026. Diagnóstico documental: compara o material existente com as etapas de um projeto de interiores assinado (NBR 13532 e fluxo usual CAU). Nenhum CAD, ficha ou orçamento foi alterado.
+24/10/2026. Diagnóstico documental: compara o material existente com as etapas de um projeto de interiores assinado (NBR 13532 e fluxo usual CAU). Nenhum CAD, ficha ou orçamento foi alterado. Revisão de coerência em 24/10/2026: marcados os itens já feitos (site corrigido e publicado, README de entregas, códigos do banheiro, P08, P20 e Minifix).
 
 ## Situação geral
 
@@ -14,8 +14,8 @@
 |---|---|---|---|
 | Programa de necessidades | 100% | [Programa de necessidades R01](Programa_de_necessidades_R01.md) | Validar uso no local após as chaves |
 | Levantamento do imóvel | 25% | [Medidas](Medidas/README.md), [visita](../04_Visita_ao_apartamento/README.md) (unidade espelhada) | Vistoria completa após as chaves |
-| Estudo preliminar | 100% | [Planta mobiliada R02 e vistas](Planta_mobiliada/README.md), site 3D | Corrigir 4 textos desatualizados do site |
-| Anteprojeto | 75% | Modelo R45, [acabamentos](Estudo_interativo/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa, madeira do banheiro, bege/off-white exatos, amostras |
+| Estudo preliminar | 100% | [Planta mobiliada R02 e vistas](Planta_mobiliada/README.md), site 3D | Validar no local (os 4 textos desatualizados do site foram corrigidos e publicados em 24/10) |
+| Anteprojeto | 75% | Modelo R45, [acabamentos](Estudo_interativo/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa (o banheiro já tem Arauco Beige Matt e Louro Freijó Poro, 24/10), off-white exato, amostras |
 | Executivo de marcenaria | 45–55% | [Fichas R14](../05_Entregas/Fichas_fabricacao_R13/index.html), [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) | Ver item 4 |
 | Complementares | 30% | [Planta de pontos preliminar R00](Planta_pontos_R00/README.md): 50 pontos de elétrica, luz, água, esgoto e gás | Circuitos, traçados e assinatura do RT |
 | Pranchas formais | 45% | [Caderno de pranchas R00](../05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf): 7 pranchas A3 com carimbo (planta cotada, layout, pontos, vistas) | Elevações cotadas, detalhes da marcenaria e cotas finais após a medição |
@@ -50,12 +50,12 @@
 
 ### 4. Fechar o executivo de marcenaria
 - [ ] Desenhar a distribuição de conectores nas "ligações sem mapa" de cada módulo.
-- [ ] Incorporar as definições das fichas R14 ao modelo FreeCAD. Hoje modelo e fichas divergem.
+- [ ] Incorporar as definições das fichas R14 ao modelo FreeCAD. Hoje modelo e fichas divergem; só a P08 (rodízios) já está no modelo vigente, e o P19 está em estudo separado.
 - [ ] Fechar as montagens pendentes, conforme a [continuidade pré-entrega](Continuidade_pre_entrega_2026-10-23.md):
-  - banco P20;
+  - banco P20: dobradiça piano + articuladores com trava já nas fichas; faltam apoio da piano, terminais e protótipo;
   - cesto P14;
-  - gavetas P01/P06 (FGVTN 500) e P16 (MOVENTO);
-  - gaveta de limpeza P08.
+  - gavetas P01/P06 (FGVTN 500) e P16 (MOVENTO selecionada; corrigir interferências);
+  - gaveta de limpeza P08: rodízios Leão Aço + espaçadores de 1 mm selecionados e modelados; faltam fixação, guias e batente.
 - [ ] Dimensionar suspensão, cargas e reforços dos aéreos e do roupeiro.
 - [ ] Definir substrato, códigos de chapa, bordas e veios por peça.
 - [ ] Fazer caixas-piloto e ensaios em oficina antes do corte em série.
@@ -75,14 +75,14 @@
 
 ### 6. Uma revisão vigente única
 - [ ] Reconciliar a geometria R45, o pacote R16, as fichas R14 e o orçamento R43 numa só revisão.
-- [ ] Atualizar o [README de entregas](../05_Entregas/README.md), que ainda cita o modelo R41 como vigente.
+- [x] Atualizar o [README de entregas](../05_Entregas/README.md): desde 24/10 ele abre com "o que vale hoje"; o R41 ficou só na parte histórica.
 
 ### 7. Orçamento com preços reais
 - [ ] Cotar marcenaria e obra com escopo comparável. A marcenaria está estimada em R$46,5 mil, contra a meta de R$35 mil.
 - [x] Reconciliar as ferragens ([reconciliação](Orcamento_R43_2026-10-22/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md)); [pacote de cotação pronto](Orcamento_R43_2026-10-22/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md). As fichas usam Blum, e o orçamento usa referências FGVTN. Os Minifix somam 52 nas fichas (40 dos aéreos + 12 do espelheiro P19) e 20 no orçamento.
 
 ### 8. Organização para revisão externa (não bloqueia)
-- [ ] Separar a pasta de entrega do histórico. Hoje há `tmp` com cerca de 476 MB, várias cópias `antes_*` e revisões FCStd de 20–47 MB cada.
+- [ ] Separar a pasta de entrega do histórico. Hoje há `tmp` com cerca de 2 GB (fora do git), várias cópias `antes_*` e revisões FCStd de 20–47 MB cada.
 
 ## Esforço estimado
 
