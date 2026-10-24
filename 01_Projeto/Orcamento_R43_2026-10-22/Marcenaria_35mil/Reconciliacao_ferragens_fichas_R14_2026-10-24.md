@@ -36,23 +36,24 @@ Sobre a provisão Blum: não foi encontrado preço público em reais. No exterio
 
 **Como resolver:** pedir a cotação nas duas famílias, Blum como especificado e FGVTN equivalente com limitador, para a mesma lista de 52 posições. Se a FGVTN for escolhida, a ficha precisa ser revisada (furação do caneco, calço, limitador). Isso é decisão técnica do projeto, não troca automática.
 
-### 2.2 Minifix: 20 no orçamento × 40 com quantidade definida nas fichas
+### 2.2 Minifix: 20 no orçamento × 52 com quantidade definida nas fichas
 
 | Módulo | Minifix nas fichas |
 |---|---:|
 | P10 Aéreo C | 20 caixas Häfele 262.26.034 + 20 pinos S100 262.28.920 |
 | P11 Aéreo B | 12 + 12 |
 | P15 Aéreo da lavanderia | 8 + 8 |
-| **Subtotal com quantidade definida** | **40 conjuntos** |
+| P19 Espelheiro | 12 + 12 (mapa nominal do [fechamento do banheiro](../../Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json), 24/10) |
+| **Subtotal com quantidade definida** | **52 conjuntos** |
 | P01, P04, P12, P17 | Minifix previsto, **quantidade ainda sem mapa** |
 
-O orçamento cita 20 dentro da verba de conectores, pinos, ancoragens, batentes e fixadores (R$650–1.200). Os 20 conjuntos a mais custam pouco: cerca de R$60–140 a R$3–7 por conjunto, provisão. O risco maior são os quatro módulos ainda sem mapa.
+O orçamento cita 20 dentro da verba de conectores, pinos, ancoragens, batentes e fixadores (R$650–1.200). Os 32 conjuntos a mais custam pouco: cerca de R$96–224 a R$3–7 por conjunto, provisão. O risco maior são os quatro módulos ainda sem mapa.
 
-**Como resolver:** corrigir a memória do orçamento para "40 definidos + P01/P04/P12/P17 a mapear". Manter a verba de conectores por enquanto e pedir que a oficina cote os conectores pelo mapa final de ligações.
+**Como resolver:** corrigir a memória do orçamento para "52 definidos + P01/P04/P12/P17 a mapear". Manter a verba de conectores por enquanto e pedir que a oficina cote os conectores pelo mapa final de ligações.
 
 ### 2.3 Banco P20: 4 dobradiças Southco no orçamento × diretriz de piano com trava
 
-O orçamento tem R$2.400–4.400 para 4 Southco importadas. A [diretriz de 23/10](../../Banco_cesto_simples_2026-10-23/Diretriz.md) prioriza dobradiça piano e suporte com trava, mais simples e barata. As fichas R14 ainda listam a Southco, com contraplatinas e suportes de aço.
+O orçamento tem R$2.400–4.400 para 4 Southco importadas. A [diretriz de 23/10](../../Banco_cesto_simples_2026-10-23/Diretriz.md) prioriza dobradiça piano e suporte com trava, mais simples e barata. As fichas R14 foram revisadas em 24/10: a P20 lista piano + articuladores com trava; Southco ficou como alternativa histórica.
 
 | Cenário | Faixa |
 |---|---:|
@@ -71,9 +72,9 @@ A ficha R14 registra a escolha de 24/10: **kit Leão Aço com 6 rodízios fixos 
 | Ajuste | Efeito sobre os R$9.200 |
 |---|---:|
 | Dobradiças Blum completas | +R$1.326 a +R$2.468 |
-| 20 Minifix adicionais | +R$60 a +R$140 |
+| 32 Minifix adicionais | +R$96 a +R$224 |
 | Banco com piano + trava, se validado | −R$2.040 a −R$3.400 |
-| **Saldo** | **entre −R$2.014 e +R$568** |
+| **Saldo** | **entre −R$1.978 e +R$652** |
 
 Na prática, **trocar a Southco pela piano compensa a troca de FGVTN por Blum.** As ferragens ficam próximas dos R$9.200 atuais, mas não chegam ao limite de negociação de R$6.500. Para chegar lá, seria preciso cotar a FGVTN equivalente nas portas e conseguir um preço bom no conjunto.
 
@@ -83,7 +84,7 @@ O cenário total da marcenaria **continua em R$46.500**. Nenhum valor é atualiz
 
 O [pacote de cotação](Pacote_cotacao_marcenaria_R01.md) pede:
 - preços separados para Blum e FGVTN equivalente;
-- 40 Minifix definidos e mapeamento dos demais;
+- 52 Minifix definidos e mapeamento dos demais;
 - banco com dobradiça piano e trava, mantendo a Southco apenas como alternativa;
 - rodízios Leão Aço na P08.
 

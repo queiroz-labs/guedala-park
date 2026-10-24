@@ -29,7 +29,46 @@ SUMMARIES={
 'P17':'Blum nas quatro portas. Ligações das divisórias e distribuição da suspensão continuam específicas.',
 'P18':'RO25 no banheiro e quadro removível por quatro M6. Cavilhas e ligações permanentes ficam separadas da retirada.',
 'P19':'Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.',
-'P20':'Família Southco mantida como candidata. Eixo, sentido, torque e batente ainda bloqueiam a furação definitiva das tampas.'}
+'P20':'Diretriz de 23/10: dobradiça piano + articulador com trava em cada tampa. Protótipo de oficina, apoio da piano e terminais ainda bloqueiam a furação das tampas.'}
+
+# P20: diretriz piano + trava (Banco_cesto_simples_2026-10-23) substitui a cadeia Southco R47 nas listas ativas.
+BANCO='01_Projeto/Banco_cesto_simples_2026-10-23/'
+P20_SOUTHCO_ROWS={'Contraplatinas móveis','Suportes fixos das dobradiças','Placas receptoras fixas','Parafusos móveis',
+  'Arruelas dos parafusos móveis','Parafusos suporte–corpo','Fixadores da folha fixa de cada Southco ao suporte'}
+P20_ROWS=[
+  dict(item='Dobradiça piano das tampas 971 e 825',reference='Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54',
+       quantity=2,unit='trechos cortados de 1–2 barras',status='Proposta de cotação; protótipo pendente',
+       assembly='Um trecho na borda traseira de cada tampa. Apoio fixo e rebaixo ocultos na junta de 2 mm do encosto ainda a detalhar.',
+       sources=[{'title':'Preços e conjunto proposto R01','path':BANCO+'Precos_e_conjunto_R01.md'}]),
+  dict(item='Articuladores com trava das tampas',reference='Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça',
+       quantity=4,unit='unidades (1 par por tampa)',status='Proposta de cotação; protótipo pendente',
+       assembly='Terminais 22 mm (tampa 971) e 30 mm (tampa 825) abaixo da face inferior; posições nominais na conferência, não gabarito de furação.',
+       sources=[{'title':'Conferência nominal das ferragens simples','path':BANCO+'Conferencia/Resultado.md'}])]
+P20_CHECKS={
+  'Fornecedor: eixo–face e sentido F0/R0 do CAD ou desenho cotado exato; a cota 20,3 é envelope, não eixo.':
+    'Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.',
+  'Projeto/oficina: recalcular massa/CG com dobradiças,contraplatinas,parafusos e batente;0,5 kgdemetais móveis anterior não comprovado.':
+    'Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.',
+  'Oficina/metalurgia: fechar suportes,contraplatinas e batente independente antes dos furos das tampas; bolsas sob almofadas já autorizadas, mas dimensões finais dependem do mecanismo.':
+    'Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.'}
+
+def revise_p20(hardware,decisions,drilling,project,workshop,assembly):
+    hardware=[r for r in hardware if r['item'] not in P20_SOUTHCO_ROWS and 'Southco' not in r['item']]+[dict(r) for r in P20_ROWS]
+    decisions=[d for d in decisions if 'Southco' not in d['item']]
+    decisions.insert(0,dict(item='Mecanismo das tampas',reference='Dobradiça piano + articulador com trava por tampa',quantity=None,unit='',
+      status='Diretriz de 23/10/2026; produto e montagem pendentes',
+      reason='Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.',
+      sources=[{'title':'Diretriz banco e cesto','path':BANCO+'Diretriz.md'}]))
+    drilling=[d for d in drilling if 'Southco' not in d['item']]
+    for row in hardware+drilling+decisions:
+        for field in ['reference','fastener']:
+            if isinstance(row.get(field),str):
+                row[field]=row[field].replace('; suportes/contraplatinasM6 do estudoSouthcoR47','; apoio fixo da piano e articuladores a detalhar')
+    project=[P20_CHECKS.get(c,c) for c in project]
+    workshop=[P20_CHECKS.get(c,c) for c in workshop]
+    assembly=[s.replace('Dobradicas de atrito','Dobradiça piano e articuladores') for s in assembly if 'contraplatinas' not in s and not s.startswith('Southco e batente R47')]
+    assembly.append('Southco E6 e batente R47 permanecem em estudo separado como alternativa; não usar Rockler traseira rejeitada como especificação vigente.')
+    return hardware,decisions,drilling,project,workshop,assembly
 
 def build():
     old=read('hardware-audit.json',DATA)
@@ -109,6 +148,9 @@ def build():
           'P19':{'Prateleiras removíveis preservam folgas nominais de 2 mm; oito apoios são candidatos e ancoragem permanece a definir.':'Prateleiras removíveis preservam folgas nominais de 2 mm; oito apoios Häfele .711 selecionados. Carga da prateleira e ancoragem continuam em projeto.'}}
         assembly=[fixes.get(code,{}).get(s,s) for s in assembly]
         assembly+=m.get('assembly',[])+j.get('assembly',[])
+        if code=='P20':
+            hardware,decisions,drilling,project,workshop,assembly=revise_p20(hardware,decisions,drilling,project,workshop,assembly)
+            for i,row in enumerate(drilling,1):row['id']=f'{code}-F{i:02}'
         drawings=[]
         for draw in hinge_maps:
             if draw['module']==code:

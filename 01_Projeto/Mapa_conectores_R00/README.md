@@ -1,6 +1,6 @@
 # Mapa de conectores proposto — R00
 
-24/10/2026. **Proposta de quantidades para cotação, não programa de furação.** Cobre os quatro módulos que usam Minifix sem quantidade definida nas fichas R14: P01 Roupeiro, P04 Aéreo da cabeceira, P12 Aéreo A e P17 Aéreo do escritório. Os outros três aéreos já tinham quantidade (P10 20, P11 12, P15 8).
+24/10/2026. **Proposta de quantidades para cotação, não programa de furação.** Cobre os quatro módulos que usam Minifix sem quantidade definida nas fichas R14: P01 Roupeiro, P04 Aéreo da cabeceira, P12 Aéreo A e P17 Aéreo do escritório. Os outros três aéreos e o espelheiro já tinham quantidade (P10 20, P11 12, P15 8, P19 12).
 
 ## Regra usada
 
@@ -34,4 +34,4 @@ A lista vem da amostra de painéis retangulares das fichas. **Um encontro ausent
 
 ## Efeito no orçamento
 
-Somando os 40 Minifix já definidos (P10, P11, P15), o projeto teria cerca de **157 Minifix**, contra 20 na memória do orçamento. Em custo, a diferença é pequena: a R$1,50–3,00 por conjunto, mais Confirmat e cavilhas, fica em cerca de **R$250–550** no total. Isso cabe na verba de conectores e fixadores (R$650–1.200) da [revisão de ferragens](../Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md). O impacto maior é em **horas de furação**, que a oficina deve considerar.
+Somando os 52 Minifix já definidos (P10, P11, P15 e P19), o projeto teria cerca de **169 Minifix**, contra 20 na memória do orçamento. Em custo, a diferença é pequena: a R$1,50–3,00 por conjunto, mais Confirmat e cavilhas, fica em cerca de **R$270–590** no total. Isso cabe na verba de conectores e fixadores (R$650–1.200) da [revisão de ferragens](../Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md). O impacto maior é em **horas de furação**, que a oficina deve considerar.

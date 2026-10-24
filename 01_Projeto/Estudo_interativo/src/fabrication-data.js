@@ -20079,106 +20079,6 @@ const FABRICATION_DATA = {
       ],
       "hardwareRows": [
         {
-          "item": "Contraplatinas móveis",
-          "reference": "Aço26 ×80 ×10,2roscasM6por peça",
-          "quantity": 4,
-          "unit": "peça",
-          "status": "candidato",
-          "assembly": "Furos normais nas tampas preservam formato/espessura; não promete fixação sem furação.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Contraplatina móvel | 4 peças de aço26×80×10, X110–136 eZ390–400. Duas roscasM6 por peça, linhaX125, centrosY±23. | Fica na faixa já ocupada pelo apoio traseiro; não reduz os compartimentos. Exige quatro furos normais por tampa, sem afinar, recortar bordas ou mudar suas dimensões. | Alojamento no corpo | 27×81×10,5, apenas no fundo/sarrafo traseiro. Calço nominal0,5 no fundo do alojamento, sob a contraplatina fechada. | Rebaixo é no corpo, não na tampa. Calço restitui o apoio vertical fechado; tolerâncias, acabamento e apoio efetivo precisam ser acertados em fabricação. | Suporte fixo | Faixa de aço80×6, ligada à traseira do corpo; vista nominal recuada10 na parte superior, alojada dentro da"
-            }
-          ]
-        },
-        {
-          "item": "Suportes fixos das dobradiças",
-          "reference": "Faixa de aço80 ×6; dobra e recuo a detalhar",
-          "quantity": 4,
-          "unit": "peça",
-          "status": "candidato",
-          "assembly": "Quantidade derivada das4posições de dobradiça; recuo10é hipótese até obter eixo real.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Suporte fixo | Faixa de aço80×6, ligada à traseira do corpo; vista nominal recuada10 na parte superior, alojada dentro da reserva do encosto. | Não usa espuma como estrutura e não depende de ancoragem na parede. Exige detalhar dobra/união e compatibilizar encosto. Recuo10 é hipótese ajustável ao eixo real, não cota Southco confirmada. | Placa receptora fixa | 4 peças80×100×6, alojadas emX112–118 na traseira; quatro pontosM6 por suporte, linhasZ280/360 eY±23. | Porcas/roscas ficam contidas na madeira existente. A montagem deve anteceder o fechamento dos sarrafos. Não há porca saliente dentro do baú. | Parafusos móveis | 8M6×35 + arruelas1,6, como combinação dimensional proposta: aba4,5 + tamp"
-            }
-          ]
-        },
-        {
-          "item": "Placas receptoras fixas",
-          "reference": "Aço80 ×100 ×6",
-          "quantity": 4,
-          "unit": "peça",
-          "status": "candidato",
-          "assembly": "4pontosM6por suporte; montar antes do fechamento dos sarrafos.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Placa receptora fixa | 4 peças80×100×6, alojadas emX112–118 na traseira; quatro pontosM6 por suporte, linhasZ280/360 eY±23. | Porcas/roscas ficam contidas na madeira existente. A montagem deve anteceder o fechamento dos sarrafos. Não há porca saliente dentro do baú. | Parafusos móveis | 8M6×35 + arruelas1,6, como combinação dimensional proposta: aba4,5 + tampa20 + arruela1,6 deixam8,9 de engajamento na contraplatina10. | Restam1,1mm nominais antes da face inferior; conferir rosca útil, tolerância e ponta reais. Não constitui seleção comercial definitiva. | Parafusos do suporte ao corpo | 16M6 de montagem, receptores embutidos e folga cega para eventual ponta dentro do sarrafo. | Comprimento "
-            }
-          ]
-        },
-        {
-          "item": "Parafusos móveis",
-          "reference": "M6 ×35",
-          "quantity": 8,
-          "unit": "unidade",
-          "status": "candidato",
-          "assembly": "Combinação dimensional candidata;8,9mmnominais de rosca com aba4,5+tampa20+arruela1,6.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Parafusos móveis | 8M6×35 + arruelas1,6, como combinação dimensional proposta: aba4,5 + tampa20 + arruela1,6 deixam8,9 de engajamento na contraplatina10. | Restam1,1mm nominais antes da face inferior; conferir rosca útil, tolerância e ponta reais. Não constitui seleção comercial definitiva. | Parafusos do suporte ao corpo | 16M6 de montagem, receptores embutidos e folga cega para eventual ponta dentro do sarrafo. | Comprimento final, classe, acesso e torque de aperto pendentes. Não furar o interior por comprimento escolhido por aproximação. | Se “não mexer nas tampas” significar também não fazer qualquer furo de fixação, esta proposta não atende: os parafusos passantes precisam de furos. O e"
-            }
-          ]
-        },
-        {
-          "item": "Arruelas dos parafusos móveis",
-          "reference": "Espessura1,6mm; diâmetros/classe a definir",
-          "quantity": 8,
-          "unit": "unidade",
-          "status": "candidato",
-          "assembly": "1por cada um dos8M6móveis; confirmar SKU e tolerâncias.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Parafusos móveis | 8M6×35 + arruelas1,6, como combinação dimensional proposta: aba4,5 + tampa20 + arruela1,6 deixam8,9 de engajamento na contraplatina10. | Restam1,1mm nominais antes da face inferior; conferir rosca útil, tolerância e ponta reais. Não constitui seleção comercial definitiva. | Parafusos do suporte ao corpo | 16M6 de montagem, receptores embutidos e folga cega para eventual ponta dentro do sarrafo. | Comprimento final, classe, acesso e torque de aperto pendentes. Não furar o interior por comprimento escolhido por aproximação. | Se “não mexer nas tampas” significar também não fazer qualquer furo de fixação, esta proposta não atende: os parafusos passantes precisam de furos. O e"
-            }
-          ]
-        },
-        {
-          "item": "Parafusos suporte–corpo",
-          "reference": "M6; comprimento e classe a definir",
-          "quantity": 16,
-          "unit": "unidade",
-          "status": "candidato",
-          "assembly": "Não perfurar interior escolhendo comprimento por aproximação; acesso/torque pendentes.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-              "trecho": "Parafusos do suporte ao corpo | 16M6 de montagem, receptores embutidos e folga cega para eventual ponta dentro do sarrafo. | Comprimento final, classe, acesso e torque de aperto pendentes. Não furar o interior por comprimento escolhido por aproximação. | Se “não mexer nas tampas” significar também não fazer qualquer furo de fixação, esta proposta não atende: os parafusos passantes precisam de furos. O estudo preserva integralmente formato, espessura, posição e quantidade das duas tampas, mas não promete fixação sem furação. O que o CAD demonstrouSem invasão dos gabaritos armazenados nos testes: quatro conjuntos fechados e910poses de tampas+contraplatinas contra conteúdo/prateleira. Mais546po"
-            }
-          ]
-        },
-        {
-          "item": "Fixadores da folha fixa de cada Southco ao suporte",
-          "reference": "M6; comprimento, rosca e travamento a detalhar",
-          "quantity": 8,
-          "unit": "posição de fixação",
-          "status": "pendente",
-          "assembly": "Derivação de2furos na folha fixa×4dobradiças. São interfaces da dobradiça, distintas dos16suporte–corpo; lista executiva deve reconciliar os conjuntos.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Geometria_fabricante.md",
-              "trecho": "quatro furos de passagem para M6: dois em cada folha. O espaçamento longitudinal entre os dois furos de uma folha é 46 ± 0,2 mm; cada linha está a 25 mm da referência da articulação na posição plana. A preparação do painel no desenho é Ø6,7 +0,1 mm. Os 50 mm entre linhas são da posição plana, não são uma distância que se possa aplicar diretamente a duas faces perpendiculares. As folhas têm 4,5 mm, a largura máxima do conjunto é 91,6 mm e sua projeção total a partir "
-            }
-          ],
-          "derivation": "4 dobradiças × 2 furos na folha fixa",
-          "quantityBasis": "Necessidade geométrica deduzida, não parafuso comprado"
-        },
-        {
           "item": "Batentes independentes das tampas",
           "reference": null,
           "quantity": 2,
@@ -20210,7 +20110,7 @@ const FABRICATION_DATA = {
         },
         {
           "item": "Ligações dos painéis da carcaça",
-          "reference": "Carcaça fixa com uniões mecânicas ocultas; suportes/contraplatinasM6 do estudoSouthcoR47",
+          "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "quantity": null,
           "unit": "conector / fixador",
           "status": "Estratégia selecionada; mapa parcial",
@@ -20223,36 +20123,30 @@ const FABRICATION_DATA = {
           ]
         },
         {
-          "item": "Dobradiças Southco da tampa 971",
-          "reference": "E6-10-6110F0-50 ou6110R0-50, família unidirecional12,4 Nm",
+          "item": "Dobradiça piano das tampas 971 e 825",
+          "reference": "Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54",
           "quantity": 2,
-          "unit": "unidade",
-          "status": "família selecionada; sentido pendente",
-          "assembly": "Mantida família/torque do R47; sentido F0/R0 depende do eixo e da folha fixa real. Sufixo 0 obrigatório; variante Fsem 0 não é equivalente.",
-          "assemblyStatus": "compatibilização fabril",
+          "unit": "trechos cortados de 1–2 barras",
+          "status": "Proposta de cotação; protótipo pendente",
+          "assembly": "Um trecho na borda traseira de cada tampa. Apoio fixo e rebaixo ocultos na junta de 2 mm do encosto ainda a detalhar.",
           "sources": [
             {
-              "title": "Southco E6 unidirecional, torques e padrão de montagem",
-              "url": "https://media.southco.com/media/static/Literature/e6-ct.en.pdf",
-              "page": "377",
-              "local": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Fontes/Southco_E6_catalogo.pdf"
+              "title": "Preços e conjunto proposto R01",
+              "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md"
             }
           ]
         },
         {
-          "item": "Dobradiças Southco da tampa 825",
-          "reference": "E6-10-695F0-50 ou695R0-50, família unidirecional10,7 Nm",
-          "quantity": 2,
-          "unit": "unidade",
-          "status": "família selecionada; sentido pendente",
-          "assembly": "Retenção por atrito, sem assistência de elevação/amortecimento. Sentido não liberado para encomenda antes de fechar montagem.",
-          "assemblyStatus": "compatibilização fabril",
+          "item": "Articuladores com trava das tampas",
+          "reference": "Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça",
+          "quantity": 4,
+          "unit": "unidades (1 par por tampa)",
+          "status": "Proposta de cotação; protótipo pendente",
+          "assembly": "Terminais 22 mm (tampa 971) e 30 mm (tampa 825) abaixo da face inferior; posições nominais na conferência, não gabarito de furação.",
           "sources": [
             {
-              "title": "Southco E6 unidirecional, torques e padrão de montagem",
-              "url": "https://media.southco.com/media/static/Literature/e6-ct.en.pdf",
-              "page": "377",
-              "local": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Fontes/Southco_E6_catalogo.pdf"
+              "title": "Conferência nominal das ferragens simples",
+              "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md"
             }
           ]
         }
@@ -20303,22 +20197,21 @@ const FABRICATION_DATA = {
         }
       ],
       "technicalChecks": [
-        "Fornecedor: eixo–face e sentido F0/R0 do CAD ou desenho cotado exato; a cota 20,3 é envelope, não eixo.",
-        "Projeto/oficina: recalcular massa/CG com dobradiças,contraplatinas,parafusos e batente;0,5 kgdemetais móveis anterior não comprovado.",
+        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.",
+        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina/metalurgia: fechar suportes,contraplatinas e batente independente antes dos furos das tampas; bolsas sob almofadas já autorizadas, mas dimensões finais dependem do mecanismo.",
+        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
       ],
       "assembly": [
         "Preservar duas tampas e armazenamento; três painéis do encosto não significam três tampas.",
-        "Southco e batente R47 estão em estudo separado; não usar Rockler traseira rejeitada como especificação vigente.",
         "Não fabricar o batente pela hipótese do eixo: ferragem real, ligação e receptor precisam ser fechados.",
-        "Preservar duas tampas971 ×448 ×20e825 ×448 ×20. Rebaixos das contraplatinas são no corpo/sarrafo, não redução da espessura das tampas.",
         "Bolsões sob almofadas já autorizados:4provisórios40 ×96 ×25com25mmnominais de espuma acima. Envelopes não validam cilindro real ou batente.",
-        "Assento fechado deve apoiar no corpo/apoios. Dobradicas de atrito não recebem automaticamente a carga de assento."
+        "Assento fechado deve apoiar no corpo/apoios. Dobradiça piano e articuladores não recebem automaticamente a carga de assento.",
+        "Southco E6 e batente R47 permanecem em estudo separado como alternativa; não usar Rockler traseira rejeitada como especificação vigente."
       ],
       "sources": [
         "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
@@ -20336,42 +20229,22 @@ const FABRICATION_DATA = {
       "drawingPath": "05_Entregas/Fichas_fabricacao_R13/P20.svg",
       "decisions": [
         {
-          "item": "Dobradiças Southco da tampa 971",
-          "reference": "E6-10-6110F0-50 ou6110R0-50, família unidirecional12,4 Nm",
-          "quantity": 2,
-          "unit": "unidade",
-          "status": "família selecionada; sentido pendente",
-          "reason": "Mantida família/torque do R47; sentido F0/R0 depende do eixo e da folha fixa real. Sufixo 0 obrigatório; variante Fsem 0 não é equivalente.",
+          "item": "Mecanismo das tampas",
+          "reference": "Dobradiça piano + articulador com trava por tampa",
+          "quantity": null,
+          "unit": "",
+          "status": "Diretriz de 23/10/2026; produto e montagem pendentes",
+          "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.",
           "sources": [
             {
-              "title": "Southco E6 unidirecional, torques e padrão de montagem",
-              "url": "https://media.southco.com/media/static/Literature/e6-ct.en.pdf",
-              "page": "377",
-              "local": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Fontes/Southco_E6_catalogo.pdf"
+              "title": "Diretriz banco e cesto",
+              "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Diretriz.md"
             }
-          ],
-          "assemblyStatus": "compatibilização fabril"
-        },
-        {
-          "item": "Dobradiças Southco da tampa 825",
-          "reference": "E6-10-695F0-50 ou695R0-50, família unidirecional10,7 Nm",
-          "quantity": 2,
-          "unit": "unidade",
-          "status": "família selecionada; sentido pendente",
-          "reason": "Retenção por atrito, sem assistência de elevação/amortecimento. Sentido não liberado para encomenda antes de fechar montagem.",
-          "sources": [
-            {
-              "title": "Southco E6 unidirecional, torques e padrão de montagem",
-              "url": "https://media.southco.com/media/static/Literature/e6-ct.en.pdf",
-              "page": "377",
-              "local": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Fontes/Southco_E6_catalogo.pdf"
-            }
-          ],
-          "assemblyStatus": "compatibilização fabril"
+          ]
         },
         {
           "item": "Banco com corpo portante separado do mecanismo das tampas",
-          "reference": "Carcaça fixa com uniões mecânicas ocultas; suportes/contraplatinasM6 do estudoSouthcoR47",
+          "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
           "status": "Selecionado no projeto; validar em oficina",
@@ -20384,27 +20257,6 @@ const FABRICATION_DATA = {
         }
       ],
       "drilling": [
-        {
-          "item": "Interface de 4 dobradiças Southco",
-          "partIds": [],
-          "face": "suportes metálicos/contraplatinas",
-          "datum": "plano de montagem da ferragem real",
-          "pattern": "Gabarito do fabricante:4 furosØ6,5(+0,1/0), retângulo 50±0,2×46±0,2 mm por dobradiça,2 por folha. Isso define a interface da ferragem, não sua posição sobre a tampa.",
-          "diameter": 6.5,
-          "depth": "passante na interface especificada",
-          "fastener": "M6;comprimentos nosdetalhesR47a compatibilizar",
-          "status": "gabarito documentado; datum tampa / eixo pendente",
-          "releaseCondition": "Obter CAD/desenhocotado que feche eixo–face e sentido. Não calcular o eixo como metade 20,3 mm. Recalcular massa/CG e batente antes de transferir os 16 centros para a tampa/suporte.",
-          "sources": [
-            {
-              "title": "Southco E6 unidirecional, torques e padrão de montagem",
-              "url": "https://media.southco.com/media/static/Literature/e6-ct.en.pdf",
-              "page": "377",
-              "local": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Fontes/Southco_E6_catalogo.pdf"
-            }
-          ],
-          "id": "P20-F01"
-        },
         {
           "item": "Mapa de ligações da carcaça",
           "partIds": [
@@ -20425,24 +20277,24 @@ const FABRICATION_DATA = {
           "pattern": "Família de união selecionada; centros ainda não individualizados",
           "diameter": null,
           "depth": null,
-          "fastener": "Carcaça fixa com uniões mecânicas ocultas; suportes/contraplatinasM6 do estudoSouthcoR47",
+          "fastener": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "status": "Não executar: mapa individual de oficina pendente",
           "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
           ],
-          "id": "P20-F02"
+          "id": "P20-F01"
         }
       ],
       "workshopChecks": [
-        "Oficina/metalurgia: fechar suportes,contraplatinas e batente independente antes dos furos das tampas; bolsas sob almofadas já autorizadas, mas dimensões finais dependem do mecanismo.",
+        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
       ],
       "projectChecks": [
-        "Fornecedor: eixo–face e sentido F0/R0 do CAD ou desenho cotado exato; a cota 20,3 é envelope, não eixo.",
-        "Projeto/oficina: recalcular massa/CG com dobradiças,contraplatinas,parafusos e batente;0,5 kgdemetais móveis anterior não comprovado.",
+        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.",
+        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
@@ -20474,7 +20326,7 @@ const FABRICATION_DATA = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P20-furacao.csv",
-      "technicalSummary": "Família Southco mantida como candidata. Eixo, sentido, torque e batente ainda bloqueiam a furação definitiva das tampas.",
+      "technicalSummary": "Diretriz de 23/10: dobradiça piano + articulador com trava em cada tampa. Protótipo de oficina, apoio da piano e terminais ainda bloqueiam a furação das tampas.",
       "panelGroups": [
         {
           "id": "Peca407",

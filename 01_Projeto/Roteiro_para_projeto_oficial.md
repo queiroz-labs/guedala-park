@@ -79,7 +79,7 @@
 
 ### 7. Orçamento com preços reais
 - [ ] Cotar marcenaria e obra com escopo comparável. A marcenaria está estimada em R$46,5 mil, contra a meta de R$35 mil.
-- [x] Reconciliar as ferragens ([reconciliação](Orcamento_R43_2026-10-22/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md)); [pacote de cotação pronto](Orcamento_R43_2026-10-22/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md). As fichas usam Blum, e o orçamento usa referências FGVTN. Os Minifix somam 40 nas fichas e 20 no orçamento.
+- [x] Reconciliar as ferragens ([reconciliação](Orcamento_R43_2026-10-22/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md)); [pacote de cotação pronto](Orcamento_R43_2026-10-22/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md). As fichas usam Blum, e o orçamento usa referências FGVTN. Os Minifix somam 52 nas fichas (40 dos aéreos + 12 do espelheiro P19) e 20 no orçamento.
 
 ### 8. Organização para revisão externa (não bloqueia)
 - [ ] Separar a pasta de entrega do histórico. Hoje há `tmp` com cerca de 476 MB, várias cópias `antes_*` e revisões FCStd de 20–47 MB cada.

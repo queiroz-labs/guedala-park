@@ -61,7 +61,7 @@ Frentes lisas. Os puxadores seguem o projeto: perfil de alumínio preto nos infe
 | Portas de correr (roupeiro e maleiro) | 4 kits | Rometal RO-62 com anti-descarrilamento e trilhos RM-023/RM-025 |
 | Portas de correr (banheiro) | 2 kits | Rometal RO25 com trilho RM026 |
 | Varões | 4 + 8 terminais + 2 centrais | Häfele Ø20 ou Bigfer Ø25 |
-| Minifix | 40 definidos + mapeamento | Häfele 262.26.034 + pinos S100 nos aéreos B, C e da lavanderia. Mapear os módulos P01, P04, P12 e P17 |
+| Minifix | 52 definidos + mapeamento | Häfele 262.26.034 + pinos S100 nos aéreos B, C, da lavanderia e no espelheiro P19. Mapear os módulos P01, P04, P12 e P17 |
 | Banco (P20) | 2 tampas | **Dobradiça piano + suporte com trava** que mantenha a tampa aberta. Southco E6 apenas como alternativa |
 | Cesto basculante (P14) | 1 | Pivôs, limitadores a 55° e retenção aberta; saco removível de 8 kg |
 | Gaveta de limpeza (P08) | 6 | Rodízios fixos Leão Aço Ø30 mm + espaçadores de 1 mm |

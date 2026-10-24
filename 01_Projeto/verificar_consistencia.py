@@ -50,7 +50,7 @@ fgv = qty(lambda r: 'FGVTN54FGOC12500' in str(r['reference']).replace(' ', ''))
 minifix = qty(lambda r: r['item'] == 'Caixas Minifix')
 check(hinges == 52, 'Dobradiças de abrir nas fichas = 52 do orçamento', f'fichas: {hinges}')
 check(fgv == 7, 'Pares FGVTN 500 nas fichas = 7 do orçamento', f'fichas: {fgv}')
-check(minifix == 40, 'Minifix com quantidade definida nas fichas = 40 da reconciliação', f'fichas: {minifix}')
+check(minifix == 52, 'Minifix com quantidade definida nas fichas = 52 da reconciliação', f'fichas: {minifix}')
 southco = [k for k, m in tech.items() if any('Southco' in r['item'] for r in m['hardwareRows'])]
 check(not southco, 'Fichas sem Southco (diretriz: piano + trava)',
       f"ainda citam Southco: {', '.join(southco)} — revisar quando a ferragem do banco for selecionada" if southco else '')
