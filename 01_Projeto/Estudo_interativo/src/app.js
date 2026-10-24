@@ -10,6 +10,7 @@ function diningClearance(st=state){const length=st.table==='compact'?150:180,end
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,nodeSequence={},motion=null;
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
+const WORLD_SCENES=new WeakMap();
 function moveCamera(){cameraMoving=true;clearTimeout(cameraSettleTimer);cameraSettleTimer=setTimeout(()=>{cameraMoving=false;requestRender();},180);}
 function sceneStateKey(){const {angle,tilt,zoom,pan,selected,measures,...geometry}=state;return JSON.stringify(geometry);}
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
@@ -266,7 +267,10 @@ function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t
   let pad=w<500?28:45,spaceTop=st.mini?12:78,spaceBottom=st.mini?12:52;
   const scale=Math.min((w-pad*2)/(maxx-minx||1),(h-spaceTop-spaceBottom)/(maxy-miny||1))*st.zoom;
   const cx=w/2-(minx+maxx)/2*scale+st.pan[0],cy=spaceTop+(h-spaceTop-spaceBottom)/2-(miny+maxy)/2*scale+st.pan[1];
-  return{project:p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];},raw,scale};
+  const project=p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];};
+  const clip=p=>{const q=project(p);return[q[0]/w*2-1,1-q[1]/h*2,-q[2]/4096];},origin=clip([0,0,0]),basis=[[1,0,0],[0,1,0],[0,0,1]].map(p=>clip(p).map((v,i)=>v-origin[i]));
+  const matrix=new Float32Array([...basis[0],0,...basis[1],0,...basis[2],0,...origin,1]);
+  return{project,raw,scale,matrix};
 }
 function visible(n,st){return(st.room==='all'||n.room===st.room||n.sharedRooms?.includes(st.room))&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
 // Only upward floor faces receive a finish; furniture using the same palette stays unchanged.
@@ -298,21 +302,26 @@ function drawFloorFallback(ctx,f,project){
   // Restore the face outline for selection after the decorative paths.
   ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
 }
-function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,interactive?1:2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
+function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
   let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
   if(st.moduleFilter&&list.length){bounds=[Math.min(...list.map(n=>n.x))-8,Math.min(...list.map(n=>n.z))-8,Math.max(...list.map(n=>n.x+n.w))+8,Math.max(...list.map(n=>n.z+n.d))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base}));st={...st,ymax:Math.max(...list.map(n=>n.y+n.h))};}
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
   if(st.view==='side'&&st.sideCut&&!selectionOnly&&!st.moduleFilter){const midx=(bounds[0]+bounds[2])/2,midz=(bounds[1]+bounds[3])/2;list=list.filter(n=>!n.id||(st.side==='east'?n.x+n.w>=midx:st.side==='west'?n.x<=midx:st.side==='south'?n.z+n.d>=midz:n.z<=midz));}
   if(selectionOnly){list=nodes.filter(n=>n.id===selectionOnly&&(n.opacity??1)>.01);if(!list.length)return;const vertices=list.flatMap(n=>mesh(n).flatMap(f=>f.p));bounds=[Math.min(...vertices.map(p=>p[0]))-8,Math.min(...vertices.map(p=>p[2]))-8,Math.max(...vertices.map(p=>p[0]))+8,Math.max(...vertices.map(p=>p[2]))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base,pivot:n.pivot?[n.pivot[0],n.pivot[1]-base,n.pivot[2]]:undefined}));}
-  if(interactive&&st.room==='all'&&!st.moduleFilter&&!selectionOnly)list=cadOverview(list);
   const view={...st,mini,...(selectionOnly?{ymax:Math.max(...list.map(n=>n.y+n.h))}: {})},cam=camera(view,w,h,bounds),project=cam.project;let fs=[];
-  for(const n of list){for(const f of mesh(n,interactive)){let p=f.p.map(project),depth=p.reduce((s,p)=>s+p[2],0)/p.length;fs.push({p:f.p,normal:f.normal,edgeMask:f.edgeMask,c:f.c,alpha:f.alpha,id:f.id,room:f.room,node:f.node,points:p,depth,_mesh:f});}}
-  const main=canvas.id==='scene';if(main){hitFaces=[];lastProject=cam;}
-  const enhanced=!interactive&&!mini&&!selectionOnly&&enhancedLighting(st);
+  const worldKey=JSON.stringify([st.room,st.view==='side'?st.side:null,st.sideCut,st.moduleFilter,st.upper,st.walls,selectionOnly]);
+  let cached=WORLD_SCENES.get(canvas);
+  if(!cached||cached.nodes!==nodes||cached.key!==worldKey){
+    const faces=[],groups=[];
+    for(const n of list){const part=mesh(n,false),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const f of part){faces.push(f);for(const p of f.p)for(let k=0;k<3;k++){min[k]=Math.min(min[k],p[k]);max[k]=Math.max(max[k],p[k]);}}groups.push({faces:part,min,max});}
+    faces.pickGroups=groups;cached={nodes,key:worldKey,faces};WORLD_SCENES.set(canvas,cached);
+  }
+  const worldFaces=cached.faces,main=canvas.id==='scene';if(main){hitFaces=worldFaces;lastProject=cam;}
+  const enhanced=!mini&&!selectionOnly&&enhancedLighting(st);
   if(main)syncLightingControls();
-  const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null,enhanced);
-  if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';canvas.dataset.quality=interactive?'interactive':'detail';canvas.dataset.faces=String(fs.length);}
-  if(!depthOK)fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);
+  const depthOK=renderWorldDepth(ctx,worldFaces,cam,w,h,ratio,main?st.selected:null,enhanced);
+  if(main){canvas.dataset.renderer=depthOK?'depth':'simplified';canvas.dataset.quality='detail';canvas.dataset.faces=String(worldFaces.length);canvas.dataset.cameraPath=depthOK?'gpu-matrix':'cpu-fallback';}
+  if(!depthOK){fs=worldFaces.map(f=>{const points=f.p.map(project);return {...f,points,depth:points.reduce((s,p)=>s+p[2],0)/points.length,_mesh:f};});fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);if(main)hitFaces=fs;}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;ctx.fillStyle='#'+faceLighting(f,enhanced).map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');ctx.fill();
     if(floorStyle(f))drawFloorFallback(ctx,f,project);
     else{if(f.edgeMask){ctx.beginPath();p.forEach((v,i)=>{if(f.edgeMask[i]){ctx.moveTo(v[0],v[1]);ctx.lineTo(p[(i+1)%p.length][0],p[(i+1)%p.length][1]);}});}ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
@@ -407,8 +416,11 @@ const canvas=$('scene'),pointers=new Map();let lastPoint=null,down=null,pinchDis
 canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});lastPoint={x:e.clientX,y:e.clientY};down={x:e.clientX,y:e.clientY,moved:false};if(pointers.size===2){let p=[...pointers.values()];pinchDistance=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);}});
 canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=lastPoint;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size>=2){let p=[...pointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);if(pinchDistance>1)state.zoom=Math.max(.45,Math.min(5,state.zoom*dist/pinchDistance));pinchDistance=dist;if(down)down.moved=true;}else if(prev){let dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)down.moved=true;if(state.view==='iso'&&!e.shiftKey&&e.buttons!==2){state.angle+=dx*.008;state.tilt=Math.max(.16,Math.min(1.42,state.tilt-dy*.006));}else{state.pan[0]+=dx;state.pan[1]+=dy;}}lastPoint={x:e.clientX,y:e.clientY};moveCamera();requestRender();});
 function pickFace(x,y,faces){
- let best=null,depth=-Infinity;
- for(const f of faces){if((f.alpha??1)<.5)continue;const p=f.points;
+ let best=null,depth=-Infinity,candidates=faces;
+ // Project only on a click. Conservative projected group bounds skip unrelated
+ // objects, while exact triangles still decide the hit and occlusion.
+ if(faces.pickGroups&&lastProject){candidates=[];for(const group of faces.pickGroups){let xmin=Infinity,ymin=Infinity,xmax=-Infinity,ymax=-Infinity;for(const a of [group.min[0],group.max[0]])for(const b of [group.min[1],group.max[1]])for(const c of [group.min[2],group.max[2]]){const p=lastProject.project([a,b,c]);xmin=Math.min(xmin,p[0]);xmax=Math.max(xmax,p[0]);ymin=Math.min(ymin,p[1]);ymax=Math.max(ymax,p[1]);}if(x>=xmin&&x<=xmax&&y>=ymin&&y<=ymax)for(const f of group.faces)candidates.push(f);}}
+ for(const f of candidates){if((f.alpha??1)<.5)continue;const p=f.points||f.p.map(lastProject.project);
   for(let i=1;i<p.length-1;i++){const a=p[0],b=p[i],c=p[i+1],det=(b[1]-c[1])*(a[0]-c[0])+(c[0]-b[0])*(a[1]-c[1]);if(Math.abs(det)<1e-8)continue;
    const u=((b[1]-c[1])*(x-c[0])+(c[0]-b[0])*(y-c[1]))/det,v=((c[1]-a[1])*(x-c[0])+(a[0]-c[0])*(y-c[1]))/det,t=1-u-v;
    if(u>=0&&v>=0&&t>=0){const z=u*a[2]+v*b[2]+t*c[2];if(z>depth){depth=z;best=f;}}
