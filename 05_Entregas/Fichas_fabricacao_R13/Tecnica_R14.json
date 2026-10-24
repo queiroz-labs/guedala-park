@@ -13,8 +13,8 @@
   "budgetNote": "Recotar dobradiças Blum: a provisão anterior de FGVTN não confirma o preço desta seleção.",
   "modules": {
     "P01": {
-      "name": "Roupeiro",
-      "summary": "RO-62 nas duas portas e FGVTN 500 nas quatro gavetas. Trilhos, varões e ligações têm conferências próprias.",
+      "name": "Guarda-roupa",
+      "summary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
       "decisions": [
         {
           "item": "Kits de correr RO62 para uma folha",
@@ -740,8 +740,8 @@
       ]
     },
     "P02": {
-      "name": "Canto superior em L",
-      "summary": "Duas portas independentes com Blum; canecos identificados por peça. Ligações do canto em L continuam específicas.",
+      "name": "Armário de canto do quarto",
+      "summary": "Armário de canto com duas portas independentes e dobradiças da marca Blum. Falta detalhar como as peças do canto serão unidas.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -1282,8 +1282,8 @@
       ]
     },
     "P03": {
-      "name": "Maleiro",
-      "summary": "RO-62 sem Comfort nas duas folhas baixas. Compatibilizar apoio e ligações com o roupeiro.",
+      "name": "Armário sobre o guarda-roupa",
+      "summary": "Armário sobre o guarda-roupa com duas portas de correr. Confira os apoios e a união com o móvel de baixo.",
       "decisions": [
         {
           "item": "Kits de correr RO62 para uma folha",
@@ -1807,8 +1807,8 @@
       ]
     },
     "P04": {
-      "name": "Aéreo da cabeceira",
-      "summary": "Blum nas quatro folhas; preservar o recuo diferente da porta vizinha ao canto. Reforço e suspensão seguem em projeto.",
+      "name": "Armário sobre a cabeceira",
+      "summary": "Armário com quatro portas e dobradiças da marca Blum. A porta junto ao canto tem um recuo diferente. Falta definir o reforço e a fixação na parede.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -2529,7 +2529,7 @@
     },
     "P05": {
       "name": "Gabinete da pia",
-      "summary": "Blum nas duas portas. A prateleira hidráulica só recebe recorte após definir cuba e sifão.",
+      "summary": "Gabinete com duas portas e dobradiças da marca Blum. O recorte da prateleira depende da cuba e do sifão escolhidos.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -3059,8 +3059,8 @@
       ]
     },
     "P06": {
-      "name": "Gaveteiro G1/G2/G3",
-      "summary": "Três pares FGVTN 500. Parâmetros do fabricante registrados; engates e datum final exigem conferência.",
+      "name": "Três gavetas da cozinha",
+      "summary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
       "decisions": [
         {
           "item": "Corrediças 500 com engates convencionais E/D",
@@ -3336,8 +3336,8 @@
       ]
     },
     "P07": {
-      "name": "Módulo de cocção",
-      "summary": "Grelhas removíveis com M4 e retenção metálica a detalhar. Preservar os canais de ventilação.",
+      "name": "Móvel do forno e cooktop",
+      "summary": "Grelhas removíveis para acesso ao forno. Falta detalhar as peças de fixação. Mantenha os espaços de ventilação livres.",
       "decisions": [
         {
           "item": "Caixa fixa e grelhas de manutenção separadas",
@@ -3535,7 +3535,7 @@
     },
     "P08": {
       "name": "Gaveta de limpeza",
-      "summary": "Seis rodízios fixos Leão Aço de 38 mm + seis espaçadores rígidos de 1 mm selecionados. Apoio de 39 mm preservado; furação real, carga, guias e batente a conferir.",
+      "summary": "Gaveta baixa com seis rodas. Confira os furos, o peso suportado e as peças que guiam e limitam o movimento.",
       "decisions": [
         {
           "item": "Rodízios fixos da gaveta baixa",
@@ -3844,8 +3844,8 @@
       ]
     },
     "P09": {
-      "name": "Aéreo D",
-      "summary": "Blum nas duas portas. O canal do duto e o divisor curto precisam permanecer livres das uniões.",
+      "name": "Armário superior D · depurador",
+      "summary": "Armário com duas portas e dobradiças da marca Blum. As peças de montagem devem deixar livre a passagem do duto.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -4402,8 +4402,8 @@
       ]
     },
     "P10": {
-      "name": "Aéreo C",
-      "summary": "Blum nas portas e 20 conjuntos Minifix. Três prateleiras fixas desmontáveis, com furação nominal por peça.",
+      "name": "Armário superior C · pia",
+      "summary": "Armário com três prateleiras e dobradiças da marca Blum nas portas. As prateleiras ficam presas ao armário e podem ser retiradas ao desmontá-lo. Confira os furos antes de fabricar.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -5545,8 +5545,8 @@
       ]
     },
     "P11": {
-      "name": "Aéreo B",
-      "summary": "Blum nas portas e 12 conjuntos Minifix. Furação nominal verificada na geometria; carga e suspensão separadas.",
+      "name": "Armário superior B · micro-ondas",
+      "summary": "Portas com dobradiças da marca Blum. O projeto indica os furos de montagem. Falta confirmar o peso suportado e a fixação na parede.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -6445,8 +6445,8 @@
       ]
     },
     "P12": {
-      "name": "Aéreo A",
-      "summary": "Blum nas portas. Ligações da divisória central e suspensão precisam de mapa próprio.",
+      "name": "Armário superior A · geladeira",
+      "summary": "Portas com dobradiças da marca Blum. Falta detalhar a união da divisória central e a fixação na parede.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -7003,8 +7003,8 @@
       ]
     },
     "P13": {
-      "name": "Apoio do micro-ondas",
-      "summary": "Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.",
+      "name": "Prateleira do micro-ondas",
+      "summary": "Prateleira aberta para o micro-ondas. Falta definir o suporte e conferir o espaço de ventilação exigido pelo aparelho.",
       "decisions": [
         {
           "item": "Prateleira de aparelho com apoio estrutural próprio",
@@ -7131,8 +7131,8 @@
       ]
     },
     "P14": {
-      "name": "Tanque e cesto",
-      "summary": "Carcaça e cesto têm ligações separadas. O mecanismo basculante a 55° ainda exige solução comprovada para a aplicação.",
+      "name": "Tanque e cesto de roupas",
+      "summary": "Cesto que inclina para abrir. A estrutura e o cesto têm fixações próprias. Falta testar o mecanismo de abertura.",
       "decisions": [
         {
           "item": "Mecanismo do cesto preservado",
@@ -7322,8 +7322,8 @@
       ]
     },
     "P15": {
-      "name": "Aéreo lavanderia",
-      "summary": "Blum nas portas e 8 conjuntos Minifix. O vão de 799 mm mantém a necessidade de reforço e carga definida.",
+      "name": "Armário superior da lavanderia",
+      "summary": "Portas com dobradiças da marca Blum. O espaço entre apoios precisa de reforço. Falta definir o peso suportado.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -8118,8 +8118,8 @@
       ]
     },
     "P16": {
-      "name": "Gaveteiro escritório",
-      "summary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa; corrigir interferências antes de usinar.",
+      "name": "Gavetas do escritório",
+      "summary": "Duas gavetas com corrediças MOVENTO, da marca Blum. Corrija os pontos de colisão antes de fabricar.",
       "decisions": [
         {
           "item": "Corrediças 400",
@@ -8444,8 +8444,8 @@
       ]
     },
     "P17": {
-      "name": "Aéreo escritório",
-      "summary": "Blum nas quatro portas. Ligações das divisórias e distribuição da suspensão continuam específicas.",
+      "name": "Armário superior do escritório",
+      "summary": "Armário com quatro portas e dobradiças da marca Blum. Falta detalhar as uniões internas e a fixação na parede.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -9164,8 +9164,8 @@
       ]
     },
     "P18": {
-      "name": "Gabinete banheiro BC43",
-      "summary": "RO25 no banheiro e quadro removível por quatro M6. Cavilhas e ligações permanentes ficam separadas da retirada.",
+      "name": "Gabinete do banheiro",
+      "summary": "Gabinete com portas de correr e frente removível para manutenção. Confira os trilhos, as uniões e os parafusos de fixação.",
       "decisions": [
         {
           "item": "Kits RO25 para uma folha",
@@ -9777,8 +9777,8 @@
       ]
     },
     "P19": {
-      "name": "Espelheiro",
-      "summary": "Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.",
+      "name": "Armário com espelho",
+      "summary": "Armário com espelho e portas com dobradiças da marca Blum. O projeto prevê apoios e conectores para unir as peças. Falta conferir a montagem, o espelho e a fixação na parede.",
       "decisions": [
         {
           "item": "Dobradiças das portas de abrir",
@@ -10686,8 +10686,8 @@
       ]
     },
     "P20": {
-      "name": "Banco baú",
-      "summary": "Diretriz de 23/10: dobradiça piano + articulador com trava em cada tampa. Protótipo de oficina, apoio da piano e terminais ainda bloqueiam a furação das tampas.",
+      "name": "Banco com baú",
+      "summary": "Banco com duas tampas. Cada tampa terá uma dobradiça contínua e suportes com trava. Teste a montagem antes de definir os furos.",
       "decisions": [
         {
           "item": "Mecanismo das tampas",

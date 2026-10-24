@@ -1,5 +1,5 @@
 ﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
-Peca367 | Peca368;Lateral direita / Lateral esquerda;2;430.0;240.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";"Arenza aprovado explicitamente nas frentes; padrão comercial da face lateral aparente da caixa não individualizado. wood é referência CAD."
+Peca367 | Peca368;Lateral direita / Lateral esquerda;2;430.0;240.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";Arenza aprovado explicitamente nas frentes. Padrão comercial da face lateral aparente da caixa não individualizado. Wood é referência CAD.
 Peca369;Fundo;1;364.0;204.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
 Peca370 | Peca371;Base / Tampo;2;412.0;364.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
 GavetaComumR072 | GavetaComumR084;Peças equivalentes;2;390.0;80.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

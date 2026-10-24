@@ -157,6 +157,7 @@ def markdown(text):
     return '\n'.join(out)
 
 def write_sources():
+    from plain_language import plain_data
     rows=matrix()
     EXTRA_DOCS['P07']=['forno','fixas']
     EXTRA_DOCS['P08']=['rodizios-p08','gavetas','cad']
@@ -168,7 +169,8 @@ def write_sources():
         guidance[code]['hardware']=[r['item']+': '+str(r.get('reference') or 'definição específica na ficha')+' · '+r['status'] for r in f['hardwareRows']]
         guidance[code]['documentIds'].insert(0,'ficha-'+code)
         guidance[code]['documentIds'].append('acabamentos-r13')
-    (STUDY/'src/workshop-docs.js').write_text('/* Fontes explícitas. Medidas nominais; não constitui liberação para fabricação. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n',encoding='utf-8')
+    guidance = plain_data(guidance)
+    (STUDY/'src/workshop-docs.js').write_text('/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n',encoding='utf-8')
     body='<p class="meta">GUEDALA PARK · MARCENARIA · 23 OUTUBRO 2026</p><h1>Do ambiente à peça.</h1><p>Guia de consulta para orçamento, conferência e montagem.</p><p class="note">Base dimensional R45, complementada pelos estudos R47 e de torneiras. Todas as medidas abaixo são nominais do modelo, em <strong>milímetros</strong>. Nenhum módulo está liberado para fabricação apenas pela presença neste guia.</p><p class="no-print"><button onclick="window.print()">Imprimir / salvar PDF</button></p><nav class="tags"><a href="#cobertura">Cobertura</a><a href="#modulos">20 módulos</a><a href="#executivo">Executivo pendente</a><a href="#fontes">Documentos</a></nav><h2 id="cobertura">O que está disponível</h2><table><tr><th>Informação</th><th>Cobertura</th><th>Próximo fechamento</th></tr>'
     for values in [('Medidas e espessuras','20 módulos inventariados; cotas de modelo','Levantamento final e tolerâncias por peça'),('Acabamentos','Escolhas e direções de composição registradas','Código, amostra, lote, sentido do veio e fitas de borda'),('Ferragens','Candidatos, conflitos e estudos locais','SKU final, quantidade, engates e desenho de montagem'),('Uniões e cargas','171 contatos e cenários de cálculo','Ligações, cargas admissíveis e ancoragem real'),('FreeCAD','R45 principal e estudos separados','CAD executivo, furação, ferragens reais e revisão liberada'),('Plano de corte','Não localizado como pacote executivo liberado','Lista por peça, usinagem, bordas e autorização de fabricação')]:
         body+='<tr>'+''.join('<td>'+escape(x)+'</td>' for x in values)+'</tr>'
@@ -187,6 +189,7 @@ def write_sources():
 
 def build():
     global FABRICATION
+    from plain_language import plain_data, plain_html, document_intro, DOCUMENT_COPY
     generated=runpy.run_path(str(STUDY/'build_fabrication.py'))
     FABRICATION,assets=generated['build']()
     runpy.run_path(str(STUDY/'build_share_package.py'))['build']()
@@ -198,9 +201,18 @@ def build():
         doc('ficha-'+code,code+' · '+f['name'],'Ficha de montagem',f['room'],'R14','Ferragens, furação com referências, peças CSV e próximas conferências.',base+code+'.html')
     ASSETS.extend(base+p for p in assets)
     ASSETS.append(base+'manifest.json')
+    DOCS[:] = [plain_data(d) for d in DOCS]
+    for d in DOCS:
+        if d['id'] in DOCUMENT_COPY:
+            d['title'], d['summary'] = DOCUMENT_COPY[d['id']]
+        elif d['id'].startswith('ficha-'):
+            code = d['id'][6:]
+            d['title'] = code+' · '+FABRICATION[code]['name']
+            d['summary'] = 'Consulte as medidas, os materiais, a montagem e o que falta conferir.'
     write_sources()
     mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path']}
     mapping.update({p:p for p in ASSETS})
+    document_by_path = {d['path']:d for d in DOCS if d.get('path')}
     target=ROOT/'.site/docs'
     published=[]; omitted=[]
     for src, dst in mapping.items():
@@ -223,7 +235,10 @@ def build():
             content=re.sub(r'\b(href|src)\s*=\s*([\"\'])(.*?)\2',local_link,content,flags=re.I)
             # Original reports may contain action scripts; documentation is read-only.
             content=re.sub(r'<script\b[^>]*>.*?</script>','',content,flags=re.I|re.S)
-            dest.write_text(content,encoding='utf-8')
+            document = document_by_path.get(src)
+            if document and not src.startswith('05_Entregas/'):
+                content = document_intro(content, document)
+            dest.write_text(plain_html(content),encoding='utf-8')
         else: shutil.copyfile(source,dest)
         published.append(dst)
     (target/'manifest.json').write_text(json.dumps(dict(files=published,unpublishedReferences=omitted,policy='Explicit technical allowlist only; no recursive inclusion.'),ensure_ascii=False,indent=2),encoding='utf-8')

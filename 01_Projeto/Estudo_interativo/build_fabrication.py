@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import technical_details as tech
 import drilling_drawings
+from plain_language import plain_html
 from part_groups import group_panels
 
 STUDY=Path(__file__).resolve().parent
@@ -25,7 +26,7 @@ CSS='''*{box-sizing:border-box}body{font:15px/1.55 system-ui,sans-serif;color:#2
 
 CSS+='\n.sources-note a,.gates a{display:inline-block;min-height:32px;padding:6px 0;margin:4px 0}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #805c32;outline-offset:3px}\n'
 
-def page(title,body): return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+text(title)+' — medidas, especificações e conferências do projeto Guedala Park."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23263f3b%27/%3E%3Ctext x=%2732%27 y=%2742%27 text-anchor=%27middle%27 font-size=%2729%27 fill=%27white%27%3EGP%3C/text%3E%3C/svg%3E"><title>'+text(title)+'</title><style>'+CSS+tech.CSS+'</style></head><body><main>'+body+'</main></body></html>'
+def page(title,body): return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+text(title)+' — medidas, materiais e montagem do projeto Guedala Park."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23263f3b%27/%3E%3Ctext x=%2732%27 y=%2742%27 text-anchor=%27middle%27 font-size=%2729%27 fill=%27white%27%3EGP%3C/text%3E%3C/svg%3E"><title>'+text(title)+'</title><style>'+CSS+tech.CSS+'</style></head><body><main>'+plain_html(body)+'</main></body></html>'
 
 def diagram(module,parts,frame):
     # Project each panel's local bounding box. These are explicit envelope diagrams,
@@ -93,26 +94,26 @@ def build():
         headers=['IDs CAD','Peça','Qtd','C nominal mm','L nominal mm','Esp. envelope mm','Referência CAD','Especificação documental','Contorno','Bordas/veios/usinagem','Acabamento parcial']
         rows=[[' | '.join(p['ids']),p['name'],p['quantity'],*p['dimensions'],p['cadMaterial'],p['specifiedMaterial'] or 'Ver regra de acabamento da ficha','Retangular' if p['rectangular'] else 'Recortado/especial','Detalhamento técnico por ID; não descontado do envelope',p['remainingFinish'] or ''] for p in g['panelGroups']]
         buf=io.StringIO();w=csv.writer(buf,delimiter=';');w.writerow(headers);w.writerows(rows);(DEST/f'{code}-pecas.csv').write_text('\ufeff'+buf.getvalue(),encoding='utf-8',newline='');assets.append(f'{code}-pecas.csv')
-        hardware_rows=[[text(r.get('quantity'))+' '+text(r.get('unit','')),text(r['item'])+'<small>'+text(r.get('reference'))+'</small>',text(r['status']),text(r.get('assembly',''))] for r in g['hardwareRows']]
+        hardware_rows=[[text(r.get('quantity'))+' '+text(r.get('unit','')),text(r['item'])+('<small>'+text(r['explanation'])+'</small>' if r.get('explanation') else '')+'<small>'+text(r.get('reference'))+'</small>',text(r['status']),text(r.get('assembly',''))] for r in g['hardwareRows']]
         parts_rows=[]
         for p in g['panelGroups']:
             members=''.join('<li>'+text(item['name'])+' · <code>'+text(item['id'])+'</code></li>' for item in p['members'])
             identity=text(p['name'])+('<details class="part-members"><summary>Ver '+str(p['quantity'])+' peças e IDs</summary><ul>'+members+'</ul></details>' if len(p['ids'])>1 else '<small>'+text(p['id'])+'</small>')
-            parts_rows.append([identity,'<strong>'+str(p['quantity'])+'</strong>',text(mm(p['dimensions'][0]))+' × '+text(mm(p['dimensions'][1])),text(mm(p['thickness'])),text(p['specifiedMaterial'] or p['cadMaterial'])+'<small>'+('Documento vigente' if p['specifiedMaterial'] else 'Referência CAD; confrontar acabamento acima')+'</small>'+('<small>Parcial: '+text(p['remainingFinish'])+'</small>' if p['remainingFinish'] else ''),'Retangular' if p['rectangular'] else 'Recortado/especial'])
+            parts_rows.append([identity,'<strong>'+str(p['quantity'])+'</strong>',text(mm(p['dimensions'][0]))+' × '+text(mm(p['dimensions'][1])),text(mm(p['thickness'])),text(p['specifiedMaterial'] or p['cadMaterial'])+'<small>'+('Acabamento escolhido' if p['specifiedMaterial'] else 'Cor do desenho · confira o acabamento acima')+'</small>'+('<small>Parcial: '+text(p['remainingFinish'])+'</small>' if p['remainingFinish'] else ''),'Retangular' if p['rectangular'] else 'Recortado/especial'])
         finish_rows=[[text(r['area']),text(r['material']),text(r['status'])] for r in g['finishSpecs']]
-        body=f'<div class="top no-print"><a href="index.html">← Todas as fichas</a><a href="Levantamento.html#{code}">Medições deste móvel ↗</a></div><p class="eyebrow">{code} · {ROOMS[m["room"]]} · FICHA R14 / MODELO R45 · mm</p><h1>{text(m["name"])}</h1><p class="no-print nav"><button onclick="window.print()">Imprimir / salvar PDF</button><a class="action" href="{code}-pecas.csv" download>Baixar peças CSV</a></p><div class="metrics">'+''.join(f'<div><b>{mm(v)}</b><span>{label} · mm</span></div>' for v,label in zip(g['dimensions'],['Largura','Profundidade','Altura']))+'</div><p class="eyebrow">Envelope nominal do conjunto, incluindo componentes e reservas. Peças abaixo têm medidas próprias.</p>'
+        body=f'<div class="top no-print"><a href="index.html">← Todas as fichas</a><a href="Levantamento.html#{code}">Medições deste móvel ↗</a></div><p class="eyebrow">{code} · {ROOMS[m["room"]]} · FICHA R14 / MODELO R45 · mm</p><h1>{text(g["name"])}</h1><p class="no-print nav"><button onclick="window.print()">Imprimir / salvar PDF</button><a class="action" href="{code}-pecas.csv" download>Baixar lista de peças · CSV</a></p><div class="metrics">'+''.join(f'<div><b>{mm(v)}</b><span>{label} · mm</span></div>' for v,label in zip(g['dimensions'],['Largura','Profundidade','Altura']))+'</div><p class="eyebrow">Envelope nominal do conjunto, incluindo componentes e reservas. Peças abaixo têm medidas próprias.</p>'
         body+='<p class="revision-summary">'+text(g['technicalSummary'])+'</p><nav class="sheet-nav no-print"><a href="#definido">Definições</a><a href="#furacao">Furação</a><a href="#pecas">Peças</a><a href="#proximos">O que falta</a></nav>'
         body+='<section id="definido" class="panel"><h2>Definido para este móvel</h2>'+tech.choices_html(g)+'</section>'
         body+=f'<img width="1080" height="390" class="drawing" src="{code}.svg" alt="{code}: esquema dimensional de envelopes em três projeções"><div class="panel"><h2>Medidas internas e encontros</h2><p>{text(g["internalMeasures"])}</p></div>'
         body+='<div class="panel"><h2>Acabamentos</h2><p>'+text(g['finishSummary'])+'</p>'+table(['Aplicação','Material / acabamento','Situação'],finish_rows)+'<p class="eyebrow">A especificação documental vigente prevalece sobre cores antigas do modelo. Código comercial não informado permanece a definir.</p></div>'
-        body+='<div class="panel" id="pecas"><h2>Peças e espessuras</h2>'+'<p>'+str(len(g['panels']))+' peças em '+str(len(g['panelGroups']))+' grupos. Peças equivalentes aparecem juntas; abra os IDs para consultar cada uma.</p>'+table(['Peça / grupo','Qtd.','C × L · mm','Esp. · mm','Material','Forma'],parts_rows)+'<p class="eyebrow">C e L são as duas maiores dimensões do envelope local, sem indicar sentido do veio. Espessura é a menor dimensão geométrica. Recortes e furação não podem ser recuperados destas três medidas. Fita de borda e folgas não foram descontadas; lista nominal, não plano de corte.</p></div>'
+        body+='<div class="panel" id="pecas"><h2>Peças e espessuras</h2>'+'<p>'+str(len(g['panels']))+' peças em '+str(len(g['panelGroups']))+' grupos. Peças equivalentes aparecem juntas; abra os códigos para consultar cada uma.</p>'+table(['Peça / grupo','Qtd.','C × L · mm','Esp. · mm','Material','Forma'],parts_rows)+'<p class="eyebrow">C e L são as duas maiores dimensões do envelope local, sem indicar sentido do veio. Espessura é a menor dimensão geométrica. Recortes e furação não podem ser recuperados destas três medidas. Fita de borda e folgas não foram descontadas; lista nominal, não plano de corte.</p></div>'
         body+='<div class="panel"><h2>Ferragens e ligações</h2>'+table(['Qtd.','Ferragem / referência','Situação','Montagem / conferência'],hardware_rows)+'<p class="eyebrow">Quantidade de referência não equivale a compra liberada. Itens candidatos conservam seu status até fechar compatibilidade.</p></div>'
         body+='<section class="panel" id="furacao"><h2>Furação e fixação</h2>'+tech.drilling_html(g)+'</section>'
         body+='<div class="panel"><h2>Roteiro de montagem e compatibilização</h2>'+ul(assembly)+'</div><section class="panel" id="proximos"><h2>Fechamentos técnicos deste móvel</h2>'+tech.gates_html(g)+'</section>'
         body+=f'<div class="note"><b>Medição no apartamento, em folha separada</b><p>{len(fields)} conferências para este móvel. <a href="Levantamento.html#{code}">Abrir levantamento de campo →</a></p></div>'
         body+='<details><summary>Rastreabilidade documental</summary>'+ul(g['sources'])+'</details><footer>Ficha R14 · 23/10/2026 · CAD R45 SHA256 '+cad['source_sha256']+'<br>Pronta para consulta e compatibilização. Liberação de fabricação exige resolver os fechamentos técnicos e as cotas de campo aplicáveis.</footer>'
-        (DEST/f'{code}.html').write_text(page(code+' · '+m['name'],body),encoding='utf-8')
-    index='<p class="eyebrow">GUEDALA PARK · FICHAS DE MARCENARIA R14</p><h1>Uma ficha para cada móvel.</h1><p>Medidas, peças, acabamento e ferragens no mesmo documento. As medições do apartamento estão em uma folha separada.</p><p class="nav"><a class="action" href="Levantamento.html">Abrir levantamento no apartamento</a></p><div class="cards">'
+        (DEST/f'{code}.html').write_text(page(code+' · '+g['name'],body),encoding='utf-8')
+    index='<p class="eyebrow">GUEDALA PARK · FICHAS DE MARCENARIA R14</p><h1>Uma ficha para cada móvel.</h1><p>Medidas, peças, acabamento e ferragens no mesmo documento. Anote as medidas reais na folha do apartamento.</p><p class="nav"><a class="action" href="Levantamento.html">Abrir levantamento no apartamento</a></p><div class="cards">'
     for code,g in modules.items():
         index+=f'<a class="card" href="{code}.html"><span class="eyebrow">{code} · {ROOMS[g["room"]]}</span><h3>{text(g["name"])}</h3><p>{" × ".join(mm(v) for v in g["dimensions"])} mm</p><small>{len(g["panels"])} peças · ferragens · acabamento · montagem</small></a>'
     index+='</div><p class="note">Revisão R14: consulte as definições e a furação de cada móvel. Projeto, prova de oficina e medição no apartamento têm listas separadas. Seleção de ferragem não equivale a liberação de usinagem.</p><p><a href="Pendencias.html">Ver próximos passos dos 20 móveis →</a></p>'
@@ -125,7 +126,11 @@ def build():
     for code,g in modules.items():
         pending+='<section class="panel" id="'+code+'"><h2><a href="'+code+'.html">'+code+' · '+text(g['name'])+'</a></h2><p>'+text(g['technicalSummary'])+'</p>'+tech.gates_html(g)+'</section>'
     (DEST/'Pendencias.html').write_text(page('Próximos passos · R14',pending),encoding='utf-8')
-    (DEST/'Tecnica_R14.json').write_text(json.dumps(revision,ensure_ascii=False,indent=2),encoding='utf-8')
+    public_revision=json.loads(json.dumps(revision))
+    for code,g in modules.items():
+        public_revision['modules'][code]['summary']=g['technicalSummary']
+        public_revision['modules'][code]['name']=g['name']
+    (DEST/'Tecnica_R14.json').write_text(json.dumps(public_revision,ensure_ascii=False,indent=2),encoding='utf-8')
     assets.append('Tecnica_R14.json')
     package={'revision':'R14','cadRevision':'R45','source_sha256':cad['source_sha256'],'modules':modules}
     (STUDY/'src/fabrication-data.js').write_text('const FABRICATION_DATA = '+json.dumps(package,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')

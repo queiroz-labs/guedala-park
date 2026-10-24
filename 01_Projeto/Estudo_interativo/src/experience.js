@@ -9,13 +9,13 @@ function uiIcon(name){
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]||paths.home}</svg>`;
 }
 const STATE_OPTIONS=[
-  {id:'benchState',key:'bench',rooms:['sala'],icon:'kitchen',title:'Estudo lateral do banco',hint:'Não agradou; retorno à guarda convencional adiado. Representação existente.',choices:[['closed','Guardada','Bandeja recolhida'],['open','Retirar pela ponta','Curso e trava a conferir']]},
+  {id:'benchState',key:'bench',rooms:['sala'],icon:'kitchen',title:'Estudo lateral do banco',hint:'Estudo anterior, ainda visível no desenho. Veja a solução atual na ficha do banco.',choices:[['closed','Guardada','Bandeja recolhida'],['open','Retirar pela ponta','Curso e trava a conferir']]},
   {id:'sofaState',key:'sofa',rooms:['sala'],icon:'sofa',title:'Sofá da sala',hint:'Do bate-papo ao filme no sofá.',choices:[['closed','Fechado','110 cm'],['open','Esticado','136 cm'],['storage','Abrir baú','Demonstração']]},
   {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Uma mesa que cresce para receber.',choices:[['compact','Dia a dia','150 × 75 cm'],['extended','Mesa aberta','180 × 75 cm']]},
   {id:'diningState',key:'dining',rooms:['sala'],icon:'home',title:'Cadeiras',hint:'Seis lugares com a mesa aberta.',choices:[['stored','Guardadas','3 na lateral'],['use','Em uso','Afastadas da mesa']]},
   {id:'officeState',key:'office',rooms:['escritorio'],icon:'desk',title:'Escritório',hint:'O espaço de trabalho também recebe hóspedes.',choices:[['work','Trabalhar','Sofá fechado'],['guest','Hospedar','Cama aberta']]},
   {id:'consoleState',key:'console',rooms:['sala','escritorio'],icon:'game',title:'Onde jogar?',hint:'Um PS5, duas possibilidades.',choices:[['sala','Na sala','TV principal'],['escritorio','No escritório','TV de 43″']]},
-  {id:'dryState',key:'dry',rooms:['lavanderia'],icon:'laundry',title:'Varal',hint:'Estados ilustrativos; posição e mecanismo em estudo.',choices:[['stored','Recolhido','Sem roupas'],['high','Secando','No alto'],['low','Carregar','Na altura de uso']]}
+  {id:'dryState',key:'dry',rooms:['lavanderia'],icon:'laundry',title:'Varal',hint:'Simulação. Confira a posição e o mecanismo reais.',choices:[['stored','Recolhido','Sem roupas'],['high','Secando','No alto'],['low','Carregar','Na altura de uso']]}
 ];
 const SCENARIOS=[
   {id:'daily',icon:'home',title:'Dia a dia',detail:'Tudo pronto para a rotina',values:{sofa:'closed',office:'work',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}},
@@ -23,12 +23,12 @@ const SCENARIOS=[
   {id:'guests',icon:'bed',title:'Hospedar',detail:'Escritório com a cama aberta',values:{sofa:'closed',office:'guest',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}}
 ];
 const TOUR_STEPS=[
-  ['sala','A casa se abre para receber.','Experimente esticar o sofá ou abrir a mesa nos botões abaixo do desenho. Toque em um móvel para conhecer os detalhes.'],
-  ['escritorio','Trabalho durante o dia. Quarto de hóspedes à noite.','Alterne entre Trabalhar e Hospedar para ver a transformação do sofá-cama.'],
-  ['cozinha','Cada coisa tem seu lugar.','Toque nos armários para descobrir a organização interna, os materiais e os equipamentos.'],
-  ['lavanderia','Uma rotina bem pensada.','Veja os estados ilustrativos do varal. A ficha da bancada reúne as escolhas do tanque e do cesto; o encaixe ainda está em estudo.'],
-  ['quarto','Um lugar para descansar.','Toque no guarda-roupa para conhecer a organização interna. Use Planta para entender a distribuição.'],
-  ['banho','Os detalhes fecham o conjunto.','Conheça os metais, o espelho e os revestimentos. Depois, explore as cores e materiais na aba do início da página.']
+  ['sala','Sala e jantar.','Experimente esticar o sofá ou abrir a mesa nos botões abaixo do desenho. Toque em um móvel para conhecer os detalhes.'],
+  ['escritorio','Escritório e quarto de hóspedes.','Alterne entre Trabalhar e Hospedar para ver a transformação do sofá-cama.'],
+  ['cozinha','Cozinha.','Toque nos armários para descobrir a organização interna, os materiais e os equipamentos.'],
+  ['lavanderia','Lavanderia.','Veja os estados ilustrativos do varal. Veja o tanque e o cesto na ficha. Falta conferir o encaixe.'],
+  ['quarto','Quarto.','Toque no guarda-roupa para conhecer a organização interna. Use Planta para entender a distribuição.'],
+  ['banho','Banheiro.','Conheça os metais, o espelho e os revestimentos. Depois, explore as cores e materiais na aba do início da página.']
 ];
 let tourIndex=-1,infoReturnTarget=null;
 function buildRoomNavigation(){
@@ -36,14 +36,14 @@ function buildRoomNavigation(){
   document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>{endTour();setRoom(b.dataset.room);});
 }
 function roomWelcome(id){
-  return `<div class="inspector-welcome"><span class="detail-illustration">${uiIcon(ROOM_PRESENTATION[id][0])}</span><h2>${id==='all'?'O projeto, de perto.':esc(PROJECT.rooms.find(r=>r.id===id).name)}</h2><p>Toque em um móvel no desenho${id==='all'?' ou escolha um ambiente acima':' ou na lista abaixo'} para ver materiais, medidas e decisões.</p><div class="detail-legend"><span><i class="dot approved"></i>Escolhido para o projeto</span><span><i class="dot pending"></i>Ainda precisa de conferência</span></div><small>Um estudo para imaginar a casa. As medidas finais e a execução ainda serão conferidas.</small></div>`;
+  return `<div class="inspector-welcome"><span class="detail-illustration">${uiIcon(ROOM_PRESENTATION[id][0])}</span><h2>${id==='all'?'O projeto, de perto.':esc(PROJECT.rooms.find(r=>r.id===id).name)}</h2><p>Toque em um móvel no desenho${id==='all'?' ou escolha um ambiente acima':' ou na lista abaixo'} para ver materiais, medidas e decisões.</p><div class="detail-legend"><span><i class="dot approved"></i>Escolhido para o projeto</span><span><i class="dot pending"></i>Ainda precisa de conferência</span></div><small>Confira as medidas e a montagem antes de fabricar.</small></div>`;
 }
 function syncExperience(){
   if(!$('experiencePanel'))return;
   const overview=state.room==='all';
   $('scenarioPresets').hidden=!overview;
   $('stateCards').hidden=overview;
-  $('experienceTitle').textContent=overview?'Como vamos usar o apto?':'Experimente as mudanças';
+  $('experienceTitle').textContent=overview?'Como usar o apartamento?':'Experimente as mudanças';
   $('experienceIntro').textContent=overview?'Escolha uma cena e veja o apartamento mudar.':'Toque em uma opção para ver a mudança no desenho.';
   let visible=0;
   STATE_OPTIONS.forEach(config=>{

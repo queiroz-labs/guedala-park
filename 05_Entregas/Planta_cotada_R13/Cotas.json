@@ -14,8 +14,8 @@
         2450,
         2950
       ],
-      "scope": "Retângulo principal do dormitório; não inclui a reentrância reconstruída.",
-      "match": "Cotas escritas correspondem ao retângulo principal do modelo."
+      "scope": "Medidas da parte principal do quarto. A área recuada não está incluída.",
+      "match": "As medidas da planta correspondem à parte principal do desenho."
     },
     {
       "id": "escritorio",
@@ -25,8 +25,8 @@
         2300,
         2950
       ],
-      "scope": "Entre faces internas do retângulo principal.",
-      "match": "Cotas escritas correspondem ao modelo."
+      "scope": "Distância entre as paredes internas da parte principal.",
+      "match": "As medidas da planta correspondem ao desenho."
     },
     {
       "id": "sala",
@@ -35,8 +35,8 @@
       "mm": [
         2450
       ],
-      "scope": "Largura da sala; a cota 5,15 m é o eixo contínuo sala/cozinha.",
-      "match": "Não atribuir 5,15 m somente à sala."
+      "scope": "Largura da sala. A medida de 5,15 m inclui sala e cozinha.",
+      "match": "Os 5,15 m incluem a sala e a cozinha."
     },
     {
       "id": "sala cozinha",
@@ -45,8 +45,8 @@
       "mm": [
         5150
       ],
-      "scope": "Da parede superior da sala à parede inferior da cozinha, no eixo direito.",
-      "match": "Correspondência nominal no modelo: y185 a700 cm."
+      "scope": "Distância total entre a parede da sala e a parede da cozinha, pelo lado direito.",
+      "match": "No desenho, corresponde ao trecho de y185 a700 cm."
     },
     {
       "id": "banho",
@@ -56,8 +56,8 @@
         2090,
         1240
       ],
-      "scope": "Retângulo interno cotado; volumes e equipamentos não desenhados nesta vista.",
-      "match": "Cotas escritas correspondem ao modelo."
+      "scope": "Medidas internas do banheiro. Esta vista não mostra os equipamentos.",
+      "match": "As medidas da planta correspondem ao desenho."
     },
     {
       "id": "lavanderia",
@@ -67,8 +67,8 @@
         1290,
         1540
       ],
-      "scope": "Cotas da planta oficial. Altura/profundidade 1,54 m está apenas na tabela: os pontos extremos não coincidem com a reconstrução.",
-      "match": "Reconstrução do site:1,29 ×1,61 m. Diferença de7 cm no segundo eixo; não resolvida por deslocar uma linha de cota."
+      "scope": "A planta informa 1,54 m. Essa medida aparece na tabela porque o desenho do site é diferente.",
+      "match": "O site desenha 1,29 × 1,61 m. Há uma diferença de 7 cm na segunda medida. Confira no apartamento."
     },
     {
       "id": "cozinha",
@@ -78,8 +78,8 @@
         3520,
         1550
       ],
-      "scope": "Faixa indicada na planta; não representa todo o ambiente integrado nem confirma a parede divisória com a área de serviço.",
-      "match": "Faixa nominal correspondente no modelo; limites abertos não são novas paredes."
+      "scope": "Medidas da faixa indicada na planta. Elas não confirmam uma parede entre cozinha e lavanderia.",
+      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes."
     },
     {
       "id": "circulacao",
@@ -89,10 +89,10 @@
         900,
         1050
       ],
-      "scope": "Dois trechos cotados. Não formam um retângulo genérico de0,90 ×1,05.",
-      "match": "Faixa reconstruída do site:1,30 ×0,90 m. O trecho1,05 m não é substituído pelo envelope1,30 m."
+      "scope": "São dois trechos de passagem. As medidas não indicam a largura e o comprimento de um único retângulo.",
+      "match": "O site desenha uma área de 1,30 × 0,90 m. A medida oficial de 1,05 m continua válida no trecho indicado na planta."
     }
   ],
   "reconstructionSource": "01_Projeto/Estudo_interativo/src/app.js: floors/walls",
-  "note": "Cotas transcritas da planta oficial, página1. Geometria de apoio reconstruída a partir do site. As medidas podem variar com os acabamentos, conforme a nota da planta; não são levantamento do apartamento nem liberação de corte."
+  "note": "Medidas da página 1 da planta oficial. O desenho do site é uma aproximação. Confira as medidas após os acabamentos, antes de fabricar."
 }

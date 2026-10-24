@@ -1,6 +1,7 @@
 """Pacote explícito para encaminhar: CAD canônico e fichas/documentação corrente."""
 from pathlib import Path
 import zipfile, json, hashlib, shutil
+from plain_language import plain_html
 
 STUDY=Path(__file__).resolve().parent
 ROOT=STUDY.parent.parent
@@ -32,7 +33,7 @@ def build():
 <h2>Antes de montar</h2><p>Consulte a situação de cada operação. Banco, cesto, ligações ainda sem mapa e interfaces de mecanismos têm pendências técnicas nas fichas. Medidas reais do apartamento estão em uma folha separada. Branco TX continua definido para interiores, com os padrões escolhidos nas faces aparentes.</p>
 <p><a href="{BATH}Fechamento.html">Banheiro: escolhas e fechamento pré-entrega de24/10</a>. O estudo P19 contém as novas uniões nominais da caixa, em arquivo separado; os furos não estão aplicados ao principal. Beige Matt/Louro Freijó Poro e teto3000 K escolhidos. Suspensão, montagem, produtos e levantamento permanecem condicionados.</p>
 <p>Os HTML, SVG e CSV deste pacote abrem localmente. Links de fabricantes e o site interativo precisam de internet. O preenchimento da folha de campo não é salvo automaticamente: imprima ou salve em PDF.</p><footer>Integridade do FreeCAD · SHA256: {sha}</footer>'''
-    html='<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guedala Park · comece aqui</title><style>body{font:16px/1.6 system-ui;color:#263f3b;background:#f7f6f2;max-width:900px;margin:auto;padding:32px}h1,h2{font-family:Georgia}nav{display:grid;gap:10px;margin:25px 0}a{color:#2c5947}nav a{background:white;border:1px solid #dbe0d6;border-radius:8px;padding:12px 16px;text-decoration:none}code{overflow-wrap:anywhere}footer{font-size:11px;border-top:1px solid #ccd7c7;padding-top:18px;overflow-wrap:anywhere}</style>'+body+'</html>'
+    html='<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guedala Park · comece aqui</title><style>body{font:16px/1.6 system-ui;color:#263f3b;background:#f7f6f2;max-width:900px;margin:auto;padding:32px}h1,h2{font-family:Georgia}nav{display:grid;gap:10px;margin:25px 0}a{color:#2c5947}nav a{background:white;border:1px solid #dbe0d6;border-radius:8px;padding:12px 16px;text-decoration:none}code{overflow-wrap:anywhere}footer{font-size:11px;border-top:1px solid #ccd7c7;padding-top:18px;overflow-wrap:anywhere}</style>'+plain_html(body)+'</html>'
     package_info={'revision':'R16','cadRevision':'R46 (R45 + P08 + fichas R14) 2026-10-24','appearanceRevision':'R16','fabricationRevision':'R14','cadPath':CAD,'cadSHA256':sha,'legacyAliases':['05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip'],'files':['COMECE_AQUI.html','manifest.json']+paths,'scope':'R46: R45 geometry with R16 appearance and P08 casters (six 38 mm plus six 1 mm spacers, 39 mm total); R14 fabrication data stored as properties and 52 Minifix markers, no panel drilled. Other geometry and placements preserved. Current R14 fabrication and floorplan artifacts. Legacy R14 ZIP URL serves this same R16 package.'}
     data=json.dumps(package_info,ensure_ascii=False,indent=2)
     target=DEST/'Guedala_Park_R16.zip'
