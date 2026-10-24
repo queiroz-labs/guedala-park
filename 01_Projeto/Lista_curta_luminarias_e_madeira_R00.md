@@ -2,6 +2,8 @@
 
 **24/10/2026 — luminárias do banheiro L01:** teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240; indireta 3000 K CLX-FT431230. Perfis MOV 4329 brancos e fontes LPV-20-12/LPV-35-12, três comandos separados. [Composição e links de compra](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L01.html). Seleção técnica para cotação; sem compra ou liberação de montagem. Provar canal/dissipação, terminais e luz no rosto; barra inferior depende da torneira. Subtotal conhecido R$645,83, mais fita4000 K sob consulta, montagem e demais exclusões da L01; orçamento geral preservado.
 
+> **Continuidade em 24/10/2026:** a [proposta CB01 de iluminação](Iluminacao/Fechamento_custo_beneficio_2026-10-24/Selecao_CB01.md) revê a combinação abaixo: preservar RGB/Alexa da sala e do escritório, regulagem do quarto/bancada e os três grupos do escritório. EVO simples não substitui luz geral inteligente; ECO não é a prioridade da lavanderia. CB01 é proposta, sem aprovação de novos modelos, compra ou alteração do orçamento global.
+
 # Lista curta para escolher — luminárias e madeira do banheiro · R00
 
 24/10/2026. **Para você escolher.** Preços anunciados na data, sem frete, sem compra. Ao lado de cada item está o código da [planta de pontos](Planta_pontos_R00/README.md). Marque a opção preferida (A, B ou C) nos itens 1 a 3 e eu atualizo o caderno, a planta de pontos e o orçamento.

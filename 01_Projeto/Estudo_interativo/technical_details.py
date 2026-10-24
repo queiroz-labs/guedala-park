@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape
 import csv, io, json
+from plain_language import plain_module
 
 DATA = Path(__file__).resolve().parent / 'fabrication/technical-r14.json'
 
@@ -42,16 +43,16 @@ def apply_revision(g, revision):
     g['drillingPath']=f"05_Entregas/Fichas_fabricacao_R13/{g['code']}-furacao.csv"
     g['technicalSummary']=module['summary']
     g['sources']=list(dict.fromkeys(g['sources']+module.get('sourcePaths',[])))
-    return g
+    return plain_module(g)
 
 def choices_html(g):
     out='<div class="decision-grid">'
     for row in g['decisions']:
         qty='' if row.get('quantity') is None else f" · {row['quantity']} {row.get('unit','')}"
-        out+='<article class="decision"><small>'+text(row.get('status','Selecionado em projeto'))+'</small><h3>'+text(row['item'])+'</h3><p><strong>'+text(row['reference'])+text(qty or ' ')+'</strong></p><p>'+text(row['reason'])+'</p><div class="sources-note">'+source_links(row.get('sources'))+'</div></article>'
+        out+='<article class="decision"><small>'+text(row.get('status','Selecionado em projeto'))+'</small><h3>'+text(row['item'])+'</h3>'+(('<p>'+text(row['explanation'])+'</p>') if row.get('explanation') else '')+'<p><strong>'+text(row['reference'])+text(qty or ' ')+'</strong></p><p>'+text(row['reason'])+'</p><div class="sources-note">'+source_links(row.get('sources'))+'</div></article>'
     return out+'</div>'
 
-DRILL_FIELDS=[('partIds','Peças CAD'),('face','Face a trabalhar'),('datum','Origem / referência'),('pattern','Posição dos furos · mm'),('diameter','Diâmetro · mm'),('depth','Profundidade · mm'),('fastener','Fixador'),('releaseCondition','Conferência antes de furar')]
+DRILL_FIELDS=[('partIds','Códigos das peças no modelo'),('face','Face a trabalhar'),('datum','Origem / referência'),('pattern','Posição dos furos · mm'),('diameter','Diâmetro · mm'),('depth','Profundidade · mm'),('fastener','Fixador'),('releaseCondition','Conferência antes de furar')]
 
 def drilling_html(g):
     out='<p>Valores em milímetros. Cada operação informa sua situação: parâmetro de catálogo, mapa nominal ou detalhe ainda bloqueado. Coordenadas nominais exigem conferência da ferragem e prova em retalho antes de usinar a peça.</p><p class="no-print"><a class="action" href="'+g['code']+'-furacao.csv" download>Baixar tabela de furação CSV</a></p>'
@@ -72,7 +73,7 @@ def check_html(items):
 
 def gates_html(g):
     interfaces=g.get('unmappedInterfaces',[])
-    return '<div class="gates"><section><h3>Projeto · compatibilizar</h3>'+check_html(g['projectChecks'])+'</section><section><h3>Oficina · conferir e provar</h3>'+check_html(g['workshopChecks'])+'</section><section><h3>Apartamento · medir</h3><p>'+str(len(g['fieldChecks']))+' conferências físicas, em folha separada.</p><a href="Levantamento.html#'+g['code']+'">Abrir medições deste móvel →</a></section></div>'+('<details><summary>Ligações ainda sem mapa · '+str(len(interfaces))+' contatos</summary><p>Encontros identificados na amostra de painéis retangulares. Cada par ainda exige distribuição de conectores; o número de contatos não é quantidade de parafusos. Ausência na amostra não elimina uma ligação necessária.</p>'+check_html(interfaces)+'</details>' if interfaces else '')
+    return '<div class="gates"><section><h3>Projeto · compatibilizar</h3>'+check_html(g['projectChecks'])+'</section><section><h3>Oficina · conferir e provar</h3>'+check_html(g['workshopChecks'])+'</section><section><h3>Apartamento · medir</h3><p>'+str(len(g['fieldChecks']))+' conferências físicas, em folha separada.</p><a href="Levantamento.html#'+g['code']+'">Abrir medições deste móvel →</a></section></div>'+('<details><summary>Uniões ainda sem desenho de montagem · '+str(len(interfaces))+' contatos</summary><p>Encontros identificados na amostra de painéis retangulares. Cada par ainda exige distribuição de conectores; o número de contatos não é quantidade de parafusos. Ausência na amostra não elimina uma ligação necessária.</p>'+check_html(interfaces)+'</details>' if interfaces else '')
 
 def write_drilling_csv(g, dest):
     buf=io.StringIO(newline='')

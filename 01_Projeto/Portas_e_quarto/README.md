@@ -1,5 +1,7 @@
 # Portas e quarto
 
+**24/10/2026 — cabeceira E2 Suede / Areia escolhida:** Elias escolheu “suede areia” após a comparação conjunta de banco/cabeceira. Usar a direção do [painel central E2](../../03_Referencias/Cortinas_estofados_2026-10-24/02_Estofados_E1_E2_E3.png): aparência lisa e aveludada, tom areia e prioridade de toque macio/aconchego. Preservar cabeceira em dois painéis e quarto sem cortina externa; fabricante, coleção, código, composição e amostra permanecem por selecionar. Não inferir impermeabilidade, método de lavagem, espuma ou compra.
+
 **22/10/2026 — apoios removidos do escopo:** retirar os dois suportes de celular/óculos, inclusive do FreeCAD, conforme pedido de Elias. Preservar cabeceira, iluminação e armário superior. Referências aos apoios e seu alcance abaixo são históricas e estão superadas.
 
 **16/10/2026 — cama atual e futura, escolha encerrada:** cama de viúvo com baú existente para a mudança e uso inicial; **queen com baú escolhida para troca posterior**. Menções históricas a queen existente estão superadas; o tamanho futuro agora foi aceito expressamente. Preparar implantação, cabeceira, apoios e iluminação para a queen, preservando o roupeiro650. Estudar a cama de viúvo centralizada no mesmo eixo e conferir alcance dos apoios no uso inicial. Referência de colchão queen158 ×198 cm e gabarito CAD160 ×200 não substituem medidas externas da base, altura final, abertura e vão do baú. Mala grande futura deve caber no baú da queen; não há produto comprado nem alteração da R30 nesta decisão.

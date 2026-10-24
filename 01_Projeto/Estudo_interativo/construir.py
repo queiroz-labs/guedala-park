@@ -1,16 +1,17 @@
 from pathlib import Path
 import base64
 import runpy
+from plain_language import plain_html
 
 root=Path(__file__).resolve().parent
 src=root/'src'
 runpy.run_path(str(root/'build_visual_finishes.py'))['build']()
-html=(src/'shell.html').read_text(encoding='utf-8')
+html=plain_html((src/'shell.html').read_text(encoding='utf-8'))
 html=html.replace('</style>',(src/'workshop.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encoding='utf-8')+'\n'+(src/'workshop.js').read_text(encoding='utf-8')+'\n'+(src/'fabrication-ui.js').read_text(encoding='utf-8')+'\n'+(src/'floorplan-ui.js').read_text(encoding='utf-8')+'</script></body>')
 for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('cad-data.js','/*CAD_DATA*/'),('cad-sync.js','/*CAD_SYNC*/'),('lighting.js','/*LIGHTING*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     content=(src/name).read_text(encoding='utf-8')
-    if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+content
+    if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+(src/'site-copy.js').read_text(encoding='utf-8')+'\n'+content
     html=html.replace(token,content)
 
 details={}

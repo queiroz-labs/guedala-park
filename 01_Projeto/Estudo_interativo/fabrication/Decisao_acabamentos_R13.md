@@ -1,5 +1,9 @@
 # Decisão de acabamentos — R13
 
+**24/10/2026 — escritório, aéreo claro confirmado:** Elias confirmou manter o aéreo claro e discreto para evitar sensação de teto baixo/sufocante. Preservar direção O2 Marfim, superfície lisa e fosca e pouco contraste com Algodão Egípcio; bancada e frentes de gavetas Arenza. Lume Matt é candidato a comparar em amostra, não produto aprovado por esta confirmação.
+
+**24/10/2026 — tons visuais aprovados na comparação R02:** B2 **Areia** nas frentes do gabinete do banheiro, M2 **Madeira Natural** nas laterais aparentes do gabinete/espelheiro e O2 **Marfim** no aéreo do escritório acima do sofá. [Imagens escolhidas e alcance da decisão](../../../03_Referencias/Tons_marcenaria_2026-10-24/Escolha_aprovada_R02.md). Preservar as seleções comerciais registradas do banheiro (Arauco Beige Matt e Arauco Louro Freijó Poro), conferindo correspondência por amostra. Marfim do escritório ainda sem código comercial. Não estender a escolha para sala, quarto ou gavetas Arenza. Branco TX interno preservado.
+
 23/10/2026. Fonte: decisão explícita do usuário nesta conversa do projeto.
 
 **Decisão: Branco TX nos interiores; padrões já escolhidos nas faces aparentes.**

@@ -1,5 +1,9 @@
 # Sala e jantar — estado vigente
 
+**24/10/2026 — estofado E2 Suede / Areia escolhido:** Elias escolheu o painel central da [comparação dos estofados](../../03_Referencias/Cortinas_estofados_2026-10-24/02_Estofados_E1_E2_E3.png) para assentos/encosto do banco e cabeceira do quarto. Priorizar toque macio, aparência aconchegante, lisa e aveludada. No banco, preservar três painéis de encosto, duas almofadas e acesso pelas duas tampas. A cor areia atualiza a direção genérica greige anterior. Produto, código, composição, espuma e amostra ainda a selecionar; não altera os sofás Bonnie/Daiane, cadeiras ou almofadas decorativas. O estado sem escolha no registro da cortina abaixo pertence à etapa anterior e está superado.
+
+**24/10/2026 — cortina C2 Areia escolhida:** Elias aprovou o painel central da [comparação visual](../../03_Referencias/Cortinas_estofados_2026-10-24/01_Cortinas_C1_C2_C3.png): tecido leve com aparência de linho em tom areia, atualizando a direção anterior off-white da cortina da sala. Parede inteira, recolhimento para o lado do sofá e prioridade aos móveis preservados. Confecção de pouco volume e blackout de rolo no vão permanecem sujeitos ao estudo de encaixe/amostra; 7 cm é limite de estudo, não produto validado. Fabricante/código/composição ainda a selecionar. Banco e cabeceira sem nova escolha de tecido; não estender Areia automaticamente a esses itens ou ao escritório.
+
 21/10/2026. [Banco com entrada superior da folha, aplicado na R37](../Modelo_FreeCAD/01_Atual/Banco_superior_R37_2026-10-20/README.md), mantido na R41. Folha única 750 × 300 × 30 mm; mesa 1500/1800 × 750 mm; abertura central total de 300 mm. Bandeja e guias laterais removidas. Ferragem comercial da mesa, dobradiças/retenção das tampas e resistência do banco ainda não fechadas. [Pendências e critérios](../Painel_de_decisoes.md). As antigas instruções de aguardar antes de alterar o banco foram superadas pela execução autorizada na R37.
 
 ---

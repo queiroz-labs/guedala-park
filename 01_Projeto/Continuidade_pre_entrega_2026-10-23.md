@@ -14,7 +14,7 @@
 
 | Tema | Já escolhido | O que ainda precisa de escolha |
 |---|---|---|
-| Materiais | Branco TX interno e cores externas por ambiente | Códigos ausentes, madeira clara do banheiro, bege/off-white exatos, amostras e acabamento das bordas; preservar a paleta |
+| Materiais | Branco TX interno; R02 aprovada em 24/10: B2 Areia nas frentes do banheiro, M2 Madeira Natural nas laterais e O2 Marfim no aéreo do escritório | Conferir amostras/códigos contra as imagens aprovadas; preservar seleções Arauco do banheiro e definir código do Marfim. Outros off-whites não foram incluídos automaticamente; bordas/composição seguem técnicas. [Escolha R02](../03_Referencias/Tons_marcenaria_2026-10-24/Escolha_aprovada_R02.md) |
 | Iluminação | Quarto com plafon branco discreto, geral 3000 K regulável, LED indireto e duas arandelas brancas compactas independentes | Modelos, perfil/difusor, acesso às fontes e comandos exatos; posições executivas depois da conferência |
 | Banco e cesto | Simplicidade/custo; armazenamento e visual preservados; duas tampas presas por dobradiças | Diretriz manual proposta; seleção de ferragens, encaixe e ensaio são pendências técnicas |
 | Orçamento | Buscar R$35 mil de marcenaria sem perder armazenamento ou mudar cores | Aceitação futura de propostas reais e eventuais compromissos apresentados explicitamente |
