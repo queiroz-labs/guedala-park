@@ -2,7 +2,9 @@
 
 Visualização dos ambientes, medidas e informações para montar os móveis.
 
-Atualização de 24/10/2026: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md) — ferragens por móvel, especificação por peça e 52 Minifix como marcadores, sem alterar a geometria. Também: [gaveta baixa P08 — seleção e link de compra](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Seis rodízios de **38 mm** com seis espaçadores metálicos de **1 mm** mantêm **39 mm** de apoio. O lançador, o pacote R16 e os links públicos abaixo usam a R46.
+Atualização de 24/10/2026: **[FreeCAD R48](01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md) é o modelo vigente.** Ele parte da R46 e muda só o seguinte: tira o canal de duto do aéreo D (o depurador não tem duto), leva o divisor do aéreo D até o fundo e remove três reservas ocultas sem decisão. A R48 ainda não está publicada; os links públicos abaixo continuam na R46.
+
+Anterior: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md) — ferragens por móvel, especificação por peça e 52 Minifix como marcadores, sem alterar a geometria. Também: [gaveta baixa P08 — seleção e link de compra](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Seis rodízios de **38 mm** com seis espaçadores metálicos de **1 mm** mantêm **39 mm** de apoio. O lançador, o pacote R16 e os links públicos abaixo usam a R46.
 
 **[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para compartilhar ↓](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip)**
 
@@ -36,7 +38,7 @@ Atualização de 24/10/2026: [FreeCAD R46 com as fichas R14 no modelo](01_Projet
 
 1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip)** e envie como arquivo ou compartilhe este link.
 2. Extraia o ZIP inteiro e abra **COMECE_AQUI.html** no navegador. Ele funciona como menu da pasta.
-3. Para editar o modelo, abra o arquivo **01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. As fichas, planta e tabelas podem ser consultadas sem instalar o FreeCAD.
+3. Para editar o modelo, abra o arquivo **01_Projeto/Depurador_sem_canal_R48_2026-10-24/Guedala_Park_R48_Depurador_sem_canal.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. As fichas, planta e tabelas podem ser consultadas sem instalar o FreeCAD.
 
 **Revisões:** R16 identifica o pacote e as cores atualizadas do FreeCAD, alinhadas ao site e às fichas; R45 identifica a geometria preservada; R14 identifica as fichas técnicas. A R46 grava no FreeCAD as seleções das fichas; furos, a FGVTN 500 e a piano do banco continuam fora da geometria ([o que mudou](01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md)). A pasta `Fichas_fabricacao_R13` mantém o endereço antigo para preservar os links, mas seu conteúdo corrente é R14.
 

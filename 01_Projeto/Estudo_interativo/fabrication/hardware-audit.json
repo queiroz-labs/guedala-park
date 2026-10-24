@@ -1403,7 +1403,7 @@
         },
         {
           "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
-          "trecho": "| P08 | Gaveta baixa | Reserva entre apoios laterais 1233, altura 180; guias laterais 3 e corrida 2 são proposta sem apoio vertical. | Rodízios/seis rodas e mecanismo em estudo de gavetas. Não tratar guias como suporte de peso. | | P09 | Aéreo D | Vão 614×312×556. Divisor 18 emX3211–3229 limita apenas os 118 mm dianteiros. Reserva central do duto 196×178×556 ocupa a região posterior. | Não apresentar dois nichos íntegros de 298×312: canal técnico corta profundidade. Manter acesso ao duto e definir conexão dos divisores curtos. | | P10 | Aéreo C | 511×312; alturas livres 180 /192 /258 /298. Prateleiras 18 encostam nas laterais sem folga. | Alt"
+          "trecho": "| P08 | Gaveta baixa | Reserva entre apoios laterais 1233, altura 180; guias laterais 3 e corrida 2 são proposta sem apoio vertical. | Rodízios/seis rodas e mecanismo em estudo de gavetas. Não tratar guias como suporte de peso. | | P09 | Aéreo D | Vão 614×312×556. Divisor 18 emX3211–3229 vai até o fundo (312 mm) e forma dois nichos 298×312×556. Depurador sem duto (R48): sem canal posterior. | Dois nichos 298×312 de profundidade total. Preservar a abertura de retorno de ar de 20 mm na largura (manual DE61IX) e definir a ligação do divisor ao fundo, base e tampo. | | P10 | Aéreo C | 511×312; alturas livres 180 /192 /258 /298. Prateleiras 18 encostam nas laterais sem folga. | Alt"
         },
         {
           "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
@@ -1510,13 +1510,13 @@
       "technicalChecks": [
         "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
         "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
-        "Dimensionar ligações dos divisores curtos, suspensão e acesso ao duto; não tratar como dois nichos livres298 ×312.",
+        "Dimensionar as ligações do divisor de profundidade total e a suspensão; dois nichos livres 298 × 312.",
         "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
         "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual."
       ],
       "assembly": [
         "Alternativa FGVTN H0: caneco Ø35 × 11,3 mm, chapa 18 nominal; a furação Blum de 13 mm não é autorização para reutilização. K5/recobrimento16, exceto duas dobradiças da folha vizinha da cabeceira com K6/17.",
-        "Preservar canal técnico posterior196 ×178 ×556; o divisor corta apenas118mm dianteiros."
+        "Divisor 18 com 312 mm de profundidade, da frente da caixa ao fundo; canal técnico removido na R48."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -1553,7 +1553,7 @@
         },
         {
           "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
-          "trecho": "| P09 | Aéreo D | Vão 614×312×556. Divisor 18 emX3211–3229 limita apenas os 118 mm dianteiros. Reserva central do duto 196×178×556 ocupa a região posterior. | Não apresentar dois nichos íntegros de 298×312: canal técnico corta profundidade. Manter acesso ao duto e definir conexão dos divisores curtos. | | P10 | Aéreo C | 511×312; alturas livres 180 /192 /258 /298. Prateleiras 18 encostam nas laterais sem folga. | Alternativa Minifix modelada para peças fixas. Se removíveis, criar folga de montagem e apoiar conforme ferragem; não comprar pinos presumindo encaixe sem ajuste. | | P11 | Aéreo B | 661×312; alturas 258 e 298 separadas por prateleir"
+          "trecho": "| P09 | Aéreo D | Vão 614×312×556. Divisor 18 emX3211–3229 vai até o fundo (312 mm) e forma dois nichos 298×312×556. Depurador sem duto (R48): sem canal posterior. | Dois nichos 298×312 de profundidade total. Preservar a abertura de retorno de ar de 20 mm na largura (manual DE61IX) e definir a ligação do divisor ao fundo, base e tampo. | | P10 | Aéreo C | 511×312; alturas livres 180 /192 /258 /298. Prateleiras 18 encostam nas laterais sem folga. | Alternativa Minifix modelada para peças fixas. Se removíveis, criar folga de montagem e apoiar conforme ferragem; não comprar pinos presumindo encaixe sem ajuste. | | P11 | Aéreo B | 661×312; alturas 258 e 298 separadas por prateleir"
         },
         {
           "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",

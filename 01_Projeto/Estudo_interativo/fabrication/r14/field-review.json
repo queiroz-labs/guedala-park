@@ -643,7 +643,7 @@
           "measure": "Eixo, seção e projeção da saída real de exaustão.",
           "method": "Cotar centro X/Z e diâmetro ou largura/altura; medir projeção do conjunto instalado e mudanças de direção. Fotografar conexão com escala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Canal posterior, divisores curtos e acesso ao duto.",
+          "affects": "Fundo, divisor e suspensão.",
           "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
@@ -685,8 +685,8 @@
       ],
       "closeableFromLocalEvidence": [
         {
-          "topic": "Conservar canal técnico",
-          "decision": "4 dobradiças; não anunciar dois nichos completos298×312 porque a reserva posterior196×178×556 intercepta a profundidade. Isso já está fechado geometricamente.",
+          "topic": "Divisor até o fundo",
+          "decision": "4 dobradiças; dois nichos completos 298 × 312 × 556 com o divisor até o fundo (R48). Fechado geometricamente.",
           "source": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
           "status": "documental/dimensional; não libera fabricação por si"
         }
@@ -694,10 +694,10 @@
       "technicalChecksToKeepSeparate": [
         "Obter massa da folha acabada (chapa, fita, adesivo, puxador e vidro se houver) e validar quantidade/fixação pela tabela do fabricante da ferragem escolhida.",
         "Fechar padrão de parafusos, piloto, profundidade de caneco e trajetória da ferragem real; a cinemática Blum não valida automaticamente FGVTN.",
-        "Dimensionar ligações dos divisores curtos, suspensão e acesso ao duto; não tratar como dois nichos livres298 ×312.",
+        "Dimensionar as ligações do divisor de profundidade total e a suspensão; dois nichos livres 298 × 312.",
         "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
         "Definir sistema de suspensão e ligação à caixa antes de quantificar; a alternativaHettichSAH215exige16mmtraseiros e não cabe automaticamente no fundo alinhado atual.",
-        "Não apresentar dois nichos íntegros de 298×312: canal técnico corta profundidade. Manter acesso ao duto e definir conexão dos divisores curtos.",
+        "Dois nichos 298×312 de profundidade total. Preservar a abertura de retorno de ar de 20 mm na largura (manual DE61IX) e definir a ligação do divisor ao fundo, base e tampo.",
         "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
         "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
         "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",

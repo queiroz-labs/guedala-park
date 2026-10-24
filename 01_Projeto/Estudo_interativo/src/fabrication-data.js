@@ -8437,7 +8437,7 @@ const FABRICATION_DATA = {
         350.0,
         592.0
       ],
-      "internalMeasures": "Vão 614×312×556. Divisor 18 emX3211–3229 limita apenas os 118 mm dianteiros. Reserva central do duto 196×178×556 ocupa a região posterior.",
+      "internalMeasures": "Vão 614×312×556. Divisor 18 emX3211–3229 vai até o fundo (312 mm) e forma dois nichos 298×312×556. Depurador sem duto (R48): sem canal posterior.",
       "panels": [
         {
           "id": "Peca315",
@@ -8528,9 +8528,9 @@ const FABRICATION_DATA = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556.0,
-            118.0,
-            18.0
+            556,
+            312,
+            18
           ],
           "thickness": 18.0,
           "rectangular": true,
@@ -8579,11 +8579,11 @@ const FABRICATION_DATA = {
       "hardwareRows": [
         {
           "item": "Ligações dos painéis da carcaça",
-          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos",
+          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "quantity": null,
           "unit": "conector / fixador",
           "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178. Consultar as interfaces ainda sem mapa na ficha.",
+          "assembly": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar. Consultar as interfaces ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
@@ -8716,7 +8716,7 @@ const FABRICATION_DATA = {
           "measure": "Eixo, seção e projeção da saída real de exaustão.",
           "method": "Cotar centro X/Z e diâmetro ou largura/altura; medir projeção do conjunto instalado e mudanças de direção. Fotografar conexão com escala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Canal posterior, divisores curtos e acesso ao duto.",
+          "affects": "Fundo, divisor e suspensão.",
           "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
@@ -8757,7 +8757,7 @@ const FABRICATION_DATA = {
         }
       ],
       "technicalChecks": [
-        "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178.",
+        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
@@ -8766,9 +8766,9 @@ const FABRICATION_DATA = {
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
       ],
       "assembly": [
-        "Reservar canal técnico posterior e acesso ao duto; não apresentar dois nichos íntegros de profundidade total.",
-        "Detalhar ligações dos divisores curtos e suspensão do armário.",
-        "Preservar canal técnico posterior196 ×178 ×556; o divisor corta apenas118mm dianteiros.",
+        "Sem canal técnico (R48): divisor de profundidade total até o fundo; manter a abertura de retorno de ar de 20 mm na largura.",
+        "Detalhar as ligações do divisor de profundidade total e a suspensão do armário.",
+        "Divisor 18 com 312 mm de profundidade, da frente da caixa ao fundo; canal técnico removido na R48.",
         "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
         "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
       ],
@@ -8878,12 +8878,12 @@ const FABRICATION_DATA = {
           "assemblyStatus": "piloto e primeira peça"
         },
         {
-          "item": "Caixa fixa preservando o canal do duto",
-          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos",
+          "item": "Caixa fixa com divisor de profundidade total",
+          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
           "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178.",
+          "reason": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
@@ -9051,7 +9051,7 @@ const FABRICATION_DATA = {
           "pattern": "Família de união selecionada; centros ainda não individualizados",
           "diameter": null,
           "depth": null,
-          "fastener": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos",
+          "fastener": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "status": "Não executar: mapa individual de oficina pendente",
           "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
           "sources": [
@@ -9067,7 +9067,7 @@ const FABRICATION_DATA = {
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
       ],
       "projectChecks": [
-        "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178.",
+        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
@@ -9147,18 +9147,19 @@ const FABRICATION_DATA = {
         }
       ],
       "unmappedInterfaces": [
+        "Peca317 ↔ Peca320 (Y; 18.0×556.0 mm)",
         "Peca315 ↔ Peca317 (X; 18.0×556.0 mm)",
         "Peca315 ↔ Peca318 (X; 312.0×18.0 mm)",
         "Peca315 ↔ Peca319 (X; 312.0×18.0 mm)",
         "Peca316 ↔ Peca317 (X; 18.0×556.0 mm)",
         "Peca316 ↔ Peca318 (X; 312.0×18.0 mm)",
         "Peca316 ↔ Peca319 (X; 312.0×18.0 mm)",
-        "Peca318 ↔ Peca320 (Z; 18.0×118.0 mm)",
-        "Peca319 ↔ Peca320 (Z; 18.0×118.0 mm)"
+        "Peca318 ↔ Peca320 (Z; 18.0×312.0 mm)",
+        "Peca319 ↔ Peca320 (Z; 18.0×312.0 mm)"
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P09-furacao.csv",
-      "technicalSummary": "Blum nas duas portas. O canal do duto e o divisor curto precisam permanecer livres das uniões.",
+      "technicalSummary": "Blum nas duas portas. Divisor até o fundo forma dois nichos 298 × 312; preservar o retorno de ar de 20 mm do depurador.",
       "panelGroups": [
         {
           "id": "Peca315",
@@ -9273,9 +9274,9 @@ const FABRICATION_DATA = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556.0,
-            118.0,
-            18.0
+            556,
+            312,
+            18
           ],
           "thickness": 18.0,
           "rectangular": true,

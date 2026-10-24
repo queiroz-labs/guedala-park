@@ -1591,12 +1591,12 @@
       "name": "Aéreo D",
       "decisions": [
         {
-          "item": "Caixa fixa preservando o canal do duto",
-          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos",
+          "item": "Caixa fixa com divisor de profundidade total",
+          "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
           "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178.",
+          "reason": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
@@ -1631,7 +1631,7 @@
           "pattern": "Família de união selecionada; centros ainda não individualizados",
           "diameter": null,
           "depth": null,
-          "fastener": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos",
+          "fastener": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "status": "Não executar: mapa individual de oficina pendente",
           "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
           "sources": [
@@ -1644,7 +1644,7 @@
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "technicalChecks": [
-        "Trecho dianteiro118 não comporta copiar dois pontos a60 de cada extremidade: ficariam separados2mm. Desenhar união do divisor sem invadir reserva do duto196×178.",
+        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em unmappedInterfaces; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso."
@@ -1652,6 +1652,20 @@
       "interfaces": [
         {
           "module": "Modulo008",
+          "a": "Peca317",
+          "b": "Peca320",
+          "axis": "Y",
+          "contact_dimensions_mm": [
+            18.0,
+            556.0
+          ],
+          "area_mm2": 10008.0,
+          "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
+          "status": "Mapa individual de conectores pendente na oficina",
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
+        },
+        {
+          "module": "Modulo008",
           "a": "Peca315",
           "b": "Peca317",
           "axis": "X",
@@ -1662,7 +1676,7 @@
           "area_mm2": 10008.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1676,7 +1690,7 @@
           "area_mm2": 5616.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1690,7 +1704,7 @@
           "area_mm2": 5616.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1704,7 +1718,7 @@
           "area_mm2": 10008.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1718,7 +1732,7 @@
           "area_mm2": 5616.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1732,7 +1746,7 @@
           "area_mm2": 5616.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1741,12 +1755,12 @@
           "axis": "Z",
           "contact_dimensions_mm": [
             18.0,
-            118.0
+            312.0
           ],
-          "area_mm2": 2124.0,
+          "area_mm2": 5616.0,
           "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         },
         {
           "module": "Modulo008",
@@ -1755,23 +1769,24 @@
           "axis": "Z",
           "contact_dimensions_mm": [
             18.0,
-            118.0
+            312.0
           ],
-          "area_mm2": 2124.0,
+          "area_mm2": 5616.0,
           "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado",
           "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria nos divisores curtos"
+          "strategy": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total"
         }
       ],
       "unmappedInterfaces": [
+        "Peca317 ↔ Peca320 (Y; 18.0×556.0 mm)",
         "Peca315 ↔ Peca317 (X; 18.0×556.0 mm)",
         "Peca315 ↔ Peca318 (X; 312.0×18.0 mm)",
         "Peca315 ↔ Peca319 (X; 312.0×18.0 mm)",
         "Peca316 ↔ Peca317 (X; 18.0×556.0 mm)",
         "Peca316 ↔ Peca318 (X; 312.0×18.0 mm)",
         "Peca316 ↔ Peca319 (X; 312.0×18.0 mm)",
-        "Peca318 ↔ Peca320 (Z; 18.0×118.0 mm)",
-        "Peca319 ↔ Peca320 (Z; 18.0×118.0 mm)"
+        "Peca318 ↔ Peca320 (Z; 18.0×312.0 mm)",
+        "Peca319 ↔ Peca320 (Z; 18.0×312.0 mm)"
       ]
     },
     "P10": {

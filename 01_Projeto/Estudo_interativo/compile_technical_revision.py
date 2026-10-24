@@ -18,7 +18,7 @@ SUMMARIES={
 'P06':'Três pares FGVTN 500. Parâmetros do fabricante registrados; engates e datum final exigem conferência.',
 'P07':'Grelhas removíveis com M4 e retenção metálica a detalhar. Preservar os canais de ventilação.',
 'P08':'Seis rodízios fixos Leão Aço de 38 mm + seis espaçadores rígidos de 1 mm selecionados. Apoio de 39 mm preservado; furação real, carga, guias e batente a conferir.',
-'P09':'Blum nas duas portas. O canal do duto e o divisor curto precisam permanecer livres das uniões.',
+'P09':'Blum nas duas portas. Divisor até o fundo forma dois nichos 298 × 312; preservar o retorno de ar de 20 mm do depurador.',
 'P10':'Blum nas portas e 20 conjuntos Minifix. Três prateleiras fixas desmontáveis, com furação nominal por peça.',
 'P11':'Blum nas portas e 12 conjuntos Minifix. Furação nominal verificada na geometria; carga e suspensão separadas.',
 'P12':'Blum nas portas. Ligações da divisória central e suspensão precisam de mapa próprio.',

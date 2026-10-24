@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-24",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Fichas_no_CAD_R46_2026-10-24\\Guedala_Park_R46_Fichas_R14.FCStd",
+  "sourceSHA256": "2ebcc014478c9d09569e278296a6809bf207edb5e280ac45d226aa642ec3443d",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Depurador_sem_canal_R48_2026-10-24\\Guedala_Park_R48_Depurador_sem_canal.FCStd",
+  "SHA256": "aa9290747cc13725865f2a687eb5c328a0e50fa738d767ca6fa9cc6a41b73e19",
+  "objects": 5893,
+  "changed": {
+    "name": "Peca320",
+    "label": "Divisória005",
+    "width_mm": [
+      118,
+      312
+    ],
+    "bbox_mm": [
+      -334.0,
+      20.0,
+      18.0,
+      -316.0,
+      332.0,
+      574.0
+    ]
+  },
+  "removed": {
+    "name": "Peca321",
+    "label": "Reserva canal técnico · sem armazenamento",
+    "module": "Modulo008",
+    "bbox_mm": [
+      -423.0,
+      154.0,
+      18.0,
+      -227.0,
+      332.0,
+      574.0
+    ]
+  },
+  "hidden_reserves_removed": [
+    {
+      "name": "Peca250",
+      "label": "Proteção lateral · reserva de 10 mm"
+    },
+    {
+      "name": "R45_Ref_Faixa_cadeira",
+      "label": "Reserva central800×500×720; não é cadeira real"
+    },
+    {
+      "name": "ReservasTecnicasR31",
+      "label": "R31 · reservas técnicas ocultas — ar / recorte / cooktop hipotético"
+    },
+    {
+      "name": "Cooktop131DiagR31",
+      "label": "Cooktop131 · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "RecorteCooktopDiagR31",
+      "label": "RecorteCooktop · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "ArTraseiroDiagR31",
+      "label": "ArTraseiro · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "ArEntradaDiagR31",
+      "label": "ArEntrada · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "ArInferiorEsquerdoDiagR31",
+      "label": "ArInferiorEsquerdo · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "ArInferiorDireitoDiagR31",
+      "label": "ArInferiorDireito · DIAGNÓSTICO, não peça"
+    },
+    {
+      "name": "ArSaidaDiagR31",
+      "label": "ArSaida · DIAGNÓSTICO, não peça"
+    }
+  ],
+  "other_objects_preserved": 5892,
+  "appearance_properties_preserved": 29465,
+  "reopened": true,
+  "scope": "Aéreo D: reserva do canal removida e divisor estendido até o fundo; textos do módulo e da tabela R14 atualizados. Removidas reservas ocultas sem decisão: proteção lateral 10 mm do quarto, faixa de cadeira 800×500×720 e grupo R31 da cocção. Nenhuma outra peça movida ou redimensionada."
+}

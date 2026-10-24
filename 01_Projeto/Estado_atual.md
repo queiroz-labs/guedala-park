@@ -14,7 +14,7 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | FreeCAD R46 (geometria R45, cores R16, P08, fichas R14) | [Guedala_Park_R46_Fichas_R14.FCStd](Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd) · [o que mudou](Fichas_no_CAD_R46_2026-10-24/README.md) |
+| Modelo 3D | FreeCAD R48 (R46 + depurador sem canal, divisor do aéreo D até o fundo, reservas ocultas removidas) | [Guedala_Park_R48_Depurador_sem_canal.FCStd](Depurador_sem_canal_R48_2026-10-24/Guedala_Park_R48_Depurador_sem_canal.FCStd) · [o que mudou](Depurador_sem_canal_R48_2026-10-24/README.md) |
 | Fichas dos 20 móveis | R14 | [Fichas](../05_Entregas/Fichas_fabricacao_R13/index.html) · [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
 | Programa | R01 | [Programa de necessidades](Programa_de_necessidades_R01.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](Planta_mobiliada/README.md) |
@@ -26,7 +26,7 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 | Orçamento | R43 | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md) |
 | Site 3D | Publicado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) · [versão online](https://queiroz-labs.github.io/guedala-park/) |
 
-Na R46 o modelo traz as ferragens das fichas por móvel, a especificação de cada peça e os 52 Minifix como marcadores. Continuam fora da geometria: os furos, a forma da FGVTN 500 (sem STEP oficial) e a dobradiça piano do banco.
+A R48 ([detalhes](Depurador_sem_canal_R48_2026-10-24/README.md)) mantém tudo da R46. Na R46 o modelo traz as ferragens das fichas por móvel, a especificação de cada peça e os 52 Minifix como marcadores. Continuam fora da geometria: os furos, a forma da FGVTN 500 (sem STEP oficial) e a dobradiça piano do banco.
 
 ## Onde estamos
 

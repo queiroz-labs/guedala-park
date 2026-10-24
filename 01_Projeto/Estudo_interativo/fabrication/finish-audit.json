@@ -4114,9 +4114,9 @@
       "fieldChecks": [
         {
           "id": "P09-CAMPO-1",
-          "measure": "Localizar saída real, diâmetro/seção, eixo e protrusões do duto atrás do armário.",
+          "measure": "Confirmar que não há tubulação, saída ou protrusão na parede atrás do armário (depurador sem duto).",
           "method": "Croqui cotado com aparelho e conexão reais.",
-          "affects": "Canal posterior, divisores curtos e acesso de manutenção.",
+          "affects": "Fundo, divisor e suspensão.",
           "value": null
         },
         {
@@ -4128,7 +4128,7 @@
         }
       ],
       "technicalChecks": [
-        "Não apresentar dois nichos íntegros de 298×312: canal técnico corta profundidade. Manter acesso ao duto e definir conexão dos divisores curtos.",
+        "Dois nichos 298×312 de profundidade total. Preservar a abertura de retorno de ar de 20 mm na largura (manual DE61IX) e definir a ligação do divisor ao fundo, base e tampo.",
         "Definir produto construtivo da chapa, classe/adequação ao uso e espessura de compra; menor dimensão do CAD não é automaticamente espessura executiva.",
         "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
         "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
@@ -4136,8 +4136,8 @@
         "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos."
       ],
       "assembly": [
-        "Reservar canal técnico posterior e acesso ao duto; não apresentar dois nichos íntegros de profundidade total.",
-        "Detalhar ligações dos divisores curtos e suspensão do armário."
+        "Sem canal técnico (R48): divisor de profundidade total até o fundo; manter a abertura de retorno de ar de 20 mm na largura.",
+        "Detalhar as ligações do divisor de profundidade total e a suspensão do armário."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
@@ -4151,7 +4151,7 @@
           350.0,
           592.0
         ],
-        "internalReference": "Vão 614×312×556. Divisor 18 emX3211–3229 limita apenas os 118 mm dianteiros. Reserva central do duto 196×178×556 ocupa a região posterior.",
+        "internalReference": "Vão 614×312×556. Divisor 18 emX3211–3229 vai até o fundo (312 mm) e forma dois nichos 298×312×556. Depurador sem duto (R48): sem canal posterior.",
         "status": "nominal do modelo; não é medida de campo nem plano de corte"
       },
       "boardChoices": {
