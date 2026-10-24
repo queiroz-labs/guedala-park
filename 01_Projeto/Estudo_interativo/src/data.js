@@ -11,6 +11,10 @@ const PROJECT={revision:'R12 · consulta de marcenaria · FreeCAD R45',date:'23 
     {id:'banho',name:'Banheiro',sub:'Sauge e greige',bounds:[245,395,475,540],color:'#89957a'}
   ],
   materials:[
+    {id:'chairFabric',name:'Estofado claro · cadeiras Lina',color:'#d8d0c2',type:'fabric',rooms:['sala'],status:'Referência aprovada',note:'Composição clara com estrutura amadeirada, recuperada da representação R43/R45. Conferir tecido e acabamento do produto real.'},
+    {id:'whiteTX',name:'Branco TX · interiores',color:'#f3f2ed',type:'solid',rooms:['sala','quarto','escritorio','cozinha','lavanderia','banho'],status:'Escolhido',note:'Faces internas identificadas nas fichas. As faces aparentes mantêm seus padrões; fabricante, código e composição da chapa a definir. Tom digital aproximado.'},
+    {id:'mirror',name:'Espelho · frente do espelheiro',color:'#b9d0d3',type:'solid',rooms:['banho'],status:'Escolhido',note:'Representação clara do espelho, sem simulação de reflexos. Camada frontal distinta da madeira e do interior Branco TX.'},
+    {id:'finishPending',name:'Acabamento ainda não definido',color:'#bbbdb7',type:'solid',rooms:[],status:'Pendente',note:'Cinza neutro identifica superfícies sem acabamento registrado e volumes de estudo; não é uma escolha de chapa.'},
     {id:'wood',name:'Greenplac Arenza',color:'#c4a27b',type:'wood',rooms:['cozinha','escritorio','lavanderia','sala','quarto'],status:'Escolhido / referência',note:'Escolhido na cozinha/escritório e testeira. Referência de composição na sala/quarto; amostras a conferir.'},
     {id:'petrol',name:'Guararapes Azul Petróleo',color:'#294b51',type:'solid',rooms:['cozinha'],status:'Escolhido',note:'Superiores contínuos da geladeira ao cooktop; lavanderia em Arenza. Duratex Azul Profundo é alternativa, não substituição aprovada.'},
     {id:'altblue',name:'Duratex Azul Profundo',color:'#263b45',type:'solid',rooms:['cozinha'],status:'Alternativa',note:'Alternativa de chapa à cor principal, ainda não escolhida.'},
@@ -168,3 +172,8 @@ Object.assign(ITEMS.find(i=>i.id==='table'),{name:'Mesa Berlin · pronta',dimens
 Object.assign(ITEMS.find(i=>i.id==='diningchairs'),{name:'Três cadeiras · cenário Berlin',dimensions:'Envelopes de uso; conferir produto real',source:'Consolidação R43/R45',measure:'Encaixe e passagem pendentes',notes:'Cenário salvo com duas cadeiras nas pontas e uma na lateral da Berlin fechada. Na mesa aberta, alternativa de três na lateral para conferir fisicamente. O desenho não comprova circulação com pessoas.'});
 Object.assign(ITEMS.find(i=>i.id==='bathvanity'),{name:'Gabinete com portas de correr',dimensions:'Frente removível 600 × 70 × 543 mm; folhas 292 × 500 × 18 mm',source:'BC43 incorporado à R45',measure:'Ferragens e hidráulica pendentes',notes:'Duas folhas de correr e quadro removível. Trilhos RM026 e RO25 são referências de estudo. Quatro M6 × 100 na proposta de fixação da frente. Abertura frontal livre 507 mm conforme R45. Quatro dobradiças antigas excluídas. Instalação, resistência, tolerâncias e hidráulica continuam a conferir.'});
 delete INTERNALS.bench;
+
+// Aparência da consulta alinhada às fichas; preserva o caráter aproximado dos tons.
+Object.assign(ITEMS.find(i=>i.id==='wardrobe'),{material:'wood'});
+Object.assign(ITEMS.find(i=>i.id==='table'),{material:'wood',notes:ITEMS.find(i=>i.id==='table').notes+' Aparência de referência: tampo amadeirado aproximado Arenza e base preta; conferir o acabamento comercial da Berlin.'});
+Object.assign(ITEMS.find(i=>i.id==='diningchairs'),{notes:ITEMS.find(i=>i.id==='diningchairs').notes+' Madeira em aproximação Arenza e estofado claro, conforme consolidação R43.'});

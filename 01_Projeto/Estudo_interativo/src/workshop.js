@@ -58,7 +58,7 @@ function initializeWorkshop(){
  document.querySelector('.sidebar h2').textContent='Ambientes';
  document.querySelector('[data-view="iso"]').textContent='3D · 2,5D';
  document.querySelector('.inspector-header .section-label').textContent='FICHA DO MÓVEL';
- document.querySelector('.stage-tag').textContent='Geometria R45 · representação de consulta';
+ document.querySelector('.stage-tag').textContent='Geometria R45 · cores aproximadas';
  $('measureToggle').parentElement.lastChild.textContent=' Cotas do módulo · mm';
  document.querySelector('.assumptions').hidden=true;
  document.querySelector('.viewbar').insertAdjacentHTML('beforebegin','<div class="work-selection"><label><span>Consulta rápida</span><select id="workModule" aria-label="Escolher módulo de marcenaria"></select></label></div>');
