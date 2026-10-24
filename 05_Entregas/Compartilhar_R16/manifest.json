@@ -117,7 +117,18 @@
     "05_Entregas/Planta_cotada_R13/index.html",
     "05_Entregas/Planta_cotada_R13/Planta_cotada.svg",
     "05_Entregas/Planta_cotada_R13/Planta_oficial.png",
-    "05_Entregas/Planta_cotada_R13/Cotas.json"
+    "05_Entregas/Planta_cotada_R13/Cotas.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Fechamento.html",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Situacao.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Iluminacao_e_materiais.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L01.html",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L01.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Hidraulica_cenarios.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Consultas_tecnicas.txt",
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd"
   ],
   "scope": "R45 with R16 appearance; P08 updated to six 38 mm casters plus six 1 mm spacers, 39 mm total. Other geometry and placements preserved. Current R14 fabrication and floorplan artifacts. Legacy R14 ZIP URL serves this same R16 package."
 }

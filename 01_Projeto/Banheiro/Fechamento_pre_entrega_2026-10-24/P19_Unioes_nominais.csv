@@ -1,0 +1,37 @@
+﻿joint,part,operation,diameter_mm,depth_mm,x,y,z,axis_x,axis_y,axis_z,status
+1,Peca403,Caixa Minifix,15,14,-548,50,18,0,0,-1,Nominal para prova em oficina; não CNC
+1,Peca403,Passagem cabeça S100,7,34,-582,50,9,1,0,0,Nominal para prova em oficina; não CNC
+1,Peca401,Piloto S100 proposto,5,8.5,-582,50,9,-1,0,0,Nominal para prova em oficina; não CNC
+2,Peca403,Caixa Minifix,15,14,-548,106,18,0,0,-1,Nominal para prova em oficina; não CNC
+2,Peca403,Passagem cabeça S100,7,34,-582,106,9,1,0,0,Nominal para prova em oficina; não CNC
+2,Peca401,Piloto S100 proposto,5,8.5,-582,106,9,-1,0,0,Nominal para prova em oficina; não CNC
+3,Peca403,Caixa Minifix,15,14,-52,50,18,0,0,-1,Nominal para prova em oficina; não CNC
+3,Peca403,Passagem cabeça S100,7,34,-18,50,9,-1,0,0,Nominal para prova em oficina; não CNC
+3,Peca400,Piloto S100 proposto,5,8.5,-18,50,9,1,0,0,Nominal para prova em oficina; não CNC
+4,Peca403,Caixa Minifix,15,14,-52,106,18,0,0,-1,Nominal para prova em oficina; não CNC
+4,Peca403,Passagem cabeça S100,7,34,-18,106,9,-1,0,0,Nominal para prova em oficina; não CNC
+4,Peca400,Piloto S100 proposto,5,8.5,-18,106,9,1,0,0,Nominal para prova em oficina; não CNC
+5,Peca404,Caixa Minifix,15,14,-548,50,732,0,0,1,Nominal para prova em oficina; não CNC
+5,Peca404,Passagem cabeça S100,7,34,-582,50,741,1,0,0,Nominal para prova em oficina; não CNC
+5,Peca401,Piloto S100 proposto,5,8.5,-582,50,741,-1,0,0,Nominal para prova em oficina; não CNC
+6,Peca404,Caixa Minifix,15,14,-548,106,732,0,0,1,Nominal para prova em oficina; não CNC
+6,Peca404,Passagem cabeça S100,7,34,-582,106,741,1,0,0,Nominal para prova em oficina; não CNC
+6,Peca401,Piloto S100 proposto,5,8.5,-582,106,741,-1,0,0,Nominal para prova em oficina; não CNC
+7,Peca404,Caixa Minifix,15,14,-52,50,732,0,0,1,Nominal para prova em oficina; não CNC
+7,Peca404,Passagem cabeça S100,7,34,-18,50,741,-1,0,0,Nominal para prova em oficina; não CNC
+7,Peca400,Piloto S100 proposto,5,8.5,-18,50,741,1,0,0,Nominal para prova em oficina; não CNC
+8,Peca404,Caixa Minifix,15,14,-52,106,732,0,0,1,Nominal para prova em oficina; não CNC
+8,Peca404,Passagem cabeça S100,7,34,-18,106,741,-1,0,0,Nominal para prova em oficina; não CNC
+8,Peca400,Piloto S100 proposto,5,8.5,-18,106,741,1,0,0,Nominal para prova em oficina; não CNC
+9,Peca402,Caixa Minifix,15,14,-548,132,120,0,1,0,Nominal para prova em oficina; não CNC
+9,Peca402,Passagem cabeça S100,7,34,-582,141,120,1,0,0,Nominal para prova em oficina; não CNC
+9,Peca401,Piloto S100 proposto,5,8.5,-582,141,120,-1,0,0,Nominal para prova em oficina; não CNC
+10,Peca402,Caixa Minifix,15,14,-548,132,630,0,1,0,Nominal para prova em oficina; não CNC
+10,Peca402,Passagem cabeça S100,7,34,-582,141,630,1,0,0,Nominal para prova em oficina; não CNC
+10,Peca401,Piloto S100 proposto,5,8.5,-582,141,630,-1,0,0,Nominal para prova em oficina; não CNC
+11,Peca402,Caixa Minifix,15,14,-52,132,120,0,1,0,Nominal para prova em oficina; não CNC
+11,Peca402,Passagem cabeça S100,7,34,-18,141,120,-1,0,0,Nominal para prova em oficina; não CNC
+11,Peca400,Piloto S100 proposto,5,8.5,-18,141,120,1,0,0,Nominal para prova em oficina; não CNC
+12,Peca402,Caixa Minifix,15,14,-52,132,630,0,1,0,Nominal para prova em oficina; não CNC
+12,Peca402,Passagem cabeça S100,7,34,-18,141,630,-1,0,0,Nominal para prova em oficina; não CNC
+12,Peca400,Piloto S100 proposto,5,8.5,-18,141,630,1,0,0,Nominal para prova em oficina; não CNC

@@ -49,13 +49,13 @@ Detalhes no [roteiro para projeto oficial](Roteiro_para_projeto_oficial.md).
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiças.
 - **Quarto:** roupeiro de 65 cm de profundidade com portas de correr; queen futura; apoios de celular retirados.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box.
+- **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box. Luz: teto/indireta 3000 K e espelho 4000 K, três comandos. [Componentes L02: R$612,64 à vista](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html); conjunto montado e instalação condicionados.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório.
 
 ## O que falta, em ordem
 
 1. **Antes das chaves** (dá para fazer agora):
-   - escolher as luminárias na [lista curta](Lista_curta_luminarias_e_madeira_R00.md) (as chapas do banheiro já foram escolhidas: Arauco Beige Matt e Louro Freijó Poro);
+   - concluir as luminárias dos demais ambientes na [lista curta](Lista_curta_luminarias_e_madeira_R00.md); no banheiro os componentes estão selecionados e precificados em L02, faltando prova do perfil, terminações e montagem. Chapas do banheiro: Arauco Beige Matt e Louro Freijó Poro;
    - fechar as ferragens do banco e do cesto;
    - pedir orçamentos de marcenaria quando o pacote sair da espera;
    - contratar o responsável técnico e enviar os [e-mails preparados](Rascunhos_emails_R00.md);

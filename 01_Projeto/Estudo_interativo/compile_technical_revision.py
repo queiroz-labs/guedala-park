@@ -28,7 +28,7 @@ SUMMARIES={
 'P16':'MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa; corrigir interferências antes de usinar.',
 'P17':'Blum nas quatro portas. Ligações das divisórias e distribuição da suspensão continuam específicas.',
 'P18':'RO25 no banheiro e quadro removível por quatro M6. Cavilhas e ligações permanentes ficam separadas da retirada.',
-'P19':'Blum nas portas e oito apoios Häfele .711. Furos nominais dos apoios e canecos identificados.',
+'P19':'Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.',
 'P20':'Família Southco mantida como candidata. Eixo, sentido, torque e batente ainda bloqueiam a furação definitiva das tampas.'}
 
 def build():
@@ -55,14 +55,15 @@ def build():
                 row.update(reference=j['decisions'][0]['reference'],status='Estratégia selecionada; mapa parcial',assembly=j['decisions'][0]['reason']+' Consultar as interfaces ainda sem mapa na ficha.')
             elif row['item']=='Suspensão do móvel e interface com a parede':
                 row.update(reference='Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo',status='Detalhamento de projeto pendente',assembly='Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.')
-        if code in ['P10','P11','P15']:
+        if code in ['P10','P11','P15','P19']:
             hardware=[r for r in hardware if 'Minifix' not in r['item']]
-            qty={'P10':20,'P11':12,'P15':8}[code]
+            qty={'P10':20,'P11':12,'P15':8,'P19':12}[code]
             for item,ref in [('Caixas Minifix','Häfele 262.26.034'),('Pinos Minifix','Häfele S100 262.28.920')]:
                 hardware.append(dict(item=item,reference=ref,quantity=qty,unit='unidades',status='Selecionado em projeto',assembly='Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real.'))
         if code=='P19':
             for row in hardware:
                 if row['item']=='Apoios das duas prateleiras':row['status']='Selecionado em projeto'
+                if row['item']=='Ligações dos painéis da carcaça':row.update(status='Mapa nominal emitido em estudo separado; prova pendente',assembly=j['decisions'][0]['reason'])
         if code=='P18':
             for row in hardware:
                 if row['item'] in ['Confirmat de união do quadro','Cavilhas da união permanente do quadro','Parafusos de retirada do quadro','Porcas transversais','Cavilhas da interface desmontável']:
@@ -89,7 +90,7 @@ def build():
             check=check.replace('interfaces listadas em unmappedInterfaces','interfaces listadas em “Ligações ainda sem mapa”')
             if check.startswith(('Em chapa real:','Com a ferragem física:','Oficina:','Oficina/metalurgia:','Fornecedor/oficina:')):workshop.append(check)
             else:project.append(check)
-        project+=['Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.']
+        project+=[('Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.' if code in ['P18','P19'] else 'Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.')]
         # Product measurements formerly classified as apartment measurements.
         extra={
           'P05':['Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte; a posição da saída existente é medida no apartamento.'],
@@ -133,6 +134,12 @@ def build():
                  orientation='U=+X global; V=+Y global. Plano de coordenadas, não vista espelhada da face virada.',
                  holes=[dict(x=v['cam_offset_from_Xmin_mm'],y=v['offset_from_Ymin_mm'],diameter=15,depth='13,5 +0,5') for v in positions],
                  status='Mapa nominal do estudo R45. Passagem e piloto nas laterais: tabela de furação; provar em retalho.'))
+        if code=='P19':
+            for part,w,h,face,holes in [
+                ('Peca403',564,108,'Superior interna',[(34,26),(34,82),(530,26),(530,82)]),
+                ('Peca404',564,108,'Inferior interna',[(34,26),(34,82),(530,26),(530,82)]),
+                ('Peca402',564,714,'Frontal interna do fundo',[(34,102),(34,612),(530,102),(530,612)])]:
+                drawings.append(dict(partId=part,title='Alojamentos Minifix P19 — estudo separado',width=w,height=h,thickness=18,face=face,origin='Canto mínimo do painel no sistema local Modulo018.',orientation='U=+X local; V=+Y para base/tampo e +Z para fundo. Ler a face de entrada; não espelhar automaticamente.',holes=[dict(x=x,y=y,diameter=15,depth='13,5 +0,5') for x,y in holes],status='Mapa nominal de24/10/2026; CSV e verificação no fechamento do banheiro. Acesso, montagem e resistência não liberados.'))
         result['modules'][code]=dict(name=o['name'],summary=SUMMARIES[code],decisions=decisions,drilling=drilling,hardwareRows=hardware,
           projectChecks=unique(project),workshopChecks=unique(workshop),technicalChecks=unique(project+workshop),assembly=unique(assembly),
           fieldChecks=fields['modules'][code]['fieldChecks'],resolvedChecks=unique(m.get('resolvedChecks',[])+j['resolvedChecks']),

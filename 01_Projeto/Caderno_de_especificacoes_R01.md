@@ -119,8 +119,8 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Gabinete com portas de correr | Aprovado | Frente removível 600 × 70 × 543 mm; folhas 292 × 500 × 18 mm | Duas folhas de correr e quadro removível. |
 | Cuba Deca Slim branca L.13040.17 | Primeira opção aprovada | 40 × 30 × 13,5 cm | Cuba de apoio retangular. |
 | Addra Arion Black · bica alta | Aprovado | Altura ~30 cm · desenho de instalação pendente | Água quente e fria. Centralizada atrás da cuba, entre cuba e espelho. |
-| Armário raso, todo espelhado | Aprovado | 60 cm L × 12–15 cm P externos · ensaio | Frente toda espelhada com portas e guarda conforme desenvolvimento FreeCAD. |
-| Teto3000 K + espelho4000 K + indireta3000 K | Temperaturas e comandos aprovados | Três grupos com comandos físicos separados | Teto3000 K escolhido em24/10/2026. |
+| Armário raso, todo espelhado | Aprovado | 60 cm L × 12–15 cm P externos · ensaio | Frente toda espelhada, laterais Arauco Louro Freijó Poro e interior Branco TX. |
+| Teto 3000 K +espelho 4000 K +indireta 3000 K | L02: componentes R$612,64 à vista; custo-benefício | Firefly25 W; espelho2×550 mm /13,2 W; indireta até2 m /9,6 W | Teto Galaxy Firefly9605 branco IP44,3000 K. |
 | Box transparente + Addra Livo Black Matte | Direção aprovada | Faixa 80 × 124 cm brutos · hipótese | Ducha Livo BRS2003-BK / SKU2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. |
 | Prateleira do box em Branco Itaúnas | Direção aprovada | 25–30 × 10 cm · proposta | Apoio para shampoo e sabonete. |
 | Enchimento técnico existente | Entrega | Geometria e altura não medidas | P01 identifica enchimento. |
@@ -131,6 +131,6 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 ## 3. Resumo
 
-66 itens: 34 decididos, 20 decididos com execução em desenvolvimento e 12 parciais, futuros, existentes ou em revisão.
+66 itens: 33 decididos, 20 decididos com execução em desenvolvimento e 13 parciais, futuros, existentes ou em revisão.
 
 Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R14](../05_Entregas/Fichas_fabricacao_R13/index.html).

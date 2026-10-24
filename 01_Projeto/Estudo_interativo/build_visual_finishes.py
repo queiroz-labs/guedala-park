@@ -21,8 +21,8 @@ def build():
         if 'Arenza' in text:return 'wood'
         if 'Petróleo' in text:return 'petrol'
         if 'Off-white' in text:return 'offwhite'
-        if 'Bege' in text:return 'bathbeige'
-        if 'Madeira clara' in text:return 'lightwood'
+        if 'Bege' in text or 'Beige Matt' in text:return 'bathbeige'
+        if 'Madeira clara' in text or 'Louro Freijó Poro' in text:return 'lightwood'
         raise ValueError(text)
 
     finishes={}

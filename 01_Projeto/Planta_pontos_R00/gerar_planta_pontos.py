@@ -70,9 +70,9 @@ P = [
     ('B06', 'AQ', 404, 526, 60, 'Ducha higiênica · quente', 'Novo ramal; E21 exige 3,9 L/min para ligar'),
     ('B07', 'AQ', 290, 526, 120, 'Chuveiro / misturador Livo (quente e fria)', 'Ponto existente; conferir'),
     ('B08', 'E', 295, 470, 0, 'Ralo do box', 'Existente'),
-    ('B09', 'A', 434, 513, 190, 'Luz frontal do espelho 4000 K', 'Comando próprio'),
-    ('B10', 'A', 434, 510, 230, 'Luz indireta 3000 K (faixa no canto do teto)', 'Comando próprio; infraestrutura a validar'),
-    ('B11', 'L', 395, 450, None, 'Luz geral do banheiro', 'Modelo a definir'),
+    ('B09', 'A', 434, 513, 190, 'Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W', 'L02: Opus OPS31002 e perfil MOV; posição/montagem a validar'),
+    ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Cristallux SMD até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
+    ('B11', 'L', 395, 450, None, 'Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44', 'Selecionado L02; ponto e volumes a conferir'),
     # Sala
     ('S01', 'T', 505, 200, 30, 'Régua no compartimento ventilado: TV, PS5, soundbar', 'Posição de estudo'),
     ('S02', 'T', 505, 250, 120, 'TV 50″ atrás do painel', 'Altura a conferir'),

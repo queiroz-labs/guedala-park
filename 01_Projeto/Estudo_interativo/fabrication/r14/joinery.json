@@ -13,7 +13,8 @@
     "P10": 20,
     "P11": 12,
     "P15": 8,
-    "total": 40
+    "total": 52,
+    "P19": 12
   },
   "fieldOnly": [
     "Vãos finais acabados, prumo/esquadro e níveis reais.",
@@ -5094,15 +5095,14 @@
       "decisions": [
         {
           "item": "Prateleiras removíveis e caixa fixa",
-          "reference": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas",
-          "quantity": null,
-          "unit": "uniões a quantificar por interface",
+          "reference": "12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados",
+          "quantity": 12,
+          "unit": "conjuntos Minifix",
           "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
+          "reason": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis interfaces mapeadas no estudo separado; capacidade e ferramenta exigem prova.",
           "sources": [
-            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
-            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
-            "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
           ]
         },
         {
@@ -5167,18 +5167,165 @@
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro_pinos.json"
           ]
+        },
+        {
+          "item": "6 Piloto S100 proposto — Peca400",
+          "partIds": [
+            "Peca400"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-18,50,9) eixo(1,0,0); (-18,106,9) eixo(1,0,0); (-18,50,741) eixo(1,0,0); (-18,106,741) eixo(1,0,0); (-18,141,120) eixo(1,0,0); (-18,141,630) eixo(1,0,0)",
+          "diameter": 5.0,
+          "depth": 8.5,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "6 Piloto S100 proposto — Peca401",
+          "partIds": [
+            "Peca401"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,9) eixo(-1,0,0); (-582,106,9) eixo(-1,0,0); (-582,50,741) eixo(-1,0,0); (-582,106,741) eixo(-1,0,0); (-582,141,120) eixo(-1,0,0); (-582,141,630) eixo(-1,0,0)",
+          "diameter": 5.0,
+          "depth": 8.5,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Caixa Minifix — Peca402",
+          "partIds": [
+            "Peca402"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,132,120) eixo(0,1,0); (-548,132,630) eixo(0,1,0); (-52,132,120) eixo(0,1,0); (-52,132,630) eixo(0,1,0)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca402",
+          "partIds": [
+            "Peca402"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,141,120) eixo(1,0,0); (-582,141,630) eixo(1,0,0); (-18,141,120) eixo(-1,0,0); (-18,141,630) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Caixa Minifix — Peca403",
+          "partIds": [
+            "Peca403"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,50,18) eixo(0,0,-1); (-548,106,18) eixo(0,0,-1); (-52,50,18) eixo(0,0,-1); (-52,106,18) eixo(0,0,-1)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca403",
+          "partIds": [
+            "Peca403"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,9) eixo(1,0,0); (-582,106,9) eixo(1,0,0); (-18,50,9) eixo(-1,0,0); (-18,106,9) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Caixa Minifix — Peca404",
+          "partIds": [
+            "Peca404"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,50,732) eixo(0,0,1); (-548,106,732) eixo(0,0,1); (-52,50,732) eixo(0,0,1); (-52,106,732) eixo(0,0,1)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca404",
+          "partIds": [
+            "Peca404"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,741) eixo(1,0,0); (-582,106,741) eixo(1,0,0); (-18,50,741) eixo(-1,0,0); (-18,106,741) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ]
         }
       ],
       "resolvedChecks": [
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Pinos .711 selecionados; quantidade8 e faces das laterais definidas."
+        "Pinos .711 selecionados; quantidade8 e faces das laterais definidas.",
+        "Seis interfaces da caixa P19 mapeadas nominalmente: 12 conjuntos e 36 operações, sem colisões dos volumes de usinagem no contexto ensaiado; principal preservado."
       ],
       "technicalChecks": [
         "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em unmappedInterfaces; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso."
+        "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento.",
+        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição."
       ],
       "interfaces": [
         {
@@ -5192,8 +5339,9 @@
           ],
           "area_mm2": 12852.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         },
         {
           "module": "Modulo018",
@@ -5206,8 +5354,9 @@
           ],
           "area_mm2": 1944.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         },
         {
           "module": "Modulo018",
@@ -5220,8 +5369,9 @@
           ],
           "area_mm2": 1944.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         },
         {
           "module": "Modulo018",
@@ -5234,8 +5384,9 @@
           ],
           "area_mm2": 12852.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         },
         {
           "module": "Modulo018",
@@ -5248,8 +5399,9 @@
           ],
           "area_mm2": 1944.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         },
         {
           "module": "Modulo018",
@@ -5262,17 +5414,15 @@
           ],
           "area_mm2": 1944.0,
           "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade",
-          "status": "Mapa individual de conectores pendente na oficina",
-          "strategy": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas"
+          "status": "Mapa nominal emitido em 24/10/2026; prova de oficina pendente",
+          "strategy": "2 conjuntos Minifix15/S100 por interface; 12 no total",
+          "source": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
         }
       ],
-      "unmappedInterfaces": [
-        "Peca400 ↔ Peca402 (X; 18.0×714.0 mm)",
-        "Peca400 ↔ Peca403 (X; 108.0×18.0 mm)",
-        "Peca400 ↔ Peca404 (X; 108.0×18.0 mm)",
-        "Peca401 ↔ Peca402 (X; 18.0×714.0 mm)",
-        "Peca401 ↔ Peca403 (X; 108.0×18.0 mm)",
-        "Peca401 ↔ Peca404 (X; 108.0×18.0 mm)"
+      "unmappedInterfaces": [],
+      "assembly": [
+        "Montar fundo/base/topo entre laterais; encaixar S100 e travar Minifix pelo interior antes das prateleiras e portas. Provar sequência e acesso em caixa-piloto.",
+        "Manter as duas prateleiras removíveis e as folgas de 2 mm. O novo mapa não dimensiona suspensão nem adesivo/retentor de espelho."
       ]
     },
     "P20": {

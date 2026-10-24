@@ -1,0 +1,40 @@
+{
+  "status": "Análise de dependência; não prescreve temperatura de uso, diâmetro, pressão ou vazão real",
+  "formula": "Q_quente=Q_total*(T_mistura-T_fria)/(T_quente-T_fria)",
+  "heater": "Rinnai REU-E211 FEH GN",
+  "activation_min_hot_lpm": 3.9,
+  "source": "https://www.rinnai.com.br/aquecedores-a-gas/linha-digital/e21-1",
+  "mixing_examples": [
+    {
+      "cold_example_C": 20,
+      "mixed_example_C": 35,
+      "heater_example_C": 40,
+      "hot_fraction": 0.75,
+      "min_total_flow_to_reach_3_9_hot_lpm": 5.2,
+      "hot_flow_when_total_is_3_lpm": 2.25
+    },
+    {
+      "cold_example_C": 20,
+      "mixed_example_C": 35,
+      "heater_example_C": 45,
+      "hot_fraction": 0.6,
+      "min_total_flow_to_reach_3_9_hot_lpm": 6.5,
+      "hot_flow_when_total_is_3_lpm": 1.7999999999999998
+    },
+    {
+      "cold_example_C": 20,
+      "mixed_example_C": 35,
+      "heater_example_C": 50,
+      "hot_fraction": 0.5,
+      "min_total_flow_to_reach_3_9_hot_lpm": 7.8,
+      "hot_flow_when_total_is_3_lpm": 1.5
+    }
+  ],
+  "route": "Faixa discreta no canto do teto e descida junto ao gabinete: direção estética previamente escolhida; traçado/diâmetros/isolações e conexão a projetar.",
+  "acceptance": [
+    "Testar pia e ducha individualmente; medir vazão realmente passando pelo aquecedor, acionamento, modulação e estabilidade.",
+    "Medir tempo de chegada e comportamento ao soltar/retomar o gatilho.",
+    "Submeter ligação quente/fria e proteção contra refluxo à especificação do misturador e projeto do responsável técnico.",
+    "Não adotar abertura simultânea de outro ponto como solução permanente."
+  ]
+}

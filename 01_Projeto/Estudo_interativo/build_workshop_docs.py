@@ -13,6 +13,7 @@ ROOT = STUDY.parent.parent
 R45 = '01_Projeto/Consolidacao_R45_2026-10-23/'
 CAD_COLORS = '01_Projeto/Cores_FreeCAD_R16_2026-10-23/'
 P08_CASTERS = '01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/'
+BATH = '01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/'
 R47 = '01_Projeto/Southco_banco_R47_2026-10-23/'
 TAPS = '01_Projeto/Conferencia_torneiras_2026-10-23/'
 DOCS = []
@@ -31,6 +32,9 @@ doc('minifix','Minifix do aéreo C','Ferragens','cozinha','Alternativa','20 conj
 doc('espelheiro','Pinos e prateleiras do espelheiro','Ferragens','banho','Em estudo','Oito apoios candidatos; carga da chapa e parede não liberadas.',R45+'Inventario/Espelheiro.md')
 doc('gavetas','Gavetas, guias e rodízios','Ferragens','cozinha,quarto,escritorio','Em estudo','Compatibilidade, carga, engates e retirada das gavetas.',R45+'Gavetas/Resultado.html')
 doc('rodizios-p08','Gaveta baixa: 6 rodas de 38 mm + espaçadores de 1 mm','Ferragens','cozinha','Selecionado','Kit Leão Aço e link de compra; apoio de 39 mm e útil de 88 mm preservados.','01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md')
+doc('banheiro-fechamento','Banheiro: fechamento antes das chaves','Compatibilização','banho','R01 · 24/10','Códigos Beige Matt/Louro Freijó Poro e teto3000 K escolhidos; mapa P19, hidráulica e próximos fechamentos.',BATH+'Fechamento.html')
+doc('cad-p19','FreeCAD: uniões nominais do espelheiro','FreeCAD','banho','Estudo separado','12 conjuntos Minifix nas seis interfaces da caixa; não substitui o CAD principal nem libera fabricação.',BATH+'Espelheiro_P19_Unioes_NOMINAIS.FCStd')
+doc('luz-banho','Luminárias do banheiro: total e compra','Iluminação','banho','L02 · R$612,64','Espelho COB 4000 K/IRC>90 preservado; indireta 3000 K de 4,8 W/m e fontes Opus. Total dos componentes à vista, sem frete e instalação.',BATH+'Luminarias_selecao_L02.html')
 
 doc('movento','Alternativa MOVENTO 400','Ferragens','escritorio','Alternativa','Preserva o útil; conflitos locais e retirada ainda pendentes.',R45+'Gavetas/Alternativas_escritorio/Resultado.html')
 doc('portas','Portas e articulações','Ferragens','all','Em estudo','Ensaios de portas, banco e mecanismos; não é liberação executiva.',R45+'Portas_e_articulacoes/Relatorio.html')
@@ -56,6 +60,12 @@ doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido'
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','05_Entregas/Planta_cotada_R13/index.html')
 
 ASSETS = [
+    BATH+'Luminarias_selecao_L02.json', BATH+'Verificacao_luminarias_L02.json',
+    BATH+'Luminarias_selecao_L01.html',
+    BATH+'Luminarias_selecao_L01.json',
+    BATH+'Escolhas.json', BATH+'Situacao.json', BATH+'Iluminacao_e_materiais.json',
+    BATH+'Hidraulica_cenarios.json', BATH+'Verificacao_unioes_P19.json',
+    BATH+'P19_Unioes_nominais.csv', BATH+'Consultas_tecnicas.txt',
     P08_CASTERS+'Selecao.json',
     P08_CASTERS+'Verificacao_CAD.json',
     CAD_COLORS+'Plano_de_cores.json',
@@ -148,6 +158,8 @@ def write_sources():
     rows=matrix()
     EXTRA_DOCS['P07']=['forno','fixas']
     EXTRA_DOCS['P08']=['rodizios-p08','gavetas','cad']
+    EXTRA_DOCS['P18']=['banheiro-fechamento','luz-banho','portas','torneiras','purangi']
+    EXTRA_DOCS['P19']=['banheiro-fechamento','luz-banho','cad-p19','espelheiro','portas','torneiras','purangi']
     guidance={r['id']:dict(hardware=HARDWARE[r['id']],pending=[r['pending'],'Conferir medidas de campo, material efetivo, bordas, furação e ligações antes do corte.'],finish=finish(r['id']),documentIds=list(dict.fromkeys(['matriz','fixas']+EXTRA_DOCS[r['id']]))) for r in rows}
     for code,f in FABRICATION.items():
         guidance[code].update(fabrication=f,finish=f['finishSummary'],pending=f['technicalChecks'])

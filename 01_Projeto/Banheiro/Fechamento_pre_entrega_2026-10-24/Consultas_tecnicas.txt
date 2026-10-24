@@ -1,0 +1,16 @@
+CONSULTAS TÉCNICAS — RASCUNHOS, NÃO ENVIADOS — 24/10/2026
+
+PINGOO — Purangi HTC0757 + Cornalina HLC0012-1
+Confirmar expressamente kit original para furo37 da cuba versus indicação35 do manual da torneira: dimensões efetivas do vedante/apoio, faixa de furos, espessura da mesa admitida, posição do eixo do furo e desenho da alavanca totalmente aberta com giro lateral. Confirmar unidade da pressão30–120. Enviar gabarito e dimensões do kit, não apenas “serve em cuba de apoio”. O projeto precisa conferir a barra de luz e o espaço da mão.
+
+CEBRACE/VIDRACEIRO — porta móvel com espelho
+Espelho prata nominal297×748×4 mm em porta de madeira18, interior BrancoTX. Candidato Fixa Espelho Cebrace: confirmar adesão na face revestida real, preparação/primer, afastamento e cordões, cura com a folha apoiada, proteção das bordas e necessidade de retenção mecânica compatível com porta móvel. A orientação do manual para parede não fecha sozinha esta aplicação. Informar espessura final e massa para validar as três dobradiças por folha.
+
+ROMETAL/MARCENEIRO — RO25 na frente removível BC43
+Duas folhas292×500×18; vão frontal507; quatro trechosRM026 de564; transpasse24. Confirmar retenção, regulagem, seção do perfil, parafusos e teste da primeira folha. Conferir os batentes próprios propostos e acesso às cavas. Não substituir retenção do sistema por pad colado. Frente inteira removível por quatroM6, com percurso nominal20/120/330; campo deverá confirmar porta/vaso.
+
+FORNECEDOR DA DUCHA — misturador externo preto fosco
+Fornecer código e desenho completo, roscas/entrecentros/projeção, faixa de pressão/temperatura e curva vazão, componentes incluídos, fechamento correto de uso e proteção contra refluxo/ligação cruzada exigida. Avaliar funcionamento com Rinnai E21 (mínimo3,9L/min pelo aquecedor), sem exigir outro ponto aberto. “Com registro e derivação” não comprova mistura quente/fria.
+
+MARCENARIA — caixa-piloto e suspensão
+Validar o mapa P19 de12Minifix/12S100, ferramentas e sequência antes de portas/prateleiras. Cotar separadamente ferragens, cola/selagem e suspensão interna ligada à caixa, sem apenas confiar na resistência do fundo ou na capacidade dos pinos. Indicar carga de uso e peso acabado das folhas e caixa. Especificar a composição BeigeMatt/LouroFreijóPoro/BrancoTX com18mm acabados e bordas protegidas; não presumir chapa dupla pronta ou resistente à umidade.

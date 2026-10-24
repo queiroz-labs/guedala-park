@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "scope": "Escolhas explícitas de Elias; não aprovação de fabricação",
+  "cabinet_front": "Arauco Beige Matt",
+  "visible_sides": "Arauco Louro Freijó Poro",
+  "inside": "Branco TX preservado; fabricante/código e composição a especificar",
+  "lighting_kelvin": {
+    "ceiling": 3000,
+    "mirror": 4000,
+    "indirect": 3000
+  },
+  "controls": "Três grupos físicos independentes; seleção de componentes e total de material L02; instalação a compatibilizar",
+  "samples": "Conferir amostras antes de encomendar; não reabre os códigos escolhidos",
+  "sources": [
+    "Conversa de 24/10/2026: Beige Matt + Louro Freijó Poro",
+    "Conversa de 24/10/2026: ok 3000k no teto",
+    "01_Projeto/Banheiro/Decisoes_consolidadas_2026-09-18.md"
+  ]
+}

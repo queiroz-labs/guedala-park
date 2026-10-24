@@ -1,3 +1,7 @@
+**24/10/2026 — iluminação L02:** [total e links de compra](Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html): **R$612,64 à vista em componentes**, sem frete e instalação. Teto3000 K: Firefly9605; espelho4000 K: mesma Cristallux COB CLX-FT331240/IRC>90; indireta3000 K: Cristallux SMD CLX-FT200530/4,8 W/m.2 fontes Opus OPS31002 e2 perfis MOV4329 com difusores. Três comandos preservados. Corte/montagem, terminais, encaixe no perfil e implantação condicionados; compra não realizada.
+
+**24/10/2026 — consulta atual:** [fechamento pré-entrega do banheiro](Fechamento_pre_entrega_2026-10-24/Fechamento.html). Beige Matt + Louro Freijó Poro escolhidos. Gabinete vigente BC43 com correr/quadro removível; referências inferiores de abrir são históricas. Mapa nominal novo da caixa do espelheiro em estudo separado. Suspensão, oficina e levantamento real continuam pendentes.
+
 # Banheiro
 
 **17/10/2026 — iluminação escolhida:** espelho4000 K, indireta3000 K e comandos físicos separados. Luminárias, intensidade, posição e execução ainda serão detalhadas; a proposta de barras fixas R12 não vira posição aprovada por esse aceite. [Decisões consolidadas](Decisoes_consolidadas_2026-09-18.md).

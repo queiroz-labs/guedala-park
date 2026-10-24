@@ -17230,7 +17230,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17247,7 +17247,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1
@@ -17264,7 +17264,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1
@@ -17281,7 +17281,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1
@@ -17298,7 +17298,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1
@@ -17314,8 +17314,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Não individualizado",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17331,8 +17331,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Não individualizado",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17349,7 +17349,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17365,8 +17365,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Bege fosco (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17382,8 +17382,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Bege fosco (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -17568,7 +17568,7 @@ const FABRICATION_DATA = {
           ]
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Bege fosco nas frentes; madeira clara nas laterais. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Interiores Branco TX. Frentes Arauco Beige Matt; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
       "finishSpecs": [
         {
           "area": "Interiores identificados",
@@ -17578,9 +17578,9 @@ const FABRICATION_DATA = {
         },
         {
           "area": "Faces aparentes",
-          "material": "Bege fosco nas frentes; madeira clara nas laterais",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
-          "evidence": "01_Projeto/Registro_de_decisoes.md:2939"
+          "material": "Arauco Beige Matt nas frentes; Arauco Louro Freijó Poro nas laterais",
+          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
@@ -17633,7 +17633,7 @@ const FABRICATION_DATA = {
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
         "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
         "Oficina: calibrar piloto dos 24 parafusos no lote de chapa; não usar o 2,5×10 ilustrativo como dado do fabricante.",
         "Oficina: manter as 4 fixações M6 acessíveis; oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
@@ -17657,6 +17657,7 @@ const FABRICATION_DATA = {
         "01_Projeto/Registro_de_decisoes.md",
         "01_Projeto/Estudo_interativo/src/cad-data.js",
         "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
+        "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
         "01_Projeto/Estudo_interativo/fabrication/technical-r14.json"
       ],
       "sheetPath": "05_Entregas/Fichas_fabricacao_R13/P18.html",
@@ -18012,7 +18013,7 @@ const FABRICATION_DATA = {
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
       ],
       "resolvedChecks": [
         "RO25 e 4 trechos RM026 selecionados;24 parafusos 3,5×12 CF quantificados. A primeira implantação ainda precisa conferência.",
@@ -18038,7 +18039,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18064,7 +18065,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1,
@@ -18090,7 +18091,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1,
@@ -18116,7 +18117,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1,
@@ -18142,7 +18143,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
           "quantity": 1,
@@ -18167,8 +18168,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Não individualizado",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18193,8 +18194,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Não individualizado",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18220,7 +18221,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18245,8 +18246,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Bege fosco (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18271,8 +18272,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": false,
           "cadMaterial": "Bege fosco (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -18310,8 +18311,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18327,8 +18328,8 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18345,7 +18346,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18362,7 +18363,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais.",
           "quantity": 1
@@ -18379,7 +18380,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18396,7 +18397,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "face interna Branco TX; face aparente Espelho (camada distinta do substrato)",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18413,7 +18414,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "face interna Branco TX; face aparente Espelho (camada distinta do substrato)",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18430,7 +18431,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18447,7 +18448,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR001 (Prateleira removível espelhado 2 - proposta)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR001 (Prateleira removível espelhado 2 - proposta); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1
@@ -18471,11 +18472,11 @@ const FABRICATION_DATA = {
         },
         {
           "item": "Ligações dos painéis da carcaça",
-          "reference": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas",
+          "reference": "12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Mapa nominal emitido em estudo separado; prova pendente",
+          "assembly": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis interfaces mapeadas no estudo separado; capacidade e ferramenta exigem prova.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
@@ -18586,9 +18587,25 @@ const FABRICATION_DATA = {
               "page": "160"
             }
           ]
+        },
+        {
+          "item": "Caixas Minifix",
+          "reference": "Häfele 262.26.034",
+          "quantity": 12,
+          "unit": "unidades",
+          "status": "Selecionado em projeto",
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+        },
+        {
+          "item": "Pinos Minifix",
+          "reference": "Häfele S100 262.28.920",
+          "quantity": 12,
+          "unit": "unidades",
+          "status": "Selecionado em projeto",
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Espelho na frente; madeira clara nas laterais. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Interiores Branco TX. Frente espelhada; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
       "finishSpecs": [
         {
           "area": "Interiores identificados",
@@ -18598,9 +18615,9 @@ const FABRICATION_DATA = {
         },
         {
           "area": "Faces aparentes",
-          "material": "Espelho na frente; madeira clara nas laterais",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
-          "evidence": "01_Projeto/Registro_de_decisoes.md:2953"
+          "material": "Espelho na frente; Arauco Louro Freijó Poro nas laterais",
+          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
@@ -18653,11 +18670,13 @@ const FABRICATION_DATA = {
         "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
+        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento."
       ],
       "assembly": [
         "Porta em madeira e espelho são camadas diferentes; a espessura geométrica da chapa não inclui automaticamente o vidro.",
@@ -18665,7 +18684,9 @@ const FABRICATION_DATA = {
         "HasteØ5×8; cabeça10×7,5×2,7. Furos cegos propostosØ5×8,5; folgas2mm laterais/fundo preservadas.",
         "Prateleiras560 ×104 ×18; lateraisY5184/5250, níveisZ1394/1638no estudo. Conferir datum real da haste antes de furar.",
         "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça.",
+        "Montar fundo/base/topo entre laterais; encaixar S100 e travar Minifix pelo interior antes das prateleiras e portas. Provar sequência e acesso em caixa-piloto.",
+        "Manter as duas prateleiras removíveis e as folgas de 2 mm. O novo mapa não dimensiona suspensão nem adesivo/retentor de espelho."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -18677,6 +18698,7 @@ const FABRICATION_DATA = {
         "01_Projeto/Registro_de_decisoes.md",
         "01_Projeto/Estudo_interativo/src/cad-data.js",
         "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
+        "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
         "01_Projeto/Estudo_interativo/fabrication/technical-r14.json"
       ],
       "sheetPath": "05_Entregas/Fichas_fabricacao_R13/P19.html",
@@ -18774,15 +18796,14 @@ const FABRICATION_DATA = {
         },
         {
           "item": "Prateleiras removíveis e caixa fixa",
-          "reference": "8 pinos Häfele282.04.711; Confirmat7×50 + cavilhaØ8×30 na carcaça em faces ocultas",
-          "quantity": null,
-          "unit": "uniões a quantificar por interface",
+          "reference": "12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados",
+          "quantity": 12,
+          "unit": "conjuntos Minifix",
           "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
+          "reason": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis interfaces mapeadas no estudo separado; capacidade e ferramenta exigem prova.",
           "sources": [
-            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
-            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
-            "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
           ]
         },
         {
@@ -18990,27 +19011,182 @@ const FABRICATION_DATA = {
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro_pinos.json"
           ],
           "id": "P19-F06"
+        },
+        {
+          "item": "6 Piloto S100 proposto — Peca400",
+          "partIds": [
+            "Peca400"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-18,50,9) eixo(1,0,0); (-18,106,9) eixo(1,0,0); (-18,50,741) eixo(1,0,0); (-18,106,741) eixo(1,0,0); (-18,141,120) eixo(1,0,0); (-18,141,630) eixo(1,0,0)",
+          "diameter": 5.0,
+          "depth": 8.5,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F07"
+        },
+        {
+          "item": "6 Piloto S100 proposto — Peca401",
+          "partIds": [
+            "Peca401"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,9) eixo(-1,0,0); (-582,106,9) eixo(-1,0,0); (-582,50,741) eixo(-1,0,0); (-582,106,741) eixo(-1,0,0); (-582,141,120) eixo(-1,0,0); (-582,141,630) eixo(-1,0,0)",
+          "diameter": 5.0,
+          "depth": 8.5,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F08"
+        },
+        {
+          "item": "4 Caixa Minifix — Peca402",
+          "partIds": [
+            "Peca402"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,132,120) eixo(0,1,0); (-548,132,630) eixo(0,1,0); (-52,132,120) eixo(0,1,0); (-52,132,630) eixo(0,1,0)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F09"
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca402",
+          "partIds": [
+            "Peca402"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,141,120) eixo(1,0,0); (-582,141,630) eixo(1,0,0); (-18,141,120) eixo(-1,0,0); (-18,141,630) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F10"
+        },
+        {
+          "item": "4 Caixa Minifix — Peca403",
+          "partIds": [
+            "Peca403"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,50,18) eixo(0,0,-1); (-548,106,18) eixo(0,0,-1); (-52,50,18) eixo(0,0,-1); (-52,106,18) eixo(0,0,-1)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F11"
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca403",
+          "partIds": [
+            "Peca403"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,9) eixo(1,0,0); (-582,106,9) eixo(1,0,0); (-18,50,9) eixo(-1,0,0); (-18,106,9) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F12"
+        },
+        {
+          "item": "4 Caixa Minifix — Peca404",
+          "partIds": [
+            "Peca404"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-548,50,732) eixo(0,0,1); (-548,106,732) eixo(0,0,1); (-52,50,732) eixo(0,0,1); (-52,106,732) eixo(0,0,1)",
+          "diameter": 15.0,
+          "depth": 14.0,
+          "fastener": "262.26.034",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F13"
+        },
+        {
+          "item": "4 Passagem cabeça S100 — Peca404",
+          "partIds": [
+            "Peca404"
+          ],
+          "face": "Interior; direção do eixo de entrada no CSV",
+          "datum": "Sistema local do Modulo018: X=-600..0; Y=24..150; Z=0..750. Não é origem do apartamento.",
+          "pattern": "(-582,50,741) eixo(1,0,0); (-582,106,741) eixo(1,0,0); (-18,50,741) eixo(-1,0,0); (-18,106,741) eixo(-1,0,0)",
+          "diameter": 7.0,
+          "depth": 34.0,
+          "fastener": "S100 262.28.920",
+          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
+          "sources": [
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
+            "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv"
+          ],
+          "id": "P19-F14"
         }
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento."
       ],
       "projectChecks": [
         "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha; não perfurar o espelho para instalar caneco.",
         "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
+        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
       ],
       "resolvedChecks": [
         "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Pinos .711 selecionados; quantidade8 e faces das laterais definidas."
+        "Pinos .711 selecionados; quantidade8 e faces das laterais definidas.",
+        "Seis interfaces da caixa P19 mapeadas nominalmente: 12 conjuntos e 36 operações, sem colisões dos volumes de usinagem no contexto ensaiado; principal preservado."
       ],
       "drawings": [
         {
@@ -19096,23 +19272,127 @@ const FABRICATION_DATA = {
           "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
           "title": "Canecos Blum",
           "status": "Centros do CAD R45; Ø35 e profundidade 13 mm. Validar primeira peça. Parafusos e calços: ver tabela."
+        },
+        {
+          "partId": "Peca403",
+          "title": "Alojamentos Minifix P19 — estudo separado",
+          "width": 564,
+          "height": 108,
+          "thickness": 18,
+          "face": "Superior interna",
+          "origin": "Canto mínimo do painel no sistema local Modulo018.",
+          "orientation": "U=+X local; V=+Y para base/tampo e +Z para fundo. Ler a face de entrada; não espelhar automaticamente.",
+          "holes": [
+            {
+              "x": 34,
+              "y": 26,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 34,
+              "y": 82,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 26,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 82,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            }
+          ],
+          "status": "Mapa nominal de24/10/2026; CSV e verificação no fechamento do banheiro. Acesso, montagem e resistência não liberados."
+        },
+        {
+          "partId": "Peca404",
+          "title": "Alojamentos Minifix P19 — estudo separado",
+          "width": 564,
+          "height": 108,
+          "thickness": 18,
+          "face": "Inferior interna",
+          "origin": "Canto mínimo do painel no sistema local Modulo018.",
+          "orientation": "U=+X local; V=+Y para base/tampo e +Z para fundo. Ler a face de entrada; não espelhar automaticamente.",
+          "holes": [
+            {
+              "x": 34,
+              "y": 26,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 34,
+              "y": 82,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 26,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 82,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            }
+          ],
+          "status": "Mapa nominal de24/10/2026; CSV e verificação no fechamento do banheiro. Acesso, montagem e resistência não liberados."
+        },
+        {
+          "partId": "Peca402",
+          "title": "Alojamentos Minifix P19 — estudo separado",
+          "width": 564,
+          "height": 714,
+          "thickness": 18,
+          "face": "Frontal interna do fundo",
+          "origin": "Canto mínimo do painel no sistema local Modulo018.",
+          "orientation": "U=+X local; V=+Y para base/tampo e +Z para fundo. Ler a face de entrada; não espelhar automaticamente.",
+          "holes": [
+            {
+              "x": 34,
+              "y": 102,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 34,
+              "y": 612,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 102,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            },
+            {
+              "x": 530,
+              "y": 612,
+              "diameter": 15,
+              "depth": "13,5 +0,5"
+            }
+          ],
+          "status": "Mapa nominal de24/10/2026; CSV e verificação no fechamento do banheiro. Acesso, montagem e resistência não liberados."
         }
       ],
-      "unmappedInterfaces": [
-        "Peca400 ↔ Peca402 (X; 18.0×714.0 mm)",
-        "Peca400 ↔ Peca403 (X; 108.0×18.0 mm)",
-        "Peca400 ↔ Peca404 (X; 108.0×18.0 mm)",
-        "Peca401 ↔ Peca402 (X; 18.0×714.0 mm)",
-        "Peca401 ↔ Peca403 (X; 108.0×18.0 mm)",
-        "Peca401 ↔ Peca404 (X; 108.0×18.0 mm)"
-      ],
+      "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P19-furacao.csv",
-      "technicalSummary": "Blum nas portas e oito apoios Häfele .711. Furos nominais dos apoios e canecos identificados.",
+      "technicalSummary": "Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.",
       "panelGroups": [
         {
           "id": "Peca400",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "Lateral direita",
           "dimensions": [
             750.0,
             126.0,
@@ -19121,20 +19401,41 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
-          "specifiedMaterial": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
-          "quantity": 2,
+          "quantity": 1,
           "ids": [
-            "Peca400",
-            "Peca401"
+            "Peca400"
           ],
           "members": [
             {
               "id": "Peca400",
               "name": "Lateral direita"
-            },
+            }
+          ]
+        },
+        {
+          "id": "Peca401",
+          "name": "Lateral esquerda",
+          "dimensions": [
+            750.0,
+            126.0,
+            18.0
+          ],
+          "thickness": 18.0,
+          "rectangular": true,
+          "cadMaterial": "Madeira clara (referência CAD)",
+          "specifiedMaterial": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
+          "finishComplete": true,
+          "remainingFinish": null,
+          "quantity": 1,
+          "ids": [
+            "Peca401"
+          ],
+          "members": [
             {
               "id": "Peca401",
               "name": "Lateral esquerda"
@@ -19153,7 +19454,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -19179,7 +19480,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
           "remainingFinish": "Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais.",
           "quantity": 1,
@@ -19205,7 +19506,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Madeira clara (referência CAD)",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -19231,7 +19532,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "face interna Branco TX; face aparente Espelho (camada distinta do substrato)",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -19257,7 +19558,7 @@ const FABRICATION_DATA = {
           "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "face interna Branco TX; face aparente Espelho (camada distinta do substrato)",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 1,
@@ -19283,7 +19584,7 @@ const FABRICATION_DATA = {
           "rectangular": true,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX · faces internas",
-          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta)",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": true,
           "remainingFinish": null,
           "quantity": 2,

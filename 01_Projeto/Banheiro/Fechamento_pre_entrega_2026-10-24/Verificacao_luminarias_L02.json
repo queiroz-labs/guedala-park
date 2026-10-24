@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-24",
+  "revision": "L02",
+  "components_total_brl": 612.64,
+  "total_by_group_brl": {
+    "teto": 141.9,
+    "espelho": 288.72,
+    "indireta": 182.02
+  },
+  "driver_loads_percent": [
+    36.67,
+    26.67
+  ],
+  "nominal_loads_w": [
+    13.2,
+    9.6
+  ],
+  "checks": [
+    "4000 K e IRC>90 do mesmo SKU de espelho preservados",
+    "3 retornos e 2 fontes independentes",
+    "Fita do espelho:550/25=22 módulos por barra",
+    "Indireta até2000/50=40 módulos",
+    "8 tampas/8 garras fornecidas nos2 perfis; previsão de6 tampas/8 garras",
+    "Soma com Decimal; preços de rolos inteiros",
+    "Não houve compra, envio, publicação externa ou mudança no CAD"
+  ],
+  "not_validated": [
+    "Encaixe interno e dissipação do perfil",
+    "Terminações e proteção da montagem completa",
+    "Curso real da torneira/mão junto à barra inferior",
+    "Cotas e volumes reais de instalação",
+    "Iluminância, ofuscamento e uniformidade no rosto",
+    "Estoque reservado, fretes e preço de instalação"
+  ]
+}

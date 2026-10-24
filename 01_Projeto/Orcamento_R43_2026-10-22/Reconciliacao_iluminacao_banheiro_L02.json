@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "components_total_brl": 612.64,
+  "source": "01_Projeto/Orcamento_R43_2026-10-22/Orcamento_R43.md",
+  "ceiling": {
+    "code": "Parte de L04",
+    "amount_brl": 141.9,
+    "note": "Substitui apenas a parcela do banheiro; não elimina o plafon da lavanderia."
+  },
+  "mirror": {
+    "code": "L05",
+    "amount_brl": 288.72,
+    "note": "Composição completa do espelho neste levantamento: fita, fonte e um perfil. Não somar novamente seus componentes em L06."
+  },
+  "indirect": {
+    "code": "Parte de L06",
+    "amount_brl": 182.02,
+    "note": "Detalhamento da indireta do banheiro dentro da verba geral de perfis/fitas/fontes; não lançar612,64 em acréscimo às verbas antigas."
+  },
+  "installation": {
+    "code": "I01",
+    "note": "Montagem elétrica já pertence à verba de instalações; o valor específico do banheiro não foi cotado."
+  },
+  "global_budget_changed": false,
+  "reason": "L06 é verba compartilhada sem desdobramento completo dos outros cômodos; detalhar a parcela do banheiro não autoriza lançar economia global ou reduzir verba dos demais ambientes."
+}

@@ -7244,7 +7244,7 @@
     "P18": {
       "name": "Gabinete do banheiro",
       "room": "banho",
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Bege fosco nas frentes; madeira clara nas laterais. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Interiores Branco TX. Frentes Arauco Beige Matt; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
       "finishSpecs": [
         {
           "area": "Interiores identificados",
@@ -7254,9 +7254,9 @@
         },
         {
           "area": "Faces aparentes",
-          "material": "Bege fosco nas frentes; madeira clara nas laterais",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
-          "evidence": "01_Projeto/Registro_de_decisoes.md:2939"
+          "material": "Arauco Beige Matt nas frentes; Arauco Louro Freijó Poro nas laterais",
+          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
@@ -7294,7 +7294,8 @@
         "01_Projeto/Registro_de_decisoes.md",
         "01_Projeto/Estudo_interativo/src/cad-data.js",
         "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
-        "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md"
+        "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
+        "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
       ],
       "dimensions": {
         "envelopeLocalMM": [
@@ -7336,10 +7337,7 @@
           "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
           "Fabricante/código do Branco TX; substrato; espessura de compra; processo de composição das faces; bordas/veios e furação."
         ],
-        "aesthetic": [
-          "Selecionar amostras/códigos comerciais dos padrões externos já escolhidos, sem reabrir Branco TX nos interiores.",
-          "Padrão exato da madeira clara e código do bege, quando aplicável, permanecem a selecionar; não são medições do apartamento."
-        ],
+        "aesthetic": [],
         "fieldDataStoredSeparately": true
       },
       "cadMaterialCounts": {
@@ -7425,10 +7423,10 @@
           "source": "BC43_CaixaE",
           "module": "P18",
           "label": "Lateral original esquerda com furos de união",
-          "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialCode": "lightwood",
+          "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialCode": "Arauco Louro Freijó Poro",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Madeira clara, padrão exato a escolher",
+          "exposedMaterial": "Arauco Louro Freijó Poro",
           "sourceRole": "Laterais externas do gabinete BC43",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
@@ -7453,10 +7451,10 @@
           "source": "BC43_CaixaD",
           "module": "P18",
           "label": "Lateral original direita com furos de união",
-          "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialCode": "lightwood",
+          "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialCode": "Arauco Louro Freijó Poro",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Madeira clara, padrão exato a escolher",
+          "exposedMaterial": "Arauco Louro Freijó Poro",
           "sourceRole": "Laterais externas do gabinete BC43",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
@@ -7481,10 +7479,10 @@
           "source": "BC43_PainelEsquerda",
           "module": "P18",
           "label": "Folha 292×500×18 — cava18×80×6",
-          "material": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialCode": "bathbeige",
+          "material": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialCode": "Arauco Beige Matt",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Bege fosco liso",
+          "exposedMaterial": "Arauco Beige Matt",
           "sourceRole": "Folhas externas de correr BC43",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939",
@@ -7509,10 +7507,10 @@
           "source": "BC43_PainelDireita",
           "module": "P18",
           "label": "Folha 292×500×18 — cava18×80×001",
-          "material": "face interna Branco TX; face aparente Bege fosco liso",
-          "materialCode": "bathbeige",
+          "material": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+          "materialCode": "Arauco Beige Matt",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Bege fosco liso",
+          "exposedMaterial": "Arauco Beige Matt",
           "sourceRole": "Folhas externas de correr BC43",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939",
@@ -7636,7 +7634,7 @@
     "P19": {
       "name": "Espelheiro",
       "room": "banho",
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Espelho na frente; madeira clara nas laterais. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Interiores Branco TX. Frente espelhada; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
       "finishSpecs": [
         {
           "area": "Interiores identificados",
@@ -7646,9 +7644,9 @@
         },
         {
           "area": "Faces aparentes",
-          "material": "Espelho na frente; madeira clara nas laterais",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
-          "evidence": "01_Projeto/Registro_de_decisoes.md:2953"
+          "material": "Espelho na frente; Arauco Louro Freijó Poro nas laterais",
+          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
@@ -7685,7 +7683,8 @@
         "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
         "01_Projeto/Registro_de_decisoes.md",
         "01_Projeto/Estudo_interativo/src/cad-data.js",
-        "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md"
+        "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
+        "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
       ],
       "dimensions": {
         "envelopeLocalMM": [
@@ -7727,10 +7726,7 @@
           "Definir união, sequência, folgas e mapa de usinagem com a ferragem selecionada; não substituir essa decisão por medição de campo.",
           "Fabricante/código do Branco TX; substrato; espessura de compra; processo de composição das faces; bordas/veios e furação."
         ],
-        "aesthetic": [
-          "Selecionar amostras/códigos comerciais dos padrões externos já escolhidos, sem reabrir Branco TX nos interiores.",
-          "Padrão exato da madeira clara e código do bege, quando aplicável, permanecem a selecionar; não são medições do apartamento."
-        ],
+        "aesthetic": [],
         "fieldDataStoredSeparately": true
       },
       "cadMaterialCounts": {
@@ -7852,10 +7848,10 @@
           "source": "Peca400",
           "module": "P19",
           "label": "Lateral direita030",
-          "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialCode": "lightwood",
+          "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialCode": "Arauco Louro Freijó Poro",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Madeira clara, padrão exato a escolher",
+          "exposedMaterial": "Arauco Louro Freijó Poro",
           "sourceRole": "Laterais externas do espelheiro",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953",
@@ -7880,10 +7876,10 @@
           "source": "Peca401",
           "module": "P19",
           "label": "Lateral esquerda014",
-          "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-          "materialCode": "lightwood",
+          "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+          "materialCode": "Arauco Louro Freijó Poro",
           "innerMaterial": "Branco TX",
-          "exposedMaterial": "Madeira clara, padrão exato a escolher",
+          "exposedMaterial": "Arauco Louro Freijó Poro",
           "sourceRole": "Laterais externas do espelheiro",
           "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953",
@@ -10605,7 +10601,7 @@
       "exposedMaterial": null,
       "sourceRole": "Prateleiras e divisores internos identificados",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -10628,7 +10624,7 @@
       "exposedMaterial": null,
       "sourceRole": "Prateleiras e divisores internos identificados",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR001 (Prateleira removível espelhado 2 - proposta)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR001 (Prateleira removível espelhado 2 - proposta); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -11778,7 +11774,7 @@
       "exposedMaterial": null,
       "sourceRole": "Face interna do fundo; acabamento do verso oculto é especificação construtiva",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -11801,7 +11797,7 @@
       "exposedMaterial": null,
       "sourceRole": "Face interna do fundo; acabamento do verso oculto é especificação construtiva",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -12146,7 +12142,7 @@
       "exposedMaterial": null,
       "sourceRole": "Face voltada ao compartimento da base/tampo; verso oculto não declarado como face decorativa",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -12169,7 +12165,7 @@
       "exposedMaterial": null,
       "sourceRole": "Face voltada ao compartimento da base/tampo; verso oculto não declarado como face decorativa",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14398,13 +14394,13 @@
       "source": "BC43_CaixaE",
       "module": "P18",
       "label": "Lateral original esquerda com furos de união",
-      "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-      "materialCode": "lightwood",
+      "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+      "materialCode": "Arauco Louro Freijó Poro",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Madeira clara, padrão exato a escolher",
+      "exposedMaterial": "Arauco Louro Freijó Poro",
       "sourceRole": "Laterais externas do gabinete BC43",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14426,13 +14422,13 @@
       "source": "BC43_CaixaD",
       "module": "P18",
       "label": "Lateral original direita com furos de união",
-      "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-      "materialCode": "lightwood",
+      "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+      "materialCode": "Arauco Louro Freijó Poro",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Madeira clara, padrão exato a escolher",
+      "exposedMaterial": "Arauco Louro Freijó Poro",
       "sourceRole": "Laterais externas do gabinete BC43",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14454,13 +14450,13 @@
       "source": "BC43_PainelEsquerda",
       "module": "P18",
       "label": "Folha 292×500×18 — cava18×80×6",
-      "material": "face interna Branco TX; face aparente Bege fosco liso",
-      "materialCode": "bathbeige",
+      "material": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+      "materialCode": "Arauco Beige Matt",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Bege fosco liso",
+      "exposedMaterial": "Arauco Beige Matt",
       "sourceRole": "Folhas externas de correr BC43",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14482,13 +14478,13 @@
       "source": "BC43_PainelDireita",
       "module": "P18",
       "label": "Folha 292×500×18 — cava18×80×001",
-      "material": "face interna Branco TX; face aparente Bege fosco liso",
-      "materialCode": "bathbeige",
+      "material": "face interna Branco TX; face aparente Arauco Beige Matt liso",
+      "materialCode": "Arauco Beige Matt",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Bege fosco liso",
+      "exposedMaterial": "Arauco Beige Matt",
       "sourceRole": "Folhas externas de correr BC43",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Projeto/Registro_de_decisoes.md:2939; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14510,13 +14506,13 @@
       "source": "Peca400",
       "module": "P19",
       "label": "Lateral direita030",
-      "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-      "materialCode": "lightwood",
+      "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+      "materialCode": "Arauco Louro Freijó Poro",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Madeira clara, padrão exato a escolher",
+      "exposedMaterial": "Arauco Louro Freijó Poro",
       "sourceRole": "Laterais externas do espelheiro",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14538,13 +14534,13 @@
       "source": "Peca401",
       "module": "P19",
       "label": "Lateral esquerda014",
-      "material": "face interna Branco TX; face aparente Madeira clara, padrão exato a escolher",
-      "materialCode": "lightwood",
+      "material": "face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher",
+      "materialCode": "Arauco Louro Freijó Poro",
       "innerMaterial": "Branco TX",
-      "exposedMaterial": "Madeira clara, padrão exato a escolher",
+      "exposedMaterial": "Arauco Louro Freijó Poro",
       "sourceRole": "Laterais externas do espelheiro",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14572,7 +14568,7 @@
       "exposedMaterial": "Espelho (camada distinta do substrato)",
       "sourceRole": "Painel de porta: face interna TX; camada externa de espelho separada",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14600,7 +14596,7 @@
       "exposedMaterial": "Espelho (camada distinta do substrato)",
       "sourceRole": "Painel de porta: face interna TX; camada externa de espelho separada",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Projeto/Registro_de_decisoes.md:2953; 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14758,7 +14754,7 @@
       "exposedMaterial": null,
       "sourceRole": "Quadro frontal desmontável BC43; face interior TX",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14781,7 +14777,7 @@
       "exposedMaterial": null,
       "sourceRole": "Quadro frontal desmontável BC43; face interior TX",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14804,7 +14800,7 @@
       "exposedMaterial": null,
       "sourceRole": "Quadro frontal desmontável BC43; face interior TX",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14827,7 +14823,7 @@
       "exposedMaterial": null,
       "sourceRole": "Quadro frontal desmontável BC43; face interior TX",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
@@ -14942,7 +14938,7 @@
       "exposedMaterial": null,
       "sourceRole": "Base do espelheiro: face superior interna TX",
       "scope": "Acabamento por face, não chapa comercial dupla pronta nem substrato. Não aprova geometria/fabricação.",
-      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012)",
+      "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
       "sourceEvidence": [
         {
           "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",

@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-24",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Cozinha\\Rodizios_gaveta_2026-10-24\\Guedala_Park_R45_Rodizios_P08.FCStd",
+  "sourceSHA256": "f4a9145b380eac0a9bc9b628bc7a8397c511d0b7550e0b0dc91cf7662031624c",
+  "study": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Banheiro\\Fechamento_pre_entrega_2026-10-24\\Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+  "studySHA256": "332b20ef78d91987e218b84cb7c9798c1165f3332c9b2474225294de60de3964",
+  "coordinate_system": "Local do Modulo018 da R45/P08; X=-600..0, Y=24..150, Z=0..750. Não são coordenadas do apartamento.",
+  "minifix_sets": 12,
+  "operations": 36,
+  "mapped_interfaces": 6,
+  "boards": {
+    "Peca400": {
+      "valid": true,
+      "bbox": [
+        -18.0,
+        24.0,
+        0.0,
+        0.0,
+        150.0,
+        750.0
+      ],
+      "removed_volume_mm3": 1001.3826583325863
+    },
+    "Peca401": {
+      "valid": true,
+      "bbox": [
+        -600.0,
+        24.0,
+        0.0,
+        -582.0,
+        150.0,
+        750.0
+      ],
+      "removed_volume_mm3": 1001.3826583325863
+    },
+    "Peca402": {
+      "valid": true,
+      "bbox": [
+        -582.0,
+        132.0,
+        18.0,
+        -18.0,
+        150.0,
+        732.0
+      ],
+      "removed_volume_mm3": 14007.727422962897
+    },
+    "Peca403": {
+      "valid": true,
+      "bbox": [
+        -582.0,
+        24.0,
+        0.0,
+        -18.0,
+        132.0,
+        18.0
+      ],
+      "removed_volume_mm3": 14007.746177913388
+    },
+    "Peca404": {
+      "valid": true,
+      "bbox": [
+        -582.0,
+        24.0,
+        732.0,
+        -18.0,
+        132.0,
+        750.0
+      ],
+      "removed_volume_mm3": 14007.746179572307
+    }
+  },
+  "positions": [
+    {
+      "joint": 1,
+      "board": "Peca403",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        50,
+        18
+      ],
+      "cam_axis": [
+        0,
+        0,
+        -1
+      ],
+      "edge": [
+        -582,
+        50,
+        9
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 2,
+      "board": "Peca403",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        106,
+        18
+      ],
+      "cam_axis": [
+        0,
+        0,
+        -1
+      ],
+      "edge": [
+        -582,
+        106,
+        9
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 3,
+      "board": "Peca403",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        50,
+        18
+      ],
+      "cam_axis": [
+        0,
+        0,
+        -1
+      ],
+      "edge": [
+        -18,
+        50,
+        9
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 4,
+      "board": "Peca403",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        106,
+        18
+      ],
+      "cam_axis": [
+        0,
+        0,
+        -1
+      ],
+      "edge": [
+        -18,
+        106,
+        9
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 5,
+      "board": "Peca404",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        50,
+        732
+      ],
+      "cam_axis": [
+        0,
+        0,
+        1
+      ],
+      "edge": [
+        -582,
+        50,
+        741
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 6,
+      "board": "Peca404",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        106,
+        732
+      ],
+      "cam_axis": [
+        0,
+        0,
+        1
+      ],
+      "edge": [
+        -582,
+        106,
+        741
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 7,
+      "board": "Peca404",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        50,
+        732
+      ],
+      "cam_axis": [
+        0,
+        0,
+        1
+      ],
+      "edge": [
+        -18,
+        50,
+        741
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 8,
+      "board": "Peca404",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        106,
+        732
+      ],
+      "cam_axis": [
+        0,
+        0,
+        1
+      ],
+      "edge": [
+        -18,
+        106,
+        741
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 9,
+      "board": "Peca402",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        132,
+        120
+      ],
+      "cam_axis": [
+        0,
+        1,
+        0
+      ],
+      "edge": [
+        -582,
+        141,
+        120
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 10,
+      "board": "Peca402",
+      "side": "Peca401",
+      "cam": [
+        -548,
+        132,
+        630
+      ],
+      "cam_axis": [
+        0,
+        1,
+        0
+      ],
+      "edge": [
+        -582,
+        141,
+        630
+      ],
+      "pin_axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 11,
+      "board": "Peca402",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        132,
+        120
+      ],
+      "cam_axis": [
+        0,
+        1,
+        0
+      ],
+      "edge": [
+        -18,
+        141,
+        120
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "joint": 12,
+      "board": "Peca402",
+      "side": "Peca400",
+      "cam": [
+        -52,
+        132,
+        630
+      ],
+      "cam_axis": [
+        0,
+        1,
+        0
+      ],
+      "edge": [
+        -18,
+        141,
+        630
+      ],
+      "pin_axis": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "context_objects": 44,
+  "collisions": [],
+  "reopened": true,
+  "source_unchanged": true,
+  "assembly": "Montar fundo/base/topo entre as laterais; travar Minifix pelo interior antes de instalar prateleiras e portas. Ferragem real e ferramenta devem ser provadas.",
+  "limits": [
+    "Alojamentos e passagem são gabaritos, não sólidos dos conectores.",
+    "Acesso de chave, montagem, torque, retenção e resistência exigem prova de oficina.",
+    "Piloto 8,5 e furo máximo 14 são propostas de usinagem; medir chapa/ponta da broca.",
+    "Suspensão/ancoragem e adesivo dos espelhos não foram dimensionados por este mapa."
+  ],
+  "sources": [
+    "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
+    "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+  ],
+  "gui_visibility_saved": true,
+  "hidden_drilling_tools": 36
+}

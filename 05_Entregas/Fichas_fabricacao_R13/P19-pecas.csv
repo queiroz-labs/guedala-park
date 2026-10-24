@@ -1,5 +1,6 @@
 ﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
-Peca400 | Peca401;Lateral direita / Lateral esquerda;2;750.0;126.0;18.0;Madeira clara (referência CAD);"face interna Branco TX; face aparente Madeira clara, padrão exato a escolher";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca400;Lateral direita;1;750.0;126.0;18.0;Madeira clara (referência CAD);"face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca401;Lateral esquerda;1;750.0;126.0;18.0;Madeira clara (referência CAD);"face interna Branco TX; face aparente Arauco Louro Freijó Poro, padrão exato a escolher";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
 Peca402;Fundo;1;714.0;564.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
 Peca403;Base;1;564.0;108.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";"Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais."
 Peca404;Tampo;1;564.0;108.0;18.0;Madeira clara (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";

@@ -54,9 +54,9 @@
 | B06 | Água quente | Ducha higiênica · quente | 60 cm | Novo ramal; E21 exige 3,9 L/min para ligar |
 | B07 | Água quente | Chuveiro / misturador Livo (quente e fria) | 120 cm | Ponto existente; conferir |
 | B08 | Esgoto / ralo | Ralo do box | 0 cm | Existente |
-| B09 | Luz de parede / indireta | Luz frontal do espelho 4000 K | 190 cm | Comando próprio |
-| B10 | Luz de parede / indireta | Luz indireta 3000 K (faixa no canto do teto) | 230 cm | Comando próprio; infraestrutura a validar |
-| B11 | Luz no teto | Luz geral do banheiro | teto | Modelo a definir |
+| B09 | Luz de parede / indireta | Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W | 190 cm | L02: Opus OPS31002 e perfil MOV; posição/montagem a validar |
+| B10 | Luz de parede / indireta | Indireta 3000 K: Cristallux SMD até 2 m /9,6 W | 230 cm | L02: Opus OPS31002, comando próprio; trecho real a medir |
+| B11 | Luz no teto | Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 | teto | Selecionado L02; ponto e volumes a conferir |
 | S01 | Tomada 127 V | Régua no compartimento ventilado: TV, PS5, soundbar | 30 cm | Posição de estudo |
 | S02 | Tomada 127 V | TV 50″ atrás do painel | 120 cm | Altura a conferir |
 | S03 | Luz no teto | Luz geral da sala | teto | Modelo a definir |
