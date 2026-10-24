@@ -1,107 +1,107 @@
-/* Fontes explícitas. Medidas nominais; não constitui liberação para fabricação. */
+/* Fontes explícitas. Conferir as medidas antes de fabricar. */
 const WORKSHOP_DOCS = [
   {
     "id": "dossie",
-    "title": "Guia do montador",
+    "title": "Guia de montagem",
     "category": "Começar",
     "rooms": [
       "all"
     ],
     "status": "Consolidado",
-    "summary": "Medidas, ferragens, acabamentos e pendências por módulo.",
+    "summary": "Consulte as medidas, os materiais e o que falta conferir em cada móvel.",
     "path": "05_Entregas/Dossie_marcenaria_R45.html"
   },
   {
     "id": "pacote-compartilhar",
-    "title": "Baixar pacote para compartilhar",
+    "title": "Baixar arquivos do projeto",
     "category": "Começar",
     "rooms": [
       "all"
     ],
     "status": "R16",
-    "summary": "FreeCAD com cores R16 e geometria R45, fichas R14, planta cotada e instruções em um ZIP.",
+    "summary": "Modelo 3D editável, fichas dos móveis, planta com medidas e instruções em um arquivo ZIP.",
     "path": "05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip"
   },
   {
     "id": "matriz",
-    "title": "Medidas dos 20 módulos",
+    "title": "Medidas dos 20 móveis",
     "category": "Medidas",
     "rooms": [
       "all"
     ],
-    "status": "Nominal",
-    "summary": "Vãos internos em milímetros e o que falta fechar.",
+    "status": "Medida do projeto",
+    "summary": "Veja os espaços internos e as medidas que ainda precisam de confirmação.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
   },
   {
     "id": "interfaces",
-    "title": "Uniões entre chapas",
+    "title": "Como unir as peças",
     "category": "Montagem",
     "rooms": [
       "all"
     ],
     "status": "Em estudo",
-    "summary": "171 contatos nominais; ligação e caminho da carga a definir.",
+    "summary": "Encontros entre chapas. Falta definir as peças de união e o peso suportado.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md"
   },
   {
     "id": "fixas",
-    "title": "Ferragens fixas e suspensão",
+    "title": "Conectores e suportes dos armários",
     "category": "Ferragens",
     "rooms": [
       "all"
     ],
-    "status": "Candidatas",
-    "summary": "Pinos, conectores, suportes e restrições de montagem.",
+    "status": "Opções a conferir",
+    "summary": "Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
   },
   {
     "id": "varoes",
-    "title": "Varões do roupeiro",
+    "title": "Cabideiros do guarda-roupa",
     "category": "Ferragens",
     "rooms": [
       "quarto"
     ],
     "status": "Em estudo",
-    "summary": "Quatro varões; oito terminais. Corte depende do suporte.",
+    "summary": "Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md"
   },
   {
     "id": "bancada",
-    "title": "Estrutura da bancada",
+    "title": "Apoios da bancada do escritório",
     "category": "Montagem",
     "rooms": [
       "escritorio"
     ],
     "status": "Alternativa",
-    "summary": "Bancada de 2000 × 700 × 30 mm; reforço separado em estudo.",
+    "summary": "Veja as medidas da bancada e o reforço que ainda está em estudo.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Bancada.md"
   },
   {
     "id": "minifix",
-    "title": "Minifix do aéreo C",
+    "title": "Conectores do armário sobre a pia",
     "category": "Ferragens",
     "rooms": [
       "cozinha"
     ],
     "status": "Alternativa",
-    "summary": "20 conjuntos propostos para montagem fixa em chapa de 18 mm.",
+    "summary": "Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
   },
   {
     "id": "espelheiro",
-    "title": "Pinos e prateleiras do espelheiro",
+    "title": "Prateleiras do armário com espelho",
     "category": "Ferragens",
     "rooms": [
       "banho"
     ],
     "status": "Em estudo",
-    "summary": "Oito apoios candidatos; carga da chapa e parede não liberadas.",
+    "summary": "Opções de apoios. Falta confirmar o peso suportado e a fixação na parede.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md"
   },
   {
     "id": "gavetas",
-    "title": "Gavetas, guias e rodízios",
+    "title": "Montagem das gavetas",
     "category": "Ferragens",
     "rooms": [
       "cozinha",
@@ -109,218 +109,218 @@ const WORKSHOP_DOCS = [
       "escritorio"
     ],
     "status": "Em estudo",
-    "summary": "Compatibilidade, carga, engates e retirada das gavetas.",
+    "summary": "Confira as corrediças, as rodas e o peso suportado. Veja também como retirar cada gaveta.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Resultado.html"
   },
   {
     "id": "rodizios-p08",
-    "title": "Gaveta baixa: 6 rodas de 38 mm + espaçadores de 1 mm",
+    "title": "Rodas da gaveta de limpeza",
     "category": "Ferragens",
     "rooms": [
       "cozinha"
     ],
     "status": "Selecionado",
-    "summary": "Kit Leão Aço e link de compra; apoio de 39 mm e útil de 88 mm preservados.",
+    "summary": "Seis rodas de 38 mm e espaçadores de 1 mm. Veja a escolha e o link de compra.",
     "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
   },
   {
     "id": "banheiro-fechamento",
-    "title": "Banheiro: fechamento antes das chaves",
-    "category": "Compatibilização",
+    "title": "Escolhas do banheiro",
+    "category": "Conferências de montagem",
     "rooms": [
       "banho"
     ],
     "status": "R01 · 24/10",
-    "summary": "Códigos Beige Matt/Louro Freijó Poro e teto3000 K escolhidos; mapa P19, hidráulica e próximos fechamentos.",
+    "summary": "Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações.",
     "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Fechamento.html"
   },
   {
     "id": "cad-p19",
-    "title": "FreeCAD: uniões nominais do espelheiro",
+    "title": "Modelo de estudo do armário com espelho",
     "category": "FreeCAD",
     "rooms": [
       "banho"
     ],
     "status": "Estudo separado",
-    "summary": "12 conjuntos Minifix nas seis interfaces da caixa; não substitui o CAD principal nem libera fabricação.",
+    "summary": "Proposta de união entre as peças. A montagem ainda precisa de teste.",
     "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd"
   },
   {
     "id": "luz-banho",
-    "title": "Luminárias do banheiro: total e compra",
+    "title": "Luzes do banheiro e preços",
     "category": "Iluminação",
     "rooms": [
       "banho"
     ],
     "status": "L02 · R$612,64",
-    "summary": "Espelho COB 4000 K/IRC>90 preservado; indireta 3000 K de 4,8 W/m e fontes Opus. Total dos componentes à vista, sem frete e instalação.",
+    "summary": "Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação.",
     "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html"
   },
   {
     "id": "movento",
-    "title": "Alternativa MOVENTO 400",
+    "title": "Corrediças MOVENTO para as gavetas",
     "category": "Ferragens",
     "rooms": [
       "escritorio"
     ],
     "status": "Alternativa",
-    "summary": "Preserva o útil; conflitos locais e retirada ainda pendentes.",
+    "summary": "Peças que guiam as gavetas do escritório. Confira os encaixes e os pontos de colisão.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Alternativas_escritorio/Resultado.html"
   },
   {
     "id": "portas",
-    "title": "Portas e articulações",
+    "title": "Abertura de portas e tampas",
     "category": "Ferragens",
     "rooms": [
       "all"
     ],
     "status": "Em estudo",
-    "summary": "Ensaios de portas, banco e mecanismos; não é liberação executiva.",
+    "summary": "Estudos dos mecanismos. Teste a montagem antes de fabricar.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html"
   },
   {
     "id": "cesto",
-    "title": "Cesto basculante",
+    "title": "Abertura do cesto de roupas",
     "category": "Ferragens",
     "rooms": [
       "lavanderia"
     ],
     "status": "Em estudo",
-    "summary": "Frente 550 × 521 × 18; saco removível e curso até 55° preservados.",
+    "summary": "Frente que inclina para abrir, com saco removível. Falta testar o mecanismo.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md"
   },
   {
     "id": "mesa-varal",
-    "title": "Mesa Berlin e varal",
-    "category": "Compatibilização",
+    "title": "Mesa extensível e varal",
+    "category": "Conferências de montagem",
     "rooms": [
       "sala",
       "lavanderia"
     ],
     "status": "Em estudo",
-    "summary": "Mesa pronta; quadro do varal de 1000 × 500, sem placa de ocultação.",
+    "summary": "Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Mesa_e_varal.md"
   },
   {
     "id": "banco",
-    "title": "Apoios e estrutura do banco",
+    "title": "Estrutura do banco com baú",
     "category": "Montagem",
     "rooms": [
       "sala"
     ],
     "status": "Em estudo",
-    "summary": "Duas tampas e armazenamento preservados; apoios e ligações pendentes.",
+    "summary": "Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões.",
     "path": "01_Projeto/Consolidacao_R45_2026-10-23/Banco_estrutura/Resultado.html"
   },
   {
     "id": "southco",
-    "title": "Southco: fixação e almofadas",
+    "title": "Alternativa de dobradiça para o banco",
     "category": "Ferragens",
     "rooms": [
       "sala"
     ],
     "status": "Em estudo",
-    "summary": "R47 separada da R45; eixo, fixações e batente ainda não fechados.",
+    "summary": "Estudo anterior com dobradiças Southco. Consulte a ficha do banco para ver a solução atual.",
     "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html"
   },
   {
     "id": "batente",
-    "title": "Batente mecânico do banco",
+    "title": "Limite de abertura do banco",
     "category": "Montagem",
     "rooms": [
       "sala"
     ],
     "status": "Alternativa",
-    "summary": "Geometria nominal de parada a 90°; não fabricar pelo eixo hipotético.",
+    "summary": "Estudo de uma peça para limitar a abertura. A posição depende da dobradiça real.",
     "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md"
   },
   {
     "id": "torneiras",
-    "title": "Conferência de cubas e torneiras",
-    "category": "Compatibilização",
+    "title": "Encaixe das cubas e torneiras",
+    "category": "Conferências de montagem",
     "rooms": [
       "cozinha",
       "banho"
     ],
     "status": "Em estudo",
-    "summary": "Envelopes e medidas disponíveis; instalação depende dos produtos.",
+    "summary": "Confira as medidas dos produtos e o espaço para abrir as torneiras.",
     "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Conferencia.html"
   },
   {
     "id": "purangi",
-    "title": "Purangi: vedação e abertura",
-    "category": "Compatibilização",
+    "title": "Torneira Purangi · opção em estudo",
+    "category": "Conferências de montagem",
     "rooms": [
       "banho"
     ],
-    "status": "Não liberado",
-    "summary": "Compatibilidade integral não comprovada; troca não liberada.",
+    "status": "Ainda não aprovado para fabricar",
+    "summary": "A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.",
     "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Resultado_vedacao_abertura.md"
   },
   {
     "id": "forno",
-    "title": "Forno: grelhas e manutenção",
-    "category": "Compatibilização",
+    "title": "Apoios e ventilação do forno",
+    "category": "Conferências de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "Em estudo",
-    "summary": "R02 dos apoios e grelhas removíveis; montagem e ventilação condicionadas.",
+    "summary": "Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.",
     "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md"
   },
   {
     "id": "cad",
-    "title": "FreeCAD R46 · fichas R14 no modelo",
+    "title": "Baixar modelo 3D editável",
     "category": "FreeCAD",
     "rooms": [
       "all"
     ],
     "status": "R46 · 24/10",
-    "summary": "Geometria R45, cores R16 e P08 preservadas; ferragens das fichas por móvel, especificação por peça e 52 Minifix como marcadores.",
+    "summary": "Arquivo para abrir no FreeCAD. Confira as fichas antes de fabricar.",
     "path": "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd"
   },
   {
     "id": "cad-cores",
-    "title": "Atualização de cores do FreeCAD",
+    "title": "Cores do modelo 3D",
     "category": "Acabamentos",
     "rooms": [
       "all"
     ],
     "status": "R16",
-    "summary": "Registro dos acabamentos visuais; cores aproximadas e limites da atualização.",
+    "summary": "Veja os acabamentos representados. Compare as cores com amostras reais.",
     "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md"
   },
   {
     "id": "cad-southco",
-    "title": "FreeCAD: fixação Southco",
+    "title": "Modelo da alternativa Southco",
     "category": "FreeCAD",
     "rooms": [
       "sala"
     ],
     "status": "Estudo separado",
-    "summary": "Proposta R47 para inspeção; não substitui o modelo principal.",
+    "summary": "Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.",
     "path": "01_Projeto/Southco_banco_R47_2026-10-23/Southco_Fixacao_ESTUDO.FCStd"
   },
   {
     "id": "cad-purangi",
-    "title": "FreeCAD: sensibilidade Purangi",
+    "title": "Modelo de estudo da torneira Purangi",
     "category": "FreeCAD",
     "rooms": [
       "banho"
     ],
     "status": "Estudo separado",
-    "summary": "Envelopes hipotéticos para conferir abertura; não é CAD certificado.",
+    "summary": "Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.",
     "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Purangi_R45_SENSIBILIDADE.FCStd"
   },
   {
     "id": "executivo",
-    "title": "Pranchas executivas e plano de corte",
-    "category": "Executivo",
+    "title": "Desenhos e medidas antes de fabricar",
+    "category": "Antes de fabricar",
     "rooms": [
       "all"
     ],
     "status": "Pendente",
-    "summary": "Faltam cotas de campo, furação, fitas de borda, folgas, ligações e liberação por peça.",
+    "summary": "Falta concluir os detalhes de corte, furos, bordas, folgas e montagem.",
     "path": null
   },
   {
@@ -331,7 +331,7 @@ const WORKSHOP_DOCS = [
       "all"
     ],
     "status": "Documento de origem",
-    "summary": "Referência de planta; não substitui levantamento acabado.",
+    "summary": "Documento de origem. Confira as medidas reais depois dos acabamentos.",
     "path": "02_Plantas_e_manuais/Planta_oficial.pdf"
   },
   {
@@ -342,139 +342,139 @@ const WORKSHOP_DOCS = [
       "all"
     ],
     "status": "Escolhas e estudos",
-    "summary": "Acabamentos, interfaces e condições de instalação. Conferir revisão e quantitativos nas fontes.",
+    "summary": "Veja as escolhas de acabamento e o que falta conferir na instalação.",
     "path": "01_Projeto/Pisos_e_rodapes.md"
   },
   {
     "id": "luz-quarto",
-    "title": "Iluminação do quarto",
+    "title": "Luzes do quarto",
     "category": "Iluminação",
     "rooms": [
       "quarto"
     ],
     "status": "Em desenvolvimento",
-    "summary": "Comandos, temperaturas e relação com a cabeceira e os armários.",
+    "summary": "Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.",
     "path": "01_Projeto/Portas_e_quarto/Iluminacao_R00.md"
   },
   {
     "id": "instalacoes",
-    "title": "Instalações: compatibilização executiva",
+    "title": "Água, gás, tomadas e ventilação",
     "category": "Instalações",
     "rooms": [
       "all"
     ],
     "status": "Pendente",
-    "summary": "Conferir em campo os pontos elétricos, hidráulicos, gás e ventilação; plantas executivas compatibilizadas ainda não reunidas.",
+    "summary": "Confira os pontos reais no apartamento antes de finalizar os desenhos de instalação.",
     "path": null
   },
   {
     "id": "levantamento",
-    "title": "Levantamento para fabricação",
-    "category": "Executivo",
+    "title": "O que medir antes de fabricar",
+    "category": "Antes de fabricar",
     "rooms": [
       "all"
     ],
     "status": "Pendente",
-    "summary": "Cotas acabadas, diagonais, prumo, esquadro, níveis, revestimentos e substratos de fixação precisam de levantamento.",
+    "summary": "Confira as paredes, o piso pronto, os revestimentos e os pontos de fixação.",
     "path": null
   },
   {
     "id": "acabamentos-r13",
-    "title": "Branco TX nos interiores",
+    "title": "Acabamento interno dos armários",
     "category": "Acabamentos",
     "rooms": [
       "all"
     ],
     "status": "Escolhido",
-    "summary": "Diretriz vigente por face: interiores Branco TX e padrões escolhidos nas faces aparentes.",
+    "summary": "Branco texturizado por dentro e os padrões escolhidos nas partes visíveis.",
     "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md"
   },
   {
     "id": "planta-cotada",
-    "title": "Planta cotada · distâncias entre paredes",
+    "title": "Planta com medidas",
     "category": "Arquitetura",
     "rooms": [
       "all"
     ],
     "status": "R13",
-    "summary": "Cotas oficiais por ambiente e diferenças da reconstrução identificadas.",
+    "summary": "Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site.",
     "path": "05_Entregas/Planta_cotada_R13/index.html"
   },
   {
     "id": "fichas",
-    "title": "Fichas completas dos 20 móveis",
+    "title": "Fichas dos 20 móveis",
     "category": "Começar",
     "rooms": [
       "all"
     ],
     "status": "R14",
-    "summary": "Medidas, peças, acabamentos, ferragens selecionadas e furação rastreável.",
+    "summary": "Medidas, materiais, peças de montagem e furos de cada móvel.",
     "path": "05_Entregas/Fichas_fabricacao_R13/index.html"
   },
   {
     "id": "pendencias-r14",
-    "title": "O que falta · projeto, oficina e apartamento",
+    "title": "O que falta conferir",
     "category": "Começar",
     "rooms": [
       "all"
     ],
     "status": "R14",
-    "summary": "Próximos passos separados por etapa, com decisões e fontes nas fichas.",
+    "summary": "Veja o que falta definir, testar na oficina e medir no apartamento.",
     "path": "05_Entregas/Fichas_fabricacao_R13/Pendencias.html"
   },
   {
     "id": "campo",
-    "title": "O que medir no apartamento",
+    "title": "Folha para medir o apartamento",
     "category": "Levantamento",
     "rooms": [
       "all"
     ],
     "status": "Preencher em campo",
-    "summary": "Folha por móvel: dimensões físicas, instalações, níveis e paredes.",
+    "summary": "Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar.",
     "path": "05_Entregas/Fichas_fabricacao_R13/Levantamento.html"
   },
   {
     "id": "ficha-P01",
-    "title": "P01 · Roupeiro",
+    "title": "P01 · Guarda-roupa",
     "category": "Ficha de montagem",
     "rooms": [
       "quarto"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P01.html"
   },
   {
     "id": "ficha-P02",
-    "title": "P02 · Canto em L",
+    "title": "P02 · Armário de canto do quarto",
     "category": "Ficha de montagem",
     "rooms": [
       "quarto"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P02.html"
   },
   {
     "id": "ficha-P03",
-    "title": "P03 · Maleiro",
+    "title": "P03 · Armário sobre o guarda-roupa",
     "category": "Ficha de montagem",
     "rooms": [
       "quarto"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P03.html"
   },
   {
     "id": "ficha-P04",
-    "title": "P04 · Aéreo da cabeceira",
+    "title": "P04 · Armário sobre a cabeceira",
     "category": "Ficha de montagem",
     "rooms": [
       "quarto"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P04.html"
   },
   {
@@ -485,29 +485,29 @@ const WORKSHOP_DOCS = [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P05.html"
   },
   {
     "id": "ficha-P06",
-    "title": "P06 · Gaveteiro da cozinha",
+    "title": "P06 · Três gavetas da cozinha",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P06.html"
   },
   {
     "id": "ficha-P07",
-    "title": "P07 · Módulo de cocção",
+    "title": "P07 · Móvel do forno e cooktop",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P07.html"
   },
   {
@@ -518,106 +518,106 @@ const WORKSHOP_DOCS = [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P08.html"
   },
   {
     "id": "ficha-P09",
-    "title": "P09 · Aéreo D · depurador",
+    "title": "P09 · Armário superior D · depurador",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P09.html"
   },
   {
     "id": "ficha-P10",
-    "title": "P10 · Aéreo C · uso diário",
+    "title": "P10 · Armário superior C · pia",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P10.html"
   },
   {
     "id": "ficha-P11",
-    "title": "P11 · Aéreo B · micro",
+    "title": "P11 · Armário superior B · micro-ondas",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P11.html"
   },
   {
     "id": "ficha-P12",
-    "title": "P12 · Aéreo A · geladeira",
+    "title": "P12 · Armário superior A · geladeira",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P12.html"
   },
   {
     "id": "ficha-P13",
-    "title": "P13 · Apoio do micro",
+    "title": "P13 · Prateleira do micro-ondas",
     "category": "Ficha de montagem",
     "rooms": [
       "cozinha"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P13.html"
   },
   {
     "id": "ficha-P14",
-    "title": "P14 · Gabinete tanque e cesto",
+    "title": "P14 · Tanque e cesto de roupas",
     "category": "Ficha de montagem",
     "rooms": [
       "lavanderia"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P14.html"
   },
   {
     "id": "ficha-P15",
-    "title": "P15 · Aéreo da lavanderia",
+    "title": "P15 · Armário superior da lavanderia",
     "category": "Ficha de montagem",
     "rooms": [
       "lavanderia"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P15.html"
   },
   {
     "id": "ficha-P16",
-    "title": "P16 · Gaveteiro do escritório",
+    "title": "P16 · Gavetas do escritório",
     "category": "Ficha de montagem",
     "rooms": [
       "escritorio"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P16.html"
   },
   {
     "id": "ficha-P17",
-    "title": "P17 · Aéreo do escritório",
+    "title": "P17 · Armário superior do escritório",
     "category": "Ficha de montagem",
     "rooms": [
       "escritorio"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P17.html"
   },
   {
@@ -628,40 +628,40 @@ const WORKSHOP_DOCS = [
       "banho"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P18.html"
   },
   {
     "id": "ficha-P19",
-    "title": "P19 · Espelheiro",
+    "title": "P19 · Armário com espelho",
     "category": "Ficha de montagem",
     "rooms": [
       "banho"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P19.html"
   },
   {
     "id": "ficha-P20",
-    "title": "P20 · Banco baú",
+    "title": "P20 · Banco com baú",
     "category": "Ficha de montagem",
     "rooms": [
       "sala"
     ],
     "status": "R14",
-    "summary": "Ferragens, furação com referências, peças CSV e próximas conferências.",
+    "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
     "path": "05_Entregas/Fichas_fabricacao_R13/P20.html"
   }
 ];
 const MODULE_GUIDANCE = {
   "P01": {
     "hardware": [
-      "Varões, cortes nominais: Candidato Ø20 Häfele 801.01.702; alternativa Ø25 Bigfer 0907266400 · candidato",
-      "Suportes terminais dos varões: Ø20 Häfele 803.51.702; alternativa Ø25 Bigfer 9168010111 · candidato",
+      "Varões, cortes nominais: Candidato Ø20 Häfele 801.01.702. Alternativa Ø25 Bigfer 0907266400 · candidato",
+      "Suportes terminais dos varões: Ø20 Häfele 803.51.702. Alternativa Ø25 Bigfer 9168010111 · candidato",
       "Suportes centrais dos dois varões longos: Häfele 802.02.220 para a alternativa Ø20 · candidato",
-      "Ligações dos painéis da carcaça: Minifix 15 em ligações fixas elegíveis de18; Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo · Estratégia selecionada; mapa parcial",
-      "Kits de correr RO62 para uma folha: Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032 · selecionado",
+      "Uniões das chapas do armário: Minifix 15 em ligações fixas elegíveis de 18. Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo · Estratégia selecionada. Mapa parcial",
+      "Kit de trilhos e guias para uma porta de correr: Rometal RO-624032OR + DISP ANTI DESC. Guia Flex 4032 · selecionado",
       "Trilhos inferiores: RometalRM-023 · selecionado",
       "Trilhos superiores: RometalRM-025 · selecionado",
       "Parafusos dos carros RO62: Ø3,5×14 CC · selecionado",
@@ -672,17 +672,17 @@ const MODULE_GUIDANCE = {
     ],
     "pending": [
       "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
-      "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Conferir suportes centrais: eixo superior82mm abaixo da base do armário sobre o guarda-roupa e inferior52mm abaixo da prateleira. Altura externa63 do suporte não é a medida eixo–face.",
+      "Definir carga dos varões e das prateleiras. Rigidez de tubo e fixação no MDF são verificações separadas.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
       "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-      "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-      "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+      "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P01",
       "matriz",
@@ -694,7 +694,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P01",
-      "name": "Roupeiro",
+      "name": "Guarda-roupa",
       "room": "quarto",
       "dimensions": [
         2000.0,
@@ -1442,14 +1442,15 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "corte",
           "status": "candidato",
-          "assembly": "2 vãos973 +2 vãos332 =2610mm nominais. O corte final desconta encaixe dos suportes; não cortar pelos vãos.",
+          "assembly": "2 vãos973 +2 vãos332 =2610mm nominais. O corte final desconta encaixe dos suportes. Não cortar pelos vãos.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md",
               "trecho": "O modelo possui quatro cilindros Ø20: dois vãos nominais 973 e dois 332. Eixos superiores emZ2050, inferioresZ1030; todosY3655. A soma nominal é 2610 mm, antes de descontos dos suportes e perdas de corte. Oito suportes terminais são necessários. Cilindro CAD maciço não demonstra que o produto real seja maciço nem define sua resistência. ## Candidatos documentados Para manter Ø20, o catálogo Häfele apresenta tubo de aço niquelado 801.01.702, barra 2500 mm, parede 0,7 mm; suporte terminal 803.51.702, latão niquelado, dimensão 28×12,5 mm, placa e luva roscada. Suporte central 802.02.220 é aparafu"
             }
           ],
-          "derivation": "2 × 973 + 2 × 332 = 2610 mm antes dos descontos"
+          "derivation": "2 × 973 + 2 × 332 = 2610 mm antes dos descontos",
+          "explanation": ""
         },
         {
           "item": "Suportes terminais dos varões",
@@ -1457,14 +1458,15 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "candidato",
-          "assembly": "2 terminais por varão; Ø20 e Ø25 pertencem a alternativas incompatíveis entre si.",
+          "assembly": "2 terminais por varão. Ø20 e Ø25 pertencem a alternativas incompatíveis entre si.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md",
               "trecho": "Para manter Ø20, o catálogo Häfele apresenta tubo de aço niquelado 801.01.702, barra 2500 mm, parede 0,7 mm; suporte terminal 803.51.702, latão niquelado, dimensão 28×12,5 mm, placa e luva roscada. Suporte central 802.02.220 é aparafusado sob prateleira, dimensão 63×38×19 mm. [Häfele Hotel Assortment, página 69](https://www.hafeleindia.co.in/Catalogues/PDF/HotelAssortment2020.pdf). Para alternativa nacional de Ø25, o catálogo Bigfer informa tubo 0907266400, aço cromado 25×3000 mm, parede 0,75 mm e suporte terminal redondo 9168010111. Não traz carga admissível do conjunto no trecho consultado. [Bigfer, catálogo do marceneiro, página 68](https://www.bigfer.com.br/catalogo-marceneiro-3-edicao_revisado/). A alterna"
             }
           ],
-          "derivation": "4 varões × 2 terminais"
+          "derivation": "4 varões × 2 terminais",
+          "explanation": ""
         },
         {
           "item": "Suportes centrais dos dois varões longos",
@@ -1472,36 +1474,38 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "unidade",
           "status": "candidato",
-          "assembly": "Somente se adotados e compatibilizados; não somar como compra liberada.",
+          "assembly": "Somente se adotados e compatibilizados. Não somar como compra liberada.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md",
               "trecho": "Dois apoios centrais são uma alternativa para os varões longos, não item liberado para compra. A carga admissível de cada conjunto e da fixação no MDF continua pendente do fabricante/marceneiro."
             }
           ],
-          "optional": true
+          "optional": true,
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Minifix 15 em ligações fixas elegíveis de18; Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Kits de correr RO62 para uma folha",
+          "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "assembly": "Escolhido sobreposto, apoio na base, sem Comfort. Cada kit 1 folha:2 carros+2 guias+2 freios; requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
+          "assembly": "Escolhido sobreposto, apoio na base, sem o sistema Comfort de fechamento suave. Cada kit 1 folha:2 carros+2 guias+2 freios. Requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
           "assemblyStatus": "primeira montagem com perfis reais",
           "sources": [
             {
@@ -1515,7 +1519,8 @@ const MODULE_GUIDANCE = {
               "url": "https://www.rometal.com.br/sistemas/solucoes-para-armarios/s/sustentacao-na-base/ro-62",
               "page": "RO-624032OR + DISP ANTI DESC"
             }
-          ]
+          ],
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos inferiores",
@@ -1523,7 +1528,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "assembly": "Duas vias independentes; cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "assembly": "Duas vias independentes. Cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
           "sources": [
             {
@@ -1532,7 +1537,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Trilhos superiores",
@@ -1540,7 +1546,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "assembly": "Duas vias independentes; cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "assembly": "Duas vias independentes. Cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
           "sources": [
             {
@@ -1549,7 +1555,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos dos carros RO62",
@@ -1557,8 +1564,8 @@ const MODULE_GUIDANCE = {
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "4 por carro×4 carros; padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "4 por carro×4 carros. Padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1566,7 +1573,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos das guias e freios RO62",
@@ -1574,8 +1582,8 @@ const MODULE_GUIDANCE = {
           "quantity": 12,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha; não aplicar 22 mm atravessando a face 18.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha. Não aplicar 22 mm atravessando a face 18.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1583,7 +1591,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos da retenção RO62",
@@ -1591,8 +1600,8 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Medida selecionada pelo manual; conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Medida selecionada pelo manual. Conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1600,7 +1609,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Corrediças 500 com engates convencionais E/D",
@@ -1608,7 +1618,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "par",
           "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
+          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
           "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
           "sources": [
             {
@@ -1627,7 +1637,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
               "page": "pacote MOVENTO400"
             }
-          ]
+          ],
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Fixadores das guias/engates FGVTN500",
@@ -1635,8 +1646,8 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -1644,31 +1655,32 @@ const MODULE_GUIDANCE = {
               "page": "1",
               "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Amadeirado; referência Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:414"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Largura entre paredes acabadas, profundidade e pé-direito na implantação do roupeiro.",
-          "method": "Registrar largura junto à base, meio e topo; profundidade nos dois extremos; altura nos extremos e centro. Anotar mínimo e máximo, não apenas média.",
+          "measure": "Largura entre paredes acabadas, profundidade e pé-direito na implantação do guarda-roupa.",
+          "method": "Registrar largura junto à base, meio e topo. Profundidade nos dois extremos. Altura nos extremos e centro. Anotar mínimo e máximo, não apenas média.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Caixa, arremates, trilhos e montagem do conjunto.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P01-CAMPO-R14-1",
@@ -1679,10 +1691,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Prumo/esquadro, rodapé e interferências existentes no curso das portas.",
-          "method": "Nivelar uma linha de referência; medir desvios e diagonais. Cotar saliência/altura do rodapé e o acesso frontal real.",
+          "method": "Nivelar uma linha de referência. Medir desvios e diagonais. Cotar saliência/altura do rodapé e o acesso frontal real.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Compensadores e implantação; não muda o desenho de furação da ferragem.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Compensadores e implantação. Não muda o desenho de furação da ferragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P01-CAMPO-R14-2",
@@ -1692,11 +1704,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-QUARTO",
@@ -1709,21 +1721,21 @@ const MODULE_GUIDANCE = {
       ],
       "technicalChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
-        "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Conferir suportes centrais: eixo superior82mm abaixo da base do armário sobre o guarda-roupa e inferior52mm abaixo da prateleira. Altura externa63 do suporte não é a medida eixo–face.",
+        "Definir carga dos varões e das prateleiras. Rigidez de tubo e fixação no MDF são verificações separadas.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-        "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-        "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+        "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Preservar quatro gavetas internas e dois setores superiores; regular o sistema real de correr antes de conferir acesso às gavetas.",
-        "Montar divisórias e apoios com ligação dimensionada; contato nominal não comprova suporte.",
-        "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não cotas executivas.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte.",
+        "Preservar quatro gavetas internas e dois setores superiores. Regular o sistema real de correr antes de conferir acesso às gavetas.",
+        "Montar divisórias e apoios com ligação dimensionada. Contato nominal não comprova suporte.",
+        "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não medidas executivas.",
+        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
         "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis.",
         "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
       ],
@@ -1744,12 +1756,12 @@ const MODULE_GUIDANCE = {
       "drawingPath": "05_Entregas/Fichas_fabricacao_R13/P01.svg",
       "decisions": [
         {
-          "item": "Kits de correr RO62 para uma folha",
+          "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "reason": "Escolhido sobreposto, apoio na base, sem Comfort. Cada kit 1 folha:2 carros+2 guias+2 freios; requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
+          "reason": "Escolhido sobreposto, apoio na base, sem o sistema Comfort de fechamento suave. Cada kit 1 folha:2 carros+2 guias+2 freios. Requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1763,7 +1775,8 @@ const MODULE_GUIDANCE = {
               "page": "RO-624032OR + DISP ANTI DESC"
             }
           ],
-          "assemblyStatus": "primeira montagem com perfis reais"
+          "assemblyStatus": "primeira montagem com perfis reais",
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos inferiores",
@@ -1771,7 +1784,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "reason": "Duas vias independentes; cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "reason": "Duas vias independentes. Cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1780,7 +1793,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "comprimento de corte após caixa esquadrejada"
+          "assemblyStatus": "comprimento de corte após caixa esquadrejada",
+          "explanation": ""
         },
         {
           "item": "Trilhos superiores",
@@ -1788,7 +1802,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "reason": "Duas vias independentes; cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "reason": "Duas vias independentes. Cada trecho tem referência nominal 1964 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1797,7 +1811,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "comprimento de corte após caixa esquadrejada"
+          "assemblyStatus": "comprimento de corte após caixa esquadrejada",
+          "explanation": ""
         },
         {
           "item": "Parafusos dos carros RO62",
@@ -1805,7 +1820,7 @@ const MODULE_GUIDANCE = {
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "4 por carro×4 carros; padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
+          "reason": "4 por carro×4 carros. Padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1814,7 +1829,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Parafusos das guias e freios RO62",
@@ -1822,7 +1838,7 @@ const MODULE_GUIDANCE = {
           "quantity": 12,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha; não aplicar 22 mm atravessando a face 18.",
+          "reason": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha. Não aplicar 22 mm atravessando a face 18.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1831,7 +1847,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Parafusos da retenção RO62",
@@ -1839,7 +1856,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Medida selecionada pelo manual; conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
+          "reason": "Medida selecionada pelo manual. Conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1848,7 +1865,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Corrediças 500 com engates convencionais E/D",
@@ -1856,7 +1874,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "par",
           "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
+          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -1875,7 +1893,8 @@ const MODULE_GUIDANCE = {
               "page": "pacote MOVENTO400"
             }
           ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN"
+          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Fixadores das guias/engates FGVTN500",
@@ -1883,7 +1902,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
+          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -1892,20 +1911,22 @@ const MODULE_GUIDANCE = {
               "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
-          "item": "Carcaça com conexões acessíveis por dentro e fundo parafusado",
+          "item": "Estrutura do armário com conexões acessíveis por dentro e fundo parafusado",
           "reference": "Minifix 15 em ligações fixas elegíveis de18; Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
       "drilling": [
@@ -1921,7 +1942,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "3,5×14 CC",
           "status": "centros nominais calculados a partir do gabarito oficial",
-          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça; manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
+          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça. Manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -1978,7 +1999,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "3,5×14 CC",
           "status": "centros nominais calculados a partir do gabarito oficial",
-          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça; manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
+          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça. Manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -2056,8 +2077,8 @@ const MODULE_GUIDANCE = {
           "diameter": null,
           "depth": null,
           "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado; altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar datum vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500; instruçãoset 2024 deixa Hsemcota em 500. Não usinar furo H adicional até confirmar revisão do produto.",
+          "status": "gabarito documentado. Altura por gaveta pendente",
+          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -2082,8 +2103,8 @@ const MODULE_GUIDANCE = {
           "diameter": 7,
           "depth": null,
           "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado; mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade; confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "status": "gabarito documentado. Mapa completo da caixa pendente",
+          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -2095,7 +2116,7 @@ const MODULE_GUIDANCE = {
           "id": "P01-F05"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca206",
             "Peca207",
@@ -2122,7 +2143,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Minifix 15 em ligações fixas elegíveis de18; Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -2131,23 +2152,23 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+        "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-        "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-        "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+        "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
-        "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Conferir suportes centrais: eixo superior82mm abaixo da base do armário sobre o guarda-roupa e inferior52mm abaixo da prateleira. Altura externa63 do suporte não é a medida eixo–face.",
+        "Definir carga dos varões e das prateleiras. Rigidez de tubo e fixação no MDF são verificações separadas.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "RO62/4032 com retenção antidescarrilamento e sem Comfort selecionado;2 kits de 1 folha por módulo.",
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "RO62/4032 com retenção antidescarrilamento e sem o sistema Comfort de fechamento suave selecionado;2 kits de 1 folha por módulo.",
+        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -2187,7 +2208,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P01-furacao.csv",
-      "technicalSummary": "RO-62 nas duas portas e FGVTN 500 nas quatro gavetas. Trilhos, varões e ligações têm conferências próprias.",
+      "technicalSummary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
       "panelGroups": [
         {
           "id": "Peca206",
@@ -2724,23 +2745,23 @@ const MODULE_GUIDANCE = {
   },
   "P02": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas; encaixe do canto específico · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas. Encaixe do canto específico · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
-      "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de encaixes circulares das dobradiças não repara os sólidos do mecanismo.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P02",
       "matriz",
@@ -2750,7 +2771,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P02",
-      "name": "Canto em L",
+      "name": "Armário de canto do quarto",
       "room": "quarto",
       "dimensions": [
         650.0,
@@ -2932,32 +2953,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas; encaixe do canto específico",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -2965,8 +2988,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -2984,23 +3007,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -3008,7 +3033,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -3021,15 +3046,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -3047,31 +3073,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Amadeirado; referência Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:414"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Dois braços do canto, ângulo real e teto sobre a caixa em L.",
-          "method": "Desenhar o canto com origem no encontro acabado, cotar os dois braços e diagonais com extremos identificados; medir altura nos três extremos.",
+          "method": "Desenhar o canto com origem no encontro acabado, cotar os dois braços e diagonais com extremos identificados. Medir altura nos três extremos.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Contorno de ajuste em L, arremates e abertura das frentes.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P02-CAMPO-R14-1",
@@ -3084,8 +3111,8 @@ const MODULE_GUIDANCE = {
           "measure": "Saliências e desvios nas paredes que recebem o canto.",
           "method": "Registrar distância das paredes a uma linha laser em alturas inferior e superior da caixa. Fotografar obstáculos com escala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Apoio lateral e plano de instalação; ferragens permanecem decisão de projeto.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Apoio lateral e plano de instalação. Ferragens permanecem decisão de projeto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P02-CAMPO-R14-2",
@@ -3095,11 +3122,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-QUARTO",
@@ -3111,20 +3138,20 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de encaixes circulares das dobradiças não repara os sólidos do mecanismo.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Usar o contorno real em L; o retângulo 650 × 1050 não é plano de corte.",
-        "Conferir portas A/B e porta vizinha em conjunto; faixas e apoios continuam propostas.",
-        "Manter duas portas independentes e quatro dobradiças comuns; canto articulado com71T7550/79T8500 é histórico superado.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Usar o contorno real em L. O retângulo 650 × 1050 não é plano de corte.",
+        "Conferir portas A/B e porta vizinha em conjunto. Faixas e apoios continuam propostas.",
+        "Manter duas portas independentes e quatro dobradiças comuns. Canto articulado com 71T7550/79T8500 é histórico superado.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -3146,7 +3173,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -3165,15 +3192,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -3181,7 +3209,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -3189,7 +3218,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -3202,15 +3231,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -3228,36 +3258,39 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Canto em L montado em bancada por peças identificadas",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas; encaixe do canto específico",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Simples R04",
+          "item": "Encaixes circulares das dobradiças — Frente Simples R04",
           "partIds": [
             "FrenteSimplesR04"
           ],
@@ -3267,8 +3300,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -3297,7 +3330,7 @@ const MODULE_GUIDANCE = {
           "id": "P02-F01"
         },
         {
-          "item": "Canecos — Frente Simples R001",
+          "item": "Encaixes circulares das dobradiças — Frente Simples R001",
           "partIds": [
             "FrenteSimplesR001"
           ],
@@ -3307,8 +3340,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -3337,7 +3370,7 @@ const MODULE_GUIDANCE = {
           "id": "P02-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteSimplesR04",
             "FrenteSimplesR001"
@@ -3349,7 +3382,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -3365,7 +3398,7 @@ const MODULE_GUIDANCE = {
           "id": "P02-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -3373,8 +3406,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -3390,7 +3423,7 @@ const MODULE_GUIDANCE = {
           "id": "P02-F04"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [],
           "face": "Faces ocultas ou acesso interno conforme estratégia deste módulo",
           "datum": "Definir uma origem por peça e indicar frente, superior e face interna antes de usinar",
@@ -3399,7 +3432,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas; encaixe do canto específico",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -3408,21 +3441,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de encaixes circulares das dobradiças não repara os sólidos do mecanismo.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -3495,7 +3528,7 @@ const MODULE_GUIDANCE = {
       "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P02-furacao.csv",
-      "technicalSummary": "Duas portas independentes com Blum; canecos identificados por peça. Ligações do canto em L continuam específicas.",
+      "technicalSummary": "Armário de canto com duas portas independentes e dobradiças da marca Blum. Falta detalhar como as peças do canto serão unidas.",
       "panelGroups": [
         {
           "id": "PlacaL",
@@ -3742,9 +3775,9 @@ const MODULE_GUIDANCE = {
   },
   "P03": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; acesso interno nos conectores aparentes · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
-      "Kits de correr RO62 para uma folha: Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032 · selecionado",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas. Acesso interno nos conectores aparentes · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Kit de trilhos e guias para uma porta de correr: Rometal RO-624032OR + DISP ANTI DESC. Guia Flex 4032 · selecionado",
       "Trilhos inferiores: RometalRM-023 · selecionado",
       "Trilhos superiores: RometalRM-025 · selecionado",
       "Parafusos dos carros RO62: Ø3,5×14 CC · selecionado",
@@ -3752,16 +3785,16 @@ const MODULE_GUIDANCE = {
       "Parafusos da retenção RO62: Ø3,5×12 CF · selecionado"
     ],
     "pending": [
-      "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem Comfort: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
-      "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+      "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem o sistema Comfort de fechamento suave: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
+      "Definir ligação à base/divisória do guarda-roupa e carga das malas. Encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
       "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P03",
       "matriz",
@@ -3771,7 +3804,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P03",
-      "name": "Maleiro",
+      "name": "Armário sobre o guarda-roupa",
       "room": "quarto",
       "dimensions": [
         1350.0,
@@ -3902,40 +3935,42 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; acesso interno nos conectores aparentes",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Definir ligação à base/divisória do guarda-roupa e carga das malas. Encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Kits de correr RO62 para uma folha",
+          "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "assembly": "Escolhido sobreposto, apoio na base, sem Comfort. Cada kit 1 folha:2 carros+2 guias+2 freios; requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
+          "assembly": "Escolhido sobreposto, apoio na base, sem o sistema Comfort de fechamento suave. Cada kit 1 folha:2 carros+2 guias+2 freios. Requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
           "assemblyStatus": "primeira montagem com perfis reais",
           "sources": [
             {
@@ -3949,7 +3984,8 @@ const MODULE_GUIDANCE = {
               "url": "https://www.rometal.com.br/sistemas/solucoes-para-armarios/s/sustentacao-na-base/ro-62",
               "page": "RO-624032OR + DISP ANTI DESC"
             }
-          ]
+          ],
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos inferiores",
@@ -3957,7 +3993,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "assembly": "Duas vias independentes; cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "assembly": "Duas vias independentes. Cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
           "sources": [
             {
@@ -3966,7 +4002,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Trilhos superiores",
@@ -3974,7 +4011,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "assembly": "Duas vias independentes; cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "assembly": "Duas vias independentes. Cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
           "sources": [
             {
@@ -3983,7 +4020,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos dos carros RO62",
@@ -3991,8 +4029,8 @@ const MODULE_GUIDANCE = {
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "4 por carro×4 carros; padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "4 por carro×4 carros. Padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4000,7 +4038,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos das guias e freios RO62",
@@ -4008,8 +4047,8 @@ const MODULE_GUIDANCE = {
           "quantity": 12,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha; não aplicar 22 mm atravessando a face 18.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha. Não aplicar 22 mm atravessando a face 18.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4017,7 +4056,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos da retenção RO62",
@@ -4025,8 +4065,8 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Medida selecionada pelo manual; conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Medida selecionada pelo manual. Conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4034,31 +4074,32 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Amadeirado; referência Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:414"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Altura do teto e faixa livre de montagem do maleiro.",
-          "method": "Medir nos extremos e no encontro com P02 a partir do mesmo zero de P01; cotar vigas/rebaixos existentes.",
+          "measure": "Altura do teto e faixa livre de montagem do armário sobre o guarda-roupa.",
+          "method": "Medir nos extremos e no encontro com P02 a partir do mesmo zero de P01. Cotar vigas/rebaixos existentes.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Arremate superior, encaixe com roupeiro e passagem de montagem.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Arremate superior, encaixe com guarda-roupa e passagem de montagem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P03-CAMPO-R14-1",
@@ -4069,10 +4110,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Alinhamento real do encontro P01/P02/P03 após implantação.",
-          "method": "Registrar cota de referência comum e planos acabados; conferir o espaço de inserção da caixa antes de fixar.",
+          "method": "Registrar medida de referência comum e planos acabados. Conferir o espaço de inserção da caixa antes de fixar.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Ajuste de campo do conjunto; os trilhos são dimensionados pela caixa final em oficina.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Ajuste de campo do conjunto. Os trilhos são dimensionados pela caixa final em oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P03-CAMPO-R14-2",
@@ -4082,11 +4123,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-QUARTO",
@@ -4098,19 +4139,19 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem Comfort: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
-        "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+        "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem o sistema Comfort de fechamento suave: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
+        "Definir ligação à base/divisória do guarda-roupa e carga das malas. Encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Compatibilizar montagem do maleiro com as divisórias do roupeiro e com o canto.",
+        "Conferir montagem do armário sobre o guarda-roupa com as divisórias do guarda-roupa e com o canto.",
         "Fechar transferência de carga da base e acesso aos trilhos antes da montagem definitiva.",
-        "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não cotas executivas."
+        "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não medidas executivas."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -4127,12 +4168,12 @@ const MODULE_GUIDANCE = {
       "drawingPath": "05_Entregas/Fichas_fabricacao_R13/P03.svg",
       "decisions": [
         {
-          "item": "Kits de correr RO62 para uma folha",
+          "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "reason": "Escolhido sobreposto, apoio na base, sem Comfort. Cada kit 1 folha:2 carros+2 guias+2 freios; requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
+          "reason": "Escolhido sobreposto, apoio na base, sem o sistema Comfort de fechamento suave. Cada kit 1 folha:2 carros+2 guias+2 freios. Requisitar a versão com 2 retenções por folha. Componentes não são compras adicionais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4146,7 +4187,8 @@ const MODULE_GUIDANCE = {
               "page": "RO-624032OR + DISP ANTI DESC"
             }
           ],
-          "assemblyStatus": "primeira montagem com perfis reais"
+          "assemblyStatus": "primeira montagem com perfis reais",
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos inferiores",
@@ -4154,7 +4196,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "reason": "Duas vias independentes; cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "reason": "Duas vias independentes. Cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4163,7 +4205,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "comprimento de corte após caixa esquadrejada"
+          "assemblyStatus": "comprimento de corte após caixa esquadrejada",
+          "explanation": ""
         },
         {
           "item": "Trilhos superiores",
@@ -4171,7 +4214,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "trecho",
           "status": "selecionado",
-          "reason": "Duas vias independentes; cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa; não confundir 2 trechos com 2 barras comerciais.",
+          "reason": "Duas vias independentes. Cada trecho tem referência nominal 1314 mm pelo vão da caixa. Confirmar folga de corte na montagem da caixa. Não confundir 2 trechos com 2 barras comerciais.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4180,7 +4223,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "comprimento de corte após caixa esquadrejada"
+          "assemblyStatus": "comprimento de corte após caixa esquadrejada",
+          "explanation": ""
         },
         {
           "item": "Parafusos dos carros RO62",
@@ -4188,7 +4232,7 @@ const MODULE_GUIDANCE = {
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "4 por carro×4 carros; padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
+          "reason": "4 por carro×4 carros. Padrão MDF do manual. Diâmetro/profundidade do piloto dependem do parafuso/chapa recebidos.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4197,7 +4241,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Parafusos das guias e freios RO62",
@@ -4205,7 +4250,7 @@ const MODULE_GUIDANCE = {
           "quantity": 12,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha; não aplicar 22 mm atravessando a face 18.",
+          "reason": "2 por guia×4 guias +1 por freio×4 freios, conforme montagem do manual. A guia prende no topo da folha. Não aplicar 22 mm atravessando a face 18.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4214,7 +4259,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Parafusos da retenção RO62",
@@ -4222,7 +4268,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Medida selecionada pelo manual; conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
+          "reason": "Medida selecionada pelo manual. Conferir quantidade de furos do dispositivo fornecido. Retenções fazem parte do kit especificado.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4231,31 +4277,34 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
-          "item": "Maleiro com carcaça fixa e conexão independente ao roupeiro",
+          "item": "Armário sobre o guarda-roupa com estrutura do armário fixa e conexão independente ao guarda-roupa",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; acesso interno nos conectores aparentes",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Definir ligação à base/divisória do guarda-roupa e carga das malas. Encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
@@ -4271,7 +4320,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "3,5×14 CC",
           "status": "centros nominais calculados a partir do gabarito oficial",
-          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça; manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
+          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça. Manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4328,7 +4377,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "3,5×14 CC",
           "status": "centros nominais calculados a partir do gabarito oficial",
-          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça; manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
+          "releaseCondition": "Confirmar a orientação dos dois carros do kit antes da primeira peça. Manual não especifica broca/piloto. Não confundir parafusoØ3,5 com brocaØ3,5.",
           "sources": [
             {
               "title": "Rometal RO62, manual 18341/rev 03",
@@ -4398,7 +4447,7 @@ const MODULE_GUIDANCE = {
           "id": "P03-F03"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca259",
             "Peca260",
@@ -4413,7 +4462,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; acesso interno nos conectores aparentes",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -4422,20 +4471,20 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
+        "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem Comfort: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
-        "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fornecedor: confirmar funcionamento do RO62 nas folhas baixas/largas 670×237. Sem o sistema Comfort de fechamento suave: massa estimada≈2–3 kg é inferior à faixa 15–40 kg do amortecedor.",
+        "Definir ligação à base/divisória do guarda-roupa e carga das malas. Encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "RO62/4032 com retenção antidescarrilamento e sem Comfort selecionado;2 kits de 1 folha por módulo.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "RO62/4032 com retenção antidescarrilamento e sem o sistema Comfort de fechamento suave selecionado;2 kits de 1 folha por módulo.",
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -4448,7 +4497,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P03-furacao.csv",
-      "technicalSummary": "RO-62 sem Comfort nas duas folhas baixas. Compatibilizar apoio e ligações com o roupeiro.",
+      "technicalSummary": "Armário sobre o guarda-roupa com duas portas de correr. Confira os apoios e a união com o móvel de baixo.",
       "panelGroups": [
         {
           "id": "Peca259",
@@ -4595,24 +4644,24 @@ const MODULE_GUIDANCE = {
   },
   "P04": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Minifix15 nos encontros18 acessíveis pelo interior; Confirmat7×50 no fundo oculto · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: Minifix15 nos encontros18 acessíveis pelo interior. Confirmat7×50 no fundo oculto · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
-      "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
-      "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Cabeceira: folhas 439,75/440,25×306 são baixas/largas. Conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
+      "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P04",
       "matriz",
@@ -4622,7 +4671,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P04",
-      "name": "Aéreo da cabeceira",
+      "name": "Armário sobre a cabeceira",
       "room": "quarto",
       "dimensions": [
         1800.0,
@@ -4872,32 +4921,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Minifix15 nos encontros18 acessíveis pelo interior; Confirmat7×50 no fundo oculto",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -4905,8 +4956,8 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -4924,23 +4975,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -4948,7 +5001,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -4961,15 +5014,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 32,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -4987,31 +5041,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Amadeirado; referência Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Amadeirado. Referência Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Amadeirado; referência Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:414"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Comprimento livre e faixa de instalação do aéreo da cabeceira.",
-          "method": "Medir extremos e desvio da parede; cotar tomadas, caixas e saída de iluminação por centro e dimensões.",
+          "measure": "Comprimento livre e faixa de instalação do armário superior da cabeceira.",
+          "method": "Medir extremos e desvio da parede. Cotar tomadas, caixas e saída de iluminação por centro e dimensões.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Comprimento de arremate, instalação e acesso à iluminação.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P04-CAMPO-R14-1",
@@ -5022,10 +5077,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Interferências existentes no giro das portas.",
-          "method": "Cotar cabeceira/encosto já instalados e obstáculos; usar gabarito da frente na altura de montagem.",
+          "method": "Cotar cabeceira/encosto já instalados e obstáculos. Usar gabarito da frente na altura de montagem.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Altura final e eventual limitação de giro; o limitador é escolhido em projeto.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Altura final e eventual limitação de giro. O limitador é escolhido em projeto.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P04-CAMPO-R14-2",
@@ -5035,11 +5090,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-QUARTO",
@@ -5051,20 +5106,20 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
-        "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas. Conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
+        "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Preservar vãos desiguais; não dividir o conjunto automaticamente em três nichos iguais.",
+        "Preservar vãos desiguais. Não dividir o conjunto automaticamente em três nichos iguais.",
         "Vão maior de 851,5 mm exige fechamento técnico da ligação/rigidez antes de definir carga.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -5087,7 +5142,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -5106,15 +5161,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -5122,7 +5178,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -5130,7 +5187,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -5143,15 +5200,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 32,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -5169,36 +5227,39 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Aéreo com faces externas preservadas",
+          "item": "Armário superior com faces externas preservadas",
           "reference": "Minifix15 nos encontros18 acessíveis pelo interior; Confirmat7×50 no fundo oculto",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R015",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R015",
           "partIds": [
             "FrenteComumR015"
           ],
@@ -5208,8 +5269,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -5238,7 +5299,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F01"
         },
         {
-          "item": "Canecos — Frente Comum R016",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R016",
           "partIds": [
             "FrenteComumR016"
           ],
@@ -5248,8 +5309,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -5278,7 +5339,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F02"
         },
         {
-          "item": "Canecos — Frente Comum R017",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R017",
           "partIds": [
             "FrenteComumR017"
           ],
@@ -5288,8 +5349,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -5318,7 +5379,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F03"
         },
         {
-          "item": "Canecos — Frente Vizinha R18",
+          "item": "Encaixes circulares das dobradiças — Frente Vizinha R18",
           "partIds": [
             "FrenteVizinhaR18"
           ],
@@ -5328,8 +5389,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -5358,7 +5419,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F04"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR015",
             "FrenteComumR016",
@@ -5372,7 +5433,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -5388,7 +5449,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F05"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -5396,8 +5457,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -5413,7 +5474,7 @@ const MODULE_GUIDANCE = {
           "id": "P04-F06"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "ApoioComumR003",
             "ApoioComumR004",
@@ -5432,7 +5493,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Minifix15 nos encontros18 acessíveis pelo interior; Confirmat7×50 no fundo oculto",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -5441,22 +5502,22 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
-        "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas. Conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
+        "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -5615,7 +5676,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P04-furacao.csv",
-      "technicalSummary": "Blum nas quatro folhas; preservar o recuo diferente da porta vizinha ao canto. Reforço e suspensão seguem em projeto.",
+      "technicalSummary": "Armário com quatro portas e dobradiças da marca Blum. A porta junto ao canto tem um recuo diferente. Falta definir o reforço e a fixação na parede.",
       "panelGroups": [
         {
           "id": "Peca266",
@@ -5903,22 +5964,22 @@ const MODULE_GUIDANCE = {
   },
   "P05": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; Minifix15 na prateleira fixa desmontável após compatibilização · Estratégia selecionada; mapa parcial",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa. Minifix15 na prateleira fixa desmontável após conferência de encaixe e montagem · Estratégia selecionada. Mapa parcial",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
       "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte; a posição da saída existente é medida no apartamento."
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte. A posição da saída existente é medida no apartamento."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P05",
       "matriz",
@@ -6060,18 +6121,19 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; Minifix15 na prateleira fixa desmontável após compatibilização",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -6079,8 +6141,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -6098,23 +6160,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -6122,7 +6186,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -6135,15 +6199,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -6161,31 +6226,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:1050"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Água/esgoto existentes e espaço sob pedra/cuba instalada.",
-          "method": "Registrar centros X/Z, diâmetros e projeção desde a parede de cada ponto; cotar intradorso da pedra e da cuba se já instaladas. Fotografar conexões e acesso.",
+          "method": "Registrar centros X/Z, diâmetros e projeção desde a parede de cada ponto. Cotar intradorso da pedra e da cuba se já instaladas. Fotografar conexões e acesso.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Recorte hidráulico e acesso à manutenção; usar gabarito do produto selecionado para recorte final.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Recorte hidráulico e acesso à manutenção. Usar gabarito do produto selecionado para recorte final.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P05-CAMPO-R14-1",
@@ -6199,7 +6265,7 @@ const MODULE_GUIDANCE = {
           "method": "Medir largura em três alturas, profundidade útil nos extremos e altura inferior da pedra. Registrar rodapé e revestimento saliente.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Encaixe do gabinete e fechamento lateral.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P05-CAMPO-R14-2",
@@ -6209,11 +6275,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -6226,19 +6292,19 @@ const MODULE_GUIDANCE = {
       ],
       "technicalChecks": [
         "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte; a posição da saída existente é medida no apartamento."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte. A posição da saída existente é medida no apartamento."
       ],
       "assembly": [
         "A prateleira hidráulica precisa de recorte e bordas protegidas conforme conjunto real.",
         "Garantir desmontagem/acesso a sifão e engates sem depender de quebrar a marcenaria.",
         "Prateleira614 ×572 ×18 deve manter acesso ao sifão e ser recortada somente após fechar cuba/válvula/sifão.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -6260,7 +6326,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -6279,15 +6345,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -6295,7 +6362,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -6303,7 +6371,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -6316,15 +6384,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -6342,25 +6411,27 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Gabinete com carcaça fixa e acesso hidráulico desmontável",
+          "item": "Gabinete com estrutura do armário fixa e acesso hidráulico desmontável",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; Minifix15 na prateleira fixa desmontável após compatibilização",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R10",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R10",
           "partIds": [
             "FrenteComumR10"
           ],
@@ -6370,8 +6441,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -6400,7 +6471,7 @@ const MODULE_GUIDANCE = {
           "id": "P05-F01"
         },
         {
-          "item": "Canecos — Frente Comum R001",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R001",
           "partIds": [
             "FrenteComumR001"
           ],
@@ -6410,8 +6481,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -6440,7 +6511,7 @@ const MODULE_GUIDANCE = {
           "id": "P05-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR10",
             "FrenteComumR001"
@@ -6452,7 +6523,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -6468,7 +6539,7 @@ const MODULE_GUIDANCE = {
           "id": "P05-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -6476,8 +6547,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -6493,7 +6564,7 @@ const MODULE_GUIDANCE = {
           "id": "P05-F04"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca276",
             "Peca277",
@@ -6508,7 +6579,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; Minifix15 na prateleira fixa desmontável após compatibilização",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -6517,21 +6588,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte; a posição da saída existente é medida no apartamento."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte. A posição da saída existente é medida no apartamento."
       ],
       "projectChecks": [
         "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -6612,7 +6683,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P05-furacao.csv",
-      "technicalSummary": "Blum nas duas portas. A prateleira hidráulica só recebe recorte após definir cuba e sifão.",
+      "technicalSummary": "Gabinete com duas portas e dobradiças da marca Blum. O recorte da prateleira depende da cuba e do sifão escolhidos.",
       "panelGroups": [
         {
           "id": "Peca276",
@@ -6781,19 +6852,19 @@ const MODULE_GUIDANCE = {
   },
   "P06": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas · Estratégia selecionada; mapa parcial",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas · Estratégia selecionada. Mapa parcial",
       "Corrediças 500 com engates convencionais E/D: FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada · selecionado",
       "Fixadores das guias/engates FGVTN500: Modelo e contagem pelo kit54FGOC12500TSX0 recebido · pendente de especificação do conjunto"
     ],
     "pending": [
-      "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-      "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+      "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P06",
       "matriz",
@@ -6803,7 +6874,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P06",
-      "name": "Gaveteiro da cozinha",
+      "name": "Três gavetas da cozinha",
       "room": "cozinha",
       "dimensions": [
         619.0,
@@ -7172,18 +7243,19 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
           "item": "Corrediças 500 com engates convencionais E/D",
@@ -7191,7 +7263,7 @@ const MODULE_GUIDANCE = {
           "quantity": 3,
           "unit": "par",
           "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
+          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
           "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
           "sources": [
             {
@@ -7210,7 +7282,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
               "page": "pacote MOVENTO400"
             }
-          ]
+          ],
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Fixadores das guias/engates FGVTN500",
@@ -7218,8 +7291,8 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -7227,31 +7300,32 @@ const MODULE_GUIDANCE = {
               "page": "1",
               "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:1050"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Vão sob pedra e plano acabado dos vizinhos.",
-          "method": "Medir largura/altura/profundidade nos extremos; registrar esquadro e a cota da face inferior da pedra.",
+          "method": "Medir largura/altura/profundidade nos extremos. Registrar esquadro e a medida da face inferior da pedra.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Caixa e alinhamento das frentes.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P06-CAMPO-R14-1",
@@ -7264,8 +7338,8 @@ const MODULE_GUIDANCE = {
           "measure": "Curso livre frontal e interferências físicas nas laterais/traseira.",
           "method": "Traçar o volume da gaveta aberta e cotar obstáculos instalados, tubulação e tomadas que possam avançar no módulo.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Extração e manutenção; folgas da corrediça são verificadas na caixa final em oficina.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Extração e manutenção. Folgas da corrediça são verificadas na caixa final em oficina.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P06-CAMPO-R14-2",
@@ -7275,11 +7349,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -7291,17 +7365,17 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-        "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+        "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Conferir gavetas e guias como conjuntos compatíveis; preservar G1/G2/G3 e seus usos.",
-        "FGVTN 54FGOC12500TSX0 selecionada para as três gavetas; conferir engates, regulagem e fixação.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte.",
+        "Conferir gavetas e guias como conjuntos compatíveis. Preservar G1/G2/G3 e seus usos.",
+        "FGVTN 54FGOC12500TSX0 selecionada para as três gavetas. Conferir engates, regulagem e fixação.",
+        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
         "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
       ],
       "sources": [
@@ -7323,7 +7397,7 @@ const MODULE_GUIDANCE = {
           "quantity": 3,
           "unit": "par",
           "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
+          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -7342,7 +7416,8 @@ const MODULE_GUIDANCE = {
               "page": "pacote MOVENTO400"
             }
           ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN"
+          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Fixadores das guias/engates FGVTN500",
@@ -7350,7 +7425,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
+          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -7359,20 +7434,22 @@ const MODULE_GUIDANCE = {
               "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Caixa do gaveteiro montada antes das guias",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
       "drilling": [
@@ -7385,8 +7462,8 @@ const MODULE_GUIDANCE = {
           "diameter": null,
           "depth": null,
           "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado; altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar datum vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500; instruçãoset 2024 deixa Hsemcota em 500. Não usinar furo H adicional até confirmar revisão do produto.",
+          "status": "gabarito documentado. Altura por gaveta pendente",
+          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -7411,8 +7488,8 @@ const MODULE_GUIDANCE = {
           "diameter": 7,
           "depth": null,
           "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado; mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade; confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "status": "gabarito documentado. Mapa completo da caixa pendente",
+          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
           "sources": [
             {
               "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
@@ -7424,7 +7501,7 @@ const MODULE_GUIDANCE = {
           "id": "P06-F02"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca283",
             "Peca284",
@@ -7438,7 +7515,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -7447,18 +7524,18 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
-        "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
+        "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -7469,7 +7546,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P06-furacao.csv",
-      "technicalSummary": "Três pares FGVTN 500. Parâmetros do fabricante registrados; engates e datum final exigem conferência.",
+      "technicalSummary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
       "panelGroups": [
         {
           "id": "Peca283",
@@ -7981,19 +8058,19 @@ const MODULE_GUIDANCE = {
   "P07": {
     "hardware": [
       "Grelhas removíveis sob medida: Inox304, chapa1,5;600 ×90mm,12 rasgos por grelha · candidato",
-      "Parafusos desmontáveis das grelhas: M4; comprimento e cabeça a fechar · candidato",
-      "Roscas retidas das grelhas: Placa/porca metálica M4 retida, desmontável; seção e fixação a detalhar · Estratégia selecionada; desenho pendente",
-      "Réguas de apoio das grelhas: 577 ×18 ×18mm; conectores a definir · candidato",
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar · Estratégia selecionada; mapa parcial"
+      "Parafusos desmontáveis das grelhas: M4. Comprimento e cabeça a fechar · candidato",
+      "Roscas retidas das grelhas: Placa/porca metálica M4 retida, desmontável. Seção e fixação a detalhar · Estratégia selecionada. Desenho pendente",
+      "Réguas de apoio das grelhas: 577 ×18 ×18mm. Conectores a definir · candidato",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas. Grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar · Estratégia selecionada. Mapa parcial"
     ],
     "pending": [
-      "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30. Escolher ferragem M4 não define sua placa de retenção.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação. Definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P07",
       "matriz",
@@ -8003,7 +8080,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P07",
-      "name": "Módulo de cocção",
+      "name": "Móvel do forno e cooktop",
       "room": "cozinha",
       "dimensions": [
         613.0,
@@ -8207,13 +8284,14 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "peça",
           "status": "candidato",
-          "assembly": "Área geométrica aberta272,43cm² por peça; conferir acabamento e rigidez, sem cobrir ventilação própria do forno.",
+          "assembly": "Área geométrica aberta272,43cm² por peça. Conferir acabamento e rigidez, sem cobrir ventilação própria do forno.",
           "evidence": [
             {
               "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md",
               "trecho": "Duas grelhas iguais, sob medida, removíveis por quatro parafusos cada.** Dimensão externa candidata600 ×90 mm, cobrindo a abertura de560 ×60 sem reduzir a largura do módulo613. Uma fica abaixo do forno, outra acima. Acabamento e cor devem acompanhar a marcenaria já escolhida; a representação escura da prancha não aprova uma nova cor. | Item | Especificação candidata para cotação | |---|---| | Quantidade | 2 peças iguais | | Material | Chapa inox304, espessura1,5 mm, como referência de fabricação; fornecedor confirmar planicidade, resistência dos filetes e acabamento compatível com uso junto ao forno | | Dimensões externas | 600 ×90; cantos externosR2, bordas rebarbadas e sem arestas cortantes | | Ventilação | 12 rasgos retangulares com cantosR3, cada um134 ×17; quatro colunas e três linhas | | Coordenadas dos rasgos | Origem no canto inferior esquerdo da grelha. X inicial23,163,303,443; "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos desmontáveis das grelhas",
@@ -8221,21 +8299,22 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "candidato",
-          "assembly": "4 parafusos por grelha; não depender de retirada repetida de rosca diretamente no MDF.",
+          "assembly": "4 parafusos por grelha. Não depender de retirada repetida de rosca diretamente no MDF.",
           "evidence": [
             {
               "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md",
               "trecho": "Fixação | Quatro furosØ4,5, centrosX100/500 e Z7,5/82,5; propostaM4 com porca retida ou sistema equivalente desmontável, sem depender de parafuso repetidamente retirado da madeira | | Suporte ao móvel | Duas réguas candidatas577 ×18 ×18 por grelha, ligadas às laterais, fora da abertura de ar; ligação e retenção da rosca a detalhar | | Guarnição/tela | Nenhuma tela fina ou guarnição invadindo os rasgos considerada no cálculo. Se acrescentada, recalcular área efetiva e perdas | O gabarito1:1 contém apenas contornos de corte e furos, emmilímetros."
             }
           ],
-          "derivation": "2 grelhas × 4 pontos"
+          "derivation": "2 grelhas × 4 pontos",
+          "explanation": ""
         },
         {
           "item": "Roscas retidas das grelhas",
           "reference": "Placa/porca metálica M4 retida, desmontável; seção e fixação a detalhar",
           "quantity": 8,
           "unit": "posição de rosca",
-          "status": "Estratégia selecionada; desenho pendente",
+          "status": "Estratégia selecionada. Desenho pendente",
           "assembly": "Não aplicar RAMPA SKD30 automaticamente em MDF. Conferir retenção da placa e acesso na oficina.",
           "evidence": [
             {
@@ -8244,7 +8323,8 @@ const MODULE_GUIDANCE = {
             }
           ],
           "derivation": "1 rosca correspondente a cada um dos 8 parafusos",
-          "quantityBasis": "Interfaces necessárias, não SKU aprovado"
+          "quantityBasis": "Interfaces necessárias, não SKU aprovado",
+          "explanation": ""
         },
         {
           "item": "Réguas de apoio das grelhas",
@@ -8252,42 +8332,44 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "régua proposta",
           "status": "candidato",
-          "assembly": "2 por grelha, fora da abertura de ar; definir ligação às laterais.",
+          "assembly": "2 por grelha, fora da abertura de ar. Definir ligação às laterais.",
           "evidence": [
             {
               "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md",
               "trecho": "Suporte ao móvel | Duas réguas candidatas577 ×18 ×18 por grelha, ligadas às laterais, fora da abertura de ar; ligação e retenção da rosca a detalhar | | Guarnição/tela | Nenhuma tela fina ou guarnição invadindo os rasgos considerada no cálculo. Se acrescentada, recalcular área efetiva e perdas | O g"
             }
           ],
-          "derivation": "2 grelhas × 2 réguas"
+          "derivation": "2 grelhas × 2 réguas",
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30. Escolher ferragem M4 não define sua placa de retenção. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:1050"
         }
       ],
@@ -8296,8 +8378,8 @@ const MODULE_GUIDANCE = {
           "measure": "Pontos existentes de energia/gás e espaço para ventilação/manutenção.",
           "method": "Cotar centros, saliências e percurso acessível das conexões desde piso e parede acabados. Registrar saída das aberturas sem as cobrir.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Recortes e acesso ao forno; não altera requisitos de ventilação do manual.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Recortes e acesso ao forno. Não altera requisitos de ventilação do manual.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P07-CAMPO-R14-1",
@@ -8308,10 +8390,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Vão acabado do forno/cooktop e espaço frontal para retirada.",
-          "method": "Registrar altura inferior da pedra, largura e profundidade até a parede e objetos instalados; confrontar com o aparelho já especificado.",
+          "method": "Registrar altura inferior da pedra, largura e profundidade até a parede e objetos instalados. Confrontar com o aparelho já especificado.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Apoios, réguas e retirada do aparelho. Manter canais e grelhas do projeto livres.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P07-CAMPO-R14-2",
@@ -8321,11 +8403,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -8337,16 +8419,16 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30. Escolher ferragem M4 não define sua placa de retenção.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação. Definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Preservar canais de ventilação Fischer e retirada das grelhas; não preencher reservas como se fossem volume de guarda.",
-        "Base e apoios R31 preservados; detalhar e provar a retenção metálica M4 e a sustentação.",
-        "Manter base plana e três nervuras até o piso; faixa traseira45 ×560 e canais de entrada/saída não podem ser fechados pelas uniões."
+        "Preservar canais de ventilação Fischer e retirada das grelhas. Não preencher reservas como se fossem volume de guarda.",
+        "Base e apoios R31 preservados. Detalhar e provar a retenção metálica M4 e a sustentação.",
+        "Manter base plana e três nervuras até o piso. Faixa traseira45 ×560 e canais de entrada/saída não podem ser fechados pelas uniões."
       ],
       "sources": [
         "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md",
@@ -8366,18 +8448,19 @@ const MODULE_GUIDANCE = {
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30. Escolher ferragem M4 não define sua placa de retenção.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
       "drilling": [
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "BasePlanaR31",
             "Peca305",
@@ -8391,7 +8474,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -8400,16 +8483,16 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30. Escolher ferragem M4 não define sua placa de retenção.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação. Definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -8420,7 +8503,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P07-furacao.csv",
-      "technicalSummary": "Grelhas removíveis com M4 e retenção metálica a detalhar. Preservar os canais de ventilação.",
+      "technicalSummary": "Grelhas removíveis para acesso ao forno. Falta detalhar as peças de fixação. Mantenha os espaços de ventilação livres.",
       "panelGroups": [
         {
           "id": "Peca305",
@@ -8652,20 +8735,20 @@ const MODULE_GUIDANCE = {
     "hardware": [
       "Guias laterais de marcenaria: Faixa3mm + corrida2mm de estudo · candidato",
       "Batente removível para limpeza: definição específica na ficha · pendente",
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis; roda fixada à base conforme chapa do fabricante · Estratégia selecionada; mapa parcial",
-      "Rodízios fixos da gaveta baixa: Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm; Magalu ajk5b9dh7c / Metalaçoecommerce · Selecionado por Elias em 24/10/2026; compra pendente",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis. Roda fixada à base conforme chapa do fabricante · Estratégia selecionada. Mapa parcial",
+      "Rodízios fixos da gaveta baixa: Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm. Magalu ajk5b9dh7c / Metalaçoecommerce · Selecionado por Elias em 24/10/2026. Compra pendente",
       "Espaçadores dos rodízios: Chapa metálica plana rígida de 1 mm; 38 × 20 mm nominais, pelo contorno da chapa real · Montagem 38 + 1 mm aprovada em 24/10/2026",
       "Fixadores dos rodízios: Pelo gabarito real da chapa Leão Aço e do espaçador de 1 mm · Furação e fixadores a conferir em oficina"
     ],
     "pending": [
-      "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço; medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
-      "Oficina: validar fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão; não adotar 6 × capacidade anunciada como carga segura.",
+      "Apoio vertical vem dos rodízios. Não ligar guia de 3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço. Medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
+      "Oficina: conferir fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão. Não adotar 6 × capacidade anunciada como carga segura.",
       "Oficina: definir batente removível e guias laterais sem transferir apoio vertical para as faixas.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P08",
       "matriz",
@@ -8802,7 +8885,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR036 (Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada)",
           "finishComplete": false,
-          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes; não há solução estrutural executiva.",
+          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes. Não há solução estrutural executiva.",
           "quantity": 1
         },
         {
@@ -8819,7 +8902,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR037 (Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001)",
           "finishComplete": false,
-          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes; não há solução estrutural executiva.",
+          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes. Não há solução estrutural executiva.",
           "quantity": 1
         }
       ],
@@ -8830,13 +8913,14 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "faixa",
           "status": "candidato",
-          "assembly": "Não são apoios verticais; definir material, desgaste e conexão.",
+          "assembly": "Não são apoios verticais. Definir material, desgaste e conexão.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Ferragens_quantitativo.csv",
               "trecho": "Guia lateral gaveta baixa;Guia3 com corrida2 proposta;2;peca;PROPOSTA;Material desgaste e fixacao Batente gaveta baixa;Removivel para retirada de limpeza;A definir;conjunto;PENDENTE;Definir curso de parada acesso e carga de impacto"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Batente removível para limpeza",
@@ -8850,29 +8934,31 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Ferragens_quantitativo.csv",
               "trecho": "Batente gaveta baixa;Removivel para retirada de limpeza;A definir;conjunto;PENDENTE;Definir curso de parada acesso e carga de impacto"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis; roda fixada à base conforme chapa do fabricante",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Apoio vertical vem dos rodízios. Não ligar guia de 3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
           "item": "Rodízios fixos da gaveta baixa",
           "reference": "Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm; Magalu ajk5b9dh7c / Metalaçoecommerce",
           "quantity": 6,
           "unit": "unidade",
-          "status": "Selecionado por Elias em 24/10/2026; compra pendente",
-          "assembly": "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor; confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
+          "status": "Selecionado por Elias em 24/10/2026. Compra pendente",
+          "assembly": "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor. Confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -8887,7 +8973,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "seleção aprovada; conferir peça e fixação"
+          "assemblyStatus": "seleção aprovada. Conferir peça e fixação",
+          "explanation": ""
         },
         {
           "item": "Espaçadores dos rodízios",
@@ -8895,7 +8982,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "Montagem 38 + 1 mm aprovada em 24/10/2026",
-          "assembly": "Um espaçador entre cada chapa e o fundo de 18 mm, com apoio integral. Preserva a altura total de 39 mm. Material proposto: aço inoxidável; medir espessura e contorno antes de montar.",
+          "assembly": "Um espaçador entre cada chapa e o fundo de 18 mm, com apoio integral. Preserva a altura total de 39 mm. Material proposto: aço inoxidável. Medir espessura e contorno antes de montar.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -8910,7 +8997,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "conferir espessura e gabarito da amostra"
+          "assemblyStatus": "conferir espessura e gabarito da amostra",
+          "explanation": ""
         },
         {
           "item": "Fixadores dos rodízios",
@@ -8918,7 +9006,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "Furação e fixadores a conferir em oficina",
-          "assembly": "Chapa anunciada 38 × 20 mm, dois furos. Não copiar o gabarito Quadrilátero: transferir furos da peça recebida; escolher piloto e comprimento sem atravessar o fundo de 18 mm.",
+          "assembly": "Chapa anunciada 38 × 20 mm, dois furos. Não copiar o gabarito Quadrilátero: transferir furos da peça recebida. Escolher piloto e comprimento sem atravessar o fundo de 18 mm.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -8933,31 +9021,32 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:1050"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Perfil de nível do piso no percurso completo das seis rodas.",
-          "method": "Marcar no croqui as linhas de rodagem e registrar alturas com régua/nível desde uma linha laser; medir soleiras e irregularidades.",
+          "method": "Marcar no croqui as linhas de rodagem e registrar alturas com régua/nível desde uma linha laser. Medir soleiras e irregularidades.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Cota do fundo, apoio real nas rodas e funcionamento do batente.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Medida do fundo, apoio real nas rodas e funcionamento do batente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P08-CAMPO-R14-1",
@@ -8968,10 +9057,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Altura livre sob gabinetes e curso frontal da gaveta baixa.",
-          "method": "Medir nos extremos e no caminho de retirada; cotar rodapé, rejuntes salientes e obstáculos.",
+          "method": "Medir nos extremos e no caminho de retirada. Cotar rodapé, rejuntes salientes e obstáculos.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Gabarito da gaveta e manutenção. Seleção/capacidade/furação das rodas é técnica.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P08-CAMPO-R14-2",
@@ -8982,18 +9071,18 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço; medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
-        "Oficina: validar fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão; não adotar 6 × capacidade anunciada como carga segura.",
+        "Apoio vertical vem dos rodízios. Não ligar guia de 3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço. Medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
+        "Oficina: conferir fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão. Não adotar 6 × capacidade anunciada como carga segura.",
         "Oficina: definir batente removível e guias laterais sem transferir apoio vertical para as faixas.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "A gaveta baixa corre em seis rodas; guias laterais não são suporte vertical.",
-        "Preservar manutenção, batente e estrutura independente dos gabinetes; não substituir por família MOVENTO.",
-        "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor; confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
-        "Apoiar toda a chapa sobre o espaçador metálico de 1 mm; alinhar os seis rodízios no sentido de abertura. Confirmar gabarito real antes de furar."
+        "A gaveta baixa corre em seis rodas. Guias laterais não são suporte vertical.",
+        "Preservar manutenção, batente e estrutura independente dos gabinetes. Não substituir por família MOVENTO.",
+        "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor. Confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
+        "Apoiar toda a chapa sobre o espaçador metálico de 1 mm. Alinhar os seis rodízios no sentido de abertura. Confirmar gabarito real antes de furar."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Resultado.html",
@@ -9013,8 +9102,8 @@ const MODULE_GUIDANCE = {
           "reference": "Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm; Magalu ajk5b9dh7c / Metalaçoecommerce",
           "quantity": 6,
           "unit": "unidade",
-          "status": "Selecionado por Elias em 24/10/2026; compra pendente",
-          "reason": "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor; confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
+          "status": "Selecionado por Elias em 24/10/2026. Compra pendente",
+          "reason": "Seleção aprovada por Elias em 24/10/2026. Instalar 6 rodízios fixos de 38 mm e 6 espaçadores metálicos rígidos de 1 mm, com apoio integral da chapa: 38 + 1 = 39 mm. Banda de PU declarada pelo vendedor. Confirmar na peça recebida. Preservar 1187 × 406 × 88 mm úteis e fundo de 18 mm.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -9029,7 +9118,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "seleção aprovada; conferir peça e fixação"
+          "assemblyStatus": "seleção aprovada. Conferir peça e fixação",
+          "explanation": ""
         },
         {
           "item": "Espaçadores dos rodízios",
@@ -9037,7 +9127,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "Montagem 38 + 1 mm aprovada em 24/10/2026",
-          "reason": "Um espaçador entre cada chapa e o fundo de 18 mm, com apoio integral. Preserva a altura total de 39 mm. Material proposto: aço inoxidável; medir espessura e contorno antes de montar.",
+          "reason": "Um espaçador entre cada chapa e o fundo de 18 mm, com apoio integral. Preserva a altura total de 39 mm. Material proposto: aço inoxidável. Medir espessura e contorno antes de montar.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -9052,7 +9142,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "conferir espessura e gabarito da amostra"
+          "assemblyStatus": "conferir espessura e gabarito da amostra",
+          "explanation": ""
         },
         {
           "item": "Fixadores dos rodízios",
@@ -9060,7 +9151,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "Furação e fixadores a conferir em oficina",
-          "reason": "Chapa anunciada 38 × 20 mm, dois furos. Não copiar o gabarito Quadrilátero: transferir furos da peça recebida; escolher piloto e comprimento sem atravessar o fundo de 18 mm.",
+          "reason": "Chapa anunciada 38 × 20 mm, dois furos. Não copiar o gabarito Quadrilátero: transferir furos da peça recebida. Escolher piloto e comprimento sem atravessar o fundo de 18 mm.",
           "sources": [
             {
               "title": "Compra: kit 6 rodízios fixos Leão Aço 38 mm — Magalu / Metalaçoecommerce",
@@ -9075,20 +9166,22 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Caixa sobre seis rodízios, guias apenas laterais",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis; roda fixada à base conforme chapa do fabricante",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Apoio vertical vem dos rodízios. Não ligar guia de 3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
       "drilling": [
@@ -9101,7 +9194,7 @@ const MODULE_GUIDANCE = {
           "diameter": null,
           "depth": null,
           "fastener": "Parafusos a escolher com chapa, espaçador de 1 mm e fundo de 18 mm reais",
-          "status": "Produto selecionado; mapa de furação depende da amostra",
+          "status": "Produto selecionado. Mapa de furação depende da amostra",
           "releaseCondition": "Medir altura real 38 + 1 = 39 mm, confirmar banda PU, gabarito, capacidade dinâmica, distribuição de carga e fixação sem atravessar o fundo.",
           "sources": [
             {
@@ -9120,7 +9213,7 @@ const MODULE_GUIDANCE = {
           "id": "P08-F01"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [],
           "face": "Faces ocultas ou acesso interno conforme estratégia deste módulo",
           "datum": "Definir uma origem por peça e indicar frente, superior e face interna antes de usinar",
@@ -9129,7 +9222,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis; roda fixada à base conforme chapa do fabricante",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -9138,24 +9231,24 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço; medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
-        "Oficina: validar fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão; não adotar 6 × capacidade anunciada como carga segura.",
+        "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço. Medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
+        "Oficina: conferir fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão. Não adotar 6 × capacidade anunciada como carga segura.",
         "Oficina: definir batente removível e guias laterais sem transferir apoio vertical para as faixas.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Apoio vertical vem dos rodízios. Não ligar guia de 3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Selecionados o kit nacional Leão Aço com 6 fixos de 38 mm e os 6 espaçadores de 1 mm; apoio nominal de 39 mm preservado.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Selecionados o kit nacional Leão Aço com 6 fixos de 38 mm e os 6 espaçadores de 1 mm. Apoio nominal de 39 mm preservado.",
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P08-furacao.csv",
-      "technicalSummary": "Seis rodízios fixos Leão Aço de 38 mm + seis espaçadores rígidos de 1 mm selecionados. Apoio de 39 mm preservado; furação real, carga, guias e batente a conferir.",
+      "technicalSummary": "Gaveta baixa com seis rodas. Confira os furos, o peso suportado e as peças que guiam e limitam o movimento.",
       "panelGroups": [
         {
           "id": "PecaBaixaR13",
@@ -9285,7 +9378,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR036 (Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada)",
           "finishComplete": false,
-          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes; não há solução estrutural executiva.",
+          "remainingFinish": "Confirmar se a reserva vira peça efetiva e quais faces ficam aparentes. Não há solução estrutural executiva.",
           "quantity": 2,
           "ids": [
             "PecaBaixaR036",
@@ -9307,23 +9400,23 @@ const MODULE_GUIDANCE = {
   },
   "P09": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos. Conexão interna própria no divisor de profundidade total · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
-      "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda. Mapa da união com fundo, base e tampo ainda a desenhar.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P09",
       "matriz",
@@ -9333,7 +9426,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P09",
-      "name": "Aéreo D · depurador",
+      "name": "Armário superior D · depurador",
       "room": "cozinha",
       "dimensions": [
         650.0,
@@ -9431,9 +9524,9 @@ const MODULE_GUIDANCE = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556.0,
-            118.0,
-            18.0
+            556,
+            312,
+            18
           ],
           "thickness": 18.0,
           "rectangular": true,
@@ -9481,32 +9574,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda. Mapa da união com fundo, base e tampo ainda a desenhar. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -9514,8 +9609,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -9533,23 +9628,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -9557,7 +9654,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -9570,15 +9667,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -9596,31 +9694,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Guararapes Azul Petróleo",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2507"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Eixo, seção e projeção da saída real de exaustão.",
-          "method": "Cotar centro X/Z e diâmetro ou largura/altura; medir projeção do conjunto instalado e mudanças de direção. Fotografar conexão com escala.",
+          "method": "Cotar centro X/Z e diâmetro ou largura/altura. Medir projeção do conjunto instalado e mudanças de direção. Fotografar conexão com escala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Fundo, divisor e suspensão.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Fundo, divisor e fixação na parede.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P09-CAMPO-R14-1",
@@ -9630,11 +9729,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Faixa livre e prumo da parede na implantação do aéreo D.",
-          "method": "Medir extremos, altura e obstáculos junto à faixa de suspensão; registrar com o mesmo datum de P10/P11/P12.",
+          "measure": "Faixa livre e prumo da parede na implantação do armário superior D.",
+          "method": "Medir extremos, altura e obstáculos junto à faixa de fixação na parede. Registrar com o mesmo ponto de referência para medir de P10/P11/P12.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Alinhamento de instalação e arremates.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P09-CAMPO-R14-2",
@@ -9644,11 +9743,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -9660,20 +9759,20 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda. Mapa da união com fundo, base e tampo ainda a desenhar.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Sem canal técnico (R48): divisor de profundidade total até o fundo; manter a abertura de retorno de ar de 20 mm na largura.",
-        "Detalhar as ligações do divisor de profundidade total e a suspensão do armário.",
-        "Divisor 18 com 312 mm de profundidade, da frente da caixa ao fundo; canal técnico removido na R48.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Sem canal técnico (R48): divisor de profundidade total até o fundo. Manter a abertura de retorno de ar de 20 mm na largura.",
+        "Detalhar as ligações do divisor de profundidade total e a fixação na parede do armário.",
+        "Divisor 18 com 312 mm de profundidade, da frente da caixa ao fundo. Canal técnico removido na R48.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -9696,7 +9795,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -9715,15 +9814,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -9731,7 +9831,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -9739,7 +9840,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -9752,15 +9853,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -9778,36 +9880,39 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Caixa fixa com divisor de profundidade total",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda. Mapa da união com fundo, base e tampo ainda a desenhar.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R002",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R002",
           "partIds": [
             "FrenteComumR002"
           ],
@@ -9817,8 +9922,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -9847,7 +9952,7 @@ const MODULE_GUIDANCE = {
           "id": "P09-F01"
         },
         {
-          "item": "Canecos — Frente Comum R003",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R003",
           "partIds": [
             "FrenteComumR003"
           ],
@@ -9857,8 +9962,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -9887,7 +9992,7 @@ const MODULE_GUIDANCE = {
           "id": "P09-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR002",
             "FrenteComumR003"
@@ -9899,7 +10004,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -9915,7 +10020,7 @@ const MODULE_GUIDANCE = {
           "id": "P09-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -9923,8 +10028,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -9940,7 +10045,7 @@ const MODULE_GUIDANCE = {
           "id": "P09-F04"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca315",
             "Peca316",
@@ -9956,7 +10061,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -9965,21 +10070,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda. Mapa da união com fundo, base e tampo ainda a desenhar.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -10062,7 +10167,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P09-furacao.csv",
-      "technicalSummary": "Blum nas duas portas. Divisor até o fundo forma dois nichos 298 × 312; preservar o retorno de ar de 20 mm do depurador.",
+      "technicalSummary": "Armário com duas portas e dobradiças da marca Blum. O divisor vai até o fundo e forma dois nichos. Deixar livre a saída de ar de 2 cm do depurador.",
       "panelGroups": [
         {
           "id": "Peca315",
@@ -10177,9 +10282,9 @@ const MODULE_GUIDANCE = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556.0,
-            118.0,
-            18.0
+            556,
+            312,
+            18
           ],
           "thickness": 18.0,
           "rectangular": true,
@@ -10257,27 +10362,27 @@ const MODULE_GUIDANCE = {
   },
   "P10": {
     "hardware": [
-      "Ligações dos painéis da carcaça: 20 Minifix15; Confirmat7×50 + cavilhaØ8×30 nas ligações restantes do fundo oculto · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: 20 Minifix15. Confirmat7×50 + cavilhaØ8×30 nas ligações restantes do fundo oculto · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado",
-      "Caixas Minifix: Häfele 262.26.034 · Selecionado em projeto",
-      "Pinos Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado",
+      "Conectores Minifix · peças de encaixe: Häfele 262.26.034 · Selecionado em projeto",
+      "Pinos dos conectores Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
     ],
     "pending": [
-      "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e suspensão são interfaces adicionais.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+      "As três prateleiras ficam presas e saem ao desmontar o armário. Não compre apoios soltos para essas uniões. Defina também a montagem do fundo e a fixação na parede.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P10",
       "matriz",
@@ -10288,7 +10393,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P10",
-      "name": "Aéreo C · uso diário",
+      "name": "Armário superior C · pia",
       "room": "cozinha",
       "dimensions": [
         547.0,
@@ -10470,32 +10575,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "20 Minifix15; Confirmat7×50 + cavilhaØ8×30 nas ligações restantes do fundo oculto",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e suspensão são interfaces adicionais. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e fixação na parede são uniões entre peças adicionais. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -10503,8 +10610,8 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -10522,23 +10629,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -10546,7 +10655,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -10559,15 +10668,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -10585,47 +10695,50 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Caixas Minifix",
+          "item": "Conectores Minifix · peças de encaixe",
           "reference": "Häfele 262.26.034",
           "quantity": 20,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Pinos Minifix",
+          "item": "Pinos dos conectores Minifix",
           "reference": "Häfele S100 262.28.920",
           "quantity": 20,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Guararapes Azul Petróleo",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2507"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Faixa de parede, prumo e obstáculos atrás do aéreo C.",
-          "method": "Registrar desvios da parede, centros de tomadas e limites dos vizinhos desde a linha de referência comum dos aéreos.",
+          "measure": "Faixa de parede, prumo e obstáculos atrás do armário superior C.",
+          "method": "Registrar desvios da parede, centros de tomadas e limites dos vizinhos desde a linha de referência comum dos armários superiores.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Cota de instalação, arremates e faixa disponível de ancoragem.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Medida de instalação, arremates e faixa disponível de ancoragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P10-CAMPO-R14-1",
@@ -10635,11 +10748,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -10651,23 +10764,23 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e suspensão são interfaces adicionais.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "As três prateleiras ficam presas e saem ao desmontar o armário. Não compre apoios soltos para essas uniões. Defina também a montagem do fundo e a fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "assembly": [
-        "Montar as três prateleiras fixas desmontáveis com os 20 conjuntos Minifix do módulo; não usar pinos soltos para as mesmas ligações.",
-        "Conferir acesso aos Minifix e sequência de montagem antes de fechar a caixa.",
-        "Minifix: alojamentoØ15 profundidade13,5+0,5, eixoA9 e passagemØ7; piloto cego proposto8,5mm. Pontos60mm das bordas dianteira/traseira,34mm das extremidades.",
+        "Prenda as três prateleiras com os 20 conjuntos de conectores Minifix previstos. Eles unem as peças e permitem desmontar o armário. Não substitua essas uniões por pinos soltos.",
+        "Conferir acesso aos conectores Minifix e sequência de montagem antes de fechar a caixa.",
+        "Conectores Minifix: alojamentoØ15 profundidade 13,5+0,5, eixoA9 e passagemØ7. Piloto cego proposto8,5mm. Pontos60mm das bordas dianteira/traseira,34mm das extremidades.",
         "Acesso às caixas pela face superior da base e inferior dos demais painéis. Não replicar pilotos8,5opostos em divisória18 sem verificar pontas e desencontro.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -10691,7 +10804,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -10710,15 +10823,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -10726,7 +10840,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -10734,7 +10849,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -10747,15 +10862,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -10773,48 +10889,52 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Horizontais fixos desmontáveis e fundo permanente",
+          "item": "Base, tampo e prateleiras presos ao armário",
           "reference": "20 Minifix15; Confirmat7×50 + cavilhaØ8×30 nas ligações restantes do fundo oculto",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e suspensão são interfaces adicionais.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "As três prateleiras ficam presas e saem ao desmontar o armário. Não compre apoios soltos para essas uniões. Defina também a montagem do fundo e a fixação na parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Uniões dos horizontais às laterais externas",
+          "item": "Uniões da base, do tampo e das prateleiras com as laterais",
           "reference": "Häfele Minifix15 262.26.034 + pinoS100 262.28.920",
           "quantity": 20,
           "unit": "conjuntos (1 caixa +1 pino cada)",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Selecionado como ligação fixa desmontável nas peças abaixo, mantendo geometria nominal. Não é prateleira regulável nem aprovação de carga.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Os conectores prendem as peças e permitem desmontar o armário. A altura das prateleiras é fixa. Falta confirmar o peso suportado.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R004",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R004",
           "partIds": [
             "FrenteComumR004"
           ],
@@ -10824,8 +10944,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -10858,7 +10978,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F01"
         },
         {
-          "item": "Canecos — Frente Comum R005",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R005",
           "partIds": [
             "FrenteComumR005"
           ],
@@ -10868,8 +10988,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -10902,7 +11022,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR004",
             "FrenteComumR005"
@@ -10914,7 +11034,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -10930,7 +11050,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -10938,8 +11058,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -10955,7 +11075,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F04"
         },
         {
-          "item": "4 caixas Minifix em Peca327",
+          "item": "4 caixas conectores Minifix em Peca327",
           "partIds": [
             "Peca327"
           ],
@@ -10965,8 +11085,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -10984,8 +11104,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11003,8 +11123,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11022,8 +11142,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11031,7 +11151,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F08"
         },
         {
-          "item": "4 caixas Minifix em Peca328",
+          "item": "4 caixas conectores Minifix em Peca328",
           "partIds": [
             "Peca328"
           ],
@@ -11041,8 +11161,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11060,8 +11180,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11079,8 +11199,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11098,8 +11218,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11107,7 +11227,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F12"
         },
         {
-          "item": "4 caixas Minifix em Peca329",
+          "item": "4 caixas conectores Minifix em Peca329",
           "partIds": [
             "Peca329"
           ],
@@ -11117,8 +11237,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11136,8 +11256,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11155,8 +11275,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11174,8 +11294,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11183,7 +11303,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F16"
         },
         {
-          "item": "4 caixas Minifix em Peca330",
+          "item": "4 caixas conectores Minifix em Peca330",
           "partIds": [
             "Peca330"
           ],
@@ -11193,8 +11313,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11212,8 +11332,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11231,8 +11351,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11250,8 +11370,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11259,7 +11379,7 @@ const MODULE_GUIDANCE = {
           "id": "P10-F20"
         },
         {
-          "item": "4 caixas Minifix em Peca331",
+          "item": "4 caixas conectores Minifix em Peca331",
           "partIds": [
             "Peca331"
           ],
@@ -11269,8 +11389,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11288,8 +11408,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11307,8 +11427,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11326,8 +11446,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
@@ -11336,25 +11456,25 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "projectChecks": [
-        "As três prateleiras ficam fixas desmontáveis. Não comprar quatro apoios soltos para a mesma união. Fundo e suspensão são interfaces adicionais.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "As três prateleiras ficam presas e saem ao desmontar o armário. Não compre apoios soltos para essas uniões. Defina também a montagem do fundo e a fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Referência do par Minifix definida, quantidade por painel e acesso às caixas definidos.",
-        "Coordenadas nominais por peça, passagem e piloto mapeados; não são furos genéricos de toda a carcaça."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
+        "Referência do par conectores Minifix definida, quantidade por painel e acesso às caixas definidos.",
+        "Posições previstas no projeto por peça, passagem e piloto mapeados. Não são furos genéricos de toda a estrutura do armário."
       ],
       "drawings": [
         {
@@ -11636,7 +11756,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P10-furacao.csv",
-      "technicalSummary": "Blum nas portas e 20 conjuntos Minifix. Três prateleiras fixas desmontáveis, com furação nominal por peça.",
+      "technicalSummary": "Armário com três prateleiras e dobradiças da marca Blum nas portas. As prateleiras ficam presas ao armário e podem ser retiradas ao desmontá-lo. Confira os furos antes de fabricar.",
       "panelGroups": [
         {
           "id": "Peca324",
@@ -11841,27 +11961,27 @@ const MODULE_GUIDANCE = {
   },
   "P11": {
     "hardware": [
-      "Ligações dos painéis da carcaça: 12 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: 12 Minifix15. Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado",
-      "Caixas Minifix: Häfele 262.26.034 · Selecionado em projeto",
-      "Pinos Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado",
+      "Conectores Minifix · peças de encaixe: Häfele 262.26.034 · Selecionado em projeto",
+      "Pinos dos conectores Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
     ],
     "pending": [
-      "Prateleira661 continua dependendo de carga/flexão; a nova furação não aumenta capacidade da chapa. Fundo e suspensão dimensionados separadamente.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+      "Prateleira661 continua dependendo de carga/flexão. A nova furação não aumenta capacidade da chapa. Fundo e fixação na parede dimensionados separadamente.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P11",
       "matriz",
@@ -11871,7 +11991,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P11",
-      "name": "Aéreo B · micro",
+      "name": "Armário superior B · micro-ondas",
       "room": "cozinha",
       "dimensions": [
         697.0,
@@ -12019,32 +12139,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "12 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Prateleira661 continua dependendo de carga/flexão; a nova furação não aumenta capacidade da chapa. Fundo e suspensão dimensionados separadamente. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Prateleira661 continua dependendo de carga/flexão. A nova furação não aumenta capacidade da chapa. Fundo e fixação na parede dimensionados separadamente. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -12052,8 +12174,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -12071,23 +12193,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -12095,7 +12219,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -12108,15 +12232,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -12134,47 +12259,50 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Caixas Minifix",
+          "item": "Conectores Minifix · peças de encaixe",
           "reference": "Häfele 262.26.034",
           "quantity": 12,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Pinos Minifix",
+          "item": "Pinos dos conectores Minifix",
           "reference": "Häfele S100 262.28.920",
           "quantity": 12,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Guararapes Azul Petróleo",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2507"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Faixa livre do aéreo B e posição das tomadas próximas ao apoio aberto do micro.",
-          "method": "Cotar centros/contornos das tomadas e saliências; registrar alturas e planos dos vizinhos já existentes.",
+          "measure": "Faixa livre do armário superior B e posição das tomadas próximas ao apoio aberto do micro.",
+          "method": "Cotar centros/contornos das tomadas e saliências. Registrar alturas e planos dos vizinhos já existentes.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Posição de montagem e passagem do cabo. Comprimento do cabo e mínimos de ventilação são conferidos no produto/manual fora do apartamento.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P11-CAMPO-R14-1",
@@ -12184,11 +12312,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -12200,21 +12328,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Prateleira661 continua dependendo de carga/flexão; a nova furação não aumenta capacidade da chapa. Fundo e suspensão dimensionados separadamente.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "Prateleira661 continua dependendo de carga/flexão. A nova furação não aumenta capacidade da chapa. Fundo e fixação na parede dimensionados separadamente.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "assembly": [
-        "Conferir ligação da prateleira e suspensão; a estimativa de flexão para 20 kg não aprova essa carga.",
-        "Manter a interface de ventilação do micro separada da especificação da caixa.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Conferir ligação da prateleira e fixação na parede. A estimativa de flexão para 20 kg não aprova essa carga.",
+        "Manter a união entre peças de ventilação do micro separada da especificação da caixa.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -12237,7 +12365,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -12256,15 +12384,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -12272,7 +12401,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -12280,7 +12410,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -12293,15 +12423,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -12319,49 +12450,53 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Base, topo e prateleira fixos desmontáveis",
           "reference": "12 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Prateleira661 continua dependendo de carga/flexão; a nova furação não aumenta capacidade da chapa. Fundo e suspensão dimensionados separadamente.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Prateleira661 continua dependendo de carga/flexão. A nova furação não aumenta capacidade da chapa. Fundo e fixação na parede dimensionados separadamente.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Uniões dos horizontais às laterais externas",
+          "item": "Uniões da base, do tampo e das prateleiras com as laterais",
           "reference": "Häfele Minifix15 262.26.034 + pinoS100 262.28.920",
           "quantity": 12,
           "unit": "conjuntos (1 caixa +1 pino cada)",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Selecionado como ligação fixa desmontável nas peças abaixo, mantendo geometria nominal. Não é prateleira regulável nem aprovação de carga.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Os conectores prendem as peças e permitem desmontar o armário. A altura das prateleiras é fixa. Falta confirmar o peso suportado.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
             "joinery-geometry.json (verificação BREP R45 R14)"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R006",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R006",
           "partIds": [
             "FrenteComumR006"
           ],
@@ -12371,8 +12506,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -12401,7 +12536,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F01"
         },
         {
-          "item": "Canecos — Frente Comum R007",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R007",
           "partIds": [
             "FrenteComumR007"
           ],
@@ -12411,8 +12546,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -12441,7 +12576,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR006",
             "FrenteComumR007"
@@ -12453,7 +12588,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -12469,7 +12604,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -12477,8 +12612,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -12494,7 +12629,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F04"
         },
         {
-          "item": "4 caixas Minifix em Peca337",
+          "item": "4 caixas conectores Minifix em Peca337",
           "partIds": [
             "Peca337"
           ],
@@ -12504,8 +12639,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12524,8 +12659,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12544,8 +12679,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12564,8 +12699,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12574,7 +12709,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F08"
         },
         {
-          "item": "4 caixas Minifix em Peca338",
+          "item": "4 caixas conectores Minifix em Peca338",
           "partIds": [
             "Peca338"
           ],
@@ -12584,8 +12719,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12604,8 +12739,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12624,8 +12759,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12644,8 +12779,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12654,7 +12789,7 @@ const MODULE_GUIDANCE = {
           "id": "P11-F12"
         },
         {
-          "item": "4 caixas Minifix em Peca339",
+          "item": "4 caixas conectores Minifix em Peca339",
           "partIds": [
             "Peca339"
           ],
@@ -12664,8 +12799,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12684,8 +12819,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12704,8 +12839,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12724,8 +12859,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -12735,25 +12870,25 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "projectChecks": [
-        "Prateleira661 continua dependendo de carga/flexão; a nova furação não aumenta capacidade da chapa. Fundo e suspensão dimensionados separadamente.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Prateleira661 continua dependendo de carga/flexão. A nova furação não aumenta capacidade da chapa. Fundo e fixação na parede dimensionados separadamente.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Referência do par Minifix definida, quantidade por painel e acesso às caixas definidos.",
-        "Coordenadas nominais por peça, passagem e piloto mapeados; não são furos genéricos de toda a carcaça."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
+        "Referência do par conectores Minifix definida, quantidade por painel e acesso às caixas definidos.",
+        "Posições previstas no projeto por peça, passagem e piloto mapeados. Não são furos genéricos de toda a estrutura do armário."
       ],
       "drawings": [
         {
@@ -12941,7 +13076,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P11-furacao.csv",
-      "technicalSummary": "Blum nas portas e 12 conjuntos Minifix. Furação nominal verificada na geometria; carga e suspensão separadas.",
+      "technicalSummary": "Portas com dobradiças da marca Blum. O projeto indica os furos de montagem. Falta confirmar o peso suportado e a fixação na parede.",
       "panelGroups": [
         {
           "id": "Peca334",
@@ -13136,23 +13271,23 @@ const MODULE_GUIDANCE = {
   },
   "P12": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Minifix15 nos encontros das laterais externas elegíveis; Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: Minifix15 nos encontros das laterais externas elegíveis. Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
       "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P12",
       "matriz",
@@ -13162,7 +13297,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P12",
-      "name": "Aéreo A · geladeira",
+      "name": "Armário superior A · geladeira",
       "room": "cozinha",
       "dimensions": [
         801.0,
@@ -13310,32 +13445,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Minifix15 nos encontros das laterais externas elegíveis; Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -13343,8 +13480,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -13362,23 +13499,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -13386,7 +13525,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -13399,15 +13538,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -13425,31 +13565,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Guararapes Azul Petróleo. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Guararapes Azul Petróleo. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Guararapes Azul Petróleo",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2507"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Nível do piso sob os pés da geladeira e altura disponível até a base do aéreo.",
-          "method": "Medir o desnível nos pontos de apoio; registrar aparelho nivelado se já instalado e a cota da base projetada/instalada do aéreo.",
+          "measure": "Nível do piso sob os pés da geladeira e altura disponível até a base do armário superior.",
+          "method": "Medir o desnível nos pontos de apoio. Registrar aparelho nivelado se já instalado e a medida da base projetada/instalada do armário superior.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Reserva superior de ventilação e cota de montagem.",
-          "acceptance": "A matriz registra reserva nominal de 100 mm sem margem além do mínimo considerado. Confrontar mínimo do manual do modelo final e dimensões niveladas; não absorver desnível reduzindo essa reserva.",
+          "affects": "Reserva superior de ventilação e medida de montagem.",
+          "acceptance": "A matriz registra reserva nominal de 100 mm sem margem além do mínimo considerado. Confrontar mínimo do manual do modelo final e dimensões niveladas. Não absorver desnível reduzindo essa reserva.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P12-CAMPO-R14-1",
@@ -13462,8 +13603,8 @@ const MODULE_GUIDANCE = {
           "measure": "Largura/profundidade acabadas do espaço da geladeira e obstáculos de abertura.",
           "method": "Cotar paredes, rodapé, tomadas e percurso frontal disponível. Registrar faixa de abertura das portas com o produto instalado quando houver.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Implantação, ventilação e manutenção; dimensão de catálogo do produto é decisão técnica.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Implantação, ventilação e manutenção. Dimensão de catálogo do produto é decisão técnica.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P12-CAMPO-R14-2",
@@ -13473,11 +13614,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -13490,18 +13631,18 @@ const MODULE_GUIDANCE = {
       ],
       "technicalChecks": [
         "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
-        "Fixar divisor e suspensão conforme detalhamento; não somar capacidades de ferragens sem distribuição de carga.",
+        "Fixar divisor e fixação na parede conforme detalhamento. Não somar capacidades de ferragens sem distribuição de carga.",
         "Reserva nominal de 100 mm sobre a geladeira não contém margem extra além da premissa adotada.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -13524,7 +13665,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -13543,15 +13684,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -13559,7 +13701,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -13567,7 +13710,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -13580,15 +13723,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -13606,36 +13750,39 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Caixa e divisor central fixos",
           "reference": "Minifix15 nos encontros das laterais externas elegíveis; Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R008",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R008",
           "partIds": [
             "FrenteComumR008"
           ],
@@ -13645,8 +13792,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -13675,7 +13822,7 @@ const MODULE_GUIDANCE = {
           "id": "P12-F01"
         },
         {
-          "item": "Canecos — Frente Comum R009",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R009",
           "partIds": [
             "FrenteComumR009"
           ],
@@ -13685,8 +13832,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -13715,7 +13862,7 @@ const MODULE_GUIDANCE = {
           "id": "P12-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR008",
             "FrenteComumR009"
@@ -13727,7 +13874,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -13743,7 +13890,7 @@ const MODULE_GUIDANCE = {
           "id": "P12-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -13751,8 +13898,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -13768,7 +13915,7 @@ const MODULE_GUIDANCE = {
           "id": "P12-F04"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca342",
             "Peca343",
@@ -13784,7 +13931,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Minifix15 nos encontros das laterais externas elegíveis; Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -13793,21 +13940,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
         "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -13890,7 +14037,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P12-furacao.csv",
-      "technicalSummary": "Blum nas portas. Ligações da divisória central e suspensão precisam de mapa próprio.",
+      "technicalSummary": "Portas com dobradiças da marca Blum. Falta detalhar a união da divisória central e a fixação na parede.",
       "panelGroups": [
         {
           "id": "Peca342",
@@ -14086,14 +14233,14 @@ const MODULE_GUIDANCE = {
   "P13": {
     "hardware": [
       "Fixações do apoio do micro-ondas: definição específica na ficha · pendente",
-      "Ligações dos painéis da carcaça: Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada · Estratégia selecionada; mapa parcial"
+      "Uniões das chapas do armário: Consoles metálicos ou estrutura própria para profundidade 470, união entre peças à chapa18 calculada · Estratégia selecionada. Mapa parcial"
     ],
     "pending": [
-      "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
-      "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Conferir pés, cabo e envelope do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
+      "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou conectores Minifix de estrutura do armário. Medida dos pés/carga do aparelho é projeto/oficina.",
+      "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa conferência de encaixe e montagem.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Conferir pés, cabo e volume do desenho do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
     ],
     "finish": "Apoio aberto: referência Arenza do CAD. A regra de interiores Branco TX não recolore automaticamente uma prateleira aberta.",
     "documentIds": [
@@ -14104,7 +14251,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P13",
-      "name": "Apoio do micro",
+      "name": "Prateleira do micro-ondas",
       "room": "cozinha",
       "dimensions": [
         697.0,
@@ -14127,7 +14274,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": null,
           "materialEvidence": "Peca350.MaterialReferencia",
           "finishComplete": false,
-          "remainingFinish": "Aplicação por face ainda não individualizada",
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1
         }
       ],
@@ -14138,42 +14285,44 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "conjunto",
           "status": "pendente",
-          "assembly": "Apoio697 ×470 ×18; definir distribuição real dos pés do aparelho e caminho da carga.",
+          "assembly": "Apoio697 ×470 ×18. Definir distribuição real dos pés do aparelho e caminho da carga.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
               "trecho": "| P13 | Micro-ondas | Apoio 697×470×18; micro deixa 123 e 113 nas laterais do apoio aberto,100 atrás e 100 acima; projeção frontal do apoio excede aparelho 18. |100 acima mantém escolha F104, divergente de 300 no manual. Pés reais e suporte da chapa não demonstrados. Não chamar espaço ventilado de nicho fechado. | | P14 | Tanque/cesto | Entre laterais 554; base 554×562×18. Tanque 420×390 é reserva, não produto. Região hidráulica posterior 450 de largura até 280 da parede, sobe até 630; superior avança 330 e chega 700. | Seleção do tanque/cuba e hidráulica. Não converter reserva de volume útil 380×350×200 em capacidade garantida. Pivôs/cesto em estudo articulado. | | P15 | Aéreo lavanderia | "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou conectores Minifix de estrutura do armário. Medida dos pés/carga do aparelho é projeto/oficina. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "finishSummary": "Apoio aberto: referência Arenza do CAD. A regra de interiores Branco TX não recolore automaticamente uma prateleira aberta.",
       "finishSpecs": [
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Arenza / wood: referência CAD do apoio aberto",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:1050"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Posição da tomada e espaço físico de retirada do micro.",
-          "method": "Cotar centro/contorno da tomada e objetos instalados próximos ao apoio; registrar espaço frontal e acima na implantação real.",
+          "method": "Cotar centro/contorno da tomada e objetos instalados próximos ao apoio. Registrar espaço frontal e acima na implantação real.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Passagem do cabo e retirada. Os quatro pés e o cabo do aparelho são conferência de produto em oficina.",
           "acceptance": "A medição não resolve o conflito documental: projeto F104 guarda 100 mm acima e o manual citado pede 300 mm. Resolver o requisito de instalação em projeto antes da liberação.",
@@ -14186,11 +14335,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-COZINHA",
@@ -14202,15 +14351,15 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
-        "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Conferir pés, cabo e envelope do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
+        "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou conectores Minifix de estrutura do armário. Medida dos pés/carga do aparelho é projeto/oficina.",
+        "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa conferência de encaixe e montagem.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir pés, cabo e volume do desenho do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
       ],
       "assembly": [
         "A chapa é apoio aberto, não nicho fechado.",
-        "Não liberar pelo envelope: suporte, pés do aparelho e divergência de afastamento superior precisam ser resolvidos.",
+        "Não liberar pelo volume do desenho: suporte, pés do aparelho e divergência de afastamento superior precisam ser resolvidos.",
         "O apoio aberto não deve ser tratado como nicho fechado."
       ],
       "sources": [
@@ -14229,18 +14378,19 @@ const MODULE_GUIDANCE = {
           "reference": "Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou conectores Minifix de estrutura do armário. Medida dos pés/carga do aparelho é projeto/oficina.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [],
           "face": "Faces ocultas ou acesso interno conforme estratégia deste módulo",
           "datum": "Definir uma origem por peça e indicar frente, superior e face interna antes de usinar",
@@ -14249,7 +14399,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -14258,22 +14408,22 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Conferir pés, cabo e envelope do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir pés, cabo e volume do desenho do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
       ],
       "projectChecks": [
-        "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
-        "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou conectores Minifix de estrutura do armário. Medida dos pés/carga do aparelho é projeto/oficina.",
+        "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa conferência de encaixe e montagem.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P13-furacao.csv",
-      "technicalSummary": "Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.",
+      "technicalSummary": "Prateleira aberta para o micro-ondas. Falta definir o suporte e conferir o espaço de ventilação exigido pelo aparelho.",
       "panelGroups": [
         {
           "id": "Peca350",
@@ -14289,7 +14439,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": null,
           "materialEvidence": "Peca350.MaterialReferencia",
           "finishComplete": false,
-          "remainingFinish": "Aplicação por face ainda não individualizada",
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1,
           "ids": [
             "Peca350"
@@ -14306,19 +14456,19 @@ const MODULE_GUIDANCE = {
   },
   "P14": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa; mecanismo com fixações próprias · Estratégia selecionada; mapa parcial",
-      "Mecanismo do cesto preservado: Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso55° · dimensionamento especial; SKU pendente"
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa. Mecanismo com fixações próprias · Estratégia selecionada. Mapa parcial",
+      "Mecanismo do cesto preservado: Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso 55° · dimensionamento especial. SKU pendente"
     ],
     "pending": [
       "Fornecedor/projeto: escolher material da armação e mecanismo completo para 55°/carga variável;15,134 kg e 38,73Nm são cenários de cálculo, não carga de uso certificada.",
-      "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: validar eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação; não reabrir a consulta como pendência de medição.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Ensaiar saco, armação e retirada em oficina; conferir produto e gabarito do tanque."
+      "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da estrutura do armário e garantir remoção do saco e acesso hidráulico.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: conferir eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação. Não reabrir a consulta como pendência de medição.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Ensaiar saco, armação e retirada em oficina. Conferir produto e gabarito do tanque."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P14",
       "matriz",
@@ -14329,7 +14479,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P14",
-      "name": "Gabinete tanque e cesto",
+      "name": "Tanque e cesto de roupas",
       "room": "lavanderia",
       "dimensions": [
         590.0,
@@ -14511,58 +14661,60 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa; mecanismo com fixações próprias",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da estrutura do armário e garantir remoção do saco e acesso hidráulico. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
           "item": "Mecanismo do cesto preservado",
           "reference": "Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso55°",
           "quantity": 1,
           "unit": "conjunto",
-          "status": "dimensionamento especial; SKU pendente",
+          "status": "dimensionamento especial. SKU pendente",
           "assembly": "Fechada a especificação funcional para fabricante: separar 2 pivôs, retenção positiva 55°e controle de movimento vazio/cheio. Nenhum SKUcomercial pesquisado satisfaz integralmente esta geometria/carga.",
-          "assemblyStatus": "compatibilização fabril",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Seleção e esforços do cesto preservado",
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md",
               "page": "Triagem e caminho técnico"
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:273"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Pontos existentes de água/esgoto, janela e tanque se já instalado.",
-          "method": "Cotar centros, projeções e diâmetros dos pontos; posição do peitoril e giro da janela. Se tanque/sifão já instalados, mapear seus volumes e acesso.",
+          "method": "Cotar centros, projeções e diâmetros dos pontos. Posição do peitoril e giro da janela. Se tanque/sifão já instalados, mapear seus volumes e acesso.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Recortes, painel removível e envelope hidráulico real.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Recortes, painel removível e volume do desenho hidráulico real.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P14-CAMPO-R14-1",
@@ -14573,10 +14725,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Faixa livre frontal e percurso de retirada para manutenção.",
-          "method": "Cotar obstáculos instalados diante do móvel e a distância aos vizinhos; testar gabarito do conjunto aprovado.",
+          "method": "Cotar obstáculos instalados diante do móvel e a distância aos vizinhos. Testar gabarito do conjunto aprovado.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Acesso ao cesto e às conexões. Escolha do mecanismo e ensaio de saco/armação são projeto/oficina.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P14-CAMPO-R14-2",
@@ -14586,11 +14738,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-LAVANDERIA",
@@ -14603,16 +14755,16 @@ const MODULE_GUIDANCE = {
       ],
       "technicalChecks": [
         "Fornecedor/projeto: escolher material da armação e mecanismo completo para 55°/carga variável;15,134 kg e 38,73Nm são cenários de cálculo, não carga de uso certificada.",
-        "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: validar eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação; não reabrir a consulta como pendência de medição.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Ensaiar saco, armação e retirada em oficina; conferir produto e gabarito do tanque."
+        "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da estrutura do armário e garantir remoção do saco e acesso hidráulico.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: conferir eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação. Não reabrir a consulta como pendência de medição.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Ensaiar saco, armação e retirada em oficina. Conferir produto e gabarito do tanque."
       ],
       "assembly": [
         "Preservar frente lisa, saco removível/lavável e acesso de manutenção.",
-        "Volume hidráulico é reserva; pivô, retenção e limitador de 55° não estão selecionados.",
+        "Volume hidráulico é reserva. Pivô, retenção e limitador de 55° não estão selecionados.",
         "Mecanismo deve permitir manutenção e retirada do saco, preservando52mm laterais do cenário. Não tratar corpo/armação do gabarito como produto real."
       ],
       "sources": [
@@ -14632,7 +14784,7 @@ const MODULE_GUIDANCE = {
           "reference": "Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso55°",
           "quantity": 1,
           "unit": "conjunto",
-          "status": "dimensionamento especial; SKU pendente",
+          "status": "dimensionamento especial. SKU pendente",
           "reason": "Fechada a especificação funcional para fabricante: separar 2 pivôs, retenção positiva 55°e controle de movimento vazio/cheio. Nenhum SKUcomercial pesquisado satisfaz integralmente esta geometria/carga.",
           "sources": [
             {
@@ -14641,20 +14793,22 @@ const MODULE_GUIDANCE = {
               "page": "Triagem e caminho técnico"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Caixa fixa e mecanismo do cesto substituível",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa; mecanismo com fixações próprias",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da estrutura do armário e garantir remoção do saco e acesso hidráulico.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
       "drilling": [
@@ -14681,7 +14835,7 @@ const MODULE_GUIDANCE = {
           "id": "P14-F01"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "PecaCestoR001",
             "PecaCestoR15"
@@ -14693,7 +14847,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa; mecanismo com fixações próprias",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -14702,18 +14856,18 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: validar eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação; não reabrir a consulta como pendência de medição.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Ensaiar saco, armação e retirada em oficina; conferir produto e gabarito do tanque."
+        "Oficina: conferir eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação. Não reabrir a consulta como pendência de medição.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Ensaiar saco, armação e retirada em oficina. Conferir produto e gabarito do tanque."
       ],
       "projectChecks": [
         "Fornecedor/projeto: escolher material da armação e mecanismo completo para 55°/carga variável;15,134 kg e 38,73Nm são cenários de cálculo, não carga de uso certificada.",
-        "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da estrutura do armário e garantir remoção do saco e acesso hidráulico.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -14721,7 +14875,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P14-furacao.csv",
-      "technicalSummary": "Carcaça e cesto têm ligações separadas. O mecanismo basculante a 55° ainda exige solução comprovada para a aplicação.",
+      "technicalSummary": "Cesto que inclina para abrir. A estrutura e o cesto têm fixações próprias. Falta testar o mecanismo de abertura.",
       "panelGroups": [
         {
           "id": "Peca352",
@@ -14946,27 +15100,27 @@ const MODULE_GUIDANCE = {
   },
   "P15": {
     "hardware": [
-      "Ligações dos painéis da carcaça: 8 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: 8 Minifix15. Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado",
-      "Caixas Minifix: Häfele 262.26.034 · Selecionado em projeto",
-      "Pinos Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado",
+      "Conectores Minifix · peças de encaixe: Häfele 262.26.034 · Selecionado em projeto",
+      "Pinos dos conectores Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
     ],
     "pending": [
-      "Base799 sem divisor exige reforço/carga e ligação com fundo; a furação Minifix nominal não aprova20kg nem suspensão.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+      "Base799 sem divisor exige reforço/carga e ligação com fundo. A furação conectores Minifix nominal não aprova20kg nem fixação na parede.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P15",
       "matriz",
@@ -14976,7 +15130,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P15",
-      "name": "Aéreo da lavanderia",
+      "name": "Armário superior da lavanderia",
       "room": "lavanderia",
       "dimensions": [
         835.0,
@@ -15107,32 +15261,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "8 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Base799 sem divisor exige reforço/carga e ligação com fundo; a furação Minifix nominal não aprova20kg nem suspensão. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Base799 sem divisor exige reforço/carga e ligação com fundo. A furação conectores Minifix nominal não aprova20kg nem fixação na parede. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -15140,8 +15296,8 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -15159,23 +15315,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -15183,7 +15341,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -15196,15 +15354,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -15222,47 +15381,50 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Caixas Minifix",
+          "item": "Conectores Minifix · peças de encaixe",
           "reference": "Häfele 262.26.034",
           "quantity": 8,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Pinos Minifix",
+          "item": "Pinos dos conectores Minifix",
           "reference": "Häfele S100 262.28.920",
           "quantity": 8,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2507"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Janela, aquecedor, tubulações e pontos existentes na faixa do aéreo.",
-          "method": "Cotar extremos e centros a partir de piso/parede acabados; registrar giro da janela e os acessos do aquecedor instalado.",
+          "measure": "Janela, aquecedor, tubulações e pontos existentes na faixa do armário superior.",
+          "method": "Cotar extremos e centros a partir de piso/parede acabados. Registrar giro da janela e os acessos do aquecedor instalado.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Cota de montagem, aberturas e acesso técnico.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Medida de montagem, aberturas e acesso técnico.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P15-CAMPO-R14-1",
@@ -15273,10 +15435,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Percurso real do varal e afastamentos na instalação.",
-          "method": "Registrar posição e altura do conjunto instalado ou dos pontos existentes; testar trajetórias sem substituir limites do manual.",
+          "method": "Registrar posição e altura do conjunto instalado ou dos pontos existentes. Testar trajetórias sem substituir limites do manual.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Interferências entre varal, aéreo e janela.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Interferências entre varal, armário superior e janela.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P15-CAMPO-R14-2",
@@ -15286,11 +15448,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-LAVANDERIA",
@@ -15302,21 +15464,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Base799 sem divisor exige reforço/carga e ligação com fundo; a furação Minifix nominal não aprova20kg nem suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "Base799 sem divisor exige reforço/carga e ligação com fundo. A furação conectores Minifix nominal não aprova20kg nem fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "assembly": [
         "Não presumir divisor intermediário inexistente no CAD.",
-        "Vão de 799 mm exige ligação com fundo/reforço e suspensão dimensionadas.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Vão de 799 mm exige ligação com fundo/reforço e fixação na parede dimensionadas.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -15339,7 +15501,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -15358,15 +15520,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -15374,7 +15537,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -15382,7 +15546,7 @@ const MODULE_GUIDANCE = {
           "quantity": 4,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -15395,15 +15559,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 16,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -15421,49 +15586,53 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Base e topo fixos desmontáveis",
           "reference": "8 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Base799 sem divisor exige reforço/carga e ligação com fundo; a furação Minifix nominal não aprova20kg nem suspensão.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Base799 sem divisor exige reforço/carga e ligação com fundo. A furação conectores Minifix nominal não aprova20kg nem fixação na parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Uniões dos horizontais às laterais externas",
+          "item": "Uniões da base, do tampo e das prateleiras com as laterais",
           "reference": "Häfele Minifix15 262.26.034 + pinoS100 262.28.920",
           "quantity": 8,
           "unit": "conjuntos (1 caixa +1 pino cada)",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Selecionado como ligação fixa desmontável nas peças abaixo, mantendo geometria nominal. Não é prateleira regulável nem aprovação de carga.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Os conectores prendem as peças e permitem desmontar o armário. A altura das prateleiras é fixa. Falta confirmar o peso suportado.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
             "joinery-geometry.json (verificação BREP R45 R14)"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R010",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R010",
           "partIds": [
             "FrenteComumR010"
           ],
@@ -15473,8 +15642,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -15503,7 +15672,7 @@ const MODULE_GUIDANCE = {
           "id": "P15-F01"
         },
         {
-          "item": "Canecos — Frente Comum R011",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R011",
           "partIds": [
             "FrenteComumR011"
           ],
@@ -15513,8 +15682,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -15543,7 +15712,7 @@ const MODULE_GUIDANCE = {
           "id": "P15-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR010",
             "FrenteComumR011"
@@ -15555,7 +15724,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -15571,7 +15740,7 @@ const MODULE_GUIDANCE = {
           "id": "P15-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -15579,8 +15748,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -15596,7 +15765,7 @@ const MODULE_GUIDANCE = {
           "id": "P15-F04"
         },
         {
-          "item": "4 caixas Minifix em Peca362",
+          "item": "4 caixas conectores Minifix em Peca362",
           "partIds": [
             "Peca362"
           ],
@@ -15606,8 +15775,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15626,8 +15795,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15646,8 +15815,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15666,8 +15835,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15676,7 +15845,7 @@ const MODULE_GUIDANCE = {
           "id": "P15-F08"
         },
         {
-          "item": "4 caixas Minifix em Peca363",
+          "item": "4 caixas conectores Minifix em Peca363",
           "partIds": [
             "Peca363"
           ],
@@ -15686,8 +15855,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø15 mm",
           "depth": "13,5 +0,5 mm;14 mm no ensaio",
           "fastener": "262.26.034",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15706,8 +15875,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø7 mm",
           "depth": "34 mm até o eixo do alojamento; comunicação com Ø15",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15726,8 +15895,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15746,8 +15915,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta;9,5 mm nominais remanescentes, sem ponta",
           "fastener": "262.28.920",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Prova de encaixe/torque na chapa real; conferir tolerância da ponta da broca, acesso e ligações do fundo/suspensão. Não é liberação estrutural.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Prova de encaixe/torque na chapa real. Conferir tolerância da ponta da broca, acesso e ligações do fundo/fixação na parede. Não é liberação estrutural.",
           "sources": [
             "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
@@ -15757,25 +15926,25 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem; fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo; ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Com a ferragem física: conferir encaixe S100, eixoA9 e acabamento/embalagem. Fazer prova em retalho da mesma chapa antes do lote. Profundidade13,5+0,5 do catálogo. Ensaio virtual usa14 máximo. Piloto8,5 é proposta de oficina com ponta da broca controlada."
       ],
       "projectChecks": [
-        "Base799 sem divisor exige reforço/carga e ligação com fundo; a furação Minifix nominal não aprova20kg nem suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Base799 sem divisor exige reforço/carga e ligação com fundo. A furação conectores Minifix nominal não aprova20kg nem fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "O teste do desenho dos furos não confirma a abertura das portas, o acesso da ferramenta, a montagem ou o peso suportado. Confira esses pontos separadamente.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Referência do par Minifix definida, quantidade por painel e acesso às caixas definidos.",
-        "Coordenadas nominais por peça, passagem e piloto mapeados; não são furos genéricos de toda a carcaça."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
+        "Referência do par conectores Minifix definida, quantidade por painel e acesso às caixas definidos.",
+        "Posições previstas no projeto por peça, passagem e piloto mapeados. Não são furos genéricos de toda a estrutura do armário."
       ],
       "drawings": [
         {
@@ -15925,7 +16094,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P15-furacao.csv",
-      "technicalSummary": "Blum nas portas e 8 conjuntos Minifix. O vão de 799 mm mantém a necessidade de reforço e carga definida.",
+      "technicalSummary": "Portas com dobradiças da marca Blum. O espaço entre apoios precisa de reforço. Falta definir o peso suportado.",
       "panelGroups": [
         {
           "id": "Peca359",
@@ -16094,22 +16263,22 @@ const MODULE_GUIDANCE = {
   },
   "P16": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; guias/frentes com o sistema de gaveta selecionado · Estratégia selecionada; mapa parcial",
+      "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa. Guias/frentes com o sistema de gaveta selecionado · Estratégia selecionada. Mapa parcial",
       "Corrediças 400: BlumMOVENTO760H4000S, BLUMOTION S, classe40kg · selecionado",
       "Engates MOVENTO esquerdo e direito: BlumT51.7601 E/D · selecionado",
       "Parafusos de fixação das guias MOVENTO: Blum609.1500 Ø3,5×15 · selecionado",
       "Gabarito MOVENTO de engates/ganchos: BlumT65.1000.02 · selecionado"
     ],
     "pending": [
-      "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
+      "Oficina/projeto: conferir a reserva superior 7 mm e o recorte do gancho direito. São pendências locais do modelo, não medidas do apartamento.",
       "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
       "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Arenza nas frentes das gavetas. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Arenza nas frentes das gavetas. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P16",
       "matriz",
@@ -16121,7 +16290,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P16",
-      "name": "Gaveteiro do escritório",
+      "name": "Gavetas do escritório",
       "room": "escritorio",
       "dimensions": [
         400.0,
@@ -16144,7 +16313,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca367 (Lateral direita027)",
           "finishComplete": false,
-          "remainingFinish": "Arenza aprovado explicitamente nas frentes; padrão comercial da face lateral aparente da caixa não individualizado. wood é referência CAD.",
+          "remainingFinish": "Arenza aprovado explicitamente nas frentes. Padrão comercial da face lateral aparente da caixa não individualizado. Wood é referência CAD.",
           "quantity": 1
         },
         {
@@ -16161,7 +16330,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca368 (Lateral esquerda011)",
           "finishComplete": false,
-          "remainingFinish": "Arenza aprovado explicitamente nas frentes; padrão comercial da face lateral aparente da caixa não individualizado. wood é referência CAD.",
+          "remainingFinish": "Arenza aprovado explicitamente nas frentes. Padrão comercial da face lateral aparente da caixa não individualizado. Wood é referência CAD.",
           "quantity": 1
         },
         {
@@ -16422,18 +16591,19 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; guias/frentes com o sistema de gaveta selecionado",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
           "item": "Corrediças 400",
@@ -16442,7 +16612,7 @@ const MODULE_GUIDANCE = {
           "unit": "par",
           "status": "selecionado",
           "assembly": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
-          "assemblyStatus": "compatibilização fabril",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum MOVENTO760H e engates T51.7601",
@@ -16459,7 +16629,8 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
               "page": "pacote MOVENTO400"
             }
-          ]
+          ],
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Engates MOVENTO esquerdo e direito",
@@ -16467,15 +16638,16 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "par",
           "status": "selecionado",
-          "assembly": "2 esquerdos +2 direitos. Discriminar no kit; não comprar novamente caso incluídos.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum MOVENTO760H e engates T51.7601",
               "url": "https://publications.blum.com/2024/catalogue/en/412/",
               "page": "412"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
           "item": "Parafusos de fixação das guias MOVENTO",
@@ -16483,15 +16655,16 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Selecionado método A do fabricante; contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum MOVENTO: fixação lateral",
               "url": "https://publications.blum.com/2024/catalogue/en/428/",
               "page": "428"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Gabarito MOVENTO de engates/ganchos",
@@ -16500,7 +16673,7 @@ const MODULE_GUIDANCE = {
           "unit": "ferramenta compartilhada",
           "status": "selecionado",
           "assembly": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "assemblyStatus": "compatibilização fabril",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum MOVENTO: montagem e caixa",
@@ -16512,31 +16685,32 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/en/building-a-movento-drawer/",
               "page": "passos de montagem"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Arenza nas frentes das gavetas. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Arenza nas frentes das gavetas. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Arenza nas frentes das gavetas",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2184"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Altura sob bancada instalada e curso livre diante dos gaveteiros.",
-          "method": "Cotar intradorso e reforços existentes desde o piso; registrar obstáculo frontal, cadeira e sofá na posição real de uso quando presentes.",
+          "method": "Cotar intradorso e reforços existentes desde o piso. Registrar obstáculo frontal, cadeira e sofá na posição real de uso quando presentes.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Instalação, extração e retirada das gavetas. Compatibilidade MOVENTO/caixa e reforços novos é oficina/projeto.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P16-CAMPO-R14-1",
@@ -16547,18 +16721,18 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
+        "Oficina/projeto: conferir a reserva superior 7 mm e o recorte do gancho direito. São pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
         "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Compatibilizar retirada e gancho antes de usinar.",
-        "MOVENTO400: caixa390, útil359; largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
+        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Conferir retirada e gancho antes de preparar os cortes e furos.",
+        "MOVENTO400: caixa390, útil359. Largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
         "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
       ],
       "sources": [
@@ -16599,7 +16773,8 @@ const MODULE_GUIDANCE = {
               "page": "pacote MOVENTO400"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
         },
         {
           "item": "Engates MOVENTO esquerdo e direito",
@@ -16607,7 +16782,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "par",
           "status": "selecionado",
-          "reason": "2 esquerdos +2 direitos. Discriminar no kit; não comprar novamente caso incluídos.",
+          "reason": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
           "sources": [
             {
               "title": "Blum MOVENTO760H e engates T51.7601",
@@ -16615,7 +16790,8 @@ const MODULE_GUIDANCE = {
               "page": "412"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
           "item": "Parafusos de fixação das guias MOVENTO",
@@ -16623,7 +16799,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Selecionado método A do fabricante; contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
+          "reason": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
           "sources": [
             {
               "title": "Blum MOVENTO: fixação lateral",
@@ -16631,7 +16807,8 @@ const MODULE_GUIDANCE = {
               "page": "428"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Gabarito MOVENTO de engates/ganchos",
@@ -16652,20 +16829,22 @@ const MODULE_GUIDANCE = {
               "page": "passos de montagem"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Carcaça do escritório fixa, frentes reguláveis",
+          "item": "Estrutura do armário do escritório fixa, frentes reguláveis",
           "reference": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; guias/frentes com o sistema de gaveta selecionado",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         }
       ],
       "drilling": [
@@ -16678,7 +16857,7 @@ const MODULE_GUIDANCE = {
           "diameter": null,
           "depth": null,
           "fastener": "609.1500 Ø3,5×15",
-          "status": "gabarito documentado; mapa por lateral pendente",
+          "status": "gabarito documentado. Mapa por lateral pendente",
           "releaseCondition": "Resolver 1 mm de folga sob tampo frente a 7 mm exigidos e interferências locais 0,125–0,175 mm antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
           "sources": [
             {
@@ -16704,7 +16883,7 @@ const MODULE_GUIDANCE = {
           "depth": 10,
           "fastener": "T51.7601 e ganchosMOVENTO",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modeloexato para recorte e engates; confirmar gancho direito sem interferência e retirada completa. Não aplicarØ7FGVTN.",
+          "releaseCondition": "Usar gabarito do modeloexato para recorte e engates. Confirmar gancho direito sem interferência e retirada completa. Não aplicarØ7FGVTN.",
           "sources": [
             {
               "title": "Blum MOVENTO: montagem e caixa",
@@ -16720,7 +16899,7 @@ const MODULE_GUIDANCE = {
           "id": "P16-F02"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca367",
             "Peca368",
@@ -16735,7 +16914,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; guias/frentes com o sistema de gaveta selecionado",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -16744,19 +16923,19 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
         "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
       ],
       "projectChecks": [
-        "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
+        "Oficina/projeto: conferir a reserva superior 7 mm e o recorte do gancho direito. São pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída. Interferências e folga superior continuam abertas.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601. Variante FGVTN400 excluída. Interferências e folga superior continuam abertas.",
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -16769,7 +16948,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P16-furacao.csv",
-      "technicalSummary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa; corrigir interferências antes de usinar.",
+      "technicalSummary": "Duas gavetas com corrediças MOVENTO, da marca Blum. Corrija os pontos de colisão antes de fabricar.",
       "panelGroups": [
         {
           "id": "Peca367",
@@ -16785,7 +16964,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca367 (Lateral direita027)",
           "finishComplete": false,
-          "remainingFinish": "Arenza aprovado explicitamente nas frentes; padrão comercial da face lateral aparente da caixa não individualizado. wood é referência CAD.",
+          "remainingFinish": "Arenza aprovado explicitamente nas frentes. Padrão comercial da face lateral aparente da caixa não individualizado. Wood é referência CAD.",
           "quantity": 2,
           "ids": [
             "Peca367",
@@ -17071,23 +17250,23 @@ const MODULE_GUIDANCE = {
   },
   "P17": {
     "hardware": [
-      "Ligações dos painéis da carcaça: Minifix15 nos encontros internos18 elegíveis; Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: Minifix15 nos encontros internos18 elegíveis. Confirmat7×50 + cavilhaØ8×30 no fundo oculto · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado"
     ],
     "pending": [
-      "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+      "Desencontrar ligações em divisórias18. O centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e fixação na parede.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Off-white fosco. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Off-white fosco. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P17",
       "matriz",
@@ -17098,7 +17277,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P17",
-      "name": "Aéreo do escritório",
+      "name": "Armário superior do escritório",
       "room": "escritorio",
       "dimensions": [
         2000.0,
@@ -17331,32 +17510,34 @@ const MODULE_GUIDANCE = {
       ],
       "hardwareRows": [
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Minifix15 nos encontros internos18 elegíveis; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Desencontrar ligações em divisórias18. O centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e fixação na parede. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -17364,8 +17545,8 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -17383,23 +17564,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -17407,7 +17590,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -17420,15 +17603,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 32,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -17446,31 +17630,32 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Off-white fosco. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Off-white fosco. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Off-white fosco",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:2012"
         }
       ],
       "fieldChecks": [
         {
-          "measure": "Faixa livre da parede, prumo e tomadas do aéreo do escritório.",
-          "method": "Medir largura e alturas nos extremos; cotar tomada por centro/contorno e obstáculos instalados.",
+          "measure": "Faixa livre da parede, prumo e tomadas do armário superior do escritório.",
+          "method": "Medir largura e alturas nos extremos. Cotar tomada por centro/contorno e obstáculos instalados.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Cota de montagem e ancoragem.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Medida de montagem e ancoragem.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P17-CAMPO-R14-1",
@@ -17480,11 +17665,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Altura ocupada por monitores/equipamentos existentes sob o aéreo.",
-          "method": "Registrar os envelopes reais e a posição de uso em relação à bancada instalada.",
+          "measure": "Altura ocupada por monitores/equipamentos existentes sob o armário superior.",
+          "method": "Registrar os volumes do desenho reais e a posição de uso em relação à bancada instalada.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Conferência de acesso/giro. Se os produtos não estão instalados, sua seleção/dimensão é conferência de produto.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P17-CAMPO-R14-2",
@@ -17494,11 +17679,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-ESCRITORIO",
@@ -17510,20 +17695,20 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Desencontrar ligações em divisórias18. O centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "assembly": [
         "Portas convencionais de abrir, perfil na borda e amortecimento foram escolhidos.",
-        "Apoios de 18 mm e centro duplo de 36 mm dependem das uniões e da suspensão, não são montantes até o piso.",
-        "Divisor centralduplo36 preservado; divisórias18 não são montantes até piso.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça."
+        "Apoios de 18 mm e centro duplo de 36 mm dependem das uniões e da fixação na parede, não são montantes até o piso.",
+        "Divisor centralduplo36 preservado. Divisórias18 não são montantes até piso.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -17546,7 +17731,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -17565,15 +17750,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -17581,7 +17767,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -17589,7 +17776,7 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -17602,15 +17789,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 32,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -17628,36 +17816,39 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Aéreo com divisores fixos e faces aparentes íntegras",
+          "item": "Armário superior com divisores fixos e partes visíveis íntegras",
           "reference": "Minifix15 nos encontros internos18 elegíveis; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Desencontrar ligações em divisórias18. O centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e fixação na parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R11",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R11",
           "partIds": [
             "FrenteComumR11"
           ],
@@ -17667,8 +17858,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -17697,7 +17888,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F01"
         },
         {
-          "item": "Canecos — Frente Comum R012",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R012",
           "partIds": [
             "FrenteComumR012"
           ],
@@ -17707,8 +17898,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -17737,7 +17928,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F02"
         },
         {
-          "item": "Canecos — Frente Comum R013",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R013",
           "partIds": [
             "FrenteComumR013"
           ],
@@ -17747,8 +17938,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -17777,7 +17968,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F03"
         },
         {
-          "item": "Canecos — Frente Comum R014",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R014",
           "partIds": [
             "FrenteComumR014"
           ],
@@ -17787,8 +17978,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -17817,7 +18008,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F04"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR11",
             "FrenteComumR012",
@@ -17831,7 +18022,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -17847,7 +18038,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F05"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -17855,8 +18046,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -17872,7 +18063,7 @@ const MODULE_GUIDANCE = {
           "id": "P17-F06"
         },
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "ApoioComumR001",
             "ApoioComumR002",
@@ -17891,7 +18082,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Minifix15 nos encontros internos18 elegíveis; Confirmat7×50 + cavilhaØ8×30 no fundo oculto",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -17900,21 +18091,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Desencontrar ligações em divisórias18. O centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e fixação na parede.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
         {
@@ -18073,7 +18264,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P17-furacao.csv",
-      "technicalSummary": "Blum nas quatro portas. Ligações das divisórias e distribuição da suspensão continuam específicas.",
+      "technicalSummary": "Armário com quatro portas e dobradiças da marca Blum. Falta detalhar as uniões internas e a fixação na parede.",
       "panelGroups": [
         {
           "id": "Peca384",
@@ -18335,32 +18526,32 @@ const MODULE_GUIDANCE = {
   },
   "P18": {
     "hardware": [
-      "Confirmat de união do quadro: 7 ×50; referência de tipo GTV WK-CF0750-01 · Selecionado em projeto; conferir usinagem",
-      "Cavilhas da união permanente do quadro: Ø8 ×30 · Selecionado em projeto; conferir usinagem",
-      "Parafusos de retirada do quadro: M6 ×100, cabeça nominalØ10 ×6 · Selecionado em projeto; conferir usinagem",
-      "Porcas transversais: Häfele264.82.014 como referência dimensional M6 Ø10 ×14 · Selecionado em projeto; conferir usinagem",
-      "Cavilhas da interface desmontável: Ø8 ×30 · Selecionado em projeto; conferir usinagem",
+      "Confirmat de união do quadro: 7 ×50. Referência de tipo GTV WK-CF0750-01 · Selecionado em projeto. Conferir preparação das peças",
+      "Cavilhas da união permanente do quadro: Ø8 ×30 · Selecionado em projeto. Conferir preparação das peças",
+      "Parafusos de retirada do quadro: M6 ×100, cabeça nominalØ10 ×6 · Selecionado em projeto. Conferir preparação das peças",
+      "Porcas transversais: Häfele264.82.014 como referência dimensional M6 Ø10 ×14 · Selecionado em projeto. Conferir preparação das peças",
+      "Cavilhas da união entre peças desmontável: Ø8 ×30 · Selecionado em projeto. Conferir preparação das peças",
       "Batentes de curso: Propostas dimensionais próprias, não acessórios homologados RO25 · candidato",
-      "Parafusos do calço traseiro: 4 ×50 · candidato",
-      "Ligações dos painéis da carcaça: 4 Confirmat7×50 +4 cavilhasØ8×30 permanentes;4 M6×100 +4 porcas264.82.014 e4 cavilhasØ8×30 na interface desmontável · Estratégia selecionada; mapa parcial",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Parafusos da base de fixação traseiro: 4 ×50 · candidato",
+      "Uniões das chapas do armário: 4 Confirmat7×50 +4 cavilhasØ8×30 permanentes;4 M6×100 +4 porcas264.82.014 e4 cavilhasØ8×30 na união entre peças desmontável · Estratégia selecionada. Mapa parcial",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Kits RO25 para uma folha: RometalRO25, montagem sobreposta no conjuntoBC43 · selecionado",
       "Trilhos BC43: RometalRM026 · selecionado",
       "Parafusos RO25: Ø3,5×12 CF · selecionado"
     ],
     "pending": [
-      "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
+      "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
       "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
       "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-      "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
-      "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
-      "Oficina: calibrar piloto dos 24 parafusos no lote de chapa; não usar o 2,5×10 ilustrativo como dado do fabricante.",
-      "Oficina: manter as 4 fixações M6 acessíveis; oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+      "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra.",
+      "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43. Confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir preparação das peças.",
+      "Oficina: calibrar piloto dos 24 parafusos no lote de chapa. Não usar o 2,5×10 ilustrativo como dado do fabricante.",
+      "Oficina: manter as 4 fixações M6 acessíveis. Oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
       "Conferir gabaritos de cuba/válvula/sifão, retirada do quadro e acesso à ferramenta em pré-montagem."
     ],
-    "finish": "Interiores Branco TX. Frentes Arauco Beige Matt; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Frentes Arauco Beige Matt. Laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026. Amostra, material da base e composição ainda técnicos.",
     "documentIds": [
       "ficha-P18",
       "matriz",
@@ -18414,7 +18605,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1
         },
         {
@@ -18431,7 +18622,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1
         },
         {
@@ -18448,7 +18639,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1
         },
         {
@@ -18465,7 +18656,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1
         },
         {
@@ -18560,70 +18751,75 @@ const MODULE_GUIDANCE = {
           "reference": "7 ×50; referência de tipo GTV WK-CF0750-01",
           "quantity": 4,
           "unit": "unidade",
-          "status": "Selecionado em projeto; conferir usinagem",
-          "assembly": "1por extremidade da base/topo; pré-furo escalonado conforme chapa/parafuso.",
+          "status": "Selecionado em projeto. Conferir preparação das peças",
+          "assembly": "1por extremidade da base/topo. Pré-furo escalonado conforme chapa/parafuso.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Cavilhas da união permanente do quadro",
           "reference": "Ø8 ×30",
           "quantity": 4,
           "unit": "unidade",
-          "status": "Selecionado em projeto; conferir usinagem",
-          "assembly": "Alinham os encontros fixos do quadro; distintas das cavilhas de desmontagem.",
+          "status": "Selecionado em projeto. Conferir preparação das peças",
+          "assembly": "Alinham os encontros fixos do quadro. Distintas das cavilhas de desmontagem.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos de retirada do quadro",
           "reference": "M6 ×100, cabeça nominalØ10 ×6",
           "quantity": 4,
           "unit": "unidade",
-          "status": "Selecionado em projeto; conferir usinagem",
-          "assembly": "Acessos frontais; rebaixoØ11 ×6 é de estudo; conferir rosca útil.",
+          "status": "Selecionado em projeto. Conferir preparação das peças",
+          "assembly": "Acessos frontais. RebaixoØ11 ×6 é de estudo. Conferir rosca útil.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Porcas transversais",
           "reference": "Häfele264.82.014 como referência dimensional M6 Ø10 ×14",
           "quantity": 4,
           "unit": "unidade",
-          "status": "Selecionado em projeto; conferir usinagem",
+          "status": "Selecionado em projeto. Conferir preparação das peças",
           "assembly": "Alojadas nas laterais;4mm nominais de madeira remanescente não comprovam resistência.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Cavilhas da interface desmontável",
+          "item": "Cavilhas da união entre peças desmontável",
           "reference": "Ø8 ×30",
           "quantity": 4,
           "unit": "unidade",
-          "status": "Selecionado em projeto; conferir usinagem",
-          "assembly": "15mm por peça; colar somente no quadro, preservando retirada.",
+          "status": "Selecionado em projeto. Conferir preparação das peças",
+          "assembly": "15mm por peça. Colar somente no quadro, preservando retirada.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Batentes de curso",
@@ -18637,49 +18833,53 @@ const MODULE_GUIDANCE = {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
-          "item": "Parafusos do calço traseiro",
+          "item": "Parafusos da base de fixação traseiro",
           "reference": "4 ×50",
           "quantity": 2,
           "unit": "unidade",
           "status": "candidato",
-          "assembly": "Penetração nominal15na lateral,3mm restantes; cabeças sob pad removível.",
+          "assembly": "Penetração nominal15na lateral,3mm restantes. Cabeças sob pad removível.",
           "evidence": [
             {
               "path": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
               "trecho": "Peças e uniões propostas — mm | Item | Quantidade | Dimensão / observação | |---|---:|---| | Montantes do quadro | 2 | 18 × 70 × 543 | | Base e topo do quadro | 2 | 564 × 70 × 18; entre os montantes | | Folhas | 2 | 292 × 500 × 18; transpasse24 | | Confirmat de união do quadro | 4 | 7 × 50; um por extremidade da base/topo | | Cavilhas de união permanente do quadro | 4 | Ø8 × 30; completam a orientação dos encontros | | Parafusos de retirada do conjunto | 4 | M6 × 100; cabeça cilíndrica nominalØ10 ×6; rebaixoØ11 ×6 no estudo | | Porcas transversais | 4 | M6, Ø10 ×14; referência dimensional Häfele264.82.014 | | Cavilhas na interface desmontável | 4 | Ø8 ×30;15 em cada peça; colar apenas no quadro | | Kits RO25 | 2 | Cada um:2 carros e2 guias, conforme manual Rev11 | | Trilhos RM026 | 4 | 564; dois inferiores e dois superiores | | Parafusos das ferragens RO25 | 24 | 3,5 ×12 CF:4 por carro e2 por guia no detalhamento | | Batentes | 4 | Contatos de fim de curso, um com prolongamento de35 para manter a cava traseira visível; três pads2 colados; o calço traseiro35 + pad2 recebe2 parafusos4×50 | O calço traseiro recebe dois parafusos4×50, eixosY4860/Z465/475, pela faceX2813 em direção à lateral esquerda;15 de penetração nominal na lateral, deixando3 até o exterior. As cabeças ficam sob o pad removível. Pré-furar conforme chapa, sem colar o conjunto frontal à caixa. Os batentes são propostas dimensionais, não acessórios homologados RO25. Não substituir a retenção própria do sistema por um simples batente. Montar e regular conforme o kit real. Não foi localizado STEP oficial; carros e guias continuam identificados como envelopes. ## Cotas das fixações Sistema global da R42: X transversal; Y cresce para o fundo; Z é altura sobre piso. Face frontal do quadro Y4820, junta quadro/caixa Y4890. - Quatro M6: X2771/3349, Z260/680. Relativo à face externa esquerda do quadro: X11/589; alturas60/480 a partir de sua base. Cabeças rebaixadas pela frente. Furo passante ilustrativoØ6,5. Verificar comprimento de rosca útil no parafuso escolhido. - Porcas: eixo Y4915,25 atrás da junta; furo"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "4 Confirmat7×50 +4 cavilhasØ8×30 permanentes;4 M6×100 +4 porcas264.82.014 e4 cavilhasØ8×30 na interface desmontável",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Kits RO25 para uma folha",
@@ -18687,8 +18887,8 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "assembly": "Cada kit 2 carros+2 guias, já incluídos; folhas 292×500×18 e transpasse 24 mm. Seleção da função/código fechada; seção e rebaixos precisam confronto de primeira peça.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Cada kit 2 carros+2 guias, já incluídos. Folhas 292×500×18 e transpasse 24 mm. Seleção da função/código fechada. Seção e rebaixos precisam confronto de primeira peça.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -18696,7 +18896,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
-          ]
+          ],
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos BC43",
@@ -18705,7 +18906,7 @@ const MODULE_GUIDANCE = {
           "unit": "trecho564mm",
           "status": "selecionado",
           "assembly": "2 superiores +2 inferiores;2256 mm de perfil nominal, antes da otimização dasbarras. Rasgo 8×8 da R43 não vira largura comercial do perfil.",
-          "assemblyStatus": "compatibilização fabril",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -18713,7 +18914,8 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos RO25",
@@ -18721,8 +18923,8 @@ const MODULE_GUIDANCE = {
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "4 por carro×4 carros +2 por guia×4 guias. Escolha documentada; piloto não éØ3,5.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "4 por carro×4 carros +2 por guia×4 guias. Escolha documentada. Piloto não éØ3,5.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -18730,31 +18932,32 @@ const MODULE_GUIDANCE = {
               "page": "1–2",
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
-          ]
+          ],
+          "explanation": ""
         }
       ],
-      "finishSummary": "Interiores Branco TX. Frentes Arauco Beige Matt; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Frentes Arauco Beige Matt. Laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026. Amostra, material da base e composição ainda técnicos.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Arauco Beige Matt nas frentes; Arauco Louro Freijó Poro nas laterais",
-          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "status": "Códigos aprovados por Elias em 24/10/2026. Amostra a conferir",
           "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Parede, intradorso da pedra e hidráulica existentes do banheiro.",
-          "method": "Cotar centros/projeções de engates e sifão; largura/profundidade acabadas e altura inferior da pedra nos dois lados.",
+          "method": "Cotar centros/projeções de engates e sifão. Largura/profundidade acabadas e altura inferior da pedra nos dois lados.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Recortes e instalação. O recorte Ø100 do estudo não é ordem de corte.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P18-CAMPO-R14-1",
@@ -18765,10 +18968,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Percurso frontal de retirada do quadro junto ao vaso e à porta.",
-          "method": "Cotar obstáculos e giro da porta; testar gabarito do quadro inteiro na trajetória de saída, com acesso à ferramenta nos quatro M6.",
+          "method": "Cotar obstáculos e giro da porta. Testar gabarito do quadro inteiro na trajetória de saída, com acesso à ferramenta nos quatro M6.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Manutenção sem desmontar a pedra; preservar a junta removível sem cola.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "affects": "Manutenção sem desmontar a pedra. Preservar a junta removível sem cola.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P18-CAMPO-R14-2",
@@ -18778,11 +18981,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-BANHO",
@@ -18794,25 +18997,25 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
+        "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
         "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
-        "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
-        "Oficina: calibrar piloto dos 24 parafusos no lote de chapa; não usar o 2,5×10 ilustrativo como dado do fabricante.",
-        "Oficina: manter as 4 fixações M6 acessíveis; oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra.",
+        "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43. Confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir preparação das peças.",
+        "Oficina: calibrar piloto dos 24 parafusos no lote de chapa. Não usar o 2,5×10 ilustrativo como dado do fabricante.",
+        "Oficina: manter as 4 fixações M6 acessíveis. Oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
         "Conferir gabaritos de cuba/válvula/sifão, retirada do quadro e acesso à ferramenta em pré-montagem."
       ],
       "assembly": [
-        "No estudo BC43, retirar o quadro frontal inteiro pelas quatro uniões M6; não colar/selar permanentemente a junta desmontável.",
-        "Proteger bordas, cavas e furos da umidade com acabamento compatível a especificar; ferragens continuam condicionais.",
-        "Usar vão frontal 507 mm; não propagar 509 mm de referências históricas como abertura livre atual.",
-        "Montar cantos do quadro em bancada; manutenção habitual retira apenas4M6frontais. Não colar ou selar permanentemente a junta desmontável.",
-        "Prever tampas de acabamento removíveis sobre os4acessosM6; não estão modeladas e não devem impedir a ferramenta.",
-        "Vão frontal507 e folhas500 seguem regra−7. O interior histórico509 não substitui o vão frontal; manter essa distinção.",
-        "Guias e carros para a face interna. Cavas18 ×80 ×6 evitam pega saliente; fechar retenção pelo kit real, não apenas pelos batentes."
+        "No estudo BC43, retirar o quadro frontal inteiro pelas quatro uniões M6. Não colar/selar permanentemente a junta desmontável.",
+        "Proteger bordas, cavas e furos da umidade com acabamento compatível a especificar. Ferragens continuam condicionais.",
+        "Usar vão frontal 507 mm. Não propagar 509 mm de referências históricas como abertura livre atual.",
+        "Montar cantos do quadro em bancada. Manutenção habitual retira apenas4M6frontais. Não colar ou selar permanentemente a junta desmontável.",
+        "Prever tampas de acabamento removíveis sobre os4acessosM6. Não estão modeladas e não devem impedir a ferramenta.",
+        "Vão frontal507 e folhas500 seguem regra−7. O interior histórico509 não substitui o vão frontal. Manter essa distinção.",
+        "Guias e carros para a face interna. Cavas18 ×80 ×6 evitam pega saliente. Fechar retenção pelo kit real, não apenas pelos batentes."
       ],
       "sources": [
         "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
@@ -18834,7 +19037,7 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "kit",
           "status": "selecionado",
-          "reason": "Cada kit 2 carros+2 guias, já incluídos; folhas 292×500×18 e transpasse 24 mm. Seleção da função/código fechada; seção e rebaixos precisam confronto de primeira peça.",
+          "reason": "Cada kit 2 carros+2 guias, já incluídos. Folhas 292×500×18 e transpasse 24 mm. Seleção da função/código fechada. Seção e rebaixos precisam confronto de primeira peça.",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -18843,7 +19046,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Sistema para as portas deslizarem nos trilhos."
         },
         {
           "item": "Trilhos BC43",
@@ -18860,7 +19064,8 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Parafusos RO25",
@@ -18868,7 +19073,7 @@ const MODULE_GUIDANCE = {
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "4 por carro×4 carros +2 por guia×4 guias. Escolha documentada; piloto não éØ3,5.",
+          "reason": "4 por carro×4 carros +2 por guia×4 guias. Escolha documentada. Piloto não éØ3,5.",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -18877,101 +19082,109 @@ const MODULE_GUIDANCE = {
               "local": "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/RO25_Rev11.pdf"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": ""
         },
         {
           "item": "Quadro frontal permanente, retirada completa por quatro M6",
           "reference": "4 Confirmat7×50 +4 cavilhasØ8×30 permanentes;4 M6×100 +4 porcas264.82.014 e4 cavilhasØ8×30 na interface desmontável",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos de união permanente do quadro",
           "reference": "Confirmat GTV WK-CF0750-01 7×50",
           "quantity": 4,
           "unit": "unidades",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Instalar em bancada; não são os parafusos de manutenção.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Instalar em bancada. Não são os parafusos de manutenção.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
             "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
           "item": "Cavilhas da união permanente do quadro",
           "reference": "Ø8×30, madeira estriada",
           "quantity": 4,
           "unit": "unidades",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Orientar encontros fixos, independentes das4 cavilhas desmontáveis.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
             "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Parafusos de retirada do quadro",
           "reference": "M6×100, cabeça nominalØ10×6",
           "quantity": 4,
           "unit": "unidades",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Selecionado comprimento nominal do estudo; conferir rosca útil e cabeça da peça recebida.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Selecionado comprimento nominal do estudo. Conferir rosca útil e cabeça da peça recebida.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
             "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Porcas transversais da retirada",
           "reference": "Häfele264.82.014 M6 Ø10×14",
           "quantity": 4,
           "unit": "unidades",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "Orientar rosca transversal no eixo do M6;4mm remanescentes nominais não comprovam resistência.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
             "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         },
         {
-          "item": "Cavilhas da interface desmontável",
+          "item": "Cavilhas da união entre peças desmontável",
           "reference": "Ø8×30, madeira estriada",
           "quantity": 4,
           "unit": "unidades",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Engaste15 por lado; colar só no quadro, sem colar junta desmontável.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Engaste15 por lado. Colar só no quadro, sem colar junta desmontável.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
             "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
@@ -18986,8 +19199,8 @@ const MODULE_GUIDANCE = {
           "diameter": 32,
           "depth": 10,
           "fastener": "3,5×12 CF nos pilotos",
-          "status": "mapa nominal pelo manual; variante a conferir na primeira peça",
-          "releaseCondition": "OØ32×10 ébolsão do carro, não os 8 pilotos. O manual distingue implantação embutida/sobreposta; conferir produto e necessidade do bolsão antes de usinar. Piloto 2,5×10 da R43 era ilustrativo e não foi promovido a especificação.",
+          "status": "desenho de montagem do projeto pelo manual. Variante a conferir na primeira peça",
+          "releaseCondition": "OØ32×10 ébolsão do carro, não os 8 pilotos. O manual distingue implantação embutida/sobreposta. Conferir produto e necessidade do bolsão antes de preparar os cortes e furos. Piloto 2,5×10 da R43 era ilustrativo e não foi promovido a especificação.",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -19023,8 +19236,8 @@ const MODULE_GUIDANCE = {
           "diameter": 32,
           "depth": 10,
           "fastener": "3,5×12 CF nos pilotos",
-          "status": "mapa nominal pelo manual; variante a conferir na primeira peça",
-          "releaseCondition": "OØ32×10 ébolsão do carro, não os 8 pilotos. O manual distingue implantação embutida/sobreposta; conferir produto e necessidade do bolsão antes de usinar. Piloto 2,5×10 da R43 era ilustrativo e não foi promovido a especificação.",
+          "status": "desenho de montagem do projeto pelo manual. Variante a conferir na primeira peça",
+          "releaseCondition": "OØ32×10 ébolsão do carro, não os 8 pilotos. O manual distingue implantação embutida/sobreposta. Conferir produto e necessidade do bolsão antes de preparar os cortes e furos. Piloto 2,5×10 da R43 era ilustrativo e não foi promovido a especificação.",
           "sources": [
             {
               "title": "Rometal RO25 manual 1858/rev 11",
@@ -19061,8 +19274,8 @@ const MODULE_GUIDANCE = {
           "diameter": "PassagemØ6,5 ilustrativa; rebaixoØ11",
           "depth": "Rebaixo6 mm nominal; passagem até porca emY4915",
           "fastener": "M6×100",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Conferir cabeça real, rosca útil e tolerância de passagem; teste de retirada com ferramenta compacta. Não escarear como cabeça chata.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Conferir cabeça real, rosca útil e tolerância de passagem. Teste de retirada com ferramenta compacta. Não escarear como cabeça chata.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
@@ -19083,7 +19296,7 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø10 mm",
           "depth": "14 mm cegos; sobra nominal4 mm",
           "fastener": "Häfele264.82.014",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
           "releaseCondition": "Prova de resistência/torque na chapa real. Porca centrada: eixo do M6 a7 mm da face interna. Sem atravessar exterior.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
@@ -19107,7 +19320,7 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø8 nominal",
           "depth": "15 mm em cada peça (nominal); ajuste de cola/tolerância por prova",
           "fastener": "CavilhaØ8×30",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
           "releaseCondition": "Colar somente no quadro. Conferir folga para retirada e nenhuma cola/selante permanente na junta.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
@@ -19131,8 +19344,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Pré-furo escalonado a definir com parafuso real; NÃO furarØ7 direto",
           "depth": "A definir conforme broca/cabeça/material e ponta; parafuso nominal50",
           "fastener": "GTV7×50",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Definir piloto, passagem e rebaixo no cupom da chapa; coordenadas verificadas no estudo, volume CADØ7 não é gabarito de produção.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Definir piloto, passagem e rebaixo no cupom da chapa. Coordenadas verificadas no estudo, volume CADØ7 não é gabarito de produção.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
@@ -19155,8 +19368,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø8 nominal",
           "depth": "Engastes nominais15/15; confirmar sobra até face externa e ferramenta",
           "fastener": "CavilhaØ8×30",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Montar quadro em bancada; conferir rasgos dos trilhos e validar cola/acabamento contra umidade.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Montar quadro em bancada. Conferir rasgos dos trilhos e conferir cola/acabamento contra umidade.",
           "sources": [
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Detalhamento.md",
             "01_Projeto/Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Verificacao_R02.json",
@@ -19167,30 +19380,30 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
-        "Oficina: calibrar piloto dos 24 parafusos no lote de chapa; não usar o 2,5×10 ilustrativo como dado do fabricante.",
-        "Oficina: manter as 4 fixações M6 acessíveis; oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43. Confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir preparação das peças.",
+        "Oficina: calibrar piloto dos 24 parafusos no lote de chapa. Não usar o 2,5×10 ilustrativo como dado do fabricante.",
+        "Oficina: manter as 4 fixações M6 acessíveis. Oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
         "Conferir gabaritos de cuba/válvula/sifão, retirada do quadro e acesso à ferramenta em pré-montagem."
       ],
       "projectChecks": [
-        "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
+        "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
         "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
+        "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra."
       ],
       "resolvedChecks": [
         "RO25 e 4 trechos RM026 selecionados;24 parafusos 3,5×12 CF quantificados. A primeira implantação ainda precisa conferência.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Quadro desmontável definido; 4M6,4porcas e8cavilhas separados por função; não substituir por cola permanente.",
-        "Datums do quadro e laterais explicitados; Confirmat nominal7 não convertido em brocaØ7."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
+        "Quadro desmontável definido; 4M6,4porcas e8cavilhas separados por função. Não substituir por cola permanente.",
+        "Datums do quadro e laterais explicitados. Confirmat nominal7 não convertido em brocaØ7."
       ],
       "drawings": [],
       "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P18-furacao.csv",
-      "technicalSummary": "RO25 no banheiro e quadro removível por quatro M6. Cavilhas e ligações permanentes ficam separadas da retirada.",
+      "technicalSummary": "Gabinete com portas de correr e frente removível para manutenção. Confira os trilhos, as uniões e os parafusos de fixação.",
       "panelGroups": [
         {
           "id": "Peca396",
@@ -19232,7 +19445,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1,
           "ids": [
             "BC43_LateralE"
@@ -19258,7 +19471,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1,
           "ids": [
             "BC43_LateralD"
@@ -19284,7 +19497,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1,
           "ids": [
             "BC43_Base"
@@ -19310,7 +19523,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada; escolher tecnicamente sem presumir.",
+          "remainingFinish": "Distribuição do acabamento aparente do quadro (bege da frente versus madeira lateral) não individualizada. Escolher tecnicamente sem presumir.",
           "quantity": 1,
           "ids": [
             "BC43_Travessa"
@@ -19458,29 +19671,29 @@ const MODULE_GUIDANCE = {
   "P19": {
     "hardware": [
       "Apoios das duas prateleiras: Häfele282.04.711 · Selecionado em projeto",
-      "Ligações dos painéis da carcaça: 12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados · Mapa nominal emitido em estudo separado; prova pendente",
-      "Suspensão do móvel e interface com a parede: Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
+      "Uniões das chapas do armário: 12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na estrutura do armário. Oito apoios.711 das prateleiras preservados · Desenho de montagem do projeto emitido em estudo separado. Prova pendente",
+      "Fixação na parede do móvel e união entre peças com a parede: Ligação interna acessível ao fundo/laterais. Não adotar SAH215 sem rebaixo · Detalhamento de projeto pendente",
       "Dobradiças das portas de abrir: Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada · selecionado",
-      "Calços das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
+      "Bases de fixação das dobradiças: Blum173H7100, cruz, distância0, niquelado · selecionado",
       "Limitadores de abertura 86°: Blum70T3553 · selecionado",
-      "Parafusos dos canecos e calços: Blum609.1500, Ø3,5×15 mm · selecionado",
-      "Caixas Minifix: Häfele 262.26.034 · Selecionado em projeto",
-      "Pinos Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
+      "Parafusos dos encaixes circulares das dobradiças e bases de fixação: Blum609.1500, Ø3,5×15 mm · selecionado",
+      "Conectores Minifix · peças de encaixe: Häfele 262.26.034 · Selecionado em projeto",
+      "Pinos dos conectores Minifix: Häfele S100 262.28.920 · Selecionado em projeto"
     ],
     "pending": [
-      "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha; não perfurar o espelho para instalar caneco.",
+      "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha. Não perfurar o espelho para instalar encaixe circular da dobradiça.",
       "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
-      "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-      "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-      "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
-      "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
-      "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
-      "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento."
+      "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+      "Suporte .711 ensaiado como volume do desenho, não STEP. Não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
+      "Desenho de montagem do projeto das seis uniões entre peças emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+      "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho 4 e acabamento real. A orientação de 3 mm para parede não é aprovação automática desta composição.",
+      "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra.",
+      "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+      "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada. Não furar pelo apartamento."
     ],
-    "finish": "Interiores Branco TX. Frente espelhada; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Frente espelhada. Laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026. Amostra, material da base e composição ainda técnicos.",
     "documentIds": [
       "ficha-P19",
       "matriz",
@@ -19496,7 +19709,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P19",
-      "name": "Espelheiro",
+      "name": "Armário com espelho",
       "room": "banho",
       "dimensions": [
         600.0,
@@ -19570,7 +19783,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais.",
+          "remainingFinish": "Acabamento da face inferior aparente não individualizado. Madeira clara aprovada apenas nas laterais.",
           "quantity": 1
         },
         {
@@ -19666,42 +19879,45 @@ const MODULE_GUIDANCE = {
           "quantity": 8,
           "unit": "unidade",
           "status": "Selecionado em projeto",
-          "assembly": "4por prateleira; já incluídos na necessidade anterior, não8adicionais.",
+          "assembly": "4por prateleira. Já incluídos na necessidade anterior, não8adicionais.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
               "trecho": "Duas prateleiras 560 × 104 × 18 mm, cada uma com quatro apoios Häfele 282.04.711. As folgas nominais de 2 mm em cada lateral e no fundo permanecem. Nenhuma mudança de tampa, porta ou volume interno. O catálogo do fabricante mostra haste Ø5 × 8 mm, projeção da cabeça 10 mm, largura 7,5 mm e espessura 2,7 mm. A referência vizinha 282.04.712 tem outras cotas: não misturar sua descrição com a .711. [Catálogo Häfele, página 7.154](https://assets.daro.com/HafeleLiterature/18T7-154.pdf). ## Coordenadas de montagem Coordenadas globais do modelo, em mm. Em ambas as laterais, quatro furos Ø5 cegos com profundidade proposta 8,5 mm. O datum vertical abaixo é o eixo da haste na aproximação usada; conferir a peça física antes de furar. | Superfície interna | X | Y"
             }
           ],
-          "derivation": "2 prateleiras × 4 apoios"
+          "derivation": "2 prateleiras × 4 apoios",
+          "explanation": "Apoios que seguram as prateleiras."
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Mapa nominal emitido em estudo separado; prova pendente",
-          "assembly": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis interfaces mapeadas no estudo separado; capacidade e ferramenta exigem prova.",
+          "status": "Desenho de montagem do projeto emitido em estudo separado. Prova pendente",
+          "assembly": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis uniões entre peças mapeadas no estudo separado. Capacidade e ferramenta exigem prova.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão do móvel e interface com a parede",
+          "item": "Fixação na parede do móvel e união entre peças com a parede",
           "reference": "Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo",
           "quantity": null,
           "unit": "conjunto",
           "status": "Detalhamento de projeto pendente",
-          "assembly": "Definir ferragem e ligação à caixa em projeto. Substrato e instalações ocultas são levantamento; ancoragem é dimensionada depois.",
+          "assembly": "Definir ferragem e ligação à caixa em projeto. Material da base e instalações ocultas são levantamento. Ancoragem é dimensionada depois.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
               "trecho": "Suspensão de aéreos | HettichSAH215, referência 9189903, pesquisada | Requer rebaixo posterior mínimo 16 além da face traseira do fundo. Os fundos atuais terminam na mesma face das laterais: zero reserva. Não cabe automaticamente sem mudar caixa/afastamento. | | Fixação na parede | Buchas/parafusos compatíveis com substrato real | Pendência legítima de campo. Não selecionar bucha universal como prova de carga. Conector móvel, trilho e parede são elos distintos. | ## Suspensão e caminho da carga O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiças das portas de abrir",
@@ -19709,8 +19925,8 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -19728,23 +19944,25 @@ const MODULE_GUIDANCE = {
               "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
               "page": "objetos geométricos e ferramentas de caneco"
             }
-          ]
+          ],
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
-          "assemblyStatus": "compatibilização fabril",
+          "assembly": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
+          "assemblyStatus": "conferir a montagem na oficina",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
               "url": "https://publications.blum.com/2024/catalogue/en/152/",
               "page": "152"
             }
-          ]
+          ],
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -19752,7 +19970,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "assembly": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "assemblyStatus": "montar e conferir primeira folha",
           "sources": [
             {
@@ -19765,15 +19983,16 @@ const MODULE_GUIDANCE = {
               "url": "https://ea.blum.com/oeffnungswinkelbegrenzer/",
               "page": "seção CLIP top BLUMOTION110°"
             }
-          ]
+          ],
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "assembly": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "assembly": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "assemblyStatus": "piloto e primeira peça",
           "sources": [
             {
@@ -19791,47 +20010,50 @@ const MODULE_GUIDANCE = {
               "url": "https://publications.blum.com/2024/catalogue/en/160/",
               "page": "160"
             }
-          ]
+          ],
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
-          "item": "Caixas Minifix",
+          "item": "Conectores Minifix · peças de encaixe",
           "reference": "Häfele 262.26.034",
           "quantity": 12,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Pinos Minifix",
+          "item": "Pinos dos conectores Minifix",
           "reference": "Häfele S100 262.28.920",
           "quantity": 12,
           "unit": "unidades",
           "status": "Selecionado em projeto",
-          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação; validar na chapa real."
+          "assembly": "Um conjunto por caixa + pino. Posições nominais na seção de furação. Conferir na chapa real.",
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Frente espelhada; laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026; amostra, substrato e composição ainda técnicos.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Frente espelhada. Laterais aparentes Arauco Louro Freijó Poro. Códigos aprovados em 24/10/2026. Amostra, material da base e composição ainda técnicos.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Espelho na frente; Arauco Louro Freijó Poro nas laterais",
-          "status": "Códigos aprovados por Elias em 24/10/2026; amostra a conferir",
+          "status": "Códigos aprovados por Elias em 24/10/2026. Amostra a conferir",
           "evidence": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json"
         }
       ],
       "fieldChecks": [
         {
           "measure": "Posição instalada da cuba/torneira e faixa livre do espelheiro.",
-          "method": "Cotar centro e volume ocupado pela torneira, cota da cuba e extremos livres; conferir giro com gabarito de frente.",
+          "method": "Cotar centro e volume ocupado pela torneira, medida da cuba e extremos livres. Conferir giro com gabarito de frente.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Altura de instalação e colisões com as portas.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P19-CAMPO-R14-1",
@@ -19842,10 +20064,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Saída elétrica e desvio da parede atrás do espelheiro.",
-          "method": "Registrar centro/contorno da saída e desvios com laser; identificar acesso de manutenção e saliências.",
+          "method": "Registrar centro/contorno da saída e desvios com laser. Identificar acesso de manutenção e saliências.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Iluminação, montagem e faixa de ancoragem.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P19-CAMPO-R14-2",
@@ -19855,11 +20077,11 @@ const MODULE_GUIDANCE = {
           ]
         },
         {
-          "measure": "Substrato e faixa efetiva de ancoragem; instalações ocultas nas paredes utilizadas.",
-          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações; a simples ausência de indicação visual não comprova parede livre.",
+          "measure": "Material da base e faixa efetiva de ancoragem. Instalações ocultas nas paredes utilizadas.",
+          "method": "Confrontar documentação da construção com inspeção do local. Registrar material, espessura verificável e zonas com instalações. A simples ausência de indicação visual não comprova parede livre.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Escolha técnica posterior de bucha/parafuso/posição; quantitativo depende do sistema de suspensão e cargas do projeto.",
-          "acceptance": "Identificação do substrato e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
+          "affects": "Escolha técnica posterior de bucha/parafuso/posição. Quantitativo depende do sistema de fixação na parede e cargas do projeto.",
+          "acceptance": "Identificação do material da base e zona de fixação deve sustentar a escolha da ancoragem. Nenhuma bucha universal, carga ou profundidade foi aprovada nas fontes locais.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "sharedCheckId": "PAREDE-BANHO",
@@ -19871,27 +20093,27 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha; não perfurar o espelho para instalar caneco.",
+        "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha. Não perfurar o espelho para instalar encaixe circular da dobradiça.",
         "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-        "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
-        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento."
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Suporte .711 ensaiado como volume do desenho, não STEP. Não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
+        "Desenho de montagem do projeto das seis uniões entre peças emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho 4 e acabamento real. A orientação de 3 mm para parede não é aprovação automática desta composição.",
+        "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra.",
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada. Não furar pelo apartamento."
       ],
       "assembly": [
-        "Porta em madeira e espelho são camadas diferentes; a espessura geométrica da chapa não inclui automaticamente o vidro.",
-        "Prateleiras removíveis preservam folgas nominais de 2 mm; oito apoios Häfele .711 selecionados. Carga da prateleira e ancoragem continuam em projeto.",
-        "HasteØ5×8; cabeça10×7,5×2,7. Furos cegos propostosØ5×8,5; folgas2mm laterais/fundo preservadas.",
-        "Prateleiras560 ×104 ×18; lateraisY5184/5250, níveisZ1394/1638no estudo. Conferir datum real da haste antes de furar.",
-        "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
-        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta no calço. Regular e confirmar 86° na primeira peça.",
-        "Montar fundo/base/topo entre laterais; encaixar S100 e travar Minifix pelo interior antes das prateleiras e portas. Provar sequência e acesso em caixa-piloto.",
-        "Manter as duas prateleiras removíveis e as folgas de 2 mm. O novo mapa não dimensiona suspensão nem adesivo/retentor de espelho."
+        "Porta em madeira e espelho são camadas diferentes. A espessura geométrica da chapa não inclui automaticamente o vidro.",
+        "Prateleiras removíveis preservam folgas nominais de 2 mm. Oito apoios Häfele .711 selecionados. Carga da prateleira e ancoragem continuam em projeto.",
+        "HasteØ5×8. Cabeça10×7,5×2,7. Furos cegos propostosØ5×8,5. Folgas2mm laterais/fundo preservadas.",
+        "Prateleiras560 ×104 ×18. LateraisY5184/5250, níveisZ1394/1638no estudo. Conferir ponto de referência para medir real da haste antes de furar.",
+        "Preparar os cortes e furos pelo ID da folha. Encaixe circular da dobradiça 35×13 deixa 5 mm nominais em chapa 18. Na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
+        "Instalar 70T3553 com a dobradiça fechada, antes de encaixar a porta na base de fixação. Regular e confirmar 86° na primeira peça.",
+        "Montar fundo/base/topo entre laterais. Encaixar S100 e travar conectores Minifix pelo interior antes das prateleiras e portas. Provar sequência e acesso em caixa-piloto.",
+        "Manter as duas prateleiras removíveis e as folgas de 2 mm. O novo mapa não dimensiona fixação na parede nem adesivo/retentor de espelho."
       ],
       "sources": [
         "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
@@ -19915,7 +20137,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Família selecionada para conservar a cinemática estudada e usar limitador comercial compatível. Quantidade nominal mantida; peso acabado e retenção da chapa são conferências da oficina.",
+          "reason": "Dobradiça escolhida para manter a abertura prevista e usar um limitador compatível. Confira o peso da porta pronta e a firmeza dos parafusos na chapa.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -19934,15 +20156,16 @@ const MODULE_GUIDANCE = {
               "page": "objetos geométricos e ferramentas de caneco"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
         },
         {
-          "item": "Calços das dobradiças",
+          "item": "Bases de fixação das dobradiças",
           "reference": "Blum173H7100, cruz, distância0, niquelado",
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Um por dobradiça; não substituir por 175H3100 reto nem pelo calço FGVTN.",
+          "reason": "Um por dobradiça. Não substituir por 175H3100 reto nem pela base de fixação FGVTN.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -19950,7 +20173,8 @@ const MODULE_GUIDANCE = {
               "page": "152"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "assemblyStatus": "conferir a montagem na oficina",
+          "explanation": "Bases que prendem as dobradiças ao armário."
         },
         {
           "item": "Limitadores de abertura 86°",
@@ -19958,7 +20182,7 @@ const MODULE_GUIDANCE = {
           "quantity": 6,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "Diretriz R14: limitar todas as 24 folhas de abrir a 86°, preservando o curso verificado no projeto. Por esta decisão explícita, equipar todas as dobradiças de cada folha; não é multiplicação automática de uma opção indefinida.",
+          "reason": "As 24 portas de abrir terão abertura limitada a 86°. Instale o limitador em todas as dobradiças de cada porta.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -19971,15 +20195,16 @@ const MODULE_GUIDANCE = {
               "page": "seção CLIP top BLUMOTION110°"
             }
           ],
-          "assemblyStatus": "montar e conferir primeira folha"
+          "assemblyStatus": "montar e conferir primeira folha",
+          "explanation": "Peças que limitam o quanto a porta pode abrir."
         },
         {
-          "item": "Parafusos dos canecos e calços",
+          "item": "Parafusos dos encaixes circulares das dobradiças e bases de fixação",
           "reference": "Blum609.1500, Ø3,5×15 mm",
           "quantity": 24,
           "unit": "unidade",
           "status": "selecionado",
-          "reason": "2 por caneco +2 por calço; quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
+          "reason": "2 por encaixe circular da dobradiça +2 por base de fixação. Quatro por dobradiça. Comprimento 15 escolhido para os painéis 18. Não somar parafuso de sistema 6 mm ou variantes INSERTA.",
           "sources": [
             {
               "title": "Blum 71B3550: catálogo 2024/2025",
@@ -19997,47 +20222,51 @@ const MODULE_GUIDANCE = {
               "page": "160"
             }
           ],
-          "assemblyStatus": "piloto e primeira peça"
+          "assemblyStatus": "piloto e primeira peça",
+          "explanation": "Parafusos para prender as dobradiças e suas bases."
         },
         {
           "item": "Prateleiras removíveis e caixa fixa",
           "reference": "12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados",
           "quantity": 12,
           "unit": "conjuntos Minifix",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis interfaces mapeadas no estudo separado; capacidade e ferramenta exigem prova.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Substitui a estratégia genérica Confirmat/cavilha da caixa por uniões acessíveis pelo interior, sem cabeças nas laterais aparentes. Seis uniões entre peças mapeadas no estudo separado. Capacidade e ferramenta exigem prova.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
-          ]
+          ],
+          "explanation": "Conectores que unem as chapas e permitem desmontar o móvel."
         },
         {
-          "item": "Suspensão sem deslocar a caixa",
+          "item": "Fixação na parede sem deslocar a caixa",
           "reference": "Projeto de ligação interna ao fundo18 e laterais; excluir SAH215 na geometria atual",
           "quantity": null,
           "unit": "conjunto",
-          "status": "Estratégia selecionada; componente e seção pendentes de projeto",
-          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível; dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
+          "status": "Solução escolhida. Falta definir a peça e suas medidas.",
+          "reason": "SAH215 exige rebaixo16 ausente. Priorizar fixação interna acessível e reforço compatível. Dimensionar conector e parafusos da caixa antes de selecionar ancoragem de parede.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Apoio das duas prateleiras removíveis",
           "reference": "Häfele282.04.711 niquelado",
           "quantity": 8,
           "unit": "pinos",
-          "status": "Selecionado no projeto; validar em oficina",
-          "reason": "Escolhida a referência .711, não a .712. Quatro por prateleira; preservadas folgas laterais e fundo2.",
+          "status": "Escolhido no projeto. Testar na oficina.",
+          "reason": "Escolhida a referência .711, não a .712. Quatro por prateleira. Preservadas folgas laterais e fundo2.",
           "sources": [
             "https://assets.daro.com/HafeleLiterature/18T7-154.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md"
-          ]
+          ],
+          "explanation": "Apoios que seguram as prateleiras."
         }
       ],
       "drilling": [
         {
-          "item": "Canecos — Frente Comum R019",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R019",
           "partIds": [
             "FrenteComumR019"
           ],
@@ -20047,8 +20276,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -20081,7 +20310,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F01"
         },
         {
-          "item": "Canecos — Frente Comum R020",
+          "item": "Encaixes circulares das dobradiças — Frente Comum R020",
           "partIds": [
             "FrenteComumR020"
           ],
@@ -20091,8 +20320,8 @@ const MODULE_GUIDANCE = {
           "diameter": 35,
           "depth": 13,
           "fastener": "2×609.1500 por caneco",
-          "status": "mapa nominal extraído da R45",
-          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir; coordenadas CAD não descontam fita.",
+          "status": "desenho de montagem do projeto extraído da R45",
+          "releaseCondition": "Confirmar mão/orientação do ID, borda acabada e regulagem em uma primeira folha antes de repetir. Coordenadas CAD não descontam fita.",
           "sources": [
             {
               "title": "R45 canônica, XML lido sem modificar o modelo",
@@ -20125,7 +20354,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F02"
         },
         {
-          "item": "Pilotos de fixação dos canecos",
+          "item": "Pilotos de fixação dos encaixes circulares das dobradiças",
           "partIds": [
             "FrenteComumR019",
             "FrenteComumR020"
@@ -20137,7 +20366,7 @@ const MODULE_GUIDANCE = {
           "depth": 8,
           "fastener": "Blum609.1500 Ø3,5×15",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm; ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
+          "releaseCondition": "Usar centrador M01.ZZ03.01, profundidade até 8 mm. Ensaiar retenção no lote de chapa. Centros da flange ainda não emitidos como mapa CNC.",
           "sources": [
             {
               "title": "Blum parafusos 609.1500 e broca de centragem M01.ZZ03.01",
@@ -20153,7 +20382,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F03"
         },
         {
-          "item": "Pilotos dos calços 173H7100",
+          "item": "Pilotos das bases de fixação 173H7100",
           "partIds": [],
           "face": "face interna da lateral/apoio",
           "datum": "borda dianteira do apoio, não a face externa da porta",
@@ -20161,8 +20390,8 @@ const MODULE_GUIDANCE = {
           "diameter": 2.7,
           "depth": 8,
           "fastener": "2×609.1500 por calço",
-          "status": "gabarito documentado; mapa dos apoios pendente",
-          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real; não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/calço na primeira montagem.",
+          "status": "gabarito documentado. Mapa dos apoios pendente",
+          "releaseCondition": "Marcar lateral/apoio pelo ID e pela face real. Não espelhar a fileira usando a fachada do apartamento. Confirmar profundidade da porta/base de fixação na primeira montagem.",
           "sources": [
             {
               "title": "Blum 173H7100, distância 0, padrão 37/32",
@@ -20188,8 +20417,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta",
           "fastener": "282.04.711",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Conferir eixo da haste versus superfície da cabeça real; profundidade da ponta, carga e montagem. Coordenadas Z são do envelope da R45 e precisam corresponder à peça recebida.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Conferir eixo da haste versus superfície da cabeça real. Profundidade da ponta, carga e montagem. Coordenadas Z são do volume do desenho da R45 e precisam corresponder à peça recebida.",
           "sources": [
             "https://assets.daro.com/HafeleLiterature/18T7-154.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
@@ -20208,8 +20437,8 @@ const MODULE_GUIDANCE = {
           "diameter": "Ø5 mm",
           "depth": "8,5 mm proposta",
           "fastener": "282.04.711",
-          "status": "Gabarito nominal; prova de oficina obrigatória",
-          "releaseCondition": "Conferir eixo da haste versus superfície da cabeça real; profundidade da ponta, carga e montagem. Coordenadas Z são do envelope da R45 e precisam corresponder à peça recebida.",
+          "status": "Gabarito nominal. Prova de oficina obrigatória",
+          "releaseCondition": "Conferir eixo da haste versus superfície da cabeça real. Profundidade da ponta, carga e montagem. Coordenadas Z são do volume do desenho da R45 e precisam corresponder à peça recebida.",
           "sources": [
             "https://assets.daro.com/HafeleLiterature/18T7-154.pdf",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
@@ -20228,7 +20457,7 @@ const MODULE_GUIDANCE = {
           "diameter": 5.0,
           "depth": 8.5,
           "fastener": "S100 262.28.920",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20247,7 +20476,7 @@ const MODULE_GUIDANCE = {
           "diameter": 5.0,
           "depth": 8.5,
           "fastener": "S100 262.28.920",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20256,7 +20485,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F08"
         },
         {
-          "item": "4 Caixa Minifix — Peca402",
+          "item": "4 Caixa conectores Minifix — Peca402",
           "partIds": [
             "Peca402"
           ],
@@ -20266,7 +20495,7 @@ const MODULE_GUIDANCE = {
           "diameter": 15.0,
           "depth": 14.0,
           "fastener": "262.26.034",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20285,7 +20514,7 @@ const MODULE_GUIDANCE = {
           "diameter": 7.0,
           "depth": 34.0,
           "fastener": "S100 262.28.920",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20294,7 +20523,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F10"
         },
         {
-          "item": "4 Caixa Minifix — Peca403",
+          "item": "4 Caixa conectores Minifix — Peca403",
           "partIds": [
             "Peca403"
           ],
@@ -20304,7 +20533,7 @@ const MODULE_GUIDANCE = {
           "diameter": 15.0,
           "depth": 14.0,
           "fastener": "262.26.034",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20323,7 +20552,7 @@ const MODULE_GUIDANCE = {
           "diameter": 7.0,
           "depth": 34.0,
           "fastener": "S100 262.28.920",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20332,7 +20561,7 @@ const MODULE_GUIDANCE = {
           "id": "P19-F12"
         },
         {
-          "item": "4 Caixa Minifix — Peca404",
+          "item": "4 Caixa conectores Minifix — Peca404",
           "partIds": [
             "Peca404"
           ],
@@ -20342,7 +20571,7 @@ const MODULE_GUIDANCE = {
           "diameter": 15.0,
           "depth": 14.0,
           "fastener": "262.26.034",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20361,7 +20590,7 @@ const MODULE_GUIDANCE = {
           "diameter": 7.0,
           "depth": 34.0,
           "fastener": "S100 262.28.920",
-          "status": "Mapa nominal verificado em estudo separado; não CNC",
+          "status": "Desenho de montagem do projeto verificado em estudo separado. Não CNC",
           "releaseCondition": "Provar chapa, encaixe, sentido, acesso e retenção em oficina. Espessuras 18 e profundidades não incluem tolerância/ponta real da broca.",
           "sources": [
             "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
@@ -20371,27 +20600,27 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada; não furar pelo apartamento."
+        "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Oficina: provar acesso da chave às caixas do fundo (Z local120/630), sequência antes das prateleiras e encaixe do S100 na chapa acabada. Não furar pelo apartamento."
       ],
       "projectChecks": [
-        "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha; não perfurar o espelho para instalar caneco.",
+        "Espelheiro: adesivo e retenção do espelho 4 mm são independentes das 3 dobradiças por folha. Não perfurar o espelho para instalar encaixe circular da dobradiça.",
         "Preservar560×104×18 e folgas2. Pinos não travam caixa nem definem capacidade da prateleira.",
-        "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
-        "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
-        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
+        "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
+        "Suporte .711 ensaiado como volume do desenho, não STEP. Não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
+        "Desenho de montagem do projeto das seis uniões entre peças emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
+        "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho 4 e acabamento real. A orientação de 3 mm para parede não é aprovação automática desta composição.",
+        "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra."
       ],
       "resolvedChecks": [
-        "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
-        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
+        "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
+        "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
-        "Pinos .711 selecionados; quantidade8 e faces das laterais definidas.",
-        "Seis interfaces da caixa P19 mapeadas nominalmente: 12 conjuntos e 36 operações, sem colisões dos volumes de usinagem no contexto ensaiado; principal preservado."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
+        "Pinos .711 selecionados. Quantidade8 e faces das laterais definidas.",
+        "Seis uniões entre peças da caixa P19 mapeadas nominalmente: 12 conjuntos e 36 operações, sem colisões dos volumes de preparação das peças no contexto ensaiado. Principal preservado."
       ],
       "drawings": [
         {
@@ -20593,7 +20822,7 @@ const MODULE_GUIDANCE = {
       "unmappedInterfaces": [],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P19-furacao.csv",
-      "technicalSummary": "Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.",
+      "technicalSummary": "Armário com espelho e portas com dobradiças da marca Blum. O projeto prevê apoios e conectores para unir as peças. Falta conferir a montagem, o espelho e a fixação na parede.",
       "panelGroups": [
         {
           "id": "Peca400",
@@ -20687,7 +20916,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012); 01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Escolhas.json",
           "finishComplete": false,
-          "remainingFinish": "Acabamento da face inferior aparente não individualizado; madeira clara aprovada apenas nas laterais.",
+          "remainingFinish": "Acabamento da face inferior aparente não individualizado. Madeira clara aprovada apenas nas laterais.",
           "quantity": 1,
           "ids": [
             "Peca403"
@@ -20816,21 +21045,21 @@ const MODULE_GUIDANCE = {
     "hardware": [
       "Batentes independentes das tampas: definição específica na ficha · candidato",
       "Chapas móveis de contato do batente: Aço30 ×80 ×10mm no eixo hipotéticoX100/Z430 · candidato",
-      "Ligações dos painéis da carcaça: Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar · Estratégia selecionada; mapa parcial",
-      "Dobradiça piano das tampas 971 e 825: Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54 · Proposta de cotação; protótipo pendente",
-      "Articuladores com trava das tampas: Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça · Proposta de cotação; protótipo pendente"
+      "Uniões das chapas do armário: estrutura do armário fixa com uniões mecânicas ocultas. Apoio fixo da piano e articuladores a detalhar · Estratégia selecionada. Mapa parcial",
+      "Dobradiça piano das tampas 971 e 825: Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30. Referência dimensional Mahler Ref.54 · Proposta de cotação. Protótipo pendente",
+      "Articuladores com trava das tampas: Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça · Proposta de cotação. Protótipo pendente"
     ],
     "pending": [
-      "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.",
-      "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
+      "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto. O encosto é reserva de volume, não apoio resistente.",
+      "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente. Esforço nominal 2,4–3,9 kgf na borda dianteira.",
       "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
-      "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-      "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-      "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
-      "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-      "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
+      "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+      "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+      "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas. Conferir engate da trava, terminais e batente.",
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Medir almofadas/espuma e pesar o conjunto móvel real em oficina. Conferir bolsões, eixo e batente no protótipo."
     ],
-    "finish": "Interiores Branco TX. Faces aparentes: Greenplac Arenza na base aparente; estofado separado. Faces registradas separadamente; não implica chapa dupla pronta.",
+    "finish": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza na base aparente. Estofado separado. Defina o acabamento de cada lado da chapa antes de comprar.",
     "documentIds": [
       "ficha-P20",
       "matriz",
@@ -20843,7 +21072,7 @@ const MODULE_GUIDANCE = {
     ],
     "fabrication": {
       "code": "P20",
-      "name": "Banco baú",
+      "name": "Banco com baú",
       "room": "sala",
       "dimensions": [
         1800.0,
@@ -21291,7 +21520,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel1 (BancoR43_Painel1)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
           "quantity": 1
         },
         {
@@ -21308,7 +21537,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel2 (BancoR43_Painel2)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
           "quantity": 1
         }
       ],
@@ -21319,14 +21548,15 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "conjunto",
           "status": "candidato",
-          "assembly": "2conjuntos adicionais aos4suportesSouthco; não usar encosto estofado ou limite de software como parada.",
+          "assembly": "2conjuntos adicionais aos4suportesSouthco. Não usar encosto estofado ou limite de software como parada.",
           "evidence": [
             {
               "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
               "trecho": "Um batente independente por tampa, central longitudinalmente emY4236,5 eY5136,5, com suporte metálico próprio ancorado à traseira do corpo. Não usar o encosto estofado como estrutura nem atribuir capacidade de parada à dobradiça Southco. Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização"
             }
           ],
-          "derivation": "1 conjunto por tampa × 2 tampas"
+          "derivation": "1 conjunto por tampa × 2 tampas",
+          "explanation": ""
         },
         {
           "item": "Chapas móveis de contato do batente",
@@ -21334,70 +21564,74 @@ const MODULE_GUIDANCE = {
           "quantity": 2,
           "unit": "peça",
           "status": "candidato",
-          "assembly": "Dimensão depende diretamente do eixo real; não fabricar pela hipótese. União à tampa não definida.",
+          "assembly": "Dimensão depende diretamente do eixo real. Não fabricar pela hipótese. União à tampa não definida.",
           "evidence": [
             {
               "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
               "trecho": "Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização devem ficar dentro da espessura da tampa, sem peças inferiores invadindo armazenamento. Não está especificada a união definitiva da chapa à tampa. Batente fixo com face frontal emX100, largura80, contato emZ454–466 e corpo dentro deX84–100. O suporte inferior e a placa receptora podem seguir o princípio R47, com dimensionamento próprio: aço de8mm, largura"
             }
           ],
-          "derivation": "1 chapa por conjunto de batente"
+          "derivation": "1 chapa por conjunto de batente",
+          "explanation": ""
         },
         {
-          "item": "Ligações dos painéis da carcaça",
+          "item": "Uniões das chapas do armário",
           "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "quantity": null,
           "unit": "conector / fixador",
-          "status": "Estratégia selecionada; mapa parcial",
-          "assembly": "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas. Consultar as interfaces ainda sem mapa na ficha.",
+          "status": "Estratégia selecionada. Mapa parcial",
+          "assembly": "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas. Consultar as uniões entre peças ainda sem mapa na ficha.",
           "evidence": [
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Dobradiça piano das tampas 971 e 825",
           "reference": "Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54",
           "quantity": 2,
           "unit": "trechos cortados de 1–2 barras",
-          "status": "Proposta de cotação; protótipo pendente",
+          "status": "Proposta de cotação. Protótipo pendente",
           "assembly": "Um trecho na borda traseira de cada tampa. Apoio fixo e rebaixo ocultos na junta de 2 mm do encosto ainda a detalhar.",
           "sources": [
             {
               "title": "Preços e conjunto proposto R01",
               "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md"
             }
-          ]
+          ],
+          "explanation": "Dobradiça contínua, instalada ao longo da borda da tampa."
         },
         {
           "item": "Articuladores com trava das tampas",
           "reference": "Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça",
           "quantity": 4,
           "unit": "unidades (1 par por tampa)",
-          "status": "Proposta de cotação; protótipo pendente",
-          "assembly": "Terminais 22 mm (tampa 971) e 30 mm (tampa 825) abaixo da face inferior; posições nominais na conferência, não gabarito de furação.",
+          "status": "Proposta de cotação. Protótipo pendente",
+          "assembly": "Terminais 22 mm (tampa 971) e 30 mm (tampa 825) abaixo da face inferior. Posições nominais na conferência, não gabarito de furação.",
           "sources": [
             {
               "title": "Conferência nominal das ferragens simples",
               "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md"
             }
-          ]
+          ],
+          "explanation": "Suportes com trava para manter a tampa aberta."
         }
       ],
-      "finishSummary": "Interiores Branco TX. Faces aparentes: Greenplac Arenza na base aparente; estofado separado. Faces registradas separadamente; não implica chapa dupla pronta.",
+      "finishSummary": "Parte interna em branco texturizado (Branco TX). Partes visíveis: Greenplac Arenza na base aparente. Estofado separado. Defina o acabamento de cada lado da chapa antes de comprar.",
       "finishSpecs": [
         {
-          "area": "Interiores identificados",
+          "area": "Parte interna",
           "material": "Branco TX",
-          "status": "Escolhido pelo usuário em 23/10/2026; fabricante/código e substrato ainda técnicos",
+          "status": "Escolhido em 23/10/2026. Falta definir o fabricante, o código e o material da chapa.",
           "evidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5"
         },
         {
-          "area": "Faces aparentes",
+          "area": "Partes visíveis",
           "material": "Greenplac Arenza na base aparente; estofado separado",
-          "status": "Escolha documental preservada; distinguir cada face da mesma peça",
+          "status": "Acabamento escolhido. Confira o lado de aplicação em cada peça.",
           "evidence": "01_Projeto/Registro_de_decisoes.md:612"
         }
       ],
@@ -21407,7 +21641,7 @@ const MODULE_GUIDANCE = {
           "method": "Registrar desníveis sob a base, desvios da parede e obstáculos instalados em planta e elevação.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Assentamento, arremates e implantação do banco.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P20-CAMPO-R14-1",
@@ -21418,10 +21652,10 @@ const MODULE_GUIDANCE = {
         },
         {
           "measure": "Percurso disponível para abrir as duas tampas e acessar o baú.",
-          "method": "Usar gabaritos das tampas/almofadas aprovados em oficina, na posição de uso; registrar obstáculos da sala.",
+          "method": "Usar gabaritos das tampas/almofadas aprovados em oficina, na posição de uso. Registrar obstáculos da sala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
           "affects": "Abertura e manutenção. Eixo Southco, torque, espuma, bolsões e ferragem real são decisões/ensaios de oficina.",
-          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
+          "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
           "id": "P20-CAMPO-R14-2",
@@ -21432,21 +21666,21 @@ const MODULE_GUIDANCE = {
         }
       ],
       "technicalChecks": [
-        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.",
-        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
+        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto. O encosto é reserva de volume, não apoio resistente.",
+        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente. Esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
-        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
+        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas. Conferir engate da trava, terminais e batente.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Medir almofadas/espuma e pesar o conjunto móvel real em oficina. Conferir bolsões, eixo e batente no protótipo."
       ],
       "assembly": [
-        "Preservar duas tampas e armazenamento; três painéis do encosto não significam três tampas.",
+        "Preservar duas tampas e armazenamento. Três painéis do encosto não significam três tampas.",
         "Não fabricar o batente pela hipótese do eixo: ferragem real, ligação e receptor precisam ser fechados.",
-        "Bolsões sob almofadas já autorizados:4provisórios40 ×96 ×25com25mmnominais de espuma acima. Envelopes não validam cilindro real ou batente.",
+        "Bolsões sob almofadas já autorizados:4provisórios40 ×96 ×25com25mmnominais de espuma acima. Volumes do desenho não validam cilindro real ou batente.",
         "Assento fechado deve apoiar no corpo/apoios. Dobradiça piano e articuladores não recebem automaticamente a carga de assento.",
-        "Southco E6 e batente R47 permanecem em estudo separado como alternativa; não usar Rockler traseira rejeitada como especificação vigente."
+        "Southco E6 e batente R47 permanecem em estudo separado como alternativa. Não usar Rockler traseira rejeitada como especificação vigente."
       ],
       "sources": [
         "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
@@ -21468,32 +21702,34 @@ const MODULE_GUIDANCE = {
           "reference": "Dobradiça piano + articulador com trava por tampa",
           "quantity": null,
           "unit": "",
-          "status": "Diretriz de 23/10/2026; produto e montagem pendentes",
+          "status": "Diretriz de 23/10/2026. Produto e montagem pendentes",
           "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.",
           "sources": [
             {
               "title": "Diretriz banco e cesto",
               "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Diretriz.md"
             }
-          ]
+          ],
+          "explanation": ""
         },
         {
           "item": "Banco com corpo portante separado do mecanismo das tampas",
           "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "quantity": null,
           "unit": "uniões a quantificar por interface",
-          "status": "Selecionado no projeto; validar em oficina",
+          "status": "Escolhido no projeto. Testar na oficina.",
           "reason": "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
-          ]
+          ],
+          "explanation": ""
         }
       ],
       "drilling": [
         {
-          "item": "Mapa de ligações da carcaça",
+          "item": "Mapa de ligações da estrutura do armário",
           "partIds": [
             "Peca406AtualR31",
             "Peca407",
@@ -21514,7 +21750,7 @@ const MODULE_GUIDANCE = {
           "depth": null,
           "fastener": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "status": "Não executar: mapa individual de oficina pendente",
-          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e validar em chapa real. Não depende de medir o apartamento.",
+          "releaseCondition": "Mapear encontros, evitar ferragens/recortes, comprovar profundidade e acesso e conferir em chapa real. Não depende de medir o apartamento.",
           "sources": [
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.json",
             "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
@@ -21523,19 +21759,19 @@ const MODULE_GUIDANCE = {
         }
       ],
       "workshopChecks": [
-        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
+        "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas. Conferir engate da trava, terminais e batente.",
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Medir almofadas/espuma e pesar o conjunto móvel real em oficina. Conferir bolsões, eixo e batente no protótipo."
       ],
       "projectChecks": [
-        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto; o encosto é reserva de volume, não apoio resistente.",
-        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
+        "Projeto: detalhar apoio fixo e rebaixo da piano na junta de 2 mm do encosto. O encosto é reserva de volume, não apoio resistente.",
+        "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente. Esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
-        "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
+        "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
+        "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
       "unmappedInterfaces": [
@@ -21561,7 +21797,7 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P20-furacao.csv",
-      "technicalSummary": "Diretriz de 23/10: dobradiça piano + articulador com trava em cada tampa. Protótipo de oficina, apoio da piano e terminais ainda bloqueiam a furação das tampas.",
+      "technicalSummary": "Banco com duas tampas. Cada tampa terá uma dobradiça contínua e suportes com trava. Teste a montagem antes de definir os furos.",
       "panelGroups": [
         {
           "id": "Peca407",
@@ -22122,7 +22358,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel1 (BancoR43_Painel1)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
           "quantity": 1,
           "ids": [
             "BancoR43_Painel1"
@@ -22148,7 +22384,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel2 (BancoR43_Painel2)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
           "quantity": 1,
           "ids": [
             "BancoR43_Painel2"
