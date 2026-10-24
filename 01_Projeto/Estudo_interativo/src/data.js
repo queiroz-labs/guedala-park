@@ -1,5 +1,6 @@
 /* Centímetros. x: esquerda→direita; z: janela do escritório→entrada; y: altura. */
-const PROJECT={revision:'R12 · consulta de marcenaria · FreeCAD R45',date:'23 outubro 2026',mirrored:true,name:'Guedala Park',area:'40,18 m²',unit:'Torre 2 · final 06',ceiling:247,
+// Same left/right orientation as the official Torre 2, final 06 floor plan.
+const PROJECT={revision:'R12 · consulta de marcenaria · FreeCAD R45',date:'23 outubro 2026',mirrored:false,name:'Guedala Park',area:'40,18 m²',unit:'Torre 2 · final 06',ceiling:247,
   note:'Estudo proporcional. Escolha aprovada não significa medida acabada ou fabricação liberada.',
   rooms:[
     {id:'all',name:'Apartamento',sub:'Visão completa',bounds:[-10,-10,750,710],color:'#e8e0d3'},

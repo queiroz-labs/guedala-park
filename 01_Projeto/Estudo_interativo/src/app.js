@@ -66,7 +66,8 @@ function buildScene(){nodes=[];nodeSequence={};
   if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
   for(const[r,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]]){add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
   // Original doors, graphic envelopes only. Cutaway leaves keep furniture visible.
-  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',655,698,85,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
+  // Entrance leaf matches the reconstructed right-wall opening z=615..690; not an official width.
+  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',665,688,75,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
   // Sala: narrow TV wall, current Bonnie, no obsolete detachable chaise.
   const open=state.sofa!=='closed',sd=open?136:110,sx=740-state.sofaGap-sd;
   slab('bonnie','sala',sx,185,sd,180,9,29,'beige',5);
@@ -337,7 +338,7 @@ function dimension(ctx,project,a,b,text){let p=project(a),q=project(b),dx=q[0]-p
 function drawAnnotations(ctx,pr,cam,w,h,st){
   if(st.room==='all'&&st.view==='top'){for(const[r,x,z]of [['quarto',125,305],['escritorio',388,175],['sala',565,330],['cozinha',688,570],['banho',379,445],['lavanderia',320,568]]){const p=pr([x,2,z]);label(ctx,p[0],p[1],PROJECT.rooms.find(q=>q.id===r).name.toUpperCase(),'#384d46',w<500?8:10);}}
   if(st.view==='top'){
-    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,700,85,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
+    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,690,75,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
   }
   if(st.measures&&st.view!=='side'){
     if(st.room==='sala'||st.room==='all'){const depth=st.sofa==='closed'?110:136,gap=245-depth-st.rackDepth-st.sofaGap,dc=diningClearance(st);dimension(ctx,pr,[495+st.rackDepth,2,268],[740-depth-st.sofaGap,2,268],gap+' cm*');if(st.room==='sala')dimension(ctx,pr,[705,2,dc.start],[705,2,dc.end],dc.length+' cm · mesa');}
