@@ -18,9 +18,9 @@ const WORKSHOP_DOCS = [
     "rooms": [
       "all"
     ],
-    "status": "R14",
-    "summary": "FreeCAD R45, fichas técnicas R14, planta cotada e instruções de abertura em um ZIP.",
-    "path": "05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip"
+    "status": "R16",
+    "summary": "FreeCAD com cores R16 e geometria R45, fichas R14, planta cotada e instruções em um ZIP.",
+    "path": "05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip"
   },
   {
     "id": "matriz",
@@ -226,14 +226,25 @@ const WORKSHOP_DOCS = [
   },
   {
     "id": "cad",
-    "title": "Modelo FreeCAD R45",
+    "title": "FreeCAD · cores atualizadas R16",
     "category": "FreeCAD",
     "rooms": [
       "all"
     ],
-    "status": "Modelo nominal",
-    "summary": "Consolidação dimensional; grupos de estudo não são fabricação aprovada.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Guedala_Park_R45_Consolidado.FCStd"
+    "status": "Geometria R45",
+    "summary": "Aparência alinhada ao site e às fichas; geometria R45 preservada e pendências técnicas mantidas.",
+    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd"
+  },
+  {
+    "id": "cad-cores",
+    "title": "Atualização de cores do FreeCAD",
+    "category": "Acabamentos",
+    "rooms": [
+      "all"
+    ],
+    "status": "R16",
+    "summary": "Registro dos acabamentos visuais; cores aproximadas e limites da atualização.",
+    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md"
   },
   {
     "id": "cad-southco",

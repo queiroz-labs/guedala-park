@@ -1,0 +1,2292 @@
+{
+  "revision": "R16",
+  "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "objects": {
+    "Peca206": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca207": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca208": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca209": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca210": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca211": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca212": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca213": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR08": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR001": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR002": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR003": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR004": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR005": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR012": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR013": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR014": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR015": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR016": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR017": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "Peca226": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca227": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca228": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR024": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR025": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR026": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR027": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR028": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR029": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR036": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR037": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR038": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR039": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR040": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR041": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "Peca241": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca242": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca243": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca244": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca245": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca246": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca247": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca248": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PlacaL": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PlacaL001": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca255": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca256": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "LateralApoioPrincipal": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteSimplesR04": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteSimplesR001": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 9
+      },
+      "changed": true
+    },
+    "ApoioPortaBR04": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FaixaQuinaAR04": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "FaixaQuinaBR04": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca259": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca260": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca261": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca262": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca263": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca264": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca265": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca266": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca267": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca268": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca269": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca270": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "FrenteComumR015": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR016": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR017": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FaixaFixaEstudo": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ApoioComumR003": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioComumR004": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioOpostoR001": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioOpostoR002": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteVizinhaR18": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca276": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca277": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca278": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca279": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca280": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR10": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR001": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca283": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca284": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca285": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca286": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "GavetaComumR048": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR049": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR050": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR051": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR052": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR053": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "MontagemG2R016": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "MontagemG2R017": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "MontagemG2R018": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "MontagemG2R019": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "MontagemG2R020": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "GavetaComumR060": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR061": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR062": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR063": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR064": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR065": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca305": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca306": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca307": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "BasePlanaR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioEsquerdoR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioCentralR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioDireitoR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ReguaInferiorBaixaR31": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ReguaInferiorAltaR31": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ReguaSuperiorBaixaR31": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ReguaSuperiorAltaR31": {
+      "faces": 8,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaBaixaR13": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaBaixaR001": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR002": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR003": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR004": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR005": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR036": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBaixaR037": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca315": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#294b51": 5
+      },
+      "changed": true
+    },
+    "Peca316": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca317": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca318": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca319": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca320": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca321": {
+      "faces": 6,
+      "colors": {
+        "#dca864": 6
+      },
+      "changed": false
+    },
+    "FrenteComumR002": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR003": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca324": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#294b51": 5
+      },
+      "changed": true
+    },
+    "Peca325": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca326": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca327": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca328": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca329": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca330": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca331": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR004": {
+      "faces": 12,
+      "colors": {
+        "#294b51": 8,
+        "#f3f2ed": 4
+      },
+      "changed": true
+    },
+    "FrenteComumR005": {
+      "faces": 12,
+      "colors": {
+        "#294b51": 8,
+        "#f3f2ed": 4
+      },
+      "changed": true
+    },
+    "Peca334": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#294b51": 5
+      },
+      "changed": true
+    },
+    "Peca335": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca336": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca337": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca338": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca339": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR006": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR007": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca342": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#294b51": 5
+      },
+      "changed": true
+    },
+    "Peca343": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca344": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca345": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca346": {
+      "faces": 6,
+      "colors": {
+        "#294b51": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca347": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR008": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR009": {
+      "faces": 10,
+      "colors": {
+        "#294b51": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca350": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 6
+      },
+      "changed": false
+    },
+    "Peca352": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca353": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaCestoR15": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaCestoR001": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaCestoR002": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaCestoR003": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "FundoTanqueR29": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 9,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ApoioCestoC01R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioCestoC02R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioCestoC03R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca359": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca360": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca361": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca362": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca363": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "FrenteComumR010": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR011": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca367": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "Peca368": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca369": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca370": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca371": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "GavetaComumR072": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR073": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR074": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR075": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR076": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR077": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "GavetaComumR084": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR085": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR086": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "GavetaComumR087": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "GavetaComumR088": {
+      "faces": 8,
+      "colors": {
+        "#f3f2ed": 8
+      },
+      "changed": true
+    },
+    "GavetaComumR089": {
+      "faces": 10,
+      "colors": {
+        "#c4a27b": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "Peca384": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#eeeae1": 5
+      },
+      "changed": true
+    },
+    "Peca385": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca386": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca387": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca388": {
+      "faces": 6,
+      "colors": {
+        "#eeeae1": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "ApoioComumR11": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioComumR001": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "ApoioComumR002": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR11": {
+      "faces": 10,
+      "colors": {
+        "#eeeae1": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR012": {
+      "faces": 10,
+      "colors": {
+        "#eeeae1": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR013": {
+      "faces": 10,
+      "colors": {
+        "#eeeae1": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "FrenteComumR014": {
+      "faces": 10,
+      "colors": {
+        "#eeeae1": 7,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "ApoioOpostoR18": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca396": {
+      "faces": 6,
+      "colors": {
+        "#c8a77d": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "BC43_LateralE": {
+      "faces": 22,
+      "colors": {
+        "#bbbdb7": 19,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "BC43_LateralD": {
+      "faces": 22,
+      "colors": {
+        "#f3f2ed": 3,
+        "#bbbdb7": 19
+      },
+      "changed": true
+    },
+    "BC43_Base": {
+      "faces": 22,
+      "colors": {
+        "#bbbdb7": 17,
+        "#f3f2ed": 5
+      },
+      "changed": true
+    },
+    "BC43_Travessa": {
+      "faces": 22,
+      "colors": {
+        "#bbbdb7": 17,
+        "#f3f2ed": 5
+      },
+      "changed": true
+    },
+    "BC43_CaixaE": {
+      "faces": 20,
+      "colors": {
+        "#c8a77d": 17,
+        "#f3f2ed": 3
+      },
+      "changed": true
+    },
+    "BC43_CaixaD": {
+      "faces": 20,
+      "colors": {
+        "#f3f2ed": 3,
+        "#c8a77d": 17
+      },
+      "changed": true
+    },
+    "BC43_CaixaBase": {
+      "faces": 6,
+      "colors": {
+        "#bbbdb7": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "BC43_PainelEsquerda": {
+      "faces": 44,
+      "colors": {
+        "#c9bca8": 29,
+        "#f3f2ed": 15
+      },
+      "changed": true
+    },
+    "BC43_PainelDireita": {
+      "faces": 44,
+      "colors": {
+        "#c9bca8": 29,
+        "#f3f2ed": 15
+      },
+      "changed": true
+    },
+    "Peca400": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c8a77d": 5
+      },
+      "changed": true
+    },
+    "Peca401": {
+      "faces": 6,
+      "colors": {
+        "#c8a77d": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca402": {
+      "faces": 6,
+      "colors": {
+        "#c8a77d": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca403": {
+      "faces": 6,
+      "colors": {
+        "#c8a77d": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca404": {
+      "faces": 6,
+      "colors": {
+        "#c8a77d": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "FrenteComumR019": {
+      "faces": 12,
+      "colors": {
+        "#f3f2ed": 12
+      },
+      "changed": true
+    },
+    "EspelhoAplicadoR12": {
+      "faces": 6,
+      "colors": {
+        "#b9d0d3": 6
+      },
+      "changed": true
+    },
+    "FrenteComumR020": {
+      "faces": 12,
+      "colors": {
+        "#f3f2ed": 12
+      },
+      "changed": true
+    },
+    "EspelhoAplicadoR001": {
+      "faces": 6,
+      "colors": {
+        "#b9d0d3": 6
+      },
+      "changed": true
+    },
+    "PrateleiraEspelhadoR12": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PrateleiraEspelhadoR001": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca407": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "Peca408": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaBancoR16": {
+      "faces": 6,
+      "colors": {
+        "#c4a27b": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "PecaBancoR001": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR002": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR003": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR004": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR005": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR029": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR030": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Peca406AtualR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 1,
+        "#c4a27b": 5
+      },
+      "changed": true
+    },
+    "PecaBancoR007AtualR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "PecaBancoR006AtualR31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Apoio_B01R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Apoio_B02R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Apoio_B03R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Apoio_B04R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_frente0R31": {
+      "faces": 10,
+      "colors": {
+        "#f3f2ed": 10
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_tras0R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_frente1R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_tras1R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_frente2R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_tras2R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_frente3R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "Ref_Sarrafo_tras3R31": {
+      "faces": 6,
+      "colors": {
+        "#f3f2ed": 6
+      },
+      "changed": true
+    },
+    "BancoR43_Painel1": {
+      "faces": 6,
+      "colors": {
+        "#bbbdb7": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "BancoR43_Almofada1": {
+      "faces": 6,
+      "colors": {
+        "#c9bbaa": 6
+      },
+      "changed": true
+    },
+    "BancoR43_Painel2": {
+      "faces": 6,
+      "colors": {
+        "#bbbdb7": 5,
+        "#f3f2ed": 1
+      },
+      "changed": true
+    },
+    "BancoR43_Almofada2": {
+      "faces": 6,
+      "colors": {
+        "#c9bbaa": 6
+      },
+      "changed": true
+    },
+    "Peca308": {
+      "faces": 6,
+      "colors": {
+        "#ded7c7": 6
+      },
+      "changed": false
+    },
+    "Peca357": {
+      "faces": 6,
+      "colors": {
+        "#ded7c7": 6
+      },
+      "changed": false
+    },
+    "Peca399": {
+      "faces": 6,
+      "colors": {
+        "#ded7c7": 6
+      },
+      "changed": false
+    },
+    "Peca421": {
+      "faces": 6,
+      "colors": {
+        "#c9bbaa": 6
+      },
+      "changed": false
+    },
+    "Peca275": {
+      "faces": 6,
+      "colors": {
+        "#b9d0d3": 6
+      },
+      "changed": false
+    },
+    "FischerFrenteR31": {
+      "faces": 6,
+      "colors": {
+        "#282d2e": 6
+      },
+      "changed": true
+    },
+    "FischerCorpoConservadorR31": {
+      "faces": 6,
+      "colors": {
+        "#282d2e": 6
+      },
+      "changed": true
+    },
+    "Peca351": {
+      "faces": 6,
+      "colors": {
+        "#282d2e": 6
+      },
+      "changed": false
+    },
+    "CabeceiraDoisPaineisR25": {
+      "faces": 12,
+      "colors": {
+        "#c9bbaa": 12
+      },
+      "changed": false
+    },
+    "Peca188": {
+      "faces": 6,
+      "colors": {
+        "#fff4cf": 6
+      },
+      "changed": true
+    },
+    "Peca189": {
+      "faces": 6,
+      "colors": {
+        "#fff4cf": 6
+      },
+      "changed": true
+    },
+    "Fechada_110Tampo": {
+      "faces": 1,
+      "colors": {
+        "#c4a27b": 1
+      },
+      "changed": false
+    },
+    "Fechada_110Sapata": {
+      "faces": 1,
+      "colors": {
+        "#282d2e": 1
+      },
+      "changed": true
+    },
+    "Fechada_110Ponta_sofa": {
+      "faces": 84,
+      "colors": {
+        "#c4a27b": 68,
+        "#d8d0c2": 16
+      },
+      "changed": false
+    },
+    "Fechada_110Ponta_cozinha": {
+      "faces": 84,
+      "colors": {
+        "#c4a27b": 68,
+        "#d8d0c2": 16
+      },
+      "changed": false
+    },
+    "Fechada_110Lateral": {
+      "faces": 84,
+      "colors": {
+        "#c4a27b": 68,
+        "#d8d0c2": 16
+      },
+      "changed": false
+    }
+  },
+  "geometryRecomputed": false,
+  "continuousCurveExceptions": [
+    {
+      "object": "ReguaInferiorBaixaR31",
+      "face": 7,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaInferiorBaixaR31",
+      "face": 8,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaInferiorAltaR31",
+      "face": 7,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaInferiorAltaR31",
+      "face": 8,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaSuperiorBaixaR31",
+      "face": 7,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaSuperiorBaixaR31",
+      "face": 8,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaSuperiorAltaR31",
+      "face": 7,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "ReguaSuperiorAltaR31",
+      "face": 8,
+      "material": "wood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 9,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 10,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 11,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 12,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 13,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralE",
+      "face": 14,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 11,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 12,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 13,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 14,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 15,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_LateralD",
+      "face": 16,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Base",
+      "face": 14,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Base",
+      "face": 15,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Base",
+      "face": 19,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Base",
+      "face": 20,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Travessa",
+      "face": 14,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Travessa",
+      "face": 15,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Travessa",
+      "face": 19,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_Travessa",
+      "face": 20,
+      "material": "finishPending",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 7,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 8,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 9,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 10,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 16,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaE",
+      "face": 18,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 9,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 10,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 11,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 12,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 14,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    },
+    {
+      "object": "BC43_CaixaD",
+      "face": 16,
+      "material": "lightwood",
+      "reason": "One continuous curved CAD face spans both normal directions; exterior reference color retained, machining finish not specified."
+    }
+  ],
+  "reopenedColorsMatch": true,
+  "visibilityPreserved": true,
+  "targetSHA256": "b69f8c3eafde2bc9c926b8d63ca4f40c5a97acecfdc8564de5fae2bebfabdbbb",
+  "objectCount": 5840,
+  "mappedObjects": 270,
+  "changedObjects": 257,
+  "mappedFaces": 2302,
+  "finalAssemblyReopened": true,
+  "appearanceMatchesFreeCADGeneratedRecords": true,
+  "modelDataPreservedByteForByte": true
+}

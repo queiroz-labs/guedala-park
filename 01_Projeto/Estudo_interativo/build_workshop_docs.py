@@ -11,6 +11,7 @@ import json, re, shutil, posixpath, runpy
 STUDY = Path(__file__).resolve().parent
 ROOT = STUDY.parent.parent
 R45 = '01_Projeto/Consolidacao_R45_2026-10-23/'
+CAD_COLORS = '01_Projeto/Cores_FreeCAD_R16_2026-10-23/'
 R47 = '01_Projeto/Southco_banco_R47_2026-10-23/'
 TAPS = '01_Projeto/Conferencia_torneiras_2026-10-23/'
 DOCS = []
@@ -19,7 +20,7 @@ def doc(id, title, category, rooms, status, summary, path):
     DOCS.append(dict(id=id,title=title,category=category,rooms=rooms.split(','),status=status,summary=summary,path=path))
 
 doc('dossie','Guia do montador','Começar','all','Consolidado','Medidas, ferragens, acabamentos e pendências por módulo.','05_Entregas/Dossie_marcenaria_R45.html')
-doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','R14','FreeCAD R45, fichas técnicas R14, planta cotada e instruções de abertura em um ZIP.','05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip')
+doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','R16','FreeCAD com cores R16 e geometria R45, fichas R14, planta cotada e instruções em um ZIP.','05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip')
 doc('matriz','Medidas dos 20 módulos','Medidas','all','Nominal','Vãos internos em milímetros e o que falta fechar.',R45+'Inventario/Matriz_20_modulos.md')
 doc('interfaces','Uniões entre chapas','Montagem','all','Em estudo','171 contatos nominais; ligação e caminho da carga a definir.',R45+'Inventario/Interfaces_retangulares.md')
 doc('fixas','Ferragens fixas e suspensão','Ferragens','all','Candidatas','Pinos, conectores, suportes e restrições de montagem.',R45+'Inventario/Ferragens_fixas.md')
@@ -38,7 +39,8 @@ doc('batente','Batente mecânico do banco','Montagem','sala','Alternativa','Geom
 doc('torneiras','Conferência de cubas e torneiras','Compatibilização','cozinha,banho','Em estudo','Envelopes e medidas disponíveis; instalação depende dos produtos.',TAPS+'Conferencia.html')
 doc('purangi','Purangi: vedação e abertura','Compatibilização','banho','Não liberado','Compatibilidade integral não comprovada; troca não liberada.',TAPS+'Resultado_vedacao_abertura.md')
 doc('forno','Forno: grelhas e manutenção','Compatibilização','cozinha','Em estudo','R02 dos apoios e grelhas removíveis; montagem e ventilação condicionadas.','01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md')
-doc('cad','Modelo FreeCAD R45','FreeCAD','all','Modelo nominal','Consolidação dimensional; grupos de estudo não são fabricação aprovada.',R45+'Guedala_Park_R45_Consolidado.FCStd')
+doc('cad','FreeCAD · cores atualizadas R16','FreeCAD','all','Geometria R45','Aparência alinhada ao site e às fichas; geometria R45 preservada e pendências técnicas mantidas.',CAD_COLORS+'Guedala_Park_R45_Cores_R16.FCStd')
+doc('cad-cores','Atualização de cores do FreeCAD','Acabamentos','all','R16','Registro dos acabamentos visuais; cores aproximadas e limites da atualização.',CAD_COLORS+'README.md')
 doc('cad-southco','FreeCAD: fixação Southco','FreeCAD','sala','Estudo separado','Proposta R47 para inspeção; não substitui o modelo principal.',R47+'Southco_Fixacao_ESTUDO.FCStd')
 doc('cad-purangi','FreeCAD: sensibilidade Purangi','FreeCAD','banho','Estudo separado','Envelopes hipotéticos para conferir abertura; não é CAD certificado.',TAPS+'Purangi_R45_SENSIBILIDADE.FCStd')
 doc('executivo','Pranchas executivas e plano de corte','Executivo','all','Pendente','Faltam cotas de campo, furação, fitas de borda, folgas, ligações e liberação por peça.',None)
@@ -51,7 +53,14 @@ doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido'
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','05_Entregas/Planta_cotada_R13/index.html')
 
 ASSETS = [
+    CAD_COLORS+'Plano_de_cores.json',
+    CAD_COLORS+'Verificacao_cores.json',
+    CAD_COLORS+'Verificacao_geometria.json',
+    '05_Entregas/Compartilhar_R16/manifest.json',
+    # Compatibility aliases: previously shared R14 URL serves the current R16 ZIP.
+    '05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip',
     '05_Entregas/Compartilhar_R14/manifest.json',
+    R45+'Guedala_Park_R45_Consolidado.FCStd',
     '05_Entregas/Planta_cotada_R13/Planta_cotada.svg',
     '05_Entregas/Planta_cotada_R13/Planta_oficial.png',
     '05_Entregas/Planta_cotada_R13/Cotas.json',

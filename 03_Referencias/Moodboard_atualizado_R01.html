@@ -1093,9 +1093,9 @@ const WORKSHOP_DOCS = [
     "rooms": [
       "all"
     ],
-    "status": "R14",
-    "summary": "FreeCAD R45, fichas técnicas R14, planta cotada e instruções de abertura em um ZIP.",
-    "path": "05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip"
+    "status": "R16",
+    "summary": "FreeCAD com cores R16 e geometria R45, fichas R14, planta cotada e instruções em um ZIP.",
+    "path": "05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip"
   },
   {
     "id": "matriz",
@@ -1301,14 +1301,25 @@ const WORKSHOP_DOCS = [
   },
   {
     "id": "cad",
-    "title": "Modelo FreeCAD R45",
+    "title": "FreeCAD · cores atualizadas R16",
     "category": "FreeCAD",
     "rooms": [
       "all"
     ],
-    "status": "Modelo nominal",
-    "summary": "Consolidação dimensional; grupos de estudo não são fabricação aprovada.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Guedala_Park_R45_Consolidado.FCStd"
+    "status": "Geometria R45",
+    "summary": "Aparência alinhada ao site e às fichas; geometria R45 preservada e pendências técnicas mantidas.",
+    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd"
+  },
+  {
+    "id": "cad-cores",
+    "title": "Atualização de cores do FreeCAD",
+    "category": "Acabamentos",
+    "rooms": [
+      "all"
+    ],
+    "status": "R16",
+    "summary": "Registro dos acabamentos visuais; cores aproximadas e limites da atualização.",
+    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md"
   },
   {
     "id": "cad-southco",
@@ -17931,9 +17942,9 @@ function showModule(code){
  work.module=code;state.selected=m.item;state.moduleFilter=null;state.focusPart=null;$('workModule').value=code;
  const g=workGuide(m),ps=workParts(m),materials=[...new Set(ps.map(p=>p.piece.material))];
  const docs=workDocs().filter(d=>d.path&&g.documentIds.includes(d.id));
- $('selectedInfo').innerHTML=`<button class="work-back" id="workBack">← Móveis do ambiente</button><div class="work-subtitle">${code} · ${esc(PROJECT.rooms.find(r=>r.id===m.room).name)}</div><h2>${esc(m.name)}</h2><span class="work-status">Conferir antes de fabricar</span><div class="work-measures">${(m.dimensionsLocal||m.dimensions).map((v,i)=>`<div><b>${mm(v)}</b><span>${['Largura','Profundidade','Altura'][i]} · mm</span></div>`).join('')}</div><p class="work-note">Envelope nominal do conjunto no eixo do móvel. Peças, vãos úteis e reservas são discriminados nos documentos.</p>${materials.map(id=>`<div class="work-material"><i style="background:${MAT[id]?.color||'#c4b9a8'}"></i><span>${esc(workMaterialName(id))}<small>${esc(workMaterialStatus(id))}</small></span></div>`).join('')}<details class="work-accordion"><summary>Peças e espessuras <span class="work-subtitle">· ${ps.length}</span></summary><p>Uma linha por peça. Toque no nome para destacar no 3D.</p><div class="work-table-wrap">${partsTable(m)}</div><p class="work-note">¹ Menor dimensão do envelope local. Para recortes, uniões e formas especiais, é uma referência geométrica; confirmar espessura e orientação na peça. Não inclui fita de borda, sobremetal ou folga de corte.</p><div class="work-actions"><button id="exportPieces">Baixar CSV das peças</button></div></details><details class="work-accordion"><summary>Ferragens e ligações</summary><ul>${g.hardware.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="work-note">Referências e candidatas: quantidades de compra e usinagens dependem da compatibilização.</p></details><details class="work-accordion"><summary>Acabamento e montagem</summary><p>${esc(g.finish)}</p><ul>${g.pending.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details><details class="work-accordion"><summary>Documentos deste móvel</summary>${docs.length?docs.map(d=>`<p><a href="${workDocUrl(d)}" target="_blank" rel="noopener">${esc(d.title)} ↗</a></p>`).join(''):'<p>Consulte a matriz de módulos na documentação.</p>'}<p><a href="docs/01_Projeto/Consolidacao_R45_2026-10-23/Guedala_Park_R45_Consolidado.FCStd" download>Baixar modelo FreeCAD R45</a></p></details><div class="work-actions"><button id="isolateModule" class="work-primary" aria-pressed="false">Isolar no 3D</button><button id="printModule">Imprimir ficha</button></div>`;
+ $('selectedInfo').innerHTML=`<button class="work-back" id="workBack">← Móveis do ambiente</button><div class="work-subtitle">${code} · ${esc(PROJECT.rooms.find(r=>r.id===m.room).name)}</div><h2>${esc(m.name)}</h2><span class="work-status">Conferir antes de fabricar</span><div class="work-measures">${(m.dimensionsLocal||m.dimensions).map((v,i)=>`<div><b>${mm(v)}</b><span>${['Largura','Profundidade','Altura'][i]} · mm</span></div>`).join('')}</div><p class="work-note">Envelope nominal do conjunto no eixo do móvel. Peças, vãos úteis e reservas são discriminados nos documentos.</p>${materials.map(id=>`<div class="work-material"><i style="background:${MAT[id]?.color||'#c4b9a8'}"></i><span>${esc(workMaterialName(id))}<small>${esc(workMaterialStatus(id))}</small></span></div>`).join('')}<details class="work-accordion"><summary>Peças e espessuras <span class="work-subtitle">· ${ps.length}</span></summary><p>Uma linha por peça. Toque no nome para destacar no 3D.</p><div class="work-table-wrap">${partsTable(m)}</div><p class="work-note">¹ Menor dimensão do envelope local. Para recortes, uniões e formas especiais, é uma referência geométrica; confirmar espessura e orientação na peça. Não inclui fita de borda, sobremetal ou folga de corte.</p><div class="work-actions"><button id="exportPieces">Baixar CSV das peças</button></div></details><details class="work-accordion"><summary>Ferragens e ligações</summary><ul>${g.hardware.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="work-note">Referências e candidatas: quantidades de compra e usinagens dependem da compatibilização.</p></details><details class="work-accordion"><summary>Acabamento e montagem</summary><p>${esc(g.finish)}</p><ul>${g.pending.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details><details class="work-accordion"><summary>Documentos deste móvel</summary>${docs.length?docs.map(d=>`<p><a href="${workDocUrl(d)}" target="_blank" rel="noopener">${esc(d.title)} ↗</a></p>`).join(''):'<p>Consulte a matriz de módulos na documentação.</p>'}<p><a href="docs/01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd" download>Baixar FreeCAD com cores R16</a></p></details><div class="work-actions"><button id="isolateModule" class="work-primary" aria-pressed="false">Isolar no 3D</button><button id="printModule">Imprimir ficha</button></div>`;
  $('workBack').onclick=()=>{state.moduleFilter=null;state.focusPart=null;work.module=null;state.selected=null;$('workModule').value='';roomWorkshop();requestRender();};
- $('selectedInfo').querySelector('a[download]').href=workDocUrl({path:'01_Projeto/Consolidacao_R45_2026-10-23/Guedala_Park_R45_Consolidado.FCStd'});
+ $('selectedInfo').querySelector('a[download]').href=workDocUrl({path:'01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd'});
  $('isolateModule').onclick=()=>{state.moduleFilter=state.moduleFilter?null:code;$('isolateModule').textContent=state.moduleFilter?'Ver no ambiente':'Isolar no 3D';$('isolateModule').setAttribute('aria-pressed',String(!!state.moduleFilter));requestRender();};
  $('printModule').onclick=()=>printModule(m);$('exportPieces').onclick=()=>exportPieces(m);
  document.querySelectorAll('[data-piece]').forEach(b=>b.onclick=()=>{state.focusPart=b.dataset.piece;state.moduleFilter=code;$('isolateModule').textContent='Ver no ambiente';$('isolateModule').setAttribute('aria-pressed','true');document.querySelectorAll('[data-piece-row]').forEach(r=>r.classList.toggle('is-focused',r.dataset.pieceRow===state.focusPart));$('workContext').textContent=workPart(state.focusPart).label+' · destaque em ocre';requestRender();});
@@ -18005,7 +18016,7 @@ window.GuedalaWorkshop.showModule=showModule;window.GuedalaWorkshop.exportPieces
 document.querySelector('footer').innerHTML='GUEDALA PARK · Fichas de marcenaria R14 · 23/10/2026 <span>Geometria R45 · medidas nominais em mm</span>';
 document.querySelector('.welcome-copy p').textContent='Explore os ambientes em 3D. Cada móvel tem sua ficha; as medições do apartamento ficam em uma folha separada.';
 document.querySelector('.welcome-copy').insertAdjacentHTML('beforeend','<p class="project-repository"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Arquivos no GitHub ↗</a></p>');
-document.querySelector('#documents>p').insertAdjacentHTML('afterend',`<div class="fab-quick"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Menu de arquivos no GitHub ↗</a><a href="${workDocUrl({path:'05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip'})}" download>Baixar pacote para compartilhar · ZIP</a></div>`);
+document.querySelector('#documents>p').insertAdjacentHTML('afterend',`<div class="fab-quick"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Menu de arquivos no GitHub ↗</a><a href="${workDocUrl({path:'05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip'})}" download>Baixar pacote R16 para compartilhar · ZIP</a></div>`);
 
 
 /* Planta cotada: dimensões oficiais separadas da reconstrução do visualizador. */
