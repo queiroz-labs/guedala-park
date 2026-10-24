@@ -20,6 +20,9 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](Planta_mobiliada/README.md) |
 | Especificações | R01 | [Caderno de especificações](Caderno_de_especificacoes_R01.md) |
 | Pontos (elétrica, água, gás) | R00, preliminar | [Planta de pontos](Planta_pontos_R00/README.md) |
+| Cronograma de obra e compras | R00 | [Cronograma](Cronograma_obra_e_compras_R00.md) |
+| Pranchas (A3, com carimbo) | R00 | [Caderno de pranchas](../05_Entregas/Caderno_pranchas_R00/index.html) · [PDF](../05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf) |
+| Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](Mapa_conectores_R00/README.md) |
 | Orçamento | R43 | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md) |
 | Site 3D | Local atualizado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) (a versão publicada ainda é anterior) |
 
@@ -52,15 +55,18 @@ Detalhes no [roteiro para projeto oficial](Roteiro_para_projeto_oficial.md).
 ## O que falta, em ordem
 
 1. **Antes das chaves** (dá para fazer agora):
-   - escolher luminárias e tons;
+   - escolher as luminárias na [lista curta](Lista_curta_luminarias_e_madeira_R00.md) (as chapas do banheiro já foram escolhidas: Arauco Beige Matt e Louro Freijó Poro);
    - fechar as ferragens do banco e do cesto;
    - pedir orçamentos de marcenaria quando o pacote sair da espera;
-   - contratar o responsável técnico.
+   - contratar o responsável técnico e enviar os [e-mails preparados](Rascunhos_emails_R00.md);
+   - comprar 1 dobradiça piano e 2 pares de articuladores (~R$150) para o protótipo do banco ([preços](Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md)).
 2. **No dia das chaves:** seguir o [roteiro do dia das chaves](../04_Visita_ao_apartamento/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:**
    - ajustar modelo, fichas e orçamento às medidas reais;
    - protocolar o [plano de reforma](Plano_de_reforma_NBR16280_rascunho.md);
    - contratar e executar.
+
+Para conferir se os documentos continuam batendo entre si, rode `python 01_Projeto/verificar_consistencia.py` ([último resultado](Verificacao_consistencia.md)).
 
 ## Onde está o histórico
 

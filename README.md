@@ -22,6 +22,9 @@ Atualização local de 24/10/2026: [gaveta baixa P08 — seleção e link de com
 | Pedir orçamento de marcenaria | [Pacote de cotação R01](01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) |
 | Ver tomadas, luzes, água e gás previstos | [Planta de pontos preliminar](01_Projeto/Planta_pontos_R00/README.md) |
 | Preparar o dia da entrega das chaves | [Roteiro do dia das chaves](04_Visita_ao_apartamento/Roteiro_dia_das_chaves_R01.md) |
+| Ver o cronograma da obra e o que comprar antes | [Cronograma](01_Projeto/Cronograma_obra_e_compras_R00.md) |
+| Imprimir as pranchas (A3) | [Caderno de pranchas R00 (PDF)](05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf) |
+| Escolher luminárias | [Lista curta](01_Projeto/Lista_curta_luminarias_e_madeira_R00.md) |
 | Ver o que falta para virar projeto oficial | [Roteiro para projeto oficial](01_Projeto/Roteiro_para_projeto_oficial.md) |
 | Conferir o que falta resolver | [Pendências de projeto, oficina e apartamento](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
 | Continuar antes de receber o apartamento | [Decisões e trabalho que podem avançar sem medidas reais](01_Projeto/Continuidade_pre_entrega_2026-10-23.md) |

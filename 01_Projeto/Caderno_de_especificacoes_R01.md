@@ -28,8 +28,8 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Eliane Iseo Marfim AC | Lavanderia | Escolhido | PL-01 · 90 × 90 cm. Entrega cerâmica. |
 | Preto / grafite | Todos | Escolhido | Metais, pedestal, eletrônicos e detalhes. |
 | Tarkett Ambienta Design Olmo · 24192727 | Sala + jantar, Quarto, Escritório, Cozinha | Preferência aprovada | Vinílico em toda a casa, exceto banheiro/lavanderia. |
-| Bege fosco liso · banheiro | Banheiro | Direção aprovada | Frentes fechadas, sem ripado nem puxadores salientes. |
-| Madeira clara · laterais do banheiro | Banheiro | Direção aprovada | Madeira apenas nas laterais do gabinete e armário espelhado. |
+| Arauco Beige Matt · banheiro | Banheiro | Escolhido | Código escolhido em24/10/2026. |
+| Arauco Louro Freijó Poro · laterais do banheiro | Banheiro | Escolhido | Código escolhido em24/10/2026 para laterais aparentes do gabinete e espelheiro. |
 
 ## 2. Itens por ambiente
 
@@ -120,7 +120,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Cuba Deca Slim branca L.13040.17 | Primeira opção aprovada | 40 × 30 × 13,5 cm | Cuba de apoio retangular. |
 | Addra Arion Black · bica alta | Aprovado | Altura ~30 cm · desenho de instalação pendente | Água quente e fria. Centralizada atrás da cuba, entre cuba e espelho. |
 | Armário raso, todo espelhado | Aprovado | 60 cm L × 12–15 cm P externos · ensaio | Frente toda espelhada com portas e guarda conforme desenvolvimento FreeCAD. |
-| Espelho4000 K + indireta3000 K | Temperaturas e comandos aprovados | Dois grupos com comandos físicos separados | Frontal difusa do espelho4000 K para maquiagem e indireta3000 K, acionadas separadamente. |
+| Teto3000 K + espelho4000 K + indireta3000 K | Temperaturas e comandos aprovados | Três grupos com comandos físicos separados | Teto3000 K escolhido em24/10/2026. |
 | Box transparente + Addra Livo Black Matte | Direção aprovada | Faixa 80 × 124 cm brutos · hipótese | Ducha Livo BRS2003-BK / SKU2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. |
 | Prateleira do box em Branco Itaúnas | Direção aprovada | 25–30 × 10 cm · proposta | Apoio para shampoo e sabonete. |
 | Enchimento técnico existente | Entrega | Geometria e altura não medidas | P01 identifica enchimento. |

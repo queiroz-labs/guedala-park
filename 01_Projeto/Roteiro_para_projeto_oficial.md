@@ -18,7 +18,7 @@
 | Anteprojeto | 75% | Modelo R45, [acabamentos](Estudo_interativo/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa, madeira do banheiro, bege/off-white exatos, amostras |
 | Executivo de marcenaria | 45–55% | [Fichas R14](../05_Entregas/Fichas_fabricacao_R13/index.html), [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) | Ver item 4 |
 | Complementares | 30% | [Planta de pontos preliminar R00](Planta_pontos_R00/README.md): 50 pontos de elétrica, luz, água, esgoto e gás | Circuitos, traçados e assinatura do RT |
-| Pranchas formais | 30% | [PDFs R28/R30](../05_Entregas/README.md), históricos | Ver item 5 |
+| Pranchas formais | 45% | [Caderno de pranchas R00](../05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf): 7 pranchas A3 com carimbo (planta cotada, layout, pontos, vistas) | Elevações cotadas, detalhes da marcenaria e cotas finais após a medição |
 | Memorial e especificações | 70% | [Caderno de especificações R01](Caderno_de_especificacoes_R01.md), gerado a partir dos dados do site | Códigos de chapa e itens parciais; revisão do(a) RT |
 | Orçamento | 60% | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md): estimativa R$137,8 mil contra teto de R$120 mil | Cotações reais |
 | Responsabilidade técnica e aprovação | 10% | [Rascunho do plano de reforma NBR 16280](Plano_de_reforma_NBR16280_rascunho.md) e perguntas à administração | Contratar RT; protocolar após as chaves |
