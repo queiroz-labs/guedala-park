@@ -1,3 +1,5 @@
+> **Comece pelo [Estado atual](Estado_atual.md)** — resumo de uma página em 24/10/2026. Esta página guarda os registros por revisão.
+
 > **Conferência das ferragens simples:** [Bigfer com trava, piano Mahler e eixo Ômega — resultados e limites](Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md). Barras idealizadas passaram após ajustes; uma montagem encostava na tampa e outra na jarra. Armazenamento mantido no escopo geométrico ensaiado. Terminais, capacidade, montagem completa e preço instalado pendentes; não há liberação de compra/corte. Não depende das chaves para obter os dados de produto faltantes.
 
 **24/10/2026 — rodízios P08 selecionados:** Elias aprovou seis rodízios fixos Leão Aço de 38 mm e seis espaçadores metálicos rígidos de 1 mm, preservando 39 mm de apoio e 88 mm úteis. [Especificação e link de compra](Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Compra não realizada; furação, material recebido, carga e montagem real a conferir.

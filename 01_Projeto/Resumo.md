@@ -1,3 +1,5 @@
+> **Comece pelo [Estado atual](Estado_atual.md)** — resumo de uma página em 24/10/2026. Esta página guarda os registros por revisão.
+
 > **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
 
 **24/10/2026 — rodízios P08 selecionados:** Elias aprovou seis rodízios fixos Leão Aço de 38 mm e seis espaçadores metálicos rígidos de 1 mm, preservando 39 mm de apoio e 88 mm úteis. [Especificação e link de compra](Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Compra não realizada; furação, material recebido, carga e montagem real a conferir.

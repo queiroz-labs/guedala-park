@@ -1,0 +1,69 @@
+# Guedala Park — estado atual
+
+**24/10/2026.** Uma página para entender o projeto. Detalhes e histórico estão nos links; em caso de divergência, vale esta página e os documentos marcados como vigentes.
+
+## O projeto
+
+Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,18 m², dois dormitórios). **O apartamento ainda não foi entregue**, então todas as medidas são da planta oficial e ainda precisam ser conferidas no local.
+
+**Objetivo:** mudar com tudo pronto, com dois meses de obra depois das chaves e mudança no terceiro mês.
+
+**Verba:** R$120 mil de execução + R$10 mil de reserva intocada.
+
+## Versões vigentes
+
+| O quê | Versão | Abrir |
+|---|---|---|
+| Modelo 3D | FreeCAD R45, cores R16 | [Guedala_Park_R45_Cores_R16.FCStd](Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd) |
+| Fichas dos 20 móveis | R14 | [Fichas](../05_Entregas/Fichas_fabricacao_R13/index.html) · [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
+| Programa | R01 | [Programa de necessidades](Programa_de_necessidades_R01.md) |
+| Planta mobiliada e vistas | R02 | [Planta mobiliada](Planta_mobiliada/README.md) |
+| Especificações | R01 | [Caderno de especificações](Caderno_de_especificacoes_R01.md) |
+| Pontos (elétrica, água, gás) | R00, preliminar | [Planta de pontos](Planta_pontos_R00/README.md) |
+| Orçamento | R43 | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md) |
+| Site 3D | Local atualizado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) (a versão publicada ainda é anterior) |
+
+As fichas R14 têm decisões que ainda não estão aplicadas ao modelo R45.
+
+## Onde estamos
+
+| Etapa | % | Situação |
+|---|---:|---|
+| Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
+| Anteprojeto | 75% | Faltam códigos de chapa, tons exatos e luminárias |
+| Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, mapa de conectores e medidas reais |
+| Complementares | 30% | Planta de pontos preliminar; circuitos e traçados com o responsável técnico |
+| Especificações | 70% | Caderno gerado a partir dos dados do site |
+| Orçamento | 60% | Cenário de R$137,8 mil para teto de R$120 mil; pacote de marcenaria pronto, **em espera** |
+| Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
+| Levantamento no imóvel | 25% | Roteiro pronto; depende das chaves |
+
+Detalhes no [roteiro para projeto oficial](Roteiro_para_projeto_oficial.md).
+
+## Principais decisões tomadas
+
+- **Cores:** interiores Branco TX; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
+- **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiças.
+- **Quarto:** roupeiro de 65 cm de profundidade com portas de correr; queen futura; apoios de celular retirados.
+- **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
+- **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box.
+- **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório.
+
+## O que falta, em ordem
+
+1. **Antes das chaves** (dá para fazer agora):
+   - escolher luminárias e tons;
+   - fechar as ferragens do banco e do cesto;
+   - pedir orçamentos de marcenaria quando o pacote sair da espera;
+   - contratar o responsável técnico.
+2. **No dia das chaves:** seguir o [roteiro do dia das chaves](../04_Visita_ao_apartamento/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
+3. **Depois das chaves:**
+   - ajustar modelo, fichas e orçamento às medidas reais;
+   - protocolar o [plano de reforma](Plano_de_reforma_NBR16280_rascunho.md);
+   - contratar e executar.
+
+## Onde está o histórico
+
+- [Resumo](Resumo.md) e [Painel de decisões](Painel_de_decisoes.md): registros por revisão, do mais recente ao mais antigo.
+- [Registro de decisões](Registro_de_decisoes.md): histórico completo.
+- **Modelos FreeCAD antigos** (R30–R44, estudos e arquivo) foram para fora do projeto em `Documents\PROJETOS\Guedala_Park_FreeCAD_antigos.zip`. Também estão no commit `1b4aeaa` do git. A lista está em `99_Arquivo/_manifesto_fcstd_zip.json`.

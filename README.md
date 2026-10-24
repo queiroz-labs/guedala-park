@@ -15,6 +15,7 @@ Atualização local de 24/10/2026: [gaveta baixa P08 — seleção e link de com
 | Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R14](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
 | Consultar furações e suas referências | [Escolher o móvel e abrir “Furação” na ficha](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
 | Consultar distâncias entre paredes | [Planta cotada](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Planta_cotada_R13/index.html) |
+| **Entender o projeto em uma página** | [Estado atual](01_Projeto/Estado_atual.md) |
 | Ler o que cada ambiente precisa ter | [Programa de necessidades R01](01_Projeto/Programa_de_necessidades_R01.md) · [planta mobiliada R02](01_Projeto/Planta_mobiliada/README.md) |
 | Consultar marcas, modelos e acabamentos | [Caderno de especificações R01](01_Projeto/Caderno_de_especificacoes_R01.md) |
 | Preparar a aprovação da reforma no condomínio | [Rascunho do plano de reforma](01_Projeto/Plano_de_reforma_NBR16280_rascunho.md) |
