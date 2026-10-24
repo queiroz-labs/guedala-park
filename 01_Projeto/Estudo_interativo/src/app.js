@@ -1,7 +1,6 @@
 'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
-const WARDROBE_IMAGE='/*WARDROBE*/';
 const DETAILS_IMAGES=globalThis.GUEDALA_DETAILS||{};
 const state={bench:'closed',lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
@@ -303,26 +302,27 @@ function drawFloorFallback(ctx,f,project){
   // Restore the face outline for selection after the decorative paths.
   ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
 }
-async function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas||window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;st={...st,pan:[...st.pan]};const ticket=(canvas._renderTicket||0)+1;canvas._renderTicket=ticket;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');
-  let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
+async function render(canvas,st=state,mini=false,selectionOnly=null,sceneNodes=nodes){if(!canvas||window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;st={...st,pan:[...st.pan]};const ticket=(canvas._renderTicket||0)+1;canvas._renderTicket=ticket;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');
+  let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=sceneNodes.filter(n=>visible(n,st));let bounds=room.bounds;
   if(st.moduleFilter&&list.length){bounds=[Math.min(...list.map(n=>n.x))-8,Math.min(...list.map(n=>n.z))-8,Math.max(...list.map(n=>n.x+n.w))+8,Math.max(...list.map(n=>n.z+n.d))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base}));st={...st,ymax:Math.max(...list.map(n=>n.y+n.h))};}
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
   if(st.view==='side'&&st.sideCut&&!selectionOnly&&!st.moduleFilter){const midx=(bounds[0]+bounds[2])/2,midz=(bounds[1]+bounds[3])/2;list=list.filter(n=>!n.id||(st.side==='east'?n.x+n.w>=midx:st.side==='west'?n.x<=midx:st.side==='south'?n.z+n.d>=midz:n.z<=midz));}
-  if(selectionOnly){list=nodes.filter(n=>n.id===selectionOnly&&(n.opacity??1)>.01);if(!list.length)return;const vertices=list.flatMap(n=>mesh(n).flatMap(f=>f.p));bounds=[Math.min(...vertices.map(p=>p[0]))-8,Math.min(...vertices.map(p=>p[2]))-8,Math.max(...vertices.map(p=>p[0]))+8,Math.max(...vertices.map(p=>p[2]))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base,pivot:n.pivot?[n.pivot[0],n.pivot[1]-base,n.pivot[2]]:undefined}));}
+  if(selectionOnly){list=sceneNodes.filter(n=>n.id===selectionOnly&&(n.opacity??1)>.01);if(!list.length)return;const vertices=list.flatMap(n=>mesh(n).flatMap(f=>f.p));bounds=[Math.min(...vertices.map(p=>p[0]))-8,Math.min(...vertices.map(p=>p[2]))-8,Math.max(...vertices.map(p=>p[0]))+8,Math.max(...vertices.map(p=>p[2]))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base,pivot:n.pivot?[n.pivot[0],n.pivot[1]-base,n.pivot[2]]:undefined}));}
   const view={...st,mini,...(selectionOnly?{ymax:Math.max(...list.map(n=>n.y+n.h))}: {})},cam=camera(view,w,h,bounds),project=cam.project;let fs=[];
   const worldKey=JSON.stringify([st.room,st.view==='side'?st.side:null,st.sideCut,st.moduleFilter,st.upper,st.walls,selectionOnly]);
   let cached=WORLD_SCENES.get(canvas);
-  if(!cached||cached.nodes!==nodes||cached.key!==worldKey){
+  if(!cached||cached.nodes!==sceneNodes||cached.key!==worldKey){
     const faces=[],groups=[];let sliceStart=performance.now();
     for(const n of list){const part=mesh(n,false),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const f of part){faces.push(f);for(const p of f.p)for(let k=0;k<3;k++){min[k]=Math.min(min[k],p[k]);max[k]=Math.max(max[k],p[k]);}}groups.push({faces:part,min,max});if(performance.now()-sliceStart>8){await yieldToBrowser();sliceStart=performance.now();if(canvas._renderTicket!==ticket)return;}}
-    faces.pickGroups=groups;cached={nodes,key:worldKey,faces};WORLD_SCENES.set(canvas,cached);
+    faces.pickGroups=groups;cached={nodes:sceneNodes,key:worldKey,faces};WORLD_SCENES.set(canvas,cached);
   }
   const worldFaces=cached.faces,main=canvas.id==='scene';if(main){hitFaces=worldFaces;lastProject=cam;}
   const enhanced=!mini&&!selectionOnly&&enhancedLighting(st);
   if(main)syncLightingControls();
-  await prepareWorldDepth(worldFaces,main?st.selected:null,enhanced);if(canvas._renderTicket!==ticket)return;
+  const edgeSelection=main?st.selected:st.outlineSelection||null;
+  await prepareWorldDepth(worldFaces,edgeSelection,enhanced);if(canvas._renderTicket!==ticket)return;
   ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
-  const depthOK=renderWorldDepth(ctx,worldFaces,cam,w,h,ratio,main?st.selected:null,enhanced);
+  const depthOK=renderWorldDepth(ctx,worldFaces,cam,w,h,ratio,edgeSelection,enhanced);
   if(main){canvas.dataset.renderer=depthOK?'depth':'simplified';canvas.dataset.quality='detail';canvas.dataset.faces=String(worldFaces.length);canvas.dataset.cameraPath=depthOK?'gpu-matrix':'cpu-fallback';}
   if(!depthOK){fs=worldFaces.map(f=>{const points=f.p.map(project);return {...f,points,depth:points.reduce((s,p)=>s+p[2],0)/points.length,_mesh:f};});fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);if(main)hitFaces=fs;}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;ctx.fillStyle='#'+faceLighting(f,enhanced).map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');ctx.fill();
@@ -358,7 +358,6 @@ function activeRoom(o){if(o.id==='ps5')return state.console;if(o.id==='airfryer'
 function roomItems(room=state.room){return ITEMS.filter(o=>room==='all'||activeRoom(o)===room);}
 function selectItem(id,open=true){let it=ITEMS.find(o=>o.id===id);if(!it)return;state.selected=id;
   $('selectedInfo').innerHTML=`<h2>${esc(it.name)}</h2><span class="badge ${chosen(it)?'':'study'}">${esc(it.choice)}</span><span class="badge ${needsCheck(it)?'study':''}">${esc(it.measure)}</span><canvas id="itemPreview" class="item-preview" aria-label="Volume ilustrativo do móvel selecionado"></canvas><div class="dimensions">${esc(it.dimensions)}</div><dl><dt>Material / cor</dt><dd>${esc(MAT[it.material]?.name||it.material)}</dd>${it.budget?'<dt>Orçamento registrado</dt><dd>'+esc(it.budget)+'</dd>':''}<dt>Conferir antes de executar</dt><dd>${esc(it.notes)}</dd></dl><h3>Origem da decisão</h3><p>${esc(it.source)}</p>`;
-  if(id==='wardrobe')$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Programa de guarda e medidas atuais</summary><a href="${WARDROBE_IMAGE}" target="_blank" rel="noopener"><img src="${WARDROBE_IMAGE}" alt="Programa do roupeiro com profundidade65, aéreos alinhados, quatro gavetas e dez pares de tênis" style="width:100%;height:auto"></a><p>Esquema funcional. Os painéis do desenho3D vêm da revisão FreeCAD R45; medidas reais e ferragens continuam a conferir.</p></details>`);
   if(DETAILS_IMAGES[id])$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Ver o detalhamento atualizado</summary><a href="${DETAILS_IMAGES[id]}" target="_blank" rel="noopener"><img src="${DETAILS_IMAGES[id]}" alt="Detalhamento de estudo de ${esc(it.name)}, com limites de execução" style="width:100%;height:auto"></a><p>Proposta para conferência e cotação. Não libera fabricação.</p></details>`);
   if(INTERNALS[id]){$('selectedInfo').insertAdjacentHTML('beforeend','<button id="itemStorage" class="storage-link">Ver organização interna →</button>');$('itemStorage').onclick=()=>openStorage(id);}
   if(open){infoReturnTarget=document.activeElement;$('inspector').classList.add('open');if(matchMedia('(max-width:1150px)').matches){$('inspector').setAttribute('role','dialog');$('inspector').setAttribute('aria-modal','true');$('closeInfo').focus({preventScroll:true});}else $('inspector').scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'nearest'});}drawLists();requestRender();setTimeout(()=>render($('itemPreview'),{...state,room:'all',view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true,selected:null},true,id),0);
@@ -390,20 +389,33 @@ function requestRender(){
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
 function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood'){buildMood();renderMood();}if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
-function storageDiagram(id){
- const kind=INTERNALS[id].diagram;
- if(kind==='wardrobe')return `<img class="storage-plan" src="${WARDROBE_IMAGE}" alt="Interior aprovado R02 do guarda-roupa, com dois lados iguais, quatro gavetas e espaços para cabides e tênis">`;
- if(kind==='kitchen'){
-  const modules=[['D','Depurador',65,197.6,[],true],['C','Pia',54.7,155,[174.8,195.8,223.4],false],['B','Micro-ondas',69.7,194,[223.4],false],['A','Geladeira',80.1,198.4,[],true]];
-  return `<div class="storage-schematic" role="img" aria-label="Aéreos vistos de frente: D e A divididos verticalmente; C com quatro níveis e B com dois. Cotas preliminares."><div class="kitchen-elevation">${modules.map(([letter,name,width,base,shelves,vertical])=>`<div class="elevation-module" style="flex:${width};height:${(255-base)*2}px"><div class="module-box">${vertical?'<i class="vertical-divider"></i>':''}${shelves.map(y=>`<i class="horizontal-divider" style="bottom:${(y-base)/(255-base)*100}%"></i>`).join('')}<strong>${letter}</strong></div><span>${name}<small>${String(width).replace('.',',')} cm</small></span></div>`).join('')}</div><p>Vista frontal · divisões aprovadas · larguras externas de estudo</p></div>`;
- }
- const levels=kind==='sink'?['Panelas: duas pilhas de pequena + média','Pressão 3 L · tampas · frigideira · tábuas · escorredor']:kind==='drawers'?['G1 · 16 cm · Talheres e facas','G2 · 16 cm · Utensílios de preparo','G3 · 40 cm · Mantimentos, bebidas e temperos em pé']:null;
- return levels?`<div class="storage-levels" role="img" aria-label="Organização de cima para baixo">${levels.map((s,i)=>`<div><span>${i+1}</span>${s}</div>`).join('')}</div><p class="diagram-caption">Esquema de organização; não representa o tamanho dos utensílios.</p>`:'';
+const STORAGE_MODULES={kitchenupper:['P09','P10','P11','P12'],sinkstorage:['P05'],kitchenbase:['P06'],lowdrawer:['P08'],wardrobe:['P01'],bedcabinet:['P02','P03','P04'],laundrybase:['P14'],laundryupper:['P15'],officecab:['P17'],drawers:['P16'],bathvanity:['P18'],bathmirror:['P19']};
+function storageModel(id){
+ const modules=STORAGE_MODULES[id]||[],st={...state,inside:true,upper:true,moduleFilter:null,focusPart:null};
+ return applyCadSync([],st).filter(n=>modules.includes(n.module));
 }
+function storageDiagram(id){
+ return `<div class="storage-view-controls" role="group" aria-label="Vista do interior"><button type="button" data-storage-view="front" aria-pressed="${id!=='bedcabinet'}">Frente</button><button type="button" data-storage-view="perspective" aria-pressed="${id==='bedcabinet'}">Perspectiva</button></div><div class="storage-preview-wrap"><canvas id="storagePreview" role="img" aria-label="Interior atual: ${esc(INTERNALS[id].title)}"></canvas><p id="storagePreviewStatus" role="status">Carregando interior…</p></div><p class="diagram-caption">Interior do modelo R45 · ${esc((STORAGE_MODULES[id]||[]).join(' · '))} · frentes ocultas para consulta</p>`;
+}
+async function renderStoragePreview(id,mode){
+ const canvas=$('storagePreview'),status=$('storagePreviewStatus');if(!canvas||!INTERNALS[id])return;
+ mode=mode||canvas.dataset.mode||(id==='bedcabinet'?'perspective':'front');canvas.dataset.mode=mode;
+ if(window.GUEDALA_WEB&&!GUEDALA_WEB.geometryReady)return;
+ const list=storageModel(id),room=ITEMS.find(i=>i.id===id).room;
+ const front=id==='officecab'?-Math.PI/2:Math.PI,angle=mode==='front'?front:id==='bedcabinet'?-3*Math.PI/4:front+.3;
+ const st={...state,room,view:'iso',sideCut:false,angle,tilt:mode==='front'?0:.35,zoom:1,pan:[0,0],inside:true,upper:true,walls:false,selected:null,moduleFilter:'storage/'+id,focusPart:null,outlineSelection:id};
+ status.hidden=false;status.textContent='Preparando interior…';
+ await render(canvas,st,true,null,list);
+ if(canvas!==$('storagePreview'))return;
+ canvas.dataset.storageId=id;canvas.dataset.partCount=String(list.length);canvas.dataset.ready='true';status.hidden=true;
+}
+
 function showStorage(id){
  const data=INTERNALS[id];if(!data)return;
  $('storageSelect').value=id;
  $('storageContent').innerHTML=`<h3>${esc(data.title)}</h3><span class="badge study">${esc(data.status)}</span>${storageDiagram(id)}<dl class="storage-details">${data.rows.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl><p class="storage-note">${esc(data.note)}</p><button id="storageInScene">Ver este armário no 3D</button>`;
+ $('storageContent').querySelectorAll('[data-storage-view]').forEach(button=>button.onclick=()=>{const mode=button.dataset.storageView;$('storageContent').querySelectorAll('[data-storage-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderStoragePreview(id,mode);});
+ requestAnimationFrame(()=>renderStoragePreview(id));
  $('storageInScene').onclick=()=>{$('storageDialog').close();tab('model');setRoom(ITEMS.find(o=>o.id===id).room);state.inside=true;state.upper=true;$('insideToggle').checked=true;$('upperToggle').checked=true;selectItem(id,false);requestRender();};
 }
 function openStorage(id){
@@ -445,8 +457,10 @@ canvas.addEventListener('wheel',e=>{e.preventDefault();moveCamera();state.zoom=M
 function inPolygon(x,y,p){let inside=false;for(let i=0,j=p.length-1;i<p.length;j=i++){let a=p[i],b=p[j];if(((a[1]>y)!==(b[1]>y))&&(x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]))inside=!inside;}return inside;}
 canvas.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-','0'].includes(e.key)){e.preventDefault();moveCamera();if(e.key==='ArrowLeft')state.angle-=.15;if(e.key==='ArrowRight')state.angle+=.15;if(e.key==='ArrowUp')state.tilt=Math.min(1.42,state.tilt+.1);if(e.key==='ArrowDown')state.tilt=Math.max(.16,state.tilt-.1);if(e.key==='+')state.zoom=Math.min(5,state.zoom*1.15);if(e.key==='-')state.zoom=Math.max(.45,state.zoom/1.15);if(e.key==='0'){state.zoom=1;state.pan=[0,0];}requestRender();}});
 function init(){
-  $('storageSelect').innerHTML=Object.keys(INTERNALS).map(id=>`<option value="${id}">${esc(ITEMS.find(o=>o.id===id).name)}</option>`).join('');
+  $('storageSelect').innerHTML=Object.keys(INTERNALS).map(id=>`<option value="${id}">${esc(INTERNALS[id].title)}</option>`).join('');
   $('storageSelect').onchange=e=>showStorage(e.target.value);
+  window.addEventListener('guedala-geometry-ready',()=>{if($('storageDialog').open)renderStoragePreview($('storageSelect').value);});
+  window.addEventListener('resize',()=>{if($('storageDialog').open)renderStoragePreview($('storageSelect').value);});
   $('openStorage').onclick=()=>openStorage(state.selected);
   $('closeStorage').onclick=()=>$('storageDialog').close();
   $('storageDialog').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect();if(e.target===e.currentTarget&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))e.currentTarget.close();});

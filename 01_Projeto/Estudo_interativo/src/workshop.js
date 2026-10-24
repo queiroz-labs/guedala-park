@@ -43,7 +43,8 @@ function showModule(code){
  $('selectedInfo').querySelector('a[download]').href=workDocUrl({path:'01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd'});
  $('isolateModule').onclick=()=>{state.moduleFilter=state.moduleFilter?null:code;$('isolateModule').textContent=state.moduleFilter?'Ver no ambiente':'Isolar no 3D';$('isolateModule').setAttribute('aria-pressed',String(!!state.moduleFilter));requestRender();};
  $('printModule').onclick=()=>printModule(m);$('exportPieces').onclick=()=>exportPieces(m);
- document.querySelectorAll('[data-piece]').forEach(b=>b.onclick=()=>{state.focusPart=b.dataset.piece;state.moduleFilter=code;$('isolateModule').textContent='Ver no ambiente';$('isolateModule').setAttribute('aria-pressed','true');document.querySelectorAll('[data-piece-row]').forEach(r=>r.classList.toggle('is-focused',r.dataset.pieceRow===state.focusPart));$('workContext').textContent=workPart(state.focusPart).label+' · destaque em ocre';requestRender();});
+ const panelPieceButtons=$('selectedInfo').querySelectorAll('[data-piece],[data-piece-group]');
+ panelPieceButtons.forEach(b=>b.onclick=()=>{const ids=(b.dataset.pieceGroup||b.dataset.piece).split('|');state.focusPart=ids.length===1?ids[0]:ids;state.moduleFilter=code;$('isolateModule').textContent='Ver no ambiente';$('isolateModule').setAttribute('aria-pressed','true');document.querySelectorAll('[data-piece-row]').forEach(r=>r.classList.toggle('is-focused',(r.dataset.pieceIds||r.dataset.pieceRow).split('|').some(id=>ids.includes(id))));$('workContext').textContent=(ids.length===1?workPart(ids[0]).label:ids.length+' peças equivalentes')+' · destaque em ocre';requestRender();});
  $('workContext').textContent=`${code} · ${m.name} · ${ps.length} peças com referência dimensional`;
  updateMetrics();
  requestRender();

@@ -23,6 +23,12 @@ jobs:
         run: node 01_Projeto/Estudo_interativo/test_orientation.cjs
       - name: Preparar HTML e moodboard
         run: python3 01_Projeto/Estudo_interativo/preparar_pages.py
+      - name: Conferir agrupamento de peças
+        run: |
+          python3 01_Projeto/Estudo_interativo/test_part_groups.py
+          node 01_Projeto/Estudo_interativo/test_part_groups_ui.cjs
+      - name: Conferir interiores em corte
+        run: node 01_Projeto/Estudo_interativo/test_storage.cjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .site

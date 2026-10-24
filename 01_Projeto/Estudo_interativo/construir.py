@@ -12,9 +12,7 @@ for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/')
     content=(src/name).read_text(encoding='utf-8')
     if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+content
     html=html.replace(token,content)
-wardrobe=root/'Consolidacao_R11_2026-10-20/Guarda_roupa_R31.svg'
-ward='data:image/svg+xml;base64,'+base64.b64encode(wardrobe.read_bytes()).decode('ascii')
-html=html.replace('/*WARDROBE*/',ward)
+
 details={}
 for key,path in [('oven',root.parent/'Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/Grelhas_manutencao.png')]:
     details[key]='data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode('ascii')

@@ -25,3 +25,7 @@
 
 /* Legibilidade e reserva do estado de carregamento. */
 .roomlist .room-card small{color:#4b5d48}.scene-loading{position:absolute;inset:40% 18px auto;text-align:center;color:#43594d;font-size:14px}.scene-loading button{display:block;margin:12px auto}.scene-loading[hidden]{display:none}.fab-drill .work-note a,.fab-next a{display:inline-block;min-height:32px;padding:6px 0;margin:3px 0}
+
+.fab-parts .fab-part-qty{font-size:14px;text-align:center;vertical-align:top}.fab-part-members{white-space:normal;min-width:125px}.fab-part-members summary{cursor:pointer;font-size:10px;padding:7px 0;min-height:32px}.fab-part-members ul{list-style:none;padding:0;margin:0}.fab-part-members button{overflow-wrap:anywhere}.fab-parts td:first-child>small{white-space:normal;max-width:170px}
+
+.storage-view-controls{display:flex;gap:8px;margin:18px 0 10px}.storage-view-controls [aria-pressed=true]{background:var(--ink);color:white}.storage-preview-wrap{position:relative;background:#eeece3;border:1px solid var(--line);border-radius:10px;overflow:hidden}.storage-preview-wrap canvas{display:block;width:100%;height:clamp(280px,52vh,480px)}.storage-preview-wrap p{position:absolute;inset:40% 12px auto;text-align:center;background:var(--card);padding:12px}.storage-preview-wrap p[hidden]{display:none}

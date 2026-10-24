@@ -26,7 +26,7 @@ async function startGeometry(){
    worker.onerror=()=>end(Error('Não foi possível preparar o modelo'));
    worker.postMessage({url:new URL(GUEDALA_WEB.geometryUrl,document.baseURI).href});
   });
-  GUEDALA_WEB.geometryReady=true;lastSceneState='';
+  GUEDALA_WEB.geometryReady=true;lastSceneState='';window.dispatchEvent(new Event('guedala-geometry-ready'));
   status.textContent='Preparando a vista do apartamento…';
   requestRender();if(document.getElementById('mood').classList.contains('active'))renderMood();
  }catch(error){

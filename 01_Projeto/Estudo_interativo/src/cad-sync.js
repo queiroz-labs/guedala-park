@@ -27,17 +27,21 @@ function cadMesh(n){
  }
  return finish(n.t.map((f,i)=>({p:f.map(k=>[n.x+n.v[k][0],n.y+n.v[k][1],n.z+n.v[k][2]]),normal:cached.normals[i],edgeMask:cached.masks[i],c:cadFaceColor(n,cached.normals[i],i),alpha:n.opacity??1,id:n.id,room:n.room,node:n})));
 }
+// Covers not tagged as fronts in the R45 export. Fixed corner fascia is hidden
+// only for the inspection cut; supports, geometry and quantities remain intact.
+const INTERIOR_COVERS=new Set(['FrenteVizinhaR18','FaixaQuinaAR04','FaixaQuinaBR04']);
+function isInteriorCover(part){return !!part.front||INTERIOR_COVERS.has(part.source);}
 function applyCadSync(scene,st){
  const ids=new Set(CAD_DATA.replacements);
  const result=scene.filter(n=>!ids.has(n.id));
  for(const part of CAD_DATA.parts){
   if(part.scenario && part.scenario!==st.table)continue;
   if(st.moduleFilter && part.module!==st.moduleFilter)continue;
-  if(st.inside&&part.front)continue;
+  if(st.inside&&isInteriorCover(part))continue;
   const n={...part};
   n.visualFinish=VISUAL_FINISHES.parts[part.source];
   if(n.visualFinish){n.mat=n.visualFinish.material;n.c=color(n.mat);}
-  if(st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
+  if(Array.isArray(st.focusPart)?st.focusPart.includes(part.source):st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
   result.push(n);
  }
  return st.moduleFilter?result.filter(n=>n.module===st.moduleFilter):result;
