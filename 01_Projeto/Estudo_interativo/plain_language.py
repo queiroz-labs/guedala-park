@@ -5,6 +5,7 @@ identificadores, URLs, fórmulas ou referências comerciais dos dados técnicos.
 """
 from html import escape, unescape
 import re
+import hashlib
 
 
 SUMMARIES = {
@@ -28,6 +29,30 @@ SUMMARIES = {
     'P18': 'Gabinete com portas de correr e frente removível para manutenção. Confira os trilhos, as uniões e os parafusos de fixação.',
     'P19': 'Armário com espelho e portas com dobradiças da marca Blum. O projeto prevê apoios e conectores para unir as peças. Falta conferir a montagem, o espelho e a fixação na parede.',
     'P20': 'Banco com duas tampas. Cada tampa terá uma dobradiça contínua e suportes com trava. Teste a montagem antes de definir os furos.',
+}
+
+# Uma atualização técnica futura mantém seu próprio resumo, sem recuperar uma descrição antiga.
+SUMMARY_INPUT_HASHES = {
+    "P01": "4ca11d68261b4ef09cde89666d0f840840dd9761569b03f76830d565f501b471",
+    "P02": "196da7cb7a19d0fce64cd5c93f9548738cd34e5fd95352f21661d909a7041c59",
+    "P03": "de87722448b6dedc7af14557e6d745c057658561a9b82631b8ca372fd6bb3411",
+    "P04": "b3d5c5a97b284e4468bcab78bbd8f35c850be1c35784599794d9aecd7b3b235b",
+    "P05": "b8f0652b73b09a998ad5f020aa92ea37612ea4eb676068264a5618c9c3c151b3",
+    "P06": "ef8d0f8224b4fde66db729e37e4b95e062fe8c8589b754e451135d037b55a123",
+    "P07": "f3d7ff96b7799241b7774ae6e5d74674a3958442773de4e0df6d8c2f0ecbc164",
+    "P08": "50c191925454a4ec69f7feeec1e69cc9a20118b4e729156fe5c9628a21e238bd",
+    "P09": "b152ceee75f38a2b0bde4e37a1e1a9ddf72380bd26ce9c3479df58f9b742a40a",
+    "P10": "77faa72f3f1b60a8d5fa6e3e88dde5fd917dd871b103586213adc2ce2545d2ea",
+    "P11": "599b1e57e81df02e5c65f7bfcd22d4d71ff20e0f8d79981ad5789111a3b06b96",
+    "P12": "f0f5594cea3aad21466d7fd34300e10b5dec99ed19bed7b84a91f9aa2d69cbe2",
+    "P13": "ddaf60bb5d2a0a442323c9ee714ea62326e5b7e3f6922ca805755d6b13a1681a",
+    "P14": "2fa6ecf6cb3bb3b3924320ba8ce94c17f1f17be9fa53236961137b19344ce04e",
+    "P15": "ef7bfd5ce066fbaf27aaa153d55d33c18929159982e19cd2b5b57b6bd505f9e2",
+    "P16": "0bbed8762fd2438b6d1e1f8c3fd94cad59cd447bbd190bbebabc8ab286938193",
+    "P17": "4d1579c4ee680d4a3fbcd9cf6a592f52dfffa1257c966845579821e5c342cc91",
+    "P18": "de80b3a170429572059bbaa532882d3ec068a36bca30a0caeca46bf04fbfc3ea",
+    "P19": "a30cca0689deee56f125e354d5fb1842f5303508e32855ff7dc2a0f5ef76cf88",
+    "P20": "ea3bd9db579cb397c2b239de5604d5cf287de474b40caf80aaa05bf26c8e2e79"
 }
 
 NAMES = {
@@ -237,6 +262,8 @@ def plain_text(value):
     # Arquivos e links exibidos como fontes devem continuar copiáveis.
     if re.match(r'^(?:https?://|data:|[A-Za-z]:[\\/]|(?:\d\d_|src/|fabrication/))', s):
         return value
+    s = re.sub(r'^Blum nas duas portas\.', 'Duas portas com dobradiças da marca Blum.', s)
+    s = re.sub(r'^Blum nas portas\.', 'Portas com dobradiças da marca Blum.', s)
     replacements = [
         (r'\b[Ff]uração nominal\b', 'furos previstos no projeto'),
         (r'\b[Mm]apa nominal\b', 'desenho de montagem do projeto'),
@@ -339,8 +366,11 @@ def plain_data(value, key=''):
 
 
 def plain_module(g):
+    original_summary = g.get('technicalSummary', '')
     g.update(plain_data(g))
-    g['technicalSummary'] = SUMMARIES[g['code']]
+    code = g['code']
+    if original_summary == SUMMARIES[code] or hashlib.sha256(original_summary.encode()).hexdigest() == SUMMARY_INPUT_HASHES[code]:
+        g['technicalSummary'] = SUMMARIES[code]
     g['name'] = NAMES.get(g['code'], NAMES.get(g['name'], g['name']))
     old = g['finishSummary']
     if old.startswith('Interiores Branco TX. '):
