@@ -50,7 +50,7 @@
 
 ### 4. Fechar o executivo de marcenaria
 - [ ] Desenhar a distribuição de conectores nas "ligações sem mapa" de cada módulo.
-- [ ] Incorporar as definições das fichas R14 ao modelo FreeCAD. Hoje modelo e fichas divergem; só a P08 (rodízios) já está no modelo vigente, e o P19 está em estudo separado.
+- [ ] Incorporar as definições das fichas R14 ao modelo FreeCAD. **Feito em grande parte na [R46](Fichas_no_CAD_R46_2026-10-24/README.md)** (24/10): ferragens por móvel, especificação por peça e 52 Minifix como marcadores. Faltam os furos executivos após a prova em retalho, a geometria da FGVTN 500 (pedir o STEP ao fabricante) e a piano do banco após o protótipo.
 - [ ] Fechar as montagens pendentes, conforme a [continuidade pré-entrega](Continuidade_pre_entrega_2026-10-23.md):
   - banco P20: dobradiça piano + articuladores com trava já nas fichas; faltam apoio da piano, terminais e protótipo;
   - cesto P14;

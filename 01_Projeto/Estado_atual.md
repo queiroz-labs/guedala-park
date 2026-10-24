@@ -14,7 +14,7 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | FreeCAD R45, cores R16, rodízios P08 | [Guedala_Park_R45_Rodizios_P08.FCStd](Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd) |
+| Modelo 3D | FreeCAD R46 (geometria R45, cores R16, P08, fichas R14) | [Guedala_Park_R46_Fichas_R14.FCStd](Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd) · [o que mudou](Fichas_no_CAD_R46_2026-10-24/README.md) |
 | Fichas dos 20 móveis | R14 | [Fichas](../05_Entregas/Fichas_fabricacao_R13/index.html) · [Pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
 | Programa | R01 | [Programa de necessidades](Programa_de_necessidades_R01.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](Planta_mobiliada/README.md) |
@@ -26,7 +26,7 @@ Projeto de interiores e marcenaria de um apartamento Cury Guedala Park III (Torr
 | Orçamento | R43 | [Orçamento R43](Orcamento_R43_2026-10-22/Orcamento_R43.md) |
 | Site 3D | Publicado em 24/10 | [Site interativo](Estudo_interativo/Guedala_Park_Interativo.html) · [versão online](https://queiroz-labs.github.io/guedala-park/) |
 
-As fichas R14 têm decisões que ainda não estão aplicadas ao modelo R45 (por exemplo, P20 com dobradiça piano e Minifix do P19); a P08 já está no modelo.
+Na R46 o modelo traz as ferragens das fichas por móvel, a especificação de cada peça e os 52 Minifix como marcadores. Continuam fora da geometria: os furos, a forma da FGVTN 500 (sem STEP oficial) e a dobradiça piano do banco.
 
 ## Onde estamos
 

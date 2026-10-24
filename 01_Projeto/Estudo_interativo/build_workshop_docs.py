@@ -46,7 +46,7 @@ doc('batente','Batente mecânico do banco','Montagem','sala','Alternativa','Geom
 doc('torneiras','Conferência de cubas e torneiras','Compatibilização','cozinha,banho','Em estudo','Envelopes e medidas disponíveis; instalação depende dos produtos.',TAPS+'Conferencia.html')
 doc('purangi','Purangi: vedação e abertura','Compatibilização','banho','Não liberado','Compatibilidade integral não comprovada; troca não liberada.',TAPS+'Resultado_vedacao_abertura.md')
 doc('forno','Forno: grelhas e manutenção','Compatibilização','cozinha','Em estudo','R02 dos apoios e grelhas removíveis; montagem e ventilação condicionadas.','01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md')
-doc('cad','FreeCAD · R45, cores R16 e rodízios P08','FreeCAD','all','P08 atualizado','Seis rodízios de 38 mm com seis espaçadores de 1 mm; demais geometrias e posições preservadas.',P08_CASTERS+'Guedala_Park_R45_Rodizios_P08.FCStd')
+doc('cad','FreeCAD R46 · fichas R14 no modelo','FreeCAD','all','R46 · 24/10','Geometria R45, cores R16 e P08 preservadas; ferragens das fichas por móvel, especificação por peça e 52 Minifix como marcadores.','01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd')
 doc('cad-cores','Atualização de cores do FreeCAD','Acabamentos','all','R16','Registro dos acabamentos visuais; cores aproximadas e limites da atualização.',CAD_COLORS+'README.md')
 doc('cad-southco','FreeCAD: fixação Southco','FreeCAD','sala','Estudo separado','Proposta R47 para inspeção; não substitui o modelo principal.',R47+'Southco_Fixacao_ESTUDO.FCStd')
 doc('cad-purangi','FreeCAD: sensibilidade Purangi','FreeCAD','banho','Estudo separado','Envelopes hipotéticos para conferir abertura; não é CAD certificado.',TAPS+'Purangi_R45_SENSIBILIDADE.FCStd')
@@ -68,6 +68,8 @@ ASSETS = [
     BATH+'P19_Unioes_nominais.csv', BATH+'Consultas_tecnicas.txt',
     P08_CASTERS+'Selecao.json',
     P08_CASTERS+'Verificacao_CAD.json',
+    '01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md',
+    '01_Projeto/Fichas_no_CAD_R46_2026-10-24/Verificacao_R46.json',
     CAD_COLORS+'Plano_de_cores.json',
     CAD_COLORS+'Verificacao_cores.json',
     CAD_COLORS+'Verificacao_geometria.json',

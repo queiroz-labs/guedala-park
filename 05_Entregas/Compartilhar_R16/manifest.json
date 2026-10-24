@@ -1,17 +1,17 @@
 {
   "revision": "R16",
-  "cadRevision": "R45 + P08 2026-10-24",
+  "cadRevision": "R46 (R45 + P08 + fichas R14) 2026-10-24",
   "appearanceRevision": "R16",
   "fabricationRevision": "R14",
-  "cadPath": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd",
-  "cadSHA256": "f4a9145b380eac0a9bc9b628bc7a8397c511d0b7550e0b0dc91cf7662031624c",
+  "cadPath": "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd",
+  "cadSHA256": "2ebcc014478c9d09569e278296a6809bf207edb5e280ac45d226aa642ec3443d",
   "legacyAliases": [
     "05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip"
   ],
   "files": [
     "COMECE_AQUI.html",
     "manifest.json",
-    "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd",
+    "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Plano_de_cores.json",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Verificacao_cores.json",
@@ -19,6 +19,8 @@
     "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md",
     "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.json",
     "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Verificacao_CAD.json",
+    "01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md",
+    "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Verificacao_R46.json",
     "02_Plantas_e_manuais/Planta_oficial.pdf",
     "05_Entregas/Fichas_fabricacao_R13/index.html",
     "05_Entregas/Fichas_fabricacao_R13/Levantamento.html",
@@ -133,5 +135,5 @@
     "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Consultas_tecnicas.txt",
     "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd"
   ],
-  "scope": "R45 with R16 appearance; P08 updated to six 38 mm casters plus six 1 mm spacers, 39 mm total. Other geometry and placements preserved. Current R14 fabrication and floorplan artifacts. Legacy R14 ZIP URL serves this same R16 package."
+  "scope": "R46: R45 geometry with R16 appearance and P08 casters (six 38 mm plus six 1 mm spacers, 39 mm total); R14 fabrication data stored as properties and 52 Minifix markers, no panel drilled. Other geometry and placements preserved. Current R14 fabrication and floorplan artifacts. Legacy R14 ZIP URL serves this same R16 package."
 }
