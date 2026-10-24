@@ -4,6 +4,7 @@ import json
 import os
 import runpy
 import shutil
+import subprocess
 
 study = Path(__file__).resolve().parent
 root = study.parent.parent
@@ -25,12 +26,13 @@ for source, destination, image_path in [
     destination.write_text(html, encoding='utf-8')
 
 shutil.copyfile(root / '03_Referencias/Moodboard_visual_atualizado_R01.png', site / 'moodboard.png')
+subprocess.run(['node',str(study/'build_web.mjs')],check=True)
 (site / '.nojekyll').write_text('', encoding='utf-8')
-(site / 'versao.json').write_text(json.dumps({'revisao':'R17-rotacao-formas-preservadas','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+(site / 'versao.json').write_text(json.dumps({'revisao':'R18-performance-mobile-apto','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
 
 
 expected = {'index.html', 'moodboard/index.html', 'moodboard.png', '.nojekyll', 'versao.json'}
-actual = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file() and 'docs' not in p.relative_to(site).parts}
+actual = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file() and p.relative_to(site).parts[0] not in ('docs','assets')}
 if actual != expected:
     raise SystemExit('A pasta .site contem arquivos inesperados; revisar antes de publicar.')
 print('Pages preparado: HTML, moodboard e imagem de materiais.')

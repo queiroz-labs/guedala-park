@@ -56,7 +56,7 @@ DRILL_FIELDS=[('partIds','Peças CAD'),('face','Face a trabalhar'),('datum','Ori
 def drilling_html(g):
     out='<p>Valores em milímetros. Cada operação informa sua situação: parâmetro de catálogo, mapa nominal ou detalhe ainda bloqueado. Coordenadas nominais exigem conferência da ferragem e prova em retalho antes de usinar a peça.</p><p class="no-print"><a class="action" href="'+g['code']+'-furacao.csv" download>Baixar tabela de furação CSV</a></p>'
     if g.get('drawings'):
-        out+='<details class="no-print"><summary>Ver mapas por peça · '+str(len(g['drawings']))+' vistas</summary><a href="'+g['code']+'-furacao.svg" target="_blank" rel="noopener">Abrir desenho completo ↗</a><img style="width:100%;height:auto" src="'+g['code']+'-furacao.svg" alt="'+g['code']+': mapas nominais de furação com origem e face identificadas"></details>'
+        out+='<details class="no-print"><summary>Ver mapas por peça · '+str(len(g['drawings']))+' vistas</summary><a href="'+g['code']+'-furacao.svg" target="_blank" rel="noopener">Abrir desenho completo ↗</a><img width="1000" height="'+str(440*len(g['drawings'])+60)+'" style="width:100%;height:auto" src="'+g['code']+'-furacao.svg" alt="'+g['code']+': mapas nominais de furação com origem e face identificadas"></details>'
     for row in g['drilling']:
         out+='<article class="drilling-card"><div class="drilling-head"><h3>'+text(row['item'])+'</h3><span class="tag">'+text(row['status'])+'</span></div><dl>'
         for field,label in DRILL_FIELDS:

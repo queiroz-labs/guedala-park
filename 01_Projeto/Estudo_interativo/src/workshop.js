@@ -7,7 +7,7 @@ const workGuide=m=>(typeof MODULE_GUIDANCE!=='undefined'&&MODULE_GUIDANCE[m.code
 const workDocs=()=>typeof WORKSHOP_DOCS!=='undefined'?WORKSHOP_DOCS:[];
 updateMetrics=function(){const m=workModule(work.module);$('metrics').innerHTML=m?(m.dimensionsLocal||m.dimensions).map((v,i)=>`<div class="metric"><b>${mm(v)} mm</b><span>${['Largura','Profundidade','Altura'][i]}</span><small>Medida geométrica R45</small></div>`).join(''):'<p class="work-note">Selecione um módulo para consultar as medidas em milímetros.</p>';$('roomNote').textContent='Dimensões do modelo, sujeitas à conferência de campo. Vãos internos e ligações estão nos documentos da ficha.';};
 drawAnnotations=function(ctx,pr,cam,w,h,st){if(!st.measures||!work.module)return;const ps=nodes.filter(n=>n.module===work.module);if(!ps.length)return;let x=Math.min(...ps.map(n=>n.x)),z=Math.min(...ps.map(n=>n.z)),y=Math.min(...ps.map(n=>n.y)),xx=Math.max(...ps.map(n=>n.x+n.w)),zz=Math.max(...ps.map(n=>n.z+n.d)),yy=Math.max(...ps.map(n=>n.y+n.h));if(st.moduleFilter){yy-=y;y=0;}dimension(ctx,pr,[x,y,z-8],[xx,y,z-8],mm((xx-x)*10)+' mm · X');dimension(ctx,pr,[xx+8,y,z],[xx+8,y,zz],mm((zz-z)*10)+' mm · Y');if(st.view!=='top')dimension(ctx,pr,[x-8,y,z],[x-8,yy,z],mm((yy-y)*10)+' mm');};
-const workDocBase=location.protocol==='file:'&&!location.pathname.replace(/\\/g,'/').includes('/.site/')?'https://queiroz-labs.github.io/guedala-park/docs/':/\/moodboard\/(?:index\.html)?$/.test(location.pathname)?'../docs/':'docs/';
+const workDocBase=window.GUEDALA_WEB?'docs/':location.protocol==='file:'&&!location.pathname.replace(/\\/g,'/').includes('/.site/')?'https://queiroz-labs.github.io/guedala-park/docs/':/\/moodboard\/(?:index\.html)?$/.test(location.pathname)?'../docs/':'docs/';
 function workDocUrl(d){return workDocBase+d.path+(d.path.endsWith('.md')?'.html':'');}
 function workParts(m){return m.parts.map(workPart).filter(p=>p&&p.piece);}
 function workMaterialName(id){return MAT[id]?.name||id||'Não especificado';}
@@ -61,11 +61,8 @@ function initializeWorkshop(){
  document.querySelector('.stage-tag').textContent='Geometria R45 · cores aproximadas';
  $('measureToggle').parentElement.lastChild.textContent=' Cotas do módulo · mm';
  document.querySelector('.assumptions').hidden=true;
- document.querySelector('.viewbar').insertAdjacentHTML('beforebegin','<div class="work-selection"><label><span>Consulta rápida</span><select id="workModule" aria-label="Escolher módulo de marcenaria"></select></label></div>');
  $('workModule').onchange=e=>{if(e.target.value)showModule(e.target.value);else{state.moduleFilter=null;state.focusPart=null;work.module=null;state.selected=null;roomWorkshop();requestRender();}};
- document.querySelector('.stage').insertAdjacentHTML('afterend','<div class="work-context"><span id="workContext"></span><button id="workSeeDetails">Medidas e ferragens ↓</button></div>');
  $('workSeeDetails').onclick=()=>$('inspector').scrollIntoView({behavior:'smooth',block:'start'});
- document.querySelector('.mast nav').insertAdjacentHTML('beforeend','<button data-tab="documents">Documentação</button>');
  document.querySelector('[data-tab="model"]').textContent='Ambientes';document.querySelector('[data-tab="decisions"]').textContent='Escolhas';document.querySelector('[data-tab="mood"]').textContent='Materiais';
  document.querySelector('footer').insertAdjacentHTML('beforebegin',`<section id="documents" class="tabpage work-library"><span class="eyebrow">BIBLIOTECA DO PROJETO</span><h1>Cada informação,<br>no seu lugar.</h1><p>Desenhos, ferragens e decisões organizados para consulta. Abra apenas a disciplina ou o ambiente que precisa.</p><div class="work-filters"><input id="docSearch" class="work-search" type="search" aria-label="Buscar documentos" placeholder="Buscar: espelheiro, ferragem, piso…"><select id="docRoom" aria-label="Filtrar ambiente">${PROJECT.rooms.map(r=>`<option value="${r.id}">${r.id==='all'?'Todos os ambientes':esc(r.name)}</option>`).join('')}</select><select id="docCategory" aria-label="Filtrar disciplina"><option value="all">Todas as disciplinas</option>${[...new Set(workDocs().map(d=>d.category))].map(c=>`<option>${esc(c)}</option>`).join('')}</select></div><p id="docCount" class="work-doc-count" aria-live="polite"></p><div id="docCards" class="work-docs"></div></section><section id="workPrint" class="work-print"></section>`);
  ['docSearch','docRoom','docCategory'].forEach(id=>$(id).addEventListener(id==='docSearch'?'input':'change',drawDocuments));
@@ -74,6 +71,6 @@ function initializeWorkshop(){
  document.querySelector('footer').innerHTML='GUEDALA PARK · Consulta de marcenaria · 23/10/2026 <span>R45 · medidas em mm nas fichas · conferir antes de fabricar</span>';
  window.GuedalaStudy.setRoom=setRoom;window.GuedalaStudy.selectItem=selectItem;window.GuedalaWorkshop={showModule,work,drawDocuments,exportPieces,workParts};
  const show=syncExperience;syncExperience=function(){show();};
- setRoom('all');drawDocuments();
+ setRoom('all');
 }
 initializeWorkshop();

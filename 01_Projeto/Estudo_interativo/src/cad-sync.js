@@ -15,7 +15,7 @@ function cadMesh(n){
  const key=[n.x,n.y,n.z,n.c,n.opacity??1,!!n.finishHighlight,VISUAL_FINISHES.revision].join('|');
  if(variants.has(key))return variants.get(key);
  const finish=faces=>{if(variants.size>=4)variants.clear();variants.set(key,faces);return faces;};
- let cached=CAD_NORMALS.get(n.v);
+ let cached=CAD_NORMALS.get(n.v)||n.preparedMesh;
  if(!cached){
   const normals=n.t.map(([a,b,c])=>{const A=n.v[a],B=n.v[b],C=n.v[c],u=B.map((v,i)=>v-A[i]),v=C.map((q,i)=>q-A[i]);const q=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],l=Math.hypot(...q)||1;return q.map(v=>v/l);});
   // A tesselação duplica vértices entre faces. Unir por posição permite

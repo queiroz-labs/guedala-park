@@ -79,14 +79,16 @@ class DepthRenderer {
     gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.disable(gl.CULL_FACE);
   }
   bind(buffer){const gl=this.gl;gl.bindBuffer(gl.ARRAY_BUFFER,buffer);for(const a of this.layout){gl.enableVertexAttribArray(a.location);gl.vertexAttribPointer(a.location,a.size,gl.FLOAT,false,48,a.offset);}}
-  worldGeometry(faces,selected,enhanced){
+  *worldGeometrySteps(faces,selected,enhanced){
     const gl=this.gl;
     let cached=this.worldCaches.get(faces);
     if(cached&&cached.selected===selected&&cached.enhanced===enhanced)return cached;
     if(cached){for(const b of cached.buffers)gl.deleteBuffer(b);this.worldCaches.delete(faces);}
     const opaque=[],edges=[],transparent=[],transparentVertices=[];
     const vertex=(arr,p,c,a,surface=0,receiver=0)=>arr.push(p[0],p[1],p[2],c[0],c[1],c[2],a,p[0],p[2],surface,p[1],receiver);
+    let sliceStart=performance.now();
     for(const f of faces){
+      if(performance.now()-sliceStart>8){yield; sliceStart=performance.now();}
       const color=faceLighting(f,enhanced),alpha=f.alpha??1,surface=floorStyle(f),receiver=enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)&&f.normal[1]>.99&&alpha>.995&&f.node.kind!=='wall'?1:0;
       const target=alpha<.995?transparentVertices:opaque,start=target.length;
       for(let i=1;i<f.p.length-1;i++)for(const j of [0,i,i+1])vertex(target,f.p[j],color,alpha,surface,receiver);
@@ -94,12 +96,20 @@ class DepthRenderer {
       if(alpha>.995&&!surface&&(!f.edgeMask||f.edgeMask.some(Boolean))){const stroke=rgb(selected&&f.id===selected?'#c17b37':shade(f.c,enhanced&&LIGHTING_CONFIG.rooms.includes(f.room)?LIGHTING_CONFIG.edges:.74)).map(v=>v/255);for(let i=0;i<f.p.length;i++){if(f.edgeMask&&!f.edgeMask[i])continue;vertex(edges,f.p[i],stroke,1);vertex(edges,f.p[(i+1)%f.p.length],stroke,1);}}
     }
     const upload=data=>{const buffer=gl.createBuffer();this.bind(buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(data),gl.STATIC_DRAW);return buffer;};
-    const buffers=[upload(opaque),upload(edges),upload(transparentVertices)];
+    const buffers=[];for(const data of [opaque,edges,transparentVertices]){buffers.push(upload(data));yield;}
     cached={selected,enhanced,buffers,opaqueCount:opaque.length/12,edgeCount:edges.length/12,transparent,transparentData:new Float32Array(transparentVertices),transparentSorted:new Float32Array(transparentVertices.length),patches:enhanced?contactPatches(faces).slice(0,this.maxContacts):[]};
     this.worldCaches.set(faces,cached);
     while(this.worldCaches.size>3){const key=this.worldCaches.keys().next().value;for(const b of this.worldCaches.get(key).buffers)gl.deleteBuffer(b);this.worldCaches.delete(key);}
     this.worldUploads=(this.worldUploads||0)+1;
     return cached;
+  }
+  worldGeometry(faces,selected,enhanced){
+    const steps=this.worldGeometrySteps(faces,selected,enhanced);let step;
+    do{step=steps.next();}while(!step.done);return step.value;
+  }
+  async prepareWorldGeometry(faces,selected,enhanced){
+    const steps=this.worldGeometrySteps(faces,selected,enhanced);let step=steps.next();
+    while(!step.done){await yieldToBrowser();step=steps.next();}return step.value;
   }
   drawWorld(ctx,faces,camera,w,h,ratio,selected,enhanced=false){
     const gl=this.gl,pw=Math.round(w*ratio),ph=Math.round(h*ratio);
@@ -161,4 +171,11 @@ function renderWorldDepth(ctx,faces,camera,w,h,ratio,selected,enhanced=false){
   if(depthRenderer===false)return false;
   try{depthRenderer??=new DepthRenderer();depthRenderer.drawWorld(ctx,faces,camera,w,h,ratio,selected,enhanced);return true;}
   catch(e){depthRenderer=false;console.warn('Renderização simplificada disponível:',e.message);return false;}
+}
+
+function yieldToBrowser(){return globalThis.scheduler?.yield?globalThis.scheduler.yield():new Promise(resolve=>setTimeout(resolve,0));}
+async function prepareWorldDepth(faces,selected,enhanced){
+ if(depthRenderer===false)return;
+ try{depthRenderer??=new DepthRenderer();await depthRenderer.prepareWorldGeometry(faces,selected,enhanced);}
+ catch(error){depthRenderer=false;console.warn('Renderização simplificada disponível:',error.message);}
 }

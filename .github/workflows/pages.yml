@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Instalar ferramenta de build
+        run: npm ci --prefix 01_Projeto/Estudo_interativo --ignore-scripts
       - name: Preparar HTML e moodboard
         run: python3 01_Projeto/Estudo_interativo/preparar_pages.py
       - uses: actions/upload-pages-artifact@v4

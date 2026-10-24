@@ -8,7 +8,7 @@ const state={bench:'closed',lighting:'after',room:'all',view:'iso',angle:-.62,ti
 const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
 function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
-let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,nodeSequence={},motion=null;
+let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,renderDirty=false,nodeSequence={},motion=null;
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
 const WORLD_SCENES=new WeakMap();
 function moveCamera(){cameraMoving=true;clearTimeout(cameraSettleTimer);cameraSettleTimer=setTimeout(()=>{cameraMoving=false;requestRender();},180);}
@@ -302,7 +302,7 @@ function drawFloorFallback(ctx,f,project){
   // Restore the face outline for selection after the decorative paths.
   ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
 }
-function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
+async function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas||window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;st={...st,pan:[...st.pan]};const ticket=(canvas._renderTicket||0)+1;canvas._renderTicket=ticket;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');
   let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
   if(st.moduleFilter&&list.length){bounds=[Math.min(...list.map(n=>n.x))-8,Math.min(...list.map(n=>n.z))-8,Math.max(...list.map(n=>n.x+n.w))+8,Math.max(...list.map(n=>n.z+n.d))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base}));st={...st,ymax:Math.max(...list.map(n=>n.y+n.h))};}
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
@@ -312,13 +312,15 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
   const worldKey=JSON.stringify([st.room,st.view==='side'?st.side:null,st.sideCut,st.moduleFilter,st.upper,st.walls,selectionOnly]);
   let cached=WORLD_SCENES.get(canvas);
   if(!cached||cached.nodes!==nodes||cached.key!==worldKey){
-    const faces=[],groups=[];
-    for(const n of list){const part=mesh(n,false),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const f of part){faces.push(f);for(const p of f.p)for(let k=0;k<3;k++){min[k]=Math.min(min[k],p[k]);max[k]=Math.max(max[k],p[k]);}}groups.push({faces:part,min,max});}
+    const faces=[],groups=[];let sliceStart=performance.now();
+    for(const n of list){const part=mesh(n,false),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const f of part){faces.push(f);for(const p of f.p)for(let k=0;k<3;k++){min[k]=Math.min(min[k],p[k]);max[k]=Math.max(max[k],p[k]);}}groups.push({faces:part,min,max});if(performance.now()-sliceStart>8){await yieldToBrowser();sliceStart=performance.now();if(canvas._renderTicket!==ticket)return;}}
     faces.pickGroups=groups;cached={nodes,key:worldKey,faces};WORLD_SCENES.set(canvas,cached);
   }
   const worldFaces=cached.faces,main=canvas.id==='scene';if(main){hitFaces=worldFaces;lastProject=cam;}
   const enhanced=!mini&&!selectionOnly&&enhancedLighting(st);
   if(main)syncLightingControls();
+  await prepareWorldDepth(worldFaces,main?st.selected:null,enhanced);if(canvas._renderTicket!==ticket)return;
+  ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
   const depthOK=renderWorldDepth(ctx,worldFaces,cam,w,h,ratio,main?st.selected:null,enhanced);
   if(main){canvas.dataset.renderer=depthOK?'depth':'simplified';canvas.dataset.quality='detail';canvas.dataset.faces=String(worldFaces.length);canvas.dataset.cameraPath=depthOK?'gpu-matrix':'cpu-fallback';}
   if(!depthOK){fs=worldFaces.map(f=>{const points=f.p.map(project);return {...f,points,depth:points.reduce((s,p)=>s+p[2],0)/points.length,_mesh:f};});fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);if(main)hitFaces=fs;}
@@ -328,7 +330,7 @@ function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
-  if(main)canvas.dataset.rendered='true';
+  if(main){if(!canvas.dataset.rendered)performance.mark('guedala-model-ready');canvas.dataset.rendered='true';document.getElementById('sceneLoading')?.setAttribute('hidden','');}
 }
 function label(ctx,x,y,text,fill='#203d3b',size=11,bg=true){ctx.font=`600 ${size}px Segoe UI,Arial`;let m=ctx.measureText(text);if(bg){ctx.fillStyle='#fffff3ed';ctx.fillRect(x-m.width/2-5,y-size-3,m.width+10,size+8);}ctx.fillStyle=fill;ctx.textAlign='center';ctx.fillText(text,x,y);}
 function dimension(ctx,project,a,b,text){let p=project(a),q=project(b),dx=q[0]-p[0],dy=q[1]-p[1],len=Math.hypot(dx,dy);if(len<12)return;let nx=-dy/len*4,ny=dx/len*4;ctx.strokeStyle='#406952';ctx.lineWidth=1.3;ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);for(const r of[p,q]){ctx.moveTo(r[0]-nx,r[1]-ny);ctx.lineTo(r[0]+nx,r[1]+ny);}ctx.stroke();label(ctx,(p[0]+q[0])/2,(p[1]+q[1])/2-6,text,'#295e44',11);}
@@ -374,9 +376,18 @@ function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-st
   $('metrics').innerHTML=list.map(m=>`<div class="metric ${m.warn?'warning':''}"><b>${m.value}</b><span>${m.title}</span><small>${m.note}</small></div>`).join('');
   $('gapValue').textContent=state.sofaGap+' cm';$('rackValue').textContent=state.rackDepth+' cm';$('headValue').textContent=state.headDepth+' cm';
 }
-function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(now=>{renderQueued=false;const moving=!!motion,key=sceneStateKey();if(moving||key!==lastSceneState){buildScene();lastSceneState=key;}sampleMotion(now);if($('model').classList.contains('active'))render($('scene'));if(moving&&!motion&&state.selected)render($('itemPreview'),{...state,view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true},true,state.selected);if(motion)requestRender();});}
+function requestRender(){
+ if(window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;
+ if(renderQueued){renderDirty=true;return;}renderQueued=true;
+ requestAnimationFrame(async now=>{
+  try{const moving=!!motion,key=sceneStateKey();if(moving||key!==lastSceneState){buildScene();lastSceneState=key;}sampleMotion(now);
+   if($('model').classList.contains('active'))await render($('scene'));
+   if(moving&&!motion&&state.selected)await render($('itemPreview'),{...state,view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true},true,state.selected);
+  }finally{renderQueued=false;if(renderDirty||motion){renderDirty=false;requestRender();}}
+ });
+}
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
-function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
+function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood'){buildMood();renderMood();}if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
 function materialStyle(m){return`background-color:${m.color}`;}
 function storageDiagram(id){
  const kind=INTERNALS[id].diagram;
@@ -403,13 +414,13 @@ function buildMood(){let highlights={sala:['bonnie','table','bench','diningchair
   $('materials').innerHTML=PROJECT.materials.map(m=>`<article class="material"><div class="swatch ${m.type}" style="${materialStyle(m)}"></div><div class="body"><strong>${esc(m.name)}</strong><span class="badge ${m.status==='Alternativa'?'study':''}">${esc(m.status)}</span><p>${esc(m.note)}</p></div></article>`).join('');
   document.querySelectorAll('[data-explore]').forEach(b=>b.onclick=()=>{setRoom(b.dataset.explore);tab('model');});
 }
-function renderMood(){buildScene();requestAnimationFrame(()=>{for(const r of PROJECT.rooms.filter(r=>r.id!=='all'))render($('mood-'+r.id),{...state,room:r.id,view:'iso',angle:({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[r.id]??-.7,tilt:.92,zoom:1,pan:[0,0],upper:true,selected:null},true);});}
+function renderMood(){buildScene();requestAnimationFrame(async()=>{for(const r of PROJECT.rooms.filter(r=>r.id!=='all'))await render($('mood-'+r.id),{...state,room:r.id,view:'iso',angle:({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[r.id]??-.7,tilt:.92,zoom:1,pan:[0,0],upper:true,selected:null},true);});}
 function renderDecisions(){const room=$('filterRoom').value,filter=$('filterStatus').value;let list=ITEMS.filter(o=>(room==='all'||o.room===room)&&(filter==='all'||filter==='chosen'&&chosen(o)||filter==='pending'&&needsCheck(o)));
   $('decisionCards').innerHTML=list.map(o=>`<article class="decision-card ${needsCheck(o)?'pending':''}"><span class="source-label">${esc(PROJECT.rooms.find(r=>r.id===o.room)?.name)} · ${esc(o.source)}</span><h3>${esc(o.name)}</h3><span class="badge ${chosen(o)?'':'study'}">${esc(o.choice)}</span><span class="badge ${needsCheck(o)?'study':''}">${esc(o.measure)}</span><p class="dimensions">${esc(o.dimensions)}</p><p><strong>Material:</strong> ${esc(MAT[o.material]?.name||o.material)}</p><p>${esc(o.notes)}</p>${o.budget?'<p><strong>'+esc(o.budget)+'</strong></p>':''}${INTERNALS[o.id]?'<button data-storage="'+o.id+'" class="storage-link">Ver organização interna →</button>':''}</article>`).join('');
   $('decisionCards').querySelectorAll('[data-storage]').forEach(b=>b.onclick=()=>openStorage(b.dataset.storage));
 }
 function download(blob,name){let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);}
-function saveHTML(){// Keep the initial executable document, not transient DOM/canvas state.
+function saveHTML(){if(window.GUEDALA_WEB){const a=document.createElement('a');a.href=new URL(window.GUEDALA_WEB.offlineUrl,document.baseURI);a.download='Guedala_Park_Interativo.html';a.click();return;}// Keep the initial executable document, not transient DOM/canvas state.
   const copy=document.documentElement.cloneNode(true);copy.querySelectorAll('canvas').forEach(c=>{c.width=300;c.height=150;});copy.querySelectorAll('dialog').forEach(d=>d.removeAttribute('open'));copy.querySelectorAll('.inspector').forEach(e=>e.classList.remove('open'));download(new Blob(['<!doctype html>\n'+copy.outerHTML],{type:'text/html;charset=utf-8'}),'Guedala_Park_Interativo.html');toast('HTML salvo. Abra a cópia no navegador do computador ou celular.');}
 // Pointer gestures: drag orbit, shift/right-drag pan, pinch zoom, keyboard alternatives.
 const canvas=$('scene'),pointers=new Map();let lastPoint=null,down=null,pinchDistance=0;
@@ -449,11 +460,11 @@ function init(){
   $('zoomIn').onclick=()=>{moveCamera();state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{moveCamera();state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{moveCamera();state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
   $('rotateLeft').onclick=()=>{moveCamera();state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{moveCamera();state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=closeInspector;$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;$('mobileItems').setAttribute('aria-expanded',String(!$('inlineItems').hidden));};
-  $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
+  $('snapshot').onclick=async()=>{buildScene();await render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
   $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R12.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
-  buildMood();buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
+  buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
   for(const[id,value]of [['benchState','closed'],['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;

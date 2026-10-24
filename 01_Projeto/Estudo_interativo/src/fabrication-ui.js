@@ -11,7 +11,20 @@ function fabFinishes(f){return `<p>${esc(f.finishSummary)}</p>${f.finishSpecs.ma
 const previousPartsTable=partsTable;
 partsTable=function(m,print=false){const f=workGuide(m).fabrication;if(!f)return previousPartsTable(m,print);return `<table class="work-table fab-parts"><thead><tr><th>Peça · 1 un.</th><th>C × L · mm</th><th>Esp. mm</th></tr></thead><tbody>${f.panels.map(p=>`<tr data-piece-row="${p.id}"><td>${print?esc(p.name):`<button data-piece="${p.id}">${esc(p.name)}</button>`}<small>${esc(p.id)}</small><small>${esc(p.specifiedMaterial||p.cadMaterial)}</small><small>${p.specifiedMaterial?'Documento vigente':'Referência CAD · ver acabamento'}</small>${p.remainingFinish?`<small>Parcial: ${esc(p.remainingFinish)}</small>`:''}</td><td>${p.dimensions.slice(0,2).map(mm).join(' × ')}${p.rectangular?'':'<small>Recortado / especial</small>'}</td><td>${mm(p.thickness)}</td></tr>`).join('')}</tbody></table>`;};
 const previousShowModule=showModule;
-showModule=function(code){
+let moduleRequest=0;
+const beforeModuleRoom=setRoom;
+setRoom=function(id){moduleRequest++;return beforeModuleRoom(id);};
+window.GuedalaStudy.setRoom=setRoom;
+showModule=async function(code){
+ const request=++moduleRequest;
+ if(window.loadModuleGuidance){
+  try{await window.loadModuleGuidance(code);}catch(error){
+   if(request!==moduleRequest)return;
+   $('selectedInfo').innerHTML='<p role="status">Não foi possível carregar os detalhes. Tente novamente ou abra a ficha completa.</p><button id="retryModule">Tentar novamente</button><p><a href="'+workDocUrl({path:"05_Entregas/Fichas_fabricacao_R13/"+code+".html"})+'">Abrir ficha completa</a></p>';
+   $('retryModule').onclick=()=>showModule(code);return;
+  }
+  if(request!==moduleRequest)return;
+ }
  previousShowModule(code);const m=workModule(code);if(!m)return;const f=workGuide(m).fabrication;if(!f)return;
  const panel=$('selectedInfo'),accordions=[...panel.querySelectorAll('details')];
  panel.querySelector('.work-status').textContent='Ficha R14 · definições técnicas';
@@ -31,5 +44,4 @@ printModule=function(m){const f=workGuide(m).fabrication;if(!f)return;$('workPri
 window.GuedalaWorkshop.showModule=showModule;window.GuedalaWorkshop.exportPieces=exportPieces;
 document.querySelector('footer').innerHTML='GUEDALA PARK · Fichas de marcenaria R14 · 23/10/2026 <span>Geometria R45 · medidas nominais em mm</span>';
 document.querySelector('.welcome-copy p').textContent='Explore os ambientes em 3D. Cada móvel tem sua ficha; as medições do apartamento ficam em uma folha separada.';
-document.querySelector('.welcome-copy').insertAdjacentHTML('beforeend','<p class="project-repository"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Arquivos no GitHub ↗</a></p>');
 document.querySelector('#documents>p').insertAdjacentHTML('afterend',`<div class="fab-quick"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Menu de arquivos no GitHub ↗</a><a href="${workDocUrl({path:'05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip'})}" download>Baixar pacote R16 para compartilhar · ZIP</a></div>`);
