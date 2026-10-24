@@ -35,3 +35,6 @@ __pycache__/
 
 # Prototipo Pascal rejeitado por Elias em 18/10/2026; preservar somente local.
 /01_Projeto/Estudo_visualizadores_2026-10-17/
+
+# Dependências do build web
+node_modules/
