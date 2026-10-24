@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Peca407",
+    "parent": "Peca407",
+    "label": "Lateral esquerda015",
+    "vis": true,
+    "bbox": "BoundBox (100, 3750, 0, 550, 3768, 400)"
+  },
+  {
+    "name": "Peca408",
+    "parent": "Peca408",
+    "label": "Fundo015",
+    "vis": true,
+    "bbox": "BoundBox (100, 3768, 18, 118, 5532, 400)"
+  },
+  {
+    "name": "PecaBancoR16",
+    "parent": "PecaBancoR16",
+    "label": "Frente18 estrutural - apoio não calculado",
+    "vis": true,
+    "bbox": "BoundBox (530, 3768, 0, 548, 5532, 400)"
+  },
+  {
+    "name": "PecaBancoR001",
+    "parent": "PecaBancoR001",
+    "label": "Fundo potes/travessas a80 - hipótese18",
+    "vis": true,
+    "bbox": "BoundBox (140, 3768, 62, 530, 4130, 80)"
+  },
+  {
+    "name": "PecaBancoR002",
+    "parent": "PecaBancoR002",
+    "label": "Fundo demais setores a100 - hipótese18",
+    "vis": true,
+    "bbox": "BoundBox (140, 4148, 82, 530, 5532, 100)"
+  },
+  {
+    "name": "PecaBancoR003",
+    "parent": "PecaBancoR003",
+    "label": "Divisória18 contínua - centro da junta",
+    "vis": true,
+    "bbox": "BoundBox (140, 4130, 80, 530, 4148, 400)"
+  },
+  {
+    "name": "PecaBancoR004",
+    "parent": "PecaBancoR004",
+    "label": "Divisória18 contínua - centro da junta001",
+    "vis": true,
+    "bbox": "BoundBox (140, 4498, 100, 530, 4516, 400)"
+  },
+  {
+    "name": "PecaBancoR005",
+    "parent": "PecaBancoR005",
+    "label": "Divisória18 contínua - centro da junta002",
+    "vis": true,
+    "bbox": "BoundBox (140, 4714, 100, 530, 4732, 400)"
+  },
+  {
+    "name": "PecaBancoR008",
+    "parent": "TampaBancoR16",
+    "label": "Tampa20 - envelope total, não chapa liberada",
+    "vis": true,
+    "bbox": "BoundBox (102, 3751, 400, 550, 4138, 420)"
+  },
+  {
+    "name": "PecaBancoR009",
+    "parent": "TampaBancoR16",
+    "label": "Almofada50 no giro do assento - hipótese",
+    "vis": true,
+    "bbox": "BoundBox (100, 3750, 420, 550, 4139, 470)"
+  },
+  {
+    "name": "PecaBancoR010",
+    "parent": "TampaBancoR001",
+    "label": "Tampa20 - envelope total, não chapa liberada001",
+    "vis": true,
+    "bbox": "BoundBox (102, 4140, 400, 550, 4506, 420)"
+  },
+  {
+    "name": "PecaBancoR011",
+    "parent": "PecaBancoR011",
+    "label": "Almofada50 removível - Liquidificador e bebidas",
+    "vis": true,
+    "bbox": "BoundBox (100, 4139, 420, 550, 4507, 470)"
+  },
+  {
+    "name": "PecaBancoR012",
+    "parent": "TampaBancoR002",
+    "label": "Tampa20 - envelope total, não chapa liberada002",
+    "vis": true,
+    "bbox": "BoundBox (102, 4508, 400, 550, 4722, 420)"
+  },
+  {
+    "name": "PecaBancoR013",
+    "parent": "PecaBancoR013",
+    "label": "Almofada50 removível - Balde",
+    "vis": true,
+    "bbox": "BoundBox (100, 4507, 420, 550, 4723, 470)"
+  },
+  {
+    "name": "PecaBancoR014",
+    "parent": "TampaBancoR003",
+    "label": "Tampa20 - envelope total, não chapa liberada003",
+    "vis": true,
+    "bbox": "BoundBox (102, 4724, 400, 550, 5549, 420)"
+  },
+  {
+    "name": "PecaBancoR016",
+    "parent": "PecaBancoR016",
+    "label": "Pote 1 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (152, 3778, 313, 342, 3923, 360)"
+  },
+  {
+    "name": "PecaBancoR017",
+    "parent": "PecaBancoR017",
+    "label": "Pote 2 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (152, 3778, 264, 342, 3923, 311)"
+  },
+  {
+    "name": "PecaBancoR018",
+    "parent": "PecaBancoR018",
+    "label": "Pote 3 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (152, 3933, 313, 342, 4078, 360)"
+  },
+  {
+    "name": "PecaBancoR019",
+    "parent": "PecaBancoR019",
+    "label": "Pote 4 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (152, 3933, 264, 342, 4078, 311)"
+  },
+  {
+    "name": "PecaBancoR020",
+    "parent": "PecaBancoR020",
+    "label": "Pote 5 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (362, 3854, 313, 507, 4044, 360)"
+  },
+  {
+    "name": "PecaBancoR021",
+    "parent": "PecaBancoR021",
+    "label": "Pote 6 - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (362, 3854, 264, 507, 4044, 311)"
+  },
+  {
+    "name": "PecaBancoR022",
+    "parent": "PecaBancoR022",
+    "label": "Travessas - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (302, 3779, 83, 522, 4119, 183)"
+  },
+  {
+    "name": "PecaBancoR023",
+    "parent": "PecaBancoR023",
+    "label": "Batedeira - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (152, 3799, 83, 292, 4099, 203)"
+  },
+  {
+    "name": "PecaBancoR024",
+    "parent": "PecaBancoR024",
+    "label": "Motor - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (149, 4158, 103, 329, 4338, 303)"
+  },
+  {
+    "name": "PecaBancoR025",
+    "parent": "PecaBancoR025",
+    "label": "Jarra do liquidificador - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (330, 4158, 103, 510, 4338, 343)"
+  },
+  {
+    "name": "PecaBancoR026",
+    "parent": "PecaBancoR026",
+    "label": "Térmica vazia e seca - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (336, 4353, 103, 501.1, 4483.18, 350.65)"
+  },
+  {
+    "name": "PecaBancoR027",
+    "parent": "PecaBancoR027",
+    "label": "Jarra 1,5 L - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (166, 4360.5, 103, 326, 4475.5, 333)"
+  },
+  {
+    "name": "PecaBancoR028",
+    "parent": "PecaBancoR028",
+    "label": "Balde 8 L - gabarito da organização aprovada",
+    "vis": true,
+    "bbox": "BoundBox (165, 4535, 103, 495, 4695, 353)"
+  },
+  {
+    "name": "PecaBancoR029",
+    "parent": "PecaBancoR029",
+    "label": "Painel posterior de estudo18 removível - folgas3",
+    "vis": true,
+    "bbox": "BoundBox (145, 3771, 244, 347, 4127, 262)"
+  },
+  {
+    "name": "PecaBancoR030",
+    "parent": "PecaBancoR030",
+    "label": "Painel frontal de estudo18 removível - folgas3",
+    "vis": true,
+    "bbox": "BoundBox (352, 3771, 244, 529, 4127, 262)"
+  },
+  {
+    "name": "PecaBancoR031",
+    "parent": "PecaBancoR031",
+    "label": "Faixa de suporte E010x6 - reserva sem peça/carga confirmadas",
+    "vis": true,
+    "bbox": "BoundBox (145, 3768, 238, 347, 3778, 244)"
+  },
+  {
+    "name": "PecaBancoR032",
+    "parent": "PecaBancoR032",
+    "label": "Faixa de suporte D010x6 - reserva sem peça/carga confirmadas",
+    "vis": true,
+    "bbox": "BoundBox (145, 4120, 238, 347, 4130, 244)"
+  },
+  {
+    "name": "PecaBancoR033",
+    "parent": "PecaBancoR033",
+    "label": "Faixa de suporte E110x6 - reserva sem peça/carga confirmadas",
+    "vis": true,
+    "bbox": "BoundBox (352, 3768, 238, 529, 3778, 244)"
+  },
+  {
+    "name": "PecaBancoR034",
+    "parent": "PecaBancoR034",
+    "label": "Faixa de suporte D110x6 - reserva sem peça/carga confirmadas",
+    "vis": true,
+    "bbox": "BoundBox (352, 4120, 238, 529, 4130, 244)"
+  },
+  {
+    "name": "ContencaoBaldeR16",
+    "parent": "ContencaoBaldeR16",
+    "label": "Contenção removível180x350x33 - estanqueidade/material não confirmados",
+    "vis": true,
+    "bbox": "BoundBox (152, 4525, 100, 502, 4705, 133)"
+  },
+  {
+    "name": "PecaBancoR036",
+    "parent": "PecaBancoR036",
+    "label": "Aspirador - reserva371x350x164; programa real não reduzido a caixa",
+    "vis": true,
+    "bbox": "BoundBox (160, 4742, 110, 510, 5113, 274)"
+  },
+  {
+    "name": "PecaBancoR037",
+    "parent": "PecaBancoR037",
+    "label": "Jogos - reserva371x350x164; programa real não reduzido a caixa",
+    "vis": true,
+    "bbox": "BoundBox (160, 5151, 110, 510, 5522, 274)"
+  },
+  {
+    "name": "PecaBancoR015",
+    "parent": "PecaBancoR015",
+    "label": "Almofada removível do acesso superior à extensão",
+    "vis": true,
+    "bbox": "BoundBox (100, 4723, 420, 550, 5550, 470)"
+  },
+  {
+    "name": "Peca406AtualR31",
+    "parent": "Peca406AtualR31",
+    "label": "Lateral fechada18 - banco com acesso superior",
+    "vis": true,
+    "bbox": "BoundBox (100, 5532, 0, 550, 5550, 400)"
+  },
+  {
+    "name": "PecaBancoR007AtualR31",
+    "parent": "PecaBancoR007AtualR31",
+    "label": "Prateleira contínua da extensão - acesso por cima",
+    "vis": true,
+    "bbox": "BoundBox (140, 4732, 292, 512, 5532, 310)"
+  },
+  {
+    "name": "PecaBancoR006AtualR31",
+    "parent": "PecaBancoR006AtualR31",
+    "label": "PecaBancoR006 · recorte híbrido R02 integrado",
+    "vis": true,
+    "bbox": "BoundBox (140, 5123, 100, 530, 5141, 292)"
+  },
+  {
+    "name": "Ref_Apoio_B01R31",
+    "parent": "Ref_Apoio_B01R31",
+    "label": "Apoio_B01 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (140, 4130, 0, 530, 4148, 80)"
+  },
+  {
+    "name": "Ref_Apoio_B02R31",
+    "parent": "Ref_Apoio_B02R31",
+    "label": "Apoio_B02 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (140, 4498, 0, 530, 4516, 82)"
+  },
+  {
+    "name": "Ref_Apoio_B03R31",
+    "parent": "Ref_Apoio_B03R31",
+    "label": "Apoio_B03 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (140, 4714, 0, 530, 4732, 82)"
+  },
+  {
+    "name": "Ref_Apoio_B04R31",
+    "parent": "Ref_Apoio_B04R31",
+    "label": "Apoio_B04 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (100, 3768, 0, 118, 5532, 18)"
+  },
+  {
+    "name": "Ref_Sarrafo_frente0R31",
+    "parent": "Ref_Sarrafo_frente0R31",
+    "label": "Sarrafo_frente0 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (512, 4732, 274, 530, 5532, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_tras0R31",
+    "parent": "Ref_Sarrafo_tras0R31",
+    "label": "Sarrafo_tras0 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (118, 4732, 274, 136, 5532, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_frente1R31",
+    "parent": "Ref_Sarrafo_frente1R31",
+    "label": "Sarrafo_frente1 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (512, 4516, 274, 530, 4714, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_tras1R31",
+    "parent": "Ref_Sarrafo_tras1R31",
+    "label": "Sarrafo_tras1 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (118, 4516, 274, 136, 4714, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_frente2R31",
+    "parent": "Ref_Sarrafo_frente2R31",
+    "label": "Sarrafo_frente2 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (512, 4148, 274, 530, 4498, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_tras2R31",
+    "parent": "Ref_Sarrafo_tras2R31",
+    "label": "Sarrafo_tras2 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (118, 4148, 274, 136, 4498, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_frente3R31",
+    "parent": "Ref_Sarrafo_frente3R31",
+    "label": "Sarrafo_frente3 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (512, 3768, 274, 530, 4130, 400)"
+  },
+  {
+    "name": "Ref_Sarrafo_tras3R31",
+    "parent": "Ref_Sarrafo_tras3R31",
+    "label": "Sarrafo_tras3 · híbridoR02 proposto",
+    "vis": true,
+    "bbox": "BoundBox (118, 3768, 274, 136, 4130, 400)"
+  },
+  {
+    "name": "BancoFolhaR31",
+    "parent": "BancoFolhaR31",
+    "label": "HISTORICO folha mesa sob medida 300x750 - NAO Berlin",
+    "vis": false,
+    "bbox": "BoundBox (174, 4757, 310, 474, 5507, 340)"
+  }
+]

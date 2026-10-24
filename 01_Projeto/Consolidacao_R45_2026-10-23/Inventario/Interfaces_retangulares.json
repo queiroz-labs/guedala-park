@@ -1,0 +1,2184 @@
+{
+  "method": "bboxes globais; somente painéis com volume >=99,5% da caixa; contato nominal tolerância0,001mm; não inclui ferragens e descendentes",
+  "modules": [
+    {
+      "module": "Modulo",
+      "physical_direct_panels": 17,
+      "rectangular_panels": 17,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo001",
+      "physical_direct_panels": 2,
+      "rectangular_panels": 2,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo002",
+      "physical_direct_panels": 5,
+      "rectangular_panels": 5,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo003",
+      "physical_direct_panels": 9,
+      "rectangular_panels": 9,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo004",
+      "physical_direct_panels": 5,
+      "rectangular_panels": 5,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo005",
+      "physical_direct_panels": 4,
+      "rectangular_panels": 4,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo006",
+      "physical_direct_panels": 4,
+      "rectangular_panels": 4,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo007",
+      "physical_direct_panels": 2,
+      "rectangular_panels": 2,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo008",
+      "physical_direct_panels": 6,
+      "rectangular_panels": 6,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo009",
+      "physical_direct_panels": 8,
+      "rectangular_panels": 8,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo010",
+      "physical_direct_panels": 6,
+      "rectangular_panels": 6,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo011",
+      "physical_direct_panels": 6,
+      "rectangular_panels": 6,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo012",
+      "physical_direct_panels": 1,
+      "rectangular_panels": 1,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo013",
+      "physical_direct_panels": 5,
+      "rectangular_panels": 5,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo014",
+      "physical_direct_panels": 5,
+      "rectangular_panels": 5,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo015",
+      "physical_direct_panels": 5,
+      "rectangular_panels": 5,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo016",
+      "physical_direct_panels": 9,
+      "rectangular_panels": 9,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "BC43_Madeira",
+      "physical_direct_panels": 6,
+      "rectangular_panels": 2,
+      "excluded_nonrectangular": [
+        "BC43_LateralE",
+        "BC43_LateralD",
+        "BC43_Base",
+        "BC43_Travessa"
+      ]
+    },
+    {
+      "module": "Modulo018",
+      "physical_direct_panels": 7,
+      "rectangular_panels": 7,
+      "excluded_nonrectangular": []
+    },
+    {
+      "module": "Modulo019",
+      "physical_direct_panels": 13,
+      "rectangular_panels": 13,
+      "excluded_nonrectangular": []
+    }
+  ],
+  "interfaces": [
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca208",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        2096.0
+      ],
+      "area_mm2": 37728.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca209",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        550.0,
+        18.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca211",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca212",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca213",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca206",
+      "b": "Peca245",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        550.0,
+        18.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca208",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        2096.0
+      ],
+      "area_mm2": 37728.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca209",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        550.0,
+        18.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca226",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca227",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca228",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca207",
+      "b": "Peca246",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        550.0,
+        18.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca209",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        1964.0,
+        18.0
+      ],
+      "area_mm2": 35352.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca210",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        2034.0
+      ],
+      "area_mm2": 36612.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca241",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        1002.0
+      ],
+      "area_mm2": 18036.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca242",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        1002.0
+      ],
+      "area_mm2": 18036.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca243",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        1002.0
+      ],
+      "area_mm2": 18036.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca244",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        1002.0
+      ],
+      "area_mm2": 18036.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca245",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        705.0,
+        18.0
+      ],
+      "area_mm2": 12690.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca208",
+      "b": "Peca246",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        705.0,
+        18.0
+      ],
+      "area_mm2": 12690.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca209",
+      "b": "Peca210",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca209",
+      "b": "Peca241",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca209",
+      "b": "Peca242",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca209",
+      "b": "Peca243",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca209",
+      "b": "Peca244",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca211",
+      "b": "Peca241",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca212",
+      "b": "Peca241",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca213",
+      "b": "Peca241",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca226",
+      "b": "Peca244",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca227",
+      "b": "Peca244",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca228",
+      "b": "Peca244",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        400.0,
+        18.0
+      ],
+      "area_mm2": 7200.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca241",
+      "b": "Peca245",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo",
+      "a": "Peca244",
+      "b": "Peca246",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        550.0
+      ],
+      "area_mm2": 9900.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca259",
+      "b": "Peca261",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca259",
+      "b": "Peca262",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        632.0,
+        18.0
+      ],
+      "area_mm2": 11376.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca259",
+      "b": "Peca263",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        632.0,
+        18.0
+      ],
+      "area_mm2": 11376.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca260",
+      "b": "Peca261",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca260",
+      "b": "Peca262",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        632.0,
+        18.0
+      ],
+      "area_mm2": 11376.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo002",
+      "a": "Peca260",
+      "b": "Peca263",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        632.0,
+        18.0
+      ],
+      "area_mm2": 11376.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca266",
+      "b": "Peca268",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca266",
+      "b": "Peca269",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca266",
+      "b": "Peca270",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca267",
+      "b": "Peca268",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca267",
+      "b": "Peca269",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca267",
+      "b": "Peca270",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca268",
+      "b": "ApoioComumR003",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca268",
+      "b": "ApoioComumR004",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca268",
+      "b": "ApoioOpostoR001",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca268",
+      "b": "ApoioOpostoR002",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        272.0
+      ],
+      "area_mm2": 4896.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca269",
+      "b": "ApoioComumR003",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca269",
+      "b": "ApoioComumR004",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca269",
+      "b": "ApoioOpostoR001",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca269",
+      "b": "ApoioOpostoR002",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca270",
+      "b": "ApoioComumR003",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca270",
+      "b": "ApoioComumR004",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca270",
+      "b": "ApoioOpostoR001",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "Peca270",
+      "b": "ApoioOpostoR002",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        212.0,
+        18.0
+      ],
+      "area_mm2": 3816.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo003",
+      "a": "ApoioComumR004",
+      "b": "ApoioOpostoR001",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        212.0,
+        272.0
+      ],
+      "area_mm2": 57664.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca276",
+      "b": "Peca278",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        684.0
+      ],
+      "area_mm2": 12312.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca276",
+      "b": "Peca279",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca276",
+      "b": "Peca280",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca277",
+      "b": "Peca278",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        684.0
+      ],
+      "area_mm2": 12312.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca277",
+      "b": "Peca279",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca277",
+      "b": "Peca280",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo004",
+      "a": "Peca278",
+      "b": "Peca280",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        614.0,
+        18.0
+      ],
+      "area_mm2": 11052.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo005",
+      "a": "Peca283",
+      "b": "Peca285",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        684.0
+      ],
+      "area_mm2": 12312.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo005",
+      "a": "Peca283",
+      "b": "Peca286",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo005",
+      "a": "Peca284",
+      "b": "Peca285",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        684.0
+      ],
+      "area_mm2": 12312.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo005",
+      "a": "Peca284",
+      "b": "Peca286",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        572.0,
+        18.0
+      ],
+      "area_mm2": 10296.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo006",
+      "a": "Peca305",
+      "b": "Peca307",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        212.0,
+        30.0
+      ],
+      "area_mm2": 6360.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo006",
+      "a": "Peca305",
+      "b": "BasePlanaR31",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        535.0,
+        18.0
+      ],
+      "area_mm2": 9630.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo006",
+      "a": "Peca306",
+      "b": "Peca307",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        212.0,
+        30.0
+      ],
+      "area_mm2": 6360.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo006",
+      "a": "Peca306",
+      "b": "BasePlanaR31",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        535.0,
+        18.0
+      ],
+      "area_mm2": 9630.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca315",
+      "b": "Peca317",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        556.0
+      ],
+      "area_mm2": 10008.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca315",
+      "b": "Peca318",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca315",
+      "b": "Peca319",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca316",
+      "b": "Peca317",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        556.0
+      ],
+      "area_mm2": 10008.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca316",
+      "b": "Peca318",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca316",
+      "b": "Peca319",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca318",
+      "b": "Peca320",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        118.0
+      ],
+      "area_mm2": 2124.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo008",
+      "a": "Peca319",
+      "b": "Peca320",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        118.0
+      ],
+      "area_mm2": 2124.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca326",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        982.0
+      ],
+      "area_mm2": 17676.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca327",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca328",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca329",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca330",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca324",
+      "b": "Peca331",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca326",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        982.0
+      ],
+      "area_mm2": 17676.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca327",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca328",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca329",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca330",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca325",
+      "b": "Peca331",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca326",
+      "b": "Peca329",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        511.0,
+        18.0
+      ],
+      "area_mm2": 9198.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca326",
+      "b": "Peca330",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        511.0,
+        18.0
+      ],
+      "area_mm2": 9198.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo009",
+      "a": "Peca326",
+      "b": "Peca331",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        511.0,
+        18.0
+      ],
+      "area_mm2": 9198.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca334",
+      "b": "Peca336",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        574.0
+      ],
+      "area_mm2": 10332.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca334",
+      "b": "Peca337",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca334",
+      "b": "Peca338",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca334",
+      "b": "Peca339",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca335",
+      "b": "Peca336",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        574.0
+      ],
+      "area_mm2": 10332.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca335",
+      "b": "Peca337",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca335",
+      "b": "Peca338",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca335",
+      "b": "Peca339",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo010",
+      "a": "Peca336",
+      "b": "Peca339",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        661.0,
+        18.0
+      ],
+      "area_mm2": 11898.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca342",
+      "b": "Peca344",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        548.0
+      ],
+      "area_mm2": 9864.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca342",
+      "b": "Peca345",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca342",
+      "b": "Peca346",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca343",
+      "b": "Peca344",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        548.0
+      ],
+      "area_mm2": 9864.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca343",
+      "b": "Peca345",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca343",
+      "b": "Peca346",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca344",
+      "b": "Peca347",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        548.0
+      ],
+      "area_mm2": 9864.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca345",
+      "b": "Peca347",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        312.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo011",
+      "a": "Peca346",
+      "b": "Peca347",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        18.0,
+        312.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo013",
+      "a": "PecaCestoR15",
+      "b": "PecaCestoR001",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        554.0,
+        18.0
+      ],
+      "area_mm2": 9972.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca359",
+      "b": "Peca361",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        544.0
+      ],
+      "area_mm2": 9792.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca359",
+      "b": "Peca362",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca359",
+      "b": "Peca363",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca360",
+      "b": "Peca361",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        544.0
+      ],
+      "area_mm2": 9792.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca360",
+      "b": "Peca362",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo014",
+      "a": "Peca360",
+      "b": "Peca363",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca367",
+      "b": "Peca369",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.000000000000057,
+        204.0
+      ],
+      "area_mm2": 3672.000000000012,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca367",
+      "b": "Peca370",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        412.00000000000006,
+        18.0
+      ],
+      "area_mm2": 7416.000000000001,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca367",
+      "b": "Peca371",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        412.00000000000006,
+        18.0
+      ],
+      "area_mm2": 7416.000000000001,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca368",
+      "b": "Peca369",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.000000000000057,
+        204.0
+      ],
+      "area_mm2": 3672.000000000012,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca368",
+      "b": "Peca370",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        412.00000000000006,
+        18.0
+      ],
+      "area_mm2": 7416.000000000001,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo015",
+      "a": "Peca368",
+      "b": "Peca371",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        412.00000000000006,
+        18.0
+      ],
+      "area_mm2": 7416.000000000001,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca384",
+      "b": "Peca386",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca384",
+      "b": "Peca387",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca384",
+      "b": "Peca388",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca385",
+      "b": "Peca386",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca385",
+      "b": "Peca387",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca385",
+      "b": "Peca388",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca386",
+      "b": "ApoioComumR11",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca386",
+      "b": "ApoioComumR001",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca386",
+      "b": "ApoioComumR002",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca386",
+      "b": "ApoioOpostoR18",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        514.0
+      ],
+      "area_mm2": 9252.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca387",
+      "b": "ApoioComumR11",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca387",
+      "b": "ApoioComumR001",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca387",
+      "b": "ApoioComumR002",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca387",
+      "b": "ApoioOpostoR18",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca388",
+      "b": "ApoioComumR11",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca388",
+      "b": "ApoioComumR001",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca388",
+      "b": "ApoioComumR002",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "Peca388",
+      "b": "ApoioOpostoR18",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        312.0,
+        18.0
+      ],
+      "area_mm2": 5616.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo016",
+      "a": "ApoioComumR001",
+      "b": "ApoioOpostoR18",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        312.0,
+        514.0
+      ],
+      "area_mm2": 160368.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca400",
+      "b": "Peca402",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        714.0
+      ],
+      "area_mm2": 12852.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca400",
+      "b": "Peca403",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        108.0,
+        18.0
+      ],
+      "area_mm2": 1944.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca400",
+      "b": "Peca404",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        108.0,
+        18.0
+      ],
+      "area_mm2": 1944.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca401",
+      "b": "Peca402",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        714.0
+      ],
+      "area_mm2": 12852.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca401",
+      "b": "Peca403",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        108.0,
+        18.0
+      ],
+      "area_mm2": 1944.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo018",
+      "a": "Peca401",
+      "b": "Peca404",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        108.0,
+        18.0
+      ],
+      "area_mm2": 1944.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "Peca407",
+      "b": "Peca408",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        17.999999999999943,
+        382.0
+      ],
+      "area_mm2": 6875.999999999978,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "Peca407",
+      "b": "PecaBancoR16",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.00000000000034,
+        400.0
+      ],
+      "area_mm2": 7200.000000000136,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "Peca407",
+      "b": "PecaBancoR001",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        390.0000000000001,
+        18.0
+      ],
+      "area_mm2": 7020.000000000002,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "Peca408",
+      "b": "Peca406AtualR31",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.000000000000398,
+        382.0
+      ],
+      "area_mm2": 6876.000000000152,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR001",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        362.0,
+        18.0
+      ],
+      "area_mm2": 6516.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR002",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        1384.0,
+        18.0
+      ],
+      "area_mm2": 24912.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR003",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        320.0
+      ],
+      "area_mm2": 5760.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR004",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        300.0
+      ],
+      "area_mm2": 5400.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR005",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        300.0
+      ],
+      "area_mm2": 5400.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "Peca406AtualR31",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        18.00000000000034,
+        400.0
+      ],
+      "area_mm2": 7200.000000000136,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR006AtualR31",
+      "axis": "X",
+      "contact_dimensions_mm": [
+        18.0,
+        192.0
+      ],
+      "area_mm2": 3456.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR003",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        390.0,
+        18.0
+      ],
+      "area_mm2": 7020.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR004",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        390.0,
+        18.0
+      ],
+      "area_mm2": 7020.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR005",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        390.0,
+        18.0
+      ],
+      "area_mm2": 7020.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR002",
+      "b": "Peca406AtualR31",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        390.00000000000034,
+        18.0
+      ],
+      "area_mm2": 7020.000000000006,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR006AtualR31",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        390.0,
+        18.0
+      ],
+      "area_mm2": 7020.0,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR005",
+      "b": "PecaBancoR007AtualR31",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        372.0,
+        18.0
+      ],
+      "area_mm2": 6696.0,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "Peca406AtualR31",
+      "b": "PecaBancoR007AtualR31",
+      "axis": "Y",
+      "contact_dimensions_mm": [
+        372.0000000000002,
+        18.0
+      ],
+      "area_mm2": 6696.000000000004,
+      "interpretation": "contato de borda vertical; necessita ligação mecânica, não é apoio vertical por gravidade"
+    },
+    {
+      "module": "Modulo019",
+      "a": "PecaBancoR007AtualR31",
+      "b": "PecaBancoR006AtualR31",
+      "axis": "Z",
+      "contact_dimensions_mm": [
+        372.0000000000001,
+        18.0
+      ],
+      "area_mm2": 6696.000000000002,
+      "interpretation": "contato horizontal; sentido da gravidade compatível, caminho de carga não verificado"
+    }
+  ]
+}

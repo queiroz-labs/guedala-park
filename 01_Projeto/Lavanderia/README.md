@@ -1,3 +1,11 @@
+# Lavanderia — estado vigente
+
+21/10/2026. [Varal sem placa de ocultação](Varal_especificacao_consolidada.md). [Cesto R41](../Modelo_FreeCAD/01_Atual/Cesto_R41_2026-10-20/README.md): saco removível e 8 kg, ferragem ainda pendente, consultas enviadas. E21 GN/127 V e LG VC4 mantidos. Menções abaixo à placa do varal ou à escolha antiga do forno são históricas.
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Lavanderia, varal e aquecedor
 
 **27/09/2026 — plafon em seleção técnica:** [R01 de iluminação](../Iluminacao/Cozinha_lavanderia_selecao_R01_2026-09-27.md) identifica Decorlux LP1233 branco 3000 K, diâmetro 14 cm e projeção 5 cm, IP65 e montagem no teto, como alternativa econômica. Aparência diferente do EVO da cozinha e IRC não publicado impedem tratá-lo como par definitivo. ECO não priorizado pela restrição de umidade no manual. Modelo/posição seguem abertos, cruzando sombra do varal, portas, chapa e E21; não acrescentar luz sob aéreos por inferência.

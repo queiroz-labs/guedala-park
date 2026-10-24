@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-21",
+  "documentos_atualizados": 14,
+  "links_locais_conferidos": 55,
+  "links_ausentes": [],
+  "documentacao_gravada_no_FCStd": true,
+  "sha256_FCStd": "826acbfa74e2f8531f617ec8a7e22c67d994558c915ab16d2e0cf50b28a427d5",
+  "escopo_links": "Trechos vigentes atualizados; excluídos os históricos preservados e URLs externas.",
+  "arquivos": [
+    "01_Projeto/Resumo.md",
+    "01_Projeto/Painel_de_decisoes.md",
+    "01_Projeto/Lavanderia/Varal_especificacao_consolidada.md",
+    "01_Projeto/Complemento_orcamento_vigente_R41.md",
+    "04_Visita_ao_apartamento/Complemento_conferencia_R41.md",
+    "01_Projeto/README.md",
+    "README.md",
+    "01_Projeto/Lavanderia/README.md",
+    "01_Projeto/Sala_e_jantar/README.md",
+    "01_Projeto/Orcamento_R30_2026-10-14/README.md",
+    "05_Entregas/README.md",
+    "01_Projeto/Registro_de_decisoes.md",
+    "INDICE_DE_ARQUIVOS.md",
+    "01_Projeto/Modelo_FreeCAD/01_Atual/Cesto_R41_2026-10-20/README.md"
+  ]
+}

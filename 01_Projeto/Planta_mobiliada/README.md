@@ -1,4 +1,15 @@
-# Planta mobiliada geral — R01
+# Planta mobiliada geral
+
+## R02 — vigente · 24/10/2026
+
+Capturada do estudo interativo com a **geometria FreeCAD R45** e as cores R16. Inclui Bonnie, mesa Berlin com três cadeiras, banco com duas tampas, banheiro com portas de correr e interiores atuais.
+
+- [Planta mobiliada R02 (vista superior)](Planta_mobiliada_R02.png)
+- Vistas 3D por ambiente: [apartamento](Vistas_R02/00_Apartamento.png) · [sala e jantar](Vistas_R02/01_Sala_e_jantar.png) · [quarto](Vistas_R02/02_Quarto.png) · [escritório](Vistas_R02/03_Escritorio.png) · [cozinha](Vistas_R02/04_Cozinha.png) · [lavanderia](Vistas_R02/05_Lavanderia.png) · [banheiro](Vistas_R02/06_Banheiro.png)
+
+As imagens servem para o estudo preliminar e para mostrar o layout. Cores e materiais são aproximados, e as medidas não foram conferidas no apartamento. Não são prancha executiva. O programa correspondente está em [Programa de necessidades R01](../Programa_de_necessidades_R01.md).
+
+## R01 — histórico
 
 **Histórico:** esta planta retrata F118–F120, antes da escolha do Bonnie e das revisões do quarto, jantar e painel. Para o layout atual, abra o [estudo interativo atualizado](../Estudo_interativo/Guedala_Park_Interativo.html). Os arquivos abaixo ficam preservados como registro da etapa anterior.
 

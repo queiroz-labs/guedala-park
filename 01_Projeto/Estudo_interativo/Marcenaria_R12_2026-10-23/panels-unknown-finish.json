@@ -1,0 +1,1282 @@
+[
+  {
+    "source": "GavetaComumR08",
+    "label": "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR001",
+    "label": "Lateral comum direita · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR002",
+    "label": "Fundo comum · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      323.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR003",
+    "label": "Traseira comum · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR004",
+    "label": "Dianteira comum16 · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR005",
+    "label": "Frente preservada · Gaveta de roupa - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      353.0,
+      142.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR012",
+    "label": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR013",
+    "label": "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR014",
+    "label": "Fundo comum · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      323.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR015",
+    "label": "Traseira comum · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR016",
+    "label": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR017",
+    "label": "Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      353.0,
+      130.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR024",
+    "label": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR025",
+    "label": "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR026",
+    "label": "Fundo comum · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      323.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR027",
+    "label": "Traseira comum · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR028",
+    "label": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR029",
+    "label": "Frente preservada · Gaveta de roupa002 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      353.0,
+      142.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR036",
+    "label": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR037",
+    "label": "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR038",
+    "label": "Fundo comum · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      490.0,
+      323.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR039",
+    "label": "Traseira comum · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR040",
+    "label": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      313.0,
+      73.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR041",
+    "label": "Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08",
+    "module": "P01",
+    "dimensions": [
+      353.0,
+      130.0,
+      18.0
+    ]
+  },
+  {
+    "source": "LateralApoioPrincipal",
+    "label": "Lateral 18 mm de apoio da principal - proposta R03",
+    "module": "P02",
+    "dimensions": [
+      612.0,
+      272.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FrenteSimplesR04",
+    "label": "Porta A - canecos comuns",
+    "module": "P02",
+    "dimensions": [
+      306.0,
+      271.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FrenteSimplesR001",
+    "label": "Porta B - canecos comuns",
+    "module": "P02",
+    "dimensions": [
+      306.0,
+      271.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioPortaBR04",
+    "label": "Lateral 18 mm de apoio da porta B - proposta",
+    "module": "P02",
+    "dimensions": [
+      272.0,
+      212.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FaixaQuinaAR04",
+    "label": "Faixa fixa A 142 mm - proposta",
+    "module": "P02",
+    "dimensions": [
+      306.0,
+      142.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FaixaQuinaBR04",
+    "label": "Faixa fixa B 124 mm - proposta",
+    "module": "P02",
+    "dimensions": [
+      306.0,
+      124.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FaixaFixaEstudo",
+    "label": "Faixa fixa · proposta, não aprovada",
+    "module": "P04",
+    "dimensions": [
+      272.0,
+      18.0,
+      7.0
+    ]
+  },
+  {
+    "source": "ApoioComumR003",
+    "label": "Apoio interno cabeceira 1 - proposta18",
+    "module": "P04",
+    "dimensions": [
+      272.0,
+      212.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioComumR004",
+    "label": "Apoio interno cabeceira 2 - proposta18",
+    "module": "P04",
+    "dimensions": [
+      272.0,
+      212.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioOpostoR001",
+    "label": "Cabeceira - segundo18 no divisor das portas2/3; conjunto36",
+    "module": "P04",
+    "dimensions": [
+      272.0,
+      212.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioOpostoR002",
+    "label": "Cabeceira - apoio18 da vizinha à direita; proposta",
+    "module": "P04",
+    "dimensions": [
+      272.0,
+      212.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FrenteVizinhaR18",
+    "label": "Cabeceira porta 1 - abrir para esquerda — frente com canecos",
+    "module": "P04",
+    "dimensions": [
+      440.25,
+      306.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR048",
+    "label": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      300.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR049",
+    "label": "Lateral comum direita · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      300.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR050",
+    "label": "Fundo comum · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      551.0,
+      490.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR051",
+    "label": "Traseira comum · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      541.0,
+      273.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR052",
+    "label": "Dianteira comum16 · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      541.0,
+      273.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR053",
+    "label": "Frente preservada · G3 · mantimentos - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      617.0,
+      396.0,
+      18.0
+    ]
+  },
+  {
+    "source": "MontagemG2R016",
+    "label": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      541.0,
+      73.0,
+      15.0
+    ]
+  },
+  {
+    "source": "MontagemG2R017",
+    "label": "Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "MontagemG2R018",
+    "label": "Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      100.0,
+      15.0
+    ]
+  },
+  {
+    "source": "MontagemG2R019",
+    "label": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      551.0,
+      490.0,
+      16.2
+    ]
+  },
+  {
+    "source": "MontagemG2R020",
+    "label": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      617.0,
+      156.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR060",
+    "label": "Lateral comum esquerda · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR061",
+    "label": "Lateral comum direita · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      490.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR062",
+    "label": "Fundo comum · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      551.0,
+      490.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR063",
+    "label": "Traseira comum · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      541.0,
+      53.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR064",
+    "label": "Dianteira comum16 · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      541.0,
+      53.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR065",
+    "label": "Frente preservada · G1 · talheres - proposta R08",
+    "module": "P06",
+    "dimensions": [
+      617.0,
+      156.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BasePlanaR31",
+    "label": "BasePlana · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      577.0,
+      535.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioEsquerdoR31",
+    "label": "ApoioEsquerdo · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      505.0,
+      120.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioCentralR31",
+    "label": "ApoioCentral · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      505.0,
+      120.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioDireitoR31",
+    "label": "ApoioDireito · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      505.0,
+      120.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ReguaInferiorBaixaR31",
+    "label": "ReguaInferiorBaixa · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      577.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ReguaInferiorAltaR31",
+    "label": "ReguaInferiorAlta · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      577.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ReguaSuperiorBaixaR31",
+    "label": "ReguaSuperiorBaixa · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      577.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ReguaSuperiorAltaR31",
+    "label": "ReguaSuperiorAlta · proposta R31",
+    "module": "P07",
+    "dimensions": [
+      577.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR13",
+    "label": "Frente baixa preservada1223x106 - recuo80",
+    "module": "P08",
+    "dimensions": [
+      1223.0,
+      106.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR001",
+    "label": "Fundo18 sobre rodas - proposta",
+    "module": "P08",
+    "dimensions": [
+      1223.0,
+      442.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR002",
+    "label": "Lateral18 baixa - proposta",
+    "module": "P08",
+    "dimensions": [
+      406.0,
+      88.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR003",
+    "label": "Lateral18 baixa - proposta001",
+    "module": "P08",
+    "dimensions": [
+      406.0,
+      88.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR004",
+    "label": "Parede frente/trás18 baixa - proposta",
+    "module": "P08",
+    "dimensions": [
+      1223.0,
+      88.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR005",
+    "label": "Parede frente/trás18 baixa - proposta001",
+    "module": "P08",
+    "dimensions": [
+      1223.0,
+      88.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR036",
+    "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada",
+    "module": "P08",
+    "dimensions": [
+      530.0,
+      180.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBaixaR037",
+    "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001",
+    "module": "P08",
+    "dimensions": [
+      530.0,
+      180.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaCestoR15",
+    "label": "Base98 - frente até580 desde parede",
+    "module": "P14",
+    "dimensions": [
+      562.0,
+      554.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaCestoR001",
+    "label": "Rodapé80 sob a base, recuado50 da face - R29 (era110)",
+    "module": "P14",
+    "dimensions": [
+      554.0,
+      80.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaCestoR002",
+    "label": "Painel superior removível675–897 - Arenza liso",
+    "module": "P14",
+    "dimensions": [
+      550.0,
+      222.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaCestoR003",
+    "label": "Frente inferior521 - face630, junta lateral2 proposta",
+    "module": "P14",
+    "dimensions": [
+      550.0,
+      521.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioCestoC01R31",
+    "label": "C01 · apoio inferior do cesto · proposto",
+    "module": "P14",
+    "dimensions": [
+      580.0,
+      98.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioCestoC02R31",
+    "label": "C02 · apoio inferior do cesto · proposto",
+    "module": "P14",
+    "dimensions": [
+      580.0,
+      98.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioCestoC03R31",
+    "label": "C03 · apoio inferior do cesto · proposto",
+    "module": "P14",
+    "dimensions": [
+      554.0,
+      80.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR072",
+    "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR073",
+    "label": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR074",
+    "label": "Fundo comum · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      332.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR075",
+    "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      322.0,
+      53.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR076",
+    "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      322.0,
+      53.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR077",
+    "label": "Frente preservada · Gaveta escritório 1 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      398.0,
+      118.0,
+      18.0
+    ]
+  },
+  {
+    "source": "GavetaComumR084",
+    "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR085",
+    "label": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      80.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR086",
+    "label": "Fundo comum · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      390.0,
+      332.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR087",
+    "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      322.0,
+      53.0,
+      15.0
+    ]
+  },
+  {
+    "source": "GavetaComumR088",
+    "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      322.0,
+      53.0,
+      16.0
+    ]
+  },
+  {
+    "source": "GavetaComumR089",
+    "label": "Frente preservada · Gaveta escritório 2 - proposta R08",
+    "module": "P16",
+    "dimensions": [
+      398.0,
+      118.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioComumR11",
+    "label": "Apoio interno escritório 1 - proposta18",
+    "module": "P17",
+    "dimensions": [
+      514.0,
+      312.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioComumR001",
+    "label": "Apoio interno escritório 2 - proposta18",
+    "module": "P17",
+    "dimensions": [
+      514.0,
+      312.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioComumR002",
+    "label": "Apoio interno escritório 3 - proposta18",
+    "module": "P17",
+    "dimensions": [
+      514.0,
+      312.0,
+      18.0
+    ]
+  },
+  {
+    "source": "ApoioOpostoR18",
+    "label": "Escritório - segundo18 no divisor das portas2/3; conjunto36",
+    "module": "P17",
+    "dimensions": [
+      514.0,
+      312.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_LateralE",
+    "label": "Montante frontal esquerdo18×70×543",
+    "module": "P18",
+    "dimensions": [
+      543.0,
+      70.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_LateralD",
+    "label": "Montante frontal direito18×70×543",
+    "module": "P18",
+    "dimensions": [
+      543.0,
+      70.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_Base",
+    "label": "Base do quadro564×70×18",
+    "module": "P18",
+    "dimensions": [
+      564.0,
+      70.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_Travessa",
+    "label": "Topo do quadro564×70×18",
+    "module": "P18",
+    "dimensions": [
+      564.0,
+      70.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_CaixaE",
+    "label": "Lateral original esquerda com furos de união",
+    "module": "P18",
+    "dimensions": [
+      545.0,
+      400.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_CaixaD",
+    "label": "Lateral original direita com furos de união",
+    "module": "P18",
+    "dimensions": [
+      545.0,
+      400.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BC43_CaixaBase",
+    "label": "Base original preservada",
+    "module": "P18",
+    "dimensions": [
+      564.0,
+      382.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FrenteComumR019",
+    "label": "Armário espelhado raso - porta direita — frente com canecos",
+    "module": "P19",
+    "dimensions": [
+      748.0,
+      297.0,
+      18.0
+    ]
+  },
+  {
+    "source": "FrenteComumR020",
+    "label": "Armário espelhado raso - porta esquerda — frente com canecos",
+    "module": "P19",
+    "dimensions": [
+      748.0,
+      297.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PrateleiraEspelhadoR12",
+    "label": "Prateleira removível espelhado 1 - proposta",
+    "module": "P19",
+    "dimensions": [
+      560.0,
+      104.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PrateleiraEspelhadoR001",
+    "label": "Prateleira removível espelhado 2 - proposta",
+    "module": "P19",
+    "dimensions": [
+      560.0,
+      104.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR16",
+    "label": "Frente18 estrutural - apoio não calculado",
+    "module": "P20",
+    "dimensions": [
+      1764.0,
+      400.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR001",
+    "label": "Fundo potes/travessas a80 - hipótese18",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      362.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR002",
+    "label": "Fundo demais setores a100 - hipótese18",
+    "module": "P20",
+    "dimensions": [
+      1384.0,
+      390.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR003",
+    "label": "Divisória18 contínua - centro da junta",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      320.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR004",
+    "label": "Divisória18 contínua - centro da junta001",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      300.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR005",
+    "label": "Divisória18 contínua - centro da junta002",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      300.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR029",
+    "label": "Painel posterior de estudo18 removível - folgas3",
+    "module": "P20",
+    "dimensions": [
+      356.0,
+      202.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR030",
+    "label": "Painel frontal de estudo18 removível - folgas3",
+    "module": "P20",
+    "dimensions": [
+      356.0,
+      177.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Peca406AtualR31",
+    "label": "Lateral fechada18 - banco com acesso superior",
+    "module": "P20",
+    "dimensions": [
+      450.0,
+      400.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR007AtualR31",
+    "label": "Prateleira contínua da extensão - acesso por cima",
+    "module": "P20",
+    "dimensions": [
+      800.0,
+      372.0,
+      18.0
+    ]
+  },
+  {
+    "source": "PecaBancoR006AtualR31",
+    "label": "PecaBancoR006 · recorte híbrido R02 integrado",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      192.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Apoio_B01R31",
+    "label": "Apoio_B01 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      80.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Apoio_B02R31",
+    "label": "Apoio_B02 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      82.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Apoio_B03R31",
+    "label": "Apoio_B03 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      390.0,
+      82.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Apoio_B04R31",
+    "label": "Apoio_B04 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      1764.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_frente0R31",
+    "label": "Sarrafo_frente0 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      800.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_tras0R31",
+    "label": "Sarrafo_tras0 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      800.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_frente1R31",
+    "label": "Sarrafo_frente1 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      198.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_tras1R31",
+    "label": "Sarrafo_tras1 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      198.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_frente2R31",
+    "label": "Sarrafo_frente2 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      350.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_tras2R31",
+    "label": "Sarrafo_tras2 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      350.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_frente3R31",
+    "label": "Sarrafo_frente3 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      362.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "Ref_Sarrafo_tras3R31",
+    "label": "Sarrafo_tras3 · híbridoR02 proposto",
+    "module": "P20",
+    "dimensions": [
+      362.0,
+      126.0,
+      18.0
+    ]
+  },
+  {
+    "source": "BancoR43_Painel1",
+    "label": "BancoR43_Painel1",
+    "module": "P20",
+    "dimensions": [
+      971.0,
+      448.0,
+      20.0
+    ]
+  },
+  {
+    "source": "BancoR43_Painel2",
+    "label": "BancoR43_Painel2",
+    "module": "P20",
+    "dimensions": [
+      825.0,
+      448.0,
+      20.0
+    ]
+  }
+]

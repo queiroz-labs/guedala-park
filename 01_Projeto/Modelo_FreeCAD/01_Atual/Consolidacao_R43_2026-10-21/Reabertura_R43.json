@@ -1,0 +1,134 @@
+{
+  "reopened": true,
+  "objects": 5653,
+  "front_x_max_travel": 3048.0,
+  "rear_x_max_travel": 2815.0,
+  "back_original_visible": true,
+  "hypothetical_back_hidden": true,
+  "invalid_new_shapes": [],
+  "closed_positions": [
+    2780.0,
+    3048.0
+  ],
+  "berlin": [
+    {
+      "name": "Fechada_110Tampo",
+      "null": false,
+      "valid": true,
+      "visible": true,
+      "colors": 1
+    },
+    {
+      "name": "Fechada_110Sapata",
+      "null": false,
+      "valid": true,
+      "visible": true,
+      "colors": 1
+    },
+    {
+      "name": "Fechada_110Ponta_sofa",
+      "null": false,
+      "valid": true,
+      "visible": true,
+      "colors": 84
+    },
+    {
+      "name": "Fechada_110Ponta_cozinha",
+      "null": false,
+      "valid": true,
+      "visible": true,
+      "colors": 84
+    },
+    {
+      "name": "Fechada_110Lateral",
+      "null": false,
+      "valid": true,
+      "visible": true,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_170Tampo",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 1
+    },
+    {
+      "name": "Aberta_170Sapata",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 1
+    },
+    {
+      "name": "Aberta_170Ponta_sofa",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_170Ponta_cozinha",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_170Lateral",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_cadeira_lateralTampo",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 1
+    },
+    {
+      "name": "Aberta_cadeira_lateralSapata",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 1
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_sofa",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_centro",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_cozinha",
+      "null": false,
+      "valid": true,
+      "visible": false,
+      "colors": 84
+    }
+  ],
+  "bank_lids": [
+    {
+      "name": "BancoR43_Painel1",
+      "valid": true,
+      "angle": 0.0
+    },
+    {
+      "name": "BancoR43_Painel2",
+      "valid": true,
+      "angle": 0.0
+    }
+  ],
+  "r42_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "r43_sha256": "c17afa5a0f5132a73980e252b4f68f9f6bc46b16ddbff38f02b590489693f971"
+}

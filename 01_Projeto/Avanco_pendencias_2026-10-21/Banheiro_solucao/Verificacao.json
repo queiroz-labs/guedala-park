@@ -1,0 +1,45 @@
+{
+  "status": "ESTUDO — não liberado para fabricação ou incorporação",
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "source_unchanged": true,
+  "collisions_with_visible_source_leaves": [],
+  "obstacles_checked": [
+    "Peca051",
+    "Peca052",
+    "Peca394",
+    "Peca395",
+    "Peca397",
+    "Peca399"
+  ],
+  "storage_envelope_mm": [
+    564,
+    382,
+    509
+  ],
+  "storage_gross_litres": 109.663032,
+  "new_parts_intrusion_mm3": 0.0,
+  "door_width_height_thickness_mm": [
+    290,
+    502,
+    18
+  ],
+  "overlap_mm": 20,
+  "travel_mm": 270,
+  "clear_access_each_side_mm": 272,
+  "front_projection_vs_old_mm": 50,
+  "projection_vs_countertop_mm": 20,
+  "entry_leaf_static_clearance_mm": 70.0,
+  "panel_gap_mm": 12,
+  "pending": [
+    "Fixação estrutural da moldura externa e proteção contra umidade",
+    "Perfis reais, carros, guias, batentes e puxadores embutidos; CAD atual só contém envelopes de rasgos",
+    "Confirmar porta de entrada real: largura, eixo e maçaneta; R42 representa folha ideal de 700 mm",
+    "Conferir manutenção da cuba/sifão pelo acesso parcial; hidráulica não detalhada neste estudo"
+  ],
+  "sensitivity_static_leaf_extension_mm": {
+    "0": 70,
+    "50": 20,
+    "100": -30
+  },
+  "invalid_shapes": []
+}

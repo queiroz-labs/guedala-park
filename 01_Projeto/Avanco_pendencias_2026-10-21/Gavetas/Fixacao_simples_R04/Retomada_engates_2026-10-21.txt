@@ -1,0 +1,23 @@
+RETOMADA DOS ENGATES — 21/10/2026, America/Sao_Paulo
+
+Decisão do usuário preservada: parafusos por dentro são permitidos; frente externa lisa, sem cabeças ou furos aparentes. Fixação R04 mantida sem alteração geométrica. Reguladores Blum dispensados.
+
+Kit mantido como candidato: FGVTN54FGOC12400TSX0,400 mm, engates convencionais. Não substituir por UniHide, pino ou gatilho3D sem conferir compatibilidade.
+
+Nova busca: página oficial do produto e respectivos downloads; portal oficial Calculadora e Instruções; página Acessório para Corrediça Oculta; buscas por gabarito, dimensões, CAD e código exato. Página do produto lida via Firecrawl após falhas de acesso pelo buscador. Nenhum novo desenho dimensional completo do engate localizado nas fontes consultadas.
+
+O acessório encontrado é calço lateral6/7 mm para adaptação de corrediça, não gabarito de engate. Não foi adotado, pois alteraria a largura disponível e não resolve o dado ausente.
+
+Fontes:
+https://www.fgvtn.com.br/produto/corredica-fgvtn-oculta-slowmotion-et
+https://www.fgvtn.com.br/site/novopdf/Corredica_FGVTN_Oculta_Slowmotion_ET_Set23.pdf
+https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf
+https://www.fgvtn.com.br/calculadoras_instrucoes
+https://www.fgvtn.com.br/produto/acessorio-para-corredica-oculta
+https://www.fgvtn.com.br/produto/gatilho-3d-para-corredica-oculta-et
+
+Contato SAC publicado no rodapé oficial: sac@fgvtn.com.br.
+
+Resultado: pedido técnico enxuto preparado em Consulta_FGVTN_engates_FINAL.txt. A faixa+3 mm já está documentada, portanto não é solicitada novamente. Consulta limitada a envelope, furação/parafusos, acesso de destravamento e recortes/furos traseiros do kit exato. Não enviada: falta autorização explícita para correspondência externa.
+
+R42 principal não alterada. Sem kit/gabarito e sem resposta dimensional, não há evidência nova que autorize marcar o encaixe como conferido. A prévia R42+R04 permanece não aprovada. Não repetir testes da madeira sem mudança: resultados anteriores continuam sendo a referência do estudo, com os limites já registrados.

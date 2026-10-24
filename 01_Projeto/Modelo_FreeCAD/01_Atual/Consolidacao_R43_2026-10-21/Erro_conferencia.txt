@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<string>", line 5, in run_check
+  File "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/conferir.py", line 46, in <module>
+    a=w(o);b=w(q)
+             ^^^^
+  File "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/conferir.py", line 6, in w
+    q=o.Shape.copy()
+      ^^^^^^^
+AttributeError: 'App.Part' object has no attribute 'Shape'

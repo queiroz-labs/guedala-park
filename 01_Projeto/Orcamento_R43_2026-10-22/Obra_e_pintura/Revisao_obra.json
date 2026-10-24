@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-22",
+  "baseline": 11560.0,
+  "prudentProvision": 12310.0,
+  "materialAdjustment": 750,
+  "negotiationScenario": 10560.0,
+  "serviceReductionUnquoted": 1750,
+  "netReductionIfScenarioObtained": 1000,
+  "target": 10000,
+  "remainingFromScenarioToTarget": 560,
+  "confirmedSavings": 0,
+  "reserveFixed": 10000,
+  "rows": [
+    {
+      "id": "O01",
+      "item": "Proteção de elevador, portas, janelas e pisos",
+      "baseline": 800.0,
+      "prudentProvision": 800.0,
+      "negotiationTarget": 500,
+      "action": "Uma proteção por etapa, reutilizável quando íntegra; incluir áreas comuns e renovação necessária. Não contar consumíveis de proteção novamente em O06.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O02",
+      "item": "Retirada de laminado e revestimentos substituídos",
+      "baseline": 1200.0,
+      "prudentProvision": 1200.0,
+      "negotiationTarget": 1000,
+      "action": "Retirar somente laminado, revestimentos e bancadas substituídos no projeto; contratar junto ao descarte. Nenhuma demolição estrutural.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O03",
+      "item": "Ensacamento, transporte e descarte de entulho",
+      "baseline": 900.0,
+      "prudentProvision": 900.0,
+      "negotiationTarget": 650,
+      "action": "Consolidar ensacamento, transporte e destinação em carga dimensionada; confirmar regras do condomínio e volume. Não substituir por limpeza final.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O04",
+      "item": "Impermeabilização, preparação e teste",
+      "baseline": 1800.0,
+      "prudentProvision": 1800.0,
+      "negotiationTarget": 1800,
+      "action": "Preservar provisão integral para preparação, recomposição de impermeabilização e teste das áreas afetadas; a entrega impermeabilizada não dispensa avaliação após retirada.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O05",
+      "item": "Pintura — mão de obra e pequenos reparos",
+      "baseline": 3200.0,
+      "prudentProvision": 3200.0,
+      "negotiationTarget": 2600,
+      "action": "Pintura completa prevista, preparo e reparos usuais; executar após serviços sujos, concentrar mobilização e prever retorno de retoques. Não cortar demãos, alisamento necessário ou faces aparentes.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O06",
+      "item": "Pintura — massa, selador, tinta branca e consumíveis",
+      "baseline": 850.0,
+      "prudentProvision": 1600.0,
+      "negotiationTarget": 1600,
+      "action": "Provisão de materiais revisada para R$1.600, incluindo hipótese de tinta nova. Quantidade, linha, substrato e estado da lata existente ainda precisam de conferência.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O07",
+      "item": "Forro com tratamento térmico/acústico",
+      "baseline": 1610.0,
+      "prudentProvision": 1610.0,
+      "negotiationTarget": 1610,
+      "action": "Preservar R$1.610 para cerca de 7 m² de forro do escritório, estrutura e lã. Não reduzir para 6,785 m² sem proposta; área mínima de serviço e sistema ainda pendentes.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    },
+    {
+      "id": "O08",
+      "item": "Faixas, cortineiros e reparos de gesso",
+      "baseline": 1200.0,
+      "prudentProvision": 1200.0,
+      "negotiationTarget": 800,
+      "action": "Negociar conjuntamente com O07, mantendo cortineiros, faixas e recomposição local previstos. Aproveitar forro/sancas entregues apenas se compatíveis e íntegros, sem alterar desenho.",
+      "basis": "Provisão estimada; alvo de negociação sem proposta recebida"
+    }
+  ],
+  "materialAllowance": [
+    {
+      "item": "Algodão Egípcio fosco 18 L, hipótese",
+      "allowance": 700
+    },
+    {
+      "item": "Complemento Algodão Egípcio 3,6 L, hipótese",
+      "allowance": 200
+    },
+    {
+      "item": "Tinta branca para tetos, hipótese de dois galões de 3,6 L",
+      "allowance": 350
+    },
+    {
+      "item": "Massa/fundo adequados, lixas e consumíveis de pintura, estimativa",
+      "allowance": 350
+    }
+  ],
+  "sources": [
+    {
+      "item": "Suvinil Toque Fosco Completo Algodão Egípcio 18 L",
+      "price": 634.41,
+      "card": 667.8,
+      "url": "https://tintasdarka.com.br/produto/2434-toque-fosco-completo-algodao-egipcio--18l--suvinil",
+      "status": "Página consultada em 22/10/2026; Pix, sem simulação de entrega em São Paulo. Referência para verba, não compra ou seleção final de linha."
+    },
+    {
+      "item": "Suvinil Toque Fosco Completo Algodão Egípcio 3,6 L",
+      "price": 180.22,
+      "card": 189.7,
+      "url": "https://tintasdarka.com.br/produto/2408-toque-fosco-completo-algodao-egipcio--3,6l--suvinil",
+      "status": "Referência publicada consultada em 22/10/2026, sem frete. Complemento hipotético, não quantidade medida."
+    },
+    {
+      "item": "Suvinil Tetos Branco Neve 3,6 L",
+      "price": 166.9,
+      "card": 175.68,
+      "url": "https://www.elevato.com.br/p/34386-tinta-suvinil-acril-tetos-3-6-lt-branco-1015869",
+      "status": "INDISPONÍVEL; página consultada em 22/10 indica preço válido em 21/10. Somente referência anterior de custo; não oferta comprável. Não usar rendimento contraditório da loja para quantitativos."
+    }
+  ],
+  "status": "Estudo concluído; economia ainda depende de cotação e quantitativos. Provisão de tinta corrigida dentro da execução. Não alterar projeto ou paleta.",
+  "executionPrudent": 137685.75,
+  "executionIfWorksScenarioObtained": 135935.75,
+  "executionIfWorksAndJoineryTargetsObtained": 124385.75,
+  "executionIfWorksJoineryFurnitureScenariosObtained": 122935.75,
+  "relatorio": "Obra_e_pintura/Analise_obra.md",
+  "aceiteCenarioPlanejamento": {
+    "data": "2026-10-22",
+    "autor": "Elias",
+    "pedido": "ok, anote esse cenário e vamos analisar as instalações pra reduzir mais e encaixar tudo nos 120mil sem mexer nos 10mil de reserva",
+    "valor": 10560,
+    "alcance": "Cenário de obra aceito para planejamento e negociação. Não transforma os R$1.750 de descontos de serviço em economia contratada; provisão prudente R$12.310 preservada como comparação."
+  }
+}

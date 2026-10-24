@@ -1,0 +1,10 @@
+﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+PlacaL | PlacaL001;Base em L / Tampo em L;2;1050.0;650.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+Peca255;Fundo do braço principal;1;632.0;272.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca256;Fundo do retorno;1;1032.0;272.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+LateralApoioPrincipal;Lateral 18 mm de apoio da principal - proposta R03;1;612.0;272.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteSimplesR04;Porta A - canecos comuns;1;306.0;271.0;18.0;Não individualizado;"face interna Branco TX; face aparente Amadeirado, referência Arenza";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteSimplesR001;Porta B - canecos comuns;1;306.0;271.0;18.0;Não individualizado;"face interna Branco TX; face aparente Amadeirado, referência Arenza";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+ApoioPortaBR04;Lateral 18 mm de apoio da porta B - proposta;1;272.0;212.0;18.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FaixaQuinaAR04;Faixa fixa A 142 mm - proposta;1;306.0;142.0;18.0;Não individualizado;"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FaixaQuinaBR04;Faixa fixa B 124 mm - proposta;1;306.0;124.0;18.0;Não individualizado;"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";

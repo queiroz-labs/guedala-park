@@ -1,0 +1,372 @@
+{
+  "contatos": [
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Peca407",
+      "area_contato_estimada_mm2": 7615.999999819893,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Peca408",
+      "area_contato_estimada_mm2": 15263.999999639333,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "PecaBancoR16",
+      "area_contato_estimada_mm2": 17171.999999593936,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "PecaBancoR003",
+      "area_contato_estimada_mm2": 7019.999999834,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "PecaBancoR004",
+      "area_contato_estimada_mm2": 7019.999999833998,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "PecaBancoR005",
+      "area_contato_estimada_mm2": 3119.9999999262272,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_frente1R31",
+      "area_contato_estimada_mm2": 3563.99999989884,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_tras1R31",
+      "area_contato_estimada_mm2": 3563.9999998988396,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_frente2R31",
+      "area_contato_estimada_mm2": 6299.9999998211815,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_tras2R31",
+      "area_contato_estimada_mm2": 6299.999999821181,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_frente3R31",
+      "area_contato_estimada_mm2": 6515.999999815044,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "apoio": "Ref_Sarrafo_tras3R31",
+      "area_contato_estimada_mm2": 6515.999999815051,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "Peca408",
+      "area_contato_estimada_mm2": 12927.99999969437,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "PecaBancoR16",
+      "area_contato_estimada_mm2": 14543.99999965608,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "PecaBancoR005",
+      "area_contato_estimada_mm2": 3119.9999999262163,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "Peca406AtualR31",
+      "area_contato_estimada_mm2": 7615.999999819922,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "Ref_Sarrafo_frente0R31",
+      "area_contato_estimada_mm2": 14399.999999591273,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "apoio": "Ref_Sarrafo_tras0R31",
+      "area_contato_estimada_mm2": 14399.999999591273,
+      "metodo": "penetração virtual 0,001 mm no apoio; modelo não alterado"
+    }
+  ],
+  "fixacao_sensibilidade": [
+    {
+      "projecao_hipotetica_mm": 5.6,
+      "indice_parafuso": 42,
+      "lado": "front",
+      "centro": [
+        512,
+        4274,
+        298
+      ],
+      "objeto": "PecaBancoR025",
+      "volume_mm3": 1130.973355292437
+    },
+    {
+      "projecao_hipotetica_mm": 5.6,
+      "indice_parafuso": 43,
+      "lado": "front",
+      "centro": [
+        512,
+        4174,
+        298
+      ],
+      "objeto": "PecaBancoR025",
+      "volume_mm3": 1130.973355292437
+    },
+    {
+      "projecao_hipotetica_mm": 5.6,
+      "indice_parafuso": 55,
+      "lado": "front",
+      "centro": [
+        512,
+        4006,
+        298
+      ],
+      "objeto": "PecaBancoR021",
+      "volume_mm3": 188.49555921549629
+    },
+    {
+      "projecao_hipotetica_mm": 5.6,
+      "indice_parafuso": 56,
+      "lado": "front",
+      "centro": [
+        512,
+        3906,
+        298
+      ],
+      "objeto": "PecaBancoR021",
+      "volume_mm3": 188.49555921551416
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 40,
+      "lado": "front",
+      "centro": [
+        512,
+        4474,
+        298
+      ],
+      "objeto": "PecaBancoR026",
+      "volume_mm3": 650.4681801432737
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 41,
+      "lado": "front",
+      "centro": [
+        512,
+        4374,
+        298
+      ],
+      "objeto": "PecaBancoR026",
+      "volume_mm3": 659.7344572539542
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 42,
+      "lado": "front",
+      "centro": [
+        512,
+        4274,
+        298
+      ],
+      "objeto": "PecaBancoR025",
+      "volume_mm3": 3455.7519189488858
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 43,
+      "lado": "front",
+      "centro": [
+        512,
+        4174,
+        298
+      ],
+      "objeto": "PecaBancoR025",
+      "volume_mm3": 3455.7519189488858
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 55,
+      "lado": "front",
+      "centro": [
+        512,
+        4006,
+        298
+      ],
+      "objeto": "PecaBancoR021",
+      "volume_mm3": 2513.274122871932
+    },
+    {
+      "projecao_hipotetica_mm": 13,
+      "indice_parafuso": 56,
+      "lado": "front",
+      "centro": [
+        512,
+        3906,
+        298
+      ],
+      "objeto": "PecaBancoR021",
+      "volume_mm3": 2513.2741228719497
+    }
+  ],
+  "flexao_sensibilidade": [
+    {
+      "E_MPa": 2500,
+      "espessura_estrutural_mm": 17.1,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 7.566021134708111,
+      "flecha_servico_mm": 4.170190268773856
+    },
+    {
+      "E_MPa": 2500,
+      "espessura_estrutural_mm": 18,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 6.828334074074072,
+      "flecha_servico_mm": 3.575416881689986
+    },
+    {
+      "E_MPa": 2500,
+      "espessura_estrutural_mm": 20,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 5.530950599999999,
+      "flecha_servico_mm": 2.606478906752
+    },
+    {
+      "E_MPa": 4780,
+      "espessura_estrutural_mm": 17.1,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 7.566021134708111,
+      "flecha_servico_mm": 2.1810618560532724
+    },
+    {
+      "E_MPa": 4780,
+      "espessura_estrutural_mm": 18,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 6.828334074074072,
+      "flecha_servico_mm": 1.8699879088336748
+    },
+    {
+      "E_MPa": 4780,
+      "espessura_estrutural_mm": 20,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 5.530950599999999,
+      "flecha_servico_mm": 1.363221185539749
+    },
+    {
+      "E_MPa": 5500,
+      "espessura_estrutural_mm": 17.1,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 7.566021134708111,
+      "flecha_servico_mm": 1.895541031260844
+    },
+    {
+      "E_MPa": 5500,
+      "espessura_estrutural_mm": 18,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 6.828334074074072,
+      "flecha_servico_mm": 1.6251894916772665
+    },
+    {
+      "E_MPa": 5500,
+      "espessura_estrutural_mm": 20,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 5.530950599999999,
+      "flecha_servico_mm": 1.1847631394327272
+    },
+    {
+      "E_MPa": 5580,
+      "espessura_estrutural_mm": 17.1,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 7.566021134708111,
+      "flecha_servico_mm": 1.8683648157588963
+    },
+    {
+      "E_MPa": 5580,
+      "espessura_estrutural_mm": 18,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 6.828334074074072,
+      "flecha_servico_mm": 1.6018892839112842
+    },
+    {
+      "E_MPa": 5580,
+      "espessura_estrutural_mm": 20,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 5.530950599999999,
+      "flecha_servico_mm": 1.1677772879713262
+    },
+    {
+      "E_MPa": 5960,
+      "espessura_estrutural_mm": 17.1,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 7.566021134708111,
+      "flecha_servico_mm": 1.7492408845527923
+    },
+    {
+      "E_MPa": 5960,
+      "espessura_estrutural_mm": 18,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 6.828334074074072,
+      "flecha_servico_mm": 1.4997554033934506
+    },
+    {
+      "E_MPa": 5960,
+      "espessura_estrutural_mm": 20,
+      "forca_N": 784.5319999999999,
+      "vao_mm": 376,
+      "largura_faixa_mm": 200,
+      "tensao_servico_MPa": 5.530950599999999,
+      "flecha_servico_mm": 1.0933216890738255
+    }
+  ],
+  "aviso": "Cilindros D20 x5,6/13 são envelopes hipotéticos de fixação, não CAD de produto. Padrão M6 histórico espelhado para banco atual: Y=5550-x. Não valida parafuso nem resistência. Flecha é viga simplificada, não certificação de assento."
+}

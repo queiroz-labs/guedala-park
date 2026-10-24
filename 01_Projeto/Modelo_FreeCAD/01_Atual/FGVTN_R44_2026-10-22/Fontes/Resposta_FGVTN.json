@@ -1,0 +1,20 @@
+{
+  "origem": "Outlook, mensagem lida pelo conector autorizado",
+  "remetente": "Rogério Almeida - FGV Ferragens para Móveis <sac@fgvtn.com.br>",
+  "assunto": "Re: Gabarito de instalação — corrediça 400 mm 54FGOC12400TSX0",
+  "recebida_utc": "2026-10-22T12:31:34Z",
+  "resposta_tecnica_textual": "Segue abaixo o Arquivo 3D da Corrediça FGVTN OCULTA SLOW ET 400MM.",
+  "url": "https://outlook.live.com/owa/?ItemID=AQMkADAwATMwMAItOWNlYy0zNTJmLTAwAi0wMAoARgAAA6U2pjlfSQ9KgECQ5JSoldsHACrMGhcnrrlBqsxOEO1nP88AAAIBDAAAACrMGhcnrrlBqsxOEO1nP88ACV2uEfIAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+  "pedido_original": ["Posição dos furos e parafusos recomendados", "Espaço ocupado pelo engate e necessário para destravá-lo", "Recortes e furos traseiros da gaveta"],
+  "limite": "O texto não confirma os detalhes solicitados. O conteúdo dos STEP deve ser inspecionado antes de inferir compatibilidade. Não extrapolar para 500 mm.",
+  "checagem_de_resposta_posterior": "Busca do SAC desde 20/10/2026 e busca pelo SKU desde 22/10/2026, ambas sem mais páginas, não localizaram resposta posterior sobre esta corrediça. A resposta posterior de 12:42:25 UTC trata exclusivamente do cesto.",
+  "cesto": {"recebida_utc": "2026-10-22T12:42:25Z", "resposta": "Infelizmente, não temos nenhuma ferragem para o seu projeto.", "consequencia": "FGVTN não apresentou solução para o cesto consultado; os STEP de corrediças não resolvem o cesto."},
+  "anexos": [
+    {"nome_original": "54FGOC12400TSX0 - CORREDIÇA FGVTN OCULTA SLOW ET 400MM_ABERTA.STEP", "arquivo_local": "54FGOC12400TSX0_ABERTA.STEP", "tamanho_metadado_outlook": 2604150, "bytes_download": 2603706, "sha256_download": "956434f65c3a7e7a521b2d62a7335f16a89d46486fd74b86b0d3f17e5d5b5539"},
+    {"nome_original": "54FGOC12400TSX0 - CORREDIÇA FGVTN OCULTA SLOW ET 400MM_FECHADA.STEP", "arquivo_local": "54FGOC12400TSX0_FECHADA.STEP", "tamanho_metadado_outlook": 2604115, "bytes_download": 2603667, "sha256_download": "c4e8aae4b84a3301d3dc06c1a1706fa2ca3db2f739ddb2995024dd287594167c"}
+  ],
+  "integridade": "Arquivos materializados pelo conector e baixados pelos URLs retornados. Ambos apresentam cabeçalho e terminador STEP. Tamanho informado pelo Outlook difere do arquivo bruto; não foi fornecido hash do remetente. Hashes acima identificam as cópias recebidas, sem afirmar identidade criptográfica à origem.",
+  "rede": "Tentativa em ambiente restrito falhou por resolução de nome. Download repetido com acesso de rede ampliado autorizado concluiu. Nenhuma negativa de aprovação pendente.",
+  "base_projeto": {"revisao": "R43", "sha256": "ff9352b6c137e344525a68e65fe22290e3fa28d33cadd88235cfa24358a80449"},
+  "acoes_externas": "Somente leitura de e-mails e download dos dois anexos; nenhum contato, compra ou envio de arquivo."
+}

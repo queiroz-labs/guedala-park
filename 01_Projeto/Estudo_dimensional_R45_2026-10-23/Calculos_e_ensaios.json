@@ -1,0 +1,1828 @@
+{
+  "date": "2026-10-23",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\FGVTN_R44_2026-10-22\\Guedala_Park_R44_Consolidado.FCStd",
+  "source_sha256_before": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "nine_drawers": [
+    {
+      "drawer": "Gaveta",
+      "width_mm": 355.0,
+      "depth_mm": 550.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 30.0,
+      "nominal_inside_width_mm": 314.0,
+      "nominal_outside_width_15mm_sides": 344.0,
+      "inside_width_range_mm": [
+        313.5,
+        315.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta001",
+      "width_mm": 355.0,
+      "depth_mm": 550.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 30.0,
+      "nominal_inside_width_mm": 314.0,
+      "nominal_outside_width_15mm_sides": 344.0,
+      "inside_width_range_mm": [
+        313.5,
+        315.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta002",
+      "width_mm": 355.0,
+      "depth_mm": 550.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 30.0,
+      "nominal_inside_width_mm": 314.0,
+      "nominal_outside_width_15mm_sides": 344.0,
+      "inside_width_range_mm": [
+        313.5,
+        315.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta003",
+      "width_mm": 355.0,
+      "depth_mm": 550.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 30.0,
+      "nominal_inside_width_mm": 314.0,
+      "nominal_outside_width_15mm_sides": 344.0,
+      "inside_width_range_mm": [
+        313.5,
+        315.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta004",
+      "width_mm": 583.0,
+      "depth_mm": 572.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 52.0,
+      "nominal_inside_width_mm": 542.0,
+      "nominal_outside_width_15mm_sides": 572.0,
+      "inside_width_range_mm": [
+        541.5,
+        543.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta005",
+      "width_mm": 583.0,
+      "depth_mm": 572.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 52.0,
+      "nominal_inside_width_mm": 542.0,
+      "nominal_outside_width_15mm_sides": 572.0,
+      "inside_width_range_mm": [
+        541.5,
+        543.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta006",
+      "width_mm": 583.0,
+      "depth_mm": 572.0,
+      "min_depth_mm": 520,
+      "depth_margin_mm": 52.0,
+      "nominal_inside_width_mm": 542.0,
+      "nominal_outside_width_15mm_sides": 572.0,
+      "inside_width_range_mm": [
+        541.5,
+        543.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta008",
+      "width_mm": 364.0,
+      "depth_mm": 411.99999999999994,
+      "min_depth_mm": 420,
+      "depth_margin_mm": -8.000000000000057,
+      "nominal_inside_width_mm": 323.0,
+      "nominal_outside_width_15mm_sides": 353.0,
+      "inside_width_range_mm": [
+        322.5,
+        324.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    },
+    {
+      "drawer": "Gaveta009",
+      "width_mm": 364.0,
+      "depth_mm": 411.99999999999994,
+      "min_depth_mm": 420,
+      "depth_margin_mm": -8.000000000000057,
+      "nominal_inside_width_mm": 323.0,
+      "nominal_outside_width_15mm_sides": 353.0,
+      "inside_width_range_mm": [
+        322.5,
+        324.0
+      ],
+      "side_gap_range_centered_mm": [
+        5,
+        5.75
+      ],
+      "note": "Somente relação dimensional; não verifica montagem das guias de 500."
+    }
+  ],
+  "office_R04": {
+    "clear_depth": 432,
+    "margin_P1": 12,
+    "width_inside": 323,
+    "width_outside": 353,
+    "cargo": [
+      {
+        "drawer": "Gaveta008",
+        "cargo_envelope": [
+          4338.5,
+          297.0,
+          536.0,
+          4661.5,
+          1039.0,
+          599.4
+        ],
+        "hits": [],
+        "dimensions_mm": [
+          323,
+          364,
+          60.4
+        ],
+        "volume_l": 7.101348799999997
+      },
+      {
+        "drawer": "Gaveta009",
+        "cargo_envelope": [
+          4338.5,
+          297.0,
+          644.0,
+          4661.5,
+          1039.0,
+          701.0
+        ],
+        "hits": [],
+        "dimensions_mm": [
+          323,
+          364,
+          54
+        ],
+        "volume_l": 6.348888
+      }
+    ],
+    "rail_cases": [
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 0,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 22845.113
+          },
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 2516.73
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 41.034
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 15223.711
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 8640.685
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 0,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 22845.113
+          },
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 83.606
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 15223.711
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 1,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 12686.077
+          },
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 204.181
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 63.27
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 15234.506
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 8640.685
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 1,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 12686.077
+          },
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 6.786
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 15234.506
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 2,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9283.306
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 79.071
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 14236.403
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 8640.063
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 2,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9283.306
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 14236.403
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 5,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9015.354
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 7263.272
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 79.071
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 11074.662
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 8397.409
+          },
+          {
+            "rail": "Part__Feature005",
+            "wood": "Novo_Peca370",
+            "mm3": 639.93
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 5,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9015.354
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 729.339
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 11074.662
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 5175.167
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 10,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 8883.897
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 9690.394
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 3726.661
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 79.071
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 6325.355
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Novo_Peca370",
+            "mm3": 8422.768
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 935.136
+          },
+          {
+            "rail": "Part__Feature005",
+            "wood": "Novo_Peca370",
+            "mm3": 1647.205
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 10,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 8883.897
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 1133.966
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 3726.661
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 6325.355
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Novo_Peca370",
+            "mm3": 3996.82
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 574.209
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 12,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9267.192
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 10476.24
+          },
+          {
+            "rail": "Part__Feature002",
+            "wood": "Novo_Peca370",
+            "mm3": 79.071
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 4987.963
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Novo_Peca370",
+            "mm3": 10192.147
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 201.696
+          },
+          {
+            "rail": "Part__Feature005",
+            "wood": "Novo_Peca370",
+            "mm3": 1846.184
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta008",
+        "lower_rail_mm": 12,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Novo_Peca370",
+            "mm3": 9267.192
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Novo_Peca370",
+            "mm3": 1272.113
+          },
+          {
+            "rail": "Part__Feature003",
+            "wood": "Novo_Peca370",
+            "mm3": 4987.963
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Novo_Peca370",
+            "mm3": 4848.079
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta008_Lateral_E",
+            "mm3": 123.849
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 0,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 2516.73
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 8640.685
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 0,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 83.606
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 1,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 204.181
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 8640.685
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 1,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 6.786
+          },
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 2,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 8640.063
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 2,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 5306.122
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 5,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 8397.409
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 5,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 4570.741
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 5175.167
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 10,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 3726.661
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 935.136
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 10,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature001",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 3726.661
+          },
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 574.209
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 12,
+        "travel_mm": 0,
+        "hits": [
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 201.696
+          }
+        ]
+      },
+      {
+        "drawer": "Gaveta009",
+        "lower_rail_mm": 12,
+        "travel_mm": 374.3,
+        "hits": [
+          {
+            "rail": "Part__Feature004",
+            "wood": "Gaveta009_Lateral_E",
+            "mm3": 123.849
+          }
+        ]
+      }
+    ],
+    "rail_case_method": "Mesma hipótese R44: sourceY0 -> X4318, sourceZ148.5 -> Y676, sourceX30.6 -> fundo inferior. Rebaixamentos são apenas sensibilidade; não indicam montagem válida. Estados abertos reconstruídos pelos deslocamentos oficiais 374.3/256.35mm.",
+    "vertical_cargo_nominal_margins_mm": [
+      1.6,
+      1.0
+    ],
+    "tolerance_budget_examples": [
+      {
+        "errors_mm": [
+          0.5,
+          0.5
+        ],
+        "remaining_mm": [
+          0.6,
+          0
+        ]
+      },
+      {
+        "errors_mm": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "remaining_mm": [
+          0.1,
+          -0.5
+        ]
+      }
+    ]
+  },
+  "bank": [
+    {
+      "lid": 1,
+      "size_mm": [
+        971,
+        448,
+        20
+      ],
+      "volume_m3": 0.008700159999999998,
+      "density_limit_panel_only_kg_m3": 804.5829042224512,
+      "mass_scenarios": [
+        {
+          "density_kg_m3": 650,
+          "panel_kg": 5.655103999999999,
+          "allowance_to_7kg": 1.3448960000000012
+        },
+        {
+          "density_kg_m3": 750,
+          "panel_kg": 6.5251199999999985,
+          "allowance_to_7kg": 0.4748800000000015
+        },
+        {
+          "density_kg_m3": 800,
+          "panel_kg": 6.960127999999999,
+          "allowance_to_7kg": 0.039872000000000796
+        },
+        {
+          "density_kg_m3": 900,
+          "panel_kg": 7.830143999999999,
+          "allowance_to_7kg": -0.8301439999999989
+        }
+      ],
+      "two_units_required_by_width": true,
+      "reference_datums": [
+        {
+          "inner_side_face_y": 3768,
+          "lid_mount_plane_y": 3780,
+          "distance_from_lid_edge_mm": 29,
+          "side_fixed_center": [
+            178,
+            3768,
+            360
+          ],
+          "side_holes_z": [
+            374,
+            346
+          ],
+          "lid_reference_points": [
+            [
+              290,
+              3780,
+              400
+            ],
+            [
+              306,
+              3780,
+              400
+            ]
+          ],
+          "conditional": "Datum de tampa referido à borda traseira; dobradiça/recobrimento r ainda indefinidos. Conferir antes de furar."
+        },
+        {
+          "inner_side_face_y": 4714,
+          "lid_mount_plane_y": 4702,
+          "distance_from_lid_edge_mm": 20,
+          "side_fixed_center": [
+            178,
+            4714,
+            360
+          ],
+          "side_holes_z": [
+            374,
+            346
+          ],
+          "lid_reference_points": [
+            [
+              290,
+              4702,
+              400
+            ],
+            [
+              306,
+              4702,
+              400
+            ]
+          ],
+          "conditional": "Datum de tampa referido à borda traseira; dobradiça/recobrimento r ainda indefinidos. Conferir antes de furar."
+        }
+      ],
+      "motion": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "angle": 2,
+          "hits": []
+        },
+        {
+          "angle": 3,
+          "hits": []
+        },
+        {
+          "angle": 4,
+          "hits": []
+        },
+        {
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "angle": 6,
+          "hits": []
+        },
+        {
+          "angle": 7,
+          "hits": []
+        },
+        {
+          "angle": 8,
+          "hits": []
+        },
+        {
+          "angle": 9,
+          "hits": []
+        },
+        {
+          "angle": 10,
+          "hits": []
+        },
+        {
+          "angle": 11,
+          "hits": []
+        },
+        {
+          "angle": 12,
+          "hits": []
+        },
+        {
+          "angle": 13,
+          "hits": []
+        },
+        {
+          "angle": 14,
+          "hits": []
+        },
+        {
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "angle": 16,
+          "hits": []
+        },
+        {
+          "angle": 17,
+          "hits": []
+        },
+        {
+          "angle": 18,
+          "hits": []
+        },
+        {
+          "angle": 19,
+          "hits": []
+        },
+        {
+          "angle": 20,
+          "hits": []
+        },
+        {
+          "angle": 21,
+          "hits": []
+        },
+        {
+          "angle": 22,
+          "hits": []
+        },
+        {
+          "angle": 23,
+          "hits": []
+        },
+        {
+          "angle": 24,
+          "hits": []
+        },
+        {
+          "angle": 25,
+          "hits": []
+        },
+        {
+          "angle": 26,
+          "hits": []
+        },
+        {
+          "angle": 27,
+          "hits": []
+        },
+        {
+          "angle": 28,
+          "hits": []
+        },
+        {
+          "angle": 29,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 31,
+          "hits": []
+        },
+        {
+          "angle": 32,
+          "hits": []
+        },
+        {
+          "angle": 33,
+          "hits": []
+        },
+        {
+          "angle": 34,
+          "hits": []
+        },
+        {
+          "angle": 35,
+          "hits": []
+        },
+        {
+          "angle": 36,
+          "hits": []
+        },
+        {
+          "angle": 37,
+          "hits": []
+        },
+        {
+          "angle": 38,
+          "hits": []
+        },
+        {
+          "angle": 39,
+          "hits": []
+        },
+        {
+          "angle": 40,
+          "hits": []
+        },
+        {
+          "angle": 41,
+          "hits": []
+        },
+        {
+          "angle": 42,
+          "hits": []
+        },
+        {
+          "angle": 43,
+          "hits": []
+        },
+        {
+          "angle": 44,
+          "hits": []
+        },
+        {
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "angle": 46,
+          "hits": []
+        },
+        {
+          "angle": 47,
+          "hits": []
+        },
+        {
+          "angle": 48,
+          "hits": []
+        },
+        {
+          "angle": 49,
+          "hits": []
+        },
+        {
+          "angle": 50,
+          "hits": []
+        },
+        {
+          "angle": 51,
+          "hits": []
+        },
+        {
+          "angle": 52,
+          "hits": []
+        },
+        {
+          "angle": 53,
+          "hits": []
+        },
+        {
+          "angle": 54,
+          "hits": []
+        },
+        {
+          "angle": 55,
+          "hits": []
+        },
+        {
+          "angle": 56,
+          "hits": []
+        },
+        {
+          "angle": 57,
+          "hits": []
+        },
+        {
+          "angle": 58,
+          "hits": []
+        },
+        {
+          "angle": 59,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 61,
+          "hits": []
+        },
+        {
+          "angle": 62,
+          "hits": []
+        },
+        {
+          "angle": 63,
+          "hits": []
+        },
+        {
+          "angle": 64,
+          "hits": []
+        },
+        {
+          "angle": 65,
+          "hits": []
+        },
+        {
+          "angle": 66,
+          "hits": []
+        },
+        {
+          "angle": 67,
+          "hits": []
+        },
+        {
+          "angle": 68,
+          "hits": []
+        },
+        {
+          "angle": 69,
+          "hits": []
+        },
+        {
+          "angle": 70,
+          "hits": []
+        },
+        {
+          "angle": 71,
+          "hits": []
+        },
+        {
+          "angle": 72,
+          "hits": []
+        },
+        {
+          "angle": 73,
+          "hits": []
+        },
+        {
+          "angle": 74,
+          "hits": []
+        },
+        {
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "angle": 76,
+          "hits": []
+        },
+        {
+          "angle": 77,
+          "hits": []
+        },
+        {
+          "angle": 78,
+          "hits": []
+        },
+        {
+          "angle": 79,
+          "hits": []
+        },
+        {
+          "angle": 80,
+          "hits": []
+        },
+        {
+          "angle": 81,
+          "hits": []
+        },
+        {
+          "angle": 82,
+          "hits": []
+        },
+        {
+          "angle": 83,
+          "hits": []
+        },
+        {
+          "angle": 84,
+          "hits": []
+        },
+        {
+          "angle": 85,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 87,
+          "hits": []
+        },
+        {
+          "angle": 88,
+          "hits": []
+        },
+        {
+          "angle": 89,
+          "hits": []
+        },
+        {
+          "angle": 90,
+          "hits": []
+        }
+      ],
+      "open90_top_z": 868,
+      "clearance_backrest_mm": 2,
+      "hinge_model": "ideal original axis, not hinge kinematics"
+    },
+    {
+      "lid": 2,
+      "size_mm": [
+        825,
+        448,
+        20
+      ],
+      "volume_m3": 0.007392,
+      "density_limit_panel_only_kg_m3": 946.969696969697,
+      "mass_scenarios": [
+        {
+          "density_kg_m3": 650,
+          "panel_kg": 4.8048,
+          "allowance_to_7kg": 2.1952
+        },
+        {
+          "density_kg_m3": 750,
+          "panel_kg": 5.5440000000000005,
+          "allowance_to_7kg": 1.4559999999999995
+        },
+        {
+          "density_kg_m3": 800,
+          "panel_kg": 5.9136,
+          "allowance_to_7kg": 1.0864000000000003
+        },
+        {
+          "density_kg_m3": 900,
+          "panel_kg": 6.6528,
+          "allowance_to_7kg": 0.34719999999999995
+        }
+      ],
+      "two_units_required_by_width": true,
+      "reference_datums": [
+        {
+          "inner_side_face_y": 4732,
+          "lid_mount_plane_y": 4744,
+          "distance_from_lid_edge_mm": 20,
+          "side_fixed_center": [
+            178,
+            4732,
+            360
+          ],
+          "side_holes_z": [
+            374,
+            346
+          ],
+          "lid_reference_points": [
+            [
+              290,
+              4744,
+              400
+            ],
+            [
+              306,
+              4744,
+              400
+            ]
+          ],
+          "conditional": "Datum de tampa referido à borda traseira; dobradiça/recobrimento r ainda indefinidos. Conferir antes de furar."
+        },
+        {
+          "inner_side_face_y": 5532,
+          "lid_mount_plane_y": 5520,
+          "distance_from_lid_edge_mm": 29,
+          "side_fixed_center": [
+            178,
+            5532,
+            360
+          ],
+          "side_holes_z": [
+            374,
+            346
+          ],
+          "lid_reference_points": [
+            [
+              290,
+              5520,
+              400
+            ],
+            [
+              306,
+              5520,
+              400
+            ]
+          ],
+          "conditional": "Datum de tampa referido à borda traseira; dobradiça/recobrimento r ainda indefinidos. Conferir antes de furar."
+        }
+      ],
+      "motion": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "angle": 2,
+          "hits": []
+        },
+        {
+          "angle": 3,
+          "hits": []
+        },
+        {
+          "angle": 4,
+          "hits": []
+        },
+        {
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "angle": 6,
+          "hits": []
+        },
+        {
+          "angle": 7,
+          "hits": []
+        },
+        {
+          "angle": 8,
+          "hits": []
+        },
+        {
+          "angle": 9,
+          "hits": []
+        },
+        {
+          "angle": 10,
+          "hits": []
+        },
+        {
+          "angle": 11,
+          "hits": []
+        },
+        {
+          "angle": 12,
+          "hits": []
+        },
+        {
+          "angle": 13,
+          "hits": []
+        },
+        {
+          "angle": 14,
+          "hits": []
+        },
+        {
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "angle": 16,
+          "hits": []
+        },
+        {
+          "angle": 17,
+          "hits": []
+        },
+        {
+          "angle": 18,
+          "hits": []
+        },
+        {
+          "angle": 19,
+          "hits": []
+        },
+        {
+          "angle": 20,
+          "hits": []
+        },
+        {
+          "angle": 21,
+          "hits": []
+        },
+        {
+          "angle": 22,
+          "hits": []
+        },
+        {
+          "angle": 23,
+          "hits": []
+        },
+        {
+          "angle": 24,
+          "hits": []
+        },
+        {
+          "angle": 25,
+          "hits": []
+        },
+        {
+          "angle": 26,
+          "hits": []
+        },
+        {
+          "angle": 27,
+          "hits": []
+        },
+        {
+          "angle": 28,
+          "hits": []
+        },
+        {
+          "angle": 29,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 31,
+          "hits": []
+        },
+        {
+          "angle": 32,
+          "hits": []
+        },
+        {
+          "angle": 33,
+          "hits": []
+        },
+        {
+          "angle": 34,
+          "hits": []
+        },
+        {
+          "angle": 35,
+          "hits": []
+        },
+        {
+          "angle": 36,
+          "hits": []
+        },
+        {
+          "angle": 37,
+          "hits": []
+        },
+        {
+          "angle": 38,
+          "hits": []
+        },
+        {
+          "angle": 39,
+          "hits": []
+        },
+        {
+          "angle": 40,
+          "hits": []
+        },
+        {
+          "angle": 41,
+          "hits": []
+        },
+        {
+          "angle": 42,
+          "hits": []
+        },
+        {
+          "angle": 43,
+          "hits": []
+        },
+        {
+          "angle": 44,
+          "hits": []
+        },
+        {
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "angle": 46,
+          "hits": []
+        },
+        {
+          "angle": 47,
+          "hits": []
+        },
+        {
+          "angle": 48,
+          "hits": []
+        },
+        {
+          "angle": 49,
+          "hits": []
+        },
+        {
+          "angle": 50,
+          "hits": []
+        },
+        {
+          "angle": 51,
+          "hits": []
+        },
+        {
+          "angle": 52,
+          "hits": []
+        },
+        {
+          "angle": 53,
+          "hits": []
+        },
+        {
+          "angle": 54,
+          "hits": []
+        },
+        {
+          "angle": 55,
+          "hits": []
+        },
+        {
+          "angle": 56,
+          "hits": []
+        },
+        {
+          "angle": 57,
+          "hits": []
+        },
+        {
+          "angle": 58,
+          "hits": []
+        },
+        {
+          "angle": 59,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 61,
+          "hits": []
+        },
+        {
+          "angle": 62,
+          "hits": []
+        },
+        {
+          "angle": 63,
+          "hits": []
+        },
+        {
+          "angle": 64,
+          "hits": []
+        },
+        {
+          "angle": 65,
+          "hits": []
+        },
+        {
+          "angle": 66,
+          "hits": []
+        },
+        {
+          "angle": 67,
+          "hits": []
+        },
+        {
+          "angle": 68,
+          "hits": []
+        },
+        {
+          "angle": 69,
+          "hits": []
+        },
+        {
+          "angle": 70,
+          "hits": []
+        },
+        {
+          "angle": 71,
+          "hits": []
+        },
+        {
+          "angle": 72,
+          "hits": []
+        },
+        {
+          "angle": 73,
+          "hits": []
+        },
+        {
+          "angle": 74,
+          "hits": []
+        },
+        {
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "angle": 76,
+          "hits": []
+        },
+        {
+          "angle": 77,
+          "hits": []
+        },
+        {
+          "angle": 78,
+          "hits": []
+        },
+        {
+          "angle": 79,
+          "hits": []
+        },
+        {
+          "angle": 80,
+          "hits": []
+        },
+        {
+          "angle": 81,
+          "hits": []
+        },
+        {
+          "angle": 82,
+          "hits": []
+        },
+        {
+          "angle": 83,
+          "hits": []
+        },
+        {
+          "angle": 84,
+          "hits": []
+        },
+        {
+          "angle": 85,
+          "hits": []
+        },
+        {
+          "angle": 86,
+          "hits": []
+        },
+        {
+          "angle": 87,
+          "hits": []
+        },
+        {
+          "angle": 88,
+          "hits": []
+        },
+        {
+          "angle": 89,
+          "hits": []
+        },
+        {
+          "angle": 90,
+          "hits": []
+        }
+      ],
+      "open90_top_z": 868,
+      "clearance_backrest_mm": 2,
+      "hinge_model": "ideal original axis, not hinge kinematics"
+    }
+  ],
+  "bank_motion_hits": [],
+  "bank_shelf": {
+    "shelf_top_mm": 310,
+    "shelf_bottom_mm": 292,
+    "closed_lid_underside_mm": 400,
+    "free_height_mm": 90,
+    "manual_minimum_mm": 130,
+    "shortfall_mm": 40,
+    "lower_shelf_40_new_bottom_mm": 252,
+    "stored_objects_top_mm": 274,
+    "resulting_overlap_mm": 22,
+    "note": "Cota mínima do manual aplicada à região da montagem. Perfil/mecanismo exato ainda necessário. Abaixar toda prateleira40 invade os gabaritos de aspirador/jogos; não aplicado."
+  },
+  "not_validated": [
+    "Engates, orientação/datum, furos traseiros e parafusos da corrediça",
+    "Carga, resistência e montagem das gavetas",
+    "Dobradiças reais, recobrimento r, corpo/cinemática/retencao do Slow Multi",
+    "Massa acabada das tampas, ligações e resistência do banco",
+    "Tolerâncias de fabricação e medidas executadas"
+  ],
+  "study_invalid_shapes": [],
+  "source_sha256_after": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "study_file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Estudo_dimensional_R45_2026-10-23\\Gavetas_Banco_R45_ESTUDO.FCStd",
+  "study_objects": 129
+}

@@ -1,0 +1,52 @@
+{
+  "frente_atual_mm": [
+    550,
+    521,
+    18
+  ],
+  "frente_proposta_mm": [
+    550,
+    500,
+    18
+  ],
+  "reducao_altura_mm": 21,
+  "reducao_massa_percentual": 4.030710172744722,
+  "massa_atual_cenarios_kg": {
+    "750": 3.868425,
+    "900": 4.64211
+  },
+  "opcoes": [
+    {
+      "opcao": "ManterBase",
+      "objeto": "Alternativa500ManterBaseR41",
+      "base_mm": 150.0,
+      "topo_mm": 650.0,
+      "junta_ate_painel675_mm": 25.0,
+      "volume_mm3": 4950000.0,
+      "massa_cenarios_kg": {
+        "750": 3.7125,
+        "900": 4.455
+      },
+      "validade": true
+    },
+    {
+      "opcao": "ManterTopo",
+      "objeto": "Alternativa500ManterTopoR41",
+      "base_mm": 171.0,
+      "topo_mm": 671.0,
+      "junta_ate_painel675_mm": 4.0,
+      "volume_mm3": 4950000.0,
+      "massa_cenarios_kg": {
+        "750": 3.7125,
+        "900": 4.455
+      },
+      "validade": true
+    }
+  ],
+  "meta_provisoria_roupa_kg": 8,
+  "massa_minima_conjunto_cenarios_sem_armacao_saco_ferragens_kg": {
+    "750": 11.7125,
+    "900": 12.455
+  },
+  "conclusao": "Altura500 enquadra a frente na tabela dimensional BV0 para2bracos. Nao comprova capacidade de roupa8kg+frente+armacao nem retencao55. Saco preservado geometricamente no modelo, nao validado com ferragem real."
+}

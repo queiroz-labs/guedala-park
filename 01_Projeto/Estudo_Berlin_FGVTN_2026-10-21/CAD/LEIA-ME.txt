@@ -1,0 +1,21 @@
+ESTUDO DIMENSIONAL BERLIN - R41
+
+Berlin_comparativo.png / .svg: planta comparativa dos tres cenarios, produzida com caixas envolventes medidas no kernel FreeCAD 1.1.4.
+Berlin_estudo_dimensional.FCStd: copia PARCIAL do contexto R41, com grupos por cenario. Os tres grupos ocupam o mesmo lugar: exibir somente um cenario de cada vez, junto do grupo Contexto_R41. Nao e revisao oficial do projeto.
+Conferencia_Berlin.json: coordenadas, premissas, distancias, intersecoes e verificacao de integridade.
+build_study.py e inspect_model.py: scripts de reproducao e inspecao.
+
+O modelo original nao foi salvo nem alterado. SHA256 antes/depois: 4d3897b07daf228ed6529f6fa87b5555ee085db9fd2fc0d979d6de236490cfcb.
+O FCStd do estudo foi reaberto: 24 objetos, nenhuma forma geometrica invalida.
+
+PREMISSAS E LIMITES
+Berlin 110/170 x 80 cm, superficie superior a 79 cm. Centro mantido em X875/Y4650 mm. Apenas superficie superior e projecao da sapata, sem inventar espessura, mecanismo, estrutura ou altura livre inferior.
+Sapata hipotetica 33 cm transversal x 50 cm longitudinal; orientacao ainda precisa de confirmacao. A parte superior do pedestal 40 x 23 cm nao foi modelada porque faltam orientacao, altura e perfil.
+Cadeiras usam geometria do gabarito Lina da R41: 44 x 47 x 94 cm. Insercao de 26 cm e projecao externa de 21 cm sao HIPOTESES, nao encaixe verificado. Nao foram incluidos corpos, recuo para sentar, abertura da geladeira ou mecanismos da mesa/banco.
+Contexto copiado: sofa, banco, encosto e geladeira. Nao foram verificados outros elementos do apartamento, passagem completa, portas ou todas as interferencias do projeto.
+Fechada: sem intersecao das cadeiras com o contexto copiado; folga nominal cadeira-sofa 24 cm e cadeira-geladeira 74,25 cm.
+Aberta no mesmo arranjo: cadeira da ponta sofa sobrepoe o sofa em 6 cm na planta e efetivamente intersecta os solidos do modelo. Cadeira-geladeira 44,25 cm.
+Atualizacao final 22/10/2026: aberta com TRES cadeiras no lado livre conforme ultimo pedido. Sem intersecao das cadeiras com o contexto copiado. Entre cadeiras12,67 cm, margens6,33 cm; tampo-geladeira65,25 cm e tampo-sofa15 cm. Sem comprovacao de conforto com pessoas. Arquivos com sufixo2laterais_historico preservam a proposta anterior, superada.
+Essas folgas nao equivalem a passagem util com pessoas sentadas.
+Tampo sobrepoe a projecao do banco em 7,5 cm; diferenca entre superficie superior e assento do banco de 47 cm e 32 cm. Nenhuma dessas medidas comprova vao livre para pernas ou compatibilidade ergonomica.
+Tudo e medida do MODELO, nao verificacao fisica do apartamento ou produto. Nao autoriza compra, fabricacao ou instalacao. Conferir fisicamente posicoes, recolhimento real das cadeiras, acesso ao banco, abertura da mesa e da geladeira antes da decisao.

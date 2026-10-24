@@ -1,0 +1,2616 @@
+{
+  "boardMm": [
+    208,
+    1230
+  ],
+  "boardsPerBox": 14,
+  "boxes": 10,
+  "availableBoards": 140,
+  "usedBoards": 136,
+  "spareBoards": 4,
+  "rawFloorAreaM2": 31.4485,
+  "duplicateAreaNotDeductedM2": 0.49,
+  "extraThresholdAreaM2": 0.48,
+  "totalBudgetCoverageM2": 31.9285,
+  "minPieceLength": 320,
+  "minCourseWidth": 110.0,
+  "kerfAllowanceMm": 2,
+  "rooms": [
+    {
+      "object": "Peca",
+      "name": "Quarto principal",
+      "width": 2450,
+      "length": 2950,
+      "rows": 12,
+      "edgeWidth": 185.0,
+      "courses": [
+        [
+          "Peca-1-1",
+          "Peca-1-2",
+          "Peca-1-3"
+        ],
+        [
+          "Peca-2-1",
+          "Peca-2-2",
+          "Peca-2-3"
+        ],
+        [
+          "Peca-3-1",
+          "Peca-3-2",
+          "Peca-3-3"
+        ],
+        [
+          "Peca-4-1",
+          "Peca-4-2",
+          "Peca-4-3"
+        ],
+        [
+          "Peca-5-1",
+          "Peca-5-2",
+          "Peca-5-3"
+        ],
+        [
+          "Peca-6-1",
+          "Peca-6-2",
+          "Peca-6-3"
+        ],
+        [
+          "Peca-7-1",
+          "Peca-7-2",
+          "Peca-7-3"
+        ],
+        [
+          "Peca-8-1",
+          "Peca-8-2",
+          "Peca-8-3"
+        ],
+        [
+          "Peca-9-1",
+          "Peca-9-2",
+          "Peca-9-3"
+        ],
+        [
+          "Peca-10-1",
+          "Peca-10-2",
+          "Peca-10-3"
+        ],
+        [
+          "Peca-11-1",
+          "Peca-11-2",
+          "Peca-11-3"
+        ],
+        [
+          "Peca-12-1",
+          "Peca-12-2",
+          "Peca-12-3"
+        ]
+      ]
+    },
+    {
+      "object": "Peca001",
+      "name": "Complemento quarto",
+      "width": 1200,
+      "length": 900,
+      "rows": 6,
+      "edgeWidth": 184.0,
+      "courses": [
+        [
+          "Peca001-1-1"
+        ],
+        [
+          "Peca001-2-1"
+        ],
+        [
+          "Peca001-3-1"
+        ],
+        [
+          "Peca001-4-1"
+        ],
+        [
+          "Peca001-5-1"
+        ],
+        [
+          "Peca001-6-1"
+        ]
+      ]
+    },
+    {
+      "object": "Peca002",
+      "name": "Escritório",
+      "width": 2300,
+      "length": 2950,
+      "rows": 12,
+      "edgeWidth": 110.0,
+      "courses": [
+        [
+          "Peca002-1-1",
+          "Peca002-1-2",
+          "Peca002-1-3"
+        ],
+        [
+          "Peca002-2-1",
+          "Peca002-2-2",
+          "Peca002-2-3"
+        ],
+        [
+          "Peca002-3-1",
+          "Peca002-3-2",
+          "Peca002-3-3"
+        ],
+        [
+          "Peca002-4-1",
+          "Peca002-4-2",
+          "Peca002-4-3"
+        ],
+        [
+          "Peca002-5-1",
+          "Peca002-5-2",
+          "Peca002-5-3"
+        ],
+        [
+          "Peca002-6-1",
+          "Peca002-6-2",
+          "Peca002-6-3"
+        ],
+        [
+          "Peca002-7-1",
+          "Peca002-7-2",
+          "Peca002-7-3"
+        ],
+        [
+          "Peca002-8-1",
+          "Peca002-8-2",
+          "Peca002-8-3"
+        ],
+        [
+          "Peca002-9-1",
+          "Peca002-9-2",
+          "Peca002-9-3"
+        ],
+        [
+          "Peca002-10-1",
+          "Peca002-10-2",
+          "Peca002-10-3"
+        ],
+        [
+          "Peca002-11-1",
+          "Peca002-11-2",
+          "Peca002-11-3"
+        ],
+        [
+          "Peca002-12-1",
+          "Peca002-12-2",
+          "Peca002-12-3"
+        ]
+      ]
+    },
+    {
+      "object": "Peca003",
+      "name": "Sala/jantar",
+      "width": 2450,
+      "length": 3800,
+      "rows": 12,
+      "edgeWidth": 185.0,
+      "courses": [
+        [
+          "Peca003-1-1",
+          "Peca003-1-2",
+          "Peca003-1-3",
+          "Peca003-1-4"
+        ],
+        [
+          "Peca003-2-1",
+          "Peca003-2-2",
+          "Peca003-2-3",
+          "Peca003-2-4"
+        ],
+        [
+          "Peca003-3-1",
+          "Peca003-3-2",
+          "Peca003-3-3",
+          "Peca003-3-4"
+        ],
+        [
+          "Peca003-4-1",
+          "Peca003-4-2",
+          "Peca003-4-3",
+          "Peca003-4-4"
+        ],
+        [
+          "Peca003-5-1",
+          "Peca003-5-2",
+          "Peca003-5-3",
+          "Peca003-5-4"
+        ],
+        [
+          "Peca003-6-1",
+          "Peca003-6-2",
+          "Peca003-6-3",
+          "Peca003-6-4"
+        ],
+        [
+          "Peca003-7-1",
+          "Peca003-7-2",
+          "Peca003-7-3",
+          "Peca003-7-4"
+        ],
+        [
+          "Peca003-8-1",
+          "Peca003-8-2",
+          "Peca003-8-3",
+          "Peca003-8-4"
+        ],
+        [
+          "Peca003-9-1",
+          "Peca003-9-2",
+          "Peca003-9-3",
+          "Peca003-9-4"
+        ],
+        [
+          "Peca003-10-1",
+          "Peca003-10-2",
+          "Peca003-10-3",
+          "Peca003-10-4"
+        ],
+        [
+          "Peca003-11-1",
+          "Peca003-11-2",
+          "Peca003-11-3",
+          "Peca003-11-4"
+        ],
+        [
+          "Peca003-12-1",
+          "Peca003-12-2",
+          "Peca003-12-3",
+          "Peca003-12-4"
+        ]
+      ]
+    },
+    {
+      "object": "Peca004",
+      "name": "Faixa sala",
+      "width": 300,
+      "length": 1400,
+      "rows": 2,
+      "edgeWidth": 150.0,
+      "courses": [
+        [
+          "Peca004-1-1",
+          "Peca004-1-2"
+        ],
+        [
+          "Peca004-2-1",
+          "Peca004-2-2"
+        ]
+      ]
+    },
+    {
+      "object": "Peca005",
+      "name": "Circulação",
+      "width": 1300,
+      "length": 900,
+      "rows": 7,
+      "edgeWidth": 130.0,
+      "courses": [
+        [
+          "Peca005-1-1"
+        ],
+        [
+          "Peca005-2-1"
+        ],
+        [
+          "Peca005-3-1"
+        ],
+        [
+          "Peca005-4-1"
+        ],
+        [
+          "Peca005-5-1"
+        ],
+        [
+          "Peca005-6-1"
+        ],
+        [
+          "Peca005-7-1"
+        ]
+      ]
+    },
+    {
+      "object": "Peca006",
+      "name": "Cozinha",
+      "width": 3520,
+      "length": 1550,
+      "rows": 17,
+      "edgeWidth": 200.0,
+      "courses": [
+        [
+          "Peca006-1-1",
+          "Peca006-1-2"
+        ],
+        [
+          "Peca006-2-1",
+          "Peca006-2-2"
+        ],
+        [
+          "Peca006-3-1",
+          "Peca006-3-2"
+        ],
+        [
+          "Peca006-4-1",
+          "Peca006-4-2"
+        ],
+        [
+          "Peca006-5-1",
+          "Peca006-5-2"
+        ],
+        [
+          "Peca006-6-1",
+          "Peca006-6-2"
+        ],
+        [
+          "Peca006-7-1",
+          "Peca006-7-2"
+        ],
+        [
+          "Peca006-8-1",
+          "Peca006-8-2"
+        ],
+        [
+          "Peca006-9-1",
+          "Peca006-9-2"
+        ],
+        [
+          "Peca006-10-1",
+          "Peca006-10-2"
+        ],
+        [
+          "Peca006-11-1",
+          "Peca006-11-2"
+        ],
+        [
+          "Peca006-12-1",
+          "Peca006-12-2"
+        ],
+        [
+          "Peca006-13-1",
+          "Peca006-13-2"
+        ],
+        [
+          "Peca006-14-1",
+          "Peca006-14-2"
+        ],
+        [
+          "Peca006-15-1",
+          "Peca006-15-2"
+        ],
+        [
+          "Peca006-16-1",
+          "Peca006-16-2"
+        ],
+        [
+          "Peca006-17-1",
+          "Peca006-17-2"
+        ]
+      ]
+    }
+  ],
+  "boards": [
+    {
+      "id": 1,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-1-2",
+          "room": "Quarto principal",
+          "course": 1,
+          "length": 1230,
+          "width": 185.0,
+          "board": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-1-3",
+          "room": "Quarto principal",
+          "course": 1,
+          "length": 1230,
+          "width": 185.0,
+          "board": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-2-1",
+          "room": "Quarto principal",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-2-2",
+          "room": "Quarto principal",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-3-2",
+          "room": "Quarto principal",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-3-3",
+          "room": "Quarto principal",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-4-1",
+          "room": "Quarto principal",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-4-2",
+          "room": "Quarto principal",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-5-2",
+          "room": "Quarto principal",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-5-3",
+          "room": "Quarto principal",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 10
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-6-1",
+          "room": "Quarto principal",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 11
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-6-2",
+          "room": "Quarto principal",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 12
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-7-2",
+          "room": "Quarto principal",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 13
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-7-3",
+          "room": "Quarto principal",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 14
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-8-1",
+          "room": "Quarto principal",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 15
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-8-2",
+          "room": "Quarto principal",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 16
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-9-2",
+          "room": "Quarto principal",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 17
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-9-3",
+          "room": "Quarto principal",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 18
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-10-1",
+          "room": "Quarto principal",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 19
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-10-2",
+          "room": "Quarto principal",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 20
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-11-2",
+          "room": "Quarto principal",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 21
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-11-3",
+          "room": "Quarto principal",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 22
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-12-1",
+          "room": "Quarto principal",
+          "course": 12,
+          "length": 1230,
+          "width": 185.0,
+          "board": 23
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca-12-2",
+          "room": "Quarto principal",
+          "course": 12,
+          "length": 1230,
+          "width": 185.0,
+          "board": 24
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-1-2",
+          "room": "Escritório",
+          "course": 1,
+          "length": 1230,
+          "width": 110.0,
+          "board": 25
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-1-3",
+          "room": "Escritório",
+          "course": 1,
+          "length": 1230,
+          "width": 110.0,
+          "board": 26
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-2-1",
+          "room": "Escritório",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 27
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-2-2",
+          "room": "Escritório",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 28
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-3-2",
+          "room": "Escritório",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 29
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-3-3",
+          "room": "Escritório",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 30
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-4-1",
+          "room": "Escritório",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 31
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-4-2",
+          "room": "Escritório",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 32
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-5-2",
+          "room": "Escritório",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 33
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-5-3",
+          "room": "Escritório",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 34
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-6-1",
+          "room": "Escritório",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 35
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-6-2",
+          "room": "Escritório",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 36
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-7-2",
+          "room": "Escritório",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 37
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-7-3",
+          "room": "Escritório",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 38
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-8-1",
+          "room": "Escritório",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 39
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-8-2",
+          "room": "Escritório",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 40
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-9-2",
+          "room": "Escritório",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 41
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-9-3",
+          "room": "Escritório",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 42
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-10-1",
+          "room": "Escritório",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 43
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-10-2",
+          "room": "Escritório",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 44
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-11-2",
+          "room": "Escritório",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 45
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-11-3",
+          "room": "Escritório",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 46
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-12-1",
+          "room": "Escritório",
+          "course": 12,
+          "length": 1230,
+          "width": 110.0,
+          "board": 47
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca002-12-2",
+          "room": "Escritório",
+          "course": 12,
+          "length": 1230,
+          "width": 110.0,
+          "board": 48
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-1-2",
+          "room": "Sala/jantar",
+          "course": 1,
+          "length": 1230,
+          "width": 185.0,
+          "board": 49
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-1-3",
+          "room": "Sala/jantar",
+          "course": 1,
+          "length": 1230,
+          "width": 185.0,
+          "board": 50
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-2-2",
+          "room": "Sala/jantar",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 51
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-2-3",
+          "room": "Sala/jantar",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 52
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-3-2",
+          "room": "Sala/jantar",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 53
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-3-3",
+          "room": "Sala/jantar",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 54
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-4-2",
+          "room": "Sala/jantar",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 55
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-4-3",
+          "room": "Sala/jantar",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 56
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-5-2",
+          "room": "Sala/jantar",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 57
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-5-3",
+          "room": "Sala/jantar",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 58
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-6-2",
+          "room": "Sala/jantar",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 59
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-6-3",
+          "room": "Sala/jantar",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 60
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-7-2",
+          "room": "Sala/jantar",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 61
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-7-3",
+          "room": "Sala/jantar",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 62
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-8-2",
+          "room": "Sala/jantar",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 63
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-8-3",
+          "room": "Sala/jantar",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 64
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-9-2",
+          "room": "Sala/jantar",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 65
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-9-3",
+          "room": "Sala/jantar",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 66
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-10-2",
+          "room": "Sala/jantar",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 67
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-10-3",
+          "room": "Sala/jantar",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 68
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-11-2",
+          "room": "Sala/jantar",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 69
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-11-3",
+          "room": "Sala/jantar",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 70
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-12-2",
+          "room": "Sala/jantar",
+          "course": 12,
+          "length": 1230,
+          "width": 185.0,
+          "board": 71
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca003-12-3",
+          "room": "Sala/jantar",
+          "course": 12,
+          "length": 1230,
+          "width": 185.0,
+          "board": 72
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-1-2",
+          "room": "Cozinha",
+          "course": 1,
+          "length": 1230,
+          "width": 200.0,
+          "board": 73
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-2-1",
+          "room": "Cozinha",
+          "course": 2,
+          "length": 1230,
+          "width": 208,
+          "board": 74
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-3-2",
+          "room": "Cozinha",
+          "course": 3,
+          "length": 1230,
+          "width": 208,
+          "board": 75
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-4-1",
+          "room": "Cozinha",
+          "course": 4,
+          "length": 1230,
+          "width": 208,
+          "board": 76
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-5-2",
+          "room": "Cozinha",
+          "course": 5,
+          "length": 1230,
+          "width": 208,
+          "board": 77
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-6-1",
+          "room": "Cozinha",
+          "course": 6,
+          "length": 1230,
+          "width": 208,
+          "board": 78
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-7-2",
+          "room": "Cozinha",
+          "course": 7,
+          "length": 1230,
+          "width": 208,
+          "board": 79
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-8-1",
+          "room": "Cozinha",
+          "course": 8,
+          "length": 1230,
+          "width": 208,
+          "board": 80
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-9-2",
+          "room": "Cozinha",
+          "course": 9,
+          "length": 1230,
+          "width": 208,
+          "board": 81
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-10-1",
+          "room": "Cozinha",
+          "course": 10,
+          "length": 1230,
+          "width": 208,
+          "board": 82
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-11-2",
+          "room": "Cozinha",
+          "course": 11,
+          "length": 1230,
+          "width": 208,
+          "board": 83
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-12-1",
+          "room": "Cozinha",
+          "course": 12,
+          "length": 1230,
+          "width": 208,
+          "board": 84
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-13-2",
+          "room": "Cozinha",
+          "course": 13,
+          "length": 1230,
+          "width": 208,
+          "board": 85
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-14-1",
+          "room": "Cozinha",
+          "course": 14,
+          "length": 1230,
+          "width": 208,
+          "board": 86
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-15-2",
+          "room": "Cozinha",
+          "course": 15,
+          "length": 1230,
+          "width": 208,
+          "board": 87
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-16-1",
+          "room": "Cozinha",
+          "course": 16,
+          "length": 1230,
+          "width": 208,
+          "board": 88
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "remaining": 0,
+      "pieces": [
+        {
+          "id": "Peca006-17-2",
+          "room": "Cozinha",
+          "course": 17,
+          "length": 1230,
+          "width": 200.0,
+          "board": 89
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "remaining": 228,
+      "pieces": [
+        {
+          "id": "Peca004-1-2",
+          "room": "Faixa sala",
+          "course": 1,
+          "length": 1000,
+          "width": 150.0,
+          "board": 90
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "remaining": 228,
+      "pieces": [
+        {
+          "id": "Peca004-2-1",
+          "room": "Faixa sala",
+          "course": 2,
+          "length": 1000,
+          "width": 150.0,
+          "board": 91
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-1-4",
+          "room": "Sala/jantar",
+          "course": 1,
+          "length": 930,
+          "width": 185.0,
+          "board": 92
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-3-4",
+          "room": "Sala/jantar",
+          "course": 3,
+          "length": 930,
+          "width": 208,
+          "board": 93
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-5-4",
+          "room": "Sala/jantar",
+          "course": 5,
+          "length": 930,
+          "width": 208,
+          "board": 94
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-7-4",
+          "room": "Sala/jantar",
+          "course": 7,
+          "length": 930,
+          "width": 208,
+          "board": 95
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-9-4",
+          "room": "Sala/jantar",
+          "course": 9,
+          "length": 930,
+          "width": 208,
+          "board": 96
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "remaining": 298,
+      "pieces": [
+        {
+          "id": "Peca003-11-4",
+          "room": "Sala/jantar",
+          "course": 11,
+          "length": 930,
+          "width": 208,
+          "board": 97
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-1-1",
+          "room": "Complemento quarto",
+          "course": 1,
+          "length": 900,
+          "width": 184.0,
+          "board": 98
+        },
+        {
+          "id": "Peca006-1-1",
+          "room": "Cozinha",
+          "course": 1,
+          "length": 320,
+          "width": 200.0,
+          "board": 98
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-2-1",
+          "room": "Complemento quarto",
+          "course": 2,
+          "length": 900,
+          "width": 208,
+          "board": 99
+        },
+        {
+          "id": "Peca006-2-2",
+          "room": "Cozinha",
+          "course": 2,
+          "length": 320,
+          "width": 208,
+          "board": 99
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-3-1",
+          "room": "Complemento quarto",
+          "course": 3,
+          "length": 900,
+          "width": 208,
+          "board": 100
+        },
+        {
+          "id": "Peca006-3-1",
+          "room": "Cozinha",
+          "course": 3,
+          "length": 320,
+          "width": 208,
+          "board": 100
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-4-1",
+          "room": "Complemento quarto",
+          "course": 4,
+          "length": 900,
+          "width": 208,
+          "board": 101
+        },
+        {
+          "id": "Peca006-4-2",
+          "room": "Cozinha",
+          "course": 4,
+          "length": 320,
+          "width": 208,
+          "board": 101
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-5-1",
+          "room": "Complemento quarto",
+          "course": 5,
+          "length": 900,
+          "width": 208,
+          "board": 102
+        },
+        {
+          "id": "Peca006-5-1",
+          "room": "Cozinha",
+          "course": 5,
+          "length": 320,
+          "width": 208,
+          "board": 102
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca001-6-1",
+          "room": "Complemento quarto",
+          "course": 6,
+          "length": 900,
+          "width": 184.0,
+          "board": 103
+        },
+        {
+          "id": "Peca006-6-2",
+          "room": "Cozinha",
+          "course": 6,
+          "length": 320,
+          "width": 208,
+          "board": 103
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-1-1",
+          "room": "Circulação",
+          "course": 1,
+          "length": 900,
+          "width": 130.0,
+          "board": 104
+        },
+        {
+          "id": "Peca006-7-1",
+          "room": "Cozinha",
+          "course": 7,
+          "length": 320,
+          "width": 208,
+          "board": 104
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-2-1",
+          "room": "Circulação",
+          "course": 2,
+          "length": 900,
+          "width": 208,
+          "board": 105
+        },
+        {
+          "id": "Peca006-8-2",
+          "room": "Cozinha",
+          "course": 8,
+          "length": 320,
+          "width": 208,
+          "board": 105
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-3-1",
+          "room": "Circulação",
+          "course": 3,
+          "length": 900,
+          "width": 208,
+          "board": 106
+        },
+        {
+          "id": "Peca006-9-1",
+          "room": "Cozinha",
+          "course": 9,
+          "length": 320,
+          "width": 208,
+          "board": 106
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-4-1",
+          "room": "Circulação",
+          "course": 4,
+          "length": 900,
+          "width": 208,
+          "board": 107
+        },
+        {
+          "id": "Peca006-10-2",
+          "room": "Cozinha",
+          "course": 10,
+          "length": 320,
+          "width": 208,
+          "board": 107
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-5-1",
+          "room": "Circulação",
+          "course": 5,
+          "length": 900,
+          "width": 208,
+          "board": 108
+        },
+        {
+          "id": "Peca006-11-1",
+          "room": "Cozinha",
+          "course": 11,
+          "length": 320,
+          "width": 208,
+          "board": 108
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-6-1",
+          "room": "Circulação",
+          "course": 6,
+          "length": 900,
+          "width": 208,
+          "board": 109
+        },
+        {
+          "id": "Peca006-12-2",
+          "room": "Cozinha",
+          "course": 12,
+          "length": 320,
+          "width": 208,
+          "board": 109
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca005-7-1",
+          "room": "Circulação",
+          "course": 7,
+          "length": 900,
+          "width": 130.0,
+          "board": 110
+        },
+        {
+          "id": "Peca006-13-1",
+          "room": "Cozinha",
+          "course": 13,
+          "length": 320,
+          "width": 208,
+          "board": 110
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "remaining": 6,
+      "pieces": [
+        {
+          "id": "Peca003-2-1",
+          "room": "Sala/jantar",
+          "course": 2,
+          "length": 820,
+          "width": 208,
+          "board": 111
+        },
+        {
+          "id": "Peca004-2-2",
+          "room": "Faixa sala",
+          "course": 2,
+          "length": 400,
+          "width": 150.0,
+          "board": 111
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "remaining": 86,
+      "pieces": [
+        {
+          "id": "Peca003-4-1",
+          "room": "Sala/jantar",
+          "course": 4,
+          "length": 820,
+          "width": 208,
+          "board": 112
+        },
+        {
+          "id": "Peca006-14-2",
+          "room": "Cozinha",
+          "course": 14,
+          "length": 320,
+          "width": 208,
+          "board": 112
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "remaining": 86,
+      "pieces": [
+        {
+          "id": "Peca003-6-1",
+          "room": "Sala/jantar",
+          "course": 6,
+          "length": 820,
+          "width": 208,
+          "board": 113
+        },
+        {
+          "id": "Peca006-15-1",
+          "room": "Cozinha",
+          "course": 15,
+          "length": 320,
+          "width": 208,
+          "board": 113
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "remaining": 86,
+      "pieces": [
+        {
+          "id": "Peca003-8-1",
+          "room": "Sala/jantar",
+          "course": 8,
+          "length": 820,
+          "width": 208,
+          "board": 114
+        },
+        {
+          "id": "Peca006-16-2",
+          "room": "Cozinha",
+          "course": 16,
+          "length": 320,
+          "width": 208,
+          "board": 114
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "remaining": 86,
+      "pieces": [
+        {
+          "id": "Peca003-10-1",
+          "room": "Sala/jantar",
+          "course": 10,
+          "length": 820,
+          "width": 208,
+          "board": 115
+        },
+        {
+          "id": "Peca006-17-1",
+          "room": "Cozinha",
+          "course": 17,
+          "length": 320,
+          "width": 200.0,
+          "board": 115
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "remaining": 408,
+      "pieces": [
+        {
+          "id": "Peca003-12-1",
+          "room": "Sala/jantar",
+          "course": 12,
+          "length": 820,
+          "width": 185.0,
+          "board": 116
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "remaining": 16,
+      "pieces": [
+        {
+          "id": "passagem-1",
+          "room": "Reserva para passagens",
+          "course": 1,
+          "length": 800,
+          "width": 150,
+          "board": 117
+        },
+        {
+          "id": "Peca003-1-1",
+          "room": "Sala/jantar",
+          "course": 1,
+          "length": 410,
+          "width": 185.0,
+          "board": 117
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "remaining": 16,
+      "pieces": [
+        {
+          "id": "passagem-2",
+          "room": "Reserva para passagens",
+          "course": 2,
+          "length": 800,
+          "width": 150,
+          "board": 118
+        },
+        {
+          "id": "Peca003-3-1",
+          "room": "Sala/jantar",
+          "course": 3,
+          "length": 410,
+          "width": 208,
+          "board": 118
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "remaining": 16,
+      "pieces": [
+        {
+          "id": "passagem-3",
+          "room": "Reserva para passagens",
+          "course": 3,
+          "length": 800,
+          "width": 150,
+          "board": 119
+        },
+        {
+          "id": "Peca003-5-1",
+          "room": "Sala/jantar",
+          "course": 5,
+          "length": 410,
+          "width": 208,
+          "board": 119
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "remaining": 16,
+      "pieces": [
+        {
+          "id": "passagem-4",
+          "room": "Reserva para passagens",
+          "course": 4,
+          "length": 800,
+          "width": 150,
+          "board": 120
+        },
+        {
+          "id": "Peca003-7-1",
+          "room": "Sala/jantar",
+          "course": 7,
+          "length": 410,
+          "width": 208,
+          "board": 120
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "remaining": 186,
+      "pieces": [
+        {
+          "id": "Peca003-2-4",
+          "room": "Sala/jantar",
+          "course": 2,
+          "length": 520,
+          "width": 208,
+          "board": 121
+        },
+        {
+          "id": "Peca003-4-4",
+          "room": "Sala/jantar",
+          "course": 4,
+          "length": 520,
+          "width": 208,
+          "board": 121
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "remaining": 186,
+      "pieces": [
+        {
+          "id": "Peca003-6-4",
+          "room": "Sala/jantar",
+          "course": 6,
+          "length": 520,
+          "width": 208,
+          "board": 122
+        },
+        {
+          "id": "Peca003-8-4",
+          "room": "Sala/jantar",
+          "course": 8,
+          "length": 520,
+          "width": 208,
+          "board": 122
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "remaining": 186,
+      "pieces": [
+        {
+          "id": "Peca003-10-4",
+          "room": "Sala/jantar",
+          "course": 10,
+          "length": 520,
+          "width": 208,
+          "board": 123
+        },
+        {
+          "id": "Peca003-12-4",
+          "room": "Sala/jantar",
+          "course": 12,
+          "length": 520,
+          "width": 185.0,
+          "board": 123
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-1-1",
+          "room": "Quarto principal",
+          "course": 1,
+          "length": 490,
+          "width": 185.0,
+          "board": 124
+        },
+        {
+          "id": "Peca-2-3",
+          "room": "Quarto principal",
+          "course": 2,
+          "length": 490,
+          "width": 208,
+          "board": 124
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-3-1",
+          "room": "Quarto principal",
+          "course": 3,
+          "length": 490,
+          "width": 208,
+          "board": 125
+        },
+        {
+          "id": "Peca-4-3",
+          "room": "Quarto principal",
+          "course": 4,
+          "length": 490,
+          "width": 208,
+          "board": 125
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-5-1",
+          "room": "Quarto principal",
+          "course": 5,
+          "length": 490,
+          "width": 208,
+          "board": 126
+        },
+        {
+          "id": "Peca-6-3",
+          "room": "Quarto principal",
+          "course": 6,
+          "length": 490,
+          "width": 208,
+          "board": 126
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-7-1",
+          "room": "Quarto principal",
+          "course": 7,
+          "length": 490,
+          "width": 208,
+          "board": 127
+        },
+        {
+          "id": "Peca-8-3",
+          "room": "Quarto principal",
+          "course": 8,
+          "length": 490,
+          "width": 208,
+          "board": 127
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-9-1",
+          "room": "Quarto principal",
+          "course": 9,
+          "length": 490,
+          "width": 208,
+          "board": 128
+        },
+        {
+          "id": "Peca-10-3",
+          "room": "Quarto principal",
+          "course": 10,
+          "length": 490,
+          "width": 208,
+          "board": 128
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca-11-1",
+          "room": "Quarto principal",
+          "course": 11,
+          "length": 490,
+          "width": 208,
+          "board": 129
+        },
+        {
+          "id": "Peca-12-3",
+          "room": "Quarto principal",
+          "course": 12,
+          "length": 490,
+          "width": 185.0,
+          "board": 129
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-1-1",
+          "room": "Escritório",
+          "course": 1,
+          "length": 490,
+          "width": 110.0,
+          "board": 130
+        },
+        {
+          "id": "Peca002-2-3",
+          "room": "Escritório",
+          "course": 2,
+          "length": 490,
+          "width": 208,
+          "board": 130
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-3-1",
+          "room": "Escritório",
+          "course": 3,
+          "length": 490,
+          "width": 208,
+          "board": 131
+        },
+        {
+          "id": "Peca002-4-3",
+          "room": "Escritório",
+          "course": 4,
+          "length": 490,
+          "width": 208,
+          "board": 131
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-5-1",
+          "room": "Escritório",
+          "course": 5,
+          "length": 490,
+          "width": 208,
+          "board": 132
+        },
+        {
+          "id": "Peca002-6-3",
+          "room": "Escritório",
+          "course": 6,
+          "length": 490,
+          "width": 208,
+          "board": 132
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-7-1",
+          "room": "Escritório",
+          "course": 7,
+          "length": 490,
+          "width": 208,
+          "board": 133
+        },
+        {
+          "id": "Peca002-8-3",
+          "room": "Escritório",
+          "course": 8,
+          "length": 490,
+          "width": 208,
+          "board": 133
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-9-1",
+          "room": "Escritório",
+          "course": 9,
+          "length": 490,
+          "width": 208,
+          "board": 134
+        },
+        {
+          "id": "Peca002-10-3",
+          "room": "Escritório",
+          "course": 10,
+          "length": 490,
+          "width": 208,
+          "board": 134
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "remaining": 246,
+      "pieces": [
+        {
+          "id": "Peca002-11-1",
+          "room": "Escritório",
+          "course": 11,
+          "length": 490,
+          "width": 208,
+          "board": 135
+        },
+        {
+          "id": "Peca002-12-3",
+          "room": "Escritório",
+          "course": 12,
+          "length": 490,
+          "width": 110.0,
+          "board": 135
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "remaining": 4,
+      "pieces": [
+        {
+          "id": "Peca003-9-1",
+          "room": "Sala/jantar",
+          "course": 9,
+          "length": 410,
+          "width": 208,
+          "board": 136
+        },
+        {
+          "id": "Peca003-11-1",
+          "room": "Sala/jantar",
+          "course": 11,
+          "length": 410,
+          "width": 208,
+          "board": 136
+        },
+        {
+          "id": "Peca004-1-1",
+          "room": "Faixa sala",
+          "course": 1,
+          "length": 400,
+          "width": 150.0,
+          "board": 136
+        }
+      ]
+    }
+  ],
+  "status": "Plano de cortes nominal; não altera CAD nem libera compra sem medidas acabadas e paginação do instalador."
+}

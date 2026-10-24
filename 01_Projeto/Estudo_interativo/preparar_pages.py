@@ -4,12 +4,15 @@ import json
 import os
 import runpy
 import shutil
+import subprocess
 
 study = Path(__file__).resolve().parent
 root = study.parent.parent
 site = root / '.site'
-runpy.run_path(str(study / 'construir.py'), run_name='__main__')
 site.mkdir(exist_ok=True)
+runpy.run_path(str(study / 'build_floorplan.py'), run_name='__main__')
+runpy.run_path(str(study / 'build_workshop_docs.py'), run_name='__main__')
+runpy.run_path(str(study / 'construir.py'), run_name='__main__')
 (site / 'moodboard').mkdir(exist_ok=True)
 
 for source, destination, image_path in [
@@ -23,11 +26,13 @@ for source, destination, image_path in [
     destination.write_text(html, encoding='utf-8')
 
 shutil.copyfile(root / '03_Referencias/Moodboard_visual_atualizado_R01.png', site / 'moodboard.png')
+subprocess.run(['node',str(study/'build_web.mjs')],check=True)
 (site / '.nojekyll').write_text('', encoding='utf-8')
-(site / 'versao.json').write_text(json.dumps({'revisao':'R11-consolidado-R31','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+(site / 'versao.json').write_text(json.dumps({'revisao':'R20-pecas-e-interiores','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+
 
 expected = {'index.html', 'moodboard/index.html', 'moodboard.png', '.nojekyll', 'versao.json'}
-actual = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file()}
+actual = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file() and p.relative_to(site).parts[0] not in ('docs','assets')}
 if actual != expected:
     raise SystemExit('A pasta .site contem arquivos inesperados; revisar antes de publicar.')
 print('Pages preparado: HTML, moodboard e imagem de materiais.')

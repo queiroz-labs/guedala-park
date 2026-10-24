@@ -1,0 +1,850 @@
+{
+  "dobradicas": [
+    {
+      "objeto": "DobradicaSimplesR04",
+      "rotulo": "71B3550 - porta A - nivel 51",
+      "modulo": "CantoSimplesR04",
+      "movel": "Canto R04 - portas independentes - proposta simples",
+      "visivel": true,
+      "calcos": [
+        "FerragemSimplesR005"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaSimplesR001",
+      "rotulo": "71B3550 - porta A - nivel 255",
+      "modulo": "CantoSimplesR04",
+      "movel": "Canto R04 - portas independentes - proposta simples",
+      "visivel": true,
+      "calcos": [
+        "FerragemSimplesR011"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaSimplesR002",
+      "rotulo": "71B3550 - porta B - nivel 51",
+      "modulo": "CantoSimplesR04",
+      "movel": "Canto R04 - portas independentes - proposta simples",
+      "visivel": true,
+      "calcos": [
+        "FerragemSimplesR017"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaSimplesR003",
+      "rotulo": "71B3550 - porta B - nivel 255",
+      "modulo": "CantoSimplesR04",
+      "movel": "Canto R04 - portas independentes - proposta simples",
+      "visivel": true,
+      "calcos": [
+        "FerragemSimplesR023"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR10",
+      "rotulo": "71B3550 — Gabinete da pia - porta direita — z80 (proposta)",
+      "modulo": "Modulo004",
+      "movel": "Gabinete da pia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR10"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR001",
+      "rotulo": "71B3550 — Gabinete da pia - porta direita — z640.0 (proposta)",
+      "modulo": "Modulo004",
+      "movel": "Gabinete da pia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR001"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR002",
+      "rotulo": "71B3550 — Gabinete da pia - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo004",
+      "movel": "Gabinete da pia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR002"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR003",
+      "rotulo": "71B3550 — Gabinete da pia - porta esquerda — z640.0 (proposta)",
+      "modulo": "Modulo004",
+      "movel": "Gabinete da pia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR003"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR004",
+      "rotulo": "71B3550 — D · acima do depurador - porta direita — z80 (proposta)",
+      "modulo": "Modulo008",
+      "movel": "D · acima do depurador",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR004"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR005",
+      "rotulo": "71B3550 — D · acima do depurador - porta direita — z512.0 (proposta)",
+      "modulo": "Modulo008",
+      "movel": "D · acima do depurador",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR005"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR006",
+      "rotulo": "71B3550 — D · acima do depurador - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo008",
+      "movel": "D · acima do depurador",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR006"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR007",
+      "rotulo": "71B3550 — D · acima do depurador - porta esquerda — z512.0 (proposta)",
+      "modulo": "Modulo008",
+      "movel": "D · acima do depurador",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR007"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR008",
+      "rotulo": "71B3550 — C · uso diário - porta direita — z80 (proposta)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR008"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR009",
+      "rotulo": "71B3550 — C · uso diário - porta direita — z938.0 (proposta)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR009"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR010",
+      "rotulo": "71B3550 — C · uso diário - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR010"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR011",
+      "rotulo": "71B3550 — C · uso diário - porta esquerda — z938.0 (proposta)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR011"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR012",
+      "rotulo": "71B3550 — B · acima do micro - porta direita — z80 (proposta)",
+      "modulo": "Modulo010",
+      "movel": "B · acima do micro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR012"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR013",
+      "rotulo": "71B3550 — B · acima do micro - porta direita — z530.0 (proposta)",
+      "modulo": "Modulo010",
+      "movel": "B · acima do micro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR013"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR014",
+      "rotulo": "71B3550 — B · acima do micro - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo010",
+      "movel": "B · acima do micro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR014"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR015",
+      "rotulo": "71B3550 — B · acima do micro - porta esquerda — z530.0 (proposta)",
+      "modulo": "Modulo010",
+      "movel": "B · acima do micro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR015"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR016",
+      "rotulo": "71B3550 — A · acima da geladeira - porta direita — z80 (proposta)",
+      "modulo": "Modulo011",
+      "movel": "A · acima da geladeira",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR016"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR017",
+      "rotulo": "71B3550 — A · acima da geladeira - porta direita — z504.0 (proposta)",
+      "modulo": "Modulo011",
+      "movel": "A · acima da geladeira",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR017"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR018",
+      "rotulo": "71B3550 — A · acima da geladeira - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo011",
+      "movel": "A · acima da geladeira",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR018"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR019",
+      "rotulo": "71B3550 — A · acima da geladeira - porta esquerda — z504.0 (proposta)",
+      "modulo": "Modulo011",
+      "movel": "A · acima da geladeira",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR019"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR020",
+      "rotulo": "71B3550 — Aéreo da lavanderia - porta direita — z80 (proposta)",
+      "modulo": "Modulo014",
+      "movel": "Aéreo da lavanderia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR020"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR021",
+      "rotulo": "71B3550 — Aéreo da lavanderia - porta direita — z500.0 (proposta)",
+      "modulo": "Modulo014",
+      "movel": "Aéreo da lavanderia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR021"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR022",
+      "rotulo": "71B3550 — Aéreo da lavanderia - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo014",
+      "movel": "Aéreo da lavanderia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR022"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR023",
+      "rotulo": "71B3550 — Aéreo da lavanderia - porta esquerda — z500.0 (proposta)",
+      "modulo": "Modulo014",
+      "movel": "Aéreo da lavanderia",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR023"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR11",
+      "rotulo": "71B3550 — Escritório porta 4 - abrir para direita — z80 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR11"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR024",
+      "rotulo": "71B3550 — Escritório porta 4 - abrir para direita — z470.0 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR024"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR025",
+      "rotulo": "71B3550 — Escritório porta 3 - abrir para esquerda — z80 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR025"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR026",
+      "rotulo": "71B3550 — Escritório porta 3 - abrir para esquerda — z470.0 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR026"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR027",
+      "rotulo": "71B3550 — Escritório porta 2 - abrir para direita — z80 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR027"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR028",
+      "rotulo": "71B3550 — Escritório porta 2 - abrir para direita — z470.0 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR028"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR029",
+      "rotulo": "71B3550 — Escritório porta 1 - abrir para esquerda — z80 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR029"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR030",
+      "rotulo": "71B3550 — Escritório porta 1 - abrir para esquerda — z470.0 (proposta)",
+      "modulo": "Modulo016",
+      "movel": "Aéreo principal do escritório",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR030"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR031",
+      "rotulo": "71B3550 — Cabeceira porta 4 - abrir para direita — z80 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR031"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR032",
+      "rotulo": "71B3550 — Cabeceira porta 4 - abrir para direita — z228.0 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR032"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR033",
+      "rotulo": "71B3550 — Cabeceira porta 3 - abrir para esquerda — z80 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR033"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR034",
+      "rotulo": "71B3550 — Cabeceira porta 3 - abrir para esquerda — z228.0 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR034"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR035",
+      "rotulo": "71B3550 — Cabeceira porta 2 - abrir para direita — z80 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR035"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR036",
+      "rotulo": "71B3550 — Cabeceira porta 2 - abrir para direita — z228.0 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR036"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR12",
+      "rotulo": "71B3550 — Gabinete do banheiro - porta direita — z80 (proposta)",
+      "modulo": "Modulo017",
+      "movel": "Gabinete do banheiro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR12"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR037",
+      "rotulo": "71B3550 — Gabinete do banheiro - porta direita — z465.0 (proposta)",
+      "modulo": "Modulo017",
+      "movel": "Gabinete do banheiro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR037"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR038",
+      "rotulo": "71B3550 — Gabinete do banheiro - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo017",
+      "movel": "Gabinete do banheiro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR038"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR039",
+      "rotulo": "71B3550 — Gabinete do banheiro - porta esquerda — z465.0 (proposta)",
+      "modulo": "Modulo017",
+      "movel": "Gabinete do banheiro",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR039"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR040",
+      "rotulo": "71B3550 — Armário espelhado raso - porta direita — z80 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR040"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR041",
+      "rotulo": "71B3550 — Armário espelhado raso - porta direita — z375.0 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR041"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR042",
+      "rotulo": "71B3550 — Armário espelhado raso - porta direita — z670.0 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR042"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR043",
+      "rotulo": "71B3550 — Armário espelhado raso - porta esquerda — z80 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR043"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR044",
+      "rotulo": "71B3550 — Armário espelhado raso - porta esquerda — z375.0 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR044"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR045",
+      "rotulo": "71B3550 — Armário espelhado raso - porta esquerda — z670.0 (proposta)",
+      "modulo": "Modulo018",
+      "movel": "Armário espelhado raso",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR045"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaVizinhaR18",
+      "rotulo": "71B3550 — Cabeceira porta 1 - abrir para esquerda — z80 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoVizinhaR18"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaVizinhaR001",
+      "rotulo": "71B3550 — Cabeceira porta 1 - abrir para esquerda — z228 (proposta)",
+      "modulo": "Modulo003",
+      "movel": "Aéreo raso da cabeceira · alinhado",
+      "visivel": true,
+      "calcos": [
+        "CalcoVizinhaR002"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR046",
+      "rotulo": "71B3550 — C · uso diário - porta direita — z509 (proposta R29, 3ª dobradiça)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR046"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    {
+      "objeto": "DobradicaComumR047",
+      "rotulo": "71B3550 — C · uso diário - porta esquerda — z509 (proposta R29, 3ª dobradiça)",
+      "modulo": "Modulo009",
+      "movel": "C · uso diário",
+      "visivel": true,
+      "calcos": [
+        "CalcoComumR047"
+      ],
+      "expressoes": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    }
+  ],
+  "gavetas": [
+    {
+      "objeto": "Gaveta",
+      "rotulo": "Gaveta de roupa",
+      "movel": "Guarda-roupa · inferior R02",
+      "modulo": "Modulo",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR006",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta de roupa - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR007",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta001",
+      "rotulo": "Gaveta de roupa001",
+      "movel": "Guarda-roupa · inferior R02",
+      "modulo": "Modulo",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR018",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta de roupa001 - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR019",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa001 - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta002",
+      "rotulo": "Gaveta de roupa002",
+      "movel": "Guarda-roupa · inferior R02",
+      "modulo": "Modulo",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR030",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta de roupa002 - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR031",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta003",
+      "rotulo": "Gaveta de roupa003",
+      "movel": "Guarda-roupa · inferior R02",
+      "modulo": "Modulo",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR042",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta de roupa003 - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR043",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta004",
+      "rotulo": "G3 · mantimentos",
+      "movel": "Gaveteiro G1 / G2 / G3",
+      "modulo": "Modulo005",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR054",
+          "rotulo": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR055",
+          "rotulo": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta005",
+      "rotulo": "G2 · utensílios",
+      "movel": "Gaveteiro G1 / G2 / G3",
+      "modulo": "Modulo005",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "MontagemG2R07",
+          "rotulo": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07"
+        },
+        {
+          "objeto": "MontagemG2R001",
+          "rotulo": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta006",
+      "rotulo": "G1 · talheres",
+      "movel": "Gaveteiro G1 / G2 / G3",
+      "modulo": "Modulo005",
+      "curso_referencia_mm": 500,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR066",
+          "rotulo": "Trava T51.7601 · 46166126 · G1 · talheres - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR067",
+          "rotulo": "Trava T51.7601 · 43107713 · G1 · talheres - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta008",
+      "rotulo": "Gaveta escritório 1",
+      "movel": "Gaveteiro do escritório",
+      "modulo": "Modulo015",
+      "curso_referencia_mm": 400,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR078",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta escritório 1 - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR079",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta escritório 1 - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    },
+    {
+      "objeto": "Gaveta009",
+      "rotulo": "Gaveta escritório 2",
+      "movel": "Gaveteiro do escritório",
+      "modulo": "Modulo015",
+      "curso_referencia_mm": 400,
+      "acoplamentos": [
+        {
+          "objeto": "GavetaComumR090",
+          "rotulo": "Trava T51.7601 · 46166126 · Gaveta escritório 2 - proposta R08"
+        },
+        {
+          "objeto": "GavetaComumR091",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta escritório 2 - proposta R08"
+        }
+      ],
+      "extensao_salva_mm": 0.0
+    }
+  ],
+  "pecas_guias": [
+    {
+      "objeto": "GavetaComumR008",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR010",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR020",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa001 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR022",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa001 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR032",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa002 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR034",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa002 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR044",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · Gaveta de roupa003 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR046",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · Gaveta de roupa003 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR056",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G3 · mantimentos - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR058",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · G3 · mantimentos - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR068",
+      "rotulo": "MOVENTO500 · bau0019259316_v(760H5001S_L) · G1 · talheres - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR070",
+      "rotulo": "MOVENTO500 · bau0019179630_v(760H5001S) · G1 · talheres - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR080",
+      "rotulo": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 1 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR082",
+      "rotulo": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 1 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR092",
+      "rotulo": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 2 - proposta R08"
+    },
+    {
+      "objeto": "GavetaComumR094",
+      "rotulo": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 2 - proposta R08"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "samples": [
+    {
+      "angle_deg": 40,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 42,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 44,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 46,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 48,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 50,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 52,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 54,
+      "intersection_mm3": 9692.015348472416
+    },
+    {
+      "angle_deg": 56,
+      "intersection_mm3": 48424.833863519845
+    },
+    {
+      "angle_deg": 58,
+      "intersection_mm3": 119635.23845089687
+    },
+    {
+      "angle_deg": 60,
+      "intersection_mm3": 225029.0322702932
+    },
+    {
+      "angle_deg": 62,
+      "intersection_mm3": 327816.21783040994
+    },
+    {
+      "angle_deg": 64,
+      "intersection_mm3": 412398.7554917648
+    },
+    {
+      "angle_deg": 66,
+      "intersection_mm3": 476699.7953907106
+    },
+    {
+      "angle_deg": 68,
+      "intersection_mm3": 521827.44093605917
+    },
+    {
+      "angle_deg": 70,
+      "intersection_mm3": 571545.284143883
+    },
+    {
+      "angle_deg": 72,
+      "intersection_mm3": 630421.5902868258
+    },
+    {
+      "angle_deg": 74,
+      "intersection_mm3": 581085.0936397037
+    },
+    {
+      "angle_deg": 76,
+      "intersection_mm3": 316562.0970903133
+    },
+    {
+      "angle_deg": 78,
+      "intersection_mm3": 62962.56987355545
+    },
+    {
+      "angle_deg": 80,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 82,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 84,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 86,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "source_unchanged": true,
+  "pose_restored": true,
+  "limit": "Porta de entrada fixa na pose salva, não cotada em campo. Amostragem2graus, não limite exato nem trajetória simultânea."
+}

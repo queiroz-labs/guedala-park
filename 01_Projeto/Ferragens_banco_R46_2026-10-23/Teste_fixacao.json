@@ -1,0 +1,171 @@
+{
+  "fonte_sha256": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "eixos_hipoteticos_nao_CAD_ferragem": true,
+  "casos": [
+    {
+      "tampa": 1,
+      "eixo_x": 100,
+      "eixo_z": 400,
+      "poses": 91,
+      "colisoes": 85,
+      "primeira": {
+        "angulo": 6,
+        "volume_mm3": 48.13825869462618
+      },
+      "x_min_analitico": null
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 118,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 86,
+      "primeira": {
+        "angulo": 6,
+        "volume_mm3": 0.039809289365730464
+      },
+      "x_min_analitico": 92.3875030502686
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 140,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 24,
+      "primeira": {
+        "angulo": 7,
+        "volume_mm3": 95.3626509108163
+      },
+      "x_min_analitico": 97.05817889283222
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 160,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 14,
+      "primeira": {
+        "angulo": 7,
+        "volume_mm3": 0.10291381875937378
+      },
+      "x_min_analitico": 98.64855339928813
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 180,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 8,
+      "primeira": {
+        "angulo": 8,
+        "volume_mm3": 2.092384212826595
+      },
+      "x_min_analitico": 99.47671144321042
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 200,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 2,
+      "primeira": {
+        "angulo": 11,
+        "volume_mm3": 0.6343560185082838
+      },
+      "x_min_analitico": 99.9800019996001
+    },
+    {
+      "tampa": 1,
+      "eixo_x": 201,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 0,
+      "primeira": null,
+      "x_min_analitico": 100.0
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 100,
+      "eixo_z": 400,
+      "poses": 91,
+      "colisoes": 85,
+      "primeira": {
+        "angulo": 6,
+        "volume_mm3": 40.9001683038791
+      },
+      "x_min_analitico": null
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 118,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 86,
+      "primeira": {
+        "angulo": 6,
+        "volume_mm3": 0.0338235465774744
+      },
+      "x_min_analitico": 92.3875030502686
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 140,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 24,
+      "primeira": {
+        "angulo": 7,
+        "volume_mm3": 81.02387950713023
+      },
+      "x_min_analitico": 97.05817889283222
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 160,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 14,
+      "primeira": {
+        "angulo": 7,
+        "volume_mm3": 0.08743965033623416
+      },
+      "x_min_analitico": 98.64855339928813
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 180,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 8,
+      "primeira": {
+        "angulo": 8,
+        "volume_mm3": 1.7777723744407217
+      },
+      "x_min_analitico": 99.47671144321042
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 200,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 2,
+      "primeira": {
+        "angulo": 11,
+        "volume_mm3": 0.5389739601125995
+      },
+      "x_min_analitico": 99.9800019996001
+    },
+    {
+      "tampa": 2,
+      "eixo_x": 201,
+      "eixo_z": 400,
+      "poses": 92,
+      "colisoes": 0,
+      "primeira": null,
+      "x_min_analitico": 100.0
+    }
+  ],
+  "limite_x_z400_mm": 201,
+  "formula": "X >= 101 + (420-Z)^2/4, para Z<=400 e X>102; contato com X100, sem margem",
+  "dimensoes_tampas_preservadas": true
+}

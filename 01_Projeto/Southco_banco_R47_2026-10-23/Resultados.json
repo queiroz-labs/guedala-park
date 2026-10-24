@@ -1,0 +1,224 @@
+{
+  "posicoes_y_mm": [
+    [
+      1,
+      3890
+    ],
+    [
+      1,
+      4580
+    ],
+    [
+      2,
+      4870
+    ],
+    [
+      2,
+      5400
+    ]
+  ],
+  "fixacao_conteudo_colisoes": [],
+  "almofadas_rebaixos": [
+    {
+      "hinge": 1,
+      "cushion": 1,
+      "volume_min_aba_mm3": 11790.0,
+      "altura_min_interferencia_mm": 4.5,
+      "cabeca_arruela_hipotese_mm": 7.6,
+      "rebaixos_corpo": [
+        {
+          "objeto": "Peca408",
+          "volume_rebaixo_mm3": 7229.250000000316
+        },
+        {
+          "objeto": "Ref_Sarrafo_tras3R31",
+          "volume_rebaixo_mm3": 15308.999999999989
+        }
+      ]
+    },
+    {
+      "hinge": 2,
+      "cushion": 1,
+      "volume_min_aba_mm3": 11790.0,
+      "altura_min_interferencia_mm": 4.5,
+      "cabeca_arruela_hipotese_mm": 7.6,
+      "rebaixos_corpo": [
+        {
+          "objeto": "Peca408",
+          "volume_rebaixo_mm3": 7229.2500000001855
+        },
+        {
+          "objeto": "Ref_Sarrafo_tras1R31",
+          "volume_rebaixo_mm3": 15309.000000000015
+        }
+      ]
+    },
+    {
+      "hinge": 3,
+      "cushion": 2,
+      "volume_min_aba_mm3": 11790.0,
+      "altura_min_interferencia_mm": 4.5,
+      "cabeca_arruela_hipotese_mm": 7.6,
+      "rebaixos_corpo": [
+        {
+          "objeto": "Peca408",
+          "volume_rebaixo_mm3": 7229.25000000013
+        },
+        {
+          "objeto": "Ref_Sarrafo_tras0R31",
+          "volume_rebaixo_mm3": 15308.999999999995
+        }
+      ]
+    },
+    {
+      "hinge": 4,
+      "cushion": 2,
+      "volume_min_aba_mm3": 11790.0,
+      "altura_min_interferencia_mm": 4.5,
+      "cabeca_arruela_hipotese_mm": 7.6,
+      "rebaixos_corpo": [
+        {
+          "objeto": "Peca408",
+          "volume_rebaixo_mm3": 7229.250000000032
+        },
+        {
+          "objeto": "Ref_Sarrafo_tras0R31",
+          "volume_rebaixo_mm3": 15308.999999999984
+        }
+      ]
+    }
+  ],
+  "giros_hipoteticos": [
+    {
+      "tampa": 1,
+      "eixo_hipotetico": [
+        100,
+        420
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 1,
+      "eixo_hipotetico": [
+        100,
+        425
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 1,
+      "eixo_hipotetico": [
+        100,
+        430
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 1,
+      "eixo_hipotetico": [
+        100,
+        435
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 1,
+      "eixo_hipotetico": [
+        100,
+        440.3
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 2,
+      "eixo_hipotetico": [
+        100,
+        420
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 2,
+      "eixo_hipotetico": [
+        100,
+        425
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 2,
+      "eixo_hipotetico": [
+        100,
+        430
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 2,
+      "eixo_hipotetico": [
+        100,
+        435
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    },
+    {
+      "tampa": 2,
+      "eixo_hipotetico": [
+        100,
+        440.3
+      ],
+      "poses": 91,
+      "colisoes_conteudo_prateleira": []
+    }
+  ],
+  "capacidade": [
+    {
+      "tampa": 1,
+      "massa_painel_cenario900_kg": 7.830144,
+      "braco_max_faixa_m": 0.22802212611937467,
+      "momento_painel_Nm": 17.509244826918437,
+      "torque_min_par_Nm": 19.8,
+      "orcamento_metal_movel_kg": 0.5,
+      "limite_raio_metal_m": 0.06,
+      "momento_metal_orcado_Nm": 0.29419949999999995,
+      "margem_Nm": 1.9965556730815641,
+      "acabamento_distribuido_adicional_limite_teorico_kg": 0.8928608046082693
+    },
+    {
+      "tampa": 2,
+      "massa_painel_cenario900_kg": 6.6528,
+      "braco_max_faixa_m": 0.22802212611937467,
+      "momento_painel_Nm": 14.876546840584664,
+      "torque_min_par_Nm": 17.2,
+      "orcamento_metal_movel_kg": 0.5,
+      "limite_raio_metal_m": 0.06,
+      "momento_metal_orcado_Nm": 0.29419949999999995,
+      "margem_Nm": 2.029253659415335,
+      "acabamento_distribuido_adicional_limite_teorico_kg": 0.907483362236217
+    }
+  ],
+  "contraplatina": {
+    "dim_mm": [
+      26,
+      80,
+      10
+    ],
+    "massa_2_por_tampa_kg": 0.32655999999999996,
+    "centros_furos_x": 125,
+    "centros_furos_y_rel": [
+      -23,
+      23
+    ],
+    "furos_roscados_M6_nao_desenho_exec": true
+  },
+  "limites": "Giros testam tampas+contraplatinas contra conteúdo/prateleira; não ensaiam ferragem real, encosto modificado, parafusos, batente nem dinâmica. Offset eixo não cotado pelo fabricante. Folga de bolsão0,5 é proposta."
+}

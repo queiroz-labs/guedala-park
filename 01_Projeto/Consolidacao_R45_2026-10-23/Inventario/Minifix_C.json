@@ -1,0 +1,394 @@
+{
+  "document": "AereoC_Minifix_R45_ESTUDO",
+  "cam_qty": 20,
+  "bolt_qty": 20,
+  "panels_valid": true,
+  "positions": [
+    {
+      "board": "Peca327",
+      "cam_axis": [
+        2400,
+        6730,
+        1550
+      ],
+      "access": "top",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6730,
+        1541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca327",
+      "cam_axis": [
+        2400,
+        6922,
+        1550
+      ],
+      "access": "top",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6922,
+        1541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca327",
+      "cam_axis": [
+        2843,
+        6730,
+        1550
+      ],
+      "access": "top",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6730,
+        1541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca327",
+      "cam_axis": [
+        2843,
+        6922,
+        1550
+      ],
+      "access": "top",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6922,
+        1541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca328",
+      "cam_axis": [
+        2400,
+        6730,
+        2532
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6730,
+        2541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca328",
+      "cam_axis": [
+        2400,
+        6922,
+        2532
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6922,
+        2541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca328",
+      "cam_axis": [
+        2843,
+        6730,
+        2532
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6730,
+        2541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca328",
+      "cam_axis": [
+        2843,
+        6922,
+        2532
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6922,
+        2541
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca329",
+      "cam_axis": [
+        2400,
+        6730,
+        1730
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6730,
+        1739
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca329",
+      "cam_axis": [
+        2400,
+        6922,
+        1730
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6922,
+        1739
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca329",
+      "cam_axis": [
+        2843,
+        6730,
+        1730
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6730,
+        1739
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca329",
+      "cam_axis": [
+        2843,
+        6922,
+        1730
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6922,
+        1739
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca330",
+      "cam_axis": [
+        2400,
+        6730,
+        1940
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6730,
+        1949
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca330",
+      "cam_axis": [
+        2400,
+        6922,
+        1940
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6922,
+        1949
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca330",
+      "cam_axis": [
+        2843,
+        6730,
+        1940
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6730,
+        1949
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca330",
+      "cam_axis": [
+        2843,
+        6922,
+        1940
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6922,
+        1949
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca331",
+      "cam_axis": [
+        2400,
+        6730,
+        2216
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6730,
+        2225
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca331",
+      "cam_axis": [
+        2400,
+        6922,
+        2216
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2366,
+        6922,
+        2225
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca331",
+      "cam_axis": [
+        2843,
+        6730,
+        2216
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6730,
+        2225
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    },
+    {
+      "board": "Peca331",
+      "cam_axis": [
+        2843,
+        6922,
+        2216
+      ],
+      "access": "bottom",
+      "cam_diameter": 15,
+      "cam_depth": 14,
+      "bolt_axis": [
+        2877,
+        6922,
+        2225
+      ],
+      "pilot_diameter": 5,
+      "pilot_depth": 8.5,
+      "B": 34
+    }
+  ],
+  "limits": [
+    "Furação candidata sem aprovação estrutural",
+    "Prateleiras tratadas como fixas somente nesta alternativa",
+    "Gabaritos não são STEP; colisão com ferragem móvel ainda não testada",
+    "Parede externa nominal remanescente cam4mm, piloto9.5mm; ponta de broca e tolerâncias não incluídas"
+  ]
+}

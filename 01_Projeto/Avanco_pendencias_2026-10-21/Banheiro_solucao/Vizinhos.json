@@ -1,0 +1,704 @@
+[
+  {
+    "name": "Modulo017",
+    "label": "Gabinete do banheiro",
+    "visible": true,
+    "bbox": [
+      2760.0,
+      4870.0,
+      200.0,
+      3360.0,
+      5290.0,
+      745.0
+    ]
+  },
+  {
+    "name": "Peca399",
+    "label": "Bancada banheiro \u00b7 cuba a recortar",
+    "visible": true,
+    "bbox": [
+      2760.0,
+      4840.0,
+      745.0,
+      3360.0,
+      5290.0,
+      765.0
+    ]
+  },
+  {
+    "name": "FolhaBanheiroR12",
+    "label": "Gabinete do banheiro - porta direita \u2014 folha proposta",
+    "visible": true,
+    "bbox": [
+      3061.0,
+      4870.0,
+      201.0,
+      3358.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "PainelBanheiroR12",
+    "label": "Painel18 comum \u00b7 Gabinete \u00b7 esquerda - proposta",
+    "visible": false,
+    "bbox": [
+      3061.0,
+      4870.0,
+      201.0,
+      3358.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "FolhaBanheiroR001",
+    "label": "Gabinete do banheiro - porta esquerda \u2014 folha proposta",
+    "visible": true,
+    "bbox": [
+      2762.0,
+      4870.0,
+      201.0,
+      3059.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "PainelBanheiroR001",
+    "label": "Painel18 comum \u00b7 Gabinete \u00b7 direita - proposta",
+    "visible": false,
+    "bbox": [
+      2762.0,
+      4870.0,
+      201.0,
+      3059.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "CanecoComumR12",
+    "label": "Caneco35x13 - proposta038",
+    "visible": false,
+    "bbox": [
+      3318.0,
+      4875.0,
+      262.5,
+      3353.0,
+      4888.0,
+      297.5
+    ]
+  },
+  {
+    "name": "CanecoComumR037",
+    "label": "Caneco35x13 - proposta039",
+    "visible": false,
+    "bbox": [
+      3318.0,
+      4875.0,
+      647.4999999999998,
+      3353.0,
+      4888.0,
+      682.4999999999998
+    ]
+  },
+  {
+    "name": "FurosComunsR12",
+    "label": "FurosComunsR12",
+    "visible": false,
+    "bbox": [
+      3318.0,
+      4875.0,
+      262.5,
+      3353.0,
+      4888.0,
+      682.5
+    ]
+  },
+  {
+    "name": "FrenteComumR12",
+    "label": "Gabinete do banheiro - porta direita \u2014 frente com canecos",
+    "visible": true,
+    "bbox": [
+      3061.0,
+      4870.0,
+      201.0,
+      3358.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "DobradicaComumR12",
+    "label": "71B3550 \u2014 Gabinete do banheiro - porta direita \u2014 z80 (proposta)",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      251.41744094846496,
+      3352.4843061528036,
+      4955.931003863857,
+      308.58255905153504
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR12",
+    "label": "Regulagem comum de profundidade0.5 \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      251.5,
+      3352.4843061528036,
+      4955.931003863857,
+      308.5
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR189",
+    "label": "Corpo1 \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3320.5107250375627,
+      4880.308560364885,
+      271.125,
+      3338.9904386293497,
+      4954.709026976249,
+      288.875
+    ]
+  },
+  {
+    "name": "FerragemComumR189",
+    "label": "bau0015088251_v(70T310M02.01) \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3320.5107250375627,
+      4880.308560364885,
+      271.125,
+      3338.9904386293497,
+      4954.709026976249,
+      288.875
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR190",
+    "label": "Corpo2 \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3321.6319775682455,
+      4876.373175336121,
+      272.725,
+      3346.810041657108,
+      4887.103567890839,
+      287.27500000000003
+    ]
+  },
+  {
+    "name": "FerragemComumR190",
+    "label": "bau0015088783_v(71T310-04) \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3321.6319775682455,
+      4876.373175336121,
+      272.72499999999997,
+      3346.810041657108,
+      4887.103567890839,
+      287.27500000000003
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR191",
+    "label": "Corpo3 \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3329.8407123405386,
+      4881.568772621528,
+      276.35,
+      3351.8600000000006,
+      4895.358896087178,
+      283.65000000000003
+    ]
+  },
+  {
+    "name": "FerragemComumR191",
+    "label": "bau0015088853_v(70T310-05.02) \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3329.8407123405386,
+      4881.568772621528,
+      276.35,
+      3351.8600000000006,
+      4895.358896087178,
+      283.65000000000003
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR192",
+    "label": "Corpo4 \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      251.5,
+      3352.4843061528036,
+      4891.447176600877,
+      308.5
+    ]
+  },
+  {
+    "name": "FerragemComumR192",
+    "label": "bau0015089612_v(71B355M01.01) \u00b7 Gabinete do banheiro - porta direita \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      251.5,
+      3352.4843061528036,
+      4891.447176600877,
+      308.5
+    ]
+  },
+  {
+    "name": "DobradicaComumR037",
+    "label": "71B3550 \u2014 Gabinete do banheiro - porta direita \u2014 z465.0 (proposta)",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      636.4174409484647,
+      3352.4843061528036,
+      4955.931003863857,
+      693.5825590515349
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR037",
+    "label": "Regulagem comum de profundidade0.5 \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      636.5,
+      3352.4843061528036,
+      4955.931003863857,
+      693.5
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR194",
+    "label": "Corpo1 \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3320.5107250375627,
+      4880.308560364885,
+      656.125,
+      3338.9904386293497,
+      4954.709026976249,
+      673.875
+    ]
+  },
+  {
+    "name": "FerragemComumR194",
+    "label": "bau0015088251_v(70T310M02.01) \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3320.5107250375627,
+      4880.308560364885,
+      656.125,
+      3338.9904386293497,
+      4954.709026976249,
+      673.875
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR195",
+    "label": "Corpo2 \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3321.6319775682455,
+      4876.373175336121,
+      657.725,
+      3346.810041657108,
+      4887.103567890839,
+      672.275
+    ]
+  },
+  {
+    "name": "FerragemComumR195",
+    "label": "bau0015088783_v(71T310-04) \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3321.6319775682455,
+      4876.373175336121,
+      657.725,
+      3346.810041657108,
+      4887.103567890839,
+      672.275
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR196",
+    "label": "Corpo3 \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3329.8407123405386,
+      4881.568772621528,
+      661.35,
+      3351.8600000000006,
+      4895.358896087178,
+      668.65
+    ]
+  },
+  {
+    "name": "FerragemComumR196",
+    "label": "bau0015088853_v(70T310-05.02) \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3329.8407123405386,
+      4881.568772621528,
+      661.35,
+      3351.8600000000006,
+      4895.358896087178,
+      668.65
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR197",
+    "label": "Corpo4 \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      636.5,
+      3352.4843061528036,
+      4891.447176600877,
+      693.5
+    ]
+  },
+  {
+    "name": "FerragemComumR197",
+    "label": "bau0015089612_v(71B355M01.01) \u00b7 Gabinete do banheiro - porta direita \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      3315.252823399123,
+      4875.2,
+      636.5,
+      3352.4843061528036,
+      4891.447176600877,
+      693.5
+    ]
+  },
+  {
+    "name": "CanecoComumR038",
+    "label": "Caneco35x13 - proposta040",
+    "visible": false,
+    "bbox": [
+      2767.0,
+      4875.0,
+      262.5,
+      2802.0,
+      4888.0,
+      297.5
+    ]
+  },
+  {
+    "name": "CanecoComumR039",
+    "label": "Caneco35x13 - proposta041",
+    "visible": false,
+    "bbox": [
+      2767.0,
+      4875.0,
+      647.4999999999998,
+      2802.0,
+      4888.0,
+      682.4999999999998
+    ]
+  },
+  {
+    "name": "FurosComunsR018",
+    "label": "FurosComunsR018",
+    "visible": false,
+    "bbox": [
+      2767.0,
+      4875.0,
+      262.5,
+      2802.0,
+      4888.0,
+      682.5
+    ]
+  },
+  {
+    "name": "FrenteComumR018",
+    "label": "Gabinete do banheiro - porta esquerda \u2014 frente com canecos",
+    "visible": true,
+    "bbox": [
+      2762.0,
+      4870.0,
+      201.0,
+      3059.0,
+      4888.0,
+      744.0
+    ]
+  },
+  {
+    "name": "DobradicaComumR038",
+    "label": "71B3550 \u2014 Gabinete do banheiro - porta esquerda \u2014 z80 (proposta)",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      251.41744094846496,
+      2804.747176600877,
+      4955.931003863857,
+      308.58255905153504
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR038",
+    "label": "Regulagem comum de profundidade0.5 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      251.49999999999997,
+      2804.747176600877,
+      4955.931003863857,
+      308.5
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR199",
+    "label": "Corpo1 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2781.0095613706503,
+      4880.308560364885,
+      271.125,
+      2799.4892749624373,
+      4954.709026976249,
+      288.875
+    ]
+  },
+  {
+    "name": "FerragemComumR199",
+    "label": "bau0015088251_v(70T310M02.01) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2781.0095613706503,
+      4880.308560364885,
+      271.125,
+      2799.4892749624373,
+      4954.709026976249,
+      288.875
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR200",
+    "label": "Corpo2 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2773.189958342892,
+      4876.373175336121,
+      272.72499999999997,
+      2798.3680224317545,
+      4887.103567890839,
+      287.275
+    ]
+  },
+  {
+    "name": "FerragemComumR200",
+    "label": "bau0015088783_v(71T310-04) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2773.189958342892,
+      4876.373175336121,
+      272.72499999999997,
+      2798.3680224317545,
+      4887.103567890839,
+      287.27500000000003
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR201",
+    "label": "Corpo3 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2768.1399999999994,
+      4881.568772621528,
+      276.34999999999997,
+      2790.1592876594614,
+      4895.358896087178,
+      283.65
+    ]
+  },
+  {
+    "name": "FerragemComumR201",
+    "label": "bau0015088853_v(70T310-05.02) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2768.1399999999994,
+      4881.568772621528,
+      276.34999999999997,
+      2790.1592876594614,
+      4895.358896087178,
+      283.65
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR202",
+    "label": "Corpo4 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      251.49999999999997,
+      2804.747176600877,
+      4891.447176600877,
+      308.5
+    ]
+  },
+  {
+    "name": "FerragemComumR202",
+    "label": "bau0015089612_v(71B355M01.01) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z80",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      251.49999999999997,
+      2804.747176600877,
+      4891.447176600877,
+      308.5
+    ]
+  },
+  {
+    "name": "DobradicaComumR039",
+    "label": "71B3550 \u2014 Gabinete do banheiro - porta esquerda \u2014 z465.0 (proposta)",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      636.4174409484647,
+      2804.747176600877,
+      4955.931003863857,
+      693.5825590515349
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR039",
+    "label": "Regulagem comum de profundidade0.5 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      636.5,
+      2804.747176600877,
+      4955.931003863857,
+      693.5
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR204",
+    "label": "Corpo1 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2781.0095613706503,
+      4880.308560364885,
+      656.125,
+      2799.4892749624373,
+      4954.709026976249,
+      673.875
+    ]
+  },
+  {
+    "name": "FerragemComumR204",
+    "label": "bau0015088251_v(70T310M02.01) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2781.0095613706503,
+      4880.308560364885,
+      656.125,
+      2799.4892749624373,
+      4954.709026976249,
+      673.875
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR205",
+    "label": "Corpo2 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2773.189958342892,
+      4876.373175336121,
+      657.725,
+      2798.3680224317545,
+      4887.103567890839,
+      672.275
+    ]
+  },
+  {
+    "name": "FerragemComumR205",
+    "label": "bau0015088783_v(71T310-04) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2773.189958342892,
+      4876.373175336121,
+      657.725,
+      2798.3680224317545,
+      4887.103567890839,
+      672.275
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR206",
+    "label": "Corpo3 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2768.1399999999994,
+      4881.568772621528,
+      661.35,
+      2790.1592876594614,
+      4895.358896087178,
+      668.65
+    ]
+  },
+  {
+    "name": "FerragemComumR206",
+    "label": "bau0015088853_v(70T310-05.02) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2768.1399999999994,
+      4881.568772621528,
+      661.35,
+      2790.1592876594614,
+      4895.358896087178,
+      668.65
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR207",
+    "label": "Corpo4 \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      636.5,
+      2804.747176600877,
+      4891.447176600877,
+      693.5
+    ]
+  },
+  {
+    "name": "FerragemComumR207",
+    "label": "bau0015089612_v(71B355M01.01) \u00b7 Gabinete do banheiro - porta esquerda \u00b7 z465",
+    "visible": true,
+    "bbox": [
+      2767.5156938471964,
+      4875.2,
+      636.5,
+      2804.747176600877,
+      4891.447176600877,
+      693.5
+    ]
+  }
+]

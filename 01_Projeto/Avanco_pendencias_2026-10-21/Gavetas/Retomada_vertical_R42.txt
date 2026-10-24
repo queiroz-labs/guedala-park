@@ -1,0 +1,52 @@
+RETOMADA R42 — 21/10/2026, São Paulo
+
+Conferência aritmética das cotas já extraídas; sem nova simulação CAD.
+Fonte: Geometria_extraida_R42.json e Resultado_gavetas.html, nesta pasta.
+O FreeCAD não estava disponível pela conexão MCP nesta retomada.
+
+ACHADO: NÃO BAIXAR O GRUPO INTEIRO DA GAVETA SUPERIOR
+GavetaComumR077 (frente inferior): Z481 a Z599 mm.
+GavetaComumR089 (frente superior): Z601 a Z719 mm.
+As duas frentes têm os mesmos intervalos X4301..4699 e Y682..700.
+A junta vertical nominal entre elas é 2 mm.
+Baixar apenas o grupo Gaveta009 em 2 mm zera essa junta.
+Baixá-lo em 3 mm produz sobreposição de 1 mm entre as frentes.
+Portanto a folga superior não pode ser resolvida por simples translação
+do grupo completo, mantendo a gaveta inferior no lugar.
+
+CAIXA INTERNA E FRENTE PRECISAM SER TRATADAS SEPARADAMENTE
+Lateral inferior: Z517..597; fundo inferior: Z529..544.
+Lateral superior: Z621..701; fundo superior: Z633..648.
+Face inferior do tampo: Z702, conforme relatório anterior.
+Folga caixa superior–tampo: 1 mm na posição atual.
+Hipótese de baixar SOMENTE a caixa superior em 3 mm, com frente fixa:
+- folga até o tampo passa a 4 mm;
+- após subida hipotética de regulagem +3 mm, sobra novamente 1 mm;
+- distância vertical entre topo da lateral inferior e base da lateral
+  superior passa de 24 para 21 mm;
+- a distância do fundo útil inferior (Z544) à base da lateral superior
+  passa de 77 para 74 mm onde suas projeções se sobrepõem.
+Esses intervalos não são altura útil certificada: guias/engates e outras
+peças podem limitar antes. A geometria da caixa não encolhe, mas o espaço
+acima da gaveta inferior pode diminuir. Não declarar armazenamento
+preservado apenas por manter as dimensões da caixa.
+
+Baixar ambas as caixas em 3 mm preservaria a separação entre elas, mas
+consumiria 3 mm da margem inferior. Pela interpretação ainda não validada
+da cota 27 mm, o plano inferior estimado da guia inferior passaria de
+Z502 para Z499, deixando só 1 mm até a base em Z498. Isso não comprova
+espaço para o perfil, engate, montagem ou tolerâncias.
+
+PRÓXIMO FECHAMENTO TÉCNICO
+1. Obter corte dimensional do perfil e engates FGVTN do lote aplicável;
+   confirmar fundo 15 mm, recuo 12 mm, fixações e faixa de regulagem.
+2. Ensaiar caixas, frentes e ferragens como componentes distintos em
+   cópia de estudo. Preservar junta das frentes e comparar o volume
+   efetivamente utilizável com a referência atual, inclusive no curso.
+3. Manter a alternativa de duas Blum no escritório na comparação de
+   orçamento até que a adaptação FGVTN esteja demonstrada e precificada.
+
+ESTADO
+A variante de traseira +20 mm continua resolvendo somente profundidade.
+Montagem vertical não encerrada. Modelo R42 e estudos FCStd preservados.
+Não houve pesquisa de preço, contato externo ou validação de fabricação.

@@ -1,0 +1,23 @@
+{
+  "objects": 46,
+  "invalid_shapes": [],
+  "controls_at_375_mm": {
+    "Caixa_Gaveta008": [
+      0.0,
+      375.0,
+      0.0
+    ],
+    "Caixa_Gaveta009": [
+      0.0,
+      375.0,
+      0.0
+    ]
+  },
+  "default_extensions_mm": [
+    0.0,
+    0.0
+  ],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "audit_status": "GEOMETRIA CONFERIDA; MONTAGEM PENDENTE. Carga conservada no percurso0..378mm e regulagem0..3mm com frentes realinhadas. Margens minimas1,6/1mm. Perfil/engates/fixacao das frentes/recortes/carga por validar.",
+  "study_sha256": "b03d9a62b1fc7d11b9c3054f13a4f23804dc4df13e745238ba7a099e4257d0b2"
+}

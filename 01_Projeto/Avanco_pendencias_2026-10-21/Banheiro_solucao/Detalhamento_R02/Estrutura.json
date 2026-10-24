@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Contexto",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "Original_Peca075",
+      "Original_Peca051",
+      "Original_Peca399",
+      "Original_Peca185"
+    ]
+  },
+  {
+    "name": "Madeira",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "LateralE",
+      "LateralD",
+      "Base",
+      "Travessa",
+      "CaixaE",
+      "CaixaD",
+      "CaixaBase",
+      "Fundo"
+    ]
+  },
+  {
+    "name": "Fixacoes",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "ConfirmatBaseE0",
+      "CavilhaQuadroE0",
+      "ConfirmatBaseE1",
+      "CavilhaQuadroE1",
+      "ConfirmatBaseD0",
+      "CavilhaQuadroD0",
+      "ConfirmatBaseD1",
+      "CavilhaQuadroD1",
+      "M6E0",
+      "PorcaE0",
+      "M6E1",
+      "PorcaE1",
+      "CavilhaRemovivelE0",
+      "CavilhaRemovivelE1",
+      "M6D0",
+      "PorcaD0",
+      "M6D1",
+      "PorcaD1",
+      "CavilhaRemovivelD0",
+      "CavilhaRemovivelD1"
+    ]
+  },
+  {
+    "name": "Trilhos",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "RM02600",
+      "RM02601",
+      "RM02610",
+      "RM02611"
+    ]
+  },
+  {
+    "name": "FolhaEsquerda",
+    "type": "App::Part",
+    "group": [
+      "CarroEsquerda0",
+      "GuiaEsquerda0",
+      "ParafusoEsquerda00",
+      "ParafusoEsquerda01",
+      "ParafusoEsquerda02",
+      "ParafusoEsquerda03",
+      "ParafusoEsquerda04",
+      "ParafusoEsquerda05",
+      "CarroEsquerda1",
+      "GuiaEsquerda1",
+      "ParafusoEsquerda10",
+      "ParafusoEsquerda11",
+      "ParafusoEsquerda12",
+      "ParafusoEsquerda13",
+      "ParafusoEsquerda14",
+      "ParafusoEsquerda15",
+      "PainelEsquerda"
+    ]
+  },
+  {
+    "name": "Origin",
+    "type": "App::Origin",
+    "group": []
+  },
+  {
+    "name": "FolhaDireita",
+    "type": "App::Part",
+    "group": [
+      "CarroDireita0",
+      "GuiaDireita0",
+      "ParafusoDireita00",
+      "ParafusoDireita01",
+      "ParafusoDireita02",
+      "ParafusoDireita03",
+      "ParafusoDireita04",
+      "ParafusoDireita05",
+      "CarroDireita1",
+      "GuiaDireita1",
+      "ParafusoDireita10",
+      "ParafusoDireita11",
+      "ParafusoDireita12",
+      "ParafusoDireita13",
+      "ParafusoDireita14",
+      "ParafusoDireita15",
+      "PainelDireita"
+    ]
+  },
+  {
+    "name": "Origin002",
+    "type": "App::Origin",
+    "group": []
+  },
+  {
+    "name": "Batentes",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "Batente0",
+      "Batente1",
+      "Batente2",
+      "Batente3",
+      "ParafusoBatente0",
+      "ParafusoBatente1"
+    ]
+  },
+  {
+    "name": "Hidraulica",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "Sifao",
+      "Canopla"
+    ]
+  },
+  {
+    "name": "Acesso",
+    "type": "App::DocumentObjectGroup",
+    "group": [
+      "Maos",
+      "Desmontagem"
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "data": "2026-10-22",
+  "colunas": [
+    "Familia",
+    "Objeto",
+    "Portas",
+    "LxHxE_mm",
+    "Dobradicas",
+    "Recobrimento",
+    "Pendencia_especifica"
+  ],
+  "linhas": [
+    [
+      "Gabinete pia",
+      "Modulo004",
+      "2",
+      "322×718×18",
+      "4",
+      "K5/R16",
+      "Massa das folhas acabadas e fixação; limite de abertura físico"
+    ],
+    [
+      "Acima depurador D",
+      "Modulo008",
+      "2",
+      "322×590×18",
+      "4",
+      "K5/R16",
+      "Massa/fixação; interferência com equipamentos e folgas na abertura"
+    ],
+    [
+      "Uso diário C",
+      "Modulo009",
+      "2",
+      "270,5×1016×18",
+      "6",
+      "K5/R16",
+      "Dimensionamento de3dobradiças/folha para massa e altura1016; não reduzir quantidade"
+    ],
+    [
+      "Acima micro B",
+      "Modulo010",
+      "2",
+      "345,5×608×18",
+      "4",
+      "K5/R16",
+      "Massa/fixação e abertura junto módulos adjacentes"
+    ],
+    [
+      "Acima geladeira A",
+      "Modulo011",
+      "2",
+      "397,5×582×18",
+      "4",
+      "K5/R16",
+      "Massa/fixação; abertura/alcance no alto"
+    ],
+    [
+      "Aéreo lavanderia",
+      "Modulo014",
+      "2",
+      "414,5×578×18",
+      "4",
+      "K5/R16",
+      "Massa/fixação; material e acabamento no ambiente"
+    ],
+    [
+      "Aéreo escritório",
+      "Modulo016",
+      "4",
+      "496×548×18",
+      "8",
+      "K5/R16",
+      "Confirmar fixação no divisor central duplo18+18; massa das folhas496 e colisão entre folhas"
+    ],
+    [
+      "Aéreo cabeceira",
+      "Modulo003",
+      "4",
+      "2×439,75×306×18;2×440,25×306×18",
+      "8",
+      "6dobradiçasK5/R16;2vizinhaK6/R17",
+      "Manter apoio18 e divisor duplo; limitar abertura junto canto/faixa25, dimensõesR30 prevalecem sobre textoantigo441,75"
+    ],
+    [
+      "Gabinete banheiro",
+      "Modulo017",
+      "2",
+      "297×543×18",
+      "4",
+      "K5/R16",
+      "Massa/material/fixação; interferência com porta de entrada e hidráulica"
+    ]
+  ],
+  "fonte": "R42Consolidado Document.xml; Plano_R42_objetos.json; PDFoficialTNMSSlow"
+}

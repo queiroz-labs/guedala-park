@@ -1,3 +1,40 @@
+> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+
+# Revisão vigente R44 — 22/10/2026
+
+[FreeCAD R44](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+
+R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
+
+A hipótese de posicionamento ensaiada nas duas gavetas do escritório apresentou interferências; foi rejeitada sem recortar a madeira. O estudo R04 mantém sua capacidade e fixação frontal, mas não foi incorporado definitivamente. Faltam referência de montagem, engates e folgas de liberação, parafusos e recortes traseiros. Não extrapolar os STEP de 400 para 500 mm. FGVTN informou separadamente que não tem ferragem adequada para o cesto. Nenhuma fabricação, compra ou contato autorizado por esta revisão.
+
+O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclusão dos STEP não demonstra economia adicional. As quatro dobradiças antigas do banheiro são históricas na solução de correr e não devem retornar à lista de compra.
+
+---
+
+## Registros anteriores — consultar a atualização acima em caso de divergência
+
+# Estudos e decisões — entrada vigente
+
+**Auditoria das alterações concluída em 21/10/2026 (São Paulo):** [relatório, correções e pendências](Auditoria_R42_2026-10-21/Conferencia_R42.html).
+
+Conferência em 21/10/2026, horário de São Paulo. **FreeCAD R42**, apartamento único na orientação correta. Berlin em estudo dimensional, três cadeiras laterais quando aberta; apoios de celular/óculos removidos; FGVTN candidata declarativa. Cesto e validações técnicas permanecem pendentes. O nome da pasta R42 com 2026-10-22 foi preservado.
+
+- [Resumo vigente](Resumo.md): decisões consolidadas por ambiente.
+- [Painel de pendências](Painel_de_decisoes.md): próximos passos e evidências necessárias.
+- [Complemento vigente de orçamento](Complemento_orcamento_vigente_R41.md): alterações frente ao pacote histórico R30.
+- [Conferência no apartamento](../04_Visita_ao_apartamento/Complemento_conferencia_R41.md).
+- [Modelo R42 e instruções](Modelo_FreeCAD/01_Atual/Consolidacao_R42_2026-10-22/LEIA-ME.txt); [estudos do cesto preservados na R41](Modelo_FreeCAD/01_Atual/Cesto_R41_2026-10-20/README.md).
+- [Varal vigente](Lavanderia/Varal_especificacao_consolidada.md).
+- [Registro de decisões](Registro_de_decisoes.md): histórico, com decisões posteriores prevalecendo.
+
+Os registros abaixo preservam o desenvolvimento do projeto. Declarações antigas de revisão “atual”, banco lateral, placa do varal ou forno Venax não prevalecem sobre a síntese vigente. O site R11 e os PDFs antigos não foram reexportados nesta conferência.
+
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Estudos e decisões
 
 **Atualização geral de 20/10/2026:** [FreeCAD R31](Modelo_FreeCAD/01_Atual/Consolidacao_R31_2026-10-20/README.md) e [site R11](Estudo_interativo/Consolidacao_R11_2026-10-20/README.md) consolidados. Fischer com grill sem turbo, apoios e ventilação de estudo, móveis e decisões recentes incorporados. Banco: preferência de voltar depois à guarda convencional abrindo o baú apenas anotada; reversão não aplicada.

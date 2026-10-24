@@ -1,0 +1,12 @@
+id;fonte;url;consulta;acesso;utilidade_limite
+S1;Cury Dez João Dias;https://homolog.cury.net/imovel/SP/zona-sul/cury-joao-dias;2026-10-23;Trecho indexado, página completa HTTP 403;Vínculo com nome legal Vila das Belezas 3 e matrícula 449.297
+S2;Cury aditamento debêntures 26/09/2022;https://api.mziq.com/mzfilemanager/v2/d/702b9586-4f10-4a79-a7e6-232ce8803136/6c30ab3d-95d9-e98b-bfed-5e99754ce291?origin=1;2026-10-23;PDF lido por extração web;Página 16 identifica fase 3 e matrícula, sem plantas técnicas
+S3;JM Marques Cury Dez João Dias;https://www.jmmarques.com.br/pagina/empreendimento/cury-dez-joao-dias=1373;2026-10-23;Página lida e imagem local previamente arquivada inspecionada;Planta cotada de canto, fase de cada imagem não autenticada
+S4;ImovelApp Cury João Dias;https://www.imovelapp.com.br/imovel/cury-joao-dias/;2026-10-23;Página lida e imagens locais inspecionadas;40.68 canto e 40.80 meio, dados comerciais inconsistentes
+S5;Imobz Vila das Belezas 3;https://www.imobz.com.br/condominio/cury-dez-vila-das-belezas-3;2026-10-23;Resultado indexado;Endereço 200, não comprova tipologia
+S6;QuintoAndar Vila das Belezas 3;https://www.quintoandar.com.br/condominio/dez-vila-das-belezas-3-vila-plana-sao-paulo-pm8sqjmork;2026-10-23;Conteúdo de busca;Cadastro comercial, não planta técnica
+S7;Apto Dez João Dias;https://apto.vc/br/sp/sao-paulo/vila-das-belezas/dez-joao-dias;2026-10-23;Conteúdo de busca;Data de entrega conflitante com vídeo, não adotada
+S8;Tudo da Mona entrega Vila das Belezas 3;https://www.youtube.com/watch?v=YbMzhb1Kppw;2026-10-23;Metadados e quadros públicos na pesquisa anterior;Interior parcial aproximadamente 10 a 14 minutos, sem áudio integral
+S9;Book João Dias EZ Brokers;https://ezbrokers.com.br/wp-content/uploads/2025/03/Book-Joao-Dias.pdf;2026-10-23;Redirecionamento para hospedagem suspensa;Não verificado nem usado
+L1;Planta oficial Guedala;../../../02_Plantas_e_manuais/Planta_oficial.pdf;2026-10-23;Documento local;Fonte prioritária das cotas de projeto, não medição real
+L2;Memorial Guedala III R00 03/04/2023;../../../02_Plantas_e_manuais/Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf;2026-10-23;Documento local;Padrão de entrega próprio, respeitar registros posteriores

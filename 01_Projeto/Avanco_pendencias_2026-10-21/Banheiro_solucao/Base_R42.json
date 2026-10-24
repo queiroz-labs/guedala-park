@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Peca075",
+    "label": "door002",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "0.0 mm",
+      "LocalY": "0.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2840.0,
+      4050.0,
+      0.0,
+      2860.0,
+      4750.0,
+      2050.0
+    ],
+    "volume": 28700000.0
+  },
+  {
+    "name": "Peca051",
+    "label": "Parede · Banheiro003",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "4640.0 mm",
+      "LocalY": "3950.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2660.0,
+      3950.0,
+      0.0,
+      2760.0,
+      5290.0,
+      2470.0
+    ],
+    "volume": 330979999.99999994
+  },
+  {
+    "name": "Peca052",
+    "label": "Parede em corte · Banheiro003",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "4640.0 mm",
+      "LocalY": "3950.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2660.0,
+      3950.0,
+      0.0,
+      2760.0,
+      5290.0,
+      320.0
+    ],
+    "volume": 42880000.0
+  },
+  {
+    "name": "Modulo017",
+    "label": "Gabinete do banheiro",
+    "type": "App::Part",
+    "props": {
+      "Altura": "545.0 mm",
+      "GiroLocal": "0.0 deg",
+      "LocalX": "4040.0 mm",
+      "LocalY": "4870.0 mm",
+      "LocalZ": "200.0 mm",
+      "Profundidade": "420.0 mm"
+    },
+    "bbox": [
+      2760.0,
+      4870.0,
+      200.0,
+      3360.0,
+      5290.0,
+      745.0
+    ],
+    "volume": 22794183.875672165
+  },
+  {
+    "name": "Peca394",
+    "label": "Lateral direita029",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "0.0 mm",
+      "LocalY": "20.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      3342.0,
+      4890.0,
+      200.0,
+      3360.0,
+      5290.0,
+      745.0
+    ],
+    "volume": 3924000.0
+  },
+  {
+    "name": "Peca395",
+    "label": "Lateral esquerda013",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "582.0 mm",
+      "LocalY": "20.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2760.0,
+      4890.0,
+      200.0,
+      2778.0,
+      5290.0,
+      745.0
+    ],
+    "volume": 3924000.0
+  },
+  {
+    "name": "Peca396",
+    "label": "Fundo013",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "18.0 mm",
+      "LocalY": "402.0 mm",
+      "LocalZ": "18.0 mm"
+    },
+    "bbox": [
+      2778.0,
+      5272.0,
+      218.0,
+      3342.0,
+      5290.0,
+      727.0
+    ],
+    "volume": 5167368.0
+  },
+  {
+    "name": "Peca397",
+    "label": "Base011",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "18.0 mm",
+      "LocalY": "20.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2778.0,
+      4890.0,
+      200.0,
+      3342.0,
+      5272.0,
+      218.0
+    ],
+    "volume": 3878064.0
+  },
+  {
+    "name": "PainelBanheiroR12",
+    "label": "Painel18 comum · Gabinete · esquerda - proposta",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "0.0 mm",
+      "LocalY": "0.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      3061.0,
+      4870.0,
+      201.0,
+      3358.0,
+      4888.0,
+      744.0
+    ],
+    "volume": 2902878.0
+  },
+  {
+    "name": "FrenteComumR12",
+    "label": "Gabinete do banheiro - porta direita — frente com canecos",
+    "type": "Part::Cut",
+    "props": {},
+    "bbox": [
+      3061.0,
+      4870.0,
+      201.0,
+      3358.0,
+      4888.0,
+      744.0
+    ],
+    "volume": 2877863.068495791
+  },
+  {
+    "name": "PainelBanheiroR001",
+    "label": "Painel18 comum · Gabinete · direita - proposta",
+    "type": "Part::Box",
+    "props": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "-297.0 mm",
+      "LocalY": "0.0 mm",
+      "LocalZ": "0.0 mm"
+    },
+    "bbox": [
+      2762.0,
+      4870.0,
+      201.0,
+      3059.0,
+      4888.0,
+      744.0
+    ],
+    "volume": 2902878.0
+  },
+  {
+    "name": "FrenteComumR018",
+    "label": "Gabinete do banheiro - porta esquerda — frente com canecos",
+    "type": "Part::Cut",
+    "props": {},
+    "bbox": [
+      2762.0,
+      4870.0,
+      201.0,
+      3059.0,
+      4888.0,
+      744.0
+    ],
+    "volume": 2877863.068495791
+  }
+]

@@ -1,67 +1,29 @@
-# Varal e chapa — especificação consolidada
+# Varal — especificação consolidada sem placa de ocultação
 
-**Decisão posterior à entrega do tópico 5:** Elias confirmou manter o quadro inteiro com manivela. Permanecem a grelha de 100 × 50 cm, elevação vertical e chapa visual independente. Referência de manivela removível preservada, a confirmar no produto. Não foram escolhidos motor, varetas individuais ou extração horizontal. Modelo comercial, dimensões totais, curso, retenção, carga útil e fixação ainda dependem de confirmação; os 30 kg continuam meta de estudo, não capacidade aprovada.
+Atualização de 21/10/2026. A placa de madeira próxima à entrada foi removida na R35 por solicitação de Elias. Ela não integra o escopo vigente e não deve voltar em desenho, orçamento ou instalação. Os estudos R08/R09 de ocultação são históricos.
 
-Referência atual para detalhamento após aprovação da sequência R10 por Elias. Reúne as escolhas funcionais e os requisitos de mecanismo/instalação, evitando usar como obrigatórias as alternativas históricas de caixa e extração horizontal.
+## Configuração escolhida
 
-## Escolhas consolidadas
+Grelha de 100 × 50 cm, quadro inteiro, elevação vertical no mesmo lugar e acionamento manual por manivela. A referência de manivela removível permanece a confirmar no produto. Não foram escolhidos motor, varetas individuais ou extração horizontal.
 
-- **Tanque limpo e livre como apoio temporário da roupa retirada da máquina**, escolhido por Elias. Transferir o lote antes de fechar a máquina e pendurar; conferir capacidade e acesso no ensaio. Não exigir recipiente sobre a bancada.
+Tanque limpo e livre serve de apoio temporário à roupa retirada da máquina. Sequência aprovada: retirar a roupa e fechar a máquina → baixar o quadro vazio → carregar do fundo para a entrada → sair e subir para secar → baixar e retirar da entrada para o fundo → subir vazio. Conferir a operação com peças pequenas, toalhas e peças longas no espaço real.
 
-- Grelha de **100 × 50 cm**, inteiramente na lavanderia, com descida à frente da bancada e acesso pelo lado da cozinha.
-- Desenvolvimento por **elevação vertical no mesmo lugar**, com quadro vazio elevado para guardar, posição de manuseio e posição alta para secar. Não exigir caixa completa nem extração horizontal.
-- **Chapa vertical única** para bloquear a vista habitual da cozinha; Elias aceita que o quadro apareça quando a pessoa se aproxima. Referência visual Arenza, sem material/espessura executivos definidos.
-- **Sequência aprovada:** retirar roupa da máquina e fechar a porta → baixar vazio → carregar do fundo para a entrada → sair e subir para secar → baixar e retirar da entrada para o fundo → subir vazio.
-- Referência de **manivela removível** preservada; modelo ainda não escolhido. Motor ou varetas individuais não substituem essa referência automaticamente.
-- E21 GN com uso em 127 V, LG VC4, tanque/cesto e lixeira mantidos. Chapa e eventual ripado do aquecedor são peças independentes.
+E21 GN em 127 V, LG VC4, tanque/cesto e lixeira permanecem referências do ambiente. A remoção desta placa não altera por si só outros painéis ou eventual estudo de ripado do aquecedor.
 
-## Acionamento: direção de detalhamento
+## Requisitos para fechar a ferragem
 
-| Item | Requisito para especificar |
+| Item | Conferência necessária |
 |---|---|
-| Local de operação | Junto ao acesso pelo lado da cozinha, alcançável de fora da projeção do quadro e com o varal cheio. Não ocupar a passagem com uma manivela permanentemente saliente. |
-| Base do comando | Suporte fixo compatível com o mecanismo; não instalar o acionamento numa porta móvel ou presumir que a chapa decorativa sustente o esforço. Parede, altura e fixação a definir após conhecer o produto e as instalações. |
-| Parada do quadro | Sistema que mantenha a posição durante carga/descarga sem depender de segurar continuamente a manivela. Retenção e descida controlada devem fazer parte do conjunto fornecido, não de adaptação improvisada. |
-| Posições | Identificar manuseio, secagem e recolhimento vazio. A posição de secagem pode ser inferior à de recolhimento, para acomodar tecido/pregadores/cabides. Limites definidos conforme o mecanismo e o espaço real. |
-| Percurso de cordas/cabos | Sem atrito na chapa, interferência com abertura de móveis/janela ou aproximação indevida de E21/duto. Representar roldanas e trajetos no desenho; não dimensionar só a grelha. |
-| Guarda da manivela | Se removível, prever guarda acessível junto à operação, a detalhar. Não depender de abrir armário bloqueado por roupas ou de alcançar acima do quadro. |
-| Capacidade | Meta proposta de 30 kg de roupa molhada continua a comprovar. Solicitar carga útil do conjunto completo e condições de distribuição; não transferir capacidade anunciada para motor a um acionamento manual. |
+| Acionamento | Operável junto ao acesso da cozinha, fora da projeção do quadro cheio; evitar manivela permanentemente saliente na passagem. |
+| Retenção | Manter a posição durante carga e descarga sem segurar continuamente o comando; descida controlada conforme conjunto do fabricante. |
+| Curso e posições | Confirmar manuseio, secagem e recolhimento vazio, incluindo roupa e pregadores. Não deduzir curso apenas da grelha. |
+| Envelope completo | Obter roldanas, suportes, cabos, comando e altura mínima recolhida; conferir janela, armários, sanca, E21 e duto. |
+| Carga | Os 30 kg citados em estudos anteriores são uma meta proposta, não capacidade aprovada. Verificar carga útil, distribuição e condições do conjunto completo. |
+| Instalação | Identificar base resistente, esforços e ancoragem. Forro, aquecedor e duto não são suportes presumidos. Não selecionar bucha por classificação genérica da planta. |
+| Manutenção | Acesso a comando, cabos, roldanas e guarda da manivela, sem depender de abrir armário bloqueado por roupa. |
 
-**Recomendação de desenvolvimento:** quadro convencional sob medida com elevação manual assistida e retenção própria do fabricante. Essa é a família de solução a consultar, não produto já selecionado ou capacidade comprovada. A mudança para chapa reduz a necessidade de um mecanismo combinado com extração, mas não elimina a conferência de alcance e roupa.
+Setor de 129 × 154 cm e altura sugerida de manuseio de 190–200 cm são referências de estudo, não levantamento acabado nem cotas executivas. Grelha 100 × 50 cm é escolha dimensional; o envelope do produto permanece pendente.
 
-## Chapa: fixação e manutenção
+Modelo comercial, materiais, carga, curso e fixação ainda não fechados. A retirada da placa está concluída no modelo; os requisitos de instalação do varal permanecem em desenvolvimento.
 
-Manter a chapa fixa durante o ciclo, aberta por baixo e nas laterais. Seu suporte e o suporte do varal devem ter caminhos de carga próprios até uma base identificada e dimensionada. O forro de gesso, o E21 e seu duto não são suportes presumidos para esses elementos. Não escolher bucha, parafuso, espessura de placa ou ferragem antes de identificar a base e as cargas.
-
-```mermaid
-flowchart TD
- A["Base resistente identificada"] --> B["Suporte dimensionado do varal"]
- B --> C["Elevação e retenção do fabricante"]
- C --> D["Grelha e roupa"]
- A --> E["Suporte próprio da chapa"]
- E --> F["Chapa de ocultação"]
-```
-
-O esquema mostra independência de função, não detalhamento de ancoragem. Permitir remoção técnica da chapa para manutenção, sem fazê-la bascular em cada uso e sem apoiar nela o mecanismo. Verificar cantos, bordo inferior e interferência com a cabeça/mãos na entrada.
-
-Material e acabamento precisam ser apropriados à umidade e ao local real. A referência Arenza não autoriza instalar madeira na base do aquecedor ou dentro de seu volume técnico. Não considerar a chapa proteção antirrespingo ou térmica. Preservar ventilação e manutenção do E21.
-
-## Medidas que permanecem apenas de estudo
-
-| Medida | Referência e limite |
-|---|---|
-| Setor | 129 × 154 cm da base documental; levantamento acabado pendente. |
-| Grelha | 100 × 50 cm escolhidos; dimensões externas de roldanas/suportes adicionais a obter. |
-| Manuseio | 190–200 cm sugeridos para ensaio de aproximação por baixo; sem aprovação de altura final. |
-| Chapa | Aproximadamente 40–45 cm de queda no exemplo de observação a cerca de 2 m; dependente da altura real dos olhos, teto e recolhimento. Não é cota para corte. |
-| Implantação da grelha | x14,5–114,5; y85–135 cm no ensaio R07. Hipótese, não posição executiva. |
-
-## Retorno técnico necessário para fechar o conjunto
-
-Solicitar ao fabricante, numa mesma proposta: identificação do produto; confirmação da grelha 100 × 50; dimensões totais e altura mínima elevada; curso vertical; forma de acionamento e retenção; manivela removível; carga útil e distribuição permitida; materiais e manutenção; requisitos da base e instalação. Comparar a operação aprovada com peça pequena, toalha e peça longa, incluindo entrada, saída e retirada.
-
-O levantamento do apartamento deve localizar pontos do E21, duto, janela, grelhas, sanca/shaft, base estrutural e apoios disponíveis. Compatibilizar os componentes do varal e da chapa com esses elementos e com máquina aberta, recipiente de transferência e lixeira. Não há necessidade de nova escolha estética para obter esses dados.
-
-**Situação:** forma de ocultação e ordem de uso escolhidas. Acionamento e fixação definidos como requisitos para detalhamento, com modelo, cotas e ancoragens ainda dependentes de fabricante/levantamento. Nenhuma compra, mensagem a terceiro, furação ou publicação foi realizada.
-
-Referências: [sequência aprovada R10](Varal_sequencia_de_uso_R10.md), [linha de visão e pesquisa R09](Varal_linha_de_visao_e_mecanismo_R09.md), [chapa R08](Varal_chapa_visual_R08.md), [conferência documental](Conferencia_documental_lavanderia_2026-09-25.md).
+Fontes do projeto: [sequência aprovada R10](Varal_sequencia_de_uso_R10.md), [retirada da placa na R35](../Modelo_FreeCAD/01_Atual/Movimentos_R35_2026-10-21/README.md), [conferências de campo](../../04_Visita_ao_apartamento/Complemento_conferencia_R41.md).

@@ -1,0 +1,74 @@
+{
+  "context_solids": 3868,
+  "pose_checks": [
+    {
+      "front": 0,
+      "rear": 0,
+      "hits": []
+    },
+    {
+      "front": 0,
+      "rear": 116.5,
+      "hits": []
+    },
+    {
+      "front": 0,
+      "rear": 233,
+      "hits": []
+    },
+    {
+      "front": 134,
+      "rear": 0,
+      "hits": []
+    },
+    {
+      "front": 134,
+      "rear": 116.5,
+      "hits": []
+    },
+    {
+      "front": 134,
+      "rear": 233,
+      "hits": []
+    },
+    {
+      "front": 268,
+      "rear": 0,
+      "hits": []
+    },
+    {
+      "front": 268,
+      "rear": 116.5,
+      "hits": []
+    },
+    {
+      "front": 268,
+      "rear": 233,
+      "hits": []
+    }
+  ],
+  "continuous_sweeps": [
+    [],
+    []
+  ],
+  "maintenance": [
+    [],
+    [],
+    []
+  ],
+  "static_context": [],
+  "unchanged_original_errors": [],
+  "storage_intrusions": [],
+  "storage_envelope_mm": [
+    564,
+    382,
+    509
+  ],
+  "invalid_new_shapes": [],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "limits": [
+    "Ferragens são envelopes, não CAD industrial.",
+    "Resistência, suspensão, tolerâncias, porta real e hidráulica não validadas para fabricação.",
+    "Fundo original mantido sem recorte; sifão e recorte hipotéticos ficam ocultos."
+  ]
+}

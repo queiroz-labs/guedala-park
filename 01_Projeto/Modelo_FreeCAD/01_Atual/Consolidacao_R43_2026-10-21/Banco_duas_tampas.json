@@ -1,0 +1,230 @@
+{
+  "hidden": [
+    "TampaBancoR16",
+    "PecaBancoR008",
+    "PecaBancoR009",
+    "TampaBancoR001",
+    "PecaBancoR010",
+    "TampaBancoR002",
+    "PecaBancoR012",
+    "TampaBancoR003",
+    "PecaBancoR014",
+    "PecaBancoR011",
+    "PecaBancoR013",
+    "PecaBancoR015"
+  ],
+  "lid_sizes_mm": [
+    [
+      971,
+      448,
+      20
+    ],
+    [
+      825,
+      448,
+      20
+    ]
+  ],
+  "joint_y_mm": [
+    4722,
+    4724
+  ],
+  "support_y_mm": [
+    4714,
+    4732
+  ],
+  "internal_parts_changed": false,
+  "checks": [
+    {
+      "lid": 1,
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 25,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 35,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 50,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 55,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 65,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 70,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 80,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 85,
+      "hits": []
+    },
+    {
+      "lid": 1,
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 25,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 35,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 50,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 55,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 65,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 70,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 80,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 85,
+      "hits": []
+    },
+    {
+      "lid": 2,
+      "angle": 90,
+      "hits": []
+    }
+  ],
+  "limits": "Movimento nominal sem almofadas. Eixo ilustrativo; ferragens, retenção e resistência não dimensionadas."
+}

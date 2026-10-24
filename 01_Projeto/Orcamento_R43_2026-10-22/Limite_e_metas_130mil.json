@@ -1,0 +1,332 @@
+{
+  "data": "2026-10-22",
+  "limiteExecucao": 120000,
+  "reservaFixa": 10000,
+  "limiteTotal": 130000,
+  "execucaoAnterior": 142927.12,
+  "reducaoNecessaria": 22927.12,
+  "metas": [
+    {
+      "cat": "Marcenaria",
+      "anterior": 46550,
+      "meta": 35000,
+      "reducao": 11550,
+      "acao": "Meta exigente: reduzir 24,8% da estimativa, preservando os 20 módulos, bancada, banco de duas tampas e complementos. Cotar pacote completo com lista idêntica de peças, ferragens e montagem. Pedir interiores em padrão branco onde não aparentes e otimização do corte; não reduzir espessuras, apoios ou ferragens sem verificação. Acabamentos aparentes aprovados preservados.",
+      "status": "Meta de distribuição do teto; não cotação nem economia obtida"
+    },
+    {
+      "cat": "Eletros e TV",
+      "anterior": 19000.6,
+      "meta": 18000,
+      "reducao": 1000.6,
+      "acao": "Manter os modelos, acabamentos e tensões; Philips Ambilight candidata principal. R$1.748,77 de redução indicativa, sobretudo na LG. KE4GC sem disponibilidade nas páginas conferidas: manter R$764,10 como provisão sem alegar preço confirmado. Nenhuma compra de bens existentes.",
+      "status": "R$17.251,83 aceitos por Elias para planejamento; oito ofertas e provisão de cooktop. Fretes e compra a confirmar."
+    },
+    {
+      "cat": "Móveis e tecidos",
+      "anterior": 11388.93,
+      "meta": 9250,
+      "reducao": 2138.93,
+      "acao": "Duas ofertas web reduzem produtos em R$698,49. Cotar mesa R$1.600, 3 Lina por R$1.800 e cortinas completas R$2.400. Só dispensar M03 R$800 se acabamentos aprovados já estiverem incluídos; não contar transferência para marcenaria como economia.",
+      "status": "Estimativa revisada R$10.690,44; faltam R$1.440,44 para meta. Cenário R$9.240,44 depende de negociação."
+    },
+    {
+      "cat": "Pisos e revestimentos",
+      "anterior": 20542.24,
+      "meta": 17000,
+      "reducao": 3542.24,
+      "acao": "Conferência nominal 22/10: R$16.998,13 estimados; dez caixas de Olmo sustentadas por plano de 136 réguas + 4 de sobra e exclusão de azulejo genérico R10, mantendo pedra baixa e pintura. R$440 de serviço preservados para preparo/cobrança mínima. Meta de R$17 mil cabe na estimativa, com apenas R$1,87 de folga; compra e contratação dependem de medidas e preços entregues.",
+      "status": "Estimativa R$16.998,13 aceita para planejamento por Elias; serviços e compra não contratados."
+    },
+    {
+      "cat": "Obra e pintura",
+      "anterior": 11560,
+      "meta": 10000,
+      "reducao": 1560,
+      "acao": "Cotar pacote discriminado, preservando impermeabilização, forro/lã do escritório e acabamentos. Cenário R$10.560 depende de R$1.750 de negociação de serviços; materiais revistos para R$1.600 sem assumir aproveitamento da tinta antiga. Faltam R$560 para meta. Reposição de tinta pertence à execução, não à reserva.",
+      "status": "Cenário R$10.560 aceito por Elias para planejamento/negociação; R$1.750 em descontos ainda não contratados. Provisão prudente R$12.310 preservada."
+    },
+    {
+      "cat": "Instalações",
+      "anterior": 10100,
+      "meta": 9500,
+      "reducao": 600,
+      "acao": "Cotar rede junto da elétrica, hidráulica e derivações quentes em pacote, e usar conversão gratuita KE4GC se elegível sem zerar ligação/materiais. Manter elétrica R$3.800 com torre/ponto 20 A explícitos, aquecedor R$1.100 e medidor/ativação R$500. Sem retirar água quente, testes, exaustão ou pontos.",
+      "status": "Cenário R$9.300 aceito por Elias para planejamento/negociação. R$800 ainda condicionados; provisão prudente R$10.100 preservada."
+    },
+    {
+      "cat": "Pedras e box",
+      "anterior": 6700,
+      "meta": 6200,
+      "reducao": 500,
+      "acao": "Cotar pacote de pedras por R$5.000 e box por R$1.200; manter Branco Itaúnas, tanque esculpido, prateleira do box explícita em S04, borda reta e faixa baixa. Perfis pretos finos/vidro transparente, sem reduzir altura nominal do box para aproveitar kit de catálogo. Medição, instalação e logística incluídas nas metas.",
+      "status": "Cenário R$6.200 aceito para planejamento e negociação em 22/10/2026; R$500 ainda sem cotação sob medida. Provisão prudente R$6.700."
+    },
+    {
+      "cat": "Louças e metais",
+      "anterior": 4945.35,
+      "meta": 4500,
+      "reducao": 445.35,
+      "acao": "Preservar modelos e acabamentos. Buscar Dora94017/113 por R$414 após confirmar acabamento, Arion Black por R$640 e Livo Black completo por R$650. Deca Pix calculado R$650,66 e Telca R$146,70. Manter H06/H08/H09/H10 e excluir bens existentes.",
+      "status": "Análise concluída. Provisão R$5.057,71; cenário proposto R$4.490,26 depende da Dora R$414 com acabamento confirmado, Arion R$640 e Livo completo R$650. Nenhuma contratação ou mudança de modelo/aparência."
+    },
+    {
+      "cat": "Iluminação",
+      "anterior": 3540,
+      "meta": 2800,
+      "reducao": 740,
+      "acao": "Comparar modelos de catálogo equivalentes e consolidar fontes/controles quando tecnicamente possível. Preservar luz de trabalho e requisitos do escritório. Simplificação decorativa ou adiamento de luz indireta exige escolha do usuário.",
+      "status": "Meta de distribuição do teto; não cotação nem economia obtida"
+    },
+    {
+      "cat": "Complementos fixos",
+      "anterior": 750,
+      "meta": 750,
+      "reducao": 0,
+      "acao": "Manter verba: varal e suportes de TVs. Sem depender de economia nesta categoria.",
+      "status": "Meta de distribuição do teto; não cotação nem economia obtida"
+    },
+    {
+      "cat": "Coordenação e logística",
+      "anterior": 7850,
+      "meta": 7000,
+      "reducao": 850,
+      "acao": "Organizar entregas por etapa, discriminar fretes já incluídos nos contratos e evitar viagens repetidas. Cotar escopo profissional e visitas necessários, sem eliminar responsabilidade técnica para atingir preço.",
+      "status": "Meta de distribuição do teto; não cotação nem economia obtida"
+    }
+  ],
+  "piso": {
+    "sku": "24192727",
+    "caixas": 10,
+    "m2PorCaixa": 3.58,
+    "precoM2": 166.7,
+    "materialAnterior": 8699.02,
+    "materialCandidato": 5967.86,
+    "reducaoIndicativa": 2731.16,
+    "fonte": "https://www.ligpisos.com.br/piso-ambienta-tarkett-new-design-3mm-capa-05mm-olmo",
+    "condicoes": "Antes de frete; confirmar estoque, pagamento, lote e ficha. URL menciona capa 0,5 mm e descrição 0,55 mm; divergência requer confirmação."
+  },
+  "alteracoesAprovadas": "Teto de execução R$120.000 e reserva fixa R$10.000; interiores brancos nos armários fechados; estimativa de pisos R$16.998,13 aceita por Elias como base de planejamento em 22/10/2026. Preservar cores aparentes, armazenamento e exclusões. Não são autorizações de compra ou contratação. Eletros R$17.251,83 aceitos como referência de planejamento em 22/10/2026; metas de obra desta análise não são aceite de contratação. Cenário de obra R$10.560 aceito para planejamento e negociação em 22/10/2026, ainda condicionado às cotações. Cenário de instalações R$9.300 aceito para planejamento e negociação em 22/10/2026; não contratação. Cenário pedras e box R$6.200 aceito para planejamento e negociação em 22/10/2026; não contratação. Louças/metais R$4.490,26 são proposta desta análise, ainda não aceite nem oferta completa.",
+  "revisaoPisos": {
+    "date": "2026-10-22",
+    "baseline": 20542.24,
+    "revised": 16998.13,
+    "saving": 3544.11,
+    "target": 17000,
+    "remaining": 0,
+    "status": "Estimativa nominal em aproximadamente R$17 mil; margem R$1,87. Compra e serviços a confirmar. R$440 de preparo preservados. Frete em G02.",
+    "relatorio": "Pisos_e_revestimentos/Conferencia_caixa_cozinha.md",
+    "aceitePlanejamento": {
+      "data": "2026-10-22",
+      "autor": "Elias",
+      "pedido": "ok, anote esse orçamento dos pisos e vamos pra próxima categoria pra encaixar tudo nos 120mil sem mexer nos 10mil de reserva",
+      "valor": 16998.13,
+      "alcance": "Base de planejamento; medidas finais e preços entregues continuam pendentes."
+    }
+  },
+  "revisaoMoveis": {
+    "date": "2026-10-22",
+    "baseline": 11388.93,
+    "revised": 10690.44,
+    "savingIndicative": 698.49,
+    "target": 9250,
+    "remainingToTarget": 1440.44,
+    "negotiationScenario": 9240.44,
+    "negotiationReductionUnquoted": 1450.0,
+    "status": "Revisão de planejamento com duas ofertas web; meta ainda não atingida. Fretes permanecem em G02.",
+    "executionRevised": 138684.52,
+    "executionIfJoineryTargetObtained": 127134.52,
+    "executionIfJoineryAndFurnitureScenarioObtained": 125684.52,
+    "reserveFixed": 10000,
+    "relatorio": "Moveis_e_tecidos/Analise_moveis.md"
+  },
+  "acompanhamentoAtual": {
+    "execucaoEstimada": 137798.11,
+    "reservaFixa": 10000,
+    "totalComReserva": 147798.11,
+    "reducaoAindaNecessariaExecucao": 17798.11,
+    "condicionalMarcenaria35mil": 126248.11,
+    "condicionalMarcenariaEMoveis": 124798.11,
+    "condicionalObra10560": 136048.11,
+    "condicionalObraEMarcenaria": 124498.11,
+    "condicionalObraMarcenariaEMoveis": 123048.11,
+    "economiasContratadas": false,
+    "revisoesIncluidas": [
+      "Pisos",
+      "Moveis",
+      "Eletros e TV",
+      "Provisão de materiais de obra",
+      "Louças e metais: Deca/Telca e provisão atualizada do Livo"
+    ],
+    "observacao": "Provisão atual R$137.798,11 incorpora louças/metais R$5.057,71, inclusive correção do Livo. Cenário conjunto com marcenaria35mil, móveis9240,44, obra10560, instalações9300, pedras6200 e louças4490,26 = R$121.180,66. Descontos de negociação ainda condicionais. Campos condicionais anteriores incluem louças na provisão prudente, exceto os que explicitam o cenário de louças ou todas as metas. Reserva R$10 mil adicional, intacta. Histórico anterior preservado.",
+    "condicionalObraEInstalacoes": 135248.11,
+    "condicionalObraInstalacoesEMarcenaria": 123698.11,
+    "condicionalObraInstalacoesMarcenariaEMoveis": 122248.11,
+    "saldoAjustarNesteCenario": 2248.11,
+    "condicionalTodasMetasRestantes": 119590.66,
+    "folgaSeTodasMetasObtidas": 409.34,
+    "condicionalObraInstalacoesMarcenariaMoveisEPedras": 121748.11,
+    "saldoAjustarAposCenarioPedras": 1748.11,
+    "condicionalObraInstalacoesMarcenariaMoveisPedrasELoucas": 121180.66,
+    "saldoAjustarAposCenarioLoucas": 1180.66,
+    "reservaUsada": 0
+  },
+  "revisaoEletros": {
+    "date": "2026-10-22",
+    "baseline": 19000.6,
+    "revised": 17251.83,
+    "savingIndicative": 1748.77,
+    "target": 18000,
+    "belowTarget": 748.17,
+    "cardScenario": 17668.07,
+    "cardExtra": 416.24,
+    "status": "Oito ofertas verificadas e uma provisão do cooktop indisponível. TV candidata principal, sem escolha definitiva. Valores antes do frete.",
+    "reserveFixed": 10000,
+    "executionRevised": 136935.75,
+    "executionIfJoineryTargetObtained": 125385.75,
+    "executionIfJoineryAndFurnitureScenarioObtained": 123935.75,
+    "relatorio": "Eletros_e_TV/Analise_eletros.md",
+    "aceitePlanejamento": {
+      "data": "2026-10-22",
+      "autor": "Elias",
+      "pedido": "ok, anote esses valores e vamos analisar obra e pintura pra reduzir mais, mantendo as cores e o visual aprovado e sem mexer nos 10mil de reserva",
+      "valor": 17251.83,
+      "alcance": "Aceite dos valores de eletros para planejamento, sem compra; cooktop continua provisão e TV candidata, com fretes e condições a confirmar."
+    }
+  },
+  "revisaoObra": {
+    "date": "2026-10-22",
+    "baseline": 11560.0,
+    "prudentProvision": 12310.0,
+    "materialAdjustment": 750,
+    "negotiationScenario": 10560.0,
+    "serviceReductionUnquoted": 1750,
+    "netReductionIfScenarioObtained": 1000,
+    "target": 10000,
+    "remainingFromScenarioToTarget": 560,
+    "confirmedSavings": 0,
+    "reserveFixed": 10000,
+    "status": "Estudo concluído; economia ainda depende de cotação e quantitativos. Provisão de tinta corrigida dentro da execução. Não alterar projeto ou paleta.",
+    "executionPrudent": 137685.75,
+    "executionIfWorksScenarioObtained": 135935.75,
+    "executionIfWorksAndJoineryTargetsObtained": 124385.75,
+    "executionIfWorksJoineryFurnitureScenariosObtained": 122935.75,
+    "relatorio": "Obra_e_pintura/Analise_obra.md",
+    "aceiteCenarioPlanejamento": {
+      "data": "2026-10-22",
+      "autor": "Elias",
+      "pedido": "ok, anote esse cenário e vamos analisar as instalações pra reduzir mais e encaixar tudo nos 120mil sem mexer nos 10mil de reserva",
+      "valor": 10560,
+      "alcance": "Cenário de obra aceito para planejamento e negociação. Não transforma os R$1.750 de descontos de serviço em economia contratada; provisão prudente R$12.310 preservada como comparação."
+    }
+  },
+  "revisaoInstalacoes": {
+    "date": "2026-10-22",
+    "baseline": 10100.0,
+    "prudentProvision": 10100.0,
+    "negotiationScenario": 9300.0,
+    "savingConditional": 800,
+    "target": 9500,
+    "belowTargetConditional": 200,
+    "confirmedSavings": 0,
+    "status": "Análise concluída; R$9.300 propostos para cotação. R$650 em negociação de pacotes e R$150 estimados no cooktop condicionado ao benefício, sem desconto contratado. Cores, armazenamento e pontos previstos preservados.",
+    "reserveFixed": 10000,
+    "reserveUsed": 0,
+    "executionWithWorksAndInstallationsScenarios": 135135.75,
+    "executionWithJoineryAlso": 123585.75,
+    "executionWithFurnitureAlso": 122135.75,
+    "remainingTo120kWithTheseScenarios": 2135.75,
+    "executionIfOtherCategoryTargetsObtained": 119600.4,
+    "relatorio": "Instalacoes/Analise_instalacoes.md",
+    "aceiteCenarioPlanejamento": {
+      "data": "2026-10-22",
+      "autor": "Elias",
+      "pedido": "ok, anote esse cenário e vamos analisar pedras e box pra reduzir mais, mantendo as cores e o visual aprovado e sem mexer nos 10mil de reserva",
+      "valor": 9300,
+      "alcance": "Cenário de instalações aceito para planejamento e negociação, mantendo condições de cotação e elegibilidade do benefício do cooktop. Não é economia contratada."
+    }
+  },
+  "revisaoPedrasBox": {
+    "date": "2026-10-22",
+    "baseline": 6700,
+    "prudentProvision": 6700,
+    "negotiationScenario": 6200,
+    "savingConditional": 500,
+    "stonePackageBaseline": 5300,
+    "stonePackageTarget": 5000,
+    "boxBaseline": 1400,
+    "boxTarget": 1200,
+    "target": 6200,
+    "confirmedSavings": 0,
+    "status": "Cenário R$6.200 aceito para planejamento e negociação em 22/10/2026; R$500 ainda sem cotação sob medida. Provisão prudente R$6.700.",
+    "reserveFixed": 10000,
+    "reserveUsed": 0,
+    "combinedExecutionScenario": 121635.75,
+    "remainingTo120k": 1635.75,
+    "executionIfOtherTargetsObtained": 119600.4,
+    "relatorio": "Pedras_e_box/Analise_pedras_box.md",
+    "dimensionalReferences": "Pedras_e_box/Referencias_dimensionais.json",
+    "aceiteCenarioPlanejamento": {
+      "data": "2026-10-22",
+      "autor": "Elias",
+      "pedido": "ok, anote esse cenário e vamos analisar louças e metais pra reduzir mais, mantendo os modelos e acabamentos aprovados e sem mexer nos 10mil de reserva",
+      "valor": 6200,
+      "alcance": "Cenário de pedras e box aceito para planejamento e negociação; R$500 condicionados a propostas completas, sem contratação. Reserva preservada."
+    }
+  },
+  "revisaoLoucasMetais": {
+    "date": "2026-10-22",
+    "baseline": 4945.35,
+    "prudentProvision": 5057.71,
+    "negotiationScenario": 4490.26,
+    "target": 4500,
+    "belowTargetConditional": 9.74,
+    "indicativeWebSavingsDecaTelca": 187.54,
+    "livoProvisionIncrease": 299.9,
+    "netPrudentIncrease": 112.36,
+    "savingConditionalFromOriginal": 455.09,
+    "conditionalReductionFromPrudent": 567.45,
+    "confirmedSavings": 0,
+    "reserveFixed": 10000,
+    "reserveUsed": 0,
+    "executionPrudent": 137798.11,
+    "combinedWithOtherScenariosAndPrudentLoucas": 121748.11,
+    "combinedExecutionScenario": 121180.66,
+    "remainingTo120k": 1180.66,
+    "executionIfLightingAndLogisticsTargetsObtained": 119590.66,
+    "status": "Análise concluída. Provisão R$5.057,71; cenário proposto R$4.490,26 depende da Dora R$414 com acabamento confirmado, Arion R$640 e Livo completo R$650. Nenhuma contratação ou mudança de modelo/aparência.",
+    "relatorio": "Loucas_e_metais/Analise_loucas_metais.md"
+  },
+  "historicoAcompanhamento": [
+    {
+      "etapa": "Antes da revisão de louças e metais de 22/10/2026",
+      "valores": {
+        "execucaoEstimada": 137685.75,
+        "reservaFixa": 10000,
+        "totalComReserva": 147685.75,
+        "reducaoAindaNecessariaExecucao": 17685.75,
+        "condicionalMarcenaria35mil": 126135.75,
+        "condicionalMarcenariaEMoveis": 124685.75,
+        "condicionalObra10560": 135935.75,
+        "condicionalObraEMarcenaria": 124385.75,
+        "condicionalObraMarcenariaEMoveis": 122935.75,
+        "economiasContratadas": false,
+        "revisoesIncluidas": [
+          "Pisos",
+          "Moveis",
+          "Eletros e TV",
+          "Provisão de materiais de obra"
+        ],
+        "observacao": "Provisão prudente R$137.685,75 preservada. Obra R$10.560 e instalações R$9.300 aceitas como cenários; pedras/box R$6.200 propostos. Todas as economias por negociação são condicionais. Reserva R$10 mil adicional em todas as linhas. Campos de cenários anteriores mantêm seu escopo indicado pelo nome.",
+        "condicionalObraEInstalacoes": 135135.75,
+        "condicionalObraInstalacoesEMarcenaria": 123585.75,
+        "condicionalObraInstalacoesMarcenariaEMoveis": 122135.75,
+        "saldoAjustarNesteCenario": 2135.75,
+        "condicionalTodasMetasRestantes": 119600.4,
+        "folgaSeTodasMetasObtidas": 399.6,
+        "condicionalObraInstalacoesMarcenariaMoveisEPedras": 121635.75,
+        "saldoAjustarAposCenarioPedras": 1635.75
+      }
+    }
+  ]
+}

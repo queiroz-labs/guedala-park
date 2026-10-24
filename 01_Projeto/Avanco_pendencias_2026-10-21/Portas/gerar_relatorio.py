@@ -1,0 +1,23 @@
+import pathlib,json,html,collections
+ROOT=pathlib.Path(__file__).resolve().parent
+r=json.loads((ROOT/'Auditoria_abertura_R42.json').read_text(encoding='utf-8'))
+assert r['restored'] and r['source_unchanged'] and r['error'] is None
+hits=r['hits'];groups=collections.defaultdict(list)
+for h in hits:groups[h['control']].append(h)
+rows=[]
+for c in r['controls']:
+ h=groups[c['control']]
+ summary='Nenhuma interseção nas poses amostradas' if not h else '; '.join(sorted(set(x['obstacle_label']+' a '+str(x['angle'])+'°' for x in h)))
+ if 'poses' not in c:summary='Sem painel visível mapeado; não ensaiado'
+ rows.append('<tr><td>'+html.escape(c['label'])+'</td><td>'+html.escape(', '.join(c.get('panels',[])))+'</td><td>'+html.escape(summary)+'</td></tr>')
+page='''<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>R42 — conferência de abertura das portas</title><style>body{font:17px/1.5 system-ui;max-width:1180px;margin:36px auto;padding:0 24px;background:#f4f3ee;color:#24372e}h1{line-height:1.2}article{background:white;padding:24px;margin:20px 0;border-radius:12px}table{border-collapse:collapse;font-size:14px;width:100%}td,th{padding:12px;border-bottom:1px solid #ddd;text-align:left}th{background:#e2ece4}a{color:#20644e}.alert{padding:20px;background:#fff0d1}code{overflow-wrap:anywhere;font-size:13px}</style>
+<h1>Portas dos armários · conferência da R42</h1><p>21/10/2026 — avanço independente da consulta sobre engates das gavetas.</p>
+<div class="alert"><strong>Ensaio da referência Blum, não aprovação das dobradiças FGVTN.</strong> As poses foram alteradas temporariamente e restauradas. O arquivo R42 não foi salvo nem substituído.</div>
+<article><h2>O que foi esclarecido</h2><p>Os controles comuns têm CursoEstudo de86°. A planilha usa uma expressão de mínimo que limita o movimento: escrever110° em Abertura, sem mudar o limite, ainda produz86°. Assim, uma captura do controle mostrando110° não seria evidência da abertura real de110°.</p><p>Neste ensaio, o limite foi elevado temporariamente a110°, e cada porta mapeada foi examinada em0°,30°,60°,86°,100° e110°, mantendo as demais na posição salva. A geometria segue o mecanismo Blum que já existe no arquivo. O ensaio ajuda a localizar encontros que exigem cuidado, mas não pode ser atribuído à articulação da candidata FGVTN.</p></article>
+<article><h2>Resultados por controle</h2><table><tr><th>Porta</th><th>Painel CAD</th><th>Resultado</th></tr>'''+''.join(rows)+'''</table><p>Uma ocorrência significa interseção de sólidos maior que0,1 mm³ na pose testada. A tabela não informa o primeiro ângulo exato de contato e não demonstra separação contínua entre as poses.</p></article>
+<article><h2>Escopo e limites</h2><ul><li>Somente painéis e obstáculos sólidos individuais visíveis, com volume superior a300.000 mm³; respeitada a visibilidade dos ancestrais geométricos. Ferragens pequenas e objetos ocultos ficam fora.</li><li>Uma porta por vez, demais objetos nas poses salvas. Não ensaia todas as combinações simultâneas, pessoas ou instalações não modeladas.</li><li>Controles de portas especiais que não pertencem à família ControlePorta não estão incluídos: o canto e a vizinha da cabeceira exigem ensaio próprio. O total de controles não equivale às22 portas candidatas à troca de46 dobradiças.</li><li>A extrapolação da referência até110° é um estudo geométrico. Não comprova o curso mecânico das peças importadas, a trajetória da FGVTN, retenção, furação, resistência ou tolerâncias.</li><li>Não foi imposto limite universal de86° nem escolhido limitador físico sem especificação.</li></ul></article>
+<article><h2>Rastreabilidade</h2><p><a href="Auditoria_abertura_R42.json">Resultados e volumes de interseção</a> · <a href="conferir_abertura.py">Script do ensaio</a> · <a href="Controles_detalhados.json">Controles originais</a> · <a href="../Ferragens/Dobradicas_46_compatibilidade.html">Compatibilidade nominal das46 dobradiças</a>.</p><p>Controles e poses restaurados: <strong>sim</strong>. Arquivo principal inalterado: <strong>sim</strong>.<br>SHA256:<br><code>'''+r['source_sha256']+'''</code></p></article></html>'''
+(ROOT/'Conferencia_portas_R42.html').write_text(page,encoding='utf-8')
+summary={'controls_found':len(r['controls']),'controls_tested':sum('poses' in c for c in r['controls']),'intersections':len(hits),'doors_with_hits':[n for n,h in groups.items() if h],'source_unchanged':r['source_unchanged'],'restored':r['restored']}
+(ROOT/'Resumo_resultados.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
+print(json.dumps(summary))

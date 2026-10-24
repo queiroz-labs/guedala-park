@@ -1,0 +1,35 @@
+{
+  "objects": [
+    "Fechada_110Tampo",
+    "Fechada_110Sapata",
+    "Fechada_110Ponta_sofa",
+    "Fechada_110Ponta_cozinha",
+    "Fechada_110Lateral",
+    "Aberta_170Tampo",
+    "Aberta_170Sapata",
+    "Aberta_170Ponta_sofa",
+    "Aberta_170Ponta_cozinha",
+    "Aberta_170Lateral",
+    "Aberta_cadeira_lateralTampo",
+    "Aberta_cadeira_lateralSapata",
+    "Aberta_cadeira_lateralLateral_sofa",
+    "Aberta_cadeira_lateralLateral_centro",
+    "Aberta_cadeira_lateralLateral_cozinha"
+  ],
+  "wood_rgb": [
+    0.7686274647712708,
+    0.6352941393852234,
+    0.48235294222831726
+  ],
+  "cloth_rgb": [
+    0.8470588326454163,
+    0.8156862854957581,
+    0.7607843279838562
+  ],
+  "base_rgb": [
+    0.08,
+    0.08,
+    0.08
+  ],
+  "source": "Sala_e_jantar/README.md: aprovações 18/09/2026; RGB herdado dos componentes Lina originais; aproximação CAD, não amostra de fabricante."
+}

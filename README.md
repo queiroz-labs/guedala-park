@@ -1,50 +1,55 @@
-# Guedala Park — projeto do apartamento
+# Guedala Park · projeto do apartamento
 
-**20/10/2026 — site R11 e FreeCAD R31 consolidados.** [Modelo atual e conferências](01_Projeto/Modelo_FreeCAD/01_Atual/Consolidacao_R31_2026-10-20/README.md) · [Site](https://queiroz-labs.github.io/guedala-park/) · [Atualização visual](01_Projeto/Estudo_interativo/Consolidacao_R11_2026-10-20/README.md). Estudos recentes da cozinha e dos móveis integrados, decisões e interiores atualizados. **Banco: Elias não gostou da bandeja lateral; quer voltar depois à guarda convencional abrindo o baú. Apenas anotado, sem aplicar a reversão.** Entradas anteriores abaixo preservam o histórico.
-**20/10/2026 — grelhas e manutenção R02.** [Detalhamento atual](01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md): duas grelhas candidatas600 ×90 removíveis, com12 rasgos e272,43 cm² de área aberta cada, réguas fora da passagem de ar e gabarito1:1 para cotação. Foram conferidos195 pares sem sobreposição e retirada frontal hipotética600 mm, sem validar calor/carga/cabos/pessoas. A saída superior agora termina na face perfuradaY6402,5; a hipótese antiga sem grelha real é superada nesse detalhe. Desenvolver acesso às conexões pelo gabinete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas; sem fabricação, compra ou contato externo.
+Visualização dos ambientes, medidas e informações para montar os móveis.
 
-**19/10/2026 — apoios e ventilação desenvolvidos em R01.** [Solução atual](01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Apoios_ventilacao_R01/README.md): base plana sobre três nervuras até o piso, vãos livres261,5 mm, entrada inferior e saída superior560 ×60, canal traseiro45 ×560, travessa fora do caminho do ar. KE4GC preservado com recorte520 ×390. Foram conferidos90 pares sem sobreposição e um percurso de ar conectado no estudo; isso não comprova resistência ou resfriamento. Material/ligações/capacidade do apoio, datums dos aparelhos, grelha efetiva, instalações e medidas de campo continuam para o executivo. Fonte R30 preservada; escolha dos aparelhos encerrada.
+Atualização local de 24/10/2026: [gaveta baixa P08 — seleção e link de compra](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Seis rodízios de **38 mm** com seis espaçadores metálicos de **1 mm** mantêm **39 mm** de apoio. [Abrir o FreeCAD atualizado](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Guedala_Park_R45_Rodizios_P08.FCStd). O lançador local e o pacote local usam esta revisão; os links públicos abaixo dependem da próxima publicação.
 
-**Forno escolhido em19/10/2026:** [Fischer Infinity com grill, sem turbo, e encaixe com o KE4GC](01_Projeto/Cozinha/Fischer_Grill_2026-10-19/README.md). Estudo separado preserva largura do módulo e bancada; apoios, travessa e ventilação propostos, com pendências de instalação. Modelo geral R30 e PDF de orçamento ainda representam o Venax.
+**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para compartilhar ↓](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip)**
 
-**Pesquisa contratual e IPHAN (18/10/2026):** [documentos públicos, cronologia e análise dos 254 dias](06_Contratos_e_atraso/Pesquisa_2026-10-18/README.md). Os relatórios permitem uma contagem de 254 dias inclusivos na área arqueológica, mas não comprovam igual atraso na entrega. Contratos, e-mails e protocolos pessoais estão no repositório privado [guedala-pessoal](https://github.com/queiroz-labs/guedala-pessoal), acessível somente a pessoas autorizadas. Este repositório mantém a pesquisa pública e o projeto do apartamento.
+## Menu do projeto
 
-Comece pelo [resumo](01_Projeto/Resumo.md) ou pelo [painel de decisões e pendências](01_Projeto/Painel_de_decisoes.md).
-
-**Resumo e painel consolidados pela R30.** Nova [prancha de conferência forno–cooktop–bancada](01_Projeto/Cozinha/Fechamento_R30_2026-10-14/Corte_coccao_R30.html), com cotas salvas, cenários e pendências de instalação. Não altera o modelo nem substitui as entregas gerais.
-
-| O que consultar | Onde encontrar |
+| Quero… | Acessar |
 |---|---|
-| Modelo FreeCAD — revisão R31 consolidada | [Arquivo e conferências](01_Projeto/Modelo_FreeCAD/01_Atual/Consolidacao_R31_2026-10-20/README.md) |
-| Modelos, controles e revisões anteriores | [Guia do FreeCAD](01_Projeto/Modelo_FreeCAD/README.md) |
-| PDFs para consulta e compartilhamento | [Entregas](05_Entregas/README.md) |
-| Estudos e decisões por ambiente | [Projeto](01_Projeto/README.md) |
-| Plantas originais e manuais | [Plantas e manuais](02_Plantas_e_manuais/README.md) |
-| Imagens e referências | [Referências](03_Referencias/README.md) |
-| Fotos e registros da visita | [Visita ao apartamento](04_Visita_ao_apartamento/README.md) |
-| Histórico e materiais anteriores | [Arquivo](99_Arquivo/README.md) |
-| Histórico completo da antiga página inicial | [Atualizações preservadas](99_Arquivo/Organizacao_2026-10-14/Historico_da_pagina_inicial.md) |
+| Explorar o apartamento e os móveis em 3D | [Site interativo](https://queiroz-labs.github.io/guedala-park/) |
+| Abrir ou editar o projeto no FreeCAD | [Baixar o modelo com cores R16 (.FCStd)](https://queiroz-labs.github.io/guedala-park/docs/01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd) |
+| Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R14](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
+| Consultar furações e suas referências | [Escolher o móvel e abrir “Furação” na ficha](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
+| Consultar distâncias entre paredes | [Planta cotada](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Planta_cotada_R13/index.html) |
+| Ler o que cada ambiente precisa ter | [Programa de necessidades R01](01_Projeto/Programa_de_necessidades_R01.md) · [planta mobiliada R02](01_Projeto/Planta_mobiliada/README.md) |
+| Consultar marcas, modelos e acabamentos | [Caderno de especificações R01](01_Projeto/Caderno_de_especificacoes_R01.md) |
+| Preparar a aprovação da reforma no condomínio | [Rascunho do plano de reforma](01_Projeto/Plano_de_reforma_NBR16280_rascunho.md) |
+| Pedir orçamento de marcenaria | [Pacote de cotação R01](01_Projeto/Orcamento_R43_2026-10-22/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) |
+| Ver tomadas, luzes, água e gás previstos | [Planta de pontos preliminar](01_Projeto/Planta_pontos_R00/README.md) |
+| Preparar o dia da entrega das chaves | [Roteiro do dia das chaves](04_Visita_ao_apartamento/Roteiro_dia_das_chaves_R01.md) |
+| Ver o que falta para virar projeto oficial | [Roteiro para projeto oficial](01_Projeto/Roteiro_para_projeto_oficial.md) |
+| Conferir o que falta resolver | [Pendências de projeto, oficina e apartamento](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
+| Continuar antes de receber o apartamento | [Decisões e trabalho que podem avançar sem medidas reais](01_Projeto/Continuidade_pre_entrega_2026-10-23.md) |
+| Anotar as medidas reais do apartamento | [Folha de levantamento por móvel](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/Levantamento.html) |
+| Conferir os acabamentos definidos | [Branco TX nos interiores e padrões nas faces aparentes](https://queiroz-labs.github.io/guedala-park/docs/01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md.html) |
+| Consultar a planta de origem | [Planta oficial em PDF](https://queiroz-labs.github.io/guedala-park/docs/02_Plantas_e_manuais/Planta_oficial.pdf) |
 
-A revisão R31 é a mais recente indicada no guia local do FreeCAD. Os PDFs R28/R30 são entregas históricas e não incorporam automaticamente a R31. Estudos e modelos continuam sujeitos às pendências registradas; organização de arquivos não altera decisões ou libera fabricação.
+## Para encaminhar ao montador
 
-## Navegação por ambiente
+1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip)** e envie como arquivo ou compartilhe este link.
+2. Extraia o ZIP inteiro e abra **COMECE_AQUI.html** no navegador. Ele funciona como menu da pasta.
+3. Para editar o modelo, abra o arquivo **Guedala_Park_R45_Cores_R16.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. As fichas, planta e tabelas podem ser consultadas sem instalar o FreeCAD.
 
-[Cozinha](01_Projeto/Cozinha/README.md) · [Lavanderia](01_Projeto/Lavanderia/README.md) · [Banheiro](01_Projeto/Banheiro/README.md) · [Sala e jantar](01_Projeto/Sala_e_jantar/README.md) · [Escritório](01_Projeto/Escritorio/README.md) · [Quarto](01_Projeto/Portas_e_quarto/README.md) · [Equipamentos](01_Projeto/Equipamentos/README.md)
+**Revisões:** R16 identifica o pacote e as cores atualizadas do FreeCAD, alinhadas ao site e às fichas; R45 identifica a geometria preservada; R14 identifica as fichas técnicas. As novas seleções e furações documentadas não estão todas aplicadas ao FreeCAD. A pasta `Fichas_fabricacao_R13` mantém o endereço antigo para preservar os links, mas seu conteúdo corrente é R14.
 
-## Como manter a pasta
+O endereço antigo do ZIP R14 continua funcionando como alias do pacote R16. As cores são aproximações visuais; amostras, códigos e acabamentos ainda pendentes permanecem registrados nas fichas. [Consultar a atualização de cores](01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md).
 
-- Salve novos PDFs em `05_Entregas/pdf` e identifique a revisão no nome.
-- Mantenha os arquivos editáveis e suas dependências no estudo correspondente em `01_Projeto`.
-- Atualize o resumo e o registro de decisões quando houver mudanças aprovadas.
-- Consulte revisões antigas pelo guia de cada estudo; não misture revisões de assuntos diferentes.
-- `tmp`, `.firecrawl` e `.site` são pastas técnicas de trabalho, pesquisa e publicação. Não são a entrada de consulta do projeto.
+As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não representa uma liberação integral de fabricação.
 
-[Registro desta organização](99_Arquivo/Organizacao_2026-10-14/Registro.json).
+<details>
+<summary>Estudos, fontes e histórico</summary>
 
-[Catálogo de todos os arquivos de conteúdo](INDICE_DE_ARQUIVOS.md) · [Verificação dos links e organização do FreeCAD](99_Arquivo/Verificacao_links_FreeCAD_2026-10-14.md).
+- [Consolidação dimensional R45](01_Projeto/Consolidacao_R45_2026-10-23/)
+- [Estudos por ambiente](01_Projeto/)
+- [Plantas e manuais de origem](02_Plantas_e_manuais/)
+- [Referências visuais](03_Referencias/)
+- [Revisões e arquivos anteriores](99_Arquivo/)
+- [Página inicial anterior, preservada no histórico](https://github.com/queiroz-labs/guedala-park/blob/e0b944b3e70dc5ef9f61e51cb262a9b8b09fde6a/README.md)
 
+Os estudos históricos registram etapas anteriores e não substituem as fichas atuais.
 
-**Banco — revisão de15/10/2026:** [madeira, ligações e trava da bandeja (R02)](01_Projeto/Sala_e_jantar/Retirada_ponta_R30/Materiais_ligacoes_trava_R02.html). Especificação para cotação da solução híbrida; capacidade240 kg e liberação de fabricação ainda dependem das verificações indicadas.
-
-
-**Privacidade na publicação (15/10/2026):** capturas de sessão e PDFs de fabricação personalizados permanecem somente na pasta local. Alguns links de evidência histórica apontam para esses arquivos e não estarão disponíveis no GitHub. Os DXFs foram anonimizados; o PDF de pesquisa teve a autoria pessoal removida dos metadados. [Escopo da conferência](99_Arquivo/Organizacao_2026-10-14/Privacidade_publicacao_2026-10-15.json). Esta revisão não reescreve o histórico anteriormente publicado.
+</details>

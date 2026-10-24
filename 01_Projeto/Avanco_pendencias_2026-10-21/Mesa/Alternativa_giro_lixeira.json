@@ -1,0 +1,27 @@
+{
+  "tipo": "proposta nao aplicada: giro90graus da lixeira inteira, mantendo canto da caixa envolvente X2660/Y5290",
+  "corpo_bbox_mm": [
+    2450,
+    4950,
+    0,
+    2660,
+    5290,
+    470
+  ],
+  "pedal_bbox_mm": [
+    2510,
+    4930,
+    10,
+    2600,
+    4980,
+    30
+  ],
+  "transformacao_planta": "x_novo=7740-y_antigo; y_novo=2630+x_antigo (rotacao90graus + translacao)",
+  "verificacao": "Corpo no mesmo canto junto a paredeX2660; sem penetracao de parede. Antes do giro, varredura kernel nao encontrou outros obstaculos solidos no retanguloX1485..2660/Y3800..5500 alem lixeira existente. Novo corpo/pedal nao cruzam mesa/cadeiras mesmo puxadas30cm. Pedal terminaY4980, antes da cadeira cozinhaY4996.67; separacao16.67mm entre faixas longitudinais, nao folga de operacao humana.",
+  "folgas_aberta_cm": {
+    "guardada": 96.5,
+    "puxada20": 76.5,
+    "puxada30": 66.5
+  },
+  "limitacoes": "Nao comprova tampa aberta, alcance do pedal, acesso humano nem retirada do saco. Sem modelo articulado/ficha de giro. Nao mover efetivamente. A medida34x21 e o pedal sao gabaritoR42, confirmar produto."
+}

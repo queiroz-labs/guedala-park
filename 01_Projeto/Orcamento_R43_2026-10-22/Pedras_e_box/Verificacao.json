@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "rows": 5,
+  "baseline": 6700.0,
+  "scenario": 6200.0,
+  "savingConditional": 500,
+  "confirmedSaving": 0,
+  "stonePackage": 5000,
+  "boxTarget": 1200,
+  "combinedScenario": 121635.75,
+  "gapToExecutionLimit": 1635.75,
+  "remainingCategoryTargetCuts": 2035.35,
+  "allTargetsScenario": 119600.4,
+  "reserveUsed": 0,
+  "originalLedgerUnchanged": true,
+  "originalLedgerSHA256": "d5d873e1749400290dfdcad2bd2e7ca99d6c570c24bf26d199c9dc4d26abc368",
+  "cadUnchanged": true,
+  "cadSHA256": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "limits": "Somas, limites financeiros e parâmetros nominais conferidos; sem medidas de obra, orçamento contratado ou validação de fabricação."
+}

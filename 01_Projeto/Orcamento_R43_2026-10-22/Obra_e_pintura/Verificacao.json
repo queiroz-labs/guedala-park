@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "baselineRows": 8,
+  "baselineTotal": 11560.0,
+  "prudentTotal": 12310.0,
+  "negotiationTotal": 10560.0,
+  "materialAllowanceSum": 1600,
+  "serviceNegotiationUnquoted": 1750,
+  "netSavingsConditional": 1000,
+  "gapToCategoryTarget": 560,
+  "executionPrudent": 137685.75,
+  "executionScenario": 135935.75,
+  "executionWithJoineryAndFurnitureScenarios": 122935.75,
+  "reserveUsed": 0,
+  "originalLedgerUnchanged": true,
+  "originalLedgerSHA256": "d5d873e1749400290dfdcad2bd2e7ca99d6c570c24bf26d199c9dc4d26abc368",
+  "cadModified": false,
+  "verified": "Somas e reconciliação das categorias, preservação do JSON original e dos limites; nenhuma verificação de campo ou cotação vinculante."
+}

@@ -1,0 +1,997 @@
+[
+  {
+    "name": "Modulo004",
+    "label": "Gabinete da pia",
+    "bbox": [
+      2270.0,
+      6390.0,
+      180.0,
+      2920.0,
+      7000.0,
+      900.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Ambiente_cozinha",
+        "Cozinha",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Folha004",
+    "label": "Gabinete da pia - porta direita — folha proposta",
+    "bbox": [
+      2596.0,
+      6390.0,
+      181.0,
+      2918.0,
+      6408.0,
+      899.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Peca281",
+    "label": "Frente 001",
+    "bbox": [
+      2596.0,
+      6390.0,
+      181.0,
+      2918.0,
+      6408.0,
+      899.0
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha004",
+        "Gabinete da pia - porta direita — folha proposta",
+        true
+      ],
+      [
+        "FrenteComumR10",
+        "Gabinete da pia - porta direita — frente com canecos",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Folha005",
+    "label": "Gabinete da pia - porta esquerda — folha proposta",
+    "bbox": [
+      2272.0,
+      6390.0,
+      181.0,
+      2594.0,
+      6408.0,
+      899.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Peca282",
+    "label": "Frente 002",
+    "bbox": [
+      2272.0,
+      6390.0,
+      181.0,
+      2594.0,
+      6408.0,
+      899.0
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha005",
+        "Gabinete da pia - porta esquerda — folha proposta",
+        true
+      ],
+      [
+        "FrenteComumR001",
+        "Gabinete da pia - porta esquerda — frente com canecos",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Modulo005",
+    "label": "Gaveteiro G1 / G2 / G3",
+    "bbox": [
+      1651.0,
+      6390.0,
+      180.0,
+      2270.0,
+      7000.0,
+      900.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Ambiente_cozinha",
+        "Cozinha",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "Gaveta004",
+    "label": "G3 · mantimentos",
+    "bbox": [
+      1652.0,
+      6390.0,
+      181.0,
+      2269.0,
+      6898.0,
+      577.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo005",
+        "Gaveteiro G1 / G2 / G3",
+        true
+      ],
+      [
+        "AcessoControleR004",
+        "G3 · mantimentos — acesso ao objeto Gaveta004",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "Gaveta005",
+    "label": "G2 · utensílios",
+    "bbox": [
+      1652.0,
+      6390.0,
+      581.0,
+      2269.0,
+      6898.0,
+      737.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo005",
+        "Gaveteiro G1 / G2 / G3",
+        true
+      ],
+      [
+        "AcessoControleR005",
+        "G2 · utensílios — acesso ao objeto Gaveta005",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "Gaveta006",
+    "label": "G1 · talheres",
+    "bbox": [
+      1652.0,
+      6390.0,
+      741.0,
+      2269.0,
+      6898.0,
+      897.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo005",
+        "Gaveteiro G1 / G2 / G3",
+        true
+      ],
+      [
+        "AcessoControleR006",
+        "G1 · talheres — acesso ao objeto Gaveta006",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "Peca308",
+    "label": "Bancada cozinha · reserva de recortes",
+    "bbox": [
+      1651.0,
+      6370.0,
+      900.0,
+      3520.0,
+      7000.0,
+      920.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Ambiente_cozinha",
+        "Cozinha",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "MontagemG2R020",
+    "label": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+    "bbox": [
+      1652.0,
+      6390.0,
+      581.0,
+      2269.0,
+      6408.0,
+      737.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Gaveta005",
+        "G2 · utensílios",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "GavetaComumR053",
+    "label": "Frente preservada · G3 · mantimentos - proposta R08",
+    "bbox": [
+      1652.0,
+      6390.0,
+      181.0,
+      2269.0,
+      6408.0,
+      577.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Gaveta004",
+        "G3 · mantimentos",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "GavetaComumR065",
+    "label": "Frente preservada · G1 · talheres - proposta R08",
+    "bbox": [
+      1652.0,
+      6390.0,
+      741.0,
+      2269.0,
+      6408.0,
+      897.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Gaveta006",
+        "G1 · talheres",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CanecoComumR10",
+    "label": "Caneco35x13 - proposta",
+    "bbox": [
+      2878.0,
+      6395.0,
+      242.5,
+      2913.0,
+      6408.0,
+      277.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha004",
+        "Gabinete da pia - porta direita — folha proposta",
+        true
+      ],
+      [
+        "FurosComunsR10",
+        "FurosComunsR10",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "CanecoComumR001",
+    "label": "Caneco35x13 - proposta001",
+    "bbox": [
+      2878.0,
+      6395.0,
+      802.5,
+      2913.0,
+      6408.0,
+      837.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha004",
+        "Gabinete da pia - porta direita — folha proposta",
+        true
+      ],
+      [
+        "FurosComunsR10",
+        "FurosComunsR10",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "FurosComunsR10",
+    "label": "FurosComunsR10",
+    "bbox": [
+      2878.0,
+      6395.0,
+      242.5,
+      2913.0,
+      6408.0,
+      837.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha004",
+        "Gabinete da pia - porta direita — folha proposta",
+        true
+      ],
+      [
+        "FrenteComumR10",
+        "Gabinete da pia - porta direita — frente com canecos",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FrenteComumR10",
+    "label": "Gabinete da pia - porta direita — frente com canecos",
+    "bbox": [
+      2596.0,
+      6390.0,
+      181.0,
+      2918.0,
+      6408.0,
+      899.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Folha004",
+        "Gabinete da pia - porta direita — folha proposta",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "DobradicaComumR10",
+    "label": "71B3550 — Gabinete da pia - porta direita — z80 (proposta)",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      231.41744094846493,
+      2912.4843061528036,
+      6475.931003863857,
+      288.5825590515351
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR10",
+    "label": "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z80",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      231.5,
+      2912.4843061528036,
+      6475.931003863857,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "DobradicaComumR10",
+        "71B3550 — Gabinete da pia - porta direita — z80 (proposta)",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR002",
+    "label": "Corpo2 · Gabinete da pia - porta direita · z80",
+    "bbox": [
+      2881.6319775682455,
+      6396.373175336121,
+      252.72500000000002,
+      2906.810041657108,
+      6407.103567890839,
+      267.27500000000003
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR10",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR002",
+    "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta direita · z80",
+    "bbox": [
+      2881.6319775682455,
+      6396.373175336121,
+      252.72499999999997,
+      2906.810041657108,
+      6407.103567890839,
+      267.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR002",
+        "Corpo2 · Gabinete da pia - porta direita · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR004",
+    "label": "Corpo4 · Gabinete da pia - porta direita · z80",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      231.5,
+      2912.4843061528036,
+      6411.447176600877,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR10",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR004",
+    "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta direita · z80",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      231.5,
+      2912.4843061528036,
+      6411.447176600877,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR004",
+        "Corpo4 · Gabinete da pia - porta direita · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "DobradicaComumR001",
+    "label": "71B3550 — Gabinete da pia - porta direita — z640.0 (proposta)",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      791.4174409484649,
+      2912.4843061528036,
+      6475.931003863857,
+      848.5825590515351
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR001",
+    "label": "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z640",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      791.5,
+      2912.4843061528036,
+      6475.931003863857,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "DobradicaComumR001",
+        "71B3550 — Gabinete da pia - porta direita — z640.0 (proposta)",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR007",
+    "label": "Corpo2 · Gabinete da pia - porta direita · z640",
+    "bbox": [
+      2881.6319775682455,
+      6396.373175336121,
+      812.725,
+      2906.810041657108,
+      6407.103567890839,
+      827.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR001",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR007",
+    "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta direita · z640",
+    "bbox": [
+      2881.6319775682455,
+      6396.373175336121,
+      812.725,
+      2906.810041657108,
+      6407.103567890839,
+      827.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR007",
+        "Corpo2 · Gabinete da pia - porta direita · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR009",
+    "label": "Corpo4 · Gabinete da pia - porta direita · z640",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      791.5,
+      2912.4843061528036,
+      6411.447176600877,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR001",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta direita · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR009",
+    "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta direita · z640",
+    "bbox": [
+      2875.252823399123,
+      6395.2,
+      791.5,
+      2912.4843061528036,
+      6411.447176600877,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR009",
+        "Corpo4 · Gabinete da pia - porta direita · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CanecoComumR002",
+    "label": "Caneco35x13 - proposta002",
+    "bbox": [
+      2277.0,
+      6395.0,
+      242.5,
+      2312.0,
+      6408.0,
+      277.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha005",
+        "Gabinete da pia - porta esquerda — folha proposta",
+        true
+      ],
+      [
+        "FurosComunsR001",
+        "FurosComunsR001",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "CanecoComumR003",
+    "label": "Caneco35x13 - proposta003",
+    "bbox": [
+      2277.0,
+      6395.0,
+      802.5,
+      2312.0,
+      6408.0,
+      837.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha005",
+        "Gabinete da pia - porta esquerda — folha proposta",
+        true
+      ],
+      [
+        "FurosComunsR001",
+        "FurosComunsR001",
+        false
+      ]
+    ]
+  },
+  {
+    "name": "FurosComunsR001",
+    "label": "FurosComunsR001",
+    "bbox": [
+      2277.0,
+      6395.0,
+      242.5,
+      2312.0,
+      6408.0,
+      837.5
+    ],
+    "visible": false,
+    "parents": [
+      [
+        "Folha005",
+        "Gabinete da pia - porta esquerda — folha proposta",
+        true
+      ],
+      [
+        "FrenteComumR001",
+        "Gabinete da pia - porta esquerda — frente com canecos",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FrenteComumR001",
+    "label": "Gabinete da pia - porta esquerda — frente com canecos",
+    "bbox": [
+      2272.0,
+      6390.0,
+      181.0,
+      2594.0,
+      6408.0,
+      899.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Folha005",
+        "Gabinete da pia - porta esquerda — folha proposta",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "DobradicaComumR002",
+    "label": "71B3550 — Gabinete da pia - porta esquerda — z80 (proposta)",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      231.41744094846493,
+      2314.747176600877,
+      6475.931003863857,
+      288.58255905153504
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR002",
+    "label": "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z80",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      231.49999999999997,
+      2314.747176600877,
+      6475.931003863857,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "DobradicaComumR002",
+        "71B3550 — Gabinete da pia - porta esquerda — z80 (proposta)",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR012",
+    "label": "Corpo2 · Gabinete da pia - porta esquerda · z80",
+    "bbox": [
+      2283.189958342892,
+      6396.373175336121,
+      252.72499999999997,
+      2308.3680224317545,
+      6407.103567890839,
+      267.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR002",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR012",
+    "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta esquerda · z80",
+    "bbox": [
+      2283.189958342892,
+      6396.373175336121,
+      252.72499999999997,
+      2308.3680224317545,
+      6407.103567890839,
+      267.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR012",
+        "Corpo2 · Gabinete da pia - porta esquerda · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR014",
+    "label": "Corpo4 · Gabinete da pia - porta esquerda · z80",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      231.49999999999997,
+      2314.747176600877,
+      6411.447176600877,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR002",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR014",
+    "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta esquerda · z80",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      231.49999999999997,
+      2314.747176600877,
+      6411.447176600877,
+      288.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR014",
+        "Corpo4 · Gabinete da pia - porta esquerda · z80",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "DobradicaComumR003",
+    "label": "71B3550 — Gabinete da pia - porta esquerda — z640.0 (proposta)",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      791.4174409484649,
+      2314.747176600877,
+      6475.931003863857,
+      848.5825590515351
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Modulo004",
+        "Gabinete da pia",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "AjusteProfundidadeR003",
+    "label": "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z640",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      791.5,
+      2314.747176600877,
+      6475.931003863857,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "DobradicaComumR003",
+        "71B3550 — Gabinete da pia - porta esquerda — z640.0 (proposta)",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR017",
+    "label": "Corpo2 · Gabinete da pia - porta esquerda · z640",
+    "bbox": [
+      2283.189958342892,
+      6396.373175336121,
+      812.725,
+      2308.3680224317545,
+      6407.103567890839,
+      827.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR003",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR017",
+    "label": "bau0015088783_v(71T310-04) · Gabinete da pia - porta esquerda · z640",
+    "bbox": [
+      2283.189958342892,
+      6396.373175336121,
+      812.725,
+      2308.3680224317545,
+      6407.103567890839,
+      827.275
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR017",
+        "Corpo2 · Gabinete da pia - porta esquerda · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "CorpoArticuladoR019",
+    "label": "Corpo4 · Gabinete da pia - porta esquerda · z640",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      791.5,
+      2314.747176600877,
+      6411.447176600877,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "AjusteProfundidadeR003",
+        "Regulagem comum de profundidade0.5 · Gabinete da pia - porta esquerda · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FerragemComumR019",
+    "label": "bau0015089612_v(71B355M01.01) · Gabinete da pia - porta esquerda · z640",
+    "bbox": [
+      2277.5156938471964,
+      6395.2,
+      791.5,
+      2314.747176600877,
+      6411.447176600877,
+      848.5
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "CorpoArticuladoR019",
+        "Corpo4 · Gabinete da pia - porta esquerda · z640",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FischerInfinityR31",
+    "label": "Fischer Infinity50 L · grill sem turbo · gabarito de montagem",
+    "bbox": [
+      2929.0,
+      6378.0,
+      123.0,
+      3524.0,
+      6951.0,
+      570.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "Ambiente_cozinha",
+        "Cozinha",
+        true
+      ]
+    ]
+  },
+  {
+    "name": "FischerFrenteR31",
+    "label": "Fischer · Frente · envelope",
+    "bbox": [
+      2929.0,
+      6378.0,
+      123.0,
+      3524.0,
+      6404.0,
+      570.0
+    ],
+    "visible": true,
+    "parents": [
+      [
+        "FischerInfinityR31",
+        "Fischer Infinity50 L · grill sem turbo · gabarito de montagem",
+        true
+      ]
+    ]
+  }
+]

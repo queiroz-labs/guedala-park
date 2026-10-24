@@ -1,0 +1,23 @@
+R42 CONSOLIDADA - 22/10/2026
+
+Folha antiga BancoFolhaR31: preservada como HISTORICO, oculta App/GUI; nao e componente nem exigencia de armazenamento da Berlin. Banco e capacidade de armazenamento intactos.
+
+AUDITORIA FINAL: descricoes das nove guias corrigidas para FGVTN Oculta Slowmotion ET35kg (nao One Touch/3D). Peca096..098 tambem ocultas, completando a retirada visual da mesa antiga. ControleMesaR35 e TransferenciaMesaR37 rotulados HISTORICO, com entradas em0 somente leitura; nao operam Berlin. As expressoes antigas permanecem para rastreabilidade e os comandos manuais do banco foram preservados. A alternancia das configuracoes Berlin e manual, nao um seletor automatico exclusivo.
+
+Arquivo: Guedala_Park_R42_Consolidado.FCStd
+Base: R41 preservada. Reabertura confirmada no FreeCAD 1.1.4, 5526 objetos. Verificacao_R42.json registra hashes e verificacoes. Os 1241 arquivos BREP originais permaneceram byte a byte identicos. Nenhuma forma nova Berlin invalida.
+
+ALTERACOES
+1. Removidos apenas Peca108 e Peca109, apoios de celular/oculos do quarto. Cabeceira e aereo preservados.
+2. Berlin fechada 110 x 80 cm: grupo Fechada_110 visivel, uma cadeira em cada ponta e uma lateral. Mesa sob medida anterior e antigas cadeiras ficam ocultas como referencia historica.
+3. Berlin aberta 170 x 80 cm: grupo Aberta_cadeira_lateral contem TRES cadeiras no lado livre conforme ultimo pedido; oculto inicialmente. Para comparar, oculte Fechada_110 e mostre esse grupo e seus componentes. Centros separados 56,67 cm; envelopes de44 cm deixam12,67 cm entre cadeiras e6,33 cm nas extremidades. Nao ha colisao cadeira/sofa nesse ensaio. Isso nao comprova conforto com pessoas sentadas.
+4. Grupo Aberta_170 mantem estudo rejeitado de duas pontas + lateral, com alerta de colisao cadeira/sofa de6 cm; oculto inicialmente. Nao usar como arranjo aprovado.
+5. Grupo FGVTN_R42: nove candidaturas de gavetas e46 dobradicas (nao46 portas), referencias dos objetos e parametros. Guias candidatas500/400:54FGOC12500TSX0 e54FGOC12400TSX0; dobradica TN MS Slow reta51MS15XTN2200BF + calco H0.
+
+LIMITES IMPORTANTES
+FGVTN e candidatura DECLARATIVA para orcamento. Caixas, ferragens e furos Blum existentes permanecem como REFERENCIA geometrica, sem troca mecanica aplicada. Nao comprar ambos os sistemas. Profundidades livres520/420 mm, furos, engates, recobrimento, gabarito H do lote, curso e colisoes precisam validacao. As dimensoes candidatas de armazenamento sao metas; nao sao novas caixas fabricaveis. Nenhuma capacidade de armazenamento foi reduzida.
+Berlin e superficie/envelope dimensional, nao modelo oficial: altura superior79 cm, espessura/estrutura/vao inferior desconhecidos. Sapata330 x500 mm e orientacao hipotetica. Cadeiras gabarito Lina44 x47 x94 cm com insercao26/projecao21 cm hipoteticas. A mesa aberta fica15 cm do sofa e65,25 cm da IB6; esses valores nao equivalem a circulacao livre com pessoas ou geladeira aberta.
+Sem medicao fisica do apartamento/produto, sem compra ou aprovacao de fabricacao. Banco e demais armazenamentos preservados.
+Estudo visual e calculos: ../../../Estudo_Berlin_FGVTN_2026-10-21/CAD/Berlin_comparativo.png e Conferencia_Berlin.json.
+Pasta Sem_suportes_R42_2026-10-22 e etapa intermediaria; o arquivo consolidado acima e a entrega final.
+

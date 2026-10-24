@@ -1,0 +1,19 @@
+RASCUNHO PARA APROVAÇÃO — NÃO ENVIADO
+Para: sac@fgvtn.com.br
+Assunto: Gabarito dos engates — Oculta Slowmotion ET 400 mm, 54FGOC12400TSX0
+
+Olá,
+
+Estamos detalhando duas gavetas de escritório para o kit 54FGOC12400TSX0, Oculta Slowmotion ET de 400 mm, com os engates convencionais que acompanham o produto.
+
+Já consultamos as folhas oficiais de especificação Set23 e instalação Set24, incluindo curso 375 ±3 mm e regulagem vertical +3 mm. Precisamos apenas complementar o detalhamento dos engates e da fixação:
+
+1. Desenho cotado ou gabarito dos engates direito e esquerdo do kit exato, indicando posição em relação à dianteira/lateral da caixa, furos, parafusos e comprimentos recomendados.
+2. Dimensões externas do engate montado, inclusive quanto ocupa abaixo do fundo, e espaço necessário para acionar o destravamento.
+3. Detalhe cotado dos recortes traseiros e furos dos ganchos, com profundidades e referências das cotas 7/11/33 mm da folha de montagem.
+
+A caixa proposta tem 400 mm de profundidade externa, 353 mm de largura externa e 323 mm internos, para vão de gabinete de 364 mm. Laterais de 15 mm e 80 mm de altura; fundo de 15 mm com a face inferior 12 mm acima da borda inferior da lateral; dianteira interna de 16 mm. Profundidade livre do gabinete 432 mm. Favor apontar se essas espessuras exigirem alguma adaptação específica do engate.
+
+Pode ser PDF cotado, gabarito ou arquivo 3D; não precisamos necessariamente de STEP. Pedimos que identifiquem o código/revisão dos engates fornecidos neste kit, para evitar confusão com UniHide ou com o gatilho 3D opcional.
+
+Obrigado.

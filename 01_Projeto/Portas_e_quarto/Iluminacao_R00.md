@@ -1,3 +1,9 @@
+# Alteração de escopo — 22/10/2026
+
+Remover os dois apoios de celular/óculos conforme solicitação de Elias. As referências a preservá-los abaixo são históricas; esta remoção não altera a iluminação nem a cabeceira.
+
+---
+
 # Quarto principal — iluminação aprovada como direção
 
 **Acabamento das arandelas aprovado — 20/09/2026:** ao escolher entre brancas discretas e pretas, Elias respondeu “quero discretas”. Adotar arandelas brancas, compactas, de desenho simples, mantendo direcionamento para leitura e comandos independentes. Modelo, dimensões e acabamento superficial exatos ainda a detalhar.

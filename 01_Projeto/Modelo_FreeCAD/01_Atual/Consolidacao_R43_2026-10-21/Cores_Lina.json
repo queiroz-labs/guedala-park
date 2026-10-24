@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Lina1_PeFrente",
+    "label": "Lina 1 · PeFrente (madeira)",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_PeFrente001",
+    "label": "Lina 1 · PeFrente (madeira)001",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_PeTrasColuna",
+    "label": "Lina 1 · PeTrasColuna (madeira)",
+    "faces": 10,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_PeTrasColuna001",
+    "label": "Lina 1 · PeTrasColuna (madeira)001",
+    "faces": 10,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_SaiaFrente",
+    "label": "Lina 1 · SaiaFrente (madeira)",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_SaiaTras",
+    "label": "Lina 1 · SaiaTras (madeira)",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_SaiaLateral",
+    "label": "Lina 1 · SaiaLateral (madeira)",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_SaiaLateral001",
+    "label": "Lina 1 · SaiaLateral (madeira)001",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_Assento",
+    "label": "Lina 1 · Assento (estofado)",
+    "faces": 10,
+    "color": [
+      0.8470588326454163,
+      0.8156862854957581,
+      0.7607843279838562,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_Encosto",
+    "label": "Lina 1 · Encosto (estofado)",
+    "faces": 6,
+    "color": [
+      0.8470588326454163,
+      0.8156862854957581,
+      0.7607843279838562,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_TravessaEncosto",
+    "label": "Lina 1 · TravessaEncosto (madeira)",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  },
+  {
+    "name": "Lina1_TravessaEncosto001",
+    "label": "Lina 1 · TravessaEncosto (madeira)001",
+    "faces": 6,
+    "color": [
+      0.7686274647712708,
+      0.6352941393852234,
+      0.48235294222831726,
+      1.0
+    ]
+  }
+]

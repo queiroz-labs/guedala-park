@@ -1,0 +1,565 @@
+{
+  "premissas": "Massas por volume geométrico bruto, sem descontar canecos; densidades são cenários, não material confirmado. Vidro2500kg/m³ hipotético. Acrescentar acabamento, adesivo, pegas e ferragens móveis.",
+  "portas": [
+    {
+      "familia": "Pia",
+      "dim_mm": [
+        322,
+        718,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.004161528,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 2.7049932,
+      "massa_750_kg": 3.1211460000000004,
+      "massa_900_kg": 3.7453752000000002,
+      "momento_peso_eixo_vertical_900_Nm": 5.913462976517881,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Depurador",
+      "dim_mm": [
+        322,
+        590,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.00341964,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 2.222766,
+      "massa_750_kg": 2.56473,
+      "massa_900_kg": 3.077676,
+      "momento_peso_eixo_vertical_900_Nm": 4.8592523066094,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Uso diário",
+      "dim_mm": [
+        270.5,
+        1016,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 3,
+      "volume_m3": 0.004946904,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 3.2154876000000003,
+      "massa_750_kg": 3.710178,
+      "massa_900_kg": 4.4522136,
+      "momento_peso_eixo_vertical_900_Nm": 5.90519089268451,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Micro-ondas",
+      "dim_mm": [
+        345.5,
+        608,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.003781152,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 2.4577488,
+      "massa_750_kg": 2.835864,
+      "massa_900_kg": 3.4030367999999998,
+      "momento_peso_eixo_vertical_900_Nm": 5.765080516697879,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Geladeira",
+      "dim_mm": [
+        397.5,
+        582,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.00416421,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 2.7067365,
+      "massa_750_kg": 3.1231575,
+      "massa_900_kg": 3.7477889999999996,
+      "momento_peso_eixo_vertical_900_Nm": 7.304709430623937,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Lavanderia",
+      "dim_mm": [
+        414.5,
+        578,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.004312458,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 2.8030977,
+      "massa_750_kg": 3.2343435,
+      "massa_900_kg": 3.8812122,
+      "momento_peso_eixo_vertical_900_Nm": 7.888285173979192,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Escritório",
+      "dim_mm": [
+        496,
+        548,
+        18
+      ],
+      "folhas": 4,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.004892544,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 3.1801536,
+      "massa_750_kg": 3.6694080000000002,
+      "massa_900_kg": 4.403289600000001,
+      "momento_peso_eixo_vertical_900_Nm": 10.709016949048321,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Cabeceira A",
+      "dim_mm": [
+        439.75,
+        306,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.002422143,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 1.57439295,
+      "massa_750_kg": 1.81660725,
+      "massa_900_kg": 2.1799287,
+      "momento_peso_eixo_vertical_900_Nm": 4.700443288164868,
+      "formato_altura_maior_largura": false
+    },
+    {
+      "familia": "Cabeceira B",
+      "dim_mm": [
+        440.25,
+        306,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.002424897,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 1.57618305,
+      "massa_750_kg": 1.81867275,
+      "massa_900_kg": 2.1824073,
+      "momento_peso_eixo_vertical_900_Nm": 4.711138263748468,
+      "formato_altura_maior_largura": false
+    },
+    {
+      "familia": "Espelheiro",
+      "dim_mm": [
+        297,
+        748,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 3,
+      "volume_m3": 0.003998808,
+      "vidro_hipotese_kg": 2.2215599999999998,
+      "massa_650_kg": 4.8207851999999995,
+      "massa_750_kg": 5.220666,
+      "massa_900_kg": 5.8204872000000005,
+      "momento_peso_eixo_vertical_900_Nm": 8.47630289878218,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Roupeiro correr",
+      "dim_mm": [
+        995,
+        1999,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 0,
+      "volume_m3": 0.03580209,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 23.2713585,
+      "massa_750_kg": 26.8515675,
+      "massa_900_kg": 32.221881,
+      "momento_peso_eixo_vertical_900_Nm": 157.20438288105336,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Maleiro correr",
+      "dim_mm": [
+        670,
+        237,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 0,
+      "volume_m3": 0.00285822,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 1.857843,
+      "massa_750_kg": 2.143665,
+      "massa_900_kg": 2.5723979999999997,
+      "momento_peso_eixo_vertical_900_Nm": 8.450913293644499,
+      "formato_altura_maior_largura": false
+    },
+    {
+      "familia": "Canto A/B",
+      "dim_mm": [
+        271,
+        306,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 2,
+      "volume_m3": 0.001492668,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 0.9702341999999999,
+      "massa_750_kg": 1.1195009999999999,
+      "massa_900_kg": 1.3434012,
+      "momento_peso_eixo_vertical_900_Nm": 1.78511295871629,
+      "formato_altura_maior_largura": true
+    },
+    {
+      "familia": "Banheiro correr R43",
+      "dim_mm": [
+        292,
+        500,
+        18
+      ],
+      "folhas": 2,
+      "dobradicas_por_folha": 0,
+      "volume_m3": 0.002628,
+      "vidro_hipotese_kg": 0,
+      "massa_650_kg": 1.7082000000000002,
+      "massa_750_kg": 1.971,
+      "massa_900_kg": 2.3652,
+      "momento_peso_eixo_vertical_900_Nm": 3.38642453268,
+      "formato_altura_maior_largura": true
+    }
+  ],
+  "banco": [
+    {
+      "largura": 971,
+      "densidade": 650,
+      "massa": 5.655104,
+      "torque_Nm": 12.4225081437184,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    },
+    {
+      "largura": 971,
+      "densidade": 750,
+      "massa": 6.52512,
+      "torque_Nm": 14.333663242752,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    },
+    {
+      "largura": 971,
+      "densidade": 800,
+      "massa": 6.960128,
+      "torque_Nm": 15.289240792268798,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    },
+    {
+      "largura": 971,
+      "densidade": 900,
+      "massa": 7.830144,
+      "torque_Nm": 17.2003958913024,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    },
+    {
+      "largura": 825,
+      "densidade": 650,
+      "massa": 4.8048,
+      "torque_Nm": 10.55465419008,
+      "S_AT01S_par_entre_12_2_e_17_6": false
+    },
+    {
+      "largura": 825,
+      "densidade": 750,
+      "massa": 5.5440000000000005,
+      "torque_Nm": 12.178447142400001,
+      "S_AT01S_par_entre_12_2_e_17_6": false
+    },
+    {
+      "largura": 825,
+      "densidade": 800,
+      "massa": 5.9136,
+      "torque_Nm": 12.990343618559999,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    },
+    {
+      "largura": 825,
+      "densidade": 900,
+      "massa": 6.6528,
+      "torque_Nm": 14.61413657088,
+      "S_AT01S_par_entre_12_2_e_17_6": true
+    }
+  ],
+  "abertura_frontal": [
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo": [
+        548,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 128,
+      "colisoes_bbox": 900,
+      "primeiras": [
+        {
+          "angle": 0.1,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.0593412094458472
+        },
+        {
+          "angle": 0.2,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.11868250943371095
+        },
+        {
+          "angle": 0.3,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.17802399001084268
+        },
+        {
+          "angle": 0.4,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.23736574246140663
+        },
+        {
+          "angle": 0.5,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.296707855843124
+        },
+        {
+          "angle": 0.6,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.35605042094539385
+        },
+        {
+          "angle": 0.7,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.41539352855761535
+        },
+        {
+          "angle": 0.8,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.47473726922180504
+        },
+        {
+          "angle": 0.9,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.5340817327378318
+        },
+        {
+          "angle": 1.0,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.5934270094003296
+        }
+      ],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 135,
+      "primeira_superficie": {
+        "angle": 76.6,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 403.438351170425,
+        "largura_intersecao_mm": 0.6486147124926447
+      },
+      "varredura_x": [
+        102.0,
+        568.0997508987118
+      ],
+      "z_max": 846.4481338892439,
+      "abertura90_x": [
+        548,
+        568
+      ],
+      "abertura90_z": [
+        398,
+        846
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo": [
+        550,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 128,
+      "colisoes_bbox": 0,
+      "primeiras": [],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 138,
+      "primeira_superficie": {
+        "angle": 76.3,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 319.66368853607423,
+        "largura_intersecao_mm": 0.5139287597042994
+      },
+      "varredura_x": [
+        102.0,
+        570.0
+      ],
+      "z_max": 848.4460750288252,
+      "abertura90_x": [
+        550,
+        570
+      ],
+      "abertura90_z": [
+        400,
+        848
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo": [
+        548,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 206,
+      "colisoes_bbox": 900,
+      "primeiras": [
+        {
+          "angle": 0.1,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.05934120969322976
+        },
+        {
+          "angle": 0.2,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.11868250943371095
+        },
+        {
+          "angle": 0.3,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.1780239905056078
+        },
+        {
+          "angle": 0.4,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.23736574221402407
+        },
+        {
+          "angle": 0.5,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.296707855843124
+        },
+        {
+          "angle": 0.6,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.35605042144015897
+        },
+        {
+          "angle": 0.7,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.4153935288049979
+        },
+        {
+          "angle": 0.8,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.4747372694691876
+        },
+        {
+          "angle": 0.9,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.5340817329852143
+        },
+        {
+          "angle": 1.0,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.5934270096477121
+        }
+      ],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 135,
+      "primeira_superficie": {
+        "angle": 76.6,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 308.74060314649887,
+        "largura_intersecao_mm": 0.6486147124926447
+      },
+      "varredura_x": [
+        102.0,
+        568.0997508987118
+      ],
+      "z_max": 846.4481338892439,
+      "abertura90_x": [
+        548,
+        568
+      ],
+      "abertura90_z": [
+        398,
+        846
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo": [
+        550,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 206,
+      "colisoes_bbox": 0,
+      "primeiras": [],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 138,
+      "primeira_superficie": {
+        "angle": 76.3,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 244.63008961924652,
+        "largura_intersecao_mm": 0.5139287597042994
+      },
+      "varredura_x": [
+        102.0,
+        570.0
+      ],
+      "z_max": 848.4460750288252,
+      "abertura90_x": [
+        550,
+        570
+      ],
+      "abertura90_z": [
+        400,
+        848
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    }
+  ]
+}

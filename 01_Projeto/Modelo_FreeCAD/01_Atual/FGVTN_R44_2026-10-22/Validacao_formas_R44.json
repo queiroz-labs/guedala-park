@@ -1,0 +1,641 @@
+{
+  "sha256": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "official": [
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature001",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature002",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature003",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature004",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_FECHADA_Part__Feature005",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature001",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature002",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature003",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature004",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "FGVTN_R44_ABERTA_Part__Feature005",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "berlin": [
+    {
+      "name": "Fechada_110Tampo",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Fechada_110Sapata",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Fechada_110Ponta_sofa",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Fechada_110Ponta_cozinha",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Fechada_110Lateral",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_170Tampo",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Aberta_170Sapata",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Aberta_170Ponta_sofa",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_170Ponta_cozinha",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_170Lateral",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_cadeira_lateralTampo",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Aberta_cadeira_lateralSapata",
+      "null": false,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_sofa",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_centro",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    },
+    {
+      "name": "Aberta_cadeira_lateralLateral_cozinha",
+      "null": false,
+      "valid": true,
+      "solids": 12
+    }
+  ],
+  "bank": [
+    {
+      "name": "BancoR43_Painel1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BancoR43_Painel2",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "bathroom": [
+    {
+      "name": "BC43_LateralE",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_LateralD",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Base",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Travessa",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CaixaE",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CaixaD",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CaixaBase",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ConfirmatBaseE0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaQuadroE0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ConfirmatBaseE1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaQuadroE1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ConfirmatBaseD0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaQuadroD0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ConfirmatBaseD1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaQuadroD1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_M6E0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PorcaE0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_M6E1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PorcaE1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaRemovivelE0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaRemovivelE1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_M6D0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PorcaD0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_M6D1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PorcaD1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaRemovivelD0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CavilhaRemovivelD1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_RM02600",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_RM02601",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_RM02610",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_RM02611",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Batente0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Batente1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Batente2",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Batente3",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoBatente0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoBatente1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CarroEsquerda0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_GuiaEsquerda0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda00",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda01",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda02",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda03",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda04",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda05",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CarroEsquerda1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_GuiaEsquerda1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda10",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda11",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda12",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda13",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda14",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoEsquerda15",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PainelEsquerda",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CarroDireita0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_GuiaDireita0",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita00",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita01",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita02",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita03",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita04",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita05",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_CarroDireita1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_GuiaDireita1",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita10",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita11",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita12",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita13",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita14",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_ParafusoDireita15",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_PainelDireita",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Sifao",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Canopla",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Maos",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Desmontagem",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BC43_Fundo",
+      "null": false,
+      "valid": true,
+      "solids": 1
+    }
+  ]
+}

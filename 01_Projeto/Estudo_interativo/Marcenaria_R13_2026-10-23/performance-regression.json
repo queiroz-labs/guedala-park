@@ -1,0 +1,6 @@
+{
+  "sampled_pick_pixels": 45,
+  "picked_furniture_matches_original": true,
+  "isolated_modules": 20,
+  "note": "Coplanar faces within the same furniture can resolve to a different component now that opaque faces no longer sort by average depth. Pixel-depth picking and module selection remain active."
+}

@@ -1,0 +1,52 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Auditoria das gavetas — R02, montagem pendente</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:1080px;margin:36px auto;padding:0 24px;background:#f8f7f3;color:#243c36}h1,h2{line-height:1.2}h2{margin-top:36px}table{width:100%;border-collapse:collapse;background:white}td,th{padding:11px;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}th{background:#e6ede8}.note{background:#fff0d4;padding:20px;border-left:5px solid #c17d26}img{max-width:100%}a{color:#19694f}code{overflow-wrap:anywhere}</style>
+<h1>Auditoria feita. Montagem ainda pendente.</h1>
+<p>21/10/2026, São Paulo. Escopo: duas gavetas do escritório em conversão candidata para FGVTN 400 mm. A conferência ampliada encontrou uma interferência do conteúdo guardado na proposta R01 e corrigiu a geometria em um novo estudo R02. <strong>A R42 principal não foi modificada.</strong></p>
+<p><a href="Escritorio_montagem_vertical_R02_ESTUDO.FCStd">Modelo R02</a> · <a href="Auditoria_intervalos.json">Auditoria dos intervalos completos</a> · <a href="Auditoria_completa.json">Cenários de regulagem e comparação com R42</a> · <a href="Reabertura_final.json">Reabertura final</a></p>
+<div class="note"><strong>Não marcar a montagem como concluída.</strong> Madeira e volumes de armazenamento passaram nos ensaios geométricos descritos abaixo. Faltam os perfis/engates reais, a fixação regulável das frentes, os recortes/furos e a validação de carga e ligações. Sem esses dados, a hipótese de realinhar as frentes não é uma montagem demonstrada.</div>
+<h2>Falhas encontradas na conferência</h2>
+<ol><li><strong>Conteúdo versus frente superior.</strong> Na R01, o topo de um objeto com 60,4 mm sobre o fundo da gaveta inferior chegava a Z601,4. A frente superior começa em Z601: interferência vertical de 0,4 mm durante a retirada. Conferir apenas a madeira não detectava isso. A R01 foi superada.</li>
+<li><strong>A referência anterior também precisava correção.</strong> Na R42, o fundo inferior está em Z544 e a altura declarada de 60,4 mm chega a Z604,4: sobreposição potencial de 3,4 mm com essa frente durante a saída. A auditoria não reduziu a meta para disfarçar o problema; manteve 60,4 mm como requisito conservador da nova proposta.</li>
+<li><strong>Regulagem diferencial das frentes.</strong> Subir a frente inferior 3 mm, deixando a superior no lugar, consome a junta de 2 mm e produz 1 mm de sobreposição. As frentes precisam de alinhamento final independente; essa fixação ainda não foi projetada.</li>
+<li><strong>Preservação das frentes.</strong> Os envelopes retangulares da primeira versão tinham 29,45 mm³ a mais que cada frente original. A R02 final usa cópias dos sólidos originais: diferença geométrica simétrica zero, preservando os pequenos detalhes que o envelope omitia.</li></ol>
+<h2>Correção R02 sem reduzir o armazenamento exigido</h2>
+<table><tr><th>Item</th><th>R42</th><th>R02 corrigida</th></tr>
+<tr><td>Carcaça externa</td><td>400 × 450 × 240 mm</td><td>400 × 470 × 248 mm</td></tr>
+<tr><td>Traseira da carcaça</td><td>Y250–268</td><td>Y230–248: 20 mm para trás</td></tr>
+<tr><td>Base</td><td>Z480–498</td><td>Z472–490: 8 mm mais baixa, espessura 18 mm mantida</td></tr>
+<tr><td>Caixa inferior / superior</td><td>Posições originais</td><td>Descem 8 / 4 mm, respectivamente</td></tr>
+<tr><td>Frentes / topo / junta aparente</td><td>Junta de 2 mm</td><td>Posições e sólidos das frentes preservados; junta 2 mm</td></tr>
+<tr><td>Profundidade livre da carcaça</td><td>412 mm</td><td>432 mm; margem 12 mm sobre requisito 420</td></tr>
+<tr><td>Base interna de cada caixa</td><td>322 × 359 mm</td><td>323 × 369 mm</td></tr>
+<tr><td>Alturas úteis mantidas como requisito</td><td>Inferior 60,4; superior 54 mm</td><td>60,4 / 54 mm nos prismas de conferência</td></tr>
+<tr><td>Laterais / fundo / parede acima do fundo</td><td>15 / 15 / 53 mm</td><td>Preservados</td></tr></table>
+<p>A alteração externa é explícita: 8 mm adicionais abaixo do módulo e 20 mm atrás. A faixa abaixo da frente inferior passa de 1 para 9 mm. Não há redução das caixas, mas a implantação fica um pouco mais baixa e precisa ser conferida fisicamente para conforto e acabamento.</p>
+<h2>Margens considerando regulagem de até +3 mm</h2>
+<table><tr><th>Conferência</th><th>Cálculo no modelo</th><th>Folga mínima</th></tr>
+<tr><td>Objeto inferior passando sob a frente superior alinhada</td><td>601 − (536 + 60,4 + 3)</td><td>1,6 mm</td></tr>
+<tr><td>Objeto superior passando sob o tampo</td><td>702 − (644 + 54 + 3)</td><td>1 mm</td></tr>
+<tr><td>Lateral da caixa superior sob o tampo</td><td>702 − (697 + 3)</td><td>2 mm</td></tr>
+<tr><td>Plano inferior inferido da guia inferior até a base</td><td>494 − 490</td><td>4 mm, condicionado à interpretação do desenho</td></tr></table>
+<p>As margens são geométricas nominais. Acabamentos, tolerâncias, empenamento, deflexão e instalação não foram descontados por ausência de especificação. O aumento de 3,1% na área de base conserva os prismas exigidos: inferior 7,199 L e superior 6,436 L, contra referências 6,982 L e 6,242 L. Esses números não são capacidade comercial certificada.</p>
+<h2>Resultado da conferência completa possível com os dados disponíveis</h2>
+<table><tr><th>Verificação</th><th>Resultado</th><th>Limite</th></tr>
+<tr><td>Cotas e carcaça de origem</td><td>Conferidas contra os sólidos carregados da R42; diferença zero nas peças de referência</td><td>Não é medição do apartamento</td></tr>
+<tr><td>Frentes originais</td><td>Copiadas integralmente; diferença zero</td><td>Fixação na nova caixa pendente</td></tr>
+<tr><td>Madeira fechada e rasgos</td><td>Sem sobreposição entre peças; rasgo proposto de 5 mm, fundo 15 mm</td><td>Encaixe ideal sem tolerância de fabricação; resistência do fundo, rasgo e juntas não validada</td></tr>
+<tr><td>Movimento das duas gavetas e do conteúdo</td><td>154 comparações de volumes varridos, sem colisões: curso contínuo 0–378 mm e regulagem contínua 0–3 mm, com posições independentes das duas gavetas</td><td>Frentes mantidas na altura final alinhada; ferragens reais ausentes</td></tr>
+<tr><td>Método de percurso</td><td>União de extrusões de faces das peças ortogonais; envelopes conservadores das frentes</td><td>Não depende apenas de amostras espaçadas; não representa folgas mecânicas ou flexão</td></tr>
+<tr><td>Restante do apartamento</td><td>Nenhum sólido externo ao gaveteiro interceptou a caixa delimitadora da união dos percursos, cargas e carcaça, após excluir planos auxiliares e componentes substituídos do escritório</td><td>Estado atual dos demais móveis; pessoas e mudanças de posição da cadeira/sofá não incluídas</td></tr>
+<tr><td>Regulagem com frente solidária</td><td>Reprovada para inferior +3 / superior 0: colisão entre frentes</td><td>Exige solução real para alinhamento independente</td></tr>
+<tr><td>Perfis, engates, destrave e retenção</td><td>Pendente</td><td>Não há modelo dimensional suficiente do conjunto real</td></tr>
+<tr><td>Recortes, furos, parafusos e fixações</td><td>Pendente</td><td>Não inventados no CAD</td></tr>
+<tr><td>Carga e resistência</td><td>Pendente</td><td>Capacidade anunciada da guia não comprova madeira, juntas, fixações ou móvel instalado</td></tr>
+<tr><td>Acesso ao fundo</td><td>Curso candidato 375 ±3 mm documentado</td><td>Menor que os 400 mm da referência; testar alcance e destrave com ferragem real</td></tr>
+<tr><td>Arquivo e revisão de origem</td><td>Estudo separado; R42 com SHA-256 preservado</td><td>Não incorporado como montagem aprovada</td></tr></table>
+<img src="Montagem_aberta.png" alt="Estudo R02 corrigido com gavetas abertas; guias e engates reais não representados">
+<p>Vista de inspeção: inferior a 200 mm e superior a 375 mm. As caixas não estão sustentadas por ferragens nesta representação.</p>
+<h2>Dados mínimos para encerrar a montagem</h2>
+<ul><li>Desenho ou medição do perfil e dos engates convencionais do kit 54FGOC12400TSX0, incluindo destrave e montagem com fundo 15 mm/recuo 12 mm.</li>
+<li>Fixação das frentes que permita realinhar a junta após regular as caixas, sem reduzir a área útil ou interferir nos engates.</li>
+<li>Gabarito de furos, recortes traseiros, parafusos, tolerâncias e validação das juntas/fundo com a carga total da aplicação.</li></ul>
+<p>A <a href="https://www.fgvtn.com.br/produto/corredica-fgvtn-oculta-slowmotion-et">página oficial consultada</a> ainda remete aos mesmos desenhos Set/2023 e Set/2024. A <a href="../../Ferragens/FGVTN_Oculta_ET_montagem_Set24.pdf">instrução local</a> não fornece todos os dados acima. Não houve contato externo nem compra.</p>
+<p><strong>Estado final: geometria conferida sob as hipóteses declaradas; montagem mecânica pendente.</strong></p></html>

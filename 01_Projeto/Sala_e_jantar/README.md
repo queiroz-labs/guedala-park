@@ -1,3 +1,11 @@
+# Sala e jantar — estado vigente
+
+21/10/2026. [Banco com entrada superior da folha, aplicado na R37](../Modelo_FreeCAD/01_Atual/Banco_superior_R37_2026-10-20/README.md), mantido na R41. Folha única 750 × 300 × 30 mm; mesa 1500/1800 × 750 mm; abertura central total de 300 mm. Bandeja e guias laterais removidas. Ferragem comercial da mesa, dobradiças/retenção das tampas e resistência do banco ainda não fechadas. [Pendências e critérios](../Painel_de_decisoes.md). As antigas instruções de aguardar antes de alterar o banco foram superadas pela execução autorizada na R37.
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Sala e jantar
 
 **20/10/2026 — preferência para retomar depois: guarda convencional da folha.** Elias informou que não gostou da bandeja com entrada/retirada pela lateral e quer voltar, em etapa futura, à guarda convencional abrindo o baú. Pediu expressamente **não alterar nada agora, apenas anotar**. Não executar a reversão nem redesenhar o banco por este registro. A bandeja lateral/híbrida não deve ser apresentada como solução aceita para seguir; representações existentes ficam como estudo aguardando revisão futura. Programa de guarda, organização e dimensões não foram redefinidos nesta mensagem.

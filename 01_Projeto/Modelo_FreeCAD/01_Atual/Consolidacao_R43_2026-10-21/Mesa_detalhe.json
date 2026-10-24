@@ -1,0 +1,43 @@
+{
+  "group": "Fechada_110",
+  "label": "Fechada_110",
+  "type": "App::DocumentObjectGroup",
+  "placement": "None",
+  "children": [
+    {
+      "name": "Fechada_110Tampo",
+      "label": "Berlin - superficie superior z790; espessura desconhecida",
+      "visible": true,
+      "bbox": "BoundBox (1.79769e+308, 1.79769e+308, 1.79769e+308, -1.79769e+308, -1.79769e+308, -1.79769e+308)",
+      "global": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+    },
+    {
+      "name": "Fechada_110Sapata",
+      "label": "Sapata - projecao hipotetica 330x500; orientacao por confirmar",
+      "visible": true,
+      "bbox": "BoundBox (1.79769e+308, 1.79769e+308, 1.79769e+308, -1.79769e+308, -1.79769e+308, -1.79769e+308)",
+      "global": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+    },
+    {
+      "name": "Fechada_110Ponta_sofa",
+      "label": "Ponta_sofa - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "visible": true,
+      "bbox": "BoundBox (1.79769e+308, 1.79769e+308, 1.79769e+308, -1.79769e+308, -1.79769e+308, -1.79769e+308)",
+      "global": "Placement [Pos=(655,4360,0), Yaw-Pitch-Roll=(180,0,0)]"
+    },
+    {
+      "name": "Fechada_110Ponta_cozinha",
+      "label": "Ponta_cozinha - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "visible": true,
+      "bbox": "BoundBox (1.79769e+308, 1.79769e+308, 1.79769e+308, -1.79769e+308, -1.79769e+308, -1.79769e+308)",
+      "global": "Placement [Pos=(1095,4940,0), Yaw-Pitch-Roll=(0,0,0)]"
+    },
+    {
+      "name": "Fechada_110Lateral",
+      "label": "Lateral - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "visible": true,
+      "bbox": "BoundBox (1.79769e+308, 1.79769e+308, 1.79769e+308, -1.79769e+308, -1.79769e+308, -1.79769e+308)",
+      "global": "Placement [Pos=(1015,4430,0), Yaw-Pitch-Roll=(-90,0,0)]"
+    }
+  ]
+}

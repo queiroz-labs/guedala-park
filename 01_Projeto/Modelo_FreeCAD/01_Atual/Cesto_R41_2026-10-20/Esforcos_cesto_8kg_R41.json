@@ -1,0 +1,81 @@
+{
+  "roupa_kg_requisito": 8,
+  "origem": "Pedido atual: manter saco removivel com8kg de roupa. Nao e carga admitida do conjunto atual.",
+  "densidade_frente_cenario_kg_m3": 900,
+  "eixo": "Eixo ideal atual; nao dobradica comercial",
+  "omissoes": "Armação,saco,ferragens,pega,fixacoes,acao das maos,choques,deformacao e deslocamento real da roupa nao dimensionados.",
+  "distribuicao": "Centro de massa da roupa no centro do volume de teste para o caso central; limites teoricos usam qualquer centro de massa dentro do mesmo envelope, nao previsao de distribuicao real.",
+  "sinal": "Momento sobre eixoXglobal; positivo tende a abrir no sentido modelado; negativo tende a fechar.",
+  "poses": [
+    {
+      "angulo_graus": 0,
+      "frente521_sem_roupa_Nm": 2.7778850451,
+      "frente521_roupa8_centro_Nm": -7.032114954900001,
+      "frente500_manter_base_roupa8_centro_Nm": -7.14408345,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        -14.880114954900002,
+        0.8158850451000002
+      ]
+    },
+    {
+      "angulo_graus": 15,
+      "frente521_sem_roupa_Nm": 6.107176082324604,
+      "frente521_roupa8_centro_Nm": 1.2016704248491799,
+      "frente500_manter_base_roupa8_centro_Nm": 0.8367390909063035,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        -10.441339191796622,
+        12.844680041494907
+      ]
+    },
+    {
+      "angulo_graus": 30,
+      "frente521_sem_roupa_Nm": 9.020273162124486,
+      "frente521_roupa8_centro_Nm": 9.353563950999177,
+      "frente500_manter_base_roupa8_centro_Nm": 8.76053924554406,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        -5.291003417901129,
+        23.99813131989941
+      ]
+    },
+    {
+      "angulo_graus": 45,
+      "frente521_sem_roupa_Nm": 11.318653532631787,
+      "frente521_roupa8_centro_Nm": 16.868027551383822,
+      "frente500_manter_base_roupa8_centro_Nm": 16.087323128073574,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        0.21990549512771906,
+        33.51614960763985
+      ]
+    },
+    {
+      "angulo_graus": 55,
+      "frente521_sem_roupa_Nm": 12.42998050344749,
+      "frente521_roupa8_centro_Nm": 21.267782460898736,
+      "frente500_manter_base_roupa8_centro_Nm": 20.390867522861647,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        3.908944101255713,
+        38.62662082054175
+      ]
+    },
+    {
+      "angulo_graus": 75,
+      "frente521_sem_roupa_Nm": 13.497306909462578,
+      "frente521_roupa8_centro_Nm": 28.014610317619166,
+      "frente500_manter_base_roupa8_centro_Nm": 27.027321924694967,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        10.822226682221403,
+        45.206993953017
+      ]
+    },
+    {
+      "angulo_graus": 90,
+      "frente521_sem_roupa_Nm": 13.229108288550004,
+      "frente521_roupa8_centro_Nm": 30.887108288550003,
+      "frente500_manter_base_roupa8_centro_Nm": 29.894994000000004,
+      "limites_teoricos_frente521_roupa8_dentro_envelope_Nm": [
+        15.191108288550003,
+        46.58310828855
+      ]
+    }
+  ]
+}

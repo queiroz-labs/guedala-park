@@ -1,0 +1,267 @@
+{
+  "portas": 14,
+  "ensaios_frente": [
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo": [
+        548,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 128,
+      "colisoes_bbox": 900,
+      "primeiras": [
+        {
+          "angle": 0.1,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.0593412094458472
+        },
+        {
+          "angle": 0.2,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.11868250943371095
+        },
+        {
+          "angle": 0.3,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.17802399001084268
+        },
+        {
+          "angle": 0.4,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.23736574246140663
+        },
+        {
+          "angle": 0.5,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.296707855843124
+        },
+        {
+          "angle": 0.6,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.35605042094539385
+        },
+        {
+          "angle": 0.7,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.41539352855761535
+        },
+        {
+          "angle": 0.8,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.47473726922180504
+        },
+        {
+          "angle": 0.9,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.5340817327378318
+        },
+        {
+          "angle": 1.0,
+          "obstacle": "Peca407",
+          "label": "Lateral esquerda015",
+          "volume_bbox_intersecao_mm3": 0.5934270094003296
+        }
+      ],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 135,
+      "primeira_superficie": {
+        "angle": 76.6,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 403.438351170425,
+        "largura_intersecao_mm": 0.6486147124926447
+      },
+      "varredura_x": [
+        102.0,
+        568.0997508987118
+      ],
+      "z_max": 846.4481338892439,
+      "abertura90_x": [
+        548,
+        568
+      ],
+      "abertura90_z": [
+        398,
+        846
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo": [
+        550,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 128,
+      "colisoes_bbox": 0,
+      "primeiras": [],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 138,
+      "primeira_superficie": {
+        "angle": 76.3,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 319.66368853607423,
+        "largura_intersecao_mm": 0.5139287597042994
+      },
+      "varredura_x": [
+        102.0,
+        570.0
+      ],
+      "z_max": 848.4460750288252,
+      "abertura90_x": [
+        550,
+        570
+      ],
+      "abertura90_z": [
+        400,
+        848
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo": [
+        548,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 206,
+      "colisoes_bbox": 900,
+      "primeiras": [
+        {
+          "angle": 0.1,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.05934120969322976
+        },
+        {
+          "angle": 0.2,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.11868250943371095
+        },
+        {
+          "angle": 0.3,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.1780239905056078
+        },
+        {
+          "angle": 0.4,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.23736574221402407
+        },
+        {
+          "angle": 0.5,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.296707855843124
+        },
+        {
+          "angle": 0.6,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.35605042144015897
+        },
+        {
+          "angle": 0.7,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.4153935288049979
+        },
+        {
+          "angle": 0.8,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.4747372694691876
+        },
+        {
+          "angle": 0.9,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.5340817329852143
+        },
+        {
+          "angle": 1.0,
+          "obstacle": "Peca406AtualR31",
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "volume_bbox_intersecao_mm3": 0.5934270096477121
+        }
+      ],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 135,
+      "primeira_superficie": {
+        "angle": 76.6,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 308.74060314649887,
+        "largura_intersecao_mm": 0.6486147124926447
+      },
+      "varredura_x": [
+        102.0,
+        568.0997508987118
+      ],
+      "z_max": 846.4481338892439,
+      "abertura90_x": [
+        548,
+        568
+      ],
+      "abertura90_z": [
+        398,
+        846
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo": [
+        550,
+        400
+      ],
+      "poses": 901,
+      "obstaculos_bbox": 206,
+      "colisoes_bbox": 0,
+      "primeiras": [],
+      "superficies_fisicas_testadas": [
+        "Fechada_110Tampo"
+      ],
+      "colisoes_superficie": 138,
+      "primeira_superficie": {
+        "angle": 76.3,
+        "obstacle": "Fechada_110Tampo",
+        "area_intersecao_mm2": 244.63008961924652,
+        "largura_intersecao_mm": 0.5139287597042994
+      },
+      "varredura_x": [
+        102.0,
+        570.0
+      ],
+      "z_max": 848.4460750288252,
+      "abertura90_x": [
+        550,
+        570
+      ],
+      "abertura90_z": [
+        400,
+        848
+      ],
+      "natureza": "Triagem por retângulo da tampa contra AABB global e superfície física da Berlin. Não CAD Rockler. Não inclui usuário/ferragem/tolerância."
+    }
+  ]
+}

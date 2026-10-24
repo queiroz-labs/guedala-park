@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Fechada_110Tampo",
+    "null": false,
+    "suppressed": false,
+    "visible": true,
+    "bbox": "BoundBox (475, 4100, 790, 1275, 5200, 790)",
+    "display": "Flat Lines",
+    "transparency": 0
+  },
+  {
+    "name": "Fechada_110Sapata",
+    "null": false,
+    "suppressed": false,
+    "visible": true,
+    "bbox": "BoundBox (710, 4400, 1, 1040, 4900, 1)",
+    "display": "Flat Lines",
+    "transparency": 0
+  },
+  {
+    "name": "Fechada_110Ponta_sofa",
+    "null": false,
+    "suppressed": false,
+    "visible": true,
+    "bbox": "BoundBox (655, 3890, 0, 1095, 4360, 940)",
+    "display": "Flat Lines",
+    "transparency": 0
+  },
+  {
+    "name": "Fechada_110Ponta_cozinha",
+    "null": false,
+    "suppressed": false,
+    "visible": true,
+    "bbox": "BoundBox (655, 4940, 0, 1095, 5410, 940)",
+    "display": "Flat Lines",
+    "transparency": 0
+  },
+  {
+    "name": "Fechada_110Lateral",
+    "null": false,
+    "suppressed": false,
+    "visible": true,
+    "bbox": "BoundBox (1015, 4430, 0, 1485, 4870, 940)",
+    "display": "Flat Lines",
+    "transparency": 0
+  }
+]

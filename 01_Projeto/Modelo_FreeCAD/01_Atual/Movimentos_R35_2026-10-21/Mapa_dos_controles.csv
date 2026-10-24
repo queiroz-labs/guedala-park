@@ -1,0 +1,66 @@
+﻿Controle;Nome;Campo;Valores testados;Peças movimentadas no último teste;Resultado
+Gaveta;Gaveta de roupa;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta001;Gaveta de roupa001;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta002;Gaveta de roupa002;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta003;Gaveta de roupa003;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta004;G3 · mantimentos;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta005;G2 · utensílios;Extensao;125.0, 250.0, 500.0;27;Respondeu e retornou
+Gaveta006;G1 · talheres;Extensao;125.0, 250.0, 500.0;8;Respondeu e retornou
+Gaveta007;Gaveta baixa — rodas de silicone / cabos fixos;Extensao;100.0, 200.0, 400.0;40;Respondeu e retornou
+Gaveta008;Gaveta escritório 1;Extensao;100.0, 200.0, 400.0;8;Respondeu e retornou
+Gaveta009;Gaveta escritório 2;Extensao;100.0, 200.0, 400.0;8;Respondeu e retornou
+ControlePortaR10;Gabinete da pia - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR001;Gabinete da pia - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR002;D · acima do depurador - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR003;D · acima do depurador - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR004;C · uso diário - porta direita;Abertura;21.5, 43.0, 86.0;10;Respondeu e retornou
+ControlePortaR005;C · uso diário - porta esquerda;Abertura;21.5, 43.0, 86.0;10;Respondeu e retornou
+ControlePortaR006;B · acima do micro - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR007;B · acima do micro - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR008;A · acima da geladeira - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR009;A · acima da geladeira - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR010;Aéreo da lavanderia - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR011;Aéreo da lavanderia - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR11;Escritório porta 4 - abrir para direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR012;Escritório porta 3 - abrir para esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR013;Escritório porta 2 - abrir para direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR014;Escritório porta 1 - abrir para esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR015;Cabeceira porta 4 - abrir para direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR016;Cabeceira porta 3 - abrir para esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR017;Cabeceira porta 2 - abrir para direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR12;Gabinete do banheiro - porta direita;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR018;Gabinete do banheiro - porta esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControlePortaR019;Armário espelhado raso - porta direita;Abertura;21.5, 43.0, 86.0;11;Respondeu e retornou
+ControlePortaR020;Armário espelhado raso - porta esquerda;Abertura;21.5, 43.0, 86.0;11;Respondeu e retornou
+ControleCorrerR14;Roupeiro — porta direita — deslizar para esquerda;Deslocamento;241.25, 482.5, 965.0;15;Respondeu e retornou
+ControleCorrerR001;Roupeiro — porta esquerda — deslizar para direita;Deslocamento;241.25, 482.5, 965.0;15;Respondeu e retornou
+ControleCorrerR002;Maleiro — porta direita — deslizar para esquerda;Deslocamento;160.0, 320.0, 640.0;15;Respondeu e retornou
+ControleCorrerR003;Maleiro — porta esquerda — deslizar para direita;Deslocamento;160.0, 320.0, 640.0;15;Respondeu e retornou
+ControleCestoR15;Cesto R15 - Abertura55 e RetiradaSaco;Abertura;13.75, 27.5, 55;17;Respondeu e retornou
+ControleCestoR15;Cesto R15 - Abertura55 e RetiradaSaco;RetiradaSaco;111.25, 222.5, 445;1;Respondeu e retornou
+ControleCestoR15;Cesto R15 - Abertura55 e RetiradaSaco;EndireitarSaco;13.75, 27.5, 55;1;Respondeu e retornou
+ControleCestoR15;Cesto R15 - Abertura55 e RetiradaSaco;RetiradaConjunto;100.0, 200.0, 400;17;Respondeu e retornou
+ControleCestoR15;Cesto R15 - Abertura55 e RetiradaSaco;RetiradaPainelSuperior;50.0, 100.0, 200;1;Respondeu e retornou
+ControleBancoR16;1 - Potes/travessas/batedeira;Abertura;22.5, 45.0, 90;2;Respondeu e retornou
+ControleBancoR001;2 - Liquidificador e bebidas;Abertura;22.5, 45.0, 90;1;Respondeu e retornou
+ControleBancoR001;2 - Liquidificador e bebidas;ElevarAlmofada;15.0, 30.0, 60;1;Respondeu e retornou
+ControleBancoR001;2 - Liquidificador e bebidas;DeslocamentoAlmofada;177.75, 355.5, 711;1;Respondeu e retornou
+ControleBancoR002;3 - Balde;Abertura;22.5, 45.0, 90;1;Respondeu e retornou
+ControleBancoR002;3 - Balde;ElevarAlmofada;15.0, 30.0, 60;1;Respondeu e retornou
+ControleBancoR002;3 - Balde;DeslocamentoAlmofada;183.25, 366.5, 733;1;Respondeu e retornou
+ControleBancoR003;4 - Folha/aspirador/jogos;Abertura;22.5, 45.0, 90;1;Respondeu e retornou
+ControleBancoR003;4 - Folha/aspirador/jogos;ElevarAlmofada;15.0, 30.0, 60;1;Respondeu e retornou
+ControleBancoR003;4 - Folha/aspirador/jogos;DeslocamentoAlmofada;218.25, 436.5, 873;1;Respondeu e retornou
+ControleVizinhaR18;Cabeceira porta 1 - abrir para esquerda;Abertura;21.5, 43.0, 86.0;7;Respondeu e retornou
+ControleLoopManutencaoR26;Loop 20 L — afastamento temporário para manutenção (proposta);Afastamento;162.5, 325.0, 650;3;Respondeu e retornou
+AcessoFolhaR31;Banco · bandeja pela ponta / folha · movimentos de estudo;ExtracaoBandeja;180.75, 361.5, 723;5;Respondeu e retornou
+AcessoFolhaR31;Banco · bandeja pela ponta / folha · movimentos de estudo;DeslizamentoFolha;30.0, 60.0, 120;1;Respondeu e retornou
+AcessoFolhaR31;Banco · bandeja pela ponta / folha · movimentos de estudo;ElevacaoFolha;25.0, 50.0, 100;1;Respondeu e retornou
+PortaEntradaBanheiroR12;Entrada banheiro - folha700 de referência, NÃO medida;Abertura;67.5, 45.0, 0;1;Respondeu e retornou
+ControleCantoR35;Canto - abrir portas A e B;AberturaA;21.5, 43.0, 86;7;Respondeu e retornou
+ControleCantoR35;Canto - abrir portas A e B;AberturaB;21.5, 43.0, 86;7;Respondeu e retornou
+ControleMesaR35;Mesa - abrir o tampo 150 / 180 cm;VaoCentral;75, 150, 300;3;Respondeu e retornou
+ControleGrelhaInferiorR35;Manutenção - retirar grelha inferior;Extracao;25, 50, 100;1;Respondeu e retornou
+ControleGrelhaSuperiorR35;Manutenção - retirar grelha superior;Extracao;25, 50, 100;1;Respondeu e retornou
+ControleFornoR35;Manutenção - extrair conjunto do forno;Extracao;150, 300, 600;2;Respondeu e retornou
+ControleVaralR35;Varal - descida vertical de estudo;Descida;135, 270, 860;1;Respondeu e retornou

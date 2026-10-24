@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Peca075",
+    "label": "door002",
+    "parent": "<Part object>",
+    "placement": "Placement [Pos=(2840,4050,0), Yaw-Pitch-Roll=(0,0,0)]",
+    "properties": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "0.0 mm",
+      "LocalY": "0.0 mm",
+      "LocalZ": "0.0 mm"
+    }
+  },
+  {
+    "name": "FrenteComumR018",
+    "label": "Gabinete do banheiro - porta esquerda — frente com canecos",
+    "parent": "<Part object>",
+    "placement": "Placement [Pos=(2762,4870,201), Yaw-Pitch-Roll=(0,0,0)]",
+    "properties": {}
+  },
+  {
+    "name": "Peca051",
+    "label": "Parede · Banheiro003",
+    "parent": "None",
+    "placement": "Placement [Pos=(2660,3950,0), Yaw-Pitch-Roll=(-0,0,0)]",
+    "properties": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "4640.0 mm",
+      "LocalY": "3950.0 mm",
+      "LocalZ": "0.0 mm"
+    }
+  },
+  {
+    "name": "Peca052",
+    "label": "Parede em corte · Banheiro003",
+    "parent": "None",
+    "placement": "Placement [Pos=(2660,3950,0), Yaw-Pitch-Roll=(-0,0,0)]",
+    "properties": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "4640.0 mm",
+      "LocalY": "3950.0 mm",
+      "LocalZ": "0.0 mm"
+    }
+  },
+  {
+    "name": "Peca350",
+    "label": "Prateleira de apoio · topo 1550",
+    "parent": "<Part object>",
+    "placement": "Placement [Pos=(1651,6530,1532), Yaw-Pitch-Roll=(0,0,0)]",
+    "properties": {
+      "GiroLocal": "0.0 deg",
+      "LocalX": "0.0 mm",
+      "LocalY": "0.0 mm",
+      "LocalZ": "0.0 mm"
+    }
+  }
+]

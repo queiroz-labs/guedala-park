@@ -1,0 +1,319 @@
+{
+  "fonte": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Consolidacao_R42_2026-10-22\\Guedala_Park_R42_Consolidado.FCStd",
+  "sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "metodo": "FreeCAD1.1.4: shapes em coordenadas globais; leitura sem saveDocument. Obstaculos externos selecionados apos varredura de todas shapes na faixa X1485..3600/Y3800..5500/Z0..2100; eixos/planos infinitos nao sao obstaculos fisicos. Folgas sao envelopes de projeto, nao largura ergonomica certificada.",
+  "limites": "Parede x2660 em Y3950..5390. Lixeira corpo x2320 em Y5080..5290; pedal x2300 em Y5140..5230 e Z10..30. Trecho antes de Y3950 e depois5390 abre para outros setores: nao impor parede ficticia. Faixa lateral completa considera toda extensao da mesa; nao inclui trajeto de entrada inteiro do apartamento.",
+  "premissas": {
+    "insercao_cadeira_cm": 26,
+    "projecao_externa_cm": 21,
+    "puxar": "Laterais deslocam +X; pontas deslocam para fora em Y. Cenários hipotéticos, sem corpos/pessoas.",
+    "IB6": "Aparelhos_compatibilizacao_R03_2026-09-27.md secao4: corpo e reservas documentados; giro nao validado. Nao encontrado eixo/espessura/angulo util de porta validado nos documentos consultados; nao inventada trajetoria."
+  },
+  "obstaculos": [
+    {
+      "name": "Peca049",
+      "label": "Parede · Banheiro002",
+      "bbox": [
+        2660.0,
+        5290.0,
+        0.0,
+        4850.0,
+        5390.0,
+        2470.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "ParedesInteiras",
+          "Paredes inteiras · alturas de cenário",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Peca051",
+      "label": "Parede · Banheiro003",
+      "bbox": [
+        2660.0,
+        3950.0,
+        0.0,
+        2760.0,
+        5290.0,
+        2470.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "ParedesInteiras",
+          "Paredes inteiras · alturas de cenário",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Peca055",
+      "label": "Parede · Banheiro005",
+      "bbox": [
+        2660.0,
+        3950.0,
+        0.0,
+        2850.0,
+        4050.0,
+        2470.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "ParedesInteiras",
+          "Paredes inteiras · alturas de cenário",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Peca144",
+      "label": "Lixeira comum Biovis Coleta 15 L",
+      "bbox": [
+        2320.0,
+        5080.0,
+        0.0,
+        2660.0,
+        5290.0,
+        450.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "Ambiente_cozinha",
+          "Cozinha",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Peca145",
+      "label": "Lixeira comum Biovis Coleta 15 L001",
+      "bbox": [
+        2320.0,
+        5080.0,
+        450.0,
+        2660.0,
+        5290.0,
+        470.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "Ambiente_cozinha",
+          "Cozinha",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Peca146",
+      "label": "Lixeira comum Biovis Coleta 15 L002",
+      "bbox": [
+        2300.0,
+        5140.0,
+        10.0,
+        2350.0,
+        5230.0,
+        30.0
+      ],
+      "visible": true,
+      "parents": [
+        [
+          "Ambiente_cozinha",
+          "Cozinha",
+          true
+        ]
+      ]
+    }
+  ],
+  "cenarios_por_cadeira": [
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_sofa",
+      "puxar_cm": 0.0,
+      "limite": "sofa",
+      "folga_cm": 24.0,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_cozinha",
+      "puxar_cm": 0.0,
+      "limite": "IB6 fechada",
+      "folga_cm": 74.25,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Lateral",
+      "puxar_cm": 0.0,
+      "limite": "Peca051",
+      "folga_cm": 117.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_sofa",
+      "puxar_cm": 20.0,
+      "limite": "sofa",
+      "folga_cm": 4.0,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_cozinha",
+      "puxar_cm": 20.0,
+      "limite": "IB6 fechada",
+      "folga_cm": 54.25,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Lateral",
+      "puxar_cm": 20.0,
+      "limite": "Peca051",
+      "folga_cm": 97.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_sofa",
+      "puxar_cm": 30.0,
+      "limite": "sofa",
+      "folga_cm": -6.0,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Ponta_cozinha",
+      "puxar_cm": 30.0,
+      "limite": "IB6 fechada",
+      "folga_cm": 44.25,
+      "tipo": "folga longitudinal; negativa e sobreposicao"
+    },
+    {
+      "cenario": "Fechada",
+      "cadeira": "Lateral",
+      "puxar_cm": 30.0,
+      "limite": "Peca051",
+      "folga_cm": 87.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_sofa",
+      "puxar_cm": 0.0,
+      "limite": "Peca051",
+      "folga_cm": 117.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_centro",
+      "puxar_cm": 0.0,
+      "limite": "Peca051",
+      "folga_cm": 117.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_cozinha",
+      "puxar_cm": 0.0,
+      "limite": "Peca146",
+      "folga_cm": 81.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_sofa",
+      "puxar_cm": 20.0,
+      "limite": "Peca051",
+      "folga_cm": 97.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_centro",
+      "puxar_cm": 20.0,
+      "limite": "Peca051",
+      "folga_cm": 97.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_cozinha",
+      "puxar_cm": 20.0,
+      "limite": "Peca146",
+      "folga_cm": 61.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_sofa",
+      "puxar_cm": 30.0,
+      "limite": "Peca051",
+      "folga_cm": 87.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_centro",
+      "puxar_cm": 30.0,
+      "limite": "Peca051",
+      "folga_cm": 87.5,
+      "tipo": "faixa lateral entre envelopes"
+    },
+    {
+      "cenario": "Aberta",
+      "cadeira": "Lateral_cozinha",
+      "puxar_cm": 30.0,
+      "limite": "Peca146",
+      "folga_cm": 51.5,
+      "tipo": "faixa lateral entre envelopes"
+    }
+  ],
+  "gargalo_lateral_por_cenario": [
+    {
+      "cenario": "Fechada",
+      "puxar_cm": 0,
+      "min_faixa_lateral_cm": 102.5
+    },
+    {
+      "cenario": "Fechada",
+      "puxar_cm": 20,
+      "min_faixa_lateral_cm": 97.5
+    },
+    {
+      "cenario": "Fechada",
+      "puxar_cm": 30,
+      "min_faixa_lateral_cm": 87.5
+    },
+    {
+      "cenario": "Aberta",
+      "puxar_cm": 0,
+      "min_faixa_lateral_cm": 81.5
+    },
+    {
+      "cenario": "Aberta",
+      "puxar_cm": 20,
+      "min_faixa_lateral_cm": 61.5
+    },
+    {
+      "cenario": "Aberta",
+      "puxar_cm": 30,
+      "min_faixa_lateral_cm": 51.5
+    }
+  ],
+  "observacoes": [
+    "Aberta: corpo da lixeira deixa83.5cm; pedal81.5cm. Separar saliencia baixa do espaco para tronco.",
+    "Fechada: tampo x1275 deixa102.5cm ate pedal em Y5140..5200; cadeira lateral terminaY4870 e nao cruza lixeira.",
+    "Aberta: faixa limitada pela lixeira afeta a terceira cadeira.",
+    "Puxar ponta sofa30cm na mesa fechada produz sobreposicao nominal6cm; +20cm deixa4cm. Nenhuma colisao com parede/lixeira nos tres deslocamentos laterais.",
+    "A caixa do pedal foi verificada geometricamente mas dimensoes comerciais/movimento da lixeira nao validados."
+  ]
+}

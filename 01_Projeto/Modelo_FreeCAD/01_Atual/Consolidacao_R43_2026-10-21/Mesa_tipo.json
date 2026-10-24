@@ -1,0 +1,110 @@
+[
+  {
+    "doc": "Guedala_Park_R42_Consolidado",
+    "name": "Fechada_110Tampo",
+    "type": "PartDesign::Feature",
+    "props": [
+      "BaseFeature",
+      "ExpressionEngine",
+      "Label",
+      "Label2",
+      "Placement",
+      "PreviewShape",
+      "Shape",
+      "ShapeMaterial",
+      "StatusEstudo",
+      "Suppressed",
+      "SuppressedShape",
+      "Visibility",
+      "_Body",
+      "_ElementMapVersion"
+    ],
+    "shape_null": true,
+    "state": [
+      "Up-to-date"
+    ],
+    "children": [],
+    "outlist": []
+  },
+  {
+    "doc": "Guedala_Park_R42_Consolidado",
+    "name": "Fechada_110Ponta_sofa",
+    "type": "PartDesign::Feature",
+    "props": [
+      "BaseFeature",
+      "ExpressionEngine",
+      "Label",
+      "Label2",
+      "Placement",
+      "PreviewShape",
+      "Shape",
+      "ShapeMaterial",
+      "StatusEstudo",
+      "Suppressed",
+      "SuppressedShape",
+      "Visibility",
+      "_Body",
+      "_ElementMapVersion"
+    ],
+    "shape_null": true,
+    "state": [
+      "Up-to-date"
+    ],
+    "children": [],
+    "outlist": []
+  },
+  {
+    "doc": "Guedala_Park_R43_Consolidado",
+    "name": "Fechada_110Tampo",
+    "type": "PartDesign::Feature",
+    "props": [
+      "BaseFeature",
+      "ExpressionEngine",
+      "Label",
+      "Label2",
+      "Placement",
+      "PreviewShape",
+      "Shape",
+      "ShapeMaterial",
+      "StatusEstudo",
+      "Suppressed",
+      "SuppressedShape",
+      "Visibility",
+      "_Body",
+      "_ElementMapVersion"
+    ],
+    "shape_null": true,
+    "state": [
+      "Up-to-date"
+    ],
+    "children": [],
+    "outlist": []
+  },
+  {
+    "doc": "Guedala_Park_R43_Consolidado",
+    "name": "Fechada_110Ponta_sofa",
+    "type": "PartDesign::Feature",
+    "props": [
+      "BaseFeature",
+      "ExpressionEngine",
+      "Label",
+      "Label2",
+      "Placement",
+      "PreviewShape",
+      "Shape",
+      "ShapeMaterial",
+      "StatusEstudo",
+      "Suppressed",
+      "SuppressedShape",
+      "Visibility",
+      "_Body",
+      "_ElementMapVersion"
+    ],
+    "shape_null": true,
+    "state": [
+      "Up-to-date"
+    ],
+    "children": [],
+    "outlist": []
+  }
+]

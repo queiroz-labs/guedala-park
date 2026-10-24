@@ -1,0 +1,17 @@
+{
+  "bank_open_dimensions_mm": [
+    [
+      20.0000000000001,
+      971.0,
+      448.0
+    ],
+    [
+      20.0000000000001,
+      825.0,
+      448.0
+    ]
+  ],
+  "new_living_vs_bathroom_bbox_hits": [],
+  "r43_sha256": "ff9352b6c137e344525a68e65fe22290e3fa28d33cadd88235cfa24358a80449",
+  "r42_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26"
+}

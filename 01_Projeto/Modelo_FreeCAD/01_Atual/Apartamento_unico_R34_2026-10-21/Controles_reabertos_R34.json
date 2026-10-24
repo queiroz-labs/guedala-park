@@ -1,0 +1,1267 @@
+{
+  "tests": [
+    {
+      "name": "Gaveta",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "Gaveta001",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "Gaveta002",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "Gaveta003",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 0
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "Gaveta004",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        }
+      ]
+    },
+    {
+      "name": "Gaveta005",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 27,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 250.0,
+          "moved": 27,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 500.0,
+          "moved": 27,
+          "max_error_mm": 4.547473508864641e-13
+        }
+      ]
+    },
+    {
+      "name": "Gaveta006",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 125.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 250.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 500.0,
+          "moved": 8,
+          "max_error_mm": 4.547473508864641e-13
+        }
+      ]
+    },
+    {
+      "name": "Gaveta007",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 100.0,
+          "moved": 40,
+          "max_error_mm": 0
+        },
+        {
+          "value": 200.0,
+          "moved": 40,
+          "max_error_mm": 0
+        },
+        {
+          "value": 400.0,
+          "moved": 40,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "Gaveta008",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 100.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 200.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 400.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "Gaveta009",
+      "property": "Extensao",
+      "samples": [
+        {
+          "value": 100.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 200.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 400.0,
+          "moved": 8,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR10",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 1.0000002248489182e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 9.999999406318238e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 1.0000002248489182e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR001",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 9.999996564147295e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 9.999999406318238e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 9.999996564147295e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR002",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 4.547473508864641e-13
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR003",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR004",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 10,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 10,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 86.0,
+          "moved": 10,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR005",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 10,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 43.0,
+          "moved": 10,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 10,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR006",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR007",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR008",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR009",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 1.1368683772161603e-12
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR010",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR011",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 7,
+          "max_error_mm": 9.094947017729282e-13
+        },
+        {
+          "value": 43.0,
+          "moved": 7,
+          "max_error_mm": 0
+        },
+        {
+          "value": 86.0,
+          "moved": 7,
+          "max_error_mm": 0
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR11",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR012",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR013",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 1.0000007932831068e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 1.0000007932831068e-07
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR014",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR015",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR016",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR017",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 15,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR12",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 1.0000002248489182e-07
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR018",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 9.999996564147295e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999999406318238e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 9.999996564147295e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR019",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControlePortaR020",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCorrerR14",
+      "property": "Deslocamento",
+      "samples": [
+        {
+          "value": 241.25,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 482.5,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 965.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCorrerR001",
+      "property": "Deslocamento",
+      "samples": [
+        {
+          "value": 241.25,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 482.5,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 965.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCorrerR002",
+      "property": "Deslocamento",
+      "samples": [
+        {
+          "value": 160.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 320.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 640.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCorrerR003",
+      "property": "Deslocamento",
+      "samples": [
+        {
+          "value": 160.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 320.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 640.0,
+          "moved": 27,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCestoR15",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 13.75,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 27.5,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 55,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCestoR15",
+      "property": "RetiradaSaco",
+      "samples": [
+        {
+          "value": 111.25,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 222.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 445,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCestoR15",
+      "property": "EndireitarSaco",
+      "samples": [
+        {
+          "value": 13.75,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 27.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 55,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCestoR15",
+      "property": "RetiradaConjunto",
+      "samples": [
+        {
+          "value": 100.0,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 200.0,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 400,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleCestoR15",
+      "property": "RetiradaPainelSuperior",
+      "samples": [
+        {
+          "value": 50.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 100.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 200,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR16",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 22.5,
+          "moved": 14,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 45.0,
+          "moved": 14,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 90,
+          "moved": 14,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR001",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 22.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 45.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 90,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR001",
+      "property": "ElevarAlmofada",
+      "samples": [
+        {
+          "value": 15.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 30.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 60,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR001",
+      "property": "DeslocamentoAlmofada",
+      "samples": [
+        {
+          "value": 177.75,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 355.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 711,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR002",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 22.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 45.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 90,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR002",
+      "property": "ElevarAlmofada",
+      "samples": [
+        {
+          "value": 15.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 30.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 60,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR002",
+      "property": "DeslocamentoAlmofada",
+      "samples": [
+        {
+          "value": 183.25,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 366.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 733,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR003",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 22.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 45.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 90,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR003",
+      "property": "ElevarAlmofada",
+      "samples": [
+        {
+          "value": 15.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 30.0,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 60,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleBancoR003",
+      "property": "DeslocamentoAlmofada",
+      "samples": [
+        {
+          "value": 218.25,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 436.5,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 873,
+          "moved": 13,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleVizinhaR18",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleLoopManutencaoR26",
+      "property": "Afastamento",
+      "samples": [
+        {
+          "value": 162.5,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 325.0,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 650,
+          "moved": 19,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "AcessoFolhaR31",
+      "property": "ExtracaoBandeja",
+      "samples": [
+        {
+          "value": 180.75,
+          "moved": 21,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 361.5,
+          "moved": 21,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 723,
+          "moved": 21,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "AcessoFolhaR31",
+      "property": "DeslizamentoFolha",
+      "samples": [
+        {
+          "value": 30.0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 60.0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 120,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "AcessoFolhaR31",
+      "property": "ElevacaoFolha",
+      "samples": [
+        {
+          "value": 25.0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 50.0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 100,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "PortaEntradaBanheiroR12",
+      "property": "Abertura",
+      "samples": [
+        {
+          "value": 67.5,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 45.0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 0,
+          "moved": 17,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleSimplesR04",
+      "property": "B2",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86,
+          "moved": 29,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    },
+    {
+      "name": "ControleSimplesR04",
+      "property": "B3",
+      "samples": [
+        {
+          "value": 21.5,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 43.0,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        },
+        {
+          "value": 86,
+          "moved": 23,
+          "max_error_mm": 9.999985195463523e-08
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Compare original R33 reflected in X=3700 with native R34 at 25%, 50%, 100% of individual control travel. Not a collision or physical hardware certification.",
+  "restored": true
+}

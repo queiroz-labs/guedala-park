@@ -1,0 +1,42 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gavetas do escritório — montagem vertical R01</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:1050px;margin:35px auto;padding:0 22px;color:#243c36;background:#f8f7f3}h1,h2{line-height:1.2}h2{margin-top:38px}table{border-collapse:collapse;width:100%;background:white}td,th{padding:12px;border-bottom:1px solid #ddd;text-align:left}th{background:#e6ece8}img{max-width:100%}a{color:#19694f}.note{padding:20px;background:#fff0d4}small{color:#53615b}svg{width:100%;height:auto}</style>
+<h1>R01 superada após auditoria do conteúdo em movimento</h1>
+<div class="note"><strong>Não usar esta proposta como concluída.</strong> A conferência ampliada encontrou interferência de 0,4 mm entre o conteúdo de referência da gaveta inferior e a frente superior durante a retirada. A solução foi corrigida no <a href="../Montagem_vertical_R02/Conferencia.html">estudo R02 e relatório de auditoria</a>. Os resultados abaixo são o histórico dos ensaios limitados da R01.</div>
+<p>Estudo separado da R42, desenvolvido em 21/10/2026, São Paulo. A solução geométrica baixa as duas caixas internas e a base do módulo em 3 mm, mantendo as frentes na posição original. Incorpora a proposta anterior de ampliar a traseira em 20 mm. <strong>O encaixe da madeira foi conferido; a montagem física FGVTN ainda depende de perfil, engates, recortes e fixações.</strong></p>
+<p><a href="Escritorio_montagem_vertical_R01_ESTUDO.FCStd">Abrir estudo no FreeCAD</a> · <a href="Verificacao.json">Verificações numéricas</a> · <a href="Reabertura.json">Conferência após reabrir</a></p>
+<img src="Montagem_aberta.png" alt="Modelo de madeira do gaveteiro com as duas gavetas abertas; ferragens não representadas">
+<p><small>Vista de estudo com gaveta inferior a 200 mm e superior a 375 mm de abertura. As guias e os engates reais não estão representados; a imagem não demonstra sustentação da gaveta.</small></p>
+<h2>O que mudou</h2>
+<table><tr><th>Item</th><th>Referência R42</th><th>Proposta</th></tr>
+<tr><td>Carcaça: largura × profundidade × altura</td><td>400 × 450 × 240 mm</td><td>400 × 470 × 243 mm</td></tr>
+<tr><td>Posição das frentes e junta entre elas</td><td>Junta de 2 mm</td><td>Preservadas, sem deslocar as frentes</td></tr>
+<tr><td>Base de madeira, espessura</td><td>Z480–498; 18 mm</td><td>Z477–495; 18 mm</td></tr>
+<tr><td>Caixas internas</td><td>Posição original</td><td>Ambas 3 mm mais baixas, preservando a distância entre elas</td></tr>
+<tr><td>Folga da lateral superior até o tampo</td><td>1 mm</td><td>4 mm; após subida de 3 mm da caixa, 1 mm residual</td></tr>
+<tr><td>Profundidade livre da carcaça</td><td>412 mm</td><td>432 mm; 12 mm acima do mínimo de 420 mm documentado</td></tr>
+<tr><td>Caixa: largura × profundidade externas</td><td>352 × 390 mm</td><td>353 × 400 mm</td></tr>
+<tr><td>Base interna livre de cada caixa</td><td>322 × 359 mm</td><td>323 × 369 mm</td></tr>
+<tr><td>Laterais / fundo / altura de parede acima do fundo</td><td>15 / 15 / 53 mm</td><td>15 / 15 / 53 mm, preservados</td></tr></table>
+<p>A base desce 3 mm para não consumir a margem inferior ao baixar as caixas. As laterais e o fundo da carcaça acompanham esse aumento. O topo e a frente do módulo permanecem no lugar. A faixa de carcaça abaixo da frente inferior passa de 1 para 4 mm: há uma pequena alteração externa visível, além dos 20 mm acrescentados atrás. Não houve interseção do volume acrescentado com os sólidos do apartamento examinados; isso não mede conforto para pernas ou condições reais da unidade.</p>
+<h2>Armazenamento: comparação explícita</h2>
+<p>A base interna cresce aproximadamente 3,1%, sem reduzir a altura das paredes das caixas. Além disso, foram testados prismas com as alturas úteis de referência declaradas na R42: 60,4 mm na inferior e 54 mm na superior.</p>
+<table><tr><th>Gaveta</th><th>Prisma de referência anterior</th><th>Prisma proposto</th></tr>
+<tr><td>Inferior</td><td>322 × 359 × 60,4 mm = 6,982 L</td><td>323 × 369 × 60,4 mm = 7,199 L</td></tr>
+<tr><td>Superior</td><td>322 × 359 × 54 mm = 6,242 L</td><td>323 × 369 × 54 mm = 6,436 L</td></tr></table>
+<p>Os dois prismas ficaram livres da madeira modelada. São volumes geométricos de comparação, não capacidades comerciais certificadas. As alturas acima de 53 mm excedem a parede da caixa e dependem também do espaço sobre ela. A ausência de perfil e engates oficiais impede declarar a montagem completa validada.</p>
+<h2>Verificações realizadas</h2>
+<ul><li>136 pares de peças de madeira: nenhuma interseção volumétrica.</li>
+<li>1.694 comparações de movimento: cada gaveta contra a carcaça e a outra gaveta fechada, de 0 a 375 mm em passos de 5 mm e no extremo 378 mm. Nenhuma interseção. É ensaio amostrado, não prova contínua nem teste de cargas.</li>
+<li>3.416 comparações de volumes acrescentados à carcaça com sólidos do apartamento completo: nenhuma interseção. Não é teste do percurso externo das gavetas contra pessoas, cadeira ou sofá.</li>
+<li>Arquivo salvo e reaberto: 46 objetos, nenhuma forma inválida; controles de extensão chegaram a 375 mm e voltaram a zero.</li>
+<li>SHA-256 da R42 inalterado: <code>b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26</code>.</li></ul>
+<h2>O que falta para fechar a montagem FGVTN</h2>
+<div class="note"><strong>Esta etapa resolve a disposição da madeira sem reduzir os prismas de armazenamento. Não libera a montagem física.</strong>
+<ol><li>Confirmar o corte do perfil e dos engates convencionais para o código 54FGOC12400TSX0. O plano inferior de guia Z499/Z603 foi inferido das cotas 12/27 do desenho; a margem de 4 mm à base não substitui a geometria real.</li>
+<li>Confirmar recortes traseiros, furos, parafusos, tolerâncias e compatibilidade do fundo de 15 mm. Os rasgos de 5 mm nos lados modelados são hipótese de encaixe da madeira, sem dimensionamento de resistência. Nenhum furo executivo foi inventado.</li>
+<li>Definir a fixação da frente independente da caixa para compensar os 3 mm de reposicionamento. A junta de 2 mm não permite aplicar livremente +3 mm numa frente e deixar a outra imóvel: alinhamento final precisa ser coordenado. O teste de armazenamento refere-se à posição nominal.</li>
+<li>Conferir acesso ao destrave e à parte posterior: curso FGVTN 375 ±3 mm, menor que os 400 mm usados na referência anterior. Preservar volume guardado não garante o mesmo acesso.</li></ol></div>
+<p>A <a href="https://www.fgvtn.com.br/produto/corredica-fgvtn-oculta-slowmotion-et">página oficial FGVTN</a>, relida nesta etapa, continua vinculando a ficha Set/2023 e a instrução Set/2024. <a href="../../Ferragens/FGVTN_Oculta_ET_montagem_Set24.pdf">Cópia local da instrução</a>. Não se adotou o gatilho 3D de outra página como se fosse o engate convencional do kit.</p>
+<h2>Como consultar o modelo</h2><p>O grupo de referência R42 fica oculto. As duas peças “Inferior” e “Superior” têm a propriedade <code>Extensao</code>, em milímetros; usar de 0 a 375. “Volumes_uteis_comparacao” contém os prismas de referência, ocultos para não confundir com madeira. O estudo permanece separado do apartamento consolidado.</p>
+</html>

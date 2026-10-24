@@ -1,0 +1,487 @@
+{
+  "original_brep_count": 1429,
+  "changed_or_missing_brep": [
+    "GavetaComumR008.Shape.brp",
+    "GavetaComumR010.Shape.brp",
+    "GavetaComumR020.Shape.brp",
+    "GavetaComumR022.Shape.brp",
+    "GavetaComumR032.Shape.brp",
+    "GavetaComumR034.Shape.brp",
+    "GavetaComumR044.Shape.brp",
+    "GavetaComumR046.Shape.brp",
+    "GavetaComumR056.Shape.brp",
+    "GavetaComumR058.Shape.brp",
+    "GavetaComumR068.Shape.brp",
+    "GavetaComumR070.Shape.brp",
+    "GavetaComumR080.Shape.brp",
+    "GavetaComumR082.Shape.brp",
+    "GavetaComumR092.Shape.brp",
+    "GavetaComumR094.Shape.brp",
+    "FerragemComumR001.Shape.brp",
+    "FerragemComumR006.Shape.brp",
+    "FerragemComumR011.Shape.brp",
+    "FerragemComumR016.Shape.brp",
+    "FerragemComumR021.Shape.brp",
+    "FerragemComumR026.Shape.brp",
+    "FerragemComumR031.Shape.brp",
+    "FerragemComumR036.Shape.brp",
+    "FerragemComumR041.Shape.brp",
+    "FerragemComumR046.Shape.brp",
+    "FerragemComumR051.Shape.brp",
+    "FerragemComumR056.Shape.brp",
+    "FerragemComumR061.Shape.brp",
+    "FerragemComumR066.Shape.brp",
+    "FerragemComumR071.Shape.brp",
+    "FerragemComumR076.Shape.brp",
+    "FerragemComumR081.Shape.brp",
+    "FerragemComumR086.Shape.brp",
+    "FerragemComumR091.Shape.brp",
+    "FerragemComumR096.Shape.brp",
+    "FerragemComumR101.Shape.brp",
+    "FerragemComumR106.Shape.brp",
+    "FerragemComumR111.Shape.brp",
+    "FerragemComumR116.Shape.brp",
+    "FerragemComumR120.Shape.brp",
+    "FerragemComumR125.Shape.brp",
+    "FerragemComumR130.Shape.brp",
+    "FerragemComumR135.Shape.brp",
+    "FerragemComumR140.Shape.brp",
+    "FerragemComumR145.Shape.brp",
+    "FerragemComumR150.Shape.brp",
+    "FerragemComumR155.Shape.brp",
+    "FerragemComumR160.Shape.brp",
+    "FerragemComumR165.Shape.brp",
+    "FerragemComumR170.Shape.brp",
+    "FerragemComumR175.Shape.brp",
+    "FerragemComumR180.Shape.brp",
+    "FerragemComumR185.Shape.brp",
+    "FerragemComumR189.Shape.brp",
+    "FerragemComumR194.Shape.brp",
+    "FerragemComumR199.Shape.brp",
+    "FerragemComumR204.Shape.brp",
+    "FerragemComumR209.Shape.brp",
+    "FerragemComumR214.Shape.brp",
+    "FerragemComumR219.Shape.brp",
+    "FerragemComumR224.Shape.brp",
+    "FerragemComumR229.Shape.brp",
+    "FerragemComumR234.Shape.brp",
+    "FerragemVizinhaR001.Shape.brp",
+    "FerragemVizinhaR006.Shape.brp",
+    "FerragemComumR239.Shape.brp",
+    "FerragemComumR244.Shape.brp"
+  ],
+  "identical_brep_count": 1361,
+  "serialization_differences": [
+    {
+      "name": "GavetaComumR008.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR010.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR020.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR022.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR032.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR034.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR044.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR046.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR056.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR058.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR068.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR070.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR080.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR082.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR092.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "GavetaComumR094.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR001.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR006.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR011.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR016.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR021.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR026.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR031.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR036.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR041.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR046.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR051.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR056.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR061.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR066.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR071.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR076.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR081.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR086.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR091.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR096.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR101.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR106.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR111.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR116.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR120.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR125.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR130.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR135.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR140.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR145.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR150.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR155.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR160.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR165.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR170.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR175.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR180.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR185.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR189.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR194.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR199.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR204.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR209.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR214.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR219.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR224.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR229.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR234.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemVizinhaR001.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemVizinhaR006.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR239.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "name": "FerragemComumR244.Shape.brp",
+      "non_numeric_identical": true,
+      "numeric_token_count_equal": true,
+      "max_numeric_delta": 1.1102230246251565e-16
+    }
+  ],
+  "within_1e_10": true,
+  "original_color_properties_checked": 7243,
+  "changed_color_properties": []
+}

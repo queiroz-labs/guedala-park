@@ -1,5 +1,7 @@
 # Cuba, torneira e tábua
 
+> **Diretriz vigente de23/10/2026:** Elias quer a Apurema **atrás da cuba, não ao lado**. O [estudo na R44](../Conferencia_torneiras_2026-10-23/Conferencia.md) encontrou faixa posterior110 mm, suficiente nominalmente para base54 com28 mm de cada lado. Eixo de estudo2595/6925 mm; folga ao aéreo151,3 mm. Mangueira, contrapeso, recorte da prateleira e armazenamento utilizável ainda dependem de compatibilização. Consolidado preservado; estudo separado salvo.
+
 > **Escolhas atuais:** cuba Dora 40 BL R6 94017/113 e torneira Pingoo Apurema preta. Perfil da tábua parcial de madeira confirmado; especificação e encaixe pendentes. As comparações anteriores abaixo são histórico da pesquisa. Teto do conjunto: R$ 1.500.
 
 [Voltar ao assunto](README.md) · [Resumo do projeto](../Resumo.md)

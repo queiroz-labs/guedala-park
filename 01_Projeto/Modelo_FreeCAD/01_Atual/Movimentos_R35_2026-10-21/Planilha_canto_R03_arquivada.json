@@ -1,0 +1,932 @@
+[
+  {
+    "cell": "A2",
+    "content": "'Principal: domínio de estudo 0 a 92°",
+    "alias": null
+  },
+  {
+    "cell": "B2",
+    "content": "=0 deg",
+    "alias": "Alpha"
+  },
+  {
+    "cell": "A3",
+    "content": "'Articulação: domínio de estudo 0 a 60°",
+    "alias": null
+  },
+  {
+    "cell": "B3",
+    "content": "=0 deg",
+    "alias": "Beta"
+  },
+  {
+    "cell": "A4",
+    "content": "'Vizinha históricaR03; atual usa ControleVizinhaR18",
+    "alias": null
+  },
+  {
+    "cell": "B4",
+    "content": "=0 deg",
+    "alias": "Vizinha"
+  },
+  {
+    "cell": "A5",
+    "content": "'Faixa fixa: proposta 150 mm; zero reproduz R01",
+    "alias": null
+  },
+  {
+    "cell": "B5",
+    "content": "=25 mm",
+    "alias": "Faixa"
+  },
+  {
+    "cell": "A6",
+    "content": "'Junta horizontal: hipótese para detalhar",
+    "alias": null
+  },
+  {
+    "cell": "B6",
+    "content": "=3 mm",
+    "alias": "Junta"
+  },
+  {
+    "cell": "A7",
+    "content": "'Nominal da folha de canto: não é corte acabado",
+    "alias": null
+  },
+  {
+    "cell": "B7",
+    "content": "=400 mm",
+    "alias": "Folha"
+  },
+  {
+    "cell": "A8",
+    "content": "'Recuo da faixa fixa: proposta de estudo",
+    "alias": null
+  },
+  {
+    "cell": "B8",
+    "content": "=40 mm",
+    "alias": "Recuo"
+  },
+  {
+    "cell": "A12",
+    "content": "'Geometria/cotas desta montagem são proposta de estudo",
+    "alias": null
+  },
+  {
+    "cell": "B12",
+    "content": "'Reconstrucao dos eixos extraidos do STEP; sem liberacao de corte",
+    "alias": "NotaR03"
+  },
+  {
+    "cell": "A13",
+    "content": "'Principal solicitada limitada a 0-92 graus",
+    "alias": null
+  },
+  {
+    "cell": "B13",
+    "content": "=min(92; max(0; B2 / 1 deg)) / 92",
+    "alias": "Sdrive"
+  },
+  {
+    "cell": "A14",
+    "content": "'Angulo da manivela inferido do curso principal",
+    "alias": null
+  },
+  {
+    "cell": "B14",
+    "content": "=-(87.1359987915616 * B13 + B13 * (B13 - 1) * (-26.9336785805099 + B13 * (58.1484520813073 + B13 * (-174.790889914326 + B13 * (467.402993687613 + B13 * (-1111.39395442841 + B13 * (2127.18367876844 + B13 * (-3055.4727147958 + B13 * (3095.78597696136 + B13 * (-2063.13131504582 + B13 * (805.974853460818 + B13 * -139.262559690687))))))))))) * 1 deg",
+    "alias": "DriveQ"
+  },
+  {
+    "cell": "A15",
+    "content": "'Eixo a - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B15",
+    "content": "-10.4500000000002",
+    "alias": "a0x"
+  },
+  {
+    "cell": "A16",
+    "content": "'Eixo a - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B16",
+    "content": "-9.49836596900282",
+    "alias": "a0z"
+  },
+  {
+    "cell": "A17",
+    "content": "'Eixo b - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B17",
+    "content": "-4.86690902104621",
+    "alias": "b0x"
+  },
+  {
+    "cell": "A18",
+    "content": "'Eixo b - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B18",
+    "content": "36.8219761618658",
+    "alias": "b0z"
+  },
+  {
+    "cell": "A19",
+    "content": "'Eixo c - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B19",
+    "content": "-29.8045076718168",
+    "alias": "c0x"
+  },
+  {
+    "cell": "A20",
+    "content": "'Eixo c - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B20",
+    "content": "-31.721865530989",
+    "alias": "c0z"
+  },
+  {
+    "cell": "A21",
+    "content": "'Eixo d - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B21",
+    "content": "-25.0583040479233",
+    "alias": "d0x"
+  },
+  {
+    "cell": "A22",
+    "content": "'Eixo d - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B22",
+    "content": "16.3167288610259",
+    "alias": "d0z"
+  },
+  {
+    "cell": "A23",
+    "content": "'Eixo e - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B23",
+    "content": "-50.5250196353801",
+    "alias": "e0x"
+  },
+  {
+    "cell": "A24",
+    "content": "'Eixo e - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B24",
+    "content": "10.1412614951024",
+    "alias": "e0z"
+  },
+  {
+    "cell": "A25",
+    "content": "'Eixo f - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B25",
+    "content": "-18.15",
+    "alias": "f0x"
+  },
+  {
+    "cell": "A26",
+    "content": "'Eixo f - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B26",
+    "content": "40.5",
+    "alias": "f0z"
+  },
+  {
+    "cell": "A27",
+    "content": "'Eixo g - x original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B27",
+    "content": "5.49999999999999",
+    "alias": "g0x"
+  },
+  {
+    "cell": "A28",
+    "content": "'Eixo g - z original STEP",
+    "alias": null
+  },
+  {
+    "cell": "B28",
+    "content": "41.7",
+    "alias": "g0z"
+  },
+  {
+    "cell": "A29",
+    "content": "'Eixo c - x movel",
+    "alias": null
+  },
+  {
+    "cell": "B29",
+    "content": "=B15 + cos(B14) * (B19 - B15) - sin(B14) * (B20 - B16)",
+    "alias": "Cx"
+  },
+  {
+    "cell": "A30",
+    "content": "'Eixo c - z movel",
+    "alias": null
+  },
+  {
+    "cell": "B30",
+    "content": "=B16 + sin(B14) * (B19 - B15) + cos(B14) * (B20 - B16)",
+    "alias": "Cz"
+  },
+  {
+    "cell": "A31",
+    "content": "'Distancia entre C e eixo fixo b",
+    "alias": null
+  },
+  {
+    "cell": "B31",
+    "content": "=sqrt((B17 - B29) ^ 2 + (B18 - B30) ^ 2)",
+    "alias": "DistCb"
+  },
+  {
+    "cell": "A32",
+    "content": "'Intersecao dos circulos C/b - projecao",
+    "alias": null
+  },
+  {
+    "cell": "B32",
+    "content": "=(2330.23299999999 - 828.157599999997 + B31 ^ 2) / (2 * B31)",
+    "alias": "Ld"
+  },
+  {
+    "cell": "A33",
+    "content": "'Intersecao dos circulos C/b - altura",
+    "alias": null
+  },
+  {
+    "cell": "B33",
+    "content": "=sqrt(2330.23299999999 - B32 ^ 2)",
+    "alias": "Hd"
+  },
+  {
+    "cell": "A34",
+    "content": "'Eixo d - x movel",
+    "alias": null
+  },
+  {
+    "cell": "B34",
+    "content": "=B29 + (B32 * (B17 - B29) - B33 * (B18 - B30)) / B31",
+    "alias": "Dx"
+  },
+  {
+    "cell": "A35",
+    "content": "'Eixo d - z movel",
+    "alias": null
+  },
+  {
+    "cell": "B35",
+    "content": "=B30 + (B32 * (B18 - B30) + B33 * (B17 - B29)) / B31",
+    "alias": "Dz"
+  },
+  {
+    "cell": "A36",
+    "content": "'Braco 6 - angulo em XZ",
+    "alias": null
+  },
+  {
+    "cell": "B36",
+    "content": "=atan2(sin(atan2(B35 - B18; B34 - B17) - -134.55814403419 deg); cos(atan2(B35 - B18; B34 - B17) - -134.55814403419 deg))",
+    "alias": "Theta6"
+  },
+  {
+    "cell": "A37",
+    "content": "'Braco 5 - angulo em XZ",
+    "alias": null
+  },
+  {
+    "cell": "B37",
+    "content": "=atan2(sin(atan2(B35 - B30; B34 - B29) - 84.3575003364739 deg); cos(atan2(B35 - B30; B34 - B29) - 84.3575003364739 deg))",
+    "alias": "Theta5"
+  },
+  {
+    "cell": "A38",
+    "content": "'Eixo b fixo x",
+    "alias": null
+  },
+  {
+    "cell": "B38",
+    "content": "=B17",
+    "alias": "Bfixedx"
+  },
+  {
+    "cell": "A39",
+    "content": "'Eixo b fixo z",
+    "alias": null
+  },
+  {
+    "cell": "B39",
+    "content": "=B18",
+    "alias": "Bfixedz"
+  },
+  {
+    "cell": "A40",
+    "content": "'E x",
+    "alias": null
+  },
+  {
+    "cell": "B40",
+    "content": "=B38 + cos(B36) * (B23 - B17) - sin(B36) * (B24 - B18)",
+    "alias": "Ex"
+  },
+  {
+    "cell": "A41",
+    "content": "'E z",
+    "alias": null
+  },
+  {
+    "cell": "B41",
+    "content": "=B39 + sin(B36) * (B23 - B17) + cos(B36) * (B24 - B18)",
+    "alias": "Ez"
+  },
+  {
+    "cell": "A42",
+    "content": "'G x",
+    "alias": null
+  },
+  {
+    "cell": "B42",
+    "content": "=B29 + cos(B37) * (B27 - B19) - sin(B37) * (B28 - B20)",
+    "alias": "Gx"
+  },
+  {
+    "cell": "A43",
+    "content": "'G z",
+    "alias": null
+  },
+  {
+    "cell": "B43",
+    "content": "=B30 + sin(B37) * (B27 - B19) + cos(B37) * (B28 - B20)",
+    "alias": "Gz"
+  },
+  {
+    "cell": "A44",
+    "content": "'Distancia entre E e G",
+    "alias": null
+  },
+  {
+    "cell": "B44",
+    "content": "=sqrt((B42 - B40) ^ 2 + (B43 - B41) ^ 2)",
+    "alias": "DistEg"
+  },
+  {
+    "cell": "A45",
+    "content": "'Intersecao dos circulos E/G - projecao",
+    "alias": null
+  },
+  {
+    "cell": "B45",
+    "content": "=(1969.7949 - 560.762500000001 + B44 ^ 2) / (2 * B44)",
+    "alias": "Lf"
+  },
+  {
+    "cell": "A46",
+    "content": "'Intersecao dos circulos E/G - altura",
+    "alias": null
+  },
+  {
+    "cell": "B46",
+    "content": "=sqrt(1969.7949 - B45 ^ 2)",
+    "alias": "Hf"
+  },
+  {
+    "cell": "A47",
+    "content": "'Eixo f - x movel",
+    "alias": null
+  },
+  {
+    "cell": "B47",
+    "content": "=B40 + (B45 * (B42 - B40) - B46 * (B43 - B41)) / B44",
+    "alias": "Fx"
+  },
+  {
+    "cell": "A48",
+    "content": "'Eixo f - z movel",
+    "alias": null
+  },
+  {
+    "cell": "B48",
+    "content": "=B41 + (B45 * (B43 - B41) + B46 * (B42 - B40)) / B44",
+    "alias": "Fz"
+  },
+  {
+    "cell": "A49",
+    "content": "'Caneco principal - angulo XZ",
+    "alias": null
+  },
+  {
+    "cell": "B49",
+    "content": "=atan2(sin(atan2(B48 - B43; B47 - B42) - -177.095305614909 deg); cos(atan2(B48 - B43; B47 - B42) - -177.095305614909 deg))",
+    "alias": "Theta2"
+  },
+  {
+    "cell": "A50",
+    "content": "'Braco 3 - angulo XZ",
+    "alias": null
+  },
+  {
+    "cell": "B50",
+    "content": "=atan2(sin(atan2(B48 - B41; B47 - B40) - 43.1591307723792 deg); cos(atan2(B48 - B41; B47 - B40) - 43.1591307723792 deg))",
+    "alias": "Theta3"
+  },
+  {
+    "cell": "A51",
+    "content": "'Abertura calculada pela geometria dos bracos",
+    "alias": null
+  },
+  {
+    "cell": "B51",
+    "content": "=-B49",
+    "alias": "PrincipalReal"
+  },
+  {
+    "cell": "A52",
+    "content": "'Translacao do corpo 4 - x",
+    "alias": null
+  },
+  {
+    "cell": "B52",
+    "content": "=B15 - cos(B14) * B15 + sin(B14) * B16",
+    "alias": "T4x"
+  },
+  {
+    "cell": "A53",
+    "content": "'Translacao do corpo 4 - z",
+    "alias": null
+  },
+  {
+    "cell": "B53",
+    "content": "=B16 - sin(B14) * B15 - cos(B14) * B16",
+    "alias": "T4z"
+  },
+  {
+    "cell": "A54",
+    "content": "'Translacao do corpo 6 - x",
+    "alias": null
+  },
+  {
+    "cell": "B54",
+    "content": "=B38 - cos(B36) * B17 + sin(B36) * B18",
+    "alias": "T6x"
+  },
+  {
+    "cell": "A55",
+    "content": "'Translacao do corpo 6 - z",
+    "alias": null
+  },
+  {
+    "cell": "B55",
+    "content": "=B39 - sin(B36) * B17 - cos(B36) * B18",
+    "alias": "T6z"
+  },
+  {
+    "cell": "A56",
+    "content": "'Translacao do corpo 5 - x",
+    "alias": null
+  },
+  {
+    "cell": "B56",
+    "content": "=B29 - cos(B37) * B19 + sin(B37) * B20",
+    "alias": "T5x"
+  },
+  {
+    "cell": "A57",
+    "content": "'Translacao do corpo 5 - z",
+    "alias": null
+  },
+  {
+    "cell": "B57",
+    "content": "=B30 - sin(B37) * B19 - cos(B37) * B20",
+    "alias": "T5z"
+  },
+  {
+    "cell": "A58",
+    "content": "'Translacao do corpo 2 - x",
+    "alias": null
+  },
+  {
+    "cell": "B58",
+    "content": "=B42 - cos(B49) * B27 + sin(B49) * B28",
+    "alias": "T2x"
+  },
+  {
+    "cell": "A59",
+    "content": "'Translacao do corpo 2 - z",
+    "alias": null
+  },
+  {
+    "cell": "B59",
+    "content": "=B43 - sin(B49) * B27 - cos(B49) * B28",
+    "alias": "T2z"
+  },
+  {
+    "cell": "A60",
+    "content": "'Translacao do corpo 3 - x",
+    "alias": null
+  },
+  {
+    "cell": "B60",
+    "content": "=B40 - cos(B50) * B23 + sin(B50) * B24",
+    "alias": "T3x"
+  },
+  {
+    "cell": "A61",
+    "content": "'Translacao do corpo 3 - z",
+    "alias": null
+  },
+  {
+    "cell": "B61",
+    "content": "=B41 - sin(B50) * B23 - cos(B50) * B24",
+    "alias": "T3z"
+  },
+  {
+    "cell": "A62",
+    "content": "'Deslocamento global A - x",
+    "alias": null
+  },
+  {
+    "cell": "B62",
+    "content": "=632 + B58 - 632 * cos(B51) + -593.5 * sin(B51)",
+    "alias": "DeltaAx"
+  },
+  {
+    "cell": "A63",
+    "content": "'Deslocamento global A - y",
+    "alias": null
+  },
+  {
+    "cell": "B63",
+    "content": "=-593.5 - B59 - 632 * sin(B51) - -593.5 * cos(B51)",
+    "alias": "DeltaAy"
+  },
+  {
+    "cell": "A64",
+    "content": "'Articulacao B limitada ao dominio 0-60 graus",
+    "alias": null
+  },
+  {
+    "cell": "B64",
+    "content": "=min(60 deg; max(0 deg; B3))",
+    "alias": "BetaReal"
+  },
+  {
+    "cell": "A65",
+    "content": "'Deslocamento global B - x",
+    "alias": null
+  },
+  {
+    "cell": "B65",
+    "content": "=B62 + cos(B51) * (259 - 259 * cos(B64) + -638.5 * sin(B64)) - sin(B51) * (-638.5 - 259 * sin(B64) - -638.5 * cos(B64))",
+    "alias": "DeltaBx"
+  },
+  {
+    "cell": "A66",
+    "content": "'Deslocamento global B - y",
+    "alias": null
+  },
+  {
+    "cell": "B66",
+    "content": "=B63 + sin(B51) * (259 - 259 * cos(B64) + -638.5 * sin(B64)) + cos(B51) * (-638.5 - 259 * sin(B64) - -638.5 * cos(B64))",
+    "alias": "DeltaBy"
+  },
+  {
+    "cell": "A80",
+    "content": "'Vizinha - eixo a x",
+    "alias": null
+  },
+  {
+    "cell": "B80",
+    "content": "-27.4999999949264",
+    "alias": "Na0x"
+  },
+  {
+    "cell": "A81",
+    "content": "'Vizinha - eixo a z",
+    "alias": null
+  },
+  {
+    "cell": "B81",
+    "content": "42.6099999787494",
+    "alias": "Na0z"
+  },
+  {
+    "cell": "A82",
+    "content": "'Vizinha - eixo b x",
+    "alias": null
+  },
+  {
+    "cell": "B82",
+    "content": "-17.9399999957266",
+    "alias": "Nb0x"
+  },
+  {
+    "cell": "A83",
+    "content": "'Vizinha - eixo b z",
+    "alias": null
+  },
+  {
+    "cell": "B83",
+    "content": "34.3199999778266",
+    "alias": "Nb0z"
+  },
+  {
+    "cell": "A84",
+    "content": "'Vizinha - eixo c x",
+    "alias": null
+  },
+  {
+    "cell": "B84",
+    "content": "-7.44000000000063",
+    "alias": "Nc0x"
+  },
+  {
+    "cell": "A85",
+    "content": "'Vizinha - eixo c z",
+    "alias": null
+  },
+  {
+    "cell": "B85",
+    "content": "45.4",
+    "alias": "Nc0z"
+  },
+  {
+    "cell": "A86",
+    "content": "'Vizinha - eixo d x",
+    "alias": null
+  },
+  {
+    "cell": "B86",
+    "content": "-2.64000000000054",
+    "alias": "Nd0x"
+  },
+  {
+    "cell": "A87",
+    "content": "'Vizinha - eixo d z",
+    "alias": null
+  },
+  {
+    "cell": "B87",
+    "content": "40.8000000000001",
+    "alias": "Nd0z"
+  },
+  {
+    "cell": "A88",
+    "content": "'Vizinha - abertura CAD 0-110 graus",
+    "alias": null
+  },
+  {
+    "cell": "B88",
+    "content": "=-min(110 deg; max(0 deg; B4))",
+    "alias": "NThetaCup"
+  },
+  {
+    "cell": "A89",
+    "content": "'Vizinha - centro do segundo circulo x",
+    "alias": null
+  },
+  {
+    "cell": "B89",
+    "content": "=-17.9399999957267 - cos(B88) * 4.80000000000009 + sin(B88) * -4.59999999999991",
+    "alias": "NQx"
+  },
+  {
+    "cell": "A90",
+    "content": "'Vizinha - centro do segundo circulo z",
+    "alias": null
+  },
+  {
+    "cell": "B90",
+    "content": "=34.3199999778266 - sin(B88) * 4.80000000000009 - cos(B88) * -4.59999999999991",
+    "alias": "NQz"
+  },
+  {
+    "cell": "A91",
+    "content": "'Vizinha - distancia entre centros",
+    "alias": null
+  },
+  {
+    "cell": "B91",
+    "content": "=sqrt((B89 - -27.4999999949264) ^ 2 + (B90 - 42.6099999787494) ^ 2)",
+    "alias": "NDist"
+  },
+  {
+    "cell": "A92",
+    "content": "'Vizinha - projecao do circulo",
+    "alias": null
+  },
+  {
+    "cell": "B92",
+    "content": "=(410.187699915 - 276.080400156588 + B91 ^ 2) / (2 * B91)",
+    "alias": "NL"
+  },
+  {
+    "cell": "A93",
+    "content": "'Vizinha - altura do circulo",
+    "alias": null
+  },
+  {
+    "cell": "B93",
+    "content": "=sqrt(410.187699915 - B92 ^ 2)",
+    "alias": "NH"
+  },
+  {
+    "cell": "A94",
+    "content": "'Vizinha - eixo C movel x",
+    "alias": null
+  },
+  {
+    "cell": "B94",
+    "content": "=-27.4999999949264 + (B92 * (B89 - -27.4999999949264) - 1 * B93 * (B90 - 42.6099999787494)) / B91",
+    "alias": "NCx"
+  },
+  {
+    "cell": "A95",
+    "content": "'Vizinha - eixo C movel z",
+    "alias": null
+  },
+  {
+    "cell": "B95",
+    "content": "=42.6099999787494 + (B92 * (B90 - 42.6099999787494) + 1 * B93 * (B89 - -27.4999999949264)) / B91",
+    "alias": "NCz"
+  },
+  {
+    "cell": "A96",
+    "content": "'Vizinha - eixo D movel x",
+    "alias": null
+  },
+  {
+    "cell": "B96",
+    "content": "=B94 + cos(B88) * 4.80000000000009 - sin(B88) * -4.59999999999991",
+    "alias": "NDx"
+  },
+  {
+    "cell": "A97",
+    "content": "'Vizinha - eixo D movel z",
+    "alias": null
+  },
+  {
+    "cell": "B97",
+    "content": "=B95 + sin(B88) * 4.80000000000009 + cos(B88) * -4.59999999999991",
+    "alias": "NDz"
+  },
+  {
+    "cell": "A98",
+    "content": "'Vizinha - braco 2",
+    "alias": null
+  },
+  {
+    "cell": "B98",
+    "content": "=atan2(sin(atan2(B95 - 42.6099999787494; B94 - -27.4999999949264) - 7.91805978942934 deg); cos(atan2(B95 - 42.6099999787494; B94 - -27.4999999949264) - 7.91805978942934 deg))",
+    "alias": "NTheta2"
+  },
+  {
+    "cell": "A99",
+    "content": "'Vizinha - braco 3",
+    "alias": null
+  },
+  {
+    "cell": "B99",
+    "content": "=atan2(sin(atan2(B97 - 34.3199999778266; B96 - -17.9399999957267) - 22.9540866137826 deg); cos(atan2(B97 - 34.3199999778266; B96 - -17.9399999957267) - 22.9540866137826 deg))",
+    "alias": "NTheta3"
+  },
+  {
+    "cell": "A100",
+    "content": "'Vizinha - translacao 2 x",
+    "alias": null
+  },
+  {
+    "cell": "B100",
+    "content": "=-27.4999999949264 - cos(B98) * -27.4999999949264 + sin(B98) * 42.6099999787494",
+    "alias": "NT2x"
+  },
+  {
+    "cell": "A101",
+    "content": "'Vizinha - translacao 2 z",
+    "alias": null
+  },
+  {
+    "cell": "B101",
+    "content": "=42.6099999787494 - sin(B98) * -27.4999999949264 - cos(B98) * 42.6099999787494",
+    "alias": "NT2z"
+  },
+  {
+    "cell": "A102",
+    "content": "'Vizinha - translacao 3 x",
+    "alias": null
+  },
+  {
+    "cell": "B102",
+    "content": "=-17.9399999957266 - cos(B99) * -17.9399999957267 + sin(B99) * 34.3199999778266",
+    "alias": "NT3x"
+  },
+  {
+    "cell": "A103",
+    "content": "'Vizinha - translacao 3 z",
+    "alias": null
+  },
+  {
+    "cell": "B103",
+    "content": "=34.3199999778266 - sin(B99) * -17.9399999957267 - cos(B99) * 34.3199999778266",
+    "alias": "NT3z"
+  },
+  {
+    "cell": "A104",
+    "content": "'Vizinha - translacao 4 x",
+    "alias": null
+  },
+  {
+    "cell": "B104",
+    "content": "=B94 - cos(B88) * -7.44000000000063 + sin(B88) * 45.4",
+    "alias": "NT4x"
+  },
+  {
+    "cell": "A105",
+    "content": "'Vizinha - translacao 4 z",
+    "alias": null
+  },
+  {
+    "cell": "B105",
+    "content": "=B95 - sin(B88) * -7.44000000000063 - cos(B88) * 45.4",
+    "alias": "NT4z"
+  },
+  {
+    "cell": "A106",
+    "content": "'Vizinha - face interna do divisor",
+    "alias": null
+  },
+  {
+    "cell": "B106",
+    "content": "=B131 + 1.5 + B130 / 1 mm",
+    "alias": "NmountY"
+  },
+  {
+    "cell": "A107",
+    "content": "'Vizinha - translacao global x",
+    "alias": null
+  },
+  {
+    "cell": "B107",
+    "content": "=193.5 + B105 - 193.5 * cos(B88) + B106 * sin(B88)",
+    "alias": "NDeltaX"
+  },
+  {
+    "cell": "A108",
+    "content": "'Vizinha - translacao global y",
+    "alias": null
+  },
+  {
+    "cell": "B108",
+    "content": "=B106 - B104 - 193.5 * sin(B88) - B106 * cos(B88)",
+    "alias": "NDeltaY"
+  },
+  {
+    "cell": "A130",
+    "content": "'Vizinha - K candidato, distancia da borda ao furo",
+    "alias": null
+  },
+  {
+    "cell": "B130",
+    "content": "=6.5 mm",
+    "alias": "KBoreVizinha"
+  },
+  {
+    "cell": "A131",
+    "content": "'Vizinha - inicio fechado da folha",
+    "alias": null
+  },
+  {
+    "cell": "B131",
+    "content": "=-1050 - B5 / 1 mm - (1800 - B5 / 1 mm) / 4 + 1",
+    "alias": "NBoardStart"
+  }
+]

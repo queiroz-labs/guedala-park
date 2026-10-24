@@ -1,0 +1,10 @@
+﻿gaveta,rotulo,modulo,frente_carcaca_y_mm,fundo_interno_y_mm,profundidade_livre_mm,minimo_FGVTN_mm,margem_minimo_mm,largura_livre_mm,caixa_externa_candidata_largura_mm,folga_lateral_por_lado_candidata_mm,caixa_externa_candidata_profundidade_mm,folga_caixa_candidata_fundo_mm,resultado
+Gaveta,Gaveta de roupa,Modulo,3372,3922.0,550.0,520,30.0,355.0,344.0,5.5,500.0,42.0,Atende profundidade P1 no modelo
+Gaveta001,Gaveta de roupa001,Modulo,3372,3922.0,550.0,520,30.0,355.0,344.0,5.5,500.0,42.0,Atende profundidade P1 no modelo
+Gaveta002,Gaveta de roupa002,Modulo,3372,3922.0,550.0,520,30.0,355.0,344.0,5.5,500.0,42.0,Atende profundidade P1 no modelo
+Gaveta003,Gaveta de roupa003,Modulo,3372,3922.0,550.0,520,30.0,355.0,344.0,5.5,500.0,42.0,Atende profundidade P1 no modelo
+Gaveta004,G3 · mantimentos,Modulo005,6410,6982.0,572.0,520,52.0,583.0,572.0,5.5,500.0,74.0,Atende profundidade P1 no modelo
+Gaveta005,G2 · utensílios,Modulo005,6410,6982.0,572.0,520,52.0,583.0,572.0,5.5,500.0,74.0,Atende profundidade P1 no modelo
+Gaveta006,G1 · talheres,Modulo005,6410,6982.0,572.0,520,52.0,583.0,572.0,5.5,500.0,74.0,Atende profundidade P1 no modelo
+Gaveta008,Gaveta escritório 1,Modulo015,680,268.0,412.0,420,-8.0,364.0,353.0,5.5,400.0,14.0,NAO atende P1 no modelo: faltam 8.0 mm
+Gaveta009,Gaveta escritório 2,Modulo015,680,268.0,412.0,420,-8.0,364.0,353.0,5.5,400.0,14.0,NAO atende P1 no modelo: faltam 8.0 mm

@@ -1,0 +1,162 @@
+{
+  "alcance": "Estática nominal para comparar operação manual. Não valida produto, resistência, colisões ou ergonomia.",
+  "banco_premissas": "Painéis retangulares homogêneos, almofadas retiradas, eixo abstrato X102. Exclui ferragens, atrito, mãos, choque e deformação.",
+  "cesto_premissas": "Eixo ideal Y6440/Z120; frente + 13 peças de armação hipotéticas + 8 kg roupa. Exclui saco, ferragens e choques. Força tangencial ideal no topo; direção real da mão e pega alteram esforço.",
+  "cesto_raio_pega_ideal_m": 0.5543663048923518,
+  "banco": [
+    {
+      "tampa": "BancoR43_Painel1",
+      "densidade_kg_m3": 650,
+      "massa_kg": 5.655104,
+      "torque_horizontal_Nm": 12.4225081437184,
+      "forca_vertical_borda_horizontal_N": 27.728812820799998,
+      "equivalente_kgf": 2.827552
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "densidade_kg_m3": 900,
+      "massa_kg": 7.830144,
+      "torque_horizontal_Nm": 17.2003958913024,
+      "forca_vertical_borda_horizontal_N": 38.3937408288,
+      "equivalente_kgf": 3.915072
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "densidade_kg_m3": 650,
+      "massa_kg": 4.8048,
+      "torque_horizontal_Nm": 10.55465419008,
+      "forca_vertical_borda_horizontal_N": 23.559495960000003,
+      "equivalente_kgf": 2.4024
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "densidade_kg_m3": 900,
+      "massa_kg": 6.6528,
+      "torque_horizontal_Nm": 14.61413657088,
+      "forca_vertical_borda_horizontal_N": 32.62084056,
+      "equivalente_kgf": 3.3264
+    }
+  ],
+  "cesto": [
+    {
+      "densidade_kg_m3": 650,
+      "angulo_graus": 0,
+      "torque_vazio_Nm": -0.1360338300348302,
+      "torque_cheio_central_Nm": -9.942683830034829,
+      "torque_cheio_envelope_Nm": [
+        -17.788003830034828,
+        -2.0973638300348303
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 32.087094170503285,
+      "equivalente_kgf": 3.271973015301177
+    },
+    {
+      "densidade_kg_m3": 650,
+      "angulo_graus": 15,
+      "torque_vazio_Nm": 2.7542581823466534,
+      "torque_cheio_central_Nm": -2.149572302452695,
+      "torque_cheio_envelope_Nm": [
+        -13.788605967802265,
+        9.489461362896872
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 24.872734591038625,
+      "equivalente_kgf": 2.5363130723579026
+    },
+    {
+      "densidade_kg_m3": 650,
+      "angulo_graus": 30,
+      "torque_vazio_Nm": 5.456852051228068,
+      "torque_cheio_central_Nm": 5.790029025205401,
+      "torque_cheio_envelope_Nm": [
+        -8.849537395612728,
+        20.42959544602353
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 36.85215942190173,
+      "equivalente_kgf": 3.7578744445760512
+    },
+    {
+      "densidade_kg_m3": 650,
+      "angulo_graus": 45,
+      "torque_vazio_Nm": 7.7875704706926845,
+      "torque_cheio_central_Nm": 13.335049443271132,
+      "torque_cheio_envelope_Nm": [
+        -3.3073874744642078,
+        29.977486361006463
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 54.075231659015714,
+      "equivalente_kgf": 5.514139044323568
+    },
+    {
+      "densidade_kg_m3": 650,
+      "angulo_graus": 55,
+      "torque_vazio_Nm": 9.054963787866603,
+      "torque_cheio_central_Nm": 17.88974773955257,
+      "torque_cheio_envelope_Nm": [
+        0.5368372197163573,
+        35.24265825938878
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 63.57287221169094,
+      "equivalente_kgf": 6.482628849983526
+    },
+    {
+      "densidade_kg_m3": 900,
+      "angulo_graus": 0,
+      "torque_vazio_Nm": -0.18835453389438045,
+      "torque_cheio_central_Nm": -9.99500453389438,
+      "torque_cheio_envelope_Nm": [
+        -17.84032453389438,
+        -2.1496845338943804
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 32.18147347061192,
+      "equivalente_kgf": 3.281597025550205
+    },
+    {
+      "densidade_kg_m3": 900,
+      "angulo_graus": 15,
+      "torque_vazio_Nm": 3.813588252479981,
+      "torque_cheio_central_Nm": -1.0902422323193672,
+      "torque_cheio_envelope_Nm": [
+        -12.729275897668938,
+        10.5487914330302
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 22.961849927261973,
+      "equivalente_kgf": 2.34145706507951
+    },
+    {
+      "densidade_kg_m3": 900,
+      "angulo_graus": 30,
+      "torque_vazio_Nm": 7.555641301700402,
+      "torque_cheio_central_Nm": 7.888818275677735,
+      "torque_cheio_envelope_Nm": [
+        -6.750748145140395,
+        22.528384696495866
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 40.63808441761351,
+      "equivalente_kgf": 4.143931354500621
+    },
+    {
+      "densidade_kg_m3": 900,
+      "angulo_graus": 45,
+      "torque_vazio_Nm": 10.782789882497564,
+      "torque_cheio_central_Nm": 16.33026885507601,
+      "torque_cheio_envelope_Nm": [
+        -0.31216806265932817,
+        32.97270577281134
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 59.47819245474174,
+      "equivalente_kgf": 6.0650877164721635
+    },
+    {
+      "densidade_kg_m3": 900,
+      "angulo_graus": 55,
+      "torque_vazio_Nm": 12.537642167815296,
+      "torque_cheio_central_Nm": 21.372426119501263,
+      "torque_cheio_envelope_Nm": [
+        4.01951559966505,
+        38.72533663933748
+      ],
+      "maior_forca_tangencial_ideal_no_envelope_N": 69.85514144272757,
+      "equivalente_kgf": 7.123242028901569
+    }
+  ]
+}

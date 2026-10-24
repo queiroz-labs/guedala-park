@@ -1,0 +1,1734 @@
+{
+  "A1": {
+    "alias": null,
+    "content": "'MONTAGEM PROPOSTA - N\u00c3O LIBERA CORTE/COMPRA"
+  },
+  "A10": {
+    "alias": null,
+    "content": "'Porta 001 Cz"
+  },
+  "A100": {
+    "alias": null,
+    "content": "'Porta 006 Cz"
+  },
+  "A101": {
+    "alias": null,
+    "content": "'Porta 006 Dx"
+  },
+  "A102": {
+    "alias": null,
+    "content": "'Porta 006 Dz"
+  },
+  "A103": {
+    "alias": null,
+    "content": "'Porta 006 Theta2"
+  },
+  "A104": {
+    "alias": null,
+    "content": "'Porta 006 Theta3"
+  },
+  "A105": {
+    "alias": null,
+    "content": "'Porta 006 T2x"
+  },
+  "A106": {
+    "alias": null,
+    "content": "'Porta 006 T2z"
+  },
+  "A107": {
+    "alias": null,
+    "content": "'Porta 006 T3x"
+  },
+  "A108": {
+    "alias": null,
+    "content": "'Porta 006 T3z"
+  },
+  "A109": {
+    "alias": null,
+    "content": "'Porta 006 T4x"
+  },
+  "A11": {
+    "alias": null,
+    "content": "'Porta 001 Dx"
+  },
+  "A110": {
+    "alias": null,
+    "content": "'Porta 006 T4z"
+  },
+  "A111": {
+    "alias": null,
+    "content": "'Porta 007 Theta"
+  },
+  "A112": {
+    "alias": null,
+    "content": "'Porta 007 Qx"
+  },
+  "A113": {
+    "alias": null,
+    "content": "'Porta 007 Qz"
+  },
+  "A114": {
+    "alias": null,
+    "content": "'Porta 007 Dist"
+  },
+  "A115": {
+    "alias": null,
+    "content": "'Porta 007 L"
+  },
+  "A116": {
+    "alias": null,
+    "content": "'Porta 007 H"
+  },
+  "A117": {
+    "alias": null,
+    "content": "'Porta 007 Cx"
+  },
+  "A118": {
+    "alias": null,
+    "content": "'Porta 007 Cz"
+  },
+  "A119": {
+    "alias": null,
+    "content": "'Porta 007 Dx"
+  },
+  "A12": {
+    "alias": null,
+    "content": "'Porta 001 Dz"
+  },
+  "A120": {
+    "alias": null,
+    "content": "'Porta 007 Dz"
+  },
+  "A121": {
+    "alias": null,
+    "content": "'Porta 007 Theta2"
+  },
+  "A122": {
+    "alias": null,
+    "content": "'Porta 007 Theta3"
+  },
+  "A123": {
+    "alias": null,
+    "content": "'Porta 007 T2x"
+  },
+  "A124": {
+    "alias": null,
+    "content": "'Porta 007 T2z"
+  },
+  "A125": {
+    "alias": null,
+    "content": "'Porta 007 T3x"
+  },
+  "A126": {
+    "alias": null,
+    "content": "'Porta 007 T3z"
+  },
+  "A127": {
+    "alias": null,
+    "content": "'Porta 007 T4x"
+  },
+  "A128": {
+    "alias": null,
+    "content": "'Porta 007 T4z"
+  },
+  "A129": {
+    "alias": null,
+    "content": "'Porta 008 Theta"
+  },
+  "A13": {
+    "alias": null,
+    "content": "'Porta 001 Theta2"
+  },
+  "A130": {
+    "alias": null,
+    "content": "'Porta 008 Qx"
+  },
+  "A131": {
+    "alias": null,
+    "content": "'Porta 008 Qz"
+  },
+  "A132": {
+    "alias": null,
+    "content": "'Porta 008 Dist"
+  },
+  "A133": {
+    "alias": null,
+    "content": "'Porta 008 L"
+  },
+  "A134": {
+    "alias": null,
+    "content": "'Porta 008 H"
+  },
+  "A135": {
+    "alias": null,
+    "content": "'Porta 008 Cx"
+  },
+  "A136": {
+    "alias": null,
+    "content": "'Porta 008 Cz"
+  },
+  "A137": {
+    "alias": null,
+    "content": "'Porta 008 Dx"
+  },
+  "A138": {
+    "alias": null,
+    "content": "'Porta 008 Dz"
+  },
+  "A139": {
+    "alias": null,
+    "content": "'Porta 008 Theta2"
+  },
+  "A14": {
+    "alias": null,
+    "content": "'Porta 001 Theta3"
+  },
+  "A140": {
+    "alias": null,
+    "content": "'Porta 008 Theta3"
+  },
+  "A141": {
+    "alias": null,
+    "content": "'Porta 008 T2x"
+  },
+  "A142": {
+    "alias": null,
+    "content": "'Porta 008 T2z"
+  },
+  "A143": {
+    "alias": null,
+    "content": "'Porta 008 T3x"
+  },
+  "A144": {
+    "alias": null,
+    "content": "'Porta 008 T3z"
+  },
+  "A145": {
+    "alias": null,
+    "content": "'Porta 008 T4x"
+  },
+  "A146": {
+    "alias": null,
+    "content": "'Porta 008 T4z"
+  },
+  "A147": {
+    "alias": null,
+    "content": "'Porta 009 Theta"
+  },
+  "A148": {
+    "alias": null,
+    "content": "'Porta 009 Qx"
+  },
+  "A149": {
+    "alias": null,
+    "content": "'Porta 009 Qz"
+  },
+  "A15": {
+    "alias": null,
+    "content": "'Porta 001 T2x"
+  },
+  "A150": {
+    "alias": null,
+    "content": "'Porta 009 Dist"
+  },
+  "A151": {
+    "alias": null,
+    "content": "'Porta 009 L"
+  },
+  "A152": {
+    "alias": null,
+    "content": "'Porta 009 H"
+  },
+  "A153": {
+    "alias": null,
+    "content": "'Porta 009 Cx"
+  },
+  "A154": {
+    "alias": null,
+    "content": "'Porta 009 Cz"
+  },
+  "A155": {
+    "alias": null,
+    "content": "'Porta 009 Dx"
+  },
+  "A156": {
+    "alias": null,
+    "content": "'Porta 009 Dz"
+  },
+  "A157": {
+    "alias": null,
+    "content": "'Porta 009 Theta2"
+  },
+  "A158": {
+    "alias": null,
+    "content": "'Porta 009 Theta3"
+  },
+  "A159": {
+    "alias": null,
+    "content": "'Porta 009 T2x"
+  },
+  "A16": {
+    "alias": null,
+    "content": "'Porta 001 T2z"
+  },
+  "A160": {
+    "alias": null,
+    "content": "'Porta 009 T2z"
+  },
+  "A161": {
+    "alias": null,
+    "content": "'Porta 009 T3x"
+  },
+  "A162": {
+    "alias": null,
+    "content": "'Porta 009 T3z"
+  },
+  "A163": {
+    "alias": null,
+    "content": "'Porta 009 T4x"
+  },
+  "A164": {
+    "alias": null,
+    "content": "'Porta 009 T4z"
+  },
+  "A165": {
+    "alias": null,
+    "content": "'Porta 010 Theta"
+  },
+  "A166": {
+    "alias": null,
+    "content": "'Porta 010 Qx"
+  },
+  "A167": {
+    "alias": null,
+    "content": "'Porta 010 Qz"
+  },
+  "A168": {
+    "alias": null,
+    "content": "'Porta 010 Dist"
+  },
+  "A169": {
+    "alias": null,
+    "content": "'Porta 010 L"
+  },
+  "A17": {
+    "alias": null,
+    "content": "'Porta 001 T3x"
+  },
+  "A170": {
+    "alias": null,
+    "content": "'Porta 010 H"
+  },
+  "A171": {
+    "alias": null,
+    "content": "'Porta 010 Cx"
+  },
+  "A172": {
+    "alias": null,
+    "content": "'Porta 010 Cz"
+  },
+  "A173": {
+    "alias": null,
+    "content": "'Porta 010 Dx"
+  },
+  "A174": {
+    "alias": null,
+    "content": "'Porta 010 Dz"
+  },
+  "A175": {
+    "alias": null,
+    "content": "'Porta 010 Theta2"
+  },
+  "A176": {
+    "alias": null,
+    "content": "'Porta 010 Theta3"
+  },
+  "A177": {
+    "alias": null,
+    "content": "'Porta 010 T2x"
+  },
+  "A178": {
+    "alias": null,
+    "content": "'Porta 010 T2z"
+  },
+  "A179": {
+    "alias": null,
+    "content": "'Porta 010 T3x"
+  },
+  "A18": {
+    "alias": null,
+    "content": "'Porta 001 T3z"
+  },
+  "A180": {
+    "alias": null,
+    "content": "'Porta 010 T3z"
+  },
+  "A181": {
+    "alias": null,
+    "content": "'Porta 010 T4x"
+  },
+  "A182": {
+    "alias": null,
+    "content": "'Porta 010 T4z"
+  },
+  "A183": {
+    "alias": null,
+    "content": "'Porta 011 Theta"
+  },
+  "A184": {
+    "alias": null,
+    "content": "'Porta 011 Qx"
+  },
+  "A185": {
+    "alias": null,
+    "content": "'Porta 011 Qz"
+  },
+  "A186": {
+    "alias": null,
+    "content": "'Porta 011 Dist"
+  },
+  "A187": {
+    "alias": null,
+    "content": "'Porta 011 L"
+  },
+  "A188": {
+    "alias": null,
+    "content": "'Porta 011 H"
+  },
+  "A189": {
+    "alias": null,
+    "content": "'Porta 011 Cx"
+  },
+  "A19": {
+    "alias": null,
+    "content": "'Porta 001 T4x"
+  },
+  "A190": {
+    "alias": null,
+    "content": "'Porta 011 Cz"
+  },
+  "A191": {
+    "alias": null,
+    "content": "'Porta 011 Dx"
+  },
+  "A192": {
+    "alias": null,
+    "content": "'Porta 011 Dz"
+  },
+  "A193": {
+    "alias": null,
+    "content": "'Porta 011 Theta2"
+  },
+  "A194": {
+    "alias": null,
+    "content": "'Porta 011 Theta3"
+  },
+  "A195": {
+    "alias": null,
+    "content": "'Porta 011 T2x"
+  },
+  "A196": {
+    "alias": null,
+    "content": "'Porta 011 T2z"
+  },
+  "A197": {
+    "alias": null,
+    "content": "'Porta 011 T3x"
+  },
+  "A198": {
+    "alias": null,
+    "content": "'Porta 011 T3z"
+  },
+  "A199": {
+    "alias": null,
+    "content": "'Porta 011 T4x"
+  },
+  "A20": {
+    "alias": null,
+    "content": "'Porta 001 T4z"
+  },
+  "A200": {
+    "alias": null,
+    "content": "'Porta 011 T4z"
+  },
+  "A201": {
+    "alias": null,
+    "content": "'Porta 012 Theta"
+  },
+  "A202": {
+    "alias": null,
+    "content": "'Porta 012 Qx"
+  },
+  "A203": {
+    "alias": null,
+    "content": "'Porta 012 Qz"
+  },
+  "A204": {
+    "alias": null,
+    "content": "'Porta 012 Dist"
+  },
+  "A205": {
+    "alias": null,
+    "content": "'Porta 012 L"
+  },
+  "A206": {
+    "alias": null,
+    "content": "'Porta 012 H"
+  },
+  "A207": {
+    "alias": null,
+    "content": "'Porta 012 Cx"
+  },
+  "A208": {
+    "alias": null,
+    "content": "'Porta 012 Cz"
+  },
+  "A209": {
+    "alias": null,
+    "content": "'Porta 012 Dx"
+  },
+  "A21": {
+    "alias": null,
+    "content": "'Porta 002 Theta"
+  },
+  "A210": {
+    "alias": null,
+    "content": "'Porta 012 Dz"
+  },
+  "A211": {
+    "alias": null,
+    "content": "'Porta 012 Theta2"
+  },
+  "A212": {
+    "alias": null,
+    "content": "'Porta 012 Theta3"
+  },
+  "A213": {
+    "alias": null,
+    "content": "'Porta 012 T2x"
+  },
+  "A214": {
+    "alias": null,
+    "content": "'Porta 012 T2z"
+  },
+  "A215": {
+    "alias": null,
+    "content": "'Porta 012 T3x"
+  },
+  "A216": {
+    "alias": null,
+    "content": "'Porta 012 T3z"
+  },
+  "A217": {
+    "alias": null,
+    "content": "'Porta 012 T4x"
+  },
+  "A218": {
+    "alias": null,
+    "content": "'Porta 012 T4z"
+  },
+  "A22": {
+    "alias": null,
+    "content": "'Porta 002 Qx"
+  },
+  "A23": {
+    "alias": null,
+    "content": "'Porta 002 Qz"
+  },
+  "A24": {
+    "alias": null,
+    "content": "'Porta 002 Dist"
+  },
+  "A25": {
+    "alias": null,
+    "content": "'Porta 002 L"
+  },
+  "A26": {
+    "alias": null,
+    "content": "'Porta 002 H"
+  },
+  "A27": {
+    "alias": null,
+    "content": "'Porta 002 Cx"
+  },
+  "A28": {
+    "alias": null,
+    "content": "'Porta 002 Cz"
+  },
+  "A29": {
+    "alias": null,
+    "content": "'Porta 002 Dx"
+  },
+  "A3": {
+    "alias": null,
+    "content": "'Porta 001 Theta"
+  },
+  "A30": {
+    "alias": null,
+    "content": "'Porta 002 Dz"
+  },
+  "A31": {
+    "alias": null,
+    "content": "'Porta 002 Theta2"
+  },
+  "A32": {
+    "alias": null,
+    "content": "'Porta 002 Theta3"
+  },
+  "A33": {
+    "alias": null,
+    "content": "'Porta 002 T2x"
+  },
+  "A34": {
+    "alias": null,
+    "content": "'Porta 002 T2z"
+  },
+  "A35": {
+    "alias": null,
+    "content": "'Porta 002 T3x"
+  },
+  "A36": {
+    "alias": null,
+    "content": "'Porta 002 T3z"
+  },
+  "A37": {
+    "alias": null,
+    "content": "'Porta 002 T4x"
+  },
+  "A38": {
+    "alias": null,
+    "content": "'Porta 002 T4z"
+  },
+  "A39": {
+    "alias": null,
+    "content": "'Porta 003 Theta"
+  },
+  "A4": {
+    "alias": null,
+    "content": "'Porta 001 Qx"
+  },
+  "A40": {
+    "alias": null,
+    "content": "'Porta 003 Qx"
+  },
+  "A41": {
+    "alias": null,
+    "content": "'Porta 003 Qz"
+  },
+  "A42": {
+    "alias": null,
+    "content": "'Porta 003 Dist"
+  },
+  "A43": {
+    "alias": null,
+    "content": "'Porta 003 L"
+  },
+  "A44": {
+    "alias": null,
+    "content": "'Porta 003 H"
+  },
+  "A45": {
+    "alias": null,
+    "content": "'Porta 003 Cx"
+  },
+  "A46": {
+    "alias": null,
+    "content": "'Porta 003 Cz"
+  },
+  "A47": {
+    "alias": null,
+    "content": "'Porta 003 Dx"
+  },
+  "A48": {
+    "alias": null,
+    "content": "'Porta 003 Dz"
+  },
+  "A49": {
+    "alias": null,
+    "content": "'Porta 003 Theta2"
+  },
+  "A5": {
+    "alias": null,
+    "content": "'Porta 001 Qz"
+  },
+  "A50": {
+    "alias": null,
+    "content": "'Porta 003 Theta3"
+  },
+  "A51": {
+    "alias": null,
+    "content": "'Porta 003 T2x"
+  },
+  "A52": {
+    "alias": null,
+    "content": "'Porta 003 T2z"
+  },
+  "A53": {
+    "alias": null,
+    "content": "'Porta 003 T3x"
+  },
+  "A54": {
+    "alias": null,
+    "content": "'Porta 003 T3z"
+  },
+  "A55": {
+    "alias": null,
+    "content": "'Porta 003 T4x"
+  },
+  "A56": {
+    "alias": null,
+    "content": "'Porta 003 T4z"
+  },
+  "A57": {
+    "alias": null,
+    "content": "'Porta 004 Theta"
+  },
+  "A58": {
+    "alias": null,
+    "content": "'Porta 004 Qx"
+  },
+  "A59": {
+    "alias": null,
+    "content": "'Porta 004 Qz"
+  },
+  "A6": {
+    "alias": null,
+    "content": "'Porta 001 Dist"
+  },
+  "A60": {
+    "alias": null,
+    "content": "'Porta 004 Dist"
+  },
+  "A61": {
+    "alias": null,
+    "content": "'Porta 004 L"
+  },
+  "A62": {
+    "alias": null,
+    "content": "'Porta 004 H"
+  },
+  "A63": {
+    "alias": null,
+    "content": "'Porta 004 Cx"
+  },
+  "A64": {
+    "alias": null,
+    "content": "'Porta 004 Cz"
+  },
+  "A65": {
+    "alias": null,
+    "content": "'Porta 004 Dx"
+  },
+  "A66": {
+    "alias": null,
+    "content": "'Porta 004 Dz"
+  },
+  "A67": {
+    "alias": null,
+    "content": "'Porta 004 Theta2"
+  },
+  "A68": {
+    "alias": null,
+    "content": "'Porta 004 Theta3"
+  },
+  "A69": {
+    "alias": null,
+    "content": "'Porta 004 T2x"
+  },
+  "A7": {
+    "alias": null,
+    "content": "'Porta 001 L"
+  },
+  "A70": {
+    "alias": null,
+    "content": "'Porta 004 T2z"
+  },
+  "A71": {
+    "alias": null,
+    "content": "'Porta 004 T3x"
+  },
+  "A72": {
+    "alias": null,
+    "content": "'Porta 004 T3z"
+  },
+  "A73": {
+    "alias": null,
+    "content": "'Porta 004 T4x"
+  },
+  "A74": {
+    "alias": null,
+    "content": "'Porta 004 T4z"
+  },
+  "A75": {
+    "alias": null,
+    "content": "'Porta 005 Theta"
+  },
+  "A76": {
+    "alias": null,
+    "content": "'Porta 005 Qx"
+  },
+  "A77": {
+    "alias": null,
+    "content": "'Porta 005 Qz"
+  },
+  "A78": {
+    "alias": null,
+    "content": "'Porta 005 Dist"
+  },
+  "A79": {
+    "alias": null,
+    "content": "'Porta 005 L"
+  },
+  "A8": {
+    "alias": null,
+    "content": "'Porta 001 H"
+  },
+  "A80": {
+    "alias": null,
+    "content": "'Porta 005 H"
+  },
+  "A81": {
+    "alias": null,
+    "content": "'Porta 005 Cx"
+  },
+  "A82": {
+    "alias": null,
+    "content": "'Porta 005 Cz"
+  },
+  "A83": {
+    "alias": null,
+    "content": "'Porta 005 Dx"
+  },
+  "A84": {
+    "alias": null,
+    "content": "'Porta 005 Dz"
+  },
+  "A85": {
+    "alias": null,
+    "content": "'Porta 005 Theta2"
+  },
+  "A86": {
+    "alias": null,
+    "content": "'Porta 005 Theta3"
+  },
+  "A87": {
+    "alias": null,
+    "content": "'Porta 005 T2x"
+  },
+  "A88": {
+    "alias": null,
+    "content": "'Porta 005 T2z"
+  },
+  "A89": {
+    "alias": null,
+    "content": "'Porta 005 T3x"
+  },
+  "A9": {
+    "alias": null,
+    "content": "'Porta 001 Cx"
+  },
+  "A90": {
+    "alias": null,
+    "content": "'Porta 005 T3z"
+  },
+  "A91": {
+    "alias": null,
+    "content": "'Porta 005 T4x"
+  },
+  "A92": {
+    "alias": null,
+    "content": "'Porta 005 T4z"
+  },
+  "A93": {
+    "alias": null,
+    "content": "'Porta 006 Theta"
+  },
+  "A94": {
+    "alias": null,
+    "content": "'Porta 006 Qx"
+  },
+  "A95": {
+    "alias": null,
+    "content": "'Porta 006 Qz"
+  },
+  "A96": {
+    "alias": null,
+    "content": "'Porta 006 Dist"
+  },
+  "A97": {
+    "alias": null,
+    "content": "'Porta 006 L"
+  },
+  "A98": {
+    "alias": null,
+    "content": "'Porta 006 H"
+  },
+  "A99": {
+    "alias": null,
+    "content": "'Porta 006 Cx"
+  },
+  "B10": {
+    "alias": "D1Cz",
+    "content": "=42.5729320949485 + (B7 * (B5 - 42.5729320949485) + 1 * B8 * (B4 - -17.9948095708183)) / B6"
+  },
+  "B100": {
+    "alias": "D6Cz",
+    "content": "=42.5729320949485 + (B97 * (B95 - 42.5729320949485) + 1 * B98 * (B94 - -17.9948095708183)) / B96"
+  },
+  "B101": {
+    "alias": "D6Dx",
+    "content": "=B99 + cos(B93) * 4.80000000000059 - sin(B93) * -4.60000000000009"
+  },
+  "B102": {
+    "alias": "D6Dz",
+    "content": "=B100 + sin(B93) * 4.80000000000059 + cos(B93) * -4.60000000000009"
+  },
+  "B103": {
+    "alias": "D6Theta2",
+    "content": "=atan2(sin(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B104": {
+    "alias": "D6Theta3",
+    "content": "=atan2(sin(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B105": {
+    "alias": "D6T2x",
+    "content": "=-17.9948095708183 - cos(B103) * -17.9948095708183 + sin(B103) * 42.5729320949485"
+  },
+  "B106": {
+    "alias": "D6T2z",
+    "content": "=42.5729320949485 - sin(B103) * -17.9948095708183 - cos(B103) * 42.5729320949485"
+  },
+  "B107": {
+    "alias": "D6T3x",
+    "content": "=-8.42772945377876 - cos(B104) * -8.42772945377876 + sin(B104) * 34.2911039130707"
+  },
+  "B108": {
+    "alias": "D6T3z",
+    "content": "=34.2911039130707 - sin(B104) * -8.42772945377876 - cos(B104) * 34.2911039130707"
+  },
+  "B109": {
+    "alias": "D6T4x",
+    "content": "=B99 - cos(B93) * 2.05999999999998 + sin(B93) * 45.4000000000001"
+  },
+  "B11": {
+    "alias": "D1Dx",
+    "content": "=B9 + cos(B3) * 4.80000000000059 - sin(B3) * -4.60000000000009"
+  },
+  "B110": {
+    "alias": "D6T4z",
+    "content": "=B100 - sin(B93) * 2.05999999999998 - cos(B93) * 45.4000000000001"
+  },
+  "B111": {
+    "alias": "D7Theta",
+    "content": "=-min(ControlePortaR006.CursoEstudo; max(0 deg; ControlePortaR006.Abertura))"
+  },
+  "B112": {
+    "alias": "D7Qx",
+    "content": "=-8.42772945377876 - cos(B111) * 4.80000000000059 + sin(B111) * -4.60000000000009"
+  },
+  "B113": {
+    "alias": "D7Qz",
+    "content": "=34.2911039130707 - sin(B111) * 4.80000000000059 - cos(B111) * -4.60000000000009"
+  },
+  "B114": {
+    "alias": "D7Dist",
+    "content": "=sqrt((B112 - -17.9948095708183) ^ 2 + (B113 - 42.5729320949485) ^ 2)"
+  },
+  "B115": {
+    "alias": "D7L",
+    "content": "=(410.187699861557 - 276.080400122396 + B114 ^ 2) / (2 * B114)"
+  },
+  "B116": {
+    "alias": "D7H",
+    "content": "=sqrt(410.187699861557 - B115 ^ 2)"
+  },
+  "B117": {
+    "alias": "D7Cx",
+    "content": "=-17.9948095708183 + (B115 * (B112 - -17.9948095708183) - 1 * B116 * (B113 - 42.5729320949485)) / B114"
+  },
+  "B118": {
+    "alias": "D7Cz",
+    "content": "=42.5729320949485 + (B115 * (B113 - 42.5729320949485) + 1 * B116 * (B112 - -17.9948095708183)) / B114"
+  },
+  "B119": {
+    "alias": "D7Dx",
+    "content": "=B117 + cos(B111) * 4.80000000000059 - sin(B111) * -4.60000000000009"
+  },
+  "B12": {
+    "alias": "D1Dz",
+    "content": "=B10 + sin(B3) * 4.80000000000059 + cos(B3) * -4.60000000000009"
+  },
+  "B120": {
+    "alias": "D7Dz",
+    "content": "=B118 + sin(B111) * 4.80000000000059 + cos(B111) * -4.60000000000009"
+  },
+  "B121": {
+    "alias": "D7Theta2",
+    "content": "=atan2(sin(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B122": {
+    "alias": "D7Theta3",
+    "content": "=atan2(sin(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B123": {
+    "alias": "D7T2x",
+    "content": "=-17.9948095708183 - cos(B121) * -17.9948095708183 + sin(B121) * 42.5729320949485"
+  },
+  "B124": {
+    "alias": "D7T2z",
+    "content": "=42.5729320949485 - sin(B121) * -17.9948095708183 - cos(B121) * 42.5729320949485"
+  },
+  "B125": {
+    "alias": "D7T3x",
+    "content": "=-8.42772945377876 - cos(B122) * -8.42772945377876 + sin(B122) * 34.2911039130707"
+  },
+  "B126": {
+    "alias": "D7T3z",
+    "content": "=34.2911039130707 - sin(B122) * -8.42772945377876 - cos(B122) * 34.2911039130707"
+  },
+  "B127": {
+    "alias": "D7T4x",
+    "content": "=B117 - cos(B111) * 2.05999999999998 + sin(B111) * 45.4000000000001"
+  },
+  "B128": {
+    "alias": "D7T4z",
+    "content": "=B118 - sin(B111) * 2.05999999999998 - cos(B111) * 45.4000000000001"
+  },
+  "B129": {
+    "alias": "D8Theta",
+    "content": "=-min(ControlePortaR007.CursoEstudo; max(0 deg; ControlePortaR007.Abertura))"
+  },
+  "B13": {
+    "alias": "D1Theta2",
+    "content": "=atan2(sin(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B130": {
+    "alias": "D8Qx",
+    "content": "=-8.42772945377876 - cos(B129) * 4.80000000000059 + sin(B129) * -4.60000000000009"
+  },
+  "B131": {
+    "alias": "D8Qz",
+    "content": "=34.2911039130707 - sin(B129) * 4.80000000000059 - cos(B129) * -4.60000000000009"
+  },
+  "B132": {
+    "alias": "D8Dist",
+    "content": "=sqrt((B130 - -17.9948095708183) ^ 2 + (B131 - 42.5729320949485) ^ 2)"
+  },
+  "B133": {
+    "alias": "D8L",
+    "content": "=(410.187699861557 - 276.080400122396 + B132 ^ 2) / (2 * B132)"
+  },
+  "B134": {
+    "alias": "D8H",
+    "content": "=sqrt(410.187699861557 - B133 ^ 2)"
+  },
+  "B135": {
+    "alias": "D8Cx",
+    "content": "=-17.9948095708183 + (B133 * (B130 - -17.9948095708183) - 1 * B134 * (B131 - 42.5729320949485)) / B132"
+  },
+  "B136": {
+    "alias": "D8Cz",
+    "content": "=42.5729320949485 + (B133 * (B131 - 42.5729320949485) + 1 * B134 * (B130 - -17.9948095708183)) / B132"
+  },
+  "B137": {
+    "alias": "D8Dx",
+    "content": "=B135 + cos(B129) * 4.80000000000059 - sin(B129) * -4.60000000000009"
+  },
+  "B138": {
+    "alias": "D8Dz",
+    "content": "=B136 + sin(B129) * 4.80000000000059 + cos(B129) * -4.60000000000009"
+  },
+  "B139": {
+    "alias": "D8Theta2",
+    "content": "=atan2(sin(atan2(B136 - 42.5729320949485; B135 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B136 - 42.5729320949485; B135 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B14": {
+    "alias": "D1Theta3",
+    "content": "=atan2(sin(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B140": {
+    "alias": "D8Theta3",
+    "content": "=atan2(sin(atan2(B138 - 34.2911039130707; B137 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B138 - 34.2911039130707; B137 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B141": {
+    "alias": "D8T2x",
+    "content": "=-17.9948095708183 - cos(B139) * -17.9948095708183 + sin(B139) * 42.5729320949485"
+  },
+  "B142": {
+    "alias": "D8T2z",
+    "content": "=42.5729320949485 - sin(B139) * -17.9948095708183 - cos(B139) * 42.5729320949485"
+  },
+  "B143": {
+    "alias": "D8T3x",
+    "content": "=-8.42772945377876 - cos(B140) * -8.42772945377876 + sin(B140) * 34.2911039130707"
+  },
+  "B144": {
+    "alias": "D8T3z",
+    "content": "=34.2911039130707 - sin(B140) * -8.42772945377876 - cos(B140) * 34.2911039130707"
+  },
+  "B145": {
+    "alias": "D8T4x",
+    "content": "=B135 - cos(B129) * 2.05999999999998 + sin(B129) * 45.4000000000001"
+  },
+  "B146": {
+    "alias": "D8T4z",
+    "content": "=B136 - sin(B129) * 2.05999999999998 - cos(B129) * 45.4000000000001"
+  },
+  "B147": {
+    "alias": "D9Theta",
+    "content": "=-min(ControlePortaR008.CursoEstudo; max(0 deg; ControlePortaR008.Abertura))"
+  },
+  "B148": {
+    "alias": "D9Qx",
+    "content": "=-8.42772945377876 - cos(B147) * 4.80000000000059 + sin(B147) * -4.60000000000009"
+  },
+  "B149": {
+    "alias": "D9Qz",
+    "content": "=34.2911039130707 - sin(B147) * 4.80000000000059 - cos(B147) * -4.60000000000009"
+  },
+  "B15": {
+    "alias": "D1T2x",
+    "content": "=-17.9948095708183 - cos(B13) * -17.9948095708183 + sin(B13) * 42.5729320949485"
+  },
+  "B150": {
+    "alias": "D9Dist",
+    "content": "=sqrt((B148 - -17.9948095708183) ^ 2 + (B149 - 42.5729320949485) ^ 2)"
+  },
+  "B151": {
+    "alias": "D9L",
+    "content": "=(410.187699861557 - 276.080400122396 + B150 ^ 2) / (2 * B150)"
+  },
+  "B152": {
+    "alias": "D9H",
+    "content": "=sqrt(410.187699861557 - B151 ^ 2)"
+  },
+  "B153": {
+    "alias": "D9Cx",
+    "content": "=-17.9948095708183 + (B151 * (B148 - -17.9948095708183) - 1 * B152 * (B149 - 42.5729320949485)) / B150"
+  },
+  "B154": {
+    "alias": "D9Cz",
+    "content": "=42.5729320949485 + (B151 * (B149 - 42.5729320949485) + 1 * B152 * (B148 - -17.9948095708183)) / B150"
+  },
+  "B155": {
+    "alias": "D9Dx",
+    "content": "=B153 + cos(B147) * 4.80000000000059 - sin(B147) * -4.60000000000009"
+  },
+  "B156": {
+    "alias": "D9Dz",
+    "content": "=B154 + sin(B147) * 4.80000000000059 + cos(B147) * -4.60000000000009"
+  },
+  "B157": {
+    "alias": "D9Theta2",
+    "content": "=atan2(sin(atan2(B154 - 42.5729320949485; B153 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B154 - 42.5729320949485; B153 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B158": {
+    "alias": "D9Theta3",
+    "content": "=atan2(sin(atan2(B156 - 34.2911039130707; B155 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B156 - 34.2911039130707; B155 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B159": {
+    "alias": "D9T2x",
+    "content": "=-17.9948095708183 - cos(B157) * -17.9948095708183 + sin(B157) * 42.5729320949485"
+  },
+  "B16": {
+    "alias": "D1T2z",
+    "content": "=42.5729320949485 - sin(B13) * -17.9948095708183 - cos(B13) * 42.5729320949485"
+  },
+  "B160": {
+    "alias": "D9T2z",
+    "content": "=42.5729320949485 - sin(B157) * -17.9948095708183 - cos(B157) * 42.5729320949485"
+  },
+  "B161": {
+    "alias": "D9T3x",
+    "content": "=-8.42772945377876 - cos(B158) * -8.42772945377876 + sin(B158) * 34.2911039130707"
+  },
+  "B162": {
+    "alias": "D9T3z",
+    "content": "=34.2911039130707 - sin(B158) * -8.42772945377876 - cos(B158) * 34.2911039130707"
+  },
+  "B163": {
+    "alias": "D9T4x",
+    "content": "=B153 - cos(B147) * 2.05999999999998 + sin(B147) * 45.4000000000001"
+  },
+  "B164": {
+    "alias": "D9T4z",
+    "content": "=B154 - sin(B147) * 2.05999999999998 - cos(B147) * 45.4000000000001"
+  },
+  "B165": {
+    "alias": "D10Theta",
+    "content": "=-min(ControlePortaR009.CursoEstudo; max(0 deg; ControlePortaR009.Abertura))"
+  },
+  "B166": {
+    "alias": "D10Qx",
+    "content": "=-8.42772945377876 - cos(B165) * 4.80000000000059 + sin(B165) * -4.60000000000009"
+  },
+  "B167": {
+    "alias": "D10Qz",
+    "content": "=34.2911039130707 - sin(B165) * 4.80000000000059 - cos(B165) * -4.60000000000009"
+  },
+  "B168": {
+    "alias": "D10Dist",
+    "content": "=sqrt((B166 - -17.9948095708183) ^ 2 + (B167 - 42.5729320949485) ^ 2)"
+  },
+  "B169": {
+    "alias": "D10L",
+    "content": "=(410.187699861557 - 276.080400122396 + B168 ^ 2) / (2 * B168)"
+  },
+  "B17": {
+    "alias": "D1T3x",
+    "content": "=-8.42772945377876 - cos(B14) * -8.42772945377876 + sin(B14) * 34.2911039130707"
+  },
+  "B170": {
+    "alias": "D10H",
+    "content": "=sqrt(410.187699861557 - B169 ^ 2)"
+  },
+  "B171": {
+    "alias": "D10Cx",
+    "content": "=-17.9948095708183 + (B169 * (B166 - -17.9948095708183) - 1 * B170 * (B167 - 42.5729320949485)) / B168"
+  },
+  "B172": {
+    "alias": "D10Cz",
+    "content": "=42.5729320949485 + (B169 * (B167 - 42.5729320949485) + 1 * B170 * (B166 - -17.9948095708183)) / B168"
+  },
+  "B173": {
+    "alias": "D10Dx",
+    "content": "=B171 + cos(B165) * 4.80000000000059 - sin(B165) * -4.60000000000009"
+  },
+  "B174": {
+    "alias": "D10Dz",
+    "content": "=B172 + sin(B165) * 4.80000000000059 + cos(B165) * -4.60000000000009"
+  },
+  "B175": {
+    "alias": "D10Theta2",
+    "content": "=atan2(sin(atan2(B172 - 42.5729320949485; B171 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B172 - 42.5729320949485; B171 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B176": {
+    "alias": "D10Theta3",
+    "content": "=atan2(sin(atan2(B174 - 34.2911039130707; B173 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B174 - 34.2911039130707; B173 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B177": {
+    "alias": "D10T2x",
+    "content": "=-17.9948095708183 - cos(B175) * -17.9948095708183 + sin(B175) * 42.5729320949485"
+  },
+  "B178": {
+    "alias": "D10T2z",
+    "content": "=42.5729320949485 - sin(B175) * -17.9948095708183 - cos(B175) * 42.5729320949485"
+  },
+  "B179": {
+    "alias": "D10T3x",
+    "content": "=-8.42772945377876 - cos(B176) * -8.42772945377876 + sin(B176) * 34.2911039130707"
+  },
+  "B18": {
+    "alias": "D1T3z",
+    "content": "=34.2911039130707 - sin(B14) * -8.42772945377876 - cos(B14) * 34.2911039130707"
+  },
+  "B180": {
+    "alias": "D10T3z",
+    "content": "=34.2911039130707 - sin(B176) * -8.42772945377876 - cos(B176) * 34.2911039130707"
+  },
+  "B181": {
+    "alias": "D10T4x",
+    "content": "=B171 - cos(B165) * 2.05999999999998 + sin(B165) * 45.4000000000001"
+  },
+  "B182": {
+    "alias": "D10T4z",
+    "content": "=B172 - sin(B165) * 2.05999999999998 - cos(B165) * 45.4000000000001"
+  },
+  "B183": {
+    "alias": "D11Theta",
+    "content": "=-min(ControlePortaR010.CursoEstudo; max(0 deg; ControlePortaR010.Abertura))"
+  },
+  "B184": {
+    "alias": "D11Qx",
+    "content": "=-8.42772945377876 - cos(B183) * 4.80000000000059 + sin(B183) * -4.60000000000009"
+  },
+  "B185": {
+    "alias": "D11Qz",
+    "content": "=34.2911039130707 - sin(B183) * 4.80000000000059 - cos(B183) * -4.60000000000009"
+  },
+  "B186": {
+    "alias": "D11Dist",
+    "content": "=sqrt((B184 - -17.9948095708183) ^ 2 + (B185 - 42.5729320949485) ^ 2)"
+  },
+  "B187": {
+    "alias": "D11L",
+    "content": "=(410.187699861557 - 276.080400122396 + B186 ^ 2) / (2 * B186)"
+  },
+  "B188": {
+    "alias": "D11H",
+    "content": "=sqrt(410.187699861557 - B187 ^ 2)"
+  },
+  "B189": {
+    "alias": "D11Cx",
+    "content": "=-17.9948095708183 + (B187 * (B184 - -17.9948095708183) - 1 * B188 * (B185 - 42.5729320949485)) / B186"
+  },
+  "B19": {
+    "alias": "D1T4x",
+    "content": "=B9 - cos(B3) * 2.05999999999998 + sin(B3) * 45.4000000000001"
+  },
+  "B190": {
+    "alias": "D11Cz",
+    "content": "=42.5729320949485 + (B187 * (B185 - 42.5729320949485) + 1 * B188 * (B184 - -17.9948095708183)) / B186"
+  },
+  "B191": {
+    "alias": "D11Dx",
+    "content": "=B189 + cos(B183) * 4.80000000000059 - sin(B183) * -4.60000000000009"
+  },
+  "B192": {
+    "alias": "D11Dz",
+    "content": "=B190 + sin(B183) * 4.80000000000059 + cos(B183) * -4.60000000000009"
+  },
+  "B193": {
+    "alias": "D11Theta2",
+    "content": "=atan2(sin(atan2(B190 - 42.5729320949485; B189 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B190 - 42.5729320949485; B189 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B194": {
+    "alias": "D11Theta3",
+    "content": "=atan2(sin(atan2(B192 - 34.2911039130707; B191 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B192 - 34.2911039130707; B191 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B195": {
+    "alias": "D11T2x",
+    "content": "=-17.9948095708183 - cos(B193) * -17.9948095708183 + sin(B193) * 42.5729320949485"
+  },
+  "B196": {
+    "alias": "D11T2z",
+    "content": "=42.5729320949485 - sin(B193) * -17.9948095708183 - cos(B193) * 42.5729320949485"
+  },
+  "B197": {
+    "alias": "D11T3x",
+    "content": "=-8.42772945377876 - cos(B194) * -8.42772945377876 + sin(B194) * 34.2911039130707"
+  },
+  "B198": {
+    "alias": "D11T3z",
+    "content": "=34.2911039130707 - sin(B194) * -8.42772945377876 - cos(B194) * 34.2911039130707"
+  },
+  "B199": {
+    "alias": "D11T4x",
+    "content": "=B189 - cos(B183) * 2.05999999999998 + sin(B183) * 45.4000000000001"
+  },
+  "B20": {
+    "alias": "D1T4z",
+    "content": "=B10 - sin(B3) * 2.05999999999998 - cos(B3) * 45.4000000000001"
+  },
+  "B200": {
+    "alias": "D11T4z",
+    "content": "=B190 - sin(B183) * 2.05999999999998 - cos(B183) * 45.4000000000001"
+  },
+  "B201": {
+    "alias": "D12Theta",
+    "content": "=-min(ControlePortaR011.CursoEstudo; max(0 deg; ControlePortaR011.Abertura))"
+  },
+  "B202": {
+    "alias": "D12Qx",
+    "content": "=-8.42772945377876 - cos(B201) * 4.80000000000059 + sin(B201) * -4.60000000000009"
+  },
+  "B203": {
+    "alias": "D12Qz",
+    "content": "=34.2911039130707 - sin(B201) * 4.80000000000059 - cos(B201) * -4.60000000000009"
+  },
+  "B204": {
+    "alias": "D12Dist",
+    "content": "=sqrt((B202 - -17.9948095708183) ^ 2 + (B203 - 42.5729320949485) ^ 2)"
+  },
+  "B205": {
+    "alias": "D12L",
+    "content": "=(410.187699861557 - 276.080400122396 + B204 ^ 2) / (2 * B204)"
+  },
+  "B206": {
+    "alias": "D12H",
+    "content": "=sqrt(410.187699861557 - B205 ^ 2)"
+  },
+  "B207": {
+    "alias": "D12Cx",
+    "content": "=-17.9948095708183 + (B205 * (B202 - -17.9948095708183) - 1 * B206 * (B203 - 42.5729320949485)) / B204"
+  },
+  "B208": {
+    "alias": "D12Cz",
+    "content": "=42.5729320949485 + (B205 * (B203 - 42.5729320949485) + 1 * B206 * (B202 - -17.9948095708183)) / B204"
+  },
+  "B209": {
+    "alias": "D12Dx",
+    "content": "=B207 + cos(B201) * 4.80000000000059 - sin(B201) * -4.60000000000009"
+  },
+  "B21": {
+    "alias": "D2Theta",
+    "content": "=-min(ControlePortaR001.CursoEstudo; max(0 deg; ControlePortaR001.Abertura))"
+  },
+  "B210": {
+    "alias": "D12Dz",
+    "content": "=B208 + sin(B201) * 4.80000000000059 + cos(B201) * -4.60000000000009"
+  },
+  "B211": {
+    "alias": "D12Theta2",
+    "content": "=atan2(sin(atan2(B208 - 42.5729320949485; B207 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B208 - 42.5729320949485; B207 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B212": {
+    "alias": "D12Theta3",
+    "content": "=atan2(sin(atan2(B210 - 34.2911039130707; B209 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B210 - 34.2911039130707; B209 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B213": {
+    "alias": "D12T2x",
+    "content": "=-17.9948095708183 - cos(B211) * -17.9948095708183 + sin(B211) * 42.5729320949485"
+  },
+  "B214": {
+    "alias": "D12T2z",
+    "content": "=42.5729320949485 - sin(B211) * -17.9948095708183 - cos(B211) * 42.5729320949485"
+  },
+  "B215": {
+    "alias": "D12T3x",
+    "content": "=-8.42772945377876 - cos(B212) * -8.42772945377876 + sin(B212) * 34.2911039130707"
+  },
+  "B216": {
+    "alias": "D12T3z",
+    "content": "=34.2911039130707 - sin(B212) * -8.42772945377876 - cos(B212) * 34.2911039130707"
+  },
+  "B217": {
+    "alias": "D12T4x",
+    "content": "=B207 - cos(B201) * 2.05999999999998 + sin(B201) * 45.4000000000001"
+  },
+  "B218": {
+    "alias": "D12T4z",
+    "content": "=B208 - sin(B201) * 2.05999999999998 - cos(B201) * 45.4000000000001"
+  },
+  "B22": {
+    "alias": "D2Qx",
+    "content": "=-8.42772945377876 - cos(B21) * 4.80000000000059 + sin(B21) * -4.60000000000009"
+  },
+  "B23": {
+    "alias": "D2Qz",
+    "content": "=34.2911039130707 - sin(B21) * 4.80000000000059 - cos(B21) * -4.60000000000009"
+  },
+  "B24": {
+    "alias": "D2Dist",
+    "content": "=sqrt((B22 - -17.9948095708183) ^ 2 + (B23 - 42.5729320949485) ^ 2)"
+  },
+  "B25": {
+    "alias": "D2L",
+    "content": "=(410.187699861557 - 276.080400122396 + B24 ^ 2) / (2 * B24)"
+  },
+  "B26": {
+    "alias": "D2H",
+    "content": "=sqrt(410.187699861557 - B25 ^ 2)"
+  },
+  "B27": {
+    "alias": "D2Cx",
+    "content": "=-17.9948095708183 + (B25 * (B22 - -17.9948095708183) - 1 * B26 * (B23 - 42.5729320949485)) / B24"
+  },
+  "B28": {
+    "alias": "D2Cz",
+    "content": "=42.5729320949485 + (B25 * (B23 - 42.5729320949485) + 1 * B26 * (B22 - -17.9948095708183)) / B24"
+  },
+  "B29": {
+    "alias": "D2Dx",
+    "content": "=B27 + cos(B21) * 4.80000000000059 - sin(B21) * -4.60000000000009"
+  },
+  "B3": {
+    "alias": "D1Theta",
+    "content": "=-min(ControlePortaR10.CursoEstudo; max(0 deg; ControlePortaR10.Abertura))"
+  },
+  "B30": {
+    "alias": "D2Dz",
+    "content": "=B28 + sin(B21) * 4.80000000000059 + cos(B21) * -4.60000000000009"
+  },
+  "B31": {
+    "alias": "D2Theta2",
+    "content": "=atan2(sin(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B32": {
+    "alias": "D2Theta3",
+    "content": "=atan2(sin(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B33": {
+    "alias": "D2T2x",
+    "content": "=-17.9948095708183 - cos(B31) * -17.9948095708183 + sin(B31) * 42.5729320949485"
+  },
+  "B34": {
+    "alias": "D2T2z",
+    "content": "=42.5729320949485 - sin(B31) * -17.9948095708183 - cos(B31) * 42.5729320949485"
+  },
+  "B35": {
+    "alias": "D2T3x",
+    "content": "=-8.42772945377876 - cos(B32) * -8.42772945377876 + sin(B32) * 34.2911039130707"
+  },
+  "B36": {
+    "alias": "D2T3z",
+    "content": "=34.2911039130707 - sin(B32) * -8.42772945377876 - cos(B32) * 34.2911039130707"
+  },
+  "B37": {
+    "alias": "D2T4x",
+    "content": "=B27 - cos(B21) * 2.05999999999998 + sin(B21) * 45.4000000000001"
+  },
+  "B38": {
+    "alias": "D2T4z",
+    "content": "=B28 - sin(B21) * 2.05999999999998 - cos(B21) * 45.4000000000001"
+  },
+  "B39": {
+    "alias": "D3Theta",
+    "content": "=-min(ControlePortaR002.CursoEstudo; max(0 deg; ControlePortaR002.Abertura))"
+  },
+  "B4": {
+    "alias": "D1Qx",
+    "content": "=-8.42772945377876 - cos(B3) * 4.80000000000059 + sin(B3) * -4.60000000000009"
+  },
+  "B40": {
+    "alias": "D3Qx",
+    "content": "=-8.42772945377876 - cos(B39) * 4.80000000000059 + sin(B39) * -4.60000000000009"
+  },
+  "B41": {
+    "alias": "D3Qz",
+    "content": "=34.2911039130707 - sin(B39) * 4.80000000000059 - cos(B39) * -4.60000000000009"
+  },
+  "B42": {
+    "alias": "D3Dist",
+    "content": "=sqrt((B40 - -17.9948095708183) ^ 2 + (B41 - 42.5729320949485) ^ 2)"
+  },
+  "B43": {
+    "alias": "D3L",
+    "content": "=(410.187699861557 - 276.080400122396 + B42 ^ 2) / (2 * B42)"
+  },
+  "B44": {
+    "alias": "D3H",
+    "content": "=sqrt(410.187699861557 - B43 ^ 2)"
+  },
+  "B45": {
+    "alias": "D3Cx",
+    "content": "=-17.9948095708183 + (B43 * (B40 - -17.9948095708183) - 1 * B44 * (B41 - 42.5729320949485)) / B42"
+  },
+  "B46": {
+    "alias": "D3Cz",
+    "content": "=42.5729320949485 + (B43 * (B41 - 42.5729320949485) + 1 * B44 * (B40 - -17.9948095708183)) / B42"
+  },
+  "B47": {
+    "alias": "D3Dx",
+    "content": "=B45 + cos(B39) * 4.80000000000059 - sin(B39) * -4.60000000000009"
+  },
+  "B48": {
+    "alias": "D3Dz",
+    "content": "=B46 + sin(B39) * 4.80000000000059 + cos(B39) * -4.60000000000009"
+  },
+  "B49": {
+    "alias": "D3Theta2",
+    "content": "=atan2(sin(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B5": {
+    "alias": "D1Qz",
+    "content": "=34.2911039130707 - sin(B3) * 4.80000000000059 - cos(B3) * -4.60000000000009"
+  },
+  "B50": {
+    "alias": "D3Theta3",
+    "content": "=atan2(sin(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B51": {
+    "alias": "D3T2x",
+    "content": "=-17.9948095708183 - cos(B49) * -17.9948095708183 + sin(B49) * 42.5729320949485"
+  },
+  "B52": {
+    "alias": "D3T2z",
+    "content": "=42.5729320949485 - sin(B49) * -17.9948095708183 - cos(B49) * 42.5729320949485"
+  },
+  "B53": {
+    "alias": "D3T3x",
+    "content": "=-8.42772945377876 - cos(B50) * -8.42772945377876 + sin(B50) * 34.2911039130707"
+  },
+  "B54": {
+    "alias": "D3T3z",
+    "content": "=34.2911039130707 - sin(B50) * -8.42772945377876 - cos(B50) * 34.2911039130707"
+  },
+  "B55": {
+    "alias": "D3T4x",
+    "content": "=B45 - cos(B39) * 2.05999999999998 + sin(B39) * 45.4000000000001"
+  },
+  "B56": {
+    "alias": "D3T4z",
+    "content": "=B46 - sin(B39) * 2.05999999999998 - cos(B39) * 45.4000000000001"
+  },
+  "B57": {
+    "alias": "D4Theta",
+    "content": "=-min(ControlePortaR003.CursoEstudo; max(0 deg; ControlePortaR003.Abertura))"
+  },
+  "B58": {
+    "alias": "D4Qx",
+    "content": "=-8.42772945377876 - cos(B57) * 4.80000000000059 + sin(B57) * -4.60000000000009"
+  },
+  "B59": {
+    "alias": "D4Qz",
+    "content": "=34.2911039130707 - sin(B57) * 4.80000000000059 - cos(B57) * -4.60000000000009"
+  },
+  "B6": {
+    "alias": "D1Dist",
+    "content": "=sqrt((B4 - -17.9948095708183) ^ 2 + (B5 - 42.5729320949485) ^ 2)"
+  },
+  "B60": {
+    "alias": "D4Dist",
+    "content": "=sqrt((B58 - -17.9948095708183) ^ 2 + (B59 - 42.5729320949485) ^ 2)"
+  },
+  "B61": {
+    "alias": "D4L",
+    "content": "=(410.187699861557 - 276.080400122396 + B60 ^ 2) / (2 * B60)"
+  },
+  "B62": {
+    "alias": "D4H",
+    "content": "=sqrt(410.187699861557 - B61 ^ 2)"
+  },
+  "B63": {
+    "alias": "D4Cx",
+    "content": "=-17.9948095708183 + (B61 * (B58 - -17.9948095708183) - 1 * B62 * (B59 - 42.5729320949485)) / B60"
+  },
+  "B64": {
+    "alias": "D4Cz",
+    "content": "=42.5729320949485 + (B61 * (B59 - 42.5729320949485) + 1 * B62 * (B58 - -17.9948095708183)) / B60"
+  },
+  "B65": {
+    "alias": "D4Dx",
+    "content": "=B63 + cos(B57) * 4.80000000000059 - sin(B57) * -4.60000000000009"
+  },
+  "B66": {
+    "alias": "D4Dz",
+    "content": "=B64 + sin(B57) * 4.80000000000059 + cos(B57) * -4.60000000000009"
+  },
+  "B67": {
+    "alias": "D4Theta2",
+    "content": "=atan2(sin(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B68": {
+    "alias": "D4Theta3",
+    "content": "=atan2(sin(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B69": {
+    "alias": "D4T2x",
+    "content": "=-17.9948095708183 - cos(B67) * -17.9948095708183 + sin(B67) * 42.5729320949485"
+  },
+  "B7": {
+    "alias": "D1L",
+    "content": "=(410.187699861557 - 276.080400122396 + B6 ^ 2) / (2 * B6)"
+  },
+  "B70": {
+    "alias": "D4T2z",
+    "content": "=42.5729320949485 - sin(B67) * -17.9948095708183 - cos(B67) * 42.5729320949485"
+  },
+  "B71": {
+    "alias": "D4T3x",
+    "content": "=-8.42772945377876 - cos(B68) * -8.42772945377876 + sin(B68) * 34.2911039130707"
+  },
+  "B72": {
+    "alias": "D4T3z",
+    "content": "=34.2911039130707 - sin(B68) * -8.42772945377876 - cos(B68) * 34.2911039130707"
+  },
+  "B73": {
+    "alias": "D4T4x",
+    "content": "=B63 - cos(B57) * 2.05999999999998 + sin(B57) * 45.4000000000001"
+  },
+  "B74": {
+    "alias": "D4T4z",
+    "content": "=B64 - sin(B57) * 2.05999999999998 - cos(B57) * 45.4000000000001"
+  },
+  "B75": {
+    "alias": "D5Theta",
+    "content": "=-min(ControlePortaR004.CursoEstudo; max(0 deg; ControlePortaR004.Abertura))"
+  },
+  "B76": {
+    "alias": "D5Qx",
+    "content": "=-8.42772945377876 - cos(B75) * 4.80000000000059 + sin(B75) * -4.60000000000009"
+  },
+  "B77": {
+    "alias": "D5Qz",
+    "content": "=34.2911039130707 - sin(B75) * 4.80000000000059 - cos(B75) * -4.60000000000009"
+  },
+  "B78": {
+    "alias": "D5Dist",
+    "content": "=sqrt((B76 - -17.9948095708183) ^ 2 + (B77 - 42.5729320949485) ^ 2)"
+  },
+  "B79": {
+    "alias": "D5L",
+    "content": "=(410.187699861557 - 276.080400122396 + B78 ^ 2) / (2 * B78)"
+  },
+  "B8": {
+    "alias": "D1H",
+    "content": "=sqrt(410.187699861557 - B7 ^ 2)"
+  },
+  "B80": {
+    "alias": "D5H",
+    "content": "=sqrt(410.187699861557 - B79 ^ 2)"
+  },
+  "B81": {
+    "alias": "D5Cx",
+    "content": "=-17.9948095708183 + (B79 * (B76 - -17.9948095708183) - 1 * B80 * (B77 - 42.5729320949485)) / B78"
+  },
+  "B82": {
+    "alias": "D5Cz",
+    "content": "=42.5729320949485 + (B79 * (B77 - 42.5729320949485) + 1 * B80 * (B76 - -17.9948095708183)) / B78"
+  },
+  "B83": {
+    "alias": "D5Dx",
+    "content": "=B81 + cos(B75) * 4.80000000000059 - sin(B75) * -4.60000000000009"
+  },
+  "B84": {
+    "alias": "D5Dz",
+    "content": "=B82 + sin(B75) * 4.80000000000059 + cos(B75) * -4.60000000000009"
+  },
+  "B85": {
+    "alias": "D5Theta2",
+    "content": "=atan2(sin(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg))"
+  },
+  "B86": {
+    "alias": "D5Theta3",
+    "content": "=atan2(sin(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg))"
+  },
+  "B87": {
+    "alias": "D5T2x",
+    "content": "=-17.9948095708183 - cos(B85) * -17.9948095708183 + sin(B85) * 42.5729320949485"
+  },
+  "B88": {
+    "alias": "D5T2z",
+    "content": "=42.5729320949485 - sin(B85) * -17.9948095708183 - cos(B85) * 42.5729320949485"
+  },
+  "B89": {
+    "alias": "D5T3x",
+    "content": "=-8.42772945377876 - cos(B86) * -8.42772945377876 + sin(B86) * 34.2911039130707"
+  },
+  "B9": {
+    "alias": "D1Cx",
+    "content": "=-17.9948095708183 + (B7 * (B4 - -17.9948095708183) - 1 * B8 * (B5 - 42.5729320949485)) / B6"
+  },
+  "B90": {
+    "alias": "D5T3z",
+    "content": "=34.2911039130707 - sin(B86) * -8.42772945377876 - cos(B86) * 34.2911039130707"
+  },
+  "B91": {
+    "alias": "D5T4x",
+    "content": "=B81 - cos(B75) * 2.05999999999998 + sin(B75) * 45.4000000000001"
+  },
+  "B92": {
+    "alias": "D5T4z",
+    "content": "=B82 - sin(B75) * 2.05999999999998 - cos(B75) * 45.4000000000001"
+  },
+  "B93": {
+    "alias": "D6Theta",
+    "content": "=-min(ControlePortaR005.CursoEstudo; max(0 deg; ControlePortaR005.Abertura))"
+  },
+  "B94": {
+    "alias": "D6Qx",
+    "content": "=-8.42772945377876 - cos(B93) * 4.80000000000059 + sin(B93) * -4.60000000000009"
+  },
+  "B95": {
+    "alias": "D6Qz",
+    "content": "=34.2911039130707 - sin(B93) * 4.80000000000059 - cos(B93) * -4.60000000000009"
+  },
+  "B96": {
+    "alias": "D6Dist",
+    "content": "=sqrt((B94 - -17.9948095708183) ^ 2 + (B95 - 42.5729320949485) ^ 2)"
+  },
+  "B97": {
+    "alias": "D6L",
+    "content": "=(410.187699861557 - 276.080400122396 + B96 ^ 2) / (2 * B96)"
+  },
+  "B98": {
+    "alias": "D6H",
+    "content": "=sqrt(410.187699861557 - B97 ^ 2)"
+  },
+  "B99": {
+    "alias": "D6Cx",
+    "content": "=-17.9948095708183 + (B97 * (B94 - -17.9948095708183) - 1 * B98 * (B95 - 42.5729320949485)) / B96"
+  }
+}

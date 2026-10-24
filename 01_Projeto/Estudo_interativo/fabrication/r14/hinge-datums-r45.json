@@ -1,0 +1,990 @@
+{
+  "source": "01_Projeto\\Consolidacao_R45_2026-10-23\\Guedala_Park_R45_Consolidado.FCStd",
+  "sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "doors": [
+    {
+      "module": "P02",
+      "part": "FrenteSimplesR04",
+      "base": "PainelSimplesR04",
+      "baseDimensions": [
+        271.0,
+        18.0,
+        306.0
+      ],
+      "width": 271.0,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "FuroSimplesR04",
+          "centerFromHingeEdge": 21.5,
+          "heightFromBottom": 50.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            21.5,
+            18.0,
+            50.0
+          ]
+        },
+        {
+          "source": "FuroSimplesR001",
+          "centerFromHingeEdge": 21.5,
+          "heightFromBottom": 254.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            21.5,
+            18.0,
+            254.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P02",
+      "part": "FrenteSimplesR001",
+      "base": "PainelSimplesR001",
+      "baseDimensions": [
+        18.0,
+        271.0,
+        306.0
+      ],
+      "width": 271.0,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "FuroSimplesR002",
+          "centerFromHingeEdge": 21.5,
+          "heightFromBottom": 50.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            18.0,
+            21.5,
+            50.0
+          ]
+        },
+        {
+          "source": "FuroSimplesR003",
+          "centerFromHingeEdge": 21.5,
+          "heightFromBottom": 254.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            18.0,
+            21.5,
+            254.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P04",
+      "part": "FrenteComumR015",
+      "base": "Peca271",
+      "baseDimensions": [
+        439.75,
+        18.0,
+        306.0
+      ],
+      "width": 439.75,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR031",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            417.25,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR032",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 227.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            417.25,
+            18.0,
+            227.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P04",
+      "part": "FrenteComumR016",
+      "base": "Peca272",
+      "baseDimensions": [
+        439.75,
+        18.0,
+        306.0
+      ],
+      "width": 439.75,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR033",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR034",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 227.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            227.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P04",
+      "part": "FrenteComumR017",
+      "base": "Peca273",
+      "baseDimensions": [
+        440.25,
+        18.0,
+        306.0
+      ],
+      "width": 440.25,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR035",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            417.75,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR036",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 227.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            417.75,
+            18.0,
+            227.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P04",
+      "part": "FrenteVizinhaR18",
+      "base": "PainelVizinhaR18",
+      "baseDimensions": [
+        440.25,
+        18.0,
+        306.0
+      ],
+      "width": 440.25,
+      "height": 306.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoVizinhaR18",
+          "centerFromHingeEdge": 23.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            23.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoVizinhaR002",
+          "centerFromHingeEdge": 23.5,
+          "heightFromBottom": 227.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            23.5,
+            18.0,
+            227.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P05",
+      "part": "FrenteComumR10",
+      "base": "Peca281",
+      "baseDimensions": [
+        322.0,
+        18.0,
+        718.0
+      ],
+      "width": 322.0,
+      "height": 718.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR10",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            299.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR001",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 639.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            299.5,
+            18.0,
+            639.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P05",
+      "part": "FrenteComumR001",
+      "base": "Peca282",
+      "baseDimensions": [
+        322.0,
+        18.0,
+        718.0
+      ],
+      "width": 322.0,
+      "height": 718.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR002",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR003",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 639.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            639.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P09",
+      "part": "FrenteComumR002",
+      "base": "Peca322",
+      "baseDimensions": [
+        322.0,
+        18.0,
+        590.0
+      ],
+      "width": 322.0,
+      "height": 590.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR004",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            299.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR005",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 511.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            299.5,
+            18.0,
+            511.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P09",
+      "part": "FrenteComumR003",
+      "base": "Peca323",
+      "baseDimensions": [
+        322.0,
+        18.0,
+        590.0
+      ],
+      "width": 322.0,
+      "height": 590.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR006",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR007",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 511.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            511.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P10",
+      "part": "FrenteComumR004",
+      "base": "Peca332",
+      "baseDimensions": [
+        270.5,
+        18.0,
+        1016.0
+      ],
+      "width": 270.5,
+      "height": 1016.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR008",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            248.0,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR009",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 937.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            248.0,
+            18.0,
+            937.0
+          ]
+        },
+        {
+          "source": "CanecoComumR046",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 508.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            248.0,
+            18.0,
+            508.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P10",
+      "part": "FrenteComumR005",
+      "base": "Peca333",
+      "baseDimensions": [
+        270.5,
+        18.0,
+        1016.0
+      ],
+      "width": 270.5,
+      "height": 1016.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR010",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR011",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 937.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            937.0
+          ]
+        },
+        {
+          "source": "CanecoComumR047",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 508.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            508.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P11",
+      "part": "FrenteComumR006",
+      "base": "Peca340",
+      "baseDimensions": [
+        345.5,
+        18.0,
+        608.0
+      ],
+      "width": 345.5,
+      "height": 608.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR012",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            323.0,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR013",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 529.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            323.0,
+            18.0,
+            529.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P11",
+      "part": "FrenteComumR007",
+      "base": "Peca341",
+      "baseDimensions": [
+        345.5,
+        18.0,
+        608.0
+      ],
+      "width": 345.5,
+      "height": 608.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR014",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR015",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 529.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            529.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P12",
+      "part": "FrenteComumR008",
+      "base": "Peca348",
+      "baseDimensions": [
+        397.5,
+        18.0,
+        582.0
+      ],
+      "width": 397.5,
+      "height": 582.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR016",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            375.0,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR017",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 503.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            375.0,
+            18.0,
+            503.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P12",
+      "part": "FrenteComumR009",
+      "base": "Peca349",
+      "baseDimensions": [
+        397.5,
+        18.0,
+        582.0
+      ],
+      "width": 397.5,
+      "height": 582.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR018",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR019",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 503.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            503.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P15",
+      "part": "FrenteComumR010",
+      "base": "Peca364",
+      "baseDimensions": [
+        414.5,
+        18.0,
+        578.0
+      ],
+      "width": 414.5,
+      "height": 578.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR020",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            392.0,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR021",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 499.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            392.0,
+            18.0,
+            499.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P15",
+      "part": "FrenteComumR011",
+      "base": "Peca365",
+      "baseDimensions": [
+        414.5,
+        18.0,
+        578.0
+      ],
+      "width": 414.5,
+      "height": 578.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR022",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR023",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 499.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            499.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P17",
+      "part": "FrenteComumR11",
+      "base": "PainelEscritorioR11",
+      "baseDimensions": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "width": 496.0,
+      "height": 548.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR11",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            473.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR024",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 469.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            473.5,
+            18.0,
+            469.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P17",
+      "part": "FrenteComumR012",
+      "base": "PainelEscritorioR001",
+      "baseDimensions": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "width": 496.0,
+      "height": 548.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR025",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR026",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 469.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            469.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P17",
+      "part": "FrenteComumR013",
+      "base": "PainelEscritorioR002",
+      "baseDimensions": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "width": 496.0,
+      "height": 548.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR027",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            473.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR028",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 469.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            473.5,
+            18.0,
+            469.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P17",
+      "part": "FrenteComumR014",
+      "base": "PainelEscritorioR003",
+      "baseDimensions": [
+        496.0,
+        18.0,
+        548.0
+      ],
+      "width": 496.0,
+      "height": 548.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR029",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR030",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 469.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            469.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P19",
+      "part": "FrenteComumR019",
+      "base": "PainelBanheiroR002",
+      "baseDimensions": [
+        297.0,
+        18.0,
+        748.0
+      ],
+      "width": 297.0,
+      "height": 748.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR040",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            274.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR041",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 374.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            274.5,
+            18.0,
+            374.0
+          ]
+        },
+        {
+          "source": "CanecoComumR042",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 669.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            274.5,
+            18.0,
+            669.0
+          ]
+        }
+      ]
+    },
+    {
+      "module": "P19",
+      "part": "FrenteComumR020",
+      "base": "PainelBanheiroR003",
+      "baseDimensions": [
+        297.0,
+        18.0,
+        748.0
+      ],
+      "width": 297.0,
+      "height": 748.0,
+      "thickness": 18.0,
+      "holes": [
+        {
+          "source": "CanecoComumR043",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 79.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            79.0
+          ]
+        },
+        {
+          "source": "CanecoComumR044",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 374.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            374.0
+          ]
+        },
+        {
+          "source": "CanecoComumR045",
+          "centerFromHingeEdge": 22.5,
+          "heightFromBottom": 669.0,
+          "diameter": 35.0,
+          "depth": 13.0,
+          "localCenter": [
+            22.5,
+            18.0,
+            669.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+CONFERENCIA DO CORREDOR BERLIN - R42 - 21/10/2026 local
+
+Resultados: Corredor_Berlin_R42.png/.svg; JSON com fonte/hash/objetos/premissas; CSV por cadeira e recuo.
+Modelo R42 somente lido pelo kernel FreeCAD1.1.4, sem saveDocument. Hash b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26.
+
+LADO OPOSTO
+Parede externa do banheiro: X2660 mm, Y3950..5390. Lixeira Biovis existente: corpo X2320..2660/Y5080..5290; pedal X2300..2350/Y5140..5230/Z10..30. O pedal baixo reduz2cm adicionais ao corpo. Nao tratar a parede como continua alem dessa faixa.
+Aberta3laterais: faixa minima81,5/61,5/51,5cm com cadeiras guardadas/puxadas20/30cm. Corpo da lixeira sozinho:83,5/63,5/53,5cm. Nas outras cadeiras junto a parede:117,5/97,5/87,5cm.
+Fechada2pontas+1lateral: atras da cadeira lateral117,5/97,5/87,5cm. Considerando toda a extensao do tampo, a lixeira cria outro estreitamento de102,5cm, resultando minima global102,5/97,5/87,5cm.
+Ponta sofa fechada:24cm guardada,4cm puxada20, sobreposicao6cm puxada30. Seria necessario investigar acesso lateral ao assento, e nao assumir recuo frontal suficiente. Tres cadeiras de44cm somam132cm: nao cabem alinhadas inteiramente nos110cm da mesa fechada, faltam22cm. Arranjos em angulo nao foram simulados.
+
+REPOSICIONAR LIXEIRA - NAO APROVADO NEM APLICADO
+Inspecionada a faixa livre ao norte do banheiro (Y5400..6400). Ha uma area estaticamente vazia antes da bancada, mas nao foi identificado lugar que possa ser recomendado sem comprometer uso: uma caixa igual em X2800..3140/Y5390..5600 ficaria a77cm da frente da bancada X1651..3520/Y6370, em frente ao gabinete da pia X2270..2920/Y6390. Isso transfere o estreitamento para a area de trabalho e interfere na zona de uso/abertura do gabinete; nao recomendar como local definitivo.
+Retirar temporariamente a lixeira do trecho das cadeiras recuperaria a faixa117,5/97,5/87,5cm junto a parede, mas depende de escolher destino seguro; e proposta de rotina, nao decisao do usuario. Girar apenas o pedal para fora da passagem recuperaria no maximo2cm mantendo o corpo:83,5/63,5/53,5cm, portanto nao resolve o estreitamento principal. Girar a lixeira inteira muda a pegada e nao equivale a reposicionar apenas pedal. O modelo nao tem articulacao certificada do pedal/tampa para simular abertura.
+
+IB6
+Documentos Aparelhos_compatibilizacao_R03_2026-09-27.md(secao4) e Equipamentos_e_instalacao_R00.md mantem giro da porta pendente. Corpo/folgas conhecidos nao fornecem eixo, perfil da porta e angulo util suficientes para simulacao fiel. Nao foi inventado giro. Distancias da cadeira da ponta cozinha fechada ate IB6:74,25/54,25/44,25cm para recuos0/20/30; porta fechada.
+
+Limites: medidas de projeto; insercao26cm/projecao21cm hipoteticas; sem corpo humano, sem validacao ergonomica ou percurso completo entrada-lavanderia. Nao aprova compra/fabricacao. Nao altera mesa/banco/sofa nem armazenamento.
+
+ALTERNATIVA DE BAIXO IMPACTO ENCONTRADA: giro90graus da lixeira inteira mantendo canto da caixa envolventeX266/Y529cm. Ver Alternativa_giro_lixeira.json/.svg. CorpoX245..266/Y495..529, pedalX251..260/Y493..498. Ganho15cm: faixa aberta96,5/76,5/66,5cm nos recuos0/20/30. Nao equivale a mover apenas pedal; altera orientacao de uso. Sem colisao estatica com parede/cadeiras no envelope analisado, mas tampa/pedal/uso humano precisam conferencia. Proposta nao aplicada nem aprovada.

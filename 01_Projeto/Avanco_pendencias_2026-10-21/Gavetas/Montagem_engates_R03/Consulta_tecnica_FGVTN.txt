@@ -1,0 +1,23 @@
+RASCUNHO — NÃO ENVIADO
+Assunto: Desenho dimensional dos engates e montagem — Oculta Slowmotion ET 400, 54FGOC12400TSX0
+
+Olá,
+
+Estamos detalhando duas gavetas de madeira para o kit 54FGOC12400TSX0, de 400 mm. Precisamos confirmar a montagem antes de liberar a marcenaria.
+
+A caixa proposta tem comprimento externo 400 mm, largura externa 353 mm e largura interna 323 mm para vão de gabinete de 364 mm. Laterais de 15 mm, altura de 80 mm; fundo de 15 mm, com a face inferior 12 mm acima da borda inferior da lateral. A dianteira interna tem 16 mm. A profundidade livre do gabinete é 432 mm. O estudo considera curso de 375 ± 3 mm.
+
+Consultamos as folhas oficiais Oculta ET Set23 e montagem Set24. Poderiam fornecer o desenho cotado ou STEP da guia e do engate convencional que acompanha exatamente esse código, identificando a revisão atual e os códigos esquerdo/direito?
+
+Precisamos das seguintes informações:
+1. Envelope completo do engate sob o fundo e junto à dianteira, posição em relação às bordas da caixa e espaço de acesso/acionamento para retirada.
+2. Gabarito dos furos, diâmetros, profundidades, parafusos e comprimentos permitidos para fundo de15 mm e dianteira de16 mm.
+3. Relação entre a face inferior do fundo e o ponto mais baixo da guia/engate. O estudo usa a cota27 mm do desenho, que não consideramos confirmação do perfil completo. A folga nominal restante até o piso do gabinete é4 mm.
+4. Faixa e sentido da regulagem vertical do engate convencional. A montagem precisa absorver até3 mm de subida da caixa sem mover a frente decorativa após seu realinhamento.
+5. Recortes traseiros e furação do gancho: desenho de execução com datums e tolerâncias, incluindo os detalhes de7/11/33 mm do esquema.
+6. Confirmação de que o kit400 atual corresponde à folha consultada; informar se houve mudança de família para UniHide. Não estamos substituindo o engate convencional pelo opcional3D.
+7. Tolerâncias de fabricação e carga admitida para este arranjo, com condições de fixação e apoio do fundo.
+
+As frentes decorativas terão regulagem independente; não pretendemos usar engates Blum na corrediça FGVTN.
+
+Obrigado.

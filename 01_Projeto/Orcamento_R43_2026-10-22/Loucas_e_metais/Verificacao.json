@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22",
+  "baseline": 4945.35,
+  "prudent": 5057.71,
+  "conditionalScenario": 4490.26,
+  "savingConditionalFromBaseline": 455.09,
+  "conditionalCutsFromPrudent": 567.45,
+  "cardScenarioConditional": 4602.0,
+  "executionPrudent": 137798.11,
+  "combinedScenario": 121180.66,
+  "gapTo120k": 1180.66,
+  "allTargetsScenario": 119590.66,
+  "reserveFixed": 10000,
+  "reserveUsed": 0,
+  "originalLedgerUnchanged": true,
+  "originalLedgerSHA256": "d5d873e1749400290dfdcad2bd2e7ca99d6c570c24bf26d199c9dc4d26abc368",
+  "rows": 10,
+  "limits": "Verificação aritmética e documental; nenhuma compra, contratação, medição de obra ou mudança no CAD. Preços antes de frete; acabamento Dora e ofertas Addra condicionais.",
+  "independentCategorySumVerified": true,
+  "localLinksVerified": 7,
+  "currencyRounding": "Total original bruto 142927.124 arredondado a centavos: 142927.12."
+}

@@ -1,0 +1,269 @@
+{
+  "status": "FIXACAO_SIMPLIFICADA_GEOMETRIA_CONFERIDA_ENGATES_PENDENTES",
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "checks": 1880,
+  "collisions": [],
+  "invalid_shapes": [],
+  "storage": [
+    {
+      "drawer": "Gaveta008",
+      "before_mm": [
+        322,
+        359,
+        60.4
+      ],
+      "after_mm": [
+        323,
+        364,
+        60.4
+      ],
+      "before_l": 6.9821192000000005,
+      "after_l": 7.101348799999997
+    },
+    {
+      "drawer": "Gaveta009",
+      "before_mm": [
+        322,
+        359,
+        54
+      ],
+      "after_mm": [
+        323,
+        364,
+        54
+      ],
+      "before_l": 6.242292,
+      "after_l": 6.348888
+    }
+  ],
+  "drilling": [
+    {
+      "drawer": "Gaveta008",
+      "x": 4400,
+      "passage_z_at_rail_zero": 549,
+      "front_screw_z": 550.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta008",
+      "x": 4600,
+      "passage_z_at_rail_zero": 549,
+      "front_screw_z": 550.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta008",
+      "x": 4400,
+      "passage_z_at_rail_zero": 576,
+      "front_screw_z": 577.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta008",
+      "x": 4600,
+      "passage_z_at_rail_zero": 576,
+      "front_screw_z": 577.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4400,
+      "passage_z_at_rail_zero": 657,
+      "front_screw_z": 658.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4600,
+      "passage_z_at_rail_zero": 657,
+      "front_screw_z": 658.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4400,
+      "passage_z_at_rail_zero": 684,
+      "front_screw_z": 685.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4600,
+      "passage_z_at_rail_zero": 684,
+      "front_screw_z": 685.5,
+      "passage_diameter_mm": 8,
+      "front_marking": "Mark through aligned assembly. Pilot diameter/depth per actual board and screw supplier; not automatically cut in this study.",
+      "screw_nominal": "Wood/particleboard screw4x30 pan head, nominal head8x2.9",
+      "washer_nominal_mm": [
+        5.3,
+        15,
+        1.2
+      ],
+      "penetration_in_front_mm": 12.8,
+      "remaining_front_skin_mm": 5.2
+    }
+  ],
+  "fixation_tolerance_checks": [
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    },
+    {
+      "radial_clearance_min_mm": 0.2688611699158103,
+      "washer_cover_min_mm": 1.6188611699158104,
+      "head_overlap_washer_hole_min_mm": 0.9500000000000002,
+      "head_reserved_depth_clearance_mm": 0.7000000000000002
+    }
+  ],
+  "intentional_screw_front_intersections": [
+    {
+      "name": "Gaveta008_Parafuso_0",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta008_Parafuso_1",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta008_Parafuso_2",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta008_Parafuso_3",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta009_Parafuso_0",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta009_Parafuso_1",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta009_Parafuso_2",
+      "purchase_volume_mm3": 144.09438304464848
+    },
+    {
+      "name": "Gaveta009_Parafuso_3",
+      "purchase_volume_mm3": 144.09438304464848
+    }
+  ],
+  "method": "Continuous conservative individual bounding envelopes Y0..378; wood/cargo Z0..3; front and tightened screw/washer assembly vertically aligned. Nominal passage intersections at0/1.5/3; analytical shaft+hole and washer coverage throughout adjustment incl0.5 horizontal.",
+  "assembly_sequence": [
+    "Fit and adjust FGVTN rails/box first, using verified manufacturer jig",
+    "Clamp front with2mm joint and reference alignment",
+    "Mark pilot positions through clearance holes; drill with depth stop according to actual board/screw supplier",
+    "Install four4x30 pan-head screws and wide washers per front, tighten evenly",
+    "If changing box height: loosen front screws, realign front, retighten; do not force adjustment while clamped",
+    "Check retention and loaded travel on real material"
+  ],
+  "not_validated": [
+    "FGVTN exact clip envelope, fasteners and rear cuts",
+    "Actual board material/retention, pilot drilling and tightening torque",
+    "As-built tolerance stack for1/1.6mm cargo clearance",
+    "Physical loaded movement"
+  ],
+  "main_model_modified": false
+}

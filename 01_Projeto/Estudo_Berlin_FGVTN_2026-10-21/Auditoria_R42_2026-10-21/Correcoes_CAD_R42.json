@@ -1,0 +1,142 @@
+{
+  "backup": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Estudo_Berlin_FGVTN_2026-10-21\\Auditoria_R42_2026-10-21\\Guedala_Park_R42_antes_auditoria.FCStd",
+  "sha256_antes": "f093730811925c5689945040eeb8f8c9b4cae6936b358ca31cc6c7713fa21ee2",
+  "sha256_depois": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "alteracoes": [
+    {
+      "objeto": "FGVTN_R42_Gaveta",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta001",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta002",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta003",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta004",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta005",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta006",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 500 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 500 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta008",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 400 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 400 mm"
+    },
+    {
+      "objeto": "FGVTN_R42_Gaveta009",
+      "propriedade": "ProdutoCandidato",
+      "antes": "One Touch 3D 400 mm",
+      "depois": "Corredica FGVTN Oculta Slowmotion ET 35 kg 400 mm"
+    },
+    {
+      "objeto": "Peca096",
+      "alteracao": "Visibility App e GUI false; geometria preservada"
+    },
+    {
+      "objeto": "Peca097",
+      "alteracao": "Visibility App e GUI false; geometria preservada"
+    },
+    {
+      "objeto": "Peca098",
+      "alteracao": "Visibility App e GUI false; geometria preservada"
+    },
+    {
+      "objeto": "BancoFolhaR31",
+      "alteracao": "Visibility App e GUI false; geometria preservada"
+    },
+    {
+      "objeto": "ControleMesaR35",
+      "alteracao": "Rotulo historico; VaoCentral somente leitura em0; expressoes preservadas"
+    },
+    {
+      "objeto": "TransferenciaMesaR37",
+      "alteracao": "Rotulo historico; Progresso somente leitura em0; expressoes preservadas"
+    }
+  ],
+  "dependencias_controles_historicos": [
+    {
+      "objeto": "Peca091",
+      "path": "LocalY",
+      "expression": "3900 mm - min(300 mm; max(0 mm; TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Vao * 1 mm : ControleMesaR35.VaoCentral)) / 2"
+    },
+    {
+      "objeto": "Peca092",
+      "path": "LocalY",
+      "expression": "4650 mm + min(300 mm; max(0 mm; TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Vao * 1 mm : ControleMesaR35.VaoCentral)) / 2"
+    },
+    {
+      "objeto": "Peca093",
+      "path": "LocalY",
+      "expression": "4649.3 mm - min(300 mm; max(0 mm; TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Vao * 1 mm : ControleMesaR35.VaoCentral)) / 2 - min(0.7 mm; max(0 mm; TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Vao * 1 mm : ControleMesaR35.VaoCentral))"
+    },
+    {
+      "objeto": "TampaBancoR003",
+      "path": "GiroLocal",
+      "expression": "-(TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Tampa : ControleBancoR003.Abertura)"
+    },
+    {
+      "objeto": "PecaBancoR015",
+      "path": "LocalX",
+      "expression": "TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.AlmofadaY * 1 mm : ControleBancoR003.DeslocamentoAlmofada"
+    },
+    {
+      "objeto": "PecaBancoR015",
+      "path": "LocalZ",
+      "expression": "420 mm + (TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.AlmofadaZ * 1 mm : ControleBancoR003.ElevarAlmofada)"
+    },
+    {
+      "objeto": "BancoFolhaR31",
+      "path": "GiroLocal",
+      "expression": "TransferenciaMesaR37.Giro"
+    },
+    {
+      "objeto": "BancoFolhaR31",
+      "path": "LocalX",
+      "expression": "-(TransferenciaMesaR37.Cx - (-418 * cos(-TransferenciaMesaR37.Giro) - 226 * sin(-TransferenciaMesaR37.Giro))) * 1 mm"
+    },
+    {
+      "objeto": "BancoFolhaR31",
+      "path": "LocalY",
+      "expression": "(TransferenciaMesaR37.Cy - (-418 * sin(-TransferenciaMesaR37.Giro) + 226 * cos(-TransferenciaMesaR37.Giro))) * 1 mm"
+    },
+    {
+      "objeto": "BancoFolhaR31",
+      "path": "LocalZ",
+      "expression": "(TransferenciaMesaR37.Cz - 337) * 1 mm"
+    }
+  ],
+  "breps_totais_identicos": 1271,
+  "objeto_total": 5526,
+  "reabertura": "OK",
+  "controles_entrada_somente_leitura": "confirmados getEditorMode retorna ReadOnly",
+  "limite": "Expressoes historicas preservadas; scripts podem alterar propriedades diretamente. Nao sao controles Berlin. Exclusividade de cenarios Berlin e manual, conforme LEIA-ME."
+}

@@ -1,0 +1,22 @@
+AUDITORIA CAD R42 - 22/10/2026
+
+Arquivo auditado diretamente, sem depender do relatorio anterior. Auditoria_CAD_R42_antes_correcao.json preserva os achados; Auditoria_CAD_R42.json corresponde ao arquivo apos correcoes. Correcoes_CAD_R42.json lista alteracoes, backup e hashes.
+
+CORRIGIDO COM AUTORIZACAO
+- Nove nomes de guias incorretos One Touch3D: corrigidos para FGVTN Oculta Slowmotion ET35kg400/500mm, mantendo SKUs.
+- Componentes historicos da mesa Peca096..098 estavam visiveis. Agora091..098 e antigas cadeiras Lina estao ocultos App/GUI.
+- Controles ControleMesaR35/TransferenciaMesaR37 rotulados HISTORICO, entradas VaoCentral/Progresso em0 somente leitura, confirmado no FreeCAD. Expressoes e comandos manuais do banco preservados. Esses controles nao operam Berlin.
+
+CONFIRMADO NO ARQUIVO FINAL
+- 5526 objetos; somente Peca108/109 removidos contra R41. Nenhum Link/LinkSub dangling, ViewProvider sem objeto ou arquivo interno faltante.
+- Apoios removidos nao aparecem em vinculos/grupos/planilhas XML; unica mencao restante e texto documental em ConsolidacaoR42. BREP eventualmente retidos noZIP nao sao objetos ativos.
+- 1241 BREP herdados da R41 idênticos;1271 BREP totais identicos antes/depois das correcoes de auditoria. Armazenamento, caixas e banco nao foram modificados.
+- Berlin fechada ativa: uma cadeira em cada ponta e uma lateral. Aberta3laterais correta e inicialmente oculta. Aberta2pontas preservada como estudo de colisao, inicialmente oculta.
+- Alternancia de grupos e MANUAL, nao ha seletor exclusivo automatico: ocultar configuracao anterior antes de exibir outra; exibir tambem componentes do grupo escolhido.
+- Tampo/sapata Berlin possuem1face e0solidos: superficies/envelopes, nao volume executavel de produto. Vao inferior e mecanismos continuam desconhecidos.
+- FGVTN permanece candidata declarativa; nao e conversao mecanica das caixas/furos/engates. Geometria original Blum preservada e identificada como referencia.
+
+CONTEXTO RESIDUAL
+BancoFolhaR31 e folha300x750 da antiga mesa: corrigida para HISTORICO, oculta App/GUI e preservada como objeto. Nao e necessidade da Berlin. Banco e seu armazenamento permanecem intactos.
+
+Limite: nao foram realizadas medicoes fisicas, verificacao de pessoas em uso, nem homologacao mecanica das ferragens. Nenhuma compra/fabricacao aprovada.

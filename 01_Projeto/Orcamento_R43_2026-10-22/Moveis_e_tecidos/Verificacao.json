@@ -1,0 +1,10 @@
+{
+  "rows": 9,
+  "baseline": 11388.93,
+  "revised": 10690.44,
+  "saving": 698.49,
+  "unquotedScenario": 9240.44,
+  "reserve": 10000,
+  "executionCeiling": 120000,
+  "originalBudgetPreserved": true
+}

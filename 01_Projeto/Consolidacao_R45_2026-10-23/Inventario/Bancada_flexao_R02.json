@@ -1,0 +1,138 @@
+{
+  "cases": [
+    {
+      "rails": 5,
+      "udl_additional_kg": 25,
+      "points_kg": [],
+      "dead_top_kg": 51.0738048125,
+      "I_effective_scenario_mm4": 75568.0,
+      "max_abs_deflection_mm": 1.2214294667699008,
+      "at_x_mm": 3490.0,
+      "right_tip_deflection_mm": -0.8368367507853105,
+      "support_upward_reactions_N": [
+        280.07921356585314,
+        465.94996437643766
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    },
+    {
+      "rails": 5,
+      "udl_additional_kg": 50,
+      "points_kg": [],
+      "dead_top_kg": 51.0738048125,
+      "I_effective_scenario_mm4": 75568.0,
+      "max_abs_deflection_mm": 1.6228256733153317,
+      "at_x_mm": 3490.0,
+      "right_tip_deflection_mm": -1.111844932921025,
+      "support_upward_reactions_N": [
+        372.12115041383083,
+        619.0742775123233
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    },
+    {
+      "rails": 5,
+      "udl_additional_kg": 0,
+      "points_kg": [
+        [
+          2860,
+          15
+        ],
+        [
+          3350,
+          8
+        ],
+        [
+          3990,
+          8
+        ],
+        [
+          4500,
+          3
+        ]
+      ],
+      "dead_top_kg": 51.0738048125,
+      "I_effective_scenario_mm4": 75568.0,
+      "max_abs_deflection_mm": 1.3423379611966464,
+      "at_x_mm": 3490.0,
+      "right_tip_deflection_mm": -0.9797087246555036,
+      "support_upward_reactions_N": [
+        384.70579339474835,
+        449.58323452894786
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    },
+    {
+      "rails": 5,
+      "udl_additional_kg": 0,
+      "points_kg": [
+        [
+          4670,
+          50
+        ]
+      ],
+      "dead_top_kg": 51.0738048125,
+      "I_effective_scenario_mm4": 75568.0,
+      "max_abs_deflection_mm": 3.034103150864406,
+      "at_x_mm": 4670.0,
+      "right_tip_deflection_mm": 3.034103150864406,
+      "support_upward_reactions_N": [
+        47.464136778418215,
+        943.7312912291333
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    },
+    {
+      "rails": 3,
+      "udl_additional_kg": 0,
+      "points_kg": [
+        [
+          3650,
+          20
+        ]
+      ],
+      "dead_top_kg": 30.644282887499998,
+      "I_effective_scenario_mm4": 45340.8,
+      "max_abs_deflection_mm": 2.1717533288241504,
+      "at_x_mm": 3530.0,
+      "right_tip_deflection_mm": -1.8115556790241338,
+      "support_upward_reactions_N": [
+        193.14987460544944,
+        303.5008822302789
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    },
+    {
+      "rails": 3,
+      "udl_additional_kg": 0,
+      "points_kg": [
+        [
+          3650,
+          50
+        ]
+      ],
+      "dead_top_kg": 30.644282887499998,
+      "I_effective_scenario_mm4": 45340.8,
+      "max_abs_deflection_mm": 4.205129148879808,
+      "at_x_mm": 3550.0,
+      "right_tip_deflection_mm": -3.686146344680781,
+      "support_upward_reactions_N": [
+        313.6411374362433,
+        477.20911944946874
+      ],
+      "loss_of_contact": false,
+      "model": "1D ideal beam; assumed equal load sharing between stated rails; no joint compliance, no 3D torsion"
+    }
+  ],
+  "assumptions": [
+    "E steel200000 N/mm2 assumed",
+    "RHS40x20x3 catalogue existence verified; ideal geometric I reduced20% as sensitivity only",
+    "Equal sharing is not proven by this 1D analysis",
+    "No safe working load assigned"
+  ]
+}

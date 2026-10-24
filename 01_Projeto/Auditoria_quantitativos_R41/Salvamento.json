@@ -1,0 +1,16 @@
+{
+  "arquivo": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Cesto_R41_2026-10-20\\Guedala_Park_R41_Estudo_Frente500.FCStd",
+  "revisao_mantida": "R41",
+  "sha256": "4d3897b07daf228ed6529f6fa87b5555ee085db9fd2fc0d979d6de236490cfcb",
+  "formas_comparadas": 1241,
+  "formas_alteradas": [],
+  "erros": [],
+  "posicoes_preservadas": true,
+  "expressoes_preservadas": true,
+  "dobradicas": 56,
+  "calcos": 56,
+  "gavetas": 9,
+  "acoplamentos": 18,
+  "ultima_atualizacao": "21/10/2026: auditoria dos quantitativos e correção da matriz nativa de ferragens.",
+  "copia_anterior": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\99_Arquivo\\Auditoria_quantitativos_R41\\Modelo_antes_da_auditoria.FCStd"
+}

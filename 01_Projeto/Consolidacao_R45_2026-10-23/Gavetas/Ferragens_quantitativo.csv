@@ -1,0 +1,11 @@
+item;produto_candidato;quantidade;unidade;status;pendencia_independente_apartamento
+Corredica500;FGVTN 54FGOC12500TSX0;7;par;CANDIDATA;Caixa compativel engates datum fixacao e carga final
+Corredica400;FGVTN 54FGOC12400TSX0;2;par;CANDIDATA;Escritorio precisa variante432 livres e fechamento datum engates
+Engates500;Par esquerdo direito correspondente ao kit500;7;conjunto;NAO DUPLICAR SE INCLUSO;Confirmar codigo embalagem e desenho
+Engates400;Par esquerdo direito correspondente ao kit400;2;conjunto;NAO DUPLICAR SE INCLUSO;Confirmar codigo embalagem e desenho
+Parafusos guias;Conforme furo e substrato;A definir;peca;NAO QUANTIFICADO;Gabarito de cada comprimento e resistencia do substrato
+Fixacao frentes escritorio;Parafuso4x30 arruela1.2 conforme estudoR04;8;conjunto;HIPOTESE GEOMETRICA;Resistencia piloto e engates pendentes
+Rodizios gaveta baixa;Leao Aco fixo roda30 altura38 - kit6 Magalu ajk5b9dh7c;6;peca;SELECIONADO 24/10/2026 - COMPRA PENDENTE;Confirmar PU altura real fixacao carga dinamica e batente
+Espacadores rodizios;Chapa metalica rigida 1mm contorno38x20 pela chapa real - apoio38+1=39mm;6;peca;MONTAGEM APROVADA 24/10/2026;Espessura contorno e furos pela amostra
+Guia lateral gaveta baixa;Guia3 com corrida2 proposta;2;peca;PROPOSTA;Material desgaste e fixacao
+Batente gaveta baixa;Removivel para retirada de limpeza;A definir;conjunto;PENDENTE;Definir curso de parada acesso e carga de impacto

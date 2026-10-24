@@ -1,0 +1,141 @@
+{
+  "status": "GEOMETRIA_CONFERIDA_MONTAGEM_MECANICA_PENDENTE",
+  "method": "Union of orthogonal face extrusions along Y0..378 and Z0..3; conservative bounding solids for fronts held at final aligned height. Independent positions of the two drawers. Exact original fronts retained in CAD. No rail/clip geometry included.",
+  "checks": 154,
+  "collisions": [],
+  "external_candidates": [],
+  "external_hits": [],
+  "carcass_reference_checks": [
+    {
+      "name": "Peca367",
+      "source_bbox": [
+        4300.0,
+        250.0,
+        480.0,
+        4318.0,
+        680.0,
+        720.0
+      ],
+      "new_bbox": [
+        4300.0,
+        230.0,
+        472.0,
+        4318.0,
+        680.0,
+        720.0
+      ],
+      "source_reference_symmetric_difference_mm3": 0.0,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "Peca368",
+      "source_bbox": [
+        4682.0,
+        250.0,
+        480.0,
+        4700.0,
+        680.0,
+        720.0
+      ],
+      "new_bbox": [
+        4682.0,
+        230.0,
+        472.0,
+        4700.0,
+        680.0,
+        720.0
+      ],
+      "source_reference_symmetric_difference_mm3": 0.0,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "Peca369",
+      "source_bbox": [
+        4318.0,
+        250.0,
+        498.0,
+        4682.0,
+        268.00000000000006,
+        702.0
+      ],
+      "new_bbox": [
+        4318.0,
+        230.0,
+        490.0,
+        4682.0,
+        248.00000000000006,
+        702.0
+      ],
+      "source_reference_symmetric_difference_mm3": 0.0,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "Peca370",
+      "source_bbox": [
+        4318.0,
+        267.99999999999994,
+        480.0,
+        4682.0,
+        680.0,
+        498.0
+      ],
+      "new_bbox": [
+        4318.0,
+        247.99999999999994,
+        472.0,
+        4682.0,
+        680.0,
+        490.0
+      ],
+      "source_reference_symmetric_difference_mm3": 0.0,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "Peca371",
+      "source_bbox": [
+        4318.0,
+        267.99999999999994,
+        702.0,
+        4682.0,
+        680.0,
+        720.0
+      ],
+      "new_bbox": [
+        4318.0,
+        247.99999999999994,
+        702.0,
+        4682.0,
+        680.0,
+        720.0
+      ],
+      "source_reference_symmetric_difference_mm3": 0.0,
+      "valid": true,
+      "solid_count": 1
+    }
+  ],
+  "front_checks": [
+    {
+      "name": "Gaveta008",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "Gaveta009",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "payload_min_clearance_with_3mm_adjustment_mm": {
+    "lower_under_upper_front": 1.6000000000000227,
+    "upper_under_top": 1.0
+  },
+  "assembly_blockers": [
+    "Exact conventional runner and clip profile absent",
+    "Front mounting must allow final independent alignment; not designed",
+    "Rear notches/holes/screw pattern and tolerances pending",
+    "Wood joints, bottom strength and total load not validated"
+  ],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26"
+}

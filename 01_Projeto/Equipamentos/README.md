@@ -1,3 +1,5 @@
+> **Orçamento atualizado 22/10/2026:** [Eletros e TV com modelos e exclusões preservados](../Orcamento_R43_2026-10-22/Eletros_e_TV/Analise_eletros.md): R$17.251,83, antes dos fretes e com provisão de KE4GC sem estoque confirmado. IB6S e CV5012PC4 Inox Look são as versões vigentes; TV Philips Ambilight ainda candidata. Fontes de preços anteriores permanecem históricas.
+
 # Equipamentos e orçamento
 
 **20/10/2026 — grelhas e manutenção R02.** [Detalhamento atual](../Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md): duas grelhas candidatas600 ×90 removíveis, com12 rasgos e272,43 cm² de área aberta cada, réguas fora da passagem de ar e gabarito1:1 para cotação. Foram conferidos195 pares sem sobreposição e retirada frontal hipotética600 mm, sem validar calor/carga/cabos/pessoas. A saída superior agora termina na face perfuradaY6402,5; a hipótese antiga sem grelha real é superada nesse detalhe. Desenvolver acesso às conexões pelo gabinete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas; sem fabricação, compra ou contato externo.

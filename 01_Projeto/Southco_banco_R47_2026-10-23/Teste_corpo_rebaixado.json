@@ -1,0 +1,32 @@
+[
+  {
+    "tampa": 1,
+    "e": 0,
+    "colisoes_corpo": []
+  },
+  {
+    "tampa": 1,
+    "e": 10,
+    "colisoes_corpo": []
+  },
+  {
+    "tampa": 1,
+    "e": 20.3,
+    "colisoes_corpo": []
+  },
+  {
+    "tampa": 2,
+    "e": 0,
+    "colisoes_corpo": []
+  },
+  {
+    "tampa": 2,
+    "e": 10,
+    "colisoes_corpo": []
+  },
+  {
+    "tampa": 2,
+    "e": 20.3,
+    "colisoes_corpo": []
+  }
+]

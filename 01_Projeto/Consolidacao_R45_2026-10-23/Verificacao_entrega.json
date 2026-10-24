@@ -1,0 +1,12 @@
+{
+  "horario_UTC": "2026-10-23T09:17:54.844351+00:00",
+  "arquivo_CAD": "Guedala_Park_R45_Consolidado.FCStd",
+  "bytes": 23557907,
+  "zip_integro": true,
+  "XML_objetos": 5840,
+  "grupos_R45_presentes": true,
+  "R44_preservada_sha256": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "R45_sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "links_html_ausentes": [],
+  "reabertura_completa_final": "Não realizada nesta verificação; arquivo salvo pelo FreeCAD e arquivo ZIP/XML conferido independentemente. Cópia base R44 foi aberta no FreeCAD antes da consolidação."
+}

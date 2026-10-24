@@ -1,0 +1,19 @@
+﻿cenario;cadeira;puxar_cm;limite;folga_cm;tipo
+Fechada;Ponta_sofa;0.0;sofa;24.0;"folga longitudinal; negativa e sobreposicao"
+Fechada;Ponta_cozinha;0.0;IB6 fechada;74.25;"folga longitudinal; negativa e sobreposicao"
+Fechada;Lateral;0.0;Peca051;117.5;faixa lateral entre envelopes
+Fechada;Ponta_sofa;20.0;sofa;4.0;"folga longitudinal; negativa e sobreposicao"
+Fechada;Ponta_cozinha;20.0;IB6 fechada;54.25;"folga longitudinal; negativa e sobreposicao"
+Fechada;Lateral;20.0;Peca051;97.5;faixa lateral entre envelopes
+Fechada;Ponta_sofa;30.0;sofa;-6.0;"folga longitudinal; negativa e sobreposicao"
+Fechada;Ponta_cozinha;30.0;IB6 fechada;44.25;"folga longitudinal; negativa e sobreposicao"
+Fechada;Lateral;30.0;Peca051;87.5;faixa lateral entre envelopes
+Aberta;Lateral_sofa;0.0;Peca051;117.5;faixa lateral entre envelopes
+Aberta;Lateral_centro;0.0;Peca051;117.5;faixa lateral entre envelopes
+Aberta;Lateral_cozinha;0.0;Peca146;81.5;faixa lateral entre envelopes
+Aberta;Lateral_sofa;20.0;Peca051;97.5;faixa lateral entre envelopes
+Aberta;Lateral_centro;20.0;Peca051;97.5;faixa lateral entre envelopes
+Aberta;Lateral_cozinha;20.0;Peca146;61.5;faixa lateral entre envelopes
+Aberta;Lateral_sofa;30.0;Peca051;87.5;faixa lateral entre envelopes
+Aberta;Lateral_centro;30.0;Peca051;87.5;faixa lateral entre envelopes
+Aberta;Lateral_cozinha;30.0;Peca146;51.5;faixa lateral entre envelopes

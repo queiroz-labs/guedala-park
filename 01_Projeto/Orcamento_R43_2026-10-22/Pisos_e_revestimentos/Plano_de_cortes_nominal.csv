@@ -1,0 +1,176 @@
+﻿Regua_origem;Peca;Ambiente;Fileira;Comprimento_mm;Largura_mm;Sobra_linear_regua_mm
+1;Peca-1-2;Quarto principal;1;1230;185.0;0
+2;Peca-1-3;Quarto principal;1;1230;185.0;0
+3;Peca-2-1;Quarto principal;2;1230;208;0
+4;Peca-2-2;Quarto principal;2;1230;208;0
+5;Peca-3-2;Quarto principal;3;1230;208;0
+6;Peca-3-3;Quarto principal;3;1230;208;0
+7;Peca-4-1;Quarto principal;4;1230;208;0
+8;Peca-4-2;Quarto principal;4;1230;208;0
+9;Peca-5-2;Quarto principal;5;1230;208;0
+10;Peca-5-3;Quarto principal;5;1230;208;0
+11;Peca-6-1;Quarto principal;6;1230;208;0
+12;Peca-6-2;Quarto principal;6;1230;208;0
+13;Peca-7-2;Quarto principal;7;1230;208;0
+14;Peca-7-3;Quarto principal;7;1230;208;0
+15;Peca-8-1;Quarto principal;8;1230;208;0
+16;Peca-8-2;Quarto principal;8;1230;208;0
+17;Peca-9-2;Quarto principal;9;1230;208;0
+18;Peca-9-3;Quarto principal;9;1230;208;0
+19;Peca-10-1;Quarto principal;10;1230;208;0
+20;Peca-10-2;Quarto principal;10;1230;208;0
+21;Peca-11-2;Quarto principal;11;1230;208;0
+22;Peca-11-3;Quarto principal;11;1230;208;0
+23;Peca-12-1;Quarto principal;12;1230;185.0;0
+24;Peca-12-2;Quarto principal;12;1230;185.0;0
+25;Peca002-1-2;Escritório;1;1230;110.0;0
+26;Peca002-1-3;Escritório;1;1230;110.0;0
+27;Peca002-2-1;Escritório;2;1230;208;0
+28;Peca002-2-2;Escritório;2;1230;208;0
+29;Peca002-3-2;Escritório;3;1230;208;0
+30;Peca002-3-3;Escritório;3;1230;208;0
+31;Peca002-4-1;Escritório;4;1230;208;0
+32;Peca002-4-2;Escritório;4;1230;208;0
+33;Peca002-5-2;Escritório;5;1230;208;0
+34;Peca002-5-3;Escritório;5;1230;208;0
+35;Peca002-6-1;Escritório;6;1230;208;0
+36;Peca002-6-2;Escritório;6;1230;208;0
+37;Peca002-7-2;Escritório;7;1230;208;0
+38;Peca002-7-3;Escritório;7;1230;208;0
+39;Peca002-8-1;Escritório;8;1230;208;0
+40;Peca002-8-2;Escritório;8;1230;208;0
+41;Peca002-9-2;Escritório;9;1230;208;0
+42;Peca002-9-3;Escritório;9;1230;208;0
+43;Peca002-10-1;Escritório;10;1230;208;0
+44;Peca002-10-2;Escritório;10;1230;208;0
+45;Peca002-11-2;Escritório;11;1230;208;0
+46;Peca002-11-3;Escritório;11;1230;208;0
+47;Peca002-12-1;Escritório;12;1230;110.0;0
+48;Peca002-12-2;Escritório;12;1230;110.0;0
+49;Peca003-1-2;Sala/jantar;1;1230;185.0;0
+50;Peca003-1-3;Sala/jantar;1;1230;185.0;0
+51;Peca003-2-2;Sala/jantar;2;1230;208;0
+52;Peca003-2-3;Sala/jantar;2;1230;208;0
+53;Peca003-3-2;Sala/jantar;3;1230;208;0
+54;Peca003-3-3;Sala/jantar;3;1230;208;0
+55;Peca003-4-2;Sala/jantar;4;1230;208;0
+56;Peca003-4-3;Sala/jantar;4;1230;208;0
+57;Peca003-5-2;Sala/jantar;5;1230;208;0
+58;Peca003-5-3;Sala/jantar;5;1230;208;0
+59;Peca003-6-2;Sala/jantar;6;1230;208;0
+60;Peca003-6-3;Sala/jantar;6;1230;208;0
+61;Peca003-7-2;Sala/jantar;7;1230;208;0
+62;Peca003-7-3;Sala/jantar;7;1230;208;0
+63;Peca003-8-2;Sala/jantar;8;1230;208;0
+64;Peca003-8-3;Sala/jantar;8;1230;208;0
+65;Peca003-9-2;Sala/jantar;9;1230;208;0
+66;Peca003-9-3;Sala/jantar;9;1230;208;0
+67;Peca003-10-2;Sala/jantar;10;1230;208;0
+68;Peca003-10-3;Sala/jantar;10;1230;208;0
+69;Peca003-11-2;Sala/jantar;11;1230;208;0
+70;Peca003-11-3;Sala/jantar;11;1230;208;0
+71;Peca003-12-2;Sala/jantar;12;1230;185.0;0
+72;Peca003-12-3;Sala/jantar;12;1230;185.0;0
+73;Peca006-1-2;Cozinha;1;1230;200.0;0
+74;Peca006-2-1;Cozinha;2;1230;208;0
+75;Peca006-3-2;Cozinha;3;1230;208;0
+76;Peca006-4-1;Cozinha;4;1230;208;0
+77;Peca006-5-2;Cozinha;5;1230;208;0
+78;Peca006-6-1;Cozinha;6;1230;208;0
+79;Peca006-7-2;Cozinha;7;1230;208;0
+80;Peca006-8-1;Cozinha;8;1230;208;0
+81;Peca006-9-2;Cozinha;9;1230;208;0
+82;Peca006-10-1;Cozinha;10;1230;208;0
+83;Peca006-11-2;Cozinha;11;1230;208;0
+84;Peca006-12-1;Cozinha;12;1230;208;0
+85;Peca006-13-2;Cozinha;13;1230;208;0
+86;Peca006-14-1;Cozinha;14;1230;208;0
+87;Peca006-15-2;Cozinha;15;1230;208;0
+88;Peca006-16-1;Cozinha;16;1230;208;0
+89;Peca006-17-2;Cozinha;17;1230;200.0;0
+90;Peca004-1-2;Faixa sala;1;1000;150.0;228
+91;Peca004-2-1;Faixa sala;2;1000;150.0;228
+92;Peca003-1-4;Sala/jantar;1;930;185.0;298
+93;Peca003-3-4;Sala/jantar;3;930;208;298
+94;Peca003-5-4;Sala/jantar;5;930;208;298
+95;Peca003-7-4;Sala/jantar;7;930;208;298
+96;Peca003-9-4;Sala/jantar;9;930;208;298
+97;Peca003-11-4;Sala/jantar;11;930;208;298
+98;Peca001-1-1;Complemento quarto;1;900;184.0;6
+98;Peca006-1-1;Cozinha;1;320;200.0;6
+99;Peca001-2-1;Complemento quarto;2;900;208;6
+99;Peca006-2-2;Cozinha;2;320;208;6
+100;Peca001-3-1;Complemento quarto;3;900;208;6
+100;Peca006-3-1;Cozinha;3;320;208;6
+101;Peca001-4-1;Complemento quarto;4;900;208;6
+101;Peca006-4-2;Cozinha;4;320;208;6
+102;Peca001-5-1;Complemento quarto;5;900;208;6
+102;Peca006-5-1;Cozinha;5;320;208;6
+103;Peca001-6-1;Complemento quarto;6;900;184.0;6
+103;Peca006-6-2;Cozinha;6;320;208;6
+104;Peca005-1-1;Circulação;1;900;130.0;6
+104;Peca006-7-1;Cozinha;7;320;208;6
+105;Peca005-2-1;Circulação;2;900;208;6
+105;Peca006-8-2;Cozinha;8;320;208;6
+106;Peca005-3-1;Circulação;3;900;208;6
+106;Peca006-9-1;Cozinha;9;320;208;6
+107;Peca005-4-1;Circulação;4;900;208;6
+107;Peca006-10-2;Cozinha;10;320;208;6
+108;Peca005-5-1;Circulação;5;900;208;6
+108;Peca006-11-1;Cozinha;11;320;208;6
+109;Peca005-6-1;Circulação;6;900;208;6
+109;Peca006-12-2;Cozinha;12;320;208;6
+110;Peca005-7-1;Circulação;7;900;130.0;6
+110;Peca006-13-1;Cozinha;13;320;208;6
+111;Peca003-2-1;Sala/jantar;2;820;208;6
+111;Peca004-2-2;Faixa sala;2;400;150.0;6
+112;Peca003-4-1;Sala/jantar;4;820;208;86
+112;Peca006-14-2;Cozinha;14;320;208;86
+113;Peca003-6-1;Sala/jantar;6;820;208;86
+113;Peca006-15-1;Cozinha;15;320;208;86
+114;Peca003-8-1;Sala/jantar;8;820;208;86
+114;Peca006-16-2;Cozinha;16;320;208;86
+115;Peca003-10-1;Sala/jantar;10;820;208;86
+115;Peca006-17-1;Cozinha;17;320;200.0;86
+116;Peca003-12-1;Sala/jantar;12;820;185.0;408
+117;passagem-1;Reserva para passagens;1;800;150;16
+117;Peca003-1-1;Sala/jantar;1;410;185.0;16
+118;passagem-2;Reserva para passagens;2;800;150;16
+118;Peca003-3-1;Sala/jantar;3;410;208;16
+119;passagem-3;Reserva para passagens;3;800;150;16
+119;Peca003-5-1;Sala/jantar;5;410;208;16
+120;passagem-4;Reserva para passagens;4;800;150;16
+120;Peca003-7-1;Sala/jantar;7;410;208;16
+121;Peca003-2-4;Sala/jantar;2;520;208;186
+121;Peca003-4-4;Sala/jantar;4;520;208;186
+122;Peca003-6-4;Sala/jantar;6;520;208;186
+122;Peca003-8-4;Sala/jantar;8;520;208;186
+123;Peca003-10-4;Sala/jantar;10;520;208;186
+123;Peca003-12-4;Sala/jantar;12;520;185.0;186
+124;Peca-1-1;Quarto principal;1;490;185.0;246
+124;Peca-2-3;Quarto principal;2;490;208;246
+125;Peca-3-1;Quarto principal;3;490;208;246
+125;Peca-4-3;Quarto principal;4;490;208;246
+126;Peca-5-1;Quarto principal;5;490;208;246
+126;Peca-6-3;Quarto principal;6;490;208;246
+127;Peca-7-1;Quarto principal;7;490;208;246
+127;Peca-8-3;Quarto principal;8;490;208;246
+128;Peca-9-1;Quarto principal;9;490;208;246
+128;Peca-10-3;Quarto principal;10;490;208;246
+129;Peca-11-1;Quarto principal;11;490;208;246
+129;Peca-12-3;Quarto principal;12;490;185.0;246
+130;Peca002-1-1;Escritório;1;490;110.0;246
+130;Peca002-2-3;Escritório;2;490;208;246
+131;Peca002-3-1;Escritório;3;490;208;246
+131;Peca002-4-3;Escritório;4;490;208;246
+132;Peca002-5-1;Escritório;5;490;208;246
+132;Peca002-6-3;Escritório;6;490;208;246
+133;Peca002-7-1;Escritório;7;490;208;246
+133;Peca002-8-3;Escritório;8;490;208;246
+134;Peca002-9-1;Escritório;9;490;208;246
+134;Peca002-10-3;Escritório;10;490;208;246
+135;Peca002-11-1;Escritório;11;490;208;246
+135;Peca002-12-3;Escritório;12;490;110.0;246
+136;Peca003-9-1;Sala/jantar;9;410;208;4
+136;Peca003-11-1;Sala/jantar;11;410;208;4
+136;Peca004-1-1;Faixa sala;1;400;150.0;4

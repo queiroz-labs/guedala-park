@@ -1,0 +1,16 @@
+[
+  {
+    "name": "desktop",
+    "errors": [],
+    "overflow": false,
+    "officialRows": 8,
+    "svgRoomButtons": 9
+  },
+  {
+    "name": "mobile",
+    "errors": [],
+    "overflow": false,
+    "officialRows": 8,
+    "svgRoomButtons": 9
+  }
+]

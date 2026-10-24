@@ -1,0 +1,2733 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "is_viewed_live",
+            "value": "False"
+          },
+          {
+            "key": "ipcc",
+            "value": "0"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "CgtxY0FaZlF6NC14ayiUme_WBjIKCgJCUhIEGgAgZ2KqAgqnAkN0b0JDQVVTakFFQjhRWnVabUxvZ3hCNVpwZUQ1MDlYUkV4NFZ3ZmVKN3lIYm5QcllnQ0dhWVpuN3BWVjg0X1VwVVNGMFNxUE10OXRGdG1WdHhIb1FHOGVBR3JFQlRuTTJ1bFNCa1NSYi11cGpOUHpkY0kzMXhyOG05THQ2Z1p5eE5vSjZsMmxmT3dBWVZUMkx5NUpOMEwzMjRtUGJOUXE3X1p6VmljSEV3c2xyQ2pzbXFGNWJjSFBTVmtZa1lkSTh4Vkp6aWdGTWtVQjNxbWRULTVSb1VldENYbkY4c3NUbHllSmRLUEZRRWxSUE1mbHVBSjVLOHRiYnQ5N251alBpUm9QcV9MeEtaVDUySlZHWDZxbFFxd3AxSUlIeDZIR3VTY05jUWc%3D"
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "yt_ad",
+            "value": "1"
+          },
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20261023.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetPlayer_rid",
+            "value": "0x181d182464e04db1"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20261023"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 0,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRn_64pXqEUOzMw_ZMV3oMNXBvzv9cdruvUzQPNizATF8_czRMkuMYNLBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMIs_io84XRlwMVl1BIAB2lPgIY",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "miniplayerRenderer",
+          "adPlacementRenderer",
+          "clientForecastingAdRenderer",
+          "playerCaptionsTracklistRenderer",
+          "playerAnnotationsExpandedRenderer",
+          "subscribeButtonRenderer",
+          "confirmDialogRenderer",
+          "buttonRenderer",
+          "playerStoryboardSpecRenderer",
+          "playerMicroformatRenderer",
+          "cardCollectionRenderer",
+          "cardRenderer",
+          "simpleCardTeaserRenderer",
+          "infoCardIconRenderer",
+          "mealbarPromoRenderer",
+          "endscreenRenderer",
+          "endscreenElementRenderer",
+          "thumbnailOverlayTimeStatusRenderer",
+          "toggleButtonViewModel",
+          "buttonViewModel"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "playabilityStatus": {
+    "status": "OK",
+    "playableInEmbed": true,
+    "miniplayer": {
+      "miniplayerRenderer": {
+        "playbackMode": "PLAYBACK_MODE_ALLOW"
+      }
+    },
+    "contextParams": "Q0FFU0FnZ0M="
+  },
+  "streamingData": {
+    "expiresInSeconds": "21540",
+    "adaptiveFormats": [
+      {
+        "itag": 136,
+        "mimeType": "video/mp4; codecs=\"avc1.64001F\"",
+        "bitrate": 2241102,
+        "width": 1280,
+        "height": 720,
+        "initRange": {
+          "start": "0",
+          "end": "739"
+        },
+        "indexRange": {
+          "start": "740",
+          "end": "2835"
+        },
+        "lastModified": "1674325558240600",
+        "contentLength": "192478323",
+        "quality": "hd720",
+        "fps": 30,
+        "qualityLabel": "720p",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 1681339,
+        "approxDurationMs": "915833",
+        "qualityOrdinal": "QUALITY_ORDINAL_720P"
+      },
+      {
+        "itag": 134,
+        "mimeType": "video/mp4; codecs=\"avc1.4D401E\"",
+        "bitrate": 649591,
+        "width": 640,
+        "height": 360,
+        "initRange": {
+          "start": "0",
+          "end": "740"
+        },
+        "indexRange": {
+          "start": "741",
+          "end": "2836"
+        },
+        "lastModified": "1674325648152012",
+        "contentLength": "50657305",
+        "quality": "medium",
+        "fps": 30,
+        "qualityLabel": "360p",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 442502,
+        "highReplication": true,
+        "approxDurationMs": "915833",
+        "qualityOrdinal": "QUALITY_ORDINAL_360P"
+      },
+      {
+        "itag": 243,
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 483121,
+        "width": 640,
+        "height": 360,
+        "initRange": {
+          "start": "0",
+          "end": "219"
+        },
+        "indexRange": {
+          "start": "220",
+          "end": "3228"
+        },
+        "lastModified": "1674325566449086",
+        "contentLength": "33479765",
+        "quality": "medium",
+        "fps": 30,
+        "qualityLabel": "360p",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 292453,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT709",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+        },
+        "approxDurationMs": "915833",
+        "qualityOrdinal": "QUALITY_ORDINAL_360P"
+      },
+      {
+        "itag": 160,
+        "mimeType": "video/mp4; codecs=\"avc1.4D400C\"",
+        "bitrate": 134465,
+        "width": 256,
+        "height": 144,
+        "initRange": {
+          "start": "0",
+          "end": "738"
+        },
+        "indexRange": {
+          "start": "739",
+          "end": "2834"
+        },
+        "lastModified": "1674325557396317",
+        "contentLength": "11271976",
+        "quality": "tiny",
+        "fps": 30,
+        "qualityLabel": "144p",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 98463,
+        "approxDurationMs": "915833",
+        "qualityOrdinal": "QUALITY_ORDINAL_144P"
+      },
+      {
+        "itag": 140,
+        "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+        "bitrate": 131103,
+        "initRange": {
+          "start": "0",
+          "end": "631"
+        },
+        "indexRange": {
+          "start": "632",
+          "end": "1767"
+        },
+        "lastModified": "1674325572421840",
+        "contentLength": "14823693",
+        "quality": "tiny",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 129477,
+        "highReplication": true,
+        "audioQuality": "AUDIO_QUALITY_MEDIUM",
+        "approxDurationMs": "915911",
+        "audioSampleRate": "44100",
+        "audioChannels": 2,
+        "loudnessDb": -7.1100006,
+        "trackAbsoluteLoudnessLkfs": -21.110001,
+        "qualityOrdinal": "QUALITY_ORDINAL_UNKNOWN"
+      },
+      {
+        "itag": 251,
+        "mimeType": "audio/webm; codecs=\"opus\"",
+        "bitrate": 133247,
+        "initRange": {
+          "start": "0",
+          "end": "258"
+        },
+        "indexRange": {
+          "start": "259",
+          "end": "1819"
+        },
+        "lastModified": "1674325611358883",
+        "contentLength": "13389426",
+        "quality": "tiny",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 116953,
+        "audioQuality": "AUDIO_QUALITY_MEDIUM",
+        "approxDurationMs": "915881",
+        "audioSampleRate": "48000",
+        "audioChannels": 2,
+        "loudnessDb": -7.1100006,
+        "trackAbsoluteLoudnessLkfs": -21.110001,
+        "qualityOrdinal": "QUALITY_ORDINAL_UNKNOWN"
+      }
+    ],
+    "serverAbrStreamingUrl": "https://rr6---sn-8p8v-bg0se.googlevideo.com/videoplayback?expire=1792811252&ei=lMzbarPeM5ehobIPpf2IwAE&ip=2804%3A7f0%3Ab440%3A501d%3Ad561%3Aff78%3Ac829%3A617d&id=o-AAg_0bk6LeCEW6Bwk69P8Z5nMlk94zO0wGvHT2lx_lIb&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=192&met=1792789652%2C&mh=RC&mm=31%2C29&mn=sn-8p8v-bg0se%2Csn-8p8v-bg066&ms=au%2Crdu&mv=m&mvi=6&pl=42&rms=au%2Cau&initcwndbps=3141500&spc=mpRQ_6RBBMMO4A5qBy28JaR3-2ztLzzDSxBYsho1etpBBCSnTt2l39Li-JqwvvUx9E5lB2bvxgI&svpuc=1&ns=wI8KLbrYAVH_lb0J8N1D_28Z&sabr=1&rqh=1&mt=1792788591&fvip=5&keepalive=yes&fexp=51565116&c=WEB&n=MUN-dntmWocxGn9cgEP&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRAIgavm3oWAePYK48FayO-Lod43jDikO7tGKdGyqno92EywCIAmKVWi6dlQ-1GnKBOxoT6wNAmoICaIS3TC75cA3VV5J&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAOieq3ZHn_4BUft9oVNbxYlxcSAY34u2645dE89ld4XqAiBX6NYyEYDOpPznZTnXKWCu-rU6ZiskdDXBNdSsUVGbbQ%3D%3D"
+  },
+  "playbackTracking": {
+    "videostatsPlaybackUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/playback?cl=1001983779&docid=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&fexp=&ns=yt&plid=AAZeiF5qWDk4yD3R&el=detailpage&len=916&of=JNW99bcbMPvrtwky26Ul8Q&vm=CAEQARgEOjJBSHFpSlRKazVaLW5xU3NncjdVSjk4Yi0wMUx6M3hDanR6MTdUSENVd2F5WFI5VE5LUWJQQUNPdTRMVG5mWVJCdXI5VWZKUnNXUW1ENTVzUTdWN3M2RWVBb3IzazlhSEJqZzZ5aHdMeWJoazROTVpTWng2YVZIWDVfTFNKQXBrc0RrZzQ"
+    },
+    "videostatsDelayplayUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/delayplay?cl=1001983779&docid=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&fexp=&ns=yt&plid=AAZeiF5qWDk4yD3R&el=detailpage&len=916&of=JNW99bcbMPvrtwky26Ul8Q&vm=CAEQARgEOjJBSHFpSlRKazVaLW5xU3NncjdVSjk4Yi0wMUx6M3hDanR6MTdUSENVd2F5WFI5VE5LUWJQQUNPdTRMVG5mWVJCdXI5VWZKUnNXUW1ENTVzUTdWN3M2RWVBb3IzazlhSEJqZzZ5aHdMeWJoazROTVpTWng2YVZIWDVfTFNKQXBrc0RrZzQ"
+    },
+    "videostatsWatchtimeUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/watchtime?cl=1001983779&docid=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&fexp=&ns=yt&plid=AAZeiF5qWDk4yD3R&el=detailpage&len=916&of=JNW99bcbMPvrtwky26Ul8Q&vm=CAEQARgEOjJBSHFpSlRKazVaLW5xU3NncjdVSjk4Yi0wMUx6M3hDanR6MTdUSENVd2F5WFI5VE5LUWJQQUNPdTRMVG5mWVJCdXI5VWZKUnNXUW1ENTVzUTdWN3M2RWVBb3IzazlhSEJqZzZ5aHdMeWJoazROTVpTWng2YVZIWDVfTFNKQXBrc0RrZzQ"
+    },
+    "ptrackingUrl": {
+      "baseUrl": "https://www.youtube.com/ptracking?ei=lMzbarPeM5ehobIPpf2IwAE&oid=F4CuU9vvbd6ZEwxJhSQNdQ&plid=AAZeiF5qWDk4yD3R&pltype=content&ptchn=JEjNLsOdm4wSEfCGyl1acA&ptk=youtube_single&video_id=YbMzhb1Kppw"
+    },
+    "qoeUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/qoe?cl=1001983779&docid=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&el=detailpage&event=streamingstats&fexp=&ns=yt&plid=AAZeiF5qWDk4yD3R"
+    },
+    "atrUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/atr?c=WEB&docid=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&len=916&ns=yt&plid=AAZeiF5qWDk4yD3R&ver=2&vm=CAEQARgEOjJBSHFpSlRKazVaLW5xU3NncjdVSjk4Yi0wMUx6M3hDanR6MTdUSENVd2F5WFI5VE5LUWJQQUNPdTRMVG5mWVJCdXI5VWZKUnNXUW1ENTVzUTdWN3M2RWVBb3IzazlhSEJqZzZ5aHdMeWJoazROTVpTWng2YVZIWDVfTFNKQXBrc0RrZzQ",
+      "elapsedMediaTimeSeconds": 5
+    },
+    "videostatsScheduledFlushWalltimeSeconds": [
+      10,
+      20,
+      30
+    ],
+    "videostatsDefaultFlushIntervalSeconds": 40
+  },
+  "captions": {
+    "playerCaptionsTracklistRenderer": {
+      "captionTracks": [
+        {
+          "baseUrl": "https://www.youtube.com/api/timedtext?v=YbMzhb1Kppw&ei=lMzbarPeM5ehobIPpf2IwAE&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&hl=pt&ip=0.0.0.0&ipbits=0&expire=1792814852&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=5ED5BB107C3D2CCCB0A39BDC149853F0A135AD3F.E0346A3018990F0EB06553B6B64D0D91C50521ED&key=yt8&kind=asr&lang=pt",
+          "name": {
+            "simpleText": "Português (gerada automaticamente)"
+          },
+          "vssId": "a.pt",
+          "languageCode": "pt",
+          "kind": "asr",
+          "isTranslatable": true,
+          "trackName": ""
+        }
+      ],
+      "audioTracks": [
+        {
+          "captionTrackIndices": [
+            0
+          ],
+          "defaultCaptionTrackIndex": 0,
+          "hasDefaultTrack": true,
+          "captionsInitialState": "CAPTIONS_INITIAL_STATE_OFF_RECOMMENDED"
+        }
+      ],
+      "translationLanguages": [
+        {
+          "languageCode": "ab",
+          "languageName": {
+            "simpleText": "Abcázio"
+          }
+        },
+        {
+          "languageCode": "aa",
+          "languageName": {
+            "simpleText": "Afar"
+          }
+        },
+        {
+          "languageCode": "af",
+          "languageName": {
+            "simpleText": "Africâner"
+          }
+        },
+        {
+          "languageCode": "ay",
+          "languageName": {
+            "simpleText": "Aimará"
+          }
+        },
+        {
+          "languageCode": "ak",
+          "languageName": {
+            "simpleText": "Akan"
+          }
+        },
+        {
+          "languageCode": "sq",
+          "languageName": {
+            "simpleText": "Albanês"
+          }
+        },
+        {
+          "languageCode": "de",
+          "languageName": {
+            "simpleText": "Alemão"
+          }
+        },
+        {
+          "languageCode": "am",
+          "languageName": {
+            "simpleText": "Amárico"
+          }
+        },
+        {
+          "languageCode": "ar",
+          "languageName": {
+            "simpleText": "Árabe"
+          }
+        },
+        {
+          "languageCode": "hy",
+          "languageName": {
+            "simpleText": "Armênio"
+          }
+        },
+        {
+          "languageCode": "as",
+          "languageName": {
+            "simpleText": "Assamês"
+          }
+        },
+        {
+          "languageCode": "az",
+          "languageName": {
+            "simpleText": "Azerbaijano"
+          }
+        },
+        {
+          "languageCode": "eu",
+          "languageName": {
+            "simpleText": "Basco"
+          }
+        },
+        {
+          "languageCode": "ba",
+          "languageName": {
+            "simpleText": "Bashkir"
+          }
+        },
+        {
+          "languageCode": "bn",
+          "languageName": {
+            "simpleText": "Bengali"
+          }
+        },
+        {
+          "languageCode": "bho",
+          "languageName": {
+            "simpleText": "Bhojpuri"
+          }
+        },
+        {
+          "languageCode": "be",
+          "languageName": {
+            "simpleText": "Bielorrusso"
+          }
+        },
+        {
+          "languageCode": "my",
+          "languageName": {
+            "simpleText": "Birmanês"
+          }
+        },
+        {
+          "languageCode": "bs",
+          "languageName": {
+            "simpleText": "Bósnio"
+          }
+        },
+        {
+          "languageCode": "br",
+          "languageName": {
+            "simpleText": "Bretão"
+          }
+        },
+        {
+          "languageCode": "bg",
+          "languageName": {
+            "simpleText": "Búlgaro"
+          }
+        },
+        {
+          "languageCode": "kn",
+          "languageName": {
+            "simpleText": "Canarim"
+          }
+        },
+        {
+          "languageCode": "ca",
+          "languageName": {
+            "simpleText": "Catalão"
+          }
+        },
+        {
+          "languageCode": "kk",
+          "languageName": {
+            "simpleText": "Cazaque"
+          }
+        },
+        {
+          "languageCode": "ceb",
+          "languageName": {
+            "simpleText": "Cebuano"
+          }
+        },
+        {
+          "languageCode": "zh-Hans",
+          "languageName": {
+            "simpleText": "Chinês (Simplificado)"
+          }
+        },
+        {
+          "languageCode": "zh-Hant",
+          "languageName": {
+            "simpleText": "Chinês (Tradicional)"
+          }
+        },
+        {
+          "languageCode": "si",
+          "languageName": {
+            "simpleText": "Cingalês"
+          }
+        },
+        {
+          "languageCode": "ko",
+          "languageName": {
+            "simpleText": "Coreano"
+          }
+        },
+        {
+          "languageCode": "co",
+          "languageName": {
+            "simpleText": "Corso"
+          }
+        },
+        {
+          "languageCode": "crs",
+          "languageName": {
+            "simpleText": "Crioulo Francês Seichelense"
+          }
+        },
+        {
+          "languageCode": "hr",
+          "languageName": {
+            "simpleText": "Croata"
+          }
+        },
+        {
+          "languageCode": "ku",
+          "languageName": {
+            "simpleText": "Curdo"
+          }
+        },
+        {
+          "languageCode": "da",
+          "languageName": {
+            "simpleText": "Dinamarquês"
+          }
+        },
+        {
+          "languageCode": "dv",
+          "languageName": {
+            "simpleText": "Divehi"
+          }
+        },
+        {
+          "languageCode": "dz",
+          "languageName": {
+            "simpleText": "Dzonga"
+          }
+        },
+        {
+          "languageCode": "sk",
+          "languageName": {
+            "simpleText": "Eslovaco"
+          }
+        },
+        {
+          "languageCode": "sl",
+          "languageName": {
+            "simpleText": "Esloveno"
+          }
+        },
+        {
+          "languageCode": "es",
+          "languageName": {
+            "simpleText": "Espanhol"
+          }
+        },
+        {
+          "languageCode": "eo",
+          "languageName": {
+            "simpleText": "Esperanto"
+          }
+        },
+        {
+          "languageCode": "et",
+          "languageName": {
+            "simpleText": "Estoniano"
+          }
+        },
+        {
+          "languageCode": "ee",
+          "languageName": {
+            "simpleText": "Ewe"
+          }
+        },
+        {
+          "languageCode": "fo",
+          "languageName": {
+            "simpleText": "Feroês"
+          }
+        },
+        {
+          "languageCode": "fj",
+          "languageName": {
+            "simpleText": "Fijiano"
+          }
+        },
+        {
+          "languageCode": "fil",
+          "languageName": {
+            "simpleText": "Filipino"
+          }
+        },
+        {
+          "languageCode": "fi",
+          "languageName": {
+            "simpleText": "Finlandês"
+          }
+        },
+        {
+          "languageCode": "fr",
+          "languageName": {
+            "simpleText": "Francês"
+          }
+        },
+        {
+          "languageCode": "fy",
+          "languageName": {
+            "simpleText": "Frísio Ocidental"
+          }
+        },
+        {
+          "languageCode": "gaa",
+          "languageName": {
+            "simpleText": "Ga"
+          }
+        },
+        {
+          "languageCode": "gd",
+          "languageName": {
+            "simpleText": "Gaélico Escocês"
+          }
+        },
+        {
+          "languageCode": "gl",
+          "languageName": {
+            "simpleText": "Galego"
+          }
+        },
+        {
+          "languageCode": "cy",
+          "languageName": {
+            "simpleText": "Galês"
+          }
+        },
+        {
+          "languageCode": "ka",
+          "languageName": {
+            "simpleText": "Georgiano"
+          }
+        },
+        {
+          "languageCode": "el",
+          "languageName": {
+            "simpleText": "Grego"
+          }
+        },
+        {
+          "languageCode": "kl",
+          "languageName": {
+            "simpleText": "Groenlandês"
+          }
+        },
+        {
+          "languageCode": "gn",
+          "languageName": {
+            "simpleText": "Guarani"
+          }
+        },
+        {
+          "languageCode": "gu",
+          "languageName": {
+            "simpleText": "Guzerate"
+          }
+        },
+        {
+          "languageCode": "ht",
+          "languageName": {
+            "simpleText": "Haitiano"
+          }
+        },
+        {
+          "languageCode": "ha",
+          "languageName": {
+            "simpleText": "Hauçá"
+          }
+        },
+        {
+          "languageCode": "haw",
+          "languageName": {
+            "simpleText": "Havaiano"
+          }
+        },
+        {
+          "languageCode": "iw",
+          "languageName": {
+            "simpleText": "Hebraico"
+          }
+        },
+        {
+          "languageCode": "hi",
+          "languageName": {
+            "simpleText": "Hindi"
+          }
+        },
+        {
+          "languageCode": "hmn",
+          "languageName": {
+            "simpleText": "Hmong"
+          }
+        },
+        {
+          "languageCode": "nl",
+          "languageName": {
+            "simpleText": "Holandês"
+          }
+        },
+        {
+          "languageCode": "hu",
+          "languageName": {
+            "simpleText": "Húngaro"
+          }
+        },
+        {
+          "languageCode": "ig",
+          "languageName": {
+            "simpleText": "Igbo"
+          }
+        },
+        {
+          "languageCode": "yi",
+          "languageName": {
+            "simpleText": "Iídiche"
+          }
+        },
+        {
+          "languageCode": "id",
+          "languageName": {
+            "simpleText": "Indonésio"
+          }
+        },
+        {
+          "languageCode": "en",
+          "languageName": {
+            "simpleText": "Inglês"
+          }
+        },
+        {
+          "languageCode": "iu",
+          "languageName": {
+            "simpleText": "Inuktitut"
+          }
+        },
+        {
+          "languageCode": "yo",
+          "languageName": {
+            "simpleText": "Iorubá"
+          }
+        },
+        {
+          "languageCode": "ga",
+          "languageName": {
+            "simpleText": "Irlandês"
+          }
+        },
+        {
+          "languageCode": "is",
+          "languageName": {
+            "simpleText": "Islandês"
+          }
+        },
+        {
+          "languageCode": "it",
+          "languageName": {
+            "simpleText": "Italiano"
+          }
+        },
+        {
+          "languageCode": "ja",
+          "languageName": {
+            "simpleText": "Japonês"
+          }
+        },
+        {
+          "languageCode": "jv",
+          "languageName": {
+            "simpleText": "Javanês"
+          }
+        },
+        {
+          "languageCode": "kha",
+          "languageName": {
+            "simpleText": "Khasi"
+          }
+        },
+        {
+          "languageCode": "km",
+          "languageName": {
+            "simpleText": "Khmer"
+          }
+        },
+        {
+          "languageCode": "kri",
+          "languageName": {
+            "simpleText": "Kri"
+          }
+        },
+        {
+          "languageCode": "lo",
+          "languageName": {
+            "simpleText": "Laosiano"
+          }
+        },
+        {
+          "languageCode": "la",
+          "languageName": {
+            "simpleText": "Latim"
+          }
+        },
+        {
+          "languageCode": "lv",
+          "languageName": {
+            "simpleText": "Letão"
+          }
+        },
+        {
+          "languageCode": "ln",
+          "languageName": {
+            "simpleText": "Lingala"
+          }
+        },
+        {
+          "languageCode": "lt",
+          "languageName": {
+            "simpleText": "Lituano"
+          }
+        },
+        {
+          "languageCode": "lua",
+          "languageName": {
+            "simpleText": "Luba-Lulua"
+          }
+        },
+        {
+          "languageCode": "lg",
+          "languageName": {
+            "simpleText": "Luganda"
+          }
+        },
+        {
+          "languageCode": "luo",
+          "languageName": {
+            "simpleText": "Luo"
+          }
+        },
+        {
+          "languageCode": "lb",
+          "languageName": {
+            "simpleText": "Luxemburguês"
+          }
+        },
+        {
+          "languageCode": "mk",
+          "languageName": {
+            "simpleText": "Macedônio"
+          }
+        },
+        {
+          "languageCode": "ml",
+          "languageName": {
+            "simpleText": "Malaiala"
+          }
+        },
+        {
+          "languageCode": "ms",
+          "languageName": {
+            "simpleText": "Malaio"
+          }
+        },
+        {
+          "languageCode": "mg",
+          "languageName": {
+            "simpleText": "Malgaxe"
+          }
+        },
+        {
+          "languageCode": "mt",
+          "languageName": {
+            "simpleText": "Maltês"
+          }
+        },
+        {
+          "languageCode": "gv",
+          "languageName": {
+            "simpleText": "Manx"
+          }
+        },
+        {
+          "languageCode": "mi",
+          "languageName": {
+            "simpleText": "Maori"
+          }
+        },
+        {
+          "languageCode": "mr",
+          "languageName": {
+            "simpleText": "Marati"
+          }
+        },
+        {
+          "languageCode": "mn",
+          "languageName": {
+            "simpleText": "Mongol"
+          }
+        },
+        {
+          "languageCode": "mfe",
+          "languageName": {
+            "simpleText": "Morisyen"
+          }
+        },
+        {
+          "languageCode": "ne",
+          "languageName": {
+            "simpleText": "Nepalês"
+          }
+        },
+        {
+          "languageCode": "new",
+          "languageName": {
+            "simpleText": "Newari"
+          }
+        },
+        {
+          "languageCode": "ny",
+          "languageName": {
+            "simpleText": "Nianja"
+          }
+        },
+        {
+          "languageCode": "no",
+          "languageName": {
+            "simpleText": "Norueguês"
+          }
+        },
+        {
+          "languageCode": "oc",
+          "languageName": {
+            "simpleText": "Occitânico"
+          }
+        },
+        {
+          "languageCode": "or",
+          "languageName": {
+            "simpleText": "Oriá"
+          }
+        },
+        {
+          "languageCode": "om",
+          "languageName": {
+            "simpleText": "Oromo"
+          }
+        },
+        {
+          "languageCode": "os",
+          "languageName": {
+            "simpleText": "Osseto"
+          }
+        },
+        {
+          "languageCode": "pam",
+          "languageName": {
+            "simpleText": "Pampanga"
+          }
+        },
+        {
+          "languageCode": "pa",
+          "languageName": {
+            "simpleText": "Panjabi"
+          }
+        },
+        {
+          "languageCode": "ps",
+          "languageName": {
+            "simpleText": "Pashto"
+          }
+        },
+        {
+          "languageCode": "fa",
+          "languageName": {
+            "simpleText": "Persa"
+          }
+        },
+        {
+          "languageCode": "pl",
+          "languageName": {
+            "simpleText": "Polonês"
+          }
+        },
+        {
+          "languageCode": "pt",
+          "languageName": {
+            "simpleText": "Português"
+          }
+        },
+        {
+          "languageCode": "pt-PT",
+          "languageName": {
+            "simpleText": "Português (Portugal)"
+          }
+        },
+        {
+          "languageCode": "qu",
+          "languageName": {
+            "simpleText": "Quíchua"
+          }
+        },
+        {
+          "languageCode": "rw",
+          "languageName": {
+            "simpleText": "Quiniaruanda"
+          }
+        },
+        {
+          "languageCode": "ky",
+          "languageName": {
+            "simpleText": "Quirguiz"
+          }
+        },
+        {
+          "languageCode": "ro",
+          "languageName": {
+            "simpleText": "Romeno"
+          }
+        },
+        {
+          "languageCode": "rn",
+          "languageName": {
+            "simpleText": "Rundi"
+          }
+        },
+        {
+          "languageCode": "ru",
+          "languageName": {
+            "simpleText": "Russo"
+          }
+        },
+        {
+          "languageCode": "sm",
+          "languageName": {
+            "simpleText": "Samoano"
+          }
+        },
+        {
+          "languageCode": "sg",
+          "languageName": {
+            "simpleText": "Sango"
+          }
+        },
+        {
+          "languageCode": "sa",
+          "languageName": {
+            "simpleText": "Sânscrito"
+          }
+        },
+        {
+          "languageCode": "sr",
+          "languageName": {
+            "simpleText": "Sérvio"
+          }
+        },
+        {
+          "languageCode": "sd",
+          "languageName": {
+            "simpleText": "Sindi"
+          }
+        },
+        {
+          "languageCode": "so",
+          "languageName": {
+            "simpleText": "Somali"
+          }
+        },
+        {
+          "languageCode": "st",
+          "languageName": {
+            "simpleText": "Soto Do Sul"
+          }
+        },
+        {
+          "languageCode": "nso",
+          "languageName": {
+            "simpleText": "Soto Setentrional"
+          }
+        },
+        {
+          "languageCode": "sw",
+          "languageName": {
+            "simpleText": "Suaíli"
+          }
+        },
+        {
+          "languageCode": "ss",
+          "languageName": {
+            "simpleText": "Suázi"
+          }
+        },
+        {
+          "languageCode": "sv",
+          "languageName": {
+            "simpleText": "Sueco"
+          }
+        },
+        {
+          "languageCode": "su",
+          "languageName": {
+            "simpleText": "Sundanês"
+          }
+        },
+        {
+          "languageCode": "tg",
+          "languageName": {
+            "simpleText": "Tadjique"
+          }
+        },
+        {
+          "languageCode": "th",
+          "languageName": {
+            "simpleText": "Tailandês"
+          }
+        },
+        {
+          "languageCode": "ta",
+          "languageName": {
+            "simpleText": "Tâmil"
+          }
+        },
+        {
+          "languageCode": "tt",
+          "languageName": {
+            "simpleText": "Tártaro"
+          }
+        },
+        {
+          "languageCode": "cs",
+          "languageName": {
+            "simpleText": "Tcheco"
+          }
+        },
+        {
+          "languageCode": "te",
+          "languageName": {
+            "simpleText": "Télugo"
+          }
+        },
+        {
+          "languageCode": "bo",
+          "languageName": {
+            "simpleText": "Tibetano"
+          }
+        },
+        {
+          "languageCode": "ti",
+          "languageName": {
+            "simpleText": "Tigrínia"
+          }
+        },
+        {
+          "languageCode": "to",
+          "languageName": {
+            "simpleText": "Tonganês"
+          }
+        },
+        {
+          "languageCode": "ts",
+          "languageName": {
+            "simpleText": "Tsonga"
+          }
+        },
+        {
+          "languageCode": "tn",
+          "languageName": {
+            "simpleText": "Tswana"
+          }
+        },
+        {
+          "languageCode": "tum",
+          "languageName": {
+            "simpleText": "Tumbuka"
+          }
+        },
+        {
+          "languageCode": "tr",
+          "languageName": {
+            "simpleText": "Turco"
+          }
+        },
+        {
+          "languageCode": "tk",
+          "languageName": {
+            "simpleText": "Turcomeno"
+          }
+        },
+        {
+          "languageCode": "uk",
+          "languageName": {
+            "simpleText": "Ucraniano"
+          }
+        },
+        {
+          "languageCode": "ug",
+          "languageName": {
+            "simpleText": "Uigur"
+          }
+        },
+        {
+          "languageCode": "wo",
+          "languageName": {
+            "simpleText": "Uolofe"
+          }
+        },
+        {
+          "languageCode": "ur",
+          "languageName": {
+            "simpleText": "Urdu"
+          }
+        },
+        {
+          "languageCode": "uz",
+          "languageName": {
+            "simpleText": "Uzbeque"
+          }
+        },
+        {
+          "languageCode": "ve",
+          "languageName": {
+            "simpleText": "Venda"
+          }
+        },
+        {
+          "languageCode": "vi",
+          "languageName": {
+            "simpleText": "Vietnamita"
+          }
+        },
+        {
+          "languageCode": "war",
+          "languageName": {
+            "simpleText": "Waray"
+          }
+        },
+        {
+          "languageCode": "xh",
+          "languageName": {
+            "simpleText": "Xhosa"
+          }
+        },
+        {
+          "languageCode": "sn",
+          "languageName": {
+            "simpleText": "Xona"
+          }
+        },
+        {
+          "languageCode": "zu",
+          "languageName": {
+            "simpleText": "Zulu"
+          }
+        }
+      ],
+      "defaultAudioTrackIndex": 0
+    }
+  },
+  "videoDetails": {
+    "videoId": "YbMzhb1Kppw",
+    "title": "Cury Vila das Belezas 3 | Entrega das chaves | Venha ver nosso condomínio e nosso AP por dentro |",
+    "lengthSeconds": "916",
+    "keywords": [
+      "#cury",
+      "#viladabelezas",
+      "#ap",
+      "#apartamento",
+      "#entregadaschaves",
+      "#vistoria"
+    ],
+    "channelId": "UCJEjNLsOdm4wSEfCGyl1acA",
+    "isOwnerViewing": false,
+    "shortDescription": "Se inscreva aqui no meu canal e ative o sininho para acompanhar os videos que posto toda semana!\n\nMe siga no instagram: https://www.instagram.com/tudodamona/\n\nLink da minha geladeira Panasonic com desconto:\nCompre pela Shoppe: https://s.shopee.com.br/VlyxwsKJC\nCompre na Amazon:   https://amzn.to/4dG9ZEo",
+    "isCrawlable": true,
+    "thumbnail": {
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/YbMzhb1Kppw/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCfI2CFGtHFQSdu90tKyHwJLw7aOQ&usqp=CBQ",
+          "width": 168,
+          "height": 94
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YbMzhb1Kppw/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCzcqjko3Zi4IXNOhtDtzWZSjXj7g&usqp=CBQ",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YbMzhb1Kppw/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCdCRu2__opMOJfXVYBVnc7xZQaUg&usqp=CBQ",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YbMzhb1Kppw/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBP86_r7OEOKD7SKGp5rGx-WISHGA&usqp=CBQ",
+          "width": 336,
+          "height": 188
+        }
+      ]
+    },
+    "allowRatings": true,
+    "viewCount": "34885",
+    "author": "Tudo da Mona",
+    "isPrivate": false,
+    "isUnpluggedCorpus": false,
+    "isLiveContent": false,
+    "isTvfilmVideo": false
+  },
+  "annotations": [
+    {
+      "playerAnnotationsExpandedRenderer": {
+        "featuredChannel": {
+          "startTimeMs": "0",
+          "endTimeMs": "895000",
+          "watermark": {
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/an/JEjNLsOdm4wSEfCGyl1acA/featured_channel.jpg?v=67210313",
+                "width": 40,
+                "height": 40
+              }
+            ]
+          },
+          "trackingParams": "CBQQ8zciEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+          "navigationEndpoint": {
+            "clickTrackingParams": "CBQQ8zciEwiz-KjzhdGXAxWXUEgAHaU-AhgyAml2ygEEz-eRzg==",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/channel/UCJEjNLsOdm4wSEfCGyl1acA",
+                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                "rootVe": 3611,
+                "apiUrl": "/youtubei/v1/browse"
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "UCJEjNLsOdm4wSEfCGyl1acA"
+            }
+          },
+          "channelName": "Tudo da Mona",
+          "subscribeButton": {
+            "subscribeButtonRenderer": {
+              "buttonText": {
+                "runs": [
+                  {
+                    "text": "INSCREVER-SE"
+                  }
+                ]
+              },
+              "subscribed": false,
+              "enabled": true,
+              "type": "FREE",
+              "channelId": "UCJEjNLsOdm4wSEfCGyl1acA",
+              "showPreferences": false,
+              "subscribedButtonText": {
+                "runs": [
+                  {
+                    "text": "INSCRITO"
+                  }
+                ]
+              },
+              "unsubscribedButtonText": {
+                "runs": [
+                  {
+                    "text": "INSCREVER-SE"
+                  }
+                ]
+              },
+              "trackingParams": "CBUQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhgyAml2",
+              "unsubscribeButtonText": {
+                "runs": [
+                  {
+                    "text": "CANCELAR INSCRIÇÃO"
+                  }
+                ]
+              },
+              "serviceEndpoints": [
+                {
+                  "clickTrackingParams": "CBUQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhgyAml2ygEEz-eRzg==",
+                  "commandMetadata": {
+                    "webCommandMetadata": {
+                      "sendPost": true,
+                      "apiUrl": "/youtubei/v1/subscription/subscribe"
+                    }
+                  },
+                  "subscribeEndpoint": {
+                    "channelIds": [
+                      "UCJEjNLsOdm4wSEfCGyl1acA"
+                    ],
+                    "params": "EgIIBBgAWAE%3D"
+                  }
+                },
+                {
+                  "clickTrackingParams": "CBUQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                  "commandMetadata": {
+                    "webCommandMetadata": {
+                      "sendPost": true
+                    }
+                  },
+                  "signalServiceEndpoint": {
+                    "signal": "CLIENT_SIGNAL",
+                    "actions": [
+                      {
+                        "clickTrackingParams": "CBUQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                        "openPopupAction": {
+                          "popup": {
+                            "confirmDialogRenderer": {
+                              "trackingParams": "CBYQxjgiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+                              "dialogMessages": [
+                                {
+                                  "runs": [
+                                    {
+                                      "text": "Cancelar inscrição no canal "
+                                    },
+                                    {
+                                      "text": "Tudo da Mona"
+                                    },
+                                    {
+                                      "text": "?"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "confirmButton": {
+                                "buttonRenderer": {
+                                  "style": "STYLE_BLUE_TEXT",
+                                  "size": "SIZE_DEFAULT",
+                                  "isDisabled": false,
+                                  "text": {
+                                    "runs": [
+                                      {
+                                        "text": "Cancelar inscrição"
+                                      }
+                                    ]
+                                  },
+                                  "serviceEndpoint": {
+                                    "clickTrackingParams": "CBgQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-AhgyAml2ygEEz-eRzg==",
+                                    "commandMetadata": {
+                                      "webCommandMetadata": {
+                                        "sendPost": true,
+                                        "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                                      }
+                                    },
+                                    "unsubscribeEndpoint": {
+                                      "channelIds": [
+                                        "UCJEjNLsOdm4wSEfCGyl1acA"
+                                      ],
+                                      "params": "CgIIBBgAMAE%3D"
+                                    }
+                                  },
+                                  "accessibility": {
+                                    "label": "Cancelar inscrição"
+                                  },
+                                  "trackingParams": "CBgQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-Ahg="
+                                }
+                              },
+                              "cancelButton": {
+                                "buttonRenderer": {
+                                  "style": "STYLE_TEXT",
+                                  "size": "SIZE_DEFAULT",
+                                  "isDisabled": false,
+                                  "text": {
+                                    "runs": [
+                                      {
+                                        "text": "Cancelar"
+                                      }
+                                    ]
+                                  },
+                                  "accessibility": {
+                                    "label": "Cancelar"
+                                  },
+                                  "trackingParams": "CBcQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-Ahg="
+                                }
+                              },
+                              "primaryIsCancel": false
+                            }
+                          },
+                          "popupType": "DIALOG"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "subscribeAccessibility": {
+                "accessibilityData": {
+                  "label": "Inscreva-se em Tudo da Mona."
+                }
+              },
+              "unsubscribeAccessibility": {
+                "accessibilityData": {
+                  "label": "Cancelar inscrição no canal Tudo da Mona."
+                }
+              },
+              "signInEndpoint": {
+                "clickTrackingParams": "CBUQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                "commandMetadata": {
+                  "webCommandMetadata": {
+                    "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dpt%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCJEjNLsOdm4wSEfCGyl1acA%26feature%3Div%26continue_action%3DQUlxb01IYkxkcEg0N1BFY1FvbG16V3JQSVRXTHxBSTVJdTV2YnJLY0JIWkJmZWN5cnV0dGdkWHIwX2U3UHFJcFBHSFg4ZmpjZVlVUjQwV2dNb2pHYW93ZWJjd2wzd2ZsTVlWRzRRRWNrRzF6UWI1S0Rqc3plZHNjX3h2T3FqZjM0TkJGQm41YWdzdThnNGhrWWY2T1JmVDBJZjBQWkhMUzNFQm9tb3R2cmVNcTdSYndVTzdlNUdRUk9DMnNReEZjRTJoa1ZKWUliY0V1anQwcWxWbUJrMjhv&hl=pt-BR"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "allowSwipeDismiss": true,
+        "annotationId": "6720afe6-0000-2dc8-930f-3c286d44c21e"
+      }
+    }
+  ],
+  "playerConfig": {
+    "granularVariableSpeedConfig": {
+      "minimumPlaybackRate": 25,
+      "maximumPlaybackRate": 200,
+      "stepSize": 5,
+      "defaultPlaybackRateOptions": [
+        {
+          "label": "1,0",
+          "value": 100,
+          "isPremiumUpsell": false,
+          "priority": 5
+        },
+        {
+          "label": "1,25",
+          "value": 125,
+          "isPremiumUpsell": false,
+          "priority": 2
+        },
+        {
+          "label": "1,5",
+          "value": 150,
+          "isPremiumUpsell": false,
+          "priority": 3
+        },
+        {
+          "label": "1,75",
+          "value": 175,
+          "isPremiumUpsell": false,
+          "priority": 0
+        },
+        {
+          "label": "2,0",
+          "value": 200,
+          "isPremiumUpsell": false,
+          "priority": 4
+        },
+        {
+          "label": "3,0",
+          "value": 300,
+          "isPremiumUpsell": true,
+          "priority": 1
+        }
+      ]
+    },
+    "vssClientConfig": {
+      "vssUsePostRequest": true
+    },
+    "audioConfig": {
+      "loudnessDb": -7.1100006,
+      "perceptualLoudnessDb": -21.110001,
+      "enablePerFormatLoudness": true,
+      "trackAbsoluteLoudnessLkfs": -21.110001,
+      "loudnessTargetLkfs": -14,
+      "loudnessNormalizationConfig": {
+        "applyStatefulNormalization": false,
+        "preserveStatefulLoudnessTarget": true,
+        "maxStatefulTimeThresholdSec": 300,
+        "minimumLoudnessTargetLkfs": -31
+      }
+    },
+    "streamSelectionConfig": {
+      "maxBitrate": "25132000"
+    },
+    "playerControlsConfig": {
+      "showCachedInTimebar": true
+    },
+    "daiConfig": {
+      "sendSsdaiMissingAdBreakReasons": true
+    },
+    "mediaCommonConfig": {
+      "dynamicReadaheadConfig": {
+        "maxReadAheadMediaTimeMs": 120000,
+        "minReadAheadMediaTimeMs": 15000,
+        "readAheadGrowthRateMs": 1000
+      },
+      "mediaUstreamerRequestConfig": {
+        "videoPlaybackUstreamerConfig": "CvkFCtYECAAlAACAPy0zM3M_NT0Klz9yBAoAGACgAQGoAQC4AgHaAn0QsOoBGIDd2wEgoJwBKKCcAXCIJ4AB9APgAQOYAgzQAgLoAgSAAwKIA4gnqAMDwAMByAMBgAQB0AQB2AQB-AQHgAV9wAUByAUB4AXQD_gF0A-QBgHQBgHwBgGAB9APgAgBiAgBnQjNzEw-oAjoB-AIAegI____________AfoCRagB0IYDhQKamRk_jQIAAIA_wALfA_0CzczMPZADAZ0DCtcjPdUEAAAgQbUGvTeGNb0GMzODQMgHAeUHAIAJRPAHAYAIAagDAbADA9ADAdgDAcoEHAoTCMCpBxCYdRjoByUAAAAAKAAwABDg1AMY0A_SBA8KCAiwCRCwCSABIIgnKAHaBA0KBgjwLhDwLiDwLigBmAYBqAaAgALSBhQI6AcQZBoNCIgnFQAAAD8dzcxMP9gGAbgHAaAIAdIIBggBEAEYAakJAAAAAAAA8L-xCQAAAAAAAPC_0AkB2gkkWkxWZDJjSnlZODhINU5QaWczYU50L3dZMVlqT1lEMGZyU1AxoAsB6gsEiwaMBoAMAagMkAHgDQHIDwHQDwGYEAHoEAGQEQGgEQHQEgHgEgGAEwGwEwHYEwDoEwGIFACRFAAAAAAAAPC_mRQAAAAAAADwv8oUEXYyMDI1MDkyMl8xMjI2LjAw2BSIJ-IULAoAEihDQU1TR2hVZnVMYkpESlVDbkE3NUZaMEZtUElQdWc4RXdRYkpEdHdFgRUAAAAAAADwv5gVAagVAbgVAcgVAYinocoLATIMCIgBENjKjOGk2fwCMgwIhgEQzKv8i6XZ_AIyDAjzARC-y4HlpNn8AjIMCKABEN2G2eCk2fwCMgwIjAEQ0JHu56TZ_AIyDAj7ARCj1bb6pNn8AjoAUisaBXB0LUJSKAAyGFVDSkVqTkxzT2RtNHdTRWZDR3lsMWFjQUAAWABgAHgAoAEBsAEFugEDBAUxwgEIAQIDBAUIKjDQAQCAAgASTACi3vtNMEUCIDEXQG9ZtX5AAjiY_jfZXw1ADH7vI5wZ2bgoOSgSWWCgAiEAw3055ByKQUIaS92UmbNPDPwu2FrTHCdU98iiZ1X27KwaAmVp"
+      },
+      "useServerDrivenAbr": true,
+      "serverPlaybackStartConfig": {
+        "enable": true,
+        "playbackStartPolicy": {
+          "startMinReadaheadPolicy": [
+            {
+              "minReadaheadMs": 1200
+            }
+          ]
+        }
+      },
+      "platypusUseEnvoyNetFetch": false,
+      "fixLivePlaybackModelDefaultPosition": false
+    },
+    "webPlayerConfig": {
+      "useCobaltTvosDash": true,
+      "webPlayerActionsPorting": {
+        "getSharePanelCommand": {
+          "clickTrackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_web_player_share_panel"
+            }
+          },
+          "webPlayerShareEntityServiceEndpoint": {
+            "serializedShareEntity": "CgtZYk16aGIxS3Bwdw%3D%3D"
+          }
+        },
+        "subscribeCommand": {
+          "clickTrackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/subscription/subscribe"
+            }
+          },
+          "subscribeEndpoint": {
+            "channelIds": [
+              "UCJEjNLsOdm4wSEfCGyl1acA"
+            ],
+            "params": "EgIIBxgA"
+          }
+        },
+        "unsubscribeCommand": {
+          "clickTrackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+            }
+          },
+          "unsubscribeEndpoint": {
+            "channelIds": [
+              "UCJEjNLsOdm4wSEfCGyl1acA"
+            ],
+            "params": "CgIIBxgA"
+          }
+        },
+        "addToWatchLaterCommand": {
+          "clickTrackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/browse/edit_playlist"
+            }
+          },
+          "playlistEditEndpoint": {
+            "playlistId": "WL",
+            "actions": [
+              {
+                "addedVideoId": "YbMzhb1Kppw",
+                "action": "ACTION_ADD_VIDEO"
+              }
+            ]
+          }
+        },
+        "removeFromWatchLaterCommand": {
+          "clickTrackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/browse/edit_playlist"
+            }
+          },
+          "playlistEditEndpoint": {
+            "playlistId": "WL",
+            "actions": [
+              {
+                "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                "removedVideoId": "YbMzhb1Kppw"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "storyboards": {
+    "playerStoryboardSpecRenderer": {
+      "spec": "https://i.ytimg.com/sb/YbMzhb1Kppw/storyboard3_L$L/$N.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCMXSrJ4G|48#27#100#10#10#0#default#rs$AOn4CLCJ84wuhLde7NS5q7xiTwH4ndj4Xw|80#45#93#10#10#10000#M$M#rs$AOn4CLDi0FetGid77tSUDoMxVR8f1-L_3w|160#90#93#5#5#10000#M$M#rs$AOn4CLCf2lyT-7k4uMjvYGWhdP5gpz_0uw",
+      "recommendedLevel": 2,
+      "highResolutionRecommendedLevel": 2
+    }
+  },
+  "microformat": {
+    "playerMicroformatRenderer": {
+      "thumbnail": {
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/YbMzhb1Kppw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        ]
+      },
+      "embed": {
+        "iframeUrl": "https://www.youtube.com/embed/YbMzhb1Kppw",
+        "width": 1280,
+        "height": 720
+      },
+      "title": {
+        "simpleText": "Cury Vila das Belezas 3 | Entrega das chaves | Venha ver nosso condomínio e nosso AP por dentro |"
+      },
+      "description": {
+        "simpleText": "Se inscreva aqui no meu canal e ative o sininho para acompanhar os videos que posto toda semana!\n\nMe siga no instagram: https://www.instagram.com/tudodamona/\n\nLink da minha geladeira Panasonic com desconto:\nCompre pela Shoppe: https://s.shopee.com.br/VlyxwsKJC\nCompre na Amazon:   https://amzn.to/4dG9ZEo"
+      },
+      "lengthSeconds": "916",
+      "ownerProfileUrl": "http://www.youtube.com/@tudodamona",
+      "externalChannelId": "UCJEjNLsOdm4wSEfCGyl1acA",
+      "isFamilySafe": true,
+      "availableCountries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AX",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BL",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GL",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GR",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LR",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "MD",
+        "ME",
+        "MF",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PT",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SH",
+        "SI",
+        "SJ",
+        "SK",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "isUnlisted": false,
+      "hasYpcMetadata": false,
+      "viewCount": "34885",
+      "category": "Howto & Style",
+      "publishDate": "2023-01-20T15:53:20-08:00",
+      "ownerChannelName": "Tudo da Mona",
+      "uploadDate": "2023-01-20T15:53:20-08:00",
+      "isShortsEligible": false,
+      "externalVideoId": "YbMzhb1Kppw",
+      "likeCount": "762",
+      "canonicalUrl": "https://www.youtube.com/watch?v=YbMzhb1Kppw"
+    }
+  },
+  "cards": {
+    "cardCollectionRenderer": {
+      "cards": [
+        {
+          "cardRenderer": {
+            "teaser": {
+              "simpleCardTeaserRenderer": {
+                "message": {
+                  "simpleText": "Ver correções"
+                },
+                "trackingParams": "CBMQ0DYiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+                "prominent": true,
+                "logVisibilityUpdates": true,
+                "onTapCommand": {
+                  "clickTrackingParams": "CBMQ0DYiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                  "changeEngagementPanelVisibilityAction": {
+                    "targetId": "engagement-panel-error-corrections",
+                    "visibility": "ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"
+                  }
+                }
+              }
+            },
+            "cueRanges": [
+              {
+                "startCardActiveMs": "0",
+                "endCardActiveMs": "5000",
+                "teaserDurationMs": "6000",
+                "iconAfterTeaserMs": "5000"
+              }
+            ],
+            "trackingParams": "CBIQtZcBGAAiEwiz-KjzhdGXAxWXUEgAHaU-Ahg="
+          }
+        }
+      ],
+      "headerText": {
+        "simpleText": "De Tudo da Mona"
+      },
+      "icon": {
+        "infoCardIconRenderer": {
+          "trackingParams": "CBEQsJcBIhMIs_io84XRlwMVl1BIAB2lPgIY"
+        }
+      },
+      "closeButton": {
+        "infoCardIconRenderer": {
+          "trackingParams": "CBAQsZcBIhMIs_io84XRlwMVl1BIAB2lPgIY"
+        }
+      },
+      "trackingParams": "CA8QwjciEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+      "allowTeaserDismiss": true,
+      "logIconVisibilityUpdates": true
+    }
+  },
+  "trackingParams": "CAAQu2kiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+  "messages": [
+    {
+      "mealbarPromoRenderer": {
+        "icon": {
+          "thumbnails": [
+            {
+              "url": "https://www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png",
+              "width": 384,
+              "height": 384
+            }
+          ]
+        },
+        "messageTexts": [
+          {
+            "runs": [
+              {
+                "text": "Aproveite o YouTube sem anúncios"
+              }
+            ]
+          }
+        ],
+        "actionButton": {
+          "buttonRenderer": {
+            "style": "STYLE_MONO_FILLED",
+            "size": "SIZE_DEFAULT",
+            "text": {
+              "runs": [
+                {
+                  "text": "1 mês grátis"
+                }
+              ]
+            },
+            "trackingParams": "CA4Q7G8iEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+            "command": {
+              "clickTrackingParams": "CA4Q7G8iEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+              "commandExecutorCommand": {
+                "commands": [
+                  {
+                    "clickTrackingParams": "CA4Q7G8iEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/premium?ybp=Eg9GRXdoYXRfdG9fd2F0Y2gqEmRtZWEtYWNxLWMtZWdzb1ZEZDoaCAYYASoUChJkbWVhLWFjcS1jLWVnc29WRGQ%253D",
+                        "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                        "rootVe": 93498,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "SPunlimited",
+                      "params": "kgNBEg9GRXdoYXRfdG9fd2F0Y2gqEmRtZWEtYWNxLWMtZWdzb1ZEZDoaCAYYASoUChJkbWVhLWFjcS1jLWVnc29WRGQ%3D"
+                    }
+                  },
+                  {
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "sendPost": true,
+                        "apiUrl": "/youtubei/v1/feedback"
+                      }
+                    },
+                    "feedbackEndpoint": {
+                      "feedbackToken": "AB9zfpKMq4eFAec2uc-TJ7FqquegT5K9cQPvNv2WqQx8cuajjKnjyZQ8iVZnLjy3Y3qpXfHjuQubjMOFfRM23tUNcWkC8Ribi4O5L4mtJpwNIPDtS75OXp36Xg9AUQE4QDIK-kSJwHeADqICmF2RelB8KEhVJWKW0W0-kU6mOOcOf5VtcNg-y44",
+                      "uiActions": {
+                        "hideEnclosingContainer": true
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "dismissButton": {
+          "buttonRenderer": {
+            "style": "STYLE_MONO_TONAL",
+            "size": "SIZE_DEFAULT",
+            "text": {
+              "runs": [
+                {
+                  "text": "Agora não"
+                }
+              ]
+            },
+            "trackingParams": "CA0Q7W8iEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+            "command": {
+              "clickTrackingParams": "CA0Q7W8iEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+              "commandExecutorCommand": {
+                "commands": [
+                  {
+                    "clickTrackingParams": "CA0Q7W8iEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "sendPost": true,
+                        "apiUrl": "/youtubei/v1/feedback"
+                      }
+                    },
+                    "feedbackEndpoint": {
+                      "feedbackToken": "AB9zfpIvsigFbFf_7KqpE5rmxuChJQ9IO0L0Le6ILqEaJPJSm-B1WZBuZdxza52Tf0TXN-fre38-Wbg2MtGpYy0T-eFtZx_BglInRcFlWw1Rjvh863bXyRJkQ6IugVFnYhcfJtTaQc3Q-uoNisqevI4kkDtOwF4AtRAdgo36rqEqWo-CAKd0diE",
+                      "uiActions": {
+                        "hideEnclosingContainer": true
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "triggerCondition": "TRIGGER_CONDITION_POST_AD",
+        "style": "STYLE_MODERN",
+        "trackingParams": "CAwQ42kYASITCLP4qPOF0ZcDFZdQSAAdpT4CGA==",
+        "impressionEndpoints": [
+          {
+            "clickTrackingParams": "CAwQ42kYASITCLP4qPOF0ZcDFZdQSAAdpT4CGMoBBM_nkc4=",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "sendPost": true,
+                "apiUrl": "/youtubei/v1/feedback"
+              }
+            },
+            "feedbackEndpoint": {
+              "feedbackToken": "AB9zfpIpJcVKeck_LRv0zrL-hMVmGQBjjd1PGvdCED9pB9JbHU36QWVWz_dbV1TXyQNg7JgLybi5cletNjgiQUYSNn3GudnvLfEgdGpqfZ2Fi2xJlk5JS3QwZcM1EWx3mQLRvcKr_dDCVoJHxkDnM1YCpVOiSQ9LZiQWwfyT3J4MQ5pzwokD6bg",
+              "uiActions": {
+                "hideEnclosingContainer": false
+              }
+            }
+          }
+        ],
+        "isVisible": true,
+        "messageTitle": {
+          "runs": [
+            {
+              "text": "YouTube Premium"
+            }
+          ]
+        },
+        "iconDark": {
+          "thumbnails": [
+            {
+              "url": "https://www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png",
+              "width": 384,
+              "height": 384
+            }
+          ]
+        },
+        "supplementalText": {
+          "runs": [
+            {
+              "text": "Sujeito aos termos. Cancele quando quiser."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "endscreen": {
+    "endscreenRenderer": {
+      "elements": [
+        {
+          "endscreenElementRenderer": {
+            "style": "CHANNEL",
+            "image": {
+              "thumbnails": [
+                {
+                  "url": "https://yt3.ggpht.com/rRNytoD3rvZhNr3UhjTxLORL-QenN4BXB0fNdMjeprYXscE5_JHEkR1c_eiOIwSCxAPIHJRV=s250-c-k-c0x00ffffff-no-rj",
+                  "width": 250,
+                  "height": 250
+                },
+                {
+                  "url": "https://yt3.ggpht.com/rRNytoD3rvZhNr3UhjTxLORL-QenN4BXB0fNdMjeprYXscE5_JHEkR1c_eiOIwSCxAPIHJRV=s400-c-k-c0x00ffffff-no-rj",
+                  "width": 400,
+                  "height": 400
+                }
+              ]
+            },
+            "icon": {
+              "thumbnails": [
+                {
+                  "url": "https://www.gstatic.com/youtube/img/annotations/youtube.png"
+                }
+              ]
+            },
+            "left": 0.82280701,
+            "width": 0.15438597,
+            "top": 0.54906541,
+            "aspectRatio": 1,
+            "startMs": "895833",
+            "endMs": "915833",
+            "title": {
+              "accessibility": {
+                "accessibilityData": {
+                  "label": "Tudo da Mona, canal"
+                }
+              },
+              "simpleText": "Tudo da Mona"
+            },
+            "metadata": {
+              "simpleText": "ROTINA, ORGANIZAÇÃO E RECEITAS🫧🧼🥗\n\nSe inscreva e venha fazer parte da nossa família🩵\n\nParcerias: tudodamona@gmail.com\n\nVEM FICAR MAIS PERTINHO DE MIM\nInstagram: @tudodamona\n"
+            },
+            "callToAction": {
+              "simpleText": "VISITE O CANAL"
+            },
+            "dismiss": {
+              "simpleText": "CANCELAR"
+            },
+            "endpoint": {
+              "clickTrackingParams": "CAcQ-N4BGAAiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbkiczarq2_DM2WHKAQTP55HO",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/channel/UCJEjNLsOdm4wSEfCGyl1acA",
+                  "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                  "rootVe": 3611,
+                  "apiUrl": "/youtubei/v1/browse"
+                }
+              },
+              "browseEndpoint": {
+                "browseId": "UCJEjNLsOdm4wSEfCGyl1acA"
+              }
+            },
+            "hovercardButton": {
+              "subscribeButtonRenderer": {
+                "buttonText": {
+                  "runs": [
+                    {
+                      "text": "INSCREVER-SE"
+                    }
+                  ]
+                },
+                "subscribed": false,
+                "enabled": true,
+                "type": "FREE",
+                "channelId": "UCJEjNLsOdm4wSEfCGyl1acA",
+                "showPreferences": false,
+                "subscribedButtonText": {
+                  "runs": [
+                    {
+                      "text": "INSCRITO"
+                    }
+                  ]
+                },
+                "unsubscribedButtonText": {
+                  "runs": [
+                    {
+                      "text": "INSCREVER-SE"
+                    }
+                  ]
+                },
+                "trackingParams": "CAgQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbg==",
+                "unsubscribeButtonText": {
+                  "runs": [
+                    {
+                      "text": "CANCELAR INSCRIÇÃO"
+                    }
+                  ]
+                },
+                "serviceEndpoints": [
+                  {
+                    "clickTrackingParams": "CAgQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbsoBBM_nkc4=",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "sendPost": true,
+                        "apiUrl": "/youtubei/v1/subscription/subscribe"
+                      }
+                    },
+                    "subscribeEndpoint": {
+                      "channelIds": [
+                        "UCJEjNLsOdm4wSEfCGyl1acA"
+                      ],
+                      "params": "EgIIBBgAWAE%3D"
+                    }
+                  },
+                  {
+                    "clickTrackingParams": "CAgQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "sendPost": true
+                      }
+                    },
+                    "signalServiceEndpoint": {
+                      "signal": "CLIENT_SIGNAL",
+                      "actions": [
+                        {
+                          "clickTrackingParams": "CAgQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                          "openPopupAction": {
+                            "popup": {
+                              "confirmDialogRenderer": {
+                                "trackingParams": "CAkQxjgiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+                                "dialogMessages": [
+                                  {
+                                    "runs": [
+                                      {
+                                        "text": "Cancelar inscrição no canal "
+                                      },
+                                      {
+                                        "text": "Tudo da Mona"
+                                      },
+                                      {
+                                        "text": "?"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "confirmButton": {
+                                  "buttonRenderer": {
+                                    "style": "STYLE_BLUE_TEXT",
+                                    "size": "SIZE_DEFAULT",
+                                    "isDisabled": false,
+                                    "text": {
+                                      "runs": [
+                                        {
+                                          "text": "Cancelar inscrição"
+                                        }
+                                      ]
+                                    },
+                                    "serviceEndpoint": {
+                                      "clickTrackingParams": "CAsQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbsoBBM_nkc4=",
+                                      "commandMetadata": {
+                                        "webCommandMetadata": {
+                                          "sendPost": true,
+                                          "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                                        }
+                                      },
+                                      "unsubscribeEndpoint": {
+                                        "channelIds": [
+                                          "UCJEjNLsOdm4wSEfCGyl1acA"
+                                        ],
+                                        "params": "CgIIBBgAMAE%3D"
+                                      }
+                                    },
+                                    "accessibility": {
+                                      "label": "Cancelar inscrição"
+                                    },
+                                    "trackingParams": "CAsQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-Ahg="
+                                  }
+                                },
+                                "cancelButton": {
+                                  "buttonRenderer": {
+                                    "style": "STYLE_TEXT",
+                                    "size": "SIZE_DEFAULT",
+                                    "isDisabled": false,
+                                    "text": {
+                                      "runs": [
+                                        {
+                                          "text": "Cancelar"
+                                        }
+                                      ]
+                                    },
+                                    "accessibility": {
+                                      "label": "Cancelar"
+                                    },
+                                    "trackingParams": "CAoQ8FsiEwiz-KjzhdGXAxWXUEgAHaU-Ahg="
+                                  }
+                                },
+                                "primaryIsCancel": false
+                              }
+                            },
+                            "popupType": "DIALOG"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "subscribeAccessibility": {
+                  "accessibilityData": {
+                    "label": "Inscreva-se em Tudo da Mona."
+                  }
+                },
+                "unsubscribeAccessibility": {
+                  "accessibilityData": {
+                    "label": "Cancelar inscrição no canal Tudo da Mona."
+                  }
+                },
+                "signInEndpoint": {
+                  "clickTrackingParams": "CAgQmysiEwiz-KjzhdGXAxWXUEgAHaU-AhjKAQTP55HO",
+                  "commandMetadata": {
+                    "webCommandMetadata": {
+                      "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dpt%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCJEjNLsOdm4wSEfCGyl1acA%26feature%3Div-endscreen%26continue_action%3DQUlxb01IWmsxRnBhWmNzektQTW53M3diSDRYV3xBSTVJdTV1ZW5HR3djLUp4Szh1ZWk1Zl9YNS1oRnhJWTlmU2dhZWhkaVkyWDZqSzBkbGxoYnhiQUc4MXdtQ1lRUlBGUF8zZ2xyQ18wNnBlWVVFb1MxSVVpVkx6dTRwRTd6ZHlxSnF6bG5TWUVnR1htZjJRNUNFNGRoYTFoU0FRaENRS2E4Wml6dU5KR09YQXlaVHpDbFgyYlNzZE13NDVlYkVLNDJKOGY2QmY1c1dTOThxSWVqR0FTMzdV&hl=pt-BR"
+                    }
+                  }
+                }
+              }
+            },
+            "trackingParams": "CAcQ-N4BGAAiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+            "isSubscribe": true,
+            "id": "17953636866172475933"
+          }
+        },
+        {
+          "endscreenElementRenderer": {
+            "style": "VIDEO",
+            "image": {
+              "thumbnails": [
+                {
+                  "url": "https://i.ytimg.com/vi/NFFShH0qRy8/hqdefault.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhYIFUoZTAP&rs=AOn4CLBR7aw_ZkgyBMp3I8pBexyoDc3bBg",
+                  "width": 168,
+                  "height": 94
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/NFFShH0qRy8/hqdefault.jpg?sqp=-oaymwE8CMQBEG5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgB_gmAAtAFigIMCAAQARhYIFUoZTAP&rs=AOn4CLDO2IrQrIJVGsIls2fTwzcAg81A0g",
+                  "width": 196,
+                  "height": 110
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/NFFShH0qRy8/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYWCBVKGUwDw==&rs=AOn4CLAnEhI4DoQfxu7uLrd_ZqwCTlMr7A",
+                  "width": 246,
+                  "height": 138
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/NFFShH0qRy8/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYWCBVKGUwDw==&rs=AOn4CLDsicoUGcBLoFz-4_sbin-ABIIwTQ",
+                  "width": 336,
+                  "height": 188
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/NFFShH0qRy8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFggVShlMA8=&rs=AOn4CLBNRrg-ZJTuVUzfWYyWuYqvqBEmTA",
+                  "width": 1920,
+                  "height": 1080
+                }
+              ]
+            },
+            "left": 0.022807017,
+            "width": 0.32280701,
+            "top": 0.52492213,
+            "aspectRatio": 1.7777778,
+            "startMs": "895833",
+            "endMs": "915833",
+            "title": {
+              "accessibility": {
+                "accessibilityData": {
+                  "label": "Umbox da TV Qned80, 55 polegadas. Comando de voz, alexa, Google Assis, ThingQ., vídeo"
+                }
+              },
+              "simpleText": "Umbox da TV Qned80, 55 polegadas. Comando de voz, alexa, Google Assis, ThingQ."
+            },
+            "metadata": {
+              "simpleText": "18.320 visualizações"
+            },
+            "endpoint": {
+              "clickTrackingParams": "CAYQ8N4BGAEiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbkiczarq2_DM2WGaAQMQu2nKAQTP55HO",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/watch?v=NFFShH0qRy8",
+                  "webPageType": "WEB_PAGE_TYPE_WATCH",
+                  "rootVe": 3832
+                },
+                "interactionLoggingCommandMetadata": {
+                  "loggingExpectations": {
+                    "screenCreatedLoggingExpectations": {
+                      "expectedParentScreens": [
+                        {
+                          "screenVeType": 3832
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "watchEndpoint": {
+                "videoId": "NFFShH0qRy8",
+                "watchEndpointSupportedOnesieConfig": {
+                  "html5PlaybackOnesieConfig": {
+                    "commonConfig": {
+                      "url": "https://rr8---sn-8p8v-bg0se.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&msp=1&odepv=1&id=345152847d2a472f&ip=2804%3A7f0%3Ab440%3A501d%3Ad561%3Aff78%3Ac829%3A617d&initcwndbps=3020000&mt=1792789323&oweuc="
+                    }
+                  }
+                }
+              }
+            },
+            "trackingParams": "CAYQ8N4BGAEiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+            "id": "17953636866172477162",
+            "thumbnailOverlays": [
+              {
+                "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                    "accessibility": {
+                      "accessibilityData": {
+                        "label": "6 minutos e 52 segundos"
+                      }
+                    },
+                    "simpleText": "6:52"
+                  },
+                  "style": "DEFAULT"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "endscreenElementRenderer": {
+            "style": "VIDEO",
+            "image": {
+              "thumbnails": [
+                {
+                  "url": "https://i.ytimg.com/vi/dlMd3vyDy5I/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBkuuBqD2gpzfnikb18YjxblyDS2g&usqp=CBQ",
+                  "width": 168,
+                  "height": 94
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/dlMd3vyDy5I/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBRHmWMAVG40QbmGo4e-eYgRYAyoA&usqp=CBQ",
+                  "width": 196,
+                  "height": 110
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/dlMd3vyDy5I/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCMdQUx9Dvp0qYDnSs0jvmGpqVL5Q&usqp=CBQ",
+                  "width": 246,
+                  "height": 138
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/dlMd3vyDy5I/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCHNrDmbkX4TkpWvOksPq9XVmveyA&usqp=CBQ",
+                  "width": 336,
+                  "height": 188
+                },
+                {
+                  "url": "https://i.ytimg.com/vi/dlMd3vyDy5I/maxresdefault.jpg",
+                  "width": 1920,
+                  "height": 1080
+                }
+              ]
+            },
+            "left": 0.022807017,
+            "width": 0.32280701,
+            "top": 0.13084112,
+            "aspectRatio": 1.7777778,
+            "startMs": "895833",
+            "endMs": "915833",
+            "title": {
+              "accessibility": {
+                "accessibilityData": {
+                  "label": "TRANSFORMAÇÃO EM CASA | SOZINHA | FIQUE IRRECONHECÍVEL | EM 24h 😱😳 #morenailuminada, vídeo"
+                }
+              },
+              "simpleText": "TRANSFORMAÇÃO EM CASA | SOZINHA | FIQUE IRRECONHECÍVEL | EM 24h 😱😳 #morenailuminada"
+            },
+            "metadata": {
+              "simpleText": "203 visualizações"
+            },
+            "endpoint": {
+              "clickTrackingParams": "CAUQ8N4BGAIiEwiz-KjzhdGXAxWXUEgAHaU-AhgyDGl2LWVuZHNjcmVlbkiczarq2_DM2WGaAQMQu2nKAQTP55HO",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/watch?v=dlMd3vyDy5I",
+                  "webPageType": "WEB_PAGE_TYPE_WATCH",
+                  "rootVe": 3832
+                },
+                "interactionLoggingCommandMetadata": {
+                  "loggingExpectations": {
+                    "screenCreatedLoggingExpectations": {
+                      "expectedParentScreens": [
+                        {
+                          "screenVeType": 3832
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "watchEndpoint": {
+                "videoId": "dlMd3vyDy5I",
+                "watchEndpointSupportedOnesieConfig": {
+                  "html5PlaybackOnesieConfig": {
+                    "commonConfig": {
+                      "url": "https://rr5---sn-8p8v-bg0se.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&msp=1&odepv=1&id=76531ddefc83cb92&ip=2804%3A7f0%3Ab440%3A501d%3Ad561%3Aff78%3Ac829%3A617d&initcwndbps=3020000&mt=1792789323&oweuc="
+                    }
+                  }
+                }
+              }
+            },
+            "trackingParams": "CAUQ8N4BGAIiEwiz-KjzhdGXAxWXUEgAHaU-Ahg=",
+            "id": "17953636866172474295",
+            "thumbnailOverlays": [
+              {
+                "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                    "accessibility": {
+                      "accessibilityData": {
+                        "label": "10 minutos e 4 segundos"
+                      }
+                    },
+                    "simpleText": "10:04"
+                  },
+                  "style": "DEFAULT"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "startMs": "895833",
+      "trackingParams": "CAEQ794BIhMIs_io84XRlwMVl1BIAB2lPgIY",
+      "hideButton": {
+        "toggleButtonViewModel": {
+          "defaultButtonViewModel": {
+            "buttonViewModel": {
+              "iconName": "VISIBILITY_OFF",
+              "title": "Ocultar",
+              "onTap": {
+                "innertubeCommand": {
+                  "clickTrackingParams": "CAQQ088OIhMIs_io84XRlwMVl1BIAB2lPgIYygEEz-eRzg==",
+                  "changeCreatorEndscreenVisibilityCommand": {
+                    "hide": true
+                  }
+                }
+              },
+              "accessibilityText": "Ocultar cards de tela final",
+              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY",
+              "trackingParams": "CAQQ088OIhMIs_io84XRlwMVl1BIAB2lPgIY",
+              "type": "BUTTON_VIEW_MODEL_TYPE_FILLED",
+              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_XSMALL"
+            }
+          },
+          "toggledButtonViewModel": {
+            "buttonViewModel": {
+              "iconName": "VISIBILITY",
+              "title": "Mostrar",
+              "onTap": {
+                "innertubeCommand": {
+                  "clickTrackingParams": "CAMQ1M8OIhMIs_io84XRlwMVl1BIAB2lPgIYygEEz-eRzg==",
+                  "changeCreatorEndscreenVisibilityCommand": {
+                    "hide": false
+                  }
+                }
+              },
+              "accessibilityText": "Mostrar cards de tela final",
+              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY",
+              "trackingParams": "CAMQ1M8OIhMIs_io84XRlwMVl1BIAB2lPgIY",
+              "type": "BUTTON_VIEW_MODEL_TYPE_FILLED",
+              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_XSMALL"
+            }
+          },
+          "rendererContext": {
+            "loggingContext": {
+              "loggingDirectives": {
+                "trackingParams": "CAIQ_O4OIhMIs_io84XRlwMVl1BIAB2lPgIY",
+                "visibility": {
+                  "types": "12"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "adPlacements": [
+    {
+      "adPlacementRenderer": {
+        "config": {
+          "adPlacementConfig": {
+            "kind": "AD_PLACEMENT_KIND_START",
+            "adTimeOffset": {
+              "offsetStartMilliseconds": "0",
+              "offsetEndMilliseconds": "-1"
+            },
+            "hideCueRangeMarker": true
+          }
+        },
+        "renderer": {
+          "clientForecastingAdRenderer": {}
+        },
+        "adSlotLoggingData": {
+          "serializedSlotAdServingDataEntry": "ChMI9MWp84XRlwMVK1q4BB0I_SvTGhJiEEpvS0xpa2o0Wks4NzloOW0="
+        }
+      }
+    }
+  ],
+  "adBreakHeartbeatParams": "Q0FBJTNE",
+  "frameworkUpdates": {
+    "entityBatchUpdate": {
+      "mutations": [
+        {
+          "entityKey": "Eg0KC1liTXpoYjFLcHB3IPYBKAE%3D",
+          "type": "ENTITY_MUTATION_TYPE_REPLACE",
+          "payload": {
+            "offlineabilityEntity": {
+              "key": "Eg0KC1liTXpoYjFLcHB3IPYBKAE%3D",
+              "addToOfflineButtonState": "ADD_TO_OFFLINE_BUTTON_STATE_UNKNOWN"
+            }
+          }
+        }
+      ],
+      "timestamp": {
+        "seconds": "1792789652",
+        "nanos": 895179657
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Abra Resultado_gavetas.html para resultados, metodo, limitacoes verticais e links aos arquivos.
+
+Escritorio_FGVTN_mais20mm_ESTUDO.FCStd e um estudo PARCIAL separado. Contem grupos Carcaca_atual, Carcaca_proposta_mais20mm e Caixas_candidatas_envelopes. Os grupos ocupam o mesmo lugar: exibir uma carcaca por vez. As caixas sao envelopes de conferencia, nao pecas executivas. Estudo salvo e reaberto; nenhuma forma invalida.
+
+Resultado: roupeiro4x550mm livres (min520), cozinha3x572mm (min520), escritorio2x412mm (min420: faltam8). Proposta escritorio aumenta profundidade externa450para470 so atras; vao432mm, margem12. Nenhuma intersecao do volume acrescentado/deslocado com demais solidos do modelo. Frente, largura, altura e armazenamento preservados. Proposta NAO incorporada aR42.
+
+ATENCAO: a proposta resolve apenas a profundidade. O encaixe vertical38min, cotas27/12, engates, furos e regulagem nao foram homologados. Lateral da gaveta superiorZ701 com tampo inferiorZ702 deixa1mm; nao prometer ajuste+3mm na posicao atual. Nao reduzir armazenamento para forcarencaixe.
+
+FonteR42 permaneceu intacta, SHA256 b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26. Sem medida fisica ou aprovacao de fabricacao.

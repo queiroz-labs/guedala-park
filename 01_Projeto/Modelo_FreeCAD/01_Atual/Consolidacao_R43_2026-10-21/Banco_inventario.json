@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Modulo019",
+    "label": "Banco baú - extensão guardada por cima",
+    "type": "App::Part",
+    "vis": true,
+    "bbox": "BoundBox (100, 3750, 0, 550, 5550, 470)",
+    "group": [
+      "Peca407",
+      "Peca408",
+      "PecaBancoR16",
+      "PecaBancoR001",
+      "PecaBancoR002",
+      "PecaBancoR003",
+      "PecaBancoR004",
+      "PecaBancoR005",
+      "TampaBancoR16",
+      "TampaBancoR001",
+      "PecaBancoR011",
+      "TampaBancoR002",
+      "PecaBancoR013",
+      "TampaBancoR003",
+      "PecaBancoR016",
+      "PecaBancoR017",
+      "PecaBancoR018",
+      "PecaBancoR019",
+      "PecaBancoR020",
+      "PecaBancoR021",
+      "PecaBancoR022",
+      "PecaBancoR023",
+      "PecaBancoR024",
+      "PecaBancoR025",
+      "PecaBancoR026",
+      "PecaBancoR027",
+      "PecaBancoR028",
+      "PecaBancoR029",
+      "PecaBancoR030",
+      "PecaBancoR031",
+      "PecaBancoR032",
+      "PecaBancoR033",
+      "PecaBancoR034",
+      "ContencaoBaldeR16",
+      "PecaBancoR036",
+      "PecaBancoR037",
+      "PecaBancoR015",
+      "Peca406AtualR31",
+      "PecaBancoR007AtualR31",
+      "PecaBancoR006AtualR31",
+      "Ref_Apoio_B01R31",
+      "Ref_Apoio_B02R31",
+      "Ref_Apoio_B03R31",
+      "Ref_Apoio_B04R31",
+      "Ref_Sarrafo_frente0R31",
+      "Ref_Sarrafo_tras0R31",
+      "Ref_Sarrafo_frente1R31",
+      "Ref_Sarrafo_tras1R31",
+      "Ref_Sarrafo_frente2R31",
+      "Ref_Sarrafo_tras2R31",
+      "Ref_Sarrafo_frente3R31",
+      "Ref_Sarrafo_tras3R31",
+      "BancoFolhaR31"
+    ],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX + 7400 mm"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ],
+      [
+        "Altura",
+        "Dimensoes019.Altura"
+      ],
+      [
+        "Chapa",
+        "Dimensoes019.Chapa"
+      ],
+      [
+        "Comprimento",
+        "Dimensoes019.Comprimento"
+      ],
+      [
+        "Frente",
+        "Dimensoes019.Frente"
+      ],
+      [
+        "Fundo",
+        "Dimensoes019.Fundo"
+      ],
+      [
+        "Junta",
+        "Dimensoes019.Junta"
+      ],
+      [
+        "Profundidade",
+        "Dimensoes019.Profundidade"
+      ]
+    ]
+  },
+  {
+    "name": "Dimensoes019",
+    "label": "Dimensões · Banco baú · 180×55 externo",
+    "type": "Spreadsheet::Sheet",
+    "vis": true,
+    "bbox": null,
+    "group": [],
+    "expressions": []
+  },
+  {
+    "name": "Peca421",
+    "label": "Encosto do banco · reserva",
+    "type": "Part::Box",
+    "vis": true,
+    "bbox": "BoundBox (0, 3750, 400, 100, 5550, 900)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX + 7400 mm - Length * (cos(GiroLocal) + 0 * (1 - cos(GiroLocal)))"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY - Length * (-0 * (1 - cos(GiroLocal)) + -1 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ - Length * (-0 * (1 - cos(GiroLocal)) - -0 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "PecaBancoR008",
+    "label": "Tampa20 - envelope total, não chapa liberada",
+    "type": "Part::Box",
+    "vis": true,
+    "bbox": "BoundBox (-387, -448, -70, 0, 0, -50)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX - Length * (cos(GiroLocal) + 0 * (1 - cos(GiroLocal)))"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY - Length * (-0 * (1 - cos(GiroLocal)) + -1 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ - Length * (-0 * (1 - cos(GiroLocal)) - -0 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "TampaBancoR001",
+    "label": "Liquidificador e bebidas - tampa fina, almofada removível",
+    "type": "App::Part",
+    "vis": true,
+    "bbox": "BoundBox (-1410, 0, 400, -1044, 448, 420)",
+    "group": [
+      "PecaBancoR010"
+    ],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ],
+      [
+        "GiroLocal",
+        "-ControleBancoR001.Abertura"
+      ]
+    ]
+  },
+  {
+    "name": "PecaBancoR010",
+    "label": "Tampa20 - envelope total, não chapa liberada001",
+    "type": "Part::Box",
+    "vis": true,
+    "bbox": "BoundBox (-366, -448, -20, 0, 0, 0)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX - Length * (cos(GiroLocal) + 0 * (1 - cos(GiroLocal)))"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY - Length * (-0 * (1 - cos(GiroLocal)) + -1 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ - Length * (-0 * (1 - cos(GiroLocal)) - -0 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "TampaBancoR002",
+    "label": "Balde - tampa fina, almofada removível",
+    "type": "App::Part",
+    "vis": true,
+    "bbox": "BoundBox (-1042, 0, 400, -828, 448, 420)",
+    "group": [
+      "PecaBancoR012"
+    ],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ],
+      [
+        "GiroLocal",
+        "-ControleBancoR002.Abertura"
+      ]
+    ]
+  },
+  {
+    "name": "PecaBancoR012",
+    "label": "Tampa20 - envelope total, não chapa liberada002",
+    "type": "Part::Box",
+    "vis": true,
+    "bbox": "BoundBox (-214, -448, -20, 0, 0, 0)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX - Length * (cos(GiroLocal) + 0 * (1 - cos(GiroLocal)))"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY - Length * (-0 * (1 - cos(GiroLocal)) + -1 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ - Length * (-0 * (1 - cos(GiroLocal)) - -0 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "TampaBancoR003",
+    "label": "Folha/aspirador/jogos - tampa fina/almofada removível, proposta nova",
+    "type": "App::Part",
+    "vis": true,
+    "bbox": "BoundBox (-826, 0, 400, -1, 448, 420)",
+    "group": [
+      "PecaBancoR014"
+    ],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ],
+      [
+        "GiroLocal",
+        "-(TransferenciaMesaR37.Progresso > 0 ? TransferenciaMesaR37.Tampa : ControleBancoR003.Abertura)"
+      ]
+    ]
+  },
+  {
+    "name": "PecaBancoR014",
+    "label": "Tampa20 - envelope total, não chapa liberada003",
+    "type": "Part::Box",
+    "vis": true,
+    "bbox": "BoundBox (-825, -448, -20, 0, 0, 0)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX - Length * (cos(GiroLocal) + 0 * (1 - cos(GiroLocal)))"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY - Length * (-0 * (1 - cos(GiroLocal)) + -1 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ - Length * (-0 * (1 - cos(GiroLocal)) - -0 * sin(GiroLocal))"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "ControlesAmbienteR005",
+    "label": "Sala — banco e almofadas",
+    "type": "App::DocumentObjectGroup",
+    "vis": true,
+    "bbox": null,
+    "group": [
+      "ControleBancoR16",
+      "ControleBancoR001",
+      "ControleBancoR002",
+      "ControleBancoR003",
+      "ControleMesaR35",
+      "TransferenciaMesaR37"
+    ],
+    "expressions": []
+  },
+  {
+    "name": "Peca406AtualR31",
+    "label": "Lateral fechada18 - banco com acesso superior",
+    "type": "Part::Feature",
+    "vis": true,
+    "bbox": "BoundBox (-18, 0, 0, 0, 450, 400)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "PecaBancoR006AtualR31",
+    "label": "PecaBancoR006 · recorte híbrido R02 integrado",
+    "type": "Part::Feature",
+    "vis": true,
+    "bbox": "BoundBox (-427, 20, 100, -409, 410, 292)",
+    "group": [],
+    "expressions": [
+      [
+        ".Placement.Base.x",
+        "-LocalX"
+      ],
+      [
+        ".Placement.Base.y",
+        "LocalY"
+      ],
+      [
+        ".Placement.Base.z",
+        "LocalZ"
+      ],
+      [
+        ".Placement.Rotation.Angle",
+        "GiroLocal"
+      ]
+    ]
+  },
+  {
+    "name": "TransferenciaMesaR37",
+    "label": "HISTORICO mesa sob medida - Mesa e banco - acesso superior (0 a 100)",
+    "type": "App::FeaturePython",
+    "vis": true,
+    "bbox": null,
+    "group": [],
+    "expressions": [
+      [
+        "AlmofadaY",
+        "873 * (min(1; max(0; (Progresso - 5) / 7)) - min(1; max(0; (Progresso - 90) / 7)))"
+      ],
+      [
+        "AlmofadaZ",
+        "60 * min(1; max(0; (Progresso - 0) / 5)) - 10 * min(1; max(0; (Progresso - 12) / 3)) + 10 * min(1; max(0; (Progresso - 85) / 5)) - 60 * min(1; max(0; (Progresso - 97) / 3))"
+      ],
+      [
+        "Cx",
+        "-418 - 482 * min(1; max(0; (Progresso - 40) / 10))"
+      ],
+      [
+        "Cy",
+        "226 - 551 * min(1; max(0; (Progresso - 50) / 10))"
+      ],
+      [
+        "Cz",
+        "325 + 610 * min(1; max(0; (Progresso - 25) / 15)) - 200 * min(1; max(0; (Progresso - 70) / 10))"
+      ],
+      [
+        "Giro",
+        "-90 deg * min(1; max(0; (Progresso - 60) / 10))"
+      ],
+      [
+        "Tampa",
+        "90 deg * (min(1; max(0; (Progresso - 15) / 10)) - min(1; max(0; (Progresso - 80) / 5)))"
+      ],
+      [
+        "Vao",
+        "300 * min(1; max(0; (Progresso - 0) / 5))"
+      ]
+    ]
+  },
+  {
+    "name": "BC43_Desmontagem",
+    "label": "Descida de80 mm da tampa/corpo — teste",
+    "type": "PartDesign::Feature",
+    "vis": false,
+    "bbox": "BoundBox (3020.27, 5000.07, 436, 3100, 5079.93, 609)",
+    "group": [],
+    "expressions": []
+  }
+]

@@ -1,0 +1,8475 @@
+{
+  "status": "PENDENTE",
+  "tests": 9432,
+  "findings": [
+    {
+      "kind": "carga_vs_outra_gaveta",
+      "a": "0",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 46770.40000000399
+    },
+    {
+      "kind": "referencia_R42_altura_util_em_movimento",
+      "a": "Gaveta008",
+      "b": "GavetaComumR089",
+      "volume_mm3": 19706.39999999987
+    },
+    {
+      "kind": "regulagem_carga_frentes_realinhadas",
+      "a": "0",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 46770.40000000399,
+      "inferior_dz": 0,
+      "superior_dz": 0
+    },
+    {
+      "kind": "regulagem_carga_frentes_realinhadas",
+      "a": "0",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 46770.40000000399,
+      "inferior_dz": 0,
+      "superior_dz": 3
+    },
+    {
+      "kind": "regulagem_frentes_acompanham",
+      "a": "Gaveta008_Frente",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 7164.0,
+      "inferior_dz": 3,
+      "superior_dz": 0
+    },
+    {
+      "kind": "regulagem_carga_frentes_realinhadas",
+      "a": "0",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 397548.40000000404,
+      "inferior_dz": 3,
+      "superior_dz": 0
+    },
+    {
+      "kind": "regulagem_carga_frentes_realinhadas",
+      "a": "0",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 397548.40000000404,
+      "inferior_dz": 3,
+      "superior_dz": 3
+    }
+  ],
+  "baseline": [
+    {
+      "drawer": "Gaveta008",
+      "declared_height": 60.39999999999998,
+      "floor_top": 544.0,
+      "prism": [
+        4339.0,
+        307.0,
+        544.0,
+        4661.0,
+        666.0,
+        604.4
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "declared_height": 54.0,
+      "floor_top": 648.0,
+      "prism": [
+        4339.0,
+        307.0,
+        648.0,
+        4661.0,
+        666.0,
+        702.0
+      ]
+    }
+  ],
+  "external_candidates": [
+    {
+      "name": "XZ_Plane009",
+      "label": "XZ-plane009",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane009",
+      "label": "YZ-plane009",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane010",
+      "label": "XZ-plane010",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane010",
+      "label": "YZ-plane010",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane011",
+      "label": "XZ-plane011",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane011",
+      "label": "YZ-plane011",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane012",
+      "label": "XZ-plane012",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane012",
+      "label": "YZ-plane012",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane041",
+      "label": "XZ-plane041",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane042",
+      "label": "XZ-plane042",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane043",
+      "label": "XZ-plane043",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane044",
+      "label": "XZ-plane044",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane044",
+      "label": "YZ-plane044",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane052",
+      "label": "XZ-plane052",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane052",
+      "label": "YZ-plane052",
+      "visible_local": false,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane088",
+      "label": "XZ-plane088",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane090",
+      "label": "XZ-plane090",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane091",
+      "label": "XY-plane091",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane091",
+      "label": "XZ-plane091",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane091",
+      "label": "YZ-plane091",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane092",
+      "label": "XY-plane092",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane092",
+      "label": "XZ-plane092",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane092",
+      "label": "YZ-plane092",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane093",
+      "label": "XY-plane093",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane093",
+      "label": "XZ-plane093",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane093",
+      "label": "YZ-plane093",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane094",
+      "label": "XY-plane094",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane094",
+      "label": "XZ-plane094",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane094",
+      "label": "YZ-plane094",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane095",
+      "label": "XY-plane095",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane095",
+      "label": "XZ-plane095",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane095",
+      "label": "YZ-plane095",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane096",
+      "label": "XY-plane096",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane096",
+      "label": "XZ-plane096",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane096",
+      "label": "YZ-plane096",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane097",
+      "label": "XY-plane097",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane097",
+      "label": "XZ-plane097",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane097",
+      "label": "YZ-plane097",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane098",
+      "label": "XY-plane098",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane098",
+      "label": "XZ-plane098",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane098",
+      "label": "YZ-plane098",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane099",
+      "label": "XY-plane099",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane099",
+      "label": "XZ-plane099",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane099",
+      "label": "YZ-plane099",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane100",
+      "label": "XY-plane100",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane100",
+      "label": "XZ-plane100",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane100",
+      "label": "YZ-plane100",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane101",
+      "label": "XY-plane101",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane101",
+      "label": "XZ-plane101",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane101",
+      "label": "YZ-plane101",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane102",
+      "label": "XY-plane102",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane102",
+      "label": "XZ-plane102",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane102",
+      "label": "YZ-plane102",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane103",
+      "label": "XY-plane103",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane103",
+      "label": "XZ-plane103",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane103",
+      "label": "YZ-plane103",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane104",
+      "label": "XY-plane104",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane104",
+      "label": "XZ-plane104",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane104",
+      "label": "YZ-plane104",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane105",
+      "label": "YZ-plane105",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane106",
+      "label": "YZ-plane106",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane107",
+      "label": "YZ-plane107",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane108",
+      "label": "YZ-plane108",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane109",
+      "label": "XY-plane109",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane109",
+      "label": "YZ-plane109",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane110",
+      "label": "XY-plane110",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane110",
+      "label": "YZ-plane110",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane111",
+      "label": "YZ-plane111",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane112",
+      "label": "YZ-plane112",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane113",
+      "label": "YZ-plane113",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane114",
+      "label": "YZ-plane114",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane115",
+      "label": "YZ-plane115",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane116",
+      "label": "XY-plane116",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane116",
+      "label": "YZ-plane116",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane117",
+      "label": "XY-plane117",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane117",
+      "label": "YZ-plane117",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane118",
+      "label": "YZ-plane118",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane119",
+      "label": "XY-plane119",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane119",
+      "label": "XZ-plane119",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane119",
+      "label": "YZ-plane119",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane120",
+      "label": "XY-plane120",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane120",
+      "label": "XZ-plane120",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane120",
+      "label": "YZ-plane120",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane121",
+      "label": "XY-plane121",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane121",
+      "label": "XZ-plane121",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane121",
+      "label": "YZ-plane121",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane122",
+      "label": "XY-plane122",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane122",
+      "label": "XZ-plane122",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane122",
+      "label": "YZ-plane122",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane123",
+      "label": "XY-plane123",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane123",
+      "label": "XZ-plane123",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane123",
+      "label": "YZ-plane123",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane124",
+      "label": "XY-plane124",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane124",
+      "label": "XZ-plane124",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane124",
+      "label": "YZ-plane124",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane125",
+      "label": "XY-plane125",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane125",
+      "label": "XZ-plane125",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane125",
+      "label": "YZ-plane125",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane126",
+      "label": "XY-plane126",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane126",
+      "label": "XZ-plane126",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane126",
+      "label": "YZ-plane126",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane127",
+      "label": "XY-plane127",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane127",
+      "label": "XZ-plane127",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane127",
+      "label": "YZ-plane127",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane128",
+      "label": "XY-plane128",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane128",
+      "label": "XZ-plane128",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane128",
+      "label": "YZ-plane128",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane129",
+      "label": "XY-plane129",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane129",
+      "label": "XZ-plane129",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane129",
+      "label": "YZ-plane129",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane130",
+      "label": "XY-plane130",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane130",
+      "label": "XZ-plane130",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane130",
+      "label": "YZ-plane130",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane131",
+      "label": "XY-plane131",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane131",
+      "label": "XZ-plane131",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane131",
+      "label": "YZ-plane131",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane132",
+      "label": "XY-plane132",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane132",
+      "label": "XZ-plane132",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane132",
+      "label": "YZ-plane132",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane133",
+      "label": "YZ-plane133",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane134",
+      "label": "YZ-plane134",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane135",
+      "label": "YZ-plane135",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane136",
+      "label": "YZ-plane136",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane137",
+      "label": "XY-plane137",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane137",
+      "label": "YZ-plane137",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane138",
+      "label": "XY-plane138",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane138",
+      "label": "YZ-plane138",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane139",
+      "label": "YZ-plane139",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane140",
+      "label": "YZ-plane140",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane141",
+      "label": "YZ-plane141",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane142",
+      "label": "YZ-plane142",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane143",
+      "label": "YZ-plane143",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane144",
+      "label": "XY-plane144",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane144",
+      "label": "YZ-plane144",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane145",
+      "label": "XY-plane145",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane145",
+      "label": "YZ-plane145",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane146",
+      "label": "YZ-plane146",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane147",
+      "label": "XY-plane147",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane147",
+      "label": "XZ-plane147",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane147",
+      "label": "YZ-plane147",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane148",
+      "label": "XY-plane148",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane148",
+      "label": "XZ-plane148",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane148",
+      "label": "YZ-plane148",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane149",
+      "label": "XY-plane149",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane149",
+      "label": "XZ-plane149",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane149",
+      "label": "YZ-plane149",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane150",
+      "label": "XY-plane150",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane150",
+      "label": "XZ-plane150",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane150",
+      "label": "YZ-plane150",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane151",
+      "label": "XY-plane151",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane151",
+      "label": "XZ-plane151",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane151",
+      "label": "YZ-plane151",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane152",
+      "label": "XY-plane152",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane152",
+      "label": "XZ-plane152",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane152",
+      "label": "YZ-plane152",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane153",
+      "label": "XY-plane153",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane153",
+      "label": "XZ-plane153",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane153",
+      "label": "YZ-plane153",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane154",
+      "label": "XY-plane154",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane154",
+      "label": "XZ-plane154",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane154",
+      "label": "YZ-plane154",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane155",
+      "label": "XY-plane155",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane155",
+      "label": "XZ-plane155",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane155",
+      "label": "YZ-plane155",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane156",
+      "label": "XY-plane156",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane156",
+      "label": "XZ-plane156",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane156",
+      "label": "YZ-plane156",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane157",
+      "label": "XY-plane157",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane157",
+      "label": "XZ-plane157",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane157",
+      "label": "YZ-plane157",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane158",
+      "label": "XY-plane158",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane158",
+      "label": "XZ-plane158",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane158",
+      "label": "YZ-plane158",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane159",
+      "label": "XY-plane159",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane159",
+      "label": "XZ-plane159",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane159",
+      "label": "YZ-plane159",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane160",
+      "label": "XY-plane160",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane160",
+      "label": "XZ-plane160",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane160",
+      "label": "YZ-plane160",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane161",
+      "label": "YZ-plane161",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane162",
+      "label": "YZ-plane162",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane163",
+      "label": "YZ-plane163",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane164",
+      "label": "YZ-plane164",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane165",
+      "label": "XY-plane165",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane165",
+      "label": "YZ-plane165",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane166",
+      "label": "XY-plane166",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane166",
+      "label": "YZ-plane166",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane167",
+      "label": "YZ-plane167",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane168",
+      "label": "YZ-plane168",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane169",
+      "label": "YZ-plane169",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane170",
+      "label": "YZ-plane170",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane171",
+      "label": "YZ-plane171",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane172",
+      "label": "XY-plane172",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane172",
+      "label": "YZ-plane172",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane173",
+      "label": "XY-plane173",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane173",
+      "label": "YZ-plane173",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane174",
+      "label": "YZ-plane174",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane175",
+      "label": "XY-plane175",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane175",
+      "label": "XZ-plane175",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane175",
+      "label": "YZ-plane175",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane176",
+      "label": "XY-plane176",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane176",
+      "label": "XZ-plane176",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane176",
+      "label": "YZ-plane176",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane177",
+      "label": "XY-plane177",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane177",
+      "label": "XZ-plane177",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane177",
+      "label": "YZ-plane177",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane178",
+      "label": "XY-plane178",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane178",
+      "label": "XZ-plane178",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane178",
+      "label": "YZ-plane178",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane179",
+      "label": "XY-plane179",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane179",
+      "label": "XZ-plane179",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane179",
+      "label": "YZ-plane179",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane180",
+      "label": "XY-plane180",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane180",
+      "label": "XZ-plane180",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane180",
+      "label": "YZ-plane180",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane181",
+      "label": "XY-plane181",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane181",
+      "label": "XZ-plane181",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane181",
+      "label": "YZ-plane181",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane182",
+      "label": "XY-plane182",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane182",
+      "label": "XZ-plane182",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane182",
+      "label": "YZ-plane182",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane183",
+      "label": "XY-plane183",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane183",
+      "label": "XZ-plane183",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane183",
+      "label": "YZ-plane183",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane184",
+      "label": "XY-plane184",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane184",
+      "label": "XZ-plane184",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane184",
+      "label": "YZ-plane184",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane185",
+      "label": "XY-plane185",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane185",
+      "label": "XZ-plane185",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane185",
+      "label": "YZ-plane185",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane186",
+      "label": "XY-plane186",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane186",
+      "label": "XZ-plane186",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane186",
+      "label": "YZ-plane186",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane187",
+      "label": "XY-plane187",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane187",
+      "label": "XZ-plane187",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane187",
+      "label": "YZ-plane187",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane188",
+      "label": "XY-plane188",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane188",
+      "label": "XZ-plane188",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane188",
+      "label": "YZ-plane188",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane189",
+      "label": "YZ-plane189",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane190",
+      "label": "YZ-plane190",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane191",
+      "label": "YZ-plane191",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane192",
+      "label": "YZ-plane192",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane193",
+      "label": "XY-plane193",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane193",
+      "label": "YZ-plane193",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane194",
+      "label": "XY-plane194",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane194",
+      "label": "YZ-plane194",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane195",
+      "label": "YZ-plane195",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane196",
+      "label": "YZ-plane196",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane197",
+      "label": "YZ-plane197",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane198",
+      "label": "YZ-plane198",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane199",
+      "label": "YZ-plane199",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane200",
+      "label": "XY-plane200",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane200",
+      "label": "YZ-plane200",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane201",
+      "label": "XY-plane201",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane201",
+      "label": "YZ-plane201",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane202",
+      "label": "YZ-plane202",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane203",
+      "label": "XY-plane203",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane203",
+      "label": "XZ-plane203",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane203",
+      "label": "YZ-plane203",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane204",
+      "label": "XY-plane204",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane204",
+      "label": "XZ-plane204",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane204",
+      "label": "YZ-plane204",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane205",
+      "label": "XY-plane205",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane205",
+      "label": "XZ-plane205",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane205",
+      "label": "YZ-plane205",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane206",
+      "label": "XY-plane206",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane206",
+      "label": "XZ-plane206",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane206",
+      "label": "YZ-plane206",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane207",
+      "label": "XY-plane207",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane207",
+      "label": "XZ-plane207",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane207",
+      "label": "YZ-plane207",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane208",
+      "label": "XY-plane208",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane208",
+      "label": "XZ-plane208",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane208",
+      "label": "YZ-plane208",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane209",
+      "label": "XY-plane209",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane209",
+      "label": "XZ-plane209",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane209",
+      "label": "YZ-plane209",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane210",
+      "label": "XY-plane210",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane210",
+      "label": "XZ-plane210",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane210",
+      "label": "YZ-plane210",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane211",
+      "label": "XY-plane211",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane211",
+      "label": "XZ-plane211",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane211",
+      "label": "YZ-plane211",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane212",
+      "label": "XY-plane212",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane212",
+      "label": "XZ-plane212",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane212",
+      "label": "YZ-plane212",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane213",
+      "label": "XY-plane213",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane213",
+      "label": "XZ-plane213",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane213",
+      "label": "YZ-plane213",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane214",
+      "label": "XY-plane214",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane214",
+      "label": "XZ-plane214",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane214",
+      "label": "YZ-plane214",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane215",
+      "label": "XY-plane215",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane215",
+      "label": "XZ-plane215",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane215",
+      "label": "YZ-plane215",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane216",
+      "label": "XY-plane216",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane216",
+      "label": "XZ-plane216",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane216",
+      "label": "YZ-plane216",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane217",
+      "label": "YZ-plane217",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane218",
+      "label": "YZ-plane218",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane219",
+      "label": "YZ-plane219",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane220",
+      "label": "YZ-plane220",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane221",
+      "label": "XY-plane221",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane221",
+      "label": "YZ-plane221",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane222",
+      "label": "XY-plane222",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane222",
+      "label": "YZ-plane222",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane223",
+      "label": "YZ-plane223",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane224",
+      "label": "YZ-plane224",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane225",
+      "label": "YZ-plane225",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane226",
+      "label": "YZ-plane226",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane227",
+      "label": "YZ-plane227",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane228",
+      "label": "XY-plane228",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane228",
+      "label": "YZ-plane228",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane229",
+      "label": "XY-plane229",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane229",
+      "label": "YZ-plane229",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane230",
+      "label": "YZ-plane230",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane231",
+      "label": "XY-plane231",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane231",
+      "label": "XZ-plane231",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane231",
+      "label": "YZ-plane231",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane232",
+      "label": "XY-plane232",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane232",
+      "label": "XZ-plane232",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane232",
+      "label": "YZ-plane232",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane233",
+      "label": "XY-plane233",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane233",
+      "label": "XZ-plane233",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane233",
+      "label": "YZ-plane233",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane234",
+      "label": "XY-plane234",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane234",
+      "label": "XZ-plane234",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane234",
+      "label": "YZ-plane234",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane235",
+      "label": "XY-plane235",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane235",
+      "label": "XZ-plane235",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane235",
+      "label": "YZ-plane235",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane236",
+      "label": "XY-plane236",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane236",
+      "label": "XZ-plane236",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane236",
+      "label": "YZ-plane236",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane237",
+      "label": "XY-plane237",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane237",
+      "label": "XZ-plane237",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane237",
+      "label": "YZ-plane237",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane238",
+      "label": "XY-plane238",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane238",
+      "label": "XZ-plane238",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane238",
+      "label": "YZ-plane238",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane239",
+      "label": "XY-plane239",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane239",
+      "label": "XZ-plane239",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane239",
+      "label": "YZ-plane239",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane240",
+      "label": "XY-plane240",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane240",
+      "label": "XZ-plane240",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane240",
+      "label": "YZ-plane240",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane241",
+      "label": "XY-plane241",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane241",
+      "label": "XZ-plane241",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane241",
+      "label": "YZ-plane241",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane242",
+      "label": "XY-plane242",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane242",
+      "label": "XZ-plane242",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane242",
+      "label": "YZ-plane242",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane243",
+      "label": "XY-plane243",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane243",
+      "label": "XZ-plane243",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane243",
+      "label": "YZ-plane243",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane244",
+      "label": "XY-plane244",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane244",
+      "label": "XZ-plane244",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane244",
+      "label": "YZ-plane244",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane245",
+      "label": "YZ-plane245",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane246",
+      "label": "YZ-plane246",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane247",
+      "label": "YZ-plane247",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane248",
+      "label": "YZ-plane248",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane249",
+      "label": "XY-plane249",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane249",
+      "label": "YZ-plane249",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane250",
+      "label": "XY-plane250",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane250",
+      "label": "YZ-plane250",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane251",
+      "label": "YZ-plane251",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane252",
+      "label": "YZ-plane252",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane253",
+      "label": "YZ-plane253",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane254",
+      "label": "YZ-plane254",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane255",
+      "label": "YZ-plane255",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane256",
+      "label": "XY-plane256",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane256",
+      "label": "YZ-plane256",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane257",
+      "label": "XY-plane257",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane257",
+      "label": "YZ-plane257",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane258",
+      "label": "YZ-plane258",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane260",
+      "label": "XZ-plane260",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane260",
+      "label": "YZ-plane260",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane261",
+      "label": "XZ-plane261",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane261",
+      "label": "YZ-plane261",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane262",
+      "label": "XZ-plane262",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane262",
+      "label": "YZ-plane262",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane263",
+      "label": "XZ-plane263",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane263",
+      "label": "YZ-plane263",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane268",
+      "label": "XY-plane268",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane268",
+      "label": "YZ-plane268",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane269",
+      "label": "XY-plane269",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane269",
+      "label": "YZ-plane269",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane275",
+      "label": "XY-plane275",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane275",
+      "label": "YZ-plane275",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane276",
+      "label": "XY-plane276",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane276",
+      "label": "YZ-plane276",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane282",
+      "label": "XY-plane282",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane282",
+      "label": "YZ-plane282",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane283",
+      "label": "XY-plane283",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane283",
+      "label": "YZ-plane283",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane289",
+      "label": "XY-plane289",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane289",
+      "label": "YZ-plane289",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane290",
+      "label": "XY-plane290",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane290",
+      "label": "YZ-plane290",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane296",
+      "label": "XY-plane296",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane296",
+      "label": "YZ-plane296",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane297",
+      "label": "XY-plane297",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane297",
+      "label": "YZ-plane297",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane303",
+      "label": "XY-plane303",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane303",
+      "label": "YZ-plane303",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane304",
+      "label": "XY-plane304",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane304",
+      "label": "YZ-plane304",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane310",
+      "label": "XY-plane310",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane310",
+      "label": "YZ-plane310",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane311",
+      "label": "XY-plane311",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane311",
+      "label": "YZ-plane311",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane317",
+      "label": "XY-plane317",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane317",
+      "label": "YZ-plane317",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane318",
+      "label": "XY-plane318",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane318",
+      "label": "YZ-plane318",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane324",
+      "label": "XY-plane324",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane324",
+      "label": "YZ-plane324",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane325",
+      "label": "XY-plane325",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane325",
+      "label": "YZ-plane325",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane331",
+      "label": "XY-plane331",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane331",
+      "label": "YZ-plane331",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane332",
+      "label": "XY-plane332",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane332",
+      "label": "YZ-plane332",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane338",
+      "label": "XY-plane338",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane338",
+      "label": "YZ-plane338",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane339",
+      "label": "XY-plane339",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane339",
+      "label": "YZ-plane339",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane345",
+      "label": "XY-plane345",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane345",
+      "label": "YZ-plane345",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane346",
+      "label": "XY-plane346",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane346",
+      "label": "YZ-plane346",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane352",
+      "label": "XY-plane352",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane352",
+      "label": "YZ-plane352",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane353",
+      "label": "XY-plane353",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane353",
+      "label": "YZ-plane353",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane359",
+      "label": "XY-plane359",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane359",
+      "label": "YZ-plane359",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane360",
+      "label": "XY-plane360",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane360",
+      "label": "YZ-plane360",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane365",
+      "label": "XY-plane365",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane365",
+      "label": "XZ-plane365",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane365",
+      "label": "YZ-plane365",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane366",
+      "label": "XY-plane366",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane366",
+      "label": "XZ-plane366",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane366",
+      "label": "YZ-plane366",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane367",
+      "label": "XY-plane367",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane367",
+      "label": "XZ-plane367",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane367",
+      "label": "YZ-plane367",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane368",
+      "label": "XY-plane368",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane368",
+      "label": "XZ-plane368",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane368",
+      "label": "YZ-plane368",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane369",
+      "label": "XY-plane369",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane369",
+      "label": "XZ-plane369",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane369",
+      "label": "YZ-plane369",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane370",
+      "label": "XY-plane370",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane370",
+      "label": "XZ-plane370",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane370",
+      "label": "YZ-plane370",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane371",
+      "label": "XY-plane371",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane371",
+      "label": "XZ-plane371",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane371",
+      "label": "YZ-plane371",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane372",
+      "label": "XY-plane372",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane372",
+      "label": "XZ-plane372",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane372",
+      "label": "YZ-plane372",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane373",
+      "label": "XY-plane373",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane373",
+      "label": "XZ-plane373",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane373",
+      "label": "YZ-plane373",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane374",
+      "label": "XY-plane374",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane374",
+      "label": "XZ-plane374",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane374",
+      "label": "YZ-plane374",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane375",
+      "label": "XY-plane375",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane375",
+      "label": "XZ-plane375",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane375",
+      "label": "YZ-plane375",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane376",
+      "label": "XY-plane376",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane376",
+      "label": "XZ-plane376",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane376",
+      "label": "YZ-plane376",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane377",
+      "label": "XY-plane377",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane377",
+      "label": "XZ-plane377",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane377",
+      "label": "YZ-plane377",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane378",
+      "label": "XY-plane378",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane378",
+      "label": "XZ-plane378",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane378",
+      "label": "YZ-plane378",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane379",
+      "label": "YZ-plane379",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane380",
+      "label": "YZ-plane380",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane381",
+      "label": "YZ-plane381",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane382",
+      "label": "YZ-plane382",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane383",
+      "label": "XY-plane383",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane383",
+      "label": "YZ-plane383",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane384",
+      "label": "XY-plane384",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane384",
+      "label": "YZ-plane384",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane385",
+      "label": "YZ-plane385",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane386",
+      "label": "YZ-plane386",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane387",
+      "label": "YZ-plane387",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane388",
+      "label": "YZ-plane388",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane389",
+      "label": "YZ-plane389",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane390",
+      "label": "XY-plane390",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane390",
+      "label": "YZ-plane390",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane391",
+      "label": "XY-plane391",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane391",
+      "label": "YZ-plane391",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane392",
+      "label": "YZ-plane392",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane396",
+      "label": "XY-plane396",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane396",
+      "label": "XZ-plane396",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane396",
+      "label": "YZ-plane396",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane397",
+      "label": "XY-plane397",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane397",
+      "label": "XZ-plane397",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane397",
+      "label": "YZ-plane397",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane398",
+      "label": "XY-plane398",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane398",
+      "label": "XZ-plane398",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane398",
+      "label": "YZ-plane398",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane399",
+      "label": "XY-plane399",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane399",
+      "label": "XZ-plane399",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane399",
+      "label": "YZ-plane399",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane400",
+      "label": "XY-plane400",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane400",
+      "label": "XZ-plane400",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane400",
+      "label": "YZ-plane400",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane401",
+      "label": "XY-plane401",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane401",
+      "label": "XZ-plane401",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane401",
+      "label": "YZ-plane401",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane402",
+      "label": "XY-plane402",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane402",
+      "label": "XZ-plane402",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane402",
+      "label": "YZ-plane402",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane403",
+      "label": "XY-plane403",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane403",
+      "label": "XZ-plane403",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane403",
+      "label": "YZ-plane403",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane404",
+      "label": "XY-plane404",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane404",
+      "label": "XZ-plane404",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane404",
+      "label": "YZ-plane404",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane405",
+      "label": "XY-plane405",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane405",
+      "label": "XZ-plane405",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane405",
+      "label": "YZ-plane405",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane406",
+      "label": "XY-plane406",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane406",
+      "label": "XZ-plane406",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane406",
+      "label": "YZ-plane406",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane407",
+      "label": "XY-plane407",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane407",
+      "label": "XZ-plane407",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane407",
+      "label": "YZ-plane407",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane408",
+      "label": "XY-plane408",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane408",
+      "label": "XZ-plane408",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane408",
+      "label": "YZ-plane408",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane409",
+      "label": "XY-plane409",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane409",
+      "label": "XZ-plane409",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane409",
+      "label": "YZ-plane409",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane410",
+      "label": "XY-plane410",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane410",
+      "label": "XZ-plane410",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane410",
+      "label": "YZ-plane410",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane411",
+      "label": "XY-plane411",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane411",
+      "label": "XZ-plane411",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane411",
+      "label": "YZ-plane411",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane412",
+      "label": "XY-plane412",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane412",
+      "label": "XZ-plane412",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane412",
+      "label": "YZ-plane412",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane413",
+      "label": "XY-plane413",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane413",
+      "label": "XZ-plane413",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane413",
+      "label": "YZ-plane413",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane414",
+      "label": "XY-plane414",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane414",
+      "label": "XZ-plane414",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane414",
+      "label": "YZ-plane414",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane415",
+      "label": "XY-plane415",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane415",
+      "label": "XZ-plane415",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane415",
+      "label": "YZ-plane415",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane416",
+      "label": "XY-plane416",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane416",
+      "label": "XZ-plane416",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane416",
+      "label": "YZ-plane416",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane417",
+      "label": "YZ-plane417",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane418",
+      "label": "YZ-plane418",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane419",
+      "label": "YZ-plane419",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane420",
+      "label": "YZ-plane420",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane421",
+      "label": "XY-plane421",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane421",
+      "label": "YZ-plane421",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane422",
+      "label": "XY-plane422",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane422",
+      "label": "YZ-plane422",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane423",
+      "label": "YZ-plane423",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane424",
+      "label": "YZ-plane424",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane425",
+      "label": "YZ-plane425",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane426",
+      "label": "YZ-plane426",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane427",
+      "label": "YZ-plane427",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane428",
+      "label": "XY-plane428",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane428",
+      "label": "YZ-plane428",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane429",
+      "label": "XY-plane429",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane429",
+      "label": "YZ-plane429",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane430",
+      "label": "YZ-plane430",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane431",
+      "label": "YZ-plane431",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane432",
+      "label": "YZ-plane432",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane433",
+      "label": "YZ-plane433",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane434",
+      "label": "YZ-plane434",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane435",
+      "label": "XY-plane435",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane435",
+      "label": "YZ-plane435",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane436",
+      "label": "XY-plane436",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane436",
+      "label": "YZ-plane436",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane437",
+      "label": "YZ-plane437",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane452",
+      "label": "XZ-plane452",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane452",
+      "label": "YZ-plane452",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane453",
+      "label": "XZ-plane453",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane453",
+      "label": "YZ-plane453",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane454",
+      "label": "XZ-plane454",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane454",
+      "label": "YZ-plane454",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane455",
+      "label": "XZ-plane455",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane455",
+      "label": "YZ-plane455",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane458",
+      "label": "XZ-plane458",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane458",
+      "label": "YZ-plane458",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane463",
+      "label": "XY-plane463",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane463",
+      "label": "YZ-plane463",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane464",
+      "label": "XY-plane464",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane464",
+      "label": "YZ-plane464",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane470",
+      "label": "XY-plane470",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane470",
+      "label": "YZ-plane470",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane471",
+      "label": "XY-plane471",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane471",
+      "label": "YZ-plane471",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane473",
+      "label": "XY-plane473",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane473",
+      "label": "XZ-plane473",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane473",
+      "label": "YZ-plane473",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane474",
+      "label": "XY-plane474",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane474",
+      "label": "XZ-plane474",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane474",
+      "label": "YZ-plane474",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane475",
+      "label": "XY-plane475",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane475",
+      "label": "XZ-plane475",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane475",
+      "label": "YZ-plane475",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane476",
+      "label": "XY-plane476",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane476",
+      "label": "XZ-plane476",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane476",
+      "label": "YZ-plane476",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane477",
+      "label": "XY-plane477",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane477",
+      "label": "XZ-plane477",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane477",
+      "label": "YZ-plane477",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane478",
+      "label": "XY-plane478",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane478",
+      "label": "XZ-plane478",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane478",
+      "label": "YZ-plane478",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane479",
+      "label": "XY-plane479",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane479",
+      "label": "XZ-plane479",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane479",
+      "label": "YZ-plane479",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane480",
+      "label": "YZ-plane480",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane481",
+      "label": "YZ-plane481",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane482",
+      "label": "YZ-plane482",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane483",
+      "label": "YZ-plane483",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane484",
+      "label": "XY-plane484",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane484",
+      "label": "YZ-plane484",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane485",
+      "label": "XY-plane485",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane485",
+      "label": "YZ-plane485",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane486",
+      "label": "YZ-plane486",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane487",
+      "label": "XZ-plane487",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane487",
+      "label": "YZ-plane487",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane488",
+      "label": "XZ-plane488",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane488",
+      "label": "YZ-plane488",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "XZ_Plane489",
+      "label": "XZ-plane489",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane489",
+      "label": "YZ-plane489",
+      "visible_local": true,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -1e+100,
+        1e+100,
+        1e+100,
+        1e+100
+      ]
+    }
+  ],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "method": "Exact translational swept solids for orthogonal wood and cargo prisms; independent drawer positions; vertical regulation endpoint comparisons. All source leaf references included, local visibility not equivalent to effective visibility."
+}

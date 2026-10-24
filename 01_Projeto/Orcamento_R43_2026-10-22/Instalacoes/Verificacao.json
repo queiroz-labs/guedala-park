@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "rows": 7,
+  "baseline": 10100.0,
+  "scenario": 9300.0,
+  "conditionalSaving": 800,
+  "confirmedSaving": 0,
+  "scenarioWithWorksJoineryFurniture": 122135.75,
+  "gapToExecutionCap": 2135.75,
+  "remainingCategoryTargetCuts": 2535.35,
+  "allTargetsScenario": 119600.4,
+  "allTargetsHeadroom": 399.6,
+  "allTargetsWithReserve": 129600.4,
+  "reserveUsed": 0,
+  "originalLedgerUnchanged": true,
+  "originalLedgerSHA256": "d5d873e1749400290dfdcad2bd2e7ca99d6c570c24bf26d199c9dc4d26abc368",
+  "cadModified": false,
+  "scope": "Verificação aritmética e documental; não cotação vinculante ou validação de instalação."
+}

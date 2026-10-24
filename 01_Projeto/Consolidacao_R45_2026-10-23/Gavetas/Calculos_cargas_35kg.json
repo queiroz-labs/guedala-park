@@ -1,0 +1,347 @@
+{
+  "source_sha256": "9187c163d7d827e12387e7e9c9e953b0380c55bcc8aaed3e872f83c4665d839e",
+  "capacity_kg": 35,
+  "method": "Actual volumes independently reread from R44 using the R28 list of wood objects. BREP comparison failed, so no R28 volumes were transferred. Includes wood fronts and G2 trays, excludes moving hardware and actual contents. Densities hypothetical. Capacity is total budget, not content rating.",
+  "all_shapes_equal": false,
+  "shape_checks": [
+    {
+      "object": "GavetaComumR08",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR001",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR002",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR003",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR004",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR005",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR012",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR013",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR014",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR015",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR016",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR017",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR024",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR025",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR026",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR027",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR028",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR029",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR036",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR037",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR038",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR039",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR040",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR041",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR048",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR049",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR050",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR051",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR052",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR053",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR060",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR061",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR062",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR063",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR064",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR065",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR072",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR073",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR074",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR075",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR076",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR077",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR084",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR085",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR086",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR087",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR088",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "GavetaComumR089",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R016",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R017",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R018",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R019",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R020",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "MontagemG2R021",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R06",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R001",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R002",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R003",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R004",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R010",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R011",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R012",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R013",
+      "same_brep_R28_R44": false
+    },
+    {
+      "object": "OrganizadorG2R014",
+      "same_brep_R28_R44": false
+    }
+  ],
+  "rows": [
+    {
+      "drawer": "Gaveta",
+      "label": "Gaveta de roupa",
+      "wood_volume_m3": 0.005380033122881343,
+      "wood_mass_750": 4.0350248421610075,
+      "wood_mass_900": 4.842029810593209,
+      "balance_35kg_750": 30.964975157838992,
+      "balance_35kg_900": 30.15797018940679
+    },
+    {
+      "drawer": "Gaveta001",
+      "label": "Gaveta de roupa001",
+      "wood_volume_m3": 0.005303785122881343,
+      "wood_mass_750": 3.9778388421610074,
+      "wood_mass_900": 4.7734066105932085,
+      "balance_35kg_750": 31.022161157838994,
+      "balance_35kg_900": 30.22659338940679
+    },
+    {
+      "drawer": "Gaveta002",
+      "label": "Gaveta de roupa002",
+      "wood_volume_m3": 0.005380033122881343,
+      "wood_mass_750": 4.0350248421610075,
+      "wood_mass_900": 4.842029810593209,
+      "balance_35kg_750": 30.964975157838992,
+      "balance_35kg_900": 30.15797018940679
+    },
+    {
+      "drawer": "Gaveta003",
+      "label": "Gaveta de roupa003",
+      "wood_volume_m3": 0.005303785122881343,
+      "wood_mass_750": 3.9778388421610074,
+      "wood_mass_900": 4.7734066105932085,
+      "balance_35kg_750": 31.022161157838994,
+      "balance_35kg_900": 30.22659338940679
+    },
+    {
+      "drawer": "Gaveta004",
+      "label": "G3 · mantimentos",
+      "wood_volume_m3": 0.017361705122881346,
+      "wood_mass_750": 13.02127884216101,
+      "wood_mass_900": 15.625534610593212,
+      "balance_35kg_750": 21.97872115783899,
+      "balance_35kg_900": 19.374465389406787
+    },
+    {
+      "drawer": "Gaveta006",
+      "label": "G1 · talheres",
+      "wood_volume_m3": 0.007772645122881344,
+      "wood_mass_750": 5.829483842161008,
+      "wood_mass_900": 6.99538061059321,
+      "balance_35kg_750": 29.170516157838993,
+      "balance_35kg_900": 28.00461938940679
+    },
+    {
+      "drawer": "Gaveta008",
+      "label": "Gaveta escritório 1",
+      "wood_volume_m3": 0.004192994122881346,
+      "wood_mass_750": 3.1447455921610095,
+      "wood_mass_900": 3.7736947105932113,
+      "balance_35kg_750": 31.85525440783899,
+      "balance_35kg_900": 31.22630528940679
+    },
+    {
+      "drawer": "Gaveta009",
+      "label": "Gaveta escritório 2",
+      "wood_volume_m3": 0.004192994122881346,
+      "wood_mass_750": 3.1447455921610095,
+      "wood_mass_900": 3.7736947105932113,
+      "balance_35kg_750": 31.85525440783899,
+      "balance_35kg_900": 31.22630528940679
+    },
+    {
+      "drawer": "G2",
+      "label": "G2 · utensílios",
+      "wood_volume_m3": 0.009727580011034813,
+      "wood_mass_750": 7.29568500827611,
+      "wood_mass_900": 8.754822009931331,
+      "balance_35kg_750": 27.70431499172389,
+      "balance_35kg_900": 26.24517799006867
+    }
+  ]
+}

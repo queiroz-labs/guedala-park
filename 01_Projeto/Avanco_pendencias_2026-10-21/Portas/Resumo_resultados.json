@@ -1,0 +1,15 @@
+{
+  "controls_found": 23,
+  "controls_tested": 23,
+  "intersections": 16,
+  "doors_with_hits": [
+    "ControlePortaR005",
+    "ControlePortaR014",
+    "ControlePortaR015",
+    "ControlePortaR018",
+    "ControlePortaR019",
+    "ControlePortaR020"
+  ],
+  "source_unchanged": true,
+  "restored": true
+}

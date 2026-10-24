@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Origin984",
+    "type": "App::Origin",
+    "label": "Origem985"
+  },
+  {
+    "name": "X_Axis492",
+    "type": "App::Line",
+    "label": "Eixo X492"
+  },
+  {
+    "name": "Y_Axis492",
+    "type": "App::Line",
+    "label": "Y-axis492"
+  },
+  {
+    "name": "Z_Axis492",
+    "type": "App::Line",
+    "label": "Z-axis492"
+  },
+  {
+    "name": "XY_Plane492",
+    "type": "App::Plane",
+    "label": "XY-plane492"
+  },
+  {
+    "name": "XZ_Plane492",
+    "type": "App::Plane",
+    "label": "XZ-plane492"
+  },
+  {
+    "name": "YZ_Plane492",
+    "type": "App::Plane",
+    "label": "YZ-plane492"
+  },
+  {
+    "name": "Origin985",
+    "type": "App::Point",
+    "label": "Origem984"
+  },
+  {
+    "name": "Origin986",
+    "type": "App::Origin",
+    "label": "Origem987"
+  },
+  {
+    "name": "X_Axis493",
+    "type": "App::Line",
+    "label": "Eixo X493"
+  },
+  {
+    "name": "Y_Axis493",
+    "type": "App::Line",
+    "label": "Y-axis493"
+  },
+  {
+    "name": "Z_Axis493",
+    "type": "App::Line",
+    "label": "Z-axis493"
+  },
+  {
+    "name": "XY_Plane493",
+    "type": "App::Plane",
+    "label": "XY-plane493"
+  },
+  {
+    "name": "XZ_Plane493",
+    "type": "App::Plane",
+    "label": "XZ-plane493"
+  },
+  {
+    "name": "YZ_Plane493",
+    "type": "App::Plane",
+    "label": "YZ-plane493"
+  },
+  {
+    "name": "Origin987",
+    "type": "App::Point",
+    "label": "Origem986"
+  },
+  {
+    "name": "Origin988",
+    "type": "App::Origin",
+    "label": "Origem989"
+  },
+  {
+    "name": "X_Axis494",
+    "type": "App::Line",
+    "label": "Eixo X494"
+  },
+  {
+    "name": "Y_Axis494",
+    "type": "App::Line",
+    "label": "Y-axis494"
+  },
+  {
+    "name": "Z_Axis494",
+    "type": "App::Line",
+    "label": "Z-axis494"
+  },
+  {
+    "name": "XY_Plane494",
+    "type": "App::Plane",
+    "label": "XY-plane494"
+  },
+  {
+    "name": "XZ_Plane494",
+    "type": "App::Plane",
+    "label": "XZ-plane494"
+  },
+  {
+    "name": "YZ_Plane494",
+    "type": "App::Plane",
+    "label": "YZ-plane494"
+  },
+  {
+    "name": "Origin989",
+    "type": "App::Point",
+    "label": "Origem988"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "revision": "R45",
+  "source_sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "source_unchanged": true,
+  "parts": 383,
+  "modules": 20,
+  "triangles": 126220,
+  "panel_rows": 249,
+  "drawer_panels_visible": 53,
+  "unknown_finish_panels": 128,
+  "classification_policy": "No material fallback. Panel eligibility uses explicit material or documented functional allowlist; finish can remain unspecified. Hardware, contents and unknown-purpose components stay piece=null."
+}

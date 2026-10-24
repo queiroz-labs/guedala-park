@@ -1,0 +1,18 @@
+RASCUNHO — NÃO ENVIADO
+Assunto: Fixação de frente com regulador métrico295.1000 — parafuso e orientação
+
+Olá,
+
+Estamos detalhando a fixação independente de frentes de madeira de18 mm em caixas de quatro lados, com dianteira interna de16 mm. Consultamos o catálogo TANDEM em português, página16, que indica regulador295.1000, furoØ20, profundidade10,5 mm e regulagem±2 mm. Também temos o STEP oficial295.1000_45225749.step, da biblioteca baixada do e-services Blum.
+
+Propomos dois reguladores por frente de398 × 118 × 18 mm, afastados200 mm entre si. O ajuste vertical necessário é de−1,5 a+1,5 mm, deixando0,5 mm de reserva em cada extremo da faixa nominal. A fixação deve manter a frente alinhada quando a caixa for regulada.
+
+Podem confirmar:
+1. O parafuso correto para o regulador métrico295.1000 (não295.1000.21): rosca, comprimento sob cabeça, tipo de cabeça, arruela e engajamento mínimo/máximo para atravessar16 mm de madeira?
+2. A orientação de inserção do STEP e o desenho em corte do regulador montado, com a posição da porca ao longo da profundidade? O STEP apresenta10 mm de profundidade, enquanto o furo indicado é10,5 mm.
+3. O diâmetro recomendado de passagem do parafuso na dianteira da caixa, tolerância do furo cego e distância mínima às bordas? O projeto preliminar reserva passagemØ5 e cabeça+arruela dentro deØ10 × 5 mm, a confirmar.
+4. Se dois reguladores bastam para esta frente, as condições de retenção e o procedimento de aperto/alinhamento, incluindo eventual necessidade de fixações complementares?
+
+O regulador será usado somente para fixar a frente de uma caixa de madeira. Não se trata de acoplamento entre gaveta e corrediça.
+
+Obrigado.

@@ -1,0 +1,8 @@
+﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca342 | Peca343;Lateral direita / Lateral esquerda;2;584.0;330.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca344;Fundo;1;765.0;548.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca345;Base;1;765.0;312.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca346;Tampo;1;765.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca347;Divisória;1;548.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR008;A · acima da geladeira - porta direita — frente com canecos;1;582.0;397.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR009;A · acima da geladeira - porta esquerda — frente com canecos;1;582.0;397.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

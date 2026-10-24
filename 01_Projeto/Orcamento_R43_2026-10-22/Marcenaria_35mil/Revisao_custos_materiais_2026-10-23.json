@@ -1,0 +1,338 @@
+{
+  "date": "2026-10-23",
+  "not_quote": true,
+  "not_cut_list": true,
+  "sheet_area_m2": 5.0875,
+  "assumed_utilization": [
+    0.75,
+    0.6
+  ],
+  "parts_including_EPS": 259,
+  "panel_area_excluding_EPS_m2": 64.375,
+  "details": [
+    {
+      "item": "Branco TX 18 mm",
+      "area_m2": 20.634,
+      "sheet_counts_scenario": [
+        6,
+        7
+      ],
+      "price_per_sheet": [
+        365.11,
+        400
+      ],
+      "cost_range": [
+        2190.66,
+        2800
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Arenza 18 mm",
+      "area_m2": 23.853,
+      "sheet_counts_scenario": [
+        7,
+        8
+      ],
+      "price_per_sheet": [
+        435.58,
+        520
+      ],
+      "cost_range": [
+        3049.06,
+        4160
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Azul Petróleo 18 mm",
+      "area_m2": 6.615,
+      "sheet_counts_scenario": [
+        2,
+        3
+      ],
+      "price_per_sheet": [
+        526,
+        618.67
+      ],
+      "cost_range": [
+        1052,
+        1856.0099999999998
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Off-white 18 mm",
+      "area_m2": 2.676,
+      "sheet_counts_scenario": [
+        1,
+        1
+      ],
+      "price_per_sheet": [
+        489.94,
+        600
+      ],
+      "cost_range": [
+        489.94,
+        600
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Bege/claro 18 mm",
+      "area_m2": 1.854,
+      "sheet_counts_scenario": [
+        1,
+        1
+      ],
+      "price_per_sheet": [
+        500,
+        650
+      ],
+      "cost_range": [
+        500,
+        650
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Branco TX 15 mm",
+      "area_m2": 2.761,
+      "sheet_counts_scenario": [
+        1,
+        1
+      ],
+      "price_per_sheet": [
+        282.67,
+        330
+      ],
+      "cost_range": [
+        282.67,
+        330
+      ],
+      "basis": "75% / 60% assumed area utilization, whole sheets; not a cut layout"
+    },
+    {
+      "item": "Materiais para 16 / 16,2 mm das gavetas",
+      "cost_range": [
+        400,
+        700
+      ],
+      "room_weights": {
+        "Quarto": 0.1494920482779038,
+        "Cozinha": 0.7946798783729188,
+        "Escritório": 0.055828073349177346
+      },
+      "basis": "Provisão sem oferta equivalente confirmada; não substituir espessura automaticamente; trabalho de usinagem permanece em serviços"
+    },
+    {
+      "item": "Materiais acabados 30 mm",
+      "cost_range": [
+        950,
+        1700
+      ],
+      "room_weights": {
+        "Cozinha": 0.047646498844711456,
+        "Escritório": 0.6952764824385235,
+        "Sala": 0.257077018716765
+      },
+      "basis": "2,57 m² nominais; provisão de substrato e faces; preço de chapa crua não é preço de Arenza acabado"
+    },
+    {
+      "item": "Tampas Arenza 20 mm",
+      "cost_range": [
+        600,
+        1000
+      ],
+      "room_weights": {
+        "Sala": 1
+      },
+      "basis": "0,805 m²; espessura e acabamento especiais sem SKU/cotação; não reduzir para18"
+    },
+    {
+      "item": "Painel TV off-white20 mm",
+      "cost_range": [
+        700,
+        1100
+      ],
+      "room_weights": {
+        "Sala": 1
+      },
+      "basis": "1,8975 m²; provisão de material acabado sem SKU/cotação"
+    },
+    {
+      "item": "Contramarcos 26,5 mm",
+      "cost_range": [
+        100,
+        200
+      ],
+      "room_weights": {
+        "Cozinha": 1
+      },
+      "basis": "Material e acabamento sem especificação executiva"
+    },
+    {
+      "item": "Substratos da cabeceira",
+      "cost_range": [
+        150,
+        300
+      ],
+      "room_weights": {
+        "Quarto": 1
+      },
+      "basis": "Conjunto não discriminado em chapas no inventário; provisão de materiais sem mão de obra"
+    },
+    {
+      "item": "Substratos do encosto",
+      "cost_range": [
+        150,
+        250
+      ],
+      "room_weights": {
+        "Sala": 1
+      },
+      "basis": "Três painéis; provisão sem mão de obra"
+    },
+    {
+      "item": "Espuma/tecido/manta cabeceira",
+      "cost_range": [
+        250,
+        500
+      ],
+      "room_weights": {
+        "Quarto": 1
+      },
+      "basis": "Provisão de materiais; não autoriza alterar tecido, densidade ou cor"
+    },
+    {
+      "item": "Espuma/tecido/manta encosto e almofadas",
+      "cost_range": [
+        350,
+        650
+      ],
+      "room_weights": {
+        "Sala": 1
+      },
+      "basis": "Provisão de materiais; não autoriza alterar conforto ou cor"
+    },
+    {
+      "item": "Espelho lateral quarto",
+      "cost_range": [
+        350,
+        500
+      ],
+      "room_weights": {
+        "Quarto": 1
+      },
+      "basis": "0,9m² nominal; referência de espelho4mm R$375/m² não aprova espessura do projeto"
+    },
+    {
+      "item": "Espelho frontal banheiro",
+      "cost_range": [
+        200,
+        300
+      ],
+      "room_weights": {
+        "Banheiro": 1
+      },
+      "basis": "0,444m² de frentes; cortes e acabamento de borda sujeitos a cotação"
+    },
+    {
+      "item": "EPS proteção quarto",
+      "cost_range": [
+        150,
+        250
+      ],
+      "room_weights": {
+        "Quarto": 1
+      },
+      "basis": "11,8584m² de envelopes, não MDF; provisão inclui perdas e pequenos complementos"
+    },
+    {
+      "item": "Proteções/calços adicionais",
+      "cost_range": [
+        100,
+        200
+      ],
+      "room_weights": {
+        "Lavanderia": 0.5,
+        "Escritório": 0.5
+      },
+      "basis": "Somente interfaces aplicáveis, quantitativo final em aberto"
+    },
+    {
+      "item": "Fitas de borda, colas e consumíveis",
+      "cost_range": [
+        900,
+        1600
+      ],
+      "room_weights": {
+        "Quarto": 0.33282423713493126,
+        "Cozinha": 0.305866814200667,
+        "Lavanderia": 0.06947994264875479,
+        "Escritório": 0.11585574915064054,
+        "Banheiro": 0.061477262101424436,
+        "Sala": 0.11449599476358197
+      },
+      "basis": "Rateio pelo perímetro bruto, sem afirmar todas as bordas fitadas; rolos por cor/largura, sobra e adesivos incluídos, aplicação em serviços"
+    },
+    {
+      "item": "Diferença de materiais para áreas úmidas",
+      "cost_range": [
+        300,
+        600
+      ],
+      "room_weights": {
+        "Cozinha": 0.6,
+        "Lavanderia": 0.2,
+        "Banheiro": 0.2
+      },
+      "basis": "Sensibilidade a HR/vedação; não preço de kit nem troca automática de especificação"
+    },
+    {
+      "item": "Arremates não detalhados",
+      "cost_range": [
+        250,
+        400
+      ],
+      "room_weights": {
+        "Arremates gerais": 1
+      },
+      "basis": "Material adicional fora das peças selecionadas, sem duplicar C06"
+    }
+  ],
+  "room_ranges": {
+    "Quarto": [
+      4286.7,
+      6198.58
+    ],
+    "Cozinha": [
+      3064.72,
+      4882.71
+    ],
+    "Lavanderia": [
+      737.12,
+      1178.91
+    ],
+    "Escritório": [
+      1629.74,
+      2495.17
+    ],
+    "Banheiro": [
+      900.93,
+      1277.77
+    ],
+    "Sala": [
+      2595.13,
+      4212.86
+    ],
+    "Arremates gerais": [
+      250.0,
+      400.0
+    ]
+  },
+  "totals": [
+    13464.33,
+    20646.01
+  ]
+}

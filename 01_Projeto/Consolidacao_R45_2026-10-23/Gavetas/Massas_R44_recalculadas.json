@@ -1,0 +1,553 @@
+{
+  "source": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd",
+  "method": "Read-only volumes, object list from R28; wood fronts and modeled tray only; no assumption on hardware mass or contents",
+  "capacity_kg": 35,
+  "rows": [
+    {
+      "drawer": "Gaveta",
+      "label": "Gaveta de roupa",
+      "wood": [
+        {
+          "object": "GavetaComumR08",
+          "label": "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR001",
+          "label": "Lateral comum direita · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR002",
+          "label": "Fundo comum · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.002373484513322353
+        },
+        {
+          "object": "GavetaComumR003",
+          "label": "Traseira comum · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.00034273500000000004
+        },
+        {
+          "object": "GavetaComumR004",
+          "label": "Dianteira comum16 · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.00036507506199011847
+        },
+        {
+          "object": "GavetaComumR005",
+          "label": "Frente preservada · Gaveta de roupa - proposta R08",
+          "volume_m3": 0.0009022385475688726
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.005380033122881343,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 3.4970215298728733,
+          "budget_before_accessories_contents_kg": 31.502978470127125
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 4.0350248421610075,
+          "budget_before_accessories_contents_kg": 30.964975157838992
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 4.842029810593209,
+          "budget_before_accessories_contents_kg": 30.15797018940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "label": "Gaveta de roupa001",
+      "wood": [
+        {
+          "object": "GavetaComumR012",
+          "label": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR013",
+          "label": "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR014",
+          "label": "Fundo comum · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.002373484513322353
+        },
+        {
+          "object": "GavetaComumR015",
+          "label": "Traseira comum · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.00034273500000000004
+        },
+        {
+          "object": "GavetaComumR016",
+          "label": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.00036507506199011847
+        },
+        {
+          "object": "GavetaComumR017",
+          "label": "Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08",
+          "volume_m3": 0.0008259905475688726
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.005303785122881343,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 3.447460329872873,
+          "budget_before_accessories_contents_kg": 31.55253967012713
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 3.9778388421610074,
+          "budget_before_accessories_contents_kg": 31.022161157838994
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 4.7734066105932085,
+          "budget_before_accessories_contents_kg": 30.22659338940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "label": "Gaveta de roupa002",
+      "wood": [
+        {
+          "object": "GavetaComumR024",
+          "label": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR025",
+          "label": "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR026",
+          "label": "Fundo comum · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.002373484513322353
+        },
+        {
+          "object": "GavetaComumR027",
+          "label": "Traseira comum · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.00034273500000000004
+        },
+        {
+          "object": "GavetaComumR028",
+          "label": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.00036507506199011847
+        },
+        {
+          "object": "GavetaComumR029",
+          "label": "Frente preservada · Gaveta de roupa002 - proposta R08",
+          "volume_m3": 0.0009022385475688726
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.005380033122881343,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 3.4970215298728733,
+          "budget_before_accessories_contents_kg": 31.502978470127125
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 4.0350248421610075,
+          "budget_before_accessories_contents_kg": 30.964975157838992
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 4.842029810593209,
+          "budget_before_accessories_contents_kg": 30.15797018940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "label": "Gaveta de roupa003",
+      "wood": [
+        {
+          "object": "GavetaComumR036",
+          "label": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR037",
+          "label": "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.0006982499999999999
+        },
+        {
+          "object": "GavetaComumR038",
+          "label": "Fundo comum · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.002373484513322353
+        },
+        {
+          "object": "GavetaComumR039",
+          "label": "Traseira comum · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.00034273500000000004
+        },
+        {
+          "object": "GavetaComumR040",
+          "label": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.00036507506199011847
+        },
+        {
+          "object": "GavetaComumR041",
+          "label": "Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08",
+          "volume_m3": 0.0008259905475688726
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.005303785122881343,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 3.447460329872873,
+          "budget_before_accessories_contents_kg": 31.55253967012713
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 3.9778388421610074,
+          "budget_before_accessories_contents_kg": 31.022161157838994
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 4.7734066105932085,
+          "budget_before_accessories_contents_kg": 30.22659338940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta004",
+      "label": "G3 · mantimentos",
+      "wood": [
+        {
+          "object": "GavetaComumR048",
+          "label": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.00216825
+        },
+        {
+          "object": "GavetaComumR049",
+          "label": "Lateral comum direita · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.00216825
+        },
+        {
+          "object": "GavetaComumR050",
+          "label": "Fundo comum · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.004049284513322353
+        },
+        {
+          "object": "GavetaComumR051",
+          "label": "Traseira comum · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.002215395
+        },
+        {
+          "object": "GavetaComumR052",
+          "label": "Dianteira comum16 · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.0023625790619901184
+        },
+        {
+          "object": "GavetaComumR053",
+          "label": "Frente preservada · G3 · mantimentos - proposta R08",
+          "volume_m3": 0.004397946547568873
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.017361705122881346,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 11.285108329872875,
+          "budget_before_accessories_contents_kg": 23.714891670127123
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 13.02127884216101,
+          "budget_before_accessories_contents_kg": 21.97872115783899
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 15.625534610593212,
+          "budget_before_accessories_contents_kg": 19.374465389406787
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta006",
+      "label": "G1 · talheres",
+      "wood": [
+        {
+          "object": "GavetaComumR060",
+          "label": "Lateral comum esquerda · G1 · talheres - proposta R08",
+          "volume_m3": 0.00055125
+        },
+        {
+          "object": "GavetaComumR061",
+          "label": "Lateral comum direita · G1 · talheres - proposta R08",
+          "volume_m3": 0.00055125
+        },
+        {
+          "object": "GavetaComumR062",
+          "label": "Fundo comum · G1 · talheres - proposta R08",
+          "volume_m3": 0.004049284513322353
+        },
+        {
+          "object": "GavetaComumR063",
+          "label": "Traseira comum · G1 · talheres - proposta R08",
+          "volume_m3": 0.000430095
+        },
+        {
+          "object": "GavetaComumR064",
+          "label": "Dianteira comum16 · G1 · talheres - proposta R08",
+          "volume_m3": 0.00045825906199011837
+        },
+        {
+          "object": "GavetaComumR065",
+          "label": "Frente preservada · G1 · talheres - proposta R08",
+          "volume_m3": 0.0017325065475688726
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.007772645122881344,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 5.052219329872874,
+          "budget_before_accessories_contents_kg": 29.947780670127127
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 5.829483842161008,
+          "budget_before_accessories_contents_kg": 29.170516157838993
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 6.99538061059321,
+          "budget_before_accessories_contents_kg": 28.00461938940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "label": "Gaveta escritório 1",
+      "wood": [
+        {
+          "object": "GavetaComumR072",
+          "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.00043875
+        },
+        {
+          "object": "GavetaComumR073",
+          "label": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.00043875
+        },
+        {
+          "object": "GavetaComumR074",
+          "label": "Fundo comum · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.001941634513322354
+        },
+        {
+          "object": "GavetaComumR075",
+          "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.00025599
+        },
+        {
+          "object": "GavetaComumR076",
+          "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.00027254706199011843
+        },
+        {
+          "object": "GavetaComumR077",
+          "label": "Frente preservada · Gaveta escritório 1 - proposta R08",
+          "volume_m3": 0.0008453225475688725
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.004192994122881346,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 2.725446179872875,
+          "budget_before_accessories_contents_kg": 32.274553820127124
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 3.1447455921610095,
+          "budget_before_accessories_contents_kg": 31.85525440783899
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 3.7736947105932113,
+          "budget_before_accessories_contents_kg": 31.22630528940679
+        }
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "label": "Gaveta escritório 2",
+      "wood": [
+        {
+          "object": "GavetaComumR084",
+          "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.00043875
+        },
+        {
+          "object": "GavetaComumR085",
+          "label": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.00043875
+        },
+        {
+          "object": "GavetaComumR086",
+          "label": "Fundo comum · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.001941634513322354
+        },
+        {
+          "object": "GavetaComumR087",
+          "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.00025599
+        },
+        {
+          "object": "GavetaComumR088",
+          "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.00027254706199011843
+        },
+        {
+          "object": "GavetaComumR089",
+          "label": "Frente preservada · Gaveta escritório 2 - proposta R08",
+          "volume_m3": 0.0008453225475688725
+        }
+      ],
+      "tray_wood": [],
+      "volume_total_m3": 0.004192994122881346,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 2.725446179872875,
+          "budget_before_accessories_contents_kg": 32.274553820127124
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 3.1447455921610095,
+          "budget_before_accessories_contents_kg": 31.85525440783899
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 3.7736947105932113,
+          "budget_before_accessories_contents_kg": 31.22630528940679
+        }
+      ]
+    },
+    {
+      "drawer": "G2",
+      "label": "G2 · utensílios",
+      "wood": [
+        {
+          "object": "MontagemG2R016",
+          "label": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
+          "volume_m3": 0.0005923950000000004
+        },
+        {
+          "object": "MontagemG2R017",
+          "label": "Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07",
+          "volume_m3": 0.0006982500000000001
+        },
+        {
+          "object": "MontagemG2R018",
+          "label": "Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07",
+          "volume_m3": 0.0006982500000000005
+        },
+        {
+          "object": "MontagemG2R019",
+          "label": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+          "volume_m3": 0.004049278835591248
+        },
+        {
+          "object": "MontagemG2R020",
+          "label": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+          "volume_m3": 0.0017325073315317637
+        },
+        {
+          "object": "MontagemG2R021",
+          "label": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+          "volume_m3": 0.0006313788439117992
+        }
+      ],
+      "tray_wood": [
+        {
+          "object": "OrganizadorG2R06",
+          "label": "Fundo bandeja long",
+          "volume_m3": 0.000364
+        },
+        {
+          "object": "OrganizadorG2R001",
+          "label": "Parede esquerda bandeja long",
+          "volume_m3": 6.37e-05
+        },
+        {
+          "object": "OrganizadorG2R002",
+          "label": "Parede direita bandeja long",
+          "volume_m3": 6.37e-05
+        },
+        {
+          "object": "OrganizadorG2R003",
+          "label": "Parede frontal bandeja long",
+          "volume_m3": 2.688e-05
+        },
+        {
+          "object": "OrganizadorG2R004",
+          "label": "Parede posterior bandeja long",
+          "volume_m3": 2.688e-05
+        },
+        {
+          "object": "OrganizadorG2R010",
+          "label": "Fundo bandeja wide",
+          "volume_m3": 0.00056784
+        },
+        {
+          "object": "OrganizadorG2R011",
+          "label": "Parede esquerda bandeja wide",
+          "volume_m3": 6.37e-05
+        },
+        {
+          "object": "OrganizadorG2R012",
+          "label": "Parede direita bandeja wide",
+          "volume_m3": 6.37e-05
+        },
+        {
+          "object": "OrganizadorG2R013",
+          "label": "Parede frontal bandeja wide",
+          "volume_m3": 4.256e-05
+        },
+        {
+          "object": "OrganizadorG2R014",
+          "label": "Parede posterior bandeja wide",
+          "volume_m3": 4.256e-05
+        }
+      ],
+      "volume_total_m3": 0.009727580011034813,
+      "scenarios": [
+        {
+          "density_assumed_kg_m3": 650,
+          "wood_and_front_kg": 6.322927007172629,
+          "budget_before_accessories_contents_kg": 28.67707299282737
+        },
+        {
+          "density_assumed_kg_m3": 750,
+          "wood_and_front_kg": 7.29568500827611,
+          "budget_before_accessories_contents_kg": 27.70431499172389
+        },
+        {
+          "density_assumed_kg_m3": 900,
+          "wood_and_front_kg": 8.754822009931331,
+          "budget_before_accessories_contents_kg": 26.24517799006867
+        }
+      ]
+    }
+  ]
+}

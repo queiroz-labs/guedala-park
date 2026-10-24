@@ -1,0 +1,16 @@
+﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca206 | Peca207;Lateral direita / Lateral esquerda;2;2132.0;568.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca208;Fundo;1;2096.0;1964.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca209;Base · topo 80 mm;1;1964.0;550.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca210;Divisória;1;2052.0;550.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca211 | Peca212 | Peca213 | Peca226 | Peca227 | Peca228;Sapateira · três níveis;6;400.0;355.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR08 | GavetaComumR012 | GavetaComumR024 | GavetaComumR036;Peças equivalentes;4;490.0;100.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR001 | GavetaComumR013 | GavetaComumR025 | GavetaComumR037;Peças equivalentes;4;490.0;100.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR002 | GavetaComumR014 | GavetaComumR026 | GavetaComumR038;Peças equivalentes;4;490.0;323.0;15.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR003 | GavetaComumR015 | GavetaComumR027 | GavetaComumR039;Peças equivalentes;4;313.0;73.0;15.0;Não individualizado;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR004 | GavetaComumR016 | GavetaComumR028 | GavetaComumR040;Peças equivalentes;4;313.0;73.0;16.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR005 | GavetaComumR029;Peças equivalentes;2;353.0;142.0;18.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+GavetaComumR017 | GavetaComumR041;Peças equivalentes;2;353.0;130.0;18.0;Não individualizado;Branco TX · faces internas;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+Peca241 | Peca242 | Peca243 | Peca244;Divisória;4;1002.0;550.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca245 | Peca246;Prateleira curta · topo 1100 / Prateleira curta · topo 1101;2;705.0;550.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca247 | Peca248;Roupeiro · portas;2;1999.0;995.0;18.0;Off-white fosco (referência CAD);"face interna Branco TX; face aparente Amadeirado, referência Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";

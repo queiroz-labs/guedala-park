@@ -1,0 +1,109 @@
+{
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "status": "Detalhamento de estudo; não liberar fabricação/incorporação",
+  "assumptions": [
+    "Hardware RO25 em envelopes, não CAD real",
+    "Sifão e ponto de esgoto posicionados apenas para cenário de manutenção",
+    "Conexões, válvula e flexíveis não definidos"
+  ],
+  "operation": [
+    {
+      "leaf": "Esquerda",
+      "against_R42": [],
+      "against_new_wood": [],
+      "intrusion_mm3": 0.0
+    },
+    {
+      "leaf": "Direita",
+      "against_R42": [],
+      "against_new_wood": [],
+      "intrusion_mm3": 0.0
+    }
+  ],
+  "service": {
+    "front_module_steps": [
+      {
+        "step": "Retirar20_frente",
+        "hits": []
+      },
+      {
+        "step": "Deslocar120_direita",
+        "hits": []
+      },
+      {
+        "step": "Retirar330_frente",
+        "hits": []
+      }
+    ],
+    "withdraw_dowels": [],
+    "hands_with_front_removed": [],
+    "cup_descent80": [],
+    "detached_trap_straight_front": [],
+    "hydraulics_vs_wood": [],
+    "clearance_trap_bottom_to_base_mm": 298,
+    "clearance_after_drop80_mm": 218
+  },
+  "storage": {
+    "gross_original_litres": 109.663032,
+    "new_wood_intrusion_mm3": 0.0,
+    "hardware_fixings_intrusion_mm3": 0.0,
+    "note": "Hidráulica não contada como armazenamento; mesmo envelope bruto preservado, não109,66L úteis."
+  },
+  "fixings": {
+    "module_M6x100": 4,
+    "cross_nuts_M6_d10_L14": 4,
+    "frame_confirmat_7x50": 4,
+    "frame_alignment_dowels_8x30": 4,
+    "removable_interface_dowels_8x30": 4,
+    "ro25_screws_3_5x12": 24,
+    "module_bolt_axes_X": [
+      2771,
+      3349
+    ],
+    "module_bolt_axes_Z": [
+      260,
+      680
+    ],
+    "cross_nut_axis_Y": 4915,
+    "nut_hole_remaining_outer_skin_mm": 4,
+    "residual_board_behind_cup_bore_mm": 8,
+    "pilot_diameter_status": "2,5 no modelo é hipótese; adequar ao material e parafuso escolhido",
+    "load_status": "Ligação detalhada geometricamente, sem cálculo/ensaio da chapa e suspensão.30kg é limite publicado do kit, não da união.",
+    "stop_screws_4x50": 2
+  },
+  "invalid_shapes": [],
+  "operation_gap_hardware_to_other_panel_mm": 3,
+  "rear_handle_visible_strip_mm": 35,
+  "clear_openings_mm": {
+    "left": 270,
+    "right": 235,
+    "both_leaves_removed": 564,
+    "service_height_under_stone": 527
+  },
+  "front_module": {
+    "hardware_mass": "adicionar; não determinada",
+    "removal": "Manter folhas fechadas e imobilizadas; apoiar conjunto antes de retirar os4 M6. Não depende de levantar folhas ou soltar guias.",
+    "retention": "Batentes limitam deslocamento; antidescarrilamento e regulagem reais do RO25 continuam a conferir no kit.",
+    "wood_mass_kg_density650_900": [
+      5.09,
+      7.04
+    ]
+  },
+  "source_unchanged": true,
+  "final_dimensions": {
+    "leaf": [
+      292,
+      500,
+      18
+    ],
+    "front_module": [
+      600,
+      70,
+      543
+    ],
+    "overlap_mm": 24,
+    "front_travel_mm": 268,
+    "rear_travel_mm": 233,
+    "gap_below_stone_mm": 2
+  }
+}

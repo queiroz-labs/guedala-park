@@ -8,7 +8,14 @@ const LIGHTING_CONFIG={
   contact:{strength:.25,softness:3,maxGap:22,maxPatches:48}
 };
 function enhancedLighting(st){return st.view==='iso'&&LIGHTING_CONFIG.rooms.includes(st.room)&&st.lighting!=='before';}
+const FACE_LIGHT_CACHE=new WeakMap();
 function faceLighting(f,enhanced){
+  const source=f._mesh||f,slot=enhanced?1:0;
+  let entry=FACE_LIGHT_CACHE.get(source);if(!entry){entry=[];FACE_LIGHT_CACHE.set(source,entry);}
+  if(entry[slot])return entry[slot];
+  return entry[slot]=computeFaceLighting(f,enhanced);
+}
+function computeFaceLighting(f,enhanced){
   if(!enhanced||!LIGHTING_CONFIG.rooms.includes(f.room))return rgb(shade(f.c,f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2])).map(v=>v/255);
   const c=LIGHTING_CONFIG,n=f.normal,l=c.key.direction,len=Math.hypot(...l)||1;
   const direct=Math.max(0,(n[0]*l[0]+n[1]*l[1]+n[2]*l[2])/len);

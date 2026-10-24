@@ -1,0 +1,13 @@
+{
+  "items": 9,
+  "offerCount": 8,
+  "provisionCount": 1,
+  "baseline": 19000.6,
+  "revised": 17251.83,
+  "saving": 1748.77,
+  "card": 17668.07,
+  "execution": 136935.75,
+  "reserveFixed": 10000,
+  "existingGoodsAdded": false,
+  "originalBudgetUnchanged": true
+}

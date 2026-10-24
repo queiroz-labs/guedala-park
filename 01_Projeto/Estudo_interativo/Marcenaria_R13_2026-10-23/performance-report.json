@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-23",
+  "method": "Node CPU benchmark of actual buildScene + render + WebGL vertex packing. 1000x680, DPR2, whole apartment, 3 warm-up frames, 7 measured frames. GL calls are no-op: no browser compositing/GPU time or measured browser FPS. Moving version uses DPR1 and simplified dense meshes; full detail returns after 180ms without camera events.",
+  "before": {
+    "median_ms": 1849.24,
+    "p95_ms": 1933,
+    "samples_ms": [
+      1770.87,
+      1819.14,
+      1841.83,
+      1849.24,
+      1880.59,
+      1923.88,
+      1933
+    ],
+    "faces": 128580,
+    "quality": "detail"
+  },
+  "after_moving": {
+    "median_ms": 17.29,
+    "p95_ms": 21.53,
+    "samples_ms": [
+      13.89,
+      15.62,
+      16.27,
+      17.29,
+      17.3,
+      17.69,
+      21.53
+    ],
+    "faces": 1264,
+    "quality": "interactive"
+  },
+  "after_stationary": {
+    "median_ms": 690.4,
+    "p95_ms": 885.49,
+    "samples_ms": [
+      652.33,
+      655.93,
+      681.89,
+      690.4,
+      708.4,
+      792.37,
+      885.49
+    ],
+    "faces": 128580,
+    "quality": "detail"
+  },
+  "speedup_cpu": 106.95,
+  "checks": {
+    "full_faces": 126220,
+    "parts": 383,
+    "full_detail_restored": true,
+    "simple_panels_exact": true,
+    "revision_identity_invalidates": true
+  }
+}

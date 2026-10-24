@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-22",
+  "baseline": 10100.0,
+  "prudentProvision": 10100.0,
+  "negotiationScenario": 9300.0,
+  "savingConditional": 800,
+  "target": 9500,
+  "belowTargetConditional": 200,
+  "confirmedSavings": 0,
+  "rows": [
+    {
+      "id": "I01",
+      "item": "Elétrica: circuitos, proteções, cabos e tomadas",
+      "baseline": 3800.0,
+      "negotiationTarget": 3800,
+      "savingConditional": 0.0,
+      "action": "Preservar R$3.800 para materiais, mão de obra, circuitos/proteções, tomadas, torre automática de cozinha, ponto fixo 20 A na lavanderia, ligações elétricas e montagem elétrica da iluminação. Exigir discriminação da torre e do quadro; verba global ainda não comprova suficiência.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I02",
+      "item": "Rede e organização de cabos",
+      "baseline": 450.0,
+      "negotiationTarget": 350,
+      "savingConditional": 100.0,
+      "action": "Negociar R$100 ao executar passagem, terminações e organização na mesma mobilização da elétrica. Manter rede física e testes; não substituir por Wi-Fi nem recomprar computador/periféricos.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I03",
+      "item": "Instalação hidráulica de cubas, torneiras e aparelhos",
+      "baseline": 1600.0,
+      "negotiationTarget": 1350,
+      "savingConditional": 250.0,
+      "action": "Negociar R$250 em pacote das ligações hidráulicas de cozinha, lavanderia e banheiro, incluindo aparelhos, ducha/misturadores e eventual reinstalação do vaso entregue. Não retirar pontos de uso; sifões e engates faltantes permanecem em H06.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I04",
+      "item": "Derivações de água quente e ocultação local",
+      "baseline": 2200.0,
+      "negotiationTarget": 1900,
+      "savingConditional": 300.0,
+      "action": "Negociar R$300 junto com I03, usando a infraestrutura quente entregue somente após conferência. Manter água quente nos pontos previstos e ocultação discreta aprovada; tubos, conexões, fixação e testes aqui, acabamento de gesso/pintura em O08/O05. Sem metragem ou rota executiva validada.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I05",
+      "item": "Instalação do aquecedor GN e exaustão",
+      "baseline": 1100.0,
+      "negotiationTarget": 1100,
+      "savingConditional": 0.0,
+      "action": "Preservar R$1.100 para instalação do E21 GN, duto/terminal, conexões e teste, com assistência adequada. Aparelho em E05; conexão elétrica final em I01. Não confundir preço de instalação simples com pacote completo.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I06",
+      "item": "Ligação/conversão GN do cooktop e teste",
+      "baseline": 450.0,
+      "negotiationTarget": 300,
+      "savingConditional": 150.0,
+      "action": "Cenário R$300 para ligação, materiais e teste do KE4GC, aproveitando conversão gratuita quando atendidas as condições do manual. A diferença de R$150 é alvo estimado, não preço publicado da conversão nem desconto garantido.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    },
+    {
+      "id": "I07",
+      "item": "Medidor/ativação de gás — provisão",
+      "baseline": 500.0,
+      "negotiationTarget": 500,
+      "savingConditional": 0.0,
+      "action": "Preservar R$500 como provisão de medidor/ativação até escopo e cobrança confirmados. Não é tarifa oficial e não há gratuidade comprovada para a unidade.",
+      "status": "Estimativa para cotação, sem proposta recebida"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://api.electrolux-medialibrary.com/asset/1fc5d741-d94e-4db1-b564-bde514cdb7f8/E4RM3Q/250405XATF/PDF/250405XATF.pdf",
+      "title": "Manual oficial KE4GC, seção 3 Instalação",
+      "consulted": "2026-10-22",
+      "finding": "Conversão gratuita para aparelho sem uso dentro da garantia, GN disponível; deslocamento fora do município-sede pode ser cobrado. Instalação cobrada separadamente. O benefício não especifica economia de R$150."
+    },
+    {
+      "url": "https://www.rinnai.com.br/acessorios/outros/e21-1/en",
+      "title": "Página oficial E21 REU-E211 FEH",
+      "consulted": "2026-10-22",
+      "finding": "Modelo e exigência de instalação por profissionais qualificados; consultar assistência credenciada e termo de garantia. Sem preço de instalação comprovado."
+    },
+    {
+      "url": "https://www.comgas.com.br/media/a23gtxex/guia-de-terceiro.pdf",
+      "title": "Comgás, Guia do Terceiro, versão 1/2021, p.32",
+      "consulted": "2026-10-22",
+      "finding": "Descreve kit com acessórios nos serviços de ligação/conversão realizados pela Comgás. Não comprova gratuidade nem aplicação contratual à unidade. Evitar comprar kit duplicado se serviço escolhido já incluir."
+    }
+  ],
+  "status": "Análise concluída; R$9.300 propostos para cotação. R$650 em negociação de pacotes e R$150 estimados no cooktop condicionado ao benefício, sem desconto contratado. Cores, armazenamento e pontos previstos preservados.",
+  "reserveFixed": 10000,
+  "reserveUsed": 0,
+  "executionWithWorksAndInstallationsScenarios": 135135.75,
+  "executionWithJoineryAlso": 123585.75,
+  "executionWithFurnitureAlso": 122135.75,
+  "remainingTo120kWithTheseScenarios": 2135.75,
+  "executionIfOtherCategoryTargetsObtained": 119600.4,
+  "relatorio": "Instalacoes/Analise_instalacoes.md",
+  "aceiteCenarioPlanejamento": {
+    "data": "2026-10-22",
+    "autor": "Elias",
+    "pedido": "ok, anote esse cenário e vamos analisar pedras e box pra reduzir mais, mantendo as cores e o visual aprovado e sem mexer nos 10mil de reserva",
+    "valor": 9300,
+    "alcance": "Cenário de instalações aceito para planejamento e negociação, mantendo condições de cotação e elegibilidade do benefício do cooktop. Não é economia contratada."
+  }
+}

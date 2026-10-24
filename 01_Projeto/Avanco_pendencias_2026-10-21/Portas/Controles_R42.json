@@ -1,0 +1,1158 @@
+[
+  {
+    "name": "Varao",
+    "label": "Varão · 973 mm nominal",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "Varao001",
+    "label": "Varão · 973 mm nominal001",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "Varao002",
+    "label": "Varão · 332 mm nominal",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "Varao003",
+    "label": "Varão · 332 mm nominal001",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "Folha",
+    "label": "Cabeceira porta 4 - abrir para direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR015.Abertura'), ('CursoEstudo', 'ControlePortaR015.CursoEstudo'), ('GiroLocal', 'CinematicaComumR11.D5Theta'), ('LocalX', '(18 + -CinematicaComumR11.D5T4x + -16 * cos(CinematicaComumR11.D5Theta) - -56.5 * sin(CinematicaComumR11.D5Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D5T4z + -16 * sin(CinematicaComumR11.D5Theta) + -56.5 * cos(CinematicaComumR11.D5Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha001",
+    "label": "Cabeceira porta 3 - abrir para esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR016.Abertura'), ('CursoEstudo', 'ControlePortaR016.CursoEstudo'), ('GiroLocal', '-CinematicaComumR11.D6Theta'), ('LocalX', '(869.5 + CinematicaComumR11.D6T4x + 16 * cos(-CinematicaComumR11.D6Theta) - -56.5 * sin(-CinematicaComumR11.D6Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D6T4z + 16 * sin(-CinematicaComumR11.D6Theta) + -56.5 * cos(-CinematicaComumR11.D6Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha002",
+    "label": "Cabeceira porta 2 - abrir para direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR017.Abertura'), ('CursoEstudo', 'ControlePortaR017.CursoEstudo'), ('GiroLocal', 'CinematicaComumR11.D7Theta'), ('LocalX', '(905.5 + -CinematicaComumR11.D7T4x + -16 * cos(CinematicaComumR11.D7Theta) - -56.5 * sin(CinematicaComumR11.D7Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D7T4z + -16 * sin(CinematicaComumR11.D7Theta) + -56.5 * cos(CinematicaComumR11.D7Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha004",
+    "label": "Gabinete da pia - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR10.Abertura'), ('CursoEstudo', 'ControlePortaR10.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D1Theta'), ('LocalX', '(18 + -CinematicaComumR10.D1T4x + -16 * cos(CinematicaComumR10.D1Theta) - -56.5 * sin(CinematicaComumR10.D1Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D1T4z + -16 * sin(CinematicaComumR10.D1Theta) + -56.5 * cos(CinematicaComumR10.D1Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha005",
+    "label": "Gabinete da pia - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR001.Abertura'), ('CursoEstudo', 'ControlePortaR001.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D2Theta'), ('LocalX', '(632 + CinematicaComumR10.D2T4x + 16 * cos(-CinematicaComumR10.D2Theta) - -56.5 * sin(-CinematicaComumR10.D2Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D2T4z + 16 * sin(-CinematicaComumR10.D2Theta) + -56.5 * cos(-CinematicaComumR10.D2Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha006",
+    "label": "D · acima do depurador - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR002.Abertura'), ('CursoEstudo', 'ControlePortaR002.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D3Theta'), ('LocalX', '(18 + -CinematicaComumR10.D3T4x + -16 * cos(CinematicaComumR10.D3Theta) - -56.5 * sin(CinematicaComumR10.D3Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D3T4z + -16 * sin(CinematicaComumR10.D3Theta) + -56.5 * cos(CinematicaComumR10.D3Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha007",
+    "label": "D · acima do depurador - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR003.Abertura'), ('CursoEstudo', 'ControlePortaR003.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D4Theta'), ('LocalX', '(632 + CinematicaComumR10.D4T4x + 16 * cos(-CinematicaComumR10.D4Theta) - -56.5 * sin(-CinematicaComumR10.D4Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D4T4z + 16 * sin(-CinematicaComumR10.D4Theta) + -56.5 * cos(-CinematicaComumR10.D4Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha008",
+    "label": "C · uso diário - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR004.Abertura'), ('CursoEstudo', 'ControlePortaR004.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D5Theta'), ('LocalX', '(18 + -CinematicaComumR10.D5T4x + -16 * cos(CinematicaComumR10.D5Theta) - -56.5 * sin(CinematicaComumR10.D5Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D5T4z + -16 * sin(CinematicaComumR10.D5Theta) + -56.5 * cos(CinematicaComumR10.D5Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha009",
+    "label": "C · uso diário - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR005.Abertura'), ('CursoEstudo', 'ControlePortaR005.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D6Theta'), ('LocalX', '(529 + CinematicaComumR10.D6T4x + 16 * cos(-CinematicaComumR10.D6Theta) - -56.5 * sin(-CinematicaComumR10.D6Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D6T4z + 16 * sin(-CinematicaComumR10.D6Theta) + -56.5 * cos(-CinematicaComumR10.D6Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha010",
+    "label": "B · acima do micro - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR006.Abertura'), ('CursoEstudo', 'ControlePortaR006.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D7Theta'), ('LocalX', '(18 + -CinematicaComumR10.D7T4x + -16 * cos(CinematicaComumR10.D7Theta) - -56.5 * sin(CinematicaComumR10.D7Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D7T4z + -16 * sin(CinematicaComumR10.D7Theta) + -56.5 * cos(CinematicaComumR10.D7Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha011",
+    "label": "B · acima do micro - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR007.Abertura'), ('CursoEstudo', 'ControlePortaR007.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D8Theta'), ('LocalX', '(679 + CinematicaComumR10.D8T4x + 16 * cos(-CinematicaComumR10.D8Theta) - -56.5 * sin(-CinematicaComumR10.D8Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D8T4z + 16 * sin(-CinematicaComumR10.D8Theta) + -56.5 * cos(-CinematicaComumR10.D8Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha012",
+    "label": "A · acima da geladeira - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR008.Abertura'), ('CursoEstudo', 'ControlePortaR008.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D9Theta'), ('LocalX', '(18 + -CinematicaComumR10.D9T4x + -16 * cos(CinematicaComumR10.D9Theta) - -56.5 * sin(CinematicaComumR10.D9Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D9T4z + -16 * sin(CinematicaComumR10.D9Theta) + -56.5 * cos(CinematicaComumR10.D9Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha013",
+    "label": "A · acima da geladeira - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR009.Abertura'), ('CursoEstudo', 'ControlePortaR009.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D10Theta'), ('LocalX', '(783 + CinematicaComumR10.D10T4x + 16 * cos(-CinematicaComumR10.D10Theta) - -56.5 * sin(-CinematicaComumR10.D10Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D10T4z + 16 * sin(-CinematicaComumR10.D10Theta) + -56.5 * cos(-CinematicaComumR10.D10Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha014",
+    "label": "Aéreo da lavanderia - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR010.Abertura'), ('CursoEstudo', 'ControlePortaR010.CursoEstudo'), ('GiroLocal', 'CinematicaComumR10.D11Theta'), ('LocalX', '(18 + -CinematicaComumR10.D11T4x + -16 * cos(CinematicaComumR10.D11Theta) - -56.5 * sin(CinematicaComumR10.D11Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D11T4z + -16 * sin(CinematicaComumR10.D11Theta) + -56.5 * cos(CinematicaComumR10.D11Theta)) * 1 mm')]"
+  },
+  {
+    "name": "Folha015",
+    "label": "Aéreo da lavanderia - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR011.Abertura'), ('CursoEstudo', 'ControlePortaR011.CursoEstudo'), ('GiroLocal', '-CinematicaComumR10.D12Theta'), ('LocalX', '(817 + CinematicaComumR10.D12T4x + 16 * cos(-CinematicaComumR10.D12Theta) - -56.5 * sin(-CinematicaComumR10.D12Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR10.D12T4z + 16 * sin(-CinematicaComumR10.D12Theta) + -56.5 * cos(-CinematicaComumR10.D12Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FuroSimplesR04",
+    "label": "FuroSimplesR04",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FuroSimplesR001",
+    "label": "FuroSimplesR001",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FuroSimplesR002",
+    "label": "FuroSimplesR002",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FuroSimplesR003",
+    "label": "FuroSimplesR003",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR10",
+    "label": "Gabinete da pia - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR10",
+    "label": "Caneco35x13 - proposta",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR001",
+    "label": "Caneco35x13 - proposta001",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR001",
+    "label": "Gabinete da pia - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR002",
+    "label": "Caneco35x13 - proposta002",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR003",
+    "label": "Caneco35x13 - proposta003",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR002",
+    "label": "D · acima do depurador - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR004",
+    "label": "Caneco35x13 - proposta004",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR005",
+    "label": "Caneco35x13 - proposta005",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR003",
+    "label": "D · acima do depurador - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR006",
+    "label": "Caneco35x13 - proposta006",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR007",
+    "label": "Caneco35x13 - proposta007",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR004",
+    "label": "C · uso diário - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR008",
+    "label": "Caneco35x13 - proposta008",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR009",
+    "label": "Caneco35x13 - proposta009",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR005",
+    "label": "C · uso diário - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR010",
+    "label": "Caneco35x13 - proposta010",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR011",
+    "label": "Caneco35x13 - proposta011",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR006",
+    "label": "B · acima do micro - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR012",
+    "label": "Caneco35x13 - proposta012",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR013",
+    "label": "Caneco35x13 - proposta013",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR007",
+    "label": "B · acima do micro - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR014",
+    "label": "Caneco35x13 - proposta014",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR015",
+    "label": "Caneco35x13 - proposta015",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR008",
+    "label": "A · acima da geladeira - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR016",
+    "label": "Caneco35x13 - proposta016",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR017",
+    "label": "Caneco35x13 - proposta017",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR009",
+    "label": "A · acima da geladeira - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR018",
+    "label": "Caneco35x13 - proposta018",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR019",
+    "label": "Caneco35x13 - proposta019",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR010",
+    "label": "Aéreo da lavanderia - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR020",
+    "label": "Caneco35x13 - proposta020",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR021",
+    "label": "Caneco35x13 - proposta021",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR011",
+    "label": "Aéreo da lavanderia - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR022",
+    "label": "Caneco35x13 - proposta022",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR023",
+    "label": "Caneco35x13 - proposta023",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FolhaEscritorioR11",
+    "label": "Escritório porta 4 - abrir para direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR11.Abertura'), ('CursoEstudo', 'ControlePortaR11.CursoEstudo'), ('GiroLocal', 'CinematicaComumR11.D1Theta'), ('LocalX', '(18 + -CinematicaComumR11.D1T4x + -16 * cos(CinematicaComumR11.D1Theta) - -56.5 * sin(CinematicaComumR11.D1Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D1T4z + -16 * sin(CinematicaComumR11.D1Theta) + -56.5 * cos(CinematicaComumR11.D1Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FolhaEscritorioR001",
+    "label": "Escritório porta 3 - abrir para esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR012.Abertura'), ('CursoEstudo', 'ControlePortaR012.CursoEstudo'), ('GiroLocal', '-CinematicaComumR11.D2Theta'), ('LocalX', '(982 + CinematicaComumR11.D2T4x + 16 * cos(-CinematicaComumR11.D2Theta) - -56.5 * sin(-CinematicaComumR11.D2Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D2T4z + 16 * sin(-CinematicaComumR11.D2Theta) + -56.5 * cos(-CinematicaComumR11.D2Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FolhaEscritorioR002",
+    "label": "Escritório porta 2 - abrir para direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR013.Abertura'), ('CursoEstudo', 'ControlePortaR013.CursoEstudo'), ('GiroLocal', 'CinematicaComumR11.D3Theta'), ('LocalX', '(1018 + -CinematicaComumR11.D3T4x + -16 * cos(CinematicaComumR11.D3Theta) - -56.5 * sin(CinematicaComumR11.D3Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D3T4z + -16 * sin(CinematicaComumR11.D3Theta) + -56.5 * cos(CinematicaComumR11.D3Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FolhaEscritorioR003",
+    "label": "Escritório porta 1 - abrir para esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR014.Abertura'), ('CursoEstudo', 'ControlePortaR014.CursoEstudo'), ('GiroLocal', '-CinematicaComumR11.D4Theta'), ('LocalX', '(1982 + CinematicaComumR11.D4T4x + 16 * cos(-CinematicaComumR11.D4Theta) - -56.5 * sin(-CinematicaComumR11.D4Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR11.D4T4z + 16 * sin(-CinematicaComumR11.D4Theta) + -56.5 * cos(-CinematicaComumR11.D4Theta)) * 1 mm')]"
+  },
+  {
+    "name": "ControlePortaR11",
+    "label": "Escritório porta 4 - abrir para direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR11",
+    "label": "Caneco35x13 - proposta024",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR024",
+    "label": "Caneco35x13 - proposta025",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR012",
+    "label": "Escritório porta 3 - abrir para esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR025",
+    "label": "Caneco35x13 - proposta026",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR026",
+    "label": "Caneco35x13 - proposta027",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR013",
+    "label": "Escritório porta 2 - abrir para direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR027",
+    "label": "Caneco35x13 - proposta028",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR028",
+    "label": "Caneco35x13 - proposta029",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR014",
+    "label": "Escritório porta 1 - abrir para esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR029",
+    "label": "Caneco35x13 - proposta030",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR030",
+    "label": "Caneco35x13 - proposta031",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR015",
+    "label": "Cabeceira porta 4 - abrir para direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR031",
+    "label": "Caneco35x13 - proposta032",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR032",
+    "label": "Caneco35x13 - proposta033",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR016",
+    "label": "Cabeceira porta 3 - abrir para esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR033",
+    "label": "Caneco35x13 - proposta034",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR034",
+    "label": "Caneco35x13 - proposta035",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR017",
+    "label": "Cabeceira porta 2 - abrir para direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR035",
+    "label": "Caneco35x13 - proposta036",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR036",
+    "label": "Caneco35x13 - proposta037",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FolhaBanheiroR12",
+    "label": "Gabinete do banheiro - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR12.Abertura'), ('CursoEstudo', 'ControlePortaR12.CursoEstudo'), ('GiroLocal', 'CinematicaComumR12.D1Theta'), ('LocalX', '(18 + -CinematicaComumR12.D1T4x + -16 * cos(CinematicaComumR12.D1Theta) - -56.5 * sin(CinematicaComumR12.D1Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR12.D1T4z + -16 * sin(CinematicaComumR12.D1Theta) + -56.5 * cos(CinematicaComumR12.D1Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FolhaBanheiroR001",
+    "label": "Gabinete do banheiro - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR018.Abertura'), ('CursoEstudo', 'ControlePortaR018.CursoEstudo'), ('GiroLocal', '-CinematicaComumR12.D2Theta'), ('LocalX', '(582 + CinematicaComumR12.D2T4x + 16 * cos(-CinematicaComumR12.D2Theta) - -56.5 * sin(-CinematicaComumR12.D2Theta)) * 1 mm'), ('LocalY', '(56.5 + -CinematicaComumR12.D2T4z + 16 * sin(-CinematicaComumR12.D2Theta) + -56.5 * cos(-CinematicaComumR12.D2Theta)) * 1 mm')]"
+  },
+  {
+    "name": "ControlePortaR12",
+    "label": "Gabinete do banheiro - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR12",
+    "label": "Caneco35x13 - proposta038",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR037",
+    "label": "Caneco35x13 - proposta039",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR018",
+    "label": "Gabinete do banheiro - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR038",
+    "label": "Caneco35x13 - proposta040",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR039",
+    "label": "Caneco35x13 - proposta041",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "FolhaBanheiroR002",
+    "label": "Armário espelhado raso - porta direita — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR019.Abertura'), ('CursoEstudo', 'ControlePortaR019.CursoEstudo'), ('GiroLocal', 'CinematicaComumR12.D3Theta'), ('LocalX', '(18 + -CinematicaComumR12.D3T4x + -16 * cos(CinematicaComumR12.D3Theta) - -60.5 * sin(CinematicaComumR12.D3Theta)) * 1 mm'), ('LocalY', '(60.5 + -CinematicaComumR12.D3T4z + -16 * sin(CinematicaComumR12.D3Theta) + -60.5 * cos(CinematicaComumR12.D3Theta)) * 1 mm')]"
+  },
+  {
+    "name": "FolhaBanheiroR003",
+    "label": "Armário espelhado raso - porta esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControlePortaR020.Abertura'), ('CursoEstudo', 'ControlePortaR020.CursoEstudo'), ('GiroLocal', '-CinematicaComumR12.D4Theta'), ('LocalX', '(582 + CinematicaComumR12.D4T4x + 16 * cos(-CinematicaComumR12.D4Theta) - -60.5 * sin(-CinematicaComumR12.D4Theta)) * 1 mm'), ('LocalY', '(60.5 + -CinematicaComumR12.D4T4z + 16 * sin(-CinematicaComumR12.D4Theta) + -60.5 * cos(-CinematicaComumR12.D4Theta)) * 1 mm')]"
+  },
+  {
+    "name": "ControlePortaR019",
+    "label": "Armário espelhado raso - porta direita",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR040",
+    "label": "Caneco35x13 - proposta042",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR041",
+    "label": "Caneco35x13 - proposta043",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR042",
+    "label": "Caneco35x13 - proposta044",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControlePortaR020",
+    "label": "Armário espelhado raso - porta esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "CanecoComumR043",
+    "label": "Caneco35x13 - proposta045",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR044",
+    "label": "Caneco35x13 - proposta046",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR045",
+    "label": "Caneco35x13 - proposta047",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "PortaEntradaBanheiroR12",
+    "label": "Entrada banheiro - folha700 de referência, NÃO medida",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "90.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX + 7400 mm'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('GiroLocal', '90 deg - min(90 deg; max(0 deg; Abertura))')]"
+  },
+  {
+    "name": "ControleCestoR15",
+    "label": "Cesto R15 - Abertura55 e RetiradaSaco",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControleBancoR16",
+    "label": "1 - Potes/travessas/batedeira",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControleBancoR001",
+    "label": "2 - Liquidificador e bebidas",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControleBancoR002",
+    "label": "3 - Balde",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControleBancoR003",
+    "label": "4 - Folha/aspirador/jogos",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControleVizinhaR18",
+    "label": "Cabeceira porta 1 - abrir para esquerda",
+    "type": "App::FeaturePython",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "VizinhaComumR18",
+    "label": "Cabeceira porta 1 - abrir para esquerda — folha proposta",
+    "type": "App::Part",
+    "properties": {
+      "Abertura": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('Abertura', 'ControleVizinhaR18.Abertura'), ('GiroLocal', '-CinematicaComumR18.NTheta'), ('LocalX', '(1757 + CinematicaComumR18.NT4x + 17 * cos(-CinematicaComumR18.NTheta) - -56.5 * sin(-CinematicaComumR18.NTheta)) * 1 mm'), ('LocalY', '(56.5 - CinematicaComumR18.NT4z + 17 * sin(-CinematicaComumR18.NTheta) + -56.5 * cos(-CinematicaComumR18.NTheta)) * 1 mm')]"
+  },
+  {
+    "name": "CanecoVizinhaR18",
+    "label": "CanecoVizinhaR18",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoVizinhaR002",
+    "label": "CanecoVizinhaR002",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR046",
+    "label": "Caneco35x13 - R29 meia altura - porta direita",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "CanecoComumR047",
+    "label": "Caneco35x13 - R29 meia altura - porta esquerda",
+    "type": "Part::Cylinder",
+    "properties": {
+      "Angle": "360.0 deg",
+      "FirstAngle": "0.0 deg",
+      "SecondAngle": "0.0 deg"
+    },
+    "expressions": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+  },
+  {
+    "name": "ControleCantoR35",
+    "label": "Canto - abrir portas A e B",
+    "type": "App::FeaturePython",
+    "properties": {
+      "AberturaA": "0.0 deg",
+      "AberturaB": "0.0 deg"
+    },
+    "expressions": "[]"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "method": "HIPOTESE NAO VALIDADA: source Y0 na parede X4318; base frontal Z148.5 alinhada Y676 (4mm atras carcaça680); topo perfil movel X30.6 apoiado no fundo inferior Z521/629. Sem engates. Nao autoriza recortes ou fabricacao.",
+  "cases": [
+    {
+      "state": "FECHADA",
+      "drawer": "Gaveta008",
+      "bbox": [
+        4317.999999999996,
+        269.69999999999993,
+        470.69999999999527,
+        4365.55,
+        676.0,
+        521.5500000000001
+      ],
+      "interferences": [
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Novo_Peca370",
+          "intersection_mm3": 22845.113
+        },
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 2516.73
+        },
+        {
+          "rail": "54FGOC12 - PEÇA B_400MM",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 4570.741
+        },
+        {
+          "rail": "54FGOC12 - PEÇA B_400MM001",
+          "wood": "Novo_Peca370",
+          "intersection_mm3": 41.034
+        },
+        {
+          "rail": "Espelhar54FGOC12 - SLOW1",
+          "wood": "Novo_Peca370",
+          "intersection_mm3": 15223.711
+        },
+        {
+          "rail": "54FGOC12 - PEÇA C 2_400",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 8640.685
+        }
+      ]
+    },
+    {
+      "state": "FECHADA",
+      "drawer": "Gaveta009",
+      "bbox": [
+        4317.999999999996,
+        269.69999999999993,
+        578.6999999999953,
+        4365.55,
+        676.0,
+        629.55
+      ],
+      "interferences": [
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 2516.73
+        },
+        {
+          "rail": "54FGOC12 - PEÇA B_400MM",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 4570.741
+        },
+        {
+          "rail": "54FGOC12 - PEÇA C 2_400",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 8640.685
+        }
+      ]
+    },
+    {
+      "state": "ABERTA",
+      "drawer": "Gaveta008",
+      "bbox": [
+        4317.999999999996,
+        379.0,
+        470.69999999999527,
+        4365.55,
+        1008.0677994561653,
+        521.5500000000001
+      ],
+      "interferences": [
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Novo_Peca370",
+          "intersection_mm3": 22845.113
+        },
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 83.606
+        },
+        {
+          "rail": "54FGOC12 - PEÇA B_400MM",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 4570.741
+        },
+        {
+          "rail": "Espelhar54FGOC12 - SLOW1",
+          "wood": "Novo_Peca370",
+          "intersection_mm3": 15223.711
+        },
+        {
+          "rail": "54FGOC12 - PEÇA C 2_400",
+          "wood": "Gaveta008_Lateral_E",
+          "intersection_mm3": 5306.122
+        }
+      ]
+    },
+    {
+      "state": "ABERTA",
+      "drawer": "Gaveta009",
+      "bbox": [
+        4317.999999999996,
+        379.0,
+        578.6999999999953,
+        4365.55,
+        1008.0677994561653,
+        629.5500000000001
+      ],
+      "interferences": [
+        {
+          "rail": "54FGOC12 - BASE_400mm",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 83.606
+        },
+        {
+          "rail": "54FGOC12 - PEÇA B_400MM",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 4570.741
+        },
+        {
+          "rail": "54FGOC12 - PEÇA C 2_400",
+          "wood": "Gaveta009_Lateral_E",
+          "intersection_mm3": 5306.122
+        }
+      ]
+    }
+  ]
+}

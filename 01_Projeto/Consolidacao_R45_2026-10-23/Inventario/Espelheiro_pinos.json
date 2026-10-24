@@ -1,0 +1,101 @@
+{
+  "status": "Compatibilidade nominal de envelope/furação; resistência e tolerâncias não aprovadas",
+  "pin_quantity": 8,
+  "pin_projection_mm": 10,
+  "shelf_side_gap_mm": 2,
+  "nominal_bearing_overlap_mm": 8,
+  "shelf_dimensions_unchanged": [
+    560,
+    104,
+    18
+  ],
+  "wall_thickness_mm": 18,
+  "blind_depth_proposed_mm": 8.5,
+  "remaining_wall_nominal_mm": 9.5,
+  "hole_axes": [
+    {
+      "side": "left",
+      "axis_mm": [
+        2778,
+        5184,
+        1394
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "right",
+      "axis_mm": [
+        3342,
+        5184,
+        1394
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "left",
+      "axis_mm": [
+        2778,
+        5250,
+        1394
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "right",
+      "axis_mm": [
+        3342,
+        5250,
+        1394
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "left",
+      "axis_mm": [
+        2778,
+        5184,
+        1638
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "right",
+      "axis_mm": [
+        3342,
+        5184,
+        1638
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "left",
+      "axis_mm": [
+        2778,
+        5250,
+        1638
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    },
+    {
+      "side": "right",
+      "axis_mm": [
+        3342,
+        5250,
+        1638
+      ],
+      "diameter_mm": 5,
+      "proposed_blind_depth_mm": 8.5
+    }
+  ],
+  "intersections": [],
+  "context": 45,
+  "valid": true,
+  "source_note": "Catálogo Häfele2018 p7.154; 282.04.711 tem10/2.7/8. Não copiar11/2.5/8.5 do282.04.712 adjacente."
+}

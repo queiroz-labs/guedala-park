@@ -1,0 +1,304 @@
+[
+  {
+    "name": "ControlePortaR10",
+    "label": "Gabinete da pia - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Gabinete da pia - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR001",
+    "label": "Gabinete da pia - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Gabinete da pia - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR002",
+    "label": "D · acima do depurador - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "D · acima do depurador - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR003",
+    "label": "D · acima do depurador - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "D · acima do depurador - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR004",
+    "label": "C · uso diário - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "C · uso diário - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR005",
+    "label": "C · uso diário - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "C · uso diário - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR006",
+    "label": "B · acima do micro - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "B · acima do micro - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR007",
+    "label": "B · acima do micro - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "B · acima do micro - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR008",
+    "label": "A · acima da geladeira - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "A · acima da geladeira - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR009",
+    "label": "A · acima da geladeira - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "A · acima da geladeira - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR010",
+    "label": "Aéreo da lavanderia - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Aéreo da lavanderia - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR011",
+    "label": "Aéreo da lavanderia - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Aéreo da lavanderia - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR11",
+    "label": "Escritório porta 4 - abrir para direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "4.0 mm",
+      "JuntaEsquerdaProposta": "2.0 mm",
+      "Label": "Escritório porta 4 - abrir para direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR012",
+    "label": "Escritório porta 3 - abrir para esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "4.0 mm",
+      "JuntaEsquerdaProposta": "4.0 mm",
+      "Label": "Escritório porta 3 - abrir para esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento",
+      "SentidoR18": "Direita, vista de frente; alterna com vizinha à esquerda."
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR013",
+    "label": "Escritório porta 2 - abrir para direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "4.0 mm",
+      "JuntaEsquerdaProposta": "4.0 mm",
+      "Label": "Escritório porta 2 - abrir para direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR014",
+    "label": "Escritório porta 1 - abrir para esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "2.0 mm",
+      "JuntaEsquerdaProposta": "4.0 mm",
+      "Label": "Escritório porta 1 - abrir para esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento",
+      "SentidoR18": "Direita, vista de frente; alterna com vizinha à esquerda."
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR015",
+    "label": "Cabeceira porta 4 - abrir para direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "3.0 mm",
+      "JuntaEsquerdaProposta": "2.0 mm",
+      "Label": "Cabeceira porta 4 - abrir para direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR016",
+    "label": "Cabeceira porta 3 - abrir para esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "4.0 mm",
+      "JuntaEsquerdaProposta": "3.0 mm",
+      "Label": "Cabeceira porta 3 - abrir para esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento",
+      "SentidoR18": "Direita, vista de frente; alterna com vizinha à esquerda."
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR017",
+    "label": "Cabeceira porta 2 - abrir para direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaDireitaProposta": "2.0 mm",
+      "JuntaEsquerdaProposta": "4.0 mm",
+      "Label": "Cabeceira porta 2 - abrir para direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR12",
+    "label": "Gabinete do banheiro - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Gabinete do banheiro - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR018",
+    "label": "Gabinete do banheiro - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Gabinete do banheiro - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR019",
+    "label": "Armário espelhado raso - porta direita",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Armário espelhado raso - porta direita",
+      "SentidoApartamentoR20": "direita na orientação do apartamento"
+    },
+    "expressions": "[]"
+  },
+  {
+    "name": "ControlePortaR020",
+    "label": "Armário espelhado raso - porta esquerda",
+    "props": {
+      "Abertura": "0.0 deg",
+      "CursoEstudo": "86.0 deg",
+      "JuntaCentralProposta": "2.0 mm",
+      "JuntaExternaProposta": "2.0 mm",
+      "Label": "Armário espelhado raso - porta esquerda",
+      "SentidoApartamentoR20": "esquerda na orientação do apartamento"
+    },
+    "expressions": "[]"
+  }
+]

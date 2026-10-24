@@ -1,0 +1,521 @@
+{
+  "limites": "Triagem 2D extrudida contra AABB R44 e tampo Berlin como superfície. Eixo abstrato, não CAD da Southco. Almofadas removidas antes do giro. Não inclui ferragens, suportes, pessoas, deformação ou tolerâncias. Eixos positivos para frente acima da tampa não garantem folga da quina inferior.",
+  "testes": [
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        100,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.6938815067206
+      ],
+      "varredura_z": [
+        400.0,
+        875.0
+      ],
+      "tampa90_x": [
+        105,
+        125
+      ],
+      "tampa90_z": [
+        427,
+        875
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        100,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.9988777434224
+      ],
+      "varredura_z": [
+        400.0,
+        880.0
+      ],
+      "tampa90_x": [
+        110,
+        130
+      ],
+      "tampa90_z": [
+        432,
+        880
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        100,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.3589044865528
+      ],
+      "varredura_z": [
+        400.0,
+        885.0
+      ],
+      "tampa90_x": [
+        115,
+        135
+      ],
+      "tampa90_z": [
+        437,
+        885
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        102,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.6969999783566
+      ],
+      "varredura_z": [
+        400.0,
+        873.0
+      ],
+      "tampa90_x": [
+        107,
+        127
+      ],
+      "tampa90_z": [
+        425,
+        873
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        102,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.0032748068384
+      ],
+      "varredura_z": [
+        400.0,
+        878.0
+      ],
+      "tampa90_x": [
+        112,
+        132
+      ],
+      "tampa90_z": [
+        430,
+        878
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        102,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.3650338629159
+      ],
+      "varredura_z": [
+        400.0,
+        883.0
+      ],
+      "tampa90_x": [
+        117,
+        137
+      ],
+      "tampa90_z": [
+        435,
+        883
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        110,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca407": {
+          "angle": 0.1,
+          "label": "Lateral esquerda015",
+          "intersecao_bbox_ou_superficie": 0.9442886355354858
+        },
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 52.99125637410907
+        }
+      },
+      "varredura_x": [
+        102.0,
+        550.7094999841617
+      ],
+      "varredura_z": [
+        398.75119848125644,
+        865.0
+      ],
+      "tampa90_x": [
+        115,
+        135
+      ],
+      "tampa90_z": [
+        417,
+        865
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        110,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca407": {
+          "angle": 0.1,
+          "label": "Lateral esquerda015",
+          "intersecao_bbox_ou_superficie": 0.9432560419336369
+        },
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 52.93330964733468
+        }
+      },
+      "varredura_x": [
+        102.0,
+        551.0215414076238
+      ],
+      "varredura_z": [
+        398.95165527512256,
+        870.0
+      ],
+      "tampa90_x": [
+        120,
+        140
+      ],
+      "tampa90_z": [
+        422,
+        870
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel1",
+      "eixo_xz": [
+        110,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca407": {
+          "angle": 0.1,
+          "label": "Lateral esquerda015",
+          "intersecao_bbox_ou_superficie": 0.9422240131061699
+        },
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 52.87539461784036
+        }
+      },
+      "varredura_x": [
+        102.0,
+        551.3896951930509
+      ],
+      "varredura_z": [
+        399.0973572752196,
+        875.0
+      ],
+      "tampa90_x": [
+        125,
+        145
+      ],
+      "tampa90_z": [
+        427,
+        875
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        100,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.6938815067206
+      ],
+      "varredura_z": [
+        400.0,
+        875.0
+      ],
+      "tampa90_x": [
+        105,
+        125
+      ],
+      "tampa90_z": [
+        427,
+        875
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        100,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.9988777434224
+      ],
+      "varredura_z": [
+        400.0,
+        880.0
+      ],
+      "tampa90_x": [
+        110,
+        130
+      ],
+      "tampa90_z": [
+        432,
+        880
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        100,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.3589044865528
+      ],
+      "varredura_z": [
+        400.0,
+        885.0
+      ],
+      "tampa90_x": [
+        115,
+        135
+      ],
+      "tampa90_z": [
+        437,
+        885
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        102,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        550.6969999783566
+      ],
+      "varredura_z": [
+        400.0,
+        873.0
+      ],
+      "tampa90_x": [
+        107,
+        127
+      ],
+      "tampa90_z": [
+        425,
+        873
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        102,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.0032748068384
+      ],
+      "varredura_z": [
+        400.0,
+        878.0
+      ],
+      "tampa90_x": [
+        112,
+        132
+      ],
+      "tampa90_z": [
+        430,
+        878
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        102,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {},
+      "varredura_x": [
+        102.0,
+        551.3650338629159
+      ],
+      "varredura_z": [
+        400.0,
+        883.0
+      ],
+      "tampa90_x": [
+        117,
+        137
+      ],
+      "tampa90_z": [
+        435,
+        883
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        110,
+        425
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 44.88148338603787
+        },
+        "Peca406AtualR31": {
+          "angle": 0.1,
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "intersecao_bbox_ou_superficie": 0.9442886355354858
+        }
+      },
+      "varredura_x": [
+        102.0,
+        550.7094999841617
+      ],
+      "varredura_z": [
+        398.75119848125644,
+        865.0
+      ],
+      "tampa90_x": [
+        115,
+        135
+      ],
+      "tampa90_z": [
+        417,
+        865
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        110,
+        430
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 44.832404816610506
+        },
+        "Peca406AtualR31": {
+          "angle": 0.1,
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "intersecao_bbox_ou_superficie": 0.9432560418717912
+        }
+      },
+      "varredura_x": [
+        102.0,
+        551.0215414076238
+      ],
+      "varredura_z": [
+        398.95165527512256,
+        870.0
+      ],
+      "tampa90_x": [
+        120,
+        140
+      ],
+      "tampa90_z": [
+        422,
+        870
+      ]
+    },
+    {
+      "tampa": "BancoR43_Painel2",
+      "eixo_xz": [
+        110,
+        435
+      ],
+      "poses": 901,
+      "primeiras_colisoes": {
+        "Peca408": {
+          "angle": 0.1,
+          "label": "Fundo015",
+          "intersecao_bbox_ou_superficie": 44.78335309351678
+        },
+        "Peca406AtualR31": {
+          "angle": 0.1,
+          "label": "Lateral fechada18 - banco com acesso superior",
+          "intersecao_bbox_ou_superficie": 0.9422240131061699
+        }
+      },
+      "varredura_x": [
+        102.0,
+        551.3896951930509
+      ],
+      "varredura_z": [
+        399.0973572752196,
+        875.0
+      ],
+      "tampa90_x": [
+        125,
+        145
+      ],
+      "tampa90_z": [
+        427,
+        875
+      ]
+    }
+  ]
+}

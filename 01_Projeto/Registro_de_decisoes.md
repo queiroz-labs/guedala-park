@@ -1,3 +1,89 @@
+> **Louças e metais — 22/10/2026:** pedras e box R$6.200 registrados como cenário aceito por Elias. [Análise de louças e metais](Orcamento_R43_2026-10-22/Loucas_e_metais/Analise_loucas_metais.md): provisão atual **R$5.057,71** (Deca/Telca −R$187,54; Livo +R$299,90), cenário proposto **R$4.490,26** condicionado à Dora R$414 com acabamento confirmado, Arion R$640 e Livo completo R$650. Sem troca de modelo/cor nem redução de acessórios necessários; bens existentes excluídos. Cenário acumulado com negociações anteriores **R$121.180,66**, faltando R$1.180,66; com metas de iluminação/logística seria R$119.590,66. Provisão geral atual R$137.798,11. **Reserva R$10 mil separada, uso R$0.** Cenário de louças ainda proposto, não contratado. Valores anteriores permanecem históricos onde divergentes; nenhum CAD alterado.
+
+**24/10/2026 — rodízios P08 selecionados:** Elias aprovou seis rodízios fixos Leão Aço de 38 mm e seis espaçadores metálicos rígidos de 1 mm, preservando 39 mm de apoio e 88 mm úteis. [Especificação e link de compra](Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Compra não realizada; furação, material recebido, carga e montagem real a conferir.
+
+
+> **Pedras e box — 22/10/2026:** instalações R$9.300 registradas como cenário aceito por Elias. [Análise de pedras e box](Orcamento_R43_2026-10-22/Pedras_e_box/Analise_pedras_box.md): proposta R$6.200 contra R$6.700 (pedras R$5.000 + box R$1.200), redução estimada R$500 ainda sem cotação sob medida. Preservados Branco Itaúnas, faixa baixa, borda reta, tanque esculpido, prateleira explícita em S04, vidro transparente/perfis pretos e armazenamento. Referência de box no arquivo 1,24 × 2,10 m; não substituir por kit 1,20 × 1,90 m da pesquisa. Cenário acumulado com obra, instalações, marcenaria e móveis negociados: **R$121.635,75**, faltando R$1.635,75 para execução. Provisão prudente R$137.685,75 mantida. **Reserva R$10 mil separada, R$0 utilizado.** R44 apenas lida, sem alteração; medidas executivas e abertura do box pendentes.
+
+> **Instalações — 22/10/2026:** Elias pediu registrar obra R$10.560 como cenário de planejamento/negociação. [Instalações analisadas](Orcamento_R43_2026-10-22/Instalacoes/Analise_instalacoes.md): proposta R$9.300 contra R$10.100, redução condicionada de R$800 (pacotes R$650 + R$150 estimados no cooktop, com conversão gratuita elegível e ligação/materiais pagos). Preservados elétrica R$3.800 com torre/ponto 20 A explícitos, E21 instalado R$1.100, medidor/ativação R$500, água quente, cores, armazenamento e testes. Não há cotação recebida. Provisão prudente R$137.685,75; se obtidos obra, instalações, marcenaria R$35 mil e móveis R$9.240,44: **R$122.135,75**, faltando R$2.135,75 para o teto de execução. Todas as metas restantes juntas levariam a R$119.600,40, ainda condicionais. **Reserva R$10 mil separada, R$0 utilizado.** Nenhum CAD alterado.
+
+> **Obra e pintura — 22/10/2026:** [Análise e escopo para cotação](Orcamento_R43_2026-10-22/Obra_e_pintura/Analise_obra.md). Eletros R$17.251,83 aceitos por Elias para planejamento. Obra: original R$11.560; provisão prudente R$12.310 após incluir R$750 adicionais de materiais sem depender da lata antiga. Cenário de negociação **R$10.560** (R$1.750 de desconto nos serviços ainda não cotado, R$1.000 líquido abaixo do original); faltam R$560 para meta R$10 mil. Cores, visual, armazenamento, impermeabilização e tratamento do escritório preservados. Execução vigente R$137.685,75; se obtidos obra R$10.560 e marcenaria R$35 mil: R$124.385,75; com cenário de móveis também: R$122.935,75. **Reserva R$10 mil separada, R$0 utilizado.** Referências anteriores ficam históricas onde divergentes; reposição de tinta pertence à execução, nunca automaticamente à reserva.
+
+## 22/10/2026 — pesquisa de eletros e TV preservando modelos e bens existentes
+
+Elias pediu analisar eletros e TV para reduzir custos, mantendo modelos aprovados e sem incluir o que já tem. [Revisão](Orcamento_R43_2026-10-22/Eletros_e_TV/Analise_eletros.md): R$19.000,60 → R$17.251,83, com oito ofertas verificadas e provisão histórica do KE4GC sem estoque confirmado. A TV Philips Ambilight de 50″ é candidata principal já registrada, sem nova aprovação de modelo. Exclusões mantidas, sem contar novamente sua retirada como economia. Cenário parcelado R$17.668,07; fretes/instalações permanecem nas categorias correspondentes. Reserva fixa R$10 mil preservada; nenhuma compra, contato ou modificação do FreeCAD.
+
+## 22/10/2026 — aceite do orçamento dos pisos e análise de móveis
+
+Elias pediu registrar o orçamento dos pisos e avançar à próxima categoria, mantendo R$120 mil de execução e R$10 mil de reserva separados. Registrados R$16.998,13 de pisos como estimativa aceita para planejamento, sem liberação de compra. Análise de móveis mantém todos os itens e reduz a estimativa de R$11.388,93 para R$10.690,44 por ofertas do Bonnie e do Daiane. Cenário R$9.240,44 é proposta a cotar, não nova aprovação nem economia fechada. Acabamentos aprovados e armazenamento preservados; nenhum CAD alterado. [Valores e condições](Orcamento_R43_2026-10-22/Moveis_e_tecidos/Analise_moveis.md).
+
+## 22/10/2026 — conferência de dez caixas e cozinha; conexão FreeCAD restaurada
+
+Elias solicitou conferir uma caixa a menos de vinílico e a duplicidade da cozinha, mantendo visual. Plano de cortes nominal usa 136 réguas das 140 de dez caixas, incluindo reserva para passagens e contando a sobreposição sala/cozinha duas vezes. A análise concilia o pedido genérico de acabamento novo com a decisão específica de granito baixo + Algodão Egípcio fosco: retirado R10 de R$480. Não houve nova aprovação de cor, produto, compra ou paginação executiva. R$440 do serviço correspondente foram mantidos para preparo/cobrança mínima. Estimativa **R$16.998,13**, praticamente no teto de R$17 mil (folga R$1,87). [Relatório e limites](Orcamento_R43_2026-10-22/Pisos_e_revestimentos/Conferencia_caixa_cozinha.md).
+
+Durante o trabalho, Elias pediu reparar a conexão FreeCAD. Aplicativo ausente inicialmente; iniciado fora do isolamento do terminal, AI Copilot respondeu sem alteração de extensão/configuração. R44 aberta uma única vez; após carga, conexão e execução Python confirmadas com 5.668 objetos. Nove bases de piso conferidas por leitura. Nenhum CAD salvo.
+
+## 22/10/2026 — análise de pisos e revestimentos
+
+Elias pediu reduzir custos mantendo cores e visual aprovados. [Revisão de pisos](Orcamento_R43_2026-10-22/Pisos_e_revestimentos/Analise_pisos.md): estimativa R$18.074,92 ante R$20.542,24, redução indicativa R$2.467,32; faltam R$1.074,92 para a meta de R$17 mil. Mesmo Olmo em outro fornecedor, ajuste da lavanderia e correção do box para uma parede verde com verba explícita para as demais claras. Mantidos preparo, instalação, rodapés, provisão acústica e R10 da cozinha enquanto se concilia com pintura aprovada. Dez caixas de vinílico são oportunidade condicionada à paginação, não quantidade liberada. Não houve troca de padrão, compra ou modificação do CAD; preços dependem de pagamento, estoque, frete e serviços. Este registro documenta a análise, não novo aceite de produtos ou contratação.
+
+## 22/10/2026 — interiores brancos para orçamento de marcenaria
+
+Elias solicitou reduzir a marcenaria para R$35 mil sem perder armazenamento e mantendo as cores aprovadas. À pergunta sobre branco fosco somente dentro dos armários fechados, mantendo cores nas frentes, laterais aparentes, bancadas e prateleiras abertas, respondeu: **“Sim, interiores brancos”**. Aprovação de acabamento interno; não autoriza redução de medidas, espessuras, apoios, número de gavetas ou substituição de padrão aparente. Plano de cotação com 26 linhas salvo em `Orcamento_R43_2026-10-22/Marcenaria_35mil`. Metas financeiras não equivalem a preços contratados. Nenhuma mudança de geometria aplicada à R43.
+
+# Revisão vigente R44 — 22/10/2026
+
+[FreeCAD R44](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+
+R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
+
+A hipótese de posicionamento ensaiada nas duas gavetas do escritório apresentou interferências; foi rejeitada sem recortar a madeira. O estudo R04 mantém sua capacidade e fixação frontal, mas não foi incorporado definitivamente. Faltam referência de montagem, engates e folgas de liberação, parafusos e recortes traseiros. Não extrapolar os STEP de 400 para 500 mm. FGVTN informou separadamente que não tem ferragem adequada para o cesto. Nenhuma fabricação, compra ou contato autorizado por esta revisão.
+
+O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclusão dos STEP não demonstra economia adicional. As quatro dobradiças antigas do banheiro são históricas na solução de correr e não devem retornar à lista de compra.
+
+---
+
+## Registros anteriores — consultar a atualização acima em caso de divergência
+
+# Continuidade técnica — 21/10/2026, São Paulo
+
+Elias autorizou continuar resolvendo pendências. Medidas extraídas da R42: quatro gavetas de roupeiro com550mm livres e três da cozinha com572mm atendem ao mínimo520; duas do escritório com412mm não atendem420. Criado estudo separado de carcaça450→470mm só pela traseira, sem mudar a frente, obtendo432mm livres e sem interseções com demais sólidos ensaiados. Montagem vertical permanece pendente, com1mm acima da lateral superior. R42 principal preservada.
+
+Medido corredor lateral: giro proposto da lixeira90° no mesmo canto melhora mínimo da mesa aberta de81,5para96,5cm; não aplicado, uso/tampa/pedal a conferir. Identificados kits FGVTN400/500comengates; nove somamR$659,19Pixantesfrete. Economia combinada indicativaR$3.681,58, ou alternativa híbridaR$3.174,34 mantendoBlum no escritório, antes de comparar kits completos e adaptação. Nenhuma alternativa híbrida escolhida automaticamente.
+
+Recobrimento nominal das46dobradiças confirmado com retaH0; furação, trajetória e carga permanecem pendentes. Preparado mapa comparável de orçamento por módulo, sem propostas enviadas. [Resultados, arquivos e limites](Avanco_pendencias_2026-10-21/Avanco_pendencias.html).
+
+---
+# Auditoria das alterações — 21/10/2026, São Paulo
+
+Conferência independente da R42 contra R41, decisões recentes e documentos. Corrigidas apresentação de componentes históricos da mesa, identificação comercial das nove corrediças e controles antigos; geometria dos móveis preservada. Documentos operacionais atualizados para Berlin, FGVTN candidata, apoios removidos e exclusões de orçamento. As pastas com data 2026-10-22 mantêm seus nomes; esta auditoria usa a data local do usuário.
+
+Registradas também duas escolhas anteriores já respondidas: faixa discreta no canto do teto e descida junto ao gabinete para ocultar a tubulação do banheiro (direção estética, não aprovação técnica); transporte raro do PS5 entre sala e escritório, sem nova compra do console. Nenhuma escolha foi reaberta.
+
+[Relatório completo, verificações e pendências](Auditoria_R42_2026-10-21/Conferencia_R42.html). Cópias documentais anteriores na pasta do relatório; backup CAD e evidências técnicas em Estudo_Berlin_FGVTN_2026-10-21/Auditoria_R42_2026-10-21. Nada desta conferência libera fabricação, carga ou execução de instalações.
+
+---
+# 22/10/2026 — consolidação R42 solicitada por Elias
+
+Remover os dois apoios para celular/óculos do quarto, inclusive no FreeCAD; preservar cabeceira, iluminação, armário superior e armazenamento. Consolidar Berlin e FGVTN candidatas na mesma revisão.
+
+Arranjo esclarecido por Elias: Berlin aberta170 com três cadeiras de44cm na lateral livre; fechada110 com uma cadeira em cada ponta e uma na lateral, para conferir circulação. O antigo cenário aberto com cadeira na ponta do sofá apresentou colisão de6cm; é evidência do problema, não configuração final recomendada. Três cadeiras somam132cm e cabem no comprimento170cm; conforto e passagem com pessoas continuam sujeitos a conferência física.
+
+FGVTN candidata para nove gavetas e inicialmente46dobradiças comuns; não reduzir armazenamento. Geometria Blum preservada como referência, sem fingir adaptação de caixas, engates ou furações concluída. Canto e espelheiro ficam separados. [Modelo R42](Modelo_FreeCAD/01_Atual/Consolidacao_R42_2026-10-22/Guedala_Park_R42_Consolidado.FCStd) · [Relatório de ferragens](Estudo_Berlin_FGVTN_2026-10-21/Ferragens/Relatorio_Ferragens_FGVTN.html).
+
+Teto de investimento30% do apartamento; manter revestimentos novos de cozinha/banheiro, permitir vaso existente; excluir compra de cadeira do escritório, PlayStation e cama. Meta dois meses após chaves e mudança no terceiro, com profissional coordenando. Nada nesta revisão aprova fabricação, compra ou capacidade de carga.
+
+---
+**21/10/2026 — auditoria direta na R41:** corrigida a contagem documental de 54 para 56 conjuntos 71B3550 e respectivos 56 calços. Confirmados 9 pares de guias e 18 acoplamentos, discriminados por móvel. Geometria preservada; não é aprovação de carga nem compra. [Evidências](Auditoria_quantitativos_R41/README.md).
+
+# Conferência documental — 21/10/2026
+
+Atualizados resumo, painel, especificação do varal e complementos de orçamento/levantamento para refletir as decisões já executadas. R41 mantida; banco com guarda superior desde R37; placa do varal removida desde R35; Fischer grill escolhido; ferragens ainda com pendências explícitas. Consultas do cesto já enviadas, conforme [registro](Modelo_FreeCAD/01_Atual/Cesto_R41_2026-10-20/Envios_fabricantes_R41.md). Esta atualização não escolhe novas ferragens nem libera fabricação. [Resumo vigente](Resumo.md). Entradas abaixo preservam a sequência histórica e podem ter sido superadas por decisões posteriores.
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Registro de decisões — Guedala Park
 
 ## 20/10/2026 — atualização geral solicitada: FreeCAD R31 e site R11

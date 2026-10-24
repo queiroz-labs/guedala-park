@@ -1,0 +1,195 @@
+{
+  "status": "ESTUDO_CONDICIONAL_NAO_LIBERADO",
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "checks": 1568,
+  "collisions": [],
+  "invalid_shapes": [],
+  "method": "Conservative individual bounding solids swept Y0..378, Z0..3 for box/head; fascia and cup vertically fixed. Payload vs own parts at Z0,1.5,3; geometry translates together. Thread/nut motion not modeled.",
+  "fixings": [
+    {
+      "name": "Gaveta008_Regulador_0",
+      "cup_center": [
+        4400,
+        682,
+        564
+      ],
+      "screw_axis_at_zero": [
+        4400,
+        666,
+        562.5
+      ],
+      "nominal_cup_hole_diameter_mm": 20,
+      "blind_depth_mm": 10.5,
+      "remaining_front_thickness_mm": 7.5,
+      "screw_clearance_hole_diameter_proposed_mm": 5,
+      "screw_center_offset_z_at_rail_0_and_3_mm": [
+        -1.5,
+        1.5
+      ],
+      "documented_adjustment_mm": 2,
+      "adjustment_reserve_mm": 0.5,
+      "step_valid": true,
+      "step_volume_difference_mm3": 1.000444171950221e-11,
+      "pressfit_interference_with_front_mm3": 212.66928238152968,
+      "pressfit_note": "STEP outside diameter20.8 vs official bore20: interference ribs; do not enlarge bore from STEP.",
+      "axial_orientation": "Provisional: local Z37 at back face. Reversing axial orientation also fits the blind pocket; thread engagement not released."
+    },
+    {
+      "name": "Gaveta008_Regulador_1",
+      "cup_center": [
+        4600,
+        682,
+        564
+      ],
+      "screw_axis_at_zero": [
+        4600,
+        666,
+        562.5
+      ],
+      "nominal_cup_hole_diameter_mm": 20,
+      "blind_depth_mm": 10.5,
+      "remaining_front_thickness_mm": 7.5,
+      "screw_clearance_hole_diameter_proposed_mm": 5,
+      "screw_center_offset_z_at_rail_0_and_3_mm": [
+        -1.5,
+        1.5
+      ],
+      "documented_adjustment_mm": 2,
+      "adjustment_reserve_mm": 0.5,
+      "step_valid": true,
+      "step_volume_difference_mm3": 1.000444171950221e-11,
+      "pressfit_interference_with_front_mm3": 212.66928238154856,
+      "pressfit_note": "STEP outside diameter20.8 vs official bore20: interference ribs; do not enlarge bore from STEP.",
+      "axial_orientation": "Provisional: local Z37 at back face. Reversing axial orientation also fits the blind pocket; thread engagement not released."
+    },
+    {
+      "name": "Gaveta009_Regulador_0",
+      "cup_center": [
+        4400,
+        682,
+        672
+      ],
+      "screw_axis_at_zero": [
+        4400,
+        666,
+        670.5
+      ],
+      "nominal_cup_hole_diameter_mm": 20,
+      "blind_depth_mm": 10.5,
+      "remaining_front_thickness_mm": 7.5,
+      "screw_clearance_hole_diameter_proposed_mm": 5,
+      "screw_center_offset_z_at_rail_0_and_3_mm": [
+        -1.5,
+        1.5
+      ],
+      "documented_adjustment_mm": 2,
+      "adjustment_reserve_mm": 0.5,
+      "step_valid": true,
+      "step_volume_difference_mm3": 1.000444171950221e-11,
+      "pressfit_interference_with_front_mm3": 213.62709464302577,
+      "pressfit_note": "STEP outside diameter20.8 vs official bore20: interference ribs; do not enlarge bore from STEP.",
+      "axial_orientation": "Provisional: local Z37 at back face. Reversing axial orientation also fits the blind pocket; thread engagement not released."
+    },
+    {
+      "name": "Gaveta009_Regulador_1",
+      "cup_center": [
+        4600,
+        682,
+        672
+      ],
+      "screw_axis_at_zero": [
+        4600,
+        666,
+        670.5
+      ],
+      "nominal_cup_hole_diameter_mm": 20,
+      "blind_depth_mm": 10.5,
+      "remaining_front_thickness_mm": 7.5,
+      "screw_clearance_hole_diameter_proposed_mm": 5,
+      "screw_center_offset_z_at_rail_0_and_3_mm": [
+        -1.5,
+        1.5
+      ],
+      "documented_adjustment_mm": 2,
+      "adjustment_reserve_mm": 0.5,
+      "step_valid": true,
+      "step_volume_difference_mm3": 1.000444171950221e-11,
+      "pressfit_interference_with_front_mm3": 213.6270946430304,
+      "pressfit_note": "STEP outside diameter20.8 vs official bore20: interference ribs; do not enlarge bore from STEP.",
+      "axial_orientation": "Provisional: local Z37 at back face. Reversing axial orientation also fits the blind pocket; thread engagement not released."
+    }
+  ],
+  "drilling_proposal": [
+    {
+      "drawer": "Gaveta008",
+      "x": 4400,
+      "cup_z": 564,
+      "screw_z_at_zero": 562.5
+    },
+    {
+      "drawer": "Gaveta008",
+      "x": 4600,
+      "cup_z": 564,
+      "screw_z_at_zero": 562.5
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4400,
+      "cup_z": 672,
+      "screw_z_at_zero": 670.5
+    },
+    {
+      "drawer": "Gaveta009",
+      "x": 4600,
+      "cup_z": 672,
+      "screw_z_at_zero": 670.5
+    }
+  ],
+  "storage": [
+    {
+      "drawer": "Gaveta008",
+      "original_mm": [
+        322,
+        359,
+        60.4
+      ],
+      "after_head_reserve_mm": [
+        323,
+        364,
+        60.4
+      ],
+      "before_l": 6.9821192000000005,
+      "after_l": 7.101348799999997,
+      "gain_percent": 1.7076420007266613
+    },
+    {
+      "drawer": "Gaveta009",
+      "original_mm": [
+        322,
+        359,
+        54
+      ],
+      "after_head_reserve_mm": [
+        323,
+        364,
+        54
+      ],
+      "before_l": 6.242292,
+      "after_l": 6.348888,
+      "gain_percent": 1.7076420007266613
+    }
+  ],
+  "clearances_mm": {
+    "lower_payload_to_upper_front_at_max_regulation": 1.6,
+    "upper_payload_to_top_at_max_regulation": 1,
+    "fascia_joint": 2
+  },
+  "blockers": [
+    "FGVTN conventional clip and rail exact dimensional profile, hole pattern and release travel missing",
+    "Blum cup axial insertion orientation and compatible screw thread, length, head, washer and engagement require confirmation",
+    "Static STEP does not articulate nut adjustment; +/-2 mm is documented range, not CAD joint validation",
+    "Rear drill/notch geometry and screw fixation depend on exact FGVTN assembly sheet",
+    "Nominal margins of1/1.6 mm require manufacturing tolerance allocation and physical fitting",
+    "Wood joints, screw retention, loaded movement and strength not certified"
+  ]
+}

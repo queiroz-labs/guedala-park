@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-22",
+  "baseline": 6700,
+  "prudentProvision": 6700,
+  "negotiationScenario": 6200,
+  "savingConditional": 500,
+  "stonePackageBaseline": 5300,
+  "stonePackageTarget": 5000,
+  "boxBaseline": 1400,
+  "boxTarget": 1200,
+  "target": 6200,
+  "confirmedSavings": 0,
+  "rows": [
+    {
+      "id": "S01",
+      "item": "Branco Itaúnas: bancada, recortes e acabamento",
+      "baseline": 2400.0,
+      "negotiationTarget": 2250,
+      "savingConditional": 150.0,
+      "action": "Negociar R$150 pelo conjunto de pedras. Manter Branco Itaúnas, recortes, borda reta com arestas suavizadas e faixa baixa de referência visual 10 cm; incluir medição, apoios compatíveis, entrega, instalação e vedação. Não reduzir bancada nem converter 2,3 m estimados em metragem de compra.",
+      "basis": "Alvo estimado de cotação, sem proposta sob medida recebida"
+    },
+    {
+      "id": "S02",
+      "item": "Continuação da bancada e tanque esculpido",
+      "baseline": 1900.0,
+      "negotiationTarget": 1800,
+      "savingConditional": 100.0,
+      "action": "Negociar R$100 junto com S01, mantendo a continuidade visual, o trecho sobre a máquina, retorno em L e tanque esculpido de 38 × 35 × 20 cm úteis como referência. Emendas planejadas e aproveitamento da chapa sem diminuir guarda, tanque ou acessos. Não substituir por tanque inox.",
+      "basis": "Alvo estimado de cotação, sem proposta sob medida recebida"
+    },
+    {
+      "id": "S03",
+      "item": "Bancada Branco Itaúnas",
+      "baseline": 650.0,
+      "negotiationTarget": 600,
+      "savingConditional": 50.0,
+      "action": "Negociar R$50 com a mesma marmoraria, preservando Branco Itaúnas, geometria nominal 60 × 45 cm, cuba Deca de apoio, furações/recortes, suporte, acabamento e instalação. Não transformar em cuba esculpida nem reduzir profundidade.",
+      "basis": "Alvo estimado de cotação, sem proposta sob medida recebida"
+    },
+    {
+      "id": "S04",
+      "item": "Soleiras e pequenos acabamentos de pedra",
+      "baseline": 350.0,
+      "negotiationTarget": 350,
+      "savingConditional": 0.0,
+      "action": "Manter R$350 e explicitar prateleira do box em Branco Itaúnas, fixações/instalação e pequenos acabamentos/soleiras realmente necessários. Aproveitamento de retalho compatível é oportunidade, não gratuidade garantida. Sem duplicar frontão de S01/S02 ou transições já em R04.",
+      "basis": "Alvo estimado de cotação, sem proposta sob medida recebida"
+    },
+    {
+      "id": "S05",
+      "item": "Box transparente com perfis pretos",
+      "baseline": 1400.0,
+      "negotiationTarget": 1200,
+      "savingConditional": 200.0,
+      "action": "Buscar R$1.200 instalado para o fechamento sob medida, vidro transparente e perfis pretos finos. Preservar referência nominal de altura 2,10 m e largura 1,24 m enquanto se detalha o sistema; não adotar kit 1,20 × 1,90 m para economizar. Medição, ferragens, vedação, transporte e instalação inclusos no alvo; abertura e espessura a dimensionar.",
+      "basis": "Alvo estimado de cotação, sem proposta sob medida recebida"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dubox SP — box de abrir incolor 120 cm",
+      "url": "https://duboxsp.com.br/produto/box-de-abrir-incolor-120cm/",
+      "consulted": "2026-10-22",
+      "publishedPrice": 930,
+      "condition": "Pix; descrição 120 × 190 cm, vidro 8 mm, opções de alumínio incluindo preto e anúncio de frete grátis. Instalação no pacote e cobertura precisam ser confirmadas. Dimensões/abertura diferentes da referência; não selecionado."
+    },
+    {
+      "title": "Dubox SP — frontal incolor 170 cm",
+      "url": "https://duboxsp.com.br/produto/box-frontal-incolor-170cm/",
+      "consulted": "2026-10-22",
+      "publishedPrice": 1150,
+      "condition": "Pix; descrição 170 × 190 cm e opção de perfis pretos. Preço publicado não é cotação de 124 × 210 cm; não extrapolar preço por área ou adotar produto."
+    },
+    {
+      "title": "Leroy Merlin — Iron Speed Temper 120 × 190 cm preto, SKU 92152851",
+      "url": "https://www.leroymerlin.com.br/box-para-banheiro-120x190cm-vidro-incolor-frontal-de-correr-2-folhas-preto-iron-speed-temper_92152851",
+      "consulted": "2026-10-22",
+      "publishedPrice": 2219,
+      "condition": "Página consultada exibe validade 15/10/2026 e frete não incluso; instalação não comprovada. Referência histórica, mais cara e medida diferente; descartada como solução econômica."
+    }
+  ],
+  "status": "Cenário R$6.200 aceito para planejamento e negociação em 22/10/2026; R$500 ainda sem cotação sob medida. Provisão prudente R$6.700.",
+  "reserveFixed": 10000,
+  "reserveUsed": 0,
+  "combinedExecutionScenario": 121635.75,
+  "remainingTo120k": 1635.75,
+  "executionIfOtherTargetsObtained": 119600.4,
+  "relatorio": "Pedras_e_box/Analise_pedras_box.md",
+  "dimensionalReferences": "Pedras_e_box/Referencias_dimensionais.json",
+  "aceiteCenarioPlanejamento": {
+    "data": "2026-10-22",
+    "autor": "Elias",
+    "pedido": "ok, anote esse cenário e vamos analisar louças e metais pra reduzir mais, mantendo os modelos e acabamentos aprovados e sem mexer nos 10mil de reserva",
+    "valor": 6200,
+    "alcance": "Cenário de pedras e box aceito para planejamento e negociação; R$500 condicionados a propostas completas, sem contratação. Reserva preservada."
+  }
+}

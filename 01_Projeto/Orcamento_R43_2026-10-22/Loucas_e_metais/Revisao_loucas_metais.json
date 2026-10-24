@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-22",
+  "baseline": 4945.35,
+  "prudentProvision": 5057.71,
+  "negotiationScenario": 4490.26,
+  "target": 4500,
+  "belowTargetConditional": 9.74,
+  "indicativeWebSavingsDecaTelca": 187.54,
+  "livoProvisionIncrease": 299.9,
+  "netPrudentIncrease": 112.36,
+  "savingConditionalFromOriginal": 455.09,
+  "conditionalReductionFromPrudent": 567.45,
+  "confirmedSavings": 0,
+  "reserveFixed": 10000,
+  "reserveUsed": 0,
+  "executionPrudent": 137798.11,
+  "combinedWithOtherScenariosAndPrudentLoucas": 121748.11,
+  "combinedExecutionScenario": 121180.66,
+  "remainingTo120k": 1180.66,
+  "executionIfLightingAndLogisticsTargetsObtained": 119590.66,
+  "rows": [
+    {
+      "id": "H01",
+      "item": "Cuba Tramontina Dora 40 BL R6 94017/113",
+      "baseline": 521.55,
+      "prudent": 521.55,
+      "conditionalTarget": 414.0,
+      "note": "Preservar 94017/113 com escape e acabamento aprovado. Candidata Evolve R$414 Pix/boleto (R$460 cartão), mesmo código, mas anúncio diz escovado e projeto acetinado: confirmar identidade/acabamento antes de incorporar a redução. Base R$521,55 mantida prudentemente."
+    },
+    {
+      "id": "H02",
+      "item": "Pingoo Apurema preta extensível",
+      "baseline": 288.9,
+      "prudent": 288.9,
+      "conditionalTarget": 288.9,
+      "note": "Apurema preta HTC0234: R$288,90 Pix/boleto ou R$304,10 cartão. Desconto já embutido; sem aplicar 5% novamente ou cupom de primeira compra."
+    },
+    {
+      "id": "H03",
+      "item": "Cuba Deca Slim L.13040.17 40 × 30 cm",
+      "baseline": 684.9,
+      "prudent": 650.66,
+      "conditionalTarget": 650.66,
+      "note": "L.13040.17 branca em estoque; R$684,90 e 5% no Pix publicados. R$650,66 calculados com arredondamento conservador de centavos; conferir no fechamento. Válvula não incluída."
+    },
+    {
+      "id": "H04",
+      "item": "Misturador Addra Arion Black 73131B",
+      "baseline": 750.0,
+      "prudent": 750.0,
+      "conditionalTarget": 640.0,
+      "note": "Arion Black de mesa/bica alta preservada. Cassol SKU1578386 indisponível; manter R$750 como provisão sem oferta. R$640 é alvo de cotação, não preço verificado."
+    },
+    {
+      "id": "H05",
+      "item": "Chuveiro Addra Livo Black BRS2003-BK",
+      "baseline": 700.0,
+      "prudent": 999.9,
+      "conditionalTarget": 650.0,
+      "note": "Livo Black Matte com desviador, Cassol SKU2193038: R$999,90 publicados. Corrigir provisão anterior R$700. Alvo R$650 depende de outra oferta confirmada e conjunto completo com ducha manual; referência BRS2003-BK do projeto a conferir na proposta."
+    },
+    {
+      "id": "H06",
+      "item": "Válvulas faltantes, sifões, engates e fixações",
+      "baseline": 550.0,
+      "prudent": 550.0,
+      "conditionalTarget": 550.0,
+      "note": "Manter R$550 para componentes faltantes. Base já excluía válvula Dora e flexíveis fornecidos; sem economia adicional por duplicidade não demonstrada."
+    },
+    {
+      "id": "H07",
+      "item": "Torneira Telca Flex preta 1571531402",
+      "baseline": 300.0,
+      "prudent": 146.7,
+      "conditionalTarget": 146.7,
+      "note": "Mesmo Telca Flex preto, SKU1571531402/EAN7898740530122, vendido por Telca na Leroy: R$146,70 Pix ou R$163 a prazo. Curso da mangueira e compatibilidade de montagem continuam pendentes."
+    },
+    {
+      "id": "H08",
+      "item": "Ducha higiênica quente/fria preta",
+      "baseline": 450.0,
+      "prudent": 450.0,
+      "conditionalTarget": 450.0,
+      "note": "Manter R$450 estimados para conjunto quente/frio preto; modelo ainda não fechado. Não substituir por ducha somente fria por causa do preço."
+    },
+    {
+      "id": "H09",
+      "item": "Acabamentos de registros pretos",
+      "baseline": 350.0,
+      "prudent": 350.0,
+      "conditionalTarget": 350.0,
+      "note": "Manter R$350 estimados, sem SKU/quantidade executiva fechados. Conferir bases entregues e mecanismos antes de escolher acabamentos pretos."
+    },
+    {
+      "id": "H10",
+      "item": "Toalheiros, papeleira e ganchos fixos",
+      "baseline": 350.0,
+      "prudent": 350.0,
+      "conditionalTarget": 350.0,
+      "note": "Manter R$350 estimados para toalheiros, papeleira e ganchos fixos. Sem utensílios soltos; não assumir kit barato de peças/material diferentes."
+    }
+  ],
+  "sources": [
+    {
+      "item": "H01",
+      "url": "https://www.evolveacabamentos.com.br/cuba-de-embutir-tramontina-dora-40-bl-r6-em-aco-inox-acetinado-com-valvula-e-escape-40x34-cm.html",
+      "method": "Página de produto via navegador",
+      "price": 414,
+      "cardPrice": 460,
+      "status": "Oferta candidata condicionada à confirmação de acabamento; título e descrição escovado, código94017113, URL acetinado. Não incluída na provisão prudente.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H02",
+      "url": "https://www.pingoo.casa/torneira-para-cozinha-gourmet-misturador-monocomando-extensivel-em-aco-inox-304-fosco-apurema-preto",
+      "method": "Página consultada via pesquisa web",
+      "price": 288.9,
+      "cardPrice": 304.1,
+      "status": "Mesmo modelo; preço à vista já líquido do desconto.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H03",
+      "url": "https://zeniacabamentos.com.br/cuba-retangular-apoio-40cm-branca-deca-l1304017",
+      "method": "Página de produto via navegador",
+      "publishedPrice": 684.9,
+      "pixDiscountPercent": 5,
+      "calculatedPixPrice": 650.66,
+      "status": "Em estoque. Preço Pix calculado, valor final e frete a confirmar.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H04",
+      "url": "https://www.cassol.com.br/torneira-misturador-monocomando-para-banheiro-de-mesa-bica-alta-1x2polegadas-metal-arion-black-addra/p",
+      "method": "Página de produto via navegador",
+      "price": null,
+      "status": "Produto indisponível, SKU1578386; sem economia incorporada.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H05",
+      "url": "https://www.cassol.com.br/chuveiro-com-desviador-auto-limpante-livo-black-matte-12-addra/p",
+      "method": "Página de produto via navegador",
+      "publishedPrice": 999.9,
+      "status": "SKU2193038, Livo Black Matte com desviador. Confirmar lista completa da embalagem/referência BRS2003-BK; provisão não é liberação de compra.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H05",
+      "url": "https://www.madeiramadeira.com.br/chuveiro-com-desviador-auto-limpante-livo-black-matte-1-2-addra-463244234.html?seller=26609",
+      "method": "Busca indexada e conferência ao vivo no navegador",
+      "indexedPrice": 935.9,
+      "status": "Página ao vivo mostrou Produto esgotado. Preço indexado não adotado.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H04/H05",
+      "url": "https://www.mercadolivre.com.br/loja/addra?category_id=MLB1500&client=recoview-selleritems&item_id=MLB4612735293&official_store_id=303342&recos_listing=true",
+      "method": "Resultado indexado e loja aberta no navegador",
+      "indexedArionWithoutCoupon": 527.33,
+      "indexedLivoCard": 529,
+      "status": "Busca mostrava preços inferiores, mas catálogo ao vivo não confirmou essas duas ofertas. Apenas pista para cotação, não preço vigente nem economia somada.",
+      "consulted": "2026-10-22"
+    },
+    {
+      "item": "H07",
+      "url": "https://www.leroymerlin.com.br/torneira-misturador-lavatorio-flex-monocomando-preto_1571531402",
+      "method": "Página de produto via navegador",
+      "price": 146.7,
+      "cardPrice": 163,
+      "status": "SKU e EAN idênticos ao aprovado; preto; vendido/entregue por Telca. Frete/CEP final não verificados.",
+      "consulted": "2026-10-22"
+    }
+  ],
+  "status": "Análise concluída. Provisão R$5.057,71; cenário proposto R$4.490,26 depende da Dora R$414 com acabamento confirmado, Arion R$640 e Livo completo R$650. Nenhuma contratação ou mudança de modelo/aparência.",
+  "relatorio": "Loucas_e_metais/Analise_loucas_metais.md"
+}

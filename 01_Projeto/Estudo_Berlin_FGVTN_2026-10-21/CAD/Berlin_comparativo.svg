@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1030" viewBox="0 0 1500 1030">
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<style>text{font-family:Arial,sans-serif;fill:#253039}.title{font-size:28px;font-weight:bold}.sub{font-size:16px}.lab{font-size:13px}</style>
+<text x="35" y="44" class="title">Berlin no apartamento — conferência dimensional no FreeCAD</text>
+<text x="35" y="72" class="sub">Contexto extraído da R41 · medidas de projeto · cadeiras com projeção hipotética de 21 cm</text>
+<text x="35" y="112" class="sub">1. Fechada 110 × 80 cm</text>
+<rect x="60.00" y="615.75" width="159.50" height="261.00" fill="#c7c5be" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="197.75" y="144.50" width="87.14" height="108.39" fill="#a7b6bf" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="74.50" y="340.25" width="65.25" height="261.00" fill="#c99e72" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="60.00" y="340.25" width="14.50" height="261.00" fill="#9b7654" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="128.88" y="391.00" width="116.00" height="159.50" fill="#7db2a4" fill-opacity=".40" stroke="#56616a" stroke-width="1.5"/>
+<rect x="162.95" y="434.50" width="47.85" height="72.50" fill="#567b70" fill-opacity=".50" stroke="#56616a" stroke-width="1.5"/>
+<rect x="154.97" y="512.80" width="63.80" height="68.15" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="154.97" y="360.55" width="63.80" height="68.15" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="207.17" y="438.85" width="68.15" height="63.80" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<text x="89.0" y="739.0" class="lab">SOFÁ</text>
+<text x="71.6" y="478.0" class="lab">BANCO</text>
+<text x="209.35" y="199.6" class="lab">IB6</text>
+<text x="35" y="900" class="lab">Tampo–IB6: 95.25 cm</text>
+<text x="35" y="921" class="lab">Cadeira–IB6: 74.25 cm</text>
+<text x="35" y="942" class="lab">Não é passagem livre com pessoa sentada.</text>
+<text x="35" y="963" class="lab">Cadeira–sofá: 24 cm nominais.</text>
+<text x="35" y="984" class="lab">As duas pontas cabem nos envelopes.</text>
+<text x="525" y="112" class="sub">2. Aberta 170 × 80 cm</text>
+<rect x="550.00" y="615.75" width="159.50" height="261.00" fill="#c7c5be" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="687.75" y="144.50" width="87.14" height="108.39" fill="#a7b6bf" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="564.50" y="340.25" width="65.25" height="261.00" fill="#c99e72" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="550.00" y="340.25" width="14.50" height="261.00" fill="#9b7654" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="618.88" y="347.50" width="116.00" height="246.50" fill="#7db2a4" fill-opacity=".40" stroke="#56616a" stroke-width="1.5"/>
+<rect x="652.95" y="434.50" width="47.85" height="72.50" fill="#567b70" fill-opacity=".50" stroke="#56616a" stroke-width="1.5"/>
+<rect x="644.98" y="556.30" width="63.80" height="68.15" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="644.98" y="317.05" width="63.80" height="68.15" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="697.17" y="438.85" width="68.15" height="63.80" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<text x="579.0" y="739.0" class="lab">SOFÁ</text>
+<text x="561.6" y="478.0" class="lab">BANCO</text>
+<text x="699.35" y="199.6" class="lab">IB6</text>
+<text x="525" y="900" class="lab">Tampo–IB6: 65.25 cm</text>
+<text x="525" y="921" class="lab">Cadeira–IB6: 44.25 cm</text>
+<text x="525" y="942" class="lab">Não é passagem livre com pessoa sentada.</text>
+<text x="525" y="963" class="lab">Cadeira sobrepõe o sofá em 6 cm.</text>
+<text x="525" y="984" class="lab">Este arranjo não passa no ensaio de envelopes.</text>
+<text x="1015" y="112" class="sub">3. Aberta: três cadeiras na lateral</text>
+<rect x="1040.00" y="615.75" width="159.50" height="261.00" fill="#c7c5be" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1177.75" y="144.50" width="87.14" height="108.39" fill="#a7b6bf" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1054.50" y="340.25" width="65.25" height="261.00" fill="#c99e72" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1040.00" y="340.25" width="14.50" height="261.00" fill="#9b7654" fill-opacity="1" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1108.88" y="347.50" width="116.00" height="246.50" fill="#7db2a4" fill-opacity=".40" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1142.95" y="434.50" width="47.85" height="72.50" fill="#567b70" fill-opacity=".50" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1187.17" y="521.02" width="68.15" height="63.80" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1187.17" y="438.85" width="68.15" height="63.80" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<rect x="1187.17" y="356.68" width="68.15" height="63.80" fill="#e9b66c" fill-opacity=".65" stroke="#56616a" stroke-width="1.5"/>
+<text x="1069.0" y="739.0" class="lab">SOFÁ</text>
+<text x="1051.6" y="478.0" class="lab">BANCO</text>
+<text x="1189.35" y="199.6" class="lab">IB6</text>
+<text x="1015" y="900" class="lab">Tampo–IB6: 65.25 cm</text>
+<text x="1015" y="921" class="lab">Cadeira–IB6: 71.58 cm</text>
+<text x="1015" y="942" class="lab">Não é passagem livre com pessoa sentada.</text>
+<text x="1015" y="963" class="lab">Sem sobreposição cadeira–sofá neste cenário.</text>
+<text x="1015" y="984" class="lab">12,67 cm entre cadeiras; sem pessoas no ensaio.</text>
+<text x="35" y="1018" class="lab">Não representa ferragem, estrutura ou vão inferior da Berlin. Testar cadeira, banco e abertura reais antes da compra.</text>
+</svg>

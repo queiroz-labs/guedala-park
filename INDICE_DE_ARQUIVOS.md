@@ -1,3 +1,13 @@
+> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+
+# Referências vigentes — 21/10/2026
+
+[Resumo](01_Projeto/Resumo.md) · [Painel de pendências](01_Projeto/Painel_de_decisoes.md) · [Complemento de orçamento R41](01_Projeto/Complemento_orcamento_vigente_R41.md) · [Conferência de campo](04_Visita_ao_apartamento/Complemento_conferencia_R41.md). R41 mantida; o catálogo abaixo inclui documentos históricos.
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Catálogo dos arquivos do projeto
 
 [Voltar ao início](README.md)

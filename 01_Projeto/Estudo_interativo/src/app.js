@@ -1,14 +1,17 @@
 'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
-const WARDROBE_IMAGE='/*WARDROBE*/';
 const DETAILS_IMAGES=globalThis.GUEDALA_DETAILS||{};
 const state={bench:'closed',lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
 const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
 function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
-let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,nodeSequence={},motion=null;
+let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,renderDirty=false,nodeSequence={},motion=null;
+let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
+const WORLD_SCENES=new WeakMap();
+function moveCamera(){cameraMoving=true;clearTimeout(cameraSettleTimer);cameraSettleTimer=setTimeout(()=>{cameraMoving=false;requestRender();},180);}
+function sceneStateKey(){const {angle,tilt,zoom,pan,selected,measures,...geometry}=state;return JSON.stringify(geometry);}
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 function transitionState(key,value){
   const from=new Map(nodes.map(n=>[n.key,{...n}]));state[key]=value;
@@ -62,7 +65,8 @@ function buildScene(){nodes=[];nodeSequence={};
   if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
   for(const[r,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]]){add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
   // Original doors, graphic envelopes only. Cutaway leaves keep furniture visible.
-  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',655,698,85,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
+  // Entrance leaf matches the reconstructed right-wall opening z=615..690; not an official width.
+  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',665,688,75,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
   // Sala: narrow TV wall, current Bonnie, no obsolete detachable chaise.
   const open=state.sofa!=='closed',sd=open?136:110,sx=740-state.sofaGap-sd;
   slab('bonnie','sala',sx,185,sd,180,9,29,'beige',5);
@@ -110,7 +114,7 @@ function buildScene(){nodes=[];nodeSequence={};
   // Straight L joins the existing upper storage, without stacking another cabinet.
   upper('bedcabinet','quarto',0,110,25,225,205,35,'wood','z',4);
   if(!state.inside)upper('bedcabinet','quarto',0,333.2,200,1.8,215,25,'wood','x',2);
-  add('ledges','quarto',hx+3,120,15,20,69,2,'wood');add('ledges','quarto',hx+3,260,15,20,69,2,'wood');
+  
   // Escritório. Global origin [255,0], same local coordinates as R07.
   slab('desk','escritorio',270,0,200,70,72,3,'wood',1);
   add('drawers','escritorio',270,25,40,45,48,24,'wood');add('drawers','escritorio',270,69.8,40,.4,59.5,.5,'black');
@@ -216,7 +220,7 @@ function buildScene(){nodes=[];nodeSequence={};
 
 // Mesh generation: actual 3D coordinates; orthographic camera with orbit and elevations.
 function ring(w,d,r=0,end=null){r=Math.min(r,w/2,d/2);if(!r)return [[0,0],[w,0],[w,d],[0,d]];let a=[];for(const[cx,cz,start,side]of [[w-r,r,-Math.PI/2,'near'],[w-r,d-r,0,'far'],[r,d-r,Math.PI/2,'far'],[r,r,Math.PI,'near']]){if(end&&side!==end){a.push([cx>w/2?w:0,side==='near'?0:d]);continue;}for(let i=0;i<=5;i++){const q=start+i*Math.PI/10;a.push([cx+r*Math.cos(q),cz+r*Math.sin(q)]);}}return a;}
-function mesh(n){if(n.kind==='cad')return cadMesh(n);const out=[];
+function mesh(n,interactive=false){if(n.kind==='cad')return cadMesh(n,interactive);const out=[];
   function extrude(x,z,w,d,y,h,c,r=0,alpha=1,end=null){let p=ring(w,d,r,end),bottom=p.map(([a,b])=>[x+a,y,z+b]),top=p.map(([a,b])=>[x+a,y+h,z+b]);out.push({p:top,c,alpha,normal:[0,1,0]},{p:bottom,c,alpha,normal:[0,-1,0]});for(let i=0;i<p.length;i++){let j=(i+1)%p.length,dx=p[j][0]-p[i][0],dz=p[j][1]-p[i][1],l=Math.hypot(dx,dz)||1;out.push({p:[bottom[i],bottom[j],top[j],top[i]],c,alpha,normal:[dz/l,0,-dx/l]});}}
   const {x,z,w,d,y,h,c,kind}=n;
   if(kind==='chair'){
@@ -256,13 +260,17 @@ function mesh(n){if(n.kind==='cad')return cadMesh(n);const out=[];
 function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t=st.tilt;
   if(st.view==='top')t=Math.PI/2,a=0;
   if(st.view==='side'){t=0;a={east:-Math.PI/2,west:Math.PI/2,south:0,north:Math.PI}[st.side];}
-  const raw=p=>{let X=(p[0]-(xmin+xmax)/2)*(PROJECT.mirrored?-1:1),Z=p[2]-(zmin+zmax)/2,Y=p[1],u=X*Math.cos(a)+Z*Math.sin(a),v=-X*Math.sin(a)+Z*Math.cos(a);return[u,v*Math.sin(t)-Y*Math.cos(t),v*Math.cos(t)+Y*Math.sin(t)];};
+  const ca=Math.cos(a),sa=Math.sin(a),ct=Math.cos(t),stilt=Math.sin(t),mx=(xmin+xmax)/2,mz=(zmin+zmax)/2,mirror=PROJECT.mirrored?-1:1;
+  const raw=p=>{let X=(p[0]-mx)*mirror,Z=p[2]-mz,Y=p[1],u=X*ca+Z*sa,v=-X*sa+Z*ca;return[u,v*stilt-Y*ct,v*ct+Y*stilt];};
   let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[0,st.view==='top'?0:(st.ymax||247)])q.push(raw([x,y,z]));
   let minx=Math.min(...q.map(p=>p[0])),maxx=Math.max(...q.map(p=>p[0])),miny=Math.min(...q.map(p=>p[1])),maxy=Math.max(...q.map(p=>p[1]));
   let pad=w<500?28:45,spaceTop=st.mini?12:78,spaceBottom=st.mini?12:52;
   const scale=Math.min((w-pad*2)/(maxx-minx||1),(h-spaceTop-spaceBottom)/(maxy-miny||1))*st.zoom;
   const cx=w/2-(minx+maxx)/2*scale+st.pan[0],cy=spaceTop+(h-spaceTop-spaceBottom)/2-(miny+maxy)/2*scale+st.pan[1];
-  return{project:p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];},raw,scale};
+  const project=p=>{const q=raw(p);return[cx+q[0]*scale,cy+q[1]*scale,q[2]];};
+  const clip=p=>{const q=project(p);return[q[0]/w*2-1,1-q[1]/h*2,-q[2]/4096];},origin=clip([0,0,0]),basis=[[1,0,0],[0,1,0],[0,0,1]].map(p=>clip(p).map((v,i)=>v-origin[i]));
+  const matrix=new Float32Array([...basis[0],0,...basis[1],0,...basis[2],0,...origin,1]);
+  return{project,raw,scale,matrix};
 }
 function visible(n,st){return(st.room==='all'||n.room===st.room||n.sharedRooms?.includes(st.room))&&(!n.upper||st.upper)&&(st.view!=='side'||n.kind!=='wall'||st.walls);}
 // Only upward floor faces receive a finish; furniture using the same palette stays unchanged.
@@ -294,33 +302,43 @@ function drawFloorFallback(ctx,f,project){
   // Restore the face outline for selection after the decorative paths.
   ctx.beginPath();f.points.forEach((p,i)=>{if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();
 }
-function render(canvas,st=state,mini=false,selectionOnly=null){if(!canvas)return;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const ratio=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*ratio);canvas.height=Math.round(h*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
-  let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=nodes.filter(n=>visible(n,st));let bounds=room.bounds;
+async function render(canvas,st=state,mini=false,selectionOnly=null,sceneNodes=nodes){if(!canvas||window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;st={...st,pan:[...st.pan]};const ticket=(canvas._renderTicket||0)+1;canvas._renderTicket=ticket;let rect=canvas.getBoundingClientRect(),w=rect.width||canvas.width||800,h=rect.height||canvas.height||500;const interactive=canvas.id==='scene'&&(cameraMoving||!!motion),ratio=Math.min(window.devicePixelRatio||1,2);const pw=Math.round(w*ratio),ph=Math.round(h*ratio);if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;const ctx=canvas.getContext('2d');
+  let room=PROJECT.rooms.find(r=>r.id===st.room)||PROJECT.rooms[0];let list=sceneNodes.filter(n=>visible(n,st));let bounds=room.bounds;
+  if(st.moduleFilter&&list.length){bounds=[Math.min(...list.map(n=>n.x))-8,Math.min(...list.map(n=>n.z))-8,Math.max(...list.map(n=>n.x+n.w))+8,Math.max(...list.map(n=>n.z+n.d))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base}));st={...st,ymax:Math.max(...list.map(n=>n.y+n.h))};}
   if(st.room!=='all')list=list.map(n=>{if(n.id)return n;const x=Math.max(n.x,bounds[0]),z=Math.max(n.z,bounds[1]),w=Math.min(n.x+n.w,bounds[2])-x,d=Math.min(n.z+n.d,bounds[3])-z;return {...n,x,z,w,d};}).filter(n=>n.w>0&&n.d>0);
-  if(st.view==='side'&&st.sideCut&&!selectionOnly){const midx=(bounds[0]+bounds[2])/2,midz=(bounds[1]+bounds[3])/2;list=list.filter(n=>!n.id||(st.side==='east'?n.x+n.w>=midx:st.side==='west'?n.x<=midx:st.side==='south'?n.z+n.d>=midz:n.z<=midz));}
-  if(selectionOnly){list=nodes.filter(n=>n.id===selectionOnly&&(n.opacity??1)>.01);if(!list.length)return;const vertices=list.flatMap(n=>mesh(n).flatMap(f=>f.p));bounds=[Math.min(...vertices.map(p=>p[0]))-8,Math.min(...vertices.map(p=>p[2]))-8,Math.max(...vertices.map(p=>p[0]))+8,Math.max(...vertices.map(p=>p[2]))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base,pivot:n.pivot?[n.pivot[0],n.pivot[1]-base,n.pivot[2]]:undefined}));}
+  if(st.view==='side'&&st.sideCut&&!selectionOnly&&!st.moduleFilter){const midx=(bounds[0]+bounds[2])/2,midz=(bounds[1]+bounds[3])/2;list=list.filter(n=>!n.id||(st.side==='east'?n.x+n.w>=midx:st.side==='west'?n.x<=midx:st.side==='south'?n.z+n.d>=midz:n.z<=midz));}
+  if(selectionOnly){list=sceneNodes.filter(n=>n.id===selectionOnly&&(n.opacity??1)>.01);if(!list.length)return;const vertices=list.flatMap(n=>mesh(n).flatMap(f=>f.p));bounds=[Math.min(...vertices.map(p=>p[0]))-8,Math.min(...vertices.map(p=>p[2]))-8,Math.max(...vertices.map(p=>p[0]))+8,Math.max(...vertices.map(p=>p[2]))+8];const base=Math.min(...list.map(n=>n.y));list=list.map(n=>({...n,y:n.y-base,pivot:n.pivot?[n.pivot[0],n.pivot[1]-base,n.pivot[2]]:undefined}));}
   const view={...st,mini,...(selectionOnly?{ymax:Math.max(...list.map(n=>n.y+n.h))}: {})},cam=camera(view,w,h,bounds),project=cam.project;let fs=[];
-  for(const n of list){for(const f of mesh(n)){let p=f.p.map(project),depth=p.reduce((s,p)=>s+p[2],0)/p.length;fs.push({...f,points:p,depth});}}
-  fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);
-  const main=canvas.id==='scene';if(main){hitFaces=[];lastProject=cam;}
+  const worldKey=JSON.stringify([st.room,st.view==='side'?st.side:null,st.sideCut,st.moduleFilter,st.upper,st.walls,selectionOnly]);
+  let cached=WORLD_SCENES.get(canvas);
+  if(!cached||cached.nodes!==sceneNodes||cached.key!==worldKey){
+    const faces=[],groups=[];let sliceStart=performance.now();
+    for(const n of list){const part=mesh(n,false),min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const f of part){faces.push(f);for(const p of f.p)for(let k=0;k<3;k++){min[k]=Math.min(min[k],p[k]);max[k]=Math.max(max[k],p[k]);}}groups.push({faces:part,min,max});if(performance.now()-sliceStart>8){await yieldToBrowser();sliceStart=performance.now();if(canvas._renderTicket!==ticket)return;}}
+    faces.pickGroups=groups;cached={nodes:sceneNodes,key:worldKey,faces};WORLD_SCENES.set(canvas,cached);
+  }
+  const worldFaces=cached.faces,main=canvas.id==='scene';if(main){hitFaces=worldFaces;lastProject=cam;}
   const enhanced=!mini&&!selectionOnly&&enhancedLighting(st);
   if(main)syncLightingControls();
-  const depthOK=renderDepth(ctx,fs,w,h,ratio,main?st.selected:null,enhanced);
-  if(main){hitFaces=fs;canvas.dataset.renderer=depthOK?'depth':'simplified';}
+  const edgeSelection=main?st.selected:st.outlineSelection||null;
+  await prepareWorldDepth(worldFaces,edgeSelection,enhanced);if(canvas._renderTicket!==ticket)return;
+  ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);ctx.fillStyle='#eeece3';ctx.fillRect(0,0,w,h);
+  const depthOK=renderWorldDepth(ctx,worldFaces,cam,w,h,ratio,edgeSelection,enhanced);
+  if(main){canvas.dataset.renderer=depthOK?'depth':'simplified';canvas.dataset.quality='detail';canvas.dataset.faces=String(worldFaces.length);canvas.dataset.cameraPath=depthOK?'gpu-matrix':'cpu-fallback';}
+  if(!depthOK){fs=worldFaces.map(f=>{const points=f.p.map(project);return {...f,points,depth:points.reduce((s,p)=>s+p[2],0)/points.length,_mesh:f};});fs.sort((a,b)=>(a.node.kind==='floor'?0:1)-(b.node.kind==='floor'?0:1)||a.depth-b.depth);if(main)hitFaces=fs;}
   if(!depthOK)for(const f of fs){const p=f.points;ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);for(let i=1;i<p.length;i++)ctx.lineTo(p[i][0],p[i][1]);ctx.closePath();ctx.globalAlpha=f.alpha;ctx.fillStyle='#'+faceLighting(f,enhanced).map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');ctx.fill();
     if(floorStyle(f))drawFloorFallback(ctx,f,project);
     else{if(f.edgeMask){ctx.beginPath();p.forEach((v,i)=>{if(f.edgeMask[i]){ctx.moveTo(v[0],v[1]);ctx.lineTo(p[(i+1)%p.length][0],p[(i+1)%p.length][1]);}});}ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
-  if(main)canvas.dataset.rendered='true';
+  if(main){if(!canvas.dataset.rendered)performance.mark('guedala-model-ready');canvas.dataset.rendered='true';document.getElementById('sceneLoading')?.setAttribute('hidden','');}
 }
 function label(ctx,x,y,text,fill='#203d3b',size=11,bg=true){ctx.font=`600 ${size}px Segoe UI,Arial`;let m=ctx.measureText(text);if(bg){ctx.fillStyle='#fffff3ed';ctx.fillRect(x-m.width/2-5,y-size-3,m.width+10,size+8);}ctx.fillStyle=fill;ctx.textAlign='center';ctx.fillText(text,x,y);}
 function dimension(ctx,project,a,b,text){let p=project(a),q=project(b),dx=q[0]-p[0],dy=q[1]-p[1],len=Math.hypot(dx,dy);if(len<12)return;let nx=-dy/len*4,ny=dx/len*4;ctx.strokeStyle='#406952';ctx.lineWidth=1.3;ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);for(const r of[p,q]){ctx.moveTo(r[0]-nx,r[1]-ny);ctx.lineTo(r[0]+nx,r[1]+ny);}ctx.stroke();label(ctx,(p[0]+q[0])/2,(p[1]+q[1])/2-6,text,'#295e44',11);}
 function drawAnnotations(ctx,pr,cam,w,h,st){
   if(st.room==='all'&&st.view==='top'){for(const[r,x,z]of [['quarto',125,305],['escritorio',388,175],['sala',565,330],['cozinha',688,570],['banho',379,445],['lavanderia',320,568]]){const p=pr([x,2,z]);label(ctx,p[0],p[1],PROJECT.rooms.find(q=>q.id===r).name.toUpperCase(),'#384d46',w<500?8:10);}}
   if(st.view==='top'){
-    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,700,85,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
+    ctx.strokeStyle='#9b7652';ctx.lineWidth=1;ctx.setLineDash([3,3]);for(const [r,x,z,radius,start,end]of [['quarto',365,390,75,Math.PI,Math.PI*1.5],['escritorio',475,295,75,Math.PI,Math.PI*1.5],['cozinha',740,690,75,Math.PI,Math.PI*1.5],['banho',455,405,70,Math.PI/2,Math.PI]]){if(st.room!=='all'&&st.room!==r)continue;ctx.beginPath();for(let i=0;i<=32;i++){let a=start+(end-start)*i/32,p=pr([x+radius*Math.cos(a),2,z+radius*Math.sin(a)]);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.setLineDash([]);
   }
   if(st.measures&&st.view!=='side'){
     if(st.room==='sala'||st.room==='all'){const depth=st.sofa==='closed'?110:136,gap=245-depth-st.rackDepth-st.sofaGap,dc=diningClearance(st);dimension(ctx,pr,[495+st.rackDepth,2,268],[740-depth-st.sofaGap,2,268],gap+' cm*');if(st.room==='sala')dimension(ctx,pr,[705,2,dc.start],[705,2,dc.end],dc.length+' cm · mesa');}
@@ -340,7 +358,6 @@ function activeRoom(o){if(o.id==='ps5')return state.console;if(o.id==='airfryer'
 function roomItems(room=state.room){return ITEMS.filter(o=>room==='all'||activeRoom(o)===room);}
 function selectItem(id,open=true){let it=ITEMS.find(o=>o.id===id);if(!it)return;state.selected=id;
   $('selectedInfo').innerHTML=`<h2>${esc(it.name)}</h2><span class="badge ${chosen(it)?'':'study'}">${esc(it.choice)}</span><span class="badge ${needsCheck(it)?'study':''}">${esc(it.measure)}</span><canvas id="itemPreview" class="item-preview" aria-label="Volume ilustrativo do móvel selecionado"></canvas><div class="dimensions">${esc(it.dimensions)}</div><dl><dt>Material / cor</dt><dd>${esc(MAT[it.material]?.name||it.material)}</dd>${it.budget?'<dt>Orçamento registrado</dt><dd>'+esc(it.budget)+'</dd>':''}<dt>Conferir antes de executar</dt><dd>${esc(it.notes)}</dd></dl><h3>Origem da decisão</h3><p>${esc(it.source)}</p>`;
-  if(id==='wardrobe')$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Programa de guarda e medidas atuais</summary><a href="${WARDROBE_IMAGE}" target="_blank" rel="noopener"><img src="${WARDROBE_IMAGE}" alt="Programa do roupeiro com profundidade65, aéreos alinhados, quatro gavetas e dez pares de tênis" style="width:100%;height:auto"></a><p>Esquema funcional. Os painéis do desenho3D vêm da revisão FreeCADR31; medidas reais e ferragens continuam a conferir.</p></details>`);
   if(DETAILS_IMAGES[id])$('selectedInfo').insertAdjacentHTML('beforeend',`<details class="ward-detail"><summary>Ver o detalhamento atualizado</summary><a href="${DETAILS_IMAGES[id]}" target="_blank" rel="noopener"><img src="${DETAILS_IMAGES[id]}" alt="Detalhamento de estudo de ${esc(it.name)}, com limites de execução" style="width:100%;height:auto"></a><p>Proposta para conferência e cotação. Não libera fabricação.</p></details>`);
   if(INTERNALS[id]){$('selectedInfo').insertAdjacentHTML('beforeend','<button id="itemStorage" class="storage-link">Ver organização interna →</button>');$('itemStorage').onclick=()=>openStorage(id);}
   if(open){infoReturnTarget=document.activeElement;$('inspector').classList.add('open');if(matchMedia('(max-width:1150px)').matches){$('inspector').setAttribute('role','dialog');$('inspector').setAttribute('aria-modal','true');$('closeInfo').focus({preventScroll:true});}else $('inspector').scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'nearest'});}drawLists();requestRender();setTimeout(()=>render($('itemPreview'),{...state,room:'all',view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true,selected:null},true,id),0);
@@ -359,64 +376,91 @@ function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-st
   $('metrics').innerHTML=list.map(m=>`<div class="metric ${m.warn?'warning':''}"><b>${m.value}</b><span>${m.title}</span><small>${m.note}</small></div>`).join('');
   $('gapValue').textContent=state.sofaGap+' cm';$('rackValue').textContent=state.rackDepth+' cm';$('headValue').textContent=state.headDepth+' cm';
 }
-function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(now=>{renderQueued=false;const moving=!!motion;buildScene();sampleMotion(now);if($('model').classList.contains('active'))render($('scene'));if(moving&&!motion&&state.selected)render($('itemPreview'),{...state,view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true},true,state.selected);if(motion)requestRender();});}
-function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
-function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood')renderMood();if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
-function materialStyle(m){return`background-color:${m.color}`;}
-function storageDiagram(id){
- const kind=INTERNALS[id].diagram;
- if(kind==='wardrobe')return `<img class="storage-plan" src="${WARDROBE_IMAGE}" alt="Interior aprovado R02 do guarda-roupa, com dois lados iguais, quatro gavetas e espaços para cabides e tênis">`;
- if(kind==='kitchen'){
-  const modules=[['D','Depurador',65,197.6,[],true],['C','Pia',54.7,155,[174.8,195.8,223.4],false],['B','Micro-ondas',69.7,194,[223.4],false],['A','Geladeira',80.1,198.4,[],true]];
-  return `<div class="storage-schematic" role="img" aria-label="Aéreos vistos de frente: D e A divididos verticalmente; C com quatro níveis e B com dois. Cotas preliminares."><div class="kitchen-elevation">${modules.map(([letter,name,width,base,shelves,vertical])=>`<div class="elevation-module" style="flex:${width};height:${(255-base)*2}px"><div class="module-box">${vertical?'<i class="vertical-divider"></i>':''}${shelves.map(y=>`<i class="horizontal-divider" style="bottom:${(y-base)/(255-base)*100}%"></i>`).join('')}<strong>${letter}</strong></div><span>${name}<small>${String(width).replace('.',',')} cm</small></span></div>`).join('')}</div><p>Vista frontal · divisões aprovadas · larguras externas de estudo</p></div>`;
- }
- const levels=kind==='sink'?['Panelas: duas pilhas de pequena + média','Pressão 3 L · tampas · frigideira · tábuas · escorredor']:kind==='drawers'?['G1 · 16 cm · Talheres e facas','G2 · 16 cm · Utensílios de preparo','G3 · 40 cm · Mantimentos, bebidas e temperos em pé']:null;
- return levels?`<div class="storage-levels" role="img" aria-label="Organização de cima para baixo">${levels.map((s,i)=>`<div><span>${i+1}</span>${s}</div>`).join('')}</div><p class="diagram-caption">Esquema de organização; não representa o tamanho dos utensílios.</p>`:'';
+function requestRender(){
+ if(window.GUEDALA_WEB&&!window.GUEDALA_WEB.geometryReady)return;
+ if(renderQueued){renderDirty=true;return;}renderQueued=true;
+ requestAnimationFrame(async now=>{
+  try{const moving=!!motion,key=sceneStateKey();if(moving||key!==lastSceneState){buildScene();lastSceneState=key;}sampleMotion(now);
+   if($('model').classList.contains('active'))await render($('scene'));
+   if(moving&&!motion&&state.selected)await render($('itemPreview'),{...state,view:'iso',angle:-.7,tilt:.7,zoom:1,pan:[0,0],upper:true},true,state.selected);
+  }finally{renderQueued=false;if(renderDirty||motion){renderDirty=false;requestRender();}}
+ });
 }
+function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
+function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood'){buildMood();renderMood();}if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
+function materialStyle(m){return`background-color:${m.color}`;}
+const STORAGE_MODULES={kitchenupper:['P09','P10','P11','P12'],sinkstorage:['P05'],kitchenbase:['P06'],lowdrawer:['P08'],wardrobe:['P01'],bedcabinet:['P02','P03','P04'],laundrybase:['P14'],laundryupper:['P15'],officecab:['P17'],drawers:['P16'],bathvanity:['P18'],bathmirror:['P19']};
+function storageModel(id){
+ const modules=STORAGE_MODULES[id]||[],st={...state,inside:true,upper:true,moduleFilter:null,focusPart:null};
+ return applyCadSync([],st).filter(n=>modules.includes(n.module));
+}
+function storageDiagram(id){
+ return `<div class="storage-view-controls" role="group" aria-label="Vista do interior"><button type="button" data-storage-view="front" aria-pressed="${id!=='bedcabinet'}">Frente</button><button type="button" data-storage-view="perspective" aria-pressed="${id==='bedcabinet'}">Perspectiva</button></div><div class="storage-preview-wrap"><canvas id="storagePreview" role="img" aria-label="Interior atual: ${esc(INTERNALS[id].title)}"></canvas><p id="storagePreviewStatus" role="status">Carregando interior…</p></div><p class="diagram-caption">Interior do modelo R45 · ${esc((STORAGE_MODULES[id]||[]).join(' · '))} · frentes ocultas para consulta</p>`;
+}
+async function renderStoragePreview(id,mode){
+ const canvas=$('storagePreview'),status=$('storagePreviewStatus');if(!canvas||!INTERNALS[id])return;
+ mode=mode||canvas.dataset.mode||(id==='bedcabinet'?'perspective':'front');canvas.dataset.mode=mode;
+ if(window.GUEDALA_WEB&&!GUEDALA_WEB.geometryReady)return;
+ const list=storageModel(id),room=ITEMS.find(i=>i.id===id).room;
+ const front=id==='officecab'?-Math.PI/2:Math.PI,angle=mode==='front'?front:id==='bedcabinet'?-3*Math.PI/4:front+.3;
+ const st={...state,room,view:'iso',sideCut:false,angle,tilt:mode==='front'?0:.35,zoom:1,pan:[0,0],inside:true,upper:true,walls:false,selected:null,moduleFilter:'storage/'+id,focusPart:null,outlineSelection:id};
+ status.hidden=false;status.textContent='Preparando interior…';
+ await render(canvas,st,true,null,list);
+ if(canvas!==$('storagePreview'))return;
+ canvas.dataset.storageId=id;canvas.dataset.partCount=String(list.length);canvas.dataset.ready='true';status.hidden=true;
+}
+
 function showStorage(id){
  const data=INTERNALS[id];if(!data)return;
  $('storageSelect').value=id;
  $('storageContent').innerHTML=`<h3>${esc(data.title)}</h3><span class="badge study">${esc(data.status)}</span>${storageDiagram(id)}<dl class="storage-details">${data.rows.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl><p class="storage-note">${esc(data.note)}</p><button id="storageInScene">Ver este armário no 3D</button>`;
+ $('storageContent').querySelectorAll('[data-storage-view]').forEach(button=>button.onclick=()=>{const mode=button.dataset.storageView;$('storageContent').querySelectorAll('[data-storage-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderStoragePreview(id,mode);});
+ requestAnimationFrame(()=>renderStoragePreview(id));
  $('storageInScene').onclick=()=>{$('storageDialog').close();tab('model');setRoom(ITEMS.find(o=>o.id===id).room);state.inside=true;state.upper=true;$('insideToggle').checked=true;$('upperToggle').checked=true;selectItem(id,false);requestRender();};
 }
 function openStorage(id){
  id=INTERNALS[id]?id:Object.keys(INTERNALS).find(key=>ITEMS.find(o=>o.id===key)?.room===state.room)||'kitchenupper';
  showStorage(id);if(!$('storageDialog').open)$('storageDialog').showModal();
 }
-function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','mirror','headboard','bedcabinet','ledges'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','sinkstorage','lowdrawer','kitchenupper','fridge','sink','filter','dishrack','pressurecooker','trash','cooktop','oven','microwave','hood','kitchenfinish','tower','kitchenlight','counterlight'],lavanderia:['washer','laundrybase','recycling','airfryer','coffeemaker','laundryupper','drying','heater','laundrybasket','laundrypower','laundrylight','laundryfinish'],banho:['bathvanity','basin','bath tap','bathmirror','bathlight','toilet','shower','bath shelf','hygiene','hotwater','bathfinish']};
+function buildMood(){let highlights={sala:['bonnie','table','bench','diningchairs','racks','tv50'],quarto:['queen','wardrobe','mirror','headboard','bedcabinet'],escritorio:['daiane','desk','officecab','officeshelf','drawers','officechair'],cozinha:['kitchenbase','sinkstorage','lowdrawer','kitchenupper','fridge','sink','filter','dishrack','pressurecooker','trash','cooktop','oven','microwave','hood','kitchenfinish','tower','kitchenlight','counterlight'],lavanderia:['washer','laundrybase','recycling','airfryer','coffeemaker','laundryupper','drying','heater','laundrybasket','laundrypower','laundrylight','laundryfinish'],banho:['bathvanity','basin','bath tap','bathmirror','bathlight','toilet','shower','bath shelf','hygiene','hotwater','bathfinish']};
   $('moodRooms').innerHTML=PROJECT.rooms.filter(r=>r.id!=='all').map(r=>`<article class="mood-room"><canvas id="mood-${r.id}" aria-label="Volumetria proporcional: ${esc(r.name)}"></canvas><div class="content"><span class="eyebrow">${r.id==='quarto'?'NEUTROS · SEM TV · SEM AZUL':r.id==='escritorio'?'TRABALHO + HÓSPEDES':'PALETA E MOBILIÁRIO'}</span><h2>${esc(r.name)}</h2><div class="mini-palette">${PROJECT.materials.filter(m=>m.rooms.includes(r.id)&&m.id!=='altblue').slice(0,6).map(m=>`<i style="background:${m.color}" title="${esc(m.name)}"></i>`).join('')}</div><ul>${highlights[r.id].map(id=>{let o=ITEMS.find(o=>o.id===id);return`<li><strong>${esc(o.name)}</strong><span>${esc(o.dimensions)}<br><small>${esc(o.measure)}</small></span></li>`;}).join('')}</ul><p style="margin-top:14px">${esc(ROOM_NOTES[r.id])}</p><button data-explore="${r.id}">Explorar este ambiente</button></div></article>`).join('');
   $('materials').innerHTML=PROJECT.materials.map(m=>`<article class="material"><div class="swatch ${m.type}" style="${materialStyle(m)}"></div><div class="body"><strong>${esc(m.name)}</strong><span class="badge ${m.status==='Alternativa'?'study':''}">${esc(m.status)}</span><p>${esc(m.note)}</p></div></article>`).join('');
   document.querySelectorAll('[data-explore]').forEach(b=>b.onclick=()=>{setRoom(b.dataset.explore);tab('model');});
 }
-function renderMood(){buildScene();requestAnimationFrame(()=>{for(const r of PROJECT.rooms.filter(r=>r.id!=='all'))render($('mood-'+r.id),{...state,room:r.id,view:'iso',angle:({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[r.id]??-.7,tilt:.92,zoom:1,pan:[0,0],upper:true,selected:null},true);});}
+function renderMood(){buildScene();requestAnimationFrame(async()=>{for(const r of PROJECT.rooms.filter(r=>r.id!=='all'))await render($('mood-'+r.id),{...state,room:r.id,view:'iso',angle:({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[r.id]??-.7,tilt:.92,zoom:1,pan:[0,0],upper:true,selected:null},true);});}
 function renderDecisions(){const room=$('filterRoom').value,filter=$('filterStatus').value;let list=ITEMS.filter(o=>(room==='all'||o.room===room)&&(filter==='all'||filter==='chosen'&&chosen(o)||filter==='pending'&&needsCheck(o)));
   $('decisionCards').innerHTML=list.map(o=>`<article class="decision-card ${needsCheck(o)?'pending':''}"><span class="source-label">${esc(PROJECT.rooms.find(r=>r.id===o.room)?.name)} · ${esc(o.source)}</span><h3>${esc(o.name)}</h3><span class="badge ${chosen(o)?'':'study'}">${esc(o.choice)}</span><span class="badge ${needsCheck(o)?'study':''}">${esc(o.measure)}</span><p class="dimensions">${esc(o.dimensions)}</p><p><strong>Material:</strong> ${esc(MAT[o.material]?.name||o.material)}</p><p>${esc(o.notes)}</p>${o.budget?'<p><strong>'+esc(o.budget)+'</strong></p>':''}${INTERNALS[o.id]?'<button data-storage="'+o.id+'" class="storage-link">Ver organização interna →</button>':''}</article>`).join('');
   $('decisionCards').querySelectorAll('[data-storage]').forEach(b=>b.onclick=()=>openStorage(b.dataset.storage));
 }
 function download(blob,name){let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);}
-function saveHTML(){// Keep the initial executable document, not transient DOM/canvas state.
+function saveHTML(){if(window.GUEDALA_WEB){const a=document.createElement('a');a.href=new URL(window.GUEDALA_WEB.offlineUrl,document.baseURI);a.download='Guedala_Park_Interativo.html';a.click();return;}// Keep the initial executable document, not transient DOM/canvas state.
   const copy=document.documentElement.cloneNode(true);copy.querySelectorAll('canvas').forEach(c=>{c.width=300;c.height=150;});copy.querySelectorAll('dialog').forEach(d=>d.removeAttribute('open'));copy.querySelectorAll('.inspector').forEach(e=>e.classList.remove('open'));download(new Blob(['<!doctype html>\n'+copy.outerHTML],{type:'text/html;charset=utf-8'}),'Guedala_Park_Interativo.html');toast('HTML salvo. Abra a cópia no navegador do computador ou celular.');}
 // Pointer gestures: drag orbit, shift/right-drag pan, pinch zoom, keyboard alternatives.
 const canvas=$('scene'),pointers=new Map();let lastPoint=null,down=null,pinchDistance=0;
 canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});lastPoint={x:e.clientX,y:e.clientY};down={x:e.clientX,y:e.clientY,moved:false};if(pointers.size===2){let p=[...pointers.values()];pinchDistance=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);}});
-canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=lastPoint;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size>=2){let p=[...pointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);if(pinchDistance>1)state.zoom=Math.max(.45,Math.min(5,state.zoom*dist/pinchDistance));pinchDistance=dist;if(down)down.moved=true;}else if(prev){let dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)down.moved=true;if(state.view==='iso'&&!e.shiftKey&&e.buttons!==2){state.angle+=dx*.008;state.tilt=Math.max(.16,Math.min(1.42,state.tilt-dy*.006));}else{state.pan[0]+=dx;state.pan[1]+=dy;}}lastPoint={x:e.clientX,y:e.clientY};requestRender();});
+canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=lastPoint;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size>=2){let p=[...pointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);if(pinchDistance>1)state.zoom=Math.max(.45,Math.min(5,state.zoom*dist/pinchDistance));pinchDistance=dist;if(down)down.moved=true;}else if(prev){let dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)down.moved=true;if(state.view==='iso'&&!e.shiftKey&&e.buttons!==2){state.angle+=dx*.008;state.tilt=Math.max(.16,Math.min(1.42,state.tilt-dy*.006));}else{state.pan[0]+=dx;state.pan[1]+=dy;}}lastPoint={x:e.clientX,y:e.clientY};moveCamera();requestRender();});
 function pickFace(x,y,faces){
- let best=null,depth=-Infinity;
- for(const f of faces){if((f.alpha??1)<.5)continue;const p=f.points;
+ let best=null,depth=-Infinity,candidates=faces;
+ // Project only on a click. Conservative projected group bounds skip unrelated
+ // objects, while exact triangles still decide the hit and occlusion.
+ if(faces.pickGroups&&lastProject){candidates=[];for(const group of faces.pickGroups){let xmin=Infinity,ymin=Infinity,xmax=-Infinity,ymax=-Infinity;for(const a of [group.min[0],group.max[0]])for(const b of [group.min[1],group.max[1]])for(const c of [group.min[2],group.max[2]]){const p=lastProject.project([a,b,c]);xmin=Math.min(xmin,p[0]);xmax=Math.max(xmax,p[0]);ymin=Math.min(ymin,p[1]);ymax=Math.max(ymax,p[1]);}if(x>=xmin&&x<=xmax&&y>=ymin&&y<=ymax)for(const f of group.faces)candidates.push(f);}}
+ for(const f of candidates){if((f.alpha??1)<.5)continue;const p=f.points||f.p.map(lastProject.project);
   for(let i=1;i<p.length-1;i++){const a=p[0],b=p[i],c=p[i+1],det=(b[1]-c[1])*(a[0]-c[0])+(c[0]-b[0])*(a[1]-c[1]);if(Math.abs(det)<1e-8)continue;
    const u=((b[1]-c[1])*(x-c[0])+(c[0]-b[0])*(y-c[1]))/det,v=((c[1]-a[1])*(x-c[0])+(a[0]-c[0])*(y-c[1]))/det,t=1-u-v;
    if(u>=0&&v>=0&&t>=0){const z=u*a[2]+v*b[2]+t*c[2];if(z>depth){depth=z;best=f;}}
   }
  }return best;
 }
-function release(e){if(e.type==='pointerup'&&down&&!down.moved&&pointers.size===1){const r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;const face=pickFace(x,y,hitFaces);if(face&&ITEMS.some(o=>o.id===face.id))selectItem(face.id);}pointers.delete(e.pointerId);lastPoint=pointers.size?[...pointers.values()][0]:null;down=null;pinchDistance=0;}
+function release(e){if(e.type==='pointerup'&&down&&!down.moved&&pointers.size===1){const r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;const face=pickFace(x,y,hitFaces);if(face?.node?.module && typeof showModule==="function")showModule(face.node.module);else if(face&&ITEMS.some(o=>o.id===face.id))selectItem(face.id);}pointers.delete(e.pointerId);lastPoint=pointers.size?[...pointers.values()][0]:null;down=null;pinchDistance=0;}
 canvas.addEventListener('pointerup',release);canvas.addEventListener('pointercancel',release);canvas.addEventListener('contextmenu',e=>e.preventDefault());
-canvas.addEventListener('wheel',e=>{e.preventDefault();state.zoom=Math.max(.45,Math.min(5,state.zoom*Math.exp(-e.deltaY*.001)));requestRender();},{passive:false});
+canvas.addEventListener('wheel',e=>{e.preventDefault();moveCamera();state.zoom=Math.max(.45,Math.min(5,state.zoom*Math.exp(-e.deltaY*.001)));requestRender();},{passive:false});
 function inPolygon(x,y,p){let inside=false;for(let i=0,j=p.length-1;i<p.length;j=i++){let a=p[i],b=p[j];if(((a[1]>y)!==(b[1]>y))&&(x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]))inside=!inside;}return inside;}
-canvas.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-','0'].includes(e.key)){e.preventDefault();if(e.key==='ArrowLeft')state.angle-=.15;if(e.key==='ArrowRight')state.angle+=.15;if(e.key==='ArrowUp')state.tilt=Math.min(1.42,state.tilt+.1);if(e.key==='ArrowDown')state.tilt=Math.max(.16,state.tilt-.1);if(e.key==='+')state.zoom=Math.min(5,state.zoom*1.15);if(e.key==='-')state.zoom=Math.max(.45,state.zoom/1.15);if(e.key==='0'){state.zoom=1;state.pan=[0,0];}requestRender();}});
+canvas.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-','0'].includes(e.key)){e.preventDefault();moveCamera();if(e.key==='ArrowLeft')state.angle-=.15;if(e.key==='ArrowRight')state.angle+=.15;if(e.key==='ArrowUp')state.tilt=Math.min(1.42,state.tilt+.1);if(e.key==='ArrowDown')state.tilt=Math.max(.16,state.tilt-.1);if(e.key==='+')state.zoom=Math.min(5,state.zoom*1.15);if(e.key==='-')state.zoom=Math.max(.45,state.zoom/1.15);if(e.key==='0'){state.zoom=1;state.pan=[0,0];}requestRender();}});
 function init(){
-  $('storageSelect').innerHTML=Object.keys(INTERNALS).map(id=>`<option value="${id}">${esc(ITEMS.find(o=>o.id===id).name)}</option>`).join('');
+  $('storageSelect').innerHTML=Object.keys(INTERNALS).map(id=>`<option value="${id}">${esc(INTERNALS[id].title)}</option>`).join('');
   $('storageSelect').onchange=e=>showStorage(e.target.value);
+  window.addEventListener('guedala-geometry-ready',()=>{if($('storageDialog').open)renderStoragePreview($('storageSelect').value);});
+  window.addEventListener('resize',()=>{if($('storageDialog').open)renderStoragePreview($('storageSelect').value);});
   $('openStorage').onclick=()=>openStorage(state.selected);
   $('closeStorage').onclick=()=>$('storageDialog').close();
   $('storageDialog').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect();if(e.target===e.currentTarget&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))e.currentTarget.close();});
@@ -428,14 +472,14 @@ function init(){
   for(const[id,key]of [['benchState','bench'],['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
-  $('zoomIn').onclick=()=>{state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
-  $('rotateLeft').onclick=()=>{state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{state.angle+=Math.PI/6;requestRender();};
+  $('zoomIn').onclick=()=>{moveCamera();state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{moveCamera();state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{moveCamera();state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
+  $('rotateLeft').onclick=()=>{moveCamera();state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{moveCamera();state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=closeInspector;$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;$('mobileItems').setAttribute('aria-expanded',String(!$('inlineItems').hidden));};
-  $('snapshot').onclick=()=>{buildScene();render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
-  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R11.json');
+  $('snapshot').onclick=async()=>{buildScene();await render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
+  $('printMood').onclick=()=>window.print();$('exportData').onclick=()=>download(new Blob([JSON.stringify({project:PROJECT,items:ITEMS,interiors:INTERNALS,notes:ROOM_NOTES},null,2)],{type:'application/json'}),'Guedala_escolhas_R12.json');
   $('filterRoom').innerHTML=PROJECT.rooms.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');$('filterRoom').onchange=renderDecisions;$('filterStatus').onchange=renderDecisions;
   $('sources').innerHTML=SOURCES.map(([s,n])=>`<div class="source"><strong>${esc(s)}</strong><span>${esc(n)}</span></div>`).join('');
-  buildMood();buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
+  buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
   for(const[id,value]of [['benchState','closed'],['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;

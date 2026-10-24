@@ -1,0 +1,11 @@
+{
+  "pieces_valid_unchanged_except_removed_plate": 1127,
+  "errors": [],
+  "new_motion_samples": 15,
+  "collision_candidates_tested": 0,
+  "new_intersections": [],
+  "R34_preserved": true,
+  "plate_removed": true,
+  "dryer_preserved": true,
+  "limits": "Amostragem CAD de novos controles, sem roupas no varal, pessoas ou instalações ausentes. Não é validação de operação física."
+}

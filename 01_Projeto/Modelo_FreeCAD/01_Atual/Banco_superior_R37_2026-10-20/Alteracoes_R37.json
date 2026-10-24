@@ -1,0 +1,58 @@
+{
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Mesa_R36_2026-10-20\\Guedala_Park_R36_Extensao_Mesa.FCStd",
+  "source_sha256": "b573367954b55baf497f8582af79183226289651fbcfc5e56de480b3a704a546",
+  "removed": [
+    {
+      "name": "BancoPlataformaR31",
+      "label": "Plataforma · bandeja pela ponta R02"
+    },
+    {
+      "name": "BancoAba_frenteR31",
+      "label": "Aba_frente · bandeja pela ponta R02"
+    },
+    {
+      "name": "BancoAba_trasR31",
+      "label": "Aba_tras · bandeja pela ponta R02"
+    },
+    {
+      "name": "BancoReceptorR31",
+      "label": "Receptor · bandeja pela ponta R02"
+    },
+    {
+      "name": "Guia_frenteR31",
+      "label": "Guia_frente · híbridoR02 proposto"
+    },
+    {
+      "name": "Guia_trasR31",
+      "label": "Guia_tras · híbridoR02 proposto"
+    },
+    {
+      "name": "Orelha_fixaR31",
+      "label": "Orelha_fixa · híbridoR02 proposto"
+    },
+    {
+      "name": "PinoR31",
+      "label": "Pino · híbridoR02 proposto"
+    },
+    {
+      "name": "Ref_Montante_frenteR31",
+      "label": "Montante_frente · híbridoR02 proposto"
+    },
+    {
+      "name": "Ref_Montante_trasR31",
+      "label": "Montante_tras · híbridoR02 proposto"
+    },
+    {
+      "name": "Ref_Cabecalho_macicoR31",
+      "label": "Cabecalho_macico · híbridoR02 proposto"
+    }
+  ],
+  "shelf_top_mm": 310,
+  "leaf_dimensions_mm": [
+    750,
+    300,
+    30
+  ],
+  "end_panel_closed": true,
+  "screen": "SAMSUNG"
+}

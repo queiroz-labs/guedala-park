@@ -1,3 +1,11 @@
+# Pacote histórico R30 — leitura condicionada ao complemento vigente
+
+21/10/2026. Este pacote preserva o estado de 14/10 e complementos intermediários. Usar o [complemento vigente R41](../Complemento_orcamento_vigente_R41.md) antes de preparar proposta. A placa do varal e a bandeja lateral foram retiradas; o Fischer foi escolhido e estudos posteriores de apoio/ventilação foram integrados. Não usar isoladamente as quantidades, alternativas ou revisões chamadas de atuais nos registros abaixo. PDF e CSV históricos permanecem preservados.
+
+---
+
+## Histórico preservado — registros abaixo podem estar superados
+
 # Tópico 5 — pacote de orçamento R30
 
 **20/10/2026 — grelhas e manutenção R02.** [Detalhamento atual](../Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md): duas grelhas candidatas600 ×90 removíveis, com12 rasgos e272,43 cm² de área aberta cada, réguas fora da passagem de ar e gabarito1:1 para cotação. Foram conferidos195 pares sem sobreposição e retirada frontal hipotética600 mm, sem validar calor/carga/cabos/pessoas. A saída superior agora termina na face perfuradaY6402,5; a hipótese antiga sem grelha real é superada nesse detalhe. Desenvolver acesso às conexões pelo gabinete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas; sem fabricação, compra ou contato externo.

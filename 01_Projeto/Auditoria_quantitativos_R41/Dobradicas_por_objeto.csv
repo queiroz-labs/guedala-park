@@ -1,0 +1,57 @@
+﻿Movel;Conjunto;Rotulo;Calco;Quantidade
+Canto R04 - portas independentes - proposta simples;DobradicaSimplesR04;71B3550 - porta A - nivel 51;FerragemSimplesR005;1
+Canto R04 - portas independentes - proposta simples;DobradicaSimplesR001;71B3550 - porta A - nivel 255;FerragemSimplesR011;1
+Canto R04 - portas independentes - proposta simples;DobradicaSimplesR002;71B3550 - porta B - nivel 51;FerragemSimplesR017;1
+Canto R04 - portas independentes - proposta simples;DobradicaSimplesR003;71B3550 - porta B - nivel 255;FerragemSimplesR023;1
+Gabinete da pia;DobradicaComumR10;71B3550 — Gabinete da pia - porta direita — z80 (proposta);CalcoComumR10;1
+Gabinete da pia;DobradicaComumR001;71B3550 — Gabinete da pia - porta direita — z640.0 (proposta);CalcoComumR001;1
+Gabinete da pia;DobradicaComumR002;71B3550 — Gabinete da pia - porta esquerda — z80 (proposta);CalcoComumR002;1
+Gabinete da pia;DobradicaComumR003;71B3550 — Gabinete da pia - porta esquerda — z640.0 (proposta);CalcoComumR003;1
+D · acima do depurador;DobradicaComumR004;71B3550 — D · acima do depurador - porta direita — z80 (proposta);CalcoComumR004;1
+D · acima do depurador;DobradicaComumR005;71B3550 — D · acima do depurador - porta direita — z512.0 (proposta);CalcoComumR005;1
+D · acima do depurador;DobradicaComumR006;71B3550 — D · acima do depurador - porta esquerda — z80 (proposta);CalcoComumR006;1
+D · acima do depurador;DobradicaComumR007;71B3550 — D · acima do depurador - porta esquerda — z512.0 (proposta);CalcoComumR007;1
+C · uso diário;DobradicaComumR008;71B3550 — C · uso diário - porta direita — z80 (proposta);CalcoComumR008;1
+C · uso diário;DobradicaComumR009;71B3550 — C · uso diário - porta direita — z938.0 (proposta);CalcoComumR009;1
+C · uso diário;DobradicaComumR010;71B3550 — C · uso diário - porta esquerda — z80 (proposta);CalcoComumR010;1
+C · uso diário;DobradicaComumR011;71B3550 — C · uso diário - porta esquerda — z938.0 (proposta);CalcoComumR011;1
+B · acima do micro;DobradicaComumR012;71B3550 — B · acima do micro - porta direita — z80 (proposta);CalcoComumR012;1
+B · acima do micro;DobradicaComumR013;71B3550 — B · acima do micro - porta direita — z530.0 (proposta);CalcoComumR013;1
+B · acima do micro;DobradicaComumR014;71B3550 — B · acima do micro - porta esquerda — z80 (proposta);CalcoComumR014;1
+B · acima do micro;DobradicaComumR015;71B3550 — B · acima do micro - porta esquerda — z530.0 (proposta);CalcoComumR015;1
+A · acima da geladeira;DobradicaComumR016;71B3550 — A · acima da geladeira - porta direita — z80 (proposta);CalcoComumR016;1
+A · acima da geladeira;DobradicaComumR017;71B3550 — A · acima da geladeira - porta direita — z504.0 (proposta);CalcoComumR017;1
+A · acima da geladeira;DobradicaComumR018;71B3550 — A · acima da geladeira - porta esquerda — z80 (proposta);CalcoComumR018;1
+A · acima da geladeira;DobradicaComumR019;71B3550 — A · acima da geladeira - porta esquerda — z504.0 (proposta);CalcoComumR019;1
+Aéreo da lavanderia;DobradicaComumR020;71B3550 — Aéreo da lavanderia - porta direita — z80 (proposta);CalcoComumR020;1
+Aéreo da lavanderia;DobradicaComumR021;71B3550 — Aéreo da lavanderia - porta direita — z500.0 (proposta);CalcoComumR021;1
+Aéreo da lavanderia;DobradicaComumR022;71B3550 — Aéreo da lavanderia - porta esquerda — z80 (proposta);CalcoComumR022;1
+Aéreo da lavanderia;DobradicaComumR023;71B3550 — Aéreo da lavanderia - porta esquerda — z500.0 (proposta);CalcoComumR023;1
+Aéreo principal do escritório;DobradicaComumR11;71B3550 — Escritório porta 4 - abrir para direita — z80 (proposta);CalcoComumR11;1
+Aéreo principal do escritório;DobradicaComumR024;71B3550 — Escritório porta 4 - abrir para direita — z470.0 (proposta);CalcoComumR024;1
+Aéreo principal do escritório;DobradicaComumR025;71B3550 — Escritório porta 3 - abrir para esquerda — z80 (proposta);CalcoComumR025;1
+Aéreo principal do escritório;DobradicaComumR026;71B3550 — Escritório porta 3 - abrir para esquerda — z470.0 (proposta);CalcoComumR026;1
+Aéreo principal do escritório;DobradicaComumR027;71B3550 — Escritório porta 2 - abrir para direita — z80 (proposta);CalcoComumR027;1
+Aéreo principal do escritório;DobradicaComumR028;71B3550 — Escritório porta 2 - abrir para direita — z470.0 (proposta);CalcoComumR028;1
+Aéreo principal do escritório;DobradicaComumR029;71B3550 — Escritório porta 1 - abrir para esquerda — z80 (proposta);CalcoComumR029;1
+Aéreo principal do escritório;DobradicaComumR030;71B3550 — Escritório porta 1 - abrir para esquerda — z470.0 (proposta);CalcoComumR030;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR031;71B3550 — Cabeceira porta 4 - abrir para direita — z80 (proposta);CalcoComumR031;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR032;71B3550 — Cabeceira porta 4 - abrir para direita — z228.0 (proposta);CalcoComumR032;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR033;71B3550 — Cabeceira porta 3 - abrir para esquerda — z80 (proposta);CalcoComumR033;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR034;71B3550 — Cabeceira porta 3 - abrir para esquerda — z228.0 (proposta);CalcoComumR034;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR035;71B3550 — Cabeceira porta 2 - abrir para direita — z80 (proposta);CalcoComumR035;1
+Aéreo raso da cabeceira · alinhado;DobradicaComumR036;71B3550 — Cabeceira porta 2 - abrir para direita — z228.0 (proposta);CalcoComumR036;1
+Gabinete do banheiro;DobradicaComumR12;71B3550 — Gabinete do banheiro - porta direita — z80 (proposta);CalcoComumR12;1
+Gabinete do banheiro;DobradicaComumR037;71B3550 — Gabinete do banheiro - porta direita — z465.0 (proposta);CalcoComumR037;1
+Gabinete do banheiro;DobradicaComumR038;71B3550 — Gabinete do banheiro - porta esquerda — z80 (proposta);CalcoComumR038;1
+Gabinete do banheiro;DobradicaComumR039;71B3550 — Gabinete do banheiro - porta esquerda — z465.0 (proposta);CalcoComumR039;1
+Armário espelhado raso;DobradicaComumR040;71B3550 — Armário espelhado raso - porta direita — z80 (proposta);CalcoComumR040;1
+Armário espelhado raso;DobradicaComumR041;71B3550 — Armário espelhado raso - porta direita — z375.0 (proposta);CalcoComumR041;1
+Armário espelhado raso;DobradicaComumR042;71B3550 — Armário espelhado raso - porta direita — z670.0 (proposta);CalcoComumR042;1
+Armário espelhado raso;DobradicaComumR043;71B3550 — Armário espelhado raso - porta esquerda — z80 (proposta);CalcoComumR043;1
+Armário espelhado raso;DobradicaComumR044;71B3550 — Armário espelhado raso - porta esquerda — z375.0 (proposta);CalcoComumR044;1
+Armário espelhado raso;DobradicaComumR045;71B3550 — Armário espelhado raso - porta esquerda — z670.0 (proposta);CalcoComumR045;1
+Aéreo raso da cabeceira · alinhado;DobradicaVizinhaR18;71B3550 — Cabeceira porta 1 - abrir para esquerda — z80 (proposta);CalcoVizinhaR18;1
+Aéreo raso da cabeceira · alinhado;DobradicaVizinhaR001;71B3550 — Cabeceira porta 1 - abrir para esquerda — z228 (proposta);CalcoVizinhaR002;1
+C · uso diário;DobradicaComumR046;71B3550 — C · uso diário - porta direita — z509 (proposta R29, 3ª dobradiça);CalcoComumR046;1
+C · uso diário;DobradicaComumR047;71B3550 — C · uso diário - porta esquerda — z509 (proposta R29, 3ª dobradiça);CalcoComumR047;1

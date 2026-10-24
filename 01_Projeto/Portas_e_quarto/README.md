@@ -1,5 +1,7 @@
 # Portas e quarto
 
+**22/10/2026 — apoios removidos do escopo:** retirar os dois suportes de celular/óculos, inclusive do FreeCAD, conforme pedido de Elias. Preservar cabeceira, iluminação e armário superior. Referências aos apoios e seu alcance abaixo são históricas e estão superadas.
+
 **16/10/2026 — cama atual e futura, escolha encerrada:** cama de viúvo com baú existente para a mudança e uso inicial; **queen com baú escolhida para troca posterior**. Menções históricas a queen existente estão superadas; o tamanho futuro agora foi aceito expressamente. Preparar implantação, cabeceira, apoios e iluminação para a queen, preservando o roupeiro650. Estudar a cama de viúvo centralizada no mesmo eixo e conferir alcance dos apoios no uso inicial. Referência de colchão queen158 ×198 cm e gabarito CAD160 ×200 não substituem medidas externas da base, altura final, abertura e vão do baú. Mala grande futura deve caber no baú da queen; não há produto comprado nem alteração da R30 nesta decisão.
 
 ### Triagem do tamanho futuro — 16/10/2026

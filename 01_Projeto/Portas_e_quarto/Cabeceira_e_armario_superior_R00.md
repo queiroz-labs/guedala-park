@@ -1,3 +1,9 @@
+# Alteração vigente — 22/10/2026
+
+Elias solicitou remover os dois apoios para celular e óculos, inclusive do FreeCAD. Esta decisão substitui as menções à manutenção desses apoios no histórico abaixo. Cabeceira, armário superior e iluminação permanecem no escopo; não reduzir armazenamento.
+
+---
+
 # Cabeceira e armário superior — R00
 
 **Forma confirmada por Elias — 25/09/2026:** conjunto superior virando o canto em L, com frentes retas. Não usar frente arredondada. Esclarecimento encerrado; desenvolver encontro entre maleiro e aéreo raso da cabeceira.

@@ -1,0 +1,1 @@
+Importacao nativa ImportGui, imagens e FCStd salvos.

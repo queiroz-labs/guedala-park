@@ -1,0 +1,209 @@
+147 
+LID SUPPORTS
+67˚
+(80˚)
+90(105)
+40
+225
+(280)
+21
+5
+(29
+0)
+Hinge Center
+Min. L2+12
+Item No. L1 L2 L3 A B C Door Height (mm) Weight (g) Box (pcs) Carton (pcs)
+LB-215 168 (6-39/64") 141 (5-35/64") 149 (5-55/64") 153 ( 6-1/32" ) 62 215 ( 8-15/32" ) 260~350 (10-15/64"~13-25/32") 140 10 100LB-290 205 (  8-1/16") 178 ( 7-1/64" ) 186 (7-21/64") 190 (7-31/64") 100 290 (11-27/64") 340~500 (13-25/64"~19-11/16") 160
+Material Finish
+304 Stainless Steel Satin
+Item No. L1 L2 L3 S D Extended
+Force (kg)
+Compressed
+Force (kg)
+Weight
+(g)
+Box
+(pcs)
+Carton
+(pcs)
+LK-222 222 ( 8-47/64" ) 172 (6-25/32") 170 ( 6-11/16" ) 50 (1-11/32") 10 (25/64")  3.2  7.0 145
+ 25  150LK-335 335 ( 13-3/16" ) 25 (9-27/32") 238 (   9-3/8"   ) 85 (3-11/32") 20 (25/32")  3.8  8.5 185
+LK-380 380 (14-31/32") 280 (11-1/32") 269 (10-19/32") 100 (3-15/16") 19 (  3/4"  )  3.6  8.5 205
+Item No. Max.Door
+Weight (kg)
+Door
+Opening
+(θ°)
+-
+(α°) L1 A X Y
+LK-222
+(2 pcs)
+2.5
+(5.5 lbs) 90 17 222
+(8-47/64")
+70
+(2-3/4")
+20
+(25/32")
+235
+(9-1/4")
+2.7
+(5.9 lbs) 85 15 222
+(8-47/64")
+75
+(2-61/64")
+20
+(25/32")
+240
+(9-29/64")
+3.0
+(6.6 lbs) 75 14 222
+(8-47/64")
+85
+(3-11/32")
+20
+(25/32")
+ 251
+(9-7/8")
+LK-335
+(2 pcs)
+3.1
+(6.8 lbs) 90 14 335
+(13-3/16")
+104
+(4-3/32")
+20
+(25/32")
+344
+(13-35/64")
+3.3
+(7.2 lbs) 85 12 335
+(13-3/16")
+112
+(4-13/32")
+20
+(25/32")
+351
+(13-13/16")
+3.8
+(8.3 lbs) 75 11 335
+(13-3/16")
+127
+(5-1/8")
+20
+(25/32")
+368
+(14-31/64")
+Item No. Max.Door
+Weight (kg)
+Door
+Opening
+(θ°)
+-
+(α°) L1 A X Y
+LK-335
+(2 pcs)
+2.5
+(5.5 lbs) 90  0.5 335
+(13-3/16")
+295
+(11-39/64")
+45
+(1-25/32")
+38
+(1-1/2")
+3.0
+(6.6 lbs) 90  14.0 335
+(13-3/16")
+295
+(11-39/64")
+45
+(1-25/32")
+38
+(1-1/2")
+3.3
+(7.2 lbs) 85  12.0 335
+(13-3/16")
+295
+(11-39/64")
+45
+(1-25/32")
+44
+(1-47/64")
+LK-380
+(2 pcs)
+2.5
+(5.5 lbs) 110  8 .0 380
+(14-31/32")
+330
+(13")
+40
+(1-37/64")
+36
+(1-27/64")
+3.0
+(6.6 lbs) 90  3.5 380
+(14-31/32")
+335
+(13-3/16")
+55
+(2-5/32")
+44
+(1-47/64")
+4.0
+(8.8 lbs) 90  4 .0 380
+(14-31/32")
+320
+(12-19/32")
+41
+(1-39/64")
+59
+(2-21/64")
+4.3
+(9.4 lbs) 80  7.5 380
+(14-31/32")
+335
+(13-3/16")
+56
+(2-13/64")
+60
+(2-23/64")
+Material Finish
+304 Stainless Steel Satin
+LB-215
+LB-290
+(  ) Dimension...LB-290
+Max. Opening Degree
+LB-215: 90° 
+LB-290: 120° 
+*Lid stay must be installed parallel to the sidewall.
+LK-222
+LK-335
+LK-380
+Mounting Example (2)Mounting Example (1)
+Drawing shown is based on C=4mm. If C=0, please deduct 
+4mm from “X” in the table below.
+LK-222, LK-335
+(Wooden door)
+LK-335, LK-380
+(Plastic Lid)
+Door weight is based on door height: LK-222=350mm, LK-335=500mm
+•  Holds lid or panel in fully opened position.
+•  Can be installed individually or in pairs.
+•  Non-Handed: Can be installed on left or right side.
+•  Load Capacity: 15kg(33 lbs) /each.
+•  Spring mechanism assists lifting door and holds 
+in open position.
+•  Can be installed individually or in pairs.
+•  Non-Handed: Can be installed on left or right side.
+n Wooden Doors
+n Acrylic Doors
+LID STAY
+LID STAY
+LB-215, 290
+LK
+15
+P .472
+15 kg
+33 lbs
+LID STAYS

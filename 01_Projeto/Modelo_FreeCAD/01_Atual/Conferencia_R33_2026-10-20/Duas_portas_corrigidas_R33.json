@@ -1,0 +1,42 @@
+{
+  "source_sha256": "242db9bc4d605c4260de7602d8677381dff79a4e29abeba14aed461da6be0c59",
+  "samples_deg": [
+    0,
+    21.5,
+    43,
+    64.5,
+    86
+  ],
+  "controls": [
+    {
+      "control": "ControlePortaR005",
+      "label": "C · uso diário - porta esquerda",
+      "panels": [
+        "FrenteComumR005"
+      ],
+      "samples": [
+        21.5,
+        43,
+        64.5,
+        86
+      ]
+    },
+    {
+      "control": "ControlePortaR007",
+      "label": "B · acima do micro - porta esquerda",
+      "panels": [
+        "FrenteComumR007"
+      ],
+      "samples": [
+        21.5,
+        43,
+        64.5,
+        86
+      ]
+    }
+  ],
+  "hits": [],
+  "limits": "Amostragem de frentes, uma porta de cada vez, demais controles na pose salva. Contra outros módulos e objetos correntes. Exclui próprio módulo, ferragens internas, uso simultâneo, pessoas, movimento contínuo, modelos reais e medidas de campo.",
+  "source_unchanged": true,
+  "poses_restored": true
+}

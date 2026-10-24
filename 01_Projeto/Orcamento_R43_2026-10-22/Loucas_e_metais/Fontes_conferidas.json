@@ -1,0 +1,72 @@
+[
+  {
+    "item": "H01",
+    "url": "https://www.evolveacabamentos.com.br/cuba-de-embutir-tramontina-dora-40-bl-r6-em-aco-inox-acetinado-com-valvula-e-escape-40x34-cm.html",
+    "method": "Página de produto via navegador",
+    "price": 414,
+    "cardPrice": 460,
+    "status": "Oferta candidata condicionada à confirmação de acabamento; título e descrição escovado, código94017113, URL acetinado. Não incluída na provisão prudente.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H02",
+    "url": "https://www.pingoo.casa/torneira-para-cozinha-gourmet-misturador-monocomando-extensivel-em-aco-inox-304-fosco-apurema-preto",
+    "method": "Página consultada via pesquisa web",
+    "price": 288.9,
+    "cardPrice": 304.1,
+    "status": "Mesmo modelo; preço à vista já líquido do desconto.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H03",
+    "url": "https://zeniacabamentos.com.br/cuba-retangular-apoio-40cm-branca-deca-l1304017",
+    "method": "Página de produto via navegador",
+    "publishedPrice": 684.9,
+    "pixDiscountPercent": 5,
+    "calculatedPixPrice": 650.66,
+    "status": "Em estoque. Preço Pix calculado, valor final e frete a confirmar.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H04",
+    "url": "https://www.cassol.com.br/torneira-misturador-monocomando-para-banheiro-de-mesa-bica-alta-1x2polegadas-metal-arion-black-addra/p",
+    "method": "Página de produto via navegador",
+    "price": null,
+    "status": "Produto indisponível, SKU1578386; sem economia incorporada.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H05",
+    "url": "https://www.cassol.com.br/chuveiro-com-desviador-auto-limpante-livo-black-matte-12-addra/p",
+    "method": "Página de produto via navegador",
+    "publishedPrice": 999.9,
+    "status": "SKU2193038, Livo Black Matte com desviador. Confirmar lista completa da embalagem/referência BRS2003-BK; provisão não é liberação de compra.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H05",
+    "url": "https://www.madeiramadeira.com.br/chuveiro-com-desviador-auto-limpante-livo-black-matte-1-2-addra-463244234.html?seller=26609",
+    "method": "Busca indexada e conferência ao vivo no navegador",
+    "indexedPrice": 935.9,
+    "status": "Página ao vivo mostrou Produto esgotado. Preço indexado não adotado.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H04/H05",
+    "url": "https://www.mercadolivre.com.br/loja/addra?category_id=MLB1500&client=recoview-selleritems&item_id=MLB4612735293&official_store_id=303342&recos_listing=true",
+    "method": "Resultado indexado e loja aberta no navegador",
+    "indexedArionWithoutCoupon": 527.33,
+    "indexedLivoCard": 529,
+    "status": "Busca mostrava preços inferiores, mas catálogo ao vivo não confirmou essas duas ofertas. Apenas pista para cotação, não preço vigente nem economia somada.",
+    "consulted": "2026-10-22"
+  },
+  {
+    "item": "H07",
+    "url": "https://www.leroymerlin.com.br/torneira-misturador-lavatorio-flex-monocomando-preto_1571531402",
+    "method": "Página de produto via navegador",
+    "price": 146.7,
+    "cardPrice": 163,
+    "status": "SKU e EAN idênticos ao aprovado; preto; vendido/entregue por Telca. Frete/CEP final não verificados.",
+    "consulted": "2026-10-22"
+  }
+]

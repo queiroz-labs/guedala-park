@@ -1,6 +1,6 @@
 // Presentation layer: the existing scene and its geometry remain the source of truth.
 const ROOM_PRESENTATION={
-  all:['home','O apê inteiro'],sala:['sofa','Conversar e receber'],quarto:['bed','Descansar e guardar'],
+  all:['home','O apto inteiro'],sala:['sofa','Conversar e receber'],quarto:['bed','Descansar e guardar'],
   escritorio:['desk','Trabalhar e hospedar'],cozinha:['kitchen','Cozinhar e compartilhar'],
   lavanderia:['laundry','Cuidar da rotina'],banho:['bath','Uma pausa no dia']
 };
@@ -43,7 +43,7 @@ function syncExperience(){
   const overview=state.room==='all';
   $('scenarioPresets').hidden=!overview;
   $('stateCards').hidden=overview;
-  $('experienceTitle').textContent=overview?'Como vamos usar o apê?':'Experimente as mudanças';
+  $('experienceTitle').textContent=overview?'Como vamos usar o apto?':'Experimente as mudanças';
   $('experienceIntro').textContent=overview?'Escolha uma cena e veja o apartamento mudar.':'Toque em uma opção para ver a mudança no desenho.';
   let visible=0;
   STATE_OPTIONS.forEach(config=>{

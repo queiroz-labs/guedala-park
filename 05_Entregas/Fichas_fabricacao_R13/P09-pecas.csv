@@ -1,0 +1,8 @@
+﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca315 | Peca316;Lateral direita / Lateral esquerda;2;592.0;330.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca317;Fundo;1;614.0;556.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca318;Base;1;614.0;312.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca319;Tampo;1;614.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca320;Divisória;1;556.0;118.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR002;D · acima do depurador - porta direita — frente com canecos;1;590.0;322.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR003;D · acima do depurador - porta esquerda — frente com canecos;1;590.0;322.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

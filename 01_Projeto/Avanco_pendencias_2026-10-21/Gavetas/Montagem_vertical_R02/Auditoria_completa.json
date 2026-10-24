@@ -1,0 +1,51 @@
+{
+  "status": "PENDENTE",
+  "tests": 402,
+  "findings": [
+    {
+      "kind": "referencia_R42_altura_util_em_movimento",
+      "a": "Gaveta008",
+      "b": "GavetaComumR089",
+      "volume_mm3": 19706.39999999987
+    },
+    {
+      "kind": "regulagem_frentes_acompanham",
+      "a": "Gaveta008_Frente",
+      "b": "Gaveta009_Frente",
+      "volume_mm3": 7164.0,
+      "inferior_dz": 3,
+      "superior_dz": 0
+    }
+  ],
+  "baseline": [
+    {
+      "drawer": "Gaveta008",
+      "declared_height": 60.39999999999998,
+      "floor_top": 544.0,
+      "prism": [
+        4339.0,
+        307.0,
+        544.0,
+        4661.0,
+        666.0,
+        604.4
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "declared_height": 54.0,
+      "floor_top": 648.0,
+      "prism": [
+        4339.0,
+        307.0,
+        648.0,
+        4661.0,
+        666.0,
+        702.0
+      ]
+    }
+  ],
+  "external_candidates": [],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26",
+  "method": "Exact translational swept solids for orthogonal wood and cargo prisms; independent drawer positions; vertical regulation endpoint comparisons. All source leaf references included, local visibility not equivalent to effective visibility."
+}

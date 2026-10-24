@@ -1,0 +1,100 @@
+from pathlib import Path
+import json, traceback, hashlib
+import FreeCAD as App, FreeCADGui as Gui, Part
+
+root=Path(r'C:\Users\Elias\Documents\PROJETOS\Guedala park\guedala-park')
+dest=root/'01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24'
+source=root/'01_Projeto/Cores_FreeCAD_R16_2026-10-23/Guedala_Park_R45_Cores_R16.FCStd'
+target=dest/'Guedala_Park_R45_Rodizios_P08.FCStd'
+url='https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce'
+def snapshot(doc,excluded=()):
+    result={}
+    for o in doc.Objects:
+        if o.Name in excluded:continue
+        record={'placement':list(o.Placement.toMatrix().A)} if hasattr(o,'Placement') else {}
+        if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull():
+            # O hash topológico não muda com a triangulação de visualização.
+            record.update(shape_hash=o.Shape.hashCode())
+        result[o.Name]=record
+    return result
+try:
+    Gui.getMainWindow().hide()
+    assert not target.exists(),'A revisão já existe; não sobrescrever sem conferência.'
+    source_hash=hashlib.sha256(source.read_bytes()).hexdigest()
+    doc=next((d for d in App.listDocuments().values() if Path(d.FileName)==source),None)
+    if doc is None:doc=App.openDocument(str(source))
+    # Remove somente os espaçadores criados por uma execução interrompida desta macro.
+    for o in list(doc.Objects):
+        if o.Name.startswith('EspacadorRodizioP'):doc.removeObject(o.Name)
+    doc.recompute()
+    g=doc.getObject('Gaveta007')
+    wheels=[o for o in g.Group if o.TypeId=='App::Part' and o.Name.startswith('RodizioGabarito')]
+    assert len(wheels)==6
+    changed=[a.Name for a in wheels]+[p.Name for a in wheels for p in a.Group]
+    before=snapshot(doc,changed)
+    rows=[]
+    doc.openTransaction('P08: seis rodas 38 mm e espacadores 1 mm')
+    for index,a in enumerate(wheels,1):
+        assert len(a.Group)==5
+        plate,fork1,fork2,axle,wheel=list(a.Group)
+        plate.Shape=Part.makeBox(20,38,2,App.Vector(-10,0,36))
+        plate.Label='Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação'
+        for p,x in [(fork1,-10),(fork2,8)]:
+            p.Shape=Part.makeBox(2,12,21,App.Vector(x,-6,15)).cut(Part.makeCylinder(3,2,App.Vector(x,0,15),App.Vector(1,0,0)))
+            p.Label='Garfo simplificado para roda38 — espessura e forma não executivas'
+        axle.Shape=Part.makeCylinder(3,25,App.Vector(-12.5,0,15),App.Vector(1,0,0))
+        axle.Label='Eixo Ø6 anunciado — comprimento ilustrativo'
+        wheel.Shape=Part.makeCylinder(15,15,App.Vector(-7.5,0,15),App.Vector(1,0,0)).cut(Part.makeCylinder(3,15,App.Vector(-7.5,0,15),App.Vector(1,0,0)))
+        wheel.Label='Roda Ø30x15 — PU sobre policarbonato conforme vendedor'
+        wheel.ViewObject.ShapeColor=(0.70,0.84,0.88)
+        spacer=doc.addObject('Part::Feature','EspacadorRodizioP08')
+        a.addObject(spacer)
+        spacer.Shape=Part.makeBox(20,38,1,App.Vector(-10,0,38))
+        spacer.Label='Espaçador metálico rígido38x20x1 — apoio integral'
+        spacer.ViewObject.ShapeColor=(0.72,0.74,0.76)
+        a.Label=f'Rodízio Leão Aço38 + espaçador1 = apoio39 — {index}/6'
+        for name,value in [('AlturaRodizioMM',38),('EspacadorMM',1),('AlturaApoioMM',39)]:
+            if name not in a.PropertiesList:a.addProperty('App::PropertyLength',name,'Rodizios P08')
+            setattr(a,name,value)
+        for name,value in [('LinkCompra',url),('StatusP08','Selecionado por Elias em 24/10/2026; compra pendente. Conferir PU, altura, chapa, carga e parafusos reais.')]:
+            if name not in a.PropertiesList:a.addProperty('App::PropertyString',name,'Rodizios P08')
+            setattr(a,name,value)
+        for p in a.Group:
+            if 'Status' not in p.PropertiesList:p.addProperty('App::PropertyString','Status')
+            p.Status='Gabarito nominal aprovado38+1=39; não representa perfil, furos ou parafusos executivos. Validar amostra.'
+            assert p.Shape.isValid()
+        assert abs(spacer.Shape.BoundBox.ZMax-39)<1e-7
+        assert abs(plate.Shape.BoundBox.ZMax-38)<1e-7
+        # A caixa da malha de visualização aproxima o círculo; conferir o sólido analítico.
+        assert abs(wheel.Shape.copy().cleaned().BoundBox.ZMin)<1e-7
+        assert spacer.Shape.common(plate.Shape).Volume<1e-7
+        rows.append(dict(assembly=a.Name,placement_mm=list(a.Placement.Base),spacer=spacer.Name,rodizio_height_mm=38,spacer_mm=1,total_support_mm=39,wheel_diameter_mm=30,wheel_width_mm=15,plate_mm=[38,20],spacer_volume_mm3=spacer.Shape.Volume))
+    g.StatusR13='P08: seleção Leão Aço38 + espaçadores1 aprovada em24/10/2026. Apoio39, fundo18 e útil1187x406x88 preservados. Amostra, fixação, carga, guias e batente a conferir.'
+    doc.commitTransaction();doc.recompute()
+    added=[r['spacer'] for r in rows]
+    after=snapshot(doc,changed+added)
+    differences={k:dict(before=before.get(k),after=after.get(k)) for k in set(before)|set(after) if before.get(k)!=after.get(k)}
+    (dest/'Diferencas_CAD.json').write_text(json.dumps(differences,ensure_ascii=False,indent=2),encoding='utf-8')
+    assert not differences,'Outra geometria/posição mudou; conferir Diferencas_CAD.json.'
+    doc.Label='Guedala Park · R45 cores R16 · P08 rodas38 + espaçadores1'
+    doc.saveAs(str(target))
+    count=len(doc.Objects)
+    check=doc
+    assert len(check.Objects)==5846
+    for row in rows:
+        a=check.getObject(row['assembly']);s=check.getObject(row['spacer'])
+        assert float(a.AlturaRodizioMM)==38 and float(a.EspacadorMM)==1 and float(a.AlturaApoioMM)==39
+        assert s.Shape.isValid() and abs(s.Shape.Volume-760)<1e-6
+    report=dict(date='2026-10-24',source=str(source),sourceSHA256=source_hash,file=str(target),SHA256=hashlib.sha256(target.read_bytes()).hexdigest(),objects=count,rodizios=6,espacadores=6,altura_apoio_mm=39,util_interno_mm=[1187,406,88],fundo_mm=18,unmodified_objects=len(before),other_geometry_and_placements_preserved=True,reopened=False,rows=rows,scope='Gabaritos nominais atualizados. Furos antigos removidos da chapa do rodízio; não inventados furos ou parafusos novos. Perfil/espessura do garfo continuam simplificados. Original R16 preservado.')
+    (dest/'Verificacao_CAD.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    Gui.activeDocument().activeView().viewAxonometric()
+    Gui.activeDocument().activeView().fitAll()
+    Gui.Selection.clearSelection()
+    Gui.Selection.addSelection(check.getObject('Gaveta007'))
+    assert hashlib.sha256(source.read_bytes()).hexdigest()==source_hash
+except Exception:
+    (dest/'Erro_CAD.txt').write_text(traceback.format_exc(),encoding='utf-8')
+finally:
+    Gui.getMainWindow().showNormal()
+    Gui.getMainWindow().raise_()
+    Gui.getMainWindow().activateWindow()

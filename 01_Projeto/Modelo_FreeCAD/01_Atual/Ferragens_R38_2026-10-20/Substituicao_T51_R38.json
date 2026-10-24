@@ -1,0 +1,580 @@
+{
+  "source_step_sha256": {
+    "43107713": "90d7a46237f0fff4ef297e935b90f7352e6d1a1ceb3f12a506f260263dc04d5c",
+    "46166126": "275a727f96fd0f318ea1dd45757160ce6672264070e8947f8580b51b62a7d8ca"
+  },
+  "updated_parts": {
+    "GavetaComumR006": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta de roupa - proposta R08",
+      "volume": 46084.50420972143,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        7389.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        800.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR007": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta de roupa - proposta R08",
+      "volume": 46036.29698671439,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        7617.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        800.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR018": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta de roupa001 - proposta R08",
+      "volume": 46084.50420972143,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        7389.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        950.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR019": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta de roupa001 - proposta R08",
+      "volume": 46036.29698671439,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        7617.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        950.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR030": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta de roupa002 - proposta R08",
+      "volume": 46084.50420972143,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        5780.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        800.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR031": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta de roupa002 - proposta R08",
+      "volume": 46036.29698671439,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        6008.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        800.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR042": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta de roupa003 - proposta R08",
+      "volume": 46084.50420972143,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        5780.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        950.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR043": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta de roupa003 - proposta R08",
+      "volume": 46036.29698671439,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        6008.0,
+        0.0,
+        1.0,
+        0.0,
+        3362.0,
+        0.0,
+        0.0,
+        1.0,
+        950.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR054": {
+      "label": "Trava T51.7600 · 46166126 · G3 · mantimentos - proposta R08",
+      "volume": 46084.50420972146,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        197.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR055": {
+      "label": "Trava T51.7600 · 43107713 · G3 · mantimentos - proposta R08",
+      "volume": 46036.296986714406,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        197.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR066": {
+      "label": "Trava T51.7600 · 46166126 · G1 · talheres - proposta R08",
+      "volume": 46084.504209721454,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        741.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR067": {
+      "label": "Trava T51.7600 · 43107713 · G1 · talheres - proposta R08",
+      "volume": 46036.296986714406,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        741.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR078": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta escritório 1 - proposta R08",
+      "volume": 46084.50420972146,
+      "area": 12265.766454746268,
+      "placement": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        4301.0,
+        -1.2246467991473532e-16,
+        -1.0,
+        -0.0,
+        700.0,
+        -0.0,
+        0.0,
+        1.0,
+        497.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR079": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta escritório 1 - proposta R08",
+      "volume": 46036.296986714406,
+      "area": 12248.919468619782,
+      "placement": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        4082.0,
+        -1.2246467991473532e-16,
+        -1.0,
+        -0.0,
+        700.0,
+        -0.0,
+        0.0,
+        1.0,
+        497.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR090": {
+      "label": "Trava T51.7600 · 46166126 · Gaveta escritório 2 - proposta R08",
+      "volume": 46084.504209721454,
+      "area": 12265.766454746268,
+      "placement": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        4301.0,
+        -1.2246467991473532e-16,
+        -1.0,
+        -0.0,
+        700.0,
+        -0.0,
+        0.0,
+        1.0,
+        601.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "GavetaComumR091": {
+      "label": "Trava T51.7600 · 43107713 · Gaveta escritório 2 - proposta R08",
+      "volume": 46036.2969867144,
+      "area": 12248.919468619782,
+      "placement": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        4082.0,
+        -1.2246467991473532e-16,
+        -1.0,
+        -0.0,
+        700.0,
+        -0.0,
+        0.0,
+        1.0,
+        601.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "MontagemG2R07": {
+      "label": "46166126[46166126] - proposta R07",
+      "volume": 46084.504209721454,
+      "area": 12265.766454746268,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        581.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    },
+    "MontagemG2R001": {
+      "label": "43107713[43107713] - proposta R07",
+      "volume": 46036.296986714406,
+      "area": 12248.919468619782,
+      "placement": [
+        1.0,
+        0.0,
+        0.0,
+        2269.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        581.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal')]"
+    }
+  },
+  "count": 18,
+  "geometry_preserved": true,
+  "drawer_tests": [
+    {
+      "name": "Gaveta",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta001",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta001",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta001",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta002",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta002",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta002",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta003",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta003",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta003",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta004",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta004",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta004",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta005",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta005",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta005",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta006",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta006",
+      "extension_mm": 500,
+      "measured_mm": 500.0
+    },
+    {
+      "name": "Gaveta006",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta008",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta008",
+      "extension_mm": 400,
+      "measured_mm": 400.0
+    },
+    {
+      "name": "Gaveta008",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    },
+    {
+      "name": "Gaveta009",
+      "extension_mm": 100,
+      "measured_mm": 100.0
+    },
+    {
+      "name": "Gaveta009",
+      "extension_mm": 400,
+      "measured_mm": 400.0
+    },
+    {
+      "name": "Gaveta009",
+      "extension_mm": 0,
+      "measured_mm": 0.0
+    }
+  ],
+  "errors": []
+}

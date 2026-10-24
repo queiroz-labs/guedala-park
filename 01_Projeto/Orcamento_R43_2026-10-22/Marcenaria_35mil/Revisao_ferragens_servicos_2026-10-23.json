@@ -1,0 +1,152 @@
+{
+  "data": "2026-10-23",
+  "status": "estimativa por premissas, não cotação; sem alteração CAD ou orçamento central",
+  "ferragens": [
+    {
+      "item": "7 pares FGVTN500 com engates",
+      "minimo": 550,
+      "maximo": 700,
+      "premissa": "Referência anterior R$525,77; conferir kit e montagem"
+    },
+    {
+      "item": "2 pares MOVENTO400 + 4 engates",
+      "minimo": 800,
+      "maximo": 1100,
+      "premissa": "Guia pública R$356,94 Pix; composição do anúncio não confirma engates"
+    },
+    {
+      "item": "42 dobradiças comuns com bases",
+      "minimo": 504,
+      "maximo": 756,
+      "premissa": "R$12–18/conjunto; anúncio de referência R$10,50 não homologa todos os recobrimentos"
+    },
+    {
+      "item": "4 dobradiças específicas do canto",
+      "minimo": 100,
+      "maximo": 220,
+      "premissa": "Provisão R$25–55/conjunto; código a fechar"
+    },
+    {
+      "item": "6 dobradiças do espelheiro com bases",
+      "minimo": 150,
+      "maximo": 300,
+      "premissa": "Provisão R$25–50/conjunto; carga e recobrimento a fechar"
+    },
+    {
+      "item": "3 sistemas de correr, 6 folhas, incluindo trilhos",
+      "minimo": 650,
+      "maximo": 1200,
+      "premissa": "Roupeiro, maleiro e gabinete banheiro; sistemas distintos, provisão global"
+    },
+    {
+      "item": "Gaveta de limpeza: 6 rodas/guias",
+      "minimo": 120,
+      "maximo": 240,
+      "premissa": "Provisão; não somar como décimo par de corrediças"
+    },
+    {
+      "item": "4 cabideiros e suportes",
+      "minimo": 180,
+      "maximo": 350,
+      "premissa": "8 terminais e eventual apoio central; comprimentos finais pendentes"
+    },
+    {
+      "item": "Conectores, pinos, ancoragens, batentes e fixadores",
+      "minimo": 650,
+      "maximo": 1200,
+      "premissa": "Inclui 20 Minifix candidatos, 8 pinos do espelho, grelhas, prateleiras e fixação na parede; quantitativo parcial"
+    },
+    {
+      "item": "Aço bruto e fixadores dos reforços",
+      "minimo": 350,
+      "maximo": 700,
+      "premissa": "Bancada e banco; corte/furação/acabamento em serviços, sem cobrança duplicada"
+    },
+    {
+      "item": "Mecanismo e armação do cesto",
+      "minimo": 600,
+      "maximo": 1500,
+      "premissa": "Provisão de risco; nenhum mecanismo comercial integralmente validado"
+    },
+    {
+      "item": "4 dobradiças especiais do banco",
+      "minimo": 2400,
+      "maximo": 4400,
+      "premissa": "R$600–1100/unidade: hipótese entregue/importada, NÃO cotação brasileira; códigos e sentido pendentes"
+    },
+    {
+      "item": "Fretes de ferragens",
+      "minimo": 200,
+      "maximo": 400,
+      "premissa": "Somente peças; transporte dos móveis em serviços; não duplicar importação já provisionada no banco"
+    }
+  ],
+  "servicos": [
+    {
+      "item": "Conferência, executivo fabril e plano de corte",
+      "minimo": 1080,
+      "maximo": 1920,
+      "premissa": "24–32 horas-pessoa × R$45–60"
+    },
+    {
+      "item": "Fabricação em oficina",
+      "minimo": 4000,
+      "maximo": 7700,
+      "premissa": "100–140 horas-pessoa × R$40–55, corte, borda, furação, colagem, pré-montagem"
+    },
+    {
+      "item": "Instalação e regulagem no apartamento",
+      "minimo": 2560,
+      "maximo": 4400,
+      "premissa": "64–80 horas-pessoa × R$40–55: dupla por 4–5 dias de 8h"
+    },
+    {
+      "item": "Estofamento e fabricação metálica",
+      "minimo": 1400,
+      "maximo": 2400,
+      "premissa": "Somente trabalho especializado: R$700–1200 para cada especialidade"
+    },
+    {
+      "item": "Transporte de móveis e movimentação",
+      "minimo": 600,
+      "maximo": 1000,
+      "premissa": "Provisão do conjunto; confirmar acesso, elevador e viagens"
+    },
+    {
+      "item": "Indiretos, tributos e remuneração comercial",
+      "minimo": 2400,
+      "maximo": 4000,
+      "premissa": "Provisão separada, sem percentual supostamente universal; exigir preço final com nota e garantia"
+    }
+  ],
+  "totais": {
+    "ferragens": [
+      7254,
+      13066
+    ],
+    "servicos": [
+      12040,
+      21420
+    ],
+    "materiais": [
+      13464.33,
+      20646.01
+    ],
+    "sensibilidade_total": [
+      32758.33,
+      55132.009999999995
+    ]
+  },
+  "cenario_referencia": {
+    "materiais": 20800,
+    "ferragens": 9200,
+    "servicos": 16500,
+    "total": 46500
+  },
+  "meta_condicional": {
+    "materiais": 16000,
+    "ferragens": 6500,
+    "servicos": 12500,
+    "total": 35000
+  }
+}

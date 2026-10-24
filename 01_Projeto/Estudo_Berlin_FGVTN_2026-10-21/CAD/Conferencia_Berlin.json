@@ -1,0 +1,559 @@
+{
+  "fonte": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Cesto_R41_2026-10-20\\Guedala_Park_R41_Estudo_Frente500.FCStd",
+  "sha256_antes": "4d3897b07daf228ed6529f6fa87b5555ee085db9fd2fc0d979d6de236490cfcb",
+  "sha256_depois": "4d3897b07daf228ed6529f6fa87b5555ee085db9fd2fc0d979d6de236490cfcb",
+  "fonte_preservada": true,
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "contexto_bboxes_mm": {
+    "sofa": [
+      0.0,
+      1850.0,
+      90.0,
+      1100.0,
+      3650.0,
+      1000.0
+    ],
+    "geladeira": [
+      950.0,
+      6152.5,
+      0.0,
+      1551.0,
+      6900.0,
+      1866.0
+    ],
+    "banco": [
+      100.0,
+      3750.0,
+      0.0,
+      550.0000000000005,
+      5550.0,
+      470.0
+    ],
+    "encosto": [
+      0.0,
+      3750.0,
+      400.0,
+      100.0,
+      5550.0,
+      900.0
+    ]
+  },
+  "premissas": {
+    "insercao_cadeira_mm": 260,
+    "projecao_cadeira_mm": 210,
+    "centro_mesa_mm": [
+      875,
+      4650
+    ],
+    "largura_berlin_mm": 800,
+    "altura_superficie_mm": 790,
+    "altura_banco_mm": 470,
+    "sapata_orientacao": "hipotese330transversal500longitudinal",
+    "campo": "nao medido",
+    "alternativa": "tres laterais conforme pedido; sem verificacao fisica"
+  },
+  "cenarios": [
+    {
+      "cenario": "Fechada_110",
+      "tampo_bbox_mm": [
+        475.0,
+        4100.0,
+        790.0,
+        1275.0,
+        5200.0,
+        790.0
+      ],
+      "cadeiras": {
+        "Ponta_sofa": [
+          655.0,
+          3890.0,
+          0.0,
+          1095.0,
+          4360.0,
+          940.0000000000002
+        ],
+        "Ponta_cozinha": [
+          654.9999999999999,
+          4940.0,
+          0.0,
+          1095.0000000000002,
+          5410.0,
+          940.0000000000002
+        ],
+        "Lateral": [
+          1015.0,
+          4430.0,
+          0.0,
+          1485.0000000000002,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "checks": [
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            440.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 246.14
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            145.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1792.5
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            470.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 105.0
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            470.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 555.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            440.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1290.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            145.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 742.5
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            470.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 105.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            470.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 555.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            85.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 780.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            470.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1282.5
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 465.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 915.0
+        }
+      ],
+      "dist_tampo_IB6_mm": 952.5,
+      "dist_envelope_cadeira_IB6_mm": 742.5,
+      "dist_tampo_sofa_mm": 450.0,
+      "folga_envelope_cadeira_sofa_mm": 240.0
+    },
+    {
+      "cenario": "Aberta_170",
+      "tampo_bbox_mm": [
+        475.0,
+        3800.0,
+        790.0,
+        1275.0,
+        5500.0,
+        790.0
+      ],
+      "cadeiras": {
+        "Ponta_sofa": [
+          655.0,
+          3590.0000000000005,
+          0.0,
+          1095.0,
+          4060.0000000000005,
+          940.0000000000002
+        ],
+        "Ponta_cozinha": [
+          654.9999999999999,
+          5240.0,
+          0.0,
+          1095.0000000000002,
+          5710.0,
+          940.0000000000002
+        ],
+        "Lateral": [
+          1015.0,
+          4430.0,
+          0.0,
+          1485.0000000000002,
+          4870.0,
+          940.0000000000002
+        ]
+      },
+      "checks": [
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            440.0,
+            60.0
+          ],
+          "intersecao_formas_mm3": 1638637.72,
+          "distancia_formas_mm": 0.0
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            145.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 2092.5
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            310.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 105.0
+        },
+        {
+          "cadeira": "Ponta_sofa",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            310.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 555.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            440.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1590.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            145.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 442.5
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            310.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 105.0
+        },
+        {
+          "cadeira": "Ponta_cozinha",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            310.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 555.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            85.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 780.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            470.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1282.5
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 465.0
+        },
+        {
+          "cadeira": "Lateral",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 915.0
+        }
+      ],
+      "dist_tampo_IB6_mm": 652.5,
+      "dist_envelope_cadeira_IB6_mm": 442.5,
+      "dist_tampo_sofa_mm": 150.0,
+      "folga_envelope_cadeira_sofa_mm": -60.0
+    },
+    {
+      "cenario": "Aberta_cadeira_lateral",
+      "tampo_bbox_mm": [
+        475.0,
+        3800.0,
+        790.0,
+        1275.0,
+        5500.0,
+        790.0
+      ],
+      "cadeiras": {
+        "Lateral_sofa": [
+          1015.0,
+          3863.333333,
+          0.0,
+          1485.0000000000002,
+          4303.3333330000005,
+          940.0000000000002
+        ],
+        "Lateral_centro": [
+          1015.0,
+          4430.0,
+          0.0,
+          1485.0000000000002,
+          4870.0,
+          940.0000000000002
+        ],
+        "Lateral_cozinha": [
+          1015.0,
+          4996.666667,
+          0.0,
+          1485.0000000000002,
+          5436.666667,
+          940.0000000000002
+        ]
+      },
+      "checks": [
+        {
+          "cadeira": "Lateral_sofa",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            85.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 213.33
+        },
+        {
+          "cadeira": "Lateral_sofa",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            470.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1849.17
+        },
+        {
+          "cadeira": "Lateral_sofa",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 465.0
+        },
+        {
+          "cadeira": "Lateral_sofa",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 915.0
+        },
+        {
+          "cadeira": "Lateral_centro",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            85.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 780.0
+        },
+        {
+          "cadeira": "Lateral_centro",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            470.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1282.5
+        },
+        {
+          "cadeira": "Lateral_centro",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 465.0
+        },
+        {
+          "cadeira": "Lateral_centro",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 915.0
+        },
+        {
+          "cadeira": "Lateral_cozinha",
+          "obstaculo": "sofa",
+          "overlap_bbox_xy_mm": [
+            85.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 1346.67
+        },
+        {
+          "cadeira": "Lateral_cozinha",
+          "obstaculo": "geladeira",
+          "overlap_bbox_xy_mm": [
+            470.0,
+            0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 715.83
+        },
+        {
+          "cadeira": "Lateral_cozinha",
+          "obstaculo": "banco",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 465.0
+        },
+        {
+          "cadeira": "Lateral_cozinha",
+          "obstaculo": "encosto",
+          "overlap_bbox_xy_mm": [
+            0,
+            440.0
+          ],
+          "intersecao_formas_mm3": 0,
+          "distancia_formas_mm": 915.0
+        }
+      ],
+      "dist_tampo_IB6_mm": 652.5,
+      "dist_envelope_cadeira_IB6_mm": 715.8333329999996,
+      "dist_tampo_sofa_mm": 150.0,
+      "folga_envelope_cadeira_sofa_mm": null
+    }
+  ],
+  "verificacao_reabertura": {
+    "objetos": 24,
+    "formas_invalidas": []
+  }
+}

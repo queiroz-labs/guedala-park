@@ -1,0 +1,42 @@
+[
+  {
+    "tampa": 1,
+    "bolso_provisorio_mm": [
+      40,
+      96,
+      25
+    ],
+    "espuma_remanescente_mm": 25,
+    "volume_retirado_mm3": 192000.0,
+    "bbox_original": [
+      450.0,
+      972.0,
+      50.0
+    ],
+    "bbox_final": [
+      450.0,
+      972.0,
+      50.0
+    ]
+  },
+  {
+    "tampa": 2,
+    "bolso_provisorio_mm": [
+      40,
+      96,
+      25
+    ],
+    "espuma_remanescente_mm": 25,
+    "volume_retirado_mm3": 192000.0,
+    "bbox_original": [
+      450.0,
+      826.0,
+      50.0
+    ],
+    "bbox_final": [
+      450.0,
+      826.0,
+      50.0
+    ]
+  }
+]

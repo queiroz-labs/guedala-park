@@ -1,0 +1,17 @@
+{
+  "totals": {
+    "F5": 20542.24,
+    "F6": 16998.129999999997,
+    "F7": 3544.110000000004,
+    "F8": 17000.0,
+    "F9": 0.0
+  },
+  "savedXlsxChecked": true,
+  "CAD_R43_preservado": "ff9352b6c137e344525a68e65fe22290e3fa28d33cadd88235cfa24358a80449",
+  "quantitiesTests": {
+    "boxes": true,
+    "height": true,
+    "laundry": true,
+    "inputsRestored": true
+  }
+}

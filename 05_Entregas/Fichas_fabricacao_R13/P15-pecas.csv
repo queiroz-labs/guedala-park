@@ -1,0 +1,7 @@
+﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
+Peca359 | Peca360;Lateral direita / Lateral esquerda;2;580.0;330.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca361;Fundo;1;799.0;544.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca362;Base;1;799.0;312.0;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca363;Tampo;1;799.0;312.0;18.0;Greenplac Arenza (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR010;Aéreo da lavanderia - porta direita — frente com canecos;1;578.0;414.5;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR011;Aéreo da lavanderia - porta esquerda — frente com canecos;1;578.0;414.5;18.0;Greenplac Arenza (referência CAD);"face interna Branco TX; face aparente Greenplac Arenza";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

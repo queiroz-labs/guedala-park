@@ -1,3 +1,5 @@
+> **23/10/2026 — unidades entregues e reformadas:** [pesquisa com sete vídeos, 22 quadros comentados e tempos aproximados](Unidades_entregues_2026-10-23/Relatorio.html). Os dois links enviados por Elias foram separados em unidade vazia e reforma; incluída entrega do Vila das Belezas 3 como referência parcial. Sem medição real, alteração de CAD ou decisões.
+
 # Pesquisa comparativa Cury: apartamento de canto de 40,18 m²
 
 **Atualização F101 — 12/09/2026:** memorial oficial recebido após esta pesquisa. Para entrega e instalações, consultar [análise vigente](../Memorial_Cury_entrega_e_impactos.md). A pendência de obtê-lo está encerrada; a proibição de ar-condicionado e a infraestrutura de gás para chuveiro estão documentadas. O texto abaixo e o PDF preservam a pesquisa anterior; altura e plantas técnicas permanecem pendentes.

@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-22",
+  "baseline": 20542.24,
+  "revised": 16998.13,
+  "saving": 3544.11,
+  "target": 17000,
+  "remaining": 0,
+  "headroom": 1.87,
+  "details": [
+    {
+      "id": "R01",
+      "item": "Vinílico Tarkett Ambienta Design Olmo",
+      "q": 35.8,
+      "unit": "m²",
+      "price": 166.7,
+      "new": 5967.86,
+      "old": 8699.02,
+      "saving": 2731.1600000000008,
+      "note": "10 caixas, 140 réguas. Plano nominal usa 136, incluindo passagens e sobreposição. Compra após conferir medidas, lote e ficha.",
+      "source": "https://www.ligpisos.com.br/piso-ambienta-tarkett-new-design-3mm-capa-05mm-olmo"
+    },
+    {
+      "id": "R02",
+      "item": "Preparação e regularização",
+      "q": 34,
+      "unit": "m²",
+      "price": 45,
+      "new": 1530,
+      "old": 1530,
+      "saving": 0,
+      "note": "34 m² mantidos até medição e avaliação do contrapiso. Estimativa anterior.",
+      "source": "Orçamento R43, R02"
+    },
+    {
+      "id": "R03",
+      "item": "Cola e instalação do vinílico",
+      "q": 34,
+      "unit": "m²",
+      "price": 45,
+      "new": 1530,
+      "old": 1530,
+      "saving": 0,
+      "note": "Manter sistema compatível e retirada do laminado prevista em obra. Sem desconto de mão de obra inventado.",
+      "source": "Orçamento R43, R03"
+    },
+    {
+      "id": "R04",
+      "item": "Rodapés e transições",
+      "q": 35,
+      "unit": "m",
+      "price": 45,
+      "new": 1575,
+      "old": 1575,
+      "saving": 0,
+      "note": "Branco liso fosco. Verba instalada mantida; modelos baratos brilhantes não equivalem ao aprovado.",
+      "source": "Orçamento R43, R04; Pisos_e_rodapes.md"
+    },
+    {
+      "id": "R05",
+      "item": "Provisão de adequação acústica",
+      "q": 1,
+      "unit": "verba",
+      "price": 1500,
+      "new": 1500,
+      "old": 1500,
+      "saving": 0,
+      "note": "Preservada até validar o sistema completo. Não significa instalar manta solta sob LVT colado.",
+      "source": "Orçamento R43, R05"
+    },
+    {
+      "id": "R06",
+      "item": "Travertino Reale Greige Satin",
+      "q": 1,
+      "unit": "verba",
+      "price": 328.22,
+      "new": 328.22,
+      "old": 328.22,
+      "saving": 0,
+      "note": "Valor histórico mantido. Caixa e paginação precisam ser conferidas; não trocar por polido.",
+      "source": "Orçamento R43, R06 (2,4 m² × R$136,76)"
+    },
+    {
+      "id": "R07",
+      "item": "Travertino Reale Greige EXT",
+      "q": 1,
+      "unit": "verba",
+      "price": 336,
+      "new": 336,
+      "old": 336,
+      "saving": 0,
+      "note": "Valor histórico estimado mantido. Acabamento próprio do box, separado do Satin.",
+      "source": "Orçamento R43, R07"
+    },
+    {
+      "id": "R08",
+      "item": "Vivant Sauge Mate — parede focal",
+      "q": 11,
+      "unit": "caixas",
+      "price": 72.87,
+      "new": 801.57,
+      "old": 1570.8,
+      "saving": 769.2299999999999,
+      "note": "11 caixas; parede hipotética 1,24 × 2,47 m e 15% de perda. Não é quantitativo de compra validado.",
+      "source": "https://www.construmarques.com.br/produto/revestimento-ceramico-acetinado-07x24cm-caixa-0-34m-portobello-vivant-sauge-bold-204214e-83380"
+    },
+    {
+      "id": "R08B",
+      "item": "Revestimento claro das demais paredes",
+      "q": 5,
+      "unit": "m²",
+      "price": 120,
+      "new": 600,
+      "old": 0,
+      "saving": -600,
+      "note": "Nova verba explícita para substituir o verde nas outras paredes. Claro/bege fosco, SKU a escolher. Área e preço estimados.",
+      "source": "Decisões do banheiro, 18/09/2026; estimativa de R$120/m²"
+    },
+    {
+      "id": "R09",
+      "item": "Eliane Iseo Marfim AC — lavanderia",
+      "q": 3.24,
+      "unit": "m²",
+      "price": 129.47,
+      "new": 419.48,
+      "old": 583.2,
+      "saving": 163.72000000000003,
+      "note": "2 caixas de 1,62 m². Conferir lote de 10 mm. Outra versão oficial tem 2,43 m² e 8,5 mm.",
+      "source": "https://loja.tropobella.com.br/produto/porcelanato-iseo-marfim-ac-90x90-eliane/"
+    },
+    {
+      "id": "R10",
+      "item": "Azulejo genérico da cozinha — retirado",
+      "q": 0,
+      "unit": "m²",
+      "price": 120,
+      "new": 0,
+      "old": 480,
+      "saving": 480,
+      "note": "Duplicação de escopo: aprovado granito baixo + pintura fosca. Vinílico novo, pintura, pedra e retirada/preparo continuam previstos.",
+      "source": "Decisões da cozinha, 27/09; pintura, 12/10; conferência 22/10"
+    },
+    {
+      "id": "R11",
+      "item": "Assentamento e provisão de preparo",
+      "q": 1,
+      "unit": "verba",
+      "price": 1760,
+      "new": 1760,
+      "old": 1760,
+      "saving": 0,
+      "note": "12 m² × R$110 = R$1.320 + R$440 preservados para preparo adicional/cobrança mínima. Evitar dupla contagem na pintura.",
+      "source": "Conferência de escopo 22/10; serviços estimados"
+    },
+    {
+      "id": "R12",
+      "item": "Argamassa, rejunte e selantes",
+      "q": 1,
+      "unit": "verba",
+      "price": 650,
+      "new": 650,
+      "old": 650,
+      "saving": 0,
+      "note": "Mantidos. Impermeabilização está em O04, fora desta categoria; não foi eliminada.",
+      "source": "Orçamento R43, R12"
+    }
+  ],
+  "area": {
+    "rows": [
+      {
+        "name": "Peca",
+        "length": 2450,
+        "width": 2950,
+        "x": 4950,
+        "y": 1000
+      },
+      {
+        "name": "Peca001",
+        "length": 1200,
+        "width": 900,
+        "x": 3750,
+        "y": 3050
+      },
+      {
+        "name": "Peca002",
+        "length": 2300,
+        "width": 2950,
+        "x": 2550,
+        "y": 0
+      },
+      {
+        "name": "Peca003",
+        "length": 2450,
+        "width": 3800,
+        "x": 0,
+        "y": 1850
+      },
+      {
+        "name": "Peca004",
+        "length": 300,
+        "width": 1400,
+        "x": 2450,
+        "y": 4050
+      },
+      {
+        "name": "Peca005",
+        "length": 1300,
+        "width": 900,
+        "x": 2450,
+        "y": 3050
+      },
+      {
+        "name": "Peca006",
+        "length": 3520,
+        "width": 1550,
+        "x": 0,
+        "y": 5450
+      },
+      {
+        "name": "Peca007",
+        "length": 1290,
+        "width": 1610,
+        "x": 3560,
+        "y": 5390
+      },
+      {
+        "name": "Peca008",
+        "length": 2090,
+        "width": 1240,
+        "x": 2760,
+        "y": 4050
+      }
+    ],
+    "vinylSumM2": 31.4485,
+    "overlapsInSavedCoordinates": [
+      {
+        "a": "Peca003",
+        "b": "Peca006",
+        "m2": 0.49
+      }
+    ],
+    "R44SameFloorProperties": true,
+    "note": "Retângulos nominais não são quantitativo executivo. Sobreposição de pisos de sala/cozinha impede usar soma bruta como medição final. Orçamento mantém 34 m² e 11 caixas até paginação."
+  },
+  "tests": {
+    "boxes": true,
+    "height": true,
+    "laundry": true,
+    "inputsRestored": true
+  },
+  "status": "Estimativa nominal em aproximadamente R$17 mil; margem R$1,87. Compra e serviços a confirmar. R$440 de preparo preservados. Frete em G02."
+}

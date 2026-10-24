@@ -1,0 +1,206 @@
+{
+  "premissas": "Frente e armação gabarito assumidas madeira homogênea650/750/900kg/m³. Não material aprovado. Armação inclui13peças004..016; exclui pivôs, saco, ferragens, pega, mãos, choques. Baseado nas AABB retangulares do export R44. Eixo idealX emY6440/Z120. Roupa8kg no centro ou qualquer ponto do envelope. Não substitui CAD comercial.",
+  "frame_volume_m3": 0.002769192,
+  "frame_mass_scenarios": {
+    "650": 1.7999748000000002,
+    "750": 2.0768940000000002,
+    "900": 2.4922728000000003
+  },
+  "pecas": [
+    "PecaCestoR004",
+    "PecaCestoR005",
+    "PecaCestoR006",
+    "PecaCestoR007",
+    "PecaCestoR008",
+    "PecaCestoR009",
+    "PecaCestoR010",
+    "PecaCestoR011",
+    "PecaCestoR012",
+    "PecaCestoR013",
+    "PecaCestoR014",
+    "PecaCestoR015",
+    "PecaCestoR016"
+  ],
+  "resultados": [
+    {
+      "rho": 650,
+      "angle": 0,
+      "front_Nm": 2.0055651993877497,
+      "frame_Nm": -2.1415990294225797,
+      "clothes_center_Nm": -9.80665,
+      "total_center_Nm": -9.942683830034829,
+      "total_envelope_Nm": [
+        -17.788003830034828,
+        -2.09736383003483
+      ]
+    },
+    {
+      "rho": 650,
+      "angle": 15,
+      "front_Nm": 4.409232066261597,
+      "frame_Nm": -1.654973883914944,
+      "clothes_center_Nm": -4.903830484799348,
+      "total_center_Nm": -2.149572302452695,
+      "total_envelope_Nm": [
+        -13.788605967802265,
+        9.489461362896872
+      ]
+    },
+    {
+      "rho": 650,
+      "angle": 30,
+      "front_Nm": 6.512417054420229,
+      "frame_Nm": -1.0555650031921617,
+      "clothes_center_Nm": 0.33317697397733326,
+      "total_center_Nm": 5.790029025205401,
+      "total_envelope_Nm": [
+        -8.849537395612728,
+        20.42959544602353
+      ]
+    },
+    {
+      "rho": 650,
+      "angle": 45,
+      "front_Nm": 8.171791582598164,
+      "frame_Nm": -0.38422111190547953,
+      "clothes_center_Nm": 5.547478972578446,
+      "total_center_Nm": 13.335049443271132,
+      "total_envelope_Nm": [
+        -3.3073874744642078,
+        29.977486361006463
+      ]
+    },
+    {
+      "rho": 650,
+      "angle": 55,
+      "front_Nm": 8.974142530035873,
+      "frame_Nm": 0.08082125783072888,
+      "clothes_center_Nm": 8.834783951685967,
+      "total_center_Nm": 17.88974773955257,
+      "total_envelope_Nm": [
+        0.5368372197163573,
+        35.24265825938878
+      ]
+    },
+    {
+      "rho": 750,
+      "angle": 0,
+      "front_Nm": 2.31411369160125,
+      "frame_Nm": -2.4710758031799,
+      "clothes_center_Nm": -9.80665,
+      "total_center_Nm": -9.96361211157865,
+      "total_envelope_Nm": [
+        -17.80893211157865,
+        -2.1182921115786497
+      ]
+    },
+    {
+      "rho": 750,
+      "angle": 15,
+      "front_Nm": 5.087575461071075,
+      "frame_Nm": -1.909585250671089,
+      "clothes_center_Nm": -4.903830484799348,
+      "total_center_Nm": -1.7258402743993626,
+      "total_envelope_Nm": [
+        -13.364873939748932,
+        9.913193390950205
+      ]
+    },
+    {
+      "rho": 750,
+      "angle": 30,
+      "front_Nm": 7.514327370484882,
+      "frame_Nm": -1.217959619067879,
+      "clothes_center_Nm": 0.33317697397733326,
+      "total_center_Nm": 6.629544725394336,
+      "total_envelope_Nm": [
+        -8.010021695423795,
+        21.269111146212467
+      ]
+    },
+    {
+      "rho": 750,
+      "angle": 45,
+      "front_Nm": 9.428990287613269,
+      "frame_Nm": -0.4433320521986301,
+      "clothes_center_Nm": 5.547478972578446,
+      "total_center_Nm": 14.533137207993086,
+      "total_envelope_Nm": [
+        -2.1092997097422526,
+        31.175574125728417
+      ]
+    },
+    {
+      "rho": 750,
+      "angle": 55,
+      "front_Nm": 10.354779842349085,
+      "frame_Nm": 0.09325529749699482,
+      "clothes_center_Nm": 8.834783951685967,
+      "total_center_Nm": 19.282819091532048,
+      "total_envelope_Nm": [
+        1.9299085716958349,
+        36.63572961136826
+      ]
+    },
+    {
+      "rho": 900,
+      "angle": 0,
+      "front_Nm": 2.7769364299214994,
+      "frame_Nm": -2.96529096381588,
+      "clothes_center_Nm": -9.80665,
+      "total_center_Nm": -9.995004533894381,
+      "total_envelope_Nm": [
+        -17.84032453389438,
+        -2.149684533894381
+      ]
+    },
+    {
+      "rho": 900,
+      "angle": 15,
+      "front_Nm": 6.105090553285288,
+      "frame_Nm": -2.2915023008053073,
+      "clothes_center_Nm": -4.903830484799348,
+      "total_center_Nm": -1.0902422323193672,
+      "total_envelope_Nm": [
+        -12.729275897668938,
+        10.5487914330302
+      ]
+    },
+    {
+      "rho": 900,
+      "angle": 30,
+      "front_Nm": 9.017192844581857,
+      "frame_Nm": -1.4615515428814547,
+      "clothes_center_Nm": 0.33317697397733326,
+      "total_center_Nm": 7.888818275677735,
+      "total_envelope_Nm": [
+        -6.750748145140395,
+        22.528384696495866
+      ]
+    },
+    {
+      "rho": 900,
+      "angle": 45,
+      "front_Nm": 11.31478834513592,
+      "frame_Nm": -0.5319984626383564,
+      "clothes_center_Nm": 5.547478972578446,
+      "total_center_Nm": 16.33026885507601,
+      "total_envelope_Nm": [
+        -0.31216806265932817,
+        32.97270577281134
+      ]
+    },
+    {
+      "rho": 900,
+      "angle": 55,
+      "front_Nm": 12.425735810818901,
+      "frame_Nm": 0.11190635699639381,
+      "clothes_center_Nm": 8.834783951685967,
+      "total_center_Nm": 21.372426119501263,
+      "total_envelope_Nm": [
+        4.01951559966505,
+        38.72533663933748
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "samples": [
+    {
+      "control": "ControlePortaR12",
+      "panel": "FrenteComumR12",
+      "angle": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR12",
+      "panel": "FrenteComumR12",
+      "angle": 21.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR12",
+      "panel": "FrenteComumR12",
+      "angle": 43,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR12",
+      "panel": "FrenteComumR12",
+      "angle": 64.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR12",
+      "panel": "FrenteComumR12",
+      "angle": 86,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR018",
+      "panel": "FrenteComumR018",
+      "angle": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR018",
+      "panel": "FrenteComumR018",
+      "angle": 21.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR018",
+      "panel": "FrenteComumR018",
+      "angle": 43,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR018",
+      "panel": "FrenteComumR018",
+      "angle": 64.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "control": "ControlePortaR018",
+      "panel": "FrenteComumR018",
+      "angle": 86,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "passed": true,
+  "source_unchanged": true,
+  "limits": "Somente frentes inferiores contra volume ideal da entrada fechada. Não valida pessoas, ferragens, hidráulica, uso simultâneo ou medidas reais."
+}

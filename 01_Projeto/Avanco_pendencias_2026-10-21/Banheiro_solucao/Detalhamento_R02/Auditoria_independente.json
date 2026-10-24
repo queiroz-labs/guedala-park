@@ -1,0 +1,135 @@
+{
+  "combinations": [
+    {
+      "front_mm": 0,
+      "rear_mm": 0,
+      "hits": []
+    },
+    {
+      "front_mm": 0,
+      "rear_mm": 116.5,
+      "hits": []
+    },
+    {
+      "front_mm": 0,
+      "rear_mm": 233,
+      "hits": []
+    },
+    {
+      "front_mm": 134,
+      "rear_mm": 0,
+      "hits": []
+    },
+    {
+      "front_mm": 134,
+      "rear_mm": 116.5,
+      "hits": []
+    },
+    {
+      "front_mm": 134,
+      "rear_mm": 233,
+      "hits": []
+    },
+    {
+      "front_mm": 268,
+      "rear_mm": 0,
+      "hits": []
+    },
+    {
+      "front_mm": 268,
+      "rear_mm": 116.5,
+      "hits": []
+    },
+    {
+      "front_mm": 268,
+      "rear_mm": 233,
+      "hits": []
+    }
+  ],
+  "bolt_extraction": [
+    {
+      "X": 2771,
+      "Z": 260,
+      "hits": [],
+      "wall_clearance_mm": 5.5
+    },
+    {
+      "X": 2771,
+      "Z": 680,
+      "hits": [],
+      "wall_clearance_mm": 5.5
+    },
+    {
+      "X": 3349,
+      "Z": 260,
+      "hits": [],
+      "wall_clearance_mm": 583.5
+    },
+    {
+      "X": 3349,
+      "Z": 680,
+      "hits": [],
+      "wall_clearance_mm": 583.5
+    }
+  ],
+  "stop_contacts": [],
+  "geometry_measurements": {
+    "overlap_mm": 24.0,
+    "leaf_heights_mm": [
+      500.00000000000034,
+      500.00000000000034
+    ],
+    "gap_to_stone_mm": 2.0,
+    "module_height_mm": 543.0,
+    "hardware_depth_gap_mm": 3.0,
+    "normal_entry_clearance_mm": 70.0,
+    "maintenance_entry_clearance_after20_mm": 50.0,
+    "module_clearance_to_toilet_after_shift_mm": 37.5,
+    "dowels_clear_box_after20_mm": 5,
+    "rear_cavity_exposed_clearance_mm": 6
+  },
+  "hypotheses": [
+    "Carros/guias são envelopes; folga radial0,325 só descreve esses envelopes. Não é medida do kit.",
+    "A extração de parafusos foi testada com cilindroØ11; não demonstra ergonomia da mão/chave junto à parede.",
+    "Passagem do quadro tem folga nominal2 sob pedra; definir tolerâncias reais e junta removível, sem colagem à pedra.",
+    "Suspensão existente e resistência das chapas não estão especificadas."
+  ],
+  "tolerance_scenarios": {
+    "note": "Independent arithmetic stress cases, not measured production tolerances. Do not add these to claim an overall tolerance guarantee.",
+    "overlap_nominal24_minus4_plus4_mm": [
+      20,
+      28
+    ],
+    "depth_gap3_minus1_per_component_mm": 1,
+    "stone_gap2_minus1_mm": 1,
+    "moving_envelope_expand_1_mm": [
+      [],
+      []
+    ],
+    "door_leaf_length_vs_service_gap_mm": [
+      [
+        700,
+        50
+      ],
+      [
+        725,
+        25
+      ],
+      [
+        740,
+        10
+      ],
+      [
+        750,
+        0
+      ],
+      [
+        800,
+        -50
+      ]
+    ],
+    "rail_slot3_15_vs_test_pin2_5_radial_mm": 0.32499999999999996
+  },
+  "invalid_shapes": [],
+  "source_sha256": "b30ae9ab9c82620ecdab26b2cfae589037954356d515b483b5b6849f76e4bc26"
+}

@@ -1,0 +1,2050 @@
+[
+  {
+    "obj": "Folha",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Cabeceira porta 4 - abrir para direita — folha proposta",
+      "Movimento": "Proposta R11: 71B3550/calço0/K5/recobrimento16; regulagem0.5; limites86 não comprovam batente. Após mudar dimensões, revisar apoios/canecos e montagem.",
+      "bbox": [
+        -441.75,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        307.0
+      ],
+      "volume": 2397128.0684957914
+    }
+  },
+  {
+    "obj": "Folha001",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Cabeceira porta 3 - abrir para esquerda — folha proposta",
+      "Movimento": "R18: direita com71B3550/calço0/K5/recobrimento16. Dois18 comuns no divisor compartilhado. Curso86 de estudo; batente/fixação/carga/tolerâncias pendentes.",
+      "bbox": [
+        -885.5,
+        -445.75,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        307.0
+      ],
+      "volume": 2397128.0684957914
+    }
+  },
+  {
+    "obj": "Folha002",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Cabeceira porta 2 - abrir para direita — folha proposta",
+      "Movimento": "Proposta R11: 71B3550/calço0/K5/recobrimento16; regulagem0.5; limites86 não comprovam batente. Após mudar dimensões, revisar apoios/canecos e montagem.",
+      "bbox": [
+        -1329.75,
+        -889.5,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        307.0
+      ],
+      "volume": 2399882.068495791
+    }
+  },
+  {
+    "obj": "Peca275",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Espelho lateral · reserva",
+      "Status": "Estudo dimensional; conferir antes de fabricar",
+      "bbox": [
+        5385.0,
+        5390.0,
+        3365.0,
+        3865.0,
+        200.0,
+        2000.0
+      ],
+      "volume": 4500000.0
+    }
+  },
+  {
+    "obj": "Folha004",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Gabinete da pia - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -324.0,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        719.0
+      ],
+      "volume": 4136513.0684957905
+    }
+  },
+  {
+    "obj": "Folha005",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Gabinete da pia - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -648.0,
+        -326.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        719.0
+      ],
+      "volume": 4136513.0684957905
+    }
+  },
+  {
+    "obj": "Folha006",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "D · acima do depurador - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -324.0,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        591.0
+      ],
+      "volume": 3394625.0684957914
+    }
+  },
+  {
+    "obj": "Folha007",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "D · acima do depurador - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -648.0,
+        -326.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        591.0
+      ],
+      "volume": 3394625.0684957914
+    }
+  },
+  {
+    "obj": "Folha008",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "C · uso diário - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -272.5,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        1017.0
+      ],
+      "volume": 4909381.602743686
+    }
+  },
+  {
+    "obj": "Folha009",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "C · uso diário - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -545.0,
+        -274.5,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        1017.0
+      ],
+      "volume": 4909381.602743686
+    }
+  },
+  {
+    "obj": "Folha010",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "B · acima do micro - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -347.5,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        609.0
+      ],
+      "volume": 3756137.0684957914
+    }
+  },
+  {
+    "obj": "Folha011",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "B · acima do micro - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -695.0,
+        -349.5,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        609.0
+      ],
+      "volume": 3756137.0684957914
+    }
+  },
+  {
+    "obj": "Folha012",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "A · acima da geladeira - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -399.5,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        583.0
+      ],
+      "volume": 4139195.0684957914
+    }
+  },
+  {
+    "obj": "Folha013",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "A · acima da geladeira - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -799.0,
+        -401.5,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        583.0
+      ],
+      "volume": 4139195.0684957914
+    }
+  },
+  {
+    "obj": "Modulo013",
+    "tipo": "App::Part",
+    "p": {
+      "Altura": "900.0 mm",
+      "Comprimento": "590.0 mm",
+      "Label": "Gabinete tanque e cesto",
+      "bbox": [
+        4260.0,
+        4850.0,
+        6370.0,
+        7000.0,
+        0.0,
+        920.0
+      ],
+      "volume": 185753361.59265354
+    }
+  },
+  {
+    "obj": "Folha014",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Aéreo da lavanderia - porta direita — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -416.5,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        579.0
+      ],
+      "volume": 4287443.0684957905
+    }
+  },
+  {
+    "obj": "Folha015",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Aéreo da lavanderia - porta esquerda — folha proposta",
+      "Movimento": "71B3550 quatro barras; junta externa2, K5/calço0/recobrimento16 e regulagem0.5 propostos. Batente real70T3553/fixação/peso/regulagem pendentes.",
+      "bbox": [
+        -833.0,
+        -418.5,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        579.0
+      ],
+      "volume": 4287443.06849579
+    }
+  },
+  {
+    "obj": "Modulo018",
+    "tipo": "App::Part",
+    "p": {
+      "Altura": "750.0 mm",
+      "Comprimento": "600.0 mm",
+      "Label": "Armário espelhado raso",
+      "bbox": [
+        2760.0,
+        3360.0,
+        5140.0,
+        5290.0,
+        1150.0,
+        1900.0
+      ],
+      "volume": 24857357.81540027
+    }
+  },
+  {
+    "obj": "FolhaEscritorioR11",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Escritório porta 4 - abrir para direita — folha proposta",
+      "Movimento": "Proposta R11: 71B3550/calço0/K5/recobrimento16; regulagem0.5; limites86 não comprovam batente. Após mudar dimensões, revisar apoios/canecos e montagem.",
+      "bbox": [
+        -498.0,
+        -2.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        549.0
+      ],
+      "volume": 4867529.068495791
+    }
+  },
+  {
+    "obj": "FolhaEscritorioR001",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Escritório porta 3 - abrir para esquerda — folha proposta",
+      "Movimento": "R18: direita com71B3550/calço0/K5/recobrimento16. Dois18 comuns no divisor compartilhado. Curso86 de estudo; batente/fixação/carga/tolerâncias pendentes.",
+      "bbox": [
+        -998.0,
+        -502.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        549.0
+      ],
+      "volume": 4867529.068495791
+    }
+  },
+  {
+    "obj": "FolhaEscritorioR002",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Escritório porta 2 - abrir para direita — folha proposta",
+      "Movimento": "Proposta R11: 71B3550/calço0/K5/recobrimento16; regulagem0.5; limites86 não comprovam batente. Após mudar dimensões, revisar apoios/canecos e montagem.",
+      "bbox": [
+        -1498.0,
+        -1002.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        549.0
+      ],
+      "volume": 4867529.068495791
+    }
+  },
+  {
+    "obj": "FolhaEscritorioR003",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Escritório porta 1 - abrir para esquerda — folha proposta",
+      "Movimento": "R18: direita com71B3550/calço0/K5/recobrimento16. Dois18 comuns no divisor compartilhado. Curso86 de estudo; batente/fixação/carga/tolerâncias pendentes.",
+      "bbox": [
+        -1998.0,
+        -1502.0,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        549.0
+      ],
+      "volume": 4867529.068495791
+    }
+  },
+  {
+    "obj": "FolhaBanheiroR12",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Gabinete do banheiro - porta direita — folha proposta",
+      "Movimento": "R12 proposta: quatro barras71B3550/K5/calço0; estudo86 não é batente físico. Peso/material/fixação/hidráulica pendentes."
+    }
+  },
+  {
+    "obj": "FolhaBanheiroR001",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Gabinete do banheiro - porta esquerda — folha proposta",
+      "Movimento": "R12 proposta: quatro barras71B3550/K5/calço0; estudo86 não é batente físico. Peso/material/fixação/hidráulica pendentes."
+    }
+  },
+  {
+    "obj": "FolhaBanheiroR002",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Armário espelhado raso - porta direita — folha proposta",
+      "Movimento": "R12 proposta: quatro barras71B3550/K5/calço0; estudo86 não é batente físico. Peso/material/fixação/hidráulica pendentes.",
+      "bbox": [
+        -299.0,
+        -2.0,
+        -7.11e-14,
+        21.99999999999993,
+        1.0,
+        749.0
+      ],
+      "volume": 4849909.602743687
+    }
+  },
+  {
+    "obj": "PainelBanheiroR002",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Painel18 comum · Espelhado · esquerda - proposta",
+      "Status": "Proposta, sem liberação de corte/furação/compra",
+      "bbox": [
+        -297.0,
+        0.0,
+        4.0,
+        22.0,
+        0.0,
+        748.0
+      ],
+      "volume": 3998808.0
+    }
+  },
+  {
+    "obj": "FolhaBanheiroR003",
+    "tipo": "App::Part",
+    "p": {
+      "CursoEstudo": "86.0 deg",
+      "Label": "Armário espelhado raso - porta esquerda — folha proposta",
+      "Movimento": "R12 proposta: quatro barras71B3550/K5/calço0; estudo86 não é batente físico. Peso/material/fixação/hidráulica pendentes.",
+      "bbox": [
+        -598.0,
+        -301.0,
+        -7.11e-14,
+        21.99999999999993,
+        1.0,
+        749.0
+      ],
+      "volume": 4849909.602743687
+    }
+  },
+  {
+    "obj": "PainelBanheiroR003",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Painel18 comum · Espelhado · direita - proposta",
+      "Status": "Proposta, sem liberação de corte/furação/compra",
+      "bbox": [
+        0.0,
+        297.0,
+        4.0,
+        22.0,
+        0.0,
+        748.0
+      ],
+      "volume": 3998808.0
+    }
+  },
+  {
+    "obj": "DobradicaComumR040",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta direita — z80 (proposta)",
+      "bbox": [
+        -44.50000000000004,
+        -7.599999995655784,
+        9.199999999999918,
+        89.93100386385694,
+        51.50000000000001,
+        108.50000000000001
+      ],
+      "volume": 36256.33616640814
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR040",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR208",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR208",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR209",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR209",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR210",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR210",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR211",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR211",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR212",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR212",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR040",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta direita · z80",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "DobradicaComumR041",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta direita — z375.0 (proposta)",
+      "bbox": [
+        -44.50000000000004,
+        -7.599999995655784,
+        9.199999999999918,
+        89.93100386385694,
+        346.5,
+        403.5
+      ],
+      "volume": 36256.33616640817
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR041",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR213",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR213",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR214",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR214",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR215",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR215",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR216",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR216",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR217",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR217",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR041",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta direita · z375",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "DobradicaComumR042",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta direita — z670.0 (proposta)",
+      "bbox": [
+        -44.50000000000004,
+        -7.599999995655784,
+        9.199999999999918,
+        89.93100386385694,
+        641.5,
+        698.5
+      ],
+      "volume": 36256.3361664081
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR042",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR218",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR218",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR219",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR219",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR220",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR220",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR221",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR221",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR222",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR222",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR042",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta direita · z670",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "EspelhoAplicadoR12",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Espelho4 sobre painel comum - proposta",
+      "Status": "Proposta: vidro/adesivo/retenção/arestas/carga devem ser definidos com fornecedor",
+      "bbox": [
+        -297.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        748.0
+      ],
+      "volume": 888624.0
+    }
+  },
+  {
+    "obj": "DobradicaComumR043",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta esquerda — z80 (proposta)",
+      "bbox": [
+        -592.4000000043443,
+        -555.5,
+        9.199999999999918,
+        89.93100386385694,
+        51.499999999999986,
+        108.5
+      ],
+      "volume": 36256.33616640809
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR043",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR223",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR223",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR224",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR224",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR225",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR225",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR226",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR226",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR227",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR227",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR043",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta esquerda · z80",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "DobradicaComumR044",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta esquerda — z375.0 (proposta)",
+      "bbox": [
+        -592.4000000043443,
+        -555.5,
+        9.199999999999918,
+        89.93100386385694,
+        346.5,
+        403.5
+      ],
+      "volume": 36256.336166408095
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR044",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR228",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR228",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR229",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR229",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR230",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR230",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR231",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR231",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR232",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR232",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR044",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta esquerda · z375",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "DobradicaComumR045",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — Armário espelhado raso - porta esquerda — z670.0 (proposta)",
+      "bbox": [
+        -592.4000000043443,
+        -555.5,
+        9.199999999999918,
+        89.93100386385694,
+        641.5,
+        698.5
+      ],
+      "volume": 36256.33616640808
+    }
+  },
+  {
+    "obj": "AjusteProfundidadeR045",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Regulagem comum de profundidade0.5 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        -28.93100386385693,
+        51.80000000000007
+      ],
+      "volume": 30365.10418910925
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR233",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo0 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "FerragemComumR233",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0019416036_v(70T510M14.02) · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        1.999999999999941,
+        14.924966522163784,
+        -7.55,
+        7.55,
+        -29.43100386385693,
+        22.499999999999993
+      ],
+      "volume": 6037.361645221574
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR234",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo1 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "FerragemComumR234",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088251_v(70T310M02.01) · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        3.00956137065024,
+        21.239520640344605,
+        -8.875000000000002,
+        8.875000000000002,
+        -28.02658265721038,
+        46.17472814201865
+      ],
+      "volume": 14263.690548865803
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR235",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo2 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -4.808290086732289,
+        20.368022431754728,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387895
+      ],
+      "volume": 1718.8045025149206
+    }
+  },
+  {
+    "obj": "FerragemComumR235",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088783_v(71T310-04) · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -4.8082900867323195,
+        20.36802243175471,
+        -7.275,
+        7.275,
+        39.39643210916104,
+        50.12682466387883
+      ],
+      "volume": 1718.8045025149202
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR236",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo3 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -9.842178123147386,
+        12.159287659461247,
+        -3.65,
+        3.65,
+        31.14110953523912,
+        44.93122737847212
+      ],
+      "volume": 798.0583061005345
+    }
+  },
+  {
+    "obj": "FerragemComumR236",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015088853_v(70T310-05.02) · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -9.84217812314743,
+        12.159287659461224,
+        -3.650000000000001,
+        3.650000000000001,
+        31.141109535239135,
+        44.93122737847209
+      ],
+      "volume": 798.0583061005349
+    }
+  },
+  {
+    "obj": "CorpoArticuladoR237",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Corpo4 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -10.400000004344218,
+        26.500000000000025,
+        -28.5,
+        28.499999999999993,
+        35.30000000000007,
+        51.30000000000007
+      ],
+      "volume": 7547.189648170128
+    }
+  },
+  {
+    "obj": "FerragemComumR237",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "bau0015089612_v(71B355M01.01) · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        -10.400000004344236,
+        26.500000000000007,
+        -28.5,
+        28.499999999999993,
+        35.3,
+        51.3
+      ],
+      "volume": 7547.189648170124
+    }
+  },
+  {
+    "obj": "CalcoComumR045",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "173H7100 calço0 · Armário espelhado raso - porta esquerda · z670",
+      "bbox": [
+        0.0,
+        8.5,
+        -28.150000000000006,
+        28.15,
+        -20.5,
+        21.009999999999994
+      ],
+      "volume": 5891.234385224513
+    }
+  },
+  {
+    "obj": "EspelhoAplicadoR001",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Espelho4 sobre painel comum - proposta001",
+      "Status": "Proposta: vidro/adesivo/retenção/arestas/carga devem ser definidos com fornecedor",
+      "bbox": [
+        0.0,
+        297.0,
+        0.0,
+        4.0,
+        0.0,
+        748.0
+      ],
+      "volume": 888624.0
+    }
+  },
+  {
+    "obj": "PortaEntradaBanheiroR12",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Entrada banheiro - folha700 de referência, NÃO medida",
+      "Status": "Estudo:90 reproduz porta original aberta,0 fecha volume ideal. Eixo/folha/maçaneta reais desconhecidos. Fechar entrada antes de abrir gabinete inferior; sem intertravamento físico.",
+      "bbox": [
+        2840.0,
+        2860.0,
+        4050.0,
+        4750.0,
+        0.0,
+        2050.0
+      ],
+      "volume": 28700000.0
+    }
+  },
+  {
+    "obj": "PrateleiraEspelhadoR12",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Prateleira removível espelhado 1 - proposta",
+      "Status": "Proposta18 com2mm lateral/frente/trás. Quatro apoios comuns por prateleira candidatos, sem modelo de pino/furação/carga liberados.",
+      "bbox": [
+        -580.0,
+        -20.0,
+        26.0,
+        130.0,
+        244.0,
+        262.0
+      ],
+      "volume": 1048320.0
+    }
+  },
+  {
+    "obj": "PrateleiraEspelhadoR001",
+    "tipo": "Part::Box",
+    "p": {
+      "Label": "Prateleira removível espelhado 2 - proposta",
+      "Status": "Proposta18 com2mm lateral/frente/trás. Quatro apoios comuns por prateleira candidatos, sem modelo de pino/furação/carga liberados.",
+      "bbox": [
+        -580.0,
+        -20.0,
+        26.0,
+        130.0,
+        488.0,
+        506.0
+      ],
+      "volume": 1048320.0
+    }
+  },
+  {
+    "obj": "BasculanteCestoR15",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Cesto/frontais - giro ideal55, sem ferragem selecionada",
+      "bbox": [
+        -570.0,
+        -20.0,
+        0.0,
+        320.0,
+        115.0,
+        671.0
+      ],
+      "volume": 39930233.59265359
+    }
+  },
+  {
+    "obj": "TampaBancoR003",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Folha/aspirador/jogos - tampa fina/almofada removível, proposta nova"
+    }
+  },
+  {
+    "obj": "VizinhaComumR18",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Cabeceira porta 1 - abrir para esquerda — folha proposta",
+      "Movimento": "71B3550/calço0/K6/recobrimento17; duas candidatas, dimensões441.75x306 mantidas. Apoio18 simples em1757..1775, faixa25/cantoR04 preservados. Não libera furação/carga/batente.",
+      "bbox": [
+        -1774.0,
+        -1333.75,
+        -7.11e-14,
+        17.99999999999993,
+        1.0,
+        307.0
+      ],
+      "volume": 2399882.0684957914
+    }
+  },
+  {
+    "obj": "DobradicaComumR046",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — C · uso diário - porta direita — z509 (proposta R29, 3ª dobradiça)",
+      "bbox": [
+        -44.50000000000004,
+        -7.599999995655784,
+        5.199999999999918,
+        85.93100386385694,
+        480.5,
+        537.5
+      ],
+      "volume": 36256.33616640812
+    }
+  },
+  {
+    "obj": "DobradicaComumR047",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "71B3550 — C · uso diário - porta esquerda — z509 (proposta R29, 3ª dobradiça)",
+      "bbox": [
+        -539.4000000043443,
+        -502.5,
+        5.199999999999918,
+        85.93100386385694,
+        480.5,
+        537.5
+      ],
+      "volume": 36256.3361664081
+    }
+  },
+  {
+    "obj": "BancoFolhaR31",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "HISTORICO folha mesa sob medida 300x750 - NAO Berlin",
+      "bbox": [
+        -793.0,
+        -43.0,
+        76.0,
+        376.0,
+        310.0,
+        340.0
+      ],
+      "volume": 6750000.0
+    }
+  },
+  {
+    "obj": "ApoioCestoC01R31",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "C01 · apoio inferior do cesto · proposto",
+      "bbox": [
+        -18.0,
+        0.0,
+        50.0,
+        630.0,
+        0.0,
+        98.0
+      ],
+      "volume": 1023119.9999999998
+    }
+  },
+  {
+    "obj": "ApoioCestoC02R31",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "C02 · apoio inferior do cesto · proposto",
+      "bbox": [
+        -590.0,
+        -572.0,
+        50.0,
+        630.0,
+        0.0,
+        98.0
+      ],
+      "volume": 1023119.9999999998
+    }
+  },
+  {
+    "obj": "ApoioCestoC03R31",
+    "tipo": "Part::Feature",
+    "p": {
+      "Label": "C03 · apoio inferior do cesto · proposto",
+      "bbox": [
+        -572.0,
+        -18.0,
+        594.0,
+        612.0,
+        0.0,
+        80.0
+      ],
+      "volume": 797760.0
+    }
+  },
+  {
+    "obj": "BC43_FolhaEsquerda",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Folha Esquerda — ferragens internas",
+      "bbox": [
+        2780.0,
+        3072.0,
+        4822.0,
+        4849.0,
+        215.5,
+        729.5
+      ],
+      "volume": 2668995.570635615
+    }
+  },
+  {
+    "obj": "BC43_PainelEsquerda",
+    "tipo": "PartDesign::Feature",
+    "p": {
+      "Label": "Folha 292×500×18 — cava18×80×6",
+      "bbox": [
+        0.0,
+        292.0,
+        0.0,
+        18.0,
+        -2.13e-13,
+        500.0
+      ],
+      "volume": 2604708.3224271396
+    }
+  },
+  {
+    "obj": "BC43_FolhaDireita",
+    "tipo": "App::Part",
+    "p": {
+      "Label": "Folha Direita — ferragens internas",
+      "bbox": [
+        3048.0,
+        3340.0,
+        4852.0,
+        4879.0,
+        215.5,
+        729.5
+      ],
+      "volume": 2668995.5706356154
+    }
+  },
+  {
+    "obj": "BC43_PainelDireita",
+    "tipo": "PartDesign::Feature",
+    "p": {
+      "Label": "Folha 292×500×18 — cava18×80×001",
+      "bbox": [
+        0.0,
+        292.0,
+        0.0,
+        18.0,
+        -2.13e-13,
+        500.0
+      ],
+      "volume": 2604708.3224271396
+    }
+  },
+  {
+    "obj": "FGVTN_R44_FECHADA_Part__Feature003",
+    "tipo": "PartDesign::Feature",
+    "p": {
+      "Label": "Espelhar54FGOC12 - SLOW1",
+      "bbox": [
+        -16.950000000000458,
+        3.849999999999911,
+        1.749999999999996,
+        10.550000000000006,
+        -144.0,
+        70.00000000000006
+      ],
+      "volume": 15281.109637495032
+    }
+  },
+  {
+    "obj": "FGVTN_R44_ABERTA_Part__Feature003",
+    "tipo": "PartDesign::Feature",
+    "p": {
+      "Label": "Espelhar54FGOC12 - SLOW001",
+      "bbox": [
+        -16.950000000000458,
+        3.849999999999911,
+        1.749999999999996,
+        10.550000000000006,
+        -144.0,
+        70.00000000000006
+      ],
+      "volume": 15281.109637495032
+    }
+  }
+]

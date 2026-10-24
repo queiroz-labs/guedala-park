@@ -1,0 +1,22 @@
+[
+  {
+    "hardware": "GavetaComumR080",
+    "wood": "GavetaComumR074",
+    "volume_mm3": 52.13003768019777
+  },
+  {
+    "hardware": "GavetaComumR082",
+    "wood": "GavetaComumR074",
+    "volume_mm3": 54.03238967800223
+  },
+  {
+    "hardware": "GavetaComumR092",
+    "wood": "GavetaComumR086",
+    "volume_mm3": 52.130037680181985
+  },
+  {
+    "hardware": "GavetaComumR094",
+    "wood": "GavetaComumR086",
+    "volume_mm3": 54.03238967800053
+  }
+]

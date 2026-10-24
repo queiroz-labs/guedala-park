@@ -1,0 +1,20 @@
+{
+  "planta": "02_Plantas_e_manuais/Planta_oficial.pdf",
+  "planta_page": 1,
+  "memorial_pages": [
+    14,
+    15
+  ],
+  "confirmed": [
+    "legenda alvenaria estrutural",
+    "sistema estrutural em alvenaria",
+    "possíveis fechamentos não estruturais distintos",
+    "acabamentos gerais das esquadrias"
+  ],
+  "not_confirmed": [
+    "resistência e substrato por ponto de fixação",
+    "fabricante/modelo das esquadrias",
+    "kit/abertura do box",
+    "cargas de ancoragem"
+  ]
+}

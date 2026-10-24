@@ -1,0 +1,19 @@
+{
+  "R39": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Cesto_R39_2026-10-20\\Guedala_Park_R39_Estudo_Cesto.FCStd",
+  "sha256_R39": "177111d3238463b70ad09bb3d8d935ba3695489ae1d3666cbeac07f4daa65a64",
+  "R39_preservada": true,
+  "arquivo_R40": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Modelo_FreeCAD\\01_Atual\\Cesto_R40_2026-10-20\\Guedala_Park_R40_Ferragem_Cesto.FCStd",
+  "sha256_R40": "2d822e4abc7dddc0832f549a637b71e943056f6e2473bb45fcac1c0d9fab2bfd",
+  "formas_comparadas": 1239,
+  "formas_com_bytes_diferentes": [],
+  "erros": [],
+  "controles_finais": {
+    "Abertura": 0.0,
+    "RetiradaSaco": 0.0,
+    "EndireitarSaco": 0.0,
+    "RetiradaPainelSuperior": 0.0,
+    "RetiradaConjunto": 0.0
+  },
+  "meta_provisoria_roupa_kg": 8,
+  "conclusao": "Pesquisa salva; nenhuma ferragem instalada ou aprovada."
+}
