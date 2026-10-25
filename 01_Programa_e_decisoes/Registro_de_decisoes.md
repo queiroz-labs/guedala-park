@@ -18,7 +18,6 @@ Os avanços sem medidas reais estão [consolidados por dependência](../04_Movei
 
 **24/10/2026 — rodízios P08 selecionados:** Elias aprovou seis rodízios fixos Leão Aço de 38 mm e seis espaçadores metálicos rígidos de 1 mm, preservando 39 mm de apoio e 88 mm úteis. [Especificação e link de compra](../03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md). Compra não realizada; furação, material recebido, carga e montagem real a conferir.
 
-
 > **Pedras e box — 22/10/2026:** instalações R$9.300 registradas como cenário aceito por Elias. [Análise de pedras e box](../05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md): proposta R$6.200 contra R$6.700 (pedras R$5.000 + box R$1.200), redução estimada R$500 ainda sem cotação sob medida. Preservados Branco Itaúnas, faixa baixa, borda reta, tanque esculpido, prateleira explícita em S04, vidro transparente/perfis pretos e armazenamento. Referência de box no arquivo 1,24 × 2,10 m; não substituir por kit 1,20 × 1,90 m da pesquisa. Cenário acumulado com obra, instalações, marcenaria e móveis negociados: **R$121.635,75**, faltando R$1.635,75 para execução. Provisão prudente R$137.685,75 mantida. **Reserva R$10 mil separada, R$0 utilizado.** R44 apenas lida, sem alteração; medidas executivas e abertura do box pendentes.
 
 > **Instalações — 22/10/2026:** Elias pediu registrar obra R$10.560 como cenário de planejamento/negociação. [Instalações analisadas](../05_Orcamento_e_cronograma/Orcamento/Instalacoes/Analise_instalacoes.md): proposta R$9.300 contra R$10.100, redução condicionada de R$800 (pacotes R$650 + R$150 estimados no cooktop, com conversão gratuita elegível e ligação/materiais pagos). Preservados elétrica R$3.800 com torre/ponto 20 A explícitos, E21 instalado R$1.100, medidor/ativação R$500, água quente, cores, armazenamento e testes. Não há cotação recebida. Provisão prudente R$137.685,75; se obtidos obra, instalações, marcenaria R$35 mil e móveis R$9.240,44: **R$122.135,75**, faltando R$2.135,75 para o teto de execução. Todas as metas restantes juntas levariam a R$119.600,40, ainda condicionais. **Reserva R$10 mil separada, R$0 utilizado.** Nenhum CAD alterado.
@@ -124,7 +123,7 @@ Elias confirmou “ok, vamos seguir com o Fischer com grill sem turbo, confere c
 
 ## 19/10/2026 — investimento maior no forno autorizado para comparação
 
-Elias confirmou: “aceito avaliar um investimento maior se facilitar o projeto, compara as opções e me mostra o q muda”. O teto anterior de R$ 1.050 deixa de excluir alternativas nesta comparação; não foi definido novo teto nem aprovada compra ou troca. Comparar o custo instalado e o efeito sobre largura, altura, armazenamento, ventilação e instalações. [Resultado, preços anunciados e limites](../03_Ambientes/Cozinha/Fechamento/README.md#comparação-ampliada--19102026). Fischer Infinity com grill 28349-64929 entra como candidato de melhor equilíbrio preliminar; modelo com Air Fryer e Mueller também comparados. Recomendação do estudo não equivale a escolha do usuário. R30 preservada.
+Elias confirmou: “aceito avaliar um investimento maior se facilitar o projeto, compara as opções e me mostra o q muda”. O teto anterior de R$ 1.050 deixa de excluir alternativas nesta comparação; não foi definido novo teto nem aprovada compra ou troca. Comparar o custo instalado e o efeito sobre largura, altura, armazenamento, ventilação e instalações. Resultado, preços e limites históricos: Git `antes-reorganizacao:01_Projeto/Cozinha/Fechamento_R30_2026-10-14/README.md`, seção “Comparação ampliada — 19/10/2026”. Fischer Infinity com grill 28349-64929 entra como candidato de melhor equilíbrio preliminar; modelo com Air Fryer e Mueller também comparados. Recomendação do estudo não equivale a escolha do usuário. R30 preservada.
 
 ## 17/10/2026 — aplicativos na própria TV e segunda candidata
 
@@ -164,18 +163,15 @@ Elias definiu: “Quero me mudar com tudo pronto, então vamos fechar o projeto 
 
 ## 16/10/2026 — flexibilidade na seleção dos aparelhos
 
-**Complemento — forno elétrico:** Elias autoriza incluí-lo na comparação se não contrariar os documentos oficiais e se trouxer benefício ao projeto. Não adotado produto específico. Triagem dos originais não encontrou proibição específica nas páginas examinadas, mas também não demonstrou carga ou circuito disponível: memorial p. 19(h), p. 17(5.1) e p. 14(3.1); convenção p. 33, art. 57(i), sobre instalações que importem em sobrecarga. Comparação permanece condicionada à instalação elétrica e às regras aplicáveis. [Resultado e candidato](../03_Ambientes/Cozinha/Fechamento/README.md#comparação-condicionada-de-forno-elétrico--16102026).
+**Complemento — forno elétrico:** Elias autoriza incluí-lo na comparação se não contrariar os documentos oficiais e se trouxer benefício ao projeto. Não adotado produto específico. Triagem dos originais não encontrou proibição específica nas páginas examinadas, mas também não demonstrou carga ou circuito disponível: memorial p. 19(h), p. 17(5.1) e p. 14(3.1); convenção p. 33, art. 57(i), sobre instalações que importem em sobrecarga. Comparação permanece condicionada à instalação elétrica e às regras aplicáveis. Resultado e candidato históricos: Git `antes-reorganizacao:01_Projeto/Cozinha/Fechamento_R30_2026-10-14/README.md`, seção “Comparação condicionada de forno elétrico — 16/10/2026”.
 
 Elias informou: “Ainda não comprei nenhum aparelho, estão só escolhidos. Podemos avaliar trocar algum se isso facilitar o projeto.” Fica autorizado estudar alternativas e comparar impactos no projeto, sem atribuir aprovação a uma substituição específica ou compra. Preservar as escolhas vigentes como referência de comparação. Ainda não há acesso ao apartamento para levantamento; medidas do modelo permanecem provisórias.
 
 **14/10 — FreeCAD atual R28, proposta solicitada:** arquivo e cotas. Aéreo inteiro do escritório20mm mais baixo: folga nominal ao teto20mm, sem perda de altura interna. R27 e anteriores preservadas; instalação/teto reais pendentes.
 
-
 **14/10 — FreeCAD atual R27:** arquivo e evidências. Restaurados dois perfis oficiais que estavam geometricamente inválidos;925 formas nativas atuais válidas, posição física preservada. Teto do escritório sem margem nominal de estudo identificado; altura real pendente. R26 e anteriores preservadas; revisão final às18h30.
 
-
 **14/10 — FreeCAD atual R26:** arquivo e resultados. Endereço temporário proposto da Loop20L na manutenção do cesto: afastamento lateral650mm, lugar habitual preservado; percurso CAD conferido, manuseio/ferragens/carga reais pendentes.46 acessos/20módulos. R25 e anteriores preservadas; sem liberação de fabricação.
-
 
 **14/10/2026 — direção vigente da marcenaria e FreeCAD:** Elias autorizou a melhor escolha com simplicidade como prioridade geral: ferragens comuns, poucos mecanismos e manutenção/regulagem fáceis. Para o canto superior, aceitou a direção de duas aberturas simples, inclusive sequência de uso se necessária; o mecanismo articulado79T8500 das entradas anteriores foi aposentado. As medidas novas, apoios, batentes e fixações continuam propostas.
 
@@ -323,13 +319,13 @@ Elias determinou portas vizinhas com sentidos opostos em toda a casa e corrigiu 
 
 **Pedido de Elias — sequência de uso do varal:** desenvolvida R10 com ciclo de transferência, carga, secagem, retirada e ocultação vazia por chapa. Pedido autoriza estudo, não aprovação automática da sequência, da altura 190–200 cm ou de instalação. Identificados requisitos de comando junto ao acesso e apoio temporário da roupa fora da passagem. Sequência proposta.
 
-**Varal — preferência de vista confirmada por Elias:** priorizar vista habitual da cozinha; aceita que apareça ao chegar perto. R09 registra comparação geométrica da chapa e hipótese de acesso entrando sob o quadro a 190–200 cm, ainda sem aprovação de altura/uso. Pesquisa confirma elevação por manivela e varetas individuais, mas não comprova alcance ou capacidade do conjunto escolhido. Nenhum fornecedor contatado. R09.
+**Varal — preferência de vista confirmada por Elias:** priorizar a vista habitual da cozinha, aceitando exposição ao se aproximar. R09 compara chapa e acesso sob quadro a 190–200 cm, sem aprovar altura/uso. Manivela e varetas individuais não comprovam alcance/capacidade do conjunto; sem contato com fornecedor. Fonte: Git `antes-reorganizacao:01_Projeto/Lavanderia/Varal_linha_de_visao_e_mecanismo_R09.md`, linha 21; data individual não informada.
 
 **Varal — correção de escopo por Elias:** considera exagerada a caixa de ocultação total e propõe apenas uma chapa para cobrir a visão do varal a partir da cozinha. R08 passa a orientar a ocultação; caixa-teste 110 × 60 e fechamento inferior de R07 ficam superados. Não foram aprovadas largura, altura, material, fixação ou cotas de implantação. Registro da proposta.
 
 **Estudo solicitado por Elias — resolver varal e aquecedor:** criada alternativa R07 com caixa no teto à frente da bancada. Reserva de teste 110 × 60 cm para grelha de 100 × 50 cm, sem produto ou mecanismo dimensionado. Propõe eliminar extração horizontal; não houve aprovação dessa mudança. Mantidos E21, grelha e uso dentro da lavanderia. Alcance às barras distantes permanece impedimento para considerar o conjunto resolvido. Proposta.
 
-**Revisão autorizada por Elias — lavanderia:** conferidos documentos do empreendimento e manuais dos aparelhos. Preservados E21 GN em 127 V, LG VC4 127 V, varal 100 × 50 cm e três estados, sem avanço para cozinha. Consolidada lista de interferências e levantamento para quando houver acesso à unidade; nenhuma nova dimensão ou solução de instalação aprovada. [Conferência documental](../03_Ambientes/Lavanderia/Levantamento.md).
+**Revisão autorizada por Elias — lavanderia (25/09/2026):** conferidos documentos do empreendimento e manuais dos aparelhos. Preservados E21 GN em 127 V, LG VC4 127 V, varal 100 × 50 cm e três estados, sem avanço para cozinha. Consolidada lista de interferências e levantamento para quando houver acesso à unidade; nenhuma nova dimensão ou solução de instalação aprovada. [Conferência documental](../03_Ambientes/Lavanderia/Levantamento.md).
 
 **Forma confirmada por Elias — 25/09/2026:** conjunto superior virando o canto em L, com frentes retas. Não usar frente arredondada. Esclarecimento encerrado; desenvolver encontro entre maleiro e aéreo raso da cabeceira.
 
@@ -383,7 +379,7 @@ Após pedido de seguir aos próximos passos, desenvolvido interior das quatro ga
 
 Continuidade autorizada: produzidas frente dos móveis e cortes de micro/forno em fechamento preliminar, preservando escolhas e identificando hipóteses. Elias solicita usar AI HomeDesign sempre que fizer sentido. Guia consultado; sem integração direta disponível. Desenhos desta etapa são locais, não produzidos no serviço. Preferência preservada para visualizações fotográficas futuras; nenhum upload/contratação efetuado. Não inferir aprovação dos desenhos pelo pedido de continuidade.
 
-Respostas 1–5 de Elias: manter ME23P no aéreo com 10 cm superiores (divergência com os 30 cm do manual, sem validação técnica); destinar a panos a faixa inferior do gaveteiro de aproximadamente 30 cm brutos (frente/ferragem não definidas, gaveta baixa contínua preservada); selecionar louças/potes compactos e modernos mantendo inventário; preparo para duas canecas com cafeteira Mondial existente que faz por caneca (modelo, dimensões e tensão desconhecidos); economizar nas ferragens sem perda de qualidade, sem escolha específica de puxador/amortecimento. Resposta 6: Elias escolheu a opção 3 da comparação visual — faixa baixa de Branco Itaúnas e pintura clara acima. Altura, cor/código, tinta, preparo e adequação a respingos/calor pendentes; não aprova cotas ou layout incidentais da imagem. Respostas 7–9: iluminação regulável confirmada; 3000 K e comando separado permanecem base proposta, sem aprovação individual explícita nesta resposta. Marcenaria/pedras sem orçamento definido no momento, seguindo custo-benefício, sem autorização automática de gastos. Modelo da cafeteira permanece pendente a pedido de Elias; não reiterar pergunta agora. Detalhes consolidados. Atualizar esta entrada ao longo do dia. Sem compra, fabricação ou mudança de HTML/site.
+**25/09/2026 — respostas de Elias:** 1–5: ME23P com 10 cm acima (manual: 30 cm; sem validação técnica); panos na faixa inferior de ~30 cm brutos do gaveteiro, com frente/ferragem indefinidas e gaveta baixa contínua preservada; louças/potes compactos e modernos, mesmo inventário; duas canecas na Mondial existente, uma por vez (modelo/dimensões/tensão desconhecidos); ferragens econômicas sem perda de qualidade, puxador/amortecimento não escolhidos. 6: opção 3, faixa baixa Branco Itaúnas e pintura clara acima; altura, cor/código, tinta, preparo e resistência a respingos/calor pendentes; cotas/layout incidentais sem aceite. 7–9: regulagem de luz confirmada, mas 3000 K e comando separado ainda propostos, sem aceite específico; marcenaria/pedras por custo-benefício, sem teto próprio nem autorização de gasto. Não reiterar pergunta sobre cafeteira enquanto pendente a pedido de Elias. Sem compra, fabricação ou mudança no site.
 
 **Painel da sala — sob medida, 23/09/2026:** Elias escolheu fechar o desenho sob medida. Preservada a estética aprovada: off-white fosco, uma prateleira Arenza acima e outra abaixo da TV. [Proposta R01](../03_Ambientes/Sala_e_jantar/Painel_sob_medida.md): painel suspenso 112 × 165, prateleiras 107 × 25/35, projeção instalada de 4 e soundbar em suporte próprio abaixo da tela. Esses detalhes novos estão para avaliação; só a modalidade sob medida foi confirmada nesta rodada. Largura condicionada à cortina/parede real e montagem da TV; 70 cm nominais diante do sofá aberto no novo ensaio. Site não alterado nesta etapa.
 
@@ -399,7 +395,7 @@ Anteprojeto aceito para desenvolvimento · conferência da circulação. Atualiz
 
 **Esclarecimento e planejamento:** referência enviada por Elias: Euro Oppa. Ele explicitou “não quero mesa pronta, só quero o mesmo modelo extensível dessa” e autorizou planejar. Adotar princípio de tampo dividido com folha central removível, aplicado sob medida ao desenho existente. Proposta-base 150/180, extensão única de 30 guardada sob o tampo; 140/180 com folha de 40 permanece alternativa. Simetria desejada não prova sincronização da Euro. Atualizado o estudo com peças nominais, arquitetura de quadro/coluna/guias, armazenamento e interferências de joelhos/cadeiras. Armazenamento interno ainda sem solução executiva; nenhuma alteração estética, fornecedor, compra ou fabricação aprovada.
 
-Elias pediu estudar 140/180 e 150/180 com recolhimento simétrico e depois pesquisar soluções reais. Direção simétrica aceita; tamanho fechado e produto ainda em avaliação. Criado estudo comparativo. Recomendação preliminar 150/180 pela reserva para cadeiras; ganho bruto por ponta 15 cm versus 20 cm. Modelo conservador mostra que manter cadeira de cabeceira pode anular o ganho, pela perda de inserção. Requisito de três cadeiras guardadas na mesa preservado, sem mudança automática do banco, base, cadeiras, site ou fabricação.
+**22/09/2026:** Elias pediu estudar 140/180 e 150/180 com recolhimento simétrico e depois pesquisar soluções reais. Direção simétrica aceita; tamanho fechado e produto ainda em avaliação. Criado estudo comparativo. Recomendação preliminar 150/180 pela reserva para cadeiras; ganho bruto por ponta 15 cm versus 20 cm. Modelo conservador mostra que manter cadeira de cabeceira pode anular o ganho, pela perda de inserção. Requisito de três cadeiras guardadas na mesa preservado, sem mudança automática do banco, base, cadeiras, site ou fabricação.
 
 ## Iluminação integrada — desenvolvimento autorizado, 22/09/2026
 
@@ -467,7 +463,7 @@ Elias respondeu “gosto, deixe assim documentado” à proposta de coluna redon
 
 ## Base da mesa — pesquisa para escolha, 20/09/2026
 
-Elias pediu avançar na base. Seleção R01 compara tulipas comerciais e fabricação sob medida. Recomendada para decisão coluna circular única, chapa baixa oval longitudinal e preto fosco. Não registrar recomendação como aceite. Nenhuma base pronta confirmou suporte ao tampo 180 × 75 junto ao acesso do banco; DecoCasa largura 59 deixa 3 cm até a frente do banco no eixo central. Dimensões da coluna, chapa, apoio superior e estabilidade exigem desenho do fabricante; não aprovar sapata fictícia 26 × 30 do modelo. Nenhum contato externo ou compra.
+**20/09/2026:** Elias pediu avançar na base. Seleção R01 compara tulipas comerciais e fabricação sob medida. Recomendada para decisão coluna circular única, chapa baixa oval longitudinal e preto fosco. Não registrar recomendação como aceite. Nenhuma base pronta confirmou suporte ao tampo 180 × 75 junto ao acesso do banco; DecoCasa largura 59 deixa 3 cm até a frente do banco no eixo central. Dimensões da coluna, chapa, apoio superior e estabilidade exigem desenho do fabricante; não aprovar sapata fictícia 26 × 30 do modelo. Nenhum contato externo ou compra.
 
 ## Ajustes integrados da sala — 20/09/2026
 
@@ -493,10 +489,9 @@ Para comparar colunas centradas, a distância entre a borda longa do tampo e a f
 
 Elias confirmou: “ok, anota recolhimento para o sofa e seguimos”. A cortina da parede inteira terá recolhimento para o lado do sofá. Mantidas as escolhas de tecido e acabamento; volume, profundidade e encontros com sofá/painel continuam pendentes conforme [estudo de compatibilização](../03_Ambientes/Sala_e_jantar/Cortina.md). Não há aprovação de deslocamento dos móveis nem substituição por blackout de enrolar. Sentido de abertura encerrado como decisão; seguir às próximas escolhas.
 
-
 ## Cortina — compatibilização solicitada com os móveis, 20/09/2026
 
-Elias pediu calcular o melhor sentido de abertura considerando proximidade dos móveis. Criado ../03_Ambientes/Sala_e_jantar/Cortina.md. Modelo/P01: parede245 cm, janela gráfica139 cm e margens38 cm no lado TV/68 cm no sofá; sofá a0 cm da parede da janela, painel a2,5 cm e prateleiras a5 cm. Referência técnica Silent Gliss wave60 estima56,35 cm por pacote unilateral ou28,175 cm por lado na central, antes de extremidades/retornos. Recolher no lado do sofá é candidata preferida, condicionada ao pacote real e operação da janela; central continua alternativa.
+**20/09/2026:** Elias pediu calcular o melhor sentido de abertura considerando proximidade dos móveis. Criado ../03_Ambientes/Sala_e_jantar/Cortina.md. Modelo/P01: parede245 cm, janela gráfica139 cm e margens38 cm no lado TV/68 cm no sofá; sofá a0 cm da parede da janela, painel a2,5 cm e prateleiras a5 cm. Referência técnica Silent Gliss wave60 estima56,35 cm por pacote unilateral ou28,175 cm por lado na central, antes de extremidades/retornos. Recolher no lado do sofá é candidata preferida, condicionada ao pacote real e operação da janela; central continua alternativa.
 
 Encontrado conflito não contemplado no 3D: duas camadas wave60 no ensaio ocupam reserva de28 cm em profundidade, mesmo fechadas. Mover sofá28 cm sobrepõe18 cm ao banco; deslocar painel preservando115 cm ultrapassa23 cm a parede gráfica antes do corredor. Mover jantar também reduz folgas junto à geladeira. Nenhuma configuração completa aprovada: manter intenção de parede inteira e estudar seção/retorno mais compactos antes da imagem fiel. Alternativa de blackout de enrolar com tecido frontal mencionada apenas para futuro ensaio; não substitui automaticamente as duas camadas escolhidas. Modelo, móveis e site não alterados.
 
@@ -530,7 +525,7 @@ Elias aceitou a recomendação do **Taschibra Jurerê branco, redondo 30cm, vidr
 
 ## Novo teto para iluminação e pesquisa de plafon — 19/09/2026
 
-Elias autorizou **até R$1.200 para o conjunto de iluminação de sala e jantar**, substituindo o teto de R$1.000, e pediu pesquisar o plafon. Mantidos frete/instalação separados e requisitos de branco/RGB, intensidade, Alexa e comando físico. Nenhum plafon aprovado neste momento. Pesquisa comparativa e orçamento parcial atualizados em ../03_Ambientes/Sala_e_jantar/Iluminacao.md; preferência técnica/econômica inicial pelo Taschibra Jurerê 30cm 2xE27, condicionada à acomodação e ventilação das lâmpadas WiZ.
+**19/09/2026:** Elias autorizou **até R$1.200 para o conjunto de iluminação de sala e jantar**, substituindo o teto de R$1.000, e pediu pesquisar o plafon. Mantidos frete/instalação separados e requisitos de branco/RGB, intensidade, Alexa e comando físico. Nenhum plafon aprovado neste momento. Pesquisa comparativa e orçamento parcial atualizados em ../03_Ambientes/Sala_e_jantar/Iluminacao.md; preferência técnica/econômica inicial pelo Taschibra Jurerê 30cm 2xE27, condicionada à acomodação e ventilação das lâmpadas WiZ.
 
 ## Equipamentos Alexa existentes — 19/09/2026
 
@@ -550,7 +545,7 @@ Elias prefere **luz indireta na maioria das vezes e ambiente apagado para alguns
 
 ## Programa de iluminação — 19/09/2026
 
-Elias definiu clima noturno **aconchegante, luz quente e suave, com alguns pontos de destaque**. Mesa também usada para estudar, ler e jogar, com pouca frequência: prever cena funcional além da decorativa. Aceita avaliar luz indireta no painel/prateleiras e possível acréscimo de custo com benefício claro; não aprovou valor extra, instalação específica ou novo teto. MantidosR$1.000 como orçamento aprovado. Estudo consolidado em ../03_Ambientes/Sala_e_jantar/Iluminacao.md. Não depender do Arevo central compacto como única luz funcional da mesa nem duplicar automaticamente a possível Ambilight com fita atrás da TV.
+**19/09/2026:** Elias definiu clima noturno **aconchegante, luz quente e suave, com alguns pontos de destaque**. Mesa também usada para estudar, ler e jogar, com pouca frequência: prever cena funcional além da decorativa. Aceita avaliar luz indireta no painel/prateleiras e possível acréscimo de custo com benefício claro; não aprovou valor extra, instalação específica ou novo teto. MantidosR$1.000 como orçamento aprovado. Estudo consolidado em ../03_Ambientes/Sala_e_jantar/Iluminacao.md. Não depender do Arevo central compacto como única luz funcional da mesa nem duplicar automaticamente a possível Ambilight com fita atrás da TV.
 
 ## Orçamento de iluminação ampliado — 19/09/2026
 
@@ -1970,7 +1965,6 @@ Os relatos de decisões nos documentos abaixo foram incorporados com sua origem,
 
 Conciliação de arquivos locais e instruções disponíveis nesta conversa; não é busca em todas as conversas de outras contas nem verificação do GitHub/Drive. Na v0.4 houve pesquisa técnica e memória preliminar de esforços, sem medição/vistoria, dimensionamento executivo, cotação final, compra ou alteração de escolhas fechadas. A integração futura com site ainda não foi realizada.
 
-
 **Correção aritmética de 11/09/2026:** reserva lateral básica da IB6 = 60,1 + 10 + 10 = 80,1 cm. O valor anterior de 81,1 cm era erro de soma. Folgas de 10 cm conferidas visualmente no guia oficial G0046764/003, página 2. A prancha histórica A04.6 R00 usa a reserva anterior 1 cm maior; a interferência com a entrada permanece. IB6 reconfirmada por F29; posição no layout ainda pendente.
 
 ### F53 — Portas originais e escritório com sofá-cama e PS5 (12/09/2026)
@@ -1978,7 +1972,6 @@ Conciliação de arquivos locais e instruções disponíveis nesta conversa; nã
 **Direção vigente — F53, 12/09/2026:** manter portas e vãos originais de entrega no apartamento até fechar o layout; somente depois retomar portas de correr, recuo e porta camarão. No escritório, sofá-cama móvel e TV para PS5 confirmados, cama guardada na parede descartada. Estação permanece de frente para a janela; sofá lateral voltado para a TV no cotidiano, movido para a parede da porta e aberto rumo à janela nas visitas. Herval Aurora enviado como referência, sem compra/modelo definitivamente aprovado. Estudo atual. Esta decisão prevalece sobre F45/F47 quanto à tipologia, F44 quanto à TV e F52 quanto à base de portas.
 
 Fonte: pedido explícito de Elias nesta conversa e link VouLevar VL162380, preservado no estudo R02. Referência visual local consultada: 09_Referencias/Ideia_inicial.jpeg. As medidas do anúncio são referência comercial; o estudo R02 registra a fonte e separa as contas hipotéticas da escolha funcional. Teto anterior de portas preservado para futura comparação, sem contratação. Histórico do dia anterior: Registro_v0.6.md em 99_Arquivo/Registros_anteriores. Revisão 0.7 consolida F53.
-
 
 ### F54 — Sofá até R$ 1.500, Samsung 43 e armazenamento (12/09/2026)
 
@@ -2108,7 +2101,7 @@ Para controle de custo, separar o futuro orçamento em bancada/gavetas, armário
 
 ### F76 — Estudo dos armários suspensos (12/09/2026)
 
-Elias autoriza seguir com o encaixe dos armários. R04 propõe conjunto sobre sofá de 160 × 40 × 35 cm e sobre TV de 120 × 40 × 35 cm, dimensões externas de estudo, sem aprovação do usuário ou execução. Coordenadas preservam bancada de 70 cm e trecho de entrada no ensaio. Altura acabada desconhecida: base dos armários calculada condicionalmente, sem inventar pé-direito. Caixa do gabinete não cabe na reserva dos módulos rasos; reserva anterior arbitrária pode ser girada, mas corpo maior exigiria verificar altura/projeção e acesso. Não aumentar todos os armários nem declarar guarda resolvida. Volante/pedais precisam de acesso frequente e continuam sem local validado; não presumir cabimento nas gavetas. Sete portas e dimensões são propostas, não decisões confirmadas. Demais escolhas preservadas.
+**12/09/2026 — F76:** Elias autoriza seguir com o encaixe dos armários. R04 propõe conjunto sobre sofá de 160 × 40 × 35 cm e sobre TV de 120 × 40 × 35 cm, dimensões externas de estudo, sem aprovação do usuário ou execução. Coordenadas preservam bancada de 70 cm e trecho de entrada no ensaio. Altura acabada desconhecida: base dos armários calculada condicionalmente, sem inventar pé-direito. Caixa do gabinete não cabe na reserva dos módulos rasos; reserva anterior arbitrária pode ser girada, mas corpo maior exigiria verificar altura/projeção e acesso. Não aumentar todos os armários nem declarar guarda resolvida. Volante/pedais precisam de acesso frequente e continuam sem local validado; não presumir cabimento nas gavetas. Sete portas e dimensões são propostas, não decisões confirmadas. Demais escolhas preservadas.
 
 ### F77 — Pesquisa do pé-direito (12/09/2026)
 
@@ -2164,7 +2157,7 @@ Elias aprova prateleiras internas reguláveis e removíveis nos demais armários
 
 ### F85 — Circulação prioritária e pesquisa de sofás-cama
 
-Elias reafirma preservar circulação e abertura do sofá-cama e autoriza pesquisa de opções até R$ 1.500 coerentes com o estilo do apartamento. Módulo baixo proposto para volante não reservado por enquanto; resolver sofá, porta e cadeira primeiro. Pesquisa R05 compara CR45259 bege, Daiane Veludo Light Cinza/Mobly e Charlotte Matrix bege. Primeiros dois priorizados pelo assistente para conferência; nenhum escolhido pelo usuário. Preços sem frete, disponibilidade por CEP não validada. Dimensões externas não comprovam área útil para duas pessoas; trajetória e giro da porta ainda pendentes. Baú pode ajudar acessórios, sem cabimento do volante confirmado. Demais decisões preservadas.
+**12/09/2026 — F85:** Elias reafirma preservar circulação e abertura do sofá-cama e autoriza pesquisa de opções até R$ 1.500 coerentes com o estilo do apartamento. Módulo baixo proposto para volante não reservado por enquanto; resolver sofá, porta e cadeira primeiro. Pesquisa R05 compara CR45259 bege, Daiane Veludo Light Cinza/Mobly e Charlotte Matrix bege. Primeiros dois priorizados pelo assistente para conferência; nenhum escolhido pelo usuário. Preços sem frete, disponibilidade por CEP não validada. Dimensões externas não comprovam área útil para duas pessoas; trajetória e giro da porta ainda pendentes. Baú pode ajudar acessórios, sem cabimento do volante confirmado. Demais decisões preservadas.
 
 ### F86 — Sofá-cama Daiane escolhido
 
@@ -2228,31 +2221,25 @@ Elias solicita averiguar F94. [R08](../03_Ambientes/Escritorio/TV_e_consoles.md)
 
 Manual Sony CFI-2118 documenta21,6cm de profundidade e mínimo10cm de parede;30cm de apoio anterior era insuficiente para essa soma. Ensaio de35cm deixa53cm laterais junto à cama, restrição de passagem ainda sem solução. Não aprovar prateleira fixa nessas medidas. TV deslocada continua proposta, apoio removível ou outra posição para console são alternativas a estudar, não decisões do usuário. Altura central de TV110cm apenas ponto inicial de ensaio. Compatibilização estática de aéreos não valida portas/acesso. Demais escolhas preservadas.
 
-
 ### F96 — PS5 Digital e ensaio com reserva para Xbox acima da TV
 
 Elias confirma PS5 sem leitor e autoriza testar prateleira acima da TV com espaço adicional para Xbox, cujo modelo não está escolhido. R08 compara Series S e X deitados. Proposta 110 × 35 cm atende ao ensaio dimensional de ambos; superfície a 195 cm, espessura hipotética 3 cm, é direção sugerida pelo assistente, não altura aprovada. Alternativas a 155/180 cm mantêm interferência corporal ou pouca folga de cabeça. Opção alta exige redistribuir aéreos e módulo da caixa, preservando armazenamento; não considerar remoção desses armários aceita. Conferir alcance, fixação, ventilação, TV/suporte, pessoas mais altas e cotas reais antes de fechar. Nenhuma compra autorizada por esta escolha.
-
 
 ### F97 — Ensaio de redistribuição após consoles acima da TV
 
 Elias autoriza continuar o teste F96. R09 propõe aéreo comum 200 × 55 × 35 cm na parede do sofá, y90..290, e módulo da caixa 64 × 60 × 43 cm na parede direita junto à janela, y25..89. Prateleira dos consoles permanece y105..215, topo195 cm em estudo. Cinco módulos comuns de40 cm permitem estimar285 L internos geométricos contra281 L anteriores, com painéis hipotéticos2 cm, sem descontar ferragens/prateleiras. Caixa mantém reserva separada. Alturas, dimensões e cinco divisões não foram aprovadas pelo usuário nesta rodada. Conferir sobretudo monitores, braços, cortina, acesso à caixa e portas abertas. Não considerar a comparação de volumes validação de conteúdo, fixação ou manobra.
 
-
 ### F98 — Início da compatibilização da bancada e caixa
 
 Elias escolhe começar pelo item1. R10 testa notebook à esquerda, monitores ao centro e CH360 à direita, sob o módulo dedicado à caixa. Monitor principal proposto à direita, centro x150. Folga vertical nominal gabinete/armário68,9 cm menos folga superior; separação horizontal monitor/módulo6 cm no envelope estático. Não confirma curso dos braços, cortina ou acesso à caixa. Modelos dos dois monitores, braços e notebook solicitados em uma pergunta conjunta. Ordem e posição principal são propostas do assistente, não escolha confirmada.
-
 
 ### F99 — Aceite da distribuição e proposta de gavetas/vão
 
 Elias aceita distribuição F98 e autoriza continuidade. Equipamentos informados: AOC27 polegadas240 Hz, braços da Kabum sem modelo conhecido, notebook corporativo HP prata. Códigos exatos continuam desconhecidos. R10 detalha proposta de módulo de gavetas40 ×45 ×24 cm à esquerda e faixa de cadeira80 cm centrada x150. Altura75 cm, tampo3 cm e novas medidas seguem hipóteses. Preservar fixação do volante na borda e vão sem obstrução; não dispensar dimensionamento estrutural. Gavetas podem não abrir totalmente com cama aberta, conforme comparação de envelopes.
 
-
 ### F100 — Conferência sofá-cama e porta original
 
 Elias solicita iniciar sofá/porta. R11 revê P01 e referência Mobly Daiane. Planta não fornece cotas específicas do eixo/folha; manter cenário220/75 sem converter em medição. Cama140 ×182 externa x2..142,y110..292 deixa3 cm laterais ao setor hipotético; distância exata ideal3,06 cm. Folha80 gera interferência. Recuar cama17,8 cm da entrada para obter5 cm do arco ideal reduziria vão frontal a25,2 cm; alternativa calculada, não adotada. Mantêm-se sofá e porta original, com operação do mecanismo e margem real ainda não validadas.
-
 
 ### F101 — Memorial oficial de entrega incorporado ao projeto
 
@@ -2264,20 +2251,17 @@ Restrições: proibição expressa de ar-condicionado; tomadas descritas como �
 
 Preservadas escolhas de reforma, inclusive gesso/lã e cenário final de 2,47 m. Altura real de 2,57 m e montagem em 10 cm continuam hipóteses. Faltam cortes, forros cotados, esquadrias, circuitos e instalações do final 06. Revisão posterior à R00 não verificada. O memorial de interiores v2 mantém sua função de escolhas; não é documento Cury.
 
-
 ### F102 — Tensões de eletrodomésticos definidas em 127 V
 
 Elias determina: “todos os eletrodomesticos q nao haviamos decidido a tensão, altere todos para 127v”. Encerrada a pendência de escolha da tensão. VC4: CV5012WC4; depurador: DE61IX; forno Venax, micro-ondas ME23P e air fryer RI9252: 127 V. Outros aparelhos com alimentação ainda não definida passam a ter requisito de compatibilidade com 127 V, incluindo o futuro aquecedor. Modelos já bivolt permanecem bivolt; não presumir alteração da tensão física dos aparelhos já possuídos.
 
 [Quadro vigente de tensões](../03_Ambientes/Equipamentos/README.md). Modelos e orçamentos preservados. Disponibilidade de versões/códigos comerciais, circuitos e instalação são conferências distintas; não reabrir a decisão de tensão. Referências de preço de 220 V não comprovam preço da versão 127 V.
 
-
 ### F103 — Conferência das versões 127 V, elétrica e folgas
 
 Elias solicita executar etapa 1. [Quadro técnico vigente](../03_Ambientes/Equipamentos/Conferencia_127V_e_folgas.md) reúne versões, potências, tomadas, folgas e fontes. RI9252/91 preta 127 V identificada em ficha oficial; KE4GC bivolt confirmado. ME23P exige circuito exclusivo de 20 A em 127 V e folga superior de 30 cm; envelope calculado 66,1 × 59 × 45,2 cm, sem aprovação de nicho fechado. Venax 50 L: 735 W, 6 A, mínimo 20 cm do fundo do cooktop ao topo do forno e recortes/ventilação específicos.
 
 As propostas de 10 cm em ambos os pontos não atendem aos respectivos manuais. Isso esclarece P-010/P-011, mas não encerra a compatibilização do layout. Proposta: estudar prateleira aberta do ME23P sobre preparo e corte do forno sob cooktop com afastamentos documentados. Nenhuma mudança de modelo/posição foi aprovada automaticamente. Circuitos reais da Cury permanecem pendentes. Folgas do PE11X e VC4 preservadas; interface térmica VC4/forno a detalhar. Manuais ME23P, guia, PE11X e folheto RI9252 adicionados. Suggar consultado por texto web, sem renderização disponível; não liberar fixações com essa limitação.
-
 
 ### F104 — Escolha de 10 cm acima do micro-ondas
 
@@ -2297,7 +2281,7 @@ Próxima etapa: compatibilizar lavanderia com o modelo escolhido, fechamento rip
 
 ### F107 — Desenvolvimento E21, ripado e varal vizinho
 
-Elias autoriza os três tópicos. Manual E21 176 arquivado e ambas as folhas inspecionadas. Estudo E21/ripado/varal usa recomendação lateral específica de 20 cm e registra distância frontal ideal acima de 60 cm da figura 3. Faixa 75 cm + grelha proposta 100 cm = 175 cm: supera trecho129 em46 cm antes dos painéis. Arranjo integral lado a lado não cabe neste ensaio. Proposta seguinte: testar módulo na transição com cozinha, sem alteração aprovada dos aéreos. Ripado próximo não validado, dimensões de fabricação pendentes. Meta30 kg preservada como proposta a comprovar; não reduzida nem certificada. Nenhuma mudança de pontos ou compra.
+**12/09/2026 — F107:** Elias autoriza os três tópicos. Manual E21 176 arquivado e ambas as folhas inspecionadas. Estudo E21/ripado/varal usa recomendação lateral específica de 20 cm e registra distância frontal ideal acima de 60 cm da figura 3. Faixa 75 cm + grelha proposta 100 cm = 175 cm: supera trecho129 em46 cm antes dos painéis. Arranjo integral lado a lado não cabe neste ensaio. Proposta seguinte: testar módulo na transição com cozinha, sem alteração aprovada dos aéreos. Ripado próximo não validado, dimensões de fabricação pendentes. Meta30 kg preservada como proposta a comprovar; não reduzida nem certificada. Nenhuma mudança de pontos ou compra.
 
 ### F108 — Varal obrigatoriamente dentro da lavanderia
 
@@ -2311,7 +2295,7 @@ Elias confirma que gostou do varal de 100 × 50 cm e quer manter essa medida. A 
 
 ### F110 — Ensaio das duas orientações do varal
 
-Elias autoriza seguir o plano. Ensaio R02 e desenho HTML com retângulo129 ×154 cm, posições hipotéticas do E21 e VC4 explicitadas. A100 paralelos: cabe extração72 com projeção até122, mas recolhido conflita com E21 no exemplo. B50 paralelos: separação entre corpos22 cm no exemplo, mas extração72 leva profundidade172, excedendo154 em18; curso máximo ideal54 não limpa projeção72 da máquina. Caixa, tecido, ferragens e pontos desconhecidos impedem validação. Nenhum afastamento reduzido adotado. Próxima preferência a esclarecer: quadro permanecer acima da bancada ou baixar à frente dela. Meta30 kg segue a comprovar. Ripado/ferragens não especificados para execução.
+**12/09/2026 — F110:** Elias autoriza seguir o plano. Ensaio R02 e desenho HTML com retângulo129 ×154 cm, posições hipotéticas do E21 e VC4 explicitadas. A100 paralelos: cabe extração72 com projeção até122, mas recolhido conflita com E21 no exemplo. B50 paralelos: separação entre corpos22 cm no exemplo, mas extração72 leva profundidade172, excedendo154 em18; curso máximo ideal54 não limpa projeção72 da máquina. Caixa, tecido, ferragens e pontos desconhecidos impedem validação. Nenhum afastamento reduzido adotado. Próxima preferência a esclarecer: quadro permanecer acima da bancada ou baixar à frente dela. Meta30 kg segue a comprovar. Ripado/ferragens não especificados para execução.
 
 ### F111 — Varal deve baixar à frente da bancada
 
@@ -2343,11 +2327,11 @@ Distinguir altura de secagem de recolhimento na caixa. Não presumir que roupa m
 
 ### F116 — Três estados confirmados e conceito funcional R05
 
-Em13/09/2026 Elias confirma: sem uso guardado fora da visão; secando no alto; baixado para retirar roupas, com carga/descarga já esclarecida emF115. R05 consolida o ciclo. Proposta do assistente: extração vazia, trava, descida/carga, subida carregada para secar mantendo extração, descida/descarga, subida vazia e recolhimento. Recolher somente vazio; separação das frentes de varal/E21 e retenção funcional propostas para desenvolvimento, sem mecanismo aprovado. Manivela removível anterior preservada como referência; corda atual não interpretada como troca. Estudo vertical parametrizado por altura da barra e comprimento das peças. Sem novas cotas de instalação. Encaixe, alcance, estrutura e exaustão permanecem pendentes; nenhuma compra/fabricação.
+Em 13/09/2026 Elias confirma: sem uso guardado fora da visão; secando no alto; baixado para retirar roupas, com carga/descarga já esclarecida emF115. R05 consolida o ciclo. Proposta do assistente: extração vazia, trava, descida/carga, subida carregada para secar mantendo extração, descida/descarga, subida vazia e recolhimento. Recolher somente vazio; separação das frentes de varal/E21 e retenção funcional propostas para desenvolvimento, sem mecanismo aprovado. Manivela removível anterior preservada como referência; corda atual não interpretada como troca. Estudo vertical parametrizado por altura da barra e comprimento das peças. Sem novas cotas de instalação. Encaixe, alcance, estrutura e exaustão permanecem pendentes; nenhuma compra/fabricação.
 
 ### F117 — Pesquisa de mecanismos reais
 
-Em13/09/2026 Elias autoriza continuidade. R06 compara O Meu Varal, Maria do Varal, Varaltop e Mad Varais pelas páginas dos próprios fornecedores. Não confirmado conjunto pronto que reúna100 ×50, extração, subida carregada e ocultação. OMV recomendado para consulta por anunciar sob medida e movimento vertical;50 cm e extração precisam confirmação.30 kg anunciado no motor OMV não transferido à manivela ou conjunto customizado. Referência manual/manivela mantida; nenhum motor escolhido. Sem cotação completa, compra, contratação ou mensagem a terceiros. Documento ../03_Ambientes/Lavanderia/Varal_fornecedores.md.
+Em 13/09/2026 Elias autoriza continuidade. R06 compara O Meu Varal, Maria do Varal, Varaltop e Mad Varais pelas páginas dos próprios fornecedores. Não confirmado conjunto pronto que reúna100 ×50, extração, subida carregada e ocultação. OMV recomendado para consulta por anunciar sob medida e movimento vertical;50 cm e extração precisam confirmação.30 kg anunciado no motor OMV não transferido à manivela ou conjunto customizado. Referência manual/manivela mantida; nenhum motor escolhido. Sem cotação completa, compra, contratação ou mensagem a terceiros. Documento ../03_Ambientes/Lavanderia/Varal_fornecedores.md.
 
 ### F118 — Planta mobiliada geral vista de cima
 
@@ -2505,7 +2489,6 @@ Elias mantém altura195 cm para priorizar circulação e pede próxima decisão.
 
 Elias dispensa módulo exclusivo para caixa do gabinete; encontrará lugar, provavelmente cama-baú queen, sem confirmação de destino/cabimento. Retirado módulo64 ×60 ×43 cm perto da janela. Aprova restante apresentado: aéreo200 ×55 ×35 cm sobre sofá e região aberta sobre consoles; topo195 cm já aprovado. Não preencher espaço liberado automaticamente. Divisão interna e conferências de execução preservadas. Atualizados R09, índice e resumo.
 
-
 ### F156 — Estudo interativo e moodboard consolidados (13/09/2026)
 
 Elias solicita HTML interativo adaptado a computador e Samsung S24 Plus, com vistas superior/lateral/3D, estudo proporcional de móveis e circulação, paletas, estados de uso e moodboard atualizado com medidas e separação entre escolhas e pendências. Criados ../ferramentas/site/Guedala_Park_Interativo.html e 09_Referencias/Moodboard_atualizado_R01.html, autônomos e sem bibliotecas externas, mais Moodboard_visual_atualizado_R01.png como ilustração de materiais/ambientes. Base consolidada até F155; não constitui aprovação adicional de móvel ou dimensão.
@@ -2513,7 +2496,6 @@ Elias solicita HTML interativo adaptado a computador e Samsung S24 Plus, com vis
 Incluídos Bonnie fechado/aberto/baú conceitual, Daiane em trabalho/hóspedes, três cadeiras em2+1 ou uso com seis lugares, único PS5 alternado entre sala/escritório e três estados conceituais do varal. Armário principal incorpora desenho interno R02; mantidos quarto sem TV, aéreo raso/alto, apoios pequenos e aéreo do escritório aprovado. Retirados módulo da caixa e qualquer ar-condicionado. Sala usa projeção total37 cm e passagem calculada72 cm com Bonnie aberto; simular5 cm adicionais atrás reduz a67 cm. Gabaritos da cadeira/sapata não comprovam conjunto comercial. Alturas, aberturas e trajetórias sem medida real permanecem identificadas como hipóteses.
 
 Verificados computador e celular em emulação, incluindo21 combinações ambiente/vista, rotação por toque, pinça, estados, contas de circulação, contagens de móveis, interior SVG incorporado e cópia HTML reaberta; sem erros JavaScript, pedidos de rede ou transbordamento horizontal nos cenários testados. Não houve teste físico no S24 Plus nem publicação na internet. Atualizados índices/resumo e marcada planta F118–F120 e antigo painel de materiais como históricos. PNG de atmosfera gerado e revisado visualmente; medidas e estado de aprovação prevalecem nas fichas do HTML e documentos de origem.
-
 
 ### F157 — Publicação do estudo no GitHub Pages (13/09/2026)
 
@@ -3079,7 +3061,7 @@ Elias pretende puxar água quente pela área de enchimento, que informa ser de g
 
 ### Comparação de percursos de água quente — 18/09/2026
 
-Elias pediu melhores soluções plausíveis e econômicas de ocultação, propondo tubo no teto coberto por gesso no canto. Considerar origem no enchimento como base de estudo. Pesquisa de fabricantes confirma possibilidade de PEX em instalações aéreas; memorialp.13 prevê forro no banheiro. Recomendação preliminar: aproveitar espaço acima do forro existente, se contínuo e suficiente, com descida externa junto ao espelho/gabinete; alternativa de faixa fechada no teto. Comparadas prateleira elevada de pedra e rota baixa atrás do vaso, esta apenas se couber sem avançar a louça. Nenhuma seleção executiva aprovada. Ver ../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md, incluindo custos relativos, referência de preço do tubo e limitações. Foco é o percurso completo, incluindo trecho visível entre espelho e bancada e chegada à ducha higiênica. Não rebaixar automaticamente teto inteiro nem engrossar toda a parede.
+**18/09/2026:** Elias pediu melhores soluções plausíveis e econômicas de ocultação, propondo tubo no teto coberto por gesso no canto. Considerar origem no enchimento como base de estudo. Pesquisa de fabricantes confirma possibilidade de PEX em instalações aéreas; memorialp.13 prevê forro no banheiro. Recomendação preliminar: aproveitar espaço acima do forro existente, se contínuo e suficiente, com descida externa junto ao espelho/gabinete; alternativa de faixa fechada no teto. Comparadas prateleira elevada de pedra e rota baixa atrás do vaso, esta apenas se couber sem avançar a louça. Nenhuma seleção executiva aprovada. Ver ../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md, incluindo custos relativos, referência de preço do tubo e limitações. Foco é o percurso completo, incluindo trecho visível entre espelho e bancada e chegada à ducha higiênica. Não rebaixar automaticamente teto inteiro nem engrossar toda a parede.
 
 ### Consolidação de toda a conversa do banheiro — 18/09/2026
 
@@ -3087,27 +3069,19 @@ A pedido de Elias (“documente tudo que falamos aqui”), criado ../03_Ambiente
 
 Direção de registros pretos simples aceita em “ok prox” após manter chuveiro Livo previamente escolhido; acabamento Livo para base Docol continua candidato condicionado, sem código definitivo. A ducha higiênica permanece quente/fria, modelo e orçamento pendentes. Não registrar a visualização de uma opção no comparador nem o pedido de documentação como aprovação executiva de percurso. Nenhum produto, medida ou obra nova foi autorizado por esta consolidação; nenhuma compra ou publicação externa realizada.
 
-
 **30/09/2026 — alternativa de guarda do banquinho:** estudo sob a TV do escritório, ainda condicional: 63 cm junto à cama guardado, 48 durante retirada reta e somente 3 sob a TV hipotética. Trajetória rígida do sofá fechado preserva pelo menos 34,8 cm até a nova reserva. Acesso por uma pessoa e mecanismo do sofá ainda não demonstrados; não incorporar suporte à marcenaria. Estudo apenas local, sem Firecrawl.
-
 
 **30/09/2026 — operação do banquinho, estudo autônomo:** sequência com a cama aberta verificada com gabarito hipotético de corpo 40 × 50 cm. Quatro etapas contínuas, 804 amostras sem colisão mobiliária; 5 cm à cama e 2 cm até uma lateral do vão ideal. Não são medidas corporais do usuário. Guarda sob a TV permanece candidata secundária, sem ferragem ou mudança de implantação; pega, porta real e mecanismo do sofá dependem de validação. Sem Firecrawl.
 
-
 **30/09/2026 — luz da lavanderia × varal:** compatibilização geométrica prepara faixa para plafon de até 30 cm. Corpo de 28, centro de ensaio x=64,5/y=55, com 6 cm até projeção dos aéreos e 6 até roupa avançando 10. Mais afastamento da roupa aumenta sombra do aéreo no teste. Não é produto, ponto ou iluminação suficiente aprovados; mantidos aparência branca, sobrepor, 3000 K e comandos escolhidos. Sem pesquisa externa.
-
 
 **30/09/2026 — mesa, folha no banco:** percurso calculado. Nicho 80 × 35 × 7 na ponta; puxar 35 e deslizar 67,3 com tampo fechado poupa 15 cm comparado ao aberto. Cadeira da ponta deslocada temporariamente 5 cm no ensaio. Coluna real e estrutura não podem ser reduzidas para forçar encaixe; apoio temporário e manuseio continuam a detalhar. Escolhas de mesa 150/180 e guarda no banco preservadas. Sem Firecrawl.
 
-
 **30/09/2026 — apoio temporário da extensão:** ciclo geométrico coloca a folha sobre uma metade da mesa antes da abertura. No modelo conservador das cadeiras, recuar temporariamente 41 cm na ponta e 32,5 na central; os 5 cm anteriores resolviam apenas a retirada baixa. Depende de protótipo e ferragem que permita movimento com a folha apoiada; não presumir uso por uma pessoa validado. Preservadas escolhas, sem pesquisa externa.
-
 
 **30/09/2026 — consolidação solicitada da mesa:** apresentação completa e memória. Direção técnica: folha espera no assento do banco, fora das metades durante a abertura. Isso supera o apoio sobre metade móvel e reduz recuo temporário da cadeira da ponta a 5 cm; central mantém 32,5 no gabarito conservador. Estudo operacional completo, com execução condicionada à base/ferragem/nicho e protótipo. Não atribuir ao usuário aprovação dessas novas cotas. Sem Firecrawl.
 
-
 **30/09/2026 — proporções das gavetas:** Elias autoriza Firecrawl pontual para buscar referências e exige tamanhos equilibrados, coerentes com o projeto. Comparação de fabricantes sustenta preservar módulo 61,9 e composição 16/16/40 como base, sem interpretar frente como altura útil. Organizadores continuam removíveis e condicionados ao conteúdo; não criar gavetas minúsculas ou ampliar mobiliário para forçar estoque.
-
 
 **30/09/2026 — detalhamento autônomo G1/G2:** organização removível preserva 16/16/40 e caixas atuais. G1: faixas de talheres 9,3 × 30, acessórios posteriores e facas protegidas. G2: faixa longa 19,2 × 45,2 e módulo ajustável 30,4 × 45,2 útil antes do divisor. Cotas de organizadores propostas, não aprovadas para fabricação. Altura útil depende da caixa/ferragem; sem nova pesquisa Firecrawl.
 
@@ -3115,21 +3089,15 @@ Direção de registros pretos simples aceita em “ok prox” após manter chuve
 
 **Continuação de 02/10 — gabinete da pia:** redistribuição compatibilizada · memória. Pressão 40,8 × 23,1 × 18,1 passa à posição transversal frontal, resolvendo excesso anterior de 5,4 no interior nominal. Escorredor girado ao fundo direito, tábua parcial em faixa lateral e suporte removível para quatro tampas + frigideira. Reservas distintas e hipotéticas: sifão/ligações 10 × 31,3 central e mangueira/contrapeso 16 × 28,3 à esquerda. Pilhas superiores limitadas a 23,4/24 × 25 × 18, incluindo alças/cabos, menores que o ensaio anterior de 28. Percursos idealizados verificados; escorredor exige retirada prévia da pressão e do suporte. Instalação real, jogo de utensílios, tábua extra e ferragens continuam pendentes. Sem capacidade adicional, produtos novos selecionados ou fabricação liberada. Elias informa que panelas, tampas e frigideira ainda não existem; limites passam a orientar seleção futura. Comparada alternativa B: escorredor seco de lado em reserva com berço 13,6 × 28,8 × 20,9, sai diretamente; suporte de tampas posterior exige retirar pressão e escorredor. Alternativa A preservada como comparação, nenhuma escolha nova atribuída ao usuário. Ítria consultada como referência de cabo removível, sem cabimento completo ou recomendação de compra. Ficha Dora confirma válvula com escape inclusa 94510/023; extensão linear do sifão de referência não comprova instalação.
 
-
 **03/10/2026 — seleção dimensional das panelas:** tampas e G2, base C · panelas candidatas. Duas Solar16 + duas Solar20 continuam candidatas; tampas deitadas atrás da pilha direita exigem conjunto completo com apoio/proteção até18,5 e retirada prévia dessa pilha. Pressão/escorredor deitado/tábua no inferior; escorredor exige retirar pressão. Frigideira Turim20 candidata em G2, H real≥11,1. Elias informa que utensílios ainda não existem, autoriza decidir e pede evitar Firecrawl por consumo. Definidos oito utensílios compactos: concha, escumadeira, espátula lisa, espátula vazada, peneira pequena, espremedor de alho, espremedor de cítricos, ralador plano. Quantidades/gabaritos individuais em memória, sem marcas/códigos novos ou pesquisa externa nesta continuação. Duas faixas de utensílios em G2 chegam a8,7/9,6 de altura; conjunto passa apenas nos envelopes de seleção e depende da caixa real, tampas e hidráulica. Sem compra, execução ou nova aprovação física inferida. Saldo da pia desenvolvido: R1 frontal útil12,8 ×22,3 ×22,8 para candidatura de mixer desmontável completo; R2 estreita útil5,6 ×29,5 ×22,8 para tábua extra de carnes28 ×20 ×1 hipotética. Ocupação de R1 exige retirar pressão e bandeja antes do escorredor; tábua de carnes depende da pressão. Demais aparelhos, vidro, bowls/tigelas/cesto e jarra/térmica permanecem sem destino completo. Sem Firecrawl nesta continuação.
-
 
 **06/10/2026 — retomada autônoma e encerramento documental:** Elias definiu um sanduíche pequeno; concha comum para sopa/feijão; seis potes de vidro para refeições, sem substituir os dez plásticosC3; jarra e térmica1,5L cada, jarra semanal e térmica diária; liquidificador a cada duas semanas e batedeira mensal. Mixer semanal é interpretação contextual de “Misericórdia semanalmente”, sujeita à correção. Autorizado estudar redistribuição interna de G2 mantendo oito utensílios+frigideira, sem ampliar ou ocupar outras gavetas. Estado atual separa decisões e resultados nominais. Elias pediu deixar o feito salvo na pasta Guedala Park no mesmo estilo existente: autorização de salvar/organizar, sem responder às perguntas sobre função/capacidade dos seis potes ou estudo de destinos alternativos para jarra/térmica/potes. Nenhuma alternativa sem bandejas, produto, compra ou execução aprovada. Relatórios, scripts, fontes e PDF reunidos na pasta diária; originais e revisões preservados.
 
-
 Continuação do registro06/10: respostas posteriores de Elias — “refeiçoes individuais 2 pode” — confirmam seis potes para refeições individuais e autorizam estudar outros lugares para potes/jarra/térmica preservando todo o armazenamento aprovado. Encerradas as duas perguntas do encerramento anterior. Não aprovado370ml como refeição nem capacidade exata, modelo, destino ou fabricação. Faixas e fontes · estudo conjunto · estado vigente. Histórico e originais preservados.
-
 
 Continuação do mesmo registro06/10 — **Atualização vigente06/10:** seis vidros para refeições individuais de aproximadamente800mL;820mL é referência comparativa, não produto escolhido. Térmica diária1,5L guardada em móvel; bancada excluída como guarda. Matriz de37 espaços precedeu novos testes. Candidato nominal: seis800 no compartimento limpo com ambas reservas3,5 preservadas e montagem total de apoio no máximo0,9; balde alternativo8L+jarra+térmica na faixa útil30,8×35×26,2. Dependem de confirmar função do balde8L e detalhamento técnico completo; nenhum destino físico adotado. Arranjos rebaixados anteriores continuam rejeitados. Registros intermediários abaixo são históricos onde superados. Resultado conjunto e decisão mínima.
 
-
 Continuação do mesmo registro06/10 — **Atualização vigente06/10 — balde8L:** Elias confirmou “atende” para capacidade funcional8L; pergunta encerrada, sem modelo escolhido. Seis potes~800mL, jarra1,5L semanal e térmica1,5L diária guardada mantidos. ZojirushiSH-HC15 como nova referência reduz profundidade nominal conjunta33,51 (sobra1,49); o antigo35 exato é conflito até folgas/tolerâncias comprovadas. Montagem de apoio completa≤9mm mantém ambas reservas3,5, sem resistência presumida; novo confronto contém bases dos potes em dois planos20,5/17,5. Dez percursos contínuos de caixas passaram no mobiliário idealizado, sem validar pessoa/ferragens/estacionamento. Barreiras/limpeza/carga e tolerâncias continuam bloqueios técnicos; nenhum arranjo final aprovado. Registros intermediários superados ficam históricos. Resultado detalhado e limites.
-
 
 ## 08/10/2026 — fechamento do armazenamento
 
@@ -3143,12 +3111,9 @@ Respostas diretas recebidas nesta rodada:
 
 **08/10/2026 — cozinha e banco, atualização vigente:** Elias autorizou avançar o fechamento do armazenamento, confirmou térmica guardada vazia e seca, poucas unidades de batatas/cebolas/alho e escolheu fruteira com base ventilada na mesa. Dimensões da fruteira seguem de estudo. Nova proposta do banco mantém 180 × 45 × 47 e a folha; setores 36,2 / 35 / 19,8 com duas divisórias de 1,8. Fundo a 8 cm somente no setor dos potes é nova hipótese construtiva: preserva reserva inferior 3,5, superior 4 e montagem de apoio testada de 24 mm. Treze percursos de caixas e estacionamento estático 67 × 95 na mesa conferidos; retirada do balde tem apenas cerca de 5 mm por lado no vão idealizado. Estrutura, ferragens, acesso real, produtos, estoque e capacidade global não estão concluídos. Nenhuma aprovação executiva ou dos novos detalhes do banco foi inferida. Prancha completa. A nova proposta não consome as duas reservas de 3,5 nem apropria espaço de G3/C3; a viabilidade do fundo a 8 cm deve ser demonstrada pela construção real. O apoio temporário da fruteira ao liberar a mesa continua a definir. Sem compra, contato, commit/push ou publicação.
 
-
 **Aceite final de 08/10 — organização da cozinha e do banco:** após a apresentação da prancha e das pendências, Elias respondeu “ok, aprovado”. A distribuição proposta do banco, os destinos de armazenamento e a fruteira com base ventilada ficam adotados como direção funcional para o detalhamento. Não repetir a consulta de aprovação dessa organização. O fundo do setor dos potes a 8 cm, apoios, divisórias e demais cotas são parâmetros de estudo sujeitos à construção real. Mantidas as verificações de estrutura/ferragens, retirada do balde, objetos completos, estoque, capacidade e apoio temporário da fruteira. O aceite não comprova essas condições nem libera fabricação. Prancha atualizada.
 
-
 **Continuação técnica após “sim, seguimos”:** preservada a organização aprovada. Corrigida descrição anterior: banco externo 180 × 55 cm, com assento de profundidade 45 e encosto de 10, conforme modelo app.js linha 80 e anteprojeto R00. A aprovação funcional não é usada para atribuir redução do banco a 45. O conjunto estofado do modelo mede 7 cm; o ensaio anterior usava 6. Com 7 cm, a passagem de 33 cm fica sem sobra para o corpo do balde, e a jarra colide na elevação direta. Nova alternativa técnica: tampa estrutural em envelope de 2 cm e almofada removível de 5 cm nos setores das bebidas e balde. Passagem 37,8 cm, 2,4 por lado do corpo do balde; almofadas cabem estaticamente sobre o assento da ponta e seus percursos de caixas foram conferidos. Acesso diário à térmica passa a exigir retirar uma almofada: essa nova rotina não está aprovada. Apoios dos potes detalhados com painéis de estudo 35,6 × 20,2 e 35,6 × 17,7, 3 mm por lateral, 18 mm de painel e reserva inferior de suporte de 6 mm; cargas e ferragens não dimensionadas. Reservas de 3,5 e 4 preservadas. Detalhe integrado na prancha. Nenhuma compra, contato ou fabricação.
-
 
 ## 13/10/2026 — simplicidade nos armários
 
@@ -3162,27 +3127,22 @@ Continuação desta conversa configurada a cada30 minutos até07:00 de14/10, Sã
 
 Elias respondeu “entendo q funciona sim” à pergunta sobre retirar a almofada do trecho das bebidas antes de acessar a térmica e apoiá-la na ponta do próprio banco. A rotina apresentada de almofadas separadas das tampas nos setores das bebidas e do balde fica aceita, inclusive para o uso diário. Encerra a pendência funcional indicada no registro anterior; não repetir a pergunta. Preservadas organização e capacidades aprovadas. Material e resistência das tampas, ferragens/retenção, fundo, apoios, alças/pegas, tolerâncias e teste físico permanecem técnicos; o aceite não os valida nem libera fabricação. Prancha atualizada.
 
-
 ## Após o tópico 5 — extensão removível e varal com manivela
 
 Elias escolheu: “Manter a extensão removível, mas facilitar sua guarda para mesa e para varal manter o quadro inteira com maniveça”. Preservar mesa 150/180 × 75 com folha removível; desenvolver guarda de acesso mais fácil. Acesso pela ponta do banco voltada à cozinha é hipótese de desenvolvimento, não escolha executiva: lateral atual inteira, estrutura e espaço para retirada ainda por conferir. Não presumir aprovação de nova abertura ou mudança da base. Varal: quadro inteiro com manivela confirmado; manter elevação vertical, grelha100 ×50 e chapa independente. Produto, curso, carga e fixação pendentes. Modelo R30 preservado; escopo complementar anotado no pacote de orçamento, sem alteração do PDF.
-
 
 ## Após o estudo da retirada — acesso pela ponta adotado e carga solicitada
 
 Elias autorizou seguir com a retirada da extensão pela ponta do banco e pediu desenvolver reforços e apoio durante a retirada. Informou três pessoas de80 kg: requisito total240 kg, não capacidade verificada. Desenvolvida proposta separada de quadro metálico até o piso e bandeja extraível, ainda sem aceite específico para os30 mm de avanço na ponta, rebaixo10 mm do nicho, materiais ou ferragens. A proposta permite curso750 da bandeja +93 da folha, com672 apoiados e630 até porta fechada. Nenhuma capacidade comercial de guia foi transferida ao projeto. [Detalhamento](../03_Ambientes/Sala_e_jantar/Retirada_ponta/Bandeja_e_reforcos.html). R30 preservada; estrutura, ligações, carga concentrada dos assentos e produto exato pendentes.
 
-
 ## Banco — solução híbrida aceita e estudo de 240 kg
 
 Elias confirmou “Sim, seguir com a solução híbrida”. Adotada como direção a estrutura principal de madeira com pórtico de aço apenas na ponta. Novo [pré-dimensionamento R01](../03_Ambientes/Sala_e_jantar/Retirada_ponta/Dimensionamento_hibrido_240kg.html): cabeçalho maciço 40 × 30, montantes 30 × 30 × 3, reforços de madeira 18 × 90 e apoios das divisórias até o piso. Corrediça de referência DZ5321-0070, curso 723 mm; folha desliza mais 120 mm e mantém 645 mm apoiados. Proposta anterior de curso750 +93 e referência7957 superadas. Geometria verificada em cópia separada, R30 preservada. Madeira qualificada, ligações, bandeja, trava, estabilidade e teste físico pendentes; não constitui capacidade240kg comprovada ou liberação de fabricação. Menor custo é objetivo, ainda sem cotação comparativa.
-
 
 ## 15/10/2026 — madeira, ligações e trava do banco, R02
 
 Desenvolvida a [especificação R02 para orçamento](../03_Ambientes/Sala_e_jantar/Retirada_ponta/Materiais_ligacoes_trava_R02.html): compensado estrutural multilaminado de pinus fenólico18 mm com propriedades declaradas (E mínimo5500 MPa e resistências de cálculo especificadas), reforços18 ×126,68 conjuntos M6 passantes e trava manual com pinoØ8 ×80 e suporte independente. A orelha avança50 mm além da ponta original (20 mm além do pórtico); não considerar apenas1830 mm como limite local. Modelo e percursos conferidos em estudo separado; R30 preservada. Escolhas para cotação, sem compra. Propriedades do lote, ligações completas, estabilidade, própria bandeja e ensaio ainda pendentes; capacidade240kg não comprovada. Custo mínimo é intenção, sem cotação comparativa.
 **24/10/2026 — escolha visual de marcenaria R02:** Elias escolheu “M2 MADEIRA NATURAL / B2 AREIA / 02 MARFIM ESCRITORIO”. Registrar M2 nas laterais aparentes do gabinete/espelheiro do banheiro; B2 nas frentes do gabinete; O2 Marfim no aéreo do escritório acima do sofá. [Imagens e alcance do aceite](../09_Referencias/Tons_marcenaria/Escolha_aprovada_R02.md). Arauco Beige Matt e Louro Freijó Poro previamente registrados permanecem como seleções comerciais a conferir em amostra contra B2/M2; imagem não comprova equivalência. Marfim ainda sem código comercial. Branco TX e demais acabamentos preservados; não estender Marfim à sala ou quarto. Registro documental, sem CAD ou publicação alterados.
-
 
 **24/10/2026 — depurador sem duto (R48):** Elias: "depurador não tem esse cano, pois isso seria uma coifa, então temos que remover isso". Removida do aéreo D a reserva de canal técnico 196 × 178 × 556 mm, que era ilustrativa. Mantida a exigência do manual DE61IX: abertura de retorno de 20 mm na largura do armário, filtros e acesso. [FreeCAD R48](../02_Modelo_3D/Historico/Depurador_sem_canal/README.md); visualizador atualizado.
 

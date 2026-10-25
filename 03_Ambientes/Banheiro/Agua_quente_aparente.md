@@ -53,3 +53,44 @@ Elias esclareceu que pretende acessar/levar a água quente pela área de enchime
 Distinguir duas intervenções: abrir e recompor um fechamento técnico não estrutural e derivar a rede hidráulica. A primeira não equivale a rasgar alvenaria estrutural; a segunda continua sendo alteração da instalação, mesmo sem deslocar o ponto original do chuveiro. O memorial p.14 §3.1 usa redação ampla para proibir alterações nos pontos, mas não detalha exceção nem procedimento específico para derivação dentro de enchimento/shaft. §3.2 reconhece vedações não estruturais, sem localizar este fechamento específico. Assim, não declarar autorização automática nem inviabilidade técnica definitiva com base somente nesse trecho.
 
 Cenário a verificar: ramal quente privativo acessível no enchimento, antes dos registros/misturador do chuveiro; derivação dimensionada para pia/ducha, percurso sem atingir alvenaria estrutural e com recomposição do fechamento/impermeabilização quando aplicável. Não presumir presença desse ramal, nem intervir em prumada coletiva. Solicitação técnica futura à Cury: possibilidade de derivar o ramal quente privativo dentro do enchimento técnico, mantendo ponto original e estrutura, e quais detalhes/requisitos de reforma se aplicam. Nenhuma mensagem externa enviada.
+
+## Memorial, quatro percursos e detalhes (movido do README do banheiro em 25/10/2026)
+
+Elias quer alimentar pia e ducha higiênica de modo discreto e econômico, evitando quebrar paredes. Primeiro propôs uma extensão de pedra semelhante à foto, ocultando tubos por baixo; depois esclareceu que pretende partir da **área de enchimento, que informa ser de gesso**, e propôs levar o tubo pelo alto com fechamento no canto do teto. Essa é a origem assumida para comparar percursos, sem medir sua posição ou confirmar composição de todo o volume.
+
+Não interpretar sua intenção atual como alimentação pela mangueira da duchinha. Na configuração usual, a saída do chuveiro vem depois dos controles do banho; a solução estudada é uma derivação do ramal quente privativo **antes desses controles**, chegando aos misturadores da pia e da ducha. Ambos precisam também de alimentação fria.
+
+O memorial oficial distingue aspectos que não devem ser confundidos:
+
+- **P.13:** prevê forro de gesso no banheiro tipo; isso não confirma espaço livre contínuo acima dele.
+- **P.14, §3.1:** alvenaria estrutural e proibição expressa de alterações como quebras, aberturas e mudanças nos pontos elétricos/hidráulicos.
+- **P.14, §3.2:** admite fechamentos não estruturais em drywall ou material similar, sem localizar o fechamento específico do banheiro.
+- **P.17, §5.4:** confirma previsão quente para chuveiros; não confirma os outros dois pontos desejados.
+
+Abrir e recompor um fechamento técnico não estrutural é diferente de rasgar alvenaria estrutural. Derivar a rede continua sendo alteração da instalação. O texto não detalha esse caso nem apresenta uma exceção explícita para o enchimento; não concluir autorização automática nem inviabilidade técnica definitiva somente por esse trecho. A avaliação de reforma permanece pendente, sem impedir o estudo das alternativas. Nenhuma consulta externa foi enviada.
+
+### Comparação dos quatro percursos
+
+| Alternativa | Como esconder | Vantagem no projeto | Limite/custo relativo |
+|---|---|---|---|
+| **1. Acima do forro existente** | Subida no enchimento, travessia sobre o forro, descida no canto junto ao espelho/gabinete | Preserva circulação e dispensa pedra sobre a caixa; primeira recomendação do assistente | Bom custo-benefício se houver passagem e reparos localizados; descida ainda precisa de acabamento |
+| **2. Faixa fechada de gesso no canto do teto** | Pequeno volume só no percurso, pintado como teto, com descida junto ao lavatório | Solução proposta por Elias; alternativa quando o forro não permite passagem | Acrescenta volume e mão de obra; não exige automaticamente rebaixar teto inteiro |
+| **3. Prateleira elevada de Branco Itaúnas** | Tubo sob pedra atrás/acima da caixa, com fechamento acessível | Reproduz a ideia visual enviada e pode integrar a marmoraria | Precisa ficar mais alta que o tampo; custo de pedra/apoios/acabamento; liberar botão e tampa |
+| **4. Passagem baixa atrás do vaso** | Tubo atrás da louça/gabinete e cobertura removível nos trechos necessários | Potencialmente percurso curto e econômico | Só vale se couber sem avançar o VIP; exterior fechado não comprova vão traseiro disponível |
+
+**Situação das alternativas:** comparadas, sem escolha expressa de um percurso único. A recomendação foi priorizar o forro existente e manter a faixa no teto como segunda opção. O pedido de documentar não equivale a aprovar fabricação ou execução de uma dessas rotas.
+
+### Detalhes que precisam acompanhar qualquer rota
+
+- A descida do teto até o gabinete deve ser desenhada integralmente. O espelho pode esconder parte; o intervalo visível entre espelho e pedra precisa de cobertura própria. Preservar armazenamento raso e iluminação de maquiagem.
+- Uma prateleira sobre a caixa não pode ser continuação no mesmo nível do tampo:76,5 cm é inferior à altura nominal80 cm do VIP. Criar nível superior com acesso à descarga e retirada da tampa, sem elevar automaticamente a cuba nem avançar o vaso.
+- Tubos PEX próprios para água potável quente/fria e CPVC próprio para água quente são candidatos; sistema e diâmetro não foram escolhidos. Tubulação deve ter suportes, transições e acesso adequados; não ficar solta apoiada na chapa do forro.
+- Prever acesso às conexões e teste de estanqueidade antes de fechar. Compatibilizar passagem no box, vedação, revestimentos e fixações.
+- Passagem pelo alto pode aumentar comprimento, água parada e espera. Preferir percurso curto e bem dimensionado. Não propor abrir outro ponto como solução permanente de acionamento.
+- E21 exige **3,9 L/min passando pelo aquecedor para acionar**. Verificar pia e ducha em uso individual: tubulação conectada não garante aquecimento imediato nem funcionamento estável com vazão baixa.
+- Não estudar uso do forro do vizinho, rasgos em estrutura, perfuração improvisada do vidro ou retirada de enchimento como se fossem automaticamente permitidos.
+- Engrossar a parede inteira ou deslocar o vaso pode consumir o espaço recuperado com o VIP; abrir o piso aumenta intervenção na impermeabilização. Não são prioridades para o objetivo de economia/amplitude.
+
+Pesquisa anterior de material: PEX Amanco20 mm a **R$9,90/m** na página aberta da Ferreira Costa. Valor apenas do tubo, sem frete/instalação e sem selecionar esse diâmetro. Não há orçamento instalado. Conexões, mão de obra, acesso, gesso, pintura, testes e eventual pedra precisam entrar na comparação.
+
+[Estudo da proposta inicial e memorial](Agua_quente_aparente.md) · [Comparação técnica e fontes](Comparacao_rotas_agua_quente.md) · [Comparador visual salvo](Comparacao_visual_dos_percursos.html).

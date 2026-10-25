@@ -15,3 +15,22 @@ Prioridades: apoio direto já estudado nas prateleiras P01; fundo e ligações p
 - Varões para roupas e componentes de articulação têm funções próprias; esta decisão trata de tubos que sustentam chapas.
 
 Pendências desta decisão: estudar apoios de madeira e rigidez do tampo da bancada; completar os caminhos P15/P04 e a prova das juntas. Retirar uma alternativa de estudo não libera a capacidade dos apoios atuais.
+
+## Histórico cancelado dos reforços externos (movido do README em 25/10/2026)
+
+**Não faz parte do projeto ativo.** Elias rejeitou tubos sustentando chapas em25/10. Números abaixo preservados para rastrear o estudo anterior; não são indicação de compra ou detalhamento futuro.
+
+Duas longarinas ao longo dos 799 mm, próximas da frente e da traseira, **sob** a base. Sem divisória ou perda de altura interna. Os perfis reduziriam a cota inferior externa em 15 ou 20 mm e precisam de quatro terminais positivos na caixa. Não foram incorporados à R50 nem aos quantitativos ativos.
+
+A comparação atribui **todo o conteúdo e toda a base a uma única longarina**, além do peso próprio dessa longarina. Soma uma triagem de flexão transversal do MDF e a reserva de 0,20 mm. O caso misto é 15 kg distribuídos mais 5 kg localizados sobre faixa longitudinal de 50 mm; a concentração transversal é idealizada como ponto. Não há crédito de espalhamento para uma placa mais larga.
+
+| Perfil ideal, altura na vertical | 20 kg distribuídos | 15 kg distribuídos + 5 kg localizados | Misto com MDF E inicial 1.600 MPa |
+|---|---:|---:|---:|
+| 35 × 15 × 2 mm | 1,616 mm | 2,590 mm | 2,956 mm |
+| 30 × 20 × 2 mm | 1,090 mm | 2,044 mm | 2,431 mm |
+
+Valores da tabela = soma conservadora de deformações mais reserva; referência de 2,663 mm. O perfil de **30 × 20 × 2 é o candidato mais robusto desta comparação**. Para o caso misto com E = 1.600 MPa, exige I efetivo mínimo aproximado de **8.652 mm⁴**, com E do aço de 200.000 MPa. Cantos arredondados e tolerâncias precisam entrar no I real, em vez de usar cegamente a seção retangular ideal.
+
+Cada terminal tem envelope estático de cortante de **243,3 N** se praticamente toda a carga se aproximar de uma extremidade. Para limitar seu assentamento a 0,20 mm, a rigidez requerida do **grupo** é cerca de **1.217 N/mm**. São solicitações sem majoração, não capacidade de parafuso. Ainda faltam geometria, excentricidade, solda/assento, grupo de fixadores, resistência e acesso de montagem.
+
+**20 kg concentrados num apoio pequeno não passam nessa triagem**, mesmo com esses perfis: a flexão transversal local do MDF governa. A meta atual continua sendo conteúdo total distribuído, com os casos de concentração explicitamente identificados. Não registrar “20 kg em qualquer posição”.

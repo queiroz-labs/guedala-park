@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 
 ATRIBUICAO = re.compile(r'(?i)\b(elias|usu[aá]rio)\b[^.\n]{0,25}\b(aprov(?:ou|a|ada|ado)|confirm(?:ou|a)|escolh(?:eu|e)|aceit(?:ou|a)|decidiu|autoriz(?:ou|a)|defini(?:u|ndo)|pediu)\b'
                         r'|\b(aprovad[oa]s?|escolhid[oa]s?|confirmad[oa]s?|autorizad[oa]s?)\s+(?:por|pelo)\s+(?:elias|usu[aá]rio)\b')
-FONTE = re.compile(r'\b\d{1,2}/\d{1,2}(/\d{2,4})?\b|\b\d{4}-\d{2}-\d{2}\b|\bF\d{2,3}\b|[“"][^”"\n]{3,}[”"]|Registro_de_decisoes|\bfonte:', re.I)
+FONTE = re.compile(r'(?<!\d)\d{1,2}/\d{1,2}(/\d{2,4})?(?!\d)|\b\d{4}-\d{2}-\d{2}\b|\bF\d{2,3}\b|[“"][^”"\n]{3,}[”"]|Registro_de_decisoes|\bfonte:', re.I)
 LIBERACAO = re.compile(r'(?i)\b(liberad[oa]s?\s+para\s+(?:fabric|corte|compra|execu)|fabrica[cç][aã]o\s+liberada|pode\s+(?:fabricar|cortar|comprar)\b|aprovad[oa]s?\s+para\s+(?:fabric|corte|execu)'
                        r'|pronto[as]?\s+para\s+(?:fabricar|cortar|executar)|capacidade\s+(?:aprovada|comprovada|liberada)|carga\s+(?:aprovada|liberada)|homologad[oa]s?)', re.I)
 RESSALVA = re.compile(r'(?i)\b(n[aã]o|nada|sem|nenhum[a]?|nunca|ainda|pendente|condicionad[oa]s?|depende[mr]?|exige|exigem|antes\s+de|at[eé]\s+que|para\s+liberar|quando|se\b|enquanto|falta|faltam|nem)\b')

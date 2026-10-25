@@ -76,3 +76,7 @@ A pesquisa não terminou: a pendência principal é confirmar a memória de cál
 ## Continuação: oito documentos adicionais
 
 Veja [a análise complementar](Continuacao_2026-10-18.md), incluindo achado em abril, Torre 03, cronograma de fundações e manifestação de 2025. Essa atualização complementa as pendências listadas acima.
+
+## Arquivos pesados fora do projeto
+
+As partes dos relatórios (`relatorios-fragmentados/`, cerca de 620 MB, PDFs e um ZIP em pedaços, com `indice.json` e `restaurar.py`) foram movidas em 25/10/2026 para `Documents\Guedala_park_fora_do_projeto\Pesquisa_atrasoelatorios-fragmentados`. Os checksums continuam em `manifesto-sha256.json`; os arquivos também estão no histórico do git (tag `antes-reorganizacao`). Para consultar, restaure com o `restaurar.py` daquela pasta.
