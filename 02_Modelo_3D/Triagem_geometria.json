@@ -1,0 +1,5767 @@
+{
+  "schema": 2,
+  "modelo": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+  "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "freecad": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "bop_fontes": true,
+  "metodo": "Sem recompute ou save; validade propria separada dos agregados informativos; Shape.check nos agregados; rastreio por Group e assinatura.",
+  "objetos": [
+    {
+      "nome": "Modulo005",
+      "rotulo": "Gaveteiro G1 / G2 / G3",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 79510080.32875255,
+        "area_mm2": 10473258.131368108,
+        "faces": 3252,
+        "solidos": 69,
+        "solidos_invalidos": [
+          11,
+          12,
+          32,
+          33,
+          46,
+          47
+        ],
+        "delta_volume_soma_solidos_mm3": -36.88991940021515
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 6
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GavetaComumR054",
+          "rotulo": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR054"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.50420972146,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.5042097215,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR055",
+          "rotulo": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR055"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671444,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R07",
+          "rotulo": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07",
+          "caminho": [
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R07"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R001",
+          "rotulo": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07",
+          "caminho": [
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R001"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671446,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR066",
+          "rotulo": "Trava T51.7601 · 46166126 · G1 · talheres - proposta R08",
+          "caminho": [
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR066"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR067",
+          "rotulo": "Trava T51.7601 · 43107713 · G1 · talheres - proposta R08",
+          "caminho": [
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR067"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671445,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "Modulo006",
+      "rotulo": "Estrutura do módulo de cocção",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 33421181.734267917,
+        "area_mm2": 4166993.903719182,
+        "faces": 316,
+        "solidos": 15,
+        "solidos_invalidos": [
+          10
+        ],
+        "delta_volume_soma_solidos_mm3": 8.884277485311031
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GrelhaInferiorR31",
+          "rotulo": "GrelhaInferior · proposta R31",
+          "caminho": [
+            "Modulo006",
+            "GrelhaInferiorR31"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Compound",
+            "valida": true,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "Ambiente_cozinha",
+      "rotulo": "Cozinha",
+      "tipo": "App::DocumentObjectGroup",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 1797411572.7969687,
+        "area_mm2": 71961904.55821148,
+        "faces": 17144,
+        "solidos": 329,
+        "solidos_invalidos": [
+          61,
+          62,
+          82,
+          83,
+          96,
+          97,
+          129
+        ],
+        "delta_volume_soma_solidos_mm3": -1912.9032044410706
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 7
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GavetaComumR054",
+          "rotulo": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR054"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.50420972146,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.5042097215,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR055",
+          "rotulo": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR055"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671444,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R07",
+          "rotulo": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R07"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R001",
+          "rotulo": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R001"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671446,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR066",
+          "rotulo": "Trava T51.7601 · 46166126 · G1 · talheres - proposta R08",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR066"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR067",
+          "rotulo": "Trava T51.7601 · 43107713 · G1 · talheres - proposta R08",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR067"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671445,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GrelhaInferiorR31",
+          "rotulo": "GrelhaInferior · proposta R31",
+          "caminho": [
+            "Ambiente_cozinha",
+            "Modulo006",
+            "GrelhaInferiorR31"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Compound",
+            "valida": true,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "Ambiente_quarto",
+      "rotulo": "Quarto",
+      "tipo": "App::DocumentObjectGroup",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 3183732016.3345513,
+        "area_mm2": 119203493.5214864,
+        "faces": 11856,
+        "solidos": 240,
+        "solidos_invalidos": [
+          47,
+          55,
+          123,
+          129,
+          136,
+          142
+        ],
+        "delta_volume_soma_solidos_mm3": 184.4163784980774
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 10
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GavetaComumR031",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+          "caminho": [
+            "Ambiente_quarto",
+            "Modulo",
+            "Gaveta002",
+            "GavetaComumR031"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671447,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR043",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+          "caminho": [
+            "Ambiente_quarto",
+            "Modulo",
+            "Gaveta003",
+            "GavetaComumR043"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.296986714464,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "Modulo001",
+          "rotulo": "Canto integrado em L - R04 simples - proposta",
+          "caminho": [
+            "Ambiente_quarto",
+            "Modulo001"
+          ],
+          "mapeamento_folha": false,
+          "nativo": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 34946279.751467146,
+            "area_mm2": 4288601.4631433375,
+            "faces": 2408,
+            "solidos": 34,
+            "solidos_invalidos": [
+              11,
+              17,
+              24,
+              30
+            ],
+            "delta_volume_soma_solidos_mm3": -38.148267179727554
+          },
+          "no_agregado": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 34946279.751467146,
+            "area_mm2": 4288601.4631433375,
+            "faces": 2408,
+            "solidos": 34,
+            "solidos_invalidos": [
+              11,
+              17,
+              24,
+              30
+            ],
+            "delta_volume_soma_solidos_mm3": -38.148267179727554
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 6
+            }
+          },
+          "rastreio_delegado_para": "Modulo001"
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "ApartamentoR34",
+      "rotulo": "02 - APARTAMENTO - orientação correta",
+      "tipo": "App::DocumentObjectGroup",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 19475644127.47111,
+        "area_mm2": 585586350.9760671,
+        "faces": 43425,
+        "solidos": 1004,
+        "solidos_invalidos": [
+          47,
+          55,
+          123,
+          129,
+          136,
+          142,
+          504,
+          505,
+          525,
+          526,
+          539,
+          540,
+          572
+        ],
+        "delta_volume_soma_solidos_mm3": -1466.2971382141113
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 17
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GavetaComumR031",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_quarto",
+            "Modulo",
+            "Gaveta002",
+            "GavetaComumR031"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671447,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR043",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_quarto",
+            "Modulo",
+            "Gaveta003",
+            "GavetaComumR043"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.296986714464,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "Modulo001",
+          "rotulo": "Canto integrado em L - R04 simples - proposta",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_quarto",
+            "Modulo001"
+          ],
+          "mapeamento_folha": false,
+          "nativo": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 34946279.751467146,
+            "area_mm2": 4288601.4631433375,
+            "faces": 2408,
+            "solidos": 34,
+            "solidos_invalidos": [
+              11,
+              17,
+              24,
+              30
+            ],
+            "delta_volume_soma_solidos_mm3": -38.148267179727554
+          },
+          "no_agregado": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 34946279.751467146,
+            "area_mm2": 4288601.4631433375,
+            "faces": 2408,
+            "solidos": 34,
+            "solidos_invalidos": [
+              11,
+              17,
+              24,
+              30
+            ],
+            "delta_volume_soma_solidos_mm3": -38.148267179727554
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 6
+            }
+          },
+          "rastreio_delegado_para": "Modulo001"
+        },
+        {
+          "objeto": "GavetaComumR054",
+          "rotulo": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR054"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.50420972146,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.5042097215,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR055",
+          "rotulo": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta004",
+            "GavetaComumR055"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671444,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R07",
+          "rotulo": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R07"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "MontagemG2R001",
+          "rotulo": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta005",
+            "MontagemG2R001"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671446,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR066",
+          "rotulo": "Trava T51.7601 · 46166126 · G1 · talheres - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR066"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46084.504209721454,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46084.50420972153,
+            "area_mm2": 12265.766454746268,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR067",
+          "rotulo": "Trava T51.7601 · 43107713 · G1 · talheres - proposta R08",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo005",
+            "Gaveta006",
+            "GavetaComumR067"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.296986714406,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671445,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "GrelhaInferiorR31",
+          "rotulo": "GrelhaInferior · proposta R31",
+          "caminho": [
+            "ApartamentoR34",
+            "Ambiente_cozinha",
+            "Modulo006",
+            "GrelhaInferiorR31"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Compound",
+            "valida": true,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Compound",
+            "valida": false,
+            "volume_mm3": 40033.732206658045,
+            "area_mm2": 60872.49268997404,
+            "faces": 110,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "CantoSimplesR04",
+      "rotulo": "Canto R04 - portas independentes - proposta simples",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 5583385.345379259,
+        "area_mm2": 792345.4631433624,
+        "faces": 2374,
+        "solidos": 29,
+        "solidos_invalidos": [
+          3,
+          9,
+          15,
+          16,
+          19,
+          21,
+          22,
+          25
+        ],
+        "delta_volume_soma_solidos_mm3": -36.55435507558286
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 9
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR001",
+          "rotulo": "71B3550 A - corpo 1",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR04",
+            "FerragemSimplesR001"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719663,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719676,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR007",
+          "rotulo": "71B3550 A - corpo 002",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR001",
+            "FerragemSimplesR007"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719663,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719676,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR012",
+          "rotulo": "71B3550 B - corpo 0",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR002",
+            "FerragemSimplesR012"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 6037.211235990328,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 6037.211235990339,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR013",
+          "rotulo": "71B3550 B - corpo 1",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR002",
+            "FerragemSimplesR013"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719658,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719669,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR016",
+          "rotulo": "71B3550 B - corpo 4",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR002",
+            "FerragemSimplesR016"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102478,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR018",
+          "rotulo": "71B3550 B - corpo 001",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR003",
+            "FerragemSimplesR018"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 6037.211235990328,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 6037.211235990344,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR019",
+          "rotulo": "71B3550 B - corpo 002",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR003",
+            "FerragemSimplesR019"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719658,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719661,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR022",
+          "rotulo": "71B3550 B - corpo 005",
+          "caminho": [
+            "CantoSimplesR04",
+            "DobradicaSimplesR003",
+            "FerragemSimplesR022"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102482,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "DobradicaSimplesR001",
+      "rotulo": "71B3550 - porta A - nivel 255",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 36255.846646147205,
+        "area_mm2": 21556.941128457132,
+        "faces": 584,
+        "solidos": 6,
+        "solidos_invalidos": [
+          2
+        ],
+        "delta_volume_soma_solidos_mm3": -3.0940395409197663
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR007",
+          "rotulo": "71B3550 A - corpo 002",
+          "caminho": [
+            "DobradicaSimplesR001",
+            "FerragemSimplesR007"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719663,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719676,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "DobradicaSimplesR002",
+      "rotulo": "71B3550 - porta B - nivel 51",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 36255.84664614724,
+        "area_mm2": 21556.941128457125,
+        "faces": 584,
+        "solidos": 6,
+        "solidos_invalidos": [
+          1,
+          2,
+          5
+        ],
+        "delta_volume_soma_solidos_mm3": -3.0940395408761106
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 4
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR012",
+          "rotulo": "71B3550 B - corpo 0",
+          "caminho": [
+            "DobradicaSimplesR002",
+            "FerragemSimplesR012"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 6037.211235990328,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 6037.211235990339,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR013",
+          "rotulo": "71B3550 B - corpo 1",
+          "caminho": [
+            "DobradicaSimplesR002",
+            "FerragemSimplesR013"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719658,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719669,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR016",
+          "rotulo": "71B3550 B - corpo 4",
+          "caminho": [
+            "DobradicaSimplesR002",
+            "FerragemSimplesR016"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102478,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "DobradicaSimplesR003",
+      "rotulo": "71B3550 - porta B - nivel 255",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 36255.84664614721,
+        "area_mm2": 21556.941128457125,
+        "faces": 584,
+        "solidos": 6,
+        "solidos_invalidos": [
+          1,
+          2,
+          5
+        ],
+        "delta_volume_soma_solidos_mm3": -3.0940395409052144
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 3
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR018",
+          "rotulo": "71B3550 B - corpo 001",
+          "caminho": [
+            "DobradicaSimplesR003",
+            "FerragemSimplesR018"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 6037.211235990328,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 6037.211235990344,
+            "area_mm2": 2904.509198275303,
+            "faces": 32,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR019",
+          "rotulo": "71B3550 B - corpo 002",
+          "caminho": [
+            "DobradicaSimplesR003",
+            "FerragemSimplesR019"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719658,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719661,
+            "area_mm2": 4664.842512581541,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR022",
+          "rotulo": "71B3550 B - corpo 005",
+          "caminho": [
+            "DobradicaSimplesR003",
+            "FerragemSimplesR022"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102482,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "DobradicaSimplesR04",
+      "rotulo": "71B3550 - porta A - nivel 51",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 36255.84664614723,
+        "area_mm2": 21556.941128457132,
+        "faces": 584,
+        "solidos": 6,
+        "solidos_invalidos": [
+          2
+        ],
+        "delta_volume_soma_solidos_mm3": -3.0940395408833865
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR001",
+          "rotulo": "71B3550 A - corpo 1",
+          "caminho": [
+            "DobradicaSimplesR04",
+            "FerragemSimplesR001"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 14266.423369719663,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 14266.423369719676,
+            "area_mm2": 4664.842512581543,
+            "faces": 201,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "Modulo",
+      "rotulo": "Guarda-roupa · inferior R02",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 337303468.9483603,
+        "area_mm2": 41540285.83044155,
+        "faces": 4406,
+        "solidos": 99,
+        "solidos_invalidos": [
+          35,
+          43
+        ],
+        "delta_volume_soma_solidos_mm3": 1.9161896705627441
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 4
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "GavetaComumR031",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+          "caminho": [
+            "Modulo",
+            "Gaveta002",
+            "GavetaComumR031"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.29698671447,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "GavetaComumR043",
+          "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+          "caminho": [
+            "Modulo",
+            "Gaveta003",
+            "GavetaComumR043"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 46036.29698671439,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 46036.296986714464,
+            "area_mm2": 12248.919468619782,
+            "faces": 99,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    },
+    {
+      "nome": "Modulo001",
+      "rotulo": "Canto integrado em L - R04 simples - proposta",
+      "tipo": "App::Part",
+      "forma": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 34946279.751467146,
+        "area_mm2": 4288601.4631433375,
+        "faces": 2408,
+        "solidos": 34,
+        "solidos_invalidos": [
+          11,
+          17,
+          24,
+          30
+        ],
+        "delta_volume_soma_solidos_mm3": -38.148267179727554
+      },
+      "check": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 6
+        }
+      },
+      "rastreio": [
+        {
+          "objeto": "FerragemSimplesR004",
+          "rotulo": "71B3550 A - corpo 4",
+          "caminho": [
+            "Modulo001",
+            "CantoSimplesR04",
+            "DobradicaSimplesR04",
+            "FerragemSimplesR004"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102481,
+            "area_mm2": 6675.465332653135,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102537,
+            "area_mm2": 6675.465332653135,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR010",
+          "rotulo": "71B3550 A - corpo 005",
+          "caminho": [
+            "Modulo001",
+            "CantoSimplesR04",
+            "DobradicaSimplesR001",
+            "FerragemSimplesR010"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102481,
+            "area_mm2": 6675.465332653135,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102523,
+            "area_mm2": 6675.465332653135,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 2
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR016",
+          "rotulo": "71B3550 B - corpo 4",
+          "caminho": [
+            "Modulo001",
+            "CantoSimplesR04",
+            "DobradicaSimplesR002",
+            "FerragemSimplesR016"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102517,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        },
+        {
+          "objeto": "FerragemSimplesR022",
+          "rotulo": "71B3550 B - corpo 005",
+          "caminho": [
+            "Modulo001",
+            "CantoSimplesR04",
+            "DobradicaSimplesR003",
+            "FerragemSimplesR022"
+          ],
+          "mapeamento_folha": true,
+          "nativo": {
+            "tipo": "Solid",
+            "valida": true,
+            "volume_mm3": 7546.449447102476,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "no_agregado": {
+            "tipo": "Solid",
+            "valida": false,
+            "volume_mm3": 7546.449447102513,
+            "area_mm2": 6675.465332653133,
+            "faces": 156,
+            "solidos": 1,
+            "solidos_invalidos": [
+              1
+            ],
+            "delta_volume_soma_solidos_mm3": 0.0
+          },
+          "check_agregado": {
+            "ok": false,
+            "bop": false,
+            "excecao": "ValueError",
+            "erros": {
+              "Unorientable shape": 1
+            }
+          }
+        }
+      ],
+      "geometria_propria": false,
+      "classificacao": "agregado_informativo"
+    }
+  ],
+  "fontes_afetadas": {
+    "GavetaComumR054": {
+      "rotulo": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46084.50420972146,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46084.5042097215,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "GavetaComumR055": {
+      "rotulo": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46036.296986714406,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46036.29698671444,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "MontagemG2R07": {
+      "rotulo": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46084.504209721454,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46084.50420972153,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "MontagemG2R001": {
+      "rotulo": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46036.296986714406,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46036.29698671446,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "GavetaComumR066": {
+      "rotulo": "Trava T51.7601 · 46166126 · G1 · talheres - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46084.504209721454,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46084.50420972153,
+        "area_mm2": 12265.766454746268,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "GavetaComumR067": {
+      "rotulo": "Trava T51.7601 · 43107713 · G1 · talheres - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46036.296986714406,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46036.29698671445,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "GrelhaInferiorR31": {
+      "rotulo": "GrelhaInferior · proposta R31",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Compound",
+        "valida": true,
+        "volume_mm3": 40033.732206658045,
+        "area_mm2": 60872.49268997404,
+        "faces": 110,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 8,
+          "Error in Face: BOPAlgo GeomAbs_C0": 4
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 40033.732206658045,
+        "area_mm2": 60872.49268997404,
+        "faces": 110,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "GavetaComumR031": {
+      "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46036.29698671439,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46036.29698671447,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 2
+        }
+      }
+    },
+    "GavetaComumR043": {
+      "rotulo": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 46036.29698671439,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 10,
+          "Error in Face: BOPAlgo GeomAbs_C0": 8,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 3,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 3
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 46036.296986714464,
+        "area_mm2": 12248.919468619782,
+        "faces": 99,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 2
+        }
+      }
+    },
+    "Modulo001": {
+      "rotulo": "Canto integrado em L - R04 simples - proposta",
+      "mapeamento_folha": false,
+      "nativo": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 34946279.751467146,
+        "area_mm2": 4288601.4631433375,
+        "faces": 2408,
+        "solidos": 34,
+        "solidos_invalidos": [
+          11,
+          17,
+          24,
+          30
+        ],
+        "delta_volume_soma_solidos_mm3": -38.148267179727554
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 6
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Compound",
+        "valida": false,
+        "volume_mm3": 34946279.751467146,
+        "area_mm2": 4288601.4631433375,
+        "faces": 2408,
+        "solidos": 34,
+        "solidos_invalidos": [
+          11,
+          17,
+          24,
+          30
+        ],
+        "delta_volume_soma_solidos_mm3": -38.148267179727554
+      },
+      "check_global": {
+        "ok": false,
+        "bop": false,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 6
+        }
+      }
+    },
+    "FerragemSimplesR001": {
+      "rotulo": "71B3550 A - corpo 1",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.423369719663,
+        "area_mm2": 4664.842512581543,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 35,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 35
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.42336971957,
+        "area_mm2": 4664.842512581543,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 55,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 55
+        }
+      }
+    },
+    "FerragemSimplesR007": {
+      "rotulo": "71B3550 A - corpo 002",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.423369719663,
+        "area_mm2": 4664.842512581543,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 35,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 35
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.423369719572,
+        "area_mm2": 4664.842512581543,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 56,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 56
+        }
+      }
+    },
+    "FerragemSimplesR012": {
+      "rotulo": "71B3550 B - corpo 0",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 6037.211235990328,
+        "area_mm2": 2904.509198275303,
+        "faces": 32,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+          "Error in Face: BOPAlgo GeomAbs_C0": 2
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 6037.211235990347,
+        "area_mm2": 2904.509198275303,
+        "faces": 32,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+          "Error in Face: BOPAlgo GeomAbs_C0": 2,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 2,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 2
+        }
+      }
+    },
+    "FerragemSimplesR013": {
+      "rotulo": "71B3550 B - corpo 1",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.423369719658,
+        "area_mm2": 4664.842512581541,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 34,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 34
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.42336971967,
+        "area_mm2": 4664.842512581541,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 51,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 51
+        }
+      }
+    },
+    "FerragemSimplesR016": {
+      "rotulo": "71B3550 B - corpo 4",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 7546.449447102476,
+        "area_mm2": 6675.465332653133,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 41,
+          "Error in Face: BOPAlgo GeomAbs_C0": 40,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 11,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 11
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 7546.449447102517,
+        "area_mm2": 6675.465332653133,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "FerragemSimplesR018": {
+      "rotulo": "71B3550 B - corpo 001",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 6037.211235990328,
+        "area_mm2": 2904.509198275303,
+        "faces": 32,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+          "Error in Face: BOPAlgo GeomAbs_C0": 2
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 6037.211235990347,
+        "area_mm2": 2904.509198275303,
+        "faces": 32,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+          "Error in Face: BOPAlgo GeomAbs_C0": 2,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 2,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 2
+        }
+      }
+    },
+    "FerragemSimplesR019": {
+      "rotulo": "71B3550 B - corpo 002",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.423369719658,
+        "area_mm2": 4664.842512581541,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 34,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 34
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 14266.42336971967,
+        "area_mm2": 4664.842512581541,
+        "faces": 201,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 36,
+          "Error in Face: BOPAlgo GeomAbs_C0": 19,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 51,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 51
+        }
+      }
+    },
+    "FerragemSimplesR022": {
+      "rotulo": "71B3550 B - corpo 005",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 7546.449447102476,
+        "area_mm2": 6675.465332653133,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 41,
+          "Error in Face: BOPAlgo GeomAbs_C0": 40,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 11,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 11
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 7546.449447102513,
+        "area_mm2": 6675.465332653133,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 1
+        }
+      }
+    },
+    "FerragemSimplesR004": {
+      "rotulo": "71B3550 A - corpo 4",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 7546.449447102481,
+        "area_mm2": 6675.465332653135,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 41,
+          "Error in Face: BOPAlgo GeomAbs_C0": 40,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 12,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 12
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 7546.449447102537,
+        "area_mm2": 6675.465332653135,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 2
+        }
+      }
+    },
+    "FerragemSimplesR010": {
+      "rotulo": "71B3550 A - corpo 005",
+      "mapeamento_folha": true,
+      "nativo": {
+        "tipo": "Solid",
+        "valida": true,
+        "volume_mm3": 7546.449447102481,
+        "area_mm2": 6675.465332653135,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_nativo": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "BOP check found the following errors:": 1,
+          "Error in Edge: BOPAlgo GeomAbs_C0": 41,
+          "Error in Face: BOPAlgo GeomAbs_C0": 40,
+          "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 12,
+          "Error in Face: BOPAlgo_InvalidCurveOnSurface": 12
+        }
+      },
+      "transformacao_global": {
+        "tipo": "Solid",
+        "valida": false,
+        "volume_mm3": 7546.449447102523,
+        "area_mm2": 6675.465332653135,
+        "faces": 156,
+        "solidos": 1,
+        "solidos_invalidos": [
+          1
+        ],
+        "delta_volume_soma_solidos_mm3": 0.0
+      },
+      "check_global": {
+        "ok": false,
+        "bop": true,
+        "excecao": "ValueError",
+        "erros": {
+          "Unorientable shape": 2
+        }
+      }
+    }
+  },
+  "fichas": {
+    "P01": [
+      {
+        "id": "Peca206",
+        "rotulo": "Lateral direita016",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          2132.0,
+          568.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 21797568.0,
+          "area_mm2": 2519152.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca207",
+        "rotulo": "Lateral esquerda",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          2132.0,
+          568.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 21797568.0,
+          "area_mm2": 2519152.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca208",
+        "rotulo": "Fundo",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          2096.0,
+          1964.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 74097792.0,
+          "area_mm2": 8379248.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca209",
+        "rotulo": "Base · topo 80 mm",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1964.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 19443600.0,
+          "area_mm2": 2250903.9999999995,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca210",
+        "rotulo": "Divisória",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          2052.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 20314800.0,
+          "area_mm2": 2350872.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca211",
+        "rotulo": "Sapateira · três níveis",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca212",
+        "rotulo": "Sapateira · três níveis001",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca213",
+        "rotulo": "Sapateira · três níveis002",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR08",
+        "rotulo": "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR001",
+        "rotulo": "Lateral comum direita · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR002",
+        "rotulo": "Fundo comum · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          323.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2373484.513322353,
+          "area_mm2": 341306.99111843074,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR003",
+        "rotulo": "Traseira comum · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 342735.00000000006,
+          "area_mm2": 57278.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR004",
+        "rotulo": "Dianteira comum16 · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 365075.06199011847,
+          "area_mm2": 58438.77209088174,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR005",
+        "rotulo": "Frente preservada · Gaveta de roupa - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          353.0,
+          142.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 902238.5475688726,
+          "area_mm2": 118119.12388980384,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR012",
+        "rotulo": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR013",
+        "rotulo": "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR014",
+        "rotulo": "Fundo comum · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          323.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2373484.513322353,
+          "area_mm2": 341306.99111843074,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR015",
+        "rotulo": "Traseira comum · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 342735.00000000006,
+          "area_mm2": 57278.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR016",
+        "rotulo": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 365075.06199011847,
+          "area_mm2": 58438.77209088174,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR017",
+        "rotulo": "Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          353.0,
+          130.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 825990.5475688726,
+          "area_mm2": 109215.12388980384,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca226",
+        "rotulo": "Sapateira · três níveis003",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca227",
+        "rotulo": "Sapateira · três níveis004",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca228",
+        "rotulo": "Sapateira · três níveis005",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          400.0,
+          355.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2556000.0,
+          "area_mm2": 311180.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR024",
+        "rotulo": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR025",
+        "rotulo": "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR026",
+        "rotulo": "Fundo comum · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          323.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2373484.513322353,
+          "area_mm2": 341306.99111843074,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR027",
+        "rotulo": "Traseira comum · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 342735.00000000006,
+          "area_mm2": 57278.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR028",
+        "rotulo": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 365075.06199011847,
+          "area_mm2": 58438.77209088174,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR029",
+        "rotulo": "Frente preservada · Gaveta de roupa002 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          353.0,
+          142.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 902238.5475688726,
+          "area_mm2": 118119.12388980384,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR036",
+        "rotulo": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR037",
+        "rotulo": "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 698249.9999999999,
+          "area_mm2": 120450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR038",
+        "rotulo": "Fundo comum · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          323.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2373484.513322353,
+          "area_mm2": 341306.99111843074,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR039",
+        "rotulo": "Traseira comum · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 342735.00000000006,
+          "area_mm2": 57278.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR040",
+        "rotulo": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          313.0,
+          73.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 365075.06199011847,
+          "area_mm2": 58438.77209088174,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "GavetaComumR041",
+        "rotulo": "Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          353.0,
+          130.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 825990.5475688726,
+          "area_mm2": 109215.12388980384,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca241",
+        "rotulo": "Divisória001",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1002.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9919800.0,
+          "area_mm2": 1158072.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca242",
+        "rotulo": "Divisória002",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1002.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9919800.0,
+          "area_mm2": 1158072.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca243",
+        "rotulo": "Divisória003",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1002.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9919800.0,
+          "area_mm2": 1158072.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca244",
+        "rotulo": "Divisória004",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1002.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9919800.0,
+          "area_mm2": 1158072.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca245",
+        "rotulo": "Prateleira curta · topo 1100",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          705.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 6979500.0,
+          "area_mm2": 820680.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca246",
+        "rotulo": "Prateleira curta · topo 1101",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          705.0,
+          550.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 6979500.0,
+          "area_mm2": 820680.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca247",
+        "rotulo": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1999.0,
+          995.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 35802090.0,
+          "area_mm2": 4085793.9999999995,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca248",
+        "rotulo": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1999.0,
+          995.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 35802090.0,
+          "area_mm2": 4085793.9999999995,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      }
+    ],
+    "P02": [
+      {
+        "id": "PlacaL",
+        "rotulo": "Base em L",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1050.0,
+          650.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 9109800.0,
+          "area_mm2": 1073400.0,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "PlacaL001",
+        "rotulo": "Tampo em L",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1050.0,
+          650.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 9109800.0,
+          "area_mm2": 1073400.0,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca255",
+        "rotulo": "Fundo do braço principal",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          632.0,
+          272.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 3094272.0,
+          "area_mm2": 376352.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "Peca256",
+        "rotulo": "Fundo do retorno",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          1032.0,
+          272.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 5052672.0,
+          "area_mm2": 608352.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "LateralApoioPrincipal",
+        "rotulo": "Lateral 18 mm de apoio da principal - proposta R03",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          612.0,
+          272.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2996352.0,
+          "area_mm2": 364752.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "FrenteSimplesR04",
+        "rotulo": "Porta A - canecos comuns",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          306.0,
+          271.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 1467653.068495791,
+          "area_mm2": 189482.8493147667,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "FrenteSimplesR001",
+        "rotulo": "Porta B - canecos comuns",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          306.0,
+          271.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 1467653.0684957914,
+          "area_mm2": 189482.8493147667,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "ApoioPortaBR04",
+        "rotulo": "Lateral 18 mm de apoio da porta B - proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          272.0,
+          212.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 1037952.0,
+          "area_mm2": 132752.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "FaixaQuinaAR04",
+        "rotulo": "Faixa fixa A 142 mm - proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          306.0,
+          142.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 782136.0,
+          "area_mm2": 103032.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      },
+      {
+        "id": "FaixaQuinaBR04",
+        "rotulo": "Faixa fixa B 124 mm - proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          306.0,
+          124.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 682992.0,
+          "area_mm2": 91368.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": false,
+          "erros": {}
+        }
+      }
+    ],
+    "P06": [
+      {
+        "id": "Peca283",
+        "rotulo": "Lateral direita020",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          720.0,
+          590.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 7646400.0,
+          "area_mm2": 896760.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          720.0,
+          590.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "Peca284",
+        "rotulo": "Lateral esquerda004",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          720.0,
+          590.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 7646400.0,
+          "area_mm2": 896760.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          720.0,
+          590.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "Peca285",
+        "rotulo": "Fundo004",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          684.0,
+          583.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 7177896.0,
+          "area_mm2": 843155.9999999999,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          684.0,
+          583.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "Peca286",
+        "rotulo": "Base003",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          583.0,
+          572.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 6002568.0,
+          "area_mm2": 708532.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          583.0,
+          572.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR048",
+        "rotulo": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          300.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2168250.0,
+          "area_mm2": 322450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          490.0,
+          300.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR049",
+        "rotulo": "Lateral comum direita · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          300.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2168250.0,
+          "area_mm2": 322450.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          490.0,
+          300.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR050",
+        "rotulo": "Fundo comum · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          551.0,
+          490.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 4049284.513322353,
+          "area_mm2": 571586.9911184307,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          551.0,
+          490.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR051",
+        "rotulo": "Traseira comum · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          541.0,
+          273.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 2215395.0,
+          "area_mm2": 319805.99999999994,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          541.0,
+          273.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR052",
+        "rotulo": "Dianteira comum16 · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          541.0,
+          273.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 2362579.0619901186,
+          "area_mm2": 321822.77209088166,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          541.0,
+          273.0,
+          16.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR053",
+        "rotulo": "Frente preservada · G3 · mantimentos - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          617.0,
+          396.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 4397946.547568873,
+          "area_mm2": 525179.1238898039,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          617.0,
+          396.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "MontagemG2R016",
+        "rotulo": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          541.0,
+          73.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 592395.0000000005,
+          "area_mm2": 97406.00000000003,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          541.0,
+          73.00000000000003,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "MontagemG2R017",
+        "rotulo": "Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 698250.0000000001,
+          "area_mm2": 120450.00000000003,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          489.9999999999999,
+          100.00000000000014,
+          15.000000000000114
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "MontagemG2R018",
+        "rotulo": "Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          100.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 698250.0000000005,
+          "area_mm2": 120450.00000000003,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          490.0000000000001,
+          100.00000000000014,
+          15.000000000000114
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "MontagemG2R019",
+        "rotulo": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          551.0,
+          490.0,
+          16.2
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 4049278.8355912482,
+          "area_mm2": 571587.9841441562,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          551.0,
+          490.0000000000001,
+          16.196152422706852
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "MontagemG2R020",
+        "rotulo": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          617.0,
+          156.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 1732507.3315317638,
+          "area_mm2": 220379.72401684395,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2,
+            "Error in Edge: BOPAlgo_InvalidCurveOnSurface": 2,
+            "Error in Face: BOPAlgo_InvalidCurveOnSurface": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          617.0,
+          156.00000000000003,
+          18.00000000000004
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR060",
+        "rotulo": "Lateral comum esquerda · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          80.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 551250.0,
+          "area_mm2": 100250.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          490.0,
+          80.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR061",
+        "rotulo": "Lateral comum direita · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          490.0,
+          80.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 551250.0,
+          "area_mm2": 100250.0,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          490.0,
+          80.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR062",
+        "rotulo": "Fundo comum · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          551.0,
+          490.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 4049284.513322353,
+          "area_mm2": 571586.9911184307,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          551.0,
+          490.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR063",
+        "rotulo": "Traseira comum · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          541.0,
+          53.0,
+          15.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 430095.0,
+          "area_mm2": 75166.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          541.0,
+          53.0,
+          15.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR064",
+        "rotulo": "Dianteira comum16 · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          541.0,
+          53.0,
+          16.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 458259.06199011835,
+          "area_mm2": 76742.77209088173,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          541.0,
+          53.0,
+          16.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "GavetaComumR065",
+        "rotulo": "Frente preservada · G1 · talheres - proposta R08",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          617.0,
+          156.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 1732506.5475688726,
+          "area_mm2": 220379.12388980386,
+          "faces": 10,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          617.0,
+          156.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      }
+    ],
+    "P07": [
+      {
+        "id": "Peca305",
+        "rotulo": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          900.0,
+          590.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9558000.0,
+          "area_mm2": 1115639.9999999998,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          900.0,
+          590.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "Peca306",
+        "rotulo": "Lateral esquerda do forno",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          900.0,
+          590.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 9558000.0,
+          "area_mm2": 1115639.9999999998,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          900.0,
+          590.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "Peca307",
+        "rotulo": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          212.0,
+          30.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 3669720.0,
+          "area_mm2": 291988.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          212.0,
+          30.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "BasePlanaR31",
+        "rotulo": "BasePlana · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          535.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 5556510.0,
+          "area_mm2": 657422.0,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          535.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ApoioEsquerdoR31",
+        "rotulo": "ApoioEsquerdo · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 1090800.0,
+          "area_mm2": 143700.00000000003,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ApoioCentralR31",
+        "rotulo": "ApoioCentral · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 1090800.0,
+          "area_mm2": 143700.00000000003,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ApoioDireitoR31",
+        "rotulo": "ApoioDireito · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Solid",
+          "valida": true,
+          "volume_mm3": 1090800.0,
+          "area_mm2": 143700.00000000003,
+          "faces": 6,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": true,
+          "bop": true,
+          "erros": {}
+        },
+        "dimensoes_cad_mm": [
+          505.0,
+          120.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ReguaInferiorBaixaR31",
+        "rotulo": "ReguaInferiorBaixa · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 186371.21244282724,
+          "area_mm2": 42638.7379078111,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ReguaInferiorAltaR31",
+        "rotulo": "ReguaInferiorAlta · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 186370.48034568888,
+          "area_mm2": 42638.721261548984,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ReguaSuperiorBaixaR31",
+        "rotulo": "ReguaSuperiorBaixa · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 186371.21244279755,
+          "area_mm2": 42638.737907801085,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      },
+      {
+        "id": "ReguaSuperiorAltaR31",
+        "rotulo": "ReguaSuperiorAlta · proposta R31",
+        "presente_no_cad": true,
+        "dimensoes_ficha_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "forma_nativa": {
+          "tipo": "Compound",
+          "valida": true,
+          "volume_mm3": 186370.48034563,
+          "area_mm2": 42638.72126152923,
+          "faces": 8,
+          "solidos": 1,
+          "solidos_invalidos": [],
+          "delta_volume_soma_solidos_mm3": 0.0
+        },
+        "check": {
+          "ok": false,
+          "bop": true,
+          "excecao": "ValueError",
+          "erros": {
+            "BOP check found the following errors:": 1,
+            "Error in Edge: BOPAlgo GeomAbs_C0": 4,
+            "Error in Face: BOPAlgo GeomAbs_C0": 2
+          }
+        },
+        "dimensoes_cad_mm": [
+          577.0,
+          18.0,
+          18.0
+        ],
+        "tolerancia_dimensoes_mm": 0.02,
+        "dimensoes_conferem": true
+      }
+    ]
+  },
+  "invalidos_atuais": [],
+  "invalidos_novos": [],
+  "invalidos_base_nao_reproduzidos": [],
+  "sha256_depois": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "modelo_inalterado": true,
+  "base_inalterada": true,
+  "geometria_propria": {
+    "criterio": "Part::Feature e tipos derivados, com forma nao nula",
+    "total": 1449,
+    "invalidas": 0,
+    "fonte": "Elias, 25/10/2026: conferencia em copia do modelo, comunicada nesta revisao; nao recontado nesta correcao documental."
+  },
+  "agregados_invalidos": [
+    "Ambiente_cozinha",
+    "Ambiente_quarto",
+    "ApartamentoR34",
+    "CantoSimplesR04",
+    "DobradicaSimplesR001",
+    "DobradicaSimplesR002",
+    "DobradicaSimplesR003",
+    "DobradicaSimplesR04",
+    "Modulo",
+    "Modulo001",
+    "Modulo005",
+    "Modulo006"
+  ],
+  "agregados_invalidos_novos": [],
+  "agregados_base_nao_reproduzidos": [],
+  "revisao_interpretacao": {
+    "data": "2026-10-25",
+    "criterio_verificador": "3cdf795",
+    "fonte": "Elias, comunicacao de 25/10/2026; classificacao conferida contra a base vigente.",
+    "conclusao": "Geometria propria valida; 12 conteineres sem forma propria gravada, com forma montada invalida, informativos. Ferragens B-spline de fabricante podem ficar invalidas na transformacao pelo conteiner mesmo com determinante 1; nao sao pecas defeituosas.",
+    "medicoes_preservadas": true,
+    "modelo_alterado": false,
+    "base_atualizada": false
+  }
+}

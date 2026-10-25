@@ -15,6 +15,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | O quê | Versão | Abrir |
 |---|---|---|
 | Modelo 3D | FreeCAD R52 | [Modelo](02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [o que contém, como abrir e salvar com segurança](02_Modelo_3D/README.md) |
+| Triagem geométrica | Zero peças com geometria própria inválida nas 1.449 conferidas por Elias (25/10/2026); 12 contêineres em `agregados_invalidos`, informativos (`3cdf795`); modelo preservado | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R14 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Cargas, ligações e cálculos por móvel | Estudos separados, não incorporados ao modelo | [Índice dos móveis](04_Moveis/README.md) · [matriz dos 20 móveis](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) |
 | Programa | R01 | [Programa de necessidades](01_Programa_e_decisoes/Programa_de_necessidades.md) |

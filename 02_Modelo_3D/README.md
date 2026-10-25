@@ -2,6 +2,41 @@
 
 Modelo vigente: **R52**, [Guedala_Park_R52_Corrigido.FCStd](Guedala_Park_R52_Corrigido.FCStd) (19,8 MB, 5.832 objetos, 7.702 expressões, 1.487 formas nativas). SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
 
+## Triagem das formas inválidas — 25/10/2026
+
+**Geometria própria válida: zero peças inválidas nas 1.449 conferidas por Elias em uma cópia do modelo (25/10/2026, comunicação nesta revisão).** Os 12 casos são contêineres (`App::Part` e grupos), sem forma própria gravada; o FreeCAD monta suas formas a partir dos filhos. Ferragens B-spline de fabricante, como travas e corpos de dobradiça, podem ficar inválidas nessa transformação, mesmo com determinante 1. São formas montadas inválidas, informativas, sem evidência de peças defeituosas. [Dados por objeto, fonte e ficha](Triagem_geometria.json) · [script de leitura](../ferramentas/verificar_modelo/triar_geometria.py).
+
+Desde o commit `3cdf795`, o verificador só reprova validade geométrica de peças com geometria própria (`Part::Feature`, incluindo tipos derivados). Os 12 contêineres ficam em `agregados_invalidos`; não entram em `invalidos` ou `invalidos_novos`. A tabela registra sólidos da representação montada, com sobreposição entre níveis da hierarquia; seus números não contam peças defeituosas.
+
+| Objeto | Sólidos com `isValid() == False` no agregado | Rastreio |
+|---|---:|---|
+| `Ambiente_quarto` | 6 | Agregado do quarto; consultar P01/P02 abaixo |
+| `Ambiente_cozinha` | 7 | Agregado da cozinha; consultar P06/P07 abaixo |
+| `ApartamentoR34` | 13 | Agregado do apartamento; incorpora os anteriores |
+| `Modulo` | 2 | Duas travas T51.7601 do guarda-roupa |
+| `Modulo001` | 4 | Quatro corpos das dobradiças do canto |
+| `CantoSimplesR04` | 8 | Oito corpos das dobradiças do canto |
+| `Modulo005` | 6 | Seis travas/acoplamentos T51.7601 das três gavetas |
+| `Modulo006` | 1 | GrelhaInferiorR31 |
+| `DobradicaSimplesR04` | 1 | Corpo da 71B3550, porta A, nível 51 |
+| `DobradicaSimplesR001` | 1 | Corpo da 71B3550, porta A, nível 255 |
+| `DobradicaSimplesR002` | 3 | Três corpos da 71B3550, porta B, nível 51 |
+| `DobradicaSimplesR003` | 3 | Três corpos da 71B3550, porta B, nível 255 |
+
+As fontes individuais rastreadas passam em `isValid()`, mas apresentam alertas em `check(True)`. A validade muda conforme a representação/transformação: por exemplo, o contêiner do canto tem oito sólidos inválidos em sua forma montada, quatro ao ser agregado em `Modulo001`. Esses resultados descrevem a representação montada e não defeitos das fontes gravadas. O JSON mantém os contextos distintos e o rastreio hierárquico pelo módulo quando necessário. Não usar o volume do contêiner como comprovação de volume de madeira, integridade de recortes ou resultado de booleanas.
+
+**Impacto nas fichas:** 85 fontes de painéis de P01/P02/P06/P07 existem e têm `isValid() == True`. A checagem BOP foi aplicada às 32 fontes de P06/P07; 26 passaram e seis têm os alertas abaixo. As três dimensões dos 32 envelopes locais coincidem com as fichas dentro de 0,02 mm. Essa coincidência não valida recortes ou usinagem.
+
+| Prioridade | Fonte da peça | Resultado ampliado |
+|---|---|---|
+| Pcurva | `MontagemG2R020`, frente da G2 | `GeomAbs_C0` e `InvalidCurveOnSurface`; ressalva para novas operações geométricas |
+| Conferência | `MontagemG2R019`, fundo da G2 | `GeomAbs_C0`; conferir o BRep antes de operações geométricas |
+| Conferência | `ReguaInferiorBaixaR31`, `ReguaInferiorAltaR31`, `ReguaSuperiorBaixaR31`, `ReguaSuperiorAltaR31` | `GeomAbs_C0`; conferir as quatro réguas antes de operações geométricas |
+
+`GeomAbs_C0` sozinho é um alerta de continuidade para o algoritmo BOP, não prova de chapa fisicamente defeituosa. `InvalidCurveOnSurface` é uma pendência geométrica adicional. Travas, corpos de dobradiças e a grelha inferior também apresentam alertas BOP; não foram confundidos com os painéis de corte. A triagem não repara ou libera fabricação.
+
+A verificação completa registrada passou com 5.832 objetos e 106 cenários de movimento. A base vigente registra zero peças inválidas e 12 contêineres informativos; isso não equivale a aprovação BOP. A triagem não recalculou nem salvou; o verificador completo aplicou e restaurou os movimentos apenas em memória. Esta correção documental não abriu nem alterou o `.FCStd` e não atualizou a base.
+
 ## Abrir e salvar com segurança
 
 - Abrir: `powershell -File 02_Modelo_3D/Abrir_no_FreeCAD.ps1` ou **Arquivo → Abrir** no FreeCAD 1.1.4.

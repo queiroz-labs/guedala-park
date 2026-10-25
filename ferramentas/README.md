@@ -18,6 +18,18 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 | `ferramentas/cinematica/consultar.py` | Posições de portas e gavetas sem abrir o FreeCAD | segundos |
 
 
+## Triagem de geometria FreeCAD
+
+`verificar_modelo/triar_geometria.py` roda no FreeCADCmd, lê o CAD corrente sem recalcular/salvar e grava [Triagem_geometria.json](../02_Modelo_3D/Triagem_geometria.json). Separa peças com geometria própria (`Part::Feature` e derivados) de contêineres: os últimos ficam em `agregados_invalidos`, informativos, conforme `3cdf795`. Com BOP habilitado, checa as fontes afetadas e as peças das fichas P06/P07; os grandes agregados recebem apenas a checagem básica detalhada. Pode levar vários minutos. Não altera a base de aceitação.
+
+```powershell
+$env:GP_TRIAGEM_BOP = '1'
+$env:PYTHONDONTWRITEBYTECODE = '1'
+& "$env:LOCALAPPDATA/Programs/FreeCAD-1.1.4/bin/freecadcmd.exe" ferramentas/verificar_modelo/triar_geometria.py
+```
+
+A variável opcional `GP_TRIAGEM_SAIDA` escolhe outro JSON. Leia a [interpretação dos resultados](../02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026), incluindo a diferença entre `isValid()`, `check()` e BOP.
+
 **Camadas de defesa.** (1) Hook de commit (`ferramentas/hooks/pre-commit`): roda `verificar_tudo.py` (estrutura, modelo, links, tamanho, privacidade só nos arquivos do commit, consistência e afirmações) e bloqueia se houver erro. (2) Hook de push (`ferramentas/hooks/pre-push`): roda `verificar_site.py`. (3) CI (`.github/workflows/pages.yml`): roda `verificar_tudo.py --ci` e as afirmações dos commits do push **antes** de construir e publicar o site; pega quem usou `--no-verify`. Para ativar os hooks num clone novo: `git config core.hooksPath ferramentas/hooks`.
 
 Detalhes do gerador do site: [site/README.md](site/README.md).
