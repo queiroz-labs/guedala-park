@@ -5093,13 +5093,13 @@
       "resolvedChecks": [
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
         "Quadro desmontável definido; 4M6,4porcas e8cavilhas separados por função; não substituir por cola permanente.",
-        "Datums do quadro e laterais explicitados; Confirmat nominal7 não convertido em brocaØ7."
+        "Datums do quadro e laterais explicitados; Confirmat nominal7 não convertido em brocaØ7.",
+        "Conferido em 24/10: a ficha usa vão frontal 507 (travessa 725 − base 218) e folhas 500 (regra −7). O 564 × 509 é o fundo, outra peça."
       ],
       "technicalChecks": [
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida."
       ],
       "interfaces": [],

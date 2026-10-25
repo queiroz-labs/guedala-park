@@ -1033,7 +1033,6 @@ const FABRICATION_DATA = {
       "technicalChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
-        "Conferir suportes centrais: eixo superior82mm abaixo da base do armário sobre o guarda-roupa e inferior52mm abaixo da prateleira. Altura externa63 do suporte não é a medida eixo–face.",
         "Definir carga dos varões e das prateleiras. Rigidez de tubo e fixação no MDF são verificações separadas.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
         "Oficina: conferir seção real dos 2 perfis e afastamento das vias. Passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
@@ -1472,13 +1471,13 @@ const FABRICATION_DATA = {
       "projectChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
-        "Conferir suportes centrais: eixo superior82mm abaixo da base do armário sobre o guarda-roupa e inferior52mm abaixo da prateleira. Altura externa63 do suporte não é a medida eixo–face.",
         "Definir carga dos varões e das prateleiras. Rigidez de tubo e fixação no MDF são verificações separadas.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem o sistema Comfort de fechamento suave selecionado;2 kits de 1 folha por módulo.",
         "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
+        "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do armário sobre o guarda-roupa (2132). Inferior em 1030, 52 mm abaixo da prateleira (1082).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
@@ -2424,7 +2423,6 @@ const FABRICATION_DATA = {
       "technicalChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de encaixes circulares das dobradiças não repara os sólidos do mecanismo.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
         "Pese uma porta pronta de cada tipo, incluindo puxador e espelho. Confira a quantidade de dobradiças no manual da marca Blum. A quantidade prevista não confirma o peso suportado.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com base de fixação 0/limitador 86°. Não abrir cortes para eliminar sobreposições internas do STEP.",
@@ -2732,13 +2730,13 @@ const FABRICATION_DATA = {
       "projectChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real. O retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de encaixes circulares das dobradiças não repara os sólidos do mecanismo.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
         "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): todas as peças das 4 dobradiças do canto são válidas. O alerta vinha do grupo que junta os sólidos STEP da Blum, não de peça do móvel. Não afeta corte nem furação.",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
@@ -4332,7 +4330,6 @@ const FABRICATION_DATA = {
         }
       ],
       "technicalChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas. Conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
         "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
@@ -4733,7 +4730,6 @@ const FABRICATION_DATA = {
         "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas. Conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
         "Divisórias18 exigem desencontro. Divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-fixação na parede.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
@@ -4743,6 +4739,7 @@ const FABRICATION_DATA = {
         "Família 71B3550 com base de fixação 173H7100 niquelados selecionada. Alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de encaixe circular da dobradiça extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): folhas 439,75/440,25 × 306 × 18 com encaixes circulares das dobradiças a 148 mm entre eixos. Massa estimada ≈1,8 kg. Esforço ≈23 N por dobradiça. Largura abaixo de 600 mm. Duas dobradiças bastam no cálculo nominal. Pesar a porta pronta na oficina.",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [
@@ -15395,7 +15392,7 @@ const FABRICATION_DATA = {
           "name": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             390.0,
-            80.0,
+            74.0,
             15.0
           ],
           "thickness": 15.0,
@@ -15412,7 +15409,7 @@ const FABRICATION_DATA = {
           "name": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             390.0,
-            80.0,
+            74.0,
             15.0
           ],
           "thickness": 15.0,
@@ -15446,7 +15443,7 @@ const FABRICATION_DATA = {
           "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             322.0,
-            53.0,
+            47.0,
             15.0
           ],
           "thickness": 15.0,
@@ -15463,7 +15460,7 @@ const FABRICATION_DATA = {
           "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             322.0,
-            53.0,
+            47.0,
             16.0
           ],
           "thickness": 16.0,
@@ -15625,7 +15622,6 @@ const FABRICATION_DATA = {
         }
       ],
       "technicalChecks": [
-        "Oficina/projeto: conferir a reserva superior 7 mm e o recorte do gancho direito. São pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir.",
@@ -15635,7 +15631,7 @@ const FABRICATION_DATA = {
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Conferir retirada e gancho antes de preparar os cortes e furos.",
+        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.",
         "MOVENTO400: caixa390, útil359. Largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
         "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
       ],
@@ -15762,7 +15758,7 @@ const FABRICATION_DATA = {
           "depth": null,
           "fastener": "609.1500 Ø3,5×15",
           "status": "gabarito documentado. Mapa por lateral pendente",
-          "releaseCondition": "Resolver 1 mm de folga sob tampo frente a 7 mm exigidos e interferências locais 0,125–0,175 mm antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
           "sources": [
             {
               "title": "Blum MOVENTO: fixação lateral",
@@ -15787,7 +15783,7 @@ const FABRICATION_DATA = {
           "depth": 10,
           "fastener": "T51.7601 e ganchosMOVENTO",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modeloexato para recorte e engates. Confirmar gancho direito sem interferência e retirada completa. Não aplicarØ7FGVTN.",
+          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD. Confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
           "sources": [
             {
               "title": "Blum MOVENTO: montagem e caixa",
@@ -15832,13 +15828,14 @@ const FABRICATION_DATA = {
         "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
       ],
       "projectChecks": [
-        "Oficina/projeto: conferir a reserva superior 7 mm e o recorte do gancho direito. São pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Desenhe a posição e a quantidade dos conectores nas uniões ainda sem detalhe. Escolher o conector não define os furos. O número de encontros não indica quantos parafusos comprar.",
         "Defina o material e o código de cada chapa. Indique onde aplicar o branco interno e o acabamento externo. Confira as bordas e o sentido da madeira. A lista marca o que falta definir."
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601. Variante FGVTN400 excluída. Interferências e folga superior continuam abertas.",
+        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601. Variante FGVTN400 excluída.",
+        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
+        "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda. Não invade mais a guia direita (era 1.276 mm³).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
@@ -15852,7 +15849,7 @@ const FABRICATION_DATA = {
       ],
       "revision": "R14",
       "drillingPath": "05_Entregas/Fichas_fabricacao_R13/P16-furacao.csv",
-      "technicalSummary": "Duas gavetas com corrediças MOVENTO, da marca Blum. Corrija os pontos de colisão antes de fabricar.",
+      "technicalSummary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49. Provar retirada na oficina.",
       "panelGroups": [
         {
           "id": "Peca367",
@@ -15944,7 +15941,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "GavetaComumR072",
-          "name": "Peças equivalentes",
+          "name": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             390.0,
             80.0,
@@ -15957,25 +15954,20 @@ const FABRICATION_DATA = {
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR072 (Lateral comum esquerda · Gaveta escritório 1 - proposta R08)",
           "finishComplete": true,
           "remainingFinish": null,
-          "quantity": 2,
+          "quantity": 1,
           "ids": [
-            "GavetaComumR072",
-            "GavetaComumR084"
+            "GavetaComumR072"
           ],
           "members": [
             {
               "id": "GavetaComumR072",
               "name": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08"
-            },
-            {
-              "id": "GavetaComumR084",
-              "name": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08"
             }
           ]
         },
         {
           "id": "GavetaComumR073",
-          "name": "Peças equivalentes",
+          "name": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             390.0,
             80.0,
@@ -15988,19 +15980,14 @@ const FABRICATION_DATA = {
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR073 (Lateral comum direita · Gaveta escritório 1 - proposta R08)",
           "finishComplete": true,
           "remainingFinish": null,
-          "quantity": 2,
+          "quantity": 1,
           "ids": [
-            "GavetaComumR073",
-            "GavetaComumR085"
+            "GavetaComumR073"
           ],
           "members": [
             {
               "id": "GavetaComumR073",
               "name": "Lateral comum direita · Gaveta escritório 1 - proposta R08"
-            },
-            {
-              "id": "GavetaComumR085",
-              "name": "Lateral comum direita · Gaveta escritório 2 - proposta R08"
             }
           ]
         },
@@ -16037,7 +16024,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "GavetaComumR075",
-          "name": "Peças equivalentes",
+          "name": "Traseira comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             322.0,
             53.0,
@@ -16050,25 +16037,20 @@ const FABRICATION_DATA = {
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR075 (Traseira comum · Gaveta escritório 1 - proposta R08)",
           "finishComplete": true,
           "remainingFinish": null,
-          "quantity": 2,
+          "quantity": 1,
           "ids": [
-            "GavetaComumR075",
-            "GavetaComumR087"
+            "GavetaComumR075"
           ],
           "members": [
             {
               "id": "GavetaComumR075",
               "name": "Traseira comum · Gaveta escritório 1 - proposta R08"
-            },
-            {
-              "id": "GavetaComumR087",
-              "name": "Traseira comum · Gaveta escritório 2 - proposta R08"
             }
           ]
         },
         {
           "id": "GavetaComumR076",
-          "name": "Peças equivalentes",
+          "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             322.0,
             53.0,
@@ -16081,19 +16063,14 @@ const FABRICATION_DATA = {
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR076 (Dianteira comum16 · Gaveta escritório 1 - proposta R08)",
           "finishComplete": true,
           "remainingFinish": null,
-          "quantity": 2,
+          "quantity": 1,
           "ids": [
-            "GavetaComumR076",
-            "GavetaComumR088"
+            "GavetaComumR076"
           ],
           "members": [
             {
               "id": "GavetaComumR076",
               "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08"
-            },
-            {
-              "id": "GavetaComumR088",
-              "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08"
             }
           ]
         },
@@ -16120,6 +16097,110 @@ const FABRICATION_DATA = {
             {
               "id": "GavetaComumR077",
               "name": "Frente preservada · Gaveta escritório 1 - proposta R08"
+            }
+          ]
+        },
+        {
+          "id": "GavetaComumR084",
+          "name": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+          "dimensions": [
+            390.0,
+            74.0,
+            15.0
+          ],
+          "thickness": 15.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": "Branco TX · faces internas",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR084 (Lateral comum esquerda · Gaveta escritório 2 - proposta R08)",
+          "finishComplete": true,
+          "remainingFinish": null,
+          "quantity": 1,
+          "ids": [
+            "GavetaComumR084"
+          ],
+          "members": [
+            {
+              "id": "GavetaComumR084",
+              "name": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08"
+            }
+          ]
+        },
+        {
+          "id": "GavetaComumR085",
+          "name": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+          "dimensions": [
+            390.0,
+            74.0,
+            15.0
+          ],
+          "thickness": 15.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": "Branco TX · faces internas",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR085 (Lateral comum direita · Gaveta escritório 2 - proposta R08)",
+          "finishComplete": true,
+          "remainingFinish": null,
+          "quantity": 1,
+          "ids": [
+            "GavetaComumR085"
+          ],
+          "members": [
+            {
+              "id": "GavetaComumR085",
+              "name": "Lateral comum direita · Gaveta escritório 2 - proposta R08"
+            }
+          ]
+        },
+        {
+          "id": "GavetaComumR087",
+          "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
+          "dimensions": [
+            322.0,
+            47.0,
+            15.0
+          ],
+          "thickness": 15.0,
+          "rectangular": true,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": "Branco TX · faces internas",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR087 (Traseira comum · Gaveta escritório 2 - proposta R08)",
+          "finishComplete": true,
+          "remainingFinish": null,
+          "quantity": 1,
+          "ids": [
+            "GavetaComumR087"
+          ],
+          "members": [
+            {
+              "id": "GavetaComumR087",
+              "name": "Traseira comum · Gaveta escritório 2 - proposta R08"
+            }
+          ]
+        },
+        {
+          "id": "GavetaComumR088",
+          "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+          "dimensions": [
+            322.0,
+            47.0,
+            16.0
+          ],
+          "thickness": 16.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": "Branco TX · faces internas",
+          "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR088 (Dianteira comum16 · Gaveta escritório 2 - proposta R08)",
+          "finishComplete": true,
+          "remainingFinish": null,
+          "quantity": 1,
+          "ids": [
+            "GavetaComumR088"
+          ],
+          "members": [
+            {
+              "id": "GavetaComumR088",
+              "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08"
             }
           ]
         },
@@ -17835,7 +17916,6 @@ const FABRICATION_DATA = {
       "technicalChecks": [
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
-        "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
         "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra.",
         "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43. Confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir preparação das peças.",
@@ -18225,7 +18305,6 @@ const FABRICATION_DATA = {
       "projectChecks": [
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa. Manter acessos M6 e tampas removíveis.",
         "Defina os suportes, a placa interna, os parafusos e o peso suportado na fixação à parede. Preveja acesso para montar. No apartamento, confira a resistência da parede e a passagem de tubos e fios.",
-        "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
         "Códigos externos escolhidos em 24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar material da base, composição com Branco TX, bordas/veios e faces ainda parciais. Conferir amostra."
       ],
@@ -18233,7 +18312,8 @@ const FABRICATION_DATA = {
         "RO25 e 4 trechos RM026 selecionados;24 parafusos 3,5×12 CF quantificados. A primeira implantação ainda precisa conferência.",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida.",
         "Quadro desmontável definido; 4M6,4porcas e8cavilhas separados por função. Não substituir por cola permanente.",
-        "Datums do quadro e laterais explicitados. Confirmat nominal7 não convertido em brocaØ7."
+        "Datums do quadro e laterais explicitados. Confirmat nominal7 não convertido em brocaØ7.",
+        "Conferido em 24/10: a ficha usa vão frontal 507 (travessa 725 − base 218) e folhas 500 (regra −7). O 564 × 509 é o fundo, outra peça."
       ],
       "drawings": [],
       "unmappedInterfaces": [],

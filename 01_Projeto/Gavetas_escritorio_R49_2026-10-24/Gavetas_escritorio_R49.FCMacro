@@ -1,0 +1,133 @@
+from pathlib import Path
+import json, traceback, hashlib
+import FreeCAD as App, FreeCADGui as Gui, Part
+
+root = Path(r'C:\Users\Elias\Documents\PROJETOS\Guedala park\guedala-park')
+dest = root / '01_Projeto/Gavetas_escritorio_R49_2026-10-24'
+source = root / '01_Projeto/Depurador_sem_canal_R48_2026-10-24/Guedala_Park_R48_Depurador_sem_canal.FCStd'
+target = dest / 'Guedala_Park_R49_Gavetas_escritorio.FCStd'
+CUT = 6.0  # 1 mm de folga sob o tampo -> 7 mm exigidos pela MOVENTO
+LOWERED = ['GavetaComumR084', 'GavetaComumR085', 'GavetaComumR087', 'GavetaComumR088']  # laterais, traseira e dianteira da gaveta 2
+# (trava esquerda, trava direita, lateral esquerda, lateral direita) de cada gaveta
+MIRRORS = [('GavetaComumR078', 'GavetaComumR079', 'GavetaComumR072', 'GavetaComumR073'),
+           ('GavetaComumR090', 'GavetaComumR091', 'GavetaComumR084', 'GavetaComumR085')]
+TAMPO = 'Peca371'
+
+
+def snapshot(doc):
+    # Mesma assinatura geométrica da R48 (arredondada a 1e-9 mm).
+    def r(values):
+        return [round(v, 9) + 0.0 for v in values]
+    result = {}
+    for o in doc.Objects:
+        record = {'placement': r(o.Placement.toMatrix().A)} if hasattr(o, 'Placement') else {}
+        if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull():
+            s, b = o.Shape, o.Shape.BoundBox
+            record.update(volume=round(s.Volume, 6), area=round(s.Area, 6), faces=len(s.Faces), vertices=len(s.Vertexes),
+                          bbox=r([b.XMin, b.YMin, b.ZMin, b.XMax, b.YMax, b.ZMax]),
+                          center=r(sum((x.CenterOfMass * x.Volume for x in s.Solids), App.Vector()) / sum(x.Volume for x in s.Solids)) if s.Solids and sum(x.Volume for x in s.Solids) > 0 else None)
+        result[o.Name] = record
+    return result
+
+
+def appearance(doc):
+    return {o.Name: [str(getattr(o.ViewObject, p, None)) for p in ('ShapeColor', 'DiffuseColor', 'ShapeAppearance', 'Visibility', 'Transparency')]
+            for o in doc.Objects if o.ViewObject is not None}
+
+
+def glob(o):
+    s = o.Shape.copy(); s.Placement = o.getGlobalPlacement(); return s
+
+
+def bb(s):
+    b = s.BoundBox
+    return [round(v, 3) for v in (b.XMin, b.YMin, b.ZMin, b.XMax, b.YMax, b.ZMax)]
+
+
+try:
+    Gui.getMainWindow().hide()
+    assert not target.exists(), 'A R49 já existe; não sobrescrever sem conferência.'
+    source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+    doc = App.openDocument(str(source))
+    runner_name = {}
+    for left, right, side_l, side_r in MIRRORS:
+        part = doc.getObject(right).InList[0]
+        guides = [g for g in doc.getObject('Modulo015').Group if g.Label == 'Guias estáticas comuns - ' + part.Label][0]
+        runner_name[right] = [g.Name for g in guides.Group if '760H4001S)' in g.Label][0]
+        runner_name[left] = [g.Name for g in guides.Group if '760H4001S_L' in g.Label][0]
+    changed = set(LOWERED) | {m[1] for m in MIRRORS}
+    tampo_z = glob(doc.getObject(TAMPO)).BoundBox.ZMin
+    before_bb = {n: bb(glob(doc.getObject(n))) for n in changed}
+    before_hits = {r: round(glob(doc.getObject(r)).common(glob(doc.getObject(runner_name[r]))).Volume, 3) for r in runner_name}
+    before = {k: v for k, v in snapshot(doc).items() if k not in changed}
+    looks = appearance(doc)
+
+    doc.openTransaction('R49: gavetas do escritório')
+    for n in LOWERED:
+        o = doc.getObject(n)
+        s = o.Shape.copy(); pl = o.Placement
+        s.Placement = App.Placement()
+        b = s.BoundBox
+        keep = Part.makeBox(b.XLength + 2, b.YLength + 2, b.ZLength - CUT + 1, App.Vector(b.XMin - 1, b.YMin - 1, b.ZMin - 1))
+        o.Shape = s.common(keep).removeSplitter()
+        o.Placement = pl
+    for left, right, side_l, side_r in MIRRORS:
+        l, r = doc.getObject(left), doc.getObject(right)
+        c = (doc.getObject(side_l).Shape.BoundBox.Center.x + doc.getObject(side_r).Shape.BoundBox.Center.x) / 2
+        m = l.Shape.copy().mirror(App.Vector(c, 0, 0), App.Vector(1, 0, 0))
+        # A posição vem das expressões (-LocalX, LocalY, LocalZ): a trava direita passa a usar a mesma origem da esquerda.
+        for p in ('LocalX', 'LocalY', 'LocalZ'):
+            setattr(r, p, getattr(l, p))
+        r.Shape = m
+        r.Placement = l.Placement
+    mod = doc.getObject('Modulo015')
+    mod.addProperty('App::PropertyString', 'StatusR49', 'Revisão R49')
+    mod.StatusR49 = ('24/10/2026: gaveta 2 com laterais 74 (eram 80), traseira e dianteira interna 47 (eram 53): topo 6 mm mais baixo, '
+                     '7 mm livres sob o tampo exigidos pela MOVENTO. Trava T51.7601 direita das duas gavetas espelhada da esquerda '
+                     '(era cópia transladada e invadia a guia direita). Frentes, guias e gaveta 1 sem mudança de medida.')
+    doc.commitTransaction(); doc.recompute()
+
+    after = snapshot(doc)
+    after_bb = {n: bb(glob(doc.getObject(n))) for n in changed}
+    gap = round(tampo_z - max(glob(doc.getObject(n)).BoundBox.ZMax for n in LOWERED), 6)
+    assert abs(gap - 7) < 1e-6, gap
+    after_hits = {r: round(glob(doc.getObject(r)).common(glob(doc.getObject(runner_name[r]))).Volume, 3) for r in runner_name}
+    assert all(v < 0.5 for v in after_hits.values()), after_hits
+    for left, right, side_l, side_r in MIRRORS:
+        a, b2 = glob(doc.getObject(left)), glob(doc.getObject(right))
+        assert abs(a.Volume - b2.Volume) < 1e-6 and doc.getObject(right).Shape.isValid()
+        sl, sr = glob(doc.getObject(side_l)).BoundBox, glob(doc.getObject(side_r)).BoundBox
+        cx = (sl.Center.x + sr.Center.x) / 2
+        assert abs((a.BoundBox.XMin + b2.BoundBox.XMax) / 2 - cx) < 1e-6 and abs(a.BoundBox.ZMin - b2.BoundBox.ZMin) < 1e-6, (bb(a), bb(b2))
+    differences = {k: dict(before=before.get(k), after=after.get(k)) for k in set(before) | (set(after) - changed) if before.get(k) != after.get(k)}
+    (dest / 'Diferencas_CAD.json').write_text(json.dumps(differences, ensure_ascii=False, indent=2), encoding='utf-8')
+    assert not differences, 'Geometria/posição existente mudou; conferir Diferencas_CAD.json.'
+    assert appearance(doc) == looks, 'Aparência mudou.'
+    doc.Label = 'Guedala Park · R49 · R48 com gavetas do escritório corrigidas'
+    doc.saveAs(str(target))
+    objects = len(doc.Objects)
+    App.closeDocument(doc.Name)
+
+    check = App.openDocument(str(target))
+    assert len(check.Objects) == objects
+    assert snapshot(check) == after, 'Geometria diferente após reabrir.'
+    assert appearance(check) == looks, 'Aparência diferente após reabrir.'
+    App.closeDocument(check.Name)
+    assert hashlib.sha256(source.read_bytes()).hexdigest() == source_hash
+
+    report = dict(date='2026-10-24', source=str(source), sourceSHA256=source_hash, file=str(target),
+                  SHA256=hashlib.sha256(target.read_bytes()).hexdigest(), objects=objects,
+                  top_clearance_mm=dict(before=round(gap - CUT, 6), after=gap, required=7),
+                  t51_right_vs_runner_mm3=dict(before=before_hits, after=after_hits),
+                  changed={n: dict(bbox_before=before_bb[n], bbox_after=after_bb[n]) for n in sorted(changed)},
+                  other_objects_preserved=len(before), appearance_properties_preserved=len(looks) * 5, reopened=True,
+                  scope='P16: gaveta 2 com topo 6 mm mais baixo (laterais 74, traseira/dianteira 47) e trava T51.7601 direita das duas gavetas espelhada. '
+                        'Nenhuma outra peça movida ou redimensionada.')
+    (dest / 'Verificacao_R49.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+except Exception:
+    (dest / 'Erro_CAD.txt').write_text(traceback.format_exc(), encoding='utf-8')
+finally:
+    from PySide import QtCore
+    for d in list(App.listDocuments().values()):
+        App.closeDocument(d.Name)
+    QtCore.QTimer.singleShot(0, Gui.getMainWindow().close)

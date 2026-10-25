@@ -2,7 +2,7 @@
 
 | Uso | Abrir | Revisão |
 |---|---|---|
-| Modelo 3D (FreeCAD) | [Guedala_Park_R48_Depurador_sem_canal.FCStd](../01_Projeto/Depurador_sem_canal_R48_2026-10-24/Guedala_Park_R48_Depurador_sem_canal.FCStd) | R48: R46 + depurador sem canal, divisor do aéreo D até o fundo, reservas ocultas removidas |
+| Modelo 3D (FreeCAD) | [Guedala_Park_R49_Gavetas_escritorio.FCStd](../01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd) | R49: R48 + gavetas do escritório corrigidas (folga de 7 mm, trava direita espelhada) |
 | Pacote para o montador | [Compartilhar_R16](Compartilhar_R16/Guedala_Park_R16.zip) | R16 |
 | Fichas dos 20 móveis, furação e pendências | [Fichas_fabricacao_R13](Fichas_fabricacao_R13/index.html) (conteúdo R14) | R14 |
 | Planta cotada | [Planta_cotada_R13](Planta_cotada_R13/index.html) | R13 |
@@ -10,7 +10,7 @@
 | Especificações | [Caderno de especificações R01](../01_Projeto/Caderno_de_especificacoes_R01.md) | R01 |
 | Orçamento | [Orçamento R43](../01_Projeto/Orcamento_R43_2026-10-22/Orcamento_R43.md) | R43 |
 
-A R48 ([o que mudou](../01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md)) parte da R46, que grava as fichas R14 no modelo; furos, FGVTN 500 e a piano do banco seguem fora da geometria ([detalhes](../01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md)). Nada aqui libera fabricação.
+A R49 ([o que mudou](../01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md)) corrige as gavetas do escritório sobre a R48 ([o que mudou](../01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md)), que parte da R46, que grava as fichas R14 no modelo; furos, FGVTN 500 e a piano do banco seguem fora da geometria ([detalhes](../01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md)). Nada aqui libera fabricação.
 
 ---
 

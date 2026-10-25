@@ -25,7 +25,7 @@ SUMMARIES={
 'P13':'Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.',
 'P14':'Carcaça e cesto têm ligações separadas. O mecanismo basculante a 55° ainda exige solução comprovada para a aplicação.',
 'P15':'Blum nas portas e 8 conjuntos Minifix. O vão de 799 mm mantém a necessidade de reforço e carga definida.',
-'P16':'MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa; corrigir interferências antes de usinar.',
+'P16':'MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49; provar retirada na oficina.',
 'P17':'Blum nas quatro portas. Ligações das divisórias e distribuição da suspensão continuam específicas.',
 'P18':'RO25 no banheiro e quadro removível por quatro M6. Cavilhas e ligações permanentes ficam separadas da retirada.',
 'P19':'Blum nas portas, oito apoios Häfele .711 e mapa nominal de 12 conjuntos Minifix para as seis interfaces da caixa. Estudo separado; montagem, espelho e suspensão a validar.',
@@ -119,8 +119,7 @@ def build():
                 row['sources']=[{'title':'Pendência de produto registrada na auditoria R13; não é manual de furação','path':'01_Projeto/Estudo_interativo/fabrication/hardware-audit.json'}]
         checks=unique(m.get('technicalChecks',[])+j['technicalChecks'])
         extras={
-          'P01':[old['modules']['P01']['technicalChecks'][4],old['modules']['P01']['technicalChecks'][5]],
-          'P02':['Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.'],
+          'P01':[old['modules']['P01']['technicalChecks'][5]],  # [4] suportes centrais conferidos em 24/10
           'P07':['Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.'],
           'P13':['Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.']}
         checks+=extras.get(code,[])
@@ -144,7 +143,7 @@ def build():
           'P06':{'Abertura total e amortecimento das três gavetas constam das escolhas; SKU, regulagem e fixação ainda precisam de projeto.':'FGVTN 54FGOC12500TSX0 selecionada para as três gavetas; conferir engates, regulagem e fixação.'},
           'P07':{'Base e apoios R31 são detalhe proposto; fixação dos insertos e sustentação precisam de validação.':'Base e apoios R31 preservados; detalhar e provar a retenção metálica M4 e a sustentação.'},
           'P10':{'Prateleiras atuais encostam nas laterais: a alternativa Minifix é para montagem fixa.':'Montar as três prateleiras fixas desmontáveis com os 20 conjuntos Minifix do módulo; não usar pinos soltos para as mesmas ligações.','Se optar por removíveis, revisar folgas e suportes; não comprar pinos presumindo encaixe do CAD sem alteração.':'Conferir acesso aos Minifix e sequência de montagem antes de fechar a caixa.'},
-          'P16':{'Abertura total foi escolhida; amortecimento das gavetas do escritório não foi confirmado.':'MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Compatibilizar retirada e gancho antes de usinar.'},
+          'P16':{'Abertura total foi escolhida; amortecimento das gavetas do escritório não foi confirmado.':'MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.'},
           'P19':{'Prateleiras removíveis preservam folgas nominais de 2 mm; oito apoios são candidatos e ancoragem permanece a definir.':'Prateleiras removíveis preservam folgas nominais de 2 mm; oito apoios Häfele .711 selecionados. Carga da prateleira e ancoragem continuam em projeto.'}}
         assembly=[fixes.get(code,{}).get(s,s) for s in assembly]
         assembly+=m.get('assembly',[])+j.get('assembly',[])

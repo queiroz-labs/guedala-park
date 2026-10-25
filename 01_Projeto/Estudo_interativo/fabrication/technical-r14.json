@@ -618,7 +618,6 @@
       "projectChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
         "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
       ],
@@ -632,7 +631,6 @@
       "technicalChecks": [
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
         "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
@@ -697,6 +695,7 @@
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem Comfort selecionado;2 kits de 1 folha por módulo.",
         "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
+        "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do maleiro (2132); inferior em 1030, 52 mm abaixo da prateleira (1082).",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "unmappedInterfaces": [
@@ -1133,7 +1132,6 @@
       "projectChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
       ],
       "workshopChecks": [
@@ -1144,7 +1142,6 @@
       "technicalChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Revisar as quatro formas de dobradiças do canto registradas como inválidas no inventário. O mapa de canecos não repara os sólidos do mecanismo.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
@@ -1206,6 +1203,7 @@
         "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): todas as peças das 4 dobradiças do canto são válidas. O alerta vinha do grupo que junta os sólidos STEP da Blum, não de peça do móvel; não afeta corte nem furação.",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "unmappedInterfaces": [],
@@ -2290,7 +2288,6 @@
         }
       ],
       "projectChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
         "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
@@ -2302,7 +2299,6 @@
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
       ],
       "technicalChecks": [
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas.",
         "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
@@ -2366,6 +2362,7 @@
         "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
         "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): folhas 439,75/440,25 × 306 × 18 com canecos a 148 mm entre eixos. Massa estimada ≈1,8 kg; esforço ≈23 N por dobradiça; largura abaixo de 600 mm. Duas dobradiças bastam no cálculo nominal; pesar a porta pronta na oficina.",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "unmappedInterfaces": [
@@ -8120,7 +8117,7 @@
     },
     "P16": {
       "name": "Gaveteiro escritório",
-      "summary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa; corrigir interferências antes de usinar.",
+      "summary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49; provar retirada na oficina.",
       "decisions": [
         {
           "item": "Corrediças 400",
@@ -8226,7 +8223,7 @@
           "depth": null,
           "fastener": "609.1500 Ø3,5×15",
           "status": "gabarito documentado; mapa por lateral pendente",
-          "releaseCondition": "Resolver 1 mm de folga sob tampo frente a 7 mm exigidos e interferências locais 0,125–0,175 mm antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
           "sources": [
             {
               "title": "Blum MOVENTO: fixação lateral",
@@ -8251,7 +8248,7 @@
           "depth": 10,
           "fastener": "T51.7601 e ganchosMOVENTO",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modeloexato para recorte e engates; confirmar gancho direito sem interferência e retirada completa. Não aplicarØ7FGVTN.",
+          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD; confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
           "sources": [
             {
               "title": "Blum MOVENTO: montagem e caixa",
@@ -8386,7 +8383,6 @@
         }
       ],
       "projectChecks": [
-        "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
@@ -8397,7 +8393,6 @@
         "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
       ],
       "technicalChecks": [
-        "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
@@ -8407,7 +8402,7 @@
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Compatibilizar retirada e gancho antes de usinar.",
+        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.",
         "MOVENTO400: caixa390, útil359; largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
         "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
       ],
@@ -8428,7 +8423,9 @@
         }
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída. Interferências e folga superior continuam abertas.",
+        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída.",
+        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
+        "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda; não invade mais a guia direita (era 1.276 mm³).",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "unmappedInterfaces": [
@@ -9688,7 +9685,6 @@
       "projectChecks": [
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
         "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
       ],
@@ -9702,7 +9698,6 @@
       "technicalChecks": [
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "A fórmula da folha usa vão frontal507. Não repetir altura útil509 da caixa como vão frontal.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
         "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
         "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
@@ -9769,7 +9764,8 @@
         "RO25 e 4 trechos RM026 selecionados;24 parafusos 3,5×12 CF quantificados. A primeira implantação ainda precisa conferência.",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida.",
         "Quadro desmontável definido; 4M6,4porcas e8cavilhas separados por função; não substituir por cola permanente.",
-        "Datums do quadro e laterais explicitados; Confirmat nominal7 não convertido em brocaØ7."
+        "Datums do quadro e laterais explicitados; Confirmat nominal7 não convertido em brocaØ7.",
+        "Conferido em 24/10: a ficha usa vão frontal 507 (travessa 725 − base 218) e folhas 500 (regra −7). O 564 × 509 é o fundo, outra peça."
       ],
       "unmappedInterfaces": [],
       "drawings": [],

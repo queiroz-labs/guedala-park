@@ -613,7 +613,8 @@
       ],
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem Comfort selecionado;2 kits de 1 folha por módulo.",
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização."
+        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
+        "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do maleiro (2132); inferior em 1030, 52 mm abaixo da prateleira (1082)."
       ],
       "technicalChecks": [
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
@@ -954,7 +955,8 @@
       "resolvedChecks": [
         "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
-        "Curso 86° escolhido para todas as folhas com limitador 70T3553."
+        "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): todas as peças das 4 dobradiças do canto são válidas. O alerta vinha do grupo que junta os sólidos STEP da Blum, não de peça do móvel; não afeta corte nem furação."
       ],
       "technicalChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -1754,12 +1756,12 @@
       "resolvedChecks": [
         "Família 71B3550 com calço 173H7100 niquelados selecionada; alternativa FGVTN retirada da lista ativa.",
         "Fixadores 609.1500 e pré-furação por centrador Blum definidos;52 centros de caneco extraídos da R45 por ID.",
-        "Curso 86° escolhido para todas as folhas com limitador 70T3553."
+        "Curso 86° escolhido para todas as folhas com limitador 70T3553.",
+        "Conferido em 24/10 (R48): folhas 439,75/440,25 × 306 × 18 com canecos a 148 mm entre eixos. Massa estimada ≈1,8 kg; esforço ≈23 N por dobradiça; largura abaixo de 600 mm. Duas dobradiças bastam no cálculo nominal; pesar a porta pronta na oficina."
       ],
       "technicalChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
-        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
-        "Cabeceira: folhas 439,75/440,25×306 são baixas/largas; conferir torção e funcionamento com duas dobradiças antes de repetir as 4 folhas."
+        "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP."
       ],
       "assembly": [
         "Usinar pelo ID da folha. Caneco 35×13 deixa 5 mm nominais em chapa 18; na vizinha da cabeceira K6 e no canto K4, sem padronização indevida.",
@@ -4356,7 +4358,7 @@
           "depth": null,
           "fastener": "609.1500 Ø3,5×15",
           "status": "gabarito documentado; mapa por lateral pendente",
-          "releaseCondition": "Resolver 1 mm de folga sob tampo frente a 7 mm exigidos e interferências locais 0,125–0,175 mm antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
           "sources": [
             {
               "title": "Blum MOVENTO: fixação lateral",
@@ -4380,7 +4382,7 @@
           "depth": 10,
           "fastener": "T51.7601 e ganchosMOVENTO",
           "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modeloexato para recorte e engates; confirmar gancho direito sem interferência e retirada completa. Não aplicarØ7FGVTN.",
+          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD; confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
           "sources": [
             {
               "title": "Blum MOVENTO: montagem e caixa",
@@ -4486,10 +4488,11 @@
         "Fixação das frentes na variante FGVTN R04"
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída. Interferências e folga superior continuam abertas."
+        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída.",
+        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
+        "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda; não invade mais a guia direita (era 1.276 mm³)."
       ],
       "technicalChecks": [
-        "Oficina/projeto: compatibilizar a reserva superior 7 mm e o recorte do gancho direito; são pendências locais do modelo, não medidas do apartamento.",
         "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados."
       ],
       "assembly": [],

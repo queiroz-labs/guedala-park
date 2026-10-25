@@ -3178,4 +3178,6 @@ Desenvolvida a [especificação R02 para orçamento](Sala_e_jantar/Retirada_pont
 
 Na sequência, Elias pediu estender o divisor e as prateleiras até o fundo e atualizar as fichas R14 do P09. Divisor 18 do aéreo D passa de 118 para 312 mm: dois nichos 298 × 312 × 556. O P09 não tem prateleiras modeladas; os dois níveis do estudo Aéreos R00 nunca foram aprovados e seguem fora do CAD. Fichas R14 do P09 revisadas sem duto.
 
+**24/10/2026 — pendências rápidas das fichas (R49):** Elias pediu resolver as conferências de projeto P01, P02, P04, P16 e P18. P01 (eixos dos varões a 82 e 52 mm), P02 (dobradiças do canto válidas; alerta vinha do grupo STEP), P04 (≈23 N por dobradiça nas folhas 440 × 306) e P18 (vão frontal 507) conferidos sem mudar o modelo. P16 corrigido na [R49](Gavetas_escritorio_R49_2026-10-24/README.md): gaveta 2 com laterais 74 mm para os 7 mm da MOVENTO sob o tampo, e trava T51.7601 direita espelhada, sem invadir a guia.
+
 **24/10/2026 — reservas ilustrativas ocultas:** na revisão das reservas sem aprovação, Elias determinou: remover “proteção lateral de 10 mm do quarto, faixa de cadeira 800×500×720 do escritório e o grupo R31 de diagnóstico da cocção. Mantém tanque e reservas hidráulicas.” Removidas na [R48](Depurador_sem_canal_R48_2026-10-24/README.md); tanque externo e reservas hidráulicas do P14 seguem até a medição.
