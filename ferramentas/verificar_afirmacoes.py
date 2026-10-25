@@ -24,22 +24,36 @@ LIBERACAO = re.compile(r'(?i)\b(liberad[oa]s?\s+para\s+(?:fabric|corte|compra|ex
 RESSALVA = re.compile(r'(?i)\b(n[aã]o|nada|sem|nenhum[a]?|nunca|ainda|pendente|condicionad[oa]s?|depende[mr]?|exige|exigem|antes\s+de|at[eé]\s+que|para\s+liberar|quando|se\b|enquanto|falta|faltam|nem)\b')
 
 
+CAMINHO = re.compile(r'[\w.\-]+(?:/[\w.\-]+)+')
+
+
+def normalizada(linha):
+    """Linha sem caminhos/links e sem espacos: reorganizar pastas reescreve links de linhas antigas; isso nao e frase nova."""
+    sem_links = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', linha)  # [texto](alvo) -> texto (link removido ou renomeado)
+    sem_nomes = re.sub(r'[\w.\-]+\.(?:md|html|json|csv|pdf|png|py)\b', 'P', sem_links)  # nome de arquivo renomeado
+    return re.sub(r'\s+', ' ', CAMINHO.sub('P', sem_nomes)).strip().lower()
+
+
 def linhas_novas(base):
-    cmd = ['git', '-c', 'core.quotepath=off', 'diff', '-U0', '--no-color', '--diff-filter=AM']
-    cmd += [base] if base else ['--cached']
+    # Com --desde compara commit com commit (HEAD); sem ele, o que esta staged para o commit.
+    cmd = ['git', '-c', 'core.quotepath=off', 'diff', '-U0', '--no-color', '--find-renames=30%']
+    cmd += [base, 'HEAD'] if base else ['--cached']
     cmd += ['--', '*.md']
     out = subprocess.run(cmd, cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='ignore').stdout
-    arq, n, res = None, 0, []
+    arq, n, novas, removidas = None, 0, [], set()
     for l in out.split('\n'):
-        if l.startswith('+++ b/'):
-            arq = l[6:]
+        if l.startswith('+++ '):
+            arq = None if l.startswith('+++ /dev/null') else l[6:]
         elif l.startswith('@@'):
             m = re.search(r'\+(\d+)', l)
             n = int(m.group(1)) - 1 if m else 0
         elif l.startswith('+') and not l.startswith('+++'):
             n += 1
-            res.append((arq, n, l[1:]))
-    return res
+            novas.append((arq, n, l[1:]))
+        elif l.startswith('-') and not l.startswith('---'):
+            removidas.add(normalizada(l[1:]))
+    # linha que so mudou caminho/link em relacao a uma linha removida nao e afirmacao nova
+    return [(a, n, t) for a, n, t in novas if normalizada(t) not in removidas]
 
 
 def main():
