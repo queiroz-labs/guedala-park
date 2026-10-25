@@ -13,9 +13,21 @@ IGNORAR = ('/Fontes/', '/fontes/', '08_Contratos_e_atraso/Pesquisa/', '02_Modelo
 
 
 def arquivos():
-    out = subprocess.run(['git', '-c', 'core.quotepath=off', 'ls-files', '-co', '--exclude-standard', '*.md'],
+    # --staged: so os .md do commit (trabalho de outra sessao ainda nao commitado nao entra)
+    cmd = (['diff', '--cached', '--name-only', '--diff-filter=AM', '--', '*.md'] if '--staged' in sys.argv
+           else ['ls-files', '-co', '--exclude-standard', '*.md'])
+    out = subprocess.run(['git', '-c', 'core.quotepath=off', *cmd],
                          cwd=RAIZ, capture_output=True, text=True, encoding='utf-8').stdout.split('\n')
     return [f for f in out if f and not any(i in '/' + f for i in IGNORAR)]
+
+
+def ignorado_pelo_git(alvo):
+    """Arquivos locais ignorados pelo git (zips, videos) existem so no PC; link para eles e intencional."""
+    try:
+        rel = str(alvo.relative_to(RAIZ)).replace(os.sep, '/')
+    except ValueError:
+        return False
+    return subprocess.run(['git', 'check-ignore', '-q', rel], cwd=RAIZ).returncode == 0
 
 
 def quebrados():
@@ -30,7 +42,7 @@ def quebrados():
             if not u or re.match(r'^[a-z]+:', u) or u.startswith(('/', '{', '$')):
                 continue
             alvo = (p.parent / unquote(u)).resolve()
-            if not alvo.exists() and not (str(alvo).endswith('.md.html') and Path(str(alvo)[:-5]).exists()):
+            if not alvo.exists() and not (str(alvo).endswith('.md.html') and Path(str(alvo)[:-5]).exists()) and not ignorado_pelo_git(alvo):
                 linha = texto.count('\n', 0, m.start()) + 1
                 achados.append('%s:%d -> %s' % (f, linha, m.group(1)))
     return achados

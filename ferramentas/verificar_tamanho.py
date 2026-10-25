@@ -25,7 +25,10 @@ IGNORAR = ('.git/', 'node_modules/')
 
 
 def arquivos():
-    out = subprocess.run(['git', '-c', 'core.quotepath=off', 'ls-files', '-co', '--exclude-standard'],
+    # --staged: so o que esta no commit (trabalho de outra sessao ainda nao commitado nao entra)
+    cmd = (['diff', '--cached', '--name-only', '--diff-filter=AM'] if '--staged' in sys.argv
+           else ['ls-files', '-co', '--exclude-standard'])
+    out = subprocess.run(['git', '-c', 'core.quotepath=off', *cmd],
                          cwd=RAIZ, capture_output=True, text=True, encoding='utf-8').stdout.split('\n')
     return [f for f in out if f and not any(i in f for i in IGNORAR) and (RAIZ / f).is_file()]
 
@@ -36,10 +39,22 @@ def limite_de(nome):
             return desc, b
 
 
+TEXTO = ('.md', '.json', '.csv', '.txt', '.js', '.cjs', '.py', '.svg', '.xml', '.html', '.htm')
+
+
+def tamanho(f):
+    """Bytes com quebra de linha LF: o git no Windows converte para CRLF e a conta mudaria entre PCs/CI."""
+    p = RAIZ / f
+    tam = p.stat().st_size
+    if f.endswith(TEXTO) and tam < 20 * 1024 * KB:
+        tam -= p.read_bytes().count(b'\r\n')
+    return tam
+
+
 def excessos():
     ex = {}
     for f in arquivos():
-        tam = (RAIZ / f).stat().st_size
+        tam = tamanho(f)
         desc, lim = limite_de(f)
         # o limite mais restritivo que o arquivo viola
         for d, t, b in LIMITES:
@@ -53,8 +68,12 @@ def main():
     ex = excessos()
     base = json.loads(BASE.read_text(encoding='utf-8')) if BASE.exists() else {}
     if '--gerar-base' in sys.argv:
-        BASE.write_text(json.dumps({f: v[0] for f, v in sorted(ex.items())}, indent=0, ensure_ascii=False), encoding='utf-8')
-        print('Base gravada: %d arquivos acima do limite, congelados no tamanho atual' % len(ex))
+        # so arquivos ja versionados: arquivo novo acima do limite nunca ganha licenca automatica
+        versionados = set(subprocess.run(['git', '-c', 'core.quotepath=off', 'ls-files'], cwd=RAIZ, capture_output=True,
+                                         text=True, encoding='utf-8').stdout.splitlines())
+        novo = {f: v[0] for f, v in sorted(ex.items()) if f in versionados}
+        BASE.write_text(json.dumps(novo, indent=0, ensure_ascii=False), encoding='utf-8')
+        print('Base gravada: %d arquivos versionados acima do limite, congelados no tamanho atual' % len(novo))
         return 0
     if '--apertar' in sys.argv:
         nova = {f: min(t, base[f]) for f, (t, *_ ) in ex.items() if f in base}
@@ -70,7 +89,7 @@ def main():
         elif tam < base[f] * 0.9:
             avisos.append('%s encolheu para %d KB; rode --apertar para travar o ganho.' % (f, tam // KB))
     sumiram = [f for f in base if f not in ex]
-    if sumiram:
+    if sumiram and '--staged' not in sys.argv:
         avisos.append('%d arquivos da base ja estao dentro do limite (rode --apertar): %s' % (len(sumiram), ', '.join(sumiram[:5])))
     for a in avisos[:6]:
         print('AVISO:', a)

@@ -23,7 +23,9 @@ def git(*a):
 
 def estrutura():
     erros = []
-    arquivos = [f for f in git('ls-files', '-co', '--exclude-standard') if f]
+    # No commit, so o indice (arquivos versionados + staged): trabalho de outra sessao ainda nao commitado nao entra.
+    no_commit = '--ci' not in sys.argv and any(git('diff', '--cached', '--name-only'))
+    arquivos = [f for f in (git('ls-files') if no_commit else git('ls-files', '-co', '--exclude-standard')) if f]
     pastas = {'/'.join(f.split('/')[:i]) for f in arquivos for i in range(1, f.count('/') + 1)}
     datadas = sorted(p for p in pastas if DATA.search(p.split('/')[-1]) and not p.startswith(LEGADO))
     if datadas:
@@ -56,10 +58,11 @@ def main():
         print('ERRO:', e); falhou = True
     print('Estrutura: %s' % ('OK' if not falhou else 'com erro'))
     tem_staged = any(git('diff', '--cached', '--name-only'))
+    so_commit = ['--staged'] if (tem_staged and not ci) else []
     passos = [('modelo', ['ferramentas/verificar_modelo/verificar_modelo.py']),
-              ('links', ['ferramentas/verificar_links.py']),
-              ('tamanho', ['ferramentas/verificar_tamanho.py']),
-              ('privacidade', ['ferramentas/verificar_privacidade.py'] + ([] if ci or not tem_staged else ['--staged']))]
+              ('links', ['ferramentas/verificar_links.py'] + so_commit),
+              ('tamanho', ['ferramentas/verificar_tamanho.py'] + so_commit),
+              ('privacidade', ['ferramentas/verificar_privacidade.py'] + so_commit)]
     if not ci:  # a consistencia usa datas de arquivo, que o checkout limpo do CI nao preserva
         passos.append(('consistencia', ['ferramentas/verificar_consistencia.py']))
         if tem_staged:
