@@ -89,7 +89,13 @@ for o in objs:
             if pai is not None:
                 item['pai'] = pai.Name
             if not sh.isValid():
-                retrato['invalidos'].append({'nome': o.Name, 'estado': ['ShapeInvalida']})
+                if o.isDerivedFrom('Part::Feature'):  # geometria PROPRIA gravada no arquivo: invalida de verdade
+                    retrato['invalidos'].append({'nome': o.Name, 'estado': ['ShapeInvalida']})
+                else:
+                    # Contêiner (App::Part/grupo): o FreeCAD MONTA a forma juntando os filhos transformados; nao ha forma
+                    # gravada. Ferragens B-spline de fabricante ficam invalidas ao serem transformadas, mesmo com
+                    # determinante 1. Registro informativo, nao e defeito de peca.
+                    retrato.setdefault('agregados_invalidos', []).append(o.Name)
         except Exception as e:  # forma ilegivel conta como invalida
             retrato['invalidos'].append({'nome': o.Name, 'estado': ['Excecao: %s' % e]})
     retrato['objetos'][o.Name] = item

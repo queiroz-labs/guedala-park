@@ -1,8 +1,8 @@
 # Relatório de mudança do modelo
 
-Gerado por `verificar_modelo.py` em 25/10/2026 15:34. Revisão `R52`. SHA256 `941da02d367c` → `941da02d367c`.
+Gerado por `verificar_modelo.py` em 25/10/2026 19:42. Revisão `R52`. SHA256 `941da02d367c` → `941da02d367c`.
 
-**Aprovação de Elias:** Não se aplica: nenhuma diferença em relação à base (25/10/2026)
+**Aprovação de Elias:** Não se aplica: modelo inalterado (mesmo SHA); sem diferença de geometria, posição, aparência ou movimento (25/10/2026)
 
 ## Resumo
 
@@ -11,7 +11,8 @@ Gerado por `verificar_modelo.py` em 25/10/2026 15:34. Revisão `R52`. SHA256 `94
 | Objetos | 5832 | 5832 |
 | Expressões | 7702 | 7702 |
 | Formas ativas | 1133 | 1133 |
-| Formas inválidas | 12 | 12 |
+| Peças com geometria própria inválida | 0 | 0 |
+| Contêineres com forma montada inválida (informativo) | 12 | 12 |
 | Cenários de movimento | 106 | 106 |
 
 Nenhuma diferença em relação à base anterior.

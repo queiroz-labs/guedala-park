@@ -324,7 +324,9 @@ def escrever_relatorio(base, atual, dif, batidas, aprovacao, rel):
     L += ['## Resumo', '', '| | Base anterior | Agora |', '|---|---:|---:|']
     for rot, chave in (('Objetos', 'total_objetos'), ('Expressões', 'total_expressoes'), ('Formas ativas', 'formas_ativas')):
         L.append('| %s | %s | %s |' % (rot, (base or {}).get(chave, '-'), atual.get(chave, '-')))
-    L.append('| Formas inválidas | %s | %d |' % (len((base or {}).get('invalidos', [])) if base else '-', len(atual['invalidos'])))
+    L.append('| Peças com geometria própria inválida | %s | %d |' % (len((base or {}).get('invalidos', [])) if base else '-', len(atual['invalidos'])))
+    L.append('| Contêineres com forma montada inválida (informativo) | %s | %d |' % (
+        len((base or {}).get('agregados_invalidos', [])) if base else '-', len(atual.get('agregados_invalidos', []))))
     L.append('| Cenários de movimento | %s | %d |' % (len((base or {}).get('movimentos') or {}) if base else '-', len(atual.get('movimentos') or {})))
     L.append('')
     if dif:
@@ -411,7 +413,7 @@ def main():
                 elif mudou_metodo and mesmo_modelo:
                     automatica = 'Não se aplica: migração do formato da base, mesmo modelo e mesmo SHA (%s)' % hoje
                 elif not mudou:
-                    automatica = 'Não se aplica: nenhuma diferença em relação à base (%s)' % hoje
+                    automatica = 'Não se aplica: modelo inalterado (mesmo SHA); sem diferença de geometria, posição, aparência ou movimento (%s)' % hoje
                 escrever_relatorio(base, retrato, dif, batidas, aprovacao or automatica, rel)
                 if aprovacao is not None and not re.search(r'\d{1,2}/\d{1,2}', aprovacao):
                     erros.append('--aprovado-por precisa citar a data da aprovacao de Elias (dd/mm) e o que ele aprovou')
