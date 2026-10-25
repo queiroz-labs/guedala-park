@@ -1,0 +1,9 @@
+#!/bin/sh
+# Antes de enviar ao GitHub, repete os testes do site que o CI roda antes de publicar.
+# Ignorar uma vez (so com autorizacao de Elias): git push --no-verify
+cd "$(git rev-parse --show-toplevel)" || exit 1
+python -B ferramentas/verificar_site.py || {
+  echo
+  echo "Push bloqueado: o site nao passaria no CI. Corrija os erros acima."
+  exit 1
+}

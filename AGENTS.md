@@ -24,6 +24,8 @@ Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Se
 
 ## 3. Uma versão vigente por item
 
+- **Regra de chapas de Elias (25/10):** a mesma chapa física tem o mesmo acabamento nas duas faces. Duas peças separadas podem ter cores diferentes, por exemplo externa18mm no padrão do projeto e interna15mm BrancoTX. Identificar as duas peças e conferir os33mm, vãos, ligações e cargas onde se sobrepõem. Não assumir que todo móvel já tenha essa caixa dupla nem acrescentar15mm automaticamente. Fonte: `ferramentas/site/fabrication/Decisao_acabamentos_R13.md`.
+
 - Cada item tem **um** arquivo vigente. Ao revisar, edite-o ou substitua-o; não crie `_R53`, `_novo`, `_final`, `_v2` ao lado.
 - O histórico fica no **git** (commit com mensagem clara), não em cópias na pasta. Não existe pasta de arquivo morto: o superado é removido no mesmo commit em que é substituído.
 - Número de revisão (R52, R14…) aparece no texto do README/ESTADO_ATUAL e, se preciso, no nome do arquivo entregue a terceiros, nunca no nome de pasta.
@@ -85,7 +87,8 @@ Pasta nova de topo só com motivo forte; prefira encaixar numa dessas.
 
 | Quando | Comando (na raiz) | Falha significa |
 |---|---|---|
-| Antes de todo commit (o hook roda sozinho) | `python ferramentas/verificar_tudo.py` | Estrutura, modelo (arquivo, cores, SHA), links ou consistência quebrados |
+| Antes de todo commit (o hook roda sozinho) | `python ferramentas/verificar_tudo.py` | Estrutura, modelo (arquivo, cores, SHA), links, tamanho, privacidade, consistência ou afirmação sem fonte |
+| Antes de todo push (o hook roda sozinho) e no CI | `python ferramentas/verificar_site.py` | O site ou o pacote não passariam no CI; publicar quebrado é pior que não publicar |
 | Depois de **qualquer** trabalho que abriu ou alterou o modelo FreeCAD | `python ferramentas/verificar_modelo/verificar_modelo.py --completo` | Objeto removido, forma inválida, expressão perdida ou **colisão nova** em relação à base |
 | Depois de mudar `ferramentas/site/src` | `python -B ferramentas/site/construir.py` e os testes de `ferramentas/site` | Site ou pacote fora de sincronia |
 
@@ -94,4 +97,7 @@ Regras do modelo FreeCAD:
 - Nunca deixe `.FCBak`, `.FCStd1` ou cópias do modelo na pasta do projeto: o verificador reprova.
 - Mudança de modelo aprovada por Elias: rode `--completo --atualizar-base`, atualize `cadPath` e `cadSHA256` em `ferramentas/site/current_release.json` e o `ESTADO_ATUAL.md` no mesmo commit. Sem essa aprovação, **não atualize a base para fazer o erro sumir**.
 - Se o verificador acusar erro que você não causou, pare e avise Elias, em vez de ajustar a base.
-- `git commit --no-verify` só com autorização de Elias. Em clone novo, ative o hook: `git config core.hooksPath ferramentas/hooks`.
+- **Limites de tamanho:** README ≤ 16 KB, outro `.md` ≤ 60 KB, HTML ≤ 1 MB, dados ≤ 3 MB. Se estourar, resuma, divida ou mova o bruto para fora. Não aumente `ferramentas/limites_base.json` para passar.
+- **Privacidade:** o repositório e o site são **públicos**. Nunca escreva CPF, cartão, senha, token, telefone ou e-mail pessoal de Elias ou de terceiros. Tudo pessoal fica em `guedala-pessoal/`, fora do git. Se o verificador acusar, remova o dado; não edite `privacidade_base.json`.
+- **Decisões e aprovações:** só escreva "Elias aprovou/escolheu/confirmou…" com a fonte na mesma linha (data `25/10/2026`, código `F123`, citação entre aspas ou link para o Registro de decisões). Nunca escreva que algo está "liberado para fabricação", "capacidade aprovada" ou "carga liberada": o projeto não liberou nada; use "pendente", "condicionado", "nominal".
+- `git commit --no-verify` e `git push --no-verify` só com autorização de Elias; o CI repete as verificações de qualquer jeito. Em clone novo, ative o hook: `git config core.hooksPath ferramentas/hooks`.

@@ -9,9 +9,14 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 | `python ferramentas/verificar_modelo/verificar_modelo.py --completo` | Abre o modelo no FreeCADCmd **sem salvar** e compara com a base: objetos removidos, formas inválidas, expressões perdidas, **colisões novas** | minutos |
 | `python ferramentas/verificar_consistencia.py` | Documentos batem entre si (datas, versões, caderno × site) | segundos |
 | `python ferramentas/verificar_links.py` | Links locais quebrados nos `.md` | segundos |
+| `python ferramentas/verificar_tamanho.py` | Limites de leitura: README ≤ 16 KB, `.md` ≤ 60 KB, HTML ≤ 1 MB, dados ≤ 3 MB. Os que já passavam estão congelados em `limites_base.json` (podem encolher, não crescer) | segundos |
+| `python ferramentas/verificar_privacidade.py` | CPF, cartão (Luhn), chaves/tokens, senhas, chave privada e qualquer arquivo de `guedala-pessoal/`; avisa e-mail pessoal e telefone. O repositório e o site são públicos. Achados antigos revisados: `privacidade_base.json` | segundos |
+| `python ferramentas/verificar_afirmacoes.py` | Nas linhas **novas** de `.md`: barra "Elias aprovou…" sem data/F-código/aspas/Registro e "liberado para fabricação" ou "capacidade aprovada" sem ressalva | segundos |
+| `python ferramentas/verificar_site.py` | Testes do site e build como o CI faz, em pasta temporária (hook de pre-push) | ~10 s |
 | `python -B ferramentas/site/construir.py` | Regenera o site a partir de `ferramentas/site/src/` | segundos |
 | `ferramentas/cinematica/consultar.py` | Posições de portas e gavetas sem abrir o FreeCAD | segundos |
 
-O hook de git (`ferramentas/hooks/pre-commit`) roda `verificar_tudo.py` antes de cada commit e bloqueia o commit se houver erro. Para ativar num clone novo: `git config core.hooksPath ferramentas/hooks`.
+
+**Camadas de defesa.** (1) Hook de commit (`ferramentas/hooks/pre-commit`): roda `verificar_tudo.py` (estrutura, modelo, links, tamanho, privacidade só nos arquivos do commit, consistência e afirmações) e bloqueia se houver erro. (2) Hook de push (`ferramentas/hooks/pre-push`): roda `verificar_site.py`. (3) CI (`.github/workflows/pages.yml`): roda `verificar_tudo.py --ci` e as afirmações dos commits do push **antes** de construir e publicar o site; pega quem usou `--no-verify`. Para ativar os hooks num clone novo: `git config core.hooksPath ferramentas/hooks`.
 
 Detalhes do gerador do site: [site/README.md](site/README.md).

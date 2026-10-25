@@ -17,6 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      # Segunda linha de defesa: roda mesmo que alguém tenha pulado o hook local (--no-verify).
+      - name: Verificar estrutura, modelo, links, tamanho e privacidade
+        run: python3 -B ferramentas/verificar_tudo.py --ci
+      - name: Afirmações sem fonte nos commits deste push
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: |
+          if git fetch --no-tags --depth=1 origin "${{ github.event.before }}"; then
+            python3 -B ferramentas/verificar_afirmacoes.py --desde "${{ github.event.before }}"
+          else
+            echo "Commit anterior indisponível (push forçado?); afirmações não conferidas."
+          fi
       - name: Instalar ferramenta de build
         run: npm ci --prefix ferramentas/site --ignore-scripts
       - name: Conferir orientação e aberturas
