@@ -1,3 +1,5 @@
+> **24/10/2026 — luz geral econômica:** após rejeitar o Liny de cerca de R$500, Elias escolheu **três níveis de brilho pelo interruptor comum**. Supera a proposta anterior de ajuste contínuo/controle remoto para esse grupo. Jurerê branco30cm + duas Philips SceneSwitch branco-quente é o conjunto candidato aR$109,88, condicionado a SKU, estoque, encaixe e manual. Arandelas e indireta preservadas. [CB02 e imagens](../Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md).
+
 # Alteração de escopo — 22/10/2026
 
 Remover os dois apoios de celular/óculos conforme solicitação de Elias. As referências a preservá-los abaixo são históricas; esta remoção não altera a iluminação nem a cabeceira.

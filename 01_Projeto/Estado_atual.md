@@ -47,7 +47,8 @@ Detalhes no [roteiro para projeto oficial](Roteiro_para_projeto_oficial.md).
 
 - **Cores:** interiores Branco TX; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (nas fichas R14; protótipo pendente).
-- **Quarto:** roupeiro de 65 cm de profundidade com portas de correr; queen futura; apoios de celular retirados.
+- **Quarto:** roupeiro de 65 cm de profundidade com portas de correr; queen futura; apoios de celular retirados. Luz geral com três níveis de brilho pelo interruptor; Liny caro retirado e conjunto Jurerê/SceneSwitch candidato a cerca de R$110 ([CB02](Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md)).
+- **Tecidos e marcenaria:** cortina da sala C2 Areia, suede areia no banco e na cabeceira, aéreo do escritório marfim claro. Códigos comerciais ainda dependem de amostra. [Imagens das luminárias](../03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md).
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
 - **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box. Luz: teto/indireta 3000 K e espelho 4000 K, três comandos. [Componentes L02: R$612,64 à vista](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html); conjunto montado e instalação condicionados.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix definidos (P10, P11, P15, P19).

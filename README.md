@@ -4,9 +4,9 @@ Visualização dos ambientes, medidas e informações para montar os móveis.
 
 Atualização de 24/10/2026: **[FreeCAD R49](01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md) é o modelo vigente.** Ela corrige as gavetas do escritório (P16): 7 mm livres sob o tampo e trava direita espelhada. Também foram conferidos e fechados P01, P02, P04 e P18 nas fichas.
 
-Anterior: **[FreeCAD R48](01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md)**. Ele parte da R46 e muda só o seguinte: tira o canal de duto do aéreo D (o depurador não tem duto), leva o divisor do aéreo D até o fundo e remove três reservas ocultas sem decisão. A R48 ainda não está publicada; os links públicos abaixo continuam na R46.
+Anterior: **[FreeCAD R48](01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md)**. Ela tira o canal de duto do aéreo D, leva o divisor até o fundo e remove três reservas ocultas sem decisão. Essas alterações estão preservadas na R49. Os downloads e o pacote abaixo passam a usar a R49.
 
-Anterior: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md) — ferragens por móvel, especificação por peça e 52 Minifix como marcadores, sem alterar a geometria. Também: [gaveta baixa P08 — seleção e link de compra](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Seis rodízios de **38 mm** com seis espaçadores metálicos de **1 mm** mantêm **39 mm** de apoio. O lançador, o pacote R16 e os links públicos abaixo usam a R46.
+Anterior: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46_2026-10-24/README.md) — ferragens por móvel, especificação por peça e 52 Minifix como marcadores. Também: [gaveta baixa P08 — seleção e link de compra](01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md). Seis rodízios de **38 mm** com seis espaçadores metálicos de **1 mm** mantêm **39 mm** de apoio. O endereço do pacote R16 é preservado e entrega o conteúdo atualizado com a R49.
 
 **[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para compartilhar ↓](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip)**
 
@@ -15,7 +15,7 @@ Anterior: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46
 | Quero… | Acessar |
 |---|---|
 | Explorar o apartamento e os móveis em 3D | [Site interativo](https://queiroz-labs.github.io/guedala-park/) |
-| Abrir ou editar o projeto no FreeCAD | [Baixar o modelo R46 · cores R16 · fichas R14 (.FCStd)](https://queiroz-labs.github.io/guedala-park/docs/01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd) |
+| Abrir ou editar o projeto no FreeCAD | [Baixar o modelo R49 · cores R16 · fichas R14 (.FCStd)](https://queiroz-labs.github.io/guedala-park/docs/01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd) |
 | Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R14](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
 | Consultar furações e suas referências | [Escolher o móvel e abrir “Furação” na ficha](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/index.html) |
 | Consultar distâncias entre paredes | [Planta cotada](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Planta_cotada_R13/index.html) |
@@ -29,6 +29,7 @@ Anterior: [FreeCAD R46 com as fichas R14 no modelo](01_Projeto/Fichas_no_CAD_R46
 | Ver o cronograma da obra e o que comprar antes | [Cronograma](01_Projeto/Cronograma_obra_e_compras_R00.md) |
 | Imprimir as pranchas (A3) | [Caderno de pranchas R00 (PDF)](05_Entregas/Caderno_pranchas_R00/Guedala_Park_Pranchas_R00.pdf) |
 | Escolher luminárias | [Lista curta](01_Projeto/Lista_curta_luminarias_e_madeira_R00.md) |
+| Ver luminárias nos ambientes | [Simulações CB02](https://queiroz-labs.github.io/guedala-park/docs/03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md.html) · [quarto econômico e três níveis de brilho](01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md) |
 | Ver o que falta para virar projeto oficial | [Roteiro para projeto oficial](01_Projeto/Roteiro_para_projeto_oficial.md) |
 | Conferir o que falta resolver | [Pendências de projeto, oficina e apartamento](https://queiroz-labs.github.io/guedala-park/docs/05_Entregas/Fichas_fabricacao_R13/Pendencias.html) |
 | Continuar antes de receber o apartamento | [Decisões e trabalho que podem avançar sem medidas reais](01_Projeto/Continuidade_pre_entrega_2026-10-23.md) |

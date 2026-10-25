@@ -16,13 +16,19 @@ P08_CASTERS = '01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/'
 BATH = '01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/'
 R47 = '01_Projeto/Southco_banco_R47_2026-10-23/'
 TAPS = '01_Projeto/Conferencia_torneiras_2026-10-23/'
+R48 = '01_Projeto/Depurador_sem_canal_R48_2026-10-24/'
+R49 = '01_Projeto/Gavetas_escritorio_R49_2026-10-24/'
+LIGHT = '01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/'
+LIGHT_IMAGES = '03_Referencias/Iluminacao_CB02_2026-10-24/'
+FABRICS = '03_Referencias/Cortinas_estofados_2026-10-24/'
+FINISHES = '03_Referencias/Tons_marcenaria_2026-10-24/'
 DOCS = []
 FABRICATION = {}
 def doc(id, title, category, rooms, status, summary, path):
     DOCS.append(dict(id=id,title=title,category=category,rooms=rooms.split(','),status=status,summary=summary,path=path))
 
 doc('dossie','Guia do montador','Começar','all','Consolidado','Medidas, ferragens, acabamentos e pendências por módulo.','05_Entregas/Dossie_marcenaria_R45.html')
-doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','R16','FreeCAD com cores R16 e geometria R45, fichas R14, planta cotada e instruções em um ZIP.','05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip')
+doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','CAD R49 · 24/10','FreeCAD R49, fichas R14, planta cotada, iluminação CB02 e instruções em um ZIP.','05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip')
 doc('matriz','Medidas dos 20 módulos','Medidas','all','Nominal','Vãos internos em milímetros e o que falta fechar.',R45+'Inventario/Matriz_20_modulos.md')
 doc('interfaces','Uniões entre chapas','Montagem','all','Em estudo','171 contatos nominais; ligação e caminho da carga a definir.',R45+'Inventario/Interfaces_retangulares.md')
 doc('fixas','Ferragens fixas e suspensão','Ferragens','all','Candidatas','Pinos, conectores, suportes e restrições de montagem.',R45+'Inventario/Ferragens_fixas.md')
@@ -46,20 +52,32 @@ doc('batente','Batente mecânico do banco','Montagem','sala','Alternativa','Geom
 doc('torneiras','Conferência de cubas e torneiras','Compatibilização','cozinha,banho','Em estudo','Envelopes e medidas disponíveis; instalação depende dos produtos.',TAPS+'Conferencia.html')
 doc('purangi','Purangi: vedação e abertura','Compatibilização','banho','Não liberado','Compatibilidade integral não comprovada; troca não liberada.',TAPS+'Resultado_vedacao_abertura.md')
 doc('forno','Forno: grelhas e manutenção','Compatibilização','cozinha','Em estudo','R02 dos apoios e grelhas removíveis; montagem e ventilação condicionadas.','01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md')
-doc('cad','FreeCAD R46 · fichas R14 no modelo','FreeCAD','all','R46 · 24/10','Geometria R45, cores R16 e P08 preservadas; ferragens das fichas por móvel, especificação por peça e 52 Minifix como marcadores.','01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd')
+doc('cad','FreeCAD R49 · modelo atual','FreeCAD','all','R49 · 24/10','Gavetas do escritório corrigidas: 7 mm livres sob o tampo e trava direita espelhada; mantém as alterações da R48.',R49+'Guedala_Park_R49_Gavetas_escritorio.FCStd')
+doc('cad-r49','O que mudou na R49','FreeCAD','escritorio','R49 · 24/10','Correções das gavetas do escritório e conferências P01, P02, P04 e P18.',R49+'README.md')
+doc('cad-r48','Depurador sem canal de duto','FreeCAD','cozinha','R48 · mantida na R49','Canal removido do aéreo D e divisor levado até o fundo.',R48+'README.md')
 doc('cad-cores','Atualização de cores do FreeCAD','Acabamentos','all','R16','Registro dos acabamentos visuais; cores aproximadas e limites da atualização.',CAD_COLORS+'README.md')
 doc('cad-southco','FreeCAD: fixação Southco','FreeCAD','sala','Estudo separado','Proposta R47 para inspeção; não substitui o modelo principal.',R47+'Southco_Fixacao_ESTUDO.FCStd')
 doc('cad-purangi','FreeCAD: sensibilidade Purangi','FreeCAD','banho','Estudo separado','Envelopes hipotéticos para conferir abertura; não é CAD certificado.',TAPS+'Purangi_R45_SENSIBILIDADE.FCStd')
 doc('executivo','Pranchas executivas e plano de corte','Executivo','all','Pendente','Faltam cotas de campo, furação, fitas de borda, folgas, ligações e liberação por peça.',None)
 doc('planta','Planta oficial do apartamento','Arquitetura','all','Documento de origem','Referência de planta; não substitui levantamento acabado.','02_Plantas_e_manuais/Planta_oficial.pdf')
 doc('pisos','Pisos e rodapés','Arquitetura','all','Escolhas e estudos','Acabamentos, interfaces e condições de instalação. Conferir revisão e quantitativos nas fontes.','01_Projeto/Pisos_e_rodapes.md')
-doc('luz-quarto','Iluminação do quarto','Iluminação','quarto','Em desenvolvimento','Comandos, temperaturas e relação com a cabeceira e os armários.','01_Projeto/Portas_e_quarto/Iluminacao_R00.md')
+doc('luz-quarto','Iluminação do quarto','Iluminação','quarto','Três níveis escolhidos','Brilho pelo interruptor comum; proposta Jurerê + duas SceneSwitch por cerca de R$110. Peças e instalação a conferir.','01_Projeto/Portas_e_quarto/Iluminacao_R00.md')
+doc('luz-economica','Quarto: revisão econômica','Iluminação','quarto','CB02 · 24/10','Liny retirado por preço; três níveis pelo interruptor escolhidos. Conjunto de referência R$109,88, sem frete e instalação.',LIGHT+'Revisao_quarto_CB02.md')
+doc('luz-imagens','Luminárias nos ambientes: imagens','Iluminação','all','Simulações CB02','Quarto econômico, cozinha, lavanderia, sala, escritório e banheiro. Luz e escala aproximadas.',LIGHT_IMAGES+'Galeria.md')
+doc('luz-selecao','Iluminação: composição e pendências','Iluminação','all','CB01 · histórico','Seleção por ambiente; a CB02 substitui o plafon caro do quarto.',LIGHT+'Selecao_CB01.md')
+doc('tecidos-escolhas','Cortinas e estofados escolhidos','Acabamentos','sala,quarto,escritorio','Areia · 24/10','Cortina da sala C2 Areia e suede areia no banco e na cabeceira; tecido claro no escritório.',FABRICS+'LEIA-ME.md')
+doc('tecidos-codigos','Tecidos: códigos para amostra','Acabamentos','sala,quarto,escritorio','Candidatos comerciais','Artesanart 7260 Areia e Victor Decor 4842; confirmar amostras antes de comprar.',FABRICS+'Codigos_comerciais_2026-10-24.md')
+doc('cores-escolhidas','Tons escolhidos para a marcenaria','Acabamentos','banho,escritorio','Direção aprovada','Areia e madeira natural no banheiro; marfim claro no aéreo do escritório.',FINISHES+'Escolha_aprovada_R02.md')
+doc('marfim-codigo','Marfim do escritório: amostra comercial','Acabamentos','escritorio','Candidato','Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.',FINISHES+'Pesquisa_Marfim_comercial_2026-10-24.md')
 doc('instalacoes','Instalações: compatibilização executiva','Instalações','all','Pendente','Conferir em campo os pontos elétricos, hidráulicos, gás e ventilação; plantas executivas compatibilizadas ainda não reunidas.',None)
 doc('levantamento','Levantamento para fabricação','Executivo','all','Pendente','Cotas acabadas, diagonais, prumo, esquadro, níveis, revestimentos e substratos de fixação precisam de levantamento.',None)
 doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido','Diretriz vigente por face: interiores Branco TX e padrões escolhidos nas faces aparentes.','01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md')
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','05_Entregas/Planta_cotada_R13/index.html')
 
 ASSETS = [
+    R49+'Verificacao_R49.json', R49+'Diferencas_CAD.json',
+    LIGHT+'Composicao_CB01.json', LIGHT+'Composicao_CB02.json',
+    '01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd',
     BATH+'Luminarias_selecao_L02.json', BATH+'Verificacao_luminarias_L02.json',
     BATH+'Luminarias_selecao_L01.html',
     BATH+'Luminarias_selecao_L01.json',
@@ -91,6 +109,9 @@ ASSETS = [
     '01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/Grelhas_manutencao.png',
     '01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/Grelhas_manutencao.svg',
 ]
+ASSETS += [LIGHT_IMAGES+name for name in ['01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
+ASSETS += [FABRICS+name for name in ['01_Cortinas_C1_C2_C3.png','02_Estofados_E1_E2_E3.png']]
+ASSETS += [FINISHES+name for name in ['04_R02_Banheiro_frentes.png','05_R02_Offwhite.png','06_R02_Madeiras.png']]
 
 HARDWARE = {
  'P01':['Quatro varões Ø20 nominais; oito terminais. Ø25 é alternativa, não substituição.','Trilhos e gavetas: conferir estudo de mecanismos.'],

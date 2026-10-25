@@ -1,17 +1,18 @@
 {
   "revision": "R16",
-  "cadRevision": "R46 (R45 + P08 + fichas R14) 2026-10-24",
+  "cadRevision": "R49 (R48 + gavetas do escritório corrigidas) 2026-10-24",
   "appearanceRevision": "R16",
   "fabricationRevision": "R14",
-  "cadPath": "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd",
-  "cadSHA256": "2ebcc014478c9d09569e278296a6809bf207edb5e280ac45d226aa642ec3443d",
+  "lightingRevision": "CB02",
+  "cadPath": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd",
+  "cadSHA256": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
   "legacyAliases": [
     "05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip"
   ],
   "files": [
     "COMECE_AQUI.html",
     "manifest.json",
-    "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd",
+    "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Plano_de_cores.json",
     "01_Projeto/Cores_FreeCAD_R16_2026-10-23/Verificacao_cores.json",
@@ -133,7 +134,18 @@
     "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Verificacao_unioes_P19.json",
     "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/P19_Unioes_nominais.csv",
     "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Consultas_tecnicas.txt",
-    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd"
+    "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+    "01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md",
+    "01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md",
+    "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Verificacao_R49.json",
+    "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Diferencas_CAD.json",
+    "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md",
+    "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Composicao_CB02.json",
+    "03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md",
+    "03_Referencias/Iluminacao_CB02_2026-10-24/01_Quarto_economico.png",
+    "03_Referencias/Iluminacao_CB02_2026-10-24/02_Cozinha_lavanderia.png",
+    "03_Referencias/Iluminacao_CB02_2026-10-24/03_Sala_escritorio.png",
+    "03_Referencias/Iluminacao_CB02_2026-10-24/04_Banheiro_L02.png"
   ],
-  "scope": "R46: R45 geometry with R16 appearance and P08 casters (six 38 mm plus six 1 mm spacers, 39 mm total); R14 fabrication data stored as properties and 52 Minifix markers, no panel drilled. Other geometry and placements preserved. Current R14 fabrication and floorplan artifacts. Legacy R14 ZIP URL serves this same R16 package."
+  "scope": "Current FreeCAD R49: 7 mm top clearance and mirrored right locks in office drawers; R48 recirculating hood without duct channel retained. R16 appearance, R14 fabrication data and P08 casters retained. Lighting CB02 and illustrative images included. Legacy R14 ZIP URL serves this same updated R16 package."
 }

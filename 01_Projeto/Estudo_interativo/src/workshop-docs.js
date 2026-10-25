@@ -18,8 +18,8 @@ const WORKSHOP_DOCS = [
     "rooms": [
       "all"
     ],
-    "status": "R16",
-    "summary": "Modelo 3D editável, fichas dos móveis, planta com medidas e instruções em um arquivo ZIP.",
+    "status": "CAD R49 · 24/10",
+    "summary": "Modelo FreeCAD R49, fichas dos móveis, planta, imagens das luminárias e instruções em um arquivo ZIP.",
     "path": "05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip"
   },
   {
@@ -270,14 +270,36 @@ const WORKSHOP_DOCS = [
   },
   {
     "id": "cad",
-    "title": "Baixar modelo 3D editável",
+    "title": "Baixar modelo 3D editável · R49",
     "category": "FreeCAD",
     "rooms": [
       "all"
     ],
-    "status": "R46 · 24/10",
-    "summary": "Arquivo para abrir no FreeCAD. Confira as fichas antes de fabricar.",
-    "path": "01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd"
+    "status": "R49 · 24/10",
+    "summary": "Modelo atual com as gavetas do escritório corrigidas. Confira as fichas antes de fabricar.",
+    "path": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd"
+  },
+  {
+    "id": "cad-r49",
+    "title": "O que mudou na R49",
+    "category": "FreeCAD",
+    "rooms": [
+      "escritorio"
+    ],
+    "status": "R49 · 24/10",
+    "summary": "Correções das gavetas do escritório e conferências P01, P02, P04 e P18.",
+    "path": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md"
+  },
+  {
+    "id": "cad-r48",
+    "title": "Depurador sem canal de duto",
+    "category": "FreeCAD",
+    "rooms": [
+      "cozinha"
+    ],
+    "status": "R48 · mantida na R49",
+    "summary": "Canal removido do armário superior D e divisor levado até o fundo.",
+    "path": "01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md"
   },
   {
     "id": "cad-cores",
@@ -352,9 +374,91 @@ const WORKSHOP_DOCS = [
     "rooms": [
       "quarto"
     ],
-    "status": "Em desenvolvimento",
+    "status": "Três níveis escolhidos",
     "summary": "Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.",
     "path": "01_Projeto/Portas_e_quarto/Iluminacao_R00.md"
+  },
+  {
+    "id": "luz-economica",
+    "title": "Quarto: revisão econômica",
+    "category": "Iluminação",
+    "rooms": [
+      "quarto"
+    ],
+    "status": "CB02 · 24/10",
+    "summary": "Liny retirado por preço. Três níveis pelo interruptor escolhidos. Conjunto de referência R$109,88, sem frete e instalação.",
+    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md"
+  },
+  {
+    "id": "luz-imagens",
+    "title": "Luminárias nos ambientes: imagens",
+    "category": "Iluminação",
+    "rooms": [
+      "all"
+    ],
+    "status": "Simulações CB02",
+    "summary": "Quarto econômico, cozinha, lavanderia, sala, escritório e banheiro. Luz e escala aproximadas.",
+    "path": "03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md"
+  },
+  {
+    "id": "luz-selecao",
+    "title": "Iluminação: composição e pendências",
+    "category": "Iluminação",
+    "rooms": [
+      "all"
+    ],
+    "status": "CB01 · histórico",
+    "summary": "Seleção por ambiente. A CB02 substitui o plafon caro do quarto.",
+    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Selecao_CB01.md"
+  },
+  {
+    "id": "tecidos-escolhas",
+    "title": "Cortinas e estofados escolhidos",
+    "category": "Acabamentos",
+    "rooms": [
+      "sala",
+      "quarto",
+      "escritorio"
+    ],
+    "status": "Areia · 24/10",
+    "summary": "Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório.",
+    "path": "03_Referencias/Cortinas_estofados_2026-10-24/LEIA-ME.md"
+  },
+  {
+    "id": "tecidos-codigos",
+    "title": "Tecidos: códigos para amostra",
+    "category": "Acabamentos",
+    "rooms": [
+      "sala",
+      "quarto",
+      "escritorio"
+    ],
+    "status": "Candidatos comerciais",
+    "summary": "Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar.",
+    "path": "03_Referencias/Cortinas_estofados_2026-10-24/Codigos_comerciais_2026-10-24.md"
+  },
+  {
+    "id": "cores-escolhidas",
+    "title": "Tons escolhidos para a marcenaria",
+    "category": "Acabamentos",
+    "rooms": [
+      "banho",
+      "escritorio"
+    ],
+    "status": "Escolha para o projeto",
+    "summary": "Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório.",
+    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Escolha_aprovada_R02.md"
+  },
+  {
+    "id": "marfim-codigo",
+    "title": "Marfim do escritório: amostra comercial",
+    "category": "Acabamentos",
+    "rooms": [
+      "escritorio"
+    ],
+    "status": "Candidato",
+    "summary": "Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.",
+    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Pesquisa_Marfim_comercial_2026-10-24.md"
   },
   {
     "id": "instalacoes",

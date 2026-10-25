@@ -28,7 +28,7 @@ for source, destination, image_path in [
 shutil.copyfile(root / '03_Referencias/Moodboard_visual_atualizado_R01.png', site / 'moodboard.png')
 subprocess.run(['node',str(study/'build_web.mjs')],check=True)
 (site / '.nojekyll').write_text('', encoding='utf-8')
-(site / 'versao.json').write_text(json.dumps({'revisao':'R21-textos-claros','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
+(site / 'versao.json').write_text(json.dumps({'revisao':'R49-iluminacao-CB02','cad':'R49','fichas':'R14','cores':'R16','iluminacao':'CB02','commit':os.environ.get('GITHUB_SHA','local')}, indent=2)+'\n', encoding='utf-8')
 
 
 expected = {'index.html', 'moodboard/index.html', 'moodboard.png', '.nojekyll', 'versao.json'}

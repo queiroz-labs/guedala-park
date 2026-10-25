@@ -1,3 +1,5 @@
+> **Atualização CB02 — 24/10/2026:** Elias rejeitou o preço do Liny e escolheu três níveis de brilho pelo interruptor no quarto. O Liny abaixo saiu da proposta. [Revisão econômica e imagens](Revisao_quarto_CB02.md). Demais componentes preservados; CB01 é histórico comparativo.
+
 # Iluminação — proposta de custo-benefício CB01
 
 24/10/2026. Pesquisa solicitada por Elias. **Proposta de seleção para decisão; modelos novos ainda não aprovados pelo usuário.** Preserva as funções já escolhidas. Não altera CAD, site publicado, orçamento global ou autoriza compra/instalação.
