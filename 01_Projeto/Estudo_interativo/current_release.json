@@ -21,10 +21,10 @@
   "fabricationRevision": "R14",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "publication_authorized",
-  "lastPublishedCadRevision": "R49",
-  "lastPublishedCadPath": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd",
-  "lastPublishedPackageRevision": "R16",
+  "publicationStatus": "published",
+  "lastPublishedCadRevision": "R52",
+  "lastPublishedCadPath": "01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd",
+  "lastPublishedPackageRevision": "R18",
   "notes": "R52 verificada, com geometria de referência e fabricação condicionada. O R18 reúne fichas atuais e estudos separados de corte, ligações, instalação e cinemática; as propostas não foram incorporadas automaticamente ao modelo. Piano e trava permanecem a direção P20, com composição e fixação ainda a detalhar. Nenhuma capacidade ou medida de campo foi presumida.",
   "technicalDocuments": [
     {
