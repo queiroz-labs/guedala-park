@@ -42,3 +42,8 @@ node_modules/
 # Paginas Blum configuradas (documentos personalizados, so local)
 /04_Moveis/P16/Interface_guia_fundo/Blum_G2_pagina_*.png
 *.log
+
+# Pacote selado e gerado localmente/no CI
+/06_Entregas/Publicacao/manifest.json
+/06_Entregas/Publicacao/LEIA-ME.md
+/06_Entregas/Publicacao/Verificacao_pacote.json
