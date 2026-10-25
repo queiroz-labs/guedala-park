@@ -1,6 +1,6 @@
 # R31 — apartamento consolidado em 20/10/2026
 
-Abrir o modelo editável · [Visão geral](Apartamento_R31.png) · [Voltar ao guia](../../../Como_abrir.md) · [Site atualizado](https://queiroz-labs.github.io/guedala-park/)
+Abrir o modelo editável · [Visão geral](Apartamento_R31.png) · [Voltar ao guia](../../../README.md) · [Site atualizado](https://queiroz-labs.github.io/guedala-park/)
 
 A R31 reúne no apartamento completo os estudos e decisões que ainda estavam separados da R30. As peças continuam editáveis, com os controles nativos preservados. A R30 e os arquivos de origem foram mantidos sem alteração.
 

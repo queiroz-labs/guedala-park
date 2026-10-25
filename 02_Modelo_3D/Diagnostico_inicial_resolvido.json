@@ -1,6 +1,0 @@
-{
-  "resolved": true,
-  "stage": "Initial snapshot before any model edit",
-  "error": "Traceback (most recent call last):\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/02_Modelo_3D/criar_r52.py\", line 150, in <module>\n    try:run()\n        ^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/02_Modelo_3D/criar_r52.py\", line 64, in run\n    d=App.openDocument(str(TARGET));before=snapshot(d)\n                                           ^^^^^^^^^^^\n  File \"C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/02_Modelo_3D/criar_r52.py\", line 27, in snapshot\n    r['global']=list(o.getGlobalPlacement().toMatrix().A)\n                     ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'App.DocumentObject' object has no attribute 'getGlobalPlacement'\n",
-  "resolution": "Non-geometric document objects with Placement now use their local matrix when getGlobalPlacement is unavailable; final R52 created and reopened successfully."
-}

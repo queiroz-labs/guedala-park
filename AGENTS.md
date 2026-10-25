@@ -2,6 +2,14 @@
 
 Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Seguir sempre, sem precisar pedir.
 
+## 0. Como ler este projeto gastando poucos tokens
+
+- Leia, nesta ordem e só até achar a resposta: [ESTADO_ATUAL.md](ESTADO_ATUAL.md) (~10 KB) → o `README.md` da pasta do assunto → o arquivo específico que ele indicar.
+- **Nunca leia inteiros:** `01_Programa_e_decisoes/Registro_de_decisoes.md` (~475 KB; use busca por palavra ou data), arquivos `.json` grandes e `.html` gerados. Use `rg`/`jq` ou um script de `ferramentas/`.
+- O arquivo `.ignore` na raiz faz o Grep/ripgrep pular fontes brutas, gerados e dados enormes. Para procurar neles de propósito, passe o caminho exato ou use `--no-ignore`.
+- Mapa das pastas: seção 9. Cada pasta de topo e cada ambiente tem um README que diz o que há nela.
+- Antes de mexer no modelo FreeCAD, leia [02_Modelo_3D/README.md](02_Modelo_3D/README.md) e rode as verificações (seção 10).
+
 ## 1. Comece pela fonte de verdade
 
 - Leia primeiro [ESTADO_ATUAL.md](ESTADO_ATUAL.md). Ele diz qual versão vale de cada coisa.
@@ -72,3 +80,18 @@ Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Se
 | `ferramentas/` | Gerador do site, cinemática, verificadores |
 
 Pasta nova de topo só com motivo forte; prefira encaixar numa dessas.
+
+## 10. Verificações obrigatórias
+
+| Quando | Comando (na raiz) | Falha significa |
+|---|---|---|
+| Antes de todo commit (o hook roda sozinho) | `python ferramentas/verificar_tudo.py` | Estrutura, modelo (arquivo, cores, SHA), links ou consistência quebrados |
+| Depois de **qualquer** trabalho que abriu ou alterou o modelo FreeCAD | `python ferramentas/verificar_modelo/verificar_modelo.py --completo` | Objeto removido, forma inválida, expressão perdida ou **colisão nova** em relação à base |
+| Depois de mudar `ferramentas/site/src` | `python -B ferramentas/site/construir.py` e os testes de `ferramentas/site` | Site ou pacote fora de sincronia |
+
+Regras do modelo FreeCAD:
+- Só mude o modelo vigente com pedido explícito de Elias. Salve pela interface gráfica: o `FreeCADCmd` perde o `GuiDocument.xml`, onde ficam as cores (o verificador rápido detecta isso).
+- Nunca deixe `.FCBak`, `.FCStd1` ou cópias do modelo na pasta do projeto: o verificador reprova.
+- Mudança de modelo aprovada por Elias: rode `--completo --atualizar-base`, atualize `cadPath` e `cadSHA256` em `ferramentas/site/current_release.json` e o `ESTADO_ATUAL.md` no mesmo commit. Sem essa aprovação, **não atualize a base para fazer o erro sumir**.
+- Se o verificador acusar erro que você não causou, pare e avise Elias, em vez de ajustar a base.
+- `git commit --no-verify` só com autorização de Elias. Em clone novo, ative o hook: `git config core.hooksPath ferramentas/hooks`.

@@ -1,6 +1,6 @@
 # Revisões anteriores e estudos técnicos
 
-[Voltar ao guia FreeCAD](../../Como_abrir.md)
+[Voltar ao guia FreeCAD](../../README.md)
 
 - [Aderencia_programa_R24_2026-10-14](Aderencia_programa_R24_2026-10-14/README.md)
 - [Apartamento_espelhado_R19_2026-10-14](Apartamento_espelhado_R19_2026-10-14)

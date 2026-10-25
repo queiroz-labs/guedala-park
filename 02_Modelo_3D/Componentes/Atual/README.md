@@ -74,7 +74,7 @@ As medidas da caixa não devem ser usadas como dimensões do conjunto: tampo, ro
 
 Arquivo reaberto pelo núcleo FreeCAD com 6.193 objetos, sem estados de erro. Dados gráficos da R31 preservados byte a byte após o salvamento sem interface. A abertura visual nesta sessão não foi confirmada; não repetir abertura durante uma carga em andamento. Site R11 e PDFs anteriores não foram atualizados nesta auditoria.
 
-[Voltar ao guia FreeCAD](../../Como_abrir.md)
+[Voltar ao guia FreeCAD](../../README.md)
 
 A revisão R31 consolida as decisões e estudos até 20/10/2026. A preferência de voltar ao baú convencional está apenas anotada; não foi aplicada ao desenho do banco.
 

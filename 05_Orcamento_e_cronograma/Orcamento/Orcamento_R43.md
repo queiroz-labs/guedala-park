@@ -164,7 +164,7 @@ A planilha possui quantidades e preços editáveis, totais calculados e fontes p
 Totais reconciliados com soma independente; fórmulas recalculadas; alteração temporária de R$100 no primeiro módulo elevou o total em R$110 com reserva e foi restaurada. Não são cotações de execução nem validação física do apartamento.
 
 
-[Planilha editável](../../../outputs/orcamento-r43-2026-10-22/Orcamento_apartamento_R43.xlsx).
+[Planilha editável](./Orcamento_apartamento_R43.xlsx).
 
 ## Registro da sessão
 

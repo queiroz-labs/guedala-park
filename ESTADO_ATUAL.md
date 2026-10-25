@@ -14,7 +14,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | FreeCAD R52 | [Modelo](02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [o que contém e conferências](02_Modelo_3D/README.md) · [como abrir](02_Modelo_3D/Como_abrir.md) |
+| Modelo 3D | FreeCAD R52 | [Modelo](02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [o que contém, como abrir e salvar com segurança](02_Modelo_3D/README.md) |
 | Fichas dos 20 móveis | R14 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Cargas, ligações e cálculos por móvel | Estudos separados, não incorporados ao modelo | [Índice dos móveis](04_Moveis/README.md) · [matriz dos 20 móveis](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) |
 | Programa | R01 | [Programa de necessidades](01_Programa_e_decisoes/Programa_de_necessidades.md) |
@@ -80,9 +80,9 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- Regras de organização: [AGENTS.md](AGENTS.md).
-- Leia esta página e depois só o README da área. Para dados pontuais, use os JSON de resultados ao lado de cada README.
-- Para portas e movimentos, reutilize a [cinemática fora do CAD](04_Moveis/Proximas_decisoes/Cinematica/README.md) (`ferramentas/cinematica/consultar.py`); não anime o apartamento inteiro para cada conta.
+- Regras de organização e leitura econômica: [AGENTS.md](AGENTS.md). Mapa das pastas: [README.md](README.md).
+- Leia esta página, depois só o README da área. Dados pontuais: JSON ao lado de cada README. **Não leia inteiro** o Registro de decisões (475 KB): busque por palavra.
+- Portas e movimentos: [cinemática fora do CAD](04_Moveis/Proximas_decisoes/Cinematica/README.md) (`ferramentas/cinematica/consultar.py`); não anime o apartamento inteiro para cada conta.
 - Não rode macros antigas que salvam ou fecham documentos. Não sobrescreva o modelo vigente para consultar.
-- Consistência entre documentos: `python ferramentas/verificar_consistencia.py` ([último resultado](ferramentas/Verificacao_consistencia.md)).
-- Versões antigas (R45 a R51, compatibilizações, arquivo morto) saíram da pasta e estão no git, na tag `antes-reorganizacao`.
+- **Verificadores** ([ferramentas/README.md](ferramentas/README.md)): `python ferramentas/verificar_tudo.py` (o hook de commit roda sozinho) e, depois de qualquer trabalho no FreeCAD, `python ferramentas/verificar_modelo/verificar_modelo.py --completo`, que acusa objetos removidos, formas inválidas, expressões perdidas e colisões novas.
+- Versões antigas (R45 a R51, compatibilizações, arquivo morto) estão no git, na tag `antes-reorganizacao`.

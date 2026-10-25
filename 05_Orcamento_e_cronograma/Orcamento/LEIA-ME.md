@@ -12,6 +12,6 @@
 
 # Orçamento R43 — 22/10/2026
 
-[Relatório completo](Orcamento_R43.md) · [Planilha editável](../../../outputs/orcamento-r43-2026-10-22/Orcamento_apartamento_R43.xlsx)
+[Relatório completo](Orcamento_R43.md) · [Planilha editável](./Orcamento_apartamento_R43.xlsx)
 
 Total preliminar com reserva: **R$ 157.219,83**. Valores pesquisados e estimados estão identificados por item. Não é cotação fechada nem autorização de compra.

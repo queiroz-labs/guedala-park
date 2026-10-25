@@ -67,7 +67,7 @@ A pintura deve conservar a cor e o fosco aprovados, com adequação às zonas de
 
 **Meta de aproximadamente R$17 mil alcançada na estimativa nominal**, mantendo os acabamentos. A folga de R$1,87 é praticamente nula: confirmar preço entregue, forma de pagamento, embalagem, lote, mão de obra e preparos antes de comprometer o teto. Não usar a reserva geral de R$10 mil para esconder diferenças de escopo.
 
-O orçamento geral histórico segue preservado. A [planilha específica atualizada](../../../../outputs/orcamento-r43-2026-10-22/Pisos_R43_revisao.xlsx) separa quantidades de compra e área de serviço, mantém o valor anterior para comparação e explicita a provisão de R$440. A planilha de R$18.074,92 foi preservada como cópia anterior.
+O orçamento geral histórico segue preservado. A [planilha específica atualizada](../Pisos_R43_revisao.xlsx) separa quantidades de compra e área de serviço, mantém o valor anterior para comparação e explicita a provisão de R$440. A planilha de R$18.074,92 foi preservada como cópia anterior.
 
 ## Reconexão do FreeCAD
 

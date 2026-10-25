@@ -1,0 +1,23 @@
+# Arquivos que buscas de IA (ripgrep/Grep) ignoram por padrao: brutos, gerados ou enormes.
+# Para procurar neles de proposito: rg --no-ignore ... ou passar o caminho exato.
+
+# Paginas e catalogos baixados (fontes brutas de pesquisa)
+**/Fontes/
+**/fontes/
+**/*_texto.md
+08_Contratos_e_atraso/Pesquisa/
+
+# Gerados pelo site (editar em ferramentas/site/src)
+ferramentas/site/Guedala_Park_Interativo.html
+ferramentas/site/src/cad-data.js
+09_Referencias/Moodboard_atualizado_R01.html
+06_Entregas/Fichas_fabricacao/*.html
+07_Imovel/Complemento/*.html
+07_Imovel/Relatorio_da_visita_R01.html
+
+# Dados numericos grandes: consultar com script/jq, nao ler inteiro
+02_Modelo_3D/Base_verificacao.json
+02_Modelo_3D/Componentes/
+04_Moveis/**/Resultados*.json
+04_Moveis/P16/Gavetas_estabilidade/Estabilidade.json
+04_Moveis/Inventario_dimensional/Inventario/*.json

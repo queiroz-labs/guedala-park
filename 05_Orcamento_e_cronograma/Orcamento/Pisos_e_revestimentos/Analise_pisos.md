@@ -6,7 +6,7 @@
 
 **Recomendação: trabalhar com R$18.074,92 nesta revisão, ante R$20.542,24.** A redução indicativa é **R$2.467,32 (12,0%)**. Para atingir a verba-meta de R$17.000 ainda faltam **R$1.074,92**. Não existe proposta completa contratada: materiais combinam anúncios e provisões, serviços continuam estimados e fretes estão no grupo G02 do orçamento geral.
 
-[Planilha editável](../../../../outputs/orcamento-r43-2026-10-22/Pisos_R43_revisao.xlsx) · [Detalhamento dos valores](Revisao_pisos.json) · [Conferência das áreas nominais](Conferencia_areas.json).
+[Planilha editável](../Pisos_R43_revisao.xlsx) · [Detalhamento dos valores](Revisao_pisos.json) · [Conferência das áreas nominais](Conferencia_areas.json).
 
 ## O que gera a redução
 

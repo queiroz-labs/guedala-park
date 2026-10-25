@@ -1,0 +1,10 @@
+#!/bin/sh
+# Bloqueia o commit se as verificacoes rapidas do projeto reprovarem.
+# Ativar em clone novo: git config core.hooksPath ferramentas/hooks
+# Ignorar uma vez (so com autorizacao de Elias): git commit --no-verify
+cd "$(git rev-parse --show-toplevel)" || exit 1
+python -B ferramentas/verificar_tudo.py || {
+  echo
+  echo "Commit bloqueado pelas verificacoes acima."
+  exit 1
+}
