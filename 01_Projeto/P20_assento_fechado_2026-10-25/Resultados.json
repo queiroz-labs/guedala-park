@@ -1,0 +1,620 @@
+{
+  "cad": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "cases": [
+    {
+      "lid": "BancoR43_Painel1",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          198
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 7.830143999999998,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.4092966666348601,
+      "max_at_mm": [
+        224.0,
+        190.15416666666667
+      ],
+      "min_deflection_mm": -0.19025290403623865,
+      "plus_body_reserve_mm": 0.60929666663486,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 15,
+      "iterations": 114,
+      "min_compression_reaction_N": 0.6909840049204453,
+      "reactions_by_part_N": {
+        "Peca407": 227.5592998404059,
+        "Peca408": 145.01890788295182,
+        "PecaBancoR16": 149.6350049076284,
+        "PecaBancoR003": 337.23180849545776,
+        "PecaBancoR005": 1.874460531156028
+      },
+      "max_equilibrium_residual": 5.820766091346741e-11,
+      "equilibrium_residual_N_Nmm": [
+        -1.1368683772161603e-13,
+        0.0,
+        -5.820766091346741e-11
+      ],
+      "max_constraint_error_mm": 2.1841720829042693e-15,
+      "max_line_penetration_mm": 0.0005444700297270419,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "maior_centro_setor_potes"
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          348,
+          198
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 7.830143999999998,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.2600145487465276,
+      "max_at_mm": [
+        280.0,
+        190.15416666666667
+      ],
+      "min_deflection_mm": -0.11473773346612001,
+      "plus_body_reserve_mm": 0.4600145487465276,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 24,
+      "iterations": 107,
+      "min_compression_reaction_N": 0.4599532363198154,
+      "reactions_by_part_N": {
+        "Peca407": 145.71558483254705,
+        "Peca408": 41.97798054429303,
+        "PecaBancoR16": 435.86021400661764,
+        "PecaBancoR003": 231.48904041806475,
+        "PecaBancoR005": 6.276661856077299
+      },
+      "max_equilibrium_residual": 5.820766091346741e-11,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        -5.820766091346741e-11,
+        0.0
+      ],
+      "max_constraint_error_mm": 7.971141813430929e-15,
+      "max_line_penetration_mm": 0.0014158909637078908,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "maior_frente_setor_potes"
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          198
+        ],
+        [
+          80,
+          224,
+          572
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 7.830143999999998,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.31893502718085764,
+      "max_at_mm": [
+        224.0,
+        178.01666666666668
+      ],
+      "min_deflection_mm": -0.3705530610998077,
+      "plus_body_reserve_mm": 0.5189350271808577,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 17,
+      "iterations": 120,
+      "min_compression_reaction_N": 22.780717416767676,
+      "reactions_by_part_N": {
+        "Peca407": 208.97272132999638,
+        "Peca408": 179.17445287212442,
+        "PecaBancoR16": 186.4303572332836,
+        "PecaBancoR003": 839.4377358822424,
+        "PecaBancoR004": 231.83621433995302
+      },
+      "max_equilibrium_residual": 0.0,
+      "equilibrium_residual_N_Nmm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_constraint_error_mm": 4.85042734324132e-15,
+      "max_line_penetration_mm": 0.00021361789591557855,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "maior_duas_pessoas_nominais"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.8143674435761258,
+      "max_at_mm": [
+        224.0,
+        412.5
+      ],
+      "min_deflection_mm": -0.2174675314109631,
+      "plus_body_reserve_mm": 1.0143674435761258,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 15,
+      "iterations": 76,
+      "min_compression_reaction_N": 1.1818462998383596,
+      "reactions_by_part_N": {
+        "Peca408": 374.9781972368594,
+        "PecaBancoR16": 380.5684225864166,
+        "PecaBancoR005": 46.175069977553804,
+        "Peca406AtualR31": 48.051991319170156
+      },
+      "max_equilibrium_residual": 2.9103830456733704e-11,
+      "equilibrium_residual_N_Nmm": [
+        -1.1368683772161603e-13,
+        -2.9103830456733704e-11,
+        0.0
+      ],
+      "max_constraint_error_mm": 2.0441306865363056e-15,
+      "max_line_penetration_mm": 0.0002884437670827108,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_centro"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          348,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.504786053886334,
+      "max_at_mm": [
+        257.59999999999997,
+        412.5
+      ],
+      "min_deflection_mm": -0.13444275853651974,
+      "plus_body_reserve_mm": 0.704786053886334,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 16,
+      "iterations": 71,
+      "min_compression_reaction_N": 0.08049317711387971,
+      "reactions_by_part_N": {
+        "Peca408": 162.84352556138555,
+        "PecaBancoR16": 621.6423670360765,
+        "PecaBancoR005": 32.0734275477939,
+        "Peca406AtualR31": 33.21436097474399
+      },
+      "max_equilibrium_residual": 1.1368683772161603e-13,
+      "equilibrium_residual_N_Nmm": [
+        -1.1368683772161603e-13,
+        0.0,
+        0.0
+      ],
+      "max_constraint_error_mm": 1.560268120586514e-15,
+      "max_line_penetration_mm": 0.0002313986307202298,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_frente"
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "degree": 18,
+      "E_equivalent_MPa": 2200,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          198
+        ],
+        [
+          80,
+          224,
+          572
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 7.830143999999998,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.7973375679521382,
+      "max_at_mm": [
+        224.0,
+        178.01666666666668
+      ],
+      "min_deflection_mm": -0.926382652749537,
+      "plus_body_reserve_mm": 0.9973375679521381,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 17,
+      "iterations": 122,
+      "min_compression_reaction_N": 22.78071741820325,
+      "reactions_by_part_N": {
+        "Peca407": 208.97272132999748,
+        "Peca408": 179.174452872119,
+        "PecaBancoR16": 186.43035723327785,
+        "PecaBancoR003": 839.43773588225,
+        "PecaBancoR004": 231.8362143399554
+      },
+      "max_equilibrium_residual": 5.820766091346741e-11,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        5.820766091346741e-11,
+        0.0
+      ],
+      "max_constraint_error_mm": 1.8730714469479092e-14,
+      "max_line_penetration_mm": 0.0005340447397825456,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "maior_duas_pessoas_nominais_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "degree": 18,
+      "E_equivalent_MPa": 2750,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          198
+        ],
+        [
+          80,
+          224,
+          572
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 7.830143999999998,
+      "credit_cleats": false,
+      "max_deflection_mm": 0.6378700543617158,
+      "max_at_mm": [
+        224.0,
+        178.01666666666668
+      ],
+      "min_deflection_mm": -0.7411061221996214,
+      "plus_body_reserve_mm": 0.8378700543617159,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 17,
+      "iterations": 124,
+      "min_compression_reaction_N": 22.780717410343385,
+      "reactions_by_part_N": {
+        "Peca407": 208.97272132999757,
+        "Peca408": 179.1744528721331,
+        "PecaBancoR16": 186.4303572332696,
+        "PecaBancoR003": 839.4377358822458,
+        "PecaBancoR004": 231.83621433995364
+      },
+      "max_equilibrium_residual": 2.2737367544323206e-13,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        0.0,
+        0.0
+      ],
+      "max_constraint_error_mm": 7.68275756864233e-15,
+      "max_line_penetration_mm": 0.00042723579182673226,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "maior_duas_pessoas_nominais_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 2200,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 2.0359186089403147,
+      "max_at_mm": [
+        224.0,
+        412.5
+      ],
+      "min_deflection_mm": -0.5436688285274185,
+      "plus_body_reserve_mm": 2.235918608940315,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 15,
+      "iterations": 82,
+      "min_compression_reaction_N": 1.181846299706601,
+      "reactions_by_part_N": {
+        "Peca408": 374.9781972368606,
+        "PecaBancoR16": 380.5684225864162,
+        "PecaBancoR005": 46.17506997755281,
+        "Peca406AtualR31": 48.05199131917017
+      },
+      "max_equilibrium_residual": 2.9103830456733704e-11,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        -2.9103830456733704e-11,
+        0.0
+      ],
+      "max_constraint_error_mm": 4.555120411601491e-15,
+      "max_line_penetration_mm": 0.0007211094177109851,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_centro_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 2750,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          224,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 1.6287348871522522,
+      "max_at_mm": [
+        224.0,
+        412.5
+      ],
+      "min_deflection_mm": -0.4349350628219204,
+      "plus_body_reserve_mm": 1.8287348871522522,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 15,
+      "iterations": 76,
+      "min_compression_reaction_N": 1.1818462999345825,
+      "reactions_by_part_N": {
+        "Peca408": 374.9781972368593,
+        "PecaBancoR16": 380.56842258641626,
+        "PecaBancoR005": 46.17506997755419,
+        "Peca406AtualR31": 48.051991319170284
+      },
+      "max_equilibrium_residual": 1.1368683772161603e-13,
+      "equilibrium_residual_N_Nmm": [
+        -1.1368683772161603e-13,
+        0.0,
+        0.0
+      ],
+      "max_constraint_error_mm": 3.7777286117509756e-15,
+      "max_line_penetration_mm": 0.0005768875341658395,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_centro_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 2200,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          348,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 1.2619651347158376,
+      "max_at_mm": [
+        257.59999999999997,
+        412.5
+      ],
+      "min_deflection_mm": -0.3361068963413301,
+      "plus_body_reserve_mm": 1.4619651347158376,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 16,
+      "iterations": 79,
+      "min_compression_reaction_N": 0.08049317710467818,
+      "reactions_by_part_N": {
+        "Peca408": 162.84352556138333,
+        "PecaBancoR16": 621.6423670360789,
+        "PecaBancoR005": 32.07342754779434,
+        "Peca406AtualR31": 33.21436097474327
+      },
+      "max_equilibrium_residual": 1.1641532182693481e-10,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        0.0,
+        -1.1641532182693481e-10
+      ],
+      "max_constraint_error_mm": 1.7055466120474968e-14,
+      "max_line_penetration_mm": 0.0005784965768008733,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_frente_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 2750,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          348,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": false,
+      "max_deflection_mm": 1.009572107772668,
+      "max_at_mm": [
+        257.59999999999997,
+        412.5
+      ],
+      "min_deflection_mm": -0.26888551707302977,
+      "plus_body_reserve_mm": 1.209572107772668,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 76,
+      "active_contact_points": 16,
+      "iterations": 71,
+      "min_compression_reaction_N": 0.08049317711077464,
+      "reactions_by_part_N": {
+        "Peca408": 162.84352556138492,
+        "PecaBancoR16": 621.6423670360763,
+        "PecaBancoR005": 32.073427547794424,
+        "Peca406AtualR31": 33.2143609747443
+      },
+      "max_equilibrium_residual": 2.2737367544323206e-13,
+      "equilibrium_residual_N_Nmm": [
+        -2.2737367544323206e-13,
+        0.0,
+        0.0
+      ],
+      "max_constraint_error_mm": 3.765855432500935e-15,
+      "max_line_penetration_mm": 0.00046279726144019304,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_frente_sensibilidade"
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "degree": 18,
+      "E_equivalent_MPa": 5500,
+      "core_min_mm": 17.1,
+      "patches_kg_xy_mm": [
+        [
+          80,
+          348,
+          412.5
+        ]
+      ],
+      "patch_size_mm": [
+        200,
+        200
+      ],
+      "self_mass_proxy_kg": 6.6528,
+      "credit_cleats": true,
+      "max_deflection_mm": 0.35810223896167936,
+      "max_at_mm": [
+        251.99999999999997,
+        412.5
+      ],
+      "min_deflection_mm": -0.10628946322788196,
+      "plus_body_reserve_mm": 0.5581022389616794,
+      "reference_project_mm": 2.0,
+      "initial_contact_points": 114,
+      "active_contact_points": 17,
+      "iterations": 122,
+      "min_compression_reaction_N": 0.4215696192528246,
+      "reactions_by_part_N": {
+        "PecaBancoR005": 25.071366410510635,
+        "Peca406AtualR31": 25.9630845990944,
+        "Ref_Sarrafo_frente0R31": 650.351101667323,
+        "Ref_Sarrafo_tras0R31": 148.3881284430719
+      },
+      "max_equilibrium_residual": 5.820766091346741e-11,
+      "equilibrium_residual_N_Nmm": [
+        0.0,
+        0.0,
+        5.820766091346741e-11
+      ],
+      "max_constraint_error_mm": 5.8183948012044425e-15,
+      "max_line_penetration_mm": 0.00012291084986497297,
+      "scope": "Modelo de chapa com apoios rigidos condicionais; sem fixacoes, estabilidade, ortotropia ou ensaio aprovados.",
+      "case": "menor_frente_com_sarrafos_condicionais"
+    }
+  ],
+  "checks": [
+    {
+      "case": "maior_centro_setor_potes",
+      "degree14vs18_relative_error": 0.00273435297039315,
+      "passed": true
+    },
+    {
+      "case": "maior_frente_setor_potes",
+      "degree14vs18_relative_error": 0.002143240513459932,
+      "passed": true
+    },
+    {
+      "case": "maior_duas_pessoas_nominais",
+      "degree14vs18_relative_error": 0.002949142842824548,
+      "passed": true
+    },
+    {
+      "case": "menor_centro",
+      "degree14vs18_relative_error": 0.00018363625717210397,
+      "passed": true
+    },
+    {
+      "case": "menor_frente",
+      "degree14vs18_relative_error": 4.477455748830295e-06,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_unchanged": true,
+  "note": "80kg e200x200mm sao hipoteses herdadas para triagem. Nao sao carga normativa nem capacidade liberada. E isotropico equivalente nao e automaticamente MOE longitudinal/transversal do compensado."
+}

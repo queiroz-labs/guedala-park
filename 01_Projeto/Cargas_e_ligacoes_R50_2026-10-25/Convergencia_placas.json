@@ -1,0 +1,90 @@
+[
+  {
+    "case": "P15",
+    "degree": 8,
+    "max_deflection_mm": 3.446778150658535,
+    "equilibrium_error": {
+      "force_N": 5.684341886080802e-14,
+      "moment_x_Nmm": 1.4551915228366852e-11,
+      "moment_y_Nmm": 1.4551915228366852e-11
+    },
+    "constraint_error_mm": 4.8860007299836824e-15
+  },
+  {
+    "case": "P15",
+    "degree": 10,
+    "max_deflection_mm": 3.446794723818405,
+    "equilibrium_error": {
+      "force_N": -8.526512829121202e-14,
+      "moment_x_Nmm": 1.4551915228366852e-11,
+      "moment_y_Nmm": -7.275957614183426e-12
+    },
+    "constraint_error_mm": 2.907495357066952e-14
+  },
+  {
+    "case": "P15",
+    "degree": 12,
+    "max_deflection_mm": 3.4467932761044824,
+    "equilibrium_error": {
+      "force_N": 0.0,
+      "moment_x_Nmm": -2.9103830456733704e-11,
+      "moment_y_Nmm": -1.4551915228366852e-11
+    },
+    "constraint_error_mm": 1.7565050551640364e-14
+  },
+  {
+    "case": "P15",
+    "degree": 14,
+    "max_deflection_mm": 3.4467934758086285,
+    "equilibrium_error": {
+      "force_N": 0.0,
+      "moment_x_Nmm": 1.4551915228366852e-11,
+      "moment_y_Nmm": 2.9103830456733704e-11
+    },
+    "constraint_error_mm": 2.2824854583881073e-14
+  },
+  {
+    "case": "P04_878_5",
+    "degree": 8,
+    "max_deflection_mm": 1.0042049461253124,
+    "equilibrium_error": {
+      "force_N": 1.4210854715202004e-14,
+      "moment_x_Nmm": 0.0,
+      "moment_y_Nmm": -9.094947017729282e-13
+    },
+    "constraint_error_mm": 4.402813932553839e-15
+  },
+  {
+    "case": "P04_878_5",
+    "degree": 10,
+    "max_deflection_mm": 1.0042038540382607,
+    "equilibrium_error": {
+      "force_N": 0.0,
+      "moment_x_Nmm": -1.4551915228366852e-11,
+      "moment_y_Nmm": 0.0
+    },
+    "constraint_error_mm": 8.29405734006174e-15
+  },
+  {
+    "case": "P04_878_5",
+    "degree": 12,
+    "max_deflection_mm": 1.0042014751528061,
+    "equilibrium_error": {
+      "force_N": 1.4210854715202004e-14,
+      "moment_x_Nmm": -7.275957614183426e-12,
+      "moment_y_Nmm": -2.7284841053187847e-12
+    },
+    "constraint_error_mm": 7.338966493374641e-15
+  },
+  {
+    "case": "P04_878_5",
+    "degree": 14,
+    "max_deflection_mm": 1.0042017857899381,
+    "equilibrium_error": {
+      "force_N": 1.4210854715202004e-14,
+      "moment_x_Nmm": -2.9103830456733704e-11,
+      "moment_y_Nmm": -6.366462912410498e-12
+    },
+    "constraint_error_mm": 8.848332415125533e-15
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "stability_cases": 1296,
+  "independent_identity_and_monotonicity_checks": 972,
+  "continuous_moving_pairs": 18480,
+  "independent_drawer_pairs": 64,
+  "no_collision_swept_boxes": true,
+  "static_guide_shapes_excluded": 8,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "source_zip_crc": true,
+  "calculation_inputs_unchanged": true,
+  "physical_tests_performed": 0,
+  "manufacturing_or_capacity_released": false,
+  "passed": true
+}

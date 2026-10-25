@@ -1,0 +1,411 @@
+{
+  "cad": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "drawers": [
+    {
+      "name": "Gaveta008",
+      "wood": [
+        {
+          "name": "GavetaComumR072",
+          "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4324.0,
+            292.0,
+            517.0,
+            4339.0,
+            682.0,
+            597.0
+          ],
+          "volume_mm3": 438750.0,
+          "center_mm": [
+            4331.166666666667,
+            487.0,
+            558.3666666666667
+          ]
+        },
+        {
+          "name": "GavetaComumR073",
+          "label": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4661.0,
+            292.0,
+            517.0,
+            4676.0,
+            682.0,
+            597.0
+          ],
+          "volume_mm3": 438750.0,
+          "center_mm": [
+            4668.833333333333,
+            487.00000000000006,
+            558.3666666666667
+          ]
+        },
+        {
+          "name": "GavetaComumR074",
+          "label": "Fundo comum · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4334.0,
+            292.0,
+            529.0,
+            4666.0,
+            682.0,
+            544.0
+          ],
+          "volume_mm3": 1941634.5133223538,
+          "center_mm": [
+            4500.0,
+            487.0553360933872,
+            536.4989806509113
+          ]
+        },
+        {
+          "name": "GavetaComumR075",
+          "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4339.0,
+            292.0,
+            544.0,
+            4661.0,
+            307.00000000000006,
+            597.0
+          ],
+          "volume_mm3": 255990.0,
+          "center_mm": [
+            4500.0,
+            299.50000000000006,
+            570.5
+          ]
+        },
+        {
+          "name": "GavetaComumR076",
+          "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4339.0,
+            666.0,
+            544.0,
+            4661.0,
+            682.0,
+            597.0
+          ],
+          "volume_mm3": 272547.0619901184,
+          "center_mm": [
+            4500.0,
+            674.0,
+            570.5018673399235
+          ]
+        },
+        {
+          "name": "GavetaComumR077",
+          "label": "Frente preservada · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4301.0,
+            682.0,
+            481.0,
+            4699.0,
+            700.0,
+            599.0
+          ],
+          "volume_mm3": 845322.5475688726,
+          "center_mm": [
+            4500.0,
+            691.0002613123643,
+            539.9989721713673
+          ]
+        }
+      ],
+      "locks": [
+        {
+          "name": "GavetaComumR078",
+          "label": "Trava T51.7601 · 46166126 · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4339.0,
+            593.5030177655951,
+            510.34939024391116,
+            4420.313552210084,
+            682.0,
+            528.9250000000001
+          ],
+          "volume_mm3": 46084.50420972147,
+          "center_mm": [
+            4390.552390930746,
+            639.7118163042792,
+            522.5210392219184
+          ]
+        },
+        {
+          "name": "GavetaComumR079",
+          "label": "Trava T51.7601 · 43107713 · Gaveta escritório 1 - proposta R08",
+          "box_mm": [
+            4579.686447789916,
+            593.5030177655951,
+            510.34939024391116,
+            4661.0,
+            682.0,
+            528.9250000000001
+          ],
+          "volume_mm3": 46084.504209721454,
+          "center_mm": [
+            4609.447609069254,
+            639.7118163042792,
+            522.5210392219184
+          ]
+        }
+      ],
+      "full_stroke_mm": 400.0,
+      "translation_global_mm": [
+        -4.898587196589413e-14,
+        400.0,
+        0.0
+      ],
+      "properties": {
+        "AlturaParedeSobreFundo": "53.0 mm",
+        "AlturaUtilProposta": "60.39999999999998 mm",
+        "VaoVerticalEstimado": "60.39999999999998 mm",
+        "CursoNominal": "400.0 mm"
+      },
+      "physical_side_height_mm": 80.0,
+      "physical_back_above_bottom_height_mm": 53.0
+    },
+    {
+      "name": "Gaveta009",
+      "wood": [
+        {
+          "name": "GavetaComumR084",
+          "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4324.0,
+            292.0,
+            621.0,
+            4339.0,
+            682.0,
+            695.0
+          ],
+          "volume_mm3": 403650.0,
+          "center_mm": [
+            4331.13768115942,
+            487.0,
+            659.268115942029
+          ]
+        },
+        {
+          "name": "GavetaComumR085",
+          "label": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4661.0,
+            292.0,
+            621.0,
+            4676.0,
+            682.0,
+            695.0
+          ],
+          "volume_mm3": 403650.0,
+          "center_mm": [
+            4668.86231884058,
+            487.00000000000017,
+            659.268115942029
+          ]
+        },
+        {
+          "name": "GavetaComumR086",
+          "label": "Fundo comum · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4334.0,
+            292.0,
+            633.0,
+            4666.0,
+            682.0,
+            648.0
+          ],
+          "volume_mm3": 1941634.5133223538,
+          "center_mm": [
+            4500.0,
+            487.0553360933872,
+            640.4989806509113
+          ]
+        },
+        {
+          "name": "GavetaComumR087",
+          "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4339.0,
+            292.0,
+            648.0,
+            4661.0,
+            307.00000000000006,
+            695.0
+          ],
+          "volume_mm3": 227009.99999999994,
+          "center_mm": [
+            4500.0,
+            299.50000000000006,
+            671.5
+          ]
+        },
+        {
+          "name": "GavetaComumR088",
+          "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4339.0,
+            666.0,
+            648.0,
+            4661.0,
+            682.0,
+            695.0
+          ],
+          "volume_mm3": 241635.06199011844,
+          "center_mm": [
+            4500.0,
+            674.0,
+            671.4957875483326
+          ]
+        },
+        {
+          "name": "GavetaComumR089",
+          "label": "Frente preservada · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4301.0,
+            682.0,
+            601.0,
+            4699.0,
+            700.0,
+            719.0
+          ],
+          "volume_mm3": 845322.5475688726,
+          "center_mm": [
+            4500.0,
+            691.0002613123643,
+            659.9995296377443
+          ]
+        }
+      ],
+      "locks": [
+        {
+          "name": "GavetaComumR090",
+          "label": "Trava T51.7601 · 46166126 · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4339.0,
+            593.5030177655951,
+            614.3493902439112,
+            4420.313552210084,
+            682.0,
+            632.9250000000001
+          ],
+          "volume_mm3": 46084.50420972147,
+          "center_mm": [
+            4390.552390930746,
+            639.7118163042792,
+            626.5210392219184
+          ]
+        },
+        {
+          "name": "GavetaComumR091",
+          "label": "Trava T51.7601 · 43107713 · Gaveta escritório 2 - proposta R08",
+          "box_mm": [
+            4579.686447789916,
+            593.5030177655951,
+            614.3493902439112,
+            4661.0,
+            682.0,
+            632.9250000000001
+          ],
+          "volume_mm3": 46084.504209721454,
+          "center_mm": [
+            4609.447609069254,
+            639.7118163042792,
+            626.5210392219184
+          ]
+        }
+      ],
+      "full_stroke_mm": 400.0,
+      "translation_global_mm": [
+        -4.898587196589413e-14,
+        400.0,
+        0.0
+      ],
+      "properties": {
+        "AlturaParedeSobreFundo": "53.0 mm",
+        "AlturaUtilProposta": "54.0 mm",
+        "VaoVerticalEstimado": "54.0 mm",
+        "CursoNominal": "400.0 mm"
+      },
+      "physical_side_height_mm": 74.0,
+      "physical_back_above_bottom_height_mm": 47.0
+    }
+  ],
+  "fixed_original": [
+    {
+      "name": "Peca369",
+      "label": "Fundo011",
+      "box_mm": [
+        4318.0,
+        250.0,
+        498.0,
+        4682.0,
+        268.00000000000006,
+        702.0
+      ],
+      "volume_mm3": 1336608.0,
+      "center_mm": [
+        4500.0,
+        259.00000000000006,
+        600.0
+      ]
+    },
+    {
+      "name": "Peca370",
+      "label": "Base009",
+      "box_mm": [
+        4318.0,
+        267.99999999999994,
+        480.0,
+        4682.0,
+        680.0,
+        498.0
+      ],
+      "volume_mm3": 2699424.0,
+      "center_mm": [
+        4500.0,
+        474.0,
+        489.0
+      ]
+    },
+    {
+      "name": "Peca371",
+      "label": "Tampo007",
+      "box_mm": [
+        4318.0,
+        267.99999999999994,
+        702.0,
+        4682.0,
+        680.0,
+        720.0
+      ],
+      "volume_mm3": 2699424.0,
+      "center_mm": [
+        4500.0,
+        474.0,
+        711.0
+      ]
+    },
+    {
+      "name": "Peca110",
+      "label": "Bancada de trabalho",
+      "box_mm": [
+        2700.0,
+        0.0,
+        720.0,
+        4700.0,
+        700.0,
+        750.0
+      ],
+      "volume_mm3": 42000000.0,
+      "center_mm": [
+        3700.0,
+        350.00000000000006,
+        735.0
+      ]
+    }
+  ],
+  "scope": "Geometria nominal da R51. Guias STEP estaticas nao representam telescopio. Massas de ferragens/itens/equipamentos ainda nao pesadas."
+}

@@ -1,0 +1,15 @@
+{
+  "tag": "r49_corrigida_01",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Gavetas_escritorio_R49_2026-10-24\\Guedala_Park_R49_Gavetas_escritorio.FCStd",
+  "mode": "original",
+  "source_sha256": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "restore_s": 15.961655600000086,
+  "scene_s": 1.2999362000009569,
+  "total_s": 17.261591800001042,
+  "objects": 5893,
+  "touched": 0,
+  "source_sha256_after": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "profile_enabled": false,
+  "legacy_observer": false,
+  "method": "Reopen in same FreeCAD GUI, warmed file cache; interval includes document restore, axonometric camera, fitAll, updateGui and redraw. Excludes process startup and closing previous document."
+}

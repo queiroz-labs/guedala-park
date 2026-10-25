@@ -1,0 +1,117 @@
+{
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "target": {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Correcao_integral_R52_2026-10-25\\Guedala_Park_R52_Corrigido.FCStd",
+    "bytes": 19801403,
+    "empty_shapes": 199,
+    "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da"
+  },
+  "objects_before": 5833,
+  "objects_after": 5832,
+  "added": [
+    "AcessoCorrerBanheiroR52",
+    "ConsolidacaoR52",
+    "GavetasReaisCozinhaR52",
+    "GavetasReaisQuartoR52",
+    "HistoricoControlesR52"
+  ],
+  "expressions_before": 7702,
+  "expressions_after": 7702,
+  "changed_geometry_or_placement": [
+    "Peca131"
+  ],
+  "original_visual_properties_preserved": true,
+  "native_features": 1487,
+  "invalid_native": [],
+  "reopened": true,
+  "reopen_differences": [],
+  "active_document": "Guedala_Park_R52_Corrigido",
+  "hidden_roots": [
+    "Peca358",
+    "Alternativa500ManterBaseR41",
+    "Alternativa500ManterTopoR41",
+    "EstudoFrente500R41",
+    "Peca091",
+    "Peca092",
+    "Peca093",
+    "Peca094",
+    "Peca095",
+    "Peca096",
+    "Peca097",
+    "Peca098",
+    "CadeiraLinaR30_1",
+    "CadeiraLinaR30_2",
+    "CadeiraLinaR30_3"
+  ],
+  "hidden_render_instances": [
+    "AcessoControleR006",
+    "AcessoControleR007",
+    "AcessoControleR008",
+    "AcessoControleR009",
+    "AcessoControleR34"
+  ],
+  "visible_aliases_corrected": [
+    "AcessoControleR21",
+    "AcessoControleR001",
+    "AcessoControleR002",
+    "AcessoControleR003",
+    "AcessoControleR004",
+    "AcessoControleR005"
+  ],
+  "alias_target_visibilities_preserved": {
+    "Gaveta": true,
+    "Gaveta001": true,
+    "Gaveta002": true,
+    "Gaveta003": true,
+    "Gaveta004": true,
+    "Gaveta005": true,
+    "Gaveta006": true,
+    "Gaveta007": true,
+    "Gaveta008": true,
+    "Gaveta009": true,
+    "PortaEntradaBanheiroR12": true
+  },
+  "intermediate_R52_sha256": "b5493b1952265398c1ad9b82a3ee5ead8d3a6a4db7d4257f5ee780738c24e8a6",
+  "removed": [
+    "AcessoControleR21",
+    "AcessoControleR001",
+    "AcessoControleR002",
+    "AcessoControleR003",
+    "AcessoControleR004",
+    "AcessoControleR005"
+  ],
+  "removed_alias_targets_preserved": {
+    "AcessoControleR21": "Gaveta",
+    "AcessoControleR001": "Gaveta001",
+    "AcessoControleR002": "Gaveta002",
+    "AcessoControleR003": "Gaveta003",
+    "AcessoControleR004": "Gaveta004",
+    "AcessoControleR005": "Gaveta005"
+  },
+  "removed_alias_incoming_dependencies": {
+    "AcessoControleR21": [
+      "ControlesAmbienteR21"
+    ],
+    "AcessoControleR001": [
+      "ControlesAmbienteR21"
+    ],
+    "AcessoControleR002": [
+      "ControlesAmbienteR21"
+    ],
+    "AcessoControleR003": [
+      "ControlesAmbienteR21"
+    ],
+    "AcessoControleR004": [
+      "ControlesAmbienteR002"
+    ],
+    "AcessoControleR005": [
+      "ControlesAmbienteR002"
+    ]
+  },
+  "deletion_authorization": "Elias: as gavetas fora do apartamento pode remover de vez, acho q foi teste de algum modelo",
+  "deletion_reopened": true,
+  "deletion_geometry_and_expressions_preserved": true,
+  "pre_deletion_sha256": "01488a9d0b1dc048b2270cbdb37997c02d8d92ca6b59c8cc5c23c0cc021d6d6c"
+}

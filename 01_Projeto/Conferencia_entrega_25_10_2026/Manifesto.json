@@ -1,0 +1,1176 @@
+{
+  "created_UTC": "2026-10-25T10:01:41.759970+00:00",
+  "window_deadline_UTC": "2026-10-25T10:00:00+00:00",
+  "phase": "encerramento",
+  "files": [
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/Depurador_dados_e_pendencias.json",
+      "bytes": 1658,
+      "sha256": "11ec0d9736d6776d8f63f8f86df0c14fd003557bd89a7407ac123ee828ecc09d"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/Geometria_R51.json",
+      "bytes": 19369,
+      "sha256": "0af53ce3af293bea751fc3a16b7be84da85af93dc81988cb6899ca0d3602a897"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/Interface_depurador_42mm.png",
+      "bytes": 82781,
+      "sha256": "6247c9344629387abb2a00f736bf5913c023dec661d3402ad1baeadc504ed8b5"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/README.md",
+      "bytes": 8561,
+      "sha256": "158a75db15171faf871fc50a40e21534530c2e2adba41fd2fefa78bd7faf4a4d"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/Resultados.json",
+      "bytes": 981577,
+      "sha256": "b479fea92726626fc983df339a989262b8fbf07526821a40f00a5206ecd17863"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/Verificacao.json",
+      "bytes": 540,
+      "sha256": "4ab9d0c75fb8f4dad8e50f54b4034497f5f1a37328d9e0b2ffef2e85cdd9a675"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/calcular.py",
+      "bytes": 6987,
+      "sha256": "22edf02f5cfa9eab6b37e579a2ee9c5e280a6ac6e732a898a7c78d3e3e5b432c"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/desenhar_interface.py",
+      "bytes": 2513,
+      "sha256": "9612baa5613ca24407ed5c3174b683cb2000625dcdb31a4dd119d8108e12966c"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/extrair.py",
+      "bytes": 3878,
+      "sha256": "cd7ff5a9bb62eaec5a113311749f68acea4cb8bfe241c7dea6e16a1bc74e12a0"
+    },
+    {
+      "path": "Aereos_suspensao_P09_P11_P12_P17_2026-10-25/verificar.py",
+      "bytes": 2232,
+      "sha256": "ab6f9a7524bd94c521e9e3e7cf3654eda6c14a79445f41eb8afb8a2810614bb7"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Bancada_marcenaria_estudo.png",
+      "bytes": 20257,
+      "sha256": "6cc9fc8485cafb0f41512971435c611f3bf7a778dd8ee13cc9bf7e47e1be7386"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "bytes": 700210,
+      "sha256": "3b13fe5d050b01e8429aa8ce0ed76d0a7096265d595864c958d8fca14c906c98"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Conferencia_geometrica.json",
+      "bytes": 2056,
+      "sha256": "c7cde9f3e042570404422d12ee0ea14630e7fa76fdfdbed788ae3819713608b8"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Junta_travessa_nominal.csv",
+      "bytes": 1202,
+      "sha256": "ba6c85be78b3e360c08eca7a2013d0e53a5632769faa9ea5f312ed3e1a4cca78"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Manifesto_estudo.json",
+      "bytes": 2256,
+      "sha256": "3988a19bdba1cd6f9fd3795f6625de8a382608e164d1502b69b413274129bb4d"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/README.md",
+      "bytes": 9787,
+      "sha256": "1616f2c32fe2b0054aa8b7f74007519ed263625f689337cbfed3b9b141e9c7a9"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Resultados.json",
+      "bytes": 21192,
+      "sha256": "18010acfeaa1bb7f623710495f12916a395d3e25ca1d238b678011f2ea8035e9"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/Verificacao_calculo.json",
+      "bytes": 2744,
+      "sha256": "c95e1a1605b0879fe7944c4d49066541909c66cf4399f454d661df23119207e4"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/calcular.py",
+      "bytes": 10082,
+      "sha256": "c87d7e8668df7a2d1ab9468d728bcc7c3cd4340e307b57b52d673c146e869374"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/criar_estudo.py",
+      "bytes": 7112,
+      "sha256": "86027aa8534e0c453bf2022356368c36bbd3ce85761db960379ebc966feb9695"
+    },
+    {
+      "path": "Bancada_marcenaria_2026-10-25/refinar.py",
+      "bytes": 1382,
+      "sha256": "5e4eafc5af4fefd2c08132734e38ebd28bf818043e5be720479ed77dfbc210f4"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Andamento_20_moveis.csv",
+      "bytes": 9883,
+      "sha256": "6abe9d695e201d23b0a1ccff21a34b19912f049f463813e224f10e8943cc3180"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Andamento_20_moveis.md",
+      "bytes": 7891,
+      "sha256": "765dcf539f40c584026526f8a57d823dcec98f262255567cbacf8c4bbbf6e1d8"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Contatos_reconciliados.csv",
+      "bytes": 27970,
+      "sha256": "46b7a35af61a3f1736888c7f18156733a1f4a993648dc8927de899f61a52ccca"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Contatos_reconciliados.json",
+      "bytes": 88933,
+      "sha256": "f5a6c8ce1b855e52390705492b62baa02a87c81c995af20f6844c1e862023f67"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Convergencia_placas.json",
+      "bytes": 2472,
+      "sha256": "a6c97b1967474a94109c921cad1a83b458160d2f254210b100f0fe0e20e8a145"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Dados_para_fornecedor_e_oficina.md",
+      "bytes": 3434,
+      "sha256": "e9568f8e0a329e69347812ee515cce91a7a21aae662d34b608b7199a4bf29cdc"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Decisao_sem_tubos.md",
+      "bytes": 2409,
+      "sha256": "7bb3806d70e9ee108f7fa1b8d923c14e561a4be4b2fc2ac0277e98c0e612c505"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Geometria_R50.json",
+      "bytes": 1224176,
+      "sha256": "d32836796f035467e85e59e4d990796bd1c9d6ce4c67e9704ea73efaaeeecd37"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Historico_tubos_P15_cancelado.json",
+      "bytes": 9733,
+      "sha256": "79674bb8adc71ce2121577f34e1fb9e1851569829fddc8a2ab52cd8a2bc61402"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Interfaces_adicionais_BREP.json",
+      "bytes": 9788,
+      "sha256": "7c1b004e4b94672e3b0fdef2b1f940fa61f2aec8718f6f63842c063b11f87f3c"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Inventario_busca_tubos_R50.json",
+      "bytes": 7644,
+      "sha256": "e59825b5c187f522fec5fb9a854ce4c01bd556098e58e1eabce1f3c9743ddd8d"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Mapa_apoios_e_cargas.png",
+      "bytes": 94973,
+      "sha256": "528050fee15c4aa88e3e6064fd063c6e3e9d89bee15ee8b90fe6a64896a1c767"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Matriz_ligacoes_prioritarias.csv",
+      "bytes": 4026,
+      "sha256": "b4bf050a52d0e07fce391aa7a8827273e0baffbf2f68233c7dec52fa2deb4c68"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_colisoes_volume_acrescido.json",
+      "bytes": 468,
+      "sha256": "c7655c7d5aeac18ff83654ffe4e4887d21dcc4431899c2d868b9522ad321711d"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_estudo_apoios_723.FCStd",
+      "bytes": 32086,
+      "sha256": "2a81500e3aeac87f2790286b9aae7e3043d6e271abe23fbef2ff5166cf093fe9"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_estudo_apoios_723.png",
+      "bytes": 25555,
+      "sha256": "e56aff2ab75df1ff085a67919976cc58507428965105cabd168ad9b9ccb0102a"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_estudo_diferencas.json",
+      "bytes": 1939,
+      "sha256": "7857971d7f74199f5743405b7c361def1ddc31d15131aa340a3d2fa7b096d460"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_ligacoes_nominais_estudo_723.csv",
+      "bytes": 7180,
+      "sha256": "77cae43b03eb2d17bc94782d36d3e3f00e15463f959891949fd58fb7cef12817"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_prateleiras_apoios_reais.csv",
+      "bytes": 5254,
+      "sha256": "e003e62aae2868a8a2229cbeb2b37fbf2cb572b6584163b875d46d9ba1a57a46"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P01_varoes.csv",
+      "bytes": 5626,
+      "sha256": "11fdaf428d00c08a6d0fe7c4c7e03c2383c2aeb28812ee6e0efc4453d8c66005"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/P20_momento_e_esforcos.csv",
+      "bytes": 5632,
+      "sha256": "e9345d1d0801a81b6d55d62bf8daa90e8c591097350f5dd86b95bcc3796ebc47"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Progresso_extracao.json",
+      "bytes": 140,
+      "sha256": "1c333a40c74a675406d6825691bb2ac60a8d8add2ea86ccf37ded5e9cb168c0d"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/README.md",
+      "bytes": 23317,
+      "sha256": "fbb7ff303e2ed6dcab925335951661e848abb02f7445511fd23528e6326d0fdf"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Resultados.json",
+      "bytes": 114098,
+      "sha256": "85875dda6ea311e5f506b82a236ab7d384684eb95e807e129fcb43c2225d5d75"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Rotinas_SHA256.json",
+      "bytes": 623,
+      "sha256": "d59701758cf08bee6b633bcf37a2f21eb40d1267e29a86ae571ba74f7cf16095"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Triagem_chapas.csv",
+      "bytes": 12641,
+      "sha256": "1f7189b814969ef146c1842d7f18abf32f5fd5824448ebf743ec073315136113"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Verificacao_antes_decisao_sem_tubos.json",
+      "bytes": 1996,
+      "sha256": "b8dad4a058a7646e131d5502fa165b3d5e0fdd6480f1a21e22a15628550ffdfa"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/Verificacao_numerica.json",
+      "bytes": 1800,
+      "sha256": "c2b86978cc43b99d212db15af52f2454f5d77b3a6e2690b0d1804a2e2e7eb7f6"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/calcular.py",
+      "bytes": 20826,
+      "sha256": "2ee7f201d8b7d4fec061b3fdf48009afe57f1437552d3b0b3f2014334bfff903"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/conferir_interfaces_adicionais.py",
+      "bytes": 2357,
+      "sha256": "05ec7158087056f3da4a6e8b97628767cf7ee8c68c8d1c2970c071a7e7fd4d5a"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/desenhar_apoios.py",
+      "bytes": 2888,
+      "sha256": "e08ab1c7d1b84284742f67d2b0b01b1aa491ee28e6d6936ec83737cc60e8d934"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/estudo_p01.py",
+      "bytes": 3849,
+      "sha256": "5387d8a6f6eed95240976586661695e168c5590e6a5e526762d637b283c25a96"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/extrair_geometria.py",
+      "bytes": 7516,
+      "sha256": "8b088875e018b2515f7b3d5d7b01b15ab9b1026cf33ac9bbe5d7d5d81d7e5da0"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/organizar_entregas.py",
+      "bytes": 10626,
+      "sha256": "4742a94bc475162821d8cfeffb0e21816d496aad56cd6ced3f108cb6a72f2720"
+    },
+    {
+      "path": "Cargas_e_ligacoes_R50_2026-10-25/retirar_estudo_tubular.py",
+      "bytes": 3817,
+      "sha256": "dbf87b314285411fcadaa2823fbc564d8c4ff68776a0aa82dc97f1a92a36b436"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/README.md",
+      "bytes": 4612,
+      "sha256": "9a694fb0d0c914c91810497a00723de9328fdf00a6ab8e7a08ccc9a393f46891"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/Referencia_nativa_R12.json",
+      "bytes": 1492,
+      "sha256": "43e4585f8b4c3e3ef798528879b209bac17eacae658ba0b56ad3195973870e55"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/Snapshot_R51.json",
+      "bytes": 153500,
+      "sha256": "f7ec0c5c2640402b0e1a8e5ca5112d763f643671fd1ae3583ebed6ccfc774779"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/Verificacao.json",
+      "bytes": 1232,
+      "sha256": "2d98678221a0e756f09029d8af56bda49238ef07eca01fd2976e05748316e009"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/cinematica.py",
+      "bytes": 5293,
+      "sha256": "c16bf21009ca54a471fc3898f781dd75c73df50f355da8da88a4b6c3c2349f52"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/conferir_nativo_r12.py",
+      "bytes": 2856,
+      "sha256": "fbda1a1b2b068790ecf36073b18253b495031940e5b0b96d4c331a375f99d1ae"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/consultar.py",
+      "bytes": 1235,
+      "sha256": "75bf18d8821dcc29f1f6df94fe1b2abecaffc1991d5cb6b86c59615d1a8ce1c9"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/extrair.py",
+      "bytes": 3451,
+      "sha256": "b348ef83191f66edc0c9a89d96fe19a62af8f067be131875046ab28eb54ff4a0"
+    },
+    {
+      "path": "Cinematica_offline_2026-10-25/verificar.py",
+      "bytes": 3507,
+      "sha256": "b3803c9ea1f1f95da856196949e5e15fa42645a6f1293b18590c44758517158e"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/Automacao_configuracao_lida.json",
+      "bytes": 2604,
+      "sha256": "73834ea885780b382ba5a3544d632fb50eb92be0f7ca07827b9e4cbd9ea88f88"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/Automacao_pausa_confirmada.json",
+      "bytes": 2650,
+      "sha256": "eb166fb6352b19f07d7a298e74d9b94f3ed9bc2207593470afd3996e96052fea"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/Conferencia_sessao_R51.json",
+      "bytes": 452,
+      "sha256": "709b4a50aa76f7e8eb50c32a1cc67f9226c613edd358bc0696330e9d29273ca9"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/README.md",
+      "bytes": 3080,
+      "sha256": "8faf6f643ad55e695c6c22e4149161f3b4677f8012f77d0cff3e84786a05eb9f"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/criar_copia.py",
+      "bytes": 1830,
+      "sha256": "1edf3f1d2a938edb4c0655707c9604bdbec99b2d8a226f1c1ecd2769f4eb1140"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/montar_manifesto.py",
+      "bytes": 3044,
+      "sha256": "b53e8ff4015ecada878be6e817c8f8eb251577db3511e4a9edc8222f4c0995d9"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/registrar_automacao.py",
+      "bytes": 1383,
+      "sha256": "4bcf277322216df96d4f75e10d88f40dbc1d9b12bf6dcb754221c898d24c3ed0"
+    },
+    {
+      "path": "Conferencia_entrega_25_10_2026/verificar_entrada.py",
+      "bytes": 2663,
+      "sha256": "2629958fb9070921a9ab3cd19c1aab67ccc629dd50d30e0898bc7f2cb5dec1d4"
+    },
+    {
+      "path": "Estado_atual.md",
+      "bytes": 14624,
+      "sha256": "a4f685feff3e25f8b1b07a5d1c77c7fbd04162f8d649bbbec75561f9982d2a2b"
+    },
+    {
+      "path": "Execucao_ate_07h_2026-10-25.md",
+      "bytes": 36444,
+      "sha256": "a9471d6178d5eb940c12add2ccf0ea5355ce9486804d2a3f7a359a06be878d33"
+    },
+    {
+      "path": "Modelo_FreeCAD/02_Revisoes_e_estudos/Montagem_R07_2026-10-14/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF",
+      "bytes": 605542,
+      "sha256": "0021ca05427fd2a0df20d68bfccfc877845286f53de05da64f576d391e2bafad"
+    },
+    {
+      "path": "Otimizacao_FreeCAD_R50_2026-10-24/Guedala_Park_R50_Completo_Otimizado.FCStd",
+      "bytes": 20510191,
+      "sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69"
+    },
+    {
+      "path": "Otimizacao_FreeCAD_R50_2026-10-24/README.md",
+      "bytes": 7020,
+      "sha256": "89a25b7495183d0632cd9231f8d11c65775bd9c176507117292836afe909b3c7"
+    },
+    {
+      "path": "Otimizacao_FreeCAD_R50_2026-10-24/serializacao_binaria.py",
+      "bytes": 2856,
+      "sha256": "a77f1cacbe2aa7fc9de76c3cd7120c2d0fe7327fd4d7ee1cf381ac87a6a79854"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/Conferencia_geometrica.json",
+      "bytes": 1488,
+      "sha256": "abfe4a6cbdcc5b1ecd7ee3257336d5703aef0419f5343a15f06da127c1c8904f"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/P01_P03_apoio_traseiro_ESTUDO.FCStd",
+      "bytes": 32078,
+      "sha256": "f85e6e7a97c46ca22906d4b5f7ef75829088e0092b2450ddcb8a200fa31e57bc"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/P01_P03_estudo.png",
+      "bytes": 6798,
+      "sha256": "8a0fd3f48b4fe3cd49cc3cd56a638151ced4d410a5f92fefcf43faae53f5489b"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/README.md",
+      "bytes": 6124,
+      "sha256": "89999c7ff181a7083d709e1c023f19ef475d6d4cae4e8ec354029917d3056e78"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/Resultados.json",
+      "bytes": 24400,
+      "sha256": "b5cf207fffeef8cb0271a57c0acbd5a3b400dd0537cd798f2d184c28bdcda0b6"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/Secao_apoio.png",
+      "bytes": 49122,
+      "sha256": "aaa3e220344d2e7c7695035f3b9a988f14ad16c62a75b4b213f4bfdf7375104b"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/Verificacao.json",
+      "bytes": 481,
+      "sha256": "55690df08947eda9606292d469069ec6290fa395589b6bd33975a4ef9a3beb12"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/calcular.py",
+      "bytes": 4771,
+      "sha256": "067e45c791547934a031c43f18f2896ed64299089622d7000180f4b8aae57970"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/criar_estudo.py",
+      "bytes": 4599,
+      "sha256": "3184f2ab57b8a3c7bac1013c4eee4d464e36bb8117864cdd9c69d225e7fb07fa"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/diagrama.py",
+      "bytes": 1482,
+      "sha256": "64f74d23510b6614c0cb5b639bb8155b5df8ef6a2ecbe851402916569b7a3cd8"
+    },
+    {
+      "path": "P01_P03_caminho_superior_2026-10-25/verificar.py",
+      "bytes": 2042,
+      "sha256": "ece6b2b561be258094ea102973aa92ada56babe16e5bcbf93434c1401a5d556d"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Celula_placa_unilateral.json",
+      "bytes": 5225,
+      "sha256": "a217aa2473365866450d7e18b49959ae91fb58bad8c77c2907ad9c9c8b408de0"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/P01_soco_sem_tubos_ESTUDO.FCStd",
+      "bytes": 59115,
+      "sha256": "6b2864f606ebc0d72f31cdc8ed3e32d925a2a59e2cb9c6e86ceef4194d4be696"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "bytes": 66394,
+      "sha256": "b88789807f5706ad64fb4257ac7ad5ddc443b58e0c4e0c92621c00791adf7c0f"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Pecas_soco_estudo.csv",
+      "bytes": 2600,
+      "sha256": "107ab68c9d4400dfbe7be8d55b8fdd9cd1e8f27d6bbd4767ebdf9c1ae62e732e"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Prateleiras_caixa_soco.json",
+      "bytes": 10152,
+      "sha256": "cb33186dc42f364d78833f2c13f1c2a917df268d9ee75eaa81929a87eb97c7a2"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/README.md",
+      "bytes": 9551,
+      "sha256": "8fb4e218965503970a2427b649feb7ed02735b4fbba373389815af7e463ec0ae"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Resultados.json",
+      "bytes": 19447,
+      "sha256": "db9ebd56217443cbccfac869eb4cb58d9c10e0dcd6209b1b95f941e66fae75c5"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Soco_P01_estudo.png",
+      "bytes": 14292,
+      "sha256": "3621e373378686ebeb9cdcafa4782a523ee4f5f33c20d494df0b30cdc60ab140"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Verificacao_BREP.json",
+      "bytes": 3141,
+      "sha256": "b92d93a0367e791c9c330710a56dc15a22132e430f0ac705461ebc0182ce8609"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/Verificacao_calculo.json",
+      "bytes": 214,
+      "sha256": "6630526d506068f13543da22b390479febbc3c7568d8adb9bbd873b18c2abc37"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/analisar_celula.py",
+      "bytes": 3770,
+      "sha256": "7b962904459ff3f180d0afc2fe7eae5b34c34e7ffd89602a7394602e3fc9fd5d"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/calcular.py",
+      "bytes": 6247,
+      "sha256": "279fd04252086f6919115ff07f9ede1fd1d7531df867333945141cba7f24568c"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/criar_estudo.py",
+      "bytes": 5408,
+      "sha256": "0834a839327bad32655707f943eacb1ead3d343a7d767d99980833f6d89392d5"
+    },
+    {
+      "path": "P01_apoios_ao_piso_2026-10-25/ligar_prateleiras_ao_soco.py",
+      "bytes": 3710,
+      "sha256": "66718e68fc67a8b8b8e0509f5c264ab85f1e51371c0d7ee527d1e4d40f59a057"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/Apoios_e_massas.png",
+      "bytes": 62973,
+      "sha256": "bf1c4f691ae743da2da0d3866dfe623b122d2636de89f3dd9f388205df75b1db"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/Correcoes_metadados_propostas.json",
+      "bytes": 2952,
+      "sha256": "91fae849ef065ea36d19a312d6c68ed392ccd38a8f791040fd6517f3dffbe8b0"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/Geometria_R51.json",
+      "bytes": 63737,
+      "sha256": "0102d04dfea3923bc4229f0fe624737363ab8318cc22e82b9bdfb000ab4e7f9c"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/README.md",
+      "bytes": 9011,
+      "sha256": "cde9a39a01ed6e072221e809c17b285471a5ec447345fd2308689091809202ab"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/Resultados.json",
+      "bytes": 903680,
+      "sha256": "4e601516ab2ebe336be7a6b92620e4137ae09915e86aa71d272a7b977287f727"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/Verificacao.json",
+      "bytes": 530,
+      "sha256": "c1c627ae3540487b4592c51d2933201ba3e6894b689f5be2201b42bfb6a97278"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/calcular.py",
+      "bytes": 8068,
+      "sha256": "ef3b3627576e5f594a098f33c463a79b6e7266641726e7ddd464ad3fe4d6835b"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/diagrama.py",
+      "bytes": 1583,
+      "sha256": "bdc3b22fc947de3e83ab9e80bb4ac7ce42816317117d382da01b4e7cb2b614c1"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/extrair.py",
+      "bytes": 3547,
+      "sha256": "849a0142d2881c117c09e24994755c89149e432d8dd9db38cffafda6ae83d742"
+    },
+    {
+      "path": "P01_massas_equilibrio_2026-10-25/verificar.py",
+      "bytes": 2386,
+      "sha256": "72f095a7eef78e5a00fe8c89a6920fd5945da5bc368191feb454b5ff92b27d6f"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Binario_suspensao.png",
+      "bytes": 87352,
+      "sha256": "b5c907454527e956cf233d28b67d311783a301509e782e729f69c906a2b45f52"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Confirmacao_sessao.json",
+      "bytes": 209,
+      "sha256": "31df1354e3da2b7e76eff767fc8facd2048c119d718d7944ec68ffdccaf003ae"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Geometria_e_portas_R51.json",
+      "bytes": 119075,
+      "sha256": "aaa708f3fd2f61856929b1ddcd765268b44ca0366f6ebb2dc32e72b7bf1b6b33"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Metadado_a_reconciliar.json",
+      "bytes": 436,
+      "sha256": "1f745163b0c8c8e05c90d893dfaba909025cfa19df2ddc5577a300f935b54848"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/README.md",
+      "bytes": 9602,
+      "sha256": "4135524973914d1711b90751b67daf6b980c0b36d3ca93b5347163a825ecf7d6"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Resultados.json",
+      "bytes": 554090,
+      "sha256": "d2d32bd171e1b8db3a18d0a134d1b1dff2d062de199bb1fa773341a5635254b0"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/Verificacao.json",
+      "bytes": 497,
+      "sha256": "4a75b2a7ae278ebf3263f89188064959f26c8ba83abfb8b3b984856c1cb3cde1"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/calcular.py",
+      "bytes": 6076,
+      "sha256": "12d2b10250b7767fa4e62ab38bc1e56d48415dd2fea5e1bc1453db272bb0cce0"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/desenhar.py",
+      "bytes": 2853,
+      "sha256": "cfd596faa155bccec49e6d20363bafc1ee71fc0056df175847d3497b1db6620e"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/extrair.py",
+      "bytes": 5408,
+      "sha256": "64456415eab0280047a3df5808df2cbd2d25a8e640f10d409af4de4ee318c67e"
+    },
+    {
+      "path": "P04_P15_suspensao_2026-10-25/verificar.py",
+      "bytes": 2146,
+      "sha256": "106d745d9ea653aaa1a10e914e95c3e5e0b3b741b14f56eae30e59dc8edabf5d"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Mapa_P11.png",
+      "bytes": 116359,
+      "sha256": "e59761c131d855da9e498b31f646ea4ce7226f0ca574f3fac44f92f0dd5ae6a3"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Mapa_ligacoes_nominais.csv",
+      "bytes": 2663,
+      "sha256": "39643cbe0594684f66f53af7c9269d5efa491539bd80b477473f862f571341d2"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Premissas.json",
+      "bytes": 4431,
+      "sha256": "38741760adf333aae115cd7a6a5147958382ed15c0974aabe9ce312bd760b6d1"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Reacoes_propostas.csv",
+      "bytes": 1984,
+      "sha256": "6bf320b5d1c885d98707f8bf9231ed65ad12d9a711abdb5db10eaeec89c2bb7b"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Resultado_R00.md",
+      "bytes": 14806,
+      "sha256": "f03fb50a71f647603d463706189a4bb80959d5db4c50290c6408c0b202765e39"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Resultados.json",
+      "bytes": 121722,
+      "sha256": "c48fdd322966cd6dece502571e738ec5f94bda6010a90fa01c3501d2eadf41ec"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Resumo_cargas.csv",
+      "bytes": 476,
+      "sha256": "cb00e8b6794c14b9722cbe95fcc060cd02661932d0c7cb4d4b5006376b397db3"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/Verificacao.json",
+      "bytes": 556,
+      "sha256": "090dc2d6f4c14902e1522ee4286c4d18b6d95f71bac641da4899fa72afdfb7aa"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/calcular.py",
+      "bytes": 10265,
+      "sha256": "355670310d9046c13adb5e34d02ad75bccb4c1108a7308b19f78b69d03e76fb9"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/desenhar.py",
+      "bytes": 5406,
+      "sha256": "43b18dba4c3e214ab580a8ad8c4e1dce52cb822485006db9c55e86158e959a2d"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/placa_ritz.py",
+      "bytes": 5995,
+      "sha256": "b233913df0af3d2bc060e9ec0518117e80f48a39e8546878c0c13e6b287df079"
+    },
+    {
+      "path": "P11_ligacoes_sem_tubos_2026-10-24/verificar.py",
+      "bytes": 5758,
+      "sha256": "bd6f617dd45a79aed5b7963f857264e552ba54415116fcbf15a5d483fccbaab5"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/Componentes_pendentes.json",
+      "bytes": 1425,
+      "sha256": "9267e3c00e73dca7429581c43b469210e59f7ce2a24e28d95b3d24a7395d6474"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/Geometria_R51.json",
+      "bytes": 13052,
+      "sha256": "d387ef0913f2858d55a2fafeef794d13a2c8caef30f568bea1215375def52ad6"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/README.md",
+      "bytes": 9424,
+      "sha256": "05e18a44b0334a247ee53e4edef5bca552c9e25869b0a655eca1a15ee4209c7e"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/Reacoes_parada_55.png",
+      "bytes": 92847,
+      "sha256": "12619a724347cd513411eb2265bcc997e909bd89e13979c52a2f1e7a76076f52"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/Resultados.json",
+      "bytes": 371169,
+      "sha256": "5dc2607412b96ef2436fa6c8098e7bc75dd659073dc505955b71ae441c52335d"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/Verificacao.json",
+      "bytes": 589,
+      "sha256": "62a24cddddf9d8a88fafa913adc12d7800928aeb1b96ffb5ade0f6a8cae987ea"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/calcular.py",
+      "bytes": 7950,
+      "sha256": "5fde7a17521f9e3bef6c61cf2dec21148d922df5eae8a8b8632de5b28d316f23"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/desenhar.py",
+      "bytes": 3643,
+      "sha256": "f16ee5576286de68720fe42f8c4fc6f50e6aff1c9cdb430260d947ecd57f7b21"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/extrair.py",
+      "bytes": 1769,
+      "sha256": "587cd4c2e1dc294d651c2e29d6d2b23e5acdc90fe9bf2ea40f33210effb48a97"
+    },
+    {
+      "path": "P14_reacoes_e_operacao_2026-10-25/verificar.py",
+      "bytes": 1830,
+      "sha256": "70a9f69b2b9a3aeb52dc09d929b9b5e11be9446c635b0d0c8ea72edc8a4cee96"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/Fontes.json",
+      "bytes": 1906,
+      "sha256": "4c12d91e88a57f24b81124a57f15a7ffb9416d67146c50a3dcffb6a7d0840e26"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/README.md",
+      "bytes": 7046,
+      "sha256": "5716f03818bd0a5338e3017c8c27bcdce744618a478d726f74dc4ad17162a50b"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/Resultados.json",
+      "bytes": 31441,
+      "sha256": "913e076d6e6e21b836954c5ace5483bf17e548626eb97a08193522c3d6c704d3"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/Verificacao.json",
+      "bytes": 455,
+      "sha256": "cb98b1c6b68211100315426bf17759c61b63fb01d9a06ec56749b922e3fb9f9a"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/calcular.py",
+      "bytes": 8741,
+      "sha256": "55ac38939d115a6e303f6028ea37de67b3a65c5898862b4ba9d23989c121f715"
+    },
+    {
+      "path": "P15_composicao_parcial_2026-10-25/verificar.py",
+      "bytes": 1943,
+      "sha256": "92d5a8e1079747a3448b6a7a0c18d863df2481e96681f49aa84d80d34a92740e"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Conferencia_movimento.json",
+      "bytes": 997,
+      "sha256": "93d4f7bf8436f100fbce659b4e4fc5659b459f112e70741639a65b81a7bf4aa6"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Correcao_metadado_preparada.json",
+      "bytes": 490,
+      "sha256": "57bec837d3de37bf146cd1394e85924a6ab2ba0e892f00462c379b23aa713ed9"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Estabilidade.json",
+      "bytes": 3702386,
+      "sha256": "17b9b45316d3a134f7a0ad2da4ab089f5364cf51b6f5fcc90d733b1fc9804e8b"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Geometria_R51.json",
+      "bytes": 10503,
+      "sha256": "a83be19020b7c98f85c1a427d1f75643976927bd1b0c9caaa749b77a16d0e557"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Planta_movimento_apoios.png",
+      "bytes": 47022,
+      "sha256": "b5d626808a6ac8f3d08b6d7d8af6601c8fe3063d9e7b424c11a3407df60be932"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/README.md",
+      "bytes": 9224,
+      "sha256": "f5fe135bdc3e146576709c4263cc4a3afaff3ebe3d7a0db62f9e29cfc85a4599"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/Verificacao.json",
+      "bytes": 522,
+      "sha256": "b6669b85777e5f681fa5bf907135f7c67a84adaa5d21264b0255e2f29101fa9b"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/calcular_estabilidade.py",
+      "bytes": 5901,
+      "sha256": "cb7e00b4bae301908bafc3d4fc45a7f358ca3f76c03adb48552d7c2dcc943475"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/conferir_movimento.py",
+      "bytes": 3672,
+      "sha256": "15072e16e56b9f0e641c0e14f82edb3f3781bf5ea5a61a966f9118e30e936061"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/desenhar.py",
+      "bytes": 2409,
+      "sha256": "01ec6ed50a1cc2eeb20bafee1dac2b0a66f258ee584a2db90d69d5ef079d6270"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/extrair.py",
+      "bytes": 1980,
+      "sha256": "0db38f7b5cc98e173841a6cce4fc2f67f5011df4473ea2086cb3d844022f12da"
+    },
+    {
+      "path": "P16_gavetas_estabilidade_2026-10-25/verificar.py",
+      "bytes": 2816,
+      "sha256": "a9d5fef9dd6e7037a77eca578ed9ba3e921bb028214120de515dd84f9f531f1d"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Blum_G2_pagina_2.png",
+      "bytes": 53853,
+      "sha256": "f8fe8308058a6c3a3b79252fb52b856f9d7ba2274c1e332c740e31621a75ab56"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Blum_G2_pagina_3.png",
+      "bytes": 53372,
+      "sha256": "4a13472ce188b6ba1cc9764f350713383c53b2a98f3cfe409a455595ebfb56bc"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Blum_G2_pagina_4.png",
+      "bytes": 55724,
+      "sha256": "565b74def2bdfb52d09f63728f3a43f2496aced9f2e65e2cdbb2e9930d8d54e0"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Blum_G2_pagina_5.png",
+      "bytes": 57886,
+      "sha256": "dc69eecec934c9300906e9bdb4012e1adc3c6b9420565a114fa23a9d09a7e86d"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Blum_G2_pagina_6.png",
+      "bytes": 58635,
+      "sha256": "38fa8195c6f8b87929a9fe2bc01d9930249cbd0ec46abb8437b2b5bbc5fe998d"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Diagnostico.json",
+      "bytes": 14038,
+      "sha256": "ddf8464a539779e85e5b49a7b8b4c660b6357d094c9be02677d12bae98a04e8e"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Intersecoes_localizadas.json",
+      "bytes": 18739,
+      "sha256": "dd7f598f175651731d8034763baa2dd9a5c972b4c60dfe26c4bfc7e8450f83c9"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Mapa_intersecoes.png",
+      "bytes": 84612,
+      "sha256": "d33124be89b96eed9b3556db37e4cd1471377bdc6a876db5fa9b9b12f91dcd47"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/README.md",
+      "bytes": 5499,
+      "sha256": "8e04d520dabac99f406eac6f7d31d355f800bc6070172a257bfc2d8c2c88a32e"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Referencia_G2_e_furos_P16.json",
+      "bytes": 6833,
+      "sha256": "d83b2c759e37ae468565c77ecad6dd0218a42c47075c9acdcf68e0715e4ed82e"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/Verificacao.json",
+      "bytes": 578,
+      "sha256": "1d2850311704d539bced3a8dd6e1c97a7c874b67cef718c8bbeff02c72023d63"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/analisar.py",
+      "bytes": 3430,
+      "sha256": "fc7fb7b96f5af27bb4bac0f0aa6e3f7103f9b82bc6d21cd0fac063fb4111c4cf"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/conferir_referencia.py",
+      "bytes": 2711,
+      "sha256": "37dd9ad5cda3fe22879d3bd681d787d2f4beb422e12c4c3a1cc2c7f82db19fa4"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/extrair.py",
+      "bytes": 2538,
+      "sha256": "9102f488cca40e4194935b37c98f7df6fe6a0fad359dcb16e67115ea3d963a5e"
+    },
+    {
+      "path": "P16_interface_guia_fundo_2026-10-25/verificar.py",
+      "bytes": 2059,
+      "sha256": "dc428d17956bddb3283d00142c6a2f69fb64138190ddd76f705c6c76c42b508d"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/Conferencia_geometrica.json",
+      "bytes": 35466,
+      "sha256": "da33deb8815fb01d752835cf36cdd83ead5db397d5678acd6d6332d348722d7e"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/P17_estudo.png",
+      "bytes": 8654,
+      "sha256": "535340f51c6056758c0271ac08eb61c4793782fb68a67590df09562262d66f7f"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/P17_fundo_inteiro_ligacoes_ESTUDO.FCStd",
+      "bytes": 88986,
+      "sha256": "afb403cd2d7b3a514051178a1fe4218e11c0a32677a46bca538d6565ac5a609b"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/README.md",
+      "bytes": 7860,
+      "sha256": "e86c7596d062c75efa82375de0fb2fbbf51dcf002fea366a324c9d144c00acc6"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/Resultados.json",
+      "bytes": 68277,
+      "sha256": "149f2d7a4f97795ed6109fe8e4f12e03b46e84f2aa76c2e700e1c8982192119f"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/Verificacao.json",
+      "bytes": 525,
+      "sha256": "1212bb15919f776d3297e76c352377f22ec821462e1d7901cf590c256a091156"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/calcular.py",
+      "bytes": 5661,
+      "sha256": "0d259ad3636891a219c24efa10b6d11784de5a0ea853a7c5f5e0e9b43e2e8f8d"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/criar_estudo.py",
+      "bytes": 5656,
+      "sha256": "a883199c9844e0c10f8b27d6deca9e9d4b98b4fd99b7d7e00405093d05dee0f3"
+    },
+    {
+      "path": "P17_base_fundo_ligacoes_2026-10-25/verificar.py",
+      "bytes": 1997,
+      "sha256": "cb7e248ffea39f12deeac2a0eabf6671dc43d1906f5b40ab80f96f4ff1ac2736"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Caminho_e_massas.json",
+      "bytes": 2428,
+      "sha256": "d09f6758ed04001b12285da379f364fe78cc2e3d4e985fda8629d6e00a03e0df"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Geometria_R51.json",
+      "bytes": 32415,
+      "sha256": "60c4c908581f4950b61fde156bbbfa738e0de3f7af253dcaec1e5192f521c96e"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Mapa_contatos.png",
+      "bytes": 40626,
+      "sha256": "82c088abeb1c4050174fb35d855f0b4165aea21450b89d11816d99a4528e0d2f"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/README.md",
+      "bytes": 8700,
+      "sha256": "683503c59f3f7193e513d9f5bfd341af03f811dbbe93f32610226117e64e1935"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Resultados.json",
+      "bytes": 19240,
+      "sha256": "335c5cc0cb77f9ed2b3c62c79bf19ca3d282993fe2a2e7725781cdc77be03ca1"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Roteiro_banco_cesto.md",
+      "bytes": 4442,
+      "sha256": "67bb79eaa935524e1afe177b0daf221eefb6b5f0f408b737940939d794e87ded"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/Verificacao.json",
+      "bytes": 500,
+      "sha256": "1155fd4f350152da130dd627bb121dd5ea3ea1b7293aafcf99fd1da48d5e4045"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/calcular.py",
+      "bytes": 5989,
+      "sha256": "4525760f5006e3448d5df50393bfc3121873f1fae4c182f1633f6be819741049"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/desenhar.py",
+      "bytes": 2016,
+      "sha256": "04d0dd3e3c0b694c6d30937c81570dbdfbf1de0133edcbc7d81997a6ca4e5b47"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/extrair.py",
+      "bytes": 3357,
+      "sha256": "0aa5a563b16007495fc5b16b2b306bdc2043773c8bc783869e74534d800dd7c5"
+    },
+    {
+      "path": "P20_assento_fechado_2026-10-25/fechar.py",
+      "bytes": 3219,
+      "sha256": "a4dda68afc4fe4e75b86690c94b8d460a2383cbda08406bd74271db97e74ac67"
+    },
+    {
+      "path": "Plano_execucao_ate_31_10_2026.md",
+      "bytes": 31358,
+      "sha256": "39a9b4efff394ba19cfa0510c9e5a112b06484c785d0d1703ae988a1f724e18b"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/Diferencas_nominais.json",
+      "bytes": 37106,
+      "sha256": "e78d429a6c49066d257aac0cdd656ca1d6b5ddce90fa82a7c63d831a04691d27"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/Formatos_e_pendencias.json",
+      "bytes": 26740,
+      "sha256": "61b31be1dc9be6acd179d2fb018e10b498eb9b3d30a73ba5704edeb3f039eea4"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/README.md",
+      "bytes": 5697,
+      "sha256": "7b8323c1adb13b055e6500f39eb6e9d33708c370fc513eaf3bdf54201c3ffe75"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/Verificacao.json",
+      "bytes": 470,
+      "sha256": "34830503ed732e1c67586933a5d50d7c6590ac94ccd527edcb762733c0eff5bb"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/analisar.py",
+      "bytes": 2143,
+      "sha256": "22bd1b57d28ef29b9505b9a55acddd0b323de169b59b5227293ed32c3d92f53a"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/extrair.py",
+      "bytes": 6157,
+      "sha256": "53c29ee9bbf53672bf45e0849ac74479658ccc49094f22a0d80aad29d695564b"
+    },
+    {
+      "path": "Quantitativos_estudos_2026-10-25/verificar.py",
+      "bytes": 2145,
+      "sha256": "7b1f62186903ef492083974dd89ce36882068ce8bd2934cd85fdadcbf45d0609"
+    },
+    {
+      "path": "Retomada_25_10_2026.md",
+      "bytes": 8567,
+      "sha256": "47f468430aa8ec9896fddec8c20f250d046dfccbcc4378094bcfefb8dc266530"
+    },
+    {
+      "path": "Revisao_sem_tubos_R51_2026-10-25/Bancada_apoios_atuais.json",
+      "bytes": 1720,
+      "sha256": "7ead43d83ab004175154c2a060228806ff18a41d825c4c3eca53aff731d1bc50"
+    },
+    {
+      "path": "Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+      "bytes": 19799395,
+      "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16"
+    },
+    {
+      "path": "Revisao_sem_tubos_R51_2026-10-25/README.md",
+      "bytes": 2771,
+      "sha256": "b12056690cd3c7491516b19c50a7497fa193265fb29159e02cbae23401724f63"
+    },
+    {
+      "path": "Revisao_sem_tubos_R51_2026-10-25/Reabertura_R51.json",
+      "bytes": 122,
+      "sha256": "2984a565ea86cfef8641a073ec712f0e846f04d05c640fc9ce94f17bc9b1b184"
+    },
+    {
+      "path": "Revisao_sem_tubos_R51_2026-10-25/Verificacao_R51.json",
+      "bytes": 10885,
+      "sha256": "be3042a55c032bc3f7aa121918ad8d920cc10e6417d4080ca07c06729e670bf8"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Conferencia_geometrica.json",
+      "bytes": 1989,
+      "sha256": "e05c6ffaa0265c66e63efb32801763bbee73e0f1484bba7a4a520d120267e870"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Eixos_ligacoes_estudo.csv",
+      "bytes": 31930,
+      "sha256": "90514e58ffad07fcfe8572a0e983a2fb79002f38b602d338c91e50cf97be4c15"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/P04_auditoria_referencias.json",
+      "bytes": 1037,
+      "sha256": "1290535ae4385d9dc77e2f85c181f0a2bfb6a34d427706aa4d1afade923f6bc8"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/P04_eixos_conferidos_R51.json",
+      "bytes": 979,
+      "sha256": "fc1a3bfd218eee56c3f1020734035a7add9980728ffca079c1bb7f3d70aa8328"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/P04_estudo_sem_tubos.png",
+      "bytes": 19133,
+      "sha256": "dcb26a90ca85db7f71becf7168cdceda13fd7204939a7faca31e1042834214b5"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/P15_P04_estudos_sem_tubos.FCStd",
+      "bytes": 118646,
+      "sha256": "ddcbb512e9dcbf7a374d39d26bb3398795567c9d59d059e5a771b314418a4673"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/P15_estudo_sem_tubos.png",
+      "bytes": 13303,
+      "sha256": "6913f0f6fdd83a0ed30399f3479020ad2e7f9a162ed77e14de77dc284b62dc22"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Pesquisa_solucoes.md",
+      "bytes": 6535,
+      "sha256": "87fabe8b66df70609fe59dd6819d1c49015fad934a1f202a34fcac0ec809e033"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/README.md",
+      "bytes": 12051,
+      "sha256": "30792250d2ca27ba5fafcd28d9d29e405aaef2568d00e67606358f70788b8051"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Registro_ensaios.csv",
+      "bytes": 466,
+      "sha256": "e94428187bede366dd7ed2b944b01efd21dd08ab851dd3edc4b073a754801945"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Resultados.json",
+      "bytes": 27316,
+      "sha256": "cceb3ab9db2e35b09a53f9a467477a239e2c6e4247f10b015bf9705498acfdd4"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Roteiro_ensaios_e_requisitos.md",
+      "bytes": 8357,
+      "sha256": "f83ab1fda971a34eddd2e2c1344fa4ec7cf9e8db8b5babfc5d45716523fb0fde"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/Verificacao_numerica.json",
+      "bytes": 2565,
+      "sha256": "dd1f614ffd09d46b6d6ef9bbcc7dbb1772fa8551adb16c56aae1bac51bc8e632"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/auditar_p04.py",
+      "bytes": 2111,
+      "sha256": "3561f29c79a9e00df04fe6232ca322a43903d5592cc8797c96a6a4a0a98c7e4c"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/calcular.py",
+      "bytes": 9803,
+      "sha256": "ab99bf34a8177f6e382219d6cc048c609c4caaf556bdea98151316e5cb4d2f11"
+    },
+    {
+      "path": "Solucoes_marcenaria_sem_tubos_2026-10-25/criar_estudos.py",
+      "bytes": 7294,
+      "sha256": "6e57b785f4384bf60466f92adf3fd83dad6d2e0a0dac90a13bc163681e5f14f4"
+    },
+    {
+      "path": "Verificacao_consistencia.md",
+      "bytes": 1185,
+      "sha256": "44f3fed0ff91765f9b161bbb511aac3d8216f36575bde828de382c1b07b4113f"
+    },
+    {
+      "path": "../02_Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf",
+      "bytes": 2535626,
+      "sha256": "47959f7d07f2085ef145297d0071a521f8eae0ff82d0752475ea08b32cda2002"
+    },
+    {
+      "path": "../README.md",
+      "bytes": 8878,
+      "sha256": "864d33f9acfbf91f6b3fae975c0b74b47a4e4b94e42eb78f1b410562ad6bd0c1"
+    }
+  ],
+  "source_R51_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "historical_R50_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "physical_tests": 0,
+  "scope": "Snapshot de arquivos, nao recertificacao dos modelos fisicos ou incorporacao de estudos. Manifesto e seu resultado sao excluidos do proprio hash."
+}

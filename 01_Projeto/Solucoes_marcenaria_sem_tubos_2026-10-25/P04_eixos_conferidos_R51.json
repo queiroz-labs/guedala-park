@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "name": "Peca269",
+      "x_min_module_mm": -1782.0000000000007,
+      "x_max_module_mm": -18.000000000000682
+    },
+    {
+      "name": "ApoioComumR003",
+      "x_min_module_mm": -461.7500000000002,
+      "x_max_module_mm": -443.7500000000002
+    },
+    {
+      "name": "ApoioComumR004",
+      "x_min_module_mm": -905.5000000000005,
+      "x_max_module_mm": -887.5000000000005
+    },
+    {
+      "name": "ApoioOpostoR001",
+      "x_min_module_mm": -887.5000000000005,
+      "x_max_module_mm": -869.5000000000005
+    },
+    {
+      "name": "ApoioOpostoR002",
+      "x_min_module_mm": -1775.0000000000007,
+      "x_max_module_mm": -1757.0000000000007
+    }
+  ],
+  "individual_axes_mm": [
+    16.0,
+    885.5000000000002,
+    903.5000000000002,
+    1329.2500000000005
+  ],
+  "base_length_mm": 1764.0,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true
+}

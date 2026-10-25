@@ -1,0 +1,15 @@
+{
+  "tag": "r50_corrigida_02",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Otimizacao_FreeCAD_R50_2026-10-24\\Guedala_Park_R50_Completo_Otimizado.FCStd",
+  "mode": "original",
+  "source_sha256": "bc79bca57ba313e1f19614a7a900b478853d32700cdce02862dbaef08f34a8ed",
+  "restore_s": 14.222930299998552,
+  "scene_s": 1.2765706999998656,
+  "total_s": 15.499500999998418,
+  "objects": 5893,
+  "touched": 0,
+  "source_sha256_after": "bc79bca57ba313e1f19614a7a900b478853d32700cdce02862dbaef08f34a8ed",
+  "profile_enabled": false,
+  "legacy_observer": false,
+  "method": "Reopen in same FreeCAD GUI, warmed file cache; interval includes document restore, axonometric camera, fitAll, updateGui and redraw. Excludes process startup and closing previous document."
+}

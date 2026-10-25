@@ -1,0 +1,2 @@
+﻿ensaio_id;data;modulo;montagem;corpo_prova;lote_chapa;substrato_revestimento;espessura_real_mm;processo_composicao;ferragem_codigo;condicoes_apoio;carga_kg;posicao_area_carga;tempo_min;temperatura_C;umidade_relativa_pct;deslocamento_frente_mm;deslocamento_apoios_mm;abertura_junta_mm;deslizamento_camadas_mm;resolucao_instrumento_mm;inspecao_danos;recuperacao_apos_descarga_mm;arquivo_evidencia;responsavel;status
+PENDENTE;;;;;;;;;;;;;;;;;;;;;;;;;nao executado

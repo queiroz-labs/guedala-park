@@ -2,10 +2,9 @@
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const DETAILS_IMAGES=globalThis.GUEDALA_DETAILS||{};
-const state={bench:'closed',lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
+const state={lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
-const DINING_CHAIR={width:44,depth:47,height:94,sideInsertion:38,centerInsertion:(75-12)/2-2};
-function diningClearance(st=state){const length=st.table==='compact'?150:180,end=465+length/2,centerProjection=st.dining==='stored'?DINING_CHAIR.depth-DINING_CHAIR.centerInsertion:55;return {length,start:465-length/2,end,gain:(180-length)/2,tableToFridge:615.25-end,previousHeadChairToFridge:54.25,entryWidth:85,centerProjection,lateralGap:120-centerProjection};}
+function diningClearance(st=state){const length=st.table==='compact'?110:170,end=465+length/2,centerProjection=st.table==='extended'&&st.dining==='use'?55:21;return {length,start:465-length/2,end,tableToFridge:615.25-end,entryWidth:85,centerProjection,lateralGap:117.5-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,renderDirty=false,nodeSequence={},motion=null;
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
@@ -15,6 +14,7 @@ function sceneStateKey(){const {angle,tilt,zoom,pan,selected,measures,...geometr
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 function transitionState(key,value){
   const from=new Map(nodes.map(n=>[n.key,{...n}]));state[key]=value;
+  if(state.table==='compact')state.dining='stored';
   motion=reducedMotion.matches?null:{from,start:performance.now(),duration:key==='office'?1700:850,key,goal:value};
   updateMetrics();drawLists();syncExperience();requestRender();
 }
@@ -51,8 +51,6 @@ function add(id,room,x,z,w,d,y,h,mat,kind='box',extra={}){const group=(id||room)
 function slab(id,room,x,z,w,d,y,h,mat,r=0){add(id,room,x,z,w,d,y,h,mat,r?'round':'box',{r});}
 function upper(id,room,x,z,w,d,y,h,mat,along='x',doors=3){add(id,room,x,z,w,d,y,h,mat,'box',{upper:true});for(let i=1;i<doors;i++){if(along==='x')add(id,room,x+w*i/doors-.25,z-.25,.5,d+.5,y,h,'#c9c7bb','box',{upper:true});else add(id,room,x-.25,z+d*i/doors-.25,w+.5,.5,y,h,'#c9c7bb','box',{upper:true});}}
 function leg(id,room,x,z,y,h){add(id,room,x,z,3,3,y,h,'black');}
-// Coordinates supplied as the global back edge and longitudinal center; chairs face the bench.
-function chairDining(backX,centerZ){const {width:w,depth:d,height:h}=DINING_CHAIR;add('diningchairs','sala',backX+d/2-w/2,centerZ-d/2,w,d,0,h,'head','chair',{rot:Math.PI/2});}
 function buildScene(){nodes=[];nodeSequence={};
   // Physical footprint: documentary room dimensions and graphically reconstructed connections.
   const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',465,405,30,140,'vinyl'],['circulacao',365,305,130,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['lavanderia',255,539,129,161,'ivory'],['banho',255,405,209,124,'greige']];
@@ -81,21 +79,9 @@ function buildScene(){nodes=[];nodeSequence={};
   add('tv50','sala',504,189.45,8.8,111.1,77,64.9,'black','screenX');
   add('soundbar','sala',505,200,10.5,90,60,7,'black','round',{r:3});
   add('decor','sala',505,193,7,5,60,12,'sage','vase');
-  // Jantar: 150/180 x 75, fixed center; base remains an unvalidated graphic envelope.
+  // Jantar: Berlin 110/170 x 80; native surfaces remain dimensional references.
   add('bench','sala',685,375,55,180,0,40,'wood');slab('bench','sala',685,375,45,180,40,7,'head',3);slab('bench','sala',730,375,10,180,40,50,'head',3);
-  const dining=diningClearance();
-  add('table','sala',615,dining.start,75,75,72,3,'wood','tableHalf',{r:15,end:'near'});
-  add('table','sala',615,dining.end-75,75,75,72,3,'wood','tableHalf',{r:15,end:'far'});
-  // The removable leaf is shown in place only when extended; storage in the bench is documented.
-  if(state.table==='extended')add('table','sala',615,450,75,30,72,3,'wood','tableLeaf');
-  // Visible joint lines; geometry remains nominal, not a tolerance/cutting drawing.
-  for(const zz of state.table==='compact'?[465]:[450,480])add('table','sala',615,zz-.07,75,.14,75,.015,'#9c825f');
-  slab('table','sala',646.5,459,12,12,2,65.3,'black',6);slab('table','sala',639.5,450,26,30,0,2,'black',13);
-  for(const xx of [628,674])add('table','sala',xx,420,3,90,67.3,4.7,'black');
-  add('table','sala',631,448,43,34,64.3,3,'black');
-  // Planned storage: three on the free side, central chair shallower to clear the column.
-  // Spacing follows the tabletop length; movement remains illustrative, not a collision simulation.
-  for(let i=0;i<3;i++){const insertion=i===1?DINING_CHAIR.centerInsertion:DINING_CHAIR.sideInsertion;chairDining(state.dining==='stored'?615+insertion-DINING_CHAIR.depth:560,dining.start+dining.length*(i+.5)/3);}
+  // Berlin surfaces, base reference and both chair arrangements come from CAD_DATA.
   // Quarto: more space at wardrobe; no TV and no blue furniture.
   const hx=state.headDepth;
   slab('queen','quarto',hx,120,200,160,0,34,'head',3);slab('queen','quarto',hx,120,200,160,34,26,'offwhite',5);
@@ -135,7 +121,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('officechair','escritorio',guest?405:367.75,guest?75:80,74.5,73,0,120,'black','officechair');
   upper('officecab','escritorio',255,90,35,200,192,55,'offwhite','z',5);
   add('officeshelf','escritorio',450,105,35,110,192,3,'wood','box',{upper:true});
-  add('tv43','escritorio',473,128,5,97,82,56,'black','screenX');
+  add('tv43','escritorio',473,118,5,97,82,56,'black','screenX');
   if(state.console==='sala'){add('ps5','sala',507,226.1,21.6,35.8,35,8,'offwhite','console');}else{add('ps5','escritorio',453.4,115,21.6,35.8,195,8,'offwhite','console',{upper:true});}
   // R09: dimensional studies remain conditional, as identified in the item cards.
   for(const x of [388,446.2])add('kitchenbase','cozinha',x,639,1.8,61,0,90,'wood');
@@ -172,8 +158,12 @@ function buildScene(){nodes=[];nodeSequence={};
   add('recycling','lavanderia',257,541,29,29,0,42,'inox','round',{r:14.5});
   add('recycling','lavanderia',257,541,29,29,42,1.7,'black','round',{r:14.5});
   add('recycling','lavanderia',267,568,9,5,1,2,'black');
-  add('dishrack','cozinha',514,641,27.8,19.9,92,2,'black','round',{r:2});
-  add('dishrack','cozinha',514,641,27.8,2,94,10.6,'black');
+  // With clothes on the line, the clean, dry rack is stored in the lower cabinet
+  // before moving the air fryer here (Compatibilizacao_2026-09-28/README.md).
+  if(state.dry==='stored'){
+    add('dishrack','cozinha',514,641,27.8,19.9,92,2,'black','round',{r:2});
+    add('dishrack','cozinha',514,641,27.8,2,94,10.6,'black');
+  }
   // Laundry: position, supports, basket motion and pipe volumes remain studies.
   add('washer','lavanderia',320,628,60,62,0,85,'inox','washer');
   slab('laundrybase','lavanderia',255,625,133,75,90,2,'stone',1);
@@ -367,12 +357,12 @@ function drawLists(){let list=roomItems();const markup=list.map(o=>`<button data
 function setRoom(id){state.room=id;$('inlineItems').hidden=true;$('mobileItems').setAttribute('aria-expanded','false');state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[id]??-.62;let room=PROJECT.rooms.find(r=>r.id===id);$('roomHeading').textContent=room.name;$('roomSubtitle').textContent=room.sub.toUpperCase();$('roomNote').textContent=ROOM_NOTES[id];document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===id);b.setAttribute('aria-pressed',String(b.dataset.room===id));});if(state.selected&&!roomItems().some(o=>o.id===state.selected))state.selected=null;drawLists();if(!state.selected){$('selectedInfo').innerHTML=roomWelcome(id);}syncExperience();updateMetrics();requestRender();}
 function setView(v){state.view=v;state.zoom=1;state.pan=[0,0];document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);b.setAttribute('aria-pressed',b.dataset.view===v);});$('sideLabel').hidden=v!=='side';$('sideCutLabel').hidden=v!=='side';$('gestureHint').textContent=v==='iso'?'Arraste para girar · pinça ou roda para aproximar':'Arraste para deslocar · pinça ou roda para aproximar';requestRender();}
 function updateMetrics(){let list=[],pass=245-(state.sofa==='closed'?110:136)-state.sofaGap-state.rackDepth;const metric=(value,title,note,warn=false)=>({value,title,note,warn});
-  const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo → frente da IB6','Cabeceira sem cadeira; antes 54,25 cm na guarda 2+1',true),metric(state.dining==='stored'?cm(dc.centerProjection)+' cm*':'Seis só com mesa aberta','Projeção da cadeira central',state.dining==='stored'?'Mais para fora por causa da coluna; encaixe a conferir':'Três cadeiras na lateral; banco preservado',true),metric('85 cm*','Largura da entrada','Reserva transversal; não muda com a mesa',true)];
+  const dc=diningClearance(),diningMetrics=[metric(cm(dc.tableToFridge)+' cm*','Tampo Berlin → frente da IB6','Distância entre corpos; não desconta pessoas ou cadeiras',true),metric(state.table==='compact'?'2 nas pontas + 1 lateral':'3 na lateral','Cadeiras da Berlin',state.table==='compact'?'Referência fechada; uso com pessoas a conferir':state.dining==='use'?'Afastamento ilustrativo; passagem a conferir':'Referência aberta do FreeCAD',true),metric(cm(dc.centerProjection)+' cm*','Projeção lateral da cadeira','Envelope ilustrativo; sem validar conforto ou ferragens',true)];
   if(['all','sala'].includes(state.room)){list=[metric(pass+' cm','Frente do sofá','Estimativa; '+(state.sofa==='closed'?'fechado':'aberto'),pass<75),metric(cm(dc.lateralGap)+' cm*','Lateral · cadeira central',state.dining==='stored'?'Até limite da sala; outros obstáculos não descontados':'Cadeira ocupada 55 cm; largura da mesa igual',true),...diningMetrics];}
   else if(state.room==='quarto')list=[metric('55 cm*','Frente do armário','Cama de reserva 160 cm',true),metric((45-state.headDepth)+' cm*','Aos pés da cama','Reserva200 + cabeceira'+state.headDepth,true),metric('20 cm*','Lado da janela','Faixa estreita aceita',true)];
   else if(state.room==='escritorio')list=state.office==='guest'?[metric('40 cm*','Cama → bancada','Sem usuário na estação',true),metric('88 cm*','Lateral da cama','Brutos, fora da cadeira',true),metric('3 cm*','Porta → cama','Margem gráfica crítica',true)]:[metric('82 cm*','Bancada → sofá','Antes da cadeira ocupada',true),metric('195 cm','Topo prateleira','Altura aprovada'),metric('200 × 70','Bancada · cm','Largura ainda proposta',true)];
   else if(state.room==='cozinha')list=[...diningMetrics,metric('92 cm*','Passagem diante da bancada','Bancada de 63 cm em estudo',true),metric('16 / 16 / 40','G1 · G2 · G3','Alturas brutas em cm'),metric('13 cm*','Plafon → giro das portas','Folga nominal; ferragens a conferir',true)];
-  else if(state.room==='lavanderia')list=[metric('100 × 50','Grelha · cm','Escolhida'),metric('72 cm*','Reserva VC4 fechada','Corpo +10cm atrás'),metric(state.dry==='stored'?'Aparelhos aqui':'Aparelhos na cozinha','Uso da bancada','Sem operar sob roupas',true),metric('Removível','Saco do cesto','Frente lisa Arenza'),metric('Pendente','Varal e E21','Mecanismo e instalação',true)];
+  else if(state.room==='lavanderia')list=[metric('100 × 50','Grelha · cm','Escolhida'),metric('72 cm*','Reserva VC4 fechada','Corpo +10cm atrás'),metric(state.dry==='stored'?'Air fryer aqui':'Air fryer na cozinha','Uso da bancada','Sem operar sob roupas',true),metric('Espaço a definir','Cafeteira','Medidas pendentes; sem volume no desenho',true),metric('Removível','Saco do cesto','Frente lisa Arenza'),metric('Pendente','Varal e E21','Mecanismo e instalação',true)];
   else list=[metric('209 × 124','Banheiro · cm','Cotas de planta'),metric('65 cm*','Frente do VIP','Nominal; conferir instalação',true),metric('60 × 45*','Bancada · cm','Borda da cuba a 90 cm no ensaio',true)];
   $('metrics').innerHTML=list.map(m=>`<div class="metric ${m.warn?'warning':''}"><b>${m.value}</b><span>${m.title}</span><small>${m.note}</small></div>`).join('');
   $('gapValue').textContent=state.sofaGap+' cm';$('rackValue').textContent=state.rackDepth+' cm';$('headValue').textContent=state.headDepth+' cm';
@@ -396,7 +386,7 @@ function storageModel(id){
  return applyCadSync([],st).filter(n=>modules.includes(n.module));
 }
 function storageDiagram(id){
- return `<div class="storage-view-controls" role="group" aria-label="Vista do interior"><button type="button" data-storage-view="front" aria-pressed="${id!=='bedcabinet'}">Frente</button><button type="button" data-storage-view="perspective" aria-pressed="${id==='bedcabinet'}">Perspectiva</button></div><div class="storage-preview-wrap"><canvas id="storagePreview" role="img" aria-label="Interior atual: ${esc(INTERNALS[id].title)}"></canvas><p id="storagePreviewStatus" role="status">Carregando interior…</p></div><p class="diagram-caption">Interior do modelo R45 · ${esc((STORAGE_MODULES[id]||[]).join(' · '))} · frentes ocultas para consulta</p>`;
+ return `<div class="storage-view-controls" role="group" aria-label="Vista do interior"><button type="button" data-storage-view="front" aria-pressed="${id!=='bedcabinet'}">Frente</button><button type="button" data-storage-view="perspective" aria-pressed="${id==='bedcabinet'}">Perspectiva</button></div><div class="storage-preview-wrap"><canvas id="storagePreview" role="img" aria-label="Interior atual: ${esc(INTERNALS[id].title)}"></canvas><p id="storagePreviewStatus" role="status">Carregando interior…</p></div><p class="diagram-caption">Interior do modelo local ${esc(CAD_DATA.current_revision)} · ${esc((STORAGE_MODULES[id]||[]).join(' · '))} · frentes ocultas para consulta</p>`;
 }
 async function renderStoragePreview(id,mode){
  const canvas=$('storagePreview'),status=$('storagePreviewStatus');if(!canvas||!INTERNALS[id])return;
@@ -470,7 +460,7 @@ function init(){
   buildRoomNavigation();
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
   $('sideCut').onchange=e=>{state.sideCut=e.target.checked;requestRender();};$('sideDirection').onchange=e=>{state.side=e.target.value;requestRender();};
-  for(const[id,key]of [['benchState','bench'],['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: aparelhos permanecem na pedra da lavanderia.':'Com roupas: air fryer e cafeteira vão temporariamente para a cozinha.');if(key==='table')toast(state.table==='compact'?'Mesa com 150 cm: três cadeiras na lateral e cabeceira sem cadeira. Banco preservado.':'Mesa com 180 cm: folha central de 30 cm para seis lugares.');};
+  for(const[id,key]of [['sofaState','sofa'],['officeState','office'],['diningState','dining'],['tableState','table'],['consoleState','console'],['dryState','dry']])$(id).onchange=e=>{transitionState(key,e.target.value);if(key==='dry')toast(state.dry==='stored'?'Sem roupas: air fryer na lavanderia. Cafeteira: espaço a definir.':'Com roupas: guarde o escorredor limpo e seco antes de levar a air fryer à cozinha. Cafeteira: espaço a definir.');if(key==='table')toast(state.table==='compact'?'Berlin com 110 cm: duas cadeiras nas pontas e uma na lateral. Abra a mesa para afastar as três cadeiras.':'Berlin com 170 cm: três cadeiras na lateral. Encaixe e passagem com pessoas a conferir.');};
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{moveCamera();state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{moveCamera();state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{moveCamera();state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??-.62;state.tilt=.92;requestRender();};
@@ -483,7 +473,7 @@ function init(){
   buildScene();setRoom('all');setView('iso');$('inspector').classList.remove('open');new ResizeObserver(()=>{if($('model').classList.contains('active'))requestRender();if($('mood').classList.contains('active'))renderMood();}).observe($('stage'));window.addEventListener('resize',()=>{requestRender();if($('mood').classList.contains('active'))renderMood();});
   // A downloaded copy is initialized to the documented state; no edits persist silently.
   document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='model'));document.querySelectorAll('.tabpage').forEach(b=>b.classList.toggle('active',b.id==='model'));
-  for(const[id,value]of [['benchState','closed'],['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
+  for(const[id,value]of [['sofaState','closed'],['officeState','work'],['diningState','stored'],['tableState','compact'],['consoleState','sala'],['dryState','stored'],['sofaGap','0'],['rackDepth','37'],['headDepth','5']])$(id).value=value;
   $('measureToggle').checked=false;$('upperToggle').checked=true;$('wallToggle').checked=false;$('insideToggle').checked=false;
   initializeExperience();
   window.GuedalaStudy={state,items:ITEMS,project:PROJECT,transitionState,pickFace,diningClearance,getNodes:()=>nodes,buildScene:()=>{buildScene();return nodes;},render,tab,setRoom,setView,selectItem};

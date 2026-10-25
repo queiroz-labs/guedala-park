@@ -1,0 +1,21 @@
+{
+  "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "objects": [
+    {
+      "name": "BancoR43_Painel1",
+      "EspecificacaoR14": [
+        {
+          "value": "Branco TX · faces internas"
+        }
+      ]
+    },
+    {
+      "name": "BancoR43_Painel2",
+      "EspecificacaoR14": [
+        {
+          "value": "Branco TX · faces internas"
+        }
+      ]
+    }
+  ]
+}

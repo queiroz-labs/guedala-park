@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-25",
+  "cad_revision": "R52",
+  "base_panels": 249,
+  "base_rectangular": 166,
+  "base_special": 83,
+  "base_envelope_area_m2": 59.262776,
+  "proposal_records": 36,
+  "proposal_replacements": 11,
+  "proposal_new": 25,
+  "proposal_vs_current_base_mismatches": [],
+  "kits": [
+    "Bancada_marcenaria",
+    "P01_P03_traseiro",
+    "P01_prateleiras723",
+    "P01_socoR01",
+    "P04_fundo308",
+    "P15_composta36",
+    "P17_fundo550"
+  ],
+  "grain_axis_defined_panels": 0,
+  "substrate_product_defined_panels": 0,
+  "fit_results": [
+    {
+      "scope": "base_R52",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 0,
+      "not_fitting_ids": [
+        "Peca208"
+      ]
+    },
+    {
+      "scope": "base_R52",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 10,
+      "not_fitting_ids": [
+        "Peca208"
+      ]
+    },
+    {
+      "scope": "base_R52",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 20,
+      "not_fitting_ids": [
+        "Peca208"
+      ]
+    },
+    {
+      "scope": "base_R52",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 0,
+      "not_fitting_ids": []
+    },
+    {
+      "scope": "base_R52",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 10,
+      "not_fitting_ids": []
+    },
+    {
+      "scope": "base_R52",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 20,
+      "not_fitting_ids": []
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 0,
+      "not_fitting_ids": [
+        "Estudo_Peca208"
+      ]
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 10,
+      "not_fitting_ids": [
+        "Estudo_Peca208"
+      ]
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x1850",
+      "trim_per_edge_mm": 20,
+      "not_fitting_ids": [
+        "Estudo_Peca208"
+      ]
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 0,
+      "not_fitting_ids": []
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 10,
+      "not_fitting_ids": []
+    },
+    {
+      "scope": "proposta_separada",
+      "format": "2750x2100",
+      "trim_per_edge_mm": 20,
+      "not_fitting_ids": []
+    }
+  ],
+  "plans": [
+    {
+      "id": "rotacao_livre",
+      "virtual_sheets": 16,
+      "included_panels": 210,
+      "excluded_panels": 39,
+      "sheets_by_format": {
+        "2750x1850": 15,
+        "2750x2100": 1
+      }
+    },
+    {
+      "id": "C_paralelo_2750",
+      "virtual_sheets": 17,
+      "included_panels": 210,
+      "excluded_panels": 39,
+      "sheets_by_format": {
+        "2750x1850": 16,
+        "2750x2100": 1
+      }
+    }
+  ],
+  "status": "Plano preliminar de envelopes por especificação documental e espessura. Toda chapa é virtual até confirmar substrato, produto, faces, bordas, sentido e dimensões de compra. Não é lista de compras, otimização certificada ou programa de serra/CNC."
+}

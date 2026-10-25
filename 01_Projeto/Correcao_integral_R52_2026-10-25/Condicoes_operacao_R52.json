@@ -1,0 +1,410 @@
+[
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR08",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR001",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR002",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR006",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR007",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR012",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR013",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR014",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR018",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR019",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR024",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR025",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR026",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR030",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR031",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR036",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR037",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR038",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR042",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "a": "GavetaComumR043",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Controle",
+        "Abertura1",
+        60
+      ]
+    ],
+    "a": "BancoR43_Painel1",
+    "b": "BancoR43_Almofada1",
+    "condition": "Banco: retirar almofada antes da tampa"
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Controle",
+        "Abertura2",
+        60
+      ]
+    ],
+    "a": "BancoR43_Painel2",
+    "b": "BancoR43_Almofada2",
+    "condition": "Banco: retirar almofada antes da tampa"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR08",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR001",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR002",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR012",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR013",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR014",
+    "b": "Peca247",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR024",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR025",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR026",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR036",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR037",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "a": "GavetaComumR038",
+    "b": "Peca248",
+    "condition": "Roupeiro: abrir folha antes da gaveta"
+  }
+]

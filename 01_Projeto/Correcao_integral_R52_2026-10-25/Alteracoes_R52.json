@@ -1,0 +1,241 @@
+[
+  {
+    "object": "Peca131",
+    "property": "LocalY",
+    "before": 1280,
+    "after": 1180,
+    "unit": "mm"
+  },
+  {
+    "object": "Peca358",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Alternativa500ManterBaseR41",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Alternativa500ManterTopoR41",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "EstudoFrente500R41",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca091",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca092",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca093",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca094",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca095",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca096",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca097",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Peca098",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "CadeiraLinaR30_1",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "CadeiraLinaR30_2",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "CadeiraLinaR30_3",
+    "property": "Visibility",
+    "before": true,
+    "after": false
+  },
+  {
+    "object": "Gaveta009",
+    "property": "AlturaParedeSobreFundo",
+    "before": 53,
+    "after": 47,
+    "unit": "mm"
+  },
+  {
+    "object": "Gaveta",
+    "property": "Ferragem",
+    "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+    "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+    "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+  },
+  {
+    "object": "Gaveta001",
+    "property": "Ferragem",
+    "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+    "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+    "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+  },
+  {
+    "object": "Gaveta002",
+    "property": "Ferragem",
+    "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+    "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+    "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+  },
+  {
+    "object": "Gaveta003",
+    "property": "Ferragem",
+    "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+    "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+    "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+  },
+  {
+    "object": "Gaveta008",
+    "property": "Ferragem",
+    "before": "MOVENTO400/500 candidata, guias estáticas e duas travas propostas. Curso rígido, carga/fixação/tolerâncias pendentes.",
+    "after": "Selecao documental R14: Blum MOVENTO 760H4000S BLUMOTION S,400mm e engates T51.7601. Geometria R49 preservada; interface guia/fundo, carga, tolerancias e fixacoes continuam pendentes."
+  },
+  {
+    "object": "Gaveta009",
+    "property": "Ferragem",
+    "before": "MOVENTO400/500 candidata, guias estáticas e duas travas propostas. Curso rígido, carga/fixação/tolerâncias pendentes.",
+    "after": "Selecao documental R14: Blum MOVENTO 760H4000S BLUMOTION S,400mm e engates T51.7601. Geometria R49 preservada; interface guia/fundo, carga, tolerancias e fixacoes continuam pendentes."
+  },
+  {
+    "object": "Modulo019",
+    "property": "FerragensR14",
+    "before": [
+      "2 conjunto · Batentes independentes das tampas — referência na ficha [candidato]",
+      "2 peça · Chapas móveis de contato do batente — Aço30 ×80 ×10mm no eixo hipotéticoX100/Z430 [candidato]",
+      "qtd. a definir · Ligações dos painéis da carcaça — Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar [Estratégia selecionada; mapa parcial]",
+      "2 trechos cortados de 1–2 barras · Dobradiça piano das tampas 971 e 825 — Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54 [Proposta de cotação; protótipo pendente]",
+      "4 unidades (1 par por tampa) · Articuladores com trava das tampas — Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça [Proposta de cotação; protótipo pendente]"
+    ],
+    "after": [
+      "quantidade a definir - Ligações dos painéis da carcaça - Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar [Estratégia selecionada; mapa parcial] As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas. Consultar as interfaces ainda sem mapa na ficha.",
+      "quantidade a definir - Limitação independente da abertura das tampas - Componente, apoio, geometria e fixação a definir para piano + articuladores [Necessidade funcional; solução e quantitativo pendentes] Cada tampa exige limitação de abertura comprovada. Conferir se o articulador real cumpre essa função e, caso contrário, detalhar batente independente. Não usar encosto estofado ou limite de software como parada. Não transferir chapas, eixos ou suportes da alternativa histórica.",
+      "2 trechos cortados de 1–2 barras - Dobradiça piano das tampas 971 e 825 - Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54 [Proposta de cotação; protótipo pendente] Um trecho na borda traseira de cada tampa. Apoio fixo e rebaixo ocultos na junta de 2 mm do encosto ainda a detalhar.",
+      "4 unidades (1 par por tampa) - Articuladores com trava das tampas - Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça [Proposta de cotação; protótipo pendente] Terminais 22 mm (tampa 971) e 30 mm (tampa 825) abaixo da face inferior; posições nominais na conferência, não gabarito de furação."
+    ]
+  },
+  {
+    "object": "AcessoControleR21",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR001",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR002",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR003",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR004",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR005",
+    "property": "Visibility",
+    "before": true,
+    "after": false,
+    "reason": "Control alias rendered a duplicate drawer at local origin; real target and property access preserved."
+  },
+  {
+    "object": "AcessoControleR21",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta",
+    "authorization": "explicit user instruction"
+  },
+  {
+    "object": "AcessoControleR001",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta001",
+    "authorization": "explicit user instruction"
+  },
+  {
+    "object": "AcessoControleR002",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta002",
+    "authorization": "explicit user instruction"
+  },
+  {
+    "object": "AcessoControleR003",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta003",
+    "authorization": "explicit user instruction"
+  },
+  {
+    "object": "AcessoControleR004",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta004",
+    "authorization": "explicit user instruction"
+  },
+  {
+    "object": "AcessoControleR005",
+    "operation": "remove external App::Link instance",
+    "real_drawer_preserved": "Gaveta005",
+    "authorization": "explicit user instruction"
+  }
+]

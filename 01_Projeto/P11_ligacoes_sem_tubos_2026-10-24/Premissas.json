@@ -1,0 +1,79 @@
+{
+  "revisao": "R00",
+  "data": "2026-10-24",
+  "decisao_usuario": "P11 sem tubos; manter chapa nominal18 e calcular ligacao comlaterais efundo18",
+  "base_geometrica": "01_Projeto/Calculo_P11_2026-10-24/Premissas.json",
+  "prateleira": {
+    "peca": "Peca339",
+    "vao_x_mm": 661,
+    "profundidade_y_mm": 312,
+    "espessura_nominal_mm": 18,
+    "espessura_resistente_mm": 17.7,
+    "espessura_para_massa_mm": 18.3,
+    "densidade_kg_m3": 800,
+    "E_instantaneo_MPa": 2200,
+    "poisson_hipotese": 0.3,
+    "criterio_flecha_mm": 2.203333333333333,
+    "reserva_adicional_mm": 0.2,
+    "situacao_material": "Referencia condicional de painel, nao identificacao do lote real; espessura resistente nao garantida pela tolerancia do revestido"
+  },
+  "fundo": {
+    "peca": "Peca336",
+    "largura_mm": 661,
+    "altura_mm": 574,
+    "espessura_nominal_mm": 18,
+    "espessura_resistente_mm": 17.7,
+    "espessura_para_massa_mm": 18.3,
+    "densidade_kg_m3": 800,
+    "altura_faixa_analitica_mm": 100,
+    "situacao": "Faixa analitica em seu plano, nao recorte. Sem apoio na base/parede creditado; todo peso do fundo passa pelos grupos de uniao as laterais neste modelo"
+  },
+  "conectores_prateleira": {
+    "laterais": {
+      "familia": "Hafele Minifix15 262.26.034 + pinoS100 262.28.920",
+      "quantidade": 4,
+      "pontos_x_y_mm": [[0,60],[0,252],[661,60],[661,252]],
+      "situacao": "Posicoes nominais existentes; nao resistencia/rigidez garantida"
+    },
+    "fundo": {
+      "familia": "Confirmat7x50; referencia dimensional GTV WK-CF0750-01",
+      "quantidade": 4,
+      "pontos_x_y_mm": [[72,312],[244,312],[417,312],[589,312]],
+      "eixo_no_meio_da_espessura_nominal_mm": 9,
+      "insercao_geometrica_prateleira_mm": 32,
+      "situacao": "Apoios discretos bilaterais; sem engastamento ou capacidade certificada presumidos"
+    },
+    "cavilhas_traseiras": {
+      "diametro_mm": 8,
+      "comprimento_mm": 30,
+      "x_mm": [158,330.5,503],
+      "insercao_fundo_mm": 10,
+      "insercao_prateleira_mm": 20,
+      "credito_resistente_ou_rigidez_no_calculo": false
+    }
+  },
+  "grupos_fundo_laterais": {
+    "familia": "3Confirmat7x50 por lateral,6no total",
+    "z_desde_base_do_modulo_mm": [90,305,520],
+    "y_desde_frente_da_prateleira_mm": 321,
+    "quantidade_grupos": 2,
+    "quantidade_parafusos_por_grupo": 3,
+    "situacao": "Rigidez/capacidade requeridas do GRUPO completo, sem somar tres capacidades individuais. Cabecasrentes asfacespara naoafastar modulos"
+  },
+  "rigidez_vertical_inst_requerida_N_mm": 1000,
+  "rigidez_grupo_fundo_lateral_inst_requerida_N_mm": 1000,
+  "fator_sensibilidade_diferida": 2,
+  "situacao_rigidez": "Requisito hipotetico a comprovar na uniao real; nao valor de catalogo. No cenario diferido E e rigidezes sao divididos por2, sem garantia temporal do produto",
+  "conteudo_kg": [0,3,5,10,15,20],
+  "contato_localizado_x_y_mm": [50,60],
+  "apoio_rotacional_creditado": false,
+  "acoes_compostas_ou_apoio_continuo_traseiro_creditados": false,
+  "cargas_de_uso_propostas": {"distribuida_kg":10,"localizada_no_centro_kg":6,"localizada_junto_frente_kg":3,"situacao":"Metas alternativas para avaliar; nao somaveis e nao liberadas antes das verificacoes"},
+  "fontes": [
+    {"titulo":"EPF - Screwing", "url":"https://mdf-info.eu/using-mdf/fixing/screwing", "uso":"Afastamento70mm de cantos na aresta e orientacao de piloto pelo nucleo; nao capacidade doConfirmat", "consulta":"2026-10-24"},
+    {"titulo":"GTV Confirmat7x50", "url":"https://gtv.com.pl/en/produkt/WK-CF0750-01/", "uso":"Dimensoes e aplicacao, sem resistencia ou rigidez declarada", "consulta":"2026-10-24"},
+    {"titulo":"Hafele Connector Technology", "url":"https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf", "uso":"Geometria do parMinifix adotado; nao capacidade na chapa doP11", "consulta":"2026-10-24"},
+    {"titulo":"Langova eJoscak2019", "url":"https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-bb633cdb-f5f6-4027-82cf-3fbdeb5b5670/c/76-84.pdf.pdf", "uso":"Estudo primario de rigidezROTACIONAL e momento de ruptura; nao kvertical ou capacidade admissivel doP11", "consulta":"2026-10-24"},
+    {"titulo":"MIT2.080Lecture7", "url":"https://ocw.mit.edu/courses/2-080j-structural-mechanics-fall-2013/f8fd2ad49d100766335b4e129a8a4791_MIT2_080JF13_Lecture7.pdf", "uso":"Energia de placa isotropa/Kirchhoff e metodoRitz", "consulta":"2026-10-24"}
+  ]
+}

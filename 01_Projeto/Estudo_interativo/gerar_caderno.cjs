@@ -3,6 +3,9 @@
 const fs=require('fs'),path=require('path');
 const src=fs.readFileSync(path.join(__dirname,'src/data.js'),'utf8');
 const {PROJECT,ITEMS}=new Function(src+';return {PROJECT,ITEMS};')();
+const cadSrc=fs.readFileSync(path.join(__dirname,'src/cad-data.js'),'utf8');
+const {CAD_DATA}=new Function(cadSrc+';return {CAD_DATA};')();
+if(!/^R\d+$/.test(CAD_DATA.current_revision))throw new Error('Revisão geométrica vigente ausente em CAD_DATA.current_revision');
 
 const cell=s=>String(s??'').replace(/\|/g,'/').replace(/\s+/g,' ').trim();
 const first=s=>{s=cell(s);const m=s.match(/^.{20,240}?[.;](\s|$)/);return (m?m[0].trim():s.slice(0,240)).replace(/;$/,'.');};
@@ -10,7 +13,7 @@ const rooms=PROJECT.rooms.filter(r=>r.id!=='all');
 
 let out=`# Caderno de especificações — R01
 
-Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${PROJECT.revision.split('·').pop().trim()}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; não edite este arquivo à mão.
+Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${CAD_DATA.current_revision}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; não edite este arquivo à mão.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -29,7 +32,7 @@ let n=2;
 for(const r of rooms){
   const its=ITEMS.filter(i=>i.room===r.id);if(!its.length)continue;
   out+=`\n### 2.${++n-2}. ${r.name}\n\n| Item | Situação | Medidas de referência | Observação |\n|---|---|---|---|\n`;
-  for(const i of its)out+=`| ${cell(i.name)} | ${cell(i.choice)} | ${cell(i.dimensions)} | ${first(i.notes)} |\n`;
+  for(const i of its)out+=`| ${cell(i.name)} | ${cell(i.choice)} | ${cell(i.dimensions)} | ${i.id==='coffeemaker'?cell(i.notes):first(i.notes)} |\n`;
 }
 const kind=c=>/desenvolver|Direção|plano/.test(c)?'dev':/^(Aprovado|Escolhido|Modelo escolhido|Primeira opção|Temperaturas)/.test(c)?'ok':'open';
 const tally=k=>ITEMS.filter(i=>kind(i.choice||'')===k).length;

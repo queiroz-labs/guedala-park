@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "revisao": "R52-local",
+    "cad": "R52",
+    "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+    "pacote": "R17",
+    "fichas": "R14",
+    "cores": "R16",
+    "iluminacao": "CB02",
+    "publicationStatus": "local_artifact_only",
+    "commit": "local"
+  },
+  "errors": [],
+  "external": [],
+  "parts": 387,
+  "workerGeometryReady": true,
+  "lazyP20Ready": true
+}

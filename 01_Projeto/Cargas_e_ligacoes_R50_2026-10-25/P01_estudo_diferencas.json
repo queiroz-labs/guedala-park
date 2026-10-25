@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "source_id": "Peca245",
+      "old_mm": [
+        6667.0,
+        3372.0,
+        1082.0,
+        7372.0,
+        3922.0,
+        1100.0
+      ],
+      "new_mm": [
+        6649.0,
+        3372.0,
+        1082.0,
+        7372.0,
+        3922.0,
+        1100.0
+      ],
+      "length_before_mm": 705,
+      "length_after_mm": 723,
+      "thickness_unchanged_mm": 18,
+      "depth_unchanged_mm": 550,
+      "top_unchanged_mm": 1100.0,
+      "extra_volume_mm3": 178200,
+      "nominal_mass_increment_kg_at_rho800": 0.14256
+    },
+    {
+      "source_id": "Peca246",
+      "old_mm": [
+        5408.0,
+        3372.0,
+        1082.0,
+        6113.0,
+        3922.0,
+        1100.0
+      ],
+      "new_mm": [
+        5408.0,
+        3372.0,
+        1082.0,
+        6131.0,
+        3922.0,
+        1100.0
+      ],
+      "length_before_mm": 705,
+      "length_after_mm": 723,
+      "thickness_unchanged_mm": 18,
+      "depth_unchanged_mm": 550,
+      "top_unchanged_mm": 1100.0,
+      "extra_volume_mm3": 178200,
+      "nominal_mass_increment_kg_at_rho800": 0.14256
+    }
+  ],
+  "bearing_checks": [
+    {
+      "shelf": "Peca245",
+      "divider": "Peca242",
+      "horizontal_bearing_area_mm2": 9900.0
+    },
+    {
+      "shelf": "Peca245",
+      "divider": "Peca241",
+      "horizontal_bearing_area_mm2": 9900.0
+    },
+    {
+      "shelf": "Peca246",
+      "divider": "Peca243",
+      "horizontal_bearing_area_mm2": 9900.0
+    },
+    {
+      "shelf": "Peca246",
+      "divider": "Peca244",
+      "horizontal_bearing_area_mm2": 9900.0
+    }
+  ],
+  "source_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "source_unchanged": true,
+  "scope": "Estudo parcial da caixa. Portas/gavetas/ferragens omitidas somente deste estudo; integralmente preservadas na fonte R50. Furo/conector resistente nao modelados."
+}

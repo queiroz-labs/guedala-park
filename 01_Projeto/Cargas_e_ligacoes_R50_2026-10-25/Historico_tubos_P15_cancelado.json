@@ -1,0 +1,251 @@
+{
+  "status": "CANCELADO por Elias25/10/2026; nao propor/incorporar sem autorizacao previa explicita",
+  "cases": [
+    {
+      "section_mm": [
+        35.0,
+        15.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 6405.333333333333,
+      "Z_mm3": 854.0444444444444,
+      "EI_Nmm2": 1281066666.6666665,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "uniform",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 1.2607459557869745,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 1.2607459557869745,
+      "at_mm": 405.4626865671642,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036654572942,
+        121.62036656039776
+      ],
+      "force_error_N": 4.859401769863325e-09,
+      "moment_error_Nmm": 7.801252650097013e-06,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 28.445437911948673,
+      "transverse_deflection_screen_mm": 0.15529591140324195,
+      "distributed_kg": 20.0,
+      "localized_kg": 0.0,
+      "conservative_sum_deflection_plus_reserve_mm": 1.6160418671902164,
+      "adverse_material_sum_deflection_plus_reserve_mm": 1.6742778339664321,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": 3589.427003422031,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    },
+    {
+      "section_mm": [
+        35.0,
+        15.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 6405.333333333333,
+      "Z_mm3": 854.0444444444444,
+      "EI_Nmm2": 1281066666.6666665,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "mixed15plus5",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 1.4136109650544757,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 1.4136109650544757,
+      "at_mm": 399.5,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036652654594,
+        121.620366545347
+      ],
+      "force_error_N": -2.937517251666577e-08,
+      "moment_error_Nmm": -4.22430457547307e-06,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 34.179560855556865,
+      "transverse_deflection_screen_mm": 0.9761397695787362,
+      "distributed_kg": 15.0,
+      "localized_kg": 5.0,
+      "conservative_sum_deflection_plus_reserve_mm": 2.589750734633212,
+      "adverse_material_sum_deflection_plus_reserve_mm": 2.955803148225238,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": 8076.279631263168,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    },
+    {
+      "section_mm": [
+        35.0,
+        15.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 6405.333333333333,
+      "Z_mm3": 854.0444444444444,
+      "EI_Nmm2": 1281066666.6666665,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "point",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 1.8711946926173122,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 1.8711946926173122,
+      "at_mm": 399.5,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036651882121,
+        121.62036654286098
+      ],
+      "force_error_N": -3.9586012690051575e-08,
+      "moment_error_Nmm": -6.210641004145145e-06,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 51.38192968638144,
+      "transverse_deflection_screen_mm": 3.4386713441052192,
+      "distributed_kg": 0.0,
+      "localized_kg": 20.0,
+      "conservative_sum_deflection_plus_reserve_mm": 5.509866036722531,
+      "adverse_material_sum_deflection_plus_reserve_mm": 6.7993677907619885,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": null,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    },
+    {
+      "section_mm": [
+        30.0,
+        20.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 11125.333333333334,
+      "Z_mm3": 1112.5333333333333,
+      "EI_Nmm2": 2225066666.666667,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "uniform",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 0.7258657202059747,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 0.7258657202059747,
+      "at_mm": 393.53731343283584,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036651487936,
+        121.62036651220181
+      ],
+      "force_error_N": -7.418660175062541e-08,
+      "moment_error_Nmm": -3.070730599574745e-05,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 21.836350867529788,
+      "transverse_deflection_screen_mm": 0.16427051670679851,
+      "distributed_kg": 20.0,
+      "localized_kg": 0.0,
+      "conservative_sum_deflection_plus_reserve_mm": 1.0901362369127732,
+      "adverse_material_sum_deflection_plus_reserve_mm": 1.1517376806778228,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": 3609.223466595,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    },
+    {
+      "section_mm": [
+        30.0,
+        20.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 11125.333333333334,
+      "Z_mm3": 1112.5333333333333,
+      "EI_Nmm2": 2225066666.666667,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "mixed15plus5",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 0.8138766868505893,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 0.8138766868505893,
+      "at_mm": 399.5,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036650978213,
+        121.62036650861796
+      ],
+      "force_error_N": -8.286801289614232e-08,
+      "moment_error_Nmm": -3.357080277055502e-05,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 26.23819276927056,
+      "transverse_deflection_screen_mm": 1.030371577986541,
+      "distributed_kg": 15.0,
+      "localized_kg": 5.0,
+      "conservative_sum_deflection_plus_reserve_mm": 2.0442482648371305,
+      "adverse_material_sum_deflection_plus_reserve_mm": 2.430637606582083,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": 8651.718042404402,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    },
+    {
+      "section_mm": [
+        30.0,
+        20.0,
+        2.0
+      ],
+      "A_mm2": 184.0,
+      "I_mm4": 11125.333333333334,
+      "Z_mm3": 1112.5333333333333,
+      "EI_Nmm2": 2225066666.666667,
+      "one_rail_mass_kg": 1.1540756,
+      "two_rail_mass_kg": 2.3081512,
+      "kind": "point",
+      "base_mass_kg": 3.6495763200000004,
+      "max_deflection_mm": 1.0773273372493788,
+      "min_deflection_mm": 0.0,
+      "max_abs_deflection_mm": 1.0773273372493788,
+      "at_mm": 399.5,
+      "supports_mm": [
+        0.0,
+        799.0
+      ],
+      "reactions_N": [
+        121.62036649716796,
+        121.62036649577098
+      ],
+      "force_error_N": -1.0832926022885658e-07,
+      "moment_error_Nmm": -4.3835549149662256e-05,
+      "element_max_mm": 11.925373134328424,
+      "gross_stress_MPa": 39.443718474492876,
+      "transverse_deflection_screen_mm": 3.6286747618257684,
+      "distributed_kg": 0.0,
+      "localized_kg": 20.0,
+      "conservative_sum_deflection_plus_reserve_mm": 4.906002099075147,
+      "adverse_material_sum_deflection_plus_reserve_mm": 6.26675513475981,
+      "required_I_mm4_at_steel_E200000_and_MDF_E1600": null,
+      "end_group_max_static_shear_envelope_N": 243.24073310126798,
+      "end_group_K_required_for_0_2mm_N_mm": 1216.2036655063398,
+      "criterion_mm": 2.6633333333333336,
+      "note": "Proposta externa reduz cota inferior em h. Conectores/endplates e verificacao de chapa/contato/localizacao ainda abertos. Viga transversal50mm e triagem, sem espalhamento de placa/indentacao."
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "cases": [
+    {
+      "degree": 14,
+      "E_MPa": 1100,
+      "nu": 0.3,
+      "mass_kg": 5.0,
+      "kind": "uniform",
+      "center_mm": [
+        361.5,
+        275.0
+      ],
+      "self_mass_kg": 5.821596,
+      "max_deflection_mm": 0.2431566630065777,
+      "max_at_mm": [
+        723.0,
+        275.0
+      ],
+      "min_deflection_mm": 0.04117918003537836,
+      "frontmid_mm": 0.07143869392835646,
+      "center_mm_deflection": 0.09918853287835307,
+      "reactions_N": [
+        0.3833758385424795,
+        0.5082106931304906,
+        1.055113925894682,
+        2.273827877027691,
+        10.346490668906233,
+        8.000268237255812,
+        6.288487477421436,
+        7.867923391179225,
+        5.910802213539877,
+        20.060467388246195,
+        26.305945969764128,
+        17.122690732491748
+      ],
+      "equilibrium_error": {
+        "force_N": 0.0,
+        "moment_x_Nmm": 0.0,
+        "moment_y_Nmm": 3.637978807091713e-12
+      },
+      "max_constraint_error_mm": 3.969047313034935e-15,
+      "content_kg": 5.0,
+      "active_bearings_mm": [
+        [
+          9.0,
+          70.0
+        ],
+        [
+          9.0,
+          275.0
+        ],
+        [
+          9.0,
+          480.0
+        ],
+        [
+          359.0,
+          70.0
+        ],
+        [
+          359.0,
+          275.0
+        ],
+        [
+          359.0,
+          480.0
+        ]
+      ],
+      "reference_mm": 1.2133333333333334,
+      "plus_reserve_mm": 0.44315666300657774,
+      "min_floor_branch_force_N": 20.296451684739875,
+      "model_degree": 14,
+      "body_equivalent": {
+        "axial_strip_width_mm": 100.0,
+        "structural_t_mm": 17.7,
+        "E_differed_MPa": 1100.0,
+        "floor_and_bearing_branch_K_required_N_mm": 500.0,
+        "back_C_mm_N": 0.0025511042629686696,
+        "side_C_mm_N": 0.0025603492552645096,
+        "divider_C_mm_N": 0.002514637904468413,
+        "back_own_settlement_mm": 0.07252330067422341,
+        "side_own_settlement_mm": 0.07398120434723174,
+        "divider_own_settlement_mm": 0.032472999191537746
+      },
+      "scope": "Somente uma prateleira723 e caminho equivalente, outra espelhada. Faixa axial100 e K500 do contato de cada ramo sao hipoteses/requisitos. Nao incluem todos os carregamentos do roupeiro, acoplamentos, juntas locais ou piso real."
+    },
+    {
+      "degree": 14,
+      "E_MPa": 1100,
+      "nu": 0.3,
+      "mass_kg": 10.0,
+      "kind": "uniform",
+      "center_mm": [
+        361.5,
+        275.0
+      ],
+      "self_mass_kg": 5.821596,
+      "max_deflection_mm": 0.3247416033491978,
+      "max_at_mm": [
+        723.0,
+        275.0
+      ],
+      "min_deflection_mm": 0.03594581685891403,
+      "frontmid_mm": 0.08951142019932833,
+      "center_mm_deflection": 0.12992494709494265,
+      "reactions_N": [
+        1.4509922753202071,
+        1.6419014846596693,
+        2.4509282318387946,
+        3.245541443796439,
+        15.291256441995563,
+        11.73180489637766,
+        9.291402395849863,
+        11.837454731306986,
+        7.637053344557552,
+        29.355421787242868,
+        38.44448448310205,
+        22.778612897352332
+      ],
+      "equilibrium_error": {
+        "force_N": 0.0,
+        "moment_x_Nmm": 7.275957614183426e-12,
+        "moment_y_Nmm": -7.275957614183426e-12
+      },
+      "max_constraint_error_mm": 2.3869795029440866e-15,
+      "content_kg": 10.0,
+      "active_bearings_mm": [
+        [
+          9.0,
+          70.0
+        ],
+        [
+          9.0,
+          275.0
+        ],
+        [
+          9.0,
+          480.0
+        ],
+        [
+          359.0,
+          70.0
+        ],
+        [
+          359.0,
+          275.0
+        ],
+        [
+          359.0,
+          480.0
+        ]
+      ],
+      "reference_mm": 1.2133333333333334,
+      "plus_reserve_mm": 0.5247416033491978,
+      "min_floor_branch_force_N": 22.02270281575755,
+      "model_degree": 14,
+      "body_equivalent": {
+        "axial_strip_width_mm": 100.0,
+        "structural_t_mm": 17.7,
+        "E_differed_MPa": 1100.0,
+        "floor_and_bearing_branch_K_required_N_mm": 500.0,
+        "back_C_mm_N": 0.0025511042629686696,
+        "side_C_mm_N": 0.0025603492552645096,
+        "divider_C_mm_N": 0.002514637904468413,
+        "back_own_settlement_mm": 0.07252330067422341,
+        "side_own_settlement_mm": 0.07398120434723174,
+        "divider_own_settlement_mm": 0.032472999191537746
+      },
+      "scope": "Somente uma prateleira723 e caminho equivalente, outra espelhada. Faixa axial100 e K500 do contato de cada ramo sao hipoteses/requisitos. Nao incluem todos os carregamentos do roupeiro, acoplamentos, juntas locais ou piso real."
+    },
+    {
+      "degree": 14,
+      "E_MPa": 1100,
+      "nu": 0.3,
+      "mass_kg": 20.0,
+      "kind": "uniform",
+      "center_mm": [
+        361.5,
+        275.0
+      ],
+      "self_mass_kg": 5.821596,
+      "max_deflection_mm": 0.4879114840344375,
+      "max_at_mm": [
+        723.0,
+        275.0
+      ],
+      "min_deflection_mm": 0.02547909050598548,
+      "frontmid_mm": 0.1256568727412712,
+      "center_mm_deflection": 0.19139777552812295,
+      "reactions_N": [
+        3.586225148875671,
+        3.9092830677181465,
+        5.2425568437271615,
+        5.188968577333467,
+        25.180787988174174,
+        19.19487821462174,
+        15.297232232706703,
+        19.776517411562548,
+        11.08955560659287,
+        47.94533058523628,
+        62.72156150977778,
+        34.090457227073436
+      ],
+      "equilibrium_error": {
+        "force_N": -2.842170943040401e-14,
+        "moment_x_Nmm": 0.0,
+        "moment_y_Nmm": 1.4551915228366852e-11
+      },
+      "max_constraint_error_mm": 5.079270337660091e-15,
+      "content_kg": 20.0,
+      "active_bearings_mm": [
+        [
+          9.0,
+          70.0
+        ],
+        [
+          9.0,
+          275.0
+        ],
+        [
+          9.0,
+          480.0
+        ],
+        [
+          359.0,
+          70.0
+        ],
+        [
+          359.0,
+          275.0
+        ],
+        [
+          359.0,
+          480.0
+        ]
+      ],
+      "reference_mm": 1.2133333333333334,
+      "plus_reserve_mm": 0.6879114840344376,
+      "min_floor_branch_force_N": 25.47520507779287,
+      "model_degree": 14,
+      "body_equivalent": {
+        "axial_strip_width_mm": 100.0,
+        "structural_t_mm": 17.7,
+        "E_differed_MPa": 1100.0,
+        "floor_and_bearing_branch_K_required_N_mm": 500.0,
+        "back_C_mm_N": 0.0025511042629686696,
+        "side_C_mm_N": 0.0025603492552645096,
+        "divider_C_mm_N": 0.002514637904468413,
+        "back_own_settlement_mm": 0.07252330067422341,
+        "side_own_settlement_mm": 0.07398120434723174,
+        "divider_own_settlement_mm": 0.032472999191537746
+      },
+      "scope": "Somente uma prateleira723 e caminho equivalente, outra espelhada. Faixa axial100 e K500 do contato de cada ramo sao hipoteses/requisitos. Nao incluem todos os carregamentos do roupeiro, acoplamentos, juntas locais ou piso real."
+    },
+    {
+      "degree": 14,
+      "E_MPa": 1100,
+      "nu": 0.3,
+      "mass_kg": 5.0,
+      "kind": "patch",
+      "center_mm": [
+        25.0,
+        30.0
+      ],
+      "self_mass_kg": 5.821596,
+      "max_deflection_mm": 0.3980799979912071,
+      "max_at_mm": [
+        32.13333333333333,
+        0.0
+      ],
+      "min_deflection_mm": 0.020415892292826924,
+      "frontmid_mm": 0.09174067215396439,
+      "center_mm_deflection": 0.06288709981812897,
+      "reactions_N": [
+        -0.5547053702683932,
+        -0.6098618494583298,
+        -0.32906216726324333,
+        1.3785173435328741,
+        4.459629257594787,
+        4.025084042374858,
+        53.687894510683144,
+        3.1957986893857164,
+        18.179293153112244,
+        12.031377433829336,
+        10.65963936987698
+      ],
+      "equilibrium_error": {
+        "force_N": -1.4210854715202004e-14,
+        "moment_x_Nmm": -1.0913936421275139e-11,
+        "moment_y_Nmm": 3.637978807091713e-12
+      },
+      "max_constraint_error_mm": 5.523359547510154e-15,
+      "content_kg": 5.0,
+      "active_bearings_mm": [
+        [
+          9.0,
+          70.0
+        ],
+        [
+          9.0,
+          480.0
+        ],
+        [
+          359.0,
+          70.0
+        ],
+        [
+          359.0,
+          275.0
+        ],
+        [
+          359.0,
+          480.0
+        ]
+      ],
+      "reference_mm": 1.2133333333333334,
+      "plus_reserve_mm": 0.598079997991207,
+      "min_floor_branch_force_N": 17.581448160585715,
+      "model_degree": 14,
+      "body_equivalent": {
+        "axial_strip_width_mm": 100.0,
+        "structural_t_mm": 17.7,
+        "E_differed_MPa": 1100.0,
+        "floor_and_bearing_branch_K_required_N_mm": 500.0,
+        "back_C_mm_N": 0.0025511042629686696,
+        "side_C_mm_N": 0.0025603492552645096,
+        "divider_C_mm_N": 0.002514637904468413,
+        "back_own_settlement_mm": 0.07252330067422341,
+        "side_own_settlement_mm": 0.07398120434723174,
+        "divider_own_settlement_mm": 0.032472999191537746
+      },
+      "scope": "Somente uma prateleira723 e caminho equivalente, outra espelhada. Faixa axial100 e K500 do contato de cada ramo sao hipoteses/requisitos. Nao incluem todos os carregamentos do roupeiro, acoplamentos, juntas locais ou piso real."
+    }
+  ],
+  "convergence14vs18": 0.00039184209851894636,
+  "passed": true,
+  "source_unchanged": true,
+  "limitations": [
+    "Faixas axiais sao participacao minima hipotetica, nao dado de fabricante",
+    "Rigidez contato500N/mm por ramo requerida, nao medicao",
+    "Rugosidade/nivel do piso e compressao perpendicular/encaixes das chapas devem ser provados",
+    "Carga de outras prateleiras/varoes/gavetas e portas nao foi acoplada neste submodelo",
+    "Nao aprova apoio ao piso nem anti-tombamento/parede e nao libera carga real"
+  ]
+}

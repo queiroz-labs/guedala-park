@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -155 2880 2120">
+<rect x="-65" y="-155" width="100%" height="100%" fill="white"/>
+<text x="0" y="-100" font-family="sans-serif" font-size="32">G03 · Branco TX · faces internas · 18 mm</text>
+<text x="0" y="-45" font-family="sans-serif" font-size="27">Chapa virtual 2 · 2750×1850 · refilo 10/borda · serra 3.2</text>
+<rect x="0" y="0" width="2750" height="1850" fill="#f5f5f2" stroke="#333" stroke-width="3"/>
+<rect x="10" y="10" width="1964.0" height="550.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="992.0" y="285.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca209 · 1964×550</text>
+<rect x="10" y="563.2" width="1964.0" height="514.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="992.0" y="820.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca386 · 1964×514</text>
+<rect x="10" y="1080.4" width="1314.0" height="632.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="667.0" y="1396.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca263 · 1314×632</text>
+<rect x="1977.2" y="563.2" width="550.0" height="1002.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2252.2" y="1064.2" transform="rotate(90 2252.2 1064.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca241 · 550×1002</text>
+<rect x="1327.2" y="1080.4" width="614.0" height="684.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1634.2" y="1422.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca278 · 614×684</text>
+<rect x="1977.2" y="10" width="705.0" height="550.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2329.7" y="285.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca245 · 705×550</text>
+<rect x="10" y="1715.6000000000001" width="1223.0" height="88.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="621.5" y="1759.6000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBaixaR005 · 1223×88</text>
+<rect x="2530.3999999999996" y="563.2" width="126.0" height="800.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2593.3999999999996" y="963.2" transform="rotate(90 2593.3999999999996 963.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Ref_Sarrafo_frente0R31 · 126×800</text>
+<rect x="2659.5999999999995" y="563.2" width="80.0" height="554.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2699.5999999999995" y="840.2" transform="rotate(90 2699.5999999999995 840.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioCestoC03R31 · 80×554</text>
+<rect x="2530.3999999999996" y="1366.4" width="126.0" height="198.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2593.3999999999996" y="1465.4" transform="rotate(90 2593.3999999999996 1465.4)" text-anchor="middle" font-family="sans-serif" font-size="10.2">Ref_Sarrafo_tras1R31 · 126×198</text>
+<text x="0" y="1915" font-family="sans-serif" font-size="27">Envelopes geométricos; não é corte executivo. Veio/faces/substrato/processo pendentes.</text></svg>

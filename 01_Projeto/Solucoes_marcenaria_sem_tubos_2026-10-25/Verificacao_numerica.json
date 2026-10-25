@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "case": "P15_18mm_uniform",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 1.4551915228366852e-11,
+      "passed": true
+    },
+    {
+      "case": "P15_18mm_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "P15_25mm_uniform",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case": "P15_25mm_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "P15_25mm_uniform",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 7.771561172376096e-16,
+      "passed": true
+    },
+    {
+      "case": "P15_25mm_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 2.3869795029440866e-15,
+      "passed": true
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_uniform",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 1.4551915228366852e-11,
+      "passed": true
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_adversa_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "P15_18mais18_sem_acao_composta_mixed",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 1.4551915228366852e-11,
+      "passed": true
+    },
+    {
+      "case": "P04_fundo308_e_unioes_positivas",
+      "test": "equilibrio+compatibilidade",
+      "max_residual": 5.684341886080802e-14,
+      "passed": true
+    },
+    {
+      "case": "P15_25_misto",
+      "test": "Ritz16vs18",
+      "relative_error": 0.00022374946735048695,
+      "passed": true
+    },
+    {
+      "case": "P15_36_misto_adverso",
+      "test": "Ritz16vs18",
+      "relative_error": 0.00013014021748714022,
+      "passed": true
+    },
+    {
+      "case": "P04",
+      "test": "Ritz16vs18",
+      "relative_error": 0.003199806517714121,
+      "passed": true
+    },
+    {
+      "test": "retangulo versus carga uniforme independente",
+      "absolute_error_mm": 8.881784197001252e-16,
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "cad_unchanged": true
+}

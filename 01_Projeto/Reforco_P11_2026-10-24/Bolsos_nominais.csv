@@ -1,0 +1,7 @@
+﻿id;part;x_min_bay_mm;x_max_bay_mm;y_center_from_front_mm;y_min_mm;y_max_mm;z_floor_from_shelf_bottom_mm;z_ceiling_mm;radius_mm;status
+P11-AP-esquerda-1;Peca335;-6;0;30;8.5;51.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+P11-AP-esquerda-2;Peca335;-6;0;156;134.5;177.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+P11-AP-esquerda-3;Peca335;-6;0;282;260.5;303.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+P11-AP-direita-1;Peca334;661;667;30;8.5;51.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+P11-AP-direita-2;Peca334;661;667;156;134.5;177.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+P11-AP-direita-3;Peca334;661;667;282;260.5;303.5;-17.5;0.5;3;"Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"

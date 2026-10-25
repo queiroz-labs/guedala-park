@@ -1,0 +1,7 @@
+﻿id;a;b;family;X_mm;Y_mm;Z_mm;axis;quantity;status
+BT-J01-E-1;Travessa_traseira;Apoio_esquerdo;Confirmat7x50 candidato;2738.0;79.0;612.0;X;1;"Interface nominal; grupo K1000 inicial requerido. Piloto/cabeca/ligacao real por provar; naoCNC"
+BT-J01-E-2;Travessa_traseira;Apoio_esquerdo;Confirmat7x50 candidato;2738.0;79.0;648.0;X;1;"Interface nominal; grupo K1000 inicial requerido. Piloto/cabeca/ligacao real por provar; naoCNC"
+BT-J01-E-POS;Travessa_traseira;Apoio_esquerdo;Cavilha8x30 posicionamento, sem credito resistente;2738.0;79.0;630.0;X;1;"Interface nominal; profundidades e tolerancias por conferir; naoCNC"
+BT-J01-D-1;Travessa_traseira;Pedestal_lateral_E;Confirmat7x50 candidato;4300.0;79.0;612.0;X;1;"Interface nominal; grupo K1000 inicial requerido. Piloto/cabeca/ligacao real por provar; naoCNC"
+BT-J01-D-2;Travessa_traseira;Pedestal_lateral_E;Confirmat7x50 candidato;4300.0;79.0;648.0;X;1;"Interface nominal; grupo K1000 inicial requerido. Piloto/cabeca/ligacao real por provar; naoCNC"
+BT-J01-D-POS;Travessa_traseira;Pedestal_lateral_E;Cavilha8x30 posicionamento, sem credito resistente;4300.0;79.0;630.0;X;1;"Interface nominal; profundidades e tolerancias por conferir; naoCNC"

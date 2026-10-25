@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "a": "P15_base_superior",
+      "b": "P15_fundo",
+      "area_mm2": 14382.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P15_base_inferior",
+      "b": "P15_fundo",
+      "area_mm2": 14382.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P15_tampo",
+      "b": "P15_fundo",
+      "area_mm2": 14382.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P15_base_superior",
+      "b": "P15_base_inferior",
+      "area_mm2": 249288.0,
+      "normal_axis": 2
+    },
+    {
+      "a": "P04_divisoria_1",
+      "b": "P04_base",
+      "area_mm2": 3816.0,
+      "normal_axis": 2
+    },
+    {
+      "a": "P04_divisoria_1",
+      "b": "P04_fundo",
+      "area_mm2": 4896.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P04_divisoria_2",
+      "b": "P04_base",
+      "area_mm2": 3816.0,
+      "normal_axis": 2
+    },
+    {
+      "a": "P04_divisoria_2",
+      "b": "P04_fundo",
+      "area_mm2": 4896.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P04_divisoria_3",
+      "b": "P04_base",
+      "area_mm2": 3816.0,
+      "normal_axis": 2
+    },
+    {
+      "a": "P04_divisoria_3",
+      "b": "P04_fundo",
+      "area_mm2": 4896.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P04_divisoria_4",
+      "b": "P04_base",
+      "area_mm2": 3816.0,
+      "normal_axis": 2
+    },
+    {
+      "a": "P04_divisoria_4",
+      "b": "P04_fundo",
+      "area_mm2": 4896.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P04_base",
+      "b": "P04_fundo",
+      "area_mm2": 31752.0,
+      "normal_axis": 1
+    },
+    {
+      "a": "P04_tampo",
+      "b": "P04_fundo",
+      "area_mm2": 31752.0,
+      "normal_axis": 1
+    }
+  ],
+  "nominal_joint_points": 74,
+  "source_R51_unchanged": true,
+  "scope": "Estudos parciais normalizados, sem portas/ferragens. Contato nominal nao comprova ligacao. P15 baixa18 externo e requer base composta; P04 preserva dimensoes externas e internas."
+}

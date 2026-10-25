@@ -1,0 +1,61 @@
+{
+  "source_sha256_before": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "source_sha256_after": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "target_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "source_bytes": 23637452,
+  "target_bytes": 20510191,
+  "objects": 5893,
+  "geometries_checked": 1546,
+  "binary_shapes": 1546,
+  "properties_differences": 8,
+  "geometry_differences": 0,
+  "gui_resource_files_identical": 7881,
+  "source_backend_open_s": 3.989468299998407,
+  "target_backend_open_s": 2.3743537000009383,
+  "binary_save_s": null,
+  "method": "Same backend process; source open first, binary file opened second. Not a controlled GUI comparison.",
+  "final_target_backend_open_s": 2.584560399998736,
+  "final_geometry_rechecked": 1546,
+  "final_geometry_differences": [],
+  "GUI_resource_order_matches_source": true,
+  "final_intentional_property_differences": [
+    {
+      "id": "BC43_Referencias",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Hidraulica",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Sifao",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Canopla",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Acesso",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Maos",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Desmontagem",
+      "property": "Visibility"
+    },
+    {
+      "id": "BC43_Fundo",
+      "property": "Visibility"
+    }
+  ],
+  "unexpected_final_property_differences": 0,
+  "initial_optimization_gui_xml_identical": true,
+  "initial_gui_resource_files_transferred": 7881,
+  "final_gui_xml_identical": false,
+  "final_gui_difference_reason": "Only eight intentional bathroom reference visibility states; actual loaded appearance otherwise unchanged.",
+  "expected_visibility_differences": 8
+}

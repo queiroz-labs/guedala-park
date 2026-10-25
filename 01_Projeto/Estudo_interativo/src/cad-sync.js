@@ -39,7 +39,10 @@ function applyCadSync(scene,st){
   if(st.moduleFilter && part.module!==st.moduleFilter)continue;
   if(st.inside&&isInteriorCover(part))continue;
   const n={...part};
-  n.visualFinish=VISUAL_FINISHES.parts[part.source];
+  // Berlin: the native closed reference is 2+1; the open reference has
+  // three chairs on the free side. Only the open use demonstration pulls out.
+  if(n.id==='diningchairs'&&st.table==='extended'&&st.dining==='use')n.x-=34;
+  n.visualFinish=VISUAL_FINISHES.parts[part.finishSource||part.source];
   if(n.visualFinish){n.mat=n.visualFinish.material;n.c=color(n.mat);}
   if(Array.isArray(st.focusPart)?st.focusPart.includes(part.source):st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
   result.push(n);

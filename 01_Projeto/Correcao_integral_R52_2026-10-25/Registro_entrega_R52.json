@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-25",
+  "revision": "R52",
+  "original_R51_preserved": true,
+  "backed_up_original_files": 129,
+  "all_backup_hashes_verified": true,
+  "final_fcstd_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "fcstd_crc_ok": true,
+  "objects": 5832,
+  "native_features_valid": 1487,
+  "expressions_preserved": 7702,
+  "removed_external_instances": 6,
+  "real_drawers_preserved": true,
+  "movement_scenarios": 106,
+  "door_sweep_cases": 74,
+  "unexpected_dynamic_collisions": 0,
+  "navigation_files_checked": 37,
+  "broken_navigation_links": 0,
+  "general_consistency_checks": 19,
+  "general_consistency_warnings": 0,
+  "site_browser_errors": [],
+  "site_browser_overflow": false,
+  "publication": "local files updated; remote and original packages preserved",
+  "local_html": {
+    "file": "guedala-park\\01_Projeto\\Estudo_interativo\\Guedala_Park_Interativo.html",
+    "sha256": "509a65d34a04805af3931dcfa8a895f2df8a3440d96e6bf5b75049b5639a865e"
+  },
+  "outputs": [
+    {
+      "file": "Guedala_Park_R52_Corrigido.FCStd",
+      "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+      "bytes": 19801403
+    },
+    {
+      "file": "README.md",
+      "sha256": "32e4dde37d6cb12f2f58cd95b39ba522aa73071655277c3daaafe6fb3233a4e5",
+      "bytes": 9070
+    },
+    {
+      "file": "Verificacao_R52.json",
+      "sha256": "93a6315df6fdef70d67de88d39f98e41eaff7b5f41dc3b62cf09368911ea990b",
+      "bytes": 3505
+    },
+    {
+      "file": "Verificacao_posicoes_R52.json",
+      "sha256": "b861f1a5631fd996816e3574cccc334c53ef586555afca30f856dd7a28efa87f",
+      "bytes": 14208
+    },
+    {
+      "file": "Verificacao_movimentos_R52.json",
+      "sha256": "45dc991bcfa13d911a0a85f955db0e2af9308d3d2be8f94a4865f4edbb3282f1",
+      "bytes": 886
+    },
+    {
+      "file": "Movimentos_R52.json",
+      "sha256": "ad10ee780ea4d933535027790a8f2444f2377eaa0bc6c384d9bed6e32fe25877",
+      "bytes": 68308
+    },
+    {
+      "file": "Auditoria_estatica_R52.json",
+      "sha256": "f159d586edaea81e52182027be3cb5063112ff13b98b9ed7f7dba88dc7d3a240",
+      "bytes": 669
+    },
+    {
+      "file": "Comparacao_colisoes_R51_R52.json",
+      "sha256": "cfd010e9278bc803204a7db47233e3341194ad279263924c3bd22d83a0d64e19",
+      "bytes": 6234
+    },
+    {
+      "file": "Preservacao_originais.json",
+      "sha256": "9c144543789b229b15159c4380d651b7b886ced219f518b71be65a545969d3d8",
+      "bytes": 42191
+    },
+    {
+      "file": "Vista_R52.png",
+      "sha256": "289c2b334424282faabf574a6a60b61d0679ff90a7bb35f50dd5bc69303612e9",
+      "bytes": 43827
+    }
+  ]
+}

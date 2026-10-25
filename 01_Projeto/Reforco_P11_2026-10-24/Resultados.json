@@ -1,0 +1,369 @@
+{
+  "revision": "R00",
+  "date": "2026-10-24",
+  "settings": {
+    "revisao": "R00",
+    "data": "2026-10-24",
+    "base_calculo": "01_Projeto/Calculo_P11_2026-10-24/Premissas.json",
+    "conteudo_total_kg": 20,
+    "massa_metal_max_calculo_kg": 4,
+    "vao_livre_mm": 661,
+    "profundidade_mm": 312,
+    "espessura_mdf_nominal_mm": 18,
+    "E_mdf_MPa": 2200,
+    "espessura_mdf_resistente_mm": 17.7,
+    "espessura_mdf_para_massa_mm": 18.3,
+    "densidade_mdf_kg_m3": 800,
+    "multiplicador_flecha_mdf_sustentada": 2,
+    "faixa_efetiva_local_mm": 50,
+    "contato_minimo_objeto_x_y_mm": [
+      50,
+      60
+    ],
+    "distancia_minima_centro_carga_a_frente_e_fundo_mm": 30,
+    "perfil": {
+      "quantidade": 3,
+      "largura_mm": 35,
+      "altura_vertical_mm": 15,
+      "parede_nominal_mm": 2,
+      "comprimento_nominal_mm": 672,
+      "centros_y_mm": [
+        30,
+        156,
+        282
+      ],
+      "E_min_MPa": 200000,
+      "I_min_mm4": 4800,
+      "J_torcao_min_mm4": 10000,
+      "fy_min_MPa": 200,
+      "densidade_aco_kg_m3": 7850,
+      "peso_catalogo_barra6m_kg": 8.505,
+      "situacao": "Dimensao comercial confirmada em catalogo Tuper. I, J, fy e tolerancias sao requisitos de aceitacao, nao garantias decorrentes da palavra metalon"
+    },
+    "tolerancias_para_sensibilidade_secao": {
+      "largura_min_mm": 34.8,
+      "altura_min_mm": 14.8,
+      "altura_max_mm": 15.2,
+      "parede_min_mm": 1.75,
+      "raio_externo_max_em_paredes": 3
+    },
+    "apoio": {
+      "tipo": "Bolso interno nas laterais, sapata e calcos rigidos; sem parafuso de madeira no caminho vertical",
+      "quantidade": 6,
+      "bolso_largura_y_mm": 43,
+      "bolso_altura_z_mm": 18,
+      "bolso_profundidade_x_mm": 6,
+      "raio_interno_bolso_mm": 3,
+      "bolso_soleira_z_mm": -17.5,
+      "bolso_teto_z_mm": 0.5,
+      "tolerancia_profundidade_bolso_mm": 0.2,
+      "espessura_lateral_minima_de_estudo_mm": 17.7,
+      "sapata_largura_y_mm": 35,
+      "sapata_comprimento_x_mm": 20,
+      "sapata_espessura_mm": 2,
+      "embutimento_nominal_mm": 5.5,
+      "embutimento_minimo_efetivo_mm": 5,
+      "calco_inferior_nominal_mm": 0.5,
+      "calco_superior_antigiro_nominal_mm": 0.5,
+      "folga_vertical_residual_max_mm": 0.05,
+      "maciço_interno_extensao_mm": 20,
+      "maciço_interno_envelope_previo_mm": [
+        30,
+        10,
+        20
+      ],
+      "acomodacao_total_max_mm": 0.2,
+      "forca_servico_ensaio_N": 270,
+      "forca_prova_local_proposta_N": 600,
+      "situacao": "Geometria e demandas dimensionadas; resistencia/acomodacao do MDF fresado e detalhe local da ponta precisam ser comprovados em amostra real"
+    },
+    "orcamento_torcao_mm": 0.02,
+    "criterio_flecha_mm": 2.203333333333333,
+    "majoracao_cargas_metal_estudo": 2,
+    "divisor_resistencia_metal_estudo": 1.25,
+    "fontes": [
+      {
+        "titulo": "Tuper - Tabela tecnica de produtos2024",
+        "url": "https://tuper-prd.s3.sa-east-1.amazonaws.com/uploads/2021/08/Tabela-Tecnica-de-Produtos-Tuper-2024.pdf",
+        "pagina_impressa": 41,
+        "uso": "Tubo15x35x2 e massa teorica8.505kg por6m; nao confirma estoque ou grau especifico",
+        "consulta": "2026-10-24"
+      },
+      {
+        "titulo": "SCI/SteelConstruction - Steel material properties",
+        "url": "https://steelconstruction.info/topics/design/steel-material-properties/",
+        "uso": "Referencia sobre propriedades de aco; projeto exigeE200GPa e fy declarado",
+        "consulta": "2026-10-24"
+      },
+      {
+        "titulo": "ArcelorMittal - Catalogo de barras laminadas",
+        "url": "https://brasil.arcelormittal.com/pdf/produtos-solucoes/catalogos/catalogo-barras-laminadas.pdf",
+        "uso": "Alternativa barra chata38.1x12.7 e materialA36/MR250; disponibilidade nao consultada",
+        "consulta": "2026-10-24"
+      },
+      {
+        "titulo": "ARAUCO Melamina MDF",
+        "url": "https://arauco.com.br/wp-content/uploads/2024/07/ARAUCO-MELAMINA-FICHA-TECNICA.pdf",
+        "uso": "Mesma referencia condicional do calculoP11: nao fornece resistencia de apoio da cavidade fresada",
+        "consulta": "2026-10-24"
+      }
+    ]
+  },
+  "source_cad_sha256": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "self_mass_mdf_kg": 3.01923648,
+  "metal_mass_catalogue_tubes_kg": 2.85768,
+  "metal_mass_calculation_kg": 4,
+  "steel_global": {
+    "point_deflection_mm": 1.2916534847999999,
+    "dead_deflection_mm": 0.28332566437585266,
+    "total_deflection_mm": 1.5749791491758525,
+    "max_moment_Nmm": 38732.500415833725,
+    "symmetric_reaction_N": 132.484097713296,
+    "upper_bound_reaction_N": 264.968195426592
+  },
+  "mdf_transverse": {
+    "span_mm": 126,
+    "depth_mm": 50,
+    "structural_thickness_mm": 17.7,
+    "E_MPa": 1100.0,
+    "density_kg_m3": 800,
+    "thickness_for_mass_mm": 18.3,
+    "content_kg": 20,
+    "type": "localizada_central",
+    "point_x_mm": 63.0,
+    "distributed_content_kg": 0,
+    "localized_content_kg": 20,
+    "self_mass_kg": 0.092232,
+    "I_mm4": 23105.137499999997,
+    "Z_mm3": 2610.7499999999995,
+    "total_force_N": 197.03748694279997,
+    "max_deflection_mm": 0.3225297437218365,
+    "deflection_at_midspan_mm": 0.3225297437218365,
+    "x_max_deflection_mm": 63.0,
+    "max_moment_Nmm": 6192.435169349099,
+    "gross_bending_stress_MPa": 2.3718989444983625,
+    "max_shear_stress_rectangular_MPa": 0.16698092113796606,
+    "reaction_left_N": 98.51874347139999,
+    "reaction_right_N": 98.51874347139999
+  },
+  "effective_I_nominal_rounded_mm4": 5886.309679293088,
+  "tolerance_sensitivity_I_mm4": 4950.936232703909,
+  "assembly_budget_mm": 0.2,
+  "torsion_budget_mm": 0.02,
+  "torsion_elastic_estimate_mm": 0.017925518130230505,
+  "combined_upper_estimate_mm": 2.117508892897689,
+  "criterion_mm": 2.203333333333333,
+  "residual_margin_mm": 0.08582444043564408,
+  "metal_stress": {
+    "service_bending_MPa": 61.326458991736736,
+    "study_design_von_mises_MPa": 123.11889228881812,
+    "study_limit_MPa": 160.0,
+    "status": "Triagem de material e modelo, nao declaracao normativa ou verificacao completa das pontas"
+  },
+  "support_demands": {
+    "effective_bearing_area_mm2": 175,
+    "service_reaction_upper_bound_N": 264.968195426592,
+    "service_bearing_demand_MPa": 1.5141039738662398,
+    "proof_bearing_demand_MPa": 3.4285714285714284,
+    "remaining_side_web_min_mm": 11.5,
+    "status": "Demandas, nao resistencia certificada do MDF. Nao converter MOR em resistencia de apoio."
+  },
+  "nominal_geometry_checks": [
+    {
+      "item": "tubo",
+      "y_center_mm": 30,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "sapata",
+      "y_center_mm": 30,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "calco_inferior",
+      "y_center_mm": 30,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "antigiro_superior",
+      "y_center_mm": 30,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "tubo",
+      "y_center_mm": 156,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "sapata",
+      "y_center_mm": 156,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "calco_inferior",
+      "y_center_mm": 156,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "antigiro_superior",
+      "y_center_mm": 156,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "tubo",
+      "y_center_mm": 282,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "sapata",
+      "y_center_mm": 282,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "calco_inferior",
+      "y_center_mm": 282,
+      "inside_nominal_R3": true
+    },
+    {
+      "item": "antigiro_superior",
+      "y_center_mm": 282,
+      "inside_nominal_R3": true
+    }
+  ],
+  "minifix_pilot_nominal_clearance_mm": 9.520815280171307,
+  "shoe_to_cam_nominal_gap_mm": 12.0,
+  "profile_envelope_volume_litres": 1.041075,
+  "lower_bay_clearance_below_profile_mm": 243,
+  "local_clearance_below_end_mm": 240.5,
+  "nominal_pockets": [
+    {
+      "id": "P11-AP-esquerda-1",
+      "part": "Peca335",
+      "x_min_bay_mm": -6,
+      "x_max_bay_mm": 0,
+      "y_center_from_front_mm": 30,
+      "y_min_mm": 8.5,
+      "y_max_mm": 51.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    },
+    {
+      "id": "P11-AP-esquerda-2",
+      "part": "Peca335",
+      "x_min_bay_mm": -6,
+      "x_max_bay_mm": 0,
+      "y_center_from_front_mm": 156,
+      "y_min_mm": 134.5,
+      "y_max_mm": 177.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    },
+    {
+      "id": "P11-AP-esquerda-3",
+      "part": "Peca335",
+      "x_min_bay_mm": -6,
+      "x_max_bay_mm": 0,
+      "y_center_from_front_mm": 282,
+      "y_min_mm": 260.5,
+      "y_max_mm": 303.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    },
+    {
+      "id": "P11-AP-direita-1",
+      "part": "Peca334",
+      "x_min_bay_mm": 661,
+      "x_max_bay_mm": 667,
+      "y_center_from_front_mm": 30,
+      "y_min_mm": 8.5,
+      "y_max_mm": 51.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    },
+    {
+      "id": "P11-AP-direita-2",
+      "part": "Peca334",
+      "x_min_bay_mm": 661,
+      "x_max_bay_mm": 667,
+      "y_center_from_front_mm": 156,
+      "y_min_mm": 134.5,
+      "y_max_mm": 177.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    },
+    {
+      "id": "P11-AP-direita-3",
+      "part": "Peca334",
+      "x_min_bay_mm": 661,
+      "x_max_bay_mm": 667,
+      "y_center_from_front_mm": 282,
+      "y_min_mm": 260.5,
+      "y_max_mm": 303.5,
+      "z_floor_from_shelf_bottom_mm": -17.5,
+      "z_ceiling_mm": 0.5,
+      "radius_mm": 3,
+      "status": "Nominal; nao programa de usinagem. Provar apoio e compatibilizar CAD primeiro"
+    }
+  ],
+  "candidates": [
+    {
+      "option": "Tubo20x10x1.5",
+      "height_mm": 10,
+      "ideal_or_rounded_I_mm4": 1052.9641746799182,
+      "metal_mass_kg": 1.1901761237158919,
+      "global_deflection_only_mm": 6.662621829422815,
+      "status": "Comparacao nominal, sem validar toda alternativa; a selecionada usaI_min4800 e metal4kg"
+    },
+    {
+      "option": "Tubo35x15x1.5",
+      "height_mm": 15,
+      "ideal_or_rounded_I_mm4": 4935.057618870549,
+      "metal_mass_kg": 2.139712123715892,
+      "global_deflection_only_mm": 1.458842707488337,
+      "status": "Comparacao nominal, sem validar toda alternativa; a selecionada usaI_min4800 e metal4kg"
+    },
+    {
+      "option": "Tubo35x15x2",
+      "height_mm": 15,
+      "ideal_or_rounded_I_mm4": 5886.309679293088,
+      "metal_mass_kg": 2.748892664383807,
+      "global_deflection_only_mm": 1.243138866665397,
+      "status": "Comparacao nominal, sem validar toda alternativa; a selecionada usaI_min4800 e metal4kg"
+    },
+    {
+      "option": "Tubo20x20x1.5",
+      "height_mm": 20,
+      "ideal_or_rounded_I_mm4": 5827.222943207818,
+      "metal_mass_kg": 1.6649441237158917,
+      "global_deflection_only_mm": 1.21970405566133,
+      "status": "Comparacao nominal, sem validar toda alternativa; a selecionada usaI_min4800 e metal4kg"
+    },
+    {
+      "option": "Barra38.1x12.7",
+      "height_mm": 12.7,
+      "ideal_or_rounded_I_mm4": 6503.616024999999,
+      "metal_mass_kg": 7.657533072,
+      "global_deflection_only_mm": 1.2713757523495708,
+      "status": "Comparacao nominal, sem validar toda alternativa; a selecionada usaI_min4800 e metal4kg"
+    }
+  ],
+  "manufacturing_status": "CONDICIONAL: dimensionamento global e detalhe nominal, sem corteCAD ou ensaio; provar apoios/MDF/encaixes e suspensao antes de liberar20kg no armario",
+  "excluded": [
+    "CreditarMinifix/fundo no apoiovertical",
+    "Dividir20kgpor3",
+    "SomarEI doMDFao metal",
+    "Carga em contato menor50x60mm",
+    "Pessoas,impacto,umidadeanormal",
+    "Certificar longo prazo pelo ensaio curto"
+  ]
+}

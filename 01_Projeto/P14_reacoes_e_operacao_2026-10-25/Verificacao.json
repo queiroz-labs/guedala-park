@@ -1,0 +1,16 @@
+{
+  "stopped_cases": 270,
+  "operating_cases": 30,
+  "mirror_checks": 270,
+  "max_mirror_component_error_N": 2.842170943040401e-14,
+  "max_force_moment_residual": 7.275957614183426e-12,
+  "max_work_energy_error_J": 1.2083208211777219e-06,
+  "previous55_torque_and_lever_reproduced": true,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "source_zip_crc": true,
+  "calculation_inputs_unchanged": true,
+  "physical_tests_performed": 0,
+  "manufacturer_lock_or_capacity_verified": false,
+  "passed": true
+}

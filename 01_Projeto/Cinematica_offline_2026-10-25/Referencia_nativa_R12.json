@@ -1,0 +1,67 @@
+{
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "native_cells": 20,
+  "poses": [
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle_deg": 0.0,
+      "center_world_mm": [
+        3208.306493010496,
+        5152.976319305764,
+        1525.0
+      ]
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle_deg": 0.0,
+      "center_world_mm": [
+        2911.693506989504,
+        5152.976319305763,
+        1525.0
+      ]
+    },
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle_deg": 45.0,
+      "center_world_mm": [
+        3243.9478355003994,
+        5046.225063274845,
+        1525.0
+      ]
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle_deg": 45.0,
+      "center_world_mm": [
+        2876.0521644995997,
+        5046.225063274844,
+        1525.0
+      ]
+    },
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle_deg": 86.0,
+      "center_world_mm": [
+        3331.8529667183184,
+        5008.970315373419,
+        1525.0
+      ]
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle_deg": 86.0,
+      "center_world_mm": [
+        2788.1470332816807,
+        5008.970315373419,
+        1525.0
+      ]
+    }
+  ],
+  "source_unchanged": true
+}

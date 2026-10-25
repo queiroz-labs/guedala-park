@@ -9,18 +9,20 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Consolidado",
     "summary": "Consulte as medidas, os materiais e o que falta conferir em cada móvel.",
-    "path": "05_Entregas/Dossie_marcenaria_R45.html"
+    "path": "05_Entregas/Dossie_marcenaria_R45.html",
+    "available": true
   },
   {
     "id": "pacote-compartilhar",
-    "title": "Baixar arquivos do projeto",
+    "title": "Pacote R18 · pacote de consulta",
     "category": "Começar",
     "rooms": [
       "all"
     ],
-    "status": "CAD R49 · 24/10",
-    "summary": "Modelo FreeCAD R49, fichas dos móveis, planta, imagens das luminárias e instruções em um arquivo ZIP.",
-    "path": "05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip"
+    "status": "R52 · 2026-10-25",
+    "summary": "Modelo FreeCAD R52, fichas dos móveis, planta, HTML offline e avanços técnicos selecionados.",
+    "path": "05_Entregas/Publicacao/Guedala_Park_R18.zip",
+    "available": true
   },
   {
     "id": "matriz",
@@ -31,7 +33,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Medida do projeto",
     "summary": "Veja os espaços internos e as medidas que ainda precisam de confirmação.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
+    "available": true
   },
   {
     "id": "interfaces",
@@ -42,7 +45,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Encontros entre chapas. Falta definir as peças de união e o peso suportado.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
+    "available": true
   },
   {
     "id": "fixas",
@@ -53,7 +57,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Opções a conferir",
     "summary": "Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Ferragens_fixas.md",
+    "available": true
   },
   {
     "id": "varoes",
@@ -64,7 +69,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Varoes.md",
+    "available": true
   },
   {
     "id": "bancada",
@@ -75,7 +81,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Alternativa",
     "summary": "Veja as medidas da bancada e o reforço que ainda está em estudo.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Bancada.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Bancada.md",
+    "available": true
   },
   {
     "id": "minifix",
@@ -86,7 +93,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Alternativa",
     "summary": "Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Minifix_C.md",
+    "available": true
   },
   {
     "id": "espelheiro",
@@ -97,7 +105,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Opções de apoios. Falta confirmar o peso suportado e a fixação na parede.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Espelheiro.md",
+    "available": true
   },
   {
     "id": "gavetas",
@@ -110,7 +119,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Confira as corrediças, as rodas e o peso suportado. Veja também como retirar cada gaveta.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Resultado.html"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Resultado.html",
+    "available": true
   },
   {
     "id": "rodizios-p08",
@@ -121,7 +131,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Selecionado",
     "summary": "Seis rodas de 38 mm e espaçadores de 1 mm. Veja a escolha e o link de compra.",
-    "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md"
+    "path": "01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md",
+    "available": true
   },
   {
     "id": "banheiro-fechamento",
@@ -132,7 +143,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R01 · 24/10",
     "summary": "Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações.",
-    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Fechamento.html"
+    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Fechamento.html",
+    "available": true
   },
   {
     "id": "cad-p19",
@@ -143,7 +155,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Estudo separado",
     "summary": "Proposta de união entre as peças. A montagem ainda precisa de teste.",
-    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd"
+    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+    "available": true
   },
   {
     "id": "luz-banho",
@@ -154,7 +167,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "L02 · R$612,64",
     "summary": "Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação.",
-    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html"
+    "path": "01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html",
+    "available": true
   },
   {
     "id": "movento",
@@ -165,7 +179,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Alternativa",
     "summary": "Peças que guiam as gavetas do escritório. Confira os encaixes e a retirada.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Alternativas_escritorio/Resultado.html"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Gavetas/Alternativas_escritorio/Resultado.html",
+    "available": true
   },
   {
     "id": "portas",
@@ -176,7 +191,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Estudos dos mecanismos. Teste a montagem antes de fabricar.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Relatorio.html",
+    "available": true
   },
   {
     "id": "cesto",
@@ -187,7 +203,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Frente que inclina para abrir, com saco removível. Falta testar o mecanismo.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md",
+    "available": true
   },
   {
     "id": "mesa-varal",
@@ -199,7 +216,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Mesa_e_varal.md"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Portas_e_articulacoes/Mesa_e_varal.md",
+    "available": true
   },
   {
     "id": "banco",
@@ -210,29 +228,32 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões.",
-    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Banco_estrutura/Resultado.html"
+    "path": "01_Projeto/Consolidacao_R45_2026-10-23/Banco_estrutura/Resultado.html",
+    "available": true
   },
   {
     "id": "southco",
     "title": "Alternativa de dobradiça para o banco",
-    "category": "Ferragens",
+    "category": "Histórico",
     "rooms": [
       "sala"
     ],
-    "status": "Em estudo",
+    "status": "Superado como direção P20",
     "summary": "Estudo anterior com dobradiças Southco. Consulte a ficha do banco para ver a solução atual.",
-    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html"
+    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
+    "available": true
   },
   {
     "id": "batente",
     "title": "Limite de abertura do banco",
-    "category": "Montagem",
+    "category": "Histórico",
     "rooms": [
       "sala"
     ],
-    "status": "Alternativa",
+    "status": "Registro de estudo",
     "summary": "Estudo de uma peça para limitar a abertura. A posição depende da dobradiça real.",
-    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md"
+    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
+    "available": true
   },
   {
     "id": "torneiras",
@@ -244,7 +265,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Confira as medidas dos produtos e o espaço para abrir as torneiras.",
-    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Conferencia.html"
+    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Conferencia.html",
+    "available": true
   },
   {
     "id": "purangi",
@@ -255,7 +277,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Ainda não aprovado para fabricar",
     "summary": "A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.",
-    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Resultado_vedacao_abertura.md"
+    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Resultado_vedacao_abertura.md",
+    "available": true
   },
   {
     "id": "forno",
@@ -266,18 +289,33 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Em estudo",
     "summary": "Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.",
-    "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md"
+    "path": "01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md",
+    "available": true
   },
   {
     "id": "cad",
-    "title": "Baixar modelo 3D editável · R49",
+    "title": "FreeCAD R52 · modelo atual",
     "category": "FreeCAD",
     "rooms": [
       "all"
     ],
-    "status": "R49 · 24/10",
-    "summary": "Modelo atual com as gavetas do escritório corrigidas. Confira as fichas antes de fabricar.",
-    "path": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd"
+    "status": "R52 · 2026-10-25",
+    "summary": "R52 verificada, com geometria de referência e fabricação condicionada. O R18 reúne fichas atuais e estudos separados de corte, ligações, instalação e cinemática; as propostas não foram incorporadas automaticamente ao modelo. Piano e trava permanecem a direção P20, com composição e fixação ainda a detalhar. Nenhuma capacidade ou medida de campo foi presumida.",
+    "path": "01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd",
+    "localOnly": true,
+    "available": true
+  },
+  {
+    "id": "cad-atual-notas",
+    "title": "O que mudou na R52",
+    "category": "FreeCAD",
+    "rooms": [
+      "all"
+    ],
+    "status": "Revisão local verificada",
+    "summary": "R52 verificada, com geometria de referência e fabricação condicionada. O R18 reúne fichas atuais e estudos separados de corte, ligações, instalação e forma de abertura. As propostas não foram incorporadas automaticamente ao modelo. Piano e trava permanecem a direção P20, com composição e fixação ainda a detalhar. Nenhuma capacidade ou medida de campo foi presumida.",
+    "path": "01_Projeto/Correcao_integral_R52_2026-10-25/README.md",
+    "available": true
   },
   {
     "id": "cad-r49",
@@ -288,7 +326,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R49 · 24/10",
     "summary": "Correções das gavetas do escritório e conferências P01, P02, P04 e P18.",
-    "path": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md"
+    "path": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/README.md",
+    "available": true
   },
   {
     "id": "cad-r48",
@@ -299,7 +338,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R48 · mantida na R49",
     "summary": "Canal removido do armário superior D e divisor levado até o fundo.",
-    "path": "01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md"
+    "path": "01_Projeto/Depurador_sem_canal_R48_2026-10-24/README.md",
+    "available": true
   },
   {
     "id": "cad-cores",
@@ -310,18 +350,20 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R16",
     "summary": "Veja os acabamentos representados. Compare as cores com amostras reais.",
-    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md"
+    "path": "01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md",
+    "available": true
   },
   {
     "id": "cad-southco",
     "title": "Modelo da alternativa Southco",
-    "category": "FreeCAD",
+    "category": "Histórico",
     "rooms": [
       "sala"
     ],
-    "status": "Estudo separado",
+    "status": "Não operacional",
     "summary": "Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.",
-    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Southco_Fixacao_ESTUDO.FCStd"
+    "path": "01_Projeto/Southco_banco_R47_2026-10-23/Southco_Fixacao_ESTUDO.FCStd",
+    "available": true
   },
   {
     "id": "cad-purangi",
@@ -332,7 +374,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Estudo separado",
     "summary": "Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.",
-    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Purangi_R45_SENSIBILIDADE.FCStd"
+    "path": "01_Projeto/Conferencia_torneiras_2026-10-23/Purangi_R45_SENSIBILIDADE.FCStd",
+    "available": true
   },
   {
     "id": "executivo",
@@ -354,7 +397,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Documento de origem",
     "summary": "Documento de origem. Confira as medidas reais depois dos acabamentos.",
-    "path": "02_Plantas_e_manuais/Planta_oficial.pdf"
+    "path": "02_Plantas_e_manuais/Planta_oficial.pdf",
+    "available": true
   },
   {
     "id": "pisos",
@@ -365,7 +409,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Escolhas e estudos",
     "summary": "Veja as escolhas de acabamento e o que falta conferir na instalação.",
-    "path": "01_Projeto/Pisos_e_rodapes.md"
+    "path": "01_Projeto/Pisos_e_rodapes.md",
+    "available": true
   },
   {
     "id": "luz-quarto",
@@ -376,7 +421,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Três níveis escolhidos",
     "summary": "Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.",
-    "path": "01_Projeto/Portas_e_quarto/Iluminacao_R00.md"
+    "path": "01_Projeto/Portas_e_quarto/Iluminacao_R00.md",
+    "available": true
   },
   {
     "id": "luz-economica",
@@ -387,7 +433,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "CB02 · 24/10",
     "summary": "Liny retirado por preço. Três níveis pelo interruptor escolhidos. Conjunto de referência R$109,88, sem frete e instalação.",
-    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md"
+    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Revisao_quarto_CB02.md",
+    "available": true
   },
   {
     "id": "luz-imagens",
@@ -398,7 +445,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Simulações CB02",
     "summary": "Quarto econômico, cozinha, lavanderia, sala, escritório e banheiro. Luz e escala aproximadas.",
-    "path": "03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md"
+    "path": "03_Referencias/Iluminacao_CB02_2026-10-24/Galeria.md",
+    "available": true
   },
   {
     "id": "luz-selecao",
@@ -409,7 +457,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "CB01 · histórico",
     "summary": "Seleção por ambiente. A CB02 substitui o plafon caro do quarto.",
-    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Selecao_CB01.md"
+    "path": "01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/Selecao_CB01.md",
+    "available": true
   },
   {
     "id": "tecidos-escolhas",
@@ -422,7 +471,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Areia · 24/10",
     "summary": "Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório.",
-    "path": "03_Referencias/Cortinas_estofados_2026-10-24/LEIA-ME.md"
+    "path": "03_Referencias/Cortinas_estofados_2026-10-24/LEIA-ME.md",
+    "available": true
   },
   {
     "id": "tecidos-codigos",
@@ -435,7 +485,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Candidatos comerciais",
     "summary": "Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar.",
-    "path": "03_Referencias/Cortinas_estofados_2026-10-24/Codigos_comerciais_2026-10-24.md"
+    "path": "03_Referencias/Cortinas_estofados_2026-10-24/Codigos_comerciais_2026-10-24.md",
+    "available": true
   },
   {
     "id": "cores-escolhidas",
@@ -447,7 +498,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Escolha para o projeto",
     "summary": "Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório.",
-    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Escolha_aprovada_R02.md"
+    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Escolha_aprovada_R02.md",
+    "available": true
   },
   {
     "id": "marfim-codigo",
@@ -458,7 +510,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Candidato",
     "summary": "Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.",
-    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Pesquisa_Marfim_comercial_2026-10-24.md"
+    "path": "03_Referencias/Tons_marcenaria_2026-10-24/Pesquisa_Marfim_comercial_2026-10-24.md",
+    "available": true
   },
   {
     "id": "instalacoes",
@@ -491,7 +544,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Escolhido",
     "summary": "Branco texturizado por dentro e os padrões escolhidos nas partes visíveis.",
-    "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md"
+    "path": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
+    "available": true
   },
   {
     "id": "planta-cotada",
@@ -502,7 +556,81 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R13",
     "summary": "Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site.",
-    "path": "05_Entregas/Planta_cotada_R13/index.html"
+    "path": "05_Entregas/Planta_cotada_R13/index.html",
+    "available": true
+  },
+  {
+    "id": "banco-atual",
+    "title": "Banco P20: assento, apoios e operação",
+    "category": "Montagem",
+    "rooms": [
+      "sala"
+    ],
+    "status": "Condicionado",
+    "summary": "Direção piano e trava. Composição, ligações e capacidade ainda dependem de detalhamento e protótipo.",
+    "path": "01_Projeto/P20_assento_fechado_2026-10-25/README.md",
+    "available": true
+  },
+  {
+    "id": "avancos-pendencias",
+    "title": "Avanços e pendências após a revisão integral",
+    "category": "Avanços e pendências",
+    "rooms": [
+      "all"
+    ],
+    "status": "Estudo separado",
+    "summary": "Próximas decisões separadas entre cálculo, produto/oficina e levantamento real. Estudos mantidos fora da geometria principal.",
+    "path": "01_Projeto/Continuidade_pos_R52_2026-10-25/README.md",
+    "available": true
+  },
+  {
+    "id": "corte-formatos",
+    "title": "Corte preliminar e formatos de chapa",
+    "category": "Avanços e pendências",
+    "rooms": [
+      "all"
+    ],
+    "status": "Estudo separado",
+    "summary": "249 painéis triados e36 propostas separadas. Planos preliminares não são compra, corte ou orientação de veio liberados.",
+    "path": "01_Projeto/Continuidade_pos_R52_2026-10-25/Corte_e_formatos/README.md",
+    "available": true
+  },
+  {
+    "id": "p01-p03-ligacoes",
+    "title": "P01/P03: caixa, apoios e ligações",
+    "category": "Avanços e pendências",
+    "rooms": [
+      "quarto"
+    ],
+    "status": "Estudo separado",
+    "summary": "Uniões entre peças e equilíbrio nominal. Caixa, juntas, rigidez e caminho até os apoios continuam condicionados.",
+    "path": "01_Projeto/Continuidade_pos_R52_2026-10-25/P01_P03/README.md",
+    "available": true
+  },
+  {
+    "id": "micro-p16-instalacao",
+    "title": "Instalação: micro-ondas e união entre peças das gavetas",
+    "category": "Avanços e pendências",
+    "rooms": [
+      "cozinha",
+      "escritorio"
+    ],
+    "status": "Estudo separado",
+    "summary": "Alternativa separada para300mm sobre ME23P, sem adoção automática. Dados e ensaios de produto/oficina ainda necessários.",
+    "path": "01_Projeto/Continuidade_pos_R52_2026-10-25/Instalacao_e_P16/README.md",
+    "available": true
+  },
+  {
+    "id": "cinematica-r52",
+    "title": "Forma de abertura consultável da R52",
+    "category": "Avanços e pendências",
+    "rooms": [
+      "all"
+    ],
+    "status": "Estudo separado",
+    "summary": "Fotografia e verificações numéricas da R52. Transformação nominal não certifica mecanismo comercial, resistência ou colisão física.",
+    "path": "01_Projeto/Continuidade_pos_R52_2026-10-25/Cinematica_R52/README.md",
+    "available": true
   },
   {
     "id": "fichas",
@@ -513,7 +641,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Medidas, materiais, peças de montagem e furos de cada móvel.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/index.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/index.html",
+    "available": true
   },
   {
     "id": "pendencias-r14",
@@ -524,7 +653,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Veja o que falta definir, testar na oficina e medir no apartamento.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/Pendencias.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/Pendencias.html",
+    "available": true
   },
   {
     "id": "campo",
@@ -535,7 +665,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Preencher em campo",
     "summary": "Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/Levantamento.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/Levantamento.html",
+    "available": true
   },
   {
     "id": "ficha-P01",
@@ -546,7 +677,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P01.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P01.html",
+    "available": true
   },
   {
     "id": "ficha-P02",
@@ -557,7 +689,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P02.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P02.html",
+    "available": true
   },
   {
     "id": "ficha-P03",
@@ -568,7 +701,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P03.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P03.html",
+    "available": true
   },
   {
     "id": "ficha-P04",
@@ -579,7 +713,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P04.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P04.html",
+    "available": true
   },
   {
     "id": "ficha-P05",
@@ -590,7 +725,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P05.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P05.html",
+    "available": true
   },
   {
     "id": "ficha-P06",
@@ -601,7 +737,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P06.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P06.html",
+    "available": true
   },
   {
     "id": "ficha-P07",
@@ -612,7 +749,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P07.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P07.html",
+    "available": true
   },
   {
     "id": "ficha-P08",
@@ -623,7 +761,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P08.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P08.html",
+    "available": true
   },
   {
     "id": "ficha-P09",
@@ -634,7 +773,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P09.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P09.html",
+    "available": true
   },
   {
     "id": "ficha-P10",
@@ -645,7 +785,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P10.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P10.html",
+    "available": true
   },
   {
     "id": "ficha-P11",
@@ -656,7 +797,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P11.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P11.html",
+    "available": true
   },
   {
     "id": "ficha-P12",
@@ -667,7 +809,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P12.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P12.html",
+    "available": true
   },
   {
     "id": "ficha-P13",
@@ -678,7 +821,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P13.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P13.html",
+    "available": true
   },
   {
     "id": "ficha-P14",
@@ -689,7 +833,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P14.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P14.html",
+    "available": true
   },
   {
     "id": "ficha-P15",
@@ -700,7 +845,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P15.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P15.html",
+    "available": true
   },
   {
     "id": "ficha-P16",
@@ -711,7 +857,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P16.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P16.html",
+    "available": true
   },
   {
     "id": "ficha-P17",
@@ -722,7 +869,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P17.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P17.html",
+    "available": true
   },
   {
     "id": "ficha-P18",
@@ -733,7 +881,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P18.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P18.html",
+    "available": true
   },
   {
     "id": "ficha-P19",
@@ -744,7 +893,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P19.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P19.html",
+    "available": true
   },
   {
     "id": "ficha-P20",
@@ -755,7 +905,8 @@ const WORKSHOP_DOCS = [
     ],
     "status": "R14",
     "summary": "Consulte as medidas, os materiais, a montagem e o que falta conferir.",
-    "path": "05_Entregas/Fichas_fabricacao_R13/P20.html"
+    "path": "05_Entregas/Fichas_fabricacao_R13/P20.html",
+    "available": true
   }
 ];
 const MODULE_GUIDANCE = {
@@ -21222,9 +21373,8 @@ const MODULE_GUIDANCE = {
   },
   "P20": {
     "hardware": [
-      "Batentes independentes das tampas: definição específica na ficha · candidato",
-      "Chapas móveis de contato do batente: Aço30 ×80 ×10mm no eixo hipotéticoX100/Z430 · candidato",
       "Uniões das chapas do armário: estrutura do armário fixa com uniões mecânicas ocultas. Apoio fixo da piano e articuladores a detalhar · Estratégia selecionada. Mapa parcial",
+      "Limitação independente da abertura das tampas: Componente, apoio, geometria e fixação a definir para piano + articuladores · Necessidade funcional. Solução e quantitativo pendentes",
       "Dobradiça piano das tampas 971 e 825: Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30. Referência dimensional Mahler Ref.54 · Proposta de cotação. Protótipo pendente",
       "Articuladores com trava das tampas: Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça · Proposta de cotação. Protótipo pendente"
     ],
@@ -21243,9 +21393,7 @@ const MODULE_GUIDANCE = {
       "ficha-P20",
       "matriz",
       "fixas",
-      "banco",
-      "southco",
-      "batente",
+      "banco-atual",
       "mesa-varal",
       "acabamentos-r13"
     ],
@@ -21699,7 +21847,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel1 (BancoR43_Painel1)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava. Não inferir material ou chapa comercial de duas faces.",
           "quantity": 1
         },
         {
@@ -21716,43 +21864,11 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel2 (BancoR43_Painel2)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava. Não inferir material ou chapa comercial de duas faces.",
           "quantity": 1
         }
       ],
       "hardwareRows": [
-        {
-          "item": "Batentes independentes das tampas",
-          "reference": null,
-          "quantity": 2,
-          "unit": "conjunto",
-          "status": "candidato",
-          "assembly": "2conjuntos adicionais aos4suportesSouthco. Não usar encosto estofado ou limite de software como parada.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
-              "trecho": "Um batente independente por tampa, central longitudinalmente emY4236,5 eY5136,5, com suporte metálico próprio ancorado à traseira do corpo. Não usar o encosto estofado como estrutura nem atribuir capacidade de parada à dobradiça Southco. Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização"
-            }
-          ],
-          "derivation": "1 conjunto por tampa × 2 tampas",
-          "explanation": ""
-        },
-        {
-          "item": "Chapas móveis de contato do batente",
-          "reference": "Aço30 ×80 ×10mm no eixo hipotéticoX100/Z430",
-          "quantity": 2,
-          "unit": "peça",
-          "status": "candidato",
-          "assembly": "Dimensão depende diretamente do eixo real. Não fabricar pela hipótese. União à tampa não definida.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
-              "trecho": "Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização devem ficar dentro da espessura da tampa, sem peças inferiores invadindo armazenamento. Não está especificada a união definitiva da chapa à tampa. Batente fixo com face frontal emX100, largura80, contato emZ454–466 e corpo dentro deX84–100. O suporte inferior e a placa receptora podem seguir o princípio R47, com dimensionamento próprio: aço de8mm, largura"
-            }
-          ],
-          "derivation": "1 chapa por conjunto de batente",
-          "explanation": ""
-        },
         {
           "item": "Uniões das chapas do armário",
           "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
@@ -21764,6 +21880,21 @@ const MODULE_GUIDANCE = {
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "item": "Limitação independente da abertura das tampas",
+          "reference": "Componente, apoio, geometria e fixação a definir para piano + articuladores",
+          "quantity": null,
+          "unit": "conjunto(s) a definir por tampa",
+          "status": "Necessidade funcional. Solução e quantitativo pendentes",
+          "assembly": "Cada tampa exige limitação de abertura comprovada. Conferir se o articulador real cumpre essa função e, caso contrário, detalhar batente independente. Não usar encosto estofado ou limite de software como parada. Não transferir chapas, eixos ou suportes da alternativa histórica.",
+          "sources": [
+            {
+              "title": "Conferência nominal e fechamento pendente das ferragens simples",
+              "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md"
             }
           ],
           "explanation": ""
@@ -21833,7 +21964,7 @@ const MODULE_GUIDANCE = {
           "measure": "Percurso disponível para abrir as duas tampas e acessar o baú.",
           "method": "Usar gabaritos das tampas/almofadas aprovados em oficina, na posição de uso. Registrar obstáculos da sala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Abertura e manutenção. Eixo Southco, torque, espuma, bolsões e ferragem real são decisões/ensaios de oficina.",
+          "affects": "Abertura e manutenção. Eixo da piano, terminais e trava dos articuladores, espuma, bolsões e limitação de abertura são decisões/ensaios de oficina. Não são medidas do apartamento.",
           "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais. Diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
@@ -21856,22 +21987,21 @@ const MODULE_GUIDANCE = {
       ],
       "assembly": [
         "Preservar duas tampas e armazenamento. Três painéis do encosto não significam três tampas.",
-        "Não fabricar o batente pela hipótese do eixo: ferragem real, ligação e receptor precisam ser fechados.",
-        "Bolsões sob almofadas já autorizados:4provisórios40 ×96 ×25com25mmnominais de espuma acima. Volumes do desenho não validam cilindro real ou batente.",
         "Assento fechado deve apoiar no corpo/apoios. Dobradiça piano e articuladores não recebem automaticamente a carga de assento.",
-        "Southco E6 e batente R47 permanecem em estudo separado como alternativa. Não usar Rockler traseira rejeitada como especificação vigente."
+        "Bolsões sob almofadas só devem ser definidos após conferir a piano, os articuladores e a limitação de abertura reais. Não reutilizar quantidades ou dimensões dos bolsões da alternativa anterior.",
+        "Eixo, apoio fixo, terminais, folgas e limitação de abertura precisam de desenho e protótipo do conjunto piano + trava antes de furar as tampas.",
+        "Alternativas anteriores permanecem no histórico separado. Não usar Rockler traseira rejeitada como especificação vigente."
       ],
       "sources": [
-        "01_Projeto/Southco_banco_R47_2026-10-23/Relatorio.html",
-        "01_Projeto/Southco_banco_R47_2026-10-23/Geometria_fabricante.md",
-        "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
-        "01_Projeto/Southco_banco_R47_2026-10-23/CAD_busca_2026-10-23.md",
         "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Matriz_20_modulos.md",
         "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
         "01_Projeto/Registro_de_decisoes.md",
         "01_Projeto/Estudo_interativo/src/cad-data.js",
         "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md",
-        "01_Projeto/Estudo_interativo/fabrication/technical-r14.json"
+        "01_Projeto/Estudo_interativo/fabrication/technical-r14.json",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Diretriz.md",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md"
       ],
       "sheetPath": "05_Entregas/Fichas_fabricacao_R13/P20.html",
       "drawingPath": "05_Entregas/Fichas_fabricacao_R13/P20.svg",
@@ -21882,7 +22012,7 @@ const MODULE_GUIDANCE = {
           "quantity": null,
           "unit": "",
           "status": "Diretriz de 23/10/2026. Produto e montagem pendentes",
-          "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.",
+          "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Alternativas anteriores e seus componentes permanecem somente no histórico separado.",
           "sources": [
             {
               "title": "Diretriz banco e cesto",
@@ -22537,7 +22667,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel1 (BancoR43_Painel1)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava. Não inferir material ou chapa comercial de duas faces.",
           "quantity": 1,
           "ids": [
             "BancoR43_Painel1"
@@ -22563,7 +22693,7 @@ const MODULE_GUIDANCE = {
           "specifiedMaterial": "Branco TX · faces internas",
           "materialEvidence": "01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel2 (BancoR43_Painel2)",
           "finishComplete": false,
-          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição com receptor R47. Não inferir uma chapa comercial de duas faces.",
+          "remainingFinish": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava. Não inferir material ou chapa comercial de duas faces.",
           "quantity": 1,
           "ids": [
             "BancoR43_Painel2"

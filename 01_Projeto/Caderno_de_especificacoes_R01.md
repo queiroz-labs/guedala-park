@@ -1,6 +1,6 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-24 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria FreeCAD R45). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
+Gerado em 2026-10-25 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R52). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../05_Entregas/Fichas_fabricacao_R13/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -16,20 +16,20 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Greenplac Arenza | Cozinha, Escritório, Lavanderia, Sala + jantar, Quarto | Escolhido / referência | Escolhido na cozinha/escritório e testeira. |
 | Guararapes Azul Petróleo | Cozinha | Escolhido | Superiores contínuos da geladeira ao cooktop. |
 | Duratex Azul Profundo | Cozinha | Alternativa | Alternativa de chapa à cor principal, ainda não escolhida. |
-| Granito Branco Itaúnas | Cozinha, Lavanderia, Banheiro | Escolhido | Pedra natural; padrão e cor variam por lote. |
+| Granito Branco Itaúnas | Cozinha, Lavanderia, Banheiro | Escolhido | Pedra natural. Padrão e cor variam por lote. |
 | Algodão Egípcio | Sala + jantar, Quarto, Escritório, Cozinha, Lavanderia, Banheiro | Escolhido | Na cozinha e lavanderia, acabamento fosco com resistência à limpeza escolhido. |
-| Off-white fosco | Sala + jantar, Escritório, Quarto | Direção aprovada | Frentes lisas e claras. |
+| Off-white fosco | Sala + jantar, Escritório, Quarto | Escolha para o projeto | Frentes lisas e claras. |
 | Inox Look | Cozinha, Lavanderia | Escolhido | Acabamento escolhido para IB6S e LG VC4. |
 | Bouclê bege-claro · Bonnie | Sala + jantar | Escolhido | Modelo e versão de referência escolhidos. |
 | Cinza-claro · Daiane | Escritório | Escolhido | Cinza-claro aprovado. |
-| Bege / greige estofado | Quarto, Sala + jantar | Direção / proposta | Cabeceira clara aprovada como composição. |
+| Bege / greige estofado | Quarto, Sala + jantar | Proposta a conferir | Cabeceira clara aprovada como composição. |
 | Portobello Vivant Sauge Mate | Banheiro | Escolhido | RB-01 · 7 × 24,4 cm · parede focal do box. |
 | Travertino Reale Greige | Banheiro | Escolhido | Biancogres PB-01 Satin 90 × 90 cm. |
 | Eliane Iseo Marfim AC | Lavanderia | Escolhido | PL-01 · 90 × 90 cm. Entrega cerâmica. |
 | Preto / grafite | Todos | Escolhido | Metais, pedestal, eletrônicos e detalhes. |
-| Tarkett Ambienta Design Olmo · 24192727 | Sala + jantar, Quarto, Escritório, Cozinha | Preferência aprovada | Vinílico em toda a casa, exceto banheiro/lavanderia. |
-| Arauco Beige Matt · banheiro | Banheiro | Escolhido | Código escolhido em24/10/2026. |
-| Arauco Louro Freijó Poro · laterais do banheiro | Banheiro | Escolhido | Código escolhido em24/10/2026 para laterais aparentes do gabinete e espelheiro. |
+| Tarkett Ambienta Design Olmo · 24192727 | Sala + jantar, Quarto, Escritório, Cozinha | Opção preferida | Vinílico em toda a casa, exceto banheiro/lavanderia. |
+| Arauco Beige Matt · banheiro | Banheiro | Escolhido | Código escolhido em 24/10/2026. |
+| Arauco Louro Freijó Poro · laterais do banheiro | Banheiro | Escolhido | Código escolhido em 24/10/2026 para laterais aparentes do gabinete e espelheiro. |
 
 ## 2. Itens por ambiente
 
@@ -55,7 +55,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Queen com baú futura · cenário do quarto | Tamanho futuro escolhido | Reserva 200 × 160 cm · colchão padrão 198 × 158 | A cama existente é de viúvo com baú, para a mudança. |
 | Roupeiro 65 cm · interior aprovado e canto atual | Aprovado | 200 ×65 cm · conjunto superior até 244 cm no cenário | Profundidade 65 cm preservada. |
 | Cabeceira estofada em dois painéis | Aprovado | Composição em dois painéis · cotas de estudo no modelo | Composição clara preservada, dividida em dois painéis conforme FreeCAD. |
-| Aéreos em L alinhados · canto independente | Aprovado para desenvolver | Profundidades65/25 cm · base213,2 · topo244 cm de estudo | Maleiro e aéreo da cabeceira alinhados na mesma face inferior, sem móvel extra empilhado. |
+| Aéreos em L alinhados · canto independente | Aprovado para desenvolver | Profundidades65/25 cm · base213,2 · topo244 cm de estudo | Armário sobre o guarda-roupa e armário superior da cabeceira alinhados na mesma face inferior, sem móvel extra empilhado. |
 | Espelho de corpo inteiro Cebrace prata | Aprovado | 50 × 180 cm · 5 mm | Centralizado na lateral de 60 cm do guarda-roupa, com margens nominais de 5 cm e base a 20 cm do piso. |
 
 ### 2.3. Escritório
@@ -67,7 +67,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Notebook + dois monitores + CH360 | Aprovado | 2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm | Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. |
 | Sofá-cama Daiane cinza-claro | Aprovado | 140 × 90 fechado / 140 × 182 aberto cm | Braço junto à parede da porta no cotidiano. |
 | Cadeira · cenário Ultra Comfort | Em estudo | 74,5 × 73 cm · altura 120 ilustrativa | Ultra Comfort não escolhida. |
-| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Aéreo20 mm mais baixo que a referência antiga, com20 mm nominais de folga ao teto de247 cm. |
+| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm. |
 | Prateleira alta dos consoles | Parcial | 110 × 35 cm · topo a 195 cm | Altura aprovada por circulação. |
 | Samsung 43″ existente | Existente | 97 × 56 × 5 cm · gabarito | Parede oposta ao sofá. |
 | Volante e pedais futuros | Futuro | Dimensões / guarda pendentes | Logitech pretendido, G29 candidato. |
@@ -92,7 +92,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Lixeira comum Biovis Coleta 15 L | Aprovado | 21 × 34 × 47 cm | Inox escovado, pedal e balde removível. |
 | Pedra, pintura e pegas | Aprovado | Faixa de pedra 10 cm · referência visual | Branco Itaúnas com borda reta e arestas suavizadas. |
 | Torre automática de tomadas | Aprovado para desenvolver | Saída 20 A · compatível com 127 V | Sobe ao pressionar, tampa preta e posição na área seca. |
-| Plafon quadrado branco | Aprovado para desenvolver | Referência 41 × 41 × 3,8 cm · 3000 K | Formato aprovado desde que preserve a abertura livre dos aéreos. |
+| Plafon quadrado branco | Aprovado para desenvolver | Referência 41 × 41 × 3,8 cm · 3000 K | Formato aprovado desde que preserve a abertura livre dos armários superiores. |
 | Luz regulável da bancada | Aprovado para desenvolver | 3000 K · comando independente | Ligar, desligar e regular a intensidade da luz de preparo/pia. |
 
 ### 2.5. Lavanderia
@@ -100,11 +100,11 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Item | Situação | Medidas de referência | Observação |
 |---|---|---|---|
 | Philips Walita RI9252/91 | Aprovado | 26,4 × 36 × 29,5 cm · referência | Permanece desligada sobre a pedra da lavanderia. |
-| Cafeteira Mondial existente | Existente | Modelo e dimensões adiados | Faz café por caneca; rotina para duas canecas. |
+| Cafeteira Mondial existente | Existente | Modelo e dimensões adiados | Faz café por caneca. Rotina para duas canecas. Uso previsto na lavanderia sem roupas no varal. Espaço a definir: modelo e dimensões adiados; sem volume no desenho e sem encaixe simultâneo demonstrado na bancada da cozinha. Não presumir funcionamento simultâneo com air fryer. |
 | LG VC4 CV5012PC4 Inox Look | Aprovado | 60 × 62 × 85 cm até porta fechada | 127 V. Reserva mínima de 64 cm de largura e 85,5 cm de altura, mais nivelamento. |
 | Tanque integrado à pedra contínua | Aprovado para desenvolver | 38 × 35 × 20 cm internos · bancada 75 cm P | Branco Itaúnas contínuo com a cozinha, com faixa de 10 cm na parede e arestas suavizadas. |
 | Superiores da lavanderia em Arenza | Aprovado | Faixa de 133 cm · módulos e alturas em estudo | Transição após o cooktop. |
-| Rinnai E21 GN REU-E211 FEH | Aprovado | 35 × 15,7 × 53 cm · referência a conferir | GN confirmado. Aparelho e exaustão continuam candidatos de compatibilização. |
+| Rinnai E21 GN REU-E211 FEH | Aprovado | 35 × 15,7 × 53 cm · referência a conferir | GN confirmado. Aparelho e exaustão continuam candidatos de conferência de encaixe e montagem. |
 | Varal vertical · quadro inteiro manual | Aprovado para desenvolver | Grelha 100 × 50 cm | Movimento vertical, acionamento manual por manivela. |
 | Lixeira de recicláveis Tramontina Loop 20 L | Aprovado | 29 × 29 × 43,7 cm | Referência 94547020. Inox polido, pedal, fechamento suave e balde removível. |
 | Cesto basculante com saco removível | Aprovado para desenvolver | 45 × 25 × 45 cm · abertura 55° de referência | Frente lisa Arenza, pega superior e ventilação discretas, mantendo continuidade da cozinha. |

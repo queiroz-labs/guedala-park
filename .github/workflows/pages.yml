@@ -20,9 +20,16 @@ jobs:
       - name: Instalar ferramenta de build
         run: npm ci --prefix 01_Projeto/Estudo_interativo --ignore-scripts
       - name: Conferir orientação e aberturas
-        run: node 01_Projeto/Estudo_interativo/test_orientation.cjs
+        run: |
+          node 01_Projeto/Estudo_interativo/test_orientation.cjs
+          node 01_Projeto/Estudo_interativo/test_scene_revision.cjs
+          node 01_Projeto/Estudo_interativo/test_lighting.cjs
       - name: Preparar HTML e moodboard
-        run: python3 01_Projeto/Estudo_interativo/preparar_pages.py
+        run: python3 -B 01_Projeto/Estudo_interativo/preparar_pages.py --output-dir "$RUNNER_TEMP/guedala-pages" --publication-ready --package-mode auto
+      - name: Conferir revisão e selagem do pacote
+        env:
+          GUEDALA_TEST_ROOT: ${{ runner.temp }}/guedala-testes
+        run: python3 -B 01_Projeto/Estudo_interativo/test_current_release.py
       - name: Conferir agrupamento de peças
         run: |
           python3 01_Projeto/Estudo_interativo/test_part_groups.py
@@ -31,7 +38,7 @@ jobs:
         run: node 01_Projeto/Estudo_interativo/test_storage.cjs
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: .site
+          path: ${{ runner.temp }}/guedala-pages
 
   deploy:
     needs: build

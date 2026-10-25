@@ -1,0 +1,641 @@
+{
+  "classified": [
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR080",
+      "component": 1,
+      "role": "under_bottom",
+      "volume_mm3": 4.467531679404784,
+      "box_mm": [
+        4343.4505382386915,
+        292.0,
+        529.0,
+        4346.2,
+        301.2850000000001,
+        529.175
+      ],
+      "size_mm": [
+        2.749461761308339,
+        9.285000000000082,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4344.825269119346,
+        296.6425000000001,
+        529.0875000000001
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR080",
+      "component": 2,
+      "role": "under_bottom",
+      "volume_mm3": 3.6994999999990656,
+      "box_mm": [
+        4359.5499999994745,
+        292.0,
+        529.0,
+        4363.5499999994745,
+        297.2850000000001,
+        529.175
+      ],
+      "size_mm": [
+        4.0,
+        5.285000000000082,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4361.5499999994745,
+        294.6425,
+        529.0875000000001
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR080",
+      "component": 3,
+      "role": "under_bottom",
+      "volume_mm3": 4.147884050442764,
+      "box_mm": [
+        4350.12,
+        645.749999999999,
+        529.0,
+        4356.62,
+        652.249999999999,
+        529.125
+      ],
+      "size_mm": [
+        6.5,
+        6.5,
+        0.125
+      ],
+      "center_mm": [
+        4353.37,
+        648.9999999999989,
+        529.0625
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Cylinder",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR080",
+      "component": 4,
+      "role": "under_bottom",
+      "volume_mm3": 39.815121950551806,
+      "box_mm": [
+        4348.37,
+        524.1073170732136,
+        529.0,
+        4358.37,
+        556.8926829267792,
+        529.134999999998
+      ],
+      "size_mm": [
+        10.0,
+        32.78536585356562,
+        0.13499999999794454
+      ],
+      "center_mm": [
+        4353.370000000001,
+        540.4999999999928,
+        529.0649880085998
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR082",
+      "component": 1,
+      "role": "under_bottom",
+      "volume_mm3": 3.699499999999037,
+      "box_mm": [
+        4636.4500000005255,
+        292.0,
+        529.0,
+        4640.4500000005255,
+        297.285,
+        529.175
+      ],
+      "size_mm": [
+        4.0,
+        5.285000000000025,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4638.450000000525,
+        294.64250000000004,
+        529.0875
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR082",
+      "component": 2,
+      "role": "under_bottom",
+      "volume_mm3": 4.467531679404744,
+      "box_mm": [
+        4653.8,
+        292.0,
+        529.0,
+        4656.5494617613085,
+        301.285,
+        529.175
+      ],
+      "size_mm": [
+        2.749461761308339,
+        9.285000000000025,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4655.174730880655,
+        296.64250000000004,
+        529.0875
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR082",
+      "component": 3,
+      "role": "rear_bore_region",
+      "volume_mm3": 1.9023520084631498,
+      "box_mm": [
+        4656.915986110736,
+        292.0,
+        539.5049999995808,
+        4657.317729794136,
+        296.9916303267742,
+        540.7050000002095
+      ],
+      "size_mm": [
+        0.40174368339921784,
+        4.991630326774214,
+        1.20000000062862
+      ],
+      "center_mm": [
+        4657.144187845735,
+        294.3352763243153,
+        540.1182226116159
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR082",
+      "component": 4,
+      "role": "under_bottom",
+      "volume_mm3": 4.147884050442767,
+      "box_mm": [
+        4643.38,
+        645.749999999999,
+        529.0,
+        4649.88,
+        652.249999999999,
+        529.125
+      ],
+      "size_mm": [
+        6.5,
+        6.5,
+        0.125
+      ],
+      "center_mm": [
+        4646.63,
+        648.9999999999989,
+        529.0625
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Cylinder",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta008",
+      "floor": "GavetaComumR074",
+      "guide": "GavetaComumR082",
+      "component": 5,
+      "role": "under_bottom",
+      "volume_mm3": 39.815121950548075,
+      "box_mm": [
+        4641.63,
+        524.1073170732136,
+        529.0,
+        4651.63,
+        556.8926829267784,
+        529.134999999998
+      ],
+      "size_mm": [
+        10.0,
+        32.78536585356483,
+        0.13499999999794454
+      ],
+      "center_mm": [
+        4646.630000000001,
+        540.4999999999928,
+        529.0649880085999
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR092",
+      "component": 1,
+      "role": "under_bottom",
+      "volume_mm3": 4.467531679404784,
+      "box_mm": [
+        4343.4505382386915,
+        292.0,
+        633.0,
+        4346.2,
+        301.2850000000001,
+        633.175
+      ],
+      "size_mm": [
+        2.749461761308339,
+        9.285000000000082,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4344.825269119346,
+        296.6425000000001,
+        633.0875000000001
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR092",
+      "component": 2,
+      "role": "under_bottom",
+      "volume_mm3": 3.6994999999990656,
+      "box_mm": [
+        4359.5499999994745,
+        292.0,
+        633.0,
+        4363.5499999994745,
+        297.2850000000001,
+        633.175
+      ],
+      "size_mm": [
+        4.0,
+        5.285000000000082,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4361.5499999994745,
+        294.6425,
+        633.0874999999999
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR092",
+      "component": 3,
+      "role": "under_bottom",
+      "volume_mm3": 4.147884050442764,
+      "box_mm": [
+        4350.12,
+        645.749999999999,
+        633.0,
+        4356.62,
+        652.249999999999,
+        633.125
+      ],
+      "size_mm": [
+        6.5,
+        6.5,
+        0.125
+      ],
+      "center_mm": [
+        4353.37,
+        648.9999999999989,
+        633.0625
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Cylinder",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR092",
+      "component": 4,
+      "role": "under_bottom",
+      "volume_mm3": 39.81512195054752,
+      "box_mm": [
+        4348.37,
+        524.1073170732143,
+        633.0,
+        4358.37,
+        556.8926829267792,
+        633.134999999998
+      ],
+      "size_mm": [
+        10.0,
+        32.78536585356494,
+        0.13499999999794454
+      ],
+      "center_mm": [
+        4353.370000000001,
+        540.4999999999924,
+        633.0649880086
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR094",
+      "component": 1,
+      "role": "under_bottom",
+      "volume_mm3": 3.699499999999037,
+      "box_mm": [
+        4636.4500000005255,
+        292.0,
+        633.0,
+        4640.4500000005255,
+        297.285,
+        633.175
+      ],
+      "size_mm": [
+        4.0,
+        5.285000000000025,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4638.450000000525,
+        294.64250000000004,
+        633.0874999999999
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR094",
+      "component": 2,
+      "role": "under_bottom",
+      "volume_mm3": 4.467531679404744,
+      "box_mm": [
+        4653.8,
+        292.0,
+        633.0,
+        4656.5494617613085,
+        301.285,
+        633.175
+      ],
+      "size_mm": [
+        2.749461761308339,
+        9.285000000000025,
+        0.17499999999995453
+      ],
+      "center_mm": [
+        4655.174730880655,
+        296.64250000000004,
+        633.0874999999999
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR094",
+      "component": 3,
+      "role": "rear_bore_region",
+      "volume_mm3": 1.9023520084631493,
+      "box_mm": [
+        4656.915986110736,
+        292.0,
+        643.5049999995808,
+        4657.317729794136,
+        296.9916303267742,
+        644.7050000002095
+      ],
+      "size_mm": [
+        0.40174368339921784,
+        4.991630326774214,
+        1.20000000062862
+      ],
+      "center_mm": [
+        4657.144187845737,
+        294.3352763243153,
+        644.1182226116158
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR094",
+      "component": 4,
+      "role": "under_bottom",
+      "volume_mm3": 4.147884050442767,
+      "box_mm": [
+        4643.38,
+        645.749999999999,
+        633.0,
+        4649.88,
+        652.249999999999,
+        633.125
+      ],
+      "size_mm": [
+        6.5,
+        6.5,
+        0.125
+      ],
+      "center_mm": [
+        4646.63,
+        648.9999999999989,
+        633.0625
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Cylinder",
+        "Cylinder",
+        "Plane"
+      ]
+    },
+    {
+      "drawer": "Gaveta009",
+      "floor": "GavetaComumR086",
+      "guide": "GavetaComumR094",
+      "component": 5,
+      "role": "under_bottom",
+      "volume_mm3": 39.815121950543784,
+      "box_mm": [
+        4641.63,
+        524.1073170732143,
+        633.0,
+        4651.63,
+        556.8926829267784,
+        633.134999999998
+      ],
+      "size_mm": [
+        10.0,
+        32.785365853564144,
+        0.13499999999794454
+      ],
+      "center_mm": [
+        4646.630000000001,
+        540.4999999999923,
+        633.0649880085998
+      ],
+      "valid": true,
+      "face_surface_types": [
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane",
+        "Plane"
+      ]
+    }
+  ],
+  "summary": {
+    "under_bottom_components": 16,
+    "rear_bore_components": 2,
+    "positive_pairs": 4,
+    "tested_pairs": 8,
+    "guide400_and_configured_G2_same_component_pattern": true,
+    "nominal_bores_checked": 4,
+    "comparison_is_physical_approval": false
+  },
+  "inputs_sha256": {
+    "Intersecoes_localizadas.json": "dd7f598f175651731d8034763baa2dd9a5c972b4c60dfe26c4bfc7e8450f83c9",
+    "Referencia_G2_e_furos_P16.json": "d83b2c759e37ae468565c77ecad6dd0218a42c47075c9acdcf68e0715e4ed82e",
+    "analisar.py": "fc7fb7b96f5af27bb4bac0f0aa6e3f7103f9b82bc6d21cd0fac063fb4111c4cf"
+  },
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16"
+}

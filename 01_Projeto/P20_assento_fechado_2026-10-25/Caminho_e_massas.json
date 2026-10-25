@@ -1,0 +1,75 @@
+{
+  "combined": {
+    "case": "Duas massas80 na maior + uma80 no centro da menor, patches200x200",
+    "live_total_kg": 240,
+    "self_mass_lids_proxy_kg": 14.482943999999998,
+    "vertical_N_by_part": {
+      "Peca407": 208.97272132999638,
+      "Peca408": 554.1526501089838,
+      "PecaBancoR16": 566.9987798197002,
+      "PecaBancoR003": 839.4377358822424,
+      "PecaBancoR004": 231.83621433995302,
+      "PecaBancoR005": 46.175069977553804,
+      "Peca406AtualR31": 48.051991319170156
+    },
+    "body_group_K_required_N_mm_for_0_2mm": {
+      "Peca407": 1044.8636066499819,
+      "Peca408": 2770.763250544919,
+      "PecaBancoR16": 2834.9938990985006,
+      "PecaBancoR003": 4197.1886794112115,
+      "PecaBancoR004": 1159.181071699765,
+      "PecaBancoR005": 230.875349887769,
+      "Peca406AtualR31": 240.25995659585078
+    },
+    "note": "Requisito de grupo e caminho ate o piso; nao e rigidez/capacidade de parafuso. Exclui peso proprio do corpo, conteudo e excentricidades."
+  },
+  "mass_ledger": {
+    "parts": 27,
+    "body_wood_names": [
+      "Peca407",
+      "Peca408",
+      "PecaBancoR16",
+      "Peca406AtualR31",
+      "PecaBancoR001",
+      "PecaBancoR002",
+      "PecaBancoR003",
+      "PecaBancoR004",
+      "PecaBancoR005",
+      "Ref_Apoio_B01R31",
+      "Ref_Apoio_B02R31",
+      "Ref_Apoio_B03R31",
+      "Ref_Apoio_B04R31",
+      "Ref_Sarrafo_frente0R31",
+      "Ref_Sarrafo_tras0R31",
+      "Ref_Sarrafo_frente1R31",
+      "Ref_Sarrafo_tras1R31",
+      "Ref_Sarrafo_frente2R31",
+      "Ref_Sarrafo_tras2R31",
+      "Ref_Sarrafo_frente3R31",
+      "Ref_Sarrafo_tras3R31",
+      "PecaBancoR029",
+      "PecaBancoR030",
+      "PecaBancoR007AtualR31",
+      "PecaBancoR006AtualR31"
+    ],
+    "lid_names": [
+      "BancoR43_Painel1",
+      "BancoR43_Painel2"
+    ],
+    "volume_m3": 0.08528596,
+    "sensitivity_kg_by_density": {
+      "650": 55.435874,
+      "800": 68.228768,
+      "900": 76.757364
+    },
+    "excluded": [
+      "almofadas",
+      "tecido e espuma de encosto",
+      "saco/acessorios",
+      "ferragens e fixadores",
+      "itens guardados",
+      "diferencas reais do acabamento/composicao"
+    ],
+    "note": "Volumes CAD vezes densidade hipotetica uniforme. Tampas20 sao envelope acabado: rever por camadas reais, nao somar acabamentos de novo sem decompor. Nao e pesagem nem lista final de corte."
+  }
+}

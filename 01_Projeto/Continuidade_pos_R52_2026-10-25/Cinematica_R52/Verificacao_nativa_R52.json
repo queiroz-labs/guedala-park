@@ -1,0 +1,405 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "poses": 66,
+  "max_error_mm": 1.8189894035458565e-12,
+  "source_unchanged": true,
+  "passed": true,
+  "samples": [
+    {
+      "leaf": "Folha",
+      "front": "FrenteComumR015",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha",
+      "front": "FrenteComumR015",
+      "angle": 45,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "Folha",
+      "front": "FrenteComumR015",
+      "angle": 86,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "Folha001",
+      "front": "FrenteComumR016",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha001",
+      "front": "FrenteComumR016",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha001",
+      "front": "FrenteComumR016",
+      "angle": 86,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "Folha002",
+      "front": "FrenteComumR017",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha002",
+      "front": "FrenteComumR017",
+      "angle": 45,
+      "error_mm": 1.8189894035458565e-12
+    },
+    {
+      "leaf": "Folha002",
+      "front": "FrenteComumR017",
+      "angle": 86,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha004",
+      "front": "FrenteComumR10",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha004",
+      "front": "FrenteComumR10",
+      "angle": 45,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha004",
+      "front": "FrenteComumR10",
+      "angle": 86,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha005",
+      "front": "FrenteComumR001",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha005",
+      "front": "FrenteComumR001",
+      "angle": 45,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha005",
+      "front": "FrenteComumR001",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha006",
+      "front": "FrenteComumR002",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha006",
+      "front": "FrenteComumR002",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha006",
+      "front": "FrenteComumR002",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha007",
+      "front": "FrenteComumR003",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha007",
+      "front": "FrenteComumR003",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha007",
+      "front": "FrenteComumR003",
+      "angle": 86,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha008",
+      "front": "FrenteComumR004",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha008",
+      "front": "FrenteComumR004",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha008",
+      "front": "FrenteComumR004",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha009",
+      "front": "FrenteComumR005",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha009",
+      "front": "FrenteComumR005",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha009",
+      "front": "FrenteComumR005",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha010",
+      "front": "FrenteComumR006",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha010",
+      "front": "FrenteComumR006",
+      "angle": 45,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha010",
+      "front": "FrenteComumR006",
+      "angle": 86,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha011",
+      "front": "FrenteComumR007",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha011",
+      "front": "FrenteComumR007",
+      "angle": 45,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha011",
+      "front": "FrenteComumR007",
+      "angle": 86,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "Folha012",
+      "front": "FrenteComumR008",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha012",
+      "front": "FrenteComumR008",
+      "angle": 45,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "Folha012",
+      "front": "FrenteComumR008",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha013",
+      "front": "FrenteComumR009",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha013",
+      "front": "FrenteComumR009",
+      "angle": 45,
+      "error_mm": 3.410605131648481e-13
+    },
+    {
+      "leaf": "Folha013",
+      "front": "FrenteComumR009",
+      "angle": 86,
+      "error_mm": 3.410605131648481e-13
+    },
+    {
+      "leaf": "Folha014",
+      "front": "FrenteComumR010",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha014",
+      "front": "FrenteComumR010",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "Folha014",
+      "front": "FrenteComumR010",
+      "angle": 86,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha015",
+      "front": "FrenteComumR011",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "Folha015",
+      "front": "FrenteComumR011",
+      "angle": 45,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "Folha015",
+      "front": "FrenteComumR011",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR11",
+      "front": "FrenteComumR11",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaEscritorioR11",
+      "front": "FrenteComumR11",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR11",
+      "front": "FrenteComumR11",
+      "angle": 86,
+      "error_mm": 1.1368683772161603e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR001",
+      "front": "FrenteComumR012",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaEscritorioR001",
+      "front": "FrenteComumR012",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR001",
+      "front": "FrenteComumR012",
+      "angle": 86,
+      "error_mm": 2.2737367544323206e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR002",
+      "front": "FrenteComumR013",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaEscritorioR002",
+      "front": "FrenteComumR013",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR002",
+      "front": "FrenteComumR013",
+      "angle": 86,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR003",
+      "front": "FrenteComumR014",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaEscritorioR003",
+      "front": "FrenteComumR014",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "FolhaEscritorioR003",
+      "front": "FrenteComumR014",
+      "angle": 86,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle": 45,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaBanheiroR002",
+      "front": "FrenteComumR019",
+      "angle": 86,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle": 45,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "FolhaBanheiroR003",
+      "front": "FrenteComumR020",
+      "angle": 86,
+      "error_mm": 4.547473508864641e-13
+    },
+    {
+      "leaf": "VizinhaComumR18",
+      "front": "FrenteVizinhaR18",
+      "angle": 0,
+      "error_mm": 0.0
+    },
+    {
+      "leaf": "VizinhaComumR18",
+      "front": "FrenteVizinhaR18",
+      "angle": 45,
+      "error_mm": 9.094947017729282e-13
+    },
+    {
+      "leaf": "VizinhaComumR18",
+      "front": "FrenteVizinhaR18",
+      "angle": 86,
+      "error_mm": 0.0
+    }
+  ]
+}

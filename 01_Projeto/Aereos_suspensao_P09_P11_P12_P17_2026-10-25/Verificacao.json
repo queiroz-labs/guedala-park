@@ -1,0 +1,16 @@
+{
+  "global_cases": 1404,
+  "parametric_envelopes": 48,
+  "mass_and_h_scaling_checks": 1404,
+  "max_force_moment_residual": 1.1641532182693481e-10,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "source_zip_crc": true,
+  "input_hashes_passed": true,
+  "calculation_code_hashes_passed": true,
+  "manufacturer_manual_hash_passed": true,
+  "hood_transfer_not_assumed": true,
+  "physical_tests_performed": 0,
+  "capacity_released": false,
+  "passed": true
+}

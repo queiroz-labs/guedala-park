@@ -1,0 +1,3233 @@
+[
+  {
+    "input": [
+      [
+        "ControlePortaR10",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR10",
+      "FerragemComumR002",
+      "FerragemComumR003",
+      "FerragemComumR004",
+      "FerragemComumR007",
+      "FerragemComumR008",
+      "FerragemComumR009"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR10",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR10",
+      "FerragemComumR002",
+      "FerragemComumR003",
+      "FerragemComumR004",
+      "FerragemComumR007",
+      "FerragemComumR008",
+      "FerragemComumR009"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR001",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR001",
+      "FerragemComumR012",
+      "FerragemComumR013",
+      "FerragemComumR014",
+      "FerragemComumR017",
+      "FerragemComumR018",
+      "FerragemComumR019"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR001",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR001",
+      "FerragemComumR012",
+      "FerragemComumR013",
+      "FerragemComumR014",
+      "FerragemComumR017",
+      "FerragemComumR018",
+      "FerragemComumR019"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR002",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR002",
+      "FerragemComumR022",
+      "FerragemComumR023",
+      "FerragemComumR024",
+      "FerragemComumR027",
+      "FerragemComumR028",
+      "FerragemComumR029"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR002",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR002",
+      "FerragemComumR022",
+      "FerragemComumR023",
+      "FerragemComumR024",
+      "FerragemComumR027",
+      "FerragemComumR028",
+      "FerragemComumR029"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR003",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR003",
+      "FerragemComumR032",
+      "FerragemComumR033",
+      "FerragemComumR034",
+      "FerragemComumR037",
+      "FerragemComumR038",
+      "FerragemComumR039"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR003",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR003",
+      "FerragemComumR032",
+      "FerragemComumR033",
+      "FerragemComumR034",
+      "FerragemComumR037",
+      "FerragemComumR038",
+      "FerragemComumR039"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR004",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR004",
+      "FerragemComumR042",
+      "FerragemComumR043",
+      "FerragemComumR044",
+      "FerragemComumR047",
+      "FerragemComumR048",
+      "FerragemComumR049",
+      "FerragemComumR240",
+      "FerragemComumR241",
+      "FerragemComumR242"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR004",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR004",
+      "FerragemComumR042",
+      "FerragemComumR043",
+      "FerragemComumR044",
+      "FerragemComumR047",
+      "FerragemComumR048",
+      "FerragemComumR049",
+      "FerragemComumR240",
+      "FerragemComumR241",
+      "FerragemComumR242"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR005",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR005",
+      "FerragemComumR052",
+      "FerragemComumR053",
+      "FerragemComumR054",
+      "FerragemComumR057",
+      "FerragemComumR058",
+      "FerragemComumR059",
+      "FerragemComumR245",
+      "FerragemComumR246",
+      "FerragemComumR247"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR005",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR005",
+      "FerragemComumR052",
+      "FerragemComumR053",
+      "FerragemComumR054",
+      "FerragemComumR057",
+      "FerragemComumR058",
+      "FerragemComumR059",
+      "FerragemComumR245",
+      "FerragemComumR246",
+      "FerragemComumR247"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR006",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR006",
+      "FerragemComumR062",
+      "FerragemComumR063",
+      "FerragemComumR064",
+      "FerragemComumR067",
+      "FerragemComumR068",
+      "FerragemComumR069"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR006",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR006",
+      "FerragemComumR062",
+      "FerragemComumR063",
+      "FerragemComumR064",
+      "FerragemComumR067",
+      "FerragemComumR068",
+      "FerragemComumR069"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR007",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR007",
+      "FerragemComumR072",
+      "FerragemComumR073",
+      "FerragemComumR074",
+      "FerragemComumR077",
+      "FerragemComumR078",
+      "FerragemComumR079"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR007",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR007",
+      "FerragemComumR072",
+      "FerragemComumR073",
+      "FerragemComumR074",
+      "FerragemComumR077",
+      "FerragemComumR078",
+      "FerragemComumR079"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR008",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR008",
+      "FerragemComumR082",
+      "FerragemComumR083",
+      "FerragemComumR084",
+      "FerragemComumR087",
+      "FerragemComumR088",
+      "FerragemComumR089"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR008",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR008",
+      "FerragemComumR082",
+      "FerragemComumR083",
+      "FerragemComumR084",
+      "FerragemComumR087",
+      "FerragemComumR088",
+      "FerragemComumR089"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR009",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR009",
+      "FerragemComumR092",
+      "FerragemComumR093",
+      "FerragemComumR094",
+      "FerragemComumR097",
+      "FerragemComumR098",
+      "FerragemComumR099"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR009",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR009",
+      "FerragemComumR092",
+      "FerragemComumR093",
+      "FerragemComumR094",
+      "FerragemComumR097",
+      "FerragemComumR098",
+      "FerragemComumR099"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR010",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR010",
+      "FerragemComumR102",
+      "FerragemComumR103",
+      "FerragemComumR104",
+      "FerragemComumR107",
+      "FerragemComumR108",
+      "FerragemComumR109"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR010",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR010",
+      "FerragemComumR102",
+      "FerragemComumR103",
+      "FerragemComumR104",
+      "FerragemComumR107",
+      "FerragemComumR108",
+      "FerragemComumR109"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR011",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR011",
+      "FerragemComumR112",
+      "FerragemComumR113",
+      "FerragemComumR114",
+      "FerragemComumR117",
+      "FerragemComumR118",
+      "FerragemComumR119"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR011",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR011",
+      "FerragemComumR112",
+      "FerragemComumR113",
+      "FerragemComumR114",
+      "FerragemComumR117",
+      "FerragemComumR118",
+      "FerragemComumR119"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR11",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR11",
+      "FerragemComumR121",
+      "FerragemComumR122",
+      "FerragemComumR123",
+      "FerragemComumR126",
+      "FerragemComumR127",
+      "FerragemComumR128"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR11",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR11",
+      "FerragemComumR121",
+      "FerragemComumR122",
+      "FerragemComumR123",
+      "FerragemComumR126",
+      "FerragemComumR127",
+      "FerragemComumR128"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR012",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR012",
+      "FerragemComumR131",
+      "FerragemComumR132",
+      "FerragemComumR133",
+      "FerragemComumR136",
+      "FerragemComumR137",
+      "FerragemComumR138"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR012",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR012",
+      "FerragemComumR131",
+      "FerragemComumR132",
+      "FerragemComumR133",
+      "FerragemComumR136",
+      "FerragemComumR137",
+      "FerragemComumR138"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR013",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR013",
+      "FerragemComumR141",
+      "FerragemComumR142",
+      "FerragemComumR143",
+      "FerragemComumR146",
+      "FerragemComumR147",
+      "FerragemComumR148"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR013",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR013",
+      "FerragemComumR141",
+      "FerragemComumR142",
+      "FerragemComumR143",
+      "FerragemComumR146",
+      "FerragemComumR147",
+      "FerragemComumR148"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR014",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR014",
+      "FerragemComumR151",
+      "FerragemComumR152",
+      "FerragemComumR153",
+      "FerragemComumR156",
+      "FerragemComumR157",
+      "FerragemComumR158"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR014",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR014",
+      "FerragemComumR151",
+      "FerragemComumR152",
+      "FerragemComumR153",
+      "FerragemComumR156",
+      "FerragemComumR157",
+      "FerragemComumR158"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR015",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR015",
+      "FerragemComumR161",
+      "FerragemComumR162",
+      "FerragemComumR163",
+      "FerragemComumR166",
+      "FerragemComumR167",
+      "FerragemComumR168"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR015",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR015",
+      "FerragemComumR161",
+      "FerragemComumR162",
+      "FerragemComumR163",
+      "FerragemComumR166",
+      "FerragemComumR167",
+      "FerragemComumR168"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR016",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR016",
+      "FerragemComumR171",
+      "FerragemComumR172",
+      "FerragemComumR173",
+      "FerragemComumR176",
+      "FerragemComumR177",
+      "FerragemComumR178"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR016",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR016",
+      "FerragemComumR171",
+      "FerragemComumR172",
+      "FerragemComumR173",
+      "FerragemComumR176",
+      "FerragemComumR177",
+      "FerragemComumR178"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR017",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR017",
+      "FerragemComumR181",
+      "FerragemComumR182",
+      "FerragemComumR183",
+      "FerragemComumR186",
+      "FerragemComumR187",
+      "FerragemComumR188"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR017",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR017",
+      "FerragemComumR181",
+      "FerragemComumR182",
+      "FerragemComumR183",
+      "FerragemComumR186",
+      "FerragemComumR187",
+      "FerragemComumR188"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR12",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR12",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR018",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR018",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR019",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR019",
+      "FerragemComumR210",
+      "FerragemComumR211",
+      "FerragemComumR212",
+      "FerragemComumR215",
+      "FerragemComumR216",
+      "FerragemComumR217",
+      "FerragemComumR220",
+      "FerragemComumR221",
+      "FerragemComumR222",
+      "EspelhoAplicadoR12"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR019",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR019",
+      "FerragemComumR210",
+      "FerragemComumR211",
+      "FerragemComumR212",
+      "FerragemComumR215",
+      "FerragemComumR216",
+      "FerragemComumR217",
+      "FerragemComumR220",
+      "FerragemComumR221",
+      "FerragemComumR222",
+      "EspelhoAplicadoR12"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR020",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteComumR020",
+      "FerragemComumR225",
+      "FerragemComumR226",
+      "FerragemComumR227",
+      "FerragemComumR230",
+      "FerragemComumR231",
+      "FerragemComumR232",
+      "FerragemComumR235",
+      "FerragemComumR236",
+      "FerragemComumR237",
+      "EspelhoAplicadoR001"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControlePortaR020",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteComumR020",
+      "FerragemComumR225",
+      "FerragemComumR226",
+      "FerragemComumR227",
+      "FerragemComumR230",
+      "FerragemComumR231",
+      "FerragemComumR232",
+      "FerragemComumR235",
+      "FerragemComumR236",
+      "FerragemComumR237",
+      "EspelhoAplicadoR001"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleVizinhaR18",
+        "Abertura",
+        45
+      ]
+    ],
+    "changed": [
+      "FrenteVizinhaR18",
+      "FerragemVizinhaR002",
+      "FerragemVizinhaR003",
+      "FerragemVizinhaR004",
+      "FerragemVizinhaR007",
+      "FerragemVizinhaR008",
+      "FerragemVizinhaR009"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleVizinhaR18",
+        "Abertura",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteVizinhaR18",
+      "FerragemVizinhaR002",
+      "FerragemVizinhaR003",
+      "FerragemVizinhaR004",
+      "FerragemVizinhaR007",
+      "FerragemVizinhaR008",
+      "FerragemVizinhaR009"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR08",
+      "GavetaComumR001",
+      "GavetaComumR002",
+      "GavetaComumR003",
+      "GavetaComumR004",
+      "GavetaComumR005",
+      "GavetaComumR006",
+      "GavetaComumR007"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR08",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR001",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR002",
+        "b": "Peca247",
+        "labels": [
+          "Fundo comum · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      },
+      {
+        "a": "GavetaComumR006",
+        "b": "Peca247",
+        "labels": [
+          "Trava T51.7601 · 46166126 · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 11324.681441853814,
+        "bbox_overlap_mm": [
+          81.3135522100838,
+          18.0,
+          18.575609756088852
+        ]
+      },
+      {
+        "a": "GavetaComumR007",
+        "b": "Peca247",
+        "labels": [
+          "Trava T51.7601 · 43107713 · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 11323.564071894258,
+        "bbox_overlap_mm": [
+          80.81355221007834,
+          18.0,
+          18.575609756083963
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR012",
+      "GavetaComumR013",
+      "GavetaComumR014",
+      "GavetaComumR015",
+      "GavetaComumR016",
+      "GavetaComumR017",
+      "GavetaComumR018",
+      "GavetaComumR019"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR012",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR013",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR014",
+        "b": "Peca247",
+        "labels": [
+          "Fundo comum · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      },
+      {
+        "a": "GavetaComumR018",
+        "b": "Peca247",
+        "labels": [
+          "Trava T51.7601 · 46166126 · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 11324.681441853818,
+        "bbox_overlap_mm": [
+          81.3135522100838,
+          18.0,
+          18.575609756088852
+        ]
+      },
+      {
+        "a": "GavetaComumR019",
+        "b": "Peca247",
+        "labels": [
+          "Trava T51.7601 · 43107713 · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 11323.56407189426,
+        "bbox_overlap_mm": [
+          80.81355221007834,
+          18.0,
+          18.575609756083963
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR024",
+      "GavetaComumR025",
+      "GavetaComumR026",
+      "GavetaComumR027",
+      "GavetaComumR028",
+      "GavetaComumR029",
+      "GavetaComumR030",
+      "GavetaComumR031"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR024",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR025",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR026",
+        "b": "Peca248",
+        "labels": [
+          "Fundo comum · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      },
+      {
+        "a": "GavetaComumR030",
+        "b": "Peca248",
+        "labels": [
+          "Trava T51.7601 · 46166126 · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 9665.45174167693,
+        "bbox_overlap_mm": [
+          81.3135522100838,
+          18.0,
+          18.575609756088852
+        ]
+      },
+      {
+        "a": "GavetaComumR031",
+        "b": "Peca248",
+        "labels": [
+          "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 9665.451741662797,
+        "bbox_overlap_mm": [
+          80.81355221007834,
+          18.0,
+          18.575609756083963
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR036",
+      "GavetaComumR037",
+      "GavetaComumR038",
+      "GavetaComumR039",
+      "GavetaComumR040",
+      "GavetaComumR041",
+      "GavetaComumR042",
+      "GavetaComumR043"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR036",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR037",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR038",
+        "b": "Peca248",
+        "labels": [
+          "Fundo comum · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      },
+      {
+        "a": "GavetaComumR042",
+        "b": "Peca248",
+        "labels": [
+          "Trava T51.7601 · 46166126 · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 9665.451741676929,
+        "bbox_overlap_mm": [
+          81.3135522100838,
+          18.0,
+          18.575609756088852
+        ]
+      },
+      {
+        "a": "GavetaComumR043",
+        "b": "Peca248",
+        "labels": [
+          "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 9665.4517416628,
+        "bbox_overlap_mm": [
+          80.81355221007834,
+          18.0,
+          18.575609756083963
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta004",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR048",
+      "GavetaComumR049",
+      "GavetaComumR050",
+      "GavetaComumR051",
+      "GavetaComumR052",
+      "GavetaComumR053",
+      "GavetaComumR054",
+      "GavetaComumR055"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta005",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "OrganizadorG2R06",
+      "OrganizadorG2R001",
+      "OrganizadorG2R002",
+      "OrganizadorG2R003",
+      "OrganizadorG2R004",
+      "OrganizadorG2R005",
+      "OrganizadorG2R006",
+      "OrganizadorG2R007",
+      "OrganizadorG2R008",
+      "OrganizadorG2R009",
+      "OrganizadorG2R010",
+      "OrganizadorG2R011",
+      "OrganizadorG2R012",
+      "OrganizadorG2R013",
+      "OrganizadorG2R014",
+      "OrganizadorG2R015",
+      "OrganizadorG2R016",
+      "OrganizadorG2R017",
+      "OrganizadorG2R018",
+      "MontagemG2R07",
+      "MontagemG2R001",
+      "MontagemG2R016",
+      "MontagemG2R017",
+      "MontagemG2R018",
+      "MontagemG2R019",
+      "MontagemG2R020",
+      "MontagemG2R021"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta006",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR060",
+      "GavetaComumR061",
+      "GavetaComumR062",
+      "GavetaComumR063",
+      "GavetaComumR064",
+      "GavetaComumR065",
+      "GavetaComumR066",
+      "GavetaComumR067"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta007",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "PecaBaixaR13",
+      "PecaBaixaR001",
+      "PecaBaixaR002",
+      "PecaBaixaR003",
+      "PecaBaixaR004",
+      "PecaBaixaR005",
+      "PecaBaixaR006",
+      "PecaBaixaR007",
+      "PecaBaixaR008",
+      "PecaBaixaR009",
+      "PecaBaixaR010",
+      "PecaBaixaR011",
+      "PecaBaixaR012",
+      "PecaBaixaR013",
+      "PecaBaixaR014",
+      "PecaBaixaR015",
+      "PecaBaixaR016",
+      "PecaBaixaR017",
+      "PecaBaixaR018",
+      "PecaBaixaR019",
+      "PecaBaixaR020",
+      "PecaBaixaR021",
+      "PecaBaixaR022",
+      "PecaBaixaR023",
+      "PecaBaixaR024",
+      "PecaBaixaR025",
+      "PecaBaixaR026",
+      "PecaBaixaR027",
+      "PecaBaixaR028",
+      "PecaBaixaR029",
+      "PecaBaixaR030",
+      "PecaBaixaR031",
+      "PecaBaixaR032",
+      "PecaBaixaR033",
+      "PecaBaixaR034",
+      "PecaBaixaR035",
+      "PecaBaixaR040",
+      "PecaBaixaR041",
+      "PecaBaixaR042",
+      "PecaBaixaR043",
+      "EspacadorRodizioP08",
+      "EspacadorRodizioP001",
+      "EspacadorRodizioP002",
+      "EspacadorRodizioP003",
+      "EspacadorRodizioP004",
+      "EspacadorRodizioP005"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta008",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR072",
+      "GavetaComumR073",
+      "GavetaComumR074",
+      "GavetaComumR075",
+      "GavetaComumR076",
+      "GavetaComumR077",
+      "GavetaComumR078",
+      "GavetaComumR079"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta009",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "GavetaComumR084",
+      "GavetaComumR085",
+      "GavetaComumR086",
+      "GavetaComumR087",
+      "GavetaComumR088",
+      "GavetaComumR089",
+      "GavetaComumR090",
+      "GavetaComumR091"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCantoR35",
+        "AberturaA",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteSimplesR04",
+      "FerragemSimplesR002",
+      "FerragemSimplesR003",
+      "FerragemSimplesR004",
+      "FerragemSimplesR008",
+      "FerragemSimplesR009",
+      "FerragemSimplesR010"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCantoR35",
+        "AberturaB",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteSimplesR001",
+      "FerragemSimplesR014",
+      "FerragemSimplesR015",
+      "FerragemSimplesR016",
+      "FerragemSimplesR020",
+      "FerragemSimplesR021",
+      "FerragemSimplesR022"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCestoR15",
+        "Abertura",
+        55
+      ]
+    ],
+    "changed": [
+      "PecaCestoR003",
+      "PecaCestoR004",
+      "PecaCestoR005",
+      "PecaCestoR006",
+      "PecaCestoR007",
+      "PecaCestoR008",
+      "PecaCestoR009",
+      "PecaCestoR010",
+      "PecaCestoR011",
+      "PecaCestoR012",
+      "PecaCestoR013",
+      "PecaCestoR014",
+      "PecaCestoR015",
+      "PecaCestoR016",
+      "PecaCestoR019",
+      "PecaCestoR020",
+      "PecaCestoR021"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Controle",
+        "Abertura1",
+        60
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel1"
+    ],
+    "new_intersections": [
+      {
+        "a": "BancoR43_Painel1",
+        "b": "BancoR43_Almofada1",
+        "labels": [
+          "BancoR43_Painel1",
+          "Almofada 1 — retirar antes de abrir"
+        ],
+        "modules": [
+          null,
+          null
+        ],
+        "volume_mm3": 1121214.2227662532,
+        "bbox_overlap_mm": [
+          241.32050807568885,
+          971.0,
+          50.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Controle",
+        "Abertura2",
+        60
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel2"
+    ],
+    "new_intersections": [
+      {
+        "a": "BancoR43_Painel2",
+        "b": "BancoR43_Almofada2",
+        "labels": [
+          "BancoR43_Painel2",
+          "Almofada 2 — retirar antes de abrir"
+        ],
+        "modules": [
+          null,
+          null
+        ],
+        "volume_mm3": 952627.9441628824,
+        "bbox_overlap_mm": [
+          241.32050807568885,
+          825.0,
+          50.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleVaralR35",
+        "Descida",
+        200
+      ]
+    ],
+    "changed": [
+      "Peca157"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleFornoR35",
+        "Extracao",
+        200
+      ]
+    ],
+    "changed": [
+      "FischerFrenteR31",
+      "FischerCorpoConservadorR31"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleGrelhaInferiorR35",
+        "Extracao",
+        50
+      ]
+    ],
+    "changed": [
+      "GrelhaInferiorR31"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleGrelhaSuperiorR35",
+        "Extracao",
+        50
+      ]
+    ],
+    "changed": [
+      "GrelhaSuperiorR31"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleLoopManutencaoR26",
+        "Afastamento",
+        100
+      ]
+    ],
+    "changed": [
+      "Peca147",
+      "Peca148",
+      "Peca149"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BC43_Controle",
+        "CursoEsquerda",
+        100
+      ]
+    ],
+    "changed": [
+      "BC43_CarroEsquerda0",
+      "BC43_GuiaEsquerda0",
+      "BC43_ParafusoEsquerda00",
+      "BC43_ParafusoEsquerda01",
+      "BC43_ParafusoEsquerda02",
+      "BC43_ParafusoEsquerda03",
+      "BC43_ParafusoEsquerda04",
+      "BC43_ParafusoEsquerda05",
+      "BC43_CarroEsquerda1",
+      "BC43_GuiaEsquerda1",
+      "BC43_ParafusoEsquerda10",
+      "BC43_ParafusoEsquerda11",
+      "BC43_ParafusoEsquerda12",
+      "BC43_ParafusoEsquerda13",
+      "BC43_ParafusoEsquerda14",
+      "BC43_ParafusoEsquerda15",
+      "BC43_PainelEsquerda"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BC43_Controle",
+        "CursoDireita",
+        100
+      ]
+    ],
+    "changed": [
+      "BC43_CarroDireita0",
+      "BC43_GuiaDireita0",
+      "BC43_ParafusoDireita00",
+      "BC43_ParafusoDireita01",
+      "BC43_ParafusoDireita02",
+      "BC43_ParafusoDireita03",
+      "BC43_ParafusoDireita04",
+      "BC43_ParafusoDireita05",
+      "BC43_CarroDireita1",
+      "BC43_GuiaDireita1",
+      "BC43_ParafusoDireita10",
+      "BC43_ParafusoDireita11",
+      "BC43_ParafusoDireita12",
+      "BC43_ParafusoDireita13",
+      "BC43_ParafusoDireita14",
+      "BC43_ParafusoDireita15",
+      "BC43_PainelDireita"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR14",
+        "Deslocamento",
+        600
+      ]
+    ],
+    "changed": [
+      "Peca247",
+      "ReferenciaCorrerR012",
+      "ReferenciaCorrerR013",
+      "ReferenciaCorrerR014",
+      "ReferenciaCorrerR015",
+      "ReferenciaCorrerR016",
+      "ReferenciaCorrerR017"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR001",
+        "Deslocamento",
+        600
+      ]
+    ],
+    "changed": [
+      "Peca248",
+      "ReferenciaCorrerR020",
+      "ReferenciaCorrerR021",
+      "ReferenciaCorrerR022",
+      "ReferenciaCorrerR023",
+      "ReferenciaCorrerR024",
+      "ReferenciaCorrerR025"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR002",
+        "Deslocamento",
+        600
+      ]
+    ],
+    "changed": [
+      "Peca264",
+      "ReferenciaCorrerR036",
+      "ReferenciaCorrerR037",
+      "ReferenciaCorrerR038",
+      "ReferenciaCorrerR039",
+      "ReferenciaCorrerR040",
+      "ReferenciaCorrerR041"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR003",
+        "Deslocamento",
+        600
+      ]
+    ],
+    "changed": [
+      "Peca265",
+      "ReferenciaCorrerR044",
+      "ReferenciaCorrerR045",
+      "ReferenciaCorrerR046",
+      "ReferenciaCorrerR047",
+      "ReferenciaCorrerR048",
+      "ReferenciaCorrerR049"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCantoR35",
+        "AberturaA",
+        86
+      ],
+      [
+        "ControleCantoR35",
+        "AberturaB",
+        86
+      ]
+    ],
+    "changed": [
+      "FrenteSimplesR04",
+      "FerragemSimplesR002",
+      "FerragemSimplesR003",
+      "FerragemSimplesR004",
+      "FerragemSimplesR008",
+      "FerragemSimplesR009",
+      "FerragemSimplesR010",
+      "FrenteSimplesR001",
+      "FerragemSimplesR014",
+      "FerragemSimplesR015",
+      "FerragemSimplesR016",
+      "FerragemSimplesR020",
+      "FerragemSimplesR021",
+      "FerragemSimplesR022"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR14",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "Peca247",
+      "GavetaComumR08",
+      "GavetaComumR001",
+      "GavetaComumR002",
+      "GavetaComumR003",
+      "GavetaComumR004",
+      "GavetaComumR005",
+      "GavetaComumR006",
+      "GavetaComumR007",
+      "ReferenciaCorrerR012",
+      "ReferenciaCorrerR013",
+      "ReferenciaCorrerR014",
+      "ReferenciaCorrerR015",
+      "ReferenciaCorrerR016",
+      "ReferenciaCorrerR017"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR14",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta001",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "Peca247",
+      "GavetaComumR012",
+      "GavetaComumR013",
+      "GavetaComumR014",
+      "GavetaComumR015",
+      "GavetaComumR016",
+      "GavetaComumR017",
+      "GavetaComumR018",
+      "GavetaComumR019",
+      "ReferenciaCorrerR012",
+      "ReferenciaCorrerR013",
+      "ReferenciaCorrerR014",
+      "ReferenciaCorrerR015",
+      "ReferenciaCorrerR016",
+      "ReferenciaCorrerR017"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR001",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta002",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "Peca248",
+      "GavetaComumR024",
+      "GavetaComumR025",
+      "GavetaComumR026",
+      "GavetaComumR027",
+      "GavetaComumR028",
+      "GavetaComumR029",
+      "GavetaComumR030",
+      "GavetaComumR031",
+      "ReferenciaCorrerR020",
+      "ReferenciaCorrerR021",
+      "ReferenciaCorrerR022",
+      "ReferenciaCorrerR023",
+      "ReferenciaCorrerR024",
+      "ReferenciaCorrerR025"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR001",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta003",
+        "Extensao",
+        100
+      ]
+    ],
+    "changed": [
+      "Peca248",
+      "GavetaComumR036",
+      "GavetaComumR037",
+      "GavetaComumR038",
+      "GavetaComumR039",
+      "GavetaComumR040",
+      "GavetaComumR041",
+      "GavetaComumR042",
+      "GavetaComumR043",
+      "ReferenciaCorrerR020",
+      "ReferenciaCorrerR021",
+      "ReferenciaCorrerR022",
+      "ReferenciaCorrerR023",
+      "ReferenciaCorrerR024",
+      "ReferenciaCorrerR025"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR08",
+      "GavetaComumR001",
+      "GavetaComumR002",
+      "GavetaComumR003",
+      "GavetaComumR004",
+      "GavetaComumR005",
+      "GavetaComumR006",
+      "GavetaComumR007"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR08",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR001",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR002",
+        "b": "Peca247",
+        "labels": [
+          "Fundo comum · Gaveta de roupa - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta001",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR012",
+      "GavetaComumR013",
+      "GavetaComumR014",
+      "GavetaComumR015",
+      "GavetaComumR016",
+      "GavetaComumR017",
+      "GavetaComumR018",
+      "GavetaComumR019"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR012",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR013",
+        "b": "Peca247",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR014",
+        "b": "Peca247",
+        "labels": [
+          "Fundo comum · Gaveta de roupa001 - proposta R08",
+          "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta002",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR024",
+      "GavetaComumR025",
+      "GavetaComumR026",
+      "GavetaComumR027",
+      "GavetaComumR028",
+      "GavetaComumR029",
+      "GavetaComumR030",
+      "GavetaComumR031"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR024",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR025",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR026",
+        "b": "Peca248",
+        "labels": [
+          "Fundo comum · Gaveta de roupa002 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta003",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR036",
+      "GavetaComumR037",
+      "GavetaComumR038",
+      "GavetaComumR039",
+      "GavetaComumR040",
+      "GavetaComumR041",
+      "GavetaComumR042",
+      "GavetaComumR043"
+    ],
+    "new_intersections": [
+      {
+        "a": "GavetaComumR036",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR037",
+        "b": "Peca248",
+        "labels": [
+          "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 25650.0,
+        "bbox_overlap_mm": [
+          15.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "a": "GavetaComumR038",
+        "b": "Peca248",
+        "labels": [
+          "Fundo comum · Gaveta de roupa003 - proposta R08",
+          "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+        ],
+        "modules": [
+          "Modulo",
+          "Modulo"
+        ],
+        "volume_mm3": 87210.0,
+        "bbox_overlap_mm": [
+          323.0,
+          18.0,
+          15.0
+        ]
+      }
+    ],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta004",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR048",
+      "GavetaComumR049",
+      "GavetaComumR050",
+      "GavetaComumR051",
+      "GavetaComumR052",
+      "GavetaComumR053",
+      "GavetaComumR054",
+      "GavetaComumR055"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta005",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "OrganizadorG2R06",
+      "OrganizadorG2R001",
+      "OrganizadorG2R002",
+      "OrganizadorG2R003",
+      "OrganizadorG2R004",
+      "OrganizadorG2R005",
+      "OrganizadorG2R006",
+      "OrganizadorG2R007",
+      "OrganizadorG2R008",
+      "OrganizadorG2R009",
+      "OrganizadorG2R010",
+      "OrganizadorG2R011",
+      "OrganizadorG2R012",
+      "OrganizadorG2R013",
+      "OrganizadorG2R014",
+      "OrganizadorG2R015",
+      "OrganizadorG2R016",
+      "OrganizadorG2R017",
+      "OrganizadorG2R018",
+      "MontagemG2R07",
+      "MontagemG2R001",
+      "MontagemG2R016",
+      "MontagemG2R017",
+      "MontagemG2R018",
+      "MontagemG2R019",
+      "MontagemG2R020",
+      "MontagemG2R021"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta006",
+        "Extensao",
+        500.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR060",
+      "GavetaComumR061",
+      "GavetaComumR062",
+      "GavetaComumR063",
+      "GavetaComumR064",
+      "GavetaComumR065",
+      "GavetaComumR066",
+      "GavetaComumR067"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta007",
+        "Extensao",
+        400.0
+      ]
+    ],
+    "changed": [
+      "PecaBaixaR13",
+      "PecaBaixaR001",
+      "PecaBaixaR002",
+      "PecaBaixaR003",
+      "PecaBaixaR004",
+      "PecaBaixaR005",
+      "PecaBaixaR006",
+      "PecaBaixaR007",
+      "PecaBaixaR008",
+      "PecaBaixaR009",
+      "PecaBaixaR010",
+      "PecaBaixaR011",
+      "PecaBaixaR012",
+      "PecaBaixaR013",
+      "PecaBaixaR014",
+      "PecaBaixaR015",
+      "PecaBaixaR016",
+      "PecaBaixaR017",
+      "PecaBaixaR018",
+      "PecaBaixaR019",
+      "PecaBaixaR020",
+      "PecaBaixaR021",
+      "PecaBaixaR022",
+      "PecaBaixaR023",
+      "PecaBaixaR024",
+      "PecaBaixaR025",
+      "PecaBaixaR026",
+      "PecaBaixaR027",
+      "PecaBaixaR028",
+      "PecaBaixaR029",
+      "PecaBaixaR030",
+      "PecaBaixaR031",
+      "PecaBaixaR032",
+      "PecaBaixaR033",
+      "PecaBaixaR034",
+      "PecaBaixaR035",
+      "PecaBaixaR040",
+      "PecaBaixaR041",
+      "PecaBaixaR042",
+      "PecaBaixaR043",
+      "EspacadorRodizioP08",
+      "EspacadorRodizioP001",
+      "EspacadorRodizioP002",
+      "EspacadorRodizioP003",
+      "EspacadorRodizioP004",
+      "EspacadorRodizioP005"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta008",
+        "Extensao",
+        400.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR072",
+      "GavetaComumR073",
+      "GavetaComumR074",
+      "GavetaComumR075",
+      "GavetaComumR076",
+      "GavetaComumR077",
+      "GavetaComumR078",
+      "GavetaComumR079"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "Gaveta009",
+        "Extensao",
+        400.0
+      ]
+    ],
+    "changed": [
+      "GavetaComumR084",
+      "GavetaComumR085",
+      "GavetaComumR086",
+      "GavetaComumR087",
+      "GavetaComumR088",
+      "GavetaComumR089",
+      "GavetaComumR090",
+      "GavetaComumR091"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR14",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta",
+        "Extensao",
+        500
+      ]
+    ],
+    "changed": [
+      "Peca247",
+      "GavetaComumR08",
+      "GavetaComumR001",
+      "GavetaComumR002",
+      "GavetaComumR003",
+      "GavetaComumR004",
+      "GavetaComumR005",
+      "GavetaComumR006",
+      "GavetaComumR007",
+      "ReferenciaCorrerR012",
+      "ReferenciaCorrerR013",
+      "ReferenciaCorrerR014",
+      "ReferenciaCorrerR015",
+      "ReferenciaCorrerR016",
+      "ReferenciaCorrerR017"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR14",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta001",
+        "Extensao",
+        500
+      ]
+    ],
+    "changed": [
+      "Peca247",
+      "GavetaComumR012",
+      "GavetaComumR013",
+      "GavetaComumR014",
+      "GavetaComumR015",
+      "GavetaComumR016",
+      "GavetaComumR017",
+      "GavetaComumR018",
+      "GavetaComumR019",
+      "ReferenciaCorrerR012",
+      "ReferenciaCorrerR013",
+      "ReferenciaCorrerR014",
+      "ReferenciaCorrerR015",
+      "ReferenciaCorrerR016",
+      "ReferenciaCorrerR017"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR001",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta002",
+        "Extensao",
+        500
+      ]
+    ],
+    "changed": [
+      "Peca248",
+      "GavetaComumR024",
+      "GavetaComumR025",
+      "GavetaComumR026",
+      "GavetaComumR027",
+      "GavetaComumR028",
+      "GavetaComumR029",
+      "GavetaComumR030",
+      "GavetaComumR031",
+      "ReferenciaCorrerR020",
+      "ReferenciaCorrerR021",
+      "ReferenciaCorrerR022",
+      "ReferenciaCorrerR023",
+      "ReferenciaCorrerR024",
+      "ReferenciaCorrerR025"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCorrerR001",
+        "Deslocamento",
+        600
+      ],
+      [
+        "Gaveta003",
+        "Extensao",
+        500
+      ]
+    ],
+    "changed": [
+      "Peca248",
+      "GavetaComumR036",
+      "GavetaComumR037",
+      "GavetaComumR038",
+      "GavetaComumR039",
+      "GavetaComumR040",
+      "GavetaComumR041",
+      "GavetaComumR042",
+      "GavetaComumR043",
+      "ReferenciaCorrerR020",
+      "ReferenciaCorrerR021",
+      "ReferenciaCorrerR022",
+      "ReferenciaCorrerR023",
+      "ReferenciaCorrerR024",
+      "ReferenciaCorrerR025"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BC43_Controle",
+        "CursoEsquerda",
+        268
+      ]
+    ],
+    "changed": [
+      "BC43_CarroEsquerda0",
+      "BC43_GuiaEsquerda0",
+      "BC43_ParafusoEsquerda00",
+      "BC43_ParafusoEsquerda01",
+      "BC43_ParafusoEsquerda02",
+      "BC43_ParafusoEsquerda03",
+      "BC43_ParafusoEsquerda04",
+      "BC43_ParafusoEsquerda05",
+      "BC43_CarroEsquerda1",
+      "BC43_GuiaEsquerda1",
+      "BC43_ParafusoEsquerda10",
+      "BC43_ParafusoEsquerda11",
+      "BC43_ParafusoEsquerda12",
+      "BC43_ParafusoEsquerda13",
+      "BC43_ParafusoEsquerda14",
+      "BC43_ParafusoEsquerda15",
+      "BC43_PainelEsquerda"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BC43_Controle",
+        "CursoDireita",
+        233
+      ]
+    ],
+    "changed": [
+      "BC43_CarroDireita0",
+      "BC43_GuiaDireita0",
+      "BC43_ParafusoDireita00",
+      "BC43_ParafusoDireita01",
+      "BC43_ParafusoDireita02",
+      "BC43_ParafusoDireita03",
+      "BC43_ParafusoDireita04",
+      "BC43_ParafusoDireita05",
+      "BC43_CarroDireita1",
+      "BC43_GuiaDireita1",
+      "BC43_ParafusoDireita10",
+      "BC43_ParafusoDireita11",
+      "BC43_ParafusoDireita12",
+      "BC43_ParafusoDireita13",
+      "BC43_ParafusoDireita14",
+      "BC43_ParafusoDireita15",
+      "BC43_PainelDireita"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Almofada1",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura1",
+        45
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel1"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Almofada1",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura1",
+        90
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel1"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Almofada2",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura2",
+        45
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel2"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Almofada2",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura2",
+        90
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel2"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "BancoR43_Almofada1",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Almofada2",
+        "Visibility",
+        false
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura1",
+        90
+      ],
+      [
+        "BancoR43_Controle",
+        "Abertura2",
+        90
+      ]
+    ],
+    "changed": [
+      "BancoR43_Painel1",
+      "BancoR43_Painel2"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleVaralR35",
+        "Descida",
+        270
+      ]
+    ],
+    "changed": [
+      "Peca157"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleVaralR35",
+        "Descida",
+        860
+      ]
+    ],
+    "changed": [
+      "Peca157"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleFornoR35",
+        "Extracao",
+        600
+      ]
+    ],
+    "changed": [
+      "FischerFrenteR31",
+      "FischerCorpoConservadorR31"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleLoopManutencaoR26",
+        "Afastamento",
+        650
+      ]
+    ],
+    "changed": [
+      "Peca147",
+      "Peca148",
+      "Peca149"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCestoR15",
+        "Abertura",
+        55
+      ],
+      [
+        "ControleCestoR15",
+        "RetiradaSaco",
+        445
+      ]
+    ],
+    "changed": [
+      "PecaCestoR003",
+      "PecaCestoR004",
+      "PecaCestoR005",
+      "PecaCestoR006",
+      "PecaCestoR007",
+      "PecaCestoR008",
+      "PecaCestoR009",
+      "PecaCestoR010",
+      "PecaCestoR011",
+      "PecaCestoR012",
+      "PecaCestoR013",
+      "PecaCestoR014",
+      "PecaCestoR015",
+      "PecaCestoR016",
+      "PecaCestoR019",
+      "PecaCestoR020",
+      "PecaCestoR021"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  },
+  {
+    "input": [
+      [
+        "ControleCestoR15",
+        "Abertura",
+        55
+      ],
+      [
+        "ControleCestoR15",
+        "RetiradaSaco",
+        445
+      ],
+      [
+        "ControleCestoR15",
+        "EndireitarSaco",
+        55
+      ]
+    ],
+    "changed": [
+      "PecaCestoR003",
+      "PecaCestoR004",
+      "PecaCestoR005",
+      "PecaCestoR006",
+      "PecaCestoR007",
+      "PecaCestoR008",
+      "PecaCestoR009",
+      "PecaCestoR010",
+      "PecaCestoR011",
+      "PecaCestoR012",
+      "PecaCestoR013",
+      "PecaCestoR014",
+      "PecaCestoR015",
+      "PecaCestoR016",
+      "PecaCestoR019",
+      "PecaCestoR020",
+      "PecaCestoR021"
+    ],
+    "new_intersections": [],
+    "errors": [],
+    "invalid_states": {},
+    "reset_diff": []
+  }
+]

@@ -10692,7 +10692,7 @@
           "quantity": null,
           "unit": "",
           "status": "Diretriz de 23/10/2026; produto e montagem pendentes",
-          "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.",
+          "reason": "Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Alternativas anteriores e seus componentes permanecem somente no histórico separado.",
           "sources": [
             {
               "title": "Diretriz banco e cesto",
@@ -10747,36 +10747,6 @@
       ],
       "hardwareRows": [
         {
-          "item": "Batentes independentes das tampas",
-          "reference": null,
-          "quantity": 2,
-          "unit": "conjunto",
-          "status": "candidato",
-          "assembly": "2conjuntos adicionais aos4suportesSouthco; não usar encosto estofado ou limite de software como parada.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
-              "trecho": "Um batente independente por tampa, central longitudinalmente emY4236,5 eY5136,5, com suporte metálico próprio ancorado à traseira do corpo. Não usar o encosto estofado como estrutura nem atribuir capacidade de parada à dobradiça Southco. Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização"
-            }
-          ],
-          "derivation": "1 conjunto por tampa × 2 tampas"
-        },
-        {
-          "item": "Chapas móveis de contato do batente",
-          "reference": "Aço30 ×80 ×10mm no eixo hipotéticoX100/Z430",
-          "quantity": 2,
-          "unit": "peça",
-          "status": "candidato",
-          "assembly": "Dimensão depende diretamente do eixo real; não fabricar pela hipótese. União à tampa não definida.",
-          "evidence": [
-            {
-              "path": "01_Projeto/Southco_banco_R47_2026-10-23/Batente_estudo.md",
-              "trecho": "Chapa de contato móvel de aço30×80×10mm: X118–148, Ycentro±40, Z420–430, sobre a tampa existente. Bolsa na face inferior da almofada aproximadamente34×84×12mm, sujeita a tolerâncias e revestimento, deixando38mm nominais de espessura externa. Essa bolsa não muda a altura nem o perímetro da almofada. A chapa se apoia integralmente na face superior da tampa; fixadores de localização devem ficar dentro da espessura da tampa, sem peças inferiores invadindo armazenamento. Não está especificada a união definitiva da chapa à tampa. Batente fixo com face frontal emX100, largura80, contato emZ454–466 e corpo dentro deX84–100. O suporte inferior e a placa receptora podem seguir o princípio R47, com dimensionamento próprio: aço de8mm, largura"
-            }
-          ],
-          "derivation": "1 chapa por conjunto de batente"
-        },
-        {
           "item": "Ligações dos painéis da carcaça",
           "reference": "Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar",
           "quantity": null,
@@ -10787,6 +10757,20 @@
             {
               "path": "01_Projeto/Consolidacao_R45_2026-10-23/Inventario/Interfaces_retangulares.md",
               "trecho": "Contato não significa ligação dimensionada. Este levantamento identifica onde é necessário detalhar conectores. Somente peças diretas ativas, físicas e retangulares (volume ≥99,5% da caixa envolvente). Excluídos planos, peças virtuais, frentes móveis e peças não retangulares. Espessuras e cotas nominais; não substitui tolerância de fabricação. | Módulo | Peças | Plano do contato | Dimensões mm | Leitura | |---|---|---|---|---| | Modulo | Peca206 / Peca208 "
+            }
+          ]
+        },
+        {
+          "item": "Limitação independente da abertura das tampas",
+          "reference": "Componente, apoio, geometria e fixação a definir para piano + articuladores",
+          "quantity": null,
+          "unit": "conjunto(s) a definir por tampa",
+          "status": "Necessidade funcional; solução e quantitativo pendentes",
+          "assembly": "Cada tampa exige limitação de abertura comprovada. Conferir se o articulador real cumpre essa função e, caso contrário, detalhar batente independente. Não usar encosto estofado ou limite de software como parada. Não transferir chapas, eixos ou suportes da alternativa histórica.",
+          "sources": [
+            {
+              "title": "Conferência nominal e fechamento pendente das ferragens simples",
+              "path": "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md"
             }
           ]
         },
@@ -10843,10 +10827,10 @@
       ],
       "assembly": [
         "Preservar duas tampas e armazenamento; três painéis do encosto não significam três tampas.",
-        "Não fabricar o batente pela hipótese do eixo: ferragem real, ligação e receptor precisam ser fechados.",
-        "Bolsões sob almofadas já autorizados:4provisórios40 ×96 ×25com25mmnominais de espuma acima. Envelopes não validam cilindro real ou batente.",
         "Assento fechado deve apoiar no corpo/apoios. Dobradiça piano e articuladores não recebem automaticamente a carga de assento.",
-        "Southco E6 e batente R47 permanecem em estudo separado como alternativa; não usar Rockler traseira rejeitada como especificação vigente."
+        "Bolsões sob almofadas só devem ser definidos após conferir a piano, os articuladores e a limitação de abertura reais; não reutilizar quantidades ou dimensões dos bolsões da alternativa anterior.",
+        "Eixo, apoio fixo, terminais, folgas e limitação de abertura precisam de desenho e protótipo do conjunto piano + trava antes de furar as tampas.",
+        "Alternativas anteriores permanecem no histórico separado; não usar Rockler traseira rejeitada como especificação vigente."
       ],
       "fieldChecks": [
         {
@@ -10867,7 +10851,7 @@
           "measure": "Percurso disponível para abrir as duas tampas e acessar o baú.",
           "method": "Usar gabaritos das tampas/almofadas aprovados em oficina, na posição de uso; registrar obstáculos da sala.",
           "datum": "Piso acabado como Z=0; face acabada da parede como profundidade zero; origem horizontal marcada no croqui do ambiente.",
-          "affects": "Abertura e manutenção. Eixo Southco, torque, espuma, bolsões e ferragem real são decisões/ensaios de oficina.",
+          "affects": "Abertura e manutenção. Eixo da piano, terminais e trava dos articuladores, espuma, bolsões e limitação de abertura são decisões/ensaios de oficina; não são medidas do apartamento.",
           "acceptance": "Confrontar o levantamento com o desenho executivo e a sequência de montagem. Não há tolerância numérica de aceitação publicada nas fontes locais; diferença não deve ser absorvida automaticamente.",
           "value": null,
           "methodStatus": "Protocolo proposto para coleta; não é medição realizada nem tolerância de fabricante.",
@@ -10904,7 +10888,10 @@
       ],
       "drawings": [],
       "sourcePaths": [
-        "01_Projeto/Estudo_interativo/fabrication/technical-r14.json"
+        "01_Projeto/Estudo_interativo/fabrication/technical-r14.json",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Diretriz.md",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Conferencia/Resultado.md",
+        "01_Projeto/Banco_cesto_simples_2026-10-23/Precos_e_conjunto_R01.md"
       ]
     }
   }

@@ -1,0 +1,27 @@
+{
+  "individual_axes_mm": [
+    16.0,
+    885.5000000000002,
+    903.5000000000002,
+    1329.2500000000005
+  ],
+  "max_individual_axis_spacing_mm": 869.5000000000002,
+  "active_criterion_mm": 2.8983333333333334,
+  "previous_group_center_mm": 894.5000000000002,
+  "previous_three_group_spacings_mm": [
+    878.5000000000002,
+    434.7500000000002,
+    434.74999999999955
+  ],
+  "previous_criterion_mm": 2.9283333333333332,
+  "deflection_plus_reserve_unchanged_mm": 1.5228534315722613,
+  "joint_per_position_initial_N_mm": 1000,
+  "two_position_lower_or_upper_group_initial_N_mm": 2000,
+  "one_series_path_initial_N_mm": 500,
+  "one_series_path_sensitivity_N_mm": 250,
+  "two_path_divider_initial_N_mm": 1000,
+  "two_path_divider_sensitivity_N_mm": 500,
+  "status": "Eixos nativos/criterio e escopo das rigidezes conferidos. Texto anterior por grupo corrigido sem mudar matriz/flecha. Modelo de referencias equivalentes nao valida acoplamento da caixa real.",
+  "source_unchanged": true,
+  "physical_tests": 0
+}

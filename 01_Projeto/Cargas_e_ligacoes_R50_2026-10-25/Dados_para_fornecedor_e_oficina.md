@@ -1,0 +1,16 @@
+# Dados para concluir cargas e ligações da marcenaria
+
+25/10/2026. Perguntas preparadas para fabricante/fornecedor e oficina. Nenhuma mensagem foi enviada e nenhuma compra foi realizada.
+
+| Item | Informação ou prova necessária | O que será concluído com a resposta |
+|---|---|---|
+| Chapas de 18/20 mm | Identificar fabricante, linha, substrato e revestimento por face. Informar espessura resistente, tolerância, massa/densidade, E e dados aplicáveis de resistência/deformação sustentada. O padrão decorativo sozinho não identifica o miolo | Substituir E/densidade/espessura condicionais e a sensibilidade de fluência. Medir retalho da mesma composição |
+| Minifix 15 e pino para 18 mm | Confirmar códigos exatos e desenho de todas as operações, inclusive tolerância e ponta da broca. Há dados de força vertical, retenção e curva força × deslocamento para MDF equivalente? | Confrontar com reações e com K inicial requerido de 1.000 N/mm por ligação nos estudos. Não converter rigidez angular de outro ensaio em rigidez vertical |
+| Confirmat 7 × 50 | Confirmar fabricante/desenho, núcleo da rosca, cabeça, comprimento útil e piloto recomendado na chapa real. Há dados de corte, retenção e acomodação da ligação? | Dimensionar ligação traseira e validar ligamentos/bordas. O piloto não deve ser escolhido como fração arbitrária do diâmetro externo |
+| Prova de juntas P01 | Produzir retalho com mesma chapa, borda e ferragens; registrar posição, profundidade, torque de montagem, carga, deslocamento e abertura de junta nos sentidos relevantes. Incluir ciclos e carga mantida conforme protocolo de ensaio a definir | Verificar requisitos de rigidez/resistência. Uma demonstração de montagem ou uma carga sem registro não comprova o comportamento ao longo do tempo |
+| Varão Ø20 × 0,7 | Confirmar seção real, comprimento de encaixe, material e dados de carga/deslocamento de tubo, terminais e apoio central. O terminal retém levantamento do tubo ou apenas apoia? | Verificar o caso assimétrico que produz reação negativa; converter vãos973/332 em comprimentos de corte |
+| Suporte central do varão | Fornecer desenho com distância **face de montagem → eixo do tubo**, furos, curso/encaixe e acesso. Necessidade superior82 mm, inferior52 mm. Altura externa63 mm não responde essa cota | Compatibilizar a peça sem inventar calço, e calcular a reação transmitida ao maleiro |
+| Piano e articuladores do banco | Fornecer desenho do código exato comprado: eixo, folhas, furos, terminais, articulações, trava, ângulo, sequência de liberação, carga/força e condições de ensaio. Informar massas e CG das partes móveis ou permitir pesagem | Acrescentar ferragens à massa móvel e obter alavanca perpendicular real por ângulo. Não transferir dados de outro comprimento/acabamento |
+| Ensaio do banco | Definir, após montagem nominal, registro de trava, retorno, liberação acessível, retenção, assimetria, fixadores e carga de assento fechado | Completar mecanismo e estrutura. As curvas atuais de torque são só das chapas |
+
+O trabalho que segue no projeto, sem esperar respostas ou o apartamento, é detalhar a base composta e as ligações P15, desenvolver o apoio traseiro e uniões P04, calcular a deformação da caixa P01 e atualizar os mapas nominais por peça. As perguntas acima não transferem essas tarefas ao usuário.

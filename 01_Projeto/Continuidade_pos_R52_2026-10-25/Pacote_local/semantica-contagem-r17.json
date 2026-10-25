@@ -1,0 +1,13 @@
+{
+  "zipEntries": 142,
+  "manifestFiles": 142,
+  "viewerContentPaths": 140,
+  "zipEntriesOutsideViewerList": [
+    "COMECE_AQUI.html",
+    "manifest.json"
+  ],
+  "viewerPathsAbsentFromZip": [],
+  "sha256": "2e8b9167d4a2b4db8a38f477e27239e728a63ff6f6fdfe1539d9d0b32525a7ea",
+  "semantics": "GUEDALA_PACKAGE.files is the viewer navigation allowlist assembled from content before adding the generated package menu and root manifest. It is not the ZIP total and is not shown as a package total in the UI.",
+  "requiresNewPackage": false
+}

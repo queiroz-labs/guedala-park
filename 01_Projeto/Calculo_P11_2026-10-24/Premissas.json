@@ -1,0 +1,38 @@
+{
+  "revisao": "R00",
+  "data": "2026-10-24",
+  "cad": "01_Projeto/Gavetas_escritorio_R49_2026-10-24/Guedala_Park_R49_Gavetas_escritorio.FCStd",
+  "sha256_cad_esperado": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "modulo": "P11",
+  "objeto_modulo": "Modulo010",
+  "peca": "Peca339",
+  "dimensoes_nominais_mm": [661, 312, 18],
+  "gravidade_m_s2": 9.80665,
+  "criterio_flecha": {
+    "divisor_vao": 300,
+    "situacao": "Criterio de projeto para comparacao, aplicado tambem aos cenarios de deformacao diferida; nao e limite normativo de aprovacao do movel"
+  },
+  "multiplicadores_flecha_sustentada": [1, 1.5, 2],
+  "multiplicador_adotado_na_triagem": 2,
+  "situacao_multiplicador": "Sensibilidade: todo o conteudo e peso proprio tratados como sustentados. Sem curva de tempo, prazo ou garantia do produto. Nao e fator de seguranca da resistencia.",
+  "conteudo_kg": [0, 5, 10, 20],
+  "tipos_carga": ["distribuida", "localizada_central", "localizada_quarto", "localizada_proxima_lateral"],
+  "posicoes_relativas_no_vao": {"localizada_central": 0.5, "localizada_quarto": 0.25, "localizada_proxima_lateral": 0.05},
+  "cenarios": [
+    {"id": "historico", "E_MPa": 2100, "densidade_kg_m3": 750, "espessura_resistente_mm": 18, "espessura_para_massa_mm": 18, "situacao": "Reproduz o estudo anterior; propriedades hipoteticas"},
+    {"id": "referencia_fabricante_condicional", "E_MPa": 2200, "densidade_kg_m3": 800, "espessura_resistente_mm": 17.7, "espessura_para_massa_mm": 18.3, "MOR_referencia_MPa": 20, "situacao": "E, MOR e densidade baseados em ficha Arauco Melamina MDF de 15-18 mm, sem confirmar o produto do P11. Espessura resistente17.7 e hipotese: tolerancia da chapa revestida nao garante espessura do nucleo. Peso proprio usa envelope18.3, separadamente da espessura resistente, para nao reduzir massa ao reduzir rigidez"},
+    {"id": "menor_rigidez", "E_MPa": 1600, "densidade_kg_m3": 800, "espessura_resistente_mm": 17.7, "espessura_para_massa_mm": 18.3, "situacao": "Sensibilidade de rigidez; nao e especificacao de um produto nem substituicao aceita"},
+    {"id": "maior_rigidez", "E_MPa": 3000, "densidade_kg_m3": 800, "espessura_resistente_mm": 17.7, "espessura_para_massa_mm": 18.3, "situacao": "Sensibilidade; nenhum produto com esse desempenho foi selecionado"}
+  ],
+  "ligacoes": {
+    "quantidade_minifix_prateleira_nominal": 4,
+    "profundidades_relativas_a_frente_mm": [60, 252],
+    "situacao": "Marcadores nominais na R49, nao furos executados nem capacidade comprovada; nao creditar engaste ou fundo"
+  },
+  "fontes": [
+    {"id": "ARAUCO", "titulo": "ARAUCO Melamina MDF - ficha tecnica", "url": "https://arauco.com.br/wp-content/uploads/2024/07/ARAUCO-MELAMINA-FICHA-TECNICA.pdf", "pagina_pdf": 2, "consultada_em": "2026-10-24", "uso": "Referencia condicional E>=2200 MPa, MOR>=20 MPa, densidade651-800 e tolerancia de painel revestido+-0.3mm. Nao identifica a chapa do P11."},
+    {"id": "EPF", "titulo": "MDF shelves and storage units", "url": "https://mdf-info.eu/applications/furniture/mdf-shelves-and-storage-units", "consultada_em": "2026-10-24", "uso": "Equacao de flecha distribuida e discussao de fluencia; aumento de50% em determinadas superficies nao e garantia universal"},
+    {"id": "CPA2022", "titulo": "Particleboard & MDF for Shelving - Technical Bulletin", "url": "https://www.compositepanel.org/wp-content/uploads/Technical-Bulletin-Particleboard-MDF-for-Shelving.pdf", "paginas_pdf": [3, 7, 8, 10, 12], "consultada_em": "2026-10-24", "uso": "Distincao entre resistencia e flecha, formulas, L/240 nas tabelas proprias, MOR nao e tensao admissivel; tabelas nao incluem peso proprio"},
+    {"id": "CPA1998", "titulo": "Particleboard and MDF for Shelving - edicao historica", "url": "https://www.compositepanel.org/wp-content/uploads/TB-Shelving.pdf", "pagina_pdf": 3, "consultada_em": "2026-10-24", "uso": "Duplicacao da flecha como convencao historica de estudo; nao como fator certificado da chapa P11"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "plate_cases": 6,
+  "convergences": 6,
+  "max_relative_change16_20": 0.0009002267361655214,
+  "unilateral_contact_equilibrium": true,
+  "new_interfaces_checked": 4,
+  "source_shapes_interference_scope": 1176,
+  "source_hash_crc": true,
+  "input_hashes": true,
+  "local_links": true,
+  "physical_tests": 0,
+  "source_unchanged": true,
+  "status": "Conferido. Contato traseiro geometricamente possivel; modelo reduzido excede referencia e nao libera base/caixa."
+}

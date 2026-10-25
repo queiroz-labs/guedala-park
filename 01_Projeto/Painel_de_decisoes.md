@@ -1,3 +1,21 @@
+# Pendências atuais — publicação R52/R18
+
+> **Publicação R52/R18:** [modelo FreeCAD R52](Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd), [pacote R18](../05_Entregas/Publicacao/Guedala_Park_R18.zip) e fichas R14. [Estado da publicação e conferência remota](Estado_atual.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
+
+[Avanços, evidências e responsáveis por dependência](Continuidade_pos_R52_2026-10-25/README.md). R52 preservada; estudos separados não são peças incorporadas nem cargas aprovadas.
+
+| Frente | Resultado corrente | Pendência real |
+|---|---|---|
+| P01/P03 |54 cenários e12 equilíbrios por painel, com topo/fundo/laterais/portas e caminhos compartilhados | Juntas/constituição reais, deformação e caixa internaP02 |
+| Corte e formato |249 painéis e36 propostas triados; arranjos preliminares de210 painéis |39 painéis sem definição suficiente; faces/veio/produto/processo e plano executivo |
+| Cinemática | Fotografia R52 extraída;66 poses nativas e528 referências conferidas | Nova extração apenas após mudança da fonte; produtos e colisões contínuas não são certificados |
+| Micro/P16 | Estudo separado300mm do micro;18 regiões guia–fundoP16 localizadas | Altura alternativa não adotada; configuração400 e montagem real pendentes |
+| Banco/cesto e aéreos | Cenários e demandas nominais disponíveis | Ferragens, painéis, juntas, suspensão e protótipos; imóvel/ancoragens finais depois das chaves |
+
+## Registros históricos por revisão
+
+Os registros abaixo preservam decisões e resultados das respectivas datas. Instruções antigas de iniciar a caixa nominal, atualizar a cinemática ou triar as peças não substituem os resultados correntes acima.
+
 **24/10/2026 — luminárias do banheiro L02:** total dos componentes **R$612,64 à vista**, sem frete e instalação. Espelho preservado: mesma fita COB4000 K/IRC>90,2×550 mm. Indireta3000 K: Cristallux CLX-FT200530 de4,8 W/m;2 fontes Opus OPS31002; teto Firefly9605 e perfis MOV4329 mantidos. [Valores e links de compra](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html). Economia de referênciaR$202,45 contraL01 com a fita do espelho incluída. Rolos inteiros no total, sem compra ou instalação liberada; orçamento global preservado para evitar duplicidade comL04/L05/L06. A L01 abaixo é histórico.
 
 **24/10/2026 — luminárias do banheiro L01:** teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240; indireta 3000 K CLX-FT431230. Perfis MOV 4329 brancos e fontes LPV-20-12/LPV-35-12, três comandos separados. [Composição e links de compra](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L01.html). Seleção técnica para cotação; sem compra ou liberação de montagem. Provar canal/dissipação, terminais e luz no rosto; barra inferior depende da torneira. Subtotal conhecido R$645,83, mais fita4000 K sob consulta, montagem e demais exclusões da L01; orçamento geral preservado.
@@ -15,7 +33,7 @@
 
 > **Retomada antes da entrega — 23/10/2026:** [decisões e próximos passos sem medidas reais](Continuidade_pre_entrega_2026-10-23.md). Apartamento ainda não entregue. Separação entre escolhas pessoais, projeto/oficina e levantamento futuro; inclui divergências entre orçamento e fichas R14. Os registros abaixo permanecem históricos quando superados.
 
-> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+> **Consulta histórica —23/10/2026:** o aviso R45 pertence àquela entrega; a versão corrente está no Estado atual e no cabeçalho desta página.
 
 > **Consolidação R45 — 23/10/2026:** [Relatório dimensional e ferragens](Consolidacao_R45_2026-10-23/Relatorio.html) · [FreeCAD R45](Consolidacao_R45_2026-10-23/Guedala_Park_R45_Consolidado.FCStd). Revisados 20 módulos e 171 interfaces; 52 dobradiças vigentes; capacidade FGVTN corrigida para 35 kg. R44 preservada, geometria principal mantida e alternativas reunidas em grupos ocultos. Não equivale a aprovação integral de fabricação. Referências de revisão vigente abaixo ficam como histórico; consultar esta consolidação e seus limites primeiro.
 
@@ -41,7 +59,7 @@
 
 # Revisão vigente R44 — 22/10/2026
 
-[FreeCAD R44](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+[FreeCAD R44 — arquivo no ZIP](../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 
@@ -55,7 +73,7 @@ O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclus
 
 > **Orçamento R43 — 22/10/2026:** [99 itens e premissas](Orcamento_R43_2026-10-22/Orcamento_R43.md). Subtotal R$ 142.927,12 + reserva de 10% R$ 14.292,71 = **R$ 157.219,83**; excede o teto de R$ 105.000 em R$ 52.219,83. Planejamento preliminar: 84,6% do subtotal estimado, sem contratação. Excluídos cadeira de escritório, air fryer, utensílios e bens existentes documentados. Próximo passo: cotar marcenaria e obra com escopo comparável, preservando armazenamento; não considerar economias não demonstradas.
 
-> **R43 vigente — 22/10/2026:** [FreeCAD R43](Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/Guedala_Park_R43_Consolidado.FCStd), salvo e reaberto. R42 preservada byte a byte. Incorporado gabinete do banheiro com duas portas de correr e frente removível, sem reduzir o envelope interno; testes de abertura e manutenção sem interseções no modelo. Recuperadas mesa Berlin e três cadeiras que estavam sem geometria carregada; cores Arenza, base preta e estofado claro. Banco corrigido a pedido de Elias para somente duas tampas e duas almofadas, mantendo interior e apoios. Ver [escopo, resultados e limites](Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/LEIA-ME.md). Ferragens reais, resistência, suspensão e levantamento hidráulico continuam pendentes; gavetas aguardam engates FGVTN. Os registros R42/R02 abaixo são históricos onde superados.
+> **R43 vigente — 22/10/2026:** [FreeCAD R43 — arquivo no ZIP](../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip), salvo e reaberto. R42 preservada byte a byte. Incorporado gabinete do banheiro com duas portas de correr e frente removível, sem reduzir o envelope interno; testes de abertura e manutenção sem interseções no modelo. Recuperadas mesa Berlin e três cadeiras que estavam sem geometria carregada; cores Arenza, base preta e estofado claro. Banco corrigido a pedido de Elias para somente duas tampas e duas almofadas, mantendo interior e apoios. Ver [escopo, resultados e limites](Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/LEIA-ME.md). Ferragens reais, resistência, suspensão e levantamento hidráulico continuam pendentes; gavetas aguardam engates FGVTN. Os registros R42/R02 abaixo são históricos onde superados.
 
 > **Banheiro — detalhamento R02 (21/10/2026):** solução atual em `Avanco_pendencias_2026-10-21/Banheiro_solucao/Detalhamento_R02/Conferencia_R02.html`. Quadro frontal removível por4 M6, portas292×500×18, transpasse24, folga2 sob pedra; caixa interna preservada. Acesso270/235 no uso e564 com a frente retirada. Percurso20 à frente→120 à direita→330 à frente e9 combinações de abertura passaram nos envelopes CAD; acesso ao sifão validado apenas no cenário de referência. R42 principal inalterada. Permanecem material/resistência/suspensão, kit real/retensão e hidráulica/porta real. Não liberar fabricação nem marcar a pendência encerrada. R01 fica como histórico.
 

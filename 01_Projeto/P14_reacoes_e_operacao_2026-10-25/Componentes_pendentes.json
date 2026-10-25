@@ -1,0 +1,49 @@
+{
+  "status": "PENDENTE; nao preencher massa desconhecida com zero",
+  "included_in_current_calculation": false,
+  "components": [
+    {
+      "component": "saco/alcas",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "pega",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "revestimento_real_da_frente",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "buchas/pivos_partes_moveis",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "parafusos_e_terminais_moveis",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "barras_articuladas_esquerda",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    },
+    {
+      "component": "barras_articuladas_direita",
+      "mass_kg": null,
+      "center_or_trajectory_mm": null,
+      "sku": null
+    }
+  ],
+  "rule": "Massa presa a armacao: CG local real. Barras articuladas: CG por angulo e geometria propria; nao girar toda a barra como se fosse frente. Separar partes fixas. Dados preenchidos nao sao importados automaticamente: revisar e ampliar o modelo antes da rodada completa."
+}

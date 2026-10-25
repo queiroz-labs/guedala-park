@@ -1,0 +1,1094 @@
+{
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "rows": [
+    {
+      "kit": "P01_prateleiras723",
+      "study_file": "Cargas_e_ligacoes_R50_2026-10-25\\P01_estudo_apoios_723.FCStd",
+      "study_object": "Proposta_Peca245",
+      "source_object": "Peca245",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        550.0,
+        723.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        550.0,
+        705.0
+      ],
+      "new_volume_mm3": 7157700.0,
+      "old_volume_mm3": 6979500.0,
+      "delta_volume_mm3": 178200.0,
+      "proposed_fabrication_face_area_m2": 0.39765,
+      "old_face_area_m2": 0.38775,
+      "delta_face_area_m2": 0.0099,
+      "delta_mass_kg_at650_800_900": [
+        0.11583,
+        0.14256,
+        0.16038
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_prateleiras723",
+      "study_file": "Cargas_e_ligacoes_R50_2026-10-25\\P01_estudo_apoios_723.FCStd",
+      "study_object": "Proposta_Peca246",
+      "source_object": "Peca246",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        550.0,
+        723.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        550.0,
+        705.0
+      ],
+      "new_volume_mm3": 7157700.0,
+      "old_volume_mm3": 6979500.0,
+      "delta_volume_mm3": 178200.0,
+      "proposed_fabrication_face_area_m2": 0.39765,
+      "old_face_area_m2": 0.38775,
+      "delta_face_area_m2": 0.0099,
+      "delta_mass_kg_at650_800_900": [
+        0.11583,
+        0.14256,
+        0.16038
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_frontal",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 2191824.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 2191824.0,
+      "proposed_fabrication_face_area_m2": 0.121768,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.121768,
+      "delta_mass_kg_at650_800_900": [
+        1.4246856,
+        1.7534592,
+        1.9726416
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_trilho_posterior",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 2191824.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 2191824.0,
+      "proposed_fabrication_face_area_m2": 0.121768,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.121768,
+      "delta_mass_kg_at650_800_900": [
+        1.4246856,
+        1.7534592,
+        1.9726416
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_frente_base",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 2191824.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 2191824.0,
+      "proposed_fabrication_face_area_m2": 0.121768,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.121768,
+      "delta_mass_kg_at650_800_900": [
+        1.4246856,
+        1.7534592,
+        1.9726416
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_traseiro",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 2191824.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 2191824.0,
+      "proposed_fabrication_face_area_m2": 0.121768,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.121768,
+      "delta_mass_kg_at650_800_900": [
+        1.4246856,
+        1.7534592,
+        1.9726416
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_1_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_1_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_2_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_2_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_3_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_3_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_4_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_4_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_5_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_5_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_6_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_6_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_7_frente",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        46.0,
+        62.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 51336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 51336.0,
+      "proposed_fabrication_face_area_m2": 0.002852,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.002852,
+      "delta_mass_kg_at650_800_900": [
+        0.0333684,
+        0.0410688,
+        0.0462024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_transversal_7_caixa",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        514.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 573624.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 573624.0,
+      "proposed_fabrication_face_area_m2": 0.031868,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.031868,
+      "delta_mass_kg_at650_800_900": [
+        0.3728556,
+        0.4588992,
+        0.5162616
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Calco_fundo",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        18.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 636336.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 636336.0,
+      "proposed_fabrication_face_area_m2": 0.035352,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.035352,
+      "delta_mass_kg_at650_800_900": [
+        0.4136184,
+        0.5090688,
+        0.5727024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_lateral_frontal_E",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        82.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 91512.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 91512.0,
+      "proposed_fabrication_face_area_m2": 0.005084,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.005084,
+      "delta_mass_kg_at650_800_900": [
+        0.0594828,
+        0.0732096,
+        0.0823608
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "study_file": "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+      "study_object": "Soco_lateral_frontal_D",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        62.0,
+        82.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 91512.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 91512.0,
+      "proposed_fabrication_face_area_m2": 0.005084,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.005084,
+      "delta_mass_kg_at650_800_900": [
+        0.0594828,
+        0.0732096,
+        0.0823608
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_P03_traseiro",
+      "study_file": "P01_P03_caminho_superior_2026-10-25\\P01_P03_apoio_traseiro_ESTUDO.FCStd",
+      "study_object": "Estudo_Peca208",
+      "source_object": "Peca208",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        1964.0,
+        2114.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        1964.0,
+        2096.0
+      ],
+      "new_volume_mm3": 74734128.0,
+      "old_volume_mm3": 74097792.0,
+      "delta_volume_mm3": 636336.0,
+      "proposed_fabrication_face_area_m2": 4.151896,
+      "old_face_area_m2": 4.116544,
+      "delta_face_area_m2": 0.035352,
+      "delta_mass_kg_at650_800_900": [
+        0.4136184,
+        0.5090688,
+        0.5727024
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P01_P03_traseiro",
+      "study_file": "P01_P03_caminho_superior_2026-10-25\\P01_P03_apoio_traseiro_ESTUDO.FCStd",
+      "study_object": "Estudo_Peca262",
+      "source_object": "Peca262",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        650.0,
+        1314.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        632.0,
+        1314.0
+      ],
+      "new_volume_mm3": 15373800.0,
+      "old_volume_mm3": 14948063.999999998,
+      "delta_volume_mm3": 425736.00000000186,
+      "proposed_fabrication_face_area_m2": 0.8541,
+      "old_face_area_m2": 0.8304479999999999,
+      "delta_face_area_m2": 0.023652000000000103,
+      "delta_mass_kg_at650_800_900": [
+        0.2767284000000012,
+        0.34058880000000147,
+        0.3831624000000017
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P04_fundo308",
+      "study_file": "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd",
+      "study_object": "P04_fundo",
+      "source_object": "Peca268",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        308.0,
+        1764.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        272.0,
+        1764.0
+      ],
+      "new_volume_mm3": 9779616.0,
+      "old_volume_mm3": 8636544.0,
+      "delta_volume_mm3": 1143072.0,
+      "proposed_fabrication_face_area_m2": 0.543312,
+      "old_face_area_m2": 0.479808,
+      "delta_face_area_m2": 0.063504,
+      "delta_mass_kg_at650_800_900": [
+        0.7429968,
+        0.9144576,
+        1.0287648
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "study_file": "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd",
+      "study_object": "P15_lateral_E",
+      "source_object": "Peca360",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        330.0,
+        598.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        330.0,
+        580.0
+      ],
+      "new_volume_mm3": 3552120.0,
+      "old_volume_mm3": 3445200.0,
+      "delta_volume_mm3": 106920.0,
+      "proposed_fabrication_face_area_m2": 0.19734,
+      "old_face_area_m2": 0.1914,
+      "delta_face_area_m2": 0.00594,
+      "delta_mass_kg_at650_800_900": [
+        0.069498,
+        0.085536,
+        0.096228
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "study_file": "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd",
+      "study_object": "P15_lateral_D",
+      "source_object": "Peca359",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        330.0,
+        598.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        330.0,
+        580.0
+      ],
+      "new_volume_mm3": 3552120.0,
+      "old_volume_mm3": 3445200.0,
+      "delta_volume_mm3": 106920.0,
+      "proposed_fabrication_face_area_m2": 0.19734,
+      "old_face_area_m2": 0.1914,
+      "delta_face_area_m2": 0.00594,
+      "delta_mass_kg_at650_800_900": [
+        0.069498,
+        0.085536,
+        0.096228
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "study_file": "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd",
+      "study_object": "P15_fundo",
+      "source_object": "Peca361",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        598.0,
+        799.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        544.0,
+        799.0
+      ],
+      "new_volume_mm3": 8600436.0,
+      "old_volume_mm3": 7823808.0,
+      "delta_volume_mm3": 776628.0,
+      "proposed_fabrication_face_area_m2": 0.477802,
+      "old_face_area_m2": 0.434656,
+      "delta_face_area_m2": 0.043146,
+      "delta_mass_kg_at650_800_900": [
+        0.5048082,
+        0.6213024,
+        0.6989652
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "study_file": "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd",
+      "study_object": "P15_base_inferior",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        312.0,
+        799.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 4487184.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 4487184.0,
+      "proposed_fabrication_face_area_m2": 0.249288,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.249288,
+      "delta_mass_kg_at650_800_900": [
+        2.9166696,
+        3.5897472,
+        4.0384656
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "P17_fundo550",
+      "study_file": "P17_base_fundo_ligacoes_2026-10-25\\P17_fundo_inteiro_ligacoes_ESTUDO.FCStd",
+      "study_object": "Estudo_Peca386",
+      "source_object": "Peca386",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        550.0,
+        1964.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        514.0,
+        1964.0
+      ],
+      "new_volume_mm3": 19443600.0,
+      "old_volume_mm3": 18170928.0,
+      "delta_volume_mm3": 1272672.0,
+      "proposed_fabrication_face_area_m2": 1.0802,
+      "old_face_area_m2": 1.009496,
+      "delta_face_area_m2": 0.070704,
+      "delta_mass_kg_at650_800_900": [
+        0.8272368,
+        1.0181376,
+        1.1454048
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "study_file": "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "study_object": "Apoio_esquerdo",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": "Peca112",
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        650.0,
+        720.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 8424000.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 8424000.0,
+      "proposed_fabrication_face_area_m2": 0.468,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.468,
+      "delta_mass_kg_at650_800_900": [
+        5.4756,
+        6.7392,
+        7.5816
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "study_file": "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "study_object": "Pedestal_lateral_E",
+      "source_object": "Peca367",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        240.0,
+        430.0
+      ],
+      "new_volume_mm3": 8294400.0,
+      "old_volume_mm3": 1857600.0,
+      "delta_volume_mm3": 6436800.0,
+      "proposed_fabrication_face_area_m2": 0.4608,
+      "old_face_area_m2": 0.1032,
+      "delta_face_area_m2": 0.3576,
+      "delta_mass_kg_at650_800_900": [
+        4.18392,
+        5.14944,
+        5.79312
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "study_file": "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "study_object": "Pedestal_lateral_D",
+      "source_object": "Peca368",
+      "role": "replacement",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "old_sorted_nominal_dims_mm": [
+        18.0,
+        240.0,
+        430.0
+      ],
+      "new_volume_mm3": 8294400.0,
+      "old_volume_mm3": 1857600.0,
+      "delta_volume_mm3": 6436800.0,
+      "proposed_fabrication_face_area_m2": 0.4608,
+      "old_face_area_m2": 0.1032,
+      "delta_face_area_m2": 0.3576,
+      "delta_mass_kg_at650_800_900": [
+        4.18392,
+        5.14944,
+        5.79312
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "study_file": "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "study_object": "Pedestal_posterior",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        364.0,
+        720.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 4717440.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 4717440.0,
+      "proposed_fabrication_face_area_m2": 0.26208,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.26208,
+      "delta_mass_kg_at650_800_900": [
+        3.066336,
+        3.773952,
+        4.245696
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "study_file": "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd",
+      "study_object": "Travessa_traseira",
+      "source_object": null,
+      "role": "new_wood",
+      "proxy_retired": null,
+      "new_sorted_nominal_dims_mm": [
+        18.0,
+        180.0,
+        1562.0
+      ],
+      "old_sorted_nominal_dims_mm": null,
+      "new_volume_mm3": 5060880.0,
+      "old_volume_mm3": 0.0,
+      "delta_volume_mm3": 5060880.0,
+      "proposed_fabrication_face_area_m2": 0.28116,
+      "old_face_area_m2": 0.0,
+      "delta_face_area_m2": 0.28116,
+      "delta_mass_kg_at650_800_900": [
+        3.289572,
+        4.048704,
+        4.554792
+      ],
+      "status": "ESTUDO nao incorporado. Area geometrica liquida, sem perdas/veio/bordas/processo. Nao compra nem corte."
+    }
+  ],
+  "kits": [
+    {
+      "kit": "P01_prateleiras723",
+      "proposed_wood_parts": 2,
+      "replacements": 2,
+      "new_wood": 0,
+      "proposed_fabrication_face_area_m2": 0.7953,
+      "delta_face_area_m2": 0.0198,
+      "delta_volume_m3": 0.0003564,
+      "delta_mass_800_kg": 0.28512,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "P01_socoR01",
+      "proposed_wood_parts": 21,
+      "replacements": 0,
+      "new_wood": 21,
+      "proposed_fabrication_face_area_m2": 0.7756319999999999,
+      "delta_face_area_m2": 0.7756319999999999,
+      "delta_volume_m3": 0.013961376,
+      "delta_mass_800_kg": 11.169100799999995,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "P01_P03_traseiro",
+      "proposed_wood_parts": 2,
+      "replacements": 2,
+      "new_wood": 0,
+      "proposed_fabrication_face_area_m2": 5.005996,
+      "delta_face_area_m2": 0.059004000000000105,
+      "delta_volume_m3": 0.0010620720000000018,
+      "delta_mass_800_kg": 0.8496576000000015,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "P04_fundo308",
+      "proposed_wood_parts": 1,
+      "replacements": 1,
+      "new_wood": 0,
+      "proposed_fabrication_face_area_m2": 0.543312,
+      "delta_face_area_m2": 0.063504,
+      "delta_volume_m3": 0.001143072,
+      "delta_mass_800_kg": 0.9144576,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "P15_composta36",
+      "proposed_wood_parts": 4,
+      "replacements": 3,
+      "new_wood": 1,
+      "proposed_fabrication_face_area_m2": 1.12177,
+      "delta_face_area_m2": 0.30431400000000003,
+      "delta_volume_m3": 0.005477652,
+      "delta_mass_800_kg": 4.3821216000000005,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "P17_fundo550",
+      "proposed_wood_parts": 1,
+      "replacements": 1,
+      "new_wood": 0,
+      "proposed_fabrication_face_area_m2": 1.0802,
+      "delta_face_area_m2": 0.070704,
+      "delta_volume_m3": 0.001272672,
+      "delta_mass_800_kg": 1.0181376,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "proposed_wood_parts": 5,
+      "replacements": 2,
+      "new_wood": 3,
+      "proposed_fabrication_face_area_m2": 1.9328400000000003,
+      "delta_face_area_m2": 1.72644,
+      "delta_volume_m3": 0.03107592,
+      "delta_mass_800_kg": 24.860736000000003,
+      "inclusion": "Nao selecionado. Nao somar kits automaticamente nem alterar lista/orcamento R51."
+    }
+  ],
+  "retired_schematic_supports_only_if_bench_adopted": [
+    {
+      "source": "Peca111",
+      "volume_mm3": 648000.0,
+      "material_and_mass_unknown": true,
+      "wood_mass_credit_kg": null
+    },
+    {
+      "source": "Peca112",
+      "volume_mm3": 648000.0,
+      "material_and_mass_unknown": true,
+      "wood_mass_credit_kg": null
+    }
+  ],
+  "persisted_archives_sha256": {
+    "Cargas_e_ligacoes_R50_2026-10-25\\P01_estudo_apoios_723.FCStd": "2a81500e3aeac87f2790286b9aae7e3043d6e271abe23fbef2ff5166cf093fe9",
+    "Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+    "P01_apoios_ao_piso_2026-10-25\\P01_soco_sem_tubos_R01_ESTUDO.FCStd": "b88789807f5706ad64fb4257ac7ad5ddc443b58e0c4e0c92621c00791adf7c0f",
+    "P01_P03_caminho_superior_2026-10-25\\P01_P03_apoio_traseiro_ESTUDO.FCStd": "f85e6e7a97c46ca22906d4b5f7ef75829088e0092b2450ddcb8a200fa31e57bc",
+    "Solucoes_marcenaria_sem_tubos_2026-10-25\\P15_P04_estudos_sem_tubos.FCStd": "ddcbb512e9dcbf7a374d39d26bb3398795567c9d59d059e5a771b314418a4673",
+    "P17_base_fundo_ligacoes_2026-10-25\\P17_fundo_inteiro_ligacoes_ESTUDO.FCStd": "afb403cd2d7b3a514051178a1fe4218e11c0a32677a46bca538d6565ac5a609b",
+    "Bancada_marcenaria_2026-10-25\\Bancada_marcenaria_pedestal_ESTUDO.FCStd": "3b13fe5d050b01e8429aa8ce0ed76d0a7096265d595864c958d8fca14c906c98"
+  },
+  "script_sha256": "53c29ee9bbf53672bf45e0849ac74479658ccc49094f22a0d80aad29d695564b",
+  "total_proposed_wood_records": 36,
+  "replacement_records": 11,
+  "change_to_approved_bill_of_materials": false,
+  "physical_tests": 0,
+  "scope": "BREP dos arquivos gravados, sem abrir/fechar documentos ou usar versoes modificadas da sessao. Quantitativo separado de opcoes; nao mede massa real nem chapa de compra."
+}

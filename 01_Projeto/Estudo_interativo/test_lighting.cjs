@@ -2,7 +2,7 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const src=path.join(__dirname,'src');
 const ctx=vm.createContext({console,matchMedia:()=>({matches:false})});
 const app=fs.readFileSync(path.join(src,'app.js'),'utf8');
-vm.runInContext(['data.js','cad-data.js','cad-sync.js','lighting.js'].map(n=>fs.readFileSync(path.join(src,n),'utf8')).join('\n')+'\n'+app.slice(0,app.indexOf("const canvas=$('scene')")),ctx);
+vm.runInContext(['data.js','cad-data.js','visual-finishes.js','site-copy.js','cad-sync.js','lighting.js'].map(n=>fs.readFileSync(path.join(src,n),'utf8')).join('\n')+'\n'+app.slice(0,app.indexOf("const canvas=$('scene')")),ctx);
 const run=s=>vm.runInContext(s,ctx);
 assert.equal(run("enhancedLighting({room:'sala',view:'iso',lighting:'after'})"),true);
 for(const room of ['all','quarto','banho','escritorio'])assert.equal(run(`enhancedLighting({room:'${room}',view:'iso',lighting:'after'})`),false);

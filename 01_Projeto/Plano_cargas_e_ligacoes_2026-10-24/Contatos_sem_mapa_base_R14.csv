@@ -1,0 +1,147 @@
+﻿id_base;movel;nome;peca_a;peca_b;contato_nominal_base;situacao;fonte
+P01-BASE-R14-001;P01;Roupeiro;Peca206;Peca208;"Peca206 ↔ Peca208 (X; 18.0×2096.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-002;P01;Roupeiro;Peca206;Peca209;"Peca206 ↔ Peca209 (X; 550.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-003;P01;Roupeiro;Peca206;Peca211;"Peca206 ↔ Peca211 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-004;P01;Roupeiro;Peca206;Peca212;"Peca206 ↔ Peca212 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-005;P01;Roupeiro;Peca206;Peca213;"Peca206 ↔ Peca213 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-006;P01;Roupeiro;Peca206;Peca245;"Peca206 ↔ Peca245 (X; 550.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-007;P01;Roupeiro;Peca207;Peca208;"Peca207 ↔ Peca208 (X; 18.0×2096.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-008;P01;Roupeiro;Peca207;Peca209;"Peca207 ↔ Peca209 (X; 550.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-009;P01;Roupeiro;Peca207;Peca226;"Peca207 ↔ Peca226 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-010;P01;Roupeiro;Peca207;Peca227;"Peca207 ↔ Peca227 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-011;P01;Roupeiro;Peca207;Peca228;"Peca207 ↔ Peca228 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-012;P01;Roupeiro;Peca207;Peca246;"Peca207 ↔ Peca246 (X; 550.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-013;P01;Roupeiro;Peca208;Peca209;"Peca208 ↔ Peca209 (Y; 1964.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-014;P01;Roupeiro;Peca208;Peca210;"Peca208 ↔ Peca210 (Y; 18.0×2034.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-015;P01;Roupeiro;Peca208;Peca241;"Peca208 ↔ Peca241 (Y; 18.0×1002.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-016;P01;Roupeiro;Peca208;Peca242;"Peca208 ↔ Peca242 (Y; 18.0×1002.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-017;P01;Roupeiro;Peca208;Peca243;"Peca208 ↔ Peca243 (Y; 18.0×1002.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-018;P01;Roupeiro;Peca208;Peca244;"Peca208 ↔ Peca244 (Y; 18.0×1002.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-019;P01;Roupeiro;Peca208;Peca245;"Peca208 ↔ Peca245 (Y; 705.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-020;P01;Roupeiro;Peca208;Peca246;"Peca208 ↔ Peca246 (Y; 705.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-021;P01;Roupeiro;Peca209;Peca210;"Peca209 ↔ Peca210 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-022;P01;Roupeiro;Peca209;Peca241;"Peca209 ↔ Peca241 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-023;P01;Roupeiro;Peca209;Peca242;"Peca209 ↔ Peca242 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-024;P01;Roupeiro;Peca209;Peca243;"Peca209 ↔ Peca243 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-025;P01;Roupeiro;Peca209;Peca244;"Peca209 ↔ Peca244 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-026;P01;Roupeiro;Peca211;Peca241;"Peca211 ↔ Peca241 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-027;P01;Roupeiro;Peca212;Peca241;"Peca212 ↔ Peca241 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-028;P01;Roupeiro;Peca213;Peca241;"Peca213 ↔ Peca241 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-029;P01;Roupeiro;Peca226;Peca244;"Peca226 ↔ Peca244 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-030;P01;Roupeiro;Peca227;Peca244;"Peca227 ↔ Peca244 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-031;P01;Roupeiro;Peca228;Peca244;"Peca228 ↔ Peca244 (X; 400.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-032;P01;Roupeiro;Peca241;Peca245;"Peca241 ↔ Peca245 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P01-BASE-R14-033;P01;Roupeiro;Peca244;Peca246;"Peca244 ↔ Peca246 (Z; 18.0×550.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-001;P03;Maleiro;Peca259;Peca261;"Peca259 ↔ Peca261 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-002;P03;Maleiro;Peca259;Peca262;"Peca259 ↔ Peca262 (X; 632.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-003;P03;Maleiro;Peca259;Peca263;"Peca259 ↔ Peca263 (X; 632.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-004;P03;Maleiro;Peca260;Peca261;"Peca260 ↔ Peca261 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-005;P03;Maleiro;Peca260;Peca262;"Peca260 ↔ Peca262 (X; 632.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P03-BASE-R14-006;P03;Maleiro;Peca260;Peca263;"Peca260 ↔ Peca263 (X; 632.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-001;P04;Aéreo da cabeceira;Peca266;Peca268;"Peca266 ↔ Peca268 (Y; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-002;P04;Aéreo da cabeceira;Peca266;Peca269;"Peca266 ↔ Peca269 (Y; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-003;P04;Aéreo da cabeceira;Peca266;Peca270;"Peca266 ↔ Peca270 (Y; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-004;P04;Aéreo da cabeceira;Peca267;Peca268;"Peca267 ↔ Peca268 (Y; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-005;P04;Aéreo da cabeceira;Peca267;Peca269;"Peca267 ↔ Peca269 (Y; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-006;P04;Aéreo da cabeceira;Peca267;Peca270;"Peca267 ↔ Peca270 (Y; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-007;P04;Aéreo da cabeceira;Peca268;;"Peca268 ↔ ApoioComumR003 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-008;P04;Aéreo da cabeceira;Peca268;;"Peca268 ↔ ApoioComumR004 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-009;P04;Aéreo da cabeceira;Peca268;;"Peca268 ↔ ApoioOpostoR001 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-010;P04;Aéreo da cabeceira;Peca268;;"Peca268 ↔ ApoioOpostoR002 (X; 18.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-011;P04;Aéreo da cabeceira;Peca269;;"Peca269 ↔ ApoioComumR003 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-012;P04;Aéreo da cabeceira;Peca269;;"Peca269 ↔ ApoioComumR004 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-013;P04;Aéreo da cabeceira;Peca269;;"Peca269 ↔ ApoioOpostoR001 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-014;P04;Aéreo da cabeceira;Peca269;;"Peca269 ↔ ApoioOpostoR002 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-015;P04;Aéreo da cabeceira;Peca270;;"Peca270 ↔ ApoioComumR003 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-016;P04;Aéreo da cabeceira;Peca270;;"Peca270 ↔ ApoioComumR004 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-017;P04;Aéreo da cabeceira;Peca270;;"Peca270 ↔ ApoioOpostoR001 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-018;P04;Aéreo da cabeceira;Peca270;;"Peca270 ↔ ApoioOpostoR002 (Z; 212.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P04-BASE-R14-019;P04;Aéreo da cabeceira;;;"ApoioComumR004 ↔ ApoioOpostoR001 (Y; 212.0×272.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-001;P05;Gabinete da pia;Peca276;Peca278;"Peca276 ↔ Peca278 (X; 18.0×684.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-002;P05;Gabinete da pia;Peca276;Peca279;"Peca276 ↔ Peca279 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-003;P05;Gabinete da pia;Peca276;Peca280;"Peca276 ↔ Peca280 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-004;P05;Gabinete da pia;Peca277;Peca278;"Peca277 ↔ Peca278 (X; 18.0×684.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-005;P05;Gabinete da pia;Peca277;Peca279;"Peca277 ↔ Peca279 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-006;P05;Gabinete da pia;Peca277;Peca280;"Peca277 ↔ Peca280 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P05-BASE-R14-007;P05;Gabinete da pia;Peca278;Peca280;"Peca278 ↔ Peca280 (Y; 614.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P06-BASE-R14-001;P06;Gaveteiro G1/G2/G3;Peca283;Peca285;"Peca283 ↔ Peca285 (X; 18.0×684.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P06-BASE-R14-002;P06;Gaveteiro G1/G2/G3;Peca283;Peca286;"Peca283 ↔ Peca286 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P06-BASE-R14-003;P06;Gaveteiro G1/G2/G3;Peca284;Peca285;"Peca284 ↔ Peca285 (X; 18.0×684.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P06-BASE-R14-004;P06;Gaveteiro G1/G2/G3;Peca284;Peca286;"Peca284 ↔ Peca286 (X; 572.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P07-BASE-R14-001;P07;Módulo de cocção;Peca305;Peca307;"Peca305 ↔ Peca307 (X; 212.0×30.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P07-BASE-R14-002;P07;Módulo de cocção;Peca305;;"Peca305 ↔ BasePlanaR31 (X; 535.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P07-BASE-R14-003;P07;Módulo de cocção;Peca306;Peca307;"Peca306 ↔ Peca307 (X; 212.0×30.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P07-BASE-R14-004;P07;Módulo de cocção;Peca306;;"Peca306 ↔ BasePlanaR31 (X; 535.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-001;P09;Aéreo D;Peca317;Peca320;"Peca317 ↔ Peca320 (Y; 18.0×556.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-002;P09;Aéreo D;Peca315;Peca317;"Peca315 ↔ Peca317 (X; 18.0×556.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-003;P09;Aéreo D;Peca315;Peca318;"Peca315 ↔ Peca318 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-004;P09;Aéreo D;Peca315;Peca319;"Peca315 ↔ Peca319 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-005;P09;Aéreo D;Peca316;Peca317;"Peca316 ↔ Peca317 (X; 18.0×556.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-006;P09;Aéreo D;Peca316;Peca318;"Peca316 ↔ Peca318 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-007;P09;Aéreo D;Peca316;Peca319;"Peca316 ↔ Peca319 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-008;P09;Aéreo D;Peca318;Peca320;"Peca318 ↔ Peca320 (Z; 18.0×312.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P09-BASE-R14-009;P09;Aéreo D;Peca319;Peca320;"Peca319 ↔ Peca320 (Z; 18.0×312.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P10-BASE-R14-001;P10;Aéreo C;Peca324;Peca326;"Peca324 ↔ Peca326 (X; 18.0×982.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P10-BASE-R14-002;P10;Aéreo C;Peca325;Peca326;"Peca325 ↔ Peca326 (X; 18.0×982.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P10-BASE-R14-003;P10;Aéreo C;Peca326;Peca329;"Peca326 ↔ Peca329 (Y; 511.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P10-BASE-R14-004;P10;Aéreo C;Peca326;Peca330;"Peca326 ↔ Peca330 (Y; 511.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P10-BASE-R14-005;P10;Aéreo C;Peca326;Peca331;"Peca326 ↔ Peca331 (Y; 511.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P11-BASE-R14-001;P11;Aéreo B;Peca334;Peca336;"Peca334 ↔ Peca336 (X; 18.0×574.0 mm)";"Mapa nominal de uniao calculado R00 semtubos; CAD, capacidade da junta e oficina pendentes";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P11-BASE-R14-002;P11;Aéreo B;Peca335;Peca336;"Peca335 ↔ Peca336 (X; 18.0×574.0 mm)";"Mapa nominal de uniao calculado R00 semtubos; CAD, capacidade da junta e oficina pendentes";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P11-BASE-R14-003;P11;Aéreo B;Peca336;Peca339;"Peca336 ↔ Peca339 (Y; 661.0×18.0 mm)";"Mapa nominal de uniao calculado R00 semtubos; CAD, capacidade da junta e oficina pendentes";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-001;P12;Aéreo A;Peca342;Peca344;"Peca342 ↔ Peca344 (X; 18.0×548.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-002;P12;Aéreo A;Peca342;Peca345;"Peca342 ↔ Peca345 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-003;P12;Aéreo A;Peca342;Peca346;"Peca342 ↔ Peca346 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-004;P12;Aéreo A;Peca343;Peca344;"Peca343 ↔ Peca344 (X; 18.0×548.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-005;P12;Aéreo A;Peca343;Peca345;"Peca343 ↔ Peca345 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-006;P12;Aéreo A;Peca343;Peca346;"Peca343 ↔ Peca346 (X; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-007;P12;Aéreo A;Peca344;Peca347;"Peca344 ↔ Peca347 (Y; 18.0×548.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-008;P12;Aéreo A;Peca345;Peca347;"Peca345 ↔ Peca347 (Z; 18.0×312.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P12-BASE-R14-009;P12;Aéreo A;Peca346;Peca347;"Peca346 ↔ Peca347 (Z; 18.0×312.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P14-BASE-R14-001;P14;Tanque e cesto;;;"PecaCestoR15 ↔ PecaCestoR001 (Z; 554.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P15-BASE-R14-001;P15;Aéreo lavanderia;Peca359;Peca361;"Peca359 ↔ Peca361 (X; 18.0×544.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P15-BASE-R14-002;P15;Aéreo lavanderia;Peca360;Peca361;"Peca360 ↔ Peca361 (X; 18.0×544.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-001;P16;Gaveteiro escritório;Peca367;Peca369;"Peca367 ↔ Peca369 (X; 18.0×204.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-002;P16;Gaveteiro escritório;Peca367;Peca370;"Peca367 ↔ Peca370 (X; 412.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-003;P16;Gaveteiro escritório;Peca367;Peca371;"Peca367 ↔ Peca371 (X; 412.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-004;P16;Gaveteiro escritório;Peca368;Peca369;"Peca368 ↔ Peca369 (X; 18.0×204.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-005;P16;Gaveteiro escritório;Peca368;Peca370;"Peca368 ↔ Peca370 (X; 412.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P16-BASE-R14-006;P16;Gaveteiro escritório;Peca368;Peca371;"Peca368 ↔ Peca371 (X; 412.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-001;P17;Aéreo escritório;Peca384;Peca386;"Peca384 ↔ Peca386 (Y; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-002;P17;Aéreo escritório;Peca384;Peca387;"Peca384 ↔ Peca387 (Y; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-003;P17;Aéreo escritório;Peca384;Peca388;"Peca384 ↔ Peca388 (Y; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-004;P17;Aéreo escritório;Peca385;Peca386;"Peca385 ↔ Peca386 (Y; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-005;P17;Aéreo escritório;Peca385;Peca387;"Peca385 ↔ Peca387 (Y; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-006;P17;Aéreo escritório;Peca385;Peca388;"Peca385 ↔ Peca388 (Y; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-007;P17;Aéreo escritório;Peca386;;"Peca386 ↔ ApoioComumR11 (X; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-008;P17;Aéreo escritório;Peca386;;"Peca386 ↔ ApoioComumR001 (X; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-009;P17;Aéreo escritório;Peca386;;"Peca386 ↔ ApoioComumR002 (X; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-010;P17;Aéreo escritório;Peca386;;"Peca386 ↔ ApoioOpostoR18 (X; 18.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-011;P17;Aéreo escritório;Peca387;;"Peca387 ↔ ApoioComumR11 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-012;P17;Aéreo escritório;Peca387;;"Peca387 ↔ ApoioComumR001 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-013;P17;Aéreo escritório;Peca387;;"Peca387 ↔ ApoioComumR002 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-014;P17;Aéreo escritório;Peca387;;"Peca387 ↔ ApoioOpostoR18 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-015;P17;Aéreo escritório;Peca388;;"Peca388 ↔ ApoioComumR11 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-016;P17;Aéreo escritório;Peca388;;"Peca388 ↔ ApoioComumR001 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-017;P17;Aéreo escritório;Peca388;;"Peca388 ↔ ApoioComumR002 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-018;P17;Aéreo escritório;Peca388;;"Peca388 ↔ ApoioOpostoR18 (Z; 312.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P17-BASE-R14-019;P17;Aéreo escritório;;;"ApoioComumR001 ↔ ApoioOpostoR18 (Y; 312.0×514.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-001;P20;Banco baú;Peca407;Peca408;"Peca407 ↔ Peca408 (Y; 18.0×382.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-002;P20;Banco baú;Peca407;;"Peca407 ↔ PecaBancoR16 (Y; 18.0×400.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-003;P20;Banco baú;Peca407;;"Peca407 ↔ PecaBancoR001 (Y; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-004;P20;Banco baú;Peca408;Peca406;"Peca408 ↔ Peca406AtualR31 (Y; 18.0×382.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-005;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR001 (X; 362.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-006;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR002 (X; 1384.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-007;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR003 (X; 18.0×320.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-008;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR004 (X; 18.0×300.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-009;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR005 (X; 18.0×300.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-010;P20;Banco baú;Peca406;;"PecaBancoR16 ↔ Peca406AtualR31 (Y; 18.0×400.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-011;P20;Banco baú;;;"PecaBancoR16 ↔ PecaBancoR006AtualR31 (X; 18.0×192.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-012;P20;Banco baú;;;"PecaBancoR002 ↔ PecaBancoR003 (Y; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-013;P20;Banco baú;;;"PecaBancoR002 ↔ PecaBancoR004 (Z; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-014;P20;Banco baú;;;"PecaBancoR002 ↔ PecaBancoR005 (Z; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-015;P20;Banco baú;Peca406;;"PecaBancoR002 ↔ Peca406AtualR31 (Y; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-016;P20;Banco baú;;;"PecaBancoR002 ↔ PecaBancoR006AtualR31 (Z; 390.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-017;P20;Banco baú;;;"PecaBancoR005 ↔ PecaBancoR007AtualR31 (Y; 372.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-018;P20;Banco baú;Peca406;;"Peca406AtualR31 ↔ PecaBancoR007AtualR31 (Y; 372.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json
+P20-BASE-R14-019;P20;Banco baú;;;"PecaBancoR007AtualR31 ↔ PecaBancoR006AtualR31 (Z; 372.0×18.0 mm)";"A reconciliar com R49; planejado";01_Projeto/Estudo_interativo/fabrication/r14/joinery.json

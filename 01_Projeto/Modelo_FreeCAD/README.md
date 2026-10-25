@@ -1,8 +1,10 @@
-> **Consulta vigente — 23/10/2026:** use o [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+> **Publicação R52/R18:** [modelo FreeCAD R52](../Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd), [pacote R18](../../05_Entregas/Publicacao/Guedala_Park_R18.zip) e fichas R14. [Estado da publicação e conferência remota](../Estado_atual.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
 
-# Revisão vigente R44 — 22/10/2026
+[Avanços e pendências após R52](../Continuidade_pos_R52_2026-10-25/README.md) · [P01/P03](../Continuidade_pos_R52_2026-10-25/P01_P03/README.md) · [corte e formatos](../Continuidade_pos_R52_2026-10-25/Corte_e_formatos/README.md) · [cinemática R52](../Continuidade_pos_R52_2026-10-25/Cinematica_R52/README.md).
 
-[FreeCAD R44](01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+# Histórico — revisão R44 de22/10/2026
+
+[FreeCAD R44 — arquivo no ZIP](../../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Conferência e limites](01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 
@@ -16,7 +18,7 @@ O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclus
 
 # Revisão vigente R42 — 22/10/2026
 
-[Modelo consolidado](01_Atual/Consolidacao_R42_2026-10-22/Guedala_Park_R42_Consolidado.FCStd). Dois apoios de celular/óculos removidos; Berlin em configurações de estudo; FGVTN candidata para nove gavetas e 46 dobradiças comuns, sem substituir silenciosamente a geometria Blum. Banco, armazenamento e demais móveis preservados. Medidas de projeto; não libera fabricação. R41 preservada.
+[Modelo consolidado — arquivo no ZIP](../../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip). Dois apoios de celular/óculos removidos; Berlin em configurações de estudo; FGVTN candidata para nove gavetas e 46 dobradiças comuns, sem substituir silenciosamente a geometria Blum. Banco, armazenamento e demais móveis preservados. Medidas de projeto; não libera fabricação. R41 preservada.
 
 ---
 
@@ -36,11 +38,11 @@ O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclus
 
 **Histórico R35:** [modelo e auditoria de movimentos](01_Atual/Movimentos_R35_2026-10-21/README.md). Placa do varal removida; R34 preservada.
 
-**Histórico R34:** [apartamento único na orientação correta](01_Atual/Apartamento_unico_R34_2026-10-21/Guedala_Park_R34_Apartamento_Unico.FCStd) · [conferências e controles](01_Atual/Apartamento_unico_R34_2026-10-21/README.md). R33 preservada; duas portas corrigidas e controles mantidos.
+**Histórico R34:** [apartamento único na orientação correta — arquivo no ZIP](../../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [conferências e controles](01_Atual/Apartamento_unico_R34_2026-10-21/README.md). R33 preservada; duas portas corrigidas e controles mantidos.
 
-**Histórico R33 — 20/10/2026:** [modelo conferido](01_Atual/Conferencia_R33_2026-10-20/Guedala_Park_R33_Conferencia.FCStd) · [resultados, medidas e limites](01_Atual/README.md). Corrige a medição parcial R32 e a exibição de duas portas da cozinha. Conversor DWG instalado/testado para a entrega futura, sem envio externo. As entradas R31 abaixo descrevem a consolidação anterior.
+**Histórico R33 — 20/10/2026:** [modelo conferido — arquivo no ZIP](../../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [resultados, medidas e limites](01_Atual/README.md). Corrige a medição parcial R32 e a exibição de duas portas da cozinha. Conversor DWG instalado/testado para a entrega futura, sem envio externo. As entradas R31 abaixo descrevem a consolidação anterior.
 
-**Histórico R31.** [Abrir o arquivo editável](01_Atual/Consolidacao_R31_2026-10-20/Guedala_Park_R31_Consolidado.FCStd) · [Alterações e conferências](01_Atual/Consolidacao_R31_2026-10-20/README.md). Consolidação até 20/10/2026. Preferência de voltar ao baú convencional apenas anotada, sem aplicar a reversão.
+**Histórico R31.** [Abrir o arquivo editável — arquivo no ZIP](../../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Alterações e conferências](01_Atual/Consolidacao_R31_2026-10-20/README.md). Consolidação até 20/10/2026. Preferência de voltar ao baú convencional apenas anotada, sem aplicar a reversão.
 
 **Estudo construtivo separado:** [apoios propostos do banco e do cesto](../Detalhamento_construtivo_R30_2026-10-14/Estudo_Apoios_Banco_Cesto_R30.FCStd) · [caderno explicativo](../Detalhamento_construtivo_R30_2026-10-14/Caderno_construtivo.html). Contém cópias estáticas e sete novos envelopes de apoio, sem alterar ou substituir a R30.
 

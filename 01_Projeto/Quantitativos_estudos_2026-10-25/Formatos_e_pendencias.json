@@ -1,0 +1,1028 @@
+{
+  "formats": [
+    {
+      "size_mm": [
+        2750,
+        1850
+      ],
+      "source": "https://www.guararapes.com.br/produto/branco-tx/",
+      "scope": "Produto BrancoTX publicado; nao marca escolhida do projeto"
+    },
+    {
+      "size_mm": [
+        2750,
+        2100
+      ],
+      "source": "https://arauco.com/brasil/wp-content/uploads/sites/17/2024/05/ARAUCO-MELAMINA-MDF-1-1-2024.pdf",
+      "scope": "Ficha de linha2024 inclui18; padrao,faces,estoque e fornecimento precisam de confirmacao"
+    }
+  ],
+  "rectangle_checks": [
+    {
+      "kit": "P01_prateleiras723",
+      "object": "Proposta_Peca245",
+      "nominal_face_mm": [
+        550.0,
+        723.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca245",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_prateleiras723",
+      "object": "Proposta_Peca246",
+      "nominal_face_mm": [
+        550.0,
+        723.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca246",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_frontal",
+      "nominal_face_mm": [
+        62.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_trilho_posterior",
+      "nominal_face_mm": [
+        62.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_frente_base",
+      "nominal_face_mm": [
+        62.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_traseiro",
+      "nominal_face_mm": [
+        62.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_1_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_1_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_2_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_2_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_3_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_3_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_4_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_4_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_5_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_5_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_6_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_6_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_7_frente",
+      "nominal_face_mm": [
+        46.0,
+        62.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_transversal_7_caixa",
+      "nominal_face_mm": [
+        62.0,
+        514.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Calco_fundo",
+      "nominal_face_mm": [
+        18.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_lateral_frontal_E",
+      "nominal_face_mm": [
+        62.0,
+        82.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_socoR01",
+      "object": "Soco_lateral_frontal_D",
+      "nominal_face_mm": [
+        62.0,
+        82.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_P03_traseiro",
+      "object": "Estudo_Peca208",
+      "nominal_face_mm": [
+        1964.0,
+        2114.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": false
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca208",
+      "old_face_fits2750x1850": false,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P01_P03_traseiro",
+      "object": "Estudo_Peca262",
+      "nominal_face_mm": [
+        650.0,
+        1314.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca262",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P04_fundo308",
+      "object": "P04_fundo",
+      "nominal_face_mm": [
+        308.0,
+        1764.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca268",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "object": "P15_lateral_E",
+      "nominal_face_mm": [
+        330.0,
+        598.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca360",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "object": "P15_lateral_D",
+      "nominal_face_mm": [
+        330.0,
+        598.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca359",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "object": "P15_fundo",
+      "nominal_face_mm": [
+        598.0,
+        799.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca361",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P15_composta36",
+      "object": "P15_base_inferior",
+      "nominal_face_mm": [
+        312.0,
+        799.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "P17_fundo550",
+      "object": "Estudo_Peca386",
+      "nominal_face_mm": [
+        550.0,
+        1964.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca386",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "object": "Apoio_esquerdo",
+      "nominal_face_mm": [
+        650.0,
+        720.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "object": "Pedestal_lateral_E",
+      "nominal_face_mm": [
+        640.0,
+        720.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca367",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "object": "Pedestal_lateral_D",
+      "nominal_face_mm": [
+        640.0,
+        720.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca368",
+      "old_face_fits2750x1850": true,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "object": "Pedestal_posterior",
+      "nominal_face_mm": [
+        364.0,
+        720.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    },
+    {
+      "kit": "Bancada_marcenaria",
+      "object": "Travessa_traseira",
+      "nominal_face_mm": [
+        180.0,
+        1562.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": null,
+      "old_face_fits2750x1850": null,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    }
+  ],
+  "oversize_for2750x1850": [
+    {
+      "kit": "P01_P03_traseiro",
+      "object": "Estudo_Peca208",
+      "nominal_face_mm": [
+        1964.0,
+        2114.0
+      ],
+      "formats": [
+        {
+          "sheet_mm": [
+            2750,
+            1850
+          ],
+          "fits_one_rectangle_allow_rotation": false
+        },
+        {
+          "sheet_mm": [
+            2750,
+            2100
+          ],
+          "fits_one_rectangle_allow_rotation": true
+        }
+      ],
+      "old_source_object": "Peca208",
+      "old_face_fits2750x1850": false,
+      "note": "Triagem de retangulo unico sem refilo, serra, sentido decorativo, perdas, transporte ou montagem; nao plano de corte."
+    }
+  ],
+  "purchase_sheet_count": null,
+  "commercial_material_selected": null,
+  "budget_change_committed": false,
+  "source_quantities_sha256": "e78d429a6c49066d257aac0cdd656ca1d6b5ddce90fa82a7c63d831a04691d27",
+  "note": "Confirmar formato comercial antes de projetar emenda; nenhuma divisao do fundo ou escolha de fornecedor foi feita."
+}

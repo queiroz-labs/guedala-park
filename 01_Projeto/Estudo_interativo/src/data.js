@@ -1,7 +1,7 @@
 /* Dados atuais do projeto. Medidas em centímetros, salvo indicação. */
 const PROJECT={
-  "revision": "Consulta de marcenaria · FreeCAD R49 · iluminação CB02",
-  "date": "23 outubro 2026",
+  "revision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
+  "date": "25 outubro 2026",
   "mirrored": false,
   "name": "Guedala Park",
   "area": "40,18 m²",
@@ -759,7 +759,7 @@ const ITEMS=[
     "measure": "Conferência posterior",
     "material": "black",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Faz café por caneca. Rotina para duas canecas. Guardada sobre a pedra. Usar ali sem roupas no varal. Com roupas, levar temporariamente à área de preparo da cozinha. Não presumir funcionamento simultâneo com air fryer."
+    "notes": "Faz café por caneca. Rotina para duas canecas. Uso previsto na lavanderia sem roupas no varal. Espaço a definir: modelo e dimensões adiados; sem volume no desenho e sem encaixe simultâneo demonstrado na bancada da cozinha. Não presumir funcionamento simultâneo com air fryer."
   },
   {
     "id": "sink",

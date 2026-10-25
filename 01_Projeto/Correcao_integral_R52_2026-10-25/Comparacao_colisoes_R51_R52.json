@@ -1,0 +1,288 @@
+{
+  "source_R51_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "target_R52_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_pairs": 744,
+  "target_pairs": 735,
+  "removed_pairs": [
+    {
+      "a": "Alternativa500ManterBaseR41",
+      "b": "Alternativa500ManterTopoR41",
+      "labels": [
+        "ALTERNATIVA OCULTA - frente500 - ManterBase",
+        "ALTERNATIVA OCULTA - frente500 - ManterTopo"
+      ],
+      "modules": [
+        null,
+        null
+      ],
+      "environments": [
+        null,
+        null
+      ],
+      "volume_mm3": 4742100.0,
+      "bbox_overlap_mm": [
+        550.0,
+        18.0,
+        479.0
+      ],
+      "common_bbox": [
+        4280.0,
+        6370.0,
+        171.0,
+        4830.0,
+        6388.0,
+        650.0
+      ],
+      "ratio_small": 0.958
+    },
+    {
+      "a": "PecaCestoR003",
+      "b": "Alternativa500ManterBaseR41",
+      "labels": [
+        "Frente inferior521 - face630, junta lateral2 proposta",
+        "ALTERNATIVA OCULTA - frente500 - ManterBase"
+      ],
+      "modules": [
+        "Modulo013",
+        null
+      ],
+      "environments": [
+        "Ambiente_lavanderia",
+        null
+      ],
+      "volume_mm3": 4950000.0,
+      "bbox_overlap_mm": [
+        550.0,
+        18.0,
+        500.0
+      ],
+      "common_bbox": [
+        4280.0,
+        6370.0,
+        150.0,
+        4830.0,
+        6388.0,
+        650.0
+      ],
+      "ratio_small": 1.0
+    },
+    {
+      "a": "PecaCestoR003",
+      "b": "Alternativa500ManterTopoR41",
+      "labels": [
+        "Frente inferior521 - face630, junta lateral2 proposta",
+        "ALTERNATIVA OCULTA - frente500 - ManterTopo"
+      ],
+      "modules": [
+        "Modulo013",
+        null
+      ],
+      "environments": [
+        "Ambiente_lavanderia",
+        null
+      ],
+      "volume_mm3": 4950000.0,
+      "bbox_overlap_mm": [
+        550.0,
+        18.0,
+        500.0
+      ],
+      "common_bbox": [
+        4280.0,
+        6370.0,
+        171.0,
+        4830.0,
+        6388.0,
+        671.0
+      ],
+      "ratio_small": 1.0
+    },
+    {
+      "a": "Peca092",
+      "b": "Fechada_110Ponta_cozinha",
+      "labels": [
+        "Mesa - metade do tampo junto à cozinha",
+        "Ponta_cozinha - gabarito Lina R41, projecao externa hipotetica 210mm"
+      ],
+      "modules": [
+        null,
+        null
+      ],
+      "environments": [
+        "Ambiente_sala",
+        null
+      ],
+      "volume_mm3": 360156.4346067706,
+      "bbox_overlap_mm": [
+        440.0,
+        460.0,
+        30.0
+      ],
+      "common_bbox": [
+        655.0,
+        5340.0,
+        420.0,
+        1095.0,
+        5410.0,
+        940.0
+      ],
+      "ratio_small": 0.021342603532253066
+    },
+    {
+      "a": "Peca091",
+      "b": "Fechada_110Ponta_sofa",
+      "labels": [
+        "Mesa - metade do tampo junto ao sofá",
+        "Ponta_sofa - gabarito Lina R41, projecao externa hipotetica 210mm"
+      ],
+      "modules": [
+        null,
+        null
+      ],
+      "environments": [
+        "Ambiente_sala",
+        null
+      ],
+      "volume_mm3": 360156.43460677174,
+      "bbox_overlap_mm": [
+        440.0000000000001,
+        460.0,
+        30.0
+      ],
+      "common_bbox": [
+        654.9999999999999,
+        3890.0,
+        420.0,
+        1095.0,
+        3960.0,
+        940.0
+      ],
+      "ratio_small": 0.021342603532253136
+    },
+    {
+      "a": "Peca131",
+      "b": "Peca073",
+      "labels": [
+        "Samsung 43″ existente",
+        "door"
+      ],
+      "modules": [
+        null,
+        null
+      ],
+      "environments": [
+        "Ambiente_escritorio",
+        "Ambiente_escritorio"
+      ],
+      "volume_mm3": 560000.0000000001,
+      "bbox_overlap_mm": [
+        20.0,
+        50.0,
+        560.0
+      ],
+      "common_bbox": [
+        2640.0,
+        2200.0,
+        820.0,
+        2660.0,
+        2250.0,
+        1380.0
+      ],
+      "ratio_small": 0.020618556701030938
+    },
+    {
+      "a": "Peca098",
+      "b": "Peca094",
+      "labels": [
+        "Mesa extensível com pedestal fixo007",
+        "Mesa extensível com pedestal fixo003"
+      ],
+      "modules": [
+        null,
+        null
+      ],
+      "environments": [
+        "Ambiente_sala",
+        "Ambiente_sala"
+      ],
+      "volume_mm3": 432000.0,
+      "bbox_overlap_mm": [
+        120.0,
+        120.0,
+        30.0
+      ],
+      "common_bbox": [
+        815.0,
+        4590.0,
+        643.0,
+        935.0,
+        4710.0,
+        673.0
+      ],
+      "ratio_small": 0.09849521203830369
+    },
+    {
+      "a": "PecaCestoR022",
+      "b": "Peca358",
+      "labels": [
+        "Tanque externo420x390/fundo700 - reserva R08, não produto real",
+        "Histórico oculto - volume útil aproximado anterior do tanque"
+      ],
+      "modules": [
+        "Modulo013",
+        null
+      ],
+      "environments": [
+        "Ambiente_lavanderia",
+        "Ambiente_lavanderia"
+      ],
+      "volume_mm3": 3571999.9999999995,
+      "bbox_overlap_mm": [
+        380.0,
+        290.0,
+        200.0
+      ],
+      "common_bbox": [
+        4390.0,
+        6500.0,
+        700.0,
+        4770.0,
+        6790.0,
+        900.0
+      ],
+      "ratio_small": 0.37855023314963954
+    },
+    {
+      "a": "Peca358",
+      "b": "PecaCestoR023",
+      "labels": [
+        "Histórico oculto - volume útil aproximado anterior do tanque",
+        "Vazio útil380x350x200 preservado - posição R08 condicional"
+      ],
+      "modules": [
+        null,
+        "Modulo013"
+      ],
+      "environments": [
+        "Ambiente_lavanderia",
+        "Ambiente_lavanderia"
+      ],
+      "volume_mm3": 18468000.0,
+      "bbox_overlap_mm": [
+        380.0,
+        270.0,
+        180.0
+      ],
+      "common_bbox": [
+        4390.0,
+        6500.0,
+        720.0,
+        4770.0,
+        6770.0,
+        900.0
+      ],
+      "ratio_small": 0.6942857142857143
+    }
+  ],
+  "new_pairs": []
+}

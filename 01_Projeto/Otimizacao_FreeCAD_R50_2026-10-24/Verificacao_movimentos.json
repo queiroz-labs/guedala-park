@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "input": "ControlePortaR10.Abertura",
+      "value": 40,
+      "changed_objects": 7,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleCantoR35.AberturaA",
+      "value": 35,
+      "changed_objects": 7,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleCantoR35.AberturaB",
+      "value": 35,
+      "changed_objects": 7,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleCestoR15.Abertura",
+      "value": 55,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "BancoR43_Controle.Abertura1",
+      "value": 60,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "BancoR43_Controle.Abertura2",
+      "value": 60,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "Gaveta.Extensao",
+      "value": 100,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "Gaveta004.Extensao",
+      "value": 100,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "Gaveta008.Extensao",
+      "value": 100,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleCorrerR14.Deslocamento",
+      "value": 300,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleCorrerR002.Deslocamento",
+      "value": 200,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleVaralR35.Descida",
+      "value": 200,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleFornoR35.Extracao",
+      "value": 200,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleGrelhaInferiorR35.Extracao",
+      "value": 50,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleGrelhaSuperiorR35.Extracao",
+      "value": 50,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "ControleLoopManutencaoR26.Afastamento",
+      "value": 100,
+      "changed_objects": 3,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "BC43_Controle.CursoEsquerda",
+      "value": 100,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    },
+    {
+      "input": "BC43_Controle.CursoDireita",
+      "value": 100,
+      "changed_objects": 1,
+      "differences_R49_R50": [],
+      "meaning": "Same recomputed state; no collision/capacity approval implied"
+    }
+  ],
+  "count": 18,
+  "all_equal": true,
+  "files_unchanged": true,
+  "method": "Sequential inputs, recompute, all object Placements and all feature bboxes, return to original state; no files saved."
+}

@@ -1,0 +1,107 @@
+{
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "original_left_support": "Peca112",
+  "original_right_support": "Peca111",
+  "new_panels": [
+    {
+      "id": "Apoio_esquerdo",
+      "source_replaces": "Peca112",
+      "origin_mm": [
+        2720.0,
+        20.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        650.0,
+        720.0
+      ],
+      "role": "painel lateral de apoio ate o piso"
+    },
+    {
+      "id": "Pedestal_lateral_E",
+      "source_replaces": "Peca367",
+      "origin_mm": [
+        4300.0,
+        40.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "role": "lateral atual ampliada para tras/baixo; gavetas mantidas"
+    },
+    {
+      "id": "Pedestal_lateral_D",
+      "source_replaces": "Peca368",
+      "origin_mm": [
+        4682.0,
+        40.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "role": "lateral atual ampliada para tras/baixo; gavetas mantidas"
+    },
+    {
+      "id": "Pedestal_posterior",
+      "source_replaces": "",
+      "origin_mm": [
+        4318.0,
+        70.0,
+        0.0
+      ],
+      "size_mm": [
+        364.0,
+        18.0,
+        720.0
+      ],
+      "role": "fechamento traseiro estrutural de estudo, fora do fundo atual das gavetas"
+    },
+    {
+      "id": "Travessa_traseira",
+      "source_replaces": "",
+      "origin_mm": [
+        2738.0,
+        70.0,
+        540.0
+      ],
+      "size_mm": [
+        1562.0,
+        18.0,
+        180.0
+      ],
+      "role": "travessa de madeira somente atras, sem travessa frontal sob entrada da cadeira"
+    }
+  ],
+  "top": [
+    2700,
+    0,
+    720,
+    4700,
+    700,
+    750
+  ],
+  "drawer_original": [
+    4300,
+    250,
+    480,
+    4700,
+    680,
+    720
+  ],
+  "new_outer_footprint": [
+    2720,
+    20,
+    4700,
+    680
+  ],
+  "chair_clear_span_mm": 1562,
+  "gap_below_top_in_central_front_mm": 720,
+  "fabrication_status": "ESTUDO apenas; nao fabricar ou incorporar sem revisar aparencia e espaco sob gavetas, rigidez do tampo, retencao, juntas, piso e estabilidade"
+}

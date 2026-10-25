@@ -1,0 +1,28 @@
+{
+  "consulted_UTC": "2026-10-25",
+  "retrieval": "Navegacao web disponivel; Firecrawl ja havia falhado por indisponibilidade/creditos na sessao, sem nova compra ou repeticao de tentativa.",
+  "sources": [
+    {
+      "title": "Titebond Melamine Glue — fabricante, Limitations",
+      "url": "https://www.titebond.com/print/product/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd",
+      "short_exact_quote": "Not for structural or load bearing applications.",
+      "project_consequence": "Excluir este produto da justificativa de sustentacao da baseP15 composta; nao foi selecionado nem aplicado.",
+      "type": "fabricante; limitacao de uso explicita, nao ensaio do projeto"
+    },
+    {
+      "title": "USDA/FPL Wood Handbook, Chapter10, Frihart/Hunt,2021",
+      "url": "https://research.fs.usda.gov/download/treesearch/62250.pdf",
+      "sections_consulted": ["10-5 materiais compostos e superficie", "10-8 resistencia/durabilidade", "10-18 a10-21 ensaios e desempenho prolongado"],
+      "project_consequence": "Separar preparo/processo, resistencia inicial, rigidez e durabilidade do conjunto colado. Nao transferir propriedades de uma familia de adesivos a um produto.",
+      "type": "guia tecnico primario, nao especificacao do painel local"
+    },
+    {
+      "title": "Atashipour, Landel, Al-Emrani, Accuracy evaluation of Gamma-method...,WCTE2018",
+      "url": "https://research.chalmers.se/en/publication/507133",
+      "scope_read": "Resumo institucional, nao texto integral",
+      "project_consequence": "Avaliacao de interacao parcial depende das condicoes de contorno; nao aplicar formula de viga automaticamente a placaP15.",
+      "type": "resumo de pesquisa primaria; numeros nao usados no calculo"
+    }
+  ],
+  "calculation": "Derivacao energetica propria documentada no README e conferida contra montagem direta e limites da placa anterior. Nenhum valor ks foi retirado destas fontes."
+}

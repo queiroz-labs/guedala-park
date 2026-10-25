@@ -1,0 +1,320 @@
+{
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Otimizacao_FreeCAD_R50_2026-10-24\\Guedala_Park_R50_Completo_Otimizado.FCStd",
+  "source_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "source_unchanged": true,
+  "source_objects": 5893,
+  "current_objects": 5833,
+  "removed_objects": [
+    {
+      "id": "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO",
+      "label": "Bancada_Estrutura_R45_R02_ESTUDO — ESTUDO",
+      "type": "App::DocumentObjectGroup"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca113",
+      "label": "Notebook + dois monitores + CH369",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca114",
+      "label": "Notebook + dois monitores + CH370",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca115",
+      "label": "Notebook + dois monitores + CH371",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca116",
+      "label": "Notebook + dois monitores + CH372",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca117",
+      "label": "Notebook + dois monitores + CH373",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca118",
+      "label": "Notebook + dois monitores + CH374",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca119",
+      "label": "Notebook + dois monitores + CH375",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca120",
+      "label": "Notebook + dois monitores + CH376",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca121",
+      "label": "Notebook + dois monitores + CH377",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca367",
+      "label": "Lateral direita031",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca368",
+      "label": "Lateral esquerda016",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca369",
+      "label": "Fundo016",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca370",
+      "label": "Base013",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_Peca371",
+      "label": "Tampo010",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR072",
+      "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR073",
+      "label": "Lateral comum direita · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR074",
+      "label": "Fundo comum · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR075",
+      "label": "Traseira comum · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR076",
+      "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR077",
+      "label": "Frente preservada · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR078",
+      "label": "Trava T51.7601 · 46166126 · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR079",
+      "label": "Trava T51.7601 · 43107713 · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR080",
+      "label": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR081",
+      "label": "MOVENTO400 · bau0086023263_v(T75S746M00_L) · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR082",
+      "label": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR083",
+      "label": "MOVENTO400 · bau0086023290_v(T75S746M00) · Gaveta escritório 1 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR084",
+      "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR085",
+      "label": "Lateral comum direita · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR086",
+      "label": "Fundo comum · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR087",
+      "label": "Traseira comum · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR088",
+      "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR089",
+      "label": "Frente preservada · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR090",
+      "label": "Trava T51.7601 · 46166126 · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR091",
+      "label": "Trava T51.7601 · 43107713 · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR092",
+      "label": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR093",
+      "label": "MOVENTO400 · bau0086023263_v(T75S746M00_L) · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR094",
+      "label": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Ref_GavetaComumR095",
+      "label": "MOVENTO400 · bau0086023290_v(T75S746M00) · Gaveta escritório 2 - proposta R001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Original",
+      "label": "Tampo R44 original — comparação oculta",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Longarina_1",
+      "label": "Longarina_1 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Longarina_2",
+      "label": "Longarina_2 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Longarina_3",
+      "label": "Longarina_3 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Longarina_4",
+      "label": "Longarina_4 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Longarina_5",
+      "label": "Longarina_5 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Travessa_embutida_1",
+      "label": "Travessa_embutida_1 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Travessa_embutida_2",
+      "label": "Travessa_embutida_2 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Pe_1_1",
+      "label": "Pe_1_1 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Sapata_1_1",
+      "label": "Sapata 40×40×10 — interface, SKU não definido",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Pe_1_2",
+      "label": "Pe_1_2 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Sapata_1_2",
+      "label": "Sapata 40×40×10 — interface, SKU não definido001",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Pe_2_1",
+      "label": "Pe_2_1 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Sapata_2_1",
+      "label": "Sapata 40×40×10 — interface, SKU não definido002",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Pe_2_2",
+      "label": "Pe_2_2 — seção nominal, cantos idealizados",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Sapata_2_2",
+      "label": "Sapata 40×40×10 — interface, SKU não definido003",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Diagonal_posterior_A",
+      "label": "Diagonal_posterior_A — união soldada a dimensionar",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Diagonal_posterior_B",
+      "label": "Diagonal_posterior_B — união soldada a dimensionar",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Diagonal_lateral_1",
+      "label": "Diagonal_lateral_1 — união soldada a dimensionar",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Diagonal_lateral_2",
+      "label": "Diagonal_lateral_2 — união soldada a dimensionar",
+      "type": "PartDesign::Feature"
+    },
+    {
+      "id": "R45_Ref_Tampo_usinado",
+      "label": "Tampo 2000×700×30 preservado; bolsões20,5 deixam9,5 nominal",
+      "type": "PartDesign::Feature"
+    }
+  ],
+  "removed_group": "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO",
+  "remaining_comparison_differences": [],
+  "expressions_preserved": 7702,
+  "nonnull_features": 1487,
+  "save": {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+    "bytes": 19799395,
+    "empty_shapes": 199,
+    "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16"
+  },
+  "meaning": "Apenas estudo oculto cancelado removido. Geometria, placement, expressao, cor e visibilidade das pecas mantidas conferidas; apoios reais da bancada ainda por dimensionar. Nao e liberacao estrutural."
+}

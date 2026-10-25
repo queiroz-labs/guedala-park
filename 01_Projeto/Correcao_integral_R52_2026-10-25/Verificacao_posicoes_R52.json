@@ -1,0 +1,793 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "tv_bbox": [
+    2620.0,
+    1180.0,
+    820.0,
+    2670.0,
+    2150.0,
+    1380.0
+  ],
+  "door_bbox": [
+    2640.0,
+    2200.0,
+    0.0,
+    2660.0,
+    2950.0,
+    2050.0
+  ],
+  "saved_common_mm3": 0.0,
+  "saved_gap_y_mm": 50.0,
+  "door_sweep_cases": 74,
+  "door_sweep_max_common_mm3": 0.0,
+  "door_sweep_min_distance_mm": 50.0,
+  "door_sweep": [
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -90,
+      "common_mm3": 0.0,
+      "distance_mm": 780.0000000000005
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -85,
+      "common_mm3": 0.0,
+      "distance_mm": 775.2126436184432
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -80,
+      "common_mm3": 0.0,
+      "distance_mm": 764.3732388564274
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -75,
+      "common_mm3": 0.0,
+      "distance_mm": 747.5642801292043
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -70,
+      "common_mm3": 0.0,
+      "distance_mm": 724.913693762214
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -65,
+      "common_mm3": 0.0,
+      "distance_mm": 696.5938643945062
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -60,
+      "common_mm3": 0.0,
+      "distance_mm": 662.8203230275509
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -55,
+      "common_mm3": 0.0,
+      "distance_mm": 623.8501067041725
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -50,
+      "common_mm3": 0.0,
+      "distance_mm": 579.979802301452
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -45,
+      "common_mm3": 0.0,
+      "distance_mm": 531.5432893255069
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -40,
+      "common_mm3": 0.0,
+      "distance_mm": 478.9091988868524
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -35,
+      "common_mm3": 0.0,
+      "distance_mm": 422.47810819505696
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -30,
+      "common_mm3": 0.0,
+      "distance_mm": 362.6794919243113
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -25,
+      "common_mm3": 0.0,
+      "distance_mm": 299.9684536518272
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -20,
+      "common_mm3": 0.0,
+      "distance_mm": 234.9794890354205
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -15,
+      "common_mm3": 0.0,
+      "distance_mm": 170.04401876512142
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -10,
+      "common_mm3": 0.0,
+      "distance_mm": 107.4818848569861
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -5,
+      "common_mm3": 0.0,
+      "distance_mm": 57.09344969454869
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 0,
+      "common_mm3": 0.0,
+      "distance_mm": 50.0
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 5,
+      "common_mm3": 0.0,
+      "distance_mm": 63.59523461911865
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 10,
+      "common_mm3": 0.0,
+      "distance_mm": 117.54372969383971
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 15,
+      "common_mm3": 0.0,
+      "distance_mm": 180.67139071669513
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 20,
+      "common_mm3": 0.0,
+      "distance_mm": 245.71924753110983
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 25,
+      "common_mm3": 0.0,
+      "distance_mm": 310.9053757814597
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 30,
+      "common_mm3": 0.0,
+      "distance_mm": 374.01923788646695
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 35,
+      "common_mm3": 0.0,
+      "distance_mm": 434.286587752167
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 40,
+      "common_mm3": 0.0,
+      "distance_mm": 491.24875445566187
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 45,
+      "common_mm3": 0.0,
+      "distance_mm": 544.4722215136422
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 50,
+      "common_mm3": 0.0,
+      "distance_mm": 593.5519262045858
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 55,
+      "common_mm3": 0.0,
+      "distance_mm": 638.1143423406626
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 60,
+      "common_mm3": 0.0,
+      "distance_mm": 677.8203230275509
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 65,
+      "common_mm3": 0.0,
+      "distance_mm": 712.3676817770992
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 70,
+      "common_mm3": 0.0,
+      "distance_mm": 741.4934923289574
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 75,
+      "common_mm3": 0.0,
+      "distance_mm": 764.9760896781792
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 80,
+      "common_mm3": 0.0,
+      "distance_mm": 782.6367570797586
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 85,
+      "common_mm3": 0.0,
+      "distance_mm": 794.3410861909666
+    },
+    {
+      "pivot": [
+        2640.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 90,
+      "common_mm3": 0.0,
+      "distance_mm": 800.0
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -90,
+      "common_mm3": 0.0,
+      "distance_mm": 800.0000000000005
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -85,
+      "common_mm3": 0.0,
+      "distance_mm": 793.4695287634904
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -80,
+      "common_mm3": 0.0,
+      "distance_mm": 780.9002753030892
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -75,
+      "common_mm3": 0.0,
+      "distance_mm": 762.3878992271534
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -70,
+      "common_mm3": 0.0,
+      "distance_mm": 738.0732908957006
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -65,
+      "common_mm3": 0.0,
+      "distance_mm": 708.1414991596928
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -60,
+      "common_mm3": 0.0,
+      "distance_mm": 672.8203230275503
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -55,
+      "common_mm3": 0.0,
+      "distance_mm": 632.3785779771515
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -50,
+      "common_mm3": 0.0,
+      "distance_mm": 587.124050107721
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -45,
+      "common_mm3": 0.0,
+      "distance_mm": 537.4011537017761
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -40,
+      "common_mm3": 0.0,
+      "distance_mm": 483.5883100244723
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -35,
+      "common_mm3": 0.0,
+      "distance_mm": 426.0950673092771
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -30,
+      "common_mm3": 0.0,
+      "distance_mm": 365.35898384862253
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -25,
+      "common_mm3": 0.0,
+      "distance_mm": 301.8422979110942
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -20,
+      "common_mm3": 0.0,
+      "distance_mm": 236.53254841008643
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -15,
+      "common_mm3": 0.0,
+      "distance_mm": 171.6387652803603
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -10,
+      "common_mm3": 0.0,
+      "distance_mm": 109.14121918567054
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": -5,
+      "common_mm3": 0.0,
+      "distance_mm": 58.62608399889825
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 0,
+      "common_mm3": 0.0,
+      "distance_mm": 50.0
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 5,
+      "common_mm3": 0.0,
+      "distance_mm": 62.19742968967558
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 10,
+      "common_mm3": 0.0,
+      "distance_mm": 116.03083700555463
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 15,
+      "common_mm3": 0.0,
+      "distance_mm": 179.19509944140611
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 20,
+      "common_mm3": 0.0,
+      "distance_mm": 244.27399650580486
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 25,
+      "common_mm3": 0.0,
+      "distance_mm": 309.03153152219227
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 30,
+      "common_mm3": 0.0,
+      "distance_mm": 371.33974596215563
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 35,
+      "common_mm3": 0.0,
+      "distance_mm": 430.66962863794714
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 40,
+      "common_mm3": 0.0,
+      "distance_mm": 486.56964331804187
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 45,
+      "common_mm3": 0.0,
+      "distance_mm": 538.6143571373724
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 50,
+      "common_mm3": 0.0,
+      "distance_mm": 586.4076783983168
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 55,
+      "common_mm3": 0.0,
+      "distance_mm": 629.5858710676833
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 60,
+      "common_mm3": 0.0,
+      "distance_mm": 667.8203230275509
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 65,
+      "common_mm3": 0.0,
+      "distance_mm": 700.8200470119127
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 70,
+      "common_mm3": 0.0,
+      "distance_mm": 728.33389519547
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 75,
+      "common_mm3": 0.0,
+      "distance_mm": 750.15247058023
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 80,
+      "common_mm3": 0.0,
+      "distance_mm": 766.1097206330974
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 85,
+      "common_mm3": 0.0,
+      "distance_mm": 776.0842010459198
+    },
+    {
+      "pivot": [
+        2660.0,
+        2950.0,
+        0.0
+      ],
+      "angle": 90,
+      "common_mm3": 0.0,
+      "distance_mm": 780.0
+    }
+  ],
+  "sweep_limit": "Geometric model only, two far-end slab corners as hinge hypotheses; actual hinge/support/stop not measured.",
+  "historical_roots_hidden": [
+    "Peca358",
+    "Alternativa500ManterBaseR41",
+    "Alternativa500ManterTopoR41",
+    "EstudoFrente500R41",
+    "Peca091",
+    "Peca092",
+    "Peca093",
+    "Peca094",
+    "Peca095",
+    "Peca096",
+    "Peca097",
+    "Peca098",
+    "CadeiraLinaR30_1",
+    "CadeiraLinaR30_2",
+    "CadeiraLinaR30_3"
+  ],
+  "bathroom_current_controls": [
+    "ControlePortaR019",
+    "ControlePortaR020",
+    "AcessoControleR34",
+    "AcessoCorrerBanheiroR52"
+  ],
+  "metadata_checks": "passed",
+  "all_assertions_passed": true,
+  "file_unchanged": true
+}

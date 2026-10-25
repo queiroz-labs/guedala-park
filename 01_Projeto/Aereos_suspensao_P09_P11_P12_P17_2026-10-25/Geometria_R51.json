@@ -1,0 +1,851 @@
+{
+  "cad": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "modules": {
+    "P09": {
+      "label": "D · acima do depurador",
+      "width_mm": 614.0,
+      "body_depth_mm": 330.0,
+      "height_mm": 592.0,
+      "module_inverse_matrix": [
+        1.0,
+        -0.0,
+        0.0,
+        -3545.0,
+        0.0,
+        1.0,
+        0.0,
+        -6650.0,
+        -0.0,
+        0.0,
+        1.0,
+        -1958.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "canonical_origin": {
+        "u0_module_mm": -632.0,
+        "rear_module_mm": 350.0,
+        "z0_module_mm": 0.0
+      },
+      "body": [
+        {
+          "name": "Peca315",
+          "label": "Lateral direita021",
+          "box_module_mm": [
+            -18.0,
+            20.0,
+            0.0,
+            0.0,
+            350.0,
+            592.0
+          ],
+          "center_module_mm": [
+            -9.0,
+            185.00000000000003,
+            296.0
+          ],
+          "volume_mm3": 3516480.0,
+          "center_uvz_mm": [
+            623.0,
+            164.99999999999997,
+            296.0
+          ]
+        },
+        {
+          "name": "Peca316",
+          "label": "Lateral esquerda005",
+          "box_module_mm": [
+            -650.0,
+            20.0,
+            0.0,
+            -632.0,
+            350.0,
+            592.0
+          ],
+          "center_module_mm": [
+            -641.0,
+            185.00000000000003,
+            296.0
+          ],
+          "volume_mm3": 3516480.0,
+          "center_uvz_mm": [
+            -9.0,
+            164.99999999999997,
+            296.0
+          ]
+        },
+        {
+          "name": "Peca317",
+          "label": "Fundo005",
+          "box_module_mm": [
+            -632.0,
+            332.0,
+            18.0,
+            -18.0,
+            350.0,
+            574.0
+          ],
+          "center_module_mm": [
+            -325.0,
+            341.0,
+            296.0
+          ],
+          "volume_mm3": 6144912.0,
+          "center_uvz_mm": [
+            307.0,
+            9.0,
+            296.0
+          ]
+        },
+        {
+          "name": "Peca318",
+          "label": "Base004",
+          "box_module_mm": [
+            -632.0,
+            20.0,
+            0.0,
+            -18.0,
+            332.0,
+            18.0
+          ],
+          "center_module_mm": [
+            -325.0,
+            176.0,
+            9.0
+          ],
+          "volume_mm3": 3448224.0,
+          "center_uvz_mm": [
+            307.0,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "name": "Peca319",
+          "label": "Tampo002",
+          "box_module_mm": [
+            -632.0,
+            20.0,
+            574.0,
+            -18.0,
+            332.0,
+            592.0
+          ],
+          "center_module_mm": [
+            -325.0,
+            176.0,
+            583.0
+          ],
+          "volume_mm3": 3448224.0,
+          "center_uvz_mm": [
+            307.0,
+            174.0,
+            583.0
+          ]
+        },
+        {
+          "name": "Peca320",
+          "label": "Divisória005",
+          "box_module_mm": [
+            -334.0,
+            20.0,
+            18.0,
+            -316.0,
+            332.0,
+            574.0
+          ],
+          "center_module_mm": [
+            -325.0,
+            176.0,
+            296.0
+          ],
+          "volume_mm3": 3122496.0,
+          "center_uvz_mm": [
+            307.0,
+            174.0,
+            296.0
+          ]
+        }
+      ],
+      "leaves": [
+        {
+          "leaf": "Folha006",
+          "fronts": [
+            "FrenteComumR002"
+          ]
+        },
+        {
+          "leaf": "Folha007",
+          "fronts": [
+            "FrenteComumR003"
+          ]
+        }
+      ],
+      "base": "Peca318",
+      "back": "Peca317"
+    },
+    "P11": {
+      "label": "B · acima do micro",
+      "width_mm": 661.0,
+      "body_depth_mm": 330.0,
+      "height_mm": 610.0,
+      "module_inverse_matrix": [
+        1.0,
+        -0.0,
+        0.0,
+        -2348.0,
+        0.0,
+        1.0,
+        0.0,
+        -6650.0,
+        -0.0,
+        0.0,
+        1.0,
+        -1940.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "canonical_origin": {
+        "u0_module_mm": -679.0,
+        "rear_module_mm": 350.0,
+        "z0_module_mm": 0.0
+      },
+      "body": [
+        {
+          "name": "Peca334",
+          "label": "Lateral direita023",
+          "box_module_mm": [
+            -18.0,
+            20.0,
+            0.0,
+            0.0,
+            350.0,
+            610.0
+          ],
+          "center_module_mm": [
+            -9.0,
+            185.0,
+            305.0
+          ],
+          "volume_mm3": 3623400.0,
+          "center_uvz_mm": [
+            670.0,
+            165.0,
+            305.0
+          ]
+        },
+        {
+          "name": "Peca335",
+          "label": "Lateral esquerda007",
+          "box_module_mm": [
+            -697.0,
+            20.0,
+            0.0,
+            -679.0,
+            350.0,
+            610.0
+          ],
+          "center_module_mm": [
+            -688.0,
+            185.0,
+            305.0
+          ],
+          "volume_mm3": 3623400.0,
+          "center_uvz_mm": [
+            -9.0,
+            165.0,
+            305.0
+          ]
+        },
+        {
+          "name": "Peca336",
+          "label": "Fundo007",
+          "box_module_mm": [
+            -679.0,
+            332.0,
+            18.0,
+            -18.0,
+            350.0,
+            592.0
+          ],
+          "center_module_mm": [
+            -348.5,
+            341.0,
+            305.0
+          ],
+          "volume_mm3": 6829452.0,
+          "center_uvz_mm": [
+            330.5,
+            9.0,
+            305.0
+          ]
+        },
+        {
+          "name": "Peca337",
+          "label": "Base006",
+          "box_module_mm": [
+            -679.0,
+            20.0,
+            0.0,
+            -18.0,
+            332.0,
+            18.0
+          ],
+          "center_module_mm": [
+            -348.5,
+            176.0,
+            9.0
+          ],
+          "volume_mm3": 3712176.0,
+          "center_uvz_mm": [
+            330.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "name": "Peca338",
+          "label": "Tampo004",
+          "box_module_mm": [
+            -679.0,
+            20.0,
+            592.0,
+            -18.0,
+            332.0,
+            610.0
+          ],
+          "center_module_mm": [
+            -348.5,
+            176.0,
+            601.0
+          ],
+          "volume_mm3": 3712176.0,
+          "center_uvz_mm": [
+            330.5,
+            174.0,
+            601.0
+          ]
+        },
+        {
+          "name": "Peca339",
+          "label": "Prateleira003",
+          "box_module_mm": [
+            -679.0,
+            20.0,
+            276.0,
+            -18.0,
+            332.0,
+            294.0
+          ],
+          "center_module_mm": [
+            -348.5,
+            176.0,
+            285.0
+          ],
+          "volume_mm3": 3712176.0,
+          "center_uvz_mm": [
+            330.5,
+            174.0,
+            285.0
+          ]
+        }
+      ],
+      "leaves": [
+        {
+          "leaf": "Folha010",
+          "fronts": [
+            "FrenteComumR006"
+          ]
+        },
+        {
+          "leaf": "Folha011",
+          "fronts": [
+            "FrenteComumR007"
+          ]
+        }
+      ],
+      "base": "Peca337",
+      "back": "Peca336"
+    },
+    "P12": {
+      "label": "A · acima da geladeira",
+      "width_mm": 765.0,
+      "body_depth_mm": 330.0,
+      "height_mm": 584.0,
+      "module_inverse_matrix": [
+        1.0,
+        -0.0,
+        0.0,
+        -1651.0,
+        0.0,
+        1.0,
+        0.0,
+        -6650.0,
+        -0.0,
+        0.0,
+        1.0,
+        -1966.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "canonical_origin": {
+        "u0_module_mm": -783.0,
+        "rear_module_mm": 350.0,
+        "z0_module_mm": 0.0
+      },
+      "body": [
+        {
+          "name": "Peca342",
+          "label": "Lateral direita024",
+          "box_module_mm": [
+            -18.0,
+            20.0,
+            0.0,
+            0.0,
+            350.0,
+            584.0
+          ],
+          "center_module_mm": [
+            -9.0,
+            185.0,
+            292.0
+          ],
+          "volume_mm3": 3468960.0,
+          "center_uvz_mm": [
+            774.0,
+            165.0,
+            292.0
+          ]
+        },
+        {
+          "name": "Peca343",
+          "label": "Lateral esquerda008",
+          "box_module_mm": [
+            -801.0,
+            20.0,
+            0.0,
+            -783.0,
+            350.0,
+            584.0
+          ],
+          "center_module_mm": [
+            -792.0,
+            185.0,
+            292.0
+          ],
+          "volume_mm3": 3468960.0,
+          "center_uvz_mm": [
+            -9.0,
+            165.0,
+            292.0
+          ]
+        },
+        {
+          "name": "Peca344",
+          "label": "Fundo008",
+          "box_module_mm": [
+            -783.0,
+            332.0,
+            18.0,
+            -18.0,
+            350.0,
+            566.0
+          ],
+          "center_module_mm": [
+            -400.5,
+            341.0,
+            292.0
+          ],
+          "volume_mm3": 7545960.0,
+          "center_uvz_mm": [
+            382.5,
+            9.0,
+            292.0
+          ]
+        },
+        {
+          "name": "Peca345",
+          "label": "Base007",
+          "box_module_mm": [
+            -783.0,
+            20.0,
+            0.0,
+            -18.0,
+            332.0,
+            18.0
+          ],
+          "center_module_mm": [
+            -400.5,
+            176.0,
+            9.0
+          ],
+          "volume_mm3": 4296240.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "name": "Peca346",
+          "label": "Tampo005",
+          "box_module_mm": [
+            -783.0,
+            20.0,
+            566.0,
+            -18.0,
+            332.0,
+            584.0
+          ],
+          "center_module_mm": [
+            -400.5,
+            176.0,
+            575.0
+          ],
+          "volume_mm3": 4296240.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            575.0
+          ]
+        },
+        {
+          "name": "Peca347",
+          "label": "Divisória006",
+          "box_module_mm": [
+            -409.5,
+            20.0,
+            18.0,
+            -391.5,
+            332.0,
+            566.0
+          ],
+          "center_module_mm": [
+            -400.5,
+            176.0,
+            292.0
+          ],
+          "volume_mm3": 3077568.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        }
+      ],
+      "leaves": [
+        {
+          "leaf": "Folha012",
+          "fronts": [
+            "FrenteComumR008"
+          ]
+        },
+        {
+          "leaf": "Folha013",
+          "fronts": [
+            "FrenteComumR009"
+          ]
+        }
+      ],
+      "base": "Peca345",
+      "back": "Peca344"
+    },
+    "P17": {
+      "label": "Aéreo principal do escritório",
+      "width_mm": 1964.0,
+      "body_depth_mm": 330.00000000000045,
+      "height_mm": 550.0,
+      "module_inverse_matrix": [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        900.0000000000002,
+        1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        -4500.000000000001,
+        -0.0,
+        0.0,
+        1.0,
+        -1900.0000000000005,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "canonical_origin": {
+        "u0_module_mm": -1982.0000000000007,
+        "rear_module_mm": 350.00000000000045,
+        "z0_module_mm": 0.0
+      },
+      "body": [
+        {
+          "name": "Peca384",
+          "label": "Lateral direita028",
+          "box_module_mm": [
+            -18.000000000000075,
+            20.0,
+            0.0,
+            0.0,
+            350.0,
+            550.0
+          ],
+          "center_module_mm": [
+            -9.000000000000037,
+            185.0,
+            275.0
+          ],
+          "volume_mm3": 3267000.0,
+          "center_uvz_mm": [
+            1973.0000000000007,
+            165.00000000000045,
+            275.0
+          ]
+        },
+        {
+          "name": "Peca385",
+          "label": "Lateral esquerda012",
+          "box_module_mm": [
+            -2000.0000000000007,
+            20.0,
+            0.0,
+            -1982.0000000000007,
+            350.0,
+            550.0
+          ],
+          "center_module_mm": [
+            -1991.0000000000007,
+            185.0,
+            275.0
+          ],
+          "volume_mm3": 3267000.0,
+          "center_uvz_mm": [
+            -9.0,
+            165.00000000000045,
+            275.0
+          ]
+        },
+        {
+          "name": "Peca386",
+          "label": "Fundo012",
+          "box_module_mm": [
+            -1982.0000000000007,
+            332.0,
+            18.0,
+            -18.000000000000682,
+            350.00000000000045,
+            532.0
+          ],
+          "center_module_mm": [
+            -1000.0000000000007,
+            341.0000000000002,
+            275.0
+          ],
+          "volume_mm3": 18170928.0,
+          "center_uvz_mm": [
+            982.0,
+            9.000000000000227,
+            275.0
+          ]
+        },
+        {
+          "name": "Peca387",
+          "label": "Base010",
+          "box_module_mm": [
+            -1982.0000000000007,
+            20.0,
+            0.0,
+            -18.000000000000682,
+            332.00000000000045,
+            18.0
+          ],
+          "center_module_mm": [
+            -1000.0000000000007,
+            176.00000000000023,
+            8.999999999999998
+          ],
+          "volume_mm3": 11029824.0,
+          "center_uvz_mm": [
+            982.0,
+            174.00000000000023,
+            8.999999999999998
+          ]
+        },
+        {
+          "name": "Peca388",
+          "label": "Tampo008",
+          "box_module_mm": [
+            -1982.0000000000007,
+            20.0,
+            532.0,
+            -18.000000000000682,
+            332.00000000000045,
+            550.0
+          ],
+          "center_module_mm": [
+            -1000.0000000000007,
+            176.00000000000023,
+            541.0
+          ],
+          "volume_mm3": 11029824.0,
+          "center_uvz_mm": [
+            982.0,
+            174.00000000000023,
+            541.0
+          ]
+        },
+        {
+          "name": "ApoioComumR11",
+          "label": "Apoio interno escritório 1 - proposta18",
+          "box_module_mm": [
+            -518.0000000000001,
+            20.0,
+            18.0,
+            -500.0,
+            332.0,
+            532.0
+          ],
+          "center_module_mm": [
+            -509.00000000000006,
+            175.99999999999997,
+            275.0
+          ],
+          "volume_mm3": 2886623.9999999995,
+          "center_uvz_mm": [
+            1473.0000000000007,
+            174.00000000000048,
+            275.0
+          ]
+        },
+        {
+          "name": "ApoioComumR001",
+          "label": "Apoio interno escritório 2 - proposta18",
+          "box_module_mm": [
+            -1018.0000000000006,
+            20.0,
+            18.0,
+            -1000.0000000000005,
+            332.0,
+            532.0
+          ],
+          "center_module_mm": [
+            -1009.0000000000005,
+            176.0,
+            275.0
+          ],
+          "volume_mm3": 2886624.0,
+          "center_uvz_mm": [
+            973.0000000000002,
+            174.00000000000045,
+            275.0
+          ]
+        },
+        {
+          "name": "ApoioComumR002",
+          "label": "Apoio interno escritório 3 - proposta18",
+          "box_module_mm": [
+            -1518.0000000000002,
+            20.0,
+            18.0,
+            -1500.0000000000002,
+            332.0,
+            532.0
+          ],
+          "center_module_mm": [
+            -1509.0000000000002,
+            176.0,
+            275.0
+          ],
+          "volume_mm3": 2886624.0,
+          "center_uvz_mm": [
+            473.00000000000045,
+            174.00000000000045,
+            275.0
+          ]
+        },
+        {
+          "name": "ApoioOpostoR18",
+          "label": "Escritório - segundo18 no divisor das portas2/3; conjunto36",
+          "box_module_mm": [
+            -1000.0000000000006,
+            20.0,
+            18.0,
+            -982.0000000000005,
+            332.0,
+            532.0
+          ],
+          "center_module_mm": [
+            -991.0000000000005,
+            176.0,
+            275.0
+          ],
+          "volume_mm3": 2886624.0,
+          "center_uvz_mm": [
+            991.0000000000002,
+            174.00000000000045,
+            275.0
+          ]
+        }
+      ],
+      "leaves": [
+        {
+          "leaf": "FolhaEscritorioR11",
+          "fronts": [
+            "FrenteComumR11"
+          ]
+        },
+        {
+          "leaf": "FolhaEscritorioR001",
+          "fronts": [
+            "FrenteComumR012"
+          ]
+        },
+        {
+          "leaf": "FolhaEscritorioR002",
+          "fronts": [
+            "FrenteComumR013"
+          ]
+        },
+        {
+          "leaf": "FolhaEscritorioR003",
+          "fronts": [
+            "FrenteComumR014"
+          ]
+        }
+      ],
+      "base": "Peca387",
+      "back": "Peca386"
+    }
+  },
+  "snapshot_sha256": "f7ec0c5c2640402b0e1a8e5ca5112d763f643671fd1ae3583ebed6ccfc774779",
+  "scope": "Geometria atual de quatro caixas. U cresce emX local;v e distancia normal da face traseira nominal. Sem massa real de ferragens/equipamentos, sem produto de suspensao ou ancoragem escolhidos.",
+  "depurador_interface_nominal": {
+    "hood_object": "Peca139",
+    "hood_label": "Depurador Suggar DE61IX",
+    "hood_global_box_mm": [
+      2920.0,
+      6700.0,
+      1740.0,
+      3520.0,
+      7000.0,
+      1916.0
+    ],
+    "cabinet_base_global_box_mm": [
+      2913.0,
+      6670.0,
+      1958.0,
+      3527.0,
+      6982.0,
+      1976.0
+    ],
+    "vertical_gap_mm": 42.0,
+    "scope": "Gabarito do produto; sem parafusos, abas, adaptadores ou ligacao real modelados. Nao resolve instalacao."
+  }
+}

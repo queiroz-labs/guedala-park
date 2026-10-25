@@ -1,0 +1,1409 @@
+{
+  "cad": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/01_Projeto/Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "lids": [
+    {
+      "name": "BancoR43_Painel1",
+      "label": "BancoR43_Painel1",
+      "box": [
+        102.0,
+        3751.0,
+        400.0,
+        550.0,
+        4722.0,
+        420.0
+      ],
+      "volume_mm3": 8700159.999999998
+    },
+    {
+      "name": "BancoR43_Painel2",
+      "label": "BancoR43_Painel2",
+      "box": [
+        102.0,
+        4724.0,
+        400.0,
+        550.0,
+        5549.0,
+        420.0
+      ],
+      "volume_mm3": 7392000.0
+    }
+  ],
+  "body": [
+    {
+      "name": "Peca407",
+      "label": "Lateral esquerda015",
+      "box": [
+        100.00000000000045,
+        3750.0,
+        0.0,
+        550.0000000000005,
+        3768.0,
+        400.0
+      ],
+      "volume_mm3": 3240000.0
+    },
+    {
+      "name": "Peca408",
+      "label": "Fundo015",
+      "box": [
+        100.0,
+        3768.0,
+        18.0,
+        118.0000000000004,
+        5532.0,
+        400.0
+      ],
+      "volume_mm3": 12129264.0
+    },
+    {
+      "name": "PecaBancoR16",
+      "label": "Frente18 estrutural - apoio não calculado",
+      "box": [
+        530.0,
+        3768.0,
+        0.0,
+        548.0000000000003,
+        5532.0,
+        400.0
+      ],
+      "volume_mm3": 12700800.0
+    },
+    {
+      "name": "PecaBancoR001",
+      "label": "Fundo potes/travessas a80 - hipótese18",
+      "box": [
+        140.00000000000023,
+        3768.0,
+        62.0,
+        530.0000000000003,
+        4130.0,
+        80.0
+      ],
+      "volume_mm3": 2541240.0
+    },
+    {
+      "name": "PecaBancoR002",
+      "label": "Fundo demais setores a100 - hipótese18",
+      "box": [
+        140.0,
+        4148.0,
+        82.0,
+        530.0000000000003,
+        5532.0,
+        100.0
+      ],
+      "volume_mm3": 9715680.0
+    },
+    {
+      "name": "PecaBancoR003",
+      "label": "Divisória18 contínua - centro da junta",
+      "box": [
+        140.00000000000034,
+        4130.0,
+        80.0,
+        530.0000000000003,
+        4148.0,
+        400.0
+      ],
+      "volume_mm3": 2246400.0
+    },
+    {
+      "name": "PecaBancoR004",
+      "label": "Divisória18 contínua - centro da junta001",
+      "box": [
+        140.00000000000023,
+        4498.0,
+        100.0,
+        530.0000000000002,
+        4516.0,
+        400.0
+      ],
+      "volume_mm3": 2106000.0
+    },
+    {
+      "name": "PecaBancoR005",
+      "label": "Divisória18 contínua - centro da junta002",
+      "box": [
+        140.00000000000023,
+        4714.0,
+        100.0,
+        530.0000000000002,
+        4732.0,
+        400.0
+      ],
+      "volume_mm3": 2106000.0
+    },
+    {
+      "name": "PecaBancoR016",
+      "label": "Pote 1 - gabarito da organização aprovada",
+      "box": [
+        152.0000000000004,
+        3778.0,
+        313.0,
+        342.00000000000045,
+        3923.0,
+        360.0
+      ],
+      "volume_mm3": 1294849.9999999998
+    },
+    {
+      "name": "PecaBancoR017",
+      "label": "Pote 2 - gabarito da organização aprovada",
+      "box": [
+        152.0000000000004,
+        3778.0,
+        264.0,
+        342.00000000000045,
+        3923.0,
+        311.0
+      ],
+      "volume_mm3": 1294849.9999999998
+    },
+    {
+      "name": "PecaBancoR018",
+      "label": "Pote 3 - gabarito da organização aprovada",
+      "box": [
+        152.00000000000034,
+        3933.0,
+        313.0,
+        342.0000000000004,
+        4078.0,
+        360.0
+      ],
+      "volume_mm3": 1294850.0
+    },
+    {
+      "name": "PecaBancoR019",
+      "label": "Pote 4 - gabarito da organização aprovada",
+      "box": [
+        152.00000000000034,
+        3933.0,
+        264.0,
+        342.0000000000004,
+        4078.0,
+        311.0
+      ],
+      "volume_mm3": 1294850.0
+    },
+    {
+      "name": "PecaBancoR020",
+      "label": "Pote 5 - gabarito da organização aprovada",
+      "box": [
+        362.00000000000034,
+        3854.0,
+        313.0,
+        507.0000000000004,
+        4044.0,
+        360.0
+      ],
+      "volume_mm3": 1294850.0
+    },
+    {
+      "name": "PecaBancoR021",
+      "label": "Pote 6 - gabarito da organização aprovada",
+      "box": [
+        362.00000000000034,
+        3854.0,
+        264.0,
+        507.0000000000004,
+        4044.0,
+        311.0
+      ],
+      "volume_mm3": 1294850.0
+    },
+    {
+      "name": "PecaBancoR022",
+      "label": "Travessas - gabarito da organização aprovada",
+      "box": [
+        302.00000000000034,
+        3779.0,
+        83.0,
+        522.0000000000005,
+        4119.0,
+        183.0
+      ],
+      "volume_mm3": 7480000.0
+    },
+    {
+      "name": "PecaBancoR023",
+      "label": "Batedeira - gabarito da organização aprovada",
+      "box": [
+        152.00000000000034,
+        3799.0,
+        83.0,
+        292.0000000000004,
+        4099.0,
+        203.0
+      ],
+      "volume_mm3": 5040000.0
+    },
+    {
+      "name": "PecaBancoR024",
+      "label": "Motor - gabarito da organização aprovada",
+      "box": [
+        149.00000000000028,
+        4158.0,
+        103.0,
+        329.00000000000034,
+        4338.0,
+        303.0
+      ],
+      "volume_mm3": 6480000.0
+    },
+    {
+      "name": "PecaBancoR025",
+      "label": "Jarra do liquidificador - gabarito da organização aprovada",
+      "box": [
+        330.0000000000003,
+        4158.0,
+        103.0,
+        510.00000000000034,
+        4338.0,
+        343.0
+      ],
+      "volume_mm3": 7776000.0
+    },
+    {
+      "name": "PecaBancoR026",
+      "label": "Térmica vazia e seca - gabarito da organização aprovada",
+      "box": [
+        336.0000000000002,
+        4353.0,
+        103.0,
+        501.1000000000003,
+        4483.175,
+        350.65
+      ],
+      "volume_mm3": 5322467.177625003
+    },
+    {
+      "name": "PecaBancoR027",
+      "label": "Jarra 1,5 L - gabarito da organização aprovada",
+      "box": [
+        166.0000000000002,
+        4360.5,
+        103.0,
+        326.0000000000002,
+        4475.5,
+        333.0
+      ],
+      "volume_mm3": 4232000.0
+    },
+    {
+      "name": "PecaBancoR028",
+      "label": "Balde 8 L - gabarito da organização aprovada",
+      "box": [
+        165.00000000000017,
+        4535.0,
+        103.0,
+        495.0000000000002,
+        4695.0,
+        353.0
+      ],
+      "volume_mm3": 13200000.0
+    },
+    {
+      "name": "PecaBancoR029",
+      "label": "Painel posterior de estudo18 removível - folgas3",
+      "box": [
+        145.0000000000003,
+        3771.0,
+        244.0,
+        347.0000000000004,
+        4127.0,
+        262.0
+      ],
+      "volume_mm3": 1294416.0
+    },
+    {
+      "name": "PecaBancoR030",
+      "label": "Painel frontal de estudo18 removível - folgas3",
+      "box": [
+        352.00000000000034,
+        3771.0,
+        244.0,
+        529.0000000000005,
+        4127.0,
+        262.0
+      ],
+      "volume_mm3": 1134216.0
+    },
+    {
+      "name": "PecaBancoR031",
+      "label": "Faixa de suporte E010x6 - reserva sem peça/carga confirmadas",
+      "box": [
+        145.0000000000004,
+        3768.0,
+        238.0,
+        347.0000000000004,
+        3778.0,
+        244.0
+      ],
+      "volume_mm3": 12120.0
+    },
+    {
+      "name": "PecaBancoR032",
+      "label": "Faixa de suporte D010x6 - reserva sem peça/carga confirmadas",
+      "box": [
+        145.00000000000034,
+        4120.0,
+        238.0,
+        347.00000000000034,
+        4130.0,
+        244.0
+      ],
+      "volume_mm3": 12120.0
+    },
+    {
+      "name": "PecaBancoR033",
+      "label": "Faixa de suporte E110x6 - reserva sem peça/carga confirmadas",
+      "box": [
+        352.00000000000045,
+        3768.0,
+        238.0,
+        529.0000000000005,
+        3778.0,
+        244.0
+      ],
+      "volume_mm3": 10619.999999999998
+    },
+    {
+      "name": "PecaBancoR034",
+      "label": "Faixa de suporte D110x6 - reserva sem peça/carga confirmadas",
+      "box": [
+        352.00000000000034,
+        4120.0,
+        238.0,
+        529.0000000000003,
+        4130.0,
+        244.0
+      ],
+      "volume_mm3": 10619.999999999998
+    },
+    {
+      "name": "ContencaoBaldeR16",
+      "label": "Contenção removível180x350x33 - estanqueidade/material não confirmados",
+      "box": [
+        152.00000000000017,
+        4525.0,
+        100.0,
+        502.0000000000003,
+        4705.0,
+        133.0
+      ],
+      "volume_mm3": 314280.0
+    },
+    {
+      "name": "PecaBancoR036",
+      "label": "Aspirador - reserva371x350x164; programa real não reduzido a caixa",
+      "box": [
+        160.00000000000009,
+        4742.0,
+        110.0,
+        510.00000000000017,
+        5113.0,
+        274.0
+      ],
+      "volume_mm3": 21295399.999999996
+    },
+    {
+      "name": "PecaBancoR037",
+      "label": "Jogos - reserva371x350x164; programa real não reduzido a caixa",
+      "box": [
+        160.00000000000003,
+        5151.0,
+        110.0,
+        510.0000000000001,
+        5522.0,
+        274.0
+      ],
+      "volume_mm3": 21295399.999999996
+    },
+    {
+      "name": "Peca406AtualR31",
+      "label": "Lateral fechada18 - banco com acesso superior",
+      "box": [
+        100.0,
+        5532.0,
+        0.0,
+        550.0,
+        5550.0,
+        400.0
+      ],
+      "volume_mm3": 3240000.0
+    },
+    {
+      "name": "PecaBancoR007AtualR31",
+      "label": "Prateleira contínua da extensão - acesso por cima",
+      "box": [
+        140.0,
+        4732.0,
+        292.0,
+        512.0000000000002,
+        5532.0,
+        310.0
+      ],
+      "volume_mm3": 5356800.0
+    },
+    {
+      "name": "PecaBancoR006AtualR31",
+      "label": "PecaBancoR006 · recorte híbrido R02 integrado",
+      "box": [
+        140.0000000000001,
+        5123.0,
+        100.0,
+        530.0000000000001,
+        5141.0,
+        292.0
+      ],
+      "volume_mm3": 1347840.0
+    },
+    {
+      "name": "Ref_Apoio_B01R31",
+      "label": "Apoio_B01 · híbridoR02 proposto",
+      "box": [
+        140.00000000000028,
+        4130.0,
+        0.0,
+        530.0000000000003,
+        4148.0,
+        80.0
+      ],
+      "volume_mm3": 561600.0
+    },
+    {
+      "name": "Ref_Apoio_B02R31",
+      "label": "Apoio_B02 · híbridoR02 proposto",
+      "box": [
+        140.00000000000023,
+        4498.0,
+        0.0,
+        530.0000000000002,
+        4516.0,
+        82.0
+      ],
+      "volume_mm3": 575640.0
+    },
+    {
+      "name": "Ref_Apoio_B03R31",
+      "label": "Apoio_B03 · híbridoR02 proposto",
+      "box": [
+        140.00000000000017,
+        4714.0,
+        0.0,
+        530.0000000000002,
+        4732.0,
+        82.0
+      ],
+      "volume_mm3": 575640.0
+    },
+    {
+      "name": "Ref_Apoio_B04R31",
+      "label": "Apoio_B04 · híbridoR02 proposto",
+      "box": [
+        100.0,
+        3768.0,
+        0.0,
+        118.0000000000004,
+        5532.0,
+        18.0
+      ],
+      "volume_mm3": 571536.0
+    },
+    {
+      "name": "Ref_Sarrafo_frente0R31",
+      "label": "Sarrafo_frente0 · híbridoR02 proposto",
+      "box": [
+        512.0,
+        4732.0,
+        274.0,
+        530.0000000000002,
+        5532.0,
+        400.0
+      ],
+      "volume_mm3": 1808568.0
+    },
+    {
+      "name": "Ref_Sarrafo_tras0R31",
+      "label": "Sarrafo_tras0 · híbridoR02 proposto",
+      "box": [
+        118.0,
+        4732.0,
+        274.0,
+        136.00000000000017,
+        5532.0,
+        400.0
+      ],
+      "volume_mm3": 1814400.0
+    },
+    {
+      "name": "Ref_Sarrafo_frente1R31",
+      "label": "Sarrafo_frente1 · híbridoR02 proposto",
+      "box": [
+        512.0000000000002,
+        4516.0,
+        274.0,
+        530.0000000000002,
+        4714.0,
+        400.0
+      ],
+      "volume_mm3": 449064.0
+    },
+    {
+      "name": "Ref_Sarrafo_tras1R31",
+      "label": "Sarrafo_tras1 · híbridoR02 proposto",
+      "box": [
+        118.00000000000017,
+        4516.0,
+        274.0,
+        136.00000000000023,
+        4714.0,
+        400.0
+      ],
+      "volume_mm3": 449064.0
+    },
+    {
+      "name": "Ref_Sarrafo_frente2R31",
+      "label": "Sarrafo_frente2 · híbridoR02 proposto",
+      "box": [
+        512.0000000000002,
+        4148.0,
+        274.0,
+        530.0000000000003,
+        4498.0,
+        400.0
+      ],
+      "volume_mm3": 793800.0
+    },
+    {
+      "name": "Ref_Sarrafo_tras2R31",
+      "label": "Sarrafo_tras2 · híbridoR02 proposto",
+      "box": [
+        118.00000000000023,
+        4148.0,
+        274.0,
+        136.00000000000028,
+        4498.0,
+        400.0
+      ],
+      "volume_mm3": 793800.0
+    },
+    {
+      "name": "Ref_Sarrafo_frente3R31",
+      "label": "Sarrafo_frente3 · híbridoR02 proposto",
+      "box": [
+        512.0000000000003,
+        3768.0,
+        274.0,
+        530.0000000000003,
+        4130.0,
+        400.0
+      ],
+      "volume_mm3": 821016.0
+    },
+    {
+      "name": "Ref_Sarrafo_tras3R31",
+      "label": "Sarrafo_tras3 · híbridoR02 proposto",
+      "box": [
+        118.00000000000034,
+        3768.0,
+        274.0,
+        136.0000000000004,
+        4130.0,
+        400.0
+      ],
+      "volume_mm3": 821016.0
+    }
+  ],
+  "contacts": [
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Peca407",
+      "area_mm2": 7615.999999819893,
+      "rectangle_global_mm": [
+        102.0,
+        3751.0,
+        550.0,
+        3768.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Peca408",
+      "area_mm2": 15263.999999639333,
+      "rectangle_global_mm": [
+        102.0,
+        3768.0,
+        118.0000000000004,
+        4722.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "PecaBancoR16",
+      "area_mm2": 17171.999999593936,
+      "rectangle_global_mm": [
+        530.0,
+        3768.0,
+        548.0000000000003,
+        4722.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "PecaBancoR003",
+      "area_mm2": 7019.999999834,
+      "rectangle_global_mm": [
+        140.00000000000034,
+        4130.0,
+        530.0000000000003,
+        4148.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "PecaBancoR004",
+      "area_mm2": 7019.999999833998,
+      "rectangle_global_mm": [
+        140.00000000000023,
+        4498.0,
+        530.0000000000002,
+        4516.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "PecaBancoR005",
+      "area_mm2": 3119.9999999262272,
+      "rectangle_global_mm": [
+        140.00000000000023,
+        4714.0,
+        530.0000000000002,
+        4722.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_frente1R31",
+      "area_mm2": 3563.99999989884,
+      "rectangle_global_mm": [
+        512.0000000000002,
+        4516.0,
+        530.0000000000002,
+        4714.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_tras1R31",
+      "area_mm2": 3563.9999998988396,
+      "rectangle_global_mm": [
+        118.00000000000017,
+        4516.0,
+        136.00000000000023,
+        4714.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_frente2R31",
+      "area_mm2": 6299.9999998211815,
+      "rectangle_global_mm": [
+        512.0000000000002,
+        4148.0,
+        530.0000000000003,
+        4498.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_tras2R31",
+      "area_mm2": 6299.999999821181,
+      "rectangle_global_mm": [
+        118.00000000000023,
+        4148.0,
+        136.00000000000028,
+        4498.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_frente3R31",
+      "area_mm2": 6515.999999815044,
+      "rectangle_global_mm": [
+        512.0000000000003,
+        3768.0,
+        530.0000000000003,
+        4130.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "support": "Ref_Sarrafo_tras3R31",
+      "area_mm2": 6515.999999815051,
+      "rectangle_global_mm": [
+        118.00000000000034,
+        3768.0,
+        136.0000000000004,
+        4130.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "Peca408",
+      "area_mm2": 12927.99999969437,
+      "rectangle_global_mm": [
+        102.0,
+        4724.0,
+        118.0000000000004,
+        5532.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "PecaBancoR16",
+      "area_mm2": 14543.99999965608,
+      "rectangle_global_mm": [
+        530.0,
+        4724.0,
+        548.0000000000003,
+        5532.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "PecaBancoR005",
+      "area_mm2": 3119.9999999262163,
+      "rectangle_global_mm": [
+        140.00000000000023,
+        4724.0,
+        530.0000000000002,
+        4732.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "Peca406AtualR31",
+      "area_mm2": 7615.999999819922,
+      "rectangle_global_mm": [
+        102.0,
+        5532.0,
+        550.0,
+        5549.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "Ref_Sarrafo_frente0R31",
+      "area_mm2": 14399.999999591273,
+      "rectangle_global_mm": [
+        512.0,
+        4732.0,
+        530.0000000000002,
+        5532.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "support": "Ref_Sarrafo_tras0R31",
+      "area_mm2": 14399.999999591273,
+      "rectangle_global_mm": [
+        118.0,
+        4732.0,
+        136.00000000000017,
+        5532.0
+      ],
+      "method": "Penetracao virtual0,001mm em copia; nao alterou a fonte."
+    }
+  ],
+  "structural_names": [
+    "Peca407",
+    "Peca408",
+    "PecaBancoR16",
+    "Peca406AtualR31",
+    "PecaBancoR001",
+    "PecaBancoR002",
+    "PecaBancoR003",
+    "PecaBancoR004",
+    "PecaBancoR005",
+    "Ref_Apoio_B01R31",
+    "Ref_Apoio_B02R31",
+    "Ref_Apoio_B03R31",
+    "Ref_Apoio_B04R31",
+    "Ref_Sarrafo_frente0R31",
+    "Ref_Sarrafo_tras0R31",
+    "Ref_Sarrafo_frente1R31",
+    "Ref_Sarrafo_tras1R31",
+    "Ref_Sarrafo_frente2R31",
+    "Ref_Sarrafo_tras2R31",
+    "Ref_Sarrafo_frente3R31",
+    "Ref_Sarrafo_tras3R31"
+  ],
+  "internal_interfaces": [
+    {
+      "a": "Peca407",
+      "b": "Peca408",
+      "overlap_mm": [
+        17.999999999999943,
+        0.0,
+        382.0
+      ],
+      "common_face_area_mm2": 6875.999999999978,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca407",
+      "b": "PecaBancoR16",
+      "overlap_mm": [
+        18.00000000000034,
+        0.0,
+        400.0
+      ],
+      "common_face_area_mm2": 7200.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca407",
+      "b": "PecaBancoR001",
+      "overlap_mm": [
+        390.0000000000001,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca407",
+      "b": "Ref_Apoio_B04R31",
+      "overlap_mm": [
+        17.999999999999943,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 324.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca407",
+      "b": "Ref_Sarrafo_frente3R31",
+      "overlap_mm": [
+        18.0,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999854,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca407",
+      "b": "Ref_Sarrafo_tras3R31",
+      "overlap_mm": [
+        18.000000000000057,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Peca406AtualR31",
+      "overlap_mm": [
+        18.000000000000398,
+        0.0,
+        382.0
+      ],
+      "common_face_area_mm2": 6876.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Ref_Apoio_B04R31",
+      "overlap_mm": [
+        18.000000000000398,
+        1764.0,
+        0.0
+      ],
+      "common_face_area_mm2": 31751.999999999993,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Ref_Sarrafo_tras0R31",
+      "overlap_mm": [
+        3.979039320256561e-13,
+        800.0,
+        126.0
+      ],
+      "common_face_area_mm2": 100799.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Ref_Sarrafo_tras1R31",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        198.0,
+        126.0
+      ],
+      "common_face_area_mm2": 24947.999999999996,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Ref_Sarrafo_tras2R31",
+      "overlap_mm": [
+        1.7053025658242404e-13,
+        350.0,
+        126.0
+      ],
+      "common_face_area_mm2": 44099.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca408",
+      "b": "Ref_Sarrafo_tras3R31",
+      "overlap_mm": [
+        5.684341886080802e-14,
+        362.0,
+        126.0
+      ],
+      "common_face_area_mm2": 45611.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Peca406AtualR31",
+      "overlap_mm": [
+        18.00000000000034,
+        0.0,
+        400.0
+      ],
+      "common_face_area_mm2": 7200.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR001",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        362.0,
+        18.0
+      ],
+      "common_face_area_mm2": 6516.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR002",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        1384.0,
+        18.0
+      ],
+      "common_face_area_mm2": 24912.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR003",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        18.0,
+        320.0
+      ],
+      "common_face_area_mm2": 5759.999999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR004",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        300.0
+      ],
+      "common_face_area_mm2": 5400.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR005",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        300.0
+      ],
+      "common_face_area_mm2": 5400.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Apoio_B01R31",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        18.0,
+        80.0
+      ],
+      "common_face_area_mm2": 1439.9999999999998,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Apoio_B02R31",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        82.0
+      ],
+      "common_face_area_mm2": 1476.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Apoio_B03R31",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        82.0
+      ],
+      "common_face_area_mm2": 1476.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Sarrafo_frente0R31",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        800.0,
+        126.0
+      ],
+      "common_face_area_mm2": 100475.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Sarrafo_frente1R31",
+      "overlap_mm": [
+        2.2737367544323206e-13,
+        198.0,
+        126.0
+      ],
+      "common_face_area_mm2": 24947.999999999996,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Sarrafo_frente2R31",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        350.0,
+        126.0
+      ],
+      "common_face_area_mm2": 44099.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR16",
+      "b": "Ref_Sarrafo_frente3R31",
+      "overlap_mm": [
+        3.410605131648481e-13,
+        362.0,
+        126.0
+      ],
+      "common_face_area_mm2": 45611.99999999999,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca406AtualR31",
+      "b": "PecaBancoR002",
+      "overlap_mm": [
+        390.00000000000034,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca406AtualR31",
+      "b": "Ref_Apoio_B04R31",
+      "overlap_mm": [
+        18.000000000000398,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 324.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca406AtualR31",
+      "b": "Ref_Sarrafo_frente0R31",
+      "overlap_mm": [
+        18.000000000000227,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "Peca406AtualR31",
+      "b": "Ref_Sarrafo_tras0R31",
+      "overlap_mm": [
+        18.00000000000017,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR001",
+      "b": "PecaBancoR003",
+      "overlap_mm": [
+        390.0,
+        0.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "common_volume_mm3": 0.0,
+      "state": "aresta/ponto"
+    },
+    {
+      "a": "PecaBancoR001",
+      "b": "Ref_Apoio_B01R31",
+      "overlap_mm": [
+        390.00000000000006,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR003",
+      "overlap_mm": [
+        390.0,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR004",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR005",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR002",
+      "b": "Ref_Apoio_B02R31",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR002",
+      "b": "Ref_Apoio_B03R31",
+      "overlap_mm": [
+        390.00000000000006,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR003",
+      "b": "Ref_Apoio_B01R31",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7020.0,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR003",
+      "b": "Ref_Sarrafo_frente2R31",
+      "overlap_mm": [
+        18.000000000000114,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR003",
+      "b": "Ref_Sarrafo_frente3R31",
+      "overlap_mm": [
+        18.0,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR004",
+      "b": "Ref_Sarrafo_frente1R31",
+      "overlap_mm": [
+        18.0,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR004",
+      "b": "Ref_Sarrafo_frente2R31",
+      "overlap_mm": [
+        18.0,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR005",
+      "b": "Ref_Sarrafo_frente0R31",
+      "overlap_mm": [
+        18.000000000000227,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    },
+    {
+      "a": "PecaBancoR005",
+      "b": "Ref_Sarrafo_frente1R31",
+      "overlap_mm": [
+        18.0,
+        0.0,
+        126.0
+      ],
+      "common_face_area_mm2": 2267.9999999999995,
+      "common_volume_mm3": 0.0,
+      "state": "face"
+    }
+  ],
+  "floor_contacts": [
+    {
+      "name": "Peca407",
+      "nominal_area_mm2": 8100.0
+    },
+    {
+      "name": "PecaBancoR16",
+      "nominal_area_mm2": 31752.0000000006
+    },
+    {
+      "name": "Peca406AtualR31",
+      "nominal_area_mm2": 8100.0
+    },
+    {
+      "name": "Ref_Apoio_B01R31",
+      "nominal_area_mm2": 7020.000000000001
+    },
+    {
+      "name": "Ref_Apoio_B02R31",
+      "nominal_area_mm2": 7020.0
+    },
+    {
+      "name": "Ref_Apoio_B03R31",
+      "nominal_area_mm2": 7020.000000000001
+    },
+    {
+      "name": "Ref_Apoio_B04R31",
+      "nominal_area_mm2": 31752.000000000702
+    }
+  ],
+  "nominal_floor_area_mm2": 100764.0000000013
+}

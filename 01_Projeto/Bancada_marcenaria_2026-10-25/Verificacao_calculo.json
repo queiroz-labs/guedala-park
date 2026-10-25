@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "case": "distribuido25",
+      "degree16_8points_mm": 5.5257290377025186,
+      "degree20_12points_mm": 5.523271832686193,
+      "relative_change": 0.00044488214427240713,
+      "passed": true
+    },
+    {
+      "case": "frente20",
+      "degree16_8points_mm": 13.625716884539203,
+      "degree20_12points_mm": 13.481974083207845,
+      "relative_change": 0.010661851183232374,
+      "passed": true
+    },
+    {
+      "case": "distribuido25",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 5.820766091346741e-11,
+      "passed": true
+    },
+    {
+      "case": "distribuido50",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 2.3283064365386963e-10,
+      "passed": true
+    },
+    {
+      "case": "equipamentos_teste34",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "frente20",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "extremo_direito50",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 9.313225746154785e-10,
+      "passed": true
+    },
+    {
+      "case": "material_mais_rigido_E6000_frente20",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "material_mais_rigido_E8000_frente20",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "limite_retencao_distribuida25",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "limite_retencao_distribuida_frente20",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "limite_retencao_distribuida_equipamentos34",
+      "test": "equilibrio_forca_e_momentos",
+      "max_residual": 1.1641532182693481e-10,
+      "passed": true
+    },
+    {
+      "case": "material_mais_rigido_E8000_frente20",
+      "test": "grau16_pontos8_versus20_pontos12",
+      "relative_change": 0.0032802299326435413,
+      "refined_deflection_mm": 4.09858743917873,
+      "passed": true
+    },
+    {
+      "case": "limite_retencao_distribuida_frente20",
+      "test": "grau16_pontos8_versus20_pontos12",
+      "relative_change": 0.001906925318201802,
+      "refined_deflection_mm": 8.749735901893624,
+      "passed": true
+    }
+  ],
+  "count": 14,
+  "all_passed": true,
+  "source_unchanged": true
+}

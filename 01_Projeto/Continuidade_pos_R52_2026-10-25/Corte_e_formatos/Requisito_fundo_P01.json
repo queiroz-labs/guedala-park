@@ -1,0 +1,1410 @@
+[
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 1850,
+    "raw_min_C_parallel_long_mm": [
+      2096,
+      1964
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1964,
+      2096
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 1840,
+    "raw_min_C_parallel_long_mm": [
+      2106,
+      1974
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1974,
+      2106
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 1830,
+    "raw_min_C_parallel_long_mm": [
+      2116,
+      1984
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1984,
+      2116
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 1810,
+    "raw_min_C_parallel_long_mm": [
+      2136,
+      2004
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2004,
+      2136
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 1750,
+    "raw_min_C_parallel_long_mm": [
+      2196,
+      2064
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2064,
+      2196
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1718,
+    "raw_min_C_parallel_long_mm": [
+      2228,
+      2096
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2096,
+      2228
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1714,
+    "raw_min_C_parallel_long_mm": [
+      2232,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2232
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1710,
+    "raw_min_C_parallel_long_mm": [
+      2236,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2236
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -123.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 1850,
+    "raw_min_C_parallel_long_mm": [
+      2100,
+      1968
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1968,
+      2100
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 1840,
+    "raw_min_C_parallel_long_mm": [
+      2110,
+      1978
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1978,
+      2110
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 1830,
+    "raw_min_C_parallel_long_mm": [
+      2120,
+      1988
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1988,
+      2120
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 1810,
+    "raw_min_C_parallel_long_mm": [
+      2140,
+      2008
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2008,
+      2140
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 1750,
+    "raw_min_C_parallel_long_mm": [
+      2200,
+      2068
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2068,
+      2200
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1718,
+    "raw_min_C_parallel_long_mm": [
+      2232,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2232
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1714,
+    "raw_min_C_parallel_long_mm": [
+      2236,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2236
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1710,
+    "raw_min_C_parallel_long_mm": [
+      2240,
+      2108
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2108,
+      2240
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -125.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": true,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 2100,
+    "raw_min_C_parallel_long_mm": [
+      2096,
+      1964
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1964,
+      2096
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 2090,
+    "raw_min_C_parallel_long_mm": [
+      2106,
+      1974
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1974,
+      2106
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 2080,
+    "raw_min_C_parallel_long_mm": [
+      2116,
+      1984
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1984,
+      2116
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 2060,
+    "raw_min_C_parallel_long_mm": [
+      2136,
+      2004
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2004,
+      2136
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 2000,
+    "raw_min_C_parallel_long_mm": [
+      2196,
+      2064
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2064,
+      2196
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1968,
+    "raw_min_C_parallel_long_mm": [
+      2228,
+      2096
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2096,
+      2228
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1964,
+    "raw_min_C_parallel_long_mm": [
+      2232,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2232
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1960,
+    "raw_min_C_parallel_long_mm": [
+      2236,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2236
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": 2.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": true,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 2100,
+    "raw_min_C_parallel_long_mm": [
+      2100,
+      1968
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1968,
+      2100
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 2090,
+    "raw_min_C_parallel_long_mm": [
+      2110,
+      1978
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1978,
+      2110
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 2080,
+    "raw_min_C_parallel_long_mm": [
+      2120,
+      1988
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1988,
+      2120
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 2060,
+    "raw_min_C_parallel_long_mm": [
+      2140,
+      2008
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2008,
+      2140
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 2000,
+    "raw_min_C_parallel_long_mm": [
+      2200,
+      2068
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2068,
+      2200
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1968,
+    "raw_min_C_parallel_long_mm": [
+      2232,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2232
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1964,
+    "raw_min_C_parallel_long_mm": [
+      2236,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2236
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Peca208_atual",
+    "C_mm": 2096,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1960,
+    "raw_min_C_parallel_long_mm": [
+      2240,
+      2108
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2108,
+      2240
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": 0.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 1850,
+    "raw_min_C_parallel_long_mm": [
+      2114,
+      1964
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1964,
+      2114
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 1840,
+    "raw_min_C_parallel_long_mm": [
+      2124,
+      1974
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1974,
+      2124
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 1830,
+    "raw_min_C_parallel_long_mm": [
+      2134,
+      1984
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1984,
+      2134
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 1810,
+    "raw_min_C_parallel_long_mm": [
+      2154,
+      2004
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2004,
+      2154
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 1750,
+    "raw_min_C_parallel_long_mm": [
+      2214,
+      2064
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2064,
+      2214
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1718,
+    "raw_min_C_parallel_long_mm": [
+      2246,
+      2096
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2096,
+      2246
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1714,
+    "raw_min_C_parallel_long_mm": [
+      2250,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2250
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1710,
+    "raw_min_C_parallel_long_mm": [
+      2254,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2254
+    ],
+    "max_symmetric_trim_C_parallel_mm": -57.0,
+    "max_symmetric_trim_L_parallel_mm": -132.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 1850,
+    "raw_min_C_parallel_long_mm": [
+      2118,
+      1968
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1968,
+      2118
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 1840,
+    "raw_min_C_parallel_long_mm": [
+      2128,
+      1978
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1978,
+      2128
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 1830,
+    "raw_min_C_parallel_long_mm": [
+      2138,
+      1988
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1988,
+      2138
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 1810,
+    "raw_min_C_parallel_long_mm": [
+      2158,
+      2008
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2008,
+      2158
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 1750,
+    "raw_min_C_parallel_long_mm": [
+      2218,
+      2068
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2068,
+      2218
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1718,
+    "raw_min_C_parallel_long_mm": [
+      2250,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2250
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1714,
+    "raw_min_C_parallel_long_mm": [
+      2254,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2254
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x1850",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1710,
+    "raw_min_C_parallel_long_mm": [
+      2258,
+      2108
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2108,
+      2258
+    ],
+    "max_symmetric_trim_C_parallel_mm": -59.0,
+    "max_symmetric_trim_L_parallel_mm": -134.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 2100,
+    "raw_min_C_parallel_long_mm": [
+      2114,
+      1964
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1964,
+      2114
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 2090,
+    "raw_min_C_parallel_long_mm": [
+      2124,
+      1974
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1974,
+      2124
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 2080,
+    "raw_min_C_parallel_long_mm": [
+      2134,
+      1984
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1984,
+      2134
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 2060,
+    "raw_min_C_parallel_long_mm": [
+      2154,
+      2004
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2004,
+      2154
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 2000,
+    "raw_min_C_parallel_long_mm": [
+      2214,
+      2064
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2064,
+      2214
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1968,
+    "raw_min_C_parallel_long_mm": [
+      2246,
+      2096
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2096,
+      2246
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1964,
+    "raw_min_C_parallel_long_mm": [
+      2250,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2250
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 0,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1960,
+    "raw_min_C_parallel_long_mm": [
+      2254,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2254
+    ],
+    "max_symmetric_trim_C_parallel_mm": 68.0,
+    "max_symmetric_trim_L_parallel_mm": -7.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 0,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2750,
+    "usable_width_mm": 2100,
+    "raw_min_C_parallel_long_mm": [
+      2118,
+      1968
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1968,
+      2118
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 5,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2740,
+    "usable_width_mm": 2090,
+    "raw_min_C_parallel_long_mm": [
+      2128,
+      1978
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1978,
+      2128
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 10,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2730,
+    "usable_width_mm": 2080,
+    "raw_min_C_parallel_long_mm": [
+      2138,
+      1988
+    ],
+    "raw_min_L_parallel_long_mm": [
+      1988,
+      2138
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 20,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2710,
+    "usable_width_mm": 2060,
+    "raw_min_C_parallel_long_mm": [
+      2158,
+      2008
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2008,
+      2158
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 50,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2650,
+    "usable_width_mm": 2000,
+    "raw_min_C_parallel_long_mm": [
+      2218,
+      2068
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2068,
+      2218
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 66,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": true,
+    "L_parallel_long": false,
+    "usable_length_mm": 2618,
+    "usable_width_mm": 1968,
+    "raw_min_C_parallel_long_mm": [
+      2250,
+      2100
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2100,
+      2250
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 68,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2614,
+    "usable_width_mm": 1964,
+    "raw_min_C_parallel_long_mm": [
+      2254,
+      2104
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2104,
+      2254
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  },
+  {
+    "id": "Proposta_fundo_P01",
+    "C_mm": 2114,
+    "L_mm": 1964,
+    "format": "2750x2100",
+    "trim_per_edge_mm": 70,
+    "allowance_per_edge_mm": 2,
+    "C_parallel_long": false,
+    "L_parallel_long": false,
+    "usable_length_mm": 2610,
+    "usable_width_mm": 1960,
+    "raw_min_C_parallel_long_mm": [
+      2258,
+      2108
+    ],
+    "raw_min_L_parallel_long_mm": [
+      2108,
+      2258
+    ],
+    "max_symmetric_trim_C_parallel_mm": 66.0,
+    "max_symmetric_trim_L_parallel_mm": -9.0
+  }
+]

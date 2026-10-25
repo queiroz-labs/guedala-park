@@ -1,0 +1,345 @@
+{
+  "cad_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "pairs": [
+    {
+      "a": "Peca245",
+      "b": "Peca242",
+      "overlap_mm": [
+        0.0,
+        550.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 0.0,
+      "state": "aresta/ponto",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca245",
+      "b": "Peca241",
+      "overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca245",
+      "b": "Peca206",
+      "overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca245",
+      "b": "Peca208",
+      "overlap_mm": [
+        705.0,
+        0.0,
+        18.0
+      ],
+      "common_face_area_mm2": 12690.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca246",
+      "b": "Peca243",
+      "overlap_mm": [
+        0.0,
+        550.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 0.0,
+      "state": "aresta/ponto",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca246",
+      "b": "Peca244",
+      "overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca246",
+      "b": "Peca207",
+      "overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL",
+      "b": "Peca255",
+      "overlap_mm": [
+        632.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL",
+      "b": "Peca256",
+      "overlap_mm": [
+        18.0,
+        1032.0,
+        0.0
+      ],
+      "common_face_area_mm2": 18576.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL",
+      "b": "LateralApoioPrincipal",
+      "overlap_mm": [
+        18.0,
+        612.0,
+        0.0
+      ],
+      "common_face_area_mm2": 11016.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL001",
+      "b": "Peca255",
+      "overlap_mm": [
+        632.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL001",
+      "b": "Peca256",
+      "overlap_mm": [
+        18.0,
+        1032.0,
+        0.0
+      ],
+      "common_face_area_mm2": 18576.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "PlacaL001",
+      "b": "LateralApoioPrincipal",
+      "overlap_mm": [
+        18.0,
+        612.0,
+        0.0
+      ],
+      "common_face_area_mm2": 11016.0,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "Peca255",
+      "b": "Peca256",
+      "overlap_mm": [
+        0.0,
+        0.0,
+        272.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 0.0,
+      "state": "aresta/ponto",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "Peca407",
+      "overlap_mm": [
+        448.0,
+        17.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7615.999999999975,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "Peca408",
+      "overlap_mm": [
+        16.000000000000398,
+        954.0,
+        0.0
+      ],
+      "common_face_area_mm2": 15264.000000000278,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "PecaBancoR16",
+      "overlap_mm": [
+        18.00000000000034,
+        954.0,
+        0.0
+      ],
+      "common_face_area_mm2": 17172.000000000004,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "PecaBancoR003",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7019.999999999999,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "PecaBancoR004",
+      "overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "common_face_area_mm2": 7019.999999999999,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel1",
+      "b": "PecaBancoR005",
+      "overlap_mm": [
+        390.0,
+        8.0,
+        0.0
+      ],
+      "common_face_area_mm2": 3120.0000000000164,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "Peca407",
+      "overlap_mm": [
+        448.0,
+        -956.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 956.0,
+      "state": "separados",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "Peca408",
+      "overlap_mm": [
+        16.000000000000398,
+        808.0,
+        0.0
+      ],
+      "common_face_area_mm2": 12928.000000000075,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "PecaBancoR16",
+      "overlap_mm": [
+        18.00000000000034,
+        808.0,
+        0.0
+      ],
+      "common_face_area_mm2": 14543.999999999998,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "PecaBancoR003",
+      "overlap_mm": [
+        390.0,
+        -576.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 576.0,
+      "state": "separados",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "PecaBancoR004",
+      "overlap_mm": [
+        390.0,
+        -208.0,
+        0.0
+      ],
+      "common_face_area_mm2": 0.0,
+      "distance_mm": 208.0,
+      "state": "separados",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    },
+    {
+      "a": "BancoR43_Painel2",
+      "b": "PecaBancoR005",
+      "overlap_mm": [
+        390.0,
+        8.0,
+        0.0
+      ],
+      "common_face_area_mm2": 3119.9999999999827,
+      "distance_mm": 0.0,
+      "state": "face",
+      "note": "Contato geometrico nao comprova fixacao/capacidade; carga so percorre apoio com contato e direcao compativeis."
+    }
+  ],
+  "count": 26,
+  "CAD_unchanged": true
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "name": "AcessoControleR001",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoControleR002",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoControleR003",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoControleR004",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoControleR005",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoControleR21",
+    "changed": [
+      "removed_external_App_Link_instance"
+    ]
+  },
+  {
+    "name": "AcessoCorrerBanheiroR52",
+    "changed": [
+      "added_non_geometric_access_or_documentation"
+    ]
+  },
+  {
+    "name": "Alternativa500ManterBaseR41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Alternativa500ManterTopoR41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "BC43_Controle",
+    "changed": [
+      "label"
+    ]
+  },
+  {
+    "name": "CadeiraLinaR30_1",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "CadeiraLinaR30_2",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "CadeiraLinaR30_3",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "ComparacaoFrente500R41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "ConclusaoFrente500R41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "ConsolidacaoR52",
+    "changed": [
+      "added_non_geometric_access_or_documentation"
+    ]
+  },
+  {
+    "name": "ControlePortaR018",
+    "changed": [
+      "label"
+    ]
+  },
+  {
+    "name": "ControlePortaR12",
+    "changed": [
+      "label"
+    ]
+  },
+  {
+    "name": "EsforcosCestoR41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "EstudoFrente500R41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "FerragemForteCestoR41",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "GavetasReaisCozinhaR52",
+    "changed": [
+      "added_non_geometric_access_or_documentation"
+    ]
+  },
+  {
+    "name": "GavetasReaisQuartoR52",
+    "changed": [
+      "added_non_geometric_access_or_documentation"
+    ]
+  },
+  {
+    "name": "HistoricoControlesR52",
+    "changed": [
+      "added_non_geometric_access_or_documentation"
+    ]
+  },
+  {
+    "name": "Peca091",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca092",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca093",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca094",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca095",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca096",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca097",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca098",
+    "changed": [
+      "visible"
+    ]
+  },
+  {
+    "name": "Peca131",
+    "changed": [
+      "local",
+      "global",
+      "geometry"
+    ]
+  },
+  {
+    "name": "Peca358",
+    "changed": [
+      "visible"
+    ]
+  }
+]

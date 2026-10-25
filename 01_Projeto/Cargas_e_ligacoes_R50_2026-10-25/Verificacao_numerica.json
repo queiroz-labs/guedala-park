@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "test": "FE versus formula viga distribuida",
+      "relative_error": 0.00026731026922655055,
+      "pass_": true
+    },
+    {
+      "test": "FE versus formula viga point",
+      "relative_error": 5.728026941653752e-10,
+      "pass_": true
+    },
+    {
+      "test": "P01_overhangs equilibrio",
+      "max_force_error_N": 2.3120861669667647e-08,
+      "max_moment_error_Nmm": 5.58464671485126e-06,
+      "pass_": true
+    },
+    {
+      "test": "P01_rods equilibrio",
+      "max_force_error_N": 1.3332737580640242e-07,
+      "max_moment_error_Nmm": 5.721807247027755e-05,
+      "pass_": true
+    },
+    {
+      "test": "P20 torque por energia potencial",
+      "max_error_Nm": 1.0567688946139242e-09,
+      "pass_": true
+    },
+    {
+      "test": "P04_878_5 Ritz14vs12",
+      "relative_error": 3.093374583151842e-07,
+      "pass_": true
+    },
+    {
+      "test": "P15 Ritz14vs12",
+      "relative_error": 5.793911328488832e-08,
+      "pass_": true
+    },
+    {
+      "test": "Ritz versus serie independente Navier101 placa4bordas",
+      "Ritz_mm": 0.18326910247717226,
+      "Navier_mm": 0.18326966924335192,
+      "relative_error": 3.092525795445056e-06,
+      "pass_": true
+    },
+    {
+      "test": "P01 placas equilibrio e contato sem tracao",
+      "max_equilibrium_residual": 2.9103830456733704e-11,
+      "min_contact_reaction_N": 3.69083658318025,
+      "pass_": true
+    },
+    {
+      "test": "P01 estudo723 Ritz16vs14",
+      "degree16_deflection_mm": 0.3232313112722041,
+      "relative_error": 0.0006029440241563933,
+      "pass_": true
+    }
+  ],
+  "passed": true,
+  "CAD_unchanged": true,
+  "scope": "Verificacao numerica das hipoteses, sem ensaio e sem validar materiais/juntas reais."
+}

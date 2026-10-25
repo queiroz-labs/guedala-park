@@ -1,0 +1,15 @@
+[
+  {
+    "object": "Gaveta009",
+    "property": "AlturaParedeSobreFundo",
+    "current_mm": 53.0,
+    "proposed_mm": 47.0,
+    "evidence": "BREP: traseira/dianteira47 e laterais74 apos R49. Campo textual nao acompanha o recorte.",
+    "preserve": [
+      "CursoNominal400",
+      "AlturaUtilProposta54: vao estimado, nao altura da parede",
+      "forma/cores/expressoes"
+    ],
+    "status": "Preparado para consolidacao de metadados numa revisao; R51 nao modificada"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "object": "VizinhaComumR18",
+    "property": "Movimento",
+    "issue": "Texto menciona441.75x306; BREP FrenteVizinhaR18 atual mede440.25x306x18.",
+    "proposed_text_correction": "Atualizar somente a dimensao textual441.75 para440.25 na proxima consolidacao, preservando todas as ressalvas de ferragem e fabricacao.",
+    "status": "PREPARADO; R51 nao alterada. Calculo usa volume/CG do BREP atual, nao o texto antigo."
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "cad": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Otimizacao_FreeCAD_R50_2026-10-24\\Guedala_Park_R50_Completo_Otimizado.FCStd",
+  "sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "objects": 5893,
+  "search": "tubo/tubular/metalon/longarina/reforco/travessa em nomes, rotulos e metadados; classificacao funcional ainda necessaria",
+  "matches": [
+    {
+      "id": "Peca307",
+      "type": "Part::Box",
+      "label": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+      "text": "Peca307 | Travessa cocção · avançada27 para liberar ar traseiro45 · proposta | wood | face interna Branco TX; face aparente Greenplac Arenza",
+      "visible_local": true,
+      "parents": [
+        "Modulo006"
+      ]
+    },
+    {
+      "id": "ReferenciaCorrerR003",
+      "type": "Part::Feature",
+      "label": "Travessa superior frontal18 - apoio não calculado",
+      "text": "ReferenciaCorrerR003 | Travessa superior frontal18 - apoio não calculado",
+      "visible_local": true,
+      "parents": [
+        "Modulo"
+      ]
+    },
+    {
+      "id": "PecaBancoR001",
+      "type": "Part::Box",
+      "label": "Fundo potes/travessas a80 - hipótese18",
+      "text": "PecaBancoR001 | Fundo potes/travessas a80 - hipótese18 | Branco TX · faces internas",
+      "visible_local": true,
+      "parents": [
+        "Modulo019"
+      ]
+    },
+    {
+      "id": "ControleBancoR16",
+      "type": "App::FeaturePython",
+      "label": "1 - Potes/travessas/batedeira",
+      "text": "ControleBancoR16 | 1 - Potes/travessas/batedeira",
+      "visible_local": true,
+      "parents": [
+        "ControlesAmbienteR005"
+      ]
+    },
+    {
+      "id": "TampaBancoR16",
+      "type": "App::Part",
+      "label": "Potes/travessas/batedeira - assento integral70 - estudo",
+      "text": "TampaBancoR16 | Potes/travessas/batedeira - assento integral70 - estudo",
+      "visible_local": false,
+      "parents": [
+        "Modulo019"
+      ]
+    },
+    {
+      "id": "PecaBancoR022",
+      "type": "Part::Box",
+      "label": "Travessas - gabarito da organização aprovada",
+      "text": "PecaBancoR022 | Travessas - gabarito da organização aprovada",
+      "visible_local": true,
+      "parents": [
+        "Modulo019"
+      ]
+    },
+    {
+      "id": "Lina1_TravessaEncosto",
+      "type": "Part::Feature",
+      "label": "Lina 1 · TravessaEncosto (madeira)",
+      "text": "Lina1_TravessaEncosto | Lina 1 · TravessaEncosto (madeira)",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_1"
+      ]
+    },
+    {
+      "id": "Lina1_TravessaEncosto001",
+      "type": "Part::Feature",
+      "label": "Lina 1 · TravessaEncosto (madeira)001",
+      "text": "Lina1_TravessaEncosto001 | Lina 1 · TravessaEncosto (madeira)001",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_1"
+      ]
+    },
+    {
+      "id": "Lina2_TravessaEncosto",
+      "type": "Part::Feature",
+      "label": "Lina 2 · TravessaEncosto (madeira)",
+      "text": "Lina2_TravessaEncosto | Lina 2 · TravessaEncosto (madeira)",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_2"
+      ]
+    },
+    {
+      "id": "Lina2_TravessaEncosto001",
+      "type": "Part::Feature",
+      "label": "Lina 2 · TravessaEncosto (madeira)001",
+      "text": "Lina2_TravessaEncosto001 | Lina 2 · TravessaEncosto (madeira)001",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_2"
+      ]
+    },
+    {
+      "id": "Lina3_TravessaEncosto",
+      "type": "Part::Feature",
+      "label": "Lina 3 · TravessaEncosto (madeira)",
+      "text": "Lina3_TravessaEncosto | Lina 3 · TravessaEncosto (madeira)",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_3"
+      ]
+    },
+    {
+      "id": "Lina3_TravessaEncosto001",
+      "type": "Part::Feature",
+      "label": "Lina 3 · TravessaEncosto (madeira)001",
+      "text": "Lina3_TravessaEncosto001 | Lina 3 · TravessaEncosto (madeira)001",
+      "visible_local": false,
+      "parents": [
+        "CadeiraLinaR30_3"
+      ]
+    },
+    {
+      "id": "BC43_Travessa",
+      "type": "PartDesign::Feature",
+      "label": "Topo do quadro564×70×18",
+      "text": "BC43_Travessa | Topo do quadro564×70×18 | Branco TX · faces internas | proposta",
+      "visible_local": true,
+      "parents": [
+        "BC43_Madeira"
+      ]
+    },
+    {
+      "id": "BC43_Sifao",
+      "type": "PartDesign::Feature",
+      "label": "Sifão: referência Deca1680 / posição hipotética",
+      "text": "BC43_Sifao | Sifão: referência Deca1680 / posição hipotética | Ø49/queda229/93 abaixo eixo conforme ficha; tubos simplificados, eixo esgoto609 e posição são hipóteses",
+      "visible_local": false,
+      "parents": [
+        "BC43_Hidraulica"
+      ]
+    },
+    {
+      "id": "R45_Ref_Longarina_1",
+      "type": "PartDesign::Feature",
+      "label": "Longarina_1 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Longarina_1 | Longarina_1 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Longarina_2",
+      "type": "PartDesign::Feature",
+      "label": "Longarina_2 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Longarina_2 | Longarina_2 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Longarina_3",
+      "type": "PartDesign::Feature",
+      "label": "Longarina_3 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Longarina_3 | Longarina_3 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Longarina_4",
+      "type": "PartDesign::Feature",
+      "label": "Longarina_4 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Longarina_4 | Longarina_4 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Longarina_5",
+      "type": "PartDesign::Feature",
+      "label": "Longarina_5 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Longarina_5 | Longarina_5 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Travessa_embutida_1",
+      "type": "PartDesign::Feature",
+      "label": "Travessa_embutida_1 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Travessa_embutida_1 | Travessa_embutida_1 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    },
+    {
+      "id": "R45_Ref_Travessa_embutida_2",
+      "type": "PartDesign::Feature",
+      "label": "Travessa_embutida_2 — seção nominal, cantos idealizados",
+      "text": "R45_Ref_Travessa_embutida_2 | Travessa_embutida_2 — seção nominal, cantos idealizados",
+      "visible_local": false,
+      "parents": [
+        "R45_Ref_Bancada_Estrutura_R45_R02_ESTUDO"
+      ]
+    }
+  ],
+  "source_modified": false
+}

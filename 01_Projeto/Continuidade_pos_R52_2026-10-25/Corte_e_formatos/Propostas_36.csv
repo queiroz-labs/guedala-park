@@ -1,0 +1,37 @@
+﻿id;kit;source_object;role;C_mm;L_mm;thickness_mm;envelope_area_m2;old_area_m2;delta_area_m2;specification_if_replacement;material_adopted;source_file
+Proposta_Peca245;P01_prateleiras723;Peca245;replacement;723.0;550.0;18.0;0.39765;0.38775;0.0099;Branco TX · faces internas;False;Cargas_e_ligacoes_R50_2026-10-25\P01_estudo_apoios_723.FCStd
+Proposta_Peca246;P01_prateleiras723;Peca246;replacement;723.0;550.0;18.0;0.39765;0.38775;0.0099;Branco TX · faces internas;False;Cargas_e_ligacoes_R50_2026-10-25\P01_estudo_apoios_723.FCStd
+Soco_frontal;P01_socoR01;;new_wood;1964.0;62.0;18.0;0.121768;0.0;0.121768;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_trilho_posterior;P01_socoR01;;new_wood;1964.0;62.0;18.0;0.121768;0.0;0.121768;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_frente_base;P01_socoR01;;new_wood;1964.0;62.0;18.0;0.121768;0.0;0.121768;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_traseiro;P01_socoR01;;new_wood;1964.0;62.0;18.0;0.121768;0.0;0.121768;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_1_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_1_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_2_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_2_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_3_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_3_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_4_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_4_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_5_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_5_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_6_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_6_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_7_frente;P01_socoR01;;new_wood;62.0;46.0;18.0;0.002852;0.0;0.002852;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_transversal_7_caixa;P01_socoR01;;new_wood;514.0;62.0;18.0;0.031868;0.0;0.031868;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Calco_fundo;P01_socoR01;;new_wood;1964.0;18.0;18.0;0.035352;0.0;0.035352;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_lateral_frontal_E;P01_socoR01;;new_wood;82.0;62.0;18.0;0.005084;0.0;0.005084;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Soco_lateral_frontal_D;P01_socoR01;;new_wood;82.0;62.0;18.0;0.005084;0.0;0.005084;;False;P01_apoios_ao_piso_2026-10-25\P01_soco_sem_tubos_R01_ESTUDO.FCStd
+Estudo_Peca208;P01_P03_traseiro;Peca208;replacement;2114.0;1964.0;18.0;4.151896;4.116544;0.035352;Branco TX · faces internas;False;P01_P03_caminho_superior_2026-10-25\P01_P03_apoio_traseiro_ESTUDO.FCStd
+Estudo_Peca262;P01_P03_traseiro;Peca262;replacement;1314.0;650.0;18.0;0.8541;0.8304479999999999;0.023652000000000103;"face interna Branco TX; face aparente Amadeirado, referência Arenza";False;P01_P03_caminho_superior_2026-10-25\P01_P03_apoio_traseiro_ESTUDO.FCStd
+P04_fundo;P04_fundo308;Peca268;replacement;1764.0;308.0;18.0;0.543312;0.479808;0.063504;Branco TX · faces internas;False;Solucoes_marcenaria_sem_tubos_2026-10-25\P15_P04_estudos_sem_tubos.FCStd
+P15_lateral_E;P15_composta36;Peca360;replacement;598.0;330.0;18.0;0.19734;0.1914;0.00594;"face interna Branco TX; face aparente Greenplac Arenza";False;Solucoes_marcenaria_sem_tubos_2026-10-25\P15_P04_estudos_sem_tubos.FCStd
+P15_lateral_D;P15_composta36;Peca359;replacement;598.0;330.0;18.0;0.19734;0.1914;0.00594;"face interna Branco TX; face aparente Greenplac Arenza";False;Solucoes_marcenaria_sem_tubos_2026-10-25\P15_P04_estudos_sem_tubos.FCStd
+P15_fundo;P15_composta36;Peca361;replacement;799.0;598.0;18.0;0.477802;0.434656;0.043146;Branco TX · faces internas;False;Solucoes_marcenaria_sem_tubos_2026-10-25\P15_P04_estudos_sem_tubos.FCStd
+P15_base_inferior;P15_composta36;;new_wood;799.0;312.0;18.0;0.249288;0.0;0.249288;;False;Solucoes_marcenaria_sem_tubos_2026-10-25\P15_P04_estudos_sem_tubos.FCStd
+Estudo_Peca386;P17_fundo550;Peca386;replacement;1964.0;550.0;18.0;1.0802;1.009496;0.070704;Branco TX · faces internas;False;P17_base_fundo_ligacoes_2026-10-25\P17_fundo_inteiro_ligacoes_ESTUDO.FCStd
+Apoio_esquerdo;Bancada_marcenaria;;new_wood;720.0;650.0;18.0;0.468;0.0;0.468;;False;Bancada_marcenaria_2026-10-25\Bancada_marcenaria_pedestal_ESTUDO.FCStd
+Pedestal_lateral_E;Bancada_marcenaria;Peca367;replacement;720.0;640.0;18.0;0.4608;0.1032;0.3576;Branco TX · faces internas;False;Bancada_marcenaria_2026-10-25\Bancada_marcenaria_pedestal_ESTUDO.FCStd
+Pedestal_lateral_D;Bancada_marcenaria;Peca368;replacement;720.0;640.0;18.0;0.4608;0.1032;0.3576;Branco TX · faces internas;False;Bancada_marcenaria_2026-10-25\Bancada_marcenaria_pedestal_ESTUDO.FCStd
+Pedestal_posterior;Bancada_marcenaria;;new_wood;720.0;364.0;18.0;0.26208;0.0;0.26208;;False;Bancada_marcenaria_2026-10-25\Bancada_marcenaria_pedestal_ESTUDO.FCStd
+Travessa_traseira;Bancada_marcenaria;;new_wood;1562.0;180.0;18.0;0.28116;0.0;0.28116;;False;Bancada_marcenaria_2026-10-25\Bancada_marcenaria_pedestal_ESTUDO.FCStd

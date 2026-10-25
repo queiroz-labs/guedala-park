@@ -34,8 +34,13 @@ SUMMARIES={
 # P20: diretriz piano + trava (Banco_cesto_simples_2026-10-23) substitui a cadeia Southco R47 nas listas ativas.
 BANCO='01_Projeto/Banco_cesto_simples_2026-10-23/'
 P20_SOUTHCO_ROWS={'Contraplatinas móveis','Suportes fixos das dobradiças','Placas receptoras fixas','Parafusos móveis',
-  'Arruelas dos parafusos móveis','Parafusos suporte–corpo','Fixadores da folha fixa de cada Southco ao suporte'}
+  'Arruelas dos parafusos móveis','Parafusos suporte–corpo','Fixadores da folha fixa de cada Southco ao suporte',
+  'Batentes independentes das tampas','Chapas móveis de contato do batente'}
 P20_ROWS=[
+  dict(item='Limitação independente da abertura das tampas',reference='Componente, apoio, geometria e fixação a definir para piano + articuladores',
+       quantity=None,unit='conjunto(s) a definir por tampa',status='Necessidade funcional; solução e quantitativo pendentes',
+       assembly='Cada tampa exige limitação de abertura comprovada. Conferir se o articulador real cumpre essa função e, caso contrário, detalhar batente independente. Não usar encosto estofado ou limite de software como parada. Não transferir chapas, eixos ou suportes da alternativa histórica.',
+       sources=[{'title':'Conferência nominal e fechamento pendente das ferragens simples','path':BANCO+'Conferencia/Resultado.md'}]),
   dict(item='Dobradiça piano das tampas 971 e 825',reference='Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54',
        quantity=2,unit='trechos cortados de 1–2 barras',status='Proposta de cotação; protótipo pendente',
        assembly='Um trecho na borda traseira de cada tampa. Apoio fixo e rebaixo ocultos na junta de 2 mm do encosto ainda a detalhar.',
@@ -57,7 +62,7 @@ def revise_p20(hardware,decisions,drilling,project,workshop,assembly):
     decisions=[d for d in decisions if 'Southco' not in d['item']]
     decisions.insert(0,dict(item='Mecanismo das tampas',reference='Dobradiça piano + articulador com trava por tampa',quantity=None,unit='',
       status='Diretriz de 23/10/2026; produto e montagem pendentes',
-      reason='Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Southco E6 (R47) fica como alternativa histórica, fora da lista ativa.',
+      reason='Solução mais simples e barata pedida por Elias, mantendo as duas tampas presas. Alternativas anteriores e seus componentes permanecem somente no histórico separado.',
       sources=[{'title':'Diretriz banco e cesto','path':BANCO+'Diretriz.md'}]))
     drilling=[d for d in drilling if 'Southco' not in d['item']]
     for row in hardware+drilling+decisions:
@@ -66,8 +71,12 @@ def revise_p20(hardware,decisions,drilling,project,workshop,assembly):
                 row[field]=row[field].replace('; suportes/contraplatinasM6 do estudoSouthcoR47','; apoio fixo da piano e articuladores a detalhar')
     project=[P20_CHECKS.get(c,c) for c in project]
     workshop=[P20_CHECKS.get(c,c) for c in workshop]
-    assembly=[s.replace('Dobradicas de atrito','Dobradiça piano e articuladores') for s in assembly if 'contraplatinas' not in s and not s.startswith('Southco e batente R47')]
-    assembly.append('Southco E6 e batente R47 permanecem em estudo separado como alternativa; não usar Rockler traseira rejeitada como especificação vigente.')
+    assembly=[s.replace('Dobradicas de atrito','Dobradiça piano e articuladores') for s in assembly if 'contraplatinas' not in s and 'Southco' not in s and not s.startswith(('Bolsões sob almofadas','Não fabricar o batente pela hipótese do eixo'))]
+    assembly.extend([
+      'Bolsões sob almofadas só devem ser definidos após conferir a piano, os articuladores e a limitação de abertura reais; não reutilizar quantidades ou dimensões dos bolsões da alternativa anterior.',
+      'Eixo, apoio fixo, terminais, folgas e limitação de abertura precisam de desenho e protótipo do conjunto piano + trava antes de furar as tampas.',
+      'Alternativas anteriores permanecem no histórico separado; não usar Rockler traseira rejeitada como especificação vigente.'
+    ])
     return hardware,decisions,drilling,project,workshop,assembly
 
 def build():
@@ -185,6 +194,11 @@ def build():
           projectChecks=unique(project),workshopChecks=unique(workshop),technicalChecks=unique(project+workshop),assembly=unique(assembly),
           fieldChecks=fields['modules'][code]['fieldChecks'],resolvedChecks=unique(m.get('resolvedChecks',[])+j['resolvedChecks']),
           unmappedInterfaces=j['unmappedInterfaces'],drawings=drawings,sourcePaths=['01_Projeto/Estudo_interativo/fabrication/technical-r14.json'])
+        if code=='P20':
+            result['modules'][code]['sourcePaths'].extend([BANCO+'Diretriz.md', BANCO+'Conferencia/Resultado.md', BANCO+'Precos_e_conjunto_R01.md'])
+            for field in result['modules'][code]['fieldChecks']:
+                if 'Southco' in field.get('affects',''):
+                    field['affects']='Abertura e manutenção. Eixo da piano, terminais e trava dos articuladores, espuma, bolsões e limitação de abertura são decisões/ensaios de oficina; não são medidas do apartamento.'
     (DATA/'technical-r14.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print('R14 compilada: '+str(sum(len(v['drilling']) for v in result['modules'].values()))+' operações e '+str(sum(len(v['drawings']) for v in result['modules'].values()))+' vistas nominais.')
 

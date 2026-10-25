@@ -6,6 +6,8 @@ identificadores, URLs, fórmulas ou referências comerciais dos dados técnicos.
 from html import escape, unescape
 import re
 import hashlib
+from current_release import load_release
+_RELEASE = load_release(verify_cad=False)
 
 
 SUMMARIES = {
@@ -75,7 +77,7 @@ NAMES.update(dict(zip(SUMMARIES, [
 
 DOCUMENT_COPY = {
     'dossie': ('Guia de montagem', 'Consulte as medidas, os materiais e o que falta conferir em cada móvel.'),
-    'pacote-compartilhar': ('Baixar arquivos do projeto', 'Modelo FreeCAD R49, fichas dos móveis, planta, imagens das luminárias e instruções em um arquivo ZIP.'),
+    'pacote-compartilhar': ('Pacote '+_RELEASE['packageRevision']+' · pacote de consulta', 'Modelo FreeCAD '+_RELEASE['cadRevision']+', fichas dos móveis, planta, HTML offline e avanços técnicos selecionados.'),
     'matriz': ('Medidas dos 20 móveis', 'Veja os espaços internos e as medidas que ainda precisam de confirmação.'),
     'interfaces': ('Como unir as peças', 'Encontros entre chapas. Falta definir as peças de união e o peso suportado.'),
     'fixas': ('Conectores e suportes dos armários', 'Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar.'),
@@ -98,7 +100,7 @@ DOCUMENT_COPY = {
     'torneiras': ('Encaixe das cubas e torneiras', 'Confira as medidas dos produtos e o espaço para abrir as torneiras.'),
     'purangi': ('Torneira Purangi · opção em estudo', 'A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.'),
     'forno': ('Apoios e ventilação do forno', 'Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.'),
-    'cad': ('Baixar modelo 3D editável · R49', 'Modelo atual com as gavetas do escritório corrigidas. Confira as fichas antes de fabricar.'),
+    'cad': ('FreeCAD '+_RELEASE['cadRevision']+' · modelo atual', _RELEASE['notes']),
     'cad-cores': ('Cores do modelo 3D', 'Veja os acabamentos representados. Compare as cores com amostras reais.'),
     'cad-southco': ('Modelo da alternativa Southco', 'Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.'),
     'cad-purangi': ('Modelo de estudo da torneira Purangi', 'Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.'),

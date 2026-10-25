@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "degree": 16,
+      "content_kg": 20,
+      "kind": "uniform",
+      "cx_mm": null,
+      "cy_mm": null,
+      "self_mass_kg": 2.7649104,
+      "max_deflection_mm": 0.2741008948858986,
+      "max_at_mm": [
+        177.5,
+        266.0
+      ],
+      "plus_reserve_mm": 0.4741008948858986,
+      "reference_mm": 1.1833333333333333,
+      "original_boundary_points": 64,
+      "active_compression_contacts": 28,
+      "released_lifted_points": 36,
+      "iterations": 61,
+      "min_active_reaction_N": 1.6381018049588258,
+      "max_active_reaction_N": 14.070092275179833,
+      "max_discrete_line_penetration_mm": 0.00017909899073081112,
+      "equilibrium": {
+        "force_N": 0.0,
+        "moment_x_Nmm": 0.0,
+        "moment_y_Nmm": 2.1827872842550278e-11
+      },
+      "scope": "Placa355x532 em contato unilateral ideal sobre linhas do soco. Sem resistencia local, piso real, unioes ou durabilidade aprovados."
+    },
+    {
+      "degree": 16,
+      "content_kg": 5,
+      "kind": "patch",
+      "cx_mm": 177.5,
+      "cy_mm": 266.0,
+      "self_mass_kg": 2.7649104,
+      "max_deflection_mm": 0.20914537119280313,
+      "max_at_mm": [
+        177.5,
+        266.0
+      ],
+      "plus_reserve_mm": 0.40914537119280314,
+      "reference_mm": 1.1833333333333333,
+      "original_boundary_points": 64,
+      "active_compression_contacts": 20,
+      "released_lifted_points": 44,
+      "iterations": 65,
+      "min_active_reaction_N": 0.5225631510148975,
+      "max_active_reaction_N": 4.6797467625889855,
+      "max_discrete_line_penetration_mm": 1.93349204913952e-05,
+      "equilibrium": {
+        "force_N": 2.842170943040401e-14,
+        "moment_x_Nmm": 1.8189894035458565e-12,
+        "moment_y_Nmm": 3.637978807091713e-12
+      },
+      "scope": "Placa355x532 em contato unilateral ideal sobre linhas do soco. Sem resistencia local, piso real, unioes ou durabilidade aprovados."
+    },
+    {
+      "degree": 16,
+      "content_kg": 10,
+      "kind": "patch",
+      "cx_mm": 177.5,
+      "cy_mm": 266.0,
+      "self_mass_kg": 2.7649104,
+      "max_deflection_mm": 0.3857373282202046,
+      "max_at_mm": [
+        177.5,
+        266.0
+      ],
+      "plus_reserve_mm": 0.5857373282202046,
+      "reference_mm": 1.1833333333333333,
+      "original_boundary_points": 64,
+      "active_compression_contacts": 16,
+      "released_lifted_points": 48,
+      "iterations": 65,
+      "min_active_reaction_N": 4.0531116938543645,
+      "max_active_reaction_N": 16.08767166498428,
+      "max_discrete_line_penetration_mm": 0.00011443357483948308,
+      "equilibrium": {
+        "force_N": 2.842170943040401e-14,
+        "moment_x_Nmm": 3.637978807091713e-12,
+        "moment_y_Nmm": 7.275957614183426e-12
+      },
+      "scope": "Placa355x532 em contato unilateral ideal sobre linhas do soco. Sem resistencia local, piso real, unioes ou durabilidade aprovados."
+    },
+    {
+      "degree": 16,
+      "content_kg": 5,
+      "kind": "patch",
+      "cx_mm": 25.0,
+      "cy_mm": 30.0,
+      "self_mass_kg": 2.7649104,
+      "max_deflection_mm": 0.03798578019791926,
+      "max_at_mm": [
+        173.55555555555557,
+        241.17333333333335
+      ],
+      "plus_reserve_mm": 0.23798578019791927,
+      "reference_mm": 1.1833333333333333,
+      "original_boundary_points": 64,
+      "active_compression_contacts": 31,
+      "released_lifted_points": 33,
+      "iterations": 56,
+      "min_active_reaction_N": 0.03276233296458982,
+      "max_active_reaction_N": 15.221527657018694,
+      "max_discrete_line_penetration_mm": 8.735018666112487e-05,
+      "equilibrium": {
+        "force_N": 0.0,
+        "moment_x_Nmm": 0.0,
+        "moment_y_Nmm": -1.8189894035458565e-12
+      },
+      "scope": "Placa355x532 em contato unilateral ideal sobre linhas do soco. Sem resistencia local, piso real, unioes ou durabilidade aprovados."
+    }
+  ],
+  "checks": [
+    {
+      "mass": 20,
+      "kind": "uniform",
+      "degree12vs16_relative_error": 0.0017160983605508662,
+      "max_equilibrium_residual": 2.1827872842550278e-11,
+      "max_line_penetration_mm": 0.00017909899073081112,
+      "passed": true
+    },
+    {
+      "mass": 5,
+      "kind": "patch",
+      "degree12vs16_relative_error": 0.002846037054215822,
+      "max_equilibrium_residual": 3.637978807091713e-12,
+      "max_line_penetration_mm": 1.93349204913952e-05,
+      "passed": true
+    },
+    {
+      "mass": 10,
+      "kind": "patch",
+      "degree12vs16_relative_error": 0.0030667012362664003,
+      "max_equilibrium_residual": 7.275957614183426e-12,
+      "max_line_penetration_mm": 0.00011443357483948308,
+      "passed": true
+    },
+    {
+      "mass": 5,
+      "kind": "patch",
+      "degree12vs16_relative_error": 0.0014637889011730465,
+      "max_equilibrium_residual": 1.8189894035458565e-12,
+      "max_line_penetration_mm": 8.735018666112487e-05,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_unchanged": true,
+  "note": "20kg uniforme e5/10kg localizados sao cenarios independentes de triagem, nao limites de uso cumulativos. A celula e apenas parte da base."
+}

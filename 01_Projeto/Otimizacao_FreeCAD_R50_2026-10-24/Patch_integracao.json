@@ -1,0 +1,6 @@
+{
+  "target": "C:\\Users\\Elias\\AppData\\Roaming\\FreeCAD\\v1-1\\Mod\\AICopilot\\event_observer.py",
+  "source_sha256": "b8728d79deb8c83930184ad2f1af8d199b85fac8ddc68aa896981eac0003b093",
+  "candidate_sha256": "29413dd43a931dd66b44bd3168aefb2a735b2e9cdaad686429ce3bac3416f1ad",
+  "change": "Skip created/changed object bookkeeping only while FreeCAD.isRestoring(); interactive recording unchanged."
+}

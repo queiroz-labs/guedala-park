@@ -1,0 +1,920 @@
+{
+  "cad": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "cases": [
+    {
+      "case": "P15_18mm_uniform",
+      "degree": 16,
+      "E_initial_MPa": 2200,
+      "thickness_structural_mm": 17.7,
+      "thickness_for_mass_mm": 18.3,
+      "back_height_mm": 580,
+      "back_mass_kg": 6.7844688,
+      "deflection_mm": 4.735806947675773,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.14564624030266604,
+      "reactions_N": [
+        72.64875773284913,
+        -3.6247295738802654,
+        72.6487577328492,
+        -3.624729573880216,
+        -18.30569728785498,
+        32.43044031225511,
+        32.812787625894984,
+        32.812787625894785,
+        32.43044031225527,
+        -18.305697287855093
+      ],
+      "content_kg": 20.0,
+      "own_kg": 3.6495763200000004,
+      "eq_force_N": -5.684341886080802e-14,
+      "eq_moment_x_Nmm": 1.4551915228366852e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 5.329070518200751e-15,
+      "side_base_joint_reactions_N": [
+        72.64875773284913,
+        -3.6247295738802654,
+        72.6487577328492,
+        -3.624729573880216
+      ],
+      "rear_joint_reactions_N": [
+        -18.30569728785498,
+        32.43044031225511,
+        32.812787625894984,
+        32.812787625894785,
+        32.43044031225527,
+        -18.305697287855093
+      ],
+      "back_side_group_reactions_N": [
+        80.20398612905507,
+        80.20398612905501
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.7844688,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 4.935806947675773,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 0.0,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_18mm_mixed",
+      "degree": 16,
+      "E_initial_MPa": 2200,
+      "thickness_structural_mm": 17.7,
+      "thickness_for_mass_mm": 18.3,
+      "back_height_mm": 580,
+      "back_mass_kg": 6.7844688,
+      "deflection_mm": 6.47923865892968,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.22033787865868346,
+      "reactions_N": [
+        88.04774304411855,
+        -16.815555381211485,
+        88.04774304411855,
+        -16.8155553812116,
+        -26.495429999759857,
+        34.005413362102786,
+        37.21938778401399,
+        37.21938778401403,
+        34.005413362102814,
+        -26.495429999759796
+      ],
+      "content_kg": 20.0,
+      "own_kg": 3.6495763200000004,
+      "eq_force_N": -2.842170943040401e-14,
+      "eq_moment_x_Nmm": -2.9103830456733704e-11,
+      "eq_moment_y_Nmm": -3.637978807091713e-12,
+      "constraint_error_mm": 1.3322676295501878e-15,
+      "side_base_joint_reactions_N": [
+        88.04774304411855,
+        -16.815555381211485,
+        88.04774304411855,
+        -16.8155553812116
+      ],
+      "rear_joint_reactions_N": [
+        -26.495429999759857,
+        34.005413362102786,
+        37.21938778401399,
+        37.21938778401403,
+        34.005413362102814,
+        -26.495429999759796
+      ],
+      "back_side_group_reactions_N": [
+        77.99582662511696,
+        77.99582662511702
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.7844688,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 6.67923865892968,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 0.0,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_25mm_uniform",
+      "degree": 16,
+      "E_initial_MPa": 2100,
+      "thickness_structural_mm": 24.7,
+      "thickness_for_mass_mm": 25.3,
+      "back_height_mm": 587.0,
+      "back_mass_kg": 6.86635032,
+      "deflection_mm": 2.41436740476955,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.03339204875284149,
+      "reactions_N": [
+        73.45427956709028,
+        10.789350324963317,
+        73.45427956709028,
+        10.789350324963216,
+        -18.816134200862475,
+        25.697601167635007,
+        31.68156641299763,
+        31.68156641299846,
+        25.697601167634613,
+        -18.81613420086231
+      ],
+      "content_kg": 20.0,
+      "own_kg": 5.04558912,
+      "eq_force_N": 2.842170943040401e-14,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 1.4432899320127035e-15,
+      "side_base_joint_reactions_N": [
+        73.45427956709028,
+        10.789350324963317,
+        73.45427956709028,
+        10.789350324963216
+      ],
+      "rear_joint_reactions_N": [
+        -18.816134200862475,
+        25.697601167635007,
+        31.68156641299763,
+        31.68156641299846,
+        25.697601167634613,
+        -18.81613420086231
+      ],
+      "back_side_group_reactions_N": [
+        72.23098056258442,
+        72.23098056258449
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.86635032,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 2.61436740476955,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 5.684341886080802e-14,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_25mm_mixed",
+      "degree": 16,
+      "E_initial_MPa": 2100,
+      "thickness_structural_mm": 24.7,
+      "thickness_for_mass_mm": 25.3,
+      "back_height_mm": 587.0,
+      "back_mass_kg": 6.86635032,
+      "deflection_mm": 3.1419138493247334,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.08484348065888504,
+      "reactions_N": [
+        88.59819181982493,
+        -1.3301686365225884,
+        88.59819181982502,
+        -1.3301686365227416,
+        -26.998430408616795,
+        26.68693638612753,
+        35.85013411101053,
+        35.85013411101151,
+        26.686936386127165,
+        -26.998430408616645
+      ],
+      "content_kg": 20.0,
+      "own_kg": 5.04558912,
+      "eq_force_N": -8.526512829121202e-14,
+      "eq_moment_x_Nmm": -2.9103830456733704e-11,
+      "eq_moment_y_Nmm": -7.275957614183426e-12,
+      "constraint_error_mm": 2.4424906541753444e-15,
+      "side_base_joint_reactions_N": [
+        88.59819181982493,
+        -1.3301686365225884,
+        88.59819181982502,
+        -1.3301686365227416
+      ],
+      "rear_joint_reactions_N": [
+        -26.998430408616795,
+        26.68693638612753,
+        35.85013411101053,
+        35.85013411101151,
+        26.686936386127165,
+        -26.998430408616645
+      ],
+      "back_side_group_reactions_N": [
+        69.2065872713356,
+        69.2065872713357
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.86635032,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 3.3419138493247336,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 0.0,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_25mm_uniform",
+      "degree": 16,
+      "E_initial_MPa": 1600,
+      "thickness_structural_mm": 24.7,
+      "thickness_for_mass_mm": 25.3,
+      "back_height_mm": 587.0,
+      "back_mass_kg": 6.86635032,
+      "deflection_mm": 2.9422292984071907,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.05997573652888599,
+      "reactions_N": [
+        74.56546890651744,
+        6.122355099369168,
+        74.56546890651747,
+        6.122355099369054,
+        -19.493909483959385,
+        28.539477428110892,
+        33.07327132178577,
+        33.073271321786194,
+        28.53947742811054,
+        -19.493909483959147
+      ],
+      "content_kg": 20.0,
+      "own_kg": 5.04558912,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 7.771561172376096e-16,
+      "side_base_joint_reactions_N": [
+        74.56546890651744,
+        6.122355099369168,
+        74.56546890651747,
+        6.122355099369054
+      ],
+      "rear_joint_reactions_N": [
+        -19.493909483959385,
+        28.539477428110892,
+        33.07327132178577,
+        33.073271321786194,
+        28.53947742811054,
+        -19.493909483959147
+      ],
+      "back_side_group_reactions_N": [
+        75.7867864487514,
+        75.78678644875149
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.86635032,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 3.142229298407191,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 1.1368683772161603e-13,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_25mm_mixed",
+      "degree": 16,
+      "E_initial_MPa": 1600,
+      "thickness_structural_mm": 24.7,
+      "thickness_for_mass_mm": 25.3,
+      "back_height_mm": 587.0,
+      "back_mass_kg": 6.86635032,
+      "deflection_mm": 3.870333658310559,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.11616291612472396,
+      "reactions_N": [
+        89.78921741290789,
+        -6.332476127470827,
+        89.78921741290796,
+        -6.332476127470965,
+        -27.718605893101525,
+        29.72263219007458,
+        37.345895689413716,
+        37.34589568941428,
+        29.722632190074197,
+        -27.718605893101298
+      ],
+      "content_kg": 20.0,
+      "own_kg": 5.04558912,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 2.3869795029440866e-15,
+      "side_base_joint_reactions_N": [
+        89.78921741290789,
+        -6.332476127470827,
+        89.78921741290796,
+        -6.332476127470965
+      ],
+      "rear_joint_reactions_N": [
+        -27.718605893101525,
+        29.72263219007458,
+        37.345895689413716,
+        37.34589568941428,
+        29.722632190074197,
+        -27.718605893101298
+      ],
+      "back_side_group_reactions_N": [
+        73.01786916920094,
+        73.017869169201
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.86635032,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 4.070333658310559,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": 5.684341886080802e-14,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_uniform",
+      "degree": 16,
+      "E_initial_MPa": 2200,
+      "thickness_structural_mm": 35.4,
+      "thickness_for_mass_mm": 36.6,
+      "back_height_mm": 598,
+      "back_mass_kg": 6.99502128,
+      "deflection_mm": 1.2212835205072197,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": 0.044414889898953036,
+      "reactions_N": [
+        74.92571602691228,
+        33.33919849514118,
+        74.92571602691228,
+        33.33919849514118,
+        -11.040460133049583,
+        14.497603726059511,
+        22.134559503464637,
+        22.134559503464533,
+        14.497603726059529,
+        -11.040460133049569
+      ],
+      "content_kg": 20.0,
+      "own_kg": 7.299152640000001,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 3.885780586188048e-16,
+      "side_base_joint_reactions_N": [
+        74.92571602691228,
+        33.33919849514118,
+        74.92571602691228,
+        33.33919849514118
+      ],
+      "rear_joint_reactions_N": [
+        -11.040460133049583,
+        14.497603726059511,
+        22.134559503464637,
+        22.134559503464533,
+        14.497603726059529,
+        -11.040460133049569
+      ],
+      "back_side_group_reactions_N": [
+        59.89056581423053,
+        59.89056581423053
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.99502128,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 1.4212835205072196,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": -1.1368683772161603e-13,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_mixed",
+      "degree": 16,
+      "E_initial_MPa": 2200,
+      "thickness_structural_mm": 35.4,
+      "thickness_for_mass_mm": 36.6,
+      "back_height_mm": 598,
+      "back_mass_kg": 6.99502128,
+      "deflection_mm": 1.5046957428079604,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": 0.004597254382527512,
+      "reactions_N": [
+        89.71643250162404,
+        22.70310180135164,
+        89.71643250162413,
+        22.70310180135157,
+        -18.628861942007493,
+        14.612266725402398,
+        25.453678532157404,
+        25.453678532157245,
+        14.612266725402492,
+        -18.628861942007443
+      ],
+      "content_kg": 20.0,
+      "own_kg": 7.299152640000001,
+      "eq_force_N": -5.684341886080802e-14,
+      "eq_moment_x_Nmm": 1.4551915228366852e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 4.996003610813204e-16,
+      "side_base_joint_reactions_N": [
+        89.71643250162404,
+        22.70310180135164,
+        89.71643250162413,
+        22.70310180135157
+      ],
+      "rear_joint_reactions_N": [
+        -18.628861942007493,
+        14.612266725402398,
+        25.453678532157404,
+        25.453678532157245,
+        14.612266725402492,
+        -18.628861942007443
+      ],
+      "back_side_group_reactions_N": [
+        55.73594603330827,
+        55.73594603330833
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.99502128,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 1.7046957428079603,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": -1.1368683772161603e-13,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_18mais18_composicao_integral_adversa_mixed",
+      "degree": 16,
+      "E_initial_MPa": 1600,
+      "thickness_structural_mm": 35.4,
+      "thickness_for_mass_mm": 36.6,
+      "back_height_mm": 598,
+      "back_mass_kg": 6.99502128,
+      "deflection_mm": 1.8729268647000874,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.01743724069447202,
+      "reactions_N": [
+        91.31108355341169,
+        16.005567383843466,
+        91.31108355341175,
+        16.0055673838434,
+        -22.370753243152485,
+        18.62688858367982,
+        30.28383134074544,
+        30.283831340745483,
+        18.62688858367994,
+        -22.370753243152553
+      ],
+      "content_kg": 20.0,
+      "own_kg": 7.299152640000001,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": -2.9103830456733704e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 8.326672684688674e-16,
+      "side_base_joint_reactions_N": [
+        91.31108355341169,
+        16.005567383843466,
+        91.31108355341175,
+        16.0055673838434
+      ],
+      "rear_joint_reactions_N": [
+        -22.370753243152485,
+        18.62688858367982,
+        30.28383134074544,
+        30.283831340745483,
+        18.62688858367994,
+        -22.370753243152553
+      ],
+      "back_side_group_reactions_N": [
+        60.83882939902881,
+        60.838829399028825
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.99502128,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 2.0729268647000874,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": -1.1368683772161603e-13,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P15_18mais18_sem_acao_composta_mixed",
+      "degree": 16,
+      "E_initial_MPa": 2200,
+      "thickness_structural_mm": 22.300602583139256,
+      "thickness_for_mass_mm": 36.6,
+      "back_height_mm": 598,
+      "back_mass_kg": 6.99502128,
+      "deflection_mm": 4.085806916270077,
+      "at_mm": [
+        399.5,
+        0.0
+      ],
+      "min_deflection_mm": -0.12268193531703238,
+      "reactions_N": [
+        96.5789842036113,
+        -6.119615346994825,
+        96.57898420361143,
+        -6.119615346995131,
+        -29.199759782509805,
+        32.23968394724739,
+        40.3573245971738,
+        40.357324597174134,
+        32.23968394724716,
+        -29.19975978250947
+      ],
+      "content_kg": 20.0,
+      "own_kg": 7.299152640000001,
+      "eq_force_N": -5.684341886080802e-14,
+      "eq_moment_x_Nmm": 1.4551915228366852e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 2.55351295663786e-15,
+      "side_base_joint_reactions_N": [
+        96.5789842036113,
+        -6.119615346994825,
+        96.57898420361143,
+        -6.119615346995131
+      ],
+      "rear_joint_reactions_N": [
+        -29.199759782509805,
+        32.23968394724739,
+        40.3573245971738,
+        40.357324597174134,
+        32.23968394724716,
+        -29.19975978250947
+      ],
+      "back_side_group_reactions_N": [
+        77.6961114796675,
+        77.6961114796677
+      ],
+      "back_model": {
+        "E_MPa": 1100,
+        "I_mm4": 1475000.0,
+        "area_mm2": 1770.0,
+        "kGA_N": 624038.4615384615,
+        "end_group_K_N_mm": 500,
+        "self_mass_kg": 6.99502128,
+        "positions_mm": [
+          72.0,
+          203.0,
+          334.0,
+          465.0,
+          596.0,
+          727.0
+        ]
+      },
+      "joint_K_initial_required_N_mm": 1000,
+      "deflection_plus_reserve_mm": 4.285806916270078,
+      "criterion_mm": 2.6633333333333336,
+      "load_system_eq_error_N": -1.1368683772161603e-13,
+      "status": "Caixa nominal condicional. Fundo/laterais e juntas modelados por referencia de rigidez; suspensao e comportamento local nao liberados."
+    },
+    {
+      "case": "P04_fundo308_e_unioes_positivas",
+      "degree": 16,
+      "deflection_mm": 1.3228534315722613,
+      "at_mm": [
+        404.25,
+        0.0
+      ],
+      "min_deflection_mm": -0.06474578156728576,
+      "reactions_N": [
+        11.511713097485547,
+        -12.282373778735309,
+        11.215499910522354,
+        1.7424369726754634,
+        20.35087987090017,
+        8.109403087724173,
+        25.558309654359594,
+        19.34259994946132,
+        19.641767054029977,
+        15.040459570416298,
+        24.004754630434896,
+        16.347675750901043,
+        -7.395081759231918,
+        12.336607957068953,
+        12.517952917190488,
+        10.572993910548213,
+        7.984874592551704,
+        -10.417063624609552,
+        -12.13558331629384,
+        3.2939327584752753,
+        -0.4521382967429009,
+        -0.28388615416907304,
+        9.20797251153344,
+        -0.9417289643523094
+      ],
+      "content_kg": 10.0,
+      "own_kg": 5.47489152,
+      "eq_force_N": 5.684341886080802e-14,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 2.6006974351844292e-14,
+      "applied_mass_including_dividers_kg": 13.376803839999994,
+      "back_mass_kg": 7.95408768,
+      "divider_self_mass_kg": 3.3768038400000004,
+      "joint_positions_mm": [
+        [
+          0.0,
+          60.0
+        ],
+        [
+          0.0,
+          152.0
+        ],
+        [
+          1764.0,
+          60.0
+        ],
+        [
+          1764.0,
+          152.0
+        ],
+        [
+          16.0,
+          72.0
+        ],
+        [
+          16.0,
+          140.0
+        ],
+        [
+          885.5,
+          72.0
+        ],
+        [
+          885.5,
+          140.0
+        ],
+        [
+          903.5,
+          72.0
+        ],
+        [
+          903.5,
+          140.0
+        ],
+        [
+          1329.25,
+          72.0
+        ],
+        [
+          1329.25,
+          140.0
+        ],
+        [
+          72.0,
+          212.0
+        ],
+        [
+          219.27272727272728,
+          212.0
+        ],
+        [
+          366.54545454545456,
+          212.0
+        ],
+        [
+          513.8181818181819,
+          212.0
+        ],
+        [
+          661.0909090909091,
+          212.0
+        ],
+        [
+          808.3636363636364,
+          212.0
+        ],
+        [
+          955.6363636363637,
+          212.0
+        ],
+        [
+          1102.909090909091,
+          212.0
+        ],
+        [
+          1250.1818181818182,
+          212.0
+        ],
+        [
+          1397.4545454545455,
+          212.0
+        ],
+        [
+          1544.7272727272727,
+          212.0
+        ],
+        [
+          1692.0,
+          212.0
+        ]
+      ],
+      "joint_K_base_initial_required_N_mm": 1000,
+      "division_path_K_differed_N_mm": 250,
+      "division_path_value_scope": "Por ramo/posicao y; dois ramos por divisoria",
+      "joint_K_base_value_scope": "Por junta/posicao y, nao grupo de dois pontos",
+      "joint_lower_or_upper_group_initial_required_N_mm": 2000,
+      "whole_divider_path_K_initial_required_N_mm": 1000,
+      "whole_divider_path_K_differed_N_mm": 500,
+      "back_model": {
+        "ground_x_mm": [
+          0.0,
+          16.0,
+          885.5,
+          903.5,
+          1329.25,
+          1764.0
+        ],
+        "group_K_N_mm": 250,
+        "self_mass_kg": 7.95408768,
+        "assumption": "Faixa100 de fundo em flexao no plano; engastes de rotacao nao creditados. Apoios de referencia da caixa precisam de comprovacao."
+      },
+      "max_abs_internal_joint_demand_N": 25.558309654359594,
+      "deflection_plus_reserve_mm": 1.5228534315722613,
+      "criterion_mm": 2.8983333333333334,
+      "criterion_max_individual_axis_spacing_mm": 869.5,
+      "previous_group_center_reference_mm": 2.9283333333333332,
+      "status": "Transferencia em tracao via unioes inferiores/superiores das divisorias e grupos no fundo. K de conjunto exigido, nao capacidade publicada. Apoios da caixa/suspensao por demonstrar."
+    }
+  ],
+  "rotational_end_only": [
+    {
+      "E_initial_MPa": 2200.0,
+      "simple_deferred_mm": 9.71264076499621,
+      "fixed_deferred_lower_bound_mm": 1.9425281529992422,
+      "reserve_mm": 0.2,
+      "criterion_mm": 2.6633333333333336,
+      "required_rotational_K_per_end_Nmm_rad": 5525737.76862721,
+      "end_moment_Nm": 14.407173241896343,
+      "approximate_couple_tension_at_9mm_N": 1600.7970268773715,
+      "note": "Somente laterais; teoria de viga com molas de rotacao. Nao atribuir esteK ao Minifix; nem mesmo engaste perfeito resolve se limite teorico excede criterio."
+    },
+    {
+      "E_initial_MPa": 1600.0,
+      "simple_deferred_mm": 13.35488105186979,
+      "fixed_deferred_lower_bound_mm": 2.670976210373958,
+      "reserve_mm": 0.2,
+      "criterion_mm": 2.6633333333333336,
+      "required_rotational_K_per_end_Nmm_rad": null,
+      "end_moment_Nm": null,
+      "approximate_couple_tension_at_9mm_N": null,
+      "note": "Somente laterais; teoria de viga com molas de rotacao. Nao atribuir esteK ao Minifix; nem mesmo engaste perfeito resolve se limite teorico excede criterio."
+    }
+  ],
+  "scope": "Estudos sem tubos; interfaces e material condicionais. Nao libera carga/fabricacao. Fundoh100 analitico nao e corte na chapa."
+}

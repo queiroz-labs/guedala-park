@@ -8025,7 +8025,7 @@
         "Cor interna resolvida: Branco TX. Especificar fabricante/código, substrato, classe e processo de composição; são decisões técnicas, não medições de campo.",
         "Definir mapa de faces e solução construtiva para Branco TX interno + padrão aparente; não presumir chapa dual comercial pronta.",
         "Fechar fita/selagem por aresta, sentido do veio nas faces decorativas e usinagens com os produtos definidos.",
-        "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+        "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava; não inferir material ou chapa comercial de duas faces."
       ],
       "assembly": [
         "Preservar duas tampas e armazenamento; três painéis do encosto não significam três tampas.",
@@ -8764,7 +8764,7 @@
           ],
           "previousMaterial": null,
           "finishCompleteForIdentifiedFaces": false,
-          "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+          "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava; não inferir material ou chapa comercial de duas faces."
         },
         {
           "source": "BancoR43_Painel2",
@@ -8787,7 +8787,7 @@
           ],
           "previousMaterial": null,
           "finishCompleteForIdentifiedFaces": false,
-          "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+          "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava; não inferir material ou chapa comercial de duas faces."
         }
       ],
       "partialFaceSourceIds": [
@@ -14857,7 +14857,7 @@
       ],
       "previousMaterial": null,
       "finishCompleteForIdentifiedFaces": false,
-      "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+      "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava; não inferir material ou chapa comercial de duas faces."
     },
     {
       "source": "BancoR43_Painel2",
@@ -14880,7 +14880,7 @@
       ],
       "previousMaterial": null,
       "finishCompleteForIdentifiedFaces": false,
-      "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição com receptor R47; não inferir uma chapa comercial de duas faces."
+      "remainingFinishQuestion": "Detalhar face superior sob almofada, recessos e composição/fixação no conjunto piano + articuladores com trava; não inferir material ou chapa comercial de duas faces."
     },
     {
       "source": "Peca367",

@@ -36,7 +36,7 @@ const ITEM_COPY={
  microwave:['Micro-ondas Electrolux ME23P','O projeto reserva 10 cm acima do aparelho, mas o manual pede 30 cm. Resolva essa diferença antes de instalar.'],
  hood:['Depurador Suggar DE61IX','Aparelho de 127 V, usado como depurador. Confira o espaço mínimo de instalação e mantenha acesso aos filtros e à saída de ar.'],
  airfryer:['Air fryer Philips Walita','Pode ser usada na lavanderia quando o varal estiver sem roupas. Com roupas, leve para a bancada da cozinha. Confira as tomadas e as distâncias de segurança.'],
- coffeemaker:['Cafeteira Mondial','Cafeteira já existente. Use na lavanderia sem roupas no varal. Confira o circuito antes de usar junto com a air fryer.'],
+ coffeemaker:['Cafeteira Mondial · espaço a definir','Cafeteira já existente, ainda sem medidas. O desenho não reserva o aparelho nem comprova o encaixe junto à air fryer. Use sem roupas no varal; confira espaço e circuito.'],
  sink:['Cuba e torneira da cozinha','Cuba Dora, torneira preta extensível e tábua parcial. Preveja apoio para o pano e espaço para usar o escorredor junto à pia.'],
  filter:['Purificador Electrolux PE12G','Modelo escolhido, com água natural, fria e gelada. Confira a tomada, o ponto de água e o acesso para trocar o filtro.'],
  washer:['Lava e seca LG VC4','Modelo de 127 V. Confira o nivelamento, as conexões e o espaço para abrir a porta. A bancada precisa de apoios próprios.'],

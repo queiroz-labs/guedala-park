@@ -1,0 +1,16 @@
+{
+  "global_load_cases": 660,
+  "parametric_group_envelopes": 72,
+  "independent_checks": 666,
+  "door_leaves": 6,
+  "poses_per_leaf": 87,
+  "source_controller_states_unchanged": true,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "source_zip_crc": true,
+  "input_unchanged": true,
+  "physical_tests_performed": 0,
+  "wall_substrate_known": false,
+  "manufacturer_capacity_verified": false,
+  "passed": true
+}

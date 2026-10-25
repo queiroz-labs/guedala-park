@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-25",
+  "cad_revision": "R52",
+  "trim_per_edge_mm": 10,
+  "kerf_mm": 3.2,
+  "blank_allowance_per_edge_mm": 0,
+  "parameter_status": "Hipóteses declaradas de triagem; não são tolerâncias ou processo aprovados da oficina. Dimensão nominal não desconta fita nem inclui sobremetal de acabamento.",
+  "formats": [
+    {
+      "id": "2750x1850",
+      "length_mm": 2750,
+      "width_mm": 1850,
+      "source": "01_Projeto/Quantitativos_estudos_2026-10-25/Formatos_e_pendencias.json",
+      "commercial_scope": "Referência local Guararapes Branco TX. Não confirma formato/produto/espessura das demais famílias nem o fornecimento escolhido."
+    },
+    {
+      "id": "2750x2100",
+      "length_mm": 2750,
+      "width_mm": 2100,
+      "source": "01_Projeto/Quantitativos_estudos_2026-10-25/Formatos_e_pendencias.json",
+      "commercial_scope": "Ficha local ARAUCO Melamina MDF 2024 relaciona formato e18 mm. Padrão Branco TX, faces, estoque e margem útil não confirmados."
+    }
+  ],
+  "packing_scenarios": [
+    {
+      "id": "rotacao_livre",
+      "allow_rotation": true,
+      "meaning": "Geometria otimista: permite girar cada envelope90°. Não autoriza rotação do veio ou mudança de face."
+    },
+    {
+      "id": "C_paralelo_2750",
+      "allow_rotation": false,
+      "meaning": "Ensaio com C nominal da ficha paralelo ao lado2750. Não identifica o veio real: esse dado não foi emitido por peça."
+    }
+  ],
+  "plan_status": "Plano preliminar de envelopes por especificação documental e espessura. Toda chapa é virtual até confirmar substrato, produto, faces, bordas, sentido e dimensões de compra. Não é lista de compras, otimização certificada ou programa de serra/CNC.",
+  "proposal_policy": "Os sete kits continuam separados da lista-base e entre si. Não somar nem substituir peças automaticamente."
+}

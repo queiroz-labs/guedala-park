@@ -42,6 +42,10 @@ def apply_revision(g, revision):
     g['revision']='R14'
     g['drillingPath']=f"05_Entregas/Fichas_fabricacao_R13/{g['code']}-furacao.csv"
     g['technicalSummary']=module['summary']
+    if g['code']=='P20':
+        # A alternativa anterior permanece nos arquivos históricos; não a apresentar
+        # como origem operacional do conjunto piano + trava vigente.
+        g['sources']=[source for source in g['sources'] if 'Southco_banco_R47' not in source]
     g['sources']=list(dict.fromkeys(g['sources']+module.get('sourcePaths',[])))
     return plain_module(g)
 

@@ -1,3 +1,13 @@
+# Registro de decisões — referência corrente R52/R18
+
+## 25/10/2026 — publicação R52/R18 autorizada
+
+Elias autorizou atualizar o site e a documentação e enviar o projeto ao GitHub. A entrega desta publicação usa o FreeCAD R52, fichas R14 e pacote R18; R17 permanece selado. [Estado do envio e conferência remota](Estado_atual.md). A autorização de publicação não altera a seleção física do projeto nem libera fabricação, carga, compra ou instalação.
+
+Os avanços sem medidas reais estão [consolidados por dependência](Continuidade_pos_R52_2026-10-25/README.md): caixa nominalP01/P03 com54 cenários/12 equilíbrios, corte de249 painéis e36 propostas triados, arranjos de210 painéis, cinemática extraída daR52 e alternativa300mm do micro. Restam juntas/produtos reais,39 painéis sem definição suficiente, protótipos e medições finais. A alternativa do micro e as propostas estruturais continuam separadas e não adotadas.
+
+## Registros anteriores
+
 **24/10/2026 — luminárias do banheiro L02:** total dos componentes **R$612,64 à vista**, sem frete e instalação. Espelho preservado: mesma fita COB4000 K/IRC>90,2×550 mm. Indireta3000 K: Cristallux CLX-FT200530 de4,8 W/m;2 fontes Opus OPS31002; teto Firefly9605 e perfis MOV4329 mantidos. [Valores e links de compra](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html). Economia de referênciaR$202,45 contraL01 com a fita do espelho incluída. Rolos inteiros no total, sem compra ou instalação liberada; orçamento global preservado para evitar duplicidade comL04/L05/L06. A L01 abaixo é histórico.
 
 **24/10/2026 — luminárias do banheiro L01:** teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240; indireta 3000 K CLX-FT431230. Perfis MOV 4329 brancos e fontes LPV-20-12/LPV-35-12, três comandos separados. [Composição e links de compra](Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L01.html). Seleção técnica para cotação; sem compra ou liberação de montagem. Provar canal/dissipação, terminais e luz no rosto; barra inferior depende da torneira. Subtotal conhecido R$645,83, mais fita4000 K sob consulta, montagem e demais exclusões da L01; orçamento geral preservado.
@@ -39,7 +49,7 @@ Elias solicitou reduzir a marcenaria para R$35 mil sem perder armazenamento e ma
 
 # Revisão vigente R44 — 22/10/2026
 
-[FreeCAD R44](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+[FreeCAD R44 — arquivo no ZIP](../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 
@@ -75,7 +85,7 @@ Remover os dois apoios para celular/óculos do quarto, inclusive no FreeCAD; pre
 
 Arranjo esclarecido por Elias: Berlin aberta170 com três cadeiras de44cm na lateral livre; fechada110 com uma cadeira em cada ponta e uma na lateral, para conferir circulação. O antigo cenário aberto com cadeira na ponta do sofá apresentou colisão de6cm; é evidência do problema, não configuração final recomendada. Três cadeiras somam132cm e cabem no comprimento170cm; conforto e passagem com pessoas continuam sujeitos a conferência física.
 
-FGVTN candidata para nove gavetas e inicialmente46dobradiças comuns; não reduzir armazenamento. Geometria Blum preservada como referência, sem fingir adaptação de caixas, engates ou furações concluída. Canto e espelheiro ficam separados. [Modelo R42](Modelo_FreeCAD/01_Atual/Consolidacao_R42_2026-10-22/Guedala_Park_R42_Consolidado.FCStd) · [Relatório de ferragens](Estudo_Berlin_FGVTN_2026-10-21/Ferragens/Relatorio_Ferragens_FGVTN.html).
+FGVTN candidata para nove gavetas e inicialmente46dobradiças comuns; não reduzir armazenamento. Geometria Blum preservada como referência, sem fingir adaptação de caixas, engates ou furações concluída. Canto e espelheiro ficam separados. [Modelo R42 — arquivo no ZIP](../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Relatório de ferragens](Estudo_Berlin_FGVTN_2026-10-21/Ferragens/Relatorio_Ferragens_FGVTN.html).
 
 Teto de investimento30% do apartamento; manter revestimentos novos de cozinha/banheiro, permitir vaso existente; excluir compra de cadeira do escritório, PlayStation e cama. Meta dois meses após chaves e mudança no terceiro, com profissional coordenando. Nada nesta revisão aprova fabricação, compra ou capacidade de carga.
 

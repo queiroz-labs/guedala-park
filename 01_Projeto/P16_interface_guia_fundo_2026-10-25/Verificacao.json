@@ -1,0 +1,16 @@
+{
+  "pairs": 8,
+  "positive_pairs": 4,
+  "positive_components": 18,
+  "under_bottom_components": 16,
+  "rear_bore_components": 2,
+  "nominal_bores": 4,
+  "official_G2_same_region_pattern": true,
+  "official_drawing_pdf_sha256": "0021ca05427fd2a0df20d68bfccfc877845286f53de05da64f576d391e2bafad",
+  "source_hash_crc": true,
+  "input_hashes": true,
+  "links": true,
+  "physical_tests": 0,
+  "wood_or_guide_modified": false,
+  "status": "Cotas/localizacao conferidas; causa e aceitabilidade da interferencia e configuracao individual400 permanecem condicionadas"
+}

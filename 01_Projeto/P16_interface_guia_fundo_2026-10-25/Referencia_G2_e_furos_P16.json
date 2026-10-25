@@ -1,0 +1,271 @@
+{
+  "reference_regions": [
+    {
+      "guide": "MontagemG2R007",
+      "label": "48346342[48346342] - proposta R07",
+      "floor": "MontagemG2R019",
+      "floor_box_mm": [
+        1684.9999999,
+        6407.9999999,
+        612.9999999,
+        2236.0000001,
+        6898.0000001,
+        628.0000001000002
+      ],
+      "compound_volume_mm3": 52.13003061947206,
+      "sum_positive_solids_mm3": 52.130032728355125,
+      "compound_vs_solids_delta_mm3": -2.108883066398448e-06,
+      "top_level_shape_types": [
+        "Solid",
+        "Solid",
+        "Solid",
+        "Solid"
+      ],
+      "components": [
+        {
+          "volume_mm3": 4.467531679399799,
+          "box_mm": [
+            2223.7999999,
+            6888.7149999,
+            612.9999999000003,
+            2226.549461861309,
+            6898.0000001,
+            613.1750000999999
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 3.6994999999941007,
+          "box_mm": [
+            2206.449999900526,
+            6892.7149999,
+            612.9999999000003,
+            2210.450000100526,
+            6898.0000001,
+            613.1750000999999
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 4.147879098090393,
+          "box_mm": [
+            2213.3799999000003,
+            6437.749999900001,
+            612.9999999,
+            2219.8800001,
+            6444.250000100001,
+            613.1250001
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 39.81512195087083,
+          "box_mm": [
+            2211.6299999000003,
+            6570.607316973173,
+            612.9999999000001,
+            2221.6300001,
+            6603.3926830267765,
+            613.1350001
+          ],
+          "valid": true
+        }
+      ]
+    },
+    {
+      "guide": "MontagemG2R014",
+      "label": "49027541[49027541] - proposta R07",
+      "floor": "MontagemG2R019",
+      "floor_box_mm": [
+        1684.9999999,
+        6407.9999999,
+        612.9999999,
+        2236.0000001,
+        6898.0000001,
+        628.0000001000002
+      ],
+      "compound_volume_mm3": 54.02983426619642,
+      "sum_positive_solids_mm3": 54.0323346291471,
+      "compound_vs_solids_delta_mm3": -0.0025003629506841207,
+      "top_level_shape_types": [
+        "Solid",
+        "Solid",
+        "Solid",
+        "Solid",
+        "Solid"
+      ],
+      "components": [
+        {
+          "volume_mm3": 3.699499999994112,
+          "box_mm": [
+            1710.5499998994699,
+            6892.7149999,
+            612.9999999000003,
+            1714.55000009947,
+            6898.0000001,
+            613.1750000999999
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 4.467531679401421,
+          "box_mm": [
+            1694.45053813869,
+            6888.7149999,
+            612.9999999000003,
+            1697.2000001000001,
+            6898.0000001,
+            613.1750000999999
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 1.902352037782363,
+          "box_mm": [
+            1693.6822701058418,
+            6893.008369573625,
+            623.5049998999999,
+            1694.0840139889222,
+            6898.000000100001,
+            624.7050000999999
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 4.147828961098365,
+          "box_mm": [
+            1701.1199998999994,
+            6437.749999900001,
+            612.9999999,
+            1707.6200001,
+            6444.250000100001,
+            613.1250001
+          ],
+          "valid": true
+        },
+        {
+          "volume_mm3": 39.81512195087084,
+          "box_mm": [
+            1699.3699998999998,
+            6570.607316973173,
+            612.9999999000001,
+            1709.3700001,
+            6603.3926830267765,
+            613.1350001
+          ],
+          "valid": true
+        }
+      ]
+    }
+  ],
+  "P16_bores": [
+    {
+      "floor": "GavetaComumR074",
+      "holes": [
+        {
+          "radius_mm": 3.0,
+          "center_mm": [
+            4346.0,
+            302.0,
+            540.0
+          ],
+          "axis": [
+            1.2246467991473532e-16,
+            -1.0,
+            0.0
+          ],
+          "box_mm": [
+            4343.0,
+            292.0,
+            537.0,
+            4349.0,
+            302.0,
+            543.0
+          ],
+          "distance_from_nearest_bottom_side_edge_mm": 12.0,
+          "height_above_bottom_underside_mm": 11.0,
+          "bore_depth_mm": 10.0
+        },
+        {
+          "radius_mm": 3.0,
+          "center_mm": [
+            4654.0,
+            302.00000000000006,
+            540.0
+          ],
+          "axis": [
+            1.2246467991473532e-16,
+            -1.0,
+            0.0
+          ],
+          "box_mm": [
+            4651.0,
+            292.00000000000006,
+            537.0,
+            4657.0,
+            302.00000000000006,
+            543.0
+          ],
+          "distance_from_nearest_bottom_side_edge_mm": 12.0,
+          "height_above_bottom_underside_mm": 11.0,
+          "bore_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "floor": "GavetaComumR086",
+      "holes": [
+        {
+          "radius_mm": 3.0,
+          "center_mm": [
+            4346.0,
+            302.0,
+            644.0
+          ],
+          "axis": [
+            1.2246467991473532e-16,
+            -1.0,
+            0.0
+          ],
+          "box_mm": [
+            4343.0,
+            292.0,
+            641.0,
+            4349.0,
+            302.0,
+            647.0
+          ],
+          "distance_from_nearest_bottom_side_edge_mm": 12.0,
+          "height_above_bottom_underside_mm": 11.0,
+          "bore_depth_mm": 10.0
+        },
+        {
+          "radius_mm": 3.0,
+          "center_mm": [
+            4654.0,
+            302.00000000000006,
+            644.0
+          ],
+          "axis": [
+            1.2246467991473532e-16,
+            -1.0,
+            0.0
+          ],
+          "box_mm": [
+            4651.0,
+            292.00000000000006,
+            641.0,
+            4657.0,
+            302.00000000000006,
+            647.0
+          ],
+          "distance_from_nearest_bottom_side_edge_mm": 12.0,
+          "height_above_bottom_underside_mm": 11.0,
+          "bore_depth_mm": 10.0
+        }
+      ]
+    }
+  ],
+  "source_unchanged": true,
+  "scope": "Regioes comparadas com G2 proveniente da configuracao oficial, nao homologacao individualP16. Furos nominais confirmados; causa fisica/parametros de regulagem continuam por confirmar."
+}

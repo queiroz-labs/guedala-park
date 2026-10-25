@@ -1,0 +1,19 @@
+{
+  "cases": 4608,
+  "envelopes": 72,
+  "wood_parts_P01_P03_P02": [
+    47,
+    7,
+    10
+  ],
+  "upper_face_contacts": 8,
+  "nominal_floor_regions": 23,
+  "nominal_floor_area_m2": 0.27072,
+  "moment_identities_and_movement_mass_checks": true,
+  "rigid_bed_examples": 3,
+  "source_hash_crc": true,
+  "input_hashes": true,
+  "local_links": true,
+  "physical_tests": 0,
+  "status": "Conferencia matematica/geometrica aprovada; caixa real, transferencia dos superiores, piso, material e ferragens condicionados"
+}

@@ -7,6 +7,8 @@ from pathlib import Path
 from html import escape
 from urllib.parse import urlsplit, unquote, quote
 import json, re, shutil, posixpath, runpy
+from current_release import load_release
+RELEASE = load_release()
 
 STUDY = Path(__file__).resolve().parent
 ROOT = STUDY.parent.parent
@@ -28,7 +30,7 @@ def doc(id, title, category, rooms, status, summary, path):
     DOCS.append(dict(id=id,title=title,category=category,rooms=rooms.split(','),status=status,summary=summary,path=path))
 
 doc('dossie','Guia do montador','Começar','all','Consolidado','Medidas, ferragens, acabamentos e pendências por módulo.','05_Entregas/Dossie_marcenaria_R45.html')
-doc('pacote-compartilhar','Baixar pacote para compartilhar','Começar','all','CAD R49 · 24/10','FreeCAD R49, fichas R14, planta cotada, iluminação CB02 e instruções em um ZIP.','05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip')
+doc('pacote-compartilhar','Pacote '+RELEASE['packageRevision']+' · pacote de consulta','Começar','all',RELEASE['cadRevision']+' · '+RELEASE['releaseDate'],'FreeCAD corrente, fichas, planta, HTML offline e avanços técnicos selecionados.',RELEASE['packageDirectory']+'/'+RELEASE['packageFile'])
 doc('matriz','Medidas dos 20 módulos','Medidas','all','Nominal','Vãos internos em milímetros e o que falta fechar.',R45+'Inventario/Matriz_20_modulos.md')
 doc('interfaces','Uniões entre chapas','Montagem','all','Em estudo','171 contatos nominais; ligação e caminho da carga a definir.',R45+'Inventario/Interfaces_retangulares.md')
 doc('fixas','Ferragens fixas e suspensão','Ferragens','all','Candidatas','Pinos, conectores, suportes e restrições de montagem.',R45+'Inventario/Ferragens_fixas.md')
@@ -47,16 +49,18 @@ doc('portas','Portas e articulações','Ferragens','all','Em estudo','Ensaios de
 doc('cesto','Cesto basculante','Ferragens','lavanderia','Em estudo','Frente 550 × 521 × 18; saco removível e curso até 55° preservados.',R45+'Portas_e_articulacoes/Cesto_selecao_e_esforcos.md')
 doc('mesa-varal','Mesa Berlin e varal','Compatibilização','sala,lavanderia','Em estudo','Mesa pronta; quadro do varal de 1000 × 500, sem placa de ocultação.',R45+'Portas_e_articulacoes/Mesa_e_varal.md')
 doc('banco','Apoios e estrutura do banco','Montagem','sala','Em estudo','Duas tampas e armazenamento preservados; apoios e ligações pendentes.',R45+'Banco_estrutura/Resultado.html')
-doc('southco','Southco: fixação e almofadas','Ferragens','sala','Em estudo','R47 separada da R45; eixo, fixações e batente ainda não fechados.',R47+'Relatorio.html')
-doc('batente','Batente mecânico do banco','Montagem','sala','Alternativa','Geometria nominal de parada a 90°; não fabricar pelo eixo hipotético.',R47+'Batente_estudo.md')
+doc('southco','Southco: registro anterior','Histórico','sala','Superado como direção P20','Registro R47 preservado. A solução operacional usa piano e trava nas fichas atuais.',R47+'Relatorio.html')
+doc('batente','Batente mecânico: geometria anterior','Histórico','sala','Registro de estudo','Parada nominal de90° em estudo anterior; não é especificação atual de eixo ou montagem.',R47+'Batente_estudo.md')
 doc('torneiras','Conferência de cubas e torneiras','Compatibilização','cozinha,banho','Em estudo','Envelopes e medidas disponíveis; instalação depende dos produtos.',TAPS+'Conferencia.html')
 doc('purangi','Purangi: vedação e abertura','Compatibilização','banho','Não liberado','Compatibilidade integral não comprovada; troca não liberada.',TAPS+'Resultado_vedacao_abertura.md')
 doc('forno','Forno: grelhas e manutenção','Compatibilização','cozinha','Em estudo','R02 dos apoios e grelhas removíveis; montagem e ventilação condicionadas.','01_Projeto/Cozinha/Fischer_Grill_2026-10-19/Grelhas_manutencao_R02/README.md')
-doc('cad','FreeCAD R49 · modelo atual','FreeCAD','all','R49 · 24/10','Gavetas do escritório corrigidas: 7 mm livres sob o tampo e trava direita espelhada; mantém as alterações da R48.',R49+'Guedala_Park_R49_Gavetas_escritorio.FCStd')
+doc('cad','FreeCAD '+RELEASE['cadRevision']+' · modelo atual','FreeCAD','all',RELEASE['cadRevision']+' · '+RELEASE['releaseDate'],RELEASE['notes'],RELEASE['cadPath'])
+DOCS[-1]['localOnly']=True
+doc('cad-atual-notas','O que mudou na '+RELEASE['cadRevision'],'FreeCAD','all','Revisão local verificada',RELEASE['notes'],RELEASE['cadReadme'])
 doc('cad-r49','O que mudou na R49','FreeCAD','escritorio','R49 · 24/10','Correções das gavetas do escritório e conferências P01, P02, P04 e P18.',R49+'README.md')
 doc('cad-r48','Depurador sem canal de duto','FreeCAD','cozinha','R48 · mantida na R49','Canal removido do aéreo D e divisor levado até o fundo.',R48+'README.md')
 doc('cad-cores','Atualização de cores do FreeCAD','Acabamentos','all','R16','Registro dos acabamentos visuais; cores aproximadas e limites da atualização.',CAD_COLORS+'README.md')
-doc('cad-southco','FreeCAD: fixação Southco','FreeCAD','sala','Estudo separado','Proposta R47 para inspeção; não substitui o modelo principal.',R47+'Southco_Fixacao_ESTUDO.FCStd')
+doc('cad-southco','FreeCAD: estudo histórico Southco','Histórico','sala','Não operacional','Arquivo R47 preservado para rastreio; não substitui a direção atual piano e trava.',R47+'Southco_Fixacao_ESTUDO.FCStd')
 doc('cad-purangi','FreeCAD: sensibilidade Purangi','FreeCAD','banho','Estudo separado','Envelopes hipotéticos para conferir abertura; não é CAD certificado.',TAPS+'Purangi_R45_SENSIBILIDADE.FCStd')
 doc('executivo','Pranchas executivas e plano de corte','Executivo','all','Pendente','Faltam cotas de campo, furação, fitas de borda, folgas, ligações e liberação por peça.',None)
 doc('planta','Planta oficial do apartamento','Arquitetura','all','Documento de origem','Referência de planta; não substitui levantamento acabado.','02_Plantas_e_manuais/Planta_oficial.pdf')
@@ -74,7 +78,13 @@ doc('levantamento','Levantamento para fabricação','Executivo','all','Pendente'
 doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido','Diretriz vigente por face: interiores Branco TX e padrões escolhidos nas faces aparentes.','01_Projeto/Estudo_interativo/fabrication/Decisao_acabamentos_R13.md')
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','05_Entregas/Planta_cotada_R13/index.html')
 
+doc('banco-atual','Banco P20: assento, apoios e operação','Montagem','sala','Condicionado','Direção piano e trava; composição, ligações e capacidade ainda dependem de detalhamento e protótipo.','01_Projeto/P20_assento_fechado_2026-10-25/README.md')
+for item in RELEASE.get('technicalDocuments',[]):
+    doc(item['id'],item['title'],'Avanços e pendências',item['room'],'Estudo separado',item['summary'],item['path'])
+
 ASSETS = [
+    '01_Projeto/Estudo_interativo/current_release.json',
+    *[str(Path(RELEASE['cadReadme']).parent/n).replace('\\','/')for n in RELEASE['cadEvidence']],
     R49+'Verificacao_R49.json', R49+'Diferencas_CAD.json',
     LIGHT+'Composicao_CB01.json', LIGHT+'Composicao_CB02.json',
     '01_Projeto/Fichas_no_CAD_R46_2026-10-24/Guedala_Park_R46_Fichas_R14.FCStd',
@@ -112,10 +122,12 @@ ASSETS = [
 ASSETS += [LIGHT_IMAGES+name for name in ['01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
 ASSETS += [FABRICS+name for name in ['01_Cortinas_C1_C2_C3.png','02_Estofados_E1_E2_E3.png']]
 ASSETS += [FINISHES+name for name in ['04_R02_Banheiro_frentes.png','05_R02_Offwhite.png','06_R02_Madeiras.png']]
+ASSETS += [p for item in RELEASE.get('technicalDocuments',[])for p in item.get('files',[])]
+ASSETS += [RELEASE['packageDirectory']+'/manifest.json','05_Entregas/Compartilhar_R16/Guedala_Park_R16.zip','05_Entregas/Compartilhar_R17/Guedala_Park_R17.zip','05_Entregas/Compartilhar_R17/manifest.json',RELEASE['packageDirectory']+'/Verificacao_pacote.json']
 
 HARDWARE = {
  'P01':['Quatro varões Ø20 nominais; oito terminais. Ø25 é alternativa, não substituição.','Trilhos e gavetas: conferir estudo de mecanismos.'],
- 'P02':['Dobradiças de referência em revisão; quatro formas inválidas registradas.'],
+ 'P02':['Canto com referências de dobradiças; confirmar montagem e movimentos no conjunto real.'],
  'P03':['Mecanismo de correr: conferir estudo de portas.'],
  'P04':['Suspensão e ligações dos divisores ainda a dimensionar.'],
  'P05':['Duas portas; dobradiças reguláveis com amortecimento escolhidas.'],
@@ -133,9 +145,9 @@ HARDWARE = {
  'P17':['Dobradiças amortecidas; suspensão e ligações ainda a dimensionar.'],
  'P18':['Referência vigente BC43 de correr; frente removível M6 em estudo.'],
  'P19':['Oito pinos Häfele 282.04.711 candidatos para duas prateleiras.'],
- 'P20':['Southco candidata com fixação R47 em estudo separado.','Rockler traseira e abertura frontal foram rejeitadas. Batente independente pendente.'],
+ 'P20':['Dobradiça piano e articuladores/trava são a direção atual.','Composição, eixo real, fixação, retenção e capacidade continuam a detalhar.'],
 }
-EXTRA_DOCS = {'P01':['varoes','gavetas','portas'],'P02':['portas'],'P03':['portas'],'P04':['portas'],'P05':['torneiras','portas'],'P06':['gavetas'],'P07':['fixas'],'P08':['gavetas'],'P09':['portas'],'P10':['minifix','portas'],'P11':['fixas','portas'],'P12':['portas'],'P13':['fixas'],'P14':['cesto','mesa-varal'],'P15':['fixas','mesa-varal'],'P16':['gavetas','movento','bancada'],'P17':['bancada','portas'],'P18':['portas','torneiras','purangi'],'P19':['espelheiro','torneiras','purangi'],'P20':['banco','southco','batente','mesa-varal']}
+EXTRA_DOCS = {'P01':['varoes','gavetas','portas'],'P02':['portas'],'P03':['portas'],'P04':['portas'],'P05':['torneiras','portas'],'P06':['gavetas'],'P07':['fixas'],'P08':['gavetas'],'P09':['portas'],'P10':['minifix','portas'],'P11':['fixas','portas'],'P12':['portas'],'P13':['fixas'],'P14':['cesto','mesa-varal'],'P15':['fixas','mesa-varal'],'P16':['gavetas','movento','bancada'],'P17':['bancada','portas'],'P18':['portas','torneiras','purangi'],'P19':['espelheiro','torneiras','purangi'],'P20':['banco-atual','mesa-varal']}
 ROOMS = {**dict.fromkeys(['P01','P02','P03','P04'],'quarto'),**dict.fromkeys(['P05','P06','P07','P08','P09','P10','P11','P12','P13'],'cozinha'),'P14':'lavanderia','P15':'lavanderia','P16':'escritorio','P17':'escritorio','P18':'banho','P19':'banho','P20':'sala'}
 
 def finish(id):
@@ -151,7 +163,7 @@ def matrix():
             row=[part.strip() for part in line.strip('|').split('|')]
             rows.append(dict(zip(['id','name','measure','pending'],row)))
     assert len(rows)==20
-    next(r for r in rows if r['id']=='P20')['pending']='Fechar eixo real, ligações, apoios, almofadas e batente independente conforme R47. Southco permanece candidata; Rockler traseira e abertura frontal rejeitadas.'
+    next(r for r in rows if r['id']=='P20')['pending']='Detalhar a composição e a fixação da dobradiça piano com articuladores/trava, eixo, apoios, almofadas e capacidade. Conferir protótipo e operação antes da fabricação.'
     return rows
 
 STYLE='''body{font:16px/1.6 system-ui,sans-serif;color:#26322d;background:#faf9f5;max-width:1120px;margin:auto;padding:40px}h1{font-size:36px;line-height:1.15}h2{margin-top:40px}h3{margin-bottom:8px}a{color:#336d57}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #d8dfd8;padding:10px;text-align:left;vertical-align:top}th{background:#e8eee7}section{padding:20px 0;border-bottom:1px solid #d8dfd8}.note{padding:18px;background:#edf1e9;border-radius:10px}.meta{font-size:13px;color:#607066}.tags{display:flex;gap:12px;flex-wrap:wrap}button{padding:10px 18px;border:1px solid #667767;border-radius:8px;background:white;cursor:pointer}@media print{body{background:white;padding:0;font-size:10pt}h1{font-size:24pt}.no-print{display:none}section{break-inside:avoid}a{color:inherit;text-decoration:none}table{font-size:9pt}h2,h3{break-after:avoid}}'''
@@ -177,6 +189,11 @@ def markdown(text):
     if in_table: out.append('</table>')
     return '\n'.join(out)
 
+def write_if_changed(path,content):
+    if path.exists() and path.read_text(encoding='utf8')==content:return False
+    path.write_text(content,encoding='utf8');return True
+
+
 def write_sources():
     from plain_language import plain_data
     rows=matrix()
@@ -191,29 +208,27 @@ def write_sources():
         guidance[code]['documentIds'].insert(0,'ficha-'+code)
         guidance[code]['documentIds'].append('acabamentos-r13')
     guidance = plain_data(guidance)
-    (STUDY/'src/workshop-docs.js').write_text('/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n',encoding='utf-8')
-    body='<p class="meta">GUEDALA PARK · MARCENARIA · 23 OUTUBRO 2026</p><h1>Do ambiente à peça.</h1><p>Guia de consulta para orçamento, conferência e montagem.</p><p class="note">Base dimensional R45, complementada pelos estudos R47 e de torneiras. Todas as medidas abaixo são nominais do modelo, em <strong>milímetros</strong>. Nenhum módulo está liberado para fabricação apenas pela presença neste guia.</p><p class="no-print"><button onclick="window.print()">Imprimir / salvar PDF</button></p><nav class="tags"><a href="#cobertura">Cobertura</a><a href="#modulos">20 módulos</a><a href="#executivo">Executivo pendente</a><a href="#fontes">Documentos</a></nav><h2 id="cobertura">O que está disponível</h2><table><tr><th>Informação</th><th>Cobertura</th><th>Próximo fechamento</th></tr>'
-    for values in [('Medidas e espessuras','20 módulos inventariados; cotas de modelo','Levantamento final e tolerâncias por peça'),('Acabamentos','Escolhas e direções de composição registradas','Código, amostra, lote, sentido do veio e fitas de borda'),('Ferragens','Candidatos, conflitos e estudos locais','SKU final, quantidade, engates e desenho de montagem'),('Uniões e cargas','171 contatos e cenários de cálculo','Ligações, cargas admissíveis e ancoragem real'),('FreeCAD','R45 principal e estudos separados','CAD executivo, furação, ferragens reais e revisão liberada'),('Plano de corte','Não localizado como pacote executivo liberado','Lista por peça, usinagem, bordas e autorização de fabricação')]:
-        body+='<tr>'+''.join('<td>'+escape(x)+'</td>' for x in values)+'</tr>'
-    body+='</table><h2 id="modulos">Consulta por módulo</h2>'
-    for r in rows:
-        g=guidance[r['id']]
-        body+='<section id="'+r['id']+'"><p class="meta">'+r['id']+' · '+ROOMS[r['id']].upper()+' · NOMINAL / EM DESENVOLVIMENTO</p><h3>'+escape(r['name'])+'</h3><p><strong>Medidas e chapas.</strong> '+escape(r['measure'])+'</p><p><strong>Acabamento.</strong> '+escape(g['finish'])+'</p><p><strong>Ferragens.</strong> '+escape(' '.join(g['hardware']))+'</p><p><strong>Antes de cortar ou montar.</strong> '+escape(r['pending'])+'</p><p class="meta">Fontes: '+ ' · '.join('<a href="../'+next(d['path'] for d in DOCS if d['id']==did)+'">'+escape(next(d['title'] for d in DOCS if d['id']==did))+'</a>' for did in g['documentIds'])+'</p></section>'
-    body+='<h2 id="executivo">Pacote executivo ainda pendente</h2><p>Levantamento de cotas acabadas, prumo e esquadro; posição das instalações e substratos; plantas, elevações e cortes finais por ambiente; identificação de cada painel; espessura e composição reais; lado aparente, sentido do veio e fita de borda; folgas de funcionamento e montagem; mapa de furação; conectores e fixadores; cargas e apoios; lista de ferragens e plano de corte revisados. Compatibilizar recortes hidráulicos, ventilação e retirada dos aparelhos.</p><p>Não transformar vãos internos em comprimentos de corte sem descontar ferragens e encaixes. Modelo 3D, escolha de acabamento e ensaio de mecanismo são registros distintos da liberação executiva.</p><h2 id="fontes">Biblioteca técnica</h2>'
-    for d in DOCS[1:]:
-        body+='<p>'+('<a href="../'+d['path']+'">'+escape(d['title'])+'</a>' if d['path'] else '<strong>'+escape(d['title'])+'</strong>')+' — '+escape(d['status'])+'. '+escape(d['summary'])+'</p>'
+    write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
+    body='<h1>Guia do montador</h1><p>Modelo '+escape(RELEASE['cadRevision'])+'; consultar fichas e condições atuais antes da fabricação.</p>'
     if FABRICATION:
         body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao_R13/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao_R13/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
         for code,f in FABRICATION.items():
             body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao_R13/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
-    (ROOT/'05_Entregas/Dossie_marcenaria_R45.html').write_text(page('Guedala Park · guia do montador',body),encoding='utf-8')
+    write_if_changed(ROOT/'05_Entregas/Dossie_marcenaria_R45.html',page('Guedala Park · guia do montador',body))
 
-def build():
+def build(target=None, regenerate=False, build_package=False, export_docs=True):
     global FABRICATION
+    if export_docs and target is None and (ROOT/'.site/docs').exists() and any((ROOT/'.site/docs').iterdir()):
+        raise FileExistsError('Existing .site/docs preserved. Choose --output-dir or --sources-only.')
     from plain_language import plain_data, plain_html, document_intro, DOCUMENT_COPY
-    generated=runpy.run_path(str(STUDY/'build_fabrication.py'))
-    FABRICATION,assets=generated['build']()
-    runpy.run_path(str(STUDY/'build_share_package.py'))['build']()
+    if regenerate:
+        generated=runpy.run_path(str(STUDY/'build_fabrication.py'))
+        FABRICATION,assets=generated['build']()
+    else:
+        text=(STUDY/'src/fabrication-data.js').read_text(encoding='utf8')
+        FABRICATION=json.loads(re.search(r'const FABRICATION_DATA\s*=\s*(\{.*\});',text,re.S)[1])['modules']
+        assets=json.loads((ROOT/'05_Entregas/Fichas_fabricacao_R13/manifest.json').read_text(encoding='utf8'))['files']
+    if build_package:runpy.run_path(str(STUDY/'build_share_package.py'))['build']()
     base='05_Entregas/Fichas_fabricacao_R13/'
     doc('fichas','Fichas completas dos 20 móveis','Começar','all','R14','Medidas, peças, acabamentos, ferragens selecionadas e furação rastreável.',base+'index.html')
     doc('pendencias-r14','O que falta · projeto, oficina e apartamento','Começar','all','R14','Próximos passos separados por etapa, com decisões e fontes nas fichas.',base+'Pendencias.html')
@@ -230,15 +245,23 @@ def build():
             code = d['id'][6:]
             d['title'] = code+' · '+FABRICATION[code]['name']
             d['summary'] = 'Consulte as medidas, os materiais, a montagem e o que falta conferir.'
+    for d in DOCS:
+        if d.get('path'):d['available']=d['id']=='pacote-compartilhar' or (ROOT/d['path']).is_file()
     write_sources()
+    if not export_docs:return dict(modules=20,documents=len(DOCS),exported=False)
     mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path']}
     mapping.update({p:p for p in ASSETS})
+    missing_sources=[src for src in mapping if not(ROOT/src).is_file()]
+    mapping={src:dst for src,dst in mapping.items()if(ROOT/src).is_file()}
+    materialized=set(mapping.values())
     document_by_path = {d['path']:d for d in DOCS if d.get('path')}
-    target=ROOT/'.site/docs'
-    published=[]; omitted=[]
+    target=Path(target)if target else ROOT/'.site/docs'
+    published=[]; omitted=[dict(source=src,reference=src,reason='Historical source not present locally; excluded from artifact')for src in missing_sources]
     for src, dst in mapping.items():
         source=ROOT/src
-        if not source.is_file(): raise FileNotFoundError(source)
+        if not source.is_file():
+            omitted.append(dict(source=src,reference=src,reason='Historical source not present locally; no archive extracted'))
+            continue
         dest=target/dst; dest.parent.mkdir(parents=True,exist_ok=True)
         if source.suffix.lower() in ['.md','.html']:
             content=source.read_text(encoding='utf-8')
@@ -248,8 +271,8 @@ def build():
                 parsed=urlsplit(unquote(url))
                 if parsed.scheme in ['http','https','mailto','data'] or url.startswith('#'): return m[0]
                 resolved=posixpath.normpath(posixpath.join(posixpath.dirname(src),parsed.path))
-                if resolved in mapping:
-                    rel=posixpath.relpath(mapping[resolved],posixpath.dirname(dst))
+                if resolved in mapping or resolved in materialized:
+                    rel=posixpath.relpath(mapping.get(resolved,resolved),posixpath.dirname(dst))
                     return attr+'='+delimiter+quote(rel,safe='/')+('#'+parsed.fragment if parsed.fragment else '')+delimiter
                 omitted.append(dict(source=src,reference=url))
                 return 'data-unpublished-reference='+delimiter+escape(url,quote=True)+delimiter
@@ -265,4 +288,7 @@ def build():
     (target/'manifest.json').write_text(json.dumps(dict(files=published,unpublishedReferences=omitted,policy='Explicit technical allowlist only; no recursive inclusion.'),ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(dict(documents=len(DOCS),modules=20,published=len(published),unpublishedReferences=len(omitted),directory=str(target)),ensure_ascii=False))
 
-if __name__=='__main__': build()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser();parser.add_argument('--output-dir');parser.add_argument('--sources-only',action='store_true');parser.add_argument('--regenerate',action='store_true');a=parser.parse_args()
+    build(target=a.output_dir,regenerate=a.regenerate,export_docs=not a.sources_only)

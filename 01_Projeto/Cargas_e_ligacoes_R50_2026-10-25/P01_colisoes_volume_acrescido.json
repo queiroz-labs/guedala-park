@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "piece": "Peca245",
+      "parts_screened": 113,
+      "BREP_candidates": [],
+      "interferences": []
+    },
+    {
+      "piece": "Peca246",
+      "parts_screened": 113,
+      "BREP_candidates": [],
+      "interferences": []
+    }
+  ],
+  "scope": "975 geometrias do inventario; somente pecas P01 visiveis e possivel sobreposicao volumetrica. Nao valida ferramenta/furos nem execucao real.",
+  "source_unchanged": true
+}

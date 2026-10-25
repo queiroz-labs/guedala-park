@@ -1,0 +1,7 @@
+﻿id;quantity;description;nominal_dimensions_mm;notes
+P11-RF-TUBO;3;"Tuboaco35x15x2;15vertical;fy>=200;I>=4800;J>=10000";672x35x15;"L_corte=vao_real+11;comprimento nominal672;naousinarMDF18da prateleira"
+P11-RF-SAPATA;6;Sapataaco sobponta;20x35x2;"Contato efetivo minimo5x35;semcontar solda como apoiovertical"
+P11-RF-MACICO;6;Inserto macico deacoajustadoao interior naspontas;30x10x20aprox;"Chanfros/ajuste ao tubo real;calcar rigidamente para evitar amassamento local;nao soldagem estrutural presumida"
+P11-RF-CALCO-INF;6;Calco inferior metalico rigido;35x5x0.5nominal;"Ajustar apos medir;semcunhaMDFouespuma"
+P11-RF-CALCO-SUP;6;Calco superior antigiro metalico;35x5x0.5nominal;"Folga residual vertical<=0.05;acomodacao total<=0.2 comprovada"
+P11-RF-BOLSO;6;"Cavidade internaR3 naslaterais;naoprofuroexterno";43x18x6;"Soleira17.5abaixo da prateleira; teto0.5acima;3porlateral;usinagempendente"

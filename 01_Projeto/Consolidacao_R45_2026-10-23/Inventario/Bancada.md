@@ -1,5 +1,7 @@
 # Bancada — proposta de reforço independente, R02
 
+**CANCELADA como solução ativa em25/10/2026:** Elias não quer tubos sustentando chapas de madeira; qualquer proposta futura exige autorização prévia. A R51 retirou do modelo completo o grupo oculto deste estudo. Este arquivo e os FCStd separados são somente histórico. Os apoios atuais da bancada precisam ser desenvolvidos como marcenaria; a retirada desta alternativa não resolve a sustentação por si.
+
 23/10/2026. [Modelo separado](Bancada_Estrutura_R45_R02_ESTUDO.FCStd) · [Ensaio geométrico](Bancada_geometria_R02.json) · [Flexão](Bancada_flexao_R02.json) · [Script CAD](bancada_estudo_R02.py) · [Script de cálculo](bancada_calcular_R02.py).
 
 ![Bancada em estudo, tampo semitransparente para mostrar reforços](Bancada_R02.png)

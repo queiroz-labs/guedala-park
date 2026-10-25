@@ -6,7 +6,8 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {build,transform} from 'esbuild';
 const study=path.dirname(fileURLToPath(import.meta.url)),src=path.join(study,'src');
-const site=path.resolve(study,'../../.site'),assets=path.join(site,'assets');
+const site=process.argv[2]?path.resolve(process.argv[2]):path.resolve(study,'../../.site'),assets=path.join(site,'assets');
+if(!process.argv[2]&&fs.existsSync(site)&&fs.readdirSync(site).length)throw Error('Existing .site preserved; pass an isolated output directory.');
 fs.mkdirSync(assets,{recursive:true});
 const read=name=>fs.readFileSync(path.join(src,name),'utf8').replace(/\r\n/g,'\n');
 const digest=data=>crypto.createHash('sha256').update(data).digest('hex').slice(0,12);
@@ -26,7 +27,9 @@ const geometryUrl=writeAsset('geometry','json',JSON.stringify(geometry));
 const worker=await transform(read('geometry-worker.js'),{minify:true,target:'es2020'});
 const workerUrl=writeAsset('geometry-worker','js',worker.code);
 const offline=fs.readFileSync(path.join(study,'Guedala_Park_Interativo.html'),'utf8').replace(/\r\n/g,'\n');
-const offlineUrl=writeAsset('Guedala_Park_Interativo','html',offline);
+// Download asset lives under /assets; its relative documentation links use site root.
+const offlineDownload=offline.replace('<head>','<head><base href="../">');
+const offlineUrl=writeAsset('Guedala_Park_Interativo','html',offlineDownload);
 const settings={geometryUrl,workerUrl,offlineUrl,modules,geometryReady:false};
 // Only images required by detail dialogs stay external to the entry bundle.
 const imageAssets=new Map();

@@ -2,6 +2,8 @@
 
 24/10/2026. **[Guedala_Park_R48_Depurador_sem_canal.FCStd](Guedala_Park_R48_Depurador_sem_canal.FCStd)** parte da [R46](../Fichas_no_CAD_R46_2026-10-24/README.md), preservada. (R47 já nomeia o estudo Southco do banco; por isso esta revisão é R48.)
 
+**Continuação técnica25/10, sem alterar a R51:** [carga e interface de montagemP09](../Aereos_suspensao_P09_P11_P12_P17_2026-10-25/README.md). ManualREV.0025 informa6,00 kg para60 cm e fixação à parede+gabinete. Entre o gabaritoPeca139 e a base há42 mm nominais; abas/adaptação e transferência de esforços ainda não estão demonstradas. Retorno de ar20 mm e ausência do canal permanecem; posições preservadas.
+
 ## O que mudou
 
 Elias observou que o Suggar DE61IX em modo depurador não tem duto: um cano subindo pelo aéreo seria de coifa. Removida a **Reserva canal técnico · sem armazenamento** (`Peca321`, 196 × 178 × 556 mm, laranja) do aéreo D (`Modulo008`, P09). O registro de 03/10 já a tratava como reserva ilustrativa, não aprovada; o manual DE61IX REV.0025 pede só **abertura de retorno de 20 mm na largura do armário**, que continua obrigatória junto com filtros e acesso.

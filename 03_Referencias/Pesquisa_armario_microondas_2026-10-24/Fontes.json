@@ -1,0 +1,29 @@
+{
+  "consulta": "2026-10-24",
+  "fontes_pdf_locais": [
+    {
+      "arquivo": "Manual_Nesher_Rainha_70cm.pdf",
+      "bytes": 4038684,
+      "sha256": "9aa1495ab2024e9832f96f00de97128ed52a77405180cc9abe9e4b6003df6f3f"
+    },
+    {
+      "arquivo": "Manual_TokStok_Toast_60.pdf",
+      "bytes": 760713,
+      "sha256": "4025577bc9ba39734ca64c2969102ecd7dff7fedeeed3220dc16858b614b6d86"
+    }
+  ],
+  "paginas_inspecionadas": {
+    "Manual_Nesher_Rainha_70cm.pdf": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Manual_TokStok_Toast_60.pdf": [
+      2,
+      3,
+      5
+    ]
+  },
+  "limite": "Carga especifica doRainha nao declarada no manual; FAQ15kg e orientacao geral. Capacidade nao transferida paraP11"
+}

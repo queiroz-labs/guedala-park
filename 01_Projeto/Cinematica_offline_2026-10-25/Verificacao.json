@@ -1,0 +1,28 @@
+{
+  "native_reference_poses": 522,
+  "max_native_CG_error_mm": 1.8189894035458565e-12,
+  "R12_extra_native_poses": 6,
+  "max_R12_CG_error_mm": 9.094947017729282e-13,
+  "source_closed_leaves": 24,
+  "max_closed_CG_error_mm": 0.0,
+  "visible_leaves": 22,
+  "hidden_historical_leaves": 2,
+  "visible_pose_rotation_checks": 1914,
+  "arithmetic_rejection_checks": 3,
+  "offline_522_pose_seconds": [
+    0.046868800003721844,
+    0.04691330000059679,
+    0.04677770000125747
+  ],
+  "offline_median_seconds": 0.046868800003721844,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "FreeCAD_required_for_recalculation": false,
+  "inputs_sha256": {
+    "Snapshot_R51.json": "f7ec0c5c2640402b0e1a8e5ca5112d763f643671fd1ae3583ebed6ccfc774779",
+    "Referencia_nativa_R12.json": "43e4585f8b4c3e3ef798528879b209bac17eacae658ba0b56ad3195973870e55",
+    "P04_P15_suspensao_2026-10-25\\Geometria_e_portas_R51.json": "aaa708f3fd2f61856929b1ddcd765268b44ca0366f6ebb2dc32e72b7bf1b6b33"
+  },
+  "scope": "Equivalencia do CG/transformacao das folhas neste snapshot, nao resistencia ou colisao comercial. Nao mede tempo de abertura daR51.",
+  "passed": true
+}

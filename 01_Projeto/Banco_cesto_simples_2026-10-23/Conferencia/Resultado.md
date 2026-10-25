@@ -1,5 +1,7 @@
 # Ferragens simples — resultado da conferência nominal
 
+**Continuação25/10:** [P14:reações dos pivôs, fixações e energia](../../P14_reacoes_e_operacao_2026-10-25/README.md). O torque/braço abaixo foi reproduzido;270 cenários acrescentam repartição lateral, esforços reversos nos suportes e excentricidades. O conjunto permanece condicionado a terminais/trava/pivôs reais. [P20:assento fechado](../../P20_assento_fechado_2026-10-25/README.md) trata outro caminho de cargas, sem atribuir carga de pessoas aos articuladores.
+
 Conversa de 23/10/2026. Apartamento não entregue; estudo independente do levantamento final. Preservados duas tampas presas, duas almofadas, frente do cesto, saco, gabaritos de objetos e prateleiras.
 
 **Resultado:** há espaço promissor para articuladores mecânicos simples nos dois móveis. As barras idealizadas da família Bigfer passaram em posições determinadas, após rejeitar duas montagens no banco. A dobradiça piano cabe em comprimento, e um parafuso de articulação comercial cabe no espaço lateral do cesto. **Nenhum conjunto completo está liberado para compra/fabricação:** terminais, engate da trava, suportes e capacidade na aplicação ainda precisam ser confirmados.

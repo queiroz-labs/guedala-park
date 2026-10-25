@@ -9,22 +9,21 @@ function uiIcon(name){
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]||paths.home}</svg>`;
 }
 const STATE_OPTIONS=[
-  {id:'benchState',key:'bench',rooms:['sala'],icon:'kitchen',title:'Estudo lateral do banco',hint:'Estudo anterior, ainda visível no desenho. Veja a solução atual na ficha do banco.',choices:[['closed','Guardada','Bandeja recolhida'],['open','Retirar pela ponta','Curso e trava a conferir']]},
   {id:'sofaState',key:'sofa',rooms:['sala'],icon:'sofa',title:'Sofá da sala',hint:'Do bate-papo ao filme no sofá.',choices:[['closed','Fechado','110 cm'],['open','Esticado','136 cm'],['storage','Abrir baú','Demonstração']]},
-  {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Uma mesa que cresce para receber.',choices:[['compact','Dia a dia','150 × 75 cm'],['extended','Mesa aberta','180 × 75 cm']]},
-  {id:'diningState',key:'dining',rooms:['sala'],icon:'home',title:'Cadeiras',hint:'Seis lugares com a mesa aberta.',choices:[['stored','Guardadas','3 na lateral'],['use','Em uso','Afastadas da mesa']]},
+  {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Uma mesa que cresce para receber.',choices:[['compact','Dia a dia','110 × 80 cm'],['extended','Mesa aberta','170 × 80 cm']]},
+  {id:'diningState',key:'dining',rooms:['sala'],icon:'home',title:'Cadeiras',hint:'Abra a mesa para afastar as três cadeiras. Uso com pessoas a conferir.',choices:[['stored','Referência','Fechada 2+1; aberta 3 na lateral'],['use','Em uso','Afastadas com a mesa aberta']]},
   {id:'officeState',key:'office',rooms:['escritorio'],icon:'desk',title:'Escritório',hint:'O espaço de trabalho também recebe hóspedes.',choices:[['work','Trabalhar','Sofá fechado'],['guest','Hospedar','Cama aberta']]},
   {id:'consoleState',key:'console',rooms:['sala','escritorio'],icon:'game',title:'Onde jogar?',hint:'Um PS5, duas possibilidades.',choices:[['sala','Na sala','TV principal'],['escritorio','No escritório','TV de 43″']]},
   {id:'dryState',key:'dry',rooms:['lavanderia'],icon:'laundry',title:'Varal',hint:'Simulação. Confira a posição e o mecanismo reais.',choices:[['stored','Recolhido','Sem roupas'],['high','Secando','No alto'],['low','Carregar','Na altura de uso']]}
 ];
 const SCENARIOS=[
-  {id:'daily',icon:'home',title:'Dia a dia',detail:'Tudo pronto para a rotina',values:{sofa:'closed',office:'work',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}},
-  {id:'friends',icon:'kitchen',title:'Receber amigos',detail:'Mesa aberta e cadeiras em uso',values:{sofa:'closed',office:'work',table:'extended',dining:'use',console:'sala',dry:'stored',bench:'closed'}},
-  {id:'guests',icon:'bed',title:'Hospedar',detail:'Escritório com a cama aberta',values:{sofa:'closed',office:'guest',table:'compact',dining:'stored',console:'sala',dry:'stored',bench:'closed'}}
+  {id:'daily',icon:'home',title:'Dia a dia',detail:'Tudo pronto para a rotina',values:{sofa:'closed',office:'work',table:'compact',dining:'stored',console:'sala',dry:'stored'}},
+  {id:'friends',icon:'kitchen',title:'Receber amigos',detail:'Mesa aberta e cadeiras em uso',values:{sofa:'closed',office:'work',table:'extended',dining:'use',console:'sala',dry:'stored'}},
+  {id:'guests',icon:'bed',title:'Hospedar',detail:'Escritório com a cama aberta',values:{sofa:'closed',office:'guest',table:'compact',dining:'stored',console:'sala',dry:'stored'}}
 ];
 const TOUR_STEPS=[
-  ['sala','Sala e jantar.','Experimente esticar o sofá ou abrir a mesa nos botões abaixo do desenho. Toque em um móvel para conhecer os detalhes.'],
-  ['escritorio','Escritório e quarto de hóspedes.','Alterne entre Trabalhar e Hospedar para ver a transformação do sofá-cama.'],
+  ['sala','Sala e jantar.','Toque em um móvel para consultar suas medidas e os cuidados de uso na ficha.'],
+  ['escritorio','Escritório e quarto de hóspedes.','Consulte na ficha o espaço previsto para trabalhar e receber hóspedes.'],
   ['cozinha','Cozinha.','Toque nos armários para descobrir a organização interna, os materiais e os equipamentos.'],
   ['lavanderia','Lavanderia.','Veja os estados ilustrativos do varal. Veja o tanque e o cesto na ficha. Falta conferir o encaixe.'],
   ['quarto','Quarto.','Toque no guarda-roupa para conhecer a organização interna. Use Planta para entender a distribuição.'],
@@ -50,7 +49,8 @@ function syncExperience(){
     const select=$(config.id),card=select.closest('.stategroup');
     const show=config.rooms.includes(state.room);card.hidden=!show;if(show)visible++;
     select.value=state[config.key];
-    card.querySelectorAll('[data-choice]').forEach(b=>{const active=b.dataset.choice===state[config.key];b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
+    if(config.key==='dining')select.querySelector('option[value="use"]').disabled=state.table==='compact';
+    card.querySelectorAll('[data-choice]').forEach(b=>{const active=b.dataset.choice===state[config.key];b.disabled=config.key==='dining'&&state.table==='compact'&&b.dataset.choice==='use';b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
   });
   $('noRoomChanges').hidden=overview||visible>0;
   $('experienceIntro').hidden=!overview&&visible===0;

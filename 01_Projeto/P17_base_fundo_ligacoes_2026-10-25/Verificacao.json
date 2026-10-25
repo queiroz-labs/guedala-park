@@ -1,0 +1,15 @@
+{
+  "convergences": 6,
+  "equilibrium_cases": 11,
+  "max_relative_change_16_20": 0.0019033407343740372,
+  "contacts": 16,
+  "nominal_axes": 58,
+  "source_shapes_interference_scope": 1177,
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "input_hashes": true,
+  "source_unchanged": true,
+  "zip_crc": true,
+  "local_links": true,
+  "physical_tests": 0,
+  "status": "Verificacoes numericas e de integridade aprovadas; hipoteses, produto e capacidade real nao validados"
+}

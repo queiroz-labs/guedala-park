@@ -14,6 +14,7 @@ Gerado por `verificar_consistencia.py`. Não corrige nada; só aponta.
 | OK | Pares FGVTN 500 nas fichas = 7 do orçamento | fichas: 7 |
 | OK | Minifix com quantidade definida nas fichas = 52 da reconciliação | fichas: 52 |
 | OK | Fichas sem Southco (diretriz: piano + trava) |  |
+| OK | Banco mantém limitação de abertura necessária sem inventar componente/quantitativo | Definir produto, geometria e fixação no protótipo; não reutilizar batente histórico. |
 | OK | Planta de pontos inclui Forno |  |
 | OK | Planta de pontos inclui cooktop |  |
 | OK | Planta de pontos inclui Lavadora |  |

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -155 2880 2120">
+<rect x="-65" y="-155" width="100%" height="100%" fill="white"/>
+<text x="0" y="-100" font-family="sans-serif" font-size="32">G01 · Branco TX · faces internas · 15 mm</text>
+<text x="0" y="-45" font-family="sans-serif" font-size="27">Chapa virtual 1 · 2750×1850 · refilo 10/borda · serra 3.2</text>
+<rect x="0" y="0" width="2750" height="1850" fill="#f5f5f2" stroke="#333" stroke-width="3"/>
+<rect x="10" y="10" width="490.0" height="551.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="255.0" y="285.5" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR050 · 490×551</text>
+<rect x="10" y="564.2" width="490.0" height="551.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="255.0" y="839.7" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR062 · 490×551</text>
+<rect x="10" y="1118.4" width="490.0" height="323.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="255.0" y="1279.9" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR002 · 490×323</text>
+<rect x="10" y="1444.6000000000001" width="490.0" height="323.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="255.0" y="1606.1000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR014 · 490×323</text>
+<rect x="503.2" y="10" width="323.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="664.7" y="255.0" transform="rotate(90 664.7 255.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR026 · 323×490</text>
+<rect x="503.2" y="503.2" width="323.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="664.7" y="748.2" transform="rotate(90 664.7 748.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR038 · 323×490</text>
+<rect x="503.2" y="996.4000000000001" width="273.0" height="541.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="639.7" y="1266.9" transform="rotate(90 639.7 1266.9)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR051 · 273×541</text>
+<rect x="829.4000000000001" y="10" width="300.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="979.4000000000001" y="255.0" transform="rotate(90 979.4000000000001 255.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR048 · 300×490</text>
+<rect x="829.4000000000001" y="503.2" width="300.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="979.4000000000001" y="748.2" transform="rotate(90 979.4000000000001 748.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR049 · 300×490</text>
+<rect x="1132.6000000000001" y="10" width="390.0" height="332.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1327.6000000000001" y="176.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR074 · 390×332</text>
+<rect x="1525.8000000000002" y="10" width="390.0" height="332.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1720.8000000000002" y="176.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR086 · 390×332</text>
+<rect x="829.4000000000001" y="996.4000000000001" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="879.4000000000001" y="1241.4" transform="rotate(90 879.4000000000001 1241.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR08 · 100×490</text>
+<rect x="932.6000000000001" y="996.4000000000001" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="982.6000000000001" y="1241.4" transform="rotate(90 982.6000000000001 1241.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR012 · 100×490</text>
+<rect x="1919.0000000000002" y="10" width="490.0" height="100.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2164.0" y="60.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR024 · 490×100</text>
+<rect x="1919.0000000000002" y="113.2" width="490.0" height="100.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2164.0" y="163.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR036 · 490×100</text>
+<rect x="1919.0000000000002" y="216.39999999999998" width="490.0" height="100.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2164.0" y="266.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR001 · 490×100</text>
+<rect x="1132.6000000000001" y="345.2" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1182.6000000000001" y="590.2" transform="rotate(90 1182.6000000000001 590.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR013 · 100×490</text>
+<rect x="1132.6000000000001" y="838.4000000000001" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1182.6000000000001" y="1083.4" transform="rotate(90 1182.6000000000001 1083.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR025 · 100×490</text>
+<rect x="1132.6000000000001" y="1331.6000000000001" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1182.6000000000001" y="1576.6000000000001" transform="rotate(90 1182.6000000000001 1576.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR037 · 100×490</text>
+<rect x="1235.8000000000002" y="345.2" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1285.8000000000002" y="590.2" transform="rotate(90 1285.8000000000002 590.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">MontagemG2R017 · 100×490</text>
+<rect x="1235.8000000000002" y="838.4000000000001" width="100.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1285.8000000000002" y="1083.4" transform="rotate(90 1285.8000000000002 1083.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">MontagemG2R018 · 100×490</text>
+<rect x="1339.0000000000002" y="345.2" width="541.0" height="73.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1609.5000000000002" y="381.7" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">MontagemG2R016 · 541×73</text>
+<rect x="1035.8000000000002" y="996.4000000000001" width="80.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1075.8000000000002" y="1241.4" transform="rotate(90 1075.8000000000002 1241.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR060 · 80×490</text>
+<rect x="1235.8000000000002" y="1331.6000000000001" width="80.0" height="490.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1275.8000000000002" y="1576.6000000000001" transform="rotate(90 1275.8000000000002 1576.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR061 · 80×490</text>
+<rect x="1339.0000000000002" y="421.4" width="390.0" height="80.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1534.0000000000002" y="461.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR072 · 390×80</text>
+<rect x="1732.2000000000003" y="421.4" width="390.0" height="80.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1927.2000000000003" y="461.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR073 · 390×80</text>
+<rect x="2125.4" y="421.4" width="390.0" height="74.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2320.4" y="458.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR084 · 390×74</text>
+<rect x="1339.0000000000002" y="504.59999999999997" width="74.0" height="390.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1376.0000000000002" y="699.5999999999999" transform="rotate(90 1376.0000000000002 699.5999999999999)" text-anchor="middle" font-family="sans-serif" font-size="24.0">GavetaComumR085 · 74×390</text>
+<rect x="1883.2000000000003" y="345.2" width="541.0" height="53.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2153.7000000000003" y="371.7" transform="" text-anchor="middle" font-family="sans-serif" font-size="17.7">GavetaComumR063 · 541×53</text>
+<rect x="1339.0000000000002" y="897.8" width="73.0" height="313.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1375.5000000000002" y="1054.3" transform="rotate(90 1375.5000000000002 1054.3)" text-anchor="middle" font-family="sans-serif" font-size="20.5">GavetaComumR003 · 73×313</text>
+<rect x="1339.0000000000002" y="1214.0" width="73.0" height="313.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1375.5000000000002" y="1370.5" transform="rotate(90 1375.5000000000002 1370.5)" text-anchor="middle" font-family="sans-serif" font-size="20.5">GavetaComumR015 · 73×313</text>
+<rect x="503.2" y="1540.6000000000001" width="313.0" height="73.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="659.7" y="1577.1000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="20.5">GavetaComumR027 · 313×73</text>
+<rect x="503.2" y="1616.8000000000002" width="313.0" height="73.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="659.7" y="1653.3000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="20.5">GavetaComumR039 · 313×73</text>
+<rect x="503.2" y="1693.0000000000002" width="322.0" height="53.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="664.2" y="1719.5000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="17.7">GavetaComumR075 · 322×53</text>
+<rect x="503.2" y="1749.2000000000003" width="322.0" height="47.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="664.2" y="1772.7000000000003" transform="" text-anchor="middle" font-family="sans-serif" font-size="15.7">GavetaComumR087 · 322×47</text>
+<text x="0" y="1915" font-family="sans-serif" font-size="27">Envelopes geométricos; não é corte executivo. Veio/faces/substrato/processo pendentes.</text></svg>

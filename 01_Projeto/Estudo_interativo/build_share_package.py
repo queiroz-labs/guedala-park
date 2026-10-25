@@ -1,63 +1,133 @@
-"""Pacote explícito para encaminhar: CAD canônico e fichas/documentação corrente."""
+"""Immutable local share package; explicit technical allowlist, no legacy aliases."""
 from pathlib import Path
-import zipfile, json, hashlib, shutil
+from html import escape
+from urllib.parse import urlsplit,unquote,quote
+import hashlib,io,json,posixpath,re,zipfile
+from current_release import ROOT,STUDY,load_release,validate_sources,normalized_payload,canonical_source
 from plain_language import plain_html
-
-STUDY=Path(__file__).resolve().parent
-ROOT=STUDY.parent.parent
-DEST=ROOT/'05_Entregas/Compartilhar_R16'
-LEGACY=ROOT/'05_Entregas/Compartilhar_R14'
-CASTERS='01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/'
-R46='01_Projeto/Fichas_no_CAD_R46_2026-10-24/'
-R48='01_Projeto/Depurador_sem_canal_R48_2026-10-24/'
-R49='01_Projeto/Gavetas_escritorio_R49_2026-10-24/'
-CAD=R49+'Guedala_Park_R49_Gavetas_escritorio.FCStd'
-LIGHT='01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/'
-VISUAL='03_Referencias/Iluminacao_CB02_2026-10-24/'
-CURRENT_UPDATES=[R48+'README.md', R49+'README.md', R49+'Verificacao_R49.json', R49+'Diferencas_CAD.json', LIGHT+'Revisao_quarto_CB02.md', LIGHT+'Composicao_CB02.json', VISUAL+'Galeria.md']+[VISUAL+name for name in ['01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
-BATH='01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/'
-BATH_FILES=['Fechamento.html','Escolhas.json','Situacao.json','Iluminacao_e_materiais.json','Luminarias_selecao_L02.html','Luminarias_selecao_L02.json','Verificacao_luminarias_L02.json','Luminarias_selecao_L01.html','Luminarias_selecao_L01.json','Hidraulica_cenarios.json','Verificacao_unioes_P19.json','P19_Unioes_nominais.csv','Consultas_tecnicas.txt','Espelheiro_P19_Unioes_NOMINAIS.FCStd']
-COLORS='01_Projeto/Cores_FreeCAD_R16_2026-10-23/README.md'
-COLOR_REPORTS=[str(Path(COLORS).parent/name).replace('\\','/') for name in ['Plano_de_cores.json','Verificacao_cores.json','Verificacao_geometria.json']]
 FBASE='05_Entregas/Fichas_fabricacao_R13/'
 PBASE='05_Entregas/Planta_cotada_R13/'
+BATH='01_Projeto/Banheiro/Fechamento_pre_entrega_2026-10-24/'
+LIGHT='01_Projeto/Iluminacao/Fechamento_custo_beneficio_2026-10-24/'
+VISUAL='03_Referencias/Iluminacao_CB02_2026-10-24/'
+COLORS='01_Projeto/Cores_FreeCAD_R16_2026-10-23/'
+CASTERS='01_Projeto/Cozinha/Rodizios_gaveta_2026-10-24/'
+SITE='01_Projeto/Estudo_interativo/Guedala_Park_Interativo.html'
 
-def build():
-    DEST.mkdir(parents=True,exist_ok=True)
-    manifest=json.loads((ROOT/FBASE/'manifest.json').read_text(encoding='utf-8'))
-    paths=[CAD,COLORS]+COLOR_REPORTS+[CASTERS+name for name in ['Selecao.md','Selecao.json','Verificacao_CAD.json']]+[R46+name for name in ['README.md','Verificacao_R46.json']]+['02_Plantas_e_manuais/Planta_oficial.pdf']+[FBASE+name for name in manifest['files']]+[PBASE+name for name in ['index.html','Planta_cotada.svg','Planta_oficial.png','Cotas.json']]
-    assert len(paths)==len(set(paths))
-    paths += [BATH+name for name in BATH_FILES]+CURRENT_UPDATES
-    assert all((ROOT/p).is_file() for p in paths)
-    sha=hashlib.sha256((ROOT/CAD).read_bytes()).hexdigest()
-    body=f'''<h1>Guedala Park · comece aqui</h1><p>Pacote R16 atualizado · FreeCAD R49 · cores R16 · fichas R14 · 24/10/2026.</p>
-<ol><li>Extraia o ZIP inteiro para uma pasta.</li><li>No FreeCAD, escolha <strong>Arquivo → Abrir</strong> e selecione <strong>Guedala_Park_R49_Gavetas_escritorio.FCStd</strong> na pasta <code>{R49}</code>.</li><li>Para consultar medidas, ferragens e furação, abra as fichas abaixo no navegador.</li></ol>
-<nav><a href="{CAD}">FreeCAD R49 · modelo atual</a><a href="{FBASE}index.html">20 fichas dos móveis</a><a href="{FBASE}Pendencias.html">Projeto, oficina e apartamento</a><a href="{FBASE}Levantamento.html">Folha de medição no apartamento</a><a href="{PBASE}index.html">Planta cotada</a><a href="{VISUAL}Galeria.md">Imagens das luminárias</a><a href="{LIGHT}Revisao_quarto_CB02.md">Iluminação econômica do quarto</a><a href="{COLORS}">Registro da atualização de cores</a><a href="https://queiroz-labs.github.io/guedala-park/">Site interativo</a><a href="https://github.com/queiroz-labs/guedala-park#readme">Menu no GitHub</a></nav>
-<h2>Qual arquivo é o atual?</h2><p>O arquivo editável é a <strong>R49</strong>: gavetas do escritório com 7 mm livres sob o tampo e trava direita espelhada. Mantém a R48 com depurador sem canal de duto e divisor do aéreo D até o fundo, as cores R16, as fichas R14 e os rodízios P08. <a href="{R49}README.md">O que mudou na R49</a>; <a href="{R49}Verificacao_R49.json">verificação</a>. Use FreeCAD <strong>1.1</strong> ou versão compatível.</p>
-<p>A <strong>R14 é a revisão das fichas</strong>. Na R46, cada móvel traz no FreeCAD as ferragens da ficha (propriedades <em>Ficha R14</em>), cada peça traz sua especificação de material e os 52 Minifix aparecem como marcadores laranja, sem furar as chapas. As gavetas P01/P06 mantêm a geometria Blum como envelope da FGVTN 500 selecionada, e a dobradiça piano do banco não está modelada. <a href="{R46}README.md">O que mudou na R46</a>. Os rodízios P08 são gabaritos nominais; chapa, material, altura e fixação devem ser conferidos na peça real. Não confundir a tabela de furação com programa CNC liberado.</p>
-<h2>Antes de montar</h2><p>Consulte a situação de cada operação. Banco, cesto, ligações ainda sem mapa e interfaces de mecanismos têm pendências técnicas nas fichas. Medidas reais do apartamento estão em uma folha separada. Branco TX continua definido para interiores, com os padrões escolhidos nas faces aparentes.</p>
-<p><a href="{BATH}Fechamento.html">Banheiro: escolhas e fechamento pré-entrega de24/10</a>. O estudo P19 contém as novas uniões nominais da caixa, em arquivo separado; os furos não estão aplicados ao principal. Beige Matt/Louro Freijó Poro e teto3000 K escolhidos. Suspensão, montagem, produtos e levantamento permanecem condicionados.</p>
-<p>Os HTML, SVG e CSV deste pacote abrem localmente. Links de fabricantes e o site interativo precisam de internet. O preenchimento da folha de campo não é salvo automaticamente: imprima ou salve em PDF.</p><footer>Integridade do FreeCAD · SHA256: {sha}</footer>'''
-    html='<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guedala Park · comece aqui</title><style>body{font:16px/1.6 system-ui;color:#263f3b;background:#f7f6f2;max-width:900px;margin:auto;padding:32px}h1,h2{font-family:Georgia}nav{display:grid;gap:10px;margin:25px 0}a{color:#2c5947}nav a{background:white;border:1px solid #dbe0d6;border-radius:8px;padding:12px 16px;text-decoration:none}code{overflow-wrap:anywhere}footer{font-size:11px;border-top:1px solid #ccd7c7;padding-top:18px;overflow-wrap:anywhere}</style>'+plain_html(body)+'</html>'
-    package_info={'revision':'R16','cadRevision':'R49 (R48 + gavetas do escritório corrigidas) 2026-10-24','appearanceRevision':'R16','fabricationRevision':'R14','lightingRevision':'CB02','cadPath':CAD,'cadSHA256':sha,'legacyAliases':['05_Entregas/Compartilhar_R14/Guedala_Park_R14.zip'],'files':['COMECE_AQUI.html','manifest.json']+paths,'scope':'Current FreeCAD R49: 7 mm top clearance and mirrored right locks in office drawers; R48 recirculating hood without duct channel retained. R16 appearance, R14 fabrication data and P08 casters retained. Lighting CB02 and illustrative images included. Legacy R14 ZIP URL serves this same updated R16 package.'}
-    data=json.dumps(package_info,ensure_ascii=False,indent=2)
-    target=DEST/'Guedala_Park_R16.zip'
-    with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
-        def add(name,content):
-            info=zipfile.ZipInfo('Guedala_Park_R16/'+name,date_time=(2026,10,23,12,0,0))
-            info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16
-            archive.writestr(info,content)
-        add('COMECE_AQUI.html',html.encode('utf-8'));add('manifest.json',data.encode('utf-8'))
-        for path in paths:add(path,(ROOT/path).read_bytes())
-    with zipfile.ZipFile(target) as archive:
-        assert archive.testzip() is None
-        assert hashlib.sha256(archive.read('Guedala_Park_R16/'+CAD)).hexdigest()==sha
-    (DEST/'manifest.json').write_text(data,encoding='utf-8')
-    # Keep previously shared URLs working; both addresses deliver the current package.
-    LEGACY.mkdir(parents=True,exist_ok=True)
-    shutil.copyfile(target,LEGACY/'Guedala_Park_R14.zip')
-    shutil.copyfile(DEST/'manifest.json',LEGACY/'manifest.json')
-    assert hashlib.sha256((LEGACY/'Guedala_Park_R14.zip').read_bytes()).digest()==hashlib.sha256(target.read_bytes()).digest()
-    print(f'Pacote R16 atualizado: {len(package_info["files"])} arquivos; {target.stat().st_size/1024**2:.1f} MB; CAD R49, cores R16, fichas R14 e iluminação CB02.')
+def source_paths(release):
+ manifest=json.loads((ROOT/FBASE/'manifest.json').read_text(encoding='utf8'))
+ paths=[release['cadPath'],release['cadReadme'],'01_Projeto/Estudo_interativo/current_release.json',SITE,'01_Projeto/Caderno_de_especificacoes_R01.md','02_Plantas_e_manuais/Planta_oficial.pdf']
+ paths += [str(Path(release['cadReadme']).parent/n).replace('\\','/')for n in release['cadEvidence']]
+ paths += [FBASE+n for n in manifest['files']]+[PBASE+n for n in ['index.html','Planta_cotada.svg','Planta_oficial.png','Cotas.json']]
+ paths += [COLORS+n for n in ['README.md','Plano_de_cores.json','Verificacao_cores.json','Verificacao_geometria.json']]
+ paths += [CASTERS+n for n in ['Selecao.md','Selecao.json','Verificacao_CAD.json']]
+ paths += [BATH+n for n in ['Fechamento.html','Escolhas.json','Situacao.json','Iluminacao_e_materiais.json','Luminarias_selecao_L02.html','Luminarias_selecao_L02.json','Verificacao_luminarias_L02.json','Hidraulica_cenarios.json','Verificacao_unioes_P19.json','P19_Unioes_nominais.csv','Espelheiro_P19_Unioes_NOMINAIS.FCStd']]
+ paths += [LIGHT+n for n in ['Revisao_quarto_CB02.md','Composicao_CB02.json']]+[VISUAL+n for n in ['Galeria.md','01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
+ paths += [p for item in release.get('technicalDocuments',[])for p in [item['path']]+item.get('files',[])]
+ paths=list(dict.fromkeys(paths))
+ for name in paths:
+  p=Path(name)
+  if p.is_absolute()or'..'in p.parts or p.parts[0]not in ['01_Projeto','02_Plantas_e_manuais','03_Referencias','05_Entregas']:raise ValueError('File outside technical allowlist: '+name)
+  if any(x.lower()in name.lower()for x in ['contrato','reembolso','protocolo','guedala-pessoal','blum_g2_pagina_'])or p.suffix.lower()in ['.msg','.eml']:raise ValueError('Private material excluded: '+name)
+  if not(ROOT/name).is_file():raise FileNotFoundError(ROOT/name)
+ return paths
 
-if __name__=='__main__':build()
+def package_payload(release):
+ from build_workshop_docs import markdown,page
+ paths=source_paths(release);raw={p:(ROOT/p).read_bytes()for p in paths};payload={p:normalized_payload(p,b)for p,b in raw.items()};source_hash={p:hashlib.sha256(b).hexdigest()for p,b in raw.items()};canonical_hash={p:hashlib.sha256(canonical_source(p,b)).hexdigest()for p,b in raw.items()};source_path={p:p for p in paths}
+ for p in paths:
+  if p.endswith('.md'):
+   payload[p+'.html']=page(Path(p).stem,markdown(payload[p].decode('utf-8-sig'))).encode('utf8');source_path[p+'.html']=p
+ mapping={p:p+'.html'if p.endswith('.md')else p for p in paths}
+ omissions=[];local_links=[];external_links=[]
+ def html_links(src,content):
+  def link(m):
+   attr,delimiter,url=m.group(1,2,3);parsed=urlsplit(unquote(url))
+   if parsed.scheme in ['data','mailto','tel']or url.startswith('#')or not url:return m[0]
+   if parsed.scheme in ['http','https']:
+    external_links.append(dict(source=src,reference=url));return m[0]
+   resolved=posixpath.normpath(posixpath.join(posixpath.dirname(src),parsed.path))
+   if resolved in mapping:resolved=mapping[resolved]
+   if resolved in payload:
+    local_links.append(dict(source=src,target=resolved));rel=posixpath.relpath(resolved,posixpath.dirname(src));return attr+'='+delimiter+quote(rel,safe='/')+('#'+parsed.fragment if parsed.fragment else '')+delimiter
+   omissions.append(dict(source=src,reference=url,reason='Outside explicit technical package allowlist'))
+   # Preserve the original reference without an offline link to a missing file.
+   return 'data-omitted-reference='+delimiter+escape(url,quote=True)+delimiter
+  # Inline site scripts already carry their own packaged navigation resolver.
+  chunks=re.split(r'(<script\b[^>]*>.*?</script>)',content,flags=re.I|re.S)
+  return ''.join(chunk if chunk.lower().startswith('<script')else re.sub(r'\b(href|src)\s*=\s*([\"\'])(.*?)\2',link,chunk,flags=re.I)for chunk in chunks)
+ for p in list(payload):
+  if p.endswith('.html'):
+   content=payload[p].decode('utf-8-sig')
+   if p==SITE:
+    info=dict(root='../../',contentFiles=list(payload),files=list(payload)+['COMECE_AQUI.html','manifest.json'],fileCount=len(payload)+2,cadPath=release['cadPath'],packageRevision=release['packageRevision'])
+    content=content.replace('<head>','<head><script>globalThis.GUEDALA_PACKAGE='+json.dumps(info,ensure_ascii=False,separators=(',',':'))+';</script>',1)
+   payload[p]=html_links(p,content).encode('utf8')
+ cad=release['cadPath'];readme=mapping[release['cadReadme']]
+ body=f'''<h1>Guedala Park · comece aqui</h1><p>Pacote {release['packageRevision']} · FreeCAD {release['cadRevision']} · fichas {release['fabricationRevision']} · {release['releaseDate']}.</p>
+<p>Extraia o ZIP inteiro e abra este arquivo. As entregas anteriores são preservadas.</p>
+<nav><a href="{cad}">Abrir FreeCAD {release['cadRevision']}</a><a href="{SITE}">Explorar o apartamento offline</a><a href="{release['technicalDocuments'][0]['path']}.html">Avanços e pendências após R52</a><a href="{FBASE}index.html">20 fichas dos móveis</a><a href="{FBASE}Pendencias.html">Pendências de projeto, oficina e apartamento</a><a href="{FBASE}Levantamento.html">Folha para medidas reais</a><a href="{PBASE}index.html">Planta cotada</a><a href="01_Projeto/Caderno_de_especificacoes_R01.md.html">Caderno de especificações</a><a href="{readme}">O que mudou e limites da R52</a><a href="manifest.json">Arquivos e integridade</a></nav>
+<p>{escape(release['notes'])}</p><p>A geometria, as dimensões nominais e os ensaios não liberam corte, carga, ligação ou instalação. Medidas reais do apartamento e verificações de oficina continuam nas fichas. A cafeteira continua sem volume ou encaixe simultâneo demonstrados.</p>
+<p>HTML, imagens, SVG e CSV incluídos abrem localmente. Links de fabricantes e outros endereços externos exigem internet. Referências locais fora desta seleção foram desativadas e estão discriminadas no manifesto; o acervo completo não está neste pacote.</p><footer>SHA256 do CAD: {release['cadSHA256']}</footer>'''
+ payload['COMECE_AQUI.html']=('<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guedala Park · pacote '+release['packageRevision']+'</title><style>body{font:16px/1.6 system-ui;color:#263f3b;background:#f7f6f2;max-width:900px;margin:auto;padding:32px}nav{display:grid;gap:12px}a{color:#2c5947}footer{font-size:11px;overflow-wrap:anywhere}</style>'+plain_html(body)+'</html>').encode('utf8')
+ info=dict(revision=release['packageRevision'],cadRevision=release['cadRevision'],cadPath=cad,cadSHA256=release['cadSHA256'],fabricationRevision=release['fabricationRevision'],appearanceRevision=release['appearanceRevision'],lightingRevision=release['lightingRevision'],publicationStatus=release['publicationStatus'],legacyAliasesModified=False,scope='Explicit technical package only; no personal repository, contracts, emails or protocols. Local HTML navigation is restricted to included entries.',files=['manifest.json']+list(payload),entries=[dict(path=p,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),sourcePath=source_path.get(p),sourceSHA256=source_hash.get(source_path.get(p)),sourceCanonicalSHA256=canonical_hash.get(source_path.get(p)))for p,b in payload.items()],offlineLocalLinks=len(local_links),externalLinks=external_links,omittedLocalReferences=omissions)
+ payload['manifest.json']=(json.dumps(info,ensure_ascii=False,indent=2)+'\n').encode('utf8')
+ return payload,info
+
+def write_immutable(path,content):
+ if path.exists():
+  if path.read_bytes()!=content:raise FileExistsError(str(path)+' already exists with different content; use a new package revision')
+  return False
+ path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content);return True
+
+def build(destination=None):
+ release=validate_sources(load_release());payload,info=package_payload(release);memory=io.BytesIO();dt=tuple(map(int,release['releaseDate'].split('-')))+(12,0,0)
+ with zipfile.ZipFile(memory,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6)as archive:
+  for name,b in payload.items():
+   z=zipfile.ZipInfo(release['archiveRoot']+'/'+name,date_time=dt);z.compress_type=zipfile.ZIP_DEFLATED;z.external_attr=0o644<<16;archive.writestr(z,b)
+ data=memory.getvalue()
+ with zipfile.ZipFile(io.BytesIO(data))as archive:
+  assert archive.testzip()is None
+  assert hashlib.sha256(archive.read(release['archiveRoot']+'/'+release['cadPath'])).hexdigest()==release['cadSHA256']
+ dest=Path(destination).resolve()if destination else ROOT/release['packageDirectory'];dest.mkdir(parents=True,exist_ok=True)
+ target=dest/release['packageFile'];created=write_immutable(target,data);write_immutable(dest/'manifest.json',payload['manifest.json'])
+ readme=f"# Pacote {release['packageRevision']}\n\nExtraia `{release['packageFile']}` inteiro e abra `{release['archiveRoot']}/COMECE_AQUI.html`.\n\nCAD {release['cadRevision']}; fichas {release['fabricationRevision']}; entrega com HTML offline e documentação técnica selecionada.\n\nZIP SHA256: `{hashlib.sha256(data).hexdigest()}`.\n\nCRC de todos os arquivos e SHA do CAD verificados. Manifesto detalha os arquivos incluídos, links externos e referências locais omitidas. Originais R16 e aliases não são alterados.\n"
+ write_immutable(dest/'LEIA-ME.md',readme.encode('utf8'))
+ result=dict(path=str(target),revision=release['packageRevision'],cadRevision=release['cadRevision'],cadSHA256=release['cadSHA256'],sha256=hashlib.sha256(data).hexdigest(),bytes=len(data),files=len(payload),created=created,crcPassed=True,offlineLinks=info['offlineLocalLinks'],omittedLocalReferences=len(info['omittedLocalReferences']))
+ print(json.dumps(result,ensure_ascii=False));return result
+
+def verify_sealed_package(destination=None):
+ release=validate_sources(load_release());dest=Path(destination).resolve()if destination else ROOT/release['packageDirectory'];target=dest/release['packageFile']
+ expected=set(source_paths(release));source_seen=set();prefix=release['archiveRoot']+'/'
+ with zipfile.ZipFile(target)as archive:
+  names=archive.namelist()
+  if len(names)!=len(set(names))or any(not n.startswith(prefix)or'..'in Path(n).parts for n in names):raise ValueError('Invalid archive paths')
+  if archive.testzip()is not None:raise ValueError('ZIP CRC failed')
+  manifest=json.loads(archive.read(prefix+'manifest.json'))
+  for key,value in [('revision',release['packageRevision']),('cadRevision',release['cadRevision']),('cadPath',release['cadPath']),('cadSHA256',release['cadSHA256'])]:
+   if manifest.get(key)!=value:raise ValueError('Sealed release mismatch: '+key)
+  for entry in manifest['entries']:
+   if hashlib.sha256(archive.read(prefix+entry['path'])).hexdigest()!=entry['sha256']:raise ValueError('Entry checksum mismatch: '+entry['path'])
+   source=entry.get('sourcePath')
+   if source:
+    if source not in expected:raise ValueError('Source outside current technical allowlist: '+source)
+    if hashlib.sha256(canonical_source(source)).hexdigest()!=entry['sourceCanonicalSHA256']:raise ValueError('Sealed input changed; prepare a new package revision: '+source)
+    source_seen.add(source)
+  if source_seen!=expected:raise ValueError('Source allowlist changed; prepare a new package revision')
+  if hashlib.sha256(archive.read(prefix+release['cadPath'])).hexdigest()!=release['cadSHA256']:raise ValueError('CAD checksum mismatch')
+ result=dict(revision=release['packageRevision'],cadRevision=release['cadRevision'],cadSHA256=release['cadSHA256'],zipPath=(Path(release['packageDirectory'])/release['packageFile']).as_posix(),sha256=hashlib.sha256(target.read_bytes()).hexdigest(),bytes=target.stat().st_size,files=len(names),canonicalSourcesVerified=len(source_seen),crcPassed=True,recompressed=False)
+ print(json.dumps(result,ensure_ascii=False));return result
+
+def ensure_package(mode='auto'):
+ release=load_release();target=ROOT/release['packageDirectory']/release['packageFile']
+ if mode not in ['auto','verify','build']:raise ValueError('Unknown package mode')
+ if mode=='verify'or(mode=='auto'and target.exists()):result=verify_sealed_package()
+ else:build();result=verify_sealed_package()
+ evidence=ROOT/release['packageDirectory']/'Verificacao_pacote.json';evidence.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+ return result
+
+if __name__=='__main__':
+ import argparse
+ parser=argparse.ArgumentParser();parser.add_argument('--output-dir');parser.add_argument('--verify',action='store_true');a=parser.parse_args()
+ if a.verify:verify_sealed_package(a.output_dir)
+ else:build(a.output_dir)

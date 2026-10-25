@@ -1,0 +1,12 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_objects": 5832,
+  "R51_inputs_identical": true,
+  "reference_poses": 528,
+  "maximum_reference_error_mm": 1.8189894035458565e-12,
+  "visible_leaves": 22,
+  "rotation_poses": 1914,
+  "source_unchanged": true,
+  "passed": true,
+  "scope": "R52 dataset validated; reuse of528 independent R51 native references justified by exact identity of all numerical inputs. Native R52 samples are checked separately."
+}

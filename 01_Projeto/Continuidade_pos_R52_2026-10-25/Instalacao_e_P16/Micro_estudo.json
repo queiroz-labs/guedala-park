@@ -1,0 +1,62 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_unchanged": true,
+  "F104_preserved": true,
+  "adopted": false,
+  "study": {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\01_Projeto\\Continuidade_pos_R52_2026-10-25\\Instalacao_e_P16\\ME23P_folga300_ESTUDO_NAO_ADOTADO.FCStd",
+    "bytes": 52711,
+    "empty_shapes": 0,
+    "sha256": "f1431adb4a5160366759b1f8464c251e166136dc5c7d6ee5aee18dcedb6ddc2e"
+  },
+  "old_boxes": {
+    "Peca350": [
+      1651.0,
+      6530.0,
+      1532.0,
+      2348.0,
+      7000.0,
+      1550.0
+    ],
+    "Peca351": [
+      1774.0,
+      6548.0,
+      1550.0,
+      2235.0,
+      6900.0,
+      1840.0
+    ]
+  },
+  "proposed_boxes": {
+    "Peca350": [
+      1651.0,
+      6530.0,
+      1332.0,
+      2348.0,
+      7000.0,
+      1350.0
+    ],
+    "Peca351": [
+      1774.0,
+      6548.0,
+      1350.0,
+      2235.0,
+      6900.0,
+      1640.0
+    ]
+  },
+  "cabinet_bottom_mm": 1940.0,
+  "current_upper_gap_mm": 100,
+  "proposed_upper_gap_mm": 300,
+  "extra_margin_over_minimum_mm": 0,
+  "source_active_solids_considered": 1131,
+  "bbox_candidate_booleans": 0,
+  "positive_intersections": [],
+  "reopened_objects": 39,
+  "limits": [
+    "Nominal geometry only; no real-apartment dimensions",
+    "No adoption or reversal of F104",
+    "No load/anchor/thermal/ergonomic approval",
+    "Actual shelf/appliance mounting, access and tolerance still needed"
+  ]
+}

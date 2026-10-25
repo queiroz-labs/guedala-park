@@ -1,0 +1,3330 @@
+{
+  "source": "R14",
+  "cad_sha256": "1eda9a56e7346f5e08d5b4a391a57b4407132f14a142efdef1e2e5699c4dfd69",
+  "contacts": [
+    {
+      "id": "P01-R50-001",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca208",
+      "source_text": "Peca206 ↔ Peca208 (X; 18.0×2096.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        2096.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 37728.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-002",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca209",
+      "source_text": "Peca206 ↔ Peca209 (X; 550.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-003",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca211",
+      "source_text": "Peca206 ↔ Peca211 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-004",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca212",
+      "source_text": "Peca206 ↔ Peca212 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-005",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca213",
+      "source_text": "Peca206 ↔ Peca213 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-006",
+      "module": "P01",
+      "a": "Peca206",
+      "b": "Peca245",
+      "source_text": "Peca206 ↔ Peca245 (X; 550.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-007",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca208",
+      "source_text": "Peca207 ↔ Peca208 (X; 18.0×2096.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        2096.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 37728.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-008",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca209",
+      "source_text": "Peca207 ↔ Peca209 (X; 550.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-009",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca226",
+      "source_text": "Peca207 ↔ Peca226 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-010",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca227",
+      "source_text": "Peca207 ↔ Peca227 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-011",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca228",
+      "source_text": "Peca207 ↔ Peca228 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-012",
+      "module": "P01",
+      "a": "Peca207",
+      "b": "Peca246",
+      "source_text": "Peca207 ↔ Peca246 (X; 550.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        550.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-013",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca209",
+      "source_text": "Peca208 ↔ Peca209 (Y; 1964.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        1964.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 35352.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-014",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca210",
+      "source_text": "Peca208 ↔ Peca210 (Y; 18.0×2034.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        2034.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 36611.99999999999,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-015",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca241",
+      "source_text": "Peca208 ↔ Peca241 (Y; 18.0×1002.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        1002.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 18036.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-016",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca242",
+      "source_text": "Peca208 ↔ Peca242 (Y; 18.0×1002.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        1002.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 18036.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-017",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca243",
+      "source_text": "Peca208 ↔ Peca243 (Y; 18.0×1002.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        1002.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 18036.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-018",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca244",
+      "source_text": "Peca208 ↔ Peca244 (Y; 18.0×1002.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        1002.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 18036.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-019",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca245",
+      "source_text": "Peca208 ↔ Peca245 (Y; 705.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        705.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 12690.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-020",
+      "module": "P01",
+      "a": "Peca208",
+      "b": "Peca246",
+      "source_text": "Peca208 ↔ Peca246 (Y; 705.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        705.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 12690.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-021",
+      "module": "P01",
+      "a": "Peca209",
+      "b": "Peca210",
+      "source_text": "Peca209 ↔ Peca210 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-022",
+      "module": "P01",
+      "a": "Peca209",
+      "b": "Peca241",
+      "source_text": "Peca209 ↔ Peca241 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-023",
+      "module": "P01",
+      "a": "Peca209",
+      "b": "Peca242",
+      "source_text": "Peca209 ↔ Peca242 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-024",
+      "module": "P01",
+      "a": "Peca209",
+      "b": "Peca243",
+      "source_text": "Peca209 ↔ Peca243 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-025",
+      "module": "P01",
+      "a": "Peca209",
+      "b": "Peca244",
+      "source_text": "Peca209 ↔ Peca244 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-026",
+      "module": "P01",
+      "a": "Peca211",
+      "b": "Peca241",
+      "source_text": "Peca211 ↔ Peca241 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-027",
+      "module": "P01",
+      "a": "Peca212",
+      "b": "Peca241",
+      "source_text": "Peca212 ↔ Peca241 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-028",
+      "module": "P01",
+      "a": "Peca213",
+      "b": "Peca241",
+      "source_text": "Peca213 ↔ Peca241 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-029",
+      "module": "P01",
+      "a": "Peca226",
+      "b": "Peca244",
+      "source_text": "Peca226 ↔ Peca244 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-030",
+      "module": "P01",
+      "a": "Peca227",
+      "b": "Peca244",
+      "source_text": "Peca227 ↔ Peca244 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-031",
+      "module": "P01",
+      "a": "Peca228",
+      "b": "Peca244",
+      "source_text": "Peca228 ↔ Peca244 (X; 400.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        400.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-032",
+      "module": "P01",
+      "a": "Peca241",
+      "b": "Peca245",
+      "source_text": "Peca241 ↔ Peca245 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P01-R50-033",
+      "module": "P01",
+      "a": "Peca244",
+      "b": "Peca246",
+      "source_text": "Peca244 ↔ Peca246 (Z; 18.0×550.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        550.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9900.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-001",
+      "module": "P03",
+      "a": "Peca259",
+      "b": "Peca261",
+      "source_text": "Peca259 ↔ Peca261 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-002",
+      "module": "P03",
+      "a": "Peca259",
+      "b": "Peca262",
+      "source_text": "Peca259 ↔ Peca262 (X; 632.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        632.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-003",
+      "module": "P03",
+      "a": "Peca259",
+      "b": "Peca263",
+      "source_text": "Peca259 ↔ Peca263 (X; 632.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        632.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-004",
+      "module": "P03",
+      "a": "Peca260",
+      "b": "Peca261",
+      "source_text": "Peca260 ↔ Peca261 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-005",
+      "module": "P03",
+      "a": "Peca260",
+      "b": "Peca262",
+      "source_text": "Peca260 ↔ Peca262 (X; 632.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        632.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P03-R50-006",
+      "module": "P03",
+      "a": "Peca260",
+      "b": "Peca263",
+      "source_text": "Peca260 ↔ Peca263 (X; 632.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        632.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 11376.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-001",
+      "module": "P04",
+      "a": "Peca266",
+      "b": "Peca268",
+      "source_text": "Peca266 ↔ Peca268 (Y; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-002",
+      "module": "P04",
+      "a": "Peca266",
+      "b": "Peca269",
+      "source_text": "Peca266 ↔ Peca269 (Y; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-003",
+      "module": "P04",
+      "a": "Peca266",
+      "b": "Peca270",
+      "source_text": "Peca266 ↔ Peca270 (Y; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-004",
+      "module": "P04",
+      "a": "Peca267",
+      "b": "Peca268",
+      "source_text": "Peca267 ↔ Peca268 (Y; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-005",
+      "module": "P04",
+      "a": "Peca267",
+      "b": "Peca269",
+      "source_text": "Peca267 ↔ Peca269 (Y; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-006",
+      "module": "P04",
+      "a": "Peca267",
+      "b": "Peca270",
+      "source_text": "Peca267 ↔ Peca270 (Y; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-007",
+      "module": "P04",
+      "a": "Peca268",
+      "b": "ApoioComumR003",
+      "source_text": "Peca268 ↔ ApoioComumR003 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-008",
+      "module": "P04",
+      "a": "Peca268",
+      "b": "ApoioComumR004",
+      "source_text": "Peca268 ↔ ApoioComumR004 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-009",
+      "module": "P04",
+      "a": "Peca268",
+      "b": "ApoioOpostoR001",
+      "source_text": "Peca268 ↔ ApoioOpostoR001 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-010",
+      "module": "P04",
+      "a": "Peca268",
+      "b": "ApoioOpostoR002",
+      "source_text": "Peca268 ↔ ApoioOpostoR002 (X; 18.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 4896.000000000001,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-011",
+      "module": "P04",
+      "a": "Peca269",
+      "b": "ApoioComumR003",
+      "source_text": "Peca269 ↔ ApoioComumR003 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-012",
+      "module": "P04",
+      "a": "Peca269",
+      "b": "ApoioComumR004",
+      "source_text": "Peca269 ↔ ApoioComumR004 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-013",
+      "module": "P04",
+      "a": "Peca269",
+      "b": "ApoioOpostoR001",
+      "source_text": "Peca269 ↔ ApoioOpostoR001 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-014",
+      "module": "P04",
+      "a": "Peca269",
+      "b": "ApoioOpostoR002",
+      "source_text": "Peca269 ↔ ApoioOpostoR002 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-015",
+      "module": "P04",
+      "a": "Peca270",
+      "b": "ApoioComumR003",
+      "source_text": "Peca270 ↔ ApoioComumR003 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-016",
+      "module": "P04",
+      "a": "Peca270",
+      "b": "ApoioComumR004",
+      "source_text": "Peca270 ↔ ApoioComumR004 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-017",
+      "module": "P04",
+      "a": "Peca270",
+      "b": "ApoioOpostoR001",
+      "source_text": "Peca270 ↔ ApoioOpostoR001 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-018",
+      "module": "P04",
+      "a": "Peca270",
+      "b": "ApoioOpostoR002",
+      "source_text": "Peca270 ↔ ApoioOpostoR002 (Z; 212.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 3816.0000000000014,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P04-R50-019",
+      "module": "P04",
+      "a": "ApoioComumR004",
+      "b": "ApoioOpostoR001",
+      "source_text": "ApoioComumR004 ↔ ApoioOpostoR001 (Y; 212.0×272.0 mm)",
+      "bbox_overlap_mm": [
+        212.0,
+        0.0,
+        272.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 57664.000000000015,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-001",
+      "module": "P05",
+      "a": "Peca276",
+      "b": "Peca278",
+      "source_text": "Peca276 ↔ Peca278 (X; 18.0×684.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        684.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 12311.999999999998,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-002",
+      "module": "P05",
+      "a": "Peca276",
+      "b": "Peca279",
+      "source_text": "Peca276 ↔ Peca279 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-003",
+      "module": "P05",
+      "a": "Peca276",
+      "b": "Peca280",
+      "source_text": "Peca276 ↔ Peca280 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-004",
+      "module": "P05",
+      "a": "Peca277",
+      "b": "Peca278",
+      "source_text": "Peca277 ↔ Peca278 (X; 18.0×684.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        684.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 12311.999999999998,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-005",
+      "module": "P05",
+      "a": "Peca277",
+      "b": "Peca279",
+      "source_text": "Peca277 ↔ Peca279 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-006",
+      "module": "P05",
+      "a": "Peca277",
+      "b": "Peca280",
+      "source_text": "Peca277 ↔ Peca280 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P05-R50-007",
+      "module": "P05",
+      "a": "Peca278",
+      "b": "Peca280",
+      "source_text": "Peca278 ↔ Peca280 (Y; 614.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        614.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 11052.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P06-R50-001",
+      "module": "P06",
+      "a": "Peca283",
+      "b": "Peca285",
+      "source_text": "Peca283 ↔ Peca285 (X; 18.0×684.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        684.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 12311.999999999998,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P06-R50-002",
+      "module": "P06",
+      "a": "Peca283",
+      "b": "Peca286",
+      "source_text": "Peca283 ↔ Peca286 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P06-R50-003",
+      "module": "P06",
+      "a": "Peca284",
+      "b": "Peca285",
+      "source_text": "Peca284 ↔ Peca285 (X; 18.0×684.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        684.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 12311.999999999998,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P06-R50-004",
+      "module": "P06",
+      "a": "Peca284",
+      "b": "Peca286",
+      "source_text": "Peca284 ↔ Peca286 (X; 572.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        572.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10296.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P07-R50-001",
+      "module": "P07",
+      "a": "Peca305",
+      "b": "Peca307",
+      "source_text": "Peca305 ↔ Peca307 (X; 212.0×30.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        212.0,
+        30.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 6360.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P07-R50-002",
+      "module": "P07",
+      "a": "Peca305",
+      "b": "BasePlanaR31",
+      "source_text": "Peca305 ↔ BasePlanaR31 (X; 535.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        535.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9630.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P07-R50-003",
+      "module": "P07",
+      "a": "Peca306",
+      "b": "Peca307",
+      "source_text": "Peca306 ↔ Peca307 (X; 212.0×30.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        212.0,
+        30.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 6360.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P07-R50-004",
+      "module": "P07",
+      "a": "Peca306",
+      "b": "BasePlanaR31",
+      "source_text": "Peca306 ↔ BasePlanaR31 (X; 535.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        535.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9630.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-001",
+      "module": "P09",
+      "a": "Peca317",
+      "b": "Peca320",
+      "source_text": "Peca317 ↔ Peca320 (Y; 18.0×556.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        556.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 10008.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-002",
+      "module": "P09",
+      "a": "Peca315",
+      "b": "Peca317",
+      "source_text": "Peca315 ↔ Peca317 (X; 18.0×556.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        556.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10008.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-003",
+      "module": "P09",
+      "a": "Peca315",
+      "b": "Peca318",
+      "source_text": "Peca315 ↔ Peca318 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-004",
+      "module": "P09",
+      "a": "Peca315",
+      "b": "Peca319",
+      "source_text": "Peca315 ↔ Peca319 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-005",
+      "module": "P09",
+      "a": "Peca316",
+      "b": "Peca317",
+      "source_text": "Peca316 ↔ Peca317 (X; 18.0×556.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        556.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10008.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-006",
+      "module": "P09",
+      "a": "Peca316",
+      "b": "Peca318",
+      "source_text": "Peca316 ↔ Peca318 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-007",
+      "module": "P09",
+      "a": "Peca316",
+      "b": "Peca319",
+      "source_text": "Peca316 ↔ Peca319 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-008",
+      "module": "P09",
+      "a": "Peca318",
+      "b": "Peca320",
+      "source_text": "Peca318 ↔ Peca320 (Z; 18.0×312.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        312.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P09-R50-009",
+      "module": "P09",
+      "a": "Peca319",
+      "b": "Peca320",
+      "source_text": "Peca319 ↔ Peca320 (Z; 18.0×312.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        312.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P10-R50-001",
+      "module": "P10",
+      "a": "Peca324",
+      "b": "Peca326",
+      "source_text": "Peca324 ↔ Peca326 (X; 18.0×982.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        982.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 17675.999999999996,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P10-R50-002",
+      "module": "P10",
+      "a": "Peca325",
+      "b": "Peca326",
+      "source_text": "Peca325 ↔ Peca326 (X; 18.0×982.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        982.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 17675.999999999996,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P10-R50-003",
+      "module": "P10",
+      "a": "Peca326",
+      "b": "Peca329",
+      "source_text": "Peca326 ↔ Peca329 (Y; 511.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        511.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9198.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P10-R50-004",
+      "module": "P10",
+      "a": "Peca326",
+      "b": "Peca330",
+      "source_text": "Peca326 ↔ Peca330 (Y; 511.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        511.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9198.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P10-R50-005",
+      "module": "P10",
+      "a": "Peca326",
+      "b": "Peca331",
+      "source_text": "Peca326 ↔ Peca331 (Y; 511.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        511.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9198.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P11-R50-001",
+      "module": "P11",
+      "a": "Peca334",
+      "b": "Peca336",
+      "source_text": "Peca334 ↔ Peca336 (X; 18.0×574.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        574.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10332.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P11-R50-002",
+      "module": "P11",
+      "a": "Peca335",
+      "b": "Peca336",
+      "source_text": "Peca335 ↔ Peca336 (X; 18.0×574.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        574.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 10332.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P11-R50-003",
+      "module": "P11",
+      "a": "Peca336",
+      "b": "Peca339",
+      "source_text": "Peca336 ↔ Peca339 (Y; 661.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        661.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 11898.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-001",
+      "module": "P12",
+      "a": "Peca342",
+      "b": "Peca344",
+      "source_text": "Peca342 ↔ Peca344 (X; 18.0×548.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        548.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9864.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-002",
+      "module": "P12",
+      "a": "Peca342",
+      "b": "Peca345",
+      "source_text": "Peca342 ↔ Peca345 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-003",
+      "module": "P12",
+      "a": "Peca342",
+      "b": "Peca346",
+      "source_text": "Peca342 ↔ Peca346 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-004",
+      "module": "P12",
+      "a": "Peca343",
+      "b": "Peca344",
+      "source_text": "Peca343 ↔ Peca344 (X; 18.0×548.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        548.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9864.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-005",
+      "module": "P12",
+      "a": "Peca343",
+      "b": "Peca345",
+      "source_text": "Peca343 ↔ Peca345 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-006",
+      "module": "P12",
+      "a": "Peca343",
+      "b": "Peca346",
+      "source_text": "Peca343 ↔ Peca346 (X; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        312.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-007",
+      "module": "P12",
+      "a": "Peca344",
+      "b": "Peca347",
+      "source_text": "Peca344 ↔ Peca347 (Y; 18.0×548.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        548.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9864.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-008",
+      "module": "P12",
+      "a": "Peca345",
+      "b": "Peca347",
+      "source_text": "Peca345 ↔ Peca347 (Z; 18.0×312.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        312.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P12-R50-009",
+      "module": "P12",
+      "a": "Peca346",
+      "b": "Peca347",
+      "source_text": "Peca346 ↔ Peca347 (Z; 18.0×312.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        312.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P14-R50-001",
+      "module": "P14",
+      "a": "PecaCestoR15",
+      "b": "PecaCestoR001",
+      "source_text": "PecaCestoR15 ↔ PecaCestoR001 (Z; 554.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        554.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 9972.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P15-R50-001",
+      "module": "P15",
+      "a": "Peca359",
+      "b": "Peca361",
+      "source_text": "Peca359 ↔ Peca361 (X; 18.0×544.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        544.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9792.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P15-R50-002",
+      "module": "P15",
+      "a": "Peca360",
+      "b": "Peca361",
+      "source_text": "Peca360 ↔ Peca361 (X; 18.0×544.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        544.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9792.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-001",
+      "module": "P16",
+      "a": "Peca367",
+      "b": "Peca369",
+      "source_text": "Peca367 ↔ Peca369 (X; 18.0×204.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.000000000000057,
+        204.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 3672.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-002",
+      "module": "P16",
+      "a": "Peca367",
+      "b": "Peca370",
+      "source_text": "Peca367 ↔ Peca370 (X; 412.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        412.00000000000006,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7416.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-003",
+      "module": "P16",
+      "a": "Peca367",
+      "b": "Peca371",
+      "source_text": "Peca367 ↔ Peca371 (X; 412.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        412.00000000000006,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7416.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-004",
+      "module": "P16",
+      "a": "Peca368",
+      "b": "Peca369",
+      "source_text": "Peca368 ↔ Peca369 (X; 18.0×204.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.000000000000057,
+        204.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 3672.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-005",
+      "module": "P16",
+      "a": "Peca368",
+      "b": "Peca370",
+      "source_text": "Peca368 ↔ Peca370 (X; 412.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        412.00000000000006,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7416.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P16-R50-006",
+      "module": "P16",
+      "a": "Peca368",
+      "b": "Peca371",
+      "source_text": "Peca368 ↔ Peca371 (X; 412.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        412.00000000000006,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 7415.999999999999,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-001",
+      "module": "P17",
+      "a": "Peca384",
+      "b": "Peca386",
+      "source_text": "Peca384 ↔ Peca386 (Y; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-002",
+      "module": "P17",
+      "a": "Peca384",
+      "b": "Peca387",
+      "source_text": "Peca384 ↔ Peca387 (Y; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        1.1368683772161603e-13,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-003",
+      "module": "P17",
+      "a": "Peca384",
+      "b": "Peca388",
+      "source_text": "Peca384 ↔ Peca388 (Y; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        1.1368683772161603e-13,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-004",
+      "module": "P17",
+      "a": "Peca385",
+      "b": "Peca386",
+      "source_text": "Peca385 ↔ Peca386 (Y; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        18.0,
+        0.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-005",
+      "module": "P17",
+      "a": "Peca385",
+      "b": "Peca387",
+      "source_text": "Peca385 ↔ Peca387 (Y; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-006",
+      "module": "P17",
+      "a": "Peca385",
+      "b": "Peca388",
+      "source_text": "Peca385 ↔ Peca388 (Y; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 5616.000000000018,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-007",
+      "module": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR11",
+      "source_text": "Peca386 ↔ ApoioComumR11 (X; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-008",
+      "module": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR001",
+      "source_text": "Peca386 ↔ ApoioComumR001 (X; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-009",
+      "module": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR002",
+      "source_text": "Peca386 ↔ ApoioComumR002 (X; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-010",
+      "module": "P17",
+      "a": "Peca386",
+      "b": "ApoioOpostoR18",
+      "source_text": "Peca386 ↔ ApoioOpostoR18 (X; 18.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        0.0,
+        18.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 9252.000000000004,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-011",
+      "module": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR11",
+      "source_text": "Peca387 ↔ ApoioComumR11 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-012",
+      "module": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR001",
+      "source_text": "Peca387 ↔ ApoioComumR001 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-013",
+      "module": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR002",
+      "source_text": "Peca387 ↔ ApoioComumR002 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-014",
+      "module": "P17",
+      "a": "Peca387",
+      "b": "ApoioOpostoR18",
+      "source_text": "Peca387 ↔ ApoioOpostoR18 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-015",
+      "module": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR11",
+      "source_text": "Peca388 ↔ ApoioComumR11 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-016",
+      "module": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR001",
+      "source_text": "Peca388 ↔ ApoioComumR001 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-017",
+      "module": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR002",
+      "source_text": "Peca388 ↔ ApoioComumR002 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-018",
+      "module": "P17",
+      "a": "Peca388",
+      "b": "ApoioOpostoR18",
+      "source_text": "Peca388 ↔ ApoioOpostoR18 (Z; 312.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 5616.000000000002,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P17-R50-019",
+      "module": "P17",
+      "a": "ApoioComumR001",
+      "b": "ApoioOpostoR18",
+      "source_text": "ApoioComumR001 ↔ ApoioOpostoR18 (Y; 312.0×514.0 mm)",
+      "bbox_overlap_mm": [
+        312.0,
+        0.0,
+        514.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 160368.00000000006,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-001",
+      "module": "P20",
+      "a": "Peca407",
+      "b": "Peca408",
+      "source_text": "Peca407 ↔ Peca408 (Y; 18.0×382.0 mm)",
+      "bbox_overlap_mm": [
+        17.999999999999943,
+        0.0,
+        382.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 6875.999999999978,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-002",
+      "module": "P20",
+      "a": "Peca407",
+      "b": "PecaBancoR16",
+      "source_text": "Peca407 ↔ PecaBancoR16 (Y; 18.0×400.0 mm)",
+      "bbox_overlap_mm": [
+        18.00000000000034,
+        0.0,
+        400.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-003",
+      "module": "P20",
+      "a": "Peca407",
+      "b": "PecaBancoR001",
+      "source_text": "Peca407 ↔ PecaBancoR001 (Y; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.0000000000001,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-004",
+      "module": "P20",
+      "a": "Peca408",
+      "b": "Peca406AtualR31",
+      "source_text": "Peca408 ↔ Peca406AtualR31 (Y; 18.0×382.0 mm)",
+      "bbox_overlap_mm": [
+        18.000000000000398,
+        0.0,
+        382.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 6876.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-005",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR001",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR001 (X; 362.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        3.410605131648481e-13,
+        362.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 6516.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-006",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR002",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR002 (X; 1384.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        3.410605131648481e-13,
+        1384.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 24912.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-007",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR003",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR003 (X; 18.0×320.0 mm)",
+      "bbox_overlap_mm": [
+        3.410605131648481e-13,
+        18.0,
+        320.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5759.999999999999,
+      "distance_mm": 1.1368683772161603e-13,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-008",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR004",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR004 (X; 18.0×300.0 mm)",
+      "bbox_overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        300.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5400.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-009",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR005",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR005 (X; 18.0×300.0 mm)",
+      "bbox_overlap_mm": [
+        2.2737367544323206e-13,
+        18.0,
+        300.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 5400.0,
+      "distance_mm": 1.1368683772161603e-13,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-010",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "Peca406AtualR31",
+      "source_text": "PecaBancoR16 ↔ Peca406AtualR31 (Y; 18.0×400.0 mm)",
+      "bbox_overlap_mm": [
+        18.00000000000034,
+        0.0,
+        400.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 7200.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-011",
+      "module": "P20",
+      "a": "PecaBancoR16",
+      "b": "PecaBancoR006AtualR31",
+      "source_text": "PecaBancoR16 ↔ PecaBancoR006AtualR31 (X; 18.0×192.0 mm)",
+      "bbox_overlap_mm": [
+        1.1368683772161603e-13,
+        18.0,
+        192.0
+      ],
+      "global_normal_axis": [
+        "X"
+      ],
+      "common_face_area_mm2": 3456.0,
+      "distance_mm": 1.1368683772161603e-13,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-012",
+      "module": "P20",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR003",
+      "source_text": "PecaBancoR002 ↔ PecaBancoR003 (Y; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-013",
+      "module": "P20",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR004",
+      "source_text": "PecaBancoR002 ↔ PecaBancoR004 (Z; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-014",
+      "module": "P20",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR005",
+      "source_text": "PecaBancoR002 ↔ PecaBancoR005 (Z; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-015",
+      "module": "P20",
+      "a": "PecaBancoR002",
+      "b": "Peca406AtualR31",
+      "source_text": "PecaBancoR002 ↔ Peca406AtualR31 (Y; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.00000000000034,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-016",
+      "module": "P20",
+      "a": "PecaBancoR002",
+      "b": "PecaBancoR006AtualR31",
+      "source_text": "PecaBancoR002 ↔ PecaBancoR006AtualR31 (Z; 390.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        390.0,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 7020.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-017",
+      "module": "P20",
+      "a": "PecaBancoR005",
+      "b": "PecaBancoR007AtualR31",
+      "source_text": "PecaBancoR005 ↔ PecaBancoR007AtualR31 (Y; 372.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        372.0,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 6696.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-018",
+      "module": "P20",
+      "a": "Peca406AtualR31",
+      "b": "PecaBancoR007AtualR31",
+      "source_text": "Peca406AtualR31 ↔ PecaBancoR007AtualR31 (Y; 372.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        372.0000000000002,
+        0.0,
+        18.0
+      ],
+      "global_normal_axis": [
+        "Y"
+      ],
+      "common_face_area_mm2": 6696.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    },
+    {
+      "id": "P20-R50-019",
+      "module": "P20",
+      "a": "PecaBancoR007AtualR31",
+      "b": "PecaBancoR006AtualR31",
+      "source_text": "PecaBancoR007AtualR31 ↔ PecaBancoR006AtualR31 (Z; 372.0×18.0 mm)",
+      "bbox_overlap_mm": [
+        372.0000000000001,
+        18.0,
+        0.0
+      ],
+      "global_normal_axis": [
+        "Z"
+      ],
+      "common_face_area_mm2": 6696.0,
+      "distance_mm": 0.0,
+      "interference_mm3": 0.0,
+      "state": "contato de faces",
+      "a_visible": true,
+      "b_visible": true,
+      "status": "Geometria nominal conferida; nao comprova ligacao resistente"
+    }
+  ],
+  "count": 146,
+  "module_count": 20,
+  "additional_interfaces": [
+    {
+      "a": "Peca362",
+      "b": "Peca361",
+      "bbox_a": [
+        3563.0,
+        6670.0,
+        1650.0,
+        4362.0,
+        6982.0,
+        1668.0
+      ],
+      "bbox_b": [
+        3563.0,
+        6982.0,
+        1668.0,
+        4362.0,
+        7000.0,
+        2212.0
+      ],
+      "overlap_mm": [
+        799.0,
+        0.0,
+        0.0
+      ],
+      "distance_mm": 0.0,
+      "method": "BREP distance and global bbox; area audited in contact classification"
+    },
+    {
+      "a": "Peca363",
+      "b": "Peca361",
+      "bbox_a": [
+        3563.0,
+        6670.0,
+        2212.0,
+        4362.0,
+        6982.0,
+        2230.0
+      ],
+      "bbox_b": [
+        3563.0,
+        6982.0,
+        1668.0,
+        4362.0,
+        7000.0,
+        2212.0
+      ],
+      "overlap_mm": [
+        799.0,
+        0.0,
+        0.0
+      ],
+      "distance_mm": 0.0,
+      "method": "BREP distance and global bbox; area audited in contact classification"
+    },
+    {
+      "a": "Peca269",
+      "b": "Peca268",
+      "bbox_a": [
+        7160.0,
+        1108.0,
+        2132.0,
+        7372.0,
+        2872.0000000000005,
+        2150.0
+      ],
+      "bbox_b": [
+        7372.0,
+        1108.0,
+        2150.0,
+        7390.0,
+        2872.0000000000005,
+        2422.0
+      ],
+      "overlap_mm": [
+        0.0,
+        1764.0000000000005,
+        0.0
+      ],
+      "distance_mm": 0.0,
+      "method": "BREP distance and global bbox; area audited in contact classification"
+    },
+    {
+      "a": "Peca270",
+      "b": "Peca268",
+      "bbox_a": [
+        7160.0,
+        1108.0,
+        2422.0,
+        7372.0,
+        2872.0000000000005,
+        2440.0
+      ],
+      "bbox_b": [
+        7372.0,
+        1108.0,
+        2150.0,
+        7390.0,
+        2872.0000000000005,
+        2422.0
+      ],
+      "overlap_mm": [
+        0.0,
+        1764.0000000000005,
+        0.0
+      ],
+      "distance_mm": 0.0,
+      "method": "BREP distance and global bbox; area audited in contact classification"
+    }
+  ]
+}

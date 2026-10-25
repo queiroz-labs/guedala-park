@@ -1,8 +1,10 @@
-> **Consulta vigente — 24/10/2026:** comece pelo [Estado atual](Estado_atual.md) ou pelo [menu do projeto](https://github.com/queiroz-labs/guedala-park#menu-do-projeto), com o **FreeCAD R45** e as **fichas técnicas R14**. Esta página reúne registros anteriores e ainda não foi reconciliada integralmente com a entrega atual. Menções abaixo a “atual” ou “vigente” pertencem à revisão de cada registro. As definições novas das fichas não estão todas aplicadas ao modelo.
+> **Publicação R52/R18:** [modelo FreeCAD R52](Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd), [pacote R18](../05_Entregas/Publicacao/Guedala_Park_R18.zip) e fichas R14. [Estado da publicação e conferência remota](Estado_atual.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
 
-# Revisão vigente R44 — 22/10/2026
+[Avanços e pendências após R52](Continuidade_pos_R52_2026-10-25/README.md) · [P01/P03](Continuidade_pos_R52_2026-10-25/P01_P03/README.md) · [corte e formatos](Continuidade_pos_R52_2026-10-25/Corte_e_formatos/README.md) · [cinemática R52](Continuidade_pos_R52_2026-10-25/Cinematica_R52/README.md).
 
-[FreeCAD R44](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+# Histórico — revisão R44 de22/10/2026
+
+[FreeCAD R44 — arquivo no ZIP](../99_Arquivo/Recuperacao_modelos_FreeCAD.md#fcstd-no-zip) · [Conferência e limites](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 

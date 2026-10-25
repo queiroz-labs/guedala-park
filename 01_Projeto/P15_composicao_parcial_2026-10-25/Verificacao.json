@@ -1,0 +1,16 @@
+{
+  "response_cases": 16,
+  "numerical_main_checks": 5,
+  "partial_case_shear_refinement_degrees": [
+    14,
+    18,
+    22
+  ],
+  "source_hash_crc": true,
+  "input_hashes": true,
+  "links": true,
+  "physical_tests": 0,
+  "source_unchanged": true,
+  "adhesive_selected": null,
+  "status": "Modelo parcial conferido. Nenhum ks/resistencia/durabilidade comercial atribuido. TitebondMelamine excluida por limitacao expressa do fabricante."
+}

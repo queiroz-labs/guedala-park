@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -155 2880 2120">
+<rect x="-65" y="-155" width="100%" height="100%" fill="white"/>
+<text x="0" y="-100" font-family="sans-serif" font-size="32">G08 · face interna Branco TX; face aparente Guararapes Azul Petróleo · 18 mm</text>
+<text x="0" y="-45" font-family="sans-serif" font-size="27">Chapa virtual 1 · 2750×1850 · refilo 10/borda · serra 3.2</text>
+<rect x="0" y="0" width="2750" height="1850" fill="#f5f5f2" stroke="#333" stroke-width="3"/>
+<rect x="10" y="10" width="330.0" height="1018.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="175.0" y="519.0" transform="rotate(90 175.0 519.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca324 · 330×1018</text>
+<rect x="343.2" y="10" width="330.0" height="1018.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="508.2" y="519.0" transform="rotate(90 508.2 519.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca325 · 330×1018</text>
+<rect x="676.4000000000001" y="10" width="270.5" height="1016.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="811.6500000000001" y="518.0" transform="rotate(90 811.6500000000001 518.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR004 · 270.5×1016</text>
+<rect x="950.1000000000001" y="10" width="1016.0" height="270.5" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1458.1000000000001" y="145.25" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR005 · 1016×270.5</text>
+<rect x="10" y="1031.2" width="312.0" height="765.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="166.0" y="1413.7" transform="rotate(90 166.0 1413.7)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca345 · 312×765</text>
+<rect x="950.1000000000001" y="283.7" width="397.5" height="582.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1148.8500000000001" y="574.7" transform="rotate(90 1148.8500000000001 574.7)" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR008 · 397.5×582</text>
+<rect x="950.1000000000001" y="868.9000000000001" width="397.5" height="582.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1148.8500000000001" y="1159.9" transform="rotate(90 1148.8500000000001 1159.9)" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR009 · 397.5×582</text>
+<rect x="1350.8000000000002" y="283.7" width="608.0" height="345.5" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1654.8000000000002" y="456.45" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR006 · 608×345.5</text>
+<rect x="1962.0000000000002" y="283.7" width="608.0" height="345.5" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2266.0" y="456.45" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">FrenteComumR007 · 608×345.5</text>
+<rect x="343.2" y="1031.2" width="312.0" height="661.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="499.2" y="1361.7" transform="rotate(90 499.2 1361.7)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca337 · 312×661</text>
+<rect x="1350.8000000000002" y="632.4000000000001" width="330.0" height="610.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1515.8000000000002" y="937.4000000000001" transform="rotate(90 1515.8000000000002 937.4000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca334 · 330×610</text>
+<rect x="1684.0000000000002" y="632.4000000000001" width="610.0" height="330.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1989.0000000000002" y="797.4000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca335 · 610×330</text>
+<rect x="1350.8000000000002" y="1245.6000000000001" width="330.0" height="592.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1515.8000000000002" y="1541.6000000000001" transform="rotate(90 1515.8000000000002 1541.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca315 · 330×592</text>
+<rect x="1684.0000000000002" y="965.6000000000001" width="330.0" height="592.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1849.0000000000002" y="1261.6000000000001" transform="rotate(90 1849.0000000000002 1261.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca316 · 330×592</text>
+<rect x="2017.2000000000003" y="965.6000000000001" width="584.0" height="330.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2309.2000000000003" y="1130.6000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca342 · 584×330</text>
+<rect x="2017.2000000000003" y="1298.8000000000002" width="584.0" height="330.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2309.2000000000003" y="1463.8000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca343 · 584×330</text>
+<text x="0" y="1915" font-family="sans-serif" font-size="27">Envelopes geométricos; não é corte executivo. Veio/faces/substrato/processo pendentes.</text></svg>

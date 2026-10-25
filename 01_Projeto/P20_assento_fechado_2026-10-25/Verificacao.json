@@ -1,0 +1,14 @@
+{
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "source_zip_crc": true,
+  "contact_lid_faces": 18,
+  "floor_nominal_contacts": 7,
+  "internal_face_interfaces": 42,
+  "numeric_convergence_cases": 5,
+  "max_degree14vs18_error": 0.002949142842824548,
+  "max_force_moment_residual": 1.1641532182693481e-10,
+  "max_support_line_penetration_mm": 0.0014158909637078908,
+  "physical_tests_performed": 0,
+  "passed": true
+}

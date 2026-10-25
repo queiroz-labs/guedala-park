@@ -1,4 +1,20 @@
-# Entregas — o que vale hoje (24/10/2026)
+# Entregas — publicação R52/R18
+
+> **Publicação R52/R18:** [modelo FreeCAD R52](../01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd), [pacote R18](Publicacao/Guedala_Park_R18.zip) e fichas R14. [Estado da publicação e conferência remota](../01_Projeto/Estado_atual.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
+
+| Uso | Abrir | Revisão |
+|---|---|---|
+| Modelo3D FreeCAD | [Modelo completo R52](../01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd) · [conferências](../01_Projeto/Correcao_integral_R52_2026-10-25/README.md) | R52 |
+| Pacote corrente para compartilhar | [Guedala_Park_R18.zip](Publicacao/Guedala_Park_R18.zip) | R18 |
+| Entrega anterior selada | [R17](Compartilhar_R17/Guedala_Park_R17.zip) | Histórico preservado, não regenerado |
+| Fichas, furação e pendências | [20 móveis](Fichas_fabricacao_R13/index.html) · [pendências](Fichas_fabricacao_R13/Pendencias.html) | R14 |
+| Planta cotada | [Planta](Planta_cotada_R13/index.html) | R13 |
+| Especificações | [Caderno](../01_Projeto/Caderno_de_especificacoes_R01.md) | R01 com referência CAD corrente |
+| Avanços e condições técnicas | [Continuidade após R52](../01_Projeto/Continuidade_pos_R52_2026-10-25/README.md) | Estudos separados, sem incorporação automática |
+
+Extraia o ZIP inteiro, abra `COMECE_AQUI.html` pelo menu da pasta extraída e use o caminho R52 indicado nele. O pacote não libera fabricação ou carga; produto, juntas, protótipo e medidas finais continuam condicionados.
+
+## Histórico — entrega R49/R16 de24/10/2026
 
 | Uso | Abrir | Revisão |
 |---|---|---|
@@ -42,3 +58,5 @@ Os nomes preservam assunto, data e revisão. R28 não inclui automaticamente mud
 [Caderno R30 — PDF de 28 páginas](pdf/Guedala_R30_Pacote_para_orcamento.pdf) · [Escopo e arquivos de apoio](../01_Projeto/Orcamento_R30_2026-10-14/README.md).
 
 Projeções dos vinte módulos atualizadas da R30, corte de cocção, ferragens de referência, complementos e ficha de resposta. Sete apoios propostos como alternativa separada. Orçamento preliminar condicionado; sem liberação de fabricação. As entregas R28 abaixo são históricas.
+
+**Pacote localR17 —25/10/2026:** [baixar ZIP com FreeCADR52 e fichas atuais](Compartilhar_R17/Guedala_Park_R17.zip). [Avanços e condições](../01_Projeto/Continuidade_pos_R52_2026-10-25/README.md). Os links publicadosR16 abaixo continuam históricos; não houve publicação remota desta entrega.

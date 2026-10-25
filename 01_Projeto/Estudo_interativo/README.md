@@ -1,6 +1,21 @@
-# Apartamento interativo — R11: consolidação com o FreeCAD R31
+# Apartamento interativo — R52 e pacote R18
 
-**R11 — consolidação em 20/10/2026.** [Atualizações, imagens e conferências](Consolidacao_R11_2026-10-20/README.md). Geometria fixa derivada do FreeCAD R31; fichas e interiores atuais, com a preferência de voltar depois ao baú convencional apenas anotada. As seções R10 e anteriores abaixo preservam o histórico.
+A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R18 em `05_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
+
+Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
+
+```powershell
+python -B 01_Projeto/Estudo_interativo/preparar_pages.py --output-dir "../outputs/Publicacao/Site" --publication-ready --package-mode auto
+```
+
+Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado quando já existe; só constrói se estiver ausente. Textos são normalizados para UTF8/LF, binários preservados, e a conferência de fontes usa hashes canônicos sem recompressão no CI. Mudanças de conteúdo exigem outra revisão de pacote. Publicação efetiva é tarefa do workflow Pages, após commit/push autorizados; o gerador não faz deploy.
+
+`build_workshop_docs.py --sources-only` atualiza somente os dados de consulta. `--regenerate-sources` é uma opção explícita para reconstruir fichas/planta; o fluxo normal usa as fontes correntes já verificadas. Testes ficam nesta pasta e saídas temporárias fora do repositório.
+
+## Registros anteriores
+
+Os textos abaixo preservam etapas antigas e não substituem a configuração corrente ou o estado atual do projeto.
+
 ## Luz e sombras de contato — 17/10/2026
 
 Sala e cozinha receberam comparação **Antes / Depois** na vista 3D, com luz suave e contatos aproximados calculados sobre os móveis atuais. Controles e personalização preservados; configuração visual separada em `src/lighting.js`. [Comparação e conferências](Luz_e_contato_2026-10-17/README.md). HTML e artefato Pages regenerados. Publicação da R10 autorizada por Elias em 18/10/2026.

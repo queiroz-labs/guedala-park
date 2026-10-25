@@ -1,0 +1,28 @@
+{
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "source_unchanged": true,
+  "drawers": 2,
+  "rigid_moving_shapes": 16,
+  "stroke_mm": [
+    0,
+    400
+  ],
+  "translation_global_axis": "+Y",
+  "fixed_shapes": 1155,
+  "broadphase_pairs": 18480,
+  "potential_swept_AABB_contacts": [],
+  "positive_sample_interferences": [],
+  "independent_drawer_swept_AABB_contacts": [],
+  "continuous_separation_proven_by_disjoint_swept_boxes": true,
+  "excluded_static_guide_shapes": [
+    "GavetaComumR080",
+    "GavetaComumR081",
+    "GavetaComumR082",
+    "GavetaComumR083",
+    "GavetaComumR092",
+    "GavetaComumR093",
+    "GavetaComumR094",
+    "GavetaComumR095"
+  ],
+  "scope": "Caixas varridas sao teste continuo conservador. Candidatos positivos precisam analise adicional;21 amostras BREP nao provam ausencia continua. STEP inteiro estatico da guia nao e telescopio real. Sem tolerancias, deformacao, maos ou retirada da gaveta."
+}

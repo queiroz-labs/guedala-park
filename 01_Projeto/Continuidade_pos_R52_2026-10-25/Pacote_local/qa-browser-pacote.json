@@ -1,0 +1,30 @@
+{
+  "network": [],
+  "errors": [],
+  "cases": [
+    {
+      "name": "desktop",
+      "metadata": {
+        "cad": "R52",
+        "sha": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+        "package": "R17",
+        "files": 140
+      },
+      "menuLinks": 9,
+      "currentDownload": "../../01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd",
+      "offlineModelAndP20": true
+    },
+    {
+      "name": "mobile",
+      "metadata": {
+        "cad": "R52",
+        "sha": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+        "package": "R17",
+        "files": 140
+      },
+      "menuLinks": 9,
+      "currentDownload": "../../01_Projeto/Correcao_integral_R52_2026-10-25/Guedala_Park_R52_Corrigido.FCStd",
+      "offlineModelAndP20": true
+    }
+  ]
+}

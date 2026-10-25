@@ -1,0 +1,158 @@
+{
+  "source_unchanged": true,
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "body_equilibrium_cases": 12,
+  "checks": [
+    {
+      "case": "R52_sem_soco_rho800_kg20_front60",
+      "route": "front_min",
+      "max_body_force_residual_N": 3.0127011996228248e-12,
+      "max_body_moment_residual_Nmm": 1.862645149230957e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185334
+    },
+    {
+      "case": "R52_sem_soco_rho800_kg20_front60",
+      "route": "front_max",
+      "max_body_force_residual_N": 4.661160346586257e-12,
+      "max_body_moment_residual_Nmm": 3.0529918149113655e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185334
+    },
+    {
+      "case": "R52_sem_soco_rho800_kg20_front60",
+      "route": "back_max",
+      "max_body_force_residual_N": 4.661160346586257e-12,
+      "max_body_moment_residual_Nmm": 3.0529918149113655e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185334
+    },
+    {
+      "case": "R52_sem_soco_rho800_kg20_front60",
+      "route": "coupled_front_min",
+      "max_body_force_residual_N": 2.8421709430404007e-12,
+      "max_body_moment_residual_Nmm": 1.817841166484868e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185333956
+    },
+    {
+      "case": "soco_sem_traseiro_rho800_kg20_front60",
+      "route": "front_min",
+      "max_body_force_residual_N": 1.9895196601282805e-12,
+      "max_body_moment_residual_Nmm": 1.1816155165433884e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185333973
+    },
+    {
+      "case": "soco_sem_traseiro_rho800_kg20_front60",
+      "route": "front_max",
+      "max_body_force_residual_N": 2.9842794901924208e-12,
+      "max_body_moment_residual_Nmm": 1.8120772438123822e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185333973
+    },
+    {
+      "case": "soco_sem_traseiro_rho800_kg20_front60",
+      "route": "back_max",
+      "max_body_force_residual_N": 2.9842794901924208e-12,
+      "max_body_moment_residual_Nmm": 1.8120772438123822e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.11182185333973
+    },
+    {
+      "case": "soco_sem_traseiro_rho800_kg20_front60",
+      "route": "coupled_front_min",
+      "max_body_force_residual_N": 4.0962788716569776e-12,
+      "max_body_moment_residual_Nmm": 1.8064184814647888e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.1118218533399
+    },
+    {
+      "case": "soco_e_traseiro_rho800_kg20_front60",
+      "route": "front_min",
+      "max_body_force_residual_N": 2.7284841053187847e-12,
+      "max_body_moment_residual_Nmm": 1.6880221664905548e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.2125649971527
+    },
+    {
+      "case": "soco_e_traseiro_rho800_kg20_front60",
+      "route": "front_max",
+      "max_body_force_residual_N": 2.0339285811132868e-12,
+      "max_body_moment_residual_Nmm": 1.4536141179632978e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.21256499715273
+    },
+    {
+      "case": "soco_e_traseiro_rho800_kg20_front60",
+      "route": "back_max",
+      "max_body_force_residual_N": 1.4210854715202004e-12,
+      "max_body_moment_residual_Nmm": 8.96397978067398e-09,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.21256499715273
+    },
+    {
+      "case": "soco_e_traseiro_rho800_kg20_front60",
+      "route": "coupled_front_min",
+      "max_body_force_residual_N": 1.4779288903810084e-12,
+      "max_body_moment_residual_Nmm": 1.2689270079135895e-08,
+      "selfstress_1000_passed": true,
+      "selfstress_max_component_delta": 229.2125649971531
+    }
+  ],
+  "upper_cut_cases": 54,
+  "top_P03_only_own_weight_at_rho800": {
+    "weight_N": 117.27234546047998,
+    "cgY_mm": 3606.0,
+    "rear_support_minY_mm": 3922,
+    "minimum_missing_balance_about_rear_edge_Nm": 37.058061165511674,
+    "meaning": "necessidade de cisalhamento/casal nas ligacoes;nao momento de uma ferragem especifica"
+  },
+  "excluded_lower_P01_wood": {
+    "count": 38,
+    "mass_at_rho800_kg": 129.5568131932203,
+    "names": [
+      "Peca211",
+      "Peca212",
+      "Peca213",
+      "GavetaComumR08",
+      "GavetaComumR001",
+      "GavetaComumR002",
+      "GavetaComumR003",
+      "GavetaComumR004",
+      "GavetaComumR005",
+      "GavetaComumR012",
+      "GavetaComumR013",
+      "GavetaComumR014",
+      "GavetaComumR015",
+      "GavetaComumR016",
+      "GavetaComumR017",
+      "Peca226",
+      "Peca227",
+      "Peca228",
+      "GavetaComumR024",
+      "GavetaComumR025",
+      "GavetaComumR026",
+      "GavetaComumR027",
+      "GavetaComumR028",
+      "GavetaComumR029",
+      "GavetaComumR036",
+      "GavetaComumR037",
+      "GavetaComumR038",
+      "GavetaComumR039",
+      "GavetaComumR040",
+      "GavetaComumR041",
+      "Peca241",
+      "Peca242",
+      "Peca243",
+      "Peca244",
+      "Peca245",
+      "Peca246",
+      "Peca247",
+      "Peca248"
+    ],
+    "meaning": "nao incluidos no caminho local por painel;usar inventario global anterior;nao tratar reacao de piso deste submodelo como total do roupeiro"
+  },
+  "physical_tests": 0,
+  "finite_joint_design_envelope": false
+}

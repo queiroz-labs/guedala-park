@@ -1,0 +1,34 @@
+{
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "changes": [
+    {
+      "object": "Gaveta",
+      "property": "Ferragem",
+      "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+      "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+      "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+    },
+    {
+      "object": "Gaveta001",
+      "property": "Ferragem",
+      "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+      "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+      "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+    },
+    {
+      "object": "Gaveta002",
+      "property": "Ferragem",
+      "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+      "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+      "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+    },
+    {
+      "object": "Gaveta003",
+      "property": "Ferragem",
+      "old_value": "MOVENTO NL500 (760H5000S, extração total): curso físico ~500 mm, adotado R29. Guias estáticas, duas travas. Carga/fixação/tolerâncias pendentes. Alternativa: NL400 com caixa 390.",
+      "proposed_value": "Selecao documental R14: FGVTN 54FGOC12500TSX0,500mm. STEP Blum MOVENTO500 e travas usados como envoltoria de referencia, sem equivalencia de peso/carga/montagem comprovada. CursoNominal500 e parametro de estudo; conferir produto efetivo, fixacoes e tolerancias.",
+      "status": "Proposta textual separada; nao aplicada a R51. Reconciliar selecao e desenho de produto antes de consolidar."
+    }
+  ],
+  "source_unchanged": true
+}

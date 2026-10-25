@@ -1,0 +1,10 @@
+{
+  "source_unchanged": true,
+  "checks": [
+    "21 pecas previstas",
+    "area nominal topo=piso=soma das interfaces",
+    "equilibrio das seis vigas",
+    "SHA256R51 preservado"
+  ],
+  "passed": true
+}

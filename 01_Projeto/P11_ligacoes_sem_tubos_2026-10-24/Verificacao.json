@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "navier_control_relative_error": 9.188255919445609e-07,
+  "beam_control_error_mm": 8.881784197001252e-16,
+  "back_virtual_work_C_error_mm_N": 1.734723475976807e-18,
+  "back_virtual_work_self_error_mm": 5.551115123125783e-17,
+  "independent_spring_solver_error_mm": 1.9984014443252818e-15,
+  "degree18_to22_deflection_difference_mm": 0.0003643812347160491,
+  "equilibrium_cases": 48,
+  "CAD_unchanged": true,
+  "limits": "Validacao do metodo e coordenadas nominais, sem prova fisica, colisaoBREP ou liberacao da carga"
+}
