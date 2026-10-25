@@ -20,7 +20,7 @@ Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, co
 | [09_Referencias](09_Referencias/README.md) | Plantas oficiais, manuais, moodboard, referências visuais |
 | [ferramentas](ferramentas) | Gerador do site, cinemática e verificador de consistência |
 
-Regras para manter a organização: [AGENTS.md](AGENTS.md). Versões antigas estão no histórico do git (tag `antes-reorganizacao`).
+Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um assunto por commit, adicionando arquivos por caminho; atualize o README da área e o estado atual juntos. Antes do commit, execute `python ferramentas/verificar_tudo.py` e o hook; antes do push, valide com `python ferramentas/verificar_tudo.py --ci` em clone limpo criado por `git clone --local`. Versões antigas estão no histórico do git (tag `antes-reorganizacao`).
 
 ## Menu do projeto
 

@@ -82,6 +82,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 ## Como trabalhar nesta pasta
 
 - Regras de organização e leitura econômica: [AGENTS.md](AGENTS.md). Mapa das pastas: [README.md](README.md).
+- Fluxo Git reforçado por Elias (25/10/2026): commits pequenos e por assunto, inclusão por caminho, README da área e estado atual no mesmo commit; verificação e hook antes de commitar, clone limpo com `--ci` antes de push e acompanhamento de cada processo Git até terminar. Limites: README ≤16 KB; demais `.md` ≤60 KB. Regras completas no [AGENTS.md](AGENTS.md#7-git-e-sessões-simultâneas).
 - Leia esta página, depois só o README da área. Dados pontuais: JSON ao lado de cada README. **Não leia inteiro** o Registro de decisões (475 KB): busque por palavra.
 - Portas e movimentos: [cinemática fora do CAD](04_Moveis/Proximas_decisoes/Cinematica/README.md) (`ferramentas/cinematica/consultar.py`); não anime o apartamento inteiro para cada conta.
 - Não rode macros antigas que salvam ou fecham documentos. Não sobrescreva o modelo vigente para consultar.

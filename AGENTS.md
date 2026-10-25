@@ -53,7 +53,12 @@ Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Se
 ## 7. Git e sessões simultâneas
 
 - Outras sessões podem estar editando a pasta ao mesmo tempo. Antes de mover, renomear ou apagar, rode `git status` e não toque em arquivos que você não criou nesta sessão sem confirmar com Elias.
-- Faça `git add` só dos arquivos que você alterou, por caminho. Nunca `git add -A` às cegas.
+- Commite cedo, em unidades pequenas e coerentes: um assunto por commit, com mensagem clara sobre o que mudou e por quê. Não acumule estudos independentes sem commit nem misture estudo de móvel com ajuste de verificador.
+- Faça `git add caminho/arquivo` só dos arquivos que você alterou. Nunca use `git add -A`. Em arquivos compartilhados, selecione apenas os trechos do assunto do commit.
+- No mesmo commit da mudança, atualize o README da área e o `ESTADO_ATUAL.md` e remova os `.md` superados.
+- Antes de cada commit, rode `python ferramentas/verificar_tudo.py` e deixe o hook rodar. Corrija a causa de qualquer bloqueio; `--no-verify` exige autorização de Elias.
+- Antes de cada push, valide o conteúdo commitado em **clone limpo**: `git clone --local <repositorio> <pasta_temporaria>` e, dentro do clone, `python ferramentas/verificar_tudo.py --ci`. Arquivos não commitados podem mascarar erros. O hook de push continua obrigatório.
+- Aguarde cada processo `git` terminar, inclusive se a ferramenta devolver uma sessão em execução; acompanhe-a até a saída final. Não deixe operações em segundo plano nem um `index.lock` abandonado. Se houver trava, confira o processo responsável antes de qualquer remoção.
 - Mudança de estrutura (mover/renomear pastas) só com todas as outras sessões paradas.
 - Ao mover arquivo usado pelo site, fichas ou ZIP, atualize os links e regenere o site no mesmo commit.
 
