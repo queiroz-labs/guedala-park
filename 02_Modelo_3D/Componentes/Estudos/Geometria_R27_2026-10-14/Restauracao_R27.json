@@ -1,0 +1,126 @@
+{
+  "base": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Manutencao_R26_2026-10-14\\Guedala_Park_R26_Manutencao_Simples.FCStd",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Geometria_R27_2026-10-14\\Guedala_Park_R27_Geometria_Oficial.FCStd",
+  "official_source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Montagem_R07_2026-10-14\\Fonte_G2_BlUM.FCStd",
+  "base_sha256_before": "94b8e59708276190908f7e66f5b5cb701b1a7d003c05b03d685c25bee1a7bb5f",
+  "restored": [
+    {
+      "name": "MontagemG2R007",
+      "source": "Part__Feature007",
+      "native_valid_before": false,
+      "native_valid_after": true,
+      "old_local_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "new_local_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        16.999999999999886,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        55.00000000000001,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        41.50000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "max_world_vertex_difference_mm": 9.374856803373542e-13,
+      "max_optimal_world_bbox_difference_mm": 1.000001930151484e-07,
+      "old_reported_volume_mm3": 370644.78010330215,
+      "official_reported_volume_mm3": 370653.06447841844,
+      "reported_volume_difference_mm3": 8.284375116287265,
+      "old_status": "Montagem oficial configurada aplicada como proposta; não libera corte, furação ou compra.",
+      "note": "Local Placement now retains the official rigid transform instead of baking it into spline surfaces; geometry in apartment remains at the same coordinates. Volume integration differs from old invalid representation; no material was deliberately added or removed."
+    },
+    {
+      "name": "MontagemG2R014",
+      "source": "Part__Feature014",
+      "native_valid_before": false,
+      "native_valid_after": true,
+      "old_local_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "new_local_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        600.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        55.00000000000001,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        41.50000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "max_world_vertex_difference_mm": 9.374856803373542e-13,
+      "max_optimal_world_bbox_difference_mm": 1.000001930151484e-07,
+      "old_reported_volume_mm3": 372582.879405118,
+      "official_reported_volume_mm3": 372591.09129452886,
+      "reported_volume_difference_mm3": 8.211889410857111,
+      "old_status": "Montagem oficial configurada aplicada como proposta; não libera corte, furação ou compra.",
+      "note": "Local Placement now retains the official rigid transform instead of baking it into spline surfaces; geometry in apartment remains at the same coordinates. Volume integration differs from old invalid representation; no material was deliberately added or removed."
+    }
+  ],
+  "objects": 5899,
+  "all_other_placements_expressions_parents_visibility_links_preserved": true,
+  "changes": [
+    {
+      "name": "MontagemG2R007",
+      "fields": [
+        "placement"
+      ]
+    },
+    {
+      "name": "MontagemG2R014",
+      "fields": [
+        "placement"
+      ]
+    }
+  ],
+  "sha256": "266aaf550d3942a87885bdaefe7af3e223e929caa6df7a8e59b7b47df1e6d908",
+  "base_sha256_after": "94b8e59708276190908f7e66f5b5cb701b1a7d003c05b03d685c25bee1a7bb5f",
+  "invalid": [],
+  "limits": "Two fixed profile representations only. No new hardware, shifted physical geometry, cutout, shape healing/tolerance modification, capacity, telescope or resolution of previously unknown STEP overlaps."
+}

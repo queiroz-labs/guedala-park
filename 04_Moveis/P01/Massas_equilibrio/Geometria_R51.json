@@ -1,0 +1,2206 @@
+{
+  "cad": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "wood": {
+    "P01": [
+      {
+        "name": "Peca206",
+        "label": "Lateral direita016",
+        "volume_mm3": 21797568.0,
+        "com_global_mm": [
+          7381.0,
+          3656.0,
+          1066.0
+        ],
+        "bbox_global_mm": [
+          7372.0,
+          3372.0,
+          0.0,
+          7390.0,
+          3940.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca207",
+        "label": "Lateral esquerda",
+        "volume_mm3": 21797568.0,
+        "com_global_mm": [
+          5399.0,
+          3656.0,
+          1066.0
+        ],
+        "bbox_global_mm": [
+          5390.0,
+          3372.0,
+          0.0,
+          5408.0,
+          3940.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca208",
+        "label": "Fundo",
+        "volume_mm3": 74097792.0,
+        "com_global_mm": [
+          6390.0,
+          3931.0,
+          1066.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3922.0,
+          18.0,
+          7372.0,
+          3940.0,
+          2114.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca209",
+        "label": "Base · topo 80 mm",
+        "volume_mm3": 19443600.0,
+        "com_global_mm": [
+          6390.0,
+          3647.0,
+          71.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3372.0,
+          62.0,
+          7372.0,
+          3922.0,
+          80.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca210",
+        "label": "Divisória",
+        "volume_mm3": 20314800.0,
+        "com_global_mm": [
+          6390.0,
+          3647.0,
+          1106.0
+        ],
+        "bbox_global_mm": [
+          6381.0,
+          3372.0,
+          80.0,
+          6399.0,
+          3922.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca211",
+        "label": "Sapateira · três níveis",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          7194.5,
+          3572.0,
+          331.0
+        ],
+        "bbox_global_mm": [
+          7017.0,
+          3372.0,
+          322.0,
+          7372.0,
+          3772.0,
+          340.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca212",
+        "label": "Sapateira · três níveis001",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          7194.5,
+          3572.0,
+          591.0
+        ],
+        "bbox_global_mm": [
+          7017.0,
+          3372.0,
+          582.0,
+          7372.0,
+          3772.0,
+          600.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca213",
+        "label": "Sapateira · três níveis002",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          7194.5,
+          3572.0,
+          791.0
+        ],
+        "bbox_global_mm": [
+          7017.0,
+          3372.0,
+          782.0,
+          7372.0,
+          3772.0,
+          800.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "GavetaComumR08",
+        "label": "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          7358.763157894737,
+          3625.0,
+          871.6052631578947
+        ],
+        "bbox_global_mm": [
+          7351.0,
+          3380.0,
+          820.0,
+          7366.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR001",
+        "label": "Lateral comum direita · Gaveta de roupa - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          7030.236842105263,
+          3625.0,
+          871.6052631578947
+        ],
+        "bbox_global_mm": [
+          7023.0,
+          3380.0,
+          820.0,
+          7038.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR002",
+        "label": "Fundo comum · Gaveta de roupa - proposta R08",
+        "volume_mm3": 2373484.513322353,
+        "com_global_mm": [
+          7194.5,
+          3624.942819596305,
+          839.4991661191128
+        ],
+        "bbox_global_mm": [
+          7033.0,
+          3380.0,
+          832.0,
+          7356.0,
+          3870.0,
+          847.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR003",
+        "label": "Traseira comum · Gaveta de roupa - proposta R08",
+        "volume_mm3": 342735.00000000006,
+        "com_global_mm": [
+          7194.5,
+          3862.5,
+          883.5
+        ],
+        "bbox_global_mm": [
+          7038.0,
+          3855.0,
+          847.0,
+          7351.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR004",
+        "label": "Dianteira comum16 · Gaveta de roupa - proposta R08",
+        "volume_mm3": 365075.06199011847,
+        "com_global_mm": [
+          7194.5,
+          3387.9999999999995,
+          883.5153347042609
+        ],
+        "bbox_global_mm": [
+          7038.0,
+          3380.0,
+          847.0,
+          7351.0,
+          3396.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR005",
+        "label": "Frente preservada · Gaveta de roupa - proposta R08",
+        "volume_mm3": 902238.5475688725,
+        "com_global_mm": [
+          7194.5,
+          3370.9997551720285,
+          870.9999510344057
+        ],
+        "bbox_global_mm": [
+          7018.0,
+          3362.0,
+          800.0,
+          7371.0,
+          3380.0,
+          942.0
+        ],
+        "parents": [
+          "Gaveta"
+        ]
+      },
+      {
+        "name": "GavetaComumR012",
+        "label": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          7358.763157894737,
+          3625.0,
+          1021.6052631578947
+        ],
+        "bbox_global_mm": [
+          7351.0,
+          3380.0,
+          970.0,
+          7366.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "GavetaComumR013",
+        "label": "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          7030.236842105263,
+          3625.0,
+          1021.6052631578947
+        ],
+        "bbox_global_mm": [
+          7023.0,
+          3380.0,
+          970.0,
+          7038.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "GavetaComumR014",
+        "label": "Fundo comum · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 2373484.513322353,
+        "com_global_mm": [
+          7194.5,
+          3624.942819596305,
+          989.4991661191128
+        ],
+        "bbox_global_mm": [
+          7033.0,
+          3380.0,
+          982.0,
+          7356.0,
+          3870.0,
+          997.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "GavetaComumR015",
+        "label": "Traseira comum · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 342735.00000000006,
+        "com_global_mm": [
+          7194.5,
+          3862.5,
+          1033.5
+        ],
+        "bbox_global_mm": [
+          7038.0,
+          3855.0,
+          997.0,
+          7351.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "GavetaComumR016",
+        "label": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 365075.06199011847,
+        "com_global_mm": [
+          7194.5,
+          3387.9999999999995,
+          1033.515334704261
+        ],
+        "bbox_global_mm": [
+          7038.0,
+          3380.0,
+          997.0,
+          7351.0,
+          3396.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "GavetaComumR017",
+        "label": "Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08",
+        "volume_mm3": 825990.5475688726,
+        "com_global_mm": [
+          7194.5,
+          3370.9997325717177,
+          1014.9997325717176
+        ],
+        "bbox_global_mm": [
+          7018.0,
+          3362.0,
+          950.0,
+          7371.0,
+          3380.0,
+          1080.0
+        ],
+        "parents": [
+          "Gaveta001"
+        ]
+      },
+      {
+        "name": "Peca226",
+        "label": "Sapateira · três níveis003",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          5585.5,
+          3572.0,
+          331.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3372.0,
+          322.0,
+          5763.0,
+          3772.0,
+          340.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca227",
+        "label": "Sapateira · três níveis004",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          5585.5,
+          3572.0,
+          591.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3372.0,
+          582.0,
+          5763.0,
+          3772.0,
+          600.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca228",
+        "label": "Sapateira · três níveis005",
+        "volume_mm3": 2556000.0,
+        "com_global_mm": [
+          5585.5,
+          3572.0,
+          791.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3372.0,
+          782.0,
+          5763.0,
+          3772.0,
+          800.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "GavetaComumR024",
+        "label": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          5749.763157894737,
+          3625.0,
+          871.6052631578947
+        ],
+        "bbox_global_mm": [
+          5742.0,
+          3380.0,
+          820.0,
+          5757.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR025",
+        "label": "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          5421.236842105263,
+          3625.0,
+          871.6052631578947
+        ],
+        "bbox_global_mm": [
+          5414.0,
+          3380.0,
+          820.0,
+          5429.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR026",
+        "label": "Fundo comum · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 2373484.513322353,
+        "com_global_mm": [
+          5585.5,
+          3624.942819596305,
+          839.4991661191128
+        ],
+        "bbox_global_mm": [
+          5424.0,
+          3380.0,
+          832.0,
+          5747.0,
+          3870.0,
+          847.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR027",
+        "label": "Traseira comum · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 342735.00000000006,
+        "com_global_mm": [
+          5585.5,
+          3862.5,
+          883.5
+        ],
+        "bbox_global_mm": [
+          5429.0,
+          3855.0,
+          847.0,
+          5742.0,
+          3870.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR028",
+        "label": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 365075.06199011847,
+        "com_global_mm": [
+          5585.5,
+          3387.9999999999995,
+          883.5153347042609
+        ],
+        "bbox_global_mm": [
+          5429.0,
+          3380.0,
+          847.0,
+          5742.0,
+          3396.0,
+          920.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR029",
+        "label": "Frente preservada · Gaveta de roupa002 - proposta R08",
+        "volume_mm3": 902238.5475688725,
+        "com_global_mm": [
+          5585.5,
+          3370.9997551720285,
+          870.9999510344057
+        ],
+        "bbox_global_mm": [
+          5409.0,
+          3362.0,
+          800.0,
+          5762.0,
+          3380.0,
+          942.0
+        ],
+        "parents": [
+          "Gaveta002"
+        ]
+      },
+      {
+        "name": "GavetaComumR036",
+        "label": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          5749.763157894737,
+          3625.0,
+          1021.6052631578947
+        ],
+        "bbox_global_mm": [
+          5742.0,
+          3380.0,
+          970.0,
+          5757.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "GavetaComumR037",
+        "label": "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 698249.9999999999,
+        "com_global_mm": [
+          5421.236842105263,
+          3625.0,
+          1021.6052631578947
+        ],
+        "bbox_global_mm": [
+          5414.0,
+          3380.0,
+          970.0,
+          5429.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "GavetaComumR038",
+        "label": "Fundo comum · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 2373484.513322353,
+        "com_global_mm": [
+          5585.5,
+          3624.942819596305,
+          989.4991661191128
+        ],
+        "bbox_global_mm": [
+          5424.0,
+          3380.0,
+          982.0,
+          5747.0,
+          3870.0,
+          997.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "GavetaComumR039",
+        "label": "Traseira comum · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 342735.00000000006,
+        "com_global_mm": [
+          5585.5,
+          3862.5,
+          1033.5
+        ],
+        "bbox_global_mm": [
+          5429.0,
+          3855.0,
+          997.0,
+          5742.0,
+          3870.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "GavetaComumR040",
+        "label": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 365075.06199011847,
+        "com_global_mm": [
+          5585.5,
+          3387.9999999999995,
+          1033.515334704261
+        ],
+        "bbox_global_mm": [
+          5429.0,
+          3380.0,
+          997.0,
+          5742.0,
+          3396.0,
+          1070.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "GavetaComumR041",
+        "label": "Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08",
+        "volume_mm3": 825990.5475688726,
+        "com_global_mm": [
+          5585.5,
+          3370.9997325717177,
+          1014.9997325717176
+        ],
+        "bbox_global_mm": [
+          5409.0,
+          3362.0,
+          950.0,
+          5762.0,
+          3380.0,
+          1080.0
+        ],
+        "parents": [
+          "Gaveta003"
+        ]
+      },
+      {
+        "name": "Peca241",
+        "label": "Divisória001",
+        "volume_mm3": 9919800.0,
+        "com_global_mm": [
+          7008.0,
+          3647.0,
+          581.0
+        ],
+        "bbox_global_mm": [
+          6999.0,
+          3372.0,
+          80.0,
+          7017.0,
+          3922.0,
+          1082.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca242",
+        "label": "Divisória002",
+        "volume_mm3": 9919800.0,
+        "com_global_mm": [
+          6658.0,
+          3647.0,
+          581.0
+        ],
+        "bbox_global_mm": [
+          6649.0,
+          3372.0,
+          80.0,
+          6667.0,
+          3922.0,
+          1082.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca243",
+        "label": "Divisória003",
+        "volume_mm3": 9919800.0,
+        "com_global_mm": [
+          6122.0,
+          3647.0,
+          581.0
+        ],
+        "bbox_global_mm": [
+          6113.0,
+          3372.0,
+          80.0,
+          6131.0,
+          3922.0,
+          1082.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca244",
+        "label": "Divisória004",
+        "volume_mm3": 9919800.0,
+        "com_global_mm": [
+          5772.0,
+          3647.0,
+          581.0
+        ],
+        "bbox_global_mm": [
+          5763.0,
+          3372.0,
+          80.0,
+          5781.0,
+          3922.0,
+          1082.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca245",
+        "label": "Prateleira curta · topo 1100",
+        "volume_mm3": 6979500.0,
+        "com_global_mm": [
+          7019.5,
+          3647.0,
+          1091.0
+        ],
+        "bbox_global_mm": [
+          6667.0,
+          3372.0,
+          1082.0,
+          7372.0,
+          3922.0,
+          1100.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca246",
+        "label": "Prateleira curta · topo 1101",
+        "volume_mm3": 6979500.0,
+        "com_global_mm": [
+          5760.5,
+          3647.0,
+          1091.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3372.0,
+          1082.0,
+          6113.0,
+          3922.0,
+          1100.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "Peca247",
+        "label": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+        "volume_mm3": 35802090.0,
+        "com_global_mm": [
+          6872.5,
+          3305.0,
+          1089.5
+        ],
+        "bbox_global_mm": [
+          6375.0,
+          3296.0,
+          90.0,
+          7370.0,
+          3314.0,
+          2089.0
+        ],
+        "parents": [
+          "PortaCorrer"
+        ]
+      },
+      {
+        "name": "Peca248",
+        "label": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+        "volume_mm3": 35802090.0,
+        "com_global_mm": [
+          5907.5,
+          3343.0,
+          1089.5
+        ],
+        "bbox_global_mm": [
+          5410.0,
+          3334.0,
+          90.0,
+          6405.0,
+          3352.0,
+          2089.0
+        ],
+        "parents": [
+          "PortaCorrer001"
+        ]
+      },
+      {
+        "name": "ReferenciaCorrerR14",
+        "label": "Apoio frontal lateral18 - proposta",
+        "volume_mm3": 3055320.0,
+        "com_global_mm": [
+          7381.0,
+          3331.0,
+          1097.0
+        ],
+        "bbox_global_mm": [
+          7372.0,
+          3290.0,
+          62.0,
+          7390.0,
+          3372.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "ReferenciaCorrerR001",
+        "label": "Apoio frontal lateral18 - proposta001",
+        "volume_mm3": 3055320.0,
+        "com_global_mm": [
+          5399.0,
+          3331.0,
+          1097.0
+        ],
+        "bbox_global_mm": [
+          5390.0,
+          3290.0,
+          62.0,
+          5408.0,
+          3372.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "ReferenciaCorrerR002",
+        "label": "Continuação frontal da base18 - apoio não calculado",
+        "volume_mm3": 2898863.9999999995,
+        "com_global_mm": [
+          6390.0,
+          3331.0,
+          71.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3290.0,
+          62.0,
+          7372.0,
+          3372.0,
+          80.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      },
+      {
+        "name": "ReferenciaCorrerR003",
+        "label": "Travessa superior frontal18 - apoio não calculado",
+        "volume_mm3": 2898863.9999999995,
+        "com_global_mm": [
+          6390.0,
+          3331.0,
+          2123.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3290.0,
+          2114.0,
+          7372.0,
+          3372.0,
+          2132.0
+        ],
+        "parents": [
+          "Modulo"
+        ]
+      }
+    ],
+    "P03": [
+      {
+        "name": "Peca259",
+        "label": "Lateral direita017",
+        "volume_mm3": 3603600.0,
+        "com_global_mm": [
+          6731.0,
+          3615.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          6722.0,
+          3290.0,
+          2132.0,
+          6740.0,
+          3940.0,
+          2440.0
+        ],
+        "parents": [
+          "Modulo002"
+        ]
+      },
+      {
+        "name": "Peca260",
+        "label": "Lateral esquerda001",
+        "volume_mm3": 3603600.0,
+        "com_global_mm": [
+          5399.0,
+          3615.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          5390.0,
+          3290.0,
+          2132.0,
+          5408.0,
+          3940.0,
+          2440.0
+        ],
+        "parents": [
+          "Modulo002"
+        ]
+      },
+      {
+        "name": "Peca261",
+        "label": "Fundo001",
+        "volume_mm3": 6433344.0,
+        "com_global_mm": [
+          6065.0,
+          3931.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3922.0,
+          2150.0,
+          6722.0,
+          3940.0,
+          2422.0
+        ],
+        "parents": [
+          "Modulo002"
+        ]
+      },
+      {
+        "name": "Peca262",
+        "label": "Base",
+        "volume_mm3": 14948063.999999998,
+        "com_global_mm": [
+          6065.0,
+          3606.0,
+          2141.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3290.0,
+          2132.0,
+          6722.0,
+          3922.0,
+          2150.0
+        ],
+        "parents": [
+          "Modulo002"
+        ]
+      },
+      {
+        "name": "Peca263",
+        "label": "Tampo",
+        "volume_mm3": 14948063.999999998,
+        "com_global_mm": [
+          6065.0,
+          3606.0,
+          2431.0
+        ],
+        "bbox_global_mm": [
+          5408.0,
+          3290.0,
+          2422.0,
+          6722.0,
+          3922.0,
+          2440.0
+        ],
+        "parents": [
+          "Modulo002"
+        ]
+      },
+      {
+        "name": "Peca264",
+        "label": "Maleiro — porta direita — deslizar para esquerda — frente proposta",
+        "volume_mm3": 2858220.0,
+        "com_global_mm": [
+          6385.0,
+          3305.0,
+          2278.5
+        ],
+        "bbox_global_mm": [
+          6050.0,
+          3296.0,
+          2160.0,
+          6720.0,
+          3314.0,
+          2397.0
+        ],
+        "parents": [
+          "PortaMaleiroR14"
+        ]
+      },
+      {
+        "name": "Peca265",
+        "label": "Maleiro — porta esquerda — deslizar para direita — frente proposta",
+        "volume_mm3": 2858220.0,
+        "com_global_mm": [
+          5745.0,
+          3343.0,
+          2278.5
+        ],
+        "bbox_global_mm": [
+          5410.0,
+          3334.0,
+          2160.0,
+          6080.0,
+          3352.0,
+          2397.0
+        ],
+        "parents": [
+          "PortaMaleiroR001"
+        ]
+      }
+    ],
+    "P02": [
+      {
+        "name": "PlacaL",
+        "label": "Base em L",
+        "volume_mm3": 9109800.0,
+        "com_global_mm": [
+          7105.0829875518675,
+          3524.792531120332,
+          2141.0
+        ],
+        "bbox_global_mm": [
+          6740.0,
+          2890.0,
+          2132.0,
+          7390.0,
+          3940.0,
+          2150.0
+        ],
+        "parents": [
+          "Modulo001"
+        ]
+      },
+      {
+        "name": "PlacaL001",
+        "label": "Tampo em L",
+        "volume_mm3": 9109800.0,
+        "com_global_mm": [
+          7105.0829875518675,
+          3524.792531120332,
+          2431.0
+        ],
+        "bbox_global_mm": [
+          6740.0,
+          2890.0,
+          2422.0,
+          7390.0,
+          3940.0,
+          2440.0
+        ],
+        "parents": [
+          "Modulo001"
+        ]
+      },
+      {
+        "name": "Peca255",
+        "label": "Fundo do braço principal",
+        "volume_mm3": 3094272.0,
+        "com_global_mm": [
+          7056.0,
+          3931.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          6740.0,
+          3922.0,
+          2150.0,
+          7372.0,
+          3940.0,
+          2422.0
+        ],
+        "parents": [
+          "Modulo001"
+        ]
+      },
+      {
+        "name": "Peca256",
+        "label": "Fundo do retorno",
+        "volume_mm3": 5052672.0,
+        "com_global_mm": [
+          7381.0,
+          3406.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          7372.0,
+          2890.0,
+          2150.0,
+          7390.0,
+          3922.0,
+          2422.0
+        ],
+        "parents": [
+          "Modulo001"
+        ]
+      },
+      {
+        "name": "LateralApoioPrincipal",
+        "label": "Lateral 18 mm de apoio da principal - proposta R03",
+        "volume_mm3": 2996352.0,
+        "com_global_mm": [
+          6749.0,
+          3616.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          6740.0,
+          3310.0,
+          2150.0,
+          6758.0,
+          3922.0,
+          2422.0
+        ],
+        "parents": [
+          "Modulo001"
+        ]
+      },
+      {
+        "name": "FrenteSimplesR04",
+        "label": "Porta A - canecos comuns",
+        "volume_mm3": 1467653.068495791,
+        "com_global_mm": [
+          6880.443035621083,
+          3298.957389569713,
+          2286.0170441721148
+        ],
+        "bbox_global_mm": [
+          6743.0,
+          3290.0,
+          2133.0,
+          7014.0,
+          3308.0,
+          2439.0
+        ],
+        "parents": [
+          "PortaIndependenteR04"
+        ]
+      },
+      {
+        "name": "FrenteSimplesR001",
+        "label": "Porta B - canecos comuns",
+        "volume_mm3": 1467653.0684957912,
+        "com_global_mm": [
+          7148.957389569713,
+          3030.4430356210833,
+          2286.0170441721148
+        ],
+        "bbox_global_mm": [
+          7140.0,
+          2893.0,
+          2133.0,
+          7158.0,
+          3164.0,
+          2439.0
+        ],
+        "parents": [
+          "PortaIndependenteR001"
+        ]
+      },
+      {
+        "name": "ApoioPortaBR04",
+        "label": "Lateral 18 mm de apoio da porta B - proposta",
+        "volume_mm3": 1037952.0,
+        "com_global_mm": [
+          7266.0,
+          2899.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          7160.0,
+          2890.0,
+          2150.0,
+          7372.0,
+          2908.0,
+          2422.0
+        ],
+        "parents": [
+          "CantoSimplesR04"
+        ]
+      },
+      {
+        "name": "FaixaQuinaAR04",
+        "label": "Faixa fixa A 142 mm - proposta",
+        "volume_mm3": 782136.0,
+        "com_global_mm": [
+          7087.0,
+          3299.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          7016.0,
+          3290.0,
+          2133.0,
+          7158.0,
+          3308.0,
+          2439.0
+        ],
+        "parents": [
+          "CantoSimplesR04"
+        ]
+      },
+      {
+        "name": "FaixaQuinaBR04",
+        "label": "Faixa fixa B 124 mm - proposta",
+        "volume_mm3": 682992.0,
+        "com_global_mm": [
+          7149.0,
+          3228.0,
+          2286.0
+        ],
+        "bbox_global_mm": [
+          7140.0,
+          3166.0,
+          2133.0,
+          7158.0,
+          3290.0,
+          2439.0
+        ],
+        "parents": [
+          "CantoSimplesR04"
+        ]
+      }
+    ]
+  },
+  "excluded": {
+    "P01": [
+      {
+        "name": "GavetaComumR006",
+        "label": "Trava T51.7601 · 46166126 · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR007",
+        "label": "Trava T51.7601 · 43107713 · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR018",
+        "label": "Trava T51.7601 · 46166126 · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR019",
+        "label": "Trava T51.7601 · 43107713 · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR030",
+        "label": "Trava T51.7601 · 46166126 · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR031",
+        "label": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR042",
+        "label": "Trava T51.7601 · 46166126 · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR043",
+        "label": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "Varao",
+        "label": "Varão · 973 mm nominal",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "Varao001",
+        "label": "Varão · 973 mm nominal001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "Varao002",
+        "label": "Varão · 332 mm nominal",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "Varao003",
+        "label": "Varão · 332 mm nominal001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR012",
+        "label": "RO62 esquerdo - reserva110x13x55 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR013",
+        "label": "Guia Flex esquerdo - reserva85x28x15 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR014",
+        "label": "Retenção esquerdo - reserva55x13x12 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR14",
+        "label": "Eixo referencial RO62 esquerdo x22 z8.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR001",
+        "label": "Eixo referencial RO62 esquerdo x22 z32.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR002",
+        "label": "Eixo referencial RO62 esquerdo x86 z8.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR003",
+        "label": "Eixo referencial RO62 esquerdo x86 z32.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR015",
+        "label": "RO62 direito - reserva110x13x55 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR016",
+        "label": "Guia Flex direito - reserva85x28x15 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR017",
+        "label": "Retenção direito - reserva55x13x12 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR004",
+        "label": "Eixo referencial RO62 direito x22 z8.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR005",
+        "label": "Eixo referencial RO62 direito x22 z32.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR006",
+        "label": "Eixo referencial RO62 direito x86 z8.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR007",
+        "label": "Eixo referencial RO62 direito x86 z32.5 - sem diâmetro de piloto",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR020",
+        "label": "RO62 esquerdo - reserva110x13x55 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR021",
+        "label": "Guia Flex esquerdo - reserva85x28x15 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR022",
+        "label": "Retenção esquerdo - reserva55x13x12 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR008",
+        "label": "Eixo referencial RO62 esquerdo x22 z8.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR009",
+        "label": "Eixo referencial RO62 esquerdo x22 z32.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR010",
+        "label": "Eixo referencial RO62 esquerdo x86 z8.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR011",
+        "label": "Eixo referencial RO62 esquerdo x86 z32.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR023",
+        "label": "RO62 direito - reserva110x13x55 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR024",
+        "label": "Guia Flex direito - reserva85x28x15 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR025",
+        "label": "Retenção direito - reserva55x13x12 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR012",
+        "label": "Eixo referencial RO62 direito x22 z8.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR013",
+        "label": "Eixo referencial RO62 direito x22 z32.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR014",
+        "label": "Eixo referencial RO62 direito x86 z8.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR015",
+        "label": "Eixo referencial RO62 direito x86 z32.5 - sem diâmetro de piloto001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR008",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR009",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR010",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR011",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR020",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR021",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR022",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR023",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa001 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR032",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR033",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR034",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR035",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa002 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR044",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR045",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR046",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "GavetaComumR047",
+        "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa003 - proposta R08",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR004",
+        "label": "RM-023 largura34 - envoltória altura4 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR005",
+        "label": "RM-025 largura28 - canal altura20 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR006",
+        "label": "RM-025 parede oposta - espessura1 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR007",
+        "label": "RM-025 topo - espessura1 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR008",
+        "label": "RM-023 largura34 - envoltória altura4 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR009",
+        "label": "RM-025 largura28 - canal altura20 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR010",
+        "label": "RM-025 parede oposta - espessura1 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR011",
+        "label": "RM-025 topo - espessura1 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR018",
+        "label": "Freio superior - reserva20x13x8 hipotética",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR019",
+        "label": "Freio superior - reserva20x13x8 hipotética001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR026",
+        "label": "Freio superior - reserva20x13x8 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR027",
+        "label": "Freio superior - reserva20x13x8 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      }
+    ],
+    "P03": [
+      {
+        "name": "ReferenciaCorrerR028",
+        "label": "RM-023 largura34 - envoltória altura4 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR029",
+        "label": "RM-025 largura28 - canal altura20 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR030",
+        "label": "RM-025 parede oposta - espessura1 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR031",
+        "label": "RM-025 topo - espessura1 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR032",
+        "label": "RM-023 largura34 - envoltória altura4 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR033",
+        "label": "RM-025 largura28 - canal altura20 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR034",
+        "label": "RM-025 parede oposta - espessura1 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR035",
+        "label": "RM-025 topo - espessura1 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR036",
+        "label": "RO62 esquerdo - reserva110x13x55 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR037",
+        "label": "Guia Flex esquerdo - reserva85x28x15 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR038",
+        "label": "Retenção esquerdo - reserva55x13x12 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR016",
+        "label": "Eixo referencial RO62 esquerdo x22 z8.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR017",
+        "label": "Eixo referencial RO62 esquerdo x22 z32.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR018",
+        "label": "Eixo referencial RO62 esquerdo x86 z8.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR019",
+        "label": "Eixo referencial RO62 esquerdo x86 z32.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR039",
+        "label": "RO62 direito - reserva110x13x55 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR040",
+        "label": "Guia Flex direito - reserva85x28x15 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR041",
+        "label": "Retenção direito - reserva55x13x12 hipotética002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR020",
+        "label": "Eixo referencial RO62 direito x22 z8.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR021",
+        "label": "Eixo referencial RO62 direito x22 z32.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR022",
+        "label": "Eixo referencial RO62 direito x86 z8.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR023",
+        "label": "Eixo referencial RO62 direito x86 z32.5 - sem diâmetro de piloto002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR042",
+        "label": "Freio superior - reserva20x13x8 hipotética004",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR043",
+        "label": "Freio superior - reserva20x13x8 hipotética005",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR044",
+        "label": "RO62 esquerdo - reserva110x13x55 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR045",
+        "label": "Guia Flex esquerdo - reserva85x28x15 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR046",
+        "label": "Retenção esquerdo - reserva55x13x12 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR024",
+        "label": "Eixo referencial RO62 esquerdo x22 z8.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR025",
+        "label": "Eixo referencial RO62 esquerdo x22 z32.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR026",
+        "label": "Eixo referencial RO62 esquerdo x86 z8.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR027",
+        "label": "Eixo referencial RO62 esquerdo x86 z32.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR047",
+        "label": "RO62 direito - reserva110x13x55 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR048",
+        "label": "Guia Flex direito - reserva85x28x15 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR049",
+        "label": "Retenção direito - reserva55x13x12 hipotética003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR028",
+        "label": "Eixo referencial RO62 direito x22 z8.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR029",
+        "label": "Eixo referencial RO62 direito x22 z32.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR030",
+        "label": "Eixo referencial RO62 direito x86 z8.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "EixoFixacaoR031",
+        "label": "Eixo referencial RO62 direito x86 z32.5 - sem diâmetro de piloto003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR050",
+        "label": "Freio superior - reserva20x13x8 hipotética006",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "ReferenciaCorrerR051",
+        "label": "Freio superior - reserva20x13x8 hipotética007",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      }
+    ],
+    "P02": [
+      {
+        "name": "Peca251",
+        "label": "Suporte geométrico principal",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "Peca252",
+        "label": "Suporte geométrico retorno",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "Peca253",
+        "label": "Suporte geométrico principal001",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "Peca254",
+        "label": "Suporte geométrico retorno001",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "PainelSimplesR04",
+        "label": "Porta A - painel proposto",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FuroSimplesR04",
+        "label": "FuroSimplesR04",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FuroSimplesR001",
+        "label": "FuroSimplesR001",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "UsinagemSimplesR04",
+        "label": "UsinagemSimplesR04",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FerragemSimplesR04",
+        "label": "71B3550 A - corpo 0",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR001",
+        "label": "71B3550 A - corpo 1",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR002",
+        "label": "71B3550 A - corpo 2",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR003",
+        "label": "71B3550 A - corpo 3",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR004",
+        "label": "71B3550 A - corpo 4",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR005",
+        "label": "173H7100 - calco da porta A",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR006",
+        "label": "71B3550 A - corpo 001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR007",
+        "label": "71B3550 A - corpo 002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR008",
+        "label": "71B3550 A - corpo 003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR009",
+        "label": "71B3550 A - corpo 004",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR010",
+        "label": "71B3550 A - corpo 005",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR011",
+        "label": "173H7100 - calco da porta A001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "PainelSimplesR001",
+        "label": "Porta B - painel proposto",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FuroSimplesR002",
+        "label": "FuroSimplesR002",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FuroSimplesR003",
+        "label": "FuroSimplesR003",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "UsinagemSimplesR001",
+        "label": "UsinagemSimplesR001",
+        "reason": "oculto/auxiliar"
+      },
+      {
+        "name": "FerragemSimplesR012",
+        "label": "71B3550 B - corpo 0",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR013",
+        "label": "71B3550 B - corpo 1",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR014",
+        "label": "71B3550 B - corpo 2",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR015",
+        "label": "71B3550 B - corpo 3",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR016",
+        "label": "71B3550 B - corpo 4",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR017",
+        "label": "173H7100 - calco da porta B",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR018",
+        "label": "71B3550 B - corpo 001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR019",
+        "label": "71B3550 B - corpo 002",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR020",
+        "label": "71B3550 B - corpo 003",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR021",
+        "label": "71B3550 B - corpo 004",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR022",
+        "label": "71B3550 B - corpo 005",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      },
+      {
+        "name": "FerragemSimplesR023",
+        "label": "173H7100 - calco da porta B001",
+        "reason": "ferragem, varao, gabarito ou eixo; massa efetiva pendente"
+      }
+    ]
+  },
+  "upper_contacts": [
+    {
+      "lower": "Peca206",
+      "upper": "PlacaL",
+      "upper_module": "P02",
+      "Z_mm": 2132.0,
+      "area_mm2": 10224.0
+    },
+    {
+      "lower": "Peca207",
+      "upper": "Peca260",
+      "upper_module": "P03",
+      "Z_mm": 2132.0,
+      "area_mm2": 10224.0
+    },
+    {
+      "lower": "Peca210",
+      "upper": "Peca262",
+      "upper_module": "P03",
+      "Z_mm": 2132.0,
+      "area_mm2": 9900.0
+    },
+    {
+      "lower": "ReferenciaCorrerR14",
+      "upper": "PlacaL",
+      "upper_module": "P02",
+      "Z_mm": 2132.0,
+      "area_mm2": 1476.0
+    },
+    {
+      "lower": "ReferenciaCorrerR001",
+      "upper": "Peca260",
+      "upper_module": "P03",
+      "Z_mm": 2132.0,
+      "area_mm2": 1476.0
+    },
+    {
+      "lower": "ReferenciaCorrerR003",
+      "upper": "Peca259",
+      "upper_module": "P03",
+      "Z_mm": 2132.0,
+      "area_mm2": 1476.0
+    },
+    {
+      "lower": "ReferenciaCorrerR003",
+      "upper": "Peca262",
+      "upper_module": "P03",
+      "Z_mm": 2132.0,
+      "area_mm2": 107748.0
+    },
+    {
+      "lower": "ReferenciaCorrerR003",
+      "upper": "PlacaL",
+      "upper_module": "P02",
+      "Z_mm": 2132.0,
+      "area_mm2": 43424.0
+    }
+  ],
+  "mirror_reservation": {
+    "name": "Peca275",
+    "label": "Espelho lateral · reserva",
+    "volume_mm3": 4500000.0,
+    "com_global_mm": [
+      5387.5,
+      3615.0,
+      1100.0
+    ],
+    "bbox_global_mm": [
+      5385.0,
+      3365.0,
+      200.0,
+      5390.0,
+      3865.0,
+      2000.0
+    ],
+    "parents": [
+      "Ambiente_quarto"
+    ]
+  },
+  "drawer_groups": {
+    "Gaveta": {
+      "extension_mm": 0.0,
+      "nominal_course_mm": 500.0,
+      "local_Y_expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('LocalY', '72 mm - Extensao')]",
+      "global_displacement_per_extension_mm": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "Gaveta001": {
+      "extension_mm": 0.0,
+      "nominal_course_mm": 500.0,
+      "local_Y_expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('LocalY', '72 mm - Extensao')]",
+      "global_displacement_per_extension_mm": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "Gaveta002": {
+      "extension_mm": 0.0,
+      "nominal_course_mm": 500.0,
+      "local_Y_expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('LocalY', '72 mm - Extensao')]",
+      "global_displacement_per_extension_mm": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "Gaveta003": {
+      "extension_mm": 0.0,
+      "nominal_course_mm": 500.0,
+      "local_Y_expression": "[('.Placement.Base.x', '-LocalX'), ('.Placement.Base.y', 'LocalY'), ('.Placement.Base.z', 'LocalZ'), ('.Placement.Rotation.Angle', 'GiroLocal'), ('LocalY', '72 mm - Extensao')]",
+      "global_displacement_per_extension_mm": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  "scope": "Geometria nominal de madeira visivel, sem densidade real/ferragens. Contato superior nao prova partilha de esforcos entreP02/P03/P01. Espelho e reserva, nao item pesado."
+}

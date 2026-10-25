@@ -1,0 +1,132 @@
+[
+  {
+    "source": "ferramentas/site/Guedala_Park_Interativo.html",
+    "reference": "docs/02_Modelo_3D/Historico/Gavetas_escritorio/README.md.html",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "ferramentas/site/Guedala_Park_Interativo.html",
+    "reference": "docs/09_Referencias/Iluminacao_CB02/Galeria.md.html",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "Consultas_tecnicas.txt",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "../../Avanco_pendencias/Banheiro_solucao/Detalhamento/Detalhamento.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "../../../03_Ambientes/Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "Consultas_tecnicas.txt",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "../../../05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "../Decisoes_consolidadas_2026-09-18.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "reference": "../Decisoes_consolidadas_2026-09-18.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+    "reference": "Luminarias_selecao_L01.html",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../Revisao_sem_tubos_R51_2026-10-25/Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "Alteracoes_R52.json",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "Vista_R52.png",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "Movimentos_R52.json",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "Auditoria_estatica_R52.json",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "Preservacao_originais.json",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../../../outputs/correcao-r52-2026-10-25/documentos.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../../../outputs/correcao-r52-2026-10-25/fabricacao.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../../../outputs/correcao-r52-2026-10-25/site.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../../../outputs/correcao-r52-2026-10-25/validacao_final/",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/README.md.html",
+    "reference": "../Otimizacao_FreeCAD_R50_2026-10-24/README.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "01_Programa_e_decisoes/Caderno_de_especificacoes.md.html",
+    "reference": "Programa_de_necessidades_R01.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "02_Modelo_3D/Historico/Cores/README.md.html",
+    "reference": "Guedala_Park_R45_Cores_R16.FCStd",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+    "reference": "Guedala_Park_R45_Rodizios_P08.FCStd",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+    "reference": "Selecao_CB01.md",
+    "reason": "Outside explicit technical package allowlist"
+  },
+  {
+    "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+    "reference": "../../../09_Referencias/Iluminacao_CB02/LEIA-ME.md",
+    "reason": "Outside explicit technical package allowlist"
+  }
+]

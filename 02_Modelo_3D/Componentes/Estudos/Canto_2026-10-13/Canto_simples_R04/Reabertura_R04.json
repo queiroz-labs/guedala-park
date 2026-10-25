@@ -1,0 +1,57 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Canto_2026-10-13\\Canto_simples_R04\\Guedala_Park_R04_Canto_Simples.FCStd",
+  "reopened": true,
+  "controls_before": [
+    "0.0 deg",
+    "0.0 deg"
+  ],
+  "angle_after_edit": "-45.0 deg",
+  "restored": "-0.0 deg",
+  "invalid": [],
+  "invalid_shapes": [
+    "Ambiente_quarto",
+    "Modulo001",
+    "FolhaAReal",
+    "PrincipalBlumR03",
+    "UniaoBlumR03",
+    "BracoUniaoMovel",
+    "UniaoCorpoR001",
+    "PrincipalBlumR001",
+    "UniaoBlumR001",
+    "BracoUniaoMovel001",
+    "UniaoCorpoR005",
+    "BlumVizinhaR03",
+    "BlumVizinhaR001",
+    "CantoSimplesR04",
+    "DobradicaSimplesR04",
+    "DobradicaSimplesR001",
+    "DobradicaSimplesR002",
+    "DobradicaSimplesR003"
+  ],
+  "objects": 1195,
+  "active_components_checked": 29,
+  "invalid_active_components": [],
+  "assembly_compounds_reported_invalid": [
+    "Modulo001",
+    "FolhaAReal",
+    "PrincipalBlumR03",
+    "UniaoBlumR03",
+    "BracoUniaoMovel",
+    "PrincipalBlumR001",
+    "UniaoBlumR001",
+    "BracoUniaoMovel001",
+    "BlumVizinhaR03",
+    "BlumVizinhaR001",
+    "CantoSimplesR04",
+    "DobradicaSimplesR04",
+    "DobradicaSimplesR001",
+    "DobradicaSimplesR002",
+    "DobradicaSimplesR003"
+  ],
+  "invalid_legacy_components": [
+    "Ambiente_quarto",
+    "UniaoCorpoR001",
+    "UniaoCorpoR005"
+  ],
+  "note": "App::Part contém compostos de peças articuladas sobrepostas, não um sólido individual de fabricação. Duas geometrias antigas de79T8500 aparecem inválidas no histórico oculto; não pertencem à solução R04."
+}

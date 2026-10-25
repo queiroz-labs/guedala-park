@@ -1,0 +1,402 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Implantacao_R24_2026-10-14\\Guedala_Park_R24_Implantacao_Corrigida.FCStd",
+  "parent": "Modulo",
+  "parent_origin_mm": [
+    10,
+    3290,
+    0
+  ],
+  "supports": [
+    {
+      "object": "ReferenciaCorrerR14",
+      "label": "Apoio frontal lateral18 - proposta",
+      "xpath": "/Document/ObjectData/Object[@name=\"ReferenciaCorrerR14\"]/Properties/Property[@name=\"Shape\"]/Part",
+      "shape_file": "ReferenciaCorrerR14.Shape.brp",
+      "placement_xml": {
+        "Px": "0.0000000000000000",
+        "Py": "0.0000000000000000",
+        "Pz": "0.0000000000000000",
+        "Q0": "0.0000000000000000",
+        "Q1": "0.0000000000000000",
+        "Q2": "0.0000000000000000",
+        "Q3": "1.0000000000000000",
+        "A": "0.0000000000000000",
+        "Ox": "0.0000000000000000",
+        "Oy": "0.0000000000000000",
+        "Oz": "1.0000000000000000"
+      },
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          2132.0
+        ],
+        [
+          0.0,
+          0.0,
+          62.0
+        ],
+        [
+          0.0,
+          82.0,
+          2132.0
+        ],
+        [
+          0.0,
+          82.0,
+          62.0
+        ],
+        [
+          18.0,
+          0.0,
+          2132.0
+        ],
+        [
+          18.0,
+          0.0,
+          62.0
+        ],
+        [
+          18.0,
+          82.0,
+          2132.0
+        ],
+        [
+          18.0,
+          82.0,
+          62.0
+        ]
+      ],
+      "local_bbox": [
+        0.0,
+        0.0,
+        62.0,
+        18.0,
+        82.0,
+        2132.0
+      ],
+      "source_world_bbox": [
+        10.0,
+        3290.0,
+        62.0,
+        28.0,
+        3372.0,
+        2132.0
+      ],
+      "mirrored_world_bbox": [
+        7372.0,
+        3290.0,
+        62.0,
+        7390.0,
+        3372.0,
+        2132.0
+      ],
+      "limit": "Somente8 vértices de reserva retangular do BREP salvo; não resistência, ligações ou acabamento real"
+    },
+    {
+      "object": "ReferenciaCorrerR001",
+      "label": "Apoio frontal lateral18 - proposta001",
+      "xpath": "/Document/ObjectData/Object[@name=\"ReferenciaCorrerR001\"]/Properties/Property[@name=\"Shape\"]/Part",
+      "shape_file": "ReferenciaCorrerR001.Shape.brp",
+      "placement_xml": {
+        "Px": "0.0000000000000000",
+        "Py": "0.0000000000000000",
+        "Pz": "0.0000000000000000",
+        "Q0": "0.0000000000000000",
+        "Q1": "0.0000000000000000",
+        "Q2": "0.0000000000000000",
+        "Q3": "1.0000000000000000",
+        "A": "0.0000000000000000",
+        "Ox": "0.0000000000000000",
+        "Oy": "0.0000000000000000",
+        "Oz": "1.0000000000000000"
+      },
+      "vertices": [
+        [
+          1982.0,
+          0.0,
+          2132.0
+        ],
+        [
+          1982.0,
+          0.0,
+          62.0
+        ],
+        [
+          1982.0,
+          82.0,
+          2132.0
+        ],
+        [
+          1982.0,
+          82.0,
+          62.0
+        ],
+        [
+          2000.0,
+          0.0,
+          2132.0
+        ],
+        [
+          2000.0,
+          0.0,
+          62.0
+        ],
+        [
+          2000.0,
+          82.0,
+          2132.0
+        ],
+        [
+          2000.0,
+          82.0,
+          62.0
+        ]
+      ],
+      "local_bbox": [
+        1982.0,
+        0.0,
+        62.0,
+        2000.0,
+        82.0,
+        2132.0
+      ],
+      "source_world_bbox": [
+        1992.0,
+        3290.0,
+        62.0,
+        2010.0,
+        3372.0,
+        2132.0
+      ],
+      "mirrored_world_bbox": [
+        5390.0,
+        3290.0,
+        62.0,
+        5408.0,
+        3372.0,
+        2132.0
+      ],
+      "limit": "Somente8 vértices de reserva retangular do BREP salvo; não resistência, ligações ou acabamento real"
+    },
+    {
+      "object": "ReferenciaCorrerR002",
+      "label": "Continuação frontal da base18 - apoio não calculado",
+      "xpath": "/Document/ObjectData/Object[@name=\"ReferenciaCorrerR002\"]/Properties/Property[@name=\"Shape\"]/Part",
+      "shape_file": "ReferenciaCorrerR002.Shape.brp",
+      "placement_xml": {
+        "Px": "0.0000000000000000",
+        "Py": "0.0000000000000000",
+        "Pz": "0.0000000000000000",
+        "Q0": "0.0000000000000000",
+        "Q1": "0.0000000000000000",
+        "Q2": "0.0000000000000000",
+        "Q3": "1.0000000000000000",
+        "A": "0.0000000000000000",
+        "Ox": "0.0000000000000000",
+        "Oy": "0.0000000000000000",
+        "Oz": "1.0000000000000000"
+      },
+      "vertices": [
+        [
+          18.0,
+          0.0,
+          80.0
+        ],
+        [
+          18.0,
+          0.0,
+          62.0
+        ],
+        [
+          18.0,
+          82.0,
+          80.0
+        ],
+        [
+          18.0,
+          82.0,
+          62.0
+        ],
+        [
+          1982.0,
+          0.0,
+          80.0
+        ],
+        [
+          1982.0,
+          0.0,
+          62.0
+        ],
+        [
+          1982.0,
+          82.0,
+          80.0
+        ],
+        [
+          1982.0,
+          82.0,
+          62.0
+        ]
+      ],
+      "local_bbox": [
+        18.0,
+        0.0,
+        62.0,
+        1982.0,
+        82.0,
+        80.0
+      ],
+      "source_world_bbox": [
+        28.0,
+        3290.0,
+        62.0,
+        1992.0,
+        3372.0,
+        80.0
+      ],
+      "mirrored_world_bbox": [
+        5408.0,
+        3290.0,
+        62.0,
+        7372.0,
+        3372.0,
+        80.0
+      ],
+      "limit": "Somente8 vértices de reserva retangular do BREP salvo; não resistência, ligações ou acabamento real"
+    },
+    {
+      "object": "ReferenciaCorrerR003",
+      "label": "Travessa superior frontal18 - apoio não calculado",
+      "xpath": "/Document/ObjectData/Object[@name=\"ReferenciaCorrerR003\"]/Properties/Property[@name=\"Shape\"]/Part",
+      "shape_file": "ReferenciaCorrerR003.Shape.brp",
+      "placement_xml": {
+        "Px": "0.0000000000000000",
+        "Py": "0.0000000000000000",
+        "Pz": "0.0000000000000000",
+        "Q0": "0.0000000000000000",
+        "Q1": "0.0000000000000000",
+        "Q2": "0.0000000000000000",
+        "Q3": "1.0000000000000000",
+        "A": "0.0000000000000000",
+        "Ox": "0.0000000000000000",
+        "Oy": "0.0000000000000000",
+        "Oz": "1.0000000000000000"
+      },
+      "vertices": [
+        [
+          18.0,
+          0.0,
+          2132.0
+        ],
+        [
+          18.0,
+          0.0,
+          2114.0
+        ],
+        [
+          18.0,
+          82.0,
+          2132.0
+        ],
+        [
+          18.0,
+          82.0,
+          2114.0
+        ],
+        [
+          1982.0,
+          0.0,
+          2132.0
+        ],
+        [
+          1982.0,
+          0.0,
+          2114.0
+        ],
+        [
+          1982.0,
+          82.0,
+          2132.0
+        ],
+        [
+          1982.0,
+          82.0,
+          2114.0
+        ]
+      ],
+      "local_bbox": [
+        18.0,
+        0.0,
+        2114.0,
+        1982.0,
+        82.0,
+        2132.0
+      ],
+      "source_world_bbox": [
+        28.0,
+        3290.0,
+        2114.0,
+        1992.0,
+        3372.0,
+        2132.0
+      ],
+      "mirrored_world_bbox": [
+        5408.0,
+        3290.0,
+        2114.0,
+        7372.0,
+        3372.0,
+        2132.0
+      ],
+      "limit": "Somente8 vértices de reserva retangular do BREP salvo; não resistência, ligações ou acabamento real"
+    }
+  ],
+  "side_Peca207": {
+    "local_bbox_mm": [
+      1982,
+      82,
+      0,
+      2000,
+      650,
+      2132
+    ],
+    "source_world_bbox_mm": [
+      1992,
+      3372,
+      0,
+      2010,
+      3940,
+      2132
+    ],
+    "mirror_bbox_mm": [
+      5390,
+      3372,
+      0,
+      5408,
+      3940,
+      2132
+    ],
+    "center_y_mm": 3656
+  },
+  "mirror_Peca275": {
+    "source_world_bbox_mm": [
+      2010,
+      3350,
+      200,
+      2015,
+      3850,
+      2000
+    ],
+    "center_y_mm": 3600
+  },
+  "combined_lateral_at_mirror_height": {
+    "description": "Peca207 + apoioReferenciaCorrerR001 estão no mesmo plano externo X2010 e encontram emY3372; na alturaZ200..2000 formam face contínuaY3290..3940",
+    "y_min_mm": 3290,
+    "y_max_mm": 3940,
+    "center_y_mm": 3615,
+    "current_mirror_offset_y_mm": -15,
+    "limits": "Duas peças e ligação/apoio permanecem propostas R14, não painel monolítico ou vidro/fixação homologados"
+  },
+  "classification": "Desvio nominal de centralização15mm no conjunto lateral proposto. Centro do painel568 isolado3656 NÃO corresponde ao conjunto que inclui o apoio82. Responsável integra somente ajuste geométrico revisado; nenhuma fabricação liberada."
+}

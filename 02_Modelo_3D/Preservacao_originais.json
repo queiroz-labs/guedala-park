@@ -1,0 +1,807 @@
+{
+  "original_FreeCAD": {
+    "path": "guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+    "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+    "unchanged": true
+  },
+  "unique_original_files": 129,
+  "all_backups_verified": true,
+  "manifests": [
+    {
+      "path": "outputs\\correcao-r52-2026-10-25\\manifesto-caderno-sha256.json",
+      "verified_records": 1
+    },
+    {
+      "path": "outputs\\correcao-r52-2026-10-25\\manifesto-fabricacao-sha256.json",
+      "verified_records": 102
+    },
+    {
+      "path": "outputs\\correcao-r52-2026-10-25\\manifesto-site-build.json",
+      "verified_records": 5
+    },
+    {
+      "path": "outputs\\correcao-r52-2026-10-25\\manifesto-site.json",
+      "verified_records": 9
+    },
+    {
+      "path": "outputs\\correcao-r52-2026-10-25\\Manifesto_originais_documentos.json",
+      "verified_records": 12
+    }
+  ],
+  "files": [
+    {
+      "source": "guedala-park/01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "sha256": "66c653f7d9bf8bb564b1f68dd4af5ef366bf96f9dd0ecc874201bd151b9b5d02",
+      "bytes": 14448
+    },
+    {
+      "source": "guedala-park/ferramentas/site/compile_technical_revision.py",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/compile_technical_revision.py",
+      "sha256": "91ee6365a94f05a319efdbd1d1634b9b3ae68d9e6e2ec23668da26248cf68d4b",
+      "bytes": 19181
+    },
+    {
+      "source": "guedala-park/ferramentas/site/fabrication/technical-r14.json",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/fabrication/technical-r14.json",
+      "sha256": "efc556f5940cca63a71c6f90ec0aea69a55c7db75207f009bb5bd2160aaa0805",
+      "bytes": 628450
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/fabrication-data.js",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/src/fabrication-data.js",
+      "sha256": "99cc8a3e291e82d13fd9cda49953b0d0e724bf89fb2d111d4a2d317c7ff2e3a1",
+      "bytes": 1043471
+    },
+    {
+      "source": "guedala-park/ferramentas/verificar_consistencia.py",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/verificar_consistencia.py",
+      "sha256": "7ee33d0032e12fab800784d6ba84c0c4316337a69f2bb9b4272f0f43965f2237",
+      "bytes": 4954
+    },
+    {
+      "source": "guedala-park/ferramentas/Verificacao_consistencia.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/Verificacao_consistencia.md",
+      "sha256": "44f3fed0ff91765f9b161bbb511aac3d8216f36575bde828de382c1b07b4113f",
+      "bytes": 1185
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/index.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/index.html",
+      "sha256": "c847cc9b77011562c227b99a9eb5ba241543f10baebd8143b5750cb210be992b",
+      "bytes": 9742
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/Levantamento.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/Levantamento.html",
+      "sha256": "cbf8f330f09ccc2a4ba8d4abf650432c4040a627857cf5430355c84eb937d8a2",
+      "bytes": 53464
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/manifest.json",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/manifest.json",
+      "sha256": "716943af8467a8201a27d609223d7288ea88dd8fc057a21affe04c24b6cc0e5d",
+      "bytes": 1994
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P01-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P01-furacao.csv",
+      "sha256": "9127888200f5ddc4792689ab9c6a8386040a6e06e82fe4df268c9a3e622af3a4",
+      "bytes": 5864
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P01-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P01-pecas.csv",
+      "sha256": "a7360efc88eeac8f3231aeecb1a87a785ef750565f401bb7ec47e3c9885bbba1",
+      "bytes": 3437
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P01.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P01.html",
+      "sha256": "ec4f135a3150442f0a33d0d3e0c7e135902a9a5d8eb6a3327ba3b6989bfb228e",
+      "bytes": 40213
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P01.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P01.svg",
+      "sha256": "c472481a81c22caaa948d79673552e37be423d70aa73abedbc7df1703c8424f1",
+      "bytes": 18804
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P02-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P02-furacao.csv",
+      "sha256": "617163d8af773a3f8978d08fed0c7bffa83c970c74001184761603cef97cefee",
+      "bytes": 4805
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P02-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P02-furacao.svg",
+      "sha256": "8ae46a1c6ba66daf5ec0c7dff5af2844e560988c74f0af60913f9e226825f928",
+      "bytes": 5114
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P02-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P02-pecas.csv",
+      "sha256": "fffddba0aad360f860189f8562eefde8b597130cf37c3df66a0879ddbf45fa9c",
+      "bytes": 2121
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P02.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P02.html",
+      "sha256": "d4077272c906ecf0c59c053a4c2b7531112b67c780f4857557a546ec0966f477",
+      "bytes": 28385
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P02.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P02.svg",
+      "sha256": "024e6adcac061a31c2719ef65003cbba5f7aeb15c3e7e98e1db8d32aa0fb4087",
+      "bytes": 6176
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P03-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P03-furacao.csv",
+      "sha256": "cae5047ab50e9d8c13316615c967846966e92feed12c4432ccf211c8ba2069de",
+      "bytes": 3591
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P03-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P03-pecas.csv",
+      "sha256": "b0d10be78a24aed4261aa0f24829fb4a19f8c80ab67a7140b1044e970a134526",
+      "bytes": 1195
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P03.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P03.html",
+      "sha256": "50fbde9c9d79d18816989b58e652b4236d779e69336c94e64e2e0f62fa53c106",
+      "bytes": 26901
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P03.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P03.svg",
+      "sha256": "96bb2fe8956b34461ad6237a786844ff5055c027d41c6a688080e145f024e00d",
+      "bytes": 5078
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P04-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P04-furacao.csv",
+      "sha256": "1b341aa9c1923038102890c72edd1317aa189c0c4a37c5617c271aab8c1193d2",
+      "bytes": 7114
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P04-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P04-furacao.svg",
+      "sha256": "750437ead9dcd96cede7914329f5d5c187ba9f6b2617af27229e5b513d7a1554",
+      "bytes": 9863
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+      "sha256": "3c5febd65da646b3750491209b931536555070c958ab6b6b821e7d0d6336a9d1",
+      "bytes": 2555
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P04.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P04.html",
+      "sha256": "1e1d4d47f67e2faa2789097ea8de014e9a366f06dc530b30108bdce106cbc299",
+      "bytes": 33544
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P04.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P04.svg",
+      "sha256": "da926fb01e42c32db5256e5adb0fe75ca9eafcf8495edddb0ff514f235373498",
+      "bytes": 7847
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P05-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P05-furacao.csv",
+      "sha256": "055de6c8501917e1b89e73c22ab89f3fada0d821494c6fb68cb87fbb03fa79ab",
+      "bytes": 4861
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P05-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P05-furacao.svg",
+      "sha256": "c3ae3bab43af4bc6f62186d6fafc9bf6be7beb09ac7863aedfcfa6b80291a945",
+      "bytes": 5108
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P05-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P05-pecas.csv",
+      "sha256": "faa1e7afc656e18c9d498baad7d98a5407e4bb25fbd8af79713fe332753feee3",
+      "bytes": 1467
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P05.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P05.html",
+      "sha256": "f4c5355500d1cf597ed2e87677b71420f913b3d45aeeba050c05d608813505e0",
+      "bytes": 27479
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P05.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P05.svg",
+      "sha256": "6f8d282926d765432e36d878b1d0f46eb2b0f2a51047e0c9645a313f4c7df7fc",
+      "bytes": 5069
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P06-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P06-furacao.csv",
+      "sha256": "cda055fe85dab75227d0a171a9e29567ef9109391223c840db7aa5e5b19ceac2",
+      "bytes": 3093
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P06-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P06-pecas.csv",
+      "sha256": "2531f21c018530df0af719478af0afac374073359186bcb6186b6266e8286441",
+      "bytes": 4239
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P06.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P06.html",
+      "sha256": "b313d644ca552b12ed1773168315f9f75a526fc5db531da31ba0b79e6ed41d78",
+      "bytes": 25155
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P06.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P06.svg",
+      "sha256": "b610df8696363257d71306c59e147fcffbd7b913d5c0366a518fba94628381fe",
+      "bytes": 10414
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P07-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P07-furacao.csv",
+      "sha256": "aab8802f75817d5cdd656057a544b2082773b144e2e39d223b31193632697ce1",
+      "bytes": 1029
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P07-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P07-pecas.csv",
+      "sha256": "10e980f2954ae227a7b24b72d05ba3f51ff4a537247c1ae791fd0609a9675c0b",
+      "bytes": 2036
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P07.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P07.html",
+      "sha256": "c65617a705336db4da6968366cd3ed76130ee5347bb5293dba57e35de6e19ce0",
+      "bytes": 18253
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P07.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P07.svg",
+      "sha256": "06c29e1c0d361e639a4b0434667ecee42bd13aac1b1d8935622fb42857a17f36",
+      "bytes": 6662
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P08-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P08-furacao.csv",
+      "sha256": "e98e8e112977f05073bc727115cf152c6769777a8195ac631d2e04a2538da8b0",
+      "bytes": 2151
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P08-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P08-pecas.csv",
+      "sha256": "247cc5e5125590d5165c32843783463996f057f5a4ff7e8a78fc0b329039dd55",
+      "bytes": 1327
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P08.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P08.html",
+      "sha256": "f00cc81ba0a30d858fd04b54eb4fa53a31e4bfc73f2c74808c6994e8bc19ebd1",
+      "bytes": 22653
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P08.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P08.svg",
+      "sha256": "f623e0f3afc34a4e94778f734efa5dbd112a48cfe78def039418d635d4b0233e",
+      "bytes": 5554
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P09-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P09-furacao.csv",
+      "sha256": "769b0fa5f4ab72f505fb3abbbd2bf89c211cbf83ac73efa44fcde0d4a0eb0579",
+      "bytes": 4860
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P09-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P09-furacao.svg",
+      "sha256": "51fda4e367f108d91c33a2db00cf0752e08a126638793fae16bac303781f17fa",
+      "bytes": 5095
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+      "sha256": "0d9047578fc67452cc9a62a2dc97b374b7626a9cd67732ef357a424465932d7e",
+      "bytes": 1622
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P09.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P09.html",
+      "sha256": "f2835d7b93cf2902f38c0e769a587a25cc89c0e45f6a393449eb7e0ef62e47e4",
+      "bytes": 28808
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P09.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P09.svg",
+      "sha256": "4a97af287b34af20f179547001c748867123a8e96e977aeb60291d7df7d89653",
+      "bytes": 5454
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P10-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P10-furacao.csv",
+      "sha256": "4c7dcb385f514d0ed24d9f74745525b271b2295f946262e9845c00a36911b355",
+      "bytes": 18349
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P10-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P10-furacao.svg",
+      "sha256": "4ecf5b40dd550770e1a968f88a771b8eae5277186229adf4a1f26d2a04e8faa7",
+      "bytes": 20875
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P10-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P10-pecas.csv",
+      "sha256": "013d1a93fce55e52b8ce444122bef6fa4c1bada709b7e92749b928a97faffdb1",
+      "bytes": 1637
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P10.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P10.html",
+      "sha256": "d0ee7a1c5645e887384899f9e34ad6c0b0362b2a92474b51b46d2060e8ed5d41",
+      "bytes": 57564
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P10.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P10.svg",
+      "sha256": "2757e0e4c3a52ac26e125a6e5287b4441b99cbac283f4fe4157430f371d47ce3",
+      "bytes": 6218
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P11-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P11-furacao.csv",
+      "sha256": "0b310bc1a2485437db52d93d57d01b9259945b68f1c3c4ee18ff6971550426e2",
+      "bytes": 13287
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P11-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P11-furacao.svg",
+      "sha256": "0f9152dfbdf187e5727a136a78e1e15c6347e128c33abc4fbc7d6f6e98cf096a",
+      "bytes": 14417
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+      "sha256": "d6eca5c728f5995d00e751c6b68f20699d6d97965d2a9435eaf9f4bc019d7a65",
+      "bytes": 1620
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P11.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P11.html",
+      "sha256": "c24adf23508ab94e1ab3a39d3888c4930d3c1556558273dc8978ed3ae8d922d2",
+      "bytes": 46209
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P11.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P11.svg",
+      "sha256": "c9dce6d70e2a59a5e7813d9a520ad8289c85d6334cb81cb0ce1eee731b5cd7cc",
+      "bytes": 5450
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P12-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P12-furacao.csv",
+      "sha256": "229048b32602687b86f4a15dc66dcd678cbb31ca88117b00b9db572efa7f7a4a",
+      "bytes": 4870
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P12-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P12-furacao.svg",
+      "sha256": "f1980e8c2ab65f1f5985ababb26646f3e0b680a984c8dacd3f02c43c3c58bf1d",
+      "bytes": 5134
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+      "sha256": "7a75a49dbdc3ee2ad42ff5151db5b96913c261897237216a9bc2e3029f293b33",
+      "bytes": 1628
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P12.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P12.html",
+      "sha256": "79c5009f47a6735c5f5db5b957133b884511c38025e498cd52db3526e9a236d1",
+      "bytes": 28736
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P12.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P12.svg",
+      "sha256": "ae94fc2f024940f929db2226fda5c8d0cc6fee4ff683487417807441c9117ae7",
+      "bytes": 5448
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P13-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P13-furacao.csv",
+      "sha256": "d1c38019ea3b4128d19cbd33af729ac59e1cf6c254b13a5357710f2a3b18fd90",
+      "bytes": 957
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P13-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P13-pecas.csv",
+      "sha256": "7d9471280547cd3d0164e5b626e42931681efe2f83378ea19700c4179009e8fe",
+      "bytes": 408
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P13.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P13.html",
+      "sha256": "09cda335df53d8b598a0a978eb73e0af388fe364c7ece5e2ef79d1bb31cb733a",
+      "bytes": 14131
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P13.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P13.svg",
+      "sha256": "4a59cbd1f80b57536758af3d40f340656ca5a4b2142e2d1f388d4eae2adde3d9",
+      "bytes": 2783
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P14-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P14-furacao.csv",
+      "sha256": "95e3268772880dc4545bed9f225efb0ecba323034e85053c7cca6ee78b973596",
+      "bytes": 1729
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P14-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P14-pecas.csv",
+      "sha256": "1848972d72b0e38c89c3eb6fa3b306aeb0ffc92f777a869a1bc61482b7971fb3",
+      "bytes": 1986
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P14.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P14.html",
+      "sha256": "f21637c96511eaf3d648d7f07c4ecdba2abe90dd956ceba57bec5af2c634c0d5",
+      "bytes": 19134
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P14.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P14.svg",
+      "sha256": "e45c6fabaf1ebdc7a3e5472a001c5e31257b110217e21058e84401970a533163",
+      "bytes": 6293
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P15-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P15-furacao.csv",
+      "sha256": "81104a21629ba8a601596116758db54d3ae05f922230cc25acc14d5f5cf9c4b6",
+      "bytes": 10202
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P15-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P15-furacao.svg",
+      "sha256": "99e4def34ed077180faec807c640c7508faf70556011abc1351e29a0212478e7",
+      "bytes": 11180
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+      "sha256": "a29e227c073990d13dc349204d30a0f649baae7d3bd2a7e07aefbdbc70bff766",
+      "bytes": 1467
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P15.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P15.html",
+      "sha256": "6158e010667dd83a4d01bf5a1b31050b9e18b25127aee737f090beb03e37fd74",
+      "bytes": 40033
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P15.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P15.svg",
+      "sha256": "7e2172028277f4131421a871c0c9d802a38c28c8223eedcde6cd6fa0336b9eb4",
+      "bytes": 5149
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P16-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P16-furacao.csv",
+      "sha256": "78bc3f3a5a6b4711f7691141097d4c550f3081aff7d942002eac4ab6910678ae",
+      "bytes": 2750
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P16-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P16-pecas.csv",
+      "sha256": "f88a37249c3ecfefe1c81a2d43b8fa9e81a15e1ccecc1a92038fc4cb0d436ebf",
+      "bytes": 3312
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P16.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P16.html",
+      "sha256": "a2c045635c5c7eb635581db0bae72cb9e6c7b8dfb3ba969bebfe195811198f3d",
+      "bytes": 25527
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P16.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P16.svg",
+      "sha256": "45d3d65d9033045f2b638070bccf8ee38150313a32104657ef771f3b6fc695dc",
+      "bytes": 8880
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P17-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P17-furacao.csv",
+      "sha256": "1cec209d465f0ded5651c550ba1c4a35c4b07fab200361ca98d2d5286bf16296",
+      "bytes": 7116
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P17-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P17-furacao.svg",
+      "sha256": "dbe912cf4e844f83a3ed6d3f5592819e24499c333101599135c48614db5a1e72",
+      "bytes": 9896
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+      "sha256": "fe0708b34a0bd4a8970fecbb42d22142ea53a6871765c403411e630e8d2b3ab0",
+      "bytes": 2234
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P17.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P17.html",
+      "sha256": "4bea8645b553ce6a652fb5b857d7d55f695b2f8026166565cea1ec2d9b302c38",
+      "bytes": 33214
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P17.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P17.svg",
+      "sha256": "ed3336db353719014c58fcad7bd1cef3d82f2103f399bfdb6d2d3f897360d494",
+      "bytes": 7283
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P18-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P18-furacao.csv",
+      "sha256": "c61d0acf523b1cdd93da5d68dc443cab92cb5979f60a2cca96b7f16853e85a50",
+      "bytes": 6083
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P18-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P18-pecas.csv",
+      "sha256": "ca3dd2d0ad8ec795006d0819b9593a24c08169591e216f8579033ac68023b13b",
+      "bytes": 2936
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P18.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P18.html",
+      "sha256": "e3569bf6be1d15ce6d4c2a68be4cd86b9b78fd6ae29ef2eb7fa165613e8d5518",
+      "bytes": 36688
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P18.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P18.svg",
+      "sha256": "6f0f22d6fe1726deee8d84e575cf3943cc2c98c4bdec5efdc082ba47dd0c0720",
+      "bytes": 6081
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P19-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P19-furacao.csv",
+      "sha256": "a033d7a780603d34d93cad04aaa00acf8a0cfc268ee3efa6c9f300f52f8f70c5",
+      "bytes": 11307
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P19-furacao.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P19-furacao.svg",
+      "sha256": "74b0b2eed01f05e7debd3027ba33199ed7b68a09cb3def8f16e39283163f9d65",
+      "bytes": 15101
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P19-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P19-pecas.csv",
+      "sha256": "a2ced52233e1db1ab1e37cc5d77def6bdbad47e23108d993ef5fa756061fb0f8",
+      "bytes": 2049
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P19.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P19.html",
+      "sha256": "3c28e1ffc5d26782f6c0712502de129b75030e00ea8dc0bf61662ab97a0336cd",
+      "bytes": 43006
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P19.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P19.svg",
+      "sha256": "141236e0c5c298a7aad0f9f590556e4ce8c520aa8cf4a9263395e28cd4dcda82",
+      "bytes": 5600
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P20-furacao.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P20-furacao.csv",
+      "sha256": "0c91935d009edf350e45bab9d31044493c25f623d0c86c3d7f495e948bc072bb",
+      "bytes": 1125
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P20-pecas.csv",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P20-pecas.csv",
+      "sha256": "d3d8c85fa270b30e2b37582705528ff9a73dcb5d92e520c49bb83065dafb87d2",
+      "bytes": 5073
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P20.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P20.html",
+      "sha256": "8fa502f860cef8f26a579ab0cb2dada05a720ba6b1700455f923134c7a93749a",
+      "bytes": 24740
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/P20.svg",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/P20.svg",
+      "sha256": "12f34b04fd207ec292f9c662cf9880523bbc1094de3eae350a272989b27bd184",
+      "bytes": 12821
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/Pendencias.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/Pendencias.html",
+      "sha256": "f58b86e4c378f750e8a884de8ffa520ddbc19ffefc89c05112d9e0ab1bad2eed",
+      "bytes": 54863
+    },
+    {
+      "source": "guedala-park/06_Entregas/Fichas_fabricacao/Tecnica_R14.json",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Fichas_fabricacao/Tecnica_R14.json",
+      "sha256": "d1b6aa6c7b6540ada5a9636f9f83a615d679030e1f58ef96c9b44659d0c301cf",
+      "bytes": 628867
+    },
+    {
+      "source": "guedala-park/ferramentas/site/technical_details.py",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/technical_details.py",
+      "sha256": "5fbec8a476742764fcf2f88b8e2776431838886176af1cf3d32d30b77666c7a0",
+      "bytes": 7699
+    },
+    {
+      "source": "guedala-park/ferramentas/site/gerar_caderno.cjs",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/gerar_caderno.cjs",
+      "sha256": "de74663c8b6538c3851998d92384f67521af4bd5ab5f2c64e433026a4d528700",
+      "bytes": 2900
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/workshop-docs.js",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/src/workshop-docs.js",
+      "sha256": "d5ee7a9dc450b0c8a522807ec94735e2a02283f840305e46d68990c736448688",
+      "bytes": 1118717
+    },
+    {
+      "source": "guedala-park/06_Entregas/Dossie_marcenaria_R45.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/Dossie_marcenaria_R45.html",
+      "sha256": "87ab674bb67fa7ff7586444bf577dc1dea982beccc03c04347c10d364b60025c",
+      "bytes": 9681
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/visual-finishes.js",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/src/visual-finishes.js",
+      "sha256": "c48d279c48047772f6c5e0fcbf49b69d38fcd1f7fc505aac24ba8bce052f73c4",
+      "bytes": 81649
+    },
+    {
+      "source": "guedala-park/ferramentas/site/Guedala_Park_Interativo.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ferramentas/site/Guedala_Park_Interativo.html",
+      "sha256": "2c835b3bcc5829cc6c450aa0559a07e6a937474a0f0217b0b0f610adddd4ba85",
+      "bytes": 5187088
+    },
+    {
+      "source": "guedala-park/09_Referencias/Moodboard_atualizado_R01.html",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/09_Referencias/Moodboard_atualizado_R01.html",
+      "sha256": "e05260cd84dfaff554fc6168fb4c4622a2338c64a8a1e9a5000217d6c2408da3",
+      "bytes": 5187102
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/app.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\app.js",
+      "sha256": "fc0804ca1ccae73b9e1f792d70a3b0cfba9d435dc437ed42905b1c7ddc4a007c",
+      "bytes": 61782
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/cad-sync.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\cad-sync.js",
+      "sha256": "394f7dd7b649aef944405dd10d5bf21fca5c1efe7e9ef9a6cd9745af91c7383e",
+      "bytes": 3360
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/data.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\data.js",
+      "sha256": "663a0fd8b148727dfda6a68378b39f7a73c81a76db1ef559e25150a849a8469f",
+      "bytes": 62341
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/experience.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\experience.js",
+      "sha256": "c1fe1e765a7526fd78a0c97d919f3e7c3600e752ff321659b1be6a6e8092f030",
+      "bytes": 12026
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/shell.html",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\shell.html",
+      "sha256": "28fc1282d6e5d1ec56f9c8078e1c990bdb22c8ba79872124ab3f780e7490f2be",
+      "bytes": 15381
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/cad-data.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\cad-data.js",
+      "sha256": "1c4338808aea8a387b8da694c1937e2e3eb7fb418922343e79973f57b7bed0e6",
+      "bytes": 3391830
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/site-copy.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\site-copy.js",
+      "sha256": "72ac401131481306dc25c6a048bf72ef36c2be2d32e5d527318ce3c5a40b6ce0",
+      "bytes": 15618
+    },
+    {
+      "source": "guedala-park/.github/workflows/pages.yml",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\.github\\workflows\\pages.yml",
+      "sha256": "e11973f488b551f02b1763a0618c54e5abf999e0bda3e5871af6cec36d677e4a",
+      "bytes": 1353
+    },
+    {
+      "source": "guedala-park/ferramentas/site/src/workshop.js",
+      "backup": "outputs\\correcao-r52-2026-10-25\\originais\\guedala-park\\ferramentas\\site\\src\\workshop.js",
+      "sha256": "4758253ec34e5ff7e8ea425e6a193cec4931ecaebb9ee3827a5abb90d3fc4459",
+      "bytes": 15784
+    },
+    {
+      "source": "guedala-park/ESTADO_ATUAL.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/ESTADO_ATUAL.md",
+      "sha256": "a4f685feff3e25f8b1b07a5d1c77c7fbd04162f8d649bbbec75561f9982d2a2b",
+      "bytes": 14624
+    },
+    {
+      "source": "guedala-park/02_Modelo_3D/Abrir_no_FreeCAD.ps1",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/02_Modelo_3D/Abrir_no_FreeCAD.ps1",
+      "sha256": "b44baa505e3f55f6d0fced5892b7035a10b93f59b00653b45aedd3e038a9b8d6",
+      "bytes": 1755
+    },
+    {
+      "source": "guedala-park/02_Modelo_3D/Como_abrir.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/02_Modelo_3D/Como_abrir.md",
+      "sha256": "9627b1ac9fa06b34a84bb7e33ce282854c1c185017bd36df4b2adcc9e15bc0fa",
+      "bytes": 7390
+    },
+    {
+      "source": "guedala-park/01_Programa_e_decisoes/Painel_de_decisoes.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/01_Programa_e_decisoes/Painel_de_decisoes.md",
+      "sha256": "11c08cdda9a9490e7bf71be07995277369b57adb362b46fef45dce61990f756c",
+      "bytes": 26169
+    },
+    {
+      "source": "guedala-park/../ESTADO_ATUAL.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/../ESTADO_ATUAL.md",
+      "sha256": "3f3087d33247fbca6769af04de8f054c62ae4c77a91fba5605080f13daf46505",
+      "bytes": 10277
+    },
+    {
+      "source": "guedala-park/01_Programa_e_decisoes/Registro_de_decisoes.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/01_Programa_e_decisoes/Registro_de_decisoes.md",
+      "sha256": "fdc8e45d7d00f4d92606a0b27559bcd1351275f6d31fec6e165107cb876b1d72",
+      "bytes": 481970
+    },
+    {
+      "source": "guedala-park/../ESTADO_ATUAL.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/../ESTADO_ATUAL.md",
+      "sha256": "772295d2b6f33d8faa32c5563c5bba0c0d6d5ce97f28922c40ab146b5ef0c374",
+      "bytes": 24215
+    },
+    {
+      "source": "guedala-park/../ESTADO_ATUAL.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/../ESTADO_ATUAL.md",
+      "sha256": "47f468430aa8ec9896fddec8c20f250d046dfccbcc4378094bcfefb8dc266530",
+      "bytes": 8567
+    },
+    {
+      "source": "guedala-park/06_Entregas/README.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/06_Entregas/README.md",
+      "sha256": "3bd1f3791b4150d9f53f7d3431f8d8d552319fdad1520f0699da6f517e08ba4f",
+      "bytes": 3552
+    },
+    {
+      "source": "guedala-park/INDICE_DE_ARQUIVOS.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/INDICE_DE_ARQUIVOS.md",
+      "sha256": "1b90024cfb9ba8878352f1555573124120ee468669b2c9d57e10d1a39c3a9084",
+      "bytes": 365620
+    },
+    {
+      "source": "guedala-park/README.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/README.md",
+      "sha256": "864d33f9acfbf91f6b3fae975c0b74b47a4e4b94e42eb78f1b410562ad6bd0c1",
+      "bytes": 8878
+    },
+    {
+      "source": "guedala-park/03_Ambientes/Sala_e_jantar/README.md",
+      "backup": "outputs/correcao-r52-2026-10-25/originais/guedala-park/03_Ambientes/Sala_e_jantar/README.md",
+      "sha256": "4e212a9651af69b464038bbe50c6487b681209775ea95c7cf7d7ce247533eb2e",
+      "bytes": 26002
+    }
+  ]
+}

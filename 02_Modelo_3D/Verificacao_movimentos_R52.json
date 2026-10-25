@@ -1,0 +1,11 @@
+{
+  "count": 106,
+  "file_unchanged": true,
+  "all_returned": true,
+  "seconds": 46.795268699999724,
+  "method": "Sampled states on headless saved model; all active feature global placements; new pair intersections >0.1 mm3; excludes baseline-overlapping pairs and internal hinge hardware pairs; not continuous collision detection. Results resumed after instrumentation/performance changes; seconds covers last invocation only. Rigidly co-moving pairs also skipped because relative pose/common is invariant. Final run started without cached cases.",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Guedala_Park_R52_Corrigido.FCStd",
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "expected_operational_intersections": 34,
+  "unexpected_intersections": []
+}

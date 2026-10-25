@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "sector": 1,
+      "control": "ControleBancoR16",
+      "angle_deg": 45.0,
+      "rotation_error_mm": 8.038873388460929e-14,
+      "lid_valid": true,
+      "lid_state": [
+        "Up-to-date"
+      ],
+      "pad_global_placement": "Placement [Pos=(6945.86,4139,751.428), Yaw-Pitch-Roll=(-90,3.18055e-15,-45)]",
+      "pad_valid": true
+    },
+    {
+      "sector": 2,
+      "control": "ControleBancoR001",
+      "angle_deg": 90.0,
+      "rotation_error_mm": 1.2690807130731475e-13,
+      "lid_valid": true,
+      "lid_state": [
+        "Up-to-date"
+      ],
+      "pad_global_placement": "Placement [Pos=(6850,5218,470), Yaw-Pitch-Roll=(-90,-0,0)]",
+      "pad_valid": true
+    },
+    {
+      "sector": 3,
+      "control": "ControleBancoR002",
+      "angle_deg": 90.0,
+      "rotation_error_mm": 1.2690807130731475e-13,
+      "lid_valid": true,
+      "lid_state": [
+        "Up-to-date"
+      ],
+      "pad_global_placement": "Placement [Pos=(6850,5456,470), Yaw-Pitch-Roll=(-90,-0,0)]",
+      "pad_valid": true
+    },
+    {
+      "sector": 4,
+      "control": "ControleBancoR003",
+      "angle_deg": 90.0,
+      "rotation_error_mm": 1.2690807130731475e-13,
+      "lid_valid": true,
+      "lid_state": [
+        "Up-to-date"
+      ],
+      "pad_global_placement": "Placement [Pos=(6850,4677,470), Yaw-Pitch-Roll=(-90,-0,0)]",
+      "pad_valid": true
+    }
+  ],
+  "final_controls_zero": true,
+  "saved": true,
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Banco_R16_2026-10-14\\Guedala_Park_R16_Banco_Simples.FCStd"
+}

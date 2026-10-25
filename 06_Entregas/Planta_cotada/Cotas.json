@@ -1,0 +1,98 @@
+{
+  "source": {
+    "path": "09_Referencias/Plantas_e_manuais/Planta_oficial.pdf",
+    "page": 1,
+    "method": "Cotas escritas conferidas visualmente na página integral."
+  },
+  "units": "mm in arrays; displayed in metres",
+  "cotas": [
+    {
+      "id": "quarto",
+      "title": "Quarto / dormitório 01",
+      "official": "2,45 × 2,95 m",
+      "mm": [
+        2450,
+        2950
+      ],
+      "scope": "Medidas da parte principal do quarto. A área recuada não está incluída.",
+      "match": "As medidas da planta correspondem à parte principal do desenho."
+    },
+    {
+      "id": "escritorio",
+      "title": "Escritório / dormitório 02",
+      "official": "2,30 × 2,95 m",
+      "mm": [
+        2300,
+        2950
+      ],
+      "scope": "Distância entre as paredes internas da parte principal.",
+      "match": "As medidas da planta correspondem ao desenho."
+    },
+    {
+      "id": "sala",
+      "title": "Sala",
+      "official": "Largura 2,45 m",
+      "mm": [
+        2450
+      ],
+      "scope": "Largura da sala. A medida de 5,15 m inclui sala e cozinha.",
+      "match": "Os 5,15 m incluem a sala e a cozinha."
+    },
+    {
+      "id": "sala cozinha",
+      "title": "Eixo sala + cozinha",
+      "official": "5,15 m",
+      "mm": [
+        5150
+      ],
+      "scope": "Distância total entre a parede da sala e a parede da cozinha, pelo lado direito.",
+      "match": "No desenho, corresponde ao trecho de y185 a700 cm."
+    },
+    {
+      "id": "banho",
+      "title": "Banheiro",
+      "official": "2,09 × 1,24 m",
+      "mm": [
+        2090,
+        1240
+      ],
+      "scope": "Medidas internas do banheiro. Esta vista não mostra os equipamentos.",
+      "match": "As medidas da planta correspondem ao desenho."
+    },
+    {
+      "id": "lavanderia",
+      "title": "Área de serviço",
+      "official": "1,29 × 1,54 m",
+      "mm": [
+        1290,
+        1540
+      ],
+      "scope": "A planta informa 1,54 m. Essa medida aparece na tabela porque o desenho do site é diferente.",
+      "match": "O site desenha 1,29 × 1,61 m. Há uma diferença de 7 cm na segunda medida. Confira no apartamento."
+    },
+    {
+      "id": "cozinha",
+      "title": "Faixa da cozinha",
+      "official": "3,52 × 1,55 m",
+      "mm": [
+        3520,
+        1550
+      ],
+      "scope": "Medidas da faixa indicada na planta. Elas não confirmam uma parede entre cozinha e lavanderia.",
+      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes."
+    },
+    {
+      "id": "circulacao",
+      "title": "Circulação",
+      "official": "Trechos de 0,90 m e 1,05 m",
+      "mm": [
+        900,
+        1050
+      ],
+      "scope": "São dois trechos de passagem. As medidas não indicam a largura e o comprimento de um único retângulo.",
+      "match": "O site desenha uma área de 1,30 × 0,90 m. A medida oficial de 1,05 m continua válida no trecho indicado na planta."
+    }
+  ],
+  "reconstructionSource": "ferramentas/site/src/app.js: floors/walls",
+  "note": "Medidas da página 1 da planta oficial. O desenho do site é uma aproximação. Confira as medidas após os acabamentos, antes de fabricar."
+}

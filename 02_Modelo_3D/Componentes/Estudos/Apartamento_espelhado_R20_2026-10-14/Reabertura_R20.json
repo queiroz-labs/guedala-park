@@ -1,0 +1,63 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Apartamento_espelhado_R20_2026-10-14\\Guedala_Park_R20_Apartamento_Espelhado.FCStd",
+  "controls": [
+    {
+      "control": "ControlePortaR11",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR012",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR013",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR014",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR015",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR016",
+      "angle": 0.0
+    },
+    {
+      "control": "ControlePortaR017",
+      "angle": 0.0
+    },
+    {
+      "control": "ControleVizinhaR18",
+      "angle": 0.0
+    }
+  ],
+  "samples": [
+    {
+      "object": "Peca351",
+      "max_error_mm": 0.0
+    },
+    {
+      "object": "Peca140",
+      "max_error_mm": 0.0
+    },
+    {
+      "object": "Peca138",
+      "max_error_mm": 0.0
+    },
+    {
+      "object": "FrenteComumR11",
+      "max_error_mm": 0.0
+    },
+    {
+      "object": "FrenteVizinhaR18",
+      "max_error_mm": 0.0
+    }
+  ],
+  "invalid": [],
+  "visible_mirror_links": 209,
+  "link_transform_preserved": true,
+  "historical_corner_visible": false
+}

@@ -1,0 +1,4999 @@
+{
+  "cad": "C:/Users/Elias/Documents/PROJETOS/Guedala park/guedala-park/02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+  "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_objects": 5832,
+  "sheets": {
+    "CinematicaComumR10": {
+      "A1": {
+        "content": "'MONTAGEM PROPOSTA - NÃO LIBERA CORTE/COMPRA",
+        "alias": null
+      },
+      "A3": {
+        "content": "'Porta 001 Theta",
+        "alias": null
+      },
+      "B3": {
+        "content": "=-min(ControlePortaR10.CursoEstudo; max(0 deg; ControlePortaR10.Abertura))",
+        "alias": "D1Theta"
+      },
+      "A4": {
+        "content": "'Porta 001 Qx",
+        "alias": null
+      },
+      "B4": {
+        "content": "=-8.42772945377876 - cos(B3) * 4.80000000000059 + sin(B3) * -4.60000000000009",
+        "alias": "D1Qx"
+      },
+      "A5": {
+        "content": "'Porta 001 Qz",
+        "alias": null
+      },
+      "B5": {
+        "content": "=34.2911039130707 - sin(B3) * 4.80000000000059 - cos(B3) * -4.60000000000009",
+        "alias": "D1Qz"
+      },
+      "A6": {
+        "content": "'Porta 001 Dist",
+        "alias": null
+      },
+      "B6": {
+        "content": "=sqrt((B4 - -17.9948095708183) ^ 2 + (B5 - 42.5729320949485) ^ 2)",
+        "alias": "D1Dist"
+      },
+      "A7": {
+        "content": "'Porta 001 L",
+        "alias": null
+      },
+      "B7": {
+        "content": "=(410.187699861557 - 276.080400122396 + B6 ^ 2) / (2 * B6)",
+        "alias": "D1L"
+      },
+      "A8": {
+        "content": "'Porta 001 H",
+        "alias": null
+      },
+      "B8": {
+        "content": "=sqrt(410.187699861557 - B7 ^ 2)",
+        "alias": "D1H"
+      },
+      "A9": {
+        "content": "'Porta 001 Cx",
+        "alias": null
+      },
+      "B9": {
+        "content": "=-17.9948095708183 + (B7 * (B4 - -17.9948095708183) - 1 * B8 * (B5 - 42.5729320949485)) / B6",
+        "alias": "D1Cx"
+      },
+      "A10": {
+        "content": "'Porta 001 Cz",
+        "alias": null
+      },
+      "B10": {
+        "content": "=42.5729320949485 + (B7 * (B5 - 42.5729320949485) + 1 * B8 * (B4 - -17.9948095708183)) / B6",
+        "alias": "D1Cz"
+      },
+      "A11": {
+        "content": "'Porta 001 Dx",
+        "alias": null
+      },
+      "B11": {
+        "content": "=B9 + cos(B3) * 4.80000000000059 - sin(B3) * -4.60000000000009",
+        "alias": "D1Dx"
+      },
+      "A12": {
+        "content": "'Porta 001 Dz",
+        "alias": null
+      },
+      "B12": {
+        "content": "=B10 + sin(B3) * 4.80000000000059 + cos(B3) * -4.60000000000009",
+        "alias": "D1Dz"
+      },
+      "A13": {
+        "content": "'Porta 001 Theta2",
+        "alias": null
+      },
+      "B13": {
+        "content": "=atan2(sin(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D1Theta2"
+      },
+      "A14": {
+        "content": "'Porta 001 Theta3",
+        "alias": null
+      },
+      "B14": {
+        "content": "=atan2(sin(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D1Theta3"
+      },
+      "A15": {
+        "content": "'Porta 001 T2x",
+        "alias": null
+      },
+      "B15": {
+        "content": "=-17.9948095708183 - cos(B13) * -17.9948095708183 + sin(B13) * 42.5729320949485",
+        "alias": "D1T2x"
+      },
+      "A16": {
+        "content": "'Porta 001 T2z",
+        "alias": null
+      },
+      "B16": {
+        "content": "=42.5729320949485 - sin(B13) * -17.9948095708183 - cos(B13) * 42.5729320949485",
+        "alias": "D1T2z"
+      },
+      "A17": {
+        "content": "'Porta 001 T3x",
+        "alias": null
+      },
+      "B17": {
+        "content": "=-8.42772945377876 - cos(B14) * -8.42772945377876 + sin(B14) * 34.2911039130707",
+        "alias": "D1T3x"
+      },
+      "A18": {
+        "content": "'Porta 001 T3z",
+        "alias": null
+      },
+      "B18": {
+        "content": "=34.2911039130707 - sin(B14) * -8.42772945377876 - cos(B14) * 34.2911039130707",
+        "alias": "D1T3z"
+      },
+      "A19": {
+        "content": "'Porta 001 T4x",
+        "alias": null
+      },
+      "B19": {
+        "content": "=B9 - cos(B3) * 2.05999999999998 + sin(B3) * 45.4000000000001",
+        "alias": "D1T4x"
+      },
+      "A20": {
+        "content": "'Porta 001 T4z",
+        "alias": null
+      },
+      "B20": {
+        "content": "=B10 - sin(B3) * 2.05999999999998 - cos(B3) * 45.4000000000001",
+        "alias": "D1T4z"
+      },
+      "A21": {
+        "content": "'Porta 002 Theta",
+        "alias": null
+      },
+      "B21": {
+        "content": "=-min(ControlePortaR001.CursoEstudo; max(0 deg; ControlePortaR001.Abertura))",
+        "alias": "D2Theta"
+      },
+      "A22": {
+        "content": "'Porta 002 Qx",
+        "alias": null
+      },
+      "B22": {
+        "content": "=-8.42772945377876 - cos(B21) * 4.80000000000059 + sin(B21) * -4.60000000000009",
+        "alias": "D2Qx"
+      },
+      "A23": {
+        "content": "'Porta 002 Qz",
+        "alias": null
+      },
+      "B23": {
+        "content": "=34.2911039130707 - sin(B21) * 4.80000000000059 - cos(B21) * -4.60000000000009",
+        "alias": "D2Qz"
+      },
+      "A24": {
+        "content": "'Porta 002 Dist",
+        "alias": null
+      },
+      "B24": {
+        "content": "=sqrt((B22 - -17.9948095708183) ^ 2 + (B23 - 42.5729320949485) ^ 2)",
+        "alias": "D2Dist"
+      },
+      "A25": {
+        "content": "'Porta 002 L",
+        "alias": null
+      },
+      "B25": {
+        "content": "=(410.187699861557 - 276.080400122396 + B24 ^ 2) / (2 * B24)",
+        "alias": "D2L"
+      },
+      "A26": {
+        "content": "'Porta 002 H",
+        "alias": null
+      },
+      "B26": {
+        "content": "=sqrt(410.187699861557 - B25 ^ 2)",
+        "alias": "D2H"
+      },
+      "A27": {
+        "content": "'Porta 002 Cx",
+        "alias": null
+      },
+      "B27": {
+        "content": "=-17.9948095708183 + (B25 * (B22 - -17.9948095708183) - 1 * B26 * (B23 - 42.5729320949485)) / B24",
+        "alias": "D2Cx"
+      },
+      "A28": {
+        "content": "'Porta 002 Cz",
+        "alias": null
+      },
+      "B28": {
+        "content": "=42.5729320949485 + (B25 * (B23 - 42.5729320949485) + 1 * B26 * (B22 - -17.9948095708183)) / B24",
+        "alias": "D2Cz"
+      },
+      "A29": {
+        "content": "'Porta 002 Dx",
+        "alias": null
+      },
+      "B29": {
+        "content": "=B27 + cos(B21) * 4.80000000000059 - sin(B21) * -4.60000000000009",
+        "alias": "D2Dx"
+      },
+      "A30": {
+        "content": "'Porta 002 Dz",
+        "alias": null
+      },
+      "B30": {
+        "content": "=B28 + sin(B21) * 4.80000000000059 + cos(B21) * -4.60000000000009",
+        "alias": "D2Dz"
+      },
+      "A31": {
+        "content": "'Porta 002 Theta2",
+        "alias": null
+      },
+      "B31": {
+        "content": "=atan2(sin(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D2Theta2"
+      },
+      "A32": {
+        "content": "'Porta 002 Theta3",
+        "alias": null
+      },
+      "B32": {
+        "content": "=atan2(sin(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D2Theta3"
+      },
+      "A33": {
+        "content": "'Porta 002 T2x",
+        "alias": null
+      },
+      "B33": {
+        "content": "=-17.9948095708183 - cos(B31) * -17.9948095708183 + sin(B31) * 42.5729320949485",
+        "alias": "D2T2x"
+      },
+      "A34": {
+        "content": "'Porta 002 T2z",
+        "alias": null
+      },
+      "B34": {
+        "content": "=42.5729320949485 - sin(B31) * -17.9948095708183 - cos(B31) * 42.5729320949485",
+        "alias": "D2T2z"
+      },
+      "A35": {
+        "content": "'Porta 002 T3x",
+        "alias": null
+      },
+      "B35": {
+        "content": "=-8.42772945377876 - cos(B32) * -8.42772945377876 + sin(B32) * 34.2911039130707",
+        "alias": "D2T3x"
+      },
+      "A36": {
+        "content": "'Porta 002 T3z",
+        "alias": null
+      },
+      "B36": {
+        "content": "=34.2911039130707 - sin(B32) * -8.42772945377876 - cos(B32) * 34.2911039130707",
+        "alias": "D2T3z"
+      },
+      "A37": {
+        "content": "'Porta 002 T4x",
+        "alias": null
+      },
+      "B37": {
+        "content": "=B27 - cos(B21) * 2.05999999999998 + sin(B21) * 45.4000000000001",
+        "alias": "D2T4x"
+      },
+      "A38": {
+        "content": "'Porta 002 T4z",
+        "alias": null
+      },
+      "B38": {
+        "content": "=B28 - sin(B21) * 2.05999999999998 - cos(B21) * 45.4000000000001",
+        "alias": "D2T4z"
+      },
+      "A39": {
+        "content": "'Porta 003 Theta",
+        "alias": null
+      },
+      "B39": {
+        "content": "=-min(ControlePortaR002.CursoEstudo; max(0 deg; ControlePortaR002.Abertura))",
+        "alias": "D3Theta"
+      },
+      "A40": {
+        "content": "'Porta 003 Qx",
+        "alias": null
+      },
+      "B40": {
+        "content": "=-8.42772945377876 - cos(B39) * 4.80000000000059 + sin(B39) * -4.60000000000009",
+        "alias": "D3Qx"
+      },
+      "A41": {
+        "content": "'Porta 003 Qz",
+        "alias": null
+      },
+      "B41": {
+        "content": "=34.2911039130707 - sin(B39) * 4.80000000000059 - cos(B39) * -4.60000000000009",
+        "alias": "D3Qz"
+      },
+      "A42": {
+        "content": "'Porta 003 Dist",
+        "alias": null
+      },
+      "B42": {
+        "content": "=sqrt((B40 - -17.9948095708183) ^ 2 + (B41 - 42.5729320949485) ^ 2)",
+        "alias": "D3Dist"
+      },
+      "A43": {
+        "content": "'Porta 003 L",
+        "alias": null
+      },
+      "B43": {
+        "content": "=(410.187699861557 - 276.080400122396 + B42 ^ 2) / (2 * B42)",
+        "alias": "D3L"
+      },
+      "A44": {
+        "content": "'Porta 003 H",
+        "alias": null
+      },
+      "B44": {
+        "content": "=sqrt(410.187699861557 - B43 ^ 2)",
+        "alias": "D3H"
+      },
+      "A45": {
+        "content": "'Porta 003 Cx",
+        "alias": null
+      },
+      "B45": {
+        "content": "=-17.9948095708183 + (B43 * (B40 - -17.9948095708183) - 1 * B44 * (B41 - 42.5729320949485)) / B42",
+        "alias": "D3Cx"
+      },
+      "A46": {
+        "content": "'Porta 003 Cz",
+        "alias": null
+      },
+      "B46": {
+        "content": "=42.5729320949485 + (B43 * (B41 - 42.5729320949485) + 1 * B44 * (B40 - -17.9948095708183)) / B42",
+        "alias": "D3Cz"
+      },
+      "A47": {
+        "content": "'Porta 003 Dx",
+        "alias": null
+      },
+      "B47": {
+        "content": "=B45 + cos(B39) * 4.80000000000059 - sin(B39) * -4.60000000000009",
+        "alias": "D3Dx"
+      },
+      "A48": {
+        "content": "'Porta 003 Dz",
+        "alias": null
+      },
+      "B48": {
+        "content": "=B46 + sin(B39) * 4.80000000000059 + cos(B39) * -4.60000000000009",
+        "alias": "D3Dz"
+      },
+      "A49": {
+        "content": "'Porta 003 Theta2",
+        "alias": null
+      },
+      "B49": {
+        "content": "=atan2(sin(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D3Theta2"
+      },
+      "A50": {
+        "content": "'Porta 003 Theta3",
+        "alias": null
+      },
+      "B50": {
+        "content": "=atan2(sin(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D3Theta3"
+      },
+      "A51": {
+        "content": "'Porta 003 T2x",
+        "alias": null
+      },
+      "B51": {
+        "content": "=-17.9948095708183 - cos(B49) * -17.9948095708183 + sin(B49) * 42.5729320949485",
+        "alias": "D3T2x"
+      },
+      "A52": {
+        "content": "'Porta 003 T2z",
+        "alias": null
+      },
+      "B52": {
+        "content": "=42.5729320949485 - sin(B49) * -17.9948095708183 - cos(B49) * 42.5729320949485",
+        "alias": "D3T2z"
+      },
+      "A53": {
+        "content": "'Porta 003 T3x",
+        "alias": null
+      },
+      "B53": {
+        "content": "=-8.42772945377876 - cos(B50) * -8.42772945377876 + sin(B50) * 34.2911039130707",
+        "alias": "D3T3x"
+      },
+      "A54": {
+        "content": "'Porta 003 T3z",
+        "alias": null
+      },
+      "B54": {
+        "content": "=34.2911039130707 - sin(B50) * -8.42772945377876 - cos(B50) * 34.2911039130707",
+        "alias": "D3T3z"
+      },
+      "A55": {
+        "content": "'Porta 003 T4x",
+        "alias": null
+      },
+      "B55": {
+        "content": "=B45 - cos(B39) * 2.05999999999998 + sin(B39) * 45.4000000000001",
+        "alias": "D3T4x"
+      },
+      "A56": {
+        "content": "'Porta 003 T4z",
+        "alias": null
+      },
+      "B56": {
+        "content": "=B46 - sin(B39) * 2.05999999999998 - cos(B39) * 45.4000000000001",
+        "alias": "D3T4z"
+      },
+      "A57": {
+        "content": "'Porta 004 Theta",
+        "alias": null
+      },
+      "B57": {
+        "content": "=-min(ControlePortaR003.CursoEstudo; max(0 deg; ControlePortaR003.Abertura))",
+        "alias": "D4Theta"
+      },
+      "A58": {
+        "content": "'Porta 004 Qx",
+        "alias": null
+      },
+      "B58": {
+        "content": "=-8.42772945377876 - cos(B57) * 4.80000000000059 + sin(B57) * -4.60000000000009",
+        "alias": "D4Qx"
+      },
+      "A59": {
+        "content": "'Porta 004 Qz",
+        "alias": null
+      },
+      "B59": {
+        "content": "=34.2911039130707 - sin(B57) * 4.80000000000059 - cos(B57) * -4.60000000000009",
+        "alias": "D4Qz"
+      },
+      "A60": {
+        "content": "'Porta 004 Dist",
+        "alias": null
+      },
+      "B60": {
+        "content": "=sqrt((B58 - -17.9948095708183) ^ 2 + (B59 - 42.5729320949485) ^ 2)",
+        "alias": "D4Dist"
+      },
+      "A61": {
+        "content": "'Porta 004 L",
+        "alias": null
+      },
+      "B61": {
+        "content": "=(410.187699861557 - 276.080400122396 + B60 ^ 2) / (2 * B60)",
+        "alias": "D4L"
+      },
+      "A62": {
+        "content": "'Porta 004 H",
+        "alias": null
+      },
+      "B62": {
+        "content": "=sqrt(410.187699861557 - B61 ^ 2)",
+        "alias": "D4H"
+      },
+      "A63": {
+        "content": "'Porta 004 Cx",
+        "alias": null
+      },
+      "B63": {
+        "content": "=-17.9948095708183 + (B61 * (B58 - -17.9948095708183) - 1 * B62 * (B59 - 42.5729320949485)) / B60",
+        "alias": "D4Cx"
+      },
+      "A64": {
+        "content": "'Porta 004 Cz",
+        "alias": null
+      },
+      "B64": {
+        "content": "=42.5729320949485 + (B61 * (B59 - 42.5729320949485) + 1 * B62 * (B58 - -17.9948095708183)) / B60",
+        "alias": "D4Cz"
+      },
+      "A65": {
+        "content": "'Porta 004 Dx",
+        "alias": null
+      },
+      "B65": {
+        "content": "=B63 + cos(B57) * 4.80000000000059 - sin(B57) * -4.60000000000009",
+        "alias": "D4Dx"
+      },
+      "A66": {
+        "content": "'Porta 004 Dz",
+        "alias": null
+      },
+      "B66": {
+        "content": "=B64 + sin(B57) * 4.80000000000059 + cos(B57) * -4.60000000000009",
+        "alias": "D4Dz"
+      },
+      "A67": {
+        "content": "'Porta 004 Theta2",
+        "alias": null
+      },
+      "B67": {
+        "content": "=atan2(sin(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D4Theta2"
+      },
+      "A68": {
+        "content": "'Porta 004 Theta3",
+        "alias": null
+      },
+      "B68": {
+        "content": "=atan2(sin(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D4Theta3"
+      },
+      "A69": {
+        "content": "'Porta 004 T2x",
+        "alias": null
+      },
+      "B69": {
+        "content": "=-17.9948095708183 - cos(B67) * -17.9948095708183 + sin(B67) * 42.5729320949485",
+        "alias": "D4T2x"
+      },
+      "A70": {
+        "content": "'Porta 004 T2z",
+        "alias": null
+      },
+      "B70": {
+        "content": "=42.5729320949485 - sin(B67) * -17.9948095708183 - cos(B67) * 42.5729320949485",
+        "alias": "D4T2z"
+      },
+      "A71": {
+        "content": "'Porta 004 T3x",
+        "alias": null
+      },
+      "B71": {
+        "content": "=-8.42772945377876 - cos(B68) * -8.42772945377876 + sin(B68) * 34.2911039130707",
+        "alias": "D4T3x"
+      },
+      "A72": {
+        "content": "'Porta 004 T3z",
+        "alias": null
+      },
+      "B72": {
+        "content": "=34.2911039130707 - sin(B68) * -8.42772945377876 - cos(B68) * 34.2911039130707",
+        "alias": "D4T3z"
+      },
+      "A73": {
+        "content": "'Porta 004 T4x",
+        "alias": null
+      },
+      "B73": {
+        "content": "=B63 - cos(B57) * 2.05999999999998 + sin(B57) * 45.4000000000001",
+        "alias": "D4T4x"
+      },
+      "A74": {
+        "content": "'Porta 004 T4z",
+        "alias": null
+      },
+      "B74": {
+        "content": "=B64 - sin(B57) * 2.05999999999998 - cos(B57) * 45.4000000000001",
+        "alias": "D4T4z"
+      },
+      "A75": {
+        "content": "'Porta 005 Theta",
+        "alias": null
+      },
+      "B75": {
+        "content": "=-min(ControlePortaR004.CursoEstudo; max(0 deg; ControlePortaR004.Abertura))",
+        "alias": "D5Theta"
+      },
+      "A76": {
+        "content": "'Porta 005 Qx",
+        "alias": null
+      },
+      "B76": {
+        "content": "=-8.42772945377876 - cos(B75) * 4.80000000000059 + sin(B75) * -4.60000000000009",
+        "alias": "D5Qx"
+      },
+      "A77": {
+        "content": "'Porta 005 Qz",
+        "alias": null
+      },
+      "B77": {
+        "content": "=34.2911039130707 - sin(B75) * 4.80000000000059 - cos(B75) * -4.60000000000009",
+        "alias": "D5Qz"
+      },
+      "A78": {
+        "content": "'Porta 005 Dist",
+        "alias": null
+      },
+      "B78": {
+        "content": "=sqrt((B76 - -17.9948095708183) ^ 2 + (B77 - 42.5729320949485) ^ 2)",
+        "alias": "D5Dist"
+      },
+      "A79": {
+        "content": "'Porta 005 L",
+        "alias": null
+      },
+      "B79": {
+        "content": "=(410.187699861557 - 276.080400122396 + B78 ^ 2) / (2 * B78)",
+        "alias": "D5L"
+      },
+      "A80": {
+        "content": "'Porta 005 H",
+        "alias": null
+      },
+      "B80": {
+        "content": "=sqrt(410.187699861557 - B79 ^ 2)",
+        "alias": "D5H"
+      },
+      "A81": {
+        "content": "'Porta 005 Cx",
+        "alias": null
+      },
+      "B81": {
+        "content": "=-17.9948095708183 + (B79 * (B76 - -17.9948095708183) - 1 * B80 * (B77 - 42.5729320949485)) / B78",
+        "alias": "D5Cx"
+      },
+      "A82": {
+        "content": "'Porta 005 Cz",
+        "alias": null
+      },
+      "B82": {
+        "content": "=42.5729320949485 + (B79 * (B77 - 42.5729320949485) + 1 * B80 * (B76 - -17.9948095708183)) / B78",
+        "alias": "D5Cz"
+      },
+      "A83": {
+        "content": "'Porta 005 Dx",
+        "alias": null
+      },
+      "B83": {
+        "content": "=B81 + cos(B75) * 4.80000000000059 - sin(B75) * -4.60000000000009",
+        "alias": "D5Dx"
+      },
+      "A84": {
+        "content": "'Porta 005 Dz",
+        "alias": null
+      },
+      "B84": {
+        "content": "=B82 + sin(B75) * 4.80000000000059 + cos(B75) * -4.60000000000009",
+        "alias": "D5Dz"
+      },
+      "A85": {
+        "content": "'Porta 005 Theta2",
+        "alias": null
+      },
+      "B85": {
+        "content": "=atan2(sin(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D5Theta2"
+      },
+      "A86": {
+        "content": "'Porta 005 Theta3",
+        "alias": null
+      },
+      "B86": {
+        "content": "=atan2(sin(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D5Theta3"
+      },
+      "A87": {
+        "content": "'Porta 005 T2x",
+        "alias": null
+      },
+      "B87": {
+        "content": "=-17.9948095708183 - cos(B85) * -17.9948095708183 + sin(B85) * 42.5729320949485",
+        "alias": "D5T2x"
+      },
+      "A88": {
+        "content": "'Porta 005 T2z",
+        "alias": null
+      },
+      "B88": {
+        "content": "=42.5729320949485 - sin(B85) * -17.9948095708183 - cos(B85) * 42.5729320949485",
+        "alias": "D5T2z"
+      },
+      "A89": {
+        "content": "'Porta 005 T3x",
+        "alias": null
+      },
+      "B89": {
+        "content": "=-8.42772945377876 - cos(B86) * -8.42772945377876 + sin(B86) * 34.2911039130707",
+        "alias": "D5T3x"
+      },
+      "A90": {
+        "content": "'Porta 005 T3z",
+        "alias": null
+      },
+      "B90": {
+        "content": "=34.2911039130707 - sin(B86) * -8.42772945377876 - cos(B86) * 34.2911039130707",
+        "alias": "D5T3z"
+      },
+      "A91": {
+        "content": "'Porta 005 T4x",
+        "alias": null
+      },
+      "B91": {
+        "content": "=B81 - cos(B75) * 2.05999999999998 + sin(B75) * 45.4000000000001",
+        "alias": "D5T4x"
+      },
+      "A92": {
+        "content": "'Porta 005 T4z",
+        "alias": null
+      },
+      "B92": {
+        "content": "=B82 - sin(B75) * 2.05999999999998 - cos(B75) * 45.4000000000001",
+        "alias": "D5T4z"
+      },
+      "A93": {
+        "content": "'Porta 006 Theta",
+        "alias": null
+      },
+      "B93": {
+        "content": "=-min(ControlePortaR005.CursoEstudo; max(0 deg; ControlePortaR005.Abertura))",
+        "alias": "D6Theta"
+      },
+      "A94": {
+        "content": "'Porta 006 Qx",
+        "alias": null
+      },
+      "B94": {
+        "content": "=-8.42772945377876 - cos(B93) * 4.80000000000059 + sin(B93) * -4.60000000000009",
+        "alias": "D6Qx"
+      },
+      "A95": {
+        "content": "'Porta 006 Qz",
+        "alias": null
+      },
+      "B95": {
+        "content": "=34.2911039130707 - sin(B93) * 4.80000000000059 - cos(B93) * -4.60000000000009",
+        "alias": "D6Qz"
+      },
+      "A96": {
+        "content": "'Porta 006 Dist",
+        "alias": null
+      },
+      "B96": {
+        "content": "=sqrt((B94 - -17.9948095708183) ^ 2 + (B95 - 42.5729320949485) ^ 2)",
+        "alias": "D6Dist"
+      },
+      "A97": {
+        "content": "'Porta 006 L",
+        "alias": null
+      },
+      "B97": {
+        "content": "=(410.187699861557 - 276.080400122396 + B96 ^ 2) / (2 * B96)",
+        "alias": "D6L"
+      },
+      "A98": {
+        "content": "'Porta 006 H",
+        "alias": null
+      },
+      "B98": {
+        "content": "=sqrt(410.187699861557 - B97 ^ 2)",
+        "alias": "D6H"
+      },
+      "A99": {
+        "content": "'Porta 006 Cx",
+        "alias": null
+      },
+      "B99": {
+        "content": "=-17.9948095708183 + (B97 * (B94 - -17.9948095708183) - 1 * B98 * (B95 - 42.5729320949485)) / B96",
+        "alias": "D6Cx"
+      },
+      "A100": {
+        "content": "'Porta 006 Cz",
+        "alias": null
+      },
+      "B100": {
+        "content": "=42.5729320949485 + (B97 * (B95 - 42.5729320949485) + 1 * B98 * (B94 - -17.9948095708183)) / B96",
+        "alias": "D6Cz"
+      },
+      "A101": {
+        "content": "'Porta 006 Dx",
+        "alias": null
+      },
+      "B101": {
+        "content": "=B99 + cos(B93) * 4.80000000000059 - sin(B93) * -4.60000000000009",
+        "alias": "D6Dx"
+      },
+      "A102": {
+        "content": "'Porta 006 Dz",
+        "alias": null
+      },
+      "B102": {
+        "content": "=B100 + sin(B93) * 4.80000000000059 + cos(B93) * -4.60000000000009",
+        "alias": "D6Dz"
+      },
+      "A103": {
+        "content": "'Porta 006 Theta2",
+        "alias": null
+      },
+      "B103": {
+        "content": "=atan2(sin(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D6Theta2"
+      },
+      "A104": {
+        "content": "'Porta 006 Theta3",
+        "alias": null
+      },
+      "B104": {
+        "content": "=atan2(sin(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D6Theta3"
+      },
+      "A105": {
+        "content": "'Porta 006 T2x",
+        "alias": null
+      },
+      "B105": {
+        "content": "=-17.9948095708183 - cos(B103) * -17.9948095708183 + sin(B103) * 42.5729320949485",
+        "alias": "D6T2x"
+      },
+      "A106": {
+        "content": "'Porta 006 T2z",
+        "alias": null
+      },
+      "B106": {
+        "content": "=42.5729320949485 - sin(B103) * -17.9948095708183 - cos(B103) * 42.5729320949485",
+        "alias": "D6T2z"
+      },
+      "A107": {
+        "content": "'Porta 006 T3x",
+        "alias": null
+      },
+      "B107": {
+        "content": "=-8.42772945377876 - cos(B104) * -8.42772945377876 + sin(B104) * 34.2911039130707",
+        "alias": "D6T3x"
+      },
+      "A108": {
+        "content": "'Porta 006 T3z",
+        "alias": null
+      },
+      "B108": {
+        "content": "=34.2911039130707 - sin(B104) * -8.42772945377876 - cos(B104) * 34.2911039130707",
+        "alias": "D6T3z"
+      },
+      "A109": {
+        "content": "'Porta 006 T4x",
+        "alias": null
+      },
+      "B109": {
+        "content": "=B99 - cos(B93) * 2.05999999999998 + sin(B93) * 45.4000000000001",
+        "alias": "D6T4x"
+      },
+      "A110": {
+        "content": "'Porta 006 T4z",
+        "alias": null
+      },
+      "B110": {
+        "content": "=B100 - sin(B93) * 2.05999999999998 - cos(B93) * 45.4000000000001",
+        "alias": "D6T4z"
+      },
+      "A111": {
+        "content": "'Porta 007 Theta",
+        "alias": null
+      },
+      "B111": {
+        "content": "=-min(ControlePortaR006.CursoEstudo; max(0 deg; ControlePortaR006.Abertura))",
+        "alias": "D7Theta"
+      },
+      "A112": {
+        "content": "'Porta 007 Qx",
+        "alias": null
+      },
+      "B112": {
+        "content": "=-8.42772945377876 - cos(B111) * 4.80000000000059 + sin(B111) * -4.60000000000009",
+        "alias": "D7Qx"
+      },
+      "A113": {
+        "content": "'Porta 007 Qz",
+        "alias": null
+      },
+      "B113": {
+        "content": "=34.2911039130707 - sin(B111) * 4.80000000000059 - cos(B111) * -4.60000000000009",
+        "alias": "D7Qz"
+      },
+      "A114": {
+        "content": "'Porta 007 Dist",
+        "alias": null
+      },
+      "B114": {
+        "content": "=sqrt((B112 - -17.9948095708183) ^ 2 + (B113 - 42.5729320949485) ^ 2)",
+        "alias": "D7Dist"
+      },
+      "A115": {
+        "content": "'Porta 007 L",
+        "alias": null
+      },
+      "B115": {
+        "content": "=(410.187699861557 - 276.080400122396 + B114 ^ 2) / (2 * B114)",
+        "alias": "D7L"
+      },
+      "A116": {
+        "content": "'Porta 007 H",
+        "alias": null
+      },
+      "B116": {
+        "content": "=sqrt(410.187699861557 - B115 ^ 2)",
+        "alias": "D7H"
+      },
+      "A117": {
+        "content": "'Porta 007 Cx",
+        "alias": null
+      },
+      "B117": {
+        "content": "=-17.9948095708183 + (B115 * (B112 - -17.9948095708183) - 1 * B116 * (B113 - 42.5729320949485)) / B114",
+        "alias": "D7Cx"
+      },
+      "A118": {
+        "content": "'Porta 007 Cz",
+        "alias": null
+      },
+      "B118": {
+        "content": "=42.5729320949485 + (B115 * (B113 - 42.5729320949485) + 1 * B116 * (B112 - -17.9948095708183)) / B114",
+        "alias": "D7Cz"
+      },
+      "A119": {
+        "content": "'Porta 007 Dx",
+        "alias": null
+      },
+      "B119": {
+        "content": "=B117 + cos(B111) * 4.80000000000059 - sin(B111) * -4.60000000000009",
+        "alias": "D7Dx"
+      },
+      "A120": {
+        "content": "'Porta 007 Dz",
+        "alias": null
+      },
+      "B120": {
+        "content": "=B118 + sin(B111) * 4.80000000000059 + cos(B111) * -4.60000000000009",
+        "alias": "D7Dz"
+      },
+      "A121": {
+        "content": "'Porta 007 Theta2",
+        "alias": null
+      },
+      "B121": {
+        "content": "=atan2(sin(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D7Theta2"
+      },
+      "A122": {
+        "content": "'Porta 007 Theta3",
+        "alias": null
+      },
+      "B122": {
+        "content": "=atan2(sin(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D7Theta3"
+      },
+      "A123": {
+        "content": "'Porta 007 T2x",
+        "alias": null
+      },
+      "B123": {
+        "content": "=-17.9948095708183 - cos(B121) * -17.9948095708183 + sin(B121) * 42.5729320949485",
+        "alias": "D7T2x"
+      },
+      "A124": {
+        "content": "'Porta 007 T2z",
+        "alias": null
+      },
+      "B124": {
+        "content": "=42.5729320949485 - sin(B121) * -17.9948095708183 - cos(B121) * 42.5729320949485",
+        "alias": "D7T2z"
+      },
+      "A125": {
+        "content": "'Porta 007 T3x",
+        "alias": null
+      },
+      "B125": {
+        "content": "=-8.42772945377876 - cos(B122) * -8.42772945377876 + sin(B122) * 34.2911039130707",
+        "alias": "D7T3x"
+      },
+      "A126": {
+        "content": "'Porta 007 T3z",
+        "alias": null
+      },
+      "B126": {
+        "content": "=34.2911039130707 - sin(B122) * -8.42772945377876 - cos(B122) * 34.2911039130707",
+        "alias": "D7T3z"
+      },
+      "A127": {
+        "content": "'Porta 007 T4x",
+        "alias": null
+      },
+      "B127": {
+        "content": "=B117 - cos(B111) * 2.05999999999998 + sin(B111) * 45.4000000000001",
+        "alias": "D7T4x"
+      },
+      "A128": {
+        "content": "'Porta 007 T4z",
+        "alias": null
+      },
+      "B128": {
+        "content": "=B118 - sin(B111) * 2.05999999999998 - cos(B111) * 45.4000000000001",
+        "alias": "D7T4z"
+      },
+      "A129": {
+        "content": "'Porta 008 Theta",
+        "alias": null
+      },
+      "B129": {
+        "content": "=-min(ControlePortaR007.CursoEstudo; max(0 deg; ControlePortaR007.Abertura))",
+        "alias": "D8Theta"
+      },
+      "A130": {
+        "content": "'Porta 008 Qx",
+        "alias": null
+      },
+      "B130": {
+        "content": "=-8.42772945377876 - cos(B129) * 4.80000000000059 + sin(B129) * -4.60000000000009",
+        "alias": "D8Qx"
+      },
+      "A131": {
+        "content": "'Porta 008 Qz",
+        "alias": null
+      },
+      "B131": {
+        "content": "=34.2911039130707 - sin(B129) * 4.80000000000059 - cos(B129) * -4.60000000000009",
+        "alias": "D8Qz"
+      },
+      "A132": {
+        "content": "'Porta 008 Dist",
+        "alias": null
+      },
+      "B132": {
+        "content": "=sqrt((B130 - -17.9948095708183) ^ 2 + (B131 - 42.5729320949485) ^ 2)",
+        "alias": "D8Dist"
+      },
+      "A133": {
+        "content": "'Porta 008 L",
+        "alias": null
+      },
+      "B133": {
+        "content": "=(410.187699861557 - 276.080400122396 + B132 ^ 2) / (2 * B132)",
+        "alias": "D8L"
+      },
+      "A134": {
+        "content": "'Porta 008 H",
+        "alias": null
+      },
+      "B134": {
+        "content": "=sqrt(410.187699861557 - B133 ^ 2)",
+        "alias": "D8H"
+      },
+      "A135": {
+        "content": "'Porta 008 Cx",
+        "alias": null
+      },
+      "B135": {
+        "content": "=-17.9948095708183 + (B133 * (B130 - -17.9948095708183) - 1 * B134 * (B131 - 42.5729320949485)) / B132",
+        "alias": "D8Cx"
+      },
+      "A136": {
+        "content": "'Porta 008 Cz",
+        "alias": null
+      },
+      "B136": {
+        "content": "=42.5729320949485 + (B133 * (B131 - 42.5729320949485) + 1 * B134 * (B130 - -17.9948095708183)) / B132",
+        "alias": "D8Cz"
+      },
+      "A137": {
+        "content": "'Porta 008 Dx",
+        "alias": null
+      },
+      "B137": {
+        "content": "=B135 + cos(B129) * 4.80000000000059 - sin(B129) * -4.60000000000009",
+        "alias": "D8Dx"
+      },
+      "A138": {
+        "content": "'Porta 008 Dz",
+        "alias": null
+      },
+      "B138": {
+        "content": "=B136 + sin(B129) * 4.80000000000059 + cos(B129) * -4.60000000000009",
+        "alias": "D8Dz"
+      },
+      "A139": {
+        "content": "'Porta 008 Theta2",
+        "alias": null
+      },
+      "B139": {
+        "content": "=atan2(sin(atan2(B136 - 42.5729320949485; B135 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B136 - 42.5729320949485; B135 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D8Theta2"
+      },
+      "A140": {
+        "content": "'Porta 008 Theta3",
+        "alias": null
+      },
+      "B140": {
+        "content": "=atan2(sin(atan2(B138 - 34.2911039130707; B137 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B138 - 34.2911039130707; B137 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D8Theta3"
+      },
+      "A141": {
+        "content": "'Porta 008 T2x",
+        "alias": null
+      },
+      "B141": {
+        "content": "=-17.9948095708183 - cos(B139) * -17.9948095708183 + sin(B139) * 42.5729320949485",
+        "alias": "D8T2x"
+      },
+      "A142": {
+        "content": "'Porta 008 T2z",
+        "alias": null
+      },
+      "B142": {
+        "content": "=42.5729320949485 - sin(B139) * -17.9948095708183 - cos(B139) * 42.5729320949485",
+        "alias": "D8T2z"
+      },
+      "A143": {
+        "content": "'Porta 008 T3x",
+        "alias": null
+      },
+      "B143": {
+        "content": "=-8.42772945377876 - cos(B140) * -8.42772945377876 + sin(B140) * 34.2911039130707",
+        "alias": "D8T3x"
+      },
+      "A144": {
+        "content": "'Porta 008 T3z",
+        "alias": null
+      },
+      "B144": {
+        "content": "=34.2911039130707 - sin(B140) * -8.42772945377876 - cos(B140) * 34.2911039130707",
+        "alias": "D8T3z"
+      },
+      "A145": {
+        "content": "'Porta 008 T4x",
+        "alias": null
+      },
+      "B145": {
+        "content": "=B135 - cos(B129) * 2.05999999999998 + sin(B129) * 45.4000000000001",
+        "alias": "D8T4x"
+      },
+      "A146": {
+        "content": "'Porta 008 T4z",
+        "alias": null
+      },
+      "B146": {
+        "content": "=B136 - sin(B129) * 2.05999999999998 - cos(B129) * 45.4000000000001",
+        "alias": "D8T4z"
+      },
+      "A147": {
+        "content": "'Porta 009 Theta",
+        "alias": null
+      },
+      "B147": {
+        "content": "=-min(ControlePortaR008.CursoEstudo; max(0 deg; ControlePortaR008.Abertura))",
+        "alias": "D9Theta"
+      },
+      "A148": {
+        "content": "'Porta 009 Qx",
+        "alias": null
+      },
+      "B148": {
+        "content": "=-8.42772945377876 - cos(B147) * 4.80000000000059 + sin(B147) * -4.60000000000009",
+        "alias": "D9Qx"
+      },
+      "A149": {
+        "content": "'Porta 009 Qz",
+        "alias": null
+      },
+      "B149": {
+        "content": "=34.2911039130707 - sin(B147) * 4.80000000000059 - cos(B147) * -4.60000000000009",
+        "alias": "D9Qz"
+      },
+      "A150": {
+        "content": "'Porta 009 Dist",
+        "alias": null
+      },
+      "B150": {
+        "content": "=sqrt((B148 - -17.9948095708183) ^ 2 + (B149 - 42.5729320949485) ^ 2)",
+        "alias": "D9Dist"
+      },
+      "A151": {
+        "content": "'Porta 009 L",
+        "alias": null
+      },
+      "B151": {
+        "content": "=(410.187699861557 - 276.080400122396 + B150 ^ 2) / (2 * B150)",
+        "alias": "D9L"
+      },
+      "A152": {
+        "content": "'Porta 009 H",
+        "alias": null
+      },
+      "B152": {
+        "content": "=sqrt(410.187699861557 - B151 ^ 2)",
+        "alias": "D9H"
+      },
+      "A153": {
+        "content": "'Porta 009 Cx",
+        "alias": null
+      },
+      "B153": {
+        "content": "=-17.9948095708183 + (B151 * (B148 - -17.9948095708183) - 1 * B152 * (B149 - 42.5729320949485)) / B150",
+        "alias": "D9Cx"
+      },
+      "A154": {
+        "content": "'Porta 009 Cz",
+        "alias": null
+      },
+      "B154": {
+        "content": "=42.5729320949485 + (B151 * (B149 - 42.5729320949485) + 1 * B152 * (B148 - -17.9948095708183)) / B150",
+        "alias": "D9Cz"
+      },
+      "A155": {
+        "content": "'Porta 009 Dx",
+        "alias": null
+      },
+      "B155": {
+        "content": "=B153 + cos(B147) * 4.80000000000059 - sin(B147) * -4.60000000000009",
+        "alias": "D9Dx"
+      },
+      "A156": {
+        "content": "'Porta 009 Dz",
+        "alias": null
+      },
+      "B156": {
+        "content": "=B154 + sin(B147) * 4.80000000000059 + cos(B147) * -4.60000000000009",
+        "alias": "D9Dz"
+      },
+      "A157": {
+        "content": "'Porta 009 Theta2",
+        "alias": null
+      },
+      "B157": {
+        "content": "=atan2(sin(atan2(B154 - 42.5729320949485; B153 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B154 - 42.5729320949485; B153 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D9Theta2"
+      },
+      "A158": {
+        "content": "'Porta 009 Theta3",
+        "alias": null
+      },
+      "B158": {
+        "content": "=atan2(sin(atan2(B156 - 34.2911039130707; B155 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B156 - 34.2911039130707; B155 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D9Theta3"
+      },
+      "A159": {
+        "content": "'Porta 009 T2x",
+        "alias": null
+      },
+      "B159": {
+        "content": "=-17.9948095708183 - cos(B157) * -17.9948095708183 + sin(B157) * 42.5729320949485",
+        "alias": "D9T2x"
+      },
+      "A160": {
+        "content": "'Porta 009 T2z",
+        "alias": null
+      },
+      "B160": {
+        "content": "=42.5729320949485 - sin(B157) * -17.9948095708183 - cos(B157) * 42.5729320949485",
+        "alias": "D9T2z"
+      },
+      "A161": {
+        "content": "'Porta 009 T3x",
+        "alias": null
+      },
+      "B161": {
+        "content": "=-8.42772945377876 - cos(B158) * -8.42772945377876 + sin(B158) * 34.2911039130707",
+        "alias": "D9T3x"
+      },
+      "A162": {
+        "content": "'Porta 009 T3z",
+        "alias": null
+      },
+      "B162": {
+        "content": "=34.2911039130707 - sin(B158) * -8.42772945377876 - cos(B158) * 34.2911039130707",
+        "alias": "D9T3z"
+      },
+      "A163": {
+        "content": "'Porta 009 T4x",
+        "alias": null
+      },
+      "B163": {
+        "content": "=B153 - cos(B147) * 2.05999999999998 + sin(B147) * 45.4000000000001",
+        "alias": "D9T4x"
+      },
+      "A164": {
+        "content": "'Porta 009 T4z",
+        "alias": null
+      },
+      "B164": {
+        "content": "=B154 - sin(B147) * 2.05999999999998 - cos(B147) * 45.4000000000001",
+        "alias": "D9T4z"
+      },
+      "A165": {
+        "content": "'Porta 010 Theta",
+        "alias": null
+      },
+      "B165": {
+        "content": "=-min(ControlePortaR009.CursoEstudo; max(0 deg; ControlePortaR009.Abertura))",
+        "alias": "D10Theta"
+      },
+      "A166": {
+        "content": "'Porta 010 Qx",
+        "alias": null
+      },
+      "B166": {
+        "content": "=-8.42772945377876 - cos(B165) * 4.80000000000059 + sin(B165) * -4.60000000000009",
+        "alias": "D10Qx"
+      },
+      "A167": {
+        "content": "'Porta 010 Qz",
+        "alias": null
+      },
+      "B167": {
+        "content": "=34.2911039130707 - sin(B165) * 4.80000000000059 - cos(B165) * -4.60000000000009",
+        "alias": "D10Qz"
+      },
+      "A168": {
+        "content": "'Porta 010 Dist",
+        "alias": null
+      },
+      "B168": {
+        "content": "=sqrt((B166 - -17.9948095708183) ^ 2 + (B167 - 42.5729320949485) ^ 2)",
+        "alias": "D10Dist"
+      },
+      "A169": {
+        "content": "'Porta 010 L",
+        "alias": null
+      },
+      "B169": {
+        "content": "=(410.187699861557 - 276.080400122396 + B168 ^ 2) / (2 * B168)",
+        "alias": "D10L"
+      },
+      "A170": {
+        "content": "'Porta 010 H",
+        "alias": null
+      },
+      "B170": {
+        "content": "=sqrt(410.187699861557 - B169 ^ 2)",
+        "alias": "D10H"
+      },
+      "A171": {
+        "content": "'Porta 010 Cx",
+        "alias": null
+      },
+      "B171": {
+        "content": "=-17.9948095708183 + (B169 * (B166 - -17.9948095708183) - 1 * B170 * (B167 - 42.5729320949485)) / B168",
+        "alias": "D10Cx"
+      },
+      "A172": {
+        "content": "'Porta 010 Cz",
+        "alias": null
+      },
+      "B172": {
+        "content": "=42.5729320949485 + (B169 * (B167 - 42.5729320949485) + 1 * B170 * (B166 - -17.9948095708183)) / B168",
+        "alias": "D10Cz"
+      },
+      "A173": {
+        "content": "'Porta 010 Dx",
+        "alias": null
+      },
+      "B173": {
+        "content": "=B171 + cos(B165) * 4.80000000000059 - sin(B165) * -4.60000000000009",
+        "alias": "D10Dx"
+      },
+      "A174": {
+        "content": "'Porta 010 Dz",
+        "alias": null
+      },
+      "B174": {
+        "content": "=B172 + sin(B165) * 4.80000000000059 + cos(B165) * -4.60000000000009",
+        "alias": "D10Dz"
+      },
+      "A175": {
+        "content": "'Porta 010 Theta2",
+        "alias": null
+      },
+      "B175": {
+        "content": "=atan2(sin(atan2(B172 - 42.5729320949485; B171 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B172 - 42.5729320949485; B171 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D10Theta2"
+      },
+      "A176": {
+        "content": "'Porta 010 Theta3",
+        "alias": null
+      },
+      "B176": {
+        "content": "=atan2(sin(atan2(B174 - 34.2911039130707; B173 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B174 - 34.2911039130707; B173 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D10Theta3"
+      },
+      "A177": {
+        "content": "'Porta 010 T2x",
+        "alias": null
+      },
+      "B177": {
+        "content": "=-17.9948095708183 - cos(B175) * -17.9948095708183 + sin(B175) * 42.5729320949485",
+        "alias": "D10T2x"
+      },
+      "A178": {
+        "content": "'Porta 010 T2z",
+        "alias": null
+      },
+      "B178": {
+        "content": "=42.5729320949485 - sin(B175) * -17.9948095708183 - cos(B175) * 42.5729320949485",
+        "alias": "D10T2z"
+      },
+      "A179": {
+        "content": "'Porta 010 T3x",
+        "alias": null
+      },
+      "B179": {
+        "content": "=-8.42772945377876 - cos(B176) * -8.42772945377876 + sin(B176) * 34.2911039130707",
+        "alias": "D10T3x"
+      },
+      "A180": {
+        "content": "'Porta 010 T3z",
+        "alias": null
+      },
+      "B180": {
+        "content": "=34.2911039130707 - sin(B176) * -8.42772945377876 - cos(B176) * 34.2911039130707",
+        "alias": "D10T3z"
+      },
+      "A181": {
+        "content": "'Porta 010 T4x",
+        "alias": null
+      },
+      "B181": {
+        "content": "=B171 - cos(B165) * 2.05999999999998 + sin(B165) * 45.4000000000001",
+        "alias": "D10T4x"
+      },
+      "A182": {
+        "content": "'Porta 010 T4z",
+        "alias": null
+      },
+      "B182": {
+        "content": "=B172 - sin(B165) * 2.05999999999998 - cos(B165) * 45.4000000000001",
+        "alias": "D10T4z"
+      },
+      "A183": {
+        "content": "'Porta 011 Theta",
+        "alias": null
+      },
+      "B183": {
+        "content": "=-min(ControlePortaR010.CursoEstudo; max(0 deg; ControlePortaR010.Abertura))",
+        "alias": "D11Theta"
+      },
+      "A184": {
+        "content": "'Porta 011 Qx",
+        "alias": null
+      },
+      "B184": {
+        "content": "=-8.42772945377876 - cos(B183) * 4.80000000000059 + sin(B183) * -4.60000000000009",
+        "alias": "D11Qx"
+      },
+      "A185": {
+        "content": "'Porta 011 Qz",
+        "alias": null
+      },
+      "B185": {
+        "content": "=34.2911039130707 - sin(B183) * 4.80000000000059 - cos(B183) * -4.60000000000009",
+        "alias": "D11Qz"
+      },
+      "A186": {
+        "content": "'Porta 011 Dist",
+        "alias": null
+      },
+      "B186": {
+        "content": "=sqrt((B184 - -17.9948095708183) ^ 2 + (B185 - 42.5729320949485) ^ 2)",
+        "alias": "D11Dist"
+      },
+      "A187": {
+        "content": "'Porta 011 L",
+        "alias": null
+      },
+      "B187": {
+        "content": "=(410.187699861557 - 276.080400122396 + B186 ^ 2) / (2 * B186)",
+        "alias": "D11L"
+      },
+      "A188": {
+        "content": "'Porta 011 H",
+        "alias": null
+      },
+      "B188": {
+        "content": "=sqrt(410.187699861557 - B187 ^ 2)",
+        "alias": "D11H"
+      },
+      "A189": {
+        "content": "'Porta 011 Cx",
+        "alias": null
+      },
+      "B189": {
+        "content": "=-17.9948095708183 + (B187 * (B184 - -17.9948095708183) - 1 * B188 * (B185 - 42.5729320949485)) / B186",
+        "alias": "D11Cx"
+      },
+      "A190": {
+        "content": "'Porta 011 Cz",
+        "alias": null
+      },
+      "B190": {
+        "content": "=42.5729320949485 + (B187 * (B185 - 42.5729320949485) + 1 * B188 * (B184 - -17.9948095708183)) / B186",
+        "alias": "D11Cz"
+      },
+      "A191": {
+        "content": "'Porta 011 Dx",
+        "alias": null
+      },
+      "B191": {
+        "content": "=B189 + cos(B183) * 4.80000000000059 - sin(B183) * -4.60000000000009",
+        "alias": "D11Dx"
+      },
+      "A192": {
+        "content": "'Porta 011 Dz",
+        "alias": null
+      },
+      "B192": {
+        "content": "=B190 + sin(B183) * 4.80000000000059 + cos(B183) * -4.60000000000009",
+        "alias": "D11Dz"
+      },
+      "A193": {
+        "content": "'Porta 011 Theta2",
+        "alias": null
+      },
+      "B193": {
+        "content": "=atan2(sin(atan2(B190 - 42.5729320949485; B189 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B190 - 42.5729320949485; B189 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D11Theta2"
+      },
+      "A194": {
+        "content": "'Porta 011 Theta3",
+        "alias": null
+      },
+      "B194": {
+        "content": "=atan2(sin(atan2(B192 - 34.2911039130707; B191 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B192 - 34.2911039130707; B191 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D11Theta3"
+      },
+      "A195": {
+        "content": "'Porta 011 T2x",
+        "alias": null
+      },
+      "B195": {
+        "content": "=-17.9948095708183 - cos(B193) * -17.9948095708183 + sin(B193) * 42.5729320949485",
+        "alias": "D11T2x"
+      },
+      "A196": {
+        "content": "'Porta 011 T2z",
+        "alias": null
+      },
+      "B196": {
+        "content": "=42.5729320949485 - sin(B193) * -17.9948095708183 - cos(B193) * 42.5729320949485",
+        "alias": "D11T2z"
+      },
+      "A197": {
+        "content": "'Porta 011 T3x",
+        "alias": null
+      },
+      "B197": {
+        "content": "=-8.42772945377876 - cos(B194) * -8.42772945377876 + sin(B194) * 34.2911039130707",
+        "alias": "D11T3x"
+      },
+      "A198": {
+        "content": "'Porta 011 T3z",
+        "alias": null
+      },
+      "B198": {
+        "content": "=34.2911039130707 - sin(B194) * -8.42772945377876 - cos(B194) * 34.2911039130707",
+        "alias": "D11T3z"
+      },
+      "A199": {
+        "content": "'Porta 011 T4x",
+        "alias": null
+      },
+      "B199": {
+        "content": "=B189 - cos(B183) * 2.05999999999998 + sin(B183) * 45.4000000000001",
+        "alias": "D11T4x"
+      },
+      "A200": {
+        "content": "'Porta 011 T4z",
+        "alias": null
+      },
+      "B200": {
+        "content": "=B190 - sin(B183) * 2.05999999999998 - cos(B183) * 45.4000000000001",
+        "alias": "D11T4z"
+      },
+      "A201": {
+        "content": "'Porta 012 Theta",
+        "alias": null
+      },
+      "B201": {
+        "content": "=-min(ControlePortaR011.CursoEstudo; max(0 deg; ControlePortaR011.Abertura))",
+        "alias": "D12Theta"
+      },
+      "A202": {
+        "content": "'Porta 012 Qx",
+        "alias": null
+      },
+      "B202": {
+        "content": "=-8.42772945377876 - cos(B201) * 4.80000000000059 + sin(B201) * -4.60000000000009",
+        "alias": "D12Qx"
+      },
+      "A203": {
+        "content": "'Porta 012 Qz",
+        "alias": null
+      },
+      "B203": {
+        "content": "=34.2911039130707 - sin(B201) * 4.80000000000059 - cos(B201) * -4.60000000000009",
+        "alias": "D12Qz"
+      },
+      "A204": {
+        "content": "'Porta 012 Dist",
+        "alias": null
+      },
+      "B204": {
+        "content": "=sqrt((B202 - -17.9948095708183) ^ 2 + (B203 - 42.5729320949485) ^ 2)",
+        "alias": "D12Dist"
+      },
+      "A205": {
+        "content": "'Porta 012 L",
+        "alias": null
+      },
+      "B205": {
+        "content": "=(410.187699861557 - 276.080400122396 + B204 ^ 2) / (2 * B204)",
+        "alias": "D12L"
+      },
+      "A206": {
+        "content": "'Porta 012 H",
+        "alias": null
+      },
+      "B206": {
+        "content": "=sqrt(410.187699861557 - B205 ^ 2)",
+        "alias": "D12H"
+      },
+      "A207": {
+        "content": "'Porta 012 Cx",
+        "alias": null
+      },
+      "B207": {
+        "content": "=-17.9948095708183 + (B205 * (B202 - -17.9948095708183) - 1 * B206 * (B203 - 42.5729320949485)) / B204",
+        "alias": "D12Cx"
+      },
+      "A208": {
+        "content": "'Porta 012 Cz",
+        "alias": null
+      },
+      "B208": {
+        "content": "=42.5729320949485 + (B205 * (B203 - 42.5729320949485) + 1 * B206 * (B202 - -17.9948095708183)) / B204",
+        "alias": "D12Cz"
+      },
+      "A209": {
+        "content": "'Porta 012 Dx",
+        "alias": null
+      },
+      "B209": {
+        "content": "=B207 + cos(B201) * 4.80000000000059 - sin(B201) * -4.60000000000009",
+        "alias": "D12Dx"
+      },
+      "A210": {
+        "content": "'Porta 012 Dz",
+        "alias": null
+      },
+      "B210": {
+        "content": "=B208 + sin(B201) * 4.80000000000059 + cos(B201) * -4.60000000000009",
+        "alias": "D12Dz"
+      },
+      "A211": {
+        "content": "'Porta 012 Theta2",
+        "alias": null
+      },
+      "B211": {
+        "content": "=atan2(sin(atan2(B208 - 42.5729320949485; B207 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B208 - 42.5729320949485; B207 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D12Theta2"
+      },
+      "A212": {
+        "content": "'Porta 012 Theta3",
+        "alias": null
+      },
+      "B212": {
+        "content": "=atan2(sin(atan2(B210 - 34.2911039130707; B209 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B210 - 34.2911039130707; B209 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D12Theta3"
+      },
+      "A213": {
+        "content": "'Porta 012 T2x",
+        "alias": null
+      },
+      "B213": {
+        "content": "=-17.9948095708183 - cos(B211) * -17.9948095708183 + sin(B211) * 42.5729320949485",
+        "alias": "D12T2x"
+      },
+      "A214": {
+        "content": "'Porta 012 T2z",
+        "alias": null
+      },
+      "B214": {
+        "content": "=42.5729320949485 - sin(B211) * -17.9948095708183 - cos(B211) * 42.5729320949485",
+        "alias": "D12T2z"
+      },
+      "A215": {
+        "content": "'Porta 012 T3x",
+        "alias": null
+      },
+      "B215": {
+        "content": "=-8.42772945377876 - cos(B212) * -8.42772945377876 + sin(B212) * 34.2911039130707",
+        "alias": "D12T3x"
+      },
+      "A216": {
+        "content": "'Porta 012 T3z",
+        "alias": null
+      },
+      "B216": {
+        "content": "=34.2911039130707 - sin(B212) * -8.42772945377876 - cos(B212) * 34.2911039130707",
+        "alias": "D12T3z"
+      },
+      "A217": {
+        "content": "'Porta 012 T4x",
+        "alias": null
+      },
+      "B217": {
+        "content": "=B207 - cos(B201) * 2.05999999999998 + sin(B201) * 45.4000000000001",
+        "alias": "D12T4x"
+      },
+      "A218": {
+        "content": "'Porta 012 T4z",
+        "alias": null
+      },
+      "B218": {
+        "content": "=B208 - sin(B201) * 2.05999999999998 - cos(B201) * 45.4000000000001",
+        "alias": "D12T4z"
+      }
+    },
+    "CinematicaComumR11": {
+      "A1": {
+        "content": "'MONTAGEM PROPOSTA - NÃO LIBERA CORTE/COMPRA",
+        "alias": null
+      },
+      "A3": {
+        "content": "'Escritório porta 1 - proposta Theta",
+        "alias": null
+      },
+      "B3": {
+        "content": "=-min(ControlePortaR11.CursoEstudo; max(0 deg; ControlePortaR11.Abertura))",
+        "alias": "D1Theta"
+      },
+      "A4": {
+        "content": "'Escritório porta 1 - proposta Qx",
+        "alias": null
+      },
+      "B4": {
+        "content": "=-8.42772945377876 - cos(B3) * 4.80000000000059 + sin(B3) * -4.60000000000009",
+        "alias": "D1Qx"
+      },
+      "A5": {
+        "content": "'Escritório porta 1 - proposta Qz",
+        "alias": null
+      },
+      "B5": {
+        "content": "=34.2911039130707 - sin(B3) * 4.80000000000059 - cos(B3) * -4.60000000000009",
+        "alias": "D1Qz"
+      },
+      "A6": {
+        "content": "'Escritório porta 1 - proposta Dist",
+        "alias": null
+      },
+      "B6": {
+        "content": "=sqrt((B4 - -17.9948095708183) ^ 2 + (B5 - 42.5729320949485) ^ 2)",
+        "alias": "D1Dist"
+      },
+      "A7": {
+        "content": "'Escritório porta 1 - proposta L",
+        "alias": null
+      },
+      "B7": {
+        "content": "=(410.187699861557 - 276.080400122396 + B6 ^ 2) / (2 * B6)",
+        "alias": "D1L"
+      },
+      "A8": {
+        "content": "'Escritório porta 1 - proposta H",
+        "alias": null
+      },
+      "B8": {
+        "content": "=sqrt(410.187699861557 - B7 ^ 2)",
+        "alias": "D1H"
+      },
+      "A9": {
+        "content": "'Escritório porta 1 - proposta Cx",
+        "alias": null
+      },
+      "B9": {
+        "content": "=-17.9948095708183 + (B7 * (B4 - -17.9948095708183) - 1 * B8 * (B5 - 42.5729320949485)) / B6",
+        "alias": "D1Cx"
+      },
+      "A10": {
+        "content": "'Escritório porta 1 - proposta Cz",
+        "alias": null
+      },
+      "B10": {
+        "content": "=42.5729320949485 + (B7 * (B5 - 42.5729320949485) + 1 * B8 * (B4 - -17.9948095708183)) / B6",
+        "alias": "D1Cz"
+      },
+      "A11": {
+        "content": "'Escritório porta 1 - proposta Dx",
+        "alias": null
+      },
+      "B11": {
+        "content": "=B9 + cos(B3) * 4.80000000000059 - sin(B3) * -4.60000000000009",
+        "alias": "D1Dx"
+      },
+      "A12": {
+        "content": "'Escritório porta 1 - proposta Dz",
+        "alias": null
+      },
+      "B12": {
+        "content": "=B10 + sin(B3) * 4.80000000000059 + cos(B3) * -4.60000000000009",
+        "alias": "D1Dz"
+      },
+      "A13": {
+        "content": "'Escritório porta 1 - proposta Theta2",
+        "alias": null
+      },
+      "B13": {
+        "content": "=atan2(sin(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D1Theta2"
+      },
+      "A14": {
+        "content": "'Escritório porta 1 - proposta Theta3",
+        "alias": null
+      },
+      "B14": {
+        "content": "=atan2(sin(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D1Theta3"
+      },
+      "A15": {
+        "content": "'Escritório porta 1 - proposta T2x",
+        "alias": null
+      },
+      "B15": {
+        "content": "=-17.9948095708183 - cos(B13) * -17.9948095708183 + sin(B13) * 42.5729320949485",
+        "alias": "D1T2x"
+      },
+      "A16": {
+        "content": "'Escritório porta 1 - proposta T2z",
+        "alias": null
+      },
+      "B16": {
+        "content": "=42.5729320949485 - sin(B13) * -17.9948095708183 - cos(B13) * 42.5729320949485",
+        "alias": "D1T2z"
+      },
+      "A17": {
+        "content": "'Escritório porta 1 - proposta T3x",
+        "alias": null
+      },
+      "B17": {
+        "content": "=-8.42772945377876 - cos(B14) * -8.42772945377876 + sin(B14) * 34.2911039130707",
+        "alias": "D1T3x"
+      },
+      "A18": {
+        "content": "'Escritório porta 1 - proposta T3z",
+        "alias": null
+      },
+      "B18": {
+        "content": "=34.2911039130707 - sin(B14) * -8.42772945377876 - cos(B14) * 34.2911039130707",
+        "alias": "D1T3z"
+      },
+      "A19": {
+        "content": "'Escritório porta 1 - proposta T4x",
+        "alias": null
+      },
+      "B19": {
+        "content": "=B9 - cos(B3) * 2.05999999999998 + sin(B3) * 45.4000000000001",
+        "alias": "D1T4x"
+      },
+      "A20": {
+        "content": "'Escritório porta 1 - proposta T4z",
+        "alias": null
+      },
+      "B20": {
+        "content": "=B10 - sin(B3) * 2.05999999999998 - cos(B3) * 45.4000000000001",
+        "alias": "D1T4z"
+      },
+      "A21": {
+        "content": "'Escritório porta 2 - proposta Theta",
+        "alias": null
+      },
+      "B21": {
+        "content": "=-min(ControlePortaR012.CursoEstudo; max(0 deg; ControlePortaR012.Abertura))",
+        "alias": "D2Theta"
+      },
+      "A22": {
+        "content": "'Escritório porta 2 - proposta Qx",
+        "alias": null
+      },
+      "B22": {
+        "content": "=-8.42772945377876 - cos(B21) * 4.80000000000059 + sin(B21) * -4.60000000000009",
+        "alias": "D2Qx"
+      },
+      "A23": {
+        "content": "'Escritório porta 2 - proposta Qz",
+        "alias": null
+      },
+      "B23": {
+        "content": "=34.2911039130707 - sin(B21) * 4.80000000000059 - cos(B21) * -4.60000000000009",
+        "alias": "D2Qz"
+      },
+      "A24": {
+        "content": "'Escritório porta 2 - proposta Dist",
+        "alias": null
+      },
+      "B24": {
+        "content": "=sqrt((B22 - -17.9948095708183) ^ 2 + (B23 - 42.5729320949485) ^ 2)",
+        "alias": "D2Dist"
+      },
+      "A25": {
+        "content": "'Escritório porta 2 - proposta L",
+        "alias": null
+      },
+      "B25": {
+        "content": "=(410.187699861557 - 276.080400122396 + B24 ^ 2) / (2 * B24)",
+        "alias": "D2L"
+      },
+      "A26": {
+        "content": "'Escritório porta 2 - proposta H",
+        "alias": null
+      },
+      "B26": {
+        "content": "=sqrt(410.187699861557 - B25 ^ 2)",
+        "alias": "D2H"
+      },
+      "A27": {
+        "content": "'Escritório porta 2 - proposta Cx",
+        "alias": null
+      },
+      "B27": {
+        "content": "=-17.9948095708183 + (B25 * (B22 - -17.9948095708183) - 1 * B26 * (B23 - 42.5729320949485)) / B24",
+        "alias": "D2Cx"
+      },
+      "A28": {
+        "content": "'Escritório porta 2 - proposta Cz",
+        "alias": null
+      },
+      "B28": {
+        "content": "=42.5729320949485 + (B25 * (B23 - 42.5729320949485) + 1 * B26 * (B22 - -17.9948095708183)) / B24",
+        "alias": "D2Cz"
+      },
+      "A29": {
+        "content": "'Escritório porta 2 - proposta Dx",
+        "alias": null
+      },
+      "B29": {
+        "content": "=B27 + cos(B21) * 4.80000000000059 - sin(B21) * -4.60000000000009",
+        "alias": "D2Dx"
+      },
+      "A30": {
+        "content": "'Escritório porta 2 - proposta Dz",
+        "alias": null
+      },
+      "B30": {
+        "content": "=B28 + sin(B21) * 4.80000000000059 + cos(B21) * -4.60000000000009",
+        "alias": "D2Dz"
+      },
+      "A31": {
+        "content": "'Escritório porta 2 - proposta Theta2",
+        "alias": null
+      },
+      "B31": {
+        "content": "=atan2(sin(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D2Theta2"
+      },
+      "A32": {
+        "content": "'Escritório porta 2 - proposta Theta3",
+        "alias": null
+      },
+      "B32": {
+        "content": "=atan2(sin(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D2Theta3"
+      },
+      "A33": {
+        "content": "'Escritório porta 2 - proposta T2x",
+        "alias": null
+      },
+      "B33": {
+        "content": "=-17.9948095708183 - cos(B31) * -17.9948095708183 + sin(B31) * 42.5729320949485",
+        "alias": "D2T2x"
+      },
+      "A34": {
+        "content": "'Escritório porta 2 - proposta T2z",
+        "alias": null
+      },
+      "B34": {
+        "content": "=42.5729320949485 - sin(B31) * -17.9948095708183 - cos(B31) * 42.5729320949485",
+        "alias": "D2T2z"
+      },
+      "A35": {
+        "content": "'Escritório porta 2 - proposta T3x",
+        "alias": null
+      },
+      "B35": {
+        "content": "=-8.42772945377876 - cos(B32) * -8.42772945377876 + sin(B32) * 34.2911039130707",
+        "alias": "D2T3x"
+      },
+      "A36": {
+        "content": "'Escritório porta 2 - proposta T3z",
+        "alias": null
+      },
+      "B36": {
+        "content": "=34.2911039130707 - sin(B32) * -8.42772945377876 - cos(B32) * 34.2911039130707",
+        "alias": "D2T3z"
+      },
+      "A37": {
+        "content": "'Escritório porta 2 - proposta T4x",
+        "alias": null
+      },
+      "B37": {
+        "content": "=B27 - cos(B21) * 2.05999999999998 + sin(B21) * 45.4000000000001",
+        "alias": "D2T4x"
+      },
+      "A38": {
+        "content": "'Escritório porta 2 - proposta T4z",
+        "alias": null
+      },
+      "B38": {
+        "content": "=B28 - sin(B21) * 2.05999999999998 - cos(B21) * 45.4000000000001",
+        "alias": "D2T4z"
+      },
+      "A39": {
+        "content": "'Escritório porta 3 - proposta Theta",
+        "alias": null
+      },
+      "B39": {
+        "content": "=-min(ControlePortaR013.CursoEstudo; max(0 deg; ControlePortaR013.Abertura))",
+        "alias": "D3Theta"
+      },
+      "A40": {
+        "content": "'Escritório porta 3 - proposta Qx",
+        "alias": null
+      },
+      "B40": {
+        "content": "=-8.42772945377876 - cos(B39) * 4.80000000000059 + sin(B39) * -4.60000000000009",
+        "alias": "D3Qx"
+      },
+      "A41": {
+        "content": "'Escritório porta 3 - proposta Qz",
+        "alias": null
+      },
+      "B41": {
+        "content": "=34.2911039130707 - sin(B39) * 4.80000000000059 - cos(B39) * -4.60000000000009",
+        "alias": "D3Qz"
+      },
+      "A42": {
+        "content": "'Escritório porta 3 - proposta Dist",
+        "alias": null
+      },
+      "B42": {
+        "content": "=sqrt((B40 - -17.9948095708183) ^ 2 + (B41 - 42.5729320949485) ^ 2)",
+        "alias": "D3Dist"
+      },
+      "A43": {
+        "content": "'Escritório porta 3 - proposta L",
+        "alias": null
+      },
+      "B43": {
+        "content": "=(410.187699861557 - 276.080400122396 + B42 ^ 2) / (2 * B42)",
+        "alias": "D3L"
+      },
+      "A44": {
+        "content": "'Escritório porta 3 - proposta H",
+        "alias": null
+      },
+      "B44": {
+        "content": "=sqrt(410.187699861557 - B43 ^ 2)",
+        "alias": "D3H"
+      },
+      "A45": {
+        "content": "'Escritório porta 3 - proposta Cx",
+        "alias": null
+      },
+      "B45": {
+        "content": "=-17.9948095708183 + (B43 * (B40 - -17.9948095708183) - 1 * B44 * (B41 - 42.5729320949485)) / B42",
+        "alias": "D3Cx"
+      },
+      "A46": {
+        "content": "'Escritório porta 3 - proposta Cz",
+        "alias": null
+      },
+      "B46": {
+        "content": "=42.5729320949485 + (B43 * (B41 - 42.5729320949485) + 1 * B44 * (B40 - -17.9948095708183)) / B42",
+        "alias": "D3Cz"
+      },
+      "A47": {
+        "content": "'Escritório porta 3 - proposta Dx",
+        "alias": null
+      },
+      "B47": {
+        "content": "=B45 + cos(B39) * 4.80000000000059 - sin(B39) * -4.60000000000009",
+        "alias": "D3Dx"
+      },
+      "A48": {
+        "content": "'Escritório porta 3 - proposta Dz",
+        "alias": null
+      },
+      "B48": {
+        "content": "=B46 + sin(B39) * 4.80000000000059 + cos(B39) * -4.60000000000009",
+        "alias": "D3Dz"
+      },
+      "A49": {
+        "content": "'Escritório porta 3 - proposta Theta2",
+        "alias": null
+      },
+      "B49": {
+        "content": "=atan2(sin(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D3Theta2"
+      },
+      "A50": {
+        "content": "'Escritório porta 3 - proposta Theta3",
+        "alias": null
+      },
+      "B50": {
+        "content": "=atan2(sin(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D3Theta3"
+      },
+      "A51": {
+        "content": "'Escritório porta 3 - proposta T2x",
+        "alias": null
+      },
+      "B51": {
+        "content": "=-17.9948095708183 - cos(B49) * -17.9948095708183 + sin(B49) * 42.5729320949485",
+        "alias": "D3T2x"
+      },
+      "A52": {
+        "content": "'Escritório porta 3 - proposta T2z",
+        "alias": null
+      },
+      "B52": {
+        "content": "=42.5729320949485 - sin(B49) * -17.9948095708183 - cos(B49) * 42.5729320949485",
+        "alias": "D3T2z"
+      },
+      "A53": {
+        "content": "'Escritório porta 3 - proposta T3x",
+        "alias": null
+      },
+      "B53": {
+        "content": "=-8.42772945377876 - cos(B50) * -8.42772945377876 + sin(B50) * 34.2911039130707",
+        "alias": "D3T3x"
+      },
+      "A54": {
+        "content": "'Escritório porta 3 - proposta T3z",
+        "alias": null
+      },
+      "B54": {
+        "content": "=34.2911039130707 - sin(B50) * -8.42772945377876 - cos(B50) * 34.2911039130707",
+        "alias": "D3T3z"
+      },
+      "A55": {
+        "content": "'Escritório porta 3 - proposta T4x",
+        "alias": null
+      },
+      "B55": {
+        "content": "=B45 - cos(B39) * 2.05999999999998 + sin(B39) * 45.4000000000001",
+        "alias": "D3T4x"
+      },
+      "A56": {
+        "content": "'Escritório porta 3 - proposta T4z",
+        "alias": null
+      },
+      "B56": {
+        "content": "=B46 - sin(B39) * 2.05999999999998 - cos(B39) * 45.4000000000001",
+        "alias": "D3T4z"
+      },
+      "A57": {
+        "content": "'Escritório porta 4 - proposta Theta",
+        "alias": null
+      },
+      "B57": {
+        "content": "=-min(ControlePortaR014.CursoEstudo; max(0 deg; ControlePortaR014.Abertura))",
+        "alias": "D4Theta"
+      },
+      "A58": {
+        "content": "'Escritório porta 4 - proposta Qx",
+        "alias": null
+      },
+      "B58": {
+        "content": "=-8.42772945377876 - cos(B57) * 4.80000000000059 + sin(B57) * -4.60000000000009",
+        "alias": "D4Qx"
+      },
+      "A59": {
+        "content": "'Escritório porta 4 - proposta Qz",
+        "alias": null
+      },
+      "B59": {
+        "content": "=34.2911039130707 - sin(B57) * 4.80000000000059 - cos(B57) * -4.60000000000009",
+        "alias": "D4Qz"
+      },
+      "A60": {
+        "content": "'Escritório porta 4 - proposta Dist",
+        "alias": null
+      },
+      "B60": {
+        "content": "=sqrt((B58 - -17.9948095708183) ^ 2 + (B59 - 42.5729320949485) ^ 2)",
+        "alias": "D4Dist"
+      },
+      "A61": {
+        "content": "'Escritório porta 4 - proposta L",
+        "alias": null
+      },
+      "B61": {
+        "content": "=(410.187699861557 - 276.080400122396 + B60 ^ 2) / (2 * B60)",
+        "alias": "D4L"
+      },
+      "A62": {
+        "content": "'Escritório porta 4 - proposta H",
+        "alias": null
+      },
+      "B62": {
+        "content": "=sqrt(410.187699861557 - B61 ^ 2)",
+        "alias": "D4H"
+      },
+      "A63": {
+        "content": "'Escritório porta 4 - proposta Cx",
+        "alias": null
+      },
+      "B63": {
+        "content": "=-17.9948095708183 + (B61 * (B58 - -17.9948095708183) - 1 * B62 * (B59 - 42.5729320949485)) / B60",
+        "alias": "D4Cx"
+      },
+      "A64": {
+        "content": "'Escritório porta 4 - proposta Cz",
+        "alias": null
+      },
+      "B64": {
+        "content": "=42.5729320949485 + (B61 * (B59 - 42.5729320949485) + 1 * B62 * (B58 - -17.9948095708183)) / B60",
+        "alias": "D4Cz"
+      },
+      "A65": {
+        "content": "'Escritório porta 4 - proposta Dx",
+        "alias": null
+      },
+      "B65": {
+        "content": "=B63 + cos(B57) * 4.80000000000059 - sin(B57) * -4.60000000000009",
+        "alias": "D4Dx"
+      },
+      "A66": {
+        "content": "'Escritório porta 4 - proposta Dz",
+        "alias": null
+      },
+      "B66": {
+        "content": "=B64 + sin(B57) * 4.80000000000059 + cos(B57) * -4.60000000000009",
+        "alias": "D4Dz"
+      },
+      "A67": {
+        "content": "'Escritório porta 4 - proposta Theta2",
+        "alias": null
+      },
+      "B67": {
+        "content": "=atan2(sin(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D4Theta2"
+      },
+      "A68": {
+        "content": "'Escritório porta 4 - proposta Theta3",
+        "alias": null
+      },
+      "B68": {
+        "content": "=atan2(sin(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D4Theta3"
+      },
+      "A69": {
+        "content": "'Escritório porta 4 - proposta T2x",
+        "alias": null
+      },
+      "B69": {
+        "content": "=-17.9948095708183 - cos(B67) * -17.9948095708183 + sin(B67) * 42.5729320949485",
+        "alias": "D4T2x"
+      },
+      "A70": {
+        "content": "'Escritório porta 4 - proposta T2z",
+        "alias": null
+      },
+      "B70": {
+        "content": "=42.5729320949485 - sin(B67) * -17.9948095708183 - cos(B67) * 42.5729320949485",
+        "alias": "D4T2z"
+      },
+      "A71": {
+        "content": "'Escritório porta 4 - proposta T3x",
+        "alias": null
+      },
+      "B71": {
+        "content": "=-8.42772945377876 - cos(B68) * -8.42772945377876 + sin(B68) * 34.2911039130707",
+        "alias": "D4T3x"
+      },
+      "A72": {
+        "content": "'Escritório porta 4 - proposta T3z",
+        "alias": null
+      },
+      "B72": {
+        "content": "=34.2911039130707 - sin(B68) * -8.42772945377876 - cos(B68) * 34.2911039130707",
+        "alias": "D4T3z"
+      },
+      "A73": {
+        "content": "'Escritório porta 4 - proposta T4x",
+        "alias": null
+      },
+      "B73": {
+        "content": "=B63 - cos(B57) * 2.05999999999998 + sin(B57) * 45.4000000000001",
+        "alias": "D4T4x"
+      },
+      "A74": {
+        "content": "'Escritório porta 4 - proposta T4z",
+        "alias": null
+      },
+      "B74": {
+        "content": "=B64 - sin(B57) * 2.05999999999998 - cos(B57) * 45.4000000000001",
+        "alias": "D4T4z"
+      },
+      "A75": {
+        "content": "'Porta 1 Theta",
+        "alias": null
+      },
+      "B75": {
+        "content": "=-min(ControlePortaR015.CursoEstudo; max(0 deg; ControlePortaR015.Abertura))",
+        "alias": "D5Theta"
+      },
+      "A76": {
+        "content": "'Porta 1 Qx",
+        "alias": null
+      },
+      "B76": {
+        "content": "=-8.42772945377876 - cos(B75) * 4.80000000000059 + sin(B75) * -4.60000000000009",
+        "alias": "D5Qx"
+      },
+      "A77": {
+        "content": "'Porta 1 Qz",
+        "alias": null
+      },
+      "B77": {
+        "content": "=34.2911039130707 - sin(B75) * 4.80000000000059 - cos(B75) * -4.60000000000009",
+        "alias": "D5Qz"
+      },
+      "A78": {
+        "content": "'Porta 1 Dist",
+        "alias": null
+      },
+      "B78": {
+        "content": "=sqrt((B76 - -17.9948095708183) ^ 2 + (B77 - 42.5729320949485) ^ 2)",
+        "alias": "D5Dist"
+      },
+      "A79": {
+        "content": "'Porta 1 L",
+        "alias": null
+      },
+      "B79": {
+        "content": "=(410.187699861557 - 276.080400122396 + B78 ^ 2) / (2 * B78)",
+        "alias": "D5L"
+      },
+      "A80": {
+        "content": "'Porta 1 H",
+        "alias": null
+      },
+      "B80": {
+        "content": "=sqrt(410.187699861557 - B79 ^ 2)",
+        "alias": "D5H"
+      },
+      "A81": {
+        "content": "'Porta 1 Cx",
+        "alias": null
+      },
+      "B81": {
+        "content": "=-17.9948095708183 + (B79 * (B76 - -17.9948095708183) - 1 * B80 * (B77 - 42.5729320949485)) / B78",
+        "alias": "D5Cx"
+      },
+      "A82": {
+        "content": "'Porta 1 Cz",
+        "alias": null
+      },
+      "B82": {
+        "content": "=42.5729320949485 + (B79 * (B77 - 42.5729320949485) + 1 * B80 * (B76 - -17.9948095708183)) / B78",
+        "alias": "D5Cz"
+      },
+      "A83": {
+        "content": "'Porta 1 Dx",
+        "alias": null
+      },
+      "B83": {
+        "content": "=B81 + cos(B75) * 4.80000000000059 - sin(B75) * -4.60000000000009",
+        "alias": "D5Dx"
+      },
+      "A84": {
+        "content": "'Porta 1 Dz",
+        "alias": null
+      },
+      "B84": {
+        "content": "=B82 + sin(B75) * 4.80000000000059 + cos(B75) * -4.60000000000009",
+        "alias": "D5Dz"
+      },
+      "A85": {
+        "content": "'Porta 1 Theta2",
+        "alias": null
+      },
+      "B85": {
+        "content": "=atan2(sin(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B82 - 42.5729320949485; B81 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D5Theta2"
+      },
+      "A86": {
+        "content": "'Porta 1 Theta3",
+        "alias": null
+      },
+      "B86": {
+        "content": "=atan2(sin(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B84 - 34.2911039130707; B83 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D5Theta3"
+      },
+      "A87": {
+        "content": "'Porta 1 T2x",
+        "alias": null
+      },
+      "B87": {
+        "content": "=-17.9948095708183 - cos(B85) * -17.9948095708183 + sin(B85) * 42.5729320949485",
+        "alias": "D5T2x"
+      },
+      "A88": {
+        "content": "'Porta 1 T2z",
+        "alias": null
+      },
+      "B88": {
+        "content": "=42.5729320949485 - sin(B85) * -17.9948095708183 - cos(B85) * 42.5729320949485",
+        "alias": "D5T2z"
+      },
+      "A89": {
+        "content": "'Porta 1 T3x",
+        "alias": null
+      },
+      "B89": {
+        "content": "=-8.42772945377876 - cos(B86) * -8.42772945377876 + sin(B86) * 34.2911039130707",
+        "alias": "D5T3x"
+      },
+      "A90": {
+        "content": "'Porta 1 T3z",
+        "alias": null
+      },
+      "B90": {
+        "content": "=34.2911039130707 - sin(B86) * -8.42772945377876 - cos(B86) * 34.2911039130707",
+        "alias": "D5T3z"
+      },
+      "A91": {
+        "content": "'Porta 1 T4x",
+        "alias": null
+      },
+      "B91": {
+        "content": "=B81 - cos(B75) * 2.05999999999998 + sin(B75) * 45.4000000000001",
+        "alias": "D5T4x"
+      },
+      "A92": {
+        "content": "'Porta 1 T4z",
+        "alias": null
+      },
+      "B92": {
+        "content": "=B82 - sin(B75) * 2.05999999999998 - cos(B75) * 45.4000000000001",
+        "alias": "D5T4z"
+      },
+      "A93": {
+        "content": "'Porta 2 Theta",
+        "alias": null
+      },
+      "B93": {
+        "content": "=-min(ControlePortaR016.CursoEstudo; max(0 deg; ControlePortaR016.Abertura))",
+        "alias": "D6Theta"
+      },
+      "A94": {
+        "content": "'Porta 2 Qx",
+        "alias": null
+      },
+      "B94": {
+        "content": "=-8.42772945377876 - cos(B93) * 4.80000000000059 + sin(B93) * -4.60000000000009",
+        "alias": "D6Qx"
+      },
+      "A95": {
+        "content": "'Porta 2 Qz",
+        "alias": null
+      },
+      "B95": {
+        "content": "=34.2911039130707 - sin(B93) * 4.80000000000059 - cos(B93) * -4.60000000000009",
+        "alias": "D6Qz"
+      },
+      "A96": {
+        "content": "'Porta 2 Dist",
+        "alias": null
+      },
+      "B96": {
+        "content": "=sqrt((B94 - -17.9948095708183) ^ 2 + (B95 - 42.5729320949485) ^ 2)",
+        "alias": "D6Dist"
+      },
+      "A97": {
+        "content": "'Porta 2 L",
+        "alias": null
+      },
+      "B97": {
+        "content": "=(410.187699861557 - 276.080400122396 + B96 ^ 2) / (2 * B96)",
+        "alias": "D6L"
+      },
+      "A98": {
+        "content": "'Porta 2 H",
+        "alias": null
+      },
+      "B98": {
+        "content": "=sqrt(410.187699861557 - B97 ^ 2)",
+        "alias": "D6H"
+      },
+      "A99": {
+        "content": "'Porta 2 Cx",
+        "alias": null
+      },
+      "B99": {
+        "content": "=-17.9948095708183 + (B97 * (B94 - -17.9948095708183) - 1 * B98 * (B95 - 42.5729320949485)) / B96",
+        "alias": "D6Cx"
+      },
+      "A100": {
+        "content": "'Porta 2 Cz",
+        "alias": null
+      },
+      "B100": {
+        "content": "=42.5729320949485 + (B97 * (B95 - 42.5729320949485) + 1 * B98 * (B94 - -17.9948095708183)) / B96",
+        "alias": "D6Cz"
+      },
+      "A101": {
+        "content": "'Porta 2 Dx",
+        "alias": null
+      },
+      "B101": {
+        "content": "=B99 + cos(B93) * 4.80000000000059 - sin(B93) * -4.60000000000009",
+        "alias": "D6Dx"
+      },
+      "A102": {
+        "content": "'Porta 2 Dz",
+        "alias": null
+      },
+      "B102": {
+        "content": "=B100 + sin(B93) * 4.80000000000059 + cos(B93) * -4.60000000000009",
+        "alias": "D6Dz"
+      },
+      "A103": {
+        "content": "'Porta 2 Theta2",
+        "alias": null
+      },
+      "B103": {
+        "content": "=atan2(sin(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B100 - 42.5729320949485; B99 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D6Theta2"
+      },
+      "A104": {
+        "content": "'Porta 2 Theta3",
+        "alias": null
+      },
+      "B104": {
+        "content": "=atan2(sin(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B102 - 34.2911039130707; B101 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D6Theta3"
+      },
+      "A105": {
+        "content": "'Porta 2 T2x",
+        "alias": null
+      },
+      "B105": {
+        "content": "=-17.9948095708183 - cos(B103) * -17.9948095708183 + sin(B103) * 42.5729320949485",
+        "alias": "D6T2x"
+      },
+      "A106": {
+        "content": "'Porta 2 T2z",
+        "alias": null
+      },
+      "B106": {
+        "content": "=42.5729320949485 - sin(B103) * -17.9948095708183 - cos(B103) * 42.5729320949485",
+        "alias": "D6T2z"
+      },
+      "A107": {
+        "content": "'Porta 2 T3x",
+        "alias": null
+      },
+      "B107": {
+        "content": "=-8.42772945377876 - cos(B104) * -8.42772945377876 + sin(B104) * 34.2911039130707",
+        "alias": "D6T3x"
+      },
+      "A108": {
+        "content": "'Porta 2 T3z",
+        "alias": null
+      },
+      "B108": {
+        "content": "=34.2911039130707 - sin(B104) * -8.42772945377876 - cos(B104) * 34.2911039130707",
+        "alias": "D6T3z"
+      },
+      "A109": {
+        "content": "'Porta 2 T4x",
+        "alias": null
+      },
+      "B109": {
+        "content": "=B99 - cos(B93) * 2.05999999999998 + sin(B93) * 45.4000000000001",
+        "alias": "D6T4x"
+      },
+      "A110": {
+        "content": "'Porta 2 T4z",
+        "alias": null
+      },
+      "B110": {
+        "content": "=B100 - sin(B93) * 2.05999999999998 - cos(B93) * 45.4000000000001",
+        "alias": "D6T4z"
+      },
+      "A111": {
+        "content": "'Porta 3 Theta",
+        "alias": null
+      },
+      "B111": {
+        "content": "=-min(ControlePortaR017.CursoEstudo; max(0 deg; ControlePortaR017.Abertura))",
+        "alias": "D7Theta"
+      },
+      "A112": {
+        "content": "'Porta 3 Qx",
+        "alias": null
+      },
+      "B112": {
+        "content": "=-8.42772945377876 - cos(B111) * 4.80000000000059 + sin(B111) * -4.60000000000009",
+        "alias": "D7Qx"
+      },
+      "A113": {
+        "content": "'Porta 3 Qz",
+        "alias": null
+      },
+      "B113": {
+        "content": "=34.2911039130707 - sin(B111) * 4.80000000000059 - cos(B111) * -4.60000000000009",
+        "alias": "D7Qz"
+      },
+      "A114": {
+        "content": "'Porta 3 Dist",
+        "alias": null
+      },
+      "B114": {
+        "content": "=sqrt((B112 - -17.9948095708183) ^ 2 + (B113 - 42.5729320949485) ^ 2)",
+        "alias": "D7Dist"
+      },
+      "A115": {
+        "content": "'Porta 3 L",
+        "alias": null
+      },
+      "B115": {
+        "content": "=(410.187699861557 - 276.080400122396 + B114 ^ 2) / (2 * B114)",
+        "alias": "D7L"
+      },
+      "A116": {
+        "content": "'Porta 3 H",
+        "alias": null
+      },
+      "B116": {
+        "content": "=sqrt(410.187699861557 - B115 ^ 2)",
+        "alias": "D7H"
+      },
+      "A117": {
+        "content": "'Porta 3 Cx",
+        "alias": null
+      },
+      "B117": {
+        "content": "=-17.9948095708183 + (B115 * (B112 - -17.9948095708183) - 1 * B116 * (B113 - 42.5729320949485)) / B114",
+        "alias": "D7Cx"
+      },
+      "A118": {
+        "content": "'Porta 3 Cz",
+        "alias": null
+      },
+      "B118": {
+        "content": "=42.5729320949485 + (B115 * (B113 - 42.5729320949485) + 1 * B116 * (B112 - -17.9948095708183)) / B114",
+        "alias": "D7Cz"
+      },
+      "A119": {
+        "content": "'Porta 3 Dx",
+        "alias": null
+      },
+      "B119": {
+        "content": "=B117 + cos(B111) * 4.80000000000059 - sin(B111) * -4.60000000000009",
+        "alias": "D7Dx"
+      },
+      "A120": {
+        "content": "'Porta 3 Dz",
+        "alias": null
+      },
+      "B120": {
+        "content": "=B118 + sin(B111) * 4.80000000000059 + cos(B111) * -4.60000000000009",
+        "alias": "D7Dz"
+      },
+      "A121": {
+        "content": "'Porta 3 Theta2",
+        "alias": null
+      },
+      "B121": {
+        "content": "=atan2(sin(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B118 - 42.5729320949485; B117 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D7Theta2"
+      },
+      "A122": {
+        "content": "'Porta 3 Theta3",
+        "alias": null
+      },
+      "B122": {
+        "content": "=atan2(sin(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B120 - 34.2911039130707; B119 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D7Theta3"
+      },
+      "A123": {
+        "content": "'Porta 3 T2x",
+        "alias": null
+      },
+      "B123": {
+        "content": "=-17.9948095708183 - cos(B121) * -17.9948095708183 + sin(B121) * 42.5729320949485",
+        "alias": "D7T2x"
+      },
+      "A124": {
+        "content": "'Porta 3 T2z",
+        "alias": null
+      },
+      "B124": {
+        "content": "=42.5729320949485 - sin(B121) * -17.9948095708183 - cos(B121) * 42.5729320949485",
+        "alias": "D7T2z"
+      },
+      "A125": {
+        "content": "'Porta 3 T3x",
+        "alias": null
+      },
+      "B125": {
+        "content": "=-8.42772945377876 - cos(B122) * -8.42772945377876 + sin(B122) * 34.2911039130707",
+        "alias": "D7T3x"
+      },
+      "A126": {
+        "content": "'Porta 3 T3z",
+        "alias": null
+      },
+      "B126": {
+        "content": "=34.2911039130707 - sin(B122) * -8.42772945377876 - cos(B122) * 34.2911039130707",
+        "alias": "D7T3z"
+      },
+      "A127": {
+        "content": "'Porta 3 T4x",
+        "alias": null
+      },
+      "B127": {
+        "content": "=B117 - cos(B111) * 2.05999999999998 + sin(B111) * 45.4000000000001",
+        "alias": "D7T4x"
+      },
+      "A128": {
+        "content": "'Porta 3 T4z",
+        "alias": null
+      },
+      "B128": {
+        "content": "=B118 - sin(B111) * 2.05999999999998 - cos(B111) * 45.4000000000001",
+        "alias": "D7T4z"
+      }
+    },
+    "CinematicaComumR12": {
+      "A1": {
+        "content": "'MONTAGEM PROPOSTA - NÃO LIBERA CORTE/COMPRA",
+        "alias": null
+      },
+      "A3": {
+        "content": "'Gabinete · esquerda - proposta Theta",
+        "alias": null
+      },
+      "B3": {
+        "content": "=-min(ControlePortaR12.CursoEstudo; max(0 deg; ControlePortaR12.Abertura))",
+        "alias": "D1Theta"
+      },
+      "A4": {
+        "content": "'Gabinete · esquerda - proposta Qx",
+        "alias": null
+      },
+      "B4": {
+        "content": "=-8.42772945377876 - cos(B3) * 4.80000000000059 + sin(B3) * -4.60000000000009",
+        "alias": "D1Qx"
+      },
+      "A5": {
+        "content": "'Gabinete · esquerda - proposta Qz",
+        "alias": null
+      },
+      "B5": {
+        "content": "=34.2911039130707 - sin(B3) * 4.80000000000059 - cos(B3) * -4.60000000000009",
+        "alias": "D1Qz"
+      },
+      "A6": {
+        "content": "'Gabinete · esquerda - proposta Dist",
+        "alias": null
+      },
+      "B6": {
+        "content": "=sqrt((B4 - -17.9948095708183) ^ 2 + (B5 - 42.5729320949485) ^ 2)",
+        "alias": "D1Dist"
+      },
+      "A7": {
+        "content": "'Gabinete · esquerda - proposta L",
+        "alias": null
+      },
+      "B7": {
+        "content": "=(410.187699861557 - 276.080400122396 + B6 ^ 2) / (2 * B6)",
+        "alias": "D1L"
+      },
+      "A8": {
+        "content": "'Gabinete · esquerda - proposta H",
+        "alias": null
+      },
+      "B8": {
+        "content": "=sqrt(410.187699861557 - B7 ^ 2)",
+        "alias": "D1H"
+      },
+      "A9": {
+        "content": "'Gabinete · esquerda - proposta Cx",
+        "alias": null
+      },
+      "B9": {
+        "content": "=-17.9948095708183 + (B7 * (B4 - -17.9948095708183) - 1 * B8 * (B5 - 42.5729320949485)) / B6",
+        "alias": "D1Cx"
+      },
+      "A10": {
+        "content": "'Gabinete · esquerda - proposta Cz",
+        "alias": null
+      },
+      "B10": {
+        "content": "=42.5729320949485 + (B7 * (B5 - 42.5729320949485) + 1 * B8 * (B4 - -17.9948095708183)) / B6",
+        "alias": "D1Cz"
+      },
+      "A11": {
+        "content": "'Gabinete · esquerda - proposta Dx",
+        "alias": null
+      },
+      "B11": {
+        "content": "=B9 + cos(B3) * 4.80000000000059 - sin(B3) * -4.60000000000009",
+        "alias": "D1Dx"
+      },
+      "A12": {
+        "content": "'Gabinete · esquerda - proposta Dz",
+        "alias": null
+      },
+      "B12": {
+        "content": "=B10 + sin(B3) * 4.80000000000059 + cos(B3) * -4.60000000000009",
+        "alias": "D1Dz"
+      },
+      "A13": {
+        "content": "'Gabinete · esquerda - proposta Theta2",
+        "alias": null
+      },
+      "B13": {
+        "content": "=atan2(sin(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D1Theta2"
+      },
+      "A14": {
+        "content": "'Gabinete · esquerda - proposta Theta3",
+        "alias": null
+      },
+      "B14": {
+        "content": "=atan2(sin(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D1Theta3"
+      },
+      "A15": {
+        "content": "'Gabinete · esquerda - proposta T2x",
+        "alias": null
+      },
+      "B15": {
+        "content": "=-17.9948095708183 - cos(B13) * -17.9948095708183 + sin(B13) * 42.5729320949485",
+        "alias": "D1T2x"
+      },
+      "A16": {
+        "content": "'Gabinete · esquerda - proposta T2z",
+        "alias": null
+      },
+      "B16": {
+        "content": "=42.5729320949485 - sin(B13) * -17.9948095708183 - cos(B13) * 42.5729320949485",
+        "alias": "D1T2z"
+      },
+      "A17": {
+        "content": "'Gabinete · esquerda - proposta T3x",
+        "alias": null
+      },
+      "B17": {
+        "content": "=-8.42772945377876 - cos(B14) * -8.42772945377876 + sin(B14) * 34.2911039130707",
+        "alias": "D1T3x"
+      },
+      "A18": {
+        "content": "'Gabinete · esquerda - proposta T3z",
+        "alias": null
+      },
+      "B18": {
+        "content": "=34.2911039130707 - sin(B14) * -8.42772945377876 - cos(B14) * 34.2911039130707",
+        "alias": "D1T3z"
+      },
+      "A19": {
+        "content": "'Gabinete · esquerda - proposta T4x",
+        "alias": null
+      },
+      "B19": {
+        "content": "=B9 - cos(B3) * 2.05999999999998 + sin(B3) * 45.4000000000001",
+        "alias": "D1T4x"
+      },
+      "A20": {
+        "content": "'Gabinete · esquerda - proposta T4z",
+        "alias": null
+      },
+      "B20": {
+        "content": "=B10 - sin(B3) * 2.05999999999998 - cos(B3) * 45.4000000000001",
+        "alias": "D1T4z"
+      },
+      "A21": {
+        "content": "'Gabinete · direita - proposta Theta",
+        "alias": null
+      },
+      "B21": {
+        "content": "=-min(ControlePortaR018.CursoEstudo; max(0 deg; ControlePortaR018.Abertura))",
+        "alias": "D2Theta"
+      },
+      "A22": {
+        "content": "'Gabinete · direita - proposta Qx",
+        "alias": null
+      },
+      "B22": {
+        "content": "=-8.42772945377876 - cos(B21) * 4.80000000000059 + sin(B21) * -4.60000000000009",
+        "alias": "D2Qx"
+      },
+      "A23": {
+        "content": "'Gabinete · direita - proposta Qz",
+        "alias": null
+      },
+      "B23": {
+        "content": "=34.2911039130707 - sin(B21) * 4.80000000000059 - cos(B21) * -4.60000000000009",
+        "alias": "D2Qz"
+      },
+      "A24": {
+        "content": "'Gabinete · direita - proposta Dist",
+        "alias": null
+      },
+      "B24": {
+        "content": "=sqrt((B22 - -17.9948095708183) ^ 2 + (B23 - 42.5729320949485) ^ 2)",
+        "alias": "D2Dist"
+      },
+      "A25": {
+        "content": "'Gabinete · direita - proposta L",
+        "alias": null
+      },
+      "B25": {
+        "content": "=(410.187699861557 - 276.080400122396 + B24 ^ 2) / (2 * B24)",
+        "alias": "D2L"
+      },
+      "A26": {
+        "content": "'Gabinete · direita - proposta H",
+        "alias": null
+      },
+      "B26": {
+        "content": "=sqrt(410.187699861557 - B25 ^ 2)",
+        "alias": "D2H"
+      },
+      "A27": {
+        "content": "'Gabinete · direita - proposta Cx",
+        "alias": null
+      },
+      "B27": {
+        "content": "=-17.9948095708183 + (B25 * (B22 - -17.9948095708183) - 1 * B26 * (B23 - 42.5729320949485)) / B24",
+        "alias": "D2Cx"
+      },
+      "A28": {
+        "content": "'Gabinete · direita - proposta Cz",
+        "alias": null
+      },
+      "B28": {
+        "content": "=42.5729320949485 + (B25 * (B23 - 42.5729320949485) + 1 * B26 * (B22 - -17.9948095708183)) / B24",
+        "alias": "D2Cz"
+      },
+      "A29": {
+        "content": "'Gabinete · direita - proposta Dx",
+        "alias": null
+      },
+      "B29": {
+        "content": "=B27 + cos(B21) * 4.80000000000059 - sin(B21) * -4.60000000000009",
+        "alias": "D2Dx"
+      },
+      "A30": {
+        "content": "'Gabinete · direita - proposta Dz",
+        "alias": null
+      },
+      "B30": {
+        "content": "=B28 + sin(B21) * 4.80000000000059 + cos(B21) * -4.60000000000009",
+        "alias": "D2Dz"
+      },
+      "A31": {
+        "content": "'Gabinete · direita - proposta Theta2",
+        "alias": null
+      },
+      "B31": {
+        "content": "=atan2(sin(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B28 - 42.5729320949485; B27 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D2Theta2"
+      },
+      "A32": {
+        "content": "'Gabinete · direita - proposta Theta3",
+        "alias": null
+      },
+      "B32": {
+        "content": "=atan2(sin(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B30 - 34.2911039130707; B29 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D2Theta3"
+      },
+      "A33": {
+        "content": "'Gabinete · direita - proposta T2x",
+        "alias": null
+      },
+      "B33": {
+        "content": "=-17.9948095708183 - cos(B31) * -17.9948095708183 + sin(B31) * 42.5729320949485",
+        "alias": "D2T2x"
+      },
+      "A34": {
+        "content": "'Gabinete · direita - proposta T2z",
+        "alias": null
+      },
+      "B34": {
+        "content": "=42.5729320949485 - sin(B31) * -17.9948095708183 - cos(B31) * 42.5729320949485",
+        "alias": "D2T2z"
+      },
+      "A35": {
+        "content": "'Gabinete · direita - proposta T3x",
+        "alias": null
+      },
+      "B35": {
+        "content": "=-8.42772945377876 - cos(B32) * -8.42772945377876 + sin(B32) * 34.2911039130707",
+        "alias": "D2T3x"
+      },
+      "A36": {
+        "content": "'Gabinete · direita - proposta T3z",
+        "alias": null
+      },
+      "B36": {
+        "content": "=34.2911039130707 - sin(B32) * -8.42772945377876 - cos(B32) * 34.2911039130707",
+        "alias": "D2T3z"
+      },
+      "A37": {
+        "content": "'Gabinete · direita - proposta T4x",
+        "alias": null
+      },
+      "B37": {
+        "content": "=B27 - cos(B21) * 2.05999999999998 + sin(B21) * 45.4000000000001",
+        "alias": "D2T4x"
+      },
+      "A38": {
+        "content": "'Gabinete · direita - proposta T4z",
+        "alias": null
+      },
+      "B38": {
+        "content": "=B28 - sin(B21) * 2.05999999999998 - cos(B21) * 45.4000000000001",
+        "alias": "D2T4z"
+      },
+      "A39": {
+        "content": "'Espelhado · esquerda - proposta Theta",
+        "alias": null
+      },
+      "B39": {
+        "content": "=-min(ControlePortaR019.CursoEstudo; max(0 deg; ControlePortaR019.Abertura))",
+        "alias": "D3Theta"
+      },
+      "A40": {
+        "content": "'Espelhado · esquerda - proposta Qx",
+        "alias": null
+      },
+      "B40": {
+        "content": "=-8.42772945377876 - cos(B39) * 4.80000000000059 + sin(B39) * -4.60000000000009",
+        "alias": "D3Qx"
+      },
+      "A41": {
+        "content": "'Espelhado · esquerda - proposta Qz",
+        "alias": null
+      },
+      "B41": {
+        "content": "=34.2911039130707 - sin(B39) * 4.80000000000059 - cos(B39) * -4.60000000000009",
+        "alias": "D3Qz"
+      },
+      "A42": {
+        "content": "'Espelhado · esquerda - proposta Dist",
+        "alias": null
+      },
+      "B42": {
+        "content": "=sqrt((B40 - -17.9948095708183) ^ 2 + (B41 - 42.5729320949485) ^ 2)",
+        "alias": "D3Dist"
+      },
+      "A43": {
+        "content": "'Espelhado · esquerda - proposta L",
+        "alias": null
+      },
+      "B43": {
+        "content": "=(410.187699861557 - 276.080400122396 + B42 ^ 2) / (2 * B42)",
+        "alias": "D3L"
+      },
+      "A44": {
+        "content": "'Espelhado · esquerda - proposta H",
+        "alias": null
+      },
+      "B44": {
+        "content": "=sqrt(410.187699861557 - B43 ^ 2)",
+        "alias": "D3H"
+      },
+      "A45": {
+        "content": "'Espelhado · esquerda - proposta Cx",
+        "alias": null
+      },
+      "B45": {
+        "content": "=-17.9948095708183 + (B43 * (B40 - -17.9948095708183) - 1 * B44 * (B41 - 42.5729320949485)) / B42",
+        "alias": "D3Cx"
+      },
+      "A46": {
+        "content": "'Espelhado · esquerda - proposta Cz",
+        "alias": null
+      },
+      "B46": {
+        "content": "=42.5729320949485 + (B43 * (B41 - 42.5729320949485) + 1 * B44 * (B40 - -17.9948095708183)) / B42",
+        "alias": "D3Cz"
+      },
+      "A47": {
+        "content": "'Espelhado · esquerda - proposta Dx",
+        "alias": null
+      },
+      "B47": {
+        "content": "=B45 + cos(B39) * 4.80000000000059 - sin(B39) * -4.60000000000009",
+        "alias": "D3Dx"
+      },
+      "A48": {
+        "content": "'Espelhado · esquerda - proposta Dz",
+        "alias": null
+      },
+      "B48": {
+        "content": "=B46 + sin(B39) * 4.80000000000059 + cos(B39) * -4.60000000000009",
+        "alias": "D3Dz"
+      },
+      "A49": {
+        "content": "'Espelhado · esquerda - proposta Theta2",
+        "alias": null
+      },
+      "B49": {
+        "content": "=atan2(sin(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B46 - 42.5729320949485; B45 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D3Theta2"
+      },
+      "A50": {
+        "content": "'Espelhado · esquerda - proposta Theta3",
+        "alias": null
+      },
+      "B50": {
+        "content": "=atan2(sin(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B48 - 34.2911039130707; B47 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D3Theta3"
+      },
+      "A51": {
+        "content": "'Espelhado · esquerda - proposta T2x",
+        "alias": null
+      },
+      "B51": {
+        "content": "=-17.9948095708183 - cos(B49) * -17.9948095708183 + sin(B49) * 42.5729320949485",
+        "alias": "D3T2x"
+      },
+      "A52": {
+        "content": "'Espelhado · esquerda - proposta T2z",
+        "alias": null
+      },
+      "B52": {
+        "content": "=42.5729320949485 - sin(B49) * -17.9948095708183 - cos(B49) * 42.5729320949485",
+        "alias": "D3T2z"
+      },
+      "A53": {
+        "content": "'Espelhado · esquerda - proposta T3x",
+        "alias": null
+      },
+      "B53": {
+        "content": "=-8.42772945377876 - cos(B50) * -8.42772945377876 + sin(B50) * 34.2911039130707",
+        "alias": "D3T3x"
+      },
+      "A54": {
+        "content": "'Espelhado · esquerda - proposta T3z",
+        "alias": null
+      },
+      "B54": {
+        "content": "=34.2911039130707 - sin(B50) * -8.42772945377876 - cos(B50) * 34.2911039130707",
+        "alias": "D3T3z"
+      },
+      "A55": {
+        "content": "'Espelhado · esquerda - proposta T4x",
+        "alias": null
+      },
+      "B55": {
+        "content": "=B45 - cos(B39) * 2.05999999999998 + sin(B39) * 45.4000000000001",
+        "alias": "D3T4x"
+      },
+      "A56": {
+        "content": "'Espelhado · esquerda - proposta T4z",
+        "alias": null
+      },
+      "B56": {
+        "content": "=B46 - sin(B39) * 2.05999999999998 - cos(B39) * 45.4000000000001",
+        "alias": "D3T4z"
+      },
+      "A57": {
+        "content": "'Espelhado · direita - proposta Theta",
+        "alias": null
+      },
+      "B57": {
+        "content": "=-min(ControlePortaR020.CursoEstudo; max(0 deg; ControlePortaR020.Abertura))",
+        "alias": "D4Theta"
+      },
+      "A58": {
+        "content": "'Espelhado · direita - proposta Qx",
+        "alias": null
+      },
+      "B58": {
+        "content": "=-8.42772945377876 - cos(B57) * 4.80000000000059 + sin(B57) * -4.60000000000009",
+        "alias": "D4Qx"
+      },
+      "A59": {
+        "content": "'Espelhado · direita - proposta Qz",
+        "alias": null
+      },
+      "B59": {
+        "content": "=34.2911039130707 - sin(B57) * 4.80000000000059 - cos(B57) * -4.60000000000009",
+        "alias": "D4Qz"
+      },
+      "A60": {
+        "content": "'Espelhado · direita - proposta Dist",
+        "alias": null
+      },
+      "B60": {
+        "content": "=sqrt((B58 - -17.9948095708183) ^ 2 + (B59 - 42.5729320949485) ^ 2)",
+        "alias": "D4Dist"
+      },
+      "A61": {
+        "content": "'Espelhado · direita - proposta L",
+        "alias": null
+      },
+      "B61": {
+        "content": "=(410.187699861557 - 276.080400122396 + B60 ^ 2) / (2 * B60)",
+        "alias": "D4L"
+      },
+      "A62": {
+        "content": "'Espelhado · direita - proposta H",
+        "alias": null
+      },
+      "B62": {
+        "content": "=sqrt(410.187699861557 - B61 ^ 2)",
+        "alias": "D4H"
+      },
+      "A63": {
+        "content": "'Espelhado · direita - proposta Cx",
+        "alias": null
+      },
+      "B63": {
+        "content": "=-17.9948095708183 + (B61 * (B58 - -17.9948095708183) - 1 * B62 * (B59 - 42.5729320949485)) / B60",
+        "alias": "D4Cx"
+      },
+      "A64": {
+        "content": "'Espelhado · direita - proposta Cz",
+        "alias": null
+      },
+      "B64": {
+        "content": "=42.5729320949485 + (B61 * (B59 - 42.5729320949485) + 1 * B62 * (B58 - -17.9948095708183)) / B60",
+        "alias": "D4Cz"
+      },
+      "A65": {
+        "content": "'Espelhado · direita - proposta Dx",
+        "alias": null
+      },
+      "B65": {
+        "content": "=B63 + cos(B57) * 4.80000000000059 - sin(B57) * -4.60000000000009",
+        "alias": "D4Dx"
+      },
+      "A66": {
+        "content": "'Espelhado · direita - proposta Dz",
+        "alias": null
+      },
+      "B66": {
+        "content": "=B64 + sin(B57) * 4.80000000000059 + cos(B57) * -4.60000000000009",
+        "alias": "D4Dz"
+      },
+      "A67": {
+        "content": "'Espelhado · direita - proposta Theta2",
+        "alias": null
+      },
+      "B67": {
+        "content": "=atan2(sin(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B64 - 42.5729320949485; B63 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "D4Theta2"
+      },
+      "A68": {
+        "content": "'Espelhado · direita - proposta Theta3",
+        "alias": null
+      },
+      "B68": {
+        "content": "=atan2(sin(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B66 - 34.2911039130707; B65 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "D4Theta3"
+      },
+      "A69": {
+        "content": "'Espelhado · direita - proposta T2x",
+        "alias": null
+      },
+      "B69": {
+        "content": "=-17.9948095708183 - cos(B67) * -17.9948095708183 + sin(B67) * 42.5729320949485",
+        "alias": "D4T2x"
+      },
+      "A70": {
+        "content": "'Espelhado · direita - proposta T2z",
+        "alias": null
+      },
+      "B70": {
+        "content": "=42.5729320949485 - sin(B67) * -17.9948095708183 - cos(B67) * 42.5729320949485",
+        "alias": "D4T2z"
+      },
+      "A71": {
+        "content": "'Espelhado · direita - proposta T3x",
+        "alias": null
+      },
+      "B71": {
+        "content": "=-8.42772945377876 - cos(B68) * -8.42772945377876 + sin(B68) * 34.2911039130707",
+        "alias": "D4T3x"
+      },
+      "A72": {
+        "content": "'Espelhado · direita - proposta T3z",
+        "alias": null
+      },
+      "B72": {
+        "content": "=34.2911039130707 - sin(B68) * -8.42772945377876 - cos(B68) * 34.2911039130707",
+        "alias": "D4T3z"
+      },
+      "A73": {
+        "content": "'Espelhado · direita - proposta T4x",
+        "alias": null
+      },
+      "B73": {
+        "content": "=B63 - cos(B57) * 2.05999999999998 + sin(B57) * 45.4000000000001",
+        "alias": "D4T4x"
+      },
+      "A74": {
+        "content": "'Espelhado · direita - proposta T4z",
+        "alias": null
+      },
+      "B74": {
+        "content": "=B64 - sin(B57) * 2.05999999999998 - cos(B57) * 45.4000000000001",
+        "alias": "D4T4z"
+      }
+    },
+    "CinematicaComumR18": {
+      "A3": {
+        "content": "'Theta",
+        "alias": null
+      },
+      "B3": {
+        "content": "=-min(ControleVizinhaR18.CursoEstudo; max(0 deg; ControleVizinhaR18.Abertura))",
+        "alias": "NTheta"
+      },
+      "A4": {
+        "content": "'Qx",
+        "alias": null
+      },
+      "B4": {
+        "content": "=-8.42772945377876 - cos(B3) * 4.80000000000059 + sin(B3) * -4.60000000000009",
+        "alias": "NQx"
+      },
+      "A5": {
+        "content": "'Qz",
+        "alias": null
+      },
+      "B5": {
+        "content": "=34.2911039130707 - sin(B3) * 4.80000000000059 - cos(B3) * -4.60000000000009",
+        "alias": "NQz"
+      },
+      "A6": {
+        "content": "'Dist",
+        "alias": null
+      },
+      "B6": {
+        "content": "=sqrt((B4 - -17.9948095708183) ^ 2 + (B5 - 42.5729320949485) ^ 2)",
+        "alias": "NDist"
+      },
+      "A7": {
+        "content": "'L",
+        "alias": null
+      },
+      "B7": {
+        "content": "=(410.187699861557 - 276.080400122396 + B6 ^ 2) / (2 * B6)",
+        "alias": "NL"
+      },
+      "A8": {
+        "content": "'H",
+        "alias": null
+      },
+      "B8": {
+        "content": "=sqrt(410.187699861557 - B7 ^ 2)",
+        "alias": "NH"
+      },
+      "A9": {
+        "content": "'Cx",
+        "alias": null
+      },
+      "B9": {
+        "content": "=-17.9948095708183 + (B7 * (B4 - -17.9948095708183) - 1 * B8 * (B5 - 42.5729320949485)) / B6",
+        "alias": "NCx"
+      },
+      "A10": {
+        "content": "'Cz",
+        "alias": null
+      },
+      "B10": {
+        "content": "=42.5729320949485 + (B7 * (B5 - 42.5729320949485) + 1 * B8 * (B4 - -17.9948095708183)) / B6",
+        "alias": "NCz"
+      },
+      "A11": {
+        "content": "'Dx",
+        "alias": null
+      },
+      "B11": {
+        "content": "=B9 + cos(B3) * 4.80000000000059 - sin(B3) * -4.60000000000009",
+        "alias": "NDx"
+      },
+      "A12": {
+        "content": "'Dz",
+        "alias": null
+      },
+      "B12": {
+        "content": "=B10 + sin(B3) * 4.80000000000059 + cos(B3) * -4.60000000000009",
+        "alias": "NDz"
+      },
+      "A13": {
+        "content": "'Theta2",
+        "alias": null
+      },
+      "B13": {
+        "content": "=atan2(sin(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg); cos(atan2(B10 - 42.5729320949485; B9 - -17.9948095708183) - 8.02394750153692 deg))",
+        "alias": "NTheta2"
+      },
+      "A14": {
+        "content": "'Theta3",
+        "alias": null
+      },
+      "B14": {
+        "content": "=atan2(sin(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg); cos(atan2(B12 - 34.2911039130707; B11 - -8.42772945377876) - 23.0623406172908 deg))",
+        "alias": "NTheta3"
+      },
+      "A15": {
+        "content": "'T2x",
+        "alias": null
+      },
+      "B15": {
+        "content": "=-17.9948095708183 - cos(B13) * -17.9948095708183 + sin(B13) * 42.5729320949485",
+        "alias": "NT2x"
+      },
+      "A16": {
+        "content": "'T2z",
+        "alias": null
+      },
+      "B16": {
+        "content": "=42.5729320949485 - sin(B13) * -17.9948095708183 - cos(B13) * 42.5729320949485",
+        "alias": "NT2z"
+      },
+      "A17": {
+        "content": "'T3x",
+        "alias": null
+      },
+      "B17": {
+        "content": "=-8.42772945377876 - cos(B14) * -8.42772945377876 + sin(B14) * 34.2911039130707",
+        "alias": "NT3x"
+      },
+      "A18": {
+        "content": "'T3z",
+        "alias": null
+      },
+      "B18": {
+        "content": "=34.2911039130707 - sin(B14) * -8.42772945377876 - cos(B14) * 34.2911039130707",
+        "alias": "NT3z"
+      },
+      "A19": {
+        "content": "'T4x",
+        "alias": null
+      },
+      "B19": {
+        "content": "=B9 - cos(B3) * 2.05999999999998 + sin(B3) * 45.4000000000001",
+        "alias": "NT4x"
+      },
+      "A20": {
+        "content": "'T4z",
+        "alias": null
+      },
+      "B20": {
+        "content": "=B10 - sin(B3) * 2.05999999999998 - cos(B3) * 45.4000000000001",
+        "alias": "NT4z"
+      }
+    }
+  },
+  "controls": {
+    "ControlePortaR10": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR001": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR002": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR003": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR004": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR005": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR006": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR007": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR008": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR009": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR010": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR011": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR11": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR012": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR013": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR014": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR015": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR016": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR017": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR12": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR018": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR019": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControlePortaR020": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    },
+    "ControleVizinhaR18": {
+      "Abertura": 0.0,
+      "CursoEstudo": 86.0
+    }
+  },
+  "leaves": {
+    "Folha": {
+      "label": "Cabeceira porta 4 - abrir para direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        7140.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        1090.0,
+        -0.0,
+        0.0,
+        1.0,
+        2132.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR015.Abertura",
+        "CursoEstudo": "ControlePortaR015.CursoEstudo",
+        "GiroLocal": "CinematicaComumR11.D5Theta",
+        "LocalX": "(18 + -CinematicaComumR11.D5T4x + -16 * cos(CinematicaComumR11.D5Theta) - -56.5 * sin(CinematicaComumR11.D5Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D5T4z + -16 * sin(CinematicaComumR11.D5Theta) + -56.5 * cos(CinematicaComumR11.D5Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR015",
+          "label": "Cabeceira porta 4 - abrir para direita — frente com canecos",
+          "volume_mm3": 2397128.068495792,
+          "leaf_local_center_mm": [
+            -221.93468223831337,
+            8.973911561262867,
+            153.0
+          ],
+          "source_global_center_mm": [
+            7148.973911561263,
+            1313.9346822383134,
+            2286.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha001": {
+      "label": "Cabeceira porta 3 - abrir para esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        7140.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        1090.0,
+        -0.0,
+        0.0,
+        1.0,
+        2132.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 885.5,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR016.Abertura",
+        "CursoEstudo": "ControlePortaR016.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR11.D6Theta",
+        "LocalX": "(869.5 + CinematicaComumR11.D6T4x + 16 * cos(-CinematicaComumR11.D6Theta) - -56.5 * sin(-CinematicaComumR11.D6Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D6T4z + 16 * sin(-CinematicaComumR11.D6Theta) + -56.5 * cos(-CinematicaComumR11.D6Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR016",
+          "label": "Cabeceira porta 3 - abrir para esquerda — frente com canecos",
+          "volume_mm3": 2397128.068495793,
+          "leaf_local_center_mm": [
+            221.93468223831337,
+            8.973911561262867,
+            153.0
+          ],
+          "source_global_center_mm": [
+            7148.973911561263,
+            1753.5653177616869,
+            2286.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha002": {
+      "label": "Cabeceira porta 2 - abrir para direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        7140.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        1090.0,
+        -0.0,
+        0.0,
+        1.0,
+        2132.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 889.5,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR017.Abertura",
+        "CursoEstudo": "ControlePortaR017.CursoEstudo",
+        "GiroLocal": "CinematicaComumR11.D7Theta",
+        "LocalX": "(905.5 + -CinematicaComumR11.D7T4x + -16 * cos(CinematicaComumR11.D7Theta) - -56.5 * sin(CinematicaComumR11.D7Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D7T4z + -16 * sin(CinematicaComumR11.D7Theta) + -56.5 * cos(CinematicaComumR11.D7Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR017",
+          "label": "Cabeceira porta 2 - abrir para direita — frente com canecos",
+          "volume_mm3": 2399882.0684957923,
+          "leaf_local_center_mm": [
+            -222.18492448688062,
+            8.97394149921729,
+            153.0
+          ],
+          "source_global_center_mm": [
+            7148.973941499217,
+            2201.684924486881,
+            2286.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha004": {
+      "label": "Gabinete da pia - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2920.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        180.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR10.Abertura",
+        "CursoEstudo": "ControlePortaR10.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D1Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D1T4x + -16 * cos(CinematicaComumR10.D1Theta) - -56.5 * sin(CinematicaComumR10.D1Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D1T4z + -16 * sin(CinematicaComumR10.D1Theta) + -56.5 * cos(CinematicaComumR10.D1Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR10",
+          "label": "Gabinete da pia - porta direita — frente com canecos",
+          "volume_mm3": 4136513.0684957905,
+          "leaf_local_center_mm": [
+            -161.83755761337216,
+            8.98488163152797,
+            359.0
+          ],
+          "source_global_center_mm": [
+            2756.162442386628,
+            6398.984881631528,
+            540.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha005": {
+      "label": "Gabinete da pia - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2920.0,
+        0.0,
+        1.0,
+        0.0,
+        6390.0,
+        0.0,
+        0.0,
+        1.0,
+        180.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 648.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR001.Abertura",
+        "CursoEstudo": "ControlePortaR001.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D2Theta",
+        "LocalX": "(632 + CinematicaComumR10.D2T4x + 16 * cos(-CinematicaComumR10.D2Theta) - -56.5 * sin(-CinematicaComumR10.D2Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D2T4z + 16 * sin(-CinematicaComumR10.D2Theta) + -56.5 * cos(-CinematicaComumR10.D2Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR001",
+          "label": "Gabinete da pia - porta esquerda — frente com canecos",
+          "volume_mm3": 4136513.06849579,
+          "leaf_local_center_mm": [
+            161.83755761337216,
+            8.98488163152797,
+            359.0
+          ],
+          "source_global_center_mm": [
+            2433.837557613372,
+            6398.984881631528,
+            540.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha006": {
+      "label": "D · acima do depurador - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3545.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1958.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR002.Abertura",
+        "CursoEstudo": "ControlePortaR002.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D3Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D3T4x + -16 * cos(CinematicaComumR10.D3Theta) - -56.5 * sin(CinematicaComumR10.D3Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D3T4z + -16 * sin(CinematicaComumR10.D3Theta) + -56.5 * cos(CinematicaComumR10.D3Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR002",
+          "label": "D · acima do depurador - porta direita — frente com canecos",
+          "volume_mm3": 3394625.068495791,
+          "leaf_local_center_mm": [
+            -162.02060402649022,
+            8.981577544647735,
+            295.0
+          ],
+          "source_global_center_mm": [
+            3380.97939597351,
+            6658.981577544648,
+            2254.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha007": {
+      "label": "D · acima do depurador - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3545.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1958.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 648.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR003.Abertura",
+        "CursoEstudo": "ControlePortaR003.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D4Theta",
+        "LocalX": "(632 + CinematicaComumR10.D4T4x + 16 * cos(-CinematicaComumR10.D4Theta) - -56.5 * sin(-CinematicaComumR10.D4Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D4T4z + 16 * sin(-CinematicaComumR10.D4Theta) + -56.5 * cos(-CinematicaComumR10.D4Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR003",
+          "label": "D · acima do depurador - porta esquerda — frente com canecos",
+          "volume_mm3": 3394625.068495791,
+          "leaf_local_center_mm": [
+            162.02060402649067,
+            8.981577544647735,
+            295.0
+          ],
+          "source_global_center_mm": [
+            3059.0206040264907,
+            6658.981577544648,
+            2254.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha008": {
+      "label": "C · uso diário - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2895.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1532.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR004.Abertura",
+        "CursoEstudo": "ControlePortaR004.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D5Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D5T4x + -16 * cos(CinematicaComumR10.D5Theta) - -56.5 * sin(CinematicaComumR10.D5Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D5T4z + -16 * sin(CinematicaComumR10.D5Theta) + -56.5 * cos(CinematicaComumR10.D5Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR004",
+          "label": "C · uso diário - porta direita — frente com canecos",
+          "volume_mm3": 4909381.602743686,
+          "leaf_local_center_mm": [
+            -136.1117481045444,
+            8.980892503224823,
+            508.00000000000045
+          ],
+          "source_global_center_mm": [
+            2756.8882518954556,
+            6658.980892503225,
+            2041.0000000000005
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha009": {
+      "label": "C · uso diário - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2895.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1532.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 545.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR005.Abertura",
+        "CursoEstudo": "ControlePortaR005.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D6Theta",
+        "LocalX": "(529 + CinematicaComumR10.D6T4x + 16 * cos(-CinematicaComumR10.D6Theta) - -56.5 * sin(-CinematicaComumR10.D6Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D6T4z + 16 * sin(-CinematicaComumR10.D6Theta) + -56.5 * cos(-CinematicaComumR10.D6Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR005",
+          "label": "C · uso diário - porta esquerda — frente com canecos",
+          "volume_mm3": 4909381.602743686,
+          "leaf_local_center_mm": [
+            136.1117481045444,
+            8.980892503224823,
+            508.00000000000045
+          ],
+          "source_global_center_mm": [
+            2486.1117481045444,
+            6658.980892503225,
+            2041.0000000000005
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha010": {
+      "label": "B · acima do micro - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2348.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1940.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR006.Abertura",
+        "CursoEstudo": "ControlePortaR006.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D7Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D7T4x + -16 * cos(CinematicaComumR10.D7Theta) - -56.5 * sin(CinematicaComumR10.D7Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D7T4z + -16 * sin(CinematicaComumR10.D7Theta) + -56.5 * cos(CinematicaComumR10.D7Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR006",
+          "label": "B · acima do micro - porta direita — frente com canecos",
+          "volume_mm3": 3756137.068495791,
+          "leaf_local_center_mm": [
+            -173.75062734398898,
+            8.983350626555875,
+            304.0
+          ],
+          "source_global_center_mm": [
+            2172.249372656011,
+            6658.983350626556,
+            2245.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha011": {
+      "label": "B · acima do micro - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2348.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1940.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 695.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR007.Abertura",
+        "CursoEstudo": "ControlePortaR007.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D8Theta",
+        "LocalX": "(679 + CinematicaComumR10.D8T4x + 16 * cos(-CinematicaComumR10.D8Theta) - -56.5 * sin(-CinematicaComumR10.D8Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D8T4z + 16 * sin(-CinematicaComumR10.D8Theta) + -56.5 * cos(-CinematicaComumR10.D8Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR007",
+          "label": "B · acima do micro - porta esquerda — frente com canecos",
+          "volume_mm3": 3756137.068495791,
+          "leaf_local_center_mm": [
+            173.75062734398898,
+            8.983350626555875,
+            304.0
+          ],
+          "source_global_center_mm": [
+            1826.750627343989,
+            6658.983350626556,
+            2245.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha012": {
+      "label": "A · acima da geladeira - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1651.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1966.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR008.Abertura",
+        "CursoEstudo": "ControlePortaR008.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D9Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D9T4x + -16 * cos(CinematicaComumR10.D9Theta) - -56.5 * sin(CinematicaComumR10.D9Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D9T4z + -16 * sin(CinematicaComumR10.D9Theta) + -56.5 * cos(CinematicaComumR10.D9Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR008",
+          "label": "A · acima da geladeira - porta direita — frente com canecos",
+          "volume_mm3": 4139195.068495792,
+          "leaf_local_center_mm": [
+            -199.81515436084987,
+            8.984891427505318,
+            291.0
+          ],
+          "source_global_center_mm": [
+            1449.1848456391501,
+            6658.984891427505,
+            2258.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha013": {
+      "label": "A · acima da geladeira - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1651.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1966.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 799.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR009.Abertura",
+        "CursoEstudo": "ControlePortaR009.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D10Theta",
+        "LocalX": "(783 + CinematicaComumR10.D10T4x + 16 * cos(-CinematicaComumR10.D10Theta) - -56.5 * sin(-CinematicaComumR10.D10Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D10T4z + 16 * sin(-CinematicaComumR10.D10Theta) + -56.5 * cos(-CinematicaComumR10.D10Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR009",
+          "label": "A · acima da geladeira - porta esquerda — frente com canecos",
+          "volume_mm3": 4139195.0684957914,
+          "leaf_local_center_mm": [
+            199.81515436084987,
+            8.984891427505318,
+            291.0
+          ],
+          "source_global_center_mm": [
+            1051.8151543608499,
+            6658.984891427505,
+            2258.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha014": {
+      "label": "Aéreo da lavanderia - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        4380.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1650.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR010.Abertura",
+        "CursoEstudo": "ControlePortaR010.CursoEstudo",
+        "GiroLocal": "CinematicaComumR10.D11Theta",
+        "LocalX": "(18 + -CinematicaComumR10.D11T4x + -16 * cos(CinematicaComumR10.D11Theta) - -56.5 * sin(CinematicaComumR10.D11Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D11T4z + -16 * sin(CinematicaComumR10.D11Theta) + -56.5 * cos(CinematicaComumR10.D11Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR010",
+          "label": "Aéreo da lavanderia - porta direita — frente com canecos",
+          "volume_mm3": 4287443.0684957905,
+          "leaf_local_center_mm": [
+            -208.32791719250145,
+            8.98541384042619,
+            289.0
+          ],
+          "source_global_center_mm": [
+            4169.672082807499,
+            6658.985413840426,
+            1940.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "Folha015": {
+      "label": "Aéreo da lavanderia - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        4380.0,
+        0.0,
+        1.0,
+        0.0,
+        6650.0,
+        0.0,
+        0.0,
+        1.0,
+        1650.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 833.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR011.Abertura",
+        "CursoEstudo": "ControlePortaR011.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR10.D12Theta",
+        "LocalX": "(817 + CinematicaComumR10.D12T4x + 16 * cos(-CinematicaComumR10.D12Theta) - -56.5 * sin(-CinematicaComumR10.D12Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR10.D12T4z + 16 * sin(-CinematicaComumR10.D12Theta) + -56.5 * cos(-CinematicaComumR10.D12Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR011",
+          "label": "Aéreo da lavanderia - porta esquerda — frente com canecos",
+          "volume_mm3": 4287443.06849579,
+          "leaf_local_center_mm": [
+            208.32791719250145,
+            8.98541384042619,
+            289.0
+          ],
+          "source_global_center_mm": [
+            3755.3279171925014,
+            6658.985413840426,
+            1940.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaEscritorioR11": {
+      "label": "Escritório porta 4 - abrir para direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        4500.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        900.0,
+        -0.0,
+        0.0,
+        1.0,
+        1900.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR11.Abertura",
+        "CursoEstudo": "ControlePortaR11.CursoEstudo",
+        "GiroLocal": "CinematicaComumR11.D1Theta",
+        "LocalX": "(18 + -CinematicaComumR11.D1T4x + -16 * cos(CinematicaComumR11.D1Theta) - -56.5 * sin(CinematicaComumR11.D1Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D1T4z + -16 * sin(CinematicaComumR11.D1Theta) + -56.5 * cos(CinematicaComumR11.D1Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR11",
+          "label": "Escritório porta 4 - abrir para direita — frente com canecos",
+          "volume_mm3": 4867529.068495793,
+          "leaf_local_center_mm": [
+            -249.15887691163653,
+            8.987152140669423,
+            274.0
+          ],
+          "source_global_center_mm": [
+            4508.987152140669,
+            1151.1588769116365,
+            2175.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaEscritorioR001": {
+      "label": "Escritório porta 3 - abrir para esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        4500.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        900.0,
+        -0.0,
+        0.0,
+        1.0,
+        1900.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 998.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR012.Abertura",
+        "CursoEstudo": "ControlePortaR012.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR11.D2Theta",
+        "LocalX": "(982 + CinematicaComumR11.D2T4x + 16 * cos(-CinematicaComumR11.D2Theta) - -56.5 * sin(-CinematicaComumR11.D2Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D2T4z + 16 * sin(-CinematicaComumR11.D2Theta) + -56.5 * cos(-CinematicaComumR11.D2Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR012",
+          "label": "Escritório porta 3 - abrir para esquerda — frente com canecos",
+          "volume_mm3": 4867529.068495793,
+          "leaf_local_center_mm": [
+            249.15887691163653,
+            8.987152140669423,
+            274.0
+          ],
+          "source_global_center_mm": [
+            4508.987152140669,
+            1648.8411230883637,
+            2175.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaEscritorioR002": {
+      "label": "Escritório porta 2 - abrir para direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        4500.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        900.0,
+        -0.0,
+        0.0,
+        1.0,
+        1900.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 1002.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR013.Abertura",
+        "CursoEstudo": "ControlePortaR013.CursoEstudo",
+        "GiroLocal": "CinematicaComumR11.D3Theta",
+        "LocalX": "(1018 + -CinematicaComumR11.D3T4x + -16 * cos(CinematicaComumR11.D3Theta) - -56.5 * sin(CinematicaComumR11.D3Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D3T4z + -16 * sin(CinematicaComumR11.D3Theta) + -56.5 * cos(CinematicaComumR11.D3Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR013",
+          "label": "Escritório porta 2 - abrir para direita — frente com canecos",
+          "volume_mm3": 4867529.068495792,
+          "leaf_local_center_mm": [
+            -249.15887691163675,
+            8.987152140669423,
+            274.0
+          ],
+          "source_global_center_mm": [
+            4508.987152140669,
+            2151.158876911637,
+            2175.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaEscritorioR003": {
+      "label": "Escritório porta 1 - abrir para esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        4500.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        900.0,
+        -0.0,
+        0.0,
+        1.0,
+        1900.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 1998.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR014.Abertura",
+        "CursoEstudo": "ControlePortaR014.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR11.D4Theta",
+        "LocalX": "(1982 + CinematicaComumR11.D4T4x + 16 * cos(-CinematicaComumR11.D4Theta) - -56.5 * sin(-CinematicaComumR11.D4Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR11.D4T4z + 16 * sin(-CinematicaComumR11.D4Theta) + -56.5 * cos(-CinematicaComumR11.D4Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR014",
+          "label": "Escritório porta 1 - abrir para esquerda — frente com canecos",
+          "volume_mm3": 4867529.068495792,
+          "leaf_local_center_mm": [
+            249.15887691163653,
+            8.987152140669423,
+            274.0
+          ],
+          "source_global_center_mm": [
+            4508.987152140669,
+            2648.841123088364,
+            2175.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaBanheiroR12": {
+      "label": "Gabinete do banheiro - porta direita — folha proposta",
+      "visible_effective": false,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3360.0,
+        0.0,
+        1.0,
+        0.0,
+        4870.0,
+        0.0,
+        0.0,
+        1.0,
+        200.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR12.Abertura",
+        "CursoEstudo": "ControlePortaR12.CursoEstudo",
+        "GiroLocal": "CinematicaComumR12.D1Theta",
+        "LocalX": "(18 + -CinematicaComumR12.D1T4x + -16 * cos(CinematicaComumR12.D1Theta) - -56.5 * sin(CinematicaComumR12.D1Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR12.D1T4z + -16 * sin(CinematicaComumR12.D1Theta) + -56.5 * cos(CinematicaComumR12.D1Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR12",
+          "label": "Gabinete do banheiro - porta direita — frente com canecos",
+          "volume_mm3": 2877863.068495791,
+          "leaf_local_center_mm": [
+            -149.59521589266524,
+            8.97826952593914,
+            271.50000000000006
+          ],
+          "source_global_center_mm": [
+            3208.4047841073348,
+            4878.978269525939,
+            472.50000000000006
+          ],
+          "visible_effective": false
+        }
+      ]
+    },
+    "FolhaBanheiroR001": {
+      "label": "Gabinete do banheiro - porta esquerda — folha proposta",
+      "visible_effective": false,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3360.0,
+        0.0,
+        1.0,
+        0.0,
+        4870.0,
+        0.0,
+        0.0,
+        1.0,
+        200.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 598.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR018.Abertura",
+        "CursoEstudo": "ControlePortaR018.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR12.D2Theta",
+        "LocalX": "(582 + CinematicaComumR12.D2T4x + 16 * cos(-CinematicaComumR12.D2Theta) - -56.5 * sin(-CinematicaComumR12.D2Theta)) * 1 mm",
+        "LocalY": "(56.5 + -CinematicaComumR12.D2T4z + 16 * sin(-CinematicaComumR12.D2Theta) + -56.5 * cos(-CinematicaComumR12.D2Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR018",
+          "label": "Gabinete do banheiro - porta esquerda — frente com canecos",
+          "volume_mm3": 2877863.068495791,
+          "leaf_local_center_mm": [
+            149.59521589266524,
+            8.97826952593914,
+            271.50000000000006
+          ],
+          "source_global_center_mm": [
+            2911.5952158926652,
+            4878.978269525939,
+            472.50000000000006
+          ],
+          "visible_effective": false
+        }
+      ]
+    },
+    "FolhaBanheiroR002": {
+      "label": "Armário espelhado raso - porta direita — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3360.0,
+        0.0,
+        1.0,
+        0.0,
+        5140.0,
+        0.0,
+        0.0,
+        1.0,
+        1150.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 2.0000000000000178,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": -0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR019.Abertura",
+        "CursoEstudo": "ControlePortaR019.CursoEstudo",
+        "GiroLocal": "CinematicaComumR12.D3Theta",
+        "LocalX": "(18 + -CinematicaComumR12.D3T4x + -16 * cos(CinematicaComumR12.D3Theta) - -60.5 * sin(CinematicaComumR12.D3Theta)) * 1 mm",
+        "LocalY": "(60.5 + -CinematicaComumR12.D3T4z + -16 * sin(CinematicaComumR12.D3Theta) + -60.5 * cos(CinematicaComumR12.D3Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR019",
+          "label": "Armário espelhado raso - porta direita — frente com canecos",
+          "volume_mm3": 3961285.6027436876,
+          "leaf_local_center_mm": [
+            -149.69350698950393,
+            12.976319305764264,
+            374.0
+          ],
+          "source_global_center_mm": [
+            3208.306493010496,
+            5152.976319305764,
+            1525.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "FolhaBanheiroR003": {
+      "label": "Armário espelhado raso - porta esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3360.0,
+        0.0,
+        1.0,
+        0.0,
+        5140.0,
+        0.0,
+        0.0,
+        1.0,
+        1150.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 598.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControlePortaR020.Abertura",
+        "CursoEstudo": "ControlePortaR020.CursoEstudo",
+        "GiroLocal": "-CinematicaComumR12.D4Theta",
+        "LocalX": "(582 + CinematicaComumR12.D4T4x + 16 * cos(-CinematicaComumR12.D4Theta) - -60.5 * sin(-CinematicaComumR12.D4Theta)) * 1 mm",
+        "LocalY": "(60.5 + -CinematicaComumR12.D4T4z + 16 * sin(-CinematicaComumR12.D4Theta) + -60.5 * cos(-CinematicaComumR12.D4Theta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteComumR020",
+          "label": "Armário espelhado raso - porta esquerda — frente com canecos",
+          "volume_mm3": 3961285.6027436876,
+          "leaf_local_center_mm": [
+            149.69350698950393,
+            12.976319305763354,
+            374.0
+          ],
+          "source_global_center_mm": [
+            2911.693506989504,
+            5152.976319305763,
+            1525.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    },
+    "VizinhaComumR18": {
+      "label": "Cabeceira porta 1 - abrir para esquerda — folha proposta",
+      "visible_effective": true,
+      "parent_matrix": [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        7140.0,
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        -0.0,
+        1090.0,
+        -0.0,
+        0.0,
+        1.0,
+        2132.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "props": {
+        "LocalX": 1774.0,
+        "LocalY": -7.11e-14,
+        "LocalZ": 1.0,
+        "GiroLocal": 0.0,
+        "Abertura": 0.0
+      },
+      "expressions": {
+        "Abertura": "ControleVizinhaR18.Abertura",
+        "GiroLocal": "-CinematicaComumR18.NTheta",
+        "LocalX": "(1757 + CinematicaComumR18.NT4x + 17 * cos(-CinematicaComumR18.NTheta) - -56.5 * sin(-CinematicaComumR18.NTheta)) * 1 mm",
+        "LocalY": "(56.5 - CinematicaComumR18.NT4z + 17 * sin(-CinematicaComumR18.NTheta) + -56.5 * cos(-CinematicaComumR18.NTheta)) * 1 mm"
+      },
+      "source_axis": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "fronts": [
+        {
+          "name": "FrenteVizinhaR18",
+          "label": "Cabeceira porta 1 - abrir para esquerda — frente com canecos",
+          "volume_mm3": 2399882.0684957914,
+          "leaf_local_center_mm": [
+            222.17450108656703,
+            8.97394149921729,
+            153.0
+          ],
+          "source_global_center_mm": [
+            7148.973941499217,
+            2641.8254989134334,
+            2286.0
+          ],
+          "visible_effective": true
+        }
+      ]
+    }
+  },
+  "scope": "Formulas e CG geometricos. Folhas ocultas/historicas identificadas; nao reativar mecanismos cancelados. Sem massas reais ou capacidade de ferragem. Nenhum controlador/documento fonte alterado."
+}

@@ -1,6 +1,8 @@
 *.zip
 *.mp4
 *.FCBak
+*.FCStd1
+Falha*.txt
 .git_alt/
 .claude/
 
@@ -15,27 +17,28 @@ __pycache__/
 /.site/
 
 # Inspecao pontual de desenvolvimento
-/01_Projeto/Estudo_interativo/inspecionar.cjs
+/ferramentas/site/inspecionar.cjs
 
 # Documentos personalizados preservados apenas localmente (privacidade).
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Banheiro_R12_2026-10-14/Fontes/Quantidade_espelhado_BlUM.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Dobradicas_R10_2026-10-14/Fontes/Quantidade_C_BlUM.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-2.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-3.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-4.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-5.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-6.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao_01.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Parametros_corrigidos.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Montagem_R07_2026-10-14/Blum_download_R07.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Montagem_R07_2026-10-14/Frente_desenho_corrigido.png
-/01_Projeto/Modelo_FreeCAD/03_Recursos/Ferragens_STEP_2026-10-13/Blum_pacotes_download.png
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Montagem_R07_2026-10-14/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
-/01_Projeto/Modelo_FreeCAD/02_Revisoes_e_estudos/Portas_opostas_R18_2026-10-14/Guedala_Park_R18_Portas_Opostas.FCStd.50501bcf-324d-46a0-ac94-8d17774d87f7
+/02_Modelo_3D/Componentes/Estudos/Banheiro_R12_2026-10-14/Fontes/Quantidade_espelhado_BlUM.png
+/02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Quantidade_C_BlUM.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-2.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-3.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-4.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-5.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-6.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao_01.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Parametros_corrigidos.png
+/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Blum_download_R07.png
+/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Frente_desenho_corrigido.png
+/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
+/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
+/02_Modelo_3D/Componentes/Estudos/Portas_opostas_R18_2026-10-14/Guedala_Park_R18_Portas_Opostas.FCStd.50501bcf-324d-46a0-ac94-8d17774d87f7
 
-# Prototipo Pascal rejeitado por Elias em 18/10/2026; preservar somente local.
-/01_Projeto/Estudo_visualizadores_2026-10-17/
 
 # Dependências do build web
 node_modules/
+
+# Paginas Blum configuradas (documentos personalizados, so local)
+/04_Moveis/P16/Interface_guia_fundo/Blum_G2_pagina_*.png
+*.log

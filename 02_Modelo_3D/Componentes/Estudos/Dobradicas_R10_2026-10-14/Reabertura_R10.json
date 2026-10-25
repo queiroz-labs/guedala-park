@@ -1,0 +1,47 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Dobradicas_R10_2026-10-14\\Guedala_Park_R10_Dobradicas_Comuns.FCStd",
+  "tests": [
+    {
+      "door": "Folha004",
+      "input": 30.0,
+      "front_valid": true,
+      "position": [
+        2.4923249790420847,
+        -1.286033913848783,
+        1.0
+      ],
+      "states": [
+        "Up-to-date"
+      ],
+      "leaf_reported_opening_deg": 30.0
+    },
+    {
+      "door": "Folha005",
+      "input": 30.0,
+      "front_valid": true,
+      "position": [
+        647.507675020958,
+        -1.286033913848783,
+        1.0
+      ],
+      "states": [
+        "Up-to-date"
+      ],
+      "leaf_reported_opening_deg": 30.0
+    }
+  ],
+  "resting_inputs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

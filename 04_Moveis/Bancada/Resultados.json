@@ -1,0 +1,685 @@
+{
+  "cad": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "panels": [
+    {
+      "id": "Apoio_esquerdo",
+      "source_replaces": "Peca112",
+      "origin_mm": [
+        2720.0,
+        20.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        650.0,
+        720.0
+      ],
+      "role": "painel lateral de apoio ate o piso"
+    },
+    {
+      "id": "Pedestal_lateral_E",
+      "source_replaces": "Peca367",
+      "origin_mm": [
+        4300.0,
+        40.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "role": "lateral atual ampliada para tras/baixo; gavetas mantidas"
+    },
+    {
+      "id": "Pedestal_lateral_D",
+      "source_replaces": "Peca368",
+      "origin_mm": [
+        4682.0,
+        40.0,
+        0.0
+      ],
+      "size_mm": [
+        18.0,
+        640.0,
+        720.0
+      ],
+      "role": "lateral atual ampliada para tras/baixo; gavetas mantidas"
+    },
+    {
+      "id": "Pedestal_posterior",
+      "source_replaces": "",
+      "origin_mm": [
+        4318.0,
+        70.0,
+        0.0
+      ],
+      "size_mm": [
+        364.0,
+        18.0,
+        720.0
+      ],
+      "role": "fechamento traseiro estrutural de estudo, fora do fundo atual das gavetas"
+    },
+    {
+      "id": "Travessa_traseira",
+      "source_replaces": "",
+      "origin_mm": [
+        2738.0,
+        70.0,
+        540.0
+      ],
+      "size_mm": [
+        1562.0,
+        18.0,
+        180.0
+      ],
+      "role": "travessa de madeira somente atras, sem travessa frontal sob entrada da cadeira"
+    }
+  ],
+  "retire_proxies_in_study": [
+    "Peca111",
+    "Peca112"
+  ],
+  "top_bounds_mm": [
+    2700,
+    0,
+    720,
+    4700,
+    700,
+    750
+  ],
+  "drawer_original_bounds_mm": [
+    4300,
+    250,
+    480,
+    4700,
+    680,
+    720
+  ],
+  "clear_between_left_and_pedestal_mm": 1562.0,
+  "nominal_floor_area_mm2": 41292,
+  "new_panel_gross_mass_kg": 27.832896,
+  "replaced_original_side_mass_kg": 2.97216,
+  "results": [
+    {
+      "case": "distribuido25",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 25.0,
+      "max_deflection_mm": 5.5257290377025186,
+      "at_local_mm": [
+        775.0,
+        700.0
+      ],
+      "min_deflection_mm": -1.5679848691596507,
+      "plus_reserve_mm": 5.725729037702519,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 196.3419045192735,
+        "pedestalE": 262.924892753717,
+        "pedestalD": 0.0,
+        "esquerdo": 118.69792712700956,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 63.210555323340756,
+      "min_contact_reaction_N": 0.9167074583536186,
+      "rear_apron_end_group_reactions_N": [
+        124.32556339442596,
+        112.38230125780754
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 18,
+      "iterations": 21,
+      "equilibrium_error": [
+        1.1368683772161603e-13,
+        0.0,
+        5.820766091346741e-11
+      ],
+      "patch_rectangles": [
+        [
+          25.0,
+          0.0,
+          2000.0,
+          0.0,
+          700.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "distribuido50",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 50.00000000000001,
+      "max_deflection_mm": 7.806514295906116,
+      "at_local_mm": [
+        775.0,
+        700.0
+      ],
+      "min_deflection_mm": -2.1893407697070852,
+      "plus_reserve_mm": 8.006514295906115,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 281.08730959381353,
+        "pedestalE": 373.45895320982834,
+        "pedestalD": 0.0,
+        "esquerdo": 168.58471159635835,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 90.37473576366452,
+      "min_contact_reaction_N": 1.8876848352456732,
+      "rear_apron_end_group_reactions_N": [
+        168.96219472781777,
+        152.49107499895564
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 18,
+      "iterations": 21,
+      "equilibrium_error": [
+        1.1368683772161603e-13,
+        2.3283064365386963e-10,
+        5.820766091346741e-11
+      ],
+      "patch_rectangles": [
+        [
+          50.0,
+          0.0,
+          2000.0,
+          0.0,
+          700.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "equipamentos_teste34",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 34.00000000000001,
+      "max_deflection_mm": 6.323099494352469,
+      "at_local_mm": [
+        766.6666666666667,
+        700.0
+      ],
+      "min_deflection_mm": -2.287744070197756,
+      "plus_reserve_mm": 6.523099494352469,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 232.66784728898622,
+        "pedestalE": 235.5526030560632,
+        "pedestalD": 0.0,
+        "esquerdo": 198.00412405495035,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 67.83954909895185,
+      "min_contact_reaction_N": 0.9217702290742857,
+      "rear_apron_end_group_reactions_N": [
+        145.3592036114078,
+        127.67460381053841
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 18,
+      "iterations": 21,
+      "equilibrium_error": [
+        -2.2737367544323206e-13,
+        -1.1641532182693481e-10,
+        -8.731149137020111e-11
+      ],
+      "patch_rectangles": [
+        [
+          15,
+          110.0,
+          210.0,
+          300.0,
+          400.0
+        ],
+        [
+          8,
+          600.0,
+          700.0,
+          300.0,
+          400.0
+        ],
+        [
+          8,
+          1240.0,
+          1340.0,
+          300.0,
+          400.0
+        ],
+        [
+          3,
+          1750.0,
+          1850.0,
+          300.0,
+          400.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "frente20",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 20.0,
+      "max_deflection_mm": 13.625716884539203,
+      "at_local_mm": [
+        883.3333333333334,
+        700.0
+      ],
+      "min_deflection_mm": -8.732815634376768,
+      "plus_reserve_mm": 13.825716884539203,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 160.14523477161794,
+        "pedestalE": 239.44571677335352,
+        "pedestalD": 0.0,
+        "esquerdo": 129.34052285502838,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 197.76436910100747,
+      "min_contact_reaction_N": 35.24038347583132,
+      "rear_apron_end_group_reactions_N": [
+        94.65156821354176,
+        105.85962669103617
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 5,
+      "iterations": 32,
+      "equilibrium_error": [
+        -1.1368683772161603e-13,
+        -1.1641532182693481e-10,
+        -8.731149137020111e-11
+      ],
+      "patch_rectangles": [
+        [
+          20,
+          975.0,
+          1025.0,
+          620.0,
+          680.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "extremo_direito50",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 50.00000000000001,
+      "max_deflection_mm": 2.738796204526268,
+      "at_local_mm": [
+        733.3333333333334,
+        700.0
+      ],
+      "min_deflection_mm": -0.6277228348722328,
+      "plus_reserve_mm": 2.9387962045262683,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 97.66067605722385,
+        "pedestalE": 222.45973971392152,
+        "pedestalD": 437.02287708328436,
+        "esquerdo": 65.98768154557096,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 303.7843885449674,
+      "min_contact_reaction_N": 2.3261504314895607,
+      "rear_apron_end_group_reactions_N": [
+        76.1800956419586,
+        61.84654054822525
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 19,
+      "iterations": 18,
+      "equilibrium_error": [
+        5.684341886080801e-13,
+        9.313225746154785e-10,
+        5.238689482212067e-10
+      ],
+      "patch_rectangles": [
+        [
+          50,
+          1945.0,
+          1995.0,
+          620.0,
+          680.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "material_mais_rigido_E6000_frente20",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 6000,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 20.0,
+      "max_deflection_mm": 5.268670314694578,
+      "at_local_mm": [
+        883.3333333333334,
+        700.0
+      ],
+      "min_deflection_mm": -3.0215266963727525,
+      "plus_reserve_mm": 5.468670314694578,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 140.1687408810627,
+        "pedestalE": 250.56115854454043,
+        "pedestalD": 0.0,
+        "esquerdo": 138.20157497439683,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 136.3028480872832,
+      "min_contact_reaction_N": 15.239489745842242,
+      "rear_apron_end_group_reactions_N": [
+        85.80350553518903,
+        94.73119547883365
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 8,
+      "iterations": 29,
+      "equilibrium_error": [
+        0.0,
+        -1.1641532182693481e-10,
+        -2.9103830456733704e-11
+      ],
+      "patch_rectangles": [
+        [
+          20,
+          975.0,
+          1025.0,
+          620.0,
+          680.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "material_mais_rigido_E8000_frente20",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 8000,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 20.0,
+      "max_deflection_mm": 4.112031748378281,
+      "at_local_mm": [
+        875.0000000000001,
+        700.0
+      ],
+      "min_deflection_mm": -2.2762195554291265,
+      "plus_reserve_mm": 4.312031748378281,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 130.63897535728609,
+        "pedestalE": 255.48325761387582,
+        "pedestalD": 0.0,
+        "esquerdo": 142.80924142883796,
+        "pedestal_fundo": 0.0
+      },
+      "max_contact_reaction_N": 121.92375569327076,
+      "min_contact_reaction_N": 4.154982684476316,
+      "rear_apron_end_group_reactions_N": [
+        81.19765079235741,
+        89.80728469788869
+      ],
+      "idealized_distributed_retention": false,
+      "total_retention_demand_N": 0.0,
+      "original_contacts": 36,
+      "active_compression_contacts": 10,
+      "iterations": 27,
+      "equilibrium_error": [
+        -1.1368683772161603e-13,
+        -1.1641532182693481e-10,
+        -5.820766091346741e-11
+      ],
+      "patch_rectangles": [
+        [
+          20,
+          975.0,
+          1025.0,
+          620.0,
+          680.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "limite_retencao_distribuida25",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 25.0,
+      "max_deflection_mm": 4.803828485098191,
+      "at_local_mm": [
+        750.0,
+        700.0
+      ],
+      "min_deflection_mm": -0.17529649674014391,
+      "plus_reserve_mm": 5.003828485098191,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 131.07947708638295,
+        "pedestalE": 364.9370119722011,
+        "pedestalD": -28.024722937072106,
+        "esquerdo": 126.94300461166026,
+        "pedestal_fundo": -16.97004633317218
+      },
+      "max_contact_reaction_N": 59.26978068205449,
+      "min_contact_reaction_N": -39.48580447612932,
+      "rear_apron_end_group_reactions_N": [
+        106.48137040160043,
+        64.96406681774252
+      ],
+      "idealized_distributed_retention": true,
+      "total_retention_demand_N": 138.8261943701621,
+      "original_contacts": 36,
+      "active_compression_contacts": 36,
+      "iterations": 1,
+      "equilibrium_error": [
+        1.1368683772161603e-13,
+        0.0,
+        2.9103830456733704e-11
+      ],
+      "patch_rectangles": [
+        [
+          25.0,
+          0.0,
+          2000.0,
+          0.0,
+          700.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "limite_retencao_distribuida_frente20",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 20.0,
+      "max_deflection_mm": 8.766420994812524,
+      "at_local_mm": [
+        875.0000000000001,
+        700.0
+      ],
+      "min_deflection_mm": -0.31466108867409626,
+      "plus_reserve_mm": 8.966420994812523,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 96.62552939202797,
+        "pedestalE": 470.33072391846935,
+        "pedestalD": -87.29805107112546,
+        "esquerdo": 106.881021386491,
+        "pedestal_fundo": -57.60774922586316
+      },
+      "max_contact_reaction_N": 109.77019720234205,
+      "min_contact_reaction_N": -57.26032664985768,
+      "rear_apron_end_group_reactions_N": [
+        89.74347806577019,
+        47.24801145921778
+      ],
+      "idealized_distributed_retention": true,
+      "total_retention_demand_N": 299.3502163536269,
+      "original_contacts": 36,
+      "active_compression_contacts": 36,
+      "iterations": 1,
+      "equilibrium_error": [
+        -1.1368683772161603e-13,
+        1.1641532182693481e-10,
+        -5.820766091346741e-11
+      ],
+      "patch_rectangles": [
+        [
+          20,
+          975.0,
+          1025.0,
+          620.0,
+          680.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    },
+    {
+      "case": "limite_retencao_distribuida_equipamentos34",
+      "degree": 16,
+      "points_per_line": 8,
+      "E_top_initial_MPa": 2100.0,
+      "top_structural_t_mm": 29.7,
+      "own_top_mass_kg": 33.936,
+      "content_mass_kg": 34.00000000000001,
+      "max_deflection_mm": 5.2854384275863975,
+      "at_local_mm": [
+        733.3333333333334,
+        700.0
+      ],
+      "min_deflection_mm": -0.24454703522844037,
+      "plus_reserve_mm": 5.485438427586398,
+      "reference_largest_support_span_mm": 1580,
+      "reference_deflection_mm": 5.266666666666667,
+      "reactions_by_group_N": {
+        "travessa_traseira": 149.26793202437008,
+        "pedestalE": 384.18364059543836,
+        "pedestalD": -40.60035480170755,
+        "esquerdo": 205.22518604780453,
+        "pedestal_fundo": -31.851829465905652
+      },
+      "max_contact_reaction_N": 61.70338641713794,
+      "min_contact_reaction_N": -45.54110055581932,
+      "rear_apron_end_group_reactions_N": [
+        123.84231317060107,
+        65.79157898672902
+      ],
+      "idealized_distributed_retention": true,
+      "total_retention_demand_N": 179.5759005347937,
+      "original_contacts": 36,
+      "active_compression_contacts": 36,
+      "iterations": 1,
+      "equilibrium_error": [
+        -3.410605131648481e-13,
+        1.1641532182693481e-10,
+        -2.9103830456733704e-11
+      ],
+      "patch_rectangles": [
+        [
+          15,
+          110.0,
+          210.0,
+          300.0,
+          400.0
+        ],
+        [
+          8,
+          600.0,
+          700.0,
+          300.0,
+          400.0
+        ],
+        [
+          8,
+          1240.0,
+          1340.0,
+          300.0,
+          400.0
+        ],
+        [
+          3,
+          1750.0,
+          1850.0,
+          300.0,
+          400.0
+        ]
+      ],
+      "scope": "Somente tampo30 homogeneo e apoios equivalentes. Juntas/fundacao/rigidez de paineis sao requisitos; gaveteiro movel/cargas horizontais e estabilidade global nao liberados."
+    }
+  ],
+  "convergence_checks": [
+    {
+      "case": "distribuido25",
+      "degree16_8points_mm": 5.5257290377025186,
+      "degree20_12points_mm": 5.523271832686193,
+      "relative_change": 0.00044488214427240713,
+      "passed": true
+    },
+    {
+      "case": "frente20",
+      "degree16_8points_mm": 13.625716884539203,
+      "degree20_12points_mm": 13.481974083207845,
+      "relative_change": 0.010661851183232374,
+      "passed": true
+    }
+  ],
+  "assumptions": [
+    "Tampo homogeneo estrutural29.7 com massa30.3; MDF30E2100 e sensibilidade E6000 nao sao produto comprado",
+    "Paineis18E2200; sensibilidade diferida divideE por2",
+    "Contato distribuido requerido5N/mm2 na sensibilidade diferida",
+    "Grupos de extremidade da travessa K500N/mm diferido requeridos; nao capacidade de dois parafusos",
+    "Reacoes por contato sao somente positivas; fixacao anti-levantamento ainda tem funcao de montagem/estabilidade",
+    "Massas de equipamentos15+8+8+3 e posicoesY350 sao casos de teste, nao pesagens ou setup validado",
+    "Massa/carga das gavetas vao ao pedestal, nao foram adicionadas ao tampo; verificar pedestal/piso/estabilidade separadamente"
+  ],
+  "status": "ESTUDO: altera apoios e aparencia externa, nunca incorporado automaticamente. Sem tubos e sem travessa frontal no vao central."
+}

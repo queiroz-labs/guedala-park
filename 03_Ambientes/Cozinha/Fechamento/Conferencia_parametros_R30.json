@@ -1,0 +1,158 @@
+{
+  "data": "2026-10-14",
+  "arquivo": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd",
+  "sha256": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+  "metodo": "Parâmetros XML salvos de oito caixas; translação do módulo e espelhamento X=7400-X documentado na R28. Sem FreeCAD ativo, recompute, leitura de BREP, inspeção dos vínculos ou nova auditoria de colisões. Não valida montagem real.",
+  "referencias": "Parede Y=7000 e transformação herdadas do estudo, sem levantamento físico.",
+  "objetos": {
+    "Peca133": {
+      "rotulo": "Venax Totale Nero GIII 50 L",
+      "dimensoes_mm": [
+        517.0,
+        615.0,
+        610.0
+      ],
+      "bbox_espelhado_mm": [
+        2968.0,
+        6370.0,
+        50.0,
+        3485.0,
+        6985.0,
+        660.0
+      ]
+    },
+    "Peca134": {
+      "rotulo": "Cooktop Electrolux KE4GC",
+      "dimensoes_mm": [
+        600.0,
+        450.0,
+        15.0
+      ],
+      "bbox_espelhado_mm": [
+        2920.0,
+        6460.0,
+        920.0,
+        3520.0,
+        6910.0,
+        935.0
+      ]
+    },
+    "Peca305": {
+      "rotulo": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+      "dimensoes_mm": [
+        18.0,
+        590.0,
+        900.0
+      ],
+      "bbox_espelhado_mm": [
+        3515.0,
+        6410.0,
+        0.0,
+        3533.0,
+        7000.0,
+        900.0
+      ]
+    },
+    "Peca306": {
+      "rotulo": "Lateral esquerda do forno",
+      "dimensoes_mm": [
+        18.0,
+        590.0,
+        900.0
+      ],
+      "bbox_espelhado_mm": [
+        2920.0,
+        6410.0,
+        0.0,
+        2938.0,
+        7000.0,
+        900.0
+      ]
+    },
+    "Peca307": {
+      "rotulo": "Travessa superior de estudo",
+      "dimensoes_mm": [
+        577.0,
+        212.0,
+        30.0
+      ],
+      "bbox_espelhado_mm": [
+        2938.0,
+        6770.0,
+        660.0,
+        3515.0,
+        6982.0,
+        690.0
+      ]
+    },
+    "Peca308": {
+      "rotulo": "Bancada cozinha · reserva de recortes",
+      "dimensoes_mm": [
+        1869.0,
+        630.0,
+        20.0
+      ],
+      "bbox_espelhado_mm": [
+        1651.0,
+        6370.0,
+        900.0,
+        3520.0,
+        7000.0,
+        920.0
+      ]
+    },
+    "Peca152": {
+      "rotulo": "LG VC4 CV5012PC4 Inox Look",
+      "dimensoes_mm": [
+        600.0,
+        620.0,
+        850.0
+      ],
+      "bbox_espelhado_mm": [
+        3600.0,
+        6280.0,
+        0.0,
+        4200.0,
+        6900.0,
+        850.0
+      ]
+    },
+    "Peca357": {
+      "rotulo": "Bancada lavanderia · tanque a recortar",
+      "dimensoes_mm": [
+        1330.0,
+        750.0,
+        20.0
+      ],
+      "bbox_espelhado_mm": [
+        3520.0,
+        6250.0,
+        900.0,
+        4850.0,
+        7000.0,
+        920.0
+      ]
+    }
+  },
+  "resultados": {
+    "vao_interno_mm": 577.0,
+    "folgas_envelope_laterais_mm": [
+      30.0,
+      30.0
+    ],
+    "folga_envelope_parede_mm": 15.0,
+    "folga_envelope_travessa_mm": 0.0,
+    "folga_lg_lateral_mm": 67.0,
+    "desvio_eixos_forno_cooktop_mm": 6.5,
+    "lateral_sob_pedra_lavanderia_mm": 13.0,
+    "limite_d_para_separacao_200_mm": 60.0,
+    "separacao_vertical_mm_por_d": {
+      "40": 220.0,
+      "50": 210.0,
+      "60": 200.0,
+      "70": 190.0,
+      "80": 180.0
+    },
+    "folga_corpo_485_centralizado_condicional_mm": 46.0
+  }
+}

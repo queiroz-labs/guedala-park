@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Guedala_Park_R52_Corrigido.FCStd",
+  "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "file_unchanged": true,
+  "objects": 5832,
+  "features_nonempty": 1487,
+  "active_solids": 1133,
+  "invalid": [],
+  "bbox_candidates": 1314,
+  "positive_common_pairs": 735,
+  "errors": [],
+  "states": {},
+  "seconds": 74.85669849999977,
+  "method": "Saved R52 opened headless; GUI visibility snapshot; native Part features only; global placements; no document changes/recompute/save; common volume >0.1 mm3."
+}

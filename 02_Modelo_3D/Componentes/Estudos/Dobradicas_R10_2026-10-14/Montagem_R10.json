@@ -1,0 +1,1115 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Dobradicas_R10_2026-10-14\\Guedala_Park_R10_Dobradicas_Comuns.FCStd",
+  "doors": [
+    {
+      "module": "Modulo004",
+      "door": "Folha004",
+      "control": "ControlePortaR10",
+      "front": "FrenteComumR10",
+      "old_panel": "Peca281",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR10",
+          "adjustment": "AjusteProfundidadeR10",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR10",
+              "body": "FerragemComumR10",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR001",
+              "body": "FerragemComumR001",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR002",
+              "body": "FerragemComumR002",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR003",
+              "body": "FerragemComumR003",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR004",
+              "body": "FerragemComumR004",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR10",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR001",
+          "adjustment": "AjusteProfundidadeR001",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR005",
+              "body": "FerragemComumR005",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR006",
+              "body": "FerragemComumR006",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR007",
+              "body": "FerragemComumR007",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR008",
+              "body": "FerragemComumR008",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR009",
+              "body": "FerragemComumR009",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR001",
+          "level": 640.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        322.0,
+        18.0,
+        718.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        323.0,
+        18.0,
+        718.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo004",
+      "door": "Folha005",
+      "control": "ControlePortaR001",
+      "front": "FrenteComumR001",
+      "old_panel": "Peca282",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR002",
+          "adjustment": "AjusteProfundidadeR002",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR010",
+              "body": "FerragemComumR010",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR011",
+              "body": "FerragemComumR011",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR012",
+              "body": "FerragemComumR012",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR013",
+              "body": "FerragemComumR013",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR014",
+              "body": "FerragemComumR014",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR002",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR003",
+          "adjustment": "AjusteProfundidadeR003",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR015",
+              "body": "FerragemComumR015",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR016",
+              "body": "FerragemComumR016",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR017",
+              "body": "FerragemComumR017",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR018",
+              "body": "FerragemComumR018",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR019",
+              "body": "FerragemComumR019",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR003",
+          "level": 640.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        322.0,
+        18.0,
+        718.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        323.0,
+        18.0,
+        718.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo008",
+      "door": "Folha006",
+      "control": "ControlePortaR002",
+      "front": "FrenteComumR002",
+      "old_panel": "Peca322",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR004",
+          "adjustment": "AjusteProfundidadeR004",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR020",
+              "body": "FerragemComumR020",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR021",
+              "body": "FerragemComumR021",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR022",
+              "body": "FerragemComumR022",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR023",
+              "body": "FerragemComumR023",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR024",
+              "body": "FerragemComumR024",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR004",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR005",
+          "adjustment": "AjusteProfundidadeR005",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR025",
+              "body": "FerragemComumR025",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR026",
+              "body": "FerragemComumR026",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR027",
+              "body": "FerragemComumR027",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR028",
+              "body": "FerragemComumR028",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR029",
+              "body": "FerragemComumR029",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR005",
+          "level": 512.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        322.0,
+        18.0,
+        590.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        323.0,
+        18.0,
+        590.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo008",
+      "door": "Folha007",
+      "control": "ControlePortaR003",
+      "front": "FrenteComumR003",
+      "old_panel": "Peca323",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR006",
+          "adjustment": "AjusteProfundidadeR006",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR030",
+              "body": "FerragemComumR030",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR031",
+              "body": "FerragemComumR031",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR032",
+              "body": "FerragemComumR032",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR033",
+              "body": "FerragemComumR033",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR034",
+              "body": "FerragemComumR034",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR006",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR007",
+          "adjustment": "AjusteProfundidadeR007",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR035",
+              "body": "FerragemComumR035",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR036",
+              "body": "FerragemComumR036",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR037",
+              "body": "FerragemComumR037",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR038",
+              "body": "FerragemComumR038",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR039",
+              "body": "FerragemComumR039",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR007",
+          "level": 512.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        322.0,
+        18.0,
+        590.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        323.0,
+        18.0,
+        590.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo009",
+      "door": "Folha008",
+      "control": "ControlePortaR004",
+      "front": "FrenteComumR004",
+      "old_panel": "Peca332",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR008",
+          "adjustment": "AjusteProfundidadeR008",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR040",
+              "body": "FerragemComumR040",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR041",
+              "body": "FerragemComumR041",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR042",
+              "body": "FerragemComumR042",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR043",
+              "body": "FerragemComumR043",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR044",
+              "body": "FerragemComumR044",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR008",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR009",
+          "adjustment": "AjusteProfundidadeR009",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR045",
+              "body": "FerragemComumR045",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR046",
+              "body": "FerragemComumR046",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR047",
+              "body": "FerragemComumR047",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR048",
+              "body": "FerragemComumR048",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR049",
+              "body": "FerragemComumR049",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR009",
+          "level": 938.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        270.5,
+        18.0,
+        1016.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        271.5,
+        18.0,
+        1016.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo009",
+      "door": "Folha009",
+      "control": "ControlePortaR005",
+      "front": "FrenteComumR005",
+      "old_panel": "Peca333",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR010",
+          "adjustment": "AjusteProfundidadeR010",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR050",
+              "body": "FerragemComumR050",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR051",
+              "body": "FerragemComumR051",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR052",
+              "body": "FerragemComumR052",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR053",
+              "body": "FerragemComumR053",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR054",
+              "body": "FerragemComumR054",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR010",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR011",
+          "adjustment": "AjusteProfundidadeR011",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR055",
+              "body": "FerragemComumR055",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR056",
+              "body": "FerragemComumR056",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR057",
+              "body": "FerragemComumR057",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR058",
+              "body": "FerragemComumR058",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR059",
+              "body": "FerragemComumR059",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR011",
+          "level": 938.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        270.5,
+        18.0,
+        1016.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        271.5,
+        18.0,
+        1016.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo010",
+      "door": "Folha010",
+      "control": "ControlePortaR006",
+      "front": "FrenteComumR006",
+      "old_panel": "Peca340",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR012",
+          "adjustment": "AjusteProfundidadeR012",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR060",
+              "body": "FerragemComumR060",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR061",
+              "body": "FerragemComumR061",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR062",
+              "body": "FerragemComumR062",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR063",
+              "body": "FerragemComumR063",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR064",
+              "body": "FerragemComumR064",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR012",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR013",
+          "adjustment": "AjusteProfundidadeR013",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR065",
+              "body": "FerragemComumR065",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR066",
+              "body": "FerragemComumR066",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR067",
+              "body": "FerragemComumR067",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR068",
+              "body": "FerragemComumR068",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR069",
+              "body": "FerragemComumR069",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR013",
+          "level": 530.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        345.5,
+        18.0,
+        608.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        346.5,
+        18.0,
+        608.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo010",
+      "door": "Folha011",
+      "control": "ControlePortaR007",
+      "front": "FrenteComumR007",
+      "old_panel": "Peca341",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR014",
+          "adjustment": "AjusteProfundidadeR014",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR070",
+              "body": "FerragemComumR070",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR071",
+              "body": "FerragemComumR071",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR072",
+              "body": "FerragemComumR072",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR073",
+              "body": "FerragemComumR073",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR074",
+              "body": "FerragemComumR074",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR014",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR015",
+          "adjustment": "AjusteProfundidadeR015",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR075",
+              "body": "FerragemComumR075",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR076",
+              "body": "FerragemComumR076",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR077",
+              "body": "FerragemComumR077",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR078",
+              "body": "FerragemComumR078",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR079",
+              "body": "FerragemComumR079",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR015",
+          "level": 530.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        345.5,
+        18.0,
+        608.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        346.5,
+        18.0,
+        608.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo011",
+      "door": "Folha012",
+      "control": "ControlePortaR008",
+      "front": "FrenteComumR008",
+      "old_panel": "Peca348",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR016",
+          "adjustment": "AjusteProfundidadeR016",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR080",
+              "body": "FerragemComumR080",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR081",
+              "body": "FerragemComumR081",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR082",
+              "body": "FerragemComumR082",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR083",
+              "body": "FerragemComumR083",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR084",
+              "body": "FerragemComumR084",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR016",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR017",
+          "adjustment": "AjusteProfundidadeR017",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR085",
+              "body": "FerragemComumR085",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR086",
+              "body": "FerragemComumR086",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR087",
+              "body": "FerragemComumR087",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR088",
+              "body": "FerragemComumR088",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR089",
+              "body": "FerragemComumR089",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR017",
+          "level": 504.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        397.5,
+        18.0,
+        582.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        398.5,
+        18.0,
+        582.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo011",
+      "door": "Folha013",
+      "control": "ControlePortaR009",
+      "front": "FrenteComumR009",
+      "old_panel": "Peca349",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR018",
+          "adjustment": "AjusteProfundidadeR018",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR090",
+              "body": "FerragemComumR090",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR091",
+              "body": "FerragemComumR091",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR092",
+              "body": "FerragemComumR092",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR093",
+              "body": "FerragemComumR093",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR094",
+              "body": "FerragemComumR094",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR018",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR019",
+          "adjustment": "AjusteProfundidadeR019",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR095",
+              "body": "FerragemComumR095",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR096",
+              "body": "FerragemComumR096",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR097",
+              "body": "FerragemComumR097",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR098",
+              "body": "FerragemComumR098",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR099",
+              "body": "FerragemComumR099",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR019",
+          "level": 504.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        397.5,
+        18.0,
+        582.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        398.5,
+        18.0,
+        582.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo014",
+      "door": "Folha014",
+      "control": "ControlePortaR010",
+      "front": "FrenteComumR010",
+      "old_panel": "Peca364",
+      "side": "left",
+      "hinges": [
+        {
+          "group": "DobradicaComumR020",
+          "adjustment": "AjusteProfundidadeR020",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR100",
+              "body": "FerragemComumR100",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR101",
+              "body": "FerragemComumR101",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR102",
+              "body": "FerragemComumR102",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR103",
+              "body": "FerragemComumR103",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR104",
+              "body": "FerragemComumR104",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR020",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR021",
+          "adjustment": "AjusteProfundidadeR021",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR105",
+              "body": "FerragemComumR105",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR106",
+              "body": "FerragemComumR106",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR107",
+              "body": "FerragemComumR107",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR108",
+              "body": "FerragemComumR108",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR109",
+              "body": "FerragemComumR109",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR021",
+          "level": 500.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        414.5,
+        18.0,
+        578.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        415.5,
+        18.0,
+        578.0
+      ],
+      "external_joint_mm": 2
+    },
+    {
+      "module": "Modulo014",
+      "door": "Folha015",
+      "control": "ControlePortaR011",
+      "front": "FrenteComumR011",
+      "old_panel": "Peca365",
+      "side": "right",
+      "hinges": [
+        {
+          "group": "DobradicaComumR022",
+          "adjustment": "AjusteProfundidadeR022",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR110",
+              "body": "FerragemComumR110",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR111",
+              "body": "FerragemComumR111",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR112",
+              "body": "FerragemComumR112",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR113",
+              "body": "FerragemComumR113",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR114",
+              "body": "FerragemComumR114",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR022",
+          "level": 80
+        },
+        {
+          "group": "DobradicaComumR023",
+          "adjustment": "AjusteProfundidadeR023",
+          "bodies": [
+            {
+              "driver": "CorpoArticuladoR115",
+              "body": "FerragemComumR115",
+              "index": 0
+            },
+            {
+              "driver": "CorpoArticuladoR116",
+              "body": "FerragemComumR116",
+              "index": 1
+            },
+            {
+              "driver": "CorpoArticuladoR117",
+              "body": "FerragemComumR117",
+              "index": 2
+            },
+            {
+              "driver": "CorpoArticuladoR118",
+              "body": "FerragemComumR118",
+              "index": 3
+            },
+            {
+              "driver": "CorpoArticuladoR119",
+              "body": "FerragemComumR119",
+              "index": 4
+            }
+          ],
+          "plate": "CalcoComumR023",
+          "level": 500.0
+        }
+      ],
+      "K_mm": 5,
+      "overlay_mm": 16,
+      "plate_spacing_mm": 0,
+      "plate_hole_row_y": 57,
+      "depth_adjustment_proposed_mm": 0.5,
+      "front_source_dimensions": [
+        414.5,
+        18.0,
+        578.0
+      ],
+      "original_panel_dimensions_R09_mm": [
+        415.5,
+        18.0,
+        578.0
+      ],
+      "external_joint_mm": 2
+    }
+  ],
+  "hardware_count": 144,
+  "hinge_count": 24,
+  "invalid_hardware": [],
+  "invalid_fronts": [],
+  "source_guide": "https://d2.blum.com/services/BEC003/clp0016-ma-679-bhk_ma_dok_bau_%24sml_%24aof_%24v2.pdf",
+  "scope": "Montagem proposta K5/recobrimento16, junta externa2. Frentes comuns reduzidas1mm nas bordas de dobradiça; gabaritos/frentes de gaveta/canto preservados. Não libera corte/compra."
+}

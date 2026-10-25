@@ -1,0 +1,483 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Controles_R21_2026-10-14\\Guedala_Park_R21_Controles_Organizados.FCStd",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Apartamento_espelhado_R20_2026-10-14\\Guedala_Park_R20_Apartamento_Espelhado.FCStd",
+  "source_sha256": "c03652a3cb2607aece3ebd495d53137125a4311a0e7f309815e1bb7720ec262a",
+  "index": "ControlesAtuaisR21",
+  "groups": {
+    "quarto": "ControlesAmbienteR21",
+    "escritorio": "ControlesAmbienteR001",
+    "cozinha": "ControlesAmbienteR002",
+    "lavanderia": "ControlesAmbienteR003",
+    "banheiro": "ControlesAmbienteR004",
+    "banco": "ControlesAmbienteR005"
+  },
+  "catalog": [
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR10",
+      "shortcut": null,
+      "label": "Gabinete da pia - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR001",
+      "shortcut": null,
+      "label": "Gabinete da pia - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR002",
+      "shortcut": null,
+      "label": "D · acima do depurador - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR003",
+      "shortcut": null,
+      "label": "D · acima do depurador - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR004",
+      "shortcut": null,
+      "label": "C · uso diário - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR005",
+      "shortcut": null,
+      "label": "C · uso diário - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR006",
+      "shortcut": null,
+      "label": "B · acima do micro - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR007",
+      "shortcut": null,
+      "label": "B · acima do micro - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR008",
+      "shortcut": null,
+      "label": "A · acima da geladeira - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "cozinha",
+      "control": "ControlePortaR009",
+      "shortcut": null,
+      "label": "A · acima da geladeira - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "lavanderia",
+      "control": "ControlePortaR010",
+      "shortcut": null,
+      "label": "Aéreo da lavanderia - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "lavanderia",
+      "control": "ControlePortaR011",
+      "shortcut": null,
+      "label": "Aéreo da lavanderia - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "banheiro",
+      "control": "ControlePortaR12",
+      "shortcut": null,
+      "label": "Gabinete do banheiro - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "banheiro",
+      "control": "ControlePortaR018",
+      "shortcut": null,
+      "label": "Gabinete do banheiro - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "banheiro",
+      "control": "ControlePortaR019",
+      "shortcut": null,
+      "label": "Armário espelhado raso - porta direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "banheiro",
+      "control": "ControlePortaR020",
+      "shortcut": null,
+      "label": "Armário espelhado raso - porta esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "escritorio",
+      "control": "ControlePortaR11",
+      "shortcut": null,
+      "label": "Escritório porta4 - abrir para direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "escritorio",
+      "control": "ControlePortaR012",
+      "shortcut": null,
+      "label": "Escritório porta3 - abrir para esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "escritorio",
+      "control": "ControlePortaR013",
+      "shortcut": null,
+      "label": "Escritório porta2 - abrir para direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "escritorio",
+      "control": "ControlePortaR014",
+      "shortcut": null,
+      "label": "Escritório porta1 - abrir para esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "quarto",
+      "control": "ControlePortaR015",
+      "shortcut": null,
+      "label": "Cabeceira porta4 - abrir para direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "quarto",
+      "control": "ControlePortaR016",
+      "shortcut": null,
+      "label": "Cabeceira porta3 - abrir para esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "quarto",
+      "control": "ControlePortaR017",
+      "shortcut": null,
+      "label": "Cabeceira porta2 - abrir para direita",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleVizinhaR18",
+      "shortcut": null,
+      "label": "Cabeceira porta1 - abrir para esquerda",
+      "fields": {
+        "Abertura": "0–86 graus de estudo"
+      },
+      "note": "Sentido do rótulo é o apartamento espelhado. CursoEstudo não comprova o limitador mecânico."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleSimplesR04",
+      "shortcut": null,
+      "label": "R04 - abertura independente das duas portas",
+      "fields": {
+        "B2": "Porta A:0–86 graus",
+        "B3": "Porta B:0–86 graus"
+      },
+      "note": "Editar somente B2/B3; canto simples vigente. A abre para esquerda e B para direita na própria vista frontal espelhada."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleCorrerR14",
+      "shortcut": null,
+      "label": "Roupeiro — folha de base1 — correr em sentido oposto à vizinha",
+      "fields": {
+        "Deslocamento": "0–965 mm de estudo"
+      },
+      "note": "Valor positivo nos dois controles; drivers têm sinais opostos. Reservas de ferragens, não sistema homologado."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleCorrerR001",
+      "shortcut": null,
+      "label": "Roupeiro — folha de base2 — correr em sentido oposto à vizinha",
+      "fields": {
+        "Deslocamento": "0–965 mm de estudo"
+      },
+      "note": "Valor positivo nos dois controles; drivers têm sinais opostos. Reservas de ferragens, não sistema homologado."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleCorrerR002",
+      "shortcut": null,
+      "label": "Maleiro — folha de base1 — correr em sentido oposto à vizinha",
+      "fields": {
+        "Deslocamento": "0–640 mm de estudo"
+      },
+      "note": "Valor positivo nos dois controles; drivers têm sinais opostos. Reservas de ferragens, não sistema homologado."
+    },
+    {
+      "room": "quarto",
+      "control": "ControleCorrerR003",
+      "shortcut": null,
+      "label": "Maleiro — folha de base2 — correr em sentido oposto à vizinha",
+      "fields": {
+        "Deslocamento": "0–640 mm de estudo"
+      },
+      "note": "Valor positivo nos dois controles; drivers têm sinais opostos. Reservas de ferragens, não sistema homologado."
+    },
+    {
+      "room": "quarto",
+      "control": "Gaveta",
+      "shortcut": "AcessoControleR21",
+      "label": "Gaveta de roupa",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "quarto",
+      "control": "Gaveta001",
+      "shortcut": "AcessoControleR001",
+      "label": "Gaveta de roupa001",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "quarto",
+      "control": "Gaveta002",
+      "shortcut": "AcessoControleR002",
+      "label": "Gaveta de roupa002",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "quarto",
+      "control": "Gaveta003",
+      "shortcut": "AcessoControleR003",
+      "label": "Gaveta de roupa003",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "cozinha",
+      "control": "Gaveta004",
+      "shortcut": "AcessoControleR004",
+      "label": "G3 · mantimentos",
+      "fields": {
+        "Extensao": "0–500 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "cozinha",
+      "control": "Gaveta005",
+      "shortcut": "AcessoControleR005",
+      "label": "G2 · utensílios",
+      "fields": {
+        "Extensao": "0–500 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "cozinha",
+      "control": "Gaveta006",
+      "shortcut": "AcessoControleR006",
+      "label": "G1 · talheres",
+      "fields": {
+        "Extensao": "0–500 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "cozinha",
+      "control": "Gaveta007",
+      "shortcut": "AcessoControleR007",
+      "label": "Gaveta baixa — rodas de silicone / cabos fixos",
+      "fields": {
+        "Extensao": "0–530 mm de estudo"
+      },
+      "note": "400 herdado é posição de estudo;530 é retirada completa ilustrativa, não batente. Peças/piso/carga reais pendentes."
+    },
+    {
+      "room": "escritorio",
+      "control": "Gaveta008",
+      "shortcut": "AcessoControleR008",
+      "label": "Gaveta escritório 1",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "escritorio",
+      "control": "Gaveta009",
+      "shortcut": "AcessoControleR009",
+      "label": "Gaveta escritório 2",
+      "fields": {
+        "Extensao": "0–400 mm de estudo"
+      },
+      "note": "Translação rígida de caixa; guia MOVENTO estática, não animação telescópica ou carga certificada."
+    },
+    {
+      "room": "lavanderia",
+      "control": "ControleCestoR15",
+      "shortcut": "AcessoControleR010",
+      "label": "Cesto R15 - Abertura55 e RetiradaSaco",
+      "fields": {
+        "Abertura": "0–55 graus",
+        "RetiradaSaco": "0–445 mm",
+        "EndireitarSaco": "0–55 graus",
+        "RetiradaPainelSuperior": "manutenção",
+        "RetiradaConjunto": "manutenção condicionada"
+      },
+      "note": "Uso diário: abrir55, retirar saco445, endireitar55. Retirada completa da armação bate na Loop20L em300/400; retirar temporariamente a lixeira é proposta ainda sem endereço/manuseio comprovados. Não usar essa retirada como percurso livre."
+    },
+    {
+      "room": "banheiro",
+      "control": "PortaEntradaBanheiroR12",
+      "shortcut": null,
+      "label": "Entrada banheiro - folha700 de referência, NÃO medida",
+      "fields": {
+        "Abertura": "0 fechado /90 original aberto"
+      },
+      "note": "Fechar entrada ideal antes de abrir gabinete inferior. Folha700/eixo/maçaneta não medidos; usuário não possui novas medidas."
+    },
+    {
+      "room": "banco",
+      "control": "ControleBancoR16",
+      "shortcut": null,
+      "label": "1 - Potes/travessas/batedeira",
+      "fields": {
+        "Abertura": "0–90 graus de estudo"
+      },
+      "note": "Giro ideal do assento integral70; massa/retenção/pega reais pendentes. Não abrir a folha com almofadas estacionadas neste setor."
+    },
+    {
+      "room": "banco",
+      "control": "ControleBancoR001",
+      "shortcut": null,
+      "label": "2 - Liquidificador e bebidas",
+      "fields": {
+        "Abertura": "0–90 graus de estudo",
+        "ElevarAlmofada": "mm; seguir Sequencia",
+        "DeslocamentoAlmofada": "mm; seguir Sequencia"
+      },
+      "note": "Banco desocupado: elevar60, deslocar711, baixar elevação para50; abrir90. Guardar em ordem inversa. Ponta acima da folha ocupada pela almofada: não acessar folha ao mesmo tempo."
+    },
+    {
+      "room": "banco",
+      "control": "ControleBancoR002",
+      "shortcut": null,
+      "label": "3 - Balde",
+      "fields": {
+        "Abertura": "0–90 graus de estudo",
+        "ElevarAlmofada": "mm; seguir Sequencia",
+        "DeslocamentoAlmofada": "mm; seguir Sequencia"
+      },
+      "note": "Banco desocupado: elevar60, deslocar733, baixar elevação para50; abrir90. Guardar em ordem inversa. Ponta acima da folha ocupada pela almofada: não acessar folha ao mesmo tempo."
+    },
+    {
+      "room": "banco",
+      "control": "ControleBancoR003",
+      "shortcut": null,
+      "label": "4 - Folha/aspirador/jogos",
+      "fields": {
+        "Abertura": "0–90 graus de estudo",
+        "ElevarAlmofada": "mm; seguir Sequencia",
+        "DeslocamentoAlmofada": "mm; seguir Sequencia"
+      },
+      "note": "PROPOSTA NOVA: elevar60, deslocar873 rumo ao sofá, baixar elevação50; almofada sobre os três setores fechados. Abrir tampa90; recuar folha24 e levantar. Não acessar outros setores enquanto a almofada ocupa seus assentos. Devolver em ordem inversa."
+    }
+  ],
+  "geo_parents_unchanged": true,
+  "placements_unchanged": true,
+  "expression_engines_unchanged": true,
+  "parameter_types_unchanged": true,
+  "invalid": [],
+  "scope": "Navigation groups, labels and guidance only; no geometry, movement, parameter formulas or fittings changed."
+}

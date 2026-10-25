@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-25",
+  "inputs_sha256": {
+    "06_Entregas/Fichas_fabricacao/P01-pecas.csv": "a7360efc88eeac8f3231aeecb1a87a785ef750565f401bb7ec47e3c9885bbba1",
+    "06_Entregas/Fichas_fabricacao/P02-pecas.csv": "fffddba0aad360f860189f8562eefde8b597130cf37c3df66a0879ddbf45fa9c",
+    "06_Entregas/Fichas_fabricacao/P03-pecas.csv": "b0d10be78a24aed4261aa0f24829fb4a19f8c80ab67a7140b1044e970a134526",
+    "06_Entregas/Fichas_fabricacao/P04-pecas.csv": "3c5febd65da646b3750491209b931536555070c958ab6b6b821e7d0d6336a9d1",
+    "06_Entregas/Fichas_fabricacao/P05-pecas.csv": "faa1e7afc656e18c9d498baad7d98a5407e4bb25fbd8af79713fe332753feee3",
+    "06_Entregas/Fichas_fabricacao/P06-pecas.csv": "2531f21c018530df0af719478af0afac374073359186bcb6186b6266e8286441",
+    "06_Entregas/Fichas_fabricacao/P07-pecas.csv": "10e980f2954ae227a7b24b72d05ba3f51ff4a537247c1ae791fd0609a9675c0b",
+    "06_Entregas/Fichas_fabricacao/P08-pecas.csv": "247cc5e5125590d5165c32843783463996f057f5a4ff7e8a78fc0b329039dd55",
+    "06_Entregas/Fichas_fabricacao/P09-pecas.csv": "0d9047578fc67452cc9a62a2dc97b374b7626a9cd67732ef357a424465932d7e",
+    "06_Entregas/Fichas_fabricacao/P10-pecas.csv": "013d1a93fce55e52b8ce444122bef6fa4c1bada709b7e92749b928a97faffdb1",
+    "06_Entregas/Fichas_fabricacao/P11-pecas.csv": "d6eca5c728f5995d00e751c6b68f20699d6d97965d2a9435eaf9f4bc019d7a65",
+    "06_Entregas/Fichas_fabricacao/P12-pecas.csv": "7a75a49dbdc3ee2ad42ff5151db5b96913c261897237216a9bc2e3029f293b33",
+    "06_Entregas/Fichas_fabricacao/P13-pecas.csv": "7d9471280547cd3d0164e5b626e42931681efe2f83378ea19700c4179009e8fe",
+    "06_Entregas/Fichas_fabricacao/P14-pecas.csv": "1848972d72b0e38c89c3eb6fa3b306aeb0ffc92f777a869a1bc61482b7971fb3",
+    "06_Entregas/Fichas_fabricacao/P15-pecas.csv": "a29e227c073990d13dc349204d30a0f649baae7d3bd2a7e07aefbdbc70bff766",
+    "06_Entregas/Fichas_fabricacao/P16-pecas.csv": "f88a37249c3ecfefe1c81a2d43b8fa9e81a15e1ccecc1a92038fc4cb0d436ebf",
+    "06_Entregas/Fichas_fabricacao/P17-pecas.csv": "fe0708b34a0bd4a8970fecbb42d22142ea53a6871765c403411e630e8d2b3ab0",
+    "06_Entregas/Fichas_fabricacao/P18-pecas.csv": "ca3dd2d0ad8ec795006d0819b9593a24c08169591e216f8579033ac68023b13b",
+    "06_Entregas/Fichas_fabricacao/P19-pecas.csv": "a2ced52233e1db1ab1e37cc5d77def6bdbad47e23108d993ef5fa756061fb0f8",
+    "06_Entregas/Fichas_fabricacao/P20-pecas.csv": "e23ca3ee42e5c01c3dc04b09ae137e271c3c00ae27dfb4c6eaffb6509a93f864",
+    "04_Moveis/Quantitativos/Diferencas_nominais.json": "e78d429a6c49066d257aac0cdd656ca1d6b5ddce90fa82a7c63d831a04691d27",
+    "04_Moveis/Quantitativos/Formatos_e_pendencias.json": "61b31be1dc9be6acd179d2fb018e10b498eb9b3d30a73ba5704edeb3f039eea4",
+    "ferramentas/site/src/cad-data.js": "082db793616c259a588b80d5e374cb4b653022f38062d1c83119280bb6469df8"
+  },
+  "unchanged": true,
+  "generator_sha256": "4a55420829a2cf810227466c7d7605fe62993d55bdc6cc0aecd1eb965f9968ef",
+  "parameters_sha256": "49e8873e39656f8b70b1b052fb375ce8f65830e309f6138b6bd257b0c49767a6"
+}

@@ -1,0 +1,3205 @@
+{
+  "revision": "R19",
+  "cadRevision": "R52",
+  "cadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+  "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "fabricationRevision": "R14",
+  "appearanceRevision": "R16",
+  "lightingRevision": "CB02",
+  "publicationStatus": "publication_authorized",
+  "legacyAliasesModified": false,
+  "scope": "Explicit technical package only; no personal repository, contracts, emails or protocols. Local HTML navigation is restricted to included entries.",
+  "files": [
+    "manifest.json",
+    "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+    "02_Modelo_3D/README.md",
+    "ferramentas/site/current_release.json",
+    "ferramentas/site/Guedala_Park_Interativo.html",
+    "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+    "09_Referencias/Plantas_e_manuais/Planta_oficial.pdf",
+    "02_Modelo_3D/Verificacao_R52.json",
+    "02_Modelo_3D/Verificacao_posicoes_R52.json",
+    "02_Modelo_3D/Verificacao_movimentos_R52.json",
+    "02_Modelo_3D/Condicoes_operacao_R52.json",
+    "02_Modelo_3D/Diferencas_R51_R52.json",
+    "06_Entregas/Fichas_fabricacao/index.html",
+    "06_Entregas/Fichas_fabricacao/Levantamento.html",
+    "06_Entregas/Fichas_fabricacao/Pendencias.html",
+    "06_Entregas/Fichas_fabricacao/P01.html",
+    "06_Entregas/Fichas_fabricacao/P02.html",
+    "06_Entregas/Fichas_fabricacao/P03.html",
+    "06_Entregas/Fichas_fabricacao/P04.html",
+    "06_Entregas/Fichas_fabricacao/P05.html",
+    "06_Entregas/Fichas_fabricacao/P06.html",
+    "06_Entregas/Fichas_fabricacao/P07.html",
+    "06_Entregas/Fichas_fabricacao/P08.html",
+    "06_Entregas/Fichas_fabricacao/P09.html",
+    "06_Entregas/Fichas_fabricacao/P10.html",
+    "06_Entregas/Fichas_fabricacao/P11.html",
+    "06_Entregas/Fichas_fabricacao/P12.html",
+    "06_Entregas/Fichas_fabricacao/P13.html",
+    "06_Entregas/Fichas_fabricacao/P14.html",
+    "06_Entregas/Fichas_fabricacao/P15.html",
+    "06_Entregas/Fichas_fabricacao/P16.html",
+    "06_Entregas/Fichas_fabricacao/P17.html",
+    "06_Entregas/Fichas_fabricacao/P18.html",
+    "06_Entregas/Fichas_fabricacao/P19.html",
+    "06_Entregas/Fichas_fabricacao/P20.html",
+    "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P01.svg",
+    "06_Entregas/Fichas_fabricacao/P01-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P02-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P02-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P02.svg",
+    "06_Entregas/Fichas_fabricacao/P02-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P03-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P03.svg",
+    "06_Entregas/Fichas_fabricacao/P03-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P04-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P04-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P04.svg",
+    "06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P05-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P05-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P05.svg",
+    "06_Entregas/Fichas_fabricacao/P05-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P06.svg",
+    "06_Entregas/Fichas_fabricacao/P06-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P07-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P07.svg",
+    "06_Entregas/Fichas_fabricacao/P07-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P08-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P08.svg",
+    "06_Entregas/Fichas_fabricacao/P08-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P09-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P09-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P09.svg",
+    "06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P10-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P10-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P10.svg",
+    "06_Entregas/Fichas_fabricacao/P10-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P11-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P11-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P11.svg",
+    "06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P12-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P12-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P12.svg",
+    "06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P13-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P13.svg",
+    "06_Entregas/Fichas_fabricacao/P13-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P14-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P14.svg",
+    "06_Entregas/Fichas_fabricacao/P14-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P15-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P15-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P15.svg",
+    "06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P16.svg",
+    "06_Entregas/Fichas_fabricacao/P16-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P17-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P17-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P17.svg",
+    "06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P18-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P18.svg",
+    "06_Entregas/Fichas_fabricacao/P18-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P19-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P19-furacao.svg",
+    "06_Entregas/Fichas_fabricacao/P19.svg",
+    "06_Entregas/Fichas_fabricacao/P19-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/P20-furacao.csv",
+    "06_Entregas/Fichas_fabricacao/P20.svg",
+    "06_Entregas/Fichas_fabricacao/P20-pecas.csv",
+    "06_Entregas/Fichas_fabricacao/Tecnica_R14.json",
+    "06_Entregas/Planta_cotada/index.html",
+    "06_Entregas/Planta_cotada/Planta_cotada.svg",
+    "06_Entregas/Planta_cotada/Planta_oficial.png",
+    "06_Entregas/Planta_cotada/Cotas.json",
+    "02_Modelo_3D/Historico/Cores/README.md",
+    "02_Modelo_3D/Historico/Cores/Plano_de_cores.json",
+    "02_Modelo_3D/Historico/Cores/Verificacao_cores.json",
+    "02_Modelo_3D/Historico/Cores/Verificacao_geometria.json",
+    "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+    "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.json",
+    "03_Ambientes/Cozinha/Rodizios_gaveta/Verificacao_CAD.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Escolhas.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Situacao.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Iluminacao_e_materiais.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_luminarias_L02.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Hidraulica_cenarios.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_unioes_P19.json",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/P19_Unioes_nominais.csv",
+    "03_Ambientes/Banheiro/Fechamento_pre_entrega/Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+    "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md",
+    "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json",
+    "09_Referencias/Iluminacao_CB02/Galeria.md",
+    "09_Referencias/Iluminacao_CB02/01_Quarto_economico.png",
+    "09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png",
+    "09_Referencias/Iluminacao_CB02/03_Sala_escritorio.png",
+    "09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png",
+    "04_Moveis/Proximas_decisoes/README.md",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Arranjos_preliminares.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Fontes_e_hashes.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Parametros.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Peças_sem_definicao_suficiente.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_preliminares.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.csv",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Triagem_formatos.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Verificacao.json",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G01_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G02_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_02.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_03.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_04.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_05.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_06.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G04_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_02.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_02.svg",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg",
+    "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+    "04_Moveis/Proximas_decisoes/P01_P03/Envelopes_superiores.csv",
+    "04_Moveis/Proximas_decisoes/P01_P03/Geometria_interfaces.json",
+    "04_Moveis/Proximas_decisoes/P01_P03/Interfaces_nominais.json",
+    "04_Moveis/Proximas_decisoes/P01_P03/Ligacoes_exemplos.csv",
+    "04_Moveis/Proximas_decisoes/P01_P03/Resultados_caixa.json",
+    "04_Moveis/Proximas_decisoes/P01_P03/Verificacao_caixa.json",
+    "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+    "04_Moveis/Proximas_decisoes/Instalacao_e_P16/Micro_estudo.json",
+    "04_Moveis/Proximas_decisoes/Instalacao_e_P16/ME23P_folga300_ESTUDO_NAO_ADOTADO.FCStd",
+    "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+    "04_Moveis/Proximas_decisoes/Cinematica/Extracao.json",
+    "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
+    "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
+    "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json",
+    "02_Modelo_3D/README.md.html",
+    "01_Programa_e_decisoes/Caderno_de_especificacoes.md.html",
+    "02_Modelo_3D/Historico/Cores/README.md.html",
+    "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+    "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+    "09_Referencias/Iluminacao_CB02/Galeria.md.html",
+    "04_Moveis/Proximas_decisoes/README.md.html",
+    "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md.html",
+    "04_Moveis/Proximas_decisoes/P01_P03/README.md.html",
+    "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+    "04_Moveis/Proximas_decisoes/Cinematica/README.md.html",
+    "COMECE_AQUI.html"
+  ],
+  "entries": [
+    {
+      "path": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+      "bytes": 19801403,
+      "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+      "sourcePath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+      "sourceSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+      "sourceCanonicalSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da"
+    },
+    {
+      "path": "02_Modelo_3D/README.md",
+      "bytes": 9086,
+      "sha256": "667aa2e38179baadffddf6b5d7a73925db8f7ae1259d7541dc525c08b2c288af",
+      "sourcePath": "02_Modelo_3D/README.md",
+      "sourceSHA256": "667aa2e38179baadffddf6b5d7a73925db8f7ae1259d7541dc525c08b2c288af",
+      "sourceCanonicalSHA256": "667aa2e38179baadffddf6b5d7a73925db8f7ae1259d7541dc525c08b2c288af"
+    },
+    {
+      "path": "ferramentas/site/current_release.json",
+      "bytes": 6716,
+      "sha256": "b08bc94f17cf32cfc8e6e11ea2c4476a20f20784357a3c51f2c99c86b413be40",
+      "sourcePath": "ferramentas/site/current_release.json",
+      "sourceSHA256": "b08bc94f17cf32cfc8e6e11ea2c4476a20f20784357a3c51f2c99c86b413be40",
+      "sourceCanonicalSHA256": "4926a06bf9002e939650871db0f9237a5ea39853e2a54f0be3ebdce58a775368"
+    },
+    {
+      "path": "ferramentas/site/Guedala_Park_Interativo.html",
+      "bytes": 5217884,
+      "sha256": "ac997c5139bf8e81dbe0612df0bdbd2251fccc106e3dc1a65a9b173b4bc70f9c",
+      "sourcePath": "ferramentas/site/Guedala_Park_Interativo.html",
+      "sourceSHA256": "50dd66862ddfdf7d30a4fc5d0a45e6214ea390502fd670b418a55ad149892f90",
+      "sourceCanonicalSHA256": "79521838bd0ea830f04032f7ce607e7dbdbe24bfb0d0e86e8a8e9cf39799f700"
+    },
+    {
+      "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "bytes": 14656,
+      "sha256": "0534cb92d4ecb736ee76f6ad87814e136f218646ad666ae35cbcc58c0a28e227",
+      "sourcePath": "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "sourceSHA256": "0534cb92d4ecb736ee76f6ad87814e136f218646ad666ae35cbcc58c0a28e227",
+      "sourceCanonicalSHA256": "0534cb92d4ecb736ee76f6ad87814e136f218646ad666ae35cbcc58c0a28e227"
+    },
+    {
+      "path": "09_Referencias/Plantas_e_manuais/Planta_oficial.pdf",
+      "bytes": 241267,
+      "sha256": "3e74676c94e767143cc3b3c7a726f967f1a91b77963a98b324180ce70a1683d0",
+      "sourcePath": "09_Referencias/Plantas_e_manuais/Planta_oficial.pdf",
+      "sourceSHA256": "3e74676c94e767143cc3b3c7a726f967f1a91b77963a98b324180ce70a1683d0",
+      "sourceCanonicalSHA256": "3e74676c94e767143cc3b3c7a726f967f1a91b77963a98b324180ce70a1683d0"
+    },
+    {
+      "path": "02_Modelo_3D/Verificacao_R52.json",
+      "bytes": 3383,
+      "sha256": "193546e48a25a2370914ca311a5bbc07ee819de1ee76164478abc1fb9783e283",
+      "sourcePath": "02_Modelo_3D/Verificacao_R52.json",
+      "sourceSHA256": "193546e48a25a2370914ca311a5bbc07ee819de1ee76164478abc1fb9783e283",
+      "sourceCanonicalSHA256": "193546e48a25a2370914ca311a5bbc07ee819de1ee76164478abc1fb9783e283"
+    },
+    {
+      "path": "02_Modelo_3D/Verificacao_posicoes_R52.json",
+      "bytes": 13416,
+      "sha256": "0221ff96360dc7fd2fab5fb33147ee68e8e002b188d0870de5ade66222ee159b",
+      "sourcePath": "02_Modelo_3D/Verificacao_posicoes_R52.json",
+      "sourceSHA256": "b861f1a5631fd996816e3574cccc334c53ef586555afca30f856dd7a28efa87f",
+      "sourceCanonicalSHA256": "0221ff96360dc7fd2fab5fb33147ee68e8e002b188d0870de5ade66222ee159b"
+    },
+    {
+      "path": "02_Modelo_3D/Verificacao_movimentos_R52.json",
+      "bytes": 844,
+      "sha256": "e7f5155ab18f1bbd0682e9396aa8810a5a2e55b23f67f3d9c482ad4f31082be8",
+      "sourcePath": "02_Modelo_3D/Verificacao_movimentos_R52.json",
+      "sourceSHA256": "e7f5155ab18f1bbd0682e9396aa8810a5a2e55b23f67f3d9c482ad4f31082be8",
+      "sourceCanonicalSHA256": "e7f5155ab18f1bbd0682e9396aa8810a5a2e55b23f67f3d9c482ad4f31082be8"
+    },
+    {
+      "path": "02_Modelo_3D/Condicoes_operacao_R52.json",
+      "bytes": 7012,
+      "sha256": "222a8904d2479218d2d76db675caefa3af2db6d04c2eefe89afe82ac38fc654f",
+      "sourcePath": "02_Modelo_3D/Condicoes_operacao_R52.json",
+      "sourceSHA256": "4163a490278daa515ae2adcb4e355b8c9381cee6734033208c2fcfcb6634b2f7",
+      "sourceCanonicalSHA256": "222a8904d2479218d2d76db675caefa3af2db6d04c2eefe89afe82ac38fc654f"
+    },
+    {
+      "path": "02_Modelo_3D/Diferencas_R51_R52.json",
+      "bytes": 3071,
+      "sha256": "23feea2a172c23bd03b0461fbbd1c79c3111e5a83ae83d3b85e525128f97748e",
+      "sourcePath": "02_Modelo_3D/Diferencas_R51_R52.json",
+      "sourceSHA256": "cd7635dd6f888acce10c935d2e16120183bf977fbda69a93753a3de8312f83b3",
+      "sourceCanonicalSHA256": "23feea2a172c23bd03b0461fbbd1c79c3111e5a83ae83d3b85e525128f97748e"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/index.html",
+      "bytes": 9740,
+      "sha256": "e32503c901654577a76bc07f0c0d8fbcad625533627a8c437be066254571835f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/index.html",
+      "sourceSHA256": "c847cc9b77011562c227b99a9eb5ba241543f10baebd8143b5750cb210be992b",
+      "sourceCanonicalSHA256": "e32503c901654577a76bc07f0c0d8fbcad625533627a8c437be066254571835f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/Levantamento.html",
+      "bytes": 53536,
+      "sha256": "100256f54cc35a540d6d1c4257dc7759c33c9e2465e08d59d9a7d07cef00db65",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/Levantamento.html",
+      "sourceSHA256": "51a18447b4ff317ace26495489a12dca6ba85a5eef00c04304ab3ab14dd26b9f",
+      "sourceCanonicalSHA256": "100256f54cc35a540d6d1c4257dc7759c33c9e2465e08d59d9a7d07cef00db65"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/Pendencias.html",
+      "bytes": 54861,
+      "sha256": "89b94fee5f28b89b13cfb97ffe4085819814f742c0ed0b3a3b86acc01894f5f9",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/Pendencias.html",
+      "sourceSHA256": "f58b86e4c378f750e8a884de8ffa520ddbc19ffefc89c05112d9e0ab1bad2eed",
+      "sourceCanonicalSHA256": "89b94fee5f28b89b13cfb97ffe4085819814f742c0ed0b3a3b86acc01894f5f9"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P01.html",
+      "bytes": 40112,
+      "sha256": "7dbc09f6a45f2702dcffd28e58fcd239de091e85eb023fb9bdd24a6b6fed2699",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P01.html",
+      "sourceSHA256": "7dbc09f6a45f2702dcffd28e58fcd239de091e85eb023fb9bdd24a6b6fed2699",
+      "sourceCanonicalSHA256": "7dbc09f6a45f2702dcffd28e58fcd239de091e85eb023fb9bdd24a6b6fed2699"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02.html",
+      "bytes": 28301,
+      "sha256": "f50e00b8ecc629b0ecead7de384a56caf89a0e1669e4fbea3ac45c3c6722c83b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P02.html",
+      "sourceSHA256": "f50e00b8ecc629b0ecead7de384a56caf89a0e1669e4fbea3ac45c3c6722c83b",
+      "sourceCanonicalSHA256": "f50e00b8ecc629b0ecead7de384a56caf89a0e1669e4fbea3ac45c3c6722c83b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P03.html",
+      "bytes": 26806,
+      "sha256": "6bc3970db2c3db758898775f221e8b2d9f234e83ed0bb43f68a6ae08f2820a17",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P03.html",
+      "sourceSHA256": "6bc3970db2c3db758898775f221e8b2d9f234e83ed0bb43f68a6ae08f2820a17",
+      "sourceCanonicalSHA256": "6bc3970db2c3db758898775f221e8b2d9f234e83ed0bb43f68a6ae08f2820a17"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04.html",
+      "bytes": 33448,
+      "sha256": "dc1073dfff3ae07e211a7bb8fb2143a6602d93ffcd891216c005c56bc0058030",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P04.html",
+      "sourceSHA256": "dc1073dfff3ae07e211a7bb8fb2143a6602d93ffcd891216c005c56bc0058030",
+      "sourceCanonicalSHA256": "dc1073dfff3ae07e211a7bb8fb2143a6602d93ffcd891216c005c56bc0058030"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05.html",
+      "bytes": 27395,
+      "sha256": "b880b91ea75bdf8fd0451d0b5a6c41d8f7c7d15867b1fd53a6ea622979cd7434",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P05.html",
+      "sourceSHA256": "b880b91ea75bdf8fd0451d0b5a6c41d8f7c7d15867b1fd53a6ea622979cd7434",
+      "sourceCanonicalSHA256": "b880b91ea75bdf8fd0451d0b5a6c41d8f7c7d15867b1fd53a6ea622979cd7434"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P06.html",
+      "bytes": 25081,
+      "sha256": "6750c7022de2f8a82f232895cebd19fcbc1ef2d884d4d289582e5100828174d1",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P06.html",
+      "sourceSHA256": "6750c7022de2f8a82f232895cebd19fcbc1ef2d884d4d289582e5100828174d1",
+      "sourceCanonicalSHA256": "6750c7022de2f8a82f232895cebd19fcbc1ef2d884d4d289582e5100828174d1"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P07.html",
+      "bytes": 18172,
+      "sha256": "71780453f798dc0aae9a537e638dc1ed509b2d5daf20dbef8693406e07f7c2c7",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P07.html",
+      "sourceSHA256": "71780453f798dc0aae9a537e638dc1ed509b2d5daf20dbef8693406e07f7c2c7",
+      "sourceCanonicalSHA256": "71780453f798dc0aae9a537e638dc1ed509b2d5daf20dbef8693406e07f7c2c7"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P08.html",
+      "bytes": 22579,
+      "sha256": "7f09cbd15f2233c2b79ba64c848c95ac2f8376614520d68ebd7597fa58c4d72f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P08.html",
+      "sourceSHA256": "7f09cbd15f2233c2b79ba64c848c95ac2f8376614520d68ebd7597fa58c4d72f",
+      "sourceCanonicalSHA256": "7f09cbd15f2233c2b79ba64c848c95ac2f8376614520d68ebd7597fa58c4d72f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09.html",
+      "bytes": 28712,
+      "sha256": "559b63e5775dbb2dd78e815762a053a505301ba7fc1ef8b33091a03758ad2c09",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P09.html",
+      "sourceSHA256": "559b63e5775dbb2dd78e815762a053a505301ba7fc1ef8b33091a03758ad2c09",
+      "sourceCanonicalSHA256": "559b63e5775dbb2dd78e815762a053a505301ba7fc1ef8b33091a03758ad2c09"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10.html",
+      "bytes": 57348,
+      "sha256": "8bf50ffcad527827bf901832d481c259b4b76301d55d8a31a4af11e6a969ceb5",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P10.html",
+      "sourceSHA256": "8bf50ffcad527827bf901832d481c259b4b76301d55d8a31a4af11e6a969ceb5",
+      "sourceCanonicalSHA256": "8bf50ffcad527827bf901832d481c259b4b76301d55d8a31a4af11e6a969ceb5"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11.html",
+      "bytes": 46047,
+      "sha256": "2ba046d8154b00f3176e8d4baae9c71066e793b2770b02442d95d4495239465b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P11.html",
+      "sourceSHA256": "2ba046d8154b00f3176e8d4baae9c71066e793b2770b02442d95d4495239465b",
+      "sourceCanonicalSHA256": "2ba046d8154b00f3176e8d4baae9c71066e793b2770b02442d95d4495239465b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12.html",
+      "bytes": 28640,
+      "sha256": "e52f7f2c94a1808d7dff96ebf53c3389238248273974ef5d5b9a7cff907b0293",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P12.html",
+      "sourceSHA256": "e52f7f2c94a1808d7dff96ebf53c3389238248273974ef5d5b9a7cff907b0293",
+      "sourceCanonicalSHA256": "e52f7f2c94a1808d7dff96ebf53c3389238248273974ef5d5b9a7cff907b0293"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P13.html",
+      "bytes": 14069,
+      "sha256": "704ed1f8d9666140afd682aa764adf733ebe1d366c67bf44f9f5084f62e122d4",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P13.html",
+      "sourceSHA256": "704ed1f8d9666140afd682aa764adf733ebe1d366c67bf44f9f5084f62e122d4",
+      "sourceCanonicalSHA256": "704ed1f8d9666140afd682aa764adf733ebe1d366c67bf44f9f5084f62e122d4"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P14.html",
+      "bytes": 19066,
+      "sha256": "5e0e81390bd5b7825f06000e4ae6d0fabdbb26dff8785ac05c4d59b4144c4860",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P14.html",
+      "sourceSHA256": "5e0e81390bd5b7825f06000e4ae6d0fabdbb26dff8785ac05c4d59b4144c4860",
+      "sourceCanonicalSHA256": "5e0e81390bd5b7825f06000e4ae6d0fabdbb26dff8785ac05c4d59b4144c4860"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15.html",
+      "bytes": 39895,
+      "sha256": "0012f3b4dbf6bbab79e1927f1feb186aeb6ebdaf642f46e7a7f107ced8016515",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P15.html",
+      "sourceSHA256": "0012f3b4dbf6bbab79e1927f1feb186aeb6ebdaf642f46e7a7f107ced8016515",
+      "sourceCanonicalSHA256": "0012f3b4dbf6bbab79e1927f1feb186aeb6ebdaf642f46e7a7f107ced8016515"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P16.html",
+      "bytes": 25447,
+      "sha256": "e92cfe85b1001b3873109605f2db9879ca547ef0427ab8504cdc925c6e3dc6b2",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P16.html",
+      "sourceSHA256": "e92cfe85b1001b3873109605f2db9879ca547ef0427ab8504cdc925c6e3dc6b2",
+      "sourceCanonicalSHA256": "e92cfe85b1001b3873109605f2db9879ca547ef0427ab8504cdc925c6e3dc6b2"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17.html",
+      "bytes": 33118,
+      "sha256": "ab3a408f9467747b156c071859b4f635695f6d0a2d0ff089e1b1f1fd341987b4",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P17.html",
+      "sourceSHA256": "ab3a408f9467747b156c071859b4f635695f6d0a2d0ff089e1b1f1fd341987b4",
+      "sourceCanonicalSHA256": "ab3a408f9467747b156c071859b4f635695f6d0a2d0ff089e1b1f1fd341987b4"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P18.html",
+      "bytes": 36281,
+      "sha256": "c9891b92e8646ff632df1c271365eee9b82af1c108744fbb02f0153c242f7d13",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P18.html",
+      "sourceSHA256": "c9891b92e8646ff632df1c271365eee9b82af1c108744fbb02f0153c242f7d13",
+      "sourceCanonicalSHA256": "c9891b92e8646ff632df1c271365eee9b82af1c108744fbb02f0153c242f7d13"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19.html",
+      "bytes": 42742,
+      "sha256": "831db611e2a4be89fb12722a66e1c9e16f62257c18a1d72894cb04e610ac7b6a",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P19.html",
+      "sourceSHA256": "831db611e2a4be89fb12722a66e1c9e16f62257c18a1d72894cb04e610ac7b6a",
+      "sourceCanonicalSHA256": "831db611e2a4be89fb12722a66e1c9e16f62257c18a1d72894cb04e610ac7b6a"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P20.html",
+      "bytes": 24863,
+      "sha256": "7acb29c92c8037b88c2e7f3b80f32bd2bdce4cc39eeed50c83da910e8f0f4f05",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P20.html",
+      "sourceSHA256": "7acb29c92c8037b88c2e7f3b80f32bd2bdce4cc39eeed50c83da910e8f0f4f05",
+      "sourceCanonicalSHA256": "7acb29c92c8037b88c2e7f3b80f32bd2bdce4cc39eeed50c83da910e8f0f4f05"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
+      "bytes": 5797,
+      "sha256": "35ba151c1018848979e4ea2c6897e81b6d9e53073dbc3f71b088393d5d8e1d78",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
+      "sourceSHA256": "79fbfe10135c479e5baf35cacbca3d9d983049b174b16fa58f436c00181f9591",
+      "sourceCanonicalSHA256": "35ba151c1018848979e4ea2c6897e81b6d9e53073dbc3f71b088393d5d8e1d78"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P01.svg",
+      "bytes": 18804,
+      "sha256": "c472481a81c22caaa948d79673552e37be423d70aa73abedbc7df1703c8424f1",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P01.svg",
+      "sourceSHA256": "c472481a81c22caaa948d79673552e37be423d70aa73abedbc7df1703c8424f1",
+      "sourceCanonicalSHA256": "c472481a81c22caaa948d79673552e37be423d70aa73abedbc7df1703c8424f1"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P01-pecas.csv",
+      "bytes": 3418,
+      "sha256": "6922ae8706bcf38c4c5f99fb6e6416e3605f3148466481f109b13c4b167f9014",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P01-pecas.csv",
+      "sourceSHA256": "a7360efc88eeac8f3231aeecb1a87a785ef750565f401bb7ec47e3c9885bbba1",
+      "sourceCanonicalSHA256": "6922ae8706bcf38c4c5f99fb6e6416e3605f3148466481f109b13c4b167f9014"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02-furacao.csv",
+      "bytes": 4742,
+      "sha256": "4f62c64f0c87e5f9e4170d76c6965ad28178ab62e968507bc8220842b0c942be",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P02-furacao.csv",
+      "sourceSHA256": "8e9f740c01bd4949671f879de5bb8d38cc9ed92ae587fb7039af226a1ff7c612",
+      "sourceCanonicalSHA256": "4f62c64f0c87e5f9e4170d76c6965ad28178ab62e968507bc8220842b0c942be"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02-furacao.svg",
+      "bytes": 5114,
+      "sha256": "8ae46a1c6ba66daf5ec0c7dff5af2844e560988c74f0af60913f9e226825f928",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P02-furacao.svg",
+      "sourceSHA256": "8ae46a1c6ba66daf5ec0c7dff5af2844e560988c74f0af60913f9e226825f928",
+      "sourceCanonicalSHA256": "8ae46a1c6ba66daf5ec0c7dff5af2844e560988c74f0af60913f9e226825f928"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02.svg",
+      "bytes": 6176,
+      "sha256": "024e6adcac061a31c2719ef65003cbba5f7aeb15c3e7e98e1db8d32aa0fb4087",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P02.svg",
+      "sourceSHA256": "024e6adcac061a31c2719ef65003cbba5f7aeb15c3e7e98e1db8d32aa0fb4087",
+      "sourceCanonicalSHA256": "024e6adcac061a31c2719ef65003cbba5f7aeb15c3e7e98e1db8d32aa0fb4087"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02-pecas.csv",
+      "bytes": 2108,
+      "sha256": "eb6e6d43d06442bd2c74377c185732723a6b1c72c8399153ea23dae9f2103f3b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P02-pecas.csv",
+      "sourceSHA256": "fffddba0aad360f860189f8562eefde8b597130cf37c3df66a0879ddbf45fa9c",
+      "sourceCanonicalSHA256": "eb6e6d43d06442bd2c74377c185732723a6b1c72c8399153ea23dae9f2103f3b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P03-furacao.csv",
+      "bytes": 3526,
+      "sha256": "86b17c0bf85c40ed3c1d7fd13f04ceab5a3c86e45c6ad0dfaa8d43ff4b042797",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P03-furacao.csv",
+      "sourceSHA256": "ac2d2ae2e1c2f6bee2a5a45d125945b61567595589717a4b14b5797e40057cbb",
+      "sourceCanonicalSHA256": "86b17c0bf85c40ed3c1d7fd13f04ceab5a3c86e45c6ad0dfaa8d43ff4b042797"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P03.svg",
+      "bytes": 5078,
+      "sha256": "96bb2fe8956b34461ad6237a786844ff5055c027d41c6a688080e145f024e00d",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P03.svg",
+      "sourceSHA256": "96bb2fe8956b34461ad6237a786844ff5055c027d41c6a688080e145f024e00d",
+      "sourceCanonicalSHA256": "96bb2fe8956b34461ad6237a786844ff5055c027d41c6a688080e145f024e00d"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P03-pecas.csv",
+      "bytes": 1186,
+      "sha256": "38a54bde3d8069e2973223372c5dfff7829f274b1bf658990a9eb0fee60977c9",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P03-pecas.csv",
+      "sourceSHA256": "b0d10be78a24aed4261aa0f24829fb4a19f8c80ab67a7140b1044e970a134526",
+      "sourceCanonicalSHA256": "38a54bde3d8069e2973223372c5dfff7829f274b1bf658990a9eb0fee60977c9"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04-furacao.csv",
+      "bytes": 7007,
+      "sha256": "704bd44c6a9877a8cf57fa4c567c1a944ec21a6d0d036945655e466f7d3dc02b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P04-furacao.csv",
+      "sourceSHA256": "ff9af0a55622552616164fdb1b46c39661cd5a6d72794d2a75798f8927737d1d",
+      "sourceCanonicalSHA256": "704bd44c6a9877a8cf57fa4c567c1a944ec21a6d0d036945655e466f7d3dc02b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04-furacao.svg",
+      "bytes": 9863,
+      "sha256": "750437ead9dcd96cede7914329f5d5c187ba9f6b2617af27229e5b513d7a1554",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P04-furacao.svg",
+      "sourceSHA256": "750437ead9dcd96cede7914329f5d5c187ba9f6b2617af27229e5b513d7a1554",
+      "sourceCanonicalSHA256": "750437ead9dcd96cede7914329f5d5c187ba9f6b2617af27229e5b513d7a1554"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04.svg",
+      "bytes": 7847,
+      "sha256": "da926fb01e42c32db5256e5adb0fe75ca9eafcf8495edddb0ff514f235373498",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P04.svg",
+      "sourceSHA256": "da926fb01e42c32db5256e5adb0fe75ca9eafcf8495edddb0ff514f235373498",
+      "sourceCanonicalSHA256": "da926fb01e42c32db5256e5adb0fe75ca9eafcf8495edddb0ff514f235373498"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+      "bytes": 2541,
+      "sha256": "faf92eb0d84a89c6b0a1d554bf25b86df09fb9c4dd33fd06ef71111623fade18",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+      "sourceSHA256": "3c5febd65da646b3750491209b931536555070c958ab6b6b821e7d0d6336a9d1",
+      "sourceCanonicalSHA256": "faf92eb0d84a89c6b0a1d554bf25b86df09fb9c4dd33fd06ef71111623fade18"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05-furacao.csv",
+      "bytes": 4798,
+      "sha256": "b745b5620705d0a74f94b744574e8d746b0059a4fa7ae6b7c6e65c752976f224",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P05-furacao.csv",
+      "sourceSHA256": "2eeec9048e0517275c7b021e1d7cdd34f313caaea8ff2508cb1ef2b32577c12d",
+      "sourceCanonicalSHA256": "b745b5620705d0a74f94b744574e8d746b0059a4fa7ae6b7c6e65c752976f224"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05-furacao.svg",
+      "bytes": 5108,
+      "sha256": "c3ae3bab43af4bc6f62186d6fafc9bf6be7beb09ac7863aedfcfa6b80291a945",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P05-furacao.svg",
+      "sourceSHA256": "c3ae3bab43af4bc6f62186d6fafc9bf6be7beb09ac7863aedfcfa6b80291a945",
+      "sourceCanonicalSHA256": "c3ae3bab43af4bc6f62186d6fafc9bf6be7beb09ac7863aedfcfa6b80291a945"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05.svg",
+      "bytes": 5069,
+      "sha256": "6f8d282926d765432e36d878b1d0f46eb2b0f2a51047e0c9645a313f4c7df7fc",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P05.svg",
+      "sourceSHA256": "6f8d282926d765432e36d878b1d0f46eb2b0f2a51047e0c9645a313f4c7df7fc",
+      "sourceCanonicalSHA256": "6f8d282926d765432e36d878b1d0f46eb2b0f2a51047e0c9645a313f4c7df7fc"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05-pecas.csv",
+      "bytes": 1457,
+      "sha256": "d775a93194d22c8de63504a5a8c428d85c47dced3cadcbeea5ba2b3daecf1dec",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P05-pecas.csv",
+      "sourceSHA256": "faa1e7afc656e18c9d498baad7d98a5407e4bb25fbd8af79713fe332753feee3",
+      "sourceCanonicalSHA256": "d775a93194d22c8de63504a5a8c428d85c47dced3cadcbeea5ba2b3daecf1dec"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
+      "bytes": 3074,
+      "sha256": "2dbe5e965c670119f9dc33f4ad7c5ad4e9e2c2040c90ff2a7f6be570499ef471",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
+      "sourceSHA256": "783c39ebe2e92123506053becafcd6f057ee65c46128e9a5a45c0cbea3f87634",
+      "sourceCanonicalSHA256": "2dbe5e965c670119f9dc33f4ad7c5ad4e9e2c2040c90ff2a7f6be570499ef471"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P06.svg",
+      "bytes": 10414,
+      "sha256": "b610df8696363257d71306c59e147fcffbd7b913d5c0366a518fba94628381fe",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P06.svg",
+      "sourceSHA256": "b610df8696363257d71306c59e147fcffbd7b913d5c0366a518fba94628381fe",
+      "sourceCanonicalSHA256": "b610df8696363257d71306c59e147fcffbd7b913d5c0366a518fba94628381fe"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P06-pecas.csv",
+      "bytes": 4216,
+      "sha256": "217795d4143757bd2851415bde1aa860db1a8793d630f80a5ec67ebd7a6397d1",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P06-pecas.csv",
+      "sourceSHA256": "2531f21c018530df0af719478af0afac374073359186bcb6186b6266e8286441",
+      "sourceCanonicalSHA256": "217795d4143757bd2851415bde1aa860db1a8793d630f80a5ec67ebd7a6397d1"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P07-furacao.csv",
+      "bytes": 1012,
+      "sha256": "8e905ea52bf9e3f7f79778a8de9b900639ef6d6e22ef003bdc97fcd4580a2519",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P07-furacao.csv",
+      "sourceSHA256": "2e3556939245ebd314680035f908bce75014b18ef481484e0690907a5af31f6b",
+      "sourceCanonicalSHA256": "8e905ea52bf9e3f7f79778a8de9b900639ef6d6e22ef003bdc97fcd4580a2519"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P07.svg",
+      "bytes": 6662,
+      "sha256": "06c29e1c0d361e639a4b0434667ecee42bd13aac1b1d8935622fb42857a17f36",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P07.svg",
+      "sourceSHA256": "06c29e1c0d361e639a4b0434667ecee42bd13aac1b1d8935622fb42857a17f36",
+      "sourceCanonicalSHA256": "06c29e1c0d361e639a4b0434667ecee42bd13aac1b1d8935622fb42857a17f36"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P07-pecas.csv",
+      "bytes": 2024,
+      "sha256": "195266984ba268e94b0f98237fe07f8b459d847c041f4f72c8a3b4cc242effc5",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P07-pecas.csv",
+      "sourceSHA256": "10e980f2954ae227a7b24b72d05ba3f51ff4a537247c1ae791fd0609a9675c0b",
+      "sourceCanonicalSHA256": "195266984ba268e94b0f98237fe07f8b459d847c041f4f72c8a3b4cc242effc5"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P08-furacao.csv",
+      "bytes": 2124,
+      "sha256": "53465feb578dce7a090e17be9ca77a9b66c5b8ee73196fe7b0972bec66d9c2ac",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P08-furacao.csv",
+      "sourceSHA256": "936ef768a28aaf8b5701da472d8ed9755091a28d71f1d60fbca6705e9ca0be68",
+      "sourceCanonicalSHA256": "53465feb578dce7a090e17be9ca77a9b66c5b8ee73196fe7b0972bec66d9c2ac"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P08.svg",
+      "bytes": 5554,
+      "sha256": "f623e0f3afc34a4e94778f734efa5dbd112a48cfe78def039418d635d4b0233e",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P08.svg",
+      "sourceSHA256": "f623e0f3afc34a4e94778f734efa5dbd112a48cfe78def039418d635d4b0233e",
+      "sourceCanonicalSHA256": "f623e0f3afc34a4e94778f734efa5dbd112a48cfe78def039418d635d4b0233e"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P08-pecas.csv",
+      "bytes": 1318,
+      "sha256": "ff3ef00636e9f09188ee17a45dfea74fd05a472b079fa568b10dee8d326de49b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P08-pecas.csv",
+      "sourceSHA256": "247cc5e5125590d5165c32843783463996f057f5a4ff7e8a78fc0b329039dd55",
+      "sourceCanonicalSHA256": "ff3ef00636e9f09188ee17a45dfea74fd05a472b079fa568b10dee8d326de49b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09-furacao.csv",
+      "bytes": 4797,
+      "sha256": "56cff2808c3170787d14aed1273004d53db1c8d242c1aba4d7c177242d4058d0",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P09-furacao.csv",
+      "sourceSHA256": "3076531d6a1e7efbdcf89c0d4db7e4c3a9b9b78289a25fc54094c5a16d9e96eb",
+      "sourceCanonicalSHA256": "56cff2808c3170787d14aed1273004d53db1c8d242c1aba4d7c177242d4058d0"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09-furacao.svg",
+      "bytes": 5095,
+      "sha256": "51fda4e367f108d91c33a2db00cf0752e08a126638793fae16bac303781f17fa",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P09-furacao.svg",
+      "sourceSHA256": "51fda4e367f108d91c33a2db00cf0752e08a126638793fae16bac303781f17fa",
+      "sourceCanonicalSHA256": "51fda4e367f108d91c33a2db00cf0752e08a126638793fae16bac303781f17fa"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09.svg",
+      "bytes": 5454,
+      "sha256": "4a97af287b34af20f179547001c748867123a8e96e977aeb60291d7df7d89653",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P09.svg",
+      "sourceSHA256": "4a97af287b34af20f179547001c748867123a8e96e977aeb60291d7df7d89653",
+      "sourceCanonicalSHA256": "4a97af287b34af20f179547001c748867123a8e96e977aeb60291d7df7d89653"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+      "bytes": 1611,
+      "sha256": "b26756c4baf795e8a420b9bb0c3814a4b97a9760736083de51b18d4909a8421f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+      "sourceSHA256": "0d9047578fc67452cc9a62a2dc97b374b7626a9cd67732ef357a424465932d7e",
+      "sourceCanonicalSHA256": "b26756c4baf795e8a420b9bb0c3814a4b97a9760736083de51b18d4909a8421f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10-furacao.csv",
+      "bytes": 18159,
+      "sha256": "28240e822d9b522e15dc02a17c8b2abc1e95eedaf1240a25104ba9de5241b7ea",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P10-furacao.csv",
+      "sourceSHA256": "73cdf35d2007cd36e87be71a4e634711d8b17eec91e9aa861bcecb8591a2113c",
+      "sourceCanonicalSHA256": "28240e822d9b522e15dc02a17c8b2abc1e95eedaf1240a25104ba9de5241b7ea"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10-furacao.svg",
+      "bytes": 20875,
+      "sha256": "4ecf5b40dd550770e1a968f88a771b8eae5277186229adf4a1f26d2a04e8faa7",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P10-furacao.svg",
+      "sourceSHA256": "4ecf5b40dd550770e1a968f88a771b8eae5277186229adf4a1f26d2a04e8faa7",
+      "sourceCanonicalSHA256": "4ecf5b40dd550770e1a968f88a771b8eae5277186229adf4a1f26d2a04e8faa7"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10.svg",
+      "bytes": 6218,
+      "sha256": "2757e0e4c3a52ac26e125a6e5287b4441b99cbac283f4fe4157430f371d47ce3",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P10.svg",
+      "sourceSHA256": "2757e0e4c3a52ac26e125a6e5287b4441b99cbac283f4fe4157430f371d47ce3",
+      "sourceCanonicalSHA256": "2757e0e4c3a52ac26e125a6e5287b4441b99cbac283f4fe4157430f371d47ce3"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10-pecas.csv",
+      "bytes": 1626,
+      "sha256": "1f31f1c23f63dd56ca9d93f7581a5179afb3b13f2e842361239cf6e63a373b8d",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P10-pecas.csv",
+      "sourceSHA256": "013d1a93fce55e52b8ce444122bef6fa4c1bada709b7e92749b928a97faffdb1",
+      "sourceCanonicalSHA256": "1f31f1c23f63dd56ca9d93f7581a5179afb3b13f2e842361239cf6e63a373b8d"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11-furacao.csv",
+      "bytes": 13153,
+      "sha256": "3198c66f378c40cadbfb7b829d5d39daccb29c9905808374d8bd2fcf7e4dbcaf",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P11-furacao.csv",
+      "sourceSHA256": "47aeacb2e1a888f41f60d9e67059530c0530502d905e4ad29efbd17e6d1f9d0b",
+      "sourceCanonicalSHA256": "3198c66f378c40cadbfb7b829d5d39daccb29c9905808374d8bd2fcf7e4dbcaf"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11-furacao.svg",
+      "bytes": 14417,
+      "sha256": "0f9152dfbdf187e5727a136a78e1e15c6347e128c33abc4fbc7d6f6e98cf096a",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P11-furacao.svg",
+      "sourceSHA256": "0f9152dfbdf187e5727a136a78e1e15c6347e128c33abc4fbc7d6f6e98cf096a",
+      "sourceCanonicalSHA256": "0f9152dfbdf187e5727a136a78e1e15c6347e128c33abc4fbc7d6f6e98cf096a"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11.svg",
+      "bytes": 5450,
+      "sha256": "c9dce6d70e2a59a5e7813d9a520ad8289c85d6334cb81cb0ce1eee731b5cd7cc",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P11.svg",
+      "sourceSHA256": "c9dce6d70e2a59a5e7813d9a520ad8289c85d6334cb81cb0ce1eee731b5cd7cc",
+      "sourceCanonicalSHA256": "c9dce6d70e2a59a5e7813d9a520ad8289c85d6334cb81cb0ce1eee731b5cd7cc"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+      "bytes": 1609,
+      "sha256": "dd2228583cf1c7b0663898a5363e216b83d4fc249456eada5be2f6274191ce8f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+      "sourceSHA256": "d6eca5c728f5995d00e751c6b68f20699d6d97965d2a9435eaf9f4bc019d7a65",
+      "sourceCanonicalSHA256": "dd2228583cf1c7b0663898a5363e216b83d4fc249456eada5be2f6274191ce8f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12-furacao.csv",
+      "bytes": 4807,
+      "sha256": "9b8438626fa06102ccc0c8084d69c9c253f16698b585fdd46d71461220a8ddd6",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P12-furacao.csv",
+      "sourceSHA256": "fbbbd4800e5e8a787cfabfff878976d6b803dabe8a723cda6cb8921a5796f842",
+      "sourceCanonicalSHA256": "9b8438626fa06102ccc0c8084d69c9c253f16698b585fdd46d71461220a8ddd6"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12-furacao.svg",
+      "bytes": 5134,
+      "sha256": "f1980e8c2ab65f1f5985ababb26646f3e0b680a984c8dacd3f02c43c3c58bf1d",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P12-furacao.svg",
+      "sourceSHA256": "f1980e8c2ab65f1f5985ababb26646f3e0b680a984c8dacd3f02c43c3c58bf1d",
+      "sourceCanonicalSHA256": "f1980e8c2ab65f1f5985ababb26646f3e0b680a984c8dacd3f02c43c3c58bf1d"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12.svg",
+      "bytes": 5448,
+      "sha256": "ae94fc2f024940f929db2226fda5c8d0cc6fee4ff683487417807441c9117ae7",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P12.svg",
+      "sourceSHA256": "ae94fc2f024940f929db2226fda5c8d0cc6fee4ff683487417807441c9117ae7",
+      "sourceCanonicalSHA256": "ae94fc2f024940f929db2226fda5c8d0cc6fee4ff683487417807441c9117ae7"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+      "bytes": 1617,
+      "sha256": "cea532b6cb717d086d4a22ec0e9583d73d239c0c1d1b6482344adc85ffe96f4b",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+      "sourceSHA256": "7a75a49dbdc3ee2ad42ff5151db5b96913c261897237216a9bc2e3029f293b33",
+      "sourceCanonicalSHA256": "cea532b6cb717d086d4a22ec0e9583d73d239c0c1d1b6482344adc85ffe96f4b"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P13-furacao.csv",
+      "bytes": 940,
+      "sha256": "013e715e2013748c6a1a442e6e446cb3b84bb4dc6df8afe08281bfcad417d1ea",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P13-furacao.csv",
+      "sourceSHA256": "eb9a807d07a3d12e6637284bff87344e46284652496967664cd04d6133f0fd3e",
+      "sourceCanonicalSHA256": "013e715e2013748c6a1a442e6e446cb3b84bb4dc6df8afe08281bfcad417d1ea"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P13.svg",
+      "bytes": 2783,
+      "sha256": "4a59cbd1f80b57536758af3d40f340656ca5a4b2142e2d1f388d4eae2adde3d9",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P13.svg",
+      "sourceSHA256": "4a59cbd1f80b57536758af3d40f340656ca5a4b2142e2d1f388d4eae2adde3d9",
+      "sourceCanonicalSHA256": "4a59cbd1f80b57536758af3d40f340656ca5a4b2142e2d1f388d4eae2adde3d9"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P13-pecas.csv",
+      "bytes": 403,
+      "sha256": "dd8f328b2e79d0e9321dd2d5d861b52e664e6fb0aff9e98156cf7d63d74417a6",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P13-pecas.csv",
+      "sourceSHA256": "7d9471280547cd3d0164e5b626e42931681efe2f83378ea19700c4179009e8fe",
+      "sourceCanonicalSHA256": "dd8f328b2e79d0e9321dd2d5d861b52e664e6fb0aff9e98156cf7d63d74417a6"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P14-furacao.csv",
+      "bytes": 1705,
+      "sha256": "f86f654065c543e71fa218ba0ae7e9324e3b94106d0ac877f4336f98fbe673fb",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P14-furacao.csv",
+      "sourceSHA256": "0dc4ce9aa637edbb257079f13275a81d24cc18031bf2a4331d2527e98581200c",
+      "sourceCanonicalSHA256": "f86f654065c543e71fa218ba0ae7e9324e3b94106d0ac877f4336f98fbe673fb"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P14.svg",
+      "bytes": 6293,
+      "sha256": "e45c6fabaf1ebdc7a3e5472a001c5e31257b110217e21058e84401970a533163",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P14.svg",
+      "sourceSHA256": "e45c6fabaf1ebdc7a3e5472a001c5e31257b110217e21058e84401970a533163",
+      "sourceCanonicalSHA256": "e45c6fabaf1ebdc7a3e5472a001c5e31257b110217e21058e84401970a533163"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P14-pecas.csv",
+      "bytes": 1974,
+      "sha256": "dc105f7bb8079190b083e71522ee15eb0b65d8448281b6b75f284cca1ecda952",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P14-pecas.csv",
+      "sourceSHA256": "1848972d72b0e38c89c3eb6fa3b306aeb0ffc92f777a869a1bc61482b7971fb3",
+      "sourceCanonicalSHA256": "dc105f7bb8079190b083e71522ee15eb0b65d8448281b6b75f284cca1ecda952"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15-furacao.csv",
+      "bytes": 10096,
+      "sha256": "5bfe339b52ce4421cd12e8aa674e0878bc7ca000a6447186fafbd629ec5a68a2",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P15-furacao.csv",
+      "sourceSHA256": "83caad6677f7067f32b4223749f6744b47e3313280956721544eaf3662f7dd38",
+      "sourceCanonicalSHA256": "5bfe339b52ce4421cd12e8aa674e0878bc7ca000a6447186fafbd629ec5a68a2"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15-furacao.svg",
+      "bytes": 11180,
+      "sha256": "99e4def34ed077180faec807c640c7508faf70556011abc1351e29a0212478e7",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P15-furacao.svg",
+      "sourceSHA256": "99e4def34ed077180faec807c640c7508faf70556011abc1351e29a0212478e7",
+      "sourceCanonicalSHA256": "99e4def34ed077180faec807c640c7508faf70556011abc1351e29a0212478e7"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15.svg",
+      "bytes": 5149,
+      "sha256": "7e2172028277f4131421a871c0c9d802a38c28c8223eedcde6cd6fa0336b9eb4",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P15.svg",
+      "sourceSHA256": "7e2172028277f4131421a871c0c9d802a38c28c8223eedcde6cd6fa0336b9eb4",
+      "sourceCanonicalSHA256": "7e2172028277f4131421a871c0c9d802a38c28c8223eedcde6cd6fa0336b9eb4"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+      "bytes": 1457,
+      "sha256": "bda2173588ea9dac37ab59cb684734717bec4295343121f8fd8bee91c360dc0f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+      "sourceSHA256": "a29e227c073990d13dc349204d30a0f649baae7d3bd2a7e07aefbdbc70bff766",
+      "sourceCanonicalSHA256": "bda2173588ea9dac37ab59cb684734717bec4295343121f8fd8bee91c360dc0f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
+      "bytes": 2731,
+      "sha256": "2d4a334bbb359c2f0c0c11572d8c6d8478be6e50b59397688584d8cc850d95bf",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
+      "sourceSHA256": "0f0ecd64b6fcdc2f97669bd3062e65ae56fb986c79692925c2a252d9abe7451e",
+      "sourceCanonicalSHA256": "2d4a334bbb359c2f0c0c11572d8c6d8478be6e50b59397688584d8cc850d95bf"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P16.svg",
+      "bytes": 8880,
+      "sha256": "45d3d65d9033045f2b638070bccf8ee38150313a32104657ef771f3b6fc695dc",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P16.svg",
+      "sourceSHA256": "45d3d65d9033045f2b638070bccf8ee38150313a32104657ef771f3b6fc695dc",
+      "sourceCanonicalSHA256": "45d3d65d9033045f2b638070bccf8ee38150313a32104657ef771f3b6fc695dc"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P16-pecas.csv",
+      "bytes": 3294,
+      "sha256": "eb78f0f5416b26a89c9123cea90d6c864c79f0ff8d3539b30fde09a83aaa486c",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P16-pecas.csv",
+      "sourceSHA256": "f88a37249c3ecfefe1c81a2d43b8fa9e81a15e1ccecc1a92038fc4cb0d436ebf",
+      "sourceCanonicalSHA256": "eb78f0f5416b26a89c9123cea90d6c864c79f0ff8d3539b30fde09a83aaa486c"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17-furacao.csv",
+      "bytes": 7009,
+      "sha256": "baa9291f8126b4516b691401dd55c9475042ed954aa404061a9aa211ad581af1",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P17-furacao.csv",
+      "sourceSHA256": "b4d3184c527fa3acc48b141e648c1c817386473f9d9eb0a14d780e1c45d3bdc0",
+      "sourceCanonicalSHA256": "baa9291f8126b4516b691401dd55c9475042ed954aa404061a9aa211ad581af1"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17-furacao.svg",
+      "bytes": 9896,
+      "sha256": "dbe912cf4e844f83a3ed6d3f5592819e24499c333101599135c48614db5a1e72",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P17-furacao.svg",
+      "sourceSHA256": "dbe912cf4e844f83a3ed6d3f5592819e24499c333101599135c48614db5a1e72",
+      "sourceCanonicalSHA256": "dbe912cf4e844f83a3ed6d3f5592819e24499c333101599135c48614db5a1e72"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17.svg",
+      "bytes": 7283,
+      "sha256": "ed3336db353719014c58fcad7bd1cef3d82f2103f399bfdb6d2d3f897360d494",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P17.svg",
+      "sourceSHA256": "ed3336db353719014c58fcad7bd1cef3d82f2103f399bfdb6d2d3f897360d494",
+      "sourceCanonicalSHA256": "ed3336db353719014c58fcad7bd1cef3d82f2103f399bfdb6d2d3f897360d494"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+      "bytes": 2221,
+      "sha256": "cf69bcf9b4ed1dec74363fb44970b196e6fd1253143f2c35eeea32b8439217b9",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+      "sourceSHA256": "fe0708b34a0bd4a8970fecbb42d22142ea53a6871765c403411e630e8d2b3ab0",
+      "sourceCanonicalSHA256": "cf69bcf9b4ed1dec74363fb44970b196e6fd1253143f2c35eeea32b8439217b9"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P18-furacao.csv",
+      "bytes": 5888,
+      "sha256": "67e2f999f080c3f9f34bfb920c9f7fc830d42dd90d47b951fbde117a3e4d55e1",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P18-furacao.csv",
+      "sourceSHA256": "c106ae6a37f485426823c72464eff7efc4ce700dfcf4a0f2c2175409724256ef",
+      "sourceCanonicalSHA256": "67e2f999f080c3f9f34bfb920c9f7fc830d42dd90d47b951fbde117a3e4d55e1"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P18.svg",
+      "bytes": 6081,
+      "sha256": "6f0f22d6fe1726deee8d84e575cf3943cc2c98c4bdec5efdc082ba47dd0c0720",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P18.svg",
+      "sourceSHA256": "6f0f22d6fe1726deee8d84e575cf3943cc2c98c4bdec5efdc082ba47dd0c0720",
+      "sourceCanonicalSHA256": "6f0f22d6fe1726deee8d84e575cf3943cc2c98c4bdec5efdc082ba47dd0c0720"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P18-pecas.csv",
+      "bytes": 2922,
+      "sha256": "b798251903f3d0e8090c8dd83a84ffdac4b09369b6c3b6a07fc621083253ea1f",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P18-pecas.csv",
+      "sourceSHA256": "ca3dd2d0ad8ec795006d0819b9593a24c08169591e216f8579033ac68023b13b",
+      "sourceCanonicalSHA256": "b798251903f3d0e8090c8dd83a84ffdac4b09369b6c3b6a07fc621083253ea1f"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19-furacao.csv",
+      "bytes": 11079,
+      "sha256": "ac1f1ce8b526090e8565703dc3827f2ffe9f10d9df8d5d16ef22099d3e4e5df4",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P19-furacao.csv",
+      "sourceSHA256": "6194e44d22bb93af2860969d8ec030b2ef59cf87bf58429ced90abde638541be",
+      "sourceCanonicalSHA256": "ac1f1ce8b526090e8565703dc3827f2ffe9f10d9df8d5d16ef22099d3e4e5df4"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19-furacao.svg",
+      "bytes": 15101,
+      "sha256": "74b0b2eed01f05e7debd3027ba33199ed7b68a09cb3def8f16e39283163f9d65",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P19-furacao.svg",
+      "sourceSHA256": "74b0b2eed01f05e7debd3027ba33199ed7b68a09cb3def8f16e39283163f9d65",
+      "sourceCanonicalSHA256": "74b0b2eed01f05e7debd3027ba33199ed7b68a09cb3def8f16e39283163f9d65"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19.svg",
+      "bytes": 5600,
+      "sha256": "141236e0c5c298a7aad0f9f590556e4ce8c520aa8cf4a9263395e28cd4dcda82",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P19.svg",
+      "sourceSHA256": "141236e0c5c298a7aad0f9f590556e4ce8c520aa8cf4a9263395e28cd4dcda82",
+      "sourceCanonicalSHA256": "141236e0c5c298a7aad0f9f590556e4ce8c520aa8cf4a9263395e28cd4dcda82"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19-pecas.csv",
+      "bytes": 2037,
+      "sha256": "42d7d6da0237c60136ef4c71f196c1dbc91d877c84a290038cf522157c991eb9",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P19-pecas.csv",
+      "sourceSHA256": "a2ced52233e1db1ab1e37cc5d77def6bdbad47e23108d993ef5fa756061fb0f8",
+      "sourceCanonicalSHA256": "42d7d6da0237c60136ef4c71f196c1dbc91d877c84a290038cf522157c991eb9"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P20-furacao.csv",
+      "bytes": 1108,
+      "sha256": "34f1110ffe596f0d80bcaa8d3839f951d3a45d125a22434c10ee7b3a4dcd8e05",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P20-furacao.csv",
+      "sourceSHA256": "6906c4666bbc9a63109c1dd31a27e6f9d714aba64a671c9976694c9d0db38573",
+      "sourceCanonicalSHA256": "34f1110ffe596f0d80bcaa8d3839f951d3a45d125a22434c10ee7b3a4dcd8e05"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P20.svg",
+      "bytes": 12821,
+      "sha256": "12f34b04fd207ec292f9c662cf9880523bbc1094de3eae350a272989b27bd184",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P20.svg",
+      "sourceSHA256": "12f34b04fd207ec292f9c662cf9880523bbc1094de3eae350a272989b27bd184",
+      "sourceCanonicalSHA256": "12f34b04fd207ec292f9c662cf9880523bbc1094de3eae350a272989b27bd184"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P20-pecas.csv",
+      "bytes": 5137,
+      "sha256": "bb8fc9a04be45ff8ccd4c9ee9db8d47885258cf1a474de6b2f29abb9f8a423e3",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/P20-pecas.csv",
+      "sourceSHA256": "e23ca3ee42e5c01c3dc04b09ae137e271c3c00ae27dfb4c6eaffb6509a93f864",
+      "sourceCanonicalSHA256": "bb8fc9a04be45ff8ccd4c9ee9db8d47885258cf1a474de6b2f29abb9f8a423e3"
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/Tecnica_R14.json",
+      "bytes": 612595,
+      "sha256": "141c18bbc3353fc6631c875391c38c755aecd2827cfba6bf353021daee56ade0",
+      "sourcePath": "06_Entregas/Fichas_fabricacao/Tecnica_R14.json",
+      "sourceSHA256": "141c18bbc3353fc6631c875391c38c755aecd2827cfba6bf353021daee56ade0",
+      "sourceCanonicalSHA256": "141c18bbc3353fc6631c875391c38c755aecd2827cfba6bf353021daee56ade0"
+    },
+    {
+      "path": "06_Entregas/Planta_cotada/index.html",
+      "bytes": 40549,
+      "sha256": "589d13d7267bc9ada2e140f2a3a754d3fe93218d6197b61a5ab3e9ec0e734cc3",
+      "sourcePath": "06_Entregas/Planta_cotada/index.html",
+      "sourceSHA256": "589d13d7267bc9ada2e140f2a3a754d3fe93218d6197b61a5ab3e9ec0e734cc3",
+      "sourceCanonicalSHA256": "589d13d7267bc9ada2e140f2a3a754d3fe93218d6197b61a5ab3e9ec0e734cc3"
+    },
+    {
+      "path": "06_Entregas/Planta_cotada/Planta_cotada.svg",
+      "bytes": 9816,
+      "sha256": "a28c687c0e863041bde2d3c908c33477e928bfcbd50a54c83197304e6132d5fa",
+      "sourcePath": "06_Entregas/Planta_cotada/Planta_cotada.svg",
+      "sourceSHA256": "a28c687c0e863041bde2d3c908c33477e928bfcbd50a54c83197304e6132d5fa",
+      "sourceCanonicalSHA256": "a28c687c0e863041bde2d3c908c33477e928bfcbd50a54c83197304e6132d5fa"
+    },
+    {
+      "path": "06_Entregas/Planta_cotada/Planta_oficial.png",
+      "bytes": 201167,
+      "sha256": "5cebf1e7d8bc5fdf36b0637cdebdf2c0d7f6f7defc36cb51ada1bf66242fc05b",
+      "sourcePath": "06_Entregas/Planta_cotada/Planta_oficial.png",
+      "sourceSHA256": "5cebf1e7d8bc5fdf36b0637cdebdf2c0d7f6f7defc36cb51ada1bf66242fc05b",
+      "sourceCanonicalSHA256": "5cebf1e7d8bc5fdf36b0637cdebdf2c0d7f6f7defc36cb51ada1bf66242fc05b"
+    },
+    {
+      "path": "06_Entregas/Planta_cotada/Cotas.json",
+      "bytes": 3165,
+      "sha256": "6777c378d16ce432b4ce2ecb0c4007a4bd6c4aa94a4db94331d727fba7206a80",
+      "sourcePath": "06_Entregas/Planta_cotada/Cotas.json",
+      "sourceSHA256": "6777c378d16ce432b4ce2ecb0c4007a4bd6c4aa94a4db94331d727fba7206a80",
+      "sourceCanonicalSHA256": "6777c378d16ce432b4ce2ecb0c4007a4bd6c4aa94a4db94331d727fba7206a80"
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/README.md",
+      "bytes": 3689,
+      "sha256": "8f253213103460cd3a2031daa78871ef9807424dcfd87b53fd9ef810fbef31f7",
+      "sourcePath": "02_Modelo_3D/Historico/Cores/README.md",
+      "sourceSHA256": "5848f1cc34f87d3b6ba18b7fa4c4aae7b510e71fdf81c6b8569aad54df59f3af",
+      "sourceCanonicalSHA256": "8f253213103460cd3a2031daa78871ef9807424dcfd87b53fd9ef810fbef31f7"
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/Plano_de_cores.json",
+      "bytes": 92124,
+      "sha256": "c3b2f467855a7db1eac1ad2e012ae1471363574850e070d0f520d1d0b0062432",
+      "sourcePath": "02_Modelo_3D/Historico/Cores/Plano_de_cores.json",
+      "sourceSHA256": "c3b2f467855a7db1eac1ad2e012ae1471363574850e070d0f520d1d0b0062432",
+      "sourceCanonicalSHA256": "c3b2f467855a7db1eac1ad2e012ae1471363574850e070d0f520d1d0b0062432"
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/Verificacao_cores.json",
+      "bytes": 45147,
+      "sha256": "67591bea889ad88261f11e73fe2d1743356a9dda7af7a13a2a43b059a64e5a62",
+      "sourcePath": "02_Modelo_3D/Historico/Cores/Verificacao_cores.json",
+      "sourceSHA256": "694a454af46d24bfb57f68deaddadcde1db0c28badd50cd687089c266330b184",
+      "sourceCanonicalSHA256": "67591bea889ad88261f11e73fe2d1743356a9dda7af7a13a2a43b059a64e5a62"
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/Verificacao_geometria.json",
+      "bytes": 349,
+      "sha256": "38c398731c20d7f8df997859364e86d2d934e76809517efdc8d45f3ce3f5e7e9",
+      "sourcePath": "02_Modelo_3D/Historico/Cores/Verificacao_geometria.json",
+      "sourceSHA256": "f38b1849c54282b23bd513b47682627f434ce7a32167627d43328183069fd792",
+      "sourceCanonicalSHA256": "38c398731c20d7f8df997859364e86d2d934e76809517efdc8d45f3ce3f5e7e9"
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "bytes": 2866,
+      "sha256": "e9a66e56b7cefb584030f2582255efb69226d76996d9a79a2406b9ff3dcf4bd3",
+      "sourcePath": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "sourceSHA256": "e9a66e56b7cefb584030f2582255efb69226d76996d9a79a2406b9ff3dcf4bd3",
+      "sourceCanonicalSHA256": "e9a66e56b7cefb584030f2582255efb69226d76996d9a79a2406b9ff3dcf4bd3"
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.json",
+      "bytes": 4435,
+      "sha256": "92f5a0f3e110775139b6a118e1ca68afc17ca98ffd2dda6ff12b73a1280096e5",
+      "sourcePath": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.json",
+      "sourceSHA256": "92f5a0f3e110775139b6a118e1ca68afc17ca98ffd2dda6ff12b73a1280096e5",
+      "sourceCanonicalSHA256": "92f5a0f3e110775139b6a118e1ca68afc17ca98ffd2dda6ff12b73a1280096e5"
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Verificacao_CAD.json",
+      "bytes": 3616,
+      "sha256": "48dff32b6bdad59487b940125302f2110c58e0f0430620e53b46bd569aab35f1",
+      "sourcePath": "03_Ambientes/Cozinha/Rodizios_gaveta/Verificacao_CAD.json",
+      "sourceSHA256": "48dff32b6bdad59487b940125302f2110c58e0f0430620e53b46bd569aab35f1",
+      "sourceCanonicalSHA256": "48dff32b6bdad59487b940125302f2110c58e0f0430620e53b46bd569aab35f1"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "bytes": 12158,
+      "sha256": "ff9ce64280c760fafe38d985f80d610c4817a826feaeb598220ef61fcce703b4",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "sourceSHA256": "3d1c50c2928b1794216c0621de64e63b4ad05d956d840300f6bee0197619a73f",
+      "sourceCanonicalSHA256": "3d1c50c2928b1794216c0621de64e63b4ad05d956d840300f6bee0197619a73f"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Escolhas.json",
+      "bytes": 787,
+      "sha256": "440d05e0ed2e4875b65da2df891732846feeea072d44849ba7925b6661115c10",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Escolhas.json",
+      "sourceSHA256": "440d05e0ed2e4875b65da2df891732846feeea072d44849ba7925b6661115c10",
+      "sourceCanonicalSHA256": "440d05e0ed2e4875b65da2df891732846feeea072d44849ba7925b6661115c10"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Situacao.json",
+      "bytes": 11770,
+      "sha256": "3bc2e0068d63cac614d8b06c373c8017cdf85c405604e701973efd5918513166",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Situacao.json",
+      "sourceSHA256": "3bc2e0068d63cac614d8b06c373c8017cdf85c405604e701973efd5918513166",
+      "sourceCanonicalSHA256": "3bc2e0068d63cac614d8b06c373c8017cdf85c405604e701973efd5918513166"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Iluminacao_e_materiais.json",
+      "bytes": 6833,
+      "sha256": "2708107c9a511d581956fc01019892ae67f3938c5fff3178658b052f5c6bb6d6",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Iluminacao_e_materiais.json",
+      "sourceSHA256": "2708107c9a511d581956fc01019892ae67f3938c5fff3178658b052f5c6bb6d6",
+      "sourceCanonicalSHA256": "2708107c9a511d581956fc01019892ae67f3938c5fff3178658b052f5c6bb6d6"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "bytes": 13200,
+      "sha256": "35ecdf7ca4f5ebfb1c75e5eab547b79cfa3793a3f209a6ed971cf97aa0ee82b4",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "sourceSHA256": "82b9f0ac77c96d43b872c32c415278011bda13c61dc4022ede98ae5459a64874",
+      "sourceCanonicalSHA256": "9ce2b98f994f84629b4cde94b89eb91e692ce33e4ab381cc275c5c2e2be380c1"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.json",
+      "bytes": 19113,
+      "sha256": "a8a27476b8b78ca2cd46d7fd90b06c55ea31b3bd97f6c321eaeb750c8c7767d2",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.json",
+      "sourceSHA256": "a8a27476b8b78ca2cd46d7fd90b06c55ea31b3bd97f6c321eaeb750c8c7767d2",
+      "sourceCanonicalSHA256": "a8a27476b8b78ca2cd46d7fd90b06c55ea31b3bd97f6c321eaeb750c8c7767d2"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_luminarias_L02.json",
+      "bytes": 1040,
+      "sha256": "6ac9d751a34d9e1408f8b31e4b7596477f2d8723a2a8a0e5d960c46e5bfdc6ad",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_luminarias_L02.json",
+      "sourceSHA256": "d53268dc9debdad6a03b0599a10a305f22951a64b96ce30332799a626063d548",
+      "sourceCanonicalSHA256": "6ac9d751a34d9e1408f8b31e4b7596477f2d8723a2a8a0e5d960c46e5bfdc6ad"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Hidraulica_cenarios.json",
+      "bytes": 1654,
+      "sha256": "a1ce16c17aa624fbe24b4210fd792cd99d98e350d938b8c9aeee7059cffec6ce",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Hidraulica_cenarios.json",
+      "sourceSHA256": "80a4ace75cd1dfbf73baa973fbd600603d0afa55062dc2c289b1b923a522a698",
+      "sourceCanonicalSHA256": "a1ce16c17aa624fbe24b4210fd792cd99d98e350d938b8c9aeee7059cffec6ce"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_unioes_P19.json",
+      "bytes": 6605,
+      "sha256": "8d023f5c7cf46efd9379432bd67db803520bfb5930c67e3048ee9e84837f041b",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Verificacao_unioes_P19.json",
+      "sourceSHA256": "8d023f5c7cf46efd9379432bd67db803520bfb5930c67e3048ee9e84837f041b",
+      "sourceCanonicalSHA256": "8d023f5c7cf46efd9379432bd67db803520bfb5930c67e3048ee9e84837f041b"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/P19_Unioes_nominais.csv",
+      "bytes": 3423,
+      "sha256": "f2a00a7fb4992bc3343d0da70d316efa8c885fea85e0fabcb70a47f5c93370f0",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/P19_Unioes_nominais.csv",
+      "sourceSHA256": "7129370e66e4631fd19c9a23cc268e1e0651da0fce75ad8860865745c37f557e",
+      "sourceCanonicalSHA256": "f2a00a7fb4992bc3343d0da70d316efa8c885fea85e0fabcb70a47f5c93370f0"
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+      "bytes": 129600,
+      "sha256": "332b20ef78d91987e218b84cb7c9798c1165f3332c9b2474225294de60de3964",
+      "sourcePath": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Espelheiro_P19_Unioes_NOMINAIS.FCStd",
+      "sourceSHA256": "332b20ef78d91987e218b84cb7c9798c1165f3332c9b2474225294de60de3964",
+      "sourceCanonicalSHA256": "332b20ef78d91987e218b84cb7c9798c1165f3332c9b2474225294de60de3964"
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md",
+      "bytes": 4334,
+      "sha256": "406fae7f13063771d470320f4388554989c7c157af6f6af3709f2b26177bebd9",
+      "sourcePath": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md",
+      "sourceSHA256": "406fae7f13063771d470320f4388554989c7c157af6f6af3709f2b26177bebd9",
+      "sourceCanonicalSHA256": "406fae7f13063771d470320f4388554989c7c157af6f6af3709f2b26177bebd9"
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json",
+      "bytes": 11101,
+      "sha256": "c149b5fc119b45995353f3f38fdfd5a46340a9d57aca1318826075e7b7a6d607",
+      "sourcePath": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json",
+      "sourceSHA256": "c149b5fc119b45995353f3f38fdfd5a46340a9d57aca1318826075e7b7a6d607",
+      "sourceCanonicalSHA256": "c149b5fc119b45995353f3f38fdfd5a46340a9d57aca1318826075e7b7a6d607"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/Galeria.md",
+      "bytes": 1926,
+      "sha256": "8386317b92bdf642859d2411632fcba610c5d537259f44eca9171e01d991ea8b",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/Galeria.md",
+      "sourceSHA256": "8386317b92bdf642859d2411632fcba610c5d537259f44eca9171e01d991ea8b",
+      "sourceCanonicalSHA256": "8386317b92bdf642859d2411632fcba610c5d537259f44eca9171e01d991ea8b"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/01_Quarto_economico.png",
+      "bytes": 1753930,
+      "sha256": "e54b5691f084de61d486675f43100c070c6cd6bb03453bc2e722de6d748b5786",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/01_Quarto_economico.png",
+      "sourceSHA256": "e54b5691f084de61d486675f43100c070c6cd6bb03453bc2e722de6d748b5786",
+      "sourceCanonicalSHA256": "e54b5691f084de61d486675f43100c070c6cd6bb03453bc2e722de6d748b5786"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png",
+      "bytes": 1783908,
+      "sha256": "0e7350ea64f63a24fd45afb59432aaf880bd2a9e12700071e0d38c17095ef7b1",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png",
+      "sourceSHA256": "0e7350ea64f63a24fd45afb59432aaf880bd2a9e12700071e0d38c17095ef7b1",
+      "sourceCanonicalSHA256": "0e7350ea64f63a24fd45afb59432aaf880bd2a9e12700071e0d38c17095ef7b1"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/03_Sala_escritorio.png",
+      "bytes": 2060361,
+      "sha256": "c1977ea767d9852661c68b9b9b5e12743a644c4ca070636e4d2654b5ae716f25",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/03_Sala_escritorio.png",
+      "sourceSHA256": "c1977ea767d9852661c68b9b9b5e12743a644c4ca070636e4d2654b5ae716f25",
+      "sourceCanonicalSHA256": "c1977ea767d9852661c68b9b9b5e12743a644c4ca070636e4d2654b5ae716f25"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png",
+      "bytes": 1752011,
+      "sha256": "d310c934f27f4aab5fe71047cfc12d832c15e396c84861596044268ff851e9ab",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png",
+      "sourceSHA256": "d310c934f27f4aab5fe71047cfc12d832c15e396c84861596044268ff851e9ab",
+      "sourceCanonicalSHA256": "d310c934f27f4aab5fe71047cfc12d832c15e396c84861596044268ff851e9ab"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/README.md",
+      "bytes": 8061,
+      "sha256": "4c1dedab09ff758cad73e3e8c1f070bfd75df34e37d4dad6fcf6c52a84f43740",
+      "sourcePath": "04_Moveis/Proximas_decisoes/README.md",
+      "sourceSHA256": "4c1dedab09ff758cad73e3e8c1f070bfd75df34e37d4dad6fcf6c52a84f43740",
+      "sourceCanonicalSHA256": "4c1dedab09ff758cad73e3e8c1f070bfd75df34e37d4dad6fcf6c52a84f43740"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "bytes": 11199,
+      "sha256": "091255e82477244376585e5677d6ba8f4a98349f28fe8297ac07c6d8323ca99a",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "sourceSHA256": "091255e82477244376585e5677d6ba8f4a98349f28fe8297ac07c6d8323ca99a",
+      "sourceCanonicalSHA256": "091255e82477244376585e5677d6ba8f4a98349f28fe8297ac07c6d8323ca99a"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Arranjos_preliminares.csv",
+      "bytes": 67694,
+      "sha256": "9f63d701e08fdf5ee19e956b7d71f478afd5f198d2ac3c9b1bae2fc4f55d3cec",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Arranjos_preliminares.csv",
+      "sourceSHA256": "0be1351de7534bfdd7cfa677b02f50c1981a968700897f023a6ff691ec2b078b",
+      "sourceCanonicalSHA256": "9f63d701e08fdf5ee19e956b7d71f478afd5f198d2ac3c9b1bae2fc4f55d3cec"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Fontes_e_hashes.json",
+      "bytes": 2992,
+      "sha256": "1f4558bbd0293bc63c5c8b0a361fec3bf9f6cd8df40b4202d2daa1a995743372",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Fontes_e_hashes.json",
+      "sourceSHA256": "1f4558bbd0293bc63c5c8b0a361fec3bf9f6cd8df40b4202d2daa1a995743372",
+      "sourceCanonicalSHA256": "1f4558bbd0293bc63c5c8b0a361fec3bf9f6cd8df40b4202d2daa1a995743372"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.csv",
+      "bytes": 52262,
+      "sha256": "5629d5013a467217e77200ceb936e9ca965a77c5a4a92901471d30612172a376",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.csv",
+      "sourceSHA256": "640ddef5d498b9aee4294def35ea2259f1423ce31df3c497eb4c37b81fde2079",
+      "sourceCanonicalSHA256": "5629d5013a467217e77200ceb936e9ca965a77c5a4a92901471d30612172a376"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.json",
+      "bytes": 187326,
+      "sha256": "460c8430133017f433772fef407b603105fa60cca8cc8ef82568d9bf4ae23dcc",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.json",
+      "sourceSHA256": "460c8430133017f433772fef407b603105fa60cca8cc8ef82568d9bf4ae23dcc",
+      "sourceCanonicalSHA256": "460c8430133017f433772fef407b603105fa60cca8cc8ef82568d9bf4ae23dcc"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Parametros.json",
+      "bytes": 1819,
+      "sha256": "d60780f5fb099673d8344c61715333b346c0182effdddaf196055acae1b31b01",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Parametros.json",
+      "sourceSHA256": "d60780f5fb099673d8344c61715333b346c0182effdddaf196055acae1b31b01",
+      "sourceCanonicalSHA256": "d60780f5fb099673d8344c61715333b346c0182effdddaf196055acae1b31b01"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Peças_sem_definicao_suficiente.csv",
+      "bytes": 11348,
+      "sha256": "e8b485130ad92c98a8b7106ac62ffe483e0213b4f1904d2ca1f1255d65de33f7",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Peças_sem_definicao_suficiente.csv",
+      "sourceSHA256": "d5b55cce455ee73d57c8363d349b7ab04186bcdf6bd26dddb6178106144e55c7",
+      "sourceCanonicalSHA256": "e8b485130ad92c98a8b7106ac62ffe483e0213b4f1904d2ca1f1255d65de33f7"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_preliminares.json",
+      "bytes": 434403,
+      "sha256": "9b280d7bfe6fc7781ec6602a8a43c998311369d0590f9ee77217b0c25ea67482",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_preliminares.json",
+      "sourceSHA256": "9b280d7bfe6fc7781ec6602a8a43c998311369d0590f9ee77217b0c25ea67482",
+      "sourceCanonicalSHA256": "9b280d7bfe6fc7781ec6602a8a43c998311369d0590f9ee77217b0c25ea67482"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.csv",
+      "bytes": 6358,
+      "sha256": "727e6f79f1a664e31bb5d2d7e32398a5f9c4965fdfaee77af0b4ba61c627280a",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.csv",
+      "sourceSHA256": "fd2c1d49c311ad2918fca5686da3bbfcad86cad0cde8925a847f3ad45d64a45b",
+      "sourceCanonicalSHA256": "727e6f79f1a664e31bb5d2d7e32398a5f9c4965fdfaee77af0b4ba61c627280a"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.json",
+      "bytes": 16205,
+      "sha256": "254a9843040cc92f11bd3b164b2989f7edaa5ef761d4b8a78f5194afbe61c1b6",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.json",
+      "sourceSHA256": "976d9a2bddf19bb26ba09d3d3cae11e3acdce5b9b7b3f182839b602d5743f7eb",
+      "sourceCanonicalSHA256": "254a9843040cc92f11bd3b164b2989f7edaa5ef761d4b8a78f5194afbe61c1b6"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.csv",
+      "bytes": 6520,
+      "sha256": "c12b84b8506645555776c0f2005e1dba6923ab8b0efacb9a1931d3fac9315f55",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.csv",
+      "sourceSHA256": "41300ddd95651d724299b556b9cec167f8bfb093b1f4db9803c4e962f3d36fd6",
+      "sourceCanonicalSHA256": "c12b84b8506645555776c0f2005e1dba6923ab8b0efacb9a1931d3fac9315f55"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.json",
+      "bytes": 32263,
+      "sha256": "b314d09ad1cca4a93edad5a32a81449532307a4668b8c46baab3911ce1e9397f",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.json",
+      "sourceSHA256": "59752e321527ba96ca3b502a1670414e439f99b80d89c862dc26cc65a718fc91",
+      "sourceCanonicalSHA256": "b314d09ad1cca4a93edad5a32a81449532307a4668b8c46baab3911ce1e9397f"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.csv",
+      "bytes": 556,
+      "sha256": "d8d13d6082a057baba451eaf7dbad24e4061f9a2d9f3249e308b86e867bcf32e",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.csv",
+      "sourceSHA256": "1c9e52022f96834f2f2d91c843882e993effcb294c8d3a80b9c0ccdcd482815d",
+      "sourceCanonicalSHA256": "d8d13d6082a057baba451eaf7dbad24e4061f9a2d9f3249e308b86e867bcf32e"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.json",
+      "bytes": 1865,
+      "sha256": "0fbdea8dfdce8a2e10735f6ca633c20fefab27f377b04d5400fb7467dc0285e1",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.json",
+      "sourceSHA256": "9dcd1978aebe5b5032a1ec738d9bd0ed31a4187bf01413914cbc9424e9017a7a",
+      "sourceCanonicalSHA256": "0fbdea8dfdce8a2e10735f6ca633c20fefab27f377b04d5400fb7467dc0285e1"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo.json",
+      "bytes": 3016,
+      "sha256": "0e97942e77a6074dc6c5972492f4180fe087b72a352d2be5976ca25f4bb8dfd8",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo.json",
+      "sourceSHA256": "49bb90e878e3d1c248e88eb639e8e30668af254505cd38d0f4d8ec16a77d096b",
+      "sourceCanonicalSHA256": "0e97942e77a6074dc6c5972492f4180fe087b72a352d2be5976ca25f4bb8dfd8"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Triagem_formatos.json",
+      "bytes": 482807,
+      "sha256": "ce8e76b7a329813681699e406d94a35ef031311cd009cd01f67904f8709a6aa7",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Triagem_formatos.json",
+      "sourceSHA256": "d34ac57f08e6b317650e5fb42d9be759e9536fc27e8cff1b3a9b1eeae945477e",
+      "sourceCanonicalSHA256": "ce8e76b7a329813681699e406d94a35ef031311cd009cd01f67904f8709a6aa7"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Verificacao.json",
+      "bytes": 1169,
+      "sha256": "157c4d22b8a06fc6ed2cd5f70d16fc99d8b0f4ba9cff1ae55d159ef3b85900d2",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Verificacao.json",
+      "sourceSHA256": "94ed5831bb31d8bd0f093d899b443887e97d138672954f8400d8e2b903258a36",
+      "sourceCanonicalSHA256": "157c4d22b8a06fc6ed2cd5f70d16fc99d8b0f4ba9cff1ae55d159ef3b85900d2"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G01_chapa_01.svg",
+      "bytes": 10601,
+      "sha256": "98649ce40fc02166eade0f32a761dd9cfd18ebb695060161979206fb192fb033",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G01_chapa_01.svg",
+      "sourceSHA256": "818a7b21707953c103e40a79a1bd41f21afba2b85d94bceca3e6b2c0d169058e",
+      "sourceCanonicalSHA256": "98649ce40fc02166eade0f32a761dd9cfd18ebb695060161979206fb192fb033"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G02_chapa_01.svg",
+      "bytes": 2851,
+      "sha256": "7d4e68355296e04aee88ceffbed17e44f9f68d89a95992784a4cd57ac70299e3",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G02_chapa_01.svg",
+      "sourceSHA256": "3cb50571aa9a63e7dc5ee094a02be49083e2dfd6234884d0bfd35f2ce5793e9c",
+      "sourceCanonicalSHA256": "7d4e68355296e04aee88ceffbed17e44f9f68d89a95992784a4cd57ac70299e3"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_01.svg",
+      "bytes": 1917,
+      "sha256": "7c596becff01c4872a38987c0d48572fe9e466c133287fee4d61a798fe99413e",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_01.svg",
+      "sourceSHA256": "d6e84455dfdc1f393c4e5afbb4d67e06e111f158ca2b35570ea9b063585b6744",
+      "sourceCanonicalSHA256": "7c596becff01c4872a38987c0d48572fe9e466c133287fee4d61a798fe99413e"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_02.svg",
+      "bytes": 3280,
+      "sha256": "c3fd792aab37d5824275275caf9717afcdc283d796df17c03f3f24d8778e01a0",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_02.svg",
+      "sourceSHA256": "28a1d9d9768f0ed0ed64c2366a31639b6211abf466f692588a8d52573417f735",
+      "sourceCanonicalSHA256": "c3fd792aab37d5824275275caf9717afcdc283d796df17c03f3f24d8778e01a0"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_03.svg",
+      "bytes": 4179,
+      "sha256": "846d729609058d5cca273bc78930599329ea94c1a1f26f8563e5ac76d8ecf8a0",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_03.svg",
+      "sourceSHA256": "f67a89d07a55b09de657a571944ef3c6f76498407240286751ca81ba55a75d85",
+      "sourceCanonicalSHA256": "846d729609058d5cca273bc78930599329ea94c1a1f26f8563e5ac76d8ecf8a0"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_04.svg",
+      "bytes": 4944,
+      "sha256": "bbde3fc0bb2038d89a7358dee91a6b2c06a8a41b4387ea0fc6a57f1691944118",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_04.svg",
+      "sourceSHA256": "658877bfeb4bf9208512349ab94d0bcdfca35b491ff3033d0d3c693b330e3ed3",
+      "sourceCanonicalSHA256": "bbde3fc0bb2038d89a7358dee91a6b2c06a8a41b4387ea0fc6a57f1691944118"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_05.svg",
+      "bytes": 7395,
+      "sha256": "82cd841ff897d4cd71f3255d81211a6029527f2fc7369c530675f87aa74d649c",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_05.svg",
+      "sourceSHA256": "09c54635d8cf5265e2df220dcd0d6c1ddaf8e128ac64a97df714770ff1713015",
+      "sourceCanonicalSHA256": "82cd841ff897d4cd71f3255d81211a6029527f2fc7369c530675f87aa74d649c"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_06.svg",
+      "bytes": 10301,
+      "sha256": "727745b207d8e3e3eaa8f469c23210ecc29c32c915f7b799da9aa862a9e33fcc",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_06.svg",
+      "sourceSHA256": "7accbe5c813180c2105a80b2eb2a8ad6f7a104b44839887c7d81c82d57d069b7",
+      "sourceCanonicalSHA256": "727745b207d8e3e3eaa8f469c23210ecc29c32c915f7b799da9aa862a9e33fcc"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G04_chapa_01.svg",
+      "bytes": 1197,
+      "sha256": "9c843386e7075039aaa19b5e97fbe034ba4529782cff8d20c90080d8569b49c6",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G04_chapa_01.svg",
+      "sourceSHA256": "e9796e38a974406d6e719482ac4751322df6d0a77a54f0c8be7caac1247bb344",
+      "sourceCanonicalSHA256": "9c843386e7075039aaa19b5e97fbe034ba4529782cff8d20c90080d8569b49c6"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_01.svg",
+      "bytes": 1749,
+      "sha256": "db93f420d9efa50d942a185057d92653cc7b4e597e8412b4d7107a374f64d1d6",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_01.svg",
+      "sourceSHA256": "3f752a4906501c5fc3da63405000a05ce48d02c61f5778a5d3b5aafa716b6a6b",
+      "sourceCanonicalSHA256": "db93f420d9efa50d942a185057d92653cc7b4e597e8412b4d7107a374f64d1d6"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_01.svg",
+      "bytes": 1170,
+      "sha256": "84a6aeeb3d578c05f42ce2661a7ba332cdc62c415d0fd5548389df33a5549030",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_01.svg",
+      "sourceSHA256": "629030fa47d0561e6cccd038546c77bb6998c2be6a0e75ac84ffd2bddd210180",
+      "sourceCanonicalSHA256": "84a6aeeb3d578c05f42ce2661a7ba332cdc62c415d0fd5548389df33a5549030"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_01.svg",
+      "bytes": 3822,
+      "sha256": "889b71d85627f6b74dcd869831fd4c2a19feb196a7973caaff310e08fe169c19",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_01.svg",
+      "sourceSHA256": "b1f70f0df9117a29b60b005a998c3938da6ebe049b4e171b66e441457d4b5e89",
+      "sourceCanonicalSHA256": "889b71d85627f6b74dcd869831fd4c2a19feb196a7973caaff310e08fe169c19"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_02.svg",
+      "bytes": 5219,
+      "sha256": "adf411e939b6a5c7c2971063be0ab104ada108831c5a9f3dff9ac2243f51571e",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_02.svg",
+      "sourceSHA256": "113d2b40d63224cb96af9069a855c8fe0bf79961df15856b1c32470e50ba2d5e",
+      "sourceCanonicalSHA256": "adf411e939b6a5c7c2971063be0ab104ada108831c5a9f3dff9ac2243f51571e"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_01.svg",
+      "bytes": 5313,
+      "sha256": "834a2e6589ecf6df54def97c9d35810dc37b36cd7904da89583a6073186336e8",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_01.svg",
+      "sourceSHA256": "9875ebc8b9d9042376e7ec9d1b8b1f6d75f057048912adc0fa7e6b9acb72d131",
+      "sourceCanonicalSHA256": "834a2e6589ecf6df54def97c9d35810dc37b36cd7904da89583a6073186336e8"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_02.svg",
+      "bytes": 1708,
+      "sha256": "1ff1a2011d98e48b106956ce09434f852737e24855e3753df49807268c6d8e65",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_02.svg",
+      "sourceSHA256": "38129d179cd4a3c256b8a66289ced43176300373681a82c188175c18f65005d5",
+      "sourceCanonicalSHA256": "1ff1a2011d98e48b106956ce09434f852737e24855e3753df49807268c6d8e65"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg",
+      "bytes": 2452,
+      "sha256": "68cc6b715fc824e4a6791cfaf84ff3726694de60ddfcb4285bfce8ae06b57fcf",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg",
+      "sourceSHA256": "763f44dcea5390cc78952d2961c24ed2cdac69098c1a189de92b1c922d0c0b51",
+      "sourceCanonicalSHA256": "68cc6b715fc824e4a6791cfaf84ff3726694de60ddfcb4285bfce8ae06b57fcf"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+      "bytes": 11500,
+      "sha256": "0e793d25b04622f695b312abe46a987ef1c0ca5dab9cde161ff333e23767dce3",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+      "sourceSHA256": "0e793d25b04622f695b312abe46a987ef1c0ca5dab9cde161ff333e23767dce3",
+      "sourceCanonicalSHA256": "0e793d25b04622f695b312abe46a987ef1c0ca5dab9cde161ff333e23767dce3"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Envelopes_superiores.csv",
+      "bytes": 57454,
+      "sha256": "83b67f453f05b62c1085f1f4c9d1f187d054114945d4099efa36cdedc708c00d",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Envelopes_superiores.csv",
+      "sourceSHA256": "9f078b8a59e4e97f171e5ee49ab5dce49b0d35998fccc9d1f4a83d10eab53586",
+      "sourceCanonicalSHA256": "83b67f453f05b62c1085f1f4c9d1f187d054114945d4099efa36cdedc708c00d"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Geometria_interfaces.json",
+      "bytes": 218371,
+      "sha256": "6204bd97b7f1da2508c6350cebffbfb02b8b9ac685878444a325704aed6a61ba",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Geometria_interfaces.json",
+      "sourceSHA256": "6204bd97b7f1da2508c6350cebffbfb02b8b9ac685878444a325704aed6a61ba",
+      "sourceCanonicalSHA256": "6204bd97b7f1da2508c6350cebffbfb02b8b9ac685878444a325704aed6a61ba"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Interfaces_nominais.json",
+      "bytes": 115867,
+      "sha256": "a73b36f18dcf2336c243a60524086869508aee31dbaa7d39aacc2ba0baeed57a",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Interfaces_nominais.json",
+      "sourceSHA256": "9c367c563c626756233126ea9717ab426c463c03d876aced03af7e44ab53a90c",
+      "sourceCanonicalSHA256": "a73b36f18dcf2336c243a60524086869508aee31dbaa7d39aacc2ba0baeed57a"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Ligacoes_exemplos.csv",
+      "bytes": 179008,
+      "sha256": "8867515a94bc78b3ba4eee3a90d2e7399581a92086e72f15b72ecda36bc552e8",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Ligacoes_exemplos.csv",
+      "sourceSHA256": "9dfa359da32f1cd74d796952689b96b731856ff2b609cb0e5a2f6bfd2a4a60dd",
+      "sourceCanonicalSHA256": "8867515a94bc78b3ba4eee3a90d2e7399581a92086e72f15b72ecda36bc552e8"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Resultados_caixa.json",
+      "bytes": 2526633,
+      "sha256": "c456dbb6db5821db9a456175d4bc98de0d4ab6017889d6239a25487f15faf972",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Resultados_caixa.json",
+      "sourceSHA256": "0b36c4444e6d5f6eca1a40d0132c885be59ee3492220b35db9a6317ddb53db67",
+      "sourceCanonicalSHA256": "c456dbb6db5821db9a456175d4bc98de0d4ab6017889d6239a25487f15faf972"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/Verificacao_caixa.json",
+      "bytes": 5422,
+      "sha256": "edf3ee32905412b0d8b017a7799ad08985491aee3fe2f007099d810c3a148e59",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/Verificacao_caixa.json",
+      "sourceSHA256": "5726e1baca2f25f179074b54ef5de4d673f18cd9a6016ccf4349116b552ca2f3",
+      "sourceCanonicalSHA256": "edf3ee32905412b0d8b017a7799ad08985491aee3fe2f007099d810c3a148e59"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+      "bytes": 4348,
+      "sha256": "83a8de4a124ab0c5562e68fef74a37daf79a78d76233eb9daae8e3e643fbb6e2",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+      "sourceSHA256": "83a8de4a124ab0c5562e68fef74a37daf79a78d76233eb9daae8e3e643fbb6e2",
+      "sourceCanonicalSHA256": "83a8de4a124ab0c5562e68fef74a37daf79a78d76233eb9daae8e3e643fbb6e2"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/Micro_estudo.json",
+      "bytes": 1453,
+      "sha256": "476746ae2fdbd4dca2b7e7b3331cf601646220fa423ec9c6dc8ac05cf7c057c1",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/Micro_estudo.json",
+      "sourceSHA256": "476746ae2fdbd4dca2b7e7b3331cf601646220fa423ec9c6dc8ac05cf7c057c1",
+      "sourceCanonicalSHA256": "476746ae2fdbd4dca2b7e7b3331cf601646220fa423ec9c6dc8ac05cf7c057c1"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/ME23P_folga300_ESTUDO_NAO_ADOTADO.FCStd",
+      "bytes": 52711,
+      "sha256": "f1431adb4a5160366759b1f8464c251e166136dc5c7d6ee5aee18dcedb6ddc2e",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/ME23P_folga300_ESTUDO_NAO_ADOTADO.FCStd",
+      "sourceSHA256": "f1431adb4a5160366759b1f8464c251e166136dc5c7d6ee5aee18dcedb6ddc2e",
+      "sourceCanonicalSHA256": "f1431adb4a5160366759b1f8464c251e166136dc5c7d6ee5aee18dcedb6ddc2e"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+      "bytes": 2106,
+      "sha256": "5ecc0986ab13302e8b27e3762c98764c0efbc6ea1970514575deb3e556d73bef",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+      "sourceSHA256": "5ecc0986ab13302e8b27e3762c98764c0efbc6ea1970514575deb3e556d73bef",
+      "sourceCanonicalSHA256": "5ecc0986ab13302e8b27e3762c98764c0efbc6ea1970514575deb3e556d73bef"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/Extracao.json",
+      "bytes": 101,
+      "sha256": "66fd3c75c2613892e71d328148f691ac1888b381daa988cdc7f4e75676e89a83",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/Extracao.json",
+      "sourceSHA256": "a4aced23fb9804caac7bca27d9c81cb32c069e4ba4599b15868c7b87f2fe94ae",
+      "sourceCanonicalSHA256": "66fd3c75c2613892e71d328148f691ac1888b381daa988cdc7f4e75676e89a83"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
+      "bytes": 148461,
+      "sha256": "64218b5a028d09d27c1045190a97eb22ebc009ef147d020676fb2c8952d1bdbf",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
+      "sourceSHA256": "64218b5a028d09d27c1045190a97eb22ebc009ef147d020676fb2c8952d1bdbf",
+      "sourceCanonicalSHA256": "64218b5a028d09d27c1045190a97eb22ebc009ef147d020676fb2c8952d1bdbf"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
+      "bytes": 8579,
+      "sha256": "9133162ff5ee47a1d2708c02fc35cc92613b5b452e40c123312ab0408afe1888",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
+      "sourceSHA256": "7450eecc79ef7de0c46c436e4e68eeee699285af00056381b9f6ffaf20b50938",
+      "sourceCanonicalSHA256": "9133162ff5ee47a1d2708c02fc35cc92613b5b452e40c123312ab0408afe1888"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json",
+      "bytes": 504,
+      "sha256": "630076ab99b63d405e9f526aba4bbce19d2463760b18909daaac1a2261fa7b81",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json",
+      "sourceSHA256": "4012fd9d71a62565abbc1db30fcf0462526a54c93d0b3814c5b0b743960472e1",
+      "sourceCanonicalSHA256": "630076ab99b63d405e9f526aba4bbce19d2463760b18909daaac1a2261fa7b81"
+    },
+    {
+      "path": "02_Modelo_3D/README.md.html",
+      "bytes": 11166,
+      "sha256": "49973b1fe276b804fe5dbda8d4b4474ba774af92c4161a7bdbca0510e6d87183",
+      "sourcePath": "02_Modelo_3D/README.md",
+      "sourceSHA256": "667aa2e38179baadffddf6b5d7a73925db8f7ae1259d7541dc525c08b2c288af",
+      "sourceCanonicalSHA256": "667aa2e38179baadffddf6b5d7a73925db8f7ae1259d7541dc525c08b2c288af"
+    },
+    {
+      "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md.html",
+      "bytes": 18858,
+      "sha256": "7a71aeef5fad8d2ac0965fd6020366f459cc5d7a9c86cf7ee702beaffca338d3",
+      "sourcePath": "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "sourceSHA256": "0534cb92d4ecb736ee76f6ad87814e136f218646ad666ae35cbcc58c0a28e227",
+      "sourceCanonicalSHA256": "0534cb92d4ecb736ee76f6ad87814e136f218646ad666ae35cbcc58c0a28e227"
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/README.md.html",
+      "bytes": 5113,
+      "sha256": "eaf020bc932aa604b1220860f2062a4424e6630aa133438ec1cc272e00c4516f",
+      "sourcePath": "02_Modelo_3D/Historico/Cores/README.md",
+      "sourceSHA256": "5848f1cc34f87d3b6ba18b7fa4c4aae7b510e71fdf81c6b8569aad54df59f3af",
+      "sourceCanonicalSHA256": "8f253213103460cd3a2031daa78871ef9807424dcfd87b53fd9ef810fbef31f7"
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+      "bytes": 4188,
+      "sha256": "803be01087e43e26a3d734508ecaed6bfa0d9c1580177388f9a6a77337782059",
+      "sourcePath": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "sourceSHA256": "e9a66e56b7cefb584030f2582255efb69226d76996d9a79a2406b9ff3dcf4bd3",
+      "sourceCanonicalSHA256": "e9a66e56b7cefb584030f2582255efb69226d76996d9a79a2406b9ff3dcf4bd3"
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "bytes": 5856,
+      "sha256": "b596e05e7997f8bb305c8b82e2390b8443e46933b49da63560d1e84575cccdd0",
+      "sourcePath": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md",
+      "sourceSHA256": "406fae7f13063771d470320f4388554989c7c157af6f6af3709f2b26177bebd9",
+      "sourceCanonicalSHA256": "406fae7f13063771d470320f4388554989c7c157af6f6af3709f2b26177bebd9"
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/Galeria.md.html",
+      "bytes": 3286,
+      "sha256": "0cc6526b7b1ae29a2291d8b15006a8247932e8ad2e5b6a055637ef99f236a2dd",
+      "sourcePath": "09_Referencias/Iluminacao_CB02/Galeria.md",
+      "sourceSHA256": "8386317b92bdf642859d2411632fcba610c5d537259f44eca9171e01d991ea8b",
+      "sourceCanonicalSHA256": "8386317b92bdf642859d2411632fcba610c5d537259f44eca9171e01d991ea8b"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/README.md.html",
+      "bytes": 10084,
+      "sha256": "b09495180b38324b78d7af5f56ddeed7885021b2b40dfe74dde32ac4a56da2bc",
+      "sourcePath": "04_Moveis/Proximas_decisoes/README.md",
+      "sourceSHA256": "4c1dedab09ff758cad73e3e8c1f070bfd75df34e37d4dad6fcf6c52a84f43740",
+      "sourceCanonicalSHA256": "4c1dedab09ff758cad73e3e8c1f070bfd75df34e37d4dad6fcf6c52a84f43740"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md.html",
+      "bytes": 14101,
+      "sha256": "7a385b5bf5213b197187c0a2e9d2efd67207f7e1edf2462b8032548a4e82a189",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "sourceSHA256": "091255e82477244376585e5677d6ba8f4a98349f28fe8297ac07c6d8323ca99a",
+      "sourceCanonicalSHA256": "091255e82477244376585e5677d6ba8f4a98349f28fe8297ac07c6d8323ca99a"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/README.md.html",
+      "bytes": 13502,
+      "sha256": "ec86cc82389f001caa88a3d185585e479437bf6da07efe41bf391f0e95476e50",
+      "sourcePath": "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+      "sourceSHA256": "0e793d25b04622f695b312abe46a987ef1c0ca5dab9cde161ff333e23767dce3",
+      "sourceCanonicalSHA256": "0e793d25b04622f695b312abe46a987ef1c0ca5dab9cde161ff333e23767dce3"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "bytes": 5829,
+      "sha256": "62d6fcab00cb8d177cd0625a020e510b02d3334ef1b79e9350f88ed48861f22a",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+      "sourceSHA256": "83a8de4a124ab0c5562e68fef74a37daf79a78d76233eb9daae8e3e643fbb6e2",
+      "sourceCanonicalSHA256": "83a8de4a124ab0c5562e68fef74a37daf79a78d76233eb9daae8e3e643fbb6e2"
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/README.md.html",
+      "bytes": 3383,
+      "sha256": "c42f7fb8e2a3c77dfccfaaedc223cc29347232d172e197f9ff27ee6534cdeeb9",
+      "sourcePath": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+      "sourceSHA256": "5ecc0986ab13302e8b27e3762c98764c0efbc6ea1970514575deb3e556d73bef",
+      "sourceCanonicalSHA256": "5ecc0986ab13302e8b27e3762c98764c0efbc6ea1970514575deb3e556d73bef"
+    },
+    {
+      "path": "COMECE_AQUI.html",
+      "bytes": 2402,
+      "sha256": "9c8d26a256b5ef1f67dba20522de7f09ac7a158b93a66b7706dba0eb08f334c5",
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "sourceCanonicalSHA256": null
+    }
+  ],
+  "offlineLocalLinks": 300,
+  "externalLinks": [
+    {
+      "source": "ferramentas/site/Guedala_Park_Interativo.html",
+      "reference": "https://github.com/queiroz-labs/guedala-park#readme"
+    },
+    {
+      "source": "ferramentas/site/Guedala_Park_Interativo.html",
+      "reference": "https://queiroz-labs.github.io/guedala-park/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/sistemas/solucoes-para-armarios/s/sustentacao-na-base/ro-62"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P01.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P02.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/sistemas/solucoes-para-armarios/s/sustentacao-na-base/ro-62"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P03.html",
+      "reference": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P04.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P05.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P06.html",
+      "reference": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P07.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://tarkett.com.br/faq"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://tarkett.com.br/faq"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://tarkett.com.br/faq"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P08.html",
+      "reference": "https://tarkett.com.br/faq"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P09.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P10.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P11.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P12.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P13.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P14.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P15.html",
+      "reference": "https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/412/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/413/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/412/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/428/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/413/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://ea.blum.com/en/building-a-movento-drawer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/428/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/413/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/413/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P16.html",
+      "reference": "https://ea.blum.com/en/building-a-movento-drawer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P17.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://www.rometal.com.br/download/414fa721-9208-432f-9d77-23769d2a5733"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://www.rometal.com.br/download/414fa721-9208-432f-9d77-23769d2a5733"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://www.rometal.com.br/download/414fa721-9208-432f-9d77-23769d2a5733"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://www.rometal.com.br/download/414fa721-9208-432f-9d77-23769d2a5733"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://www.rometal.com.br/download/414fa721-9208-432f-9d77-23769d2a5733"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://files.hafele.co.uk/catalogfiles/www/14CFC412.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P18.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://ea.blum.com/en/number-of-hinges/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://ea.blum.com/oeffnungswinkelbegrenzer/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://assets.daro.com/HafeleLiterature/18T7-154.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/77/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/76/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/152/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://publications.blum.com/2024/catalogue/en/160/"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://assets.daro.com/HafeleLiterature/18T7-154.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P19.html",
+      "reference": "https://assets.daro.com/HafeleLiterature/18T7-154.pdf"
+    },
+    {
+      "source": "06_Entregas/Fichas_fabricacao/P20.html",
+      "reference": "https://gtv.com.pl/en/produkt/WK-CF0750-01/"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://arauco.com.br/produto/beige/"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://arauco.com.br/produto/louro-freijo/"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.rinnai.com.br/aquecedores-a-gas/linha-digital/e21-1"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.rometal.com.br/sistemas/solucoes-para-armarios-compactos/s/na-base-sobrepostos-1/ro-25"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.cebrace.com.br/wp-content/uploads/2023/12/Catalogo-de-Produtos-Acessorios-e-Componentes-Cebrace-dez-23.pdf"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://blob.cebrace.com.br/cebrace/wp-content/uploads/2025/09/10526_Atualizacao-Interiores-Manual-de-Fixacao-de-Espelhos_150x210mm_v5.pdf"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.pingoo.casa/torneira-para-banheiro-misturador-monocomando-purangi-baixa-preto-preto"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/duchas-higienicas/ducha-higienica-com-registro-e-derivacao/ducha-higienica-com-registro-e-derivacao-level-black-matte-1984bl26actmt"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.deca.com.br/ambientes/acabamentos-e-instalacao/acabamentos/acabamento-para-monocomando/acabamento-monocomando-para-ducha-higienica-black-matte4993bl26actmt"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://stella.com.br/produtos/detalhes/fita-all-light-pro-24v-385"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.leroymerlin.com.br/ducha-higienica-com-misturador-externo-samer-metais-1-4-de-volta-preto-c71_1571810518"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "https://www.hidroshop.com.br/metais-sanitarios/duchas-higienicas/misturador-monocomando-ducha-higienica-externo-preto-fosco-2985ptbs"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.magazineluiza.com.br/plafon-de-sobrepor-firefly-redondo-branco-30cm-led-25w-3000k-bivolt-galaxy-led/p/hf39c74bce/cj/plfn/?seller_id=parisluzcombr"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.3reletrica.com.br/fita-de-led-cob-480led/m-ip65-4000k-12v-5-metros-dimerizavel-cristallux"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.3reletrica.com.br/fita-de-led-12v-24w-3000k-amarela-48wm-60-ledsm-ip65-5-metros-cristallux"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.cialight.com.br/perfil-mov-de-sobrepor-17x7mm-2m-branco-nordecor-4329"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://luzdecasa.com.br/produto/fonte-12v-slim-opus-36-watts-3a-ip67-270x20x20mm-ac-31002/24454"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://galaxyled.com.br/produtos?product=PLAFON+FIREFLY+25W+3000K+REDONDO&amp;uniqMod=000108&amp;uniqProd=0000025889&amp;uniqTp=00080"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-4000k-1200lm-m-ip65-480led-m-irc-90"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://nordecor.com.br/produto/perfil-de-sobrepor-mov-17x7mm/"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-5mt-12v-4-8w-m-3000k-460lm-m-ip65-60led-m-irc-80"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://opusled.com.br/produto/fonte-blindada-32w-12v/"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "https://dellasiluminacao.com.br/wp-content/uploads/2021/05/Catalogo-2021-Opusled-Oficial_compressed.pdf"
+    },
+    {
+      "source": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+      "reference": "https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce"
+    },
+    {
+      "source": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+      "reference": "https://tarkett.com.br/faq"
+    },
+    {
+      "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "reference": "https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739"
+    },
+    {
+      "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "reference": "https://www.abastece.com.br/products/lampada-led-bulbo-9w-806lm-sceneswitch-bivolt-60w-929002017746-929002017846-philips"
+    },
+    {
+      "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "reference": "https://www.lighting.philips.com.br/consumer/choose-a-bulb/sceneswitch"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "reference": "https://api.electrolux-medialibrary.com/asset/75f3884e-b240-4cbe-9654-cc3e4b124111/E4RM3Q/1f040fd7-0be8-4b35-a635-d2ee154a4f54/ORIGINAL/1f040fd7-0be8-4b35-a635-d2ee154a4f54.pdf"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "reference": "https://content.electrolux.com.br/brasil/electrolux/clara/me23p/pagina.html"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "reference": "https://www.blum.com/br/pt/products/runnersystems/movento/assembly/"
+    }
+  ],
+  "omittedLocalReferences": [
+    {
+      "source": "ferramentas/site/Guedala_Park_Interativo.html",
+      "reference": "docs/04_Moveis/Proximas_decisoes/README.md.html",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "ferramentas/site/Guedala_Park_Interativo.html",
+      "reference": "docs/09_Referencias/Iluminacao_CB02/Galeria.md.html",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "Consultas_tecnicas.txt",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "../../../04_Moveis/Avanco_pendencias/Banheiro_solucao/Detalhamento/Detalhamento.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "../../Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "Consultas_tecnicas.txt",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "../../../05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "../Decisoes_consolidadas_2026-09-18.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "reference": "../Decisoes_consolidadas_2026-09-18.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "reference": "Luminarias_selecao_L01.html",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "Alteracoes_R52.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "Vista_R52.png",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "Movimentos_R52.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "Auditoria_estatica_R52.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "../Estado_atual.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/README.md.html",
+      "reference": "Preservacao_originais.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "01_Programa_e_decisoes/Caderno_de_especificacoes.md.html",
+      "reference": "Programa_de_necessidades.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "02_Modelo_3D/Historico/Cores/README.md.html",
+      "reference": "Guedala_Park_R45_Cores_R16.FCStd",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+      "reference": "Guedala_Park_R45_Rodizios_P08.FCStd",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "reference": "Selecao_CB01.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md.html",
+      "reference": "../../../09_Referencias/Iluminacao_CB02/LEIA-ME.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/README.md.html",
+      "reference": "../../ESTADO_ATUAL.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/README.md.html",
+      "reference": "Pacote_local/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/README.md.html",
+      "reference": "Verificacao_continuidade.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md.html",
+      "reference": "../../Quantitativos/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md.html",
+      "reference": "../../Quantitativos/Formatos_e_pendencias.json",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/P01_P03/README.md.html",
+      "reference": "../../P01/Caminho_superior_P03/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/P01_P03/README.md.html",
+      "reference": "../../P01/Apoios_ao_piso/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/P01_P03/README.md.html",
+      "reference": "../../P01/Massas_equilibrio/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "reference": "estudar_micro.py",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md.html",
+      "reference": "../../P16/Interface_guia_fundo/README.md",
+      "reason": "Outside explicit technical package allowlist"
+    },
+    {
+      "source": "04_Moveis/Proximas_decisoes/Cinematica/README.md.html",
+      "reference": "consultar_r52.py",
+      "reason": "Outside explicit technical package allowlist"
+    }
+  ]
+}

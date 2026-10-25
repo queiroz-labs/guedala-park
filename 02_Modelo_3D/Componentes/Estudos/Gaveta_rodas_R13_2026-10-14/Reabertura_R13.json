@@ -1,0 +1,289 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Gaveta_rodas_R13_2026-10-14\\Guedala_Park_R13_Gaveta_Rodas.FCStd",
+  "extension400_placement": "Placement [Pos=(0,-400,39), Yaw-Pitch-Roll=(0,0,0)]",
+  "checks": [
+    {
+      "name": "PecaBaixaR13",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR001",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR002",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR003",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR004",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR005",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR040",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR041",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR042",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR043",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR006",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR007",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR008",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR009",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR010",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR011",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR012",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR013",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR014",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR015",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR016",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR017",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR018",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR019",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR020",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR021",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR022",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR023",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR024",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR025",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR026",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR027",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR028",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR029",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR030",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR031",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR032",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR033",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR034",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "name": "PecaBaixaR035",
+      "valid": true,
+      "state": [
+        "Up-to-date"
+      ]
+    }
+  ],
+  "resting_extension": 0.0,
+  "resting_placement": "Placement [Pos=(0,0,39), Yaw-Pitch-Roll=(0,0,0)]",
+  "saved": true
+}

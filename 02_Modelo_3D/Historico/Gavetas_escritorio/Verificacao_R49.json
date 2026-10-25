@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-24",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Historico\\Depurador_sem_canal\\Guedala_Park_R48_Depurador_sem_canal.FCStd",
+  "sourceSHA256": "aa9290747cc13725865f2a687eb5c328a0e50fa738d767ca6fa9cc6a41b73e19",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Historico\\Gavetas_escritorio\\Guedala_Park_R49_Gavetas_escritorio.FCStd",
+  "SHA256": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
+  "objects": 5893,
+  "top_clearance_mm": {
+    "before": 1.0,
+    "after": 7.0,
+    "required": 7
+  },
+  "t51_right_vs_runner_mm3": {
+    "before": {
+      "GavetaComumR079": 1275.91,
+      "GavetaComumR078": 0.0,
+      "GavetaComumR091": 1275.91,
+      "GavetaComumR090": 0.0
+    },
+    "after": {
+      "GavetaComumR079": 0.0,
+      "GavetaComumR078": 0.0,
+      "GavetaComumR091": 0.0,
+      "GavetaComumR090": 0.0
+    }
+  },
+  "changed": {
+    "GavetaComumR079": {
+      "bbox_before": [
+        4580.186,
+        593.503,
+        510.349,
+        4661.0,
+        682.0,
+        528.925
+      ],
+      "bbox_after": [
+        4579.686,
+        593.503,
+        510.349,
+        4661.0,
+        682.0,
+        528.925
+      ]
+    },
+    "GavetaComumR084": {
+      "bbox_before": [
+        4324.0,
+        292.0,
+        621.0,
+        4339.0,
+        682.0,
+        701.0
+      ],
+      "bbox_after": [
+        4324.0,
+        292.0,
+        621.0,
+        4339.0,
+        682.0,
+        695.0
+      ]
+    },
+    "GavetaComumR085": {
+      "bbox_before": [
+        4661.0,
+        292.0,
+        621.0,
+        4676.0,
+        682.0,
+        701.0
+      ],
+      "bbox_after": [
+        4661.0,
+        292.0,
+        621.0,
+        4676.0,
+        682.0,
+        695.0
+      ]
+    },
+    "GavetaComumR087": {
+      "bbox_before": [
+        4339.0,
+        292.0,
+        648.0,
+        4661.0,
+        307.0,
+        701.0
+      ],
+      "bbox_after": [
+        4339.0,
+        292.0,
+        648.0,
+        4661.0,
+        307.0,
+        695.0
+      ]
+    },
+    "GavetaComumR088": {
+      "bbox_before": [
+        4339.0,
+        666.0,
+        648.0,
+        4661.0,
+        682.0,
+        701.0
+      ],
+      "bbox_after": [
+        4339.0,
+        666.0,
+        648.0,
+        4661.0,
+        682.0,
+        695.0
+      ]
+    },
+    "GavetaComumR091": {
+      "bbox_before": [
+        4580.186,
+        593.503,
+        614.349,
+        4661.0,
+        682.0,
+        632.925
+      ],
+      "bbox_after": [
+        4579.686,
+        593.503,
+        614.349,
+        4661.0,
+        682.0,
+        632.925
+      ]
+    }
+  },
+  "other_objects_preserved": 5887,
+  "appearance_properties_preserved": 29465,
+  "reopened": true,
+  "scope": "P16: gaveta 2 com topo 6 mm mais baixo (laterais 74, traseira/dianteira 47) e trava T51.7601 direita das duas gavetas espelhada. Nenhuma outra peça movida ou redimensionada."
+}

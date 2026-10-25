@@ -1,0 +1,108 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Portas_R09_2026-10-14\\Guedala_Park_R09_Portas_Comuns.FCStd",
+  "doors": [
+    {
+      "module": "Gabinete da pia",
+      "door": "Folha004",
+      "front": "Peca281",
+      "side": "left"
+    },
+    {
+      "module": "Gabinete da pia",
+      "door": "Folha005",
+      "front": "Peca282",
+      "side": "right"
+    },
+    {
+      "module": "D · acima do depurador",
+      "door": "Folha006",
+      "front": "Peca322",
+      "side": "left"
+    },
+    {
+      "module": "D · acima do depurador",
+      "door": "Folha007",
+      "front": "Peca323",
+      "side": "right"
+    },
+    {
+      "module": "C · uso diário",
+      "door": "Folha008",
+      "front": "Peca332",
+      "side": "left"
+    },
+    {
+      "module": "C · uso diário",
+      "door": "Folha009",
+      "front": "Peca333",
+      "side": "right"
+    },
+    {
+      "module": "B · acima do micro",
+      "door": "Folha010",
+      "front": "Peca340",
+      "side": "left"
+    },
+    {
+      "module": "B · acima do micro",
+      "door": "Folha011",
+      "front": "Peca341",
+      "side": "right"
+    },
+    {
+      "module": "A · acima da geladeira",
+      "door": "Folha012",
+      "front": "Peca348",
+      "side": "left"
+    },
+    {
+      "module": "A · acima da geladeira",
+      "door": "Folha013",
+      "front": "Peca349",
+      "side": "right"
+    },
+    {
+      "module": "Aéreo da lavanderia",
+      "door": "Folha014",
+      "front": "Peca364",
+      "side": "left"
+    },
+    {
+      "module": "Aéreo da lavanderia",
+      "door": "Folha015",
+      "front": "Peca365",
+      "side": "right"
+    },
+    {
+      "module": "Aéreo principal do escritório",
+      "door": "Folha016",
+      "front": "Peca389",
+      "side": "left_illustrative_support_pending"
+    },
+    {
+      "module": "Aéreo principal do escritório",
+      "door": "Folha017",
+      "front": "Peca390",
+      "side": "left_illustrative_support_pending"
+    },
+    {
+      "module": "Aéreo principal do escritório",
+      "door": "Folha018",
+      "front": "Peca391",
+      "side": "left_illustrative_support_pending"
+    },
+    {
+      "module": "Aéreo principal do escritório",
+      "door": "Folha019",
+      "front": "Peca392",
+      "side": "left_illustrative_support_pending"
+    },
+    {
+      "module": "Aéreo principal do escritório",
+      "door": "Folha020",
+      "front": "Peca393",
+      "side": "left_illustrative_support_pending"
+    }
+  ],
+  "scope": "Correção do sentido/pivôs ideais. Sem homologação de dobradiça, batente, fixação ou carga. Cabeceira/canto físico R04 e portas de correr preservados."
+}

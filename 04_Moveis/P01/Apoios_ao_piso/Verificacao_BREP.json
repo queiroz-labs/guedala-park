@@ -1,0 +1,124 @@
+{
+  "source_R51_unchanged": true,
+  "source_visible_shapes_screened": 1178,
+  "contacts": [
+    {
+      "support": "Soco_frontal",
+      "target": "extension",
+      "area_mm2": 35351.99999999999
+    },
+    {
+      "support": "Soco_trilho_posterior",
+      "target": "extension",
+      "area_mm2": 35351.99999999999
+    },
+    {
+      "support": "Soco_frente_base",
+      "target": "base",
+      "area_mm2": 35351.99999999999
+    },
+    {
+      "support": "Soco_traseiro",
+      "target": "base",
+      "area_mm2": 35351.99999999999
+    },
+    {
+      "support": "Soco_transversal_1_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_1_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_2_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_2_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_3_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_3_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_4_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_4_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_5_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_5_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_6_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_6_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Soco_transversal_7_frente",
+      "target": "extension",
+      "area_mm2": 828.0
+    },
+    {
+      "support": "Soco_transversal_7_caixa",
+      "target": "base",
+      "area_mm2": 9252.0
+    },
+    {
+      "support": "Calco_fundo",
+      "target": "back",
+      "area_mm2": 35351.99999999999
+    },
+    {
+      "support": "Soco_lateral_frontal_E",
+      "target": "side_front_E",
+      "area_mm2": 1476.0
+    },
+    {
+      "support": "Soco_lateral_frontal_D",
+      "target": "side_front_D",
+      "area_mm2": 1476.0
+    }
+  ],
+  "contact_area": {
+    "base": 135468.0,
+    "extension": 76499.99999999999,
+    "back": 35351.99999999999,
+    "side_front_E": 1476.0,
+    "side_front_D": 1476.0
+  },
+  "source_overlap_candidates": [],
+  "source_positive_interferences": [],
+  "self_interferences": [],
+  "added_wood_parts": 21,
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\04_Moveis\\P01\\Apoios_ao_piso\\P01_soco_sem_tubos_R01_ESTUDO.FCStd",
+  "scope": "Somente geometria nominal; nao valida piso real, nivelamento, juntas, resistencia ou anti-tombamento. Nao incorporado ao modelo completo."
+}

@@ -1,0 +1,42 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Canto_2026-10-13\\Canto_simples_R04\\Guedala_Park_R04_Canto_Simples.FCStd",
+  "joints": {
+    "a": [
+      -17.9948095708183,
+      42.57293209494855
+    ],
+    "b": [
+      -8.427729453778758,
+      34.29110391307067
+    ],
+    "c": [
+      2.059999999999985,
+      45.40000000000008
+    ],
+    "d": [
+      6.860000000000579,
+      40.79999999999998
+    ]
+  },
+  "branch": 1,
+  "new_fronts_mm": {
+    "A": [
+      271,
+      306,
+      18
+    ],
+    "B": [
+      271,
+      306,
+      18
+    ]
+  },
+  "objects": 1193,
+  "invalid": [],
+  "status": "Proposta com faixa fixa, em conferencia. Limitador86 candidato; sem liberacao de corte.",
+  "fixed_corner_mm": [
+    142,
+    124
+  ],
+  "adjacent_strip_mm": 25
+}

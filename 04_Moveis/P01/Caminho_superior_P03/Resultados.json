@@ -1,0 +1,1148 @@
+{
+  "cad": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Revisao_sem_tubos_R51_2026-10-25\\Guedala_Park_R51_Sem_estudo_tubular.FCStd",
+  "source_sha256": "ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16",
+  "cases": [
+    {
+      "proposed": false,
+      "kind": "uniform",
+      "content_only_kg": 10,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 10.622629516177769,
+      "at_mm": [
+        465.37499999999994,
+        0.0
+      ],
+      "min_deflection_mm": -6.566484688447049,
+      "reactions_N": [
+        52.614282617319134,
+        27.929377049957775,
+        27.95035030362045,
+        52.4926760894139,
+        106.49157994368741,
+        32.327930223755686,
+        29.08418515153431,
+        28.675209822745273,
+        30.726617209975082,
+        26.649865274078728,
+        57.502065369698855,
+        13.983324671061341
+      ],
+      "content_kg": 37.4440384,
+      "own_kg": 12.15775872,
+      "eq_force_N": -5.684341886080802e-14,
+      "eq_moment_x_Nmm": -5.820766091346741e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 3.147482274812319e-14,
+      "base_dims_mm": [
+        1314.0,
+        632.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 10.822629516177768,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "inactive_indices": [
+        5
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    },
+    {
+      "proposed": false,
+      "kind": "uniform",
+      "content_only_kg": 20,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 12.764211098489941,
+      "at_mm": [
+        465.37499999999994,
+        0.0
+      ],
+      "min_deflection_mm": -7.8903247647573735,
+      "reactions_N": [
+        63.2216165592792,
+        33.56009582863223,
+        33.58529740765314,
+        63.07549347452253,
+        127.96087866406592,
+        38.84542194800534,
+        34.94771970879623,
+        34.45629266403107,
+        36.921275265539,
+        32.022627315259925,
+        69.09480367927833,
+        16.802441211785013
+      ],
+      "content_kg": 47.4440384,
+      "own_kg": 12.15775872,
+      "eq_force_N": -1.1368683772161603e-13,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 3.1460944960315373e-14,
+      "base_dims_mm": [
+        1314.0,
+        632.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 12.96421109848994,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "inactive_indices": [
+        5
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    },
+    {
+      "proposed": false,
+      "kind": "front",
+      "content_only_kg": 20,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 15.760523616013993,
+      "at_mm": [
+        459.9,
+        0.0
+      ],
+      "min_deflection_mm": -8.356215609616452,
+      "reactions_N": [
+        114.14766746480598,
+        18.656288479761713,
+        24.77329727823151,
+        35.86525004728799,
+        259.04955609228927,
+        12.920188398986644,
+        29.24259519738713,
+        20.700491610987417,
+        21.064015907504825,
+        39.50740856711192,
+        8.567204682493665
+      ],
+      "content_kg": 47.4440384,
+      "own_kg": 12.15775872,
+      "eq_force_N": 1.1368683772161603e-13,
+      "eq_moment_x_Nmm": 1.1641532182693481e-10,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 5.622204192223205e-15,
+      "base_dims_mm": [
+        1314.0,
+        632.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 15.960523616013992,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "inactive_indices": [
+        5,
+        6
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    },
+    {
+      "proposed": true,
+      "kind": "uniform",
+      "content_only_kg": 10,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 6.688905805927734,
+      "at_mm": [
+        443.47499999999997,
+        0.0
+      ],
+      "min_deflection_mm": -1.1319313478075217,
+      "reactions_N": [
+        58.59765775843523,
+        24.569975257458708,
+        34.431806210949205,
+        -17.865426030509553,
+        107.99324204682682,
+        4.361484351683583,
+        36.38229111766845,
+        30.389909251558695,
+        28.144628602753087,
+        38.48737553055934,
+        20.153953402799214,
+        25.367394301087863,
+        5.245745351369744,
+        29.96457622685889,
+        28.593249572233532,
+        4.1018622210657565,
+        17.239538889604702,
+        8.280290862517656,
+        5.383611210038995
+      ],
+      "content_kg": 37.4440384,
+      "own_kg": 12.504024,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": 0.0,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 1.1825391556751845e-14,
+      "base_dims_mm": [
+        1314.0,
+        650.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 6.888905805927735,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ],
+        [
+          36.0,
+          650.0
+        ],
+        [
+          105.0,
+          650.0
+        ],
+        [
+          174.0,
+          650.0
+        ],
+        [
+          243.0,
+          650.0
+        ],
+        [
+          312.0,
+          650.0
+        ],
+        [
+          381.0,
+          650.0
+        ],
+        [
+          450.0,
+          650.0
+        ],
+        [
+          519.0,
+          650.0
+        ],
+        [
+          588.0,
+          650.0
+        ],
+        [
+          657.0,
+          650.0
+        ],
+        [
+          726.0,
+          650.0
+        ],
+        [
+          795.0,
+          650.0
+        ],
+        [
+          864.0,
+          650.0
+        ],
+        [
+          933.0,
+          650.0
+        ],
+        [
+          1002.0,
+          650.0
+        ],
+        [
+          1071.0,
+          650.0
+        ],
+        [
+          1140.0,
+          650.0
+        ],
+        [
+          1209.0,
+          650.0
+        ],
+        [
+          1278.0,
+          650.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        31
+      ],
+      "inactive_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    },
+    {
+      "proposed": true,
+      "kind": "uniform",
+      "content_only_kg": 20,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 8.028078034944539,
+      "at_mm": [
+        443.47499999999997,
+        0.0
+      ],
+      "min_deflection_mm": -1.3585530210853491,
+      "reactions_N": [
+        70.32937565555139,
+        29.489080038880697,
+        41.32532811280124,
+        -21.442226645403963,
+        129.61434942472778,
+        5.234688264333824,
+        43.66631563621554,
+        36.47421118269393,
+        33.77940746109176,
+        46.192854718610185,
+        24.188935428999347,
+        30.446148727628298,
+        6.295985360542699,
+        35.9637230980517,
+        34.317845922572545,
+        4.923087714930381,
+        20.691031912781966,
+        9.938071057523999,
+        6.46145306242664
+      ],
+      "content_kg": 47.4440384,
+      "own_kg": 12.504024,
+      "eq_force_N": -1.1368683772161603e-13,
+      "eq_moment_x_Nmm": -1.1641532182693481e-10,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 3.9954001091046995e-14,
+      "base_dims_mm": [
+        1314.0,
+        650.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 8.228078034944538,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ],
+        [
+          36.0,
+          650.0
+        ],
+        [
+          105.0,
+          650.0
+        ],
+        [
+          174.0,
+          650.0
+        ],
+        [
+          243.0,
+          650.0
+        ],
+        [
+          312.0,
+          650.0
+        ],
+        [
+          381.0,
+          650.0
+        ],
+        [
+          450.0,
+          650.0
+        ],
+        [
+          519.0,
+          650.0
+        ],
+        [
+          588.0,
+          650.0
+        ],
+        [
+          657.0,
+          650.0
+        ],
+        [
+          726.0,
+          650.0
+        ],
+        [
+          795.0,
+          650.0
+        ],
+        [
+          864.0,
+          650.0
+        ],
+        [
+          933.0,
+          650.0
+        ],
+        [
+          1002.0,
+          650.0
+        ],
+        [
+          1071.0,
+          650.0
+        ],
+        [
+          1140.0,
+          650.0
+        ],
+        [
+          1209.0,
+          650.0
+        ],
+        [
+          1278.0,
+          650.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        31
+      ],
+      "inactive_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    },
+    {
+      "proposed": true,
+      "kind": "front",
+      "content_only_kg": 20,
+      "degree": 20,
+      "K_left_per_position_N_mm": 500.0,
+      "deflection_mm": 11.62357445300386,
+      "at_mm": [
+        443.47499999999997,
+        0.0
+      ],
+      "min_deflection_mm": -1.8501857591102695,
+      "reactions_N": [
+        120.05374539823676,
+        15.204891012224195,
+        31.2630738089626,
+        -33.542621607011036,
+        263.86065562471646,
+        24.454736028207602,
+        42.9986964856242,
+        8.539532059436668,
+        14.322875432667926,
+        19.063379616705493,
+        19.16762293798706,
+        7.867074163021938,
+        27.48695722898636,
+        25.216882276673296,
+        1.9321656685204185
+      ],
+      "content_kg": 47.4440384,
+      "own_kg": 12.504024,
+      "eq_force_N": 0.0,
+      "eq_moment_x_Nmm": 5.820766091346741e-11,
+      "eq_moment_y_Nmm": 0.0,
+      "constraint_error_mm": 2.1281290722904172e-14,
+      "base_dims_mm": [
+        1314.0,
+        650.0,
+        18
+      ],
+      "extra_upper_wood_uniform_kg": 27.444038399999997,
+      "plus_reserve_mm": 11.82357445300386,
+      "reference_mm": 3.2733333333333334,
+      "all_supports_mm": [
+        [
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          402.0
+        ],
+        [
+          0.0,
+          560.0
+        ],
+        [
+          982.0,
+          100.0
+        ],
+        [
+          982.0,
+          164.25
+        ],
+        [
+          982.0,
+          228.5
+        ],
+        [
+          982.0,
+          292.75
+        ],
+        [
+          982.0,
+          357.0
+        ],
+        [
+          982.0,
+          421.25
+        ],
+        [
+          982.0,
+          485.5
+        ],
+        [
+          982.0,
+          549.75
+        ],
+        [
+          982.0,
+          614.0
+        ],
+        [
+          36.0,
+          650.0
+        ],
+        [
+          105.0,
+          650.0
+        ],
+        [
+          174.0,
+          650.0
+        ],
+        [
+          243.0,
+          650.0
+        ],
+        [
+          312.0,
+          650.0
+        ],
+        [
+          381.0,
+          650.0
+        ],
+        [
+          450.0,
+          650.0
+        ],
+        [
+          519.0,
+          650.0
+        ],
+        [
+          588.0,
+          650.0
+        ],
+        [
+          657.0,
+          650.0
+        ],
+        [
+          726.0,
+          650.0
+        ],
+        [
+          795.0,
+          650.0
+        ],
+        [
+          864.0,
+          650.0
+        ],
+        [
+          933.0,
+          650.0
+        ],
+        [
+          1002.0,
+          650.0
+        ],
+        [
+          1071.0,
+          650.0
+        ],
+        [
+          1140.0,
+          650.0
+        ],
+        [
+          1209.0,
+          650.0
+        ],
+        [
+          1278.0,
+          650.0
+        ]
+      ],
+      "active_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      "inactive_indices": [
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "max_removed_contact_penetration_mm": 0.0,
+      "support_role": [
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "left_positive_joint",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "central_divider_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression",
+        "rear_compression"
+      ],
+      "note": "Referencia inferior ideal e juntas laterais hipoteticas. Sem credito da travessa frontal1964, topo/fundoP03 ou paredes como vigas/caixa. Orçamento da madeira superior uniformizado; nao carga real por ligacao."
+    }
+  ],
+  "convergence": [
+    {
+      "proposed": false,
+      "kind": "uniform",
+      "kg": 10,
+      "degree16vs20_relative": 0.00015737709144225676
+    },
+    {
+      "proposed": false,
+      "kind": "uniform",
+      "kg": 20,
+      "degree16vs20_relative": 0.0001573770914409245
+    },
+    {
+      "proposed": false,
+      "kind": "front",
+      "kg": 20,
+      "degree16vs20_relative": 0.0003906536418588624
+    },
+    {
+      "proposed": true,
+      "kind": "uniform",
+      "kg": 10,
+      "degree16vs20_relative": 0.0005851093957844888
+    },
+    {
+      "proposed": true,
+      "kind": "uniform",
+      "kg": 20,
+      "degree16vs20_relative": 0.0005851093957831566
+    },
+    {
+      "proposed": true,
+      "kind": "front",
+      "kg": 20,
+      "degree16vs20_relative": 0.0009002267361655214
+    }
+  ],
+  "added_wood_nominal_mass_800_kg": 0.8496576,
+  "proposal": {
+    "P01_back_height_mm": [
+      2096,
+      2114
+    ],
+    "P03_base_depth_mm": [
+      632,
+      650
+    ],
+    "outer_dimensions_and_clear_storage_unchanged": true
+  },
+  "input_sha256": {
+    "P01_P03_caminho_superior_2026-10-25\\calcular.py": "067e45c791547934a031c43f18f2896ed64299089622d7000180f4b8aae57970",
+    "Solucoes_marcenaria_sem_tubos_2026-10-25\\calcular.py": "ab99bf34a8177f6e382219d6cc048c609c4caaf556bdea98151316e5cb4d2f11",
+    "P01_massas_equilibrio_2026-10-25\\Geometria_R51.json": "0102d04dfea3923bc4229f0fe624737363ab8318cc22e82b9bdfb000ab4e7f9c",
+    "P11_ligacoes_sem_tubos_2026-10-24\\placa_ritz.py": "b233913df0af3d2bc060e9ec0518117e80f48a39e8546878c0c13e6b287df079"
+  },
+  "physical_tests": 0
+}

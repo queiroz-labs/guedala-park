@@ -1,0 +1,51 @@
+> **Orçamento atualizado 22/10/2026:** [Eletros e TV com modelos e exclusões preservados](../../05_Orcamento_e_cronograma/Orcamento/Eletros_e_TV/Analise_eletros.md): R$17.251,83, antes dos fretes e com provisão de KE4GC sem estoque confirmado. IB6S e CV5012PC4 Inox Look são as versões vigentes; TV Philips Ambilight ainda candidata. Fontes de preços anteriores permanecem históricas.
+
+# Equipamentos e orçamento
+
+**20/10/2026 — grelhas e manutenção R02.** [Detalhamento atual](../Cozinha/Fischer_Grill/Grelhas_manutencao/README.md): duas grelhas candidatas600 ×90 removíveis, com12 rasgos e272,43 cm² de área aberta cada, réguas fora da passagem de ar e gabarito1:1 para cotação. Foram conferidos195 pares sem sobreposição e retirada frontal hipotética600 mm, sem validar calor/carga/cabos/pessoas. A saída superior agora termina na face perfuradaY6402,5; a hipótese antiga sem grelha real é superada nesse detalhe. Desenvolver acesso às conexões pelo gabinete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas; sem fabricação, compra ou contato externo.
+
+**19/10/2026 — apoios e ventilação desenvolvidos em R01.** [Solução atual](../Cozinha/Fischer_Grill/Apoios_ventilacao/README.md): base plana sobre três nervuras até o piso, vãos livres261,5 mm, entrada inferior e saída superior560 ×60, canal traseiro45 ×560, travessa fora do caminho do ar. KE4GC preservado com recorte520 ×390. Foram conferidos90 pares sem sobreposição e um percurso de ar conectado no estudo; isso não comprova resistência ou resfriamento. Material/ligações/capacidade do apoio, datums dos aparelhos, grelha efetiva, instalações e medidas de campo continuam para o executivo. Fonte R30 preservada; escolha dos aparelhos encerrada.
+
+**19/10/2026 — forno escolhido:** Fischer Infinity50 L **com grill, sem turbo, preto127 V,28349-64929**, substitui o Venax como referência vigente. [Encaixe com o KE4GC, manual oficial e pendências](../Cozinha/Fischer_Grill/README.md).2061 W/16,22 A; conferir circuito da unidade. Nenhuma compra feita; referências anteriores ao Venax são históricas neste ponto.
+
+**F103 — conferência de instalação:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md). ME23P: 30 cm acima e circuito exclusivo de 20 A; Venax: 20 cm entre fundo do cooktop e topo do forno. RI9252/91 identificada como preta de 127 V. Compatibilização do layout ainda pendente.
+
+**F102 — 12/09/2026:** por decisão de Elias, todos os eletrodomésticos cuja tensão estava pendente passam a **127 V**. A escolha da tensão está encerrada; conferência de circuitos, tomadas e instalação permanece separada. Modelos já definidos como bivolt mantêm essa característica, com uso previsto em 127 V. Referências anteriores a tensão em aberto ou anúncios de 220 V são históricas.
+
+**Atualização documental F101 — 12/09/2026:** memorial oficial recebido e arquivado. Consultar [entrega e impactos no projeto](../../01_Programa_e_decisoes/Memorial_Cury_impactos.md). O memorial informa tomadas predefinidas como “110V” e restrição à alteração de tensão; confirmar circuitos antes das compras. Aquecedor e chuveiro não fornecidos; Rinnai E21 GN escolhido posteriormente em F106. Ar-condicionado tem instalação expressamente proibida pelo documento. Escolhas de aparelhos preservadas.
+
+[Início](../../README.md) · [Resumo](../../ESTADO_ATUAL.md) · [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md)
+
+Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-E211 FEH GN escolhido em F106, sem Wi-Fi adicional; instalação pendente. Os preços são históricos; as condições de instalação estão complementadas nos estudos da cozinha.
+
+## Documentos
+
+| Abrir | Conteúdo |
+|---|---|
+| [LG VC4: escolha e pendências](LG_VC4_escolha_e_pendencias_R01.md) | Modelo, versões de tensão e orçamento parcelado. |
+| [Comparação em PDF](LG_VC4_e_orcamento_R01.pdf) | Pranchas da escolha da VC4 e orçamento da pesquisa. |
+| [Dados de apoio](Dados_da_comparacao_LG_R01.json) | Registro estruturado da comparação. |
+
+Veja também [manuais dos equipamentos](../../09_Referencias/Plantas_e_manuais/README.md) e [medidas e folgas](../Cozinha/Medidas_e_folgas_R00.md).
+
+Consultar estudos anteriores. Os estudos não liberam fabricação ou instalação.
+
+## Tensões definidas — F102
+
+| Aparelho | Especificação vigente |
+|---|---|
+| Lava e seca LG VC4 | **127 V — CV5012WC4**; CV5012WC4A de 220 V deixa de ser alternativa de compra. |
+| Forno Fischer Infinity50 L com grill, sem turbo,28349-64929 — escolha19/10/2026 | **127 V**,2061 W/16,22 A; tomada20 A recomendada no manual, circuito ainda a conferir. |
+| Micro-ondas Electrolux ME23P | **127 V**. |
+| Depurador Suggar Slim de Embutir 60 cm inox | **127 V — DE61IX**; DE62IX de 220 V fica como referência histórica. |
+| Air fryer Philips Walita Série 3000 RI9252 | **127 V**; código confirmado RI9252/91 em F103. |
+| Geladeira Electrolux IB6 | Bivolt automático já documentado; uso previsto em **127 V**. |
+| Purificador Electrolux PE11X | Bivolt já escolhido; uso previsto em **127 V**. |
+| Cooktop Electrolux KE4GC a gás | Alimentação elétrica prevista em **127 V**; bivolt confirmado no manual em F103, mantendo uso em 127 V. |
+| Aquecedor Rinnai E21 REU-E211 FEH GN | Bivolt com chave seletora; uso em **127 V**. Sem módulo Wi-Fi adicional — F106. |
+
+A regra também vale para futuras especificações de eletrodomésticos com tensão ainda não escolhida. Aparelhos pequenos já possuídos não tiveram sua tensão física conferida por esta atualização: não presumir que um aparelho existente mudou de tensão. Modelos, cores e tetos de orçamento permanecem. Preços antigos de versões 220 V não são cotações da versão 127 V. Nenhuma compra realizada.
+
+## Pesquisa de preços em inox — 13/09/2026
+
+[IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes](Precos_inox_IB6S_VC4_R00.md). Acabamento vigente Inox Look conforme F160; pesquisa F161.

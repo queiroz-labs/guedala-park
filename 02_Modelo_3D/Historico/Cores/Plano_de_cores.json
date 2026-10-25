@@ -1,0 +1,2133 @@
+{
+  "revision": "R16",
+  "geometryRevision": "R45",
+  "sourceSHA256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "palette": {
+    "chairFabric": "#d8d0c2",
+    "whiteTX": "#f3f2ed",
+    "mirror": "#b9d0d3",
+    "finishPending": "#bbbdb7",
+    "wood": "#c4a27b",
+    "petrol": "#294b51",
+    "altblue": "#263b45",
+    "stone": "#ded7c7",
+    "paint": "#e6dfd1",
+    "offwhite": "#eeeae1",
+    "inox": "#aeb5b5",
+    "beige": "#d9c9b1",
+    "grey": "#aeb1b2",
+    "head": "#c9bbaa",
+    "sage": "#78846a",
+    "greige": "#c6bcaa",
+    "ivory": "#dcd4c3",
+    "black": "#282d2e",
+    "vinyl": "#c9b99d",
+    "bathbeige": "#c9bca8",
+    "lightwood": "#c8a77d"
+  },
+  "normalTransform": "viewer=(-CAD.x,CAD.z,CAD.y), applied to global shape normals",
+  "scope": "Aparência de consulta; sem alteração de geometria, materiais físicos ou liberação de fabricação.",
+  "objects": {
+    "Peca206": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca206 (Lateral direita016); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita016",
+      "module": "P01"
+    },
+    "Peca207": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca207 (Lateral esquerda); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda",
+      "module": "P01"
+    },
+    "Peca208": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca208 (Fundo)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo",
+      "module": "P01"
+    },
+    "Peca209": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca209 (Base · topo 80 mm)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base · topo 80 mm",
+      "module": "P01"
+    },
+    "Peca210": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca210 (Divisória)",
+      "label": "Divisória",
+      "module": "P01"
+    },
+    "Peca211": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca211 (Sapateira · três níveis)",
+      "label": "Sapateira · três níveis",
+      "module": "P01"
+    },
+    "Peca212": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca212 (Sapateira · três níveis001)",
+      "label": "Sapateira · três níveis001",
+      "module": "P01"
+    },
+    "Peca213": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca213 (Sapateira · três níveis002)",
+      "label": "Sapateira · três níveis002",
+      "module": "P01"
+    },
+    "GavetaComumR08": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR08 (Lateral comum esquerda · Gaveta de roupa - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR001 (Lateral comum direita · Gaveta de roupa - proposta R08)",
+      "label": "Lateral comum direita · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR002": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR002 (Fundo comum · Gaveta de roupa - proposta R08)",
+      "label": "Fundo comum · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR003": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR003 (Traseira comum · Gaveta de roupa - proposta R08)",
+      "label": "Traseira comum · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR004": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR004 (Dianteira comum16 · Gaveta de roupa - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR005": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR005 (Frente preservada · Gaveta de roupa - proposta R08)",
+      "label": "Frente preservada · Gaveta de roupa - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR012": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR012 (Lateral comum esquerda · Gaveta de roupa001 - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR013": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR013 (Lateral comum direita · Gaveta de roupa001 - proposta R08)",
+      "label": "Lateral comum direita · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR014": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR014 (Fundo comum · Gaveta de roupa001 - proposta R08)",
+      "label": "Fundo comum · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR015": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR015 (Traseira comum · Gaveta de roupa001 - proposta R08)",
+      "label": "Traseira comum · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR016": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR016 (Dianteira comum16 · Gaveta de roupa001 - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR017": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR017 (Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08)",
+      "label": "Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08",
+      "module": "P01"
+    },
+    "Peca226": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca226 (Sapateira · três níveis003)",
+      "label": "Sapateira · três níveis003",
+      "module": "P01"
+    },
+    "Peca227": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca227 (Sapateira · três níveis004)",
+      "label": "Sapateira · três níveis004",
+      "module": "P01"
+    },
+    "Peca228": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca228 (Sapateira · três níveis005)",
+      "label": "Sapateira · três níveis005",
+      "module": "P01"
+    },
+    "GavetaComumR024": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR024 (Lateral comum esquerda · Gaveta de roupa002 - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR025": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR025 (Lateral comum direita · Gaveta de roupa002 - proposta R08)",
+      "label": "Lateral comum direita · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR026": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR026 (Fundo comum · Gaveta de roupa002 - proposta R08)",
+      "label": "Fundo comum · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR027": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR027 (Traseira comum · Gaveta de roupa002 - proposta R08)",
+      "label": "Traseira comum · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR028": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR028 (Dianteira comum16 · Gaveta de roupa002 - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR029": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR029 (Frente preservada · Gaveta de roupa002 - proposta R08)",
+      "label": "Frente preservada · Gaveta de roupa002 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR036": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR036 (Lateral comum esquerda · Gaveta de roupa003 - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR037": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR037 (Lateral comum direita · Gaveta de roupa003 - proposta R08)",
+      "label": "Lateral comum direita · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR038": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR038 (Fundo comum · Gaveta de roupa003 - proposta R08)",
+      "label": "Fundo comum · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR039": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR039 (Traseira comum · Gaveta de roupa003 - proposta R08)",
+      "label": "Traseira comum · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR040": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR040 (Dianteira comum16 · Gaveta de roupa003 - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "GavetaComumR041": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR041 (Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08)",
+      "label": "Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08",
+      "module": "P01"
+    },
+    "Peca241": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca241 (Divisória001)",
+      "label": "Divisória001",
+      "module": "P01"
+    },
+    "Peca242": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca242 (Divisória002)",
+      "label": "Divisória002",
+      "module": "P01"
+    },
+    "Peca243": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca243 (Divisória003)",
+      "label": "Divisória003",
+      "module": "P01"
+    },
+    "Peca244": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca244 (Divisória004)",
+      "label": "Divisória004",
+      "module": "P01"
+    },
+    "Peca245": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca245 (Prateleira curta · topo 1100)",
+      "label": "Prateleira curta · topo 1100",
+      "module": "P01"
+    },
+    "Peca246": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca246 (Prateleira curta · topo 1101)",
+      "label": "Prateleira curta · topo 1101",
+      "module": "P01"
+    },
+    "Peca247": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca247 (Roupeiro — porta direita — deslizar para esquerda — frente proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+      "module": "P01"
+    },
+    "Peca248": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca248 (Roupeiro — porta esquerda — deslizar para direita — frente proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+      "module": "P01"
+    },
+    "PlacaL": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PlacaL (Base em L); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base em L",
+      "module": "P02"
+    },
+    "PlacaL001": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PlacaL001 (Tampo em L); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo em L",
+      "module": "P02"
+    },
+    "Peca255": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca255 (Fundo do braço principal)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo do braço principal",
+      "module": "P02"
+    },
+    "Peca256": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca256 (Fundo do retorno)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Fundo do retorno",
+      "module": "P02"
+    },
+    "LateralApoioPrincipal": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD LateralApoioPrincipal (Lateral 18 mm de apoio da principal - proposta R03)",
+      "label": "Lateral 18 mm de apoio da principal - proposta R03",
+      "module": "P02"
+    },
+    "FrenteSimplesR04": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteSimplesR04 (Porta A - canecos comuns); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Porta A - canecos comuns",
+      "module": "P02"
+    },
+    "FrenteSimplesR001": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteSimplesR001 (Porta B - canecos comuns); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Porta B - canecos comuns",
+      "module": "P02"
+    },
+    "ApoioPortaBR04": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioPortaBR04 (Lateral 18 mm de apoio da porta B - proposta)",
+      "label": "Lateral 18 mm de apoio da porta B - proposta",
+      "module": "P02"
+    },
+    "FaixaQuinaAR04": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FaixaQuinaAR04 (Faixa fixa A 142 mm - proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Faixa fixa A 142 mm - proposta",
+      "module": "P02"
+    },
+    "FaixaQuinaBR04": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FaixaQuinaBR04 (Faixa fixa B 124 mm - proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Faixa fixa B 124 mm - proposta",
+      "module": "P02"
+    },
+    "Peca259": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca259 (Lateral direita017); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita017",
+      "module": "P03"
+    },
+    "Peca260": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca260 (Lateral esquerda001); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda001",
+      "module": "P03"
+    },
+    "Peca261": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca261 (Fundo001)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo001",
+      "module": "P03"
+    },
+    "Peca262": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca262 (Base); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base",
+      "module": "P03"
+    },
+    "Peca263": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca263 (Tampo)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo",
+      "module": "P03"
+    },
+    "Peca264": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca264 (Maleiro — porta direita — deslizar para esquerda — frente proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Maleiro — porta direita — deslizar para esquerda — frente proposta",
+      "module": "P03"
+    },
+    "Peca265": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca265 (Maleiro — porta esquerda — deslizar para direita — frente proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Maleiro — porta esquerda — deslizar para direita — frente proposta",
+      "module": "P03"
+    },
+    "Peca266": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca266 (Lateral direita018); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Lateral direita018",
+      "module": "P04"
+    },
+    "Peca267": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca267 (Lateral esquerda002); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Lateral esquerda002",
+      "module": "P04"
+    },
+    "Peca268": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca268 (Fundo002)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Fundo002",
+      "module": "P04"
+    },
+    "Peca269": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca269 (Base001); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base001",
+      "module": "P04"
+    },
+    "Peca270": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca270 (Tampo001)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo001",
+      "module": "P04"
+    },
+    "FrenteComumR015": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR015 (Cabeceira porta 4 - abrir para direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Cabeceira porta 4 - abrir para direita — frente com canecos",
+      "module": "P04"
+    },
+    "FrenteComumR016": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR016 (Cabeceira porta 3 - abrir para esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Cabeceira porta 3 - abrir para esquerda — frente com canecos",
+      "module": "P04"
+    },
+    "FrenteComumR017": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR017 (Cabeceira porta 2 - abrir para direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Cabeceira porta 2 - abrir para direita — frente com canecos",
+      "module": "P04"
+    },
+    "FaixaFixaEstudo": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FaixaFixaEstudo (Faixa fixa · proposta, não aprovada); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Faixa fixa · proposta, não aprovada",
+      "module": "P04"
+    },
+    "ApoioComumR003": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioComumR003 (Apoio interno cabeceira 1 - proposta18)",
+      "label": "Apoio interno cabeceira 1 - proposta18",
+      "module": "P04"
+    },
+    "ApoioComumR004": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioComumR004 (Apoio interno cabeceira 2 - proposta18)",
+      "label": "Apoio interno cabeceira 2 - proposta18",
+      "module": "P04"
+    },
+    "ApoioOpostoR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioOpostoR001 (Cabeceira - segundo18 no divisor das portas2/3; conjunto36)",
+      "label": "Cabeceira - segundo18 no divisor das portas2/3; conjunto36",
+      "module": "P04"
+    },
+    "ApoioOpostoR002": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioOpostoR002 (Cabeceira - apoio18 da vizinha à direita; proposta)",
+      "label": "Cabeceira - apoio18 da vizinha à direita; proposta",
+      "module": "P04"
+    },
+    "FrenteVizinhaR18": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteVizinhaR18 (Cabeceira porta 1 - abrir para esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:414",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Cabeceira porta 1 - abrir para esquerda — frente com canecos",
+      "module": "P04"
+    },
+    "Peca276": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca276 (Lateral direita019); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita019",
+      "module": "P05"
+    },
+    "Peca277": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca277 (Lateral esquerda003); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda003",
+      "module": "P05"
+    },
+    "Peca278": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca278 (Fundo003)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo003",
+      "module": "P05"
+    },
+    "Peca279": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca279 (Base002)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base002",
+      "module": "P05"
+    },
+    "Peca280": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca280 (Prateleira de estudo · hidráulica a recortar)",
+      "label": "Prateleira de estudo · hidráulica a recortar",
+      "module": "P05"
+    },
+    "FrenteComumR10": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR10 (Gabinete da pia - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Gabinete da pia - porta direita — frente com canecos",
+      "module": "P05"
+    },
+    "FrenteComumR001": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR001 (Gabinete da pia - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Gabinete da pia - porta esquerda — frente com canecos",
+      "module": "P05"
+    },
+    "Peca283": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca283 (Lateral direita020); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita020",
+      "module": "P06"
+    },
+    "Peca284": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca284 (Lateral esquerda004); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda004",
+      "module": "P06"
+    },
+    "Peca285": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca285 (Fundo004)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo004",
+      "module": "P06"
+    },
+    "Peca286": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca286 (Base003)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base003",
+      "module": "P06"
+    },
+    "GavetaComumR048": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR048 (Lateral comum esquerda · G3 · mantimentos - proposta R08)",
+      "label": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR049": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR049 (Lateral comum direita · G3 · mantimentos - proposta R08)",
+      "label": "Lateral comum direita · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR050": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR050 (Fundo comum · G3 · mantimentos - proposta R08)",
+      "label": "Fundo comum · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR051": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR051 (Traseira comum · G3 · mantimentos - proposta R08)",
+      "label": "Traseira comum · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR052": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR052 (Dianteira comum16 · G3 · mantimentos - proposta R08)",
+      "label": "Dianteira comum16 · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR053": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR053 (Frente preservada · G3 · mantimentos - proposta R08); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Frente preservada · G3 · mantimentos - proposta R08",
+      "module": "P06"
+    },
+    "MontagemG2R016": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD MontagemG2R016 (Parte_traseira_da_gaveta[3B0R-000X] - proposta R07)",
+      "label": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
+      "module": "P06"
+    },
+    "MontagemG2R017": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD MontagemG2R017 (Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07)",
+      "label": "Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07",
+      "module": "P06"
+    },
+    "MontagemG2R018": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD MontagemG2R018 (Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07)",
+      "label": "Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07",
+      "module": "P06"
+    },
+    "MontagemG2R019": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD MontagemG2R019 (Fundo_da_gaveta[3B0R-001A] - proposta R07)",
+      "label": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
+      "module": "P06"
+    },
+    "MontagemG2R020": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD MontagemG2R020 (Frente_da_gaveta[3B0R-001H] - proposta R07); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Frente_da_gaveta[3B0R-001H] - proposta R07",
+      "module": "P06"
+    },
+    "GavetaComumR060": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR060 (Lateral comum esquerda · G1 · talheres - proposta R08)",
+      "label": "Lateral comum esquerda · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR061": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR061 (Lateral comum direita · G1 · talheres - proposta R08)",
+      "label": "Lateral comum direita · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR062": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR062 (Fundo comum · G1 · talheres - proposta R08)",
+      "label": "Fundo comum · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR063": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR063 (Traseira comum · G1 · talheres - proposta R08)",
+      "label": "Traseira comum · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR064": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR064 (Dianteira comum16 · G1 · talheres - proposta R08)",
+      "label": "Dianteira comum16 · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "GavetaComumR065": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR065 (Frente preservada · G1 · talheres - proposta R08); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Frente preservada · G1 · talheres - proposta R08",
+      "module": "P06"
+    },
+    "Peca305": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca305 (Lateral direita do forno - R30 deslocada 13 mm (vão 577)); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+      "module": "P07"
+    },
+    "Peca306": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca306 (Lateral esquerda do forno); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda do forno",
+      "module": "P07"
+    },
+    "Peca307": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca307 (Travessa cocção · avançada27 para liberar ar traseiro45 · proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+      "module": "P07"
+    },
+    "BasePlanaR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BasePlanaR31 (BasePlana · proposta R31)",
+      "label": "BasePlana · proposta R31",
+      "module": "P07"
+    },
+    "ApoioEsquerdoR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioEsquerdoR31 (ApoioEsquerdo · proposta R31)",
+      "label": "ApoioEsquerdo · proposta R31",
+      "module": "P07"
+    },
+    "ApoioCentralR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioCentralR31 (ApoioCentral · proposta R31)",
+      "label": "ApoioCentral · proposta R31",
+      "module": "P07"
+    },
+    "ApoioDireitoR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioDireitoR31 (ApoioDireito · proposta R31)",
+      "label": "ApoioDireito · proposta R31",
+      "module": "P07"
+    },
+    "ReguaInferiorBaixaR31": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ReguaInferiorBaixaR31 (ReguaInferiorBaixa · proposta R31); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "ReguaInferiorBaixa · proposta R31",
+      "module": "P07"
+    },
+    "ReguaInferiorAltaR31": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ReguaInferiorAltaR31 (ReguaInferiorAlta · proposta R31); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "ReguaInferiorAlta · proposta R31",
+      "module": "P07"
+    },
+    "ReguaSuperiorBaixaR31": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ReguaSuperiorBaixaR31 (ReguaSuperiorBaixa · proposta R31); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "ReguaSuperiorBaixa · proposta R31",
+      "module": "P07"
+    },
+    "ReguaSuperiorAltaR31": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ReguaSuperiorAltaR31 (ReguaSuperiorAlta · proposta R31); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "ReguaSuperiorAlta · proposta R31",
+      "module": "P07"
+    },
+    "PecaBaixaR13": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR13 (Frente baixa preservada1223x106 - recuo80); 01_Programa_e_decisoes/Registro_de_decisoes.md:1050",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Frente baixa preservada1223x106 - recuo80",
+      "module": "P08"
+    },
+    "PecaBaixaR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR001 (Fundo18 sobre rodas - proposta)",
+      "label": "Fundo18 sobre rodas - proposta",
+      "module": "P08"
+    },
+    "PecaBaixaR002": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR002 (Lateral18 baixa - proposta)",
+      "label": "Lateral18 baixa - proposta",
+      "module": "P08"
+    },
+    "PecaBaixaR003": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR003 (Lateral18 baixa - proposta001)",
+      "label": "Lateral18 baixa - proposta001",
+      "module": "P08"
+    },
+    "PecaBaixaR004": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR004 (Parede frente/trás18 baixa - proposta)",
+      "label": "Parede frente/trás18 baixa - proposta",
+      "module": "P08"
+    },
+    "PecaBaixaR005": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR005 (Parede frente/trás18 baixa - proposta001)",
+      "label": "Parede frente/trás18 baixa - proposta001",
+      "module": "P08"
+    },
+    "PecaBaixaR036": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR036 (Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada)",
+      "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada",
+      "module": "P08"
+    },
+    "PecaBaixaR037": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBaixaR037 (Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001)",
+      "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001",
+      "module": "P08"
+    },
+    "Peca315": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca315 (Lateral direita021); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita021",
+      "module": "P09"
+    },
+    "Peca316": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca316 (Lateral esquerda005); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda005",
+      "module": "P09"
+    },
+    "Peca317": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca317 (Fundo005)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo005",
+      "module": "P09"
+    },
+    "Peca318": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca318 (Base004); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base004",
+      "module": "P09"
+    },
+    "Peca319": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca319 (Tampo002)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo002",
+      "module": "P09"
+    },
+    "Peca320": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca320 (Divisória005)",
+      "label": "Divisória005",
+      "module": "P09"
+    },
+    "Peca321": {
+      "material": "#dca864",
+      "evidence": "Peca321.MaterialReferencia",
+      "label": "Reserva canal técnico · sem armazenamento",
+      "module": "P09"
+    },
+    "FrenteComumR002": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR002 (D · acima do depurador - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "D · acima do depurador - porta direita — frente com canecos",
+      "module": "P09"
+    },
+    "FrenteComumR003": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR003 (D · acima do depurador - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "D · acima do depurador - porta esquerda — frente com canecos",
+      "module": "P09"
+    },
+    "Peca324": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca324 (Lateral direita022); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita022",
+      "module": "P10"
+    },
+    "Peca325": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca325 (Lateral esquerda006); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda006",
+      "module": "P10"
+    },
+    "Peca326": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca326 (Fundo006)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo006",
+      "module": "P10"
+    },
+    "Peca327": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca327 (Base005); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base005",
+      "module": "P10"
+    },
+    "Peca328": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca328 (Tampo003)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo003",
+      "module": "P10"
+    },
+    "Peca329": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca329 (Prateleira)",
+      "label": "Prateleira",
+      "module": "P10"
+    },
+    "Peca330": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca330 (Prateleira001)",
+      "label": "Prateleira001",
+      "module": "P10"
+    },
+    "Peca331": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca331 (Prateleira002)",
+      "label": "Prateleira002",
+      "module": "P10"
+    },
+    "FrenteComumR004": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR004 (C · uso diário - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "C · uso diário - porta direita — frente com canecos",
+      "module": "P10"
+    },
+    "FrenteComumR005": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR005 (C · uso diário - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "C · uso diário - porta esquerda — frente com canecos",
+      "module": "P10"
+    },
+    "Peca334": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca334 (Lateral direita023); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita023",
+      "module": "P11"
+    },
+    "Peca335": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca335 (Lateral esquerda007); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda007",
+      "module": "P11"
+    },
+    "Peca336": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca336 (Fundo007)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo007",
+      "module": "P11"
+    },
+    "Peca337": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca337 (Base006); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base006",
+      "module": "P11"
+    },
+    "Peca338": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca338 (Tampo004)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo004",
+      "module": "P11"
+    },
+    "Peca339": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca339 (Prateleira003)",
+      "label": "Prateleira003",
+      "module": "P11"
+    },
+    "FrenteComumR006": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR006 (B · acima do micro - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "B · acima do micro - porta direita — frente com canecos",
+      "module": "P11"
+    },
+    "FrenteComumR007": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR007 (B · acima do micro - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "B · acima do micro - porta esquerda — frente com canecos",
+      "module": "P11"
+    },
+    "Peca342": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca342 (Lateral direita024); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita024",
+      "module": "P12"
+    },
+    "Peca343": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca343 (Lateral esquerda008); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda008",
+      "module": "P12"
+    },
+    "Peca344": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca344 (Fundo008)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo008",
+      "module": "P12"
+    },
+    "Peca345": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca345 (Base007); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base007",
+      "module": "P12"
+    },
+    "Peca346": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca346 (Tampo005)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo005",
+      "module": "P12"
+    },
+    "Peca347": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca347 (Divisória006)",
+      "label": "Divisória006",
+      "module": "P12"
+    },
+    "FrenteComumR008": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR008 (A · acima da geladeira - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "A · acima da geladeira - porta direita — frente com canecos",
+      "module": "P12"
+    },
+    "FrenteComumR009": {
+      "material": "petrol",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR009 (A · acima da geladeira - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "A · acima da geladeira - porta esquerda — frente com canecos",
+      "module": "P12"
+    },
+    "Peca350": {
+      "material": "wood",
+      "evidence": "Peca350.MaterialReferencia",
+      "label": "Prateleira de apoio · topo 1550",
+      "module": "P13"
+    },
+    "Peca352": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca352 (Lateral direita025); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita025",
+      "module": "P14"
+    },
+    "Peca353": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca353 (Lateral esquerda009); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda009",
+      "module": "P14"
+    },
+    "PecaCestoR15": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaCestoR15 (Base98 - frente até580 desde parede)",
+      "label": "Base98 - frente até580 desde parede",
+      "module": "P14"
+    },
+    "PecaCestoR001": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaCestoR001 (Rodapé80 sob a base, recuado50 da face - R29 (era110)); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Rodapé80 sob a base, recuado50 da face - R29 (era110)",
+      "module": "P14"
+    },
+    "PecaCestoR002": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaCestoR002 (Painel superior removível675–897 - Arenza liso); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Painel superior removível675–897 - Arenza liso",
+      "module": "P14"
+    },
+    "PecaCestoR003": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaCestoR003 (Frente inferior521 - face630, junta lateral2 proposta); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Frente inferior521 - face630, junta lateral2 proposta",
+      "module": "P14"
+    },
+    "FundoTanqueR29": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FundoTanqueR29 (Fundo009 com abertura hidráulica 450x602 - R29)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo009 com abertura hidráulica 450x602 - R29",
+      "module": "P14"
+    },
+    "ApoioCestoC01R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioCestoC01R31 (C01 · apoio inferior do cesto · proposto)",
+      "label": "C01 · apoio inferior do cesto · proposto",
+      "module": "P14"
+    },
+    "ApoioCestoC02R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioCestoC02R31 (C02 · apoio inferior do cesto · proposto)",
+      "label": "C02 · apoio inferior do cesto · proposto",
+      "module": "P14"
+    },
+    "ApoioCestoC03R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioCestoC03R31 (C03 · apoio inferior do cesto · proposto)",
+      "label": "C03 · apoio inferior do cesto · proposto",
+      "module": "P14"
+    },
+    "Peca359": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca359 (Lateral direita026); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita026",
+      "module": "P15"
+    },
+    "Peca360": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca360 (Lateral esquerda010); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda010",
+      "module": "P15"
+    },
+    "Peca361": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca361 (Fundo010)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo010",
+      "module": "P15"
+    },
+    "Peca362": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca362 (Base008); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base008",
+      "module": "P15"
+    },
+    "Peca363": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca363 (Tampo006)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo006",
+      "module": "P15"
+    },
+    "FrenteComumR010": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR010 (Aéreo da lavanderia - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Aéreo da lavanderia - porta direita — frente com canecos",
+      "module": "P15"
+    },
+    "FrenteComumR011": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR011 (Aéreo da lavanderia - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2507",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Aéreo da lavanderia - porta esquerda — frente com canecos",
+      "module": "P15"
+    },
+    "Peca367": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca367 (Lateral direita027)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral direita027",
+      "module": "P16"
+    },
+    "Peca368": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca368 (Lateral esquerda011)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral esquerda011",
+      "module": "P16"
+    },
+    "Peca369": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca369 (Fundo011)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Fundo011",
+      "module": "P16"
+    },
+    "Peca370": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca370 (Base009)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base009",
+      "module": "P16"
+    },
+    "Peca371": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca371 (Tampo007)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo007",
+      "module": "P16"
+    },
+    "GavetaComumR072": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR072 (Lateral comum esquerda · Gaveta escritório 1 - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR073": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR073 (Lateral comum direita · Gaveta escritório 1 - proposta R08)",
+      "label": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR074": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR074 (Fundo comum · Gaveta escritório 1 - proposta R08)",
+      "label": "Fundo comum · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR075": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR075 (Traseira comum · Gaveta escritório 1 - proposta R08)",
+      "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR076": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR076 (Dianteira comum16 · Gaveta escritório 1 - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR077": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR077 (Frente preservada · Gaveta escritório 1 - proposta R08); 01_Programa_e_decisoes/Registro_de_decisoes.md:2184",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Frente preservada · Gaveta escritório 1 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR084": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR084 (Lateral comum esquerda · Gaveta escritório 2 - proposta R08)",
+      "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR085": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR085 (Lateral comum direita · Gaveta escritório 2 - proposta R08)",
+      "label": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR086": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR086 (Fundo comum · Gaveta escritório 2 - proposta R08)",
+      "label": "Fundo comum · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR087": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR087 (Traseira comum · Gaveta escritório 2 - proposta R08)",
+      "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR088": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR088 (Dianteira comum16 · Gaveta escritório 2 - proposta R08)",
+      "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "GavetaComumR089": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD GavetaComumR089 (Frente preservada · Gaveta escritório 2 - proposta R08); 01_Programa_e_decisoes/Registro_de_decisoes.md:2184",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Frente preservada · Gaveta escritório 2 - proposta R08",
+      "module": "P16"
+    },
+    "Peca384": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca384 (Lateral direita028); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Lateral direita028",
+      "module": "P17"
+    },
+    "Peca385": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca385 (Lateral esquerda012); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Lateral esquerda012",
+      "module": "P17"
+    },
+    "Peca386": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca386 (Fundo012)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Fundo012",
+      "module": "P17"
+    },
+    "Peca387": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca387 (Base010); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base010",
+      "module": "P17"
+    },
+    "Peca388": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca388 (Tampo008)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo008",
+      "module": "P17"
+    },
+    "ApoioComumR11": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioComumR11 (Apoio interno escritório 1 - proposta18)",
+      "label": "Apoio interno escritório 1 - proposta18",
+      "module": "P17"
+    },
+    "ApoioComumR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioComumR001 (Apoio interno escritório 2 - proposta18)",
+      "label": "Apoio interno escritório 2 - proposta18",
+      "module": "P17"
+    },
+    "ApoioComumR002": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioComumR002 (Apoio interno escritório 3 - proposta18)",
+      "label": "Apoio interno escritório 3 - proposta18",
+      "module": "P17"
+    },
+    "FrenteComumR11": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR11 (Escritório porta 4 - abrir para direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Escritório porta 4 - abrir para direita — frente com canecos",
+      "module": "P17"
+    },
+    "FrenteComumR012": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR012 (Escritório porta 3 - abrir para esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Escritório porta 3 - abrir para esquerda — frente com canecos",
+      "module": "P17"
+    },
+    "FrenteComumR013": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR013 (Escritório porta 2 - abrir para direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Escritório porta 2 - abrir para direita — frente com canecos",
+      "module": "P17"
+    },
+    "FrenteComumR014": {
+      "material": "offwhite",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR014 (Escritório porta 1 - abrir para esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2012",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Escritório porta 1 - abrir para esquerda — frente com canecos",
+      "module": "P17"
+    },
+    "ApoioOpostoR18": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD ApoioOpostoR18 (Escritório - segundo18 no divisor das portas2/3; conjunto36)",
+      "label": "Escritório - segundo18 no divisor das portas2/3; conjunto36",
+      "module": "P17"
+    },
+    "Peca396": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca396 (Fundo013)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo013",
+      "module": "P18"
+    },
+    "BC43_LateralE": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralE (Montante frontal esquerdo18×70×543)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Montante frontal esquerdo18×70×543",
+      "module": "P18"
+    },
+    "BC43_LateralD": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_LateralD (Montante frontal direito18×70×543)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Montante frontal direito18×70×543",
+      "module": "P18"
+    },
+    "BC43_Base": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Base (Base do quadro564×70×18)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base do quadro564×70×18",
+      "module": "P18"
+    },
+    "BC43_Travessa": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_Travessa (Topo do quadro564×70×18)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Topo do quadro564×70×18",
+      "module": "P18"
+    },
+    "BC43_CaixaE": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaE (Lateral original esquerda com furos de união); 01_Programa_e_decisoes/Registro_de_decisoes.md:2939",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral original esquerda com furos de união",
+      "module": "P18"
+    },
+    "BC43_CaixaD": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaD (Lateral original direita com furos de união); 01_Programa_e_decisoes/Registro_de_decisoes.md:2939",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral original direita com furos de união",
+      "module": "P18"
+    },
+    "BC43_CaixaBase": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_CaixaBase (Base original preservada)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base original preservada",
+      "module": "P18"
+    },
+    "BC43_PainelEsquerda": {
+      "material": "bathbeige",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelEsquerda (Folha 292×500×18 — cava18×80×6); 01_Programa_e_decisoes/Registro_de_decisoes.md:2939",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Folha 292×500×18 — cava18×80×6",
+      "module": "P18"
+    },
+    "BC43_PainelDireita": {
+      "material": "bathbeige",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BC43_PainelDireita (Folha 292×500×18 — cava18×80×001); 01_Programa_e_decisoes/Registro_de_decisoes.md:2939",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Folha 292×500×18 — cava18×80×001",
+      "module": "P18"
+    },
+    "Peca400": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca400 (Lateral direita030); 01_Programa_e_decisoes/Registro_de_decisoes.md:2953",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Lateral direita030",
+      "module": "P19"
+    },
+    "Peca401": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca401 (Lateral esquerda014); 01_Programa_e_decisoes/Registro_de_decisoes.md:2953",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Lateral esquerda014",
+      "module": "P19"
+    },
+    "Peca402": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca402 (Fundo014)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Fundo014",
+      "module": "P19"
+    },
+    "Peca403": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca403 (Base012)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": -1,
+      "label": "Base012",
+      "module": "P19"
+    },
+    "Peca404": {
+      "material": "lightwood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca404 (Tampo009)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "Tampo009",
+      "module": "P19"
+    },
+    "FrenteComumR019": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR019 (Armário espelhado raso - porta direita — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2953",
+      "label": "Armário espelhado raso - porta direita — frente com canecos",
+      "module": "P19"
+    },
+    "EspelhoAplicadoR12": {
+      "material": "mirror",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Espelho4 sobre painel comum - proposta",
+      "module": "P19"
+    },
+    "FrenteComumR020": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD FrenteComumR020 (Armário espelhado raso - porta esquerda — frente com canecos); 01_Programa_e_decisoes/Registro_de_decisoes.md:2953",
+      "label": "Armário espelhado raso - porta esquerda — frente com canecos",
+      "module": "P19"
+    },
+    "EspelhoAplicadoR001": {
+      "material": "mirror",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Espelho4 sobre painel comum - proposta001",
+      "module": "P19"
+    },
+    "PrateleiraEspelhadoR12": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR12 (Prateleira removível espelhado 1 - proposta)",
+      "label": "Prateleira removível espelhado 1 - proposta",
+      "module": "P19"
+    },
+    "PrateleiraEspelhadoR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PrateleiraEspelhadoR001 (Prateleira removível espelhado 2 - proposta)",
+      "label": "Prateleira removível espelhado 2 - proposta",
+      "module": "P19"
+    },
+    "Peca407": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca407 (Lateral esquerda015); 01_Programa_e_decisoes/Registro_de_decisoes.md:612",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": -1,
+      "label": "Lateral esquerda015",
+      "module": "P20"
+    },
+    "Peca408": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca408 (Fundo015)",
+      "outerStatus": "Existing illustrative CAD color; hidden/reverse finish not specified",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": 1,
+      "label": "Fundo015",
+      "module": "P20"
+    },
+    "PecaBancoR16": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR16 (Frente18 estrutural - apoio não calculado); 01_Programa_e_decisoes/Registro_de_decisoes.md:612",
+      "inner": "whiteTX",
+      "axis": 0,
+      "outward": -1,
+      "label": "Frente18 estrutural - apoio não calculado",
+      "module": "P20"
+    },
+    "PecaBancoR001": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR001 (Fundo potes/travessas a80 - hipótese18)",
+      "label": "Fundo potes/travessas a80 - hipótese18",
+      "module": "P20"
+    },
+    "PecaBancoR002": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR002 (Fundo demais setores a100 - hipótese18)",
+      "label": "Fundo demais setores a100 - hipótese18",
+      "module": "P20"
+    },
+    "PecaBancoR003": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR003 (Divisória18 contínua - centro da junta)",
+      "label": "Divisória18 contínua - centro da junta",
+      "module": "P20"
+    },
+    "PecaBancoR004": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR004 (Divisória18 contínua - centro da junta001)",
+      "label": "Divisória18 contínua - centro da junta001",
+      "module": "P20"
+    },
+    "PecaBancoR005": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR005 (Divisória18 contínua - centro da junta002)",
+      "label": "Divisória18 contínua - centro da junta002",
+      "module": "P20"
+    },
+    "PecaBancoR029": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR029 (Painel posterior de estudo18 removível - folgas3)",
+      "label": "Painel posterior de estudo18 removível - folgas3",
+      "module": "P20"
+    },
+    "PecaBancoR030": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR030 (Painel frontal de estudo18 removível - folgas3)",
+      "label": "Painel frontal de estudo18 removível - folgas3",
+      "module": "P20"
+    },
+    "Peca406AtualR31": {
+      "material": "wood",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Peca406AtualR31 (Lateral fechada18 - banco com acesso superior); 01_Programa_e_decisoes/Registro_de_decisoes.md:612",
+      "inner": "whiteTX",
+      "axis": 2,
+      "outward": 1,
+      "label": "Lateral fechada18 - banco com acesso superior",
+      "module": "P20"
+    },
+    "PecaBancoR007AtualR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR007AtualR31 (Prateleira contínua da extensão - acesso por cima)",
+      "label": "Prateleira contínua da extensão - acesso por cima",
+      "module": "P20"
+    },
+    "PecaBancoR006AtualR31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD PecaBancoR006AtualR31 (PecaBancoR006 · recorte híbrido R02 integrado)",
+      "label": "PecaBancoR006 · recorte híbrido R02 integrado",
+      "module": "P20"
+    },
+    "Ref_Apoio_B01R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Apoio_B01R31 (Apoio_B01 · híbridoR02 proposto)",
+      "label": "Apoio_B01 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Apoio_B02R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Apoio_B02R31 (Apoio_B02 · híbridoR02 proposto)",
+      "label": "Apoio_B02 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Apoio_B03R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Apoio_B03R31 (Apoio_B03 · híbridoR02 proposto)",
+      "label": "Apoio_B03 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Apoio_B04R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Apoio_B04R31 (Apoio_B04 · híbridoR02 proposto)",
+      "label": "Apoio_B04 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_frente0R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_frente0R31 (Sarrafo_frente0 · híbridoR02 proposto)",
+      "label": "Sarrafo_frente0 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_tras0R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_tras0R31 (Sarrafo_tras0 · híbridoR02 proposto)",
+      "label": "Sarrafo_tras0 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_frente1R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_frente1R31 (Sarrafo_frente1 · híbridoR02 proposto)",
+      "label": "Sarrafo_frente1 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_tras1R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_tras1R31 (Sarrafo_tras1 · híbridoR02 proposto)",
+      "label": "Sarrafo_tras1 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_frente2R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_frente2R31 (Sarrafo_frente2 · híbridoR02 proposto)",
+      "label": "Sarrafo_frente2 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_tras2R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_tras2R31 (Sarrafo_tras2 · híbridoR02 proposto)",
+      "label": "Sarrafo_tras2 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_frente3R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_frente3R31 (Sarrafo_frente3 · híbridoR02 proposto)",
+      "label": "Sarrafo_frente3 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "Ref_Sarrafo_tras3R31": {
+      "material": "whiteTX",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD Ref_Sarrafo_tras3R31 (Sarrafo_tras3 · híbridoR02 proposto)",
+      "label": "Sarrafo_tras3 · híbridoR02 proposto",
+      "module": "P20"
+    },
+    "BancoR43_Painel1": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel1 (BancoR43_Painel1)",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "BancoR43_Painel1",
+      "module": "P20"
+    },
+    "BancoR43_Almofada1": {
+      "material": "head",
+      "evidence": "R43: almofada, tecido final pendente",
+      "label": "Almofada 1 — retirar antes de abrir",
+      "module": "P20"
+    },
+    "BancoR43_Painel2": {
+      "material": "finishPending",
+      "evidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md:5; função CAD BancoR43_Painel2 (BancoR43_Painel2)",
+      "inner": "whiteTX",
+      "axis": 1,
+      "outward": 1,
+      "label": "BancoR43_Painel2",
+      "module": "P20"
+    },
+    "BancoR43_Almofada2": {
+      "material": "head",
+      "evidence": "R43: almofada, tecido final pendente",
+      "label": "Almofada 2 — retirar antes de abrir",
+      "module": "P20"
+    },
+    "Peca308": {
+      "material": "stone",
+      "evidence": "Peca308.MaterialReferencia",
+      "label": "Bancada cozinha · reserva de recortes",
+      "module": null
+    },
+    "Peca357": {
+      "material": "stone",
+      "evidence": "Peca357.MaterialReferencia",
+      "label": "Bancada lavanderia · tanque a recortar",
+      "module": null
+    },
+    "Peca399": {
+      "material": "stone",
+      "evidence": "Peca399.MaterialReferencia",
+      "label": "Bancada banheiro · cuba a recortar",
+      "module": null
+    },
+    "Peca421": {
+      "material": "head",
+      "evidence": "Peca421.MaterialReferencia",
+      "label": "Encosto do banco · reserva",
+      "module": null
+    },
+    "Peca275": {
+      "material": "#b9d0d3",
+      "evidence": "Peca275.MaterialReferencia",
+      "label": "Espelho lateral · reserva",
+      "module": null
+    },
+    "FischerFrenteR31": {
+      "material": "black",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Fischer · Frente · envelope",
+      "module": null
+    },
+    "FischerCorpoConservadorR31": {
+      "material": "black",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Fischer · CorpoConservador · envelope",
+      "module": null
+    },
+    "Peca351": {
+      "material": "black",
+      "evidence": "Peca351.MaterialReferencia",
+      "label": "ME23P - corpo documental 461x352x290; folgas separadas R17",
+      "module": null
+    },
+    "CabeceiraDoisPaineisR25": {
+      "material": "head",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Cabeceira estofada — dois painéis aprovados / envelope de estudo",
+      "module": null
+    },
+    "Peca188": {
+      "material": "#fff4cf",
+      "evidence": "Peca188.MaterialReferencia",
+      "label": "Luz frontal fixa inferior - proposta",
+      "module": null
+    },
+    "Peca189": {
+      "material": "#fff4cf",
+      "evidence": "Peca189.MaterialReferencia",
+      "label": "Luz frontal fixa superior - proposta",
+      "module": null
+    },
+    "Fechada_110Tampo": {
+      "material": "wood",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Berlin - superficie superior z790; espessura desconhecida",
+      "module": null
+    },
+    "Fechada_110Sapata": {
+      "material": "black",
+      "evidence": "R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js",
+      "label": "Sapata - projecao hipotetica 330x500; orientacao por confirmar",
+      "module": null
+    },
+    "Fechada_110Ponta_sofa": {
+      "faceRanges": [
+        [
+          0,
+          56,
+          "wood"
+        ],
+        [
+          56,
+          72,
+          "chairFabric"
+        ],
+        [
+          72,
+          84,
+          "wood"
+        ]
+      ],
+      "expectedFaces": 84,
+      "evidence": "Cadeiras Lina R30/R43: 84 faces originais, conferidas no CAD R45 e na malha do site R15.",
+      "label": "Ponta_sofa - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "module": null
+    },
+    "Fechada_110Ponta_cozinha": {
+      "faceRanges": [
+        [
+          0,
+          56,
+          "wood"
+        ],
+        [
+          56,
+          72,
+          "chairFabric"
+        ],
+        [
+          72,
+          84,
+          "wood"
+        ]
+      ],
+      "expectedFaces": 84,
+      "evidence": "Cadeiras Lina R30/R43: 84 faces originais, conferidas no CAD R45 e na malha do site R15.",
+      "label": "Ponta_cozinha - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "module": null
+    },
+    "Fechada_110Lateral": {
+      "faceRanges": [
+        [
+          0,
+          56,
+          "wood"
+        ],
+        [
+          56,
+          72,
+          "chairFabric"
+        ],
+        [
+          72,
+          84,
+          "wood"
+        ]
+      ],
+      "expectedFaces": 84,
+      "evidence": "Cadeiras Lina R30/R43: 84 faces originais, conferidas no CAD R45 e na malha do site R15.",
+      "label": "Lateral - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "module": null
+    }
+  }
+}

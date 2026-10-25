@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "files": [
+    "03_Ambientes\\Cozinha\\Rodizios_gaveta\\Selecao.json",
+    "03_Ambientes\\Cozinha\\Rodizios_gaveta\\Selecao.md",
+    "ferramentas\\site\\fabrication\\r14\\mechanisms.json",
+    "ferramentas\\site\\fabrication\\r14\\field-review.json",
+    "ferramentas\\site\\compile_technical_revision.py",
+    "04_Moveis\\Inventario_dimensional\\Gavetas\\Ferragens_quantitativo.csv",
+    "04_Moveis\\Inventario_dimensional\\Gavetas\\Resultado.html",
+    "01_Programa_e_decisoes\\Registro_de_decisoes.md",
+    "01_Programa_e_decisoes\\Painel_de_decisoes.md",
+    "_fundir\\Resumo.md",
+    "01_Programa_e_decisoes\\Pisos_e_rodapes.md",
+    "ferramentas\\site\\src\\data.js",
+    "ferramentas\\site\\build_workshop_docs.py"
+  ],
+  "scope": "Seleção aprovada e documentação corrente; CAD atualizado em cópia própria."
+}

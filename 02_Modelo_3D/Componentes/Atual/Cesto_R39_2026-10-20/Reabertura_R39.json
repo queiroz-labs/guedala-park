@@ -1,0 +1,632 @@
+{
+  "arquivo": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Cesto_R39_2026-10-20\\Guedala_Park_R39_Estudo_Cesto.FCStd",
+  "sha256": "177111d3238463b70ad09bb3d8d935ba3695489ae1d3666cbeac07f4daa65a64",
+  "R38_preservada": true,
+  "formas_comparadas": 1239,
+  "controles_finais": {
+    "Abertura": 0.0,
+    "RetiradaSaco": 0.0,
+    "EndireitarSaco": 0.0,
+    "RetiradaPainelSuperior": 0.0,
+    "RetiradaConjunto": 0.0
+  },
+  "erros": [],
+  "arquivos_brep_com_bytes_diferentes": [
+    "GavetaComumR008.Shape.brp",
+    "GavetaComumR010.Shape.brp",
+    "GavetaComumR020.Shape.brp",
+    "GavetaComumR022.Shape.brp",
+    "GavetaComumR032.Shape.brp",
+    "GavetaComumR034.Shape.brp",
+    "GavetaComumR044.Shape.brp",
+    "GavetaComumR046.Shape.brp",
+    "GavetaComumR056.Shape.brp",
+    "GavetaComumR058.Shape.brp",
+    "GavetaComumR068.Shape.brp",
+    "GavetaComumR070.Shape.brp",
+    "GavetaComumR080.Shape.brp",
+    "GavetaComumR082.Shape.brp",
+    "GavetaComumR092.Shape.brp",
+    "GavetaComumR094.Shape.brp",
+    "FerragemComumR001.Shape.brp",
+    "FerragemComumR006.Shape.brp",
+    "FerragemComumR011.Shape.brp",
+    "FerragemComumR016.Shape.brp",
+    "FerragemComumR021.Shape.brp",
+    "FerragemComumR026.Shape.brp",
+    "FerragemComumR031.Shape.brp",
+    "FerragemComumR036.Shape.brp",
+    "FerragemComumR041.Shape.brp",
+    "FerragemComumR046.Shape.brp",
+    "FerragemComumR051.Shape.brp",
+    "FerragemComumR056.Shape.brp",
+    "FerragemComumR061.Shape.brp",
+    "FerragemComumR066.Shape.brp",
+    "FerragemComumR071.Shape.brp",
+    "FerragemComumR076.Shape.brp",
+    "FerragemComumR081.Shape.brp",
+    "FerragemComumR086.Shape.brp",
+    "FerragemComumR091.Shape.brp",
+    "FerragemComumR096.Shape.brp",
+    "FerragemComumR101.Shape.brp",
+    "FerragemComumR106.Shape.brp",
+    "FerragemComumR111.Shape.brp",
+    "FerragemComumR116.Shape.brp",
+    "FerragemComumR120.Shape.brp",
+    "FerragemComumR125.Shape.brp",
+    "FerragemComumR130.Shape.brp",
+    "FerragemComumR135.Shape.brp",
+    "FerragemComumR140.Shape.brp",
+    "FerragemComumR145.Shape.brp",
+    "FerragemComumR150.Shape.brp",
+    "FerragemComumR155.Shape.brp",
+    "FerragemComumR160.Shape.brp",
+    "FerragemComumR165.Shape.brp",
+    "FerragemComumR170.Shape.brp",
+    "FerragemComumR175.Shape.brp",
+    "FerragemComumR180.Shape.brp",
+    "FerragemComumR185.Shape.brp",
+    "FerragemComumR189.Shape.brp",
+    "FerragemComumR194.Shape.brp",
+    "FerragemComumR199.Shape.brp",
+    "FerragemComumR204.Shape.brp",
+    "FerragemComumR209.Shape.brp",
+    "FerragemComumR214.Shape.brp",
+    "FerragemComumR219.Shape.brp",
+    "FerragemComumR224.Shape.brp",
+    "FerragemComumR229.Shape.brp",
+    "FerragemComumR234.Shape.brp",
+    "FerragemVizinhaR001.Shape.brp",
+    "FerragemVizinhaR006.Shape.brp",
+    "FerragemComumR239.Shape.brp",
+    "FerragemComumR244.Shape.brp"
+  ],
+  "comparacao_geometrica_brep": [
+    {
+      "nome": "GavetaComumR008.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR010.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR020.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR022.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR032.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR034.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR044.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR046.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR056.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR058.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR068.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR070.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR080.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR082.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR092.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "GavetaComumR094.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR001.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR006.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR011.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR016.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR021.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR026.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR031.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR036.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR041.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR046.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR051.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR056.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR061.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR066.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR071.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR076.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR081.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR086.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR091.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR096.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR101.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR106.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR111.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR116.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR120.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR125.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR130.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR135.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR140.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR145.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR150.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR155.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR160.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR165.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR170.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR175.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR180.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR185.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR189.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR194.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR199.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR204.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR209.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR214.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR219.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR224.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR229.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR234.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemVizinhaR001.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemVizinhaR006.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR239.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    },
+    {
+      "nome": "FerragemComumR244.Shape.brp",
+      "delta_volume_mm3": 0.0,
+      "delta_area_mm2": 0.0,
+      "delta_caixa_mm": 0.0,
+      "mesma_topologia": true,
+      "mesma_validade": true
+    }
+  ],
+  "divergencias_geometricas": [],
+  "nota": "BREPs foram reserializados ao reabrir/salvar; comparacao usa volume,area,caixa,contagens topologicas e validade. Nao e prova de identidade booleana de superficies."
+}

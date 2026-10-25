@@ -1,0 +1,226 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Equipamentos_R17_2026-10-14\\Guedala_Park_R17_Equipamentos.FCStd",
+  "persisted_micro_depth": 352.0,
+  "persisted_purifier_y": 6460.0,
+  "source_R16_unchanged": true,
+  "inherited_geometry_changes": [
+    {
+      "name": "Peca140",
+      "fields": [
+        "Placement"
+      ]
+    },
+    {
+      "name": "Peca351",
+      "fields": [
+        "Width"
+      ]
+    }
+  ],
+  "invalid_expressions": [],
+  "controls_read_only": [
+    {
+      "name": "ControlePortaR10",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR001",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR002",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR003",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR004",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR005",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR006",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR007",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR008",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR009",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR010",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR011",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR11",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR012",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR013",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR014",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR015",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR016",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR017",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR12",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR018",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR019",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControlePortaR020",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControleCorrerR14",
+      "values": {
+        "Deslocamento": 0.0
+      }
+    },
+    {
+      "name": "ControleCorrerR001",
+      "values": {
+        "Deslocamento": 0.0
+      }
+    },
+    {
+      "name": "ControleCorrerR002",
+      "values": {
+        "Deslocamento": 0.0
+      }
+    },
+    {
+      "name": "ControleCorrerR003",
+      "values": {
+        "Deslocamento": 0.0
+      }
+    },
+    {
+      "name": "ControleCestoR15",
+      "values": {
+        "Abertura": 0.0,
+        "RetiradaSaco": 0.0,
+        "EndireitarSaco": 0.0,
+        "RetiradaConjunto": 0.0,
+        "RetiradaPainelSuperior": 0.0
+      }
+    },
+    {
+      "name": "ControleBancoR16",
+      "values": {
+        "Abertura": 0.0
+      }
+    },
+    {
+      "name": "ControleBancoR001",
+      "values": {
+        "Abertura": 0.0,
+        "ElevarAlmofada": 0.0,
+        "DeslocamentoAlmofada": 0.0
+      }
+    },
+    {
+      "name": "ControleBancoR002",
+      "values": {
+        "Abertura": 0.0,
+        "ElevarAlmofada": 0.0,
+        "DeslocamentoAlmofada": 0.0
+      }
+    },
+    {
+      "name": "ControleBancoR003",
+      "values": {
+        "Abertura": 0.0,
+        "ElevarAlmofada": 0.0,
+        "DeslocamentoAlmofada": 0.0
+      }
+    }
+  ],
+  "new_boxes_valid": true
+}

@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-24",
+  "scope": "Fechamento pré-entrega; não liberação executiva",
+  "choices": {
+    "date": "2026-10-24",
+    "scope": "Escolhas explícitas de Elias; não aprovação de fabricação",
+    "cabinet_front": "Arauco Beige Matt",
+    "visible_sides": "Arauco Louro Freijó Poro",
+    "inside": "Branco TX preservado; fabricante/código e composição a especificar",
+    "lighting_kelvin": {
+      "ceiling": 3000,
+      "mirror": 4000,
+      "indirect": 3000
+    },
+    "controls": "Três grupos físicos independentes; seleção de componentes e total de material L02; instalação a compatibilizar",
+    "samples": "Conferir amostras antes de encomendar; não reabre os códigos escolhidos",
+    "sources": [
+      "Conversa de 24/10/2026: Beige Matt + Louro Freijó Poro",
+      "Conversa de 24/10/2026: ok 3000k no teto",
+      "03_Ambientes/Banheiro/Decisoes_consolidadas_2026-09-18.md"
+    ]
+  },
+  "sections": [
+    {
+      "id": "B01",
+      "name": "Gabinete inferior e manutenção",
+      "status": "Solução nominal preservada; oficina e campo pendentes",
+      "result": "BC43 com duas folhas de correr e quadro inteiro retirável por quatro M6; preservar o interior e acessos. RO25/RM026 selecionados.",
+      "next": "Provar retenção, regulagem, batentes, ferramenta dos M6 e massa do quadro; dimensionar ligação da suspensão à caixa. A porta real condiciona o percurso 20/120/330 mm. Não transformar essa condição de campo em pendência da escolha de portas.",
+      "source": "../../../04_Moveis/Avanco_pendencias/Banheiro_solucao/Detalhamento/Detalhamento.md"
+    },
+    {
+      "id": "B02",
+      "name": "Espelheiro: caixa, prateleiras e espelhos",
+      "status": "Mapa nominal novo emitido; resistência e vidro pendentes",
+      "result": "12 conjuntos Minifix nas seis interfaces; 36 operações verificadas sem colisão com o contexto ensaiado. Preservados oito apoios .711 e prateleiras560×104×18. Estudo separado salvo/reaberto; principal inalterado.",
+      "next": "Caixa-piloto, acesso da chave, torque e carga de uso; dimensionar suspensão. Candidato de adesivo: Fixa Espelho Cebrace, documentado para móveis/área úmida. Confirmar substrato revestido, cura, cordões, afastamento e retenção em porta móvel. Não transferir sem validação o detalhe de parede para a porta.",
+      "source": "Verificacao_unioes_P19.json"
+    },
+    {
+      "id": "B03",
+      "name": "Cuba, torneira, válvula e sifão",
+      "status": "Alternativa econômica continua dependente do fabricante",
+      "result": "Deca Slim L.13040.17 + Arion permanecem na base aprovada. Cornalina + Purangi HTC0757 é alternativa condicionada; o furo37 versus indicação35, vedante, espessura fixável e alavanca totalmente aberta continuam sem comprovação pública.",
+      "next": "Obter confirmação escrita/medir kit original; repetir colisões e espaço de mão. A Arion da base também precisa de desenho técnico para instalação. Válvula/sifão e saída real definem recortes; não executar o Ø100 ilustrativo antigo.",
+      "source": "../../Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md"
+    },
+    {
+      "id": "B04",
+      "name": "Ducha higiênica quente/fria",
+      "status": "Composição definida como requisito; produto ainda não selecionado",
+      "result": "Exigir misturador quente/fria completo, fechamento próprio e mangueira/ducha especificados para a condição de uso. A Deca1984.BL26.ACT.MT é ducha com registro/derivação, e a4993.BL26.ACT.MT é acabamento de monocomando; nenhum é, isoladamente, conjunto completo de mistura.",
+      "next": "Priorizar misturador externo preto fosco para evitar criar base embutida em alvenaria estrutural. Há pistas Samer C71 e Hidroshop2985PTBS, com dados incompletos; não liberar compra por anúncio. Confirmar pressão, curva vazão, temperaturas, antirretorno, kit e projeção junto ao vaso.",
+      "source": "Consultas_tecnicas.txt"
+    },
+    {
+      "id": "B05",
+      "name": "Iluminação",
+      "status": "Componentes e total de compra definidos em L02; instalação condicionada",
+      "result": "Total dos componentesR$612,64 à vista, sem frete e instalação. Teto3000 K: Galaxy Firefly9605. Espelho4000 K: mesma Cristallux COB CLX-FT331240,2×550 mm,13,2 W,IRC>90. Indireta3000 K: CLX-FT200530 SMD4,8 W/m,até2 m/9,6 W.2 fontes Opus OPS31002 e2 perfis MOV4329. Economia comparávelR$202,45 sobreL01 com fita do espelho incluída.",
+      "next": "Conferir canal/dissipação, terminações, difusão no rosto e lote das fontes. Perfil IP20 não se tornaIP65 pela fita. Posição inferior depende da torneira; cotas da indireta e instalação real ainda serão verificadas. Total instalado/fretes não cotados.",
+      "source": "Luminarias_selecao_L02.html"
+    },
+    {
+      "id": "B06",
+      "name": "Água quente oculta",
+      "status": "Direção estética recuperada; projeto hidráulico condicionado",
+      "result": "Faixa discreta no canto do teto e descida junto ao gabinete já eram a escolha estética de Elias. Não reapresentar quatro rotas como se nenhuma preferência existisse. O E21 precisa de3,9L/min pelo aquecedor para ligar.",
+      "next": "Dimensionar ramal privativo antes dos controles do banho, quente/fria, suportação, isolamento e acessos. Nada apoiado no forro. Geometria de origem, vazões/pressões e passagem real só serão verificadas no imóvel. O cálculo mostra por que mistura com fria aumenta a vazão total necessária.",
+      "source": "Hidraulica_cenarios.json"
+    },
+    {
+      "id": "B07",
+      "name": "Box e prateleira de pedra",
+      "status": "Diretriz de cotação; abertura executiva depende do imóvel",
+      "result": "Preservar vidro transparente, perfis pretos e prateleira Branco Itaúnas sem nicho. Proposta para cotação: frontal com uma folha fixa e uma de correr, evitando giro sobre vaso/circulação. Não é nova aprovação pessoal de modelo ou compra.",
+      "next": "Vidraceiro deve definir kit completo, vidro, retenção, vedação e vão efetivo após medição. Referência histórica1,24×2,10 não vira kit1,20×1,90. Conferir enchimento, janela, ducha, pega, retirada da louça e prateleira sem perfurar instalações.",
+      "source": "../../../05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md"
+    },
+    {
+      "id": "B08",
+      "name": "Marcenaria e bordas",
+      "status": "Códigos externos escolhidos em24/10; processo construtivo pendente",
+      "result": "Frentes Arauco Beige Matt; laterais aparentes Arauco Louro Freijó Poro; interiores Branco TX. Louro Poro tem leve brilho acetinado; não chamá-lo de madeira fosca. O acabamento fosco escolhido aplica-se às frentes Beige Matt.",
+      "next": "Conferir amostras; especificar chapa adequada ao ambiente e espessura acabada18, selagem de arestas/cavas/furos e processo equilibrado das faces. A página do padrão não comprova chapa Beige/BrancoTX pronta nem classe resistente à umidade. Não engrossar/reduzir caixa automaticamente.",
+      "source": "Escolhas.json"
+    },
+    {
+      "id": "B09",
+      "name": "Pisos, revestimentos, pintura e pedra",
+      "status": "Escolhas principais preservadas; detalhes de execução pendentes",
+      "result": "Uma parede verde no box: Vivant Sauge; piso Travertino Reale Greige; Branco Itaúnas; Algodão Egípcio e teto branco. Não recolorir as demais paredes do box de verde. Não copiar a altura da cozinha para a cuba do banheiro.",
+      "next": "Conferir versões Satin/EXT, indicação para área, revestimento claro da parede da janela, paginação, rejunte, impermeabilização/caimento e encontros. Não é só medir quantidade: especificações e compatibilidade ainda precisam de projeto.",
+      "source": "../Decisoes_consolidadas_2026-09-18.md"
+    },
+    {
+      "id": "B10",
+      "name": "Louça existente, registros e acessórios",
+      "status": "Preferências preservadas; produto e implantação em aberto",
+      "result": "O vaso entregue pode permanecer; Celite VIP é referência de eventual substituição, não compra obrigatória. Livo Black Matte do banho já escolhido. Acessórios pretos discretos; proposta de orçamento:1papeleira,1toalheiro de rosto e2ganchos.",
+      "next": "Identificar bases reais dos registros antes de comprar acabamentos. Definir acessórios documentados e posições por alcance/abertura de portas; não furar impermeabilização ou faixa hidráulica por coordenadas do CAD.",
+      "source": "../Decisoes_consolidadas_2026-09-18.md"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Arauco Beige Matt",
+      "url": "https://arauco.com.br/produto/beige/"
+    },
+    {
+      "title": "Arauco Louro Freijó Poro",
+      "url": "https://arauco.com.br/produto/louro-freijo/"
+    },
+    {
+      "title": "Rinnai E21: especificações oficiais",
+      "url": "https://www.rinnai.com.br/aquecedores-a-gas/linha-digital/e21-1"
+    },
+    {
+      "title": "Rometal RO25: ficha e manual",
+      "url": "https://www.rometal.com.br/sistemas/solucoes-para-armarios-compactos/s/na-base-sobrepostos-1/ro-25"
+    },
+    {
+      "title": "Cebrace: adesivo para móveis/área úmida",
+      "url": "https://www.cebrace.com.br/wp-content/uploads/2023/12/Catalogo-de-Produtos-Acessorios-e-Componentes-Cebrace-dez-23.pdf"
+    },
+    {
+      "title": "Cebrace: manual de fixação em parede",
+      "url": "https://blob.cebrace.com.br/cebrace/wp-content/uploads/2025/09/10526_Atualizacao-Interiores-Manual-de-Fixacao-de-Espelhos_150x210mm_v5.pdf"
+    },
+    {
+      "title": "Pingoo Purangi baixa",
+      "url": "https://www.pingoo.casa/torneira-para-banheiro-misturador-monocomando-purangi-baixa-preto-preto"
+    },
+    {
+      "title": "Deca: ducha com registro1984.BL26.ACT.MT",
+      "url": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/duchas-higienicas/ducha-higienica-com-registro-e-derivacao/ducha-higienica-com-registro-e-derivacao-level-black-matte-1984bl26actmt"
+    },
+    {
+      "title": "Deca: acabamento4993.BL26.ACT.MT",
+      "url": "https://www.deca.com.br/ambientes/acabamentos-e-instalacao/acabamentos/acabamento-para-monocomando/acabamento-monocomando-para-ducha-higienica-black-matte4993bl26actmt"
+    },
+    {
+      "title": "Pista comercial SamerC71; manual não localizado",
+      "url": "https://www.leroymerlin.com.br/ducha-higienica-com-misturador-externo-samer-metais-1-4-de-volta-preto-c71_1571810518"
+    },
+    {
+      "title": "Pista comercial monocomando2985PTBS; pressão não documentada",
+      "url": "https://www.hidroshop.com.br/metais-sanitarios/duchas-higienicas/misturador-monocomando-ducha-higienica-externo-preto-fosco-2985ptbs"
+    },
+    {
+      "title": "teto",
+      "url": "https://galaxyled.com.br/produtos?product=PLAFON+FIREFLY+25W+3000K+REDONDO&uniqMod=000108&uniqProd=0000025889&uniqTp=00080"
+    },
+    {
+      "title": "espelho",
+      "url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-4000k-1200lm-m-ip65-480led-m-irc-90"
+    },
+    {
+      "title": "indireta",
+      "url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-3000k-1200lm-m-ip65-480led-m-irc-90"
+    },
+    {
+      "title": "perfil",
+      "url": "https://nordecor.com.br/produto/perfil-de-sobrepor-mov-17x7mm/"
+    },
+    {
+      "title": "fonte20",
+      "url": "https://www.meanwell.com/Upload/PDF/LPV-20/LPV-20-SPEC.PDF"
+    },
+    {
+      "title": "fonte35",
+      "url": "https://www.meanwell.com/Upload/PDF/LPV-35/LPV-35-SPEC.PDF"
+    }
+  ],
+  "whole_bathroom_resolved": false,
+  "reason": "Faltam dados de produtos, projeto de suspensão/cargas, pré-montagem e levantamento real; não declarar que tudo depende somente das chaves."
+}

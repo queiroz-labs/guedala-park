@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "releaseDate": "2026-10-25",
+  "projectRevision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
+  "projectDate": "25 outubro 2026",
+  "cadRevision": "R52",
+  "cadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+  "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cadReadme": "02_Modelo_3D/README.md",
+  "cadEvidence": [
+    "Verificacao_R52.json",
+    "Verificacao_posicoes_R52.json",
+    "Verificacao_movimentos_R52.json",
+    "Condicoes_operacao_R52.json",
+    "Diferencas_R51_R52.json"
+  ],
+  "packageRevision": "R19",
+  "packageDirectory": "06_Entregas/Publicacao",
+  "packageFile": "Guedala_Park_R19.zip",
+  "archiveRoot": "Guedala_Park_R19",
+  "fabricationRevision": "R14",
+  "appearanceRevision": "R16",
+  "lightingRevision": "CB02",
+  "publicationStatus": "publication_authorized",
+  "lastPublishedCadRevision": "R52",
+  "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
+  "lastPublishedPackageRevision": "R18",
+  "notes": "R52 verificada, com geometria de referência e fabricação condicionada. O R18 reúne fichas atuais e estudos separados de corte, ligações, instalação e cinemática; as propostas não foram incorporadas automaticamente ao modelo. Piano e trava permanecem a direção P20, com composição e fixação ainda a detalhar. Nenhuma capacidade ou medida de campo foi presumida.",
+  "technicalDocuments": [
+    {
+      "id": "avancos-pendencias",
+      "title": "Avanços e pendências após a revisão integral",
+      "room": "all",
+      "path": "04_Moveis/Proximas_decisoes/README.md",
+      "summary": "Próximas decisões separadas entre cálculo, produto/oficina e levantamento real; estudos mantidos fora da geometria principal.",
+      "files": []
+    },
+    {
+      "id": "corte-formatos",
+      "title": "Corte preliminar e formatos de chapa",
+      "room": "all",
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "summary": "249 painéis triados e36 propostas separadas; planos preliminares não são compra, corte ou orientação de veio liberados.",
+      "files": [
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Arranjos_preliminares.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Fontes_e_hashes.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Lista_base_249.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Parametros.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Peças_sem_definicao_suficiente.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_preliminares.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Propostas_36.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Requisito_fundo_P01.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.csv",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo_kits.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Resumo.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Triagem_formatos.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Verificacao.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G01_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G02_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_02.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_03.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_04.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_05.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G03_chapa_06.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G04_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_02.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_02.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg"
+      ]
+    },
+    {
+      "id": "p01-p03-ligacoes",
+      "title": "P01/P03: caixa, apoios e ligações",
+      "room": "quarto",
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+      "summary": "Interfaces e equilíbrio nominal; caixa, juntas, rigidez e caminho até os apoios continuam condicionados.",
+      "files": [
+        "04_Moveis/Proximas_decisoes/P01_P03/Envelopes_superiores.csv",
+        "04_Moveis/Proximas_decisoes/P01_P03/Geometria_interfaces.json",
+        "04_Moveis/Proximas_decisoes/P01_P03/Interfaces_nominais.json",
+        "04_Moveis/Proximas_decisoes/P01_P03/Ligacoes_exemplos.csv",
+        "04_Moveis/Proximas_decisoes/P01_P03/Resultados_caixa.json",
+        "04_Moveis/Proximas_decisoes/P01_P03/Verificacao_caixa.json"
+      ]
+    },
+    {
+      "id": "micro-p16-instalacao",
+      "title": "Instalação: micro-ondas e interface das gavetas",
+      "room": "cozinha,escritorio",
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+      "summary": "Alternativa separada para300mm sobre ME23P, sem adoção automática; dados e ensaios de produto/oficina ainda necessários.",
+      "files": [
+        "04_Moveis/Proximas_decisoes/Instalacao_e_P16/Micro_estudo.json",
+        "04_Moveis/Proximas_decisoes/Instalacao_e_P16/ME23P_folga300_ESTUDO_NAO_ADOTADO.FCStd"
+      ]
+    },
+    {
+      "id": "cinematica-r52",
+      "title": "Cinemática consultável da R52",
+      "room": "all",
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+      "summary": "Fotografia e verificações numéricas da R52; transformação nominal não certifica mecanismo comercial, resistência ou colisão física.",
+      "files": [
+        "04_Moveis/Proximas_decisoes/Cinematica/Extracao.json",
+        "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
+        "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
+        "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json"
+      ]
+    }
+  ]
+}

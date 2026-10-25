@@ -1,0 +1,528 @@
+[
+  {
+    "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Gavetas_R05_2026-10-13\\Guedala_Park_R05_Caixas_Gavetas.FCStd",
+    "total_global_selection": 27,
+    "whole_walls_count": 27,
+    "cut_walls_count": 0,
+    "selected": [
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007",
+        "scope": "whole_wall"
+      }
+    ]
+  },
+  {
+    "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Padronizacao_R08_2026-10-14\\Guedala_Park_R08_Gavetas_Comuns.FCStd",
+    "total_global_selection": 75,
+    "whole_walls_count": 27,
+    "cut_walls_count": 27,
+    "selected": [
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca010",
+        "label": "Parede em corte · Quarto",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca012",
+        "label": "Parede em corte · Quarto001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca014",
+        "label": "Parede em corte · Quarto002",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca016",
+        "label": "Parede em corte · Quarto003",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca018",
+        "label": "Parede em corte · Quarto004",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca020",
+        "label": "Parede em corte · Escritório",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca022",
+        "label": "Parede em corte · Escritório001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca024",
+        "label": "Parede em corte · Escritório002",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca026",
+        "label": "Parede em corte · Escritório003",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca028",
+        "label": "Parede em corte · Escritório004",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca030",
+        "label": "Parede em corte · Escritório005",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca032",
+        "label": "Parede em corte · Sala e jantar",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca034",
+        "label": "Parede em corte · Sala e jantar001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca036",
+        "label": "Parede em corte · Sala e jantar002",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca038",
+        "label": "Parede em corte · Cozinha",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca040",
+        "label": "Parede em corte · Cozinha001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca042",
+        "label": "Parede em corte · Lavanderia",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca044",
+        "label": "Parede em corte · Lavanderia001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca046",
+        "label": "Parede em corte · Banheiro",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca048",
+        "label": "Parede em corte · Banheiro001",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca050",
+        "label": "Parede em corte · Banheiro002",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca052",
+        "label": "Parede em corte · Banheiro003",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca054",
+        "label": "Parede em corte · Banheiro004",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca056",
+        "label": "Parede em corte · Banheiro005",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca058",
+        "label": "Parede em corte · Quarto005",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca060",
+        "label": "Parede em corte · Quarto006",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007",
+        "scope": "whole_wall"
+      },
+      {
+        "name": "Peca062",
+        "label": "Parede em corte · Quarto007",
+        "scope": "cut_wall"
+      },
+      {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca093",
+        "label": "Mesa extensível com pedestal fixo002",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca094",
+        "label": "Mesa extensível com pedestal fixo003",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca095",
+        "label": "Mesa extensível com pedestal fixo004",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca097",
+        "label": "Mesa extensível com pedestal fixo006",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca098",
+        "label": "Mesa extensível com pedestal fixo007",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca102",
+        "label": "Cama queen existente",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca103",
+        "label": "Cama queen existente001",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca104",
+        "label": "Cama queen existente002",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca105",
+        "label": "Cama queen existente003",
+        "scope": "extra"
+      },
+      {
+        "name": "Peca106",
+        "label": "Cama queen existente004",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R001",
+        "label": "Parede esquerda bandeja long",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R002",
+        "label": "Parede direita bandeja long",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R003",
+        "label": "Parede frontal bandeja long",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R004",
+        "label": "Parede posterior bandeja long",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R011",
+        "label": "Parede esquerda bandeja wide",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R012",
+        "label": "Parede direita bandeja wide",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R013",
+        "label": "Parede frontal bandeja wide",
+        "scope": "extra"
+      },
+      {
+        "name": "OrganizadorG2R014",
+        "label": "Parede posterior bandeja wide",
+        "scope": "extra"
+      }
+    ]
+  }
+]

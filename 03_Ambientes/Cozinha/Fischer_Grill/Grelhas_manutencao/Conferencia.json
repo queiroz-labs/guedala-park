@@ -1,0 +1,1935 @@
+{
+  "date": "2026-10-20",
+  "reference_hashes_before": {
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Apoios_ventilacao\\Apoios_Ventilacao_R01.FCStd": "f0798cf69296aa98bf24ef4a192411e973bb32365330b6702d3637873979fe35"
+  },
+  "reference_hashes_after": {
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
+    "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Apoios_ventilacao\\Apoios_Ventilacao_R01.FCStd": "f0798cf69296aa98bf24ef4a192411e973bb32365330b6702d3637873979fe35"
+  },
+  "grille": {
+    "quantity": 2,
+    "outer_mm": [
+      600,
+      90
+    ],
+    "candidate_thickness_mm": 1.5,
+    "candidate_material": "inox304; acabamento final a compatibilizar",
+    "slot_count": 12,
+    "slot_mm": [
+      134,
+      17
+    ],
+    "corner_radius_mm": 3,
+    "slot_x_mm": [
+      23,
+      163,
+      303,
+      443
+    ],
+    "slot_z_mm": [
+      17,
+      36.5,
+      56
+    ],
+    "mount_holes_x_mm": [
+      100,
+      500
+    ],
+    "mount_holes_z_mm": [
+      7.5,
+      82.5
+    ],
+    "mount_hole_diameter_mm": 4.5,
+    "free_area_cm2": 272.43292,
+    "project_minimum_cm2": 252,
+    "free_area_from_cad_cm2": 272.43292,
+    "margin_percent": 8.1083,
+    "example_slots_0_2mm_smaller_area_cm2": 268.81372,
+    "limit": "Área ideal da face, sem tela/guarnição invadindo rasgos. Tolerância simulada não é especificação industrial nem ensaio térmico."
+  },
+  "mounting": [
+    {
+      "grille": "Inferior",
+      "plane_front_y_mm": 6406.5,
+      "z_range_mm": [
+        15,
+        105
+      ],
+      "fixing_x_mm": [
+        3026.5,
+        3426.5
+      ],
+      "fixing_z_mm": [
+        22.5,
+        97.5
+      ],
+      "rail_z_ranges_mm": [
+        [
+          12,
+          30
+        ],
+        [
+          90,
+          108
+        ]
+      ]
+    },
+    {
+      "grille": "Superior",
+      "plane_front_y_mm": 6402.5,
+      "z_range_mm": [
+        690,
+        780
+      ],
+      "fixing_x_mm": [
+        3026.5,
+        3426.5
+      ],
+      "fixing_z_mm": [
+        697.5,
+        772.5
+      ],
+      "rail_z_ranges_mm": [
+        [
+          687,
+          705
+        ],
+        [
+          765,
+          783
+        ]
+      ]
+    }
+  ],
+  "solid_pair_count": 195,
+  "solid_checks": [
+    {
+      "a": "R30_Peca134",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca134",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca305",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca306",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca308",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca152",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "Frente",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R30_Peca357",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "CorpoConservador",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Frente",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "BasePlana",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CorpoConservador",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ApoioEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "BasePlana",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ApoioCentral",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioEsquerdo",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ApoioDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioCentral",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ContramarcoEsquerdo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ApoioDireito",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "ContramarcoDireito",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoEsquerdo",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "Travessa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ContramarcoDireito",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "GrelhaInferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Travessa",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaInferior",
+      "b": "ReguaInferiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaInferior",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaInferior",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaInferior",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaInferior",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorBaixa",
+      "b": "ReguaInferiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorBaixa",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorBaixa",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorBaixa",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorAlta",
+      "b": "GrelhaSuperior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorAlta",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaInferiorAlta",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaSuperior",
+      "b": "ReguaSuperiorBaixa",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "GrelhaSuperior",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ReguaSuperiorBaixa",
+      "b": "ReguaSuperiorAlta",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "solid_overlaps": [],
+  "air_connected_solids": 1,
+  "air_overlaps_mm3": {
+    "R30_Peca134": 0.0,
+    "R30_Peca305": 0.0,
+    "R30_Peca306": 0.0,
+    "R30_Peca308": 0.0,
+    "R30_Peca152": 0.0,
+    "R30_Peca357": 0.0,
+    "Frente": 0.0,
+    "CorpoConservador": 0.0,
+    "BasePlana": 0.0,
+    "ApoioEsquerdo": 0.0,
+    "ApoioCentral": 0.0,
+    "ApoioDireito": 0.0,
+    "ContramarcoEsquerdo": 0.0,
+    "ContramarcoDireito": 0.0,
+    "Travessa": 0.0,
+    "GrelhaInferior": 0.0,
+    "ReguaInferiorBaixa": 0.0,
+    "ReguaInferiorAlta": 0.0,
+    "GrelhaSuperior": 0.0,
+    "ReguaSuperiorBaixa": 0.0,
+    "ReguaSuperiorAlta": 0.0,
+    "Cooktop131": 0.0
+  },
+  "withdrawal_translation_mm": 600,
+  "withdrawal_overlaps_new_and_refs_mm3": {
+    "R30_Peca134": 0.0,
+    "R30_Peca305": 0.0,
+    "R30_Peca306": 0.0,
+    "R30_Peca308": 0.0,
+    "R30_Peca152": 0.0,
+    "R30_Peca357": 0.0,
+    "BasePlana": 0.0,
+    "ApoioEsquerdo": 0.0,
+    "ApoioCentral": 0.0,
+    "ApoioDireito": 0.0,
+    "ContramarcoEsquerdo": 0.0,
+    "ContramarcoDireito": 0.0,
+    "Travessa": 0.0,
+    "GrelhaInferior": 0.0,
+    "ReguaInferiorBaixa": 0.0,
+    "ReguaInferiorAlta": 0.0,
+    "GrelhaSuperior": 0.0,
+    "ReguaSuperiorBaixa": 0.0,
+    "ReguaSuperiorAlta": 0.0
+  },
+  "native_region_count": 38,
+  "native_hits": [],
+  "left_neighbor_inventory": [
+    {
+      "name": "Peca006",
+      "label": "floor006",
+      "bbox": [
+        0.0,
+        5450.0,
+        -50.0,
+        3520.0,
+        7000.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Peca039",
+      "label": "Parede · Cozinha001",
+      "bbox": [
+        -100.0,
+        7000.0,
+        0.0,
+        4850.0,
+        7100.0,
+        2570.0
+      ]
+    },
+    {
+      "name": "Peca040",
+      "label": "Parede em corte · Cozinha001",
+      "bbox": [
+        -100.0,
+        7000.0,
+        0.0,
+        4850.0,
+        7100.0,
+        320.0
+      ]
+    },
+    {
+      "name": "Peca135",
+      "label": "Cuba Dora + torneira Apurema",
+      "bbox": [
+        2380.0,
+        6500.0,
+        900.0,
+        2810.0,
+        6870.0,
+        926.0
+      ]
+    },
+    {
+      "name": "Peca276",
+      "label": "Lateral direita019",
+      "bbox": [
+        2902.0,
+        6410.0,
+        180.0,
+        2920.0,
+        7000.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca277",
+      "label": "Lateral esquerda003",
+      "bbox": [
+        2270.0,
+        6410.0,
+        180.0,
+        2288.0,
+        7000.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca278",
+      "label": "Fundo003",
+      "bbox": [
+        2288.0,
+        6982.0,
+        198.0,
+        2902.0,
+        7000.0,
+        882.0
+      ]
+    },
+    {
+      "name": "Peca279",
+      "label": "Base002",
+      "bbox": [
+        2288.0,
+        6410.0,
+        180.0,
+        2902.0,
+        6982.0,
+        198.0
+      ]
+    },
+    {
+      "name": "Peca280",
+      "label": "Prateleira de estudo · hidráulica a recortar",
+      "bbox": [
+        2288.0,
+        6410.0,
+        482.0,
+        2902.0,
+        6982.0,
+        500.0
+      ]
+    },
+    {
+      "name": "Peca281",
+      "label": "Frente 001",
+      "bbox": [
+        2596.0,
+        6390.0,
+        181.0,
+        2918.0,
+        6408.0,
+        899.0
+      ]
+    },
+    {
+      "name": "Peca282",
+      "label": "Frente 002",
+      "bbox": [
+        2272.0,
+        6390.0,
+        181.0,
+        2594.0,
+        6408.0,
+        899.0
+      ]
+    },
+    {
+      "name": "Peca283",
+      "label": "Lateral direita020",
+      "bbox": [
+        2252.0,
+        6410.0,
+        180.0,
+        2270.0,
+        7000.0,
+        900.0
+      ]
+    },
+    {
+      "name": "Peca285",
+      "label": "Fundo004",
+      "bbox": [
+        1669.0,
+        6982.0,
+        198.0,
+        2252.0,
+        7000.0,
+        882.0
+      ]
+    },
+    {
+      "name": "Peca286",
+      "label": "Base003",
+      "bbox": [
+        1669.0,
+        6410.0,
+        180.0,
+        2252.0,
+        6982.0,
+        198.0
+      ]
+    },
+    {
+      "name": "Peca287",
+      "label": "Frente · G3 · mantimentos",
+      "bbox": [
+        1652.0,
+        6390.0,
+        181.0,
+        2269.0,
+        6408.0,
+        577.0
+      ]
+    },
+    {
+      "name": "Peca288",
+      "label": "Fundo da caixa004",
+      "bbox": [
+        1690.0,
+        6430.0,
+        229.0,
+        2231.0,
+        6890.0,
+        244.0
+      ]
+    },
+    {
+      "name": "Peca289",
+      "label": "Lateral da caixa008",
+      "bbox": [
+        2231.0,
+        6415.0,
+        217.0,
+        2246.0,
+        6905.0,
+        517.0
+      ]
+    },
+    {
+      "name": "Peca291",
+      "label": "Travessa da caixa008",
+      "bbox": [
+        1690.0,
+        6415.0,
+        229.0,
+        2231.0,
+        6430.0,
+        517.0
+      ]
+    },
+    {
+      "name": "Peca292",
+      "label": "Travessa da caixa009",
+      "bbox": [
+        1690.0,
+        6890.0,
+        229.0,
+        2231.0,
+        6905.0,
+        517.0
+      ]
+    },
+    {
+      "name": "Peca293",
+      "label": "Frente · G2 · utensílios",
+      "bbox": [
+        1652.0,
+        6390.0,
+        581.0,
+        2269.0,
+        6408.0,
+        737.0
+      ]
+    },
+    {
+      "name": "Peca294",
+      "label": "Fundo da caixa005",
+      "bbox": [
+        1690.0,
+        6430.0,
+        613.0,
+        2231.0,
+        6890.0,
+        628.0
+      ]
+    },
+    {
+      "name": "Peca295",
+      "label": "Lateral da caixa010",
+      "bbox": [
+        2231.0,
+        6415.0,
+        601.0,
+        2246.0,
+        6905.0,
+        701.0
+      ]
+    },
+    {
+      "name": "Peca297",
+      "label": "Travessa da caixa010",
+      "bbox": [
+        1690.0,
+        6415.0,
+        613.0,
+        2231.0,
+        6430.0,
+        701.0
+      ]
+    },
+    {
+      "name": "Peca298",
+      "label": "Travessa da caixa011",
+      "bbox": [
+        1690.0,
+        6890.0,
+        613.0,
+        2231.0,
+        6905.0,
+        701.0
+      ]
+    },
+    {
+      "name": "Peca299",
+      "label": "Frente · G1 · talheres",
+      "bbox": [
+        1652.0,
+        6390.0,
+        741.0,
+        2269.0,
+        6408.0,
+        897.0
+      ]
+    },
+    {
+      "name": "Peca300",
+      "label": "Fundo da caixa006",
+      "bbox": [
+        1690.0,
+        6430.0,
+        773.0,
+        2231.0,
+        6890.0,
+        788.0
+      ]
+    },
+    {
+      "name": "Peca301",
+      "label": "Lateral da caixa012",
+      "bbox": [
+        2231.0,
+        6415.0,
+        761.0,
+        2246.0,
+        6905.0,
+        841.0
+      ]
+    },
+    {
+      "name": "Peca303",
+      "label": "Travessa da caixa012",
+      "bbox": [
+        1690.0,
+        6415.0,
+        773.0,
+        2231.0,
+        6430.0,
+        841.0
+      ]
+    },
+    {
+      "name": "Peca304",
+      "label": "Travessa da caixa013",
+      "bbox": [
+        1690.0,
+        6890.0,
+        773.0,
+        2231.0,
+        6905.0,
+        841.0
+      ]
+    },
+    {
+      "name": "Peca308",
+      "label": "Bancada cozinha · reserva de recortes",
+      "bbox": [
+        1651.0,
+        6370.0,
+        900.0,
+        3520.0,
+        7000.0,
+        920.0
+      ]
+    },
+    {
+      "name": "Peca309",
+      "label": "Frente · Gaveta baixa",
+      "bbox": [
+        1674.0,
+        6470.0,
+        39.0,
+        2897.0,
+        6488.0,
+        145.0
+      ]
+    },
+    {
+      "name": "Peca310",
+      "label": "Fundo da caixa007",
+      "bbox": [
+        1690.5,
+        6495.0,
+        59.0,
+        2880.5,
+        6937.0,
+        74.0
+      ]
+    },
+    {
+      "name": "Peca311",
+      "label": "Lateral da caixa014",
+      "bbox": [
+        2865.5,
+        6495.0,
+        74.0,
+        2880.5,
+        6937.0,
+        159.0
+      ]
+    },
+    {
+      "name": "Peca313",
+      "label": "Travessa da caixa014",
+      "bbox": [
+        1705.5,
+        6495.0,
+        74.0,
+        2865.5,
+        6510.0,
+        159.0
+      ]
+    },
+    {
+      "name": "Peca314",
+      "label": "Travessa da caixa015",
+      "bbox": [
+        1705.5,
+        6922.0,
+        74.0,
+        2865.5,
+        6937.0,
+        159.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR13",
+      "label": "Frente baixa preservada1223x106 - recuo80",
+      "bbox": [
+        1674.0,
+        6470.0,
+        39.0,
+        2897.0,
+        6488.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR001",
+      "label": "Fundo18 sobre rodas - proposta",
+      "bbox": [
+        1674.0,
+        6488.0,
+        39.0,
+        2897.0,
+        6930.0,
+        57.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR002",
+      "label": "Lateral18 baixa - proposta",
+      "bbox": [
+        2879.0,
+        6506.0,
+        57.0,
+        2897.0,
+        6912.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR004",
+      "label": "Parede frente/trás18 baixa - proposta",
+      "bbox": [
+        1674.0,
+        6488.0,
+        57.0,
+        2897.0,
+        6506.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR005",
+      "label": "Parede frente/trás18 baixa - proposta001",
+      "bbox": [
+        1674.0,
+        6912.0,
+        57.0,
+        2897.0,
+        6930.0,
+        145.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR006",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese",
+      "bbox": [
+        2836.5,
+        6528.0,
+        37.0,
+        2857.5,
+        6568.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR007",
+      "label": "Garfo simplificado - NÃO desenho executivo",
+      "bbox": [
+        2855.5,
+        6522.0,
+        15.0,
+        2857.5,
+        6534.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR008",
+      "label": "Garfo simplificado - NÃO desenho executivo001",
+      "bbox": [
+        2836.5,
+        6522.0,
+        15.0,
+        2838.5,
+        6534.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR009",
+      "label": "Eixo simplificado - hipótese",
+      "bbox": [
+        2834.5,
+        6524.536,
+        11.0,
+        2859.5,
+        6531.464,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR010",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado",
+      "bbox": [
+        2840.25,
+        6502.019,
+        -15.0,
+        2853.75,
+        6553.981,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR011",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese001",
+      "bbox": [
+        2275.0,
+        6528.0,
+        37.0,
+        2296.0,
+        6568.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR012",
+      "label": "Garfo simplificado - NÃO desenho executivo002",
+      "bbox": [
+        2294.0,
+        6522.0,
+        15.0,
+        2296.0,
+        6534.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR013",
+      "label": "Garfo simplificado - NÃO desenho executivo003",
+      "bbox": [
+        2275.0,
+        6522.0,
+        15.0,
+        2277.0,
+        6534.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR014",
+      "label": "Eixo simplificado - hipótese001",
+      "bbox": [
+        2273.0,
+        6524.536,
+        11.0,
+        2298.0,
+        6531.464,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR015",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado001",
+      "bbox": [
+        2278.75,
+        6502.019,
+        -15.0,
+        2292.25,
+        6553.981,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR021",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese003",
+      "bbox": [
+        2836.5,
+        6868.0,
+        37.0,
+        2857.5,
+        6908.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR022",
+      "label": "Garfo simplificado - NÃO desenho executivo006",
+      "bbox": [
+        2855.5,
+        6862.0,
+        15.0,
+        2857.5,
+        6874.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR023",
+      "label": "Garfo simplificado - NÃO desenho executivo007",
+      "bbox": [
+        2836.5,
+        6862.0,
+        15.0,
+        2838.5,
+        6874.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR024",
+      "label": "Eixo simplificado - hipótese003",
+      "bbox": [
+        2834.5,
+        6864.536,
+        11.0,
+        2859.5,
+        6871.464,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR025",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado003",
+      "bbox": [
+        2840.25,
+        6842.019,
+        -15.0,
+        2853.75,
+        6893.981,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR026",
+      "label": "Chapa40x21 - furos de referência, espessura2 hipótese004",
+      "bbox": [
+        2275.0,
+        6868.0,
+        37.0,
+        2296.0,
+        6908.0,
+        39.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR027",
+      "label": "Garfo simplificado - NÃO desenho executivo008",
+      "bbox": [
+        2294.0,
+        6862.0,
+        15.0,
+        2296.0,
+        6874.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR028",
+      "label": "Garfo simplificado - NÃO desenho executivo009",
+      "bbox": [
+        2275.0,
+        6862.0,
+        15.0,
+        2277.0,
+        6874.0,
+        37.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR029",
+      "label": "Eixo simplificado - hipótese004",
+      "bbox": [
+        2273.0,
+        6864.536,
+        11.0,
+        2298.0,
+        6871.464,
+        17.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR030",
+      "label": "Roda30 - material silicone exigido, NÃO confirmado004",
+      "bbox": [
+        2278.75,
+        6842.019,
+        -15.0,
+        2292.25,
+        6893.981,
+        30.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR036",
+      "label": "Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada",
+      "bbox": [
+        2902.0,
+        6470.0,
+        0.0,
+        2920.0,
+        7000.0,
+        180.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR038",
+      "label": "Guia lateral simples3 + corrida2 - proposta sem apoio vertical",
+      "bbox": [
+        2899.0,
+        6506.0,
+        85.0,
+        2902.0,
+        6912.0,
+        115.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR040",
+      "label": "Cabo fixo1 - referência1125",
+      "bbox": [
+        1723.0,
+        6536.0,
+        57.0,
+        2848.0,
+        6557.0,
+        78.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR041",
+      "label": "Cabo fixo2 - referência1125",
+      "bbox": [
+        1723.0,
+        6571.0,
+        57.0,
+        2848.0,
+        6592.0,
+        78.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR042",
+      "label": "Cabeça vassoura retirada - referência315x190x65",
+      "bbox": [
+        2514.0,
+        6646.0,
+        57.0,
+        2829.0,
+        6836.0,
+        122.0
+      ]
+    },
+    {
+      "name": "PecaBaixaR043",
+      "label": "Cabeça rodo retirada - referência325x95x35",
+      "bbox": [
+        2124.0,
+        6676.0,
+        57.0,
+        2449.0,
+        6771.0,
+        92.0
+      ]
+    }
+  ],
+  "limits": [
+    "Não valida fixação de réguas/insertos ou capacidade de apoio; apenas reserva paraM4 retido e quatro furos por grelha.",
+    "Retirada600 é cenário de serviço com envelopes: não mede cabo real, puxador, mão, carrinho, pessoa, gás, porta real ou circulação de obra.",
+    "A região usa apenasPeca*. Forno e travessa históricos excluídos. Não é auditoria global do apartamento.",
+    "Não se escolheu acesso pelo módulo vizinho nem se reservou uma passagem em gavetas. Posição real de tomada/registro e rota continuam pendentes.",
+    "Sem confirmação nova de datums Fischer ou projeção inferior KE4GC. Envelopes conservadores daR01 preservados."
+  ]
+}

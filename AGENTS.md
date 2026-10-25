@@ -2,11 +2,9 @@
 
 Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Seguir sempre, sem precisar pedir.
 
-Enquanto a reorganização descrita em [PLANO_REORGANIZACAO.md](PLANO_REORGANIZACAO.md) não for executada, as pastas ainda estão na estrutura antiga: aplique estas regras a tudo o que for **novo** e não crie mais pastas no padrão antigo.
-
 ## 1. Comece pela fonte de verdade
 
-- Leia primeiro `ESTADO_ATUAL.md` (hoje: `01_Projeto/Estado_atual.md`). Ele diz qual versão vale de cada coisa.
+- Leia primeiro [ESTADO_ATUAL.md](ESTADO_ATUAL.md). Ele diz qual versão vale de cada coisa.
 - Depois leia só o README da área em que vai trabalhar. Não percorra a pasta inteira.
 - Em caso de divergência, vale o `ESTADO_ATUAL.md`. Se ele estiver errado, corrija-o.
 
@@ -33,7 +31,7 @@ Enquanto a reorganização descrita em [PLANO_REORGANIZACAO.md](PLANO_REORGANIZA
 
 ## 5. Ferramentas fora do projeto
 
-- Scripts do projeto ficam em `ferramentas/` (hoje: `01_Projeto/Estudo_interativo` e scripts soltos). Não deixe `.py`/`.cjs` de uso único espalhados pelas pastas de conteúdo.
+- Scripts do projeto ficam em `ferramentas/` (gerador do site em `ferramentas/site`). Não deixe `.py`/`.cjs` de uso único espalhados pelas pastas de conteúdo.
 - Nunca dentro do projeto: ambientes virtuais, `node_modules`, `__pycache__`, código-fonte de ferramentas de terceiros, saídas de testes, downloads de pesquisa brutos (`.firecrawl`). Use a pasta temporária da sessão e apague ao final.
 - `.site/` é gerado; não edite à mão. `guedala-pessoal/` (dados pessoais) nunca vai para o site nem para o repositório público.
 
@@ -56,3 +54,21 @@ Enquanto a reorganização descrita em [PLANO_REORGANIZACAO.md](PLANO_REORGANIZA
 - [ ] Arquivos e `.md` superados removidos.
 - [ ] Nenhum temporário, backup ou ferramenta deixado na pasta.
 - [ ] Links verificados.
+
+## 9. Estrutura das pastas
+
+| Pasta | O que vai nela |
+|---|---|
+| `ESTADO_ATUAL.md` | Fonte única: versões vigentes, decisões, pendências, próximos passos |
+| `01_Programa_e_decisoes/` | Programa, registro e painel de decisões, especificações, convenção, plano de reforma |
+| `02_Modelo_3D/` | Só o `.FCStd` vigente, suas conferências e componentes de ferragens |
+| `03_Ambientes/<Ambiente>/` | Decisões e estudos de cada ambiente |
+| `04_Moveis/Pxx/` | Cálculos e estudos de cada móvel; temas que cruzam móveis na raiz de `04_Moveis/` |
+| `05_Orcamento_e_cronograma/` | Orçamento, cronograma, plano de execução |
+| `06_Entregas/` | Exatamente o que foi enviado ou publicado |
+| `07_Imovel/` | Visita, fotos, levantamento, dia das chaves |
+| `08_Contratos_e_atraso/` | Contrato e atraso da entrega |
+| `09_Referencias/` | Plantas oficiais, manuais, moodboard, referências visuais aprovadas |
+| `ferramentas/` | Gerador do site, cinemática, verificadores |
+
+Pasta nova de topo só com motivo forte; prefira encaixar numa dessas.

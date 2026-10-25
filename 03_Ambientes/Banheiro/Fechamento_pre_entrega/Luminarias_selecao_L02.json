@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-24",
+  "revision": "L02",
+  "scope": "Revisão solicitada por Elias: fontes e fitas por custo-benefício, preservando qualidade do espelho. Total de compra dos componentes, sem frete e instalação; não contrato, compra ou liberação executiva.",
+  "temperatures_approved": true,
+  "components_selected": true,
+  "complete_luminaires_released": false,
+  "installation_released": false,
+  "purchase_made": false,
+  "main_cad_modified": false,
+  "groups": [
+    {
+      "id": "B11",
+      "function": "Geral do teto",
+      "kelvin": 3000,
+      "product": "Galaxy LED Firefly 9605",
+      "installed_quantity": 1,
+      "watts": 25,
+      "lumens": 2000,
+      "cri": ">80",
+      "ip_component": "IP44",
+      "input": "100–240 Vca, bivolt",
+      "finish": "Branco, redondo, difusor opalino",
+      "envelope_mm": [
+        300,
+        300,
+        50
+      ],
+      "dimension_note": "Diâmetro 300 mm; anúncio informa 45 mm de altura e catálogo Galaxy 50 mm. Reservar 50 mm e conferir o lote.",
+      "mounting": "Sobrepor no teto, fora do box; posição do ponto existente a conferir.",
+      "product_url": "https://galaxyled.com.br/produtos?product=PLAFON+FIREFLY+25W+3000K+REDONDO&uniqMod=000108&uniqProd=0000025889&uniqTp=00080",
+      "buy_url": "https://www.magazineluiza.com.br/plafon-de-sobrepor-firefly-redondo-branco-30cm-led-25w-3000k-bivolt-galaxy-led/p/hf39c74bce/cj/plfn/?seller_id=parisluzcombr"
+    },
+    {
+      "id": "B09",
+      "function": "Frontal do espelho",
+      "kelvin": 4000,
+      "product": "Cristallux Cristall Pro Dry COB CLX-FT331240",
+      "code": "221513",
+      "ean": "7908024221513",
+      "installed_length_m": 1.1,
+      "segments_mm": [
+        550,
+        550
+      ],
+      "cut_pitch_mm": 25,
+      "strip_section_mm": [
+        10,
+        3
+      ],
+      "watts_per_m": 12,
+      "watts": 13.2,
+      "current_a": 1.1,
+      "lumens_per_m": 1200,
+      "lumens_before_diffuser": 1320,
+      "cri": ">90",
+      "ip_component": "IP65 da fita intacta; cortes e montagem não classificados",
+      "input": "12 Vcc",
+      "profile": "Nordecor MOV 4329 branco, alumínio e difusor PC, seção externa 17 × 7 mm",
+      "nominal_profile_lengths_mm": [
+        560,
+        560
+      ],
+      "driver": "Opus OPS 31002, 12 Vcc, 3 A, 36 W, IP67",
+      "mounting": "Duas barras horizontais fixas acima/abaixo do espelheiro; luz voltada para o rosto. Sem fios nas portas.",
+      "status": "Mesma fita COB 4000 K/IRC>90 da L01, mesmas duas barras de 550 mm, preço e oferta confirmados. Montagem e posição inferior condicionadas.",
+      "product_url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-4000k-1200lm-m-ip65-480led-m-irc-90",
+      "buy_url": "https://www.3reletrica.com.br/fita-de-led-cob-480led/m-ip65-4000k-12v-5-metros-dimerizavel-cristallux"
+    },
+    {
+      "id": "B10",
+      "function": "Indireta de ambiente",
+      "kelvin": 3000,
+      "product": "Cristallux Cristall Pro Dry SMD CLX-FT200530",
+      "code": "021965",
+      "ean": "7899440021965",
+      "design_length_cap_m": 2,
+      "cut_pitch_mm": 50,
+      "strip_section_mm": [
+        8,
+        2.2
+      ],
+      "watts_per_m": 4.8,
+      "watts_at_length_cap": 9.6,
+      "current_at_length_cap_a": 0.8,
+      "lumens_per_m": 460,
+      "lumens_before_diffuser_at_length_cap": 920,
+      "cri": ">80",
+      "ip_component": "IP65 da fita intacta; cortes e montagem não classificados",
+      "input": "12 Vcc",
+      "profile": "Nordecor MOV 4329 branco, alumínio e difusor PC, seção externa 17 × 7 mm",
+      "driver": "Opus OPS 31002, 12 Vcc, 3 A, 36 W, IP67",
+      "mounting": "Oculta na faixa do canto do teto, emitindo para teto/parede; não apontar diretamente aos olhos.",
+      "status": "Luz complementar oculta: potência menor e IRC>80 aceito somente neste grupo. Até 2 m continua limite de orçamento, não medição real.",
+      "product_url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-5mt-12v-4-8w-m-3000k-460lm-m-ip65-60led-m-irc-80",
+      "buy_url": "https://www.3reletrica.com.br/fita-de-led-12v-24w-3000k-amarela-48wm-60-ledsm-ip65-5-metros-cristallux",
+      "dimmable": false
+    }
+  ],
+  "bom": [
+    {
+      "product": "Galaxy LED Firefly 9605, 3000 K",
+      "quantity": 1,
+      "unit": "unidade",
+      "price_brl": 141.9,
+      "seller": "Paris Luz pelo Magalu",
+      "availability": "Preço 141,90 e vendedor Paris Luz confirmados na página real; compra habilitada. Entrega depende do CEP.",
+      "buy_url": "https://www.magazineluiza.com.br/plafon-de-sobrepor-firefly-redondo-branco-30cm-led-25w-3000k-bivolt-galaxy-led/p/hf39c74bce/cj/plfn/?seller_id=parisluzcombr",
+      "price_method": "Preço exibido sem cupom",
+      "price_verification": "Navegador, 24/10/2026"
+    },
+    {
+      "product": "Cristallux CLX-FT331240 / 221513, 4000 K",
+      "quantity": 1,
+      "unit": "rolo de 5 m",
+      "price_brl": 169.26,
+      "seller": "3R Soluções Elétricas",
+      "availability": "Estoque disponível na página real; leitura anterior sob consulta dos buscadores foi superada.",
+      "buy_url": "https://www.3reletrica.com.br/fita-de-led-cob-480led/m-ip65-4000k-12v-5-metros-dimerizavel-cristallux",
+      "consumed_m": 1.1,
+      "remainder_m": 3.9,
+      "card_price_brl": 174.49,
+      "price_method": "Pix",
+      "price_verification": "Navegador, 24/10/2026"
+    },
+    {
+      "product": "Cristallux CLX-FT200530 /021965, SMD, 3000 K, 4,8 W/m",
+      "quantity": 1,
+      "unit": "rolo de 5 m",
+      "price_brl": 62.56,
+      "seller": "3R Soluções Elétricas",
+      "availability": "Estoque disponível na página real",
+      "buy_url": "https://www.3reletrica.com.br/fita-de-led-12v-24w-3000k-amarela-48wm-60-ledsm-ip65-5-metros-cristallux",
+      "consumed_m_cap": 2,
+      "remainder_m_min": 3,
+      "card_price_brl": 64.49,
+      "price_method": "Pix",
+      "price_verification": "Navegador, 24/10/2026"
+    },
+    {
+      "product": "Nordecor MOV 4329, branco, com difusor",
+      "quantity": 2,
+      "unit": "barra de 2 m",
+      "price_brl": 34.41,
+      "price_evidence": "34,41 por barra de 2 m confirmado na página real, sem aplicar cupom.",
+      "seller": "Cia Light",
+      "availability": "Compra habilitada; despacho anunciado em até 10 dias úteis, além do transporte.",
+      "buy_url": "https://www.cialight.com.br/perfil-mov-de-sobrepor-17x7mm-2m-branco-nordecor-4329",
+      "included_total": {
+        "caps": 8,
+        "clips": 8
+      },
+      "needed_total": {
+        "caps": 6,
+        "clips": 8
+      },
+      "cut_plan_mm": [
+        [
+          560,
+          560
+        ],
+        [
+          2000
+        ]
+      ],
+      "cut_note": "Primeira barra: dois perfis nominais de 560; segunda: indireta até 2000. Ajustar tampa, saída de cabo e corte útil. Não cortar fita a 560: seus trechos são 550.",
+      "card_price_brl": 36.22,
+      "price_method": "Pix, sem cupom",
+      "price_verification": "Navegador, 24/10/2026"
+    },
+    {
+      "product": "Opus OPS 31002, 12 V /3 A /36 W, IP67",
+      "quantity": 2,
+      "unit": "unidade",
+      "price_brl": 85.05,
+      "card_price_brl": 89.78,
+      "seller": "Luz de Casa",
+      "buy_url": "https://luzdecasa.com.br/produto/fonte-12v-slim-opus-36-watts-3a-ip67-270x20x20mm-ac-31002/24454",
+      "availability": "Compra habilitada; preparação e despacho anunciados em 5 dias úteis, além do transporte.",
+      "price_method": "Pix/boleto, desconto de 10% exibido, sem cupom",
+      "price_verification": "Navegador, 24/10/2026",
+      "envelope_mm": [
+        276,
+        21,
+        20
+      ],
+      "lot_note": "Fabricante atual: 172×21×20 mm, policarbonato e garantia 3 anos. Loja descreve versão 276×20×20 mm, alumínio e garantia 1 ano, consistente com catálogos Opus antigos. Reservada a maior envoltória; não prometer lote novo/garantia 3 anos no preço da versão anunciada. Conferir etiqueta 12 V/3 A/36 W/IP67 e lote recebido antes de definir o compartimento."
+    }
+  ],
+  "checks": {
+    "mirror": {
+      "length_m": 1.1,
+      "power_w": 13.2,
+      "current_a": 1.1,
+      "driver_w": 36,
+      "load_percent": 36.67,
+      "cuts_per_segment": 22,
+      "calculation": "2 ×0,55 m ×12 W/m =13,2 W; corrente 1,1 A. 13,2/36 =36,7% da fonte. Barras em paralelo.",
+      "driver_current_a": 3
+    },
+    "indirect": {
+      "max_length_m": 2,
+      "power_w": 9.6,
+      "current_a": 0.8,
+      "driver_w": 36,
+      "load_percent": 26.67,
+      "cuts_at_cap": 40,
+      "calculation": "Até 2,00 m ×4,8 W/m =9,6 W; corrente 0,8 A. 9,6/36 =26,7% da fonte. Cortes a cada 50 mm.",
+      "driver_current_a": 3
+    },
+    "nominal_mirror_fit": {
+      "cabinet_width_mm": 600,
+      "former_bar_envelope_mm": [
+        560,
+        7,
+        20
+      ],
+      "new_body_envelope_mm": [
+        560,
+        7,
+        17
+      ],
+      "interpretation": "Corpo externo dentro da antiga envoltória. Não inclui presilhas, tampas, soldas, fio ou suporte e não comprova encaixe da fita 10 × 3 mm no interior do perfil.",
+      "door_z_ranges_mm": {
+        "lower_bar": [
+          1110,
+          1127
+        ],
+        "cabinet": [
+          1150,
+          1900
+        ],
+        "upper_bar": [
+          1910,
+          1927
+        ]
+      },
+      "nominal_vertical_gaps_mm": {
+        "lower_to_cabinet": 23,
+        "upper_to_cabinet": 10
+      },
+      "validation": "Comparação analítica de envoltórias nominais, sem novo ensaio de giro ou mudança no CAD."
+    },
+    "lighting": {
+      "flux_note": "Fluxos de fita são anteriores às perdas do difusor e da reflexão. Não equivalem a lux no rosto ou no piso.",
+      "test": "Pré-montar no espelheiro, observar rosto/maquiagem, reflexos com portas fechadas e abertas e ofuscamento. Se o resultado falhar, rever óptica/posição antes de instalar."
+    }
+  },
+  "execution_holds": [
+    "Comprar o plafon pelo SKU 9605 / 3000 K; conferir etiqueta e altura do lote. Produto IP44 não libera automaticamente posição dentro ou junto ao box.",
+    "Antes da compra dos perfis/fita em quantidade: conferir fisicamente ou por desenho do canal o encaixe da fita siliconada 10 × 3 mm, a dissipação para 12 W/m e a passagem das soldas. A largura externa de 17 mm não prova a largura interna.",
+    "Perfil MOV é IP20. A proteção IP65 pertence à fita intacta e IP67 às fontes encapsuladas. Exigir terminais/cortes protegidos conforme fabricante e adequação do conjunto à posição real pelo responsável elétrico; não anunciar luminária montada IP65.",
+    "Manter as barras em suporte fixo independente das portas. Montar e testar sem reduzir armazenamento, sem fixar em vidro e sem colar fita diretamente no MDF. Posição inferior só é liberada depois do curso real da torneira e do espaço para a mão.",
+    "Indireta: medir o trecho protegido da faixa, cortar somente nas marcas de50 mm e manter até2 m neste orçamento. Não completar metragem entrando no box. Suporte elétrico e faixa hidráulica com manutenção independente.",
+    "Fontes Opus: instalar em compartimento técnico seco, ventilado, acessível e substituível, fora da guarda do espelheiro. Reservar até276 mm de comprimento por fonte até conhecer o lote; não assumir as dimensões das antigas Mean Well. Seguir etiqueta/manual, inclusive aterramento quando indicado. Não cobrir com isolamento.",
+    "Três teclas físicas: teto; fonte do espelho; fonte da indireta. Uma fonte por retorno, saídas independentes. Acionamento liga/desliga; não usar dimmer de parede nestas fontes nem na fita indireta não dimerizável.",
+    "Cabos, caixas, conectores, fixações no substrato e proteção do circuito serão definidos pelo eletricista conforme percurso e banheiro real. Terminações da fita fazem parte da encomenda montada, não estão incluídas nos preços dos rolos."
+  ],
+  "cost": {
+    "components_total_brl": 612.64,
+    "known_components_subtotal_brl": 612.64,
+    "complete_total_brl": null,
+    "installed_total_brl": null,
+    "payment_basis": "À vista: Pix nas fitas/perfis e Pix ou boleto nas fontes; plafon no preço exibido. Sem cupons condicionais.",
+    "card_advertised_components_total_brl": 632.88,
+    "card_note": "Soma dos preços de cartão exibidos, sem juros adicionais: as condições e parcelas variam entre as lojas.",
+    "includes": [
+      "1 plafon",
+      "1 rolo completo de fita 4000 K",
+      "1 rolo completo de fita 3000 K",
+      "2 perfis de 2 m com difusores, 8 tampas e 8 garras no total",
+      "2 fontes independentes"
+    ],
+    "excludes": [
+      "Fretes",
+      "Corte e montagem dos perfis",
+      "Cabos, caixas, conectores e materiais para proteção/vedação das terminações",
+      "Interruptores e placas",
+      "Fixações ao substrato",
+      "Mão de obra elétrica"
+    ],
+    "previous_selection_comparable_brl": 815.09,
+    "saving_vs_L01_brl": 202.45,
+    "saving_percent": 24.84,
+    "group_totals_brl": {
+      "teto": 141.9,
+      "espelho": 288.72,
+      "indireta": 182.02
+    },
+    "comparison_note": "L01 645,83 sem a fita do espelho +mesma fita agora precificada em169,26 =815,09. A diferença é entre componentes das duas seleções, não desconto contratado ou economia lançada no total do apartamento.",
+    "note": "Total dos componentes principais fechado com preços publicados e conferidos na página real. Total instalado não cotado. Rolos inteiros contabilizados, inclusive sobras."
+  },
+  "evidence_notes": [
+    "Preços e botões de compra/estoque lidos no navegador, sem adicionar ao carrinho ou enviar dados. Buscadores tinham versões divergentes (inclusive preço sob consulta); prevalece a página real verificada.",
+    "Sem alegação de igual durabilidade ou menor flicker entre marcas: a seleção usa características documentadas, não ensaio comparativo independente.",
+    "Os fluxos nominais da indireta variam em catálogos históricos da Cristallux; especificação atual informa460 lm/m. Conferir etiqueta do lote. Não adotar o fluxo antigo de230 lm/m como se fosse o mesmo lote atual.",
+    "Fontes Opus: existem versões dimensionais e garantias diferentes sob o código31002. O preço da loja não comprova entrega da versão mais nova. O cálculo usa apenas dados elétricos coincidentes de12 V/3 A/36 W, IP67.",
+    "Não substituir a fita do espelho por SMD IRC80 ou COB IP20 apenas por título parecido. A indireta mudou de forma expressa para021965, preservando3000 K e IP65 da fita intacta."
+  ],
+  "sources": [
+    {
+      "title": "teto",
+      "url": "https://galaxyled.com.br/produtos?product=PLAFON+FIREFLY+25W+3000K+REDONDO&uniqMod=000108&uniqProd=0000025889&uniqTp=00080"
+    },
+    {
+      "title": "espelho",
+      "url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-4000k-1200lm-m-ip65-480led-m-irc-90"
+    },
+    {
+      "title": "perfil",
+      "url": "https://nordecor.com.br/produto/perfil-de-sobrepor-mov-17x7mm/"
+    },
+    {
+      "title": "Cristallux indireta4,8 W/m: ficha atual",
+      "url": "https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-5mt-12v-4-8w-m-3000k-460lm-m-ip65-60led-m-irc-80"
+    },
+    {
+      "title": "Opus OPS31002: ficha atual",
+      "url": "https://opusled.com.br/produto/fonte-blindada-32w-12v/"
+    },
+    {
+      "title": "Catálogo Opus2021: versão270 mm",
+      "url": "https://dellasiluminacao.com.br/wp-content/uploads/2021/05/Catalogo-2021-Opusled-Oficial_compressed.pdf"
+    }
+  ],
+  "supersedes": "Luminarias_selecao_L01.json",
+  "priced_components_complete": true,
+  "commercial_review": {
+    "mirror_preserved": {
+      "sku": "CLX-FT331240",
+      "kelvin": 4000,
+      "cri": ">90",
+      "cob": true,
+      "length_m": 1.1,
+      "watts": 13.2,
+      "raw_lumens": 1320
+    },
+    "indirect_change": {
+      "old_w_per_m": 12,
+      "new_w_per_m": 4.8,
+      "power_reduction_percent": 60,
+      "old_cri": ">90",
+      "new_cri": ">80",
+      "reason": "Uso complementar oculto; preservar IRC alto no espelho. Luz ambiente mais suave, com difusor e reflexão, sem pontos diretamente visíveis."
+    },
+    "source_saving_brl": 138.78,
+    "indirect_strip_saving_brl": 63.67,
+    "roll_strategy": "Não foi localizada oferta pública por metro do SKU exato do espelho com custo total e fornecimento confirmáveis. Comprados por rolo de 5 m no cálculo: sobra3,9 m de4000 K e pelo menos3 m de3000 K. Não dividir artificialmente o valor do rolo pelo comprimento usado para anunciar uma economia inexistente.",
+    "candidates": [
+      {
+        "product": "Mean Well LPV-20-12 +LPV-35-12",
+        "price_brl": 308.88,
+        "decision": "Substituídas: custo maior para estas cargas; não foi demonstrada vantagem prática que justifique a diferença neste projeto."
+      },
+      {
+        "product": "Opus OPS31002 2 unidades",
+        "price_brl": 170.1,
+        "decision": "Selecionadas: tensão, corrente e IP documentados; ambas com folga e acionamentos independentes. Envoltória/lote devem ser conferidos."
+      },
+      {
+        "product": "Romalux60029 30 W, IP67",
+        "unit_reference_brl": 112.44,
+        "decision": "Mais cara que a Opus encontrada e sem vantagem necessária para as cargas nominais."
+      },
+      {
+        "product": "Cristallux COB CLX-FT331240 4000 K",
+        "price_brl": 169.26,
+        "decision": "Mantida: preserva IRC>90, COB, comprimento e fluxo da seleção anterior; agora com preço e estoque visíveis."
+      },
+      {
+        "product": "Eklart EKF4496HL9065",
+        "unit_reference_brl": 252.1,
+        "decision": "Mais cara por rolo; não oferece economia sobre manter a COB Cristallux. Não adotada."
+      },
+      {
+        "product": "Gaya COB IP65 5630",
+        "unit_reference_brl": 128.8,
+        "decision": "IRC80 da variante não atende ao espelho; descartada apesar do preço menor."
+      }
+    ]
+  },
+  "budget_mapping": {
+    "source": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md",
+    "ceiling": {
+      "code": "Parte de L04",
+      "amount_brl": 141.9,
+      "note": "Substitui apenas a parcela do banheiro; não elimina o plafon da lavanderia."
+    },
+    "mirror": {
+      "code": "L05",
+      "amount_brl": 288.72,
+      "note": "Composição completa do espelho neste levantamento: fita, fonte e um perfil. Não somar novamente seus componentes em L06."
+    },
+    "indirect": {
+      "code": "Parte de L06",
+      "amount_brl": 182.02,
+      "note": "Detalhamento da indireta do banheiro dentro da verba geral de perfis/fitas/fontes; não lançar612,64 em acréscimo às verbas antigas."
+    },
+    "installation": {
+      "code": "I01",
+      "note": "Montagem elétrica já pertence à verba de instalações; o valor específico do banheiro não foi cotado."
+    },
+    "global_budget_changed": false,
+    "reason": "L06 é verba compartilhada sem desdobramento completo dos outros cômodos; detalhar a parcela do banheiro não autoriza lançar economia global ou reduzir verba dos demais ambientes."
+  }
+}
