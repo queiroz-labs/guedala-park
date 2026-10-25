@@ -15,7 +15,15 @@ Estado atual da cozinha. Nada aqui libera fabricação, compra ou instalação: 
 
 Interface térmica com a lavadora LG: o manual (p. 12) exige painel isolante 850 × 600 mm revestido de alumínio junto a forno/fogão a gás. Lateral comum de MDF 18 mm não foi demonstrada como equivalente.
 
-Detalhes de manuais, folgas e divergências: [Equipamentos e instalação](Equipamentos_e_instalacao.md) · [Medidas e folgas](Medidas_e_folgas.md) · [Conferência da cocção R30](Fechamento/README.md).
+Detalhes de manuais, folgas e divergências: [Equipamentos e instalação](Equipamentos_e_instalacao.md) · [Medidas e folgas](Medidas_e_folgas.md) · [Encaixe atual Fischer/KE4GC](Fischer_Grill/README.md).
+
+## Instalações e documentos da unidade
+
+A base vigente é o forno elétrico **Fischer Infinity 50 L com grill, sem turbo, preto, 127 V, 28349-64929**, escolhido em 19/10/2026, com cooktop **KE4GC a gás natural**. O forno elétrico não exige ramal ou conversão de gás; a instalação de GN continua necessária para o cooktop. O estudo atual usa o manual Fischer **32305 rev.00**. [Encaixe](Fischer_Grill/README.md) · [apoios e ventilação](Fischer_Grill/Apoios_ventilacao/README.md) · [grelhas e manutenção](Fischer_Grill/Grelhas_manutencao/README.md).
+
+A conferência documental anterior leu o [memorial Cury](../../09_Referencias/Plantas_e_manuais/Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf), pp. 14, 17 e 19, e a [convenção](../../09_Referencias/Plantas_e_manuais/convencao_de_condominio_r01_compressed.pdf), pp. 16–21 e 33–34. Não identificou proibição específica de forno elétrico nesses trechos; isso não demonstra capacidade do circuito nem autoriza alterar pontos ou tensão. O memorial remete ao projeto elétrico e a convenção trata de sobrecarga. Antes do executivo, conferir projeto/quadro de cargas da unidade, circuito 127 V, uso simultâneo, proteção, condutores, aterramento, posição e acesso à tomada.
+
+O antigo `Fechamento/README.md` foi consolidado aqui. Comparações de aparelhos e preços de 16/10 e 19/10 são históricas, recuperáveis no Git em `antes-reorganizacao:01_Projeto/Cozinha/Fechamento_R30_2026-10-14/README.md`; não substituem a escolha vigente. A prancha [Corte de cocção R30](Fechamento/Corte_coccao_R30.html) permanece como registro histórico, sem representar automaticamente o Fischer atual.
 
 ## Bancada, pia e módulos
 
