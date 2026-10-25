@@ -269,7 +269,7 @@
     },
     {
       "source": ".site/index.html",
-      "url": "docs/03_Ambientes/Quarto_e_portas/Iluminacao_R00.md.html",
+      "url": "docs/03_Ambientes/Quarto_e_portas/Iluminacao.md.html",
       "kind": "dynamic_document",
       "status": "pass"
     },
@@ -437,7 +437,7 @@
     },
     {
       "source": ".site/moodboard/index.html",
-      "url": "../docs/03_Ambientes/Quarto_e_portas/Iluminacao_R00.md.html",
+      "url": "../docs/03_Ambientes/Quarto_e_portas/Iluminacao.md.html",
       "kind": "dynamic_document",
       "status": "pass"
     },
@@ -1055,7 +1055,7 @@
     },
     {
       "source": ".site/docs/06_Entregas/Dossie_marcenaria_R45.html",
-      "url": "../03_Ambientes/Quarto_e_portas/Iluminacao_R00.md.html",
+      "url": "../03_Ambientes/Quarto_e_portas/Iluminacao.md.html",
       "kind": "html",
       "status": "pass"
     },
@@ -1165,7 +1165,7 @@
       "kind": "html"
     },
     {
-      "source": ".site/docs/03_Ambientes/Quarto_e_portas/Iluminacao_R00.md.html",
+      "source": ".site/docs/03_Ambientes/Quarto_e_portas/Iluminacao.md.html",
       "url": "https://attena.com.br/altura-ideal-da-arandela-no-quarto/",
       "kind": "html"
     },

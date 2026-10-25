@@ -25,7 +25,7 @@ A frente dividida e o plano630 vêm da proposta local de30/09: painel alto no an
 
 ## Tanque e hidráulica condicionais
 
-Tanque útil380×350×200 preservado. A referência CAD antiga era só um volume aproximado; foi ocultada como histórico. Agora há uma casca externa420×390×220 com paredes/fundo20 **hipotéticos**, posicionada como no [corte R08](../../../../03_Ambientes/Lavanderia/Tanque_cesto_compatibilizacao_R08.md):21–60 cm desde parede/fundo700. Não representa tanque real, corte da pedra, impermeabilização ou produto especificado. Bancada permanece750 desde parede e920 de topo; seu recorte/apoios não definidos. Apenas nas vistas a pedra/laterais ficam transparentes.
+Tanque útil380×350×200 preservado. A referência CAD antiga era só um volume aproximado; foi ocultada como histórico. Agora há uma casca externa420×390×220 com paredes/fundo20 **hipotéticos**, posicionada como no [corte R08](../../../../03_Ambientes/Lavanderia/Tanque_e_cesto.md):21–60 cm desde parede/fundo700. Não representa tanque real, corte da pedra, impermeabilização ou produto especificado. Bancada permanece750 desde parede e920 de topo; seu recorte/apoios não definidos. Apenas nas vistas a pedra/laterais ficam transparentes.
 
 Reservas hidráulicas transparentes reproduzem as condições suficientes da R08: trecho superior até330 desde parede/base630, posterior até280. São volumes de exclusão, não tubos/válvula/sifão reais. Mangueira e contrapeso da Telca, alças salientes, mãos, folgas físicas e tubulações completas continuam fora da validação. Faixas laterais52 não podem ser usadas simultaneamente pela ferragem e pela mangueira.
 

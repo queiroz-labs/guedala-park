@@ -79,5 +79,5 @@ A provisãoR43 de iluminação éR$3.540. O cenário é **R$1.266,52 acima dessa
 
 Para futura reconciliação: L01 recebe o pendente real e seus comandos; L02 recebe as três gerais sala/quarto/escritório; L03 cozinha; L04 banheiro+lavanderia; L05 espelho; L06 indiretas/perfis/fontes/controles; L07 leitura. BanheiroL02 já mapeado em L04/L05/L06. Orçamento global e reserva permanecem sem alteração nesta proposta.
 
-Dados, quantidades, preços e condição de cada oferta: [Composicao_CB01.json](Composicao_CB01.json). Continuidade: [estudo integrado](../Estudo_integrado_2026-09-22.md), [cozinha/lavanderia R01](../Cozinha_lavanderia_selecao_R01_2026-09-27.md), [quarto](../../Quarto_e_portas/Iluminacao_R00.md), [escritório F64–F67](../../Escritorio/Sofa_cama_e_TV_R02.md), [banheiro L02](../../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html).
+Dados, quantidades, preços e condição de cada oferta: [Composicao_CB01.json](Composicao_CB01.json). Continuidade: [estudo integrado](../Estudo_integrado.md), [cozinha/lavanderia R01](../Cozinha_e_lavanderia.md), [quarto](../../Quarto_e_portas/Iluminacao.md), escritório F64–F67, [banheiro L02](../../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html).
 

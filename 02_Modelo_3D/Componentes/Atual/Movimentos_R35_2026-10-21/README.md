@@ -42,7 +42,7 @@ Prioridade para continuar: transferência da folha da mesa; sofás em uso aberto
 
 ## Referências locais usadas
 
-- [Mesa: 150/180, metades móveis e folha removível](../../../../03_Ambientes/Sala_e_jantar/Mesa_extensivel_anteprojeto_R00.md).
+- Mesa: 150/180, metades móveis e folha removível.
 - [Forno e grelhas: fixações e cenário de retirada](../../../../03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md).
 - [Estudo interativo: estados ilustrativos do varal e sofás](../../../../ferramentas/site/src/app.js).
 

@@ -31,6 +31,6 @@ Fontes adicionais:
 - [Bonnie, fabricante](https://www.camainbox.com.br/products/sofa-bau-sem-caixa-retratil-softgel-bonnie-boucle-cama-inbox).
 - [Daiane, fornecedor do produto escolhido](https://www.mobly.com.br/sofacama-daiane-veludo-light-cinza-974920.html).
 - [LG CV5012PC4, fabricante](https://www.lg.com/br/lavanderia/lava-e-seca/cv5012pc4/).
-- [Box: tipo de abertura ainda indefinido](../../../../03_Ambientes/Banheiro/Medidas_e_encaixe_2026-09-18.md).
+- Box: tipo de abertura ainda indefinido.
 
 A documentação não constitui liberação de fabricação. Nenhuma mensagem foi enviada a fabricantes.

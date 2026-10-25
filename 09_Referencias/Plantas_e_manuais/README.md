@@ -24,7 +24,7 @@ Os nomes preservam fabricante, modelo e versão para evitar confusão. A presen�
 - [Rinnai REU-E150FEH Manual 201](Manuais/Rinnai_REU-E150FEH_Manual_201.pdf)
 - [Venax Forno embutir gas 50 90L 26019](Manuais/Venax_Forno_embutir_gas_50_90L_26019.pdf)
 
-[Consultar medidas e folgas de instalação](../../03_Ambientes/Cozinha/Medidas_e_folgas_R00.md).
+[Consultar medidas e folgas de instalação](../../03_Ambientes/Cozinha/Medidas_e_folgas.md).
 
 ## Manuais incorporados na conferência F103 — 12/09/2026
 

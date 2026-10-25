@@ -2,7 +2,7 @@
 
 Apartamento atual · [Fechada](Gaveta_rodas_Fechada_R13.png) · [Aberta400](Gaveta_rodas_Aberta400_R13.png) · [Montagem](Montagem_R13.json) · [Auditoria](Auditoria_R13.json)
 
-A R13 incorpora a R12 e corrige a caixa hipotética da gaveta baixa conforme a solução funcional já aprovada: **rodas de silicone, recuo de80 mm, base de180 mm, cabos fixos e cabeças da vassoura/rodo retiradas**. Ler [decisões R02 vigentes](../../../../03_Ambientes/Cozinha/Fechamento_tres_pendencias_R02_2026-09-27.md). Não instalar MOVENTO nessa gaveta nem interpretar400/442 como NL de corrediça. Não mudar bancada, frentes16/16/40, pia, cocção ou aparelho.
+A R13 incorpora a R12 e corrige a caixa hipotética da gaveta baixa conforme a solução funcional já aprovada: **rodas de silicone, recuo de80 mm, base de180 mm, cabos fixos e cabeças da vassoura/rodo retiradas**. Ler decisões R02 vigentes. Não instalar MOVENTO nessa gaveta nem interpretar400/442 como NL de corrediça. Não mudar bancada, frentes16/16/40, pia, cocção ou aparelho.
 
 ## Caixa e espaço propostos
 

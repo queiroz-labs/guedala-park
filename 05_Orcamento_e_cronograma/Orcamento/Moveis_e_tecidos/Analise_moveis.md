@@ -36,7 +36,7 @@ As quatro reduções a negociar somam **R$1.450**. Com elas, a categoria ficaria
 
 ## Escopo das cortinas e armazenamento
 
-Sala: manter tecido claro cobrindo a parede inteira e escurecimento independente. O [estudo compacto autorizado](../../../03_Ambientes/Sala_e_jantar/Ajustes_integrados_R01.md) avalia blackout de rolo no vão e tecido frontal de pouco volume. A faixa de 7 cm é limite do estudo, não dimensão de produto validada; cotar com visita e amostra, sem presumir cabimento ou cortar móveis. Escritório: tecido claro e trilho, sem duplicar blackout que a janela já possui. Quarto: tecido e medidas finais ainda a especificar. Preservar trilhos e instalação em todos os preços.
+Sala: manter tecido claro cobrindo a parede inteira e escurecimento independente. O [estudo compacto autorizado](../../../03_Ambientes/Sala_e_jantar/Ajustes_integrados.md) avalia blackout de rolo no vão e tecido frontal de pouco volume. A faixa de 7 cm é limite do estudo, não dimensão de produto validada; cotar com visita e amostra, sem presumir cabimento ou cortar móveis. Escritório: tecido claro e trilho, sem duplicar blackout que a janela já possui. Quarto: tecido e medidas finais ainda a especificar. Preservar trilhos e instalação em todos os preços.
 
 Nenhum baú, assento, cortina ou tapete foi retirado. Permanecem excluídos cadeira de escritório, bens já existentes documentados, utensílios e air fryer. Marcenaria, banco e seus estofamentos continuam em sua própria categoria; não cobrar novamente aqui.
 

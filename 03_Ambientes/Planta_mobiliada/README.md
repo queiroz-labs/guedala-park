@@ -39,11 +39,11 @@ Banheiro: louças, box e shaft representados esquematicamente a partir de P01, s
 
 - [Planta oficial P01](../../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), referência visual em04_Visita_ao_apartamento/referencias/P01_planta_oficial.png.
 - [Resumo vigente](../../ESTADO_ATUAL.md) e [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md).
-- [Jantar R01](../Sala_e_jantar/Layout_do_jantar_R01.md).
-- [Ordem da cozinha](../Cozinha/Ordem_dos_moveis_R01.md) e [medidas](../Cozinha/Medidas_e_folgas_R00.md).
-- [Daiane R07](../Escritorio/Ajuste_sofa_e_UltraComfort_R07.md) e [setup R10](../Escritorio/Setup_e_caixa_R10.md).
-- [Quarto, estudo anterior](../Quarto_e_portas/Portas_e_impacto_no_quarto_R02.md), usado apenas para envelopes de móveis, sem mudanças de portas.
-- [Varal, três estados R05](../Lavanderia/Varal_tres_estados_R05.md).
+- Jantar R01.
+- [Ordem da cozinha](../Cozinha/Ordem_dos_moveis.md) e [medidas](../Cozinha/Medidas_e_folgas.md).
+- [Daiane R07](../Escritorio/Cadeira_e_sofa.md) e [setup R10](../Escritorio/Setup.md).
+- [Quarto, estudo anterior](../Quarto_e_portas/Portas.md), usado apenas para envelopes de móveis, sem mudanças de portas.
+- Varal, três estados R05.
 
 Imagem e vetor gerados do mesmo desenho; PNG inspecionado visualmente. Esta revisão permite conversar sobre o conjunto e localizar conflitos, sem aprovar fabricação ou instalações.
 

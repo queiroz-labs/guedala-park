@@ -147,7 +147,7 @@ A planilha possui quantidades e preços editáveis, totais calculados e fontes p
 | H10 | Banheiro — Toalheiros, papeleira e ganchos fixos | 1 conj. | R$ 350,00 | R$ 350,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |
 | L01 | Sala — Pendente linear preto regulável | 1 un. | R$ 450,00 | R$ 450,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |
 | L02 | Sala / quarto / escritório — Plafons principais, escritório inteligente | 3 un. | R$ 250,00 | R$ 750,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |
-| L03 | Cozinha — Plafon quadrado branco 3000 K | 1 un. | R$ 260,00 | R$ 260,00 | Estimativa: Projeto: 03_Ambientes/Iluminacao/Cozinha_lavanderia_selecao_R01_2026-09-27.md |
+| L03 | Cozinha — Plafon quadrado branco 3000 K | 1 un. | R$ 260,00 | R$ 260,00 | Estimativa: Projeto: 03_Ambientes/Iluminacao/Cozinha_e_lavanderia.md |
 | L04 | Lavanderia / banheiro — Plafons apropriados às áreas úmidas | 2 un. | R$ 120,00 | R$ 240,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |
 | L05 | Banheiro — Luz frontal do espelho | 2 un. | R$ 150,00 | R$ 300,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |
 | L06 | Geral — Perfis, fitas LED, fontes e controle | 1 conj. | R$ 1.300,00 | R$ 1.300,00 | Estimativa: Projeto: 04_Moveis/Avanco_pendencias/Orcamento/Mapa_orcamento_comparavel_R42.csv + consolidação R43 |

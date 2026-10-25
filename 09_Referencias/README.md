@@ -44,10 +44,10 @@ Imagens de inspiração preservadas como histórico. Móveis, cotas, marcas e so
 
 ## Banheiro — referência escolhida em 18/09/2026
 
-[Decisões consolidadas do banheiro](../03_Ambientes/Banheiro/Decisoes_consolidadas_2026-09-18.md) · [Comparação dos caminhos da água quente](../03_Ambientes/Banheiro/Comparacao_visual_dos_percursos.html).
+[Decisões consolidadas do banheiro](../03_Ambientes/Banheiro/README.md) · [Comparação dos caminhos da água quente](../03_Ambientes/Banheiro/Comparacao_visual_dos_percursos.html).
 
 [Imagem inicial enviada por Elias](Banheiro_inspiracao_original_2026-09-18.png): preservada para rastreabilidade; detalhes superados não substituem as decisões atuais.
 
-[Imagem aprovada como referência visual](Banheiro_referencia_aprovada_2026-09-18.png): uma parede verde, armário espelhado com luz frontal e torneira atrás da cuba. Aprovação estética; dimensões e produtos representados são aproximados. [Estudo de encaixe](../03_Ambientes/Banheiro/Medidas_e_encaixe_2026-09-18.md).
+[Imagem aprovada como referência visual](Banheiro_referencia_aprovada_2026-09-18.png): uma parede verde, armário espelhado com luz frontal e torneira atrás da cuba. Aprovação estética; dimensões e produtos representados são aproximados. Estudo de encaixe.
 
-- [Banheiro — prateleira para ocultação de tubulação, referência enviada em 18/09/2026](Banheiro_prateleira_ocultacao_tubulacao_2026-09-18.png): referência de solução visual, não comprovação da hidráulica nem substituição da paleta. [Estudo](../03_Ambientes/Banheiro/Agua_quente_aparente_estudo_2026-09-18.md).
+- [Banheiro — prateleira para ocultação de tubulação, referência enviada em 18/09/2026](Banheiro_prateleira_ocultacao_tubulacao_2026-09-18.png): referência de solução visual, não comprovação da hidráulica nem substituição da paleta. [Estudo](../03_Ambientes/Banheiro/Agua_quente_aparente.md).

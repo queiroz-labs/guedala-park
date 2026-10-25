@@ -52,7 +52,7 @@ O [catálogo indexado da loja Addra no Mercado Livre](https://www.mercadolivre.c
 | Montagem e ligações | Ligações em I03/I04; recortes e fixação da cuba na pedra explicitados no pacote S01–S03. Comparar propostas para não cobrar a mesma operação duas vezes. |
 | Vaso e bens existentes | Vaso existente mantido conforme consolidação de 22/10. Escolha histórica de vaso novo não reinstalada. Sem cadeira de escritório, air fryer ou outros bens já possuídos. Essa exclusão já estava na base e não é nova economia. |
 
-Não reduzir dimensões, armazenamento, retorno do tanque, preto fosco dos metais ou branco da cuba. As pendências de curso da mangueira Telca, acesso ao sifão e bases de registros permanecem; esta análise é financeira, sem validação hidráulica ou alteração no FreeCAD. Base documental: [decisões](../../../01_Programa_e_decisoes/Registro_de_decisoes.md), [Telca aprovada](../../../03_Ambientes/Lavanderia/Torneira_pesquisa_R06.md) e [decisões do banheiro](../../../03_Ambientes/Banheiro/Decisoes_consolidadas_2026-09-18.md).
+Não reduzir dimensões, armazenamento, retorno do tanque, preto fosco dos metais ou branco da cuba. As pendências de curso da mangueira Telca, acesso ao sifão e bases de registros permanecem; esta análise é financeira, sem validação hidráulica ou alteração no FreeCAD. Base documental: [decisões](../../../01_Programa_e_decisoes/Registro_de_decisoes.md), [Telca aprovada](../../../03_Ambientes/Lavanderia/Torneira.md) e [decisões do banheiro](../../../03_Ambientes/Banheiro/README.md).
 
 ## Caminho para a meta
 

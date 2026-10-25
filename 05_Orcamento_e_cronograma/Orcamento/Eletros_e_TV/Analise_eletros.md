@@ -4,7 +4,7 @@
 
 22/10/2026. **Revisão de planejamento: R$ 17.251,83, redução indicativa de R$ 1.748,77 sobre R$ 19.000,60.** Fica **R$748,17 abaixo da verba-meta de R$18 mil**, antes dos fretes. Inclui oito ofertas conferidas e a provisão de R$764,10 para o cooktop sem disponibilidade confirmada. Mantidos os oito eletros, acabamentos e tensões aprovados.
 
-A TV da sala ainda não foi escolhida definitivamente. Esta conta usa a **Philips 50PUG8100/78 Ambilight de 50″**, preferência principal registrada em [Painel e TV](../../../03_Ambientes/Sala_e_jantar/Painel_e_TV_R00.md). A TCL 50P7K permanece alternativa documental; não foi usada uma troca de TV para obter a redução.
+A TV da sala ainda não foi escolhida definitivamente. Esta conta usa a **Philips 50PUG8100/78 Ambilight de 50″**, preferência principal registrada em [Painel e TV](../../../03_Ambientes/Sala_e_jantar/Painel_e_TV.md). A TCL 50P7K permanece alternativa documental; não foi usada uma troca de TV para obter a redução.
 
 ## Valores por item
 
@@ -54,7 +54,7 @@ Instalações seguem separadas: elétrica em I01; hidráulica em I03; aquecedor,
 - Air fryer e utensílios, por exclusão expressa de Elias.
 - Soundbar, TV box, ar-condicionado, garantias estendidas e assinaturas de refil fora deste escopo.
 
-Nenhuma economia adicional foi atribuída a essas exclusões: elas já estavam fora da base de R$19.000,60. Geladeira e LG continuam Inox Look conforme [decisão de acabamento vigente](../../../03_Ambientes/Equipamentos/Precos_inox_IB6S_VC4_R00.md); os registros anteriores de aparelhos brancos são históricos.
+Nenhuma economia adicional foi atribuída a essas exclusões: elas já estavam fora da base de R$19.000,60. Geladeira e LG continuam Inox Look conforme decisão de acabamento vigente; os registros anteriores de aparelhos brancos são históricos.
 
 ## Efeito no teto do apartamento
 

@@ -2,7 +2,7 @@
 
 Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).**
 
-**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R19.zip)**
+**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R20.zip)**
 
 ## Como a pasta está organizada
 
@@ -52,10 +52,10 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Versões antigas est
 
 ## Para encaminhar ao montador
 
-1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R19.zip)** e envie como arquivo ou compartilhe este link.
+1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R20.zip)** e envie como arquivo ou compartilhe este link.
 2. Extraia o ZIP inteiro e abra **COMECE_AQUI.html** no navegador. Ele funciona como menu da pasta.
 3. Para editar o modelo, abra **02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. Fichas, planta e tabelas abrem sem o FreeCAD.
 
-**Revisões:** R19 identifica o pacote, R52 o modelo, R14 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
+**Revisões:** R20 identifica o pacote, R52 o modelo, R14 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.

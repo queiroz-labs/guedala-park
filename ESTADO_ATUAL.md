@@ -25,9 +25,9 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Orçamento | R43 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R00 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
-| Site e pacote para o montador | Site publicado com R52; pacote local R19 (a publicar) | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
+| Site e pacote para o montador | Site publicado com R52; pacote R20 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
 
-O pacote R19 tem o mesmo conteúdo técnico do R18 publicado, com os caminhos da nova organização das pastas.
+O pacote R20 tem o mesmo conteúdo técnico do R18, com a nova organização das pastas e os READMEs consolidados dos ambientes.
 
 ## Onde estamos
 

@@ -25,7 +25,7 @@ Preservar três painéis lisos no encosto do banco, duas almofadas e duas tampas
 - [Quaker Decor — Chenille](https://quakerdecor.com.br/quaker-25-anos-mercado-tecidos-de-alto-padrao/): fabricante descreve toque macio e confortável; composição varia por produto. Não transferir resistência ou limpeza de uma família a outra.
 - [Quaker Lily Natural](https://quakerdecor.com.br/tecidos/lily-natural/): exemplo de produto natural com composição própria (55% linho e 45% algodão), não selecionado; não confundir aparência de linho com composição.
 - [Bella Janela Monte Carlo](https://bellajanelaatacado.com.br/produtos/detalhes/cortina-duplex-420m-x-250m-monte-carlo/): exemplo de família com versões 100% poliéster e 95% poliéster/5% linho. Produto duplex/varão não foi indicado como solução dimensional para o projeto.
-- [Estudo compacto local](../../03_Ambientes/Sala_e_jantar/Ajustes_integrados_R01.md).
+- [Estudo compacto local](../../03_Ambientes/Sala_e_jantar/Ajustes_integrados.md).
 - [Decisões do quarto](../../03_Ambientes/Quarto_e_portas/README.md).
 
 ## Prompts integrais

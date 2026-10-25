@@ -2,7 +2,7 @@
 
 Apartamento atual · [Fechado](Banheiro_Fechado_R12.png) · [Aberto](Banheiro_Aberto60_R12.png) · [Montagem](Montagem_R12.json) · [Entorno corrigido](Entorno_corrigido_R12.json)
 
-A R12 incorpora a R11 e substitui as duas frentes volumétricas do banheiro por propostas de portas comuns. Preserva gabinete suspenso fechado, bege liso/sem puxador saliente, laterais claras e armário raso com toda a frente espelhada, conforme [decisões vigentes](../../../../03_Ambientes/Banheiro/Decisoes_consolidadas_2026-09-18.md). Nenhuma cota, vidro, adesivo, furação ou compra liberados. Simplicidade é a prioridade autorizada por Elias.
+A R12 incorpora a R11 e substitui as duas frentes volumétricas do banheiro por propostas de portas comuns. Preserva gabinete suspenso fechado, bege liso/sem puxador saliente, laterais claras e armário raso com toda a frente espelhada, conforme [decisões vigentes](../../../../03_Ambientes/Banheiro/README.md). Nenhuma cota, vidro, adesivo, furação ou compra liberados. Simplicidade é a prioridade autorizada por Elias.
 
 ## Proposta
 

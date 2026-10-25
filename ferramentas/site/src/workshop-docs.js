@@ -14,14 +14,14 @@ const WORKSHOP_DOCS = [
   },
   {
     "id": "pacote-compartilhar",
-    "title": "Pacote R19 · pacote de consulta",
+    "title": "Pacote R20 · pacote de consulta",
     "category": "Começar",
     "rooms": [
       "all"
     ],
     "status": "R52 · 2026-10-25",
     "summary": "Modelo FreeCAD R52, fichas dos móveis, planta, HTML offline e avanços técnicos selecionados.",
-    "path": "06_Entregas/Publicacao/Guedala_Park_R19.zip",
+    "path": "06_Entregas/Publicacao/Guedala_Park_R20.zip",
     "available": true
   },
   {
@@ -421,7 +421,7 @@ const WORKSHOP_DOCS = [
     ],
     "status": "Três níveis escolhidos",
     "summary": "Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.",
-    "path": "03_Ambientes/Quarto_e_portas/Iluminacao_R00.md",
+    "path": "03_Ambientes/Quarto_e_portas/Iluminacao.md",
     "available": true
   },
   {

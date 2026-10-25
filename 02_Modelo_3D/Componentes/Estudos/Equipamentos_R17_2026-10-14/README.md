@@ -39,7 +39,7 @@ Vistas estáticas inspecionadas: [micro/purificador](MicroPurificador_R17.png), 
 
 ## Fontes e sequência
 
-Decisões cruzadas antes das alterações: [Aparelhos_R03](../../../../03_Ambientes/Cozinha/Aparelhos_compatibilizacao_R03_2026-09-27.md), corte de cocção, micro/C2, [E21/varal, incluindo F108/F109](../../../../03_Ambientes/Lavanderia/E21_ripado_varal_R01.md) e [organização da bancada](../../../../03_Ambientes/Cozinha/Detalhamento_dimensional_R00.md). Documentos iniciais de PE11X, E15 e LG branca não substituem escolhas posteriores. Correspondência dos manuaisIB6/LG com variantes inox foi registrada em27/09, não repetida como nova consulta do suporte nesta rodada.
+Decisões cruzadas antes das alterações: Aparelhos_R03, corte de cocção, micro/C2, E21/varal, incluindo F108/F109 e [organização da bancada](../../../../03_Ambientes/Cozinha/Detalhamento_dimensional.md). Documentos iniciais de PE11X, E15 e LG branca não substituem escolhas posteriores. Correspondência dos manuaisIB6/LG com variantes inox foi registrada em27/09, não repetida como nova consulta do suporte nesta rodada.
 
 [Referencias_documentais.json](Fontes/Referencias_documentais.json) contém caminhos, hashes e páginas consultadas dos PDFs. PE12 foi obtido da [fonte oficial](https://api.electrolux-medialibrary.com/asset/2766b234-544a-4587-b0e8-7545af48356c/E4RM3Q/251021JAXM/PDF/251021JAXM.pdf); páginas de instalação de PE12, Suggar, LG e E21 e tabelaME23P renderizadas/inspecionadas. Manuais locais têm versões identificadas; não se alega que todos são a edição comercial mais recente.
 
