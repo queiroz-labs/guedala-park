@@ -16,7 +16,7 @@ ferramentas/site/src/cad-data.js
 07_Imovel/Relatorio_da_visita_R01.html
 
 # Dados numericos grandes: consultar com script/jq, nao ler inteiro
-02_Modelo_3D/Base_verificacao.json
+02_Modelo_3D/Base_verificacao.json.gz
 02_Modelo_3D/Componentes/
 04_Moveis/**/Resultados*.json
 04_Moveis/P16/Gavetas_estabilidade/Estabilidade.json

@@ -15,7 +15,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 BASE = RAIZ / 'ferramentas/privacidade_base.json'
 MAX_BYTES = 8 * 1024 * 1024
-SEM_VARREDURA = {'ferramentas/verificar_privacidade.py', 'ferramentas/privacidade_base.json', '02_Modelo_3D/Base_verificacao.json'}
+SEM_VARREDURA = {'ferramentas/verificar_privacidade.py', 'ferramentas/privacidade_base.json', '02_Modelo_3D/Base_verificacao.json.gz'}
 EXT = {'.md', '.html', '.htm', '.json', '.csv', '.txt', '.js', '.cjs', '.py', '.svg', '.xml', '.yml', '.yaml', '.ps1', '.tsv'}
 PROIBIDO = re.compile(r'(^|/)(guedala-pessoal/|\.env(\.|$)|id_rsa|.*\.(pem|pfx|p12|key|kdbx)$|.*credentials.*\.json$)', re.I)
 

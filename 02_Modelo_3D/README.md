@@ -13,11 +13,22 @@ Modelo vigente: **R52**, [Guedala_Park_R52_Corrigido.FCStd](Guedala_Park_R52_Cor
 ## Verificar
 
 ```
-python ferramentas/verificar_modelo/verificar_modelo.py              # segundos: arquivo, cores, SHA, backups esquecidos
-python ferramentas/verificar_modelo/verificar_modelo.py --completo   # minutos: abre sem salvar e compara com Base_verificacao.json
+python ferramentas/verificar_modelo/verificar_modelo.py                         # segundos: arquivo, cores (GuiDocument.xml), SHA, backups esquecidos
+python ferramentas/verificar_modelo/verificar_modelo.py --completo              # ~8 min: abre sem salvar e confere tudo abaixo
+python ferramentas/verificar_modelo/verificar_modelo.py --completo --relatorio  # idem + escreve Relatorio_mudanca.md (aprovação PENDENTE)
 ```
 
-O modo completo acusa **objetos removidos, formas inválidas, expressões perdidas e colisões novas**. A base ([Base_verificacao.json](Base_verificacao.json)) guarda o retrato aprovado, incluindo os contatos que já existem de propósito (fixadores, reservas, marcadores: cerca de 735 comuns positivos entre as formas ativas, que **não são defeitos**).
+O modo completo confere, nesta ordem:
+
+| Trava | O que acusa |
+|---|---|
+| **Invariantes** (`ferramentas/verificar_modelo/invariantes.json`) | Fatos documentados quebrados: TV a 50 mm da porta, bancada 2000×700×30 com topo a 750, `Peca131.LocalY = 1180`, históricos que devem ficar ocultos, controles que devem existir |
+| **Nada novo fora do apartamento** | Objeto visível que passa a ficar fora da caixa das paredes (coordenadas **globais**; peças dentro de contêineres têm coordenadas locais) |
+| **Aparência por objeto** | Cor, transparência ou visibilidade trocadas em qualquer dos 5.832 objetos (lê o `GuiDocument.xml` e os materiais) |
+| **106 cenários de movimento** (`movimentos.json`) | Aplica cada controle em memória (portas 45/86°, gavetas 400/500, banco, cesto, varal, forno…), recalcula, mede os contatos novos entre peças, restaura e confere que o modelo voltou ao estado inicial. Contato novo = erro. Reproduz exatamente os contatos que a R52 registrou |
+| **Objetos removidos, formas inválidas, expressões perdidas, colisões novas** | Como antes; colisões por caixas globais e, nos pares suspeitos, interseção exata |
+
+A base ([Base_verificacao.json.gz](Base_verificacao.json.gz), compactada, não se lê) guarda o retrato aprovado, incluindo os contatos que já existem de propósito (fixadores, reservas, marcadores, e as operações incompatíveis que a R52 já documenta, como abrir a gaveta com a porta fechada). Para ensinar uma regra nova, adicione em `invariantes.json` (tipos: `caixa_global`, `folga_minima`, `propriedade`, `oculto`, `existe`).
 
 ## O que o R52 corrigiu em relação à R51
 

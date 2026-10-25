@@ -1,0 +1,112 @@
+{
+ "_leia_me": "Invariantes do modelo FreeCAD: fatos documentados que nenhuma alteracao pode quebrar. Conferidas por verificar_modelo.py --completo em coordenadas GLOBAIS (mm). Mudar uma regra so com decisao de Elias, no mesmo commit que o modelo e o relatorio de mudanca.",
+ "envelope": {
+  "descricao": "Apartamento: caixa das paredes inteiras (ParedesInteiras). Nenhum objeto visivel novo pode ficar fora dela.",
+  "caixa": [
+   -100,
+   -100,
+   0,
+   7500,
+   7100,
+   2570
+  ],
+  "tolerancia_mm": 1
+ },
+ "regras": [
+  {
+   "id": "tv_escritorio",
+   "tipo": "caixa_global",
+   "descricao": "TV do escritorio (Samsung 43) recuada: Y de 1180 a 2150 (README da R52)",
+   "objeto": "Peca131",
+   "caixa": [
+    2620,
+    1180,
+    820,
+    2670,
+    2150,
+    1380
+   ],
+   "tolerancia_mm": 0.5
+  },
+  {
+   "id": "tv_folga_porta",
+   "tipo": "folga_minima",
+   "descricao": "Folga de 50 mm entre a TV e a folha da porta do escritorio aberta (comeca em Y 2200)",
+   "a": "Peca131",
+   "b": "Peca073",
+   "eixo": "y",
+   "minimo_mm": 50
+  },
+  {
+   "id": "tv_localy",
+   "tipo": "propriedade",
+   "descricao": "Peca131.LocalY = 1180 mm",
+   "objeto": "Peca131",
+   "propriedade": "LocalY",
+   "valor": 1180,
+   "tolerancia": 0.01
+  },
+  {
+   "id": "bancada_escritorio",
+   "tipo": "caixa_global",
+   "descricao": "Bancada do escritorio: 2000 x 700 x 30, topo a 750",
+   "objeto": "Peca110",
+   "caixa": [
+    2700,
+    0,
+    720,
+    4700,
+    700,
+    750
+   ],
+   "tolerancia_mm": 0.5
+  },
+  {
+   "id": "historicos_ocultos",
+   "tipo": "oculto",
+   "descricao": "Estudos e copias historicas ocultos na R52 (tanque antigo, frentes 500, mesa sob medida, cadeiras Lina, atalhos de acesso)",
+   "objetos": [
+    "AcessoControleR006",
+    "AcessoControleR007",
+    "AcessoControleR008",
+    "AcessoControleR009",
+    "AcessoControleR34",
+    "Alternativa500ManterBaseR41",
+    "Alternativa500ManterTopoR41",
+    "CadeiraLinaR30_1",
+    "CadeiraLinaR30_2",
+    "CadeiraLinaR30_3",
+    "EstudoFrente500R41",
+    "Peca091",
+    "Peca092",
+    "Peca093",
+    "Peca094",
+    "Peca095",
+    "Peca096",
+    "Peca097",
+    "Peca098",
+    "Peca358"
+   ]
+  },
+  {
+   "id": "controles_existem",
+   "tipo": "existe",
+   "descricao": "Controles de movimento usados nos cenarios",
+   "objetos": [
+    "ControlePortaR10",
+    "ControleVizinhaR18",
+    "ControleCantoR35",
+    "ControleCestoR15",
+    "BancoR43_Controle",
+    "ControleVaralR35",
+    "ControleFornoR35",
+    "ControleGrelhaInferiorR35",
+    "ControleGrelhaSuperiorR35",
+    "ControleLoopManutencaoR26",
+    "BC43_Controle",
+    "Gaveta",
+    "Gaveta009"
+   ]
+  }
+ ]
+}
