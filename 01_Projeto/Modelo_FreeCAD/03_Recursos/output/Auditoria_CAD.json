@@ -1,7 +1,0 @@
-{
-  "static_module_intersections": [],
-  "parametric_dimension_edit": true,
-  "office_400mm_drawer_motion": true,
-  "ideal_30deg_door_rotation": true,
-  "scope": "Interferências de peças fechadas dentro de cada módulo. Não valida a cinemática de ferragens nem movimentos simultâneos."
-}

@@ -1,6 +1,0 @@
-const fs=require('node:fs'),assert=require('node:assert/strict');
-const cut=(available,step)=>Math.floor((available+1e-9)/step)*step;
-const steps=[2.08,2.5,5,10].map(step=>{const B=cut(65.7-2,step),C=cut(50.7-2,step),m=(B+C)/100;return {step_cm:step,B_cm:B,C_cm:C,total_m:m,fluxo_800_uteis_lm:m*800,potencia_candidata15W_m_W:m*15,corrente_fita12V_A:m*15/12};});
-for(const q of steps){assert(q.B_cm<=63.7);assert(q.C_cm<=48.7)}
-const candidate=steps[0],result={date:'2026-10-06',state:'Cálculos condicionais; passo 2,08 cm e 15 W/m vêm da candidatura local histórica, sem revalidação Stella hoje.',steps,controller:{model:'Shelly Plus RGBW PM; candidato',consumo_declarado_W:'<1.2',corrente_saida_limite_A:4,corrente_fita12V_A:candidate.corrente_fita12V_A,potencia_total_com_1_2W_limite_W:candidate.potencia_candidata15W_m_W+1.2,saldo_25W_aritmetico_W:25-candidate.potencia_candidata15W_m_W-1.2},transmissao_minima_difusor_para800_de1000:0.8,airfryer:{W:1400,V:127,corrente_nominal_A:1400/127,excesso_modelo10_W:1400-1270,saldo_modelo20_W:2032-1400},checks:['Cortes não excedem perfil menos terminais','Corrente = potência/tensão para a fita DC','Saldo fonte inclui limite declarado do controlador; não dimensiona instalação']};
-fs.writeFileSync(__dirname+'/Calculos_complementares.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
