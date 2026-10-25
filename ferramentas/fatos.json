@@ -1,0 +1,248 @@
+{
+  "_leia_me": "Fatos do projeto que nao podem se contradizer entre documentos. Mudar um fato exige decisao de Elias: edite este arquivo e os documentos no mesmo commit. Regex em JSON: barra invertida dobrada.",
+  "fatos": [
+    {
+      "id": "verba",
+      "descricao": "Verba: R$ 120 mil de execucao + R$ 10 mil de reserva intocada",
+      "exigir": [
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "R\\$ ?120 mil"
+        },
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "R\\$ ?10 mil"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "(?i)\\bverba (?:total|de execu[cç][aã]o|do projeto)[^.|\\n]{0,25}R\\$ ?(?!120|10 ?mil)[0-9]",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "README.md",
+            "01_Programa_e_decisoes/Programa_de_necessidades.md",
+            "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md",
+            "05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md",
+            "05_Orcamento_e_cronograma/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area",
+      "descricao": "Apartamento: 40,18 m2 privativos, Torre 2 final 06, 8o andar, dois dormitorios",
+      "exigir": [
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "40,18 m"
+        },
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "Torre 2, final 06"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "(?i)[aá]rea privativa[^\\d\\n]{0,15}(?!40,18)[0-9]+[,.]?[0-9]* ?m",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "README.md",
+            "01_Programa_e_decisoes/*.md",
+            "03_Ambientes/Cozinha/README.md",
+            "03_Ambientes/Lavanderia/README.md",
+            "03_Ambientes/Sala_e_jantar/README.md",
+            "03_Ambientes/Escritorio/README.md",
+            "03_Ambientes/Quarto_e_portas/README.md",
+            "03_Ambientes/Banheiro/README.md",
+            "03_Ambientes/Equipamentos/README.md",
+            "03_Ambientes/Iluminacao/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tensao",
+      "descricao": "Todos os aparelhos em 127 V (decisao de 12/09/2026); 220 V so como referencia historica",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Equipamentos/README.md",
+          "regex": "127 V"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "\\b220 ?V\\b",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "README.md",
+            "03_Ambientes/Cozinha/README.md",
+            "03_Ambientes/Lavanderia/README.md",
+            "03_Ambientes/Sala_e_jantar/README.md",
+            "03_Ambientes/Escritorio/README.md",
+            "03_Ambientes/Quarto_e_portas/README.md",
+            "03_Ambientes/Banheiro/README.md",
+            "03_Ambientes/Equipamentos/README.md",
+            "03_Ambientes/Iluminacao/README.md",
+            "01_Programa_e_decisoes/Programa_de_necessidades.md",
+            "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gas",
+      "descricao": "Gas natural (GN) confirmado por Elias; nao se fala em GLP/botijao",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Cozinha/README.md",
+          "regex": "g[aá]s natural"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "(?i)\\bGLP\\b|botij[aã]o",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "03_Ambientes/Cozinha/README.md",
+            "03_Ambientes/Lavanderia/README.md",
+            "03_Ambientes/Sala_e_jantar/README.md",
+            "03_Ambientes/Escritorio/README.md",
+            "03_Ambientes/Quarto_e_portas/README.md",
+            "03_Ambientes/Banheiro/README.md",
+            "03_Ambientes/Equipamentos/README.md",
+            "03_Ambientes/Iluminacao/README.md",
+            "01_Programa_e_decisoes/Programa_de_necessidades.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forno",
+      "descricao": "Forno: Fischer Infinity 50 L com grill, sem turbo, preto, 127 V, codigo 28349-64929 (Venax e historico)",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Cozinha/README.md",
+          "regex": "28349-64929"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "(?i)forno[^.|\\n]{0,40}\\bvenax\\b",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "03_Ambientes/Cozinha/README.md",
+            "03_Ambientes/Equipamentos/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem_tubos",
+      "descricao": "Regra de Elias: nenhum tubo sustentando chapas de madeira; proposta com tubo exige autorizacao previa",
+      "exigir": [
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "(?i)nenhum tubo"
+        }
+      ]
+    },
+    {
+      "id": "mesa",
+      "descricao": "Mesa Berlin pronta 110/170 x 80 cm (a mesa sob medida 150/180 e historica)",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Sala_e_jantar/README.md",
+          "regex": "110/170"
+        }
+      ],
+      "proibir": [
+        {
+          "regex": "(?i)\\bmesa\\b[^.|\\n]{0,30}\\b150/180\\b",
+          "escopo": [
+            "ESTADO_ATUAL.md",
+            "03_Ambientes/Sala_e_jantar/README.md",
+            "01_Programa_e_decisoes/Programa_de_necessidades.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanque",
+      "descricao": "Tanque da lavanderia: 38 x 35 cm internos, 20 cm de profundidade util",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Lavanderia/README.md",
+          "regex": "38 × 35"
+        }
+      ]
+    },
+    {
+      "id": "cesto",
+      "descricao": "Cesto basculante 45 x 25 x 45 cm, saco removivel, requisito de 8 kg de roupa",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Lavanderia/README.md",
+          "regex": "45 × 25 × 45"
+        },
+        {
+          "arquivo": "03_Ambientes/Lavanderia/README.md",
+          "regex": "8 kg"
+        }
+      ]
+    },
+    {
+      "id": "escritorio",
+      "descricao": "Bancada do escritorio com 70 cm de profundidade (confirmada)",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Escritorio/README.md",
+          "regex": "70 cm"
+        }
+      ]
+    },
+    {
+      "id": "roupeiro",
+      "descricao": "Roupeiro do quarto com 65 cm de profundidade",
+      "exigir": [
+        {
+          "arquivo": "03_Ambientes/Quarto_e_portas/README.md",
+          "regex": "65 cm"
+        }
+      ]
+    },
+    {
+      "id": "revisoes",
+      "descricao": "Revisoes vigentes (modelo, fichas, pacote, aparencia) batem com ferramentas/site/current_release.json",
+      "release": {
+        "campo": "cadRevision",
+        "arquivos": [
+          "ESTADO_ATUAL.md",
+          "02_Modelo_3D/README.md",
+          "README.md"
+        ]
+      }
+    },
+    {
+      "id": "revisao_fichas",
+      "descricao": "Revisao das fichas bate com o release",
+      "release": {
+        "campo": "fabricationRevision",
+        "arquivos": [
+          "ESTADO_ATUAL.md",
+          "README.md"
+        ]
+      }
+    },
+    {
+      "id": "revisao_pacote",
+      "descricao": "Revisao do pacote bate com o release",
+      "release": {
+        "campo": "packageRevision",
+        "arquivos": [
+          "ESTADO_ATUAL.md",
+          "README.md"
+        ]
+      }
+    }
+  ]
+}

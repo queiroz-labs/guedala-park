@@ -6,12 +6,13 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 |---|---|---|
 | `python ferramentas/verificar_tudo.py` | Roda todas as verificações rápidas abaixo de uma vez | segundos |
 | `python ferramentas/verificar_modelo/verificar_modelo.py` | Modelo FreeCAD: arquivo vigente, cores (GuiDocument.xml), SHA do release, backups esquecidos | segundos |
-| `python ferramentas/verificar_modelo/verificar_modelo.py --completo` | Abre o modelo no FreeCADCmd **sem salvar** e compara com a base: objetos removidos, formas inválidas, expressões perdidas, **colisões novas** | minutos |
+| `python ferramentas/verificar_modelo/verificar_modelo.py --completo [--relatorio]` | Abre o modelo no FreeCADCmd **sem salvar** e compara com a base: objetos removidos, formas inválidas, expressões perdidas, **colisões novas**. Com `--relatorio` escreve `02_Modelo_3D/Relatorio_mudanca.md`. Atualizar a base exige `--atualizar-base --aprovado-por "Elias, dd/mm: ..."` | ~4 min |
 | `python ferramentas/verificar_consistencia.py` | Documentos batem entre si (datas, versões, caderno × site) | segundos |
 | `python ferramentas/verificar_links.py` | Links locais quebrados nos `.md` | segundos |
 | `python ferramentas/verificar_tamanho.py` | Limites de leitura: README ≤ 16 KB, `.md` ≤ 60 KB, HTML ≤ 1 MB, dados ≤ 3 MB. Os que já passavam estão congelados em `limites_base.json` (podem encolher, não crescer) | segundos |
 | `python ferramentas/verificar_privacidade.py` | CPF, cartão (Luhn), chaves/tokens, senhas, chave privada e qualquer arquivo de `guedala-pessoal/`; avisa e-mail pessoal e telefone. O repositório e o site são públicos. Achados antigos revisados: `privacidade_base.json` | segundos |
 | `python ferramentas/verificar_afirmacoes.py` | Nas linhas **novas** de `.md`: barra "Elias aprovou…" sem data/F-código/aspas/Registro e "liberado para fabricação" ou "capacidade aprovada" sem ressalva | segundos |
+| `python ferramentas/verificar_fatos.py` | Documentos vigentes não contradizem os fatos de `fatos.json` (verba, área, 127 V, gás natural, forno, mesa, medidas-chave, revisões do release). Linhas que falam de histórico/substituição não contam | segundos |
 | `python ferramentas/verificar_site.py` | Testes do site e build como o CI faz, em pasta temporária (hook de pre-push) | ~10 s |
 | `python -B ferramentas/site/construir.py` | Regenera o site a partir de `ferramentas/site/src/` | segundos |
 | `ferramentas/cinematica/consultar.py` | Posições de portas e gavetas sem abrir o FreeCAD | segundos |
