@@ -1,5 +1,7 @@
 # Pendências atuais — publicação R52/R18
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. DIM-001 segue pendente; o escritório tem cenário separado de 247 cm com forro.
+
 > **Publicação R52/R18:** [modelo FreeCAD R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd), pacote R18 e fichas R14. [Estado da publicação e conferência remota](../ESTADO_ATUAL.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
 
 [Avanços, evidências e responsáveis por dependência](../04_Moveis/Proximas_decisoes/README.md). R52 preservada; estudos separados não são peças incorporadas nem cargas aprovadas.

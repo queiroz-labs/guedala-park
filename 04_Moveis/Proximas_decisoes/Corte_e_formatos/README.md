@@ -1,6 +1,8 @@
 # Corte nominal e formatos — lista-base R52 e propostas separadas
 
-25/10/2026. A triagem foi ampliada para os **249 painéis da lista-base inteira** e as **36 peças das sete propostas**, sem incorporar nenhuma proposta ou alterar CAD/lista de materiais. Foi fechado o requisito dimensional do fundo P01, com margens e orientação explícitas, e criado um arranjo geométrico preliminar de210 painéis com especificação suficiente para agrupamento documental. Os39 restantes estão identificados por peça, sem comprar ou escolher material em seu lugar.
+**Regra vigente 25/10 aplicada aos agrupamentos:** um padrão por chapa física, igual nas duas faces. Duas peças separadas 18+15 podem ter cores distintas, com IDs/constituição definidos; nenhuma segunda chapa foi acrescentada. Os CSV/JSON e 16 desenhos vigentes foram reemitidos com a [regra por peça](../../../ferramentas/site/fabrication/Decisao_acabamentos_R13.md). São arranjos geométricos virtuais, não compra/corte aprovados.
+
+**Base reconciliada:**249 painéis das fichas, 248 na auditoria de acabamentos; o apoio P13/Peca350 não tem entrada nessa auditoria e permanece excluído por acabamento indefinido. 215 painéis entram no ensaio, 34 continuam com bloqueio identificado. Dimensões/IDs dos 249 e área 59,262776 m² preservados; CAD/fichas/orçamento não alterados. As 36 peças de sete propostas continuam separadas. [Conferência por ID e fontes](Reconciliacao_acabamentos.json).
 
 ## O que cabe nos formatos examinados
 
@@ -42,38 +44,37 @@ Os requisitos podem ser usados agora como filtro objetivo de produto: dimensão 
 
 Hipóteses editáveis em [Parametros.json](Parametros.json): refilo 10 mm em cada borda; serra 3,2 mm entre envelopes; sobremetal 0 mm por borda do blank. Não foram descontadas fita ou selagem das dimensões nominais. Os formatos são chapas **virtuais** de 2750×1850 e 2750×2100; a referência comercial 18 mm do segundo formato não foi extrapolada como disponibilidade comprovada para 15/16 ou outros padrões.
 
-| Grupo | Especificação de faces registrada | Esp. nominal | Peças incluídas | Chapas virtuais no ensaio com rotação |
+| Grupo | Padrão único, igual nas duas faces | Esp. nominal | Peças incluídas | Chapas virtuais no ensaio com rotação |
 |---|---|---:|---:|---:|
-| G01 | BrancoTX, faces internas |15 |35 |1 |
-| G02 | BrancoTX, faces internas |16 |8 |1 |
-| G03 | BrancoTX, faces internas |18 |103 |6 |
-| G04 | BrancoTX interno + BeigeMatt aparente |18 |2 |1 |
-| G05 | BrancoTX interno + LouroFreijóPoro aparente |18 |4 |1 |
-| G06 | BrancoTX interno + Arenza aparente |18 |2 |1 |
-| G07 | BrancoTX interno + GreenplacArenza aparente |18 |29 |2 |
-| G08 | BrancoTX interno + AzulPetróleo aparente |18 |20 |2 |
-| G09 | BrancoTX interno + Off-white aparente |18 |7 |1 |
+| G01 | Arauco BeigeMatt |18 |2 |1 |
+| G02 | Arauco LouroFreijóPoro |18 |4 |1 |
+| G03 | BrancoTX |15 |35 |1 |
+| G04 | BrancoTX |16 |8 |1 |
+| G05 | BrancoTX |18 |101 |6 |
+| G06 | Greenplac Arenza liso |18 |38 |3 |
+| G07 | Guararapes AzulPetróleo |18 |20 |2 |
+| G08 | Off-white fosco |18 |7 |1 |
 
-Foram mantidos os textos de especificação distintos, inclusive G06/G07; não se presumiu que tenham o mesmo produto, lote, face reversa ou processo. Poderão ser reconciliados quando os códigos e a composição forem fechados. A seleção de duas faces não prova que exista chapa dual comercial pronta; todos os grupos continuam condicionados a substrato/produto/processo.
+Os grupos refletem os padrões documentais atuais e a espessura; não comprovamSKU/substrato, lote, estoque, orientação ou processo. Arenza é liso; não acrescentar veio decorativo por antiga descrição amadeirada. Peças de padrão apenas referencial continuam excluídas. Espelhos são componentes separados, sem atribuir outra cor à face do painel.
 
-O ensaio com rotação livre encontrou **16 chapas virtuais para210 painéis**:15 pequenas e1 grande. O ensaio com C nominal paralelo a2750 encontrou17:16 pequenas e1 grande. Esses números **não cobrem os39 painéis excluídos, as36 propostas ou perdas de processo**, nem constituem pedido de compra. A heurística experimenta três ordens de empacotamento e escolhe um arranjo encontrado; não demonstra o mínimo de chapas. Alterar serra/ordem pode mudar suas escolhas, sem uma relação monotônica entre parâmetro e contagem encontrada.
+Os dois cenários encontraram **16 chapas virtuais para 215 painéis**: 15 pequenas e 1 grande. Isso **não cobre os 34 excluídos, 36 propostas ou perdas de processo** e não é pedido de compra. A heurística testa três ordens e escolhe um arranjo encontrado, sem demonstrar mínimo ou ganho financeiro. Rotação livre e C paralelo 2750 são hipóteses geométricas; não identificam o veio nem autorizam rotação de peças reais.
 
 Os 83 painéis recortados/especiais da base foram triados pelo retângulo envolvente; os que entram no arranjo ocupam o blank inteiro, sem encaixar recortes uns nos outros. Os desenhos não representam contornos finais, furos, rasgos, CNC ou sequência executiva de serra.
 
-[Todos os posicionamentos, grupos e cenários](Arranjos_preliminares.csv) · [plano completo emJSON](Planos_preliminares.json) · [exemplo do fundo P01](Planos_svg/G03_chapa_01.svg) · [exemplo das caixas de gavetas15](Planos_svg/G01_chapa_01.svg). A pasta `Planos_svg` contém os16 desenhos do primeiro cenário; osIDs e dimensões podem ser ampliados sem perda de resolução.
+[Posicionamentos](Arranjos_preliminares.csv) · [plano JSON](Planos_preliminares.json) · [fundo P01](Planos_svg/G05_chapa_01.svg) · [gavetas 15](Planos_svg/G03_chapa_01.svg). Os 16 SVG listados no JSON são vigentes. Sete caminhos antigos sem chapa correspondente agora mostram aviso de substituição; não são chapas adicionais. Nenhum arquivo foi apagado/movido.
 
-## Os39 painéis sem definição suficiente para este arranjo
+## Os 34 painéis excluídos do ensaio
 
 Motivo principal de exclusão, sem esconder motivos adicionais:
 
 | Motivo principal | Painéis |
 |---|---:|
-| Material/padrão aparente ainda registrado como referência |23 |
+| Material/padrão aparente ainda registrado como referência |18 |
 | Faces ou composição explicitamente parciais |12 |
 | Espessura de envelope 16,2 ou 30 sem produto construtivo tratado neste plano |2 |
 | Espelho como camada distinta, composição do substrato ainda não formalizada |2 |
 
-Entre as faces/composições parciais estão as duas tampas20 do banco, laterais do escritório, quadro do banheiro e reservasP08. A faixa7 também tem padrão de referência, por isso aparece no primeiro motivo, sem virar chapa comercial por seu envelope. As tampas do banco continuam com face superior, recessos e composição/fixação da piano/trava pendentes; a menção superada ao receptorR47 foi corrigida nas fontes antes desta extração, sem alterar dimensões ou escolher painel.
+Os 12 casos de acabamento/composição parcial incluem 11 da auditoria mais P13/Peca350: apoio do micro, tampas do banco, laterais do escritório, quadro do banheiro, base do espelheiro e reservas P08. Os 18 referenciais já têm direção de aparência, mas não código fechado. Dois casos de espessura e dois de espelho são bloqueios construtivos, não quatro novas cores a escolher. Ver IDs/motivos no CSV; não decidir acabamento ou fabricar por esta contagem.
 
 Em nenhum dos 249 registros CSV existe um campo que fixe produto construtivo completo e direção do veio por ID. Isso não apaga decisões de acabamento: impede converter o arranjo nominal em autorização de rotação, compra e corte. A relação [Peças_sem_definicao_suficiente.csv](Peças_sem_definicao_suficiente.csv) informa IDs, dimensões e motivo exato, permitindo fechar as definições com a oficina antes das chaves.
 
@@ -98,14 +99,13 @@ As 36 peças continuam em sete kits não adotados. Não há total “base + toda
 ## Reprodução e conferências
 
 ```powershell
-python analisar.py
-python verificar.py
+python -B ferramentas/corte/reconciliar_acabamentos.py
 ```
 
-Usam somente a biblioteca padrãoPython. A execução desta entrega usou oPython disponibilizado pelo ambiente. O primeiro script lê as20 listasCSV atuais e as fontes locais dos estudos/formatos; não abre, recomputa ou salva documentosFreeCAD. `CAD_DATA.current_revision` foi conferido comoR52. Os hashes dosCSV, estudos e cacheCAD são registrados antes e depois; a entrada permaneceu igual durante a análise.
+Executar da raiz. O comando usa os geradores/verificadores anteriores e a auditoria por ID, apenas biblioteca padrão Python. Reemite dados/SVG, preserva dimensões/IDs, confere padrões iguais e mantém P13 como pendente. Hashes dos 20 CSV, estudos, regra, auditoria e CAD registrados antes/depois; sem abrir FreeCAD. `analisar.py` e `verificar.py` continuam ferramentas internas do estudo, chamados pelo comando integrado.
 
-[Verificacao.json](Verificacao.json) registra4.045 pares conferidos nos dois cenários, sem sobreposição nem intervalo inferior à serra declarada, cobertura exata dos210IDs por cenário, separação dos39 excluídos, limites da janela útil, espessura/especificação por grupo e regras de rotação do cenário. Reconciliou249 registros/área com osCSV agrupados por uma leitura independente,36 propostas/11 substituições/25 acréscimos e os sete totais de área. Testes de fronteira doP01 e alterações controladas de sobreposição/duplicação foram detectados. A serra foi reavaliada em0/3,2/6,4mm, com novo empacotamento e conferência geométrica a cada valor.
+[Verificacao.json](Verificacao.json): 3956 pares nos dois cenários sem sobreposição/violação da serra, 215 IDs exatos por cenário, 34 excluídos, margens, espessura/padrão e rotação conferidos. Reconciliou 249 registros/área, 36 propostas/11 substituições/25 acréscimos e sete totais. Detectou sobreposição/duplicação inseridas de propósito; fronteiras P01 e serra 0/3,2/6,4 mm conferidas. A [reconciliação de acabamentos](Reconciliacao_acabamentos.json) acrescenta cobertura 248/249, padrões iguais, fontes e geometria preservadas.
 
-OsSVG de uma chapa densa e da chapa grande do fundo foram renderizados e inspecionados. Nenhuma parede ou medida real foi inventada. Restam dados de produto e oficina: substrato e composição, faces, veio, fita/selagem, dimensões de compra úteis, ferramentas, manuseio, contornos especiais e validação das ligações. Não houve compra, contato ou publicação.
+Os 16 SVG atuais foram conferidos como XML; posições, margens e serra pelo verificador geométrico. Restam substrato, códigos, veio, fita/selagem, formato útil, ferramentas, manuseio, contornos especiais e ligações. Sem compra, contato, publicação ou alteração no CAD.
 
 Fontes locais: [quantitativos anteriores](../../Quantitativos/README.md), [formatos registrados e referências de origem](../../Quantitativos/Formatos_e_pendencias.json), fichas R14 correntes e [hashes de cada entrada](Fontes_e_hashes.json). A origem comercial dos formatos foi aproveitada como evidência local; não foi feita nova pesquisa de catálogo/estoque nesta etapa.

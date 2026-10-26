@@ -110,8 +110,8 @@
     {
       "id": "rotacao_livre",
       "virtual_sheets": 16,
-      "included_panels": 210,
-      "excluded_panels": 39,
+      "included_panels": 215,
+      "excluded_panels": 34,
       "sheets_by_format": {
         "2750x1850": 15,
         "2750x2100": 1
@@ -119,11 +119,11 @@
     },
     {
       "id": "C_paralelo_2750",
-      "virtual_sheets": 17,
-      "included_panels": 210,
-      "excluded_panels": 39,
+      "virtual_sheets": 16,
+      "included_panels": 215,
+      "excluded_panels": 34,
       "sheets_by_format": {
-        "2750x1850": 16,
+        "2750x1850": 15,
         "2750x2100": 1
       }
     }

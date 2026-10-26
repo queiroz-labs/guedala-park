@@ -1,12 +1,14 @@
 /* Dados atuais do projeto. Medidas em centímetros, salvo indicação. */
 const PROJECT={
   "revision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
-  "date": "25 outubro 2026",
+  "date": "26 outubro 2026",
   "mirrored": false,
   "name": "Guedala Park",
   "area": "40,18 m²",
   "unit": "Torre 2 · final 06",
-  "ceiling": 247,
+  "ceiling": 260,
+  "officeCeilingStudy": 247,
+  "heightStudy": "2,60 m = 260 cm = 2600 mm — medida a confirmar; hipótese para testes, não fabricação. Elias, 26/10/2026. Não é medição do Guedala nem média do Vila das Belezas 3. Escritório: cenário separado de 2,47 m com forro, a confirmar. Forros, sancas e rebaixos não têm alturas verificadas.",
   "note": "Projeto inteiro pronto antes da mudança. Escolhas de programa preservadas. Medidas, produtos candidatos, estudos de construção e fabricação continuam condicionados.",
   "rooms": [
     {
@@ -591,7 +593,7 @@ const ITEMS=[
     "measure": "Projeto aprovado",
     "material": "offwhite",
     "source": "R28/R31 e decisão17/10/2026",
-    "notes": "Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm. Setor para um capacete, uma sapatilha e um kit de ferramentas, com prateleiras reguláveis e ferramentas no estojo. Não criar módulo baixo ou móvel para caixa do PC. Dimensões dos objetos, carga e alcance a conferir."
+    "notes": "Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm no cenário separado de forro do escritório, a confirmar. A hipótese geral de 260 cm para novos testes (Elias, 26/10/2026) não muda esse móvel nem valida o forro. Setor para um capacete, uma sapatilha e um kit de ferramentas, com prateleiras reguláveis e ferramentas no estojo. Não criar módulo baixo ou móvel para caixa do PC. Dimensões dos objetos, carga e alcance a conferir."
   },
   {
     "id": "officeshelf",
@@ -675,7 +677,7 @@ const ITEMS=[
     "measure": "Transição com lavanderia a conferir",
     "material": "petrol",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "A/D com divisória vertical. B com uma prateleira. C com três. D continua com 65 cm e avança 2,5 cm rumo à lavanderia. C cresce a 54,7 cm na proposta. Topo 255 e teto 257 cm são hipóteses. Perfil preto fosco na borda inferior, dobradiças amortecidas. Abertura integral preservada junto ao plafon."
+    "notes": "A/D com divisória vertical. B com uma prateleira. C com três. D continua com 65 cm e avança 2,5 cm rumo à lavanderia. C cresce a 54,7 cm na proposta. Topo 255 cm preservado. Teto 257 cm pertence ao cenário anterior; novos testes usam 260 cm, medida a confirmar (Elias, 26/10/2026). A diferença aritmética de 5 cm não valida instalação ou folga. Perfil preto fosco na borda inferior, dobradiças amortecidas. Abertura integral preservada junto ao plafon."
   },
   {
     "id": "fridge",

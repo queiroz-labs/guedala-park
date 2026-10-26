@@ -1,6 +1,6 @@
 # Ferragens reais da mesa — 20/10/2026
 
-Baixados do fabricante: sete [arquivos STEP Hettich Trimanis](Trimanis_STEP), [pacote original](Hettich_mesas_STEP_oficial.zip) e [biblioteca FreeCAD](Biblioteca_Hettich_Trimanis.FCStd). As sete geometrias foram importadas e verificadas: não vazias e válidas. [Dimensões e integridade](Validacao_STEP.json).
+Baixados do fabricante: sete [arquivos STEP Hettich Trimanis](Trimanis_STEP), pacote original `Hettich_mesas_STEP_oficial.zip` (somente no PC, fora do Git/site) e [biblioteca FreeCAD](Biblioteca_Hettich_Trimanis.FCStd). As sete geometrias foram importadas e verificadas: não vazias e válidas. [Dimensões e integridade](Validacao_STEP.json).
 
 [Catálogo Pöttker](Poettker_catalogo_oficial.pdf), [seção BASIC47](Basic47_secao_oficial.png) e [cursos](Basic_cursos_oficial.png) também foram baixados. A seção mostra altura total50 mm, perfil48 mm, largura total36 mm e perfil14 mm. A reserva genérica atual de47 mm não representa integralmente esta seção. A tabela pública lista B/850.4 para folha500, não confirma um código pronto específico para folha300.
 

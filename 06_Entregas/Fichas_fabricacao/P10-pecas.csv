@@ -1,8 +1,8 @@
 ﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
-Peca324 | Peca325;Lateral direita / Lateral esquerda;2;1018.0;330.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca326;Fundo;1;982.0;511.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca327;Base;1;511.0;312.0;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca328;Tampo;1;511.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca329 | Peca330 | Peca331;Prateleira;3;511.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX · faces internas;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-FrenteComumR004;C · uso diário - porta direita — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
-FrenteComumR005;C · uso diário - porta esquerda — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;"face interna Branco TX; face aparente Guararapes Azul Petróleo";Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+Peca324 | Peca325;Lateral direita / Lateral esquerda;2;1018.0;330.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca326;Fundo;1;982.0;511.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca327;Base;1;511.0;312.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca328;Tampo;1;511.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca329 | Peca330 | Peca331;Prateleira;3;511.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR004;C · uso diário - porta direita — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
+FrenteComumR005;C · uso diário - porta esquerda — frente com canecos;1;1016.0;270.5;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

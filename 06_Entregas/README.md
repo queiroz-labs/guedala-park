@@ -1,12 +1,15 @@
 # Entregas — publicação R52/R21
 
+**Publicação R22 — 26/10/2026:** integra estudos correntes e pé-direito 2,60 m = 260 cm = 2600 mm, medida a confirmar, por decisão de Elias em 26/10/2026. Cenário separado de forro do escritório: 2,47 m. Sem medição real, fabricação ou alteração do FreeCAD R52. Fonte: [pesquisa e decisão](../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+
 > **Atualização R52/R21:** modeloR52 e fichasR14; pacoteR21 com matriz20/20 e suspensãoP17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
 
 | Uso | Abrir | Revisão |
 |---|---|---|
 | Modelo3D FreeCAD | [Modelo completo R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [conferências](../02_Modelo_3D/README.md) | R52 |
 | Pacote corrente para compartilhar | [Guedala_Park_R21.zip](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip) | R21 |
-| Entrega anterior selada | [R17](Compartilhar_R17/Guedala_Park_R17.zip) | Histórico preservado, não regenerado |
+| Entrega anterior selada | `Compartilhar_R17/Guedala_Park_R17.zip` (somente no PC, fora do Git/site) | Histórico preservado, não regenerado |
+| Guia do montador | [Dossiê de marcenaria](Dossie_marcenaria_R45.html) | Links para as fichas na pasta vigente `Fichas_fabricacao/` |
 | Fichas, furação e pendências | [20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14 |
 | Planta cotada | [Planta](Planta_cotada/index.html) | R13 |
 | Especificações | [Caderno](../01_Programa_e_decisoes/Caderno_de_especificacoes.md) | R01 com referência CAD corrente |
@@ -19,7 +22,7 @@ Extraia o ZIP inteiro, abra `COMECE_AQUI.html` pelo menu da pasta extraída e us
 | Uso | Abrir | Revisão |
 |---|---|---|
 | Modelo 3D (FreeCAD) | [Guedala_Park_R49_Gavetas_escritorio.FCStd](../02_Modelo_3D/Historico/Gavetas_escritorio/Guedala_Park_R49_Gavetas_escritorio.FCStd) | R49: R48 + gavetas do escritório corrigidas (folga de 7 mm, trava direita espelhada) |
-| Pacote para o montador | [Compartilhar_R16](Compartilhar_R16/Guedala_Park_R16.zip) | R16 |
+| Pacote para o montador | `Compartilhar_R16/Guedala_Park_R16.zip` (somente no PC, fora do Git/site) | R16 |
 | Fichas dos 20 móveis, furação e pendências | [Fichas_fabricacao_R13](Fichas_fabricacao/index.html) (conteúdo R14) | R14 |
 | Planta cotada | [Planta_cotada_R13](Planta_cotada/index.html) | R13 |
 | Programa, planta mobiliada e vistas | [Programa R01](../01_Programa_e_decisoes/Programa_de_necessidades.md) · [Planta R02](../03_Ambientes/Planta_mobiliada/README.md) | R01 / R02 |
@@ -59,4 +62,4 @@ Os nomes preservam assunto, data e revisão. R28 não inclui automaticamente mud
 
 Projeções dos vinte módulos atualizadas da R30, corte de cocção, ferragens de referência, complementos e ficha de resposta. Sete apoios propostos como alternativa separada. Orçamento preliminar condicionado; sem liberação de fabricação. As entregas R28 abaixo são históricas.
 
-**Pacote localR17 —25/10/2026:** [baixar ZIP com FreeCADR52 e fichas atuais](Compartilhar_R17/Guedala_Park_R17.zip). [Avanços e condições](../04_Moveis/Proximas_decisoes/README.md). Os links publicadosR16 abaixo continuam históricos; não houve publicação remota desta entrega.
+**Pacote localR17 —25/10/2026:** `Compartilhar_R17/Guedala_Park_R17.zip` (cópia local, fora do Git/site). [Avanços e condições](../04_Moveis/Proximas_decisoes/README.md). O registro R16 é histórico; este ZIP R17 não está disponível no clone ou no site.

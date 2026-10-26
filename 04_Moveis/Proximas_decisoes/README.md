@@ -6,8 +6,8 @@
 
 | Frente | Entrega concreta | O que este resultado fecha |
 |---|---|---|
-| Caixa superior P01/P03 | [54 cenários, interfaces BREP e12 equilíbrios por painel](P01_P03/README.md) | Pesos próprios de topo/fundo/laterais/portas separados; forças/momentos compartilhados na travessa e no fundo. Identificado também contato traseiro324mm² sob uma lateral. Não é cálculo de flecha ou resistência. |
-| Corte e formato | [249 painéis atuais e36 propostas triados; arranjos de210 painéis](Corte_e_formatos/README.md) | Requisito útil do fundoP01 e orientação corretos, margem/refilo e exclusões por peça.39 painéis ainda sem definição suficiente para este arranjo. Não é compra ou plano executivo. |
+| Caixa superior P01/P03/P02 | [P02 individualizado, mapa de juntas e81 novos cortes](P01_P03/README.md) | Nove casos com20kg na ponta não se equilibram apenas por compressão P02–P01. Desenvolver C01 entre laterais e topo P03 inteiro650, como estudos separados; Confirmat+cavilha preservado nas uniões ocultas adequadas. Sem capacidade ou flecha demonstradas. Etapa anterior54 cenários/12 equilíbrios preservada. |
+| Corte e formato | [249 painéis/36 propostas triados;215 no arranjo por acabamento único](Corte_e_formatos/README.md) |34 excluídos,16chapas virtuais;auditoria248 maisP13 sem entrada. Refilo/serra/IDs conferidos;nenhuma compra/corte executivo. |
 | Micro-ondas | [Alternativa FreeCAD separada para300mm superiores](Instalacao_e_P16/README.md) | Apoio/aparelho200mm mais baixos cabem nominalmente sem cortar o aéreoB. A posição F104 com100mm continua na R52; a alternativa não foi adotada. |
 | Ferramenta de cálculo | [Fotografia e consulta offline da própria R52](Cinematica/README.md) |4 planilhas/867 células/24 folhas extraídas;66 poses nativas R52 e528 referências anteriores verificadas;1.914 matrizes testadas. Próximos cálculos podem usar o arquivo numérico sem abrir o CAD completo. |
 | Entrega compartilhável | Pacote R18 · [preparo anterior R17 selado](Pacote_local/README.md) | Publicação R52/R18 autorizada; confirmação remota no Estado atual. O R17 não foi regenerado. |
@@ -17,10 +17,10 @@
 
 | Pendência | Situação agora | Próxima evidência necessária | Depende de medir o apartamento? |
 |---|---|---|---|
-| Juntas da caixa superiorP03 e ligação à P01/P02 | Equilíbrio e demandas nominais disponíveis; contatos sem juntas não fecham o modelo | Topologia real de juntas, conectores, constituição da chapa e curvas/capacidades nas orientações de uso. A caixa internaP02 ainda precisa de detalhamento próprio. |Não para esse desenvolvimento; ancoragem/execução final sim |
+| Juntas da caixa superiorP03 e ligação à P01/P02 | P02 individualizado; esquema com C01 e topo P03 inteiro650 propostos; fundos P02 só compartilham aresta, faixas têm folga2 | Grupos reais Confirmat+cavilha e C01, chapa/produto, curvas/capacidades, fechamento dos painéis e transferência até P01. Conferir ferragens/contexto da geometria proposta antes de integrar |Não para esse desenvolvimento; ancoragem/execução final sim |
 | Apoio inferiorP01/soco | Propostas e caminhos analisados, ainda separados | Escolha do desenho, retenção/uniões, compatibilidade da caixa e comprovação do conjunto |Parte de projeto pode avançar; contato/nivelamento real do piso fica para o imóvel |
 | FundoP01 inteiro | Orientação e janela útil demonstradas;2750×1850 não comporta o atual | Produto18mm, faces, direção permitida, dimensão útil, fornecimento e transporte. Emenda só com projeto próprio |Não para selecionar produto/solução; acesso real para entrega/montagem sim |
-|39 painéis fora do arranjo preliminar |IDs e motivos listados | Fechar substrato, faces, composição/espessura e processo; depois completar corte/contornos/fita |Não |
+|34 painéis fora do arranjo preliminar |IDs e motivos listados;P13 sem entrada na auditoria248 | Fechar padrão único/constituição porID, substrato, espessura e processo;depois corte/contornos/fita |Não |
 | Bancada e gaveteiroP16 | Proposta de cinco painéis e cenários de estabilidade existentes | Constituição/massa do tampo30, juntas positivas tampo–pedestal–travessa, carga de uso, resistência/deformação e protótipo |Produto/projeto/oficina podem avançar; piso/fixação real são posteriores |
 | InterfaceMOVENTO400/fundo | Furos e18 regiões localizados; nenhum corte arbitrário feito | Configuração individual400, datum/regulagem do STEP e montagem piloto do produto/engates reais |Não |
 | BancoP20 e cestoP14 | Direção piano/trava preservada; massa/esforços condicionais já calculados | Painéis e massas completos, geometria de ferragens/terminais, apoio, parada/retenção e ensaio cheio/vazio |Não para produto e protótipo; implantação final sim |
@@ -35,7 +35,7 @@ O fechamento de produto e oficina pode ocorrer antes das chaves. As linhas dessa
 ## Resultados que mudam a próxima decisão
 
 - **FundoP01:** com refilo10mm/borda e sem sobremetal do blank, o bruto precisa permitir2116×1984 para o atual ou2134×1984 para o proposto. Em2750×2100, a dimensão2096/2114 deve acompanhar2750. “Caber” não seleciona padrão/faces/fornecedor. [Todas as margens e orientações](Corte_e_formatos/Requisito_fundo_P01.csv).
-- **Corte:**16 chapas virtuais foram encontradas para210 painéis com rotação livre, contra17 no cenário de orientação nominalC. Ambos excluem39 painéis e as36 propostas; não são quantitativo de compra, aproveitamento ótimo ou autorização de girar veio.4.045 pares foram conferidos nos cenários principais.
+- **Corte:**16chapas virtuais/215painéis em ambos cenários,34 excluídos e36 propostas separadas. Regra atual:um padrão por chapa física.3956 pares/margens/serra/IDs conferidos;sem compra, mínimo ótimo ou autorização de girar veio.
 - **Caixa superior:** apoio traseiro não garante alívio da travessa frontal; o efeito depende da ligaçãoP02↔P03. Um autoequilíbrio demonstrado mostra que a estática sozinha não fornece envelope finito de solicitações das juntas. Acrescentar molas/rigidez sem fonte produziria uma conclusão fictícia. [Detalhes e limites](P01_P03/README.md).
 - **Micro:** o estudo leva o topo do aparelho a1640 e preserva o aéreo em1940, obtendo300mm. Reduz de612 para412mm a altura livre sob a prateleira sobre a bancada. Não há margem vertical além do mínimo e nenhuma adoção dessa alteração.
 

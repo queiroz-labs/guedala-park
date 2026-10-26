@@ -1,5 +1,7 @@
 # Regras do projeto Guedala Park
 
+> **Regras críticas (resumo; detalhes nas seções abaixo):** `git status` antes de tudo · commits pequenos, um assunto por commit, cedo (não acumule arquivos sem commit) · `git add` só por caminho, nunca `-A` · `python ferramentas/verificar_tudo.py` antes de cada commit · clone limpo com `--ci` antes de cada push · README da área + `ESTADO_ATUAL.md` no mesmo commit · não mude o modelo FreeCAD sem pedido de Elias · nunca "Elias aprovou" sem fonte na linha · nada pessoal no repositório · sem `__pycache__`/`node_modules`/backups na pasta · ao encerrar, informe o que ficou sem commit.
+
 Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Seguir sempre, sem precisar pedir.
 
 ## 0. Como ler este projeto gastando poucos tokens

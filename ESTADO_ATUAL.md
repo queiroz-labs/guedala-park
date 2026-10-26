@@ -1,5 +1,7 @@
 # Guedala Park — estado atual
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. O escritório mantém cenário separado de 2,47 m com forro, também a confirmar. [Referências e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md). FreeCAD R52 preservado; a altura geral de referência do site passa a 260 cm.
+
 Fonte única de verdade do projeto. Em caso de divergência com qualquer outro documento, vale esta página. Atualizada em 26/10/2026.
 
 ## O projeto
@@ -9,6 +11,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 - **Objetivo:** mudar com tudo pronto, com dois meses de obra depois das chaves e mudança no terceiro mês.
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
 - **Regra fixa de Elias:** nenhum tubo sustentando chapas de madeira, nem quadro metálico substituto. Qualquer proposta desse tipo exige autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
+- **Chapas e cores:** um acabamento por chapa física, igual nas duas faces. Duas peças distintas podem combinar externa 18 mm no padrão do projeto e interna 15 mm BrancoTX, com identificação e conferência de geometria/ligações/cargas. Não presumir caixa dupla nem inserir 15 mm automaticamente. No P03 atual há chapas únicas 18 mm, sem caixa interna 15 contínua. [Regra e auditoria por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 
 ## Versões vigentes
 
@@ -26,9 +29,9 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R00 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
-| Site e pacote para o montador | Site com R52; pacote R21 e estudos P17/P12 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
+| Site e pacote para o montador | Site com R52; pacote R22 e estudos P17/P12 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
 
-O pacote R21 acrescenta a matriz 20/20 e os estudos separados de suspensão P17/P12, com desenhos, vetores e requisitos de qualificação. Biblioteca e fichas do site dão acesso aos estudos; geometria R52 preservada. Atualização/publicação autorizada por Elias em 26/10/2026: “commit push atualiza o site”.
+O pacote R22 integra o pé-direito de teste e os estudos correntes; preserva a matriz 20/20 e os estudos separados de suspensão P17/P12, com desenhos, vetores e requisitos de qualificação. Biblioteca e fichas do site dão acesso aos estudos; geometria R52 preservada. Atualização/publicação autorizada por Elias em 26/10/2026: “commit push atualiza o site”.
 
 ## Onde estamos
 
@@ -47,9 +50,11 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 ## Decisões tomadas
 
-- **Cores:** interiores Branco TX; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
+- **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).
 - **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura. Luz geral com três níveis de brilho pelo interruptor; conjunto Jurerê/SceneSwitch candidato, cerca de R$ 110 ([CB02](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md)).
+- **Abertura do canto P02:** duas portas independentes e quina fixa, [mockup em quatro situações](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png). Cores apenas didáticas; curso 86° ilustrativo, ferragens/limitador e folgas continuam condicionados. R52 preservada.
+- **Maleiro P03:** Elias prefere **A, duas folhas 672 ×306**, e confirmou **Arenza liso**. [Base de chapa e avaliação](04_Moveis/P03/README.md): MDFBP Greenplac convencional 18 para uso seco, ArenzaColore/Lizze nas duas faces de cada peça P03. Cada chapa tem um único padrão. Conjunto com duas peças 18+15 pode ter cores distintas; no P03 não há caixa interna 15 contínua. SKU/substrato ainda a confirmar. Referência de porta 2,554 kg por área da chapa publicada 63,2 kg/2750×1850; mantida hipótese acabada 4 kg. Grupo candidato 6 dobradiças 71B3550 +6 calços 173H7100 +6 limitadores 70T3553, extremos 202 e 24 parafusos; capacidade 672/proporção baixa, fixação/pilotos, corpos e caixa 20 kg pendentes. Em 86°, corredor nominal 602/1203 com uma/duas abertas, altura 272; 16 trajetórias sem frentes/madeiras selecionadas e 72 cortes apenas de equilíbrio. Aplicação autorizada **se atender**, ainda não executada. Consultas locais prontas, não enviadas; R52 preservada. Malas reais e terceira condicionadas; B650 secundária.
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra. [Luminárias nos ambientes](09_Referencias/Iluminacao_CB02/Galeria.md).
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
 - **Banheiro:** gabinete com portas de correr e frente removível; uma parede verde no box. Luz de teto/indireta 3000 K e espelho 4000 K, três comandos. [Componentes L02: R$ 612,64 à vista](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html). Chapas: Arauco Beige Matt e Louro Freijó Poro.
@@ -63,7 +68,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 | Móvel | Já feito | Falta |
 |---|---|---|
-| P01/P03 | [Caixa superior e caminhos compartilhados](04_Moveis/Proximas_decisoes/P01_P03/README.md): 54 cenários, 12 equilíbrios por painel. [Caminho ao piso](04_Moveis/P01/Apoios_ao_piso/README.md), [massas](04_Moveis/P01/Massas_equilibrio/README.md): 315,9 kg sem conteúdo | Curvas e capacidades reais das juntas, detalhamento interno P02. O fundo P01 (1964×2096) não cabe em chapa 2750×1850: confirmar fornecimento ou projetar emenda estrutural |
+| P01/P03/P02 | [Ligação e caminho ao piso](04_Moveis/P03/README.md): 1728 casos condicionais acoplados. C01: seis posições passantes candidatas, tração 201 N/cisalhamento 33 N por ponto na hipótese central P03 com malas 20 kg/P02 sem conteúdo. Divisória→base 18→soco 62 alinhado, contato 9900 mm²; pé até 646 N/base 0,05 mm. R52 preservada | Produto completo/ensaio MDF e rigidez/resistência C01/juntas; nivelamento/piso e posicionamento do soco, aparência frontal 62; deformação superior ainda≈8,1–8,5 mm no estudo 18. Definir carga P02 e validar ferragens/manuseio antes de 18/25 ou CAD. 20 kg não demonstrados. Fundo P01 inteiro 1964×2114 exige fornecimento/emenda compatível |
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md): 660 casos. [Auditoria P04](04_Moveis/Ligacoes_sem_tubos/P04_auditoria_referencias.json): 869,5/300 = 2,898 mm, flecha 1,523 mm | Produto de suspensão, juntas e parede real |
 | P15 | [Composição entre camadas](04_Moveis/P15/Composicao_parcial/README.md); [lote A](04_Moveis/Aereos_suspensao/README.md): 8 Minifix preservados, 6 Confirmat candidatos atuais/18 na variante; pino 27 da nova borda inferior | Produto/processo/ensaio da composição e juntas; TitebondMelamine excluída. Mapa não une camadas. Suspensão sem produto demonstrado |
 | P04/P12/P17 — lote B | [Estudo vigente](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12): Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” em P17/P04/P12, fundos inteiros/base limpa. 585 casos/60 Minifix; até 92,33/46,21/41,51 kg sem ferragens. P04: 4 acessos SW4 nominais; 765 equilíbrios/1530 vetores; pacote para laboratório, T0 com 5 retalhos/8 Minifix e 15 registros vazios; R52 intacta | Executar T0 e caracterizar juntas/suspensão. Bigfer P04 candidata no divisor 18/fundo e lateral direita; contatos/parede e ensaio físico pendentes. Nenhuma medição preenchida |
@@ -72,7 +77,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | P12 | [Suspensão candidata](04_Moveis/P12/README.md): u40,5/724,5, Z548, braço 458; 225 equilíbrios/450 vetores; 4 calços/12 acessos conferidos; fundo 548 preservado | Qualificar Bigfer/fixadores/ferramenta; provar base/divisor/juntas/caixa e medir contato inferior. Sem capacidade ou ancoragens demonstradas |
 | P16 e bancada | [Gavetas e estabilidade](04_Moveis/P16/Gavetas_estabilidade/README.md): 1296 cenários. [Interface guia–fundo](04_Moveis/P16/Interface_guia_fundo/README.md). [Bancada](04_Moveis/Bancada/README.md): tampo 2000×700×30, curso 400 | Massa e rigidez do tampo 30, juntas, montagem real 400. Não cortar madeira para zerar o STEP |
 | P14/P20 banco e cesto | [Assento fechado](04_Moveis/P20/Assento_fechado/README.md), [reações do cesto](04_Moveis/P14/Reacoes_e_operacao/README.md): 270 cenários | Comprar 1 piano e 2 pares de articuladores (~R$ 150, [preços](04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md)) para protótipo; pivôs, limitadores a 55°, retenção |
-| Todos | [Corte e formatos](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md): 249 painéis triados, 210 arranjados | 39 painéis sem produto/faces definidos; nenhum plano de corte liberado |
+| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md): 249 IDs/dimensões preservados; 215 no ensaio/34 excluídos, 16 chapas virtuais; zero pares de acabamentos opostos na auditoria 248 | P13/Peca350 sem entrada na auditoria, acabamento pendente; 11 outros padrões parciais, referências, espessuras/espelho e dados de substrato/veio/processo. Nenhum corte/compra aprovado |
 
 **P20 aberto, 26/10:** [montagem e reações](04_Moveis/P20/Assento_fechado/README.md): seis equilíbrios, 42 poses e dez sensibilidades. Articuladores em compressão nominal 7,628/6,473 N a 90°; piano com grupos equivalentes, sem forças por parafuso. Eixo real, apoio fixo, terminais 22/30 mm e liberação da trava ainda pendentes; nenhum ensaio ou alteração R52.
 
@@ -105,6 +110,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Não rode macros antigas que salvam ou fecham documentos. Não sobrescreva o modelo vigente para consultar.
 - **Verificadores** ([ferramentas/README.md](ferramentas/README.md)): `python ferramentas/verificar_tudo.py` (o hook de commit roda sozinho) e, depois de qualquer trabalho no FreeCAD, `python ferramentas/verificar_modelo/verificar_modelo.py --completo`, que acusa objetos removidos, formas inválidas, expressões perdidas e colisões novas.
 - Versões antigas (R45 a R51, compatibilizações, arquivo morto) estão no git, na tag `antes-reorganizacao`.
+- Revisão documental de 25/10/2026: downloads ignorados pelo Git identificados como cópias locais, sem links de download; atribuições históricas revisadas com datas/fontes na própria linha; fechamento antigo da cozinha consolidado no [README vigente](03_Ambientes/Cozinha/README.md#instalações-e-documentos-da-unidade), com Fischer 127 V e cooktop a gás natural.
+- Links HTML após a reorganização: 40 referências tratadas em 9 páginas (22 do dossiê para `Fichas_fabricacao/`, 2 destinos realocados e 16 referências removidas com texto/caminho histórico preservados). Geradores correspondentes corrigidos. Os textos de estudos antigos desvinculados nos `.md` continuam rastreáveis pelo histórico do Git; não foram religados a documentos de conteúdo diferente.
 
 - Documentação, 26/10/2026: README dos aéreos compactado, com limites técnicos preservados, para permitir a reposição de espaços dentro de 16 KB.
 

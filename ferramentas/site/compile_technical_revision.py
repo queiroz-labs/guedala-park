@@ -137,7 +137,7 @@ def build():
             check=check.replace('interfaces listadas em unmappedInterfaces','interfaces listadas em “Ligações ainda sem mapa”')
             if check.startswith(('Em chapa real:','Com a ferragem física:','Oficina:','Oficina/metalurgia:','Fornecedor/oficina:')):workshop.append(check)
             else:project.append(check)
-        project+=[('Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.' if code in ['P18','P19'] else 'Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.')]
+        project+=[('Códigos escolhidos: frentes Beige Matt nas duas faces; laterais Louro Freijó Poro nas duas faces. Branco TX somente em peças exclusivamente internas; definir um único padrão nas peças ainda parciais, substrato e bordas.' if code in ['P18','P19'] else 'Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.')]
         # Product measurements formerly classified as apartment measurements.
         extra={
           'P05':['Conferir os produtos de cuba, válvula e sifão e seus gabaritos antes do recorte; a posição da saída existente é medida no apartamento.'],

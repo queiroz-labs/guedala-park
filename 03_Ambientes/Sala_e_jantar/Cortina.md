@@ -1,6 +1,6 @@
 # Cortina — abertura e interferência com móveis
 
-**Continuidade:** Elias autorizou estudar blackout de enrolar no vão e tecido frontal compacto para priorizar os móveis. Ver [cenário integrado R01](Ajustes_integrados.md). A análise de duas waves abaixo permanece diagnóstico do conflito anterior; não é mais a única direção de estudo.
+**Continuidade — 20/09/2026:** conforme [Registro de decisões, “Ajustes integrados da sala”](../../01_Programa_e_decisoes/Registro_de_decisoes.md#ajustes-integrados-da-sala--20092026), Elias autorizou estudar blackout de enrolar no vão e tecido frontal compacto para priorizar os móveis. Ver [cenário integrado R01](Ajustes_integrados.md). A análise de duas waves abaixo permanece diagnóstico do conflito anterior; não é mais a única direção de estudo.
 
 20/09/2026 · Análise solicitada por Elias antes de escolher o sentido de abertura. Cálculos do modelo atual, sem deslocar móveis nem aprovar nova cortina. O objetivo de cobrir a parede inteira permanece escolhido.
 

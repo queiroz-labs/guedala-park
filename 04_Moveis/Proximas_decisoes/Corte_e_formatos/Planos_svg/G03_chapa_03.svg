@@ -1,32 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -155 2880 2120">
-<rect x="-65" y="-155" width="100%" height="100%" fill="white"/>
-<text x="0" y="-100" font-family="sans-serif" font-size="32">G03 · Branco TX · faces internas · 18 mm</text>
-<text x="0" y="-45" font-family="sans-serif" font-size="27">Chapa virtual 3 · 2750×1850 · refilo 10/borda · serra 3.2</text>
-<rect x="0" y="0" width="2750" height="1850" fill="#f5f5f2" stroke="#333" stroke-width="3"/>
-<rect x="10" y="10" width="382.0" height="1764.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="201.0" y="892.0" transform="rotate(90 201.0 892.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca408 · 382×1764</text>
-<rect x="395.2" y="10" width="1964.0" height="312.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="1377.2" y="166.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca388 · 1964×312</text>
-<rect x="395.2" y="325.2" width="550.0" height="1002.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="670.2" y="826.2" transform="rotate(90 670.2 826.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca242 · 550×1002</text>
-<rect x="948.4000000000001" y="325.2" width="550.0" height="1002.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="1223.4" y="826.2" transform="rotate(90 1223.4 826.2)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca243 · 550×1002</text>
-<rect x="1501.6000000000001" y="325.2" width="1002.0" height="550.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="2002.6000000000001" y="600.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca244 · 1002×550</text>
-<rect x="1501.6000000000001" y="878.4000000000001" width="1223.0" height="442.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="2113.1000000000004" y="1099.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBaixaR001 · 1223×442</text>
-<rect x="1501.6000000000001" y="1323.6000000000001" width="982.0" height="511.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="1992.6000000000001" y="1579.1000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca326 · 982×511</text>
-<rect x="395.2" y="1330.4" width="514.0" height="312.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="652.2" y="1486.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioComumR11 · 514×312</text>
-<rect x="948.4000000000001" y="1330.4" width="514.0" height="312.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="1205.4" y="1486.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioComumR001 · 514×312</text>
-<rect x="395.2" y="1645.6000000000001" width="390.0" height="192.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="590.2" y="1741.6000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="19.9">PecaBancoR006AtualR31 · 390×192</text>
-<rect x="948.4000000000001" y="1645.6000000000001" width="356.0" height="177.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="1126.4" y="1734.1000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBancoR030 · 356×177</text>
-<rect x="2486.8" y="1323.6000000000001" width="120.0" height="505.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="2546.8" y="1576.1000000000001" transform="rotate(90 2546.8 1576.1000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioDireitoR31 · 120×505</text>
-<rect x="2610.0" y="1323.6000000000001" width="130.0" height="353.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
-<text x="2675.0" y="1500.1000000000001" transform="rotate(90 2675.0 1500.1000000000001)" text-anchor="middle" font-family="sans-serif" font-size="22.3">GavetaComumR017 · 130×353</text>
-<text x="0" y="1915" font-family="sans-serif" font-size="27">Envelopes geométricos; não é corte executivo. Veio/faces/substrato/processo pendentes.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260">
+<!-- CAMINHO_SUPERADO: aviso de compatibilidade, nao representa uma chapa -->
+<rect width="1000" height="260" fill="#f4f1eb"/>
+<text x="35" y="65" font-family="sans-serif" font-size="28">Agrupamento de corte substituido em25/10/2026</text>
+<text x="35" y="115" font-family="sans-serif" font-size="22">Este caminho antigo nao representa uma chapa vigente.</text>
+<text x="35" y="160" font-family="sans-serif" font-size="22">Regra atual: um acabamento por peca fisica, igual nas duas faces.</text>
+<a href="../README.md"><text x="35" y="215" font-family="sans-serif" font-size="22" fill="#225a45">Consultar o estudo atual e sua lista de desenhos</text></a>
+</svg>

@@ -75,7 +75,7 @@ doc('cores-escolhidas','Tons escolhidos para a marcenaria','Acabamentos','banho,
 doc('marfim-codigo','Marfim do escritório: amostra comercial','Acabamentos','escritorio','Candidato','Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.',FINISHES+'Pesquisa_Marfim_comercial_2026-10-24.md')
 doc('instalacoes','Instalações: compatibilização executiva','Instalações','all','Pendente','Conferir em campo os pontos elétricos, hidráulicos, gás e ventilação; plantas executivas compatibilizadas ainda não reunidas.',None)
 doc('levantamento','Levantamento para fabricação','Executivo','all','Pendente','Cotas acabadas, diagonais, prumo, esquadro, níveis, revestimentos e substratos de fixação precisam de levantamento.',None)
-doc('acabamentos-r13','Branco TX nos interiores','Acabamentos','all','Escolhido','Diretriz vigente por face: interiores Branco TX e padrões escolhidos nas faces aparentes.','ferramentas/site/fabrication/Decisao_acabamentos_R13.md')
+doc('acabamentos-r13','Acabamento por peça física','Acabamentos','all','Escolhido','Um padrão por chapa; peças separadas18 externa e15 interna podem ter cores distintas, com identificação e conferência do conjunto.','ferramentas/site/fabrication/Decisao_acabamentos_R13.md')
 doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','all','R13','Cotas oficiais por ambiente e diferenças da reconstrução identificadas.','06_Entregas/Planta_cotada/index.html')
 
 doc('banco-atual','Banco P20: assento, apoios e operação','Montagem','sala','Condicionado','Direção piano e trava; composição, ligações e capacidade ainda dependem de detalhamento e protótipo.','04_Moveis/P20/Assento_fechado/README.md')
@@ -216,9 +216,9 @@ def write_sources():
     write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,separators=(',',':'))+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
     body='<h1>Guia do montador</h1><p>Modelo '+escape(RELEASE['cadRevision'])+'; consultar fichas e condições atuais antes da fabricação.</p>'
     if FABRICATION:
-        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao_R13/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao_R13/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
+        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
         for code,f in FABRICATION.items():
-            body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao_R13/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
+            body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
     write_if_changed(ROOT/'06_Entregas/Dossie_marcenaria_R45.html',page('Guedala Park · guia do montador',body))
 
 def build(target=None, regenerate=False, build_package=False, export_docs=True):

@@ -619,7 +619,7 @@
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
@@ -632,7 +632,7 @@
         "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
         "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
@@ -1132,7 +1132,7 @@
       "projectChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -1142,7 +1142,7 @@
       "technicalChecks": [
         "Placas em L e apoio terminal exigem desenho de contorno e ligação real; o retângulo650×1050 não gera furação. Não contar zero contatos da amostra como zero ligações.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -1720,7 +1720,7 @@
         "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
@@ -1732,7 +1732,7 @@
         "Definir ligação à base/divisória do roupeiro e carga das malas; encostar as chapas não transfere carga. Não confundir parafusos de união com ancoragem.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: compatibilizar seção real dos 2 perfis e afastamento das vias; passo 38 e repartição 10/25 mm das folgas verticais são hipóteses CAD, não parâmetros certificados pelo manual.",
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -2291,7 +2291,7 @@
         "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -2302,7 +2302,7 @@
         "Divisórias18 exigem desencontro; divisor36 pode ser estudado separadamente. Vão851,5 precisa reforço/carga e ligação fundo-suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -2899,7 +2899,7 @@
       "projectChecks": [
         "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -2910,7 +2910,7 @@
       "technicalChecks": [
         "Mapa da prateleira deve preservar cuba, sifão e retirada. Não fechar recorte de hidráulica por coordenadas de reserva. Lateral visível não recebe cabeça externa.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -3251,7 +3251,7 @@
       "projectChecks": [
         "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
@@ -3261,7 +3261,7 @@
       "technicalChecks": [
         "Cruzar mapa com furos das corrediças e acesso da ferramenta; não perfurar guia ou frente com furação de carcaça.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -3454,7 +3454,7 @@
         "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -3463,7 +3463,7 @@
         "Não adotar automaticamente inserto RAMPA especificado para madeira dura em MDF. Preservar canais de ventilação e travessa30; escolher ferragem M4 não define sua placa de retenção.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
         "Dimensionar as ligações da base/nervuras e réguas sem fechar ventilação; definir comprimento e cabeça dos M4 conforme a retenção metálica escolhida.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
       ],
       "assembly": [
@@ -3778,7 +3778,7 @@
       ],
       "projectChecks": [
         "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço; medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
@@ -3788,7 +3788,7 @@
       ],
       "technicalChecks": [
         "Apoio vertical vem dos rodízios. Não ligar guia de3mm como apoio estrutural nem propagar Confirmat a essa espessura. Furos de rodas dependem do produto, decisão de oficina.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Fornecedor/oficina: conferir PU e altura real do kit Leão Aço; medir os seis espaçadores rígidos de 1 mm para manter 39 mm de apoio.",
         "Oficina: validar fixadores no fundo de 18 mm, carga dinâmica/distribuição e flexão; não adotar 6 × capacidade anunciada como carga segura.",
         "Oficina: definir batente removível e guias laterais sem transferir apoio vertical para as faixas.",
@@ -4242,7 +4242,7 @@
         "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -4253,7 +4253,7 @@
         "Divisor de 312 mm (R48) comporta dois pontos de ligação por borda; mapa da união com fundo, base e tampo ainda a desenhar.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -5194,7 +5194,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -5207,7 +5207,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -6190,7 +6190,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -6203,7 +6203,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -6844,7 +6844,7 @@
         "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -6855,7 +6855,7 @@
         "Não usar pilotos opostos na face da divisória18. Conferir furos dos conectores no topo/base e distâncias às outras ferragens. Preservar reserva100 sobre geladeira.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -7070,7 +7070,7 @@
       "projectChecks": [
         "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
         "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -7079,7 +7079,7 @@
       "technicalChecks": [
         "Rejeitar Rometal Parabolt para este apoio470: máximo publicado250. Não substituir apoio por cavilhas ou Minifix de carcaça. Cota dos pés/carga do aparelho é projeto/oficina.",
         "Resolver a divergência de ventilação: a escolha F104 mantém 100 mm acima do ME23P, enquanto o manual pede 300 mm. A furação do suporte permanece condicionada a essa compatibilização.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Conferir pés, cabo e envelope do micro-ondas real em oficina. A divergência de ventilação deve ser resolvida em projeto."
       ],
@@ -7242,7 +7242,7 @@
         "Fornecedor/projeto: escolher material da armação e mecanismo completo para 55°/carga variável;15,134 kg e 38,73Nm são cenários de cálculo, não carga de uso certificada.",
         "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: validar eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação; não reabrir a consulta como pendência de medição.",
@@ -7253,7 +7253,7 @@
         "Fornecedor/projeto: escolher material da armação e mecanismo completo para 55°/carga variável;15,134 kg e 38,73Nm são cenários de cálculo, não carga de uso certificada.",
         "Não perfurar reservas do tanque como peça real. Separar placa de pivô/limitador da carcaça e garantir remoção do saco e acesso hidráulico.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: validar eixo, batente e retenção com saco retirável antes de furar frente/laterais. FGVTN não fornece essa aplicação; não reabrir a consulta como pendência de medição.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Ensaiar saco, armação e retirada em oficina; conferir produto e gabarito do tanque."
@@ -7887,7 +7887,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -7900,7 +7900,7 @@
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Abertura das portas, ferramenta de aperto, montagem e carga não foram ensaiadas pelo teste dos cilindros.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -8385,7 +8385,7 @@
       "projectChecks": [
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
@@ -8395,7 +8395,7 @@
       "technicalChecks": [
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
@@ -8928,7 +8928,7 @@
         "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -8939,7 +8939,7 @@
         "Desencontrar ligações em divisórias18; o centro36 não autoriza replicar nas demais. Coordenar os quatro compartimentos e suspensão.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
@@ -9686,7 +9686,7 @@
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
+        "Códigos escolhidos: frentes Beige Matt nas duas faces; laterais Louro Freijó Poro nas duas faces. Branco TX somente em peças exclusivamente internas; definir um único padrão nas peças ainda parciais, substrato e bordas."
       ],
       "workshopChecks": [
         "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
@@ -9699,7 +9699,7 @@
         "Colar cavilhas da retirada só no quadro. Não colar junta quadro/caixa; manter acessos M6 e tampas removíveis.",
         "Suspensão: dimensionar ferragem/placa interna, distribuição de carga, parafusos no móvel e acesso; isto é projeto/oficina. Tipo e resistência real da parede e pontos ocultos são levantamento do apartamento.",
         "Recorte de sifãoØ100 era cenário de estudo: não executar antes de definir componentes e localização medida.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
+        "Códigos escolhidos: frentes Beige Matt nas duas faces; laterais Louro Freijó Poro nas duas faces. Branco TX somente em peças exclusivamente internas; definir um único padrão nas peças ainda parciais, substrato e bordas.",
         "Oficina: ensaio de primeira folha RO25 na implantação sobreposta do BC43; confrontar seção real do RM026, retenção e bolsão 32×10 antes de repetir usinagem.",
         "Oficina: calibrar piloto dos 24 parafusos no lote de chapa; não usar o 2,5×10 ilustrativo como dado do fabricante.",
         "Oficina: manter as 4 fixações M6 acessíveis; oacesso hidráulico deve funcionar com quadro inteiro retirado. Curso/retirada real dependem também da vistoria da porta/vaso.",
@@ -10396,7 +10396,7 @@
         "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
         "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
         "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra."
+        "Códigos escolhidos: frentes Beige Matt nas duas faces; laterais Louro Freijó Poro nas duas faces. Branco TX somente em peças exclusivamente internas; definir um único padrão nas peças ainda parciais, substrato e bordas."
       ],
       "workshopChecks": [
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
@@ -10411,7 +10411,7 @@
         "Suporte .711 ensaiado como envelope, não STEP; não converter capacidade dos quatro pinos em carga da chapa estreita560×104×18.",
         "Mapa nominal das seis interfaces emitido: 12 Minifix/12 pinos; 36 operações. O ensaio geométrico não valida carga, torque ou montagem.",
         "Projeto/oficina: especificar a fixação do espelho na porta móvel de MDF18, espelho4 e acabamento real; a orientação de 3 mm para parede não é aprovação automática desta composição.",
-        "Códigos externos escolhidos em24/10: Arauco Beige Matt nas frentes do gabinete e Louro Freijó Poro nas laterais aparentes. Fechar substrato, composição com Branco TX, bordas/veios e faces ainda parciais; conferir amostra.",
+        "Códigos escolhidos: frentes Beige Matt nas duas faces; laterais Louro Freijó Poro nas duas faces. Branco TX somente em peças exclusivamente internas; definir um único padrão nas peças ainda parciais, substrato e bordas.",
         "Oficina: pesar uma folha acabada de cada família (incluindo pegas/espelho) e confrontar a quantidade nominal com a orientação Blum; a contagem não é uma carga admitida.",
         "Oficina: conferir extração/arrancamento dos parafusos na chapa real e a primeira montagem com calço 0/limitador 86°; não abrir cortes para eliminar sobreposições internas do STEP.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
@@ -10808,7 +10808,7 @@
         "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças."
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "workshopChecks": [
         "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
@@ -10820,7 +10820,7 @@
         "Projeto/oficina: recalcular massa/CG das tampas com piano, articuladores e batente; esforço nominal 2,4–3,9 kgf na borda dianteira.",
         "As tampas20 descarregam sobre os apoios existentes, não sobre a dobradiça. Não generalizar Confirmat7×50 às tampas, sarrafos ou chapas metálicas.",
         "Distribuição/quantidade final de conectores ainda deve ser desenhada nas interfaces listadas em “Ligações ainda sem mapa”; seleção da família não é programa de furação. Contagem de contato não é quantidade de parafuso.",
-        "Fechar substrato e códigos de chapa, composição Branco TX/padrão aparente, bordas e veios por peça. As faces ainda parciais estão marcadas na lista de peças.",
+        "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: montar protótipo com 1 piano e 2 pares de articuladores antes dos furos das tampas; conferir engate da trava, terminais e batente.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
         "Medir almofadas/espuma e pesar o conjunto móvel real em oficina; conferir bolsões, eixo e batente no protótipo."
@@ -10894,5 +10894,6 @@
         "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md"
       ]
     }
-  }
+  },
+  "finishRule": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md"
 }

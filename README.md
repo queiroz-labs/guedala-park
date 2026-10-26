@@ -1,8 +1,10 @@
 # Guedala Park · projeto do apartamento
 
+**Pé-direito para testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar (Elias, 26/10/2026).** Hipótese, não medição nem autorização de fabricação. Escritório: cenário separado de 2,47 m com forro. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+
 Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).**
 
-**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip)**
+**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R22.zip)**
 
 ## Como a pasta está organizada
 
@@ -52,10 +54,10 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 
 ## Para encaminhar ao montador
 
-1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip)** e envie como arquivo ou compartilhe este link.
+1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R22.zip)** e envie como arquivo ou compartilhe este link.
 2. Extraia o ZIP inteiro e abra **COMECE_AQUI.html** no navegador. Ele funciona como menu da pasta.
 3. Para editar o modelo, abra **02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. Fichas, planta e tabelas abrem sem o FreeCAD.
 
-**Revisões:** R21 identifica o pacote, R52 o modelo, R14 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
+**Revisões:** R22 identifica o pacote, R52 o modelo, R14 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.

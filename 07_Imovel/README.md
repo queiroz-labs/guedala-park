@@ -1,5 +1,7 @@
 # Visita ao apartamento — fotos e relatórios
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
+
 **Próxima visita — roteiro baseado na R30:** ficha preenchível e imprimível · instruções e lista completa. São 21 itens, com referências de medição, fotos e dependências técnicas. Nenhuma medida nova de campo foi preenchida. Exporte os registros da ficha antes de fechar o navegador.
 
 ## Conferência pendente — iluminação de sala/jantar (20/09/2026)
@@ -32,4 +34,4 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 
 **Histórico:** relatório R00 em HTML e texto R00. Use R01 com as correções de R02 para continuar. Os códigos dos quartos nas fotos foram mantidos para rastreabilidade; a identificação corrigida está no complemento.
 
-O [vídeo original do apartamento espelhado](Video_Apartamento_Espelhado.mp4) foi recuperado da pasta antiga na unificação de 25/09/2026. Os pacotes originais dos levantamentos também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.
+O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, somente no PC, fora do Git/site) foi recuperado da pasta antiga na unificação de 25/09/2026. Os pacotes originais dos levantamentos também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.

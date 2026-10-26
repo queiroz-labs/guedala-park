@@ -10,13 +10,13 @@ O resultado pretendido é um projeto nominal consistente e fácil de continuar: 
 
 | Frente | O que já existe | Trabalho restante nesta semana |
 |---|---|---|
-| Modelo e fichas | FreeCAD R52, fichas R14 de 20 móveis; publicação R52/R18 em preparação | Incorporar apenas detalhes demonstrados. Conferir a versão e a publicação no Estado atual antes de cada alteração. |
+| Modelo e fichas | FreeCAD R52, fichas R14; pacote selado R20 e revisão documental local posteriores, conforme Estado Atual | Incorporar apenas detalhes demonstrados e conferir fontes/entrega antes de alterar ou republicar. |
 | Gavetas do escritório | R49 corrigiu a folga superior para 7 mm e espelhou a trava direita | Tratar as condições remanescentes de fundo/guia e altura das guias; não repetir as correções concluídas. |
 | Cargas e ligações | P11 sem tubos; estudos P15/P04/P01/P20, suspensão global de seis aéreos e equilíbrio por painel P01/P03 | Definir materiais, juntas e conectores; comprovar deformação/resistência e mecanismos P20/P14; selecionar suspensão e completar mapas. Contato não equivale a ligação resistente. |
 | Banco e cesto | Diretriz simples definida; estudos e candidatos documentados | Completar montagem, apoios, retenção, acesso e plano de ensaio. |
 | Ferragens e custos | Reconciliação documental de 24/10 já existe | Incorporar as diferenças na composição financeira e atualizar quantidades após os mapas. |
 | Acabamentos e iluminação | Muitas escolhas já feitas, incluindo chapas do banheiro e seleção L02 | Resolver somente códigos, componentes e interfaces ainda abertos. |
-| Site | Fontes R52, consulta cinemática e pacote R18 em preparação | Validar navegação, revisão do CAD e conteúdo do pacote antes de publicar; conferir o resultado remoto. |
+| Site | Fontes R52 e consulta cinemática; publicação/pacote R22 não substituídos pelos estudos locais | Validar navegação, revisões e integridade do pacote antes de publicar; conferir o resultado remoto. |
 
 Fontes de partida: [Estado atual](../ESTADO_ATUAL.md), [R49](../02_Modelo_3D/Historico/Gavetas_escritorio/README.md), plano de cargas e ligações e [reconciliação de ferragens](../05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md).
 
@@ -115,6 +115,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 ### T05 — Gavetas e interfaces dos ambientes | P0/P1 | 28/10
 
 **Situação em 26/10:** condicionada a produto/oficina, juntas e compatibilização; [P16: curso/estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md) e [guia–fundo](../04_Moveis/P16/Interface_guia_fundo/README.md), [P01/P03/P02](../04_Moveis/Proximas_decisoes/P01_P03/README.md) e [P08](../04_Moveis/P08/README.md) documentam estudos e limites; demais interfaces abaixo ainda precisam de desenho e teste específico.
+
+**Premissa preservada, 25/10/2026:** Elias definiu duas malas de bordo de 10 kg, prefere A, duas folhas 672 × 306, e autorizou aplicar a abertura alternativa **se atender**; terceira mala condicionada. Fonte: requisito registrado neste plano em 25/10 e [estudo P01/P03/P02](../04_Moveis/Proximas_decisoes/P01_P03/README.md).
 
 - P01/P06: conferir caixas, recortes e engates da FGVTN 500 com documentação própria; não extrapolar o STEP de 400 mm.
 - P16: preservar a R49 e tratar a pequena sobreposição fundo/guia e o mapa de altura das guias conforme documentação e prova de oficina.

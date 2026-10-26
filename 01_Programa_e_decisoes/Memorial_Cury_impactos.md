@@ -36,7 +36,7 @@ Para a unidade de dois dormitórios, usar a seção **2.1 — Área privativa: a
 
 ## Teto e medidas: o que permanece pendente
 
-O acabamento de teto está documentado por ambiente; **pé-direito e dimensões dos rebaixos não estão**. A página 15 condiciona forros/sancas aos projetos executivos. A hipótese de entrega com 2,57 m e o cenário escolhido de 2,47 m após rebaixo de 10 cm permanecem hipóteses de projeto, sem validação de execução, espessura de lã ou desempenho acústico/térmico.
+O acabamento de teto está documentado por ambiente; **pé-direito e dimensões dos rebaixos não estão**. A página 15 condiciona forros/sancas aos projetos executivos. Para novos testes, vale a hipótese de 2,60 m, medida a confirmar (Elias, 26/10/2026; [fonte e limites](Pesquisa_pe_direito.md)). O cálculo anterior de 2,57 m menos 10 cm fica como histórico; o escritório mantém cenário separado de 2,47 m com forro, sem validação da altura entregue, execução, espessura da lã ou desempenho acústico/térmico. Não aplicar 2,60 m como altura sob sancas ou forros existentes.
 
 O item k da p. 19 informa que as cotas comerciais são de face a face com acabamento. Isso não transforma cotas de planta em levantamento real. Não aplicar automaticamente desconto ou acréscimo de 5% às medidas: a ressalva do documento não é tolerância de fabricação de móveis. O item g admite diferenças de localização de pontos em relação ao decorado.
 

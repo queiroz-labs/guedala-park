@@ -243,6 +243,28 @@
           "README.md"
         ]
       }
+    },
+    {
+      "id": "pe_direito_estudo",
+      "descricao": "Elias, 26/10/2026: hipótese de teste 2,60 m = 260 cm = 2600 mm, medida a confirmar; cenário de forro do escritório separado",
+      "exigir": [
+        {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "2,60 m = 260 cm = 2600 mm"
+        },
+        {
+          "arquivo": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
+          "regex": "medida a confirmar"
+        },
+        {
+          "arquivo": "ferramentas/site/src/data.js",
+          "regex": "\"ceiling\": 260"
+        },
+        {
+          "arquivo": "ferramentas/site/src/data.js",
+          "regex": "\"officeCeilingStudy\": 247"
+        }
+      ]
     }
   ]
 }

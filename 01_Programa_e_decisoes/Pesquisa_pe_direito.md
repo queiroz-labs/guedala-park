@@ -1,5 +1,11 @@
 # Pesquisa do pé-direito — R01
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
+
+O escritório conserva o cenário separado de **2,47 m após forro**, ainda não validado. O cálculo histórico 2,57 − 0,10 = 2,47 m não comprova altura entregue nem espessura possível. A nova hipótese de 2,60 m não define automaticamente 2,50 m após forro, nem confirma 13 cm de rebaixo para chegar a 2,47 m. DIM-001 continua pendente. Os estudos anteriores abaixo são históricos e não substituem o parâmetro atual de testes.
+
+## Pesquisa e cenários anteriores — preservados como histórico
+
 **Atualização F101 — 12/09/2026:** o [memorial oficial Cury](Memorial_Cury_impactos.md) foi recebido. Confirma pintura/textura na laje do dormitório tipo, mas não informa altura. A pesquisa abaixo é anterior ao recebimento; 2,57 m e 2,47 m continuam hipóteses.
 
 12/09/2026 · F77 · Pesquisa solicitada por Elias para continuar o dimensionamento dos armários.

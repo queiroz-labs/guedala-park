@@ -1,5 +1,7 @@
 # Programa e decisões
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
+
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
 | [Programa_de_necessidades.md](Programa_de_necessidades.md) | O que cada ambiente precisa ter | curto |

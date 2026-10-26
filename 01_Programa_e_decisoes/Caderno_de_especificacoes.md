@@ -1,10 +1,12 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-25 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R52). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
+Gerado em 2026-10-26 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R52). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
 Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natural. Programa: [Programa de necessidades R01](Programa_de_necessidades.md).
+
+**Pé-direito:** 2,60 m = 260 cm = 2600 mm — medida a confirmar; hipótese para testes, não fabricação. Elias, 26/10/2026. Não é medição do Guedala nem média do Vila das Belezas 3. Escritório: cenário separado de 2,47 m com forro, a confirmar. Forros, sancas e rebaixos não têm alturas verificadas. As dimensões dos móveis permanecem estudos condicionados.
 
 ## 1. Materiais e acabamentos
 
@@ -67,7 +69,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Notebook + dois monitores + CH360 | Aprovado | 2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm | Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. |
 | Sofá-cama Daiane cinza-claro | Aprovado | 140 × 90 fechado / 140 × 182 aberto cm | Braço junto à parede da porta no cotidiano. |
 | Cadeira · cenário Ultra Comfort | Em estudo | 74,5 × 73 cm · altura 120 ilustrativa | Ultra Comfort não escolhida. |
-| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm. |
+| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm no cenário separado de forro do escritório, a confirmar. |
 | Prateleira alta dos consoles | Parcial | 110 × 35 cm · topo a 195 cm | Altura aprovada por circulação. |
 | Samsung 43″ existente | Existente | 97 × 56 × 5 cm · gabarito | Parede oposta ao sofá. |
 | Volante e pedais futuros | Futuro | Dimensões / guarda pendentes | Logitech pretendido, G29 candidato. |

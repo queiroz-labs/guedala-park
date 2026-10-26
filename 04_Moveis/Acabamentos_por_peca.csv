@@ -1,0 +1,249 @@
+﻿id;module;movel;peca;especificacao_anterior;cores_opostas_antes;padrao_atual;face_1;face_2;espelho_aplicado;situacao
+GavetaComumR08;P01;Roupeiro;Lateral comum esquerda · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR001;P01;Roupeiro;Lateral comum direita · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR002;P01;Roupeiro;Fundo comum · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR003;P01;Roupeiro;Traseira comum · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR004;P01;Roupeiro;Dianteira comum16 · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR005;P01;Roupeiro;Frente preservada · Gaveta de roupa - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR012;P01;Roupeiro;Lateral comum esquerda · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR013;P01;Roupeiro;Lateral comum direita · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR014;P01;Roupeiro;Fundo comum · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR015;P01;Roupeiro;Traseira comum · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR016;P01;Roupeiro;Dianteira comum16 · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR017;P01;Roupeiro;Frente 130 (R29, era 142) · Gaveta de roupa001 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR024;P01;Roupeiro;Lateral comum esquerda · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR025;P01;Roupeiro;Lateral comum direita · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR026;P01;Roupeiro;Fundo comum · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR027;P01;Roupeiro;Traseira comum · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR028;P01;Roupeiro;Dianteira comum16 · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR029;P01;Roupeiro;Frente preservada · Gaveta de roupa002 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR036;P01;Roupeiro;Lateral comum esquerda · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR037;P01;Roupeiro;Lateral comum direita · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR038;P01;Roupeiro;Fundo comum · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR039;P01;Roupeiro;Traseira comum · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR040;P01;Roupeiro;Dianteira comum16 · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR041;P01;Roupeiro;Frente 130 (R29, era 142) · Gaveta de roupa003 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR048;P06;Gaveteiro da cozinha;Lateral comum esquerda · G3 · mantimentos - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR049;P06;Gaveteiro da cozinha;Lateral comum direita · G3 · mantimentos - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR050;P06;Gaveteiro da cozinha;Fundo comum · G3 · mantimentos - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR051;P06;Gaveteiro da cozinha;Traseira comum · G3 · mantimentos - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR052;P06;Gaveteiro da cozinha;Dianteira comum16 · G3 · mantimentos - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+MontagemG2R016;P06;Gaveteiro da cozinha;Parte_traseira_da_gaveta[3B0R-000X] - proposta R07;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+MontagemG2R017;P06;Gaveteiro da cozinha;Lateral_da_gaveta_à_esquerda[3B0R-0010] - proposta R07;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+MontagemG2R018;P06;Gaveteiro da cozinha;Lateral_da_gaveta_à_direita[3B0R-0015] - proposta R07;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+MontagemG2R019;P06;Gaveteiro da cozinha;Fundo_da_gaveta[3B0R-001A] - proposta R07;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR060;P06;Gaveteiro da cozinha;Lateral comum esquerda · G1 · talheres - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR061;P06;Gaveteiro da cozinha;Lateral comum direita · G1 · talheres - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR062;P06;Gaveteiro da cozinha;Fundo comum · G1 · talheres - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR063;P06;Gaveteiro da cozinha;Traseira comum · G1 · talheres - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR064;P06;Gaveteiro da cozinha;Dianteira comum16 · G1 · talheres - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR072;P16;Gaveteiro do escritório;Lateral comum esquerda · Gaveta escritório 1 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR073;P16;Gaveteiro do escritório;Lateral comum direita · Gaveta escritório 1 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR074;P16;Gaveteiro do escritório;Fundo comum · Gaveta escritório 1 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR075;P16;Gaveteiro do escritório;Traseira comum · Gaveta escritório 1 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR076;P16;Gaveteiro do escritório;Dianteira comum16 · Gaveta escritório 1 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR084;P16;Gaveteiro do escritório;Lateral comum esquerda · Gaveta escritório 2 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR085;P16;Gaveteiro do escritório;Lateral comum direita · Gaveta escritório 2 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR086;P16;Gaveteiro do escritório;Fundo comum · Gaveta escritório 2 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR087;P16;Gaveteiro do escritório;Traseira comum · Gaveta escritório 2 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+GavetaComumR088;P16;Gaveteiro do escritório;Dianteira comum16 · Gaveta escritório 2 - proposta R08;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca210;P01;Roupeiro;Divisória;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca211;P01;Roupeiro;Sapateira · três níveis;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca212;P01;Roupeiro;Sapateira · três níveis001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca213;P01;Roupeiro;Sapateira · três níveis002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca226;P01;Roupeiro;Sapateira · três níveis003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca227;P01;Roupeiro;Sapateira · três níveis004;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca228;P01;Roupeiro;Sapateira · três níveis005;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca241;P01;Roupeiro;Divisória001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca242;P01;Roupeiro;Divisória002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca243;P01;Roupeiro;Divisória003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca244;P01;Roupeiro;Divisória004;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca245;P01;Roupeiro;Prateleira curta · topo 1100;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca246;P01;Roupeiro;Prateleira curta · topo 1101;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+LateralApoioPrincipal;P02;Canto em L;Lateral 18 mm de apoio da principal - proposta R03;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioPortaBR04;P02;Canto em L;Lateral 18 mm de apoio da porta B - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioComumR003;P04;Aéreo da cabeceira;Apoio interno cabeceira 1 - proposta18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioComumR004;P04;Aéreo da cabeceira;Apoio interno cabeceira 2 - proposta18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioOpostoR001;P04;Aéreo da cabeceira;"Cabeceira - segundo18 no divisor das portas2/3; conjunto36";Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioOpostoR002;P04;Aéreo da cabeceira;"Cabeceira - apoio18 da vizinha à direita; proposta";Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioComumR11;P17;Aéreo do escritório;Apoio interno escritório 1 - proposta18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioComumR001;P17;Aéreo do escritório;Apoio interno escritório 2 - proposta18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioComumR002;P17;Aéreo do escritório;Apoio interno escritório 3 - proposta18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioOpostoR18;P17;Aéreo do escritório;"Escritório - segundo18 no divisor das portas2/3; conjunto36";Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca280;P05;Gabinete da pia;Prateleira de estudo · hidráulica a recortar;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca320;P09;Aéreo D · depurador;Divisória005;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca329;P10;Aéreo C · uso diário;Prateleira;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca330;P10;Aéreo C · uso diário;Prateleira001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca331;P10;Aéreo C · uso diário;Prateleira002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca339;P11;Aéreo B · micro;Prateleira003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca347;P12;Aéreo A · geladeira;Divisória006;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PrateleiraEspelhadoR12;P19;Espelheiro;Prateleira removível espelhado 1 - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PrateleiraEspelhadoR001;P19;Espelheiro;Prateleira removível espelhado 2 - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+BasePlanaR31;P07;Módulo de cocção;BasePlana · proposta R31;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioEsquerdoR31;P07;Módulo de cocção;ApoioEsquerdo · proposta R31;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioCentralR31;P07;Módulo de cocção;ApoioCentral · proposta R31;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioDireitoR31;P07;Módulo de cocção;ApoioDireito · proposta R31;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBaixaR001;P08;Gaveta de limpeza;Fundo18 sobre rodas - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBaixaR002;P08;Gaveta de limpeza;Lateral18 baixa - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBaixaR003;P08;Gaveta de limpeza;Lateral18 baixa - proposta001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBaixaR004;P08;Gaveta de limpeza;Parede frente/trás18 baixa - proposta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBaixaR005;P08;Gaveta de limpeza;Parede frente/trás18 baixa - proposta001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaCestoR15;P14;Gabinete tanque e cesto;Base98 - frente até580 desde parede;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioCestoC01R31;P14;Gabinete tanque e cesto;C01 · apoio inferior do cesto · proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioCestoC02R31;P14;Gabinete tanque e cesto;C02 · apoio inferior do cesto · proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+ApoioCestoC03R31;P14;Gabinete tanque e cesto;C03 · apoio inferior do cesto · proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR001;P20;Banco baú;Fundo potes/travessas a80 - hipótese18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR002;P20;Banco baú;Fundo demais setores a100 - hipótese18;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR003;P20;Banco baú;Divisória18 contínua - centro da junta;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR004;P20;Banco baú;Divisória18 contínua - centro da junta001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR005;P20;Banco baú;Divisória18 contínua - centro da junta002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR029;P20;Banco baú;Painel posterior de estudo18 removível - folgas3;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR030;P20;Banco baú;Painel frontal de estudo18 removível - folgas3;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR007AtualR31;P20;Banco baú;Prateleira contínua da extensão - acesso por cima;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+PecaBancoR006AtualR31;P20;Banco baú;PecaBancoR006 · recorte híbrido R02 integrado;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Apoio_B01R31;P20;Banco baú;Apoio_B01 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Apoio_B02R31;P20;Banco baú;Apoio_B02 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Apoio_B03R31;P20;Banco baú;Apoio_B03 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Apoio_B04R31;P20;Banco baú;Apoio_B04 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_frente0R31;P20;Banco baú;Sarrafo_frente0 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_tras0R31;P20;Banco baú;Sarrafo_tras0 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_frente1R31;P20;Banco baú;Sarrafo_frente1 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_tras1R31;P20;Banco baú;Sarrafo_tras1 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_frente2R31;P20;Banco baú;Sarrafo_frente2 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_tras2R31;P20;Banco baú;Sarrafo_tras2 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_frente3R31;P20;Banco baú;Sarrafo_frente3 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Ref_Sarrafo_tras3R31;P20;Banco baú;Sarrafo_tras3 · híbridoR02 proposto;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca208;P01;Roupeiro;Fundo;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca255;P02;Canto em L;Fundo do braço principal;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca256;P02;Canto em L;Fundo do retorno;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca261;P03;Maleiro;Fundo001;Branco TX · faces internas;nao;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca268;P04;Aéreo da cabeceira;Fundo002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca278;P05;Gabinete da pia;Fundo003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca285;P06;Gaveteiro da cozinha;Fundo004;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca317;P09;Aéreo D · depurador;Fundo005;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca326;P10;Aéreo C · uso diário;Fundo006;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca336;P11;Aéreo B · micro;Fundo007;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca344;P12;Aéreo A · geladeira;Fundo008;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+FundoTanqueR29;P14;Gabinete tanque e cesto;Fundo009 com abertura hidráulica 450x602 - R29;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca361;P15;Aéreo da lavanderia;Fundo010;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca369;P16;Gaveteiro do escritório;Fundo011;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca386;P17;Aéreo do escritório;Fundo012;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca396;P18;Gabinete do banheiro;Fundo013;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca402;P19;Espelheiro;Fundo014;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca408;P20;Banco baú;Fundo015;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca209;P01;Roupeiro;Base · topo 80 mm;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca263;P03;Maleiro;Tampo;Branco TX · faces internas;nao;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca270;P04;Aéreo da cabeceira;Tampo001;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca279;P05;Gabinete da pia;Base002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca286;P06;Gaveteiro da cozinha;Base003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca319;P09;Aéreo D · depurador;Tampo002;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca328;P10;Aéreo C · uso diário;Tampo003;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca338;P11;Aéreo B · micro;Tampo004;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca346;P12;Aéreo A · geladeira;Tampo005;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca363;P15;Aéreo da lavanderia;Tampo006;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca370;P16;Gaveteiro do escritório;Base009;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca371;P16;Gaveteiro do escritório;Tampo007;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca388;P17;Aéreo do escritório;Tampo008;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+BC43_CaixaBase;P18;Gabinete do banheiro;Base original preservada;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca404;P19;Espelheiro;Tampo009;Branco TX · faces internas;nao;Branco TX;Branco TX;Branco TX;nao;whole_piece_same_finish
+Peca206;P01;Roupeiro;Lateral direita016;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca207;P01;Roupeiro;Lateral esquerda;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca247;P01;Roupeiro;Roupeiro — porta direita — deslizar para esquerda — frente proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca248;P01;Roupeiro;Roupeiro — porta esquerda — deslizar para direita — frente proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteSimplesR04;P02;Canto em L;Porta A - canecos comuns;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteSimplesR001;P02;Canto em L;Porta B - canecos comuns;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FaixaQuinaAR04;P02;Canto em L;Faixa fixa A 142 mm - proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FaixaQuinaBR04;P02;Canto em L;Faixa fixa B 124 mm - proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+PlacaL;P02;Canto em L;Base em L;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+PlacaL001;P02;Canto em L;Tampo em L;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca259;P03;Maleiro;Lateral direita017;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca260;P03;Maleiro;Lateral esquerda001;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca262;P03;Maleiro;Base;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca264;P03;Maleiro;Maleiro — porta direita — deslizar para esquerda — frente proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca265;P03;Maleiro;Maleiro — porta esquerda — deslizar para direita — frente proposta;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca266;P04;Aéreo da cabeceira;Lateral direita018;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca267;P04;Aéreo da cabeceira;Lateral esquerda002;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca269;P04;Aéreo da cabeceira;Base001;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteComumR015;P04;Aéreo da cabeceira;Cabeceira porta 4 - abrir para direita — frente com canecos;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteComumR016;P04;Aéreo da cabeceira;Cabeceira porta 3 - abrir para esquerda — frente com canecos;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteComumR017;P04;Aéreo da cabeceira;Cabeceira porta 2 - abrir para direita — frente com canecos;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FaixaFixaEstudo;P04;Aéreo da cabeceira;Faixa fixa · proposta, não aprovada;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+FrenteVizinhaR18;P04;Aéreo da cabeceira;Cabeceira porta 1 - abrir para esquerda — frente com canecos;"face interna Branco TX; face aparente Amadeirado, referência Arenza";sim;"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";"Arenza liso (referência; código/amostra a confirmar)";nao;whole_piece_same_finish
+Peca276;P05;Gabinete da pia;Lateral direita019;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca277;P05;Gabinete da pia;Lateral esquerda003;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+FrenteComumR10;P05;Gabinete da pia;Gabinete da pia - porta direita — frente com canecos;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+FrenteComumR001;P05;Gabinete da pia;Gabinete da pia - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca283;P06;Gaveteiro da cozinha;Lateral direita020;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca284;P06;Gaveteiro da cozinha;Lateral esquerda004;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+GavetaComumR053;P06;Gaveteiro da cozinha;Frente preservada · G3 · mantimentos - proposta R08;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+MontagemG2R020;P06;Gaveteiro da cozinha;Frente_da_gaveta[3B0R-001H] - proposta R07;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+GavetaComumR065;P06;Gaveteiro da cozinha;Frente preservada · G1 · talheres - proposta R08;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca305;P07;Módulo de cocção;Lateral direita do forno - R30 deslocada 13 mm (vão 577);"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca306;P07;Módulo de cocção;Lateral esquerda do forno;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca307;P07;Módulo de cocção;Travessa cocção · avançada27 para liberar ar traseiro45 · proposta;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaBaixaR13;P08;Gaveta de limpeza;Frente baixa preservada1223x106 - recuo80;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+ReguaInferiorBaixaR31;P07;Módulo de cocção;ReguaInferiorBaixa · proposta R31;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+ReguaInferiorAltaR31;P07;Módulo de cocção;ReguaInferiorAlta · proposta R31;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+ReguaSuperiorBaixaR31;P07;Módulo de cocção;ReguaSuperiorBaixa · proposta R31;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+ReguaSuperiorAltaR31;P07;Módulo de cocção;ReguaSuperiorAlta · proposta R31;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca315;P09;Aéreo D · depurador;Lateral direita021;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca316;P09;Aéreo D · depurador;Lateral esquerda005;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca318;P09;Aéreo D · depurador;Base004;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR002;P09;Aéreo D · depurador;D · acima do depurador - porta direita — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR003;P09;Aéreo D · depurador;D · acima do depurador - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca324;P10;Aéreo C · uso diário;Lateral direita022;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca325;P10;Aéreo C · uso diário;Lateral esquerda006;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca327;P10;Aéreo C · uso diário;Base005;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR004;P10;Aéreo C · uso diário;C · uso diário - porta direita — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR005;P10;Aéreo C · uso diário;C · uso diário - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca334;P11;Aéreo B · micro;Lateral direita023;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca335;P11;Aéreo B · micro;Lateral esquerda007;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca337;P11;Aéreo B · micro;Base006;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR006;P11;Aéreo B · micro;B · acima do micro - porta direita — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR007;P11;Aéreo B · micro;B · acima do micro - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca342;P12;Aéreo A · geladeira;Lateral direita024;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca343;P12;Aéreo A · geladeira;Lateral esquerda008;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca345;P12;Aéreo A · geladeira;Base007;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR008;P12;Aéreo A · geladeira;A · acima da geladeira - porta direita — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+FrenteComumR009;P12;Aéreo A · geladeira;A · acima da geladeira - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Guararapes Azul Petróleo";sim;Guararapes Azul Petróleo;Guararapes Azul Petróleo;Guararapes Azul Petróleo;nao;whole_piece_same_finish
+Peca352;P14;Gabinete tanque e cesto;Lateral direita025;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca353;P14;Gabinete tanque e cesto;Lateral esquerda009;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaCestoR001;P14;Gabinete tanque e cesto;Rodapé80 sob a base, recuado50 da face - R29 (era110);"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaCestoR002;P14;Gabinete tanque e cesto;Painel superior removível675–897 - Arenza liso;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaCestoR003;P14;Gabinete tanque e cesto;Frente inferior521 - face630, junta lateral2 proposta;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca359;P15;Aéreo da lavanderia;Lateral direita026;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca360;P15;Aéreo da lavanderia;Lateral esquerda010;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca362;P15;Aéreo da lavanderia;Base008;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+FrenteComumR010;P15;Aéreo da lavanderia;Aéreo da lavanderia - porta direita — frente com canecos;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+FrenteComumR011;P15;Aéreo da lavanderia;Aéreo da lavanderia - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+GavetaComumR077;P16;Gaveteiro do escritório;Frente preservada · Gaveta escritório 1 - proposta R08;"face interna Branco TX; face aparente Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+GavetaComumR089;P16;Gaveteiro do escritório;Frente preservada · Gaveta escritório 2 - proposta R08;"face interna Branco TX; face aparente Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca384;P17;Aéreo do escritório;Lateral direita028;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+Peca385;P17;Aéreo do escritório;Lateral esquerda012;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+Peca387;P17;Aéreo do escritório;Base010;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+FrenteComumR11;P17;Aéreo do escritório;Escritório porta 4 - abrir para direita — frente com canecos;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+FrenteComumR012;P17;Aéreo do escritório;Escritório porta 3 - abrir para esquerda — frente com canecos;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+FrenteComumR013;P17;Aéreo do escritório;Escritório porta 2 - abrir para direita — frente com canecos;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+FrenteComumR014;P17;Aéreo do escritório;Escritório porta 1 - abrir para esquerda — frente com canecos;"face interna Branco TX; face aparente Off-white fosco";sim;Off-white fosco;Off-white fosco;Off-white fosco;nao;whole_piece_same_finish
+BC43_CaixaE;P18;Gabinete do banheiro;Lateral original esquerda com furos de união;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";sim;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;nao;whole_piece_same_finish
+BC43_CaixaD;P18;Gabinete do banheiro;Lateral original direita com furos de união;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";sim;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;nao;whole_piece_same_finish
+BC43_PainelEsquerda;P18;Gabinete do banheiro;Folha 292×500×18 — cava18×80×6;"face interna Branco TX; face aparente Arauco Beige Matt liso";sim;Arauco Beige Matt;Arauco Beige Matt;Arauco Beige Matt;nao;whole_piece_same_finish
+BC43_PainelDireita;P18;Gabinete do banheiro;Folha 292×500×18 — cava18×80×001;"face interna Branco TX; face aparente Arauco Beige Matt liso";sim;Arauco Beige Matt;Arauco Beige Matt;Arauco Beige Matt;nao;whole_piece_same_finish
+Peca400;P19;Espelheiro;Lateral direita030;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";sim;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;nao;whole_piece_same_finish
+Peca401;P19;Espelheiro;Lateral esquerda014;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";sim;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;Arauco Louro Freijó Poro;nao;whole_piece_same_finish
+FrenteComumR019;P19;Espelheiro;Armário espelhado raso - porta direita — frente com canecos;"face interna Branco TX; face aparente Espelho (camada distinta do substrato)";nao;Branco TX;Branco TX;Branco TX;sim;whole_piece_with_separate_mirror
+FrenteComumR020;P19;Espelheiro;Armário espelhado raso - porta esquerda — frente com canecos;"face interna Branco TX; face aparente Espelho (camada distinta do substrato)";nao;Branco TX;Branco TX;Branco TX;sim;whole_piece_with_separate_mirror
+Peca407;P20;Banco baú;Lateral esquerda015;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaBancoR16;P20;Banco baú;Frente18 estrutural - apoio não calculado;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+Peca406AtualR31;P20;Banco baú;Lateral fechada18 - banco com acesso superior;"face interna Branco TX; face aparente Greenplac Arenza";sim;Greenplac Arenza liso;Greenplac Arenza liso;Greenplac Arenza liso;nao;whole_piece_same_finish
+PecaBaixaR036;P08;Gaveta de limpeza;Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+PecaBaixaR037;P08;Gaveta de limpeza;Reserva apoio lateral18 dos gabinetes - estrutura NÃO calculada001;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BC43_LateralE;P18;Gabinete do banheiro;Montante frontal esquerdo18×70×543;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BC43_LateralD;P18;Gabinete do banheiro;Montante frontal direito18×70×543;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BC43_Base;P18;Gabinete do banheiro;Base do quadro564×70×18;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BC43_Travessa;P18;Gabinete do banheiro;Topo do quadro564×70×18;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BancoR43_Painel1;P20;Banco baú;BancoR43_Painel1;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+BancoR43_Painel2;P20;Banco baú;BancoR43_Painel2;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+Peca367;P16;Gaveteiro do escritório;Lateral direita027;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+Peca368;P16;Gaveteiro do escritório;Lateral esquerda011;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending
+Peca403;P19;Espelheiro;Base012;Branco TX · faces internas;nao;A definir, único para a peça inteira;A definir;A definir;nao;whole_piece_finish_pending

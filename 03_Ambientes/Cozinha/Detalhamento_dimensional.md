@@ -1,8 +1,10 @@
 # Cozinha e lavanderia — primeiro detalhamento dimensional
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+
 **Compatibilização posterior — 28/09/2026:** a cena de bancada atualizada retoma o arranjo da seção 4, com pia agora de 65 cm e cocção de 60 cm conforme R03. Mantém vão de 10 cm entre PE12G/air fryer; a margem entre reserva lateral da air fryer e envelope da cuba sobe de 3 para 5,5 cm. Escorredor guardado nessa cena. Torre, gavetas e iluminação C2 também conferidas no caderno; cotas e funcionamento executivo seguem condicionais.
 
-**Hipótese de altura atual:** Elias pede considerar 257 cm do piso até a laje, ainda a validar. [Aéreos R00](Aereos.md) testa topo a 255 cm com 2 cm de ajuste propostos e níveis cotados; supera a ausência de hipótese de teto nas notas anteriores. Não é medida de obra.
+**Hipótese histórica de altura, anterior a 26/10/2026:** Elias pede considerar 257 cm do piso até a laje, ainda a validar. [Aéreos R00](Aereos.md) testa topo a 255 cm com 2 cm de ajuste propostos e níveis cotados; supera a ausência de hipótese de teto nas notas anteriores. Não é medida de obra.
 
 **Continuidade vigente:** [Aéreos R00](Aereos.md) detalha os superiores a pedido de Elias. Teto/forro ainda a medir, distribuição por prioridade sem capacidade total demonstrada. Escorredor definido: Tramontina Mini Plurale Grafite 61537000, 27,8 × 19,9 × 12,6 cm; uso junto à cuba e guarda seca no inferior. A esteira Mimo deixa de ser candidata.
 
@@ -89,7 +91,7 @@ No desenho da conversa, proposta de lixeira à esquerda, junto ao gaveteiro, com
 
 ## 2.2. Continuidade da organização da pia — 15/09/2026
 
-Elias aprova o desenho sem lixeira e pede seguir. [Novo ensaio de conteúdo](Organizacao_interna.md): duas pilhas pequenas no superior (cada uma: uma panela pequena + uma média), pressão isolada embaixo e organizador removível vizinho para tampas, frigideira, tábuas e escorredor. Essa distribuição é proposta, não escolha final de posições nem cabimento demonstrado.
+Em 15/09/2026, Elias aprova o desenho sem lixeira e pede seguir (fonte: [Registro de decisões, “Aprovação do desenho sem lixeira e ensaio do conteúdo”](../../01_Programa_e_decisoes/Registro_de_decisoes.md#aprovação-do-desenho-sem-lixeira-e-ensaio-do-conteúdo)). [Novo ensaio de conteúdo](Organizacao_interna.md): duas pilhas pequenas no superior (cada uma: uma panela pequena + uma média), pressão isolada embaixo e organizador removível vizinho para tampas, frigideira, tábuas e escorredor. Essa distribuição é proposta, não escolha final de posições nem cabimento demonstrado.
 
 Vão inferior no ensaio 22/46 cm: 22,2 cm. A pressão e itens em pé podem ultrapassá-lo; modelos ainda não escolhidos. Com topo intermediário a 50 cm, o vão inferior passaria a 26,2 cm, e o superior até o fundo estimado da cuba cairia a 21,5 cm antes das instalações. Manter a prateleira regulável e escolher a cota só após os gabaritos; nenhuma altura nova aprovada. O desenho mantém a referência anterior de 46 cm apenas como contexto e identifica os volumes como ilustrativos.
 

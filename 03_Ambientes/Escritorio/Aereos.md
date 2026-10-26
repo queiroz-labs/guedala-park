@@ -1,5 +1,7 @@
 # Redistribuição dos aéreos — ensaio F97
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+
 **Compatibilização com a convenção — 25/09/2026:** aéreo principal preservado em 200 × 55 × 35 cm. A implantação sugere faixa inicial de cerca de 10 cm junto à parede externa; restante em divisa com dormitório. Medir transição e compatibilizar proteção mínima de 1 cm sem aplicar automaticamente à parede inteira. Gabinete dedicado ao PC continua excluído. Revisão.
 
 ## Revisão aprovada — F155

@@ -13,7 +13,7 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 | Item | Definição |
 |---|---|
 | Unidade | Cury Guedala Park III · Torre 2 · final 06 · 8º andar · 40,18 m² · dois dormitórios |
-| Situação | Ainda não entregue. Medidas baseadas na planta oficial; pé-direito de referência de 247 cm não conferido |
+| Situação | Ainda não entregue. Medidas baseadas na planta oficial; pé-direito geral de teste de 260 cm, medida a confirmar (Elias, 26/10/2026); escritório: cenário separado de 247 cm com forro, também não conferido |
 | Objetivo | Mudar com todos os ambientes prontos |
 | Prazo-meta | Dois meses de execução após as chaves e mudança no terceiro mês, com um profissional coordenando as equipes |
 | Verba | R$120.000 de execução + R$10.000 de reserva intocada = R$130.000 |

@@ -1,421 +1,431 @@
 ﻿scenario;group;specification;thickness_mm;sheet;format;id;module;x_mm;y_mm;blank_C_along_x_mm;blank_L_along_y_mm;rotated_90;nominal_C_mm;nominal_L_mm;contour;envelope_not_finished_cut
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR050;P06;10;10;490.0;551.0;True;551.0;490.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR062;P06;10;564.2;490.0;551.0;True;551.0;490.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR002;P01;10;1118.4;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR014;P01;10;1444.6000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR026;P01;503.2;10;323.0;490.0;True;490.0;323.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR038;P01;503.2;503.2;323.0;490.0;True;490.0;323.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR051;P06;503.2;996.4000000000001;273.0;541.0;True;541.0;273.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR048;P06;829.4000000000001;10;300.0;490.0;True;490.0;300.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR049;P06;829.4000000000001;503.2;300.0;490.0;True;490.0;300.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR074;P16;1132.6000000000001;10;390.0;332.0;False;390.0;332.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR086;P16;1525.8000000000002;10;390.0;332.0;False;390.0;332.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR08;P01;829.4000000000001;996.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR012;P01;932.6000000000001;996.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR024;P01;1919.0000000000002;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR036;P01;1919.0000000000002;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR001;P01;1919.0000000000002;216.39999999999998;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR013;P01;1132.6000000000001;345.2;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR025;P01;1132.6000000000001;838.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR037;P01;1132.6000000000001;1331.6000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R017;P06;1235.8000000000002;345.2;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R018;P06;1235.8000000000002;838.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R016;P06;1339.0000000000002;345.2;541.0;73.0;False;541.0;73.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR060;P06;1035.8000000000002;996.4000000000001;80.0;490.0;True;490.0;80.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR061;P06;1235.8000000000002;1331.6000000000001;80.0;490.0;True;490.0;80.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR072;P16;1339.0000000000002;421.4;390.0;80.0;False;390.0;80.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR073;P16;1732.2000000000003;421.4;390.0;80.0;False;390.0;80.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR084;P16;2125.4;421.4;390.0;74.0;False;390.0;74.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR085;P16;1339.0000000000002;504.59999999999997;74.0;390.0;True;390.0;74.0;Recortado/especial;True
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR063;P06;1883.2000000000003;345.2;541.0;53.0;False;541.0;53.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR003;P01;1339.0000000000002;897.8;73.0;313.0;True;313.0;73.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR015;P01;1339.0000000000002;1214.0;73.0;313.0;True;313.0;73.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR027;P01;503.2;1540.6000000000001;313.0;73.0;False;313.0;73.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR039;P01;503.2;1616.8000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR075;P16;503.2;1693.0000000000002;322.0;53.0;False;322.0;53.0;Retangular;False
-rotacao_livre;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR087;P16;503.2;1749.2000000000003;322.0;47.0;False;322.0;47.0;Retangular;False
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR052;P06;10;10;273.0;541.0;True;541.0;273.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR064;P06;10;554.2;53.0;541.0;True;541.0;53.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR004;P01;66.2;554.2;73.0;313.0;True;313.0;73.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR016;P01;142.39999999999998;554.2;73.0;313.0;True;313.0;73.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR028;P01;10;1098.4;73.0;313.0;True;313.0;73.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR040;P01;86.2;1098.4;73.0;313.0;True;313.0;73.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR076;P16;10;1414.6000000000001;53.0;322.0;True;322.0;53.0;Recortado/especial;True
-rotacao_livre;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR088;P16;66.2;1414.6000000000001;47.0;322.0;True;322.0;47.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca208;P01;10;10;2096.0;1964.0;False;2096.0;1964.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca210;P01;2109.2;10;550.0;2052.0;True;2052.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;1;2750x2100;PecaBaixaR004;P08;10;1977.2;1223.0;88.0;False;1223.0;88.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca404;P19;1236.2;1977.2;564.0;108.0;False;564.0;108.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;1;2750x2100;Ref_Apoio_B04R31;P20;2662.3999999999996;10;18.0;1764.0;True;1764.0;18.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca209;P01;10;10;1964.0;550.0;False;1964.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca386;P17;10;563.2;1964.0;514.0;False;1964.0;514.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca263;P03;10;1080.4;1314.0;632.0;False;1314.0;632.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca241;P01;1977.2;563.2;550.0;1002.0;True;1002.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca278;P05;1327.2;1080.4;614.0;684.0;True;684.0;614.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca245;P01;1977.2;10;705.0;550.0;False;705.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;PecaBaixaR005;P08;10;1715.6000000000001;1223.0;88.0;False;1223.0;88.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Ref_Sarrafo_frente0R31;P20;2530.3999999999996;563.2;126.0;800.0;True;800.0;126.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;ApoioCestoC03R31;P14;2659.5999999999995;563.2;80.0;554.0;True;554.0;80.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;2;2750x1850;Ref_Sarrafo_tras1R31;P20;2530.3999999999996;1366.4;126.0;198.0;True;198.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca408;P20;10;10;382.0;1764.0;True;1764.0;382.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca388;P17;395.2;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca242;P01;395.2;325.2;550.0;1002.0;True;1002.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca243;P01;948.4000000000001;325.2;550.0;1002.0;True;1002.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca244;P01;1501.6000000000001;325.2;1002.0;550.0;False;1002.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBaixaR001;P08;1501.6000000000001;878.4000000000001;1223.0;442.0;False;1223.0;442.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca326;P10;1501.6000000000001;1323.6000000000001;982.0;511.0;False;982.0;511.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioComumR11;P17;395.2;1330.4;514.0;312.0;False;514.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioComumR001;P17;948.4000000000001;1330.4;514.0;312.0;False;514.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBancoR006AtualR31;P20;395.2;1645.6000000000001;390.0;192.0;False;390.0;192.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBancoR030;P20;948.4000000000001;1645.6000000000001;356.0;177.0;False;356.0;177.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioDireitoR31;P07;2486.8;1323.6000000000001;120.0;505.0;True;505.0;120.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;3;2750x1850;GavetaComumR017;P01;2610.0;1323.6000000000001;130.0;353.0;True;353.0;130.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaBancoR002;P20;10;10;390.0;1384.0;True;1384.0;390.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca268;P04;403.2;10;272.0;1764.0;True;1764.0;272.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;FundoTanqueR29;P14;678.4000000000001;10;554.0;802.0;True;802.0;554.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca361;P15;678.4000000000001;815.2;544.0;799.0;True;799.0;544.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca344;P12;1235.6000000000001;10;765.0;548.0;False;765.0;548.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca402;P19;1235.6000000000001;561.2;564.0;714.0;True;714.0;564.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca285;P06;1802.8000000000002;561.2;684.0;583.0;False;684.0;583.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca246;P01;1802.8000000000002;1147.4;705.0;550.0;False;705.0;550.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaCestoR15;P14;1235.6000000000001;1278.4;562.0;554.0;False;562.0;554.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;BasePlanaR31;P07;2003.8000000000002;10;577.0;535.0;False;577.0;535.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca370;P16;10;1397.2;364.0;412.0;True;412.0;364.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioComumR004;P04;678.4000000000001;1617.4;272.0;212.0;False;272.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioOpostoR001;P04;953.6000000000001;1617.4;272.0;212.0;False;272.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioCestoC01R31;P14;2490.0;561.2;98.0;580.0;True;580.0;98.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioCestoC02R31;P14;2591.2;561.2;98.0;580.0;True;580.0;98.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Apoio_B02R31;P20;1802.8000000000002;1700.6000000000001;390.0;82.0;False;390.0;82.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca336;P11;10;10;574.0;661.0;True;661.0;574.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca270;P04;587.2;10;212.0;1764.0;True;1764.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca261;P03;802.4000000000001;10;272.0;1314.0;True;1314.0;272.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca279;P05;10;674.2;572.0;614.0;True;614.0;572.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca280;P05;1077.6000000000001;10;614.0;572.0;False;614.0;572.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca317;P09;1694.8000000000002;10;614.0;556.0;False;614.0;556.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca286;P06;1077.6000000000001;585.2;572.0;583.0;True;583.0;572.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;PecaBancoR007AtualR31;P20;1652.8000000000002;585.2;800.0;372.0;False;800.0;372.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca396;P18;1077.6000000000001;1171.4;564.0;509.0;False;564.0;509.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca256;P02;1652.8000000000002;960.4000000000001;1032.0;272.0;False;1032.0;272.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca363;P15;1652.8000000000002;1235.6000000000001;799.0;312.0;False;799.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;BC43_CaixaBase;P18;2312.0;10;382.0;564.0;True;564.0;382.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca320;P09;10;1291.4;556.0;312.0;False;556.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca255;P02;1652.8000000000002;1550.8000000000002;632.0;272.0;False;632.0;272.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;PecaBancoR029;P20;2456.0;585.2;202.0;356.0;True;356.0;202.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;ApoioEsquerdoR31;P07;802.4000000000001;1327.2;120.0;505.0;True;505.0;120.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;ApoioCentralR31;P07;925.6000000000001;1327.2;120.0;505.0;True;505.0;120.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;PrateleiraEspelhadoR12;P19;1077.6000000000001;1683.6000000000001;560.0;104.0;False;560.0;104.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;PrateleiraEspelhadoR001;P19;10;1606.6000000000001;560.0;104.0;False;560.0;104.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;ApoioOpostoR002;P04;2455.0;1235.6000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Ref_Sarrafo_frente3R31;P20;10;1713.8000000000002;362.0;126.0;False;362.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;PecaBaixaR003;P08;2288.0;1550.8000000000002;406.0;88.0;False;406.0;88.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Ref_Apoio_B03R31;P20;2288.0;1642.0000000000002;390.0;82.0;False;390.0;82.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Ref_Apoio_B01R31;P20;2288.0;1727.2000000000003;390.0;80.0;False;390.0;80.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;5;2750x1850;Ref_Sarrafo_frente1R31;P20;375.2;1713.8000000000002;198.0;126.0;False;198.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca346;P12;10;10;312.0;765.0;True;765.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca338;P11;10;778.2;312.0;661.0;True;661.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca339;P11;325.2;10;312.0;661.0;True;661.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca319;P09;325.2;674.2;312.0;614.0;True;614.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca347;P12;325.2;1291.4;312.0;548.0;True;548.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;LateralApoioPrincipal;P02;640.4000000000001;10;272.0;612.0;True;612.0;272.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioComumR002;P17;915.6000000000001;10;514.0;312.0;False;514.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioOpostoR18;P17;1432.8000000000002;10;514.0;312.0;False;514.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca328;P10;1950.0000000000002;10;511.0;312.0;False;511.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca329;P10;915.6000000000001;325.2;312.0;511.0;True;511.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca330;P10;915.6000000000001;839.4000000000001;312.0;511.0;True;511.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca331;P10;1230.8000000000002;325.2;511.0;312.0;False;511.0;312.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca371;P16;1230.8000000000002;640.4000000000001;364.0;412.0;True;412.0;364.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca211;P01;1230.8000000000002;1055.6000000000001;355.0;400.0;True;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca212;P01;1598.0000000000002;640.4000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca213;P01;2001.2000000000003;640.4000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca226;P01;1598.0000000000002;998.6000000000001;355.0;400.0;True;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca227;P01;1598.0000000000002;1401.8000000000002;355.0;400.0;True;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca228;P01;1956.2000000000003;998.6000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR001;P20;1956.2000000000003;1356.8000000000002;362.0;390.0;True;390.0;362.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR003;P20;2321.4;1356.8000000000002;390.0;320.0;False;390.0;320.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR004;P20;10;1442.4;300.0;390.0;True;390.0;300.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR005;P20;915.6000000000001;1353.6000000000001;300.0;390.0;True;390.0;300.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_tras0R31;P20;640.4000000000001;625.2;126.0;800.0;True;800.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca369;P16;1230.8000000000002;1458.8000000000002;364.0;204.0;False;364.0;204.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioPortaBR04;P02;640.4000000000001;1428.4;272.0;212.0;False;272.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioComumR003;P04;2464.2;10;272.0;212.0;False;272.0;212.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR005;P01;769.6000000000001;625.2;142.0;353.0;True;353.0;142.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR029;P01;769.6000000000001;981.4000000000001;142.0;353.0;True;353.0;142.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR041;P01;2404.4;640.4000000000001;130.0;353.0;True;353.0;130.0;Recortado/especial;True
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_tras3R31;P20;1230.8000000000002;1666.0000000000002;362.0;126.0;False;362.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_frente2R31;P20;2537.6;640.4000000000001;126.0;350.0;True;350.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_tras2R31;P20;2359.4;998.6000000000001;126.0;350.0;True;350.0;126.0;Retangular;False
-rotacao_livre;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBaixaR002;P08;2321.4;1680.0000000000002;406.0;88.0;False;406.0;88.0;Retangular;False
-rotacao_livre;G04;"face interna Branco TX; face aparente Arauco Beige Matt liso";18.0;1;2750x1850;BC43_PainelEsquerda;P18;10;10;292.0;500.0;True;500.0;292.0;Recortado/especial;True
-rotacao_livre;G04;"face interna Branco TX; face aparente Arauco Beige Matt liso";18.0;1;2750x1850;BC43_PainelDireita;P18;10;513.2;292.0;500.0;True;500.0;292.0;Recortado/especial;True
-rotacao_livre;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;BC43_CaixaE;P18;10;10;400.0;545.0;True;545.0;400.0;Recortado/especial;True
-rotacao_livre;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;BC43_CaixaD;P18;10;558.2;400.0;545.0;True;545.0;400.0;Recortado/especial;True
-rotacao_livre;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;Peca400;P19;413.2;10;126.0;750.0;True;750.0;126.0;Retangular;False
-rotacao_livre;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;Peca401;P19;413.2;763.2;126.0;750.0;True;750.0;126.0;Retangular;False
-rotacao_livre;G06;"face interna Branco TX; face aparente Arenza";18.0;1;2750x1850;GavetaComumR077;P16;10;10;118.0;398.0;True;398.0;118.0;Recortado/especial;True
-rotacao_livre;G06;"face interna Branco TX; face aparente Arenza";18.0;1;2750x1850;GavetaComumR089;P16;10;411.2;118.0;398.0;True;398.0;118.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;PecaBancoR16;P20;10;10;400.0;1764.0;True;1764.0;400.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca305;P07;413.2;10;590.0;900.0;True;900.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca306;P07;413.2;913.2;590.0;900.0;True;900.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca352;P14;1006.4000000000001;10;802.0;610.0;False;802.0;610.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca353;P14;1811.6000000000001;10;802.0;610.0;False;802.0;610.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca276;P05;1006.4000000000001;623.2;590.0;720.0;True;720.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca277;P05;1599.6000000000001;623.2;720.0;590.0;False;720.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca283;P06;1599.6000000000001;1216.4;720.0;590.0;False;720.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;GavetaComumR053;P06;2322.8;1216.4;396.0;617.0;True;617.0;396.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;FrenteComumR010;P15;2322.8;623.2;414.5;578.0;True;578.0;414.5;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca359;P15;1006.4000000000001;1346.4;580.0;330.0;False;580.0;330.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;ReguaInferiorBaixaR31;P07;2722.0;1216.4;18.0;577.0;True;577.0;18.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca284;P06;10;10;590.0;720.0;True;720.0;590.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaCestoR003;P14;10;733.2;550.0;521.0;False;550.0;521.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca362;P15;603.2;10;312.0;799.0;True;799.0;312.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR011;P15;10;1257.4;414.5;578.0;True;578.0;414.5;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR10;P05;918.4000000000001;10;718.0;322.0;False;718.0;322.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR001;P05;1639.6000000000001;10;718.0;322.0;False;718.0;322.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca360;P15;918.4000000000001;335.2;330.0;580.0;True;580.0;330.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca407;P20;1251.6000000000001;335.2;450.0;400.0;False;450.0;400.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca406AtualR31;P20;1704.8000000000002;335.2;450.0;400.0;False;450.0;400.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaBaixaR13;P08;1251.6000000000001;738.4000000000001;1223.0;106.0;False;1223.0;106.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaCestoR002;P14;2158.0;335.2;550.0;222.0;False;550.0;222.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;MontagemG2R020;P06;603.2;812.2;156.0;617.0;True;617.0;156.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;GavetaComumR065;P06;918.4000000000001;918.4000000000001;156.0;617.0;True;617.0;156.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaCestoR001;P14;2158.0;560.4000000000001;554.0;80.0;False;554.0;80.0;Retangular;False
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;ReguaInferiorAltaR31;P07;2158.0;643.6000000000001;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;ReguaSuperiorBaixaR31;P07;2158.0;664.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-rotacao_livre;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;ReguaSuperiorAltaR31;P07;2158.0;686.0000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca324;P10;10;10;330.0;1018.0;True;1018.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca325;P10;343.2;10;330.0;1018.0;True;1018.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR004;P10;676.4000000000001;10;270.5;1016.0;True;1016.0;270.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR005;P10;950.1000000000001;10;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca345;P12;10;1031.2;312.0;765.0;True;765.0;312.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR008;P12;950.1000000000001;283.7;397.5;582.0;True;582.0;397.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR009;P12;950.1000000000001;868.9000000000001;397.5;582.0;True;582.0;397.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR006;P11;1350.8000000000002;283.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR007;P11;1962.0000000000002;283.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca337;P11;343.2;1031.2;312.0;661.0;True;661.0;312.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca334;P11;1350.8000000000002;632.4000000000001;330.0;610.0;True;610.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca335;P11;1684.0000000000002;632.4000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca315;P09;1350.8000000000002;1245.6000000000001;330.0;592.0;True;592.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca316;P09;1684.0000000000002;965.6000000000001;330.0;592.0;True;592.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca342;P12;2017.2000000000003;965.6000000000001;584.0;330.0;False;584.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca343;P12;2017.2000000000003;1298.8000000000002;584.0;330.0;False;584.0;330.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;Peca318;P09;10;10;312.0;614.0;True;614.0;312.0;Retangular;False
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;FrenteComumR002;P09;325.2;10;322.0;590.0;True;590.0;322.0;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;FrenteComumR003;P09;325.2;603.2;322.0;590.0;True;590.0;322.0;Recortado/especial;True
-rotacao_livre;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;Peca327;P10;10;627.2;312.0;511.0;True;511.0;312.0;Retangular;False
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca387;P17;10;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR11;P17;10;325.2;496.0;548.0;True;548.0;496.0;Recortado/especial;True
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR012;P17;10;876.4000000000001;496.0;548.0;True;548.0;496.0;Recortado/especial;True
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR013;P17;509.2;325.2;496.0;548.0;True;548.0;496.0;Recortado/especial;True
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR014;P17;509.2;876.4000000000001;496.0;548.0;True;548.0;496.0;Recortado/especial;True
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca384;P17;1008.4000000000001;325.2;330.0;550.0;True;550.0;330.0;Retangular;False
-rotacao_livre;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca385;P17;1008.4000000000001;878.4000000000001;330.0;550.0;True;550.0;330.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR050;P06;10;10;551.0;490.0;False;551.0;490.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR062;P06;10;503.2;551.0;490.0;False;551.0;490.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR002;P01;10;996.4000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR014;P01;10;1322.6000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR026;P01;564.2;10;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR038;P01;564.2;336.2;490.0;323.0;False;490.0;323.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR051;P06;1057.4;10;541.0;273.0;False;541.0;273.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR048;P06;564.2;662.4000000000001;490.0;300.0;False;490.0;300.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR049;P06;564.2;965.6000000000001;490.0;300.0;False;490.0;300.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR074;P16;564.2;1268.8000000000002;390.0;332.0;False;390.0;332.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR086;P16;1057.4;286.2;390.0;332.0;False;390.0;332.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR08;P01;564.2;1604.0000000000002;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR012;P01;564.2;1707.2000000000003;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR024;P01;10;1648.8000000000002;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR036;P01;1601.6000000000001;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR001;P01;1601.6000000000001;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR013;P01;2094.8;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR025;P01;2094.8;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR037;P01;1450.6000000000001;286.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R017;P06;1943.8000000000002;286.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R018;P06;1450.6000000000001;389.4;490.0;100.0;False;490.0;100.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;MontagemG2R016;P06;10;1752.0000000000002;541.0;73.0;False;541.0;73.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR060;P06;1943.8000000000002;389.4;490.0;80.0;False;490.0;80.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR061;P06;1450.6000000000001;492.59999999999997;490.0;80.0;False;490.0;80.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR072;P16;1943.8000000000002;492.59999999999997;390.0;80.0;False;390.0;80.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR073;P16;2337.0;492.59999999999997;390.0;80.0;False;390.0;80.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR084;P16;1057.4;621.4000000000001;390.0;74.0;False;390.0;74.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR085;P16;1057.4;698.6000000000001;390.0;74.0;False;390.0;74.0;Recortado/especial;True
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR063;P06;1450.6000000000001;575.8;541.0;53.0;False;541.0;53.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR003;P01;1057.4;775.8000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR015;P01;1057.4;852.0000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR027;P01;1057.4;928.2000000000003;313.0;73.0;False;313.0;73.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR039;P01;1057.4;1004.4000000000003;313.0;73.0;False;313.0;73.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR075;P16;1994.8000000000002;575.8;322.0;53.0;False;322.0;53.0;Retangular;False
-C_paralelo_2750;G01;Branco TX · faces internas;15.0;1;2750x1850;GavetaComumR087;P16;2320.0;575.8;322.0;47.0;False;322.0;47.0;Retangular;False
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR052;P06;10;10;541.0;273.0;False;541.0;273.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR064;P06;10;286.2;541.0;53.0;False;541.0;53.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR004;P01;10;342.4;313.0;73.0;False;313.0;73.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR016;P01;10;418.59999999999997;313.0;73.0;False;313.0;73.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR028;P01;10;494.79999999999995;313.0;73.0;False;313.0;73.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR040;P01;10;571.0;313.0;73.0;False;313.0;73.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR076;P16;10;647.2;322.0;53.0;False;322.0;53.0;Recortado/especial;True
-C_paralelo_2750;G02;Branco TX · faces internas;16.0;1;2750x1850;GavetaComumR088;P16;10;703.4000000000001;322.0;47.0;False;322.0;47.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca208;P01;10;10;2096.0;1964.0;False;2096.0;1964.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca279;P05;2109.2;10;614.0;572.0;False;614.0;572.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca280;P05;2109.2;585.2;614.0;572.0;False;614.0;572.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca317;P09;2109.2;1160.4;614.0;556.0;False;614.0;556.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca319;P09;2109.2;1719.6000000000001;614.0;312.0;False;614.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;PecaBaixaR004;P08;10;1977.2;1223.0;88.0;False;1223.0;88.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;1;2750x2100;Peca404;P19;1236.2;1977.2;564.0;108.0;False;564.0;108.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca210;P01;10;10;2052.0;550.0;False;2052.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca209;P01;10;563.2;1964.0;550.0;False;1964.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca386;P17;10;1116.4;1964.0;514.0;False;1964.0;514.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca278;P05;1977.2;563.2;684.0;614.0;False;684.0;614.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca402;P19;1977.2;1180.4;714.0;564.0;False;714.0;564.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;BasePlanaR31;P07;2065.2;10;577.0;535.0;False;577.0;535.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;PecaBaixaR005;P08;10;1633.6000000000001;1223.0;88.0;False;1223.0;88.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Peca369;P16;1236.2;1633.6000000000001;364.0;204.0;False;364.0;204.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;PecaBancoR029;P20;1603.4;1633.6000000000001;356.0;202.0;False;356.0;202.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;PrateleiraEspelhadoR001;P19;10;1724.8000000000002;560.0;104.0;False;560.0;104.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;ApoioCestoC02R31;P14;573.2;1724.8000000000002;580.0;98.0;False;580.0;98.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;2;2750x1850;Ref_Apoio_B02R31;P20;1977.2;1747.6000000000001;390.0;82.0;False;390.0;82.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca263;P03;10;10;1314.0;632.0;False;1314.0;632.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca241;P01;10;645.2;1002.0;550.0;False;1002.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca242;P01;10;1198.4;1002.0;550.0;False;1002.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca243;P01;1327.2;10;1002.0;550.0;False;1002.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca244;P01;1327.2;563.2;1002.0;550.0;False;1002.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBaixaR001;P08;1327.2;1116.4;1223.0;442.0;False;1223.0;442.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca261;P03;1327.2;1561.6000000000001;1314.0;272.0;False;1314.0;272.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca211;P01;2332.3999999999996;10;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Peca212;P01;2332.3999999999996;563.2;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBancoR030;P20;2332.3999999999996;368.2;356.0;177.0;False;356.0;177.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioComumR003;P04;1015.2;645.2;272.0;212.0;False;272.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioComumR004;P04;1015.2;860.4000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioOpostoR001;P04;1015.2;1198.4;272.0;212.0;False;272.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;ApoioOpostoR002;P04;1015.2;1413.6000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;Ref_Sarrafo_frente3R31;P20;2332.3999999999996;921.4000000000001;362.0;126.0;False;362.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBaixaR002;P08;10;1751.6000000000001;406.0;88.0;False;406.0;88.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;3;2750x1850;PecaBaixaR003;P08;419.2;1751.6000000000001;406.0;88.0;False;406.0;88.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca408;P20;10;10;1764.0;382.0;False;1764.0;382.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca388;P17;10;395.2;1964.0;312.0;False;1964.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaBancoR002;P20;10;710.4000000000001;1384.0;390.0;False;1384.0;390.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca326;P10;10;1103.6000000000001;982.0;511.0;False;982.0;511.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;FundoTanqueR29;P14;1397.2;710.4000000000001;802.0;554.0;False;802.0;554.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca361;P15;1397.2;1267.6000000000001;799.0;544.0;False;799.0;544.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaBancoR007AtualR31;P20;1777.2;10;800.0;372.0;False;800.0;372.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Peca338;P11;1977.2;395.2;661.0;312.0;False;661.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioComumR11;P17;2202.3999999999996;710.4000000000001;514.0;312.0;False;514.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioComumR001;P17;2199.3999999999996;1267.6000000000001;514.0;312.0;False;514.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaBancoR001;P20;995.2;1103.6000000000001;390.0;362.0;False;390.0;362.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;PecaBancoR003;P20;995.2;1468.8000000000002;390.0;320.0;False;390.0;320.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Sarrafo_tras0R31;P20;10;1617.8000000000002;800.0;126.0;False;800.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;ApoioPortaBR04;P02;2202.3999999999996;1025.6000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Sarrafo_tras2R31;P20;2199.3999999999996;1582.8000000000002;350.0;126.0;False;350.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Apoio_B03R31;P20;10;1747.0000000000002;390.0;82.0;False;390.0;82.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Apoio_B01R31;P20;403.2;1747.0000000000002;390.0;80.0;False;390.0;80.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;4;2750x1850;Ref_Sarrafo_frente1R31;P20;2199.3999999999996;1712.0000000000002;198.0;126.0;False;198.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca268;P04;10;10;1764.0;272.0;False;1764.0;272.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca344;P12;10;285.2;765.0;548.0;False;765.0;548.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca285;P06;10;836.4000000000001;684.0;583.0;False;684.0;583.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca245;P01;778.2;285.2;705.0;550.0;False;705.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca246;P01;778.2;838.4000000000001;705.0;550.0;False;705.0;550.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca336;P11;1486.4;285.2;661.0;574.0;False;661.0;574.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca286;P06;2150.6;285.2;583.0;572.0;False;583.0;572.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;PecaCestoR15;P14;1486.4;862.4000000000001;562.0;554.0;False;562.0;554.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca396;P18;2051.6;862.4000000000001;564.0;509.0;False;564.0;509.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca346;P12;10;1422.6000000000001;765.0;312.0;False;765.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;BC43_CaixaBase;P18;778.2;1391.6000000000001;564.0;382.0;False;564.0;382.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca339;P11;2051.6;1374.6000000000001;661.0;312.0;False;661.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca320;P09;1486.4;1419.6000000000001;556.0;312.0;False;556.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;Peca255;P02;1777.2;10;632.0;272.0;False;632.0;272.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;ApoioDireitoR31;P07;2051.6;1689.8000000000002;505.0;120.0;False;505.0;120.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;PrateleiraEspelhadoR12;P19;1486.4;1734.8000000000002;560.0;104.0;False;560.0;104.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;5;2750x1850;ApoioCestoC01R31;P14;10;1737.8000000000002;580.0;98.0;False;580.0;98.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca270;P04;10;10;1764.0;212.0;False;1764.0;212.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca256;P02;10;225.2;1032.0;272.0;False;1032.0;272.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca363;P15;10;500.4;799.0;312.0;False;799.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca347;P12;10;815.6;548.0;312.0;False;548.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;LateralApoioPrincipal;P02;10;1130.8;612.0;272.0;False;612.0;272.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioComumR002;P17;10;1406.0;514.0;312.0;False;514.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioOpostoR18;P17;527.2;1406.0;514.0;312.0;False;514.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca328;P10;1045.2;225.2;511.0;312.0;False;511.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca329;P10;1559.4;225.2;511.0;312.0;False;511.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca330;P10;2073.6;225.2;511.0;312.0;False;511.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca331;P10;1045.2;540.4000000000001;511.0;312.0;False;511.0;312.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca370;P16;1045.2;855.6000000000001;412.0;364.0;False;412.0;364.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca371;P16;1045.2;1222.8000000000002;412.0;364.0;False;412.0;364.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca213;P01;1559.4;540.4000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca226;P01;1962.6000000000001;540.4000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca227;P01;1559.4;898.6000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Peca228;P01;1559.4;1256.8000000000002;400.0;355.0;False;400.0;355.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR004;P20;561.2;815.6;390.0;300.0;False;390.0;300.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR005;P20;1962.6000000000001;898.6000000000001;390.0;300.0;False;390.0;300.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_frente0R31;P20;1777.2;10;800.0;126.0;False;800.0;126.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;PecaBancoR006AtualR31;P20;1559.4;1615.0000000000002;390.0;192.0;False;390.0;192.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioEsquerdoR31;P07;1045.2;1590.0000000000002;505.0;120.0;False;505.0;120.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioCentralR31;P07;1045.2;1713.2000000000003;505.0;120.0;False;505.0;120.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR005;P01;2365.8;540.4000000000001;353.0;142.0;False;353.0;142.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR029;P01;2365.8;685.6000000000001;353.0;142.0;False;353.0;142.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR017;P01;2355.8;898.6000000000001;353.0;130.0;False;353.0;130.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;GavetaComumR041;P01;2355.8;1031.8000000000002;353.0;130.0;False;353.0;130.0;Recortado/especial;True
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_tras3R31;P20;625.2;1130.8;362.0;126.0;False;362.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;ApoioCestoC03R31;P14;1777.2;139.2;554.0;80.0;False;554.0;80.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_frente2R31;P20;625.2;1260.0;350.0;126.0;False;350.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;6;2750x1850;Ref_Sarrafo_tras1R31;P20;812.2;500.4;198.0;126.0;False;198.0;126.0;Retangular;False
-C_paralelo_2750;G03;Branco TX · faces internas;18.0;7;2750x1850;Ref_Apoio_B04R31;P20;10;10;1764.0;18.0;False;1764.0;18.0;Retangular;False
-C_paralelo_2750;G04;"face interna Branco TX; face aparente Arauco Beige Matt liso";18.0;1;2750x1850;BC43_PainelEsquerda;P18;10;10;500.0;292.0;False;500.0;292.0;Recortado/especial;True
-C_paralelo_2750;G04;"face interna Branco TX; face aparente Arauco Beige Matt liso";18.0;1;2750x1850;BC43_PainelDireita;P18;10;305.2;500.0;292.0;False;500.0;292.0;Recortado/especial;True
-C_paralelo_2750;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;BC43_CaixaE;P18;10;10;545.0;400.0;False;545.0;400.0;Recortado/especial;True
-C_paralelo_2750;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;BC43_CaixaD;P18;10;413.2;545.0;400.0;False;545.0;400.0;Recortado/especial;True
-C_paralelo_2750;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;Peca400;P19;558.2;10;750.0;126.0;False;750.0;126.0;Retangular;False
-C_paralelo_2750;G05;"face interna Branco TX; face aparente Arauco Louro Freijó Poro (código escolhido em 24/10; conferir amostra)";18.0;1;2750x1850;Peca401;P19;1311.4;10;750.0;126.0;False;750.0;126.0;Retangular;False
-C_paralelo_2750;G06;"face interna Branco TX; face aparente Arenza";18.0;1;2750x1850;GavetaComumR077;P16;10;10;398.0;118.0;False;398.0;118.0;Recortado/especial;True
-C_paralelo_2750;G06;"face interna Branco TX; face aparente Arenza";18.0;1;2750x1850;GavetaComumR089;P16;10;131.2;398.0;118.0;False;398.0;118.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;PecaBancoR16;P20;10;10;1764.0;400.0;False;1764.0;400.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;PecaBaixaR13;P08;10;413.2;1223.0;106.0;False;1223.0;106.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca305;P07;10;522.4000000000001;900.0;590.0;False;900.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca306;P07;10;1115.6000000000001;900.0;590.0;False;900.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca352;P14;1236.2;413.2;802.0;610.0;False;802.0;610.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca353;P14;1236.2;1026.4;802.0;610.0;False;802.0;610.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca362;P15;1777.2;10;799.0;312.0;False;799.0;312.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;GavetaComumR053;P06;2041.4;413.2;617.0;396.0;False;617.0;396.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;MontagemG2R020;P06;1236.2;1639.6000000000001;617.0;156.0;False;617.0;156.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;GavetaComumR065;P06;2041.4;812.4000000000001;617.0;156.0;False;617.0;156.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca359;P15;2041.4;1026.4;580.0;330.0;False;580.0;330.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;Peca360;P15;2041.4;1359.6000000000001;580.0;330.0;False;580.0;330.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;ReguaInferiorBaixaR31;P07;1236.2;1798.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;ReguaInferiorAltaR31;P07;1236.2;1820.0000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;1;2750x1850;PecaCestoR001;P14;1777.2;325.2;554.0;80.0;False;554.0;80.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca276;P05;10;10;720.0;590.0;False;720.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca277;P05;10;603.2;720.0;590.0;False;720.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca283;P06;10;1196.4;720.0;590.0;False;720.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca284;P06;733.2;10;720.0;590.0;False;720.0;590.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR10;P05;733.2;603.2;718.0;322.0;False;718.0;322.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR001;P05;733.2;928.4000000000001;718.0;322.0;False;718.0;322.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR010;P15;733.2;1253.6000000000001;578.0;414.5;False;578.0;414.5;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;FrenteComumR011;P15;1456.4;10;578.0;414.5;False;578.0;414.5;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;ReguaSuperiorBaixaR31;P07;10;1789.6000000000001;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;ReguaSuperiorAltaR31;P07;10;1810.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaCestoR003;P14;1456.4;427.7;550.0;521.0;False;550.0;521.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;PecaCestoR002;P14;2037.6000000000001;10;550.0;222.0;False;550.0;222.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca407;P20;2009.6000000000001;427.7;450.0;400.0;False;450.0;400.0;Retangular;False
-C_paralelo_2750;G07;"face interna Branco TX; face aparente Greenplac Arenza";18.0;2;2750x1850;Peca406AtualR31;P20;1456.4;951.9000000000001;450.0;400.0;False;450.0;400.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca324;P10;10;10;1018.0;330.0;False;1018.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca325;P10;10;343.2;1018.0;330.0;False;1018.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR004;P10;10;676.4000000000001;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR005;P10;10;950.1000000000001;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca345;P12;10;1223.8000000000002;765.0;312.0;False;765.0;312.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR008;P12;1031.2;10;582.0;397.5;False;582.0;397.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR009;P12;1616.4;10;582.0;397.5;False;582.0;397.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR006;P11;1031.2;410.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;FrenteComumR007;P11;1031.2;759.4000000000001;608.0;345.5;False;608.0;345.5;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca337;P11;1642.4;410.7;661.0;312.0;False;661.0;312.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca334;P11;1642.4;725.9000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca335;P11;1642.4;1059.1000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca315;P09;1031.2;1108.1000000000001;592.0;330.0;False;592.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca316;P09;1031.2;1441.3000000000002;592.0;330.0;False;592.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca342;P12;1642.4;1392.3000000000002;584.0;330.0;False;584.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;1;2750x1850;Peca327;P10;2201.6;10;511.0;312.0;False;511.0;312.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;Peca343;P12;10;10;584.0;330.0;False;584.0;330.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;Peca318;P09;597.2;10;614.0;312.0;False;614.0;312.0;Retangular;False
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;FrenteComumR002;P09;597.2;325.2;590.0;322.0;False;590.0;322.0;Recortado/especial;True
-C_paralelo_2750;G08;"face interna Branco TX; face aparente Guararapes Azul Petróleo";18.0;2;2750x1850;FrenteComumR003;P09;597.2;650.4000000000001;590.0;322.0;False;590.0;322.0;Recortado/especial;True
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca387;P17;10;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR11;P17;10;325.2;548.0;496.0;False;548.0;496.0;Recortado/especial;True
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR012;P17;10;824.4000000000001;548.0;496.0;False;548.0;496.0;Recortado/especial;True
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR013;P17;10;1323.6000000000001;548.0;496.0;False;548.0;496.0;Recortado/especial;True
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;FrenteComumR014;P17;561.2;325.2;548.0;496.0;False;548.0;496.0;Recortado/especial;True
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca384;P17;1112.4;325.2;550.0;330.0;False;550.0;330.0;Retangular;False
-C_paralelo_2750;G09;"face interna Branco TX; face aparente Off-white fosco";18.0;1;2750x1850;Peca385;P17;1665.6000000000001;325.2;550.0;330.0;False;550.0;330.0;Retangular;False
+rotacao_livre;G01;Arauco Beige Matt — duas faces da mesma peça;18.0;1;2750x1850;BC43_PainelEsquerda;P18;10;10;292.0;500.0;True;500.0;292.0;Recortado/especial;True
+rotacao_livre;G01;Arauco Beige Matt — duas faces da mesma peça;18.0;1;2750x1850;BC43_PainelDireita;P18;10;513.2;292.0;500.0;True;500.0;292.0;Recortado/especial;True
+rotacao_livre;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;BC43_CaixaE;P18;10;10;400.0;545.0;True;545.0;400.0;Recortado/especial;True
+rotacao_livre;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;BC43_CaixaD;P18;10;558.2;400.0;545.0;True;545.0;400.0;Recortado/especial;True
+rotacao_livre;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;Peca400;P19;413.2;10;126.0;750.0;True;750.0;126.0;Retangular;False
+rotacao_livre;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;Peca401;P19;413.2;763.2;126.0;750.0;True;750.0;126.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR050;P06;10;10;490.0;551.0;True;551.0;490.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR062;P06;10;564.2;490.0;551.0;True;551.0;490.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR002;P01;10;1118.4;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR014;P01;10;1444.6000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR026;P01;503.2;10;323.0;490.0;True;490.0;323.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR038;P01;503.2;503.2;323.0;490.0;True;490.0;323.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR051;P06;503.2;996.4000000000001;273.0;541.0;True;541.0;273.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR048;P06;829.4000000000001;10;300.0;490.0;True;490.0;300.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR049;P06;829.4000000000001;503.2;300.0;490.0;True;490.0;300.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR074;P16;1132.6000000000001;10;390.0;332.0;False;390.0;332.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR086;P16;1525.8000000000002;10;390.0;332.0;False;390.0;332.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR08;P01;829.4000000000001;996.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR012;P01;932.6000000000001;996.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR024;P01;1919.0000000000002;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR036;P01;1919.0000000000002;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR001;P01;1919.0000000000002;216.39999999999998;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR013;P01;1132.6000000000001;345.2;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR025;P01;1132.6000000000001;838.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR037;P01;1132.6000000000001;1331.6000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R017;P06;1235.8000000000002;345.2;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R018;P06;1235.8000000000002;838.4000000000001;100.0;490.0;True;490.0;100.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R016;P06;1339.0000000000002;345.2;541.0;73.0;False;541.0;73.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR060;P06;1035.8000000000002;996.4000000000001;80.0;490.0;True;490.0;80.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR061;P06;1235.8000000000002;1331.6000000000001;80.0;490.0;True;490.0;80.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR072;P16;1339.0000000000002;421.4;390.0;80.0;False;390.0;80.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR073;P16;1732.2000000000003;421.4;390.0;80.0;False;390.0;80.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR084;P16;2125.4;421.4;390.0;74.0;False;390.0;74.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR085;P16;1339.0000000000002;504.59999999999997;74.0;390.0;True;390.0;74.0;Recortado/especial;True
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR063;P06;1883.2000000000003;345.2;541.0;53.0;False;541.0;53.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR003;P01;1339.0000000000002;897.8;73.0;313.0;True;313.0;73.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR015;P01;1339.0000000000002;1214.0;73.0;313.0;True;313.0;73.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR027;P01;503.2;1540.6000000000001;313.0;73.0;False;313.0;73.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR039;P01;503.2;1616.8000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR075;P16;503.2;1693.0000000000002;322.0;53.0;False;322.0;53.0;Retangular;False
+rotacao_livre;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR087;P16;503.2;1749.2000000000003;322.0;47.0;False;322.0;47.0;Retangular;False
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR052;P06;10;10;273.0;541.0;True;541.0;273.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR064;P06;10;554.2;53.0;541.0;True;541.0;53.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR004;P01;66.2;554.2;73.0;313.0;True;313.0;73.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR016;P01;142.39999999999998;554.2;73.0;313.0;True;313.0;73.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR028;P01;10;1098.4;73.0;313.0;True;313.0;73.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR040;P01;86.2;1098.4;73.0;313.0;True;313.0;73.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR076;P16;10;1414.6000000000001;53.0;322.0;True;322.0;53.0;Recortado/especial;True
+rotacao_livre;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR088;P16;66.2;1414.6000000000001;47.0;322.0;True;322.0;47.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca208;P01;10;10;2096.0;1964.0;False;2096.0;1964.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca210;P01;2109.2;10;550.0;2052.0;True;2052.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;PecaBaixaR004;P08;10;1977.2;1223.0;88.0;False;1223.0;88.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;PrateleiraEspelhadoR12;P19;1236.2;1977.2;560.0;104.0;False;560.0;104.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca209;P01;10;10;1964.0;550.0;False;1964.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca386;P17;10;563.2;1964.0;514.0;False;1964.0;514.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca408;P20;10;1080.4;1764.0;382.0;False;1764.0;382.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca388;P17;10;1465.6000000000001;1964.0;312.0;False;1964.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca241;P01;1977.2;563.2;550.0;1002.0;True;1002.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca245;P01;1977.2;10;705.0;550.0;False;705.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioDireitoR31;P07;2530.3999999999996;563.2;120.0;505.0;True;505.0;120.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioCestoC01R31;P14;1977.2;1568.4;580.0;98.0;False;580.0;98.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioCestoC02R31;P14;1977.2;1669.6000000000001;580.0;98.0;False;580.0;98.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Ref_Apoio_B02R31;P20;2653.5999999999995;563.2;82.0;390.0;True;390.0;82.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Ref_Apoio_B04R31;P20;10;1780.8000000000002;1764.0;18.0;False;1764.0;18.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca242;P01;10;10;550.0;1002.0;True;1002.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca243;P01;563.2;10;550.0;1002.0;True;1002.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca244;P01;1116.4;10;1002.0;550.0;False;1002.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;PecaBaixaR001;P08;1116.4;563.2;442.0;1223.0;True;1223.0;442.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca326;P10;1561.6000000000001;563.2;982.0;511.0;False;982.0;511.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;FundoTanqueR29;P14;1561.6000000000001;1077.4;802.0;554.0;False;802.0;554.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca361;P15;10;1015.2;544.0;799.0;True;799.0;544.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca344;P12;563.2;1015.2;548.0;765.0;True;765.0;548.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca396;P18;2121.6;10;564.0;509.0;False;564.0;509.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca338;P11;2366.8;1077.4;312.0;661.0;True;661.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;PecaBancoR006AtualR31;P20;2546.8;563.2;192.0;390.0;True;390.0;192.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;PecaBancoR029;P20;1561.6000000000001;1634.6000000000001;356.0;202.0;False;356.0;202.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Ref_Apoio_B03R31;P20;1920.8000000000002;1634.6000000000001;390.0;82.0;False;390.0;82.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBancoR002;P20;10;10;390.0;1384.0;True;1384.0;390.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca268;P04;403.2;10;272.0;1764.0;True;1764.0;272.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca278;P05;678.4000000000001;10;614.0;684.0;True;684.0;614.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca402;P19;678.4000000000001;697.2;564.0;714.0;True;714.0;564.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca285;P06;1295.6000000000001;10;684.0;583.0;False;684.0;583.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca246;P01;1982.8000000000002;10;705.0;550.0;False;705.0;550.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca336;P11;1295.6000000000001;596.2;574.0;661.0;True;661.0;574.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca279;P05;1872.8000000000002;596.2;614.0;572.0;False;614.0;572.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca280;P05;1872.8000000000002;1171.4;572.0;614.0;True;614.0;572.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;BasePlanaR31;P07;1295.6000000000001;1260.4;535.0;577.0;True;577.0;535.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca319;P09;678.4000000000001;1414.4;614.0;312.0;False;614.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca370;P16;10;1397.2;364.0;412.0;True;412.0;364.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca404;P19;678.4000000000001;1729.6000000000001;564.0;108.0;False;564.0;108.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;ApoioEsquerdoR31;P07;2490.0;596.2;120.0;505.0;True;505.0;120.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;ApoioCentralR31;P07;2613.2;596.2;120.0;505.0;True;505.0;120.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;ApoioComumR004;P04;2448.0;1171.4;272.0;212.0;False;272.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;ApoioOpostoR001;P04;2448.0;1386.6000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;ApoioOpostoR002;P04;2448.0;1601.8000000000002;272.0;212.0;False;272.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca270;P04;10;10;212.0;1764.0;True;1764.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca317;P09;225.2;10;556.0;614.0;True;614.0;556.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca286;P06;784.4000000000001;10;572.0;583.0;True;583.0;572.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaCestoR15;P14;225.2;627.2;554.0;562.0;True;562.0;554.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR007AtualR31;P20;784.4000000000001;596.2;372.0;800.0;True;800.0;372.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca256;P02;1359.6000000000001;10;1032.0;272.0;False;1032.0;272.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca363;P15;1359.6000000000001;285.2;799.0;312.0;False;799.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca346;P12;1359.6000000000001;600.4000000000001;312.0;765.0;True;765.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;BC43_CaixaBase;P18;784.4000000000001;1399.4;564.0;382.0;False;564.0;382.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca339;P11;1674.8000000000002;600.4000000000001;661.0;312.0;False;661.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca320;P09;2161.8;285.2;556.0;312.0;False;556.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca255;P02;225.2;1192.4;272.0;632.0;True;632.0;272.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca347;P12;1674.8000000000002;915.6000000000001;312.0;548.0;True;548.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;LateralApoioPrincipal;P02;500.4;1192.4;272.0;612.0;True;612.0;272.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioComumR11;P17;1990.0000000000002;915.6000000000001;514.0;312.0;False;514.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioComumR001;P17;1990.0000000000002;1230.8000000000002;312.0;514.0;True;514.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioComumR002;P17;2305.2;1230.8000000000002;312.0;514.0;True;514.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR004;P20;2339.0;600.4000000000001;390.0;300.0;False;390.0;300.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR005;P20;1359.6000000000001;1368.6000000000001;300.0;390.0;True;390.0;300.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Ref_Sarrafo_frente0R31;P20;1159.6000000000001;596.2;126.0;800.0;True;800.0;126.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PrateleiraEspelhadoR001;P19;2620.3999999999996;1230.8000000000002;104.0;560.0;True;560.0;104.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioPortaBR04;P02;2394.8;10;212.0;272.0;True;272.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Ref_Sarrafo_frente1R31;P20;2610.0;10;126.0;198.0;True;198.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioOpostoR18;P17;10;10;312.0;514.0;True;514.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca328;P10;10;527.2;312.0;511.0;True;511.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca329;P10;10;1041.4;312.0;511.0;True;511.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca330;P10;325.2;10;312.0;511.0;True;511.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca331;P10;325.2;524.2;312.0;511.0;True;511.0;312.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca371;P16;640.4000000000001;10;364.0;412.0;True;412.0;364.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca211;P01;640.4000000000001;425.2;355.0;400.0;True;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca212;P01;640.4000000000001;828.4000000000001;355.0;400.0;True;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca213;P01;640.4000000000001;1231.6000000000001;355.0;400.0;True;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca226;P01;1007.6000000000001;10;400.0;355.0;False;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca227;P01;1410.8000000000002;10;400.0;355.0;False;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca228;P01;1814.0000000000002;10;400.0;355.0;False;400.0;355.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBancoR001;P20;1007.6000000000001;368.2;362.0;390.0;True;390.0;362.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBancoR003;P20;2217.2;10;390.0;320.0;False;390.0;320.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBaixaR005;P08;1372.8000000000002;368.2;1223.0;88.0;False;1223.0;88.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_tras0R31;P20;325.2;1038.4;126.0;800.0;True;800.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca369;P16;640.4000000000001;1634.8000000000002;364.0;204.0;False;364.0;204.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBancoR030;P20;454.4;1038.4;177.0;356.0;True;356.0;177.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioComumR003;P04;10;1555.6000000000001;212.0;272.0;True;272.0;212.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;GavetaComumR005;P01;1007.6000000000001;761.4000000000001;353.0;142.0;False;353.0;142.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;GavetaComumR029;P01;1007.6000000000001;906.6000000000001;353.0;142.0;False;353.0;142.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;GavetaComumR017;P01;1007.6000000000001;1051.8000000000002;353.0;130.0;False;353.0;130.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;GavetaComumR041;P01;1007.6000000000001;1185.0000000000002;353.0;130.0;False;353.0;130.0;Recortado/especial;True
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_frente3R31;P20;1007.6000000000001;1318.2000000000003;362.0;126.0;False;362.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_tras3R31;P20;1007.6000000000001;1447.4000000000003;362.0;126.0;False;362.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioCestoC03R31;P14;1372.8000000000002;459.4;554.0;80.0;False;554.0;80.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_frente2R31;P20;2610.3999999999996;10;126.0;350.0;True;350.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_tras2R31;P20;1007.6000000000001;1576.6000000000004;350.0;126.0;False;350.0;126.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBaixaR002;P08;454.4;1397.6000000000001;88.0;406.0;True;406.0;88.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBaixaR003;P08;545.6;1397.6000000000001;88.0;406.0;True;406.0;88.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Apoio_B01R31;P20;1930.0000000000002;459.4;390.0;80.0;False;390.0;80.0;Retangular;False
+rotacao_livre;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Sarrafo_tras1R31;P20;1007.6000000000001;1705.8000000000004;198.0;126.0;False;198.0;126.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca262;P03;10;10;632.0;1314.0;True;1314.0;632.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca263;P03;645.2;10;632.0;1314.0;True;1314.0;632.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;PecaBancoR16;P20;1280.4;10;400.0;1764.0;True;1764.0;400.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca305;P07;1683.6000000000001;10;900.0;590.0;False;900.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca306;P07;1683.6000000000001;603.2;900.0;590.0;False;900.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca352;P14;1683.6000000000001;1196.4;802.0;610.0;False;802.0;610.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;GavetaComumR053;P06;10;1327.2;617.0;396.0;False;617.0;396.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR010;P15;645.2;1327.2;578.0;414.5;False;578.0;414.5;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;MontagemG2R020;P06;2488.8;1196.4;156.0;617.0;True;617.0;156.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;ReguaInferiorBaixaR31;P07;1683.6000000000001;1809.6000000000001;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;ReguaSuperiorAltaR31;P07;2586.8;10;18.0;577.0;True;577.0;18.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca353;P14;10;10;610.0;802.0;True;802.0;610.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca276;P05;10;815.2;590.0;720.0;True;720.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca277;P05;623.2;10;590.0;720.0;True;720.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca283;P06;623.2;733.2;590.0;720.0;True;720.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca284;P06;1216.4;10;720.0;590.0;False;720.0;590.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca261;P03;1216.4;603.2;1314.0;272.0;False;1314.0;272.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;PecaCestoR003;P14;1939.6000000000001;10;521.0;550.0;True;550.0;521.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca362;P15;1216.4;878.4000000000001;312.0;799.0;True;799.0;312.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR011;P15;1531.6000000000001;878.4000000000001;414.5;578.0;True;578.0;414.5;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR10;P05;1949.3000000000002;878.4000000000001;718.0;322.0;False;718.0;322.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR001;P05;1949.3000000000002;1203.6000000000001;718.0;322.0;False;718.0;322.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca259;P03;1949.3000000000002;1528.8000000000002;650.0;308.0;False;650.0;308.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca359;P15;623.2;1456.4;580.0;330.0;False;580.0;330.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;ReguaInferiorAltaR31;P07;623.2;1789.6000000000001;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;ReguaSuperiorBaixaR31;P07;623.2;1810.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca260;P03;10;10;308.0;650.0;True;650.0;308.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca360;P15;321.2;10;330.0;580.0;True;580.0;330.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca407;P20;654.4000000000001;10;400.0;450.0;True;450.0;400.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca406AtualR31;P20;654.4000000000001;463.2;400.0;450.0;True;450.0;400.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca264;P03;10;663.2;237.0;670.0;True;670.0;237.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca265;P03;321.2;593.2;237.0;670.0;True;670.0;237.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;PecaBaixaR13;P08;1057.6000000000001;10;1223.0;106.0;False;1223.0;106.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;PecaCestoR002;P14;321.2;1266.4;222.0;550.0;True;550.0;222.0;Retangular;False
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR065;P06;654.4000000000001;916.4000000000001;156.0;617.0;True;617.0;156.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR077;P16;654.4000000000001;1536.6000000000001;398.0;118.0;False;398.0;118.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR089;P16;654.4000000000001;1657.8000000000002;398.0;118.0;False;398.0;118.0;Recortado/especial;True
+rotacao_livre;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;PecaCestoR001;P14;561.4000000000001;593.2;80.0;554.0;True;554.0;80.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca324;P10;10;10;330.0;1018.0;True;1018.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca325;P10;343.2;10;330.0;1018.0;True;1018.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR004;P10;676.4000000000001;10;270.5;1016.0;True;1016.0;270.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR005;P10;950.1000000000001;10;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca345;P12;10;1031.2;312.0;765.0;True;765.0;312.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR008;P12;950.1000000000001;283.7;397.5;582.0;True;582.0;397.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR009;P12;950.1000000000001;868.9000000000001;397.5;582.0;True;582.0;397.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR006;P11;1350.8000000000002;283.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR007;P11;1962.0000000000002;283.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca337;P11;343.2;1031.2;312.0;661.0;True;661.0;312.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca334;P11;1350.8000000000002;632.4000000000001;330.0;610.0;True;610.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca335;P11;1684.0000000000002;632.4000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca315;P09;1350.8000000000002;1245.6000000000001;330.0;592.0;True;592.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca316;P09;1684.0000000000002;965.6000000000001;330.0;592.0;True;592.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca342;P12;2017.2000000000003;965.6000000000001;584.0;330.0;False;584.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca343;P12;2017.2000000000003;1298.8000000000002;584.0;330.0;False;584.0;330.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;Peca318;P09;10;10;312.0;614.0;True;614.0;312.0;Retangular;False
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR002;P09;325.2;10;322.0;590.0;True;590.0;322.0;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR003;P09;325.2;603.2;322.0;590.0;True;590.0;322.0;Recortado/especial;True
+rotacao_livre;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;Peca327;P10;10;627.2;312.0;511.0;True;511.0;312.0;Retangular;False
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca387;P17;10;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR11;P17;10;325.2;496.0;548.0;True;548.0;496.0;Recortado/especial;True
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR012;P17;10;876.4000000000001;496.0;548.0;True;548.0;496.0;Recortado/especial;True
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR013;P17;509.2;325.2;496.0;548.0;True;548.0;496.0;Recortado/especial;True
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR014;P17;509.2;876.4000000000001;496.0;548.0;True;548.0;496.0;Recortado/especial;True
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca384;P17;1008.4000000000001;325.2;330.0;550.0;True;550.0;330.0;Retangular;False
+rotacao_livre;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca385;P17;1008.4000000000001;878.4000000000001;330.0;550.0;True;550.0;330.0;Retangular;False
+C_paralelo_2750;G01;Arauco Beige Matt — duas faces da mesma peça;18.0;1;2750x1850;BC43_PainelEsquerda;P18;10;10;500.0;292.0;False;500.0;292.0;Recortado/especial;True
+C_paralelo_2750;G01;Arauco Beige Matt — duas faces da mesma peça;18.0;1;2750x1850;BC43_PainelDireita;P18;10;305.2;500.0;292.0;False;500.0;292.0;Recortado/especial;True
+C_paralelo_2750;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;BC43_CaixaE;P18;10;10;545.0;400.0;False;545.0;400.0;Recortado/especial;True
+C_paralelo_2750;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;BC43_CaixaD;P18;10;413.2;545.0;400.0;False;545.0;400.0;Recortado/especial;True
+C_paralelo_2750;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;Peca400;P19;558.2;10;750.0;126.0;False;750.0;126.0;Retangular;False
+C_paralelo_2750;G02;Arauco Louro Freijó Poro — duas faces da mesma peça;18.0;1;2750x1850;Peca401;P19;1311.4;10;750.0;126.0;False;750.0;126.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR050;P06;10;10;551.0;490.0;False;551.0;490.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR062;P06;10;503.2;551.0;490.0;False;551.0;490.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR002;P01;10;996.4000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR014;P01;10;1322.6000000000001;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR026;P01;564.2;10;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR038;P01;564.2;336.2;490.0;323.0;False;490.0;323.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR051;P06;1057.4;10;541.0;273.0;False;541.0;273.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR048;P06;564.2;662.4000000000001;490.0;300.0;False;490.0;300.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR049;P06;564.2;965.6000000000001;490.0;300.0;False;490.0;300.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR074;P16;564.2;1268.8000000000002;390.0;332.0;False;390.0;332.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR086;P16;1057.4;286.2;390.0;332.0;False;390.0;332.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR08;P01;564.2;1604.0000000000002;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR012;P01;564.2;1707.2000000000003;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR024;P01;10;1648.8000000000002;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR036;P01;1601.6000000000001;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR001;P01;1601.6000000000001;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR013;P01;2094.8;10;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR025;P01;2094.8;113.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR037;P01;1450.6000000000001;286.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R017;P06;1943.8000000000002;286.2;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R018;P06;1450.6000000000001;389.4;490.0;100.0;False;490.0;100.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;MontagemG2R016;P06;10;1752.0000000000002;541.0;73.0;False;541.0;73.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR060;P06;1943.8000000000002;389.4;490.0;80.0;False;490.0;80.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR061;P06;1450.6000000000001;492.59999999999997;490.0;80.0;False;490.0;80.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR072;P16;1943.8000000000002;492.59999999999997;390.0;80.0;False;390.0;80.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR073;P16;2337.0;492.59999999999997;390.0;80.0;False;390.0;80.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR084;P16;1057.4;621.4000000000001;390.0;74.0;False;390.0;74.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR085;P16;1057.4;698.6000000000001;390.0;74.0;False;390.0;74.0;Recortado/especial;True
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR063;P06;1450.6000000000001;575.8;541.0;53.0;False;541.0;53.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR003;P01;1057.4;775.8000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR015;P01;1057.4;852.0000000000002;313.0;73.0;False;313.0;73.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR027;P01;1057.4;928.2000000000003;313.0;73.0;False;313.0;73.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR039;P01;1057.4;1004.4000000000003;313.0;73.0;False;313.0;73.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR075;P16;1994.8000000000002;575.8;322.0;53.0;False;322.0;53.0;Retangular;False
+C_paralelo_2750;G03;Branco TX — duas faces da mesma peça;15.0;1;2750x1850;GavetaComumR087;P16;2320.0;575.8;322.0;47.0;False;322.0;47.0;Retangular;False
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR052;P06;10;10;541.0;273.0;False;541.0;273.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR064;P06;10;286.2;541.0;53.0;False;541.0;53.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR004;P01;10;342.4;313.0;73.0;False;313.0;73.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR016;P01;10;418.59999999999997;313.0;73.0;False;313.0;73.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR028;P01;10;494.79999999999995;313.0;73.0;False;313.0;73.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR040;P01;10;571.0;313.0;73.0;False;313.0;73.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR076;P16;10;647.2;322.0;53.0;False;322.0;53.0;Recortado/especial;True
+C_paralelo_2750;G04;Branco TX — duas faces da mesma peça;16.0;1;2750x1850;GavetaComumR088;P16;10;703.4000000000001;322.0;47.0;False;322.0;47.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca208;P01;10;10;2096.0;1964.0;False;2096.0;1964.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca279;P05;2109.2;10;614.0;572.0;False;614.0;572.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca280;P05;2109.2;585.2;614.0;572.0;False;614.0;572.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca317;P09;2109.2;1160.4;614.0;556.0;False;614.0;556.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca319;P09;2109.2;1719.6000000000001;614.0;312.0;False;614.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;ApoioCestoC02R31;P14;10;1977.2;580.0;98.0;False;580.0;98.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;1;2750x2100;Peca404;P19;593.2;1977.2;564.0;108.0;False;564.0;108.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca210;P01;10;10;2052.0;550.0;False;2052.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca209;P01;10;563.2;1964.0;550.0;False;1964.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca386;P17;10;1116.4;1964.0;514.0;False;1964.0;514.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Ref_Sarrafo_tras0R31;P20;10;1633.6000000000001;800.0;126.0;False;800.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca402;P19;1977.2;563.2;714.0;564.0;False;714.0;564.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca245;P01;1977.2;1130.4;705.0;550.0;False;705.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca339;P11;2065.2;10;661.0;312.0;False;661.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioEsquerdoR31;P07;1977.2;1683.6000000000001;505.0;120.0;False;505.0;120.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioDireitoR31;P07;813.2;1633.6000000000001;505.0;120.0;False;505.0;120.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Ref_Apoio_B02R31;P20;813.2;1756.8000000000002;390.0;82.0;False;390.0;82.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Peca369;P16;1321.4;1633.6000000000001;364.0;204.0;False;364.0;204.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;Ref_Sarrafo_tras2R31;P20;2065.2;325.2;350.0;126.0;False;350.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;2;2750x1850;ApoioComumR003;P04;2418.3999999999996;325.2;272.0;212.0;False;272.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca388;P17;10;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca408;P20;10;325.2;1764.0;382.0;False;1764.0;382.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca268;P04;10;710.4000000000001;1764.0;272.0;False;1764.0;272.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca270;P04;10;985.6000000000001;1764.0;212.0;False;1764.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Ref_Apoio_B04R31;P20;10;1200.8000000000002;1764.0;18.0;False;1764.0;18.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;PecaBancoR002;P20;10;1222.0000000000002;1384.0;390.0;False;1384.0;390.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;FundoTanqueR29;P14;1777.2;710.4000000000001;802.0;554.0;False;802.0;554.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca361;P15;1777.2;1267.6000000000001;799.0;544.0;False;799.0;544.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca363;P15;1777.2;325.2;799.0;312.0;False;799.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Peca338;P11;1977.2;10;661.0;312.0;False;661.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Ref_Sarrafo_frente3R31;P20;1397.2;1222.0000000000002;362.0;126.0;False;362.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Ref_Sarrafo_tras3R31;P20;1397.2;1351.2000000000003;362.0;126.0;False;362.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;PecaBancoR029;P20;1397.2;1480.4000000000003;356.0;202.0;False;356.0;202.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR005;P01;1397.2;1685.6000000000004;353.0;142.0;False;353.0;142.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR017;P01;10;1615.2000000000003;353.0;130.0;False;353.0;130.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;GavetaComumR041;P01;366.2;1615.2000000000003;353.0;130.0;False;353.0;130.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;Ref_Sarrafo_frente2R31;P20;722.4000000000001;1615.2000000000003;350.0;126.0;False;350.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;3;2750x1850;ApoioPortaBR04;P02;1075.6000000000001;1615.2000000000003;272.0;212.0;False;272.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBaixaR001;P08;10;10;1223.0;442.0;False;1223.0;442.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBaixaR004;P08;10;455.2;1223.0;88.0;False;1223.0;88.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBaixaR005;P08;10;546.4000000000001;1223.0;88.0;False;1223.0;88.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca256;P02;10;637.6000000000001;1032.0;272.0;False;1032.0;272.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca241;P01;10;912.8000000000002;1002.0;550.0;False;1002.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca242;P01;1236.2;10;1002.0;550.0;False;1002.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca243;P01;1236.2;563.2;1002.0;550.0;False;1002.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca244;P01;1236.2;1116.4;1002.0;550.0;False;1002.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBancoR007AtualR31;P20;10;1466.0000000000002;800.0;372.0;False;800.0;372.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Ref_Sarrafo_frente0R31;P20;1236.2;1669.6000000000001;800.0;126.0;False;800.0;126.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca370;P16;813.2;1466.0000000000002;412.0;364.0;False;412.0;364.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca212;P01;2241.3999999999996;10;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca213;P01;2241.3999999999996;563.2;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca226;P01;2241.3999999999996;1116.4;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Peca227;P01;2241.3999999999996;1474.6000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;PecaBancoR030;P20;2241.3999999999996;368.2;356.0;177.0;False;356.0;177.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;GavetaComumR029;P01;2241.3999999999996;921.4000000000001;353.0;142.0;False;353.0;142.0;Recortado/especial;True
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;4;2750x1850;Ref_Sarrafo_frente1R31;P20;2039.4;1669.6000000000001;198.0;126.0;False;198.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca326;P10;10;10;982.0;511.0;False;982.0;511.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca344;P12;10;524.2;765.0;548.0;False;765.0;548.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca346;P12;10;1075.4;765.0;312.0;False;765.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca246;P01;995.2;10;705.0;550.0;False;705.0;550.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca278;P05;995.2;563.2;684.0;614.0;False;684.0;614.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca285;P06;995.2;1180.4;684.0;583.0;False;684.0;583.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca336;P11;1682.4;563.2;661.0;574.0;False;661.0;574.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca255;P02;10;1390.6000000000001;632.0;272.0;False;632.0;272.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;LateralApoioPrincipal;P02;1703.4;10;612.0;272.0;False;612.0;272.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca286;P06;1682.4;1140.4;583.0;572.0;False;583.0;572.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioCestoC01R31;P14;1682.4;1715.6000000000001;580.0;98.0;False;580.0;98.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioCentralR31;P07;10;1665.8000000000002;505.0;120.0;False;505.0;120.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca371;P16;2318.6;10;412.0;364.0;False;412.0;364.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBaixaR002;P08;2318.6;377.2;406.0;88.0;False;406.0;88.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBaixaR003;P08;2318.6;468.4;406.0;88.0;False;406.0;88.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Peca211;P01;2268.6;1140.4;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR001;P20;2346.6;563.2;390.0;362.0;False;390.0;362.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR005;P20;2268.6;1498.6000000000001;390.0;300.0;False;390.0;300.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;PecaBancoR006AtualR31;P20;2346.6;928.4000000000001;390.0;192.0;False;390.0;192.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioComumR004;P04;1703.4;285.2;272.0;212.0;False;272.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioOpostoR001;P04;1978.6000000000001;285.2;272.0;212.0;False;272.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;ApoioOpostoR002;P04;645.2;1390.6000000000001;272.0;212.0;False;272.0;212.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;5;2750x1850;Ref_Sarrafo_tras1R31;P20;778.2;1075.4;198.0;126.0;False;198.0;126.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;BasePlanaR31;P07;10;10;577.0;535.0;False;577.0;535.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca396;P18;10;548.2;564.0;509.0;False;564.0;509.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;BC43_CaixaBase;P18;10;1060.4;564.0;382.0;False;564.0;382.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaCestoR15;P14;590.2;10;562.0;554.0;False;562.0;554.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PrateleiraEspelhadoR12;P19;590.2;567.2;560.0;104.0;False;560.0;104.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PrateleiraEspelhadoR001;P19;590.2;674.4000000000001;560.0;104.0;False;560.0;104.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca320;P09;590.2;781.6000000000001;556.0;312.0;False;556.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioCestoC03R31;P14;590.2;1096.8000000000002;554.0;80.0;False;554.0;80.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca347;P12;590.2;1180.0000000000002;548.0;312.0;False;548.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioComumR11;P17;590.2;1495.2000000000003;514.0;312.0;False;514.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioComumR001;P17;10;1445.6000000000001;514.0;312.0;False;514.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioComumR002;P17;1155.4;10;514.0;312.0;False;514.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;ApoioOpostoR18;P17;1672.6000000000001;10;514.0;312.0;False;514.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca328;P10;2189.8;10;511.0;312.0;False;511.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca329;P10;1155.4;325.2;511.0;312.0;False;511.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca330;P10;1669.6000000000001;325.2;511.0;312.0;False;511.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca331;P10;2183.8;325.2;511.0;312.0;False;511.0;312.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Peca228;P01;1155.4;640.4000000000001;400.0;355.0;False;400.0;355.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBancoR003;P20;1155.4;998.6000000000001;390.0;320.0;False;390.0;320.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;PecaBancoR004;P20;1155.4;1321.8000000000002;390.0;300.0;False;390.0;300.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Apoio_B03R31;P20;1155.4;1625.0000000000002;390.0;82.0;False;390.0;82.0;Retangular;False
+C_paralelo_2750;G05;Branco TX — duas faces da mesma peça;18.0;6;2750x1850;Ref_Apoio_B01R31;P20;1155.4;1710.2000000000003;390.0;80.0;False;390.0;80.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca262;P03;10;10;1314.0;632.0;False;1314.0;632.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca263;P03;10;645.2;1314.0;632.0;False;1314.0;632.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca305;P07;1327.2;10;900.0;590.0;False;900.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca306;P07;1327.2;603.2;900.0;590.0;False;900.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca352;P14;1327.2;1196.4;802.0;610.0;False;802.0;610.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca261;P03;10;1280.4;1314.0;272.0;False;1314.0;272.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;PecaCestoR003;P14;2132.3999999999996;1196.4;550.0;521.0;False;550.0;521.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca406AtualR31;P20;2230.3999999999996;10;450.0;400.0;False;450.0;400.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;Peca265;P03;10;1555.6000000000001;670.0;237.0;False;670.0;237.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;MontagemG2R020;P06;683.2;1555.6000000000001;617.0;156.0;False;617.0;156.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;GavetaComumR077;P16;2132.3999999999996;1720.6000000000001;398.0;118.0;False;398.0;118.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;GavetaComumR089;P16;683.2;1714.8000000000002;398.0;118.0;False;398.0;118.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;ReguaInferiorBaixaR31;P07;1327.2;1809.6000000000001;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;ReguaInferiorAltaR31;P07;10;1795.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;1;2750x1850;ReguaSuperiorBaixaR31;P07;10;1817.0000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;PecaBancoR16;P20;10;10;1764.0;400.0;False;1764.0;400.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca353;P14;10;413.2;802.0;610.0;False;802.0;610.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca276;P05;10;1026.4;720.0;590.0;False;720.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca277;P05;815.2;413.2;720.0;590.0;False;720.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca283;P06;815.2;1006.4000000000001;720.0;590.0;False;720.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca284;P06;1538.4;413.2;720.0;590.0;False;720.0;590.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca362;P15;1777.2;10;799.0;312.0;False;799.0;312.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;GavetaComumR053;P06;1538.4;1006.4000000000001;617.0;396.0;False;617.0;396.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR010;P15;2158.6;1006.4000000000001;578.0;414.5;False;578.0;414.5;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR011;P15;2158.6;1424.1000000000001;578.0;414.5;False;578.0;414.5;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca359;P15;1538.4;1405.6000000000001;580.0;330.0;False;580.0;330.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca407;P20;2261.6;413.2;450.0;400.0;False;450.0;400.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;Peca264;P03;815.2;1599.6000000000001;670.0;237.0;False;670.0;237.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;GavetaComumR065;P06;10;1619.6000000000001;617.0;156.0;False;617.0;156.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;PecaCestoR001;P14;1777.2;325.2;554.0;80.0;False;554.0;80.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;2;2750x1850;ReguaSuperiorAltaR31;P07;10;1778.8000000000002;577.0;18.0;False;577.0;18.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;FrenteComumR10;P05;10;10;718.0;322.0;False;718.0;322.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;FrenteComumR001;P05;10;335.2;718.0;322.0;False;718.0;322.0;Recortado/especial;True
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca259;P03;10;660.4000000000001;650.0;308.0;False;650.0;308.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca260;P03;10;971.6000000000001;650.0;308.0;False;650.0;308.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;Peca360;P15;10;1282.8000000000002;580.0;330.0;False;580.0;330.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;PecaBaixaR13;P08;731.2;10;1223.0;106.0;False;1223.0;106.0;Retangular;False
+C_paralelo_2750;G06;Greenplac Arenza liso — duas faces da mesma peça;18.0;3;2750x1850;PecaCestoR002;P14;10;1616.0000000000002;550.0;222.0;False;550.0;222.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca324;P10;10;10;1018.0;330.0;False;1018.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca325;P10;10;343.2;1018.0;330.0;False;1018.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR004;P10;10;676.4000000000001;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR005;P10;10;950.1000000000001;1016.0;270.5;False;1016.0;270.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca345;P12;10;1223.8000000000002;765.0;312.0;False;765.0;312.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR008;P12;1031.2;10;582.0;397.5;False;582.0;397.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR009;P12;1616.4;10;582.0;397.5;False;582.0;397.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR006;P11;1031.2;410.7;608.0;345.5;False;608.0;345.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR007;P11;1031.2;759.4000000000001;608.0;345.5;False;608.0;345.5;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca337;P11;1642.4;410.7;661.0;312.0;False;661.0;312.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca334;P11;1642.4;725.9000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca335;P11;1642.4;1059.1000000000001;610.0;330.0;False;610.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca315;P09;1031.2;1108.1000000000001;592.0;330.0;False;592.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca316;P09;1031.2;1441.3000000000002;592.0;330.0;False;592.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca342;P12;1642.4;1392.3000000000002;584.0;330.0;False;584.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;1;2750x1850;Peca327;P10;2201.6;10;511.0;312.0;False;511.0;312.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;Peca343;P12;10;10;584.0;330.0;False;584.0;330.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;Peca318;P09;597.2;10;614.0;312.0;False;614.0;312.0;Retangular;False
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR002;P09;597.2;325.2;590.0;322.0;False;590.0;322.0;Recortado/especial;True
+C_paralelo_2750;G07;Guararapes Azul Petróleo — duas faces da mesma peça;18.0;2;2750x1850;FrenteComumR003;P09;597.2;650.4000000000001;590.0;322.0;False;590.0;322.0;Recortado/especial;True
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca387;P17;10;10;1964.0;312.0;False;1964.0;312.0;Retangular;False
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR11;P17;10;325.2;548.0;496.0;False;548.0;496.0;Recortado/especial;True
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR012;P17;10;824.4000000000001;548.0;496.0;False;548.0;496.0;Recortado/especial;True
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR013;P17;10;1323.6000000000001;548.0;496.0;False;548.0;496.0;Recortado/especial;True
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;FrenteComumR014;P17;561.2;325.2;548.0;496.0;False;548.0;496.0;Recortado/especial;True
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca384;P17;1112.4;325.2;550.0;330.0;False;550.0;330.0;Retangular;False
+C_paralelo_2750;G08;Off-white fosco — duas faces da mesma peça;18.0;1;2750x1850;Peca385;P17;1665.6000000000001;325.2;550.0;330.0;False;550.0;330.0;Retangular;False

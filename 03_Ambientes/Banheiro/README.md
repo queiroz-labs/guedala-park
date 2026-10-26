@@ -1,5 +1,7 @@
 # Banheiro
 
+**Altura de teste: 2,60 m, a confirmar (Elias, 26/10/2026).** Não define a altura sob o forro do banheiro nem autoriza fabricação. [Fonte e limites](../../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+
 Estado atual do banheiro. Nada aqui libera compra ou execução. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [imagem do banheiro](../../09_Referencias/Banheiro_referencia_aprovada_2026-09-18.png).
 
 ## Situação em 24/10

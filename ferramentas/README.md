@@ -30,7 +30,21 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 | `python ferramentas/verificar_site.py` | Testes do site e build como o CI faz, em pasta temporária (hook de pre-push) | ~10 s |
 | `python -B ferramentas/site/construir.py` | Regenera o site a partir de `ferramentas/site/src/` | segundos |
 | `ferramentas/cinematica/consultar.py` | Posições de portas e gavetas sem abrir o FreeCAD | segundos |
+| `python -B ferramentas/roupeiro/analisar_caixa_superior.py` | Cortes P02/P03, mapa de juntas e desenho do estudo separado (NumPy/Pillow); geometria extraída por `roupeiro/extrair_caixa_superior.py` no FreeCADCmd, sem salvar CAD | segundos |
+| `python -B ferramentas/roupeiro/verificar_caixa_superior.py` | Confere certificados de equilíbrio, cortes analíticos do retorno e geometria C01/topo; não dimensiona juntas nem libera carga | segundos |
+| `python -B ferramentas/roupeiro/estudar_malas.py` | Confere envelopes de duas/três malas P03, reservas de acesso e gera prancha; usa dados salvos, sem abrir FreeCAD (Pillow) | segundos |
+| `python -B ferramentas/roupeiro/detalhar_portas_maleiro.py` | Detalhe nominal das folhas, quatro barras, varredura das frentes e consulta de fixação P03; não altera FreeCAD nem homologa ferragens (NumPy/Pillow) | segundos |
+| `python -B ferramentas/roupeiro/avaliar_alternativa_650.py` | Compara folhas 672/650, frentes, malas, 72 cortes P03→P01 e 1038 resultantes da união adicional; gera comparação PNG/JSON, sem abrir CAD ou comprovar resistência (NumPy/Pillow) | segundos |
+| `python -B ferramentas/roupeiro/avaliar_abertura_A.py` | A escolhida para desenvolvimento: corredor por ângulo, avanço da folha, 16 trajetórias de mala/envelope e demandas dos grupos com extremos 148/202; sem capacidade homologada ou alteração do CAD | segundos |
+| `python -B ferramentas/roupeiro/avaliar_dobradicas_A.py` | Seleção candidata 6 dobradiças/6 calços/6 limitadores, centros de canecos/calços, afastamentos nominais e demandas; sem pilotos, capacidade de fixação ou usinagem aprovados | segundos |
+| `python -B ferramentas/roupeiro/especificar_chapa_P03.py` | MDFBP Greenplac 18/Arenza nas duas faces P03; duas pecas 18+15 podem ter cores distintas; SKU e capacidade de fixação pendentes, sem abrir CAD | segundos |
+| `python -B ferramentas/roupeiro/calcular_caixa_P03.py` | Cascas/juntas/apoios reduzidos P03-P01: 29 configurações, 464 casos 20 kg, comparação 18/25 e rigidezes hipotéticas; não demonstra capacidade física (NumPy) | ~2 min |
+| `python -B ferramentas/roupeiro/conferir_caixa_P03.py` | Equilíbrio, contatos, massas, malha e CSV; registra encontro traseiro e conflito da longarina com reservas P01, gera síntese PNG; sem abrir CAD (Pillow) | segundos |
+| `python -B ferramentas/roupeiro/ligar_P02_P03.py` | P02/P03 e P01 com cascas/juntas/contatos; 18 configurações/1728 casos, C01 e caminho da divisória ao piso; rigidezes hipotéticas, sem capacidade física ou alteração CAD (NumPy; BLAS1 por padrão) | ~4 min |
+| `python -B ferramentas/roupeiro/conferir_ligacao_P02_P03.py` | Confere cortes P02/divisória, CSV, malha e área/CG da chapa L; gera desenho da ligação/caminho nominal e síntese JSON (Pillow) | segundos |
+| `python -B ferramentas/corte/reconciliar_acabamentos.py` | Reagrupa 249 peças conforme regra por chapa física; 215 no ensaio/34 excluídas, reconcilia auditoria 248 e P13 pendente, gera dados/SVG e roda conferência de margens/serra/IDs; sem alterar CAD/fichas/custos | segundos |
 
+| `python -B ferramentas/roupeiro/padronizar_acabamentos.py` | Regra por chapa física, auditoria por ID e fontes documentais; permite cores diferentes em duas peças 18+15 identificadas, sem criar geometria | segundos |
 
 ## Triagem de geometria FreeCAD
 
@@ -41,6 +55,8 @@ $env:GP_TRIAGEM_BOP = '1'
 $env:PYTHONDONTWRITEBYTECODE = '1'
 & "$env:LOCALAPPDATA/Programs/FreeCAD-1.1.4/bin/freecadcmd.exe" ferramentas/verificar_modelo/triar_geometria.py
 ```
+
+O aprofundamento `verificar_modelo/analisar_bop.py` usa o mesmo FreeCADCmd e grava [Analise_bop.json](../02_Modelo_3D/Analise_bop.json), com pcurvas amostradas, testes de cópias, cortes de controle e comparação ao estudo R02. Não analisa os STEPs recebidos. `GP_BOP_SAIDA` permite outro destino.
 
 A variável opcional `GP_TRIAGEM_SAIDA` escolhe outro JSON. Leia a [interpretação dos resultados](../02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026), incluindo a diferença entre `isValid()`, `check()` e BOP.
 

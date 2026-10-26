@@ -55,9 +55,9 @@ function buildScene(){nodes=[];nodeSequence={};
   // Physical footprint: documentary room dimensions and graphically reconstructed connections.
   const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',465,405,30,140,'vinyl'],['circulacao',365,305,130,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['lavanderia',255,539,129,161,'ivory'],['banho',255,405,209,124,'greige']];
   for(const [r,x,z,w,d,m]of floors)add(null,r,x,z,w,d,-5,5,m,'floor');
-  const H=state.walls?247:32;
+  const H=state.walls?PROJECT.ceiling:32;
   const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,145,10,['quarto']],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,430],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,539,10,30],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,64],['banho',255,529,219,10],['banho',464,395,10,134],['banho',255,395,130,10,['quarto']],['banho',455,395,19,10],['quarto',365,305,10,10],['quarto',365,390,10,5]];
-  for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,H,'#e4dfd2','wall',{sharedRooms});
+  for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,state.walls&&r==='escritorio'?PROJECT.officeCeilingStudy:H,'#e4dfd2','wall',{sharedRooms});
   // P01 / F120: continuous bathroom partition, separate bedroom access on its east side.
   // Opening and leaf dimensions remain graphic estimates, not construction measurements.
   if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
@@ -252,7 +252,7 @@ function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t
   if(st.view==='side'){t=0;a={east:-Math.PI/2,west:Math.PI/2,south:0,north:Math.PI}[st.side];}
   const ca=Math.cos(a),sa=Math.sin(a),ct=Math.cos(t),stilt=Math.sin(t),mx=(xmin+xmax)/2,mz=(zmin+zmax)/2,mirror=PROJECT.mirrored?-1:1;
   const raw=p=>{let X=(p[0]-mx)*mirror,Z=p[2]-mz,Y=p[1],u=X*ca+Z*sa,v=-X*sa+Z*ca;return[u,v*stilt-Y*ct,v*ct+Y*stilt];};
-  let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[0,st.view==='top'?0:(st.ymax||247)])q.push(raw([x,y,z]));
+  let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[0,st.view==='top'?0:(st.ymax||PROJECT.ceiling)])q.push(raw([x,y,z]));
   let minx=Math.min(...q.map(p=>p[0])),maxx=Math.max(...q.map(p=>p[0])),miny=Math.min(...q.map(p=>p[1])),maxy=Math.max(...q.map(p=>p[1]));
   let pad=w<500?28:45,spaceTop=st.mini?12:78,spaceBottom=st.mini?12:52;
   const scale=Math.min((w-pad*2)/(maxx-minx||1),(h-spaceTop-spaceBottom)/(maxy-miny||1))*st.zoom;

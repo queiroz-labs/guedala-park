@@ -4,7 +4,7 @@
 
 25/10/2026. **Entregue um novo pacote local R17 com o FreeCAD R52**, as fichas R14 atuais, a planta, o caderno de especificações e o visualizador que funciona sem internet. Nenhum envio, commit, push ou deploy foi realizado. R16, aliases antigos e a pasta `.site` anterior foram preservados byte a byte.
 
-[Baixar/abrir o ZIP R17](../../../06_Entregas/Compartilhar_R17/Guedala_Park_R17.zip) · [instruções para extrair](../../../06_Entregas/Compartilhar_R17/LEIA-ME.md) · [nota sobre CAD e fichas P20](../../../06_Entregas/Compartilhar_R17/NOTAS_CAD_E_FICHAS.md)
+ZIP R17: `06_Entregas/Compartilhar_R17/Guedala_Park_R17.zip`, somente na cópia local do PC; não incluído no Git nem disponível para download no site · [instruções para extrair](../../../06_Entregas/Compartilhar_R17/LEIA-ME.md) · [nota sobre CAD e fichas P20](../../../06_Entregas/Compartilhar_R17/NOTAS_CAD_E_FICHAS.md)
 
 Extraia o ZIP inteiro e abra `Guedala_Park_R17/COMECE_AQUI.html`. O menu leva ao modelo editável, ao visualizador offline, às 20 fichas, à planta cotada e às pendências. Não exige novas medidas do apartamento para consulta; fabricação, carga e instalação permanecem condicionadas às fichas e ao levantamento posterior.
 

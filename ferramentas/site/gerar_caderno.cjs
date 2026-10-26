@@ -19,6 +19,8 @@ Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_
 
 Unidade: ${PROJECT.name} · ${PROJECT.unit} · ${PROJECT.area} · 127 V · gás natural. Programa: [Programa de necessidades R01](Programa_de_necessidades.md).
 
+**Pé-direito:** ${PROJECT.heightStudy} As dimensões dos móveis permanecem estudos condicionados.
+
 ## 1. Materiais e acabamentos
 
 | Material | Ambientes | Situação | Observação |

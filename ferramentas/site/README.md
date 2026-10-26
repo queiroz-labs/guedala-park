@@ -1,6 +1,8 @@
-# Apartamento interativo — R52 e pacote R21
+# Apartamento interativo — R52 e pacote R22
 
-A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R21 em `06_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. O site representa paredes gerais a 260 cm e o cenário separado do escritório a 247 cm; isso não define tetos acabados. Móveis e FreeCAD R52 preservados.
+
+A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R22 em `06_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
 
 Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 
@@ -80,7 +82,7 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
-Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficamente. O teto de 247 cm é cenário do escritório; demais alturas de paredes são ilustrativas. Este é um estudo de layout, não desenho para fabricação. Piso vinílico definido, exceto banheiro/lavanderia; Olmo é a preferência, com Aveia/Bétula para comparar amostras. Cores digitais não substituem amostras físicas.
+Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficamente. O teto de 247 cm é cenário separado do escritório; as demais paredes usam 260 cm como hipótese de teste a confirmar, conforme decisão de 26/10/2026. Forros e sancas não têm altura confirmada. Este é um estudo de layout, não desenho para fabricação. Piso vinílico definido, exceto banheiro/lavanderia; Olmo é a preferência, com Aveia/Bétula para comparar amostras. Cores digitais não substituem amostras físicas.
 
 ## Base documental e manutenção
 

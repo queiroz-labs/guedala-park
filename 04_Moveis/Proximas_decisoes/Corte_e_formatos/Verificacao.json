@@ -5,7 +5,7 @@
   "proposal_new": 25,
   "current_base_compatible_with_old_study_dimensions": true,
   "base_area_from_independent_grouped_csv": 59.262776,
-  "nominal_pair_checks": 4045,
+  "nominal_pair_checks": 3956,
   "no_overlap_or_kerf_violation": true,
   "inside_usable_sheets": true,
   "IDs_exactly_once_per_scenario": true,
@@ -16,19 +16,19 @@
   "kerf_sensitivity": [
     {
       "kerf_mm": 0,
-      "pair_checks": 2029,
-      "virtual_sheets": 17,
+      "pair_checks": 1950,
+      "virtual_sheets": 16,
       "valid": true
     },
     {
       "kerf_mm": 3.2,
-      "pair_checks": 2094,
+      "pair_checks": 2044,
       "virtual_sheets": 16,
       "valid": true
     },
     {
       "kerf_mm": 6.4,
-      "pair_checks": 2018,
+      "pair_checks": 2042,
       "virtual_sheets": 16,
       "valid": true
     }

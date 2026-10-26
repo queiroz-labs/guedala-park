@@ -7,7 +7,7 @@
 
 **Escolha posterior,19/10/2026:** Fischer Infinity com grill, sem turbo, preto127 V,28349-64929, substitui a referência Venax no desenvolvimento. [Estudo localizado e conferência](../../../../03_Ambientes/Cozinha/Fischer_Grill/README.md). Este arquivo R30 permanece com a geometria anterior; não confundir o forno representado aqui com a escolha vigente. A proposta nova é documento separado, sem liberação executiva.
 
-**Complemento documental de 14/10/2026:** [conferência forno–cooktop–bancada](../../../../03_Ambientes/Cozinha/Fechamento/README.md) e [cortes atualizados](../../../../03_Ambientes/Cozinha/Fechamento/Corte_coccao_R30.html). Correção terminológica do item 7 abaixo: os 517 mm são a largura do **envelope total simplificado**, não do corpo de embutimento de 485 mm citado na fonte arquivada. Os 30 mm laterais foram obtidos em relação ao envelope e não demonstram conformidade completa de instalação. A geometria desta revisão não foi alterada na conferência.
+**Complemento documental de 14/10/2026:** conferência forno–cooktop–bancada (histórico: Git `antes-reorganizacao:01_Projeto/Cozinha/Fechamento_R30_2026-10-14/README.md`) e [cortes atualizados](../../../../03_Ambientes/Cozinha/Fechamento/Corte_coccao_R30.html). Correção terminológica do item 7 abaixo: os 517 mm são a largura do **envelope total simplificado**, não do corpo de embutimento de 485 mm citado na fonte arquivada. Os 30 mm laterais foram obtidos em relação ao envelope e não demonstram conformidade completa de instalação. A geometria desta revisão não foi alterada na conferência.
 
 Apartamento R30. Base: R29 inteira (correções 1–5 e curso 500 do roupeiro, confirmado por Elias). R29 e R28 preservadas com SHA256 inalterado. Proposta de estudo, sem liberação de fabricação.
 

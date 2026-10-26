@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "releaseDate": "2026-10-26",
   "projectRevision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
-  "projectDate": "25 outubro 2026",
+  "projectDate": "26 outubro 2026",
   "cadRevision": "R52",
   "cadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
   "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
@@ -14,10 +14,10 @@
     "Condicoes_operacao_R52.json",
     "Diferencas_R51_R52.json"
   ],
-  "packageRevision": "R21",
+  "packageRevision": "R22",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R21.zip",
-  "archiveRoot": "Guedala_Park_R21",
+  "packageFile": "Guedala_Park_R22.zip",
+  "archiveRoot": "Guedala_Park_R22",
   "fabricationRevision": "R14",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
@@ -25,8 +25,16 @@
   "lastPublishedCadRevision": "R52",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
   "lastPublishedPackageRevision": "R18",
-  "notes": "R52 preservada e fichasR14 condicionadas. R21 acrescenta a matriz20/20 e os estudos separados de suspensaoP17/P12, com desenhos, vetores e requisitos de qualificacao. Posicoes nominais nao foram incorporadas ao CAD; produto, juntas, ferramenta, ensaios e ancoragens reais permanecem pendentes.",
+  "notes": "R22: integra estudos anteriores e hipótese de pé-direito 2,60 m / 260 cm / 2600 mm para testes, medida a confirmar (Elias, 26/10/2026). Escritório: cenário separado de 2,47 m com forro. Sem medição real ou autorização de fabricação; FreeCAD R52 preservado.",
   "technicalDocuments": [
+    {
+      "id": "pe-direito",
+      "title": "Pé-direito: 2,60 m para testes, medida a confirmar",
+      "room": "all",
+      "path": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
+      "summary": "Hipótese de estudo de 26/10/2026; não medição do Guedala nem média do Vila das Belezas 3. Escritório e rebaixos separados; não fabricação.",
+      "files": []
+    },
     {
       "id": "avancos-pendencias",
       "title": "Avanços e pendências após a revisão integral",
@@ -73,7 +81,15 @@
         "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G07_chapa_02.svg",
         "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_01.svg",
         "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G08_chapa_02.svg",
-        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg"
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G09_chapa_01.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_02.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_03.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_04.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_05.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G05_chapa_06.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_02.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Planos_svg/G06_chapa_03.svg",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/Reconciliacao_acabamentos.json"
       ]
     },
     {
@@ -157,6 +173,35 @@
         "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.csv",
         "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.txt",
         "04_Moveis/Aereos_suspensao/P12_verificacao_suspensao.json"
+      ]
+    },
+    {
+      "id": "p03-estudos",
+      "title": "P03: portas, malas, caixa e ligações — estudos condicionais",
+      "room": "quarto",
+      "path": "04_Moveis/P03/README.md",
+      "summary": "Estudos incorporados em 26/10/2026; capacidades, juntas e ensaios continuam pendentes. R52 preservada.",
+      "files": [
+        "04_Moveis/P03/Abertura_e_dobradicas_A.json",
+        "04_Moveis/P03/Abertura_e_dobradicas_A.png",
+        "04_Moveis/P03/Caixa_20kg.json",
+        "04_Moveis/P03/Caixa_20kg.png",
+        "04_Moveis/P03/Caixa_20kg_juntas.csv",
+        "04_Moveis/P03/Chapa_P03.json",
+        "04_Moveis/P03/Chapa_P03.png",
+        "04_Moveis/P03/Comparacao_portas.json",
+        "04_Moveis/P03/Comparacao_portas.png",
+        "04_Moveis/P03/Detalhamento_portas.json",
+        "04_Moveis/P03/Detalhamento_portas.png",
+        "04_Moveis/P03/Dobradicas_A.json",
+        "04_Moveis/P03/Dobradicas_A.png",
+        "04_Moveis/P03/Estudo_malas.json",
+        "04_Moveis/P03/Ligacao_C01_solicitacoes.csv",
+        "04_Moveis/P03/Ligacao_P02_P03.json",
+        "04_Moveis/P03/Ligacao_P02_P03.png",
+        "04_Moveis/P03/Malas_no_maleiro.png",
+        "04_Moveis/P03/Verificacao_caixa_20kg.json",
+        "04_Moveis/P03/Verificacao_ligacao_P02_P03.json"
       ]
     }
   ]

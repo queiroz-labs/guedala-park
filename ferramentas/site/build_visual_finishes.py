@@ -17,6 +17,7 @@ def build():
 
     def palette(text):
         if not text:return 'whiteTX'
+        if text=='Branco TX':return 'whiteTX'
         if 'Espelho' in text:return 'whiteTX' # mirror is a separate applied layer
         if 'Arenza' in text:return 'wood'
         if 'Petróleo' in text:return 'petrol'
@@ -28,6 +29,12 @@ def build():
     finishes={}
     for spec in audit['overrides']:
         p=parts[spec['source']]
+        if spec.get('finishAssignmentMode','').startswith('whole_piece'):
+            whole=spec.get('wholeBoardMaterial')
+            finishes[spec['source']]={'material':palette(whole) if whole else (p['mat'] or 'finishPending'),
+                                     'evidence':spec['evidence'],'sameFinishBothFaces':True}
+            if not whole:finishes[spec['source']]['finishStatus']='Um padrão único ainda a definir para a peça inteira'
+            continue
         row={'material':palette(spec.get('exposedMaterial')),'evidence':spec['evidence']}
         one_side=spec['sourceRole'].startswith(('Face interna do fundo','Face voltada ao compartimento','Base do espelheiro','Laterais do gaveteiro','Quadro frontal desmontável'))
         if one_side and not spec.get('exposedMaterial'):

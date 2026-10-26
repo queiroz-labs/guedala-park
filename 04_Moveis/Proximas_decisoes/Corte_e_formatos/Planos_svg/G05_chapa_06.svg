@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-65 -155 2880 2120">
+<rect x="-65" y="-155" width="100%" height="100%" fill="white"/>
+<text x="0" y="-100" font-family="sans-serif" font-size="32">G05 · Branco TX — duas faces da mesma peça · 18 mm</text>
+<text x="0" y="-45" font-family="sans-serif" font-size="27">Chapa virtual 6 · 2750×1850 · refilo 10/borda · serra 3.2</text>
+<rect x="0" y="0" width="2750" height="1850" fill="#f5f5f2" stroke="#333" stroke-width="3"/>
+<rect x="10" y="10" width="312.0" height="514.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="166.0" y="267.0" transform="rotate(90 166.0 267.0)" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioOpostoR18 · 312×514</text>
+<rect x="10" y="527.2" width="312.0" height="511.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="166.0" y="782.7" transform="rotate(90 166.0 782.7)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca328 · 312×511</text>
+<rect x="10" y="1041.4" width="312.0" height="511.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="166.0" y="1296.9" transform="rotate(90 166.0 1296.9)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca329 · 312×511</text>
+<rect x="325.2" y="10" width="312.0" height="511.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="481.2" y="265.5" transform="rotate(90 481.2 265.5)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca330 · 312×511</text>
+<rect x="325.2" y="524.2" width="312.0" height="511.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="481.2" y="779.7" transform="rotate(90 481.2 779.7)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca331 · 312×511</text>
+<rect x="640.4000000000001" y="10" width="364.0" height="412.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="822.4000000000001" y="216.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca371 · 364×412</text>
+<rect x="640.4000000000001" y="425.2" width="355.0" height="400.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="817.9000000000001" y="625.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca211 · 355×400</text>
+<rect x="640.4000000000001" y="828.4000000000001" width="355.0" height="400.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="817.9000000000001" y="1028.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca212 · 355×400</text>
+<rect x="640.4000000000001" y="1231.6000000000001" width="355.0" height="400.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="817.9000000000001" y="1431.6000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca213 · 355×400</text>
+<rect x="1007.6000000000001" y="10" width="400.0" height="355.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1207.6000000000001" y="187.5" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca226 · 400×355</text>
+<rect x="1410.8000000000002" y="10" width="400.0" height="355.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1610.8000000000002" y="187.5" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca227 · 400×355</text>
+<rect x="1814.0000000000002" y="10" width="400.0" height="355.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2014.0000000000002" y="187.5" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca228 · 400×355</text>
+<rect x="1007.6000000000001" y="368.2" width="362.0" height="390.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1188.6000000000001" y="563.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBancoR001 · 362×390</text>
+<rect x="2217.2" y="10" width="390.0" height="320.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2412.2" y="170.0" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBancoR003 · 390×320</text>
+<rect x="1372.8000000000002" y="368.2" width="1223.0" height="88.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1984.3000000000002" y="412.2" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBaixaR005 · 1223×88</text>
+<rect x="325.2" y="1038.4" width="126.0" height="800.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="388.2" y="1438.4" transform="rotate(90 388.2 1438.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">Ref_Sarrafo_tras0R31 · 126×800</text>
+<rect x="640.4000000000001" y="1634.8000000000002" width="364.0" height="204.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="822.4000000000001" y="1736.8000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Peca369 · 364×204</text>
+<rect x="454.4" y="1038.4" width="177.0" height="356.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="542.9" y="1216.4" transform="rotate(90 542.9 1216.4)" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBancoR030 · 177×356</text>
+<rect x="10" y="1555.6000000000001" width="212.0" height="272.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="116.0" y="1691.6000000000001" transform="rotate(90 116.0 1691.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="17.7">ApoioComumR003 · 212×272</text>
+<rect x="1007.6000000000001" y="761.4000000000001" width="353.0" height="142.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1184.1000000000001" y="832.4000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="22.3">GavetaComumR005 · 353×142</text>
+<rect x="1007.6000000000001" y="906.6000000000001" width="353.0" height="142.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1184.1000000000001" y="977.6000000000001" transform="" text-anchor="middle" font-family="sans-serif" font-size="22.3">GavetaComumR029 · 353×142</text>
+<rect x="1007.6000000000001" y="1051.8000000000002" width="353.0" height="130.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1184.1000000000001" y="1116.8000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="22.3">GavetaComumR017 · 353×130</text>
+<rect x="1007.6000000000001" y="1185.0000000000002" width="353.0" height="130.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1184.1000000000001" y="1250.0000000000002" transform="" text-anchor="middle" font-family="sans-serif" font-size="22.3">GavetaComumR041 · 353×130</text>
+<rect x="1007.6000000000001" y="1318.2000000000003" width="362.0" height="126.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1188.6000000000001" y="1381.2000000000003" transform="" text-anchor="middle" font-family="sans-serif" font-size="17.8">Ref_Sarrafo_frente3R31 · 362×126</text>
+<rect x="1007.6000000000001" y="1447.4000000000003" width="362.0" height="126.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1188.6000000000001" y="1510.4000000000003" transform="" text-anchor="middle" font-family="sans-serif" font-size="19.0">Ref_Sarrafo_tras3R31 · 362×126</text>
+<rect x="1372.8000000000002" y="459.4" width="554.0" height="80.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1649.8000000000002" y="499.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">ApoioCestoC03R31 · 554×80</text>
+<rect x="2610.3999999999996" y="10" width="126.0" height="350.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2673.3999999999996" y="185.0" transform="rotate(90 2673.3999999999996 185.0)" text-anchor="middle" font-family="sans-serif" font-size="17.2">Ref_Sarrafo_frente2R31 · 126×350</text>
+<rect x="1007.6000000000001" y="1576.6000000000004" width="350.0" height="126.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1182.6000000000001" y="1639.6000000000004" transform="" text-anchor="middle" font-family="sans-serif" font-size="18.4">Ref_Sarrafo_tras2R31 · 350×126</text>
+<rect x="454.4" y="1397.6000000000001" width="88.0" height="406.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="498.4" y="1600.6000000000001" transform="rotate(90 498.4 1600.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBaixaR002 · 88×406</text>
+<rect x="545.6" y="1397.6000000000001" width="88.0" height="406.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="589.6" y="1600.6000000000001" transform="rotate(90 589.6 1600.6000000000001)" text-anchor="middle" font-family="sans-serif" font-size="24.0">PecaBaixaR003 · 88×406</text>
+<rect x="1930.0000000000002" y="459.4" width="390.0" height="80.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="2125.0" y="499.4" transform="" text-anchor="middle" font-family="sans-serif" font-size="24.0">Ref_Apoio_B01R31 · 390×80</text>
+<rect x="1007.6000000000001" y="1705.8000000000004" width="198.0" height="126.0" fill="#dce8df" stroke="#275241" stroke-width="1.2"/>
+<text x="1106.6000000000001" y="1768.8000000000004" transform="" text-anchor="middle" font-family="sans-serif" font-size="10.2">Ref_Sarrafo_tras1R31 · 198×126</text>
+<text x="0" y="1915" font-family="sans-serif" font-size="27">Envelopes geométricos; não é corte executivo. Veio/faces/substrato/processo pendentes.</text></svg>

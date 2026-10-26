@@ -1,5 +1,7 @@
 # Armários superiores — detalhamento R00
 
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+
 **Apoio e luz — 28/09/2026:** desenvolvimento Micro/C2 propõe apoio aberto de 69,7 × 47 cm, topo 155, sem prolongar laterais de B pelo nicho do aparelho. Mantidos planos/alinhamento da guarda B/C e os 10 cm superiores escolhidos, com a divergência documental preservada. Estrutura e aparelho instalado não validados; medidas de estudo.
 
 **Conferência do conteúdo iniciada:** Conferência R00 reúne vãos úteis, inventário por prioridade e dados faltantes. Organização aprovada preservada. Ainda não há cabimento completo demonstrado por medidas reais dos utensílios; consulta enviada a Elias sobre itens existentes e dimensões disponíveis.
@@ -42,7 +44,7 @@ Guarda adicional candidata: acessórios e recipientes pequenos de uso eventual, 
 
 15/09/2026. Estudo solicitado por Elias; distribuição nova em avaliação. Base: organização funcional aprovada e primeira divisão cotada. Nenhuma mudança no site ou fontes geradoras.
 
-**Hipótese fornecida por Elias nesta etapa:** considerar 2,57 m do piso à laje, ainda a validar. Para o ensaio abaixo, propõe-se topo externo a 255 cm e 2 cm para ajuste superior; esse desconto é proposta, não folga construtiva comprovada. Esta atualização substitui o teto desconhecido nas notas iniciais abaixo, mantendo a medição real pendente.
+**Hipótese histórica fornecida por Elias na etapa anterior a 26/10/2026:** considerar 2,57 m do piso à laje, ainda a validar. Para o ensaio abaixo, propõe-se topo externo a 255 cm e 2 cm para ajuste superior; esse desconto é proposta, não folga construtiva comprovada. Esta atualização substitui o teto desconhecido nas notas iniciais abaixo, mantendo a medição real pendente.
 
 ## Ensaio vertical com laje a 257 cm
 
