@@ -85,6 +85,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **P14 montagem, 26/10:** [interfaces e roteiro](04_Moveis/P14/Reacoes_e_operacao/README.md): quatro casos simultâneos preservados, cinco sensibilidades de trava e oito registros vazios. Pivô 40,25 mm na faixa 52 mm ainda depende de bucha, retenção e acesso SW5. Consulta banco/cesto atualizada e não enviada; oficina indisponível, zero ensaios. R52 preservada.
 
+**T05 — interface do micro, 26/10:** [cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md#t05--cadeia-dimensional-e-margens-26102026): nove cenários e 288 combinações extremas. A alternativa de descer 200 mm tem zero reserva acima; variação hipotética de 2 mm por grandeza reduz o vão superior a 294 mm. Faixa de implantação condicionada à altura de uso e aos erros reais explicitada; nenhuma nova altura adotada, F104/R52 preservadas.
+
 **T04 — margens de engate, 26/10:** [36 casos P14/P20](04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026), com 12 inversões independentes. Erro radial hipotético de 1 mm por terminal pode impedir alcançar engate de 290 mm antes das paradas 90°/55°. Produto, eixo real e liberação continuam pendentes; sem alterar furos, CAD ou registrar ensaio.
 
 **Ferragens P14/P20, pesquisa de 26/10:** [fontes e oito requisitos](04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md). Bucha GFM-1012-15 entrou como candidata de consulta; ajuste, alojamento e ligação ainda indefinidos. Bigfer/Mahler seguem sem curso de liberação/capacidade na aplicação confirmados. Consultas não enviadas; sem compra, ensaio ou mudança R52.

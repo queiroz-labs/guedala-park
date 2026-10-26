@@ -1,0 +1,148 @@
+{
+  "scope": "Cadeia dimensional da alternativa separada; nao instalacao aprovada",
+  "source": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/Micro_estudo.json",
+  "source_sha256": "476746ae2fdbd4dca2b7e7b3331cf601646220fa423ec9c6dc8ac05cf7c057c1",
+  "hash_rule": "UTF8 LF",
+  "cad_opened": false,
+  "cad_changed": false,
+  "adopted": false,
+  "physical_tests_executed": 0,
+  "vertex_checks": 288,
+  "datums": {
+    "cabinet_bottom_mm": 1940.0,
+    "counter_top_mm": 920.0,
+    "shelf_thickness_mm": 18.0,
+    "appliance_height_mm": 290.0,
+    "upper_requirement_transcribed_from_existing_study_mm": 300.0
+  },
+  "equations": {
+    "upper_gap": "100 + delta - ec - eh - es (pior caso)",
+    "counter_clearance": "612 - delta - es - et - eb (pior caso)",
+    "feasible_lowering_interval": "[200+ec+eh+es, 612-Huso-es-et-eb]",
+    "compatibility": "Huso <= 412-(ec+eh+es)-(es+et+eb)"
+  },
+  "cases": [
+    {
+      "assumed_error_per_quantity_mm": 0.0,
+      "hypothetical_lowering_mm": 200.0,
+      "nominal_upper_gap_mm": 300.0,
+      "minimum_upper_gap_in_error_model_mm": 300.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 412.0,
+      "minimum_counter_clearance_in_error_model_mm": 412.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 0.0,
+      "hypothetical_lowering_mm": 206.0,
+      "nominal_upper_gap_mm": 306.0,
+      "minimum_upper_gap_in_error_model_mm": 306.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 406.0,
+      "minimum_counter_clearance_in_error_model_mm": 406.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 0.0,
+      "hypothetical_lowering_mm": 215.0,
+      "nominal_upper_gap_mm": 315.0,
+      "minimum_upper_gap_in_error_model_mm": 315.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 397.0,
+      "minimum_counter_clearance_in_error_model_mm": 397.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 2.0,
+      "hypothetical_lowering_mm": 200.0,
+      "nominal_upper_gap_mm": 300.0,
+      "minimum_upper_gap_in_error_model_mm": 294.0,
+      "upper_requirement_met_in_error_model": false,
+      "nominal_counter_clearance_mm": 412.0,
+      "minimum_counter_clearance_in_error_model_mm": 406.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 2.0,
+      "hypothetical_lowering_mm": 206.0,
+      "nominal_upper_gap_mm": 306.0,
+      "minimum_upper_gap_in_error_model_mm": 300.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 406.0,
+      "minimum_counter_clearance_in_error_model_mm": 400.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 2.0,
+      "hypothetical_lowering_mm": 215.0,
+      "nominal_upper_gap_mm": 315.0,
+      "minimum_upper_gap_in_error_model_mm": 309.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 397.0,
+      "minimum_counter_clearance_in_error_model_mm": 391.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 5.0,
+      "hypothetical_lowering_mm": 200.0,
+      "nominal_upper_gap_mm": 300.0,
+      "minimum_upper_gap_in_error_model_mm": 285.0,
+      "upper_requirement_met_in_error_model": false,
+      "nominal_counter_clearance_mm": 412.0,
+      "minimum_counter_clearance_in_error_model_mm": 397.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 5.0,
+      "hypothetical_lowering_mm": 206.0,
+      "nominal_upper_gap_mm": 306.0,
+      "minimum_upper_gap_in_error_model_mm": 291.0,
+      "upper_requirement_met_in_error_model": false,
+      "nominal_counter_clearance_mm": 406.0,
+      "minimum_counter_clearance_in_error_model_mm": 391.0,
+      "adopted": false
+    },
+    {
+      "assumed_error_per_quantity_mm": 5.0,
+      "hypothetical_lowering_mm": 215.0,
+      "nominal_upper_gap_mm": 315.0,
+      "minimum_upper_gap_in_error_model_mm": 300.0,
+      "upper_requirement_met_in_error_model": true,
+      "nominal_counter_clearance_mm": 397.0,
+      "minimum_counter_clearance_in_error_model_mm": 382.0,
+      "adopted": false
+    }
+  ],
+  "budgets": [
+    {
+      "error_per_quantity_mm": 0.0,
+      "minimum_lowering_for_upper_gap_mm": 200.0,
+      "maximum_user_clearance_compatible_mm": 412.0
+    },
+    {
+      "error_per_quantity_mm": 2.0,
+      "minimum_lowering_for_upper_gap_mm": 206.0,
+      "maximum_user_clearance_compatible_mm": 400.0
+    },
+    {
+      "error_per_quantity_mm": 5.0,
+      "minimum_lowering_for_upper_gap_mm": 215.0,
+      "maximum_user_clearance_compatible_mm": 382.0
+    }
+  ],
+  "shelf_edge_offsets_mm": {
+    "left": 123.0,
+    "right": 113.0,
+    "front": 18.0,
+    "back": 100.0
+  },
+  "limits": [
+    "Erros sao magnitudes independentes hipoteticas, nao tolerancias especificadas.",
+    "Huso ainda nao definido. Margem superior e uso da bancada disputam o mesmo espaco.",
+    "Os dois minimos de folga podem ocorrer em vertices diferentes: nao sao um unico estado medido.",
+    "Apoio do aparelho coincide com seu envelope inferior na fonte; confirmar pes, apoio e altura instalada.",
+    "Distancias as bordas da prateleira nao sao distancias a paredes nem prova de ventilacao.",
+    "Sem desenho de ancoragem, desempenho termico, ergonomia, porta aberta ou retirada de cabo.",
+    "F104 e alternativa de 200 mm preservadas; nao aplicar 206/215 mm ao CAD."
+  ]
+}

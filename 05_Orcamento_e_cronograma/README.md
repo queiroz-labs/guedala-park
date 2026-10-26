@@ -16,3 +16,5 @@ Controle de25/10 consolidado em26/10 no plano: matriz20/20 revisada, T01 documen
 Plano enxugado em 26/10/2026: cada tarefa T01–T09 indica situação, bloqueio e fonte técnica. Objetivo, prioridades, agenda, critérios, regras de corte e controle diário preservados; medição mantém somente a matriz 20/20 concluída. Retomar T02/T03 (juntas/suspensão); enquanto a oficina estiver indisponível, continuar T04.
 
 T09, conferência de 26/10: ZIP local R20 íntegro, 196 entradas e CAD R52 com hash correspondente; R23 é a configuração corrente e a publicação remota foi conferida: 251 entradas, CRC e hashes sem falhas; testes e geração temporária do site/pacote passaram. [Evidência e próxima ação](../06_Entregas/README.md). Integração de 30/10 e conferência de 31/10 preservadas.
+
+T04/T05, 26/10: margens de engate do banco/cesto e cadeia dimensional do micro calculadas a partir dos estudos salvos. [Avanços e critérios no plano](Plano_execucao_ate_31_10.md). Nenhum ensaio, novo ângulo/altura adotado ou CAD alterado; próximas entradas são dados da trava e altura útil de trabalho sob o micro.

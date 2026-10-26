@@ -112,6 +112,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 **Pronto quando:** existe montagem nominal completa e um roteiro que permita à oficina testar sem redescobrir o projeto. Marcar ensaio concluído somente com evidência. Se faltarem dados do produto, salvar a pergunta exata e a versão condicionada.
 
+**Avanço documental T04, 26/10:** [margens de engate P14/P20](../04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026): 36 sensibilidades e 12 inversões conferidas. Condição geométrica para receber dados da trava explicitada, sem novos furos/ângulos, ensaio ou CAD. Componentes reais, eixo, curso de liberação e juntas continuam pendentes.
+
 ### T05 — Gavetas e interfaces dos ambientes | P0/P1 | 28/10
 
 **Situação em 26/10:** condicionada a produto/oficina, juntas e compatibilização; [P16: curso/estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md) e [guia–fundo](../04_Moveis/P16/Interface_guia_fundo/README.md), [P01/P03/P02](../04_Moveis/Proximas_decisoes/P01_P03/README.md) e [P08](../04_Moveis/P08/README.md) documentam estudos e limites; demais interfaces abaixo ainda precisam de desenho e teste específico.
@@ -125,6 +127,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 - Banheiro: frente removível, correr, torneira/cuba e manutenção; iluminação L02 com perfil, dissipação, fontes e terminais. Varal: curso, retenção e envelope nominal.
 
 **Pronto quando:** cada interface tem desenho ou instrução objetiva, fonte e teste necessário. Nada continua apenas como “validar montagem”. Falta de dados precisa indicar qual dado e quem pode fornecê-lo.
+
+**Avanço documental T05, 26/10:** [interface do micro](../04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md#t05--cadeia-dimensional-e-margens-26102026): nove cenários/288 combinações extremas; relação entre ventilação superior, posição da prateleira e vão de trabalho explicitada. Próximo: obter altura de uso necessária e erros/obstáculos reais para testar a faixa possível; nenhuma nova implantação adotada. P16, P08 e demais interfaces conservam suas pendências específicas.
 
 ### T06 — Acabamentos, iluminação e equipamentos | P1 | 28–29/10
 
