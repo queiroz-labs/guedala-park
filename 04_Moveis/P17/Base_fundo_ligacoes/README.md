@@ -1,10 +1,26 @@
 # P17 — base, fundo e ligações de marcenaria
 
-**Complemento25/10/2026:** Elias definiu “20 kg / 10 kg / 10 kg” na ordemP17/P04/P12 e “Desenvolver os fundos inteiros”, com “Base limpa, sem cabeças ou tampinhas aparentes”. [LoteB vigente](../../Aereos_suspensao/README.md#lote-b--p17p04p12): fundo1964×550 preferido para estudo, massa globalP17 com20kg≈72,24–92,33kg sem ferragens;24 posições Minifix com acesso interno reconciliadas comR00. Substituir as8 entradas inferiores antigas. A caixaR52 permanece intacta. Ligações traseiras/suspensão e rigidez real das juntas pendentes; as flechas abaixo não comprovam o novo Minifix.
+**Complemento25/10/2026:** Elias definiu “20 kg / 10 kg / 10 kg” na ordemP17/P04/P12 e “Desenvolver os fundos inteiros”, com “Base limpa, sem cabeças ou tampinhas aparentes”. [LoteB vigente](../../Aereos_suspensao/README.md#lote-b--p17p04p12): fundo1964×550 preferido para estudo, massa globalP17 com20kg≈72,24–92,33kg sem ferragens;24 posições Minifix com acesso interno reconciliadas comR00. Substituir as8 entradas inferiores antigas. A caixaR52 permanece intacta. Ligações traseiras reconciliadas; implantação da suspensão abaixo. Capacidade e rigidez real das juntas pendentes; as flechas locais não comprovam o novo Minifix.
 
 Estudo nominal separado, 25/10/2026. **O fundo e as divisórias precisam de ligações positivas para participar do caminho da carga.** A placa18 mantida dá resultados condicionais favoráveis quando esses caminhos são creditados; não há comprovação de juntas, caixa completa ou carga de uso.
 
 Fonte: R51 completa preservada, SHA256 `ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16`. Reutiliza a [geometria e demanda global do P17](../../Aereos_suspensao/README.md) e a placa Ritz existente. Não usa tubos ou quadros metálicos.
+
+## Suspensão candidata — 26/10/2026
+
+[Implantação e memória](../../Aereos_suspensao/P17_suspensao.json) · [desenho](../../Aereos_suspensao/P17_suspensao.png) · [conferência independente](../../Aereos_suspensao/P17_verificacao_suspensao.json) · [requisitos para produto/oficina](../../Aereos_suspensao/P17_qualificacao_suspensao.txt).
+
+Bigfer04.02.058 candidata em dois cantos laterais/fundo18: assentos u40,5/1923,5; Z514 desde a base externa. Dois suportes são hipótese de qualificação. O metal ocupa≈60mL/par, sem recuar o fundo nem mudar vãos; cabeça/capa/acesso não estão nesse volume. Fundo inteiro1964×550 continua proposta separada, BrancoTX nas duas faces e fita inferior off-white.
+
+**Acesso:** a altura herdada Z492 alinhava o corredor do parafuso auxiliar aos dois calços superiores externos. Subir22mm no estudo deixa10mm entre metal e tampo. Oito calços fixos e24 acessosMinifix conferidos. No auxiliar traseiro u9,5, envolventeØ20 invade0,5mm a lateral; reservaØ12 passa com3,5mm nominais até a lateral. Não escolhe ferramenta/cabeça nem comprova manuseio. Montar antes das portas; manutenção com portas desclipadas e calços mantidos. Corpos das dobradiças em movimento não foram validados.
+
+**Demandas:**255 casos e765 equilíbrios3D,1530 vetores; braço hipotético424mm até compressão inferiorZ90. No alvo20kg, máximos separados por suporte: V555,07N, T532,09N, R761,71N. [Seis casos simultâneos](../../Aereos_suspensao/P17_qualificacao_suspensao.csv) preservam V/T/R de cada lado; não combinar os máximos. Madeira+conteúdo até92,33kg, antes das ferragens reais. Por1kg emv200: +9,807N vertical, +1,961Nm e +4,626N de tração total nesse braço.
+
+[Compressões inferiores](../../Aereos_suspensao/P17_reacoes_inferiores.csv): até518,80N sobre referência1080mm², ≈0,480MPa; sem pressão admissível atribuída. As faixas são das arestas existentes, não novos calços. Fundo/laterais coplanares exigem medir área/centro reais; Z90 não é garantido.
+
+**Continua pendente:** métodoBigfer/fixadoresMDF18/cabeça/rasgo/retenção e ferramenta reais; juntas e transmissão pelo fundo/laterais até os cantos; deformação da referência superior, massa/CG de ferragens e ensaio representativo. Não distribuir esforços por parafuso nem atribuir rigidez ao conjunto de24Minifix/42Confirmat candidatos. Fundo e divisores não se tornam monolíticos. Montagem sustentada com aperto pela frente requer confirmação; rasgos espelhados não engatam por translação única. Ancoragens dependem da parede real. Nenhum ensaio, compra, contato externo ou mudançaR52.
+
+Reproduzir: `python -B ferramentas/aereos/suspender_lote_b.py --movel P17` e `python -B ferramentas/aereos/conferir_suspensao_b.py --movel P17`. Fontes persistidas, hashes portáveis e solução independente por sistema linear de6 incógnitas. Equilíbrio não demonstra resistência/rigidez.
 
 ## Proposta geométrica
 

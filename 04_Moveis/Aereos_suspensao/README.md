@@ -2,6 +2,8 @@
 
 ## Lote B — P17/P04/P12
 
+[P17: suspensão candidata](../P17/Base_fundo_ligacoes/README.md#suspensão-candidata--26102026):u40,5/1923,5,Z514;765equilíbrios. Altura+22 evita calços;auxiliarØ12 nominal. Produto/juntas/ensaios pendentes.
+
 **Premissas de Elias,25/10/2026:** “20 kg / 10 kg / 10 kg” de conteúdo, respectivamente; “Base limpa, sem cabeças ou tampinhas aparentes”; “Desenvolver os fundos inteiros”. [Registro e usos](Lote_B_premissas.json). Metas globais,sem capacidade demonstrada ou aplicação naR52.
 
 | Móvel | Fundo18 no estudo | Madeira + conteúdo, kg* | Ligações internas candidatas |
@@ -14,7 +16,7 @@
 
 [Prancha](Lote_B_caixa_e_ligacoes.png) · [geometria/contatos](Lote_B_geometria.json) · [585 casos e memória](Lote_B_detalhamento.json) · [48 traseiras](Lote_B_ligacoes_traseiras.csv) · [60 posições internas](Lote_B_ligacoes_internas.csv) · [conferência independente](Lote_B_verificacao.json).
 
-**Base limpa:** canecos nas faces internas da base/tampo para encontros com laterais; nas faces livres das divisórias para encontros verticais. Preserva as24/24/12 posições previstas noR00, sem somá-las como compra. As8 entradas inferiores antigas de cadaP17/P04 precisam ser substituídas. Dois divisores18 permanecem independentes; canecos acessíveis pelas faces externas do par. Não há reforço monolítico36.
+**Base limpa:** canecos internos na base/tampo–laterais e faces livres dos divisores.24/24/12 posiçõesR00,sem compra extra;substituir8entradas inferiores de cadaP17/P04. Divisores18 independentes,acesso externo ao par;sem crédito monolítico36.
 
 Minifix candidatos262.26.034/262.28.920:[fontes oficiais](Lote_B_fontes_Minifix.json),Ø15,A9,profundidade13,5+0,5,B34. Furos cegos cabem nominalmente,deixando4mm;resistência/rigidez e chapa/piloto reais continuam pendentes.
 
@@ -111,4 +113,4 @@ Gabarito simplificadoPeca139 terminaZ1916, baseP09 começaZ1958:42mm sem ligaç�
 
 ## Evidências e reprodução
 
-[GeometriaR51/folga42](Geometria_R51.json) · [verificação histórica](Verificacao.json) · [memóriaP04/P15](../P04/Suspensao_P04_P15/README.md). Usar rotinas vigentesA/B; antigas exigem migração. No imóvel: conferir parede/revestimento/instalações antes das ancoragens. Sem consultas enviadas, compra ou ensaio físico.
+[GeometriaR51/folga42](Geometria_R51.json) · [verificação histórica](Verificacao.json) · [memóriaP04/P15](../P04/Suspensao_P04_P15/README.md). RotinasA/B vigentes; antigas exigem migração. Parede real e ancoragens pendentes. Sem consulta enviada ou ensaio.

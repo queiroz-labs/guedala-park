@@ -9,11 +9,11 @@ UPDATES = {
          'Executar T0 dos quatro acessos; caracterizar juntas T1, seis casos simultaneos V/T T2 e caixa inteira T3; Bigfer no divisor18/fundo e lateral direita sem capacidade demonstrada; conferir contato e parede real'),
  'P12': ('Meta de conteudo10kg para utensilios grandes/leves; fundo atual preservado,12Minifix/9Confirmat candidatos; massa madeira+conteudo32.75-41.51kg sem ferragens no loteB',
          'Detalhar implantacao/acesso e caminho resistente da suspensao; comprovar juntas/caixa e incluir ferragens reais; substrato e ancoragens depois das chaves'),
- 'P17': ('Meta de conteudo20kg para itens de viagem; fundo550/base limpa,24Minifix/42Confirmat candidatos; massa madeira+conteudo72.24-92.33kg sem ferragens; fita inferior off-white',
-         'Detalhar suspensao e referencia superior da caixa; comprovar juntas/retencao/rigidez com o mapa loteB e massas reais; fundo BrancoTX nas duas faces, sem capacidade demonstrada'),
+ 'P17': ('Meta20kg; fundo550/base limpa; suspensao candidatau40.5/1923.5 Z514;765equilibrios/1530vetores,seis casos;8calcos e24acessosMinifix conferidos;R52 preservada',
+         'QualificarBigfer/MDF18 e ferramenta:auxiliar exige reserva12;provar juntas/rigidez da caixa e referencia superior,incluir ferragens reais e medir contato inferior;parede/ancoragens apos chaves'),
 }
 EVIDENCE = {
- 'P04':'Aereos_suspensao/README.md', 'P12':'Aereos_suspensao/README.md', 'P17':'Aereos_suspensao/README.md',
+ 'P04':'Aereos_suspensao/README.md', 'P12':'Aereos_suspensao/README.md', 'P17':'P17/Base_fundo_ligacoes/README.md',
  'P05':'Cargas_e_ligacoes/README.md','P07':'Cargas_e_ligacoes/README.md','P10':'Cargas_e_ligacoes/README.md',
  'P18':'Cargas_e_ligacoes/README.md','P19':'Cargas_e_ligacoes/README.md',
  'P06':'../02_Modelo_3D/Componentes/Estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html',

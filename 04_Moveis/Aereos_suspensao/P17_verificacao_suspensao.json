@@ -1,0 +1,19 @@
+{
+  "code": "P17",
+  "status": "OK_NOMINAL_SEM_ENSAIO",
+  "equilibria": 765,
+  "force_vectors": 1530,
+  "qualification_cases": 6,
+  "linear_solve_max_difference_N": 3.581135388230905e-12,
+  "max_equilibrium_residual": 2.3283064365386963e-10,
+  "fixed_calcos_checked": 8,
+  "old_height_auxiliary_collisions": 2,
+  "generic20_auxiliary_collisions": 2,
+  "candidate12_corridors_clear": true,
+  "capacity_or_actual_tool_demonstrated": false,
+  "physical_tests": 0,
+  "CAD_preserved": true,
+  "source_sha256": "b42371ea440d3940218bd229d57d2bad0165a436b0508a7ca8acce554684ffec",
+  "verifier_sha256": "33b951c119fd24d87b97e1966f29ad64720109bb9651c0a5479f3320d2ce6ad5",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}
