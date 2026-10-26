@@ -1,0 +1,42 @@
+ROTEIRO NOMINAL — APOIO INFERIOR E JUNTA FUNDO/LATERAIS
+25/10/2026. Preparacao tecnica,nao instrucao de fabricacao ou ensaio liberados.
+Objetivo:medir acomodacao das juntas e deformacao do fundo inteiro sem depender daBigfer.
+Substrato/BP/espessura efetivos e parafusos devem representar as pecas do projeto.
+A distancia9mm da traseira localiza o eixo;nao e diametro de furo. Piloto,escareamento,cabeca e torque dependem do produto real.
+
+GEOMETRIA DO CORPO DE PROVA (mm)
+P09 current:2laterais altura/profundidade/espessura=[592.0, 330.0, 18.0];1fundo largura/altura/espessura=[614.0, 556.0, 18.0].
+3eixos por lado desde base da lateral=[90.0, 296.0, 502.0];desde base do fundo=[72.0, 278.0, 484.0];9da traseira.
+P11 current:2laterais altura/profundidade/espessura=[610.0, 330.0, 18.0];1fundo largura/altura/espessura=[661.0, 574.0, 18.0].
+3eixos por lado desde base da lateral=[90.0, 305.0, 520.0];desde base do fundo=[72.0, 287.0, 502.0];9da traseira.
+P15 current:2laterais altura/profundidade/espessura=[580.0, 330.0, 18.0];1fundo largura/altura/espessura=[799.0, 544.0, 18.0].
+3eixos por lado desde base da lateral=[90.0, 290.0, 490.0];desde base do fundo=[72.0, 272.0, 472.0];9da traseira.
+P15 wood_study:2laterais altura/profundidade/espessura=[598.0, 330.0, 18.0];1fundo largura/altura/espessura=[799.0, 598.0, 18.0].
+3eixos por lado desde base da lateral=[72.0, 299.0, 526.0];desde base do fundo=[72.0, 299.0, 526.0];9da traseira.
+
+DATUM E VETORES APLICADOS
+u=0 na esquerda interna,v=0 traseira externa para frente,z=0 base externa ORIGINAL.
+P15study desce18:a base fisica da lateral/fundo eZ-18;nao usarZoriginal como cota desde nova borda.
+ForcaF=(0,-T,+V) aplicada no fundo emv18;laterais fixas no dispositivo. +z=cima,-v=para parede.
+Cada linha e um caso separado do grupo superior,nao oito cargas simultaneas. Avaliar ambos os lados.
+Caso1 P09 current,fonte267,controleR_N|T_N:F=[0.0, -199.247, 239.307]N;u=40.5,v=18,Zoriginal=534,altura desde base do fundo=516.
+Caso2 P09 current,fonte255,controleV_N:F=[0.0, -188.729, 247.022]N;u=573.5,v=18,Zoriginal=534,altura desde base do fundo=516.
+Caso3 P11 current,fonte540,controleR_N|T_N:F=[0.0, -204.757, 251.052]N;u=40.5,v=18,Zoriginal=552,altura desde base do fundo=534.
+Caso4 P11 current,fonte488,controleV_N:F=[0.0, -192.734, 259.531]N;u=40.5,v=18,Zoriginal=552,altura desde base do fundo=534.
+Caso5 P15 current,fonte584,controleR_N|T_N:F=[0.0, -296.742, 345.938]N;u=758.5,v=18,Zoriginal=522,altura desde base do fundo=504.
+Caso6 P15 current,fonte568,controleV_N:F=[0.0, -278.708, 355.48]N;u=40.5,v=18,Zoriginal=522,altura desde base do fundo=504.
+Caso7 P15 wood_study,fonte659,controleR_N|T_N:F=[0.0, -313.837, 370.514]N;u=758.5,v=18,Zoriginal=522,altura desde base do fundo=540.
+Caso8 P15 wood_study,fonte643,controleV_N:F=[0.0, -295.803, 380.056]N;u=40.5,v=18,Zoriginal=522,altura desde base do fundo=540.
+
+O QUE MEDIR E O QUE NAO CONCLUIR
+Medir movimento relativo em cada grupo fundo/lateral e deformacao do fundo;descontar movimento/flexibilidade do dispositivo.
+Definir garra/distribuidor para introduzir a resultante no fundo sem criar engaste/apoio extra ou reforcar sua largura. Registrar deformacao/falha local do aplicador separadamente.
+Registrar fissura,abertura,escorregamento,impressao local,ciclos,carga mantida e recuperacao.
+Responsavel pelo ensaio define fatores,duracao,ciclos e limites de aceitacao antes de testar.Sem criterios nao ha aprovacao.
+Reacoes de norma minima doCSV sao certificado matematico,nao forcas admissiveis ou reais por parafuso.
+Nao extrapolar este corpo de prova para prateleiraP11,composicaoP15 ou capacidade do gabinete/suspensao.
+
+APOIO INFERIOR A CONFERIR NO CONJUNTO E NO LOCAL
+Zonas18x60 na aresta traseira das laterais,Z60..120,sem calco novo. Fundo coplanar tambem pode tocar.
+Confirmar prumo,contato efetivo e centro de pressao.Nao assumir1080mm2 ativos nem adicionar calco isolado.
+Ancoragem depende da parede real;nao usar pessoa como carga de ensaio. R52 preservada.

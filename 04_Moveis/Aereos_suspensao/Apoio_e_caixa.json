@@ -1,0 +1,1653 @@
+{
+  "scope": "Apoio geometrico nominal e requisitos de transferencia fundo-laterais,sem capacidade liberada.",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "reference_lower_areas": [
+    {
+      "code": "P09",
+      "variant": "current",
+      "side": 0,
+      "piece": "Peca316",
+      "reference_rear_face_uz_mm": [
+        -18.0,
+        0.0,
+        60.0,
+        0.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": -9,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P09",
+      "variant": "current",
+      "side": 1,
+      "piece": "Peca315",
+      "reference_rear_face_uz_mm": [
+        614.0,
+        0.0,
+        60.0,
+        632.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": 623.0,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P11",
+      "variant": "current",
+      "side": 0,
+      "piece": "Peca335",
+      "reference_rear_face_uz_mm": [
+        -18.0,
+        0.0,
+        60.0,
+        0.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": -9,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P11",
+      "variant": "current",
+      "side": 1,
+      "piece": "Peca334",
+      "reference_rear_face_uz_mm": [
+        661.0,
+        0.0,
+        60.0,
+        679.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": 670.0,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P15",
+      "variant": "current",
+      "side": 0,
+      "piece": "Peca360",
+      "reference_rear_face_uz_mm": [
+        -18.0,
+        0.0,
+        60.0,
+        0.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": -9,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P15",
+      "variant": "current",
+      "side": 1,
+      "piece": "Peca359",
+      "reference_rear_face_uz_mm": [
+        799.0,
+        0.0,
+        60.0,
+        817.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": 808.0,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P15",
+      "variant": "wood_study",
+      "side": 0,
+      "piece": "Peca360",
+      "reference_rear_face_uz_mm": [
+        -18.0,
+        0.0,
+        60.0,
+        0.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": -9,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    },
+    {
+      "code": "P15",
+      "variant": "wood_study",
+      "side": 1,
+      "piece": "Peca359",
+      "reference_rear_face_uz_mm": [
+        799.0,
+        0.0,
+        60.0,
+        817.0,
+        0.0,
+        120.0
+      ],
+      "width_mm": 18,
+      "height_mm": 60,
+      "nominal_area_mm2": 1080,
+      "resultant_u_mm": 808.0,
+      "reference_resultant_z_mm": 90,
+      "added_volume_mm3": 0,
+      "effective_contact_verified": false,
+      "other_back_contacts_present": true
+    }
+  ],
+  "lower_group_pairs": 2088,
+  "lower_reaction_rows": 4176,
+  "reference_content_critical_lower": [
+    {
+      "code": "P09",
+      "variant": "current",
+      "source_case_id": "266",
+      "traction_share_left": 0.0,
+      "payload_kg": 10.0,
+      "side": 1,
+      "u_mm": 623.0,
+      "z_mm": 90,
+      "C_N": 183.64154180999824,
+      "nominal_area_mm2": 1080,
+      "p_mean_nominal_MPa": 0.17003846463888728,
+      "effective_area_verified": false,
+      "contact_centroid_verified": false
+    },
+    {
+      "code": "P11",
+      "variant": "current",
+      "source_case_id": "539",
+      "traction_share_left": 0.0,
+      "payload_kg": 10.0,
+      "side": 1,
+      "u_mm": 670.0,
+      "z_mm": 90,
+      "C_N": 189.83010008069465,
+      "nominal_area_mm2": 1080,
+      "p_mean_nominal_MPa": 0.17576861118582837,
+      "effective_area_verified": false,
+      "contact_centroid_verified": false
+    },
+    {
+      "code": "P15",
+      "variant": "current",
+      "source_case_id": "582",
+      "traction_share_left": 0.0,
+      "payload_kg": 20.0,
+      "side": 1,
+      "u_mm": 808.0,
+      "z_mm": 90,
+      "C_N": 278.7629039842072,
+      "nominal_area_mm2": 1080,
+      "p_mean_nominal_MPa": 0.25811379998537703,
+      "effective_area_verified": false,
+      "contact_centroid_verified": false
+    },
+    {
+      "code": "P15",
+      "variant": "wood_study",
+      "source_case_id": "657",
+      "traction_share_left": 0.0,
+      "payload_kg": 20.0,
+      "side": 1,
+      "u_mm": 808.0,
+      "z_mm": 90,
+      "C_N": 294.82258879242784,
+      "nominal_area_mm2": 1080,
+      "p_mean_nominal_MPa": 0.27298387851150724,
+      "effective_area_verified": false,
+      "contact_centroid_verified": false
+    }
+  ],
+  "global_equilibrium_max_error_N_Nmm": 2.9103830456733704e-11,
+  "specimens": [
+    {
+      "code": "P09",
+      "variant": "current",
+      "side_quantity": 2,
+      "back_quantity": 1,
+      "side_height_depth_thickness_mm": [
+        592.0,
+        330.0,
+        18.0
+      ],
+      "back_width_height_thickness_mm": [
+        614.0,
+        556.0,
+        18.0
+      ],
+      "side_bottom_z_mm": 0.0,
+      "back_bottom_z_mm": 18.0,
+      "three_joint_z_from_side_bottom_mm": [
+        90.0,
+        296.0,
+        502.0
+      ],
+      "three_joint_z_from_back_bottom_mm": [
+        72.0,
+        278.0,
+        484.0
+      ],
+      "nominal_axis_from_rear_mm": 9,
+      "connector_candidate": "6Confirmat7x50,3porlado;sem piloto/cabeca/torque definidos",
+      "excluded": "Sem base/topo/prateleira/divisor,semBigfer e sem suspensao/parede real;laterais presas ao dispositivo de ensaio. P15estudo nao testa composicao18+18."
+    },
+    {
+      "code": "P11",
+      "variant": "current",
+      "side_quantity": 2,
+      "back_quantity": 1,
+      "side_height_depth_thickness_mm": [
+        610.0,
+        330.0,
+        18.0
+      ],
+      "back_width_height_thickness_mm": [
+        661.0,
+        574.0,
+        18.0
+      ],
+      "side_bottom_z_mm": 0.0,
+      "back_bottom_z_mm": 18.0,
+      "three_joint_z_from_side_bottom_mm": [
+        90.0,
+        305.0,
+        520.0
+      ],
+      "three_joint_z_from_back_bottom_mm": [
+        72.0,
+        287.0,
+        502.0
+      ],
+      "nominal_axis_from_rear_mm": 9,
+      "connector_candidate": "6Confirmat7x50,3porlado;sem piloto/cabeca/torque definidos",
+      "excluded": "Sem base/topo/prateleira/divisor,semBigfer e sem suspensao/parede real;laterais presas ao dispositivo de ensaio. P15estudo nao testa composicao18+18."
+    },
+    {
+      "code": "P15",
+      "variant": "current",
+      "side_quantity": 2,
+      "back_quantity": 1,
+      "side_height_depth_thickness_mm": [
+        580.0,
+        330.0,
+        18.0
+      ],
+      "back_width_height_thickness_mm": [
+        799.0,
+        544.0,
+        18.0
+      ],
+      "side_bottom_z_mm": 0.0,
+      "back_bottom_z_mm": 18.0,
+      "three_joint_z_from_side_bottom_mm": [
+        90.0,
+        290.0,
+        490.0
+      ],
+      "three_joint_z_from_back_bottom_mm": [
+        72.0,
+        272.0,
+        472.0
+      ],
+      "nominal_axis_from_rear_mm": 9,
+      "connector_candidate": "6Confirmat7x50,3porlado;sem piloto/cabeca/torque definidos",
+      "excluded": "Sem base/topo/prateleira/divisor,semBigfer e sem suspensao/parede real;laterais presas ao dispositivo de ensaio. P15estudo nao testa composicao18+18."
+    },
+    {
+      "code": "P15",
+      "variant": "wood_study",
+      "side_quantity": 2,
+      "back_quantity": 1,
+      "side_height_depth_thickness_mm": [
+        598.0,
+        330.0,
+        18.0
+      ],
+      "back_width_height_thickness_mm": [
+        799.0,
+        598.0,
+        18.0
+      ],
+      "side_bottom_z_mm": -18.0,
+      "back_bottom_z_mm": -18.0,
+      "three_joint_z_from_side_bottom_mm": [
+        72.0,
+        299.0,
+        526.0
+      ],
+      "three_joint_z_from_back_bottom_mm": [
+        72.0,
+        299.0,
+        526.0
+      ],
+      "nominal_axis_from_rear_mm": 9,
+      "connector_candidate": "6Confirmat7x50,3porlado;sem piloto/cabeca/torque definidos",
+      "excluded": "Sem base/topo/prateleira/divisor,semBigfer e sem suspensao/parede real;laterais presas ao dispositivo de ensaio. P15estudo nao testa composicao18+18."
+    }
+  ],
+  "fixtures": [
+    {
+      "id": 1,
+      "code": "P09",
+      "variant": "current",
+      "source_case_id": "267",
+      "controls": "R_N|T_N",
+      "upper_side": 0,
+      "load_application_uvz_mm": [
+        40.5,
+        18.0,
+        534.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -199.24713205822985,
+        239.30668025746175
+      ],
+      "applied_M_at_group_center_Nmm": [
+        49574.57755217586,
+        63775.23028861356,
+        53099.360693518254
+      ],
+      "group_center_uvz_mm": [
+        307.0,
+        9.0,
+        296.0
+      ],
+      "length_scale_mm": 614.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -8.069508848358309,
+          "residual_scaled_norm": 13.142522554329492,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 114.26823023539482,
+          "residual_scaled_norm": 186.10460950390035,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca316_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 17.86863225167142,
+          "Q_v_N": 1.8715475625753635,
+          "Q_z_N": -66.51391322056303,
+          "R_min_norm_solution_N": 68.89768762982574,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca316_296.0",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 296.0,
+          "N_axis_u_N": -3.4224864615608666e-15,
+          "Q_v_N": 62.034869834633476,
+          "Q_z_N": -66.51391322056301,
+          "R_min_norm_solution_N": 90.95287641032859,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca316_502.0",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 502.0,
+          "N_axis_u_N": -17.868632251671414,
+          "Q_v_N": 122.19819210669154,
+          "Q_z_N": -66.51391322056301,
+          "R_min_norm_solution_N": 140.27040608981622,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca315_90",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 17.86863225167142,
+          "Q_v_N": -55.78248142061493,
+          "Q_z_N": -13.25498019859091,
+          "R_min_norm_solution_N": 60.055538895690205,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca315_296.0",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 296.0,
+          "N_axis_u_N": 1.906584056639885e-15,
+          "Q_v_N": 4.380840851443151,
+          "Q_z_N": -13.25498019859091,
+          "R_min_norm_solution_N": 13.96016714193316,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 1,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "267",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca317_Peca315_502.0",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 502.0,
+          "N_axis_u_N": -17.868632251671414,
+          "Q_v_N": 64.54416312350125,
+          "Q_z_N": -13.25498019859091,
+          "R_min_norm_solution_N": 68.27101516693338,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 82.82269157992233,
+      "scaled_equilibrium_residual": 5.684341886080802e-14,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 2,
+      "code": "P09",
+      "variant": "current",
+      "source_case_id": "255",
+      "controls": "V_N",
+      "upper_side": 1,
+      "load_application_uvz_mm": [
+        573.5,
+        18.0,
+        534.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -188.72909227540566,
+        247.0223746312362
+      ],
+      "applied_M_at_group_center_Nmm": [
+        47140.725333227674,
+        -65831.46283922445,
+        -50296.30309139561
+      ],
+      "group_center_uvz_mm": [
+        307.0,
+        9.0,
+        296.0
+      ],
+      "length_scale_mm": 614.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -108.23613441994515,
+          "residual_scaled_norm": 176.28034921815168,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 7.643528237153929,
+          "residual_scaled_norm": 12.448743057253957,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca316_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": -18.444750332382498,
+          "Q_v_N": -53.06003710376448,
+          "Q_z_N": -13.682345519244434,
+          "R_min_norm_solution_N": 57.816804920237296,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca316_296.0",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 296.0,
+          "N_axis_u_N": 7.870431294517879e-15,
+          "Q_v_N": 4.149581019084643,
+          "Q_z_N": -13.68234551924443,
+          "R_min_norm_solution_N": 14.297748128356986,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca316_502.0",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 502.0,
+          "N_axis_u_N": 18.444750332382483,
+          "Q_v_N": 61.35919914193378,
+          "Q_z_N": -13.682345519244434,
+          "R_min_norm_solution_N": 65.5161561225275,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca315_90",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": -18.44475033238249,
+          "Q_v_N": 1.550498283201455,
+          "Q_z_N": -68.65844602450099,
+          "R_min_norm_solution_N": 71.1097396300215,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca315_296.0",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 296.0,
+          "N_axis_u_N": -2.7877097418836237e-15,
+          "Q_v_N": 58.760116406050585,
+          "Q_z_N": -68.65844602450099,
+          "R_min_norm_solution_N": 90.36998113617116,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 2,
+          "code": "P09",
+          "variant": "current",
+          "source_case_id": "255",
+          "source_upper_side": 1,
+          "controls": "V_N",
+          "joint_id": "Peca317_Peca315_502.0",
+          "u_mm": 614.0,
+          "v_mm": 9,
+          "z_mm": 502.0,
+          "N_axis_u_N": 18.444750332382483,
+          "Q_v_N": 115.9697345288997,
+          "Q_z_N": -68.65844602450099,
+          "R_min_norm_solution_N": 136.0263590339266,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 81.20557673648017,
+      "scaled_equilibrium_residual": 5.684341886080802e-14,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 3,
+      "code": "P11",
+      "variant": "current",
+      "source_case_id": "540",
+      "controls": "R_N|T_N",
+      "upper_side": 0,
+      "load_application_uvz_mm": [
+        40.5,
+        18.0,
+        552.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -204.75716911007413,
+        251.0518143942646
+      ],
+      "applied_M_at_group_center_Nmm": [
+        52834.487099736696,
+        72805.02617433673,
+        59379.5790419215
+      ],
+      "group_center_uvz_mm": [
+        330.5,
+        9.0,
+        305.0
+      ],
+      "length_scale_mm": 661.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -8.292665348958002,
+          "residual_scaled_norm": 12.545635928832075,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 127.051823432801,
+          "residual_scaled_norm": 192.21153318124206,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca335_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 18.62837707063929,
+          "Q_v_N": 2.635060944441093,
+          "Q_z_N": -70.47768358592607,
+          "R_min_norm_solution_N": 72.94562263840615,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca335_305",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 305,
+          "N_axis_u_N": 7.69095274234921e-15,
+          "Q_v_N": 64.07051106041399,
+          "Q_z_N": -70.47768358592606,
+          "R_min_norm_solution_N": 95.24775205316156,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca335_520",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 520,
+          "N_axis_u_N": -18.628377070639292,
+          "Q_v_N": 125.50596117638689,
+          "Q_z_N": -70.47768358592606,
+          "R_min_norm_solution_N": 145.1408509232758,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca334_90",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 18.628377070639292,
+          "Q_v_N": -57.25357147302884,
+          "Q_z_N": -13.206254545495502,
+          "R_min_norm_solution_N": 61.63921671974395,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca334_305",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 305,
+          "N_axis_u_N": -1.1908314546520415e-15,
+          "Q_v_N": 4.181878642944049,
+          "Q_z_N": -13.206254545495502,
+          "R_min_norm_solution_N": 13.852554569635602,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 3,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "540",
+          "source_upper_side": 0,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca336_Peca334_520",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 520,
+          "N_axis_u_N": -18.628377070639292,
+          "Q_v_N": 65.61732875891694,
+          "Q_z_N": -13.206254545495502,
+          "R_min_norm_solution_N": 69.47701364380977,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 85.90441051037318,
+      "scaled_equilibrium_residual": 1.1368683772161603e-13,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 4,
+      "code": "P11",
+      "variant": "current",
+      "source_case_id": "488",
+      "controls": "V_N",
+      "upper_side": 0,
+      "load_application_uvz_mm": [
+        40.5,
+        18.0,
+        552.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -192.73360354270332,
+        259.53125758014903
+      ],
+      "applied_M_at_group_center_Nmm": [
+        49940.98139326907,
+        75264.06469824322,
+        55892.745027383964
+      ],
+      "group_center_uvz_mm": [
+        330.5,
+        9.0,
+        305.0
+      ],
+      "length_scale_mm": 661.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -7.805710943479485,
+          "residual_scaled_norm": 11.808942425838858,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 119.59120099824742,
+          "residual_scaled_norm": 180.92466111686446,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca335_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 19.257562983502908,
+          "Q_v_N": 2.237311775463662,
+          "Q_z_N": -72.85811455505299,
+          "R_min_norm_solution_N": 75.39339594793057,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca335_305",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 305,
+          "N_axis_u_N": 2.709295101663688e-15,
+          "Q_v_N": 60.30822037228815,
+          "Q_z_N": -72.85811455505296,
+          "R_min_norm_solution_N": 94.58005234186378,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca335_520",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 520,
+          "N_axis_u_N": -19.257562983502904,
+          "Q_v_N": 118.37912896911266,
+          "Q_z_N": -72.85811455505296,
+          "R_min_norm_solution_N": 140.33095440445993,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca334_90",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 19.257562983502908,
+          "Q_v_N": -54.13459445487816,
+          "Q_z_N": -13.652304638330076,
+          "R_min_norm_solution_N": 59.05754372470528,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca334_305",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 305,
+          "N_axis_u_N": 4.475984256331239e-17,
+          "Q_v_N": 3.93631414194632,
+          "Q_z_N": -13.652304638330076,
+          "R_min_norm_solution_N": 14.208447873073803,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 4,
+          "code": "P11",
+          "variant": "current",
+          "source_case_id": "488",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca336_Peca334_520",
+          "u_mm": 661.0,
+          "v_mm": 9,
+          "z_mm": 520,
+          "N_axis_u_N": -19.257562983502904,
+          "Q_v_N": 62.00722273877081,
+          "Q_z_N": -13.652304638330076,
+          "R_min_norm_solution_N": 66.34858571044967,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 84.0774796493805,
+      "scaled_equilibrium_residual": 1.1368683772161603e-13,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 5,
+      "code": "P15",
+      "variant": "current",
+      "source_case_id": "584",
+      "controls": "R_N|T_N",
+      "upper_side": 1,
+      "load_application_uvz_mm": [
+        758.5,
+        18.0,
+        522.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -296.7417492574557,
+        345.9379561978097
+      ],
+      "applied_M_at_group_center_Nmm": [
+        71957.52743351001,
+        -124191.72627501367,
+        -106530.28798342659
+      ],
+      "group_center_uvz_mm": [
+        399.5,
+        9.0,
+        290.0
+      ],
+      "length_scale_mm": 799.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -225.07861681178014,
+          "residual_scaled_norm": 281.70039651036313,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 12.018040844926956,
+          "residual_scaled_norm": 15.04135274709256,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": -22.224688545069725,
+          "Q_v_N": -84.93312504285667,
+          "Q_z_N": -13.262510664191527,
+          "R_min_norm_solution_N": 88.78888837905718,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_290",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 290,
+          "N_axis_u_N": 1.1482113880424895e-14,
+          "Q_v_N": 5.0137842490308655,
+          "Q_z_N": -13.262510664191538,
+          "R_min_norm_solution_N": 14.17858320191493,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_490",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 490,
+          "N_axis_u_N": 22.224688545069714,
+          "Q_v_N": 94.96069354091838,
+          "Q_z_N": -13.262510664191527,
+          "R_min_norm_solution_N": 98.42440900414574,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_90",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": -22.22468854506972,
+          "Q_v_N": 3.9532228782335275,
+          "Q_z_N": -102.05014140174505,
+          "R_min_norm_solution_N": 104.51696566666342,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_290",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 290,
+          "N_axis_u_N": -1.8405624150769838e-15,
+          "Q_v_N": 93.90013217012105,
+          "Q_z_N": -102.05014140174505,
+          "R_min_norm_solution_N": 138.67756192579375,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 5,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "584",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_490",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 490,
+          "N_axis_u_N": 22.224688545069714,
+          "Q_v_N": 183.84704146200858,
+          "Q_z_N": -102.05014140174505,
+          "R_min_norm_solution_N": 211.44243376241914,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 124.25446222587043,
+      "scaled_equilibrium_residual": 5.684341886080802e-14,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 6,
+      "code": "P15",
+      "variant": "current",
+      "source_case_id": "568",
+      "controls": "V_N",
+      "upper_side": 0,
+      "load_application_uvz_mm": [
+        40.5,
+        18.0,
+        522.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -278.7076532107669,
+        355.47985794237917
+      ],
+      "applied_M_at_group_center_Nmm": [
+        67859.49426637933,
+        127617.26900131413,
+        100056.04750266533
+      ],
+      "group_center_uvz_mm": [
+        399.5,
+        9.0,
+        290.0
+      ],
+      "length_scale_mm": 799.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -11.28765995503606,
+          "residual_scaled_norm": 14.127233986277924,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 211.3997549603667,
+          "residual_scaled_norm": 264.580419224489,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_90",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 22.837705389857508,
+          "Q_v_N": 3.3691052418555048,
+          "Q_z_N": -104.86495950663694,
+          "R_min_norm_solution_N": 107.37584174260628,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_290",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 290,
+          "N_axis_u_N": -3.5187827394623793e-15,
+          "Q_v_N": 88.19347307482968,
+          "Q_z_N": -104.86495950663691,
+          "R_min_norm_solution_N": 137.02097804836058,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_490",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 490,
+          "N_axis_u_N": -22.837705389857497,
+          "Q_v_N": 173.01784090780382,
+          "Q_z_N": -104.86495950663692,
+          "R_min_norm_solution_N": 203.60106530222438,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_90",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 90,
+          "N_axis_u_N": 22.8377053898575,
+          "Q_v_N": -80.11528983754815,
+          "Q_z_N": -13.628326474156209,
+          "R_min_norm_solution_N": 84.41416786129246,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_290",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 290,
+          "N_axis_u_N": 1.810287778738372e-15,
+          "Q_v_N": 4.709077995425983,
+          "Q_z_N": -13.628326474156209,
+          "R_min_norm_solution_N": 14.41897007602111,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 6,
+          "code": "P15",
+          "variant": "current",
+          "source_case_id": "568",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_490",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 490,
+          "N_axis_u_N": -22.837705389857497,
+          "Q_v_N": 89.53344582840015,
+          "Q_z_N": -13.628326474156209,
+          "R_min_norm_solution_N": 93.39983935675252,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 120.97858077162392,
+      "scaled_equilibrium_residual": 2.2737367544323206e-13,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 7,
+      "code": "P15",
+      "variant": "wood_study",
+      "source_case_id": "659",
+      "controls": "R_N|T_N",
+      "upper_side": 1,
+      "load_application_uvz_mm": [
+        758.5,
+        18.0,
+        522.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -313.83720526829126,
+        370.5136740113132
+      ],
+      "applied_M_at_group_center_Nmm": [
+        78969.38953576001,
+        -133014.40897006143,
+        -112667.55669131657
+      ],
+      "group_center_uvz_mm": [
+        399.5,
+        9.0,
+        281.0
+      ],
+      "length_scale_mm": 799.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -238.04552019599893,
+          "residual_scaled_norm": 297.9293118848547,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 12.710406813365797,
+          "residual_scaled_norm": 15.90789338343654,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_54",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 54,
+          "N_axis_u_N": -25.94639234711512,
+          "Q_v_N": -81.66806219350943,
+          "Q_z_N": -16.08891449672041,
+          "R_min_norm_solution_N": 87.18796263221282,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_281",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 281,
+          "N_axis_u_N": -2.966285033403767e-15,
+          "Q_v_N": 5.302631127812178,
+          "Q_z_N": -16.08891449672039,
+          "R_min_norm_solution_N": 16.940220381105497,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca360_508",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 508,
+          "N_axis_u_N": 25.94639234711512,
+          "Q_v_N": 92.27332444913377,
+          "Q_z_N": -16.08891449672041,
+          "R_min_norm_solution_N": 97.19277159546547,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_54",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 54,
+          "N_axis_u_N": -25.94639234711512,
+          "Q_v_N": 12.339077306963349,
+          "Q_z_N": -107.41564350705073,
+          "R_min_norm_solution_N": 111.19167493410404,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_281",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 281,
+          "N_axis_u_N": 5.864286453967341e-16,
+          "Q_v_N": 99.30977062828492,
+          "Q_z_N": -107.41564350705073,
+          "R_min_norm_solution_N": 146.28927169234376,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 7,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "659",
+          "source_upper_side": 1,
+          "controls": "R_N|T_N",
+          "joint_id": "Peca361_Peca359_508",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 508,
+          "N_axis_u_N": 25.94639234711512,
+          "Q_v_N": 186.2804639496065,
+          "Q_z_N": -107.41564350705073,
+          "R_min_norm_solution_N": 216.5911978708851,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 127.80912417024956,
+      "scaled_equilibrium_residual": 2.2737367544323206e-13,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    },
+    {
+      "id": 8,
+      "code": "P15",
+      "variant": "wood_study",
+      "source_case_id": "643",
+      "controls": "V_N",
+      "upper_side": 0,
+      "load_application_uvz_mm": [
+        40.5,
+        18.0,
+        522.0
+      ],
+      "applied_F_uvz_N": [
+        0.0,
+        -295.80310922160254,
+        380.05557575588267
+      ],
+      "applied_M_at_group_center_Nmm": [
+        74709.04950420915,
+        136439.95169636188,
+        106193.3162105553
+      ],
+      "group_center_uvz_mm": [
+        399.5,
+        9.0,
+        281.0
+      ],
+      "length_scale_mm": 799.0,
+      "matrix_rank": 6,
+      "one_column_checks": [
+        {
+          "side": 0,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": -11.980025923474903,
+          "residual_scaled_norm": 14.993774622621906,
+          "sole_point_column_sufficient": false
+        },
+        {
+          "side": 1,
+          "rank": 5,
+          "missing_rotation": "z",
+          "unbalanced_Mz_for_transfer_to_this_column_Nm": 224.36665834458555,
+          "residual_scaled_norm": 280.8093345989806,
+          "sole_point_column_sufficient": false
+        }
+      ],
+      "reactions_min_norm_only": [
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_54",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 54,
+          "N_axis_u_N": 26.614594207850416,
+          "Q_v_N": 11.324422651705953,
+          "Q_z_N": -110.18193686696246,
+          "R_min_norm_solution_N": 113.91504898387358,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_281",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 281,
+          "N_axis_u_N": 3.413675780197997e-16,
+          "Q_v_N": 93.60311153299354,
+          "Q_z_N": -110.18193686696247,
+          "R_min_norm_solution_N": 144.5738624385934,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca360_508",
+          "u_mm": 0,
+          "v_mm": 9,
+          "z_mm": 508,
+          "N_axis_u_N": -26.614594207850402,
+          "Q_v_N": 175.88180041428117,
+          "Q_z_N": -110.18193686696245,
+          "R_min_norm_solution_N": 209.2434074315673,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_54",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 54,
+          "N_axis_u_N": 26.614594207850406,
+          "Q_v_N": -77.2807640070803,
+          "Q_z_N": -16.5032550516652,
+          "R_min_norm_solution_N": 83.38471405279803,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_281",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 281,
+          "N_axis_u_N": 3.0059028371201754e-15,
+          "Q_v_N": 4.997924874207305,
+          "Q_z_N": -16.5032550516652,
+          "R_min_norm_solution_N": 17.24345326054306,
+          "actual_joint_force_predicted": false
+        },
+        {
+          "fixture_id": 8,
+          "code": "P15",
+          "variant": "wood_study",
+          "source_case_id": "643",
+          "source_upper_side": 0,
+          "controls": "V_N",
+          "joint_id": "Peca361_Peca359_508",
+          "u_mm": 799.0,
+          "v_mm": 9,
+          "z_mm": 508,
+          "N_axis_u_N": -26.614594207850402,
+          "Q_v_N": 87.27661375549492,
+          "Q_z_N": -16.5032550516652,
+          "R_min_norm_solution_N": 92.72486916019187,
+          "actual_joint_force_predicted": false
+        }
+      ],
+      "necessary_lower_bound_on_any_max_joint_resultant_N": 124.83942500787073,
+      "scaled_equilibrium_residual": 2.8421709430404007e-13,
+      "physical_interpretation": "Corpo de prova:forca superior inteira introduzida no fundo;seis ligacoes as laterais no dispositivo de ensaio. Nao e previsao de reparticao no gabinete com demais juntas/contatos."
+    }
+  ],
+  "fixture_configuration_count": 4,
+  "fixture_load_case_count": 8,
+  "fixture_joint_rows": 48,
+  "fixture_equilibrium_max_scaled_error": 2.8421709430404007e-13,
+  "fixture_case_coverage": "Oito casos globais controladoresV/T/R da pre-selecao. Servem a caracterizacao desta rota;nao sao envelope de todas as juntas em todos os casos ou protocolo de homologacao.",
+  "contact_rules": [
+    "Faixas18x60,Z60..120 sao zonas de referencia na traseira das laterais existentes,nao calcos/pads ou furos novos. CentroZ90 e hipotese,nao contato medido.",
+    "Fundo e laterais compartilham plano traseirov0;nao ha como garantir duas zonas ativas apenas desenhando-as. Contatos fora da faixa podem alterar o braco e a tracao.",
+    "Sem aumentar afastamento do movel ou reduzir armazenamento. Nao adicionar calco isolado que incline a caixa;qualquer compensacao exige estudo de prumo/posicoes/fixacao.",
+    "PressaoC/1080 e media sobre area nominal,nao pico nem resistencia admissivel. Se areaefetiva=A, recalcularC/A;sem A medida nao comparar com limite do material.",
+    "Reacoes inferiores repartidas pela soma e momento de guinada;nao copiar a tracao de cada suporte para a lateral do mesmo lado.",
+    "Sem credito a atrito ou fixacao a parede real. Apoio direto inferior na lateral evita atribuir essa compressao ao grupo de parafusos do fundo."
+  ],
+  "joint_rules": [
+    "Preservar6Confirmat candidatos fundo-laterais,3por lado,sem duplicar Minifix/cavilhas ou permitir pilotos/CNC.",
+    "Uma coluna de3ligacoes pontuais colineares tem posto5;nao reage momentoMz em torno da propria coluna. Precisa de caminho pelo fundo e outra lateral ou rigidez de junta/contato demonstrada.",
+    "Seis pontos em duas colunas tem posto6 para equilibrio;isso nao comprova resistencia/flexibilidade do fundo ou das juntas.",
+    "Solucao de norma minima e certificado matematico de equilibrio e limite inferior L2 para a maior reacao,nao forca de projeto por Confirmat. Autoequilibrios/rigidezes reais podem elevar muito os esforcos.",
+    "Corpo de prova testa uma rota com toda a forca superior entrando no fundo. Parafusos lateraisBigfer,demais juntas,atrito e apoio inferior estao excluidos;somar resultados destes modelos daria dupla contagem.",
+    "Para dimensionar o gabinete,medir/modelar rigidez do fundo,juntas e partilha nos parafusos da ferragem em um sistema acoplado;sem atribuir rigidez por conveniencia."
+  ],
+  "next_checks": [
+    "Oficina:montar corpo de prova com fundo18 inteiro,laterais18 e seis conectores/furos/cabecas reais. Instrumentar movimento relativo em cada borda e deformacao do fundo.",
+    "Definir introducao da carga no fundo sem criar engaste/apoio extra ou reforcar artificialmente sua largura;desenhar garra/distribuidor e separar deformacao/falha local da aplicacao e da junta.",
+    "Aplicar cada vetor do corpo de prova no ponto indicado sem combinar maximos de casos diferentes;avaliar ambos os lados. Responsavel define fatores,duracao,ciclos e limites antes do ensaio.",
+    "No local:mapear contato traseiro com caixa sustentada,confirmar prumo,areaefetiva,centro de pressao e parede/instalacoes antes de ancoragem. Nao usar contato presumido para fechar carga.",
+    "Conferir acesso/manutencao e retencao inferior com produto/fixadores reais;prototipo integrado da caixa continua necessario."
+  ],
+  "input_sha256": {
+    "04_Moveis\\Aereos_suspensao\\Selecao_ferragem.json": "07a4012cd484199564f85edcd2be4467af15226edcc54604de57cb0136cea57c",
+    "04_Moveis\\Aereos_suspensao\\Solicitacoes_suporte_L.csv": "a561c0c9316b850e227acc647dabfde538bb109204f5dd8f2abcf71e1d7a29ca",
+    "04_Moveis\\Aereos_suspensao\\Requisitos_suporte_L.csv": "9c1d368f2f3ed0739a8ab6a1ff02c39889897c122cc0b9a46400125e1f72ec7d",
+    "ferramentas\\aereos\\detalhar_ligacoes.py": "97596b7e1a774338d21202029c87a30d57746893b6a36e9f9af59cff84393137"
+  },
+  "script_sha256": "91060a4071fe8ffc80823a008721019c49c11681d0ddb31dc281fde69c5f4d2c",
+  "physical_tests": 0
+}

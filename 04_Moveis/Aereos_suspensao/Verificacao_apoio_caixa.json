@@ -1,0 +1,23 @@
+{
+  "lower_rows": 4176,
+  "reference_contact_faces": 8,
+  "nominal_area_per_face_mm2": 1080,
+  "inferior_force_and_moment_max_errors_N_Nmm": [
+    5.684341886080802e-14,
+    2.9103830456733704e-11,
+    7.275957614183426e-12
+  ],
+  "wrong_side_copy_rejected": true,
+  "fixture_configurations": 4,
+  "fixture_load_cases": 8,
+  "fixture_joint_rows": 48,
+  "independent_fixture_force_moment_errors_N_Nmm": [
+    2.8421709430404007e-13,
+    5.820766091346741e-11
+  ],
+  "single_point_column_torsion_rejected": true,
+  "specimen_datums_checked": true,
+  "contact_or_resistance_physically_proven": false,
+  "physical_tests": 0,
+  "CAD_preserved": true
+}

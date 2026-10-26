@@ -2,6 +2,8 @@
 
 **Complemento vigente25/10:** [loteA — mapa nominal, demandas e suspensão](../../Aereos_suspensao/README.md). Preserva12 Minifix; localiza10 Confirmat e3 cavilhas candidatos, sem compra adicional presumida. Conferência de contato e equilíbrio não comprova as rigidezes/resistências requeridas abaixo.
 
+O [corpo de prova fundo–laterais](../../Aereos_suspensao/Roteiro_apoio_caixa.txt) caracteriza outra rota, com fundo inteiro e duas laterais. Não substitui a prova da prateleira ou comprova as rigidezes abaixo; suas reações de norma mínima são certificados de equilíbrio, não forças reais por parafuso.
+
 24/10/2026 · R00 · base nominal R49, sem alterar o FCStd. **Decisão de Elias: manter o P11 sem tubos**, com chapa nominal de 18 mm e fundo de 18 mm.
 
 ## Resultado e situação

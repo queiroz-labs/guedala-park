@@ -2,6 +2,8 @@
 
 **Complemento vigente25/10:** [ligações e suspensão do loteA](../../Aereos_suspensao/README.md). Preserva8 Minifix; distingue seis Confirmat candidatos na caixa atual e18 na variante de fundo prolongado. Na lateral que desce18, eixoZ9 fica **27mm da nova borda inferior**, não9. O mapa não especifica a interface entre camadas nem comprova composição; as condições deste estudo continuam abertas.
 
+O [corpo de prova fundo–laterais](../../Aereos_suspensao/Roteiro_apoio_caixa.txt) tem somente fundo inteiro,duas laterais e seis ligações candidatas. A variante598 corrige os eixos desde a borda físicaZ−18; não contém base18+18 nem demonstra composição ou capacidade global.
+
 25/10/2026. **A ligação entre as duas chapas é parte do cálculo; não basta somar18+18.** Este bloco substitui a comparação apenas entre os extremos por um modelo de deslizamento contínuo. Reutiliza a geometria e os apoios do [estudoP15 separado](../../Ligacoes_sem_tubos/README.md), sem alterar aR51 ou criar outro CAD.
 
 **Decisão de produto:** a Titebond Melamine Glue fica excluída da justificativa de sustentação dessa base: o próprio fabricante veda aplicações estruturais ou de sustentação de carga. Não havia adesivo selecionado. A indicação genérica para melamina e resultados curtos da ficha não autorizam esse uso. [Ficha oficial, Limitations](https://www.titebond.com/print/product/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd).

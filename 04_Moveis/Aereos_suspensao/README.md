@@ -17,22 +17,28 @@ Os96 pontos incluem alternativas mutuamente exclusivas de P15. São eixos nas in
 
 **P15:** a variante desce a lateral18 mm e mantém o eixo da base original emZ9. O pino passa de9 para **27 mm da nova borda inferior**. Não reutilizar o gabarito inferior9 nessa lateral. A camada adicional é outra peça; acabamento nas duas faces de cada chapa conforme a regra do projeto. O [processo de composição](../P15/Composicao_parcial/README.md) continua sem produto demonstrado; não presumir colagem entre facesBP nem capacidade pela simples soma18+18. TitebondMelamine permanece excluída.
 
-### Implantação e demandas da fixação direta
+### Base genérica preservada
 
-Estudadas duas zonas superiores e duas inferiores acessíveis pela frente, mantendo a profundidade330 e o fundo18 na traseira. Reservas internas36×36×8 e corredor reto de ferramentaØ20 foram conferidos **somente contra a madeira**, em12 zonas. Não representam ferragem comercial ou acesso real de ferramenta/mão; não são quatro ancoragens dimensionadas.
+Origem: u na esquerda interna,v na traseira para frente,z na base externa original. [Dados do lote](Detalhamento_P09_P11_P15.json):696casos,4176vetores,12zonas36×36×8/corredorØ20 só contra madeira, sem ferragem escolhida. Corpos reconciliados com extraçãoR51/fichas atuais e CG das portasR52; reserva hipotética1kg de ferragens. Dois grupos recebemV pelo CG lateral; tração repartida0/100,50/50 ou100/0. Caixa precisa realizar a partilha. Essa implantação genéricau72 não é a Bigfer abaixo. P09 exclui depurador;10kgP11 é global, não por nível. Sem majoração, impacto, massa real, resistência ou ensaio.
 
-Origem: u na esquerda interna, v na face traseira da caixa para a frente, z na base externa original. P09:u72/542,z90/502; P11:u72/589,z90/520; P15:u72/727,z90/490. O binário usa separação verticalh412/430/400, respectivamente. Todo cortante foi atribuído aos dois grupos superiores, conforme o CG lateral; tração repartida0/100,50/50 ou100/0, equilibrada por compressão inferior. Caixa, apoios e produto precisam efetivamente realizar essa partilha.
+### Apoio inferior e fundo–laterais — avanço independente da Bigfer
 
-696 casos geométricos recompostos com CG das portas do snapshotR52; três partilhas e dois grupos geram4176 vetores. Volumes/CG dos corpos reconciliados com a extraçãoR51 e dimensões das fichas atuais. Reserva hipotética de1kg de ferragens fixas, sem substituir pesagem ou distribuição real dos braços móveis. Vetores críticos abaixo pertencem ao mesmo grupo/caso, comρ900, portas86° e conteúdo excêntrico; **demandas sem majoração, impacto ou capacidade física**:
+[Desenho das faixas](Apoio_e_caixa.png) · [dados e requisitos de ensaio](Apoio_e_caixa.json) · [conferência](Verificacao_apoio_caixa.json).
 
-| Variante/conteúdo total hipotético | V por grupo (N) | T por grupo (N) | Resultante (N) |
-|---|---:|---:|---:|
-| P09 atual /10kg | 246,12 | 214,72 | 326,62 |
-| P11 atual /10kg | 257,18 | 219,99 | 338,44 |
-| P15 atual /20kg | 355,38 | 320,48 | 478,55 |
-| P15 estudo /20kg | 379,96 | 338,94 | 509,17 |
+Referências na **aresta traseira das laterais existentes**:18×60mm por lado,Z60…120,centro hipotético90,área1080mm². Sem peças/calços novos ou perda interna. Resultantes laterais emu−9/W+9, diferentes dos suportes superiores40,5/W−40,5; reações inferiores precisam equilibrar soma e momento, não copiarT de cada lado.
 
-P09 exclui o depurador; P11 não recebe10kg em cada nível. Os demais cenários e casos controladores estão no CSV. Equilíbrio conferido independentemente nos2088 pares de grupos; isso não demonstra rigidez/resistência da caixa ou fixação ao MDF.
+| Cenário de conteúdo global | Maior compressão por lado (N) | Pressão média sobre1080mm² (MPa) |
+|---|---:|---:|
+| P09 atual10kg | 183,64 | 0,170 |
+| P11 atual10kg | 189,83 | 0,176 |
+| P15 atual20kg | 278,76 | 0,258 |
+| P15 estudo20kg | 294,82 | 0,273 |
+
+Demandas condicionais, não limites admissíveis. **Fundo e laterais estão no mesmo plano da parede**: marcar faixas não garante contato só nelas, nem centroZ90. Conferir área/centro reais; outros contatos mudam o braço. Não atribuir a área nominal inteira ou incluir calço isolado que incline o gabinete.
+
+**Juntas:** três pontos colineares em uma lateral não reagemMz por forças pontuais; o caminho precisa do fundo/outra lateral ou de rigidez de junta demonstrada. Mantidos seis Confirmat candidatos. Dois grupos permitem equilíbrio, sem provar resistência/rigidez do fundo ou juntas. Definidos8casos de ensaio em4configurações, com toda a força de um suporte introduzida no fundo e as duas laterais presas ao dispositivo. Reações publicadas são solução matemática de norma mínima, **não forças de projeto por parafuso nem envelope de todas as juntas**. Não somar esse corpo de prova à suspensão ou creditar atrito/cavilhas.
+
+[Roteiro nominal para oficina](Roteiro_apoio_caixa.txt), com dimensões/eixos/datum dos corpos de prova · [4176 reações inferiores](Reacoes_apoio_inferior.csv) · [48 reações nos8casos](Corpos_prova_fundo_laterais.csv). Reprodução: `python -B ferramentas/aereos/analisar_apoio_caixa.py` e `python -B ferramentas/aereos/conferir_apoio_caixa.py`. Medir acomodação das juntas/deformação do fundo e conferir contato real. Nenhuma resistência foi demonstrada pelos certificados de equilíbrio.
 
 ### Produto: duas rotas para resolver
 
@@ -78,22 +84,11 @@ Volumes/CG vieram do BREP; frentes com canecos descontados. Divisor duploP17 con
 
 Massa nominal18 aproximada por18,3/fator de volume; ferragens/acabamento exigem dados reais. CG da frente não foi atribuído a todos os braços metálicos.
 
-O plano de referência da parede é a face traseira nominal. Dois grupos de suspensão recebem a força vertical conforme o centro lateral; o vão entre resultantes varia entre100% e80% da largura da base. O binário usah50% ou80% da altura da caixa; a tração superior pode repartir-se100/0,50/50 ou0/100. Essas posições/partilhas são parâmetros de equilíbrio, sem furos ou produto definido. Não comprovam que a caixa real já transmita a torção necessária entre os lados.
+Parede na traseira nominal; dois grupos recebemV pelo CG lateral, vão100/80% da largura,h50/80% da altura e tração100/0,50/50 ou0/100. Parâmetros de equilíbrio, sem produto/furos ou torção da caixa comprovada.
 
 `V(N)=soma(m×g)`; `M(Nm)=soma(m×g×v(mm)/1000)`; `T(N)=1000×M/h(mm)`.
 
-Exemplos comρ900,10 kg de conteúdo próximo à frente, todas as portas86° e h80% da altura:
-
-| Móvel | V total | M para fora da parede | h parametrizado | T superior total |
-|---|---:|---:|---:|---:|
-| P09, madeira+conteúdo | 367,134 N | 86,759 Nm | 473,6 mm | 183,191 N |
-| P11 | 391,711 N | 92,891 Nm | 488,0 mm | 190,351 N |
-| P12 | 407,031 N | 98,756 Nm | 467,2 mm | 211,378 N |
-| P17 | 796,004 N | 195,594 Nm | 440,0 mm | 444,533 N |
-
-O P09 acima **não inclui o depurador**, cuja transferência de esforços depende da ligação descrita abaixo. A massa de móveis/equipamentos inferiores, como geladeira e micro, não é somada automaticamente ao aéreo.
-
-P17: aproximadamente81,17kg de madeira hipotética+conteúdo antes de ferragens no exemplo, sem pesagem; mudar densidade/composição exige recalcular massa e rigidez.
+Exemplos preservados nos [1404casos](Resultados.json). P09 exclui depurador; equipamentos inferiores não são somados automaticamente. No exemploρ900/10kg frontal/portas86°, P17≈81,17kg antes de ferragens, sem pesagem; mudar composição exige recalcular massa/rigidez.
 
 As48 combinaçõesh/vão/partilha preservam casos controladores deV/T/resultante. Sem combinar máximos incompatíveis, majoração, mãos, impacto, resistência/rigidez real ou ensaio. Grupo não é parafuso;kg de catálogo não validamV/T simultâneos.
 
@@ -103,13 +98,13 @@ As48 combinaçõesh/vão/partilha preservam casos controladores deV/T/resultante
 
 O [manual SuggarDE61IX/DE62IX](../../09_Referencias/Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf),REV.0025,p1, publica6,00kg sem embalagem para60cm (58,840N) e8,01kg para80cm. Colunas conferidas visualmente; não é pesagem da unidade entregue.
 
-O manual indica primeiro apoio/fixação à parede e depois fixação superior ao gabinete com quatro parafusos4,2×30, figuras5–8. Portanto, **não se presumiu que o armário recebe metade ou todo o peso**. O conjunto tem vínculos redundantes; a partilha, possíveis efeitos de alavanca e a ligação real precisam de desenho/rigidez. Os fixadores citados no manual não são seleção de ancoragem aprovada para uma parede ainda desconhecida.
+Figuras5–8: primeiro fixar à parede, depois ao gabinete com4parafusos4,2×30. Vínculos redundantes: partilha/alavanca exigem desenho/rigidez; não atribuir metade ou todo o peso ao armário. Fixadores do manual não selecionam nossa ancoragem.
 
 Há uma pendência nominal concreta: o gabarito`Peca139` termina emZ1916 e a face inferior da baseP09 começa emZ1958, deixando **42 mm entre eles no CAD**. Não há ponte de ligação ou adaptador representado nessa faixa. O gabarito é uma caixa simplificada e não contém abas ou fixações comerciais; o resultado identifica uma interface não demonstrada, sem concluir que o produto real seja inviável.
 
 Posições/folga preservadas, sem adaptador inventado. Retorno20mm na largura, filtros e acesso continuam restriçõesR48 do modo depurador. Não reinstalar canal de duto cancelado.
 
-O [registro do depurador](Depurador_dados_e_pendencias.json) distingue massa publicada, dados do gabarito e transferência desconhecida. Para consulta de sensibilidade do conjunto global na parede,6 kg acrescentam58,840 N e um momento que depende do CG. Emv150/300/488 mm, são8,826/17,652/28,714 Nm; essas posições são hipóteses/envelope geométrico de referência, não CG publicado ou carga atribuída a um suspensor do armário. A ligação real pode produzir outros esforços internos.
+[Registro do depurador](Depurador_dados_e_pendencias.json):6kg=58,840N; emv150/300/488, momentos8,826/17,652/28,714Nm. Posições hipotéticas, sem CG publicado ou carga atribuída ao suspensor. A ligação real pode ter outros esforços.
 
 ## Perguntas exatas antes de fechar
 
