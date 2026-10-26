@@ -36,3 +36,28 @@ assert(mean('shower')[0]<mean('toilet')[0]);assert(mean('toilet')[0]<mean('basin
 const modules=json('CAD_DATA.modules');
 for(const m of modules){const ns=nodes.filter(n=>n.module===m.code);assert(ns.length,m.code);const r=rooms.find(r=>r.id===m.room).bounds;const cx=(Math.min(...ns.map(n=>n.x))+Math.max(...ns.map(n=>n.x+n.w)))/2,cz=(Math.min(...ns.map(n=>n.z))+Math.max(...ns.map(n=>n.z+n.d)))/2;assert(cx>=r[0]&&cx<=r[2]&&cz>=r[1]&&cz<=r[3],m.code+' outside its room');}
 console.log(JSON.stringify({orientation:'official',cameraCases:10,gpuCpuConsistent:true,windows:5,doors:4,modulesInCorrectRooms:modules.length,fixedFixtures:'correct relative positions'}));
+
+// Written official spans and continuity of the reconstructed floor, in centimetres.
+const floor=nodes.filter(n=>n.kind==='floor');
+const laundry=floor.find(n=>n.room==='lavanderia');
+assert.deepEqual([laundry.w,laundry.d],[129,154]);
+assert.equal(laundry.z+laundry.d,700);
+const passage=floor.find(n=>n.room==='circulacao');
+assert.deepEqual([passage.x,passage.z,passage.w,passage.d],[375,305,105,90]);
+const wall=nodes.filter(n=>n.kind==='wall'&&n.y===0);
+const east=wall.find(n=>n.room==='banho'&&n.x===464&&n.z===395);
+const south=wall.find(n=>n.room==='banho'&&n.z===529);
+assert.equal(east.x+east.w,passage.x+passage.w);
+assert.equal(south.z+south.d,laundry.z);
+const covered=(x,z)=>floor.some(n=>x>=n.x&&x<=n.x+n.w&&z>=n.z&&z<=n.z+n.d);
+// Sample continuously across preserved bedroom/bathroom thresholds and open connections.
+for(let x=350;x<=520;x+=.5)assert(covered(x,350),'bedroom/living floor continuity');
+for(let z=350;z<=430;z+=.5)assert(covered(420,z),'bathroom threshold continuity');
+for(let x=300;x<=450;x+=.5)assert(covered(x,620),'laundry/kitchen floor continuity');
+const plan=JSON.parse(fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/Cotas.json'),'utf8'));
+assert.deepEqual(plan.cotas.find(r=>r.id==='lavanderia').mm,[1290,1540]);
+assert.deepEqual(plan.cotas.find(r=>r.id==='circulacao').mm,[900,1050]);
+assert.equal(plan.heightStudy.mm,2600);assert.equal(plan.heightStudy.officeCeilingScenarioMm,2470);
+const guide=fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/index.html'),'utf8').split('<script>')[0];
+assert(guide.includes('id="planta-pe-direito"'));assert(guide.includes('medida a confirmar'));assert(guide.includes('não fabricação'));
+console.log(JSON.stringify({officialLaundryCm:[129,154],circulationSpansCm:[90,105],floorConnections:true,heightStudyMm:2600,measured:false}));

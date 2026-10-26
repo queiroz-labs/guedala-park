@@ -1,5 +1,7 @@
 # Entregas — publicação R52/R21
 
+**Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal.
+
 **Publicação R22 — 26/10/2026:** integra estudos correntes e pé-direito 2,60 m = 260 cm = 2600 mm, medida a confirmar, por decisão de Elias em 26/10/2026. Cenário separado de forro do escritório: 2,47 m. Sem medição real, fabricação ou alteração do FreeCAD R52. Fonte: [pesquisa e decisão](../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 > **Atualização R52/R21:** modeloR52 e fichasR14; pacoteR21 com matriz20/20 e suspensãoP17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
