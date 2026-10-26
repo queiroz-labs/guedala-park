@@ -111,3 +111,6 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Espaços, 26/10/2026: textos do estado, plano e READMEs revisados; verificador em `ferramentas/verificar_espacos.py`, com bloqueio somente nos 13 arquivos já limpos também no Git. P03 e trechos novos de outras sessões permanecem corrigidos no disco, sem commit, conforme orientação de Elias neste chat em 26/10/2026. Retomar após o commit de origem, conferir os 15 arquivos e ampliar a lista de bloqueio.
 
 - Plano até 31/10, 26/10/2026: T01–T09 resumidas por situação, bloqueio e fonte no [plano](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md). Só matriz 20/20 concluída na medição; demais resultados condicionados. Retomar T02/T03 pelas juntas e suspensão dos aéreos; sem oficina, avançar montagem nominal T04. Agenda e controle diário preservados.
+
+
+**Integração de 26/10/2026 — análise BOP:** [análise dos alertas](02_Modelo_3D/README.md#análise-dos-alertas-bop--25102026) incorporada, com limites da amostragem e preservação da R52. Sem reparo geométrico ou atualização da base.

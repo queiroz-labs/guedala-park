@@ -29,13 +29,33 @@ As fontes individuais rastreadas passam em `isValid()`, mas apresentam alertas e
 
 | Prioridade | Fonte da peça | Resultado ampliado |
 |---|---|---|
-| Pcurva | `MontagemG2R020`, frente da G2 | `GeomAbs_C0` e `InvalidCurveOnSurface`; ressalva para novas operações geométricas |
+| Pcurva | `MontagemG2R020`, frente da G2 | `GeomAbs_C0` e `InvalidCurveOnSurface`; ver quantificação e limites na análise abaixo |
 | Conferência | `MontagemG2R019`, fundo da G2 | `GeomAbs_C0`; conferir o BRep antes de operações geométricas |
 | Conferência | `ReguaInferiorBaixaR31`, `ReguaInferiorAltaR31`, `ReguaSuperiorBaixaR31`, `ReguaSuperiorAltaR31` | `GeomAbs_C0`; conferir as quatro réguas antes de operações geométricas |
 
 `GeomAbs_C0` sozinho é um alerta de continuidade para o algoritmo BOP, não prova de chapa fisicamente defeituosa. `InvalidCurveOnSurface` é uma pendência geométrica adicional. Travas, corpos de dobradiças e a grelha inferior também apresentam alertas BOP; não foram confundidos com os painéis de corte. A triagem não repara ou libera fabricação.
 
 A verificação completa registrada passou com 5.832 objetos e 106 cenários de movimento. A base vigente registra zero peças inválidas e 12 contêineres informativos; isso não equivale a aprovação BOP. A triagem não recalculou nem salvou; o verificador completo aplicou e restaurou os movimentos apenas em memória. Esta correção documental não abriu nem alterou o `.FCStd` e não atualizou a base.
+
+## Análise dos alertas BOP — 25/10/2026
+
+Escopo: operações e peças do projeto. **Os arquivos STEP recebidos e os corpos de ferragens fornecidos ficaram fora deste aprofundamento.** G2 foi checada somente na representação já incorporada ao CAD, sem abrir ou alterar sua fonte STEP. [Ensaios detalhados](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py).
+
+No OCCT 7.8.1 local, `GeomAbs_C0` consulta a continuidade da curva/superfície de suporte; não significa simplesmente um encontro de faces a 90°. `InvalidCurveOnSurface` compara a curva 3D com a curva na superfície e acusa diferença maior que a tolerância da aresta. [Código oficial, testes de continuidade e de pcurva](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_8_1/src/BOPAlgo/BOPAlgo_ArgumentAnalyzer.cxx#L775).
+
+| Caso | Evidência | Interpretação e encaminhamento |
+|---|---|---|
+| Quatro réguas P07 e `GrelhaInferiorR31` | As cinco peças do estudo R02 passam no BOP, com planos/cilindros e linhas/círculos. Espelhar a cópia com `transformGeometry()` converte tudo em B-splines e reproduz C0; com `transformShape()` a cópia continua analítica e passa | Causa reproduzida no fluxo do projeto; não há evidência de peça fisicamente defeituosa por esse C0. Preservar a geometria analítica nas isometrias |
+| `MontagemG2R019`, fundo | Apenas C0; três cortes centrais válidos, sem sobreposição dos resultados | Alerta de representação, sem falha operacional nos controles feitos; conservar a fonte recebida |
+| `MontagemG2R020`, frente | C0 e `InvalidCurveOnSurface` persistem. Na amostragem das duas representações por aresta, o maior desvio foi cerca de **1,013 × 10⁻⁷ mm**, sem ultrapassar a tolerância da respectiva aresta nos pontos amostrados. Os três cortes centrais produziram formas válidas | A amostragem não reproduziu a excedência acusada pelo teste BOP e não certifica o máximo contínuo. Manter a ressalva técnica para novas booleanas; não foi demonstrado defeito dimensional de fabricação nem há fundamento aqui para mudar medidas |
+
+Nas cinco peças P07 comparadas, fonte e representação atual, alinhadas por translação no ensaio, deram volume zero nas diferenças em ambos os sentidos. As peças são simétricas no espelhamento testado. Isso não é uma certificação geral de equivalência ou uma correção já aplicada ao CAD. A diferença do valor bruto de `Volume` foi de até **4,965 mm³** nas réguas e **0,754 mm³** na grelha; não confundir essa diferença numérica da representação com material realmente removido.
+
+Os **18 cortes sintéticos** (plano central em X/Y/Z de cada uma das seis peças de marcenaria) retornaram interseção e diferença válidas, sem volume de sobreposição. O maior resíduo de soma de volumes foi **5,523 mm³**; o maior relativo, **0,002651%**. São controles de robustez, não trajetórias CNC nem comprovação de usinagem. `fix(1e-7, 1e-7, 1e-5)` retornou sucesso, mas manteve os alertas; `removeSplitter()` também os manteve. Ambos conservaram o volume nesta amostra.
+
+A correção candidata para o fluxo próprio está nas cópias isométricas de [consolidar_r31.py](Componentes/Atual/Consolidacao_R31_2026-10-20/consolidar_r31.py): preservar `Placement` ou usar `transformShape()` para translações, rotações e espelhamentos, em vez da conversão geral de geometria. O ensaio isolado com o espelho passou nas cinco fontes analíticas. Isso não autoriza substituir chamadas que realmente precisem de escala não uniforme, nem executar o consolidador antigo sobre a R52.
+
+R52, base e estudo R02 ficaram com os mesmos hashes. A verificação completa repetida passou com os 106 cenários. Nenhum reparo foi gravado no modelo.
 
 ## Abrir e salvar com segurança
 
@@ -78,6 +98,8 @@ Detalhe linha a linha: [Alteracoes_R52.json](Alteracoes_R52.json) · [Diferencas
 ## Pendências técnicas
 
 Formato do fundo P01, divergência 100/300 mm do micro-ondas, interface guia–fundo P16, ferragens reais, ligações, suspensão, massa e estabilidade dos apoios e capacidade do banco. Os estudos ficam em [04_Moveis](../04_Moveis/README.md) e não estão incorporados ao modelo.
+
+Os relatórios históricos em `Componentes/Estudos/` preservam os caminhos antigos das referências removidas, com aviso visível. Para rastrear essas evidências, consulte o histórico do Git e a tag `antes-reorganizacao`; os relatórios não substituem o modelo vigente.
 
 ## Arquivos desta pasta
 

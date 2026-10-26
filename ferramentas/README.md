@@ -57,3 +57,6 @@ Revisão de espaços de 26/10/2026: o limite de 16 KB dos READMEs permanece; o �
 `espacos_excecoes.json` aceita exceções literais por `arquivo`, `trecho` e `motivo`; a lista começa vazia. `corrigidos` contém os arquivos que passaram limpos no disco e no Git. `verificar_tudo.py` usa `--bloquear-corrigidos`: falha apenas nesse conjunto; demais achados continuam avisos. Use `--bloquear` com caminhos explícitos para conferir uma nova revisão antes de ampliar a lista. P03 e Corte_e_formatos aguardam consolidação de trechos de outras sessões para entrar no bloqueio.
 
 Teste: `python -B ferramentas/test_verificar_espacos.py`. Inclui detecção, nomes/códigos válidos, citações, links, exceções locais e códigos de saída dos modos aviso/bloqueio.
+
+
+Análise BOP: `verificar_modelo/analisar_bop.py`; [resultado e limites](../02_Modelo_3D/README.md#análise-dos-alertas-bop--25102026). Não altera o modelo vigente.
