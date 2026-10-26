@@ -101,3 +101,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Não rode macros antigas que salvam ou fecham documentos. Não sobrescreva o modelo vigente para consultar.
 - **Verificadores** ([ferramentas/README.md](ferramentas/README.md)): `python ferramentas/verificar_tudo.py` (o hook de commit roda sozinho) e, depois de qualquer trabalho no FreeCAD, `python ferramentas/verificar_modelo/verificar_modelo.py --completo`, que acusa objetos removidos, formas inválidas, expressões perdidas e colisões novas.
 - Versões antigas (R45 a R51, compatibilizações, arquivo morto) estão no git, na tag `antes-reorganizacao`.
+
+- Documentação, 26/10/2026: README dos aéreos compactado, com limites técnicos preservados, para permitir a reposição de espaços dentro de 16 KB.

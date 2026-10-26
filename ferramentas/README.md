@@ -47,3 +47,5 @@ A variável opcional `GP_TRIAGEM_SAIDA` escolhe outro JSON. Leia a [interpretaç
 **Camadas de defesa.** (1) Hook de commit (`ferramentas/hooks/pre-commit`): roda `verificar_tudo.py` (estrutura, modelo, links, tamanho, privacidade só nos arquivos do commit, consistência e afirmações) e bloqueia se houver erro. (2) Hook de push (`ferramentas/hooks/pre-push`): roda `verificar_site.py`. (3) CI (`.github/workflows/pages.yml`): roda `verificar_tudo.py --ci` e as afirmações dos commits do push **antes** de construir e publicar o site; pega quem usou `--no-verify`. Para ativar os hooks num clone novo: `git config core.hooksPath ferramentas/hooks`.
 
 Detalhes do gerador do site: [site/README.md](site/README.md).
+
+Revisão de espaços de 26/10/2026: o limite de 16 KB dos READMEs permanece; o índice dos aéreos teve apenas redundância e quebras de linha compactadas antes da correção.
