@@ -1,6 +1,26 @@
 # P04/P15 — suspensão da caixa inteira e portas abertas
 
-**Atualizações25/10/2026:** [loteB — P17/P04/P12](../../Aereos_suspensao/README.md#lote-b--p17p04p12): Elias respondeu “20 kg / 10 kg / 10 kg”, “Desenvolver os fundos inteiros” e “Base limpa, sem cabeças ou tampinhas aparentes”. NoP04:10kg de edredom, fundo1764×308 preferido para estudo, conjunto≈36,15–46,21kg sem ferragens;24 posições Minifix internas, quatro acessos junto à lateral esquerda exigem ferramenta real. R52 intacta; juntas traseiras/suspensão pendentes. [LoteA — P15](../../Aereos_suspensao/README.md) conserva696 casos próprios, sem substituir os660 históricos abaixo. Flechas locais não demonstram rigidez da nova ferragem.
+**Vigente25/10/2026:** [P04:acesso e validação nominal](../../Aereos_suspensao/P04_validacao.json) · [desenho](../../Aereos_suspensao/P04_acesso_e_suspensao.png) · [conferência independente](../../Aereos_suspensao/P04_verificacao_validacao.json). Quatro acessos resolvidos no estudo com chaveSW4 curta; suspensão candidata revista,765 equilíbrios3D/1530vetores e seis casos de qualificação. R52 intacta; produto/juntas ainda sem ensaio físico.
+
+## P04 — acesso e caminho da carga vigentes
+
+Elias,25/10/2026:“20 kg / 10 kg / 10 kg” na ordemP17/P04/P12,“Desenvolver os fundos inteiros” e “Base limpa, sem cabeças ou tampinhas aparentes”. NoP04:10kg de edredom,fundo1764×308×18,duas facesBrancoTX e fita inferiorArenza,conforme [premissas](../../Aereos_suspensao/Lote_B_premissas.json). Conjunto≈36,15–46,21kg antes das ferragens;24Minifix e36Confirmat candidatos no mapa reconciliado,sem compra ou capacidade demonstrada.
+
+**Quatro acessos:** corpo [Häfele262.26.034](https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/) aceitaSW4. A [Wera950PKS,05133154001](https://www.weratools.com/en-ca/tools/950-pks-l-key-metric-chrome-plated) tem4mm e braços80/22. Usar braço curto reto no caneco e longo como alavanca,cursos de até60°,retirar e reencaixar60°;curso final conforme travamento/instrução,sem torque inventado. Caixa antes das portas/dobradicas; manutenção com portas desclipadas,calços fixos mantidos. Sem mover divisória,abrir pela face inferior ou mudarB34.
+
+Conferência exterior:perfil/dobra envolvido por10mm,janela−35…35°,71orientações por acesso. Guarda0,6982mm cobre o intervalo entre ângulos;inserção/retirada envolvida continuamente,sem prescrever profundidade real do encaixe. O envelope tem3,30mm até o divisor,incluindo guarda. Reservados30×30×20 para dedos. Oito calçosR52 e os dois suportes candidatos entraram na verificação. Conferir retalho/chave/caneco reais antes da usinagem; não é ergonomia medida ou ensaio de ferragem.
+
+**Suspensão:** Bigfer04.02.058 no canto esquerdo original colide comApoioOpostoR002. Proposta:face livreu25 desse divisor18 e lateral direitau1764. Assentosu65,5/1723,5,Z250;apoio inferior hipotéticoZ90,braço160. Preserva madeira/vãos;envelopes≈60mL/par,sem deslocar fundo. O lado esquerdo passa a introduzir carga no divisor/fundo: não reutilizar o modelo do loteA só entre laterais. Dois suportes são hipótese de qualificação,sem suficiência demonstrada.
+
+Nos cenários10kg,máximos separados por suporte:V283,64N,T515,78N,R586,26N. Usar os [seis vetores controladores](../../Aereos_suspensao/P04_casos_qualificacao.csv),sem combinar máximos de casos diferentes. Partilha0/50/100 é sensibilidade,não rigidez real. Contatos inferiores recalculados em3D;fundo/laterais coplanares não garantemZ90/área1080mm². Parede/fixadores,centro de contato,retenção e massa/CG de ferragens continuam pendentes. Cada1kg extra emv200 acrescenta9,807N/1,961Nm e12,258N à tração total para esse braço.
+
+**Ligações:** Confirmat7×50 candidato [Häfele264.43.600](https://www.hafele.com/us/en/product/countersunk-connector-haefele-confirmat-countersunk-head-for-drill-hole-5-mm-sw4/26443600/),SW4,furo5 publicado. Não define sozinho passagem/escareamento,piloto noMDFBP ou torque. Caracterizar retenção axial base/divisor,grupos laterais/traseiros e caixa inteira. K1000N/mm por posição da memória local permanece requisito hipotético;25,6N/ponto e1,523mm históricos não cobrem automaticamente a nova suspensão no divisor. Não somar rigidez de uma mesma ligação duas vezes.
+
+[Roteiro para produto/oficina](../../Aereos_suspensao/P04_roteiro_validacao.txt): retalho de acesso,curvas de junta,corpos de prova e caixa completa emdispositivo rígido. Nenhuma consulta enviada,carga de prova normativa ou ensaio executado. Não atribuir capacidade ao equilíbrio. Reproduzir `python -B ferramentas/aereos/validar_p04.py` e `python -B ferramentas/aereos/conferir_p04.py`.
+
+## Memória global anterior — P04/P15
+
+[LoteA — P15](../../Aereos_suspensao/README.md) conserva696 casos próprios. A memória abaixo preserva660 casos históricos;os novosP04 têm a implantação e limites acima.
 
 25/10/2026 · continuação do plano, sem tubos. **A demanda global de suspensão agora inclui caixa, portas em quatro barras e conteúdo.** Os resultados são solicitações estáticas a fornecer ao projetista da suspensão; não constituem capacidade da parede, do móvel ou de uma ferragem. R51 e seus controles permaneceram intactos.
 

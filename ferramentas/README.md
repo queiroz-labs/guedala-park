@@ -4,6 +4,8 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
 | Comando | O que faz | Tempo |
 |---|---|---|
+| `python -B ferramentas/aereos/validar_p04.py` | Quatro acessosSW4 curta,calçosR52,implantação candidata e765equilíbrios3D/1530vetores;gera desenho/casos para qualificação,sem ensaio físico | segundos |
+| `python -B ferramentas/aereos/conferir_p04.py` | Confere envelopes contínuos/controles negativos e equilíbrio independente,sem abrirCAD ou demonstrar capacidade | segundos |
 | `python -B ferramentas/aereos/reconciliar_lote_b.py` | P17/P04/P12: premissas respondidas, cinco geometrias,47 contatosR00 e16 entradas inferiores antigas; fundo inteiro separado daR52 (NumPy/Pillow) | segundos |
 | `python -B ferramentas/aereos/detalhar_lote_b.py` | Metas20/10/10kg:585 casos de massa/demanda e60Minifix de acesso interno; quatro corredoresP04 restritos,sem capacidade demonstrada | segundos |
 | `python -B ferramentas/aereos/conferir_lote_b.py` | Conferência independente de hashes/contatos/canecos,pinos,acesso e demandas; registra restrições,sem ensaio físico | segundos |

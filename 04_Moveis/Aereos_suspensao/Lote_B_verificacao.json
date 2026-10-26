@@ -18,7 +18,7 @@
   "no_capacity_demonstrated": true,
   "source_sha256": {
     "Lote_B_geometria.json": "281b7b949967e48341feb013eab8e3fba732bc7b11ce3d35104430e560144864",
-    "Lote_B_detalhamento.json": "8e895ed50ea388ecccff0c312a15658879f8d77db4eb41a0acde35d494d90bb5",
+    "Lote_B_detalhamento.json": "dffc6c686a6cc26ee2aebcb3ff0c4a031011e0d8f69b63db59bb30c0aec208c5",
     "Lote_B_premissas.json": "621da1ebc34bf3198412044100312fa9da87b514f056db4ba7c82faab724f7fb"
   },
   "verifier_sha256": "3d40d6517011d9cb8253facfe6be318b8e9928b26e0943495f5412546796c750",

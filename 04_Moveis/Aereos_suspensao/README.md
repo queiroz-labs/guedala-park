@@ -2,7 +2,7 @@
 
 ## Lote B — P17/P04/P12
 
-**Premissas de Elias,25/10/2026:** “20 kg / 10 kg / 10 kg” de conteúdo, respectivamente; “Base limpa, sem cabeças ou tampinhas aparentes”; “Desenvolver os fundos inteiros”. [Registro](Lote_B_premissas.json). P17 recebe itens de viagem/miscelânea; P04, edredom; P12, utensílios grandes/leves pouco usados. São metas globais, sem capacidade demonstrada ou aplicação naR52.
+**Premissas de Elias,25/10/2026:** “20 kg / 10 kg / 10 kg” de conteúdo, respectivamente; “Base limpa, sem cabeças ou tampinhas aparentes”; “Desenvolver os fundos inteiros”. [Registro e usos](Lote_B_premissas.json). Metas globais,sem capacidade demonstrada ou aplicação naR52.
 
 | Móvel | Fundo18 no estudo | Madeira + conteúdo, kg* | Ligações internas candidatas |
 |---|---|---:|---:|
@@ -16,15 +16,17 @@
 
 **Base limpa:** canecos nas faces internas da base/tampo para encontros com laterais; nas faces livres das divisórias para encontros verticais. Preserva as24/24/12 posições previstas noR00, sem somá-las como compra. As8 entradas inferiores antigas de cadaP17/P04 precisam ser substituídas. Dois divisores18 permanecem independentes; canecos acessíveis pelas faces externas do par. Não há reforço monolítico36.
 
-Referências candidatas [corpo262.26.034](https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/) e [pino262.28.920](https://www.hafele.com/us/en/product/haefele-connecting-bolt-minifix-system/26228920/): Ø15,A9,profundidade13,5+0,5 eB34. [Dados oficiais selecionados](Lote_B_fontes_Minifix.json). Os furos cegos cabem nas caixas nominais, deixando4mm no máximo de profundidade. Isso não comprova fixação/rigidez nem dispensa medir chapa/piloto.
+Minifix candidatos262.26.034/262.28.920:[fontes oficiais](Lote_B_fontes_Minifix.json),Ø15,A9,profundidade13,5+0,5,B34. Furos cegos cabem nominalmente,deixando4mm;resistência/rigidez e chapa/piloto reais continuam pendentes.
 
-**RestriçãoP04:**4 acessos na lateral esquerda: corredor20×20×30 invade1mm do divisor adjacente; canecoØ15 tem1,5mm até essa madeira. Diâmetro reto máximo18 nesta zona, com folga nula nesse limite. Conferir ferramenta real, dobradiças e sequência;56 outros corredores passam somente contra madeira. Nenhum acesso completo de montagem foi homologado.
+**P04:quatro acessos resolvidos nominalmente:** AllenSW4 curta80×22,sem mover divisória. [Validação](../P04/Suspensao_P04_P15/README.md#p04--acesso-e-caminho-da-carga-vigentes) · [desenho](P04_acesso_e_suspensao.png):envolvente contínua,oito calços fixos,portas desclipadas,folga3,30mm. Retalho real pendente;corredor genérico20 inadequado.
+
+**SuspensãoP04:** canto esquerdo externo rejeitado por colisão com o divisor. Bigfer candidata na faceu25 desse divisor18 e na lateral direita;765equilíbrios3D/1530vetores,seis casos de qualificação,braço hipotético160. Máximos separadosV283,64/T515,78/R586,26N por suporte. [Dados](P04_validacao.json) · [conferência](P04_verificacao_validacao.json) · [roteiro de juntas e conjunto](P04_roteiro_validacao.txt). Dois suportes não têm suficiência demonstrada; novo caminho pelo divisor/fundo requer prova.
 
 **Traseira:**48 posições Confirmat7×50 base/tampo–fundo herdam estações dos estudos parciais;32mm além do fundo18,sem alcançar a face inferior. R00 tem18/12/9CF anteriores; proposta com fundos inteiros soma24/24/0, dando42/36/9, sem compra definida. P04 conserva2CF/divisor doR00: não somar também o terceiro marcador do estudo parcial.
 
-**Falta fechar:** cabeças/pilotos traseiros, retenção, dobradiças/ferramentas, juntas e suspensão. MáximosM≈225,6/82,5/98,8Nm; `T=1000M/h` depende do braço real. Não copiar dois suportes do loteA, dividirV por furos ou transferir flechas locais ao Minifix sem comprovar juntas.
+**Falta comprovar:** cabeças/pilotos,juntas,retenção,contatos inferiores e suspensão. MáximosM≈225,6/82,5/98,8Nm;`T=1000M/h`. Não dividirV por furos ou transferir flechas locais aoMinifix;sem ensaio físico.
 
-Reprodução: `python -B ferramentas/aereos/reconciliar_lote_b.py`, depois `detalhar_lote_b.py` e `conferir_lote_b.py` na mesma pasta. Hash das fichas:IDs/três dimensões consumidas, sem acabamentos. Conferidos585casos/47contatos/60canecos; quatro acessos restritos. SHA doCAD intacto, sem abrirFreeCAD.
+Reprodução em`ferramentas/aereos/`:reconciliar_lote_b,detalhar_lote_b,conferir_lote_b,validar_p04,conferir_p04,com`python -B` e extensão`.py`. Hash das fichas:IDs/três dimensões consumidas. SHA doCAD intacto,sem abrirFreeCAD.
 
 ## Vigente: lote A — P09/P11/P15
 

@@ -181,7 +181,7 @@ def draw(summaries):
     t(65,600,'Base–laterais: caneco acessível por cima da base, dentro do armário.',24)
     t(65,642,'Base–divisórias: caneco na face interna da divisória; pino na base.',24)
     t(65,684,'Pares de divisórias: acesso pelas faces livres, sem unir as duas chapas como 36 mm.',24)
-    t(65,737,'P04: quatro acessos junto à lateral esquerda exigem ferramenta real menor que a reserva de 20 mm.',22,True,c='#a65438')
+    t(65,737,'P04: quatro acessos usam Allen curta SW4; conferir o complemento de acesso e suspensão P04.',22,True,c='#a65438')
     t(65,805,'São solicitações e posições de estudo. Juntas, ferragens e suspensão ainda exigem comprovação.',22,True)
     im.save(OUT/'Lote_B_caixa_e_ligacoes.png')
 

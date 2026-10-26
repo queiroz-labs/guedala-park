@@ -1,0 +1,69 @@
+P04 — roteiro para produto e oficina,25/10/2026
+Estudo nominal separado daR52. Nenhum ensaio fisico foi executado.
+
+1. ACESSO,ANTES DE USINAR O CONJUNTO
+Retalho representativo:base/tampo18,divisor18 entreu7..25 e lateral terminandou0;
+canecos nos horizontais emu34,v90/158,faces internasZ18/290. Manter vao272.
+Usar corpoMinifix262.26.034 comencaixeSW4 e pino262.28.920,B34.
+Chave candidata:Wera950PKS,05133154001,SW4,bracos80x22. O braco curto reto
+entra no caneco;o longo serve de alavanca. Sem adaptador grosso ou ponta inclinada.
+Montar a caixa antes das dobradicas/portas. Para manutencao,desclipar as portas.
+Calcos fixosR52 e envelopes dos dois suportes foram incluidos na verificacao.
+Aplicar cursos de ate60graus na janela livre,retirar e reencaixar a chave60graus;
+repetir ate travamento conforme instrucao do fabricante,sem inventar torque.
+A janela calculada e-35..35graus em torno de+u. O encaixe hexagonal permite
+reindexacao60graus;curso final pode ser menor. Confirmar insercao,engate e retirada
+na ferramenta real.0..8mm de engate foram apenas envolvente do exterior da chave.
+Conferir pintura/niquel/forma da dobra e dedos;reservas nao sao tolerancia certificada.
+
+2. JUNTAS:CARACTERIZAR ANTES DE USAR A FLECHA HISTORICA
+Identificar MDFBP real porpeca/SKU,espessura,umidade,densidade e acabamento;
+um acabamento nas duas faces da mesma chapa. Nao trocar por chapa generica noensaio.
+Minifix base-divisor/topo-divisor:caracterizar retencao axial emz,acomodacao e
+deslocamento relativo;caneco fica na divisoria,pino na face do horizontal.
+Dois pontos porgrupo,com furos/pilotos reais,e divisores pareados18 independentes.
+Minifix base-lateral/topo-lateral:caracterizar cortante vertical e retencao;
+caneco no horizontal e pino na lateral. Nao atribuir engastamento por nome de produto.
+Confirmat candidato264.43.600:rosca7x50,SW4;fabricante publica furo5.
+Isso nao fecha sozinho passagem na primeira peca,escareamento,profundidade,piloto
+noMDFBP real ou torque.50 atravessando18 projeta32 geometricos na receptora;
+nao sao necessariamente32 de rosca efetiva. Cabeca traseira precisa ficar compativel
+com o apoio coplanar na parede;conferir sem rasgar oBP ou enfraquecer a borda.
+Ensaiar grupo e caminho comfundo/divisor,nao multiplicar resistencia de um parafuso.
+A referencia localP04 requereu1000N/mm iniciais porjunta/posicao:medir curva
+forca-deslocamento relativa,acomodacao,histerese e recuperacao,descontando aparelho.
+Nao considerar que Minifixja atende1000. Nao somar rigidez da mesma junta duasvezes.
+O antigo picoaproximado25,6N/posicao e local;nao cobre a nova carga de suspensao
+introduzida no divisor esquerdo. Medir o conjunto e recalcular antes de aceitalo.
+
+3. SUPORTE E CAIXA INTEIRA
+Bigfer04.02.058 continua candidata,sem montagem/resistencia demonstradas.
+O canto esquerdo externo foi rejeitado porcolisao como divisor. Implantacao proposta:
+lado esquerdo na faceu25 do divisorApoioOpostoR002;direito na lateralPeca266.
+Suportes entram nos dois planos verticais;assentos emu65,5/1723,5,Z250.
+Caixa1800x230x308;fundo inteiro1764x308x18;madeiras e vaos mantidos.
+Sustentar/nivelar gabinete durante montagem;nao encaixar dois rasgos espelhados
+por uma unica translacao. Confirmar metoda/retencao com fabricante e fixadores reais.
+Dois suportes sao hipotese de qualificacao,nao quantidade suficiente comprovada.
+Conferir passo/bordas dos furosMDF,parede18 na passagem,assento/arruela/cabeca,
+flexao/esmagamento e reducao localrXF publicada. Nao dividirV porfuros.
+Usar P04_casos_qualificacao.csv:seis vetores simultaneos controladoresV/T/R,
+preservando case_id,portas,conteudo e partilha. Nao combinar maximos distintos.
+Esses vetores sao demandas estaticas do estudo,nao cargas de prova de resistencia.
+Qualificar suporte na montagem representativa de fundo18/divisor18 e fundo18/lateral18;
+depois ensaiar caixa completa emdispositivo rigido com portas e conteudo pesados.
+Preservar todas as juntas;nao creditar reforco daFaixaFixaEstudo7 nao adotada.
+Medir abertura/deslizamento das juntas,deformacao de fundo/divisor/base/topo,
+deslocamento da referencia superior,retencao e apoio inferior. Confirmar area e
+centro de contato reais:fundo e laterais coplanares nao garantem centroZ90.
+V/T e momentos foram calculados com braco160 e contato inferior hipoteticoZ90.
+Qualquer mudanca de centro/braco/implantacao exige recalcular as solicitacoes.
+Nao transferir o1,523mm de flecha antiga aesta montagem sem comprovar os caminhos.
+
+4. DADOS QUE ENCERRAM A VALIDACAO
+Desenho/montagem e capacidadeV/T simultaneos do suporte;fixadores/pilotos/torque;
+relatorio das juntas e curva de rigidez;massas/CG reais;contatos inferiores medidos;
+verificacao da caixa inteira com retencao,ciclos/carga mantida conforme protocolo
+definido para a aplicacao pelo responsavel. Registrar criterio e metodo,nao apenas
+"suportou uma vez". Parede/revestimento/instalacoes e ancoragens dependem da vistoria.
+Consulta/roteiro local;nao foi enviado a fabricante/oficina e nao autoriza fabricacao.

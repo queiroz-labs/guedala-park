@@ -1,0 +1,28 @@
+{
+  "consulted": "2026-10-25",
+  "minifix_drive": {
+    "url": "https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/",
+    "sku": "262.26.034",
+    "drive": "PZ2/fenda/SW4; selecionado SW4 para acesso especial"
+  },
+  "key": {
+    "url": "https://www.weratools.com/en-ca/tools/950-pks-l-key-metric-chrome-plated",
+    "manufacturer": "Wera",
+    "model": "950 PKS",
+    "sku": "05133154001",
+    "hex_mm": 4,
+    "long_arm_mm": 80,
+    "short_arm_mm": 22,
+    "application": "Braco curto reto no caneco; braco longo como alavanca. Sem usar ponta esferica inclinada."
+  },
+  "confirmat": {
+    "url": "https://www.hafele.com/us/en/product/countersunk-connector-haefele-confirmat-countersunk-head-for-drill-hole-5-mm-sw4/26443600/",
+    "sku": "264.43.600",
+    "thread_mm": 7,
+    "length_mm": 50,
+    "published_drill_mm": 5,
+    "drive": "SW4",
+    "limits": "Ø5 publicado nao define sozinho passagem/escareamento/torque ou adequacao ao MDFBP real."
+  },
+  "status": "Ferramenta e conectores candidatos para o estudo;sem compra,ensaio fisico ou capacidade atribuida."
+}

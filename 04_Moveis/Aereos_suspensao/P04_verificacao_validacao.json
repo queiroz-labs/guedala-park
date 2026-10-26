@@ -1,0 +1,17 @@
+{
+  "status": "OK_NOMINAL_SEM_ENSAIO_FISICO",
+  "special_accesses_resolved": 4,
+  "min_shaft_to_divider_clearance_mm": 3.301870514440548,
+  "continuous_guard_mm": 0.6981294855594513,
+  "old_generic_tool_and_left_corner_rejected": true,
+  "bracket_candidate_on_divider": true,
+  "equilibrium_cases": 765,
+  "force_vectors": 1530,
+  "qualification_cases": 6,
+  "max_equilibrium_error": 1.1641532182693481e-10,
+  "CAD_preserved": true,
+  "physical_capacity_demonstrated": false,
+  "source_sha256": "4b3c18024d38a85c58be1f56006c52e39a7f3f7fd0ac18f5f654b7a449795200",
+  "verifier_sha256": "3e4fb7a2d56b97d760fb83e35afd02da2873a7da5288bb64a8b5bf02d7a6559c",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}

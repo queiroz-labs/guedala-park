@@ -19657,7 +19657,7 @@
     "ferramentas/cinematica/cinematica.py": "c16bf21009ca54a471fc3898f781dd75c73df50f355da8da88a4b6c3c2349f52",
     "ferramentas/aereos/reconciliar_lote_b.py": "7cce71dc139f428cf1a2ba3a71d6057ec68a6cb4473c3a01533fd8a59ae8d67c"
   },
-  "script_sha256": "eff7d6ab323442eca6b9a0f770c6c48fbfa13e3c6561ef81d8a784eb71bb5b52",
+  "script_sha256": "21cc4e156ab6218734df635c7481d0303e906c20ec98f04418bf9330ce588327",
   "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0",
   "rear_reconciliation": "R00 continua separado:CF18/12/9 emP17/P04/P12;48pontos base/topo-fundo herdam as estacoes dos estudos parciais,nao compras nem capacidade. Se adotados:CF42/36/9 como contagem candidata,R00+24/+24/+0. P04 preserva2CF por divisor doR00;nao acrescentar tambem o terceiro marcador de cada divisor do estudo parcial. Face-a-face4+4 e cavilhas continuam separados/sem posicoes novas ou credito de capacidade.",
   "limits": [
