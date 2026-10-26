@@ -1,5 +1,7 @@
 # Entregas — manifesto e versões
 
+**Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal.
+
 ## Manifesto de versões — conferência T09 em 26/10/2026
 
 Conferência documental antecipada do trabalho previsto para 30/10, após os commits A–E. Não altera revisões nem comprova publicação remota. Referências: [estado atual](../ESTADO_ATUAL.md) e [manifesto do gerador](../ferramentas/site/current_release.json).

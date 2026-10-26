@@ -67,8 +67,8 @@
         1290,
         1540
       ],
-      "scope": "A planta informa 1,54 m. Essa medida aparece na tabela porque o desenho do site é diferente.",
-      "match": "O site desenha 1,29 × 1,61 m. Há uma diferença de 7 cm na segunda medida. Confira no apartamento."
+      "scope": "Medidas internas indicadas na planta; o desenho foi compatibilizado com 1,54 m.",
+      "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento."
     },
     {
       "id": "cozinha",
@@ -89,10 +89,22 @@
         900,
         1050
       ],
-      "scope": "São dois trechos de passagem. As medidas não indicam a largura e o comprimento de um único retângulo.",
-      "match": "O site desenha uma área de 1,30 × 0,90 m. A medida oficial de 1,05 m continua válida no trecho indicado na planta."
+      "scope": "0,90 m entre os acessos aos dormitórios e banheiro; 1,05 m do acesso ao quarto ao alinhamento lateral do banheiro. A ligação aberta com a sala aparece separada.",
+      "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial."
     }
   ],
   "reconstructionSource": "ferramentas/site/src/app.js: floors/walls",
-  "note": "Medidas da página 1 da planta oficial. O desenho do site é uma aproximação. Confira as medidas após os acabamentos, antes de fabricar."
+  "note": "Medidas da página 1 da planta oficial. O desenho do site é uma aproximação. Confira as medidas após os acabamentos, antes de fabricar.",
+  "heightStudy": {
+    "mm": 2600,
+    "status": "medida a confirmar; hipótese para testes, não fabricação",
+    "source": "Elias, 26/10/2026, Sentinel_e1e1f7bf1de48191af94cb4b830efa99",
+    "officeCeilingScenarioMm": 2470
+  },
+  "graphicClosure": {
+    "units": "cm",
+    "bathroomEastWall": 16,
+    "bathroomSouthWall": 17,
+    "status": "Derivadas dos alinhamentos gráficos existentes e das cotas internas; não são cotas oficiais."
+  }
 }

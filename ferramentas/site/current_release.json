@@ -14,10 +14,10 @@
     "Condicoes_operacao_R52.json",
     "Diferencas_R51_R52.json"
   ],
-  "packageRevision": "R22",
+  "packageRevision": "R23",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R22.zip",
-  "archiveRoot": "Guedala_Park_R22",
+  "packageFile": "Guedala_Park_R23.zip",
+  "archiveRoot": "Guedala_Park_R23",
   "fabricationRevision": "R14",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
@@ -25,7 +25,7 @@
   "lastPublishedCadRevision": "R52",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
   "lastPublishedPackageRevision": "R18",
-  "notes": "R22: integra estudos anteriores e hipótese de pé-direito 2,60 m / 260 cm / 2600 mm para testes, medida a confirmar (Elias, 26/10/2026). Escritório: cenário separado de 2,47 m com forro. Sem medição real ou autorização de fabricação; FreeCAD R52 preservado.",
+  "notes": "R23: compatibiliza lavanderia e trechos de circulação com as cotas da planta; fechamentos gráficos derivados, a confirmar. Pé-direito 2,60 m para testes, não fabricação; escritório 2,47 m separado. Publicação desta correção autorizada por Elias em 26/10/2026, Sentinel_3ce273ee835081919acefb805f637632. Móveis e FreeCAD R52 preservados.",
   "technicalDocuments": [
     {
       "id": "pe-direito",
