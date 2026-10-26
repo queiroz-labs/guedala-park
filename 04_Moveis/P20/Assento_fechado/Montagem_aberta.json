@@ -1,0 +1,1195 @@
+{
+  "status": "P20_ABERTO_NOMINAL_SEM_CAPACIDADE",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "known_piano": {
+    "piano_reference": "Mahler Ref.54 desenho arquivado",
+    "length_mm": 1991,
+    "length_tolerance_mm": 1,
+    "width_open_mm": 30.8,
+    "sheet_mm": 0.8,
+    "pin_mm": 2.0,
+    "segments_mm": [
+      971,
+      825
+    ],
+    "remainder_min_before_saw_and_end_trimming_mm": 194,
+    "source": "Fontes/Mahler_54_2000.pdf,pagina1; cotas visuais conferidas em26/10",
+    "axis_to_mount_face_mm": null,
+    "outer_knuckle_diameter_confirmed_mm": null,
+    "pilot_and_screw_pattern_selected": false
+  },
+  "load_cases": [
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "wood_envelope_mass_kg": 5.655103999999999,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        4236.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        4236.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        145.10000000000002,
+        4162.0,
+        611.3536002195168
+      ],
+      "fixed_terminal_mm": [
+        288.2536002195168,
+        4162.0,
+        358.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -55.45762564159998
+      ],
+      "tension_positive_N": -5.508994316168415,
+      "compression_N": 5.508994316168415,
+      "force_articulator_on_lid_N": [
+        -2.7100768726747893,
+        -0.0,
+        4.796300837079462
+      ],
+      "force_lid_on_articulator_N": [
+        2.7100768726747893,
+        0.0,
+        -4.796300837079462
+      ],
+      "fixed_terminal_receives_N": [
+        2.7100768726747893,
+        0.0,
+        -4.796300837079462
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          3751.0,
+          423.1
+        ],
+        [
+          100.0,
+          4722.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          1.5629691541687762,
+          0.0,
+          24.962666097046647
+        ],
+        [
+          1.1471077185060126,
+          0.0,
+          25.698658707473875
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -1.5629691541687762,
+          -0.0,
+          -24.962666097046647
+        ],
+        [
+          -1.1471077185060126,
+          -0.0,
+          -25.698658707473875
+        ]
+      ],
+      "hinge_resultant_N": [
+        2.710076872674789,
+        0.0,
+        50.66132480452052
+      ],
+      "side_offset_from_CG_mm": -74.5,
+      "gravity_moment_about_hinge_Nm": 0.7264948959049619,
+      "equilibrium_residual": [
+        -2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -6.727951529228449e-14
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "wood_envelope_mass_kg": 6.960127999999998,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        4236.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        4236.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        145.10000000000002,
+        4162.0,
+        611.3536002195168
+      ],
+      "fixed_terminal_mm": [
+        288.2536002195168,
+        4162.0,
+        358.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -68.25553925119998
+      ],
+      "tension_positive_N": -6.780300696822664,
+      "compression_N": 6.780300696822664,
+      "force_articulator_on_lid_N": [
+        -3.3354792279074323,
+        -0.0,
+        5.903139491790106
+      ],
+      "force_lid_on_articulator_N": [
+        3.3354792279074323,
+        0.0,
+        -5.903139491790106
+      ],
+      "fixed_terminal_receives_N": [
+        3.3354792279074323,
+        0.0,
+        -5.903139491790106
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          3751.0,
+          423.1
+        ],
+        [
+          100.0,
+          4722.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          1.9236543435923397,
+          0.0,
+          30.723281350211256
+        ],
+        [
+          1.4118248843150922,
+          0.0,
+          31.629118409198615
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -1.9236543435923397,
+          -0.0,
+          -30.723281350211256
+        ],
+        [
+          -1.4118248843150922,
+          -0.0,
+          -31.629118409198615
+        ]
+      ],
+      "hinge_resultant_N": [
+        3.335479227907432,
+        0.0,
+        62.35239975940987
+      ],
+      "side_offset_from_CG_mm": -74.5,
+      "gravity_moment_about_hinge_Nm": 0.8941475641907222,
+      "equilibrium_residual": [
+        -2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -6.938893903907228e-14
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "wood_envelope_mass_kg": 7.830143999999998,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        4236.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        4236.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        145.10000000000002,
+        4162.0,
+        611.3536002195168
+      ],
+      "fixed_terminal_mm": [
+        288.2536002195168,
+        4162.0,
+        358.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -76.78748165759997
+      ],
+      "tension_positive_N": -7.627838283925497,
+      "compression_N": 7.627838283925497,
+      "force_articulator_on_lid_N": [
+        -3.752414131395861,
+        -0.0,
+        6.641031928263869
+      ],
+      "force_lid_on_articulator_N": [
+        3.752414131395861,
+        0.0,
+        -6.641031928263869
+      ],
+      "fixed_terminal_receives_N": [
+        3.752414131395861,
+        0.0,
+        -6.641031928263869
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          3751.0,
+          423.1
+        ],
+        [
+          100.0,
+          4722.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          2.164111136541382,
+          0.0,
+          34.56369151898765
+        ],
+        [
+          1.5883029948544787,
+          0.0,
+          35.58275821034844
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -2.164111136541382,
+          -0.0,
+          -34.56369151898765
+        ],
+        [
+          -1.5883029948544787,
+          -0.0,
+          -35.58275821034844
+        ]
+      ],
+      "hinge_resultant_N": [
+        3.7524141313958603,
+        0.0,
+        70.1464497293361
+      ],
+      "side_offset_from_CG_mm": -74.5,
+      "gravity_moment_about_hinge_Nm": 1.0059160097145623,
+      "equilibrium_residual": [
+        -6.661338147750939e-16,
+        0.0,
+        -1.4210854715202004e-14,
+        0.0,
+        0.0,
+        -1.0869083411080283e-13
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "wood_envelope_mass_kg": 4.8048,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        5136.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        5136.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        153.10000000000002,
+        4746.0,
+        608.9542570382375
+      ],
+      "fixed_terminal_mm": [
+        285.8542570382375,
+        4746.0,
+        350.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -47.11899192
+      ],
+      "tension_positive_N": -4.67481377582606,
+      "compression_N": 4.67481377582606,
+      "force_articulator_on_lid_N": [
+        -2.132650960831293,
+        -0.0,
+        4.160010062237647
+      ],
+      "force_lid_on_articulator_N": [
+        2.132650960831293,
+        0.0,
+        -4.160010062237647
+      ],
+      "fixed_terminal_receives_N": [
+        2.132650960831293,
+        0.0,
+        -4.160010062237647
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          4724.0,
+          423.1
+        ],
+        [
+          100.0,
+          5549.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          2.075780268542458,
+          0.0,
+          19.510419499422024
+        ],
+        [
+          0.056870692288834505,
+          0.0,
+          23.44856235834033
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -2.075780268542458,
+          -0.0,
+          -19.510419499422024
+        ],
+        [
+          -0.056870692288834505,
+          -0.0,
+          -23.44856235834033
+        ]
+      ],
+      "hinge_resultant_N": [
+        2.1326509608312927,
+        0.0,
+        42.95898185776235
+      ],
+      "side_offset_from_CG_mm": -390.5,
+      "gravity_moment_about_hinge_Nm": 0.6172587941520018,
+      "equilibrium_residual": [
+        -4.649058915617843e-16,
+        0.0,
+        0.0,
+        0.0,
+        -5.684341886080801e-13,
+        -2.617316086084287e-13
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "wood_envelope_mass_kg": 5.9136,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        5136.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        5136.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        153.10000000000002,
+        4746.0,
+        608.9542570382375
+      ],
+      "fixed_terminal_mm": [
+        285.8542570382375,
+        4746.0,
+        350.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -57.99260543999999
+      ],
+      "tension_positive_N": -5.753616954862838,
+      "compression_N": 5.753616954862838,
+      "force_articulator_on_lid_N": [
+        -2.624801182561589,
+        -0.0,
+        5.120012384292484
+      ],
+      "force_lid_on_articulator_N": [
+        2.624801182561589,
+        0.0,
+        -5.120012384292484
+      ],
+      "fixed_terminal_receives_N": [
+        2.624801182561589,
+        0.0,
+        -5.120012384292484
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          4724.0,
+          423.1
+        ],
+        [
+          100.0,
+          5549.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          2.554806484359946,
+          0.0,
+          24.012823999288646
+        ],
+        [
+          0.06999469820164246,
+          0.0,
+          28.859769056418862
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -2.554806484359946,
+          -0.0,
+          -24.012823999288646
+        ],
+        [
+          -0.06999469820164246,
+          -0.0,
+          -28.859769056418862
+        ]
+      ],
+      "hinge_resultant_N": [
+        2.6248011825615887,
+        0.0,
+        52.87259305570751
+      ],
+      "side_offset_from_CG_mm": -390.5,
+      "gravity_moment_about_hinge_Nm": 0.7597031312640021,
+      "equilibrium_residual": [
+        -5.551115123125783e-16,
+        0.0,
+        0.0,
+        0.0,
+        -2.2737367544323206e-13,
+        -3.220548827620462e-13
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "wood_envelope_mass_kg": 6.6528,
+      "angle_deg": 90,
+      "origin_mm": [
+        100.0,
+        5136.5,
+        423.1
+      ],
+      "cg_open_mm": [
+        113.10000000000004,
+        5136.5,
+        649.1
+      ],
+      "mobile_terminal_mm": [
+        153.10000000000002,
+        4746.0,
+        608.9542570382375
+      ],
+      "fixed_terminal_mm": [
+        285.8542570382375,
+        4746.0,
+        350.0
+      ],
+      "gravity_force_N": [
+        0.0,
+        0.0,
+        -65.24168112
+      ],
+      "tension_positive_N": -6.472819074220691,
+      "compression_N": 6.472819074220691,
+      "force_articulator_on_lid_N": [
+        -2.952901330381787,
+        -0.0,
+        5.760013932329043
+      ],
+      "force_lid_on_articulator_N": [
+        2.952901330381787,
+        0.0,
+        -5.760013932329043
+      ],
+      "fixed_terminal_receives_N": [
+        2.952901330381787,
+        0.0,
+        -5.760013932329043
+      ],
+      "hinge_equivalent_points_mm": [
+        [
+          100.0,
+          4724.0,
+          423.1
+        ],
+        [
+          100.0,
+          5549.0,
+          423.1
+        ]
+      ],
+      "hinge_forces_on_lid_N": [
+        [
+          2.87415729490494,
+          0.0,
+          27.014426999199728
+        ],
+        [
+          0.07874403547684776,
+          0.0,
+          32.46724018847122
+        ]
+      ],
+      "hinge_forces_on_body_N": [
+        [
+          -2.87415729490494,
+          -0.0,
+          -27.014426999199728
+        ],
+        [
+          -0.07874403547684776,
+          -0.0,
+          -32.46724018847122
+        ]
+      ],
+      "hinge_resultant_N": [
+        2.9529013303817875,
+        0.0,
+        59.48166718767095
+      ],
+      "side_offset_from_CG_mm": -390.5,
+      "gravity_moment_about_hinge_Nm": 0.8546660226720023,
+      "equilibrium_residual": [
+        4.718447854656915e-16,
+        0.0,
+        0.0,
+        0.0,
+        -1.1368683772161603e-13,
+        6.714767630811025e-14
+      ],
+      "capacity_demonstrated": false,
+      "scope": "Tampa sem almofada/mao; massa de metais ausente. Grupos equivalentes de linha, nao esforcos por parafuso."
+    }
+  ],
+  "operation": [
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 12.533423395001597,
+      "tangent_hand_force_ideal_N": 27.84025777938703,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 12.294388064277635,
+      "tangent_hand_force_ideal_N": 27.309293092724477,
+      "energy_above_closed_J": 3.268643388243077,
+      "terminal_distance_mm": 70.45684268646015,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 11.217510504410068,
+      "tangent_hand_force_ideal_N": 24.917245212533437,
+      "energy_above_closed_J": 6.364043557832329,
+      "terminal_distance_mm": 120.19873936532213,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 9.37617814147956,
+      "tangent_hand_force_ideal_N": 20.827128248802904,
+      "energy_above_closed_J": 9.075254102600896,
+      "terminal_distance_mm": 167.9417195037494,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 6.895874733074228,
+      "tangent_hand_force_ideal_N": 15.317676913373258,
+      "energy_above_closed_J": 11.217510504410068,
+      "terminal_distance_mm": 212.8302704066527,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 3.9456288575816965,
+      "tangent_hand_force_ideal_N": 8.764351209955178,
+      "energy_above_closed_J": 12.644821529722638,
+      "terminal_distance_mm": 254.086271385386,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 0.7264948959049619,
+      "tangent_hand_force_ideal_N": 1.6137494553538545,
+      "energy_above_closed_J": 13.259918290906556,
+      "terminal_distance_mm": 290.99999999999994,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 15.425751870771196,
+      "tangent_hand_force_ideal_N": 34.264932651553266,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 15.131554540649395,
+      "tangent_hand_force_ideal_N": 33.611437652583966,
+      "energy_above_closed_J": 4.022945708606865,
+      "terminal_distance_mm": 70.45684268646015,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 13.806166774658543,
+      "tangent_hand_force_ideal_N": 30.667378723118073,
+      "energy_above_closed_J": 7.832668994255175,
+      "terminal_distance_mm": 120.19873936532213,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 11.539911558744073,
+      "tangent_hand_force_ideal_N": 25.633388613911265,
+      "energy_above_closed_J": 11.16954351089341,
+      "terminal_distance_mm": 167.9417195037494,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 8.487230440706742,
+      "tangent_hand_force_ideal_N": 18.85252543184401,
+      "energy_above_closed_J": 13.806166774658543,
+      "terminal_distance_mm": 212.8302704066527,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 4.856158593946703,
+      "tangent_hand_force_ideal_N": 10.786893796867911,
+      "energy_above_closed_J": 15.562857267350939,
+      "terminal_distance_mm": 254.086271385386,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 0.8941475641907222,
+      "tangent_hand_force_ideal_N": 1.9861531758201283,
+      "energy_above_closed_J": 16.319899434961915,
+      "terminal_distance_mm": 290.99999999999994,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 17.353970854617593,
+      "tangent_hand_force_ideal_N": 38.54804923299742,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 17.022998858230572,
+      "tangent_hand_force_ideal_N": 37.81286735915697,
+      "energy_above_closed_J": 4.5258139221827225,
+      "terminal_distance_mm": 70.45684268646015,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 15.531937621490862,
+      "tangent_hand_force_ideal_N": 34.50080106350783,
+      "energy_above_closed_J": 8.811752618537069,
+      "terminal_distance_mm": 120.19873936532213,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 12.982400503587083,
+      "tangent_hand_force_ideal_N": 28.837562190650175,
+      "energy_above_closed_J": 12.565736449755086,
+      "terminal_distance_mm": 167.9417195037494,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 9.548134245795083,
+      "tangent_hand_force_ideal_N": 21.209091110824506,
+      "energy_above_closed_J": 15.531937621490862,
+      "terminal_distance_mm": 212.8302704066527,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 5.463178418190041,
+      "tangent_hand_force_ideal_N": 12.1352555214764,
+      "energy_above_closed_J": 17.508214425769804,
+      "terminal_distance_mm": 254.086271385386,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 1.0059160097145623,
+      "tangent_hand_force_ideal_N": 2.2344223227976445,
+      "energy_above_closed_J": 18.359886864332154,
+      "terminal_distance_mm": 290.99999999999994,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 10.64889217392,
+      "tangent_hand_force_ideal_N": 23.6541840041136,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 10.445798303840423,
+      "tangent_hand_force_ideal_N": 23.203055408339548,
+      "energy_above_closed_J": 2.7771686872302164,
+      "terminal_distance_mm": 70.30360643919026,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 9.530840541852015,
+      "tangent_hand_force_ideal_N": 21.170676931349217,
+      "energy_above_closed_J": 5.407143084667016,
+      "terminal_distance_mm": 120.05252235060634,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 7.9663717473950975,
+      "tangent_hand_force_ideal_N": 17.695551807685273,
+      "energy_above_closed_J": 7.7106947833632775,
+      "terminal_distance_mm": 167.82332236735488,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 5.859007883404985,
+      "tangent_hand_force_ideal_N": 13.01450407160962,
+      "energy_above_closed_J": 9.530840541852015,
+      "terminal_distance_mm": 212.74772661323337,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 3.352362314629146,
+      "tangent_hand_force_ideal_N": 7.446539390538645,
+      "energy_above_closed_J": 10.743540434625315,
+      "terminal_distance_mm": 254.0438224077492,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 650.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 0.6172587941520018,
+      "tangent_hand_force_ideal_N": 1.3711053559906594,
+      "energy_above_closed_J": 11.266150968072001,
+      "terminal_distance_mm": 291.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 13.106328829439997,
+      "tangent_hand_force_ideal_N": 29.112841851216732,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 12.856367143188212,
+      "tangent_hand_force_ideal_N": 28.5576066564179,
+      "energy_above_closed_J": 3.418053768898727,
+      "terminal_distance_mm": 70.30360643919026,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 11.730265282279403,
+      "tangent_hand_force_ideal_N": 26.05621776166057,
+      "energy_above_closed_J": 6.654945334974789,
+      "terminal_distance_mm": 120.05252235060634,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 9.804765227563195,
+      "tangent_hand_force_ideal_N": 21.779140686381872,
+      "energy_above_closed_J": 9.49008588721634,
+      "terminal_distance_mm": 167.82332236735488,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 7.21108662572921,
+      "tangent_hand_force_ideal_N": 16.01785116505799,
+      "energy_above_closed_J": 11.730265282279403,
+      "terminal_distance_mm": 212.74772661323337,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 4.125984387235872,
+      "tangent_hand_force_ideal_N": 9.164971557586025,
+      "energy_above_closed_J": 13.222818996461923,
+      "terminal_distance_mm": 254.0438224077492,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 800.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 0.7597031312640021,
+      "tangent_hand_force_ideal_N": 1.687514284296196,
+      "energy_above_closed_J": 13.866031960704,
+      "terminal_distance_mm": 291.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 0,
+      "gravity_closing_moment_Nm": 14.74461993312,
+      "tangent_hand_force_ideal_N": 32.75194708261883,
+      "energy_above_closed_J": 0.0,
+      "terminal_distance_mm": 20.0,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 15,
+      "gravity_closing_moment_Nm": 14.46341303608674,
+      "tangent_hand_force_ideal_N": 32.127307488470144,
+      "energy_above_closed_J": 3.8453104900110686,
+      "terminal_distance_mm": 70.30360643919026,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 30,
+      "gravity_closing_moment_Nm": 13.19654844256433,
+      "tangent_hand_force_ideal_N": 29.313244981868145,
+      "energy_above_closed_J": 7.486813501846639,
+      "terminal_distance_mm": 120.05252235060634,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 45,
+      "gravity_closing_moment_Nm": 11.030360881008598,
+      "tangent_hand_force_ideal_N": 24.50153327217961,
+      "energy_above_closed_J": 10.676346623118382,
+      "terminal_distance_mm": 167.82332236735488,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 60,
+      "gravity_closing_moment_Nm": 8.112472453945362,
+      "tangent_hand_force_ideal_N": 18.02008256069024,
+      "energy_above_closed_J": 13.19654844256433,
+      "terminal_distance_mm": 212.74772661323337,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 75,
+      "gravity_closing_moment_Nm": 4.641732435640356,
+      "tangent_hand_force_ideal_N": 10.310593002284278,
+      "energy_above_closed_J": 14.875671371019664,
+      "terminal_distance_mm": 254.0438224077492,
+      "articulator_axial_force_during_folded_motion": null
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "rho_kg_m3": 900.0,
+      "angle_deg": 90,
+      "gravity_closing_moment_Nm": 0.8546660226720023,
+      "tangent_hand_force_ideal_N": 1.8984535698332206,
+      "energy_above_closed_J": 15.599285955792,
+      "terminal_distance_mm": 291.0,
+      "articulator_axial_force_during_folded_motion": null
+    }
+  ],
+  "lock_sensitivity": [
+    {
+      "lid": "BancoR43_Painel1",
+      "hypothetical_lock_distance_mm": 280.0,
+      "angle_deg": 85.32464799278796,
+      "shortfall_to_90_deg": 4.675352007212041,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "hypothetical_lock_distance_mm": 285.0,
+      "angle_deg": 87.42484886766817,
+      "shortfall_to_90_deg": 2.5751511323318255,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "hypothetical_lock_distance_mm": 288.0,
+      "angle_deg": 88.70462711696163,
+      "shortfall_to_90_deg": 1.2953728830383682,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "hypothetical_lock_distance_mm": 290.0,
+      "angle_deg": 89.56643072903225,
+      "shortfall_to_90_deg": 0.43356927096775166,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel1",
+      "hypothetical_lock_distance_mm": 291.0,
+      "angle_deg": 90.0,
+      "shortfall_to_90_deg": 0.0,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "hypothetical_lock_distance_mm": 280.0,
+      "angle_deg": 85.33021706534828,
+      "shortfall_to_90_deg": 4.669782934651721,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "hypothetical_lock_distance_mm": 285.0,
+      "angle_deg": 87.42798117356568,
+      "shortfall_to_90_deg": 2.5720188264343165,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "hypothetical_lock_distance_mm": 288.0,
+      "angle_deg": 88.70622339713205,
+      "shortfall_to_90_deg": 1.2937766028679505,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "hypothetical_lock_distance_mm": 290.0,
+      "angle_deg": 89.5669697792579,
+      "shortfall_to_90_deg": 0.43303022074209707,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    },
+    {
+      "lid": "BancoR43_Painel2",
+      "hypothetical_lock_distance_mm": 291.0,
+      "angle_deg": 89.99999999999994,
+      "shortfall_to_90_deg": 5.684341886080802e-14,
+      "extra_straight_extension_after_291_mm": 0.0,
+      "product_lock_distance_confirmed": false
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "B02_piano",
+      "part": "Eixo e abas da piano",
+      "nominal": "X100/Z423.1 e tampasZ400..420; junta2mm ao encosto",
+      "missing": "Perfil completo eixo-face/no externo; suporte fixo ligado ao corpo; rebaixo/apoio e acomodacao sob almofada.",
+      "next": "Montar retalho de secao com o produto real e documentar eixo/apoio/parafusos antes de girar o conjunto.",
+      "physical_result": null
+    },
+    {
+      "id": "B03_terminal_maior",
+      "part": "Terminal movel da tampa971",
+      "nominal": "EixoZ378:22mm abaixo da face inferiorZ400",
+      "missing": "Terminal capaz de realizar22mm,base de fixacao e ferramenta;espaco da jarra.",
+      "next": "Medir produto e conferir conjunto montado no setor do liquidificador.",
+      "physical_result": null
+    },
+    {
+      "id": "B03_terminal_menor",
+      "part": "Terminal movel da tampa825",
+      "nominal": "EixoZ370:30mm abaixo da face inferiorZ400",
+      "missing": "Terminal capaz de realizar30mm,base de fixacao e ferramenta;prateleiraZ310.",
+      "next": "Medir produto e preservar a prateleira;folga27.54 do estudo de barras nao inclui terminais.",
+      "physical_result": null
+    },
+    {
+      "id": "B04_trava",
+      "part": "Travamento e liberacao",
+      "nominal": "Distancia291mm a90graus nos dois estudos",
+      "missing": "Distancia real ao travar,modo/curso de liberacao e capacidade em compressao.",
+      "next": "Exigir dados ou medir amostra;nao dar mais curso por suposicao nem usar carga humana.",
+      "physical_result": null
+    },
+    {
+      "id": "B04_torcao",
+      "part": "Piano e fixacao do corpo",
+      "nominal": "Articulador fora do centro lateral;reacoes nas extremidades equivalentes calculadas",
+      "missing": "Rigidez de torcao da tampa,piano e apoio fixo;distribuicao pelos parafusos.",
+      "next": "Verificar junta completa e retencao no prototipo,com deformacao/residual e protocolo definidos.",
+      "physical_result": null
+    }
+  ],
+  "limits": [
+    "Eixo/pontos sao hipoteses do estudo anterior;perfil real da piano e terminais nao montados.",
+    "Forca axial do articulador vale somente na parada reta idealizada;nao aplicar ao mecanismo dobrado.",
+    "Massas por volume acabado e densidade hipotetica;pesagem/camadas/metais podem mudar as demandas.",
+    "Apoio fixo nao pode ser atribuido ao volume de reserva do encosto;precisa ligar ao corpo resistente.",
+    "Comprimento da piano atende nominalmente,mas corte/extremidades,perfil e fixacao permanecem pendentes.",
+    "Nao houve nova varredura de colisoes nem liberacao de90graus com produto real;sem prova de carga/impacto."
+  ],
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "sources_sha256": {
+    "04_Moveis/P20/Assento_fechado/Geometria_R51.json": "a26b4a01f6714583f55610e2759ad11ca19e2e97f479d234ab03751d171d2878",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultados.json": "fc577760f82ee7d058fb1c81af2e9c88c84d23e4c2877a78dba80b0a79a07ba0",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Mahler_54_2000.pdf": "87a3b72438f4aa6ae7bf6ada508b4833bc77c108deff47f3c0eaf99588badc6d",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Bigfer_112.pdf": "629ba00ac5c4fe878deeb6730da829156aabb16914aadb35b9cad7108d6c9f86",
+    "02_Modelo_3D/Base_verificacao.json.gz": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495"
+  },
+  "generator_sha256": "48c44db18dbc0496196a464cb765fd47baa500f7392df3903c2b194ca6c7aeb7"
+}

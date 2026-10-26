@@ -1,0 +1,12 @@
+{
+  "status": "OK_ESTATICA_NOMINAL_P20",
+  "cases": 6,
+  "operation_poses": 42,
+  "lock_sensitivities": 10,
+  "max_force_error_N": 1.8735013540549517e-16,
+  "physical_tests_executed": 0,
+  "capacity_demonstrated": false,
+  "result_sha256": "235fe520908bd9be84521ae7b2b510a16ddf6510490fca58724f440b859dda87",
+  "verifier_sha256": "e0d8673b57adaa59cedadb3968eba831e57e1a1ae532a4cc74fe1e5e892e677a",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}

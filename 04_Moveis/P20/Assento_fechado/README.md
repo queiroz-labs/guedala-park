@@ -1,5 +1,34 @@
 # Banco P20 — tampas fechadas e caminho até o piso
 
+## Tampa aberta e montagem — 26/10/2026
+
+[Resumo visual](Montagem_aberta.png) · [memória](Montagem_aberta.json) · [reações](Reacoes_abertas.csv) · [distância e ângulo da trava](Trava_distancia_angulo.csv) · [interfaces de montagem](Interfaces_montagem.csv) · [conferência independente](Verificacao_montagem_aberta.json).
+
+Na parada nominal de 90°, **o articulador trabalha em compressão**, enquanto o cesto P14 exige tração. O cálculo inclui o peso da tampa e a posição lateral do articulador; a piano foi representada por dois grupos equivalentes nas extremidades da sua linha. Não são forças por parafuso nem uma distribuição comprovada ao longo da dobradiça.
+
+| Cenário de madeira a ρ900, sem almofadas/metais | Tampa maior | Tampa menor |
+|---|---:|---:|
+| Massa hipotética do envelope | 7,830 kg | 6,653 kg |
+| Compressão no articulador a 90° | 7,628 N | 6,473 N |
+| Reação vertical total da piano sobre a tampa | 70,146 N | 59,482 N |
+| Apoio lateral em relação ao centro da tampa | −74,5 mm | −390,5 mm |
+| Força tangencial ideal para iniciar abertura pela frente | 38,548 N | 32,752 N |
+| Energia gravitacional entre fechada e 90° | 18,360 J | 15,599 J |
+
+O pequeno esforço estático a 90° não cobre puxões, fechamento, impacto, torção ou falha de engate. A força manual é teórica, sem atrito nem mecanismo dobrado; a pega real precisa ser definida. A energia não foi convertida em força de impacto. Seis equilíbrios, 42 poses de operação e dez sensibilidades de distância foram conferidos; massas e eixo reais podem mudar os resultados.
+
+**Sequência nominal de montagem:** primeiro construir e conferir o apoio fixo da piano ligado ao corpo; montar uma seção de teste com a dobradiça real; medir eixo, folgas e cabeças; só depois montar a tampa, os terminais e a trava, com apoio externo durante a montagem. Conferir cada tampa separadamente, as duas juntas e o acesso para destravar. Almofadas retiradas durante abertura; conferir a acomodação da ferragem com elas colocadas.
+
+**Três interfaces ainda exigem desenho/produto:**
+
+1. Piano: a Ref.54 tem comprimento 1991 ± 1, largura aberta30,8 e chapa0,8 no desenho arquivado. Os segmentos971/825 deixam pelo menos194 mm antes de serra e acerto das pontas. Isso não define o nó, a relação eixo–face, parafusos ou apoio. O eixo X100/Z423,1 continua hipótese; a junta2 mm junto ao encosto não é prova de instalação. O encosto desenhado é reserva, não madeira resistente já especificada.
+2. Terminais: os eixos móveis do estudo ficam22/30 mm abaixo da face inferior das tampas. O produto deve realizar esses afastamentos e distribuir a força na chapa, mantendo jarra, prateleiras, ferramenta e retirada dos objetos. Nenhuma adaptação foi aplicada ao CAD.
+3. Trava: 291 mm é o limite de duas barras ideais145,5, não distância de engate comprovada. Se o engate real fosse288 mm, ocorreria perto de88,70°; em290 mm,89,57°. Confirmar curso/modo de liberação e resistência em compressão antes de definir o batente. O modelo não oferece extensão reta adicional além de291 mm.
+
+Fontes relidas: [Mahler Ref.54](../../Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Mahler_54_2000.pdf) e [Bigfer p.112](../../Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Bigfer_112.pdf). São desenhos arquivados, sem dados novos de capacidade. Geometria das duas tampas reconciliada com a base R52 salva, sem abrir CAD.
+
+Reproduzir na raiz: `python -B ferramentas/aereos/detalhar_banco_aberto.py` e `python -B ferramentas/aereos/conferir_banco_aberto.py`. Teste físico e montagem comercial continuam pendentes; o assento fechado segue abaixo.
+
 25/10/2026 · leitura da R51 completa, sem alterar peças, cores, armazenamento ou movimentos. Continuação do [primeiro ciclo de cargas](../../Cargas_e_ligacoes/README.md) e da [conferência dos mecanismos simples](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md).
 
 **As tampas podem ser estudadas sobre os apoios de madeira existentes, sem acrescentar tubos. A nova análise trata o assento fechado; não libera o banco para pessoas.** O requisito histórico de três pessoas de80 kg é cenário de projeto, não capacidade comprovada nem carga de ensaio normativo. As ferragens de abertura continuam sendo outra verificação.

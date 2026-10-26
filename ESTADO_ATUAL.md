@@ -74,6 +74,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | P14/P20 banco e cesto | [Assento fechado](04_Moveis/P20/Assento_fechado/README.md), [reações do cesto](04_Moveis/P14/Reacoes_e_operacao/README.md): 270 cenários | Comprar 1 piano e 2 pares de articuladores (~R$ 150, [preços](04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md)) para protótipo; pivôs, limitadores a 55°, retenção |
 | Todos | [Corte e formatos](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md): 249 painéis triados, 210 arranjados | 39 painéis sem produto/faces definidos; nenhum plano de corte liberado |
 
+**P20 aberto, 26/10:** [montagem e reações](04_Moveis/P20/Assento_fechado/README.md): seis equilíbrios,42poses e dez sensibilidades. Articuladores em compressão nominal7,628/6,473N a90°; piano com grupos equivalentes,sem forças por parafuso. Eixo real,apoio fixo,terminais22/30mm e liberação da trava ainda pendentes;nenhum ensaio ou alteraçãoR52.
+
 ## Próximos passos
 
 **Avanço26/10 — juntas dos aéreos:** P17:21grupos/70posições candidatas; P12:9/21;30cortes de carga por móvel e2.625pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17:24apoios do estudo antigo coincidem apósv=330−y;rigidez doMinifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto,sem execução;Elias,26/10:“Ainda não; deixar o roteiro pronto”,sobre oficina/material. Próximo:caracterizar juntas e caixa/ferragem reais;seguir frente independente enquanto aguarda oficina.
