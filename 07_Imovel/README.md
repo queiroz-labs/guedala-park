@@ -2,7 +2,29 @@
 
 **Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
 
-**Próxima visita — roteiro baseado na R30:** ficha preenchível e imprimível · instruções e lista completa. São 21 itens, com referências de medição, fotos e dependências técnicas. Nenhuma medida nova de campo foi preenchida. Exporte os registros da ficha antes de fechar o navegador.
+## Levantamento e impactos — T08, 26/10/2026
+
+[Roteiro do dia das chaves](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
+
+São **173 registros**, cobrindo os itens originais do roteiro e as verificações complementares. Não representam 173 medições feitas: incluem preparação, vistoria, documentos e referências. **Nenhum valor de campo preenchido.**
+
+| Grupo | Cobertura |
+|---|---|
+| LOG, A1–A6 e POS | 38 itens originais de preparação, vistoria/documentos e pós-visita; logística marcada como não afeta o projeto |
+| PD, B e DIM, GER-ID | 20 registros de alturas, prioridades, croqui e cotas oficiais com escopo preservado |
+| MOV-P01…P20 | 20 móveis: vão, três alturas, prumo, rodapé, substrato e interferências |
+| COMP, LAV-TEC, COZ-FAIXA/ACESSO, SAL-COND | 10 verificações de interfaces e infraestrutura |
+| ANC e PISO | 8 paredes/ancoragens e 4 verificações de piso/nivelamento |
+| PTO-* | 50 códigos da planta de pontos; coordenadas reais a definir pelo RT |
+| OBS-* | 23 observações de outra unidade, sem correspondência presumida com PTO-* |
+
+Cada linha traz código, ambiente, valor nominal e sua natureza/fonte, tolerância e quem a define, Pxx, arquivos de ficha/prancha/README/orçamento e quem valida. Caminhos são relativos à raiz do repositório; `|` separa vários arquivos ou móveis. “a definir” é ausência de dado, nunca zero. Papéis de Elias, RT e oficina são indicações de validação, não contratação. `valor_medido` e `evidencia_campo` ficam vazios até a visita.
+
+**Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Pé-direito 2600 mm é hipótese vigente, não cota oficial; 2470 mm do escritório é cenário separado. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. A lavanderia tem cota oficial 1540 mm, divergente do desenho histórico 1610 mm; conferir no local.
+
+Os arquivos indicados são **alvos de revisão após validar o levantamento**, não mudanças já executadas. Alterar fontes e regenerar fichas/pranchas; não editar HTML/PDF à mão. O custo só muda após demonstrar efeito no escopo; reserva permanece separada.
+
+**Retomada exata:** com acesso à unidade, preencher PD-*, DIM-*, MOV-* e os pontos PTO/OBS usando piso acabado e faces identificadas, anexando fotos/croqui. RT define tolerâncias ainda ausentes e valida infraestrutura, piso e ancoragens; oficina valida encaixe/acesso. Só depois atualizar os arquivos afetados. Sem chaves, preparar documentação do RT e instrumentos; T08 não encerra medição, aprovação profissional ou fabricação.
 
 ## Conferência pendente — iluminação de sala/jantar (20/09/2026)
 

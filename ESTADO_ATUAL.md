@@ -44,7 +44,7 @@ O pacote R22 integra o pé-direito de teste e os estudos correntes; preserva a m
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
 | Orçamento | 60% | R44: estimativa de execução R$ 137.748,11, excesso R$ 17.748,11 sobre teto de R$ 120 mil; reserva R$ 10 mil intocada. Metas separadas; marcenaria **em espera** |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
-| Levantamento no imóvel | 25% | Roteiro pronto; depende das chaves |
+| Levantamento no imóvel | 25% | T08: [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv), com fontes, arquivos e validação; 20 móveis cobertos. Levantamento real depende das chaves |
 
 Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md).
 
