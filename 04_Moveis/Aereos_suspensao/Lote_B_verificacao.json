@@ -1,0 +1,26 @@
+{
+  "status": "OK_COM_RESTRICOES",
+  "geometry_variants": 5,
+  "positive_historical_contacts": 47,
+  "current_underside_positions_to_replace": 16,
+  "internal_MF_positions": 60,
+  "rear_CF_positions": 48,
+  "wood_only_tool20_clear": 56,
+  "P04_left_accesses_requiring_actual_tool": [
+    "Peca269_Peca267_90",
+    "Peca269_Peca267_158",
+    "Peca270_Peca267_90",
+    "Peca270_Peca267_158"
+  ],
+  "load_cases": 585,
+  "max_independent_load_error": 2.3283064365386963e-10,
+  "CAD_preserved": true,
+  "no_capacity_demonstrated": true,
+  "source_sha256": {
+    "Lote_B_geometria.json": "281b7b949967e48341feb013eab8e3fba732bc7b11ce3d35104430e560144864",
+    "Lote_B_detalhamento.json": "8e895ed50ea388ecccff0c312a15658879f8d77db4eb41a0acde35d494d90bb5",
+    "Lote_B_premissas.json": "621da1ebc34bf3198412044100312fa9da87b514f056db4ba7c82faab724f7fb"
+  },
+  "verifier_sha256": "3d40d6517011d9cb8253facfe6be318b8e9928b26e0943495f5412546796c750",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}

@@ -1,5 +1,7 @@
 # P17 — base, fundo e ligações de marcenaria
 
+**Complemento25/10/2026:** Elias definiu “20 kg / 10 kg / 10 kg” na ordemP17/P04/P12 e “Desenvolver os fundos inteiros”, com “Base limpa, sem cabeças ou tampinhas aparentes”. [LoteB vigente](../../Aereos_suspensao/README.md#lote-b--p17p04p12): fundo1964×550 preferido para estudo, massa globalP17 com20kg≈72,24–92,33kg sem ferragens;24 posições Minifix com acesso interno reconciliadas comR00. Substituir as8 entradas inferiores antigas. A caixaR52 permanece intacta. Ligações traseiras/suspensão e rigidez real das juntas pendentes; as flechas abaixo não comprovam o novo Minifix.
+
 Estudo nominal separado, 25/10/2026. **O fundo e as divisórias precisam de ligações positivas para participar do caminho da carga.** A placa18 mantida dá resultados condicionais favoráveis quando esses caminhos são creditados; não há comprovação de juntas, caixa completa ou carga de uso.
 
 Fonte: R51 completa preservada, SHA256 `ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0646f354cd1f2832acfb27c16`. Reutiliza a [geometria e demanda global do P17](../../Aereos_suspensao/README.md) e a placa Ritz existente. Não usa tubos ou quadros metálicos.
@@ -12,7 +14,7 @@ Fonte: R51 completa preservada, SHA256 `ab5323bb12f8eca40b25bdfe4eadc8a3221c82b0
 
 **16 contatos de face conferidos:** quatro base–divisória, quatro tampo–divisória, quatro fundo–divisória, dois fundo–lateral e dois fundo–base/tampo. Acréscimos sem interferência volumétrica nos sólidos visíveis da pose atual. Portas/ferragens estão ausentes somente deste arquivo parcial; continuam completas na R51. Não é um novo ensaio dos movimentos.
 
-Os58 eixos ocultos são posições de interface para discutir montagem, não furos CNC nem58 ferragens adicionais. Estão em [Conferencia_geometrica.json](Conferencia_geometrica.json), com coordenadas do estudo, do módulo e globais nominais. Reconciliar com o mapa existente antes de quantificar. Cabeças/acesso pela base e pelo tampo podem afetar acabamento: revisar antes de incorporar. Não cortar ou furar pela imagem.
+Os58 eixos ocultos são posições históricas de interface, não furos CNC nem58 ferragens adicionais. Estão em [Conferencia_geometrica.json](Conferencia_geometrica.json), com coordenadas do estudo, módulo e globais. O loteB reconcilia oR00 e substitui as entradas inferiores na proposta de base limpa; não manter o gabarito antigo por baixo. Não cortar ou furar pela imagem.
 
 ## Cálculo e significado
 

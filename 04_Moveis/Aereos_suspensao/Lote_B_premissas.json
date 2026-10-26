@@ -1,0 +1,17 @@
+{
+  "source": "Conversa com Elias em25/10/2026; respostas aos formularios sobre uso, acabamento, metas e fundos.",
+  "payload_targets_kg": {"P17": 20, "P04": 10, "P12": 10},
+  "payload_quote": "20 kg / 10 kg / 10 kg",
+  "contents": {"P17": "Itens de viagem e miscelanea", "P04": "Edredom", "P12": "Utensilios de cozinha pouco usados, grandes e leves, como bacias"},
+  "underside": "Base limpa, sem cabeças ou tampinhas aparentes",
+  "full_back_preferred_for_study": ["P17", "P04"],
+  "full_back_quote": "Desenvolver os fundos inteiros",
+  "back_edge_finish": {"P04": "Fita Arenza na borda inferior", "P17": "Fita off-white na borda inferior"},
+  "back_edge_quote": "Fita na borda no padrão externo: Arenza no P04 e off-white no P17",
+  "back_faces": "Branco TX nas duas faces; escolha da fita nao altera acabamento das faces.",
+  "CAD_adoption_authorized": false,
+  "product_capacity_demonstrated": false,
+  "payload_distribution_selected": false,
+  "P04_filler7_adopted": false,
+  "scope": "Metas de conteudo excluem armario/ferragens. Preferencia para desenvolvimento separado da R52; nao capacidade comprovada ou alteracao do modelo."
+}

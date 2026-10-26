@@ -1,6 +1,6 @@
 # P04/P15 — suspensão da caixa inteira e portas abertas
 
-**AtualizaçãoP15 em25/10:** [loteA — ligações, CG de portasR52 e implantação de suspensão](../../Aereos_suspensao/README.md). Os696 casos do loteA têm hipóteses próprias e não substituem os660 casosP04/P15 abaixo. P04 permanece nesta memória; P15 mantém composição e produto de suspensão condicionados.
+**Atualizações25/10/2026:** [loteB — P17/P04/P12](../../Aereos_suspensao/README.md#lote-b--p17p04p12): Elias respondeu “20 kg / 10 kg / 10 kg”, “Desenvolver os fundos inteiros” e “Base limpa, sem cabeças ou tampinhas aparentes”. NoP04:10kg de edredom, fundo1764×308 preferido para estudo, conjunto≈36,15–46,21kg sem ferragens;24 posições Minifix internas, quatro acessos junto à lateral esquerda exigem ferramenta real. R52 intacta; juntas traseiras/suspensão pendentes. [LoteA — P15](../../Aereos_suspensao/README.md) conserva696 casos próprios, sem substituir os660 históricos abaixo. Flechas locais não demonstram rigidez da nova ferragem.
 
 25/10/2026 · continuação do plano, sem tubos. **A demanda global de suspensão agora inclui caixa, portas em quatro barras e conteúdo.** Os resultados são solicitações estáticas a fornecer ao projetista da suspensão; não constituem capacidade da parede, do móvel ou de uma ferragem. R51 e seus controles permaneceram intactos.
 
@@ -27,7 +27,7 @@ Não foram substituídas as dobradiças por uma rotação simples em torno de um
 
 A distância máxima amostrada do centro da porta à face traseira foi457,345 mm no P04 e543,521 mm no P15. Foram combinadas aberturas independentes0/86°, estado45° e extremos amostrados de centro de massa. **86° é o curso de estudo existente, não um batente físico comprovado**, e a amostragem não certifica um envelope contínuo nem colisões da ferragem.
 
-P04 mantém10 kg totais, com5/2,5/2,5 nos três trechos já estudados. P15 usa20 kg totais. Além da distribuição central, foram analisados centros na faixa frontal e perto de cada extremidade como sensibilidades; não são cargas de uso liberadas. As variantes de conteúdo extremo não substituem a verificação local da base para aquela distribuição.
+P04 tem meta10kg total escolhida por Elias em25/10/2026;5/2,5/2,5 nos três trechos permanece apenas cenário do estudo, sem distribuição pessoal definida. P15 usa cenário20kg total. Centros na faixa frontal/perto das extremidades são sensibilidades, sem capacidade demonstrada ou substituição da verificação local da base.
 
 ## Resultantes na parede
 

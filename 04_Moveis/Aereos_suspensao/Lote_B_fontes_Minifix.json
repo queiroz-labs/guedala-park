@@ -1,0 +1,24 @@
+{
+  "consulted": "2026-10-25",
+  "source_type": "Paginas oficiais, artigo selecionado no corpo do texto; ignorar metadata de outros SKUs.",
+  "housing": {
+    "url": "https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/",
+    "sku": "262.26.034",
+    "diameter_mm": 15,
+    "diameter_drawing_url": "https://www.hafele.com.de/prod-live/static/WFS/Haefele-HEX-Site/-/Haefele/en_VA/pim/images/default/dimd-00639157.jpg",
+    "min_board_thickness_mm": 18,
+    "depth_mm": 13.5,
+    "positive_depth_tolerance_mm": 0.5,
+    "A_mm": 9
+  },
+  "bolt": {
+    "url": "https://www.hafele.com/us/en/product/haefele-connecting-bolt-minifix-system/26228920/",
+    "sku": "262.28.920",
+    "B_mm": 34,
+    "thread_length_mm": 8
+  },
+  "limits": [
+    "Dimensoes de catalogo nao comprovam resistencia/rigidez em MDF.",
+    "Ainda conferir piloto, tolerancias, substrato, dobradicas e montagem real."
+  ]
+}

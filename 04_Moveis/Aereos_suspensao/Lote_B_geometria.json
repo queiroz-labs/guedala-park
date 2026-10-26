@@ -1,0 +1,2249 @@
+{
+  "scope": "Auditoria geometrica e reconciliacao sem assumir decisoes de Elias.",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "reconciliation": [
+    {
+      "code": "P17",
+      "body_parts": 9,
+      "dimension_csv": "06_Entregas/Fichas_fabricacao/P17-pecas.csv",
+      "dimension_projection_sha256": "fd74c48fe8c1d6c378814db8513edee038800147c4acd435408f95387d2c1470",
+      "projection_scope": "IDs CAD e tres dimensoes nominais porID;demais colunas nao consumidas pelo calculo.",
+      "dimensions_match": true,
+      "volume_and_CG_match_saved_R51": true,
+      "R52_body_positions_read_live": false,
+      "body_source": "GeometriaR51 reconciliada dimensionalmente com fichas locais;nao nova verificacao BREP R52"
+    },
+    {
+      "code": "P04",
+      "body_parts": 10,
+      "dimension_csv": "06_Entregas/Fichas_fabricacao/P04-pecas.csv",
+      "dimension_projection_sha256": "4044a4f93297e2d2e7b7545a0709cb3bfbed5fed68aa53c4231395bd354ce76f",
+      "projection_scope": "IDs CAD e tres dimensoes nominais porID;demais colunas nao consumidas pelo calculo.",
+      "dimensions_match": true,
+      "volume_and_CG_match_saved_R51": true,
+      "R52_body_positions_read_live": false,
+      "body_source": "GeometriaR51 reconciliada dimensionalmente com fichas locais;nao nova verificacao BREP R52"
+    },
+    {
+      "code": "P12",
+      "body_parts": 6,
+      "dimension_csv": "06_Entregas/Fichas_fabricacao/P12-pecas.csv",
+      "dimension_projection_sha256": "14024413c7376da71cad00f29edc57278b619b5f753ac0ecc8e567d3787fc03c",
+      "projection_scope": "IDs CAD e tres dimensoes nominais porID;demais colunas nao consumidas pelo calculo.",
+      "dimensions_match": true,
+      "volume_and_CG_match_saved_R51": true,
+      "R52_body_positions_read_live": false,
+      "body_source": "GeometriaR51 reconciliada dimensionalmente com fichas locais;nao nova verificacao BREP R52"
+    }
+  ],
+  "modules": [
+    {
+      "code": "P17",
+      "width_internal_mm": 1964.0,
+      "width_external_mm": 2000.0,
+      "height_mm": 550.0,
+      "depth_mm": 330.0,
+      "current_back_height_mm": 514.0,
+      "proposed_full_back_height_mm": 550.0,
+      "full_back_additional_volume_mm3": 1272672.0,
+      "delta_mass_kg_hypothetical_800_18p3": 1.03510656,
+      "external_and_useful_dimensions_change_mm": 0,
+      "historical_connector_quantities": {
+        "Confirmat 7×50": 18,
+        "Minifix 15": 24,
+        "Parafuso 4×30 face a face": 4
+      },
+      "historic_dowels": 42,
+      "variants": [
+        {
+          "variant": "atual",
+          "proposed": false,
+          "adopted": false,
+          "preferred_for_study": false,
+          "boxes_uvz_mm": {
+            "Peca384": [
+              1964.0,
+              0.0,
+              0.0,
+              1982.0,
+              330.0,
+              550.0
+            ],
+            "Peca385": [
+              -18.0,
+              0.0,
+              0.0,
+              0.0,
+              330.0,
+              550.0
+            ],
+            "Peca386": [
+              0.0,
+              0.0,
+              18.0,
+              1964.0,
+              18.0,
+              532.0
+            ],
+            "Peca387": [
+              0.0,
+              18.0,
+              0.0,
+              1964.0,
+              330.0,
+              18.0
+            ],
+            "Peca388": [
+              0.0,
+              18.0,
+              532.0,
+              1964.0,
+              330.0,
+              550.0
+            ],
+            "ApoioComumR11": [
+              1464.0,
+              18.0,
+              18.0,
+              1482.0,
+              330.0,
+              532.0
+            ],
+            "ApoioComumR001": [
+              964.0,
+              18.0,
+              18.0,
+              982.0,
+              330.0,
+              532.0
+            ],
+            "ApoioComumR002": [
+              464.0,
+              18.0,
+              18.0,
+              482.0,
+              330.0,
+              532.0
+            ],
+            "ApoioOpostoR18": [
+              982.0,
+              18.0,
+              18.0,
+              1000.0,
+              330.0,
+              532.0
+            ]
+          },
+          "back_to_base_top": [
+            {
+              "a": "Peca386",
+              "b": "Peca387",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            },
+            {
+              "a": "Peca386",
+              "b": "Peca388",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            }
+          ],
+          "positive_face_contacts": 19,
+          "volume_mm3": 58311072.0
+        },
+        {
+          "variant": "fundo_inteiro_proposto",
+          "proposed": true,
+          "adopted": false,
+          "preferred_for_study": true,
+          "boxes_uvz_mm": {
+            "Peca384": [
+              1964.0,
+              0.0,
+              0.0,
+              1982.0,
+              330.0,
+              550.0
+            ],
+            "Peca385": [
+              -18.0,
+              0.0,
+              0.0,
+              0.0,
+              330.0,
+              550.0
+            ],
+            "Peca386": [
+              0.0,
+              0.0,
+              0.0,
+              1964.0,
+              18.0,
+              550.0
+            ],
+            "Peca387": [
+              0.0,
+              18.0,
+              0.0,
+              1964.0,
+              330.0,
+              18.0
+            ],
+            "Peca388": [
+              0.0,
+              18.0,
+              532.0,
+              1964.0,
+              330.0,
+              550.0
+            ],
+            "ApoioComumR11": [
+              1464.0,
+              18.0,
+              18.0,
+              1482.0,
+              330.0,
+              532.0
+            ],
+            "ApoioComumR001": [
+              964.0,
+              18.0,
+              18.0,
+              982.0,
+              330.0,
+              532.0
+            ],
+            "ApoioComumR002": [
+              464.0,
+              18.0,
+              18.0,
+              482.0,
+              330.0,
+              532.0
+            ],
+            "ApoioOpostoR18": [
+              982.0,
+              18.0,
+              18.0,
+              1000.0,
+              330.0,
+              532.0
+            ]
+          },
+          "back_to_base_top": [
+            {
+              "a": "Peca386",
+              "b": "Peca387",
+              "kind": "face",
+              "area_mm2": 35352.0
+            },
+            {
+              "a": "Peca386",
+              "b": "Peca388",
+              "kind": "face",
+              "area_mm2": 35352.0
+            }
+          ],
+          "positive_face_contacts": 21,
+          "volume_mm3": 59583744.0
+        }
+      ],
+      "underside_clean_required": true,
+      "back_edge_finish": "Fita off-white na borda inferior"
+    },
+    {
+      "code": "P04",
+      "width_internal_mm": 1764.0,
+      "width_external_mm": 1800.0,
+      "height_mm": 308.0,
+      "depth_mm": 230.0,
+      "current_back_height_mm": 272.0,
+      "proposed_full_back_height_mm": 308.0,
+      "full_back_additional_volume_mm3": 1143072.0,
+      "delta_mass_kg_hypothetical_800_18p3": 0.9296985600000001,
+      "external_and_useful_dimensions_change_mm": 0,
+      "historical_connector_quantities": {
+        "Confirmat 7×50": 12,
+        "Minifix 15": 24,
+        "Parafuso 4×30 face a face": 4
+      },
+      "historic_dowels": 36,
+      "variants": [
+        {
+          "variant": "atual",
+          "proposed": false,
+          "adopted": false,
+          "preferred_for_study": false,
+          "boxes_uvz_mm": {
+            "Peca266": [
+              1764.0,
+              0.0,
+              0.0,
+              1782.0,
+              230.0,
+              308.0
+            ],
+            "Peca267": [
+              -18.0,
+              0.0,
+              0.0,
+              -0.0,
+              230.0,
+              308.0
+            ],
+            "Peca268": [
+              0.0,
+              0.0,
+              18.0,
+              1764.0,
+              18.0,
+              290.0
+            ],
+            "Peca269": [
+              0.0,
+              18.0,
+              0.0,
+              1764.0,
+              230.0,
+              18.0
+            ],
+            "Peca270": [
+              0.0,
+              18.0,
+              290.0,
+              1764.0,
+              230.0,
+              308.0
+            ],
+            "ApoioComumR003": [
+              1320.25,
+              18.0,
+              18.0,
+              1338.25,
+              230.0,
+              290.0
+            ],
+            "ApoioComumR004": [
+              876.5,
+              18.0,
+              18.0,
+              894.5,
+              230.0,
+              290.0
+            ],
+            "ApoioOpostoR001": [
+              894.5,
+              18.0,
+              18.0,
+              912.5,
+              230.0,
+              290.0
+            ],
+            "ApoioOpostoR002": [
+              7.0,
+              18.0,
+              18.0,
+              25.0,
+              230.0,
+              290.0
+            ],
+            "FaixaFixaEstudo": [
+              -0.0,
+              192.0,
+              18.0,
+              7.0,
+              210.0,
+              290.0
+            ]
+          },
+          "back_to_base_top": [
+            {
+              "a": "Peca268",
+              "b": "Peca269",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            },
+            {
+              "a": "Peca268",
+              "b": "Peca270",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            }
+          ],
+          "positive_face_contacts": 23,
+          "volume_mm3": 28835712.0
+        },
+        {
+          "variant": "fundo_inteiro_proposto",
+          "proposed": true,
+          "adopted": false,
+          "preferred_for_study": true,
+          "boxes_uvz_mm": {
+            "Peca266": [
+              1764.0,
+              0.0,
+              0.0,
+              1782.0,
+              230.0,
+              308.0
+            ],
+            "Peca267": [
+              -18.0,
+              0.0,
+              0.0,
+              -0.0,
+              230.0,
+              308.0
+            ],
+            "Peca268": [
+              0.0,
+              0.0,
+              0.0,
+              1764.0,
+              18.0,
+              308.0
+            ],
+            "Peca269": [
+              0.0,
+              18.0,
+              0.0,
+              1764.0,
+              230.0,
+              18.0
+            ],
+            "Peca270": [
+              0.0,
+              18.0,
+              290.0,
+              1764.0,
+              230.0,
+              308.0
+            ],
+            "ApoioComumR003": [
+              1320.25,
+              18.0,
+              18.0,
+              1338.25,
+              230.0,
+              290.0
+            ],
+            "ApoioComumR004": [
+              876.5,
+              18.0,
+              18.0,
+              894.5,
+              230.0,
+              290.0
+            ],
+            "ApoioOpostoR001": [
+              894.5,
+              18.0,
+              18.0,
+              912.5,
+              230.0,
+              290.0
+            ],
+            "ApoioOpostoR002": [
+              7.0,
+              18.0,
+              18.0,
+              25.0,
+              230.0,
+              290.0
+            ],
+            "FaixaFixaEstudo": [
+              -0.0,
+              192.0,
+              18.0,
+              7.0,
+              210.0,
+              290.0
+            ]
+          },
+          "back_to_base_top": [
+            {
+              "a": "Peca268",
+              "b": "Peca269",
+              "kind": "face",
+              "area_mm2": 31752.0
+            },
+            {
+              "a": "Peca268",
+              "b": "Peca270",
+              "kind": "face",
+              "area_mm2": 31752.0
+            }
+          ],
+          "positive_face_contacts": 25,
+          "volume_mm3": 29978784.0
+        }
+      ],
+      "underside_clean_required": true,
+      "back_edge_finish": "Fita Arenza na borda inferior"
+    },
+    {
+      "code": "P12",
+      "width_internal_mm": 765.0,
+      "width_external_mm": 801.0,
+      "height_mm": 584.0,
+      "depth_mm": 330.0,
+      "current_back_height_mm": 548.0,
+      "proposed_full_back_height_mm": null,
+      "full_back_additional_volume_mm3": 0.0,
+      "delta_mass_kg_hypothetical_800_18p3": 0.0,
+      "external_and_useful_dimensions_change_mm": 0,
+      "historical_connector_quantities": {
+        "Confirmat 7×50": 9,
+        "Minifix 15": 12
+      },
+      "historic_dowels": 21,
+      "variants": [
+        {
+          "variant": "atual",
+          "proposed": false,
+          "adopted": false,
+          "preferred_for_study": true,
+          "boxes_uvz_mm": {
+            "Peca342": [
+              765.0,
+              0.0,
+              0.0,
+              783.0,
+              330.0,
+              584.0
+            ],
+            "Peca343": [
+              -18.0,
+              0.0,
+              0.0,
+              0.0,
+              330.0,
+              584.0
+            ],
+            "Peca344": [
+              0.0,
+              0.0,
+              18.0,
+              765.0,
+              18.0,
+              566.0
+            ],
+            "Peca345": [
+              0.0,
+              18.0,
+              0.0,
+              765.0,
+              330.0,
+              18.0
+            ],
+            "Peca346": [
+              0.0,
+              18.0,
+              566.0,
+              765.0,
+              330.0,
+              584.0
+            ],
+            "Peca347": [
+              373.5,
+              18.0,
+              18.0,
+              391.5,
+              330.0,
+              566.0
+            ]
+          },
+          "back_to_base_top": [
+            {
+              "a": "Peca344",
+              "b": "Peca345",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            },
+            {
+              "a": "Peca344",
+              "b": "Peca346",
+              "kind": "aresta",
+              "area_mm2": 0.0
+            }
+          ],
+          "positive_face_contacts": 9,
+          "volume_mm3": 26153928.0
+        }
+      ],
+      "underside_clean_required": true,
+      "back_edge_finish": null
+    }
+  ],
+  "contacts": [
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca384",
+      "b": "Peca386",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca384",
+      "b": "Peca387",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca384",
+      "b": "Peca388",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca385",
+      "b": "Peca386",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca385",
+      "b": "Peca387",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca385",
+      "b": "Peca388",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "Peca387",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "Peca388",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca386",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca387",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca387",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca387",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca387",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca388",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca388",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca388",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "Peca388",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "atual",
+      "a": "ApoioComumR001",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 160368.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca384",
+      "b": "Peca386",
+      "kind": "face",
+      "contact_area_mm2": 9900.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca384",
+      "b": "Peca387",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca384",
+      "b": "Peca388",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca385",
+      "b": "Peca386",
+      "kind": "face",
+      "contact_area_mm2": 9900.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca385",
+      "b": "Peca387",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca385",
+      "b": "Peca388",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "Peca387",
+      "kind": "face",
+      "contact_area_mm2": 35352.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "Peca388",
+      "kind": "face",
+      "contact_area_mm2": 35352.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca386",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 9252.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca387",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca387",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca387",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca387",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca388",
+      "b": "ApoioComumR11",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca388",
+      "b": "ApoioComumR001",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca388",
+      "b": "ApoioComumR002",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca388",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P17",
+      "variant": "fundo_inteiro_proposto",
+      "a": "ApoioComumR001",
+      "b": "ApoioOpostoR18",
+      "kind": "face",
+      "contact_area_mm2": 160368.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca266",
+      "b": "Peca268",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca266",
+      "b": "Peca269",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca266",
+      "b": "Peca270",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca267",
+      "b": "Peca268",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca267",
+      "b": "Peca269",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca267",
+      "b": "Peca270",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca267",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "Peca269",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "Peca270",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca268",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca269",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca269",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca269",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca269",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca269",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 126.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca270",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca270",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca270",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca270",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "Peca270",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 126.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "ApoioComumR004",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 57664.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "atual",
+      "a": "ApoioOpostoR002",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca266",
+      "b": "Peca268",
+      "kind": "face",
+      "contact_area_mm2": 5544.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca266",
+      "b": "Peca269",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca266",
+      "b": "Peca270",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca267",
+      "b": "Peca268",
+      "kind": "face",
+      "contact_area_mm2": 5544.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca267",
+      "b": "Peca269",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca267",
+      "b": "Peca270",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca267",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "Peca269",
+      "kind": "face",
+      "contact_area_mm2": 31752.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "Peca270",
+      "kind": "face",
+      "contact_area_mm2": 31752.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca268",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca269",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca269",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca269",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca269",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca269",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 126.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca270",
+      "b": "ApoioComumR003",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca270",
+      "b": "ApoioComumR004",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca270",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca270",
+      "b": "ApoioOpostoR002",
+      "kind": "face",
+      "contact_area_mm2": 3816.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "Peca270",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 126.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "ApoioComumR004",
+      "b": "ApoioOpostoR001",
+      "kind": "face",
+      "contact_area_mm2": 57664.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P04",
+      "variant": "fundo_inteiro_proposto",
+      "a": "ApoioOpostoR002",
+      "b": "FaixaFixaEstudo",
+      "kind": "face",
+      "contact_area_mm2": 4896.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca342",
+      "b": "Peca344",
+      "kind": "face",
+      "contact_area_mm2": 9864.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca342",
+      "b": "Peca345",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca342",
+      "b": "Peca346",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca343",
+      "b": "Peca344",
+      "kind": "face",
+      "contact_area_mm2": 9864.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca343",
+      "b": "Peca345",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca343",
+      "b": "Peca346",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "u",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca344",
+      "b": "Peca345",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca344",
+      "b": "Peca346",
+      "kind": "aresta",
+      "contact_area_mm2": 0.0,
+      "normal_axis": "",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca344",
+      "b": "Peca347",
+      "kind": "face",
+      "contact_area_mm2": 9864.0,
+      "normal_axis": "v",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca345",
+      "b": "Peca347",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    },
+    {
+      "code": "P12",
+      "variant": "atual",
+      "a": "Peca346",
+      "b": "Peca347",
+      "kind": "face",
+      "contact_area_mm2": 5616.0,
+      "normal_axis": "z",
+      "status": "Geometria de caixas nominais;nao resistencia,usinagem ou montagem aprovada"
+    }
+  ],
+  "historical_map_rows": 47,
+  "current_mapped_contacts_all_positive": true,
+  "historical_map": [
+    {
+      "code": "P17",
+      "a": "Peca384",
+      "b": "Peca386",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca384",
+      "b": "Peca387",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca384",
+      "b": "Peca388",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca385",
+      "b": "Peca386",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca385",
+      "b": "Peca387",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca385",
+      "b": "Peca388",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR11",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR001",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca386",
+      "b": "ApoioComumR002",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca386",
+      "b": "ApoioOpostoR18",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9252.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR11",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR001",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca387",
+      "b": "ApoioComumR002",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca387",
+      "b": "ApoioOpostoR18",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR11",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR001",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca388",
+      "b": "ApoioComumR002",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "Peca388",
+      "b": "ApoioOpostoR18",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P17",
+      "a": "ApoioComumR001",
+      "b": "ApoioOpostoR18",
+      "family": "Parafuso 4×30 face a face",
+      "old_connector_qty": 4,
+      "old_dowel_qty": 0,
+      "current_contact": "face",
+      "current_area_mm2": 160368.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca266",
+      "b": "Peca268",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca266",
+      "b": "Peca269",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca266",
+      "b": "Peca270",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca267",
+      "b": "Peca268",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca267",
+      "b": "Peca269",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca267",
+      "b": "Peca270",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca268",
+      "b": "ApoioComumR003",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca268",
+      "b": "ApoioComumR004",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca268",
+      "b": "ApoioOpostoR001",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca268",
+      "b": "ApoioOpostoR002",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 4896.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca269",
+      "b": "ApoioComumR003",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca269",
+      "b": "ApoioComumR004",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca269",
+      "b": "ApoioOpostoR001",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca269",
+      "b": "ApoioOpostoR002",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca270",
+      "b": "ApoioComumR003",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca270",
+      "b": "ApoioComumR004",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca270",
+      "b": "ApoioOpostoR001",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "Peca270",
+      "b": "ApoioOpostoR002",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 3816.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P04",
+      "a": "ApoioComumR004",
+      "b": "ApoioOpostoR001",
+      "family": "Parafuso 4×30 face a face",
+      "old_connector_qty": 4,
+      "old_dowel_qty": 0,
+      "current_contact": "face",
+      "current_area_mm2": 57664.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca342",
+      "b": "Peca344",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9864.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca342",
+      "b": "Peca345",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca342",
+      "b": "Peca346",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca343",
+      "b": "Peca344",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9864.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca343",
+      "b": "Peca345",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca343",
+      "b": "Peca346",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca344",
+      "b": "Peca347",
+      "family": "Confirmat 7×50",
+      "old_connector_qty": 3,
+      "old_dowel_qty": 3,
+      "current_contact": "face",
+      "current_area_mm2": 9864.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca345",
+      "b": "Peca347",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    },
+    {
+      "code": "P12",
+      "a": "Peca346",
+      "b": "Peca347",
+      "family": "Minifix 15",
+      "old_connector_qty": 2,
+      "old_dowel_qty": 2,
+      "current_contact": "face",
+      "current_area_mm2": 5616.0,
+      "purchase_quantity": false,
+      "interpretation": "Quantidade anterior para cotacao,nao existente/aprovada nem somar com marcadores do estudo"
+    }
+  ],
+  "historical_nominal_axes": {
+    "P17": 58,
+    "P04": 52
+  },
+  "underside_positions_proposed": {
+    "P17": 8,
+    "P04": 8
+  },
+  "decisions": [
+    {
+      "id": "uso_carga",
+      "state": "META_ESCOLHIDA_NAO_CAPACIDADE",
+      "subject": "Elias,25/10/2026:\"20 kg / 10 kg / 10 kg\",ordemP17/P04/P12;usos no arquivo de premissas."
+    },
+    {
+      "id": "base_aparente",
+      "state": "BASE_LIMPA",
+      "subject": "Elias,25/10/2026:\"Base limpa, sem cabeças ou tampinhas aparentes\";8posicoes inferiores antigas de cadaP17/P04 precisam de revisao."
+    },
+    {
+      "id": "fundos_inteiros",
+      "state": "PREFERIDOS_PARA_ESTUDO_SEM_ALTERAR_CAD",
+      "subject": "Elias,25/10/2026:\"Desenvolver os fundos inteiros\";P17:514para550;P04:272para308;mesmo envelope/vaos."
+    },
+    {
+      "id": "borda_inferior_fundo",
+      "state": "FITA_NO_PADRAO_EXTERNO",
+      "subject": "Elias,25/10/2026:\"Fita na borda no padrão externo: Arenza no P04 e off-white no P17\";facesBrancoTX preservadas."
+    },
+    {
+      "id": "P04_faixa7",
+      "state": "PROPOSTA_EXISTENTE_NAO_APROVADA",
+      "subject": "FaixaFixaEstudo7x18x272 ja listada no acervo;nenhum credito de reforco/decisao nova por esta auditoria."
+    },
+    {
+      "id": "suspensao",
+      "state": "PRODUTO_NAO_ESCOLHIDO",
+      "subject": "Nao copiar Bigfer do loteA ou numero de suportes paraP04/P12/P17;definir caminho,produto equantidade depois das decisoes."
+    },
+    {
+      "id": "acabamento_chapa",
+      "state": "REGRA_VIGENTE_PRESERVADA",
+      "subject": "Um acabamento nas duas faces por peca;nao inserir segunda caixa. Aparencia das bordas expostas pelo fundo inteiro depende de revisao."
+    }
+  ],
+  "chosen_payloads_kg": {
+    "P17": 20,
+    "P04": 10,
+    "P12": 10
+  },
+  "chosen_hardware": null,
+  "new_connector_purchase_qty": null,
+  "sources_sha256": {
+    "04_Moveis/Aereos_suspensao/Geometria_R51.json": "940215dd184300e55ef994476b716e6d385873ca947c6df376faab0657667887",
+    "04_Moveis/P04/Suspensao_P04_P15/Geometria_e_portas_R51.json": "fd4a4405e85e6b28a491a2be3b13b26b6cc42c0fd9d85cb13bbd79c01abb6eb2",
+    "04_Moveis/Aereos_suspensao/Lote_B_premissas.json": "621da1ebc34bf3198412044100312fa9da87b514f056db4ba7c82faab724f7fb",
+    "04_Moveis/Mapa_conectores/Mapa_conectores_R00.csv": "f260bf5faf80e52eab5dc72e2c94a29912934a580c541ca620faf5e4f4eb14a1",
+    "04_Moveis/P17/Base_fundo_ligacoes/Conferencia_geometrica.json": "9d6047a1684c475d53cd9af45a810b7a9b14cc047779a84baed832ffd055eb14",
+    "04_Moveis/Ligacoes_sem_tubos/Eixos_ligacoes_estudo.csv": "df66ef6b8be829494f1ff038dbc3329085c7efcde30e7071c66a902e3f4cc65b"
+  },
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "script_sha256": "7cce71dc139f428cf1a2ba3a71d6057ec68a6cb4473c3a01533fd8a59ae8d67c",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0",
+  "limits": [
+    "Fichas reconciliam dimensoes,nao provam posicao/forma integral do BREP R52;nao houve nova aberturaCAD.",
+    "Caixas retangulares,sem ferragens/furos/cabecas/tolerancias ou movimento de portas.",
+    "Fundo inteiro pode expor borda inferior/traseira e precisa de acabamento/acesso revisados;nao e aprovacao de usinagem.",
+    "Massa incremental hipotetica,nao pesagem/SKU/material aprovado;metas de conteudo escolhidas,capacidade nao demonstrada."
+  ]
+}

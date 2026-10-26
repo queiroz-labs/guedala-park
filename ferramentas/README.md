@@ -4,6 +4,9 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
 | Comando | O que faz | Tempo |
 |---|---|---|
+| `python -B ferramentas/aereos/reconciliar_lote_b.py` | P17/P04/P12: premissas respondidas, cinco geometrias,47 contatosR00 e16 entradas inferiores antigas; fundo inteiro separado daR52 (NumPy/Pillow) | segundos |
+| `python -B ferramentas/aereos/detalhar_lote_b.py` | Metas20/10/10kg:585 casos de massa/demanda e60Minifix de acesso interno; quatro corredoresP04 restritos,sem capacidade demonstrada | segundos |
+| `python -B ferramentas/aereos/conferir_lote_b.py` | Conferência independente de hashes/contatos/canecos,pinos,acesso e demandas; registra restrições,sem ensaio físico | segundos |
 | `python ferramentas/verificar_tudo.py` | Roda todas as verificações rápidas abaixo de uma vez | segundos |
 | `python -B ferramentas/aereos/detalhar_ligacoes.py` | LoteP09/P11/P15:96 interfaces nominais,696 casos/4176 vetores e12 zonas de acesso só contra madeira; preservaR52, sem produto/usinagem/capacidade demonstrados (NumPy/Pillow) | segundos |
 | `python -B ferramentas/aereos/conferir_ligacoes.py` | Confere contato positivo, rejeita ligação pela aresta, reconcilia contagens e equilíbrio independente dos2088 pares de grupos; não é ensaio físico | segundos |

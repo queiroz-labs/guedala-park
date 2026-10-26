@@ -1,5 +1,31 @@
 # Ligações e suspensão dos aéreos
 
+## Lote B — P17/P04/P12
+
+**Premissas de Elias,25/10/2026:** “20 kg / 10 kg / 10 kg” de conteúdo, respectivamente; “Base limpa, sem cabeças ou tampinhas aparentes”; “Desenvolver os fundos inteiros”. [Registro](Lote_B_premissas.json). P17 recebe itens de viagem/miscelânea; P04, edredom; P12, utensílios grandes/leves pouco usados. São metas globais, sem capacidade demonstrada ou aplicação naR52.
+
+| Móvel | Fundo18 no estudo | Madeira + conteúdo, kg* | Ligações internas candidatas |
+|---|---|---:|---:|
+| P17 | 1964×550, antes514 de altura | 72,24–92,33 | 24 Minifix |
+| P04 | 1764×308, antes272 de altura | 36,15–46,21 | 24 Minifix |
+| P12 | 765×548 atual preservado | 32,75–41,51 | 12 Minifix |
+
+*Hipótesesρ650/800/900 e fator18,3/18; sem massas reais das ferragens. Acréscimo dos fundos≈1,04/0,93kg emP17/P04 aρ800. Envelope/vãos preservados. A faixa7 deP04 continua proposta não adotada, incluída apenas como massa, sem reforço. Elias,25/10/2026:“Fita na borda no padrão externo: Arenza no P04 e off-white no P17”; duas faces dos fundos emBrancoTX.
+
+[Prancha](Lote_B_caixa_e_ligacoes.png) · [geometria/contatos](Lote_B_geometria.json) · [585 casos e memória](Lote_B_detalhamento.json) · [48 traseiras](Lote_B_ligacoes_traseiras.csv) · [60 posições internas](Lote_B_ligacoes_internas.csv) · [conferência independente](Lote_B_verificacao.json).
+
+**Base limpa:** canecos nas faces internas da base/tampo para encontros com laterais; nas faces livres das divisórias para encontros verticais. Preserva as24/24/12 posições previstas noR00, sem somá-las como compra. As8 entradas inferiores antigas de cadaP17/P04 precisam ser substituídas. Dois divisores18 permanecem independentes; canecos acessíveis pelas faces externas do par. Não há reforço monolítico36.
+
+Referências candidatas [corpo262.26.034](https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/) e [pino262.28.920](https://www.hafele.com/us/en/product/haefele-connecting-bolt-minifix-system/26228920/): Ø15,A9,profundidade13,5+0,5 eB34. [Dados oficiais selecionados](Lote_B_fontes_Minifix.json). Os furos cegos cabem nas caixas nominais, deixando4mm no máximo de profundidade. Isso não comprova fixação/rigidez nem dispensa medir chapa/piloto.
+
+**RestriçãoP04:**4 acessos na lateral esquerda: corredor20×20×30 invade1mm do divisor adjacente; canecoØ15 tem1,5mm até essa madeira. Diâmetro reto máximo18 nesta zona, com folga nula nesse limite. Conferir ferramenta real, dobradiças e sequência;56 outros corredores passam somente contra madeira. Nenhum acesso completo de montagem foi homologado.
+
+**Traseira:**48 posições Confirmat7×50 base/tampo–fundo herdam estações dos estudos parciais;32mm além do fundo18,sem alcançar a face inferior. R00 tem18/12/9CF anteriores; proposta com fundos inteiros soma24/24/0, dando42/36/9, sem compra definida. P04 conserva2CF/divisor doR00: não somar também o terceiro marcador do estudo parcial.
+
+**Falta fechar:** cabeças/pilotos traseiros, retenção, dobradiças/ferramentas, juntas e suspensão. MáximosM≈225,6/82,5/98,8Nm; `T=1000M/h` depende do braço real. Não copiar dois suportes do loteA, dividirV por furos ou transferir flechas locais ao Minifix sem comprovar juntas.
+
+Reprodução: `python -B ferramentas/aereos/reconciliar_lote_b.py`, depois `detalhar_lote_b.py` e `conferir_lote_b.py` na mesma pasta. Hash das fichas:IDs/três dimensões consumidas, sem acabamentos. Conferidos585casos/47contatos/60canecos; quatro acessos restritos. SHA doCAD intacto, sem abrirFreeCAD.
+
 ## Vigente: lote A — P09/P11/P15
 
 25/10/2026. Estudo conforme [AGENTS](../../AGENTS.md), sem tubos ou alteração daR52/acabamentos. **Mapa e solicitações nominais; juntas/produto condicionados.**
@@ -69,57 +95,18 @@ Mapa genérico: `python -B ferramentas/aereos/detalhar_ligacoes.py` e `python -B
 
 ## Estudo global anterior — P09/P11/P12/P17
 
-Memória25/10, T02: quatro caixas com portas abertas e conteúdo parametrizado pelo [motor de quatro barras](../../ferramentas/cinematica/README.md). R51 preservada; sem suspensor ou ancoragem adotados.
+Memória25/10, T02: [1404casos](Resultados.json), volumes/CG doBREPR51 e movimento de quatro barras. Densidades650/800/900, fator18,3/18, conteúdo0/5/10/20kg, portas independentes0/86°,45° e extremos amostrados. São cenários globais, não capacidade por chapa. Dimensões, peças e48 envelopes estão nos dados. As metasP17/P12 e fundos preferidos foram atualizados no loteB acima.
 
-| Móvel | Base interna, largura | Profundidade da caixa | Altura | Madeira da caixa / folhas |
-|---|---:|---:|---:|---|
-| P09, acima do depurador | 614 mm | 330 mm | 592 mm | Seis peças / duas portas |
-| P11, acima do micro | 661 mm | 330 mm | 610 mm | Seis peças, incluindo prateleira / duas portas |
-| P12, acima da geladeira | 765 mm | 330 mm | 584 mm | Seis peças / duas portas |
-| P17, aéreo do escritório | 1964 mm | 330 mm | 550 mm | Nove peças / quatro portas |
-
-Volumes/CG vieram do BREP; frentes com canecos descontados. Divisor duploP17 conserva duas chapas; P09 mantém divisor312/R48, sem recolocar prateleiras canceladas.
-
-## Hipóteses e resultados
-
-1404 combinações de densidade650/800/900, portas independentes0/86°, estado45° e extremos amostrados do CG, com conteúdo total0/5/10/20 kg. A distribuição é central ou próxima à frente/extremidades. São **cenários totais por móvel**, não cargas por prateleira ou capacidades autorizadas. No P11, o estudo local10 kg de uma chapa continua condicionado; ele não autoriza aplicar10 kg em todos os níveis.
-
-Massa nominal18 aproximada por18,3/fator de volume; ferragens/acabamento exigem dados reais. CG da frente não foi atribuído a todos os braços metálicos.
-
-Parede na traseira nominal; dois grupos recebemV pelo CG lateral, vão100/80% da largura,h50/80% da altura e tração100/0,50/50 ou0/100. Parâmetros de equilíbrio, sem produto/furos ou torção da caixa comprovada.
-
-`V(N)=soma(m×g)`; `M(Nm)=soma(m×g×v(mm)/1000)`; `T(N)=1000×M/h(mm)`.
-
-Exemplos preservados nos [1404casos](Resultados.json). P09 exclui depurador; equipamentos inferiores não são somados automaticamente. No exemploρ900/10kg frontal/portas86°, P17≈81,17kg antes de ferragens, sem pesagem; mudar composição exige recalcular massa/rigidez.
-
-As48 combinaçõesh/vão/partilha preservam casos controladores deV/T/resultante. Sem combinar máximos incompatíveis, majoração, mãos, impacto, resistência/rigidez real ou ensaio. Grupo não é parafuso;kg de catálogo não validamV/T simultâneos.
+Parede na traseira nominal; dois grupos paramétricos, vãos100/80% da largura,h50/80% da altura, tração100/0,50/50 ou0/100. `V=Σmg`; `M=Σmgv/1000`; `T=1000M/h`. Sem produto/furos, majoração, impacto ou rigidez/resistência comprovados. Grupo não é parafuso; preservar correlaçãoV/T. P09 exclui depurador e mantém divisor312/R48. P11 não recebe10kg por nível automaticamente.
 
 ## Depurador P09: dado do fabricante e interface ainda aberta
 
 ![Corte dos envelopes do depurador e gabinete](Interface_depurador_42mm.png)
 
-O [manual SuggarDE61IX/DE62IX](../../09_Referencias/Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf),REV.0025,p1, publica6,00kg sem embalagem para60cm (58,840N) e8,01kg para80cm. Colunas conferidas visualmente; não é pesagem da unidade entregue.
+O [manual SuggarDE61IX/DE62IX](../../09_Referencias/Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf),REV.0025,p1, publica6,00kg/60cm e8,01kg/80cm. Figuras5–8: parede primeiro, gabinete depois,4parafusos4,2×30. Partilha exige desenho/rigidez; não atribuir automaticamente massa ao armário ou escolher ancoragem pelo manual.
 
-Figuras5–8: primeiro fixar à parede, depois ao gabinete com4parafusos4,2×30. Vínculos redundantes: partilha/alavanca exigem desenho/rigidez; não atribuir metade ou todo o peso ao armário. Fixadores do manual não selecionam nossa ancoragem.
-
-Há uma pendência nominal concreta: o gabarito`Peca139` termina emZ1916 e a face inferior da baseP09 começa emZ1958, deixando **42 mm entre eles no CAD**. Não há ponte de ligação ou adaptador representado nessa faixa. O gabarito é uma caixa simplificada e não contém abas ou fixações comerciais; o resultado identifica uma interface não demonstrada, sem concluir que o produto real seja inviável.
-
-Posições/folga preservadas, sem adaptador inventado. Retorno20mm na largura, filtros e acesso continuam restriçõesR48 do modo depurador. Não reinstalar canal de duto cancelado.
-
-[Registro do depurador](Depurador_dados_e_pendencias.json):6kg=58,840N; emv150/300/488, momentos8,826/17,652/28,714Nm. Posições hipotéticas, sem CG publicado ou carga atribuída ao suspensor. A ligação real pode ter outros esforços.
-
-## Perguntas exatas antes de fechar
-
-1. **P09:** obter abas/apoios/direções e forças das fixações das figuras5–8, mantendo42mm nominais, ventilação, filtros e distância ao cooktop. Adaptação depende de confirmação do fabricante.
-2. **Suspensão:** comprovar desenho, h/vão, excentricidadesV/T, retenção e apoios reais. LoteA tem candidata acima; P12/P17 continuam sem produto compatibilizado.
-3. **Caixa:** demonstrar juntas, torção e compressão inferior; manter P11 sem tubos e requisitos locais, incluindo fundo/divisóriasP17. Não presumir caixa rígida.
-4. **Massa/uso:** definir conteúdo por nível, pesar portas/conjunto e separar partes fixas/móveis das ferragens;20kg global não significa20kg por chapa/nicho.
-5. **Imóvel:** conferir substrato, espessura, revestimento e instalações antes de selecionar ancoragem; produto/união/protótipo podem avançar agora.
-
-Nenhuma consulta foi enviada. Sem tubos ou outro quadro metálico para sustentar as chapas, sem compra, usinagem ou carga de uso liberada. Estudos/demandas preservam o modelo completo e as escolhas de armazenamento.
+Gabarito simplificadoPeca139 terminaZ1916, baseP09 começaZ1958:42mm sem ligação representada. Abas comerciais ausentes; não conclui inviabilidade do produto. Preservar retorno20, filtros/acessoR48, sem adaptador ou canal de duto cancelado. [Dados e sensibilidades](Depurador_dados_e_pendencias.json):6kg=58,840N, CG ainda desconhecido.
 
 ## Evidências e reprodução
 
-[Geometria atual e folga42](Geometria_R51.json) · [1404 casos e48 envelopes](Resultados.json) · [depurador:fontes e pendências](Depurador_dados_e_pendencias.json) · [verificação](Verificacao.json).
-
-Memória anterior baseada na extraçãoR51, com SHA256/CRC, fotografia de cinemática, entradas e manual rastreados; massa constante e equilíbrio conferidos. As rotinas históricas dependem de caminhos antigos e não devem ser executadas sem migração. Para o loteA, usar os dois comandos vigentes no topo. Zero ensaios físicos. [SuspensãoP04/P15 anterior](../P04/Suspensao_P04_P15/README.md) preservada; P15 recebeu o complemento nominal do loteA, enquanto P04 não foi recalculado nesta etapa.
+[GeometriaR51/folga42](Geometria_R51.json) · [verificação histórica](Verificacao.json) · [memóriaP04/P15](../P04/Suspensao_P04_P15/README.md). Usar rotinas vigentesA/B; antigas exigem migração. No imóvel: conferir parede/revestimento/instalações antes das ancoragens. Sem consultas enviadas, compra ou ensaio físico.
