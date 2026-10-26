@@ -1,5 +1,31 @@
 # P17 — base, fundo e ligações de marcenaria
 
+## Caminho da caixa — 26/10/2026
+
+[Desenho](../../Aereos_suspensao/P17_caminho_caixa.png) · [21 grupos de juntas](../../Aereos_suspensao/P17_mapa_juntas.csv) · [70 posições de fixadores](../../Aereos_suspensao/P17_eixos_fixadores.csv) · [30 cortes de carga](../../Aereos_suspensao/P17_cortes_carga.csv) · [memória](../../Aereos_suspensao/P17_caminho_caixa.json) · [conferência](../../Aereos_suspensao/P17_verificacao_caminho.json).
+
+| Caminho nominal | Ligações candidatas e função |
+|---|---|
+| Base → laterais | 4 Minifix; pinos horizontais recebem cortante vertical e retenção transversal |
+| Base → quatro divisórias → tampo | 8 Minifix inferiores + 8 superiores; retenção axial dos pinos verticais e contato conforme o sentido da reação |
+| Tampo → laterais | 4 Minifix; referência superior precisa resistir e deformar de modo compatível com a caixa |
+| Base/tampo → fundo inteiro | 12 + 12 Confirmat; transmissão de cortante para o fundo, que precisa distribuir até os cantos |
+| Fundo → laterais/divisórias | 6 + 12 Confirmat; transmissão vertical, esforços fora do plano e distorção conjunta |
+| Par de divisórias central | 4 parafusos 4×30; amarração candidata, sem considerar as chapas como uma peça de 36 mm |
+| Cantos → suspensão | Bigfer candidata; rigidez das juntas, retenção e apoios inferiores ainda condicionados |
+
+Total de estudo: **24 Minifix + 42 Confirmat + 4 parafusos face a face**, reconciliado com R00 e as 24 posições traseiras adicionais já propostas. Não são compras adicionais. Cavilhas continuam de posicionamento, sem crédito resistente ou nova furação.
+
+Os 4×30 receberam centros candidatos em v120/240 e z150/400, pela face livre u964: 12 mm nominais na segunda chapa e 6 mm até a face oposta. Cabeça, piloto, torque e painel real pendentes. Confirmat laterais: z70/275/480; fundo–divisórias: z88/275/462. Eixos herdados do estudo parcial, agora referidos às faces de entrada/interface; os antigos marcadores do fundo em v9 não eram a interface v18.
+
+**Acesso e montagem:** em bancada apoiada, montar base/divisórias, fechar tampo em z, aproximar cada lateral em u e instalar o fundo pela traseira. Apertar juntas antes das portas; acesso pelos lados livres do par central. Parafusos traseiros/laterais precisam ser acessíveis na bancada; cabeça lateral e embutimento traseiro exigem detalhamento. As 70 posições e 2.415 pares de envelopes conferidos não apresentaram interseção nominal; corredores externos de referência Ø20×100 e canecos foram conferidos contra madeira, calços fixos e suspensores. Cabeças, pinos completos, mandril, mãos e tolerâncias reais não foram validados.
+
+**Carga que atravessa as juntas:** no cenário de massa ρ900, conteúdo20 kg, a fronteira da base recebe V295,10 N; incluindo quatro divisórias, V398,71 N. Com conteúdo frontal, momentos em torno da origem traseira de 77,04 e 95,07 Nm. São demandas do conjunto de juntas de cada corte, sem partilha por fixador; estão contidas no equilíbrio global e não devem ser somadas a ele.
+
+As 24 posições do antigo modelo de placa coincidem com o mapa atual após converter **v=330−y**. Isso corrige a aparente diferença de coordenadas, mas não atribui K500/250 ao Minifix nem comprova a reserva superior0,20 mm. Grupos de pontos colineares não resistem a um momento em torno da própria linha apenas por forças nesses pontos; faces, fundo, tampo e demais juntas precisam fechar o caminho. Próxima comprovação: curvas das juntas axial/cortante e deformação da caixa completa, com ferramenta e fixadores reais.
+
+Reproduzir na raiz: `python -B ferramentas/aereos/mapear_caminho_caixa.py --movel P17` e `python -B ferramentas/aereos/conferir_caminho_caixa.py --movel P17`. R52 preservada; nenhum ensaio físico.
+
 **Complemento25/10/2026:** Elias definiu “20 kg / 10 kg / 10 kg” na ordemP17/P04/P12 e “Desenvolver os fundos inteiros”, com “Base limpa, sem cabeças ou tampinhas aparentes”. [LoteB vigente](../../Aereos_suspensao/README.md#lote-b--p17p04p12): fundo1964×550 preferido para estudo, massa globalP17 com20kg≈72,24–92,33kg sem ferragens;24 posições Minifix com acesso interno reconciliadas comR00. Substituir as8 entradas inferiores antigas. A caixaR52 permanece intacta. Ligações traseiras reconciliadas; implantação da suspensão abaixo. Capacidade e rigidez real das juntas pendentes; as flechas locais não comprovam o novo Minifix.
 
 Estudo nominal separado, 25/10/2026. **O fundo e as divisórias precisam de ligações positivas para participar do caminho da carga.** A placa18 mantida dá resultados condicionais favoráveis quando esses caminhos são creditados; não há comprovação de juntas, caixa completa ou carga de uso.

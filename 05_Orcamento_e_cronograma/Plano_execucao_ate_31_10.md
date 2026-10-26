@@ -53,6 +53,8 @@ O caminho principal é: **base confiável → cargas e apoios → ligações e m
 
 As datas da agenda não certificam conclusão. Um bloco travado em dado externo termina com requisito/consulta/ensaio preparados e segue para tarefa independente, mantendo a condição visível. Mensagens, compras e incorporação de alternativas não estão presumidas por esta sequência.
 
+**Avanço26/10 — T02/T03:** [P17](../04_Moveis/P17/Base_fundo_ligacoes/README.md):21grupos/70posições; [P12](../04_Moveis/P12/README.md):9grupos/21posições;30cortes por móvel,2.625pares de envelopes e montagem/acessos nominais conferidos. Produto,rigidez,referência superior e ensaios continuam pendentes. T0/P04:pacote reconferido;Elias,26/10:“Ainda não; deixar o roteiro pronto”,sobre oficina/material. Manter sem medições preenchidas e avançarT04 enquanto aguarda a execução física.
+
 ## 3. Agenda diária
 
 Planejar dois a três blocos de trabalho técnico por dia, de 60–90 minutos cada, ajustando ao rendimento real. São estimativas de organização, não duração garantida de chamadas de IA. A revisão de Elias acontece nesses blocos e ao final do dia; não representa horas adicionais obrigatórias.

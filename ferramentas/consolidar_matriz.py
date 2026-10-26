@@ -5,12 +5,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / '04_Moveis/Cargas_e_ligacoes'
 UPDATES = {
- 'P04': ('Meta de conteudo10kg; fundo308/base limpa,24Minifix/36Confirmat candidatos; quatro acessosSW4 nominais,765equilibrios/1530vetores; pacote de laboratorio preparado',
-         'Executar T0 dos quatro acessos; caracterizar juntas T1, seis casos simultaneos V/T T2 e caixa inteira T3; Bigfer no divisor18/fundo e lateral direita sem capacidade demonstrada; conferir contato e parede real'),
- 'P12': ('Meta10kg; fundo548 atual/base limpa; suspensao candidatau40.5/724.5 Z548;225equilibrios/450vetores,seis casos;4calcos e12acessosMinifix conferidos;R52 preservada',
-         'QualificarBigfer/MDF18 e ferramenta12 no auxiliar;comprovar base/divisor,juntas e caixa com12Minifix/9Confirmat candidatos,sem apoio traseiro continuo;contato inferior/ferragens reais e parede pendentes'),
- 'P17': ('Meta20kg; fundo550/base limpa; suspensao candidatau40.5/1923.5 Z514;765equilibrios/1530vetores,seis casos;8calcos e24acessosMinifix conferidos;R52 preservada',
-         'QualificarBigfer/MDF18 e ferramenta:auxiliar exige reserva12;provar juntas/rigidez da caixa e referencia superior,incluir ferragens reais e medir contato inferior;parede/ancoragens apos chaves'),
+ 'P04': ('Meta10kg; fundo308/base limpa; quatro acessosSW4 nominais e pacoteT0 reconferido26/10:5retalhos,8Minifix,15registros vazios',
+         'Oficina ainda indisponivel conforme Elias26/10; roteiro pronto. ExecutarT0 sem carga quando houver material/oficina;T1juntas,T2Bigfer eT3caixa continuam pendentes;parede/contatos reais depois'),
+ 'P12': ('Meta10kg; fundo548;9grupos/21posicoes candidatas e30cortes de carga,210pares de envelopes conferidos;12Minifix/9Confirmat,sem ligacao direta base-fundo;R52 preservada',
+         'Qualificar juntas axial/cortante e caixa completa;pilotos/cabecas/torque/ferramenta reais e Bigfer com auxiliar12 pendentes;rigidez/flechaP12 nao herdadas doP17;contato inferior e parede reais'),
+ 'P17': ('Meta20kg; fundo550;21grupos/70posicoes candidatas e30cortes de carga,2415pares de envelopes conferidos;24Minifix/42Confirmat/4faceaface;24apoios reconciliados porv=330-y;R52 preservada',
+         'Caracterizar rigidez/retencao das juntas e deformacao da caixa/referencia superior;confirmar fixadores/cabecas/pilotos/torque e ferramentaBigfer. Sem credito monolitico36;contato inferior,parede e ensaio pendentes'),
 }
 EVIDENCE = {
  'P04':'Aereos_suspensao/README.md', 'P12':'P12/README.md', 'P17':'P17/Base_fundo_ligacoes/README.md',

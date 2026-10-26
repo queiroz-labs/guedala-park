@@ -76,6 +76,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Próximos passos
 
+**Avanço26/10 — juntas dos aéreos:** P17:21grupos/70posições candidatas; P12:9/21;30cortes de carga por móvel e2.625pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17:24apoios do estudo antigo coincidem apósv=330−y;rigidez doMinifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto,sem execução;Elias,26/10:“Ainda não; deixar o roteiro pronto”,sobre oficina/material. Próximo:caracterizar juntas e caixa/ferragem reais;seguir frente independente enquanto aguarda oficina.
+
 **Controle de25/10 consolidado em26/10:** [matriz20/20](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) revisada; T01 documental concluída. T02/T03 continuam parciais: juntas/suspensão, composiçãoP15 e caixa superiorP01/P03. P04 tem pacote de laboratório, sem ensaios; P17/P12 têm implantação nominal; qualificação física e rigidez continuam pendentes. Decisões de uso/acabamento e verificações do imóvel seguem identificadas. Dia26 em andamento; integração30 e conferência31 preservadas.
 
 1. **Antes das chaves:** seguir o [plano até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md); concluir as luminárias na [lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); pedir orçamentos de marcenaria quando o pacote sair da espera; contratar o responsável técnico e enviar os [e-mails preparados](01_Programa_e_decisoes/Rascunhos_emails.md).

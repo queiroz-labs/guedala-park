@@ -1,0 +1,17 @@
+{
+  "code": "P12",
+  "status": "OK_MAPA_NOMINAL",
+  "groups": 9,
+  "axes": 21,
+  "cuts": 30,
+  "body_pair_checks": 210,
+  "max_wrench_error_N_or_Nmm": 1.4551915228366852e-11,
+  "physical_tests_executed": 0,
+  "capacity_demonstrated": false,
+  "cad_preserved": true,
+  "sources_sha256": {
+    "P12_caminho_caixa.json": "e6ac86708185adea1f943d4edb7d010fae133e26bbd9d60a2cd6bc72da89232a"
+  },
+  "verifier_sha256": "56f5461cf411d8136b40dfd19a7c5c366b04eff59d65a129fb409c71696fca79",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}

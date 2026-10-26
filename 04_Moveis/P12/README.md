@@ -35,6 +35,28 @@ Por1kg adicional emv200: +9,807N vertical,+1,961Nm e+4,282N de tração total ne
 
 ## Pendências objetivas
 
+### Caminho da caixa detalhado em 26/10
+
+[Desenho](../Aereos_suspensao/P12_caminho_caixa.png) · [9 grupos de juntas](../Aereos_suspensao/P12_mapa_juntas.csv) · [21 posições](../Aereos_suspensao/P12_eixos_fixadores.csv) · [30 cortes de carga](../Aereos_suspensao/P12_cortes_carga.csv) · [memória](../Aereos_suspensao/P12_caminho_caixa.json) · [conferência](../Aereos_suspensao/P12_verificacao_caminho.json).
+
+| Caminho nominal | Grupo candidato |
+|---|---|
+| Base → duas laterais | 4 Minifix; cortante vertical nos pinos horizontais e retenção transversal |
+| Base → divisória → tampo | 2 + 2 Minifix; retenção axial nos pinos verticais e contato conforme o sentido da reação |
+| Tampo → duas laterais | 4 Minifix; o tampo e suas juntas completam o caminho superior |
+| Fundo ↔ laterais/divisória | 6 + 3 Confirmat; transferência vertical e fora do plano até os cantos |
+| Cantos → suspensão | Bigfer e contatos inferiores ainda em qualificação |
+
+**O fundo não recebe a base/tampo diretamente:** esses encontros são apenas arestas. Os 12 Minifix e 9 Confirmat mantêm a contagem R00. Estações novas de estudo para os Confirmat: laterais z70/292/514, divisor z88/292/496. São propostas geométricas, sem distância mínima resistente ou piloto demonstrados. Entrada pela lateral externa nas duas bordas; pela traseira no divisor. Comprimento50 atravessa18 e deixa32 mm nominais na peça receptora; Ø7 não define a broca.
+
+As 21 posições, 210 pares de envelopes e acessos contra madeira/calços/suspensores foram conferidos. Reservas externas Ø20×100 pedem espaço de bancada; ferramenta completa, mãos, cabeças, pinos e tolerâncias reais pendentes. Montar base/divisor, fechar tampo em z, encaixar cada lateral em u e instalar o fundo pela traseira. Apertar antes das portas; cabeça lateral aparente e embutimento traseiro precisam de detalhe.
+
+No cenárioρ900 com10 kg de conteúdo, a fronteira da base transmite V136,62 N; incluindo a divisória, V164,23 N. Para conteúdo frontal, momentos de 36,62/41,42 Nm em torno da origem traseira. O CSV preserva as resultantes simultâneas de cada corte; não são esforços por parafuso nem cargas extras a somar ao equilíbrio global. Um par colinear de Minifix não fecha sozinho um momento em torno da sua linha: a caixa e os contatos precisam participar. Resistência, rigidez e flecha do P12 ainda exigem modelo compatível e dados reais de junta; não se reutiliza a flecha do P17.
+
+Reproduzir: `python -B ferramentas/aereos/mapear_caminho_caixa.py --movel P12` e `python -B ferramentas/aereos/conferir_caminho_caixa.py --movel P12`. Nenhum ensaio físico ou alteraçãoR52.
+
+### Comprovações restantes
+
 1. Produto/oficina: confirmar montagemBigfer com fundo18, fixadoresMDF/pilotos/profundidade/torque, passo12/borda9,5, cabeça/arruela/rasgo5, retenção, flexão/esmagamento e ferramenta efetiva. Fonte geométrica: catálogoBigferp235 já preservado no [estudo de seleção](../Aereos_suspensao/Selecao_ferragem.json); sem capacidade publicada para esta implantação.
 2. Projeto/oficina: comprovar base/divisor, juntas e distorção da caixa/fundo até os cantos. Não transferir flecha ou rigidez deP17/P04 aoP12 nem dar resistência às cavilhas/atrito.
 3. Laboratório/fabricante/RT: acordar protocolo, replicação, fatores/ciclos/duração e critérios antes de aplicar carga. Usar vetores simultâneos e montagem representativa; registrar deformações, deslizamento, residual e danos.

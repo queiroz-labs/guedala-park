@@ -1,0 +1,2778 @@
+{
+  "code": "P12",
+  "status": "MAPA_NOMINAL_E_CORTES_SEM_CAPACIDADE",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "variant": "atual",
+  "boxes_uvz_mm": {
+    "Peca342": [
+      765.0,
+      0.0,
+      0.0,
+      783.0,
+      330.0,
+      584.0
+    ],
+    "Peca343": [
+      -18.0,
+      0.0,
+      0.0,
+      0.0,
+      330.0,
+      584.0
+    ],
+    "Peca344": [
+      0.0,
+      0.0,
+      18.0,
+      765.0,
+      18.0,
+      566.0
+    ],
+    "Peca345": [
+      0.0,
+      18.0,
+      0.0,
+      765.0,
+      330.0,
+      18.0
+    ],
+    "Peca346": [
+      0.0,
+      18.0,
+      566.0,
+      765.0,
+      330.0,
+      584.0
+    ],
+    "Peca347": [
+      373.5,
+      18.0,
+      18.0,
+      391.5,
+      330.0,
+      566.0
+    ]
+  },
+  "pieces": {
+    "base": "Peca345",
+    "top": "Peca346",
+    "back": "Peca344",
+    "left": "Peca343",
+    "right": "Peca342"
+  },
+  "dividers": [
+    "Peca347"
+  ],
+  "groups": [
+    {
+      "id": "P12_J01",
+      "a": "Peca342",
+      "b": "Peca344",
+      "family": "Confirmat7x50 candidato",
+      "candidate_count": 3,
+      "contact_area_mm2": 9864.0,
+      "interface_points_uvz_mm": [
+        [
+          765.0,
+          9.0,
+          70.0
+        ],
+        [
+          765.0,
+          9.0,
+          292.0
+        ],
+        [
+          765.0,
+          9.0,
+          514.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "load_path": "Fundo troca cortante vertical e esforcos fora do plano com a caixa. Coluna de pontos nao fecha sozinha torcao em z.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J02",
+      "a": "Peca342",
+      "b": "Peca345",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          765.0,
+          90.0,
+          9.0
+        ],
+        [
+          765.0,
+          258.0,
+          9.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Cortante vertical no pino horizontal, retencao transversal e rotacao da junta.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J03",
+      "a": "Peca342",
+      "b": "Peca346",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          765.0,
+          90.0,
+          575.0
+        ],
+        [
+          765.0,
+          258.0,
+          575.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Cortante vertical no pino horizontal, retencao transversal e rotacao da junta.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J04",
+      "a": "Peca343",
+      "b": "Peca344",
+      "family": "Confirmat7x50 candidato",
+      "candidate_count": 3,
+      "contact_area_mm2": 9864.0,
+      "interface_points_uvz_mm": [
+        [
+          0,
+          9.0,
+          70.0
+        ],
+        [
+          0,
+          9.0,
+          292.0
+        ],
+        [
+          0,
+          9.0,
+          514.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "load_path": "Fundo troca cortante vertical e esforcos fora do plano com a caixa. Coluna de pontos nao fecha sozinha torcao em z.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J05",
+      "a": "Peca343",
+      "b": "Peca345",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          0.0,
+          90.0,
+          9.0
+        ],
+        [
+          0.0,
+          258.0,
+          9.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Cortante vertical no pino horizontal, retencao transversal e rotacao da junta.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J06",
+      "a": "Peca343",
+      "b": "Peca346",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          0.0,
+          90.0,
+          575.0
+        ],
+        [
+          0.0,
+          258.0,
+          575.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Cortante vertical no pino horizontal, retencao transversal e rotacao da junta.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J07",
+      "a": "Peca344",
+      "b": "Peca347",
+      "family": "Confirmat7x50 candidato",
+      "candidate_count": 3,
+      "contact_area_mm2": 9864.0,
+      "interface_points_uvz_mm": [
+        [
+          382.5,
+          18.0,
+          88.0
+        ],
+        [
+          382.5,
+          18.0,
+          292.0
+        ],
+        [
+          382.5,
+          18.0,
+          496.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "load_path": "Fundo troca cortante vertical e esforcos fora do plano com a caixa. Coluna de pontos nao fecha sozinha torcao em z.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J08",
+      "a": "Peca345",
+      "b": "Peca347",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          382.5,
+          90.0,
+          18.0
+        ],
+        [
+          382.5,
+          258.0,
+          18.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Tracao/retencao axial do pino vertical no caminho de suspensao da base; compressao por contato conforme o sinal.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    },
+    {
+      "id": "P12_J09",
+      "a": "Peca346",
+      "b": "Peca347",
+      "family": "Minifix15 + pino B34 candidatos",
+      "candidate_count": 2,
+      "contact_area_mm2": 5616.0,
+      "interface_points_uvz_mm": [
+        [
+          382.5,
+          90.0,
+          566.0
+        ],
+        [
+          382.5,
+          258.0,
+          566.0
+        ]
+      ],
+      "ideal_point_force_rank": 5,
+      "position_status": "NOMINAL",
+      "source": "R00 reconciliado com Lote_B_detalhamento.json",
+      "load_path": "Tracao/retencao axial do pino vertical no caminho de suspensao da base; compressao por contato conforme o sinal.",
+      "capacity_demonstrated": false,
+      "stiffness_demonstrated": false,
+      "qualification": "Painel real, junta completa, retencao e curva forca/deslocamento; a contagem nao reparte forcas."
+    }
+  ],
+  "fastener_axes": [
+    {
+      "group": "P12_J01",
+      "id": "P12_J01_1",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        765.0,
+        9.0,
+        70.0
+      ],
+      "entry_uvz_mm": [
+        783.0,
+        9.0,
+        70.0
+      ],
+      "tip_uvz_mm": [
+        733.0,
+        9.0,
+        70.0
+      ],
+      "access_bbox_mm": [
+        783.0,
+        -1.0,
+        60.0,
+        883.0,
+        19.0,
+        80.0
+      ],
+      "nominal_body_bbox_mm": [
+        733.0,
+        5.5,
+        66.5,
+        783.0,
+        12.5,
+        73.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J01",
+      "id": "P12_J01_2",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        765.0,
+        9.0,
+        292.0
+      ],
+      "entry_uvz_mm": [
+        783.0,
+        9.0,
+        292.0
+      ],
+      "tip_uvz_mm": [
+        733.0,
+        9.0,
+        292.0
+      ],
+      "access_bbox_mm": [
+        783.0,
+        -1.0,
+        282.0,
+        883.0,
+        19.0,
+        302.0
+      ],
+      "nominal_body_bbox_mm": [
+        733.0,
+        5.5,
+        288.5,
+        783.0,
+        12.5,
+        295.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J01",
+      "id": "P12_J01_3",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        765.0,
+        9.0,
+        514.0
+      ],
+      "entry_uvz_mm": [
+        783.0,
+        9.0,
+        514.0
+      ],
+      "tip_uvz_mm": [
+        733.0,
+        9.0,
+        514.0
+      ],
+      "access_bbox_mm": [
+        783.0,
+        -1.0,
+        504.0,
+        883.0,
+        19.0,
+        524.0
+      ],
+      "nominal_body_bbox_mm": [
+        733.0,
+        5.5,
+        510.5,
+        783.0,
+        12.5,
+        517.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J02",
+      "id": "Peca345_Peca342_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        765.0,
+        90.0,
+        9.0
+      ],
+      "entry_uvz_mm": [
+        731.0,
+        90.0,
+        18.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        721.0,
+        80.0,
+        18.0,
+        741.0,
+        100.0,
+        48.0
+      ],
+      "nominal_body_bbox_mm": [
+        723.5,
+        82.5,
+        4.0,
+        738.5,
+        97.5,
+        18.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J02",
+      "id": "Peca345_Peca342_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        765.0,
+        258.0,
+        9.0
+      ],
+      "entry_uvz_mm": [
+        731.0,
+        258.0,
+        18.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        721.0,
+        248.0,
+        18.0,
+        741.0,
+        268.0,
+        48.0
+      ],
+      "nominal_body_bbox_mm": [
+        723.5,
+        250.5,
+        4.0,
+        738.5,
+        265.5,
+        18.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J03",
+      "id": "Peca346_Peca342_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        765.0,
+        90.0,
+        575.0
+      ],
+      "entry_uvz_mm": [
+        731.0,
+        90.0,
+        566.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        721.0,
+        80.0,
+        536.0,
+        741.0,
+        100.0,
+        566.0
+      ],
+      "nominal_body_bbox_mm": [
+        723.5,
+        82.5,
+        566.0,
+        738.5,
+        97.5,
+        580.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J03",
+      "id": "Peca346_Peca342_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        765.0,
+        258.0,
+        575.0
+      ],
+      "entry_uvz_mm": [
+        731.0,
+        258.0,
+        566.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        721.0,
+        248.0,
+        536.0,
+        741.0,
+        268.0,
+        566.0
+      ],
+      "nominal_body_bbox_mm": [
+        723.5,
+        250.5,
+        566.0,
+        738.5,
+        265.5,
+        580.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J04",
+      "id": "P12_J04_1",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        0,
+        9.0,
+        70.0
+      ],
+      "entry_uvz_mm": [
+        -18,
+        9.0,
+        70.0
+      ],
+      "tip_uvz_mm": [
+        32,
+        9.0,
+        70.0
+      ],
+      "access_bbox_mm": [
+        -118.0,
+        -1.0,
+        60.0,
+        -18.0,
+        19.0,
+        80.0
+      ],
+      "nominal_body_bbox_mm": [
+        -18.0,
+        5.5,
+        66.5,
+        32.0,
+        12.5,
+        73.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J04",
+      "id": "P12_J04_2",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        0,
+        9.0,
+        292.0
+      ],
+      "entry_uvz_mm": [
+        -18,
+        9.0,
+        292.0
+      ],
+      "tip_uvz_mm": [
+        32,
+        9.0,
+        292.0
+      ],
+      "access_bbox_mm": [
+        -118.0,
+        -1.0,
+        282.0,
+        -18.0,
+        19.0,
+        302.0
+      ],
+      "nominal_body_bbox_mm": [
+        -18.0,
+        5.5,
+        288.5,
+        32.0,
+        12.5,
+        295.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J04",
+      "id": "P12_J04_3",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        0,
+        9.0,
+        514.0
+      ],
+      "entry_uvz_mm": [
+        -18,
+        9.0,
+        514.0
+      ],
+      "tip_uvz_mm": [
+        32,
+        9.0,
+        514.0
+      ],
+      "access_bbox_mm": [
+        -118.0,
+        -1.0,
+        504.0,
+        -18.0,
+        19.0,
+        524.0
+      ],
+      "nominal_body_bbox_mm": [
+        -18.0,
+        5.5,
+        510.5,
+        32.0,
+        12.5,
+        517.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; lateral externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J05",
+      "id": "Peca345_Peca343_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        0.0,
+        90.0,
+        9.0
+      ],
+      "entry_uvz_mm": [
+        34.0,
+        90.0,
+        18.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        24.0,
+        80.0,
+        18.0,
+        44.0,
+        100.0,
+        48.0
+      ],
+      "nominal_body_bbox_mm": [
+        26.5,
+        82.5,
+        4.0,
+        41.5,
+        97.5,
+        18.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J05",
+      "id": "Peca345_Peca343_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        0.0,
+        258.0,
+        9.0
+      ],
+      "entry_uvz_mm": [
+        34.0,
+        258.0,
+        18.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        24.0,
+        248.0,
+        18.0,
+        44.0,
+        268.0,
+        48.0
+      ],
+      "nominal_body_bbox_mm": [
+        26.5,
+        250.5,
+        4.0,
+        41.5,
+        265.5,
+        18.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J06",
+      "id": "Peca346_Peca343_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        0.0,
+        90.0,
+        575.0
+      ],
+      "entry_uvz_mm": [
+        34.0,
+        90.0,
+        566.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        24.0,
+        80.0,
+        536.0,
+        44.0,
+        100.0,
+        566.0
+      ],
+      "nominal_body_bbox_mm": [
+        26.5,
+        82.5,
+        566.0,
+        41.5,
+        97.5,
+        580.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J06",
+      "id": "Peca346_Peca343_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        0.0,
+        258.0,
+        575.0
+      ],
+      "entry_uvz_mm": [
+        34.0,
+        258.0,
+        566.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        24.0,
+        248.0,
+        536.0,
+        44.0,
+        268.0,
+        566.0
+      ],
+      "nominal_body_bbox_mm": [
+        26.5,
+        250.5,
+        566.0,
+        41.5,
+        265.5,
+        580.0
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J07",
+      "id": "P12_J07_1",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        382.5,
+        18.0,
+        88.0
+      ],
+      "entry_uvz_mm": [
+        382.5,
+        0.0,
+        88.0
+      ],
+      "tip_uvz_mm": [
+        382.5,
+        50.0,
+        88.0
+      ],
+      "access_bbox_mm": [
+        372.5,
+        -100.0,
+        78.0,
+        392.5,
+        0.0,
+        98.0
+      ],
+      "nominal_body_bbox_mm": [
+        379.0,
+        0.0,
+        84.5,
+        386.0,
+        50.0,
+        91.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; traseira externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J07",
+      "id": "P12_J07_2",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        382.5,
+        18.0,
+        292.0
+      ],
+      "entry_uvz_mm": [
+        382.5,
+        0.0,
+        292.0
+      ],
+      "tip_uvz_mm": [
+        382.5,
+        50.0,
+        292.0
+      ],
+      "access_bbox_mm": [
+        372.5,
+        -100.0,
+        282.0,
+        392.5,
+        0.0,
+        302.0
+      ],
+      "nominal_body_bbox_mm": [
+        379.0,
+        0.0,
+        288.5,
+        386.0,
+        50.0,
+        295.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; traseira externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J07",
+      "id": "P12_J07_3",
+      "family": "Confirmat",
+      "interface_uvz_mm": [
+        382.5,
+        18.0,
+        496.0
+      ],
+      "entry_uvz_mm": [
+        382.5,
+        0.0,
+        496.0
+      ],
+      "tip_uvz_mm": [
+        382.5,
+        50.0,
+        496.0
+      ],
+      "access_bbox_mm": [
+        372.5,
+        -100.0,
+        486.0,
+        392.5,
+        0.0,
+        506.0
+      ],
+      "nominal_body_bbox_mm": [
+        379.0,
+        0.0,
+        492.5,
+        386.0,
+        50.0,
+        499.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "P12: proposta geometrica26/10; laterais70/292/514 e divisor88/292/496, ainda sem gabarito de produto",
+      "access_stage": "Bancada antes da instalacao; traseira externa",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J08",
+      "id": "Peca345_Peca347_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        382.5,
+        90.0,
+        18.0
+      ],
+      "entry_uvz_mm": [
+        391.5,
+        90.0,
+        52.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        391.5,
+        80.0,
+        42.0,
+        421.5,
+        100.0,
+        62.0
+      ],
+      "nominal_body_bbox_mm": [
+        377.5,
+        82.5,
+        44.5,
+        391.5,
+        97.5,
+        59.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J08",
+      "id": "Peca345_Peca347_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        382.5,
+        258.0,
+        18.0
+      ],
+      "entry_uvz_mm": [
+        391.5,
+        258.0,
+        52.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        391.5,
+        248.0,
+        42.0,
+        421.5,
+        268.0,
+        62.0
+      ],
+      "nominal_body_bbox_mm": [
+        377.5,
+        250.5,
+        44.5,
+        391.5,
+        265.5,
+        59.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J09",
+      "id": "Peca346_Peca347_90",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        382.5,
+        90.0,
+        566.0
+      ],
+      "entry_uvz_mm": [
+        391.5,
+        90.0,
+        532.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        391.5,
+        80.0,
+        522.0,
+        421.5,
+        100.0,
+        542.0
+      ],
+      "nominal_body_bbox_mm": [
+        377.5,
+        82.5,
+        524.5,
+        391.5,
+        97.5,
+        539.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    },
+    {
+      "group": "P12_J09",
+      "id": "Peca346_Peca347_258",
+      "family": "Minifix",
+      "interface_uvz_mm": [
+        382.5,
+        258.0,
+        566.0
+      ],
+      "entry_uvz_mm": [
+        391.5,
+        258.0,
+        532.0
+      ],
+      "tip_uvz_mm": null,
+      "access_bbox_mm": [
+        391.5,
+        248.0,
+        522.0,
+        421.5,
+        268.0,
+        542.0
+      ],
+      "nominal_body_bbox_mm": [
+        377.5,
+        250.5,
+        524.5,
+        391.5,
+        265.5,
+        539.5
+      ],
+      "access_hits": [],
+      "other_body_hits": [],
+      "source": "Caneco/furo cego e corredor herdados do lote B",
+      "access_stage": "Antes das portas; canecos nas faces internas livres; calcos fixos incluidos.",
+      "actual_tool_verified": false,
+      "actual_head_pilot_torque_selected": false
+    }
+  ],
+  "candidate_totals": {
+    "Confirmat7x50 candidato": 9,
+    "Minifix15 + pino B34 candidatos": 12
+  },
+  "cuts": [
+    {
+      "cut": "base",
+      "rho_kg_m3": 650,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        27.842046285689996
+      ],
+      "required_moment_origin_Nmm": [
+        4844.516053710059,
+        -10649.582704276423,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        125.90854628569
+      ],
+      "required_moment_origin_Nmm": [
+        21908.08705371006,
+        -48160.01895427642,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        125.90854628569
+      ],
+      "required_moment_origin_Nmm": [
+        34754.798553710054,
+        -48160.01895427642,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        125.90854628569
+      ],
+      "required_moment_origin_Nmm": [
+        34754.798553710054,
+        -14400.626329276423,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        125.90854628569
+      ],
+      "required_moment_origin_Nmm": [
+        34754.798553710054,
+        -81919.41157927642,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 800,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        34.26713389008
+      ],
+      "required_moment_origin_Nmm": [
+        5962.48129687392,
+        -13107.1787129556,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        132.33363389008
+      ],
+      "required_moment_origin_Nmm": [
+        23026.05229687392,
+        -50617.6149629556,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        132.33363389008
+      ],
+      "required_moment_origin_Nmm": [
+        35872.763796873915,
+        -50617.6149629556,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        132.33363389008
+      ],
+      "required_moment_origin_Nmm": [
+        35872.763796873915,
+        -16858.222337955598,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        132.33363389008
+      ],
+      "required_moment_origin_Nmm": [
+        35872.763796873915,
+        -84377.0075879556,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 900,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        38.55052562634
+      ],
+      "required_moment_origin_Nmm": [
+        6707.79145898316,
+        -14745.576052075048,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        136.61702562634
+      ],
+      "required_moment_origin_Nmm": [
+        23771.36245898316,
+        -52256.01230207505,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        136.61702562634
+      ],
+      "required_moment_origin_Nmm": [
+        36618.07395898316,
+        -52256.01230207505,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        136.61702562634
+      ],
+      "required_moment_origin_Nmm": [
+        36618.07395898316,
+        -18496.619677075047,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J08"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        136.61702562634
+      ],
+      "required_moment_origin_Nmm": [
+        36618.07395898316,
+        -86015.40492707504,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 650,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.0337595200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        47.786414082498
+      ],
+      "required_moment_origin_Nmm": [
+        8314.836050354652,
+        -18278.303386555483,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.0337595200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        145.852914082498
+      ],
+      "required_moment_origin_Nmm": [
+        25378.407050354654,
+        -55788.73963655548,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.0337595200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        145.852914082498
+      ],
+      "required_moment_origin_Nmm": [
+        38225.11855035465,
+        -55788.73963655548,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.0337595200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        145.852914082498
+      ],
+      "required_moment_origin_Nmm": [
+        38225.11855035465,
+        -22029.34701155548,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 650,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 2.8390986,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.0337595200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        145.852914082498
+      ],
+      "required_moment_origin_Nmm": [
+        38225.11855035465,
+        -89548.13226155547,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 800,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.50308864,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        58.814048101535995
+      ],
+      "required_moment_origin_Nmm": [
+        10233.644369667263,
+        -22496.373398837517,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.50308864,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        156.880548101536
+      ],
+      "required_moment_origin_Nmm": [
+        27297.21536966726,
+        -60006.809648837516,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.50308864,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        156.880548101536
+      ],
+      "required_moment_origin_Nmm": [
+        40143.92686966726,
+        -60006.809648837516,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.50308864,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        156.880548101536
+      ],
+      "required_moment_origin_Nmm": [
+        40143.92686966726,
+        -26247.417023837515,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 800,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.4942752,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.50308864,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        156.880548101536
+      ],
+      "required_moment_origin_Nmm": [
+        40143.92686966726,
+        -93766.20227383751,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 900,
+      "payload_kg": 0.0,
+      "payload_case": "empty",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.8159747200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 0.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        66.165804114228
+      ],
+      "required_moment_origin_Nmm": [
+        11512.849915875671,
+        -25308.420073692207,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_center",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.8159747200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        164.232304114228
+      ],
+      "required_moment_origin_Nmm": [
+        28576.42091587567,
+        -62818.856323692205,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_front",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.8159747200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            382.5,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        164.232304114228
+      ],
+      "required_moment_origin_Nmm": [
+        41423.13241587567,
+        -62818.856323692205,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_u0",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.8159747200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            38.25,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        164.232304114228
+      ],
+      "required_moment_origin_Nmm": [
+        41423.13241587567,
+        -29059.463698692205,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    },
+    {
+      "cut": "base_e_divisorias",
+      "rho_kg_m3": 900,
+      "payload_kg": 10.0,
+      "payload_case": "10_near_uL",
+      "members": [
+        "Peca345",
+        "Peca347"
+      ],
+      "load_items": [
+        {
+          "part": "Peca345",
+          "mass_kg": 3.9310595999999998,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            9.0
+          ]
+        },
+        {
+          "part": "Peca347",
+          "mass_kg": 2.8159747200000003,
+          "center_uvz_mm": [
+            382.5,
+            174.0,
+            292.0
+          ]
+        },
+        {
+          "part": "conteudo",
+          "mass_kg": 10.0,
+          "center_uvz_mm": [
+            726.75,
+            305.0,
+            0.0
+          ]
+        }
+      ],
+      "boundary_groups": [
+        "P12_J02",
+        "P12_J05",
+        "P12_J07",
+        "P12_J09"
+      ],
+      "ideal_boundary_rank": 6,
+      "required_force_N": [
+        -0.0,
+        -0.0,
+        164.232304114228
+      ],
+      "required_moment_origin_Nmm": [
+        41423.13241587567,
+        -96578.2489486922,
+        -0.0
+      ],
+      "connector_force_distribution": null,
+      "scope": "Resultante sobre toda a fronteira; portas/fundo/tampo fora deste corte. Nao somar ao caso global que ja contem estas massas."
+    }
+  ],
+  "plate_compatibility": null,
+  "limits": [
+    "Geometria nominal de caixas persistidas; nenhum CAD aberto ou alterado. Sem furos, tolerancias e corpos reais completos.",
+    "Pontos e grafos descrevem conectividade, nao demonstram resistencia, rigidez ou estabilidade do conjunto.",
+    "Posto6 de uma fronteira e condicao algebrica necessaria do modelo de forcas livres; nao prova capacidade das juntas reais.",
+    "Par de Minifix colinear tem posto5: momento em torno da linha exige face de contato/rigidez ou outros caminhos. Tres Confirmat em coluna nao reagem sozinhos ao momento emz.",
+    "Corredores Confirmat20x100 sao reservas externas de bancada; nao incluem mao, cabeca, bit, mandril ou paredes. SKU/piloto/escareamento/torque pendentes.",
+    "Confirmat7x50 deixa32mm nominais alem da primeira chapa18; cilindro7 nao e especificacao de piloto. Cabecas laterais aparentes e traseiras junto a parede requerem detalhe.",
+    "Bigfer permanece candidata; ferramenta auxiliar12 e demais acessos herdados nao comprovam a montagem real.",
+    "P17: quatro4x30 com centros candidatos;cabeca/piloto/torque pendentes,12mm nominais na segunda chapa e6mm restantes. Sem composicao36mm. Cavilhas sem credito de resistencia e sem novo mapa.",
+    "P12: base e tampo tocam o fundo apenas por aresta; nao ha ligacao traseira direta creditada.",
+    "Sem carga de prova, protocolo de laboratorio, ensaio fisico ou capacidade de uso demonstrada."
+  ],
+  "nominal_body_pair_checks": 210,
+  "nominal_body_pair_interferences": [],
+  "assembly": [
+    "Em bancada apoiada: inserir divisorias na base pelos pinos verticais; acesso pelas faces livres.",
+    "Aproximar tampo emz sobre divisorias; fechar juntas verticais sem presumir translacao simultanea com laterais.",
+    "Aproximar cada lateral emu, encaixando seus quatro pinos horizontais; conferir apertos internos.",
+    "Posicionar fundo pela traseira; executar/apertar juntas traseiras e laterais com acesso externo. Validar sequencia com ferragens reais.",
+    "Conferir esquadro, diagonais, abertura das juntas e acesso dos suspensores antes das portas.",
+    "Montagem Bigfer com caixa sustentada e aperto pela frente depende de produto/fixadores; a instalacao exige parede conhecida."
+  ],
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "sources_sha256": {
+    "04_Moveis/Aereos_suspensao/Lote_B_geometria.json": "281b7b949967e48341feb013eab8e3fba732bc7b11ce3d35104430e560144864",
+    "04_Moveis/Aereos_suspensao/Lote_B_detalhamento.json": "dffc6c686a6cc26ee2aebcb3ff0c4a031011e0d8f69b63db59bb30c0aec208c5",
+    "04_Moveis/Aereos_suspensao/P12_suspensao.json": "becd32b88afb610638e204d72dee20f4427e51cd67c196e0a70e3211fc04af82",
+    "04_Moveis/Aereos_suspensao/Lote_B_fontes_Minifix.json": "7bc98543adeb941a42ad65b7e8f3288ef8d4a71250e6ef4e0d2bf7b43e132d8c"
+  },
+  "script_sha256": "62cb2490c9bd0b082744464bff2bc921eedc53a3b48d3eb0d7127914c88ff7da",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0"
+}
