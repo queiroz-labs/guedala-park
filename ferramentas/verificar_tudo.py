@@ -63,7 +63,8 @@ def main():
               ('links', ['ferramentas/verificar_links.py'] + so_commit),
               ('tamanho', ['ferramentas/verificar_tamanho.py'] + so_commit),
               ('privacidade', ['ferramentas/verificar_privacidade.py'] + so_commit),
-              ('fatos', ['ferramentas/verificar_fatos.py'] + so_commit)]
+              ('fatos', ['ferramentas/verificar_fatos.py'] + so_commit),
+              ('espacos', ['ferramentas/verificar_espacos.py', '--bloquear-corrigidos'])]
     if not ci:  # a consistencia usa datas de arquivo, que o checkout limpo do CI nao preserva
         passos.append(('consistencia', ['ferramentas/verificar_consistencia.py']))
         if tem_staged:

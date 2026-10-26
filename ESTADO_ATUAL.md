@@ -103,3 +103,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Versões antigas (R45 a R51, compatibilizações, arquivo morto) estão no git, na tag `antes-reorganizacao`.
 
 - Documentação, 26/10/2026: README dos aéreos compactado, com limites técnicos preservados, para permitir a reposição de espaços dentro de 16 KB.
+
+- Espaços, 26/10/2026: textos do estado, plano e READMEs revisados; verificador em `ferramentas/verificar_espacos.py`, com bloqueio somente nos 13 arquivos já limpos também no Git. P03 e trechos novos de outras sessões permanecem corrigidos no disco, sem commit, conforme orientação de Elias neste chat em 26/10/2026. Retomar após o commit de origem, conferir os 15 arquivos e ampliar a lista de bloqueio.

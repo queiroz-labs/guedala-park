@@ -49,3 +49,11 @@ A variável opcional `GP_TRIAGEM_SAIDA` escolhe outro JSON. Leia a [interpretaç
 Detalhes do gerador do site: [site/README.md](site/README.md).
 
 Revisão de espaços de 26/10/2026: o limite de 16 KB dos READMEs permanece; o índice dos aéreos teve apenas redundância e quebras de linha compactadas antes da correção.
+
+## Espaços nos textos
+
+`python -B ferramentas/verificar_espacos.py` examina os Markdown versionados e novos, exceto Registro de decisões, histórico e fontes brutas. Avisa sobre palavra minúscula colada a P/R/T/C com dois dígitos e número colado a palavra comum. Não altera textos; citações, código e destinos de links são preservados. Não é um corretor geral de português.
+
+`espacos_excecoes.json` aceita exceções literais por `arquivo`, `trecho` e `motivo`; a lista começa vazia. `corrigidos` contém os arquivos que passaram limpos no disco e no Git. `verificar_tudo.py` usa `--bloquear-corrigidos`: falha apenas nesse conjunto; demais achados continuam avisos. Use `--bloquear` com caminhos explícitos para conferir uma nova revisão antes de ampliar a lista. P03 e Corte_e_formatos aguardam consolidação de trechos de outras sessões para entrar no bloqueio.
+
+Teste: `python -B ferramentas/test_verificar_espacos.py`. Inclui detecção, nomes/códigos válidos, citações, links, exceções locais e códigos de saída dos modos aviso/bloqueio.

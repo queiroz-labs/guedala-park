@@ -1,0 +1,18 @@
+{
+  "corrigidos": [
+    "ESTADO_ATUAL.md",
+    "05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md",
+    "ferramentas/README.md",
+    "04_Moveis/P04/Suspensao_P04_P15/README.md",
+    "04_Moveis/P15/Composicao_parcial/README.md",
+    "04_Moveis/Aereos_suspensao/README.md",
+    "04_Moveis/P17/Base_fundo_ligacoes/README.md",
+    "04_Moveis/P12/README.md",
+    "04_Moveis/P16/Gavetas_estabilidade/README.md",
+    "04_Moveis/P16/Interface_guia_fundo/README.md",
+    "04_Moveis/Bancada/README.md",
+    "04_Moveis/P20/Assento_fechado/README.md",
+    "04_Moveis/P14/Reacoes_e_operacao/README.md"
+  ],
+  "excecoes": []
+}
