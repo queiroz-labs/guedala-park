@@ -17,14 +17,14 @@ Conferência documental antecipada do trabalho previsto para 30/10, após os com
 
 **Publicação R22 — 26/10/2026:** integra estudos correntes e pé-direito 2,60 m = 260 cm = 2600 mm, medida a confirmar, por decisão de Elias em 26/10/2026. Cenário separado de forro do escritório: 2,47 m. Sem medição real, fabricação ou alteração do FreeCAD R52. Fonte: [pesquisa e decisão](../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
-> **Atualização R52/R21:** modeloR52 e fichasR14; pacoteR21 com matriz20/20 e suspensãoP17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
+> **Registro anterior R52/R21, divergente do manifesto:** modelo R52 e fichas R14; pacote R21 com matriz 20/20 e suspensão P17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
 
 | Uso | Abrir | Revisão |
 |---|---|---|
 | Modelo3D FreeCAD | [Modelo completo R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [conferências](../02_Modelo_3D/README.md) | R52 |
-| Pacote corrente para compartilhar | [Guedala_Park_R21.zip](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip) | R21 |
+| Pacote citado na entrada anterior; divergência pendente | [Guedala_Park_R21.zip](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip) | R21; não usar esta linha como confirmação de vigência |
 | Entrega anterior selada | `Compartilhar_R17/Guedala_Park_R17.zip` (somente no PC, fora do Git/site) | Histórico preservado, não regenerado |
-| Guia do montador | [Dossiê de marcenaria](Dossie_marcenaria_R45.html) | Links para as fichas na pasta vigente `Fichas_fabricacao/` |
+| Consulta atual do montador | [Fichas dos 20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14; o dossiê com nome R45 deixa de ser a entrada de vigência |
 | Fichas, furação e pendências | [20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14 |
 | Planta cotada | [Planta](Planta_cotada/index.html) | R13 |
 | Especificações | [Caderno](../01_Programa_e_decisoes/Caderno_de_especificacoes.md) | R01 com referência CAD corrente |
@@ -50,7 +50,7 @@ A R49 ([o que mudou](../02_Modelo_3D/Historico/Gavetas_escritorio/README.md)) co
 
 ## Histórico preservado — situação documental em 21/10/2026
 
-Naquela data o modelo vigente era o R41. Os PDFs listados abaixo são entregas históricas; não foram reexportados e não representam todas as alterações posteriores. Para orçamento, ler o complemento vigente R41 junto ao pacote R30. Nenhum PDF novo é declarado nesta atualização.
+Naquela data o modelo vigente era o R41. Os PDFs listados abaixo são entregas históricas; não foram reexportados e não representam todas as alterações posteriores. O complemento R41 e o pacote R30 pertencem àquela entrega; para o orçamento atual, usar o [consolidado R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md). Nenhum PDF novo é declarado nesta atualização.
 
 ---
 
@@ -71,10 +71,23 @@ Os nomes preservam assunto, data e revisão. R28 não inclui automaticamente mud
 - [Quarto canto independente R01 2026-10-12](pdf/Quarto_canto_independente_R01_2026-10-12.pdf)
 - [Quarto conferencia giro R02 2026-10-12](pdf/Quarto_conferencia_giro_R02_2026-10-12.pdf)
 - [Renders dos ambientes 2026-10-12](pdf/Renders_dos_ambientes_2026-10-12.pdf)
-# Pacote atual para orçamento — R30
+# Pacote histórico para orçamento — R30
 
 [Caderno R30 — PDF de 28 páginas](pdf/Guedala_R30_Pacote_para_orcamento.pdf) · Escopo e arquivos de apoio.
 
 Projeções dos vinte módulos atualizadas da R30, corte de cocção, ferragens de referência, complementos e ficha de resposta. Sete apoios propostos como alternativa separada. Orçamento preliminar condicionado; sem liberação de fabricação. As entregas R28 abaixo são históricas.
 
 **Pacote localR17 —25/10/2026:** `Compartilhar_R17/Guedala_Park_R17.zip` (cópia local, fora do Git/site). [Avanços e condições](../04_Moveis/Proximas_decisoes/README.md). O registro R16 é histórico; este ZIP R17 não está disponível no clone ou no site.
+
+## Referências antigas — triagem T09
+
+Busca nos Markdown de entrada e referências cruzadas em 26/10/2026: encaminhamento do montador corrigido para fichas R14; roteiro oficial aponta ao modelo R52 e orçamento R44; rascunho de reforma identifica R44. O nome `Orcamento_R43.md` permanece por instrução do pedido A: seu conteúdo é R44. Revisões próprias R00/R01/R14 e links de evidência histórica não são erros por terem número menor que R52.
+
+| Referência sem substituição integral demonstrada | Pendência para Elias/projeto |
+|---|---|
+| `Dossie_marcenaria_R45.html` e [consulta R12](../ferramentas/site/Marcenaria_R12_2026-10-23/README.md) | Nome/base R45 com trechos atualizados; usar fichas e estado como entrada. Não renomeado, apagado nem tratado como cópia integral da R52. |
+| [Planta mobiliada R02](../03_Ambientes/Planta_mobiliada/README.md), [programa R01](../01_Programa_e_decisoes/Programa_de_necessidades.md) e pranchas R00 | Documentam geometria R45; sem artefato substituto demonstrado nesta tarefa. Conferir vistas contra R52 numa integração autorizada; não trocar a revisão escrita sobre desenhos antigos. |
+| [Painel de decisões](../01_Programa_e_decisoes/Painel_de_decisoes.md) | Cabeçalho de pacote R18 e blocos datados chamados “vigente R44/R43”; ler como registro histórico onde superado pelo estado. Falta conciliar pacote e reorganizar a entrada sem perder fontes. |
+| [Registro de publicação](../ferramentas/site/Publicacao_GitHub_Pages.md) | “Revisão vigente R05” pertence ao registro de setembro; não é confirmação da versão online atual nem autorização de push nesta tarefa. |
+
+Não houve auditoria remota dos ZIPs nem regeneração das entregas. Revisões de estudos antigos permanecem nas fontes; dúvidas acima não foram resolvidas por simples troca de rótulo.

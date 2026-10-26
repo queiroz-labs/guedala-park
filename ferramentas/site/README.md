@@ -4,6 +4,8 @@
 
 A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R22 em `06_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
 
+T09, 26/10/2026: entradas antigas de consulta R12/R45 encaminham agora às fichas R14 e ao estado atual. [Manifesto e referências ainda divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09). Fontes e artefatos do site preservados; revisão documental não confirma a publicação remota.
+
 Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 
 ```powershell

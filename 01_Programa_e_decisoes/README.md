@@ -15,3 +15,5 @@
 | [Rascunhos_emails.md](Rascunhos_emails.md) | E-mails preparados (não enviados) | curto |
 
 As decisões atuais estão resumidas no [ESTADO_ATUAL.md](../ESTADO_ATUAL.md); este registro é a fonte do porquê.
+
+Conferência T09, 26/10/2026: roteiro oficial aponta ao modelo R52 e orçamento R44; referência financeira do rascunho de reforma alinhada. [Divergências documentais preservadas](../06_Entregas/README.md#referências-antigas--triagem-t09): bases R45 do programa/vistas e rótulos históricos do painel ainda não demonstram integração integral.

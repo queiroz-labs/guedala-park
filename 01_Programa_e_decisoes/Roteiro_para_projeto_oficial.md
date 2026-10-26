@@ -15,12 +15,12 @@
 | Programa de necessidades | 100% | [Programa de necessidades R01](Programa_de_necessidades.md) | Validar uso no local após as chaves |
 | Levantamento do imóvel | 25% | [Medidas](../03_Ambientes/Medidas/README.md), [visita](../07_Imovel/README.md) (unidade espelhada) | Vistoria completa após as chaves |
 | Estudo preliminar | 100% | [Planta mobiliada R02 e vistas](../03_Ambientes/Planta_mobiliada/README.md), site 3D | Validar no local (os 4 textos desatualizados do site foram corrigidos e publicados em 24/10) |
-| Anteprojeto | 75% | Modelo R45, [acabamentos](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa (o banheiro já tem Arauco Beige Matt e Louro Freijó Poro, 24/10), off-white exato, amostras |
+| Anteprojeto | 75% | [Modelo vigente R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd), [acabamentos](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa (o banheiro já tem Arauco Beige Matt e Louro Freijó Poro, 24/10), off-white exato, amostras |
 | Executivo de marcenaria | 45–55% | [Fichas R14](../06_Entregas/Fichas_fabricacao/index.html), [Pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) | Ver item 4 |
 | Complementares | 30% | [Planta de pontos preliminar R00](../03_Ambientes/Planta_pontos/README.md): 50 pontos de elétrica, luz, água, esgoto e gás | Circuitos, traçados e assinatura do RT |
 | Pranchas formais | 45% | [Caderno de pranchas R00](../06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf): 7 pranchas A3 com carimbo (planta cotada, layout, pontos, vistas) | Elevações cotadas, detalhes da marcenaria e cotas finais após a medição |
 | Memorial e especificações | 70% | [Caderno de especificações R01](Caderno_de_especificacoes.md), gerado a partir dos dados do site | Códigos de chapa e itens parciais; revisão do(a) RT |
-| Orçamento | 60% | [Orçamento R43](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): estimativa R$137,8 mil contra teto de R$120 mil | Cotações reais |
+| Orçamento | 60% | [Orçamento R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): execução R$ 137.748,11 contra teto de R$ 120 mil; reserva R$ 10 mil intocada | Cotações reais e divergências listadas no consolidado |
 | Responsabilidade técnica e aprovação | 10% | [Rascunho do plano de reforma NBR 16280](Plano_de_reforma_NBR16280.md) e perguntas à administração | Contratar RT; protocolar após as chaves |
 
 ## O que falta, em ordem de dependência
@@ -74,7 +74,7 @@
 - [ ] Exportar em PDF e DWG/DXF para o profissional e os fornecedores.
 
 ### 6. Uma revisão vigente única
-- [ ] Reconciliar a geometria R45, o pacote R16, as fichas R14 e o orçamento R43 numa só revisão.
+- [ ] Reconciliar modelo R52, fichas R14, orçamento R44 e as versões divergentes de pacote no [manifesto](../06_Entregas/README.md#manifesto-de-versões--conferência-t09-em-26102026); conferir as vistas ainda baseadas na R45 sem presumir que foram regeneradas.
 - [x] Atualizar o [README de entregas](../06_Entregas/README.md): desde 24/10 ele abre com "o que vale hoje"; o R41 ficou só na parte histórica.
 
 ### 7. Orçamento com preços reais

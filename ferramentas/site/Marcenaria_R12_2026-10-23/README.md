@@ -3,7 +3,7 @@
 Site: https://queiroz-labs.github.io/guedala-park/
 Figma: https://www.figma.com/design/ChOvYeL6ULhHR3GEGgcukZ?node-id=2-2
 
-Consulta por seis ambientes e 20 módulos, visualização 3D/2,5D, isolamento e seleção de peças, medidas em milímetros, ferragens, acabamentos, impressão e CSV. Biblioteca com fontes explícitas e arquivos FreeCAD. O dossiê está em `06_Entregas/Dossie_marcenaria_R45.html`.
+Consulta por seis ambientes e 20 módulos, visualização 3D/2,5D, isolamento e seleção de peças, medidas em milímetros, ferragens, acabamentos, impressão e CSV. Biblioteca com fontes explícitas e arquivos FreeCAD. Para consulta vigente, usar as [fichas R14](../../../06_Entregas/Fichas_fabricacao/index.html) e o [estado atual](../../../ESTADO_ATUAL.md). `06_Entregas/Dossie_marcenaria_R45.html` é o caminho anterior; este README documenta a base R12/R45, sem demonstrar atualização integral para R52.
 
 ## Dados e limites
 

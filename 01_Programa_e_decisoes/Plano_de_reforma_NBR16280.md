@@ -4,7 +4,7 @@
 
 A NBR 16280 (reforma em edificações) pede que toda reforma em unidade de condomínio tenha um plano elaborado por profissional habilitado e seja apresentada ao responsável legal da edificação antes do início das obras. Confirmar com o(a) profissional a versão vigente da norma e o formato aceito pelo condomínio. Os campos marcados **[RT]** são do(a) responsável técnico(a); os campos **[ADM]** dependem da administração.
 
-Fontes: [Convenção e ata](Convencao_e_ata_impactos.md), [Programa R01](Programa_de_necessidades.md), [Caderno de especificações R01](Caderno_de_especificacoes.md), [Orçamento R43](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) e [Memorial Cury](Memorial_Cury_impactos.md).
+Fontes: [Convenção e ata](Convencao_e_ata_impactos.md), [Programa R01](Programa_de_necessidades.md), [Caderno de especificações R01](Caderno_de_especificacoes.md), [Orçamento R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) e [Memorial Cury](Memorial_Cury_impactos.md).
 
 ## 1. Identificação
 
