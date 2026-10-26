@@ -1,4 +1,19 @@
-# Entregas — publicação R52/R21
+# Entregas — manifesto e versões
+
+## Manifesto de versões — conferência T09 em 26/10/2026
+
+Conferência documental antecipada do trabalho previsto para 30/10, após os commits A–E. Não altera revisões nem comprova publicação remota. Referências: [estado atual](../ESTADO_ATUAL.md) e [manifesto do gerador](../ferramentas/site/current_release.json).
+
+| Item solicitado | Onde está a versão | Concorda com o ESTADO_ATUAL? |
+|---|---|---|
+| Modelo R52 | `cadPath`: [02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd). `cadSHA256`: `941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da` | Sim: R52 no estado e no `current_release.json`; SHA informado pelo manifesto, conferido pelo verificador geral. |
+| Fichas R14 | [Índice dos 20 móveis](Fichas_fabricacao/index.html); `fabricationRevision` = R14 | Sim: revisão do conteúdo e do estado. |
+| Pacote R21 | Link anterior neste README: `06_Entregas/Publicacao/Guedala_Park_R21.zip` | **Não:** estado e `packageRevision` indicam R22, caminho `06_Entregas/Publicacao/Guedala_Park_R22.zip`. R21 pedido fica identificado como divergência, sem substituir o pacote. |
+| Pranchas R00 | [Índice](Caderno_pranchas/index.html) · [PDF R00](Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) | Sim quanto à revisão; não comprova atualização de todas as vistas para a R52. |
+| Orçamento R44 | [Consolidado R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md), revisão no texto, nome preservado | Sim: R$ 137.748,11 de execução no estado e no consolidado. |
+| Especificações R01 | [Caderno R01](../01_Programa_e_decisoes/Caderno_de_especificacoes.md) | Sim quanto à revisão; coerência integral com estudos posteriores continua condicionada. |
+
+**Divergências a reconciliar, sem alteração automática:** pacote R21 na entrada antiga abaixo versus R22 no estado/gerador; `lastPublishedPackageRevision` ainda R18 no mesmo JSON. O plano também conserva R20 na linha de ponto de partida. Identificar revisão local, conteúdo selado e publicação remota antes de harmonizar esses registros; esta conferência não prova qual ZIP está servido online. Números de revisão iguais, isoladamente, não demonstram integração técnica.
 
 **Publicação R22 — 26/10/2026:** integra estudos correntes e pé-direito 2,60 m = 260 cm = 2600 mm, medida a confirmar, por decisão de Elias em 26/10/2026. Cenário separado de forro do escritório: 2,47 m. Sem medição real, fabricação ou alteração do FreeCAD R52. Fonte: [pesquisa e decisão](../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 

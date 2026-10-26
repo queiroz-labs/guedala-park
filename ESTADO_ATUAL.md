@@ -101,6 +101,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
+- T09 documental, 26/10/2026: [manifesto de versões](06_Entregas/README.md#manifesto-de-versões--conferência-t09-em-26102026) conferido após A–E; pacote R21 solicitado diverge de R22 no estado/gerador e R18 no campo de última publicação. Revisões preservadas; reconciliação pendente.
+
 - Estudos dos aéreos: hashes de texto normalizam CRLF/LF e caminhos relativos usam `/`, permitindo conferência em clone limpo. PDF/FCStd continuam byte a byte; cálculos e geometrias preservados.
 
 - Regras de organização e leitura econômica: [AGENTS.md](AGENTS.md). Mapa das pastas: [README.md](README.md).
