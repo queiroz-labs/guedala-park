@@ -1,0 +1,1517 @@
+{
+  "status": "PROPOSTA_NAO_APLICADA",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_audit": "Conferencia_P01_P06.json",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "rows": [
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "inner_width_mm": 314.0,
+      "external_width_mm": 344.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 42.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "inner_width_mm": 314.0,
+      "external_width_mm": 344.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 42.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "inner_width_mm": 314.0,
+      "external_width_mm": 344.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 42.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "inner_width_mm": 314.0,
+      "external_width_mm": 344.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 42.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "inner_width_mm": 542.0,
+      "external_width_mm": 572.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 74.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "inner_width_mm": 542.0,
+      "external_width_mm": 572.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 74.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "inner_width_mm": 542.0,
+      "external_width_mm": 572.0,
+      "depth_mm": 500,
+      "back_clearance_mm": 74.0,
+      "centered_side_clearance_mm": 5.5,
+      "inner_length_before_mm": 459.0,
+      "inner_length_proposed_mm": 469.0,
+      "bottom_underside_offset_mm": 12.0,
+      "groove_overlap_each_side_mm": 5,
+      "front_and_z_preserved": true
+    }
+  ],
+  "parts": [
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR08",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        7351.0,
+        3380.0,
+        820.0,
+        7366.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        7351.5,
+        3380.0,
+        820.0,
+        7366.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR001",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        7023.0,
+        3380.0,
+        820.0,
+        7038.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        7022.5,
+        3380.0,
+        820.0,
+        7037.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR002",
+      "role": "fundo",
+      "before_box_mm": [
+        7033.0,
+        3380.0,
+        832.0,
+        7356.0,
+        3870.0,
+        847.0
+      ],
+      "proposed_box_mm": [
+        7032.5,
+        3380.0,
+        832.0,
+        7356.5,
+        3880.0,
+        847.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR003",
+      "role": "traseira",
+      "before_box_mm": [
+        7038.0,
+        3855.0,
+        847.0,
+        7351.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        7037.5,
+        3865.0,
+        847.0,
+        7351.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR004",
+      "role": "frente_interna",
+      "before_box_mm": [
+        7038.0,
+        3380.0,
+        847.0,
+        7351.0,
+        3396.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        7037.5,
+        3380.0,
+        847.0,
+        7351.5,
+        3396.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta",
+      "module": "P01",
+      "object": "GavetaComumR005",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        7018.0,
+        3362.0,
+        800.0,
+        7371.0,
+        3380.0,
+        942.0
+      ],
+      "proposed_box_mm": [
+        7018.0,
+        3362.0,
+        800.0,
+        7371.0,
+        3380.0,
+        942.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR012",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        7351.0,
+        3380.0,
+        970.0,
+        7366.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        7351.5,
+        3380.0,
+        970.0,
+        7366.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR013",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        7023.0,
+        3380.0,
+        970.0,
+        7038.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        7022.5,
+        3380.0,
+        970.0,
+        7037.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR014",
+      "role": "fundo",
+      "before_box_mm": [
+        7033.0,
+        3380.0,
+        982.0,
+        7356.0,
+        3870.0,
+        997.0
+      ],
+      "proposed_box_mm": [
+        7032.5,
+        3380.0,
+        982.0,
+        7356.5,
+        3880.0,
+        997.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR015",
+      "role": "traseira",
+      "before_box_mm": [
+        7038.0,
+        3855.0,
+        997.0,
+        7351.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        7037.5,
+        3865.0,
+        997.0,
+        7351.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR016",
+      "role": "frente_interna",
+      "before_box_mm": [
+        7038.0,
+        3380.0,
+        997.0,
+        7351.0,
+        3396.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        7037.5,
+        3380.0,
+        997.0,
+        7351.5,
+        3396.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta001",
+      "module": "P01",
+      "object": "GavetaComumR017",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        7018.0,
+        3362.0,
+        950.0,
+        7371.0,
+        3380.0,
+        1080.0
+      ],
+      "proposed_box_mm": [
+        7018.0,
+        3362.0,
+        950.0,
+        7371.0,
+        3380.0,
+        1080.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR024",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        5742.0,
+        3380.0,
+        820.0,
+        5757.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        5742.5,
+        3380.0,
+        820.0,
+        5757.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR025",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        5414.0,
+        3380.0,
+        820.0,
+        5429.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        5413.5,
+        3380.0,
+        820.0,
+        5428.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR026",
+      "role": "fundo",
+      "before_box_mm": [
+        5424.0,
+        3380.0,
+        832.0,
+        5747.0,
+        3870.0,
+        847.0
+      ],
+      "proposed_box_mm": [
+        5423.5,
+        3380.0,
+        832.0,
+        5747.5,
+        3880.0,
+        847.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR027",
+      "role": "traseira",
+      "before_box_mm": [
+        5429.0,
+        3855.0,
+        847.0,
+        5742.0,
+        3870.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        5428.5,
+        3865.0,
+        847.0,
+        5742.5,
+        3880.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR028",
+      "role": "frente_interna",
+      "before_box_mm": [
+        5429.0,
+        3380.0,
+        847.0,
+        5742.0,
+        3396.0,
+        920.0
+      ],
+      "proposed_box_mm": [
+        5428.5,
+        3380.0,
+        847.0,
+        5742.5,
+        3396.0,
+        920.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta002",
+      "module": "P01",
+      "object": "GavetaComumR029",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        5409.0,
+        3362.0,
+        800.0,
+        5762.0,
+        3380.0,
+        942.0
+      ],
+      "proposed_box_mm": [
+        5409.0,
+        3362.0,
+        800.0,
+        5762.0,
+        3380.0,
+        942.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR036",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        5742.0,
+        3380.0,
+        970.0,
+        5757.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        5742.5,
+        3380.0,
+        970.0,
+        5757.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR037",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        5414.0,
+        3380.0,
+        970.0,
+        5429.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        5413.5,
+        3380.0,
+        970.0,
+        5428.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR038",
+      "role": "fundo",
+      "before_box_mm": [
+        5424.0,
+        3380.0,
+        982.0,
+        5747.0,
+        3870.0,
+        997.0
+      ],
+      "proposed_box_mm": [
+        5423.5,
+        3380.0,
+        982.0,
+        5747.5,
+        3880.0,
+        997.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR039",
+      "role": "traseira",
+      "before_box_mm": [
+        5429.0,
+        3855.0,
+        997.0,
+        5742.0,
+        3870.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        5428.5,
+        3865.0,
+        997.0,
+        5742.5,
+        3880.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR040",
+      "role": "frente_interna",
+      "before_box_mm": [
+        5429.0,
+        3380.0,
+        997.0,
+        5742.0,
+        3396.0,
+        1070.0
+      ],
+      "proposed_box_mm": [
+        5428.5,
+        3380.0,
+        997.0,
+        5742.5,
+        3396.0,
+        1070.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta003",
+      "module": "P01",
+      "object": "GavetaComumR041",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        5409.0,
+        3362.0,
+        950.0,
+        5762.0,
+        3380.0,
+        1080.0
+      ],
+      "proposed_box_mm": [
+        5409.0,
+        3362.0,
+        950.0,
+        5762.0,
+        3380.0,
+        1080.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR048",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        2231.0,
+        6408.0,
+        217.0,
+        2246.0,
+        6898.0,
+        517.0
+      ],
+      "proposed_box_mm": [
+        2231.5,
+        6408.0,
+        217.0,
+        2246.5,
+        6908.0,
+        517.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR049",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        1675.0,
+        6408.0,
+        217.0,
+        1690.0,
+        6898.0,
+        517.0
+      ],
+      "proposed_box_mm": [
+        1674.5,
+        6408.0,
+        217.0,
+        1689.5,
+        6908.0,
+        517.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR050",
+      "role": "fundo",
+      "before_box_mm": [
+        1685.0,
+        6408.0,
+        229.0,
+        2236.0,
+        6898.0,
+        244.0
+      ],
+      "proposed_box_mm": [
+        1684.5,
+        6408.0,
+        229.0,
+        2236.5,
+        6908.0,
+        244.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR051",
+      "role": "traseira",
+      "before_box_mm": [
+        1690.0,
+        6883.0,
+        244.0,
+        2231.0,
+        6898.0,
+        517.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6893.0,
+        244.0,
+        2231.5,
+        6908.0,
+        517.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR052",
+      "role": "frente_interna",
+      "before_box_mm": [
+        1690.0,
+        6408.0,
+        244.0,
+        2231.0,
+        6424.0,
+        517.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6408.0,
+        244.0,
+        2231.5,
+        6424.0,
+        517.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta004",
+      "module": "P06",
+      "object": "GavetaComumR053",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        1652.0,
+        6390.0,
+        181.0,
+        2269.0,
+        6408.0,
+        577.0
+      ],
+      "proposed_box_mm": [
+        1652.0,
+        6390.0,
+        181.0,
+        2269.0,
+        6408.0,
+        577.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R017",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        2231.0,
+        6408.0,
+        601.0,
+        2246.0,
+        6898.0,
+        701.0
+      ],
+      "proposed_box_mm": [
+        2231.5,
+        6408.0,
+        601.0,
+        2246.5,
+        6908.0,
+        701.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R018",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        1675.0,
+        6408.0,
+        601.0,
+        1690.0,
+        6898.0,
+        701.0
+      ],
+      "proposed_box_mm": [
+        1674.5,
+        6408.0,
+        601.0,
+        1689.5,
+        6908.0,
+        701.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R019",
+      "role": "fundo",
+      "before_box_mm": [
+        1685.0,
+        6408.0,
+        613.0,
+        2236.0,
+        6898.0,
+        629.196
+      ],
+      "proposed_box_mm": [
+        1684.5,
+        6408.0,
+        613.0,
+        2236.5,
+        6908.0,
+        629.196
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": "Imported bottom envelope 16.196, not panel thickness"
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R016",
+      "role": "traseira",
+      "before_box_mm": [
+        1690.0,
+        6883.0,
+        628.0,
+        2231.0,
+        6898.0,
+        701.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6893.0,
+        628.0,
+        2231.5,
+        6908.0,
+        701.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R021",
+      "role": "frente_interna",
+      "before_box_mm": [
+        1690.0,
+        6408.0,
+        628.0,
+        2231.0,
+        6424.0,
+        701.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6408.0,
+        628.0,
+        2231.5,
+        6424.0,
+        701.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta005",
+      "module": "P06",
+      "object": "MontagemG2R020",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        1652.0,
+        6390.0,
+        581.0,
+        2269.0,
+        6408.0,
+        737.0
+      ],
+      "proposed_box_mm": [
+        1652.0,
+        6390.0,
+        581.0,
+        2269.0,
+        6408.0,
+        737.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR060",
+      "role": "lateral_x_maior",
+      "before_box_mm": [
+        2231.0,
+        6408.0,
+        761.0,
+        2246.0,
+        6898.0,
+        841.0
+      ],
+      "proposed_box_mm": [
+        2231.5,
+        6408.0,
+        761.0,
+        2246.5,
+        6908.0,
+        841.0
+      ],
+      "delta_box_mm": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR061",
+      "role": "lateral_x_menor",
+      "before_box_mm": [
+        1675.0,
+        6408.0,
+        761.0,
+        1690.0,
+        6898.0,
+        841.0
+      ],
+      "proposed_box_mm": [
+        1674.5,
+        6408.0,
+        761.0,
+        1689.5,
+        6908.0,
+        841.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR062",
+      "role": "fundo",
+      "before_box_mm": [
+        1685.0,
+        6408.0,
+        773.0,
+        2236.0,
+        6898.0,
+        788.0
+      ],
+      "proposed_box_mm": [
+        1684.5,
+        6408.0,
+        773.0,
+        2236.5,
+        6908.0,
+        788.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR063",
+      "role": "traseira",
+      "before_box_mm": [
+        1690.0,
+        6883.0,
+        788.0,
+        2231.0,
+        6898.0,
+        841.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6893.0,
+        788.0,
+        2231.5,
+        6908.0,
+        841.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        10.0,
+        0.0,
+        0.5,
+        10.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR064",
+      "role": "frente_interna",
+      "before_box_mm": [
+        1690.0,
+        6408.0,
+        788.0,
+        2231.0,
+        6424.0,
+        841.0
+      ],
+      "proposed_box_mm": [
+        1689.5,
+        6408.0,
+        788.0,
+        2231.5,
+        6424.0,
+        841.0
+      ],
+      "delta_box_mm": [
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    },
+    {
+      "drawer": "Gaveta006",
+      "module": "P06",
+      "object": "GavetaComumR065",
+      "role": "frente_decorativa",
+      "before_box_mm": [
+        1652.0,
+        6390.0,
+        741.0,
+        2269.0,
+        6408.0,
+        897.0
+      ],
+      "proposed_box_mm": [
+        1652.0,
+        6390.0,
+        741.0,
+        2269.0,
+        6408.0,
+        897.0
+      ],
+      "delta_box_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scope": "Envelope only; no machining",
+      "exception": null
+    }
+  ],
+  "preserved_trays": [
+    {
+      "object": "BandejaG2R06",
+      "preserved_box_mm": [
+        2026.0,
+        6426.0,
+        628.0,
+        2226.0,
+        6881.0,
+        728.0
+      ],
+      "horizontal_gaps_mm": {
+        "before_box_mm": {
+          "left": 336.0,
+          "right": 5.0,
+          "front": 2.0,
+          "back": 2.0
+        },
+        "proposed_box_mm": {
+          "left": 336.5,
+          "right": 5.5,
+          "front": 2.0,
+          "back": 12.0
+        }
+      },
+      "existing_bottom_envelope_z_overlap_mm": 1.196,
+      "status": "Actual shapes/support unresolved; vertical envelope overlap already exists"
+    },
+    {
+      "object": "BandejaG2R001",
+      "preserved_box_mm": [
+        1709.0,
+        6426.0,
+        628.0,
+        2021.0,
+        6881.0,
+        729.0
+      ],
+      "horizontal_gaps_mm": {
+        "before_box_mm": {
+          "left": 19.0,
+          "right": 210.0,
+          "front": 2.0,
+          "back": 2.0
+        },
+        "proposed_box_mm": {
+          "left": 19.5,
+          "right": 210.5,
+          "front": 2.0,
+          "back": 12.0
+        }
+      },
+      "existing_bottom_envelope_z_overlap_mm": 1.196,
+      "status": "Actual shapes/support unresolved; vertical envelope overlap already exists"
+    }
+  ],
+  "limits": [
+    "Global bounding boxes in mm, not cut list or CAD features.",
+    "Groove overlap inferred from envelopes; actual grooves not verified.",
+    "Hardware, fasteners, holes, vertical adjustment and removal unresolved.",
+    "T51 excluded: never a FGVTN drilling template.",
+    "No collision sweep, strength or capacity verification."
+  ]
+}
