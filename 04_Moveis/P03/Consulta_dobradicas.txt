@@ -1,0 +1,98 @@
+RASCUNHO PARA REVISÃO — NÃO ENVIADO
+Para: info.br@blum.com
+Assunto: Consulta técnica — maleiro, folha larga 672 x 306 mm e três dobradiças
+
+Olá, equipe Blum do Brasil.
+
+Gostaríamos de confirmar uma aplicação CLIP top BLUMOTION em maleiro baixo,
+com duas portas laterais opostas e sem montante central. A caixa tem envelope
+externo 1350 x 650 x 308 mm. O projeto deve permitir entrada de duas malas
+fechadas de referência 550 x 350 x 250 mm, mantendo o alinhamento em L.
+
+Priorizamos a alternativa A, ainda não liberada para fabricação:
+
+A — duas folhas 672 x 306 x 18 mm, dobradiça 71B3550/calço 173H7100 distância 0,
+K5/recobrimento nominal 16. O desenho inicial previa dois canecos a 79/227 da
+borda inferior (entre-eixos 148 mm). Agora investigamos três por folha em
+52/153/254 mm (extremos 202 mm), preservando o tamanho e a aparência de A.
+Precisamos confirmar se o produto admite a folha baixa/larga e esse grupo;
+não pressupomos que acrescentar uma dobradiça aprove a aplicação.
+
+B — comparação secundária: duas folhas 650 x 306 x 18 mm,
+dobradiça 71B3550/calço 173H7130 distância 3,
+K5/recobrimento nominal 13. Três canecos por folha, eixos a 52/153/254 da borda
+inferior (extremos 202 mm). Inclui revestimentos internos de madeira 18 mm
+para suporte dos calços e faixas fixas frontais 18 mm nas extremidades.
+
+Em ambas: canecoØ35, profundidade mínima publicada13, eixo a22,5 da borda.
+Base de especificação: MDFBP Greenplac convencional18, ArenzaColore/Lizze
+liso nas duas faces de cada peçaP03;SKU e espessura do núcleo a confirmar.
+Duas peças separadas18+15 podem ter cores distintas; não foram acrescentadas aoP03. Pela área e massa de
+chapa63,2kg/2750x1850 publicada paraArenza18, cada folhaA corresponde a2,55kg
+antes de ferragens/bordas e sem descontar furos. Mantemos4kg acabados por
+folha, incluindo acessórios/composição final; é hipótese, não pesagem.
+Curso de estudo86 graus,
+limitador 70T3553 candidato, parafuso 609.1500 de 3,5 x 15 candidato.
+
+O guia de quantidade informa valores básicos até 600 mm e uma dobradiça
+adicional para larguras até 650 mm. Também recomenda, em princípio, altura
+maior que largura. Como nossas folhas são baixas/largas, não tratamos essa
+orientação como confirmação específica de A ou B.
+Fonte: https://ea.blum.com/en/number-of-hinges/
+
+Solicitamos:
+1. Confirmar prioritariamente A672 x306 x18 com massa acabada investigada4kg,
+   incluindo três dobradiças/extremos202 ou outra configuração indicada.
+   Indicar quantidade, espaçamento mínimo/máximo dos canecos e
+   limites de largura/altura/massa. Caso nenhuma seja admitida, indicar uma
+   ferragem aplicável com desenho e critérios de seleção.
+2. Confirmar K5/recobrimento 16/calço 0 em A e K5/recobrimento 13/calço 3 em B,
+   compatibilidade 71B3550, gabarito, regulagens e folgas necessárias.
+3. Informar furação, pré-furos, parafusos, penetração e requisitos da chapa
+   para o grupo real. Não pressupomos arrancamento pela espessura nominal.
+   A base selecionada é MDFBP Greenplac18, com ficha/substrato/composição
+   final a confirmar. A condição geral710 cita aglomeradoP2/EN312,
+   650kg/m3/EN323; precisamos de orientação para esteMDF efetivamente
+   fornecido, sem transferir essa recomendação automaticamente.
+   Os centros de calços em35/136/237 da base interna, furos±16, deixam19mm
+   dos centros extremos até base/topo internos. Confirmar corpos/abas,
+   gabarito dos parafusos do caneco e espaço de ferramenta/desmontagem.
+4. Confirmar aplicação física do 70T3553, curso 86 e desenho de interferências.
+   Precisamos manter passagem efetiva mínima 570 x 260 mm por mala. Sem os
+   corpos das ferragens, o corredor reto em86° mede602,42 mm com uma folha
+   aberta e1202,83 mm com ambas; a altura entre madeiras é272 mm.
+5. Fornecer documentação/ensaio ou orientação técnica que contemple o grupo
+   na folha baixa. Se for necessário protótipo, informar critérios de teste.
+   Confirmar comportamento de fechamento do grupo com três molas/BLUMOTION,
+   opções de regulagem e critérios de alinhamento/deformação aceitáveis.
+   Prevemos70T3553 em todas as dobradiças (seis no total), como indica o guia.
+
+Demandas nominais do grupo por folha na hipótese 4 kg (não capacidades):
+Peso 39,227 N em ambas. Momento gravitacional por braço de meia largura:
+A 13,180 Nm; B 12,749 Nm. Par equivalente entre dobradiças extremas:
+A inicial89,055 N em148 mm; A extremos202:65,248 N; B63,112 N em202 mm.
+O momento/peso de A não diminuem ao afastar os extremos. Não dividimos esses
+esforços entre dobradiças/parafusos como comprovação de resistência.
+
+Anexos previstos: Dobradicas_A.png, Abertura_e_dobradicas_A.png eChapa_P03.png.
+Detalhamento_portas.png documenta o desenho inicial com duas dobradiças;
+o grupo prioritário desta consulta é o de três descrito acima.
+Comparacao_portas.png disponível como comparação secundária.
+Os dados de cálculo completos ficam disponíveis se necessários.
+A união dos revestimentos de B à caixa e a resistência do maleiro para as
+malas serão verificadas separadamente da confirmação da ferragem.
+
+Obrigado.
+
+Notas internas — não fazem parte da mensagem:
+- Canal institucional e telefone +55 11 4785 3400 conferidos em 25/10/2026:
+  https://www.blum.com/br/pt/contact/external-sales/
+- Alternativa de formulário oficial:
+  https://www.blum.com/br/pt/contact/forms/products-services/
+- Catálogo 2024: https://publications.blum.com/2024/catalogue/en/152/
+  e https://publications.blum.com/2024/catalogue/en/77/
+- Referências adicionais: https://publications.blum.com/2024/catalogue/en/76/
+  https://publications.blum.com/2024/catalogue/en/710/
+  https://ea.blum.com/en/opening-angle-stops-for-110-and-107-hinges/
+- Nenhum envio ou rascunho externo foi criado. Envio depende de autorização
+  explícita de Elias; este arquivo é apenas a consulta local para revisão.

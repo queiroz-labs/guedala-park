@@ -1,0 +1,103 @@
+﻿variant,ref,a,b,geometry,axis,area_mm2,length_mm,center_mm,role
+atual_R52,F03,Peca206,PlacaL,face,Z,10224.0,,"[7381.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F07,Peca207,Peca260,face,Z,10224.0,,"[5399.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F13,Peca210,Peca262,face,Z,9900.0,,"[6390.0, 3647.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F16,ReferenciaCorrerR14,PlacaL,face,Z,1476.0,,"[7381.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F19,ReferenciaCorrerR001,Peca260,face,Z,1476.0,,"[5399.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F20,ReferenciaCorrerR003,Peca259,face,Z,1476.0,,"[6731.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F21,ReferenciaCorrerR003,Peca262,face,Z,107748.0,,"[6065.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F22,ReferenciaCorrerR003,PlacaL,face,Z,43424.0,,"[7076.504789977892, 3336.996683861459, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+atual_R52,F23,Peca259,Peca261,face,X,4896.0,,"[6722.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F24,Peca259,Peca262,face,X,11376.0,,"[6722.0, 3606.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F25,Peca259,Peca263,face,X,11376.0,,"[6722.0, 3606.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F26,Peca259,PlacaL,face,X,11340.0,,"[6740.0, 3625.0, 2141.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+atual_R52,F27,Peca259,PlacaL001,face,X,11340.0,,"[6740.0, 3625.0, 2431.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+atual_R52,F28,Peca259,Peca255,face,X,4896.0,,"[6740.0, 3931.0, 2286.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+atual_R52,F29,Peca259,LateralApoioPrincipal,face,X,166464.0,,"[6740.0, 3616.0, 2286.0]",C01: ligacao positiva face a face P03-P02; quatro estacoes de estudo
+atual_R52,F30,Peca260,Peca261,face,X,4896.0,,"[5408.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F31,Peca260,Peca262,face,X,11376.0,,"[5408.0, 3606.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F32,Peca260,Peca263,face,X,11376.0,,"[5408.0, 3606.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F33,PlacaL,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F34,PlacaL,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F35,PlacaL,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F36,PlacaL,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F37,PlacaL001,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F38,PlacaL001,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F39,PlacaL001,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F40,PlacaL001,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F41,Peca255,LateralApoioPrincipal,face,Y,4896.0,,"[6749.0, 3922.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F42,Peca256,ApoioPortaBR04,face,X,4896.0,,"[7372.0, 2899.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+atual_R52,F43,FaixaQuinaAR04,FaixaQuinaBR04,face,Y,5508.0,,"[7149.0, 3290.0, 2286.0]",Quina fixa: nao portante; requer fixacao a caixa atraves da folga2
+atual_R52,E00,Peca261,Peca262,aresta,,0.0,1314.0,,P03: sem apoio de face; proposta amplia painel inteiro18 para tras
+atual_R52,E01,Peca261,Peca263,aresta,,0.0,1314.0,,P03: sem apoio de face; proposta amplia painel inteiro18 para tras
+atual_R52,E02,Peca255,Peca256,aresta,,0.0,272.0,,Fundos P02: sem junta direta creditada; ligar cada fundo a base/topo inteiros
+traseiro_ESTUDO,F03,Peca206,PlacaL,face,Z,10224.0,,"[7381.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F07,Peca207,Peca260,face,Z,10224.0,,"[5399.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F10,Peca208,Peca259,face,Z,324.0,,"[6731.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F11,Peca208,Peca262,face,Z,23652.0,,"[6065.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F12,Peca208,PlacaL,face,Z,11376.0,,"[7056.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F16,Peca210,Peca262,face,Z,9900.0,,"[6390.0, 3647.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F19,ReferenciaCorrerR14,PlacaL,face,Z,1476.0,,"[7381.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F22,ReferenciaCorrerR001,Peca260,face,Z,1476.0,,"[5399.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F23,ReferenciaCorrerR003,Peca259,face,Z,1476.0,,"[6731.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F24,ReferenciaCorrerR003,Peca262,face,Z,107748.0,,"[6065.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F25,ReferenciaCorrerR003,PlacaL,face,Z,43424.0,,"[7076.504789977892, 3336.996683861459, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+traseiro_ESTUDO,F26,Peca259,Peca261,face,X,4896.0,,"[6722.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F27,Peca259,Peca262,face,X,11700.0,,"[6722.0, 3615.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F28,Peca259,Peca263,face,X,11376.0,,"[6722.0, 3606.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F29,Peca259,PlacaL,face,X,11340.0,,"[6740.0, 3625.0, 2141.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+traseiro_ESTUDO,F30,Peca259,PlacaL001,face,X,11340.0,,"[6740.0, 3625.0, 2431.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+traseiro_ESTUDO,F31,Peca259,Peca255,face,X,4896.0,,"[6740.0, 3931.0, 2286.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+traseiro_ESTUDO,F32,Peca259,LateralApoioPrincipal,face,X,166464.0,,"[6740.0, 3616.0, 2286.0]",C01: ligacao positiva face a face P03-P02; quatro estacoes de estudo
+traseiro_ESTUDO,F33,Peca260,Peca261,face,X,4896.0,,"[5408.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F34,Peca260,Peca262,face,X,11700.0,,"[5408.0, 3615.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F35,Peca260,Peca263,face,X,11376.0,,"[5408.0, 3606.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F36,Peca261,Peca262,face,Z,23652.0,,"[6065.0, 3931.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F37,PlacaL,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F38,PlacaL,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F39,PlacaL,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F40,PlacaL,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F41,PlacaL001,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F42,PlacaL001,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F43,PlacaL001,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F44,PlacaL001,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F45,Peca255,LateralApoioPrincipal,face,Y,4896.0,,"[6749.0, 3922.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F46,Peca256,ApoioPortaBR04,face,X,4896.0,,"[7372.0, 2899.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+traseiro_ESTUDO,F47,FaixaQuinaAR04,FaixaQuinaBR04,face,Y,5508.0,,"[7149.0, 3290.0, 2286.0]",Quina fixa: nao portante; requer fixacao a caixa atraves da folga2
+traseiro_ESTUDO,E00,Peca261,Peca263,aresta,,0.0,1314.0,,P03: sem apoio de face; proposta amplia painel inteiro18 para tras
+traseiro_ESTUDO,E01,Peca255,Peca256,aresta,,0.0,272.0,,Fundos P02: sem junta direta creditada; ligar cada fundo a base/topo inteiros
+caixa_fechada_ESTUDO,F03,Peca206,PlacaL,face,Z,10224.0,,"[7381.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F07,Peca207,Peca260,face,Z,10224.0,,"[5399.0, 3656.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F10,Peca208,Peca259,face,Z,324.0,,"[6731.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F11,Peca208,Peca262,face,Z,23652.0,,"[6065.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F12,Peca208,PlacaL,face,Z,11376.0,,"[7056.0, 3931.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F16,Peca210,Peca262,face,Z,9900.0,,"[6390.0, 3647.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F19,ReferenciaCorrerR14,PlacaL,face,Z,1476.0,,"[7381.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F22,ReferenciaCorrerR001,Peca260,face,Z,1476.0,,"[5399.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F23,ReferenciaCorrerR003,Peca259,face,Z,1476.0,,"[6731.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F24,ReferenciaCorrerR003,Peca262,face,Z,107748.0,,"[6065.0, 3331.0, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F25,ReferenciaCorrerR003,PlacaL,face,Z,43424.0,,"[7076.504789977892, 3336.996683861459, 2132.0]",Apoio inferior compressivo; junta de retencao separada
+caixa_fechada_ESTUDO,F26,Peca259,Peca261,face,X,4896.0,,"[6722.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F27,Peca259,Peca262,face,X,11700.0,,"[6722.0, 3615.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F28,Peca259,Peca263,face,X,11700.0,,"[6722.0, 3615.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F29,Peca259,PlacaL,face,X,11340.0,,"[6740.0, 3625.0, 2141.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+caixa_fechada_ESTUDO,F30,Peca259,PlacaL001,face,X,11340.0,,"[6740.0, 3625.0, 2431.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+caixa_fechada_ESTUDO,F31,Peca259,Peca255,face,X,4896.0,,"[6740.0, 3931.0, 2286.0]",Contato cruzado: nao adicionar outra junta independente alem de C01
+caixa_fechada_ESTUDO,F32,Peca259,LateralApoioPrincipal,face,X,166464.0,,"[6740.0, 3616.0, 2286.0]",C01: ligacao positiva face a face P03-P02; quatro estacoes de estudo
+caixa_fechada_ESTUDO,F33,Peca260,Peca261,face,X,4896.0,,"[5408.0, 3931.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F34,Peca260,Peca262,face,X,11700.0,,"[5408.0, 3615.0, 2141.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F35,Peca260,Peca263,face,X,11700.0,,"[5408.0, 3615.0, 2431.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F36,Peca261,Peca262,face,Z,23652.0,,"[6065.0, 3931.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F37,Peca261,Peca263,face,Z,23652.0,,"[6065.0, 3931.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F38,PlacaL,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F39,PlacaL,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F40,PlacaL,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F41,PlacaL,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2150.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F42,PlacaL001,Peca255,face,Z,11376.0,,"[7056.0, 3931.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F43,PlacaL001,Peca256,face,Z,18576.0,,"[7381.0, 3406.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F44,PlacaL001,LateralApoioPrincipal,face,Z,11016.0,,"[6749.0, 3616.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F45,PlacaL001,ApoioPortaBR04,face,Z,3816.0,,"[7266.0, 2899.0, 2422.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F46,Peca255,LateralApoioPrincipal,face,Y,4896.0,,"[6749.0, 3922.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F47,Peca256,ApoioPortaBR04,face,X,4896.0,,"[7372.0, 2899.0, 2286.0]",Junta estrutural de painel a detalhar; contato nao fornece rigidez
+caixa_fechada_ESTUDO,F48,FaixaQuinaAR04,FaixaQuinaBR04,face,Y,5508.0,,"[7149.0, 3290.0, 2286.0]",Quina fixa: nao portante; requer fixacao a caixa atraves da folga2
+caixa_fechada_ESTUDO,E00,Peca255,Peca256,aresta,,0.0,272.0,,Fundos P02: sem junta direta creditada; ligar cada fundo a base/topo inteiros

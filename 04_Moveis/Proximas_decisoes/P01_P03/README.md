@@ -1,10 +1,56 @@
 # P01/P03 — equilíbrio da caixa completa e ligações compartilhadas
 
-25/10/2026. **A caixa superior foi individualizada por painéis e o caminho nominal até os apoios foi fechado em equilíbrio, sem atribuir rigidez ou capacidade às juntas.** O avanço substitui a uniformização de toda a madeira sobre a base por forças próprias do topo, fundo, laterais e duas portas. Não é cálculo de deformação nem liberação da caixa18.
+**P03/P02/piso:** [1728 casos acoplados](../../P03/README.md). C01:seis posições passantes candidatas;201N tração/33N cisalhamento na hipótese central. Divisória→base18→soco62:9900mm² nominais, base≈0,05mm. Produto/ensaioMDF, nivelamento, juntas e deformação superior pendentes;20kg não demonstrados. R52 preservada sem abrirCAD.
+
+25/10/2026. **P02 agora também está individualizado: o retorno exige uma ligação positiva no caso de carga concentrada investigado.** Foi preparada a topologia nominal P01/P03/P02, com proposta separada de topo P03 inteiro mais profundo. Não é dimensionamento das juntas, cálculo de flecha ou liberação de fabricação. A etapa anterior de equilíbrio P03 continua documentada abaixo e não deve ser confundida com este novo corte.
 
 A R52 foi aberta em processo separado FreeCADCmd, apenas para leitura; hash preservado. Nenhum documento da GUI foi acessado. R52 e todos os estudos anteriores permanecem intactos. Soco e alongamentos continuam propostas separadas, sem tubos e sem integração automática.
 
-## O que entrou no modelo
+## Topologia vigente de estudo e resultado novo
+
+**Novo requisito P03:** [duas malas de bordo e comparação da abertura](../../P03/README.md). Alternativas672 ×306 ou650 ×306, ambas com recuo20 nas laterais/base/topo, passaram nas amostragens de frentes/duas malas550 ×350 ×250. B650 usa três dobradiças candidatas/calço3, revestimentos/faixas (+4,95kg de madeira fixa a800) e novas uniões por face.72 cortes de equilíbrio separado P03→P01 incluem conteúdos0/20/30kg e portas abertas, sem provar resistência ou caixa P02 acoplada. Aplicação autorizada se atender; proporção baixa, ferragens, fixações e caixa ainda pendentes. Não somar resultados antigos como se a geometria fosse a mesma.
+
+**Mockup de abertura P02:** [quatro situações — fechado, só A, só B e ambas abertas](Abertura_armario_L.png). Duas portas independentes, quina fixa e curso ilustrativo86°, a partir das vistas CAD do canto simplesR04 ainda vigente nas portas P02. Azul/âmbar apenas identificam as folhas; acabamento geral amadeirado. Imagem gerada com a ferramenta integrada `image_gen`, conferida visualmente; não substitui geometria, verificação de colisões ou validação do limitador. [Prompt e referências](Abertura_armario_L_prompt.txt). Não houve abertura ou alteração do FreeCAD para criar este mockup.
+
+![Planta e seção da caixa superior](Topologia_caixa.png)
+
+| Frente | Evidência nova | Direção de projeto |
+|---|---|---|
+| P02 individualizado | Dez madeiras, incluindo duas folhas, conferidas por volume, centro e caixa contra o inventário anterior; oito painéis estáticos | Base e topo em L inteiros; fundos, apoios terminais e suas uniões próprios. Portas não contraventam a caixa |
+| Retorno | Avança 400 à frente da linha mínima de apoio P01, Y3290; região de uso investigada em X7275/Y2920 | Não contar esse trecho como apoiado pela lateral P01, que só começa em Y3372; continuação frontal começa em Y3290 |
+| Ligação C01 | Face comum Peca259 ↔ LateralApoioPrincipal, X6740, 612 × 272; duas chapas18 encostadas | Desenvolver uma união positiva face a face, capaz de transferir esforços entre P02 e P03. Não contar base/topo/fundo P02 contra a mesma lateral como juntas independentes adicionais |
+| Canto dos fundos P02 | Peca255 ↔ Peca256 compartilham apenas a aresta vertical272, sem área de face | Não prever Confirmat direto nessa aresta. Cada fundo deve ligar-se à base/topo L inteiros; eventual detalhe adicional precisa de desenho próprio |
+| Topo e fundo P03 | Peca263 ↔ Peca261: só aresta1314 na R52 e no estudo traseiro anterior | Nova hipótese: substituir o topo inteiro1314 × 632 × 18 por1314 × 650 × 18. Acrescenta18 para trás, criando face23652mm² sobre o fundo, sem ampliar envelope externo ou reduzir o vão |
+| Faixas da quina P02 | Cada faixa tem folga2 para base e topo; entre si existe face5508mm² | Desenhar fixação à caixa que atravesse a folga, com acesso; não usar as faixas como pilares ou caminho de carga |
+
+O novo topo não é uma tira18 colada. A hipótese `caixa_fechada_ESTUDO` reaproveita fundo P01 +18 de altura e base P03 +18 de profundidade do estudo anterior, acrescentando a troca do topo inteiro. O acréscimo do topo é425736mm³, ou0,341kg à densidade hipotética800; conjunto das três mudanças1,190kg. Não existe alteração na R52 nem autorização para incorporar essa alternativa. A análise geométrica nova cobre os22 painéis selecionados: nenhuma sobreposição positiva; ferragens, outros objetos do apartamento, transporte e acesso de ferramenta ainda precisam de conferência.
+
+### O caso que exige transferência entre caixas
+
+Foram avaliados81 cortes: três geometrias × densidades hipotéticas650/800/900 × conteúdos0/10/20kg por caixa × três posições de conteúdo P02. P03 usa conteúdo em faixa frontal, CGY3320. P02 compara centro da área L, posição anteriorY3300 e pontaY2920. Folhas na pose salva, sem ferragens presumidas.
+
+- Em nove casos (20kg na ponta, nas três densidades e três geometrias), **não existe equilíbrio só com compressão nos contatos P02–P01**. O certificado é geométrico: o CG fica à frente de todos esses contatos.
+- Exemplo800: madeira P02 27,841kg, CGY3491,580; com20kg na ponta, massa47,841kg e CGY3252,630. O apoio mais frontal começa emY3290. Falta uma ação resistente equivalente de pelo menos17,532Nm em relação àquela linha. Não é o momento de cada parafuso nem um envelope completo da junta.
+- Os limites da condição frontal, mantendo essa pose e desprezando ferragens, seriam12,324/15,168/17,064kg na ponta para650/800/900. **São fronteiras matemáticas da hipótese, não cargas permitidas.**
+- O corte agregado P02+P03 tem distribuição compressiva possível nos81 casos quando se admite uma ligação positiva entre as caixas. Isso é condição necessária; não demonstra equilíbrio de cada painel, comportamento da ligação C01, rigidez ou resistência do conjunto.
+
+No corte local do retorno emY3290, o exemplo800 com20kg na ponta exige262,497N e87,344Nm, incluindo as madeiras situadas à frente. Se, como hipótese de caminho, todo o momento fosse transmitido por um par axial entre os planos médios do topo/base separados290, o par seria301,185N. Isso não seleciona número de parafusos, capacidade ou rigidez composta. O modelo anterior usava apenas a posição P02Y3300: ele não abrangia este caso de ponta.
+
+### Montagem a desenvolver e dados para encerrá-la
+
+1. Montar P03 e P02 em bancada, preservando para suas uniões ocultas a estratégia já escolhida nas fichas R14: **Confirmat7×50 + cavilhaØ8×30**. Não extrapolar essa estratégia para qualquer orientação: a aresta fundo–fundo não a recebe, e7×50 atravessaria a espessura total36 de uma ligação face a face.
+2. Em P02, unir base/topo a cada fundo e apoio terminal; ligar Peca255 à lateral principal e Peca256 ao apoio da portaB. A ação de caixa exige transmissão efetiva de cisalhamento e separação nessas juntas, não apenas apoio vertical. Fixar as faixas da quina sem atribuir-lhes papel estrutural.
+3. Desenvolver C01 entre as duas laterais. Foram reservadas **quatro estações preliminares**, eixoX, deX6722 a6758: combinações deY3370/3862 eZ2210/2362, com60 às bordas da face útil. São posições de estudo, não quatro fixadores dimensionados nem furação. Conferir dobradiças, ferramentas e fechamento antes de reservar qualquer volume de usinagem.
+4. Para C01, comparar somente a família4×30 já usada em outros encontros face a face (penetração nominal12 na segunda chapa, sobra6; capacidade ausente) e um conjunto passante próprio para36mm (produto e desenho ainda ausentes). Não usar atrito de aperto como resistência presumida nem escolher comprimento de conjunto sem ficha. Confirmat50 não é alternativa face a face.
+5. Descer as ações simultâneas até os receptores reais de P01: travessa frontal, divisória, laterais e fundo proposto. O efeito do acoplamento pode tracionar/solicitar juntas de P03/P01; não creditar simplesmente a massa vizinha como lastro sem ligação até a base e retenção.
+
+**Próxima evidência exigida:** código/substrato real da chapa; desenho e curva/capacidade do grupo Confirmat+cavilha em união de topo/aresta nas orientações propostas; produto C01, espessura de aperto, furos, tolerâncias e comportamento em cisalhamento/abertura; desenho dos grupos e acesso; então modelo compatível de painéis/juntas e verificação de deformação, estabilidade e resistência. Se curvas não estiverem publicadas, preparar ensaio de junta na chapa real. Não inventar rigidez para aproveitar os certificados estáticos. O fundo P01 inteiro/emenda e os apoios inferiores continuam condições próprias.
+
+Dados novos: [geometria por painel](Geometria_P02_individual.json), [mapa de juntas](Mapa_juntas.csv), [81 casos e parâmetros](Resultados_topologia.json) e [verificação independente](Verificacao_topologia.json). Scripts em `ferramentas/roupeiro/`: `extrair_caixa_superior.py` (FreeCADCmd, somente leitura), `analisar_caixa_superior.py` e `verificar_caixa_superior.py` (Python comNumPy/Pillow). Conferidos153 certificados de equilíbrio e nove certificados de inviabilidade, além de nove cortes locais por volumes analíticos. A conferência valida geometria/aritmética, não capacidade.
+
+**Conferência:** hashR52 preservado. A execução completa anterior foi interrompida sem resultado; não está aprovada. A base de comparação hoje existe, mas não foi criada/ajustada neste estudo. Antes de integrarCAD, concluir as verificações exigidas. A matriz usa `organizar_entregas.py --somente-roupeiro`, preservando os demais17 móveis.
+
+## Etapa anterior — o que entrou no modelo de equilíbrio P03
 
 | Corpo P03 | Geometria nominal | Aplicação do peso |
 |---|---|---|
@@ -56,7 +102,7 @@ Os intervalos por receptor, por caixa e por caso estão em [Envelopes_superiores
 
 ## Por que a presença das chapas não fecha a resistência
 
-Um contracheque do topo torna a necessidade de ligação concreta. A800, o topoP03 pesa117,272N e tem CGY3606. O único apoio vertical puramente normal que suas faces fornecem, sem ações tangenciais nas ligações laterais, está sobre o fundo emY3922–3940. O CG fica316mm antes da borda mais próxima. Portanto faltam **ao menos37,058Nm de balanço** através de ações tangenciais/casal das ligações; isso não é o momento de uma dobradiça ou de um parafuso específico. Apenas encostar o topo ao fundo não resolve esse equilíbrio.
+Um contracheque anterior do topo considerou, como concessão, um apoio traseiro emY3922–3940. A800, o topoP03 pesa117,272N e tem CGY3606, ficando316mm antes dessa região e exigindo ao menos37,058Nm através das ligações. **Correção geométrica da continuação:** esse apoio de face não existe no topo632 da R52; o encontro é somente uma aresta1314. O valor anterior deve ser lido como argumento hipotético, não como apoio BREP extraído. A nova hipótese topo650 cria a face, mas muda massa/CG e não herda automaticamente aquele número. Em nenhum caso encostar chapas encerra a resistência.
 
 O modelo só com contatos normais sem atrito é incompatível nas três topologias; mesmo liberando artificialmente os sinais das normais, as equações não fecham. Isso não prova que o móvel real falha: ele precisa de juntas, e é justamente a transmissão dessas juntas que ainda falta especificar.
 
@@ -75,7 +121,7 @@ Ficam disponíveis agora:
 3. Doze estados de forças/momentos por corpo e por junta, demonstrando os caminhos até o piso para os corpos selecionados.
 4. Prova quantitativa de que contatos normais não bastam e de que equilíbrio sozinho não especifica as juntas nem a flecha.
 
-O próximo passo de projeto pode usar diretamente este mapa, sem novo levantamento do apartamento: definir uma topologia de juntas nas seis uniões lateraisP03 e na travessaP01, decidir se haverá ligação positivaP02↔P03 e obter/desenhar os grupos reais que transmitam os seis resultantes. Deve-se especificar origem da curva força–deslocamento e capacidade nas orientações reais; não atribuir uma mola por aresta e outra ao fundo como se fossem caminhos independentes.
+Na continuação acima, a topologia passou a recomendar C01 positivo e o novo topo650 como estudos. O próximo passo permanece obter/desenhar os grupos reais e suas propriedades nas orientações de uso, incluindo a travessaP01; não atribuir uma mola por aresta e outra ao fundo como se fossem caminhos independentes.
 
 Para calcular deformação, faltam a constituição/propriedades direcionais da chapa e a lei das juntas escolhidas. A extensão matemática para uma “caixa rígida” que eliminasse a flecha anterior seria inválida sem esses dados. Esta entrega não repetiu esse atalho. O formato do fundoP01, detalhamento de emenda se necessária, aparência do soco, nivelamento/piso e retenção continuam condições separadas. Não houve contato externo ou ensaio físico.
 

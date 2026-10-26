@@ -1,0 +1,40 @@
+CONSULTA TECNICA PREPARADA — NAO ENVIADA — 25/10/2026
+
+Objeto: ligar face a face as laterais separadas de P03 e P02, ambas MDFBP
+Greenplac convencional18, ArenzaColore/Lizze, uso seco. Cada chapa tem o
+mesmo padrao nas suas duas faces. Espessura nominal total36; considerar
+35,4–36,6 apenas como sensibilidade antes de medir as chapas reais.
+
+Familia investigada: luva M4Hafele267.00.914 (25, conjunto31–36) ou
+267.00.916 (30, conjunto36–40), com parafusos/cabecas correspondentes.
+Fonte: https://www.hafele.si/en/product/threaded-sleeve-with-m4-internal-thread-steel/P-00861539/
+Nao esta definido um conjunto completo para compra nem um gabarito de furo.
+
+Proposta para desenvolvimento: seis conjuntos em duas linhas separadas212,
+tres colunas separadas216. Face comum612x272;30 as bordas de cima/baixo,
+120 da frente e60 de tras. Conferir compatibilidade com dobradicas e acesso.
+
+Referencia de solicitacoes, sem majoracao, impacto ou resistencia liberada:
+P03 com20kg totais de malas, P02 sem conteudo mas com seu peso e portas.
+Na hipotese de rigidez500N/mm por eixo/conjunto, maior tracao amostrada201N
+e maior cisalhamento33N por conjunto; nao sao necessariamente simultaneos.
+Refinamento da malha alterou tracoes e deslocamentos; nao ha convergencia
+local/capacidade comprovada. CSV contem os vetores e casos concorrentes.
+P02 com20kg adicional foi so sensibilidade: varios casos extrapolam a
+hipotese linear e nao servem como solicitacoes finais para dimensionar.
+
+Solicitar ao fabricante/oficina:
+1. Codigo de luva, dois elementos roscados/cabecas e eventuais arruelas;
+   espessura efetiva de aperto, comprimento/engajamento de rosca e ajustes.
+2. Dimensoes de cabeca/projecao, tolerancias, desenho completo e acesso.
+   Pagina indica furo5 para a familia, nao foi aprovado piloto/usinagem.
+3. Resistencias de tracao e cisalhamento no MDFBP real, criterio combinado,
+   esmagamento sob as cabecas, arrancamento/perfuracao da chapa e bordas.
+4. Curvas carga–abertura e carga–escorregamento, folga inicial, deformacao
+   sustentada, aperto recomendado e efeitos de desmontagem/reaperto.
+5. Se faltarem curvas publicadas, preparar ensaio representativo das duas
+   chapas e do grupo, incluindo fixacoes das caixas, medindo deslocamento.
+   A rigidez500N/mm e parametro de estudo e precisa ser substituida por dado.
+
+Esta consulta nao autoriza montagem, compra ou uso20kg. Nao equivale a
+laudo nem resolve a deformacao da caixa superior. R52 preservada.

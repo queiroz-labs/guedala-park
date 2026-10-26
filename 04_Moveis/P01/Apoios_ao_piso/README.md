@@ -1,5 +1,19 @@
 # Apoios de marcenaria do roupeiro até o piso
 
+## Divisória central com P03/P02 acoplados — 25/10/2026
+
+[Cálculo e desenho atuais](../../P03/README.md):1728 casos, incluindo painéisP02/P03 eP01 (base/frente, laterais, divisória e fundo) com juntas flexíveis e contatos de compressão. R52 preservada sem abrirCAD. Não substitui a avaliação do piso real ou o envelope de todo o conteúdoP01.
+
+O caminho nominal da divisóriaP210 está alinhado: X6381–6399/Y3372–3922, péZ80 → base18 emZ62–80 → soco nominal62 → pisoZ0. Sob a pegada18×550 há18mm da longitudinal frontal,514 da travessa `Soco_transversal_4_caixa` e18 da longitudinal traseira:9900mm² contínuos geometricamente. A altura62 permanece nominal, dependente de ajuste/nivelamento/proteção no piso real.
+
+No cenário principal (malas20kgP03, P02 com seu peso/portas mas sem conteúdo), o pé recebe até645,72N e a base sob seu centro desloca até0,050mm nas hipóteses centrais. A força inclui peso próprio e interação com as juntas do fundo; o corte vertical da divisória foi conferido. A média645,72/9900 =0,065MPa pressupõe contato integral; não é pressão máxima ou resistência admissível de MDF/vinílico/contrapiso.
+
+Sem o soco, o modelo acoplado atinge grandes deslocamentos e transfere carga pelas juntas com o fundo: não é previsão linear válida ou alternativa comprovada. Rigidez do piso por área0,1–10N/mm³ (hipóteses) dá aproximadamente0,32–0,01mm sob a divisória. Folga0,2 sob a travessa central eleva a resposta a0,22; folga1 dá0,40 e essa travessa não encosta no cenário principal. Não creditar apoio só porque as peças se alinham na planta.
+
+**Resolvido no estudo:** posição/continuidade nominal do caminho e suas solicitações condicionais. **Pendente:** nivelamento/contato sustentado, proteção da madeira, ligações de posicionamento do soco, resistências reais de juntas/piso e aparência frontal62 antes de incorporar. O maleiro continua sem capacidade20kg demonstrada; seis posições passantesC01 são candidatas, não fixadores dimensionados. [Resultados e conferências](../../P03/Verificacao_ligacao_P02_P03.json).
+
+## Base do estudo do soco
+
 25/10/2026, bloco noturno iniciado às 02:06. **Estudo separado da R51**, sem tubos. Desenvolve o caminho das prateleiras e divisórias até o piso, que não estava encerrado pela proposta de prateleiras de 723 mm.
 
 Na geometria atual, a base `Peca209` fica entre Z62 e Z80 e as divisórias começam sobre ela. Não havia apoio positivo inventariado sob essas divisórias. A continuação frontal da base, que recebe os trilhos inferiores das portas, também estava marcada como apoio não calculado. O fundo começa em Z18 e não tem contato direto com o piso nominal.

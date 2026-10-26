@@ -1,0 +1,372 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_unchanged": true,
+  "leaf_dimensions_mm": [
+    672,
+    306,
+    18
+  ],
+  "outer_gaps_mm": {
+    "sides": 2,
+    "center": 2,
+    "top_bottom": 1
+  },
+  "closed_bboxes_mm": {
+    "P03_esquerda": [
+      5392.0,
+      3290.0,
+      6064.0,
+      3308.0
+    ],
+    "P03_direita": [
+      6066.0,
+      3290.0,
+      6738.0,
+      3308.0
+    ]
+  },
+  "angle_step_deg": 0.5,
+  "angles_each": 173,
+  "legacy_native_validation_max_error_mm": 1.0725194820289065e-12,
+  "planar_pairs": [
+    {
+      "a": "P03_esquerda",
+      "b": "FrenteSimplesR001",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 704.7628601856709,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "FrenteSimplesR04",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 552.5346533499451,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "Folha",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 1349.698852168618,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "Folha001",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 991.1782459633744,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "Folha002",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 884.1161290750042,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "VizinhaComumR18",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 649.9966649694761,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "FrenteSimplesR001",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 177.18851241440552,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "FrenteSimplesR04",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 3.528978726002606,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "Folha",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 1016.6929959974332,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "Folha001",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 587.50462782252,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "Folha002",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 326.09423650217195,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_direita",
+      "b": "VizinhaComumR18",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 16.1445412778603,
+      "intersections": 0,
+      "first_angles_deg": []
+    },
+    {
+      "a": "P03_esquerda",
+      "b": "P03_direita",
+      "independent_angle_pairs": 29929,
+      "minimum_axis_gap_mm": 1.8354581745261385,
+      "intersections": 0,
+      "first_angles_deg": []
+    }
+  ],
+  "static_variants": [
+    {
+      "recess_body_front_mm": 0,
+      "static_hits": [
+        {
+          "door": "P03_esquerda",
+          "target": "Peca260",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -16.3855294323248,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        },
+        {
+          "door": "P03_esquerda",
+          "target": "Peca262",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -18.0,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        },
+        {
+          "door": "P03_esquerda",
+          "target": "Peca263",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -18.0,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        },
+        {
+          "door": "P03_direita",
+          "target": "Peca259",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -16.38552943232571,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        },
+        {
+          "door": "P03_direita",
+          "target": "Peca262",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -18.0,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        },
+        {
+          "door": "P03_direita",
+          "target": "Peca263",
+          "poses_hit": 173,
+          "minimum_axis_gap_mm": -18.0,
+          "first_angles_deg": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0
+          ]
+        }
+      ],
+      "new_side_depth_mm": 650,
+      "new_base_top_depth_mm": 632,
+      "storage_internal_mm": [
+        1314,
+        632,
+        272
+      ]
+    },
+    {
+      "recess_body_front_mm": 20,
+      "static_hits": [],
+      "new_side_depth_mm": 630,
+      "new_base_top_depth_mm": 612,
+      "storage_internal_mm": [
+        1314,
+        612,
+        272
+      ]
+    }
+  ],
+  "bag_entry_fronts_only": [
+    {
+      "bag": 1,
+      "step_mm": 5.0,
+      "start_y_mm": 2550.0,
+      "end_y_mm": 3410.0,
+      "front_hits": []
+    },
+    {
+      "bag": 2,
+      "step_mm": 5.0,
+      "start_y_mm": 2550.0,
+      "end_y_mm": 3410.0,
+      "front_hits": []
+    }
+  ],
+  "bag_final_positions": [
+    {
+      "id": 1,
+      "bbox_mm": [
+        5505.0,
+        3410.0,
+        2150.0,
+        6055.0,
+        3760.0,
+        2400.0
+      ]
+    },
+    {
+      "id": 2,
+      "bbox_mm": [
+        6075.0,
+        3410.0,
+        2150.0,
+        6625.0,
+        3760.0,
+        2400.0
+      ]
+    }
+  ],
+  "drilling_nominal": [
+    {
+      "leaf": "esquerda",
+      "cup_center_mm": [
+        5414.5,
+        3308.0,
+        2212.0
+      ],
+      "cup_diameter_mm": 35.0,
+      "cup_depth_mm": 13.0,
+      "nominal_front_skin_mm": 5.0,
+      "K_mm": 5.0,
+      "plate_setback_from_new_side_front_mm": 37.0,
+      "plate_hole_row_y_mm": 3347.0,
+      "screw_family": "609.1500 3.5x15; piloto depende da chapa",
+      "status": "ESTUDO de geometria; quantidade e aplicacao em672 de largura nao confirmadas"
+    },
+    {
+      "leaf": "esquerda",
+      "cup_center_mm": [
+        5414.5,
+        3308.0,
+        2360.0
+      ],
+      "cup_diameter_mm": 35.0,
+      "cup_depth_mm": 13.0,
+      "nominal_front_skin_mm": 5.0,
+      "K_mm": 5.0,
+      "plate_setback_from_new_side_front_mm": 37.0,
+      "plate_hole_row_y_mm": 3347.0,
+      "screw_family": "609.1500 3.5x15; piloto depende da chapa",
+      "status": "ESTUDO de geometria; quantidade e aplicacao em672 de largura nao confirmadas"
+    },
+    {
+      "leaf": "direita",
+      "cup_center_mm": [
+        6715.5,
+        3308.0,
+        2212.0
+      ],
+      "cup_diameter_mm": 35.0,
+      "cup_depth_mm": 13.0,
+      "nominal_front_skin_mm": 5.0,
+      "K_mm": 5.0,
+      "plate_setback_from_new_side_front_mm": 37.0,
+      "plate_hole_row_y_mm": 3347.0,
+      "screw_family": "609.1500 3.5x15; piloto depende da chapa",
+      "status": "ESTUDO de geometria; quantidade e aplicacao em672 de largura nao confirmadas"
+    },
+    {
+      "leaf": "direita",
+      "cup_center_mm": [
+        6715.5,
+        3308.0,
+        2360.0
+      ],
+      "cup_diameter_mm": 35.0,
+      "cup_depth_mm": 13.0,
+      "nominal_front_skin_mm": 5.0,
+      "K_mm": 5.0,
+      "plate_setback_from_new_side_front_mm": 37.0,
+      "plate_hole_row_y_mm": 3347.0,
+      "screw_family": "609.1500 3.5x15; piloto depende da chapa",
+      "status": "ESTUDO de geometria; quantidade e aplicacao em672 de largura nao confirmadas"
+    }
+  ],
+  "door_group_load": {
+    "wood_mass_at_hypothetical_density900_kg": 3.308724961646212,
+    "hypothetical_finished_door_kg": 4.0,
+    "hinge_spacing_mm": 148.0,
+    "vertical_group_N": 39.2266,
+    "gravity_moment_at_336mm_Nm": 13.1801376,
+    "equivalent_148mm_force_pair_N": 89.05498378378378,
+    "note": "Demandas do grupo, nao capacidades ou forca por parafuso; nao divide peso por dois como homologacao."
+  },
+  "manufacturer_condition": {
+    "url": "https://ea.blum.com/en/number-of-hinges/",
+    "chart_door_width_limit_mm": 600,
+    "extra_hinge_guidance_up_to_width_mm": 650,
+    "principle_height_greater_than_width": true,
+    "proposed_door_width_mm": 672,
+    "quantity_approved": false
+  },
+  "integration_gate": "NAO_ATENDIDO: fabricante nao confirma quantidade/aplicacao672; fixacoes, corpos de ferragem e base de comparacao pendentes.",
+  "limitations": [
+    "SAT de envoltorias retangulares e amostrado, nao margem continua.",
+    "Seis vizinhas moveis e22paineis selecionados; nao e auditoria de todas as formas da R52.",
+    "Nao varre STEP das dobradicas nem verifica ancoragem, parafusos, resistencia, deformacao ou espaco da mao.",
+    "Insercao verifica somente as duas frentes abertas86, sem demais ferragens/pessoas/tolerancias.",
+    "Recuo20 alteraria quatro madeiras e seus apoios: nao e troca apenas de portas.",
+    "Modelo principal nao aberto no FreeCAD nem alterado."
+  ]
+}

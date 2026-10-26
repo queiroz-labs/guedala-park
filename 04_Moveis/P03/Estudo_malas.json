@@ -1,0 +1,582 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "geometry_sha256": "68abab58afd54c926d051b886ec9dac1c94ee31b68049c9b28f4399122491e94",
+  "assembly_sha256": "8aa49983ca9b1e3ef99b32bfd2ccf4a469dc3e3e4c8b3e80a1ac58e4ca0f8c37",
+  "cabinet_internal_mm": [
+    1314.0,
+    632.0,
+    272.0
+  ],
+  "sources": [
+    {
+      "name": "Samsonite Varro pequena",
+      "url": "https://samsonite.com.br/products/mala-pequena-varro-preta",
+      "published_dimensions_cm": [
+        55,
+        35,
+        25
+      ],
+      "empty_mass_kg": 2.6,
+      "note": "Pagina informa essas dimensoes, mas nao explicita neste trecho se incluem todas as saliencias; expansor fechado e dimensoes reais devem ser conferidos."
+    },
+    {
+      "name": "Samsonite C-Lite pequena",
+      "url": "https://samsonite.com.br/products/mala-pequena-c-lite-preta",
+      "published_dimensions_cm": [
+        55,
+        25,
+        38
+      ],
+      "empty_mass_kg": 1.9,
+      "note": "Rotulos de largura/profundidade aparecem25/38 na pagina; estudo usa apenas o envelope reorientavel55x38x25, sem corrigir a ficha do fabricante."
+    }
+  ],
+  "references": [
+    {
+      "id": "bordo_55_35_25",
+      "long_mm": 550.0,
+      "short_mm": 350.0,
+      "thickness_mm": 250.0
+    },
+    {
+      "id": "bordo_55_38_25",
+      "long_mm": 550.0,
+      "short_mm": 380.0,
+      "thickness_mm": 250.0
+    }
+  ],
+  "demand": {
+    "minimum_bags": 2,
+    "category": "bordo10kg",
+    "user_actual_dimensions_unknown": true,
+    "added_to_user_program": true,
+    "capacity_mass_not_certified": true
+  },
+  "cases": [
+    {
+      "reference": "bordo_55_35_25",
+      "count": 2,
+      "opening": "correr_atual",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            20.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            350.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            744.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            350.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 82,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 20.0,
+        "right": 20.0,
+        "between": 174.0,
+        "rear": 180.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        570.0,
+        260.0
+      ],
+      "slider_clear_width_mm": 642.0,
+      "slider_profile_hypothesis_clear_height_mm": 248.0,
+      "slider_straight_entry_fits_hypothesis": false,
+      "side_insertion_intervals": [
+        {
+          "bag": 1,
+          "clear_interval_x_mm": [
+            0.0,
+            642.0
+          ],
+          "fits_width_with_10mm_each_side": true
+        },
+        {
+          "bag": 2,
+          "clear_interval_x_mm": [
+            672.0,
+            1314.0
+          ],
+          "fits_width_with_10mm_each_side": true
+        }
+      ],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_35_25",
+      "count": 2,
+      "opening": "abrir_estudo",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            20.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            350.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            744.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            350.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 32.0,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 20.0,
+        "right": 20.0,
+        "between": 174.0,
+        "rear": 230.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        570.0,
+        260.0
+      ],
+      "slider_clear_width_mm": null,
+      "slider_profile_hypothesis_clear_height_mm": null,
+      "slider_straight_entry_fits_hypothesis": null,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_35_25",
+      "count": 3,
+      "opening": "correr_atual",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            112.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            482.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 3,
+          "origin_mm": [
+            852.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 82,
+      "storage_with_stated_clearances": false,
+      "side_rear_plan_clearances_mm": {
+        "left": 112.0,
+        "right": 112.0,
+        "between": 20.0,
+        "rear": -20.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        370.0,
+        260.0
+      ],
+      "slider_clear_width_mm": 642.0,
+      "slider_profile_hypothesis_clear_height_mm": 248.0,
+      "slider_straight_entry_fits_hypothesis": false,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_35_25",
+      "count": 3,
+      "opening": "abrir_estudo",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            112.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            482.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 3,
+          "origin_mm": [
+            852.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            350.0,
+            550.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 32.0,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 112.0,
+        "right": 112.0,
+        "between": 20.0,
+        "rear": 30.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        370.0,
+        260.0
+      ],
+      "slider_clear_width_mm": null,
+      "slider_profile_hypothesis_clear_height_mm": null,
+      "slider_straight_entry_fits_hypothesis": null,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_38_25",
+      "count": 2,
+      "opening": "correr_atual",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            20.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            380.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            744.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            380.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 82,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 20.0,
+        "right": 20.0,
+        "between": 174.0,
+        "rear": 150.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        570.0,
+        260.0
+      ],
+      "slider_clear_width_mm": 642.0,
+      "slider_profile_hypothesis_clear_height_mm": 248.0,
+      "slider_straight_entry_fits_hypothesis": false,
+      "side_insertion_intervals": [
+        {
+          "bag": 1,
+          "clear_interval_x_mm": [
+            0.0,
+            642.0
+          ],
+          "fits_width_with_10mm_each_side": true
+        },
+        {
+          "bag": 2,
+          "clear_interval_x_mm": [
+            672.0,
+            1314.0
+          ],
+          "fits_width_with_10mm_each_side": true
+        }
+      ],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_38_25",
+      "count": 2,
+      "opening": "abrir_estudo",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            20.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            380.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            744.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            550.0,
+            380.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 32.0,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 20.0,
+        "right": 20.0,
+        "between": 174.0,
+        "rear": 200.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        570.0,
+        260.0
+      ],
+      "slider_clear_width_mm": null,
+      "slider_profile_hypothesis_clear_height_mm": null,
+      "slider_straight_entry_fits_hypothesis": null,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_38_25",
+      "count": 3,
+      "opening": "correr_atual",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            67.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            467.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 3,
+          "origin_mm": [
+            867.0,
+            102.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 82,
+      "storage_with_stated_clearances": false,
+      "side_rear_plan_clearances_mm": {
+        "left": 67.0,
+        "right": 67.0,
+        "between": 20.0,
+        "rear": -20.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        400.0,
+        260.0
+      ],
+      "slider_clear_width_mm": 642.0,
+      "slider_profile_hypothesis_clear_height_mm": 248.0,
+      "slider_straight_entry_fits_hypothesis": false,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    },
+    {
+      "reference": "bordo_55_38_25",
+      "count": 3,
+      "opening": "abrir_estudo",
+      "boxes": [
+        {
+          "id": 1,
+          "origin_mm": [
+            67.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 2,
+          "origin_mm": [
+            467.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        },
+        {
+          "id": 3,
+          "origin_mm": [
+            867.0,
+            52.0,
+            0.0
+          ],
+          "size_mm": [
+            380.0,
+            550.0,
+            250.0
+          ]
+        }
+      ],
+      "frontal_reservation_mm": 32.0,
+      "storage_with_stated_clearances": true,
+      "side_rear_plan_clearances_mm": {
+        "left": 67.0,
+        "right": 67.0,
+        "between": 20.0,
+        "rear": 30.0
+      },
+      "upper_storage_clearance_mm": 22.0,
+      "required_entry_width_height_mm": [
+        400.0,
+        260.0
+      ],
+      "slider_clear_width_mm": null,
+      "slider_profile_hypothesis_clear_height_mm": null,
+      "slider_straight_entry_fits_hypothesis": null,
+      "side_insertion_intervals": [],
+      "status": "Conferir produto e trajetoria; armazenamento nao prova entrada real ou resistencia"
+    }
+  ],
+  "handling_requirements": {
+    "plan_margin_mm": 20.0,
+    "plan_gap_mm": 20.0,
+    "vertical_total_entry_margin_mm": 10.0,
+    "proposed_hinge_frontal_budget_mm": 32,
+    "proposed_budget_not_hardware_specification": true
+  },
+  "results": {
+    "two_bags_storage": true,
+    "third_bag_geometric_opportunity": true,
+    "four_bags_orthogonal_not_fit": true,
+    "slider_width_is_not_main_problem_for_two_bags": true,
+    "slider_248mm_passage_is_only_hypothesis": true,
+    "reference_250mm_bag_not_pass_straight_through_248mm_hypothesis": true
+  },
+  "load_cases_kg": {
+    "two_empty_Varro": 5.2,
+    "two_empty_CLite": 3.8,
+    "two_at_10kg_each": 20,
+    "three_at_10kg_each": 30
+  },
+  "recommendation": "Desenvolver duas portas laterais sem montante central no P03; manter caixa/alturas. Troca ainda nao adotada no CAD.",
+  "limitations": [
+    "Sem medicao das malas de Elias, garantia de marca/categoria ou folga real de expansor.",
+    "Volume de guarda nao prova passagem; sem inclinacao/diagonal ou deformacao da mala.",
+    "Altura das folhas237 nao e altura livre de entrada.",
+    "Envoltoria dos perfis4/20 e reserva82 sao hipoteses anteriores, nao desenhos reais dos produtos.",
+    "Alternativa de abrir depende de dobradicas, giro junto ao P02, acesso e passagem260mm sem obstaculos.",
+    "Tres malas carregadas somam30kg: nao cobertas pelos estudos anteriores de conteudoP03 ate20kg.",
+    "Nenhuma alteracao do FreeCAD, corte, compra ou capacidade liberada."
+  ]
+}

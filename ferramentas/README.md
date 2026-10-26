@@ -60,3 +60,6 @@ Teste: `python -B ferramentas/test_verificar_espacos.py`. Inclui detecção, nom
 
 
 Análise BOP: `verificar_modelo/analisar_bop.py`; [resultado e limites](../02_Modelo_3D/README.md#análise-dos-alertas-bop--25102026). Não altera o modelo vigente.
+
+
+Estudos P01/P02/P03: scripts em `roupeiro/`, com geometria extraída, conferências e hipóteses; [escopo vigente](../04_Moveis/P03/README.md). Os cálculos não substituem ensaio de juntas.

@@ -1,0 +1,223 @@
+{
+  "cases": 464,
+  "configurations": 29,
+  "joint_csv_rows": 2048,
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "numerical_validation": {
+    "rigid_rotation_normalized_energy": [
+      1.049762032639151e-20,
+      1.9852278391691207e-20,
+      9.358817938368827e-20
+    ],
+    "membrane_energy_error": 2.220446049250313e-16,
+    "constant_curvature_energy_error": 5.329070518200751e-15,
+    "cantilever": [
+      {
+        "nx": 12,
+        "tip_mm": -30.786094955640795,
+        "beam_reference_mm": -31.17595710188303,
+        "relative": 0.012505218202865875
+      },
+      {
+        "nx": 24,
+        "tip_mm": -30.878540026051798,
+        "beam_reference_mm": -31.17595710188303,
+        "relative": 0.009539950124362595
+      }
+    ],
+    "limitation": "Validacao numerica de casca plana;nao valida MDF, juntas,apoios ou caixa real."
+  },
+  "max_global_force_residual_N": 1.5105626971489983e-08,
+  "max_global_moment_residual_Nmm": 1.4209101209416986e-05,
+  "outside_small_displacement_screen_cases": 62,
+  "base25_mesh12_to16_relative_change": 0.0004239769976950303,
+  "base25_contact100_to1000_relative_change": 0.00042688980002647536,
+  "summary": [
+    {
+      "configuration": 0,
+      "label": "A18, encontro de aresta",
+      "max_base_down_mm": 13.147426455058435,
+      "P03_plus_content_mass_kg": 63.45998336,
+      "max_joint_N": 65.87629985948759,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "direita86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        530.0,
+        9.0
+      ]
+    },
+    {
+      "configuration": 1,
+      "label": "A18, base/topo prolongados18",
+      "max_base_down_mm": 8.53461295858191,
+      "P03_plus_content_mass_kg": 64.15251392,
+      "max_joint_N": 136.4406946256705,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "ambas86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        20.0,
+        9.0
+      ]
+    },
+    {
+      "configuration": 2,
+      "label": "A18, mais apoio traseiro",
+      "max_base_down_mm": 8.223088037167962,
+      "P03_plus_content_mass_kg": 64.15251392,
+      "max_joint_N": 78.0043177877824,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "ambas86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        20.0,
+        9.0
+      ]
+    },
+    {
+      "configuration": 4,
+      "label": "A18, longarina80 equivalente INCOMPATIVEL",
+      "max_base_down_mm": 2.5467009911031933,
+      "P03_plus_content_mass_kg": 64.15251392,
+      "max_joint_N": 113.05503389606275,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "fechadas",
+        "duas_areas50_frente"
+      ],
+      "base_location_relative_mm": [
+        456.0,
+        20.0,
+        9.0
+      ]
+    },
+    {
+      "configuration": 21,
+      "label": "Base25, caixa fechada",
+      "max_base_down_mm": 4.96167029921947,
+      "P03_plus_content_mass_kg": 68.6536472,
+      "max_joint_N": 117.80434786183918,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "ambas86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        20.0,
+        12.5
+      ]
+    },
+    {
+      "configuration": 22,
+      "label": "Base25, mais apoio traseiro",
+      "max_base_down_mm": 4.707330594300338,
+      "P03_plus_content_mass_kg": 68.6536472,
+      "max_joint_N": 82.91043857022879,
+      "max_seam_moment_Nm": 0,
+      "critical_base_case": [
+        "ambas86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        20.0,
+        12.5
+      ]
+    },
+    {
+      "configuration": 24,
+      "label": "Base25+traseiro, junta com rigidez rotacional suposta",
+      "max_base_down_mm": 3.2227698315602864,
+      "P03_plus_content_mass_kg": 68.6536472,
+      "max_joint_N": 96.96801123217014,
+      "max_seam_moment_Nm": 4.282409549722571,
+      "critical_base_case": [
+        "ambas86",
+        "oito_areas50"
+      ],
+      "base_location_relative_mm": [
+        1332.0,
+        20.0,
+        12.5
+      ]
+    }
+  ],
+  "back_geometry": {
+    "current_contact_area_mm2": 0,
+    "closed_contact_area_each_mm2": 23652,
+    "current_base_y_mm": [
+      3310,
+      3922
+    ],
+    "closed_base_y_mm": [
+      3310,
+      3940
+    ],
+    "back_y_mm": [
+      3922,
+      3940
+    ],
+    "meaning": "Area geometrica apenas; nao comprova resistencia ou apoio no P01."
+  },
+  "incompatible_front_rail": {
+    "bbox_mm": [
+      5408,
+      3354,
+      2034,
+      7372,
+      3372,
+      2114
+    ],
+    "reservations": {
+      "guia_flex_traseira": {
+        "bbox_mm": [
+          6405,
+          3329,
+          2087,
+          6490,
+          3357,
+          2102
+        ],
+        "overlap_xyz_mm": [
+          85,
+          3,
+          15
+        ],
+        "overlap_mm3": 3825
+      },
+      "retencao_traseira": {
+        "bbox_mm": [
+          6405,
+          3352,
+          2077,
+          6460,
+          3365,
+          2089
+        ],
+        "overlap_xyz_mm": [
+          55,
+          11,
+          12
+        ],
+        "overlap_mm3": 7260
+      }
+    },
+    "sources": [
+      "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/montar_correr.py",
+      "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/ajustar_vias.py"
+    ],
+    "limitation": "Reservas hipoteticas de montagem, nao STEP real. Conflito ja na folha traseira fechada; nao simula varredura completa."
+  },
+  "status": "Verificacao numerica condicional; capacidade20kg ainda nao demonstrada; CAD preservado."
+}

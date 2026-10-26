@@ -1,0 +1,21 @@
+{
+  "status": "OK",
+  "checks": [
+    "81 casos: 153 certificados compressivos e nove separacoes pelo CG conferidos independentemente",
+    "C01: quatro eixos dentro da face612x272; sem quantitativo ou usinagem liberados",
+    "TopoP03: acrescimo18 cria face23652mm2; fundosP02 continuam somente com aresta272",
+    "Nove cortes do retorno conferidos por volumes analiticos e soma de momentos"
+  ],
+  "cases": 81,
+  "compression_certificates": 153,
+  "P02_infeasible_compression_only": 9,
+  "coupled_necessary_cuts": 81,
+  "max_force_residual_N": 2.2737367544323206e-13,
+  "max_moment_residual_Nmm": 1.1641532182693481e-10,
+  "source_unchanged": true,
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "limitations": [
+    "Aritmetica/geometria verificadas; nao e demonstracao de rigidez/capacidade.",
+    "Novas geometrias verificadas somente contra os22paineis selecionados; demais componentes nao conferidos."
+  ]
+}

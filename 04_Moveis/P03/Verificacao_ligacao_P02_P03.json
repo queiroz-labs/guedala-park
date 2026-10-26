@@ -1,0 +1,612 @@
+{
+  "cases": 1728,
+  "csv_rows": 8064,
+  "sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "L_validation": {
+    "area_mm2": 506100.0,
+    "center_xy_mm": [
+      365.0829875518675,
+      634.7925311203327
+    ],
+    "mass_kg": 7.409304,
+    "rigid_normalized_energy": [
+      2.6712356952184965e-21,
+      2.6435988900027894e-21,
+      5.786222111380163e-22
+    ]
+  },
+  "summary": [
+    {
+      "configuration": 0,
+      "options": {
+        "soco": false,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 13.756453120138042,
+      "primary_P02_down_mm": 13.722366693374049,
+      "primary_C01_tension_N": 448.8233304494216,
+      "primary_C01_shear_N": 44.58814988045597,
+      "primary_divider_foot_N": 0.16715563380973605,
+      "primary_base_under_divider_mm": 7.803242833478177,
+      "primary_base_under_divider_min_mm": 7.784911092965302,
+      "primary_floor_peak_MPa": 0.15839555627901983,
+      "primary_soco_center_force_N": 0.0,
+      "primary_linear_screen_count": 0,
+      "combined_max_P03_down_mm": 20.556336037814425,
+      "combined_max_P02_down_mm": 31.939933360223186,
+      "all_linear_screen_count": 0
+    },
+    {
+      "configuration": 1,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.506202671582557,
+      "primary_P02_down_mm": 8.648109385683341,
+      "primary_C01_tension_N": 279.5917876064062,
+      "primary_C01_shear_N": 42.00392707042626,
+      "primary_divider_foot_N": 645.7159273362098,
+      "primary_base_under_divider_mm": 0.04957852241902963,
+      "primary_base_under_divider_min_mm": 0.04410401692831889,
+      "primary_floor_peak_MPa": 0.08791759374260705,
+      "primary_soco_center_force_N": 405.45220561114326,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 14.148185580840469,
+      "combined_max_P02_down_mm": 29.663391540706666,
+      "all_linear_screen_count": 47
+    },
+    {
+      "configuration": 2,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true,
+        "base_thickness": 25.0
+      },
+      "primary_P03_down_mm": 5.469113407676863,
+      "primary_P02_down_mm": 5.7116025393893555,
+      "primary_C01_tension_N": 186.10358391229076,
+      "primary_C01_shear_N": 40.36123935803368,
+      "primary_divider_foot_N": 707.0908633840266,
+      "primary_base_under_divider_mm": 0.05403808493127504,
+      "primary_base_under_divider_min_mm": 0.04905984973713138,
+      "primary_floor_peak_MPa": 0.08087363429018048,
+      "primary_soco_center_force_N": 441.95873726347975,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 8.870875516223665,
+      "combined_max_P02_down_mm": 22.167563834855596,
+      "all_linear_screen_count": 64
+    },
+    {
+      "configuration": 3,
+      "options": {
+        "soco": true,
+        "c01_k": 100.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 10.279958712670403,
+      "primary_P02_down_mm": 10.498488476319961,
+      "primary_C01_tension_N": 139.10005186661357,
+      "primary_C01_shear_N": 42.19407520869567,
+      "primary_divider_foot_N": 672.6210165185744,
+      "primary_base_under_divider_mm": 0.05153154145875582,
+      "primary_base_under_divider_min_mm": 0.04623785720326861,
+      "primary_floor_peak_MPa": 0.08219802279891057,
+      "primary_soco_center_force_N": 421.4401491194285,
+      "primary_linear_screen_count": 14,
+      "combined_max_P03_down_mm": 17.533990681578423,
+      "combined_max_P02_down_mm": 32.13324975296554,
+      "all_linear_screen_count": 15
+    },
+    {
+      "configuration": 4,
+      "options": {
+        "soco": true,
+        "c01_k": 2000.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 7.511455409812315,
+      "primary_P02_down_mm": 7.6492739930952505,
+      "primary_C01_tension_N": 377.78496639776336,
+      "primary_C01_shear_N": 41.80043660482674,
+      "primary_divider_foot_N": 632.1804945212641,
+      "primary_base_under_divider_mm": 0.04859370755323169,
+      "primary_base_under_divider_min_mm": 0.04290654105482161,
+      "primary_floor_peak_MPa": 0.0902568414520441,
+      "primary_soco_center_force_N": 397.4014425015154,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 12.480801558692798,
+      "combined_max_P02_down_mm": 28.505643248682567,
+      "all_linear_screen_count": 63
+    },
+    {
+      "configuration": 5,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.316455629210802,
+      "primary_P02_down_mm": 8.443243448650161,
+      "primary_C01_tension_N": 248.71113736342082,
+      "primary_C01_shear_N": 34.77090978379595,
+      "primary_divider_foot_N": 642.5171499110237,
+      "primary_base_under_divider_mm": 0.049345503053815055,
+      "primary_base_under_divider_min_mm": 0.04378459205586517,
+      "primary_floor_peak_MPa": 0.08870224735589467,
+      "primary_soco_center_force_N": 403.55068176692134,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 13.717565647309202,
+      "combined_max_P02_down_mm": 29.434251469340005,
+      "all_linear_screen_count": 52
+    },
+    {
+      "configuration": 6,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 0.1,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.88761802170525,
+      "primary_P02_down_mm": 9.029891957562853,
+      "primary_C01_tension_N": 277.20519920043165,
+      "primary_C01_shear_N": 41.906268098075856,
+      "primary_divider_foot_N": 605.0322184919128,
+      "primary_base_under_divider_mm": 0.29534332542060776,
+      "primary_base_under_divider_min_mm": 0.2597634282990591,
+      "primary_floor_peak_MPa": 0.05131557199896373,
+      "primary_soco_center_force_N": 264.09235978561543,
+      "primary_linear_screen_count": 31,
+      "combined_max_P03_down_mm": 14.74261096802719,
+      "combined_max_P02_down_mm": 30.761567540023734,
+      "all_linear_screen_count": 36
+    },
+    {
+      "configuration": 7,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 10.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.444820394898935,
+      "primary_P02_down_mm": 8.586274565606143,
+      "primary_C01_tension_N": 280.0524682697063,
+      "primary_C01_shear_N": 42.03120653036312,
+      "primary_divider_foot_N": 658.8634601116685,
+      "primary_base_under_divider_mm": 0.009171093429073778,
+      "primary_base_under_divider_min_mm": 0.008192020182278607,
+      "primary_floor_peak_MPa": 0.10763916358412842,
+      "primary_soco_center_force_N": 527.0152631170447,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 14.053310698450368,
+      "combined_max_P02_down_mm": 29.472518183249903,
+      "all_linear_screen_count": 49
+    },
+    {
+      "configuration": 8,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.2,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.564640497562653,
+      "primary_P02_down_mm": 8.705494002904363,
+      "primary_C01_tension_N": 281.74688515030925,
+      "primary_C01_shear_N": 42.01638056103607,
+      "primary_divider_foot_N": 587.3051331300387,
+      "primary_base_under_divider_mm": 0.21690428131440787,
+      "primary_base_under_divider_min_mm": 0.21517501951513068,
+      "primary_floor_peak_MPa": 0.09698434356796008,
+      "primary_soco_center_force_N": 54.89423959154041,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 14.207626046040787,
+      "combined_max_P02_down_mm": 29.679246095945544,
+      "all_linear_screen_count": 46
+    },
+    {
+      "configuration": 9,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 1.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.580271572375228,
+      "primary_P02_down_mm": 8.720877335555159,
+      "primary_C01_tension_N": 282.3431005495137,
+      "primary_C01_shear_N": 42.01897948805885,
+      "primary_divider_foot_N": 565.2890070410018,
+      "primary_base_under_divider_mm": 0.40081978869094825,
+      "primary_base_under_divider_min_mm": 0.3595523732952505,
+      "primary_floor_peak_MPa": 0.10632678377155191,
+      "primary_soco_center_force_N": 0.0,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 14.22598996678899,
+      "combined_max_P02_down_mm": 29.686536972573347,
+      "all_linear_screen_count": 46
+    },
+    {
+      "configuration": 10,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.5,
+        "lower_mesh": 1.5,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.873745733979263,
+      "primary_P02_down_mm": 9.043771877186627,
+      "primary_C01_tension_N": 257.4373536070329,
+      "primary_C01_shear_N": 41.42184389786894,
+      "primary_divider_foot_N": 650.7139751334732,
+      "primary_base_under_divider_mm": 0.05058658351129833,
+      "primary_base_under_divider_min_mm": 0.045025233427011944,
+      "primary_floor_peak_MPa": 0.08811875887051401,
+      "primary_soco_center_force_N": 421.76693520084837,
+      "primary_linear_screen_count": 31,
+      "combined_max_P03_down_mm": 14.696242399172103,
+      "combined_max_P02_down_mm": 30.668425367972702,
+      "all_linear_screen_count": 38
+    },
+    {
+      "configuration": 11,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true,
+        "rear_support": true
+      },
+      "primary_P03_down_mm": 8.459732322855416,
+      "primary_P02_down_mm": 8.590642251893046,
+      "primary_C01_tension_N": 271.3917695778768,
+      "primary_C01_shear_N": 42.45209719679172,
+      "primary_divider_foot_N": 588.4368176023511,
+      "primary_base_under_divider_mm": 0.04539340726702973,
+      "primary_base_under_divider_min_mm": 0.03826116572457942,
+      "primary_floor_peak_MPa": 0.08673389121847708,
+      "primary_soco_center_force_N": 371.71341627310187,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 14.147713295075798,
+      "combined_max_P02_down_mm": 29.66137659398311,
+      "all_linear_screen_count": 49
+    },
+    {
+      "configuration": 12,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 4,
+        "c01_spread": false,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true,
+        "joint_k": 100.0
+      },
+      "primary_P03_down_mm": 10.805056701560837,
+      "primary_P02_down_mm": 11.581805453313873,
+      "primary_C01_tension_N": 155.81869624705257,
+      "primary_C01_shear_N": 37.80139295417013,
+      "primary_divider_foot_N": 691.1837466051744,
+      "primary_base_under_divider_mm": 0.05361925507217967,
+      "primary_base_under_divider_min_mm": 0.05056299861527001,
+      "primary_floor_peak_MPa": 0.0989133523477261,
+      "primary_soco_center_force_N": 440.60282542244533,
+      "primary_linear_screen_count": 2,
+      "combined_max_P03_down_mm": 18.052375977351677,
+      "combined_max_P02_down_mm": 39.704483347171916,
+      "all_linear_screen_count": 2
+    },
+    {
+      "configuration": 13,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": true,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.053960870445533,
+      "primary_P02_down_mm": 8.1684908130249,
+      "primary_C01_tension_N": 200.98351298661,
+      "primary_C01_shear_N": 32.87649295768001,
+      "primary_divider_foot_N": 638.5098455351828,
+      "primary_base_under_divider_mm": 0.04905365261098363,
+      "primary_base_under_divider_min_mm": 0.043419172630512794,
+      "primary_floor_peak_MPa": 0.08953583479205447,
+      "primary_soco_center_force_N": 401.1682760695994,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 13.187114656824257,
+      "combined_max_P02_down_mm": 29.215672728517067,
+      "all_linear_screen_count": 55
+    },
+    {
+      "configuration": 14,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": true,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true,
+        "rear_support": true
+      },
+      "primary_P03_down_mm": 8.01822916552798,
+      "primary_P02_down_mm": 8.123708256145667,
+      "primary_C01_tension_N": 196.55288465330085,
+      "primary_C01_shear_N": 32.684737168729924,
+      "primary_divider_foot_N": 582.1097796474108,
+      "primary_base_under_divider_mm": 0.044933305879499584,
+      "primary_base_under_divider_min_mm": 0.03788117146452626,
+      "primary_floor_peak_MPa": 0.0883897059183653,
+      "primary_soco_center_force_N": 367.94931333578876,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 13.186602888025114,
+      "combined_max_P02_down_mm": 29.21356048503816,
+      "all_linear_screen_count": 58
+    },
+    {
+      "configuration": 15,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": true,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.0,
+        "lower_mesh": 1.0,
+        "full_walls": true,
+        "rear_support": true,
+        "base_thickness": 25.0
+      },
+      "primary_P03_down_mm": 5.194453956180608,
+      "primary_P02_down_mm": 5.415940675404562,
+      "primary_C01_tension_N": 128.02857891468258,
+      "primary_C01_shear_N": 29.187906266590108,
+      "primary_divider_foot_N": 646.8117807369448,
+      "primary_base_under_divider_mm": 0.04964072455528344,
+      "primary_base_under_divider_min_mm": 0.0424339239295442,
+      "primary_floor_peak_MPa": 0.08109901722079711,
+      "primary_soco_center_force_N": 406.44016656430074,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 8.340504113296557,
+      "combined_max_P02_down_mm": 21.753316347139574,
+      "all_linear_screen_count": 64
+    },
+    {
+      "configuration": 16,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": true,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 1.5,
+        "lower_mesh": 1.5,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.301441725243057,
+      "primary_P02_down_mm": 8.435651451829791,
+      "primary_C01_tension_N": 186.7357074824007,
+      "primary_C01_shear_N": 31.912126384031733,
+      "primary_divider_foot_N": 641.7094445697526,
+      "primary_base_under_divider_mm": 0.049921275047347044,
+      "primary_base_under_divider_min_mm": 0.044148821656787934,
+      "primary_floor_peak_MPa": 0.09016567569311275,
+      "primary_soco_center_force_N": 416.23443713881136,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 13.519371795737001,
+      "combined_max_P02_down_mm": 30.197987728689263,
+      "all_linear_screen_count": 47
+    },
+    {
+      "configuration": 17,
+      "options": {
+        "soco": true,
+        "c01_k": 500.0,
+        "c01_n": 6,
+        "c01_spread": true,
+        "floor_k_area": 1.0,
+        "floor_gap": 0.0,
+        "mesh": 2.0,
+        "lower_mesh": 1.5,
+        "full_walls": true
+      },
+      "primary_P03_down_mm": 8.463478923010928,
+      "primary_P02_down_mm": 8.641299432920427,
+      "primary_C01_tension_N": 171.12800011239037,
+      "primary_C01_shear_N": 32.10188701981734,
+      "primary_divider_foot_N": 644.2590303084892,
+      "primary_base_under_divider_mm": 0.05010889039600789,
+      "primary_base_under_divider_min_mm": 0.0443344523770666,
+      "primary_floor_peak_MPa": 0.08971812594202114,
+      "primary_soco_center_force_N": 417.8006955543874,
+      "primary_linear_screen_count": 32,
+      "combined_max_P03_down_mm": 13.775158523002034,
+      "combined_max_P02_down_mm": 30.71508027498639,
+      "all_linear_screen_count": 43
+    }
+  ],
+  "divider_path": {
+    "divider_x_mm": [
+      6381,
+      6399
+    ],
+    "divider_y_mm": [
+      3372,
+      3922
+    ],
+    "divider_bottom_Z": 80,
+    "base_Z_mm": [
+      62,
+      80
+    ],
+    "soco_Z_mm": [
+      0,
+      62
+    ],
+    "support_parts": [
+      {
+        "name": "Soco_frente_base",
+        "length_y_mm": 18
+      },
+      {
+        "name": "Soco_transversal_4_caixa",
+        "length_y_mm": 514
+      },
+      {
+        "name": "Soco_traseiro",
+        "length_y_mm": 18
+      }
+    ],
+    "nominal_complete_contact_mm2": 9900,
+    "limitation": "Contato nominal formado por tres pecas do soco;continuidade real e nivelamento ainda pendentes."
+  },
+  "candidate_connector": {
+    "status": "Familia candidata,nao conjunto comprado/dimensionado",
+    "source": "https://www.hafele.si/en/product/threaded-sleeve-with-m4-internal-thread-steel/P-00861539/",
+    "sleeve_internal_thread": "M4",
+    "bore_reference_mm": 5,
+    "variants": [
+      {
+        "code": "267.00.914",
+        "length_mm": 25,
+        "stack_range_mm": [
+          31,
+          36
+        ]
+      },
+      {
+        "code": "267.00.916",
+        "length_mm": 30,
+        "stack_range_mm": [
+          36,
+          40
+        ]
+      }
+    ],
+    "two_panels_nominal_mm": 36,
+    "conditional_stack_range_mm": [
+      35.4,
+      36.6
+    ],
+    "note": "Luva e parafusos/cabecas correspondentes formam o conjunto. Medir espessuras;os intervalos se encontram em36,sem cobrir ambos com umSKU. Cabecas,parafusos,aperto e resistenciasMDF nao definidos."
+  },
+  "mesh_primary_P03_relative_change_1_to1_5": 0.03072784419721608,
+  "mesh_primary_P03_relative_change_1_5_to2_upper": 0.019519163433400655,
+  "C01_candidate_points_world_mm": [
+    [
+      6740,
+      3430,
+      2180
+    ],
+    [
+      6740,
+      3430,
+      2392
+    ],
+    [
+      6740,
+      3646,
+      2180
+    ],
+    [
+      6740,
+      3646,
+      2392
+    ],
+    [
+      6740,
+      3862,
+      2180
+    ],
+    [
+      6740,
+      3862,
+      2392
+    ]
+  ],
+  "status": "Cortes,geometria e aritmetica conferidos;rigidezes/capacidades fisicas e fabricacao pendentes."
+}

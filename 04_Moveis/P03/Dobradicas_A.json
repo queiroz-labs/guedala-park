@@ -1,0 +1,341 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "selected_for_evaluation_only": true,
+  "leaf_mm": [
+    672,
+    306,
+    18
+  ],
+  "finished_mass_hypothesis_kg": 4,
+  "bill_of_materials_candidate": [
+    {
+      "part": "71B3550",
+      "quantity": 6,
+      "status": "candidata;3porfolha"
+    },
+    {
+      "part": "173H7100",
+      "quantity": 6,
+      "status": "calco0candidato"
+    },
+    {
+      "part": "70T3553",
+      "quantity": 6,
+      "status": "umportodadobradica;encaixorealpendente"
+    },
+    {
+      "part": "609.1500",
+      "quantity": 24,
+      "status": "12nocaneco+12nocalco;candidato3.5x15;confirmarcabeca,pilotoechapa"
+    }
+  ],
+  "centers": [
+    {
+      "side": "left",
+      "hinge": 1,
+      "cup_center_world_mm": [
+        5414.5,
+        3308.0,
+        2185.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 52.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 34.5,
+      "plate_holes_world_mm": [
+        [
+          5408.0,
+          3347.0,
+          2169.0
+        ],
+        [
+          5408.0,
+          3347.0,
+          2201.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        19.0,
+        51.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 19.0
+    },
+    {
+      "side": "left",
+      "hinge": 2,
+      "cup_center_world_mm": [
+        5414.5,
+        3308.0,
+        2286.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 153.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 135.5,
+      "plate_holes_world_mm": [
+        [
+          5408.0,
+          3347.0,
+          2270.0
+        ],
+        [
+          5408.0,
+          3347.0,
+          2302.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        120.0,
+        152.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 120.0
+    },
+    {
+      "side": "left",
+      "hinge": 3,
+      "cup_center_world_mm": [
+        5414.5,
+        3308.0,
+        2387.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 254.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 34.5,
+      "plate_holes_world_mm": [
+        [
+          5408.0,
+          3347.0,
+          2371.0
+        ],
+        [
+          5408.0,
+          3347.0,
+          2403.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        221.0,
+        253.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 19.0
+    },
+    {
+      "side": "right",
+      "hinge": 1,
+      "cup_center_world_mm": [
+        6715.5,
+        3308.0,
+        2185.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 52.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 34.5,
+      "plate_holes_world_mm": [
+        [
+          6722.0,
+          3347.0,
+          2169.0
+        ],
+        [
+          6722.0,
+          3347.0,
+          2201.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        19.0,
+        51.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 19.0
+    },
+    {
+      "side": "right",
+      "hinge": 2,
+      "cup_center_world_mm": [
+        6715.5,
+        3308.0,
+        2286.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 153.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 135.5,
+      "plate_holes_world_mm": [
+        [
+          6722.0,
+          3347.0,
+          2270.0
+        ],
+        [
+          6722.0,
+          3347.0,
+          2302.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        120.0,
+        152.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 120.0
+    },
+    {
+      "side": "right",
+      "hinge": 3,
+      "cup_center_world_mm": [
+        6715.5,
+        3308.0,
+        2387.0
+      ],
+      "cup_center_from_leaf_bottom_mm": 254.0,
+      "cup_diameter_mm": 35.0,
+      "minimum_cup_depth_from_guide_mm": 13.0,
+      "nominal_front_skin_if_depth13_mm": 5.0,
+      "cup_top_bottom_minimum_ligament_to_leaf_edge_mm": 34.5,
+      "plate_holes_world_mm": [
+        [
+          6722.0,
+          3347.0,
+          2371.0
+        ],
+        [
+          6722.0,
+          3347.0,
+          2403.0
+        ]
+      ],
+      "plate_hole_heights_from_inner_base_mm": [
+        221.0,
+        253.0
+      ],
+      "plate_hole_min_distance_to_base_top_mm": 19.0
+    }
+  ],
+  "load_cases": [
+    {
+      "finished_door_hypothesis_kg": 3.0,
+      "vertical_group_N": 29.41995,
+      "moment_nominal_Nm": 9.885103200000001,
+      "equivalent_pair_over202mm_N": 48.936154455445546,
+      "per_fastener_force": null,
+      "capacity_margin": null
+    },
+    {
+      "finished_door_hypothesis_kg": 4.0,
+      "vertical_group_N": 39.2266,
+      "moment_nominal_Nm": 13.1801376,
+      "equivalent_pair_over202mm_N": 65.24820594059406,
+      "per_fastener_force": null,
+      "capacity_margin": null
+    },
+    {
+      "finished_door_hypothesis_kg": 5.0,
+      "vertical_group_N": 49.033249999999995,
+      "moment_nominal_Nm": 16.475172,
+      "equivalent_pair_over202mm_N": 81.56025742574258,
+      "per_fastener_force": null,
+      "capacity_margin": null
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://publications.blum.com/2024/catalogue/en/76/",
+      "supports": [
+        "71B3550 aparafusada, recobrimento total, CLIP top BLUMOTION110.",
+        "70T3553 nominal86;609.1500 diametro3.5/comprimento15 na lista de acessorios.",
+        "BLUMOTION integrado e desativavel; nao misturar familia CLIP com mola emfrentes largas com base na nota de combinacao."
+      ]
+    },
+    {
+      "url": "https://publications.blum.com/2024/catalogue/en/77/",
+      "supports": [
+        "TB/K3-7;K5/calco0 recobrimento16;caneco35 e minimo13 de profundidade.",
+        "Folga minima tabelaFD18/TB5:0.8;acrescimo0.4 para ajuste lateral+2. Nao representa margem do conjunto P03."
+      ]
+    },
+    {
+      "url": "https://publications.blum.com/2024/catalogue/en/152/",
+      "supports": [
+        "173H7100 distancia0/altura8.5,aco,fixacao com parafusoaglomerado3.5 ou4,calco37/32,regulagemaltura±2."
+      ]
+    },
+    {
+      "url": "https://publications.blum.com/2024/catalogue/en/718/",
+      "supports": [
+        "Quantidade depende de peso/altura;dados para frente600 de largura;maior distanciaentre dobradicas favorece estabilidade."
+      ]
+    },
+    {
+      "url": "https://ea.blum.com/en/number-of-hinges/",
+      "supports": [
+        "Extensao orientativa ate650 comdobradicaadicional;recomendaaltura maiorquelargura."
+      ]
+    },
+    {
+      "url": "https://ea.blum.com/en/opening-angle-stops-for-110-and-107-hinges/",
+      "supports": [
+        "70T3553 para CLIPtopBLUMOTION110 limita86;instalar emtodasdobradicas.",
+        "Dobradicafechada,instalarantesdeencaixarportanocalco,espacoentrecanecoearticulacao."
+      ]
+    },
+    {
+      "url": "https://publications.blum.com/2024/catalogue/en/710/",
+      "supports": [
+        "Fabricante moveleiro deve escolher fixacoes conforme material.",
+        "Recomendacoes de fixacao referem chapaP2 EN312,650kg/m3 EN323,revestida conforme texto.",
+        "Aplicacoes especiais/muito largas exigem consideracao especifica;nao transferir capacidade padrao automaticamente."
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "option": "2hinges_extremes202",
+      "status": "sensibilidade,naoliberado",
+      "reason": "Mesmo bracoextremo;menos pontos e menor massa,mas semaprovacao/aplicacaolarga."
+    },
+    {
+      "option": "3hinges_extremes202",
+      "status": "prioridade_de_consulta",
+      "reason": "MantemA;alinhargrupoeconfirmarcapacidade/fechamentoreais."
+    },
+    {
+      "option": "4hinges",
+      "status": "naoadotarautomaticamente",
+      "reason": "Semcapacidadedemonstrada;maisfuracaoemfolhabaixanaoeliminarestricaolargura."
+    },
+    {
+      "option": "INSERTA_71B3590",
+      "status": "naosubstituirsemnovoestudo",
+      "reason": "Muda fixacao,nao comprova maiscapacidade;exigegabarito/produtoreal."
+    },
+    {
+      "option": "155degrees",
+      "status": "semnecessidadedemonstrada",
+      "reason": "Outro mecanismo/gabarito/varredura;maiorangulonaoprova maiorcapacidade."
+    }
+  ],
+  "pending": [
+    "Confirmar71B3550/calco0 comfolha672x306,4kgacabados eextremos202.",
+    "BaseMDFBP Greenplac18/ArenzaColoreLizze nasduasfacesP03;confirmar SKU/substrato e massa acabada reais,conformeChapa_P03.json.",
+    "Gabarito real dos dois parafusos do caneco, diametro/profundidade dos pilotos e ferramenta.",
+    "Capacidade do grupo/fixacoes,rigidez,alinhamento e regulagens;naodividir esforcos igualmente.",
+    "Corpos completos,limitador e espaco para montagem/retirada,antesdeafirmarpassagemeafetiva.",
+    "Prototipo da folha real:flecha/desalinhamento,manutencaodejuntas,aberturafechamentoeatrito de ferragens,comcriteriosdo fornecedor.",
+    "Caixa/base/sustentacao de malas20kg e eventual30kg sao verificacoes separadas."
+  ],
+  "assumptions": [
+    "Centros de calco alinhados emZ ao caneco,comdoisfuros±16:conferir produto real.",
+    "19mm e distancia de centro de parafuso a borda interna,nao distancia da borda do furo nemprova contra fendilhamento.",
+    "Profundidademinima13 nao e instrucao parafresarsem tolerancia:5mm epele nominalsem ponta/desvios.",
+    "Comprimento15 do parafuso nao e penetracao util15;descontar ferragem/cabeca/ponta conforme desenho.",
+    "Numero de limitadores documentado;forca/impacto no batente e encaixe fisico nao calculados.",
+    "NaofoiabertoFreeCAD,nemalteradaR52."
+  ],
+  "conclusion": "CANDIDATO_COHERENTE_NAO_HOMOLOGADO: referencias e centros conferidos;nao ha capacidade publicada especifica para672x306 neste dossie."
+}

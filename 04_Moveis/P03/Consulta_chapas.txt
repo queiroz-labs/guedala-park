@@ -1,0 +1,17 @@
+SOLICITAÇÃO TÉCNICA LOCAL — NÃO ENVIADA
+Assunto: MDFBP Greenplac18 — ArenzaColore/Lizze nas duas faces
+
+BaseP03: sete painéis únicos18mm, todosArenza liso nas duas faces.
+Não solicitarBrancoTX no verso da mesma chapa.
+Peças de estudo: duas portas672x306, duas laterais630x308,
+base e topo1314x612, fundo1314x272; dimensões ainda não são corte.
+
+Confirmar SKU/lote, formato2750x1850, espessura final/substrato, peso,
+recomendação de bordas e fixação de caneco35/calço37/32 com71B3550.
+Parafuso609.1500 é candidato; informar pilotos/ferramenta/penetração,
+sem inferir capacidade pela densidade ou espessura.
+
+Regra geral: duas peças físicas separadas podem ter cores distintas,
+p.ex. externa18 no padrão do projeto e interna15BrancoTX. Essa caixa dupla
+não foi adotada noP03 atual; exige identificação e estudo de vãos/ligações/cargas.
+Sem autorização de compra/fabricação ou contato realizado.

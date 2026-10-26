@@ -1,0 +1,3543 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "source_unchanged": true,
+  "preference": "A672x306, escolhida por Elias para continuar estudo; sem liberacao de fabricacao",
+  "corridor_definition": "Intervalo X entre projecoes completas das folhas, limitado a abertura entre madeiras. Serve para translacao reta; ferragens excluidas.",
+  "one_open86": {
+    "angle_deg": 86.0,
+    "both_open": false,
+    "left_x_mm": 5463.582991909348,
+    "right_x_mm": 6066.0,
+    "width_mm": 602.4170080906524,
+    "height_between_wood_mm": 272.0,
+    "advance_from_closed_front_mm": 656.6900216531076
+  },
+  "both_open86": {
+    "angle_deg": 86.0,
+    "both_open": true,
+    "left_x_mm": 5463.582991909348,
+    "right_x_mm": 6666.417008090652,
+    "width_mm": 1202.8340161813048,
+    "height_between_wood_mm": 272.0,
+    "advance_from_closed_front_mm": 656.6900216531076
+  },
+  "sampled_curves": [
+    {
+      "angle_deg": 0.0,
+      "both_open": false,
+      "left_x_mm": 6064.0,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.0,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 0.0
+    },
+    {
+      "angle_deg": 0.5,
+      "both_open": false,
+      "left_x_mm": 6064.0649858949055,
+      "right_x_mm": 6066.0,
+      "width_mm": 1.935014105094524,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 5.946245213284328
+    },
+    {
+      "angle_deg": 1.0,
+      "both_open": false,
+      "left_x_mm": 6064.08213111686,
+      "right_x_mm": 6066.0,
+      "width_mm": 1.9178688831398176,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 11.8921234732411
+    },
+    {
+      "angle_deg": 1.5,
+      "both_open": false,
+      "left_x_mm": 6064.051449463255,
+      "right_x_mm": 6066.0,
+      "width_mm": 1.948550536744733,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 17.837043701522816
+    },
+    {
+      "angle_deg": 2.0,
+      "both_open": false,
+      "left_x_mm": 6063.972952767293,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.027047232707446,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 23.780412785827593
+    },
+    {
+      "angle_deg": 2.5,
+      "both_open": false,
+      "left_x_mm": 6063.846650794621,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.1533492053786176,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 29.721636153110467
+    },
+    {
+      "angle_deg": 3.0,
+      "both_open": false,
+      "left_x_mm": 6063.672551175431,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.327448824568819,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 35.66011835151221
+    },
+    {
+      "angle_deg": 3.5,
+      "both_open": false,
+      "left_x_mm": 6063.45065937266,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.549340627339916,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 41.59526363647683
+    },
+    {
+      "angle_deg": 4.0,
+      "both_open": false,
+      "left_x_mm": 6063.180978686492,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.819021313507619,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 47.526476556511625
+    },
+    {
+      "angle_deg": 4.5,
+      "both_open": false,
+      "left_x_mm": 6062.863510294942,
+      "right_x_mm": 6066.0,
+      "width_mm": 3.136489705058011,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 53.45316253412466
+    },
+    {
+      "angle_deg": 5.0,
+      "both_open": false,
+      "left_x_mm": 6062.498253329856,
+      "right_x_mm": 6066.0,
+      "width_mm": 3.5017466701438025,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 59.374728437589965
+    },
+    {
+      "angle_deg": 5.5,
+      "both_open": false,
+      "left_x_mm": 6062.085204987309,
+      "right_x_mm": 6066.0,
+      "width_mm": 3.9147950126907745,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 65.29058313938867
+    },
+    {
+      "angle_deg": 6.0,
+      "both_open": false,
+      "left_x_mm": 6061.624360670952,
+      "right_x_mm": 6066.0,
+      "width_mm": 4.375639329047772,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 71.200138057402
+    },
+    {
+      "angle_deg": 6.5,
+      "both_open": false,
+      "left_x_mm": 6061.115714166558,
+      "right_x_mm": 6066.0,
+      "width_mm": 4.884285833441936,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 77.10280767523909
+    },
+    {
+      "angle_deg": 7.0,
+      "both_open": false,
+      "left_x_mm": 6060.559257845691,
+      "right_x_mm": 6066.0,
+      "width_mm": 5.440742154309191,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 82.99801003840184
+    },
+    {
+      "angle_deg": 7.5,
+      "both_open": false,
+      "left_x_mm": 6059.954982896144,
+      "right_x_mm": 6066.0,
+      "width_mm": 6.045017103855571,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 88.88516722334452
+    },
+    {
+      "angle_deg": 8.0,
+      "both_open": false,
+      "left_x_mm": 6059.30287957659,
+      "right_x_mm": 6066.0,
+      "width_mm": 6.697120423409615,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 94.76370577689977
+    },
+    {
+      "angle_deg": 8.5,
+      "both_open": false,
+      "left_x_mm": 6058.60293749269,
+      "right_x_mm": 6066.0,
+      "width_mm": 7.3970625073097835,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 100.63305712392548
+    },
+    {
+      "angle_deg": 9.0,
+      "both_open": false,
+      "left_x_mm": 6057.855145891781,
+      "right_x_mm": 6066.0,
+      "width_mm": 8.144854108219079,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 106.49265794145049
+    },
+    {
+      "angle_deg": 9.5,
+      "both_open": false,
+      "left_x_mm": 6057.059493973174,
+      "right_x_mm": 6066.0,
+      "width_mm": 8.94050602682637,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 112.34195049801929
+    },
+    {
+      "angle_deg": 10.0,
+      "both_open": false,
+      "left_x_mm": 6056.215971211055,
+      "right_x_mm": 6066.0,
+      "width_mm": 9.784028788944852,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 118.1803829573496
+    },
+    {
+      "angle_deg": 10.5,
+      "both_open": false,
+      "left_x_mm": 6055.3245676869865,
+      "right_x_mm": 6066.0,
+      "width_mm": 10.675432313013516,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 124.00740964580564
+    },
+    {
+      "angle_deg": 11.0,
+      "both_open": false,
+      "left_x_mm": 6054.385274429021,
+      "right_x_mm": 6066.0,
+      "width_mm": 11.614725570979317,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 129.82249128358671
+    },
+    {
+      "angle_deg": 11.5,
+      "both_open": false,
+      "left_x_mm": 6053.398083754562,
+      "right_x_mm": 6066.0,
+      "width_mm": 12.601916245437678,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 135.62509517988974
+    },
+    {
+      "angle_deg": 12.0,
+      "both_open": false,
+      "left_x_mm": 6052.362989614198,
+      "right_x_mm": 6066.0,
+      "width_mm": 13.63701038580166,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 141.4146953926329
+    },
+    {
+      "angle_deg": 12.5,
+      "both_open": false,
+      "left_x_mm": 6051.2799879338345,
+      "right_x_mm": 6066.0,
+      "width_mm": 14.72001206616551,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 147.19077285363164
+    },
+    {
+      "angle_deg": 13.0,
+      "both_open": false,
+      "left_x_mm": 6050.149076952699,
+      "right_x_mm": 6066.0,
+      "width_mm": 15.850923047300967,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 152.95281546041133
+    },
+    {
+      "angle_deg": 13.5,
+      "both_open": false,
+      "left_x_mm": 6048.970257554907,
+      "right_x_mm": 6066.0,
+      "width_mm": 17.02974244509278,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 158.70031813603964
+    },
+    {
+      "angle_deg": 14.0,
+      "both_open": false,
+      "left_x_mm": 6047.743533592502,
+      "right_x_mm": 6066.0,
+      "width_mm": 18.25646640749801,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 164.43278285861015
+    },
+    {
+      "angle_deg": 14.5,
+      "both_open": false,
+      "left_x_mm": 6046.468912198089,
+      "right_x_mm": 6066.0,
+      "width_mm": 19.53108780191087,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 170.14971866214228
+    },
+    {
+      "angle_deg": 15.0,
+      "both_open": false,
+      "left_x_mm": 6045.146404085422,
+      "right_x_mm": 6066.0,
+      "width_mm": 20.853595914578364,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 175.85064161081618
+    },
+    {
+      "angle_deg": 15.5,
+      "both_open": false,
+      "left_x_mm": 6043.776023836472,
+      "right_x_mm": 6066.0,
+      "width_mm": 22.223976163528278,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 181.53507474855815
+    },
+    {
+      "angle_deg": 16.0,
+      "both_open": false,
+      "left_x_mm": 6042.3577901738045,
+      "right_x_mm": 6066.0,
+      "width_mm": 23.64220982619554,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 187.2025480260554
+    },
+    {
+      "angle_deg": 16.5,
+      "both_open": false,
+      "left_x_mm": 6040.891726217206,
+      "right_x_mm": 6066.0,
+      "width_mm": 25.10827378279373,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 192.85259820733654
+    },
+    {
+      "angle_deg": 17.0,
+      "both_open": false,
+      "left_x_mm": 6039.377859723819,
+      "right_x_mm": 6066.0,
+      "width_mm": 26.6221402761812,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 198.4847687580418
+    },
+    {
+      "angle_deg": 17.5,
+      "both_open": false,
+      "left_x_mm": 6037.816223311162,
+      "right_x_mm": 6066.0,
+      "width_mm": 28.183776688838407,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 204.0986097175164
+    },
+    {
+      "angle_deg": 18.0,
+      "both_open": false,
+      "left_x_mm": 6036.206854662639,
+      "right_x_mm": 6066.0,
+      "width_mm": 29.79314533736124,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 209.69367755682242
+    },
+    {
+      "angle_deg": 18.5,
+      "both_open": false,
+      "left_x_mm": 6034.549796715331,
+      "right_x_mm": 6066.0,
+      "width_mm": 31.450203284669442,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 215.26953502469678
+    },
+    {
+      "angle_deg": 19.0,
+      "both_open": false,
+      "left_x_mm": 6032.845097829968,
+      "right_x_mm": 6066.0,
+      "width_mm": 33.154902170032074,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 220.82575098343477
+    },
+    {
+      "angle_deg": 19.5,
+      "both_open": false,
+      "left_x_mm": 6031.092811943232,
+      "right_x_mm": 6066.0,
+      "width_mm": 34.907188056768064,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 226.36190023658082
+    },
+    {
+      "angle_deg": 20.0,
+      "both_open": false,
+      "left_x_mm": 6029.292998702543,
+      "right_x_mm": 6066.0,
+      "width_mm": 36.70700129745728,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 231.87756335020867
+    },
+    {
+      "angle_deg": 20.5,
+      "both_open": false,
+      "left_x_mm": 6027.445723583737,
+      "right_x_mm": 6066.0,
+      "width_mm": 38.55427641626284,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 237.37232646948678
+    },
+    {
+      "angle_deg": 21.0,
+      "both_open": false,
+      "left_x_mm": 6025.551057992046,
+      "right_x_mm": 6066.0,
+      "width_mm": 40.44894200795443,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 242.84578113209045
+    },
+    {
+      "angle_deg": 21.5,
+      "both_open": false,
+      "left_x_mm": 6023.609079346911,
+      "right_x_mm": 6066.0,
+      "width_mm": 42.39092065308887,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 248.29752407993146
+    },
+    {
+      "angle_deg": 22.0,
+      "both_open": false,
+      "left_x_mm": 6021.619871151294,
+      "right_x_mm": 6066.0,
+      "width_mm": 44.38012884870568,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 253.72715707053567
+    },
+    {
+      "angle_deg": 22.5,
+      "both_open": false,
+      "left_x_mm": 6019.583523046093,
+      "right_x_mm": 6066.0,
+      "width_mm": 46.41647695390657,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 259.1342866892869
+    },
+    {
+      "angle_deg": 23.0,
+      "both_open": false,
+      "left_x_mm": 6017.500130850447,
+      "right_x_mm": 6066.0,
+      "width_mm": 48.49986914955298,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 264.5185241636573
+    },
+    {
+      "angle_deg": 23.5,
+      "both_open": false,
+      "left_x_mm": 6015.369796588656,
+      "right_x_mm": 6066.0,
+      "width_mm": 50.630203411344155,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 269.8794851803809
+    },
+    {
+      "angle_deg": 24.0,
+      "both_open": false,
+      "left_x_mm": 6013.192628504529,
+      "right_x_mm": 6066.0,
+      "width_mm": 52.80737149547076,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 275.21678970647235
+    },
+    {
+      "angle_deg": 24.5,
+      "both_open": false,
+      "left_x_mm": 6010.968741063954,
+      "right_x_mm": 6066.0,
+      "width_mm": 55.03125893604556,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 280.53006181483306
+    },
+    {
+      "angle_deg": 25.0,
+      "both_open": false,
+      "left_x_mm": 6008.698254946505,
+      "right_x_mm": 6066.0,
+      "width_mm": 57.301745053495324,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 285.81892951511236
+    },
+    {
+      "angle_deg": 25.5,
+      "both_open": false,
+      "left_x_mm": 6006.3812970269055,
+      "right_x_mm": 6066.0,
+      "width_mm": 59.618702973094514,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 291.08302459038305
+    },
+    {
+      "angle_deg": 26.0,
+      "both_open": false,
+      "left_x_mm": 6004.018000347147,
+      "right_x_mm": 6066.0,
+      "width_mm": 61.98199965285312,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 296.32198244008987
+    },
+    {
+      "angle_deg": 26.5,
+      "both_open": false,
+      "left_x_mm": 6001.608504080062,
+      "right_x_mm": 6066.0,
+      "width_mm": 64.39149591993828,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 301.53544192966183
+    },
+    {
+      "angle_deg": 27.0,
+      "both_open": false,
+      "left_x_mm": 5999.152953485115,
+      "right_x_mm": 6066.0,
+      "width_mm": 66.84704651488482,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 306.72304524707124
+    },
+    {
+      "angle_deg": 27.5,
+      "both_open": false,
+      "left_x_mm": 5996.65149985717,
+      "right_x_mm": 6066.0,
+      "width_mm": 69.34850014282983,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 311.8844377665755
+    },
+    {
+      "angle_deg": 28.0,
+      "both_open": false,
+      "left_x_mm": 5994.104300468951,
+      "right_x_mm": 6066.0,
+      "width_mm": 71.8956995310491,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 317.0192679197871
+    },
+    {
+      "angle_deg": 28.5,
+      "both_open": false,
+      "left_x_mm": 5991.51151850788,
+      "right_x_mm": 6066.0,
+      "width_mm": 74.48848149211972,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 322.127187074168
+    },
+    {
+      "angle_deg": 29.0,
+      "both_open": false,
+      "left_x_mm": 5988.873323007967,
+      "right_x_mm": 6066.0,
+      "width_mm": 77.12667699203303,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 327.2078494189868
+    },
+    {
+      "angle_deg": 29.5,
+      "both_open": false,
+      "left_x_mm": 5986.189888777366,
+      "right_x_mm": 6066.0,
+      "width_mm": 79.81011122263408,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 332.26091185871974
+    },
+    {
+      "angle_deg": 30.0,
+      "both_open": false,
+      "left_x_mm": 5983.4613963221855,
+      "right_x_mm": 6066.0,
+      "width_mm": 82.53860367781454,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 337.28603391384877
+    },
+    {
+      "angle_deg": 30.5,
+      "both_open": false,
+      "left_x_mm": 5980.688031767106,
+      "right_x_mm": 6066.0,
+      "width_mm": 85.31196823289429,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 342.2828776289448
+    },
+    {
+      "angle_deg": 31.0,
+      "both_open": false,
+      "left_x_mm": 5977.869986773339,
+      "right_x_mm": 6066.0,
+      "width_mm": 88.1300132266606,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 347.2511074879217
+    },
+    {
+      "angle_deg": 31.5,
+      "both_open": false,
+      "left_x_mm": 5975.0074584543745,
+      "right_x_mm": 6066.0,
+      "width_mm": 90.9925415456255,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 352.19039033629406
+    },
+    {
+      "angle_deg": 32.0,
+      "both_open": false,
+      "left_x_mm": 5972.100649289994,
+      "right_x_mm": 6066.0,
+      "width_mm": 93.89935071000582,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 357.1003953102504
+    },
+    {
+      "angle_deg": 32.5,
+      "both_open": false,
+      "left_x_mm": 5969.149767038943,
+      "right_x_mm": 6066.0,
+      "width_mm": 96.85023296105737,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 361.98079377235354
+    },
+    {
+      "angle_deg": 33.0,
+      "both_open": false,
+      "left_x_mm": 5966.155024650639,
+      "right_x_mm": 6066.0,
+      "width_mm": 99.84497534936145,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 366.8312592536254
+    },
+    {
+      "angle_deg": 33.5,
+      "both_open": false,
+      "left_x_mm": 5963.116640176271,
+      "right_x_mm": 6066.0,
+      "width_mm": 102.88335982372882,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 371.6514674018026
+    },
+    {
+      "angle_deg": 34.0,
+      "both_open": false,
+      "left_x_mm": 5960.034836679587,
+      "right_x_mm": 6066.0,
+      "width_mm": 105.96516332041301,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 376.44109593550365
+    },
+    {
+      "angle_deg": 34.5,
+      "both_open": false,
+      "left_x_mm": 5956.909842147653,
+      "right_x_mm": 6066.0,
+      "width_mm": 109.09015785234715,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 381.19982460406345
+    },
+    {
+      "angle_deg": 35.0,
+      "both_open": false,
+      "left_x_mm": 5953.741889401853,
+      "right_x_mm": 6066.0,
+      "width_mm": 112.25811059814714,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 385.9273351527754
+    },
+    {
+      "angle_deg": 35.5,
+      "both_open": false,
+      "left_x_mm": 5950.531216009339,
+      "right_x_mm": 6066.0,
+      "width_mm": 115.468783990661,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 390.62331129328277
+    },
+    {
+      "angle_deg": 36.0,
+      "both_open": false,
+      "left_x_mm": 5947.27806419513,
+      "right_x_mm": 6066.0,
+      "width_mm": 118.72193580486964,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 395.28743867885805
+    },
+    {
+      "angle_deg": 36.5,
+      "both_open": false,
+      "left_x_mm": 5943.982680755058,
+      "right_x_mm": 6066.0,
+      "width_mm": 122.01731924494197,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 399.9194048843151
+    },
+    {
+      "angle_deg": 37.0,
+      "both_open": false,
+      "left_x_mm": 5940.64531696968,
+      "right_x_mm": 6066.0,
+      "width_mm": 125.3546830303203,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 404.5188993902884
+    },
+    {
+      "angle_deg": 37.5,
+      "both_open": false,
+      "left_x_mm": 5937.266228519329,
+      "right_x_mm": 6066.0,
+      "width_mm": 128.73377148067084,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 409.0856135716417
+    },
+    {
+      "angle_deg": 38.0,
+      "both_open": false,
+      "left_x_mm": 5933.8456754003855,
+      "right_x_mm": 6066.0,
+      "width_mm": 132.15432459961448,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 413.6192406897412
+    },
+    {
+      "angle_deg": 38.5,
+      "both_open": false,
+      "left_x_mm": 5930.383921842882,
+      "right_x_mm": 6066.0,
+      "width_mm": 135.61607815711795,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 418.1194758883671
+    },
+    {
+      "angle_deg": 39.0,
+      "both_open": false,
+      "left_x_mm": 5926.881236229511,
+      "right_x_mm": 6066.0,
+      "width_mm": 139.11876377048884,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 422.5860161930141
+    },
+    {
+      "angle_deg": 39.5,
+      "both_open": false,
+      "left_x_mm": 5923.3378910161155,
+      "right_x_mm": 6066.0,
+      "width_mm": 142.66210898388454,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 427.0185605133702
+    },
+    {
+      "angle_deg": 40.0,
+      "both_open": false,
+      "left_x_mm": 5919.754162653695,
+      "right_x_mm": 6066.0,
+      "width_mm": 146.24583734630505,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 431.41680964873376
+    },
+    {
+      "angle_deg": 40.5,
+      "both_open": false,
+      "left_x_mm": 5916.130331511969,
+      "right_x_mm": 6066.0,
+      "width_mm": 149.86966848803058,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 435.7804662961735
+    },
+    {
+      "angle_deg": 41.0,
+      "both_open": false,
+      "left_x_mm": 5912.466681804543,
+      "right_x_mm": 6066.0,
+      "width_mm": 153.53331819545656,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 440.10923506121935
+    },
+    {
+      "angle_deg": 41.5,
+      "both_open": false,
+      "left_x_mm": 5908.7635015156675,
+      "right_x_mm": 6066.0,
+      "width_mm": 157.23649848433251,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 444.4028224708918
+    },
+    {
+      "angle_deg": 42.0,
+      "both_open": false,
+      "left_x_mm": 5905.021082328608,
+      "right_x_mm": 6066.0,
+      "width_mm": 160.97891767139208,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 448.660936988882
+    },
+    {
+      "angle_deg": 42.5,
+      "both_open": false,
+      "left_x_mm": 5901.239719555637,
+      "right_x_mm": 6066.0,
+      "width_mm": 164.76028044436316,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 452.8832890327053
+    },
+    {
+      "angle_deg": 43.0,
+      "both_open": false,
+      "left_x_mm": 5897.419712069627,
+      "right_x_mm": 6066.0,
+      "width_mm": 168.58028793037283,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 457.06959099266396
+    },
+    {
+      "angle_deg": 43.5,
+      "both_open": false,
+      "left_x_mm": 5893.56136223722,
+      "right_x_mm": 6066.0,
+      "width_mm": 172.43863776277976,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 461.2195572524488
+    },
+    {
+      "angle_deg": 44.0,
+      "both_open": false,
+      "left_x_mm": 5889.664975853588,
+      "right_x_mm": 6066.0,
+      "width_mm": 176.33502414641225,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 465.33290421123684
+    },
+    {
+      "angle_deg": 44.5,
+      "both_open": false,
+      "left_x_mm": 5885.7308620787235,
+      "right_x_mm": 6066.0,
+      "width_mm": 180.26913792127652,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 469.40935030713536
+    },
+    {
+      "angle_deg": 45.0,
+      "both_open": false,
+      "left_x_mm": 5881.759333375243,
+      "right_x_mm": 6066.0,
+      "width_mm": 184.24066662475707,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 473.44861604184325
+    },
+    {
+      "angle_deg": 45.5,
+      "both_open": false,
+      "left_x_mm": 5877.750705447692,
+      "right_x_mm": 6066.0,
+      "width_mm": 188.24929455230813,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 477.4504240063934
+    },
+    {
+      "angle_deg": 46.0,
+      "both_open": false,
+      "left_x_mm": 5873.705297183276,
+      "right_x_mm": 6066.0,
+      "width_mm": 192.29470281672366,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 481.41449890786043
+    },
+    {
+      "angle_deg": 46.5,
+      "both_open": false,
+      "left_x_mm": 5869.623430594017,
+      "right_x_mm": 6066.0,
+      "width_mm": 196.376569405983,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 485.34056759692294
+    },
+    {
+      "angle_deg": 47.0,
+      "both_open": false,
+      "left_x_mm": 5865.5054307602695,
+      "right_x_mm": 6066.0,
+      "width_mm": 200.49456923973048,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 489.2283590961665
+    },
+    {
+      "angle_deg": 47.5,
+      "both_open": false,
+      "left_x_mm": 5861.351625775564,
+      "right_x_mm": 6066.0,
+      "width_mm": 204.64837422443634,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 493.07760462904116
+    },
+    {
+      "angle_deg": 48.0,
+      "both_open": false,
+      "left_x_mm": 5857.162346692744,
+      "right_x_mm": 6066.0,
+      "width_mm": 208.837653307256,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 496.88803764936165
+    },
+    {
+      "angle_deg": 48.5,
+      "both_open": false,
+      "left_x_mm": 5852.937927471332,
+      "right_x_mm": 6066.0,
+      "width_mm": 213.06207252866807,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 500.6593938712872
+    },
+    {
+      "angle_deg": 49.0,
+      "both_open": false,
+      "left_x_mm": 5848.678704926096,
+      "right_x_mm": 6066.0,
+      "width_mm": 217.32129507390437,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 504.3914112996772
+    },
+    {
+      "angle_deg": 49.5,
+      "both_open": false,
+      "left_x_mm": 5844.385018676765,
+      "right_x_mm": 6066.0,
+      "width_mm": 221.61498132323504,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 508.0838302607626
+    },
+    {
+      "angle_deg": 50.0,
+      "both_open": false,
+      "left_x_mm": 5840.057211098855,
+      "right_x_mm": 6066.0,
+      "width_mm": 225.94278890114492,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 511.73639343306104
+    },
+    {
+      "angle_deg": 50.5,
+      "both_open": false,
+      "left_x_mm": 5835.695627275542,
+      "right_x_mm": 6066.0,
+      "width_mm": 230.3043727244576,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 515.3488458784641
+    },
+    {
+      "angle_deg": 51.0,
+      "both_open": false,
+      "left_x_mm": 5831.300614950569,
+      "right_x_mm": 6066.0,
+      "width_mm": 234.69938504943093,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 518.9209350734413
+    },
+    {
+      "angle_deg": 51.5,
+      "both_open": false,
+      "left_x_mm": 5826.872524482107,
+      "right_x_mm": 6066.0,
+      "width_mm": 239.1274755178929,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 522.4524109403128
+    },
+    {
+      "angle_deg": 52.0,
+      "both_open": false,
+      "left_x_mm": 5822.411708797561,
+      "right_x_mm": 6066.0,
+      "width_mm": 243.588291202439,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 525.9430258785169
+    },
+    {
+      "angle_deg": 52.5,
+      "both_open": false,
+      "left_x_mm": 5817.918523349241,
+      "right_x_mm": 6066.0,
+      "width_mm": 248.0814766507592,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 529.3925347958589
+    },
+    {
+      "angle_deg": 53.0,
+      "both_open": false,
+      "left_x_mm": 5813.393326070898,
+      "right_x_mm": 6066.0,
+      "width_mm": 252.60667392910182,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 532.800695139661
+    },
+    {
+      "angle_deg": 53.5,
+      "both_open": false,
+      "left_x_mm": 5808.836477335041,
+      "right_x_mm": 6066.0,
+      "width_mm": 257.1635226649587,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 536.1672669278046
+    },
+    {
+      "angle_deg": 54.0,
+      "both_open": false,
+      "left_x_mm": 5804.24833991104,
+      "right_x_mm": 6066.0,
+      "width_mm": 261.7516600889603,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 539.4920127796067
+    },
+    {
+      "angle_deg": 54.5,
+      "both_open": false,
+      "left_x_mm": 5799.629278923923,
+      "right_x_mm": 6066.0,
+      "width_mm": 266.37072107607673,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 542.7746979465078
+    },
+    {
+      "angle_deg": 55.0,
+      "both_open": false,
+      "left_x_mm": 5794.979661813886,
+      "right_x_mm": 6066.0,
+      "width_mm": 271.0203381861138,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 546.0150903425379
+    },
+    {
+      "angle_deg": 55.5,
+      "both_open": false,
+      "left_x_mm": 5790.299858296436,
+      "right_x_mm": 6066.0,
+      "width_mm": 275.70014170356444,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 549.2129605745322
+    },
+    {
+      "angle_deg": 56.0,
+      "both_open": false,
+      "left_x_mm": 5785.590240323143,
+      "right_x_mm": 6066.0,
+      "width_mm": 280.409759676857,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 552.3680819720707
+    },
+    {
+      "angle_deg": 56.5,
+      "both_open": false,
+      "left_x_mm": 5780.851182042993,
+      "right_x_mm": 6066.0,
+      "width_mm": 285.14881795700694,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 555.4802306171191
+    },
+    {
+      "angle_deg": 57.0,
+      "both_open": false,
+      "left_x_mm": 5776.083059764259,
+      "right_x_mm": 6066.0,
+      "width_mm": 289.9169402357411,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 558.5491853733497
+    },
+    {
+      "angle_deg": 57.5,
+      "both_open": false,
+      "left_x_mm": 5771.286251916904,
+      "right_x_mm": 6066.0,
+      "width_mm": 294.7137480830961,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 561.5747279151251
+    },
+    {
+      "angle_deg": 58.0,
+      "both_open": false,
+      "left_x_mm": 5766.461139015462,
+      "right_x_mm": 6066.0,
+      "width_mm": 299.5388609845377,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 564.5566427561253
+    },
+    {
+      "angle_deg": 58.5,
+      "both_open": false,
+      "left_x_mm": 5761.608103622367,
+      "right_x_mm": 6066.0,
+      "width_mm": 304.3918963776332,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 567.4947172776019
+    },
+    {
+      "angle_deg": 59.0,
+      "both_open": false,
+      "left_x_mm": 5756.727530311721,
+      "right_x_mm": 6066.0,
+      "width_mm": 309.27246968827876,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 570.3887417562555
+    },
+    {
+      "angle_deg": 59.5,
+      "both_open": false,
+      "left_x_mm": 5751.819805633442,
+      "right_x_mm": 6066.0,
+      "width_mm": 314.18019436655777,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 573.2385093917028
+    },
+    {
+      "angle_deg": 60.0,
+      "both_open": false,
+      "left_x_mm": 5746.885318077799,
+      "right_x_mm": 6066.0,
+      "width_mm": 319.11468192220127,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 576.0438163335489
+    },
+    {
+      "angle_deg": 60.5,
+      "both_open": false,
+      "left_x_mm": 5741.9244580402865,
+      "right_x_mm": 6066.0,
+      "width_mm": 324.0755419597135,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 578.8044617080382
+    },
+    {
+      "angle_deg": 61.0,
+      "both_open": false,
+      "left_x_mm": 5736.937617786828,
+      "right_x_mm": 6066.0,
+      "width_mm": 329.062382213172,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 581.5202476442773
+    },
+    {
+      "angle_deg": 61.5,
+      "both_open": false,
+      "left_x_mm": 5731.925191419274,
+      "right_x_mm": 6066.0,
+      "width_mm": 334.0748085807263,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 584.1909793000314
+    },
+    {
+      "angle_deg": 62.0,
+      "both_open": false,
+      "left_x_mm": 5726.887574841184,
+      "right_x_mm": 6066.0,
+      "width_mm": 339.1124251588162,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 586.8164648870752
+    },
+    {
+      "angle_deg": 62.5,
+      "both_open": false,
+      "left_x_mm": 5721.825165723869,
+      "right_x_mm": 6066.0,
+      "width_mm": 344.17483427613115,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 589.396515696104
+    },
+    {
+      "angle_deg": 63.0,
+      "both_open": false,
+      "left_x_mm": 5716.738363472666,
+      "right_x_mm": 6066.0,
+      "width_mm": 349.2616365273343,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 591.9309461211988
+    },
+    {
+      "angle_deg": 63.5,
+      "both_open": false,
+      "left_x_mm": 5711.627569193445,
+      "right_x_mm": 6066.0,
+      "width_mm": 354.3724308065548,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 594.4195736838305
+    },
+    {
+      "angle_deg": 64.0,
+      "both_open": false,
+      "left_x_mm": 5706.493185659309,
+      "right_x_mm": 6066.0,
+      "width_mm": 359.50681434069065,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 596.862219056421
+    },
+    {
+      "angle_deg": 64.5,
+      "both_open": false,
+      "left_x_mm": 5701.335617277487,
+      "right_x_mm": 6066.0,
+      "width_mm": 364.66438272251344,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 599.2587060854362
+    },
+    {
+      "angle_deg": 65.0,
+      "both_open": false,
+      "left_x_mm": 5696.1552700563925,
+      "right_x_mm": 6066.0,
+      "width_mm": 369.8447299436075,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 601.6088618140275
+    },
+    {
+      "angle_deg": 65.5,
+      "both_open": false,
+      "left_x_mm": 5690.952551572844,
+      "right_x_mm": 6066.0,
+      "width_mm": 375.04744842715627,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 603.9125165042042
+    },
+    {
+      "angle_deg": 66.0,
+      "both_open": false,
+      "left_x_mm": 5685.727870939429,
+      "right_x_mm": 6066.0,
+      "width_mm": 380.2721290605714,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 606.1695036585579
+    },
+    {
+      "angle_deg": 66.5,
+      "both_open": false,
+      "left_x_mm": 5680.481638771986,
+      "right_x_mm": 6066.0,
+      "width_mm": 385.5183612280143,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 608.3796600415117
+    },
+    {
+      "angle_deg": 67.0,
+      "both_open": false,
+      "left_x_mm": 5675.214267157214,
+      "right_x_mm": 6066.0,
+      "width_mm": 390.7857328427863,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 610.5428257001172
+    },
+    {
+      "angle_deg": 67.5,
+      "both_open": false,
+      "left_x_mm": 5669.926169620382,
+      "right_x_mm": 6066.0,
+      "width_mm": 396.0738303796179,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 612.6588439843867
+    },
+    {
+      "angle_deg": 68.0,
+      "both_open": false,
+      "left_x_mm": 5664.617761093131,
+      "right_x_mm": 6066.0,
+      "width_mm": 401.38223890686913,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 614.7275615671647
+    },
+    {
+      "angle_deg": 68.5,
+      "both_open": false,
+      "left_x_mm": 5659.2894578813575,
+      "right_x_mm": 6066.0,
+      "width_mm": 406.7105421186425,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 616.7488284635456
+    },
+    {
+      "angle_deg": 69.0,
+      "both_open": false,
+      "left_x_mm": 5653.941677633179,
+      "right_x_mm": 6066.0,
+      "width_mm": 412.0583223668209,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 618.7224980498245
+    },
+    {
+      "angle_deg": 69.5,
+      "both_open": false,
+      "left_x_mm": 5648.574839306951,
+      "right_x_mm": 6066.0,
+      "width_mm": 417.4251606930493,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 620.6484270820001
+    },
+    {
+      "angle_deg": 70.0,
+      "both_open": false,
+      "left_x_mm": 5643.189363139351,
+      "right_x_mm": 6066.0,
+      "width_mm": 422.81063686064863,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 622.5264757138202
+    },
+    {
+      "angle_deg": 70.5,
+      "both_open": false,
+      "left_x_mm": 5637.785670613501,
+      "right_x_mm": 6066.0,
+      "width_mm": 428.21432938649923,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 624.3565075143724
+    },
+    {
+      "angle_deg": 71.0,
+      "both_open": false,
+      "left_x_mm": 5632.36418442713,
+      "right_x_mm": 6066.0,
+      "width_mm": 433.63581557287034,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 626.1383894852252
+    },
+    {
+      "angle_deg": 71.5,
+      "both_open": false,
+      "left_x_mm": 5626.925328460787,
+      "right_x_mm": 6066.0,
+      "width_mm": 439.07467153921334,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 627.8719920771237
+    },
+    {
+      "angle_deg": 72.0,
+      "both_open": false,
+      "left_x_mm": 5621.469527746052,
+      "right_x_mm": 6066.0,
+      "width_mm": 444.53047225394766,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 629.5571892062353
+    },
+    {
+      "angle_deg": 72.5,
+      "both_open": false,
+      "left_x_mm": 5615.9972084337915,
+      "right_x_mm": 6066.0,
+      "width_mm": 450.00279156620854,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 631.1938582699536
+    },
+    {
+      "angle_deg": 73.0,
+      "both_open": false,
+      "left_x_mm": 5610.508797762417,
+      "right_x_mm": 6066.0,
+      "width_mm": 455.4912022375829,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 632.7818801622607
+    },
+    {
+      "angle_deg": 73.5,
+      "both_open": false,
+      "left_x_mm": 5605.004724026163,
+      "right_x_mm": 6066.0,
+      "width_mm": 460.9952759738371,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 634.321139288651
+    },
+    {
+      "angle_deg": 74.0,
+      "both_open": false,
+      "left_x_mm": 5599.485416543359,
+      "right_x_mm": 6066.0,
+      "width_mm": 466.51458345664105,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 635.8115235806181
+    },
+    {
+      "angle_deg": 74.5,
+      "both_open": false,
+      "left_x_mm": 5593.951305624712,
+      "right_x_mm": 6066.0,
+      "width_mm": 472.0486943752876,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 637.2529245097085
+    },
+    {
+      "angle_deg": 75.0,
+      "both_open": false,
+      "left_x_mm": 5588.402822541584,
+      "right_x_mm": 6066.0,
+      "width_mm": 477.5971774584159,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 638.6452371011478
+    },
+    {
+      "angle_deg": 75.5,
+      "both_open": false,
+      "left_x_mm": 5582.840399494262,
+      "right_x_mm": 6066.0,
+      "width_mm": 483.1596005057381,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 639.9883599470309
+    },
+    {
+      "angle_deg": 76.0,
+      "both_open": false,
+      "left_x_mm": 5577.264469580217,
+      "right_x_mm": 6066.0,
+      "width_mm": 488.73553041978266,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 641.2821952190993
+    },
+    {
+      "angle_deg": 76.5,
+      "both_open": false,
+      "left_x_mm": 5571.675466762362,
+      "right_x_mm": 6066.0,
+      "width_mm": 494.3245332376382,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 642.5266486810829
+    },
+    {
+      "angle_deg": 77.0,
+      "both_open": false,
+      "left_x_mm": 5566.073825837279,
+      "right_x_mm": 6066.0,
+      "width_mm": 499.9261741627206,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 643.7216297006303
+    },
+    {
+      "angle_deg": 77.5,
+      "both_open": false,
+      "left_x_mm": 5560.45998240344,
+      "right_x_mm": 6066.0,
+      "width_mm": 505.54001759655966,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 644.8670512608201
+    },
+    {
+      "angle_deg": 78.0,
+      "both_open": false,
+      "left_x_mm": 5554.834372829408,
+      "right_x_mm": 6066.0,
+      "width_mm": 511.1656271705924,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 645.9628299712572
+    },
+    {
+      "angle_deg": 78.5,
+      "both_open": false,
+      "left_x_mm": 5549.197434222012,
+      "right_x_mm": 6066.0,
+      "width_mm": 516.8025657779881,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 647.0088860787578
+    },
+    {
+      "angle_deg": 79.0,
+      "both_open": false,
+      "left_x_mm": 5543.549604394507,
+      "right_x_mm": 6066.0,
+      "width_mm": 522.4503956054932,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 648.0051434776278
+    },
+    {
+      "angle_deg": 79.5,
+      "both_open": false,
+      "left_x_mm": 5537.891321834705,
+      "right_x_mm": 6066.0,
+      "width_mm": 528.1086781652948,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 648.9515297195303
+    },
+    {
+      "angle_deg": 80.0,
+      "both_open": false,
+      "left_x_mm": 5532.223025673087,
+      "right_x_mm": 6066.0,
+      "width_mm": 533.7769743269128,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 649.8479760229561
+    },
+    {
+      "angle_deg": 80.5,
+      "both_open": false,
+      "left_x_mm": 5526.545155650885,
+      "right_x_mm": 6066.0,
+      "width_mm": 539.4548443491149,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 650.6944172822859
+    },
+    {
+      "angle_deg": 81.0,
+      "both_open": false,
+      "left_x_mm": 5520.858152088136,
+      "right_x_mm": 6066.0,
+      "width_mm": 545.1418479118638,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 651.4907920764635
+    },
+    {
+      "angle_deg": 81.5,
+      "both_open": false,
+      "left_x_mm": 5515.162455851723,
+      "right_x_mm": 6066.0,
+      "width_mm": 550.8375441482767,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.2370426772645
+    },
+    {
+      "angle_deg": 82.0,
+      "both_open": false,
+      "left_x_mm": 5509.458508323375,
+      "right_x_mm": 6066.0,
+      "width_mm": 556.5414916766249,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.9331150571775
+    },
+    {
+      "angle_deg": 82.5,
+      "both_open": false,
+      "left_x_mm": 5503.746751367644,
+      "right_x_mm": 6066.0,
+      "width_mm": 562.2532486323562,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 653.5789588968919
+    },
+    {
+      "angle_deg": 83.0,
+      "both_open": false,
+      "left_x_mm": 5498.0276272998635,
+      "right_x_mm": 6066.0,
+      "width_mm": 567.9723727001365,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 654.1745275924009
+    },
+    {
+      "angle_deg": 83.5,
+      "both_open": false,
+      "left_x_mm": 5492.301578854075,
+      "right_x_mm": 6066.0,
+      "width_mm": 573.6984211459248,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 654.7197782617172
+    },
+    {
+      "angle_deg": 84.0,
+      "both_open": false,
+      "left_x_mm": 5486.569049150926,
+      "right_x_mm": 6066.0,
+      "width_mm": 579.4309508490742,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.2146717512028
+    },
+    {
+      "angle_deg": 84.5,
+      "both_open": false,
+      "left_x_mm": 5480.830481665546,
+      "right_x_mm": 6066.0,
+      "width_mm": 585.1695183344536,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.6591726415245
+    },
+    {
+      "angle_deg": 85.0,
+      "both_open": false,
+      "left_x_mm": 5475.086320195407,
+      "right_x_mm": 6066.0,
+      "width_mm": 590.9136798045929,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.0532492532225
+    },
+    {
+      "angle_deg": 85.5,
+      "both_open": false,
+      "left_x_mm": 5469.337008828139,
+      "right_x_mm": 6066.0,
+      "width_mm": 596.662991171861,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.3968736519137
+    },
+    {
+      "angle_deg": 86.0,
+      "both_open": false,
+      "left_x_mm": 5463.582991909348,
+      "right_x_mm": 6066.0,
+      "width_mm": 602.4170080906524,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.6900216531076
+    },
+    {
+      "angle_deg": 0.0,
+      "both_open": true,
+      "left_x_mm": 6064.0,
+      "right_x_mm": 6066.0,
+      "width_mm": 2.0,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 0.0
+    },
+    {
+      "angle_deg": 0.5,
+      "both_open": true,
+      "left_x_mm": 6064.0649858949055,
+      "right_x_mm": 6065.9350141050945,
+      "width_mm": 1.870028210189048,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 5.946245213284328
+    },
+    {
+      "angle_deg": 1.0,
+      "both_open": true,
+      "left_x_mm": 6064.08213111686,
+      "right_x_mm": 6065.91786888314,
+      "width_mm": 1.8357377662796353,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 11.8921234732411
+    },
+    {
+      "angle_deg": 1.5,
+      "both_open": true,
+      "left_x_mm": 6064.051449463255,
+      "right_x_mm": 6065.948550536745,
+      "width_mm": 1.8971010734894662,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 17.837043701522816
+    },
+    {
+      "angle_deg": 2.0,
+      "both_open": true,
+      "left_x_mm": 6063.972952767293,
+      "right_x_mm": 6066.027047232707,
+      "width_mm": 2.0540944654148916,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 23.780412785827593
+    },
+    {
+      "angle_deg": 2.5,
+      "both_open": true,
+      "left_x_mm": 6063.846650794621,
+      "right_x_mm": 6066.153349205379,
+      "width_mm": 2.3066984107572353,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 29.721636153110467
+    },
+    {
+      "angle_deg": 3.0,
+      "both_open": true,
+      "left_x_mm": 6063.672551175431,
+      "right_x_mm": 6066.327448824569,
+      "width_mm": 2.654897649137638,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 35.66011835151221
+    },
+    {
+      "angle_deg": 3.5,
+      "both_open": true,
+      "left_x_mm": 6063.45065937266,
+      "right_x_mm": 6066.54934062734,
+      "width_mm": 3.098681254679832,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 41.59526363647683
+    },
+    {
+      "angle_deg": 4.0,
+      "both_open": true,
+      "left_x_mm": 6063.180978686492,
+      "right_x_mm": 6066.819021313508,
+      "width_mm": 3.6380426270152384,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 47.526476556511625
+    },
+    {
+      "angle_deg": 4.5,
+      "both_open": true,
+      "left_x_mm": 6062.863510294942,
+      "right_x_mm": 6067.136489705058,
+      "width_mm": 4.272979410116022,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 53.45316253412466
+    },
+    {
+      "angle_deg": 5.0,
+      "both_open": true,
+      "left_x_mm": 6062.498253329856,
+      "right_x_mm": 6067.501746670144,
+      "width_mm": 5.003493340287605,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 59.374728437589965
+    },
+    {
+      "angle_deg": 5.5,
+      "both_open": true,
+      "left_x_mm": 6062.085204987309,
+      "right_x_mm": 6067.914795012691,
+      "width_mm": 5.829590025381549,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 65.29058313938867
+    },
+    {
+      "angle_deg": 6.0,
+      "both_open": true,
+      "left_x_mm": 6061.624360670952,
+      "right_x_mm": 6068.375639329048,
+      "width_mm": 6.7512786580955435,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 71.200138057402
+    },
+    {
+      "angle_deg": 6.5,
+      "both_open": true,
+      "left_x_mm": 6061.115714166558,
+      "right_x_mm": 6068.884285833442,
+      "width_mm": 7.768571666883872,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 77.10280767523909
+    },
+    {
+      "angle_deg": 7.0,
+      "both_open": true,
+      "left_x_mm": 6060.559257845691,
+      "right_x_mm": 6069.440742154309,
+      "width_mm": 8.881484308618383,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 82.99801003840184
+    },
+    {
+      "angle_deg": 7.5,
+      "both_open": true,
+      "left_x_mm": 6059.954982896144,
+      "right_x_mm": 6070.045017103856,
+      "width_mm": 10.090034207711142,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 88.88516722334452
+    },
+    {
+      "angle_deg": 8.0,
+      "both_open": true,
+      "left_x_mm": 6059.30287957659,
+      "right_x_mm": 6070.69712042341,
+      "width_mm": 11.39424084681923,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 94.76370577689977
+    },
+    {
+      "angle_deg": 8.5,
+      "both_open": true,
+      "left_x_mm": 6058.60293749269,
+      "right_x_mm": 6071.39706250731,
+      "width_mm": 12.794125014619567,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 100.63305712392548
+    },
+    {
+      "angle_deg": 9.0,
+      "both_open": true,
+      "left_x_mm": 6057.855145891781,
+      "right_x_mm": 6072.144854108219,
+      "width_mm": 14.289708216438157,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 106.49265794145049
+    },
+    {
+      "angle_deg": 9.5,
+      "both_open": true,
+      "left_x_mm": 6057.059493973174,
+      "right_x_mm": 6072.940506026826,
+      "width_mm": 15.88101205365274,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 112.34195049801929
+    },
+    {
+      "angle_deg": 10.0,
+      "both_open": true,
+      "left_x_mm": 6056.215971211055,
+      "right_x_mm": 6073.784028788945,
+      "width_mm": 17.568057577889704,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 118.1803829573496
+    },
+    {
+      "angle_deg": 10.5,
+      "both_open": true,
+      "left_x_mm": 6055.3245676869865,
+      "right_x_mm": 6074.6754323130135,
+      "width_mm": 19.350864626027033,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 124.00740964580564
+    },
+    {
+      "angle_deg": 11.0,
+      "both_open": true,
+      "left_x_mm": 6054.385274429021,
+      "right_x_mm": 6075.614725570979,
+      "width_mm": 21.229451141958634,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 129.82249128358671
+    },
+    {
+      "angle_deg": 11.5,
+      "both_open": true,
+      "left_x_mm": 6053.398083754562,
+      "right_x_mm": 6076.601916245438,
+      "width_mm": 23.203832490875357,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 135.62509517988974
+    },
+    {
+      "angle_deg": 12.0,
+      "both_open": true,
+      "left_x_mm": 6052.362989614198,
+      "right_x_mm": 6077.637010385802,
+      "width_mm": 25.27402077160332,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 141.4146953926329
+    },
+    {
+      "angle_deg": 12.5,
+      "both_open": true,
+      "left_x_mm": 6051.2799879338345,
+      "right_x_mm": 6078.7200120661655,
+      "width_mm": 27.44002413233102,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 147.19077285363164
+    },
+    {
+      "angle_deg": 13.0,
+      "both_open": true,
+      "left_x_mm": 6050.149076952699,
+      "right_x_mm": 6079.850923047301,
+      "width_mm": 29.701846094601933,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 152.95281546041133
+    },
+    {
+      "angle_deg": 13.5,
+      "both_open": true,
+      "left_x_mm": 6048.970257554907,
+      "right_x_mm": 6081.029742445093,
+      "width_mm": 32.05948489018556,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 158.70031813603964
+    },
+    {
+      "angle_deg": 14.0,
+      "both_open": true,
+      "left_x_mm": 6047.743533592502,
+      "right_x_mm": 6082.256466407498,
+      "width_mm": 34.51293281499602,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 164.43278285861015
+    },
+    {
+      "angle_deg": 14.5,
+      "both_open": true,
+      "left_x_mm": 6046.468912198089,
+      "right_x_mm": 6083.531087801911,
+      "width_mm": 37.06217560382174,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 170.14971866214228
+    },
+    {
+      "angle_deg": 15.0,
+      "both_open": true,
+      "left_x_mm": 6045.146404085422,
+      "right_x_mm": 6084.853595914578,
+      "width_mm": 39.70719182915673,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 175.85064161081618
+    },
+    {
+      "angle_deg": 15.5,
+      "both_open": true,
+      "left_x_mm": 6043.776023836472,
+      "right_x_mm": 6086.223976163528,
+      "width_mm": 42.447952327056555,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 181.53507474855815
+    },
+    {
+      "angle_deg": 16.0,
+      "both_open": true,
+      "left_x_mm": 6042.3577901738045,
+      "right_x_mm": 6087.6422098261955,
+      "width_mm": 45.28441965239108,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 187.2025480260554
+    },
+    {
+      "angle_deg": 16.5,
+      "both_open": true,
+      "left_x_mm": 6040.891726217206,
+      "right_x_mm": 6089.108273782794,
+      "width_mm": 48.21654756558746,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 192.85259820733654
+    },
+    {
+      "angle_deg": 17.0,
+      "both_open": true,
+      "left_x_mm": 6039.377859723819,
+      "right_x_mm": 6090.622140276181,
+      "width_mm": 51.2442805523624,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 198.4847687580418
+    },
+    {
+      "angle_deg": 17.5,
+      "both_open": true,
+      "left_x_mm": 6037.816223311162,
+      "right_x_mm": 6092.183776688838,
+      "width_mm": 54.36755337767681,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 204.0986097175164
+    },
+    {
+      "angle_deg": 18.0,
+      "both_open": true,
+      "left_x_mm": 6036.206854662639,
+      "right_x_mm": 6093.793145337361,
+      "width_mm": 57.58629067472248,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 209.69367755682242
+    },
+    {
+      "angle_deg": 18.5,
+      "both_open": true,
+      "left_x_mm": 6034.549796715331,
+      "right_x_mm": 6095.450203284669,
+      "width_mm": 60.900406569338884,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 215.26953502469678
+    },
+    {
+      "angle_deg": 19.0,
+      "both_open": true,
+      "left_x_mm": 6032.845097829968,
+      "right_x_mm": 6097.154902170032,
+      "width_mm": 64.30980434006415,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 220.82575098343477
+    },
+    {
+      "angle_deg": 19.5,
+      "both_open": true,
+      "left_x_mm": 6031.092811943232,
+      "right_x_mm": 6098.907188056768,
+      "width_mm": 67.81437611353613,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 226.36190023658082
+    },
+    {
+      "angle_deg": 20.0,
+      "both_open": true,
+      "left_x_mm": 6029.292998702543,
+      "right_x_mm": 6100.707001297457,
+      "width_mm": 71.41400259491456,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 231.87756335020867
+    },
+    {
+      "angle_deg": 20.5,
+      "both_open": true,
+      "left_x_mm": 6027.445723583737,
+      "right_x_mm": 6102.554276416263,
+      "width_mm": 75.10855283252567,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 237.37232646948678
+    },
+    {
+      "angle_deg": 21.0,
+      "both_open": true,
+      "left_x_mm": 6025.551057992046,
+      "right_x_mm": 6104.448942007954,
+      "width_mm": 78.89788401590886,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 242.84578113209045
+    },
+    {
+      "angle_deg": 21.5,
+      "both_open": true,
+      "left_x_mm": 6023.609079346911,
+      "right_x_mm": 6106.390920653089,
+      "width_mm": 82.78184130617774,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 248.29752407993146
+    },
+    {
+      "angle_deg": 22.0,
+      "both_open": true,
+      "left_x_mm": 6021.619871151294,
+      "right_x_mm": 6108.380128848706,
+      "width_mm": 86.76025769741136,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 253.72715707053567
+    },
+    {
+      "angle_deg": 22.5,
+      "both_open": true,
+      "left_x_mm": 6019.583523046093,
+      "right_x_mm": 6110.416476953907,
+      "width_mm": 90.83295390781313,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 259.1342866892869
+    },
+    {
+      "angle_deg": 23.0,
+      "both_open": true,
+      "left_x_mm": 6017.500130850447,
+      "right_x_mm": 6112.499869149553,
+      "width_mm": 94.99973829910596,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 264.5185241636573
+    },
+    {
+      "angle_deg": 23.5,
+      "both_open": true,
+      "left_x_mm": 6015.369796588656,
+      "right_x_mm": 6114.630203411344,
+      "width_mm": 99.26040682268831,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 269.8794851803809
+    },
+    {
+      "angle_deg": 24.0,
+      "both_open": true,
+      "left_x_mm": 6013.192628504529,
+      "right_x_mm": 6116.807371495471,
+      "width_mm": 103.61474299094152,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 275.21678970647235
+    },
+    {
+      "angle_deg": 24.5,
+      "both_open": true,
+      "left_x_mm": 6010.968741063954,
+      "right_x_mm": 6119.031258936046,
+      "width_mm": 108.06251787209112,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 280.53006181483306
+    },
+    {
+      "angle_deg": 25.0,
+      "both_open": true,
+      "left_x_mm": 6008.698254946505,
+      "right_x_mm": 6121.301745053495,
+      "width_mm": 112.60349010699065,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 285.81892951511236
+    },
+    {
+      "angle_deg": 25.5,
+      "both_open": true,
+      "left_x_mm": 6006.3812970269055,
+      "right_x_mm": 6123.6187029730945,
+      "width_mm": 117.23740594618903,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 291.08302459038305
+    },
+    {
+      "angle_deg": 26.0,
+      "both_open": true,
+      "left_x_mm": 6004.018000347147,
+      "right_x_mm": 6125.981999652853,
+      "width_mm": 121.96399930570624,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 296.32198244008987
+    },
+    {
+      "angle_deg": 26.5,
+      "both_open": true,
+      "left_x_mm": 6001.608504080062,
+      "right_x_mm": 6128.391495919938,
+      "width_mm": 126.78299183987656,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 301.53544192966183
+    },
+    {
+      "angle_deg": 27.0,
+      "both_open": true,
+      "left_x_mm": 5999.152953485115,
+      "right_x_mm": 6130.847046514885,
+      "width_mm": 131.69409302976965,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 306.72304524707124
+    },
+    {
+      "angle_deg": 27.5,
+      "both_open": true,
+      "left_x_mm": 5996.65149985717,
+      "right_x_mm": 6133.34850014283,
+      "width_mm": 136.69700028565967,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 311.8844377665755
+    },
+    {
+      "angle_deg": 28.0,
+      "both_open": true,
+      "left_x_mm": 5994.104300468951,
+      "right_x_mm": 6135.895699531049,
+      "width_mm": 141.7913990620982,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 317.0192679197871
+    },
+    {
+      "angle_deg": 28.5,
+      "both_open": true,
+      "left_x_mm": 5991.51151850788,
+      "right_x_mm": 6138.48848149212,
+      "width_mm": 146.97696298423944,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 322.127187074168
+    },
+    {
+      "angle_deg": 29.0,
+      "both_open": true,
+      "left_x_mm": 5988.873323007967,
+      "right_x_mm": 6141.126676992033,
+      "width_mm": 152.25335398406605,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 327.2078494189868
+    },
+    {
+      "angle_deg": 29.5,
+      "both_open": true,
+      "left_x_mm": 5986.189888777366,
+      "right_x_mm": 6143.810111222634,
+      "width_mm": 157.62022244526815,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 332.26091185871974
+    },
+    {
+      "angle_deg": 30.0,
+      "both_open": true,
+      "left_x_mm": 5983.4613963221855,
+      "right_x_mm": 6146.5386036778145,
+      "width_mm": 163.07720735562907,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 337.28603391384877
+    },
+    {
+      "angle_deg": 30.5,
+      "both_open": true,
+      "left_x_mm": 5980.688031767106,
+      "right_x_mm": 6149.311968232894,
+      "width_mm": 168.62393646578857,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 342.2828776289448
+    },
+    {
+      "angle_deg": 31.0,
+      "both_open": true,
+      "left_x_mm": 5977.869986773339,
+      "right_x_mm": 6152.130013226661,
+      "width_mm": 174.2600264533212,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 347.2511074879217
+    },
+    {
+      "angle_deg": 31.5,
+      "both_open": true,
+      "left_x_mm": 5975.0074584543745,
+      "right_x_mm": 6154.9925415456255,
+      "width_mm": 179.985083091251,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 352.19039033629406
+    },
+    {
+      "angle_deg": 32.0,
+      "both_open": true,
+      "left_x_mm": 5972.100649289994,
+      "right_x_mm": 6157.899350710006,
+      "width_mm": 185.79870142001164,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 357.1003953102504
+    },
+    {
+      "angle_deg": 32.5,
+      "both_open": true,
+      "left_x_mm": 5969.149767038943,
+      "right_x_mm": 6160.850232961057,
+      "width_mm": 191.70046592211474,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 361.98079377235354
+    },
+    {
+      "angle_deg": 33.0,
+      "both_open": true,
+      "left_x_mm": 5966.155024650639,
+      "right_x_mm": 6163.844975349361,
+      "width_mm": 197.6899506987229,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 366.8312592536254
+    },
+    {
+      "angle_deg": 33.5,
+      "both_open": true,
+      "left_x_mm": 5963.116640176271,
+      "right_x_mm": 6166.883359823729,
+      "width_mm": 203.76671964745765,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 371.6514674018026
+    },
+    {
+      "angle_deg": 34.0,
+      "both_open": true,
+      "left_x_mm": 5960.034836679587,
+      "right_x_mm": 6169.965163320413,
+      "width_mm": 209.93032664082602,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 376.44109593550365
+    },
+    {
+      "angle_deg": 34.5,
+      "both_open": true,
+      "left_x_mm": 5956.909842147653,
+      "right_x_mm": 6173.090157852347,
+      "width_mm": 216.1803157046943,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 381.19982460406345
+    },
+    {
+      "angle_deg": 35.0,
+      "both_open": true,
+      "left_x_mm": 5953.741889401853,
+      "right_x_mm": 6176.258110598147,
+      "width_mm": 222.51622119629428,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 385.9273351527754
+    },
+    {
+      "angle_deg": 35.5,
+      "both_open": true,
+      "left_x_mm": 5950.531216009339,
+      "right_x_mm": 6179.468783990661,
+      "width_mm": 228.937567981322,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 390.62331129328277
+    },
+    {
+      "angle_deg": 36.0,
+      "both_open": true,
+      "left_x_mm": 5947.27806419513,
+      "right_x_mm": 6182.72193580487,
+      "width_mm": 235.4438716097393,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 395.28743867885805
+    },
+    {
+      "angle_deg": 36.5,
+      "both_open": true,
+      "left_x_mm": 5943.982680755058,
+      "right_x_mm": 6186.017319244942,
+      "width_mm": 242.03463848988395,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 399.9194048843151
+    },
+    {
+      "angle_deg": 37.0,
+      "both_open": true,
+      "left_x_mm": 5940.64531696968,
+      "right_x_mm": 6189.35468303032,
+      "width_mm": 248.7093660606406,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 404.5188993902884
+    },
+    {
+      "angle_deg": 37.5,
+      "both_open": true,
+      "left_x_mm": 5937.266228519329,
+      "right_x_mm": 6192.733771480671,
+      "width_mm": 255.46754296134168,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 409.0856135716417
+    },
+    {
+      "angle_deg": 38.0,
+      "both_open": true,
+      "left_x_mm": 5933.8456754003855,
+      "right_x_mm": 6196.1543245996145,
+      "width_mm": 262.30864919922897,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 413.6192406897412
+    },
+    {
+      "angle_deg": 38.5,
+      "both_open": true,
+      "left_x_mm": 5930.383921842882,
+      "right_x_mm": 6199.616078157118,
+      "width_mm": 269.2321563142359,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 418.1194758883671
+    },
+    {
+      "angle_deg": 39.0,
+      "both_open": true,
+      "left_x_mm": 5926.881236229511,
+      "right_x_mm": 6203.118763770489,
+      "width_mm": 276.2375275409777,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 422.5860161930141
+    },
+    {
+      "angle_deg": 39.5,
+      "both_open": true,
+      "left_x_mm": 5923.3378910161155,
+      "right_x_mm": 6206.6621089838845,
+      "width_mm": 283.3242179677691,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 427.0185605133702
+    },
+    {
+      "angle_deg": 40.0,
+      "both_open": true,
+      "left_x_mm": 5919.754162653695,
+      "right_x_mm": 6210.245837346305,
+      "width_mm": 290.4916746926101,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 431.41680964873376
+    },
+    {
+      "angle_deg": 40.5,
+      "both_open": true,
+      "left_x_mm": 5916.130331511969,
+      "right_x_mm": 6213.869668488031,
+      "width_mm": 297.73933697606117,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 435.7804662961735
+    },
+    {
+      "angle_deg": 41.0,
+      "both_open": true,
+      "left_x_mm": 5912.466681804543,
+      "right_x_mm": 6217.533318195457,
+      "width_mm": 305.0666363909131,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 440.10923506121935
+    },
+    {
+      "angle_deg": 41.5,
+      "both_open": true,
+      "left_x_mm": 5908.7635015156675,
+      "right_x_mm": 6221.2364984843325,
+      "width_mm": 312.47299696866503,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 444.4028224708918
+    },
+    {
+      "angle_deg": 42.0,
+      "both_open": true,
+      "left_x_mm": 5905.021082328608,
+      "right_x_mm": 6224.978917671392,
+      "width_mm": 319.95783534278416,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 448.660936988882
+    },
+    {
+      "angle_deg": 42.5,
+      "both_open": true,
+      "left_x_mm": 5901.239719555637,
+      "right_x_mm": 6228.760280444363,
+      "width_mm": 327.5205608887263,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 452.8832890327053
+    },
+    {
+      "angle_deg": 43.0,
+      "both_open": true,
+      "left_x_mm": 5897.419712069627,
+      "right_x_mm": 6232.580287930373,
+      "width_mm": 335.16057586074567,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 457.06959099266396
+    },
+    {
+      "angle_deg": 43.5,
+      "both_open": true,
+      "left_x_mm": 5893.56136223722,
+      "right_x_mm": 6236.43863776278,
+      "width_mm": 342.8772755255595,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 461.2195572524488
+    },
+    {
+      "angle_deg": 44.0,
+      "both_open": true,
+      "left_x_mm": 5889.664975853588,
+      "right_x_mm": 6240.335024146412,
+      "width_mm": 350.6700482928245,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 465.33290421123684
+    },
+    {
+      "angle_deg": 44.5,
+      "both_open": true,
+      "left_x_mm": 5885.7308620787235,
+      "right_x_mm": 6244.2691379212765,
+      "width_mm": 358.53827584255305,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 469.40935030713536
+    },
+    {
+      "angle_deg": 45.0,
+      "both_open": true,
+      "left_x_mm": 5881.759333375243,
+      "right_x_mm": 6248.240666624757,
+      "width_mm": 366.48133324951414,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 473.44861604184325
+    },
+    {
+      "angle_deg": 45.5,
+      "both_open": true,
+      "left_x_mm": 5877.750705447692,
+      "right_x_mm": 6252.249294552308,
+      "width_mm": 374.49858910461626,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 477.4504240063934
+    },
+    {
+      "angle_deg": 46.0,
+      "both_open": true,
+      "left_x_mm": 5873.705297183276,
+      "right_x_mm": 6256.294702816724,
+      "width_mm": 382.5894056334473,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 481.41449890786043
+    },
+    {
+      "angle_deg": 46.5,
+      "both_open": true,
+      "left_x_mm": 5869.623430594017,
+      "right_x_mm": 6260.376569405983,
+      "width_mm": 390.753138811966,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 485.34056759692294
+    },
+    {
+      "angle_deg": 47.0,
+      "both_open": true,
+      "left_x_mm": 5865.5054307602695,
+      "right_x_mm": 6264.4945692397305,
+      "width_mm": 398.98913847946096,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 489.2283590961665
+    },
+    {
+      "angle_deg": 47.5,
+      "both_open": true,
+      "left_x_mm": 5861.351625775564,
+      "right_x_mm": 6268.648374224436,
+      "width_mm": 407.2967484488727,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 493.07760462904116
+    },
+    {
+      "angle_deg": 48.0,
+      "both_open": true,
+      "left_x_mm": 5857.162346692744,
+      "right_x_mm": 6272.837653307256,
+      "width_mm": 415.675306614512,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 496.88803764936165
+    },
+    {
+      "angle_deg": 48.5,
+      "both_open": true,
+      "left_x_mm": 5852.937927471332,
+      "right_x_mm": 6277.062072528668,
+      "width_mm": 424.12414505733614,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 500.6593938712872
+    },
+    {
+      "angle_deg": 49.0,
+      "both_open": true,
+      "left_x_mm": 5848.678704926096,
+      "right_x_mm": 6281.321295073904,
+      "width_mm": 432.64259014780873,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 504.3914112996772
+    },
+    {
+      "angle_deg": 49.5,
+      "both_open": true,
+      "left_x_mm": 5844.385018676765,
+      "right_x_mm": 6285.614981323235,
+      "width_mm": 441.2299626464701,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 508.0838302607626
+    },
+    {
+      "angle_deg": 50.0,
+      "both_open": true,
+      "left_x_mm": 5840.057211098855,
+      "right_x_mm": 6289.942788901145,
+      "width_mm": 449.88557780228984,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 511.73639343306104
+    },
+    {
+      "angle_deg": 50.5,
+      "both_open": true,
+      "left_x_mm": 5835.695627275542,
+      "right_x_mm": 6294.304372724458,
+      "width_mm": 458.6087454489152,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 515.3488458784641
+    },
+    {
+      "angle_deg": 51.0,
+      "both_open": true,
+      "left_x_mm": 5831.300614950569,
+      "right_x_mm": 6298.699385049431,
+      "width_mm": 467.39877009886186,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 518.9209350734413
+    },
+    {
+      "angle_deg": 51.5,
+      "both_open": true,
+      "left_x_mm": 5826.872524482107,
+      "right_x_mm": 6303.127475517893,
+      "width_mm": 476.2549510357858,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 522.4524109403128
+    },
+    {
+      "angle_deg": 52.0,
+      "both_open": true,
+      "left_x_mm": 5822.411708797561,
+      "right_x_mm": 6307.588291202439,
+      "width_mm": 485.176582404878,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 525.9430258785169
+    },
+    {
+      "angle_deg": 52.5,
+      "both_open": true,
+      "left_x_mm": 5817.918523349241,
+      "right_x_mm": 6312.081476650759,
+      "width_mm": 494.1629533015184,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 529.3925347958589
+    },
+    {
+      "angle_deg": 53.0,
+      "both_open": true,
+      "left_x_mm": 5813.393326070898,
+      "right_x_mm": 6316.606673929102,
+      "width_mm": 503.21334785820363,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 532.800695139661
+    },
+    {
+      "angle_deg": 53.5,
+      "both_open": true,
+      "left_x_mm": 5808.836477335041,
+      "right_x_mm": 6321.163522664959,
+      "width_mm": 512.3270453299174,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 536.1672669278046
+    },
+    {
+      "angle_deg": 54.0,
+      "both_open": true,
+      "left_x_mm": 5804.24833991104,
+      "right_x_mm": 6325.75166008896,
+      "width_mm": 521.5033201779206,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 539.4920127796067
+    },
+    {
+      "angle_deg": 54.5,
+      "both_open": true,
+      "left_x_mm": 5799.629278923923,
+      "right_x_mm": 6330.370721076077,
+      "width_mm": 530.7414421521535,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 542.7746979465078
+    },
+    {
+      "angle_deg": 55.0,
+      "both_open": true,
+      "left_x_mm": 5794.979661813886,
+      "right_x_mm": 6335.020338186114,
+      "width_mm": 540.0406763722276,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 546.0150903425379
+    },
+    {
+      "angle_deg": 55.5,
+      "both_open": true,
+      "left_x_mm": 5790.299858296436,
+      "right_x_mm": 6339.700141703564,
+      "width_mm": 549.4002834071289,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 549.2129605745322
+    },
+    {
+      "angle_deg": 56.0,
+      "both_open": true,
+      "left_x_mm": 5785.590240323143,
+      "right_x_mm": 6344.409759676857,
+      "width_mm": 558.819519353714,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 552.3680819720707
+    },
+    {
+      "angle_deg": 56.5,
+      "both_open": true,
+      "left_x_mm": 5780.851182042993,
+      "right_x_mm": 6349.148817957007,
+      "width_mm": 568.2976359140139,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 555.4802306171191
+    },
+    {
+      "angle_deg": 57.0,
+      "both_open": true,
+      "left_x_mm": 5776.083059764259,
+      "right_x_mm": 6353.916940235741,
+      "width_mm": 577.8338804714822,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 558.5491853733497
+    },
+    {
+      "angle_deg": 57.5,
+      "both_open": true,
+      "left_x_mm": 5771.286251916904,
+      "right_x_mm": 6358.713748083096,
+      "width_mm": 587.4274961661922,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 561.5747279151251
+    },
+    {
+      "angle_deg": 58.0,
+      "both_open": true,
+      "left_x_mm": 5766.461139015462,
+      "right_x_mm": 6363.538860984538,
+      "width_mm": 597.0777219690754,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 564.5566427561253
+    },
+    {
+      "angle_deg": 58.5,
+      "both_open": true,
+      "left_x_mm": 5761.608103622367,
+      "right_x_mm": 6368.391896377633,
+      "width_mm": 606.7837927552664,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 567.4947172776019
+    },
+    {
+      "angle_deg": 59.0,
+      "both_open": true,
+      "left_x_mm": 5756.727530311721,
+      "right_x_mm": 6373.272469688279,
+      "width_mm": 616.5449393765575,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 570.3887417562555
+    },
+    {
+      "angle_deg": 59.5,
+      "both_open": true,
+      "left_x_mm": 5751.819805633442,
+      "right_x_mm": 6378.180194366558,
+      "width_mm": 626.3603887331155,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 573.2385093917028
+    },
+    {
+      "angle_deg": 60.0,
+      "both_open": true,
+      "left_x_mm": 5746.885318077799,
+      "right_x_mm": 6383.114681922201,
+      "width_mm": 636.2293638444025,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 576.0438163335489
+    },
+    {
+      "angle_deg": 60.5,
+      "both_open": true,
+      "left_x_mm": 5741.9244580402865,
+      "right_x_mm": 6388.0755419597135,
+      "width_mm": 646.151083919427,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 578.8044617080382
+    },
+    {
+      "angle_deg": 61.0,
+      "both_open": true,
+      "left_x_mm": 5736.937617786828,
+      "right_x_mm": 6393.062382213172,
+      "width_mm": 656.124764426344,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 581.5202476442773
+    },
+    {
+      "angle_deg": 61.5,
+      "both_open": true,
+      "left_x_mm": 5731.925191419274,
+      "right_x_mm": 6398.074808580726,
+      "width_mm": 666.1496171614526,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 584.1909793000314
+    },
+    {
+      "angle_deg": 62.0,
+      "both_open": true,
+      "left_x_mm": 5726.887574841184,
+      "right_x_mm": 6403.112425158816,
+      "width_mm": 676.2248503176324,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 586.8164648870752
+    },
+    {
+      "angle_deg": 62.5,
+      "both_open": true,
+      "left_x_mm": 5721.825165723869,
+      "right_x_mm": 6408.174834276131,
+      "width_mm": 686.3496685522623,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 589.396515696104
+    },
+    {
+      "angle_deg": 63.0,
+      "both_open": true,
+      "left_x_mm": 5716.738363472666,
+      "right_x_mm": 6413.261636527334,
+      "width_mm": 696.5232730546686,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 591.9309461211988
+    },
+    {
+      "angle_deg": 63.5,
+      "both_open": true,
+      "left_x_mm": 5711.627569193445,
+      "right_x_mm": 6418.372430806555,
+      "width_mm": 706.7448616131096,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 594.4195736838305
+    },
+    {
+      "angle_deg": 64.0,
+      "both_open": true,
+      "left_x_mm": 5706.493185659309,
+      "right_x_mm": 6423.506814340691,
+      "width_mm": 717.0136286813813,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 596.862219056421
+    },
+    {
+      "angle_deg": 64.5,
+      "both_open": true,
+      "left_x_mm": 5701.335617277487,
+      "right_x_mm": 6428.664382722513,
+      "width_mm": 727.3287654450269,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 599.2587060854362
+    },
+    {
+      "angle_deg": 65.0,
+      "both_open": true,
+      "left_x_mm": 5696.1552700563925,
+      "right_x_mm": 6433.8447299436075,
+      "width_mm": 737.689459887215,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 601.6088618140275
+    },
+    {
+      "angle_deg": 65.5,
+      "both_open": true,
+      "left_x_mm": 5690.952551572844,
+      "right_x_mm": 6439.047448427156,
+      "width_mm": 748.0948968543125,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 603.9125165042042
+    },
+    {
+      "angle_deg": 66.0,
+      "both_open": true,
+      "left_x_mm": 5685.727870939429,
+      "right_x_mm": 6444.272129060571,
+      "width_mm": 758.5442581211428,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 606.1695036585579
+    },
+    {
+      "angle_deg": 66.5,
+      "both_open": true,
+      "left_x_mm": 5680.481638771986,
+      "right_x_mm": 6449.518361228014,
+      "width_mm": 769.0367224560287,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 608.3796600415117
+    },
+    {
+      "angle_deg": 67.0,
+      "both_open": true,
+      "left_x_mm": 5675.214267157214,
+      "right_x_mm": 6454.785732842786,
+      "width_mm": 779.5714656855725,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 610.5428257001172
+    },
+    {
+      "angle_deg": 67.5,
+      "both_open": true,
+      "left_x_mm": 5669.926169620382,
+      "right_x_mm": 6460.073830379618,
+      "width_mm": 790.1476607592358,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 612.6588439843867
+    },
+    {
+      "angle_deg": 68.0,
+      "both_open": true,
+      "left_x_mm": 5664.617761093131,
+      "right_x_mm": 6465.382238906869,
+      "width_mm": 800.7644778137383,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 614.7275615671647
+    },
+    {
+      "angle_deg": 68.5,
+      "both_open": true,
+      "left_x_mm": 5659.2894578813575,
+      "right_x_mm": 6470.7105421186425,
+      "width_mm": 811.421084237285,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 616.7488284635456
+    },
+    {
+      "angle_deg": 69.0,
+      "both_open": true,
+      "left_x_mm": 5653.941677633179,
+      "right_x_mm": 6476.058322366821,
+      "width_mm": 822.1166447336418,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 618.7224980498245
+    },
+    {
+      "angle_deg": 69.5,
+      "both_open": true,
+      "left_x_mm": 5648.574839306951,
+      "right_x_mm": 6481.425160693049,
+      "width_mm": 832.8503213860986,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 620.6484270820001
+    },
+    {
+      "angle_deg": 70.0,
+      "both_open": true,
+      "left_x_mm": 5643.189363139351,
+      "right_x_mm": 6486.810636860649,
+      "width_mm": 843.6212737212973,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 622.5264757138202
+    },
+    {
+      "angle_deg": 70.5,
+      "both_open": true,
+      "left_x_mm": 5637.785670613501,
+      "right_x_mm": 6492.214329386499,
+      "width_mm": 854.4286587729985,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 624.3565075143724
+    },
+    {
+      "angle_deg": 71.0,
+      "both_open": true,
+      "left_x_mm": 5632.36418442713,
+      "right_x_mm": 6497.63581557287,
+      "width_mm": 865.2716311457407,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 626.1383894852252
+    },
+    {
+      "angle_deg": 71.5,
+      "both_open": true,
+      "left_x_mm": 5626.925328460787,
+      "right_x_mm": 6503.074671539213,
+      "width_mm": 876.1493430784267,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 627.8719920771237
+    },
+    {
+      "angle_deg": 72.0,
+      "both_open": true,
+      "left_x_mm": 5621.469527746052,
+      "right_x_mm": 6508.530472253948,
+      "width_mm": 887.0609445078953,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 629.5571892062353
+    },
+    {
+      "angle_deg": 72.5,
+      "both_open": true,
+      "left_x_mm": 5615.9972084337915,
+      "right_x_mm": 6514.0027915662085,
+      "width_mm": 898.0055831324171,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 631.1938582699536
+    },
+    {
+      "angle_deg": 73.0,
+      "both_open": true,
+      "left_x_mm": 5610.508797762417,
+      "right_x_mm": 6519.491202237583,
+      "width_mm": 908.9824044751658,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 632.7818801622607
+    },
+    {
+      "angle_deg": 73.5,
+      "both_open": true,
+      "left_x_mm": 5605.004724026163,
+      "right_x_mm": 6524.995275973837,
+      "width_mm": 919.9905519476742,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 634.321139288651
+    },
+    {
+      "angle_deg": 74.0,
+      "both_open": true,
+      "left_x_mm": 5599.485416543359,
+      "right_x_mm": 6530.514583456641,
+      "width_mm": 931.0291669132821,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 635.8115235806181
+    },
+    {
+      "angle_deg": 74.5,
+      "both_open": true,
+      "left_x_mm": 5593.951305624712,
+      "right_x_mm": 6536.048694375288,
+      "width_mm": 942.0973887505752,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 637.2529245097085
+    },
+    {
+      "angle_deg": 75.0,
+      "both_open": true,
+      "left_x_mm": 5588.402822541584,
+      "right_x_mm": 6541.597177458416,
+      "width_mm": 953.1943549168318,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 638.6452371011478
+    },
+    {
+      "angle_deg": 75.5,
+      "both_open": true,
+      "left_x_mm": 5582.840399494262,
+      "right_x_mm": 6547.159600505738,
+      "width_mm": 964.3192010114763,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 639.9883599470309
+    },
+    {
+      "angle_deg": 76.0,
+      "both_open": true,
+      "left_x_mm": 5577.264469580217,
+      "right_x_mm": 6552.735530419783,
+      "width_mm": 975.4710608395653,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 641.2821952190993
+    },
+    {
+      "angle_deg": 76.5,
+      "both_open": true,
+      "left_x_mm": 5571.675466762362,
+      "right_x_mm": 6558.324533237638,
+      "width_mm": 986.6490664752764,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 642.5266486810829
+    },
+    {
+      "angle_deg": 77.0,
+      "both_open": true,
+      "left_x_mm": 5566.073825837279,
+      "right_x_mm": 6563.926174162721,
+      "width_mm": 997.8523483254412,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 643.7216297006303
+    },
+    {
+      "angle_deg": 77.5,
+      "both_open": true,
+      "left_x_mm": 5560.45998240344,
+      "right_x_mm": 6569.54001759656,
+      "width_mm": 1009.0800351931193,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 644.8670512608201
+    },
+    {
+      "angle_deg": 78.0,
+      "both_open": true,
+      "left_x_mm": 5554.834372829408,
+      "right_x_mm": 6575.165627170592,
+      "width_mm": 1020.3312543411848,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 645.9628299712572
+    },
+    {
+      "angle_deg": 78.5,
+      "both_open": true,
+      "left_x_mm": 5549.197434222012,
+      "right_x_mm": 6580.802565777988,
+      "width_mm": 1031.6051315559762,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 647.0088860787578
+    },
+    {
+      "angle_deg": 79.0,
+      "both_open": true,
+      "left_x_mm": 5543.549604394507,
+      "right_x_mm": 6586.450395605493,
+      "width_mm": 1042.9007912109864,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 648.0051434776278
+    },
+    {
+      "angle_deg": 79.5,
+      "both_open": true,
+      "left_x_mm": 5537.891321834705,
+      "right_x_mm": 6592.108678165295,
+      "width_mm": 1054.2173563305896,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 648.9515297195303
+    },
+    {
+      "angle_deg": 80.0,
+      "both_open": true,
+      "left_x_mm": 5532.223025673087,
+      "right_x_mm": 6597.776974326913,
+      "width_mm": 1065.5539486538255,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 649.8479760229561
+    },
+    {
+      "angle_deg": 80.5,
+      "both_open": true,
+      "left_x_mm": 5526.545155650885,
+      "right_x_mm": 6603.454844349115,
+      "width_mm": 1076.9096886982297,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 650.6944172822859
+    },
+    {
+      "angle_deg": 81.0,
+      "both_open": true,
+      "left_x_mm": 5520.858152088136,
+      "right_x_mm": 6609.141847911864,
+      "width_mm": 1088.2836958237276,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 651.4907920764635
+    },
+    {
+      "angle_deg": 81.5,
+      "both_open": true,
+      "left_x_mm": 5515.162455851723,
+      "right_x_mm": 6614.837544148277,
+      "width_mm": 1099.6750882965534,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.2370426772645
+    },
+    {
+      "angle_deg": 82.0,
+      "both_open": true,
+      "left_x_mm": 5509.458508323375,
+      "right_x_mm": 6620.541491676625,
+      "width_mm": 1111.0829833532498,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.9331150571775
+    },
+    {
+      "angle_deg": 82.5,
+      "both_open": true,
+      "left_x_mm": 5503.746751367644,
+      "right_x_mm": 6626.253248632356,
+      "width_mm": 1122.5064972647124,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 653.5789588968919
+    },
+    {
+      "angle_deg": 83.0,
+      "both_open": true,
+      "left_x_mm": 5498.0276272998635,
+      "right_x_mm": 6631.9723727001365,
+      "width_mm": 1133.944745400273,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 654.1745275924009
+    },
+    {
+      "angle_deg": 83.5,
+      "both_open": true,
+      "left_x_mm": 5492.301578854075,
+      "right_x_mm": 6637.698421145925,
+      "width_mm": 1145.3968422918497,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 654.7197782617172
+    },
+    {
+      "angle_deg": 84.0,
+      "both_open": true,
+      "left_x_mm": 5486.569049150926,
+      "right_x_mm": 6643.430950849074,
+      "width_mm": 1156.8619016981484,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.2146717512028
+    },
+    {
+      "angle_deg": 84.5,
+      "both_open": true,
+      "left_x_mm": 5480.830481665546,
+      "right_x_mm": 6649.169518334454,
+      "width_mm": 1168.3390366689073,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.6591726415245
+    },
+    {
+      "angle_deg": 85.0,
+      "both_open": true,
+      "left_x_mm": 5475.086320195407,
+      "right_x_mm": 6654.913679804593,
+      "width_mm": 1179.8273596091858,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.0532492532225
+    },
+    {
+      "angle_deg": 85.5,
+      "both_open": true,
+      "left_x_mm": 5469.337008828139,
+      "right_x_mm": 6660.662991171861,
+      "width_mm": 1191.325982343722,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.3968736519137
+    },
+    {
+      "angle_deg": 86.0,
+      "both_open": true,
+      "left_x_mm": 5463.582991909348,
+      "right_x_mm": 6666.417008090652,
+      "width_mm": 1202.8340161813048,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.6900216531076
+    }
+  ],
+  "selected_angles": [
+    {
+      "angle_deg": 60.0,
+      "both_open": false,
+      "left_x_mm": 5746.885318077799,
+      "right_x_mm": 6066.0,
+      "width_mm": 319.11468192220127,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 576.0438163335489
+    },
+    {
+      "angle_deg": 70.0,
+      "both_open": false,
+      "left_x_mm": 5643.189363139351,
+      "right_x_mm": 6066.0,
+      "width_mm": 422.81063686064863,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 622.5264757138202
+    },
+    {
+      "angle_deg": 75.0,
+      "both_open": false,
+      "left_x_mm": 5588.402822541584,
+      "right_x_mm": 6066.0,
+      "width_mm": 477.5971774584159,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 638.6452371011478
+    },
+    {
+      "angle_deg": 80.0,
+      "both_open": false,
+      "left_x_mm": 5532.223025673087,
+      "right_x_mm": 6066.0,
+      "width_mm": 533.7769743269128,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 649.8479760229561
+    },
+    {
+      "angle_deg": 82.0,
+      "both_open": false,
+      "left_x_mm": 5509.458508323375,
+      "right_x_mm": 6066.0,
+      "width_mm": 556.5414916766249,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.9331150571775
+    },
+    {
+      "angle_deg": 84.0,
+      "both_open": false,
+      "left_x_mm": 5486.569049150926,
+      "right_x_mm": 6066.0,
+      "width_mm": 579.4309508490742,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.2146717512028
+    },
+    {
+      "angle_deg": 86.0,
+      "both_open": false,
+      "left_x_mm": 5463.582991909348,
+      "right_x_mm": 6066.0,
+      "width_mm": 602.4170080906524,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.6900216531076
+    },
+    {
+      "angle_deg": 60.0,
+      "both_open": true,
+      "left_x_mm": 5746.885318077799,
+      "right_x_mm": 6383.114681922201,
+      "width_mm": 636.2293638444025,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 576.0438163335489
+    },
+    {
+      "angle_deg": 70.0,
+      "both_open": true,
+      "left_x_mm": 5643.189363139351,
+      "right_x_mm": 6486.810636860649,
+      "width_mm": 843.6212737212973,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 622.5264757138202
+    },
+    {
+      "angle_deg": 75.0,
+      "both_open": true,
+      "left_x_mm": 5588.402822541584,
+      "right_x_mm": 6541.597177458416,
+      "width_mm": 953.1943549168318,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 638.6452371011478
+    },
+    {
+      "angle_deg": 80.0,
+      "both_open": true,
+      "left_x_mm": 5532.223025673087,
+      "right_x_mm": 6597.776974326913,
+      "width_mm": 1065.5539486538255,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 649.8479760229561
+    },
+    {
+      "angle_deg": 82.0,
+      "both_open": true,
+      "left_x_mm": 5509.458508323375,
+      "right_x_mm": 6620.541491676625,
+      "width_mm": 1111.0829833532498,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 652.9331150571775
+    },
+    {
+      "angle_deg": 84.0,
+      "both_open": true,
+      "left_x_mm": 5486.569049150926,
+      "right_x_mm": 6643.430950849074,
+      "width_mm": 1156.8619016981484,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 655.2146717512028
+    },
+    {
+      "angle_deg": 86.0,
+      "both_open": true,
+      "left_x_mm": 5463.582991909348,
+      "right_x_mm": 6666.417008090652,
+      "width_mm": 1202.8340161813048,
+      "height_between_wood_mm": 272.0,
+      "advance_from_closed_front_mm": 656.6900216531076
+    }
+  ],
+  "minimum_sampled_angle_for_width": {
+    "one_550mm": 81.5,
+    "one_570mm": 83.5,
+    "one_1120mm": null,
+    "both_550mm": 56.0,
+    "both_570mm": 57.0,
+    "both_1120mm": 82.5
+  },
+  "bag_paths": [
+    {
+      "mode": "left_only",
+      "bag": 1,
+      "x_mm": 5489.791495954674,
+      "depth_mm": 350,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 26.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "left_only",
+      "bag": 1,
+      "x_mm": 5489.791495954674,
+      "depth_mm": 350,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 16.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "left_only",
+      "bag": 1,
+      "x_mm": 5489.791495954674,
+      "depth_mm": 380,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 26.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "left_only",
+      "bag": 1,
+      "x_mm": 5489.791495954674,
+      "depth_mm": 380,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 16.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "right_only",
+      "bag": 1,
+      "x_mm": 6090.208504045326,
+      "depth_mm": 350,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 26.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "right_only",
+      "bag": 1,
+      "x_mm": 6090.208504045326,
+      "depth_mm": 350,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 16.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "right_only",
+      "bag": 1,
+      "x_mm": 6090.208504045326,
+      "depth_mm": 380,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 26.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "right_only",
+      "bag": 1,
+      "x_mm": 6090.208504045326,
+      "depth_mm": 380,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 16.208504045325753,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 1,
+      "x_mm": 5505.0,
+      "depth_mm": 350,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 41.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 1,
+      "x_mm": 5505.0,
+      "depth_mm": 350,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 31.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 2,
+      "x_mm": 6075.0,
+      "depth_mm": 350,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 41.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 2,
+      "x_mm": 6075.0,
+      "depth_mm": 350,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 31.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 1,
+      "x_mm": 5505.0,
+      "depth_mm": 380,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 41.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 1,
+      "x_mm": 5505.0,
+      "depth_mm": 380,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 31.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 2,
+      "x_mm": 6075.0,
+      "depth_mm": 380,
+      "padded_envelope": false,
+      "minimum_sampled_front_axis_gap_mm": 41.417008090652416,
+      "hits": []
+    },
+    {
+      "mode": "both",
+      "bag": 2,
+      "x_mm": 6075.0,
+      "depth_mm": 380,
+      "padded_envelope": true,
+      "minimum_sampled_front_axis_gap_mm": 31.417008090652416,
+      "hits": []
+    }
+  ],
+  "hinge_groups": [
+    {
+      "cup_centers_from_bottom_mm": [
+        79,
+        227
+      ],
+      "hinges": 2,
+      "span_mm": 148,
+      "wood_mass_kg_at_density": {
+        "650": 2.3896346945222646,
+        "800": 2.941088854796633,
+        "900": 3.308724961646212
+      },
+      "demand_cases": [
+        {
+          "finished_door_hypothesis_kg": 3,
+          "vertical_group_N": 29.41995,
+          "gravitational_group_moment_Nm": 9.885103200000001,
+          "extreme_pair_equivalent_N": 66.79123783783785
+        },
+        {
+          "finished_door_hypothesis_kg": 4,
+          "vertical_group_N": 39.2266,
+          "gravitational_group_moment_Nm": 13.1801376,
+          "extreme_pair_equivalent_N": 89.05498378378378
+        },
+        {
+          "finished_door_hypothesis_kg": 5,
+          "vertical_group_N": 49.033249999999995,
+          "gravitational_group_moment_Nm": 16.475172,
+          "extreme_pair_equivalent_N": 111.31872972972974
+        }
+      ],
+      "approved": false
+    },
+    {
+      "cup_centers_from_bottom_mm": [
+        52,
+        254
+      ],
+      "hinges": 2,
+      "span_mm": 202,
+      "wood_mass_kg_at_density": {
+        "650": 2.3896346945222646,
+        "800": 2.941088854796633,
+        "900": 3.308724961646212
+      },
+      "demand_cases": [
+        {
+          "finished_door_hypothesis_kg": 3,
+          "vertical_group_N": 29.41995,
+          "gravitational_group_moment_Nm": 9.885103200000001,
+          "extreme_pair_equivalent_N": 48.936154455445546
+        },
+        {
+          "finished_door_hypothesis_kg": 4,
+          "vertical_group_N": 39.2266,
+          "gravitational_group_moment_Nm": 13.1801376,
+          "extreme_pair_equivalent_N": 65.24820594059406
+        },
+        {
+          "finished_door_hypothesis_kg": 5,
+          "vertical_group_N": 49.033249999999995,
+          "gravitational_group_moment_Nm": 16.475172,
+          "extreme_pair_equivalent_N": 81.56025742574258
+        }
+      ],
+      "approved": false
+    },
+    {
+      "cup_centers_from_bottom_mm": [
+        52,
+        153,
+        254
+      ],
+      "hinges": 3,
+      "span_mm": 202,
+      "wood_mass_kg_at_density": {
+        "650": 2.381504841783397,
+        "800": 2.9310828821949495,
+        "900": 3.2974682424693182
+      },
+      "demand_cases": [
+        {
+          "finished_door_hypothesis_kg": 3,
+          "vertical_group_N": 29.41995,
+          "gravitational_group_moment_Nm": 9.885103200000001,
+          "extreme_pair_equivalent_N": 48.936154455445546
+        },
+        {
+          "finished_door_hypothesis_kg": 4,
+          "vertical_group_N": 39.2266,
+          "gravitational_group_moment_Nm": 13.1801376,
+          "extreme_pair_equivalent_N": 65.24820594059406
+        },
+        {
+          "finished_door_hypothesis_kg": 5,
+          "vertical_group_N": 49.033249999999995,
+          "gravitational_group_moment_Nm": 16.475172,
+          "extreme_pair_equivalent_N": 81.56025742574258
+        }
+      ],
+      "approved": false
+    }
+  ],
+  "extreme_pair_reduction_148_to202_fraction": 0.26732673267326734,
+  "equal_height_thickness_density_solid_door_moment_ratio_vs650": 1.0688378698224852,
+  "sources": [
+    "https://ea.blum.com/en/number-of-hinges/"
+  ],
+  "limitations": [
+    "Largura672 alem da extensao650 publicada; proporcao baixa tambem exige confirmacao.",
+    "Corpos de dobradicas/limitadores e regulagens nao incluidos no corredor.",
+    "Amostragem0.5grau/5mm nao prova folga continua nem tolerancia.",
+    "Tres dobradicas nao significam divisao igual de carga, nem aprovacao automatica.",
+    "Momento por braco nominal336; nao e capacidade ou esforco por parafuso.",
+    "Peso das malas pertence a caixa/base; nao se soma a massa da porta para selecionar dobradica.",
+    "Espaco da mao, alcance a2.15m e operacao real precisam de prototipo.",
+    "Posicoes52/153/254 sao candidatas; verificar corpos, calcos, parafusos e chapa."
+  ],
+  "gate": "NAO_ATENDIDO: passagem nominal passa; capacidade de ferragem/fixacoes nao comprovada"
+}

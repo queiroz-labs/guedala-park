@@ -114,3 +114,6 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 
 **Integração de 26/10/2026 — análise BOP:** [análise dos alertas](02_Modelo_3D/README.md#análise-dos-alertas-bop--25102026) incorporada, com limites da amostragem e preservação da R52. Sem reparo geométrico ou atualização da base.
+
+
+**Integração de 26/10/2026 — P01/P02/P03:** estudos de caixa, portas, malas, juntas e caminho ao piso incorporados; [P03](04_Moveis/P03/README.md). Resultados condicionais, sem capacidade física demonstrada ou alteração da R52.

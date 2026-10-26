@@ -1,0 +1,244 @@
+{
+  "source_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "user_finish_confirmation": "Elias confirmou manterArenza liso,25/10/2026",
+  "specification_basis": {
+    "core": "MDF Greenplac convencional para ambiente interno seco",
+    "finish": "BP melaminico industrial",
+    "nominal_thickness_mm": 18,
+    "apparent_finish": "Arenza LinhaColore, texturaLizze, liso areia/fendi",
+    "internal_finish": "Arenza liso Lizze,mesmo padrao da peca unica",
+    "sheet_format_mm": [
+      2750,
+      1850
+    ],
+    "status": "base_tecnica_Arenza_duas_faces;SKU,lote e fabricacao pendentes"
+  },
+  "manufacturer_reference": {
+    "E_min_MPa": 2200,
+    "nominal_thickness_tolerance_mm": 0.3,
+    "minimum_resistant_thickness_hypothesis_mm": 17.7,
+    "maximum_thickness_for_mass_hypothesis_mm": 18.3,
+    "long_term_effective_E_hypothesis_MPa": 1100,
+    "note": "2200 e referencia minima de modulo imediato,nao resistencia admissivel nemmodulo de longa duracao.1100 e hipotese de estudo anterior,nao dadoGreenplac. Revestimento sem credito estrutural."
+  },
+  "catalog_mass_comparison": [
+    {
+      "product": "Arenza Colore Lizze",
+      "thickness_mm": 15,
+      "sheet_mass_kg": 52.7,
+      "sheet_area_m2": 5.0875,
+      "areal_mass_kg_m2": 10.358722358722359,
+      "gross_leaf_area_mass_kg": 2.130084796068796
+    },
+    {
+      "product": "Arenza Colore Lizze",
+      "thickness_mm": 18,
+      "sheet_mass_kg": 63.2,
+      "sheet_area_m2": 5.0875,
+      "areal_mass_kg_m2": 12.422604422604422,
+      "gross_leaf_area_mass_kg": 2.5544849926289928
+    },
+    {
+      "product": "Arenza Colore Lizze",
+      "thickness_mm": 25,
+      "sheet_mass_kg": 86.5,
+      "sheet_area_m2": 5.0875,
+      "areal_mass_kg_m2": 17.002457002457,
+      "gross_leaf_area_mass_kg": 3.4962492383292383
+    },
+    {
+      "product": "Arenza MDF Green HR Matte Acetinado",
+      "thickness_mm": 18,
+      "sheet_mass_kg": 66.9,
+      "sheet_area_m2": 5.0875,
+      "areal_mass_kg_m2": 13.14987714987715,
+      "gross_leaf_area_mass_kg": 2.7040355380835384
+    }
+  ],
+  "door_mass_budget": {
+    "finished_leaf_budget_hypothesis_kg": 4.0,
+    "published_sheet_reference_gross_leaf_kg": 2.5544849926289928,
+    "budget_remaining_for_hardware_edges_pull_finish_kg": 1.4455150073710072,
+    "reference_bare_leaf_nominal_gravity_moment_Nm": 8.417115924996278,
+    "maintained_finished4kg_moment_Nm": 13.1801376,
+    "maintained_finished4kg_extreme_pair202_N": 65.24820594059406
+  },
+  "parts_and_requested_faces": [
+    {
+      "part": "Peca259",
+      "name": "Lateral direita",
+      "size_mm": [
+        630,
+        308,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.19404,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 2.410482162162162,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 2.8407456,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "Peca260",
+      "name": "Lateral esquerda",
+      "size_mm": [
+        630,
+        308,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.19404,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 2.410482162162162,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 2.8407456,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "Peca261",
+      "name": "Fundo",
+      "size_mm": [
+        1314,
+        272,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.357408,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 4.4399382014742015,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 5.232453120000001,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "Peca262",
+      "name": "Base",
+      "size_mm": [
+        1314,
+        612,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.804168,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 9.989860953316953,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 11.77301952,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "Peca263",
+      "name": "Topo",
+      "size_mm": [
+        1314,
+        612,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.804168,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 9.989860953316953,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 11.77301952,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "A_esquerda",
+      "name": "Porta esquerda",
+      "size_mm": [
+        672,
+        306,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.205632,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 2.5544849926289928,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 3.01045248,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    },
+    {
+      "part": "A_direita",
+      "name": "Porta direita",
+      "size_mm": [
+        672,
+        306,
+        18
+      ],
+      "inside": "Arenza liso Lizze",
+      "outside": "Arenza liso Lizze",
+      "area_m2": 0.205632,
+      "equivalent_mass_if_same_areal_weight_as_Arenza18_kg": 2.5544849926289928,
+      "conservative_wood_mass_hypothesis800_t18_3_kg": 3.01045248,
+      "same_finish_both_faces": true,
+      "face_supply_confirmed": null
+    }
+  ],
+  "totals": {
+    "nominal_area_m2": 2.765088,
+    "equivalent_all_panels_Arenza_areal_mass_kg": 34.34959441769042,
+    "conservative_wood800_t18_3_kg": 40.48088832,
+    "note": "Estimativa por area de Arenza para todas as pecasP03;nao pesagem,nao inclui ferragens.Nao atualizar matriz global como se fosse medicao."
+  },
+  "rejected_shortcuts": [
+    {
+      "option": "15mm",
+      "reason": "Nao adotar:caneco minimo13 deixa somente2mmnominais;e alterar caixa mudaria vaos/juntas. Para base com mesmoE,rigidezfora do plano15/18=(15/18)^3.",
+      "base_flexural_rigidity_ratio_sameE": 0.5787037037037038
+    },
+    {
+      "option": "25mm",
+      "reason": "Nao adotar como conserto automatico:porta maispesada e alteracao de folgas/recuo/volume interno;caixa exige estudo proprio."
+    },
+    {
+      "option": "HR",
+      "reason": "Opcao para requisito de umidade confirmado;mais pesado e textura diferente. Nao comprovou maior capacidade do grupo de dobradicas."
+    },
+    {
+      "option": "MDP_generic",
+      "reason": "Sem produtoArenza e dados de chapa confirmados neste levantamento;nao substituir MDF nem importar recomendacaoP2Blum automaticamente."
+    }
+  ],
+  "unresolved": [
+    "Confirmar SKU,lote e espessura final da chapa18ArenzaLizze nasduasfaces,semcoresopostas.",
+    "P03 atual tem pecas unicas18;nenhum painel interno15 adicionado. Duaspecas18+15 podemtercoresdiferentes,masexigemIDs,vaos,ligacoes e cargas proprios.",
+    "Codigo/SKU de18,amostra,lote,textura e massa real do produtoArenza.",
+    "Fitas/selagem/adesivo e compensacoes nas dimensoes acabadas;nao executar usinagem pelas cotas de estudo.",
+    "Pilotos,parafusos e capacidade do grupo de dobradicas para MDF18/672x306;ensaio e confirmacaoBlum pendentes.",
+    "Caixa/base/juntas/caminhoP01 para20kg e eventual30kg:nao liberados por selecionar MDF18."
+  ],
+  "sources": [
+    {
+      "url": "https://greenplac.com.br/products/mdf-arenza-linha-colore",
+      "facts": [
+        "Arenza liso areia/fendi,Lizze,2750x1850,18mm e63.2kg/chapa;15=52.7kg,25=86.5kg.",
+        "Nao publica SKU18 nem confirmacao do versoBrancoTX na pagina consultada."
+      ]
+    },
+    {
+      "url": "https://greenplac.com.br/products/arenza-hr-2-750-x-1-850-mm-02-faces",
+      "facts": [
+        "ArenzaGreenHR18=66.9kg/chapa2750x1850;MatteAcetinado, outra textura."
+      ]
+    },
+    {
+      "url": "https://greenplac.com.br/products/branco-tx-hr-2-750-x-1-850-mm-02-faces",
+      "facts": [
+        "DescreveBrancoTXconvencional eHR;valores66.9kg/18 apresentados na paginaHR,nao transferidos ao convencional."
+      ]
+    },
+    {
+      "url": "https://download.greenplac.com.br/download/qualidade-requisitos-normativos-e-cuidados.pdf",
+      "facts": [
+        "MDFBP revestido emumaouduasfaces;formatos2750x1850;uso geral nao estrutural emcondicoessecas.",
+        "ReferenciaE minimo2200MPa faixa>12a19,tolerancia±0.3;jaadotados na referencia mecanica do projeto.",
+        "Documento nao fornece capacidade de arrancamento do609.1500 nem curva do grupo.",
+        "Tabela extraida;renderizacao visual desta consulta indisponivel. Outros numeros de resistencia nao usados no calculo."
+      ]
+    }
+  ],
+  "cad_unchanged": true
+}
