@@ -95,6 +95,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **T05 — P08 e varal, 26/10:** [P08](04_Moveis/P08/README.md#t05--percurso-e-retirada-26102026): 50.002 pares de caixas separados no percurso salvo de 400 mm; retirada completa, guia e batente ainda pendentes. [Varal](03_Ambientes/Lavanderia/Varal.md#t05--percurso-nominal-com-roupa-26102026): três dos 30 cenários apresentam encontro de envelopes roupa/lixeira em descida 860 mm e comprimento pendente 1200 mm. Não adotar o curso máximo como curso carregado sem conferir roupas/posição; sem mudança CAD ou ensaio.
 
+**T05 — P01/P06, 26/10:** [sete caixas versus FGVTN 500](04_Moveis/Inventario_dimensional/Gavetas/README.md): profundidade interna do móvel atende P1; caixas salvas têm 490 versus P500 e largura interna 0,5 mm abaixo do limite A−41−0,5. Quatorze engates mantêm referência T51.7601. Curso documental 475 ±3, recortes/engates/destrave simultâneo por reconciliar. Nenhuma alteração R52 ou aprovação de montagem.
+
 ## Próximos passos
 
 **Avanço 26/10 — juntas dos aéreos:** P17: 21 grupos/70 posições candidatas; P12: 9/21; 30 cortes de carga por móvel e 2.625 pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17: 24 apoios do estudo antigo coincidem após v=330−y; rigidez do Minifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto, sem execução; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Próximo: caracterizar juntas e caixa/ferragem reais; seguir frente independente enquanto aguarda oficina.
