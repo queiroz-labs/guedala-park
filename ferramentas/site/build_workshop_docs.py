@@ -207,8 +207,13 @@ def write_sources():
         guidance[code]['hardware']=[r['item']+': '+str(r.get('reference') or 'definição específica na ficha')+' · '+r['status'] for r in f['hardwareRows']]
         guidance[code]['documentIds'].insert(0,'ficha-'+code)
         guidance[code]['documentIds'].append('acabamentos-r13')
+    # Estudos publicados em separado, acessiveis tambem pela ficha de cada movel.
+    for code in ['P17','P12']:
+        guidance[code]['documentIds'].append('suspensao-'+code.lower())
+        guidance[code]['hardware'].append('Suspensão compacta candidata: implantação nominal; ferragem, fixadores e capacidade ainda em qualificação.')
+        guidance[code]['pending'].insert(0,'Conferir ferramenta do auxiliar traseiro, juntas/rigidez da caixa e contato inferior; executar qualificação física antes de adotar a suspensão.')
     guidance = plain_data(guidance)
-    write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,indent=2)+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
+    write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,separators=(',',':'))+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
     body='<h1>Guia do montador</h1><p>Modelo '+escape(RELEASE['cadRevision'])+'; consultar fichas e condições atuais antes da fabricação.</p>'
     if FABRICATION:
         body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao_R13/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao_R13/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'

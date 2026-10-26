@@ -1,6 +1,6 @@
-# Apartamento interativo — R52 e pacote R18
+# Apartamento interativo — R52 e pacote R21
 
-A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R18 em `06_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
+A fonte corrente da entrega é `current_release.json`: FreeCAD R52, pacote R21 em `06_Entregas/Publicacao`, fichas R14 e iluminação CB02. O resumo de avanços e pendências fica na biblioteca do site; estudos separados não são incorporados automaticamente à geometria.
 
 Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 
@@ -11,6 +11,8 @@ python -B ferramentas/site/preparar_pages.py --output-dir "../outputs/Publicacao
 Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado quando já existe; só constrói se estiver ausente. Textos são normalizados para UTF8/LF, binários preservados, e a conferência de fontes usa hashes canônicos sem recompressão no CI. Mudanças de conteúdo exigem outra revisão de pacote. Publicação efetiva é tarefa do workflow Pages, após commit/push autorizados; o gerador não faz deploy.
 
 `build_workshop_docs.py --sources-only` atualiza somente os dados de consulta. `--regenerate-sources` é uma opção explícita para reconstruir fichas/planta; o fluxo normal usa as fontes correntes já verificadas. Testes ficam nesta pasta e saídas temporárias fora do repositório.
+
+Atualização26/10: biblioteca e fichasP17/P12 apontam para os estudos de suspensão separados, desenhos e requisitos; matriz20/20 disponível. PacoteR21 inclui esses documentos. GeometriaR52 e comprovações físicas continuam conformeEstadoAtual.
 
 ## Registros anteriores
 

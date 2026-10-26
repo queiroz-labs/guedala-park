@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-25",
+  "releaseDate": "2026-10-26",
   "projectRevision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
   "projectDate": "25 outubro 2026",
   "cadRevision": "R52",
@@ -14,10 +14,10 @@
     "Condicoes_operacao_R52.json",
     "Diferencas_R51_R52.json"
   ],
-  "packageRevision": "R20",
+  "packageRevision": "R21",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R20.zip",
-  "archiveRoot": "Guedala_Park_R20",
+  "packageFile": "Guedala_Park_R21.zip",
+  "archiveRoot": "Guedala_Park_R21",
   "fabricationRevision": "R14",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
@@ -25,7 +25,7 @@
   "lastPublishedCadRevision": "R52",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
   "lastPublishedPackageRevision": "R18",
-  "notes": "R52 verificada, com geometria de referência e fabricação condicionada. O R18 reúne fichas atuais e estudos separados de corte, ligações, instalação e cinemática; as propostas não foram incorporadas automaticamente ao modelo. Piano e trava permanecem a direção P20, com composição e fixação ainda a detalhar. Nenhuma capacidade ou medida de campo foi presumida.",
+  "notes": "R52 preservada e fichasR14 condicionadas. R21 acrescenta a matriz20/20 e os estudos separados de suspensaoP17/P12, com desenhos, vetores e requisitos de qualificacao. Posicoes nominais nao foram incorporadas ao CAD; produto, juntas, ferramenta, ensaios e ancoragens reais permanecem pendentes.",
   "technicalDocuments": [
     {
       "id": "avancos-pendencias",
@@ -113,6 +113,50 @@
         "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
         "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
         "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json"
+      ]
+    },
+    {
+      "id": "andamento20",
+      "title": "Andamento dos 20 moveis",
+      "room": "all",
+      "path": "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md",
+      "summary": "Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado.",
+      "files": [
+        "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.csv"
+      ]
+    },
+    {
+      "id": "suspensao-p17",
+      "title": "P17 · suspensao em estudo",
+      "room": "escritorio",
+      "path": "04_Moveis/P17/Base_fundo_ligacoes/README.md",
+      "summary": "Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.",
+      "files": [
+        "04_Moveis/Aereos_suspensao/P17_suspensao.json",
+        "04_Moveis/Aereos_suspensao/P17_suspensao.png",
+        "04_Moveis/Aereos_suspensao/P17_demandas_suspensao.csv",
+        "04_Moveis/Aereos_suspensao/P17_reacoes_inferiores.csv",
+        "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.csv",
+        "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.txt",
+        "04_Moveis/Aereos_suspensao/P17_verificacao_suspensao.json",
+        "04_Moveis/Aereos_suspensao/Lote_B_premissas.json",
+        "04_Moveis/Aereos_suspensao/Selecao_ferragem.json"
+      ]
+    },
+    {
+      "id": "suspensao-p12",
+      "title": "P12 · suspensao em estudo",
+      "room": "cozinha",
+      "path": "04_Moveis/P12/README.md",
+      "summary": "Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.",
+      "files": [
+        "04_Moveis/Aereos_suspensao/P12_suspensao.json",
+        "04_Moveis/Aereos_suspensao/P12_suspensao.png",
+        "04_Moveis/Aereos_suspensao/P12_demandas_suspensao.csv",
+        "04_Moveis/Aereos_suspensao/P12_reacoes_inferiores.csv",
+        "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.csv",
+        "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.txt",
+        "04_Moveis/Aereos_suspensao/P12_verificacao_suspensao.json"
       ]
     }
   ]

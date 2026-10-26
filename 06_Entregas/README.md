@@ -1,11 +1,11 @@
-# Entregas — publicação R52/R18
+# Entregas — publicação R52/R21
 
-> **Publicação R52/R18:** [modelo FreeCAD R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd), pacote R18 e fichas R14. [Estado da publicação e conferência remota](../ESTADO_ATUAL.md). R17 selado preservado; estudos estruturais e alternativa do micro continuam separados.
+> **Atualização R52/R21:** modeloR52 e fichasR14; pacoteR21 com matriz20/20 e suspensãoP17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
 
 | Uso | Abrir | Revisão |
 |---|---|---|
 | Modelo3D FreeCAD | [Modelo completo R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [conferências](../02_Modelo_3D/README.md) | R52 |
-| Pacote corrente para compartilhar | Guedala_Park_R18.zip | R18 |
+| Pacote corrente para compartilhar | [Guedala_Park_R21.zip](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip) | R21 |
 | Entrega anterior selada | [R17](Compartilhar_R17/Guedala_Park_R17.zip) | Histórico preservado, não regenerado |
 | Fichas, furação e pendências | [20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14 |
 | Planta cotada | [Planta](Planta_cotada/index.html) | R13 |
