@@ -1,7 +1,60 @@
 """Indices e coordenadas nominais de estudo. Nao sao programa CNC."""
 from pathlib import Path
-import csv,json,hashlib
+import csv,json,hashlib,sys
 HERE=Path(__file__).resolve().parent
+# Consolidacao documental: preserva os dados existentes e nao gera eixos historicos.
+if '--consolidar' in sys.argv:
+ from importlib.util import spec_from_file_location, module_from_spec
+ spec=spec_from_file_location('matriz',HERE.parents[1]/'ferramentas'/'consolidar_matriz.py')
+ mod=module_from_spec(spec);spec.loader.exec_module(mod);mod.main()
+ sys.exit(0)
+ROUPEIRO={
+ 'P01':('1728 casos acopladosP01/P02/P03;divisoria-base18-soco62 alinhados:9900mm2,peso/reacoes conferidos;pe ate646N/base0.05mm em hipotese central;CAD preservado',
+        'Nivelamento/contato real,piso e posicionamento do soco;aparencia frontal62,produto/resistencia das juntas,fundo inteiro/emenda e demais cargasP01/retencao'),
+ 'P02':('CaixaL deformavel eC01 acopladas;1728 casos;seis eixos passantes candidatos,201Ntracao/33Ncisalhamento no cenarioP03malas20kg/P02semconteudo;proposta separada',
+        'Produto completoC01,ensaioMDF,curvas e corpos/acesso;fixar cargaP02,verificar deformacao conjunta;casos de ponta grandes nao sao previsao linear ou carga permitida'),
+ 'P03':('A672/Arenza;C01 seis posicoes candidatas e caminho nominal divisoria ao piso conferidos;1728 casos;caixa18 ainda8.1-8.5mm no cenario principal;R52 preservada',
+        'Validar produto/juntasMDF e nivelamento/piso;resolver deformacao superior e cargaP02,corpos/dobradicas672,folgas/manuseio eprototipo antes de18/25 ouCAD;20kg nao demonstrados')}
+EVIDENCIA_ROUPEIRO='Proximas_decisoes/P01_P03/README.md'
+CORTE={'P13':('Peca350 697x470x18 preservada;unica peca das249 sem entrada na auditoria248;excluida do arranjo por acabamento pendente',
+              'Definir padrao unico nas duas facesPeca350 e completar auditoria;confrontar massa/apoio do micro com chapa,ligacoes e caminho ao corpo,preservando ventilacao e acesso')}
+LOTE_A={
+ 'P09':('Mapa nominal20Confirmat+11cavilhas posicionadoras;zonas de suspensao e equilibrio conferidos no lote696casos/4176vetores;gap42 menos parafuso30 deixa12 condicional ao gabarito',
+        'QualificarBigfer04.02.058 candidata compacta60mL/par:metodoMDF18/capacidadeV-T ainda ausentes;confirmar abas do depurador sem atribuir6kg automaticamente ao gabinete;retorno20 e parede real'),
+ 'P11':('12Minifix existentes preservados;10Confirmat+3cavilhas nominais;grupoBigferu40.5 V251.05/T204.76N no estudo10kg global;rasgos espelhados nao engatam juntos por translacao',
+        'Bigfer04.02.058 pre-selecionada para qualificar,60mL/par sem recuar fundo:metodo/capacidadeMDF18 e passagem ate parede,retencao/apoios;comprovar juntas da memoria local e caixa'),
+ 'P15':('8Minifix existentes preservados;6Confirmat atuais ou18 na variante;mapa/equilibrio nominal;na lateral que desce18 o pino fica27 da nova borda;R52 preservada',
+        'Produto/processo/ensaio18+18 e juntas;mapa nao liga camadas;TitebondMelamine excluida;Bigfer04.02.058 candidata compacta,mas metodo/capacidadeV-T ainda nao demonstrados;parede real')}
+
+# Atualizacao localizada: preserva os outros17moveis e os caminhos ja migrados.
+# Nao dispara a geracao historica de eixos/manifestos no restante deste script.
+localized={'--somente-roupeiro':(ROUPEIRO,EVIDENCIA_ROUPEIRO),
+ '--somente-corte':(CORTE,'Proximas_decisoes/Corte_e_formatos/README.md'),
+ '--somente-lote-a':(LOTE_A,'Aereos_suspensao/README.md')}
+selected=[flag for flag in localized if flag in sys.argv]
+if selected:
+ assert len(selected)==1
+ updates,evidence=localized[selected[0]]
+ with (HERE/'Andamento_20_moveis.csv').open(encoding='utf-8-sig',newline='') as f:
+  reader=csv.DictReader(f,delimiter=';');fields=reader.fieldnames;rows=list(reader)
+ assert len(rows)==20
+ for r in rows:
+  if r['module'] in updates:
+   r['status'],r['next_action']=updates[r['module']]
+   r['evidence']=evidence
+ with (HERE/'Andamento_20_moveis.csv').open('w',encoding='utf-8-sig',newline='') as f:
+  writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader();writer.writerows(rows)
+ lines=(HERE/'Andamento_20_moveis.md').read_text(encoding='utf-8').splitlines()
+ for i,line in enumerate(lines):
+  for r in rows:
+   if r['module'] in updates and line.startswith('| '+r['module']+' '):
+    cells=line.split('|')
+    cells[2]=' '+r['status']+' ';cells[3]=' '+r['next_action']+' '
+    cells[5]=' [Relatorio](../'+evidence+') '
+    lines[i]='|'.join(cells)
+ (HERE/'Andamento_20_moveis.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+ print(json.dumps({'updated_modules':list(updates),'preserved_other_modules':20-len(updates)}))
+ sys.exit(0)
 g=json.loads((HERE/'Geometria_R50.json').read_text(encoding='utf-8'))
 c=json.loads((HERE/'Contatos_reconciliados.json').read_text(encoding='utf-8'))
 def out(name,rows):
@@ -28,6 +81,7 @@ status.update({
  'P13':('Geometria do apoio aberto do micro inventariada','Confrontar massa/apoiamento do aparelho com chapa, ligacoes e caminho para o corpo; preservar ventilacao e acesso'),
  'P18':('Fichas e gabinete nominal; referencias de acesso ocultadas na vista normal','Dimensionar caixa/suspensao e encontros da cuba, frente removivel/correr e manutencao; materiais reais e pontos do imovel depois'),
  'P19':('Geometria/fichas do armario espelhado e ferragens existentes','Completar massa real de folhas/espelhos e ligacoes da caixa/suspensao; confirmar apoio/fixacao sem assumir resistencia da parede')})
+status.update(ROUPEIRO)
 # Responsaveis sao propostos, nao contratados. Prazo e bloco planejado, nao garantia.
 meta={
  'P01':('Projeto; produto/oficina','25-27/10','P01_massas_equilibrio_2026-10-25/README.md'),
@@ -51,6 +105,8 @@ meta={
  'P19':('Projeto; produto/oficina','28/10','Cargas_e_ligacoes_R50_2026-10-25/README.md'),
  'P20':('Projeto; produto/oficina; Elias; prototipo','27/10','P20_assento_fechado_2026-10-25/README.md')}
 assert len(meta)==len(status)==20
+for code in ROUPEIRO:
+ owner,planned,_=meta[code];meta[code]=(owner,planned,EVIDENCIA_ROUPEIRO)
 rows=[]
 for code,mod in g['modules'].items():
  st,task=status.get(code,('Geometria inventariada; contatos da fila conferidos quando existentes','Dimensionar ligacoes por lote do plano; conferir apoios, conector e acesso'))

@@ -74,6 +74,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Próximos passos
 
+**Controle de25/10 consolidado em26/10:** [matriz20/20](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) revisada; T01 documental concluída. T02/T03 continuam parciais: juntas/suspensão, composiçãoP15 e caixa superiorP01/P03. P04 tem pacote de laboratório, sem ensaios; P17/P12 exigem implantação da suspensão. Decisões de uso/acabamento e verificações do imóvel seguem identificadas. Dia26 em andamento; integração30 e conferência31 preservadas.
+
 1. **Antes das chaves:** seguir o [plano até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md); concluir as luminárias na [lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); pedir orçamentos de marcenaria quando o pacote sair da espera; contratar o responsável técnico e enviar os [e-mails preparados](01_Programa_e_decisoes/Rascunhos_emails.md).
 2. **No dia das chaves:** [roteiro do dia das chaves](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.

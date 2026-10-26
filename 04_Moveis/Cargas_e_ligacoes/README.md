@@ -8,6 +8,10 @@
 
 Os valores abaixo são **resultados de modelos nominais**, com materiais e juntas condicionais. Não constituem carga de uso liberada ou autorização de fabricação. Medidas finais e ancoragens no apartamento continuam separadas do trabalho que pode avançar agora.
 
+## Controle vigente
+
+[Matriz20/20](Andamento_20_moveis.md) consolidada em26/10: controle25/10 e T01 documentais concluídos; T02/T03 parciais. LoteB atualizado; P04 preparado para laboratório, sem ensaios. Regerar: `python -B ferramentas/consolidar_matriz.py`. Estudos históricos abaixo preservados.
+
 ## Entregas desta rodada
 
 | Frente | Resultado concreto | Próxima condição a resolver |
@@ -137,4 +141,4 @@ Com Python e NumPy, executar nesta pasta: `python calcular.py --placas`. Usa as 
 4. P01 varões e P20: obter cotas de montagem e componentes exatos, concluir os envelopes nominais e o roteiro de ensaio. Dados faltantes estão nas perguntas técnicas preparadas.
 5. Completar os mapas dos outros móveis por prioridade e reconciliar os 52 Minifix já existentes, sem duplicar os conjuntos.
 
-As etapas acima são trabalho de projeto/produto/oficina. Parede real, instalações ocultas, prumo/esquadro e vãos acabados ficam para o levantamento do apartamento. T01/T02 avançaram, mas não foram encerradas integralmente; T03 começa com o estudo nominal P01 e as solicitações dos demais conjuntos.
+As etapas acima são trabalho de projeto/produto/oficina. Parede real, instalações ocultas, prumo/esquadro e vãos acabados ficam para o levantamento do apartamento. T01 documental foi consolidada em26/10; T02/T03 continuam parciais, com mapas nominais dos lotesA/B e condições físicas explícitas na matriz vigente.

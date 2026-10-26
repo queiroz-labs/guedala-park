@@ -10,3 +10,5 @@
 | [Plano_execucao_ate_31_10.md](Plano_execucao_ate_31_10.md) | Plano de trabalho diário até 31/10/2026 |
 
 Valores antigos nos documentos são históricos quando divergem do Orcamento_R43. Nada foi contratado ou comprado.
+
+Controle de25/10 consolidado em26/10 no plano: matriz20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia26 em andamento. Reserva de30–31/10 mantida para integração e conferência.

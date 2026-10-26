@@ -8,6 +8,8 @@ O resultado pretendido é um projeto nominal consistente e fácil de continuar: 
 
 **Execução em 25/10:** entregue a R50 completa otimizada, preservando os 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. Em seguida foi executado o [primeiro ciclo de cargas e ligações](../04_Moveis/Cargas_e_ligacoes/README.md): 146 contatos reconciliados, encontros especiais P02/P01/P20 conferidos, cálculos P15/P04/P01/P20 e estudo separado de duas prateleiras723 do roupeiro, mantendo a decisão P11 sem tubos. Onze verificações numéricas passaram. T01/T02 seguem parciais: faltam mapas completos, deformação da caixa, juntas e suspensão; T03 iniciou com o estudo nominal P01. A R50 principal não foi modificada.
 
+**Fechamento documental de25/10, registrado em26/10:** matriz20/20 revisada, com próxima ação, responsável proposto e evidência. T01 concluída no critério de revisão da matriz; T02/T03 continuam condicionadas a juntas, suspensão e detalhes restantes. P01/P20 iniciados; P11/P15/P04 desenvolvidos, consultas preparadas e não enviadas. LoteB tem metas20/10/10kg e mapas reconciliados; P04 tem quatro acessosSW4 nominais e pacote para laboratório, sem ensaio físico. Pendências pessoais, de projeto, produto/oficina e imóvel estão separadas na [matriz](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md). Preservar30–31 para integração/conferência.
+
 ## 1. Ponto de partida
 
 O primeiro ciclo mantém10 verificações vigentes após cancelar a alternativa tubular; o registro de11 acima descreve a rodada histórica anterior à decisão. As continuações e verificações próprias estão nos relatórios datados.
@@ -38,6 +40,19 @@ Há estudos em andamento em outros chats. Especialmente no P11, o cálculo de um
 
 O caminho principal é: **base confiável → cargas e apoios → ligações e mecanismos → CAD e fichas → quantitativos e orçamento → pacote conferido**. Registrar as decisões pessoais cedo para não refazer os últimos passos.
 
+### Sequência de execução após a retomada de25/10
+
+| Frente | Situação verificável | Próxima ação |
+|---|---|---|
+| T01/base e correção transversalT06 | Matriz20/20 consolidada; T01 documental concluída. Corte e acabamentos continuam emT06 | ResolverP13 e demais padrões/constituições porID; agrupamento virtual não autoriza compra/corte |
+| T02/T03, loteA: P11/P15/P09 | [Apoio e caixa](../04_Moveis/Aereos_suspensao/README.md):faixas18×60 existentes e4176reações3D;8casos de corpo de prova fundo inteiro/duas laterais. Bigfer≈60mL/par continua candidata;sem CAD alterado | Medir contato/centro reais,provar juntas/fundo e retenção;solução de norma mínima não dimensiona parafusos. Método/capacidadeBigfer,composiçãoP15 e abasP09 continuam pendentes. Sem trocar ensaio por varredura |
+| T02/T03, loteB: P04/P12/P17 | Metas20/10/10kg emP17/P04/P12;585casos e60Minifix. P04:quatro acessosSW4 e suspensão nominais; pacote de laboratório preparado | ExecutarT0/P04 e caracterizar juntas/suspensão; detalhar suspensãoP17/P12. Produto, contatos e parede real pendentes |
+| T03/T05, P01/P03/P02 | C01/soco e malas estudados; caixa superior ainda flexível e dados físicos pendentes | Resolver rigidez/usoP02 e produto/juntas/ferragens, fundoP01 e nivelamento. AplicaçãoCAD segue condicionada |
+| T04/T05, 27–28/10 | Banco/cesto e interfaces de gavetas/equipamentos têm estudos e roteiro | Completar montagem nominal/ensaio e perguntas de produto; preservar correções existentes |
+| T06–T09, 29–31/10 | Preparação comercial/documental e integração ainda parciais | Materiais/quantitativos/orçamento até29; regeneração coerente30; conferência/correções/entrega31 |
+
+As datas da agenda não certificam conclusão. Um bloco travado em dado externo termina com requisito/consulta/ensaio preparados e segue para tarefa independente, mantendo a condição visível. Mensagens, compras e incorporação de alternativas não estão presumidas por esta sequência.
+
 ## 3. Agenda diária
 
 Planejar dois a três blocos de trabalho técnico por dia, de 60–90 minutos cada, ajustando ao rendimento real. São estimativas de organização, não duração garantida de chamadas de IA. A revisão de Elias acontece nesses blocos e ao final do dia; não representa horas adicionais obrigatórias.
@@ -60,6 +75,8 @@ Planejar dois a três blocos de trabalho técnico por dia, de 60–90 minutos ca
 As tarefas abaixo são planejadas. A existência deste plano não marca sua execução como concluída.
 
 ### T01 — Base e controle de pendências | P0 | 25/10
+
+**Fechamento em26/10:**20/20 móveis revisados na matriz; critério documental atendido. Não encerra cálculo, ensaio ou detalhamentoT02–T07. Inventário146 permanece a amostra histórica, não cobertura de todas as ligações atuais.
 
 - Consolidar os 20 móveis e os complementos numa matriz com: item, pendência, origem, ação, responsável proposto, dependência, prazo e evidência de encerramento.
 - Reconciliar os 146 contatos da amostra com a R49 ou sucessora, incluindo o P02 e qualquer ligação fora da amostra. Reaproveitar os 52 conjuntos Minifix já documentados sem duplicação.
@@ -208,7 +225,7 @@ O plano original organizava sessões iniciadas pelo usuário. A execução encer
 
 Não usar uma porcentagem única de “projeto pronto”: desenho, protótipo, preço e aprovação são coisas diferentes. Registrar estes resultados separadamente:
 
-- [ ] 20/20 móveis revisados na matriz, com pendência e próxima ação claras.
+- [x] 20/20 móveis revisados na matriz em26/10, com pendência e próxima ação claras; manter atualizada até31/10.
 - [ ] Cinco frentes de carga prioritárias documentadas: P11, P15, P04, P01 e P20; registrar quais ficaram condicionadas.
 - [ ] Todos os contatos inventariados classificados; informar quantos têm solução, quantos foram incorporados e quantos continuam sem detalhamento.
 - [ ] Banco e cesto com montagem nominal e roteiro de ensaio; resultados físicos identificados como feitos ou pendentes.
@@ -234,8 +251,8 @@ Preencher ao encerrar cada dia. “Concluído” exige o critério de aceite da 
 | Data | Resultado e arquivo | Verificação | Bloqueio e responsável | Primeira ação seguinte |
 |---|---|---|---|---|
 | 24/10 | Plano de execução criado | Links locais e estrutura conferidos na entrega | Execução técnica ainda planejada | T01 e consolidação das conclusões P11 |
-| 25/10 | Entregas e retomada da madrugada: R51, cargas/ligacoes, banco/cesto, bancada/gavetas, quantitativos separados e matriz dos20moveis | Conferencias nativas/numericas por frente, source R51/R50 preservadas,5833objetos/7702expressoes e manifesto de integridade | Caixa/juntas/material/produto/prototipo e revisao das propostas visiveis; parede/piso reais depois das chaves. Janela ate07h | Priorizar caixaP01/P03, composicaoP15 e tampo/ligacoes da bancada; usar perguntas e evidencias prontas |
-| 26/10 | A preencher | A preencher | A preencher | A preencher |
+| 25/10 | Fechamento documental registrado em26/10: [matriz20/20](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md); P11 consolidado, P15/P04 desenvolvidos, P01/P20 iniciados; loteA/B e consultas locais preparados; R52 preservada | Memórias e conferências referenciadas por móvel; não equivalem a ensaios. Roupeiro1728 casos condicionais e corte249IDs/215incluídos/34excluídos permanecem estudos | Projeto: rigidez superiorP01/P03, mapas restantes; produto/oficina: juntas, composiçãoP15, suspensão; Elias: cargaP02, aparência e acabamentos; RT/imóvel: contatos, piso e parede | T02/T03: qualificar juntas/suspensão e preparar execução físicaP04; avançar implantaçãoP17/P12 sem esperar genericamente pela Bigfer |
+| 26/10 | Em andamento: consolidação da matriz e registro de25/10; pacoteP04 para marcenaria/laboratório indexado | Conferência documental20/20; registros físicosP04 continuam NAO_EXECUTADO | Definir protocolo/replicação e executar com oficina/laboratório; resultados físicos ausentes | RetomarT02/T03 pelos acessosT0/P04 e suspensãoP17/P12; dia26 ainda não encerrado |
 | 27/10 | A preencher | A preencher | A preencher | A preencher |
 | 28/10 | A preencher | A preencher | A preencher | A preencher |
 | 29/10 | A preencher | A preencher | A preencher | A preencher |
