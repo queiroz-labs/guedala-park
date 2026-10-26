@@ -4,7 +4,7 @@
 
 **Resultado principal:** é possível desenhar um caminho nominal de apoio em marcenaria mantendo o tampo de 2.000 × 700 × 30 mm, as gavetas e a entrada frontal da cadeira. Porém, trocar apenas os pés não encerra a deformação do tampo: o material/composição de 30 mm e a retenção ao restante da mesa precisam ser resolvidos. Não foi liberada carga real de uso.
 
-**Continuação25/10:** [curso das gavetas e estabilidade](../P16/Gavetas_estabilidade/README.md). As caixas varridas de16 peças móveis ficaram separadas em18.480 pares no curso400; telescópio real das guias continua fora desse teste.1296 cenários distinguem bancada ligada e pedestal independente: massa/composição do tampo e juntas positivas são condições de estabilidade. Não repetir a triagem básica; fechar componentes e ligações efetivos.
+**Continuação 25/10:** [curso das gavetas e estabilidade](../P16/Gavetas_estabilidade/README.md). As caixas varridas de 16 peças móveis ficaram separadas em 18.480 pares no curso 400; telescópio real das guias continua fora desse teste. 1296 cenários distinguem bancada ligada e pedestal independente: massa/composição do tampo e juntas positivas são condições de estabilidade. Não repetir a triagem básica; fechar componentes e ligações efetivos.
 
 ![Estudo parcial da bancada, apoios novos em verde e tampo semitransparente para leitura](Bancada_marcenaria_estudo.png)
 

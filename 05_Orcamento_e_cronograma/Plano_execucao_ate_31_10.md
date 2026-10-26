@@ -6,17 +6,17 @@ Preparado em 24/10/2026. Prazo de organização: **31/10/2026, horário de São 
 
 O resultado pretendido é um projeto nominal consistente e fácil de continuar: modelo, fichas, especificações, orçamento e instruções concordando entre si. Como o apartamento ainda não foi entregue, medidas finais, ancoragens no imóvel e liberação de fabricação continuarão condicionadas. O prazo é de preparação do projeto, não de execução da obra.
 
-**Execução em 25/10:** entregue a R50 completa otimizada, preservando os 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. Em seguida foi executado o [primeiro ciclo de cargas e ligações](../04_Moveis/Cargas_e_ligacoes/README.md): 146 contatos reconciliados, encontros especiais P02/P01/P20 conferidos, cálculos P15/P04/P01/P20 e estudo separado de duas prateleiras723 do roupeiro, mantendo a decisão P11 sem tubos. Onze verificações numéricas passaram. T01/T02 seguem parciais: faltam mapas completos, deformação da caixa, juntas e suspensão; T03 iniciou com o estudo nominal P01. A R50 principal não foi modificada.
+**Execução em 25/10:** entregue a R50 completa otimizada, preservando os 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. Em seguida foi executado o [primeiro ciclo de cargas e ligações](../04_Moveis/Cargas_e_ligacoes/README.md): 146 contatos reconciliados, encontros especiais P02/P01/P20 conferidos, cálculos P15/P04/P01/P20 e estudo separado de duas prateleiras 723 do roupeiro, mantendo a decisão P11 sem tubos. Onze verificações numéricas passaram. T01/T02 seguem parciais: faltam mapas completos, deformação da caixa, juntas e suspensão; T03 iniciou com o estudo nominal P01. A R50 principal não foi modificada.
 
-**Fechamento documental de25/10, registrado em26/10:** matriz20/20 revisada, com próxima ação, responsável proposto e evidência. T01 concluída no critério de revisão da matriz; T02/T03 continuam condicionadas a juntas, suspensão e detalhes restantes. P01/P20 iniciados; P11/P15/P04 desenvolvidos, consultas preparadas e não enviadas. LoteB tem metas20/10/10kg e mapas reconciliados; P04 tem quatro acessosSW4 nominais e pacote para laboratório, sem ensaio físico. Pendências pessoais, de projeto, produto/oficina e imóvel estão separadas na [matriz](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md). Preservar30–31 para integração/conferência.
+**Fechamento documental de 25/10, registrado em 26/10:** matriz 20/20 revisada, com próxima ação, responsável proposto e evidência. T01 concluída no critério de revisão da matriz; T02/T03 continuam condicionadas a juntas, suspensão e detalhes restantes. P01/P20 iniciados; P11/P15/P04 desenvolvidos, consultas preparadas e não enviadas. Lote B tem metas 20/10/10 kg e mapas reconciliados; P04 tem quatro acessos SW4 nominais e pacote para laboratório, sem ensaio físico. Pendências pessoais, de projeto, produto/oficina e imóvel estão separadas na [matriz](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md). Preservar 30–31 para integração/conferência.
 
-**Banco/cesto, 26/10:** [P20 aberto](../04_Moveis/P20/Assento_fechado/README.md) com seis equilíbrios e interfaces; [P14 montagem](../04_Moveis/P14/Reacoes_e_operacao/README.md) com casos simultâneos, corte axial a definir e oito registros para oficina. Próximo passo: obter desenhos completos da trava/piano/pivô e completar as ligações com componentes reais. Roteiros preparados; oficina indisponível e consultas não enviadas. T04/T05 continuam condicionados, sem ensaio nem alteraçãoR52.
+**Banco/cesto, 26/10:** [P20 aberto](../04_Moveis/P20/Assento_fechado/README.md) com seis equilíbrios e interfaces; [P14 montagem](../04_Moveis/P14/Reacoes_e_operacao/README.md) com casos simultâneos, corte axial a definir e oito registros para oficina. Próximo passo: obter desenhos completos da trava/piano/pivô e completar as ligações com componentes reais. Roteiros preparados; oficina indisponível e consultas não enviadas. T04/T05 continuam condicionados, sem ensaio nem alteração R52.
 
 ## 1. Ponto de partida
 
-O primeiro ciclo mantém10 verificações vigentes após cancelar a alternativa tubular; o registro de11 acima descreve a rodada histórica anterior à decisão. As continuações e verificações próprias estão nos relatórios datados.
+O primeiro ciclo mantém 10 verificações vigentes após cancelar a alternativa tubular; o registro de 11 acima descreve a rodada histórica anterior à decisão. As continuações e verificações próprias estão nos relatórios datados.
 
-**Continuação autorizada em25/10 até07:00 de hoje, America/Sao_Paulo:** registro de execução e retomada. Retomadas neste mesmo chat até o prazo, com fechamento às7h. **Regra de projeto:** sem tubos sustentando chapas; qualquer proposta futura exige autorização prévia de Elias. Alternativas tubulares canceladas, inclusive estudo oculto da bancada retirado na R51. Estudos vigentes de marcenaria: [P15/P04](../04_Moveis/Ligacoes_sem_tubos/README.md) e P01_723 separado; nenhum foi incorporado silenciosamente ao modelo completo.
+**Continuação autorizada em 25/10 até 07: 00 de hoje, America/Sao_Paulo:** registro de execução e retomada. Retomadas neste mesmo chat até o prazo, com fechamento às 7h. **Regra de projeto:** sem tubos sustentando chapas; qualquer proposta futura exige autorização prévia de Elias. Alternativas tubulares canceladas, inclusive estudo oculto da bancada retirado na R51. Estudos vigentes de marcenaria: [P15/P04](../04_Moveis/Ligacoes_sem_tubos/README.md) e P01_723 separado; nenhum foi incorporado silenciosamente ao modelo completo.
 
 | Frente | O que já existe | Trabalho restante nesta semana |
 |---|---|---|
@@ -42,20 +42,20 @@ Há estudos em andamento em outros chats. Especialmente no P11, o cálculo de um
 
 O caminho principal é: **base confiável → cargas e apoios → ligações e mecanismos → CAD e fichas → quantitativos e orçamento → pacote conferido**. Registrar as decisões pessoais cedo para não refazer os últimos passos.
 
-### Sequência de execução após a retomada de25/10
+### Sequência de execução após a retomada de 25/10
 
 | Frente | Situação verificável | Próxima ação |
 |---|---|---|
-| T01/base e correção transversalT06 | Matriz20/20 consolidada; T01 documental concluída. Corte e acabamentos continuam emT06 | ResolverP13 e demais padrões/constituições porID; agrupamento virtual não autoriza compra/corte |
-| T02/T03, loteA: P11/P15/P09 | [Apoio e caixa](../04_Moveis/Aereos_suspensao/README.md):faixas18×60 existentes e4176reações3D;8casos de corpo de prova fundo inteiro/duas laterais. Bigfer≈60mL/par continua candidata;sem CAD alterado | Medir contato/centro reais,provar juntas/fundo e retenção;solução de norma mínima não dimensiona parafusos. Método/capacidadeBigfer,composiçãoP15 e abasP09 continuam pendentes. Sem trocar ensaio por varredura |
-| T02/T03, loteB: P04/P12/P17 | Metas20/10/10kg; P04:acessosSW4 e pacote de laboratório. P17/P12:implantações candidatas,990equilíbrios/1980vetores,12casos de qualificação;calços/acessos conferidos | QualificarBigfer/fixadores/ferramentaØ12 auxiliar e juntas/caixa;executarT0/P04. Contatos inferiores/parede reais pendentes;sem capacidade demonstrada |
-| T03/T05, P01/P03/P02 | C01/soco e malas estudados; caixa superior ainda flexível e dados físicos pendentes | Resolver rigidez/usoP02 e produto/juntas/ferragens, fundoP01 e nivelamento. AplicaçãoCAD segue condicionada |
+| T01/base e correção transversal T06 | Matriz 20/20 consolidada; T01 documental concluída. Corte e acabamentos continuam em T06 | Resolver P13 e demais padrões/constituições por ID; agrupamento virtual não autoriza compra/corte |
+| T02/T03, lote A: P11/P15/P09 | [Apoio e caixa](../04_Moveis/Aereos_suspensao/README.md): faixas 18×60 existentes e 4176 reações 3D; 8 casos de corpo de prova fundo inteiro/duas laterais. Bigfer≈60 mL/par continua candidata; sem CAD alterado | Medir contato/centro reais, provar juntas/fundo e retenção; solução de norma mínima não dimensiona parafusos. Método/capacidade Bigfer, composição P15 e abas P09 continuam pendentes. Sem trocar ensaio por varredura |
+| T02/T03, lote B: P04/P12/P17 | Metas 20/10/10 kg; P04: acessos SW4 e pacote de laboratório. P17/P12: implantações candidatas, 990 equilíbrios/1980 vetores, 12 casos de qualificação; calços/acessos conferidos | Qualificar Bigfer/fixadores/ferramenta Ø12 auxiliar e juntas/caixa; executar T0/P04. Contatos inferiores/parede reais pendentes; sem capacidade demonstrada |
+| T03/T05, P01/P03/P02 | C01/soco e malas estudados; caixa superior ainda flexível e dados físicos pendentes | Resolver rigidez/uso P02 e produto/juntas/ferragens, fundo P01 e nivelamento. Aplicação CAD segue condicionada |
 | T04/T05, 27–28/10 | Banco/cesto e interfaces de gavetas/equipamentos têm estudos e roteiro | Completar montagem nominal/ensaio e perguntas de produto; preservar correções existentes |
-| T06–T09, 29–31/10 | Preparação comercial/documental e integração ainda parciais | Materiais/quantitativos/orçamento até29; regeneração coerente30; conferência/correções/entrega31 |
+| T06–T09, 29–31/10 | Preparação comercial/documental e integração ainda parciais | Materiais/quantitativos/orçamento até 29; regeneração coerente 30; conferência/correções/entrega 31 |
 
 As datas da agenda não certificam conclusão. Um bloco travado em dado externo termina com requisito/consulta/ensaio preparados e segue para tarefa independente, mantendo a condição visível. Mensagens, compras e incorporação de alternativas não estão presumidas por esta sequência.
 
-**Avanço26/10 — T02/T03:** [P17](../04_Moveis/P17/Base_fundo_ligacoes/README.md):21grupos/70posições; [P12](../04_Moveis/P12/README.md):9grupos/21posições;30cortes por móvel,2.625pares de envelopes e montagem/acessos nominais conferidos. Produto,rigidez,referência superior e ensaios continuam pendentes. T0/P04:pacote reconferido;Elias,26/10:“Ainda não; deixar o roteiro pronto”,sobre oficina/material. Manter sem medições preenchidas e avançarT04 enquanto aguarda a execução física.
+**Avanço 26/10 — T02/T03:** [P17](../04_Moveis/P17/Base_fundo_ligacoes/README.md): 21 grupos/70 posições; [P12](../04_Moveis/P12/README.md): 9 grupos/21 posições; 30 cortes por móvel, 2.625 pares de envelopes e montagem/acessos nominais conferidos. Produto, rigidez, referência superior e ensaios continuam pendentes. T0/P04: pacote reconferido; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Manter sem medições preenchidas e avançar T04 enquanto aguarda a execução física.
 
 ## 3. Agenda diária
 
@@ -80,7 +80,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T01 — Base e controle de pendências | P0 | 25/10
 
-**Fechamento em26/10:**20/20 móveis revisados na matriz; critério documental atendido. Não encerra cálculo, ensaio ou detalhamentoT02–T07. Inventário146 permanece a amostra histórica, não cobertura de todas as ligações atuais.
+**Fechamento em 26/10:**20/20 móveis revisados na matriz; critério documental atendido. Não encerra cálculo, ensaio ou detalhamento T02–T07. Inventário 146 permanece a amostra histórica, não cobertura de todas as ligações atuais.
 
 - Consolidar os 20 móveis e os complementos numa matriz com: item, pendência, origem, ação, responsável proposto, dependência, prazo e evidência de encerramento.
 - Reconciliar os 146 contatos da amostra com a R49 ou sucessora, incluindo o P02 e qualquer ligação fora da amostra. Reaproveitar os 52 conjuntos Minifix já documentados sem duplicação.
@@ -91,18 +91,18 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T02 — Cargas, apoios e suspensão | P0 | 25–26/10
 
-**P04, coerência25/10:** eixos individuais nativos conferidos. A continuação separa as duas chapas do divisor e usa869,5/300=2,898mm; o primeiro ciclo usou centro do grupo878,5/300=2,928. Flecha1,523mm preservada. Corrigida a descrição de rigidez porposição/grupo no cálculo/roteiro, sem transformar requisito em capacidade de produto. [Auditoria](../04_Moveis/Ligacoes_sem_tubos/P04_auditoria_referencias.json).
+**P04, coerência 25/10:** eixos individuais nativos conferidos. A continuação separa as duas chapas do divisor e usa 869,5/300=2,898 mm; o primeiro ciclo usou centro do grupo 878,5/300=2,928. Flecha 1,523 mm preservada. Corrigida a descrição de rigidez por posição/grupo no cálculo/roteiro, sem transformar requisito em capacidade de produto. [Auditoria](../04_Moveis/Ligacoes_sem_tubos/P04_auditoria_referencias.json).
 
-**P15, composição parcial25/10:** [modelo contínuo da interface](../04_Moveis/P15/Composicao_parcial/README.md),16 respostas, cinco conferências e refinamento de cisalhamento. Recupera os limites sem ação composta/integral e quantifica hipóteses intermediárias, sem atribuir rigidez a produto. TitebondMelamine excluída da sustentação por limitação expressa; produto/processo/ensaio e caixa continuam necessários.
+**P15, composição parcial 25/10:** [modelo contínuo da interface](../04_Moveis/P15/Composicao_parcial/README.md),16 respostas, cinco conferências e refinamento de cisalhamento. Recupera os limites sem ação composta/integral e quantifica hipóteses intermediárias, sem atribuir rigidez a produto. TitebondMelamine excluída da sustentação por limitação expressa; produto/processo/ensaio e caixa continuam necessários.
 
-**P01, continuação25/10:** [massas simultâneas e equilíbrio](../04_Moveis/P01/Massas_equilibrio/README.md),4608 combinações/72 envelopes. A800, madeirasP01+P03+soco+723 somam315,9kg sem acessórios/conteúdo. Área nominal total0,270720m² inclui laterais originais; oito contatos superiores P01–P03/P02 conferidos. Massa de ferragens e partilha/caminhos da caixa superior continuam pendentes; cálculo rígido não substitui juntas, retenção ou piso real.
+**P01, continuação 25/10:** [massas simultâneas e equilíbrio](../04_Moveis/P01/Massas_equilibrio/README.md),4608 combinações/72 envelopes. A800, madeiras P01+P03+soco+723 somam 315,9 kg sem acessórios/conteúdo. Área nominal total 0,270720 m² inclui laterais originais; oito contatos superiores P01–P03/P02 conferidos. Massa de ferragens e partilha/caminhos da caixa superior continuam pendentes; cálculo rígido não substitui juntas, retenção ou piso real.
 
 - Reaproveitar o cálculo P11; avaliar a contribuição do fundo e das uniões antes de concluir pela necessidade de reforço.
 - Desenvolver P15, P04, prateleiras/varões P01 e tampas/apoios P20. Reutilizar rotinas de cálculo com entradas, unidades e hipóteses explícitas.
 
-**Avanço25/10, suspensãoP04/P15:** [caixa inteira e portas abertas](../04_Moveis/P04/Suspensao_P04_P15/README.md),660 casos e72 envelopes de V/T/momento. Massas dos reforços incluídas; movimentos de quatro barras reutilizados sem alterar a R51. Resultantes são requisitos paramétricos, não fixadores/furos, produto escolhido ou capacidade da parede. Depende de produto/oficina e depois substrato real.
+**Avanço 25/10, suspensão P04/P15:** [caixa inteira e portas abertas](../04_Moveis/P04/Suspensao_P04_P15/README.md),660 casos e 72 envelopes de V/T/momento. Massas dos reforços incluídas; movimentos de quatro barras reutilizados sem alterar a R51. Resultantes são requisitos paramétricos, não fixadores/furos, produto escolhido ou capacidade da parede. Depende de produto/oficina e depois substrato real.
 
-**Ampliação25/10:** [P09/P11/P12/P17](../04_Moveis/Aereos_suspensao/README.md),1404 casos e48 envelopes, com a cinemática calculada fora doCAD. P09 ganhou dado primário de massa do depurador6,00 kg e identificação da folga nominal42 mm até a base: a montagem prevista no manual parede+gabinete e sua partilha ainda precisam ser demonstradas. Não acrescentar6 kg a um suspensor sem esse caminho de forças.
+**Ampliação 25/10:** [P09/P11/P12/P17](../04_Moveis/Aereos_suspensao/README.md),1404 casos e 48 envelopes, com a cinemática calculada fora do CAD. P09 ganhou dado primário de massa do depurador 6,00 kg e identificação da folga nominal 42 mm até a base: a montagem prevista no manual parede+gabinete e sua partilha ainda precisam ser demonstradas. Não acrescentar 6 kg a um suspensor sem esse caminho de forças.
 - Mostrar o caminho da carga até a caixa e sua suspensão. Separar resistência da chapa, conectores e fixação na parede.
 - Comparar no máximo duas soluções viáveis por problema; preservar armazenamento e aparência aprovados.
 
@@ -110,13 +110,13 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T03 — Ligações e detalhamento no CAD | P0 | 26–28/10
 
-**Preparação físicaP04,26/10/2026:** [pacote para marcenaria/laboratório](../04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf),conforme resposta de Elias em25/10:“Preparar para marcenaria/laboratório”. T0:cinco retalhos,oito Minifix,quatro acessos e sequênciaz→u;T1:juntas;T2:seis vetores de serviço;T3:caixa completa. Quinze linhas-modelo sem medições,nenhum ensaio executado. Oficina confirma processo,protocolo e instrumentos antes de cortar/aplicar carga;R52 preservada.
+**Preparação física P04,26/10/2026:** [pacote para marcenaria/laboratório](../04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf), conforme resposta de Elias em 25/10: “Preparar para marcenaria/laboratório”. T0: cinco retalhos, oito Minifix, quatro acessos e sequênciaz→u; T1: juntas; T2: seis vetores de serviço; T3: caixa completa. Quinze linhas-modelo sem medições, nenhum ensaio executado. Oficina confirma processo, protocolo e instrumentos antes de cortar/aplicar carga; R52 preservada.
 
-**LoteB em25/10/2026:** [P17→P04→P12](../04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12), respostas de Elias:“20 kg / 10 kg / 10 kg”,“Desenvolver os fundos inteiros” e base limpa.585casos/60Minifix;16entradas inferiores antigas a substituir. FundosP17/P04 preservam envelope/vãos,fitas inferiores Arenza/off-white. P04:4acessosSW4 curta resolvidos nominalmente;suporte esquerdo proposto no divisor18 após rejeitar canto externo;765equilíbrios3D/1530vetores,seis casos de qualificação. Juntas/rigidez,retenção,contatos inferiores e produto ainda sem prova física;R52 intacta.
+**Lote B em 25/10/2026:** [P17→P04→P12](../04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12), respostas de Elias: “20 kg / 10 kg / 10 kg”, “Desenvolver os fundos inteiros” e base limpa. 585 casos/60 Minifix; 16 entradas inferiores antigas a substituir. Fundos P17/P04 preservam envelope/vãos, fitas inferiores Arenza/off-white. P04: 4 acessos SW4 curta resolvidos nominalmente; suporte esquerdo proposto no divisor 18 após rejeitar canto externo; 765 equilíbrios 3D/1530 vetores, seis casos de qualificação. Juntas/rigidez, retenção, contatos inferiores e produto ainda sem prova física; R52 intacta.
 
-**P01/P03, caminho superior25/10:** [estudo separado traseiro](../04_Moveis/P01/Caminho_superior_P03/README.md) preserva vãos e envelope, acrescentando18 na altura do fundoP01 e18 para trás na baseP03. Quatro interfaces conferidas, sem interferências dos acréscimos. Seis modelos reduzidos convergentes excedem a referência: contato sozinho não libera a base18. Ação de caixa/topo/fundo/laterais, travessa frontal e juntas continuam como trabalho de projeto, sem atribuir a pendência às medidas do apartamento.
+**P01/P03, caminho superior 25/10:** [estudo separado traseiro](../04_Moveis/P01/Caminho_superior_P03/README.md) preserva vãos e envelope, acrescentando 18 na altura do fundo P01 e 18 para trás na base P03. Quatro interfaces conferidas, sem interferências dos acréscimos. Seis modelos reduzidos convergentes excedem a referência: contato sozinho não libera a base 18. Ação de caixa/topo/fundo/laterais, travessa frontal e juntas continuam como trabalho de projeto, sem atribuir a pendência às medidas do apartamento.
 
-**Avanço25/10, P17:** [estudo de fundo inteiro e ligações](../04_Moveis/P17/Base_fundo_ligacoes/README.md),16 contatos,58 posições nominais e11 casos de placa/caminhos axiais. Fundo514→550 separado preserva dimensões e vãos;20kg totais distribuídos/frontal dão0,863/1,336mm com reserva nas hipóteses adotadas. Juntas mais flexíveis excedem a referência. Comprovar produto/caixa, revisar acabamento/acesso e atualizar massa global antes de integrar; eixos não são CNC nem quantitativo adicional.
+**Avanço 25/10, P17:** [estudo de fundo inteiro e ligações](../04_Moveis/P17/Base_fundo_ligacoes/README.md),16 contatos, 58 posições nominais e 11 casos de placa/caminhos axiais. Fundo 514→550 separado preserva dimensões e vãos; 20 kg totais distribuídos/frontal dão 0,863/1,336 mm com reserva nas hipóteses adotadas. Juntas mais flexíveis excedem a referência. Comprovar produto/caixa, revisar acabamento/acesso e atualizar massa global antes de integrar; eixos não são CNC nem quantitativo adicional.
 
 - Seguir os lotes do plano técnico existente: A P11/P15/P09; B P04/P12/P17; C P01/P02; D P20; E demais encontros.
 - Definir conector, peças ligadas, origem de cotas, posições, profundidades e acesso de montagem. Conferir encontros pelos dois lados de divisórias de 18 mm.
@@ -127,9 +127,9 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T04 — Banco e cesto | P0 | 27/10
 
-**Avanço25/10:** [P20 fechado](../04_Moveis/P20/Assento_fechado/README.md):18 contatos reconciliados, cinco cenários de placa convergentes e levantamento de27 volumes. Massa permanente60kg histórica não é limite garantido; painel real/ortotropia, juntas e estabilidade pendentes. [Roteiro de protótipoP20/P14](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md) preparado; nenhum ensaio executado. Mecanismos continuam sujeitos a perfil/terminais/trava efetivos, sem encerrarT04.
+**Avanço 25/10:** [P20 fechado](../04_Moveis/P20/Assento_fechado/README.md): 18 contatos reconciliados, cinco cenários de placa convergentes e levantamento de 27 volumes. Massa permanente 60 kg histórica não é limite garantido; painel real/ortotropia, juntas e estabilidade pendentes. [Roteiro de protótipo P20/P14](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md) preparado; nenhum ensaio executado. Mecanismos continuam sujeitos a perfil/terminais/trava efetivos, sem encerrar T04.
 
-**P14, continuação25/10:** [reações dos pivôs e energia](../04_Moveis/P14/Reacoes_e_operacao/README.md),270 cenários3D e30 trajetórias. Identificados esforços reversos de retenção nos apoios e momentos de excentricidade; não basta dividir o peso por dois. Massa adicional, pivôs/buchas, terminais e engate efetivo seguem pendentes. Geometria e movimentos completos preservados, sem nova revisão do modelo.
+**P14, continuação 25/10:** [reações dos pivôs e energia](../04_Moveis/P14/Reacoes_e_operacao/README.md),270 cenários 3D e 30 trajetórias. Identificados esforços reversos de retenção nos apoios e momentos de excentricidade; não basta dividir o peso por dois. Massa adicional, pivôs/buchas, terminais e engate efetivo seguem pendentes. Geometria e movimentos completos preservados, sem nova revisão do modelo.
 
 - P20: fechar nominalmente eixo/apoio da dobradiça piano, terminais dos articuladores, trava, batentes, fixações e acesso para destravar. Preservar duas tampas, duas almofadas e armazenamento.
 - P14: fechar pivôs, limitadores a 55°, retenção e retirada do saco. Verificar operação cheio/vazio e acesso de manutenção.
@@ -139,9 +139,9 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T05 — Gavetas e interfaces dos ambientes | P0/P1 | 28/10
 
-**InterfaceP16, continuação25/10:** [18 regiões positivas localizadas](../04_Moveis/P16/Interface_guia_fundo/README.md):16 sob o fundo e duas junto ao furo traseiro direito. Cotas dos quatro furosØ6×10/eixo11 conferidas com desenhoG2; mesmo padrão4+5 na referência configurada. Causa funcional/regulagem e configuração individual400 continuam pendentes, com mapa/pergunta exata. Nenhum corte, deslocamento corretivo ou alteração do movimento foi aplicado.
+**Interface P16, continuação 25/10:** [18 regiões positivas localizadas](../04_Moveis/P16/Interface_guia_fundo/README.md): 16 sob o fundo e duas junto ao furo traseiro direito. Cotas dos quatro furos Ø6×10/eixo 11 conferidas com desenho G2; mesmo padrão 4+5 na referência configurada. Causa funcional/regulagem e configuração individual 400 continuam pendentes, com mapa/pergunta exata. Nenhum corte, deslocamento corretivo ou alteração do movimento foi aplicado.
 
-**Avanço25/10:** [P16, curso e estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md):18.480 pares de caixas varridas sem interseção com a proposta de bancada e64 entre gavetas independentes; guias telescópicas reais excluídas.1296 cenários de equilíbrio separam pedestal e bancada ligada; constituição/massa do tampo e juntas positivas continuam determinantes. Campo de altura da parede superior53→47 identificado e correção nominal preparada, sem alterar a R51. O conflito fundo/guia continua pendente.
+**Avanço 25/10:** [P16, curso e estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md): 18.480 pares de caixas varridas sem interseção com a proposta de bancada e 64 entre gavetas independentes; guias telescópicas reais excluídas. 1296 cenários de equilíbrio separam pedestal e bancada ligada; constituição/massa do tampo e juntas positivas continuam determinantes. Campo de altura da parede superior 53→47 identificado e correção nominal preparada, sem alterar a R51. O conflito fundo/guia continua pendente.
 
 - P01/P06: conferir caixas, recortes e engates da FGVTN 500 com documentação própria; não extrapolar o STEP de 400 mm.
 - P16: preservar a R49 e tratar a pequena sobreposição fundo/guia e o mapa de altura das guias conforme documentação e prova de oficina.
@@ -162,7 +162,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T07 — Orçamento e pacote para cotação | P1 | 29/10
 
-**Avanço25/10:** [quantitativos separados das sete propostas](../04_Moveis/Quantitativos/README.md),36 registros/11 substituições lidos dos BREP gravados. Área completa de fabricação, incremento líquido e massa hipotética separados; orçamento/lista-base preservados. FundoP01 atual/proposto não cabe em2750×1850; formato maior publicado em ficha de linha depende de padrão/faces/fornecimento. Nenhuma emenda automática ou quantidade de chapas de compra inferida pela área.
+**Avanço 25/10:** [quantitativos separados das sete propostas](../04_Moveis/Quantitativos/README.md),36 registros/11 substituições lidos dos BREP gravados. Área completa de fabricação, incremento líquido e massa hipotética separados; orçamento/lista-base preservados. Fundo P01 atual/proposto não cabe em 2750×1850; formato maior publicado em ficha de linha depende de padrão/faces/fornecimento. Nenhuma emenda automática ou quantidade de chapas de compra inferida pela área.
 
 - Consolidar a composição com os quantitativos resultantes de T03–T06. Usar a reconciliação de ferragens existente; incorporar Blum/calços/limitadores, Minifix e banco/cesto sem duplicar verbas.
 - Desdobrar a iluminação L02 nas linhas correspondentes; não somar seu total novamente ao orçamento.
@@ -183,11 +183,11 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T09 — Integração e continuidade com menos IA | P0 | 30–31/10
 
-**Fechamento25/10,07h:** janela noturna encerrada e automação pausada, com confirmação e registro. R51 completa preservada; estudos, matriz dos20 móveis, dados e quantitativos separados entregues para continuidade. Conferência final/cópia local pelo roteiro abaixo, sem transformar condições de produto/oficina/ensaio em itens concluídos.
+**Fechamento 25/10,07h:** janela noturna encerrada e automação pausada, com confirmação e registro. R51 completa preservada; estudos, matriz dos 20 móveis, dados e quantitativos separados entregues para continuidade. Conferência final/cópia local pelo roteiro abaixo, sem transformar condições de produto/oficina/ensaio em itens concluídos.
 
-**Preparação25/10:** entrada curta de retomada e manifesto/checagem leve, sem reabrirCAD ou recalcular placas. O snapshot inicial conferiu227 arquivos,5833 objetos/7702 expressões persistidasR51 e hashR50 histórico; atualizar somente após alterações conhecidas. Fechamento desta janela e pausa às07h no registro específico, sem declarar integração das propostas ao modelo/pacote publicado.
+**Preparação 25/10:** entrada curta de retomada e manifesto/checagem leve, sem reabrir CAD ou recalcular placas. O snapshot inicial conferiu 227 arquivos, 5833 objetos/7702 expressões persistidas R51 e hash R50 histórico; atualizar somente após alterações conhecidas. Fechamento desta janela e pausa às 07h no registro específico, sem declarar integração das propostas ao modelo/pacote publicado.
 
-**Avanço25/10:** [cinemática para cálculos sem abrir o FreeCAD](../ferramentas/cinematica/README.md) criada e validada contra528 poses nativas. Fotografia de867 células/24 folhas;22 visíveis na consulta normal. Recalcular522 CG leva cerca0,05 s localmente após carregar dados, sem alterar a R51. Facilita próximos estudos com menos IA; não substitui verificação de geometria/ferragens reais.
+**Avanço 25/10:** [cinemática para cálculos sem abrir o FreeCAD](../ferramentas/cinematica/README.md) criada e validada contra 528 poses nativas. Fotografia de 867 células/24 folhas; 22 visíveis na consulta normal. Recalcular 522 CG leva cerca 0,05 s localmente após carregar dados, sem alterar a R51. Facilita próximos estudos com menos IA; não substitui verificação de geometria/ferragens reais.
 
 - Regenerar fichas, site, caderno e pacote a partir das fontes; conferir revisões e links. Corrigir avisos de “vigente” que ainda apontem para R45/R44 em entradas antigas.
 - Rodar a verificação de consistência existente e as verificações pertinentes às alterações. Reabrir o FreeCAD salvo, o PDF e o ZIP; testar os acessos essenciais no computador e no celular.
@@ -208,7 +208,7 @@ Cada sessão começa com um resultado delimitado e termina com arquivos salvos, 
 
 Usar IA de maior capacidade para cálculos, diagnósticos, conflitos entre fontes e compatibilização. Usar scripts já conferidos para extrações, regeneração e validação repetitivas. Limitar pesquisa ao dado que falta; quando duas opções viáveis bastarem, apresentar recomendação e consequência concreta.
 
-O plano original organizava sessões iniciadas pelo usuário. A execução encerrada às07:00 de25/10 está registrada no controle específico. Essa autorização não agenda o restante da semana; novas etapas seguem as instruções atuais do projeto.
+O plano original organizava sessões iniciadas pelo usuário. A execução encerrada às 07: 00 de 25/10 está registrada no controle específico. Essa autorização não agenda o restante da semana; novas etapas seguem as instruções atuais do projeto.
 
 ## 6. Dependências e regras de corte
 
@@ -229,7 +229,7 @@ O plano original organizava sessões iniciadas pelo usuário. A execução encer
 
 Não usar uma porcentagem única de “projeto pronto”: desenho, protótipo, preço e aprovação são coisas diferentes. Registrar estes resultados separadamente:
 
-- [x] 20/20 móveis revisados na matriz em26/10, com pendência e próxima ação claras; manter atualizada até31/10.
+- [x] 20/20 móveis revisados na matriz em 26/10, com pendência e próxima ação claras; manter atualizada até 31/10.
 - [ ] Cinco frentes de carga prioritárias documentadas: P11, P15, P04, P01 e P20; registrar quais ficaram condicionadas.
 - [ ] Todos os contatos inventariados classificados; informar quantos têm solução, quantos foram incorporados e quantos continuam sem detalhamento.
 - [ ] Banco e cesto com montagem nominal e roteiro de ensaio; resultados físicos identificados como feitos ou pendentes.
@@ -255,8 +255,8 @@ Preencher ao encerrar cada dia. “Concluído” exige o critério de aceite da 
 | Data | Resultado e arquivo | Verificação | Bloqueio e responsável | Primeira ação seguinte |
 |---|---|---|---|---|
 | 24/10 | Plano de execução criado | Links locais e estrutura conferidos na entrega | Execução técnica ainda planejada | T01 e consolidação das conclusões P11 |
-| 25/10 | Fechamento documental registrado em26/10: [matriz20/20](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md); P11 consolidado, P15/P04 desenvolvidos, P01/P20 iniciados; loteA/B e consultas locais preparados; R52 preservada | Memórias e conferências referenciadas por móvel; não equivalem a ensaios. Roupeiro1728 casos condicionais e corte249IDs/215incluídos/34excluídos permanecem estudos | Projeto: rigidez superiorP01/P03, mapas restantes; produto/oficina: juntas, composiçãoP15, suspensão; Elias: cargaP02, aparência e acabamentos; RT/imóvel: contatos, piso e parede | T02/T03: qualificar juntas/suspensão e preparar execução físicaP04; avançar implantaçãoP17/P12 sem esperar genericamente pela Bigfer |
-| 26/10 | Em andamento: matriz20/20 e registro25/10; suspensãoP17/P12 implantada nominalmente, com fontes e consultas locais; pacote físicoP04 preparado | P17:765equilíbrios/1530vetores;P12:225/450,conferência independente;19verificações gerais sem atenção. Nenhum ensaio físico | Produto/oficina:Bigfer/fixadores/ferramenta,juntas/rigidez e contato inferior. Projeto:demais caminhos resistentes. Imóvel/RT:parede/ancoragens | Qualificar montagem e caixa dos aéreos;executar retalhoT0/P04 em oficina. Dia26 segue aberto;preservar agenda27–31 |
+| 25/10 | Fechamento documental registrado em 26/10: [matriz 20/20](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md); P11 consolidado, P15/P04 desenvolvidos, P01/P20 iniciados; lote A/B e consultas locais preparados; R52 preservada | Memórias e conferências referenciadas por móvel; não equivalem a ensaios. Roupeiro 1728 casos condicionais e corte 249 IDs/215 incluídos/34 excluídos permanecem estudos | Projeto: rigidez superior P01/P03, mapas restantes; produto/oficina: juntas, composição P15, suspensão; Elias: carga P02, aparência e acabamentos; RT/imóvel: contatos, piso e parede | T02/T03: qualificar juntas/suspensão e preparar execução física P04; avançar implantação P17/P12 sem esperar genericamente pela Bigfer |
+| 26/10 | Em andamento: matriz 20/20 e registro 25/10; suspensão P17/P12 implantada nominalmente, com fontes e consultas locais; pacote físico P04 preparado | P17: 765 equilíbrios/1530 vetores; P12: 225/450, conferência independente; 19 verificações gerais sem atenção. Nenhum ensaio físico | Produto/oficina: Bigfer/fixadores/ferramenta, juntas/rigidez e contato inferior. Projeto: demais caminhos resistentes. Imóvel/RT: parede/ancoragens | Qualificar montagem e caixa dos aéreos; executar retalho T0/P04 em oficina. Dia 26 segue aberto; preservar agenda27–31 |
 | 27/10 | A preencher | A preencher | A preencher | A preencher |
 | 28/10 | A preencher | A preencher | A preencher | A preencher |
 | 29/10 | A preencher | A preencher | A preencher | A preencher |
