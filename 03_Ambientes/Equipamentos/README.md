@@ -4,6 +4,18 @@ Escolhas de eletrodomésticos, todos em **127 V** (decisão de 12/09). Orçament
 
 Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-E211 FEH GN escolhido em F106, sem Wi-Fi adicional; instalação pendente. Os preços são históricos; as condições de instalação estão complementadas nos estudos da cozinha.
 
+## Lista de equipamentos — T06, 26/10/2026
+
+[Lista em CSV](Lista_equipamentos.csv): **48 linhas**, cobrindo os **50 pontos** da planta preliminar. Uma linha por modelo/função; conjuntos iguais indicam a quantidade. Equipamentos escolhidos, existentes, candidatos e itens sem modelo têm situação explícita. Louças, metais, iluminação e mecanismos de tomada entram para que nenhum ponto fique sem referência; isso não cria novas escolhas.
+
+O CSV separa dimensões do produto, encaixe, alimentação, potência, corrente informada pelo manual, folgas, manutenção, móvel receptor e interfaces. Dimensões em milímetros; fontes relativas à raiz, separadas por ` | `; pontos separados por `|`. Campo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não se calculou corrente por W/V. Reservas de estudo não são medidas do imóvel.
+
+- **ME23P:** manual vigente, p. 3, pede **30 cm acima**; F104, 12/09/2026, mantém o desejo de **10 cm**. Divergência conservada, sem solução técnica decidida. Laterais e traseira continuam com 10 cm. [Fonte local e decisão](Conferencia_127V_e_folgas.md).
+- **Versões históricas:** C10 da planta ainda escreve PE12G; a escolha vigente é PE11X. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
+- **Dados condicionados:** códigos dos aparelhos existentes, manuais dos metais, fixação/retirada e circuitos dependem de Elias (etiquetas), fabricante, projeto/oficina e RT. L04 lista apenas água fria, embora a Telca tenha requisito quente/fria: ramal a compatibilizar pelo RT. Manter também as divergências de plugue KE4GC, profundidade do Fischer e altura do Firefly registradas no CSV.
+
+**Retomada exata:** conferir as lacunas por equipamento com os documentos da unidade e etiquetas disponíveis; resolver a divergência superior do ME23P com fabricante/projeto e decisão de Elias, sem reduzir o manual por hipótese. Depois compatibilizar pontos, cortes de encaixe, ventilação e retirada com o RT/oficina. Lista documental entregue; T06 executivo continua condicionado.
+
 ## Documentos
 
 | Abrir | Conteúdo |
@@ -20,7 +32,7 @@ Consultar estudos anteriores. Os estudos não liberam fabricação ou instalaç�
 
 | Aparelho | Especificação vigente |
 |---|---|
-| Lava e seca LG VC4 | **127 V — CV5012WC4**; CV5012WC4A de 220 V deixa de ser alternativa de compra. |
+| Lava e seca LG VC4 | **127 V — CV5012PC4 Inox Look**, vigente em F160/F161; CV5012WC4 branca e CV5012WC4A de 220 V são referências históricas. Manual local da família CV501***4; conferir SKU entregue. |
 | Forno Fischer Infinity50 L com grill, sem turbo,28349-64929 — escolha19/10/2026 | **127 V**,2061 W/16,22 A; tomada20 A recomendada no manual, circuito ainda a conferir. |
 | Micro-ondas Electrolux ME23P | **127 V**. |
 | Depurador Suggar Slim de Embutir 60 cm inox | **127 V — DE61IX**; DE62IX de 220 V fica como referência histórica. |

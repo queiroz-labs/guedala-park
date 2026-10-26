@@ -40,7 +40,7 @@ O pacote R22 integra o pé-direito de teste e os estudos correntes; preserva a m
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
 | Anteprojeto | 75% | Faltam códigos de chapa, tons exatos e luminárias |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
-| Complementares | 30% | Planta de pontos preliminar; circuitos e traçados com o responsável técnico |
+| Complementares | 30% | T06: [lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv), 48 linhas e 50 pontos cobertos; versões, fontes, folgas e lacunas identificadas. Micro-ondas: 10 cm desejados versus 30 cm do manual, sem decisão técnica. Circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
 | Orçamento | 60% | R44: estimativa de execução R$ 137.748,11, excesso R$ 17.748,11 sobre teto de R$ 120 mil; reserva R$ 10 mil intocada. Metas separadas; marcenaria **em espera** |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
