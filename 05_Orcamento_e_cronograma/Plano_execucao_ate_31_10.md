@@ -6,17 +6,7 @@ Preparado em 24/10/2026. Prazo de organização: **31/10/2026, horário de São 
 
 O resultado pretendido é um projeto nominal consistente e fácil de continuar: modelo, fichas, especificações, orçamento e instruções concordando entre si. Como o apartamento ainda não foi entregue, medidas finais, ancoragens no imóvel e liberação de fabricação continuarão condicionadas. O prazo é de preparação do projeto, não de execução da obra.
 
-**Execução em 25/10:** entregue a R50 completa otimizada, preservando os 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. Em seguida foi executado o [primeiro ciclo de cargas e ligações](../04_Moveis/Cargas_e_ligacoes/README.md): 146 contatos reconciliados, encontros especiais P02/P01/P20 conferidos, cálculos P15/P04/P01/P20 e estudo separado de duas prateleiras 723 do roupeiro, mantendo a decisão P11 sem tubos. Onze verificações numéricas passaram. T01/T02 seguem parciais: faltam mapas completos, deformação da caixa, juntas e suspensão; T03 iniciou com o estudo nominal P01. A R50 principal não foi modificada.
-
-**Fechamento documental de 25/10, registrado em 26/10:** matriz 20/20 revisada, com próxima ação, responsável proposto e evidência. T01 concluída no critério de revisão da matriz; T02/T03 continuam condicionadas a juntas, suspensão e detalhes restantes. P01/P20 iniciados; P11/P15/P04 desenvolvidos, consultas preparadas e não enviadas. Lote B tem metas 20/10/10 kg e mapas reconciliados; P04 tem quatro acessos SW4 nominais e pacote para laboratório, sem ensaio físico. Pendências pessoais, de projeto, produto/oficina e imóvel estão separadas na [matriz](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md). Preservar 30–31 para integração/conferência.
-
-**Banco/cesto, 26/10:** [P20 aberto](../04_Moveis/P20/Assento_fechado/README.md) com seis equilíbrios e interfaces; [P14 montagem](../04_Moveis/P14/Reacoes_e_operacao/README.md) com casos simultâneos, corte axial a definir e oito registros para oficina. Próximo passo: obter desenhos completos da trava/piano/pivô e completar as ligações com componentes reais. Roteiros preparados; oficina indisponível e consultas não enviadas. T04/T05 continuam condicionados, sem ensaio nem alteração R52.
-
 ## 1. Ponto de partida
-
-O primeiro ciclo mantém 10 verificações vigentes após cancelar a alternativa tubular; o registro de 11 acima descreve a rodada histórica anterior à decisão. As continuações e verificações próprias estão nos relatórios datados.
-
-**Continuação autorizada em 25/10 até 07: 00 de hoje, America/Sao_Paulo:** registro de execução e retomada. Retomadas neste mesmo chat até o prazo, com fechamento às 7h. **Regra de projeto:** sem tubos sustentando chapas; qualquer proposta futura exige autorização prévia de Elias. Alternativas tubulares canceladas, inclusive estudo oculto da bancada retirado na R51. Estudos vigentes de marcenaria: [P15/P04](../04_Moveis/Ligacoes_sem_tubos/README.md) e P01_723 separado; nenhum foi incorporado silenciosamente ao modelo completo.
 
 | Frente | O que já existe | Trabalho restante nesta semana |
 |---|---|---|
@@ -42,7 +32,7 @@ Há estudos em andamento em outros chats. Especialmente no P11, o cálculo de um
 
 O caminho principal é: **base confiável → cargas e apoios → ligações e mecanismos → CAD e fichas → quantitativos e orçamento → pacote conferido**. Registrar as decisões pessoais cedo para não refazer os últimos passos.
 
-### Sequência de execução após a retomada de 25/10
+### Sequência de execução
 
 | Frente | Situação verificável | Próxima ação |
 |---|---|---|
@@ -54,8 +44,6 @@ O caminho principal é: **base confiável → cargas e apoios → ligações e m
 | T06–T09, 29–31/10 | Preparação comercial/documental e integração ainda parciais | Materiais/quantitativos/orçamento até 29; regeneração coerente 30; conferência/correções/entrega 31 |
 
 As datas da agenda não certificam conclusão. Um bloco travado em dado externo termina com requisito/consulta/ensaio preparados e segue para tarefa independente, mantendo a condição visível. Mensagens, compras e incorporação de alternativas não estão presumidas por esta sequência.
-
-**Avanço 26/10 — T02/T03:** [P17](../04_Moveis/P17/Base_fundo_ligacoes/README.md): 21 grupos/70 posições; [P12](../04_Moveis/P12/README.md): 9 grupos/21 posições; 30 cortes por móvel, 2.625 pares de envelopes e montagem/acessos nominais conferidos. Produto, rigidez, referência superior e ensaios continuam pendentes. T0/P04: pacote reconferido; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Manter sem medições preenchidas e avançar T04 enquanto aguarda a execução física.
 
 ## 3. Agenda diária
 
@@ -80,7 +68,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T01 — Base e controle de pendências | P0 | 25/10
 
-**Fechamento em 26/10:**20/20 móveis revisados na matriz; critério documental atendido. Não encerra cálculo, ensaio ou detalhamento T02–T07. Inventário 146 permanece a amostra histórica, não cobertura de todas as ligações atuais.
+**Situação em 26/10:** concluída no critério documental da [matriz 20/20](../04_Moveis/Cargas_e_ligacoes/README.md#controle-vigente); sem bloqueio para essa revisão. Cálculos, detalhamento e ensaios permanecem nas tarefas seguintes; os 146 contatos são amostra histórica.
 
 - Consolidar os 20 móveis e os complementos numa matriz com: item, pendência, origem, ação, responsável proposto, dependência, prazo e evidência de encerramento.
 - Reconciliar os 146 contatos da amostra com a R49 ou sucessora, incluindo o P02 e qualquer ligação fora da amostra. Reaproveitar os 52 conjuntos Minifix já documentados sem duplicação.
@@ -91,18 +79,11 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T02 — Cargas, apoios e suspensão | P0 | 25–26/10
 
-**P04, coerência 25/10:** eixos individuais nativos conferidos. A continuação separa as duas chapas do divisor e usa 869,5/300=2,898 mm; o primeiro ciclo usou centro do grupo 878,5/300=2,928. Flecha 1,523 mm preservada. Corrigida a descrição de rigidez por posição/grupo no cálculo/roteiro, sem transformar requisito em capacidade de produto. [Auditoria](../04_Moveis/Ligacoes_sem_tubos/P04_auditoria_referencias.json).
-
-**P15, composição parcial 25/10:** [modelo contínuo da interface](../04_Moveis/P15/Composicao_parcial/README.md),16 respostas, cinco conferências e refinamento de cisalhamento. Recupera os limites sem ação composta/integral e quantifica hipóteses intermediárias, sem atribuir rigidez a produto. TitebondMelamine excluída da sustentação por limitação expressa; produto/processo/ensaio e caixa continuam necessários.
-
-**P01, continuação 25/10:** [massas simultâneas e equilíbrio](../04_Moveis/P01/Massas_equilibrio/README.md),4608 combinações/72 envelopes. A800, madeiras P01+P03+soco+723 somam 315,9 kg sem acessórios/conteúdo. Área nominal total 0,270720 m² inclui laterais originais; oito contatos superiores P01–P03/P02 conferidos. Massa de ferragens e partilha/caminhos da caixa superior continuam pendentes; cálculo rígido não substitui juntas, retenção ou piso real.
+**Situação em 26/10:** condicionada a composição/material, juntas, suspensão e parede real; memórias e bloqueios em [P11/P15/P09 e lote B](../04_Moveis/Aereos_suspensao/README.md), [P04/P15](../04_Moveis/P04/Suspensao_P04_P15/README.md), [composição P15](../04_Moveis/P15/Composicao_parcial/README.md), [massas P01](../04_Moveis/P01/Massas_equilibrio/README.md) e [P20](../04_Moveis/P20/Assento_fechado/README.md). Nenhuma capacidade física demonstrada.
 
 - Reaproveitar o cálculo P11; avaliar a contribuição do fundo e das uniões antes de concluir pela necessidade de reforço.
 - Desenvolver P15, P04, prateleiras/varões P01 e tampas/apoios P20. Reutilizar rotinas de cálculo com entradas, unidades e hipóteses explícitas.
 
-**Avanço 25/10, suspensão P04/P15:** [caixa inteira e portas abertas](../04_Moveis/P04/Suspensao_P04_P15/README.md),660 casos e 72 envelopes de V/T/momento. Massas dos reforços incluídas; movimentos de quatro barras reutilizados sem alterar a R51. Resultantes são requisitos paramétricos, não fixadores/furos, produto escolhido ou capacidade da parede. Depende de produto/oficina e depois substrato real.
-
-**Ampliação 25/10:** [P09/P11/P12/P17](../04_Moveis/Aereos_suspensao/README.md),1404 casos e 48 envelopes, com a cinemática calculada fora do CAD. P09 ganhou dado primário de massa do depurador 6,00 kg e identificação da folga nominal 42 mm até a base: a montagem prevista no manual parede+gabinete e sua partilha ainda precisam ser demonstradas. Não acrescentar 6 kg a um suspensor sem esse caminho de forças.
 - Mostrar o caminho da carga até a caixa e sua suspensão. Separar resistência da chapa, conectores e fixação na parede.
 - Comparar no máximo duas soluções viáveis por problema; preservar armazenamento e aparência aprovados.
 
@@ -110,13 +91,9 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T03 — Ligações e detalhamento no CAD | P0 | 26–28/10
 
-**Preparação física P04,26/10/2026:** [pacote para marcenaria/laboratório](../04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf), conforme resposta de Elias em 25/10: “Preparar para marcenaria/laboratório”. T0: cinco retalhos, oito Minifix, quatro acessos e sequênciaz→u; T1: juntas; T2: seis vetores de serviço; T3: caixa completa. Quinze linhas-modelo sem medições, nenhum ensaio executado. Oficina confirma processo, protocolo e instrumentos antes de cortar/aplicar carga; R52 preservada.
+**Situação em 26/10:** parcial; mapas nominais de [P17](../04_Moveis/P17/Base_fundo_ligacoes/README.md), [P12](../04_Moveis/P12/README.md), [P04](../04_Moveis/P04/Suspensao_P04_P15/README.md) e [P01/P03/P02](../04_Moveis/Proximas_decisoes/P01_P03/README.md) preparados. Bloqueios: qualificação de juntas/ferragens, [rigidez superior P01/P03](../04_Moveis/P01/Caminho_superior_P03/README.md), carga P02 e detalhamento restante; estudos sem integração automática à R52.
 
-**Lote B em 25/10/2026:** [P17→P04→P12](../04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12), respostas de Elias: “20 kg / 10 kg / 10 kg”, “Desenvolver os fundos inteiros” e base limpa. 585 casos/60 Minifix; 16 entradas inferiores antigas a substituir. Fundos P17/P04 preservam envelope/vãos, fitas inferiores Arenza/off-white. P04: 4 acessos SW4 curta resolvidos nominalmente; suporte esquerdo proposto no divisor 18 após rejeitar canto externo; 765 equilíbrios 3D/1530 vetores, seis casos de qualificação. Juntas/rigidez, retenção, contatos inferiores e produto ainda sem prova física; R52 intacta.
-
-**P01/P03, caminho superior 25/10:** [estudo separado traseiro](../04_Moveis/P01/Caminho_superior_P03/README.md) preserva vãos e envelope, acrescentando 18 na altura do fundo P01 e 18 para trás na base P03. Quatro interfaces conferidas, sem interferências dos acréscimos. Seis modelos reduzidos convergentes excedem a referência: contato sozinho não libera a base 18. Ação de caixa/topo/fundo/laterais, travessa frontal e juntas continuam como trabalho de projeto, sem atribuir a pendência às medidas do apartamento.
-
-**Avanço 25/10, P17:** [estudo de fundo inteiro e ligações](../04_Moveis/P17/Base_fundo_ligacoes/README.md),16 contatos, 58 posições nominais e 11 casos de placa/caminhos axiais. Fundo 514→550 separado preserva dimensões e vãos; 20 kg totais distribuídos/frontal dão 0,863/1,336 mm com reserva nas hipóteses adotadas. Juntas mais flexíveis excedem a referência. Comprovar produto/caixa, revisar acabamento/acesso e atualizar massa global antes de integrar; eixos não são CNC nem quantitativo adicional.
+**Premissas preservadas:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” em P17/P04/P12, “Desenvolver os fundos inteiros” e base limpa ([lote B](../04_Moveis/Aereos_suspensao/README.md)); “Preparar para marcenaria/laboratório” ([P04](../04_Moveis/P04/Suspensao_P04_P15/README.md)). Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto”, sobre oficina/material ([P04](../04_Moveis/P04/Suspensao_P04_P15/README.md)).
 
 - Seguir os lotes do plano técnico existente: A P11/P15/P09; B P04/P12/P17; C P01/P02; D P20; E demais encontros.
 - Definir conector, peças ligadas, origem de cotas, posições, profundidades e acesso de montagem. Conferir encontros pelos dois lados de divisórias de 18 mm.
@@ -127,9 +104,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T04 — Banco e cesto | P0 | 27/10
 
-**Avanço 25/10:** [P20 fechado](../04_Moveis/P20/Assento_fechado/README.md): 18 contatos reconciliados, cinco cenários de placa convergentes e levantamento de 27 volumes. Massa permanente 60 kg histórica não é limite garantido; painel real/ortotropia, juntas e estabilidade pendentes. [Roteiro de protótipo P20/P14](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md) preparado; nenhum ensaio executado. Mecanismos continuam sujeitos a perfil/terminais/trava efetivos, sem encerrar T04.
-
-**P14, continuação 25/10:** [reações dos pivôs e energia](../04_Moveis/P14/Reacoes_e_operacao/README.md),270 cenários 3D e 30 trajetórias. Identificados esforços reversos de retenção nos apoios e momentos de excentricidade; não basta dividir o peso por dois. Massa adicional, pivôs/buchas, terminais e engate efetivo seguem pendentes. Geometria e movimentos completos preservados, sem nova revisão do modelo.
+**Situação em 26/10:** condicionada a componentes reais, corte axial dos pivôs, ligações e ensaio; [P20](../04_Moveis/P20/Assento_fechado/README.md) e [P14](../04_Moveis/P14/Reacoes_e_operacao/README.md) têm montagem nominal e [roteiro conjunto](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md), sem execução física. Oficina indisponível; consultas preparadas, não enviadas.
 
 - P20: fechar nominalmente eixo/apoio da dobradiça piano, terminais dos articuladores, trava, batentes, fixações e acesso para destravar. Preservar duas tampas, duas almofadas e armazenamento.
 - P14: fechar pivôs, limitadores a 55°, retenção e retirada do saco. Verificar operação cheio/vazio e acesso de manutenção.
@@ -139,9 +114,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T05 — Gavetas e interfaces dos ambientes | P0/P1 | 28/10
 
-**Interface P16, continuação 25/10:** [18 regiões positivas localizadas](../04_Moveis/P16/Interface_guia_fundo/README.md): 16 sob o fundo e duas junto ao furo traseiro direito. Cotas dos quatro furos Ø6×10/eixo 11 conferidas com desenho G2; mesmo padrão 4+5 na referência configurada. Causa funcional/regulagem e configuração individual 400 continuam pendentes, com mapa/pergunta exata. Nenhum corte, deslocamento corretivo ou alteração do movimento foi aplicado.
-
-**Avanço 25/10:** [P16, curso e estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md): 18.480 pares de caixas varridas sem interseção com a proposta de bancada e 64 entre gavetas independentes; guias telescópicas reais excluídas. 1296 cenários de equilíbrio separam pedestal e bancada ligada; constituição/massa do tampo e juntas positivas continuam determinantes. Campo de altura da parede superior 53→47 identificado e correção nominal preparada, sem alterar a R51. O conflito fundo/guia continua pendente.
+**Situação em 26/10:** condicionada a produto/oficina, juntas e compatibilização; [P16: curso/estabilidade](../04_Moveis/P16/Gavetas_estabilidade/README.md) e [guia–fundo](../04_Moveis/P16/Interface_guia_fundo/README.md), [P01/P03/P02](../04_Moveis/Proximas_decisoes/P01_P03/README.md) e [P08](../04_Moveis/P08/README.md) documentam estudos e limites; demais interfaces abaixo ainda precisam de desenho e teste específico.
 
 - P01/P06: conferir caixas, recortes e engates da FGVTN 500 com documentação própria; não extrapolar o STEP de 400 mm.
 - P16: preservar a R49 e tratar a pequena sobreposição fundo/guia e o mapa de altura das guias conforme documentação e prova de oficina.
@@ -153,6 +126,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T06 — Acabamentos, iluminação e equipamentos | P1 | 28–29/10
 
+**Situação em 26/10:** parcial; [corte por chapa física](../04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) reconciliado, sem compra/corte autorizado. Bloqueios: P13 e demais códigos/constituições, formato/substrato, veios, bordas/processo, componentes de iluminação e equipamentos; nenhuma segunda chapa 15 acrescentada automaticamente.
+
 - Consolidar códigos de chapa, substrato, espessura, duas faces, bordas e veios; separar seleção comercial de confirmação por amostra.
 - Preservar escolhas já feitas, inclusive Arauco Beige Matt/Louro Freijó Poro no banheiro e Branco TX interno. Resolver código do marfim e demais itens efetivamente pendentes.
 - Completar conjuntos de iluminação: luminária, lâmpada/fita, perfil, fonte, comando e acesso. Reaproveitar a seleção L02 e a revisão CB02 do quarto.
@@ -162,17 +137,19 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T07 — Orçamento e pacote para cotação | P1 | 29/10
 
-**Avanço 25/10:** [quantitativos separados das sete propostas](../04_Moveis/Quantitativos/README.md),36 registros/11 substituições lidos dos BREP gravados. Área completa de fabricação, incremento líquido e massa hipotética separados; orçamento/lista-base preservados. Fundo P01 atual/proposto não cabe em 2750×1850; formato maior publicado em ficha de linha depende de padrão/faces/fornecimento. Nenhuma emenda automática ou quantidade de chapas de compra inferida pela área.
+**Situação em 26/10:** parcial; [consolidado R44](Orcamento/Orcamento_R43.md) com estimativa de execução R$ 137.748,11 e divergências explícitas. Bloqueios: reconciliar iluminação (R$ 10,62), composição da marcenaria e [quantitativos das propostas](../04_Moveis/Quantitativos/README.md) com T03–T06; pacote de cotação em espera, metas sem economia obtida.
 
 - Consolidar a composição com os quantitativos resultantes de T03–T06. Usar a reconciliação de ferragens existente; incorporar Blum/calços/limitadores, Minifix e banco/cesto sem duplicar verbas.
 - Desdobrar a iluminação L02 nas linhas correspondentes; não somar seu total novamente ao orçamento.
 - Manter três colunas separadas: estimativa atual, meta de negociação e preço efetivamente cotado, com data, frete, montagem e exclusões.
-- Preservar o teto registrado de **R$120 mil de execução + R$10 mil de reserva** e tratar os **R$35 mil de marcenaria como meta**. O resumo atual registra cerca de R$137,8 mil de execução; o fechamento desta semana precisa reconciliar os itens, sem transformar descontos desejados em economia obtida.
+- Preservar o teto registrado de **R$120 mil de execução + R$10 mil de reserva** e tratar os **R$35 mil de marcenaria como meta**. O consolidado R44 registra R$ 137.748,11 de execução; reconciliar as divergências nele listadas sem transformar descontos desejados em economia obtida.
 - Atualizar o pacote de cotação já existente e a tabela para comparar propostas de mesmo escopo. Preparação não retira automaticamente o pacote da espera nem envia solicitações.
 
 **Pronto quando:** totais reproduzíveis, escopo completo, diferenças explicadas e pendências comerciais visíveis. Retorno de fornecedor não é condição para terminar a organização do orçamento.
 
 ### T08 — Dossiê para o profissional e para as chaves | P1 | 29–30/10
+
+**Situação em 26/10:** parcial; [entregas existentes](../06_Entregas/README.md) e [levantamento do imóvel](../07_Imovel/README.md) disponíveis. Falta compatibilizar as mudanças de T02–T07, fechar questões ao profissional e relacionar medidas/documentos afetados; contratação, revisão profissional e medidas reais seguem condicionadas.
 
 - Reaproveitar programa, planta mobiliada, planta preliminar de pontos, caderno de pranchas, rascunho de reforma e roteiro de medição.
 - Atualizar somente o que mudou; acrescentar as vistas e detalhes necessários para entender o projeto vigente.
@@ -183,11 +160,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T09 — Integração e continuidade com menos IA | P0 | 30–31/10
 
-**Fechamento 25/10,07h:** janela noturna encerrada e automação pausada, com confirmação e registro. R51 completa preservada; estudos, matriz dos 20 móveis, dados e quantitativos separados entregues para continuidade. Conferência final/cópia local pelo roteiro abaixo, sem transformar condições de produto/oficina/ensaio em itens concluídos.
-
-**Preparação 25/10:** entrada curta de retomada e manifesto/checagem leve, sem reabrir CAD ou recalcular placas. O snapshot inicial conferiu 227 arquivos, 5833 objetos/7702 expressões persistidas R51 e hash R50 histórico; atualizar somente após alterações conhecidas. Fechamento desta janela e pausa às 07h no registro específico, sem declarar integração das propostas ao modelo/pacote publicado.
-
-**Avanço 25/10:** [cinemática para cálculos sem abrir o FreeCAD](../ferramentas/cinematica/README.md) criada e validada contra 528 poses nativas. Fotografia de 867 células/24 folhas; 22 visíveis na consulta normal. Recalcular 522 CG leva cerca 0,05 s localmente após carregar dados, sem alterar a R51. Facilita próximos estudos com menos IA; não substitui verificação de geometria/ferragens reais.
+**Situação em 26/10:** parcial; [consulta cinemática](../ferramentas/cinematica/README.md) e [verificadores, incluindo espaços](../ferramentas/README.md) disponíveis. Bloqueios: integrar fontes e artefatos, conferir manifesto/abertura e cópia de segurança do pacote final; estudos dos [móveis](../04_Moveis/README.md) não equivalem a integração no CAD. Preservar 30–31/10 para essa conferência.
 
 - Regenerar fichas, site, caderno e pacote a partir das fontes; conferir revisões e links. Corrigir avisos de “vigente” que ainda apontem para R45/R44 em entradas antigas.
 - Rodar a verificação de consistência existente e as verificações pertinentes às alterações. Reabrir o FreeCAD salvo, o PDF e o ZIP; testar os acessos essenciais no computador e no celular.
@@ -208,7 +181,7 @@ Cada sessão começa com um resultado delimitado e termina com arquivos salvos, 
 
 Usar IA de maior capacidade para cálculos, diagnósticos, conflitos entre fontes e compatibilização. Usar scripts já conferidos para extrações, regeneração e validação repetitivas. Limitar pesquisa ao dado que falta; quando duas opções viáveis bastarem, apresentar recomendação e consequência concreta.
 
-O plano original organizava sessões iniciadas pelo usuário. A execução encerrada às 07: 00 de 25/10 está registrada no controle específico. Essa autorização não agenda o restante da semana; novas etapas seguem as instruções atuais do projeto.
+O plano original organizava sessões iniciadas pelo usuário. A autorização registrada neste plano em 25/10/2026 limitava as continuações no mesmo chat às 07:00 (America/Sao_Paulo); janela encerrada e automação pausada. Essa autorização não agenda o restante da semana; novas etapas seguem as instruções atuais do projeto.
 
 ## 6. Dependências e regras de corte
 
@@ -230,15 +203,15 @@ O plano original organizava sessões iniciadas pelo usuário. A execução encer
 Não usar uma porcentagem única de “projeto pronto”: desenho, protótipo, preço e aprovação são coisas diferentes. Registrar estes resultados separadamente:
 
 - [x] 20/20 móveis revisados na matriz em 26/10, com pendência e próxima ação claras; manter atualizada até 31/10.
-- [ ] Cinco frentes de carga prioritárias documentadas: P11, P15, P04, P01 e P20; registrar quais ficaram condicionadas.
-- [ ] Todos os contatos inventariados classificados; informar quantos têm solução, quantos foram incorporados e quantos continuam sem detalhamento.
-- [ ] Banco e cesto com montagem nominal e roteiro de ensaio; resultados físicos identificados como feitos ou pendentes.
-- [ ] Gavetas e interfaces críticas conferidas; correções R48/R49 preservadas.
-- [ ] Materiais, equipamentos e iluminação com lista de componentes e condições restantes.
-- [ ] Quantitativos e orçamento reconciliados, ou divergências remanescentes explicitamente listadas.
-- [ ] CAD, fichas, pranchas e pacote identificados por um manifesto de versões consistente.
-- [ ] Modelo e pacote reabertos; links e verificações pertinentes aprovados ou falhas registradas.
-- [ ] Retomada curta, scripts e cópia de segurança disponíveis.
+- [ ] **Condicionado:** Cinco frentes de carga prioritárias documentadas: P11, P15, P04, P01 e P20; registrar quais ficaram condicionadas.
+- [ ] **Condicionado:** Todos os contatos inventariados classificados; informar quantos têm solução, quantos foram incorporados e quantos continuam sem detalhamento.
+- [ ] **Condicionado:** Banco e cesto com montagem nominal e roteiro de ensaio; resultados físicos identificados como feitos ou pendentes.
+- [ ] **Condicionado:** Gavetas e interfaces críticas conferidas; correções R48/R49 preservadas.
+- [ ] **Condicionado:** Materiais, equipamentos e iluminação com lista de componentes e condições restantes.
+- [ ] **Condicionado:** Quantitativos e orçamento reconciliados, ou divergências remanescentes explicitamente listadas.
+- [ ] **Condicionado:** CAD, fichas, pranchas e pacote identificados por um manifesto de versões consistente.
+- [ ] **Condicionado:** Modelo e pacote reabertos; links e verificações pertinentes aprovados ou falhas registradas.
+- [ ] **Condicionado:** Retomada curta, scripts e cópia de segurança disponíveis.
 
 **Entrega essencial:** eliminar ambiguidades sobre o que vale, concluir o maior número possível de decisões técnicas complexas e deixar as pendências reproduzíveis. **Entrega ampliada:** todos os lotes de ligações detalhados, dossiê completo e melhorias pontuais de consulta, desde que a entrega essencial esteja estável.
 

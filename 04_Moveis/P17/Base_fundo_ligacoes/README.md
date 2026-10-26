@@ -98,3 +98,5 @@ Essas massas usam 18,3 de espessura para cálculo. O BREP nominal 18 acrescenta 
 Nenhum ensaio físico foi executado. [Verificações](Verificacao.json): seis convergências 16/20, equilíbrio de forças/momentos, restrições, integridade dos arquivos, contatos e fonte preservada. Equilíbrio e convergência verificam a solução do modelo adotado; não validam suas hipóteses físicas.
 
 Rotinas: [calcular.py](calcular.py), [criar_estudo.py](criar_estudo.py) no FreeCAD e [verificar.py](verificar.py). O criador recusa sobrescrever arquivo existente; não execute sobre a sessão de trabalho sem ler suas guardas. Não altera ou anima a R51.
+
+O estudo parcial de 25/10/2026 reúne 11 casos de placa/caminhos axiais nos [resultados](Resultados.json), conforme contagem transferida do plano até 31/10. Essa amostra histórica não substitui os cortes da caixa e a qualificação da suspensão vigentes acima.

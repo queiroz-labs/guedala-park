@@ -88,3 +88,7 @@ Formato do fundo P01, divergência 100/300 mm do micro-ondas, interface guia–f
 | `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
 | `Historico/` | Estudos R46–R49 que o site ainda referencia |
 | `Componentes/` | Ferragens, STEP e estudos de origem (grande; buscas o ignoram) |
+
+## Contadores históricos para rastreabilidade
+
+Transferidos do plano até 31/10, registro de 25/10/2026: a R50 completa otimizada preservava 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. O manifesto inicial de continuidade conferiu 227 arquivos, 5.833 objetos e 7.702 expressões persistidas da R51, com hash R50 identificado como histórico. São bases de comparação anteriores, não os contadores da R52 vigente. Atualizar manifesto somente após mudanças conhecidas; esse registro não comprova integração das propostas nem publicação do pacote.
