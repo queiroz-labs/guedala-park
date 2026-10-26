@@ -1,0 +1,9 @@
+{
+  "status": "OK_MONTAGEM_NOMINAL_P14",
+  "preserved_simultaneous_cases": 4,
+  "lock_sensitivities": 5,
+  "max_distance_error_mm": 3.979039320256561e-13,
+  "empty_measurement_records": 8,
+  "physical_tests_executed": 0,
+  "result_sha256": "94efb3ec6e69f0908cc00b73b239af8d4a1e8592e97839c239186e0857371ff6"
+}

@@ -76,6 +76,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **P20 aberto, 26/10:** [montagem e reações](04_Moveis/P20/Assento_fechado/README.md): seis equilíbrios,42poses e dez sensibilidades. Articuladores em compressão nominal7,628/6,473N a90°; piano com grupos equivalentes,sem forças por parafuso. Eixo real,apoio fixo,terminais22/30mm e liberação da trava ainda pendentes;nenhum ensaio ou alteraçãoR52.
 
+**P14 montagem, 26/10:** [interfaces e roteiro](04_Moveis/P14/Reacoes_e_operacao/README.md): quatro casos simultâneos preservados, cinco sensibilidades de trava e oito registros vazios. Pivô40,25mm na faixa52mm ainda depende de bucha, retenção e acessoSW5. Consulta banco/cesto atualizada e não enviada; oficina indisponível, zero ensaios. R52 preservada.
+
 ## Próximos passos
 
 **Avanço26/10 — juntas dos aéreos:** P17:21grupos/70posições candidatas; P12:9/21;30cortes de carga por móvel e2.625pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17:24apoios do estudo antigo coincidem apósv=330−y;rigidez doMinifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto,sem execução;Elias,26/10:“Ainda não; deixar o roteiro pronto”,sobre oficina/material. Próximo:caracterizar juntas e caixa/ferragem reais;seguir frente independente enquanto aguarda oficina.

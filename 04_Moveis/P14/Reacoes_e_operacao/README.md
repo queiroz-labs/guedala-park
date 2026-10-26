@@ -4,6 +4,31 @@
 
 ![Esquema do equilíbrio e retenção](Reacoes_parada_55.png)
 
+## Montagem nominal e acesso — 26/10/2026
+
+Geometria das peças conferida contra a base salva da **R52**, sem abrir ou alterar o CAD. [Detalhamento](Montagem_nominal.json) preserva quatro casos completos do cálculo anterior; não soma máximos de cenários diferentes. [Conferência](Verificacao_montagem.json) verifica a extração e cinco sensibilidades de engate. [Registro para oficina](Registro_montagem.csv): oito linhas vazias, todas NAO_EXECUTADO.
+
+| Controle | Caso de origem (índice começando em1) | Solicitação nominal |
+|---|---:|---:|
+| Resultante no pivô | 216 | 134,012 N |
+| Retenção vertical reversa | 72 | 28,014 N |
+| Tração em um articulador | 208 | 133,288 N |
+| Momento resultante na interface do pivô | 216 | 6,969 Nm |
+
+**Pivô candidato OMPCR1020:** desenho arquivado [Omega](../../Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Omega_7379.pdf): ombroØ10×20, roscaM8×1,25 de13,25mm e cabeçaØ16×7 com AllenSW5, encaixe4,3mm. Soma axial40,25mm; sobra geométrica11,75mm na faixa52mm. Essa sobra não demonstra acesso ou montagem: o empilhamento girante de bucha/arruelas/folga deve ser compatibilizado com o **ombro útil20mm**, separadamente do engajamento da rosca e do alívio de raiz. Não usar a rosca como superfície de giro nem apertar a parte móvel entre faces sem folga definida. Bucha, material, retenção e apoio continuam sem produto selecionado.
+
+**Sequência a demonstrar antes de furar peças definitivas:**
+
+1. Desenhar o corte axial do pivô completo, identificando parte fixa e girante, espessuras, folga axial, engajamento de rosca e retenção. Os blocos do CAD continuam reservas.
+2. Definir a orientação da cabeça e registrar o corredor para inserir, girar e retirar a AllenSW5. Medir a ferramenta real; os4,3mm do encaixe não são o espaço de manobra da chave. Se o acesso exigir montar fora do corpo, demonstrar retirada e reinstalação do subconjunto.
+3. Fechar a ligação do suporte às laterais/base para forças horizontais, compressão e levantamento; conferir os vetores simultâneos dos casos acima. Não contar somente com apoio por gravidade nem distribuir força igualmente entre parafusos sem modelo da ligação.
+4. Montar terminais completos na armação e operar com gabarito do saco400×200×400. Registrar cabeças, projeções, acesso ao destravamento e retirada do saco/armação. Preservar a passagem e o acesso hidráulico.
+5. Medir distância entre terminais no engate e na liberação; comparar com a montagem candidata antes de definir os furos. Só depois fechar o plano de ensaio com produtos e critérios efetivos.
+
+**Sensibilidade de engate:** distâncias hipotéticas280/285/288/290/291mm correspondem a52,841/53,820/54,409/54,803/55,000°. O comprimento291mm esgota a extensão ideal de duas barras145,5mm; não comprova curso adicional de liberação nem capacidade da trava. São cálculos geométricos, sem medição de ferragem real.
+
+Reproduzir com `python -B ferramentas/aereos/detalhar_cesto_montagem.py` e `python -B ferramentas/aereos/conferir_cesto_montagem.py` na raiz. O gerador se recusa a sobrescrever registros que já contenham medições.
+
 ## Base preservada e limites
 
 Mantidos frente550×521×18, saco400×200×400,13 peças da armação, eixo idealY6440/Z120 e abertura55°. Os centros de gravidade agora vêm dos sólidos BREP atuais. Os volumes conferem com o [estudo anterior da armação](../../Inventario_dimensional/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md): frente5,157900 L e armação2,769192 L.

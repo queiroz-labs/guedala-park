@@ -1,0 +1,9 @@
+﻿id;medicao_requerida;unidade;valor;evidencia;estado
+C01A;Ombro util, bucha, arruelas, folga axial e alivio de raiz;mm;;;NAO_EXECUTADO
+C01B;Engajamento de rosca e espessura resistente do apoio fixo;mm;;;NAO_EXECUTADO
+C01C;Corredor de inserir, girar e retirar Allen SW5;mm/foto;;;NAO_EXECUTADO
+C01D;Retencao axial e caminho contra levantamento do suporte;desenho;;;NAO_EXECUTADO
+C02A;Distancia entre eixos ao engatar e ao liberar trava;mm;;;NAO_EXECUTADO
+C02B;Angulo real e folgas de terminais durante percurso;grau/mm;;;NAO_EXECUTADO
+C03A;Retirada do saco e desmontagem da armacao;foto/sequencia;;;NAO_EXECUTADO
+C04A;Massas e centros de saco, pega e ferragens moveis;kg/mm;;;NAO_EXECUTADO

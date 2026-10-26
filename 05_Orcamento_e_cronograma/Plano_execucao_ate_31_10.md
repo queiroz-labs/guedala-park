@@ -10,6 +10,8 @@ O resultado pretendido é um projeto nominal consistente e fácil de continuar: 
 
 **Fechamento documental de25/10, registrado em26/10:** matriz20/20 revisada, com próxima ação, responsável proposto e evidência. T01 concluída no critério de revisão da matriz; T02/T03 continuam condicionadas a juntas, suspensão e detalhes restantes. P01/P20 iniciados; P11/P15/P04 desenvolvidos, consultas preparadas e não enviadas. LoteB tem metas20/10/10kg e mapas reconciliados; P04 tem quatro acessosSW4 nominais e pacote para laboratório, sem ensaio físico. Pendências pessoais, de projeto, produto/oficina e imóvel estão separadas na [matriz](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md). Preservar30–31 para integração/conferência.
 
+**Banco/cesto, 26/10:** [P20 aberto](../04_Moveis/P20/Assento_fechado/README.md) com seis equilíbrios e interfaces; [P14 montagem](../04_Moveis/P14/Reacoes_e_operacao/README.md) com casos simultâneos, corte axial a definir e oito registros para oficina. Próximo passo: obter desenhos completos da trava/piano/pivô e completar as ligações com componentes reais. Roteiros preparados; oficina indisponível e consultas não enviadas. T04/T05 continuam condicionados, sem ensaio nem alteraçãoR52.
+
 ## 1. Ponto de partida
 
 O primeiro ciclo mantém10 verificações vigentes após cancelar a alternativa tubular; o registro de11 acima descreve a rodada histórica anterior à decisão. As continuações e verificações próprias estão nos relatórios datados.

@@ -1,0 +1,280 @@
+{
+  "scope": "Montagem nominal; sem ensaio e sem capacidade demonstrada",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "inputs": {
+    "04_Moveis/P14/Reacoes_e_operacao/Resultados.json": "c8ab31b01af54c424d43481feb4d6ffc8e9d2e365b7db7d4a882a7576a8825f5",
+    "04_Moveis/P14/Reacoes_e_operacao/Geometria_R51.json": "6637ab96f22915af350e473dfd7654d90e5064c1b7026b87875932ad933f0891",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultados.json": "fc577760f82ee7d058fb1c81af2e9c88c84d23e4c2877a78dba80b0a79a07ba0",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Omega_7379.pdf": "735a955472aa1e5a4a71b7f9e92bcbef6fd74ae4de5d2f1bb92f038d0cca4151",
+    "02_Modelo_3D/Base_verificacao.json.gz": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495",
+    "ferramentas/aereos/detalhar_cesto_montagem.py": "bb5015e51469c1d2c4f7cd3e774214305c5cadae9a31507c60c6550f65bfd641"
+  },
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "controls": [
+    {
+      "control": "maior_resultante_pivo",
+      "source_case_1based": 216,
+      "value": 134.01226961716375,
+      "case": {
+        "rho_kg_m3": 900,
+        "clothes_kg": 8,
+        "clothes_center_relative_mm": [
+          -200.0,
+          25.0,
+          425.0
+        ],
+        "share_left": 1.0,
+        "hinge_planes_X_mm": [
+          4330.0,
+          4780.0
+        ],
+        "weight_N": 148.41759508561998,
+        "gravity_moment_Nm": 38.72533663933748,
+        "stay_total_tension_N": 133.2882624164584,
+        "stay_left_N": 133.2882624164584,
+        "stay_right_N": 0.0,
+        "hinge_left_YZ_N": [
+          -125.96367139806544,
+          45.74321693829134
+        ],
+        "hinge_right_YZ_N": [
+          6.880368605776684,
+          42.800110769107235
+        ],
+        "hinge_left_resultant_N": 134.01226961716375,
+        "hinge_right_resultant_N": 43.34961307784888,
+        "min_hinge_vertical_N": 42.800110769107235,
+        "hinge_wall_interface_MYZ_Nm": [
+          [
+            2.3786472807911494,
+            6.550110912699403
+          ],
+          [
+            -2.2256057599935763,
+            0.3577791675003875
+          ]
+        ],
+        "stay_wall_interface_MYZ_Nm": [
+          [
+            1.5567309518337564,
+            -3.096165872599508
+          ],
+          [
+            -0.0,
+            0.0
+          ]
+        ],
+        "max_equilibrium_residual": 3.637978807091713e-12
+      }
+    },
+    {
+      "control": "maior_retencao_reversa",
+      "source_case_1based": 72,
+      "value": 28.014463007775134,
+      "case": {
+        "rho_kg_m3": 650,
+        "clothes_kg": 8,
+        "clothes_center_relative_mm": [
+          200.0,
+          25.0,
+          425.0
+        ],
+        "share_left": 1.0,
+        "hinge_planes_X_mm": [
+          4330.0,
+          4780.0
+        ],
+        "weight_N": 128.98304089516998,
+        "gravity_moment_Nm": 35.24265825938879,
+        "stay_total_tension_N": 121.30127430730431,
+        "stay_left_N": 121.30127430730431,
+        "stay_right_N": 0.0,
+        "hinge_left_YZ_N": [
+          -114.63540434844144,
+          -28.014463007775134
+        ],
+        "hinge_right_YZ_N": [
+          6.261597716511509,
+          102.50789769514668
+        ],
+        "hinge_left_resultant_N": 118.00883893905858,
+        "hinge_right_resultant_N": 102.698961512968,
+        "min_hinge_vertical_N": -28.014463007775134,
+        "hinge_wall_interface_MYZ_Nm": [
+          [
+            -1.456752076404307,
+            5.961041026118955
+          ],
+          [
+            -5.330410680147628,
+            0.3256030812585985
+          ]
+        ],
+        "stay_wall_interface_MYZ_Nm": [
+          [
+            1.4167297614027592,
+            -2.8177189724301783
+          ],
+          [
+            -0.0,
+            0.0
+          ]
+        ],
+        "max_equilibrium_residual": 3.637978807091713e-12
+      }
+    },
+    {
+      "control": "maior_tracao_articulador",
+      "source_case_1based": 208,
+      "value": 133.2882624164584,
+      "case": {
+        "rho_kg_m3": 900,
+        "clothes_kg": 8,
+        "clothes_center_relative_mm": [
+          -200.0,
+          25.0,
+          425.0
+        ],
+        "share_left": 0.0,
+        "hinge_planes_X_mm": [
+          4320.0,
+          4790.0
+        ],
+        "weight_N": 148.41759508561998,
+        "gravity_moment_Nm": 38.72533663933748,
+        "stay_total_tension_N": 133.2882624164584,
+        "stay_left_N": 0.0,
+        "stay_right_N": 133.2882624164584,
+        "hinge_left_YZ_N": [
+          4.053899669524725,
+          109.63141090036646
+        ],
+        "hinge_right_YZ_N": [
+          -123.13720246181349,
+          -21.08808319296788
+        ],
+        "hinge_left_resultant_N": 109.70633691148184,
+        "hinge_right_resultant_N": 124.92989187090166,
+        "min_hinge_vertical_N": -21.08808319296788,
+        "hinge_wall_interface_MYZ_Nm": [
+          [
+            4.604519257815391,
+            -0.17026378612003845
+          ],
+          [
+            0.885699494104651,
+            -5.171762503396167
+          ]
+        ],
+        "stay_wall_interface_MYZ_Nm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1.5567309518337564,
+            3.096165872599508
+          ]
+        ],
+        "max_equilibrium_residual": 1.8189894035458565e-12
+      }
+    },
+    {
+      "control": "maior_momento_interface_pivo",
+      "source_case_1based": 216,
+      "value": 6.9686380200925155,
+      "case": {
+        "rho_kg_m3": 900,
+        "clothes_kg": 8,
+        "clothes_center_relative_mm": [
+          -200.0,
+          25.0,
+          425.0
+        ],
+        "share_left": 1.0,
+        "hinge_planes_X_mm": [
+          4330.0,
+          4780.0
+        ],
+        "weight_N": 148.41759508561998,
+        "gravity_moment_Nm": 38.72533663933748,
+        "stay_total_tension_N": 133.2882624164584,
+        "stay_left_N": 133.2882624164584,
+        "stay_right_N": 0.0,
+        "hinge_left_YZ_N": [
+          -125.96367139806544,
+          45.74321693829134
+        ],
+        "hinge_right_YZ_N": [
+          6.880368605776684,
+          42.800110769107235
+        ],
+        "hinge_left_resultant_N": 134.01226961716375,
+        "hinge_right_resultant_N": 43.34961307784888,
+        "min_hinge_vertical_N": 42.800110769107235,
+        "hinge_wall_interface_MYZ_Nm": [
+          [
+            2.3786472807911494,
+            6.550110912699403
+          ],
+          [
+            -2.2256057599935763,
+            0.3577791675003875
+          ]
+        ],
+        "stay_wall_interface_MYZ_Nm": [
+          [
+            1.5567309518337564,
+            -3.096165872599508
+          ],
+          [
+            -0.0,
+            0.0
+          ]
+        ],
+        "max_equilibrium_residual": 3.637978807091713e-12
+      }
+    }
+  ],
+  "lock_sensitivity": [
+    {
+      "assumed_terminal_distance_mm": 280,
+      "angle_deg": 52.84073748595779
+    },
+    {
+      "assumed_terminal_distance_mm": 285,
+      "angle_deg": 53.81977129109485
+    },
+    {
+      "assumed_terminal_distance_mm": 288,
+      "angle_deg": 54.40913892420028
+    },
+    {
+      "assumed_terminal_distance_mm": 290,
+      "angle_deg": 54.80287868172499
+    },
+    {
+      "assumed_terminal_distance_mm": 291,
+      "angle_deg": 54.99999999999986
+    }
+  ],
+  "pivot_candidate": {
+    "code": "OMPCR1020",
+    "shoulder_diameter_mm": 10,
+    "shoulder_length_mm": 20,
+    "thread": "M8x1.25",
+    "thread_length_mm": 13.25,
+    "head_height_mm": 7,
+    "head_diameter_mm": 16,
+    "hex_SW_mm": 5,
+    "hex_depth_mm": 4.3,
+    "total_axial_mm": 40.25,
+    "lateral_gap_mm": 52,
+    "remaining_nominal_mm": 11.75,
+    "bushing": null,
+    "retention": null,
+    "tool_corridor": null
+  },
+  "physical_tests_executed": 0,
+  "capacity_demonstrated": false
+}

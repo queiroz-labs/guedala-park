@@ -5,6 +5,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / '04_Moveis/Cargas_e_ligacoes'
 UPDATES = {
+ 'P20': ('Tampa aberta:6equilibrios,42poses,10sensibilidades; compressao nominal7,628/6,473N; piano e interfaces documentadas sem alterarR52',
+         'Confirmar eixo/apoio piano,terminais22/30mm,trava e liberacao;montagem/prototipo com componentes reais;oficina indisponivel,roteiro pronto'),
+ 'P14': ('Montagem:4casos simultaneos,5sensibilidades de trava,8registros vazios; geometria conferidaR52; pivo134,012N e retencao reversa28,014N em casos distintos',
+         'Fechar corte axial do pivo:bucha,retencao,rosca e acessoSW5;confirmar trava/terminais e massas;consulta preparada nao enviada,zero ensaios'),
  'P04': ('Meta10kg; fundo308/base limpa; quatro acessosSW4 nominais e pacoteT0 reconferido26/10:5retalhos,8Minifix,15registros vazios',
          'Oficina ainda indisponivel conforme Elias26/10; roteiro pronto. ExecutarT0 sem carga quando houver material/oficina;T1juntas,T2Bigfer eT3caixa continuam pendentes;parede/contatos reais depois'),
  'P12': ('Meta10kg; fundo548;9grupos/21posicoes candidatas e30cortes de carga,210pares de envelopes conferidos;12Minifix/9Confirmat,sem ligacao direta base-fundo;R52 preservada',

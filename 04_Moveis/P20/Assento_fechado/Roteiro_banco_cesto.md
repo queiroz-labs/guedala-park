@@ -24,3 +24,11 @@ O conjunto real deve ser definido antes do ensaio. Não usar pessoas como carga 
 Para cada registro:ID, data, responsável, produto/lote, configuração e fotos, medição inicial, carga e posição efetivamente aplicadas, instrumento, resultados de deslocamento/força, deformação residual, observações, critério usado e decisão assinada. Campos desconhecidos ficam vazios/PENDENTE. Desenho ou cálculo não recebe resultado “ensaiado”.
 
 **Fora da dependência das chaves:** painel, massas, ferragens, juntas, protótipo, ferramentas e operação nominal podem avançar agora. **Após levantamento real:** nivelamento/condição do piso definitivo e instalação/folgas com as superfícies do imóvel. Não usar essa última dependência para adiar a definição do produto.
+
+## Preparação de montagem atualizada em26/10
+
+P20: usar as [interfaces da tampa aberta](README.md) para conferir apoio da piano, eixo e terminais22/30mm abaixo da tampa. Na parada90°, o articulador recebe compressão nominal7,628/6,473N; o ensaio precisa usar a orientação real da trava, sem tratar a solicitação como capacidade. Registrar engate/liberação e acesso com almofadas retiradas.
+
+P14: executar a sequência de cinco etapas do [detalhamento de montagem](../../P14/Reacoes_e_operacao/README.md) e preencher os [oito registros](../../P14/Reacoes_e_operacao/Registro_montagem.csv). Antes de qualquer prova, fechar corte axial do pivô, retenção contra levantamento, corredor da AllenSW5 e terminais completos. A SW5 do pivô não substitui a SW4 curta do retalhoT0/P04.
+
+Oficina e produtos ainda indisponíveis: roteiro preparado, sem agendamento, compra, contato enviado ou resultado físico. As solicitações calculadas orientam a definição do conjunto; não prescrevem cargas de prova.
