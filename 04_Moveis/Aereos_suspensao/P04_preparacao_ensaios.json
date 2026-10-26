@@ -1,0 +1,1211 @@
+{
+  "scope": "Preparacao para marcenaria/laboratorio,sem ensaio fisico ou compra.",
+  "authorization": "Elias,25/10/2026:\"Preparar para marcenaria/laboratório\".",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "T0_external_mm": [
+    218,
+    230,
+    308
+  ],
+  "T0_crop_internal_u_mm": [
+    0,
+    200
+  ],
+  "T0_internal_height_mm": 272,
+  "T0_gap_side_divider_mm": 7,
+  "T0_cut_list": [
+    {
+      "id": "T0-1",
+      "source_CAD": "Peca267",
+      "piece": "Lateral esquerda",
+      "qty": 1,
+      "finished_A_mm": 308.0,
+      "finished_B_mm": 230.0,
+      "nominal_thickness_mm": 18.0,
+      "box_uvz_mm": [
+        -18.0,
+        0.0,
+        0.0,
+        -0.0,
+        230.0,
+        308.0
+      ],
+      "scope": "Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia"
+    },
+    {
+      "id": "T0-2",
+      "source_CAD": "Peca269",
+      "piece": "Base",
+      "qty": 1,
+      "finished_A_mm": 212.0,
+      "finished_B_mm": 200.0,
+      "nominal_thickness_mm": 18.0,
+      "box_uvz_mm": [
+        0.0,
+        18.0,
+        0.0,
+        200.0,
+        230.0,
+        18.0
+      ],
+      "scope": "Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia"
+    },
+    {
+      "id": "T0-3",
+      "source_CAD": "Peca270",
+      "piece": "Tampo",
+      "qty": 1,
+      "finished_A_mm": 212.0,
+      "finished_B_mm": 200.0,
+      "nominal_thickness_mm": 18.0,
+      "box_uvz_mm": [
+        0.0,
+        18.0,
+        290.0,
+        200.0,
+        230.0,
+        308.0
+      ],
+      "scope": "Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia"
+    },
+    {
+      "id": "T0-4",
+      "source_CAD": "Peca268",
+      "piece": "Fundo inteiro",
+      "qty": 1,
+      "finished_A_mm": 308.0,
+      "finished_B_mm": 200.0,
+      "nominal_thickness_mm": 18.0,
+      "box_uvz_mm": [
+        0.0,
+        0.0,
+        0.0,
+        200.0,
+        18.0,
+        308.0
+      ],
+      "scope": "Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia"
+    },
+    {
+      "id": "T0-5",
+      "source_CAD": "ApoioOpostoR002",
+      "piece": "Divisor junto a lateral",
+      "qty": 1,
+      "finished_A_mm": 272.0,
+      "finished_B_mm": 212.0,
+      "nominal_thickness_mm": 18.0,
+      "box_uvz_mm": [
+        7.0,
+        18.0,
+        18.0,
+        25.0,
+        230.0,
+        290.0
+      ],
+      "scope": "Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia"
+    }
+  ],
+  "T0_joints": [
+    {
+      "code": "P04",
+      "id": "Peca269_Peca267_90",
+      "a": "Peca267",
+      "b": "Peca269",
+      "axis": "u",
+      "interface_uvz_mm": [
+        0.0,
+        90.0,
+        9.0
+      ],
+      "cam_part": "Peca269",
+      "cam_access_uvz_mm": [
+        34.0,
+        90.0,
+        18.0
+      ],
+      "drill_inward": [
+        0,
+        0,
+        -1
+      ],
+      "blind_bore_bbox_mm": [
+        26.5,
+        82.5,
+        4.0,
+        41.5,
+        97.5,
+        18.0
+      ],
+      "tool_corridor_bbox_mm": [
+        24.0,
+        80.0,
+        18.0,
+        44.0,
+        100.0,
+        48.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": false,
+      "tool20_interferences": [
+        "ApoioOpostoR002"
+      ],
+      "local_straight_tool_diameter_limit_mm": 18,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca269_Peca267_158",
+      "a": "Peca267",
+      "b": "Peca269",
+      "axis": "u",
+      "interface_uvz_mm": [
+        0.0,
+        158.0,
+        9.0
+      ],
+      "cam_part": "Peca269",
+      "cam_access_uvz_mm": [
+        34.0,
+        158.0,
+        18.0
+      ],
+      "drill_inward": [
+        0,
+        0,
+        -1
+      ],
+      "blind_bore_bbox_mm": [
+        26.5,
+        150.5,
+        4.0,
+        41.5,
+        165.5,
+        18.0
+      ],
+      "tool_corridor_bbox_mm": [
+        24.0,
+        148.0,
+        18.0,
+        44.0,
+        168.0,
+        48.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": false,
+      "tool20_interferences": [
+        "ApoioOpostoR002"
+      ],
+      "local_straight_tool_diameter_limit_mm": 18,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca270_Peca267_90",
+      "a": "Peca267",
+      "b": "Peca270",
+      "axis": "u",
+      "interface_uvz_mm": [
+        0.0,
+        90.0,
+        299.0
+      ],
+      "cam_part": "Peca270",
+      "cam_access_uvz_mm": [
+        34.0,
+        90.0,
+        290.0
+      ],
+      "drill_inward": [
+        0,
+        0,
+        1
+      ],
+      "blind_bore_bbox_mm": [
+        26.5,
+        82.5,
+        290.0,
+        41.5,
+        97.5,
+        304.0
+      ],
+      "tool_corridor_bbox_mm": [
+        24.0,
+        80.0,
+        260.0,
+        44.0,
+        100.0,
+        290.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": false,
+      "tool20_interferences": [
+        "ApoioOpostoR002"
+      ],
+      "local_straight_tool_diameter_limit_mm": 18,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca270_Peca267_158",
+      "a": "Peca267",
+      "b": "Peca270",
+      "axis": "u",
+      "interface_uvz_mm": [
+        0.0,
+        158.0,
+        299.0
+      ],
+      "cam_part": "Peca270",
+      "cam_access_uvz_mm": [
+        34.0,
+        158.0,
+        290.0
+      ],
+      "drill_inward": [
+        0,
+        0,
+        1
+      ],
+      "blind_bore_bbox_mm": [
+        26.5,
+        150.5,
+        290.0,
+        41.5,
+        165.5,
+        304.0
+      ],
+      "tool_corridor_bbox_mm": [
+        24.0,
+        148.0,
+        260.0,
+        44.0,
+        168.0,
+        290.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": false,
+      "tool20_interferences": [
+        "ApoioOpostoR002"
+      ],
+      "local_straight_tool_diameter_limit_mm": 18,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca269_ApoioOpostoR002_90",
+      "a": "ApoioOpostoR002",
+      "b": "Peca269",
+      "axis": "z",
+      "interface_uvz_mm": [
+        16.0,
+        90.0,
+        18.0
+      ],
+      "cam_part": "ApoioOpostoR002",
+      "cam_access_uvz_mm": [
+        25.0,
+        90.0,
+        52.0
+      ],
+      "drill_inward": [
+        -1,
+        0,
+        0
+      ],
+      "blind_bore_bbox_mm": [
+        11.0,
+        82.5,
+        44.5,
+        25.0,
+        97.5,
+        59.5
+      ],
+      "tool_corridor_bbox_mm": [
+        25.0,
+        80.0,
+        42.0,
+        55.0,
+        100.0,
+        62.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": true,
+      "tool20_interferences": [],
+      "local_straight_tool_diameter_limit_mm": null,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca269_ApoioOpostoR002_158",
+      "a": "ApoioOpostoR002",
+      "b": "Peca269",
+      "axis": "z",
+      "interface_uvz_mm": [
+        16.0,
+        158.0,
+        18.0
+      ],
+      "cam_part": "ApoioOpostoR002",
+      "cam_access_uvz_mm": [
+        25.0,
+        158.0,
+        52.0
+      ],
+      "drill_inward": [
+        -1,
+        0,
+        0
+      ],
+      "blind_bore_bbox_mm": [
+        11.0,
+        150.5,
+        44.5,
+        25.0,
+        165.5,
+        59.5
+      ],
+      "tool_corridor_bbox_mm": [
+        25.0,
+        148.0,
+        42.0,
+        55.0,
+        168.0,
+        62.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": true,
+      "tool20_interferences": [],
+      "local_straight_tool_diameter_limit_mm": null,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca270_ApoioOpostoR002_90",
+      "a": "ApoioOpostoR002",
+      "b": "Peca270",
+      "axis": "z",
+      "interface_uvz_mm": [
+        16.0,
+        90.0,
+        290.0
+      ],
+      "cam_part": "ApoioOpostoR002",
+      "cam_access_uvz_mm": [
+        25.0,
+        90.0,
+        256.0
+      ],
+      "drill_inward": [
+        -1,
+        0,
+        0
+      ],
+      "blind_bore_bbox_mm": [
+        11.0,
+        82.5,
+        248.5,
+        25.0,
+        97.5,
+        263.5
+      ],
+      "tool_corridor_bbox_mm": [
+        25.0,
+        80.0,
+        246.0,
+        55.0,
+        100.0,
+        266.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": true,
+      "tool20_interferences": [],
+      "local_straight_tool_diameter_limit_mm": null,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P04",
+      "id": "Peca270_ApoioOpostoR002_158",
+      "a": "ApoioOpostoR002",
+      "b": "Peca270",
+      "axis": "z",
+      "interface_uvz_mm": [
+        16.0,
+        158.0,
+        290.0
+      ],
+      "cam_part": "ApoioOpostoR002",
+      "cam_access_uvz_mm": [
+        25.0,
+        158.0,
+        256.0
+      ],
+      "drill_inward": [
+        -1,
+        0,
+        0
+      ],
+      "blind_bore_bbox_mm": [
+        11.0,
+        150.5,
+        248.5,
+        25.0,
+        165.5,
+        263.5
+      ],
+      "tool_corridor_bbox_mm": [
+        25.0,
+        148.0,
+        246.0,
+        55.0,
+        168.0,
+        266.0
+      ],
+      "access": "interior",
+      "bore_inside_host": true,
+      "tool20_wood_clear": true,
+      "tool20_interferences": [],
+      "local_straight_tool_diameter_limit_mm": null,
+      "hardware_clearance_verified": false,
+      "family": "Minifix15 262.26.034+pinoB34 262.28.920 candidatos",
+      "underside_face_unbroken": true,
+      "nominal_skin_at_max_drill_depth_mm": 4.0,
+      "purchase_quantity": false
+    }
+  ],
+  "T0_critical_access_ids": [
+    "Peca269_Peca267_90",
+    "Peca269_Peca267_158",
+    "Peca270_Peca267_90",
+    "Peca270_Peca267_158"
+  ],
+  "T0_fixed_calcos": [
+    {
+      "name": "CalcoVizinhaR18",
+      "label": "173H7100 calço0 · Cabeceira porta 1 - abrir para esquerda · z80",
+      "box_uvz_mm": [
+        25.0,
+        172.5,
+        51.416999999999916,
+        33.5,
+        214.01000000000022,
+        108.58300000000008
+      ]
+    },
+    {
+      "name": "CalcoVizinhaR002",
+      "label": "173H7100 calço0 · Cabeceira porta 1 - abrir para esquerda · z228",
+      "box_uvz_mm": [
+        25.0,
+        172.5,
+        199.41699999999992,
+        33.5,
+        214.01000000000022,
+        256.5830000000001
+      ]
+    }
+  ],
+  "T0_bom": [
+    {
+      "item": "Minifix 15 - 262.26.034",
+      "qty_T0": 8,
+      "purpose": "Canecos das 8 juntas locais; não são compra adicional do P04."
+    },
+    {
+      "item": "Pino B34 - 262.28.920",
+      "qty_T0": 8,
+      "purpose": "Conferir produto, rosca e gabarito na chapa real."
+    },
+    {
+      "item": "Calço 173H7100",
+      "qty_T0": 2,
+      "purpose": "Calços fixos esquerdos nas posições R52; sem portas no T0."
+    },
+    {
+      "item": "Allen SW4 - Wera 950 PKS 05133154001",
+      "qty_T0": 1,
+      "purpose": "Braços 80 x 22 mm; usar braço curto reto."
+    },
+    {
+      "item": "Bigfer 04.02.058 candidata",
+      "qty_T0": 1,
+      "purpose": "Conferência geométrica esquerda, sem carga; método/fixadores pendentes."
+    }
+  ],
+  "T0_assembly": [
+    "Montar base/divisor/tampo com os4pinos verticais;fechar topo emz.",
+    "Aproximar lateral pela direcaou,encaixando simultaneamente4pinos horizontais.",
+    "Apertar4canecos junto a lateral comSW4 curta,com divisor ja montado.",
+    "Posicionar fundo/calcos/suporte candidato e repetir acesso/reencaixe/retirada,sem carga.",
+    "Fixacao temporaria do dispositivo fora da regiao validada,sem inventar cavilhas ou furos estruturais."
+  ],
+  "laboratory_to_define": [
+    "SKU/lote/espessura real e acabamento de cada chapa;gabarito,pilotos,passagens,escareamento e torque.",
+    "Dispositivo e cadeia de forca/deslocamento calibrados;faixas,resolucao/incerteza e correcao da deformacao do aparelho.",
+    "Numero de corpos/repeticoes,incrementos,tempos/ciclos,criterios e fatores do protocolo de resistencia aplicavel.",
+    "Metodo Bigfer no fundo18/divisor18,retencao e fixadores;centro/area reais dos apoios inferiores antes de aceitarh160."
+  ],
+  "limits": [
+    "T0e recorte de200mm de largura interna;nao representa flexao da caixa1800 nem capacidade das juntas/suspensao.",
+    "Dimensoes finais nominais,nao corte bruto ouCNC;ajustar pela espessura/fita real antes de usinar.",
+    "Dados de seis vetores sao servico estatico do estudo,nao cargas normativas de prova;nao transformarN emkg e aplicar separadamente.",
+    "Nenhum limite de resistencia/torque/fator foi inventado;lab deve registrar protocolo antes da aplicacao de carga.",
+    "Planilha de registro e modelo vazio:replicas e medidas em branco;NAO_EXECUTADO nao significa reprovado."
+  ],
+  "qualification_cases": [
+    {
+      "case_id": 198,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "near_u0",
+      "doors_deg": [
+        0,
+        86,
+        0,
+        86
+      ],
+      "share_left": 0.0,
+      "side": 0,
+      "u_mm": 65.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 283.64108957640417,
+      "T_N": 0.0,
+      "R_N": 283.64108957640417,
+      "local_M_corner_Nmm": [
+        -5105.539612375275,
+        -11487.464127844369,
+        0.0
+      ],
+      "force_uvz_N": [
+        0.0,
+        -0.0,
+        283.64108957640417
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "V_N"
+      ]
+    },
+    {
+      "case_id": 252,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "front",
+      "doors_deg": [
+        86,
+        86,
+        86,
+        86
+      ],
+      "share_left": 1.0,
+      "side": 0,
+      "u_mm": 65.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 231.12839159953788,
+      "T_N": 515.7838861827206,
+      "R_N": 565.2020440949758,
+      "local_M_corner_Nmm": [
+        -4160.311048791682,
+        -9360.699859781284,
+        -20889.247390400185
+      ],
+      "force_uvz_N": [
+        0.0,
+        -515.7838861827206,
+        231.12839159953788
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "T_N"
+      ]
+    },
+    {
+      "case_id": 253,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "near_u0",
+      "doors_deg": [
+        86,
+        86,
+        86,
+        86
+      ],
+      "share_left": 1.0,
+      "side": 0,
+      "u_mm": 65.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 278.6859123021917,
+      "T_N": 515.7838861827206,
+      "R_N": 586.2583517200028,
+      "local_M_corner_Nmm": [
+        -5016.346421439451,
+        -11286.779448238764,
+        -20889.247390400185
+      ],
+      "force_uvz_N": [
+        0.0,
+        -515.7838861827206,
+        278.6859123021917
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "R_N"
+      ]
+    },
+    {
+      "case_id": 229,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "near_uL",
+      "doors_deg": [
+        86,
+        0,
+        86,
+        0
+      ],
+      "share_left": 0.0,
+      "side": 1,
+      "u_mm": 1723.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 273.31620177777194,
+      "T_N": 457.75802184243014,
+      "R_N": 533.145526770433,
+      "local_M_corner_Nmm": [
+        -4919.6916319998945,
+        11069.306171999764,
+        18539.19988461842
+      ],
+      "force_uvz_N": [
+        0.0,
+        -457.75802184243014,
+        273.31620177777194
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "V_N"
+      ]
+    },
+    {
+      "case_id": 252,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "front",
+      "doors_deg": [
+        86,
+        86,
+        86,
+        86
+      ],
+      "share_left": 0.0,
+      "side": 1,
+      "u_mm": 1723.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 222.02823494607534,
+      "T_N": 515.7838861827206,
+      "R_N": 561.5421216249225,
+      "local_M_corner_Nmm": [
+        -3996.5082290293562,
+        8992.143515316051,
+        20889.247390400185
+      ],
+      "force_uvz_N": [
+        0.0,
+        -515.7838861827206,
+        222.02823494607534
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "T_N"
+      ]
+    },
+    {
+      "case_id": 254,
+      "rho": 900,
+      "payload_kg": 10.0,
+      "payload_case": "near_uL",
+      "doors_deg": [
+        86,
+        86,
+        86,
+        86
+      ],
+      "share_left": 0.0,
+      "side": 1,
+      "u_mm": 1723.5,
+      "z_mm": 250.0,
+      "h_mm": 160.0,
+      "V_N": 268.37323257876534,
+      "T_N": 515.7838861827206,
+      "R_N": 581.4268734849859,
+      "local_M_corner_Nmm": [
+        -4830.718186417776,
+        10869.115919439997,
+        20889.247390400185
+      ],
+      "force_uvz_N": [
+        0.0,
+        -515.7838861827206,
+        268.37323257876534
+      ],
+      "mass_kg": 46.20911591069461,
+      "capacity_selected": false,
+      "hardware_mass_included": false,
+      "controls": [
+        "R_N"
+      ]
+    }
+  ],
+  "registration_template": [
+    {
+      "id": "Peca269_Peca267_90",
+      "stage": "T0_acesso",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "Peca269_Peca267_158",
+      "stage": "T0_acesso",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "Peca270_Peca267_90",
+      "stage": "T0_acesso",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "Peca270_Peca267_158",
+      "stage": "T0_acesso",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T1_axial_base_divisor",
+      "stage": "T1_juntas",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T1_axial_topo_divisor",
+      "stage": "T1_juntas",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T1_cortante_horizontal_lateral",
+      "stage": "T1_juntas",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T1_grupo_traseiro",
+      "stage": "T1_juntas",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_1",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 198,
+      "side": 0,
+      "service_V_target_N": 283.64108957640417,
+      "service_T_target_N": 0.0,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_2",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 252,
+      "side": 0,
+      "service_V_target_N": 231.12839159953788,
+      "service_T_target_N": 515.7838861827206,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_3",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 253,
+      "side": 0,
+      "service_V_target_N": 278.6859123021917,
+      "service_T_target_N": 515.7838861827206,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_4",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 229,
+      "side": 1,
+      "service_V_target_N": 273.31620177777194,
+      "service_T_target_N": 457.75802184243014,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_5",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 252,
+      "side": 1,
+      "service_V_target_N": 222.02823494607534,
+      "service_T_target_N": 515.7838861827206,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T2_6",
+      "stage": "T2_suporte",
+      "replica": "",
+      "case_id": 254,
+      "side": 1,
+      "service_V_target_N": 268.37323257876534,
+      "service_T_target_N": 515.7838861827206,
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    },
+    {
+      "id": "T3_caixa_completa",
+      "stage": "T3_conjunto",
+      "replica": "",
+      "case_id": "",
+      "side": "",
+      "service_V_target_N": "",
+      "service_T_target_N": "",
+      "specimen_lot": "",
+      "measured_thickness_mm": "",
+      "actual_hardware": "",
+      "actual_tool": "",
+      "process_pilot_torque": "",
+      "applied_V_N": "",
+      "applied_T_N": "",
+      "relative_displacement_mm": "",
+      "device_displacement_mm": "",
+      "min_clearance_mm": "",
+      "damage_or_contact": "",
+      "recovery_mm": "",
+      "time_temperature_humidity": "",
+      "evidence_file": "",
+      "laboratory_id": "",
+      "result": "",
+      "status": "NAO_EXECUTADO"
+    }
+  ],
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "sources_sha256": {
+    "04_Moveis/Aereos_suspensao/Lote_B_geometria.json": "281b7b949967e48341feb013eab8e3fba732bc7b11ce3d35104430e560144864",
+    "04_Moveis/Aereos_suspensao/Lote_B_detalhamento.json": "dffc6c686a6cc26ee2aebcb3ff0c4a031011e0d8f69b63db59bb30c0aec208c5",
+    "04_Moveis/Aereos_suspensao/P04_validacao.json": "4b3c18024d38a85c58be1f56006c52e39a7f3f7fd0ac18f5f654b7a449795200",
+    "04_Moveis/Aereos_suspensao/P04_fontes_validacao.json": "0f02dc6b73c85b579e0fbb0f4bb3c8280b9f6b82d7d30e7b6ec63894701fec04"
+  },
+  "generator_sha256": "d907251d08d741a07df6e9f3c376bffc6af1a957ebf16df81aaed6b52a35be76",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0"
+}

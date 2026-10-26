@@ -20,7 +20,7 @@ Minifix candidatos262.26.034/262.28.920:[fontes oficiais](Lote_B_fontes_Minifix.
 
 **P04:quatro acessos resolvidos nominalmente:** AllenSW4 curta80×22,sem mover divisória. [Validação](../P04/Suspensao_P04_P15/README.md#p04--acesso-e-caminho-da-carga-vigentes) · [desenho](P04_acesso_e_suspensao.png):envolvente contínua,oito calços fixos,portas desclipadas,folga3,30mm. Retalho real pendente;corredor genérico20 inadequado.
 
-**SuspensãoP04:** canto esquerdo externo rejeitado por colisão com o divisor. Bigfer candidata na faceu25 desse divisor18 e na lateral direita;765equilíbrios3D/1530vetores,seis casos de qualificação,braço hipotético160. Máximos separadosV283,64/T515,78/R586,26N por suporte. [Dados](P04_validacao.json) · [conferência](P04_verificacao_validacao.json) · [roteiro de juntas e conjunto](P04_roteiro_validacao.txt). Dois suportes não têm suficiência demonstrada; novo caminho pelo divisor/fundo requer prova.
+**SuspensãoP04:** canto esquerdo externo rejeitado por colisão com o divisor. Bigfer candidata na faceu25 desse divisor18 e na lateral direita;765equilíbrios3D/1530vetores,seis casos de qualificação,braço hipotético160. Máximos separadosV283,64/T515,78/R586,26N por suporte. [Dados](P04_validacao.json) · [conferência](P04_verificacao_validacao.json) · [pacote para laboratório](P04_ensaios_laboratorio.pdf). Dois suportes não têm suficiência demonstrada; novo caminho pelo divisor/fundo requer prova.
 
 **Traseira:**48 posições Confirmat7×50 base/tampo–fundo herdam estações dos estudos parciais;32mm além do fundo18,sem alcançar a face inferior. R00 tem18/12/9CF anteriores; proposta com fundos inteiros soma24/24/0, dando42/36/9, sem compra definida. P04 conserva2CF/divisor doR00: não somar também o terceiro marcador do estudo parcial.
 

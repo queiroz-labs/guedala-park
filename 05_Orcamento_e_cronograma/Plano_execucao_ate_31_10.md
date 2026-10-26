@@ -89,6 +89,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T03 — Ligações e detalhamento no CAD | P0 | 26–28/10
 
+**Preparação físicaP04,26/10/2026:** [pacote para marcenaria/laboratório](../04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf),conforme resposta de Elias em25/10:“Preparar para marcenaria/laboratório”. T0:cinco retalhos,oito Minifix,quatro acessos e sequênciaz→u;T1:juntas;T2:seis vetores de serviço;T3:caixa completa. Quinze linhas-modelo sem medições,nenhum ensaio executado. Oficina confirma processo,protocolo e instrumentos antes de cortar/aplicar carga;R52 preservada.
+
 **LoteB em25/10/2026:** [P17→P04→P12](../04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12), respostas de Elias:“20 kg / 10 kg / 10 kg”,“Desenvolver os fundos inteiros” e base limpa.585casos/60Minifix;16entradas inferiores antigas a substituir. FundosP17/P04 preservam envelope/vãos,fitas inferiores Arenza/off-white. P04:4acessosSW4 curta resolvidos nominalmente;suporte esquerdo proposto no divisor18 após rejeitar canto externo;765equilíbrios3D/1530vetores,seis casos de qualificação. Juntas/rigidez,retenção,contatos inferiores e produto ainda sem prova física;R52 intacta.
 
 **P01/P03, caminho superior25/10:** [estudo separado traseiro](../04_Moveis/P01/Caminho_superior_P03/README.md) preserva vãos e envelope, acrescentando18 na altura do fundoP01 e18 para trás na baseP03. Quatro interfaces conferidas, sem interferências dos acréscimos. Seis modelos reduzidos convergentes excedem a referência: contato sozinho não libera a base18. Ação de caixa/topo/fundo/laterais, travessa frontal e juntas continuam como trabalho de projeto, sem atribuir a pendência às medidas do apartamento.

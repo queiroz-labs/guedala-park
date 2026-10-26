@@ -4,6 +4,12 @@
 
 ## P04 — acesso e caminho da carga vigentes
 
+**Preparação física para laboratório:** Elias,25/10/2026:“Preparar para marcenaria/laboratório”. [Pacote de quatro páginas](../../Aereos_suspensao/P04_ensaios_laboratorio.pdf) · [retalhosT0](../../Aereos_suspensao/P04_retalhos_T0.csv) · [ficha vazia](../../Aereos_suspensao/P04_registro_laboratorio.csv) · [conferência do pacote](../../Aereos_suspensao/P04_verificacao_preparacao.json).
+
+Começar peloT0 sem carga: cinco retalhos,recorte interno200/externo218×230×308,folga7 e vão272; oito Minifix reproduzem a montagem local e os quatro acessos críticos. Primeiro montar base/divisor/tampo emz; depois encaixar a lateral emu. Calços fixos mantidos,portas ausentes. Dimensões acabadas nominais,não corte bruto/CNC;material/fita/gabaritos/pilotos e instrumento reais devem ser conferidos pela oficina. O recorte não demonstra resistência da caixa1800.
+
+As15linhas de registro continuam **NAO_EXECUTADO**,com medições e replicação vazias. T1:juntas;T2:seis vetores de serviço do suporte;T3:caixa inteira. Laboratório define protocolo,replicação,cargas de prova/ciclos e critérios antes de aplicar carga. Nenhum contato externo,compra ou ensaio foi realizado. [Dados de preparação](../../Aereos_suspensao/P04_preparacao_ensaios.json). Gerador requerReportLab/NumPy,disponíveis noPython embutido;conferência usaNumPy/pypdf.
+
 Elias,25/10/2026:“20 kg / 10 kg / 10 kg” na ordemP17/P04/P12,“Desenvolver os fundos inteiros” e “Base limpa, sem cabeças ou tampinhas aparentes”. NoP04:10kg de edredom,fundo1764×308×18,duas facesBrancoTX e fita inferiorArenza,conforme [premissas](../../Aereos_suspensao/Lote_B_premissas.json). Conjunto≈36,15–46,21kg antes das ferragens;24Minifix e36Confirmat candidatos no mapa reconciliado,sem compra ou capacidade demonstrada.
 
 **Quatro acessos:** corpo [Häfele262.26.034](https://www.hafele.com.de/en/product/connector-housing-haefele-minifix-15-zinc-alloy-without-rim/26226034/) aceitaSW4. A [Wera950PKS,05133154001](https://www.weratools.com/en-ca/tools/950-pks-l-key-metric-chrome-plated) tem4mm e braços80/22. Usar braço curto reto no caneco e longo como alavanca,cursos de até60°,retirar e reencaixar60°;curso final conforme travamento/instrução,sem torque inventado. Caixa antes das portas/dobradicas; manutenção com portas desclipadas,calços fixos mantidos. Sem mover divisória,abrir pela face inferior ou mudarB34.

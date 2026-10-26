@@ -1,0 +1,16 @@
+﻿id;stage;replica;case_id;side;service_V_target_N;service_T_target_N;specimen_lot;measured_thickness_mm;actual_hardware;actual_tool;process_pilot_torque;applied_V_N;applied_T_N;relative_displacement_mm;device_displacement_mm;min_clearance_mm;damage_or_contact;recovery_mm;time_temperature_humidity;evidence_file;laboratory_id;result;status
+Peca269_Peca267_90;T0_acesso;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+Peca269_Peca267_158;T0_acesso;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+Peca270_Peca267_90;T0_acesso;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+Peca270_Peca267_158;T0_acesso;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T1_axial_base_divisor;T1_juntas;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T1_axial_topo_divisor;T1_juntas;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T1_cortante_horizontal_lateral;T1_juntas;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T1_grupo_traseiro;T1_juntas;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_1;T2_suporte;;198;0;283.64108957640417;0.0;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_2;T2_suporte;;252;0;231.12839159953788;515.7838861827206;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_3;T2_suporte;;253;0;278.6859123021917;515.7838861827206;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_4;T2_suporte;;229;1;273.31620177777194;457.75802184243014;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_5;T2_suporte;;252;1;222.02823494607534;515.7838861827206;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T2_6;T2_suporte;;254;1;268.37323257876534;515.7838861827206;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+T3_caixa_completa;T3_conjunto;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO

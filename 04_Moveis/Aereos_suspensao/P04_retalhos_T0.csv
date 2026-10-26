@@ -1,0 +1,6 @@
+﻿id;source_CAD;piece;qty;finished_A_mm;finished_B_mm;nominal_thickness_mm;box_uvz_mm;scope
+T0-1;Peca267;Lateral esquerda;1;308.0;230.0;18.0;[-18.0, 0.0, 0.0, -0.0, 230.0, 308.0];Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia
+T0-2;Peca269;Base;1;212.0;200.0;18.0;[0.0, 18.0, 0.0, 200.0, 230.0, 18.0];Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia
+T0-3;Peca270;Tampo;1;212.0;200.0;18.0;[0.0, 18.0, 290.0, 200.0, 230.0, 308.0];Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia
+T0-4;Peca268;Fundo inteiro;1;308.0;200.0;18.0;[0.0, 0.0, 0.0, 200.0, 18.0, 308.0];Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia
+T0-5;ApoioOpostoR002;Divisor junto a lateral;1;272.0;212.0;18.0;[7.0, 18.0, 18.0, 25.0, 230.0, 290.0];Retalho geometricoT0,nao peca para fabricar o armario ou ensaio de resistencia

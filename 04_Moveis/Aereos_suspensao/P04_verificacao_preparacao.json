@@ -1,0 +1,18 @@
+{
+  "status": "OK_PACOTE_PREPARATORIO",
+  "pdf_pages": 4,
+  "T0_parts": 5,
+  "T0_MF": 8,
+  "T0_critical_accesses": 4,
+  "empty_record_templates": 15,
+  "physical_tests_executed": 0,
+  "CAD_preserved": true,
+  "sources_sha256": {
+    "P04_preparacao_ensaios.json": "9034d8fc23cb0158ae4835b560a1542400810032fea1f2047f253b9a47d96705",
+    "P04_ensaios_laboratorio.pdf": "33a70f142727f63b3ae6d5b9c7cd5f4fa9f503cbb5638e544a613b6c15158439",
+    "P04_retalhos_T0.csv": "e54765c6602c0ff43f34b6771aec97de4570d384be523491478b26cca2389d85",
+    "P04_registro_laboratorio.csv": "596837ef65b695a2b911ceca837815305115f70d4a65d82b75951846972e82c0"
+  },
+  "verifier_sha256": "656c88837656116a0e42b5ca0208fc72dea97bdfe27b49c1f72d87b319007045",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao."
+}

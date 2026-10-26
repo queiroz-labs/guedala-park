@@ -4,6 +4,8 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
 | Comando | O que faz | Tempo |
 |---|---|---|
+| `python -B ferramentas/aereos/preparar_ensaios_p04.py` | PacotePDF de quatro páginas,cinco retalhosT0/oito Minifix e15registros vazios;ReportLab/NumPy noPython embutido,sem ensaio físico | segundos |
+| `python -B ferramentas/aereos/conferir_ensaios_p04.py` | Confere recorte,sequência por eixos,campos vazios,fontes e páginasPDF;NumPy/pypdf,sem abrirCAD | segundos |
 | `python -B ferramentas/aereos/validar_p04.py` | Quatro acessosSW4 curta,calçosR52,implantação candidata e765equilíbrios3D/1530vetores;gera desenho/casos para qualificação,sem ensaio físico | segundos |
 | `python -B ferramentas/aereos/conferir_p04.py` | Confere envelopes contínuos/controles negativos e equilíbrio independente,sem abrirCAD ou demonstrar capacidade | segundos |
 | `python -B ferramentas/aereos/reconciliar_lote_b.py` | P17/P04/P12: premissas respondidas, cinco geometrias,47 contatosR00 e16 entradas inferiores antigas; fundo inteiro separado daR52 (NumPy/Pillow) | segundos |
