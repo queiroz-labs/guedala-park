@@ -6,9 +6,11 @@ from detalhar_ligacoes import ROOT,OUT,W,H,G
 import numpy as np
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+from fontes import sha,HASH_RULE
 def main():
     d=read(OUT/'Selecao_ferragem.json')
+    assert d['hash_rule']==HASH_RULE
+    assert sha(Path(__file__).with_name('fontes.py'))==d['hash_helper_sha256']
     assert sha(ROOT/'ferramentas/aereos/selecionar_ferragem.py')==d['script_sha256']
     for r in d['source_pdfs']:assert sha(ROOT/r['path'])==r['sha256']
     for p,v in d['source_input_sha256'].items():assert sha(ROOT/p)==v

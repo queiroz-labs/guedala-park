@@ -81,6 +81,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
+- Estudos dos aéreos: hashes de texto normalizamCRLF/LF e caminhos relativos usam`/`, permitindo conferência em clone limpo. PDF/FCStd continuam byte a byte; cálculos e geometrias preservados.
+
 - Regras de organização e leitura econômica: [AGENTS.md](AGENTS.md). Mapa das pastas: [README.md](README.md).
 - Fluxo Git reforçado por Elias (25/10/2026): commits pequenos e por assunto, inclusão por caminho, README da área e estado atual no mesmo commit; verificação e hook antes de commitar, clone limpo com `--ci` antes de push e acompanhamento de cada processo Git até terminar. Limites: README ≤16 KB; demais `.md` ≤60 KB. Regras completas no [AGENTS.md](AGENTS.md#7-git-e-sessões-simultâneas).
 - Leia esta página, depois só o README da área. Dados pontuais: JSON ao lado de cada README. **Não leia inteiro** o Registro de decisões (475 KB): busque por palavra.

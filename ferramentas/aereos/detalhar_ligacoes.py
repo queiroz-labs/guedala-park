@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'04_Moveis/Aereos_suspensao';G
 sys.path.insert(0,str(ROOT/'ferramentas/cinematica'))
 from cinematica import Engine
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+from fontes import sha,HASH_RULE
 ENGINE=Engine(ROOT/'04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json')
 OLD=read(OUT/'Geometria_R51.json');OTHER=read(ROOT/'04_Moveis/P04/Suspensao_P04_P15/Geometria_e_portas_R51.json')
 W={'P09':614.,'P11':661.,'P15':799.};H={'P09':592.,'P11':610.,'P15':580.};D=330.
@@ -124,7 +124,7 @@ def main():
             dims=sorted((b[3:]-b[:3]).tolist());assert dims==dimensions[name],(code,name,dims,dimensions[name])
             assert abs(np.prod(b[3:]-b[:3])-oldparts[name]['volume_mm3'])<1e-5
             assert np.max(np.abs((b[:3]+b[3:])/2-oldparts[name]['center_uvz_mm']))<1e-5
-        audit.append(dict(code=code,source_csv=str(csvpath.relative_to(ROOT)),sha256=sha(csvpath),panels=len(profiles(code))))
+        audit.append(dict(code=code,source_csv=csvpath.relative_to(ROOT).as_posix(),sha256=sha(csvpath),panels=len(profiles(code))))
     oldcases=read(OUT/'Resultados.json')['cases']
     oldcases=[r for r in oldcases if r['code'] in ['P09','P11']]
     oldcases += [r for r in read(ROOT/'04_Moveis/P04/Suspensao_P04_P15/Resultados.json')['cases'] if r['code']=='P15']
@@ -186,7 +186,8 @@ def main():
         cases_recomputed=len(oldcases),group_load_rows=len(loads),maximum_equilibrium_residual_N_Nmm=max(equilibrium),
         axes_nominal=jrows,access=access,edge_only_contacts=contacts,critical_groups=list(critical.values()),
         alternative_rear_reserve=alternatives,
-        source_sha256={str(p.relative_to(ROOT)):sha(p) for p in sources},generator_sha256=sha(Path(__file__)),
+        source_sha256={p.relative_to(ROOT).as_posix():sha(p) for p in sources},generator_sha256=sha(Path(__file__)),hash_rule=HASH_RULE,
+        hash_helper_sha256=sha(Path(__file__).with_name('fontes.py')),
         hardware_existing_counts={'P11_Minifix':12,'P15_Minifix':8},
         accessory_mass_reserve_kg=1.,depurador_included_in_P09=False,
         P15_new_side_pin_base_height_mm=27.,P15_old_side_pin_base_height_mm=9.,

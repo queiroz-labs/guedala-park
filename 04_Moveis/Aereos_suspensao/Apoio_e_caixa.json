@@ -1643,11 +1643,13 @@
     "Conferir acesso/manutencao e retencao inferior com produto/fixadores reais;prototipo integrado da caixa continua necessario."
   ],
   "input_sha256": {
-    "04_Moveis\\Aereos_suspensao\\Selecao_ferragem.json": "07a4012cd484199564f85edcd2be4467af15226edcc54604de57cb0136cea57c",
-    "04_Moveis\\Aereos_suspensao\\Solicitacoes_suporte_L.csv": "a561c0c9316b850e227acc647dabfde538bb109204f5dd8f2abcf71e1d7a29ca",
-    "04_Moveis\\Aereos_suspensao\\Requisitos_suporte_L.csv": "9c1d368f2f3ed0739a8ab6a1ff02c39889897c122cc0b9a46400125e1f72ec7d",
-    "ferramentas\\aereos\\detalhar_ligacoes.py": "97596b7e1a774338d21202029c87a30d57746893b6a36e9f9af59cff84393137"
+    "04_Moveis/Aereos_suspensao/Selecao_ferragem.json": "66604de124c5c48ef546f8e957b6034c2c59ae6e31b6946058b3409eb9ed5678",
+    "04_Moveis/Aereos_suspensao/Solicitacoes_suporte_L.csv": "49074b9f668c90295d1276992dbb7dac56d1fbf3162badf7381504956b92865e",
+    "04_Moveis/Aereos_suspensao/Requisitos_suporte_L.csv": "752168e6e0541e94c518bc298887aa34b4415c0ff30cae6757e3859ae308b157",
+    "ferramentas/aereos/detalhar_ligacoes.py": "f1b1d15cfbe6a9b4c0135d2a6da7e64a11ea7fadcf23aed64ba5aa5900b89451"
   },
-  "script_sha256": "91060a4071fe8ffc80823a008721019c49c11681d0ddb31dc281fde69c5f4d2c",
+  "script_sha256": "9625ec6f230db6f0d7b1ab64f46f907695176fe165fe9f0c75364ced0ec91e46",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0",
   "physical_tests": 0
 }

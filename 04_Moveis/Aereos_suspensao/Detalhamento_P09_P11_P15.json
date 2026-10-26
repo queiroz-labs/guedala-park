@@ -7,20 +7,20 @@
   "input_reconciliation": [
     {
       "code": "P09",
-      "source_csv": "06_Entregas\\Fichas_fabricacao\\P09-pecas.csv",
-      "sha256": "551c57c77679767607ed237c995065caf6044bb30a42f6186eb5cc0a92993506",
+      "source_csv": "06_Entregas/Fichas_fabricacao/P09-pecas.csv",
+      "sha256": "906c4f4b49868707978c86f3a116bba9f4079e5081197bfcf070fef8477bb4ea",
       "panels": 6
     },
     {
       "code": "P11",
-      "source_csv": "06_Entregas\\Fichas_fabricacao\\P11-pecas.csv",
-      "sha256": "a3dae1887409cb6e44e6950ec6a2b39ee400a86f287cdddd1b6de46bac01950f",
+      "source_csv": "06_Entregas/Fichas_fabricacao/P11-pecas.csv",
+      "sha256": "c743d86360da3358deb9d47119f54366aca83be50fe53a2a8e4884329295de2e",
       "panels": 6
     },
     {
       "code": "P15",
-      "source_csv": "06_Entregas\\Fichas_fabricacao\\P15-pecas.csv",
-      "sha256": "71cb5639616ff62e2b88648b24188db14c56f7697077b935e1b8b98b73f19845",
+      "source_csv": "06_Entregas/Fichas_fabricacao/P15-pecas.csv",
+      "sha256": "4d0b2450c3c95c20c6dc04a781b7bef960e0ff64f5d58c21ec87c69c67fffc20",
       "panels": 5
     }
   ],
@@ -2016,24 +2016,26 @@
     }
   ],
   "source_sha256": {
-    "04_Moveis\\Aereos_suspensao\\Resultados.json": "b479fea92726626fc983df339a989262b8fbf07526821a40f00a5206ecd17863",
-    "04_Moveis\\Aereos_suspensao\\Geometria_R51.json": "0af53ce3af293bea751fc3a16b7be84da85af93dc81988cb6899ca0d3602a897",
-    "04_Moveis\\P04\\Suspensao_P04_P15\\Resultados.json": "d2d32bd171e1b8db3a18d0a134d1b1dff2d062de199bb1fa773341a5635254b0",
-    "04_Moveis\\P04\\Suspensao_P04_P15\\Geometria_e_portas_R51.json": "aaa708f3fd2f61856929b1ddcd765268b44ca0366f6ebb2dc32e72b7bf1b6b33",
-    "04_Moveis\\Proximas_decisoes\\Cinematica\\Snapshot_R52.json": "64218b5a028d09d27c1045190a97eb22ebc009ef147d020676fb2c8952d1bdbf",
+    "04_Moveis/Aereos_suspensao/Resultados.json": "a9395228b823aa9d82cc425933ea322d6d38741a5cb4943f12a1e5e3c4835bd6",
+    "04_Moveis/Aereos_suspensao/Geometria_R51.json": "940215dd184300e55ef994476b716e6d385873ca947c6df376faab0657667887",
+    "04_Moveis/P04/Suspensao_P04_P15/Resultados.json": "68e297a677ae2d418174d8db3cc29b2253e852b8c918937f455ac572a2ab8a43",
+    "04_Moveis/P04/Suspensao_P04_P15/Geometria_e_portas_R51.json": "fd4a4405e85e6b28a491a2be3b13b26b6cc42c0fd9d85cb13bbd79c01abb6eb2",
+    "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json": "64218b5a028d09d27c1045190a97eb22ebc009ef147d020676fb2c8952d1bdbf",
     "AGENTS.md": "2092c9593e082e812352a157b1dbe067d78caaa7b1537c9d0922dab30cc91e45",
-    "06_Entregas\\Fichas_fabricacao\\P09-pecas.csv": "551c57c77679767607ed237c995065caf6044bb30a42f6186eb5cc0a92993506",
-    "06_Entregas\\Fichas_fabricacao\\P11-pecas.csv": "a3dae1887409cb6e44e6950ec6a2b39ee400a86f287cdddd1b6de46bac01950f",
-    "06_Entregas\\Fichas_fabricacao\\P15-pecas.csv": "71cb5639616ff62e2b88648b24188db14c56f7697077b935e1b8b98b73f19845",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Bigfer_suportes_aereos.pdf": "3bb42a79d7138aa2a146dcb1cda9e6ee2600787f79f1f29e8bedd645547c078b",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\FGVTN_0091_510010_montagem.pdf": "7ec11a8022abd2f5e77e0be84ddb5d48233543083c2976b8c868ad89d5bd603d",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\FGVTN_HB65_montagem.pdf": "2c0d779ba2747bea417e6377f2235f06456ba4fb1d5397a58caa10ac2253f847",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\FGVTN_HB65_tecnico.pdf": "c9a3b4204286c04cbb68ca141651e0b14813a8bfa63d60c1ac658907c281dfd2",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Hettich_SAH116_montagem.pdf": "ca445bff2c270c2447040ac92d5859a302dfa55d3c30639a846ccb3ea90669cf",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Hettich_SAH130_montagem.pdf": "f1a8ce7ee764bb92b6d0fd38be56ae7a9d64489eaaaef3f02a67d39b5101a8c8",
-    "09_Referencias\\Plantas_e_manuais\\Manuais\\Suggar_DE61IX_DE62IX.pdf": "47959f7d07f2085ef145297d0071a521f8eae0ff82d0752475ea08b32cda2002"
+    "06_Entregas/Fichas_fabricacao/P09-pecas.csv": "906c4f4b49868707978c86f3a116bba9f4079e5081197bfcf070fef8477bb4ea",
+    "06_Entregas/Fichas_fabricacao/P11-pecas.csv": "c743d86360da3358deb9d47119f54366aca83be50fe53a2a8e4884329295de2e",
+    "06_Entregas/Fichas_fabricacao/P15-pecas.csv": "4d0b2450c3c95c20c6dc04a781b7bef960e0ff64f5d58c21ec87c69c67fffc20",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Bigfer_suportes_aereos.pdf": "3bb42a79d7138aa2a146dcb1cda9e6ee2600787f79f1f29e8bedd645547c078b",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/FGVTN_0091_510010_montagem.pdf": "7ec11a8022abd2f5e77e0be84ddb5d48233543083c2976b8c868ad89d5bd603d",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/FGVTN_HB65_montagem.pdf": "2c0d779ba2747bea417e6377f2235f06456ba4fb1d5397a58caa10ac2253f847",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/FGVTN_HB65_tecnico.pdf": "c9a3b4204286c04cbb68ca141651e0b14813a8bfa63d60c1ac658907c281dfd2",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Hettich_SAH116_montagem.pdf": "ca445bff2c270c2447040ac92d5859a302dfa55d3c30639a846ccb3ea90669cf",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Hettich_SAH130_montagem.pdf": "f1a8ce7ee764bb92b6d0fd38be56ae7a9d64489eaaaef3f02a67d39b5101a8c8",
+    "09_Referencias/Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf": "47959f7d07f2085ef145297d0071a521f8eae0ff82d0752475ea08b32cda2002"
   },
-  "generator_sha256": "97596b7e1a774338d21202029c87a30d57746893b6a36e9f9af59cff84393137",
+  "generator_sha256": "f1b1d15cfbe6a9b4c0135d2a6da7e64a11ea7fadcf23aed64ba5aa5900b89451",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0",
   "hardware_existing_counts": {
     "P11_Minifix": 12,
     "P15_Minifix": 8

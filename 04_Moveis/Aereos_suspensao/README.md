@@ -59,6 +59,8 @@ HB65: página65kg/ficha60kg, unidade eV/T pendentes; exige reserva posterior16. 
 
 ### Próximas entregas e reprodução
 
+Hashes de texto normalizamCRLF→LF;PDF/FCStd permanecem byte a byte. Caminhos relativos usam`/`. Regressão: `python -B ferramentas/aereos/test_fontes.py`.
+
 Consultas prontas, não enviadas: [qualificaçãoBigfer e demais produtos](Consulta_suspensao_lote_A.txt) e [depurador](Consulta_depurador_P09.txt). Comprovar juntasMDF/composiçãoP15 por dados/ensaio e conferir ferragem/ferramentas/sequência reais. Parede/revestimento/instalações após as chaves; produto pode ser definido antes.
 
 [Dados e hashes](Detalhamento_P09_P11_P15.json) · [mapa dos96 eixos](Mapa_ligacoes_P09_P11_P15.csv) · [4176 solicitações](Solicitacoes_fixacao_direta.csv) · [conferência independente](Verificacao_ligacoes_P09_P11_P15.json).

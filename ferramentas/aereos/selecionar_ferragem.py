@@ -10,7 +10,7 @@ from PIL import Image,ImageDraw,ImageFont
 from detalhar_ligacoes import ROOT,OUT,W,H,D,profiles
 
 PDFDIR=ROOT/'09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao'
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+from fontes import sha,HASH_RULE
 
 def main():
     original=json.loads((OUT/'Detalhamento_P09_P11_P15.json').read_text(encoding='utf-8'))
@@ -111,9 +111,9 @@ def main():
             dict(product='FGVTNHB65;HettichSAH215/216',conclusion='Montagem atras do fundo;reserva inexistente na caixa atual,perda total se fundo deslocado;nao prioritarios'),
             dict(product='Camar807VP',conclusion='Alternativa de consulta,nao escolhida:desenho consultadoindicaBP16,casos de carga807IN nao se transferem paraVP;implantacao comfundo18 e oferta local nao demonstradas')],
         cad_sha256=original['cad_sha256'],cad_opened=False,cad_changed=False,
-        source_pdfs=[dict(path=str((PDFDIR/n).relative_to(ROOT)),url=url,sha256=sha(PDFDIR/n)) for n,url in sources.items()],
-        source_input_sha256={str(p.relative_to(ROOT)):sha(p) for p in [OUT/'Detalhamento_P09_P11_P15.json',OUT/'Solicitacoes_fixacao_direta.csv']},
-        script_sha256=sha(Path(__file__)),
+        source_pdfs=[dict(path=(PDFDIR/n).relative_to(ROOT).as_posix(),url=url,sha256=sha(PDFDIR/n)) for n,url in sources.items()],
+        source_input_sha256={p.relative_to(ROOT).as_posix():sha(p) for p in [OUT/'Detalhamento_P09_P11_P15.json',OUT/'Solicitacoes_fixacao_direta.csv']},
+        script_sha256=sha(Path(__file__)),hash_rule=HASH_RULE,hash_helper_sha256=sha(Path(__file__).with_name('fontes.py')),
         limits=['Corpo emL idealizado,sem furos/raios/capa e tolerancias reais.',
             'u40.5 ezH-58 correspondem a implantacao proposta;u32 era entrada do rasgo e foi corrigido. Nao transplantar numeros antigosu72/u32.',
             '18mm entre chapa metalica interna e parede sao vencidos pela ancoragem proposta;ha excentricidade local. Fabricante deve confirmar,sem espaçador ou parafuso escolhido.',

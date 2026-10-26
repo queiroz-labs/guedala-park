@@ -6,12 +6,14 @@ import numpy as np
 from detalhar_ligacoes import ROOT,OUT,W,H,profiles
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+from fontes import sha,HASH_RULE
 def csvrows(name):
     with (OUT/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f,delimiter=';'))
 
 def main():
     d=read(OUT/'Apoio_e_caixa.json');release=read(ROOT/'ferramentas/site/current_release.json')
+    assert d['hash_rule']==HASH_RULE
+    assert sha(Path(__file__).with_name('fontes.py'))==d['hash_helper_sha256']
     assert sha(ROOT/release['cadPath'])==d['cad_sha256']==release['cadSHA256']
     assert sha(ROOT/'ferramentas/aereos/analisar_apoio_caixa.py')==d['script_sha256']
     for p,v in d['input_sha256'].items():assert sha(ROOT/p)==v,p

@@ -556,26 +556,28 @@
   "cad_changed": false,
   "source_pdfs": [
     {
-      "path": "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Bigfer_suportes_aereos.pdf",
+      "path": "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Bigfer_suportes_aereos.pdf",
       "url": "https://www.bigfer.com.br/wp-content/uploads/sites/6/2023/03/Catalogo-Produto-Ferragens-em-geral-pg.-235.pdf",
       "sha256": "3bb42a79d7138aa2a146dcb1cda9e6ee2600787f79f1f29e8bedd645547c078b"
     },
     {
-      "path": "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Hettich_SAH130_montagem.pdf",
+      "path": "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Hettich_SAH130_montagem.pdf",
       "url": "https://web2.hettich.com/hbh/addon/montage/MTA_74387_SAH_130_Sprachneutral.pdf",
       "sha256": "f1a8ce7ee764bb92b6d0fd38be56ae7a9d64489eaaaef3f02a67d39b5101a8c8"
     },
     {
-      "path": "09_Referencias\\Plantas_e_manuais\\Manuais\\Ferragens_suspensao\\Hettich_SAH116_montagem.pdf",
+      "path": "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Hettich_SAH116_montagem.pdf",
       "url": "https://web2.hettich.com/hbh/addon/montage/MTA_19476_SAH_116.pdf",
       "sha256": "ca445bff2c270c2447040ac92d5859a302dfa55d3c30639a846ccb3ea90669cf"
     }
   ],
   "source_input_sha256": {
-    "04_Moveis\\Aereos_suspensao\\Detalhamento_P09_P11_P15.json": "7957b90d9bb4447ba15c4233efc60c6aac4999c6bfef2c00dda08cd5ba0c3bfd",
-    "04_Moveis\\Aereos_suspensao\\Solicitacoes_fixacao_direta.csv": "9d9adb44937fb88bdd8b2272673e743d095fdf233513688d861bb871ca5c43e3"
+    "04_Moveis/Aereos_suspensao/Detalhamento_P09_P11_P15.json": "0fc2224bc6d2333f15df75026fb2b95dc8253936a66fa2293ffc0cf76289e40b",
+    "04_Moveis/Aereos_suspensao/Solicitacoes_fixacao_direta.csv": "bbbe63cffa2de0bba88518ae9d979a2535d37850cea1bc2ebf7971fb619d0d25"
   },
-  "script_sha256": "0998063b4eb5741fb82cf212f6849d29f903cb71e007cc6e6d42fbeb79712d7f",
+  "script_sha256": "bb6630f50c6af880c83124c241c8d521f93d2b165be5bd4a690340fad9210404",
+  "hash_rule": "SHA256: texto .py/.json/.csv/.md/.txt com CRLF convertido em LF;demais bytes preservados. Binarios sem normalizacao.",
+  "hash_helper_sha256": "dd980a08ddf6d6ec215a1f49644005b1164dcb0544d3c51eff21b222e3280ff0",
   "limits": [
     "Corpo emL idealizado,sem furos/raios/capa e tolerancias reais.",
     "u40.5 ezH-58 correspondem a implantacao proposta;u32 era entrada do rasgo e foi corrigido. Nao transplantar numeros antigosu72/u32.",

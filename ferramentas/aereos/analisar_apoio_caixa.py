@@ -11,7 +11,7 @@ from PIL import Image,ImageDraw,ImageFont
 from detalhar_ligacoes import ROOT,OUT,W,H,profiles,joints
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+from fontes import sha,HASH_RULE
 def skew(r):
     x,y,z=r
     return np.array([[0,-z,y],[z,0,-x],[-y,x,0.]])
@@ -143,8 +143,8 @@ def main():
             'Aplicar cada vetor do corpo de prova no ponto indicado sem combinar maximos de casos diferentes;avaliar ambos os lados. Responsavel define fatores,duracao,ciclos e limites antes do ensaio.',
             'No local:mapear contato traseiro com caixa sustentada,confirmar prumo,areaefetiva,centro de pressao e parede/instalacoes antes de ancoragem. Nao usar contato presumido para fechar carga.',
             'Conferir acesso/manutencao e retencao inferior com produto/fixadores reais;prototipo integrado da caixa continua necessario.'],
-        input_sha256={str(p.relative_to(ROOT)):sha(p) for p in [OUT/'Selecao_ferragem.json',OUT/'Solicitacoes_suporte_L.csv',OUT/'Requisitos_suporte_L.csv',ROOT/'ferramentas/aereos/detalhar_ligacoes.py']},
-        script_sha256=sha(Path(__file__)),physical_tests=0)
+        input_sha256={p.relative_to(ROOT).as_posix():sha(p) for p in [OUT/'Selecao_ferragem.json',OUT/'Solicitacoes_suporte_L.csv',OUT/'Requisitos_suporte_L.csv',ROOT/'ferramentas/aereos/detalhar_ligacoes.py']},
+        script_sha256=sha(Path(__file__)),hash_rule=HASH_RULE,hash_helper_sha256=sha(Path(__file__).with_name('fontes.py')),physical_tests=0)
     (OUT/'Apoio_e_caixa.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     for name,rows in [('Reacoes_apoio_inferior.csv',lower),('Corpos_prova_fundo_laterais.csv',fixture_csv)]:
         with (OUT/name).open('w',encoding='utf-8-sig',newline='') as f:

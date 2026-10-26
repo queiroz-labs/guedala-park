@@ -4,13 +4,16 @@ import csv,hashlib,json,math
 from pathlib import Path
 import numpy as np
 from detalhar_ligacoes import profiles,W,H,ROOT,OUT,G
+from fontes import sha,HASH_RULE
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def main():
     d=read(OUT/'Detalhamento_P09_P11_P15.json')
-    assert hashlib.sha256((ROOT/'ferramentas/aereos/detalhar_ligacoes.py').read_bytes()).hexdigest()==d['generator_sha256']
+    assert d['hash_rule']==HASH_RULE
+    assert sha(Path(__file__).with_name('fontes.py'))==d['hash_helper_sha256']
+    assert sha(ROOT/'ferramentas/aereos/detalhar_ligacoes.py')==d['generator_sha256']
     assert hashlib.sha256((ROOT/'02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd').read_bytes()).hexdigest()==d['cad_sha256']
-    for name,expected in d['source_sha256'].items():assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==expected,name
+    for name,expected in d['source_sha256'].items():assert sha(ROOT/name)==expected,name
     assert d['cad_changed'] is False and d['cad_opened'] is False
     def face_joint(row):
         p=profiles(row['code'],row['variant']);a,b=p[row['a']],p[row['b']]
