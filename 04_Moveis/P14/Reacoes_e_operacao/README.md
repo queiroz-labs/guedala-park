@@ -1,5 +1,7 @@
 # Cesto P14 — reações dos pivôs, fixações e operação
 
+**Pesquisa pública, 26/10:** [bucha candidata e ajustes](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md): GFM-1012-15 identificada no catálogo igus; alojamento, ajuste com OMPCR e ligação à madeira ainda pendentes. Oito requisitos rastreados; consulta preparada, não enviada. Nenhuma alteração do conjunto nominal ou da R52.
+
 25/10/2026 · continuação do plano. **Concluída a estática nominal em três dimensões na parada 55° e a energia gravitacional durante a abertura.** O torque de 38,73 Nm e a tração de 133,29 N anteriores foram reproduzidos; o avanço é calcular os pivôs e as interfaces sem presumir divisão igual entre os lados. Nenhuma peça ou movimento da R51 foi alterado.
 
 ![Esquema do equilíbrio e retenção](Reacoes_parada_55.png)

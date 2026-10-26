@@ -26,3 +26,11 @@ Enviar preço dos códigos exatos e desenhos, sem substituição genérica. Nenh
 CandidatoOMPCR1020: ombroØ10×20, roscaM8×1,25 de13,25mm, cabeçaØ16×7, AllenSW5. Faixa lateral52mm; comprimento axial40,25mm deixa11,75mm nominais, sem demonstrar montagem completa. Solicitar corte com bucha, arruelas, folga axial, engajamento de rosca, retenção, apoio fixo e corredor de ferramenta. Informar materiais/proteção e sequência de manutenção.
 
 Usar os [casos simultâneos doP14](../../../P14/Reacoes_e_operacao/Montagem_nominal.json): maior resultante134,012N e momento de interface6,969Nm no caso216; retenção vertical reversa28,014N no caso72. Não somar extremos de casos distintos. Esses valores não incluem impacto nem comprovam resistência. A ligação deve transmitir levantamento e força horizontal às laterais/base. Consulta preparada, não enviada.
+
+## Complemento após pesquisa pública de 26/10 — não enviado
+
+As fichas públicas foram reconferidas; [matriz de requisitos](Pendencias_produtos.csv). Solicitar resposta por ID e desenho/revisão do produto fornecido. Para Bigfer B02/B03, priorizar curso de liberação e retenção nos dois sentidos de esforço. Para Mahler M01, solicitar corte eixo–face e montagem horizontal com fixação ao apoio de madeira.
+
+**Igus / oficina:** avaliar a candidata GFM-1012-15, material G, para os pivôs do cesto. Confirmar disponibilidade nacional e ajuste com o OMPCR1020 real; indicar tolerância/material do alojamento, condição de umidade, acabamento do eixo, folgas e retenção. A tabela consultada usa alojamento de aço; não há solução definida de prensagem na madeira. Fornecer corte completo e caminho de ligação à armação, preservando a manutenção e o saco. A solicitação nominal máxima de um pivô é 134,012 N, com outros casos de reversão já anexados; não é carga de prova ou capacidade requerida final com fatores de projeto.
+
+**Critério para avançar:** receber desenhos que resolvam os requisitos e confrontá-los com as interfaces calculadas. Só então completar montagem nominal e plano de protótipo. Resposta genérica de peso suportado ou fotografia sem cotas não encerra B02/B03/M01/P01.

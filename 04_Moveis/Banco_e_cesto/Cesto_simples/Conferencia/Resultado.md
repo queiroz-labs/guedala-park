@@ -8,6 +8,20 @@ Conversa de 23/10/2026. Apartamento não entregue; estudo independente do levant
 
 ![Comparação das posições nominais](Conferencia_visual.png)
 
+## Pesquisa técnica pública — 26/10/2026
+
+[Oito requisitos por produto](Pendencias_produtos.csv) separam evidência pública de resposta ainda necessária. Consulta via web; nenhuma mensagem enviada, compra ou ensaio. Os preços históricos abaixo não foram recotados nesta rodada.
+
+- **Bigfer:** o [desenho oficial p.112](https://www.bigfer.com.br/wp-content/uploads/sites/6/2023/02/Catalogo-Produto-Sistemas-e-Articuladores-pg.-112.pdf) confirma os códigos e cotas gerais já utilizados. Não foram encontrados nessa página curso de liberação, distância certificada ao engatar ou capacidade na montagem. Não usar a furação do modelo vizinho 04.03.307 para os códigos brancos.
+- **Mahler:** a [ficha Ref.54](https://mahlerinox.com/wp-content/uploads/2024/07/REF.54-2000x30-1.pdf) confirma espessura 0,8 mm, eixo interno Ø2 e fixação por parafuso/rebite. Não fornece dimensionamento da aplicação horizontal proposta. O apoio fixo e o eixo real continuam por detalhar.
+- **Ômega:** a [página do OMPCR 10×20](https://www.paulo-omegafix.com.br/produtos/parafuso-de-corpo-retificado-iso-7379-ompcr-10x20-m8x1-25-kit-04-p%C3%A7s) informa SAE4140, classe 10.9 e dureza 40 ±2 HRC. Isso não determina resistência do suporte, vida da bucha nem proteção na lavanderia.
+
+**Nova candidata para consulta, não selecionada:** bucha flangeada igus **GFM-1012-15**, material G. O [catálogo oficial, página impressa 107](https://www.igus.com/ContentData/Products/Downloads/iglide_G300_FM_USen.pdf) informa d1=10, d2=12, d3=18, b1=15 e b2=1 mm. A tabela indica alojamento de 12,000–12,018 mm, eixo de 9,964–10,000 mm e diâmetro interno após prensagem de 10,025–10,083 mm. O catálogo referencia alojamento de aço; **não há validação de prensagem direta na madeira do cesto**. Isso exige um alojamento definido, fixado ao conjunto, sem substituir a marcenaria por quadro metálico. Disponibilidade brasileira, tolerância do OMPCR, material do alojamento e compatibilidade com umidade permanecem pendentes.
+
+A G1FM-1012-10, encontrada na [página de produto G1](https://www.igus.com/iglide-ibh/flange-bearings/product-details/iglide-g1-m?artnr=G1FM-1012-10), é outro material/comprimento. Não transferir suas propriedades para a GFM-1012-15. O diâmetro interno nominal comum de 10 mm, sozinho, não comprova ajuste.
+
+**Decisão de projeto desta etapa:** continuar com o pivô como conjunto desmontável a detalhar. O corte deve identificar alojamento da bucha, ombro liso, faces de encosto, folga axial, retenção e apoio roscado. Não subtrair simplesmente 15 de 20 mm para declarar uma folga de montagem: faltam flange, arruelas/espaçadores, tolerâncias e alívio de raiz. O catálogo reduz a incerteza do componente; não fecha o suporte e sua ligação à madeira.
+
 ## Lista curta para priorizar custo
 
 | Peça | O que foi conferido | Situação e custo |

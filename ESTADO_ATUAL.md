@@ -78,6 +78,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **P14 montagem, 26/10:** [interfaces e roteiro](04_Moveis/P14/Reacoes_e_operacao/README.md): quatro casos simultâneos preservados, cinco sensibilidades de trava e oito registros vazios. Pivô 40,25 mm na faixa 52 mm ainda depende de bucha, retenção e acesso SW5. Consulta banco/cesto atualizada e não enviada; oficina indisponível, zero ensaios. R52 preservada.
 
+**Ferragens P14/P20, pesquisa de 26/10:** [fontes e oito requisitos](04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md). Bucha GFM-1012-15 entrou como candidata de consulta; ajuste, alojamento e ligação ainda indefinidos. Bigfer/Mahler seguem sem curso de liberação/capacidade na aplicação confirmados. Consultas não enviadas; sem compra, ensaio ou mudança R52.
+
 ## Próximos passos
 
 **Avanço 26/10 — juntas dos aéreos:** P17: 21 grupos/70 posições candidatas; P12: 9/21; 30 cortes de carga por móvel e 2.625 pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17: 24 apoios do estudo antigo coincidem após v=330−y; rigidez do Minifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto, sem execução; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Próximo: caracterizar juntas e caixa/ferragem reais; seguir frente independente enquanto aguarda oficina.

@@ -1,5 +1,7 @@
 # Banco P20 — tampas fechadas e caminho até o piso
 
+**Pesquisa pública, 26/10:** [fichas Bigfer/Mahler reconferidas](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md). Não foram obtidos curso certificado de liberação nem dimensionamento da montagem horizontal. Consulta técnica refinada; pontos de furação continuam condicionais.
+
 ## Tampa aberta e montagem — 26/10/2026
 
 [Resumo visual](Montagem_aberta.png) · [memória](Montagem_aberta.json) · [reações](Reacoes_abertas.csv) · [distância e ângulo da trava](Trava_distancia_angulo.csv) · [interfaces de montagem](Interfaces_montagem.csv) · [conferência independente](Verificacao_montagem_aberta.json).
