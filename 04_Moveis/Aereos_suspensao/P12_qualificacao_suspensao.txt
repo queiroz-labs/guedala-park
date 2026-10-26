@@ -1,0 +1,13 @@
+P12 - REQUISITOS DE QUALIFICACAO DA SUSPENSAO
+Consulta local preparada;nao enviada. Nenhum ensaio fisico executado.
+Caixa: W interno765;H584;D330mm;varianteatual;conteudo-alvo10kg.
+Candidata Bigfer04.02.058 nos cantos laterais/fundo18;2suportes apenas como hipotese. u40.5/724.5,Z548;centro inferiorZ90 e braco458mm hipoteticos.
+Posicao22mm acima da referencia do loteA evita os calcos superiores;metal deixa10mm ate o tampo. Portas desclipadas na manutencao;calcos fixos permanecem.
+Entrada dos rasgos espelhados nao permite translacao unica. Confirmar montagem com gabinete sustentado,nivelado e parafusos inseridos/apertados pela frente;remocao tambem com apoio.
+Confirmar cabeca/arruela/rasgo5 e passagem por fundo18,pilotos,parafusosMDF,pitch12 e borda9.5,profundidade util,torque,esmagamento/flexao,retencao e durabilidade.
+Parafuso auxiliar traseiro:corredor20 invade0.5 a lateral;reserva12 cabe com3.5 ate a lateral e sem atingir calcos. Ponta/cabeca,corpo da ferramenta e mao reais precisam de verificacao.
+Aplicar os 6 vetores simultaneos preservados em P12_qualificacao_suspensao.csv. Momentos rxF estao reduzidos ao canto,nao sao cargas extras;nao dividir V pelo numero de parafusos.
+Amostras com o painelBP18 real e juntas representativas da caixa. Definir antes protocolo,replicacao,fatores,ciclos,duracao e criterios de deslocamento/rotacao,residual e danos com fabricante/laboratorio/RT.
+Demonstrar rigidez da caixa/fundo e caminho ate os cantos. Medir area e centro inferior;coplanaridade nao garante Z90/1080mm2. Nenhuma cavilha/atrito creditado.
+Somar massas e centros reais de ferragens antes do ensaio do conjunto. Parede/revestimento,instalacoes e ancoragens definitivas dependem de levantamento.
+Reproducao:python -B ferramentas/aereos/suspender_lote_b.py --movel P12;python -B ferramentas/aereos/conferir_suspensao_b.py --movel P12.

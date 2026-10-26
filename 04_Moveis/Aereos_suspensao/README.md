@@ -2,7 +2,7 @@
 
 ## Lote B — P17/P04/P12
 
-[P17: suspensão candidata](../P17/Base_fundo_ligacoes/README.md#suspensão-candidata--26102026):u40,5/1923,5,Z514;765equilíbrios. Altura+22 evita calços;auxiliarØ12 nominal. Produto/juntas/ensaios pendentes.
+Implantação candidata: [P17](../P17/Base_fundo_ligacoes/README.md#suspensão-candidata--26102026),Z514/765equilíbrios; [P12](../P12/README.md),Z548/225. Altura+22 evita calços;auxiliarØ12 nominal. Produto/juntas/ensaios pendentes.
 
 **Premissas de Elias,25/10/2026:** “20 kg / 10 kg / 10 kg” de conteúdo, respectivamente; “Base limpa, sem cabeças ou tampinhas aparentes”; “Desenvolver os fundos inteiros”. [Registro e usos](Lote_B_premissas.json). Metas globais,sem capacidade demonstrada ou aplicação naR52.
 
