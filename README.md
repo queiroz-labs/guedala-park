@@ -2,7 +2,7 @@
 
 **Pé-direito para testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar (Elias, 26/10/2026).** Hipótese, não medição nem autorização de fabricação. Escritório: cenário separado de 2,47 m com forro. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
-Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).**
+Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).** Para continuar uma sessão, use a [retomada curta T09](ESTADO_ATUAL.md#como-trabalhar-nesta-pasta): versões, cinco decisões recentes, responsáveis, próximo passo e verificações comprovadas.
 
 **[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R22.zip)**
 
