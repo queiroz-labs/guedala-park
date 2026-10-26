@@ -23,7 +23,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Especificações | R01 | [Caderno de especificações](01_Programa_e_decisoes/Caderno_de_especificacoes.md) |
 | Pontos (elétrica, água, gás) | R00, preliminar | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
-| Orçamento | R43 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
+| Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R00 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
 | Site e pacote para o montador | Site com R52; pacote R21 e estudos P17/P12 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
@@ -39,7 +39,7 @@ O pacote R21 acrescenta a matriz 20/20 e os estudos separados de suspensão P17/
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | Planta de pontos preliminar; circuitos e traçados com o responsável técnico |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
-| Orçamento | 60% | Cenário de R$ 137,8 mil para teto de R$ 120 mil; pacote de marcenaria pronto, **em espera** |
+| Orçamento | 60% | R44: estimativa de execução R$ 137.748,11, excesso R$ 17.748,11 sobre teto de R$ 120 mil; reserva R$ 10 mil intocada. Metas separadas; marcenaria **em espera** |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | Roteiro pronto; depende das chaves |
 
