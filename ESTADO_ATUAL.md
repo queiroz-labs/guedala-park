@@ -93,6 +93,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **P08, 26/10:** [rodízios e estabilidade](04_Moveis/P08/README.md): 336 cenários e 1292 distribuições conferidas; 26 cenários sem equilíbrio ao excluir uma roda de canto. Kit de seis rodas e apoio de 39 mm preservados. Massas acabadas, contato, flexão, juntas, fixação, guias e batente pendentes; sensibilidades não definem carga de uso. Zero ensaios e R52 intacta.
 
+**T05 — P08 e varal, 26/10:** [P08](04_Moveis/P08/README.md#t05--percurso-e-retirada-26102026): 50.002 pares de caixas separados no percurso salvo de 400 mm; retirada completa, guia e batente ainda pendentes. [Varal](03_Ambientes/Lavanderia/Varal.md#t05--percurso-nominal-com-roupa-26102026): três dos 30 cenários apresentam encontro de envelopes roupa/lixeira em descida 860 mm e comprimento pendente 1200 mm. Não adotar o curso máximo como curso carregado sem conferir roupas/posição; sem mudança CAD ou ensaio.
+
 ## Próximos passos
 
 **Avanço 26/10 — juntas dos aéreos:** P17: 21 grupos/70 posições candidatas; P12: 9/21; 30 cortes de carga por móvel e 2.625 pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17: 24 apoios do estudo antigo coincidem após v=330−y; rigidez do Minifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto, sem execução; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Próximo: caracterizar juntas e caixa/ferragem reais; seguir frente independente enquanto aguarda oficina.

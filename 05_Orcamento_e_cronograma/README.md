@@ -18,3 +18,5 @@ Plano enxugado em 26/10/2026: cada tarefa T01–T09 indica situação, bloqueio 
 T09, conferência de 26/10: ZIP local R20 íntegro, 196 entradas e CAD R52 com hash correspondente; R23 é a configuração corrente e a publicação remota foi conferida: 251 entradas, CRC e hashes sem falhas; testes e geração temporária do site/pacote passaram. [Evidência e próxima ação](../06_Entregas/README.md). Integração de 30/10 e conferência de 31/10 preservadas.
 
 T04/T05, 26/10: margens de engate do banco/cesto e cadeia dimensional do micro calculadas a partir dos estudos salvos. [Avanços e critérios no plano](Plano_execucao_ate_31_10.md). Nenhum ensaio, novo ângulo/altura adotado ou CAD alterado; próximas entradas são dados da trava e altura útil de trabalho sob o micro.
+
+T05 — P08/varal: percurso nominal P08 de 400 mm conferido contra obstáculos fixos; retirada e guias/batente delimitados. No varal, três cenários com roupa longa atingem o envelope da lixeira; distinguir curso vazio/carregado. Resultados e próximas entradas no [plano](Plano_execucao_ate_31_10.md).

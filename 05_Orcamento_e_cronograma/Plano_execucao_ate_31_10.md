@@ -130,6 +130,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 **Avanço documental T05, 26/10:** [interface do micro](../04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md#t05--cadeia-dimensional-e-margens-26102026): nove cenários/288 combinações extremas; relação entre ventilação superior, posição da prateleira e vão de trabalho explicitada. Próximo: obter altura de uso necessária e erros/obstáculos reais para testar a faixa possível; nenhuma nova implantação adotada. P16, P08 e demais interfaces conservam suas pendências específicas.
 
+**Continuação T05, 26/10:** [P08: percurso e retirada](../04_Moveis/P08/README.md#t05--percurso-e-retirada-26102026), 46 peças móveis e 50.002 pares separados até 400 mm; sequência de manutenção e critérios de guia/batente explicitados. [Varal carregado](../03_Ambientes/Lavanderia/Varal.md#t05--percurso-nominal-com-roupa-26102026), 30 cenários: descida máxima com roupa de 1200 mm encontra envelope da lixeira. Próximo: desenho das guias/batente e comprimentos/distribuição de roupa; ferragens, resistência e ancoragens continuam pendentes. Nenhum curso alterado.
+
 ### T06 — Acabamentos, iluminação e equipamentos | P1 | 28–29/10
 
 **Situação em 26/10:** parcial; [corte por chapa física](../04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) reconciliado, sem compra/corte autorizado. Bloqueios: P13 e demais códigos/constituições, formato/substrato, veios, bordas/processo, componentes de iluminação e equipamentos; nenhuma segunda chapa 15 acrescentada automaticamente.

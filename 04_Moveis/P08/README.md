@@ -4,6 +4,31 @@
 
 ![Contatos e exemplo de perda de apoio](Apoios.png)
 
+## T05 — percurso e retirada, 26/10/2026
+
+[Conferência contínua de caixas](Conferencia_percurso.json): **46 peças móveis × 1.087 obstáculos fixos = 50.002 pares**, sem sobreposição volumétrica ao longo da translação de 0 a 400 mm em −Y global. O curso vem do cenário `m086` em `ferramentas/verificar_modelo/movimentos.json`; a expressão salva de `Gaveta007` confirma o sentido. Não é um novo curso escolhido.
+
+| Referência global | Fechada | Curso 400 mm |
+|---|---:|---:|
+| Frente, plano Y mínimo | 6470 mm | 6070 mm |
+| Traseira, plano Y máximo | 6930 mm | 6530 mm |
+| Envelope Z | 0–145 mm | 0–145 mm |
+
+A traseira ainda fica **60 mm além do plano da frente fechada**. Isso é comparação geométrica entre planos, não profundidade comprovada sob uma obstrução. Portanto, curso de operação não comprova extração integral ou espaço para levantar a gaveta.
+
+**Sequência nominal de manutenção a detalhar:** esvaziar e estacionar a gaveta sobre as seis rodas → acessar e retirar o batente por uma fixação acessível na posição aberta → continuar a retirada guiada no piso → liberar as guias quando o conjunto estiver sustentado pelas rodas. O batente e as guias ainda não têm geometria escolhida: essa sequência é um requisito, não instrução para desmontar um conjunto já definido. Não exigir levantamento para soltar um batente cuja ferramenta só entre após retirar a própria gaveta.
+
+**Critérios para o próximo desenho:**
+
+- Guia lateral deve controlar desvio em planta, permitir tolerâncias de montagem e não receber apoio vertical dos gabinetes. Conferir comprimento de engajamento em todo o curso e liberação intencional para manutenção.
+- Batente removível deve parar o movimento antes de perder o engajamento necessário das guias; posição, resistência e fixação dependem do desenho real e da força/velocidade de operação.
+- Ferramenta, cabeça dos fixadores e peça de retenção precisam de corredor acessível aos 400 mm, fora dos gabaritos dos cabos/cabeças de limpeza. Sem dimensões reais, nenhum parafuso foi especificado.
+- Depois de escolher o conjunto, incluir guias, batente e ferramenta na conferência; testar separadamente o percurso extra de retirada, inclinação e desnível. Não prolongar automaticamente este resultado além dos 400 mm.
+
+As caixas foram varridas continuamente por translação; um controle com obstáculo somente no meio do percurso confirmou que a rotina não examina apenas as pontas. Contato tangente não conta como sobreposição de volume. Foram excluídos contêineres agregados, mantendo peças sólidas Part/PartDesign com visibilidade na cadeia de pais salva. Outros móveis ficam nas poses da base; não foram conferidas aberturas simultâneas, pessoas ou ferragens ainda ausentes. O resultado não modifica os cálculos de rodas, estabilidade e resistência.
+
+Reproduzir: `python -B ferramentas/conferir_interfaces_t05.py`. Lê a base persistida, verifica o hash R52 e não abre o FreeCAD.
+
 ## Geometria e massa conhecidas
 
 Mantida a [seleção de seis rodízios fixos de 38 mm e espaçadores de 1 mm](../../03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md). Lidos somente a base geométrica salva e o hash do modelo vigente, sem abrir FreeCAD. As seis peças de madeira são prismas cujo volume coincide com a caixa envolvente; seus centros foram calculados geometricamente. Rodas, calços, fixadores e objetos não receberam densidade de madeira.

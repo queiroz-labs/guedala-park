@@ -34,6 +34,8 @@ Sequência de uso aprovada: retirar a roupa e fechar a máquina → baixar o qua
 - Lixeira de recicláveis Tramontina Loop 20 L (94547020) no chão, fora do armário.
 - Luz 3000 K com comando próprio; plafon branco de sobrepor com difusor, coordenado à cozinha (Decorlux LP1233 em avaliação). [Seleção](../Iluminacao/Cozinha_e_lavanderia.md).
 
+**T05, 26/10:** [percurso com roupa](Varal.md#t05--percurso-nominal-com-roupa-26102026): 30 cenários; três envelopes com descida 860 mm e roupa pendente de 1200 mm encontram a lixeira na posição salva. Percursos vazio/carregado precisam de posições próprias a conferir; nenhum batente, mudança de posição ou capacidade definidos. R52 preservada.
+
 ## Banquinho
 
 Banco escada BTF ESC0071, alumínio, três degraus (aberto 64,5 cm; fechado 39,5 × 19,5 × 75 cm; 120 kg). Guardado fechado na parede final da lavanderia, fora do varal e do aquecedor. [Modelo e alcance](Banquinho.md).

@@ -1,0 +1,591 @@
+{
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "base_sha256": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "obstacle_policy": "Part::/PartDesign:: com solidos e visibilidade na cadeia pai salva; App::Part/grupos agregados excluidos, filhos mantidos.",
+  "scope": "Caixas alinhadas globais, translação retilinea. Sobreposicao e candidato, nao colisao BREP. Separacao exclui intersecao apenas no conjunto testado.",
+  "absent": [
+    "pessoas/maos",
+    "tolerancias/deformacao",
+    "posicoes abertas simultaneas de outros controles",
+    "corpos comerciais ausentes"
+  ],
+  "frame_box_mm": [
+    3705.0,
+    5650.0,
+    2310.0,
+    4705.0,
+    6150.0,
+    2340.0
+  ],
+  "controller_max_descent_mm": 860.0,
+  "cases": [
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 0.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        2000.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 2000.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1500.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1500.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        1500.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1500.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        1500.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1500.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1200.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1200.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        1200.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1200.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        1200.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1200.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        800.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 800.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        800.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 800.0
+    },
+    {
+      "descent_mm": 310.0,
+      "frame_bottom_mm": 2000.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        800.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 800.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 0.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1900.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1900.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1400.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1400.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        1400.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1400.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        1400.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1400.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1100.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1100.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        1100.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1100.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        1100.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1100.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        700.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 700.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        700.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 700.0
+    },
+    {
+      "descent_mm": 410.0,
+      "frame_bottom_mm": 1900.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        700.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 700.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 0.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        1450.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 1450.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        950.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 950.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        950.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 950.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 500.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        950.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 950.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        650.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 650.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        650.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 650.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 800.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        650.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [],
+      "floor_clearance_mm": 650.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 0.0,
+      "swept_box_mm": [
+        3705.0,
+        5650.0,
+        250.0,
+        4705.0,
+        6150.0,
+        2340.0
+      ],
+      "candidates": [
+        {
+          "name": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            0.0,
+            4830.0,
+            5700.0,
+            420.0
+          ]
+        },
+        {
+          "name": "Peca148",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L001",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            420.0,
+            4830.0,
+            5700.0,
+            437.0
+          ]
+        }
+      ],
+      "floor_clearance_mm": 250.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 50.0,
+      "swept_box_mm": [
+        3655.0,
+        5600.0,
+        250.0,
+        4755.0,
+        6200.0,
+        2340.0
+      ],
+      "candidates": [
+        {
+          "name": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            0.0,
+            4830.0,
+            5700.0,
+            420.0
+          ]
+        },
+        {
+          "name": "Peca148",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L001",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            420.0,
+            4830.0,
+            5700.0,
+            437.0
+          ]
+        }
+      ],
+      "floor_clearance_mm": 250.0
+    },
+    {
+      "descent_mm": 860.0,
+      "frame_bottom_mm": 1450.0,
+      "assumed_hanging_length_mm": 1200.0,
+      "assumed_plan_spread_each_side_mm": 100.0,
+      "swept_box_mm": [
+        3605.0,
+        5550.0,
+        250.0,
+        4805.0,
+        6250.0,
+        2340.0
+      ],
+      "candidates": [
+        {
+          "name": "Peca147",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            0.0,
+            4830.0,
+            5700.0,
+            420.0
+          ]
+        },
+        {
+          "name": "Peca148",
+          "label": "Lixeira de recicláveis Tramontina Loop 20 L001",
+          "box_mm": [
+            4540.0,
+            5410.0,
+            420.0,
+            4830.0,
+            5700.0,
+            437.0
+          ]
+        }
+      ],
+      "floor_clearance_mm": 250.0
+    }
+  ],
+  "pairs_checked": 33960,
+  "fixed_parts": 1132,
+  "rows_with_candidates": 3,
+  "limits": [
+    "30 mm de altura e volume de reserva, nao quadro comercial.",
+    "Comprimentos 500/800/1200 e acrescimos 0/50/100 mm sao hipoteses de roupa, nao limites de uso.",
+    "A base CAD mantem alturas antigas; pe-direito de teste 2600 nao foi aplicado a ela.",
+    "Nao avalia gases/calor, afastamentos do E21/duto, cordas/roldanas/comando ou ancoragem.",
+    "Ausencia de candidato nao comprova acesso, alcance ou secagem."
+  ]
+}

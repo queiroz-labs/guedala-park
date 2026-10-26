@@ -1,0 +1,101 @@
+{
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "base_sha256": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "obstacle_policy": "Part::/PartDesign:: com solidos e visibilidade na cadeia pai salva; App::Part/grupos agregados excluidos, filhos mantidos.",
+  "scope": "Caixas alinhadas globais, translação retilinea. Sobreposicao e candidato, nao colisao BREP. Separacao exclui intersecao apenas no conjunto testado.",
+  "absent": [
+    "pessoas/maos",
+    "tolerancias/deformacao",
+    "posicoes abertas simultaneas de outros controles",
+    "corpos comerciais ausentes"
+  ],
+  "movement_case": {
+    "id": "m086",
+    "input": [
+      [
+        "Gaveta007",
+        "Extensao",
+        400.0
+      ]
+    ]
+  },
+  "travel_mm": 400.0,
+  "direction": "-Y global",
+  "moving_parts": [
+    "PecaBaixaR13",
+    "PecaBaixaR001",
+    "PecaBaixaR002",
+    "PecaBaixaR003",
+    "PecaBaixaR004",
+    "PecaBaixaR005",
+    "PecaBaixaR006",
+    "PecaBaixaR007",
+    "PecaBaixaR008",
+    "PecaBaixaR009",
+    "PecaBaixaR010",
+    "PecaBaixaR011",
+    "PecaBaixaR012",
+    "PecaBaixaR013",
+    "PecaBaixaR014",
+    "PecaBaixaR015",
+    "PecaBaixaR016",
+    "PecaBaixaR017",
+    "PecaBaixaR018",
+    "PecaBaixaR019",
+    "PecaBaixaR020",
+    "PecaBaixaR021",
+    "PecaBaixaR022",
+    "PecaBaixaR023",
+    "PecaBaixaR024",
+    "PecaBaixaR025",
+    "PecaBaixaR026",
+    "PecaBaixaR027",
+    "PecaBaixaR028",
+    "PecaBaixaR029",
+    "PecaBaixaR030",
+    "PecaBaixaR031",
+    "PecaBaixaR032",
+    "PecaBaixaR033",
+    "PecaBaixaR034",
+    "PecaBaixaR035",
+    "PecaBaixaR040",
+    "PecaBaixaR041",
+    "PecaBaixaR042",
+    "PecaBaixaR043",
+    "EspacadorRodizioP08",
+    "EspacadorRodizioP001",
+    "EspacadorRodizioP002",
+    "EspacadorRodizioP003",
+    "EspacadorRodizioP004",
+    "EspacadorRodizioP005"
+  ],
+  "fixed_parts": 1087,
+  "pair_checks": 50002,
+  "candidates": [],
+  "closed_box_mm": [
+    1674.0,
+    6470.0,
+    0.0,
+    2897.0,
+    6930.0,
+    145.0
+  ],
+  "open_box_mm": [
+    1674.0,
+    6070.0,
+    0.0,
+    2897.0,
+    6530.0,
+    145.0
+  ],
+  "remaining_behind_closed_front_plane_mm": 60.0,
+  "limits": [
+    "400 mm vem do cenario salvo, nao define batente comercial.",
+    "Piso com contato tangente nao e colisao volumetrica nem prova de nivelamento.",
+    "Nao inclui guia/batente ainda sem geometria, giro, inclinacao ou retirada vertical.",
+    "Reacoes das rodas e resistencia permanecem no estudo Apoios.json."
+  ]
+}
