@@ -31,9 +31,9 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R00 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
-| Site e pacote para o montador | Site com R52; pacote R22 e estudos P17/P12 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
+| Site e pacote para o montador | Site R52/R23 e ZIP remoto R23 conferidos; local R20 histórico | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) |
 
-O pacote R22 integra o pé-direito de teste e os estudos correntes; preserva a matriz 20/20 e os estudos separados de suspensão P17/P12, com desenhos, vetores e requisitos de qualificação. Biblioteca e fichas do site dão acesso aos estudos; geometria R52 preservada. Atualização/publicação autorizada por Elias em 26/10/2026: “commit push atualiza o site”.
+O pacote remoto R23 foi conferido em 26/10/2026: 251 entradas, CRC e hashes sem falhas, CAD interno R52 correspondente ao manifesto. O ZIP local R20 é histórico. [Evidência remota, hashes e limites](06_Entregas/README.md). Estudos separados continuam fora da geometria R52; integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 
 ## Onde estamos
 
@@ -103,7 +103,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-**Retomada T09 — 26/10/2026.** Modelo R52; fichas R14; pranchas R00; orçamento R44; especificações R01. Pacote: R22 no estado/gerador versus R21 solicitado e R18 no campo de última publicação. [Manifesto e divergências](06_Entregas/README.md).
+**Retomada T09 — 26/10/2026.** Modelo R52; fichas R14; pranchas R00; orçamento R44; especificações R01. Pacote: R23 configurado e publicado, ZIP remoto com 251 entradas e hashes conferidos; campo de última publicação reconciliado para R23. ZIP local R20 histórico, com 196 entradas íntegras. [Manifesto e divergências](06_Entregas/README.md).
 
 **Cinco decisões recentes a preservar:**
 
@@ -115,6 +115,6 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Pendências por responsável:** Elias — carga P02, aparência e decisões remanescentes; projeto — juntas/rigidez, interfaces e divergências documentais/financeiras; produto/oficina — ferragens reais, composição P15 e ensaios; RT/imóvel — medidas, piso, paredes, ancoragens e instalações. [Próxima ação por móvel](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md).
 
-**Próximo passo exato:** T09, conferir o ZIP/publicação e reconciliar R21/R22/R18 com Elias pelos campos do manifesto; depois compatibilizar vistas antigas com R52. Integração, regeneração e push exigem escopo autorizado. Sem oficina, a frente técnica independente é T04: montagem nominal P14/P20 e roteiro de ensaio.
+**Próximo passo exato:** seguir T04/T05 nas montagens e interfaces que independem de oficina; na T09, compatibilizar vistas antigas com R52 e conferir abertura gráfica, navegação offline e cópia de segurança. Metadados e integridade do ZIP remoto R23 já conferidos; integração de 30/10 e conferência de 31/10 preservadas.
 
 **Comandos comprovados nesta conferência:** `python -B ferramentas/verificar_tudo.py` e `python -B ferramentas/verificar_site.py` passaram; o segundo usa compilação temporária, sem publicar. O primeiro mantém avisos de espaços fora do escopo. Não houve abertura/alteração do CAD. Começar com `git status`; preservar outras sessões e seguir [AGENTS.md](AGENTS.md). Antes de push solicitado, validar clone limpo com `python -B ferramentas/verificar_tudo.py --ci`; não executado nesta tarefa.

@@ -4,35 +4,25 @@
 
 ## Manifesto de versões — conferência T09 em 26/10/2026
 
-Conferência documental antecipada do trabalho previsto para 30/10, após os commits A–E. Não altera revisões nem comprova publicação remota. Referências: [estado atual](../ESTADO_ATUAL.md) e [manifesto do gerador](../ferramentas/site/current_release.json).
-
-| Item solicitado | Onde está a versão | Concorda com o ESTADO_ATUAL? |
+| Item | Versão conferida | Evidência e limite |
 |---|---|---|
-| Modelo R52 | `cadPath`: [02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd). `cadSHA256`: `941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da` | Sim: R52 no estado e no `current_release.json`; SHA informado pelo manifesto, conferido pelo verificador geral. |
-| Fichas R14 | [Índice dos 20 móveis](Fichas_fabricacao/index.html); `fabricationRevision` = R14 | Sim: revisão do conteúdo e do estado. |
-| Pacote R21 | Link anterior neste README: `06_Entregas/Publicacao/Guedala_Park_R21.zip` | **Não:** estado e `packageRevision` indicam R22, caminho `06_Entregas/Publicacao/Guedala_Park_R22.zip`. R21 pedido fica identificado como divergência, sem substituir o pacote. |
-| Pranchas R00 | [Índice](Caderno_pranchas/index.html) · [PDF R00](Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) | Sim quanto à revisão; não comprova atualização de todas as vistas para a R52. |
-| Orçamento R44 | [Consolidado R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md), revisão no texto, nome preservado | Sim: R$ 137.748,11 de execução no estado e no consolidado. |
-| Especificações R01 | [Caderno R01](../01_Programa_e_decisoes/Caderno_de_especificacoes.md) | Sim quanto à revisão; coerência integral com estudos posteriores continua condicionada. |
+| Modelo | R52 | [Modelo](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd); SHA256 interno do ZIP remoto corresponde ao manifesto |
+| Fichas | R14 | [Índice](Fichas_fabricacao/index.html); revisão indicada no pacote e no site |
+| Pacote publicado | R23 | [Baixar ZIP R23](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R23.zip); 251 entradas, CRC e hashes de todas as entradas do manifesto sem falhas |
+| Pacote local histórico | R20 | `Publicacao/Guedala_Park_R20.zip`; 196 entradas, CRC e hash CAD conferidos; não representa a entrega corrente |
+| Pranchas | R00 | [PDF](Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf); compatibilização das vistas antigas com R52 ainda pendente |
+| Orçamento | R44 | [Consolidado](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md); execução estimada R$ 137.748,11 |
+| Especificações | R01 | [Caderno](../01_Programa_e_decisoes/Caderno_de_especificacoes.md); coerência integral com estudos posteriores condicionada |
 
-**Divergências a reconciliar, sem alteração automática:** pacote R21 na entrada antiga abaixo versus R22 no estado/gerador; `lastPublishedPackageRevision` ainda R18 no mesmo JSON. O plano também conserva R20 na linha de ponto de partida. Identificar revisão local, conteúdo selado e publicação remota antes de harmonizar esses registros; esta conferência não prova qual ZIP está servido online. Números de revisão iguais, isoladamente, não demonstram integração técnica.
+**Evidência remota, 26/10/2026:** [versao.json](https://queiroz-labs.github.io/guedala-park/versao.json) identifica R52/R23, fichas R14 e commit `ba67dee8645dc0e79d71edbd51f29977aa3f35fe`. O ZIP foi lido em memória: 30.325.371 bytes, SHA256 `df5b592043d841684b6067456352a0c6eb75c8a9dacf0edea5be8e2e4e4dd1d2`; `COMECE_AQUI.html` presente. CAD interno: SHA256 `941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da`. Integridade não equivale à abertura gráfica do CAD/PDF nem à compatibilização de vistas.
 
-**Publicação R22 — 26/10/2026:** integra estudos correntes e pé-direito 2,60 m = 260 cm = 2600 mm, medida a confirmar, por decisão de Elias em 26/10/2026. Cenário separado de forro do escritório: 2,47 m. Sem medição real, fabricação ou alteração do FreeCAD R52. Fonte: [pesquisa e decisão](../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+R21/R22 são referências anteriores; o campo `lastPublishedPackageRevision` foi reconciliado de R18 para R23 com essa evidência. A publicação já existia: esta conferência não fez deploy. O ZIP R20 local foi preservado; SHA256 `ba2f547f21760506dc4331f78103bab1c1d5b6aaf70f27e0a239d3c27fe80be8`.
 
-> **Registro anterior R52/R21, divergente do manifesto:** modelo R52 e fichas R14; pacote R21 com matriz 20/20 e suspensão P17/P12 em estudos separados. [Estado e condições](../ESTADO_ATUAL.md). Produto, juntas, ferramenta, ensaios e ancoragens continuam pendentes.
+**Validação local:** `python -B ferramentas/verificar_site.py` passou nos seis testes iniciais, geração temporária de site/pacote e teste de selagem. A primeira tentativa parou por acesso negado ao temporário do ambiente; a repetição usou TEMP/TMP graváveis fora do repositório, sem alterar o verificador. As saídas temporárias do teste foram removidas pelo próprio script.
 
-| Uso | Abrir | Revisão |
-|---|---|---|
-| Modelo3D FreeCAD | [Modelo completo R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd) · [conferências](../02_Modelo_3D/README.md) | R52 |
-| Pacote citado na entrada anterior; divergência pendente | [Guedala_Park_R21.zip](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R21.zip) | R21; não usar esta linha como confirmação de vigência |
-| Entrega anterior selada | `Compartilhar_R17/Guedala_Park_R17.zip` (somente no PC, fora do Git/site) | Histórico preservado, não regenerado |
-| Consulta atual do montador | [Fichas dos 20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14; o dossiê com nome R45 deixa de ser a entrada de vigência |
-| Fichas, furação e pendências | [20 móveis](Fichas_fabricacao/index.html) · [pendências](Fichas_fabricacao/Pendencias.html) | R14 |
-| Planta cotada | [Planta](Planta_cotada/index.html) | R13 |
-| Especificações | [Caderno](../01_Programa_e_decisoes/Caderno_de_especificacoes.md) | R01 com referência CAD corrente |
-| Avanços e condições técnicas | [Continuidade após R52](../04_Moveis/Proximas_decisoes/README.md) | Estudos separados, sem incorporação automática |
+**Próximo:** compatibilizar vistas antigas com R52 e conferir abertura gráfica de CAD/PDF, navegação offline e cópia de segurança na integração de 30–31/10. Ensaios, produto, juntas e medidas reais continuam condicionados. Sem oficina, seguir T04 e interfaces T05 conforme o plano.
 
-Extraia o ZIP inteiro, abra `COMECE_AQUI.html` pelo menu da pasta extraída e use o caminho R52 indicado nele. O pacote não libera fabricação ou carga; produto, juntas, protótipo e medidas finais continuam condicionados.
+Extraia o ZIP R23 inteiro e abra `Guedala_Park_R23/COMECE_AQUI.html`. Consulte as [fichas R14](Fichas_fabricacao/index.html), [pendências](Fichas_fabricacao/Pendencias.html) e o [Estado atual](../ESTADO_ATUAL.md). Estudos separados não são incorporados automaticamente à geometria R52.
 
 ## Histórico — entrega R49/R16 de24/10/2026
 
@@ -92,4 +82,4 @@ Busca nos Markdown de entrada e referências cruzadas em 26/10/2026: encaminhame
 | [Painel de decisões](../01_Programa_e_decisoes/Painel_de_decisoes.md) | Cabeçalho de pacote R18 e blocos datados chamados “vigente R44/R43”; ler como registro histórico onde superado pelo estado. Falta conciliar pacote e reorganizar a entrada sem perder fontes. |
 | [Registro de publicação](../ferramentas/site/Publicacao_GitHub_Pages.md) | “Revisão vigente R05” pertence ao registro de setembro; não é confirmação da versão online atual nem autorização de push nesta tarefa. |
 
-Não houve auditoria remota dos ZIPs nem regeneração das entregas. Revisões de estudos antigos permanecem nas fontes; dúvidas acima não foram resolvidas por simples troca de rótulo.
+A conferência T09 acima verificou o ZIP remoto R23 e o ZIP local histórico R20; vistas antigas continuam pendentes. Revisões de estudos antigos permanecem nas fontes; dúvidas acima não foram resolvidas por simples troca de rótulo.

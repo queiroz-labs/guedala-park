@@ -10,13 +10,13 @@ O resultado pretendido é um projeto nominal consistente e fácil de continuar: 
 
 | Frente | O que já existe | Trabalho restante nesta semana |
 |---|---|---|
-| Modelo e fichas | FreeCAD R52, fichas R14; pacote selado R20 e revisão documental local posteriores, conforme Estado Atual | Incorporar apenas detalhes demonstrados e conferir fontes/entrega antes de alterar ou republicar. |
+| Modelo e fichas | FreeCAD R52, fichas R14; ZIP local R20 íntegro (conferência 26/10); R23 configurado e ZIP remoto conferido (251 entradas, CRC e hashes) | Incorporar apenas detalhes demonstrados e conferir fontes/entrega antes de alterar ou republicar. |
 | Gavetas do escritório | R49 corrigiu a folga superior para 7 mm e espelhou a trava direita | Tratar as condições remanescentes de fundo/guia e altura das guias; não repetir as correções concluídas. |
 | Cargas e ligações | P11 sem tubos; estudos P15/P04/P01/P20, suspensão global de seis aéreos e equilíbrio por painel P01/P03 | Definir materiais, juntas e conectores; comprovar deformação/resistência e mecanismos P20/P14; selecionar suspensão e completar mapas. Contato não equivale a ligação resistente. |
 | Banco e cesto | Diretriz simples definida; estudos e candidatos documentados | Completar montagem, apoios, retenção, acesso e plano de ensaio. |
 | Ferragens e custos | Reconciliação documental de 24/10 já existe | Incorporar as diferenças na composição financeira e atualizar quantidades após os mapas. |
 | Acabamentos e iluminação | Muitas escolhas já feitas, incluindo chapas do banheiro e seleção L02 | Resolver somente códigos, componentes e interfaces ainda abertos. |
-| Site | Fontes R52 e consulta cinemática; publicação/pacote R22 não substituídos pelos estudos locais | Validar navegação, revisões e integridade do pacote antes de publicar; conferir o resultado remoto. |
+| Site | Fontes R52 e consulta cinemática; R23 publicado e conferido; ZIP local R20 histórico | Validar navegação, revisões e integridade do pacote antes de publicar; conferir o resultado remoto. |
 
 Fontes de partida: [Estado atual](../ESTADO_ATUAL.md), [R49](../02_Modelo_3D/Historico/Gavetas_escritorio/README.md), plano de cargas e ligações e [reconciliação de ferragens](../05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md).
 

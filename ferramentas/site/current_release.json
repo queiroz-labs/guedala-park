@@ -24,7 +24,7 @@
   "publicationStatus": "publication_authorized",
   "lastPublishedCadRevision": "R52",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
-  "lastPublishedPackageRevision": "R18",
+  "lastPublishedPackageRevision": "R23",
   "notes": "R23: compatibiliza lavanderia e trechos de circulação com as cotas da planta; fechamentos gráficos derivados, a confirmar. Pé-direito 2,60 m para testes, não fabricação; escritório 2,47 m separado. Publicação desta correção autorizada por Elias em 26/10/2026, Sentinel_3ce273ee835081919acefb805f637632. Móveis e FreeCAD R52 preservados.",
   "technicalDocuments": [
     {
