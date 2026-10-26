@@ -41,3 +41,50 @@ Fontes: [planta oficial](../../09_Referencias/Plantas_e_manuais/Planta_oficial.p
 ## Retorno de Elias e revisão documental
 
 Elias informou que não possui medidas adicionais além dos documentos da construtora. Revisada visualmente a planta oficial P01: indica 209 × 124 cm e giro interno da porta, mas não cota sua folha. Memorial oficial Cury, p.15, especifica acabamento de portas/batentes e ferragens, sem largura da porta do banheiro. Não confundir a cota 1,05 m da circulação com a largura da folha. Portanto a largura permanece desconhecida; conferir na vistoria ou em futuro quadro de esquadrias. Não pedir novamente a Elias essa medida enquanto não houver nova documentação ou acesso ao imóvel. Bancada60 ×45 continua hipótese condicionada.
+
+## T05 — manutenção do quadro BC43 na R52, 26/10/2026
+
+[Memória com vinte cenários de porta, quatro laterais e seis de ferramenta](Fechamento_pre_entrega/Acesso_manutencao_T05.json). As faces do quadro, cavilhas, pedra, parede, porta e vaso foram reconciliadas com a base salva R52. Este bloco trata a montagem BC43 atual e complementa o [detalhamento de manutenção](../../04_Moveis/Avanco_pendencias/Banheiro_solucao/Detalhamento/Detalhamento.md); as hipóteses de bancada/porta de setembro acima permanecem identificadas pela data.
+
+**Sequência preservada:** apoiar o conjunto e imobilizar as folhas → retirar os quatro M6 → puxar 20 mm → deslocar 120 mm à direita → retirar mais 330 mm. Não houve nova varredura BREP nem adoção de outro percurso. Os cálculos abaixo tornam explícitas as restrições desse trajeto, sem incluir mãos, maçaneta ou deformação.
+
+### Primeira retirada e desencaixe
+
+Cavilhas entram nominalmente 15 mm na caixa. A porta ideal de 700 mm termina 70 mm à frente do quadro antes da retirada. Para uma folha hipotética L e margem m em cada restrição, a primeira retirada t precisa satisfazer:
+
+`15 + m <= t <= 70 − (L − 700) − m`.
+
+| Folha hipotética | Intervalo com margem m=2 mm | O passo existente de 20 mm cabe nesse intervalo? |
+|---|---|---|
+| 700 mm | 17–68 mm | Sim, geometricamente |
+| 725 mm | 17–43 mm | Sim, geometricamente |
+| 740 mm | 17–28 mm | Sim, geometricamente |
+| 750 mm | 17–18 mm | Não |
+| 755 mm | Intervalo vazio | Não |
+
+Uma folha de 750 não torna todo percurso imaginável impossível: estreita o intervalo desse primeiro passo. Não trocar 20 por 17/18 automaticamente, porque o restante da sequência, engates e acesso precisam de nova conferência. m=2 é sensibilidade, não folga de fabricação escolhida. A largura real da porta continua para documentação/vistoria; não foi solicitada uma medida que Elias ainda não tem.
+
+### Passagem lateral entre porta e vaso
+
+Depois de desencaixar, a largura do quadro continua 600 mm. Pelos planos X do modelo, o deslocamento lateral s fica entre 100 e 157,5 mm, com contato nos limites. O passo existente de 120 deixa **20 mm até a porta e 37,5 mm até o vaso**.
+
+| Acréscimo hipotético h em cada lateral, representando volume adicional de manuseio | Intervalo geométrico de s | Folgas residuais com s=120 |
+|---|---|---|
+| 0 mm | 100–157,5 mm | 20 / 37,5 mm |
+| 10 mm | 110–147,5 mm | 10 / 27,5 mm |
+| 20 mm | 120–137,5 mm | 0 / 17,5 mm |
+| 30 mm | Vazio: 130 > 127,5 mm | −10 / 7,5 mm |
+
+Isso não atribui uma espessura à mão nem prova ergonomia. Mostra que não há reserva para presumir mãos salientes dos dois lados. O máximo simétrico puramente matemático é 28,75 mm por lado, com contato nos limites; não é espaço de pega recomendado. O desenho de manuseio deve indicar onde apoiar e segurar o quadro, mantendo as mãos fora desses encontros e sem usar hidráulica/pedra como apoio presumido.
+
+### Ferramenta e folga sob a pedra
+
+O eixo dos M6 esquerdos está 11 mm da parede. Um envelope circular coaxial de ferramenta com diâmetro d deixa `11 − d/2` mm: Ø12 deixa 5; Ø16 deixa 3; Ø20 deixa 1; Ø22 tangencia; Ø24 invade 1. São sensibilidades do envelope: a chave real, seu comprimento, ângulo de aproximação e operação permanecem por escolher. Não deduzir acesso da mão a partir do cilindro Ø11 usado no estudo antigo. Tampas de acabamento devem sair sem impedir esse acesso.
+
+O topo do quadro está Z743 e a face inferior da pedra Z745: **somente 2 mm nominais**. Não contar com levantar o quadro para compensar folgas laterais. Erros de posição/espessura, selante e deformação consomem essa reserva. Manter a junta desmontável e verificar apoio temporário e sequência antes de soltar os M6; capacidade da união e massa acabada não foram comprovadas.
+
+### Acesso hidráulico sem perder armazenamento
+
+Aberturas cotidianas esquerda/direita de 270/235 mm e a retirada integral do quadro têm funções diferentes. O cenário antigo de sifão/recorte Ø100 permanece hipótese, não produto instalado ou mapa para furar. Antes de localizar registros/conexões, sobrepor seus envelopes e as ferramentas necessárias à abertura efetiva; se a união precisar do vão integral, registrar expressamente a remoção do quadro como etapa anterior. Não acrescentar uma divisória/faixa fixa para resolver um acesso ainda sem geometria.
+
+Reproduzir: `python -B ferramentas/conferir_acesso_banheiro.py`. Hash R52 conferido; geometria lida da base persistida, sem abrir CAD e sem ensaio físico. As faixas foram conferidas por substituição direta nas desigualdades; não representam percurso novo aprovado.

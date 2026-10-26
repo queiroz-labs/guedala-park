@@ -10,6 +10,8 @@ Estado atual do banheiro. Nada aqui libera compra ou execução. Histórico no [
 - **Iluminação L02**, componentes R$ 612,64 à vista sem frete e instalação: teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240 (IRC > 90); indireta 3000 K Cristallux SMD CLX-FT200530 4,8 W/m, perfis MOV4329 e duas fontes Opus OPS31002. Três comandos físicos. [Seleção L02](Fechamento_pre_entrega/Luminarias_selecao_L02.html).
 - Caixa do espelheiro (P19) mapeada em estudo separado; suspensão, oficina e levantamento real pendentes.
 
+T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manutenção-do-quadro-bc43-na-r52-26102026), com faixas de retirada, passagem lateral e ferramenta; R52 preservada.
+
 ## Objetivos e critérios
 
 - Banheiro inspirado nas imagens escolhidas, com sensação de amplitude, aparência refinada, custo-benefício e limpeza fácil.

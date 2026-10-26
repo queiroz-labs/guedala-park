@@ -1,0 +1,287 @@
+{
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "base_sha256": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "source_toilet_objects": [
+    "Peca190"
+  ],
+  "frame_outer_box_mm": [
+    2760.0,
+    4820.0,
+    200.0,
+    3360.0,
+    4890.0,
+    743.0
+  ],
+  "door_box_mm": [
+    2840.0,
+    4050.0,
+    0.0,
+    2860.0,
+    4750.0,
+    2050.0
+  ],
+  "toilet_box_mm": [
+    3517.5,
+    4700.0,
+    0.0,
+    3892.5,
+    5290.0,
+    800.0
+  ],
+  "dowel_insertion_mm": 15.0,
+  "stone_vertical_gap_mm": 2.0,
+  "first_withdrawal_cases": [
+    {
+      "assumed_entry_door_length_mm": 700.0,
+      "margin_each_constraint_mm": 0.0,
+      "withdrawal_lower_mm": 15.0,
+      "withdrawal_upper_mm": 70.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 700.0,
+      "margin_each_constraint_mm": 2.0,
+      "withdrawal_lower_mm": 17.0,
+      "withdrawal_upper_mm": 68.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 700.0,
+      "margin_each_constraint_mm": 5.0,
+      "withdrawal_lower_mm": 20.0,
+      "withdrawal_upper_mm": 65.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 700.0,
+      "margin_each_constraint_mm": 10.0,
+      "withdrawal_lower_mm": 25.0,
+      "withdrawal_upper_mm": 60.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 725.0,
+      "margin_each_constraint_mm": 0.0,
+      "withdrawal_lower_mm": 15.0,
+      "withdrawal_upper_mm": 45.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 725.0,
+      "margin_each_constraint_mm": 2.0,
+      "withdrawal_lower_mm": 17.0,
+      "withdrawal_upper_mm": 43.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 725.0,
+      "margin_each_constraint_mm": 5.0,
+      "withdrawal_lower_mm": 20.0,
+      "withdrawal_upper_mm": 40.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 725.0,
+      "margin_each_constraint_mm": 10.0,
+      "withdrawal_lower_mm": 25.0,
+      "withdrawal_upper_mm": 35.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 740.0,
+      "margin_each_constraint_mm": 0.0,
+      "withdrawal_lower_mm": 15.0,
+      "withdrawal_upper_mm": 30.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 740.0,
+      "margin_each_constraint_mm": 2.0,
+      "withdrawal_lower_mm": 17.0,
+      "withdrawal_upper_mm": 28.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 740.0,
+      "margin_each_constraint_mm": 5.0,
+      "withdrawal_lower_mm": 20.0,
+      "withdrawal_upper_mm": 25.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 740.0,
+      "margin_each_constraint_mm": 10.0,
+      "withdrawal_lower_mm": 25.0,
+      "withdrawal_upper_mm": 20.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 750.0,
+      "margin_each_constraint_mm": 0.0,
+      "withdrawal_lower_mm": 15.0,
+      "withdrawal_upper_mm": 20.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": true
+    },
+    {
+      "assumed_entry_door_length_mm": 750.0,
+      "margin_each_constraint_mm": 2.0,
+      "withdrawal_lower_mm": 17.0,
+      "withdrawal_upper_mm": 18.0,
+      "interval_nonempty": true,
+      "positive_interval": true,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 750.0,
+      "margin_each_constraint_mm": 5.0,
+      "withdrawal_lower_mm": 20.0,
+      "withdrawal_upper_mm": 15.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 750.0,
+      "margin_each_constraint_mm": 10.0,
+      "withdrawal_lower_mm": 25.0,
+      "withdrawal_upper_mm": 10.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 755.0,
+      "margin_each_constraint_mm": 0.0,
+      "withdrawal_lower_mm": 15.0,
+      "withdrawal_upper_mm": 15.0,
+      "interval_nonempty": true,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 755.0,
+      "margin_each_constraint_mm": 2.0,
+      "withdrawal_lower_mm": 17.0,
+      "withdrawal_upper_mm": 13.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 755.0,
+      "margin_each_constraint_mm": 5.0,
+      "withdrawal_lower_mm": 20.0,
+      "withdrawal_upper_mm": 10.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    },
+    {
+      "assumed_entry_door_length_mm": 755.0,
+      "margin_each_constraint_mm": 10.0,
+      "withdrawal_lower_mm": 25.0,
+      "withdrawal_upper_mm": 5.0,
+      "interval_nonempty": false,
+      "positive_interval": false,
+      "original_20mm_within_interval": false
+    }
+  ],
+  "lateral_cases": [
+    {
+      "assumed_added_envelope_each_side_mm": 0.0,
+      "lateral_shift_lower_mm": 100.0,
+      "lateral_shift_upper_mm": 157.5,
+      "interval_nonempty": true,
+      "original_120mm_residual_door_mm": 20.0,
+      "original_120mm_residual_toilet_mm": 37.5
+    },
+    {
+      "assumed_added_envelope_each_side_mm": 10.0,
+      "lateral_shift_lower_mm": 110.0,
+      "lateral_shift_upper_mm": 147.5,
+      "interval_nonempty": true,
+      "original_120mm_residual_door_mm": 10.0,
+      "original_120mm_residual_toilet_mm": 27.5
+    },
+    {
+      "assumed_added_envelope_each_side_mm": 20.0,
+      "lateral_shift_lower_mm": 120.0,
+      "lateral_shift_upper_mm": 137.5,
+      "interval_nonempty": true,
+      "original_120mm_residual_door_mm": 0.0,
+      "original_120mm_residual_toilet_mm": 17.5
+    },
+    {
+      "assumed_added_envelope_each_side_mm": 30.0,
+      "lateral_shift_lower_mm": 130.0,
+      "lateral_shift_upper_mm": 127.5,
+      "interval_nonempty": false,
+      "original_120mm_residual_door_mm": -10.0,
+      "original_120mm_residual_toilet_mm": 7.5
+    }
+  ],
+  "tool_cases": [
+    {
+      "assumed_tool_diameter_mm": 11.0,
+      "wall_clearance_mm": 5.5
+    },
+    {
+      "assumed_tool_diameter_mm": 12.0,
+      "wall_clearance_mm": 5.0
+    },
+    {
+      "assumed_tool_diameter_mm": 16.0,
+      "wall_clearance_mm": 3.0
+    },
+    {
+      "assumed_tool_diameter_mm": 20.0,
+      "wall_clearance_mm": 1.0
+    },
+    {
+      "assumed_tool_diameter_mm": 22.0,
+      "wall_clearance_mm": 0.0
+    },
+    {
+      "assumed_tool_diameter_mm": 24.0,
+      "wall_clearance_mm": -1.0
+    }
+  ],
+  "maximum_symmetric_lateral_added_envelope_mm": 28.75,
+  "limits": [
+    "Faixas aritmeticas para a sequencia existente: retirar, transladar, retirar. Nao varredura de uma rota nova.",
+    "Porta700 e poses do vaso sao gabaritos, nao levantamento; macaneta/maos ausentes.",
+    "Margens e diametros sao sensibilidades; nao tolerancias/escolhas de ferramenta.",
+    "Intervalo reduzido a um ponto com margem zero implica contato e nao libera operacao.",
+    "Raio da ferramenta trata so a parede esquerda e eixo M6, nao acesso completo, torque ou comprimento.",
+    "Quadro deve ser apoiado antes de retirar fixacoes; resistencia, massas reais e suspensao nao demonstradas."
+  ]
+}

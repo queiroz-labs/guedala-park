@@ -97,6 +97,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **T05 — P01/P06, 26/10:** [sete caixas versus FGVTN 500](04_Moveis/Inventario_dimensional/Gavetas/README.md): profundidade interna do móvel atende P1; caixas salvas têm 490 versus P500 e largura interna 0,5 mm abaixo do limite A−41−0,5. Quatorze engates mantêm referência T51.7601. Curso documental 475 ±3, recortes/engates/destrave simultâneo por reconciliar. Nenhuma alteração R52 ou aprovação de montagem.
 
+**T05 — banheiro, 26/10:** [acesso BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md#t05--manutenção-do-quadro-bc43-na-r52-26102026): vinte cenários de primeira retirada, quatro envelopes laterais e seis de ferramenta. Passo lateral de 120 deixa 20/37,5 mm até porta/vaso; há apenas 2 mm sob pedra. Manuseio e ferramenta não cabem por presunção; desenho de acesso, produto e vistoria pendentes, sem mudança CAD.
+
 ## Próximos passos
 
 **Avanço 26/10 — juntas dos aéreos:** P17: 21 grupos/70 posições candidatas; P12: 9/21; 30 cortes de carga por móvel e 2.625 pares de envelopes conferidos. Sequência de montagem e acesso externo em bancada documentados nos READMEs. P17: 24 apoios do estudo antigo coincidem após v=330−y; rigidez do Minifix e referência superior não demonstradas. P12 segue sem ligação direta base/tampo–fundo. T0/P04 reconferido e pronto, sem execução; Elias, 26/10: “Ainda não; deixar o roteiro pronto”, sobre oficina/material. Próximo: caracterizar juntas e caixa/ferragem reais; seguir frente independente enquanto aguarda oficina.
