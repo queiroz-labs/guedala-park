@@ -1,0 +1,16 @@
+{
+  "candidate": "Bigfer04.02.058",
+  "nominal_pair_envelope_ml": 59.8752,
+  "vectors": 4176,
+  "group_pairs": 2088,
+  "independent_equilibrium_max_error": 1.1641532182693481e-10,
+  "source_hashes_checked": true,
+  "capacity_or_mounting_proven": false,
+  "slot_and_small_hole_datums_corrected": true,
+  "mirrored_single_translation_rejected": true,
+  "reference_local_moments_checked": true,
+  "qualification_case_count": 8,
+  "V_T_R_controlling_cases_preserved": true,
+  "physical_tests": 0,
+  "CAD_preserved": true
+}

@@ -1,5 +1,7 @@
 # P04/P15 — suspensão da caixa inteira e portas abertas
 
+**AtualizaçãoP15 em25/10:** [loteA — ligações, CG de portasR52 e implantação de suspensão](../../Aereos_suspensao/README.md). Os696 casos do loteA têm hipóteses próprias e não substituem os660 casosP04/P15 abaixo. P04 permanece nesta memória; P15 mantém composição e produto de suspensão condicionados.
+
 25/10/2026 · continuação do plano, sem tubos. **A demanda global de suspensão agora inclui caixa, portas em quatro barras e conteúdo.** Os resultados são solicitações estáticas a fornecer ao projetista da suspensão; não constituem capacidade da parede, do móvel ou de uma ferragem. R51 e seus controles permaneceram intactos.
 
 O cálculo de flecha das bases continua nos [estudos de marcenaria sem tubos](../../Ligacoes_sem_tubos/README.md). Este bloco fecha outra conta: conteúdo → caixa → resultantes de suspensão → parede. A força num parafuso interno da base não é a mesma força no grupo que sustenta o móvel inteiro.

@@ -1,0 +1,84 @@
+CONSULTA TECNICA LOCAL — NAO ENVIADA — 25/10/2026
+
+PRIORIDADE DE DESENVOLVIMENTO: BIGFER 04.02.058 / SKU0402058411
+Elias prefere preservar espaco interno (conversa25/10). Nao e produto
+aprovado para compra/montagem. Catalogo p235:aço1,5; bracos49,5/37,8;
+tira16. Dois envelopes≈59,88mL,sem capa/cabeca/acesso.
+Proposta nossa: fixar nos planos verticais lateral/fundo interno18,
+sem deslocar o fundo, com passagem da ancoragem atraves dos18 ate parede.
+Perguntas paraBigfer/oficina:
+1. Esta orientacao e passagem pelo fundo18 sao admitidas? Enviar desenho
+   de aplicacao,parede/chapa/retencao/acessos e todos os fixadores.
+2. Qual limite documentado sob cortante e tracao simultaneos, incluindo
+   excentricidade18,flexao/esmagamento da chapa e fixacao no MDFBP18?
+3. Confirmar furo pequeno a9,5 do canto externo (1,5+8=32-22,5) e passo12
+   na lateral:parafusos/pilotos/profundidade/torque e material validado.
+   Ø5 do desenho e furo na ferragem,nao piloto universalØ5 no MDF.
+4. Quais apoio inferior,retencao contra deslocamento/desengate e sequencia
+   de montagem/manutencao? Duas pecas superiores nao sao sufiencia provada.
+5. Ha tampa compativel sem interferir no parafuso? Confirmar envelope real.
+Implantacao hipotetica corrigida:u40,5/W-40,5,zH-58,compressao inferiorZ90.
+EntradaØ10 em32;assento40,5=49,5-9,rasgo5. Deslizamento8,5 por lado:
+suportes espelhados exigem sentidos opostos;nao ha translacao unica para
+pendurar os dois. Qualificar metodo com apoio temporario do gabinete e
+fixadores inseridos/apertados por dentro no assento,sem pendura simultanea.
+Posicao sobe32 em relacao ao Confirmat traseiro;nao usar o mapa antigo.
+Vetores criticos simultaneos V/T,sem majoracao/impacto (N):
+P09 atual10kg:239,31/199,25. P11 atual10kg:251,05/204,76.
+P15 atual20kg:345,94/296,74. P15 estudo20kg:370,51/313,84.
+CSV Requisitos_suporte_L.csv:8casos controladoresV/T/R,sem combinar maximos.
+Os maioresV sao247,02(P09),259,53(P11),355,48(P15atual),380,06N(P15estudo),
+com vetores simultaneos preservados no CSV. MaiorR nao implica maiorV.
+No P15estudo critico, reduzir a forca da parede ao canto produz momentos
+de referencia |Mu/Mv/Mz|=6,67/15,01/12,71Nm. Nao sao momentos extras
+nem solicitacoes isoladas de um parafuso:apoios/contatos devem realiza-los.
+Nao dividirV por3 arbitrariamente. Confirmar ensaio com painel/fixadores
+reais;fabricante/RT define coeficientes,duracao,ciclos e criterios de
+deslocamento,creep e ruptura. Sem criterios/dados nao ha aprovacao.
+Nao sao capacidade,quantidade suficiente ou recomendacao de parafuso.
+R52 preservada;testes fisicos0. Detalhes:Selecao_ferragem.json.
+
+DEMAIS CANDIDATOS / IMPLANTACAO GENERICA ANTERIOR (u72,NAO BIGFER ATUAL):
+
+P09/P11/P15,nominal18, fundos18 terminando na face traseira das laterais:
+zero reserva posterior para suspensor/trilho oculto. Nao afastar o movel,
+reduzir armazenamento ou usinar rebaixo sem estudo/revisao.
+
+Dados primariosFGVTN consultados:
+- HB65, pagina produto:65kg. FichaAbr24 vinculada:60kg,codigo0091.510012.
+- InstrucaoDez24 mostra montagem atras do fundo, reserva16min e acessos12.
+- Fixo0091.510010: desenho inclui cotas8/16/22;icone80kg,sem classe de
+  aplicacao/carga combinada demonstrada para estas caixas.
+- HettichSAH216/79717: minimo16 de reserva posterior explicito;55kg em
+  quadroA/EN15939 nao e capacidade do nosso armario ou parede.
+
+Solicitar confirmacao escrita:
+1. NoHB65, qual documento/capacidade vigora?60 ou65?Por kit/par ou por peca?
+   Quais material, montagem, ensaio, V/T e excentricidades estao cobertos?
+2. E possivel usar com fundoMDF18? Como realizar os acessos/encaixe/trava,
+   espaco efetivo do trilho, fixacao na lateral, ajuste e retirada?
+3. Ha conjunto de fixacao direta/acessivel pela frente que aceite fundo18
+   sem reserva traseira? Fornecer desenho completo, placa/apoios/cabecas,
+   parafusos no MDF e capacidade/rigidez sob V/T simultaneos.
+
+Implantacao direta estudada, nao produto escolhido: duas zonas superiores e
+duas inferiores. Coordenadas de interface, nao furos. Origemu na esquerda
+interna, v na parede, z na base externa original; nao coordenadas globais.
+P09:u72/542,z90/502,h412. P11:u72/589,z90/520,h430.
+P15:u72/727,z90/490,h400. Cada reserva36x36x8 para ser atendida pelo produto,
+nao envelope comercial conhecido. Corredor de ferramenta20 so contra madeira.
+
+Vetores criticos num mesmo grupo/caso, sem majoracao/impacto:
+P09 atual com10kg conteudo:V246,12N;T214,72N;R326,62N.
+P11 atual com10kg conteudo:V257,18N;T219,99N;R338,44N.
+P15 atual com20kg conteudo:V355,38N;T320,48N;R478,55N.
+P15 estudo18+18/fundo598 com20kg:V379,96N;T338,94N;R509,17N.
+Massas de madeira a densidade hipotetica900/18,3;reserva1kg de ferragens,
+portas de quatro barras86 e conteudo excentrico. Os vetores sao demandas,
+nao capacidade aprovada nem carga por prateleira. P09 exclui o depurador.
+CSV conserva outros casos e partilhas;h/compressao inferior e transmissao
+da caixa precisam ser demonstrados. Nao dividir carga por quatro ancoras.
+
+Parede, substrato, revestimentos e instalacoes ocultas depois das chaves;
+buchas, diametros e profundidades nao selecionados. Produto/caixa podem ser
+detalhados antes, mas nao usar esta consulta como instrucao de instalacao.

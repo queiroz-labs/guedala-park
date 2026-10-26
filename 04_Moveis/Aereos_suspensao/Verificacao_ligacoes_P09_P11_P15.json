@@ -1,0 +1,54 @@
+{
+  "cases": 696,
+  "group_rows": 4176,
+  "group_equilibria": 2088,
+  "joint_interface_points": 96,
+  "all_joint_points_on_positive_contact_faces": true,
+  "edge_only_mutation_rejected": true,
+  "hardware_variant_counts": [
+    {
+      "code": "P09",
+      "variant": "current",
+      "Confirmat_candidate": 20,
+      "Minifix_existing": 0,
+      "dowels_position_only": 11,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P11",
+      "variant": "current",
+      "Confirmat_candidate": 10,
+      "Minifix_existing": 12,
+      "dowels_position_only": 3,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P15",
+      "variant": "current",
+      "Confirmat_candidate": 6,
+      "Minifix_existing": 8,
+      "dowels_position_only": 0,
+      "purchase_quantity": false
+    },
+    {
+      "code": "P15",
+      "variant": "wood_study",
+      "Confirmat_candidate": 18,
+      "Minifix_existing": 8,
+      "dowels_position_only": 0,
+      "purchase_quantity": false
+    }
+  ],
+  "independent_equilibrium_max_error_N_Nmm": [
+    1.1368683772161603e-13,
+    1.1641532182693481e-10,
+    5.820766091346741e-11
+  ],
+  "critical_vectors_keep_same_case": true,
+  "wood_access_zones": 12,
+  "hardware_tool_real_clearance": false,
+  "geometry_and_R52_source_preserved": true,
+  "manufacturer_load_discrepancy_unresolved": true,
+  "tests_physical": 0,
+  "gate": "Implantacao nominal e solicitacoes;nao CNC/produto/ancoragem/capacidade liberados."
+}

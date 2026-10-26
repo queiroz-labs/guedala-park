@@ -1,0 +1,26 @@
+CONSULTA TECNICA LOCAL — NAO ENVIADA — 25/10/2026
+
+ModeloSuggarDE61IX60cm,manualREV.0025:6kg sem embalagem. Modo depurador,
+sem canal de exaustao. Preservar retorno de ar20mm na largura, filtros,
+tela/cursos, manutencao e distancia ao plano de coccao do manual.
+
+O manual descreve parede e quatro parafusos superiores4,2x30 no gabinete.
+NaR52, o gabaritoPeca139 terminaZ1916 e a baseP09 comecaZ1958:gap42.
+Se o parafuso partisse do topo desse gabarito,30mm chegariamZ1946,12mm antes
+da base, mesmo sem rosca na madeira. Isto nao reprova o aparelho real:
+o gabarito nao tem abas/flanges/furos comerciais. Nao usar parafuso maior
+ou fabricar adaptador para apagar o conflito sem confirmacao.
+
+Solicitar desenho dimensional do modelo real e confirmacao do fabricante:
+1. Faces/abas onde apoiam as quatro cabecas, direcao dos parafusos, cotas
+   ate a madeira e espessura receptora prevista;qual placa apareceFig5/7?
+2. Como manter as cotas do projeto com o corpo real? Se houver adaptacao,
+   fornecer detalhe aprovado, superficies de apoio e acesso,sem obstruir ar.
+3. Qual transferencia de esforcos e permitida para gabinete/parede?
+   A partilha nao e automaticamente0,50 ou100% da massa;vinculos redundantes
+   e alavancas podem produzir esforcos internos maiores que uma divisao.
+4. Conferir20mm de retorno, tela, filtros/cabo,manutencao e afastamentos
+   aplicaveis na montagem efetiva. Nao reinstalar duto cancelado naR48.
+
+Nao atribuir6kg a um suspensor do armario antes dessa interface. Sem compra,
+contato externo, furo ou alteracaoCAD nesta consulta.

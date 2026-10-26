@@ -16,6 +16,8 @@ Lista complementar aos estudos de portas, gavetas e banco. Quantidades abaixo n�
 
 ## Suspensão e caminho da carga
 
+**Conferência25/10, P09/P11/P15:** [pré-seleção compactaBigfer04.02.058](../../Aereos_suspensao/README.md), aço1,5, envelope49,5×37,8×16,≈60mL/par. Preferida para qualificação sem recuar fundo18, mas sem capacidade/método comprovados; não é compra adicional. SAH130/116 internos mostram fundo máximo5;HB65/SAH216 atrás do fundo exigem reserva inexistente. [Manuais preservados](../../../09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/README.md).
+
 O SAH215 pesquisado tem ajuste e capacidade publicada 45 kg por peça nas condições de ensaio, fixação obrigatória na lateral e necessidade de rebaixo 16. Essa capacidade não autoriza o móvel completo nem elimina a geometria de montagem. [Hettich Connecting Technology, página 48](https://web.hettich.com/fileadmin/media/Connecting_technology_2016_16359_HUS.pdf).
 
 Os aéreos possuem fundos 18 alinhados à traseira das laterais, portanto não existe o espaço posterior 16 necessário ao SAH215. Uma suspensão por dentro pode ser estudada, mas ocupa canto interno e ainda exige a interface com o trilho. Uma régua externa desloca o móvel. Nenhuma dessas alternativas foi incorporada sem validação.

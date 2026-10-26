@@ -5,6 +5,10 @@ Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 | Comando | O que faz | Tempo |
 |---|---|---|
 | `python ferramentas/verificar_tudo.py` | Roda todas as verificações rápidas abaixo de uma vez | segundos |
+| `python -B ferramentas/aereos/detalhar_ligacoes.py` | LoteP09/P11/P15:96 interfaces nominais,696 casos/4176 vetores e12 zonas de acesso só contra madeira; preservaR52, sem produto/usinagem/capacidade demonstrados (NumPy/Pillow) | segundos |
+| `python -B ferramentas/aereos/conferir_ligacoes.py` | Confere contato positivo, rejeita ligação pela aresta, reconcilia contagens e equilíbrio independente dos2088 pares de grupos; não é ensaio físico | segundos |
+| `python -B ferramentas/aereos/selecionar_ferragem.py` | Bigfer04.02.058 candidata:envelopes≈60mL/par,6cantos e4176vetores na implantação proposta;sem montagem/capacidade homologadas | segundos |
+| `python -B ferramentas/aereos/conferir_selecao.py` | Confere fontes/ocupação e equilíbrio independente da pré-seleção;CAD preservado,sem ensaio físico | segundos |
 | `python ferramentas/verificar_modelo/verificar_modelo.py` | Modelo FreeCAD: arquivo vigente, cores (GuiDocument.xml), SHA do release, backups esquecidos | segundos |
 | `python ferramentas/verificar_modelo/verificar_modelo.py --completo [--relatorio]` | Abre o modelo no FreeCADCmd **sem salvar** e confere: invariantes (`invariantes.json`), nada novo fora do apartamento, aparência por objeto, **106 cenários de movimento** (`movimentos.json`), objetos removidos, formas inválidas, expressões perdidas e colisões novas. Com `--relatorio` escreve `02_Modelo_3D/Relatorio_mudanca.md`. Atualizar a base exige `--atualizar-base --aprovado-por "Elias, dd/mm: ..."` | ~8 min |
 | `python ferramentas/verificar_consistencia.py` | Documentos batem entre si (datas, versões, caderno × site) | segundos |

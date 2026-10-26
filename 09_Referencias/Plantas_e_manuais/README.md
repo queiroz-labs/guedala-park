@@ -12,6 +12,8 @@
 
 ## Manuais disponíveis
 
+[Suspensão de armários — HB65 e fixoFGVTN](Manuais/Ferragens_suspensao/README.md): três documentos oficiais preservados, divergência60/65kg e compatibilidade com fundo18 registradas; nenhum produto adotado.
+
 Os nomes preservam fabricante, modelo e versão para evitar confusão. A presença de um manual não significa que o aparelho foi escolhido.
 
 - [Consul CD060BE Manual W11769664](Manuais/Consul_CD060BE_Manual_W11769664.pdf)

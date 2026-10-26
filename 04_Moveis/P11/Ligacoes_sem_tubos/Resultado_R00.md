@@ -1,5 +1,7 @@
 # P11 sem tubos — ligações da prateleira às laterais e ao fundo
 
+**Complemento vigente25/10:** [loteA — mapa nominal, demandas e suspensão](../../Aereos_suspensao/README.md). Preserva12 Minifix; localiza10 Confirmat e3 cavilhas candidatos, sem compra adicional presumida. Conferência de contato e equilíbrio não comprova as rigidezes/resistências requeridas abaixo.
+
 24/10/2026 · R00 · base nominal R49, sem alterar o FCStd. **Decisão de Elias: manter o P11 sem tubos**, com chapa nominal de 18 mm e fundo de 18 mm.
 
 ## Resultado e situação
