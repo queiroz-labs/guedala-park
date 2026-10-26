@@ -85,6 +85,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **P14 montagem, 26/10:** [interfaces e roteiro](04_Moveis/P14/Reacoes_e_operacao/README.md): quatro casos simultâneos preservados, cinco sensibilidades de trava e oito registros vazios. Pivô 40,25 mm na faixa 52 mm ainda depende de bucha, retenção e acesso SW5. Consulta banco/cesto atualizada e não enviada; oficina indisponível, zero ensaios. R52 preservada.
 
+**T04 — margens de engate, 26/10:** [36 casos P14/P20](04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026), com 12 inversões independentes. Erro radial hipotético de 1 mm por terminal pode impedir alcançar engate de 290 mm antes das paradas 90°/55°. Produto, eixo real e liberação continuam pendentes; sem alterar furos, CAD ou registrar ensaio.
+
 **Ferragens P14/P20, pesquisa de 26/10:** [fontes e oito requisitos](04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md). Bucha GFM-1012-15 entrou como candidata de consulta; ajuste, alojamento e ligação ainda indefinidos. Bigfer/Mahler seguem sem curso de liberação/capacidade na aplicação confirmados. Consultas não enviadas; sem compra, ensaio ou mudança R52.
 
 **P08, 26/10:** [rodízios e estabilidade](04_Moveis/P08/README.md): 336 cenários e 1292 distribuições conferidas; 26 cenários sem equilíbrio ao excluir uma roda de canto. Kit de seis rodas e apoio de 39 mm preservados. Massas acabadas, contato, flexão, juntas, fixação, guias e batente pendentes; sensibilidades não definem carga de uso. Zero ensaios e R52 intacta.

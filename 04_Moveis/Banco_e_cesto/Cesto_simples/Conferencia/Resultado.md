@@ -1,5 +1,24 @@
 # Ferragens simples — resultado da conferência nominal
 
+## Margens geométricas de engate — T04, 26/10/2026
+
+[36 casos](Margens_travas.csv) · [hipóteses e memória](Margens_travas.json). Reproduzir: `python -B ferramentas/aereos/analisar_margens_travas.py`. A inversão analítica foi confrontada com rotação cartesiana/bisseção em 12 condições; comprimentos fora do curso são rejeitados. Fontes geométricas salvas, sem abrir CAD ou repetir ensaio físico.
+
+O estudo anterior colocava a distância entre terminais em 291 mm exatamente na parada: 90° nas tampas e 55° no cesto. Agora cada centro de terminal pode variar dentro de um disco de raio **e**, com eixo de giro mantido fixo. A desigualdade triangular limita a variação da distância a **2e**. Os valores e=0,5/1/2 mm são sensibilidades, não tolerâncias escolhidas para fabricar.
+
+| Distância hipotética de engate | Reserva com e=0,5 mm | e=1 mm | e=2 mm |
+|---|---:|---:|---:|
+| 288 mm | 2 mm | 1 mm | −1 mm |
+| 290 mm | 0 mm | −1 mm | −3 mm |
+| 291 mm | −1 mm | −2 mm | −4 mm |
+
+Reserva = 291 − distância de engate − 2e; vale para os quatro articuladores estudados. Negativo significa que **não se garante alcançar o engate até a parada em todas as posições admitidas pelo modelo de erro**; não significa que toda montagem falha. Zero apenas toca o limite, sem reserva. Mesmo positiva não comprova trava, resistência ou montagem real. Em 12 dos 36 casos a condição geométrica é satisfeita; os demais 24 não a garantem.
+
+Exemplo: engate hipotético de 290 mm e e=1 mm. A tampa maior pode atingir a distância desde 88,705° (nominal 89,566°); o cesto, desde 54,409° (nominal 54,803°). O limite tardio fica além das paradas estudadas e permanece vazio no CSV: **não se propõe ultrapassar 90°/55°** nem movimentar peças para fazê-lo caber.
+
+**Critério para receber o desenho do produto:** com tolerância própria da distância de engate tL ainda desconhecida, exigir `L_engate_max + e_fixo + e_movel <= d_nominal(parada)` apenas como condição geométrica neste modelo de eixo fixo. Confirmar separadamente trajetória e modo de liberação; essa reserva não representa curso disponível para destravar. Se a condição não for atendida, revisar a implantação em estudo e repetir interferências antes de definir furos/batentes. Erro do eixo, corpos, folgas dos pinos, deformação e ferramenta exigem avaliação adicional.
+
+
 **Continuação25/10:** [P14:reações dos pivôs, fixações e energia](../../../P14/Reacoes_e_operacao/README.md). O torque/braço abaixo foi reproduzido;270 cenários acrescentam repartição lateral, esforços reversos nos suportes e excentricidades. O conjunto permanece condicionado a terminais/trava/pivôs reais. [P20:assento fechado](../../../P20/Assento_fechado/README.md) trata outro caminho de cargas, sem atribuir carga de pessoas aos articuladores.
 
 Conversa de 23/10/2026. Apartamento não entregue; estudo independente do levantamento final. Preservados duas tampas presas, duas almofadas, frente do cesto, saco, gabaritos de objetos e prateleiras.

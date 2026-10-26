@@ -1,5 +1,8 @@
 # Banco P20 — tampas fechadas e caminho até o piso
 
+**T04 — margens de engate, 26/10:** [sensibilidade conjunta](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026): 36 casos, 12 inversões conferidas. Engate hipotético de 290 mm com erro radial de 1 mm por terminal não é garantido até a parada existente; 291 mm não deixa reserva para variação. Dados reais da trava continuam pendentes. Não deslocar pontos ou ampliar abertura para absorver o erro; verificar produto e implantação antes dos furos.
+
+
 **Pesquisa pública, 26/10:** [fichas Bigfer/Mahler reconferidas](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md). Não foram obtidos curso certificado de liberação nem dimensionamento da montagem horizontal. Consulta técnica refinada; pontos de furação continuam condicionais.
 
 ## Tampa aberta e montagem — 26/10/2026
