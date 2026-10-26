@@ -1,5 +1,7 @@
 # P08 · rodízios da gaveta baixa — seleção aprovada
 
+**Continuação de 26/10:** [reações e perda de contato](../../../04_Moveis/P08/README.md): 336 cenários nominais, sem dividir igualmente por seis. Kit e altura de 39 mm preservados; massas reais, flexão, fixações, guias, batente e piso continuam pendentes. Nenhuma carga de uso definida por esse estudo.
+
 24/10/2026. Elias aprovou este kit e a montagem com espaçadores. Compra ainda não realizada.
 
 **[Comprar o kit com 6 rodízios fixos Leão Aço no Magalu](https://www.magazineluiza.com.br/kit-6-rodizio-rodinha-roda-fixo-anti-risco-38mm-leao-aco/p/ajk5b9dh7c/mo/przm/?seller_id=metalacoecommerce)** · vendedor Metalaçoecommerce · código ajk5b9dh7c. Consulta de 24/10/2026: R$22,61 no Pix ou R$23,80 em 1x, sem frete. Valores e estoque variam; espaçadores não incluídos.

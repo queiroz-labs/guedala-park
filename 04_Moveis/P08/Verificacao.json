@@ -1,0 +1,11 @@
+{
+  "status": "OK_LIMITES_NOMINAIS_P08",
+  "cases": 336,
+  "vertices_checked": 1292,
+  "hull_classifications_checked": 336,
+  "maximum_force_or_moment_error": 2.8421709430404007e-13,
+  "six_contacts_cases": 48,
+  "infeasible_after_one_contact_removed": 26,
+  "physical_tests_executed": 0,
+  "capacity_demonstrated": false
+}

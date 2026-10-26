@@ -5,6 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / '04_Moveis/Cargas_e_ligacoes'
 UPDATES = {
+ 'P08': ('336 cenarios de equilibrio; 1292 distribuicoes extremas; 26 casos inviaveis ao excluir uma roda de canto; seis contatos admitem os 48 casos de carga; R52 preservada',
+         'Medir massa acabada e seis contatos; verificar flexao do fundo, juntas, fixacao real, guias e batente; 0/5/10/20 kg sao sensibilidades, nao carga de uso'),
  'P20': ('Tampa aberta:6equilibrios,42poses,10sensibilidades; compressao nominal7,628/6,473N; piano e interfaces documentadas sem alterarR52',
          'Confirmar eixo/apoio piano,terminais22/30mm,trava e liberacao;montagem/prototipo com componentes reais;oficina indisponivel,roteiro pronto'),
  'P14': ('Montagem:4casos simultaneos,5sensibilidades de trava,8registros vazios; geometria conferidaR52; pivo134,012N e retencao reversa28,014N em casos distintos',
@@ -21,7 +23,7 @@ EVIDENCE = {
  'P05':'Cargas_e_ligacoes/README.md','P07':'Cargas_e_ligacoes/README.md','P10':'Cargas_e_ligacoes/README.md',
  'P18':'Cargas_e_ligacoes/README.md','P19':'Cargas_e_ligacoes/README.md',
  'P06':'../02_Modelo_3D/Componentes/Estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html',
- 'P08':'../03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md',
+ 'P08':'P08/README.md',
  'P14':'P14/Reacoes_e_operacao/README.md','P16':'P16/Interface_guia_fundo/README.md','P20':'P20/Assento_fechado/README.md',
 }
 
