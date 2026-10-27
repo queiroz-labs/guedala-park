@@ -175,9 +175,9 @@ Enviar os subpedidos separadamente:
 
 **Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Pedir ao menos três propostas com o mesmo escopo; não revelar a meta antes das primeiras respostas, conforme a estratégia do pacote de cotação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
 
-**Assunto:** Orçamento preliminar de marcenaria —20 móveis, fichasR15, apartamento40m²
+**Assunto:** Orçamento preliminar de marcenaria —20 móveis, fichas R15, apartamento40m²
 
-> Olá! Solicito orçamento preliminar discriminado dos20 móveis e complementos descritos nas fichasR15. As medidas são nominais, anteriores às chaves; pendências de produtos, montagem e ensaios estão indicadas. A estimativa não autoriza fabricar.
+> Olá! Solicito orçamento preliminar discriminado dos20 móveis e complementos descritos nas fichas R15. As medidas são nominais, anteriores às chaves; pendências de produtos, montagem e ensaios estão indicadas. A estimativa não autoriza fabricar.
 >
 > Preservar armazenamento, acabamentos, armários até o teto e a regra sem tubos ou quadro metálico substituto. Uma chapa física recebe o mesmo acabamento nas duas faces; não adicionar caixa interna15mm automaticamente. Identificar fabricante/código/espessura das chapas, bordas, ferragens e alternativas sem substituir por conta própria.
 >

@@ -1,6 +1,6 @@
 # Planta de pontos de anteprojeto — R01
 
-27/10/2026. **Revisão documental dos50 códigos R00, mais3 grupos de iluminação omitidos:53 funções.** Não é projeto executivo; não define circuitos nem confirma coordenadas de instalação. O arquivo SVG mantém o nome legado para preservar links; sua identificação interna éR01.
+27/10/2026. **Revisão documental dos50 códigos R00, mais3 grupos de iluminação omitidos:53 funções.** Não é projeto executivo; não define circuitos nem confirma coordenadas de instalação. O arquivo SVG mantém o nome legado para preservar links; sua identificação interna é R01.
 
 ![Planta de pontos R01](Planta_pontos_R00.svg)
 
@@ -51,6 +51,8 @@ As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E0
 - E05/E06: dois kitsWiZ, dois controles separados; corte e acessórios IL08. Não duplicar fontes próprias.
 
 **D04 — Onde desenvolver a saída da indiretaQ06, preservando armários até o teto? A) na cabeceira/face inferior acessível (componentes provisionados, acréscimo de marcenaria a cotar); B) rebaixo/perfil na face frontal do aéreo (mesma provisão de componentes, usinagem/acesso a cotar); C) aguardar amostra montada da oficina antes de escolher (sem crédito de corte; custo de amostra a cotar). Recomendação: A para consulta, por evitar pressupor fresta no teto e facilitar manutenção; não executar antes da solução da oficina/RT.** Os componentes Q06 estão no total da iluminação, sem rateio por metro validado; custo adicional desconhecido não vale zero. Fonte: requisito de armários até teto26/10 e composição27/10 acima. Nenhuma nova dimensão de móvel adotada.
+
+Conferência27/10: SVG renderizado e inspecionado visualmente, XML válido,53 IDs únicos e cobertos no CSV. Não verifica posições reais.
 
 ## Pontos
 

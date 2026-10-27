@@ -160,7 +160,7 @@ Reserva intocada **R$10.000** em todos: totais com reserva 129.969,74 / 129.761,
 Para verificar a robustez de D01, retirar **somente** a correção M09=650 e os adiamentos M05=641,44, M06=300 e M08=550 da base de estimativas (aqui M08 é550, pois não há desconto de100). Não assumir economia de obra, instalações, pedras, louças ou logística. Base com luz139.328,63 − marcenaria46.500 −650 −641,44 −300 −550 = **R$90.687,19 fora da marcenaria**. Portanto o pacote de marcenaria teria de custar no máximo **R$29.312,81 instalado**, ainda antes das lacunas de frete/iluminação.
 
 - Com pacote35.000, esse cenário fica **R$125.687,19**, excesso5.687,19. Logo35mil isoladamente não fecha a verba.
-- Para D01-C, solicitar proposta **sem painel/prateleirasC04** sob o mesmo limite29.312,81; não subtrair850 novamente desse limite. O crédito deC04 precisa vir do fornecedor, não do rateio histórico.
+- Para D01-C, solicitar proposta **sem painel/prateleiras C04** sob o mesmo limite29.312,81; não subtrair850 novamente desse limite. O crédito de C04 precisa vir do fornecedor, não do rateio histórico.
 - Manter D01-C como direção de cotação, não autorização de contratação. Receber três propostas comparáveis antes de negociar a meta; os [rascunhos](../../01_Programa_e_decisoes/Rascunhos_emails.md) não revelam os valores-alvo no texto enviado.
 
 Os cortes concretos de escopo precificados nessa contraprova somam **R$2.141,44** (650+641,44+300+550); saldo necessário **R$17.187,19**, além das lacunas. Não há base documental para chamá-lo de desconto obtido. Se as propostas não couberem, Elias terá de decidir uma mudança maior de escopo/prazo; não reduzir armazenamento, ferragens ou reserva silenciosamente.
