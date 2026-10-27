@@ -9,7 +9,7 @@
 | Cozinha — geral | Stella EVO STH21967/30, branco/3000 K; interruptor comum | Etiqueta/manual, cotação e posição fora do giro dos armários |
 | Cozinha — bancada | Cristallux COB 3000 K/IRC>90 + Opus + Shelly + pulsador | Lote da fita/fonte, pulsador, perfil e instalação |
 | Lavanderia — geral | Galaxy Firefly 9608 quadrado/3000 K; interruptor comum | Manual/lote, posição com varal ocupado |
-| Quarto — geral | Jurerê 30 cm + 2 WiZ + WiZmote exclusivo proposto; brilho, Alexa e celular | SKU/tensão, uso no plafon, preço e escolha do conjunto |
+| Quarto — geral | Elgin48D18WSRWIFI; D03-B, Elias27/10/2026 | Manual, comando físico acessível e acessórios |
 | Quarto — leitura e cabeceira | 2 EVY 2054 independentes; COB 3000 K + Opus/Shelly/pulsador na indireta | Interruptores das EVY, acesso e montagem da indireta |
 | Sala — geral | Jurerê + 2 WiZ + WiZmote | SKU/tensão, fechamento/temperatura e cotação |
 | Sala — jantar | Jabuticaba triplo preto/âmbar, 3 Brilia G9; D1 + RM433 candidatos | Variante tripla/âmbar, documentação e ensaio de dimerização |
@@ -21,12 +21,12 @@ Detalhes técnicos e consultas: [CB02](Fechamento_custo_beneficio/Revisao_quarto
 
 ## Custo e quantidades
 
-**R$5.120,52 é o cenário parcial atualizado**, diferençaR$1.580,52 sobre provisãoR44 de3.540. Aumento de181,90 sobre4.938,62: Firefly quadrado+62,00; cinco fontes+69,30; sete perfis−6,09; teto banheiro−12,90; três pulsadores/placas−9,33; Brilia318939 substitui SMD sem oferta+78,92. Fontes, perfis e comandos estão discriminados sem duplicar L02. Teto do banheiro tem validade anunciada anterior à consulta; indireta3000K passa à Brilia318939 como substituta proposta, com oferta nacional e ficha oficial.
+**R$4.879,03 é o cenário parcial atualizado**, diferença R$1.339,03 sobre a provisão R44 de3.540. D03 — Elias,27/10/2026: "B — Elgin só no quarto; cozinha/lavanderia/banheiro seguem com interruptor comum". Troca reduz R$241,49; manual e comando físico do Elgin não fechados. Fontes, perfis e controles discriminados na lista curta, sem duplicação do banheiro.
 
-**D03 aguarda Elias:** manter Jurerê/WiZ (5.120,52), Elgin48D18WSRWIFI só no quarto (4.879,03), ou nas três gerais (4.396,05). Alternativa nacional com compra, mas muda aparência e comando físico; não é equivalente integral. Recomendação: obter IL02/03 antes de substituir o comando. Referências documentais WiZ929002424712 e WiZmote929002426812 continuam sem conciliação com SKU/estoque nacional. Detalhes, fontes e efeitos na lista curta; não declarar esta frente concluída.
+D04 — Elias,27/10/2026: "A — indireta na cabeceira/face inferior acessível". Montagem/acesso e acréscimos a cotar; sem nova coordenada presumida.
 
-- Seis plafons gerais, um pendente triplo e duas arandelas; três Jurerê recebem seis WiZ E27. SceneSwitch não entra na compra proposta.
-- Cinco WiZmotes (sala, quarto e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
+- Seis plafons gerais, um pendente triplo e duas arandelas; dois Jurerê recebem quatro WiZ E27, e o quarto usa um Elgin integrado. SceneSwitch não entra na compra proposta.
+- Quatro WiZmotes (sala e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
 - Três Shelly, três pulsadores/placas candidatos e **cinco fontes Opus avulsas no total**: três nos grupos com Shelly e duas já incluídas na L02 do banheiro.
 - Banheiro L02 atualizado R$704,64 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
 
@@ -36,7 +36,7 @@ Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos conven
 
 | Frente | Próximo resultado necessário | Responsável sugerido |
 |---|---|---|
-| Lâmpadas e plafons | IL02/IL03: SKU, tensão e condições de uso das seis WiZ nos três Jurerê | WiZ/revenda/Taschibra |
+| Lâmpadas e plafons | IL02/IL03: SKU, tensão e condições de uso das quatro WiZ nos dois Jurerê | WiZ/revenda/Taschibra |
 | Comando das indiretas | IL04/IL05: pulsador Tramontina ou Wall Switch 1 identificado e compatível com I1–negativo | Tramontina/Shelly |
 | Fontes e fitas | IL06/IL07: lote Opus 172/270 mm, regulação/PWM/térmica; corrente divergente da Cristallux | Opus/Cristallux |
 | Kits e luminárias restantes | IL08/IL09: manuais, variantes e componentes completos | Fabricantes/revendas indicados |
@@ -46,7 +46,7 @@ Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos conven
 
 [Consultas IL02–IL09 prontas, não enviadas](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados). IL01 SceneSwitch superada pelo requisito smart. Não repetir estudos nominais enquanto faltarem respostas: registrar evidência por produto, fechar cotação e só então compatibilizar modelo/pontos. As perguntas não substituem resposta técnica, ensaio ou medidas reais.
 
-Para apagar rapidamente a geral smart, usar o botão de desligar do controle proposto. Cortar energia no interruptor convencional também apaga, mas impede religamento por Alexa/celular até restabelecer energia. Prever comando físico acessível; testar configuração e retorno de energia. Cozinha, lavanderia e banheiro mantêm liga/desliga comum.
+Nas gerais WiZ, o controle proposto permite apagar. No Elgin do quarto, o comando físico ainda depende da IL09. Cortar energia no interruptor convencional também apaga, mas impede religamento por Alexa/celular até restabelecer energia. Prever comando físico acessível; testar configuração e retorno de energia. Cozinha, lavanderia e banheiro mantêm liga/desliga comum.
 
 Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md), ilustrativa e anterior à mudança smart do quarto. [Estudo integrado](Estudo_integrado.md). CAD e site publicado preservados.
 

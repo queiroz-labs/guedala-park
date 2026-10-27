@@ -111,7 +111,7 @@ T07: memória anterior de iluminação identificada como histórica; direção A
 
 ## Fechamento aritmético para decisão D01 — 27/10/2026
 
-**Aguardando Elias. Nenhum corte adotado.** Pedido desta conversa de 27/10/2026: preparar cenários preservando TV, reserva e decisões existentes. Base comparável com luz parcial: 137.748,11 + 1.580,52 = **R$139.328,63**. Redução mínima: **R$19.328,63**. Os três cenários abaixo fecham a soma, mas **não comprovam preço contratado**: dependem das negociações discriminadas e de autorizar apenas o faseamento dos itens, mantendo seus modelos/acabamentos para compra futura. O escopo vigente permanece integral até resposta.
+**D01 — Elias,27/10/2026: "C para cotação". Não é autorização de contratar.** Pedido desta conversa de 27/10/2026: preparar cenários preservando TV, reserva e decisões existentes. Base comparável com luz parcial: 137.748,11 + 1.339,03 = **R$139.087,14**. Redução mínima: **R$19.087,14**. Os três cenários abaixo fecham a soma, mas **não comprovam preço contratado**: dependem das negociações discriminadas e de autorizar apenas o faseamento dos itens, mantendo seus modelos/acabamentos para compra futura. C é a direção de cotação; o projeto integral permanece como referência futura.
 
 ### Parcela comum aos três cenários
 
@@ -129,7 +129,7 @@ T07: memória anterior de iluminação identificada como histórica; direção A
 | Correção M09: retirar cortina do quarto indevida | 650,00 | Sem perda de uso do programa: quarto já não tem cortina adicional; não é desconto | Registro 21/09, rastreado na seção M09 acima |
 | **Total comum** | **17.967,45** | **17.317,45 de metas condicionais + 650 de correção** | Não inclui adiamentos abaixo |
 
-As negociações não são compras futuras nem cortes de função. Se não forem obtidas, recompor a diferença integralmente antes de contratar. Total após parcela comum: **R$121.361,18**. Não somar novamente os descontos históricos dos eletros/sofás já contidos na R44.
+As negociações não são compras futuras nem cortes de função. Se não forem obtidas, recompor a diferença integralmente antes de contratar. Total após parcela comum: **R$121.119,69**. Não somar novamente os descontos históricos dos eletros/sofás já contidos na R44.
 
 ### Adiamentos reversíveis, sem retirar a TV
 
@@ -140,27 +140,27 @@ As negociações não são compras futuras nem cortes de função. Se não forem
 | M08 cortina do escritório | 450,00 | Sem tecido decorativo; persiana integrada existente deve ser conferida nas chaves | Alta; valor da **meta**, pois o desconto de 100 já está na parcela comum |
 | C04 painel e duas prateleiras da TV | 850,00 | TV mantida com suporte A02; fios sem ocultação pelo painel e duas prateleiras indisponíveis | Média; só viável com suporte independente e posição do PS5/régua resolvida. Valor histórico da **meta**, não preço R15 por módulo; exigir crédito da oficina |
 
-Fontes dos valores: [M05/M06/M08](Moveis_e_tecidos/Analise_moveis.md) e [C04](Marcenaria_35mil/Plano_marcenaria_35mil.md), referências 22/10. C04 não gera crédito automático: fornecedor deve confirmar 850 fora do pacote de 35.000. M05/M06/M08/C04 continuam escolhidos no projeto; adiar é uma nova decisão pendente, não cancelamento.
+Fontes dos valores: [M05/M06/M08](Moveis_e_tecidos/Analise_moveis.md) e [C04](Marcenaria_35mil/Plano_marcenaria_35mil.md), referências 22/10. C04 não gera crédito automático: fornecedor deve confirmar 850 fora do pacote de 35.000. M05/M06/M08/C04 continuam escolhidos no projeto; D01-C autoriza cotar o adiamento, não contratar nem cancelar.
 
-| Cenário | Adiamentos adicionais | Redução total contra 139.328,63 | Execução desta fase | Margem até 120.000 |
+| Cenário | Adiamentos adicionais | Redução total contra 139.087,14 | Execução desta fase | Margem até 120.000 |
 |---|---|---:|---:|---:|
-| A — preservar painel/prateleiras | M06 + M05 + M08 = 1.391,44 | 19.358,89 | 119.969,74 | 30,26 |
-| B — preservar sofá-cama | M06 + M08 + C04 = 1.600,00 | 19.567,45 | 119.761,18 | 238,82 |
-| C — maior margem provisória | M06 + M05 + M08 + C04 = 2.241,44 | 20.208,89 | 119.119,74 | 880,26 |
+| A — preservar painel/prateleiras | M06 + M05 + M08 = 1.391,44 | 19.358,89 | 119.728,25 | 271,75 |
+| B — preservar sofá-cama | M06 + M08 + C04 = 1.600,00 | 19.567,45 | 119.519,69 | 480,31 |
+| C — maior margem provisória | M06 + M05 + M08 + C04 = 2.241,44 | 20.208,89 | 118.878,25 | 1.121,75 |
 
-Reserva intocada **R$10.000** em todos: totais com reserva 129.969,74 / 129.761,18 / 129.119,74. Comprar depois pelo mesmo preço devolve o custo acumulado a **121.361,18**, antes de reajustes e segunda mobilização. Logo faseamento não torna o escopo completo mais barato.
+Reserva intocada **R$10.000** em todos: totais com reserva 129.728,25 / 129.519,69 / 128.878,25. Comprar depois pelo mesmo preço devolve o custo acumulado a **121.119,69**, antes de reajustes e segunda mobilização. Logo faseamento não torna o escopo completo mais barato.
 
-**D01 — Qual faseamento autorizar para cotação, mantendo a TV? A) adiar tapete, Daiane e cortina do escritório (R$119.969,74; sem sofá de hóspedes); B) adiar tapete, cortina do escritório e painel/prateleiras da TV (R$119.761,18; preserva Daiane, exige instalação independente da TV); C) adiar os quatro (R$119.119,74; margem provisória R$880,26). Recomendação: C para cotação, porque oferece a maior margem, somente se a implantação independente da TV for viável.** Sem resposta, conservar escopo. Fontes e efeitos acima.
+**D01 — Qual faseamento autorizar para cotação, mantendo a TV? A) adiar tapete, Daiane e cortina do escritório (R$119.728,25; sem sofá de hóspedes); B) adiar tapete, cortina do escritório e painel/prateleiras da TV (R$119.519,69; preserva Daiane, exige instalação independente da TV); C) adiar os quatro (R$118.878,25; margem provisória R$1.121,75). Recomendação: C para cotação, porque oferece a maior margem, somente se a implantação independente da TV for viável.** Resposta D01-C registrada acima; preços e implantação continuam condicionados. Fontes e efeitos acima.
 
-**Limite do aceite:** a solicitação de cortes comprovados ≥19.328,63 continua aberta; somente650 de correção de escopo está fundamentado como retirada vigente. Os demais valores são metas e propostas para Elias. Não declarar orçamento dentro da verba nem anteprojeto financeiro concluído. Custos faltantes da iluminação/frete consomem as margens; a comparação usa a lista curta de27/10, R$5.120,52; alternativasD03 não adotadas. Se M03 não vier incluído, somar800 aos cenários; se a marcenaria ficar em40.000, somar5.000. Sem resposta comercial não há cenário incondicional demonstrado.
+**Limite do aceite:** a solicitação de cortes comprovados ≥19.087,14 continua aberta; somente650 de correção de escopo está fundamentado como retirada vigente. Os demais valores são metas e propostas para Elias. Não declarar orçamento dentro da verba nem anteprojeto financeiro concluído. Custos faltantes da iluminação/frete consomem as margens; a comparação usa a lista curta de27/10, R$4.879,03; D03-B incorporada, Elias27/10/2026. Se M03 não vier incluído, somar800 aos cenários; se a marcenaria ficar em40.000, somar5.000. Sem resposta comercial não há cenário incondicional demonstrado.
 
 
 ### Contraprova sem descontos presumidos — limite do pedido comercial
 
-Para verificar a robustez de D01, retirar **somente** a correção M09=650 e os adiamentos M05=641,44, M06=300 e M08=550 da base de estimativas (aqui M08 é550, pois não há desconto de100). Não assumir economia de obra, instalações, pedras, louças ou logística. Base com luz139.328,63 − marcenaria46.500 −650 −641,44 −300 −550 = **R$90.687,19 fora da marcenaria**. Portanto o pacote de marcenaria teria de custar no máximo **R$29.312,81 instalado**, ainda antes das lacunas de frete/iluminação.
+Para verificar a robustez de D01, retirar **somente** a correção M09=650 e os adiamentos M05=641,44, M06=300 e M08=550 da base de estimativas (aqui M08 é550, pois não há desconto de100). Não assumir economia de obra, instalações, pedras, louças ou logística. Base com luz139.087,14 − marcenaria46.500 −650 −641,44 −300 −550 = **R$90.445,70 fora da marcenaria**. Portanto o pacote de marcenaria teria de custar no máximo **R$29.554,30 instalado**, ainda antes das lacunas de frete/iluminação.
 
-- Com pacote35.000, esse cenário fica **R$125.687,19**, excesso5.687,19. Logo35mil isoladamente não fecha a verba.
-- Para D01-C, solicitar proposta **sem painel/prateleiras C04** sob o mesmo limite29.312,81; não subtrair850 novamente desse limite. O crédito de C04 precisa vir do fornecedor, não do rateio histórico.
+- Com pacote35.000, esse cenário fica **R$125.445,70**, excesso5.445,70. Logo35mil isoladamente não fecha a verba.
+- Para D01-C, solicitar proposta **sem painel/prateleiras C04** sob o mesmo limite29.554,30; não subtrair850 novamente desse limite. O crédito de C04 precisa vir do fornecedor, não do rateio histórico.
 - Manter D01-C como direção de cotação, não autorização de contratação. Receber três propostas comparáveis antes de negociar a meta; os [rascunhos](../../01_Programa_e_decisoes/Rascunhos_emails.md) não revelam os valores-alvo no texto enviado.
 
-Os cortes concretos de escopo precificados nessa contraprova somam **R$2.141,44** (650+641,44+300+550); saldo necessário **R$17.187,19**, além das lacunas. Não há base documental para chamá-lo de desconto obtido. Se as propostas não couberem, Elias terá de decidir uma mudança maior de escopo/prazo; não reduzir armazenamento, ferragens ou reserva silenciosamente.
+Os cortes concretos de escopo precificados nessa contraprova somam **R$2.141,44** (650+641,44+300+550); saldo necessário **R$16.945,70**, além das lacunas. Não há base documental para chamá-lo de desconto obtido. Se as propostas não couberem, Elias terá de decidir uma mudança maior de escopo/prazo; não reduzir armazenamento, ferragens ou reserva silenciosamente.
