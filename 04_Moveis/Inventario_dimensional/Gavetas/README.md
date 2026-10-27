@@ -97,6 +97,10 @@ Não foi localizado gabarito cotado completo do engate convencional. O opcional 
 
 O pedido atual não inclui envio de correspondência, compra nem mudança de ferragem. Desenho e compatibilidade continuam pendentes de resposta ou documentação técnica equivalente.
 
+## Ajuste vertical e retirada — conferência independente
+
+[132 casos / 1.078.560 pares de envelopes](Ajuste_vertical_e_retirada.md), sem abrir CAD: frente solidária em +3 encontra a prateleira nas duas superiores P01 (sobreposição 1 mm) e zera a folga da superior P06 até a bancada. Frente realinhada na altura nominal evita esses encontros no conjunto testado, mas exige fixação a detalhar. Na caixa500, C475 ainda deixa 33/23 mm dentro da carcaça P01/P06; retirada reta hipotética testada até509/499, com porta P01 correspondente deslocada600. Ferragens, mãos e levantamento excluídos. **Melhor momento para integrar no CAD:** após fechar engate/gabarito, datum, compensação da frente e desengate/retirada; recomendação detalhada no estudo.
+
 ## Curso, engates e manutenção
 
 O desenho arquivado distingue **P=500**, **P1 mínimo=520** e **C=475 ±3 mm**. Logo, 500 mm de comprimento nominal não equivale a curso 500. Antes de integrar a ferragem, reconciliar os controladores com C e confirmar a variante efetiva; não alterar controles somente para fazer esta tabela coincidir.
@@ -108,7 +112,7 @@ A instrução exige **destrave simultâneo dos dois lados** para retirar a gavet
 | Caixa 500 e largura A−41 | Mapa dimensional das 42 peças preparado acima; resolver usinagem; excesso do envelope G2 esclarecido, sem correção vertical indicada |
 | Engates FGVTN | Consulta específica acima; confirmar convencional do kit 54FGOC12500TSX0 ou compatibilidade explícita do opcional 54TNOC12GAT3D |
 | Vertical/recortes | Conferir os datums das cotas 38 mínimo, 27, 12, 11 e 7 do desenho em um corte da montagem correta; não importar as cotas MOVENTO do P16 |
-| Ajuste +3 mm | Conferir folgas em toda a faixa, inclusive frentes e gaveta acima; a indicação de ajuste não garante espaço livre |
+| Ajuste +3 mm | Triagem feita no estudo acima; resolver fixação/realinhamento da frente e regulagem desigual dos engates |
 | Furação | Usar a linha 500 e a face de referência do desenho; D=224/E=64 não são a receita da variante 400. Piloto/parafuso dependem do painel/produto |
 | Retirada | Representar engates reais e acessos simultâneos; depois conferir percurso completo, apoio e remontagem |
 

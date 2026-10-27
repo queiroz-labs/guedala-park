@@ -1,0 +1,4063 @@
+{
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "base_sha256": "cd641fe8a13ce2bb28e2e2006af23f075abba2f3eb5c22f75262a12d3f460495",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "total_pair_checks": 1078560,
+  "front_gaps": [
+    {
+      "lower": "Gaveta",
+      "upper": "Gaveta001",
+      "nominal_gap_mm": 8.0,
+      "min_gap_independent_adjustments_mm": 5.0
+    },
+    {
+      "lower": "Gaveta002",
+      "upper": "Gaveta003",
+      "nominal_gap_mm": 8.0,
+      "min_gap_independent_adjustments_mm": 5.0
+    },
+    {
+      "lower": "Gaveta004",
+      "upper": "Gaveta005",
+      "nominal_gap_mm": 4.0,
+      "min_gap_independent_adjustments_mm": 1.0
+    },
+    {
+      "lower": "Gaveta005",
+      "upper": "Gaveta006",
+      "nominal_gap_mm": 4.0,
+      "min_gap_independent_adjustments_mm": 1.0
+    },
+    {
+      "lower": "Gaveta001",
+      "upper": "Peca245",
+      "nominal_gap_mm": 2.0,
+      "min_gap_independent_adjustments_mm": -1.0
+    },
+    {
+      "lower": "Gaveta003",
+      "upper": "Peca246",
+      "nominal_gap_mm": 2.0,
+      "min_gap_independent_adjustments_mm": -1.0
+    },
+    {
+      "lower": "Gaveta006",
+      "upper": "Peca308",
+      "nominal_gap_mm": 3.0,
+      "min_gap_independent_adjustments_mm": 0.0
+    }
+  ],
+  "depth_summary": [
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "rear_y_mm": 3870.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "rear_y_mm": 3880.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 508.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        36.0,
+        33.0,
+        30.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 509.0,
+      "additional_after_C472_475_478_mm": [
+        37.0,
+        34.0,
+        31.0
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "rear_y_mm": 3870.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "rear_y_mm": 3880.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 508.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        36.0,
+        33.0,
+        30.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 509.0,
+      "additional_after_C472_475_478_mm": [
+        37.0,
+        34.0,
+        31.0
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "rear_y_mm": 3870.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "rear_y_mm": 3880.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 508.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        36.0,
+        33.0,
+        30.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 509.0,
+      "additional_after_C472_475_478_mm": [
+        37.0,
+        34.0,
+        31.0
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "rear_y_mm": 3870.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "rear_y_mm": 3880.0,
+      "carcass_front_y_mm": 3372.0,
+      "travel_to_clear_carcass_plane_mm": 508.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        36.0,
+        33.0,
+        30.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 509.0,
+      "additional_after_C472_475_478_mm": [
+        37.0,
+        34.0,
+        31.0
+      ]
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "rear_y_mm": 6898.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 488.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        16.0,
+        13.0,
+        10.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 489.0,
+      "additional_after_C472_475_478_mm": [
+        17.0,
+        14.0,
+        11.0
+      ]
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "rear_y_mm": 6908.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "rear_y_mm": 6898.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 488.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        16.0,
+        13.0,
+        10.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 489.0,
+      "additional_after_C472_475_478_mm": [
+        17.0,
+        14.0,
+        11.0
+      ]
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "rear_y_mm": 6908.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "rear_y_mm": 6898.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 488.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        16.0,
+        13.0,
+        10.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 489.0,
+      "additional_after_C472_475_478_mm": [
+        17.0,
+        14.0,
+        11.0
+      ]
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "rear_y_mm": 6908.0,
+      "carcass_front_y_mm": 6410.0,
+      "travel_to_clear_carcass_plane_mm": 498.0,
+      "remaining_inside_at_C472_475_478_mm": [
+        26.0,
+        23.0,
+        20.0
+      ],
+      "hypothetical_straight_removal_travel_mm": 499.0,
+      "additional_after_C472_475_478_mm": [
+        27.0,
+        24.0,
+        21.0
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR08",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR001",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR002",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR004",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR005",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "R52",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR012",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR013",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR014",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR016",
+          "Peca247"
+        ],
+        [
+          "GavetaComumR017",
+          "Peca247"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR017",
+          "Peca245"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta001",
+      "variant": "proposta",
+      "door": "PortaCorrer",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR024",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR025",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR026",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR028",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR029",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta002",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "R52",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR036",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR037",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR038",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR040",
+          "Peca248"
+        ],
+        [
+          "GavetaComumR041",
+          "Peca248"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ],
+      "new_candidates": [
+        [
+          "GavetaComumR041",
+          "Peca246"
+        ]
+      ]
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta003",
+      "variant": "proposta",
+      "door": "PortaCorrer001",
+      "door_displacement_mm": 600,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 509.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta004",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta005",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 26100,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "R52",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 489.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_acompanha",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 478,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    },
+    {
+      "drawer": "Gaveta006",
+      "variant": "proposta",
+      "door": null,
+      "door_displacement_mm": 0,
+      "front_mode": "frente_realinhada",
+      "travel_mm": 499.0,
+      "adjustment_interval_mm": [
+        0,
+        3
+      ],
+      "pair_checks": 6378,
+      "closed_baseline_candidates": [],
+      "swept_candidates": [],
+      "new_candidates": []
+    }
+  ],
+  "excluded_hardware_objects": [
+    "MontagemG2R07",
+    "MontagemG2R001",
+    "MontagemG2R002",
+    "MontagemG2R003",
+    "MontagemG2R004",
+    "MontagemG2R005",
+    "MontagemG2R006",
+    "MontagemG2R007",
+    "MontagemG2R008",
+    "MontagemG2R009",
+    "MontagemG2R010",
+    "MontagemG2R011",
+    "MontagemG2R012",
+    "MontagemG2R013",
+    "MontagemG2R014",
+    "MontagemG2R015",
+    "GavetaComumR006",
+    "GavetaComumR007",
+    "GavetaComumR008",
+    "GavetaComumR009",
+    "GavetaComumR010",
+    "GavetaComumR011",
+    "GavetaComumR018",
+    "GavetaComumR019",
+    "GavetaComumR020",
+    "GavetaComumR021",
+    "GavetaComumR022",
+    "GavetaComumR023",
+    "GavetaComumR030",
+    "GavetaComumR031",
+    "GavetaComumR032",
+    "GavetaComumR033",
+    "GavetaComumR034",
+    "GavetaComumR035",
+    "GavetaComumR042",
+    "GavetaComumR043",
+    "GavetaComumR044",
+    "GavetaComumR045",
+    "GavetaComumR046",
+    "GavetaComumR047",
+    "GavetaComumR054",
+    "GavetaComumR055",
+    "GavetaComumR056",
+    "GavetaComumR057",
+    "GavetaComumR058",
+    "GavetaComumR059",
+    "GavetaComumR066",
+    "GavetaComumR067",
+    "GavetaComumR068",
+    "GavetaComumR069",
+    "GavetaComumR070",
+    "GavetaComumR071",
+    "GavetaComumR078",
+    "GavetaComumR079",
+    "GavetaComumR080",
+    "GavetaComumR081",
+    "GavetaComumR082",
+    "GavetaComumR083",
+    "GavetaComumR090",
+    "GavetaComumR091",
+    "GavetaComumR092",
+    "GavetaComumR093",
+    "GavetaComumR094",
+    "GavetaComumR095"
+  ],
+  "obstacle_policy": "Visible Part/PartDesign solid leaves; saved ancestor visibility. Excludes GuiasComuns/GuiasG2 and T51 references, not actual FGVTN products.",
+  "limits": [
+    "AABB continuous translational sweep, not BRep collision proof. Candidate includes pre-existing contacts.",
+    "Single drawer, other drawers closed at zero adjustment. Independent upper adjustment can only increase vertical front gap.",
+    "Front realignment is hypothetical: mounting/fasteners and adjustment range not demonstrated.",
+    "Straight removal assumes released clips and external support; no lift/tilt/hands or real release geometry.",
+    "600 mm door pose from saved movement scenarios; no simultaneous access to both P01 columns.",
+    "1 mm beyond carcass plane is bookkeeping margin, not ergonomic allowance or product withdrawal stroke."
+  ]
+}
