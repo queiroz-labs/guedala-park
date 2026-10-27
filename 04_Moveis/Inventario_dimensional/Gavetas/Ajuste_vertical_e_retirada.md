@@ -24,7 +24,7 @@ Entre gavetas: `folga = folga inicial + ajuste da superior − ajuste da inferio
 
 No segundo cenário, caixa e conteúdo podem subir até 3 mm, mas a frente decorativa permanece em sua posição nominal. Isso equivale a permitir compensação relativa de até 3 mm na fixação da frente. **É uma hipótese de montagem**, não um mecanismo já existente ou validado.
 
-Com essa hipótese, a triagem contínua não encontrou sobreposições entre os envelopes móveis e os obstáculos selecionados, nas sete gavetas, tanto R52 quanto proposta 500, com a porta correspondente do P01 deslocada 600 mm. As folgas decorativas nominais ficam preservadas. Ainda precisamos desenhar fixação interna, curso de realinhamento, parafusos, bordas, aperto e retenção; não extrapolar o estudo das frentes P16 para estas sete gavetas.
+Com essa hipótese, a triagem contínua não encontrou sobreposições entre os envelopes móveis e os obstáculos selecionados, nas sete gavetas, tanto R52 quanto proposta 500, com a porta correspondente do P01 deslocada 600 mm. As folgas decorativas nominais ficam preservadas. [Fixação candidata detalhada](Fixacao_frentes.md): 28 pontos, passagemØ8 e dois alojamentos baixos G2; produto, usinagem, aperto e retenção ainda pendentes; não extrapolar o estudo das frentes P16 para estas sete gavetas.
 
 O fundo e bandejas G2 mantêm sua relação vertical: sobem juntos. A conclusão anterior de fundo com 15 mm e topo Z628 em posição nominal continua válida; não baixar as bandejas para acomodar um excesso de envelope.
 

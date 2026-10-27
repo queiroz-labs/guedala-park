@@ -101,6 +101,10 @@ O pedido atual não inclui envio de correspondência, compra nem mudança de fer
 
 [132 casos / 1.078.560 pares de envelopes](Ajuste_vertical_e_retirada.md), sem abrir CAD: frente solidária em +3 encontra a prateleira nas duas superiores P01 (sobreposição 1 mm) e zera a folga da superior P06 até a bancada. Frente realinhada na altura nominal evita esses encontros no conjunto testado, mas exige fixação a detalhar. Na caixa500, C475 ainda deixa 33/23 mm dentro da carcaça P01/P06; retirada reta hipotética testada até509/499, com porta P01 correspondente deslocada600. Ferragens, mãos e levantamento excluídos. **Melhor momento para integrar no CAD:** após fechar engate/gabarito, datum, compensação da frente e desengate/retirada; recomendação detalhada no estudo.
 
+## Fixação das frentes — proposta independente
+
+[28 pontos candidatos](Fixacao_frentes.md): quatro por frente, passagemØ8 e eixo a±1,5 para compensar0…3. Em G2, duas cabeças baixas encontram as bandejas; alternativa com alojamentoØ20×5, seção residual11 e parafuso nominal25 (30 nos demais) mantém sobra externa nominal5,2. Não há encontros nos envelopes instalados testados; serviço exige retirar conteúdo e bandejas G2. Produto, piloto, torque, usinagem, resistência e acesso real pendentes; nenhuma furação/CAD executada.
+
 ## Curso, engates e manutenção
 
 O desenho arquivado distingue **P=500**, **P1 mínimo=520** e **C=475 ±3 mm**. Logo, 500 mm de comprimento nominal não equivale a curso 500. Antes de integrar a ferragem, reconciliar os controladores com C e confirmar a variante efetiva; não alterar controles somente para fazer esta tabela coincidir.
