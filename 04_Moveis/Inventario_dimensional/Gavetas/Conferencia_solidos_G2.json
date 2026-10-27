@@ -1,0 +1,518 @@
+{
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened_read_only": true,
+  "cad_saved": false,
+  "cad_changed": false,
+  "scope": "Current saved geometry only, no proposed solids or hardware; BRep contact is not strength or physical support certification.",
+  "shapes": {
+    "MontagemG2R019": {
+      "standard_box_mm": [
+        1685.0,
+        6408.0,
+        613.0,
+        2236.0,
+        6898.0,
+        629.1961524227069
+      ],
+      "optimal_box_mm": [
+        1684.9999999,
+        6407.9999999,
+        612.9999999,
+        2236.0000001,
+        6898.0000001,
+        628.0000001000002
+      ],
+      "volume_mm3": 4049278.835591249,
+      "valid": true,
+      "solids": 1,
+      "faces": 10,
+      "vertex_z_range_mm": [
+        613.0,
+        628.0000000000002
+      ]
+    },
+    "BandejaG2R06": {
+      "standard_box_mm": [
+        2026.0,
+        6426.0,
+        628.0,
+        2226.0,
+        6881.0,
+        728.0
+      ],
+      "optimal_box_mm": [
+        2026.0,
+        6426.0,
+        628.0,
+        2226.0,
+        6881.0,
+        728.0
+      ],
+      "volume_mm3": 4260760.0,
+      "valid": true,
+      "solids": 10,
+      "faces": 60,
+      "vertex_z_range_mm": [
+        628.0,
+        728.0
+      ]
+    },
+    "BandejaG2R001": {
+      "standard_box_mm": [
+        1709.0,
+        6426.0,
+        628.0,
+        2021.0,
+        6881.0,
+        729.0
+      ],
+      "optimal_box_mm": [
+        1709.0,
+        6426.0,
+        628.0,
+        2021.0,
+        6881.0,
+        729.0
+      ],
+      "volume_mm3": 10329969.999999998,
+      "valid": true,
+      "solids": 9,
+      "faces": 54,
+      "vertex_z_range_mm": [
+        628.0,
+        729.0
+      ]
+    },
+    "MontagemG2R016": {
+      "standard_box_mm": [
+        1690.0,
+        6883.0,
+        628.0000000000001,
+        2231.0,
+        6898.0,
+        701.0000000000001
+      ],
+      "optimal_box_mm": [
+        1689.9999999,
+        6882.9999999,
+        627.9999999000001,
+        2231.0000001,
+        6898.0000001,
+        701.0000001000001
+      ],
+      "volume_mm3": 592395.0000000002,
+      "valid": true,
+      "solids": 1,
+      "faces": 6,
+      "vertex_z_range_mm": [
+        628.0000000000001,
+        701.0000000000001
+      ]
+    },
+    "MontagemG2R017": {
+      "standard_box_mm": [
+        2231.0,
+        6408.0,
+        601.0,
+        2246.0,
+        6898.0,
+        701.0000000000001
+      ],
+      "optimal_box_mm": [
+        2230.9999999,
+        6407.9999999,
+        600.9999999,
+        2246.0000001,
+        6898.0000001,
+        701.0000001000001
+      ],
+      "volume_mm3": 698250.0000000001,
+      "valid": true,
+      "solids": 1,
+      "faces": 10,
+      "vertex_z_range_mm": [
+        601.0,
+        701.0000000000001
+      ]
+    },
+    "MontagemG2R018": {
+      "standard_box_mm": [
+        1675.0,
+        6408.0,
+        601.0,
+        1690.0,
+        6898.0,
+        701.0000000000001
+      ],
+      "optimal_box_mm": [
+        1674.9999999,
+        6407.9999999,
+        600.9999999,
+        1690.0000001,
+        6898.0000001,
+        701.0000001000001
+      ],
+      "volume_mm3": 698250.0000000002,
+      "valid": true,
+      "solids": 1,
+      "faces": 10,
+      "vertex_z_range_mm": [
+        601.0,
+        701.0000000000001
+      ]
+    },
+    "MontagemG2R020": {
+      "standard_box_mm": [
+        1652.0,
+        6390.0,
+        581.0,
+        2269.0,
+        6408.0,
+        737.0
+      ],
+      "optimal_box_mm": [
+        1651.9999999,
+        6389.9999999,
+        580.9999999,
+        2269.0000001,
+        6408.0000001,
+        737.0000001
+      ],
+      "volume_mm3": 1732507.3315317633,
+      "valid": true,
+      "solids": 1,
+      "faces": 10,
+      "vertex_z_range_mm": [
+        581.0,
+        737.0
+      ]
+    },
+    "MontagemG2R021": {
+      "standard_box_mm": [
+        1690.0,
+        6408.0,
+        628.0,
+        2231.0,
+        6424.0,
+        701.0
+      ],
+      "optimal_box_mm": [
+        1689.9999999,
+        6407.9999999,
+        627.9999999,
+        2231.0000001,
+        6424.0000001,
+        701.0000001
+      ],
+      "volume_mm3": 631378.8439117993,
+      "valid": true,
+      "solids": 1,
+      "faces": 8,
+      "vertex_z_range_mm": [
+        628.0,
+        701.0
+      ]
+    },
+    "GavetaComumR062": {
+      "standard_box_mm": [
+        1685.0,
+        6408.0,
+        773.0,
+        2236.0,
+        6898.0,
+        788.0
+      ],
+      "optimal_box_mm": [
+        1685.0,
+        6408.0,
+        773.0,
+        2236.0,
+        6898.0,
+        788.0
+      ],
+      "volume_mm3": 4049284.513322353,
+      "valid": true,
+      "solids": 1,
+      "faces": 10,
+      "vertex_z_range_mm": [
+        773.0,
+        788.0
+      ]
+    }
+  },
+  "contacts": [
+    {
+      "a": "MontagemG2R019",
+      "b": "BandejaG2R06",
+      "distance_mm": 0.0,
+      "common_volume_mm3": 0.0,
+      "positive_solid_volume_mm3": 0,
+      "common_area_mm2": 0.0,
+      "common_faces": 0,
+      "common_solids": 0,
+      "common_valid": true
+    },
+    {
+      "a": "MontagemG2R019",
+      "b": "BandejaG2R001",
+      "distance_mm": 0.0,
+      "common_volume_mm3": 0.0,
+      "positive_solid_volume_mm3": 0,
+      "common_area_mm2": 0.0,
+      "common_faces": 0,
+      "common_solids": 0,
+      "common_valid": true
+    },
+    {
+      "a": "BandejaG2R06",
+      "b": "BandejaG2R001",
+      "distance_mm": 5.0,
+      "common_volume_mm3": 0.0,
+      "positive_solid_volume_mm3": 0,
+      "common_area_mm2": 0.0,
+      "common_faces": 0,
+      "common_solids": 0,
+      "common_valid": true
+    }
+  ],
+  "tray_assemblies": {
+    "BandejaG2R06": {
+      "status": "Bandeja455 mm, paredes/fundo4 como hipótese; pega, rigidez e materiais pendentes.",
+      "children": [
+        {
+          "object": "OrganizadorG2R06",
+          "label": "Fundo bandeja long",
+          "optimal_box_mm": [
+            2026.0,
+            6426.0,
+            628.0,
+            2226.0,
+            6881.0,
+            632.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R001",
+          "label": "Parede esquerda bandeja long",
+          "optimal_box_mm": [
+            2222.0,
+            6426.0,
+            632.0,
+            2226.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R002",
+          "label": "Parede direita bandeja long",
+          "optimal_box_mm": [
+            2026.0,
+            6426.0,
+            632.0,
+            2030.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R003",
+          "label": "Parede frontal bandeja long",
+          "optimal_box_mm": [
+            2030.0,
+            6426.0,
+            632.0,
+            2222.0,
+            6430.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R004",
+          "label": "Parede posterior bandeja long",
+          "optimal_box_mm": [
+            2030.0,
+            6877.0,
+            632.0,
+            2222.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R005",
+          "label": "Concha",
+          "optimal_box_mm": [
+            2147.0,
+            6435.0,
+            632.0,
+            2217.0,
+            6745.0,
+            692.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R006",
+          "label": "Escumadeira",
+          "optimal_box_mm": [
+            2137.0,
+            6435.0,
+            694.0,
+            2217.0,
+            6755.0,
+            719.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R007",
+          "label": "Espátula lisa",
+          "optimal_box_mm": [
+            2061.0,
+            6435.0,
+            632.0,
+            2121.0,
+            6735.0,
+            657.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R008",
+          "label": "Espátula vazada",
+          "optimal_box_mm": [
+            2061.0,
+            6435.0,
+            659.0,
+            2121.0,
+            6735.0,
+            684.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R009",
+          "label": "Peneira pequena",
+          "optimal_box_mm": [
+            2041.0,
+            6435.0,
+            686.0,
+            2121.0,
+            6695.0,
+            728.0
+          ]
+        }
+      ]
+    },
+    "BandejaG2R001": {
+      "status": "Bandeja455 mm, paredes/fundo4 como hipótese; pega, rigidez e materiais pendentes.",
+      "children": [
+        {
+          "object": "OrganizadorG2R010",
+          "label": "Fundo bandeja wide",
+          "optimal_box_mm": [
+            1709.0,
+            6426.0,
+            628.0,
+            2021.0,
+            6881.0,
+            632.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R011",
+          "label": "Parede esquerda bandeja wide",
+          "optimal_box_mm": [
+            2017.0,
+            6426.0,
+            632.0,
+            2021.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R012",
+          "label": "Parede direita bandeja wide",
+          "optimal_box_mm": [
+            1709.0,
+            6426.0,
+            632.0,
+            1713.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R013",
+          "label": "Parede frontal bandeja wide",
+          "optimal_box_mm": [
+            1713.0,
+            6426.0,
+            632.0,
+            2017.0,
+            6430.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R014",
+          "label": "Parede posterior bandeja wide",
+          "optimal_box_mm": [
+            1713.0,
+            6877.0,
+            632.0,
+            2017.0,
+            6881.0,
+            667.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R015",
+          "label": "Frigideira Turim20 - candidata",
+          "optimal_box_mm": [
+            1802.0,
+            6435.0,
+            632.0,
+            2012.0,
+            6788.0,
+            729.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R016",
+          "label": "Espremedor de alho - limite",
+          "optimal_box_mm": [
+            1718.0,
+            6440.0,
+            632.0,
+            1788.0,
+            6630.0,
+            697.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R017",
+          "label": "Espremedor de cítricos - limite",
+          "optimal_box_mm": [
+            1718.0,
+            6650.0,
+            632.0,
+            1788.0,
+            6840.0,
+            697.0
+          ]
+        },
+        {
+          "object": "OrganizadorG2R018",
+          "label": "Ralador plano - limite",
+          "optimal_box_mm": [
+            1802.0,
+            6800.0,
+            632.0,
+            2012.0,
+            6875.0,
+            672.0
+          ]
+        }
+      ]
+    }
+  }
+}

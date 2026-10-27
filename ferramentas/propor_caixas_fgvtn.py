@@ -15,6 +15,8 @@ def main():
     groups += [[f'GavetaComumR{i:03}' for i in range(s,s+6)] for s in [12,24,36,48]]
     groups += [[f'MontagemG2R{i:03}' for i in [17,18,19,16,21,20]]]
     groups += [[f'GavetaComumR{i:03}' for i in range(60,66)]]
+    g2check=json.loads((OUT/'Conferencia_solidos_G2.json').read_text(encoding='utf-8'))
+    assert g2check['cad_sha256']==base['sha256']
     roles=['lateral_x_maior','lateral_x_menor','fundo','traseira','frente_interna','frente_decorativa']
     rows=[]; parts=[]
     for src,names in zip(audit['rows'],groups):
@@ -33,7 +35,7 @@ def main():
             parts.append(dict(drawer=src['drawer'],module=src['module'],object=name,role=role,
                 before_box_mm=b,proposed_box_mm=p,delta_box_mm=[round(y-x,6) for x,y in zip(b,p)],
                 scope='Envelope only; no machining',
-                exception='Imported bottom envelope 16.196, not panel thickness' if name=='MontagemG2R019' else None))
+                exception='Standard BoundBox overestimate; optimal BRep thickness 15 mm. No vertical correction.' if name=='MontagemG2R019' else None))
         r,l,bt,re,fr,de=after
         assert r[0]-l[3]==src['carcass_width_A_mm']-41
         assert r[4]-r[1]==l[4]-l[1]==500
@@ -62,8 +64,8 @@ def main():
         assert all(gaps['proposed_box_mm'][k]>=v for k,v in gaps['before_box_mm'].items())
         trays.append(dict(object=name,preserved_box_mm=b,horizontal_gaps_mm=gaps,
             existing_bottom_envelope_z_overlap_mm=round(g2['fundo']['before_box_mm'][5]-b[2],6),
-            status='Actual shapes/support unresolved; vertical envelope overlap already exists'))
-    result=dict(status='PROPOSTA_NAO_APLICADA',cad_sha256=base['sha256'],source_audit='Conferencia_P01_P06.json',
+            status='Current BRep: no positive intersection volume with bottom; standard box overestimate. Physical support and proposed solid unresolved'))
+    result=dict(status='PROPOSTA_NAO_APLICADA',cad_sha256=base['sha256'],source_audit='Conferencia_P01_P06.json',source_g2_check='Conferencia_solidos_G2.json',
         cad_opened=False,cad_changed=False,physical_tests_executed=0,rows=rows,parts=parts,preserved_trays=trays,
         limits=['Global bounding boxes in mm, not cut list or CAD features.',
         'Groove overlap inferred from envelopes; actual grooves not verified.',

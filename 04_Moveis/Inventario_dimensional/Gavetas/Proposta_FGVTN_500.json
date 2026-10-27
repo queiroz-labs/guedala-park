@@ -2,6 +2,7 @@
   "status": "PROPOSTA_NAO_APLICADA",
   "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
   "source_audit": "Conferencia_P01_P06.json",
+  "source_g2_check": "Conferencia_solidos_G2.json",
   "cad_opened": false,
   "cad_changed": false,
   "physical_tests_executed": 0,
@@ -1160,7 +1161,7 @@
         0.0
       ],
       "scope": "Envelope only; no machining",
-      "exception": "Imported bottom envelope 16.196, not panel thickness"
+      "exception": "Standard BoundBox overestimate; optimal BRep thickness 15 mm. No vertical correction."
     },
     {
       "drawer": "Gaveta005",
@@ -1477,7 +1478,7 @@
         }
       },
       "existing_bottom_envelope_z_overlap_mm": 1.196,
-      "status": "Actual shapes/support unresolved; vertical envelope overlap already exists"
+      "status": "Current BRep: no positive intersection volume with bottom; standard box overestimate. Physical support and proposed solid unresolved"
     },
     {
       "object": "BandejaG2R001",
@@ -1504,7 +1505,7 @@
         }
       },
       "existing_bottom_envelope_z_overlap_mm": 1.196,
-      "status": "Actual shapes/support unresolved; vertical envelope overlap already exists"
+      "status": "Current BRep: no positive intersection volume with bottom; standard box overestimate. Physical support and proposed solid unresolved"
     }
   ],
   "limits": [
