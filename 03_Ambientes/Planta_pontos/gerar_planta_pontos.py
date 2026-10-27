@@ -44,11 +44,11 @@ P = [
     ('C07', 'E', 478, 690, 45, 'Esgoto da pia', 'Existente; conferir posição'),
     ('C08', 'T20', 528, 690, 92, 'Torre automática de tomadas 20 A na bancada (área seca)', 'Posição a definir'),
     ('C09', 'T', 539, 695, 190, 'Micro-ondas ME23P · 127 V', 'Aparelho escolhido'),
-    ('C10', 'T', 560, 695, 110, 'Purificador PE11X bivolt, uso127 V', 'Aparelho escolhido'),
+    ('C10', 'T', 560, 695, 110, 'Purificador PE11X bivolt, uso 127 V', 'Aparelho escolhido'),
     ('C11', 'AF', 552, 698, 110, 'Água fria do purificador', 'Derivação a confirmar'),
-    ('C12', 'T', 615, 695, 200, 'Geladeira IB6S bivolt, uso127 V', 'Aparelho escolhido'),
-    ('C13', 'L', 521, 591, None, 'Stella EVO STH21967/30, quadrado3000K', 'Interruptor comum; posição com portas a conferir'),
-    ('C14', 'A', 515, 680, 150, 'COB3000K sob aéreos +Opus/Shelly/pulsador', 'Grupo independente; acesso/manuais IL04–07 pendentes'),
+    ('C12', 'T', 615, 695, 200, 'Geladeira IB6S bivolt, uso 127 V', 'Aparelho escolhido'),
+    ('C13', 'L', 521, 591, None, 'Stella EVO STH21967/30, quadrado 3000 K', 'Interruptor comum; posição com portas a conferir'),
+    ('C14', 'A', 515, 680, 150, 'COB 3000K sob aéreos +Opus/Shelly/pulsador', 'Grupo independente; acesso/manuais IL04–07 pendentes'),
     # Lavanderia
     ('L01', 'T', 350, 695, 110, 'Lavadora LG VC4 CV5012PC4 · 127 V', 'Aparelho escolhido'),
     ('L02', 'AF', 340, 698, 90, 'Água fria da lavadora', 'Existente; conferir posição'),
@@ -60,7 +60,7 @@ P = [
     ('L08', 'X', 279, 699, 215, 'Exaustão do aquecedor E21', 'Duto e saída a projetar'),
     ('L09', 'AQ', 284, 698, 140, 'Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar', 'Percurso oculto em estudo'),
     ('L10', 'T20', 305, 695, 100, 'Tomada fixa 20 A para air fryer e cafeteira', 'Posição a definir'),
-    ('L11', 'L', 320, 595, None, 'Firefly9608 quadrado3000K', 'Interruptor comum; testar sombra/varal ocupado'),
+    ('L11', 'L', 320, 595, None, 'Firefly 9608 quadrado 3000 K', 'Interruptor comum; testar sombra/varal ocupado'),
     # Banheiro
     ('B01', 'AF', 426, 526, 55, 'Água fria do lavatório', 'Existente; conferir'),
     ('B02', 'AQ', 442, 526, 55, 'Água quente do lavatório', 'Novo ramal; percurso em estudo'),
@@ -70,26 +70,26 @@ P = [
     ('B06', 'AQ', 404, 526, 60, 'Ducha higiênica · quente', 'Novo ramal; E21 exige 3,9 L/min para ligar'),
     ('B07', 'AQ', 290, 526, 120, 'Chuveiro / misturador Livo (quente e fria)', 'Um código funcional; conferir ambas as alimentações, não só AQ'),
     ('B08', 'E', 295, 470, 0, 'Ralo do box', 'Existente'),
-    ('B09', 'A', 434, 513, 190, 'Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W', 'L02: Opus OPS31002 e perfil MOV; posição/montagem a validar'),
-    ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Brilia318939 até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
+    ('B09', 'A', 434, 513, 190, 'Espelho 4000 K: Cristallux COB 2x 550 mm /13,2 W', 'L02: Opus OPS31002 e perfil MOV; posição/montagem a validar'),
+    ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Brilia 318939 até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
     ('B11', 'L', 395, 450, None, 'Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44', 'Selecionado L02; ponto e volumes a conferir'),
     # Sala
     ('S01', 'T', 505, 200, 30, 'Régua no compartimento ventilado: TV, PS5, soundbar', 'Posição de estudo'),
     ('S02', 'T', 505, 250, 120, 'TV 50″ atrás do painel', 'Altura a conferir'),
-    ('S03', 'L', 617, 375, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
-    ('S04', 'L', 660, 455, None, 'Jabuticaba triplo +3Brilia314450 +D1/RM433', 'Vidro âmbar e dimerização a confirmar, grupo próprio'),
+    ('S03', 'L', 617, 375, None, 'Geral smart: Jurerê +2 WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
+    ('S04', 'L', 660, 455, None, 'Jabuticaba triplo +3Brilia 314450 +D1/RM433', 'Vidro âmbar e dimerização a confirmar, grupo próprio'),
     # Escritório
     ('E01', 'T', 300, 5, 85, 'Bancada · notebook', 'Quantidade a definir'),
     ('E02', 'T', 440, 5, 85, 'Bancada · PC CH360, monitores', 'Quantidade a definir'),
     ('E03', 'T', 480, 176, 100, 'TV 43″ existente', 'Conferir'),
-    ('E04', 'L', 370, 150, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
+    ('E04', 'L', 370, 150, None, 'Geral smart: Jurerê +2 WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
     # Quarto
     ('Q01', 'A', 5, 112, 110, 'Nordecor EVY2054 branca · lado 1', 'Comando independente'),
     ('Q02', 'A', 5, 288, 110, 'Nordecor EVY2054 branca · lado 2', 'Comando independente'),
     ('Q03', 'T', 5, 105, 60, 'Tomada de cabeceira · lado 1', 'Conferir'),
     ('Q04', 'T', 5, 295, 60, 'Tomada de cabeceira · lado 2', 'Conferir'),
-    ('Q05', 'L', 122, 248, None, 'Geral smart Elgin48D18WSRWIFI: brilho, Alexa/celular', 'D03-B Elias27/10; manual/comando físico IL09 pendentes'),
-    ('Q06', 'A', None, None, None, 'Cabeceira/face inferior: COB3000K +Opus/Shelly', 'D04-A Elias27/10; posição/acesso/pulsador a compatibilizar'),
+    ('Q05', 'L', 122, 248, None, 'Geral smart Elgin 48D18WSRWIFI: brilho, Alexa/celular', 'D03-B Elias 27/10; manual/comando físico IL09 pendentes'),
+    ('Q06', 'A', None, None, None, 'Cabeceira/face inferior: COB 3000K +Opus/Shelly', 'D04-A Elias 27/10; posição/acesso/pulsador a compatibilizar'),
 ]
 
 P += [

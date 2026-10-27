@@ -1,8 +1,8 @@
 # Cozinha e lavanderia — seleção de luminárias R01
 
-**Consulta histórica de27–28/09:** a proposta comercial vigente é EVO na cozinha e Firefly9608 na lavanderia, ambos com interruptor comum; bancada com COB/Opus/Shelly/pulsador, ainda condicionada. [README e preços vigentes](README.md). Decorlux e afirmações de ausência de candidato nesta memória não são pendências atuais de seleção de família. Cálculos abaixo preservam hipóteses originais e não devem ser repetidos para contornar dados de produto/instalação ausentes.
+**Consulta histórica de 27–28/09:** a proposta comercial vigente é EVO na cozinha e Firefly 9608 na lavanderia, ambos com interruptor comum; bancada com COB/Opus/Shelly/pulsador, ainda condicionada. [README e preços vigentes](README.md). Decorlux e afirmações de ausência de candidato nesta memória não são pendências atuais de seleção de família. Cálculos abaixo preservam hipóteses originais e não devem ser repetidos para contornar dados de produto/instalação ausentes.
 
-**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e 1e 1f 7bf 1de 48191af 94cb 4b 830efa 99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
 
 **Continuidade C2 — 28/09/2026:** apoio e fotometria com obstáculos. Proposta de eixos B/C a 42/30 cm da parede, perfis de 65,7/50,7 cm e fita ativa de teste 62,5/47,5 cm após reservas para terminais. Com 800 lm/m úteis e pessoa, médias diretas aproximadas de 513 lx no preparo prioritário e 522 lx sobre pia; geometria/áreas e limitações na memória. Novo ensaio incorpora apoio, filtro e air fryer; não equiparar números diretamente à primeira malha. Nenhum conjunto comercial selecionado.
 
@@ -29,7 +29,7 @@ Escolhas preservadas: plafons brancos de sobrepor, próximos ao teto, com difuso
 | Distribuição | Abertura declarada 90°; arquivo IES disponível | Curva fotométrica não localizada |
 | Proteção / montagem | Sobrepor no teto; grau IP não localizado na página/manual consultados | IP65 e instalação no teto explicitamente indicados pela loja oficial |
 | Garantia publicada | 2 anos | 3 meses |
-| Oferta em 27/09 | R$252; anúncio de 5% no Pix corresponde a R$239,40 | R$28,30 |
+| Oferta em 27/09 | R$ 252; anúncio de 5% no Pix corresponde a R$ 239,40 | R$ 28,30 |
 | Situação | Primeiro candidato para avaliação, com versão 3000 K disponível enquanto durarem os estoques | Alternativa econômica; aparência e documentação de desempenho não bastam para fechar o par |
 
 Preços sem frete, instalação, comandos, cabos e acessórios. Não compõem orçamento completo nem reserva de estoque. Nenhuma compra realizada.
@@ -71,9 +71,9 @@ Foi obtido o IES publicado pela Stella, identificado STH21967/30 e datado de 31/
 
 ## Lavanderia — por que não repetir automaticamente o plafon
 
-A base documental tem 129 × 154 cm. A grelha de 100 × 50 cm ocupa x14,5–114,5 e y85–135 cm no ensaio R07; não é posição executiva. Uma luminária sobre essa área pode ficar sombreada pelas roupas.
+A base documental tem 129 × 154 cm. A grelha de 100 × 50 cm ocupa x 14,5–114,5 e y 85–135 cm no ensaio R07; não é posição executiva. Uma luminária sobre essa área pode ficar sombreada pelas roupas.
 
-O espaço de 19 cm entre y135 e y154 não é faixa garantida de instalação: suporte, chapa, roupa, acesso e distância da parede precisam ser considerados. Também não tratar a faixa entre aéreos e grelha como livre sem cruzar o giro das portas e a exaustão do E21.
+O espaço de 19 cm entre y 135 e y 154 não é faixa garantida de instalação: suporte, chapa, roupa, acesso e distância da parede precisam ser considerados. Também não tratar a faixa entre aéreos e grelha como livre sem cruzar o giro das portas e a exaustão do E21.
 
 Direção de implantação: testar luz fora da projeção da grelha e conferir contribuição no tanque com roupas penduradas. A posição final precisa conciliar varal, chapa, armários, janela e duto. Não acrescentar outra luz sob os aéreos por inferência.
 

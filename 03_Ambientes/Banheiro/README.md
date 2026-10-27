@@ -4,10 +4,10 @@
 
 Estado atual do banheiro. Nada aqui libera compra ou execução. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [imagem do banheiro](../../09_Referencias/Banheiro_referencia_aprovada_2026-09-18.png).
 
-## Situação atual, revisão comercial27/10
+## Situação atual, revisão comercial 27/10
 
 - **Gabinete BC43** com portas de correr e frente/quadro removível; as portas inferiores de abrir são históricas. Chapas **Arauco Beige Matt** e **Louro Freijó Poro**. [Fechamento pré-entrega](Fechamento_pre_entrega/Fechamento.html).
-- **Iluminação L02**, componentes propostos R$ 704,64 à vista sem frete e instalação: teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240 (IRC > 90); indireta 3000 K Brilia318939 4,8 W/m, substituta proposta, perfis MOV4329 e duas fontes Opus OPS31002. Três comandos físicos. [Lista comercial27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md); [L02 histórica](Fechamento_pre_entrega/Luminarias_selecao_L02.html).
+- **Iluminação L02**, componentes propostos R$ 704,64 à vista sem frete e instalação: teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240 (IRC > 90); indireta 3000 K Brilia 318939 4,8 W/m, substituta proposta, perfis MOV4329 e duas fontes Opus OPS31002. Três comandos físicos. [Lista comercial 27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md); [L02 histórica](Fechamento_pre_entrega/Luminarias_selecao_L02.html).
 - Caixa do espelheiro (P19) mapeada em estudo separado; suspensão, oficina e levantamento real pendentes.
 
 T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manutenção-do-quadro-bc43-na-r52-26102026), com faixas de retirada, passagem lateral e ferramenta; R52 preservada.
@@ -24,24 +24,24 @@ T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manu
 
 | Elemento | Decisão vigente | O que ainda depende de definição/conferência |
 |---|---|---|
-| Cuba | Apoio branca retangular; **Deca Slim L.13040.17** como primeira opção, nominal40 ×30 ×13,5 cm | Encaixe, conforto, limpeza junto à parede e peça real; não registrada compra |
-| Torneira da pia | **Addra Arion Black**, monocomando de mesa para banheiro, bica alta, preto fosco; referência comercial73131B pesquisada | Desenho técnico, alcance, alavanca, base, furação, pressão, oferta no orçamento |
+| Cuba | Apoio branca retangular; **Deca Slim L.13040.17** como primeira opção, nominal 40 ×30 ×13,5 cm | Encaixe, conforto, limpeza junto à parede e peça real; não registrada compra |
+| Torneira da pia | **Addra Arion Black**, monocomando de mesa para banheiro, bica alta, preto fosco; referência comercial 73131B pesquisada | Desenho técnico, alcance, alavanca, base, furação, pressão, oferta no orçamento |
 | Posição da torneira | **Atrás da cuba, entre cuba e espelho, centralizada** | Não instalar lateralmente; compatibilizar armário e faixa traseira |
 | Água da pia | **Quente e fria** | Infraestrutura e percurso a executar ainda não definidos |
 | Pedra da bancada | **Granito Branco Itaúnas**, igual à cozinha | Chapa, acabamento, borda, espessura e medidas; altura do banheiro não copia a cozinha |
 | Gabinete inferior | **Suspenso e totalmente fechado**, sem nichos; frentes bege foscas lisas, sem ripado ou puxadores salientes; madeira clara nas laterais | Portas/gavetas, interior, ferragens, padrão exato, acesso ao sifão e conexões |
 | Armário do espelho | **Raso**, toda a frente espelhada, sem nichos abertos; madeira clara nas laterais | Dimensões, número de portas, divisões e passagem hidráulica se adotada |
 | Conteúdo atrás do espelho | Escovas, pasta, desodorante e pequenos cosméticos | Profundidade útil a partir das embalagens |
-| Iluminação | **Teto3000 K, espelho4000 K e indireta3000 K**, três comandos físicos. L02: componentes propostosR$704,64 à vista. Firefly9605; espelho Cristallux COB CLX-FT331240/IRC>90; indireta Brilia318939/4,8 W/m, substituta proposta; MOV4329 e2 fontes Opus OPS31002 | Sem frete/instalação. Encaixe/dissipação, terminais/proteção e luz no rosto a conferir. Barra inferior condicionada à torneira; até2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |
+| Iluminação | **Teto 3000 K, espelho 4000 K e indireta 3000 K**, três comandos físicos. L02: componentes propostosR$ 704,64 à vista. Firefly 9605; espelho Cristallux COB CLX-FT331240/IRC>90; indireta Brilia 318939/4,8 W/m, substituta proposta; MOV4329 e 2 fontes Opus OPS31002 | Sem frete/instalação. Encaixe/dissipação, terminais/proteção e luz no rosto a conferir. Barra inferior condicionada à torneira; até 2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |
 | Paredes fora do box | **Algodão Egípcio** | Marca, código, produto, preparo e proteção nas regiões de respingo |
-| Parede verde | **Somente uma parede do box**, fundo/chuveiro no estudo; referência Portobello Vivant Sauge Mate7 ×24,4 | Amostra, paginação e quantidade; demais paredes internas não ficam todas verdes |
+| Parede verde | **Somente uma parede do box**, fundo/chuveiro no estudo; referência Portobello Vivant Sauge Mate 7 ×24,4 | Amostra, paginação e quantidade; demais paredes internas não ficam todas verdes |
 | Parede da janela no box | Aparência clara/bege da referência revisada | Revestimento exato ainda não escolhido |
-| Piso | **Biancogres Travertino Reale Greige**, referência90 ×90; Satin fora e EXT dentro do box nos registros MAT-007/008 | Adequação técnica a cada área, amostras, paginação, caimentos, rejunte e quantidades |
+| Piso | **Biancogres Travertino Reale Greige**, referência 90 ×90; Satin fora e EXT dentro do box nos registros MAT-007/008 | Adequação técnica a cada área, amostras, paginação, caimentos, rejunte e quantidades |
 | Teto | **Branco** | Produto e código; forro é previsto na entrega, espaço interno/altura ainda não conferidos |
 | Box | **Vidro transparente, perfis pretos finos** | Tipo e sentido de abertura, altura, vidro, ferragens, vedação e acesso |
 | Apoio no box | **Prateleira compacta em Branco Itaúnas**, sem nicho embutido | Quantidade, tamanho, altura, borda e fixação |
-| Vaso | **Celite VIP branco, kit1977230012300**, caixa acoplada e assento PP com queda amortecida; nominal59 P ×37,5 L ×80 A cm | Eixo do esgoto, afastamento real, conforto e instalação; substitui Elite |
-| Chuveiro | **Addra Livo Black Matte**, de parede, com desviador e duchinha de mão; BRS2003-BK / SKU2193038; espalhador redondo13,2 cm registrado anteriormente | Vazão/pressão e compatibilidade da instalação; modelo já escolhido em09/09, não reabrir pesquisa sem pedido |
+| Vaso | **Celite VIP branco, kit 1977230012300**, caixa acoplada e assento PP com queda amortecida; nominal 59 P ×37,5 L ×80 A cm | Eixo do esgoto, afastamento real, conforto e instalação; substitui Elite |
+| Chuveiro | **Addra Livo Black Matte**, de parede, com desviador e duchinha de mão; BRS2003-BK / SKU 2193038; espalhador redondo 13,2 cm registrado anteriormente | Vazão/pressão e compatibilidade da instalação; modelo já escolhido em 09/09, não reabrir pesquisa sem pedido |
 | Registros do banho | Direção estética aceita: **preto fosco e linhas simples**, combinando com Livo; aproveitar bases existentes quando compatíveis | Identificar bases. Acabamento monocomando Livo para base Docol foi apenas candidato, não escolhido |
 | Ducha higiênica | **Preta, com água quente e fria**, junto ao vaso | Modelo, misturador/registro próprio, posição, alcance, orçamento e funcionamento em baixa vazão |
 | Acessórios | Direção aceita em **preto fosco**: papeleira simples, toalheiro de rosto e ganchos para banho | Modelos, quantidades e posições |
@@ -50,12 +50,12 @@ As aprovações acima são escolhas de projeto. Não registram compras, fabrica�
 
 ## Orçamento e aquecimento
 
-- Torneira Arion: teto informado de **R$750**. Referências comerciais anteriores divergiram; não há oferta final com frete confirmada dentro do teto.
-- Chuveiro Livo com duchinha: teto previamente aprovado de **R$850**, sem registros nem instalação. Cotação histórica de09/09: R$593,28, sem atualização nesta consolidação.
-- Vaso: custo-benefício como prioridade, **sem teto numérico aprovado**. Referência anterior para VIP: R$992,14 na Ferreira Gonçalves, sem frete/estoque/CEP confirmados. Não é cotação vigente garantida.
+- Torneira Arion: teto informado de **R$ 750**. Referências comerciais anteriores divergiram; não há oferta final com frete confirmada dentro do teto.
+- Chuveiro Livo com duchinha: teto previamente aprovado de **R$ 850**, sem registros nem instalação. Cotação histórica de 09/09: R$ 593,28, sem atualização nesta consolidação.
+- Vaso: custo-benefício como prioridade, **sem teto numérico aprovado**. Referência anterior para VIP: R$ 992,14 na Ferreira Gonçalves, sem frete/estoque/CEP confirmados. Não é cotação vigente garantida.
 - Ducha higiênica, acabamentos de registros e obra hidráulica: orçamento ainda não fechado.
-- Aquecedor já escolhido no projeto: **Rinnai E21 REU-E211 FEH, GN, uso em127 V pela chave seletora**, sem módulo Wi-Fi adicional. Instalação continua a compatibilizar.
-- Preferências de banho registradas anteriormente: jato firme, boa distribuição, duchinha manual, referência45 °C no inverno sem misturar fria e37 °C no verão; não exige banho e torneira quente simultâneos. São preferências declaradas, não medição ou temperatura prescrita para a ducha higiênica.
+- Aquecedor já escolhido no projeto: **Rinnai E21 REU-E211 FEH, GN, uso em 127 V pela chave seletora**, sem módulo Wi-Fi adicional. Instalação continua a compatibilizar.
+- Preferências de banho registradas anteriormente: jato firme, boa distribuição, duchinha manual, referência 45 °C no inverno sem misturar fria e 37 °C no verão; não exige banho e torneira quente simultâneos. São preferências declaradas, não medição ou temperatura prescrita para a ducha higiênica.
 
 ## Medidas: fatos e hipóteses separados
 
@@ -63,21 +63,21 @@ Base oficial P01: banheiro nominal **209 ×124 cm**, com box à esquerda, vaso a
 
 | Item | Estudo atual | Condição |
 |---|---|---|
-| Distribuição horizontal | Box80 + faixa vaso69 + bancada60 =209 cm | Subdivisões hipotéticas; não são cotas oficiais |
-| Bancada | 60 L ×45 P cm | Hipótese; deixa79 cm nominais até a parede oposta |
-| Cuba sobre bancada | Cuba40 ×30;10 cm em cada lateral | Ensaio centralizado |
+| Distribuição horizontal | Box 80 + faixa vaso 69 + bancada 60 =209 cm | Subdivisões hipotéticas; não são cotas oficiais |
+| Bancada | 60 L ×45 P cm | Hipótese; deixa 79 cm nominais até a parede oposta |
+| Cuba sobre bancada | Cuba 40 ×30;10 cm em cada lateral | Ensaio centralizado |
 | Profundidade da bancada |10 cm atrás +30 cm da cuba +5 cm à frente | Não valida base/alavanca/limpeza da Arion; descontar acabamentos que ocupem essa faixa |
-| Altura de uso | Borda da cuba90 cm; tampo76,5 cm | Proposta para teste de conforto; considera13,5 cm da cuba acima da pedra |
-| Gabinete |60 ×42 cm; hipótese de vão inferior20 cm e pedra2 cm → móvel54,5 cm alto | Medidas de ensaio, sujeitas a sifão/ferragens/fixação |
-| Armário espelhado |60 cm de largura e12–15 cm de profundidade externa | Proposta; útil menor. Precisa liberar alavanca e portas; eventual faixa técnica não pode consumir armazenamento sem revisão |
+| Altura de uso | Borda da cuba 90 cm; tampo 76,5 cm | Proposta para teste de conforto; considera 13,5 cm da cuba acima da pedra |
+| Gabinete |60 ×42 cm; hipótese de vão inferior 20 cm e pedra 2 cm → móvel 54,5 cm alto | Medidas de ensaio, sujeitas a sifão/ferragens/fixação |
+| Armário espelhado |60 cm de largura e 12–15 cm de profundidade externa | Proposta; útil menor. Precisa liberar alavanca e portas; eventual faixa técnica não pode consumir armazenamento sem revisão |
 | Frente do VIP |124 −59 =65 cm nominais | Pode diminuir por afastamento real de instalação |
-| Ganho VIP × Elite |7 cm nominais na frente; VIP1,5 cm mais largo | Elite tinha66 cm de projeção nominal; eixo do esgoto pode alterar resultado |
+| Ganho VIP × Elite |7 cm nominais na frente; VIP1,5 cm mais largo | Elite tinha 66 cm de projeção nominal; eixo do esgoto pode alterar resultado |
 | Laterais do VIP |(69 −37,5)/2 =15,75 cm por lado | Apenas se perfeitamente centralizado na faixa hipotética, antes de acessórios |
-| Porta |Folha70/75/80 cm deixaria9/4/−1 cm até bancada45 cm | Teste idealizado; nenhuma dessas folhas foi medida. Considerar eixo, espessura, maçaneta e trajetória completa |
-| Box |80 ×124 cm brutos; reserva hipotética30 cm para enchimento →80 ×94 cm | Reserva não é medida do enchimento nem área útil comprovada |
-| Prateleira do box |Ensaio25–30 L ×10 P cm | Não aprovada como dimensão final |
+| Porta |Folha 70/75/80 cm deixaria 9/4/−1 cm até bancada 45 cm | Teste idealizado; nenhuma dessas folhas foi medida. Considerar eixo, espessura, maçaneta e trajetória completa |
+| Box |80 ×124 cm brutos; reserva hipotética 30 cm para enchimento →80 ×94 cm | Reserva não é medida do enchimento nem área útil comprovada |
+| Prateleira do box |Ensaio 25–30 L ×10 P cm | Não aprovada como dimensão final |
 
-A largura da porta não foi localizada na planta ou no memorial. A cota1,05 m da circulação não é medida da folha. Pendência para futura documentação/vistoria.
+A largura da porta não foi localizada na planta ou no memorial. A cota 1,05 m da circulação não é medida da folha. Pendência para futura documentação/vistoria.
 
 **Resultado do encaixe: preliminar condicionado.** Ainda não foi demonstrado que tudo cabe com porta, box e equipamentos em uso. [Conferência da bancada e porta](Conferencia_bancada_porta.md) · [Esquema com VIP](Encaixe_R01.svg). O arquivo R00 e parte do estudo inicial com Elite são históricos.
 

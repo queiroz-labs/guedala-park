@@ -1,6 +1,6 @@
 # Programa e decisões
 
-**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
+**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e 1e 1f 7bf 1de 48191af 94cb 4b 830efa 99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
@@ -18,15 +18,15 @@ As decisões atuais estão resumidas no [ESTADO_ATUAL.md](../ESTADO_ATUAL.md); e
 
 Conferência T09, 26/10/2026: roteiro oficial aponta ao modelo R52 e orçamento R44; referência financeira do rascunho de reforma alinhada. [Divergências documentais preservadas](../06_Entregas/README.md#referências-antigas--triagem-t09): bases R45 do programa/vistas e rótulos históricos do painel ainda não demonstram integração integral.
 
-Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publicação R52 como histórico. [Estado vigente](../ESTADO_ATUAL.md).
+Integração 27/10: entrada do roteiro aponta ao modelo R53; painel mantém publicação R52 como histórico. [Estado vigente](../ESTADO_ATUAL.md).
 
-**Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02: Elias,27/10/2026, pediu amostras A/Lume e C/Areia junto ao Arenza; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem18 com referênciaR$607,15 em27/10. O gerador preserva essa seção documental.
+**Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02: Elias,27/10/2026, pediu amostras A/Lume e C/Areia junto ao Arenza; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem 18 com referênciaR$ 607,15 em 27/10. O gerador preserva essa seção documental.
 
-**Consultas27/10:** [Rascunhos R03](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichas R15. D02 A/C, D03-B, D05-C e D06-B incorporados (Elias27/10/2026). Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
+**Consultas 27/10:** [Rascunhos R03](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichas R15. D02 A/C, D03-B, D05-C e D06-B incorporados (Elias 27/10/2026). Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
 
-**Anteprojeto27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima75→87%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D06 respondidas por Elias,27/10/2026, com citações; D06-B integrada. A3 R01 e consultas integradas.90–95% depende principalmente do orçamento e fechamento comercial.
+**Anteprojeto 27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima 75→87%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D06 respondidas por Elias,27/10/2026, com citações; D06-B integrada. A3 R01 e consultas integradas.90–95% depende principalmente do orçamento e fechamento comercial.
 
-IL07 complementada com Brilia318939 para substituir a fita sem oferta; [roteiro](Roteiro_para_projeto_oficial.md) e D01/D03 usam luz parcialR$4.534,55.
+IL07 complementada com Brilia 318939 para substituir a fita sem oferta; [roteiro](Roteiro_para_projeto_oficial.md) e D01/D03 usam luz parcialR$ 4.534,55.
 
 Pedido preliminar R15 preserva estratégia comercial: três propostas comparáveis, sem revelar meta antes das respostas.
 

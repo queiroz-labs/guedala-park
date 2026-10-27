@@ -30,18 +30,18 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Pranchas A3 | R01 local: pontos atualizados, vistas R45 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
 | Site e pacote para o montador | R53/R24, fichas R15; publicação autorizada em 27/10; situação e evidência em Entregas | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
-Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6cm, LIX=A (Elias27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
+Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias 27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 
 ## Onde estamos
 
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 87% estimado | Antes75%; +8 documental e +4 por D03/D04/D06/integração A3. [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; cotações/amostras impedem90–95% |
+| Anteprojeto | 87% estimado | Antes 75%; +8 documental e +4 por D03/D04/D06/integração A3. [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; cotações/amostras impedem 90–95% |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04/D06 integradas; E06 adiada, Q06 sem coordenada, implantação e circuitos com RT/oficina |
-| Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias27/10; SKUs e escolha final pendentes |
-| Orçamento | 60% | R44: R$137.748,11; luz4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias27/10: "C — cotar com aumento de verba". Referência127.101,22, aporte7.101,22, reserva10.000 intacta; pacote37.000 condicionado, sem contratar |
+| Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias 27/10; SKUs e escolha final pendentes |
+| Orçamento | 60% | R44: R$ 137.748,11; luz 4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias 27/10: "C — cotar com aumento de verba". Referência 127.101,22, aporte 7.101,22, reserva 10.000 intacta; pacote 37.000 condicionado, sem contratar |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
@@ -53,7 +53,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).
-- **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura. Geral smart com brilho regulável, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin48D18WSRWIFI só no quarto (Elias27/10/2026); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente.
+- **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura. Geral smart com brilho regulável, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin 48D18WSRWIFI só no quarto (Elias 27/10/2026); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente.
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
 - **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).
@@ -71,7 +71,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 | Móvel | Estudo | Falta |
 |---|---|---|
-| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [P02: U1–U4=A](04_Moveis/Proximas_decisoes/P01_P03/README.md), Elias 27/10/2026: leves ocasionais, requisito10kg, peso na região apoiada, preservar vãos/aparência; produto/ensaio, juntas, soco/piso e fundo P01 pendentes |
+| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [P02: U1–U4=A](04_Moveis/Proximas_decisoes/P01_P03/README.md), Elias 27/10/2026: leves ocasionais, requisito 10 kg, peso na região apoiada, preservar vãos/aparência; produto/ensaio, juntas, soco/piso e fundo P01 pendentes |
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
 | P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
 | P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |
@@ -82,11 +82,11 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
 | Banheiro | [Acesso ao quadro BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) | Desenho de acesso e vistoria |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
-| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | P13/Peca350: Arenza liso nas duas faces (Elias27/10/2026, F13=A); acabamento integrado à R53/fichas R15; produto18/bordas e corte pendentes |
+| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | P13/Peca 350: Arenza liso nas duas faces (Elias 27/10/2026, F13=A); acabamento integrado à R53/fichas R15; produto 18/bordas e corte pendentes |
 
 ## Próximos passos
 
-1. **Elias envia hoje:** revisar e enviar o [pacote por destinatário](06_Entregas/Cotacao/index.html), com fichas R15, amostras D02 e IL02–IL09; todos não enviados. Prazo solicitado 30/10 às 18h. Depois comparar propostas, amostras e respostas; contratar RT. Nenhuma contratação autorizada.
+1. **Elias envia hoje:** revisar e enviar o [pacote por destinatário](06_Entregas/Cotacao/index.html), com fichas R15, amostras D02 e IL02–IL09; todos não enviados. Prazo solicitado 30/10 às 18 h. Depois comparar propostas, amostras e respostas; contratar RT. Nenhuma contratação autorizada.
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 

@@ -11,7 +11,7 @@
 
 Valores antigos nos documentos são históricos quando divergem do Orcamento_R43. Nada foi contratado ou comprado.
 
-Controle de25/10 consolidado em26/10 no plano: matriz20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia26 em andamento. Reserva de30–31/10 mantida para integração e conferência.
+Controle de 25/10 consolidado em 26/10 no plano: matriz 20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia 26 em andamento. Reserva de 30–31/10 mantida para integração e conferência.
 
 Plano enxugado em 26/10/2026: cada tarefa T01–T09 indica situação, bloqueio e fonte técnica. Objetivo, prioridades, agenda, critérios, regras de corte e controle diário preservados; medição mantém somente a matriz 20/20 concluída. Retomar T02/T03 (juntas/suspensão); enquanto a oficina estiver indisponível, continuar T04.
 
@@ -23,27 +23,27 @@ T05 — P08/varal: percurso nominal P08 de 400 mm conferido contra obstáculos f
 
 T05 — P01/P06 e banheiro: divergências das sete caixas versus FGVTN 500 identificadas por objeto; faixas de retirada e ferramenta do BC43 calculadas. [Plano e próximas ações](Plano_execucao_ate_31_10.md). Montagens ainda condicionadas, sem mudança da R52.
 
-T07 — memória anterior à proposta smart/Shelly: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença875,94), sem duplicar banheiro/10,62. Provisão marcenaria46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
+T07 — memória anterior à proposta smart/Shelly: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença 875,94), sem duplicar banheiro/10,62. Provisão marcenaria 46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
 
-T07 — agenda27/10: [cenários A/B](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam ou adiam TV da sala, com valores/perdas e metas separadas de descontos. A memória de iluminação4.415,94 é histórica; proposta vigente parcial4.938,62. R44 permanece137.748,11. Elias27/10/2026, resposta “A”: manter TV nesta etapa; obter metas e reduzir mais1.179,28, além das lacunas.
+T07 — agenda 27/10: [cenários A/B](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam ou adiam TV da sala, com valores/perdas e metas separadas de descontos. A memória de iluminação 4.415,94 é histórica; proposta vigente parcial 4.938,62. R44 permanece 137.748,11. Elias 27/10/2026, resposta “A”: manter TV nesta etapa; obter metas e reduzir mais 1.179,28, além das lacunas.
 
-Coerência26/10: M09/cortina do quarto é provisão indevida frente ao Registro21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira. A decisão A no README do orçamento usa os cenários corrigidos, sem contar essa retirada como desconto.
+Coerência 26/10: M09/cortina do quarto é provisão indevida frente ao Registro 21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira. A decisão A no README do orçamento usa os cenários corrigidos, sem contar essa retirada como desconto.
 
-**Controle diário27/10 preenchido antecipadamente em26/10:** entregas documentais, verificações, decisões e bloqueios separados no [plano](Plano_execucao_ate_31_10.md#9-controle-diário). Oficina/medidas não foram marcadas como concluídas. Janela de trabalho desta conversa termina27/10 às07:30 de Brasília; sem publicação/envios.
+**Controle diário 27/10 preenchido antecipadamente em 26/10:** entregas documentais, verificações, decisões e bloqueios separados no [plano](Plano_execucao_ate_31_10.md#9-controle-diário). Oficina/medidas não foram marcadas como concluídas. Janela de trabalho desta conversa termina 27/10 às 07:30 de Brasília; sem publicação/envios.
 
-P02: uso definido por Elias em27/10/2026 (U1–U4=A); [plano](Plano_execucao_ate_31_10.md) atualizado. Requisito10kg, organização por zonas e preservação de vãos/aparência; comprovação técnica pendente.
+P02: uso definido por Elias em 27/10/2026 (U1–U4=A); [plano](Plano_execucao_ate_31_10.md) atualizado. Requisito 10 kg, organização por zonas e preservação de vãos/aparência; comprovação técnica pendente.
 
-P13: F13=A, Arenza liso nas duas faces (Elias,27/10/2026, resposta “a”); [plano](Plano_execucao_ate_31_10.md) atualizado. Produto18, bordas e inclusão no corte pendentes.
+P13: F13=A, Arenza liso nas duas faces (Elias,27/10/2026, resposta “a”); [plano](Plano_execucao_ate_31_10.md) atualizado. Produto 18, bordas e inclusão no corte pendentes.
 
-Lixeiras: LIX=A (Elias,27/10/2026, resposta “A”); manter modelos e aceitar avanços7/6cm/retirada temporária da Loop se demonstrada. [Plano](Plano_execucao_ate_31_10.md) atualizado; gabarito físico pendente.
+Lixeiras: LIX=A (Elias,27/10/2026, resposta “A”); manter modelos e aceitar avanços 7/6 cm/retirada temporária da Loop se demonstrada. [Plano](Plano_execucao_ate_31_10.md) atualizado; gabarito físico pendente.
 
-Integração27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro decisões; pacote local R24, sem novo envio. Gabaritos, produtos e comprovações físicas continuam pendentes.
+Integração 27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro decisões; pacote local R24, sem novo envio. Gabaritos, produtos e comprovações físicas continuam pendentes.
 
-**Anteprojeto, 27/10/2026:** [D01: três cenários de faseamento](Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), execução condicional de R$118.533,77 a R$119.383,77, com luz parcial atualizadaR$4.534,55, TV e reserva preservadas. Dependem de R$17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias27/10/2026, sem contratar. Redução comprovada ainda insuficiente.
+**Anteprojeto, 27/10/2026:** [D01: três cenários de faseamento](Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), execução condicional de R$ 118.533,77 a R$ 119.383,77, com luz parcial atualizadaR$ 4.534,55, TV e reserva preservadas. Dependem de R$ 17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias 27/10/2026, sem contratar. Redução comprovada ainda insuficiente.
 
-**Contraprova D01:** sem outras negociações, após M09 e adiamento M05/M06/M08, marcenaria precisa caber emR$29.898,78 (antes das lacunas); pacote35mil resultariaR$125.101,22. [Memória](Orcamento/Orcamento_R43.md#contraprova-sem-descontos-presumidos--limite-do-pedido-comercial). Não divulgar meta antes das três primeiras propostas.
+**Contraprova D01:** sem outras negociações, após M09 e adiamento M05/M06/M08, marcenaria precisa caber emR$ 29.898,78 (antes das lacunas); pacote 35 mil resultariaR$ 125.101,22. [Memória](Orcamento/Orcamento_R43.md#contraprova-sem-descontos-presumidos--limite-do-pedido-comercial). Não divulgar meta antes das três primeiras propostas.
 
-**D05,27/10:** [três caminhos sem descontos presumidos](Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A131.501,22, B119.101,22, C127.101,22. Créditos por móvel são alvos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte7.101,22 recomendado frente ao consumo da reserva. Elias,27/10/2026: "C — cotar com aumento de verba". Cotar pacote37.000 e execução127.101,22; reserva10.000 preservada, sem contratação.
+**D05,27/10:** [três caminhos sem descontos presumidos](Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A 131.501,22, B 119.101,22, C 127.101,22. Créditos por móvel são alvos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,27/10/2026: "C — cotar com aumento de verba". Cotar pacote 37.000 e execução 127.101,22; reserva 10.000 preservada, sem contratação.
 
 D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". D05-C vigente R$ 127.101,22; iluminação R$ 4.534,55.
 

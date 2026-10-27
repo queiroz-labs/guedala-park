@@ -85,7 +85,7 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 
 ## 4. Pacote pronto para envio — D02, D05-C e D06-B
 
-**R03, 27/10/2026 — não enviado.** As consultas de amostras, IL02–IL09 e marcenaria estão agora separadas em páginas autônomas por destinatário. Cada página contém escopo, exclusões, retorno técnico/comercial e prazo solicitado de **30/10/2026 às 18h, Brasília**; o prazo ainda não foi aceito pelo fornecedor.
+**R03, 27/10/2026 — não enviado.** As consultas de amostras, IL02–IL09 e marcenaria estão agora separadas em páginas autônomas por destinatário. Cada página contém escopo, exclusões, retorno técnico/comercial e prazo solicitado de **30/10/2026 às 18 h, Brasília**; o prazo ainda não foi aceito pelo fornecedor.
 
 - [Elias envia hoje: destinatário, canal e arquivo](../06_Entregas/Cotacao/index.html).
 - [Pacote completo para baixar](../06_Entregas/Cotacao/Pacote_cotacao.zip).

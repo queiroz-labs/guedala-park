@@ -43,7 +43,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Painel liso da TV | Aprovado | 115 cm L · 2 cm P no ensaio | Parede ~120 cm é estimativa gráfica. |
 | Uma prateleira acima e outra abaixo da TV | Aprovado | 110 × 35 cm inferior / 110 × 25 cm superior · ensaio | A disposição vigente tem uma prateleira acima e outra abaixo da TV, sem gavetas. |
 | Compartimento da régua | Aprovado | 20 × 15 × 12 cm · gabarito | Oculto, acessível e ventilado, lateral ao console. |
-| TV 50″ · preferência Ambilight | Parcial | 111,1 × 64,9 × 8,8 cm de referência | Preferência principalPhilips Ambilight50PUG8100/78. |
+| TV 50″ · preferência Ambilight | Parcial | 111,1 × 64,9 × 8,8 cm de referência | Preferência principalPhilips Ambilight 50PUG8100/78. |
 | Soundbar futura | Futuro | 90 × 10,5 × 7 cm · gabarito | Compra adiada. Dimensões ilustrativas. |
 | PS5 Slim Digital · um aparelho | Direção aprovada | 35,8 × 21,6 × 8 cm · sem saliências | Uso nos dois ambientes. |
 | Mesa Berlin · pronta | Modelo escolhido | 110 / 170 × 80 cm · superfície a 79 cm no estudo | Berlin substitui a mesa sob medida antiga. |
@@ -57,7 +57,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Queen com baú futura · cenário do quarto | Tamanho futuro escolhido | Reserva 200 × 160 cm · colchão padrão 198 × 158 | A cama existente é de viúvo com baú, para a mudança. |
 | Roupeiro 65 cm · interior aprovado e canto atual | Aprovado | 200 ×65 cm · conjunto superior até 244 cm no cenário | Profundidade 65 cm preservada. |
 | Cabeceira estofada em dois painéis | Aprovado | Composição em dois painéis · cotas de estudo no modelo | Composição clara preservada, dividida em dois painéis conforme FreeCAD. |
-| Aéreos em L alinhados · canto independente | Aprovado para desenvolver | Profundidades65/25 cm · base213,2 · topo244 cm de estudo | Armário sobre o guarda-roupa e armário superior da cabeceira alinhados na mesma face inferior, sem móvel extra empilhado. |
+| Aéreos em L alinhados · canto independente | Aprovado para desenvolver | Profundidades 65/25 cm · base 213,2 · topo 244 cm de estudo | Armário sobre o guarda-roupa e armário superior da cabeceira alinhados na mesma face inferior, sem móvel extra empilhado. |
 | Espelho de corpo inteiro Cebrace prata | Aprovado | 50 × 180 cm · 5 mm | Centralizado na lateral de 60 cm do guarda-roupa, com margens nominais de 5 cm e base a 20 cm do piso. |
 
 ### 2.3. Escritório
@@ -69,7 +69,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Notebook + dois monitores + CH360 | Aprovado | 2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm | Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. |
 | Sofá-cama Daiane cinza-claro | Aprovado | 140 × 90 fechado / 140 × 182 aberto cm | Braço junto à parede da porta no cotidiano. |
 | Cadeira · cenário Ultra Comfort | Em estudo | 74,5 × 73 cm · altura 120 ilustrativa | Ultra Comfort não escolhida. |
-| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm no cenário separado de forro do escritório, a confirmar. |
+| Aéreo principal sobre sofá | Aprovado | 200 ×35 ×55 cm · base 190 e topo 245 no cenário | Aéreo 20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm no cenário separado de forro do escritório, a confirmar. |
 | Prateleira alta dos consoles | Parcial | 110 × 35 cm · topo a 195 cm | Altura aprovada por circulação. |
 | Samsung 43″ existente | Existente | 97 × 56 × 5 cm · gabarito | Parede oposta ao sofá. |
 | Volante e pedais futuros | Futuro | Dimensões / guarda pendentes | Logitech pretendido, G29 candidato. |
@@ -78,7 +78,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 | Item | Situação | Medidas de referência | Observação |
 |---|---|---|---|
-| Gaveteiro e base em Arenza | Aprovado para desenvolver | Módulo de cocção61,3 cm · bancada63 cm P e92 cm A | G1/G2/G3 preservados. |
+| Gaveteiro e base em Arenza | Aprovado para desenvolver | Módulo de cocção 61,3 cm · bancada 63 cm P e 92 cm A | G1/G2/G3 preservados. |
 | Gabinete da pia · duas portas | Aprovado para desenvolver | 65 cm externos no estudo ampliado | Duas portas e duas superfícies amplas de guarda. |
 | Gaveta baixa · cabos fixos separados | Aprovado para desenvolver | 118,7 × 40,6 × 8,8 cm úteis · proposta | Vassoura e rodo guardados com as cabeças retiradas e cabos fixos. |
 | Aéreos A/B/C/D em Azul Petróleo | Aprovado para desenvolver | 80,1 + 69,7 + 54,7 + 65 cm · proposta R03 | A/D com divisória vertical. |
@@ -122,8 +122,8 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Cuba Deca Slim branca L.13040.17 | Primeira opção aprovada | 40 × 30 × 13,5 cm | Cuba de apoio retangular. |
 | Addra Arion Black · bica alta | Aprovado | Altura ~30 cm · desenho de instalação pendente | Água quente e fria. Centralizada atrás da cuba, entre cuba e espelho. |
 | Armário raso, todo espelhado | Aprovado | 60 cm L × 12–15 cm P externos · ensaio | Frente toda espelhada, laterais Arauco Louro Freijó Poro e interior Branco TX. |
-| Teto 3000 K +espelho 4000 K +indireta 3000 K | L02: componentes R$612,64 à vista; custo-benefício | Firefly25 W; espelho2×550 mm /13,2 W; indireta até2 m /9,6 W | Teto Galaxy Firefly9605 branco IP44,3000 K. |
-| Box transparente + Addra Livo Black Matte | Direção aprovada | Faixa 80 × 124 cm brutos · hipótese | Ducha Livo BRS2003-BK / SKU2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. |
+| Teto 3000 K +espelho 4000 K +indireta 3000 K | L02: componentes R$ 612,64 à vista; custo-benefício | Firefly 25 W; espelho 2×550 mm /13,2 W; indireta até 2 m /9,6 W | Teto Galaxy Firefly 9605 branco IP44,3000 K. |
+| Box transparente + Addra Livo Black Matte | Direção aprovada | Faixa 80 × 124 cm brutos · hipótese | Ducha Livo BRS2003-BK / SKU 2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. |
 | Prateleira do box em Branco Itaúnas | Direção aprovada | 25–30 × 10 cm · proposta | Apoio para shampoo e sabonete. |
 | Enchimento técnico existente | Entrega | Geometria e altura não medidas | P01 identifica enchimento. |
 | Celite VIP branco · kit 1977230012300 | Aprovado | 37,5 L × 59 P × 80 A cm | Caixa acoplada, assento PP de queda amortecida e Rimless. |
@@ -162,8 +162,8 @@ Especificação técnica de marcenaria (chapas, ferragens, furação por peça):
 
 ### Amostras e custo comparável — D02
 
-Consulta web 27/10/2026, preços anunciados/indexados, sem frete/corte/borda, sem reservar estoque: [Lume 18 mm / SKU10520](https://www.madeiramar.com.br/produto/mdf-lume-matt-guararapes-18mm-2750x1850-1-10520/) **R$589,47/chapa**; [Areia 18 mm / SKU6734](https://www.madeiramar.com.br/produto/mdf-areia-matt-guararapes-18mm-2750x1850-1-6734/) **R$643,98/chapa**; [Nuvem / SKU10522](https://www.madeiramar.com.br/mdf/madeirados/naturale-confort-i-dual-t-i-collors/mdf-nuvem-matt-guararapes-18mm-2750x1850-1-10522/) **R$607,15/chapa**, conforme [categoria da revenda](https://www.madeiramar.com.br/mdf/?min_price=540&page=5) consultada27/10. São referências unitárias; não multiplicar por quantidade de chapas não validada nem somar à provisão de marcenaria.
+Consulta web 27/10/2026, preços anunciados/indexados, sem frete/corte/borda, sem reservar estoque: [Lume 18 mm / SKU 10520](https://www.madeiramar.com.br/produto/mdf-lume-matt-guararapes-18mm-2750x1850-1-10520/) **R$ 589,47/chapa**; [Areia 18 mm / SKU 6734](https://www.madeiramar.com.br/produto/mdf-areia-matt-guararapes-18mm-2750x1850-1-6734/) **R$ 643,98/chapa**; [Nuvem / SKU 10522](https://www.madeiramar.com.br/mdf/madeirados/naturale-confort-i-dual-t-i-collors/mdf-nuvem-matt-guararapes-18mm-2750x1850-1-10522/) **R$ 607,15/chapa**, conforme [categoria da revenda](https://www.madeiramar.com.br/mdf/?min_price=540&page=5) consultada 27/10. São referências unitárias; não multiplicar por quantidade de chapas não validada nem somar à provisão de marcenaria.
 
-**D02 — Elias, 27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza".** Solicitar Lume Matt (A, referência R$589,47/chapa18) e Areia Matt (C, R$643,98/chapa18). Nuvem permanece alternativa documental, fora do pedido prioritário. Proposto, depende de amostra; não há acabamento final escolhido. Custo das amostras/envio a cotar; não registrar R$0.
+**D02 — Elias, 27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza".** Solicitar Lume Matt (A, referência R$ 589,47/chapa 18) e Areia Matt (C, R$ 643,98/chapa 18). Nuvem permanece alternativa documental, fora do pedido prioritário. Proposto, depende de amostra; não há acabamento final escolhido. Custo das amostras/envio a cotar; não registrar R$ 0.
 
 Conferir frente e verso, textura sob luz natural e 3000 K, borda junto à chapa, etiquetas e lote. [REHAU Guararapes](https://www.rehau.com/br-pt/equivalencias/guararapes) e [REHAU Arauco](https://www.rehau.com/br-pt/equivalencias/arauco) sustentam somente as referências de bordas. [Fabi](https://www.fabicompensados.com.br/grupo/186/painel-greenplac) sustenta o código de revenda de Arenza. Solicitar códigos de fábrica faltantes junto com catálogo/amostras; consulta não enviada.

@@ -1,8 +1,8 @@
 # Iluminação — composição CB02 e complementos T06
 
-> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizado R$ 4.534,55 após D06-B (Elias, 27/10/2026); E06 adiado. D03-B: Elgin só no quarto (Elias,27/10/2026). Composições Jurerê/quarto abaixo são históricas; consultas atuais em [Rascunhos](../../../01_Programa_e_decisoes/Rascunhos_emails.md).
+> Revisão comercial 27/10: código quadrado 3000 K corrigido para 9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizado R$ 4.534,55 após D06-B (Elias, 27/10/2026); E06 adiado. D03-B: Elgin só no quarto (Elias,27/10/2026). Composições Jurerê/quarto abaixo são históricas; consultas atuais em [Rascunhos](../../../01_Programa_e_decisoes/Rascunhos_emails.md).
 
-24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
+24/10/2026. Elias rejeitou o plafon Nordecor Liny 90046 de cerca de R$ 500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
 
 ## Proposta vigente para concluir a seleção — 26/10/2026
 
@@ -12,18 +12,18 @@
 
 **Uso diário:** SceneSwitch apaga ao desligar o interruptor e deixá-lo desligado; religar é que participa da mudança de nível. Na solução smart, usar comando de desligar do WiZmote, aplicativo ou Alexa mantém a lâmpada alimentada e disponível para religar remotamente. Se cortar a energia no interruptor convencional, Alexa/celular não poderão religá-la até restabelecer alimentação. Prever comando físico acessível e identificar o interruptor de alimentação; não depender exclusivamente de voz/celular. Configuração e comportamento após falta de energia serão conferidos no comissionamento.
 
-**Reconciliação vigente — consulta web de 26/10/2026:** cenário anterior R$4.786,92, com cinco WiZmotes a R$93,24 e três Jurerê a R$50,90. Reprecificar os cinco controles a R$117,73 (+R$122,45) e os três plafons a R$60,65 (+R$29,25): **cenário parcial R$4.938,62**, diferença R$1.398,62 para a provisão global de R$3.540. Demais itens mantêm referências anteriores; não é cotação integral nem alteração do R44/JSON histórico. Não duplicar WT1/SceneSwitch com seus substitutos.
+**Reconciliação vigente — consulta web de 26/10/2026:** cenário anterior R$ 4.786,92, com cinco WiZmotes a R$ 93,24 e três Jurerê a R$ 50,90. Reprecificar os cinco controles a R$ 117,73 (+R$ 122,45) e os três plafons a R$ 60,65 (+R$ 29,25): **cenário parcial R$ 4.938,62**, diferença R$ 1.398,62 para a provisão global de R$ 3.540. Demais itens mantêm referências anteriores; não é cotação integral nem alteração do R44/JSON histórico. Não duplicar WT1/SceneSwitch com seus substitutos.
 
 ### Conferência comercial WiZ / WiZmote / Jurerê
 
 | Item | Identificação e evidência em 26/10/2026 | Preço e limite |
 |---|---|---|
 | WiZ A60 de referência | 12NC **929002424712**, EAN **8718699787370**, 127 V, 8,8 W, 800 lm; [fabricante](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) | [Leroy com esse EAN](https://www.leroymerlin.com.br/lampada-led-smart-wifi-philips-8-8w-wiz-bulbo-a60-127v-base_1568132424) indisponível. Não obtivemos preço atual comprável vinculado ao SKU |
-| Oferta WiZ usada no custo | [Abastece](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz): bivolt, 8,5 W, 806 lm; texto sem 12NC/EAN | **R$98,97/un. à vista**, compra direcionada a WhatsApp; estoque e identidade pendentes. Não atribuir esse preço ao SKU 127 V |
-| WiZmote de referência | 12NC **929002426812**, EAN **8719514552647**, na [ficha oficial regional WiZ](https://www.wizconnected.com/es-pe/p/accesorio-wizmote/8719514552647); pilhas incluídas nessa versão | [Abastece](https://www.abastece.com.br/products/wizmote-controle-remoto-para-iluminacao-wiz): **R$117,73/un. à vista**, sem código no texto. Confirmar se entrega esse SKU; não assumir identidade pela aparência |
-| Jurerê 30 cm, branco, 2×E27 | Loja vinculada pelo fabricante: ref. **52040021-01**, [Taschibra Store](https://taschibrastore.com.br/produtos/detalhes/plafon-taschibra-redondo-jurere-30cm-vidro-fosco-2xe27/) | **R$60,65/un. exibidos**, condição de pagamento/frete/estoque a confirmar. Substitui a provisão de R$50,90 |
+| Oferta WiZ usada no custo | [Abastece](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz): bivolt, 8,5 W, 806 lm; texto sem 12NC/EAN | **R$ 98,97/un. à vista**, compra direcionada a WhatsApp; estoque e identidade pendentes. Não atribuir esse preço ao SKU 127 V |
+| WiZmote de referência | 12NC **929002426812**, EAN **8719514552647**, na [ficha oficial regional WiZ](https://www.wizconnected.com/es-pe/p/accesorio-wizmote/8719514552647); pilhas incluídas nessa versão | [Abastece](https://www.abastece.com.br/products/wizmote-controle-remoto-para-iluminacao-wiz): **R$ 117,73/un. à vista**, sem código no texto. Confirmar se entrega esse SKU; não assumir identidade pela aparência |
+| Jurerê 30 cm, branco, 2×E27 | Loja vinculada pelo fabricante: ref. **52040021-01**, [Taschibra Store](https://taschibrastore.com.br/produtos/detalhes/plafon-taschibra-redondo-jurere-30cm-vidro-fosco-2xe27/) | **R$ 60,65/un. exibidos**, condição de pagamento/frete/estoque a confirmar. Substitui a provisão de R$ 50,90 |
 
-**Quarto:** 2 × R$98,97 + R$117,73 = **R$315,67** em lâmpadas/controle; com plafon R$60,65, **R$376,32**. A troca dos componentes SceneSwitch (R$58,98) por WiZ/controle acrescenta **R$256,69 mantendo o mesmo plafon**. Contra o antigo conjunto de R$109,88, o aumento é **R$266,44**, incluindo R$9,75 de atualização do plafon. São valores anunciados misturados a provisões, sem entrega, montagem ou garantia de SKU/estoque; não representam pedido fechado.
+**Quarto:** 2 × R$ 98,97 + R$ 117,73 = **R$ 315,67** em lâmpadas/controle; com plafon R$ 60,65, **R$ 376,32**. A troca dos componentes SceneSwitch (R$ 58,98) por WiZ/controle acrescenta **R$ 256,69 mantendo o mesmo plafon**. Contra o antigo conjunto de R$ 109,88, o aumento é **R$ 266,44**, incluindo R$ 9,75 de atualização do plafon. São valores anunciados misturados a provisões, sem entrega, montagem ou garantia de SKU/estoque; não representam pedido fechado.
 
 **Compatibilidade parcial:** a [Taschibra](https://www.taschibra.com.br/public/index.php/pt_BR/produto/teto/plafon-sobrepor-slamp/plafon-redondo-jurere-30cm-vidro-fosco-2xe27-branca/14837) confirma E27, 40 W por soquete, 250 V máximos e envelope externo 300 × 300 × 100 mm. A WiZ 127 V/8,8 W atende nominalmente base e limite de potência, mas isso não comprova encaixe, ventilação ou uso com vidro montado. A ficha do plafon marca “Dimerizável: Não”; pedir em IL03 esclarecimento sobre lâmpada com regulagem eletrônica própria. Não concluir nem permissão nem proibição do conjunto a partir desse campo. Manual aplicável e autorização de uso continuam pendentes; restrições de outras WiZ (por exemplo E14/230 V) não podem ser transferidas a esta A60.
 
@@ -33,15 +33,15 @@
 |---|---|
 | [Magalu, WiZ 929002424712](https://www.magazineluiza.com.br/lampada-inteligente-wiz-e27-rgb-88w-929002424712/p/227901300/ci/lpdi/) | Produto indisponível; não aproveitar preços antigos de resultados de busca |
 | [Magalu/Abastece, WiZ 929002424712](https://www.magazineluiza.com.br/lampada-smart-bulbo-inteligente-wifi-rgb-800lm-a60-127v-wiz/p/gh642gf248/ci/lpdi/) | Indisponível. Este anúncio 127 V não identifica automaticamente a oferta bivolt do site próprio |
-| [Martins, EAN8718699787370](https://www.martinsatacado.com.br/produto/lampada-inteligente-philips-wiz-smart-bulbo-wi-fi-8-8w-800-lumens-110v-martins_4202081) | Preço não exposto; ficha divergente: título 8,8 W, descrição 8,3 W. Cotação e etiqueta necessárias |
-| [Leroy, WiZmote EAN8719514552647](https://www.leroymerlin.com.br/wiz-interruptor-inteligente-sem-fio-com-bateria-inclusa_1568187422) | Indisponível; sem preço comprável |
+| [Martins, EAN 8718699787370](https://www.martinsatacado.com.br/produto/lampada-inteligente-philips-wiz-smart-bulbo-wi-fi-8-8w-800-lumens-110v-martins_4202081) | Preço não exposto; ficha divergente: título 8,8 W, descrição 8,3 W. Cotação e etiqueta necessárias |
+| [Leroy, WiZmote EAN 8719514552647](https://www.leroymerlin.com.br/wiz-interruptor-inteligente-sem-fio-com-bateria-inclusa_1568187422) | Indisponível; sem preço comprável |
 | [Shopping China, mesmo EAN](https://www.shoppingchina.com.py/producto/control-remoto-inalambrico-wiz-wizmote-786414) | Gs.68.000; US$9,98 sob regime de turismo em Ciudad del Este. Não equivale a oferta entregue no Brasil; não usar no orçamento |
 
-**Resultado:** custo anterior mantido como provisão, sem economia demonstrada. A consulta aos dados públicos estruturados da Abastece recebeu HTTP403; não foi possível extrair código de barras por essa via. O folheto oficial da WiZ 127 V não confirma uso fechado; a busca não localizou manual aplicável autorizando duas unidades no Jurerê com vidro. Não inferir descontinuação pela falta de estoque nem compatibilidade por E27. Próximo passo útil: resposta escrita às IL02/IL03 com etiqueta do lote, preço entregue e condições térmicas; se não houver comprovação, comparar outra luminária para a geral smart antes de comprar. Consultas continuam não enviadas.
+**Resultado:** custo anterior mantido como provisão, sem economia demonstrada. A consulta aos dados públicos estruturados da Abastece recebeu HTTP 403; não foi possível extrair código de barras por essa via. O folheto oficial da WiZ 127 V não confirma uso fechado; a busca não localizou manual aplicável autorizando duas unidades no Jurerê com vidro. Não inferir descontinuação pela falta de estoque nem compatibilidade por E27. Próximo passo útil: resposta escrita às IL02/IL03 com etiqueta do lote, preço entregue e condições térmicas; se não houver comprovação, comparar outra luminária para a geral smart antes de comprar. Consultas continuam não enviadas.
 
 **Comando:** o [suporte WiZ](https://faq.wizconnected.com/hc/en/7-wiz-v2/faq/623-what-is-the-wizmote/) confirma desligamento e brilho pelo WiZmote, mesmo sem roteador. Configurar as duas lâmpadas como alvo e manter alimentação. Isso confirma a função do controle, não a instalação no Jurerê.
 
-**Inventário consolidado da proposta:** seis plafons gerais (três Jurerê, um EVO e dois Firefly), um pendente triplo, duas arandelas; seis WiZ E27 e três G9; cinco WiZmotes; dois kits WiZ completos; três Shelly e três pulsadores/placas candidatos. Fontes Opus avulsas: **cinco no apartamento**, sendo três para as indiretas com Shelly e duas já incluídas no banheiro L02. Não acrescentar fontes aos kits WiZ nem duplicar os R$612,64 do banheiro. Cinco barras MOV fora do banheiro continuam provisão; perfis/rolos do banheiro já pertencem à L02. Metros finais e consumíveis não estão fechados.
+**Inventário consolidado da proposta:** seis plafons gerais (três Jurerê, um EVO e dois Firefly), um pendente triplo, duas arandelas; seis WiZ E27 e três G9; cinco WiZmotes; dois kits WiZ completos; três Shelly e três pulsadores/placas candidatos. Fontes Opus avulsas: **cinco no apartamento**, sendo três para as indiretas com Shelly e duas já incluídas no banheiro L02. Não acrescentar fontes aos kits WiZ nem duplicar os R$ 612,64 do banheiro. Cinco barras MOV fora do banheiro continuam provisão; perfis/rolos do banheiro já pertencem à L02. Metros finais e consumíveis não estão fechados.
 
 **Condição para concluir:** respostas IL02–IL09 vinculadas aos produtos/lotes, cotação completa, escolha dos componentes condicionados, conferência física e projeto de instalação. IL01 foi retirada da fila por perder prioridade com o novo requisito. Não há resposta de fornecedor nem envio registrado. A lista curta R00 e CB01 são referências históricas; usar este quadro e o README para a seleção atual, sem retomar Liny ou padronizar EVO nas gerais smart.
 
@@ -49,15 +49,15 @@
 
 | Componente | Quantidade | Referência unitária | Parcela |
 |---|---:|---:|---:|
-| [Taschibra Jurerê branco30cm,2×E27](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739) | 1 | R$50,90 | R$50,90 |
-| [Philips SceneSwitch9W E27 branco-quente](https://www.abastece.com.br/products/lampada-led-bulbo-9w-806lm-sceneswitch-bivolt-60w-929002017746-929002017846-philips) | 2 | R$29,49 | R$58,98 |
-| **Geral do quarto** | | | **R$109,88** |
+| [Taschibra Jurerê branco 30 cm,2×E27](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739) | 1 | R$ 50,90 | R$ 50,90 |
+| [Philips SceneSwitch 9 W E27 branco-quente](https://www.abastece.com.br/products/lampada-led-bulbo-9w-806lm-sceneswitch-bivolt-60w-929002017746-929002017846-philips) | 2 | R$ 29,49 | R$ 58,98 |
+| **Geral do quarto** | | | **R$ 109,88** |
 
-Valores de referência consultados24/10, sem frete e instalação. Corpo com oferta indexada; lâmpadas com página que direciona pedido por WhatsApp, sem estoque confirmado. Nenhuma mensagem enviada ou compra efetuada. Aprovação do usuário é da solução com três níveis, sem liberação automática do SKU ou conjunto físico.
+Valores de referência consultados 24/10, sem frete e instalação. Corpo com oferta indexada; lâmpadas com página que direciona pedido por WhatsApp, sem estoque confirmado. Nenhuma mensagem enviada ou compra efetuada. Aprovação do usuário é da solução com três níveis, sem liberação automática do SKU ou conjunto físico.
 
-O [fabricante explica o uso das SceneSwitch pelo interruptor existente](https://www.lighting.philips.com.br/consumer/choose-a-bulb/sceneswitch): alternar desligamento/acionamento permite mudar os níveis. Não é ajuste contínuo, não tem controle remoto e não requer adicionar dimmer de potência. A oferta agrega branco-quente e branco-frio; exigir no pedido **variante3000K, tensão compatível e duas unidades do mesmo SKU**. Referências929002017746/929002017846 aparecem agregadas no endereço: não escolher uma delas sem conciliar etiqueta/manual. Conferir comportamento e sincronismo do par.
+O [fabricante explica o uso das SceneSwitch pelo interruptor existente](https://www.lighting.philips.com.br/consumer/choose-a-bulb/sceneswitch): alternar desligamento/acionamento permite mudar os níveis. Não é ajuste contínuo, não tem controle remoto e não requer adicionar dimmer de potência. A oferta agrega branco-quente e branco-frio; exigir no pedido **variante 3000 K, tensão compatível e duas unidades do mesmo SKU**. Referências 929002017746/929002017846 aparecem agregadas no endereço: não escolher uma delas sem conciliar etiqueta/manual. Conferir comportamento e sincronismo do par.
 
-O Jurerê tem vidro fosco curvo e corpo de referência30cm de diâmetro/10cm de projeção. É mais saliente que os4cm do Liny. Confirmar espaço, ventilação e uso permitido no manual das lâmpadas, além de distribuição de luz e difusor, antes de comprar. Não confundir a montagem SceneSwitch do quarto com as WiZ propostas para sala/escritório.
+O Jurerê tem vidro fosco curvo e corpo de referência 30 cm de diâmetro/10 cm de projeção. É mais saliente que os 4 cm do Liny. Confirmar espaço, ventilação e uso permitido no manual das lâmpadas, além de distribuição de luz e difusor, antes de comprar. Não confundir a montagem SceneSwitch do quarto com as WiZ propostas para sala/escritório.
 
 ## Conferência documental SceneSwitch/WiZ — 26/10/2026
 
@@ -81,9 +81,9 @@ Para SceneSwitch, pedir a associação explícita **código → EAN → branco q
 
 ## Impacto histórico da CB02 original
 
-- LinyR$500,46 retirado da lista prioritária; conjunto candidatoR$109,88: **redução comparativaR$390,58**.
-- Duas arandelas Evy2054 continuamR$142,32 no cenário. Teto + par de leitura =R$252,20, ainda sem o conjunto de LED da cabeceira.
-- Cenário de componentes do apartamento CB02 =**R$4.415,94**, anteR$4.806,52 da CB01. Inclui o banheiro uma vez. Continua condicionado e sem botões/acessórios/frete/instalação do levantamento anterior. Não é orçamento fechado nem alteração do orçamento global ou da reserva.
+- LinyR$ 500,46 retirado da lista prioritária; conjunto candidatoR$ 109,88: **redução comparativaR$ 390,58**.
+- Duas arandelas Evy 2054 continuamR$ 142,32 no cenário. Teto + par de leitura =R$ 252,20, ainda sem o conjunto de LED da cabeceira.
+- Cenário de componentes do apartamento CB02 =**R$ 4.415,94**, anteR$ 4.806,52 da CB01. Inclui o banheiro uma vez. Continua condicionado e sem botões/acessórios/frete/instalação do levantamento anterior. Não é orçamento fechado nem alteração do orçamento global ou da reserva.
 
 [Composição CB02](Composicao_CB02.json). [Seleção CB01 histórica](Selecao_CB01.md). Demais modelos e funções da proposta preservados.
 
@@ -96,19 +96,19 @@ Proposta para completar a lista, sem compra ou comprovação de instalação. Va
 | Pulsadores WT1 | 3: C2 bancada, S3 TV da sala, Q06 cabeceira | Candidato **Tramontina 57115/027**, branco. Exigir contato momentâneo normalmente aberto, sem iluminação, adequado à entrada de comando do WT1 |
 | Placas e suportes | Até 3, se cada pulsador tiver caixa própria | Candidato **Liz 57106/204**, 4×2, um posto horizontal, com suporte/parafusos. Se compartilhar placa ou aproveitar outra linha, substituir na cotação; não somar as duas soluções |
 | Pilhas WiZmote | 10 LR03 AAA alcalinas de 1,5 V para cinco controles da versão com duas pilhas | Necessidade de operação; comprar somente as ausentes das embalagens. Confirmar SKU, não generalizar para outra revisão nem substituir por R03 zinco-carbono |
-| Bateria RM433 | 1 conforme revisão | Original: 27A de 12 V; RM433R2: CR2450 de 3 V no campo de alimentação do fabricante. A página Sonoff mistura especificações: exigir foto do compartimento e manual do lote antes de cotar |
+| Bateria RM433 | 1 conforme revisão | Original: 27 A de 12 V; RM433R2: CR2450 de 3 V no campo de alimentação do fabricante. A página Sonoff mistura especificações: exigir foto do compartimento e manual do lote antes de cotar |
 | Suportes dos controles | Base RM433 já na oferta; suportes WiZmote opcionais | Não recomprar base incluída. Fixação de WiZmote depende de suporte compatível/local desejado; não é placa de interruptor |
 | Comandos do banheiro | 3 funções: teto, espelho e indireta | Conferir módulos/placa existentes com instalador; não adicionar WT1/dimmer automaticamente. Arranjo de teclas e caixas a definir |
-| Outros comandos convencionais | Cozinha geral, lavanderia geral, quarto geral e arandelas | Conferir reaproveitamento e interruptor próprio nas Evy2054. SceneSwitch não requer novo dimmer de potência |
+| Outros comandos convencionais | Cozinha geral, lavanderia geral, quarto geral e arandelas | Conferir reaproveitamento e interruptor próprio nas Evy 2054. SceneSwitch não requer novo dimmer de potência |
 | Terminações e fixação dos perfis | Por segmento montado, inclusive banheiro | Conferir difusor, tampas, presilhas/parafusos e passagem de cabo inclusos. Não quantificar tampas por barras compradas. MOV4329 continua condicionado a encaixe/dissipação |
 | Cabos, conexões e caixas | Por circuito/trecho real | RT/instalador define seção, metragem, derivações, proteção e conexões compatíveis. Largura da fita não basta para escolher conector; prever proteção dos terminais após corte no banheiro |
 | Acesso de manutenção | Todos os conjuntos | Definir local ventilado, acessível e com retirada de fontes/controladores. Fontes/controladores dos kits WiZ e duas fontes do banheiro já na composição, sem duplicação |
 
 **Interface WT1:** o manual Skydance v2.0.2 mostra pulsador entre **PUSH e GND** e alimentação do controlador em corrente contínua. A marcação 250 V do pulsador não autoriza aplicar rede de 127 V a PUSH/GND. Exigir revisão com esses bornes e modo monocromático; conferir conjunto com instalador. Permanecem três fontes e três controladores independentes, não dois grupos independentes por controlador. [Manual, p.2](https://www.iskydance.com/uploads/goods_file/WT1.pdf).
 
-**Referências comerciais de 26/10/2026:** [módulo 57115/027](https://www.tramontina.com.br/modulo-pulsador-para-campainha-tramontina-10-a-250-v-branco/57115027.html), R$12,25 à vista; [placa 57106/204](https://www.tramontina.com.br/placa-1-posto-horizontal-4x2-tramontina-liz-branca/57106204.html), R$6,76 à vista, com suporte/parafusos. Fabricante indica módulos largos da linha Liz. A tecla tem símbolo de campainha: aparência proposta, não escolha estética de Elias. Sem frete/CEP; preço final e estoque a reconfirmar.
+**Referências comerciais de 26/10/2026:** [módulo 57115/027](https://www.tramontina.com.br/modulo-pulsador-para-campainha-tramontina-10-a-250-v-branco/57115027.html), R$ 12,25 à vista; [placa 57106/204](https://www.tramontina.com.br/placa-1-posto-horizontal-4x2-tramontina-liz-branca/57106204.html), R$ 6,76 à vista, com suporte/parafusos. Fabricante indica módulos largos da linha Liz. A tecla tem símbolo de campainha: aparência proposta, não escolha estética de Elias. Sem frete/CEP; preço final e estoque a reconfirmar.
 
-**Complemento para T07:** 3 módulos = **R$36,75**; 3 placas = **R$20,28**; cenário de caixas separadas = **R$57,03**. CB02 histórica R$4.415,94 + complemento = **R$4.472,97**, ainda parcial, R$932,97 acima da provisão de iluminação de R$3.540. JSON CB02 e reconciliação R44 continuam com os 18 itens originais de 24/10; este complemento não altera o orçamento global. Pilhas, comandos convencionais eventualmente ausentes, cabos, caixas, terminações, adaptações de perfis e frete seguem sem preço. Mão de obra em I01, sem nova cobrança aqui.
+**Complemento para T07:** 3 módulos = **R$ 36,75**; 3 placas = **R$ 20,28**; cenário de caixas separadas = **R$ 57,03**. CB02 histórica R$ 4.415,94 + complemento = **R$ 4.472,97**, ainda parcial, R$ 932,97 acima da provisão de iluminação de R$ 3.540. JSON CB02 e reconciliação R44 continuam com os 18 itens originais de 24/10; este complemento não altera o orçamento global. Pilhas, comandos convencionais eventualmente ausentes, cabos, caixas, terminações, adaptações de perfis e frete seguem sem preço. Mão de obra em I01, sem nova cobrança aqui.
 
 Fontes dos controles: [WiZ: LR03](https://faq.wizconnected.com/hc/en/7-wiz-v2/faq/624-choosing-the-right-batteries-for-your-wizmote/); [ficha Signify: duas AAA](https://www.ideal.co.nz/medias/sys_master/sheets/sheets/h8d/h40/8878154612766/PHI-pdf-datasheet-WZREMOTE.pdf), de outro mercado, sem comprovar inclusão no lote brasileiro; [Sonoff RM433R2: campos divergentes](https://sonoff.tech/en-us/products/sonoff-rm433r2-remote-controller); [manual Sonoff RM433 original, p.4](https://sonoffargentina.com/wp-content/uploads/2022/02/Manual-de-Usuario-RM433-V1.1-20210305.pdf).
 
@@ -117,7 +117,7 @@ Fontes dos controles: [WiZ: LR03](https://faq.wizconnected.com/hc/en/7-wiz-v2/fa
 | Quem / conjunto | Pergunta exata |
 |---|---|
 | Fornecedor — SceneSwitch/WiZ A60/Jurerê | Entregar etiqueta e manual vinculados ao lote conforme a conferência documental acima; resolver oferta WiZ bivolt versus referência oficial 127 V e mapear os dois códigos SceneSwitch às variantes. Demonstrar condições de uso com o difusor do Jurerê |
-| Fornecedor/ensaio — jantar | Confirmar C82P3 triplo âmbar, Brilia314450, revisão RM433 e conteúdo da caixa. D1 com três G9 apresenta partida, faixa útil e cintilação aceitáveis? Sem ensaio, dimerização condicionada |
+| Fornecedor/ensaio — jantar | Confirmar C82P3 triplo âmbar, Brilia 314450, revisão RM433 e conteúdo da caixa. D1 com três G9 apresenta partida, faixa útil e cintilação aceitáveis? Sem ensaio, dimerização condicionada |
 | Fornecedor — WT1/kits WiZ | Etiqueta WT1 comprova fabricante/revisão do manual PUSH/GND? Kit WiZ é 929002681171/EAN 8719514336957? Enviar manual de corte/reconexão, etiqueta da fonte e esclarecer 2200 K versus 2700 K; fonte/controlador e corte de 12,5 cm já constam na DS1022 |
 | Fornecedor/instalador — perfis/banheiro | Qual seção útil/acessórios do MOV4329? Amostra recebe fita, cabo e terminação sem esmagamento e com dissipação adequada? Como proteger terminais cortados? |
 | RT/instalador após levantamento | Quais comandos/caixas serão reaproveitados? Onde ficam fontes/controladores acessíveis, quais percursos/seções/proteções? Barra inferior do espelho interfere na torneira? |
@@ -142,11 +142,11 @@ Ofertas consultadas em 26/10/2026, sem frete, instalação ou confirmação de e
 
 | Opção | Referência | Leitura para a decisão |
 |---|---:|---|
-| [WT1 — Satfrota](https://www.satfrota.com.br/produtos/controlador-de-fita-led-2-canais-tuya-smart-life/) | **R$196,00/un.** à vista; três = R$588,00 | Controlador e manual; fonte à parte. Com fonte Opus de R$85,05 e pulsador/placa de R$19,01 da proposta, são **R$300,06 por zona**, ainda sem fita/perfil/cabos |
-| [Shelly — 4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/) | **R$223,25/un.** no Pix; três = R$669,75 | Acréscimo de **R$27,25/un. ou R$81,75 nos três controladores**. Fonte continua necessária; pulsador adequado liga diretamente conforme diagrama abaixo; adequação do SKU ainda a confirmar. Preferência técnica se controle local e medição forem desejados; manter WT1 se a prioridade for menor desembolso e Tuya/PushDim atender |
-| [WiZ 2 m — Planet Leds/Magalu](https://www.magazineluiza.com.br/fita-led-lightstrip-20w-rgb-tw-2-metros-inteligente-smart-wifi-wiz-by-philips/p/kf72hc7016/cj/fted/?seller_id=planetleds115) | **R$226,75/kit; dois = R$453,50** | Preço atraente para fita com branco ajustável, fonte e controlador. A oferta nomeia Kit-C, mas não comprova 12NC/EAN do lote. Dois WiZmotes da referência CB02 acrescentam R$186,48: **R$639,98** para os dois kits e seus dois controles; perfis e instalação à parte |
+| [WT1 — Satfrota](https://www.satfrota.com.br/produtos/controlador-de-fita-led-2-canais-tuya-smart-life/) | **R$ 196,00/un.** à vista; três = R$ 588,00 | Controlador e manual; fonte à parte. Com fonte Opus de R$ 85,05 e pulsador/placa de R$ 19,01 da proposta, são **R$ 300,06 por zona**, ainda sem fita/perfil/cabos |
+| [Shelly — 4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/) | **R$ 223,25/un.** no Pix; três = R$ 669,75 | Acréscimo de **R$ 27,25/un. ou R$ 81,75 nos três controladores**. Fonte continua necessária; pulsador adequado liga diretamente conforme diagrama abaixo; adequação do SKU ainda a confirmar. Preferência técnica se controle local e medição forem desejados; manter WT1 se a prioridade for menor desembolso e Tuya/PushDim atender |
+| [WiZ 2 m — Planet Leds/Magalu](https://www.magazineluiza.com.br/fita-led-lightstrip-20w-rgb-tw-2-metros-inteligente-smart-wifi-wiz-by-philips/p/kf72hc7016/cj/fted/?seller_id=planetleds115) | **R$ 226,75/kit; dois = R$ 453,50** | Preço atraente para fita com branco ajustável, fonte e controlador. A oferta nomeia Kit-C, mas não comprova 12NC/EAN do lote. Dois WiZmotes da referência CB02 acrescentam R$ 186,48: **R$ 639,98** para os dois kits e seus dois controles; perfis e instalação à parte |
 
-Uma [oferta WiZ 2 m da Abastece](https://www.abastece.com.br/products/wiz-starterkit-fita-led-2m-inteligente-wi-fi-e-bluetooth) apresentou R$436,91, mas sem conciliação do 12NC; serve como referência comercial de categoria, não prova economia entre SKUs idênticos. Não comparar kit completo com controlador avulso nem fita RGB simples com RGBTW. WiZ mantém o ecossistema dos controles do escritório; WT1 requer Tuya/Smart Life, embora Alexa possa reunir comandos de voz.
+Uma [oferta WiZ 2 m da Abastece](https://www.abastece.com.br/products/wiz-starterkit-fita-led-2m-inteligente-wi-fi-e-bluetooth) apresentou R$ 436,91, mas sem conciliação do 12NC; serve como referência comercial de categoria, não prova economia entre SKUs idênticos. Não comparar kit completo com controlador avulso nem fita RGB simples com RGBTW. WiZ mantém o ecossistema dos controles do escritório; WT1 requer Tuya/Smart Life, embora Alexa possa reunir comandos de voz.
 
 **Qualidade:** os documentos sustentam funções e adequação nominal, não durabilidade comprovada do lote, desempenho de dimerização instalado ou confiabilidade do Wi-Fi. A marca/ficha não substitui garantia local e identificação do vendedor. Não foi obtido ensaio independente suficiente para classificar qualquer opção como a melhor absoluta.
 
@@ -177,19 +177,19 @@ Fonte: [diagrama oficial, modo light](https://kb.shelly.cloud/__attachments/a_59
 
 Antes de adotar, pedir à Shelly confirmação do conjunto Wall Switch 1 + Plus RGBW PM, entre I1 e negativo com fonte 12 V CC, incluindo corrente/tensão presentes no contato e função momentânea para manter `button/dim`. A ficha do controlador consultada não publica esses valores de entrada; não usar os 4 A da saída como corrente do pulsador. O manual Wall Switch vinculado foi localizado, mas não forneceu texto extraível nesta consulta; não atribuir a ele uma ligação não conferida. O esquema vigente do RGBW PM permanece a referência de ligação.
 
-**Custo e montagem da alternativa:** [loja oficial europeia](https://www.shelly.com/products/shelly-wall-switch-with-1-button-white), consulta de 26/10: botão €8,90 e Wall Frame 1 €4,90, vendidos separadamente; três conjuntos = **€41,40**, antes de frete/importação. Não foi localizada oferta brasileira vinculada ao conjunto exato que permita fechar custo entregue. Não converter esse valor em orçamento de compra nem presumir encaixe em caixa 4×2/placa Liz: são 70 mm de corpo e outra moldura, com fixação a conferir pelo instalador. Se a troca ocorrer, retirar os três módulos e placas Tramontina (R$57,03); cenário atualizado = **R$4.497,69 + custo entregue dos três conjuntos alternativos + adaptações**, sem duplicação.
+**Custo e montagem da alternativa:** [loja oficial europeia](https://www.shelly.com/products/shelly-wall-switch-with-1-button-white), consulta de 26/10: botão €8,90 e Wall Frame 1 €4,90, vendidos separadamente; três conjuntos = **€41,40**, antes de frete/importação. Não foi localizada oferta brasileira vinculada ao conjunto exato que permita fechar custo entregue. Não converter esse valor em orçamento de compra nem presumir encaixe em caixa 4×2/placa Liz: são 70 mm de corpo e outra moldura, com fixação a conferir pelo instalador. Se a troca ocorrer, retirar os três módulos e placas Tramontina (R$ 57,03); cenário atualizado = **R$ 4.497,69 + custo entregue dos três conjuntos alternativos + adaptações**, sem duplicação.
 
 **Encaminhamento:** manter Tramontina como provisão condicionada e Wall Switch 1 como alternativa para consulta/cotação. [IL04](#il04--tramontina) e [IL05](#il05--shelly) contêm os rascunhos completos, não enviados. As respostas podem fechar a seleção documental do pulsador antes das medidas reais; montagem e ensaio continuam posteriores. Não acrescentar relé, resistor ou adaptador elétrico sem exigência documentada.
 
 | Custo de referência | Com WT1 | Com Shelly | Diferença |
 |---|---:|---:|---:|
-| Três controladores | R$588,00 | R$669,75 | +R$81,75 |
-| Três fontes Opus da proposta | R$255,15 | R$255,15 | R$0,00 |
-| Três pulsadores + três placas candidatos | R$57,03 | R$57,03 | R$0,00 |
-| Subconjunto acima | **R$900,18** | **R$981,93** | **+R$81,75** |
-| CB02 + pulsadores/placas | R$4.472,97 | **R$4.554,72** | **+R$81,75** |
+| Três controladores | R$ 588,00 | R$ 669,75 | +R$ 81,75 |
+| Três fontes Opus da proposta | R$ 255,15 | R$ 255,15 | R$ 0,00 |
+| Três pulsadores + três placas candidatos | R$ 57,03 | R$ 57,03 | R$ 0,00 |
+| Subconjunto acima | **R$ 900,18** | **R$ 981,93** | **+R$ 81,75** |
+| CB02 + pulsadores/placas | R$ 4.472,97 | **R$ 4.554,72** | **+R$ 81,75** |
 
-Shelly **R$223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/); demais valores mantêm as referências documentadas acima. Por zona, controlador/fonte/comando = **R$327,31**. O cenário de R$4.554,72 fica R$1.014,72 acima da provisão de iluminação de R$3.540; não somar novamente R$57,03 nem conservar os WT1 junto dos Shelly. Frete, cabos, caixas, eventuais transições e instalação continuam fora deste subtotal; preço pode mudar se outro pulsador for necessário.
+Shelly **R$ 223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/); demais valores mantêm as referências documentadas acima. Por zona, controlador/fonte/comando = **R$ 327,31**. O cenário de R$ 4.554,72 fica R$ 1.014,72 acima da provisão de iluminação de R$ 3.540; não somar novamente R$ 57,03 nem conservar os WT1 junto dos Shelly. Frete, cabos, caixas, eventuais transições e instalação continuam fora deste subtotal; preço pode mudar se outro pulsador for necessário.
 
 **Limites e pendências:** Shelly tem limite de 4 A por canal, inferior aos 5 A do WT1; não transferir a capacidade automaticamente. Fontes 12 V/3 A/36 W permanecem candidatas: conferir carga final, perdas, consumo do controlador (<1,2 W) e condição térmica com instalador. Não redimensionar comprimentos nominais nesta etapa. Confirmar etiqueta SNDC-0D4P10WW, manual do lote e pulsador; depois conferir montagem, funcionamento do toque/pressão longa, retorno de energia e dimerização. Sem ensaio nesta etapa. A fonte permanece energizada para o controle funcionar. WiZ do escritório e lâmpadas da geral do quarto não usam esses controladores de fita.
 
@@ -221,7 +221,7 @@ O maior caso conserva **10,8 W de diferença nominal**, não uma margem térmica
 - **Opus/revenda:** o lote oferecido é OPS 31002/EAN 7898589031002 de 36 W? Enviar etiqueta, dimensões e manual correspondentes; esclarecer corpo de 172 mm versus 270 mm. A saída é de tensão constante regulada? Quais tolerância, ripple, carga mínima, operação sem carga, potência contínua/curva térmica, proteções, isolação e requisitos de fixação/ventilação/conexões? É admitida alimentação permanente de controlador PWM a jusante, inclusive com a fita desligada? Considerar PWM Shelly de 833 Hz e opção de 22 kHz, sem presumir que ambas foram testadas.
 - **Cristallux:** confirmar 12 W/m e corrente real do código 221506, corrigindo a divergência 0,1 A/m; informar tolerância de potência e condições de dimerização PWM da revisão entregue.
 
-**Instalação e custo:** manter uma fonte por zona e a cadeia rede → fonte 12 V CC → Shelly → fita. Não pôr dimmer de corte de fase na entrada da fonte nem alimentar os kits WiZ por essas Opus; eles já incluem suas fontes. Seções, quedas de tensão, proteção das emendas, acesso e temperatura instalada ficam com RT/instalador após levantamento. Permanecem **3 × R$85,05 = R$255,15**, referência histórica da composição, sem preço/estoque reconfirmados nesta consulta. Cenário Shelly de R$4.554,72 e orçamento R44 preservados; nenhum acessório ou fonte adicional incluído.
+**Instalação e custo:** manter uma fonte por zona e a cadeia rede → fonte 12 V CC → Shelly → fita. Não pôr dimmer de corte de fase na entrada da fonte nem alimentar os kits WiZ por essas Opus; eles já incluem suas fontes. Seções, quedas de tensão, proteção das emendas, acesso e temperatura instalada ficam com RT/instalador após levantamento. Permanecem **3 × R$ 85,05 = R$ 255,15**, referência histórica da composição, sem preço/estoque reconfirmados nesta consulta. Cenário Shelly de R$ 4.554,72 e orçamento R44 preservados; nenhum acessório ou fonte adicional incluído.
 
 ## Consultas aos fornecedores — rascunhos não enviados
 
@@ -253,7 +253,7 @@ A [oferta consultada](https://www.abastece.com.br/products/lampada-smart-bulbo-w
 3. Permissão ou restrição documentada para **duas unidades no mesmo Jurerê com o vidro instalado**: luminária fechada/com difusor, orientação dos soquetes, ventilação, temperatura admissível e eventuais folgas exigidas. Indicar página/cláusula; se necessário, encaminhar ao suporte técnico WiZ/Signify.
 4. Confirmar, para a revisão oferecida, controle de intensidade e cor pelo aplicativo e compatibilidade com WiZmote/Alexa, além das restrições a dimmer de rede. Nosso projeto prevê comando WiZ, sem adicionar dimmer de potência a essas lâmpadas.
 
-5. Cotar também cinco WiZmotes, um para o quarto: a referência oficial regional é 929002426812 / EAN 8719514552647. A oferta mostra R$117,73 e pilhas incluídas; confirmar código entregue, quantidade/tipo de pilhas, garantia, estoque, frete e preço das seis lâmpadas identificadas.
+5. Cotar também cinco WiZmotes, um para o quarto: a referência oficial regional é 929002426812 / EAN 8719514552647. A oferta mostra R$ 117,73 e pilhas incluídas; confirmar código entregue, quantidade/tipo de pilhas, garantia, estoque, frete e preço das seis lâmpadas identificadas.
 
 Se a aplicação depender de informação do plafon, indiquem qual documento precisam receber. Esta é uma consulta documental prévia, sem pedido de compra. Obrigado!
 
@@ -268,7 +268,7 @@ Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois s
 3. Limites por soquete e restrições específicas para LED: formatos/dimensões admitidos, folgas, orientação e condições térmicas. Com o vidro montado, como o fabricante caracteriza o fechamento/ventilação do plafon para seleção de lâmpadas?
 4. Há documentação de compatibilidade ou restrição para WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
 
-5. A loja Taschibra mostra referência 52040021-01 a R$60,65; a ficha oficial informa 40 W por soquete e “Dimerizável: Não”. Confirmar código/EAN do lote e esclarecer se esse campo restringe lâmpadas WiZ com regulagem própria, sem dimmer de rede.
+5. A loja Taschibra mostra referência 52040021-01 a R$ 60,65; a ficha oficial informa 40 W por soquete e “Dimerizável: Não”. Confirmar código/EAN do lote e esclarecer se esse campo restringe lâmpadas WiZ com regulagem própria, sem dimmer de rede.
 
 Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
 
@@ -342,8 +342,8 @@ Registrar em IL02–IL09 a data, o código efetivamente respondido e o documento
 Geradas com ImageGen integrado, usando as referências existentes do apartamento e fotos dos produtos quando disponíveis. Estudos visuais, não fotos do apartamento, maquetes dimensionais exatas ou cálculos fotométricos. Acessórios/eletros e móveis secundários dos renders antigos podem divergir do CAD atual; não interpretar as imagens como revisão executiva. As vistas isoladas dos produtos dentro das pranchas também são geradas; fotos comerciais separadas estão em Produtos/.
 
 - [Quarto econômico](../../../09_Referencias/Iluminacao_CB02/01_Quarto_economico.png): Jurerê, duas Evy e indireta quente; sem os apoios laterais removidos.
-- [Cozinha e lavanderia](../../../09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png): EVO41cm e Firefly9608 quadrado30cm. Não inferir mudança dos eletros nem luz sob aéreo da lavanderia.
+- [Cozinha e lavanderia](../../../09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png): EVO41cm e Firefly 9608 quadrado 30 cm. Não inferir mudança dos eletros nem luz sob aéreo da lavanderia.
 - [Sala e escritório](../../../09_Referencias/Iluminacao_CB02/03_Sala_escritorio.png): Jurerê com vidro curvo corrigido; sala quente e escritório com geral branca e cor de apoio. A compatibilidade Jurerê/WiZ continua a comprovar.
-- [Banheiro L02](../../../09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png): Firefly redondo e duas barras horizontais4000K no espelho. A posição inferior depende da torneira; reflexos e brilho são ilustrativos.
+- [Banheiro L02](../../../09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png): Firefly redondo e duas barras horizontais 4000 K no espelho. A posição inferior depende da torneira; reflexos e brilho são ilustrativos.
 
 Prompts e referências: [pasta visual](../../../09_Referencias/Iluminacao_CB02/LEIA-ME.md). CAD e site publicado não alterados.

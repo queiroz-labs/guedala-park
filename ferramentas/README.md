@@ -84,8 +84,8 @@ Análise BOP: `verificar_modelo/analisar_bop.py`; [resultado e limites](../02_Mo
 
 Estudos P01/P02/P03: scripts em `roupeiro/`, com geometria extraída, conferências e hipóteses; [escopo vigente](../04_Moveis/P03/README.md). Os cálculos não substituem ensaio de juntas.
 
-`consolidar_matriz.py` atualiza somente o controle CSV/Markdown: agenda27/10 inclui kit P20/P14 e perguntas P02/P13; sem recalcular equilíbrio, gerar furação ou abrir CAD. [Matriz vigente](../04_Moveis/Cargas_e_ligacoes/README.md).
+`consolidar_matriz.py` atualiza somente o controle CSV/Markdown: agenda 27/10 inclui kit P20/P14 e perguntas P02/P13; sem recalcular equilíbrio, gerar furação ou abrir CAD. [Matriz vigente](../04_Moveis/Cargas_e_ligacoes/README.md).
 
-R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões27/10 na GUI sobre R52; `site/exportar_cad.py` extrai o CAD vigente para fichas/site sem salvar. Verificação completa e relatório obrigatórios.
+R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI sobre R52; `site/exportar_cad.py` extrai o CAD vigente para fichas/site sem salvar. Verificação completa e relatório obrigatórios.
 
 `verificar_site.py` valida R24 como artefato local quando `publicationStatus=local_only`; não altera autorização. Teste específico mantém bloqueio de `--publication-ready` sem autorização.

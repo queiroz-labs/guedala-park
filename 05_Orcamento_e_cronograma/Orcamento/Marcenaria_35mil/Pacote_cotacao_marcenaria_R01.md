@@ -19,4 +19,4 @@ D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para 
 
 Os adiamentos retiram armazenamento do escritório, estofamento da cabeceira/encosto e painel/prateleiras da TV. Banco-baú e armazenamento do quarto permanecem. A proposta deve informar crédito real de cada módulo, preço instalado, serviços comuns, segunda mobilização, frete, validade e inclusões; não aplicar o rateio histórico como desconto.
 
-Prazo de resposta solicitado: **30/10/2026 às 18h, Brasília**. Se inviável, pedir confirmação de recebimento e nova data. Medição real, qualificação de produtos/ensaios e projeto executivo seguem necessários; cotação não autoriza fabricação ou contratação.
+Prazo de resposta solicitado: **30/10/2026 às 18 h, Brasília**. Se inviável, pedir confirmação de recebimento e nova data. Medição real, qualificação de produtos/ensaios e projeto executivo seguem necessários; cotação não autoriza fabricação ou contratação.

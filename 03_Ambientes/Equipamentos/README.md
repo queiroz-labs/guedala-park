@@ -11,7 +11,7 @@ Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-
 O CSV separa dimensões do produto, encaixe, alimentação, potência, corrente informada pelo manual, folgas, manutenção, móvel receptor e interfaces. Dimensões em milímetros; fontes relativas à raiz, separadas por ` | `; pontos separados por `|`. Campo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não se calculou corrente por W/V. Reservas de estudo não são medidas do imóvel.
 
 - **ME23P:** manual vigente, p. 3, pede **30 cm acima**; F104, 12/09/2026, mantém o desejo de **10 cm**. Divergência conservada, sem solução técnica decidida. Laterais e traseira continuam com 10 cm. [Fonte local e decisão](Conferencia_127V_e_folgas.md).
-- **Versões históricas:** C10 corrigido para PE11X na R01 de27/10; PE12G permanece só em antecedentes. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
+- **Versões históricas:** C10 corrigido para PE11X na R01 de 27/10; PE12G permanece só em antecedentes. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
 - **Dados condicionados:** códigos dos aparelhos existentes, manuais dos metais, fixação/retirada e circuitos dependem de Elias (etiquetas), fabricante, projeto/oficina e RT. L04 lista apenas água fria, embora a Telca tenha requisito quente/fria: ramal a compatibilizar pelo RT. Manter também as divergências de plugue KE4GC, profundidade do Fischer e altura do Firefly registradas no CSV.
 
 **Retomada exata:** conferir as lacunas por equipamento com os documentos da unidade e etiquetas disponíveis; resolver a divergência superior do ME23P com fabricante/projeto e decisão de Elias, sem reduzir o manual por hipótese. Depois compatibilizar pontos, cortes de encaixe, ventilação e retirada com o RT/oficina. Lista documental entregue; T06 executivo continua condicionado.
@@ -33,7 +33,7 @@ Consultar estudos anteriores. Os estudos não liberam fabricação ou instalaç�
 | Aparelho | Especificação vigente |
 |---|---|
 | Lava e seca LG VC4 | **127 V — CV5012PC4 Inox Look**, vigente em F160/F161; CV5012WC4 branca e CV5012WC4A de 220 V são referências históricas. Manual local da família CV501***4; conferir SKU entregue. |
-| Forno Fischer Infinity50 L com grill, sem turbo,28349-64929 — escolha19/10/2026 | **127 V**,2061 W/16,22 A; tomada20 A recomendada no manual, circuito ainda a conferir. |
+| Forno Fischer Infinity 50 L com grill, sem turbo,28349-64929 — escolha 19/10/2026 | **127 V**,2061 W/16,22 A; tomada 20 A recomendada no manual, circuito ainda a conferir. |
 | Micro-ondas Electrolux ME23P | **127 V**. |
 | Depurador Suggar Slim de Embutir 60 cm inox | **127 V — DE61IX**; DE62IX de 220 V fica como referência histórica. |
 | Air fryer Philips Walita Série 3000 RI9252 | **127 V**; código confirmado RI9252/91 em F103. |
@@ -48,10 +48,10 @@ A regra também vale para futuras especificações de eletrodomésticos com tens
 
 IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes. Acabamento vigente Inox Look conforme F160; pesquisa F161.
 
-Compatibilização27/10: CSV corrige Q05 para smart e L11 paraFirefly9608; inclui S05/E05/E06 sem coordenadas inventadas. [Auditoria R01 dos50 códigos originais](../Planta_pontos/README.md); circuitos/implantação continuam com RT.
+Compatibilização 27/10: CSV corrige Q05 para smart e L11 paraFirefly 9608; inclui S05/E05/E06 sem coordenadas inventadas. [Auditoria R01 dos 50 códigos originais](../Planta_pontos/README.md); circuitos/implantação continuam com RT.
 
-B10/EQ32: Brilia318939 substituta proposta em27/10, com oferta nacional e fabricante identificados na lista de iluminação; instalação ainda condicionada.
+B10/EQ32: Brilia 318939 substituta proposta em 27/10, com oferta nacional e fabricante identificados na lista de iluminação; instalação ainda condicionada.
 
-D03/D04, Elias27/10/2026: EQ43 registra Elgin48D18WSRWIFI no quarto; EQ42 registra cabeceira/face inferior acessível. Citações no CSV e na lista de iluminação; dimensões/manuais e implantação permanecem condicionados.
+D03/D04, Elias 27/10/2026: EQ43 registra Elgin 48D18WSRWIFI no quarto; EQ42 registra cabeceira/face inferior acessível. Citações no CSV e na lista de iluminação; dimensões/manuais e implantação permanecem condicionados.
 
 D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". EQ51 permanece como função futura, fora da cotação atual.
