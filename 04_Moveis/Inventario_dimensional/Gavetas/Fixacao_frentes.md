@@ -6,6 +6,29 @@ T05, 26/10/2026. [Mapa de 28 pontos, coordenadas e margens](Fixacao_frentes.json
 
 ### Conjunto identificado e material da dianteira G2
 
+#### Conferência de tolerâncias e rastreabilidade
+
+**Conferência26/10/2026: não foi encontrado limite dimensional garantido para o par específico.** A [matriz de requisitos](Requisitos_conjunto_G2.csv) distingue medidas nominais, hipóteses e dados ainda necessários. O avanço documental encerra a aplicação de tolerâncias genéricas por suposição; não altera a seleção candidata nem preenche números ausentes.
+
+| Documento consultado | Alcance demonstrado | Consequência |
+|---|---|---|
+| Ficha Ettinger003.06.941, vinculada abaixo | Nominais4,3/15/1; sem classe de tolerância na ficha obtida | Não transformar em4,2–4,4 ou14,8–15,2 como se fossem limites do produto |
+| [Qualidade Ettinger](https://www.ettinger.de/en/company/quality-and-environment/) | Declara inspeções com referência à ISO2768-1 e amostragem de recebimento | A página geral não identifica classe ou desvios aplicáveis ao SKU003.06.941 |
+| [Condições técnicas Ettinger, versão2024-02-05](https://www.ettinger.de/media/ea/21/55/1762515713/TFL_ETTINGER_20240502_en.pdf?ts=1762515764), p1 | Escopo explícito: produção/fornecimento de **espaçadores metálicos** | Excluído como fonte de tolerância da arruela; não transportar suas regras para este produto |
+| Ficha RECA01814 25, vinculada abaixo | Nominais4/25/8/2,8; rosca para madeira, A2, Z2 | Sem limites de pescoço, diâmetro externo da rosca, raio sob cabeça, ponta, comprimento e altura garantidos no conteúdo obtido; não importar tolerâncias de parafuso métrico M4 ou de outra família RECA |
+
+**Correção do alcance da folga radial:** os0,119 mm do orçamento ilustrativo abaixo pressupõem arruela concêntrica, alojamento/passagem concêntricos eØ20 exato. A excentricidade por folga no furo não inclui descentramento de fabricação entre os diâmetros interno e externo da arruela. Para a conferência real, usar:
+
+`folga = D_aloj_min/2 − D_arruela_max/2 − deslocamento_eixos_max − (furo_arruela_max−pescoço_min)/2 − excentricidade_ID_OD_max`.
+
+O deslocamento dos eixos deve incluir os erros de posição do alojamento/passagem e o ajuste; não somar a mesma parcela duas vezes. Com os números hipotéticos anteriores, apenas0,119 mm ficam disponíveis para esses efeitos adicionais, antes de qualquer reserva operacional. Exemplo de sensibilidade: descentramento radial adicional0,1 deixa0,019;0,2 resulta−0,081. **Não são tolerâncias propostas nem dados medidos.** A espessura axial efetiva também precisa incluir rebarba/empeno e apoio plano; a espessura nominal1 não garante a altura montada.
+
+**Rastreio da chapa sem abrir CAD:** a [extração histórica R42](../../Avanco_pendencias/Gavetas/Geometria_extraida_R42.json), chave `objects/MontagemG2R021`, já contém a peça importada `Part::Feature`, rótulo terminado em `[3B0R-001O] - proposta R07`, caixaY6408–6424 e apenas propriedades locais de posição/rotação no campo `props`. Não fornece fabricante, substrato ou código de chapa. A [inspeção de sólidos R52](Conferencia_solidos_G2.json), chave `shapes/MontagemG2R021`, confirma extensão16 e um sólido válido; não caracteriza material. O16 é, portanto, rastreável geometricamente desde a extração R42 consultada, **não uma especificação comercial recuperada**. A pesquisa dirigida no Registro de decisões não localizou escolha de chapa16 para essa dianteira; os16 cm das frentes G1/G2 são altura e não espessura.
+
+**Identificação vigente para projeto:** `MontagemG2R021`, dianteira interna G2, proposta542×73×16; duas faces BrancoTX como intenção documental; substrato/fabricante/SKU/classe/espessura acabada real **pendentes**. Não atribuir MDF, MDP, compensado, Greenplac ou HR como material já escolhido. A família MDF BP permanece candidata, separada dessa identificação.
+
+**Próxima dependência concreta é documentação de produto**, não resposta da FGVTN: obter desenho com revisão e limites do par RECA/Ettinger e ficha comercial da chapa16 com duas faces BrancoTX, ou desenvolver uma substituição dimensional explicitamente. Sem esses documentos, repetir a busca nominal não fecha o encaixe. A matriz ao lado está pronta para receber respostas; nenhuma solicitação foi enviada. Retenção dos11 mm, esmagamento e fluência permanecem dependentes de qualificação física posterior.
+
 **Candidato documental para os dois pontos baixos: RECA 01814 25 + Ettinger 003.06.941.** O primeiro é o parafuso4×25, cabeça panelaØ8×2,8, A2/Z2 da tabela abaixo. A [ficha Ettinger](https://www.ettinger.de/en/product-datasheet/77dec9e23065c0090bc3f25782991855/create) identifica arruela plana A2/304, furo4,3, externo15 e espessura1 mm. Consulta26/10/2026 por conteúdo oficial indexado; download direto indisponível. Não há tolerâncias na ficha obtida. É um par concreto para qualificação, **não conjunto dimensionado para compra ou usinagem**; disponibilidade no Brasil não verificada. Para os outros26 pontos, manter RECA01814 30 como candidato, sujeito à mesma conferência.
 
 Esta arruela substitui apenas a abstração na nova comparação; não altera o mapa anterior, que usa espessura1,2/furo4,4–4,8. Não chamá-la de M4 larga padrão: a M4 de12 mm anteriormente consultada é outro produto. O furo nominal4,3 também não garante passar pelo parafuso cujo envelope anterior admite4,3: falta conferir mínimo do furo, máximo da rosca na montagem, raio sob cabeça e apoio plano efetivo.

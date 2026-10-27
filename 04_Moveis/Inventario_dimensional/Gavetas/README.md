@@ -103,7 +103,7 @@ O pedido atual não inclui envio de correspondência, compra nem mudança de fer
 
 ## Fixação das frentes — proposta independente
 
-[28 pontos e validação parcial](Fixacao_frentes.md): seção11 dos dois alojamentos G2 sem resistência demonstrada; 512 combinações preservadas. Candidato concreto: RECA01814 25 + Ettinger003.06.941 (4,3×15×1); tolerâncias/encaixe pela rosca ainda pendentes. Dianteira interna16 não individualizada na lista P06 nem por SKU; BrancoTX é intenção de acabamento. Decorativa18 Arenza rastreada. Seis comparações15/16/18:18 zera vão das bandejas,15 deixa seção10 com rebaixo5. Não substituir chapa automaticamente. Produto, material, aperto e ensaio pendentes; CAD intacto.
+[28 pontos e validação parcial](Fixacao_frentes.md): seção11 dos dois alojamentos G2 sem resistência demonstrada; 512 combinações preservadas. Candidato concreto: RECA01814 25 + Ettinger003.06.941 (4,3×15×1); [10 requisitos](Requisitos_conjunto_G2.csv) pendentes: tolerâncias, encaixe e concentricidade; norma Ettinger de espaçadores não se aplica à arruela. Dianteira16 rastreada na extração R42, sem material/SKU; BrancoTX é intenção de acabamento. Decorativa18 Arenza rastreada. Seis comparações15/16/18:18 zera vão das bandejas,15 deixa seção10 com rebaixo5. Não substituir chapa automaticamente. Produto, material, aperto e ensaio pendentes; CAD intacto.
 
 ## Curso, engates e manutenção
 

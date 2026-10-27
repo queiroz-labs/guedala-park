@@ -1,0 +1,11 @@
+ID;Componente;Dado requerido;Evidência disponível;Estado;Critério de conferência
+R01;RECA01814 25;Diâmetro externo máximo da rosca na passagem da arruela;4 nominal;Pendente;Deve ser menor que o furo mínimo da arruela com folga de montagem definida
+R02;RECA01814 25;Pescoço mínimo e raio sob cabeça;Não publicados na ficha obtida;Pendente;Calcular excentricidade e confirmar apoio plano sem interferência do raio
+R03;RECA01814 25;"Comprimento mínimo/máximo; ponta e rosca útil";25 nominal;Pendente;"Conferir entrada útil e sobra externa; não contar ponta como rosca resistente"
+R04;RECA01814 25;Cabeça: diâmetro mínimo e altura máxima;8 e 2,8 nominais;Pendente;Cobertura sobre arruela e folga axial às bandejas
+E01;Ettinger003.06.941;Furo mínimo/máximo e diâmetro externo mínimo/máximo;4,3 e 15 nominais;Pendente;"Passagem da rosca; cobertura do Ø8 e folga no alojamento"
+E02;Ettinger003.06.941;"Espessura efetiva; planicidade e rebarba";1 nominal;Pendente;Altura montada e apoio do assento
+E03;Ettinger003.06.941;"Excentricidade entre ID e OD; revisão/classe de tolerância";Não publicadas na ficha obtida;Pendente;Deduzir descentramento radial além da folga arruela/haste
+C01;MontagemG2R021;"Fabricante; produto/SKU; substrato e classe";Não identificados;Pendente;Não inferir material pelo acabamento BrancoTX ou geometria16
+C02;MontagemG2R021;"Espessura acabada mínima/máxima; revestimento nas duas faces";"16 geométrico; BrancoTX intenção";Pendente;"Recalcular seção residual; vão das bandejas e entrada do parafuso"
+C03;MontagemG2R021;"Propriedades e condições para assento usinado; piloto/torque e retenção";Sem comprovação específica;Pendente;Ficha de material não substitui ensaio da ligação
