@@ -41,7 +41,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04 integradas; Q06 sem coordenada, implantação e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias27/10; SKUs e escolha final pendentes |
-| Orçamento | 60% | R44: R$137.748,11. D01-C para cotação (Elias27/10), não contratação. Luz4.879,03; teto marcenaria sem descontos29.554,30. [D05](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A131.845,70/B119.445,70/C127.445,70, com perdas e créditos condicionais; aguarda Elias; reserva intocada |
+| Orçamento | 60% | R44: R$137.748,11; luz4.879,03. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias27/10: "C — cotar com aumento de verba". Referência127.445,70, aporte7.445,70, reserva10.000 intacta; pacote37.000 condicionado, sem contratar |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
@@ -86,7 +86,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Próximos passos
 
-1. **Antes das chaves:** seguir o [plano até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) (desenvolvimento até 29, integração 30, conferência 31); concluir as luminárias na [lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); contratar o responsável técnico e revisar e enviar os [e-mails R01: amostras, IL02–IL09 e orçamento preliminar R15, todos não enviados](01_Programa_e_decisoes/Rascunhos_emails.md); cotação preliminar disponível, fabricação condicionada.
+1. **Antes das chaves:** seguir o [plano até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) (desenvolvimento até 29, integração 30, conferência 31); concluir as luminárias na [lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); contratar o responsável técnico e revisar e enviar os [e-mails R02: amostras, IL02–IL09 e orçamento preliminar R15, todos não enviados](01_Programa_e_decisoes/Rascunhos_emails.md); cotação preliminar disponível, fabricação condicionada.
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 

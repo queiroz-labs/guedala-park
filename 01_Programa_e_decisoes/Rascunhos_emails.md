@@ -1,4 +1,4 @@
-# Rascunhos de e-mail — R01
+# Rascunhos de e-mail — R02
 
 27/10/2026 · **Rascunhos. Nada foi enviado.** Revise, ajuste os dados entre colchetes e envie pelo canal oficial de cada destinatário: o portal ou atendimento do cliente da Cury, e o e-mail da administração ou do síndico depois da entrega.
 
@@ -89,11 +89,11 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 
 **Assunto:** Amostras e cotação preliminar — Arenza, Azul Petróleo, off-white Matt e Branco TX
 
-> Olá! Preciso de amostras físicas e catálogo vigente para marcenaria residencial: Greenplac Arenza Colore/Lizze; Guararapes Azul Petróleo Matt; off-whites Guararapes Lume, Nuvem e Areia Matt; Arauco Beige Matt e Louro Freijó Poro; Branco TX de Guararapes/Berneck/Sudati.
+> Olá! Preciso de amostras físicas e catálogo vigente para marcenaria residencial: Greenplac Arenza Colore/Lizze; Guararapes Azul Petróleo Matt; off-whites Guararapes Lume Matt (A) e Areia Matt (C), para comparar cada amostra ao lado do Arenza; Arauco Beige Matt e Louro Freijó Poro; Branco TX de Guararapes/Berneck/Sudati.
 >
 > Para os padrões que trabalham, informar fabricante, nome/linha/textura, SKU/EAN, disponibilidade em15 e18mm e tamanho da chapa. A mesma peça física terá o mesmo acabamento nas duas faces. Confirmar chapa revestida nas duas faces, bordas equivalentes e diferença entre variante comum e resistente à umidade, sem trocar automaticamente o padrão.
 >
-> Enviar preço por chapa, amostra e frete separados, validade, prazo e quantidade mínima. Precisamos confirmar em especial Arenza/Louro Freijó Poro18mm e os códigos de fábrica não expostos no catálogo. Compararemos as amostras lado a lado; os acabamentos estão propostos, dependem de amostra. Não é pedido de compra. Obrigado!
+> Enviar preço por chapa, amostra e frete separados, validade, prazo e quantidade mínima. Precisamos confirmar em especial Arenza/Louro Freijó Poro18mm e os códigos de fábrica não expostos no catálogo. Compararemos Lume e Areia ao lado do Arenza, conforme pedido de27/10; os acabamentos estão propostos, dependem de amostra. Não é pedido de compra. Obrigado!
 
 ## 5. Consultas de iluminação — IL02 a IL09 revisadas
 
@@ -101,17 +101,17 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 
 ### IL02 — WiZ / revenda nacional — não enviado
 
-**Assunto:** Seis A60 e cinco WiZmotes — SKU, estoque nacional e uso em plafon
+**Assunto:** Quatro A60 e quatro WiZmotes — SKU, estoque nacional e uso em plafon
 
-> Olá! Cotem seis lâmpadas A60 smart E27 para rede127V e cinco WiZmotes, identificando SKU/EAN, estoque nacional, preço, validade, prazo, pilhas/base e garantia. Referências documentais929002424712 e929002426812; se houver substituto atual, indiquem diferenças e manual.
+> Olá! Cotem quatro lâmpadas A60 smart E27 para rede127V e quatro WiZmotes, identificando SKU/EAN, estoque nacional, preço, validade, prazo, pilhas/base e garantia. Referências documentais929002424712 e929002426812; se houver substituto atual, indiquem diferenças e manual.
 >
-> As lâmpadas seriam usadas em três Taschibra Jurerê30cm, duas por plafon com vidro. O fabricante permite esse fechamento, orientação e dissipação? Enviem as condições escritas e o manual. Precisamos de brilho, Alexa/celular e comando físico; “serve em E27” sozinho não confirma o uso. Obrigado!
+> As lâmpadas seriam usadas em dois Taschibra Jurerê30cm, sala e escritório, duas por plafon com vidro. O fabricante permite esse fechamento, orientação e dissipação? Enviem as condições escritas e o manual. Precisamos de brilho, Alexa/celular e comando físico; “serve em E27” sozinho não confirma o uso. Obrigado!
 
 ### IL03 — Taschibra — não enviado
 
 **Assunto:** Jurerê52040021-01 com duas lâmpadas WiZ — condições de uso
 
-> Olá! Para três Jurerê brancos30cm, ref.52040021-01, confirmem dimensões úteis, fechamento/ventilação e condições de uso com duas WiZ A60 por corpo. A regulagem seria na eletrônica da lâmpada, sem dimmer na rede. A indicação “não dimerizável” restringe esse uso? Enviem manual e compatibilidade ou restrição por escrito. Cotem três corpos completos, acessórios e prazo. Obrigado!
+> Olá! Para dois Jurerê brancos30cm, ref.52040021-01, confirmem dimensões úteis, fechamento/ventilação e condições de uso com duas WiZ A60 por corpo. A regulagem seria na eletrônica da lâmpada, sem dimmer na rede. A indicação “não dimerizável” restringe esse uso? Enviem manual e compatibilidade ou restrição por escrito. Cotem dois corpos completos, acessórios e prazo. Obrigado!
 
 ### IL04 — Tramontina — não enviado
 
@@ -151,7 +151,7 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 
 > Olá! O anúncio kf72hc7016 corresponde ao kit929002681171/EAN8719514336957? Enviem etiqueta, manual e conteúdo exato de cada caixa. Precisamos de dois grupos separados, TV e prateleiras do escritório, cada um com controle próprio.
 >
-> Confirmem faixa de brancos, compatibilidade com WiZmote/Alexa, cortes/reconexão, extensões e dissipação. Cotem dois kits completos e dois controles, sem duplicar fontes/controladores já incluídos; informem preço/validade/estoque nacional e acessórios não incluídos. Obrigado!
+> Confirmem faixa de brancos, compatibilidade com WiZmote/Alexa, cortes/reconexão, extensões e dissipação. Cotem dois kits completos e identifiquem os dois controles correspondentes, já dentro das quatro unidades da IL02; não somar mais dois controles nem duplicar fontes/controladores já incluídos; informem preço/validade/estoque nacional e acessórios não incluídos. Obrigado!
 
 ### IL09 — demais luminárias — não enviado
 
@@ -169,22 +169,28 @@ Enviar os subpedidos separadamente:
 
 **Brilia/Sonoff — assunto: três G9 314450 e D1/RM433.** Olá! Para três G9 Brilia314450 de127V com D1, enviem documentação de dimerização/carga mínima e compatibilidade, ou restrição. Cotem os produtos e RM433 com base, bateria e revisão identificados. Não consideraremos o conjunto fechado sem documentação e ensaio aplicável. Obrigado!
 
-**Elgin/Avanti — assunto: alternativa48D18WSRWIFI.** Olá! Confirmem oferta e manual do plafon smart48D18WSRWIFI, branco, uso127V. Qual comando físico permite ligar/desligar e regular sem celular? Está incluído ou exige SKU/acessório adicional? Funciona sem internet e após retorno de energia? Cotem uma e três unidades com todos os comandos necessários, indicando diferenças para WiZ/WiZmote. Obrigado!
+**Elgin/Avanti — assunto: uma48D18WSRWIFI para o quarto.** Olá! Confirmem oferta e manual do plafon smart48D18WSRWIFI, branco, uso127V. Qual comando físico permite ligar/desligar e regular sem celular? Está incluído ou exige SKU/acessório adicional? Funciona sem internet e após retorno de energia? Cotem uma unidade para o quarto com todos os comandos necessários. Cozinha, lavanderia e banheiro mantêm interruptores comuns e seus próprios modelos. Não cotar substituição nesses ambientes. Obrigado!
 
 ## 6. Marcenaria — orçamento preliminar das fichas R15
 
-**Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Pedir ao menos três propostas com o mesmo escopo; não revelar a meta antes das primeiras respostas, conforme a estratégia do pacote de cotação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
+**Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Escopo D05-C: Elias,27/10/2026: "C — cotar com aumento de verba". D02: Elias,27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza". Pedir ao menos três propostas com o mesmo escopo; não revelar a meta antes das primeiras respostas, conforme a estratégia do pacote de cotação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
 
 **Assunto:** Orçamento preliminar de marcenaria —20 móveis, fichas R15, apartamento40m²
 
 > Olá! Solicito orçamento preliminar discriminado dos20 móveis e complementos descritos nas fichas R15. As medidas são nominais, anteriores às chaves; pendências de produtos, montagem e ensaios estão indicadas. A estimativa não autoriza fabricar.
 >
-> Preservar armazenamento, acabamentos, armários até o teto e a regra sem tubos ou quadro metálico substituto. Uma chapa física recebe o mesmo acabamento nas duas faces; não adicionar caixa interna15mm automaticamente. Identificar fabricante/código/espessura das chapas, bordas, ferragens e alternativas sem substituir por conta própria.
+> Cotem a base integral R15 e, em coluna separada, a etapa inicial sem C01/cabeceira, C03/encosto e almofadas do banco, C04/painel e duas prateleiras da TV, C05/prateleiras e suportes de acessórios do escritório, P16/duas gavetas e P17/aéreo do escritório. Esses itens ficam para compra futura; informar crédito real por item e custo de uma segunda mobilização.
+>
+> Nos móveis retidos, preservar todo armazenamento, ferragens, acabamentos, armários até o teto e a regra sem tubos ou quadro metálico substituto. Uma chapa física recebe o mesmo acabamento nas duas faces; não adicionar caixa interna15mm automaticamente. Identificar fabricante/código/espessura das chapas, bordas, ferragens e alternativas sem substituir por conta própria.
 >
 > Separar materiais, ferragens, corte/usinagem/bordas, acabamento, montagem, transporte, medição e impostos. Informar inclusões/exclusões, validade, prazo, pagamento e custo das amostras/protótipos.
 >
-> Cotem também o crédito real para adiar somente o painel e as duas prateleiras daTV, mantendo TV e suporte independente; não descontar R$850 automaticamente. Confirmem se o acabamento M03 está incluído para evitar cobrança duplicada. Sinalizem quais itens só podem ser precificados após medição/ensaio e o preço de cada visita técnica. Obrigado!
+> Manter roupeiro/canto/maleiro/aéreo do quarto, cozinha/lavanderia/banheiro, bancada do escritório e banco-baú. O adiamento P16/P17/C05 perde armazenamento do escritório; C01/C03 perde estofamento/encosto e C04 perde as duas prateleiras/ocultação dos fios. Não transferir conteúdo nem custo para outro móvel sem indicar.
+>
+> Cotar suporte independente para TV/PS5 e para indireta acessível da cabeceira, que não podem depender dos complementos adiados. Confirmar estabilidade dos módulos retidos, posição dos dois grupos de fita do escritório sem P17/C05 e custo das adaptações, sem retirar luz da lista por conta própria. A cabeceira indireta deve seguir D04: face inferior acessível.
+>
+> Confirmem se o acabamento M03 está incluído para evitar cobrança duplicada. Não aplicar créditos do rateio histórico; precisamos de valores reais instalados por módulo e inclusões. Sinalizem itens que dependem de medição/ensaio e o preço das visitas técnicas. Obrigado!
 
 ## Controle de respostas
 
-Todos os pedidos acima estão **não enviados em27/10/2026**. Após envio real, registrar data e destinatário institucional; ao receber, resumir SKU/revisão, preço/validade e resposta técnica publicável. Manter mensagens completas e dados pessoais fora do repositório. As perguntas A/B/C de Elias estão nos documentos D01–D04; resposta futura deve ser transcrita entre aspas com data, sem inferir aceite de silêncio.
+Todos os pedidos acima estão **não enviados em27/10/2026**. Após envio real, registrar data e destinatário institucional; ao receber, resumir SKU/revisão, preço/validade e resposta técnica publicável. Manter mensagens completas e dados pessoais fora do repositório. D01–D05 foram respondidas por Elias em27/10 e constam no roteiro/orçamento, com citação. As respostas autorizam preparar cotações e amostras, não contratar. D03-B está incorporada: uma Elgin no quarto, quatro A60/quatro WiZmotes nos demais grupos.
