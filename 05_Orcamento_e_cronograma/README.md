@@ -48,3 +48,5 @@ Integração 27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro d
 D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". D05-C vigente R$ 127.101,22; iluminação R$ 4.534,55.
 
 [Pedido de marcenaria e formulário R15](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) atualizados; escopo inicial e integral separados, frete/instalação/validade por item, sem metas divulgadas.
+
+Conferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$ 127.101,22. Estado/Roteiro/pontos: 87% documental; retorno comercial pendente.

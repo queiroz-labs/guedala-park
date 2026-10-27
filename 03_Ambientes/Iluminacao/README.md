@@ -55,3 +55,5 @@ Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md)
 Coerência documental 26/10: READMEs do quarto/lavanderia alinhados à proposta smart/Firefly; a seleção de 27–28/09 fica identificada como memória histórica. Sem alterar decisões comerciais, CAD ou publicação.
 
 **D05-C/D06,27/10:** Elias escolheu "C — cotar com aumento de verba"; P17/C05 ficam fora da primeira etapa cotada. E06 perde as prateleiras de suporte, E05 requer implantação independente. D06-B retira um kit e um controle da etapa atual (R$ 344,48), mantendo E05. D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação".
+
+Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmotes; E06 adiada. Mesmo valor do orçamento e Roteiro; 87% é maturidade global documental, não comprovação técnica da iluminação.

@@ -1,5 +1,7 @@
 # Orçamento consolidado R44 — 26/10/2026
 
+**Comparação vigente em 27/10/2026, D05-C + D06-B:** luz parcial **R$ 4.534,55**; etapa de execução **R$ 127.101,22**, aporte de **R$ 7.101,22** e reserva **R$ 10.000** preservada. Anteprojeto **87%** documental. R44 integral de R$ 137.748,11 permanece como base histórica de comparação; as memórias anteriores à seção D01 não são os valores vigentes de iluminação. Propostas instaladas e adaptações ainda faltam; não é orçamento contratado.
+
 **Estimativa atual de execução: R$ 137.748,11.** Teto: **R$ 120.000,00**, mais **R$ 10.000,00 de reserva intocada**, conforme [fatos do projeto](../../ferramentas/fatos.json). Excesso de execução: **R$ 17.748,11**. Necessidade incluindo a reserva: **R$ 147.748,11**, contra R$ 130.000,00 disponíveis. Uso da reserva: R$ 0,00.
 
 Revisão consolidada no arquivo original, sem mudar seu nome. Substitui os totais e notas cumulativas da R43. Estimativa não é compra, contrato nem autorização de execução. As escolhas de modelos, acabamentos, armazenamento e serviços necessários permanecem nas análises citadas.

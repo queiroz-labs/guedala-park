@@ -18,7 +18,7 @@ PRANCHAS = [
     ('02', 'Planta de layout — mobiliário', 'img', '03_Ambientes/Planta_mobiliada/Planta_mobiliada_R02.png',
      'Geometria FreeCAD R45, cores aproximadas.'),
     ('03', 'Planta de pontos — elétrica, iluminação, água, esgoto e gás', 'img', '03_Ambientes/Planta_pontos/Planta_pontos_R00.svg',
-     'R01: 50 pontos auditados +3 funções; D03/D04 integradas. Q06/S05/E05/E06 sem posição. Circuitos e implantação pelo RT.'),
+     'R01: 50 pontos auditados +3 funções; D03/D04/D06 integradas. E06 adiada; Q06/S05/E05 sem posição. Circuitos e implantação pelo RT.'),
     ('04', 'Vistas — sala e jantar · quarto', 'pair', ('03_Ambientes/Planta_mobiliada/Vistas/01_Sala_e_jantar.png', '03_Ambientes/Planta_mobiliada/Vistas/02_Quarto.png'),
      'Perspectivas isométricas do modelo R45.'),
     ('05', 'Vistas — escritório · cozinha', 'pair', ('03_Ambientes/Planta_mobiliada/Vistas/03_Escritorio.png', '03_Ambientes/Planta_mobiliada/Vistas/04_Cozinha.png'),
@@ -60,7 +60,7 @@ def build():
   <table><thead><tr><th>Nº</th><th>Prancha</th></tr></thead><tbody>{indice}</tbody></table>
   <p class="nota">Documentos complementares: programa de necessidades R01, caderno de especificações R01, fichas de fabricação R15,
   cronograma R00 e plano de reforma (rascunho), na pasta do projeto. Estudo preliminar para o responsável técnico:
-  medidas a conferir no imóvel; não executar. Esta revisão integra a planta de pontos R01 e as decisões D03/D04 de27/10. Layout e vistas permanecem referências R45; não representam a geometria R53. Modelo FCStd preservado.</p></div>
+  medidas a conferir no imóvel; não executar. Esta revisão integra a planta de pontos R01 e as decisões D03/D04/D06 de 27/10. Layout e vistas permanecem referências R45; não representam a geometria R53. Modelo FCStd preservado.</p></div>
   {carimbo('00', 'Capa e índice', 'R01 parcial: planta de pontos atualizada; layout e vistas continuam R45, sem validação contra R53.')}
 </section>'''
     html = f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Guedala Park · Pranchas R01</title>

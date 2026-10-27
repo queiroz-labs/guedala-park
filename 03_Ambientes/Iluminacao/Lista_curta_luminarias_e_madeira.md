@@ -1,6 +1,6 @@
 # Lista curta vigente — luminárias e madeira do banheiro
 
-Revisão comercial de 27/10/2026. Esta lista substitui as sugestões R00 de Liny/ECO para toda a casa; segue a [proposta vigente](README.md), sem escolher por Elias nem alterar a R44. Preços sem frete/instalação; oferta não comprova compatibilidade. **Cenário parcial do conjunto: R$ 4.534,55**, com exclusões abaixo.
+Revisão comercial de 27/10/2026. Esta lista substitui as sugestões R00 de Liny/ECO para toda a casa; segue a [proposta vigente](README.md), sem escolher por Elias nem alterar a R44. Preços sem frete/instalação; oferta não comprova compatibilidade. **Cenário parcial do conjunto: R$ 4.534,55**, com exclusões abaixo. Anteprojeto **87%** documental, conforme o Roteiro; seleção técnica/comercial ainda parcial.
 
 **D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação".** Sai um kit R$ 226,75 e um WiZmote R$ 117,73: redução R$ 344,48. Total vigente **R$ 4.534,55**; três WiZmotes e um kit E05. E06 permanece no projeto como fase futura. Não descontar instalação I01.
 
