@@ -20,4 +20,6 @@ Conferência T09, 26/10/2026: roteiro oficial aponta ao modelo R52 e orçamento 
 
 Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publicação R52 como histórico. [Estado vigente](../ESTADO_ATUAL.md).
 
-**Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02 compara Lume/Nuvem/Areia; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes e preço Nuvem seguem na consulta. O gerador preserva essa seção documental.
+**Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02 compara Lume/Nuvem/Areia; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem18 com referênciaR$607,15 em27/10. O gerador preserva essa seção documental.
+
+**Consultas27/10:** [Rascunhos R01](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichasR15. Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
