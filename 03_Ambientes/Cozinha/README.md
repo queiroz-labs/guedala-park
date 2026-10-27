@@ -81,4 +81,4 @@ Micro/C2: apoio aberto 69,7 × 47 cm, topo 155. Alternativa separada de 300 mm p
 
 ## Encaixe das lixeiras — agenda 27/10
 
-[Proposta e formulário](Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **Pergunta LIX para Elias:** A — aceitar esses avanços e retirada temporária da Loop se demonstrada; B — pedir alternativa mais estreita para preservar posição/rotina, com perda de volume e preço a apresentar. Sem opção adotada; a concessão não substitui a conferência física.
+[Proposta e formulário](Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retirada temporária da Loop ao usar o varal. Destino fora da passagem e operação precisam de gabarito; a escolha não comprova encaixe nem altera FreeCAD/site.

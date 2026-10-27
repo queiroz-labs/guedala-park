@@ -50,4 +50,4 @@ Banco escada BTF ESC0071, alumínio, três degraus (aberto 64,5 cm; fechado 39,5
 
 ## Encaixe das lixeiras — agenda 27/10
 
-[Proposta e formulário](../Cozinha/Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **Pergunta LIX para Elias:** A — aceitar esses avanços e retirada temporária da Loop se demonstrada; B — pedir alternativa mais estreita para preservar posição/rotina, com perda de volume e preço a apresentar. Sem opção adotada; a concessão não substitui a conferência física.
+[Proposta e formulário](../Cozinha/Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retirada temporária da Loop ao usar o varal. Destino fora da passagem e operação precisam de gabarito; a escolha não comprova encaixe nem altera FreeCAD/site.

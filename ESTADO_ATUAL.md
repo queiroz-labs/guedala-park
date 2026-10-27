@@ -30,7 +30,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Pranchas A3 | R00 | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
 | Site e pacote para o montador | Site R52/R23; ZIP remoto R23 conferido (251 entradas, hashes sem falha); ZIP local R20 histórico | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
-Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6cm, não aplicado; testar pedal/tampa, passagem e varal. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
+Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6cm, LIX=A (Elias27/10/2026, resposta “A”), não aplicado; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 
 ## Onde estamos
 

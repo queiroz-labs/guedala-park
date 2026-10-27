@@ -37,6 +37,6 @@ Coordenadas abaixo em **cm do desenho do site**, origem/axes de `ferramentas/sit
 | Destino temporário fora da passagem (se necessário) | | |
 | Resultado e responsável pela conferência | | |
 
-**Pergunta LIX para Elias, após gabarito:** A — manter os modelos e aceitar o avanço7/6cm e, se demonstrada, a retirada temporária da Loop durante uso do varal; B — preservar a posição/rotina sem essa concessão e pedir alternativa mais estreita, com volume e custo para nova decisão. Resposta=__; data/fonte=__. A pergunta não autoriza interferência; ambas exigem passagem e operação verificadas.
+**LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retirada temporária da Loop ao usar o varal. Destino fora da passagem e operação precisam de gabarito; a escolha não comprova encaixe nem altera FreeCAD/site. Se o gabarito reprovar, apresentar alternativa com volume e preço para nova decisão; não trocar os produtos automaticamente.
 
 Dependência física: produto/pedal/tampa e gabarito de uso. Dependência do imóvel: parede acabada, rodapé, portas, janela e passagem real. **Nenhuma mudança no FCStd, no desenho publicado ou nos envelopes de referência; proposta ainda não demonstra compatibilização completa.**
