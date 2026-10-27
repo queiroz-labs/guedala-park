@@ -37,7 +37,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 75% | T06: [complementos de iluminação](03_Ambientes/Iluminacao/README.md) identificados (+R$57,03); WiZ 127 V diverge da oferta bivolt, SceneSwitch sem ficha vinculada ao SKU; consultas IL01–IL05 preparadas, não enviadas; Kit WiZ identificado, substituição WT1→Shelly conferida (+R$81,75), Tramontina sem comprovação CC, alternativa Wall Switch 1 condicionada; Opus 36 W nominalmente suficiente, lote/PWM/manual pendentes; manuais/lotes, uso no Jurerê, ensaios e levantamento pendentes |
+| Anteprojeto | 75% | T06: [iluminação consolidada](03_Ambientes/Iluminacao/README.md), quarto smart com Alexa/celular; cozinha/lavanderia/banheiro com interruptor comum (Elias, 26/10/2026). Cenário parcial R$4.786,92; IL02–IL09 prontas, não enviadas. SKUs, respostas, cotação, instalação e ensaios pendentes |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
@@ -53,7 +53,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).
-- **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura; luz geral com três níveis de brilho; conjunto Jurerê/SceneSwitch candidato, cerca de R$ 110 ([CB02](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md)).
+- **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura. Geral smart com brilho regulável, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); proposta Jurerê/WiZ com controle físico, ainda condicionada ([CB02](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md)).
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
 - **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).

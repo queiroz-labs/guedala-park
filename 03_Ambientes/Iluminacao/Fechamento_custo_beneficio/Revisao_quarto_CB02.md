@@ -1,8 +1,22 @@
 # Iluminação — composição CB02 e complementos T06
 
-24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta escolha substitui a proposta de ajuste contínuo por controle remoto para a luz geral do quarto. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
+24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
 
-## Proposta comercial para implementar a escolha
+## Proposta vigente para concluir a seleção — 26/10/2026
+
+**Requisito atualizado:** Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”; na pergunta sobre cozinha/lavanderia/banheiro respondeu “Manter essas três com interruptor comum”. Assim, a geral do quarto passa a smart com regulagem; SceneSwitch deixa de ser candidata prioritária. As escolhas comerciais permanecem condicionadas à documentação e instalação. O pacote de seleção está consolidado; T06 não está encerrada para compra/execução.
+
+**Quarto proposto:** Jurerê 30 cm + duas WiZ E27 e um WiZmote exclusivo, preservando luz quente, duas arandelas e indireta independentes. A [WiZ brasileira de referência](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) oferece aplicativo, voz e regulagem; uso no Jurerê segue pendente. RGB é possibilidade do modelo, não requisito novo do quarto. Não adicionar dimmer de rede às lâmpadas smart.
+
+**Uso diário:** SceneSwitch apaga ao desligar o interruptor e deixá-lo desligado; religar é que participa da mudança de nível. Na solução smart, usar comando de desligar do WiZmote, aplicativo ou Alexa mantém a lâmpada alimentada e disponível para religar remotamente. Se cortar a energia no interruptor convencional, Alexa/celular não poderão religá-la até restabelecer alimentação. Prever comando físico acessível e identificar o interruptor de alimentação; não depender exclusivamente de voz/celular. Configuração e comportamento após falta de energia serão conferidos no comissionamento.
+
+**Reconciliação de referência, sem cotação nova:** CB02 histórica R$4.415,94 + pulsadores/placas R$57,03 + substituição WT1/Shelly R$81,75 = R$4.554,72. Retirar duas SceneSwitch (R$58,98), provisionar duas WiZ (2 × R$98,97) e um WiZmote (R$93,24): **+R$232,20; cenário atualizado R$4.786,92**. Geral do quarto: R$342,08 de referência. Os R$98,97 vêm da oferta ainda sem SKU conciliado; são provisão comparativa, não preço confirmado da referência 127 V. Diferença para a provisão global de R$3.540: R$1.246,92. R44 e JSON histórico preservados; faltam fretes, acessórios e eventuais adaptações. Não contar WT1/SceneSwitch junto dos substitutos.
+
+**Inventário consolidado da proposta:** seis plafons gerais (três Jurerê, um EVO e dois Firefly), um pendente triplo, duas arandelas; seis WiZ E27 e três G9; cinco WiZmotes; dois kits WiZ completos; três Shelly e três pulsadores/placas candidatos. Fontes Opus avulsas: **cinco no apartamento**, sendo três para as indiretas com Shelly e duas já incluídas no banheiro L02. Não acrescentar fontes aos kits WiZ nem duplicar os R$612,64 do banheiro. Cinco barras MOV fora do banheiro continuam provisão; perfis/rolos do banheiro já pertencem à L02. Metros finais e consumíveis não estão fechados.
+
+**Condição para concluir:** respostas IL02–IL09 vinculadas aos produtos/lotes, cotação completa, escolha dos componentes condicionados, conferência física e projeto de instalação. IL01 foi retirada da fila por perder prioridade com o novo requisito. Não há resposta de fornecedor nem envio registrado. A lista curta R00 e CB01 são referências históricas; usar este quadro e o README para a seleção atual, sem retomar Liny ou padronizar EVO nas gerais smart.
+
+## Cenário anterior — SceneSwitch (superado para o quarto)
 
 | Componente | Quantidade | Referência unitária | Parcela |
 |---|---:|---:|---:|
@@ -36,7 +50,7 @@ Para SceneSwitch, pedir a associação explícita **código → EAN → branco q
 
 **Custo:** quantidades e referências históricas CB02 preservadas; a divergência da oferta WiZ exige conciliação antes de compra, sem novo preço ou economia atribuída nesta conferência.
 
-## Impacto
+## Impacto histórico da CB02 original
 
 - LinyR$500,46 retirado da lista prioritária; conjunto candidatoR$109,88: **redução comparativaR$390,58**.
 - Duas arandelas Evy2054 continuamR$142,32 no cenário. Teto + par de leitura =R$252,20, ainda sem o conjunto de LED da cabeceira.
@@ -46,7 +60,7 @@ Para SceneSwitch, pedir a associação explícita **código → EAN → branco q
 
 ## Complementos T06 — 26/10/2026
 
-Proposta para completar a lista, sem compra ou comprovação de instalação. A escolha de três níveis do quarto permanece.
+Proposta para completar a lista, sem compra ou comprovação de instalação. Valores desta seção precedem o requisito smart do quarto; aplicar a reconciliação vigente no topo.
 
 | Complemento | Quantidade e destino | Definição / condição |
 |---|---|---|
@@ -148,7 +162,7 @@ Antes de adotar, pedir à Shelly confirmação do conjunto Wall Switch 1 + Plus 
 
 Shelly **R$223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/); demais valores mantêm as referências documentadas acima. Por zona, controlador/fonte/comando = **R$327,31**. O cenário de R$4.554,72 fica R$1.014,72 acima da provisão de iluminação de R$3.540; não somar novamente R$57,03 nem conservar os WT1 junto dos Shelly. Frete, cabos, caixas, eventuais transições e instalação continuam fora deste subtotal; preço pode mudar se outro pulsador for necessário.
 
-**Limites e pendências:** Shelly tem limite de 4 A por canal, inferior aos 5 A do WT1; não transferir a capacidade automaticamente. Fontes 12 V/3 A/36 W permanecem candidatas: conferir carga final, perdas, consumo do controlador (<1,2 W) e condição térmica com instalador. Não redimensionar comprimentos nominais nesta etapa. Confirmar etiqueta SNDC-0D4P10WW, manual do lote e pulsador; depois conferir montagem, funcionamento do toque/pressão longa, retorno de energia e dimerização. Sem ensaio nesta etapa. A fonte permanece energizada para o controle funcionar. WiZ do escritório e SceneSwitch do quarto não entram nessa substituição.
+**Limites e pendências:** Shelly tem limite de 4 A por canal, inferior aos 5 A do WT1; não transferir a capacidade automaticamente. Fontes 12 V/3 A/36 W permanecem candidatas: conferir carga final, perdas, consumo do controlador (<1,2 W) e condição térmica com instalador. Não redimensionar comprimentos nominais nesta etapa. Confirmar etiqueta SNDC-0D4P10WW, manual do lote e pulsador; depois conferir montagem, funcionamento do toque/pressão longa, retorno de energia e dimerização. Sem ensaio nesta etapa. A fonte permanece energizada para o controle funcionar. WiZ do escritório e lâmpadas da geral do quarto não usam esses controladores de fita.
 
 ### Fontes Opus OPS 31002 — conferência documental
 
@@ -186,32 +200,22 @@ Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos forne
 
 | Consulta | Destino sugerido | Situação |
 |---|---|---|
-| IL01 — SceneSwitch | Abastece, responsável pela oferta; suporte Philips/Signify se faltar documentação | Rascunho; não enviada; sem resposta |
+| IL01 — SceneSwitch | Sem envio necessário no cenário vigente | Superada pelo requisito smart de 26/10; nunca enviada |
 | IL02 — WiZ | Abastece, responsável pela oferta; suporte WiZ/Signify para condições de instalação | Rascunho; não enviada; sem resposta |
 | IL03 — Jurerê | Vendedor responsável pelo anúncio na Leroy Merlin; suporte Taschibra para desenho/manual | Rascunho; não enviada; sem resposta |
 | IL04 — Tramontina | Suporte técnico Tramontina Eletrik | Rascunho; não enviada; sem resposta |
 | IL05 — Shelly | Suporte técnico Shelly; revenda para cotação após identificação | Rascunho; não enviada; sem resposta |
 
-### IL01 — SceneSwitch
-
-**Assunto: SceneSwitch E27 — identificação da variante 3000 K e manual para uso em plafon**
-
-Olá! Estamos conferindo a documentação para uma possível compra de **duas lâmpadas Philips SceneSwitch E27**, branco quente, com três níveis de intensidade pelo interruptor convencional, para rede de **127 V**.
-
-A [oferta consultada](https://www.abastece.com.br/products/lampada-led-bulbo-9w-806lm-sceneswitch-bivolt-60w-929002017746-929002017846-philips) reúne os códigos **929002017746 e 929002017846**. Poderiam informar:
-
-1. Qual código corresponde à variante 3000 K? Enviar o EAN e fotos legíveis da caixa e da marcação na lâmpada do lote disponível, mostrando código, tensão, potência, temperatura de cor e revisão/lote, quando indicados.
-2. Enviar ficha técnica e manual/instruções oficiais correspondentes a esse código. Confirmar se o produto regula intensidade em três níveis e se a temperatura de cor permanece constante ou muda em cada nível.
-3. Qual é o procedimento documentado para memória, mudança de nível e sincronização de duas unidades no mesmo interruptor? Informar também as dimensões totais da lâmpada.
-4. Pretendemos usar duas unidades em um **Taschibra Jurerê 30 cm, 2×E27, com vidro fosco instalado**. O fabricante permite essa aplicação? Favor indicar página/cláusula do manual sobre luminárias fechadas ou com difusor, orientação de montagem, ventilação e limites térmicos. Se depender da versão do plafon ou de informação adicional, indicar qual.
-
-Se não houver manual público, poderiam solicitar ao suporte técnico do fabricante uma resposta escrita vinculada ao código? Precisamos distinguir o produto documentado da descrição genérica da família. Esta é uma consulta técnica prévia, sem pedido de compra. Obrigado!
+| IL06 — Opus | Suporte Opus e revenda para identificar lote | Rascunho; não enviada; sem resposta |
+| IL07 — Cristallux | Suporte técnico Cristallux | Rascunho; não enviada; sem resposta |
+| IL08 — Kits WiZ | Planet Leds e suporte WiZ | Rascunho; não enviada; sem resposta |
+| IL09 — Demais luminárias | Mensagens separadas por fabricante/revenda, abaixo | Rascunhos; não enviados; sem resposta |
 
 ### IL02 — WiZ
 
 **Assunto: WiZ A60 — conciliação de SKU, tensão e manual de instalação em Jurerê**
 
-Olá! Estamos avaliando **quatro lâmpadas WiZ A60 E27 RGB e branco ajustável**, duas por plafon Taschibra Jurerê 30 cm 2×E27, com difusor de vidro fosco, em rede de **127 V**.
+Olá! Estamos avaliando **seis lâmpadas WiZ A60 E27 com branco ajustável e regulagem**, duas por plafon Taschibra Jurerê 30 cm 2×E27, com difusor de vidro fosco, em rede de **127 V** (sala, escritório e quarto). RGB é necessário na sala/escritório; no quarto priorizamos luz quente, brilho regulável, Alexa e celular.
 
 A [oferta consultada](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz) descreve **bivolt, 8,5 W e 806 lm**. Já a [referência oficial brasileira consultada](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) identifica **12NC 929002424712 / EAN 8718699787370**, **127 V, 8,8 W e 800 lm**. Para conciliar os documentos, poderiam enviar:
 
@@ -226,12 +230,12 @@ Se a aplicação depender de informação do plafon, indiquem qual documento pre
 
 **Assunto: Jurerê 30 cm 2×E27 — etiqueta, manual e condições de uso com lâmpadas LED**
 
-Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois soquetes E27 e vidro fosco**, conforme [este anúncio de referência](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739). A aplicação prevista é em rede de **127 V**: um plafon com duas SceneSwitch e dois com duas WiZ cada. Antes de comprar, poderiam enviar:
+Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois soquetes E27 e vidro fosco**, conforme [este anúncio de referência](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739). A aplicação prevista é em rede de **127 V**: três plafons com duas WiZ cada. Antes de comprar, poderiam enviar:
 
 1. Código completo do fabricante, EAN e fotos legíveis da etiqueta/embalagem da versão oferecida. Confirmar que se trata do Jurerê 30 cm 2×E27, não do modelo de 25 cm/um soquete nem do Laguna.
 2. Manual de instalação e ficha/desenho técnico da mesma versão, mostrando disposição/orientação dos soquetes, espaço útil para lâmpadas, fixação do vidro e aberturas de ventilação. As medidas externas não permitem conferir o espaço interno.
 3. Limites por soquete e restrições específicas para LED: formatos/dimensões admitidos, folgas, orientação e condições térmicas. Com o vidro montado, como o fabricante caracteriza o fechamento/ventilação do plafon para seleção de lâmpadas?
-4. Há documentação de compatibilidade ou restrição para SceneSwitch E27 e WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Para SceneSwitch, a oferta reúne **929002017746/929002017846**, ainda sem identificação definitiva da variante quente. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
+4. Há documentação de compatibilidade ou restrição para WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
 
 Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
 
@@ -266,9 +270,39 @@ Queremos validar duas opções: **Tramontina 57115/027** e **Shelly Wall Switch 
 
 Se faltarem informações para confirmar o conjunto, favor listá-las. Precisamos de resposta vinculada aos códigos e documentos/revisões; não estamos solicitando ensaio nem declarando compatibilidade já comprovada. Esta é uma consulta técnica prévia, sem pedido de compra. Obrigado!
 
+### IL06 — Opus
+
+**Assunto: OPS 31002 — lote, regulação e uso com controlador PWM**
+
+Olá! Avaliamos cinco fontes OPS 31002/EAN 7898589031002 no projeto: três com Shelly Plus RGBW PM e fita Cristallux 12 V/12 W por metro; duas para fitas do banheiro com liga/desliga. Entrada de rede 127 V. A [ficha atual](https://opusled.com.br/datasheet/?produto=4160) informa 36 W/3 A, 12 V CC e corpo 172 × 21 × 20 mm; a oferta consultada indica 270 × 20 × 20 mm. Poderiam enviar etiqueta/fotos e manual da revisão disponível, esclarecendo a diferença? A saída é tensão constante regulada? Informar tolerância, ripple, carga mínima, funcionamento sem carga, potência contínua/curva térmica, proteções, isolação e condições de fixação/ventilação e das conexões. É admitido controlador PWM a jusante (Shelly: 833 Hz ou opção 22 kHz), permanentemente alimentado mesmo com a fita apagada? Indicar a documentação aplicável e condições/restrições; não estamos declarando ensaio do conjunto. Consulta técnica, sem pedido de compra. Obrigado!
+
+### IL07 — Cristallux
+
+**Assunto: Fitas 12 V — corrente, PWM e condições de montagem**
+
+Olá! Avaliamos CLX-FT431230/código 221506/3000 K para três grupos com Shelly Plus RGBW PM, além das CLX-FT331240/4000 K e CLX-FT200530/3000 K para o banheiro com liga/desliga. Enviar etiquetas, códigos/EAN e fichas/manuais das revisões disponíveis. Na [página 221506](https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-3000k-1200lm-m-ip65-480led-m-irc-90), 12 W/m a 12 V correspondem a 1 A/m, mas consta 0,1 A/m: qual valor e tolerância devemos usar? Confirmar condições de dimerização PWM, inclusive 833 Hz/22 kHz, dissipação/perfil exigido, cortes, conexões e proteção das pontas após corte. Para as fitas do banheiro, informar restrições de instalação e manutenção do grau de proteção. Comprimentos finais serão levantados; esta consulta documental não é pedido de compra. Obrigado!
+
+### IL08 — Kits WiZ
+
+**Assunto: Dois kits WiZ Pro RGBTW 2M Kit-C — identificação e manual**
+
+Olá! Avaliamos dois kits independentes para TV e prateleiras do escritório, com um WiZmote por kit. A referência documental é 929002681171/EAN 8719514336957. Podem confirmar se a oferta corresponde a esse código e enviar fotos da etiqueta, fonte, controlador e conteúdo da embalagem? Pedimos manual de montagem/corte/reconexão, acessórios necessários e compatibilidade com WiZmote/Alexa. As fichas oficiais do mesmo código divergem entre 2200–6500 K e 2700–6500 K: qual faixa vale para o lote? Confirmar passo de corte, possibilidade de reconectar segmentos, extensões admitidas e condições de garantia/dissipação; não presumimos aproveitamento de sobras. Cotar dois kits completos e identificar separadamente os controles, sem duplicar fontes/controladores incluídos. Comprimentos finais pendentes; consulta sem pedido de compra. Obrigado!
+
+### IL09 — Demais luminárias e perfis
+
+Enviar futuramente **cada texto apenas ao destinatário correspondente**, após conferir canal. Nenhuma mensagem enviada; preços, estoque e modelos permanecem condicionados.
+
+**Stella — assunto: EVO STH21967/30 para cozinha.** Olá! Avaliamos uma unidade branca para rede 127 V, luz geral 3000 K com interruptor convencional. Enviar ficha/manual, SKU/EAN e etiqueta da revisão disponível, incluindo potência, fluxo, IRC, dimensões, acessórios e condições de montagem/limpeza. Cotar a unidade completa; compatibilizaremos a posição com as portas dos armários e o teto real. Consulta prévia, sem compra. Obrigado!
+
+**Galaxy — assunto: Firefly 9607 e 9605, 3000 K.** Olá! Avaliamos uma unidade quadrada 9607 para lavanderia e uma redonda 9605 para banheiro, ambas brancas e com liga/desliga em 127 V. Confirmar códigos/EAN das variantes 3000 K e enviar etiquetas, fichas/manuais, dimensões, potência/fluxo e grau de proteção/condições de uso. Informar restrições a umidade e locais de instalação; IP publicado não substitui a definição dos volumes do banheiro pelo RT. Cotar cada modelo separadamente com acessórios. Consulta sem compra. Obrigado!
+
+**Nordecor — assunto: EVY 2054 e perfil MOV4329.** Olá! Avaliamos duas arandelas EVY 2054 brancas/3000 K e perfis MOV4329 brancos. Enviar etiquetas e manuais, confirmar interruptor próprio e alimentação 127 V das arandelas. Para o perfil, enviar seção útil interna, acessórios incluídos (difusor, tampas e presilhas), fixação e orientação de dissipação, inclusive para fita COB 10 × 3 mm/12 W por metro e para a fita do kit WiZ. Não presumimos encaixe pela dimensão externa. Cotar arandelas e barras/acessórios por código; quantidade final de perfis depende do plano de cortes. Consulta sem compra. Obrigado!
+
+**Revendas do pendente/comando — assunto: Jabuticaba triplo âmbar e dimerização G9 em 127 V.** Olá! Avaliamos um Arevo C82P3 preto com três vidros âmbar, três Brilia MINI G9 314450 e Sonoff D1 + RM433/base. Confirmar cada SKU/revisão, etiqueta, conteúdo da caixa, manual e preço da variante exata. O anúncio do pendente contém “2xG9” no endereço: precisamos comprovar versão tripla. Para D1/Brilia, informar carga mínima, tipo de dimerização e eventual lista/declaração de compatibilidade com três unidades (10,5 W nominais); para RM433, confirmar revisão, bateria e base incluída. Sem comprovação/ensaio não consideraremos a dimerização fechada. Consulta técnica prévia, sem compra; encaminhar cada pergunta ao fabricante responsável. Obrigado!
+
 ### Como conferir as respostas
 
-Registrar em IL01–IL05 a data, o código efetivamente respondido e o documento/página recebidos; só marcar “enviada” após envio real. Para IL01–IL03, resposta genérica “serve em E27” não resolve fechamento, orientação e condições térmicas. Para IL04–IL05, cruzar requisitos de entrada da Shelly com condições de contato da Tramontina; “suporta 250 V” ou “o suporte encaixa” não resolve o conjunto elétrico. Registrar cada opção separadamente como confirmada documentalmente, restrita ou ainda pendente; se a resposta solicitar dados adicionais, manter a pendência. Cotação e encaixe do Wall Switch permanecem separados da confirmação elétrica. Se documentos divergirem, manter a pendência e pedir correção vinculada ao lote. Evidência documental não substitui conferência física/ensaio, e eventual proibição de uso não deve ser contornada por ensaio. Dados pessoais e mensagens integrais de terceiros ficam fora do repositório público; registrar aqui apenas a conclusão técnica e fontes publicáveis.
+Registrar em IL02–IL09 a data, o código efetivamente respondido e o documento/página recebidos; só marcar “enviada” após envio real. Para IL02–IL03, resposta genérica “serve em E27” não resolve fechamento, orientação e condições térmicas. Para IL04–IL05, cruzar requisitos de entrada da Shelly com condições de contato da Tramontina; “suporta 250 V” ou “o suporte encaixa” não resolve o conjunto elétrico. Registrar cada opção separadamente como confirmada documentalmente, restrita ou ainda pendente; se a resposta solicitar dados adicionais, manter a pendência. Cotação e encaixe do Wall Switch permanecem separados da confirmação elétrica. Se documentos divergirem, manter a pendência e pedir correção vinculada ao lote. Evidência documental não substitui conferência física/ensaio, e eventual proibição de uso não deve ser contornada por ensaio. Dados pessoais e mensagens integrais de terceiros ficam fora do repositório público; registrar aqui apenas a conclusão técnica e fontes publicáveis.
 
 ## Imagens
 
