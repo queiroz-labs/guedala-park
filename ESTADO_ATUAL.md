@@ -75,7 +75,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
 | P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
 | P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |
-| P14/P20 | [Assento](04_Moveis/P20/Assento_fechado/README.md) · [cesto](04_Moveis/P14/Reacoes_e_operacao/README.md) | Protótipo (1 piano + 2 pares de articuladores, ~R$ 150), pivôs, limitadores a 55°, retenção |
+| P14/P20 | [Assento](04_Moveis/P20/Assento_fechado/README.md) · [cesto](04_Moveis/P14/Reacoes_e_operacao/README.md) | [Kit de oficina e formulário](04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md) preparados; produto, suporte/terminais, pivôs e ensaio pendentes; preço completo não fechado |
 | P08 | [Rodízios e estabilidade](04_Moveis/P08/README.md) | Massas, contato, guias, batente, retirada completa |
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Proposta FGVTN 500, fixação das frentes, consulta não enviada |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |

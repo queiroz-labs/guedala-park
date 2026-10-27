@@ -1,56 +1,33 @@
-# Banco e cesto — preços nacionais e conjunto proposto · R01
+# Banco e cesto — lista para amostras e protótipo
 
-24/10/2026. Completa a [diretriz](Diretriz.md) e a [conferência nominal](Conferencia/Resultado.md) com preços de varejo brasileiro consultados nesta data. **São preços anunciados, sem frete e sem compra.** Os conjuntos continuam sujeitos às verificações técnicas já listadas: terminais, eixo, apoio da piano e ensaio em oficina.
+Agenda 27/10, preparada em **26/10/2026**. [Diretriz](Diretriz.md) · [montagem, desenho e formulário](../../P20/Assento_fechado/Roteiro_banco_cesto.md). Sem compra ou consulta enviada. A lista separa oferta comercial de compatibilidade: nenhuma ferragem genérica herda a qualificação do desenho Bigfer/Mahler.
 
-## Preços encontrados
+## Peças com referência comercial
 
-| Peça | Oferta | Preço | Observação |
-|---|---|---:|---|
-| Dobradiça piano **1800 × 30 mm**, aço zincado, Mega Full USH-160 | [megafull.com.br](https://www.megafull.com.br/dobradica-de-piano-1800x30mm-ush-160-mega-full) | **R$53,91** | As duas tampas somam 971 + 825 = **1.796 mm**: cabem numa barra, com só 4 mm para o corte. Mais seguro comprar duas barras ou uma de 2 m |
-| Dobradiça piano 2000 × 50 mm, inox escovado, Metal Fecho | [markferragens.com.br](https://www.markferragens.com.br/produto/5262-dobradica-piano-em-aco-inox-de-2-metros-x-50-mm) | R$297,99 Pix | Inox, se o zincado não for aceito embaixo da almofada. A aba de 50 mm é mais larga que a Ref.54 estudada (30 mm) |
-| Articulador com trava Bigfer **546 mm**, zinco branco, 20 kg (anúncio) | [markferragens.com.br](https://www.markferragens.com.br/produto/2599-articulador-com-trava-546-mm-para-porta-de-bascular) | **R$36,05** Pix, por unidade | **Não é o mesmo desenho** do 04.03.185/183 em epóxi branco usado na triagem. Antes de adotar, conferir as cotas na peça |
-| Articulador Bigfer, epóxi branco, direito e esquerdo (04.03.185/183) | [portal Bigfer](https://portal.bigfer.com.br/sistemas-e-articuladores-82/articulador-com-trava-esquerdo-epoxi-branco-1400) | — | Lote mínimo de 50 no portal; procurar revenda |
-| Par de articuladores com trava, epóxi branco, 20 kg (anúncio) | [tudonamao.net.br](https://www.tudonamao.net.br/kit-articulador-de-porta-c-trava-de-branco) | R$22,90 o par | Sem fabricante nem desenho; só serve com a peça na mão |
-| Pivô Ômega OMPCR 10×20 M8 | [paulo-omegafix](https://www.paulo-omegafix.com.br/produtos/parafuso-de-corpo-retificado-iso-7379-ompcr-10x20-m8x1-25-kit-04-p%C3%A7s) | R$84 o kit de 4 | Já registrado na conferência |
+Consulta web em 26/10/2026; páginas recuperadas podem estar em cache (Mega Full: duas semanas; Tudo na Mão: três semanas; Ômega: nove meses). Valores exibidos, sem frete; reconfirmar estoque/preço na compra. O conector Firecrawl estava indisponível; leitura feita pela ferramenta web.
 
-O "20 kg" dos anúncios é alegação comercial, não capacidade nesta aplicação.
+| Item e fonte | Quantidade para os dois protótipos | Unitário / desembolso conhecido | Condição de uso |
+|---|---:|---:|---|
+| [Mega Full USH-160, piano zincada 1800×30, ref.1278](https://www.megafull.com.br/dobradica-de-piano-1800x30mm-ush-160-mega-full) | 2 barras, uma para cada tampa | R$53,91 / **R$107,82** | Página indica estoque95. Cortar971 e825 em barras separadas; evita depender dos4mm de sobra de uma barra. Não é Mahler Ref.54; medir perfil/eixo/furos e demonstrar apoio antes de aceitar substituição |
+| [Jogo D/E com trava, Tudo na Mão](https://www.tudonamao.net.br/kit-articulador-de-porta-c-trava-de-branco) | 3 pares:2 P20 +1 P14 | R$22,90 / **R$68,70** | Página diz disponibilidade imediata; fabricante/código não demonstrados. Referência de custo/amostra apenas; não comprar como equivalente Bigfer sem identificar produto |
+| [OMPCR10×20 M8×1,25, kit4, Ômega](https://www.paulo-omegafix.com.br/produtos/parafuso-de-corpo-retificado-iso-7379-ompcr-10x20-m8x1-25-kit-04-p%C3%A7s) | 1 kit:2 em uso +2 sobras | R$84,00 / **R$84,00** | Preço exibido; estoque/pagamento não confirmados. Ombro20 e rosca13,25 exigem pilha axial completa; kit não inclui bucha/suporte |
+| **Subtotal conhecido de amostras, condicionado** | | **R$260,52** | P20 R$153,62; P14 R$106,90. Não é custo do protótipo completo nem pedido de compra |
 
-## Conjunto proposto e custo de peças
+A opção tecnicamente rastreada continua **Mahler Ref.54,1991±1×30,8×0,8** ([desenho arquivado](Conferencia/Fontes/Mahler_54_2000.pdf)) e **Bigfer04.03.185/183 D/E** ([catálogo](Conferencia/Fontes/Bigfer_112.pdf), [portal](https://portal.bigfer.com.br/sistemas-e-articuladores-82/articulador-com-trava-esquerdo-epoxi-branco-1400)). Preço de varejo do conjunto exato: **sob consulta**, sem substituir pelo preço do genérico. Uma Mahler permite971+825, deixando ao menos194mm antes de serra/acerto; medir aba/nó e apoio. O anúncio Bigfer546mm e a piano inox50mm são alternativas de geometria distinta, não reposição automática.
 
-### Banco P20 (duas tampas)
+## Itens indispensáveis ainda sem preço fechado
 
-| Item | Qtd. | Faixa |
-|---|---:|---:|
-| Piano zincada 1800 × 30 (ou 2 m), cortada em 971 + 825 | 1–2 barras | R$54–110 |
-| Articulador com trava, um par por tampa (direito + esquerdo) | 2 pares | R$46–144 |
-| Parafusos, apoio fixo da piano e calços | verba | R$30–80 |
-| **Total de peças** | | **R$130–334** |
+| Item | Quantidade nominal / base | O que falta e quem resolve |
+|---|---|---|
+| Tampas P20 | 1 de971×448×20 +1 de825×448×20; núcleo compensado e acabamento nos20 | Fornecedor: composição, espessura mínima, orientação; oficina: orçamento dos painéis e acabamento. Não comprar MDF como substituto |
+| Corpo/gabarito P20 | 1 conjunto com10 apoios principais e7 regiões inferiores; duas almofadas e objetos-gabarito | Oficina: aproveitar geometria do [P20](../../P20/Assento_fechado/README.md), definir juntas/calços e custo; não substituir por apoios rígidos fictícios |
+| Apoio fixo piano e fixação | 2 linhas de apoio; fixadores e quantidade a dimensionar | Oficina/produto: seção, ligação ao corpo, cabeça/furação/acesso; sem código nem preço |
+| Terminais e fixadores articuladores | 12 interfaces de terminal:8 P20 +4 P14; só contar avulsas se não vierem no jogo | Produto/oficina: afastamentos22/30 no banco, excentricidade no cesto, chapa/base de distribuição e acesso. Quantidade de parafusos ainda indefinida |
+| Bucha e suporte de pivô P14 | 2 conjuntos; igus GFM-1012-15 candidata | Fabricante/oficina: ajuste, alojamento, flange, arruelas, folga, retenção axial e contra levantamento. Preço não obtido; não atribuir zero |
+| Frente/armação/saco P14 | 1 frente550×521×18;13 peças da armação;1 saco400×200×400 com alças | Oficina/fornecedor: material real, montagem, massas e preço. O saco não é peça de madeira |
+| Fecho, batentes e limitadores | 1 função de fecho;2 lados de parada/retencão a55° | Produto/oficina: códigos e número de batentes conforme desenho. Articulador pode reunir limitação/retenção somente se demonstrado; não duplicar compra |
+| Consumíveis, proteção e serviços | corte, usinagem, bordas, montagem, instrumentação e prova | Oficina: cotação separada, transporte e perdas. Quantidade/custo ainda em aberto |
 
-Hoje o orçamento tem **R$2.400–4.400** para quatro Southco. A diferença é de cerca de **R$2.070–4.270**, antes das adaptações e da mão de obra de montagem. As chapas de aço da solução Southco também deixam de ser necessárias.
+**Bloqueio comercial objetivo:** identificar produto D/E e obter preço da Mahler/Bigfer exatos, ou medir/qualificar amostras alternativas antes de transformar o subtotal em lista executiva. **Bloqueio de oficina:** suporte da piano, corte axial, ligações/terminais e plano de ensaio. Não depende das chaves.
 
-**Pendências técnicas, sem mudança:**
-- apoio fixo e rebaixo da piano na junta de 2 mm do encosto;
-- terminais do articulador a 22 e 30 mm abaixo das tampas;
-- ensaio com a tampa real.
-
-Recomendação: comprar 1 piano e 2 pares de articuladores para a **oficina fazer um protótipo** antes do executivo. Custo de cerca de R$150, o que remove a maior incerteza do banco.
-
-### Cesto P14
-
-| Item | Qtd. | Faixa |
-|---|---:|---:|
-| Pivôs Ômega OMPCR 10×20 (kit de 4) | 1 kit | R$84 |
-| Buchas e apoios metálicos dos pivôs | 2 | R$40–120 |
-| Articuladores com trava (limitador e retenção a 55°) | 1 par | R$23–72 |
-| Fecho e batentes | verba | R$20–60 |
-| **Total de peças** | | **R$167–336** |
-
-A provisão do orçamento é de R$600–1.500 para "mecanismo e armação". A armação entra na marcenaria. Pelos preços acima, a parte de ferragem cabe com folga. O esforço cheio (até cerca de 7 kgf na pega) **precisa ser ensaiado**.
-
-## Efeito na reconciliação de ferragens
-
-A [reconciliação de 24/10](../../../05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md) usava R$360–1.000 para o banco com piano e trava. Com preços reais de peças, a faixa cai para **R$130–334** (sem adaptações). O saldo das ferragens melhora em mais algumas centenas de reais, mas **só passa a contar depois do protótipo aprovado**.
-
-## Próximo passo
-
-Pedir à marcenaria escolhida que monte **um protótipo de cada mecanismo** com as peças acima, antes do executivo. Esse pedido já está coberto pelo pacote de cotação, que solicita a piano com trava no banco e pivôs com limitadores no cesto.
+As faixas antigas P20 R$130–334/P14 R$167–336 eram provisões de peças, sem adaptação nem prova. A indicação antiga de “protótipo de cerca de R$150” não cobre este conjunto. A diferença contra Southco não é economia obtida e não deve ser abatida dos R$46.500 de marcenaria; comparar escopo instalado quando cotado. Nenhum novo cálculo nominal foi executado.

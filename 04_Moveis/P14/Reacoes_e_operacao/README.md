@@ -1,5 +1,7 @@
 # Cesto P14 — reações dos pivôs, fixações e operação
 
+**Agenda 27/10, preparada em 26/10:** [kit de oficina](../../P20/Assento_fechado/Roteiro_banco_cesto.md) com desenho, corte axial a completar e formulário vazio. Compra definitiva/montagem dependem de produto, suporte/terminais e ligações; sem novo cálculo ou ensaio.
+
 **T04 — margens de engate, 26/10:** [sensibilidade conjunta](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026): 36 casos, 12 inversões conferidas. Engate hipotético de 290 mm com erro radial de 1 mm por terminal não é garantido até a parada existente; 291 mm não deixa reserva para variação. Dados reais da trava continuam pendentes. Não deslocar pontos ou ampliar abertura para absorver o erro; verificar produto e implantação antes dos furos.
 
 

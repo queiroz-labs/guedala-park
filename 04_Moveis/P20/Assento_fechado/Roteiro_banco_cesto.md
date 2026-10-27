@@ -32,3 +32,19 @@ P20: usar as [interfaces da tampa aberta](README.md) para conferir apoio da pian
 P14: executar a sequência de cinco etapas do [detalhamento de montagem](../../P14/Reacoes_e_operacao/README.md) e preencher os [oito registros](../../P14/Reacoes_e_operacao/Registro_montagem.csv). Antes de qualquer prova, fechar corte axial do pivô, retenção contra levantamento, corredor da AllenSW5 e terminais completos. A SW5 do pivô não substitui a SW4 curta do retalhoT0/P04.
 
 Oficina e produtos ainda indisponíveis: roteiro preparado, sem agendamento, compra, contato enviado ou resultado físico. As solicitações calculadas orientam a definição do conjunto; não prescrevem cargas de prova.
+
+## Kit de oficina — agenda 27/10, preparado em 26/10/2026
+
+[Desenho de montagem e corte axial a completar](Montagem_prototipo.svg) · [formulário vazio de ensaio](Registro_ensaio.csv) · [lista de compra e lacunas](../../Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md).
+
+**Etapa de preparação pronta; montagem completa e compra definitiva bloqueadas nos dados indicados.** Não existe ainda gabarito de furação: o desenho mostra o que medir e a sequência de montagem, sem inventar suporte ou fixador. Para amostras comerciais, pedir foto/código e cotas antes de aceitar equivalência. A oficina precisa orçar separadamente retalhos/painéis, suporte fixo da piano, terminais, buchas/apoios, retenção, fixadores, calços, batentes, saco e mão de obra. Instrumentos: balança, paquímetro, régua/nível, inclinômetro, instrumento de força e medição de deslocamento; registrar modelo/resolução. Instrumentos e pesos de prova não estão incluídos no subtotal das ferragens.
+
+### Portas de entrada do ensaio
+
+1. **Produto:** registrar código/lote, massa, dimensões e restrições do fabricante. Para Bigfer, exigir compressão no banco e tração no cesto, distância de engate, curso de liberação e mão D/E; o par genérico não herda os resultados Bigfer.
+2. **Oficina:** completar o corte do pivô com ombro útil 20, bucha, flange, arruelas, folga axial e alívio; dimensionar o engajamento M8 no apoio fixo. A conta 40,25 dentro de 52 não substitui esse corte. Apoio precisa reter levantamento. Construir seção do nó da piano com peça real e conferir os terminais −22/−30, sem rebaixar prateleiras para esconder conflito.
+3. **Responsável pelo ensaio:** preencher carga, posição, ciclos, velocidade, limites de força/flecha/residual, contenção e critério de interrupção ANTES da prova. Campos vazios impedem iniciar prova de carga; os 80/240 kg do banco e 8 kg do cesto continuam requisitos de estudo, não plano prescrito.
+4. **Montagem:** operar vazio com contenção, cada tampa separada e ambas, conferir duas almofadas, jarra/potes e destravamento; no cesto, retirar saco/armação e demonstrar manutenção sem retirar tanque. Se aparecer interferência, engate incerto, desprendimento, deformação crescente ou afrouxamento, interromper e registrar.
+5. **Prova:** executar apenas o plano preenchido; medir antes/durante/depois; registrar fotos e decisão do responsável. Desconhecidos permanecem vazios. Não preencher resultado por cálculo.
+
+Não depende das chaves: seleção/medição das ferragens e prova de oficina. Depende do imóvel: piso definitivo, superfícies acabadas, instalações e folgas reais. Nenhum ensaio, compra ou consulta enviada nesta preparação.

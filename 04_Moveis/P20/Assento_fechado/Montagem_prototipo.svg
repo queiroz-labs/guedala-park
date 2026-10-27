@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840">
+<rect width="1200" height="840" fill="#fff"/><style>text{font:17px sans-serif;fill:#24333d}.h{font:bold 24px sans-serif}.s{font:14px sans-serif}.wood{fill:#e4cfad;stroke:#4a4030;stroke-width:2}.line{stroke:#244f72;stroke-width:3;fill:none}.pending{stroke:#b26c23;stroke-width:2;stroke-dasharray:6 5;fill:none}</style>
+<text x="30" y="38" class="h">P20 / P14 — montagem do protótipo · agenda 27/10</text>
+<text x="30" y="64">Preparado em 26/10/2026 · esquema sem escala · mm · nenhum furo executivo definido</text>
+<text x="30" y="105" class="h">P20 · duas tampas independentes</text>
+<rect class="wood" x="35" y="135" width="285" height="120"/><rect class="wood" x="330" y="135" width="243" height="120"/>
+<path class="line" d="M35 135H320 M330 135H573"/>
+<text x="65" y="185">971 × 448 × 20</text><text x="360" y="185">825 × 448 × 20</text>
+<text x="40" y="218" class="s">1 par D/E por tampa, a conferir fisicamente</text>
+<text x="35" y="280">Azul: piano cortada 971 / 825, apoio fixo ligado ao corpo.</text>
+<path class="wood" d="M50 370H285V388H50Z M55 388V490H73V388Z M260 388V490H278V388Z"/>
+<path class="line" d="M50 370V315"/><circle cx="50" cy="370" r="6" fill="#244f72"/>
+<path class="pending" d="M105 440L235 410L225 395"/>
+<text x="305" y="335">Seção: eixo hipotético X100 / Z423,1</text>
+<text x="305" y="362">Face inferior Z400; superior Z420</text>
+<text x="305" y="389">Terminal móvel: −22 / −30 abaixo da tampa</text>
+<text x="305" y="416">Apoio / fixação / nó da piano: medir produto</text>
+<text x="305" y="443">90° nominal; trava 291 ideal, não curso real</text>
+<text x="35" y="520">Fechada: tampa → paredes/divisórias → apoios → piso.</text>
+<text x="35" y="546">Aberta: piano + terminais/trava; montar com apoio externo.</text>
+<text x="630" y="105" class="h">P14 · corte axial funcional do pivô</text>
+<text x="630" y="133">2 conjuntos espelhados · faixa lateral nominal 52</text>
+<rect x="640" y="190" width="24" height="68" fill="#aeb9c0" stroke="#244f72"/>
+<rect x="664" y="211" width="170" height="25" fill="#aeb9c0" stroke="#244f72"/>
+<rect x="698" y="198" width="95" height="51" class="pending"/>
+<rect x="834" y="211" width="100" height="25" fill="#aeb9c0" stroke="#244f72"/>
+<path class="pending" d="M834 175H940V270H834Z"/>
+<text x="630" y="300">Cabeça 7 | ombro Ø10 × 20 | rosca M8 × 13,25</text>
+<text x="630" y="328">Tracejado no ombro: bucha + parte girante + folga</text>
+<text x="630" y="355">Tracejado na rosca: apoio fixo / retenção a definir</text>
+<text x="630" y="382">GFM-1012-15 candidata: ajuste e flange pendentes</text>
+<text x="630" y="409">Não usar rosca para giro nem prensar parte móvel.</text>
+<text x="630" y="450">Corte a completar na oficina:</text>
+<text x="630" y="477">bucha ___; flange ___; arruelas ___; folga ___</text>
+<text x="630" y="504">rosca engajada ___; alívio ___; acesso SW5 ___</text>
+<text x="630" y="546">55° nominal; saco 400 × 200 × 400 removível.</text>
+<path d="M30 575H1170" stroke="#b6bfc5"/>
+<text x="30" y="611" class="h">Sequência e pontos de parada</text>
+<text x="30" y="643">1. Identificar e medir amostras: eixo, terminais, trava/liberação e pilha axial; sem furar painéis finais.</text>
+<text x="30" y="673">2. Oficina fecha suporte da piano, ligações e pivô retido contra levantamento; medir acesso de ferramenta.</text>
+<text x="30" y="703">3. Montar com contenção externa; testar vazio e retirada dos objetos/saco; preservar volumes úteis.</text>
+<text x="30" y="733">4. Responsável define cargas/ciclos/critérios antes de prova; registrar no formulário. Sem pessoas como carga.</text>
+<text x="30" y="778" class="s">Fontes: README P20/P14 e Interfaces_montagem.csv. Ângulos e distâncias são hipóteses existentes, não resultados físicos.</text>
+<text x="30" y="805" class="s">Desenho de preparação condicionado: suporte, terminais e fixadores sem produto completo; não é gabarito de furação.</text>
+</svg>

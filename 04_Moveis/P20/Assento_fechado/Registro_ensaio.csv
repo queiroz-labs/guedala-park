@@ -1,0 +1,13 @@
+id;data;responsavel;produto_lote;configuracao_foto;instrumento_resolucao;medicao_inicial;carga_planejada_kg;posicao_planejada;ciclos_planejados;criterio_limite;contencao_interrupcao;carga_aplicada_kg;posicao_real;ciclos_executados;angulo_graus;engate_mm;liberacao_mm;forca_N;deslocamento_mm;residual_mm;observacao;resultado;evidencia;estado
+BC01;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+BC02;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B01;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B02;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B03;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B04;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B05;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+B06;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+C01;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+C02;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+C03;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
+C04;;;;;;;;;;;;;;;;;;;;;;;;NAO_EXECUTADO
