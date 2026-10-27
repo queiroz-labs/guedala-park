@@ -37,7 +37,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 75% | Faltam códigos de chapa, tons exatos e luminárias |
+| Anteprojeto | 75% | T06: [complementos de iluminação](03_Ambientes/Iluminacao/README.md) identificados, cenário de pulsadores/placas +R$57,03; faltam SKU, ensaios, acessórios e levantamento, além dos acabamentos |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
