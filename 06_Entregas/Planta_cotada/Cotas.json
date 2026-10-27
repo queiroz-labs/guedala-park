@@ -15,7 +15,11 @@
         2950
       ],
       "scope": "Medidas da parte principal do quarto. A área recuada não está incluída.",
-      "match": "As medidas da planta correspondem à parte principal do desenho."
+      "match": "As medidas da planta correspondem à parte principal do desenho.",
+      "medidas_csv": [
+        "PR-COTA-QUARTO-0",
+        "PR-COTA-QUARTO-1"
+      ]
     },
     {
       "id": "escritorio",
@@ -26,7 +30,11 @@
         2950
       ],
       "scope": "Distância entre as paredes internas da parte principal.",
-      "match": "As medidas da planta correspondem ao desenho."
+      "match": "As medidas da planta correspondem ao desenho.",
+      "medidas_csv": [
+        "PR-COTA-ESCRITORIO-0",
+        "PR-COTA-ESCRITORIO-1"
+      ]
     },
     {
       "id": "sala",
@@ -36,7 +44,10 @@
         2450
       ],
       "scope": "Largura da sala. A medida de 5,15 m inclui sala e cozinha.",
-      "match": "Os 5,15 m incluem a sala e a cozinha."
+      "match": "Os 5,15 m incluem a sala e a cozinha.",
+      "medidas_csv": [
+        "PR-COTA-SALA-0"
+      ]
     },
     {
       "id": "sala cozinha",
@@ -46,7 +57,10 @@
         5150
       ],
       "scope": "Distância total entre a parede da sala e a parede da cozinha, pelo lado direito.",
-      "match": "No desenho, corresponde ao trecho de y185 a700 cm."
+      "match": "No desenho, corresponde ao trecho de y185 a700 cm.",
+      "medidas_csv": [
+        "PR-COTA-SALA-COZINHA-0"
+      ]
     },
     {
       "id": "banho",
@@ -57,7 +71,11 @@
         1240
       ],
       "scope": "Medidas internas do banheiro. Esta vista não mostra os equipamentos.",
-      "match": "As medidas da planta correspondem ao desenho."
+      "match": "As medidas da planta correspondem ao desenho.",
+      "medidas_csv": [
+        "PR-COTA-BANHO-0",
+        "PR-COTA-BANHO-1"
+      ]
     },
     {
       "id": "lavanderia",
@@ -68,7 +86,11 @@
         1540
       ],
       "scope": "Medidas internas indicadas na planta; o desenho foi compatibilizado com 1,54 m.",
-      "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento."
+      "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento.",
+      "medidas_csv": [
+        "PR-COTA-LAVANDERIA-0",
+        "PR-COTA-LAVANDERIA-1"
+      ]
     },
     {
       "id": "cozinha",
@@ -79,7 +101,11 @@
         1550
       ],
       "scope": "Medidas da faixa indicada na planta. Elas não confirmam uma parede entre cozinha e lavanderia.",
-      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes."
+      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes.",
+      "medidas_csv": [
+        "PR-COTA-COZINHA-0",
+        "PR-COTA-COZINHA-1"
+      ]
     },
     {
       "id": "circulacao",
@@ -90,7 +116,11 @@
         1050
       ],
       "scope": "0,90 m entre os acessos aos dormitórios e banheiro; 1,05 m do acesso ao quarto ao alinhamento lateral do banheiro. A ligação aberta com a sala aparece separada.",
-      "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial."
+      "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial.",
+      "medidas_csv": [
+        "PR-COTA-CIRCULACAO-0",
+        "PR-COTA-CIRCULACAO-1"
+      ]
     }
   ],
   "reconstructionSource": "ferramentas/site/src/app.js: floors/walls",
@@ -106,5 +136,1184 @@
     "bathroomEastWall": 16,
     "bathroomSouthWall": 17,
     "status": "Derivadas dos alinhamentos gráficos existentes e das cotas internas; não são cotas oficiais."
+  },
+  "pranchas": {
+    "schema": 1,
+    "units": "mm",
+    "frame": "eixos da planta do site; X crescente à direita, Y para baixo",
+    "ceiling": {
+      "quarto": "PD-QUA",
+      "cozinha": "PD-COZ",
+      "lavanderia": "PD-LAV",
+      "escritorio": "PD-ESC",
+      "banho": "PD-BAN",
+      "sala": "PD-SAL"
+    },
+    "mirror": "PR-EIXO-X",
+    "walls": [
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-00-X",
+          "PR-WALLS-00-Y",
+          "PR-WALLS-00-W",
+          "PR-WALLS-00-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-01-X",
+          "PR-WALLS-01-Y",
+          "PR-WALLS-01-W",
+          "PR-WALLS-01-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-02-X",
+          "PR-WALLS-02-Y",
+          "PR-WALLS-02-W",
+          "PR-WALLS-02-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-03-X",
+          "PR-WALLS-03-Y",
+          "PR-WALLS-03-W",
+          "PR-WALLS-03-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-04-X",
+          "PR-WALLS-04-Y",
+          "PR-WALLS-04-W",
+          "PR-WALLS-04-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-05-X",
+          "PR-WALLS-05-Y",
+          "PR-WALLS-05-W",
+          "PR-WALLS-05-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-06-X",
+          "PR-WALLS-06-Y",
+          "PR-WALLS-06-W",
+          "PR-WALLS-06-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-07-X",
+          "PR-WALLS-07-Y",
+          "PR-WALLS-07-W",
+          "PR-WALLS-07-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-08-X",
+          "PR-WALLS-08-Y",
+          "PR-WALLS-08-W",
+          "PR-WALLS-08-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-09-X",
+          "PR-WALLS-09-Y",
+          "PR-WALLS-09-W",
+          "PR-WALLS-09-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-WALLS-10-X",
+          "PR-WALLS-10-Y",
+          "PR-WALLS-10-W",
+          "PR-WALLS-10-D"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-WALLS-11-X",
+          "PR-WALLS-11-Y",
+          "PR-WALLS-11-W",
+          "PR-WALLS-11-D"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-WALLS-12-X",
+          "PR-WALLS-12-Y",
+          "PR-WALLS-12-W",
+          "PR-WALLS-12-D"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-WALLS-13-X",
+          "PR-WALLS-13-Y",
+          "PR-WALLS-13-W",
+          "PR-WALLS-13-D"
+        ]
+      },
+      {
+        "room": "cozinha",
+        "refs": [
+          "PR-WALLS-14-X",
+          "PR-WALLS-14-Y",
+          "PR-WALLS-14-W",
+          "PR-WALLS-14-D"
+        ]
+      },
+      {
+        "room": "cozinha",
+        "refs": [
+          "PR-WALLS-15-X",
+          "PR-WALLS-15-Y",
+          "PR-WALLS-15-W",
+          "PR-WALLS-15-D"
+        ]
+      },
+      {
+        "room": "lavanderia",
+        "refs": [
+          "PR-WALLS-16-X",
+          "PR-WALLS-16-Y",
+          "PR-WALLS-16-W",
+          "PR-WALLS-16-D"
+        ]
+      },
+      {
+        "room": "lavanderia",
+        "refs": [
+          "PR-WALLS-17-X",
+          "PR-WALLS-17-Y",
+          "PR-WALLS-17-W",
+          "PR-WALLS-17-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-18-X",
+          "PR-WALLS-18-Y",
+          "PR-WALLS-18-W",
+          "PR-WALLS-18-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-19-X",
+          "PR-WALLS-19-Y",
+          "PR-WALLS-19-W",
+          "PR-WALLS-19-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-20-X",
+          "PR-WALLS-20-Y",
+          "PR-WALLS-20-W",
+          "PR-WALLS-20-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-21-X",
+          "PR-WALLS-21-Y",
+          "PR-WALLS-21-W",
+          "PR-WALLS-21-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-22-X",
+          "PR-WALLS-22-Y",
+          "PR-WALLS-22-W",
+          "PR-WALLS-22-D"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-WALLS-23-X",
+          "PR-WALLS-23-Y",
+          "PR-WALLS-23-W",
+          "PR-WALLS-23-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-24-X",
+          "PR-WALLS-24-Y",
+          "PR-WALLS-24-W",
+          "PR-WALLS-24-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-WALLS-25-X",
+          "PR-WALLS-25-Y",
+          "PR-WALLS-25-W",
+          "PR-WALLS-25-D"
+        ]
+      }
+    ],
+    "floors": [
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-FLOORS-00-X",
+          "PR-FLOORS-00-Y",
+          "PR-COTA-QUARTO-0",
+          "PR-COTA-QUARTO-1"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-FLOORS-01-X",
+          "PR-FLOORS-01-Y",
+          "PR-FLOORS-01-W",
+          "PR-FLOORS-01-D"
+        ]
+      },
+      {
+        "room": "quarto",
+        "refs": [
+          "PR-FLOORS-02-X",
+          "PR-FLOORS-02-Y",
+          "PR-FLOORS-02-W",
+          "PR-FLOORS-02-D"
+        ]
+      },
+      {
+        "room": "escritorio",
+        "refs": [
+          "PR-FLOORS-03-X",
+          "PR-FLOORS-03-Y",
+          "PR-COTA-ESCRITORIO-0",
+          "PR-COTA-ESCRITORIO-1"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-FLOORS-04-X",
+          "PR-FLOORS-04-Y",
+          "PR-COTA-SALA-0",
+          "PR-FLOORS-04-D"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-FLOORS-05-X",
+          "PR-FLOORS-05-Y",
+          "PR-FLOORS-05-W",
+          "PR-FLOORS-05-D"
+        ]
+      },
+      {
+        "room": "sala",
+        "refs": [
+          "PR-FLOORS-06-X",
+          "PR-FLOORS-06-Y",
+          "PR-FLOORS-06-W",
+          "PR-FLOORS-06-D"
+        ]
+      },
+      {
+        "room": "circulacao",
+        "refs": [
+          "PR-FLOORS-07-X",
+          "PR-FLOORS-07-Y",
+          "PR-COTA-CIRCULACAO-0",
+          "PR-COTA-CIRCULACAO-1"
+        ]
+      },
+      {
+        "room": "cozinha",
+        "refs": [
+          "PR-FLOORS-08-X",
+          "PR-FLOORS-08-Y",
+          "PR-COTA-COZINHA-0",
+          "PR-COTA-COZINHA-1"
+        ]
+      },
+      {
+        "room": "cozinha",
+        "refs": [
+          "PR-FLOORS-09-X",
+          "PR-FLOORS-09-Y",
+          "PR-FLOORS-09-W",
+          "PR-FLOORS-09-D"
+        ]
+      },
+      {
+        "room": "lavanderia",
+        "refs": [
+          "PR-FLOORS-10-X",
+          "PR-FLOORS-10-Y",
+          "PR-COTA-LAVANDERIA-0",
+          "PR-COTA-LAVANDERIA-1"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-FLOORS-11-X",
+          "PR-FLOORS-11-Y",
+          "PR-COTA-BANHO-0",
+          "PR-COTA-BANHO-1"
+        ]
+      },
+      {
+        "room": "banho",
+        "refs": [
+          "PR-FLOORS-12-X",
+          "PR-FLOORS-12-Y",
+          "PR-FLOORS-12-W",
+          "PR-FLOORS-12-D"
+        ]
+      }
+    ],
+    "openings": [
+      {
+        "id": "janela-1",
+        "kind": "janela",
+        "room": "quarto",
+        "refs": [
+          "PR-JANELA-1-X",
+          "PR-JANELA-1-Y",
+          "PR-JANELA-1-W",
+          "PR-JANELA-1-D",
+          "PR-JANELA-1-Z",
+          "PR-JANELA-1-H"
+        ]
+      },
+      {
+        "id": "janela-2",
+        "kind": "janela",
+        "room": "escritorio",
+        "refs": [
+          "PR-JANELA-2-X",
+          "PR-JANELA-2-Y",
+          "PR-JANELA-2-W",
+          "PR-JANELA-2-D",
+          "PR-JANELA-2-Z",
+          "PR-JANELA-2-H"
+        ]
+      },
+      {
+        "id": "janela-3",
+        "kind": "janela",
+        "room": "sala",
+        "refs": [
+          "PR-JANELA-3-X",
+          "PR-JANELA-3-Y",
+          "PR-JANELA-3-W",
+          "PR-JANELA-3-D",
+          "PR-JANELA-3-Z",
+          "PR-JANELA-3-H"
+        ]
+      },
+      {
+        "id": "janela-4",
+        "kind": "janela",
+        "room": "lavanderia",
+        "refs": [
+          "PR-JANELA-4-X",
+          "PR-JANELA-4-Y",
+          "PR-JANELA-4-W",
+          "PR-JANELA-4-D",
+          "PR-JANELA-4-Z",
+          "PR-JANELA-4-H"
+        ]
+      },
+      {
+        "id": "janela-5",
+        "kind": "janela",
+        "room": "banho",
+        "refs": [
+          "PR-JANELA-5-X",
+          "PR-JANELA-5-Y",
+          "PR-JANELA-5-W",
+          "PR-JANELA-5-D",
+          "PR-JANELA-5-Z",
+          "PR-JANELA-5-H"
+        ]
+      },
+      {
+        "id": "porta-1",
+        "kind": "porta",
+        "room": "escritorio",
+        "refs": [
+          "PR-PORTA-1-X",
+          "PR-PORTA-1-Y",
+          "PR-PORTA-1-W",
+          "PR-PORTA-1-D",
+          "PR-PORTA-1-Z",
+          "PR-PORTA-1-H"
+        ]
+      },
+      {
+        "id": "porta-2",
+        "kind": "porta",
+        "room": "quarto",
+        "refs": [
+          "PR-PORTA-2-X",
+          "PR-PORTA-2-Y",
+          "PR-PORTA-2-W",
+          "PR-PORTA-2-D",
+          "PR-PORTA-2-Z",
+          "PR-PORTA-2-H"
+        ]
+      },
+      {
+        "id": "porta-3",
+        "kind": "porta",
+        "room": "banho",
+        "refs": [
+          "PR-PORTA-3-X",
+          "PR-PORTA-3-Y",
+          "PR-PORTA-3-W",
+          "PR-PORTA-3-D",
+          "PR-PORTA-3-Z",
+          "PR-PORTA-3-H"
+        ]
+      },
+      {
+        "id": "porta-4",
+        "kind": "porta",
+        "room": "cozinha",
+        "refs": [
+          "PR-PORTA-4-X",
+          "PR-PORTA-4-Y",
+          "PR-PORTA-4-W",
+          "PR-PORTA-4-D",
+          "PR-PORTA-4-Z",
+          "PR-PORTA-4-H"
+        ]
+      }
+    ],
+    "points": [
+      {
+        "id": "C01",
+        "type": "D",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C01-X",
+          "PR-PONTO-C01-Y",
+          "PR-PONTO-C01-Z"
+        ],
+        "ceiling": false,
+        "label": "Forno Fischer Infinity 28349-64929 · 127 V · 2061 W",
+        "status": "Exclusividade indicada no manual; circuito e implantação pelo RT"
+      },
+      {
+        "id": "C02",
+        "type": "G",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C02-X",
+          "PR-PONTO-C02-Y",
+          "PR-PONTO-C02-Z"
+        ],
+        "ceiling": false,
+        "label": "Gás GN do cooktop KE4GC",
+        "status": "GN confirmado; posição real a levantar"
+      },
+      {
+        "id": "C03",
+        "type": "T",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C03-X",
+          "PR-PONTO-C03-Y",
+          "PR-PONTO-C03-Z"
+        ],
+        "ceiling": false,
+        "label": "Ignição do cooktop",
+        "status": "A confirmar no manual"
+      },
+      {
+        "id": "C04",
+        "type": "T",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C04-X",
+          "PR-PONTO-C04-Y",
+          "PR-PONTO-C04-Z"
+        ],
+        "ceiling": false,
+        "label": "Depurador DE61IX · 127 V",
+        "status": "Aparelho escolhido"
+      },
+      {
+        "id": "C05",
+        "type": "AF",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C05-X",
+          "PR-PONTO-C05-Y",
+          "PR-PONTO-C05-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria da pia",
+        "status": "Existente; conferir posição"
+      },
+      {
+        "id": "C06",
+        "type": "AQ",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C06-X",
+          "PR-PONTO-C06-Y",
+          "PR-PONTO-C06-Z"
+        ],
+        "ceiling": false,
+        "label": "Água quente da pia",
+        "status": "Não confirmada no memorial"
+      },
+      {
+        "id": "C07",
+        "type": "E",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C07-X",
+          "PR-PONTO-C07-Y",
+          "PR-PONTO-C07-Z"
+        ],
+        "ceiling": false,
+        "label": "Esgoto da pia",
+        "status": "Existente; conferir posição"
+      },
+      {
+        "id": "C08",
+        "type": "T20",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C08-X",
+          "PR-PONTO-C08-Y",
+          "PR-PONTO-C08-Z"
+        ],
+        "ceiling": false,
+        "label": "Torre automática de tomadas 20 A na bancada (área seca)",
+        "status": "Posição a definir"
+      },
+      {
+        "id": "C09",
+        "type": "T",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C09-X",
+          "PR-PONTO-C09-Y",
+          "PR-PONTO-C09-Z"
+        ],
+        "ceiling": false,
+        "label": "Micro-ondas ME23P · 127 V",
+        "status": "Aparelho escolhido"
+      },
+      {
+        "id": "C10",
+        "type": "T",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C10-X",
+          "PR-PONTO-C10-Y",
+          "PR-PONTO-C10-Z"
+        ],
+        "ceiling": false,
+        "label": "Purificador PE11X bivolt, uso 127 V",
+        "status": "Aparelho escolhido"
+      },
+      {
+        "id": "C11",
+        "type": "AF",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C11-X",
+          "PR-PONTO-C11-Y",
+          "PR-PONTO-C11-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria do purificador",
+        "status": "Derivação a confirmar"
+      },
+      {
+        "id": "C12",
+        "type": "T",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C12-X",
+          "PR-PONTO-C12-Y",
+          "PR-PONTO-C12-Z"
+        ],
+        "ceiling": false,
+        "label": "Geladeira IB6S bivolt, uso 127 V",
+        "status": "Aparelho escolhido"
+      },
+      {
+        "id": "C13",
+        "type": "L",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C13-X",
+          "PR-PONTO-C13-Y",
+          "PR-PONTO-C13-Z"
+        ],
+        "ceiling": true,
+        "label": "Stella EVO STH21967/30, quadrado 3000 K",
+        "status": "Interruptor comum; posição com portas a conferir"
+      },
+      {
+        "id": "C14",
+        "type": "A",
+        "room": "cozinha",
+        "refs": [
+          "PR-PONTO-C14-X",
+          "PR-PONTO-C14-Y",
+          "PR-PONTO-C14-Z"
+        ],
+        "ceiling": false,
+        "label": "COB 3000K sob aéreos +Opus/Shelly/pulsador",
+        "status": "Grupo independente; acesso/manuais IL04–07 pendentes"
+      },
+      {
+        "id": "L01",
+        "type": "T",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L01-X",
+          "PR-PONTO-L01-Y",
+          "PR-PONTO-L01-Z"
+        ],
+        "ceiling": false,
+        "label": "Lavadora LG VC4 CV5012PC4 · 127 V",
+        "status": "Aparelho escolhido"
+      },
+      {
+        "id": "L02",
+        "type": "AF",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L02-X",
+          "PR-PONTO-L02-Y",
+          "PR-PONTO-L02-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria da lavadora",
+        "status": "Existente; conferir posição"
+      },
+      {
+        "id": "L03",
+        "type": "E",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L03-X",
+          "PR-PONTO-L03-Y",
+          "PR-PONTO-L03-Z"
+        ],
+        "ceiling": false,
+        "label": "Esgoto da lavadora",
+        "status": "Existente; conferir posição"
+      },
+      {
+        "id": "L04",
+        "type": "AF",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L04-X",
+          "PR-PONTO-L04-Y",
+          "PR-PONTO-L04-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria do tanque/Telca",
+        "status": "Telca requer quente/fria; ramal quente ausente, RT deve compatibilizar"
+      },
+      {
+        "id": "L05",
+        "type": "E",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L05-X",
+          "PR-PONTO-L05-Y",
+          "PR-PONTO-L05-Z"
+        ],
+        "ceiling": false,
+        "label": "Esgoto do tanque",
+        "status": "Conferir posição"
+      },
+      {
+        "id": "L06",
+        "type": "G",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L06-X",
+          "PR-PONTO-L06-Y",
+          "PR-PONTO-L06-Z"
+        ],
+        "ceiling": false,
+        "label": "Gás GN do aquecedor Rinnai E21",
+        "status": "Aparelho escolhido; instalação a projetar"
+      },
+      {
+        "id": "L07",
+        "type": "T",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L07-X",
+          "PR-PONTO-L07-Y",
+          "PR-PONTO-L07-Z"
+        ],
+        "ceiling": false,
+        "label": "Aquecedor E21 · alimentação elétrica",
+        "status": "Conferir no manual"
+      },
+      {
+        "id": "L08",
+        "type": "X",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L08-X",
+          "PR-PONTO-L08-Y",
+          "PR-PONTO-L08-Z"
+        ],
+        "ceiling": false,
+        "label": "Exaustão do aquecedor E21",
+        "status": "Duto e saída a projetar"
+      },
+      {
+        "id": "L09",
+        "type": "AQ",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L09-X",
+          "PR-PONTO-L09-Y",
+          "PR-PONTO-L09-Z"
+        ],
+        "ceiling": false,
+        "label": "Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar",
+        "status": "Percurso oculto em estudo"
+      },
+      {
+        "id": "L10",
+        "type": "T20",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L10-X",
+          "PR-PONTO-L10-Y",
+          "PR-PONTO-L10-Z"
+        ],
+        "ceiling": false,
+        "label": "Tomada fixa 20 A para air fryer e cafeteira",
+        "status": "Posição a definir"
+      },
+      {
+        "id": "L11",
+        "type": "L",
+        "room": "lavanderia",
+        "refs": [
+          "PR-PONTO-L11-X",
+          "PR-PONTO-L11-Y",
+          "PR-PONTO-L11-Z"
+        ],
+        "ceiling": true,
+        "label": "Firefly 9608 quadrado 3000 K",
+        "status": "Interruptor comum; testar sombra/varal ocupado"
+      },
+      {
+        "id": "B01",
+        "type": "AF",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B01-X",
+          "PR-PONTO-B01-Y",
+          "PR-PONTO-B01-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria do lavatório",
+        "status": "Existente; conferir"
+      },
+      {
+        "id": "B02",
+        "type": "AQ",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B02-X",
+          "PR-PONTO-B02-Y",
+          "PR-PONTO-B02-Z"
+        ],
+        "ceiling": false,
+        "label": "Água quente do lavatório",
+        "status": "Novo ramal; percurso em estudo"
+      },
+      {
+        "id": "B03",
+        "type": "E",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B03-X",
+          "PR-PONTO-B03-Y",
+          "PR-PONTO-B03-Z"
+        ],
+        "ceiling": false,
+        "label": "Esgoto do lavatório",
+        "status": "Existente; conferir"
+      },
+      {
+        "id": "B04",
+        "type": "AF",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B04-X",
+          "PR-PONTO-B04-Y",
+          "PR-PONTO-B04-Z"
+        ],
+        "ceiling": false,
+        "label": "Água fria do vaso",
+        "status": "Existente"
+      },
+      {
+        "id": "B05",
+        "type": "AF",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B05-X",
+          "PR-PONTO-B05-Y",
+          "PR-PONTO-B05-Z"
+        ],
+        "ceiling": false,
+        "label": "Ducha higiênica · fria",
+        "status": "Posição ilustrativa"
+      },
+      {
+        "id": "B06",
+        "type": "AQ",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B06-X",
+          "PR-PONTO-B06-Y",
+          "PR-PONTO-B06-Z"
+        ],
+        "ceiling": false,
+        "label": "Ducha higiênica · quente",
+        "status": "Novo ramal; E21 exige 3,9 L/min para ligar"
+      },
+      {
+        "id": "B07",
+        "type": "AQ",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B07-X",
+          "PR-PONTO-B07-Y",
+          "PR-PONTO-B07-Z"
+        ],
+        "ceiling": false,
+        "label": "Chuveiro / misturador Livo (quente e fria)",
+        "status": "Um código funcional; conferir ambas as alimentações, não só AQ"
+      },
+      {
+        "id": "B08",
+        "type": "E",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B08-X",
+          "PR-PONTO-B08-Y",
+          "PR-PONTO-B08-Z"
+        ],
+        "ceiling": false,
+        "label": "Ralo do box",
+        "status": "Existente"
+      },
+      {
+        "id": "B09",
+        "type": "A",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B09-X",
+          "PR-PONTO-B09-Y",
+          "PR-PONTO-B09-Z"
+        ],
+        "ceiling": false,
+        "label": "Espelho 4000 K: Cristallux COB 2x 550 mm /13,2 W",
+        "status": "L02: Opus OPS31002 e perfil MOV; posição/montagem a validar"
+      },
+      {
+        "id": "B10",
+        "type": "A",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B10-X",
+          "PR-PONTO-B10-Y",
+          "PR-PONTO-B10-Z"
+        ],
+        "ceiling": false,
+        "label": "Indireta 3000 K: Brilia 318939 até 2 m /9,6 W",
+        "status": "L02: Opus OPS31002, comando próprio; trecho real a medir"
+      },
+      {
+        "id": "B11",
+        "type": "L",
+        "room": "banho",
+        "refs": [
+          "PR-PONTO-B11-X",
+          "PR-PONTO-B11-Y",
+          "PR-PONTO-B11-Z"
+        ],
+        "ceiling": true,
+        "label": "Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44",
+        "status": "Selecionado L02; ponto e volumes a conferir"
+      },
+      {
+        "id": "S01",
+        "type": "T",
+        "room": "sala",
+        "refs": [
+          "PR-PONTO-S01-X",
+          "PR-PONTO-S01-Y",
+          "PR-PONTO-S01-Z"
+        ],
+        "ceiling": false,
+        "label": "Régua no compartimento ventilado: TV, PS5, soundbar",
+        "status": "Posição de estudo"
+      },
+      {
+        "id": "S02",
+        "type": "T",
+        "room": "sala",
+        "refs": [
+          "PR-PONTO-S02-X",
+          "PR-PONTO-S02-Y",
+          "PR-PONTO-S02-Z"
+        ],
+        "ceiling": false,
+        "label": "TV 50″ atrás do painel",
+        "status": "Altura a conferir"
+      },
+      {
+        "id": "S03",
+        "type": "L",
+        "room": "sala",
+        "refs": [
+          "PR-PONTO-S03-X",
+          "PR-PONTO-S03-Y",
+          "PR-PONTO-S03-Z"
+        ],
+        "ceiling": true,
+        "label": "Geral smart: Jurerê +2 WiZ +WiZmote, candidata",
+        "status": "IL02/03 pendentes; D03-B mantém sala/escritório"
+      },
+      {
+        "id": "S04",
+        "type": "L",
+        "room": "sala",
+        "refs": [
+          "PR-PONTO-S04-X",
+          "PR-PONTO-S04-Y",
+          "PR-PONTO-S04-Z"
+        ],
+        "ceiling": true,
+        "label": "Jabuticaba triplo +3Brilia 314450 +D1/RM433",
+        "status": "Vidro âmbar e dimerização a confirmar, grupo próprio"
+      },
+      {
+        "id": "E01",
+        "type": "T",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E01-X",
+          "PR-PONTO-E01-Y",
+          "PR-PONTO-E01-Z"
+        ],
+        "ceiling": false,
+        "label": "Bancada · notebook",
+        "status": "Quantidade a definir"
+      },
+      {
+        "id": "E02",
+        "type": "T",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E02-X",
+          "PR-PONTO-E02-Y",
+          "PR-PONTO-E02-Z"
+        ],
+        "ceiling": false,
+        "label": "Bancada · PC CH360, monitores",
+        "status": "Quantidade a definir"
+      },
+      {
+        "id": "E03",
+        "type": "T",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E03-X",
+          "PR-PONTO-E03-Y",
+          "PR-PONTO-E03-Z"
+        ],
+        "ceiling": false,
+        "label": "TV 43″ existente",
+        "status": "Conferir"
+      },
+      {
+        "id": "E04",
+        "type": "L",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E04-X",
+          "PR-PONTO-E04-Y",
+          "PR-PONTO-E04-Z"
+        ],
+        "ceiling": true,
+        "label": "Geral smart: Jurerê +2 WiZ +WiZmote, candidata",
+        "status": "IL02/03 pendentes; D03-B mantém sala/escritório"
+      },
+      {
+        "id": "Q01",
+        "type": "A",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q01-X",
+          "PR-PONTO-Q01-Y",
+          "PR-PONTO-Q01-Z"
+        ],
+        "ceiling": false,
+        "label": "Nordecor EVY2054 branca · lado 1",
+        "status": "Comando independente"
+      },
+      {
+        "id": "Q02",
+        "type": "A",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q02-X",
+          "PR-PONTO-Q02-Y",
+          "PR-PONTO-Q02-Z"
+        ],
+        "ceiling": false,
+        "label": "Nordecor EVY2054 branca · lado 2",
+        "status": "Comando independente"
+      },
+      {
+        "id": "Q03",
+        "type": "T",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q03-X",
+          "PR-PONTO-Q03-Y",
+          "PR-PONTO-Q03-Z"
+        ],
+        "ceiling": false,
+        "label": "Tomada de cabeceira · lado 1",
+        "status": "Conferir"
+      },
+      {
+        "id": "Q04",
+        "type": "T",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q04-X",
+          "PR-PONTO-Q04-Y",
+          "PR-PONTO-Q04-Z"
+        ],
+        "ceiling": false,
+        "label": "Tomada de cabeceira · lado 2",
+        "status": "Conferir"
+      },
+      {
+        "id": "Q05",
+        "type": "L",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q05-X",
+          "PR-PONTO-Q05-Y",
+          "PR-PONTO-Q05-Z"
+        ],
+        "ceiling": true,
+        "label": "Geral smart Elgin 48D18WSRWIFI: brilho, Alexa/celular",
+        "status": "D03-B Elias 27/10; manual/comando físico IL09 pendentes"
+      },
+      {
+        "id": "Q06",
+        "type": "A",
+        "room": "quarto",
+        "refs": [
+          "PR-PONTO-Q06-X",
+          "PR-PONTO-Q06-Y",
+          "PR-PONTO-Q06-Z"
+        ],
+        "ceiling": false,
+        "label": "Cabeceira/face inferior: COB 3000K +Opus/Shelly",
+        "status": "D04-A Elias 27/10; posição/acesso/pulsador a compatibilizar"
+      },
+      {
+        "id": "S05",
+        "type": "A",
+        "room": "sala",
+        "refs": [
+          "PR-PONTO-S05-X",
+          "PR-PONTO-S05-Y",
+          "PR-PONTO-S05-Z"
+        ],
+        "ceiling": false,
+        "label": "TV sala: COB3000K +Opus/Shelly/pulsador",
+        "status": "Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01"
+      },
+      {
+        "id": "E05",
+        "type": "A",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E05-X",
+          "PR-PONTO-E05-Y",
+          "PR-PONTO-E05-Z"
+        ],
+        "ceiling": false,
+        "label": "TV escritório: kit WiZ2m e WiZmote próprio",
+        "status": "Novo grupo; posição/cortes/manuais IL08 pendentes"
+      },
+      {
+        "id": "E06",
+        "type": "A",
+        "room": "escritorio",
+        "refs": [
+          "PR-PONTO-E06-X",
+          "PR-PONTO-E06-Y",
+          "PR-PONTO-E06-Z"
+        ],
+        "ceiling": false,
+        "label": "E06 ADIADO: prateleiras escritório, fase futura",
+        "status": "D06-B Elias, 27/10/2026; fora da cotação atual; manter E05/TV"
+      }
+    ]
   }
 }

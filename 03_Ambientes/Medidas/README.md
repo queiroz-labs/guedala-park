@@ -14,3 +14,7 @@ A base é a planta oficial, complementada por imagens de outra unidade espelhada
 | Pesquisa comparativa Cury | Pesquisa de 12/09/2026: planta oficial adicional, finais equivalentes e comparações com outros empreendimentos; pé-direito permanece pendente. |
 
 Consultar estudos anteriores. Os estudos não liberam fabricação ou instalação.
+
+## Fonte das pranchas R02
+
+O CSV [Medidas e impactos](../../07_Imovel/Medidas_e_impactos.csv) concentra as entradas de campo e nominais das pranchas: pé-direito PD por ambiente, contornos PR, vãos/peitoris e posições dos 53 pontos R01. `valor_medido` preenchido vence `valor_nominal_atual`; usar número com unidade (mm, cm ou m). Coordenadas e aberturas reconstituídas são nominais, não levantamento. Cotas.json contém os vínculos; Geometria.json registra os envelopes e SHA da R53.

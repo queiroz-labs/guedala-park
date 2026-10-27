@@ -1,0 +1,7 @@
+# Gerador de pranchas
+
+Fonte de campo: `07_Imovel/Medidas_e_impactos.csv`. Topologia e vínculos: `06_Entregas/Planta_cotada/Cotas.json`. O campo `valor_medido` vence o nominal; números exigem unidade. Vazio significa pendência, nunca zero.
+
+`exportar.py` abre o FCStd oculto, lê envelopes globais e fecha sem salvar ou recalcular. Exportação em `06_Entregas/Caderno_pranchas/Geometria.json`, com SHA256. Grupos agregados não duplicam as peças. A montagem BC43 integra P18. O comando de exportação é separado da regeneração de desenhos: atualizar uma medida não abre o CAD.
+
+As coordenadas R53 são espelhadas em X em relação à planta do site; a referência de conversão está no CSV. A geometria exportada é nominal e não substitui medidas de campo. As caixas são envelopes, não desenhos de usinagem ou perfis exatos das ferragens.

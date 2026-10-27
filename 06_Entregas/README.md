@@ -91,3 +91,7 @@ Busca nos Markdown de entrada e referências cruzadas em 26/10/2026: encaminhame
 A conferência T09 acima verificou o ZIP remoto R23 e o ZIP local histórico R20; vistas antigas continuam pendentes. Revisões de estudos antigos permanecem nas fontes; dúvidas acima não foram resolvidas por simples troca de rótulo.
 
 Fechamento da cotação: 20 pedidos individuais conferidos visualmente e sem transbordamento; ZIP R15 com CRC e 94 arquivos do manifesto idênticos aos originais. Sem envio, push ou alteração de FCStd.
+
+## Pranchas formais R02 — fontes
+
+Preparação do caderno paramétrico: CSV de medidas com precedência do campo medido, topologia em Cotas.json e exportação de envelopes R53 com SHA em Caderno_pranchas/Geometria.json. O R00 permanece preservado; geração R02 em implantação. [Ferramentas](../ferramentas/pranchas/README.md).
