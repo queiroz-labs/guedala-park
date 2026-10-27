@@ -1,6 +1,22 @@
 # Modelo 3D (FreeCAD)
 
-Modelo vigente: **R52**, [Guedala_Park_R52_Corrigido.FCStd](Guedala_Park_R52_Corrigido.FCStd) (19,8 MB, 5.832 objetos, 7.702 expressões, 1.487 formas nativas). SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
+Modelo vigente: **R53**, [Guedala_Park_R53_Decisoes.FCStd](Guedala_Park_R53_Decisoes.FCStd). Base R52 preservada no Git; propriedades e geometria verificadas no relatório abaixo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
+
+## Decisões incorporadas na R53 — 27/10/2026
+
+Fonte: Elias,27/10/2026: “Aplicar à R52 e às fichas as decisões já tomadas” e “crie um R53”, nesta conversa. Escopo desta revisão: P02 U1–U4=A, P13 F13=A, TV R44=A e lixeiras LIX=A.
+
+- P02: requisito10kg de conteúdo leve ocasional, organização por zonas e preservação de vãos/aparência registrados; sem reforço ou capacidade demonstrada.
+- P13/Peca350: Arenza liso nas duas faces,18mm; cor de referência já existente preservada, especificação documental nas fichas R15.
+- TV: mantida nesta etapa, sem alteração geométrica ou compra.
+- Lixeiras: três peças Biovis com LocalX+70mm e três Loop com LocalY+60mm. Expressões do controle de manutenção preservadas. Posições nominais, sem prova física de passagem, tampa/pedal ou destino temporário.
+- Links das20 fichas corrigidos para a pasta vigente, com revisão R15 identificada no CAD.
+
+[Alterações por objeto](Alteracoes_R53.json) · [verificação e diferenças](Relatorio_mudanca.md). Gravação pela GUI, sem modificar paleta, espessuras, portas, ferragens ou demais estudos condicionados. Armários até o teto e alternativas P03/gavetas continuam separados; esta revisão não inventa detalhes faltantes.
+
+**Verificação completa R53:** 5.832 objetos,7.702 expressões,106 cenários; zero peças inválidas e nenhuma colisão nova. Diferenças: seis posições das lixeiras e duas formas agregadas, sem alteração de aparência. Base atualizada somente após comparação, sob o pedido expresso acima.
+
+As seções R52 abaixo são evidência histórica da base, não nova inspeção declarada da R53.
 
 ## Triagem das formas inválidas — 25/10/2026
 

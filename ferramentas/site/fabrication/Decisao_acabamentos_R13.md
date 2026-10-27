@@ -31,3 +31,5 @@ Para espelheiros, o espelho é peça aplicada distinta do painel-baseBrancoTX de
 Permanecem definições técnicas: fabricante/código dos padrões; substrato/classe; identificação das peças e eventuais conjuntos18+15; fitas, selagem, usinagem, cola, fixações, folgas e veios. Nenhuma espessura de fita ou furação executiva foi liberada.
 
 A decisão não libera fabricação e não aprova a geometria de peças rotuladas proposta/reserva. As referências de aparência são registradas na ficha; o CAD permanece sem recoloração automática.
+
+**Complemento27/10/2026 — F13=A:** Elias respondeu “a” nesta conversa: P13/Peca350 em Greenplac Arenza liso nas duas faces,18mm preservados. Auditoria agora249 peças; ficha R15 e R53 incorporam a escolha. Código/substrato, bordas, veios e corte pendentes.

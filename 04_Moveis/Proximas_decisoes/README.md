@@ -1,6 +1,6 @@
 # Pendências e avanços depois da R52
 
-25/10/2026. Trabalho realizado sem medidas reais do apartamento. **A R52 permanece intacta**; os cálculos e a alternativa do micro ficam separados. As fichas receberam a correção textual da composiçãoP20. A publicação corrente é R52/R23, conforme Estado atual; o pacote R17 é registro histórico selado. Esta revisão documental não publica nada. [Estado do envio e conferência remota](../../ESTADO_ATUAL.md).
+25/10/2026. Trabalho realizado sem medidas reais do apartamento. **R52 é a base histórica; R53 incorpora as decisões27/10 de uso P02, acabamento P13, TV e lixeiras**; os cálculos e a alternativa do micro ficam separados. As fichas receberam a correção textual da composiçãoP20. A publicação corrente é R52/R23, conforme Estado atual; o pacote R17 é registro histórico selado. R53/R24 e fichas R15 são locais, sem nova publicação. [Estado do envio e conferência remota](../../ESTADO_ATUAL.md).
 
 ## O que avançou agora
 

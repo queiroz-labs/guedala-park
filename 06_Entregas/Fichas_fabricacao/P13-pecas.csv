@@ -1,2 +1,2 @@
 ﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
-Peca350;Prateleira de apoio · topo 1550;1;697.0;470.0;18.0;Greenplac Arenza (referência CAD);Ver regra de acabamento da ficha;Retangular;"Detalhamento técnico por ID; não descontado do envelope";Falta indicar o acabamento de cada lado da peça.
+Peca350;Prateleira de apoio · topo 1550;1;697.0;470.0;18.0;Greenplac Arenza (referência CAD);Greenplac Arenza liso — duas faces da mesma chapa;Retangular;"Detalhamento técnico por ID; não descontado do envelope";Codigo/substrato18, bordas e veios a especificar. Escolha das duas faces encerrada.

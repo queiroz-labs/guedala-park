@@ -11,7 +11,7 @@
 | U3=A | Objetos mais pesados na região apoiada; ponta do retorno para volumes leves | Projeto deve identificar as zonas de organização; a restrição não elimina juntas e ensaio |
 | U4=A | Preservar vãos e aparência; rever carga/organização antes de mudar o móvel | Se o requisito não for demonstrado, apresentar a revisão de uso para nova decisão, sem reduzir a carga automaticamente |
 
-**Pendência técnica:** demonstrar o conjunto para esse uso com produto/material, rigidez, juntas C01, apoios e ensaio. Não repetir varreduras sem dados físicos novos. Nenhuma alteração no CAD, capacidade de uso ou reforço decorre desta resposta. Os estudos antigos com 20 kg permanecem como evidência histórica, não como requisito vigente. As duas malas de 10 kg pertencem ao P03 e não transferem carga automaticamente ao P02.
+**Pendência técnica:** demonstrar o conjunto para esse uso com produto/material, rigidez, juntas C01, apoios e ensaio. Não repetir varreduras sem dados físicos novos. R53 registra estes requisitos sem mudança da geometria P02, reforço ou capacidade demonstrada. Os estudos antigos com 20 kg permanecem como evidência histórica, não como requisito vigente. As duas malas de 10 kg pertencem ao P03 e não transferem carga automaticamente ao P02.
 
 **O que não cabe a Elias dimensionar:** tipo/quantidade de fixador, rigidez C01, apoio ao piso, ensaio da chapa e corte do fundo P01. Projeto/oficina precisam apresentar produto, montagem e resultado; usuário decide uso e concessões. Não reabrir as duas portas independentes e a quina fixa do P02 nem a preferência A do P03 já registrada. No P01, permanecem fundo inteiro/fornecimento, juntas, soco e nivelamento; no P03, deformação e ferragens. [Bloqueios técnicos vigentes](../../P03/README.md).
 

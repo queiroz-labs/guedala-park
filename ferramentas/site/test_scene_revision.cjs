@@ -51,8 +51,8 @@ assert(shell.includes('110 × 80')&&shell.includes('170 × 80'));assert.equal(sc
 assert(run("ITEMS.find(n=>n.id==='coffeemaker').notes.includes('não reserva')"));
 assert.equal(run("diningClearance({table:'compact',dining:'stored'}).tableToFridge"),95.25);
 assert.equal(run("diningClearance({table:'extended',dining:'stored'}).tableToFridge"),65.25);
-assert.equal(run('PROJECT.revision'),'Consulta de marcenaria · FreeCAD R52 · iluminação CB02');assert.equal(run('PROJECT.date'),'26 outubro 2026');assert.match(run('CAD_DATA.current_source_sha256'),/^[a-f0-9]{64}$/);
-console.log(JSON.stringify({revision:'R52',sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
+assert.equal(run('PROJECT.revision'),'Consulta de marcenaria · FreeCAD R53 · iluminação CB02');assert.equal(run('PROJECT.date'),'27 outubro 2026');assert.match(run('CAD_DATA.current_source_sha256'),/^[a-f0-9]{64}$/);
+console.log(JSON.stringify({revision:'R53',sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
 // Height study is separate from confirmed site measurements and furniture geometry.
 assert.equal(run('PROJECT.ceiling'),260);
 assert.equal(run('PROJECT.officeCeilingStudy'),247);
@@ -63,3 +63,8 @@ const tallWalls=scene({walls:true}).filter(n=>n.kind==='wall'&&n.y===0);
 assert(tallWalls.some(n=>n.room==='escritorio'));
 for(const n of tallWalls)assert.equal(n.h,n.room==='escritorio'?247:260);
 console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:247,measured:false,manufacturing:false}));
+
+// LIX=A: all bodies/lids/pedals move together; units in centimetres.
+const bins=scene({});
+assert.deepEqual(bins.filter(n=>n.id==='trash').map(n=>n.x),[481,481,512]);
+assert.deepEqual(bins.filter(n=>n.id==='recycling').map(n=>n.z),[547,547,574]);

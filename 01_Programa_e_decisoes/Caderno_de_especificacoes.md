@@ -1,6 +1,6 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-26 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R52). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
+Gerado em 2026-10-27 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R53). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 

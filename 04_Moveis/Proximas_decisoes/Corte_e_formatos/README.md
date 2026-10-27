@@ -2,7 +2,7 @@
 
 **Regra vigente 25/10 aplicada aos agrupamentos:** um padrão por chapa física, igual nas duas faces. Duas peças separadas 18+15 podem ter cores distintas, com IDs/constituição definidos; nenhuma segunda chapa foi acrescentada. Os CSV/JSON e 16 desenhos vigentes foram reemitidos com a [regra por peça](../../../ferramentas/site/fabrication/Decisao_acabamentos_R13.md). São arranjos geométricos virtuais, não compra/corte aprovados.
 
-**Base reconciliada:**249 painéis das fichas, 248 na auditoria de acabamentos; o apoio P13/Peca350 não tem entrada nessa auditoria e permanece excluído até identificar produto18/bordas e atualizar a auditoria; padrão Arenza liso definido em27/10. 215 painéis entram no ensaio, 34 continuam com bloqueio identificado. Dimensões/IDs dos 249 e área 59,262776 m² preservados; CAD/fichas/orçamento não alterados. As 36 peças de sete propostas continuam separadas. [Conferência por ID e fontes](Reconciliacao_acabamentos.json).
+**Base reconciliada:**249 painéis das fichas; a auditoria de acabamentos agora inclui P13/Peca350 em Arenza liso nas duas faces (Elias27/10/2026, F13=A). O arranjo virtual anterior mantém a peça excluída até produto18/bordas e reconciliação de corte. 215 painéis entram no ensaio, 34 continuam com bloqueio identificado. Dimensões/IDs dos 249 e área 59,262776 m² preservados; CAD/fichas/orçamento não alterados. As 36 peças de sete propostas continuam separadas. [Conferência por ID e fontes](Reconciliacao_acabamentos.json).
 
 ## P13 / Peca350 — Arenza liso nas duas faces
 
@@ -10,9 +10,9 @@
 
 Prateleira **697×470×18mm**, área de envelope0,327590m², topo nominal1550. [Ficha por ID](../../../06_Entregas/Fichas_fabricacao/P13-pecas.csv). Referência de produto: Greenplac Arenza liso; código/substrato18, bordas e preço ainda precisam de fornecedor/amostra. Não presumir aproveitamento de sobra da chapa virtual.
 
-A mesma chapa terá Arenza liso nas duas faces; não acrescentar interna15 automaticamente. Fornecedor identifica produto18 e bordas; projeto inclui Peca350 na auditoria por ID e reconcilia o grupo de corte. Até isso ocorrer, os dados gerados mantêm a peça entre os34 excluídos; a justificativa antiga de acabamento indefinido está superada por esta decisão, sem equivaler a compra ou corte autorizado.
+A mesma chapa terá Arenza liso nas duas faces; não acrescentar interna15 automaticamente. Fornecedor identifica produto18 e bordas; Peca350 já está na auditoria por ID e nas fichas R15; projeto ainda deve reconciliar o grupo de corte. Até isso ocorrer, os dados gerados mantêm a peça entre os34 excluídos; a justificativa antiga de acabamento indefinido está superada por esta decisão, sem equivaler a compra ou corte autorizado.
 
-A escolha estética não resolve suporte/juntas nem a divergência100mm desejados versus300mm do manual do micro; esses bloqueios permanecem em [instalação](../Instalacao_e_P16/README.md). CAD, fichas e arranjos de corte não foram alterados nesta decisão.
+A escolha estética não resolve suporte/juntas nem a divergência100mm desejados versus300mm do manual do micro; esses bloqueios permanecem em [instalação](../Instalacao_e_P16/README.md). R53 e fichas R15 incorporam o acabamento. Os arranjos virtuais e sua memória de exclusão permanecem históricos até a reconciliação; não geram pedido de compra.
 
 ## O que cabe nos formatos examinados
 

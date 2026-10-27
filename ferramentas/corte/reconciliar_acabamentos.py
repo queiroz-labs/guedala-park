@@ -20,7 +20,7 @@ def load(name,file):
 def main():
     gen=load('corte_base',OUT/'analisar.py')
     with AUDIT.open(encoding='utf-8-sig',newline='') as f:audits=list(csv.DictReader(f,delimiter=';'))
-    assert len(audits)==len({r['id'] for r in audits})==248
+    assert len(audits)==len({r['id'] for r in audits})==249
     audit={r['id']:r for r in audits}
     old=read(OUT/'Lista_base_249.json');old_ids={r['id']:r for r in old}
     current=gen.load_base();current_ids={r['id']:r for r in current}
@@ -31,12 +31,12 @@ def main():
             a=audit[name];assert a['face_1']==a['face_2'],name
             if a['situacao']!='whole_piece_finish_pending':
                 assert p['specification'].startswith(a['padrao_atual']),name
-    missing=sorted(current_ids.keys()-audit.keys());assert missing==['Peca350']
+    missing=sorted(current_ids.keys()-audit.keys());assert missing==[]
     assert all(current_ids[i]['packing_blockers'] for i in missing)
     # As superficies ainda sem escolha nao se tornam outra cor/segunda chapa.
     params_before=sha(OUT/'Parametros.json')
     fixed_sources=[*gen.input_paths(),AUDIT,RULE,ROOT/'04_Moveis/Acabamentos_por_peca.json',
-                   ROOT/'02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd']
+                   ROOT/read(ROOT/'ferramentas/site/current_release.json')['cadPath']]
     source_hashes={p.relative_to(ROOT).as_posix():sha(p) for p in fixed_sources}
     # Somente arquivos SVG comprovadamente produzidos pelo gerador legado.
     prior_svg={p.name:p for p in (OUT/'Planos_svg').glob('*.svg')}
@@ -67,7 +67,7 @@ def main():
                   current_specification=p['specification']) for p in current if p['id'] in audit and audit[p['id']]['especificacao_anterior']!=p['specification']]
     for name in expected:ET.parse(OUT/'Planos_svg'/name)
     report=dict(date='2026-10-25',rule=RULE.relative_to(ROOT).as_posix(),base_panels=249,
-        audited_panels=248,not_in_finish_audit_ids=missing,all_missing_excluded_from_packing=True,
+        audited_panels=len(audits),not_in_finish_audit_ids=missing,all_missing_excluded_from_packing=True,
         current_opposite_finish_pairs=sum(r['face_1']!=r['face_2'] for r in audits),
         finish_pending_in_audit=[r['id'] for r in audits if r['situacao']=='whole_piece_finish_pending'],
         geometry_249_unchanged=True,original_sources_unchanged=True,proposals_adopted=0,purchase_ready=False,
@@ -77,7 +77,7 @@ def main():
         reconciled_against_finish_audit=changes,previous_mixed_finish_panel_count=sum(r['cores_opostas_antes']=='sim' for r in audits),notice_svg_paths=notices,current_svg_paths=sorted(expected),
         source_sha256=source_hashes,generator_sha256=sha(Path(__file__)),
         limits=['Formatos e rotacao sao virtuais;nenhum estoque/substrato/veio/fita/processo confirmado.',
-                '11 acabamentos pendentes na auditoria maisP13 sem entrada;nao escolher padrao ou inserir segunda chapa.',
+                '11 acabamentos pendentes na auditoria;P13 com F13=A registrado;nao escolher padrao ou inserir segunda chapa.',
                 '34 exclusoes do ensaio nao equivalem a34 cores por escolher:incluem referencia,espessura e espelho separado.',
                 'Planos nao incluem os kits de propostaP03/C01/soco nem contam as alternativas como adotadas.',
                 'Avisos nos caminhos antigos nao sao chapas adicionais nem planos atuais.'])
@@ -86,6 +86,6 @@ def main():
     import sys
     sys.path.insert(0,str(OUT));verifier=load('conferencia_corte',OUT/'verificar.py')
     with contextlib.redirect_stdout(io.StringIO()):verifier.main()
-    print(json.dumps(dict(reconciled=249,audit=248,missing=missing,included=scenarios[0]['included_panels'],excluded=len(scenarios[0]['excluded_ids']),virtual_sheets=scenarios[0]['virtual_sheets'],same_finish_both_faces=True,sources_preserved=True),ensure_ascii=False))
+    print(json.dumps(dict(reconciled=249,audit=len(audits),missing=missing,included=scenarios[0]['included_panels'],excluded=len(scenarios[0]['excluded_ids']),virtual_sheets=scenarios[0]['virtual_sheets'],same_finish_both_faces=True,sources_preserved=True),ensure_ascii=False))
 
 if __name__=='__main__':main()

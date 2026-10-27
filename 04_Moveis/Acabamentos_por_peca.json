@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "rule": "Cada chapa fisica tem um acabamento igual nas duas faces. Duas pecas distintas podem combinar externa18 no padrao do projeto e interna15 BrancoTX; identificar ambas e conferir33mm,vaos,ligacoes e cargas. Nao presumir caixa dupla nem acrescentar15 automaticamente. P03 atual:pecas unicas18,sem caixa interna15 continua. Espelho/estofado sao pecas separadas.",
   "source": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
-  "panels_audited": 248,
+  "panels_audited": 249,
   "previous_opposite_finish_wood_panels": 88,
   "affected_modules": 19,
   "previous_mixed_by_module": {
@@ -43,5 +43,22 @@
   "p03_all_same_finish": true,
   "current_opposite_finish_pairs": 0,
   "mechanical_revision_preserved": true,
-  "inventory_csv": "04_Moveis/Acabamentos_por_peca.csv"
+  "inventory_csv": "04_Moveis/Acabamentos_por_peca.csv",
+  "integration_R53": {
+    "date": "2026-10-27",
+    "source": "Elias nesta conversa: F13=A, resposta a",
+    "added": {
+      "id": "Peca350",
+      "module": "P13",
+      "movel": "Apoio do micro",
+      "peca": "Prateleira de apoio - topo1550",
+      "especificacao_anterior": "Referencia CAD Arenza; escolha pendente",
+      "cores_opostas_antes": "nao",
+      "padrao_atual": "Greenplac Arenza liso",
+      "face_1": "Greenplac Arenza liso",
+      "face_2": "Greenplac Arenza liso",
+      "espelho_aplicado": "nao",
+      "situacao": "whole_piece_same_finish"
+    }
+  }
 }

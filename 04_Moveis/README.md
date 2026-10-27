@@ -53,3 +53,5 @@ Cada chapa física tem um padrão igual nas duas faces. Duas peças separadas po
 
 **Aplicação ainda pendente no CAD e nas fichas.** Compatibilizar o encontro ao teto por ambiente, as portas e os acessos de montagem antes de incorporar. Não estender esta diretriz ao espelheiro do banheiro ou a outro móvel que não tenha sido previsto até o teto. Os estudos de suspensão abaixo mantêm as geometrias e massas anteriores; não comprovam caixas aumentadas. A confirmação de 18 mm preserva a premissa de espessura das ligações, não demonstra sua capacidade. Seguir as pendências existentes de ferragens/oficina, sem refinar novamente os estudos nominais.
 
+
+R53/fichas R15,27/10: P02 registra U1–U4=A; P13/Peca350 incluída na auditoria (249 peças), Arenza liso nas duas faces, por F13=A de Elias27/10. Produto18/bordas e corte permanecem pendentes; estudos resistentes não incorporados.

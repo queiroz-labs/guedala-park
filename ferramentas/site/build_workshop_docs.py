@@ -65,8 +65,8 @@ doc('cad-purangi','FreeCAD: sensibilidade Purangi','FreeCAD','banho','Estudo sep
 doc('executivo','Pranchas executivas e plano de corte','Executivo','all','Pendente','Faltam cotas de campo, furação, fitas de borda, folgas, ligações e liberação por peça.',None)
 doc('planta','Planta oficial do apartamento','Arquitetura','all','Documento de origem','Referência de planta; não substitui levantamento acabado.','09_Referencias/Plantas_e_manuais/Planta_oficial.pdf')
 doc('pisos','Pisos e rodapés','Arquitetura','all','Escolhas e estudos','Acabamentos, interfaces e condições de instalação. Conferir revisão e quantitativos nas fontes.','01_Programa_e_decisoes/Pisos_e_rodapes.md')
-doc('luz-quarto','Iluminação do quarto','Iluminação','quarto','Três níveis escolhidos','Brilho pelo interruptor comum; proposta Jurerê + duas SceneSwitch por cerca de R$110. Peças e instalação a conferir.','03_Ambientes/Quarto_e_portas/Iluminacao.md')
-doc('luz-economica','Quarto: revisão econômica','Iluminação','quarto','CB02 · 24/10','Liny retirado por preço; três níveis pelo interruptor escolhidos. Conjunto de referência R$109,88, sem frete e instalação.',LIGHT+'Revisao_quarto_CB02.md')
+doc('luz-quarto','Iluminação do quarto','Iluminação','quarto','Smart com Alexa/celular','Proposta Jurerê + WiZ; SKU, uso com vidro e montagem pendentes. Escolha de Elias26/10/2026.','03_Ambientes/Quarto_e_portas/Iluminacao.md')
+doc('luz-economica','Quarto: revisão econômica','Iluminação','quarto','CB02 · 26/10','Quarto smart: referência parcial R$376,32; uso WiZ/Jurerê e códigos comerciais pendentes. Sem frete e instalação.',LIGHT+'Revisao_quarto_CB02.md')
 doc('luz-imagens','Luminárias nos ambientes: imagens','Iluminação','all','Simulações CB02','Quarto econômico, cozinha, lavanderia, sala, escritório e banheiro. Luz e escala aproximadas.',LIGHT_IMAGES+'Galeria.md')
 doc('luz-selecao','Iluminação: composição e pendências','Iluminação','all','CB01 · histórico','Seleção por ambiente; a CB02 substitui o plafon caro do quarto.',LIGHT+'Selecao_CB01.md')
 doc('tecidos-escolhas','Cortinas e estofados escolhidos','Acabamentos','sala,quarto,escritorio','Areia · 24/10','Cortina da sala C2 Areia e suede areia no banco e na cabeceira; tecido claro no escritório.',FABRICS+'LEIA-ME.md')
@@ -216,7 +216,7 @@ def write_sources():
     write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,separators=(',',':'))+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
     body='<h1>Guia do montador</h1><p>Modelo '+escape(RELEASE['cadRevision'])+'; consultar fichas e condições atuais antes da fabricação.</p>'
     if FABRICATION:
-        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R14</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
+        body='<p class="meta">GUEDALA PARK · MARCENARIA · FICHAS R15</p><h1>Guia do montador.</h1><p>As fichas completas reúnem medidas, esquemas dimensionais, peças, acabamentos, ferragens e orientações de montagem.</p><p><a href="Fichas_fabricacao/index.html">Abrir as 20 fichas completas →</a></p><p><a href="Fichas_fabricacao/Levantamento.html">Levantamento de medidas no apartamento →</a></p><h2>Consulta direta por móvel</h2>'
         for code,f in FABRICATION.items():
             body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
     write_if_changed(ROOT/'06_Entregas/Dossie_marcenaria_R45.html',page('Guedala Park · guia do montador',body))
@@ -235,11 +235,11 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
         assets=json.loads((ROOT/'06_Entregas/Fichas_fabricacao/manifest.json').read_text(encoding='utf8'))['files']
     if build_package:runpy.run_path(str(STUDY/'build_share_package.py'))['build']()
     base='06_Entregas/Fichas_fabricacao/'
-    doc('fichas','Fichas completas dos 20 móveis','Começar','all','R14','Medidas, peças, acabamentos, ferragens selecionadas e furação rastreável.',base+'index.html')
-    doc('pendencias-r14','O que falta · projeto, oficina e apartamento','Começar','all','R14','Próximos passos separados por etapa, com decisões e fontes nas fichas.',base+'Pendencias.html')
+    doc('fichas','Fichas completas dos 20 móveis','Começar','all','R15','Medidas, peças, acabamentos, ferragens selecionadas e furação rastreável.',base+'index.html')
+    doc('pendencias-r14','O que falta · projeto, oficina e apartamento','Começar','all','R15','Próximos passos separados por etapa, com decisões e fontes nas fichas.',base+'Pendencias.html')
     doc('campo','O que medir no apartamento','Levantamento','all','Preencher em campo','Folha por móvel: dimensões físicas, instalações, níveis e paredes.',base+'Levantamento.html')
     for code,f in FABRICATION.items():
-        doc('ficha-'+code,code+' · '+f['name'],'Ficha de montagem',f['room'],'R14','Ferragens, furação com referências, peças CSV e próximas conferências.',base+code+'.html')
+        doc('ficha-'+code,code+' · '+f['name'],'Ficha de montagem',f['room'],'R15','Ferragens, furação com referências, peças CSV e próximas conferências.',base+code+'.html')
     ASSETS.extend(base+p for p in assets)
     ASSETS.append(base+'manifest.json')
     DOCS[:] = [plain_data(d) for d in DOCS]

@@ -15,8 +15,8 @@
 | Programa de necessidades | 100% | [Programa de necessidades R01](Programa_de_necessidades.md) | Validar uso no local após as chaves |
 | Levantamento do imóvel | 25% | [Medidas](../03_Ambientes/Medidas/README.md), [visita](../07_Imovel/README.md) (unidade espelhada) | Vistoria completa após as chaves |
 | Estudo preliminar | 100% | [Planta mobiliada R02 e vistas](../03_Ambientes/Planta_mobiliada/README.md), site 3D | Validar no local (os 4 textos desatualizados do site foram corrigidos e publicados em 24/10) |
-| Anteprojeto | 75% | [Modelo vigente R52](../02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd), [acabamentos](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa (o banheiro já tem Arauco Beige Matt e Louro Freijó Poro, 24/10), off-white exato, amostras |
-| Executivo de marcenaria | 45–55% | [Fichas R14](../06_Entregas/Fichas_fabricacao/index.html), [Pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) | Ver item 4 |
+| Anteprojeto | 75% | [Modelo vigente R52](../02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd), [acabamentos](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) | Códigos de chapa (o banheiro já tem Arauco Beige Matt e Louro Freijó Poro, 24/10), off-white exato, amostras |
+| Executivo de marcenaria | 45–55% | [Fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [Pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) | Ver item 4 |
 | Complementares | 30% | [Planta de pontos preliminar R00](../03_Ambientes/Planta_pontos/README.md): 50 pontos de elétrica, luz, água, esgoto e gás | Circuitos, traçados e assinatura do RT |
 | Pranchas formais | 45% | [Caderno de pranchas R00](../06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf): 7 pranchas A3 com carimbo (planta cotada, layout, pontos, vistas) | Elevações cotadas, detalhes da marcenaria e cotas finais após a medição |
 | Memorial e especificações | 70% | [Caderno de especificações R01](Caderno_de_especificacoes.md), gerado a partir dos dados do site | Códigos de chapa e itens parciais; revisão do(a) RT |

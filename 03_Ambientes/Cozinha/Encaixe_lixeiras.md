@@ -1,6 +1,6 @@
 # Lixeiras — proposta de encaixe sem alterar o FreeCAD
 
-Agenda27/10, preparada em26/10/2026. **Proposta documental, não aplicada.** Mantém Biovis Coleta15L na parede externa do banheiro voltada à mesa e Tramontina Loop20L fora do gabinete da lavanderia. As sobreposições6/5cm são da reconstrução do site R23, não medidas de obra. [Estado e fonte da correção](../../ESTADO_ATUAL.md).
+Agenda27/10, preparada em26/10/2026. **Deslocamentos nominais aplicados à R53 e site local em27/10/2026, por pedido de Elias de incorporar as decisões e criar R53; prova física pendente.** Mantém Biovis Coleta15L na parede externa do banheiro voltada à mesa e Tramontina Loop20L fora do gabinete da lavanderia. As sobreposições6/5cm são da reconstrução do site R23, não medidas de obra. [Estado e fonte da correção](../../ESTADO_ATUAL.md).
 
 ## Encaixe nominal proposto
 
@@ -37,6 +37,6 @@ Coordenadas abaixo em **cm do desenho do site**, origem/axes de `ferramentas/sit
 | Destino temporário fora da passagem (se necessário) | | |
 | Resultado e responsável pela conferência | | |
 
-**LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retirada temporária da Loop ao usar o varal. Destino fora da passagem e operação precisam de gabarito; a escolha não comprova encaixe nem altera FreeCAD/site. Se o gabarito reprovar, apresentar alternativa com volume e preço para nova decisão; não trocar os produtos automaticamente.
+**LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retirada temporária da Loop ao usar o varal. Destino fora da passagem e operação precisam de gabarito; a escolha não comprova encaixe; a aplicação nominal foi solicitada por Elias em27/10/2026. Se o gabarito reprovar, apresentar alternativa com volume e preço para nova decisão; não trocar os produtos automaticamente.
 
-Dependência física: produto/pedal/tampa e gabarito de uso. Dependência do imóvel: parede acabada, rodapé, portas, janela e passagem real. **Nenhuma mudança no FCStd, no desenho publicado ou nos envelopes de referência; proposta ainda não demonstra compatibilização completa.**
+Dependência física: produto/pedal/tampa e gabarito de uso. Dependência do imóvel: parede acabada, rodapé, portas, janela e passagem real. **R53 e site local incorporam somente os deslocamentos nominais; desenho publicado anterior permanece R23. Gabarito de uso e destino temporário ainda não demonstram compatibilização completa.**

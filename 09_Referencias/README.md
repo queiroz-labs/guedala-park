@@ -51,3 +51,5 @@ Imagens de inspiração preservadas como histórico. Móveis, cotas, marcas e so
 [Imagem aprovada como referência visual](Banheiro_referencia_aprovada_2026-09-18.png): uma parede verde, armário espelhado com luz frontal e torneira atrás da cuba. Aprovação estética; dimensões e produtos representados são aproximados. Estudo de encaixe.
 
 - [Banheiro — prateleira para ocultação de tubulação, referência enviada em 18/09/2026](Banheiro_prateleira_ocultacao_tubulacao_2026-09-18.png): referência de solução visual, não comprovação da hidráulica nem substituição da paleta. [Estudo](../03_Ambientes/Banheiro/Agua_quente_aparente.md).
+
+Moodboard HTML regenerado na integração R53/R24 de27/10, com a mesma fonte do site local; imagens históricas e amostras físicas não substituídas.

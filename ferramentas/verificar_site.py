@@ -59,7 +59,14 @@ def main():
     try:
         env = dict(os.environ, GUEDALA_TEST_ROOT=str(tmp / 'testes'))
         cmd = [PY, '-B', str(SITE / 'preparar_pages.py'), '--output-dir', str(tmp / 'site'),
-               '--publication-ready', '--package-mode', 'auto']
+               '--package-mode', 'auto']
+        # Validar artefato local nao concede autorizacao de publicacao.
+        import json
+        release=json.loads((SITE/'current_release.json').read_text(encoding='utf-8'))
+        if release['publicationStatus'] in ('publication_authorized','published'):
+            cmd.append('--publication-ready')
+        else:
+            print('INFO: verificando pacote local; publicacao continua bloqueada')
         if not passo('preparar_pages (build do site e pacote)', cmd, env):
             for f in (RAIZ / '06_Entregas/Publicacao').glob('*'):  # tentativa limpa (gravacao concorrente no Windows)
                 if f.is_file() and git('check-ignore', str(f.relative_to(RAIZ))).strip():

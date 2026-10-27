@@ -1,6 +1,6 @@
 {
-  "revision": "R14",
-  "date": "2026-10-23",
+  "revision": "R15",
+  "date": "2026-10-27",
   "cadRevision": "R45",
   "source_sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
   "scope": "Seleções de projeto e mapas nominais. Sem alteração da R45, sem medição realizada e sem liberação geral de fabricação.",
@@ -740,8 +740,17 @@
     },
     "P02": {
       "name": "Canto superior em L",
-      "summary": "Duas portas independentes com Blum; canecos identificados por peça. Ligações do canto em L continuam específicas.",
+      "summary": "Roupa de cama/volumes leves ocasionais; requisito10kg total incluindo organizadores; peso na regiao apoiada, ponta leve; preservar vaos/aparencia. Capacidade nao demonstrada. Duas portas independentes com Blum; canecos identificados por peça. Ligações do canto em L continuam específicas.",
       "decisions": [
+        {
+          "item": "Decisao de uso",
+          "reference": "U1=A; U2=A; U3=A; U4=A",
+          "status": "Escolha de Elias,27/10/2026, nesta conversa",
+          "reason": "Roupa de cama/volumes leves ocasionais; requisito10kg total incluindo organizadores; peso na regiao apoiada, ponta leve; preservar vaos/aparencia. Capacidade nao demonstrada.",
+          "sources": [
+            "04_Moveis/Proximas_decisoes/P01_P03/README.md"
+          ]
+        },
         {
           "item": "Dobradiças das portas de abrir",
           "reference": "Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada",
@@ -1276,7 +1285,8 @@
         }
       ],
       "sourcePaths": [
-        "ferramentas/site/fabrication/technical-r14.json"
+        "ferramentas/site/fabrication/technical-r14.json",
+        "04_Moveis/Proximas_decisoes/P01_P03/README.md"
       ]
     },
     "P03": {
@@ -7002,8 +7012,17 @@
     },
     "P13": {
       "name": "Apoio do micro-ondas",
-      "summary": "Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.",
+      "summary": "Manter18mm; produto/substrato, bordas, veios e preco pendentes. Sem segunda chapa adicionada. Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.",
       "decisions": [
+        {
+          "item": "Acabamento Peca350",
+          "reference": "F13=A: Greenplac Arenza liso nas duas faces",
+          "status": "Escolha de Elias,27/10/2026, nesta conversa",
+          "reason": "Manter18mm; produto/substrato, bordas, veios e preco pendentes. Sem segunda chapa adicionada.",
+          "sources": [
+            "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
+          ]
+        },
         {
           "item": "Prateleira de aparelho com apoio estrutural próprio",
           "reference": "Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada",
@@ -7125,7 +7144,8 @@
       "unmappedInterfaces": [],
       "drawings": [],
       "sourcePaths": [
-        "ferramentas/site/fabrication/technical-r14.json"
+        "ferramentas/site/fabrication/technical-r14.json",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
       ]
     },
     "P14": {
@@ -10895,5 +10915,6 @@
       ]
     }
   },
-  "finishRule": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md"
+  "finishRule": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
+  "revisionNote": "R15 incorpora decisoes27/10 e geometria R53 nas fichas; mapas de furacao R14 mantem fontes e condicoes historicas."
 }

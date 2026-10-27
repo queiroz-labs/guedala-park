@@ -1,31 +1,28 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-26",
-  "projectRevision": "Consulta de marcenaria · FreeCAD R52 · iluminação CB02",
-  "projectDate": "26 outubro 2026",
-  "cadRevision": "R52",
-  "cadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
-  "cadSHA256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "releaseDate": "2026-10-27",
+  "projectRevision": "Consulta de marcenaria · FreeCAD R53 · iluminação CB02",
+  "projectDate": "27 outubro 2026",
+  "cadRevision": "R53",
+  "cadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
+  "cadSHA256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
   "cadReadme": "02_Modelo_3D/README.md",
   "cadEvidence": [
-    "Verificacao_R52.json",
-    "Verificacao_posicoes_R52.json",
-    "Verificacao_movimentos_R52.json",
-    "Condicoes_operacao_R52.json",
-    "Diferencas_R51_R52.json"
+    "Alteracoes_R53.json",
+    "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R23",
+  "packageRevision": "R24",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R23.zip",
-  "archiveRoot": "Guedala_Park_R23",
-  "fabricationRevision": "R14",
+  "packageFile": "Guedala_Park_R24.zip",
+  "archiveRoot": "Guedala_Park_R24",
+  "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "publication_authorized",
+  "publicationStatus": "local_only",
   "lastPublishedCadRevision": "R52",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R52_Corrigido.FCStd",
   "lastPublishedPackageRevision": "R23",
-  "notes": "R23: compatibiliza lavanderia e trechos de circulação com as cotas da planta; fechamentos gráficos derivados, a confirmar. Pé-direito 2,60 m para testes, não fabricação; escritório 2,47 m separado. Publicação desta correção autorizada por Elias em 26/10/2026, Sentinel_3ce273ee835081919acefb805f637632. Móveis e FreeCAD R52 preservados.",
+  "notes": "R53 local: decisoes P02 (uso leve, requisito10kg), P13 (Arenza liso duas faces), TV mantida e deslocamentos nominais das lixeiras. Elias27/10/2026 solicitou aplicar decisoes e criar R53. Produto/oficina, gabaritos e ensaios pendentes; sem publicacao.",
   "technicalDocuments": [
     {
       "id": "pe-direito",
@@ -202,6 +199,46 @@
         "04_Moveis/P03/Malas_no_maleiro.png",
         "04_Moveis/P03/Verificacao_caixa_20kg.json",
         "04_Moveis/P03/Verificacao_ligacao_P02_P03.json"
+      ]
+    },
+    {
+      "id": "decisoes-vigentes",
+      "title": "Estado vigente e decisoes",
+      "room": "all",
+      "path": "ESTADO_ATUAL.md",
+      "summary": "Escopo R53, decisoes27/10 e bloqueios tecnicos.",
+      "files": []
+    },
+    {
+      "id": "lixeiras-r53",
+      "title": "Lixeiras: implantacao nominal R53",
+      "room": "cozinha,lavanderia",
+      "path": "03_Ambientes/Cozinha/Encaixe_lixeiras.md",
+      "summary": "LIX=A: deslocamentos7/6cm aplicados; gabarito fisico e destino temporario pendentes.",
+      "files": [
+        "03_Ambientes/Cozinha/Encaixe_lixeiras.svg"
+      ]
+    },
+    {
+      "id": "orcamento-r44",
+      "title": "Orcamento: manter TV nesta etapa",
+      "room": "all",
+      "path": "05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md",
+      "summary": "R44=A: TV mantida; metas de negociacao e lacunas ainda abertas.",
+      "files": [
+        "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md"
+      ]
+    },
+    {
+      "id": "kit-p20-p14",
+      "title": "Banco e cesto: preparacao de oficina",
+      "room": "sala,lavanderia",
+      "path": "04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+      "summary": "Lista, desenho e formulario vazio; produto/oficina e ensaio pendentes.",
+      "files": [
+        "04_Moveis/P20/Assento_fechado/Montagem_prototipo.svg",
+        "04_Moveis/P20/Assento_fechado/Registro_ensaio.csv",
+        "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md"
       ]
     }
   ]

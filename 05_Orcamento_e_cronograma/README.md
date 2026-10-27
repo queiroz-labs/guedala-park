@@ -36,3 +36,5 @@ P02: uso definido por Elias em27/10/2026 (U1–U4=A); [plano](Plano_execucao_ate
 P13: F13=A, Arenza liso nas duas faces (Elias,27/10/2026, resposta “a”); [plano](Plano_execucao_ate_31_10.md) atualizado. Produto18, bordas e inclusão no corte pendentes.
 
 Lixeiras: LIX=A (Elias,27/10/2026, resposta “A”); manter modelos e aceitar avanços7/6cm/retirada temporária da Loop se demonstrada. [Plano](Plano_execucao_ate_31_10.md) atualizado; gabarito físico pendente.
+
+Integração27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro decisões; pacote local R24, sem novo envio. Gabaritos, produtos e comprovações físicas continuam pendentes.

@@ -1,5 +1,5 @@
 {
-  "revision": "R14",
+  "revision": "R15",
   "modules": 20,
   "panels": 249,
   "files": [
@@ -96,6 +96,6 @@
     "P20-furacao.csv",
     "P20.svg",
     "P20-pecas.csv",
-    "Tecnica_R14.json"
+    "Tecnica_R15.json"
   ]
 }

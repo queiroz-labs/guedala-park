@@ -1,0 +1,170 @@
+{
+  "fonte": "Elias, 27/10/2026: U1:A/U2:A/U3:A/U4:A; F13=A; R44=A; LIX=A. Aplicar decisoes ao CAD/fichas e criar R53, nesta conversa.",
+  "base": "R52",
+  "revisao": "R53",
+  "alteracoes": [
+    {
+      "objeto": "Modulo",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P01.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P01.html"
+    },
+    {
+      "objeto": "Modulo001",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P02.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P02.html"
+    },
+    {
+      "objeto": "Modulo002",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P03.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P03.html"
+    },
+    {
+      "objeto": "Modulo003",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P04.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P04.html"
+    },
+    {
+      "objeto": "Modulo004",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P05.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P05.html"
+    },
+    {
+      "objeto": "Modulo005",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P06.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P06.html"
+    },
+    {
+      "objeto": "Modulo006",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P07.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P07.html"
+    },
+    {
+      "objeto": "Modulo007",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P08.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P08.html"
+    },
+    {
+      "objeto": "Modulo008",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P09.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P09.html"
+    },
+    {
+      "objeto": "Modulo009",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P10.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P10.html"
+    },
+    {
+      "objeto": "Modulo010",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P11.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P11.html"
+    },
+    {
+      "objeto": "Modulo011",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P12.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P12.html"
+    },
+    {
+      "objeto": "Modulo012",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P13.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P13.html"
+    },
+    {
+      "objeto": "Modulo013",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P14.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P14.html"
+    },
+    {
+      "objeto": "Modulo014",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P15.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P15.html"
+    },
+    {
+      "objeto": "Modulo015",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P16.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P16.html"
+    },
+    {
+      "objeto": "Modulo016",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P17.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P17.html"
+    },
+    {
+      "objeto": "Modulo017",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P18.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P18.html"
+    },
+    {
+      "objeto": "Modulo018",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P19.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P19.html"
+    },
+    {
+      "objeto": "Modulo019",
+      "campo": "FichaR14",
+      "antes": "05_Entregas/Fichas_fabricacao_R13/P20.html",
+      "depois": "06_Entregas/Fichas_fabricacao/P20.html"
+    },
+    {
+      "objeto": "Peca144",
+      "campo": "LocalX",
+      "antes": 4740.0,
+      "depois": 4810.0,
+      "unidade": "mm"
+    },
+    {
+      "objeto": "Peca145",
+      "campo": "LocalX",
+      "antes": 4740.0,
+      "depois": 4810.0,
+      "unidade": "mm"
+    },
+    {
+      "objeto": "Peca146",
+      "campo": "LocalX",
+      "antes": 5050.0,
+      "depois": 5120.0,
+      "unidade": "mm"
+    },
+    {
+      "objeto": "Peca147",
+      "campo": "LocalY",
+      "antes": 5410.0,
+      "depois": 5470.0,
+      "unidade": "mm"
+    },
+    {
+      "objeto": "Peca148",
+      "campo": "LocalY",
+      "antes": 5410.0,
+      "depois": 5470.0,
+      "unidade": "mm"
+    },
+    {
+      "objeto": "Peca149",
+      "campo": "LocalY",
+      "antes": 5680.0,
+      "depois": 5740.0,
+      "unidade": "mm"
+    }
+  ],
+  "limites": "Sem ensaio fisico; sem reforcos, nova carga comprovada ou mudanca de madeira; coordenadas das lixeiras nominais."
+}

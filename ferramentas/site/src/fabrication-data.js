@@ -1,7 +1,7 @@
 const FABRICATION_DATA = {
-  "revision": "R14",
-  "cadRevision": "R45",
-  "source_sha256": "371d634a2d0d7c1cab88f863ac06ab9b5b192140d5e50e930a8eb9e1ebfde8d5",
+  "revision": "R15",
+  "cadRevision": "R53",
+  "source_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
   "modules": {
     "P01": {
       "code": "P01",
@@ -1516,7 +1516,7 @@ const FABRICATION_DATA = {
         "Peca241 ↔ Peca245 (Z; 18.0×550.0 mm)",
         "Peca244 ↔ Peca246 (Z; 18.0×550.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
       "technicalSummary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
       "panelGroups": [
@@ -2444,11 +2444,22 @@ const FABRICATION_DATA = {
         "01_Programa_e_decisoes/Registro_de_decisoes.md",
         "ferramentas/site/src/cad-data.js",
         "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
-        "ferramentas/site/fabrication/technical-r14.json"
+        "ferramentas/site/fabrication/technical-r14.json",
+        "04_Moveis/Proximas_decisoes/P01_P03/README.md"
       ],
       "sheetPath": "06_Entregas/Fichas_fabricacao/P02.html",
       "drawingPath": "06_Entregas/Fichas_fabricacao/P02.svg",
       "decisions": [
+        {
+          "item": "Decisao de uso",
+          "reference": "U1=A; U2=A; U3=A; U4=A",
+          "status": "Escolha de Elias,27/10/2026, nesta conversa",
+          "reason": "Roupa de cama/volumes leves ocasionais. Requisito10kg total incluindo organizadores. Peso na regiao apoiada, ponta leve. Preservar vaos/aparencia. Capacidade nao demonstrada.",
+          "sources": [
+            "04_Moveis/Proximas_decisoes/P01_P03/README.md"
+          ],
+          "explanation": ""
+        },
         {
           "item": "Dobradiças das portas de abrir",
           "reference": "Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada",
@@ -2808,9 +2819,9 @@ const FABRICATION_DATA = {
         }
       ],
       "unmappedInterfaces": [],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P02-furacao.csv",
-      "technicalSummary": "Armário de canto com duas portas independentes e dobradiças da marca Blum. Falta detalhar como as peças do canto serão unidas.",
+      "technicalSummary": "Roupa de cama/volumes leves ocasionais. Requisito10kg total incluindo organizadores. Peso na regiao apoiada, ponta leve. Preservar vaos/aparencia. Capacidade nao demonstrada. Duas portas independentes com Blum. Encaixes circulares das dobradiças identificados por peça. Ligações do canto em L continuam específicas.",
       "panelGroups": [
         {
           "id": "PlacaL",
@@ -3741,7 +3752,7 @@ const FABRICATION_DATA = {
         "Peca260 ↔ Peca262 (X; 632.0×18.0 mm)",
         "Peca260 ↔ Peca263 (X; 632.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P03-furacao.csv",
       "technicalSummary": "Armário sobre o guarda-roupa com duas portas de correr. Confira os apoios e a união com o móvel de baixo.",
       "panelGroups": [
@@ -4870,7 +4881,7 @@ const FABRICATION_DATA = {
         "Peca270 ↔ ApoioOpostoR002 (Z; 212.0×18.0 mm)",
         "ApoioComumR004 ↔ ApoioOpostoR001 (Y; 212.0×272.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P04-furacao.csv",
       "technicalSummary": "Armário com quatro portas e dobradiças da marca Blum. A porta junto ao canto tem um recuo diferente. Falta definir o reforço e a fixação na parede.",
       "panelGroups": [
@@ -5850,7 +5861,7 @@ const FABRICATION_DATA = {
         "Peca277 ↔ Peca280 (X; 572.0×18.0 mm)",
         "Peca278 ↔ Peca280 (Y; 614.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P05-furacao.csv",
       "technicalSummary": "Gabinete com duas portas e dobradiças da marca Blum. O recorte da prateleira depende da cuba e do sifão escolhidos.",
       "panelGroups": [
@@ -6690,7 +6701,7 @@ const FABRICATION_DATA = {
         "Peca284 ↔ Peca285 (X; 18.0×684.0 mm)",
         "Peca284 ↔ Peca286 (X; 572.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
       "technicalSummary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
       "panelGroups": [
@@ -7623,7 +7634,7 @@ const FABRICATION_DATA = {
         "Peca306 ↔ Peca307 (X; 212.0×30.0 mm)",
         "Peca306 ↔ BasePlanaR31 (X; 535.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P07-furacao.csv",
       "technicalSummary": "Grelhas removíveis para acesso ao forno. Falta detalhar as peças de fixação. Mantenha os espaços de ventilação livres.",
       "panelGroups": [
@@ -8346,7 +8357,7 @@ const FABRICATION_DATA = {
       ],
       "drawings": [],
       "unmappedInterfaces": [],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P08-furacao.csv",
       "technicalSummary": "Gaveta baixa com seis rodas. Confira os furos, o peso suportado e as peças que guiam e limitam o movimento.",
       "panelGroups": [
@@ -8597,9 +8608,9 @@ const FABRICATION_DATA = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556,
-            312,
-            18
+            556.0,
+            312.0,
+            18.0
           ],
           "thickness": 18.0,
           "rectangular": true,
@@ -9238,7 +9249,7 @@ const FABRICATION_DATA = {
         "Peca318 ↔ Peca320 (Z; 18.0×312.0 mm)",
         "Peca319 ↔ Peca320 (Z; 18.0×312.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P09-furacao.csv",
       "technicalSummary": "Armário com duas portas e dobradiças da marca Blum. O divisor vai até o fundo e forma dois nichos. Deixar livre a saída de ar de 2 cm do depurador.",
       "panelGroups": [
@@ -9355,9 +9366,9 @@ const FABRICATION_DATA = {
           "id": "Peca320",
           "name": "Divisória",
           "dimensions": [
-            556,
-            312,
-            18
+            556.0,
+            312.0,
+            18.0
           ],
           "thickness": 18.0,
           "rectangular": true,
@@ -10795,7 +10806,7 @@ const FABRICATION_DATA = {
         "Peca326 ↔ Peca330 (Y; 511.0×18.0 mm)",
         "Peca326 ↔ Peca331 (Y; 511.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P10-furacao.csv",
       "technicalSummary": "Armário com três prateleiras e dobradiças da marca Blum nas portas. As prateleiras ficam presas ao armário e podem ser retiradas ao desmontá-lo. Confira os furos antes de fabricar.",
       "panelGroups": [
@@ -12084,7 +12095,7 @@ const FABRICATION_DATA = {
         "Peca335 ↔ Peca336 (X; 18.0×574.0 mm)",
         "Peca336 ↔ Peca339 (Y; 661.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P11-furacao.csv",
       "technicalSummary": "Portas com dobradiças da marca Blum. O projeto indica os furos de montagem. Falta confirmar o peso suportado e a fixação na parede.",
       "panelGroups": [
@@ -13018,7 +13029,7 @@ const FABRICATION_DATA = {
         "Peca345 ↔ Peca347 (Z; 18.0×312.0 mm)",
         "Peca346 ↔ Peca347 (Z; 18.0×312.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P12-furacao.csv",
       "technicalSummary": "Portas com dobradiças da marca Blum. Falta detalhar a união da divisória central e a fixação na parede.",
       "panelGroups": [
@@ -13234,10 +13245,10 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": true,
           "cadMaterial": "Greenplac Arenza (referência CAD)",
-          "specifiedMaterial": null,
-          "materialEvidence": "Peca350.MaterialReferencia",
-          "finishComplete": false,
-          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "specifiedMaterial": "Greenplac Arenza liso — duas faces da mesma chapa",
+          "materialEvidence": "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+          "finishComplete": true,
+          "remainingFinish": "Codigo/substrato18, bordas e veios a especificar. Escolha das duas faces encerrada.",
           "quantity": 1
         }
       ],
@@ -13273,8 +13284,14 @@ const FABRICATION_DATA = {
           "explanation": ""
         }
       ],
-      "finishSummary": "Padrão da peça inteira ainda a definir. Referência Arenza no CAD não fecha especificação. Confirmar acabamento antes da fabricação.",
-      "finishSpecs": [],
+      "finishSummary": "Greenplac Arenza liso nas duas faces da Peca350, nominal18mm. Escolha F13=A em 27/10/2026. Produto/substrato18, bordas, veios e preco pendentes.",
+      "finishSpecs": [
+        {
+          "area": "Peca350 inteira, duas faces",
+          "material": "Greenplac Arenza liso",
+          "status": "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
+        }
+      ],
       "fieldChecks": [
         {
           "measure": "Posição da tomada e espaço físico de retirada do micro.",
@@ -13324,11 +13341,22 @@ const FABRICATION_DATA = {
         "01_Programa_e_decisoes/Registro_de_decisoes.md",
         "ferramentas/site/src/cad-data.js",
         "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
         "ferramentas/site/fabrication/technical-r14.json"
       ],
       "sheetPath": "06_Entregas/Fichas_fabricacao/P13.html",
       "drawingPath": "06_Entregas/Fichas_fabricacao/P13.svg",
       "decisions": [
+        {
+          "item": "Acabamento Peca350",
+          "reference": "F13=A: Greenplac Arenza liso nas duas faces",
+          "status": "Escolha de Elias,27/10/2026, nesta conversa",
+          "reason": "Manter18mm. Produto/material da base, bordas, veios e preco pendentes. Sem segunda chapa adicionada.",
+          "sources": [
+            "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
+          ],
+          "explanation": ""
+        },
         {
           "item": "Prateleira de aparelho com apoio estrutural próprio",
           "reference": "Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada",
@@ -13377,9 +13405,9 @@ const FABRICATION_DATA = {
       ],
       "drawings": [],
       "unmappedInterfaces": [],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P13-furacao.csv",
-      "technicalSummary": "Prateleira aberta para o micro-ondas. Falta definir o suporte e conferir o espaço de ventilação exigido pelo aparelho.",
+      "technicalSummary": "Manter18mm. Produto/material da base, bordas, veios e preco pendentes. Sem segunda chapa adicionada. Apoio aberto do micro-ondas. Suporte estrutural e divergência de ventilação continuam pendências de projeto.",
       "panelGroups": [
         {
           "id": "Peca350",
@@ -13392,10 +13420,10 @@ const FABRICATION_DATA = {
           "thickness": 18.0,
           "rectangular": true,
           "cadMaterial": "Greenplac Arenza (referência CAD)",
-          "specifiedMaterial": null,
-          "materialEvidence": "Peca350.MaterialReferencia",
-          "finishComplete": false,
-          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "specifiedMaterial": "Greenplac Arenza liso — duas faces da mesma chapa",
+          "materialEvidence": "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+          "finishComplete": true,
+          "remainingFinish": "Codigo/substrato18, bordas e veios a especificar. Escolha das duas faces encerrada.",
           "quantity": 1,
           "ids": [
             "Peca350"
@@ -13805,7 +13833,7 @@ const FABRICATION_DATA = {
       "unmappedInterfaces": [
         "PecaCestoR15 ↔ PecaCestoR001 (Z; 554.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P14-furacao.csv",
       "technicalSummary": "Cesto que inclina para abrir. A estrutura e o cesto têm fixações próprias. Falta testar o mecanismo de abertura.",
       "panelGroups": [
@@ -14993,7 +15021,7 @@ const FABRICATION_DATA = {
         "Peca359 ↔ Peca361 (X; 18.0×544.0 mm)",
         "Peca360 ↔ Peca361 (X; 18.0×544.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P15-furacao.csv",
       "technicalSummary": "Portas com dobradiças da marca Blum. O espaço entre apoios precisa de reforço. Falta definir o peso suportado.",
       "panelGroups": [
@@ -15825,7 +15853,7 @@ const FABRICATION_DATA = {
         "Peca368 ↔ Peca370 (X; 412.0×18.0 mm)",
         "Peca368 ↔ Peca371 (X; 412.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
       "technicalSummary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49. Provar retirada na oficina.",
       "panelGroups": [
@@ -17197,7 +17225,7 @@ const FABRICATION_DATA = {
         "Peca388 ↔ ApoioOpostoR18 (Z; 312.0×18.0 mm)",
         "ApoioComumR001 ↔ ApoioOpostoR18 (Y; 312.0×514.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P17-furacao.csv",
       "technicalSummary": "Armário com quatro portas e dobradiças da marca Blum. Falta detalhar as uniões internas e a fixação na parede.",
       "panelGroups": [
@@ -18307,7 +18335,7 @@ const FABRICATION_DATA = {
       ],
       "drawings": [],
       "unmappedInterfaces": [],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P18-furacao.csv",
       "technicalSummary": "Gabinete com portas de correr e frente removível para manutenção. Confira os trilhos, as uniões e os parafusos de fixação.",
       "panelGroups": [
@@ -19692,7 +19720,7 @@ const FABRICATION_DATA = {
         }
       ],
       "unmappedInterfaces": [],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P19-furacao.csv",
       "technicalSummary": "Armário com espelho e portas com dobradiças da marca Blum. O projeto prevê apoios e conectores para unir as peças. Falta conferir a montagem, o espelho e a fixação na parede.",
       "panelGroups": [
@@ -20629,7 +20657,7 @@ const FABRICATION_DATA = {
         "Peca406AtualR31 ↔ PecaBancoR007AtualR31 (Y; 372.0×18.0 mm)",
         "PecaBancoR007AtualR31 ↔ PecaBancoR006AtualR31 (Z; 372.0×18.0 mm)"
       ],
-      "revision": "R14",
+      "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P20-furacao.csv",
       "technicalSummary": "Banco com duas tampas. Cada tampa terá uma dobradiça contínua e suportes com trava. Teste a montagem antes de definir os furos.",
       "panelGroups": [

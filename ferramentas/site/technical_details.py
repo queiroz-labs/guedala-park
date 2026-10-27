@@ -39,7 +39,7 @@ def apply_revision(g, revision):
             g[field]=module[field]
     for field in ['decisions','drilling','workshopChecks','projectChecks','resolvedChecks','drawings','unmappedInterfaces']:
         g[field]=module.get(field,[])
-    g['revision']='R14'
+    g['revision']=revision['revision']
     g['drillingPath']=f"06_Entregas/Fichas_fabricacao/{g['code']}-furacao.csv"
     g['technicalSummary']=module['summary']
     if g['code']=='P20':

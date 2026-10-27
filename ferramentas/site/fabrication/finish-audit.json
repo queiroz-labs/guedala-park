@@ -6879,8 +6879,14 @@
     "P13": {
       "name": "Apoio do micro",
       "room": "cozinha",
-      "finishSummary": "Padrão da peça inteira ainda a definir; referência Arenza no CAD não fecha especificação. Confirmar acabamento antes da fabricação.",
-      "finishSpecs": [],
+      "finishSummary": "Greenplac Arenza liso nas duas faces da Peca350, nominal18mm; escolha F13=A em27/10/2026. Produto/substrato18, bordas, veios e preco pendentes.",
+      "finishSpecs": [
+        {
+          "area": "Peca350 inteira, duas faces",
+          "material": "Greenplac Arenza liso",
+          "status": "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
+        }
+      ],
       "fieldChecks": [
         {
           "id": "P13-CAMPO-1",
@@ -6915,7 +6921,8 @@
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "01_Programa_e_decisoes/Registro_de_decisoes.md",
         "ferramentas/site/src/cad-data.js",
-        "ferramentas/site/fabrication/Decisao_acabamentos_R13.md"
+        "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
+        "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
       ],
       "dimensions": {
         "envelopeLocalMM": [
@@ -6967,7 +6974,9 @@
         "wood": 1
       },
       "unknownFinishSourceIds": [],
-      "overriddenSourceIds": [],
+      "overriddenSourceIds": [
+        "Peca350"
+      ],
       "remainingUnknownFinishSourceIds": [],
       "faceAssignments": [],
       "partialFaceSourceIds": []
@@ -19501,6 +19510,23 @@
       "wholeBoardMaterial": null,
       "finishAssignmentMode": "whole_piece_finish_pending",
       "finishRule": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md"
+    },
+    {
+      "source": "Peca350",
+      "module": "P13",
+      "label": "Prateleira de apoio do micro",
+      "material": "Greenplac Arenza liso — duas faces da mesma chapa",
+      "innerMaterial": "Greenplac Arenza liso",
+      "exposedMaterial": "Greenplac Arenza liso",
+      "materialCode": null,
+      "evidence": "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "finishCompleteForIdentifiedFaces": true,
+      "remainingFinishQuestion": "Codigo/substrato18, bordas e veios a especificar; escolha das duas faces encerrada.",
+      "sameFinishBothFaces": true,
+      "wholeBoardMaterial": "Greenplac Arenza liso",
+      "finishAssignmentMode": "whole_piece_same_finish",
+      "sourceRole": "Prateleira de apoio do micro",
+      "finishRule": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
     }
   ],
   "evidence": {
@@ -19600,19 +19626,19 @@
   "summary": {
     "modules": 20,
     "unknownBefore": 128,
-    "evidencedAppearanceOverrides": 248,
+    "evidencedAppearanceOverrides": 249,
     "unknownAfter": 8,
     "allOverridesAreAppearanceOnly": true,
     "executiveEdgeMapsFound": 0,
     "executiveGrainMapsFound": 0,
     "originalUnknownWithCompleteFaceAssignment": 120,
     "originalUnknownWithPartialAssignment": 8,
-    "knownCADPanelsUpdatedToFaceDecision": 120,
-    "totalFaceAssignments": 248,
+    "knownCADPanelsUpdatedToFaceDecision": 121,
+    "totalFaceAssignments": 249,
     "interiorOnlyAssignments": 158,
     "dualFaceAssignments": 0,
     "partialFaceAssignments": 11,
-    "sameFinishWholePieceAssignments": 237,
+    "sameFinishWholePieceAssignments": 238,
     "partialWholePieceAssignments": 11,
     "correctedOppositeFinishPanels": 88,
     "separateMirrorPanels": 2

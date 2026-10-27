@@ -155,12 +155,12 @@ function buildScene(){nodes=[];nodeSequence={};
   add('kitchenfinish','cozinha',388,698,186.9,2,92,10,'stone');
   add('kitchenlight','cozinha',501,570.5,41,41,253.5,3.5,'offwhite','box',{upper:true});
   add('kitchenlight','cozinha',503,572.5,37,37,253.2,.3,'#fff1d7','box',{upper:true});
-  add('trash','cozinha',474,508,34,21,0,45,'inox','round',{r:3});
-  add('trash','cozinha',474,508,34,21,45,2,'black','round',{r:3});
-  add('trash','cozinha',505,514,5,9,1,2,'black');
-  add('recycling','lavanderia',257,541,29,29,0,42,'inox','round',{r:14.5});
-  add('recycling','lavanderia',257,541,29,29,42,1.7,'black','round',{r:14.5});
-  add('recycling','lavanderia',267,568,9,5,1,2,'black');
+  add('trash','cozinha',481,508,34,21,0,45,'inox','round',{r:3});
+  add('trash','cozinha',481,508,34,21,45,2,'black','round',{r:3});
+  add('trash','cozinha',512,514,5,9,1,2,'black');
+  add('recycling','lavanderia',257,547,29,29,0,42,'inox','round',{r:14.5});
+  add('recycling','lavanderia',257,547,29,29,42,1.7,'black','round',{r:14.5});
+  add('recycling','lavanderia',267,574,9,5,1,2,'black');
   // With clothes on the line, the clean, dry rack is stored in the lower cabinet
   // before moving the air fryer here (Compatibilizacao_2026-09-28/README.md).
   if(state.dry==='stored'){

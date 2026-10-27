@@ -1,0 +1,12 @@
+{
+  "revision": "R53",
+  "source_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "source_unchanged": true,
+  "parts": 393,
+  "modules": 20,
+  "triangles": 121244,
+  "panel_rows": 249,
+  "drawer_panels_visible": 53,
+  "unknown_finish_panels": 128,
+  "classification_policy": "No material fallback. Panel eligibility uses explicit material or documented functional allowlist; finish can remain unspecified. Hardware, contents and unknown-purpose components stay piece=null."
+}
