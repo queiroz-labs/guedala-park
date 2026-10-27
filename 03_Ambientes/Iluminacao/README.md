@@ -25,6 +25,8 @@ Detalhes, fontes e consultas: [CB02 vigente e conferências](Fechamento_custo_be
 
 Referências documentais: WiZ 929002424712 / EAN8718699787370, 127 V; WiZmote 929002426812 / EAN8719514552647. Os preços anunciados não estão vinculados comprovadamente a esses códigos. Jurerê confirma E27/40 W por soquete, mas encaixe e uso da WiZ com vidro continuam pendentes; esclarecer também o campo “Dimerizável: Não” da ficha. Fontes e cálculo na [conferência comercial CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#conferência-comercial-wiz--wizmote--jurerê).
 
+Busca por SKU em 26/10/2026: WiZ identificada indisponível no Magalu (inclusive anúncio Abastece); Martins sem preço público e com potência divergente. WiZmote com EAN identificado indisponível na Leroy. Oferta estrangeira não adotada no custo. **Não foi encontrada oferta nacional com código, preço e disponibilidade demonstrados nem autorização de uso no Jurerê com vidro.** Manter provisões; próximo passo é obter resposta às IL02/IL03, não repetir cálculo nominal. Se não houver comprovação, comparar outra luminária antes da compra.
+
 - Seis plafons gerais, um pendente triplo e duas arandelas; três Jurerê recebem seis WiZ E27. SceneSwitch não entra na compra proposta.
 - Cinco WiZmotes (sala, quarto e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
 - Três Shelly, três pulsadores/placas candidatos e **cinco fontes Opus avulsas no total**: três nos grupos com Shelly e duas já incluídas na L02 do banheiro.
