@@ -17,7 +17,7 @@
 | Escritório — três grupos | Geral Jurerê + 2 WiZ; dois kits WiZ para TV/prateleiras; 3 WiZmotes separados | Lotes/manuais, cortes e inclusão dos dois grupos indiretos na compatibilização de pontos |
 | Banheiro — três grupos | L02: Firefly 9605/3000 K, espelho COB4000 K e indireta3000 K; interruptores comuns separados | Posição da barra inferior/torneira, proteção das terminações, dissipação e luz no rosto |
 
-Detalhes, fontes e consultas: [CB02 vigente e conferências](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). Banheiro: [L02](../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html). A lista curta R00 e CB01 são antecedentes comparativos; suas sugestões antigas de Liny/EVO/ECO não substituem esta proposta. Não alterar o FreeCAD ou publicar o site como se os conjuntos estivessem confirmados.
+Detalhes, fontes e consultas: [CB02 vigente e conferências](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). Banheiro: [L02](../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html). A [lista curta](Lista_curta_luminarias_e_madeira.md) agora consolida quantidades, preços/fontes e bloqueios desta proposta; R00/CB01 são antecedentes. EVO/Evy/Jurerê/Jabuticaba/G9 foram reconsultados em26/10; Firefly9607 ficou como referência24/10 após falha de acesso. Não alterar o FreeCAD ou publicar o site como se os conjuntos estivessem confirmados.
 
 ## Custo e quantidades
 
@@ -51,3 +51,5 @@ Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos conven
 Para apagar rapidamente a geral smart, usar o botão de desligar do controle proposto. Cortar energia no interruptor convencional também apaga, mas impede religamento por Alexa/celular até restabelecer energia. Prever comando físico acessível; testar configuração e retorno de energia. Cozinha, lavanderia e banheiro mantêm liga/desliga comum.
 
 Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md), ilustrativa e anterior à mudança smart do quarto. [Estudo integrado](Estudo_integrado.md). CAD e site publicado preservados.
+
+**Decisão comercial pendente para Elias:** após respostas IL02–IL09, A — manter os candidatos que cumprirem os requisitos e cotar o conjunto completo; B — solicitar substituição somente dos candidatos cuja compatibilidade/preço não fechar, preservando smart e comandos já definidos. Nenhuma seleção de produto inferida; antes das respostas, a ação é fechar dados, não repetir comparação nominal.

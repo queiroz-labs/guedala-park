@@ -1,48 +1,39 @@
-**24/10/2026 — luminárias do banheiro L02:** total dos componentes **R$612,64 à vista**, sem frete e instalação. Espelho preservado: mesma fita COB4000 K/IRC>90,2×550 mm. Indireta3000 K: Cristallux CLX-FT200530 de4,8 W/m;2 fontes Opus OPS31002; teto Firefly9605 e perfis MOV4329 mantidos. [Valores e links de compra](../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html). Economia de referênciaR$202,45 contraL01 com a fita do espelho incluída. Rolos inteiros no total, sem compra ou instalação liberada; orçamento global preservado para evitar duplicidade comL04/L05/L06. A L01 abaixo é histórico.
+# Lista curta vigente — luminárias e madeira do banheiro
 
-**24/10/2026 — luminárias do banheiro L01:** teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240; indireta 3000 K CLX-FT431230. Perfis MOV 4329 brancos e fontes LPV-20-12/LPV-35-12, três comandos separados. Composição e links de compra. Seleção técnica para cotação; sem compra ou liberação de montagem. Provar canal/dissipação, terminais e luz no rosto; barra inferior depende da torneira. Subtotal conhecido R$645,83, mais fita4000 K sob consulta, montagem e demais exclusões da L01; orçamento geral preservado.
+Agenda27/10, preparada em26/10/2026. Esta lista substitui as sugestões R00 de Liny/ECO para toda a casa; segue a [proposta vigente](README.md), sem escolher por Elias nem alterar a R44. Preços sem frete/instalação; oferta não comprova compatibilidade. **Cenário parcial do conjunto: R$4.938,62**, com exclusões abaixo.
 
-> **Continuidade em 24/10/2026:** a [proposta CB01 de iluminação](Fechamento_custo_beneficio/Selecao_CB01.md) revê a combinação abaixo: preservar RGB/Alexa da sala e do escritório, regulagem do quarto/bancada e os três grupos do escritório. EVO simples não substitui luz geral inteligente; ECO não é a prioridade da lavanderia. CB01 é proposta, sem aprovação de novos modelos, compra ou alteração do orçamento global.
+## Luminárias, lâmpadas e controles — onde comprar e o que falta
 
-# Lista curta para escolher — luminárias e madeira do banheiro · R00
+“Reconsultado” significa preço visto na página recuperada em26/10, que pode ser cache; não é reserva de estoque. Onde consta referência24/10, não houve reconfirmação nesta etapa.
 
-24/10/2026. **Para você escolher.** Preços anunciados na data, sem frete, sem compra. Ao lado de cada item está o código da [planta de pontos](../Planta_pontos/README.md). Marque a opção preferida (A, B ou C) nos itens 1 a 3 e eu atualizo o caderno, a planta de pontos e o orçamento.
+| Uso / produto | Qtd. | Unitário / subtotal | Fonte e condição |
+|---|---:|---:|---|
+| Cozinha, Stella EVO STH21967/30 | 1 | R$239,40 / R$239,40 | [Eoutlet](https://eoutlet.com.br/produtos/sth21967-30-plafon-quadrado-de-sobrepor-evo-30w-3000k-backlight-ugr19-stella/), reconsultado26/10, Pix5% sobre252. Estoque/entrega e manual do lote a confirmar; interruptor comum |
+| Lavanderia, Firefly9607 quadrado3000K | 1 | R$141,90 / R$141,90 | [Paris Luz/Magalu](https://www.magazineluiza.com.br/plafon-de-sobrepor-firefly-quadrado-branco-30cm-led-25w-3000k-bivolt-galaxy-led/p/db79a7ddad/cj/plfn/?seller_id=parisluzcombr), referência24/10. Página não recuperada nesta tentativa; não declarar estoque. Posição com varal pendente |
+| Sala/quarto/escritório, Jurerê30cm2×E27 branco52040021-01 | 3 | R$60,65 / R$181,95 | [Taschibra Store](https://taschibrastore.com.br/produtos/detalhes/plafon-taschibra-redondo-jurere-30cm-vidro-fosco-2xe27/), reconsultado26/10; pagamento/estoque não detalhados. Corpo sem lâmpadas; uso WiZ com vidro depende IL02/IL03 |
+| WiZ A60 RGB/brancos para três Jurerê | 6 | R$98,97 / R$593,82 | [Abastece](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz), provisão da consulta26/10 no [CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). Oferta sem SKU conciliado, não atribuir preço à referência127V929002424712 |
+| WiZmote: sala/quarto +3 grupos escritório | 5 | R$117,73 / R$588,65 | [Abastece](https://www.abastece.com.br/products/wizmote-controle-remoto-para-iluminacao-wiz), provisão26/10; EAN8719514552647 da referência não demonstrado na oferta. Pilhas/suporte/estoque pendentes |
+| Jantar, Jabuticaba C82P3 preto, vidro âmbar | 1 | R$359,73 / R$359,73 | [Arevo](https://www.arevoiluminacao.com.br/pendentes/pendente-jabuticaba-2xg9-preto-fosco-2623), reconsultado26/10, boleto. Página identifica três globos/G9, preço antes de selecionar vidro; exigir variante âmbar e seu total |
+| Brilia miniG9 314450,3,5W3000K127V | 3 | R$28,71 / R$86,13 | [André Iluminação](https://www.andreiluminacao.com.br/lampadas-led/lampada-led-mini-g9-dimerizavel-3-5w-127v-314450-brilia), reconsultado26/10, à vista; prazo anunciado5dias úteis não inclui transporte. Compatibilidade D1 exige ensaio |
+| Sonoff D1 / RM433 com base | 1 de cada | R$109,90 cada / R$219,80 | [D1](https://loja.analphabot.com.br/sonoff-d1-dimmer-inteligente-compativel-com-alexa-e-google-assistant) e [RM433](https://analphabot.lojaintegrada.com.br/sonoff-rm433-controle-remoto-8-teclas-rf-433mhz), referências24/10; revisão/base e compatibilidade pendentes |
+| Leitura, Nordecor EVY2054 branca | 2 | R$71,16 / R$142,32 | [LED RS](https://www.ledrs.net/arandela-led-evy-3000k-3w-bivolt-30x7-5cm-aluminio-branco-nordecor-2054), reconsultado26/10, boleto. Confirmar interruptor e envelope do lote; uma por lado |
+| Banheiro, pacote L02 | 1 | R$612,64 / R$612,64 | [Composição e fontes24/10](../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html): teto Firefly9605 +espelho4000K +indireta3000K. Contém2fontes/2perfis/2rolos; não duplicar |
 
-## 1. Plafons de teto (cozinha, lavanderia, quarto, escritório, sala)
+## Indiretas e componentes necessários
 
-O projeto já tinha a **Stella STH21967/30** como candidata para a cozinha. Usar o mesmo modelo em toda a casa simplifica a compra, a reposição e o visual.
+| Componente | Quantidade / subtotal | Fonte e condição |
+|---|---:|---|
+| WiZ Pro LED Strip RGBTW2m Kit-C | 2 ×R$226,75 =R$453,50 | [Planet Leds/Magalu](https://www.magazineluiza.com.br/fita-led-lightstrip-20w-rgb-tw-2-metros-inteligente-smart-wifi-wiz-by-philips/p/kf72hc7016/cj/fted/?seller_id=planetleds115), referência24/10; conferir SKU, corte e conteúdo. Fontes/controladores próprios já incluídos; controles na tabela acima |
+| COB3000K Cristallux CLX-FT431230 /221506 | 1 rolo5m =R$164,80 | [3R](https://www.3reletrica.com.br/fita-led-cob-480led/m-ip65-3000k-12v-5mt-cristallux), referência24/10; lote/corrente e comprimento final pendentes |
+| Opus OPS31002 avulsas fora do banheiro | 3 ×R$85,05 =R$255,15 | [Luz de Casa](https://luzdecasa.com.br/produto/fonte-12v-slim-opus-36-watts-3a-ip67-270x20x20mm-ac-31002/24454), referência24/10; revisar corpo172/270mm e dissipação. Total no apartamento5, contando as2da L02 |
+| MOV4329 branco, barra2m fora do banheiro | 5 ×R$34,41 =R$172,05 | [Cia Light](https://www.cialight.com.br/perfil-mov-de-sobrepor-17x7mm-2m-branco-nordecor-4329), referência24/10; provisão de barras, não plano de cortes |
+| Shelly Plus RGBW PM SNDC-0D4P10WW | 3 ×R$223,25 =R$669,75 | [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/), referência26/10 no CB02, Pix. Substituem os3WT1; fontes continuam separadas |
+| Pulsadores e placas candidatos | 3 conjuntos, provisão totalR$57,03 | [Conferência/consultas IL04–IL05](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#substituição-dos-wt1-por-shelly--ligação-e-custo); Tramontina57115/027 ainda não validado para o sinal CC específico. Não é compra fechada |
 
-| Opção | Produto | Medida | Luz | Preço | Observação |
-|---|---|---|---|---:|---|
-| **A (recomendada)** | [Stella EVO Backlight STH21967/30](https://www.cialight.com.br/painel-sobrepor-led-evo-backlight-quadrado-irc-90-3000k-30w-bivolt-41x41x3-8cm-stella-sth21967-30) | 41 × 41 × 3,8 cm | 30 W · 2300 lm · 3000 K · **IRC 90** | ~R$428–475 ([Comespe](https://www.comespe.com.br/plafon-d-led-quadrado-bivolt-30w-3000k-2000lm-sth2196730-stella)) | Já era a candidata da cozinha. IRC 90 deixa as cores fiéis. **Não é dimerizável** |
-| B | [Stella Eco quadrado 24 W](https://www.eletrorastro.com.br/produto/painel-led-sobrepor-24w-3000k-1900lm-quadrado-branco-25-4cm-eco-bivolt-stella-95026) | 25,4 cm | 24 W · 1900 lm · 3000 K | **R$153,80** | Linha econômica, menor. Boa para lavanderia, escritório e banheiro |
-| C | [Nordecor Liny 90046](https://luzdecasa.com.br/produto/plafon-de-sobrepor-nordecor-liny-quadrado-branco-led-dimerizavel-30-watts-3000k-4000k-6500k-bivolt-490x490mm-90046/219469) | 49 × 49 cm | 30 W · 3000/4000/6500 K · **dimerizável** | R$462 Pix | Atende ao "3000 K regulável" pedido para o quarto |
+**Soma dos subtotais: R$4.938,62.** Preserva preços/provisões do README; não acrescenta itens duplicados. DiferençaR$1.398,62 frente aosR$3.540 da R44 não foi incorporada. Faltam frete, conexões, cabos, caixas, terminações, fixações, comandos comuns não reaproveitáveis, pilhas/suportes ausentes e possíveis adaptações/extensões. Mão de obra elétrica em I01, cobertura a conferir. Ausência de preço não vale zero.
 
-**Sugestão de combinação:** C no quarto (precisa regular a luz); A na cozinha e na sala; B na lavanderia, no escritório e no banheiro. Custo estimado para 7 plafons: cerca de **R$1.900–2.300**.
+**Bloqueios para comprar:** IL02/IL03 (SKU e uso WiZ/Jurerê), IL04/IL05 (pulsador), IL06/IL07 (fontes/fitas) e IL08/IL09 (kits/variantes/luminárias). [Rascunhos prontos, não enviados](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados). Não repetir estudo nominal nem trocar para Liny/ECO/SceneSwitch para ignorar os bloqueios. Cozinha/lavanderia/banheiro continuam com interruptor comum; quarto smart continua requisito.
 
-## 2. Arandelas da cabeceira (Q01, Q02), brancas e compactas
+## Madeira do banheiro — escolha preservada
 
-| Opção | Produto | Preço | Observação |
-|---|---|---:|---|
-| **A (recomendada)** | [Spot branco com interruptor, LED 3000 K 2 W](https://www.lumled.com.br/produtos/arandela-branca-cabeceira-quarto-led-interruptor-spot-1k0yo/) | R$71–75 cada | O mais compacto (15 × 14 cm), com foco direcionável e interruptor próprio. Estava esgotado na consulta |
-| B | [Nordecor Evy 2054, haste flexível, 3 W 3000 K](https://www.arevoiluminacao.com.br/arandelas/arandela-led-evy-ip20-3w-branco-nordecor) | R$87–97 cada | Haste flexível, boa para leitura |
-| C | [Arcavi 3 W com USB](https://www.planetiluminacao.com.br/arandela-led-3w-arcavi-usb-leitura-make-interruptor-branca-bivolt) | R$136–140 cada | Tem porta USB para carregar o celular. Útil já que os apoios de celular saíram |
-
-## 3. Luz de bancada e LED indireto (C14, Q06, B10)
-
-| Opção | Produto | Preço | Observação |
-|---|---|---:|---|
-| **A (recomendada)** | Perfil de alumínio de sobrepor + fita 3000 K + fonte, em kit (ex.: [VLED 3 m dimerizável](https://lista.mercadolivre.com.br/perfil-de-sobrepor-3m)) | ~R$155 por 3 m | Para a bancada, que precisa regular a intensidade. Exige dimmer compatível com a fonte (a definir com o eletricista) |
-| B | Perfil sozinho (~R$30–46 por 3 m) + fita e fonte de boa marca, separadas | ~R$120–200 por trecho | Mais controle sobre a qualidade da fita (IRC ≥ 90). O eletricista monta |
-
-Para a cozinha, cerca de 2 m sob os aéreos. Para os aéreos do quarto e o teto do banheiro, os comprimentos saem da medição.
-
-## 4. Chapas do banheiro (P18, P19) — já escolhidas em 24/10
-
-Escolhidas em outra sessão do mesmo dia: **Arauco Louro Freijó Poro** nas laterais aparentes e **Arauco Beige Matt** nas frentes. Esta lista não reabre a escolha.
-
-**Ponto técnico a confirmar com a marcenaria:** perguntar se esses padrões existem em versão **resistente à umidade**. Se não existirem, exigir vedação cuidadosa das bordas e dos furos no gabinete do banheiro. Para os interiores, há o Branco TX em versão resistente à umidade (Guararapes RUC).
-
-## Como responder
-
-Basta escrever algo como: "Plafons: combinação sugerida · Arandela: A · Bancada: A".
+Arauco **Louro Freijó Poro** nas laterais aparentes e **Beige Matt** nas frentes, conforme registro24/10 nesta lista e [estado vigente](../../ESTADO_ATUAL.md). Não reabrir escolha. Produto/substrato, disponibilidade em18, bordas/vedação e amostra continuam com a marcenaria; uma chapa física recebe o mesmo padrão nas duas faces. BrancoTX só em peça interna separada quando explicitamente detalhada. O apoio P13 tem pergunta própria no [README de corte](../../04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md).
