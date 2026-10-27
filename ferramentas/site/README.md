@@ -98,7 +98,7 @@ Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficam
 
 As fontes editáveis ficam em `src`; `construir.py` gera os dois HTML autônomos. Atualizar os dados e os desenhos em conjunto quando uma decisão mudar. A planta anterior F118–F120 e o painel de materiais antigo são históricos.
 
-O fluxo `.github/workflows/pages.yml` executa `preparar_pages.py` a cada push em `main` e publica o artefato `.site` com página principal, moodboard, imagem de materiais e identificação da versão. A configuração do repositório deve usar GitHub Actions como origem do Pages. PDFs, fotos da visita, registros e arquivos de apoio não integram o artefato do site. O repositório conserva os documentos do projeto.
+O fluxo `.github/workflows/pages.yml` executa `preparar_pages.py` a cada push em `main` e publica o artefato `.site` com página principal, moodboard, imagem de materiais e identificação da versão. Pages usa GitHub Actions. Fotos da visita e registros ficam no repositório.
 
 Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de ambientes/vistas, estados, fórmulas de circulação, gestos de toque, esquema R02 incorporado e cópia HTML reaberta. Sem erros JavaScript, requisições externas ou transbordamento horizontal nos cenários testados.
 
@@ -107,3 +107,7 @@ Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de
 Teste de oclusão com duas faces cruzadas e seleção pela profundidade real; órbita de 360° com 24 vistas; sete ambientes nas três vistas; animações intermediárias, finais e reversas, redução de movimento, 12 fichas de interiores, 59 decisões, cópia HTML independente e telas de 1440, 412 e 340 px. Renderização WebGL sem erros JavaScript. Animações são ilustrativas e não certificam colisões ou execução.
 
 Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
+
+## Organização das fontes
+
+Componentes/Atual organizado por tema; referências atualizadas nas fichas e no site. ZIP: 264 entradas preservadas; CAD intacto.

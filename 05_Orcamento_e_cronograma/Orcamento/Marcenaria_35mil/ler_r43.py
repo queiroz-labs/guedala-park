@@ -1,7 +1,7 @@
 from pathlib import Path
 import zipfile, xml.etree.ElementTree as ET, json, hashlib
 folder=Path(__file__).resolve().parent
-model=folder.parents[1]/'Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/Guedala_Park_R43_Consolidado.FCStd'
+model=folder.parents[1]/'Modelo_FreeCAD/01_Consolidacao/Guedala_Park_R43_Consolidado.FCStd'
 with zipfile.ZipFile(model) as z:
     root=ET.fromstring(z.read('Document.xml'))
     objects=root.find('ObjectData').findall('Object')

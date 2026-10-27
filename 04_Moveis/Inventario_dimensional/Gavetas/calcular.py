@@ -3,7 +3,7 @@ import json, zipfile, hashlib, csv
 p=Path(__file__).resolve().parents[2]
 out=Path(__file__).resolve().parent
 r28=p/'Modelo_FreeCAD/02_Revisoes_e_estudos/Folga_teto_R28_2026-10-14/Guedala_Park_R28_Folga_Teto_Proposta.FCStd'
-r44=p/'Modelo_FreeCAD/01_Atual/FGVTN_R44_2026-10-22/Guedala_Park_R44_Consolidado.FCStd'
+r44=p/'Modelo_FreeCAD/01_FGVTN/Guedala_Park_R44_Consolidado.FCStd'
 old=json.loads((p/'Modelo_FreeCAD/02_Revisoes_e_estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.json').read_text(encoding='utf-8-sig'))
 checks=[]
 with zipfile.ZipFile(r28) as a,zipfile.ZipFile(r44) as b:

@@ -5,7 +5,7 @@ sys.path.append('C:/Users/Elias/AppData/Local/Programs/FreeCAD-1.1.4/lib')
 import FreeCAD as App
 
 here=Path(__file__).resolve().parent
-source=here.parents[1]/'Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd'
+source=here.parents[1]/'Modelo_FreeCAD/01_Cadeiras/Guedala_Park_R30_Juntas_Rotulos.FCStd'
 start=time.time(); before=hashlib.sha256(source.read_bytes()).hexdigest()
 doc=App.openDocument(str(source))
 def info(o):

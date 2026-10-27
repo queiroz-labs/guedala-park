@@ -26,7 +26,7 @@ Setor de 129 × 154 cm e altura sugerida de manuseio de 190–200 cm são refer�
 
 Modelo comercial, materiais, carga, curso e fixação ainda não fechados. A retirada da placa está concluída no modelo; os requisitos de instalação do varal permanecem em desenvolvimento.
 
-Fontes do projeto: sequência aprovada R10, [retirada da placa na R35](../../02_Modelo_3D/Componentes/Atual/Movimentos_R35_2026-10-21/README.md), conferências de campo.
+Fontes do projeto: sequência aprovada R10, [retirada da placa na R35](../../02_Modelo_3D/Componentes/Movimentos/Movimentos_R35_README.md), conferências de campo.
 
 ## T05 — percurso nominal com roupa, 26/10/2026
 

@@ -539,7 +539,7 @@
       "wood",
       "wood"
     ],
-    "evidence": "cadeira_lina.py (Consistencia_R30_2026-10-14): ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance38 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
+    "evidence": "ferramentas/componentes/Cadeiras/cadeira_lina.py: ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance38 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
     "geometrySHA256": "184b2f18d78b29fc7c07975fbe79cb1a93fa7cd061cc7b8828ac8376dda5fa42"
   },
   "Fechada_110Ponta_cozinha": {
@@ -1082,7 +1082,7 @@
       "wood",
       "wood"
     ],
-    "evidence": "cadeira_lina.py (Consistencia_R30_2026-10-14): ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance40 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
+    "evidence": "ferramentas/componentes/Cadeiras/cadeira_lina.py: ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance40 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
     "geometrySHA256": "1e1b2d595989e866eee33308224ab19e131b24aa6b0faba9bbc434f149a47f16"
   },
   "Fechada_110Lateral": {
@@ -1625,7 +1625,7 @@
       "wood",
       "wood"
     ],
-    "evidence": "cadeira_lina.py (Consistencia_R30_2026-10-14): ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance42 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
+    "evidence": "ferramentas/componentes/Cadeiras/cadeira_lina.py: ordered legs/frame, seat, backrest, crossbars; inserir_lina_R30.py:10 sets #c4a27b wood and #d8d0c2 fabric. R45 GuiDocument.xml ShapeAppearance42 verifies CAD faces [0,56) wood, [56,72) fabric, [72,84) wood. Current tessellation verified: triangles [144,500) seat, [500,512) backrest; [0,144) and [512,536) wood. Geometry hash must match.",
     "geometrySHA256": "af2e285b62fc3fbf281c7cd1bb9907b27f60251a649d2f48bee52641f546e3b8"
   }
 }

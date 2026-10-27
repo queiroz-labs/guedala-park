@@ -69,7 +69,7 @@ Nas cinco peças P07 comparadas, fonte e representação atual, alinhadas por tr
 
 Os **18 cortes sintéticos** (plano central em X/Y/Z de cada uma das seis peças de marcenaria) retornaram interseção e diferença válidas, sem volume de sobreposição. O maior resíduo de soma de volumes foi **5,523 mm³**; o maior relativo, **0,002651%**. São controles de robustez, não trajetórias CNC nem comprovação de usinagem. `fix(1e-7, 1e-7, 1e-5)` retornou sucesso, mas manteve os alertas; `removeSplitter()` também os manteve. Ambos conservaram o volume nesta amostra.
 
-A correção candidata para o fluxo próprio está nas cópias isométricas de [consolidar_r31.py](Componentes/Atual/Consolidacao_R31_2026-10-20/consolidar_r31.py): preservar `Placement` ou usar `transformShape()` para translações, rotações e espelhamentos, em vez da conversão geral de geometria. O ensaio isolado com o espelho passou nas cinco fontes analíticas. Isso não autoriza substituir chamadas que realmente precisem de escala não uniforme, nem executar o consolidador antigo sobre a R52.
+A correção candidata para o fluxo próprio está nas cópias isométricas de [consolidar_r31.py](../ferramentas/componentes/Consolidacao/consolidar_r31.py): preservar `Placement` ou usar `transformShape()` para translações, rotações e espelhamentos, em vez da conversão geral de geometria. O ensaio isolado com o espelho passou nas cinco fontes analíticas. Isso não autoriza substituir chamadas que realmente precisem de escala não uniforme, nem executar o consolidador antigo sobre a R52.
 
 R52, base e estudo R02 ficaram com os mesmos hashes. A verificação completa repetida passou com os 106 cenários. Nenhum reparo foi gravado no modelo.
 
@@ -125,7 +125,7 @@ Os relatórios históricos em `Componentes/Estudos/` preservam os caminhos antig
 | `Comparacao_colisoes_R51_R52.json` | Colisões antes e depois |
 | `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
 | `Historico/` | Estudos R46–R49 que o site ainda referencia; os binários R45 e R48 foram removidos em 26/10/2026 (recuperáveis no git) |
-| `Componentes/` | Ferragens, STEP e estudos de origem (grande; buscas o ignoram) |
+| `Componentes/` | Evidências por tema; grupo Atual reorganizado sem pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
 
 ## Contadores históricos para rastreabilidade
 

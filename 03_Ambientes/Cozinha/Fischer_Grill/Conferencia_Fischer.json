@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "chosen": "Fischer Infinity com grill sem turbo, preto127V,28349-64929",
   "method": "FreeCAD1.1.4 sem interface. Oito formas nativas copiadas e espelhadas pelo planoX3700. Proposta separada de envelopes, interseções volumétricas e triagem Peca* local. Sem salvar ou recomputar R30; não audita toda a instalação.",
-  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Cadeiras\\Guedala_Park_R30_Juntas_Rotulos.FCStd",
   "sha256_before": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
   "sha256_after": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
   "study": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\03_Ambientes\\Cozinha\\Fischer_Grill\\Estudo_Fischer_Grill_R30.FCStd",

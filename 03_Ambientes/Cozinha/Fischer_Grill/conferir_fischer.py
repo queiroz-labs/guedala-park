@@ -10,7 +10,7 @@ import FreeCAD as App,Part
 
 here=Path(__file__).resolve().parent
 project=here.parents[1]
-source=project/'Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd'
+source=project/'Modelo_FreeCAD/01_Cadeiras/Guedala_Park_R30_Juntas_Rotulos.FCStd'
 before=hashlib.sha256(source.read_bytes()).hexdigest()
 doc=App.openDocument(str(source))
 refs={}

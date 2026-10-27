@@ -48,7 +48,7 @@ Elias solicitou reduzir a marcenaria para R$35 mil sem perder armazenamento e ma
 
 # Revisão vigente R44 — 22/10/2026
 
-FreeCAD R44 — arquivo no ZIP · [Conferência e limites](../02_Modelo_3D/Componentes/Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](../02_Modelo_3D/Componentes/Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+FreeCAD R44 — arquivo no ZIP · [Conferência e limites](../02_Modelo_3D/Componentes/FGVTN/FGVTN_R44_LEIA-ME.md) · [Resposta e anexos FGVTN](../02_Modelo_3D/Componentes/FGVTN/Fontes/FGVTN_R44_LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 
@@ -93,7 +93,7 @@ Teto de investimento30% do apartamento; manter revestimentos novos de cozinha/ba
 
 # Conferência documental — 21/10/2026
 
-Atualizados resumo, painel, especificação do varal e complementos de orçamento/levantamento para refletir as decisões já executadas. R41 mantida; banco com guarda superior desde R37; placa do varal removida desde R35; Fischer grill escolhido; ferragens ainda com pendências explícitas. Consultas do cesto já enviadas, conforme [registro](../02_Modelo_3D/Componentes/Atual/Cesto_R41_2026-10-20/Envios_fabricantes_R41.md). Esta atualização não escolhe novas ferragens nem libera fabricação. [Resumo vigente](../ESTADO_ATUAL.md). Entradas abaixo preservam a sequência histórica e podem ter sido superadas por decisões posteriores.
+Atualizados resumo, painel, especificação do varal e complementos de orçamento/levantamento para refletir as decisões já executadas. R41 mantida; banco com guarda superior desde R37; placa do varal removida desde R35; Fischer grill escolhido; ferragens ainda com pendências explícitas. Consultas do cesto já enviadas, conforme [registro](../02_Modelo_3D/Componentes/Cesto/Envios_fabricantes_R41.md). Esta atualização não escolhe novas ferragens nem libera fabricação. [Resumo vigente](../ESTADO_ATUAL.md). Entradas abaixo preservam a sequência histórica e podem ter sido superadas por decisões posteriores.
 
 ---
 
@@ -103,7 +103,7 @@ Atualizados resumo, painel, especificação do varal e complementos de orçament
 
 ## 20/10/2026 — atualização geral solicitada: FreeCAD R31 e site R11
 
-Elias pediu atualizar site e FreeCAD com tudo que ainda estava separado. [R31](../02_Modelo_3D/Componentes/Atual/Consolidacao_R31_2026-10-20/README.md) consolida os estudos no modelo completo e [R11](../ferramentas/site/Consolidacao/README.md) atualiza o site existente. Fontes anteriores preservadas. A preferência sobre o banco recebida durante o trabalho foi apenas registrada: não aplicar a reversão para o baú convencional. Conferências geométricas e de interface não liberam fabricação nem compra.
+Elias pediu atualizar site e FreeCAD com tudo que ainda estava separado. [R31](../02_Modelo_3D/Componentes/Consolidacao/Consolidacao_R31_README.md) consolida os estudos no modelo completo e [R11](../ferramentas/site/Consolidacao/README.md) atualiza o site existente. Fontes anteriores preservadas. A preferência sobre o banco recebida durante o trabalho foi apenas registrada: não aplicar a reversão para o baú convencional. Conferências geométricas e de interface não liberam fabricação nem compra.
 
 ## 20/10/2026 — banco: bandeja lateral não agradou; reversão adiada, somente anotação
 

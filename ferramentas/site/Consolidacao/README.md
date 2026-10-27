@@ -1,6 +1,6 @@
 # Site R11 — consolidação com o FreeCAD R31
 
-20/10/2026 · [Site](https://queiroz-labs.github.io/guedala-park/) · [HTML autônomo](../Guedala_Park_Interativo.html) · [Modelo de origem](../../../02_Modelo_3D/Componentes/Atual/Consolidacao_R31_2026-10-20/README.md).
+20/10/2026 · [Site](https://queiroz-labs.github.io/guedala-park/) · [HTML autônomo](../Guedala_Park_Interativo.html) · [Modelo de origem](../../../02_Modelo_3D/Componentes/Consolidacao/Consolidacao_R31_README.md).
 
 Móveis fixos atualizados a partir de 327 peças do FreeCAD R31, com o mesmo espelhamento do apartamento. Inclui módulo do Fischer com apoio e grelhas, armários e interiores atuais, cabeceira, banco de estudo e apoios do cesto. Fichas e escolhas incorporam Fischer sem turbo, KE4GC/GN, cama atual de viúvo e queen futura, inventário, ciclismo, iluminação do banheiro e TV com aplicativos na própria TV.
 

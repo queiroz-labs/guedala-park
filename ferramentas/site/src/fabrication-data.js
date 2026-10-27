@@ -2437,7 +2437,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
         "04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md",
@@ -4330,7 +4330,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -5488,7 +5488,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -8860,7 +8860,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -9836,7 +9836,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Minifix_C.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
@@ -11367,7 +11367,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -12640,7 +12640,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -14411,7 +14411,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -16675,7 +16675,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -19017,7 +19017,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Espelheiro.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",

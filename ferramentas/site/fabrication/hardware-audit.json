@@ -396,7 +396,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -412,7 +412,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -479,7 +479,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
         "04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md"
@@ -494,11 +494,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -778,7 +778,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -794,7 +794,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -862,7 +862,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -878,11 +878,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -942,7 +942,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -958,7 +958,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -1010,7 +1010,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md"
@@ -1025,11 +1025,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -1437,7 +1437,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -1453,7 +1453,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -1520,7 +1520,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -1536,11 +1536,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -1601,7 +1601,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -1617,7 +1617,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -1716,7 +1716,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Minifix_C.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
@@ -1733,11 +1733,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -1809,7 +1809,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -1825,7 +1825,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -1891,7 +1891,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -1907,11 +1907,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -1971,7 +1971,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -1987,7 +1987,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -2053,7 +2053,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -2069,11 +2069,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -2318,7 +2318,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -2334,7 +2334,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -2400,7 +2400,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -2416,11 +2416,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -2680,7 +2680,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -2696,7 +2696,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -2763,7 +2763,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Avanco_pendencias/Ferragens/Dobradicas_46_compatibilidade.html",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -2779,11 +2779,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {
@@ -3103,7 +3103,7 @@
               "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
             },
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
             }
           ],
@@ -3119,7 +3119,7 @@
           "assembly": "Um calço por dobradiça; não misturar fabricante/furação e não duplicar se já incluído. A quantidade histórica56 da fonteR38 é superada pela contagemR45.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+              "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
               "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
             },
             {
@@ -3202,7 +3202,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+        "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Espelheiro.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
@@ -3218,11 +3218,11 @@
           "trecho": "As famílias de abrir totalizam24folhas e52dobradiças no estudo vigente:42 comuns/20folhas,4 no canto e6 no espelheiro. As4dobradiças e2folhas antigas do gabinete do banheiro foram excluídas: a R43 as substituiu por portas de correr. A tabela históricaR41/R42 com56não é quantitativo vigente de compra. A contagem não é aprovação de resistência. Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Blum71B3550 | 56 dobradiças | Oferta identificada; acabamento pendente | Varotti: par08888383, acabamento Onyx | Código-base igual ao estudo; oferta encontrada é Onyx. Não alterar acabamento/modelo automaticamente; conta"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Atual/Ferragens_R38_2026-10-20/README.md",
+          "path": "02_Modelo_3D/Componentes/Ferragens/Ferragens_R38_README.md",
           "trecho": "Calços | Blum173H7100; alternativa175H3100 não aplicada | 56 calços | Não fechado: código/estoque exato | Marceneiro: calço cruz0; Floresta: calço reto05891994 | Calço cruz: distância37mm, excêntrico, mas anúncio não identifica173H7100. Calço reto05891994 usa20mm e é outra implan"
         },
         {

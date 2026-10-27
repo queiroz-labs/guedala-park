@@ -3,7 +3,7 @@ from pathlib import Path
 import zipfile, xml.etree.ElementTree as ET, json, hashlib
 HERE=Path(__file__).resolve().parent
 PROJECT=HERE.parents[1]
-MODEL=PROJECT/'Modelo_FreeCAD/01_Atual/Consistencia_R30_2026-10-14/Guedala_Park_R30_Juntas_Rotulos.FCStd'
+MODEL=PROJECT/'Modelo_FreeCAD/01_Cadeiras/Guedala_Park_R30_Juntas_Rotulos.FCStd'
 raw=MODEL.read_bytes()
 xml=ET.fromstring(zipfile.ZipFile(MODEL).read('Document.xml'))
 objects={o.get('name'):o for o in xml.findall('./ObjectData/Object')}

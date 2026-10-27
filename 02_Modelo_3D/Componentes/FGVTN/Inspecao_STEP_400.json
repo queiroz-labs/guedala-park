@@ -1,0 +1,996 @@
+{
+  "FECHADA": {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\FGVTN\\Fontes\\54FGOC12400TSX0_FECHADA.STEP",
+    "sha256": "c4e8aae4b84a3301d3dc06c1a1706fa2ca3db2f739ddb2995024dd287594167c",
+    "products": [
+      "Espelhar54FGOC12 - SLOW1",
+      "54FGOC12 - BASE_400mm",
+      "54FGOC12 - PE\\X2\\00c7\\X0\\A B_400MM",
+      "54FGOC12400TSX0 - CORREDI\\X2\\00c7\\X0\\A FGVTN OCULTA SLOW ET 400MM_FECHADA",
+      "54FGOC12 - PONTEIRA",
+      "54FGOC12 - PE\\X2\\00c7\\X0\\A C 2_400"
+    ],
+    "objects": [
+      {
+        "name": "Part__Feature",
+        "label": "54FGOC12 - BASE_400mm",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [],
+        "bbox": [
+          -19.700000000004746,
+          -3.5085491628092233e-12,
+          -148.50000000000003,
+          19.700000000000003,
+          47.54999999999998,
+          148.5
+        ],
+        "solids": 1,
+        "volume": 51788.23055070115,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature001",
+        "label": "54FGOC12 - PEÇA B_400MM",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [],
+        "bbox": [
+          1.5999999999999988,
+          10.499999999999979,
+          -257.80000000000007,
+          30.60000000000001,
+          39.04999999999998,
+          106.19999999999996
+        ],
+        "solids": 1,
+        "volume": 24274.23912346573,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature002",
+        "label": "54FGOC12 - PEÇA B_400MM001",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [],
+        "bbox": [
+          -4.424518745796769,
+          5.9449999999999825,
+          -3.8795187457968248,
+          1.8245187457967753,
+          13.174518745796755,
+          6.499999999999943
+        ],
+        "solids": 1,
+        "volume": 79.07095351464307,
+        "valid": true
+      },
+      {
+        "name": "_54FGOC12___PEÇA_B_400MM",
+        "label": "54FGOC12 - PEÇA B_400MM002",
+        "type": "App::Part",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [
+          "Origin",
+          "Part__Feature001",
+          "Part__Feature002"
+        ],
+        "bbox": [
+          -4.424518745796769,
+          5.9449999999999825,
+          -257.80000000000007,
+          30.60000000000001,
+          39.04999999999998,
+          106.19999999999996
+        ],
+        "solids": 2,
+        "volume": 24353.31003452506,
+        "valid": true
+      },
+      {
+        "name": "Origin",
+        "label": "Origin",
+        "type": "App::Origin",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [
+          "X_Axis",
+          "Y_Axis",
+          "Z_Axis",
+          "XY_Plane",
+          "XZ_Plane",
+          "YZ_Plane",
+          "Origin001"
+        ]
+      },
+      {
+        "name": "X_Axis",
+        "label": "X-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Y_Axis",
+        "label": "Y-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Z_Axis",
+        "label": "Z-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XY_Plane",
+        "label": "XY-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XZ_Plane",
+        "label": "XZ-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          -1e+100,
+          1e+100,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "YZ_Plane",
+        "label": "YZ-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Origin001",
+        "label": "Origin001",
+        "type": "App::Point",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature003",
+        "label": "Espelhar54FGOC12 - SLOW1",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [],
+        "bbox": [
+          -16.950000000000493,
+          1.7499999999999964,
+          -144.0,
+          3.849999999999916,
+          10.550000000000006,
+          70.00000000000006
+        ],
+        "solids": 1,
+        "volume": 15281.109637495027,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature004",
+        "label": "54FGOC12 - PEÇA C 2_400",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [],
+        "bbox": [
+          6.949999999999992,
+          5.299999999999994,
+          -251.89999999999998,
+          31.15,
+          24.599999999999994,
+          60.10000000000002
+        ],
+        "solids": 1,
+        "volume": 27323.315388546,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature005",
+        "label": "54FGOC12 - PONTEIRA",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [],
+        "bbox": [
+          1.6000000000090027,
+          6.350000000005161,
+          74.10993325950245,
+          17.400000000009268,
+          28.224052632396795,
+          106.26779945616505
+        ],
+        "solids": 1,
+        "volume": 2129.9339587751897,
+        "valid": true
+      },
+      {
+        "name": "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA",
+        "label": "54FGOC12400TSX0 - CORREDIÇA FGVTN OCULTA SLOW ET 400MM_FECHADA",
+        "type": "App::Part",
+        "parents": [],
+        "children": [
+          "Origin002",
+          "Part__Feature",
+          "_54FGOC12___PEÇA_B_400MM",
+          "Part__Feature003",
+          "Part__Feature004",
+          "Part__Feature005"
+        ],
+        "bbox": [
+          -19.700000000004746,
+          -3.5085491628092233e-12,
+          -257.80000000000007,
+          31.15,
+          47.54999999999998,
+          148.5
+        ],
+        "solids": 6,
+        "volume": 120875.90989820674,
+        "valid": true
+      },
+      {
+        "name": "Origin002",
+        "label": "Origin004",
+        "type": "App::Origin",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_FECHADA"
+        ],
+        "children": [
+          "X_Axis001",
+          "Y_Axis001",
+          "Z_Axis001",
+          "XY_Plane001",
+          "XZ_Plane001",
+          "YZ_Plane001",
+          "Origin003"
+        ]
+      },
+      {
+        "name": "X_Axis001",
+        "label": "X-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Y_Axis001",
+        "label": "Y-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Z_Axis001",
+        "label": "Z-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XY_Plane001",
+        "label": "XY-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XZ_Plane001",
+        "label": "XZ-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          -1e+100,
+          1e+100,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "YZ_Plane001",
+        "label": "YZ-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Origin003",
+        "label": "Origin003",
+        "type": "App::Point",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      }
+    ]
+  },
+  "ABERTA": {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\FGVTN\\Fontes\\54FGOC12400TSX0_ABERTA.STEP",
+    "sha256": "956434f65c3a7e7a521b2d62a7335f16a89d46486fd74b86b0d3f17e5d5b5539",
+    "products": [
+      "Espelhar54FGOC12 - SLOW1",
+      "54FGOC12 - BASE_400mm",
+      "54FGOC12400TSX0 - CORREDI\\X2\\00c7\\X0\\A FGVTN OCULTA SLOW ET 400MM_ABERTA",
+      "54FGOC12 - PE\\X2\\00c7\\X0\\A C 2_400",
+      "54FGOC12 - PONTEIRA",
+      "54FGOC12 - PE\\X2\\00c7\\X0\\A B_400MM"
+    ],
+    "objects": [
+      {
+        "name": "Part__Feature",
+        "label": "54FGOC12 - BASE_400mm",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [],
+        "bbox": [
+          -19.700000000004746,
+          -3.5085491628092233e-12,
+          -148.50000000000003,
+          19.700000000000003,
+          47.54999999999998,
+          148.5
+        ],
+        "solids": 1,
+        "volume": 51788.23055070115,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature001",
+        "label": "54FGOC12 - PEÇA B_400MM",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [],
+        "bbox": [
+          1.5999999999999988,
+          10.499999999999979,
+          116.50000000000006,
+          30.60000000000001,
+          39.04999999999998,
+          480.50000000000006
+        ],
+        "solids": 1,
+        "volume": 24274.239123465733,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature002",
+        "label": "54FGOC12 - PEÇA B_400MM001",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [],
+        "bbox": [
+          -4.424518745796769,
+          5.9449999999999825,
+          370.4204812542033,
+          1.8245187457967753,
+          13.174518745796755,
+          380.80000000000007
+        ],
+        "solids": 1,
+        "volume": 79.07095351464308,
+        "valid": true
+      },
+      {
+        "name": "_54FGOC12___PEÇA_B_400MM",
+        "label": "54FGOC12 - PEÇA B_400MM002",
+        "type": "App::Part",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [
+          "Origin",
+          "Part__Feature001",
+          "Part__Feature002"
+        ],
+        "bbox": [
+          -4.424518745796769,
+          5.9449999999999825,
+          116.50000000000006,
+          30.60000000000001,
+          39.04999999999998,
+          480.50000000000006
+        ],
+        "solids": 2,
+        "volume": 24353.31003452508,
+        "valid": true
+      },
+      {
+        "name": "Origin",
+        "label": "Origin",
+        "type": "App::Origin",
+        "parents": [
+          "_54FGOC12___PEÇA_B_400MM"
+        ],
+        "children": [
+          "X_Axis",
+          "Y_Axis",
+          "Z_Axis",
+          "XY_Plane",
+          "XZ_Plane",
+          "YZ_Plane",
+          "Origin001"
+        ]
+      },
+      {
+        "name": "X_Axis",
+        "label": "X-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Y_Axis",
+        "label": "Y-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Z_Axis",
+        "label": "Z-axis",
+        "type": "App::Line",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XY_Plane",
+        "label": "XY-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XZ_Plane",
+        "label": "XZ-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          -1e+100,
+          1e+100,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "YZ_Plane",
+        "label": "YZ-plane",
+        "type": "App::Plane",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Origin001",
+        "label": "Origin001",
+        "type": "App::Point",
+        "parents": [
+          "Origin"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature003",
+        "label": "Espelhar54FGOC12 - SLOW1",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [],
+        "bbox": [
+          -16.950000000000493,
+          1.7499999999999964,
+          -144.0,
+          3.849999999999916,
+          10.550000000000006,
+          70.00000000000006
+        ],
+        "solids": 1,
+        "volume": 15281.109637495027,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature004",
+        "label": "54FGOC12 - PEÇA C 2_400",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [],
+        "bbox": [
+          6.949999999999992,
+          5.299999999999994,
+          4.449999999999989,
+          31.15,
+          24.599999999999994,
+          316.45
+        ],
+        "solids": 1,
+        "volume": 27323.315388546,
+        "valid": true
+      },
+      {
+        "name": "Part__Feature005",
+        "label": "54FGOC12 - PONTEIRA",
+        "type": "Part::Feature",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [],
+        "bbox": [
+          1.6000000000090027,
+          6.350000000005161,
+          448.40993325950245,
+          17.400000000009268,
+          28.224052632396795,
+          480.5677994561651
+        ],
+        "solids": 1,
+        "volume": 2129.9339587751883,
+        "valid": true
+      },
+      {
+        "name": "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA",
+        "label": "54FGOC12400TSX0 - CORREDIÇA FGVTN OCULTA SLOW ET 400MM_ABERTA",
+        "type": "App::Part",
+        "parents": [],
+        "children": [
+          "Origin002",
+          "Part__Feature",
+          "_54FGOC12___PEÇA_B_400MM",
+          "Part__Feature003",
+          "Part__Feature004",
+          "Part__Feature005"
+        ],
+        "bbox": [
+          -19.700000000004746,
+          -3.5085491628092233e-12,
+          -148.50000000000003,
+          31.15,
+          47.54999999999998,
+          480.5677994561651
+        ],
+        "solids": 6,
+        "volume": 120875.88706278644,
+        "valid": true
+      },
+      {
+        "name": "Origin002",
+        "label": "Origin004",
+        "type": "App::Origin",
+        "parents": [
+          "_54FGOC12400TSX0___CORREDIÇA_FGVTN_OCULTA_SLOW_ET_400MM_ABERTA"
+        ],
+        "children": [
+          "X_Axis001",
+          "Y_Axis001",
+          "Z_Axis001",
+          "XY_Plane001",
+          "XZ_Plane001",
+          "YZ_Plane001",
+          "Origin003"
+        ]
+      },
+      {
+        "name": "X_Axis001",
+        "label": "X-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Y_Axis001",
+        "label": "Y-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Z_Axis001",
+        "label": "Z-axis001",
+        "type": "App::Line",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          -1e+100,
+          0.0,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XY_Plane001",
+        "label": "XY-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "XZ_Plane001",
+        "label": "XZ-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          -1e+100,
+          0.0,
+          -1e+100,
+          1e+100,
+          0.0,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "YZ_Plane001",
+        "label": "YZ-plane001",
+        "type": "App::Plane",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          -1e+100,
+          -1e+100,
+          0.0,
+          1e+100,
+          1e+100
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      },
+      {
+        "name": "Origin003",
+        "label": "Origin003",
+        "type": "App::Point",
+        "parents": [
+          "Origin002"
+        ],
+        "children": [],
+        "bbox": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "solids": 0,
+        "volume": 0.0,
+        "valid": true
+      }
+    ]
+  }
+}

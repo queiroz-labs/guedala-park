@@ -77,7 +77,7 @@ Os registros abaixo preservam decisões e resultados das respectivas datas. Inst
 
 # Revisão vigente R44 — 22/10/2026
 
-FreeCAD R44 — arquivo no ZIP · [Conferência e limites](../02_Modelo_3D/Componentes/Atual/FGVTN_R44_2026-10-22/LEIA-ME.md) · [Resposta e anexos FGVTN](../02_Modelo_3D/Componentes/Atual/FGVTN_R44_2026-10-22/Fontes/LEIA-ME.md).
+FreeCAD R44 — arquivo no ZIP · [Conferência e limites](../02_Modelo_3D/Componentes/FGVTN/FGVTN_R44_LEIA-ME.md) · [Resposta e anexos FGVTN](../02_Modelo_3D/Componentes/FGVTN/Fontes/FGVTN_R44_LEIA-ME.md).
 
 R44 salva e reaberta a partir da R43, preservada integralmente. Acrescentadas referências oficiais da corrediça FGVTN 400 mm nos estados aberto e fechado, em grupo oculto e nas coordenadas de origem. Curso geométrico de 374,3 mm. **Não são ferragens instaladas nem montagem aprovada.** Berlin, cores, banco com duas tampas e duas almofadas, gabinete do banheiro com portas de correr e remoção dos apoios de óculos/celular preservados.
 
@@ -91,7 +91,7 @@ O orçamento R43 de 22/10/2026 continua sendo a referência financeira; a inclus
 
 > **Orçamento R43 — 22/10/2026:** [99 itens e premissas](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md). Subtotal R$ 142.927,12 + reserva de 10% R$ 14.292,71 = **R$ 157.219,83**; excede o teto de R$ 105.000 em R$ 52.219,83. Planejamento preliminar: 84,6% do subtotal estimado, sem contratação. Excluídos cadeira de escritório, air fryer, utensílios e bens existentes documentados. Próximo passo: cotar marcenaria e obra com escopo comparável, preservando armazenamento; não considerar economias não demonstradas.
 
-> **R43 vigente — 22/10/2026:** FreeCAD R43 — arquivo no ZIP, salvo e reaberto. R42 preservada byte a byte. Incorporado gabinete do banheiro com duas portas de correr e frente removível, sem reduzir o envelope interno; testes de abertura e manutenção sem interseções no modelo. Recuperadas mesa Berlin e três cadeiras que estavam sem geometria carregada; cores Arenza, base preta e estofado claro. Banco corrigido a pedido de Elias para somente duas tampas e duas almofadas, mantendo interior e apoios. Ver [escopo, resultados e limites](../02_Modelo_3D/Componentes/Atual/Consolidacao_R43_2026-10-21/LEIA-ME.md). Ferragens reais, resistência, suspensão e levantamento hidráulico continuam pendentes; gavetas aguardam engates FGVTN. Os registros R42/R02 abaixo são históricos onde superados.
+> **R43 vigente — 22/10/2026:** FreeCAD R43 — arquivo no ZIP, salvo e reaberto. R42 preservada byte a byte. Incorporado gabinete do banheiro com duas portas de correr e frente removível, sem reduzir o envelope interno; testes de abertura e manutenção sem interseções no modelo. Recuperadas mesa Berlin e três cadeiras que estavam sem geometria carregada; cores Arenza, base preta e estofado claro. Banco corrigido a pedido de Elias para somente duas tampas e duas almofadas, mantendo interior e apoios. Ver [escopo, resultados e limites](../02_Modelo_3D/Componentes/Consolidacao/Consolidacao_R43_LEIA-ME.md). Ferragens reais, resistência, suspensão e levantamento hidráulico continuam pendentes; gavetas aguardam engates FGVTN. Os registros R42/R02 abaixo são históricos onde superados.
 
 > **Banheiro — detalhamento R02 (21/10/2026):** solução atual em `../04_Moveis/Avanco_pendencias/Banheiro_solucao/Detalhamento/Conferencia_R02.html`. Quadro frontal removível por4 M6, portas292×500×18, transpasse24, folga2 sob pedra; caixa interna preservada. Acesso270/235 no uso e564 com a frente retirada. Percurso20 à frente→120 à direita→330 à frente e9 combinações de abertura passaram nos envelopes CAD; acesso ao sifão validado apenas no cenário de referência. R42 principal inalterada. Permanecem material/resistência/suspensão, kit real/retensão e hidráulica/porta real. Não liberar fabricação nem marcar a pendência encerrada. R01 fica como histórico.
 
@@ -148,4 +148,4 @@ Para a próxima visita, usar o complemento de conferência R41. Os dados ausente
 
 Código e dimensões confirmados; carga da aplicação inteira verificada; eixo/furação e retenção definidos; interferências e acessos conferidos; fornecedor identificado; documentação e modelo salvos em concordância. Animação funcional sozinha não atende a esses critérios.
 
-[Histórico de decisões](Registro_de_decisoes.md) · [Evidências e mensagens do cesto](../02_Modelo_3D/Componentes/Atual/Cesto_R41_2026-10-20/Envios_fabricantes_R41.md).
+[Histórico de decisões](Registro_de_decisoes.md) · [Evidências e mensagens do cesto](../02_Modelo_3D/Componentes/Cesto/Envios_fabricantes_R41.md).

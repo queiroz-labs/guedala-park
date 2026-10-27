@@ -1,6 +1,6 @@
 {
   "data": "2026-10-14",
-  "arquivo": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Atual\\Consistencia_R30_2026-10-14\\Guedala_Park_R30_Juntas_Rotulos.FCStd",
+  "arquivo": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Cadeiras\\Guedala_Park_R30_Juntas_Rotulos.FCStd",
   "sha256": "ee6f8aabb64009fcc3453896fdbed724c416bf622eb3ff0346d887ec44df8bf2",
   "metodo": "Parâmetros XML salvos de oito caixas; translação do módulo e espelhamento X=7400-X documentado na R28. Sem FreeCAD ativo, recompute, leitura de BREP, inspeção dos vínculos ou nova auditoria de colisões. Não valida montagem real.",
   "referencias": "Parede Y=7000 e transformação herdadas do estudo, sem levantamento físico.",

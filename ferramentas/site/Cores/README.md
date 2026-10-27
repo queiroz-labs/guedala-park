@@ -20,7 +20,7 @@ Os tons são aproximações. Madeira clara do banheiro não foi substituída por
 ## Fontes e implementação
 
 - [Decisão Branco TX por face](../fabrication/Decisao_acabamentos_R13.md) e [atribuições por peça](../fabrication/finish-audit.json).
-- Consolidação R43, `Modelo_FreeCAD/01_Atual/Consolidacao_R43_2026-10-21/LEIA-ME.md`, seção de correções da sala: Arenza, base preta e tecido claro.
+- Consolidação R43, `Modelo_FreeCAD/01_Consolidacao/Consolidacao_R43_LEIA-ME.md`, seção de correções da sala: Arenza, base preta e tecido claro.
 - Cadeiras: 168 triângulos de madeira e 368 de tecido por cadeira. Faixas confirmadas com os sólidos originais e os arquivos ShapeAppearance do FCStd R45. [Mapa com hashes geométricos](../fabrication/chair-visual-faces.json).
 - [Gerador visual](../build_visual_finishes.py) separado da geometria e das listas de fabricação. Faces internas/externas dos painéis são orientadas pelo eixo de espessura e posição na caixa; não é mapa executivo de revestimento ou bordas.
 
