@@ -173,7 +173,7 @@ Enviar os subpedidos separadamente:
 
 ## 6. Marcenaria — orçamento preliminar das fichas R15
 
-**Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
+**Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Pedir ao menos três propostas com o mesmo escopo; não revelar a meta antes das primeiras respostas, conforme a estratégia do pacote de cotação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
 
 **Assunto:** Orçamento preliminar de marcenaria —20 móveis, fichasR15, apartamento40m²
 
@@ -181,7 +181,7 @@ Enviar os subpedidos separadamente:
 >
 > Preservar armazenamento, acabamentos, armários até o teto e a regra sem tubos ou quadro metálico substituto. Uma chapa física recebe o mesmo acabamento nas duas faces; não adicionar caixa interna15mm automaticamente. Identificar fabricante/código/espessura das chapas, bordas, ferragens e alternativas sem substituir por conta própria.
 >
-> Separar materiais, ferragens, corte/usinagem/bordas, acabamento, montagem, transporte, medição e impostos. Informar inclusões/exclusões, validade, prazo, pagamento e custo das amostras/protótipos. A provisão atual éR$46.500; buscamos proposta de atéR$35.000 para o mesmo escopo, sem tratar a meta como preço obtido.
+> Separar materiais, ferragens, corte/usinagem/bordas, acabamento, montagem, transporte, medição e impostos. Informar inclusões/exclusões, validade, prazo, pagamento e custo das amostras/protótipos.
 >
 > Cotem também o crédito real para adiar somente o painel e as duas prateleiras daTV, mantendo TV e suporte independente; não descontar R$850 automaticamente. Confirmem se o acabamento M03 está incluído para evitar cobrança duplicada. Sinalizem quais itens só podem ser precificados após medição/ensaio e o preço de cada visita técnica. Obrigado!
 

@@ -40,3 +40,5 @@ Lixeiras: LIX=A (Elias,27/10/2026, resposta “A”); manter modelos e aceitar a
 Integração27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro decisões; pacote local R24, sem novo envio. Gabaritos, produtos e comprovações físicas continuam pendentes.
 
 **Anteprojeto, 27/10/2026:** [D01: três cenários de faseamento](Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), execução condicional de R$119.119,74 a R$119.969,74, com luz parcial atualizadaR$5.120,52, TV e reserva preservadas. Dependem de R$17.317,45 de negociação e decisão de faseamento; não são orçamento contratado. Redução comprovada ainda insuficiente.
+
+**Contraprova D01:** sem outras negociações, após M09 e adiamento M05/M06/M08, marcenaria precisa caber emR$29.312,81 (antes das lacunas); pacote35mil resultariaR$125.687,19. [Memória](Orcamento/Orcamento_R43.md#contraprova-sem-descontos-presumidos--limite-do-pedido-comercial). Não divulgar meta antes das três primeiras propostas.
