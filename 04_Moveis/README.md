@@ -55,3 +55,5 @@ Cada chapa física tem um padrão igual nas duas faces. Duas peças separadas po
 
 
 R53/fichas R15,27/10: P02 registra U1–U4=A; P13/Peca350 incluída na auditoria (249 peças), Arenza liso nas duas faces, por F13=A de Elias27/10. Produto18/bordas e corte permanecem pendentes; estudos resistentes não incorporados.
+
+[Dependências dimensionais](Dependencias/README.md): regras de encaixe e interfaces da R53; caixas fixas por padrão, fechamentos separados.

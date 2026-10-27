@@ -22,3 +22,7 @@ O CSV [Medidas e impactos](../../07_Imovel/Medidas_e_impactos.csv) concentra as 
 Regenerar: `python ferramentas/pranchas/gerar.py`. [Guia em três passos e limites](../../06_Entregas/Caderno_pranchas/README.md). O PDF R02 distingue N/M e informa cotas nominais por folha; alturas de estudo e fechamento dependem do pé-direito do ambiente. Alteração não salva o CAD.
 
 Teste externo de 27/10/2026: seis PD medidos fictícios de 2470 mm prevaleceram sobre os nominais de 2600 mm; 99 cotas mudaram e quatro conflitos ao teto foram avisados. Foi apenas ensaio em cópia apagada: **nenhuma medição real incorporada**; esse teste histórico usou nominal de 2,60 m. Desde 27/10/2026, o nominal é 2,60 m nos cômodos e 2,50 m no banheiro, a confirmar.
+
+## Dependências dos móveis
+
+[Regras da R53](../../04_Moveis/Dependencias/README.md) vinculam envelopes, teto, vãos e instalações ao CSV. DEP-COZ-PRUMO registra o desvio base/topo da parede da cozinha; zero nominal não comprova prumo.
