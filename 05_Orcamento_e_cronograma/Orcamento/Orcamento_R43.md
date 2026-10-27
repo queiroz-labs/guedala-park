@@ -99,6 +99,12 @@ Preparados em26/10/2026, **sem adoção nem nova oferta negociada**. A base cont
 
 **Decisão R44 para Elias (também no README da área):** A — preservar tudo e pedir redução adicional de pelo menos1.729,28 mais lacunas; B — admitir faseamento da TV da sala, condicionado às negociações e à cobertura das lacunas. Resposta=__; data/fonte=__. Nenhuma alternativa retira equipamentos, cortinas ou armazenamento automaticamente. Não cortar RT, testes, proteção elétrica/gás, juntas ou ancoragens para fechar aritmética.
 
+## Divergência de escopo M09 — corrigir na próxima consolidação
+
+Conferência26/10: a análise de móveis ainda incluía cortina do quarto (estimativa650/meta550), embora o [Registro,21/09/2026](../../01_Programa_e_decisoes/Registro_de_decisoes.md#quarto--janela-madeira-e-cabeceira-definidos-21092026) diga “Sem cortina no quarto”. [Memória corrigida e escopo](Moveis_e_tecidos/Analise_moveis.md). Não é escolha nova nem desconto: não cotar M09 como item vigente. A R44 fica preservada como base rastreável solicitada; valor sem essa provisão indevida seria137.098,11 (excesso17.098,11), mantendo a luz na provisão3.540.
+
+Nos cenários A/B acima, que já usam **meta** de móveis, a correção é **−550**, não−650: A121.179,28 (excesso1.179,28) e B118.990,30 (margem1.009,70 nesta fase), antes de lacunas. Se M03 não vier incluído, acrescentar800: B119.790,30 (margem209,70). Não somar correção de650 da base e550 da meta; não recalcular desconto de cortina eliminada. Os cenários mantêm condições de negociação, faseamento e custos ausentes, sem adoção. Retomar por esta correção ao consolidar nova revisão financeira; não usar a provisão como escopo de compra.
+
 ## Retomada exata
 
 T07: memória anterior de iluminação identificada como histórica; cenários A/B preparados com proposta smart/Shelly, sem adoção; preços completos e escolha dos candidatos continuam pendentes. Próximo: fechar componentes de iluminação em T06 e obter composição comparável de materiais/ferragens/serviços quando o pacote sair da espera. Registrar novas ofertas com data, escopo, frete e exclusões; atualizar o total somente com base explícita. Planilha R43 permanece histórica/divergente, sem alteração nesta tarefa. Nenhuma compra, contato externo, mudança de CAD ou publicação.

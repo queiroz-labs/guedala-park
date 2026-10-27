@@ -1,5 +1,7 @@
 # Móveis e tecidos para adequação ao orçamento
 
+**Correção de escopo identificada em26/10/2026:** M09 (cortina do quarto) não pertence ao programa vigente. O [Registro de decisões,21/09/2026](../../../01_Programa_e_decisoes/Registro_de_decisoes.md#quarto--janela-madeira-e-cabeceira-definidos-21092026) registra “Sem cortina no quarto”; o [README do quarto](../../../03_Ambientes/Quarto_e_portas/README.md) preserva persiana integrada. A tabela de22/10 abaixo é a memória ainda incluída na base R44, não autorização para cotar três cortinas. Na próxima consolidação, retirar M09=R$650 da estimativa eR$550 da meta, sem reabrir escolha ou contabilizar como negociação. Categoria corrigida apenas por escopo: estimativaR$10.040,44/metaR$8.690,44; sala/escritório mantidos.
+
 22/10/2026. **Estimativa revisada: R$ 10.690,44, redução indicativa de R$ 698,49.** A meta de R$9.250 ainda exige R$1.440,44. Mantidos mesa Berlin, três cadeiras Lina, os dois sofás com baú, tapete e três cortinas. Preços de produtos separados da verba geral de fretes e montagem G02.
 
 ## Comparação completa
@@ -36,9 +38,9 @@ As quatro reduções a negociar somam **R$1.450**. Com elas, a categoria ficaria
 
 ## Escopo das cortinas e armazenamento
 
-Sala: manter tecido claro cobrindo a parede inteira e escurecimento independente. O [estudo compacto autorizado](../../../03_Ambientes/Sala_e_jantar/Ajustes_integrados.md) avalia blackout de rolo no vão e tecido frontal de pouco volume. A faixa de 7 cm é limite do estudo, não dimensão de produto validada; cotar com visita e amostra, sem presumir cabimento ou cortar móveis. Escritório: tecido claro e trilho, sem duplicar blackout que a janela já possui. Quarto: tecido e medidas finais ainda a especificar. Preservar trilhos e instalação em todos os preços.
+Sala: manter tecido claro cobrindo a parede inteira e escurecimento independente. O [estudo compacto autorizado](../../../03_Ambientes/Sala_e_jantar/Ajustes_integrados.md) avalia blackout de rolo no vão e tecido frontal de pouco volume. A faixa de 7 cm é limite do estudo, não dimensão de produto validada; cotar com visita e amostra, sem presumir cabimento ou cortar móveis. Escritório: tecido claro e trilho, sem duplicar blackout que a janela já possui. Quarto: sem cortina/trilho adicional; a menção de especificação anterior foi superada pela correção de escopo acima. Preservar trilhos e instalação em todos os preços.
 
-Nenhum baú, assento, cortina ou tapete foi retirado. Permanecem excluídos cadeira de escritório, bens já existentes documentados, utensílios e air fryer. Marcenaria, banco e seus estofamentos continuam em sua própria categoria; não cobrar novamente aqui.
+Nenhum baú, assento ou tapete foi retirado; excluir a cortina indevida do quarto na próxima consolidação, mantendo as duas demais. Permanecem excluídos cadeira de escritório, bens já existentes documentados, utensílios e air fryer. Marcenaria, banco e seus estofamentos continuam em sua própria categoria; não cobrar novamente aqui.
 
 ## Situação geral dos R$120 mil
 

@@ -23,6 +23,8 @@ T05 — P08/varal: percurso nominal P08 de 400 mm conferido contra obstáculos f
 
 T05 — P01/P06 e banheiro: divergências das sete caixas versus FGVTN 500 identificadas por objeto; faixas de retirada e ferramenta do BC43 calculadas. [Plano e próximas ações](Plano_execucao_ate_31_10.md). Montagens ainda condicionadas, sem mudança da R52.
 
-T07 — reconciliação vigente: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença875,94), sem duplicar banheiro/10,62. Provisão marcenaria46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
+T07 — memória anterior à proposta smart/Shelly: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença875,94), sem duplicar banheiro/10,62. Provisão marcenaria46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
 
 T07 — agenda27/10: [cenários A/B](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam ou adiam TV da sala, com valores/perdas e metas separadas de descontos. A memória de iluminação4.415,94 é histórica; proposta vigente parcial4.938,62. R44 permanece137.748,11. Pergunta de faseamento no LEIA-ME do orçamento; nenhuma escolha adotada.
+
+Coerência26/10: M09/cortina do quarto é provisão indevida frente ao Registro21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira.
