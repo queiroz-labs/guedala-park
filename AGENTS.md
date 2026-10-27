@@ -1,6 +1,6 @@
 # Regras do projeto Guedala Park
 
-> **Regras críticas (resumo; detalhes nas seções abaixo):** `git status` antes de tudo · commits pequenos, um assunto por commit, cedo (não acumule arquivos sem commit) · `git add` só por caminho, nunca `-A` · `python ferramentas/verificar_tudo.py` antes de cada commit · clone limpo com `--ci` antes de cada push · README da área + `ESTADO_ATUAL.md` no mesmo commit · não mude o modelo FreeCAD sem pedido de Elias · nunca "Elias aprovou" sem fonte na linha · nada pessoal no repositório · sem `__pycache__`/`node_modules`/backups na pasta · ao encerrar, informe o que ficou sem commit.
+> **Regras críticas (resumo; detalhes nas seções abaixo):** `git status` antes de tudo · commits pequenos, um assunto por commit, cedo (não acumule arquivos sem commit) · `git add` só por caminho, nunca `-A` · `python ferramentas/verificar_tudo.py` antes de cada commit · clone limpo com `--ci` antes de cada push · README da área + `ESTADO_ATUAL.md` no mesmo commit · não mude o modelo FreeCAD sem pedido de Elias · nunca "Elias aprovou" sem fonte na linha · nada pessoal no repositório · sem `__pycache__`/`node_modules`/backups na pasta · scripts de estudo em `ferramentas/estudos/`, nunca soltos na raiz de `ferramentas/` · `ESTADO_ATUAL.md` ≤ 14 KB (só o que vale + link; detalhe no README do móvel) · **não refine estudo nominal de item já condicionado a medidas reais/oficina/RT**: registre a dúvida no README e siga outra frente · ao encerrar, informe o que ficou sem commit.
 
 Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Seguir sempre, sem precisar pedir.
 
@@ -41,9 +41,15 @@ Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Se
 - Escreva para leitura rápida: tabela ou lista no topo com o que vale, detalhe depois. Dados numéricos grandes vão em JSON/CSV ao lado, referenciados pelo README, não colados no texto.
 - Pendência resolvida sai da lista de pendências (vira decisão no README). Não acumule "~~riscado~~".
 
+## 4b. Estudos e escopo
+
+- `ESTADO_ATUAL.md` tem teto de 14 KB (verificador): linha curta + link; números, casos e hipóteses vão para o README do móvel. Nada de parágrafo de diário nele.
+- **Não gaste esforço refinando um estudo nominal cujo resultado depende de medida real (chaves), oficina, ensaio ou RT.** Se o item já consta como condicionado/pendente no README, registre a pergunta exata e passe a outra frente (orçamento, cronograma, luminárias, e-mails, plano de reforma). Estudo novo só se mudar uma decisão, um custo ou uma compra.
+- Dados gerados volumosos (JSON/HTML de dezenas de milhares de linhas) só entram no git se o site ou a ficha usar; senão regenere por script e registre o hash no README.
+
 ## 5. Ferramentas fora do projeto
 
-- Scripts do projeto ficam em `ferramentas/` (gerador do site em `ferramentas/site`). Não deixe `.py`/`.cjs` de uso único espalhados pelas pastas de conteúdo.
+- Scripts do projeto ficam em `ferramentas/` (gerador do site em `ferramentas/site`). Na raiz de `ferramentas/` só `verificar_*.py` e `test_*.py`; script de estudo vai para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script solto). Não deixe `.py`/`.cjs` de uso único espalhados pelas pastas de conteúdo.
 - Nunca dentro do projeto: ambientes virtuais, `node_modules`, `__pycache__`, código-fonte de ferramentas de terceiros, saídas de testes, downloads de pesquisa brutos (`.firecrawl`). Use a pasta temporária da sessão e apague ao final.
 - `.site/` é gerado; não edite à mão. `guedala-pessoal/` (dados pessoais) nunca vai para o site nem para o repositório público.
 
