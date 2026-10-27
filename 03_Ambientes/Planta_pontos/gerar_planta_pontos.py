@@ -1,6 +1,6 @@
-"""Planta de pontos preliminar R00: elétrica, iluminação, água, esgoto e gás.
+"""Planta de pontos de anteprojeto R01: elétrica, iluminação, água, esgoto e gás.
 
-Paredes e pisos vêm de Estudo_interativo/src/app.js (mesma base do site, em cm).
+Paredes e pisos vêm de ferramentas/site/src/app.js (mesma base do site, em cm).
 Posições dos pontos derivam dos aparelhos do modelo R45; onde o modelo não tem
 aparelho, a posição é marcada como "a definir". Não altera CAD nem site.
 Uso: python gerar_planta_pontos.py
@@ -10,7 +10,7 @@ from html import escape
 import json, re
 
 HERE = Path(__file__).resolve().parent
-APP = (HERE.parent / 'Estudo_interativo/src/app.js').read_text(encoding='utf-8')
+APP = (HERE.parents[1] / 'ferramentas/site/src/app.js').read_text(encoding='utf-8')
 
 
 def literal(name):
@@ -31,11 +31,11 @@ FOOTPRINTS = [
 ]
 
 # (código, tipo, x, z, altura cm ou None, descrição, situação)
-# Tipos: T tomada, T20 tomada 20 A, D circuito dedicado, L luz no teto, A arandela/luz de parede,
+# Tipos: T tomada, T20 tomada 20 A, D ponto dedicado a conferir pelo RT, L luz no teto, A arandela/luz de parede,
 # AF água fria, AQ água quente, E esgoto, G gás, X exaustão.
 P = [
     # Cozinha
-    ('C01', 'D', 418, 695, 30, 'Forno Fischer 127 V · 2061 W / 16,2 A · circuito exclusivo', 'Aparelho escolhido; circuito a dimensionar'),
+    ('C01', 'D', 418, 695, 30, 'Forno Fischer Infinity 28349-64929 · 127 V · 2061 W', 'Exclusividade indicada no manual; circuito e implantação pelo RT'),
     ('C02', 'G', 405, 695, 50, 'Gás GN do cooktop KE4GC', 'GN confirmado; posição real a levantar'),
     ('C03', 'T', 432, 695, 50, 'Ignição do cooktop', 'A confirmar no manual'),
     ('C04', 'T', 418, 695, 200, 'Depurador DE61IX · 127 V', 'Aparelho escolhido'),
@@ -44,23 +44,23 @@ P = [
     ('C07', 'E', 478, 690, 45, 'Esgoto da pia', 'Existente; conferir posição'),
     ('C08', 'T20', 528, 690, 92, 'Torre automática de tomadas 20 A na bancada (área seca)', 'Posição a definir'),
     ('C09', 'T', 539, 695, 190, 'Micro-ondas ME23P · 127 V', 'Aparelho escolhido'),
-    ('C10', 'T', 560, 695, 110, 'Purificador PE12G', 'Aparelho escolhido'),
+    ('C10', 'T', 560, 695, 110, 'Purificador PE11X bivolt, uso127 V', 'Aparelho escolhido'),
     ('C11', 'AF', 552, 698, 110, 'Água fria do purificador', 'Derivação a confirmar'),
-    ('C12', 'T', 615, 695, 200, 'Geladeira IB6S', 'Aparelho escolhido'),
-    ('C13', 'L', 521, 591, None, 'Plafon quadrado branco 3000 K', 'Formato aprovado; posição de estudo'),
-    ('C14', 'A', 515, 680, 150, 'Luz regulável da bancada 3000 K, sob os aéreos', 'Comando independente com regulagem'),
+    ('C12', 'T', 615, 695, 200, 'Geladeira IB6S bivolt, uso127 V', 'Aparelho escolhido'),
+    ('C13', 'L', 521, 591, None, 'Stella EVO STH21967/30, quadrado3000K', 'Interruptor comum; posição com portas a conferir'),
+    ('C14', 'A', 515, 680, 150, 'COB3000K sob aéreos +Opus/Shelly/pulsador', 'Grupo independente; acesso/manuais IL04–07 pendentes'),
     # Lavanderia
-    ('L01', 'T', 350, 695, 110, 'Lavadora LG VC4 · 127 V', 'Aparelho escolhido'),
+    ('L01', 'T', 350, 695, 110, 'Lavadora LG VC4 CV5012PC4 · 127 V', 'Aparelho escolhido'),
     ('L02', 'AF', 340, 698, 90, 'Água fria da lavadora', 'Existente; conferir posição'),
     ('L03', 'E', 362, 698, 80, 'Esgoto da lavadora', 'Existente; conferir posição'),
-    ('L04', 'AF', 276, 698, 60, 'Água fria do tanque', 'Conferir posição'),
+    ('L04', 'AF', 276, 698, 60, 'Água fria do tanque/Telca', 'Telca requer quente/fria; ramal quente ausente, RT deve compatibilizar'),
     ('L05', 'E', 288, 690, 40, 'Esgoto do tanque', 'Conferir posição'),
     ('L06', 'G', 268, 698, 140, 'Gás GN do aquecedor Rinnai E21', 'Aparelho escolhido; instalação a projetar'),
     ('L07', 'T', 290, 698, 150, 'Aquecedor E21 · alimentação elétrica', 'Conferir no manual'),
     ('L08', 'X', 279, 699, 215, 'Exaustão do aquecedor E21', 'Duto e saída a projetar'),
-    ('L09', 'AQ', 284, 698, 140, 'Saída de água quente do E21 → banheiro e cozinha', 'Percurso oculto em estudo'),
+    ('L09', 'AQ', 284, 698, 140, 'Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar', 'Percurso oculto em estudo'),
     ('L10', 'T20', 305, 695, 100, 'Tomada fixa 20 A para air fryer e cafeteira', 'Posição a definir'),
-    ('L11', 'L', 320, 595, None, 'Plafon branco 3000 K, fora da sombra do varal', 'Posição a testar'),
+    ('L11', 'L', 320, 595, None, 'Firefly9608 quadrado3000K', 'Interruptor comum; testar sombra/varal ocupado'),
     # Banheiro
     ('B01', 'AF', 426, 526, 55, 'Água fria do lavatório', 'Existente; conferir'),
     ('B02', 'AQ', 442, 526, 55, 'Água quente do lavatório', 'Novo ramal; percurso em estudo'),
@@ -68,7 +68,7 @@ P = [
     ('B04', 'AF', 369, 526, 20, 'Água fria do vaso', 'Existente'),
     ('B05', 'AF', 396, 526, 60, 'Ducha higiênica · fria', 'Posição ilustrativa'),
     ('B06', 'AQ', 404, 526, 60, 'Ducha higiênica · quente', 'Novo ramal; E21 exige 3,9 L/min para ligar'),
-    ('B07', 'AQ', 290, 526, 120, 'Chuveiro / misturador Livo (quente e fria)', 'Ponto existente; conferir'),
+    ('B07', 'AQ', 290, 526, 120, 'Chuveiro / misturador Livo (quente e fria)', 'Um código funcional; conferir ambas as alimentações, não só AQ'),
     ('B08', 'E', 295, 470, 0, 'Ralo do box', 'Existente'),
     ('B09', 'A', 434, 513, 190, 'Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W', 'L02: Opus OPS31002 e perfil MOV; posição/montagem a validar'),
     ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Cristallux SMD até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
@@ -76,26 +76,32 @@ P = [
     # Sala
     ('S01', 'T', 505, 200, 30, 'Régua no compartimento ventilado: TV, PS5, soundbar', 'Posição de estudo'),
     ('S02', 'T', 505, 250, 120, 'TV 50″ atrás do painel', 'Altura a conferir'),
-    ('S03', 'L', 617, 375, None, 'Luz geral da sala', 'Modelo a definir'),
-    ('S04', 'L', 660, 455, None, 'Luz sobre a mesa Berlin', 'Modelo a definir'),
+    ('S03', 'L', 617, 375, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 e alternativa D03 pendentes'),
+    ('S04', 'L', 660, 455, None, 'Jabuticaba triplo +3Brilia314450 +D1/RM433', 'Vidro âmbar e dimerização a confirmar, grupo próprio'),
     # Escritório
     ('E01', 'T', 300, 5, 85, 'Bancada · notebook', 'Quantidade a definir'),
     ('E02', 'T', 440, 5, 85, 'Bancada · PC CH360, monitores', 'Quantidade a definir'),
     ('E03', 'T', 480, 176, 100, 'TV 43″ existente', 'Conferir'),
-    ('E04', 'L', 370, 150, None, 'Luz geral do escritório', 'Modelo a definir'),
+    ('E04', 'L', 370, 150, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 e alternativa D03 pendentes'),
     # Quarto
-    ('Q01', 'A', 5, 112, 110, 'Arandela branca compacta · lado 1', 'Comando independente'),
-    ('Q02', 'A', 5, 288, 110, 'Arandela branca compacta · lado 2', 'Comando independente'),
+    ('Q01', 'A', 5, 112, 110, 'Nordecor EVY2054 branca · lado 1', 'Comando independente'),
+    ('Q02', 'A', 5, 288, 110, 'Nordecor EVY2054 branca · lado 2', 'Comando independente'),
     ('Q03', 'T', 5, 105, 60, 'Tomada de cabeceira · lado 1', 'Conferir'),
     ('Q04', 'T', 5, 295, 60, 'Tomada de cabeceira · lado 2', 'Conferir'),
-    ('Q05', 'L', 122, 248, None, 'Plafon branco discreto 3000 K regulável', 'Escolhido'),
-    ('Q06', 'A', 100, 330, 213, 'LED indireto nos aéreos', 'Perfil e fonte a definir'),
+    ('Q05', 'L', 122, 248, None, 'Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato', 'Requisito Elias26/10; IL02/03 e D03 pendentes'),
+    ('Q06', 'A', 100, 330, 213, 'COB3000K +Opus/Shelly/pulsador, indireta do quarto', 'Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes'),
+]
+
+P += [
+    ('S05', 'A', None, None, None, 'TV sala: COB3000K +Opus/Shelly/pulsador', 'Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01'),
+    ('E05', 'A', None, None, None, 'TV escritório: kit WiZ2m e WiZmote próprio', 'Novo grupo; posição/cortes/manuais IL08 pendentes'),
+    ('E06', 'A', None, None, None, 'Prateleiras escritório: kit WiZ2m e WiZmote próprio', 'Novo grupo; posição/cortes/manuais IL08 pendentes'),
 ]
 
 ROOM_LABEL = {'quarto': 'QUARTO', 'escritorio': 'ESCRITÓRIO', 'sala': 'SALA', 'cozinha': 'COZINHA', 'lavanderia': 'LAVANDERIA', 'banho': 'BANHEIRO'}
 
 STYLE = {  # cor, rótulo da legenda
-    'T': ('#2b6cb0', 'Tomada 127 V'), 'T20': ('#1a365d', 'Tomada 20 A'), 'D': ('#742a2a', 'Circuito exclusivo'),
+    'T': ('#2b6cb0', 'Tomada 127 V'), 'T20': ('#1a365d', 'Tomada 20 A / 127 V'), 'D': ('#742a2a', 'Ponto dedicado / RT'),
     'L': ('#b7791f', 'Luz no teto'), 'A': ('#d69e2e', 'Luz de parede / indireta'),
     'AF': ('#3182ce', 'Água fria'), 'AQ': ('#e53e3e', 'Água quente'), 'E': ('#4a5568', 'Esgoto / ralo'),
     'G': ('#d69e2e', 'Gás GN'), 'X': ('#718096', 'Exaustão'),
@@ -120,11 +126,11 @@ def symbol(t, x, z):
 
 
 def build():
-    s = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 900" font-family="Arial, sans-serif">',
-         '<rect x="-40" y="-40" width="950" height="900" fill="#fff"/>']
+    s = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 940" font-family="Arial, sans-serif">',
+         '<rect x="-40" y="-40" width="950" height="940" fill="#fff"/>']
     for room, x, z, w, d, mat in floors:
         s.append(f'<rect x="{x}" y="{z}" width="{w}" height="{d}" fill="{FLOOR_FILL.get(mat, "#eee")}"/>')
-    for name, x, z, w, d in FOOTPRINTS:
+    for name, x, z, w, d in []:  # envelopes R45 omitidos: não validados contra R53
         s.append(f'<rect x="{x}" y="{z}" width="{w}" height="{d}" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/>'
                  f'<text x="{x + w / 2}" y="{z + d / 2 + 3}" font-size="9" fill="#9a9285" text-anchor="middle">{escape(name)}</text>')
     for wall in walls:
@@ -140,7 +146,7 @@ def build():
     def free(b):
         return all(b[2] < o[0] or b[0] > o[2] or b[3] < o[1] or b[1] > o[3] for o in taken)
 
-    strip = sorted((q for q in P if q[3] >= 685), key=lambda q: q[2])
+    strip = sorted((q for q in P if q[3] is not None and q[3] >= 685), key=lambda q: q[2])
     next_x = -1e9
     for i, (code, t, x, z, h, desc, st) in enumerate(strip):  # parede da cozinha/lavanderia: rótulos na faixa inferior
         lx = max(x - 11, next_x + 13)
@@ -152,11 +158,11 @@ def build():
                  f'<text x="{lx}" y="{ly}" font-size="9" font-weight="bold" fill="#222">{code}</text></g>')
     offsets = [(8, -6), (8, 12), (-30, -6), (-30, 12), (8, -18), (-30, -18), (8, 24), (-30, 24), (-11, -14), (-11, 22)]
     for code, t, x, z, h, desc, st in P:
-        if z >= 685:
+        if z is None or z >= 685:
             continue
         taken.append((x - 6, z - 6, x + 6, z + 6))
     for code, t, x, z, h, desc, st in P:
-        if z >= 685:
+        if z is None or z >= 685:
             continue
         for dx, dy in offsets:
             b = (x + dx, z + dy - 9, x + dx + 24, z + dy + 1)
@@ -166,18 +172,21 @@ def build():
         s.append(f'<g><title>{code} · {escape(desc)} · {escape(st)}</title>{symbol(t, x, z)}'
                  f'<text x="{b[0]}" y="{b[3] - 1}" font-size="9" font-weight="bold" fill="#222">{code}</text></g>')
     # Legenda
-    ly = 790
-    s.append(f'<text x="0" y="{ly - 12}" font-size="13" font-weight="bold">Planta de pontos preliminar R00 · Guedala Park · sem escala de execução</text>')
+    for i, point in enumerate(q for q in P if q[2] is None):
+        code, _, _, _, _, desc, _ = point
+        s.append(f'<text x="0" y="{752+i*11}" font-size="10">{code}: {escape(desc)} — posição a levantar</text>')
+    ly = 805
+    s.append(f'<text x="0" y="{ly - 12}" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>')
     for i, (t, (c, label)) in enumerate(STYLE.items()):
         lx = (i % 5) * 180
         y = ly + 10 + (i // 5) * 22
         s.append(symbol(t, lx + 6, y) + f'<text x="{lx + 18}" y="{y + 4}" font-size="11">{label}</text>')
-    s.append(f'<text x="0" y="{ly + 62}" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Posições derivadas do modelo R45, não do apartamento. Não executar.</text>')
+    s.append(f'<text x="0" y="{ly + 62}" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Marcadores herdados da R45; contorno atual do site. Não são posições R53 validadas nem medidas reais.</text>')
     s.append('</svg>')
     svg = '\n'.join(s)
     (HERE / 'Planta_pontos_R00.svg').write_text(svg, encoding='utf-8')
 
-    rows = '\n'.join(f'| {c} | {STYLE[t][1]} | {escape(d)} | {"teto" if h is None else f"{h} cm"} | {escape(st)} |' for c, t, x, z, h, d, st in P)
+    rows = '\n'.join(f'| {c} | {STYLE[t][1]} | {escape(d)} | {"a levantar" if x is None else "teto a confirmar" if h is None else f"{h} cm (nominal)"} | {escape(st)} |' for c, t, x, z, h, d, st in P)
     md = (HERE / 'README.md')
     head = md.read_text(encoding='utf-8').split('<!-- TABELA -->')[0]
     md.write_text(head + '<!-- TABELA -->\n\n| Código | Tipo | Ponto | Altura de referência | Situação |\n|---|---|---|---|---|\n' + rows + '\n', encoding='utf-8')

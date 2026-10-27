@@ -1,19 +1,56 @@
-# Planta de pontos preliminar — R00
+# Planta de pontos de anteprojeto — R01
 
-24/10/2026. **Estudo para o responsável técnico, não é projeto executivo.** Reúne todos os pontos de elétrica, iluminação, água, esgoto, gás e exaustão que o projeto de interiores precisa, a partir das escolhas de aparelhos e da geometria R45.
+27/10/2026. **Revisão documental dos50 códigos R00, mais3 grupos de iluminação omitidos:53 funções.** Não é projeto executivo; não define circuitos nem confirma coordenadas de instalação. O arquivo SVG mantém o nome legado para preservar links; sua identificação interna éR01.
 
-![Planta de pontos R00](Planta_pontos_R00.svg)
+![Planta de pontos R01](Planta_pontos_R00.svg)
 
-- **Desenho:** [Planta_pontos_R00.svg](Planta_pontos_R00.svg). Abre no navegador; passe o mouse sobre um ponto para ver a descrição.
-- **Para atualizar:** editar a lista `P` em [gerar_planta_pontos.py](gerar_planta_pontos.py) e rodar `python gerar_planta_pontos.py`. A tabela abaixo é regenerada.
+[Desenho SVG](Planta_pontos_R00.svg) · [gerador](gerar_planta_pontos.py). Rodar `python -B 03_Ambientes/Planta_pontos/gerar_planta_pontos.py` na raiz. A tabela após o marcador é gerada; a auditoria abaixo é manual.
 
-## Limites
+## Fontes e limites
 
-- As posições vêm dos aparelhos no modelo 3D, não do apartamento. Os pontos existentes da construtora só serão conhecidos na entrega. Use o [roteiro do dia das chaves](../../07_Imovel/Roteiro_dia_das_chaves_R01.md) para marcar a posição real de cada código.
-- As alturas são referências usuais para o tipo de aparelho e devem ser conferidas nos manuais.
-- Circuitos, bitolas, disjuntores, carga total da unidade, traçado de água quente e gás e exaustão do E21 são trabalho do(a) responsável técnico(a).
-- A carga elétrica relevante inclui o forno (16,2 A, circuito exclusivo), a torre de 20 A, a tomada de 20 A da lavanderia, a lavadora, a geladeira e o micro-ondas. Ela precisa ser conferida no quadro da unidade.
-- Ar-condicionado não está incluído; depende da consulta ao condomínio (Convenção, art. 58).
+- [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE11X,09/09](../Cozinha/Equipamentos_e_instalacao.md#purificador-de-água--electrolux-pe11x-cinzaprata-escolhido), [iluminação27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).
+- Marcadores/alturas da R00 são referências nominais herdadas da R45; **não foram reposicionados nem validados contra R53**. Contorno atual lido do site; envelopes antigos de aparelhos omitidos para não sugerir encaixe vigente. Nenhum CAD aberto/alterado.
+- Tensão de uso127V (F102,12/09), aparelhos bivolt preservados; GN para KE4GC/E21. Identificação da alimentação não dimensiona circuito, proteção, cabo, simultaneidade nem tomada real.
+- RT confere pontos da construtora, quadro, circuitos, água quente, GN, exaustão e implantação; oficina garante acesso removível às conexões/fontes sem interferir no fechamento até o teto. [Roteiro das chaves](../../07_Imovel/Roteiro_dia_das_chaves_R01.md).
+
+## Auditoria dos50 pontos — cobertura integral
+
+| Códigos R00 | Conferência e divergência | Tratamento R01 / falta |
+|---|---|---|
+| C01–C04 | Fischer127V, KE4GC/GN, ignição e DE61IX coerentes; indicação de circuito não equivale a projeto | Manuais/RT; acesso posterior e depurador200cm contra marcenaria até teto a compatibilizar |
+| C05–C07 | Pia: fria/esgoto previstos; quente não comprovada na unidade | Levantar existentes; percurso quente com RT |
+| C08 | Torre20A na área seca | Quantidade de usos e implantação sem giro/água; não definir simultaneidade |
+| C09 | ME23P127V;10cm desejados contra30cm do manual | Divergência existente mantida; sem novo estudo nominal ou redução do manual |
+| C10–C11 | PE12G desatualizado: escolha PE11X em09/09 | Corrigido PE11X; água, garrafa, acesso e retirada pendentes |
+| C12 | IB6S bivolt, uso127V; tomada200cm nominal | Evitar acesso bloqueado pelo armário/teto; RT/oficina |
+| C13–C14 | Produtos/comandos antigos genéricos | EVO comum; bancadaCOB/Shelly/pulsador; fonte acessível e IL04–07 |
+| L01–L03 | LG127V, água/esgoto coerentes | Identificar CV5012PC4; conferir mangueiras/retirada/posição real |
+| L04–L05 | Telca quente/fria, mas R00 só registra fria; esgoto previsto | **Ramal quente falta**; RT define se e como acrescentar, sem inventar trajeto |
+| L06–L09 | E21 GN; energia, duto e distribuição quente | Compatibilizar destinos e acesso; não inventar diâmetros/saída/circuitos |
+| L10 | Tomada20A air fryer/cafeteira |127V; uso não significa simultaneidade; posição real/RT |
+| L11 | Firefly quadrado3000K tinha código errado9607 | Corrigido9608; comando comum; conferir varal carregado e portas |
+| B01–B04 | Lavatório fria/quente/esgoto e vaso fria | Existentes/novo quente a levantar; acesso às conexões |
+| B05–B06 | Ducha quente/fria, produto ainda indefinido | Vazão/temperatura e misturador dependem fornecedor/RT; nenhum cálculo novo |
+| B07–B08 | Livo e ralo; B07 codificado sóAQ | B07 é função quente+fria, não contagem de bocais; ambos a levantar |
+| B09–B11 | L02 espelho4000K, indireta/teto3000K | Três comandos comuns separados; fontes/manutenção, volumes e espelho/torneira pendentes |
+| S01–S02 | TV/PS5/soundbar; posições ligadas ao painel | TV mantida; D01 eventual adiamento do painel exige implantação independente e crédito da oficina |
+| S03–S04 | Gerais e jantar sem produto na R00 | Jurerê/WiZ e Jabuticaba/G9/D1 candidatos; IL02/03/09 e D03 |
+| E01–E03 | Computadores/TV existentes | Etiquetas, quantidade de tomadas e acesso com armários até teto pendentes |
+| E04 | Geral sem produto na R00 | Jurerê/WiZ candidato; IL02/03 e D03 |
+| Q01–Q04 | Arandelas e tomadas cabeceira | EVY2054 com comando próprio por lado; confirmar interruptor do produto/alcance |
+| Q05–Q06 | Geral antiga não expressava smart; indireta antiga nos aéreos | Q05 smart (Elias26/10); Q06 não pode presumir fresta acima de armário até teto; posição/saída de luz e fonte acessível pendentes |
+
+As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E01–04(4), Q01–06(6): **50/50**. Três funções faltantes cadastradas sem posição: S05 indiretaTV sala; E05 indiretaTV escritório; E06 indireta prateleiras. Não confundir53 funções com53 circuitos ou53 caixas.
+
+## Comandos de anteprojeto, sem circuitos
+
+- C13/L11/B09/B10/B11: liga/desliga comum; os três do banheiro separados.
+- C14/S05/Q06: Shelly+fonte+pulsador candidato, grupo independente, compatibilidade IL04–07.
+- S03/E04/Q05: smart/Alexa/celular e comando físico proposto; produto/alternativa D03 pendente.
+- S04: D1+RM433 propostos; ensaio com trêsG9. Q01/Q02: leitura independente por lado.
+- E05/E06: dois kitsWiZ, dois controles separados; corte e acessórios IL08. Não duplicar fontes próprias.
+
+**D04 — Onde desenvolver a saída da indiretaQ06, preservando armários até o teto? A) na cabeceira/face inferior acessível (componentes provisionados, acréscimo de marcenaria a cotar); B) rebaixo/perfil na face frontal do aéreo (mesma provisão de componentes, usinagem/acesso a cotar); C) aguardar amostra montada da oficina antes de escolher (sem crédito de corte; custo de amostra a cotar). Recomendação: A para consulta, por evitar pressupor fresta no teto e facilitar manutenção; não executar antes da solução da oficina/RT.** Os componentes Q06 estão no total da iluminação, sem rateio por metro validado; custo adicional desconhecido não vale zero. Fonte: requisito de armários até teto26/10 e composição27/10 acima. Nenhuma nova dimensão de móvel adotada.
 
 ## Pontos
 
@@ -21,53 +58,56 @@
 
 | Código | Tipo | Ponto | Altura de referência | Situação |
 |---|---|---|---|---|
-| C01 | Circuito exclusivo | Forno Fischer 127 V · 2061 W / 16,2 A · circuito exclusivo | 30 cm | Aparelho escolhido; circuito a dimensionar |
-| C02 | Gás GN | Gás GN do cooktop KE4GC | 50 cm | GN confirmado; posição real a levantar |
-| C03 | Tomada 127 V | Ignição do cooktop | 50 cm | A confirmar no manual |
-| C04 | Tomada 127 V | Depurador DE61IX · 127 V | 200 cm | Aparelho escolhido |
-| C05 | Água fria | Água fria da pia | 55 cm | Existente; conferir posição |
-| C06 | Água quente | Água quente da pia | 55 cm | Não confirmada no memorial |
-| C07 | Esgoto / ralo | Esgoto da pia | 45 cm | Existente; conferir posição |
-| C08 | Tomada 20 A | Torre automática de tomadas 20 A na bancada (área seca) | 92 cm | Posição a definir |
-| C09 | Tomada 127 V | Micro-ondas ME23P · 127 V | 190 cm | Aparelho escolhido |
-| C10 | Tomada 127 V | Purificador PE12G | 110 cm | Aparelho escolhido |
-| C11 | Água fria | Água fria do purificador | 110 cm | Derivação a confirmar |
-| C12 | Tomada 127 V | Geladeira IB6S | 200 cm | Aparelho escolhido |
-| C13 | Luz no teto | Plafon quadrado branco 3000 K | teto | Formato aprovado; posição de estudo |
-| C14 | Luz de parede / indireta | Luz regulável da bancada 3000 K, sob os aéreos | 150 cm | Comando independente com regulagem |
-| L01 | Tomada 127 V | Lavadora LG VC4 · 127 V | 110 cm | Aparelho escolhido |
-| L02 | Água fria | Água fria da lavadora | 90 cm | Existente; conferir posição |
-| L03 | Esgoto / ralo | Esgoto da lavadora | 80 cm | Existente; conferir posição |
-| L04 | Água fria | Água fria do tanque | 60 cm | Conferir posição |
-| L05 | Esgoto / ralo | Esgoto do tanque | 40 cm | Conferir posição |
-| L06 | Gás GN | Gás GN do aquecedor Rinnai E21 | 140 cm | Aparelho escolhido; instalação a projetar |
-| L07 | Tomada 127 V | Aquecedor E21 · alimentação elétrica | 150 cm | Conferir no manual |
-| L08 | Exaustão | Exaustão do aquecedor E21 | 215 cm | Duto e saída a projetar |
-| L09 | Água quente | Saída de água quente do E21 → banheiro e cozinha | 140 cm | Percurso oculto em estudo |
-| L10 | Tomada 20 A | Tomada fixa 20 A para air fryer e cafeteira | 100 cm | Posição a definir |
-| L11 | Luz no teto | Plafon branco 3000 K, fora da sombra do varal | teto | Posição a testar |
-| B01 | Água fria | Água fria do lavatório | 55 cm | Existente; conferir |
-| B02 | Água quente | Água quente do lavatório | 55 cm | Novo ramal; percurso em estudo |
-| B03 | Esgoto / ralo | Esgoto do lavatório | 45 cm | Existente; conferir |
-| B04 | Água fria | Água fria do vaso | 20 cm | Existente |
-| B05 | Água fria | Ducha higiênica · fria | 60 cm | Posição ilustrativa |
-| B06 | Água quente | Ducha higiênica · quente | 60 cm | Novo ramal; E21 exige 3,9 L/min para ligar |
-| B07 | Água quente | Chuveiro / misturador Livo (quente e fria) | 120 cm | Ponto existente; conferir |
-| B08 | Esgoto / ralo | Ralo do box | 0 cm | Existente |
-| B09 | Luz de parede / indireta | Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W | 190 cm | L02: Opus OPS31002 e perfil MOV; posição/montagem a validar |
-| B10 | Luz de parede / indireta | Indireta 3000 K: Cristallux SMD até 2 m /9,6 W | 230 cm | L02: Opus OPS31002, comando próprio; trecho real a medir |
-| B11 | Luz no teto | Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 | teto | Selecionado L02; ponto e volumes a conferir |
-| S01 | Tomada 127 V | Régua no compartimento ventilado: TV, PS5, soundbar | 30 cm | Posição de estudo |
-| S02 | Tomada 127 V | TV 50″ atrás do painel | 120 cm | Altura a conferir |
-| S03 | Luz no teto | Luz geral da sala | teto | Modelo a definir |
-| S04 | Luz no teto | Luz sobre a mesa Berlin | teto | Modelo a definir |
-| E01 | Tomada 127 V | Bancada · notebook | 85 cm | Quantidade a definir |
-| E02 | Tomada 127 V | Bancada · PC CH360, monitores | 85 cm | Quantidade a definir |
-| E03 | Tomada 127 V | TV 43″ existente | 100 cm | Conferir |
-| E04 | Luz no teto | Luz geral do escritório | teto | Modelo a definir |
-| Q01 | Luz de parede / indireta | Arandela branca compacta · lado 1 | 110 cm | Comando independente |
-| Q02 | Luz de parede / indireta | Arandela branca compacta · lado 2 | 110 cm | Comando independente |
-| Q03 | Tomada 127 V | Tomada de cabeceira · lado 1 | 60 cm | Conferir |
-| Q04 | Tomada 127 V | Tomada de cabeceira · lado 2 | 60 cm | Conferir |
-| Q05 | Luz no teto | Plafon branco discreto 3000 K regulável | teto | Escolhido |
-| Q06 | Luz de parede / indireta | LED indireto nos aéreos | 213 cm | Perfil e fonte a definir |
+| C01 | Ponto dedicado / RT | Forno Fischer Infinity 28349-64929 · 127 V · 2061 W | 30 cm (nominal) | Exclusividade indicada no manual; circuito e implantação pelo RT |
+| C02 | Gás GN | Gás GN do cooktop KE4GC | 50 cm (nominal) | GN confirmado; posição real a levantar |
+| C03 | Tomada 127 V | Ignição do cooktop | 50 cm (nominal) | A confirmar no manual |
+| C04 | Tomada 127 V | Depurador DE61IX · 127 V | 200 cm (nominal) | Aparelho escolhido |
+| C05 | Água fria | Água fria da pia | 55 cm (nominal) | Existente; conferir posição |
+| C06 | Água quente | Água quente da pia | 55 cm (nominal) | Não confirmada no memorial |
+| C07 | Esgoto / ralo | Esgoto da pia | 45 cm (nominal) | Existente; conferir posição |
+| C08 | Tomada 20 A / 127 V | Torre automática de tomadas 20 A na bancada (área seca) | 92 cm (nominal) | Posição a definir |
+| C09 | Tomada 127 V | Micro-ondas ME23P · 127 V | 190 cm (nominal) | Aparelho escolhido |
+| C10 | Tomada 127 V | Purificador PE11X bivolt, uso127 V | 110 cm (nominal) | Aparelho escolhido |
+| C11 | Água fria | Água fria do purificador | 110 cm (nominal) | Derivação a confirmar |
+| C12 | Tomada 127 V | Geladeira IB6S bivolt, uso127 V | 200 cm (nominal) | Aparelho escolhido |
+| C13 | Luz no teto | Stella EVO STH21967/30, quadrado3000K | teto a confirmar | Interruptor comum; posição com portas a conferir |
+| C14 | Luz de parede / indireta | COB3000K sob aéreos +Opus/Shelly/pulsador | 150 cm (nominal) | Grupo independente; acesso/manuais IL04–07 pendentes |
+| L01 | Tomada 127 V | Lavadora LG VC4 CV5012PC4 · 127 V | 110 cm (nominal) | Aparelho escolhido |
+| L02 | Água fria | Água fria da lavadora | 90 cm (nominal) | Existente; conferir posição |
+| L03 | Esgoto / ralo | Esgoto da lavadora | 80 cm (nominal) | Existente; conferir posição |
+| L04 | Água fria | Água fria do tanque/Telca | 60 cm (nominal) | Telca requer quente/fria; ramal quente ausente, RT deve compatibilizar |
+| L05 | Esgoto / ralo | Esgoto do tanque | 40 cm (nominal) | Conferir posição |
+| L06 | Gás GN | Gás GN do aquecedor Rinnai E21 | 140 cm (nominal) | Aparelho escolhido; instalação a projetar |
+| L07 | Tomada 127 V | Aquecedor E21 · alimentação elétrica | 150 cm (nominal) | Conferir no manual |
+| L08 | Exaustão | Exaustão do aquecedor E21 | 215 cm (nominal) | Duto e saída a projetar |
+| L09 | Água quente | Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar | 140 cm (nominal) | Percurso oculto em estudo |
+| L10 | Tomada 20 A / 127 V | Tomada fixa 20 A para air fryer e cafeteira | 100 cm (nominal) | Posição a definir |
+| L11 | Luz no teto | Firefly9608 quadrado3000K | teto a confirmar | Interruptor comum; testar sombra/varal ocupado |
+| B01 | Água fria | Água fria do lavatório | 55 cm (nominal) | Existente; conferir |
+| B02 | Água quente | Água quente do lavatório | 55 cm (nominal) | Novo ramal; percurso em estudo |
+| B03 | Esgoto / ralo | Esgoto do lavatório | 45 cm (nominal) | Existente; conferir |
+| B04 | Água fria | Água fria do vaso | 20 cm (nominal) | Existente |
+| B05 | Água fria | Ducha higiênica · fria | 60 cm (nominal) | Posição ilustrativa |
+| B06 | Água quente | Ducha higiênica · quente | 60 cm (nominal) | Novo ramal; E21 exige 3,9 L/min para ligar |
+| B07 | Água quente | Chuveiro / misturador Livo (quente e fria) | 120 cm (nominal) | Um código funcional; conferir ambas as alimentações, não só AQ |
+| B08 | Esgoto / ralo | Ralo do box | 0 cm (nominal) | Existente |
+| B09 | Luz de parede / indireta | Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W | 190 cm (nominal) | L02: Opus OPS31002 e perfil MOV; posição/montagem a validar |
+| B10 | Luz de parede / indireta | Indireta 3000 K: Cristallux SMD até 2 m /9,6 W | 230 cm (nominal) | L02: Opus OPS31002, comando próprio; trecho real a medir |
+| B11 | Luz no teto | Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 | teto a confirmar | Selecionado L02; ponto e volumes a conferir |
+| S01 | Tomada 127 V | Régua no compartimento ventilado: TV, PS5, soundbar | 30 cm (nominal) | Posição de estudo |
+| S02 | Tomada 127 V | TV 50″ atrás do painel | 120 cm (nominal) | Altura a conferir |
+| S03 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 e alternativa D03 pendentes |
+| S04 | Luz no teto | Jabuticaba triplo +3Brilia314450 +D1/RM433 | teto a confirmar | Vidro âmbar e dimerização a confirmar, grupo próprio |
+| E01 | Tomada 127 V | Bancada · notebook | 85 cm (nominal) | Quantidade a definir |
+| E02 | Tomada 127 V | Bancada · PC CH360, monitores | 85 cm (nominal) | Quantidade a definir |
+| E03 | Tomada 127 V | TV 43″ existente | 100 cm (nominal) | Conferir |
+| E04 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 e alternativa D03 pendentes |
+| Q01 | Luz de parede / indireta | Nordecor EVY2054 branca · lado 1 | 110 cm (nominal) | Comando independente |
+| Q02 | Luz de parede / indireta | Nordecor EVY2054 branca · lado 2 | 110 cm (nominal) | Comando independente |
+| Q03 | Tomada 127 V | Tomada de cabeceira · lado 1 | 60 cm (nominal) | Conferir |
+| Q04 | Tomada 127 V | Tomada de cabeceira · lado 2 | 60 cm (nominal) | Conferir |
+| Q05 | Luz no teto | Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato | teto a confirmar | Requisito Elias26/10; IL02/03 e D03 pendentes |
+| Q06 | Luz de parede / indireta | COB3000K +Opus/Shelly/pulsador, indireta do quarto | 213 cm (nominal) | Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes |
+| S05 | Luz de parede / indireta | TV sala: COB3000K +Opus/Shelly/pulsador | a levantar | Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01 |
+| E05 | Luz de parede / indireta | TV escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |
+| E06 | Luz de parede / indireta | Prateleiras escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |

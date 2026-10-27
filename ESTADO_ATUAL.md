@@ -23,7 +23,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Programa | R01 | [Programa de necessidades](01_Programa_e_decisoes/Programa_de_necessidades.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
 | Especificações | R01 + catálogo comercial 27/10, amostras pendentes | [Caderno de especificações](01_Programa_e_decisoes/Caderno_de_especificacoes.md) |
-| Pontos (elétrica, água, gás) | R00, preliminar | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
+| Pontos (elétrica, água, gás) | R01 de anteprojeto;50 auditados +3 funções | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
@@ -39,7 +39,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
 | Anteprojeto | 75% | Frentes em revisão27/10: [luz parcialR$5.041,60](03_Ambientes/Iluminacao/README.md); Firefly9608 corrigido, preços revistos; D03 compara substituição smart e perda de comando físico. SKUs/respostas/frete/instalação pendentes |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
-| Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
+| Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções,50 originais auditadas; coordenadas nominais, D04/saída de luz e circuitos com RT/oficina |
 | Especificações | 70% | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02 e SKUs faltantes aguardam amostra/fornecedor |
 | Orçamento | 60% | R44: R$137.748,11. [D01](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários condicionaisR$119.040,82–119.890,82 com luz5.041,60; dependem de17.317,45 de negociação e faseamento. TV mantida (Elias27/10, “A”); reserva intocada; não fechado |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |

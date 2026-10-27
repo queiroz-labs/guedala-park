@@ -6,12 +6,12 @@ Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-
 
 ## Lista de equipamentos — T06, 26/10/2026
 
-[Lista em CSV](Lista_equipamentos.csv): **48 linhas**, cobrindo os **50 pontos** da planta preliminar. Uma linha por modelo/função; conjuntos iguais indicam a quantidade. Equipamentos escolhidos, existentes, candidatos e itens sem modelo têm situação explícita. Louças, metais, iluminação e mecanismos de tomada entram para que nenhum ponto fique sem referência; isso não cria novas escolhas.
+[Lista em CSV](Lista_equipamentos.csv): **51 linhas**, cobrindo as **53 funções da R01** da planta preliminar. Uma linha por modelo/função; conjuntos iguais indicam a quantidade. Equipamentos escolhidos, existentes, candidatos e itens sem modelo têm situação explícita. Louças, metais, iluminação e mecanismos de tomada entram para que nenhum ponto fique sem referência; isso não cria novas escolhas.
 
 O CSV separa dimensões do produto, encaixe, alimentação, potência, corrente informada pelo manual, folgas, manutenção, móvel receptor e interfaces. Dimensões em milímetros; fontes relativas à raiz, separadas por ` | `; pontos separados por `|`. Campo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não se calculou corrente por W/V. Reservas de estudo não são medidas do imóvel.
 
 - **ME23P:** manual vigente, p. 3, pede **30 cm acima**; F104, 12/09/2026, mantém o desejo de **10 cm**. Divergência conservada, sem solução técnica decidida. Laterais e traseira continuam com 10 cm. [Fonte local e decisão](Conferencia_127V_e_folgas.md).
-- **Versões históricas:** C10 da planta ainda escreve PE12G; a escolha vigente é PE11X. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
+- **Versões históricas:** C10 corrigido para PE11X na R01 de27/10; PE12G permanece só em antecedentes. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
 - **Dados condicionados:** códigos dos aparelhos existentes, manuais dos metais, fixação/retirada e circuitos dependem de Elias (etiquetas), fabricante, projeto/oficina e RT. L04 lista apenas água fria, embora a Telca tenha requisito quente/fria: ramal a compatibilizar pelo RT. Manter também as divergências de plugue KE4GC, profundidade do Fischer e altura do Firefly registradas no CSV.
 
 **Retomada exata:** conferir as lacunas por equipamento com os documentos da unidade e etiquetas disponíveis; resolver a divergência superior do ME23P com fabricante/projeto e decisão de Elias, sem reduzir o manual por hipótese. Depois compatibilizar pontos, cortes de encaixe, ventilação e retirada com o RT/oficina. Lista documental entregue; T06 executivo continua condicionado.
@@ -47,3 +47,5 @@ A regra também vale para futuras especificações de eletrodomésticos com tens
 ## Pesquisa de preços em inox — 13/09/2026
 
 IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes. Acabamento vigente Inox Look conforme F160; pesquisa F161.
+
+Compatibilização27/10: CSV corrige Q05 para smart e L11 paraFirefly9608; inclui S05/E05/E06 sem coordenadas inventadas. [Auditoria R01 dos50 códigos originais](../Planta_pontos/README.md); circuitos/implantação continuam com RT.

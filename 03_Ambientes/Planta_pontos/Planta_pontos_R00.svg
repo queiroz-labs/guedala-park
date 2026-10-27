@@ -1,28 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 900" font-family="Arial, sans-serif">
-<rect x="-40" y="-40" width="950" height="900" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 940" font-family="Arial, sans-serif">
+<rect x="-40" y="-40" width="950" height="940" fill="#fff"/>
 <rect x="0" y="100" width="245" height="295" fill="#efe7da"/>
 <rect x="245" y="305" width="120" height="90" fill="#efe7da"/>
+<rect x="365" y="315" width="10" height="75" fill="#efe7da"/>
 <rect x="255" y="0" width="230" height="295" fill="#efe7da"/>
 <rect x="495" y="185" width="245" height="380" fill="#efe7da"/>
-<rect x="465" y="405" width="30" height="140" fill="#efe7da"/>
-<rect x="365" y="305" width="130" height="90" fill="#efe7da"/>
+<rect x="480" y="395" width="15" height="151" fill="#efe7da"/>
+<rect x="480" y="305" width="15" height="90" fill="#efe7da"/>
+<rect x="375" y="305" width="105" height="90" fill="#efe7da"/>
 <rect x="388" y="545" width="352" height="155" fill="#efe7da"/>
-<rect x="255" y="539" width="129" height="161" fill="#ece6da"/>
+<rect x="384" y="546" width="4" height="154" fill="#efe7da"/>
+<rect x="255" y="546" width="129" height="154" fill="#ece6da"/>
 <rect x="255" y="405" width="209" height="124" fill="#e4ddd0"/>
-<rect x="584.9" y="615.25" width="60.1" height="74.75" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="614.9499999999999" y="655.625" font-size="9" fill="#9a9285" text-anchor="middle">Geladeira</text>
-<rect x="388" y="637" width="60" height="61.5" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="418.0" y="670.75" font-size="9" fill="#9a9285" text-anchor="middle">Forno + cooktop</text>
-<rect x="459" y="650" width="43" height="37" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="480.5" y="671.5" font-size="9" fill="#9a9285" text-anchor="middle">Pia</text>
-<rect x="320" y="628" width="60" height="62" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="350.0" y="662.0" font-size="9" fill="#9a9285" text-anchor="middle">Lavadora</text>
-<rect x="263" y="650" width="38" height="35" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="282.0" y="670.5" font-size="9" fill="#9a9285" text-anchor="middle">Tanque</text>
-<rect x="350.75" y="470" width="37.5" height="59" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="369.5" y="502.5" font-size="9" fill="#9a9285" text-anchor="middle">Vaso</text>
-<rect x="414" y="489" width="40" height="30" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="434.0" y="507.0" font-size="9" fill="#9a9285" text-anchor="middle">Lavatório</text>
-<rect x="255" y="405" width="80" height="124" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="295.0" y="470.0" font-size="9" fill="#9a9285" text-anchor="middle">Box</text>
-<rect x="270" y="0" width="200" height="70" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="370.0" y="38.0" font-size="9" fill="#9a9285" text-anchor="middle">Bancada</text>
-<rect x="400" y="190" width="85" height="140" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="442.5" y="263.0" font-size="9" fill="#9a9285" text-anchor="middle">Sofá-cama</text>
-<rect x="5" y="120" width="200" height="160" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="105.0" y="203.0" font-size="9" fill="#9a9285" text-anchor="middle">Cama queen</text>
-<rect x="0" y="329" width="200" height="65" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="100.0" y="364.5" font-size="9" fill="#9a9285" text-anchor="middle">Roupeiro</text>
-<rect x="630" y="190" width="110" height="180" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="685.0" y="283.0" font-size="9" fill="#9a9285" text-anchor="middle">Bonnie</text>
-<rect x="620" y="400" width="80" height="110" fill="none" stroke="#b9b2a6" stroke-dasharray="4 3"/><text x="660.0" y="458.0" font-size="9" fill="#9a9285" text-anchor="middle">Mesa</text>
+<rect x="385" y="395" width="70" height="10" fill="#e4ddd0"/>
 <rect x="-10" y="90" width="70" height="10" fill="#4a5550"/>
 <rect x="180" y="90" width="75" height="10" fill="#4a5550"/>
 <rect x="-10" y="100" width="10" height="295" fill="#4a5550"/>
@@ -39,34 +29,34 @@
 <rect x="740" y="185" width="10" height="430" fill="#4a5550"/>
 <rect x="740" y="690" width="10" height="20" fill="#4a5550"/>
 <rect x="255" y="700" width="495" height="10" fill="#4a5550"/>
-<rect x="245" y="539" width="10" height="30" fill="#4a5550"/>
+<rect x="245" y="546" width="10" height="23" fill="#4a5550"/>
 <rect x="245" y="675" width="10" height="25" fill="#4a5550"/>
 <rect x="245" y="405" width="10" height="30" fill="#4a5550"/>
-<rect x="245" y="475" width="10" height="64" fill="#4a5550"/>
-<rect x="255" y="529" width="219" height="10" fill="#4a5550"/>
-<rect x="464" y="395" width="10" height="134" fill="#4a5550"/>
+<rect x="245" y="475" width="10" height="71" fill="#4a5550"/>
+<rect x="255" y="529" width="225" height="17" fill="#4a5550"/>
+<rect x="464" y="395" width="16" height="151" fill="#4a5550"/>
 <rect x="255" y="395" width="130" height="10" fill="#4a5550"/>
-<rect x="455" y="395" width="19" height="10" fill="#4a5550"/>
+<rect x="455" y="395" width="25" height="10" fill="#4a5550"/>
 <rect x="365" y="305" width="10" height="10" fill="#4a5550"/>
 <rect x="365" y="390" width="10" height="5" fill="#4a5550"/>
 <text x="122.5" y="269.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">QUARTO</text>
 <text x="370.0" y="169.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">ESCRITÓRIO</text>
 <text x="617.5" y="397.0" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">SALA</text>
 <text x="564.0" y="644.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">COZINHA</text>
-<text x="319.5" y="641.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">LAVANDERIA</text>
+<text x="319.5" y="645.0" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">LAVANDERIA</text>
 <text x="359.5" y="489.0" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">BANHEIRO</text>
 <g><title>L06 · Gás GN do aquecedor Rinnai E21 · Aparelho escolhido; instalação a projetar</title><path d="M268,692L274,698L268,704L262,698Z" fill="#d69e2e" stroke="#744210"/><path d="M268,703L268,721" stroke="#999" stroke-width=".6"/><text x="257" y="730" font-size="9" font-weight="bold" fill="#222">L06</text></g>
-<g><title>L04 · Água fria do tanque · Conferir posição</title><circle cx="276" cy="698" r="4.5" fill="#3182ce"/><path d="M276,703L281,733" stroke="#999" stroke-width=".6"/><text x="270" y="742" font-size="9" font-weight="bold" fill="#222">L04</text></g>
+<g><title>L04 · Água fria do tanque/Telca · Telca requer quente/fria; ramal quente ausente, RT deve compatibilizar</title><circle cx="276" cy="698" r="4.5" fill="#3182ce"/><path d="M276,703L281,733" stroke="#999" stroke-width=".6"/><text x="270" y="742" font-size="9" font-weight="bold" fill="#222">L04</text></g>
 <g><title>L08 · Exaustão do aquecedor E21 · Duto e saída a projetar</title><circle cx="279" cy="699" r="5" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="2 2"/><path d="M279,704L294,721" stroke="#999" stroke-width=".6"/><text x="283" y="730" font-size="9" font-weight="bold" fill="#222">L08</text></g>
-<g><title>L09 · Saída de água quente do E21 → banheiro e cozinha · Percurso oculto em estudo</title><circle cx="284" cy="698" r="4.5" fill="#e53e3e"/><path d="M284,703L307,733" stroke="#999" stroke-width=".6"/><text x="296" y="742" font-size="9" font-weight="bold" fill="#222">L09</text></g>
+<g><title>L09 · Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar · Percurso oculto em estudo</title><circle cx="284" cy="698" r="4.5" fill="#e53e3e"/><path d="M284,703L307,733" stroke="#999" stroke-width=".6"/><text x="296" y="742" font-size="9" font-weight="bold" fill="#222">L09</text></g>
 <g><title>L05 · Esgoto do tanque · Conferir posição</title><circle cx="288" cy="690" r="4.5" fill="#4a5568"/><path d="M288,695L320,721" stroke="#999" stroke-width=".6"/><text x="309" y="730" font-size="9" font-weight="bold" fill="#222">L05</text></g>
 <g><title>L07 · Aquecedor E21 · alimentação elétrica · Conferir no manual</title><rect x="285" y="693" width="10" height="10" fill="#2b6cb0"/><path d="M290,703L333,733" stroke="#999" stroke-width=".6"/><text x="322" y="742" font-size="9" font-weight="bold" fill="#222">L07</text></g>
 <g><title>L10 · Tomada fixa 20 A para air fryer e cafeteira · Posição a definir</title><rect x="299" y="689" width="12" height="12" fill="#1a365d"/><circle cx="305" cy="695" r="2" fill="#fff"/><path d="M305,700L346,721" stroke="#999" stroke-width=".6"/><text x="335" y="730" font-size="9" font-weight="bold" fill="#222">L10</text></g>
 <g><title>L02 · Água fria da lavadora · Existente; conferir posição</title><circle cx="340" cy="698" r="4.5" fill="#3182ce"/><path d="M340,703L359,733" stroke="#999" stroke-width=".6"/><text x="348" y="742" font-size="9" font-weight="bold" fill="#222">L02</text></g>
-<g><title>L01 · Lavadora LG VC4 · 127 V · Aparelho escolhido</title><rect x="345" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M350,700L372,721" stroke="#999" stroke-width=".6"/><text x="361" y="730" font-size="9" font-weight="bold" fill="#222">L01</text></g>
+<g><title>L01 · Lavadora LG VC4 CV5012PC4 · 127 V · Aparelho escolhido</title><rect x="345" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M350,700L372,721" stroke="#999" stroke-width=".6"/><text x="361" y="730" font-size="9" font-weight="bold" fill="#222">L01</text></g>
 <g><title>L03 · Esgoto da lavadora · Existente; conferir posição</title><circle cx="362" cy="698" r="4.5" fill="#4a5568"/><path d="M362,703L385,733" stroke="#999" stroke-width=".6"/><text x="374" y="742" font-size="9" font-weight="bold" fill="#222">L03</text></g>
 <g><title>C02 · Gás GN do cooktop KE4GC · GN confirmado; posição real a levantar</title><path d="M405,689L411,695L405,701L399,695Z" fill="#d69e2e" stroke="#744210"/><path d="M405,700L405,721" stroke="#999" stroke-width=".6"/><text x="394" y="730" font-size="9" font-weight="bold" fill="#222">C02</text></g>
-<g><title>C01 · Forno Fischer 127 V · 2061 W / 16,2 A · circuito exclusivo · Aparelho escolhido; circuito a dimensionar</title><rect x="412" y="689" width="12" height="12" fill="#742a2a"/><circle cx="418" cy="695" r="2" fill="#fff"/><path d="M418,700L418,733" stroke="#999" stroke-width=".6"/><text x="407" y="742" font-size="9" font-weight="bold" fill="#222">C01</text></g>
+<g><title>C01 · Forno Fischer Infinity 28349-64929 · 127 V · 2061 W · Exclusividade indicada no manual; circuito e implantação pelo RT</title><rect x="412" y="689" width="12" height="12" fill="#742a2a"/><circle cx="418" cy="695" r="2" fill="#fff"/><path d="M418,700L418,733" stroke="#999" stroke-width=".6"/><text x="407" y="742" font-size="9" font-weight="bold" fill="#222">C01</text></g>
 <g><title>C04 · Depurador DE61IX · 127 V · Aparelho escolhido</title><rect x="413" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M418,700L431,721" stroke="#999" stroke-width=".6"/><text x="420" y="730" font-size="9" font-weight="bold" fill="#222">C04</text></g>
 <g><title>C03 · Ignição do cooktop · A confirmar no manual</title><rect x="427" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M432,700L444,733" stroke="#999" stroke-width=".6"/><text x="433" y="742" font-size="9" font-weight="bold" fill="#222">C03</text></g>
 <g><title>C05 · Água fria da pia · Existente; conferir posição</title><circle cx="470" cy="698" r="4.5" fill="#3182ce"/><path d="M470,703L470,721" stroke="#999" stroke-width=".6"/><text x="459" y="730" font-size="9" font-weight="bold" fill="#222">C05</text></g>
@@ -75,46 +65,49 @@
 <g><title>C08 · Torre automática de tomadas 20 A na bancada (área seca) · Posição a definir</title><rect x="522" y="684" width="12" height="12" fill="#1a365d"/><circle cx="528" cy="690" r="2" fill="#fff"/><path d="M528,695L528,733" stroke="#999" stroke-width=".6"/><text x="517" y="742" font-size="9" font-weight="bold" fill="#222">C08</text></g>
 <g><title>C09 · Micro-ondas ME23P · 127 V · Aparelho escolhido</title><rect x="534" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M539,700L541,721" stroke="#999" stroke-width=".6"/><text x="530" y="730" font-size="9" font-weight="bold" fill="#222">C09</text></g>
 <g><title>C11 · Água fria do purificador · Derivação a confirmar</title><circle cx="552" cy="698" r="4.5" fill="#3182ce"/><path d="M552,703L554,733" stroke="#999" stroke-width=".6"/><text x="543" y="742" font-size="9" font-weight="bold" fill="#222">C11</text></g>
-<g><title>C10 · Purificador PE12G · Aparelho escolhido</title><rect x="555" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M560,700L567,721" stroke="#999" stroke-width=".6"/><text x="556" y="730" font-size="9" font-weight="bold" fill="#222">C10</text></g>
-<g><title>C12 · Geladeira IB6S · Aparelho escolhido</title><rect x="610" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M615,700L615,733" stroke="#999" stroke-width=".6"/><text x="604" y="742" font-size="9" font-weight="bold" fill="#222">C12</text></g>
-<g><title>C13 · Plafon quadrado branco 3000 K · Formato aprovado; posição de estudo</title><circle cx="521" cy="591" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M516,586L526,596M526,586L516,596" stroke="#b7791f" stroke-width="1.5"/><text x="529" y="585" font-size="9" font-weight="bold" fill="#222">C13</text></g>
-<g><title>C14 · Luz regulável da bancada 3000 K, sob os aéreos · Comando independente com regulagem</title><path d="M509,684L515,674L521,684Z" fill="#d69e2e"/><text x="523" y="674" font-size="9" font-weight="bold" fill="#222">C14</text></g>
-<g><title>L11 · Plafon branco 3000 K, fora da sombra do varal · Posição a testar</title><circle cx="320" cy="595" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M315,590L325,600M325,590L315,600" stroke="#b7791f" stroke-width="1.5"/><text x="328" y="589" font-size="9" font-weight="bold" fill="#222">L11</text></g>
+<g><title>C10 · Purificador PE11X bivolt, uso127 V · Aparelho escolhido</title><rect x="555" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M560,700L567,721" stroke="#999" stroke-width=".6"/><text x="556" y="730" font-size="9" font-weight="bold" fill="#222">C10</text></g>
+<g><title>C12 · Geladeira IB6S bivolt, uso127 V · Aparelho escolhido</title><rect x="610" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M615,700L615,733" stroke="#999" stroke-width=".6"/><text x="604" y="742" font-size="9" font-weight="bold" fill="#222">C12</text></g>
+<g><title>C13 · Stella EVO STH21967/30, quadrado3000K · Interruptor comum; posição com portas a conferir</title><circle cx="521" cy="591" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M516,586L526,596M526,586L516,596" stroke="#b7791f" stroke-width="1.5"/><text x="529" y="585" font-size="9" font-weight="bold" fill="#222">C13</text></g>
+<g><title>C14 · COB3000K sob aéreos +Opus/Shelly/pulsador · Grupo independente; acesso/manuais IL04–07 pendentes</title><path d="M509,684L515,674L521,684Z" fill="#d69e2e"/><text x="523" y="674" font-size="9" font-weight="bold" fill="#222">C14</text></g>
+<g><title>L11 · Firefly9608 quadrado3000K · Interruptor comum; testar sombra/varal ocupado</title><circle cx="320" cy="595" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M315,590L325,600M325,590L315,600" stroke="#b7791f" stroke-width="1.5"/><text x="328" y="589" font-size="9" font-weight="bold" fill="#222">L11</text></g>
 <g><title>B01 · Água fria do lavatório · Existente; conferir</title><circle cx="426" cy="526" r="4.5" fill="#3182ce"/><text x="396" y="508" font-size="9" font-weight="bold" fill="#222">B01</text></g>
 <g><title>B02 · Água quente do lavatório · Novo ramal; percurso em estudo</title><circle cx="442" cy="526" r="4.5" fill="#e53e3e"/><text x="450" y="520" font-size="9" font-weight="bold" fill="#222">B02</text></g>
 <g><title>B03 · Esgoto do lavatório · Existente; conferir</title><circle cx="434" cy="515" r="4.5" fill="#4a5568"/><text x="442" y="509" font-size="9" font-weight="bold" fill="#222">B03</text></g>
 <g><title>B04 · Água fria do vaso · Existente</title><circle cx="369" cy="526" r="4.5" fill="#3182ce"/><text x="339" y="508" font-size="9" font-weight="bold" fill="#222">B04</text></g>
 <g><title>B05 · Ducha higiênica · fria · Posição ilustrativa</title><circle cx="396" cy="526" r="4.5" fill="#3182ce"/><text x="366" y="508" font-size="9" font-weight="bold" fill="#222">B05</text></g>
 <g><title>B06 · Ducha higiênica · quente · Novo ramal; E21 exige 3,9 L/min para ligar</title><circle cx="404" cy="526" r="4.5" fill="#e53e3e"/><text x="412" y="550" font-size="9" font-weight="bold" fill="#222">B06</text></g>
-<g><title>B07 · Chuveiro / misturador Livo (quente e fria) · Ponto existente; conferir</title><circle cx="290" cy="526" r="4.5" fill="#e53e3e"/><text x="298" y="520" font-size="9" font-weight="bold" fill="#222">B07</text></g>
+<g><title>B07 · Chuveiro / misturador Livo (quente e fria) · Um código funcional; conferir ambas as alimentações, não só AQ</title><circle cx="290" cy="526" r="4.5" fill="#e53e3e"/><text x="298" y="520" font-size="9" font-weight="bold" fill="#222">B07</text></g>
 <g><title>B08 · Ralo do box · Existente</title><circle cx="295" cy="470" r="4.5" fill="#4a5568"/><text x="303" y="464" font-size="9" font-weight="bold" fill="#222">B08</text></g>
 <g><title>B09 · Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W · L02: Opus OPS31002 e perfil MOV; posição/montagem a validar</title><path d="M428,517L434,507L440,517Z" fill="#d69e2e"/><text x="442" y="495" font-size="9" font-weight="bold" fill="#222">B09</text></g>
 <g><title>B10 · Indireta 3000 K: Cristallux SMD até 2 m /9,6 W · L02: Opus OPS31002, comando próprio; trecho real a medir</title><path d="M428,514L434,504L440,514Z" fill="#d69e2e"/><text x="404" y="492" font-size="9" font-weight="bold" fill="#222">B10</text></g>
 <g><title>B11 · Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 · Selecionado L02; ponto e volumes a conferir</title><circle cx="395" cy="450" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M390,445L400,455M400,445L390,455" stroke="#b7791f" stroke-width="1.5"/><text x="403" y="444" font-size="9" font-weight="bold" fill="#222">B11</text></g>
 <g><title>S01 · Régua no compartimento ventilado: TV, PS5, soundbar · Posição de estudo</title><rect x="500" y="195" width="10" height="10" fill="#2b6cb0"/><text x="513" y="194" font-size="9" font-weight="bold" fill="#222">S01</text></g>
 <g><title>S02 · TV 50″ atrás do painel · Altura a conferir</title><rect x="500" y="245" width="10" height="10" fill="#2b6cb0"/><text x="513" y="244" font-size="9" font-weight="bold" fill="#222">S02</text></g>
-<g><title>S03 · Luz geral da sala · Modelo a definir</title><circle cx="617" cy="375" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M612,370L622,380M622,370L612,380" stroke="#b7791f" stroke-width="1.5"/><text x="625" y="369" font-size="9" font-weight="bold" fill="#222">S03</text></g>
-<g><title>S04 · Luz sobre a mesa Berlin · Modelo a definir</title><circle cx="660" cy="455" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M655,450L665,460M665,450L655,460" stroke="#b7791f" stroke-width="1.5"/><text x="668" y="449" font-size="9" font-weight="bold" fill="#222">S04</text></g>
+<g><title>S03 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 e alternativa D03 pendentes</title><circle cx="617" cy="375" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M612,370L622,380M622,370L612,380" stroke="#b7791f" stroke-width="1.5"/><text x="625" y="369" font-size="9" font-weight="bold" fill="#222">S03</text></g>
+<g><title>S04 · Jabuticaba triplo +3Brilia314450 +D1/RM433 · Vidro âmbar e dimerização a confirmar, grupo próprio</title><circle cx="660" cy="455" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M655,450L665,460M665,450L655,460" stroke="#b7791f" stroke-width="1.5"/><text x="668" y="449" font-size="9" font-weight="bold" fill="#222">S04</text></g>
 <g><title>E01 · Bancada · notebook · Quantidade a definir</title><rect x="295" y="0" width="10" height="10" fill="#2b6cb0"/><text x="308" y="-1" font-size="9" font-weight="bold" fill="#222">E01</text></g>
 <g><title>E02 · Bancada · PC CH360, monitores · Quantidade a definir</title><rect x="435" y="0" width="10" height="10" fill="#2b6cb0"/><text x="448" y="-1" font-size="9" font-weight="bold" fill="#222">E02</text></g>
 <g><title>E03 · TV 43″ existente · Conferir</title><rect x="475" y="171" width="10" height="10" fill="#2b6cb0"/><text x="488" y="170" font-size="9" font-weight="bold" fill="#222">E03</text></g>
-<g><title>E04 · Luz geral do escritório · Modelo a definir</title><circle cx="370" cy="150" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M365,145L375,155M375,145L365,155" stroke="#b7791f" stroke-width="1.5"/><text x="378" y="144" font-size="9" font-weight="bold" fill="#222">E04</text></g>
-<g><title>Q01 · Arandela branca compacta · lado 1 · Comando independente</title><path d="M-1,116L5,106L11,116Z" fill="#d69e2e"/><text x="13" y="106" font-size="9" font-weight="bold" fill="#222">Q01</text></g>
-<g><title>Q02 · Arandela branca compacta · lado 2 · Comando independente</title><path d="M-1,292L5,282L11,292Z" fill="#d69e2e"/><text x="13" y="282" font-size="9" font-weight="bold" fill="#222">Q02</text></g>
+<g><title>E04 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 e alternativa D03 pendentes</title><circle cx="370" cy="150" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M365,145L375,155M375,145L365,155" stroke="#b7791f" stroke-width="1.5"/><text x="378" y="144" font-size="9" font-weight="bold" fill="#222">E04</text></g>
+<g><title>Q01 · Nordecor EVY2054 branca · lado 1 · Comando independente</title><path d="M-1,116L5,106L11,116Z" fill="#d69e2e"/><text x="13" y="106" font-size="9" font-weight="bold" fill="#222">Q01</text></g>
+<g><title>Q02 · Nordecor EVY2054 branca · lado 2 · Comando independente</title><path d="M-1,292L5,282L11,292Z" fill="#d69e2e"/><text x="13" y="282" font-size="9" font-weight="bold" fill="#222">Q02</text></g>
 <g><title>Q03 · Tomada de cabeceira · lado 1 · Conferir</title><rect x="0" y="100" width="10" height="10" fill="#2b6cb0"/><text x="13" y="117" font-size="9" font-weight="bold" fill="#222">Q03</text></g>
 <g><title>Q04 · Tomada de cabeceira · lado 2 · Conferir</title><rect x="0" y="290" width="10" height="10" fill="#2b6cb0"/><text x="13" y="307" font-size="9" font-weight="bold" fill="#222">Q04</text></g>
-<g><title>Q05 · Plafon branco discreto 3000 K regulável · Escolhido</title><circle cx="122" cy="248" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M117,243L127,253M127,243L117,253" stroke="#b7791f" stroke-width="1.5"/><text x="130" y="242" font-size="9" font-weight="bold" fill="#222">Q05</text></g>
-<g><title>Q06 · LED indireto nos aéreos · Perfil e fonte a definir</title><path d="M94,334L100,324L106,334Z" fill="#d69e2e"/><text x="108" y="324" font-size="9" font-weight="bold" fill="#222">Q06</text></g>
-<text x="0" y="778" font-size="13" font-weight="bold">Planta de pontos preliminar R00 · Guedala Park · sem escala de execução</text>
-<rect x="1" y="795" width="10" height="10" fill="#2b6cb0"/><text x="18" y="804" font-size="11">Tomada 127 V</text>
-<rect x="180" y="794" width="12" height="12" fill="#1a365d"/><circle cx="186" cy="800" r="2" fill="#fff"/><text x="198" y="804" font-size="11">Tomada 20 A</text>
-<rect x="360" y="794" width="12" height="12" fill="#742a2a"/><circle cx="366" cy="800" r="2" fill="#fff"/><text x="378" y="804" font-size="11">Circuito exclusivo</text>
-<circle cx="546" cy="800" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M541,795L551,805M551,795L541,805" stroke="#b7791f" stroke-width="1.5"/><text x="558" y="804" font-size="11">Luz no teto</text>
-<path d="M720,804L726,794L732,804Z" fill="#d69e2e"/><text x="738" y="804" font-size="11">Luz de parede / indireta</text>
-<circle cx="6" cy="822" r="4.5" fill="#3182ce"/><text x="18" y="826" font-size="11">Água fria</text>
-<circle cx="186" cy="822" r="4.5" fill="#e53e3e"/><text x="198" y="826" font-size="11">Água quente</text>
-<circle cx="366" cy="822" r="4.5" fill="#4a5568"/><text x="378" y="826" font-size="11">Esgoto / ralo</text>
-<path d="M546,816L552,822L546,828L540,822Z" fill="#d69e2e" stroke="#744210"/><text x="558" y="826" font-size="11">Gás GN</text>
-<circle cx="726" cy="822" r="5" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="2 2"/><text x="738" y="826" font-size="11">Exaustão</text>
-<text x="0" y="852" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Posições derivadas do modelo R45, não do apartamento. Não executar.</text>
+<g><title>Q05 · Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato · Requisito Elias26/10; IL02/03 e D03 pendentes</title><circle cx="122" cy="248" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M117,243L127,253M127,243L117,253" stroke="#b7791f" stroke-width="1.5"/><text x="130" y="242" font-size="9" font-weight="bold" fill="#222">Q05</text></g>
+<g><title>Q06 · COB3000K +Opus/Shelly/pulsador, indireta do quarto · Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes</title><path d="M94,334L100,324L106,334Z" fill="#d69e2e"/><text x="108" y="324" font-size="9" font-weight="bold" fill="#222">Q06</text></g>
+<text x="0" y="752" font-size="10">S05: TV sala: COB3000K +Opus/Shelly/pulsador — posição a levantar</text>
+<text x="0" y="763" font-size="10">E05: TV escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
+<text x="0" y="774" font-size="10">E06: Prateleiras escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
+<text x="0" y="793" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>
+<rect x="1" y="810" width="10" height="10" fill="#2b6cb0"/><text x="18" y="819" font-size="11">Tomada 127 V</text>
+<rect x="180" y="809" width="12" height="12" fill="#1a365d"/><circle cx="186" cy="815" r="2" fill="#fff"/><text x="198" y="819" font-size="11">Tomada 20 A / 127 V</text>
+<rect x="360" y="809" width="12" height="12" fill="#742a2a"/><circle cx="366" cy="815" r="2" fill="#fff"/><text x="378" y="819" font-size="11">Ponto dedicado / RT</text>
+<circle cx="546" cy="815" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M541,810L551,820M551,810L541,820" stroke="#b7791f" stroke-width="1.5"/><text x="558" y="819" font-size="11">Luz no teto</text>
+<path d="M720,819L726,809L732,819Z" fill="#d69e2e"/><text x="738" y="819" font-size="11">Luz de parede / indireta</text>
+<circle cx="6" cy="837" r="4.5" fill="#3182ce"/><text x="18" y="841" font-size="11">Água fria</text>
+<circle cx="186" cy="837" r="4.5" fill="#e53e3e"/><text x="198" y="841" font-size="11">Água quente</text>
+<circle cx="366" cy="837" r="4.5" fill="#4a5568"/><text x="378" y="841" font-size="11">Esgoto / ralo</text>
+<path d="M546,831L552,837L546,843L540,837Z" fill="#d69e2e" stroke="#744210"/><text x="558" y="841" font-size="11">Gás GN</text>
+<circle cx="726" cy="837" r="5" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="2 2"/><text x="738" y="841" font-size="11">Exaustão</text>
+<text x="0" y="867" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Marcadores herdados da R45; contorno atual do site. Não são posições R53 validadas nem medidas reais.</text>
 </svg>
