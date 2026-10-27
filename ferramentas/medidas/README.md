@@ -11,3 +11,7 @@ Pranchas: `python ferramentas/pranchas/gerar.py --cenario C:/Temp/campo.csv --sa
 As fórmulas só aceitam números, constantes, soma/subtração e `m("codigo")`; não executam Python. Limites técnicos sem fonte permanecem nulos. Geometria negativa acusa NÃO CABE; alteração de interface acusa ajuste de fabricação (revisar recorte/implantação), sem afirmar colisão.
 
 Teste: `python -B ferramentas/medidas/test_recalcular.py`, também no verificar_tudo.py e CI. Confere todas as fórmulas, 72 extensões contra envelopes da exportação, nove fechamentos, referências, prumo, precedência, entradas inválidas e integração. SHA do CAD é conferido por leitura binária, sem abrir FreeCAD.
+
+## Ensaio completo
+
+`python ferramentas/medidas/ensaiar.py` usa a [fixture fictícia](cenarios/ensaio_chaves.csv), cronometra comandos reais, compara relatórios, repete PDF, verifica hashes e apaga saídas. `--saida C:/Temp/ensaio` conserva resultados em pasta externa nova. [Tempos e limites manuais](../../04_Moveis/Dependencias/README.md).

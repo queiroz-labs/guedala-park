@@ -13,3 +13,5 @@ Teste integrado: `python ferramentas/pranchas/testar.py --temporarios CAMINHO_FO
 ## Cenário com móveis recalculados
 
 `python ferramentas/pranchas/gerar.py --cenario C:/Temp/campo.csv --saida C:/Temp/pranchas` aplica as [regras dimensionais](../../04_Moveis/Dependencias/README.md), marca “recalculado, não modelado” e grava somente fora do repositório. Caixas fixas preservam dimensões; fechamentos e folgas respondem ao CSV. Não estica painéis internos. Sem cenário, mantém o fluxo R02 existente.
+
+Ensaio completo: `python ferramentas/medidas/ensaiar.py`. Cenários DIM avisam que PR-WALLS/vãos exigem levantamento e compatibilização. Repetição do PDF determinística; entregas preservadas.

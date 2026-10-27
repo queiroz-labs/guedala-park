@@ -102,6 +102,4 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
-**Medidas → móveis (27/10):** [dependências R53](04_Moveis/Dependencias/README.md), caixas fixas por padrão e referências de teto/vãos/pontos; sem medição real ou alteração CAD.
-
-**Recálculo dimensional:** comando e relatório nominal em [Dependências](04_Moveis/Dependencias/README.md); reprodução R53 integrada ao verificador e pranchas aceitam cenário isolado. Não altera fichas/CAD.
+**Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R53 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.

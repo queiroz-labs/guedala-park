@@ -122,3 +122,78 @@ Mesa, sofá e cadeiras: independentes, fora das regras. Peças internas, furaç�
 [Relatório nominal](Impacto.md) · [resultado completo](Impacto.json) · [comandos e testes](../../ferramentas/medidas/README.md). Reprodução: 469 fórmulas sem diferença nominal; 72 cotas de envelope conferidas diretamente contra R53. Os nove fechamentos e 388 referências são distâncias derivadas, não 397 peças modeladas.
 
 Prumo positivo reduz a folga de fundo dos módulos da cozinha: se a parede avançar 12 mm sobre uma caixa sem folga nominal, NÃO CABE, mesmo preservando sua dimensão. Limites de fabricação não documentados ficam nulos; não foi inventada tolerância de 50 mm. Esse número apenas seleciona perguntas de folga.
+
+## Dia das chaves — passo a passo
+
+1. Meça teto/piso em vários pontos, paredes na base/topo, vãos e pontos; registre unidades, eixos, fotos e evidência. Use o menor vão livre, não a média.
+2. Crie CSV externo com `codigo_medida,valor_medido,evidencia_campo`, códigos da base e ambos os eixos DIM. Não reutilize valores fictícios do ensaio.
+3. Rode `python ferramentas/medidas/recalcular.py --cenario C:/Temp/campo.csv --saida C:/Temp/impacto`.
+4. Abra Impacto.md; separe conflito nominal, novo NÃO CABE, folga e referência de instalação. Espaço livre total não é peça de arremate.
+5. Levante PR-WALLS, pisos/vãos e continuidade entre ambientes: DIM não define para que lado uma parede mudou.
+6. Rode `python ferramentas/pranchas/gerar.py --cenario C:/Temp/campo.csv --saida C:/Temp/pranchas`; revise PDF, Impacto.html e Impacto_moveis.json.
+7. Decida com oficina/RT quais caixas mudar e como fechar encontros/recortes; documente antes de trocar o modo nas regras.
+8. Incorpore somente medições reais conferidas ao CSV, com evidência/data; preserve nominais. Repita com CSV externo conferido e testes. O relatório versionado continua nominal.
+9. Havendo mudança física, edite FreeCAD pela GUI em tarefa autorizada; reexporte e atualize regras/fichas/pranchas. Execute verificação completa, sem ajustar base para esconder conflito.
+10. Rode verificar_tudo.py e revise antes de entregar. O resultado automático é estudo, não executivo de corte.
+
+## Ensaio fictício — 27/10/2026
+
+[Fixture](../../ferramentas/medidas/cenarios/ensaio_chaves.csv). Repetir: `python ferramentas/medidas/ensaiar.py` (apaga saídas temporárias). `--saida C:/Temp/ensaio` conserva resultados em pasta externa nova.
+
+| Passo | Tempo observado |
+|---|---:|
+| Recálculo via comando real | 0,1408 s |
+| 20 pranchas SVG/HTML/PDF e impacto | 0,4775 s |
+| Conferência cruzada dos relatórios | 0,1096 s |
+| Fluxo automático total | 0,7279 s |
+| Segunda geração para idempotência | 0,4690 s |
+
+Medição única nesta máquina; inclui inicialização dos processos, exclui medição no imóvel, digitação, revisão visual e edição CAD. Hashes do CSV, fatos, FCStd, relatórios nominais e entregas vigentes: preservados. Repetição: zero alterações e PDF idêntico. Oito testes rápidos integram o verificador. A regressão antiga de pranchas também passou (99 cotas e quatro conflitos no cenário próprio).
+
+Resultados: 28 referências/fechamentos mudaram; as 72 dimensões de envelope ficaram fixas. 406 OK, 25 ajustes de arremate, 24 revisões de fabricação/interface e 14 NÃO CABE. Destes, quatro já eram nominais; dez são novos avisos de fundo por prumo (P05–P13 e bancada Peca308). As pranchas registraram 84 mudanças de cota/origem contra a entrega vigente; 209 avisos incluem repetições por folha e pendências existentes, não 209 defeitos distintos.
+
+P02/P03/P04: fechamento 160 → 30 mm; P17: 150 → 20 mm. Água C05 relativa ao início X de P05: 220 → 300 mm; peitoril relativo à base P01: 950 → 990 mm. Folga final X: quarto +18 mm, cozinha −25 mm, lavanderia −30 mm; sala −20 mm na folga ao teto. Folga final Y da cozinha: −12 mm pelo prumo simulado. Nenhuma caixa encolhida automaticamente.
+
+Detalhe da pergunta 2: P07 −13 mm e P09 −25 mm na origem X da cozinha; P15 −15 mm e Peca357 −40 mm no fim X da lavanderia. Conflitos com o **retângulo principal**, não prova de colisão: existe faixa complementar na cozinha. Conferir limites locais e continuidade antes de mudar caixas.
+
+20 páginas rasterizadas; visão geral e E05 inspecionadas. Formato A3 e carimbo “recalculado, não modelado” em todas. Nenhum PDF fictício versionado. SHA256 da fixture: `3835deec53ad1014d654ac3a8d0e22226805aa76bdd5921b533af137b8ebb582`.
+
+### O que quebrou ou continuou manual
+
+- Git/hook e temporários falharam no sandbox Windows; executados com permissão fora dele, sem desativar verificações. Não é falha do modelo.
+- Encaminhamento de argumentos ao Python com ReportLab corrigido para cenário/saída; Geometria.json separado da saída externa. Cenários preservam entregas.
+- Prumo agora reduz a folga limitante de fundo. Vãos internos ficam pendentes se o envelope mudar; painéis/ferragens não são esticados.
+- DIM não resolve topologia. Aviso acrescentado às plantas; distribuição entre faces/ambientes exige medição humana.
+- Reduzir caixa, mudar implantação, criar fechamento e refazer recortes continuam decisões humanas. Ponto fora do envelope não comprova colisão; o relatório detecta mudança.
+- Revisão automática bloqueou documentação por risco de tamanho do ESTADO_ATUAL.md. Resolvido reduzindo seu resumo e mantendo detalhes aqui; limites preservados.
+
+### FreeCAD — trabalho manual e estimativa por móvel
+
+Faixas de planejamento, **não cronometradas**: localizar parâmetros/peças, fazer um ajuste simples já decidido e conferir visualmente. Caixa preservada não precisa de edição; fechamento novo precisa ser modelado. Interfaces compartilhadas não são serviços independentes.
+
+| Móvel | Ainda manual no CAD | Estimativa se alterar |
+|---|---|---:|
+| P01 | Caixa/portas e encontro P02/P03 | 30–60 min |
+| P02 | Retorno L, quina, juntas e fechamento | 40–90 min |
+| P03 | Fechamento, folhas e encontro P01 | 25–50 min |
+| P04 | Fechamento e implantação na cabeceira | 20–40 min |
+| P05 | Recortes/acesso hidráulico e bancada | 30–60 min |
+| P06 | Caixa, frentes e guias | 25–50 min |
+| P07 | Nicho de cocção e folgas do produto | 30–60 min |
+| P08 | Caixa móvel, rodízios e retirada | 25–50 min |
+| P09 | Fechamento, depurador e implantação | 20–40 min |
+| P10 | Fechamento, divisões e portas | 20–40 min |
+| P11 | Fechamento e nicho do micro | 25–50 min |
+| P12 | Fechamento e nicho da geladeira | 20–40 min |
+| P13 | Apoio e posição do micro | 15–30 min |
+| P14 | Caixa, tanque/cesto e recortes | 30–60 min |
+| P15 | Enquadramento ao teto e encontro cozinha | 25–50 min |
+| P16 | Gavetas, bancada e guias | 25–50 min |
+| P17 | Fechamento e implantação escritório | 20–40 min |
+| P18 | Portas, frente removível, cuba/acessos | 30–60 min |
+| P19 | Espelho/portas e encontros | 20–40 min |
+| P20 | Banco/tampas, parede e acesso | 25–50 min |
+
+Bancadas Peca110/308/357/399: 20–45 min cada para contorno/recortes, com decisões e medidas disponíveis. Depois: reexportação/regeneração, revisão conjunta e verificação completa do modelo (referência do projeto: ~8 min, não executada aqui). Ligações, oficina e RT fora dessas estimativas.
+
+Pergunta 5: criar planilha mestre no CAD? Recomendação: sim para parâmetros estáveis de implantação, caixas e fechamentos, após definir cotas variáveis; não automatizar inicialmente recortes, ferragens ou distribuição entre módulos. O ensaio mede velocidade do relatório, não da remodelagem: caixas conservadas por falta de decisão de redimensionar.

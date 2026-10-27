@@ -1,0 +1,10 @@
+codigo_medida,valor_medido,evidencia_campo
+PD-QUA,2470 mm,FICTÍCIO - ensaio; não é levantamento
+PD-ESC,2470 mm,FICTÍCIO - ensaio; não é levantamento
+PD-SAL,2580 mm,FICTÍCIO - ensaio; não é levantamento
+DIM-07,3495 x 1550 mm,FICTÍCIO - cozinha menos 25 mm em X; PR-WALLS a compatibilizar
+DIM-01,2468 x 2950 mm,FICTÍCIO - quarto mais 18 mm em X; PR-WALLS a compatibilizar
+DIM-06,1260 x 1540 mm,FICTÍCIO - lavanderia menos 30 mm em X; PR-WALLS a compatibilizar
+PR-PONTO-C05-X,4780 mm,FICTÍCIO - água fria cozinha mais 80 mm em X
+PR-JANELA-1-Z,990 mm,FICTÍCIO - peitoril quarto mais 40 mm
+DEP-COZ-PRUMO,12 mm,FICTÍCIO - topo da parede de fundo avança 12 mm para dentro

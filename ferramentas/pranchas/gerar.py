@@ -398,6 +398,10 @@ def gerar(cenario=None):
     if p.recalculo:
         for f in pages:
             f.texto(15,34,'CENÁRIO — recalculado, não modelado; conferir Impacto_moveis.json',2.5,'#9d2925')
+            if f.codigo in ('PL1','PL2'):
+                for code in ('DIM-01','DIM-06','DIM-07'):
+                    if p.rows[code]['valor_medido'].strip():
+                        f.avisos.append(code+': conferir PR-WALLS e vãos; largura medida não resolve alinhamentos compartilhados.')
             for r in p.recalculo['resultados']:
                 if f.codigo in r['pranchas'] and r['status'] != 'OK':
                     f.avisos.append(r['movel']+'/'+r['cota']+': '+r['status'])

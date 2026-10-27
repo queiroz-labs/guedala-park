@@ -108,6 +108,16 @@ class Dependencias(unittest.TestCase):
         rows['PD-QUA']['valor_medido'] = '-1 mm'
         with self.assertRaises(ValueError): calcular(rows,self.doc)
 
+    def test_fixture_chaves_e_relatorio_nominal_versionado(self):
+        fixture = ROOT/'ferramentas/medidas/cenarios/ensaio_chaves.csv'
+        rows = entradas(cenario=fixture)
+        report = calcular(rows,self.doc)
+        self.assertEqual(sum(r['delta_mm'] != 0 for r in report['resultados']),28)
+        self.assertEqual(sum(r['status'] == 'NÃO CABE' for r in report['resultados']),14)
+        self.assertTrue(all(r['delta_mm']==0 for r in report['resultados'] if r['tipo']=='envelope'))
+        saved = json.loads((ROOT/'04_Moveis/Dependencias/Impacto.json').read_text(encoding='utf-8'))
+        self.assertEqual(saved['resultados'],calcular(self.nominal,self.doc)['resultados'])
+
 
 if __name__ == '__main__':
     suite = unittest.defaultTestLoader.loadTestsFromTestCase(Dependencias)
