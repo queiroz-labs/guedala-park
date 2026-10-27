@@ -95,7 +95,7 @@ P = [
 P += [
     ('S05', 'A', None, None, None, 'TV sala: COB3000K +Opus/Shelly/pulsador', 'Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01'),
     ('E05', 'A', None, None, None, 'TV escritório: kit WiZ2m e WiZmote próprio', 'Novo grupo; posição/cortes/manuais IL08 pendentes'),
-    ('E06', 'A', None, None, None, 'Prateleiras escritório: kit WiZ2m e WiZmote próprio', 'Novo grupo; posição/cortes/manuais IL08 pendentes'),
+    ('E06', 'A', None, None, None, 'E06 ADIADO: prateleiras escritório, fase futura', 'D06-B Elias, 27/10/2026; fora da cotação atual; manter E05/TV'),
 ]
 
 ROOM_LABEL = {'quarto': 'QUARTO', 'escritorio': 'ESCRITÓRIO', 'sala': 'SALA', 'cozinha': 'COZINHA', 'lavanderia': 'LAVANDERIA', 'banho': 'BANHEIRO'}

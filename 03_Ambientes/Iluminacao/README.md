@@ -14,19 +14,19 @@
 | Sala — geral | Jurerê + 2 WiZ + WiZmote | SKU/tensão, fechamento/temperatura e cotação |
 | Sala — jantar | Jabuticaba triplo preto/âmbar, 3 Brilia G9; D1 + RM433 candidatos | Variante tripla/âmbar, documentação e ensaio de dimerização |
 | Sala — TV | COB 3000 K + Opus/Shelly/pulsador | Conjunto e instalação |
-| Escritório — três grupos | Geral Jurerê + 2 WiZ; dois kits WiZ para TV/prateleiras; 3 WiZmotes separados | Lotes/manuais, cortes e inclusão dos dois grupos indiretos na compatibilização de pontos |
+| Escritório — dois grupos nesta etapa | Geral Jurerê + 2 WiZ; um kit WiZ para TV; 2 WiZmotes separados; E06 adiado | Lotes/manuais, cortes e implantação de E05 na compatibilização de pontos |
 | Banheiro — três grupos | L02: Firefly 9605/3000 K, espelho COB4000 K e indireta3000 K; interruptores comuns separados | Posição da barra inferior/torneira, proteção das terminações, dissipação e luz no rosto |
 
 Detalhes técnicos e consultas: [CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). **A [lista curta de27/10](Lista_curta_luminarias_e_madeira.md) prevalece para códigos, preços e situação comercial** sobre CB02/L02 históricos. Firefly quadrado3000K corrigido para9608;9607 não corresponde ao produto pretendido. Sem alteração do CAD ou publicação.
 
 ## Custo e quantidades
 
-**R$4.879,03 é o cenário parcial atualizado**, diferença R$1.339,03 sobre a provisão R44 de3.540. D03 — Elias,27/10/2026: "B — Elgin só no quarto; cozinha/lavanderia/banheiro seguem com interruptor comum". Troca reduz R$241,49; manual e comando físico do Elgin não fechados. Fontes, perfis e controles discriminados na lista curta, sem duplicação do banheiro.
+**R$4.534,55 é o cenário parcial atualizado**, diferença R$994,55 sobre a provisão R44 de3.540. D03 — Elias,27/10/2026: "B — Elgin só no quarto; cozinha/lavanderia/banheiro seguem com interruptor comum". Troca reduz R$241,49; manual e comando físico do Elgin não fechados. Fontes, perfis e controles discriminados na lista curta, sem duplicação do banheiro.
 
 D04 — Elias,27/10/2026: "A — indireta na cabeceira/face inferior acessível". Montagem/acesso e acréscimos a cotar; sem nova coordenada presumida.
 
 - Seis plafons gerais, um pendente triplo e duas arandelas; dois Jurerê recebem quatro WiZ E27, e o quarto usa um Elgin integrado. SceneSwitch não entra na compra proposta.
-- Quatro WiZmotes (sala e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
+- Três WiZmotes (sala e dois grupos do escritório); um kit WiZ completo, sem repetir suas fontes/controladores.
 - Três Shelly, três pulsadores/placas candidatos e **cinco fontes Opus avulsas no total**: três nos grupos com Shelly e duas já incluídas na L02 do banheiro.
 - Banheiro L02 atualizado R$704,64 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
 
@@ -54,4 +54,4 @@ Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md)
 
 Coerência documental26/10: READMEs do quarto/lavanderia alinhados à proposta smart/Firefly; a seleção de27–28/09 fica identificada como memória histórica. Sem alterar decisões comerciais, CAD ou publicação.
 
-**D05-C/D06,27/10:** Elias escolheu "C — cotar com aumento de verba"; P17/C05 ficam fora da primeira etapa cotada. E06 perde as prateleiras de suporte, E05 requer implantação independente. [D06 com alternativas e preços](../../01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md#d06--iluminação-do-escritório-após-d05-c) aguarda Elias; os dois kits/controles permanecem no total até resposta, sem desconto automático.
+**D05-C/D06,27/10:** Elias escolheu "C — cotar com aumento de verba"; P17/C05 ficam fora da primeira etapa cotada. E06 perde as prateleiras de suporte, E05 requer implantação independente. D06-B retira um kit e um controle da etapa atual (R$ 344,48), mantendo E05. D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação".

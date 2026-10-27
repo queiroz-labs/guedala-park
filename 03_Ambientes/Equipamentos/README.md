@@ -53,3 +53,5 @@ Compatibilização27/10: CSV corrige Q05 para smart e L11 paraFirefly9608; inclu
 B10/EQ32: Brilia318939 substituta proposta em27/10, com oferta nacional e fabricante identificados na lista de iluminação; instalação ainda condicionada.
 
 D03/D04, Elias27/10/2026: EQ43 registra Elgin48D18WSRWIFI no quarto; EQ42 registra cabeceira/face inferior acessível. Citações no CSV e na lista de iluminação; dimensões/manuais e implantação permanecem condicionados.
+
+D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". EQ51 permanece como função futura, fora da cotação atual.

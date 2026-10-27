@@ -97,7 +97,7 @@
 <text x="0" y="752" font-size="10">Q06: Cabeceira/face inferior: COB3000K +Opus/Shelly — posição a levantar</text>
 <text x="0" y="763" font-size="10">S05: TV sala: COB3000K +Opus/Shelly/pulsador — posição a levantar</text>
 <text x="0" y="774" font-size="10">E05: TV escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
-<text x="0" y="785" font-size="10">E06: Prateleiras escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
+<text x="0" y="785" font-size="10">E06: E06 ADIADO: prateleiras escritório, fase futura — posição a levantar</text>
 <text x="0" y="808" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>
 <rect x="1" y="825" width="10" height="10" fill="#2b6cb0"/><text x="18" y="834" font-size="11">Tomada 127 V</text>
 <rect x="180" y="824" width="12" height="12" fill="#1a365d"/><circle cx="186" cy="830" r="2" fill="#fff"/><text x="198" y="834" font-size="11">Tomada 20 A / 127 V</text>

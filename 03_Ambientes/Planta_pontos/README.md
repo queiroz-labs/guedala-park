@@ -48,13 +48,13 @@ As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E0
 - C14/S05/Q06: Shelly+fonte+pulsador candidato, grupo independente, compatibilidade IL04–07.
 - S03/E04: Jurerê/WiZ smart; Q05: Elgin48D18WSRWIFI, D03-B de Elias27/10/2026, manual/comando físico IL09 pendentes.
 - S04: D1+RM433 propostos; ensaio com trêsG9. Q01/Q02: leitura independente por lado.
-- E05/E06: dois kitsWiZ, dois controles separados; corte e acessórios IL08. Não duplicar fontes próprias.
+- E05/TV: um kit WiZ e um controle; E06/prateleiras adiado por D06-B. Não duplicar fontes próprias.
 
 **D04 — Elias,27/10/2026: "A — indireta na cabeceira/face inferior acessível".** Q06 sai da coordenada/altura antiga213cm e fica sem posição até compatibilização. Componentes provisionados; acréscimos de marcenaria/instalação a cotar. D05 poderá adiar cabeceira/aéreo: nesse caso, cotar suporte independente antes de executar. Não inventar nova coordenada nem fresta sobre armário.
 
 Conferência anterior27/10: SVG inspecionado. Revisão D03/D04 mantém53 funções, agora quatro sem posição (Q06/S05/E05/E06); conferir na regeneração A3. Não verifica posições reais.
 
-D05-C (Elias27/10/2026: "C — cotar com aumento de verba") adia P17/C05: E06 perde o suporte previsto, E05 exige suporte independente. [D06](../../01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md#d06--iluminação-do-escritório-após-d05-c) aguarda escolha; funções mantidas na planta, sem coordenadas inventadas.
+D05-C (Elias27/10/2026: "C — cotar com aumento de verba") adia P17/C05: E06 perde o suporte previsto, E05 exige suporte independente. **D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação".** São 53 funções registradas: 52 nesta etapa e E06 adiada, sem coordenadas inventadas. Luz vigente R$ 4.534,55; anteprojeto 87%, conforme o Roteiro.
 
 ## Pontos
 
@@ -114,4 +114,4 @@ D05-C (Elias27/10/2026: "C — cotar com aumento de verba") adia P17/C05: E06 pe
 | Q06 | Luz de parede / indireta | Cabeceira/face inferior: COB3000K +Opus/Shelly | a levantar | D04-A Elias27/10; posição/acesso/pulsador a compatibilizar |
 | S05 | Luz de parede / indireta | TV sala: COB3000K +Opus/Shelly/pulsador | a levantar | Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01 |
 | E05 | Luz de parede / indireta | TV escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |
-| E06 | Luz de parede / indireta | Prateleiras escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |
+| E06 | Luz de parede / indireta | E06 ADIADO: prateleiras escritório, fase futura | a levantar | D06-B Elias, 27/10/2026; fora da cotação atual; manter E05/TV |

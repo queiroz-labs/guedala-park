@@ -37,11 +37,11 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 86% estimado | Antes75%; +8 documental e +3 por D03/D04/integração A3. [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D05 respondidas; D06 aguarda Elias; cotações/amostras impedem90–95% |
+| Anteprojeto | 87% estimado | Antes75%; +8 documental e +4 por D03/D04/D06/integração A3. [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; cotações/amostras impedem90–95% |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
-| Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04 integradas; Q06 sem coordenada, implantação e circuitos com RT/oficina |
+| Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04/D06 integradas; E06 adiada, Q06 sem coordenada, implantação e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias27/10; SKUs e escolha final pendentes |
-| Orçamento | 60% | R44: R$137.748,11; luz4.879,03. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias27/10: "C — cotar com aumento de verba". Referência127.445,70, aporte7.445,70, reserva10.000 intacta; pacote37.000 condicionado, sem contratar |
+| Orçamento | 60% | R44: R$137.748,11; luz4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias27/10: "C — cotar com aumento de verba". Referência127.101,22, aporte7.101,22, reserva10.000 intacta; pacote37.000 condicionado, sem contratar |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 

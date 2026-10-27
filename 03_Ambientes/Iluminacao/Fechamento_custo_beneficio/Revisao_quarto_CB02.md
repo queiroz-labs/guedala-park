@@ -1,6 +1,6 @@
 # Iluminação — composição CB02 e complementos T06
 
-> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizadoR$4.879,03. D03-B: Elgin só no quarto (Elias,27/10/2026). Composições Jurerê/quarto abaixo são históricas; consultas atuais em [Rascunhos](../../../01_Programa_e_decisoes/Rascunhos_emails.md).
+> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizado R$ 4.534,55 após D06-B (Elias, 27/10/2026); E06 adiado. D03-B: Elgin só no quarto (Elias,27/10/2026). Composições Jurerê/quarto abaixo são históricas; consultas atuais em [Rascunhos](../../../01_Programa_e_decisoes/Rascunhos_emails.md).
 
 24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
 
