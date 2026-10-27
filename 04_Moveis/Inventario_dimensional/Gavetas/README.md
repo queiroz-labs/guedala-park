@@ -103,7 +103,7 @@ O pedido atual não inclui envio de correspondência, compra nem mudança de fer
 
 ## Fixação das frentes — proposta independente
 
-[28 pontos e validação parcial](Fixacao_frentes.md): passagemØ8; dois alojamentosØ20×5 G2 evitam cabeças contra bandejas, mas os11 mm não têm resistência demonstrada. 512 combinações: residual pode cair a10,5; comparação3,5 preserva12,5 nominais com folga mínima0,5 na hipótese, sem adoção. RECA4×25/30 identificados nominalmente; arruela15/furo4,4–4,8 continua sem conjunto comercial comprovado. M4 larga consultada não cobre integralmente oØ8 no extremo. Produto, chapa, aperto, usinagem e ensaio pendentes; CAD intacto.
+[28 pontos e validação parcial](Fixacao_frentes.md): seção11 dos dois alojamentos G2 sem resistência demonstrada; 512 combinações preservadas. Candidato concreto: RECA01814 25 + Ettinger003.06.941 (4,3×15×1); tolerâncias/encaixe pela rosca ainda pendentes. Dianteira interna16 não individualizada na lista P06 nem por SKU; BrancoTX é intenção de acabamento. Decorativa18 Arenza rastreada. Seis comparações15/16/18:18 zera vão das bandejas,15 deixa seção10 com rebaixo5. Não substituir chapa automaticamente. Produto, material, aperto e ensaio pendentes; CAD intacto.
 
 ## Curso, engates e manutenção
 

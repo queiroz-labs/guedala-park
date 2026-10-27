@@ -347,5 +347,98 @@
     }
   ],
   "pressure_limits": "No allowable compression, preload or torque assigned; flat bearing area assumes undamaged continuous material and rigid seated washer. No local peak prediction.",
-  "decision": "Do not qualify remaining 11 mm. Compare 3.5 mm recess (12.5 nominal remaining), conditional on actual gap, hardware and thread engagement; baseline proposal unchanged."
+  "decision": "Do not qualify remaining 11 mm. Compare 3.5 mm recess (12.5 nominal remaining), conditional on actual gap, hardware and thread engagement; baseline proposal unchanged.",
+  "catalog_candidate": {
+    "screw": "RECA 01814 25",
+    "washer": "ETTINGER 003.06.941",
+    "washer_nominal_mm": {
+      "inner": 4.3,
+      "outer": 15,
+      "thickness": 1
+    },
+    "screw_head_nominal_mm": {
+      "diameter": 8,
+      "height": 2.8
+    },
+    "status": "Candidate for qualification only; tolerances, screw neck, passage through washer and strength unconfirmed",
+    "neck_sensitivity": [
+      {
+        "assumed_neck_mm": 3,
+        "eccentricity_mm": 0.6499999999999999,
+        "cover_mm": 1.2688611699158103,
+        "recess_clearance_mm": 0.2688611699158103,
+        "head_cover_mm": 1.2000000000000002
+      },
+      {
+        "assumed_neck_mm": 4,
+        "eccentricity_mm": 0.1499999999999999,
+        "cover_mm": 1.7688611699158103,
+        "recess_clearance_mm": 0.7688611699158103,
+        "head_cover_mm": 1.7000000000000002
+      }
+    ],
+    "board_comparisons": [
+      {
+        "internal_thickness_mm": 15,
+        "recess_mm": 5,
+        "residual_mm": 10,
+        "penetration_including_tip_mm": 14,
+        "outer_skin_mm": 4,
+        "tray_gap_mm": 3,
+        "tray_clearance_mm": 3
+      },
+      {
+        "internal_thickness_mm": 15,
+        "recess_mm": 3.5,
+        "residual_mm": 11.5,
+        "penetration_including_tip_mm": 12.5,
+        "outer_skin_mm": 5.5,
+        "tray_gap_mm": 3,
+        "tray_clearance_mm": 2.7
+      },
+      {
+        "internal_thickness_mm": 16,
+        "recess_mm": 5,
+        "residual_mm": 11,
+        "penetration_including_tip_mm": 13,
+        "outer_skin_mm": 5,
+        "tray_gap_mm": 2,
+        "tray_clearance_mm": 2
+      },
+      {
+        "internal_thickness_mm": 16,
+        "recess_mm": 3.5,
+        "residual_mm": 12.5,
+        "penetration_including_tip_mm": 11.5,
+        "outer_skin_mm": 6.5,
+        "tray_gap_mm": 2,
+        "tray_clearance_mm": 1.7000000000000002
+      },
+      {
+        "internal_thickness_mm": 18,
+        "recess_mm": 5,
+        "residual_mm": 13,
+        "penetration_including_tip_mm": 11,
+        "outer_skin_mm": 7,
+        "tray_gap_mm": 0,
+        "tray_clearance_mm": 0
+      },
+      {
+        "internal_thickness_mm": 18,
+        "recess_mm": 3.5,
+        "residual_mm": 14.5,
+        "penetration_including_tip_mm": 9.5,
+        "outer_skin_mm": 8.5,
+        "tray_gap_mm": 0,
+        "tray_clearance_mm": -0.2999999999999998
+      }
+    ],
+    "envelope_condition": {
+      "assumed_washer_od_max_mm": 15.2,
+      "assumed_washer_id_max_mm": 4.4,
+      "assumed_neck_min_mm": 3,
+      "recess_clearance_mm": 0.11886116991581042,
+      "note": "Illustrative acceptance budget, NOT catalog tolerances; washer minimum ID must exceed maximum screw diameter along assembly path."
+    }
+  }
 }

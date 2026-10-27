@@ -4,6 +4,49 @@ T05, 26/10/2026. [Mapa de 28 pontos, coordenadas e margens](Fixacao_frentes.json
 
 ## Validação documental e dimensional — 26/10/2026
 
+### Conjunto identificado e material da dianteira G2
+
+**Candidato documental para os dois pontos baixos: RECA 01814 25 + Ettinger 003.06.941.** O primeiro é o parafuso4×25, cabeça panelaØ8×2,8, A2/Z2 da tabela abaixo. A [ficha Ettinger](https://www.ettinger.de/en/product-datasheet/77dec9e23065c0090bc3f25782991855/create) identifica arruela plana A2/304, furo4,3, externo15 e espessura1 mm. Consulta26/10/2026 por conteúdo oficial indexado; download direto indisponível. Não há tolerâncias na ficha obtida. É um par concreto para qualificação, **não conjunto dimensionado para compra ou usinagem**; disponibilidade no Brasil não verificada. Para os outros26 pontos, manter RECA01814 30 como candidato, sujeito à mesma conferência.
+
+Esta arruela substitui apenas a abstração na nova comparação; não altera o mapa anterior, que usa espessura1,2/furo4,4–4,8. Não chamá-la de M4 larga padrão: a M4 de12 mm anteriormente consultada é outro produto. O furo nominal4,3 também não garante passar pelo parafuso cujo envelope anterior admite4,3: falta conferir mínimo do furo, máximo da rosca na montagem, raio sob cabeça e apoio plano efetivo.
+
+| Comparação nominal com arruela4,3×15×1 | Pescoço hipotético4 | Pescoço hipotético3 |
+|---|---:|---:|
+| Excentricidade máxima arruela/haste | 0,150 | 0,650 |
+| Cobertura radial da passagemØ8 | 1,769 | 1,269 |
+| Folga à parede do alojamentoØ20 | 0,769 | 0,269 |
+| Cobertura radial cabeçaØ8 sobre furo da arruela | 1,700 | 1,200 |
+
+Cotas em mm, ajuste±1,5 e erro horizontal0,5 preservados. São hipóteses de pescoço, não medidas RECA. Critério geométrico: `D_alojamento_min/2 − D_arruela_max/2 − sqrt(1,5²+0,5²) − (furo_arruela_max−pescoço_min)/2 > 0`. Um orçamento ilustrativo externo≤15,2/furo≤4,4/pescoço≥3 deixa só0,119 mm noØ20 exato; tolerâncias do alojamento e posição ainda consomem essa margem. Exigir também passagem livre da arruela pela rosca, cobertura doØ8 e apoio da cabeça. Não transferir tolerâncias Accu para Ettinger. Não foram definidos torque, piloto ou carga.
+
+**Material rastreado por peça:**
+
+| Peça | Evidência local | O que pode ser especificado agora |
+|---|---|---|
+| `MontagemG2R021`, dianteira interna | Base R52: Y6408–6424, espessura geométrica16; proposta542×73×16. ID ausente na lista P06 e na auditoria de acabamentos consultadas | Intenção BrancoTX nas duas faces pela regra de peças internas separadas; fabricante, substrato, classe e SKU **não individualizados**. Não afirmar que seja MDF Greenplac16 ou que os11 mm sejam material caracterizado |
+| `MontagemG2R020`, frente decorativa | Lista P06 e auditoria:617×156×18, Greenplac Arenza liso nas duas faces | Família MDF Arenza Colore/Lizze18 é coerente com catálogo; SKU/revestimento do lote e propriedades de fixação ainda pendentes |
+
+Fontes locais: [proposta por ID](Pecas_proposta_FGVTN_500.csv), [lista P06](../../../06_Entregas/Fichas_fabricacao/P06-pecas.csv), [auditoria](../../Acabamentos_por_peca.csv) e [regra de acabamento](../../../ferramentas/site/fabrication/Decisao_acabamentos_R13.md). A ausência documental do ID interno é pendência de integração, não autorização para acrescentar peça ou mudar automaticamente a lista publicada. A espessura16,2 atribuída ao fundo na lista é envelope antigo; o sólido15 já foi esclarecido no README e não identifica a dianteira16.
+
+O [catálogo Arenza](https://greenplac.com.br/products/mdf-arenza-linha-colore) publica MDF, texturaLizze e espessuras6/15/18/25. A [página BrancoTX Greenplac](https://greenplac.com.br/products/branco-tx-hr-2-750-x-1-850-mm-02-faces) distingue convencional/HR e lista6/15/18; **não comprova16**. BrancoTX é acabamento, não classe mecânica. MDF BP é uma família candidata para a dianteira; não adotar HR como prova de resistência do assento nem colar/lixar chapas para obter16 por presunção. Não foi identificado produto16 correspondente nas fontes consultadas, o que não prova inexistência no mercado.
+
+#### Efeito de escolher uma espessura comercial
+
+Comparação nominal com RECA25/arruela1/cabeça2,8, decorativa18; contato entre frentes mantido emY6408 e bandejas emY6426. A face interna varia com a espessura, portanto o vão é `6426−(6408+t)`. Não é alternativa adotada nem tolerância de fabricação.
+
+| Dianteira / rebaixo | Seção residual | Entrada incluindo ponta | Sobra externa | Folga cabeça/bandeja |
+|---|---:|---:|---:|---:|
+| 15 /5 | 10 | 14 | 4 | 3 |
+| 16 /5 | 11 | 13 | 5 | 2 |
+| 18 /5 | 13 | 11 | 7 | 0 |
+| 15 /3,5 | 11,5 | 12,5 | 5,5 | 2,7 |
+| 16 /3,5 | 12,5 | 11,5 | 6,5 | 1,7 |
+| 18 /3,5 | 14,5 | 9,5 | 8,5 | **−0,3** |
+
+Em mm. Dianteira18 encosta nas bandejas mesmo com cabeça totalmente alojada; com rebaixo3,5 há interferência nominal0,3. Dianteira15 não preserva os11 mm do rebaixo5. Alterar espessura também muda juntas/furos e comprimento interno; não basta trocar16 por15/18 no orçamento. Para15, a comparação3,5 merece continuidade, mas ainda exige verificar retenção, material usinado e compatibilidade da caixa. Nenhuma correção foi aplicada.
+
+**Fechamento possível nesta etapa:** códigos candidatos e critérios de encaixe identificados; acabamento da decorativa rastreado; lacuna da dianteira16 explicitada. Para fechar tecnicamente o conjunto faltam desenho/tolerâncias RECA/Ettinger e ficha do painel por SKU, com classe, espessura acabada e propriedades pertinentes. Dados de catálogo podem ser obtidos sem oficina/FGVTN, mas não substituem a prova física do alojamento. Consulta preparada: pedir os limites dimensionais acima, geometria da ponta/rosca útil, instruções de piloto/torque para a chapa selecionada e dados de resistência do assento usinado. Nenhuma consulta enviada. Os11 mm continuam sem resistência demonstrada; FreeCAD preservado.
+
 **Resultado: os 11 mm restantes não têm resistência demonstrada.** A geometria candidata continua separada do CAD. [512 combinações extremas e comparação de arruelas](Validacao_fixadores_G2.json) delimitam as margens; não fornecem capacidade. A comparação de rebaixo3,5 abaixo é uma alternativa a aprofundar, sem substituir o mapa de28 pontos ou adotar nova usinagem.
 
 ### Fixadores reais versus envelope do estudo

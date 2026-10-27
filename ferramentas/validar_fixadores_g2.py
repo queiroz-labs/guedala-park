@@ -39,6 +39,30 @@ def main():
   assumed_preload_pressures=[dict(assumed_preload_per_fastener_N=n,average_pressure_upper_bound_N_per_mm2=n/area) for n in [100,250,500]],
   pressure_limits='No allowable compression, preload or torque assigned; flat bearing area assumes undamaged continuous material and rigid seated washer. No local peak prediction.',
   decision='Do not qualify remaining 11 mm. Compare 3.5 mm recess (12.5 nominal remaining), conditional on actual gap, hardware and thread engagement; baseline proposal unchanged.')
+ # Separate catalog candidate: nominal dimensions are not certified limits.
+ candidate=[]
+ for neck in [3,4]:
+  e=(4.3-neck)/2
+  candidate.append(dict(assumed_neck_mm=neck,eccentricity_mm=e,
+   cover_mm=15/2-4-offset-e,recess_clearance_mm=10-15/2-offset-e,
+   head_cover_mm=(8-4.3)/2-e))
+ boards=[]
+ for t in [15,16,18]:
+  for depth in [5,3.5]:
+   gap=2+16-t # Keep decorative contact Y6408 and trays Y6426 fixed.
+   penetration=25-(t-depth)-1
+   boards.append(dict(internal_thickness_mm=t,recess_mm=depth,residual_mm=t-depth,
+    penetration_including_tip_mm=penetration,outer_skin_mm=18-penetration,
+    tray_gap_mm=gap,tray_clearance_mm=gap-max(0,2.8+1-depth)))
+ result['catalog_candidate']=dict(screw='RECA 01814 25',washer='ETTINGER 003.06.941',
+  washer_nominal_mm=dict(inner=4.3,outer=15,thickness=1),screw_head_nominal_mm=dict(diameter=8,height=2.8),
+  status='Candidate for qualification only; tolerances, screw neck, passage through washer and strength unconfirmed',
+  neck_sensitivity=candidate,board_comparisons=boards,
+  envelope_condition=dict(assumed_washer_od_max_mm=15.2,assumed_washer_id_max_mm=4.4,
+   assumed_neck_min_mm=3,recess_clearance_mm=10-15.2/2-offset-(4.4-3)/2,
+   note='Illustrative acceptance budget, NOT catalog tolerances; washer minimum ID must exceed maximum screw diameter along assembly path.'))
+ assert candidate[0]['recess_clearance_mm']>0
+ assert boards[-1]['tray_clearance_mm']<0
  assert cases[0]['through_front_cases']==0 and cases[3]['through_front_cases']>0
  assert cases[1]['zero_or_negative_tray_clearance_cases']==0 and cases[2]['zero_or_negative_tray_clearance_cases']>0
  (OUT/'Validacao_fixadores_G2.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
