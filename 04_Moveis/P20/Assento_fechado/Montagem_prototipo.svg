@@ -11,11 +11,11 @@
 <path class="wood" d="M50 370H285V388H50Z M55 388V490H73V388Z M260 388V490H278V388Z"/>
 <path class="line" d="M50 370V315"/><circle cx="50" cy="370" r="6" fill="#244f72"/>
 <path class="pending" d="M105 440L235 410L225 395"/>
-<text x="305" y="335">Seção: eixo hipotético X100 / Z423,1</text>
-<text x="305" y="362">Face inferior Z400; superior Z420</text>
-<text x="305" y="389">Terminal móvel: −22 / −30 abaixo da tampa</text>
-<text x="305" y="416">Apoio / fixação / nó da piano: medir produto</text>
-<text x="305" y="443">90° nominal; trava 291 ideal, não curso real</text>
+<text x="305" y="335">Eixo X100 / Z423,1: hipótese</text>
+<text x="305" y="362">Tampa: faces Z400 / Z420</text>
+<text x="305" y="389">Terminal: −22 / −30 sob a tampa</text>
+<text x="305" y="416">Piano: apoio e nó a medir na peça</text>
+<text x="305" y="443">90°; 291 ideal ≠ engate medido</text>
 <text x="35" y="520">Fechada: tampa → paredes/divisórias → apoios → piso.</text>
 <text x="35" y="546">Aberta: piano + terminais/trava; montar com apoio externo.</text>
 <text x="630" y="105" class="h">P14 · corte axial funcional do pivô</text>
