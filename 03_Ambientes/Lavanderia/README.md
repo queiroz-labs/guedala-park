@@ -32,7 +32,7 @@ Sequência de uso aprovada: retirar a roupa e fechar a máquina → baixar o qua
 - Dobradiças reguláveis com amortecimento; perfil de alumínio preto fosco nas frentes, coordenado à pega do cesto.
 - O fundo do armário inferior fica na divisa com o vizinho; prever proteção mínima de 1 cm na lateral externa junto à janela.
 - Lixeira de recicláveis Tramontina Loop 20 L (94547020) no chão, fora do armário.
-- Luz 3000 K com comando próprio; plafon branco de sobrepor com difusor, proposta vigente Galaxy Firefly9607 quadrado3000K com interruptor comum. [Lista e preço de referência](../Iluminacao/Lista_curta_luminarias_e_madeira.md); lote/posição com varal pendentes. Decorlux LP1233 é alternativa histórica.
+- Luz 3000 K com comando próprio; plafon branco de sobrepor com difusor, proposta vigente Galaxy Firefly9608 quadrado3000K com interruptor comum. [Lista e preço de referência](../Iluminacao/Lista_curta_luminarias_e_madeira.md); lote/posição com varal pendentes. Decorlux LP1233 é alternativa histórica.
 
 **T05, 26/10:** [percurso com roupa](Varal.md#t05--percurso-nominal-com-roupa-26102026): 30 cenários; três envelopes com descida 860 mm e roupa pendente de 1200 mm encontram a lixeira na posição salva. Percursos vazio/carregado precisam de posições próprias a conferir; nenhum batente, mudança de posição ou capacidade definidos. R52 preservada.
 

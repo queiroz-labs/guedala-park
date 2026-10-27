@@ -1,5 +1,7 @@
 # Iluminação — composição CB02 e complementos T06
 
+> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizadoR$5.041,60; D03 pendente.
+
 24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
 
 ## Proposta vigente para concluir a seleção — 26/10/2026
@@ -325,7 +327,7 @@ Enviar futuramente **cada texto apenas ao destinatário correspondente**, após 
 
 **Stella — assunto: EVO STH21967/30 para cozinha.** Olá! Avaliamos uma unidade branca para rede 127 V, luz geral 3000 K com interruptor convencional. Enviar ficha/manual, SKU/EAN e etiqueta da revisão disponível, incluindo potência, fluxo, IRC, dimensões, acessórios e condições de montagem/limpeza. Cotar a unidade completa; compatibilizaremos a posição com as portas dos armários e o teto real. Consulta prévia, sem compra. Obrigado!
 
-**Galaxy — assunto: Firefly 9607 e 9605, 3000 K.** Olá! Avaliamos uma unidade quadrada 9607 para lavanderia e uma redonda 9605 para banheiro, ambas brancas e com liga/desliga em 127 V. Confirmar códigos/EAN das variantes 3000 K e enviar etiquetas, fichas/manuais, dimensões, potência/fluxo e grau de proteção/condições de uso. Informar restrições a umidade e locais de instalação; IP publicado não substitui a definição dos volumes do banheiro pelo RT. Cotar cada modelo separadamente com acessórios. Consulta sem compra. Obrigado!
+**Galaxy — assunto: Firefly 9608 e 9605, 3000 K.** Olá! Avaliamos uma unidade quadrada 9608 para lavanderia e uma redonda 9605 para banheiro, ambas brancas e com liga/desliga em 127 V. Confirmar códigos/EAN das variantes 3000 K e enviar etiquetas, fichas/manuais, dimensões, potência/fluxo e grau de proteção/condições de uso. Informar restrições a umidade e locais de instalação; IP publicado não substitui a definição dos volumes do banheiro pelo RT. Cotar cada modelo separadamente com acessórios. Consulta sem compra. Obrigado!
 
 **Nordecor — assunto: EVY 2054 e perfil MOV4329.** Olá! Avaliamos duas arandelas EVY 2054 brancas/3000 K e perfis MOV4329 brancos. Enviar etiquetas e manuais, confirmar interruptor próprio e alimentação 127 V das arandelas. Para o perfil, enviar seção útil interna, acessórios incluídos (difusor, tampas e presilhas), fixação e orientação de dissipação, inclusive para fita COB 10 × 3 mm/12 W por metro e para a fita do kit WiZ. Não presumimos encaixe pela dimensão externa. Cotar arandelas e barras/acessórios por código; quantidade final de perfis depende do plano de cortes. Consulta sem compra. Obrigado!
 
@@ -340,7 +342,7 @@ Registrar em IL02–IL09 a data, o código efetivamente respondido e o documento
 Geradas com ImageGen integrado, usando as referências existentes do apartamento e fotos dos produtos quando disponíveis. Estudos visuais, não fotos do apartamento, maquetes dimensionais exatas ou cálculos fotométricos. Acessórios/eletros e móveis secundários dos renders antigos podem divergir do CAD atual; não interpretar as imagens como revisão executiva. As vistas isoladas dos produtos dentro das pranchas também são geradas; fotos comerciais separadas estão em Produtos/.
 
 - [Quarto econômico](../../../09_Referencias/Iluminacao_CB02/01_Quarto_economico.png): Jurerê, duas Evy e indireta quente; sem os apoios laterais removidos.
-- [Cozinha e lavanderia](../../../09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png): EVO41cm e Firefly9607 quadrado30cm. Não inferir mudança dos eletros nem luz sob aéreo da lavanderia.
+- [Cozinha e lavanderia](../../../09_Referencias/Iluminacao_CB02/02_Cozinha_lavanderia.png): EVO41cm e Firefly9608 quadrado30cm. Não inferir mudança dos eletros nem luz sob aéreo da lavanderia.
 - [Sala e escritório](../../../09_Referencias/Iluminacao_CB02/03_Sala_escritorio.png): Jurerê com vidro curvo corrigido; sala quente e escritório com geral branca e cor de apoio. A compatibilidade Jurerê/WiZ continua a comprovar.
 - [Banheiro L02](../../../09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png): Firefly redondo e duas barras horizontais4000K no espelho. A posição inferior depende da torneira; reflexos e brilho são ilustrativos.
 

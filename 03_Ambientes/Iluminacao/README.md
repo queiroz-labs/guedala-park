@@ -1,6 +1,6 @@
 # Iluminação
 
-**Proposta consolidada em 26/10/2026; seleção comercial e instalação ainda condicionadas.** A geral do quarto passa a smart: Elias, 26/10/2026, pediu “conecta-las na alexa e celular” e confirmou “Manter essas três com interruptor comum” para cozinha, lavanderia e banheiro. SceneSwitch sai da proposta prioritária; não registrar iluminação como pronta para compra/execução.
+**Proposta consolidada em 26/10 e preços revistos em 27/10/2026; seleção comercial e instalação ainda condicionadas.** A geral do quarto passa a smart: Elias, 26/10/2026, pediu “conecta-las na alexa e celular” e confirmou “Manter essas três com interruptor comum” para cozinha, lavanderia e banheiro. SceneSwitch sai da proposta prioritária; não registrar iluminação como pronta para compra/execução.
 
 ## Composição vigente por ambiente
 
@@ -8,7 +8,7 @@
 |---|---|---|
 | Cozinha — geral | Stella EVO STH21967/30, branco/3000 K; interruptor comum | Etiqueta/manual, cotação e posição fora do giro dos armários |
 | Cozinha — bancada | Cristallux COB 3000 K/IRC>90 + Opus + Shelly + pulsador | Lote da fita/fonte, pulsador, perfil e instalação |
-| Lavanderia — geral | Galaxy Firefly 9607 quadrado/3000 K; interruptor comum | Manual/lote, posição com varal ocupado |
+| Lavanderia — geral | Galaxy Firefly 9608 quadrado/3000 K; interruptor comum | Manual/lote, posição com varal ocupado |
 | Quarto — geral | Jurerê 30 cm + 2 WiZ + WiZmote exclusivo proposto; brilho, Alexa e celular | SKU/tensão, uso no plafon, preço e escolha do conjunto |
 | Quarto — leitura e cabeceira | 2 EVY 2054 independentes; COB 3000 K + Opus/Shelly/pulsador na indireta | Interruptores das EVY, acesso e montagem da indireta |
 | Sala — geral | Jurerê + 2 WiZ + WiZmote | SKU/tensão, fechamento/temperatura e cotação |
@@ -17,20 +17,18 @@
 | Escritório — três grupos | Geral Jurerê + 2 WiZ; dois kits WiZ para TV/prateleiras; 3 WiZmotes separados | Lotes/manuais, cortes e inclusão dos dois grupos indiretos na compatibilização de pontos |
 | Banheiro — três grupos | L02: Firefly 9605/3000 K, espelho COB4000 K e indireta3000 K; interruptores comuns separados | Posição da barra inferior/torneira, proteção das terminações, dissipação e luz no rosto |
 
-Detalhes, fontes e consultas: [CB02 vigente e conferências](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). Banheiro: [L02](../Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html). A [lista curta](Lista_curta_luminarias_e_madeira.md) agora consolida quantidades, preços/fontes e bloqueios desta proposta; R00/CB01 são antecedentes. EVO/Evy/Jurerê/Jabuticaba/G9 foram reconsultados em26/10; Firefly9607 ficou como referência24/10 após falha de acesso. Não alterar o FreeCAD ou publicar o site como se os conjuntos estivessem confirmados.
+Detalhes técnicos e consultas: [CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md). **A [lista curta de27/10](Lista_curta_luminarias_e_madeira.md) prevalece para códigos, preços e situação comercial** sobre CB02/L02 históricos. Firefly quadrado3000K corrigido para9608;9607 não corresponde ao produto pretendido. Sem alteração do CAD ou publicação.
 
 ## Custo e quantidades
 
-**R$4.938,62 é cenário parcial**, sem cotação completa: cenário anterior R$4.786,92 + R$122,45 pela atualização dos cinco WiZmotes + R$29,25 pelos três Jurerê. Consulta em 26/10/2026: WiZ anunciada R$98,97 (SKU não identificado), WiZmote R$117,73 (SKU da oferta pendente), Jurerê ref.52040021-01 R$60,65. Quarto: R$376,32; troca das lâmpadas/comando +R$256,69, ou +R$266,44 contra o conjunto antigo incluindo reajuste do plafon. Demais itens mantêm preços anteriores. Diferença para a provisão global de R$3.540: R$1.398,62; R44 preservado.
+**R$5.041,60 é o cenário parcial atualizado**, diferençaR$1.501,60 sobre provisãoR44 de3.540. Aumento de102,98 sobre4.938,62: Firefly quadrado+62,00; cinco fontes+69,30; sete perfis−6,09; teto banheiro−12,90; três pulsadores/placas−9,33. Fontes, perfis e comandos estão discriminados sem duplicar L02. Teto do banheiro tem validade anunciada anterior à consulta; SMD3000 mantém provisão antiga.
 
-Referências documentais: WiZ 929002424712 / EAN8718699787370, 127 V; WiZmote 929002426812 / EAN8719514552647. Os preços anunciados não estão vinculados comprovadamente a esses códigos. Jurerê confirma E27/40 W por soquete, mas encaixe e uso da WiZ com vidro continuam pendentes; esclarecer também o campo “Dimerizável: Não” da ficha. Fontes e cálculo na [conferência comercial CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#conferência-comercial-wiz--wizmote--jurerê).
-
-Busca por SKU em 26/10/2026: WiZ identificada indisponível no Magalu (inclusive anúncio Abastece); Martins sem preço público e com potência divergente. WiZmote com EAN identificado indisponível na Leroy. Oferta estrangeira não adotada no custo. **Não foi encontrada oferta nacional com código, preço e disponibilidade demonstrados nem autorização de uso no Jurerê com vidro.** Manter provisões; próximo passo é obter resposta às IL02/IL03, não repetir cálculo nominal. Se não houver comprovação, comparar outra luminária antes da compra.
+**D03 aguarda Elias:** manter Jurerê/WiZ (5.041,60), Elgin48D18WSRWIFI só no quarto (4.800,11), ou nas três gerais (4.317,13). Alternativa nacional com compra, mas muda aparência e comando físico; não é equivalente integral. Recomendação: obter IL02/03 antes de substituir o comando. Referências documentais WiZ929002424712 e WiZmote929002426812 continuam sem conciliação com SKU/estoque nacional. Detalhes, fontes e efeitos na lista curta; não declarar esta frente concluída.
 
 - Seis plafons gerais, um pendente triplo e duas arandelas; três Jurerê recebem seis WiZ E27. SceneSwitch não entra na compra proposta.
 - Cinco WiZmotes (sala, quarto e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
 - Três Shelly, três pulsadores/placas candidatos e **cinco fontes Opus avulsas no total**: três nos grupos com Shelly e duas já incluídas na L02 do banheiro.
-- Banheiro L02 R$612,64 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
+- Banheiro L02 atualizado R$625,72 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
 
 Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos convencionais que não puderem ser reaproveitados, cabos, caixas, conexões, terminações, fixações e possíveis adaptações/extensões. Mão de obra pertence a I01, sem duplicação. Não atribuir preço zero aos itens pendentes.
 

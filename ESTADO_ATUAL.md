@@ -37,11 +37,11 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 75% | T06: [iluminação consolidada](03_Ambientes/Iluminacao/README.md), quarto smart com Alexa/celular; cozinha/lavanderia/banheiro com interruptor comum (Elias, 26/10/2026). Cenário parcial R$4.938,62 (busca por SKU sem oferta nacional confirmada; uso no Jurerê com vidro depende de resposta IL02/IL03); IL02–IL09 prontas, não enviadas. SKUs, respostas, cotação, instalação e ensaios pendentes |
+| Anteprojeto | 75% | Frentes em revisão27/10: [luz parcialR$5.041,60](03_Ambientes/Iluminacao/README.md); Firefly9608 corrigido, preços revistos; D03 compara substituição smart e perda de comando físico. SKUs/respostas/frete/instalação pendentes |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02 e SKUs faltantes aguardam amostra/fornecedor |
-| Orçamento | 60% | R44: R$ 137.748,11; excesso R$ 17.748,11. [T07 reconciliada](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários A/B preparados com iluminação parcial4.938,62; A: manter TV nesta etapa (Elias27/10/2026, resposta “A”); D01: três cenários condicionais de R$118.937,84–119.787,84, aguardando faseamento e R$17.317,45 de negociação; M09 corrigida nos cenários; lacunas de luz/frete pendentes |
+| Orçamento | 60% | R44: R$137.748,11. [D01](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários condicionaisR$119.040,82–119.890,82 com luz5.041,60; dependem de17.317,45 de negociação e faseamento. TV mantida (Elias27/10, “A”); reserva intocada; não fechado |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
@@ -60,7 +60,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** gabinete com portas de correr e frente removível; parede verde no box; luz de teto/indireta 3000 K e espelho 4000 K, três comandos ([L02: R$ 612,64 à vista](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); chapas Arauco Beige Matt e Louro Freijó Poro.
+- **Banheiro:** gabinete com portas de correr e frente removível; parede verde no box; luz de teto/indireta 3000 K e espelho 4000 K, três comandos ([L02: composição histórica](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); chapas Arauco Beige Matt e Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 
 Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_decisoes.md) e [Painel de decisões](01_Programa_e_decisoes/Painel_de_decisoes.md).
