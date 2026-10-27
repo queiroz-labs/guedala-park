@@ -81,6 +81,63 @@ Fontes dos controles: [WiZ: LR03](https://faq.wizconnected.com/hc/en/7-wiz-v2/fa
 
 Não refinar estudos nominais desses bloqueios. T06 permanece parcial até respostas, preços e conferências; nenhuma consulta enviada nesta etapa.
 
+## Consultas aos fornecedores — rascunhos não enviados
+
+Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos fornecedores da SceneSwitch, WiZ e Jurerê, pedindo as etiquetas e manuais que faltam, sem enviar ainda”. Textos para copiar após revisão; nenhum envio, pedido de compra ou reserva de estoque realizado. Destinatário/canal deve ser conferido antes de eventual envio. Não anexar o projeto completo ou dados pessoais.
+
+| Consulta | Destino sugerido | Situação |
+|---|---|---|
+| IL01 — SceneSwitch | Abastece, responsável pela oferta; suporte Philips/Signify se faltar documentação | Rascunho; não enviada; sem resposta |
+| IL02 — WiZ | Abastece, responsável pela oferta; suporte WiZ/Signify para condições de instalação | Rascunho; não enviada; sem resposta |
+| IL03 — Jurerê | Vendedor responsável pelo anúncio na Leroy Merlin; suporte Taschibra para desenho/manual | Rascunho; não enviada; sem resposta |
+
+### IL01 — SceneSwitch
+
+**Assunto: SceneSwitch E27 — identificação da variante 3000 K e manual para uso em plafon**
+
+Olá! Estamos conferindo a documentação para uma possível compra de **duas lâmpadas Philips SceneSwitch E27**, branco quente, com três níveis de intensidade pelo interruptor convencional, para rede de **127 V**.
+
+A [oferta consultada](https://www.abastece.com.br/products/lampada-led-bulbo-9w-806lm-sceneswitch-bivolt-60w-929002017746-929002017846-philips) reúne os códigos **929002017746 e 929002017846**. Poderiam informar:
+
+1. Qual código corresponde à variante 3000 K? Enviar o EAN e fotos legíveis da caixa e da marcação na lâmpada do lote disponível, mostrando código, tensão, potência, temperatura de cor e revisão/lote, quando indicados.
+2. Enviar ficha técnica e manual/instruções oficiais correspondentes a esse código. Confirmar se o produto regula intensidade em três níveis e se a temperatura de cor permanece constante ou muda em cada nível.
+3. Qual é o procedimento documentado para memória, mudança de nível e sincronização de duas unidades no mesmo interruptor? Informar também as dimensões totais da lâmpada.
+4. Pretendemos usar duas unidades em um **Taschibra Jurerê 30 cm, 2×E27, com vidro fosco instalado**. O fabricante permite essa aplicação? Favor indicar página/cláusula do manual sobre luminárias fechadas ou com difusor, orientação de montagem, ventilação e limites térmicos. Se depender da versão do plafon ou de informação adicional, indicar qual.
+
+Se não houver manual público, poderiam solicitar ao suporte técnico do fabricante uma resposta escrita vinculada ao código? Precisamos distinguir o produto documentado da descrição genérica da família. Esta é uma consulta técnica prévia, sem pedido de compra. Obrigado!
+
+### IL02 — WiZ
+
+**Assunto: WiZ A60 — conciliação de SKU, tensão e manual de instalação em Jurerê**
+
+Olá! Estamos avaliando **quatro lâmpadas WiZ A60 E27 RGB e branco ajustável**, duas por plafon Taschibra Jurerê 30 cm 2×E27, com difusor de vidro fosco, em rede de **127 V**.
+
+A [oferta consultada](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz) descreve **bivolt, 8,5 W e 806 lm**. Já a [referência oficial brasileira consultada](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) identifica **12NC 929002424712 / EAN 8718699787370**, **127 V, 8,8 W e 800 lm**. Para conciliar os documentos, poderiam enviar:
+
+1. O 12NC/código, EAN e fotos legíveis da embalagem e da marcação na lâmpada do lote efetivamente oferecido, incluindo tensão e revisão/lote. É a referência acima ou outra versão? Se for outra, informar a identificação completa, sem substituir pela ficha da versão 127 V.
+2. Ficha técnica e instruções oficiais de instalação desse código, incluindo dimensões, alimentação e condições de regulagem/comando. A página brasileira consultada não disponibiliza manual.
+3. Permissão ou restrição documentada para **duas unidades no mesmo Jurerê com o vidro instalado**: luminária fechada/com difusor, orientação dos soquetes, ventilação, temperatura admissível e eventuais folgas exigidas. Indicar página/cláusula; se necessário, encaminhar ao suporte técnico WiZ/Signify.
+4. Confirmar, para a revisão oferecida, controle de intensidade e cor pelo aplicativo e compatibilidade com WiZmote/Alexa, além das restrições a dimmer de rede. Nosso projeto prevê comando WiZ, sem adicionar dimmer de potência a essas lâmpadas.
+
+Se a aplicação depender de informação do plafon, indiquem qual documento precisam receber. Esta é uma consulta documental prévia, sem pedido de compra. Obrigado!
+
+### IL03 — Jurerê
+
+**Assunto: Jurerê 30 cm 2×E27 — etiqueta, manual e condições de uso com lâmpadas LED**
+
+Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois soquetes E27 e vidro fosco**, conforme [este anúncio de referência](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739). A aplicação prevista é em rede de **127 V**: um plafon com duas SceneSwitch e dois com duas WiZ cada. Antes de comprar, poderiam enviar:
+
+1. Código completo do fabricante, EAN e fotos legíveis da etiqueta/embalagem da versão oferecida. Confirmar que se trata do Jurerê 30 cm 2×E27, não do modelo de 25 cm/um soquete nem do Laguna.
+2. Manual de instalação e ficha/desenho técnico da mesma versão, mostrando disposição/orientação dos soquetes, espaço útil para lâmpadas, fixação do vidro e aberturas de ventilação. As medidas externas não permitem conferir o espaço interno.
+3. Limites por soquete e restrições específicas para LED: formatos/dimensões admitidos, folgas, orientação e condições térmicas. Com o vidro montado, como o fabricante caracteriza o fechamento/ventilação do plafon para seleção de lâmpadas?
+4. Há documentação de compatibilidade ou restrição para SceneSwitch E27 e WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Para SceneSwitch, a oferta reúne **929002017746/929002017846**, ainda sem identificação definitiva da variante quente. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
+
+Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
+
+### Como conferir as respostas
+
+Registrar em IL01/IL02/IL03 a data, o código efetivamente respondido e o documento/página recebidos; só marcar “enviada” após envio real. Resposta genérica “serve em E27” não resolve fechamento, orientação e condições térmicas. Se documentos divergirem, manter a pendência e pedir correção vinculada ao lote. Evidência documental não substitui conferência física/ensaio, e eventual proibição de uso não deve ser contornada por ensaio. Dados pessoais e mensagens integrais de terceiros ficam fora do repositório público; registrar aqui apenas a conclusão técnica e fontes publicáveis.
+
 ## Imagens
 
 Geradas com ImageGen integrado, usando as referências existentes do apartamento e fotos dos produtos quando disponíveis. Estudos visuais, não fotos do apartamento, maquetes dimensionais exatas ou cálculos fotométricos. Acessórios/eletros e móveis secundários dos renders antigos podem divergir do CAD atual; não interpretar as imagens como revisão executiva. As vistas isoladas dos produtos dentro das pranchas também são geradas; fotos comerciais separadas estão em Produtos/.
