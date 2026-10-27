@@ -49,6 +49,8 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 ## Decisões tomadas
 
+- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Tampos com ligações para 18 mm ficam em Branco TX nas duas faces, sem chapa decorativa sobreposta; encontro ao teto acabado a compatibilizar. [Diretriz e cotas atuais](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), ainda não aplicada à R52/fichas.
+
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).
 - **Quarto:** roupeiro de 65 cm com portas de correr; cama queen futura; luz geral com três níveis de brilho; conjunto Jurerê/SceneSwitch candidato, cerca de R$ 110 ([CB02](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md)).

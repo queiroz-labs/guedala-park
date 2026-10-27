@@ -28,6 +28,28 @@ Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização
 
 ## Acabamentos por peça física
 
+**Tampos junto ao teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Manter 18 mm onde as ligações exigem essa premissa, com Branco TX nas duas faces e sem chapa decorativa sobreposta. [Diretriz, cotas atuais e compatibilização pendente](#diretriz-de-fechamento-até-o-teto--26102026). Ainda não aplicado à R52/fichas.
+
 Cada chapa física tem um padrão igual nas duas faces. Duas peças separadas podem usar cores diferentes: externa18mm no padrão do projeto e interna15mm BrancoTX, desde que existam e sejam identificadas. Não presumir que todo móvel já tenha caixa dupla; conferir os33mm e seus efeitos antes de acrescentá-la. P03 atual tem chapas únicas18, sem caixa interna15 contínua.
 
 [Regra vigente](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) · [auditoria de248 IDs](Acabamentos_por_peca.csv) · [resumo por móvel](Acabamentos_por_peca.json). Foram identificadas88 atribuições anteriores de cores opostas em umID, em19móveis; espelhos aplicados são componentes separados. O inventário distingue intenção anterior e padrão atual, sem alterar geometria ou liberar fabricação.
+
+## Diretriz de fechamento até o teto — 26/10/2026
+
+**Pedido de Elias nesta conversa, 26/10/2026:** “Todos os armários previstos até o teto, em todos os ambientes”. Para o fechamento superior, após a discussão das ligações em chapa 18, corrigiu a proposta inicial de 15 mm: “ok, mantem 18mm para esses casos, mas deixa branco”.
+
+- Nos tampos com ligações previstas para 18 mm, manter essa espessura e adotar **Branco TX nas duas faces da mesma chapa**. Não acrescentar chapa externa decorativa sobre esse topo. A proposta inicial de 15 mm não autoriza reduzir esses tampos.
+- O encontro visual da marcenaria com o teto acabado deve ficar fechado. O detalhe de montagem precisa absorver desníveis e a folga técnica, sem usar laje/forro como apoio da caixa ou impedir as portas de abrir. Arremate vertical, quando necessário, não é uma segunda chapa horizontal sobre o tampo.
+- Referências atuais: 2600 mm nos ambientes sem rebaixo definido e cenário separado de 2470 mm no escritório. São hipóteses, a confirmar no levantamento. A decisão não determina a altura real do teto nem elimina a folga de montagem.
+
+**Conferência dos parâmetros gravados da R52:** os valores abaixo são do modelo existente, não cotas novas de fabricação. As diferenças mostram o ajuste a compatibilizar; não constituem decisão de aumentar portas, subir caixas inteiras ou preencher todo o vão com arremate.
+
+| Conjunto | Topo atual, mm do piso | Referência de teto acabado, mm | Diferença, mm |
+|---|---:|---:|---:|
+| Quarto, P02/P03/P04 | 2440 | 2600 | 160 |
+| Cozinha, P09/P10/P11/P12 | 2550 | 2600 | 50 |
+| Lavanderia, P15 — conferir enquadramento no fechamento até o teto | 2230 | 2600 | 370 |
+| Escritório, P17 | 2450 | 2470 | 20 |
+
+**Aplicação ainda pendente no CAD e nas fichas.** Compatibilizar o encontro ao teto por ambiente, as portas e os acessos de montagem antes de incorporar. Não estender esta diretriz ao espelheiro do banheiro ou a outro móvel que não tenha sido previsto até o teto. Os estudos de suspensão abaixo mantêm as geometrias e massas anteriores; não comprovam caixas aumentadas. A confirmação de 18 mm preserva a premissa de espessura das ligações, não demonstra sua capacidade. Seguir as pendências existentes de ferragens/oficina, sem refinar novamente os estudos nominais.
+
