@@ -4,13 +4,11 @@
 
 **Decisão posterior vigente de25/10:** Elias não quer tubos sustentando chapas de madeira e exige autorização prévia para qualquer proposta futura com essa função. A alternativa tubular P15 abaixo foi **cancelada**. A continuação está em [soluções de marcenaria sem tubos](../Ligacoes_sem_tubos/README.md). A R51 retirou o estudo tubular oculto da bancada; os cálculos desta primeira rodada continuam documentados sobre a geometria R50 preservada.
 
-**A solução nominal mais adiantada é a do roupeiro:** duas prateleiras passam de 705 para 723 mm e ganham apoio sobre divisórias existentes, mantendo altura, profundidade e vãos úteis. O estudo está em arquivo separado. Na lavanderia, a meta de 20 kg exige reforço e ligação positiva; a cabeceira também precisa de um caminho resistente entre base, divisórias e suspensão. As tampas do banco já têm massas, centros de gravidade e curvas de esforço calculados.
-
 Os valores abaixo são **resultados de modelos nominais**, com materiais e juntas condicionais. Não constituem carga de uso liberada ou autorização de fabricação. Medidas finais e ancoragens no apartamento continuam separadas do trabalho que pode avançar agora.
 
 ## Controle vigente
 
-**26/10:** montagem P20/P14 atualizada na [matriz](Andamento_20_moveis.md); zero ensaios.
+**Agenda27/10, preparada em26/10:** [matriz](Andamento_20_moveis.md) aponta kit P20/P14 (desenho, lista e12 registros vazios) e perguntas U1–U4/F13. Montagem definitiva continua em produto/oficina; zero ensaios e nenhuma nova varredura.
 
 [Matriz20/20](Andamento_20_moveis.md) consolidada em26/10: controle25/10 e T01 documentais concluídos; T02/T03 parciais. LoteB atualizado; P04 preparado para laboratório, sem ensaios. Regerar: `python -B ferramentas/estudos/consolidar_matriz.py`. Estudos históricos abaixo preservados.
 
