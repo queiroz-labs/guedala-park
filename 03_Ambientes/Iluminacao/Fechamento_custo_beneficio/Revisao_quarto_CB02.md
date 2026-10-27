@@ -75,11 +75,41 @@ Fontes dos controles: [WiZ: LR03](https://faq.wizconnected.com/hc/en/7-wiz-v2/fa
 |---|---|
 | Fornecedor — SceneSwitch/WiZ A60/Jurerê | Entregar etiqueta e manual vinculados ao lote conforme a conferência documental acima; resolver oferta WiZ bivolt versus referência oficial 127 V e mapear os dois códigos SceneSwitch às variantes. Demonstrar condições de uso com o difusor do Jurerê |
 | Fornecedor/ensaio — jantar | Confirmar C82P3 triplo âmbar, Brilia314450, revisão RM433 e conteúdo da caixa. D1 com três G9 apresenta partida, faixa útil e cintilação aceitáveis? Sem ensaio, dimerização condicionada |
-| Fornecedor — WT1/kits WiZ | Etiqueta WT1 corresponde ao manual PUSH/GND? Quais EAN, cortes permitidos e acessórios dos kits WiZ? |
+| Fornecedor — WT1/kits WiZ | Etiqueta WT1 comprova fabricante/revisão do manual PUSH/GND? Kit WiZ é 929002681171/EAN 8719514336957? Enviar manual de corte/reconexão, etiqueta da fonte e esclarecer 2200 K versus 2700 K; fonte/controlador e corte de 12,5 cm já constam na DS1022 |
 | Fornecedor/instalador — perfis/banheiro | Qual seção útil/acessórios do MOV4329? Amostra recebe fita, cabo e terminação sem esmagamento e com dissipação adequada? Como proteger terminais cortados? |
 | RT/instalador após levantamento | Quais comandos/caixas serão reaproveitados? Onde ficam fontes/controladores acessíveis, quais percursos/seções/proteções? Barra inferior do espelho interfere na torneira? |
 
 Não refinar estudos nominais desses bloqueios. T06 permanece parcial até respostas, preços e conferências; nenhuma consulta enviada nesta etapa.
+
+## WT1 e kits WiZ — adequação e custo-benefício
+
+Conferência documental em 26/10/2026, sem ensaio, compra ou alteração do FreeCAD. **Recomendação: manter WiZ como candidato para as indiretas do escritório; WT1 atende às funções previstas, mas não está demonstrado como melhor custo-benefício.** Shelly é alternativa próxima em preço, a avaliar antes da compra. A composição CB02 permanece intacta.
+
+| Produto / identificação | Evidência documental | Aplicação no projeto |
+|---|---|---|
+| Skydance WT1; oferta Satfrota com código interno **SO22** | [Manual v2.0.2](https://www.iskydance.com/uploads/goods_file/WT1.pdf): 12–36 V CC, DIM/CCT, dois canais de até 5 A, Tuya/Smart Life, Alexa, RF e pulsador PUSH/GND; proteções contra inversão, curto e sobretemperatura | Adequado funcionalmente à fita monocromática 12 V da bancada, TV da sala e cabeceira, com três conjuntos independentes. Não controla RGB. O código da loja não comprova fabricante/revisão; exigir etiqueta correspondente ao manual |
+| WiZ Pro LED Strip RGBTW 2M **Kit-C 929002681171**, EAN **8719514336957** | [Ficha de identificação](https://assets.wizconnected.com/datasheets/WiZ_Pro_LED_Strip_RGBTW_2M_Kit-C_929002681171.pdf) vincula código/EAN. [Ficha DS1022, pp.1–2](https://assets.wizconnected.com/datasheets/WiZ_Pro_LED_Strip_RGBTW_2M_Kit-C_929002681171_DS1022.pdf): kit 2 m, 20 W, 1600 lm, CRI80, IP20, entrada 100–240 V; fonte/controlador incluídos, cortes de 12,5 cm; RGB e branco ajustável, aplicativo, Alexa e operação sem hub | Bom candidato para os dois grupos independentes do escritório: TV e prateleiras. Evita comprar fonte/controlador adicionais. CRI80 não substitui a especificação CRI>90 da fita quente da cozinha. Não presumir sincronismo com imagem da TV, efeito segmentado ou Matter |
+| Shelly Plus RGBW PM, **SNDC-0D4P10WW** | [Documentação oficial](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm): 12/24 V CC, modo de quatro canais monocromáticos, entradas de botões, controle local/web, MQTT, scripts, medição de consumo e Alexa; 4 A/canal, 10 A totais | Alternativa aos WT1 se controle local e automação justificarem o acréscimo. Não é substituição direta dos bornes PUSH/GND nem dos kits WiZ RGBTW. Conferir esquema do fabricante e interface do pulsador; não reunir ambientes em um controlador sem projeto de instalação |
+
+**Divergência WiZ:** a ficha curta do mesmo 12NC informa 2200–6500 K; a DS1022 informa 2700–6500 K. Usar 2700 K como referência conservadora desta comparação, sem prometer 2200 K; pedir confirmação da revisão entregue. A DS1022 é ficha técnica, não o manual completo de instalação. Ela proíbe dimmer de corte de fase. Corte permitido não comprova reaproveitamento dos retalhos: faltam instruções de reconexão, conectores e preservação da garantia.
+
+### Preços e escolha prática
+
+Ofertas consultadas em 26/10/2026, sem frete, instalação ou confirmação de estoque no checkout. Preços não são garantia de menor valor de mercado.
+
+| Opção | Referência | Leitura para a decisão |
+|---|---:|---|
+| [WT1 — Satfrota](https://www.satfrota.com.br/produtos/controlador-de-fita-led-2-canais-tuya-smart-life/) | **R$196,00/un.** à vista; três = R$588,00 | Controlador e manual; fonte à parte. Com fonte Opus de R$85,05 e pulsador/placa de R$19,01 da proposta, são **R$300,06 por zona**, ainda sem fita/perfil/cabos |
+| [Shelly — 4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/) | **R$223,25/un.** no Pix; três = R$669,75 | Acréscimo de **R$27,25/un. ou R$81,75 nos três controladores**. Fonte continua necessária; eventual adaptação de comando não cotada. Preferência técnica se controle local e medição forem desejados; manter WT1 se a prioridade for menor desembolso e Tuya/PushDim atender |
+| [WiZ 2 m — Planet Leds/Magalu](https://www.magazineluiza.com.br/fita-led-lightstrip-20w-rgb-tw-2-metros-inteligente-smart-wifi-wiz-by-philips/p/kf72hc7016/cj/fted/?seller_id=planetleds115) | **R$226,75/kit; dois = R$453,50** | Preço atraente para fita com branco ajustável, fonte e controlador. A oferta nomeia Kit-C, mas não comprova 12NC/EAN do lote. Dois WiZmotes da referência CB02 acrescentam R$186,48: **R$639,98** para os dois kits e seus dois controles; perfis e instalação à parte |
+
+Uma [oferta WiZ 2 m da Abastece](https://www.abastece.com.br/products/wiz-starterkit-fita-led-2m-inteligente-wi-fi-e-bluetooth) apresentou R$436,91, mas sem conciliação do 12NC; serve como referência comercial de categoria, não prova economia entre SKUs idênticos. Não comparar kit completo com controlador avulso nem fita RGB simples com RGBTW. WiZ mantém o ecossistema dos controles do escritório; WT1 requer Tuya/Smart Life, embora Alexa possa reunir comandos de voz.
+
+**Qualidade:** os documentos sustentam funções e adequação nominal, não durabilidade comprovada do lote, desempenho de dimerização instalado ou confiabilidade do Wi-Fi. A marca/ficha não substitui garantia local e identificação do vendedor. Não foi obtido ensaio independente suficiente para classificar qualquer opção como a melhor absoluta.
+
+**Pendências documentais, sem ensaio:** solicitar foto do WT1 mostrando fabricante, revisão e PUSH/GND; manual correspondente, garantia e origem. Para cada kit WiZ, solicitar 12NC/EAN, etiqueta da fonte, conteúdo da caixa, manual de corte/reconexão e montagem, confirmação da faixa de branco e compatibilidade com o WiZmote ofertado. A extensão 929002681471 e o Kit-G 929002681271 não são o Kit-C. Encaixe no MOV4329, dissipação, percursos e comprimentos finais permanecem condicionados ao conjunto real, sem novos cálculos nominais.
+
+**Método:** Firecrawl solicitado e tentado; integração indisponível e CLI com HTTP 402 por falta de créditos. Conferência concluída por busca web e documentos oficiais, sem atribuir resultados ao Firecrawl. Nenhuma consulta enviada. Totais históricos CB02, complemento T06 e orçamento global preservados; Shelly é alternativa, não troca adotada.
 
 ## Consultas aos fornecedores — rascunhos não enviados
 
