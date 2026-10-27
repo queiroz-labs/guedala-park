@@ -1,10 +1,10 @@
-# Apartamento interativo — R53 e pacote local R24
+# Apartamento interativo — R53 e pacote R24
 
 **Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal. Pendência geométrica: envelopes das lixeiras da cozinha/lavanderia sobrepõem os fechamentos em cerca de 6/5 cm; posições preservadas, encaixe a rever, não medição real.
 
 **Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. O site representa paredes gerais a 260 cm e o cenário separado do escritório a 247 cm; isso não define tetos acabados. Móveis e FreeCAD R52 preservados.
 
-A configuração corrente é `current_release.json`: FreeCAD R53, pacote local R24, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
+A configuração corrente é `current_release.json`: FreeCAD R53, pacote R24, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
 
 T09, 26/10/2026: entradas antigas de consulta R12/R45 encaminham agora às fichas R14 e ao estado atual. [Manifesto e referências ainda divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09). Fontes e artefatos do site preservados; revisão documental não confirma a publicação remota.
 
@@ -20,7 +20,7 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 Atualização26/10: biblioteca e fichasP17/P12 apontam para os estudos de suspensão separados, desenhos e requisitos; matriz20/20 disponível. PacoteR21 inclui esses documentos. GeometriaR52 e comprovações físicas continuam conformeEstadoAtual.
 
-**Integração27/10:** `exportar_cad.py` lê o documento vigente aberto na GUI, sem salvá-lo, e extrai os20 módulos/249 painéis com eixos e SHA. Fichas R15 incorporam P02/P13; lixeiras no site seguem os deslocamentos R53. Mapas de furação R14 mantêm fontes e condições; produto/oficina e ensaios pendentes. R24 não publicado.
+**Integração27/10:** `exportar_cad.py` lê o documento vigente aberto na GUI, sem salvá-lo, e extrai os20 módulos/249 painéis com eixos e SHA. Fichas R15 incorporam P02/P13; lixeiras no site seguem os deslocamentos R53. Mapas de furação R14 mantêm fontes e condições; produto/oficina e ensaios pendentes. Publicação R24 autorizada por Elias em 27/10/2026: “Pode fazer push e publicar a R53 com as fichas R15 e o pacote R24”; conferência remota em [Entregas](../../06_Entregas/README.md).
 
 ## Registros anteriores
 

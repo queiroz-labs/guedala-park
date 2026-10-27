@@ -30,7 +30,7 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 |---|---|
 | **Executar as prioridades até 31/10** | [Plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Explorar o apartamento e os móveis em 3D | [Site interativo](https://queiroz-labs.github.io/guedala-park/) |
-| Abrir ou editar o projeto no FreeCAD | [Modelo local R52 completo (.FCStd)](02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd) · [correções e conferências](02_Modelo_3D/README.md) · salvamento otimizado |
+| Abrir ou editar o projeto no FreeCAD | [Modelo R53 completo (.FCStd)](02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd) · [correções e conferências](02_Modelo_3D/README.md) · salvamento otimizado |
 | Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R14](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/index.html) |
 | Consultar furações e suas referências | [Escolher o móvel e abrir “Furação” na ficha](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/index.html) |
 | Consultar distâncias entre paredes | [Planta cotada](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Planta_cotada/index.html) |
@@ -62,4 +62,4 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.
 
-Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R24** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). Publicação anterior R52/R23; sem novo envio.
+Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R24** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). Publicação R53/R24 autorizada por Elias em 27/10/2026; conferência remota registrada em [Entregas](06_Entregas/README.md).

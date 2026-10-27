@@ -1,6 +1,6 @@
 # Entregas — manifesto e versões
 
-**R53/R24 local,27/10/2026:** decisões P02/P13/TV/lixeiras integradas ao modelo e fichas R15. [Modelo e relatório](../02_Modelo_3D/README.md) · [fichas atuais](Fichas_fabricacao/index.html). Pacote local para revisão; não enviado nem publicado. Verificação completa R53 passou106 cenários; site e selagem do pacote passaram. Os artefatos locais de revisão são gerados fora desta pasta para preservar o pacote histórico existente. Os registros R52/R23 abaixo são históricos da publicação anterior.
+**R53/R24,27/10/2026:** decisões P02/P13/TV/lixeiras integradas ao modelo e fichas R15. [Modelo e relatório](../02_Modelo_3D/README.md) · [fichas atuais](Fichas_fabricacao/index.html). Publicação autorizada por Elias, 27/10/2026: “Pode fazer push e publicar a R53 com as fichas R15 e o pacote R24”. Conferência remota pendente após o deploy. Verificação completa R53 passou106 cenários; site e selagem do pacote passaram. Os artefatos locais de revisão são gerados fora desta pasta para preservar o pacote histórico existente. Os registros R52/R23 abaixo são históricos da publicação anterior.
 
 **Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal.
 
@@ -24,7 +24,7 @@ R21/R22 são referências anteriores; o campo `lastPublishedPackageRevision` foi
 
 **Próximo:** compatibilizar vistas antigas com R52 e conferir abertura gráfica de CAD/PDF, navegação offline e cópia de segurança na integração de 30–31/10. Ensaios, produto, juntas e medidas reais continuam condicionados. Sem oficina, seguir T04 e interfaces T05 conforme o plano.
 
-O pacote publicado anterior permanece R23. Extraia o ZIP R23 inteiro e abra `Guedala_Park_R23/COMECE_AQUI.html`. Consulte as [fichas R14](Fichas_fabricacao/index.html), [pendências](Fichas_fabricacao/Pendencias.html) e o [Estado atual](../ESTADO_ATUAL.md). Estudos separados não são incorporados automaticamente à geometria R52.
+O pacote publicado anterior permanece R23. Extraia o ZIP R23 inteiro e abra `Guedala_Park_R23/COMECE_AQUI.html`. As fichas correntes são [R15](Fichas_fabricacao/index.html), [pendências](Fichas_fabricacao/Pendencias.html) e o [Estado atual](../ESTADO_ATUAL.md). Estudos separados não são incorporados automaticamente à geometria R52.
 
 ## Histórico — entrega R49/R16 de24/10/2026
 
