@@ -83,13 +83,13 @@ Não refinar estudos nominais desses bloqueios. T06 permanece parcial até respo
 
 ## WT1 e kits WiZ — adequação e custo-benefício
 
-Conferência documental em 26/10/2026, sem ensaio, compra ou alteração do FreeCAD. **Recomendação: manter WiZ como candidato para as indiretas do escritório; WT1 atende às funções previstas, mas não está demonstrado como melhor custo-benefício.** Shelly é alternativa próxima em preço, a avaliar antes da compra. A composição CB02 permanece intacta.
+Conferência documental em 26/10/2026, sem ensaio, compra ou alteração do FreeCAD. **Recomendação: manter WiZ como candidato para as indiretas do escritório; WT1 atende às funções previstas, mas não está demonstrado como melhor custo-benefício.** Shelly é o candidato à substituição em conferência; ligação e impacto detalhados abaixo. A composição CB02 permanece intacta.
 
 | Produto / identificação | Evidência documental | Aplicação no projeto |
 |---|---|---|
 | Skydance WT1; oferta Satfrota com código interno **SO22** | [Manual v2.0.2](https://www.iskydance.com/uploads/goods_file/WT1.pdf): 12–36 V CC, DIM/CCT, dois canais de até 5 A, Tuya/Smart Life, Alexa, RF e pulsador PUSH/GND; proteções contra inversão, curto e sobretemperatura | Adequado funcionalmente à fita monocromática 12 V da bancada, TV da sala e cabeceira, com três conjuntos independentes. Não controla RGB. O código da loja não comprova fabricante/revisão; exigir etiqueta correspondente ao manual |
 | WiZ Pro LED Strip RGBTW 2M **Kit-C 929002681171**, EAN **8719514336957** | [Ficha de identificação](https://assets.wizconnected.com/datasheets/WiZ_Pro_LED_Strip_RGBTW_2M_Kit-C_929002681171.pdf) vincula código/EAN. [Ficha DS1022, pp.1–2](https://assets.wizconnected.com/datasheets/WiZ_Pro_LED_Strip_RGBTW_2M_Kit-C_929002681171_DS1022.pdf): kit 2 m, 20 W, 1600 lm, CRI80, IP20, entrada 100–240 V; fonte/controlador incluídos, cortes de 12,5 cm; RGB e branco ajustável, aplicativo, Alexa e operação sem hub | Bom candidato para os dois grupos independentes do escritório: TV e prateleiras. Evita comprar fonte/controlador adicionais. CRI80 não substitui a especificação CRI>90 da fita quente da cozinha. Não presumir sincronismo com imagem da TV, efeito segmentado ou Matter |
-| Shelly Plus RGBW PM, **SNDC-0D4P10WW** | [Documentação oficial](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm): 12/24 V CC, modo de quatro canais monocromáticos, entradas de botões, controle local/web, MQTT, scripts, medição de consumo e Alexa; 4 A/canal, 10 A totais | Alternativa aos WT1 se controle local e automação justificarem o acréscimo. Não é substituição direta dos bornes PUSH/GND nem dos kits WiZ RGBTW. Conferir esquema do fabricante e interface do pulsador; não reunir ambientes em um controlador sem projeto de instalação |
+| Shelly Plus RGBW PM, **SNDC-0D4P10WW** | [Documentação oficial](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm): 12/24 V CC, modo de quatro canais monocromáticos, entradas de botões, controle local/web, MQTT, scripts, medição de consumo e Alexa; 4 A/canal, 10 A totais | Alternativa aos WT1 se controle local e automação justificarem o acréscimo. Não é substituição direta dos bornes PUSH/GND nem dos kits WiZ RGBTW. Esquema conferido abaixo; falta confirmar o SKU do pulsador; não reunir ambientes em um controlador sem projeto de instalação |
 
 **Divergência WiZ:** a ficha curta do mesmo 12NC informa 2200–6500 K; a DS1022 informa 2700–6500 K. Usar 2700 K como referência conservadora desta comparação, sem prometer 2200 K; pedir confirmação da revisão entregue. A DS1022 é ficha técnica, não o manual completo de instalação. Ela proíbe dimmer de corte de fase. Corte permitido não comprova reaproveitamento dos retalhos: faltam instruções de reconexão, conectores e preservação da garantia.
 
@@ -100,7 +100,7 @@ Ofertas consultadas em 26/10/2026, sem frete, instalação ou confirmação de e
 | Opção | Referência | Leitura para a decisão |
 |---|---:|---|
 | [WT1 — Satfrota](https://www.satfrota.com.br/produtos/controlador-de-fita-led-2-canais-tuya-smart-life/) | **R$196,00/un.** à vista; três = R$588,00 | Controlador e manual; fonte à parte. Com fonte Opus de R$85,05 e pulsador/placa de R$19,01 da proposta, são **R$300,06 por zona**, ainda sem fita/perfil/cabos |
-| [Shelly — 4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/) | **R$223,25/un.** no Pix; três = R$669,75 | Acréscimo de **R$27,25/un. ou R$81,75 nos três controladores**. Fonte continua necessária; eventual adaptação de comando não cotada. Preferência técnica se controle local e medição forem desejados; manter WT1 se a prioridade for menor desembolso e Tuya/PushDim atender |
+| [Shelly — 4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/) | **R$223,25/un.** no Pix; três = R$669,75 | Acréscimo de **R$27,25/un. ou R$81,75 nos três controladores**. Fonte continua necessária; pulsador adequado liga diretamente conforme diagrama abaixo; adequação do SKU ainda a confirmar. Preferência técnica se controle local e medição forem desejados; manter WT1 se a prioridade for menor desembolso e Tuya/PushDim atender |
 | [WiZ 2 m — Planet Leds/Magalu](https://www.magazineluiza.com.br/fita-led-lightstrip-20w-rgb-tw-2-metros-inteligente-smart-wifi-wiz-by-philips/p/kf72hc7016/cj/fted/?seller_id=planetleds115) | **R$226,75/kit; dois = R$453,50** | Preço atraente para fita com branco ajustável, fonte e controlador. A oferta nomeia Kit-C, mas não comprova 12NC/EAN do lote. Dois WiZmotes da referência CB02 acrescentam R$186,48: **R$639,98** para os dois kits e seus dois controles; perfis e instalação à parte |
 
 Uma [oferta WiZ 2 m da Abastece](https://www.abastece.com.br/products/wiz-starterkit-fita-led-2m-inteligente-wi-fi-e-bluetooth) apresentou R$436,91, mas sem conciliação do 12NC; serve como referência comercial de categoria, não prova economia entre SKUs idênticos. Não comparar kit completo com controlador avulso nem fita RGB simples com RGBTW. WiZ mantém o ecossistema dos controles do escritório; WT1 requer Tuya/Smart Life, embora Alexa possa reunir comandos de voz.
@@ -109,7 +109,38 @@ Uma [oferta WiZ 2 m da Abastece](https://www.abastece.com.br/products/wiz-starte
 
 **Pendências documentais, sem ensaio:** solicitar foto do WT1 mostrando fabricante, revisão e PUSH/GND; manual correspondente, garantia e origem. Para cada kit WiZ, solicitar 12NC/EAN, etiqueta da fonte, conteúdo da caixa, manual de corte/reconexão e montagem, confirmação da faixa de branco e compatibilidade com o WiZmote ofertado. A extensão 929002681471 e o Kit-G 929002681271 não são o Kit-C. Encaixe no MOV4329, dissipação, percursos e comprimentos finais permanecem condicionados ao conjunto real, sem novos cálculos nominais.
 
-**Método:** Firecrawl solicitado e tentado; integração indisponível e CLI com HTTP 402 por falta de créditos. Conferência concluída por busca web e documentos oficiais, sem atribuir resultados ao Firecrawl. Nenhuma consulta enviada. Totais históricos CB02, complemento T06 e orçamento global preservados; Shelly é alternativa, não troca adotada.
+**Método:** Firecrawl solicitado e tentado; integração indisponível e CLI com HTTP 402 por falta de créditos. Conferência concluída por busca web e documentos oficiais, sem atribuir resultados ao Firecrawl. Nenhuma consulta enviada. Totais históricos CB02, complemento T06 e orçamento global preservados; Shelly segue como proposta de substituição condicionada, detalhada abaixo.
+
+### Substituição dos WT1 por Shelly — ligação e custo
+
+Conferência solicitada por Elias em 26/10/2026: “conferência do Shelly Plus RGBW PM para substituir os WT1, validando a ligação dos pulsadores e o impacto no custo”. **Substituição documentalmente viável para as três zonas monocromáticas; proposta condicionada à confirmação do pulsador e instalação.** Não representa compra ou revisão do JSON histórico CB02/orçamento R44.
+
+**Ligação de referência para o eletricista, uma por zona (C2, S3 e Q06):**
+
+| Ponto | Conexão no cenário 12 V CC |
+|---|---|
+| Fonte externa | Positivo em `+` do Shelly e no positivo da fita; negativo em `⊥` do Shelly |
+| Fita monocromática | Negativo em `O1/R`; demais saídas sem uso neste cenário |
+| Pulsador momentâneo NA, sem iluminação | Entre `I1` e `⊥` (negativo da mesma fonte); não entre I1 e o positivo |
+| Rede 127 V | Somente na entrada própria da fonte compatível; nunca nos bornes do Shelly ou do pulsador deste comando |
+
+Fonte: [diagrama oficial, modo light](https://kb.shelly.cloud/__attachments/a_5970534b3ec180886923d4fdcea1e3361593e4524f4077d9e4a3298f5d4fc111/Plus%20RGBW%20PM%20Lights-20240528-132128.png). O [manual de instalação, p.1](https://kb.shelly.cloud/__attachments/a_84e1b1b479ac0206954dc9939653330e06ca1f9acffd922cc2192986132817ba/Shelly%20Plus%20RGBW%20PM%20multilingual%20printed%20user%20and%20safety%20guide.pdf) exige instalação por eletricista e circuito desenergizado; proíbe botões com LED/neon. Terminais: 0,1–1 mm², decapagem 6 mm, torque máximo 0,2 Nm; isso limita o borne, não dimensiona o circuito. Se a seção calculada for maior, prever transição apropriada fora do borne. Manter três fontes/controladores separados; não interligar saídas ou negativos entre zonas por conveniência.
+
+**Configuração proposta:** perfil `light`; entrada I1 (`input:0`) como `button`, saída O1 (`light:0`) associada em modo `dim`, sem `detached`. Toque curto alterna ligado/desligado; pressão longa regula com sentido alternado entre acionamentos. Não exige script para essa função. [Perfis e associação](https://shelly-api-docs.shelly.cloud/gen2/Devices/Gen2/ShellyPlusRGBWPM/) · [modo dim](https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/Light/). Ajustar velocidade e comportamento após falta de energia no comissionamento; não assumir reprodução dos atalhos do WT1. Comando cabeado/local não exige nuvem; Alexa e acesso externo são integrações separadas.
+
+**Pulsador 57115/027:** a [Tramontina](https://www.tramontina.com.br/modulo-pulsador-para-campainha-tramontina-10-a-250-v-branco/57115027.html) confirma modelo de campainha, 10 A/250 V e formato largo. A página não explicita contato mínimo para sinal de baixa corrente em 12 V CC nem confirmação específica do conjunto Shelly. Pergunta para fechar o SKU: “O 57115/027 é contato seco momentâneo normalmente aberto, sem LED/neon, adequado a esta entrada de sinal em 12 V CC? Há limite mínimo de corrente/tensão de contato?” A inscrição 250 V não comprova essa adequação. Mantidos três módulos e três placas 57106/204 como provisão; nenhum relé/adaptador é exigido pelo diagrama para um pulsador adequado.
+
+| Custo de referência | Com WT1 | Com Shelly | Diferença |
+|---|---:|---:|---:|
+| Três controladores | R$588,00 | R$669,75 | +R$81,75 |
+| Três fontes Opus da proposta | R$255,15 | R$255,15 | R$0,00 |
+| Três pulsadores + três placas candidatos | R$57,03 | R$57,03 | R$0,00 |
+| Subconjunto acima | **R$900,18** | **R$981,93** | **+R$81,75** |
+| CB02 + pulsadores/placas | R$4.472,97 | **R$4.554,72** | **+R$81,75** |
+
+Shelly **R$223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/); demais valores mantêm as referências documentadas acima. Por zona, controlador/fonte/comando = **R$327,31**. O cenário de R$4.554,72 fica R$1.014,72 acima da provisão de iluminação de R$3.540; não somar novamente R$57,03 nem conservar os WT1 junto dos Shelly. Frete, cabos, caixas, eventuais transições e instalação continuam fora deste subtotal; preço pode mudar se outro pulsador for necessário.
+
+**Limites e pendências:** Shelly tem limite de 4 A por canal, inferior aos 5 A do WT1; não transferir a capacidade automaticamente. Fontes 12 V/3 A/36 W permanecem candidatas: conferir carga final, perdas, consumo do controlador (<1,2 W) e condição térmica com instalador. Não redimensionar comprimentos nominais nesta etapa. Confirmar etiqueta SNDC-0D4P10WW, manual do lote e pulsador; depois conferir montagem, funcionamento do toque/pressão longa, retorno de energia e dimerização. Sem ensaio nesta etapa. A fonte permanece energizada para o controle funcionar. WiZ do escritório e SceneSwitch do quarto não entram nessa substituição.
 
 ## Consultas aos fornecedores — rascunhos não enviados
 
