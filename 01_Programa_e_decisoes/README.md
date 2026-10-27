@@ -24,7 +24,7 @@ Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publi
 
 **Consultas27/10:** [Rascunhos R02](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichas R15. D02 A/C, D03-B e escopo D05-C incorporados (Elias27/10/2026). Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
 
-**Anteprojeto27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima75→83%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D04 respondidas por Elias,27/10/2026, com citações no roteiro; integração de custos/pontos em andamento.90–95% depende principalmente do orçamento e fechamento comercial.
+**Anteprojeto27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima75→86%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D05 respondidas por Elias,27/10/2026, com citações; D06 preparada. A3 R01 e consultas integradas.90–95% depende principalmente do orçamento e fechamento comercial.
 
 IL07 complementada com Brilia318939 para substituir a fita sem oferta; [roteiro](Roteiro_para_projeto_oficial.md) e D01/D03 usam luz parcialR$4.879,03.
 

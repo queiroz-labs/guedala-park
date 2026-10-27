@@ -53,3 +53,5 @@ Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md)
 **Decisão comercial pendente para Elias:** após respostas IL02–IL09, A — manter os candidatos que cumprirem os requisitos e cotar o conjunto completo; B — solicitar substituição somente dos candidatos cuja compatibilidade/preço não fechar, preservando smart e comandos já definidos. Nenhuma seleção de produto inferida; antes das respostas, a ação é fechar dados, não repetir comparação nominal.
 
 Coerência documental26/10: READMEs do quarto/lavanderia alinhados à proposta smart/Firefly; a seleção de27–28/09 fica identificada como memória histórica. Sem alterar decisões comerciais, CAD ou publicação.
+
+**D05-C/D06,27/10:** Elias escolheu "C — cotar com aumento de verba"; P17/C05 ficam fora da primeira etapa cotada. E06 perde as prateleiras de suporte, E05 requer implantação independente. [D06 com alternativas e preços](../../01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md#d06--iluminação-do-escritório-após-d05-c) aguarda Elias; os dois kits/controles permanecem no total até resposta, sem desconto automático.

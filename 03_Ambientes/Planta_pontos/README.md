@@ -54,6 +54,8 @@ As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E0
 
 Conferência anterior27/10: SVG inspecionado. Revisão D03/D04 mantém53 funções, agora quatro sem posição (Q06/S05/E05/E06); conferir na regeneração A3. Não verifica posições reais.
 
+D05-C (Elias27/10/2026: "C — cotar com aumento de verba") adia P17/C05: E06 perde o suporte previsto, E05 exige suporte independente. [D06](../../01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md#d06--iluminação-do-escritório-após-d05-c) aguarda escolha; funções mantidas na planta, sem coordenadas inventadas.
+
 ## Pontos
 
 <!-- TABELA -->
