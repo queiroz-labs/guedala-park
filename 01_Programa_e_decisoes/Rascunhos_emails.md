@@ -1,4 +1,4 @@
-# Rascunhos de e-mail — R02
+# Rascunhos de e-mail — R03
 
 27/10/2026 · **Rascunhos. Nada foi enviado.** Revise, ajuste os dados entre colchetes e envie pelo canal oficial de cada destinatário: o portal ou atendimento do cliente da Cury, e o e-mail da administração ou do síndico depois da entrega.
 
@@ -83,114 +83,23 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 > [nome] · [telefone]
 
 
-## 4. Chapas — amostras, catálogo e identificação comercial
+## 4. Pacote pronto para envio — D02, D05-C e D06-B
 
-**Situação: não enviado.** Enviar o mesmo pedido às revendas/fabricantes pertinentes; não compartilhar dados pessoais no repositório. [Tabela comercial e fontes](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026).
+**R03, 27/10/2026 — não enviado.** As consultas de amostras, IL02–IL09 e marcenaria estão agora separadas em páginas autônomas por destinatário. Cada página contém escopo, exclusões, retorno técnico/comercial e prazo solicitado de **30/10/2026 às 18h, Brasília**; o prazo ainda não foi aceito pelo fornecedor.
 
-**Assunto:** Amostras e cotação preliminar — Arenza, Azul Petróleo, off-white Matt e Branco TX
+- [Elias envia hoje: destinatário, canal e arquivo](../06_Entregas/Cotacao/index.html).
+- [Pacote completo para baixar](../06_Entregas/Cotacao/Pacote_cotacao.zip).
+- [Marcenaria: pedido D05-C/D06-B com fichas R15 e formulário](../06_Entregas/Cotacao/Marcenaria.zip). Enviar o mesmo ZIP a três oficinas selecionadas por Elias; seus contatos não constam do projeto. Sem revelar a meta antes das respostas.
+- [Amostras A/C — Madeiramar](../06_Entregas/Cotacao/Amostras_Madeiramar.html) e [Arenza comparativo — Fabi](../06_Entregas/Cotacao/Amostras_Fabi.html).
 
-> Olá! Preciso de amostras físicas e catálogo vigente para marcenaria residencial: Greenplac Arenza Colore/Lizze; Guararapes Azul Petróleo Matt; off-whites Guararapes Lume Matt (A) e Areia Matt (C), para comparar cada amostra ao lado do Arenza; Arauco Beige Matt e Louro Freijó Poro; Branco TX de Guararapes/Berneck/Sudati.
->
-> Para os padrões que trabalham, informar fabricante, nome/linha/textura, SKU/EAN, disponibilidade em15 e18mm e tamanho da chapa. A mesma peça física terá o mesmo acabamento nas duas faces. Confirmar chapa revestida nas duas faces, bordas equivalentes e diferença entre variante comum e resistente à umidade, sem trocar automaticamente o padrão.
->
-> Enviar preço por chapa, amostra e frete separados, validade, prazo e quantidade mínima. Precisamos confirmar em especial Arenza/Louro Freijó Poro18mm e os códigos de fábrica não expostos no catálogo. Compararemos Lume e Areia ao lado do Arenza, conforme pedido de27/10; os acabamentos estão propostos, dependem de amostra. Não é pedido de compra. Obrigado!
+D02 — Elias, 27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza". Pedidos de Lume/Areia e Arenza não são escolha final nem compra de chapas.
 
-## 5. Consultas de iluminação — IL02 a IL09 revisadas
+D03 — Elias, 27/10/2026: "B — Elgin só no quarto; cozinha/lavanderia/banheiro seguem com interruptor comum".
 
-**Todas não enviadas.** Copiar somente o texto do fabricante/revenda correspondente. [Produtos, links e preços27/10](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); [documentação técnica e questões completas](../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados). Resposta deverá identificar SKU/revisão e manual; consulta não é compra. Não enviar a tabela inteira de fornecedores a cada destinatário.
+D05 — Elias, 27/10/2026: "C — cotar com aumento de verba". Cotar etapa sem C01/C03/C04/C05/P16/P17, mantendo os demais módulos com armazenamento, ferragens e cores previstos. Perdas explicitadas no pedido; crédito real por móvel solicitado.
 
-### IL02 — WiZ / revenda nacional — não enviado
-
-**Assunto:** Quatro A60 e quatro WiZmotes — SKU, estoque nacional e uso em plafon
-
-> Olá! Cotem quatro lâmpadas A60 smart E27 para rede127V e quatro WiZmotes, identificando SKU/EAN, estoque nacional, preço, validade, prazo, pilhas/base e garantia. Referências documentais929002424712 e929002426812; se houver substituto atual, indiquem diferenças e manual.
->
-> As lâmpadas seriam usadas em dois Taschibra Jurerê30cm, sala e escritório, duas por plafon com vidro. O fabricante permite esse fechamento, orientação e dissipação? Enviem as condições escritas e o manual. Precisamos de brilho, Alexa/celular e comando físico; “serve em E27” sozinho não confirma o uso. Obrigado!
-
-### IL03 — Taschibra — não enviado
-
-**Assunto:** Jurerê52040021-01 com duas lâmpadas WiZ — condições de uso
-
-> Olá! Para dois Jurerê brancos30cm, ref.52040021-01, confirmem dimensões úteis, fechamento/ventilação e condições de uso com duas WiZ A60 por corpo. A regulagem seria na eletrônica da lâmpada, sem dimmer na rede. A indicação “não dimerizável” restringe esse uso? Enviem manual e compatibilidade ou restrição por escrito. Cotem dois corpos completos, acessórios e prazo. Obrigado!
-
-### IL04 — Tramontina — não enviado
-
-**Assunto:** Pulsador57115027 em entrada de sinal CC — ficha e limites de contato
-
-> Olá! Avaliamos três pulsadores57115027 com placas57106204 para entrada de comando de Shelly Plus RGBW PM alimentado em12VCC; o contato não recebe rede127V nem aciona a fita diretamente. Confirmem contato seco normalmente aberto, momentâneo e sem iluminação/eletrônica, com ficha da revisão atual.
->
-> Quais tensões/correntes mínimas e restrições valem para sinal CC de baixa corrente? Se depender dos dados de entrada da Shelly, indiquem quais. Caso não seja adequado, cotem alternativa identificada com placa/suporte. A marcação10A/250VCA não será usada como comprovação dessa aplicação. Obrigado!
-
-### IL05 — Shelly / revenda — não enviado
-
-**Assunto:** SNDC-0D4P10WW — pulsador de sinal e comando físico
-
-> Olá! Avaliamos três Plus RGBW PM, cada um com fonte12VCC e fita monocromática. Confirmem, no diagrama oficial aplicável, requisitos elétricos da entradaI1, corrente/tensão efetivas no contato, limites de cabo e função toque curto/longo para ligar e regular.
->
-> É adequado o contato mecânico Tramontina57115027? Alternativamente, qual SKU do Wall Switch with1Button branco cabeado, acessórios e preço? Não confundir com BLU/bateria. Enviem manual, restrições e cotação nacional dos controladores/comandos; o RT fará a instalação. Obrigado!
-
-### IL06 — Opus / revenda — não enviado
-
-**Assunto:** Cinco OPS31002 — identificação, dimensões e uso com controlador
-
-> Olá! Cotem cinco fontes OPS31002,12V36W3A, identificando SKU/EAN/lote. Há anúncios com corpo172mm e270mm: enviem desenho e manual do produto efetivamente fornecido, acessórios, prazo e preço.
->
-> Três alimentariam controladores Shelly Plus RGBW PM com fitas; duas seriam usadas em grupos comuns do banheiro. Confirmem restrições de regulação/PWM, dissipação, montagem em móvel e acesso de manutenção. Não estamos considerando IP67 como autorização para qualquer posição no banheiro. Obrigado!
-
-### IL07 — Cristallux / revenda — não enviado
-
-**Assunto:** Fitas3000/4000K — lote, manual e substituto nacional para021965
-
-> Olá! Cotem um rolo5m COB3000K CLX-FT431230/221506, um COB4000K correspondente e um SMD3000K CLX-FT200530/021965. Confirmem códigos, tensão, largura/altura, corte, potência/corrente por metro e manual do lote; há divergências nas fichas publicadas.
->
-> Se021965 não estiver disponível, ofereçam equivalente nacional12V3000K para indireta com interruptor comum, indicando diferenças, preço e eventual necessidade de outra fonte/perfil. Informem restrições de montagem, proteção de pontas e dissipação. Comprimentos finais serão medidos; não presumir reaproveitamento de sobras. Obrigado!
-
-### IL08 — WiZ / Planet Leds — não enviado
-
-**Assunto:** Dois kits2m — anúncio kf72hc7016, SKU e acessórios
-
-> Olá! O anúncio kf72hc7016 corresponde ao kit929002681171/EAN8719514336957? Enviem etiqueta, manual e conteúdo exato de cada caixa. Precisamos de dois grupos separados, TV e prateleiras do escritório, cada um com controle próprio.
->
-> Confirmem faixa de brancos, compatibilidade com WiZmote/Alexa, cortes/reconexão, extensões e dissipação. Cotem dois kits completos e identifiquem os dois controles correspondentes, já dentro das quatro unidades da IL02; não somar mais dois controles nem duplicar fontes/controladores já incluídos; informem preço/validade/estoque nacional e acessórios não incluídos. Obrigado!
-
-### IL09 — demais luminárias — não enviado
-
-Enviar os subpedidos separadamente:
-
-**Stella/Eoutlet — assunto: EVO STH21967/30.** Olá! Cotem uma unidade branca3000K completa, uso127V com interruptor comum; enviem etiqueta/manual, dimensões e acessórios. A posição será compatibilizada com as portas dos armários. Obrigado!
-
-**Galaxy — assunto: Firefly9608 e9605.** Olá! Cotem um quadrado3000K **9608** e um redondo3000K **9605**, brancos. Confirmem códigos/EAN, preço atual, estoque, dimensões, manual e restrições de instalação. O9607 não corresponde ao quadrado3000K pretendido. Lavanderia e banheiro terão interruptores comuns; posição/volumes serão definidos pelo RT. Obrigado!
-
-**Nordecor — assunto: EVY2054 e MOV4329.** Olá! Cotem duas EVY2054 brancas3000K e sete barras2m MOV4329 brancas, discriminando difusor/tampas/presilhas. Confirmem interruptor próprio das EVY, alimentação e manual; para o perfil, seção útil e condições para as fitas da lista. Quantidade de barras é provisória, sem plano de cortes final. Obrigado!
-
-**Arevo — assunto: Jabuticaba triplo âmbar.** Olá! Confirmem SKU da variante preta de três globos âmbar/3G9 e preço completo. O anúncio2623 tem “2xG9” no endereço e preço anterior à escolha do vidro. Enviem foto da etiqueta, dimensões, acessórios e manual. Obrigado!
-
-**Brilia — complemento IL07, não enviado.** Olá! Confirmem a fita31893912V3000K como candidata à indireta do banheiro com comando comum: manual, corte/conexões, dissipação, montagem no MOV4329 e manutenção da proteção após corte. Cotem um rolo5m completo e acessórios. A fonte previstaOPS31002 e o trecho real serão conferidos pelo RT; não é pedido de compra. Obrigado!
-
-**Brilia/Sonoff — assunto: três G9 314450 e D1/RM433.** Olá! Para três G9 Brilia314450 de127V com D1, enviem documentação de dimerização/carga mínima e compatibilidade, ou restrição. Cotem os produtos e RM433 com base, bateria e revisão identificados. Não consideraremos o conjunto fechado sem documentação e ensaio aplicável. Obrigado!
-
-**Elgin/Avanti — assunto: uma48D18WSRWIFI para o quarto.** Olá! Confirmem oferta e manual do plafon smart48D18WSRWIFI, branco, uso127V. Qual comando físico permite ligar/desligar e regular sem celular? Está incluído ou exige SKU/acessório adicional? Funciona sem internet e após retorno de energia? Cotem uma unidade para o quarto com todos os comandos necessários. Cozinha, lavanderia e banheiro mantêm interruptores comuns e seus próprios modelos. Não cotar substituição nesses ambientes. Obrigado!
-
-## 6. Marcenaria — orçamento preliminar das fichas R15
-
-**Situação: não enviado.** Pedido de estimativa comparável, sem ordem de fabricação. Escopo D05-C: Elias,27/10/2026: "C — cotar com aumento de verba". D02: Elias,27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza". Pedir ao menos três propostas com o mesmo escopo; não revelar a meta antes das primeiras respostas, conforme a estratégia do pacote de cotação. Anexar as [fichas R15](../06_Entregas/Fichas_fabricacao/index.html), [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html) e [levantamento](../06_Entregas/Fichas_fabricacao/Levantamento.html). Indicar os links/arquivos efetivos no envio; não dizer que os PDFs foram anexados antes disso.
-
-**Assunto:** Orçamento preliminar de marcenaria —20 móveis, fichas R15, apartamento40m²
-
-> Olá! Solicito orçamento preliminar discriminado dos20 móveis e complementos descritos nas fichas R15. As medidas são nominais, anteriores às chaves; pendências de produtos, montagem e ensaios estão indicadas. A estimativa não autoriza fabricar.
->
-> Cotem a base integral R15 e, em coluna separada, a etapa inicial sem C01/cabeceira, C03/encosto e almofadas do banco, C04/painel e duas prateleiras da TV, C05/prateleiras e suportes de acessórios do escritório, P16/duas gavetas e P17/aéreo do escritório. Esses itens ficam para compra futura; informar crédito real por item e custo de uma segunda mobilização.
->
-> Nos móveis retidos, preservar todo armazenamento, ferragens, acabamentos, armários até o teto e a regra sem tubos ou quadro metálico substituto. Uma chapa física recebe o mesmo acabamento nas duas faces; não adicionar caixa interna15mm automaticamente. Identificar fabricante/código/espessura das chapas, bordas, ferragens e alternativas sem substituir por conta própria.
->
-> Separar materiais, ferragens, corte/usinagem/bordas, acabamento, montagem, transporte, medição e impostos. Informar inclusões/exclusões, validade, prazo, pagamento e custo das amostras/protótipos.
->
-> Manter roupeiro/canto/maleiro/aéreo do quarto, cozinha/lavanderia/banheiro, bancada do escritório e banco-baú. O adiamento P16/P17/C05 perde armazenamento do escritório; C01/C03 perde estofamento/encosto e C04 perde as duas prateleiras/ocultação dos fios. Não transferir conteúdo nem custo para outro móvel sem indicar.
->
-> Cotar suporte independente para TV/PS5 e para indireta acessível da cabeceira, que não podem depender dos complementos adiados. Confirmar estabilidade dos módulos retidos, posição dos dois grupos de fita do escritório sem P17/C05 e custo das adaptações, sem retirar luz da lista por conta própria. A cabeceira indireta deve seguir D04: face inferior acessível.
->
-> Confirmem se o acabamento M03 está incluído para evitar cobrança duplicada. Não aplicar créditos do rateio histórico; precisamos de valores reais instalados por módulo e inclusões. Sinalizem itens que dependem de medição/ensaio e o preço das visitas técnicas. Obrigado!
+D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". IL02 pede quatro A60 e três WiZmotes; IL08 pede um kit E05, sem duplicar o controle já na IL02. E06 fora da etapa inicial. IL07 não pede a antiga SMD 021965: Brilia 318939 vai à Belluce.
 
 ## Controle de respostas
 
-Todos os pedidos acima estão **não enviados em27/10/2026**. Após envio real, registrar data e destinatário institucional; ao receber, resumir SKU/revisão, preço/validade e resposta técnica publicável. Manter mensagens completas e dados pessoais fora do repositório. D01–D05 foram respondidas por Elias em27/10 e constam no roteiro/orçamento, com citação. As respostas autorizam preparar cotações e amostras, não contratar. D03-B está incorporada: uma Elgin no quarto, quatro A60/quatro WiZmotes nos demais grupos.
+Todos os pedidos estão **não enviados**. Elias revisa os anexos e envia pelos canais da checklist. Solicitar preço unitário por móvel/item, frete, instalação (incluída, à parte ou não oferecida), validade, entrega, acessórios, pagamento e garantia; dados de entrega somente no canal privado. Galaxy/Paris Luz cotam a mesma unidade 9605 como alternativas, sem dupla compra. Registrar envio e mensagens completas fora do repositório; resumir depois apenas dados técnicos/comerciais publicáveis. Não houve compra, contratação ou novo pedido de decisão Dxx.

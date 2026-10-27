@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Fonte única de verdade do projeto. Em caso de divergência com qualquer outro documento, vale esta página. Atualizada em 27/10/2026. **Limite ≤ 14 KB (o verificador reprova):** cada linha daqui diz o que vale e aponta o README com o detalhe; números, casos e hipóteses ficam no README do móvel.
+Fonte vigente de versões e pendências, atualizada em 27/10/2026. Limite de 14 KB; detalhes nos READMEs das áreas.
 
 ## O projeto
 
@@ -86,7 +86,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Próximos passos
 
-1. **Antes das chaves:** seguir o [plano até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) (desenvolvimento até 29, integração 30, conferência 31); concluir as luminárias na [lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); contratar o responsável técnico e revisar e enviar os [e-mails R02: amostras, IL02–IL09 e orçamento preliminar R15, todos não enviados](01_Programa_e_decisoes/Rascunhos_emails.md); cotação preliminar disponível, fabricação condicionada.
+1. **Elias envia hoje:** revisar e enviar o [pacote por destinatário](06_Entregas/Cotacao/index.html), com fichas R15, amostras D02 e IL02–IL09; todos não enviados. Prazo solicitado 30/10 às 18h. Depois comparar propostas, amostras e respostas; contratar RT. Nenhuma contratação autorizada.
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 

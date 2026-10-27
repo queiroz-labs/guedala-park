@@ -22,10 +22,12 @@ Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publi
 
 **Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02: Elias,27/10/2026, pediu amostras A/Lume e C/Areia junto ao Arenza; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem18 com referênciaR$607,15 em27/10. O gerador preserva essa seção documental.
 
-**Consultas27/10:** [Rascunhos R02](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichas R15. D02 A/C, D03-B e escopo D05-C incorporados (Elias27/10/2026). Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
+**Consultas27/10:** [Rascunhos R03](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichas R15. D02 A/C, D03-B, D05-C e D06-B incorporados (Elias27/10/2026). Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
 
 **Anteprojeto27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima75→87%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D06 respondidas por Elias,27/10/2026, com citações; D06-B integrada. A3 R01 e consultas integradas.90–95% depende principalmente do orçamento e fechamento comercial.
 
 IL07 complementada com Brilia318939 para substituir a fita sem oferta; [roteiro](Roteiro_para_projeto_oficial.md) e D01/D03 usam luz parcialR$4.534,55.
 
 Pedido preliminar R15 preserva estratégia comercial: três propostas comparáveis, sem revelar meta antes das respostas.
+
+[Pacote para Elias enviar hoje](../06_Entregas/Cotacao/index.html): páginas por destinatário, prazo, exclusões e retorno comercial/técnico. Não enviado.

@@ -5,7 +5,7 @@
 | [Orcamento/Orcamento_R43.md](Orcamento/Orcamento_R43.md) | R44: execução R$ 137.748,11; excesso R$ 17.748,11 sobre teto de R$ 120 mil + reserva intocada de R$ 10 mil |
 | [Orcamento/LEIA-ME.md](Orcamento/LEIA-ME.md) | Estimativas, metas condicionais e divergências; retomada da reconciliação de iluminação e marcenaria |
 | `Orcamento/<Categoria>/Analise_*.md` | Detalhe de cada categoria: Marcenaria_35mil, Eletros_e_TV, Loucas_e_metais, Pedras_e_box, Pisos_e_revestimentos, Obra_e_pintura, Instalacoes, Moveis_e_tecidos |
-| [Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) | Pacote para pedir orçamento de marcenaria (em espera) |
+| [Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) | Pacote D05-C/D06-B com fichas R15, pronto para Elias enviar |
 | [Cronograma_obra_e_compras.md](Cronograma_obra_e_compras.md) | Cronograma de obra e o que comprar antes |
 | [Plano_execucao_ate_31_10.md](Plano_execucao_ate_31_10.md) | Plano de trabalho diário até 31/10/2026 |
 
@@ -46,3 +46,5 @@ Integração27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro de
 **D05,27/10:** [três caminhos sem descontos presumidos](Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A131.501,22, B119.101,22, C127.101,22. Créditos por móvel são alvos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte7.101,22 recomendado frente ao consumo da reserva. Elias,27/10/2026: "C — cotar com aumento de verba". Cotar pacote37.000 e execução127.101,22; reserva10.000 preservada, sem contratação.
 
 D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". D05-C vigente R$ 127.101,22; iluminação R$ 4.534,55.
+
+[Pedido de marcenaria e formulário R15](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) atualizados; escopo inicial e integral separados, frete/instalação/validade por item, sem metas divulgadas.
