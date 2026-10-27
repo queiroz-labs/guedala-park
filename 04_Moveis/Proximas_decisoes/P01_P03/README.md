@@ -1,17 +1,17 @@
 # P01/P03 — equilíbrio da caixa completa e ligações compartilhadas
 
-## Decisões de uso P02 — agenda 27/10
+## Uso P02 definido — 27/10/2026
 
-Preparado em 26/10/2026. **Sem resposta registrada; nenhuma opção adotada.** Escolher requisitos de uso não comprova capacidade do móvel. O projeto só volta ao dimensionamento quando houver uso definido e dados reais de material/juntas; não repetir as varreduras existentes para tentar escolher por Elias.
+**Fonte: Elias, nesta conversa em 27/10/2026: “U1:A / U2:A / U3:A / U4:A”.** As quatro decisões de uso estão encerradas:
 
-| Pergunta fechada | Opção A | Opção B | Consequência que precisa ficar explícita |
-|---|---|---|---|
-| U1 — Qual conteúdo quer priorizar no P02? | Roupa de cama/volumes leves de uso eventual | Caixas/objetos densos e uso frequente | B exige atender concentrações e acesso repetido; A não significa peso nulo. As duas malas de10kg são requisito do P03, não carga automaticamente transferida para P02 |
-| U2 — Qual massa total de conteúdo quer solicitar como requisito inicial? | Até10kg no P02 inteiro | Até20kg no P02 inteiro | Valores incluem recipientes e conteúdo, além do peso próprio/ferragens tratado pelo projeto. Nenhum dos dois foi demonstrado como capacidade. Se os itens pesarem mais, suspender esta escolha e pesar/inventariar antes de definir outro requisito |
-| U3 — Aceita restringir objetos mais pesados à região apoiada, deixando a ponta do retorno para volumes leves? | Sim; aceita uma organização com zonas identificadas | Não; quer liberdade para colocar o conteúdo também na ponta | A reduz liberdade de armazenamento, mas não elimina ligação positiva e ensaio. B mantém o caso de ponta como requisito; os20kg na ponta já investigados não ficaram demonstrados |
-| U4 — Se a solução exigir mudança visível ou perda de vão para atender ao uso, qual caminho deve ser apresentado primeiro? | Preservar vãos/aparência e rever a carga/organização | Apresentar uma alternativa de detalhe com perda de vão/custo quantificados para nova decisão | B autoriza somente preparar comparação; não autoriza aplicar reforço, reduzir móvel ou modificar CAD |
+| Item | Requisito escolhido | Consequência no uso |
+|---|---|---|
+| U1=A | Roupa de cama e volumes leves de uso eventual | Priorizar esse conteúdo, sem presumir peso nulo |
+| U2=A | Solicitar até 10 kg de conteúdo no P02 inteiro, incluindo caixas/organizadores | Requisito de projeto; peso próprio e ferragens são adicionais. Não é capacidade demonstrada |
+| U3=A | Objetos mais pesados na região apoiada; ponta do retorno para volumes leves | Projeto deve identificar as zonas de organização; a restrição não elimina juntas e ensaio |
+| U4=A | Preservar vãos e aparência; rever carga/organização antes de mudar o móvel | Se o requisito não for demonstrado, apresentar a revisão de uso para nova decisão, sem reduzir a carga automaticamente |
 
-**Como registrar a resposta depois:** U1=__; U2=__; U3=__; U4=__; data/fonte=__. Até lá, manter pendência de uso/carga. Não rotular10kg como alternativa segura e20kg como alternativa insegura: falta demonstração do conjunto em ambos os casos.
+**Pendência técnica:** demonstrar o conjunto para esse uso com produto/material, rigidez, juntas C01, apoios e ensaio. Não repetir varreduras sem dados físicos novos. Nenhuma alteração no CAD, capacidade de uso ou reforço decorre desta resposta. Os estudos antigos com 20 kg permanecem como evidência histórica, não como requisito vigente. As duas malas de 10 kg pertencem ao P03 e não transferem carga automaticamente ao P02.
 
 **O que não cabe a Elias dimensionar:** tipo/quantidade de fixador, rigidez C01, apoio ao piso, ensaio da chapa e corte do fundo P01. Projeto/oficina precisam apresentar produto, montagem e resultado; usuário decide uso e concessões. Não reabrir as duas portas independentes e a quina fixa do P02 nem a preferência A do P03 já registrada. No P01, permanecem fundo inteiro/fornecimento, juntas, soco e nivelamento; no P03, deformação e ferragens. [Bloqueios técnicos vigentes](../../P03/README.md).
 

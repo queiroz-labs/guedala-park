@@ -11,8 +11,8 @@ UPDATES = {
          'Identificar piano e par D/E; fechar apoio fixo, terminais 22/30 mm, trava/liberacao e juntas; cotar itens sem preco e executar protocolo preenchido por responsavel'),
  'P14': ('Desenho de preparacao com corte axial a completar, lista e formulario conjunto P20/P14 prontos; 8 registros dimensionais proprios preservados; zero ensaios',
          'Produto/oficina: completar bucha, pilha axial, rosca, retencao contra levantamento e acesso SW5; conferir trava a 55 graus, retirada do saco e plano de prova'),
- 'P02': ('Estudo acoplado preservado; perguntas fechadas U1-U4 de uso, massa total, concentracao na ponta e concessoes preparadas para Elias, sem opcao adotada',
-         'Responder U1-U4; produto completo C01, ensaio MDF, curvas de juntas e montagem continuam pendentes. Nao repetir varredura sem dados novos'),
+ 'P02': ('Elias27/10/2026: U1:A/U2:A/U3:A/U4:A; leves ocasionais, requisito10kg total, peso na regiao apoiada, preservar vaos/aparencia; capacidade nao demonstrada',
+         'Uso definido; produto completo C01, ensaio MDF, curvas de juntas e montagem continuam pendentes. Nao repetir varredura sem dados novos'),
  'P13': ('Peca350 697x470x18 preservada; pergunta F13 Arenza ou Branco TX nas duas faces preparada; continua excluida do corte',
          'Elias: responder F13; fornecedor: produto/substrato18 e bordas. Depois atualizar auditoria por ID; apoio/juntas e ventilacao do micro seguem condicionados'),
  'P04': ('Meta10kg; fundo308/base limpa; quatro acessosSW4 nominais e pacoteT0 reconferido26/10:5retalhos,8Minifix,15registros vazios',
@@ -41,16 +41,17 @@ def main():
   r['evidence']=EVIDENCE.get(code,r['evidence'])
   assert (HERE.parent/r['evidence']).is_file(),r['evidence']
   assert all(r[k].strip() for k in fields),code
-  if code in ('P02','P13'):r['proposed_owner']='Elias; projeto; produto/oficina'
+  if code=='P13':r['proposed_owner']='Elias; projeto; produto/oficina'
+  if code=='P02':r['proposed_owner']='projeto; produto/oficina'
   if code=='P03':r['name']='Maleiro reto: correr na R52; abertura A672 em estudo'
- lines=['# Matriz dos 20 moveis — consolidacao em 26/10/2026','',
- 'Fechamento documental de 25/10, atualizado com preparacao P04 e kit P20/P14/perguntas P02/P13 da agenda 27/10. 20/20 linhas revisadas; nenhuma representa capacidade fisica demonstrada ou incorporacao das propostas na R52. Numeros de formas/contatos sao o inventario historico R50, nao lista de corte atual.',
+ lines=['# Matriz dos 20 moveis — consolidacao em 27/10/2026','',
+ 'Fechamento documental de 25/10, atualizado com preparacao P04 e kit P20/P14, uso P02 definido em27/10 e pergunta P13. 20/20 linhas revisadas; nenhuma representa capacidade fisica demonstrada ou incorporacao das propostas na R52. Numeros de formas/contatos sao o inventario historico R50, nao lista de corte atual.',
  '', 'T01: revisao da matriz concluida. T02/T03: estudos condicionados, mapas e comprovacoes ainda parciais. T04: kit documental pronto, montagem e ensaio bloqueados em produto/oficina; T05: interfaces em andamento. T06/T07: acabamentos, quantitativos e custos pendentes. T08/T09: integracao e entrega permanecem na agenda.',
  '', '| Movel | Estado comprovado | Proxima acao | Responsavel proposto / bloco planejado | Evidencia |','|---|---|---|---|---|']
  for r in rows:
   clean=lambda s:str(s).replace('|','/')
   lines.append('| '+clean(r['module']+' '+r['name'])+' | '+clean(r['status'])+' | '+clean(r['next_action'])+' | '+clean(r['proposed_owner']+' / '+r['planned_work_block_2026'])+' | [Relatorio](../'+r['evidence']+') |')
- lines += ['', 'Pendencias por tipo: projeto agora = caminhos resistentes, mapas e rigidez; produto/oficina = ferragens, materiais, juntas e ensaios; Elias = carga P02, aparencia do soco62 e acabamentos ainda abertos (incluindo P13); apartamento/RT = medidas, parede, piso e ancoragens reais. Nao converter trabalho de projeto em espera generica pelas chaves.',
+ lines += ['', 'Pendencias por tipo: projeto agora = caminhos resistentes, mapas e rigidez; produto/oficina = ferragens, materiais, juntas e ensaios; Elias = aparencia do soco62 e acabamentos ainda abertos (incluindo P13); apartamento/RT = medidas, parede, piso e ancoragens reais. Nao converter trabalho de projeto em espera generica pelas chaves.',
  '', 'Datas sao blocos planejados, nao datas de aprovacao. Consultas prontas nao foram enviadas; nenhum ensaio fisico executado. No P04, as15 linhas do formulario continuam NAO_EXECUTADO; no kit P20/P14,12 registros de ensaio vazios, alem dos8 dimensionais P14. Responsaveis sao propostos, nao contratados.',
  '', 'Fonte vigente: este CSV para as linhas preservadas e atualizacoes em [consolidar_matriz.py](../../ferramentas/estudos/consolidar_matriz.py). Regerar: `python -B ferramentas/estudos/consolidar_matriz.py` (tambem disponivel em `organizar_entregas.py --consolidar`). [Retomada](../../ESTADO_ATUAL.md).', '']
  with (HERE/'Andamento_20_moveis.csv').open('w',encoding='utf-8-sig',newline='') as f:

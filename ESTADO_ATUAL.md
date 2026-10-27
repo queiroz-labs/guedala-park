@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Fonte única de verdade do projeto. Em caso de divergência com qualquer outro documento, vale esta página. Atualizada em 26/10/2026. **Limite ≤ 14 KB (o verificador reprova):** cada linha daqui diz o que vale e aponta o README com o detalhe; números, casos e hipóteses ficam no README do móvel.
+Fonte única de verdade do projeto. Em caso de divergência com qualquer outro documento, vale esta página. Atualizada em 27/10/2026. **Limite ≤ 14 KB (o verificador reprova):** cada linha daqui diz o que vale e aponta o README com o detalhe; números, casos e hipóteses ficam no README do móvel.
 
 ## O projeto
 
@@ -71,7 +71,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 | Móvel | Estudo | Falta |
 |---|---|---|
-| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [Perguntas U1–U4](04_Moveis/Proximas_decisoes/P01_P03/README.md) de uso/carga P02; produto/ensaio MDF, juntas, soco/piso e fundo P01 inteiro |
+| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [P02: U1–U4=A](04_Moveis/Proximas_decisoes/P01_P03/README.md), Elias 27/10/2026: leves ocasionais, requisito10kg, peso na região apoiada, preservar vãos/aparência; produto/ensaio, juntas, soco/piso e fundo P01 pendentes |
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
 | P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
 | P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |
@@ -90,7 +90,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Quem resolve** (sugestão, não contratação): Elias — carga do P02 e aparência das propostas visíveis; projeto — juntas, rigidez e interfaces; produto/oficina — ferragens reais, composição P15 e ensaios; RT após as chaves — medidas, parede, ancoragens, piso e liberação.
+**Quem resolve** (sugestão, não contratação): Elias — aparência das propostas visíveis; projeto — juntas, rigidez e interfaces; produto/oficina — ferragens reais, composição P15 e ensaios; RT após as chaves — medidas, parede, ancoragens, piso e liberação.
 
 ## Como trabalhar nesta pasta
 
