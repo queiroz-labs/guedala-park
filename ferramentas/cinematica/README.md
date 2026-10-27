@@ -1,6 +1,6 @@
 # Cinemática das folhas para cálculos sem abrir o FreeCAD
 
-25/10/2026 · apoio à continuidade com menor disponibilidade de IA. **As fórmulas de quatro barras e referenciais da R51 agora podem ser usados diretamente em Python nos estudos de centros de gravidade.** O modelo completo continuaR51, com suas geometrias, cores e controles preservados.
+Motor numérico e memória de extração R51, de25/10/2026. **O modelo vigente é R52**; usar a [fotografia e consulta vinculadas à R52](../../04_Moveis/Proximas_decisoes/Cinematica/README.md) para a continuidade. Os dados R51 abaixo são a origem histórica do motor; não foram rebatizados ou sobrescritos. A fotografia R52 já demonstrou igualdade das folhas/planilhas, conforme sua própria conferência.
 
 O módulo carrega uma fotografia de aproximadamente154 KB, com867 células de quatro planilhas e24 folhas. A consulta normal inclui22 visíveis; duas folhas antigas ocultas continuam identificadas e são excluídas por padrão. Não se reativou abertura antiga do gabinete do banheiro nem se substituiu o mecanismo atual.
 
@@ -25,7 +25,7 @@ O interpretador aceita somente a aritmética necessária, referências presentes
 
 Na medição local, após carregar a fotografia, calcular os522 CG levou aproximadamente **0,05 segundo**, mediana de três rodadas. O [registro de verificação](Verificacao.json) contém os tempos exatos. É tempo da rotina de cálculo, não novo tempo de abertura do projeto nem promessa de desempenho de outro computador. Não foi feita comparação percentual com a extração nativa, que inclui operações diferentes.
 
-## Como usar na continuidade
+## Como consultar a memória R51
 
 Requer Python e NumPy; os próximos cálculos não precisam do FreeCAD instalado. A extração inicial já está salva.
 
@@ -46,11 +46,11 @@ centros = engine.centers('Folha014', 86)
 matriz = engine.placement('Folha014', 86)
 ```
 
-Ao modificar geometria, controles ou fórmulas no CAD, gerar nova fotografia com as folhas fechadas e validar de novo. Não sobrescrever entradas de um estudo anterior como se ainda fossem a mesma revisão. O extrator apenas lê a fonte; a referência adicionalR12 usa e fecha somente seu documento temporário próprio.
+Ao modificar geometria, controles ou fórmulas no CAD, gerar nova fotografia com as folhas fechadas e validar de novo. Não sobrescrever entradas de um estudo anterior como se ainda fossem a mesma revisão. O extrator apenas lê a fonte; a referência adicional R12 usa e fecha somente seu documento temporário próprio.
 
 ## Aplicação e limites
 
-Usar nos próximos cálculos de massa/centro de gravidade e demanda global de suspensão. [P04/P15](../../04_Moveis/P04/Suspensao_P04_P15/README.md) já fornecem referências verificadas e cenários de parede. O mecanismo completo inclui braços de dobradiça com movimentos próprios: não atribuir a posição da frente a todas as massas de ferragem.
+A rotina fornece massa/centro de gravidade para estudos com fonte identificada. Na continuidade vigente, usar a consulta R52 acima; não repetir varreduras dos estudos já condicionados a produto/oficina. [P04/P15](../../04_Moveis/P04/Suspensao_P04_P15/README.md) já fornecem referências verificadas e cenários de parede. O mecanismo completo inclui braços de dobradiça com movimentos próprios: não atribuir a posição da frente a todas as massas de ferragem.
 
 A rotina não verifica BREP em colisão, resistência, parafusos, tolerâncias, fabricação ou conforto de uso. Massas reais e propriedades dos produtos continuam pendentes nos respectivos estudos. A R51 não foi salva ou animada para esta entrega; nenhum movimento, detalhe ou acabamento foi removido.
 

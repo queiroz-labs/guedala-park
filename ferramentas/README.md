@@ -31,7 +31,7 @@ Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de e
 | `python ferramentas/verificar_fatos.py` | Documentos vigentes não contradizem os fatos de `fatos.json` (verba, área, 127 V, gás natural, forno, mesa, medidas-chave, revisões do release). Linhas que falam de histórico/substituição não contam | segundos |
 | `python ferramentas/verificar_site.py` | Testes do site e build como o CI faz, em pasta temporária (hook de pre-push) | ~10 s |
 | `python -B ferramentas/site/construir.py` | Regenera o site a partir de `ferramentas/site/src/` | segundos |
-| `ferramentas/cinematica/consultar.py` | Posições de portas e gavetas sem abrir o FreeCAD | segundos |
+| `python -B 04_Moveis/Proximas_decisoes/Cinematica/consultar_r52.py --listar` | Consulta das folhas articuladas da fotografia R52; motor em `ferramentas/cinematica/`; não é simulador geral de gavetas/colisões | segundos |
 | `python -B ferramentas/roupeiro/analisar_caixa_superior.py` | Cortes P02/P03, mapa de juntas e desenho do estudo separado (NumPy/Pillow); geometria extraída por `roupeiro/extrair_caixa_superior.py` no FreeCADCmd, sem salvar CAD | segundos |
 | `python -B ferramentas/roupeiro/verificar_caixa_superior.py` | Confere certificados de equilíbrio, cortes analíticos do retorno e geometria C01/topo; não dimensiona juntas nem libera carga | segundos |
 | `python -B ferramentas/roupeiro/estudar_malas.py` | Confere envelopes de duas/três malas P03, reservas de acesso e gera prancha; usa dados salvos, sem abrir FreeCAD (Pillow) | segundos |
