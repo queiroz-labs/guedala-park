@@ -16,6 +16,26 @@ O [fabricante explica o uso das SceneSwitch pelo interruptor existente](https://
 
 O Jurerê tem vidro fosco curvo e corpo de referência30cm de diâmetro/10cm de projeção. É mais saliente que os4cm do Liny. Confirmar espaço, ventilação e uso permitido no manual das lâmpadas, além de distribuição de luz e difusor, antes de comprar. Não confundir a montagem SceneSwitch do quarto com as WiZ propostas para sala/escritório.
 
+## Conferência documental SceneSwitch/WiZ — 26/10/2026
+
+Escopo: duas SceneSwitch no quarto e quatro WiZ nas gerais de sala/escritório, em Jurerê 30 cm 2×E27. **Nenhum dos conjuntos teve compatibilidade de instalação comprovada nesta consulta.** A identificação oficial abaixo é uma referência para conciliar a oferta, não substituição automática do item orçado.
+
+| Item | O que foi comprovado / fonte | O que permanece aberto |
+|---|---|---|
+| WiZ A60 brasileira | **12NC 929002424712; EAN 8718699787370**. Página oficial: E27, 127 V, 8,8 W, 800 lm, 2200–6500 K; envelope publicado 122 × 60 mm. [Produto WiZ BR](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) e [folheto Signify](https://www.assets.signify.com/is/content/Signify/BR.pt_BR.8718699787370) | A página informa não haver manual disponível. Não foi localizada nela confirmação de uso em luminária fechada nem limite térmico de instalação para o conjunto |
+| WiZ da oferta CB02 | [Oferta](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz) descreve bivolt, 8,5 W e 806 lm, sem 12NC/EAN identificável no texto consultado | Não corresponde documentalmente à referência oficial acima. Não atribuir 929002424712 à oferta nem transferir a ela preço/estoque; exigir etiqueta do lote e ficha correspondente |
+| SceneSwitch da oferta CB02 | URL agrega **929002017746 e 929002017846**, com variantes comerciais quente/fria | Não foi obtida ficha/manual oficial desses dois códigos nesta consulta. Não afirmar qual corresponde a 3000 K, dimensões, EAN ou permissão de fechamento com base apenas no endereço da oferta |
+| Função SceneSwitch | [Philips Brasil](https://www.lighting.philips.com.br/consumer/choose-a-bulb/sceneswitch) confirma três níveis pelo interruptor e memória; descreve 100%, 40% e 10% para a família | Página de família não comprova percentuais, temperatura em cada nível, tempos de memória/reset ou sincronismo dos dois SKUs da oferta. Não confundir com variantes SceneSwitch que mudam temperatura de cor |
+| Plafon Jurerê | A composição continua especificando versão 30 cm, dois E27 e vidro fosco | Exigir código/EAN e manual da versão entregue. Não inferir volume útil, ventilação ou classificação como totalmente fechado pelas medidas externas; não confundir com Jurerê 25 cm/um E27 ou com Laguna |
+
+**Critério de compra documental:** obter, para cada lote, foto legível da embalagem/etiqueta (12NC, EAN, tensão e revisão), ficha e instruções de instalação. O fornecedor/fabricante deve apontar a cláusula que permite ou restringe o uso no Jurerê 30 cm com duas lâmpadas e difusor, incluindo orientação, temperatura admissível e ventilação. Se o manual proibir esse uso, não prosseguir para ensaio como forma de contornar a proibição. Silêncio documental não demonstra permissão nem prova incompatibilidade.
+
+Para SceneSwitch, pedir a associação explícita **código → EAN → branco quente/3000 K → três níveis de intensidade → alimentação compatível com 127 V**, além do procedimento do lote para memória e sincronização do par. Para WiZ, pedir se a oferta é realmente a 929002424712 ou outra revisão bivolt e o documento dessa outra revisão. Para o plafon, pedir o desenho de montagem e as restrições às lâmpadas. Nenhuma mensagem foi enviada.
+
+**Separação dos próximos passos:** essas respostas documentais podem vir antes das chaves; encaixe físico, condição térmica instalada, sincronismo e recepção Wi-Fi continuam fora desta etapa. Não comparar os 122 mm da WiZ com os 100 mm externos de projeção do plafon para concluir encaixe ou colisão: orientação dos soquetes e espaço interno não foram demonstrados. Não acrescentar dimmer de potência ao quarto; SceneSwitch usa o interruptor existente. Manter comandos WiZ previstos no projeto, sem supor que a indicação comercial “regulável” autorize um dimmer de rede.
+
+**Custo:** quantidades e referências históricas CB02 preservadas; a divergência da oferta WiZ exige conciliação antes de compra, sem novo preço ou economia atribuída nesta conferência.
+
 ## Impacto
 
 - LinyR$500,46 retirado da lista prioritária; conjunto candidatoR$109,88: **redução comparativaR$390,58**.
@@ -53,7 +73,7 @@ Fontes dos controles: [WiZ: LR03](https://faq.wizconnected.com/hc/en/7-wiz-v2/fa
 
 | Quem / conjunto | Pergunta exata |
 |---|---|
-| Fornecedor — SceneSwitch/WiZ A60 | Qual SKU/EAN, tensão e temperatura serão entregues? Manual permite Jurerê fechado e qual envelope/condição térmica exige? SceneSwitch: duas iguais, 3000 K e três níveis |
+| Fornecedor — SceneSwitch/WiZ A60/Jurerê | Entregar etiqueta e manual vinculados ao lote conforme a conferência documental acima; resolver oferta WiZ bivolt versus referência oficial 127 V e mapear os dois códigos SceneSwitch às variantes. Demonstrar condições de uso com o difusor do Jurerê |
 | Fornecedor/ensaio — jantar | Confirmar C82P3 triplo âmbar, Brilia314450, revisão RM433 e conteúdo da caixa. D1 com três G9 apresenta partida, faixa útil e cintilação aceitáveis? Sem ensaio, dimerização condicionada |
 | Fornecedor — WT1/kits WiZ | Etiqueta WT1 corresponde ao manual PUSH/GND? Quais EAN, cortes permitidos e acessórios dos kits WiZ? |
 | Fornecedor/instalador — perfis/banheiro | Qual seção útil/acessórios do MOV4329? Amostra recebe fita, cabo e terminação sem esmagamento e com dissipação adequada? Como proteger terminais cortados? |

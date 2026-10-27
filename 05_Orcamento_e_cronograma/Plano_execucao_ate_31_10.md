@@ -140,7 +140,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 - Consolidar códigos de chapa, substrato, espessura, duas faces, bordas e veios; separar seleção comercial de confirmação por amostra.
 - Preservar escolhas já feitas, inclusive Arauco Beige Matt/Louro Freijó Poro no banheiro e Branco TX interno. Resolver código do marfim e demais itens efetivamente pendentes.
-- Iluminação: [complementos T06 da CB02](../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md#complementos-t06--26102026) identificam três pulsadores/placas (cenário +R$57,03), pilhas, comandos convencionais e terminações/acesso. Restam preços dos acessórios, SKU/manual, ensaios e levantamento; perguntas registradas, sem refinar hipóteses. L02 preservada e orçamento global sem alteração.
+- Iluminação: [complementos T06 da CB02](../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md#complementos-t06--26102026) identificam três pulsadores/placas (cenário +R$57,03), pilhas, comandos convencionais e terminações/acesso. WiZ oficial 127 V identificada, oferta bivolt não conciliada; SceneSwitch sem ficha dos códigos ofertados. Restam preços dos acessórios, manuais de instalação, ensaios e levantamento; perguntas registradas, sem refinar hipóteses. L02 preservada e orçamento global sem alteração.
 - Preparar lista de equipamentos com modelo, medidas, alimentação e acesso de manutenção, sem reabrir comparações encerradas.
 
 **Pronto quando:** não há componentes indispensáveis omitidos; amostras e confirmação em campo aparecem como condições específicas. Posições executivas e dimensionamento de instalações seguem para revisão profissional.
