@@ -1,6 +1,6 @@
 # Banco P20 — tampas fechadas e caminho até o piso
 
-**Agenda 27/10, preparada em 26/10:** [kit de oficina](Roteiro_banco_cesto.md) com desenho, corte axial a completar e formulário vazio. Compra definitiva/montagem dependem de produto, suporte/terminais e ligações; sem novo cálculo ou ensaio.
+**Agenda 27/10, preparada em 26/10:** [kit de oficina](Roteiro_banco_cesto.md) com desenho, corte axial a completar e formulário vazio. Compra definitiva/montagem dependem de produto, suporte/terminais e ligações; busca dos códigos exatos Mahler/Bigfer sem oferta de varejo fechada. [Preços e evidência](../../Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md); sem novo cálculo ou ensaio.
 
 **T04 — margens de engate, 26/10:** [sensibilidade conjunta](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026): 36 casos, 12 inversões conferidas. Engate hipotético de 290 mm com erro radial de 1 mm por terminal não é garantido até a parada existente; 291 mm não deixa reserva para variação. Dados reais da trava continuam pendentes. Não deslocar pontos ou ampliar abertura para absorver o erro; verificar produto e implantação antes dos furos.
 
