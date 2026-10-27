@@ -13,9 +13,9 @@ S=ROOT/'04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json'
 sys.path.insert(0,str(ROOT/'ferramentas/cinematica'))
 from cinematica import Engine
 E=Engine(S)
-LEGACY=ROOT/'02_Modelo_3D/Componentes/Estudos/Portas_opostas_R18_2026-10-14'
+LEGACY=ROOT/'02_Modelo_3D/Componentes/Portas'
 L=json.loads((LEGACY/'Dados_plano_R18.json').read_text(encoding='utf-8'))
-AX=json.loads((ROOT/'02_Modelo_3D/Componentes/Estudos/Apoios_R11_2026-10-14/Eixos_71B3550.json').read_text(encoding='utf-8'))
+AX=json.loads((ROOT/'02_Modelo_3D/Componentes/Apoios/Eixos_71B3550.json').read_text(encoding='utf-8'))
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(ROOT/D['source'])==D['source_sha256']
 a,b,c,d=[np.array(AX[k],float) for k in ['a','b','c','d']]

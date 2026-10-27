@@ -114,4 +114,4 @@ Três envelopes cabem girando 550 para profundidade; acesso/30kg pendentes. Quat
 
 A caixa vigente de correr tem vão 1314×632×272/abertura lateral≈642. Reservas 20/4 sugerem altura 248; não são perfis reais RM025/RM023 nem reprovação do produto. Folha 237 não é altura de entrada. Basculante não desenvolvido.
 
-[Arranjos](Malas_no_maleiro.png) · [hipóteses](Estudo_malas.json). Reprodução: `python -B ferramentas/roupeiro/estudar_malas.py`. A geometria vem dos dados salvos da [caixa superior](../Proximas_decisoes/P01_P03/README.md). As [reservas de correr](../../02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md) continuam hipotéticas. Nenhuma consulta foi enviada, compra feita ou alteração aplicada ao CAD neste estudo.
+[Arranjos](Malas_no_maleiro.png) · [hipóteses](Estudo_malas.json). Reprodução: `python -B ferramentas/roupeiro/estudar_malas.py`. A geometria vem dos dados salvos da [caixa superior](../Proximas_decisoes/P01_P03/README.md). As [reservas de correr](../../02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md) continuam hipotéticas. Nenhuma consulta foi enviada, compra feita ou alteração aplicada ao CAD neste estudo.

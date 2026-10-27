@@ -1,0 +1,753 @@
+{
+  "changed": [
+    {
+      "object": "Peca206",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca207",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca208",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca209",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca210",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca211",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca212",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca213",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca226",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca227",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca228",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca241",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca242",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca243",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca244",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca245",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca246",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Varao",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Varao001",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Varao002",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Varao003",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca247",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca248",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca259",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca260",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca261",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca262",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca263",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca264",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca265",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca266",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca267",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca268",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca269",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca270",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "FaixaFixaEstudo",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca276",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca277",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca278",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca279",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca280",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca283",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca284",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca285",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca286",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca305",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca306",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca307",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca315",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca316",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca317",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca318",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca319",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca320",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca321",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca324",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca325",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca326",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca327",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca328",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca329",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca330",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca331",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca334",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca335",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca336",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca337",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca338",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca339",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca342",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca343",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca344",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca345",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca346",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca347",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca350",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca359",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca360",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca361",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca362",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca363",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca367",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca368",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca369",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca370",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca371",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca384",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca385",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca386",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca387",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca388",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca394",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca395",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca396",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca397",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca400",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca401",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca402",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca403",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca404",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    },
+    {
+      "object": "Peca075",
+      "before": false,
+      "after": true,
+      "reason": "current geometric result"
+    }
+  ],
+  "excluded": [
+    "HistoricoGavetaR05",
+    "HistoricoGavetaR001",
+    "HistoricoGavetaR002",
+    "HistoricoGavetaR003",
+    "Peca251",
+    "Peca252",
+    "Peca253",
+    "Peca254",
+    "FolhaAReal",
+    "FolhaBReal",
+    "PrincipalBlumR03",
+    "PrincipalBlumR001",
+    "DivisorApoioVizinhaR03",
+    "HistoricoVizinhaR18",
+    "HistoricoGavetaR004",
+    "HistoricoG2R06",
+    "HistoricoGavetaR005",
+    "HistoricoCaixaBaixaR13",
+    "HistoricoCestoR15",
+    "HistoricoGavetaR006",
+    "HistoricoGavetaR007",
+    "HistoricoFrentesEscritorioR11",
+    "HistoricoFrenteBanheiroR12",
+    "HistoricoFrenteBanheiroR001",
+    "HistoricoBancoR16"
+  ],
+  "boolean_operands_hidden": [
+    "PainelSimplesR04",
+    "FuroSimplesR04",
+    "FuroSimplesR001",
+    "UsinagemSimplesR04",
+    "PainelSimplesR001",
+    "FuroSimplesR002",
+    "FuroSimplesR003",
+    "UsinagemSimplesR001",
+    "Peca271",
+    "CanecoComumR031",
+    "CanecoComumR032",
+    "FurosComunsR015",
+    "Peca272",
+    "CanecoComumR033",
+    "CanecoComumR034",
+    "FurosComunsR016",
+    "Peca273",
+    "CanecoComumR035",
+    "CanecoComumR036",
+    "FurosComunsR017",
+    "PainelVizinhaR18",
+    "CanecoVizinhaR18",
+    "CanecoVizinhaR002",
+    "FurosVizinhaR18",
+    "Peca281",
+    "CanecoComumR10",
+    "CanecoComumR001",
+    "FurosComunsR10",
+    "Peca282",
+    "CanecoComumR002",
+    "CanecoComumR003",
+    "FurosComunsR001",
+    "Peca322",
+    "CanecoComumR004",
+    "CanecoComumR005",
+    "FurosComunsR002",
+    "Peca323",
+    "CanecoComumR006",
+    "CanecoComumR007",
+    "FurosComunsR003",
+    "Peca332",
+    "CanecoComumR008",
+    "CanecoComumR009",
+    "FurosComunsR004",
+    "Peca333",
+    "CanecoComumR010",
+    "CanecoComumR011",
+    "FurosComunsR005",
+    "Peca340",
+    "CanecoComumR012",
+    "CanecoComumR013",
+    "FurosComunsR006",
+    "Peca341",
+    "CanecoComumR014",
+    "CanecoComumR015",
+    "FurosComunsR007",
+    "Peca348",
+    "CanecoComumR016",
+    "CanecoComumR017",
+    "FurosComunsR008",
+    "Peca349",
+    "CanecoComumR018",
+    "CanecoComumR019",
+    "FurosComunsR009",
+    "Peca364",
+    "CanecoComumR020",
+    "CanecoComumR021",
+    "FurosComunsR010",
+    "Peca365",
+    "CanecoComumR022",
+    "CanecoComumR023",
+    "FurosComunsR011",
+    "PainelEscritorioR11",
+    "CanecoComumR11",
+    "CanecoComumR024",
+    "FurosComunsR11",
+    "PainelEscritorioR001",
+    "CanecoComumR025",
+    "CanecoComumR026",
+    "FurosComunsR012",
+    "PainelEscritorioR002",
+    "CanecoComumR027",
+    "CanecoComumR028",
+    "FurosComunsR013",
+    "PainelEscritorioR003",
+    "CanecoComumR029",
+    "CanecoComumR030",
+    "FurosComunsR014",
+    "PainelBanheiroR12",
+    "CanecoComumR12",
+    "CanecoComumR037",
+    "FurosComunsR12",
+    "PainelBanheiroR001",
+    "CanecoComumR038",
+    "CanecoComumR039",
+    "FurosComunsR018",
+    "PainelBanheiroR002",
+    "CanecoComumR040",
+    "CanecoComumR041",
+    "CanecoComumR042",
+    "FurosComunsR019",
+    "PainelBanheiroR003",
+    "CanecoComumR043",
+    "CanecoComumR044",
+    "CanecoComumR045",
+    "FurosComunsR020"
+  ],
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Visibilidade\\Guedala_Park_R22_Visibilidade_Atual.FCStd",
+  "source": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Controles\\Guedala_Park_R21_Controles_Organizados.FCStd",
+  "source_sha256": "c47142a74f06cb5c49e9246831f8b9c24817e551aa2c9c130a1e1738cbccf1fe",
+  "objects_compared": 5895,
+  "parents_placements_expressions_parameter_types_unchanged": true,
+  "invalid": [],
+  "scope": "Display correction only: expose current cabinet bodies in adopted modules; keep retired/historical objects and boolean operands hidden. No geometry, formulas, directions, course or hardware changes.",
+  "standalone_entry_reference_exposed": true
+}

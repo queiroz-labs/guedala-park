@@ -130,7 +130,7 @@
           "assembly": "Quantidade comercial e comprimento de corte dependem do plano das vias; não converter quatro kits em quatro barras. RM-025 largura28 e RM-023 largura34 conforme manual citado.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
             }
           ]
@@ -144,7 +144,7 @@
           "assembly": "Quantidade comercial e comprimento de corte dependem do plano das vias; não converter quatro kits em quatro barras. RM-025 largura28 e RM-023 largura34 conforme manual citado.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
             }
           ]
@@ -158,7 +158,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -172,7 +172,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -186,7 +186,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -311,7 +311,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+        "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
         "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
         "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
         "04_Moveis/Inventario_dimensional/Inventario/Varoes.md",
@@ -324,11 +324,11 @@
           "trecho": "Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada; não transformar estes em kitsRO-62. Não contar subcomponentes como novos kits. 2. Portas de abrir: decisões que já podem ser tomadas A orientação oficial Blum relaciona quantidade a peso acabado, altura, largura e material; dá2dobradiças como referência para4–6kg e3para6–12kg, com aplicação até600mm de largura. Recomenda maior afastamento possível entre dobradi"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+          "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
           "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+          "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
           "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
         },
         {
@@ -609,7 +609,7 @@
           "assembly": "Quantidade comercial e comprimento de corte dependem do plano das vias; não converter quatro kits em quatro barras. RM-025 largura28 e RM-023 largura34 conforme manual citado.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
             }
           ]
@@ -623,7 +623,7 @@
           "assembly": "Quantidade comercial e comprimento de corte dependem do plano das vias; não converter quatro kits em quatro barras. RM-025 largura28 e RM-023 largura34 conforme manual citado.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
             }
           ]
@@ -637,7 +637,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -651,7 +651,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -665,7 +665,7 @@
           "assembly": "Dimensões documentais; falta contar furos efetivos da configuração e verificar piloto/penetração.",
           "evidence": [
             {
-              "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+              "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
               "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
             }
           ]
@@ -711,7 +711,7 @@
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+        "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
         "04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md"
@@ -722,11 +722,11 @@
           "trecho": "Roupeiro/maleiro têm4folhas e4kitsRO-62 de uma porta; cada kit tem2carros,2guias e2freios. O banheiroR43 acrescenta2folhas comRO25/RM026, em lista separada; não transformar estes em kitsRO-62. Não contar subcomponentes como novos kits. 2. Portas de abrir: decisões que já podem ser tomadas A orientação oficial Blum relaciona quantidade a peso acabado, altura, largura e material; dá2dobradiças como referência para4–6kg e3para6–12kg, com aplicação até600mm de largura. Recomenda maior afastamento possível entre dobradi"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+          "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
           "trecho": "Para18–20, o manual aponta RM-025 superior/largura28 e RM-023 inferior/largura34. Guia Flex centrado na espessura e recuo de30 indicado; freios com posição a regular. Fontes PDF/TXT e páginas renderizadas emFontes. RO-47 e guia da linha Origem também arquivados como comparação. Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/frei"
         },
         {
-          "path": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+          "path": "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
           "trecho": "Manual propõe parafusos3,5×14 CC para carros e3,5×22 CC para guias/freios,3,5×12 CF para retenção. Isso não define pilotos, resistência, comprimento efetivo de penetração, encaixe nem a fixação de cada suporte. Eixos do padrão MDF22/86 a partir da borda e8,5/32,5 acima da base estão desenhados como linhas, sem furos ou diâmetro de piloto. Espelhamento do lado direito é proposta a confirmar. **Não há STEP oficial nas fontes consultadas.** As peças CAD de carro, guia, retenção, freio e perfis são reservas transparentes, com dimensões hipotéticas explícitas"
         },
         {

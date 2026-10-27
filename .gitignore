@@ -20,20 +20,20 @@ __pycache__/
 /ferramentas/site/inspecionar.cjs
 
 # Documentos personalizados preservados apenas localmente (privacidade).
-/02_Modelo_3D/Componentes/Estudos/Banheiro_R12_2026-10-14/Fontes/Quantidade_espelhado_BlUM.png
-/02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Quantidade_C_BlUM.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-2.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-3.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-4.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-5.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao-6.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao_01.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Parametros_corrigidos.png
-/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Blum_download_R07.png
-/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Frente_desenho_corrigido.png
-/02_Modelo_3D/Componentes/Estudos/G2_R06_2026-10-13/Blum_configurado/Fabricacao/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
-/02_Modelo_3D/Componentes/Estudos/Montagem_R07_2026-10-14/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
-/02_Modelo_3D/Componentes/Estudos/Portas_opostas_R18_2026-10-14/Guedala_Park_R18_Portas_Opostas.FCStd.50501bcf-324d-46a0-ac94-8d17774d87f7
+/02_Modelo_3D/Componentes/Banheiro/Fontes/Quantidade_espelhado_BlUM.png
+/02_Modelo_3D/Componentes/Dobradicas/Fontes/Quantidade_C_BlUM.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao-2.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao-3.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao-4.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao-5.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao-6.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao_01.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Parametros_corrigidos.png
+/02_Modelo_3D/Componentes/Montagem/Blum_download_R07.png
+/02_Modelo_3D/Componentes/Montagem/Frente_desenho_corrigido.png
+/02_Modelo_3D/Componentes/G2/Blum_configurado/Fabricacao/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
+/02_Modelo_3D/Componentes/Montagem/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF
+/02_Modelo_3D/Componentes/Portas/Guedala_Park_R18_Portas_Opostas.FCStd.50501bcf-324d-46a0-ac94-8d17774d87f7
 
 
 # Dependências do build web

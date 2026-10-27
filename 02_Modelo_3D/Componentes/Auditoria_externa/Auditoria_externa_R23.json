@@ -1,0 +1,1660 @@
+{
+  "status": "complete_sampled_scope",
+  "scope": "External hardware contacts only; changed R18 leaves in R23 source coordinates; mirror isometry preserves intersections",
+  "threshold_volume_mm3": 0.1,
+  "bbox_epsilon_mm": 1e-06,
+  "budget_s": 300,
+  "excluded": [
+    "front-front SAT and boolean audits",
+    "same hinge assembly metal contacts",
+    "70T3553",
+    "MOVENTO",
+    "manufacturing or load approval"
+  ],
+  "cases": [
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 0,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2928,
+        "booleans": 12
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 0,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2928,
+        "booleans": 12
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "Folha001",
+      "angle_deg": 0,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2928,
+        "booleans": 12
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "Folha001",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "Folha001",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "Folha001",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "VizinhaComumR18",
+      "angle_deg": 0,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2928,
+        "booleans": 12
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "VizinhaComumR18",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "VizinhaComumR18",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "individual_others_closed",
+      "door": "VizinhaComumR18",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "Folha001",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "VizinhaComumR18",
+      "angle_deg": 30,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2930,
+        "booleans": 10
+      }
+    },
+    {
+      "mode": "different_leaf_hardware",
+      "angle_deg": 30,
+      "pairs": 2016,
+      "new_contacts": 0
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "Folha001",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "VizinhaComumR18",
+      "angle_deg": 60,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "different_leaf_hardware",
+      "angle_deg": 60,
+      "pairs": 2016,
+      "new_contacts": 0
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR001",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "FolhaEscritorioR003",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "Folha001",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "simultaneous",
+      "door": "VizinhaComumR18",
+      "angle_deg": 86,
+      "new_contacts": 0,
+      "stats_delta": {
+        "pairs": 2940,
+        "bbox_rejected": 2932,
+        "booleans": 8
+      }
+    },
+    {
+      "mode": "different_leaf_hardware",
+      "angle_deg": 86,
+      "pairs": 2016,
+      "new_contacts": 0
+    }
+  ],
+  "contacts": [],
+  "errors": [],
+  "stats": {
+    "pairs": 88368,
+    "bbox_rejected": 88112,
+    "booleans": 256
+  },
+  "manifest": {
+    "changed": [
+      {
+        "door": "FolhaEscritorioR001",
+        "label": "Escritório porta 3 - abrir para esquerda — folha proposta",
+        "control": "ControlePortaR012",
+        "front": "FrenteComumR012",
+        "mount_supports": [
+          "ApoioOpostoR18"
+        ],
+        "hardware": [
+          "FerragemComumR129",
+          "FerragemComumR130",
+          "FerragemComumR131",
+          "FerragemComumR132",
+          "FerragemComumR133",
+          "FerragemComumR134",
+          "FerragemComumR135",
+          "FerragemComumR136",
+          "FerragemComumR137",
+          "FerragemComumR138",
+          "CalcoComumR025",
+          "CalcoComumR026"
+        ]
+      },
+      {
+        "door": "FolhaEscritorioR003",
+        "label": "Escritório porta 1 - abrir para esquerda — folha proposta",
+        "control": "ControlePortaR014",
+        "front": "FrenteComumR014",
+        "mount_supports": [
+          "Peca385"
+        ],
+        "hardware": [
+          "FerragemComumR149",
+          "FerragemComumR150",
+          "FerragemComumR151",
+          "FerragemComumR152",
+          "FerragemComumR153",
+          "FerragemComumR154",
+          "FerragemComumR155",
+          "FerragemComumR156",
+          "FerragemComumR157",
+          "FerragemComumR158",
+          "CalcoComumR029",
+          "CalcoComumR030"
+        ]
+      },
+      {
+        "door": "Folha001",
+        "label": "Cabeceira porta 3 - abrir para esquerda — folha proposta",
+        "control": "ControlePortaR016",
+        "front": "FrenteComumR016",
+        "mount_supports": [
+          "ApoioOpostoR001"
+        ],
+        "hardware": [
+          "FerragemComumR169",
+          "FerragemComumR170",
+          "FerragemComumR171",
+          "FerragemComumR172",
+          "FerragemComumR173",
+          "FerragemComumR174",
+          "FerragemComumR175",
+          "FerragemComumR176",
+          "FerragemComumR177",
+          "FerragemComumR178",
+          "CalcoComumR033",
+          "CalcoComumR034"
+        ]
+      },
+      {
+        "door": "VizinhaComumR18",
+        "label": "Cabeceira porta 1 - abrir para esquerda — folha proposta",
+        "control": "ControleVizinhaR18",
+        "front": "FrenteVizinhaR18",
+        "mount_supports": [
+          "ApoioOpostoR002"
+        ],
+        "hardware": [
+          "FerragemVizinhaR18",
+          "FerragemVizinhaR001",
+          "FerragemVizinhaR002",
+          "FerragemVizinhaR003",
+          "FerragemVizinhaR004",
+          "FerragemVizinhaR005",
+          "FerragemVizinhaR006",
+          "FerragemVizinhaR007",
+          "FerragemVizinhaR008",
+          "FerragemVizinhaR009",
+          "CalcoVizinhaR18",
+          "CalcoVizinhaR002"
+        ]
+      }
+    ],
+    "stationary_targets": [
+      {
+        "name": "Peca001",
+        "label": "floor001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca002",
+        "label": "floor002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca003",
+        "label": "floor003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca004",
+        "label": "floor004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca005",
+        "label": "floor005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca006",
+        "label": "floor006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca007",
+        "label": "floor007",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca008",
+        "label": "floor008",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca009",
+        "label": "Parede · Quarto",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca011",
+        "label": "Parede · Quarto001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca013",
+        "label": "Parede · Quarto002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca015",
+        "label": "Parede · Quarto003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca017",
+        "label": "Parede · Quarto004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca019",
+        "label": "Parede · Escritório",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca021",
+        "label": "Parede · Escritório001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca023",
+        "label": "Parede · Escritório002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca025",
+        "label": "Parede · Escritório003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca027",
+        "label": "Parede · Escritório004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca029",
+        "label": "Parede · Escritório005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca031",
+        "label": "Parede · Sala e jantar",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca033",
+        "label": "Parede · Sala e jantar001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca035",
+        "label": "Parede · Sala e jantar002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca037",
+        "label": "Parede · Cozinha",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca039",
+        "label": "Parede · Cozinha001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca041",
+        "label": "Parede · Lavanderia",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca043",
+        "label": "Parede · Lavanderia001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca045",
+        "label": "Parede · Banheiro",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca047",
+        "label": "Parede · Banheiro001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca049",
+        "label": "Parede · Banheiro002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca051",
+        "label": "Parede · Banheiro003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca053",
+        "label": "Parede · Banheiro004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca055",
+        "label": "Parede · Banheiro005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca057",
+        "label": "Parede · Quarto005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca059",
+        "label": "Parede · Quarto006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca061",
+        "label": "Parede · Quarto007",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca063",
+        "label": "glass",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca064",
+        "label": "box",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca065",
+        "label": "glass001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca066",
+        "label": "box001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca067",
+        "label": "glass002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca068",
+        "label": "box002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca069",
+        "label": "glass003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca070",
+        "label": "box003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca071",
+        "label": "glass004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca072",
+        "label": "box004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca073",
+        "label": "door",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca074",
+        "label": "door001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca075",
+        "label": "door002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca076",
+        "label": "door003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca077",
+        "label": "Sofá Bonnie SoftGel · Cama inBox",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca078",
+        "label": "Sofá Bonnie SoftGel · Cama inBox001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca079",
+        "label": "Sofá Bonnie SoftGel · Cama inBox002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca080",
+        "label": "Sofá Bonnie SoftGel · Cama inBox003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca081",
+        "label": "Sofá Bonnie SoftGel · Cama inBox004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca082",
+        "label": "Sofá Bonnie SoftGel · Cama inBox005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca083",
+        "label": "Sofá Bonnie SoftGel · Cama inBox006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca084",
+        "label": "Painel liso da TV",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca085",
+        "label": "Uma prateleira acima e outra abaixo da TV",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca086",
+        "label": "Uma prateleira acima e outra abaixo da TV001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca087",
+        "label": "Compartimento da régua",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca088",
+        "label": "TV 50″ · preferência Ambilight",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca089",
+        "label": "Soundbar futura",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca090",
+        "label": "vase",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca091",
+        "label": "Mesa extensível com pedestal fixo",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca092",
+        "label": "Mesa extensível com pedestal fixo001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca093",
+        "label": "Mesa extensível com pedestal fixo002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca094",
+        "label": "Mesa extensível com pedestal fixo003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca095",
+        "label": "Mesa extensível com pedestal fixo004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca096",
+        "label": "Mesa extensível com pedestal fixo005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca097",
+        "label": "Mesa extensível com pedestal fixo006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca098",
+        "label": "Mesa extensível com pedestal fixo007",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca099",
+        "label": "Três cadeiras Lina · guarda na lateral",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca100",
+        "label": "Três cadeiras Lina · guarda na lateral001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca101",
+        "label": "Três cadeiras Lina · guarda na lateral002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca102",
+        "label": "Cama queen existente",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca103",
+        "label": "Cama queen existente001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca104",
+        "label": "Cama queen existente002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca105",
+        "label": "Cama queen existente003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca106",
+        "label": "Cama queen existente004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca107",
+        "label": "Cabeceira estofada clara",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca108",
+        "label": "Dois apoios para celular e óculos",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca109",
+        "label": "Dois apoios para celular e óculos001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca110",
+        "label": "Bancada de trabalho",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca111",
+        "label": "Bancada de trabalho001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca112",
+        "label": "Bancada de trabalho002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca113",
+        "label": "Notebook + dois monitores + CH360",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca114",
+        "label": "Notebook + dois monitores + CH361",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca115",
+        "label": "Notebook + dois monitores + CH362",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca116",
+        "label": "Notebook + dois monitores + CH363",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca117",
+        "label": "Notebook + dois monitores + CH364",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca118",
+        "label": "Notebook + dois monitores + CH365",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca119",
+        "label": "Notebook + dois monitores + CH366",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca120",
+        "label": "Notebook + dois monitores + CH367",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca121",
+        "label": "Notebook + dois monitores + CH368",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca122",
+        "label": "Sofá-cama Daiane cinza-claro",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca123",
+        "label": "Sofá-cama Daiane cinza-claro001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca124",
+        "label": "Sofá-cama Daiane cinza-claro002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca125",
+        "label": "Sofá-cama Daiane cinza-claro003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca126",
+        "label": "Sofá-cama Daiane cinza-claro004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca127",
+        "label": "Sofá-cama Daiane cinza-claro005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca128",
+        "label": "Sofá-cama Daiane cinza-claro006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca129",
+        "label": "Cadeira · cenário Ultra Comfort",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca130",
+        "label": "Prateleira alta dos consoles",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca131",
+        "label": "Samsung 43″ existente",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca132",
+        "label": "PS5 Slim Digital · um aparelho",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca133",
+        "label": "Venax Totale Nero GIII 50 L",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca134",
+        "label": "Cooktop Electrolux KE4GC",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca135",
+        "label": "Cuba Dora + torneira Apurema",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca136",
+        "label": "Cuba Dora + torneira Apurema001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca137",
+        "label": "Cuba Dora + torneira Apurema002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca138",
+        "label": "Geladeira Electrolux IB6S Inox Look",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca139",
+        "label": "Depurador Suggar DE61IX",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca140",
+        "label": "Purificador Electrolux PE12G grafite",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca141",
+        "label": "Pedra, pintura e pegas",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca142",
+        "label": "Plafon quadrado branco",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca143",
+        "label": "Plafon quadrado branco001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca144",
+        "label": "Lixeira comum Biovis Coleta 15 L",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca145",
+        "label": "Lixeira comum Biovis Coleta 15 L001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca146",
+        "label": "Lixeira comum Biovis Coleta 15 L002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca147",
+        "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca148",
+        "label": "Lixeira de recicláveis Tramontina Loop 20 L001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca149",
+        "label": "Lixeira de recicláveis Tramontina Loop 20 L002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca150",
+        "label": "Escorredor Tramontina Mini Plurale grafite",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca151",
+        "label": "Escorredor Tramontina Mini Plurale grafite001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca152",
+        "label": "LG VC4 CV5012PC4 Inox Look",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca153",
+        "label": "Continuidade de pedra e pintura",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca154",
+        "label": "Philips Walita RI9252/91",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca155",
+        "label": "Rinnai E21 GN REU-E211 FEH",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca156",
+        "label": "Rinnai E21 GN REU-E211 FEH001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca157",
+        "label": "Varal vertical com chapa de ocultação",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca158",
+        "label": "Box transparente + Addra Livo Black Matte",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca159",
+        "label": "Enchimento técnico existente",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca160",
+        "label": "Box transparente + Addra Livo Black Matte001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca161",
+        "label": "Box transparente + Addra Livo Black Matte002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca162",
+        "label": "Box transparente + Addra Livo Black Matte003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca163",
+        "label": "Box transparente + Addra Livo Black Matte004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca164",
+        "label": "Box transparente + Addra Livo Black Matte005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca165",
+        "label": "Box transparente + Addra Livo Black Matte006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca166",
+        "label": "Box transparente + Addra Livo Black Matte007",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca167",
+        "label": "Box transparente + Addra Livo Black Matte008",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca168",
+        "label": "Box transparente + Addra Livo Black Matte009",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca169",
+        "label": "Box transparente + Addra Livo Black Matte010",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca170",
+        "label": "Box transparente + Addra Livo Black Matte011",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca171",
+        "label": "Box transparente + Addra Livo Black Matte012",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca172",
+        "label": "Box transparente + Addra Livo Black Matte013",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca173",
+        "label": "Box transparente + Addra Livo Black Matte014",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca174",
+        "label": "Box transparente + Addra Livo Black Matte015",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca175",
+        "label": "Box transparente + Addra Livo Black Matte016",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca176",
+        "label": "Box transparente + Addra Livo Black Matte017",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca177",
+        "label": "Box transparente + Addra Livo Black Matte018",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca178",
+        "label": "Box transparente + Addra Livo Black Matte019",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca179",
+        "label": "Box transparente + Addra Livo Black Matte020",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca180",
+        "label": "Box transparente + Addra Livo Black Matte021",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca181",
+        "label": "Box transparente + Addra Livo Black Matte022",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca182",
+        "label": "Box transparente + Addra Livo Black Matte023",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca183",
+        "label": "Box transparente + Addra Livo Black Matte024",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca184",
+        "label": "Prateleira do box em Branco Itaúnas",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca185",
+        "label": "Cuba Deca Slim branca L.13040.17",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca186",
+        "label": "Addra Arion Black · bica alta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca187",
+        "label": "Addra Arion Black · bica alta001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca188",
+        "label": "Luz frontal fixa inferior - proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca189",
+        "label": "Luz frontal fixa superior - proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca190",
+        "label": "Celite VIP branco · kit 1977230012300",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca191",
+        "label": "Ducha higiênica preta quente e fria",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca192",
+        "label": "Ducha higiênica preta quente e fria001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca193",
+        "label": "Ducha higiênica preta quente e fria002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca194",
+        "label": "Ducha higiênica preta quente e fria003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca195",
+        "label": "Ducha higiênica preta quente e fria004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca196",
+        "label": "Ducha higiênica preta quente e fria005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca197",
+        "label": "Ducha higiênica preta quente e fria006",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca198",
+        "label": "Ducha higiênica preta quente e fria007",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca199",
+        "label": "Ducha higiênica preta quente e fria008",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca200",
+        "label": "Ducha higiênica preta quente e fria009",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca201",
+        "label": "Ducha higiênica preta quente e fria010",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca202",
+        "label": "Ducha higiênica preta quente e fria011",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca203",
+        "label": "Ducha higiênica preta quente e fria012",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca204",
+        "label": "Ducha higiênica preta quente e fria013",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca205",
+        "label": "Ducha higiênica preta quente e fria014",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca206",
+        "label": "Lateral direita016",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca207",
+        "label": "Lateral esquerda",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca208",
+        "label": "Fundo",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca209",
+        "label": "Base · topo 80 mm",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca210",
+        "label": "Divisória",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca211",
+        "label": "Sapateira · três níveis",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca212",
+        "label": "Sapateira · três níveis001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca213",
+        "label": "Sapateira · três níveis002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca214",
+        "label": "Frente · Gaveta de roupa",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca215",
+        "label": "Fundo da caixa",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca216",
+        "label": "Lateral da caixa",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca217",
+        "label": "Lateral da caixa001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca218",
+        "label": "Travessa da caixa",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca219",
+        "label": "Travessa da caixa001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca220",
+        "label": "Frente · Gaveta de roupa001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca221",
+        "label": "Fundo da caixa001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca222",
+        "label": "Lateral da caixa002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca223",
+        "label": "Lateral da caixa003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca224",
+        "label": "Travessa da caixa002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca225",
+        "label": "Travessa da caixa003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca226",
+        "label": "Sapateira · três níveis003",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca227",
+        "label": "Sapateira · três níveis004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca228",
+        "label": "Sapateira · três níveis005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca229",
+        "label": "Frente · Gaveta de roupa002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca230",
+        "label": "Fundo da caixa002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca231",
+        "label": "Lateral da caixa004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca232",
+        "label": "Lateral da caixa005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca233",
+        "label": "Travessa da caixa004",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca234",
+        "label": "Travessa da caixa005",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca384",
+        "label": "Lateral direita028",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca385",
+        "label": "Lateral esquerda012",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca386",
+        "label": "Fundo012",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca387",
+        "label": "Base010",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca388",
+        "label": "Tampo008",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioComumR11",
+        "label": "Apoio interno escritório 1 - proposta18",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioComumR001",
+        "label": "Apoio interno escritório 2 - proposta18",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioComumR002",
+        "label": "Apoio interno escritório 3 - proposta18",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioOpostoR18",
+        "label": "Escritório - segundo18 no divisor das portas2/3; conjunto36",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca266",
+        "label": "Lateral direita018",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca267",
+        "label": "Lateral esquerda002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca268",
+        "label": "Fundo002",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca269",
+        "label": "Base001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca270",
+        "label": "Tampo001",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "FaixaFixaEstudo",
+        "label": "Faixa fixa · proposta, não aprovada",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioComumR003",
+        "label": "Apoio interno cabeceira 1 - proposta18",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioComumR004",
+        "label": "Apoio interno cabeceira 2 - proposta18",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioOpostoR001",
+        "label": "Cabeceira - segundo18 no divisor das portas2/3; conjunto36",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "ApoioOpostoR002",
+        "label": "Cabeceira - apoio18 da vizinha à direita; proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "DivisorApoioVizinhaR03",
+        "label": "Divisor 18 mm de apoio da vizinha - proposta",
+        "scope": "historical_additional_conservative"
+      },
+      {
+        "name": "ApoioPortaBR04",
+        "label": "Lateral 18 mm de apoio da porta B - proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "FaixaQuinaAR04",
+        "label": "Faixa fixa A 142 mm - proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "FaixaQuinaBR04",
+        "label": "Faixa fixa B 124 mm - proposta",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "PlacaL",
+        "label": "Base em L",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "PlacaL001",
+        "label": "Tampo em L",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca255",
+        "label": "Fundo do braço principal",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "Peca256",
+        "label": "Fundo do retorno",
+        "scope": "adopted_participant"
+      },
+      {
+        "name": "LateralApoioPrincipal",
+        "label": "Lateral 18 mm de apoio da principal - proposta R03",
+        "scope": "adopted_participant"
+      }
+    ],
+    "neighbor_fronts": [
+      "FrenteComumR11",
+      "FrenteComumR012",
+      "FrenteComumR013",
+      "FrenteComumR014",
+      "FrenteComumR015",
+      "FrenteComumR016",
+      "FrenteComumR017",
+      "FrenteVizinhaR18",
+      "FrenteSimplesR04",
+      "FrenteSimplesR001"
+    ],
+    "explicit_active_reserve": "FaixaFixaEstudo, 7x18x272 as saved, not replaced by documentary 25mm"
+  },
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Rotulos\\Guedala_Park_R23_Rotulos_Consistentes.FCStd",
+  "source_sha256_before": "cf515686f48057c3b9e025bee28f3ddac735ea73608e401133e5fc842a972eea",
+  "runtime_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "gui_up": false,
+  "elapsed_s": 48.81199999999808,
+  "source_sha256_after": "cf515686f48057c3b9e025bee28f3ddac735ea73608e401133e5fc842a972eea",
+  "source_unchanged": true,
+  "limits": "Amostras discretas; volumes >0,1 mm3 são triagem CAD, não tolerância certificada. Nenhuma prova contínua, carga/fixação/usinagem, batente, fabricação ou homologação interna da ferragem. Corpos fonte avaliados no referencial preservado; reflexão comum conserva contatos. CAD não salvo.",
+  "review_notes": {
+    "stationary_adopted_count": 234,
+    "stationary_historical_extra_count": 1,
+    "historical_extra": "DivisorApoioVizinhaR03 inherited from initial export, not current geometry; no contacts and no rerun",
+    "shape_validation_file": "Shape_validacao_R23.json",
+    "shape_validation_unique_count": 365,
+    "shape_validation_all_ok": true
+  }
+}

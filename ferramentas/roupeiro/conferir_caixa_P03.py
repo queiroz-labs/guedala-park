@@ -71,8 +71,8 @@ def main():
             current_base_y_mm=[3310,3922],closed_base_y_mm=[3310,3940],back_y_mm=[3922,3940],
             meaning='Area geometrica apenas; nao comprova resistencia ou apoio no P01.'),
         incompatible_front_rail=dict(bbox_mm=rail,reservations=overlap,
-            sources=['02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/montar_correr.py',
-                     '02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/ajustar_vias.py'],
+            sources=['ferramentas/componentes/Portas_de_correr/montar_correr.py',
+                     'ferramentas/componentes/Portas_de_correr/ajustar_vias.py'],
             limitation='Reservas hipoteticas de montagem, nao STEP real. Conflito ja na folha traseira fechada; nao simula varredura completa.'),
         status='Verificacao numerica condicional; capacidade20kg ainda nao demonstrada; CAD preservado.')
     (OUT/'Verificacao_caixa_20kg.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

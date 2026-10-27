@@ -89,7 +89,7 @@ meta={
  'P03':('Projeto; oficina','25-27/10','P01_P03_caminho_superior_2026-10-25/README.md'),
  'P04':('Projeto; produto/oficina','25-26/10','Solucoes_marcenaria_sem_tubos_2026-10-25/README.md'),
  'P05':('Projeto; produto/oficina','28/10','Cargas_e_ligacoes_R50_2026-10-25/README.md'),
- 'P06':('Projeto; produto/oficina','28/10','Modelo_FreeCAD/02_Revisoes_e_estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html'),
+ 'P06':('Projeto; produto/oficina','28/10','02_Modelo_3D/Componentes/Gavetas/Cargas_gavetas_R28.html'),
  'P07':('Projeto; produto; responsavel tecnico','28/10','Cargas_e_ligacoes_R50_2026-10-25/README.md'),
  'P08':('Projeto; produto/oficina','28/10','Cozinha/Rodizios_gaveta_2026-10-24/Selecao.md'),
  'P09':('Projeto; produto/oficina','26-28/10','Aereos_suspensao_P09_P11_P12_P17_2026-10-25/README.md'),

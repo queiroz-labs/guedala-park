@@ -1,0 +1,31 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Folgas\\Guedala_Park_R28_Folga_Teto_Proposta.FCStd",
+  "sha256_before": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+  "errors": [],
+  "status": "saved_gap_and_61_global_positions_verified",
+  "module": "Modulo016",
+  "link": "EspelhoPecaR047",
+  "source_bbox_mm": [
+    2549.9999999999995,
+    899.9999999999999,
+    1900.0,
+    2900.0,
+    2900.0000000000005,
+    2450.0
+  ],
+  "current_bbox_mm": [
+    4500.0,
+    899.9999999999999,
+    1900.0,
+    4850.0,
+    2900.0000000000005,
+    2450.0
+  ],
+  "height_mm": 550.0,
+  "proposed_gap_mm": 20.0,
+  "parts_checked": 61,
+  "objects": 5899,
+  "invalid": [],
+  "sha256_after": "2b623c09beddb4d01b581f474468ed707b9b41d8b9dc7cddc1312474fd5ecc99",
+  "source_unchanged": true
+}

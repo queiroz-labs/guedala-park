@@ -1,0 +1,106 @@
+{
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Portas_de_correr\\Guedala_Park_R14_Correr_Simples.FCStd",
+  "corner_vs_changed_maleiro": [
+    {
+      "corner_deg": 0,
+      "sliding_open_leaf": 1,
+      "hits": []
+    },
+    {
+      "corner_deg": 0,
+      "sliding_open_leaf": 2,
+      "hits": []
+    },
+    {
+      "corner_deg": 45,
+      "sliding_open_leaf": 1,
+      "hits": []
+    },
+    {
+      "corner_deg": 45,
+      "sliding_open_leaf": 2,
+      "hits": []
+    },
+    {
+      "corner_deg": 86,
+      "sliding_open_leaf": 1,
+      "hits": []
+    },
+    {
+      "corner_deg": 86,
+      "sliding_open_leaf": 2,
+      "hits": []
+    }
+  ],
+  "corner_targets": 34,
+  "maleiro_targets": 24,
+  "reopening_checks": [
+    {
+      "control": "ControleCorrerR14",
+      "input_mm": 965.0,
+      "placement_mm": [
+        985.0,
+        6.0,
+        90.0
+      ],
+      "expected_x": 985,
+      "expression_ok": true,
+      "leaf_valid": true,
+      "leaf_state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "control": "ControleCorrerR001",
+      "input_mm": 965.0,
+      "placement_mm": [
+        20.0,
+        44.0,
+        90.0
+      ],
+      "expected_x": 20,
+      "expression_ok": true,
+      "leaf_valid": true,
+      "leaf_state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "control": "ControleCorrerR002",
+      "input_mm": 640.0,
+      "placement_mm": [
+        660.0,
+        6.0,
+        28.0
+      ],
+      "expected_x": 660,
+      "expression_ok": true,
+      "leaf_valid": true,
+      "leaf_state": [
+        "Up-to-date"
+      ]
+    },
+    {
+      "control": "ControleCorrerR003",
+      "input_mm": 640.0,
+      "placement_mm": [
+        20.0,
+        44.0,
+        28.0
+      ],
+      "expected_x": 20,
+      "expression_ok": true,
+      "leaf_valid": true,
+      "leaf_state": [
+        "Up-to-date"
+      ]
+    }
+  ],
+  "inputs_final_mm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "limits": "Seis cenários de encontro com canto R04, somente contra novo maleiro. Não repetição da cinemática R04 nem confirmação dos mecanismos/gabaritos."
+}

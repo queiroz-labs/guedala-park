@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Fonte vigente de versões e pendências, atualizada em 27/10/2026. Limite de 14 KB; detalhes nos READMEs. Componentes/Atual organizado por tema (27/10).
+Fonte vigente de versões e pendências, atualizada em 27/10/2026. Limite de 14 KB; detalhes nos READMEs. Componentes organizado por tema (27/10).
 
 ## O projeto
 

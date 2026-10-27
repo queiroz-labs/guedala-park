@@ -1,0 +1,92 @@
+[
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Equipamentos\\Guedala_Park_R17_Equipamentos.FCStd",
+    "bytes": 23092667,
+    "zip_bad_member": null,
+    "entries": 8695,
+    "Document_xml_bytes": 13275335,
+    "sha256": "830995daf3121c2ef1973b35866a13707ee8ffe405ef64ba2ac8c7ceed7d9a2a",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Banco\\Guedala_Park_R16_Banco_Simples.FCStd",
+    "bytes": 23056041,
+    "zip_bad_member": null,
+    "entries": 8592,
+    "Document_xml_bytes": 13127865,
+    "sha256": "988509ca59b8a7525a2f6d231c36b1179d242ddd551b5b955d51c9ea534278a4",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Banco\\Folha_Detalhe_R16.FCStd",
+    "bytes": 102506,
+    "zip_bad_member": null,
+    "entries": 228,
+    "Document_xml_bytes": 98011,
+    "sha256": "02bcc4d64141c003e5224f3b4d6a0a7416304e027d3f304ea12e214eb67f8f80",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Banco\\BebidasBalde_Detalhe_R16.FCStd",
+    "bytes": 97700,
+    "zip_bad_member": null,
+    "entries": 228,
+    "Document_xml_bytes": 98108,
+    "sha256": "8918d5fe5da8d139d83fa92ccde996a50f77ba69e303989796ecd33ff09d9061",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Apoios\\Detalhe_Escritorio_R11.FCStd",
+    "bytes": 2247210,
+    "zip_bad_member": null,
+    "entries": 303,
+    "Document_xml_bytes": 129151,
+    "sha256": "907a15818ac8a5839171c2437619f0eab2b515bd6c9ccba84a1f4418021c8523",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Canto\\Canto_simples_R04\\Fontes_STEP_Simples.FCStd",
+    "bytes": 265494,
+    "zip_bad_member": null,
+    "entries": 38,
+    "Document_xml_bytes": 34711,
+    "sha256": "03e17ae72c0627f7a0d04e1b9f06a7884f65d5317d8e331c6a4de7b72eca5403",
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Estudos\\Portas_R09_2026-10-14\\Detalhe_G1_G2_R09.FCStd",
+    "bytes": 1022405,
+    "zip_bad_member": null,
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Complementos\\03_Recursos\\output\\Guedala_Park_R01.FCStd",
+    "bytes": 746745,
+    "zip_bad_member": null,
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Gaveta_rodas\\Detalhe_rodas_Fechada_R13.FCStd",
+    "bytes": 96626,
+    "zip_bad_member": null,
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Banheiro\\Detalhe_Banheiro_Aberto60_R12.FCStd",
+    "bytes": 2820106,
+    "zip_bad_member": null,
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Portas_de_correr\\Roupeiro_Detalhe_R14.FCStd",
+    "bytes": 91138,
+    "zip_bad_member": null,
+    "ok": true
+  },
+  {
+    "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Gavetas\\Fontes_MOVENTO.FCStd",
+    "bytes": 268990,
+    "zip_bad_member": null,
+    "ok": true
+  }
+]

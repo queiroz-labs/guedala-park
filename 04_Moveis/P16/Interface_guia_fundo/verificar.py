@@ -16,7 +16,7 @@ for r in g['P16_bores']:
 with zipfile.ZipFile(d['source'])as z:assert z.testzip()is None
 for p in re.findall(r'\]\(([^)]+)\)',(HERE/'README.md').read_text(encoding='utf8')):
  if p!='Verificacao.json' and not p.startswith(('http','#')):assert (HERE/p).exists(),p
-pdf=HERE.parent/'Modelo_FreeCAD/02_Revisoes_e_estudos/Montagem_R07_2026-10-14/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF'
+pdf=HERE.parents[2]/'02_Modelo_3D/Componentes/Montagem/Fabricacao_corrigida/productionDrawings/MOVENTO-Gaveta-Sem-reling-40-kg-Comprimen.PDF'
 out=dict(pairs=8,positive_pairs=4,positive_components=18,under_bottom_components=16,rear_bore_components=2,nominal_bores=4,
  official_G2_same_region_pattern=True,official_drawing_pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
  source_hash_crc=True,input_hashes=True,links=True,physical_tests=0,wood_or_guide_modified=False,

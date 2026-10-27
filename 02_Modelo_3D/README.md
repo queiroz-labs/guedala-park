@@ -115,7 +115,7 @@ Detalhe linha a linha: [Alteracoes_R52.json](Alteracoes_R52.json) · [Diferencas
 
 Formato do fundo P01, divergência 100/300 mm do micro-ondas, interface guia–fundo P16, ferragens reais, ligações, suspensão, massa e estabilidade dos apoios e capacidade do banco. Os estudos ficam em [04_Moveis](../04_Moveis/README.md) e não estão incorporados ao modelo.
 
-Os relatórios históricos em `Componentes/Estudos/` preservam os caminhos antigos das referências removidas, com aviso visível. Para rastrear essas evidências, consulte o histórico do Git e a tag `antes-reorganizacao`; os relatórios não substituem o modelo vigente.
+As evidências citadas estão em [Componentes por assunto](Componentes/README.md). Scripts de origem ficam em `ferramentas/componentes/`. Material sem uso vigente é recuperável no Git e na tag `antes-reorganizacao`; estudos históricos não substituem o modelo vigente.
 
 ## Arquivos desta pasta
 
@@ -125,7 +125,7 @@ Os relatórios históricos em `Componentes/Estudos/` preservam os caminhos antig
 | `Comparacao_colisoes_R51_R52.json` | Colisões antes e depois |
 | `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
 | `Historico/` | Estudos R46–R49 que o site ainda referencia; os binários R45 e R48 foram removidos em 26/10/2026 (recuperáveis no git) |
-| `Componentes/` | Evidências por tema; grupo Atual reorganizado sem pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
+| `Componentes/` | Evidências por tema; Atual e Estudos reorganizados sem pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
 
 ## Contadores históricos para rastreabilidade
 

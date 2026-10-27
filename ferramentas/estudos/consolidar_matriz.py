@@ -26,7 +26,7 @@ EVIDENCE = {
  'P04':'Aereos_suspensao/README.md', 'P12':'P12/README.md', 'P17':'P17/Base_fundo_ligacoes/README.md',
  'P05':'Cargas_e_ligacoes/README.md','P07':'Cargas_e_ligacoes/README.md','P10':'Cargas_e_ligacoes/README.md',
  'P18':'Cargas_e_ligacoes/README.md','P19':'Cargas_e_ligacoes/README.md',
- 'P06':'../02_Modelo_3D/Componentes/Estudos/Cargas_gavetas_R28_2026-10-14/Cargas_gavetas_R28.html',
+ 'P06':'../02_Modelo_3D/Componentes/Gavetas/Cargas_gavetas_R28.html',
  'P08':'P08/README.md',
  'P14':'P14/Reacoes_e_operacao/README.md','P16':'P16/Interface_guia_fundo/README.md','P20':'P20/Assento_fechado/README.md',
 }

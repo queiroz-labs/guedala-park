@@ -823,7 +823,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             },
             {
               "title": "Rometal RO62: kits",
@@ -846,7 +846,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -864,7 +864,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -882,7 +882,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -900,7 +900,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -918,7 +918,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -1051,7 +1051,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+        "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
         "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
         "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
         "04_Moveis/Inventario_dimensional/Inventario/Varoes.md",
@@ -1077,7 +1077,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             },
             {
               "title": "Rometal RO62: kits",
@@ -1100,7 +1100,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
@@ -1118,7 +1118,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
@@ -1136,7 +1136,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -1154,7 +1154,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -1172,7 +1172,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -1258,7 +1258,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "nominalCenters": [
@@ -1315,7 +1315,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "nominalCenters": [
@@ -1373,7 +1373,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "id": "P01-F03"
@@ -2606,7 +2606,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -2646,7 +2646,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -3240,7 +3240,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             },
             {
               "title": "Rometal RO62: kits",
@@ -3263,7 +3263,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -3281,7 +3281,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -3299,7 +3299,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -3317,7 +3317,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -3335,7 +3335,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "explanation": ""
@@ -3412,7 +3412,7 @@ const FABRICATION_DATA = {
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
-        "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/README.md",
+        "02_Modelo_3D/Componentes/Portas_de_correr/Correr_R14_README.md",
         "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
         "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
         "04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md",
@@ -3436,7 +3436,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             },
             {
               "title": "Rometal RO62: kits",
@@ -3459,7 +3459,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
@@ -3477,7 +3477,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "comprimento de corte após caixa esquadrejada",
@@ -3495,7 +3495,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -3513,7 +3513,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -3531,7 +3531,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -3583,7 +3583,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "nominalCenters": [
@@ -3640,7 +3640,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "nominalCenters": [
@@ -3698,7 +3698,7 @@ const FABRICATION_DATA = {
               "title": "Rometal RO62, manual 18341/rev 03",
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
-              "local": "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Fontes/Rometal_RO62_manual.pdf"
+              "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
             }
           ],
           "id": "P03-F03"
@@ -4489,7 +4489,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -4529,7 +4529,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -4569,7 +4569,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -4609,7 +4609,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -5634,7 +5634,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -5674,7 +5674,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -9019,7 +9019,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -9059,7 +9059,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -10009,7 +10009,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -10053,7 +10053,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -11540,7 +11540,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -11580,7 +11580,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -12799,7 +12799,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -12839,7 +12839,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -14584,7 +14584,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -14624,7 +14624,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -16834,7 +16834,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -16874,7 +16874,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -16914,7 +16914,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -16954,7 +16954,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -19189,7 +19189,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [
@@ -19233,7 +19233,7 @@ const FABRICATION_DATA = {
               "title": "Blum 110°: planejamento do recobrimento e caneco",
               "url": "https://publications.blum.com/2024/catalogue/en/77/",
               "page": "77",
-              "local": "02_Modelo_3D/Componentes/Estudos/Dobradicas_R10_2026-10-14/Fontes/Blum_110_planejamento.pdf"
+              "local": "02_Modelo_3D/Componentes/Dobradicas/Fontes/Blum_110_planejamento.pdf"
             }
           ],
           "nominalCenters": [

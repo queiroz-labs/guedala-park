@@ -214,8 +214,8 @@
       }
     },
     "sources": [
-      "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/montar_correr.py",
-      "02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/ajustar_vias.py"
+      "ferramentas/componentes/Portas_de_correr/montar_correr.py",
+      "ferramentas/componentes/Portas_de_correr/ajustar_vias.py"
     ],
     "limitation": "Reservas hipoteticas de montagem, nao STEP real. Conflito ja na folha traseira fechada; nao simula varredura completa."
   },

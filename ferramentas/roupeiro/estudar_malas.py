@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'04_Moveis/P03'
 GEO=ROOT/'04_Moveis/Proximas_decisoes/P01_P03/Geometria_P02_individual.json'
-MONT=ROOT/'02_Modelo_3D/Componentes/Estudos/Correr_R14_2026-10-14/Montagem_R14.json'
+MONT=ROOT/'02_Modelo_3D/Componentes/Portas_de_correr/Montagem_R14.json'
 D=json.loads(GEO.read_text(encoding='utf-8')); M=json.loads(MONT.read_text(encoding='utf-8'))
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(ROOT/D['source'])==D['source_sha256']

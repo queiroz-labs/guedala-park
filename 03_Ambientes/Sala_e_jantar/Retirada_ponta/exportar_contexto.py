@@ -2,10 +2,10 @@ import FreeCAD as App, Part
 from pathlib import Path
 import json,hashlib
 p=Path(__file__).resolve().parent
-base=p.parents[1]/'Modelo_FreeCAD/02_Revisoes_e_estudos'
+base=Path(__file__).resolve().parents[3]/'02_Modelo_3D/Componentes'
 d=App.getDocument('Guedala_Park_R30_Juntas_Rotulos')
-bank=json.loads((base/'Banco_R16_2026-10-14/Montagem_R16.json').read_text(encoding='utf-8'))
-old=json.loads((base/'Revisao_solicitada_R28_2026-10-14/Medidas_atual_R28.json').read_text(encoding='utf-8'))
+bank=json.loads((base/'Banco/Montagem_R16.json').read_text(encoding='utf-8'))
+old=json.loads((base/'Banco/Medidas_atual_R28.json').read_text(encoding='utf-8'))
 names=set(r['object'] for r in old['items'])
 names.update(o.Name for o in d.getObject('ParedesInteiras').Group)
 names.update(['CadeiraLinaR30_1','CadeiraLinaR30_2','CadeiraLinaR30_3','FundoTanqueR29'])

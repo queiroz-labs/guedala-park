@@ -1,0 +1,24 @@
+{
+  "label": "Guedala Park - R03 - canto com CAD Blum e articulacoes reconstruidas",
+  "principal_real_deg": -3.979039320256561e-13,
+  "invalid_objects": [],
+  "invalid_shapes": [],
+  "native_motion_expressions": true,
+  "principal_joints": 7,
+  "main_links": 6,
+  "fold_adjustment_locked": true,
+  "fronts_study_mm": {
+    "A": [
+      396,
+      306,
+      18
+    ],
+    "B": [
+      396,
+      306,
+      18
+    ]
+  },
+  "status": "Cotas, apoio e ajustes sao proposta; cinemática reconstruida, sem homologacao fabricante.",
+  "file": "C:\\Users\\Elias\\Documents\\PROJETOS\\Guedala park\\guedala-park\\02_Modelo_3D\\Componentes\\Canto\\Cinematica_R03\\Guedala_Park_R03_Ferragens_Canto.FCStd"
+}
