@@ -83,7 +83,7 @@ Busca nos Markdown de entrada e referências cruzadas em 26/10/2026: encaminhame
 
 | Referência sem substituição integral demonstrada | Pendência para Elias/projeto |
 |---|---|
-| `Dossie_marcenaria_R45.html` e [consulta R12](../ferramentas/site/Marcenaria_R12_2026-10-23/README.md) | Nome/base R45 com trechos atualizados; usar fichas e estado como entrada. Não renomeado, apagado nem tratado como cópia integral da R52. |
+| `Dossie_marcenaria_R45.html` e [consulta R12](../ferramentas/site/fabrication/Consulta/README.md) | Nome/base R45 com trechos atualizados; usar fichas e estado como entrada. Não renomeado, apagado nem tratado como cópia integral da R52. |
 | [Planta mobiliada R02](../03_Ambientes/Planta_mobiliada/README.md), [programa R01](../01_Programa_e_decisoes/Programa_de_necessidades.md) e pranchas R00 | Documentam geometria R45; sem artefato substituto demonstrado nesta tarefa. Conferir vistas contra R52 numa integração autorizada; não trocar a revisão escrita sobre desenhos antigos. |
 | [Painel de decisões](../01_Programa_e_decisoes/Painel_de_decisoes.md) | Cabeçalho de pacote R18 e blocos datados chamados “vigente R44/R43”; ler como registro histórico onde superado pelo estado. Falta conciliar pacote e reorganizar a entrada sem perder fontes. |
 | [Registro de publicação](../ferramentas/site/Publicacao_GitHub_Pages.md) | “Revisão vigente R05” pertence ao registro de setembro; não é confirmação da versão online atual nem autorização de push nesta tarefa. |

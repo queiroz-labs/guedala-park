@@ -1,5 +1,5 @@
 import FreeCAD as A, json, pathlib, zipfile, xml.etree.ElementTree as ET, hashlib, re
-root=pathlib.Path(__file__).resolve().parents[3]
+root=pathlib.Path(__file__).resolve().parents[4]
 out=root/'ferramentas/site/src'
 source=root/'04_Moveis/Inventario_dimensional/Guedala_Park_R45_Consolidado.FCStd'
 before=hashlib.sha256(source.read_bytes()).hexdigest()

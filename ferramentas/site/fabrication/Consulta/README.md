@@ -3,7 +3,7 @@
 Site: https://queiroz-labs.github.io/guedala-park/
 Figma: https://www.figma.com/design/ChOvYeL6ULhHR3GEGgcukZ?node-id=2-2
 
-Consulta por seis ambientes e 20 módulos, visualização 3D/2,5D, isolamento e seleção de peças, medidas em milímetros, ferragens, acabamentos, impressão e CSV. Biblioteca com fontes explícitas e arquivos FreeCAD. Para consulta vigente, usar as [fichas R14](../../../06_Entregas/Fichas_fabricacao/index.html) e o [estado atual](../../../ESTADO_ATUAL.md). `06_Entregas/Dossie_marcenaria_R45.html` é o caminho anterior; este README documenta a base R12/R45, sem demonstrar atualização integral para R52.
+Consulta por seis ambientes e 20 módulos, visualização 3D/2,5D, isolamento e seleção de peças, medidas em milímetros, ferragens, acabamentos, impressão e CSV. Biblioteca com fontes explícitas e arquivos FreeCAD. Para consulta vigente, usar as [fichas R14](../../../../06_Entregas/Fichas_fabricacao/index.html) e o [estado atual](../../../../ESTADO_ATUAL.md). `06_Entregas/Dossie_marcenaria_R45.html` é o caminho anterior; este README documenta a base R12/R45, sem demonstrar atualização integral para R52.
 
 ## Dados e limites
 
@@ -16,3 +16,7 @@ Execute `python ferramentas/site/preparar_pages.py` na raiz. A saída `.site` é
 ## Verificação
 
 Inspeção visual em desktop e celular (412 px), seleção dos 20 módulos, isolamento, busca documental e download CSV. Verificação estática de JavaScript, links e allowlist documental; relatórios anexos. Os documentos disponíveis não incluem liberação executiva de fabricação: as pendências permanecem explícitas nas fichas.
+
+## Organização e limite de reprodução
+
+Base R12 preservada por citação no README de entregas; exportação e diagnóstico permanecem juntos, sem pasta datada. A R13 sem referências foi removida, recuperável no Git. O exportador depende da R45 histórica, já ausente do checkout: não executá-lo sobre a R53 nem usá-lo para substituir os dados vigentes. Pergunta para eventual reprodução: qual arquivo R45 deve ser recuperado?
