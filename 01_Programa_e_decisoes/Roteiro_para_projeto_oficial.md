@@ -8,10 +8,10 @@ A referência75% é a avaliação anterior do projeto. Nesta revisão, o ganho d
 
 | Frente solicitada | Resultado verificável27/10 | Situação pelo aceite | O que falta / quem resolve |
 |---|---|---|---|
-| 1. Orçamento na verba | [D01: três cenários](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), R$119.969,74 /119.761,18 /119.119,74, com luz parcial5.120,52; TV e reserva mantidas | **Aguardando Elias e cotações; não fechado** | D01 escolhe escopo de cotação. R$17.317,45 de negociação não obtida; crédito C04 e inclusãoM03 condicionados. Frete/acessórios faltantes não valem zero |
-| 2. Chapas e cores | [Catálogo comercial](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026): fabricantes, nomes/texturas,15/18mm e códigos disponíveis | **Proposto, depende de amostra; D02** | Escolher amostras; confirmar SKU de fábrica ausente, BrancoTX por fornecedor e LouroFreijóPoro18; comparar fisicamente |
+| 1. Orçamento na verba | [D01: três cenários](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), R$119.969,74 /119.761,18 /119.119,74, com luz parcial5.120,52; TV e reserva mantidas | **Aguardando Elias e cotações; não fechado** | D01-C escolhido para cotação por Elias,27/10/2026; não é contratação. R$17.317,45 de negociação não obtida; crédito C04 e inclusãoM03 condicionados. Frete/acessórios faltantes não valem zero |
+| 2. Chapas e cores | [Catálogo comercial](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026): fabricantes, nomes/texturas,15/18mm e códigos disponíveis | **Proposto, depende de amostra; D02** | Amostras A/C solicitadas por Elias, ainda não enviadas; confirmar SKU de fábrica ausente, BrancoTX por fornecedor e LouroFreijóPoro18; comparar fisicamente |
 | 3. Luminárias | [Lista atualizada](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md):9608 corrigido, preços/fontes, substituições propostas e reconciliação | **Parcial; D03 e IL02–IL09** | WiZ/WiZmote sem SKU nacional conciliado; alternativaElgin perde equivalência de comando; Brilia318939 substitui a SMD sem oferta reconfirmada; âmbar/manuais/compatibilidade/frete pendentes |
-| 4. Planta R01 | [50/50 códigos auditados +3 funções omitidas](../03_Ambientes/Planta_pontos/README.md);127V/GN e comandos; CSV cobre53 funções | **Revisão documental concluída; implantação condicionada** | D04/indireta do quarto; Telca quente/fria; fontes acessíveis com armários até teto; circuitos/posições reais pelo RT. Não é planta executiva |
+| 4. Planta R01 | [50/50 códigos auditados +3 funções omitidas](../03_Ambientes/Planta_pontos/README.md);127V/GN e comandos; CSV cobre53 funções | **Revisão documental concluída; implantação condicionada** | D04 define cabeceira/face inferior, implantação pendente; Telca quente/fria; fontes acessíveis com armários até teto; circuitos/posições reais pelo RT. Não é planta executiva |
 | 5. Amostras e consultas | [Rascunhos R01](Rascunhos_emails.md): amostras, IL02–IL09 e orçamento preliminar com fichas R15 | **Preparação concluída; todos não enviados** | Elias revisa/envia pelos canais oficiais; fornecedores respondem. Nenhuma ordem de compra/fabricação |
 | 6. Roteiro e estado | Este roteiro e [ESTADO_ATUAL](../ESTADO_ATUAL.md) reconciliados, limites e perguntas explícitos | **Atualização concluída; reavaliar após respostas** | Incorporar respostas com citação/data; recalcular preços e progresso. Não transformar silêncio em escolha |
 
@@ -30,14 +30,16 @@ A referência75% é a avaliação anterior do projeto. Nesta revisão, o ganho d
 | Orçamento |60% | [R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md)137.748,11; cenário com luz139.328,63; meta120.000 +reserva10.000 separada |
 | RT e formalização |10% | [Plano de reforma](Plano_de_reforma_NBR16280.md) e consultas; contratar profissional e confirmar requisitos do condomínio |
 
-## Decisões prontas para Elias
+## Respostas D01–D04 — 27/10/2026
 
-Nenhuma resposta a D01–D04 registrada nesta revisão. Valores são os das fontes locais abaixo, consultadas/reconciliadas em27/10; não incluem lacunas explicitadas.
+Fonte: mensagem de Elias nesta conversa, intitulada “Respostas (Elias, 27/10/2026)”.
 
-1. **D01 — Qual faseamento cotar, mantendoTV?** A) adiar tapete/Daiane/cortina escritório (R$119.969,74; sem cama de hóspedes); B) adiar tapete/cortina escritório/painel e prateleirasTV (R$119.761,18; TV com instalação independente); C) adiar os quatro (R$119.119,74; margem880,26). **Recomendação:C para cotação**, maior margem, condicionada à implantação daTV. Todas dependem de negociação17.317,45. [Cortes, efeitos e fontes](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026).
-2. **D02 — Qual amostra off-white priorizar?** A) LumeMatt (R$589,47/chapa18, quente); B) NuvemMatt (R$607,15, cinza sutil); C) AreiaMatt (R$643,98, mais bege). **Recomendação:A**, comparando fisicamente com Arenza/Beige. Preço de amostra/envio a cotar; não é compra de chapa. [Catálogos e ofertas](Caderno_de_especificacoes.md#amostras-e-custo-comparável--d02).
-3. **D03 — Como tratar as gerais smart?** A) manter Jurerê/WiZ aguardando respostas (luz parcialR$5.120,52); B) Elgin só no quarto (R$4.879,03); C) Elgin nas três gerais (R$4.396,05). B/C mudam aparência e não comprovam comando físico equivalente. **Recomendação:A até resposta IL02/03**, preservando requisito; C só se aceitar a mudança de comando e houver solução acessível. [Oferta e diferenças](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md#alternativa-nacional-para-os-três-conjuntos-sem-sku-conciliado--d03).
-4. **D04 — Onde desenvolver a indiretaQ06 sem fresta acima dos armários?** A) cabeceira/face inferior acessível; B) perfil frontal do aéreo; C) decidir após amostra montada. Componentes já provisionados; acréscimos de usinagem/amostra/instalação **a cotar**, sem crédito financeiro atribuído. **Recomendação:A para consulta**, manutenção mais acessível e preservação do fechamento ao teto. [Fonte e limite](../03_Ambientes/Planta_pontos/README.md).
+- **D01 — Elias, 27/10/2026: "C para cotação".** Escopo C para pedir propostas; não autoriza contratar nem comprova descontos.
+- **D02 — Elias, 27/10/2026: "pedir amostras A e C; escolho com a amostra ao lado do Arenza".** Solicitar Lume Matt e Areia Matt; acabamento final proposto, depende de amostra.
+- **D03 — Elias, 27/10/2026: "B — Elgin só no quarto; cozinha/lavanderia/banheiro seguem com interruptor comum".** Elgin 48D18WSRWIFI no quarto; sala/escritório conservam Jurerê/WiZ. Comando físico e dados técnicos ainda pendentes.
+- **D04 — Elias, 27/10/2026: "A — indireta na cabeceira/face inferior acessível".** Direção de implantação Q06 definida; coordenadas, usinagem e custo complementar dependem de compatibilização.
+
+D05 em preparação: caminhos sem descontos presumidos, com perdas de uso e eventual mudança de verba explícitas. D01–D04 deixam de ser perguntas pendentes; respostas comerciais e amostras continuam necessárias.
 
 ## Dependências técnicas — seguir após dados reais
 
