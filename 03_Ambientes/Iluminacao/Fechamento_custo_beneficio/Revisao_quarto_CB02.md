@@ -136,7 +136,7 @@ Antes de adotar, pedir à Shelly confirmação do conjunto Wall Switch 1 + Plus 
 
 **Custo e montagem da alternativa:** [loja oficial europeia](https://www.shelly.com/products/shelly-wall-switch-with-1-button-white), consulta de 26/10: botão €8,90 e Wall Frame 1 €4,90, vendidos separadamente; três conjuntos = **€41,40**, antes de frete/importação. Não foi localizada oferta brasileira vinculada ao conjunto exato que permita fechar custo entregue. Não converter esse valor em orçamento de compra nem presumir encaixe em caixa 4×2/placa Liz: são 70 mm de corpo e outra moldura, com fixação a conferir pelo instalador. Se a troca ocorrer, retirar os três módulos e placas Tramontina (R$57,03); cenário atualizado = **R$4.497,69 + custo entregue dos três conjuntos alternativos + adaptações**, sem duplicação.
 
-**Encaminhamento:** manter Tramontina apenas como provisão condicionada, e Wall Switch 1 como alternativa para cotação/consulta, sem compra. Perguntas exatas, ainda não enviadas: Tramontina — “O 57115/027 é contato seco NA, sem LED/neon, adequado à entrada I1–negativo do Shelly Plus RGBW PM alimentado em 12 V CC? Há limite mínimo de contato ou restrição a esse uso?”; Shelly — “Confirmam o 57115/027 ou o Wall Switch 1 nesse conjunto e no modo dim? Quais limites elétricos do contato e revisão indicada?” A resposta pode fechar o pulsador sem depender das medidas reais; montagem e ensaio continuam em etapa posterior. Não acrescentar relé, resistor ou adaptador elétrico sem exigência documentada.
+**Encaminhamento:** manter Tramontina como provisão condicionada e Wall Switch 1 como alternativa para consulta/cotação. [IL04](#il04--tramontina) e [IL05](#il05--shelly) contêm os rascunhos completos, não enviados. As respostas podem fechar a seleção documental do pulsador antes das medidas reais; montagem e ensaio continuam posteriores. Não acrescentar relé, resistor ou adaptador elétrico sem exigência documentada.
 
 | Custo de referência | Com WT1 | Com Shelly | Diferença |
 |---|---:|---:|---:|
@@ -152,13 +152,15 @@ Shelly **R$223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tro
 
 ## Consultas aos fornecedores — rascunhos não enviados
 
-Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos fornecedores da SceneSwitch, WiZ e Jurerê, pedindo as etiquetas e manuais que faltam, sem enviar ainda”. Textos para copiar após revisão; nenhum envio, pedido de compra ou reserva de estoque realizado. Destinatário/canal deve ser conferido antes de eventual envio. Não anexar o projeto completo ou dados pessoais.
+Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos fornecedores da SceneSwitch, WiZ e Jurerê, pedindo as etiquetas e manuais que faltam, sem enviar ainda”. IL04–IL05 acrescentadas a pedido de Elias em 26/10/2026: “preparando as consultas à Tramontina e à Shelly […] sem enviar ainda”. Textos para copiar após revisão; nenhum envio, pedido de compra ou reserva de estoque realizado. Destinatário/canal deve ser conferido antes de eventual envio. Não anexar o projeto completo ou dados pessoais.
 
 | Consulta | Destino sugerido | Situação |
 |---|---|---|
 | IL01 — SceneSwitch | Abastece, responsável pela oferta; suporte Philips/Signify se faltar documentação | Rascunho; não enviada; sem resposta |
 | IL02 — WiZ | Abastece, responsável pela oferta; suporte WiZ/Signify para condições de instalação | Rascunho; não enviada; sem resposta |
 | IL03 — Jurerê | Vendedor responsável pelo anúncio na Leroy Merlin; suporte Taschibra para desenho/manual | Rascunho; não enviada; sem resposta |
+| IL04 — Tramontina | Suporte técnico Tramontina Eletrik | Rascunho; não enviada; sem resposta |
+| IL05 — Shelly | Suporte técnico Shelly; revenda para cotação após identificação | Rascunho; não enviada; sem resposta |
 
 ### IL01 — SceneSwitch
 
@@ -203,9 +205,40 @@ Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois s
 
 Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
 
+### IL04 — Tramontina
+
+**Assunto: Pulsador 57115/027 — contato de sinal em controlador alimentado em 12 V CC**
+
+Olá! Estamos avaliando **três pulsadores Tramontina 57115/027 (57115027), brancos**, para três conjuntos independentes de iluminação. Cada pulsador comandará a entrada **I1**, fechando contato com o **negativo (⊥) da mesma fonte**, de um **Shelly Plus RGBW PM, modelo SNDC-0D4P10WW**, alimentado em **12 V CC**. O pulsador não acionará a fita diretamente e não receberá rede de 127 V.
+
+A [ficha DT-019 Rev.01, p.5](https://assets.tramontina.com.br/upload/tramon/imagens/ELT/57115027FIP001.pdf) confirma retorno por mola e apresenta especificação 10 A/250 V CA. Para essa aplicação de sinal, poderiam esclarecer:
+
+1. O 57115/027 possui contato seco **normalmente aberto e momentâneo**, sem LED, neon ou eletrônica incorporada? Enviar ficha/manual da revisão atual e confirmar o código comercial correspondente.
+2. O fabricante admite seu uso em entrada de comando CC de baixa corrente? Informar limites aplicáveis, inclusive tensão/corrente mínimas de contato, se houver, e restrições de uso contínuo nessa função. A fonte do controlador é 12 V CC; ainda solicitamos à Shelly os valores efetivos presentes no contato, que não estamos presumindo iguais aos da fonte.
+3. É possível confirmar a adequação ao conjunto descrito com os dados disponíveis? Se depender dos valores de entrada da Shelly, indicar exatamente quais dados faltam para sua avaliação, sem tratar a capacidade de 10 A em CA como comprovação de desempenho em sinal CC.
+4. Se o 57115/027 não for indicado, existe outro pulsador mecânico sem iluminação, preferencialmente compatível com placa Liz 57106/204 e caixa 4×2, documentado para essa aplicação? Informar SKU, ficha e eventuais acessórios diferentes.
+
+Referência do controlador e esquema de ligação: [Shelly Plus RGBW PM — modo light](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm). A função desejada é toque curto para ligar/desligar e pressão longa para regular o brilho, mantendo o contato fechado durante a pressão. Pedimos resposta técnica escrita vinculada ao SKU/revisão; esta consulta não é pedido de compra. Obrigado!
+
+### IL05 — Shelly
+
+**Assunto: Plus RGBW PM em 12 V CC — pulsador Tramontina e alternativa Wall Switch 1**
+
+Olá! Estamos avaliando **três Shelly Plus RGBW PM, SNDC-0D4P10WW**, cada um com sua própria fonte 12 V CC e fita monocromática. A proposta usa uma saída O1 por controlador e um pulsador momentâneo entre **I1 e negativo (⊥)**, conforme o [diagrama light da documentação oficial](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm). Não haverá rede de 127 V no contato do pulsador.
+
+Queremos validar duas opções: **Tramontina 57115/027** e **Shelly Wall Switch with 1 Button branco, cabeado**, sem confundir com BLU Button ou comandos a bateria. Poderiam informar:
+
+1. Para o Plus RGBW PM alimentado em 12 V CC, quais são a tensão efetiva sobre I1–⊥ com contato aberto e a corrente pelo contato fechado, com suas tolerâncias/limites? Há exigência de carga mínima, resistência máxima do contato ou restrição de comprimento do cabo do pulsador? Não estamos usando os 4 A da saída como corrente da entrada.
+2. Confirmam a ligação I1–⊥ e a configuração **perfil light, entrada input:0 como button e saída light:0 em dim** para toque curto ligar/desligar e pressão longa regular? Informar revisão de hardware/firmware e instruções aplicáveis, inclusive eventual diferença de comportamento entre os dois pulsadores.
+3. O Tramontina 57115/027, cuja [ficha DT-019 Rev.01](https://assets.tramontina.com.br/upload/tramon/imagens/ELT/57115027FIP001.pdf) indica retorno por mola e 10 A/250 V CA, pode ser utilizado se confirmado como contato seco NA, sem iluminação? Se não puderem validar esse SKU, especificar os requisitos elétricos que devemos encaminhar à Tramontina.
+4. O **Wall Switch 1** é eletricamente indicado para esse controlador, ligação e função momentânea? A [documentação do acessório](https://www.shelly.com/blogs/documentation/shelly-wall-switch-1-2-and-4) informa limites de 12 V CC/50 mA; confirmar que o contato permanece dentro deles na aplicação proposta. Favor separar compatibilidade elétrica da compatibilidade dos suportes mecânicos.
+5. Para a opção Wall Switch 1 branca, enviar **SKU/EAN do botão, moldura e suporte necessários**, manual legível e desenho de montagem com furação/profundidade. Existe montagem documentada em caixa brasileira 4×2? Caso exija outra caixa/adaptação, identificar a solução; não presumimos encaixe com a placa Tramontina Liz. Indicar canal de fornecimento no Brasil para cotar três conjuntos completos, discriminando itens, garantia, prazo e frete posteriormente.
+
+Se faltarem informações para confirmar o conjunto, favor listá-las. Precisamos de resposta vinculada aos códigos e documentos/revisões; não estamos solicitando ensaio nem declarando compatibilidade já comprovada. Esta é uma consulta técnica prévia, sem pedido de compra. Obrigado!
+
 ### Como conferir as respostas
 
-Registrar em IL01/IL02/IL03 a data, o código efetivamente respondido e o documento/página recebidos; só marcar “enviada” após envio real. Resposta genérica “serve em E27” não resolve fechamento, orientação e condições térmicas. Se documentos divergirem, manter a pendência e pedir correção vinculada ao lote. Evidência documental não substitui conferência física/ensaio, e eventual proibição de uso não deve ser contornada por ensaio. Dados pessoais e mensagens integrais de terceiros ficam fora do repositório público; registrar aqui apenas a conclusão técnica e fontes publicáveis.
+Registrar em IL01–IL05 a data, o código efetivamente respondido e o documento/página recebidos; só marcar “enviada” após envio real. Para IL01–IL03, resposta genérica “serve em E27” não resolve fechamento, orientação e condições térmicas. Para IL04–IL05, cruzar requisitos de entrada da Shelly com condições de contato da Tramontina; “suporta 250 V” ou “o suporte encaixa” não resolve o conjunto elétrico. Registrar cada opção separadamente como confirmada documentalmente, restrita ou ainda pendente; se a resposta solicitar dados adicionais, manter a pendência. Cotação e encaixe do Wall Switch permanecem separados da confirmação elétrica. Se documentos divergirem, manter a pendência e pedir correção vinculada ao lote. Evidência documental não substitui conferência física/ensaio, e eventual proibição de uso não deve ser contornada por ensaio. Dados pessoais e mensagens integrais de terceiros ficam fora do repositório público; registrar aqui apenas a conclusão técnica e fontes publicáveis.
 
 ## Imagens
 
