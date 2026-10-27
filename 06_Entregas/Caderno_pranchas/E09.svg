@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<line x1="25" y1="180" x2="122.0" y2="180" stroke="#263238" stroke-width="0.5"/>
+<line x1="25" y1="76.0" x2="122.0" y2="76.0" stroke="#94621c" stroke-width="0.4"/>
+<line x1="17" y1="180" x2="17" y2="76.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="16" y1="181" x2="18" y2="179" stroke="#94621c" stroke-width="0.2"/>
+<line x1="16" y1="77.0" x2="18" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
+<text x="18.0" y="127.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="25" y="71.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
+<text x="213" y="40" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">MÓDULO / L / BASE / TOPO R53 / FOLGA TETO</text>
+<rect x="32.0" y="82.0" width="80.0" height="22.0" stroke="#405863" fill="none" stroke-width="0.35"/>
+<rect x="32.0" y="82.0" width="0.72" height="22.0" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="111.28" y="82.0" width="0.72" height="22.0" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.72" y="82.72" width="78.56" height="20.56" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.72" y="103.28" width="78.56" height="0.72" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.72" y="82.0" width="78.56" height="0.72" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="52.0" y="82.72" width="0.72" height="20.56" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.0" y="82.72" width="0.72" height="20.56" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="92.0" y="82.72" width="0.72" height="20.56" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.08" y="82.04" width="19.84" height="21.92" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.8" y="100.498" width="0.5169999999999981" height="0.6039999999999963" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.8404" y="100.445" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.5276" y="100.509" width="1.0071199999999998" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.3256" y="100.654" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.30064" y="99.66" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.72" y="99.65668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.8" y="84.898" width="0.5169999999999981" height="0.6040000000000145" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.8404" y="84.845" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.5276" y="84.90899999999999" width="1.0071199999999998" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.3256" y="85.054" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.30064" y="84.06" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="32.72" y="84.05668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="52.08" y="82.04" width="19.84" height="21.92" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.68299999999999" y="100.498" width="0.5169999999999981" height="0.6039999999999963" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.42044" y="100.445" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.46528" y="100.509" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.79364" y="100.654" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.21011999999999" y="99.66" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.94" y="99.65668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.68299999999999" y="84.898" width="0.5169999999999981" height="0.6040000000000145" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.42044" y="84.845" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.46528" y="84.90899999999999" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.79364" y="85.054" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.21011999999999" y="84.06" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="70.94" y="84.05668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.08" y="82.04" width="19.84" height="21.92" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.8" y="100.498" width="0.5169999999999981" height="0.6039999999999963" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.8404" y="100.445" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.5276" y="100.509" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.32560000000001" y="100.654" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.30064" y="99.66" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.72" y="99.65668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.8" y="84.898" width="0.5169999999999981" height="0.6040000000000145" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.8404" y="84.845" width="0.7391600000000017" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.5276" y="84.90899999999999" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.32560000000001" y="85.054" width="0.8807600000000002" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.30064" y="84.06" width="1.4892399999999997" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="72.72" y="84.05668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="92.08" y="82.04" width="19.84" height="21.92" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.68299999999999" y="100.498" width="0.5170000000000072" height="0.6039999999999963" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.42044" y="100.445" width="0.7391599999999926" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.46528" y="100.509" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.79364" y="100.654" width="0.8807600000000093" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.21012" y="99.66" width="1.4892399999999908" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.94" y="99.65668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.68299999999999" y="84.898" width="0.5170000000000072" height="0.6040000000000145" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.42044" y="84.845" width="0.7391599999999926" height="0.71" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.46528" y="84.90899999999999" width="1.0071199999999954" height="0.5820000000000073" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.79364" y="85.054" width="0.8807600000000093" height="0.29200000000000725" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.21012" y="84.06" width="1.4892399999999908" height="2.28" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="110.94" y="84.05668" width="0.34" height="2.286640000000007" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<rect x="71.28" y="82.72" width="0.72" height="20.56" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
+<text x="33.0" y="101.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">P17</text>
+<text x="213" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">P17</text>
+<text x="247" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2000 N</text>
+<text x="282" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1900 N</text>
+<text x="321" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2450 N</text>
+<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">150 N</text>
+<line x1="32.0" y1="188" x2="112.0" y2="188" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="31.0" y1="189" x2="33.0" y2="187" stroke="#94621c" stroke-width="0.2"/>
+<line x1="111.0" y1="189" x2="113.0" y2="187" stroke="#94621c" stroke-width="0.2"/>
+<text x="73.0" y="187.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2000 N</text>
+<line x1="32.0" y1="82.0" x2="112.0" y2="82.0" stroke="#25658c" stroke-width="0.6" stroke-dasharray="1.5 1"/>
+<text x="213" y="126" font-family="Arial, sans-serif" font-size="2.5" fill="#25658c">P17 H estudo = 550 N; base fixa / topo segue PD</text>
+<text x="25" y="217" font-family="Arial, sans-serif" font-size="3" fill="#263238">Traço azul: topo paramétrico; caixas cinza: R53 fixa.</text>
+<text x="25" y="223" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajuste dimensional não define corte, fixação ou montagem.</text>
+<text x="213" y="185" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">PONTOS DO AMBIENTE: altura / ver PT1-PT2</text>
+<text x="213" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E01 850 N</text>
+<text x="275" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E02 850 N</text>
+<text x="337" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E03 1000 N</text>
+<rect x="65.4" y="139.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="66.4" y1="140.0" x2="70.4" y2="136.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="70.4" y="137.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">E03</text>
+<text x="213" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E04 2600 N</text>
+<rect x="55.0" y="75.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="56.0" y1="76.0" x2="60.0" y2="72.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="60.0" y="73.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">E04</text>
+<text x="275" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E05 PENDENTE</text>
+<text x="337" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">E06 PENDENTE</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">E09 | Escritório - aéreo P17</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<text x="15" y="231" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">E05-altura: a levantar</text>
+<text x="15" y="235" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">E05-posicao-y: a levantar</text>
+<text x="15" y="239" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">E06-altura: a levantar</text>
+<text x="15" y="243" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">E06-posicao-y: a levantar</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | E09 | 20 folhas | A3 / 1:25</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">16 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
+<text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 1250 mm reais</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<text x="20" y="43" font-family="Arial, sans-serif" font-size="7" fill="#263238">CADERNO A3  |  R02</text>
+<text x="20" y="55" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL1   Planta cotada - paredes e aberturas</text>
+<text x="20" y="62" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL2   Planta de layout - envelopes R53</text>
+<text x="20" y="69" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL3   Planta de pontos R01</text>
+<text x="20" y="76" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PT1   Pontos R01 - cotas e funções / 1</text>
+<text x="20" y="83" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PT2   Pontos R01 - cotas e funções / 2</text>
+<text x="20" y="90" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E01   Cozinha - face da bancada e aéreos</text>
+<text x="20" y="97" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E02   Cozinha - face oposta / interface da lixeira</text>
+<text x="20" y="104" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E03   Lavanderia - tanque, cesto e aéreo</text>
+<text x="20" y="111" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E04   Banheiro - gabinete, bancada e espelho</text>
+<text x="20" y="118" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E05   Roupeiro - P01-P03 e maleiro / face principal</text>
+<text x="20" y="125" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E06   Roupeiro - retorno do canto P02</text>
+<text x="20" y="132" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E07   Quarto - cabeceira e aéreo P04</text>
+<text x="20" y="139" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E08   Escritório - bancada e gaveteiro</text>
+<text x="20" y="146" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E09   Escritório - aéreo P17</text>
+<text x="20" y="153" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E10   Escritório - TV e prateleira</text>
+<text x="20" y="160" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E11   Sala - painel TV e prateleiras</text>
+<text x="20" y="167" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E12   Sala - banco P20</text>
+<text x="20" y="174" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">NC1   Módulos - alturas livres entre planos horizontais R53</text>
+<text x="20" y="181" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">DT1   Detalhe-tipo - fechamento ao teto / P03</text>
+<text x="240" y="60" font-family="Arial, sans-serif" font-size="3" fill="#263238">Plantas 1:50; elevações e detalhe 1:25.</text>
+<text x="240" y="70" font-family="Arial, sans-serif" font-size="3" fill="#263238">Imprimir sem ajustar à página; conferir barra de 50 mm.</text>
+<text x="240" y="80" font-family="Arial, sans-serif" font-size="3" fill="#263238">Caixas R53 são envelopes, não contornos de usinagem.</text>
+<text x="240" y="90" font-family="Arial, sans-serif" font-size="3" fill="#263238">Fontes: CSV de medidas + Cotas.json + exportação R53.</text>
+<text x="240" y="100" font-family="Arial, sans-serif" font-size="3" fill="#263238">Campo medido vence nominal. Branco = pendência.</text>
+<text x="240" y="110" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajustes ao teto são estudos separados da R53.</text>
+<text x="240" y="120" font-family="Arial, sans-serif" font-size="3" fill="#263238">R00 preservado; esta revisão não foi publicada.</text>
+<text x="240" y="130" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ver Impacto.json: alterações, fontes e conflitos.</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">00 | Índice e critérios de leitura</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | 00 | 20 folhas | Sem escala</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">0 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+</svg>

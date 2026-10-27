@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<text x="15" y="38" font-family="Arial, sans-serif" font-size="3" fill="#263238">Código / tipo</text>
+<text x="48" y="38" font-family="Arial, sans-serif" font-size="3" fill="#263238">X / Y / altura (mm)</text>
+<text x="145" y="38" font-family="Arial, sans-serif" font-size="3" fill="#263238">Função e condição</text>
+<text x="15" y="47" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C01 / D</text>
+<text x="48" y="47" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4180 N</text>
+<text x="78" y="47" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="47" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">300 N</text>
+<text x="145" y="47" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Forno Fischer Infinity 28349-64929 · 127 V · 2061 W</text>
+<text x="15" y="54" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C02 / G</text>
+<text x="48" y="54" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4050 N</text>
+<text x="78" y="54" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="54" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">500 N</text>
+<text x="145" y="54" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Gás GN do cooktop KE4GC</text>
+<text x="15" y="61" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C03 / T</text>
+<text x="48" y="61" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4320 N</text>
+<text x="78" y="61" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="61" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">500 N</text>
+<text x="145" y="61" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Ignição do cooktop</text>
+<text x="15" y="68" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C04 / T</text>
+<text x="48" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4180 N</text>
+<text x="78" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2000 N</text>
+<text x="145" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Depurador DE61IX · 127 V</text>
+<text x="15" y="75" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C05 / AF</text>
+<text x="48" y="75" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4700 N</text>
+<text x="78" y="75" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="75" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">550 N</text>
+<text x="145" y="75" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água fria da pia</text>
+<text x="15" y="82" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C06 / AQ</text>
+<text x="48" y="82" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4860 N</text>
+<text x="78" y="82" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="82" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">550 N</text>
+<text x="145" y="82" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água quente da pia</text>
+<text x="15" y="89" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C07 / E</text>
+<text x="48" y="89" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4780 N</text>
+<text x="78" y="89" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6900 N</text>
+<text x="108" y="89" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">450 N</text>
+<text x="145" y="89" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Esgoto da pia</text>
+<text x="15" y="96" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C08 / T20</text>
+<text x="48" y="96" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5280 N</text>
+<text x="78" y="96" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6900 N</text>
+<text x="108" y="96" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">920 N</text>
+<text x="145" y="96" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Torre automática de tomadas 20 A na bancada (área seca)</text>
+<text x="15" y="103" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C09 / T</text>
+<text x="48" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5390 N</text>
+<text x="78" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1900 N</text>
+<text x="145" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Micro-ondas ME23P · 127 V</text>
+<text x="15" y="110" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C10 / T</text>
+<text x="48" y="110" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5600 N</text>
+<text x="78" y="110" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="110" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1100 N</text>
+<text x="145" y="110" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Purificador PE11X bivolt, uso 127 V</text>
+<text x="15" y="117" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C11 / AF</text>
+<text x="48" y="117" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5520 N</text>
+<text x="78" y="117" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="117" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1100 N</text>
+<text x="145" y="117" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água fria do purificador</text>
+<text x="15" y="124" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C12 / T</text>
+<text x="48" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6150 N</text>
+<text x="78" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2000 N</text>
+<text x="145" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Geladeira IB6S bivolt, uso 127 V</text>
+<text x="15" y="131" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C13 / L</text>
+<text x="48" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5210 N</text>
+<text x="78" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5910 N</text>
+<text x="108" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="145" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Stella EVO STH21967/30, quadrado 3000 K</text>
+<text x="15" y="138" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C14 / A</text>
+<text x="48" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5150 N</text>
+<text x="78" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6800 N</text>
+<text x="108" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1500 N</text>
+<text x="145" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">COB 3000K sob aéreos +Opus/Shelly/pulsador</text>
+<text x="15" y="145" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L01 / T</text>
+<text x="48" y="145" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3500 N</text>
+<text x="78" y="145" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="145" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1100 N</text>
+<text x="145" y="145" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Lavadora LG VC4 CV5012PC4 · 127 V</text>
+<text x="15" y="152" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L02 / AF</text>
+<text x="48" y="152" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3400 N</text>
+<text x="78" y="152" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="152" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">900 N</text>
+<text x="145" y="152" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água fria da lavadora</text>
+<text x="15" y="159" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L03 / E</text>
+<text x="48" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3620 N</text>
+<text x="78" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">800 N</text>
+<text x="145" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Esgoto da lavadora</text>
+<text x="15" y="166" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L04 / AF</text>
+<text x="48" y="166" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2760 N</text>
+<text x="78" y="166" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="166" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
+<text x="145" y="166" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água fria do tanque/Telca</text>
+<text x="15" y="173" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L05 / E</text>
+<text x="48" y="173" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2880 N</text>
+<text x="78" y="173" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6900 N</text>
+<text x="108" y="173" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">400 N</text>
+<text x="145" y="173" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Esgoto do tanque</text>
+<text x="15" y="180" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L06 / G</text>
+<text x="48" y="180" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2680 N</text>
+<text x="78" y="180" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="180" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1400 N</text>
+<text x="145" y="180" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Gás GN do aquecedor Rinnai E21</text>
+<text x="15" y="187" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L07 / T</text>
+<text x="48" y="187" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2900 N</text>
+<text x="78" y="187" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="187" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1500 N</text>
+<text x="145" y="187" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Aquecedor E21 · alimentação elétrica</text>
+<text x="15" y="194" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L08 / X</text>
+<text x="48" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2790 N</text>
+<text x="78" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6990 N</text>
+<text x="108" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2150 N</text>
+<text x="145" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Exaustão do aquecedor E21</text>
+<text x="15" y="201" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L09 / AQ</text>
+<text x="48" y="201" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2840 N</text>
+<text x="78" y="201" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6980 N</text>
+<text x="108" y="201" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1400 N</text>
+<text x="145" y="201" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Saída quente E21; destinos de banho/cozinha/Telca a compatibilizar</text>
+<text x="15" y="208" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L10 / T20</text>
+<text x="48" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3050 N</text>
+<text x="78" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6950 N</text>
+<text x="108" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1000 N</text>
+<text x="145" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Tomada fixa 20 A para air fryer e cafeteira</text>
+<text x="15" y="215" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L11 / L</text>
+<text x="48" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3200 N</text>
+<text x="78" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5950 N</text>
+<text x="108" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="145" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Firefly 9608 quadrado 3000 K</text>
+<text x="15" y="222" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">B01 / AF</text>
+<text x="48" y="222" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4260 N</text>
+<text x="78" y="222" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5260 N</text>
+<text x="108" y="222" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">550 N</text>
+<text x="145" y="222" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água fria do lavatório</text>
+<text x="15" y="229" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">B02 / AQ</text>
+<text x="48" y="229" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4420 N</text>
+<text x="78" y="229" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5260 N</text>
+<text x="108" y="229" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">550 N</text>
+<text x="145" y="229" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Água quente do lavatório</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">PT1 | Pontos R01 - cotas e funções / 1</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | PT1 | 20 folhas | Sem escala</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">81 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+</svg>

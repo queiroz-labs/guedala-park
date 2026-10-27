@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<line x1="25" y1="180" x2="88.0" y2="180" stroke="#263238" stroke-width="0.5"/>
+<line x1="25" y1="76.0" x2="88.0" y2="76.0" stroke="#94621c" stroke-width="0.4"/>
+<line x1="17" y1="180" x2="17" y2="76.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="16" y1="181" x2="18" y2="179" stroke="#94621c" stroke-width="0.2"/>
+<line x1="16" y1="77.0" x2="18" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
+<text x="18.0" y="127.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="25" y="71.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
+<text x="213" y="40" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">MÓDULO / L / BASE / TOPO R53 / FOLGA TETO</text>
+<rect x="32.0" y="104.0" width="46.0" height="66.0" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="33.0" y="167.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">A1</text>
+<text x="213" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A1</text>
+<text x="247" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1150 N</text>
+<text x="282" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">250 N</text>
+<text x="321" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1900 N</text>
+<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">700 N</text>
+<rect x="33.0" y="166.0" width="44.0" height="1.2" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="213" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A2</text>
+<text x="247" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1100 N</text>
+<text x="282" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">320 N</text>
+<text x="321" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">350 N</text>
+<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2250 N</text>
+<rect x="33.0" y="114.0" width="44.0" height="1.2" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="213" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A3</text>
+<text x="247" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1100 N</text>
+<text x="282" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1620 N</text>
+<text x="321" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1650 N</text>
+<text x="365" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">950 N</text>
+<rect x="32.78" y="123.24000000000001" width="44.44" height="25.96" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="33.78" y="146.2" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">A4</text>
+<text x="213" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A4</text>
+<text x="247" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1111 N</text>
+<text x="282" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">770 N</text>
+<text x="321" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1419 N</text>
+<text x="365" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1181 N</text>
+<text x="25" y="217" font-family="Arial, sans-serif" font-size="3" fill="#263238">Traço azul: topo paramétrico; caixas cinza: R53 fixa.</text>
+<text x="25" y="223" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajuste dimensional não define corte, fixação ou montagem.</text>
+<text x="213" y="158.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A1: Painel liso da TV</text>
+<text x="213" y="162.5" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A2: Uma prateleira acima e outra abaixo da TV</text>
+<text x="213" y="167.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A3: Uma prateleira acima e outra abaixo da TV001</text>
+<text x="213" y="171.5" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A4: TV 50″ · preferência Ambilight</text>
+<text x="213" y="185" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">PONTOS DO AMBIENTE: altura / ver PT1-PT2</text>
+<text x="213" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">S01 300 N</text>
+<rect x="36.0" y="167.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="37.0" y1="168.0" x2="41.0" y2="164.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="41.0" y="165.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">S01</text>
+<text x="275" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">S02 1200 N</text>
+<rect x="56.0" y="131.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="57.0" y1="132.0" x2="61.0" y2="128.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="61.0" y="129.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">S02</text>
+<text x="337" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">S03 2600 N</text>
+<text x="213" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">S04 2600 N</text>
+<text x="275" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">S05 PENDENTE</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">E11 | Sala - painel TV e prateleiras</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<text x="15" y="231" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">S05-altura: a levantar</text>
+<text x="15" y="235" font-family="Arial, sans-serif" font-size="2.5" fill="#a32c28">S05-posicao-y: a levantar</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | E11 | 20 folhas | A3 / 1:25</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">25 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
+<text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 1250 mm reais</text>
+</svg>

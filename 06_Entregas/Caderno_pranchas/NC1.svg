@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<text x="15" y="40" font-family="Arial, sans-serif" font-size="3" fill="#263238">Módulo</text>
+<text x="45" y="40" font-family="Arial, sans-serif" font-size="3" fill="#263238">Vãos verticais entre envelopes / de baixo para cima / mm</text>
+<text x="15" y="49" font-family="Arial, sans-serif" font-size="3" fill="#263238">P01</text>
+<text x="45" y="49" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="57" font-family="Arial, sans-serif" font-size="3" fill="#263238">P02</text>
+<text x="45" y="57" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">272 N</text>
+<text x="15" y="65" font-family="Arial, sans-serif" font-size="3" fill="#263238">P03</text>
+<text x="45" y="65" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">272 N</text>
+<text x="15" y="73" font-family="Arial, sans-serif" font-size="3" fill="#263238">P04</text>
+<text x="45" y="73" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">272 N</text>
+<text x="15" y="81" font-family="Arial, sans-serif" font-size="3" fill="#263238">P05</text>
+<text x="45" y="81" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">284 N</text>
+<text x="15" y="89" font-family="Arial, sans-serif" font-size="3" fill="#263238">P06</text>
+<text x="45" y="89" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">31 N / 369 N</text>
+<text x="15" y="97" font-family="Arial, sans-serif" font-size="3" fill="#263238">P07</text>
+<text x="45" y="97" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="105" font-family="Arial, sans-serif" font-size="3" fill="#263238">P08</text>
+<text x="45" y="105" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="113" font-family="Arial, sans-serif" font-size="3" fill="#263238">P09</text>
+<text x="45" y="113" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">556 N</text>
+<text x="15" y="121" font-family="Arial, sans-serif" font-size="3" fill="#263238">P10</text>
+<text x="45" y="121" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">180 N / 192 N / 258 N / 298 N</text>
+<text x="15" y="129" font-family="Arial, sans-serif" font-size="3" fill="#263238">P11</text>
+<text x="45" y="129" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">258 N / 298 N</text>
+<text x="15" y="137" font-family="Arial, sans-serif" font-size="3" fill="#263238">P12</text>
+<text x="45" y="137" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">548 N</text>
+<text x="15" y="145" font-family="Arial, sans-serif" font-size="3" fill="#263238">P13</text>
+<text x="45" y="145" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="153" font-family="Arial, sans-serif" font-size="3" fill="#263238">P14</text>
+<text x="45" y="153" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">532 N</text>
+<text x="15" y="161" font-family="Arial, sans-serif" font-size="3" fill="#263238">P15</text>
+<text x="45" y="161" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">544 N</text>
+<text x="15" y="169" font-family="Arial, sans-serif" font-size="3" fill="#263238">P16</text>
+<text x="45" y="169" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">204 N</text>
+<text x="15" y="177" font-family="Arial, sans-serif" font-size="3" fill="#263238">P17</text>
+<text x="45" y="177" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">514 N</text>
+<text x="15" y="185" font-family="Arial, sans-serif" font-size="3" fill="#263238">P18</text>
+<text x="45" y="185" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="193" font-family="Arial, sans-serif" font-size="3" fill="#263238">P19</text>
+<text x="45" y="193" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">226 N / 226 N / 226 N</text>
+<text x="15" y="201" font-family="Arial, sans-serif" font-size="3" fill="#263238">P20</text>
+<text x="45" y="201" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="15" y="218" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Triagem geométrica: planos que cobrem ao menos metade da largura e profundidade do módulo.</text>
+<text x="15" y="224" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Não confirma vão útil de porta, gaveta, recorte ou ferragem; conferir peça específica antes de executar.</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">NC1 | Módulos - alturas livres entre planos horizontais R53</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | NC1 | 20 folhas | Sem escala</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">21 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+</svg>

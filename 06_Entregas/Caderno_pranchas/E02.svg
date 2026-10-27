@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/>
+<line x1="25" y1="180" x2="55.6" y2="180" stroke="#263238" stroke-width="0.5"/>
+<line x1="25" y1="76.0" x2="55.6" y2="76.0" stroke="#94621c" stroke-width="0.4"/>
+<line x1="17" y1="180" x2="17" y2="76.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="16" y1="181" x2="18" y2="179" stroke="#94621c" stroke-width="0.2"/>
+<line x1="16" y1="77.0" x2="18" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
+<text x="18.0" y="127.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="25" y="71.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
+<text x="213" y="40" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">MÓDULO / L / BASE / TOPO R53 / FOLGA TETO</text>
+<rect x="32.0" y="162.0" width="13.6" height="18.0" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="33.0" y="177.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">A1</text>
+<text x="213" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A1</text>
+<text x="247" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">340 N</text>
+<text x="282" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">0 N</text>
+<text x="321" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">450 N</text>
+<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2150 N</text>
+<rect x="32.0" y="161.2" width="13.6" height="0.8" stroke="#405863" fill="none" stroke-width="0.35"/>
+<text x="213" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A2</text>
+<text x="247" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">340 N</text>
+<text x="282" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">450 N</text>
+<text x="321" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">470 N</text>
+<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2130 N</text>
+<text x="25" y="217" font-family="Arial, sans-serif" font-size="3" fill="#263238">Traço azul: topo paramétrico; caixas cinza: R53 fixa.</text>
+<text x="25" y="223" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajuste dimensional não define corte, fixação ou montagem.</text>
+<text x="213" y="158.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A1: Lixeira comum Biovis Coleta 15 L</text>
+<text x="213" y="162.5" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A2: Lixeira comum Biovis Coleta 15 L001</text>
+<text x="213" y="135" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">A face oposta não contém módulo de marcenaria na R53.</text>
+<text x="213" y="142" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Mostra a interface nominal da lixeira junto ao banheiro.</text>
+<text x="213" y="185" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">PONTOS DO AMBIENTE: altura / ver PT1-PT2</text>
+<text x="213" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C01 300 N</text>
+<text x="275" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C02 500 N</text>
+<text x="337" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C03 500 N</text>
+<text x="213" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C04 2000 N</text>
+<text x="275" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C05 550 N</text>
+<text x="337" y="198" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C06 550 N</text>
+<rect x="33.0" y="157.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="34.0" y1="158.0" x2="38.0" y2="154.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="38.0" y="155.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">C06</text>
+<text x="213" y="203" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C07 450 N</text>
+<text x="275" y="203" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C08 920 N</text>
+<text x="337" y="203" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C09 1900 N</text>
+<text x="213" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C10 1100 N</text>
+<text x="275" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C11 1100 N</text>
+<text x="337" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C12 2000 N</text>
+<text x="213" y="213" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C13 2600 N</text>
+<text x="275" y="213" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">C14 1500 N</text>
+<rect x="44.6" y="119.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="45.6" y1="120.0" x2="49.6" y2="116.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="49.6" y="117.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">C14</text>
+<rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">E02 | Cozinha - face oposta / interface da lixeira</text>
+<text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
+<line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
+<text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
+<text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
+<text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
+<text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | E02 | 20 folhas | A3 / 1:25</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">37 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
+<text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 1250 mm reais</text>
+</svg>

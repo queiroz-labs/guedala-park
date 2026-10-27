@@ -1,0 +1,7407 @@
+{
+  "revisao": "R02",
+  "cotas": {
+    "PL1:janela-1-vao": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-1-W"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:janela-2-vao": {
+      "mm": 1150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-2-W"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:janela-3-vao": {
+      "mm": 1390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-3-W"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:janela-4-vao": {
+      "mm": 1060.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-4-D"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:janela-5-vao": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-5-D"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-1-vao": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-1-D"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:porta-2-vao": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-2-W"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:porta-3-vao": {
+      "mm": 700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-3-D"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-4-vao": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-4-W"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:quarto-largura": {
+      "mm": 2450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-QUARTO-0"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:quarto-profundidade": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-QUARTO-1"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:escritorio-largura": {
+      "mm": 2300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-ESCRITORIO-0"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:escritorio-profundidade": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-ESCRITORIO-1"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:sala-largura": {
+      "mm": 2450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-SALA-0"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:sala-profundidade": {
+      "mm": 3800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-FLOORS-04-D"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:circulacao-largura": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-CIRCULACAO-0"
+      ],
+      "movel": "circulacao",
+      "prancha": "PL1"
+    },
+    "PL1:circulacao-profundidade": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-CIRCULACAO-1"
+      ],
+      "movel": "circulacao",
+      "prancha": "PL1"
+    },
+    "PL1:cozinha-largura": {
+      "mm": 3520.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-COZINHA-0"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:cozinha-profundidade": {
+      "mm": 1550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-COZINHA-1"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:lavanderia-largura": {
+      "mm": 1290.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-LAVANDERIA-0"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:lavanderia-profundidade": {
+      "mm": 1540.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-LAVANDERIA-1"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:banho-largura": {
+      "mm": 2090.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-BANHO-0"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:banho-profundidade": {
+      "mm": 1240.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-COTA-BANHO-1"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:janela-1-L": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-1-W"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:janela-1-P": {
+      "mm": 100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-1-D"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:janela-1-peitoril": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-1-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:janela-1-H": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-1-H"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:janela-2-L": {
+      "mm": 1150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-2-W"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:janela-2-P": {
+      "mm": 100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-2-D"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:janela-2-peitoril": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-2-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:janela-2-H": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-2-H"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:janela-3-L": {
+      "mm": 1390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-3-W"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:janela-3-P": {
+      "mm": 100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-3-D"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:janela-3-peitoril": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-3-Z"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:janela-3-H": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-3-H"
+      ],
+      "movel": "sala",
+      "prancha": "PL1"
+    },
+    "PL1:janela-4-L": {
+      "mm": 100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-4-W"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:janela-4-P": {
+      "mm": 1060.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-4-D"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:janela-4-peitoril": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-4-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:janela-4-H": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-4-H"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL1"
+    },
+    "PL1:janela-5-L": {
+      "mm": 100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-5-W"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:janela-5-P": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-5-D"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:janela-5-peitoril": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-5-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:janela-5-H": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-JANELA-5-H"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-1-L": {
+      "mm": 20.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-1-W"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:porta-1-P": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-1-D"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:porta-1-peitoril": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-1-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:porta-1-H": {
+      "mm": 2050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-1-H"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL1"
+    },
+    "PL1:porta-2-L": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-2-W"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:porta-2-P": {
+      "mm": 20.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-2-D"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:porta-2-peitoril": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-2-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:porta-2-H": {
+      "mm": 2050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-2-H"
+      ],
+      "movel": "quarto",
+      "prancha": "PL1"
+    },
+    "PL1:porta-3-L": {
+      "mm": 20.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-3-W"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-3-P": {
+      "mm": 700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-3-D"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-3-peitoril": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-3-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-3-H": {
+      "mm": 2050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-3-H"
+      ],
+      "movel": "banho",
+      "prancha": "PL1"
+    },
+    "PL1:porta-4-L": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-4-W"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:porta-4-P": {
+      "mm": 20.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-4-D"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:porta-4-peitoril": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-4-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL1:porta-4-H": {
+      "mm": 2050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PORTA-4-H"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL1"
+    },
+    "PL2:P01-L": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "PL2"
+    },
+    "PL2:P01-P": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "PL2"
+    },
+    "PL2:P01-H": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "PL2"
+    },
+    "PL2:P02-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "PL2"
+    },
+    "PL2:P02-P": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "PL2"
+    },
+    "PL2:P02-H": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "PL2"
+    },
+    "PL2:P03-L": {
+      "mm": 1350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "PL2"
+    },
+    "PL2:P03-P": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "PL2"
+    },
+    "PL2:P03-H": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "PL2"
+    },
+    "PL2:P04-L": {
+      "mm": 250.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "PL2"
+    },
+    "PL2:P04-P": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "PL2"
+    },
+    "PL2:P04-H": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "PL2"
+    },
+    "PL2:P05-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "PL2"
+    },
+    "PL2:P05-P": {
+      "mm": 610.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "PL2"
+    },
+    "PL2:P05-H": {
+      "mm": 720.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "PL2"
+    },
+    "PL2:P06-L": {
+      "mm": 619.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "PL2"
+    },
+    "PL2:P06-P": {
+      "mm": 610.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "PL2"
+    },
+    "PL2:P06-H": {
+      "mm": 720.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "PL2"
+    },
+    "PL2:P07-L": {
+      "mm": 613.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "PL2"
+    },
+    "PL2:P07-P": {
+      "mm": 597.5,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "PL2"
+    },
+    "PL2:P07-H": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "PL2"
+    },
+    "PL2:P08-L": {
+      "mm": 1269.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "PL2"
+    },
+    "PL2:P08-P": {
+      "mm": 530.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "PL2"
+    },
+    "PL2:P08-H": {
+      "mm": 180.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "PL2"
+    },
+    "PL2:P09-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "PL2"
+    },
+    "PL2:P09-P": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "PL2"
+    },
+    "PL2:P09-H": {
+      "mm": 592.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "PL2"
+    },
+    "PL2:P10-L": {
+      "mm": 547.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "PL2"
+    },
+    "PL2:P10-P": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "PL2"
+    },
+    "PL2:P10-H": {
+      "mm": 1018.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "PL2"
+    },
+    "PL2:P11-L": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "PL2"
+    },
+    "PL2:P11-P": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "PL2"
+    },
+    "PL2:P11-H": {
+      "mm": 610.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "PL2"
+    },
+    "PL2:P12-L": {
+      "mm": 801.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "PL2"
+    },
+    "PL2:P12-P": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "PL2"
+    },
+    "PL2:P12-H": {
+      "mm": 584.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "PL2"
+    },
+    "PL2:P13-L": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "PL2"
+    },
+    "PL2:P13-P": {
+      "mm": 470.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "PL2"
+    },
+    "PL2:P13-H": {
+      "mm": 18.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "PL2"
+    },
+    "PL2:P14-L": {
+      "mm": 590.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "PL2"
+    },
+    "PL2:P14-P": {
+      "mm": 630.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "PL2"
+    },
+    "PL2:P14-H": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "PL2"
+    },
+    "PL2:P15-L": {
+      "mm": 835.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "PL2"
+    },
+    "PL2:P15-P": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "PL2"
+    },
+    "PL2:P15-H": {
+      "mm": 580.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "PL2"
+    },
+    "PL2:P16-L": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "PL2"
+    },
+    "PL2:P16-P": {
+      "mm": 430.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "PL2"
+    },
+    "PL2:P16-H": {
+      "mm": 240.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "PL2"
+    },
+    "PL2:P17-L": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "PL2"
+    },
+    "PL2:P17-P": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "PL2"
+    },
+    "PL2:P17-H": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "PL2"
+    },
+    "PL2:P18-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "PL2"
+    },
+    "PL2:P18-P": {
+      "mm": 470.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "PL2"
+    },
+    "PL2:P18-H": {
+      "mm": 545.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "PL2"
+    },
+    "PL2:P19-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "PL2"
+    },
+    "PL2:P19-P": {
+      "mm": 150.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "PL2"
+    },
+    "PL2:P19-H": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "PL2"
+    },
+    "PL2:P20-L": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "PL2"
+    },
+    "PL2:P20-P": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "PL2"
+    },
+    "PL2:P20-H": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "PL2"
+    },
+    "PL3:C01-X": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C01-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C02-X": {
+      "mm": 4050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C02-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C03-X": {
+      "mm": 4320.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C03-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C04-X": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C04-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C05-X": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C05-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C06-X": {
+      "mm": 4860.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C06-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C07-X": {
+      "mm": 4780.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C07-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C08-X": {
+      "mm": 5280.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C08-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C09-X": {
+      "mm": 5390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C09-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C10-X": {
+      "mm": 5600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C10-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C11-X": {
+      "mm": 5520.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C11-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C12-X": {
+      "mm": 6150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C12-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C13-X": {
+      "mm": 5210.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C13-Y": {
+      "mm": 5910.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C14-X": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:C14-Y": {
+      "mm": 6800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PL3"
+    },
+    "PL3:L01-X": {
+      "mm": 3500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L01-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L02-X": {
+      "mm": 3400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L02-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L03-X": {
+      "mm": 3620.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L03-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L04-X": {
+      "mm": 2760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L04-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L05-X": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L05-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L06-X": {
+      "mm": 2680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L06-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L07-X": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L07-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L08-X": {
+      "mm": 2790.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L08-Y": {
+      "mm": 6990.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L09-X": {
+      "mm": 2840.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L09-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L10-X": {
+      "mm": 3050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L10-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L11-X": {
+      "mm": 3200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L11-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:L11-Y": {
+      "mm": 5950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L11-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PL3"
+    },
+    "PL3:B01-X": {
+      "mm": 4260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B01-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B02-X": {
+      "mm": 4420.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B02-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B03-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B03-Y": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B04-X": {
+      "mm": 3690.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B04-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B05-X": {
+      "mm": 3960.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B05-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B06-X": {
+      "mm": 4040.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B06-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B07-X": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B07-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B08-X": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B08-Y": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B09-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B09-Y": {
+      "mm": 5130.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B10-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B10-Y": {
+      "mm": 5100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B11-X": {
+      "mm": 3950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B11-X"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:B11-Y": {
+      "mm": 4500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B11-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PL3"
+    },
+    "PL3:S01-X": {
+      "mm": 5050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-X"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S01-Y": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S02-X": {
+      "mm": 5050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-X"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S02-Y": {
+      "mm": 2500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S03-X": {
+      "mm": 6170.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-X"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S03-Y": {
+      "mm": 3750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S04-X": {
+      "mm": 6600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-X"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:S04-Y": {
+      "mm": 4550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PL3"
+    },
+    "PL3:E01-X": {
+      "mm": 3000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E01-Y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E02-X": {
+      "mm": 4400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E02-Y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E03-X": {
+      "mm": 4800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E03-Y": {
+      "mm": 1760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E04-X": {
+      "mm": 3700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:E04-Y": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PL3"
+    },
+    "PL3:Q01-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q01-Y": {
+      "mm": 1120.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q02-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q02-Y": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q03-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q03-Y": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q04-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q04-Y": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q05-X": {
+      "mm": 1220.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PL3:Q05-Y": {
+      "mm": 2480.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PL3"
+    },
+    "PT1:C01-X": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C01-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C01-Z": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C02-X": {
+      "mm": 4050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C02-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C02-Z": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C03-X": {
+      "mm": 4320.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C03-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C03-Z": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C04-X": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C04-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C04-Z": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C05-X": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C05-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C05-Z": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C06-X": {
+      "mm": 4860.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C06-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C06-Z": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C07-X": {
+      "mm": 4780.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C07-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C07-Z": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C08-X": {
+      "mm": 5280.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C08-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C08-Z": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C09-X": {
+      "mm": 5390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C09-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C09-Z": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C10-X": {
+      "mm": 5600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C10-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C10-Z": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C11-X": {
+      "mm": 5520.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C11-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C11-Z": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C12-X": {
+      "mm": 6150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C12-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C12-Z": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C13-X": {
+      "mm": 5210.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C13-Y": {
+      "mm": 5910.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C13-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C14-X": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C14-Y": {
+      "mm": 6800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-Y"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:C14-Z": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "PT1"
+    },
+    "PT1:L01-X": {
+      "mm": 3500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L01-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L01-Z": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L02-X": {
+      "mm": 3400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L02-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L02-Z": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L03-X": {
+      "mm": 3620.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L03-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L03-Z": {
+      "mm": 800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L04-X": {
+      "mm": 2760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L04-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L04-Z": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L05-X": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L05-Y": {
+      "mm": 6900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L05-Z": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L06-X": {
+      "mm": 2680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L06-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L06-Z": {
+      "mm": 1400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L07-X": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L07-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L07-Z": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L08-X": {
+      "mm": 2790.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L08-Y": {
+      "mm": 6990.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L08-Z": {
+      "mm": 2150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L09-X": {
+      "mm": 2840.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L09-Y": {
+      "mm": 6980.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L09-Z": {
+      "mm": 1400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L10-X": {
+      "mm": 3050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L10-Y": {
+      "mm": 6950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L10-Z": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-Z"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L11-X": {
+      "mm": 3200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L11-X"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L11-Y": {
+      "mm": 5950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L11-Y"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:L11-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV"
+      ],
+      "movel": "lavanderia",
+      "prancha": "PT1"
+    },
+    "PT1:B01-X": {
+      "mm": 4260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT1:B01-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT1:B01-Z": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT1:B02-X": {
+      "mm": 4420.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT1:B02-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT1:B02-Z": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT1"
+    },
+    "PT2:B03-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B03-Y": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B03-Z": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B04-X": {
+      "mm": 3690.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B04-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B04-Z": {
+      "mm": 200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B05-X": {
+      "mm": 3960.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B05-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B05-Z": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B06-X": {
+      "mm": 4040.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B06-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B06-Z": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B07-X": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B07-Y": {
+      "mm": 5260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B07-Z": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B08-X": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B08-Y": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B08-Z": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B09-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B09-Y": {
+      "mm": 5130.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B09-Z": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B10-X": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B10-Y": {
+      "mm": 5100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B10-Z": {
+      "mm": 2300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-Z"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B11-X": {
+      "mm": 3950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B11-X"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B11-Y": {
+      "mm": 4500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B11-Y"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:B11-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN"
+      ],
+      "movel": "banho",
+      "prancha": "PT2"
+    },
+    "PT2:S01-X": {
+      "mm": 5050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-X"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S01-Y": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S01-Z": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Z"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S02-X": {
+      "mm": 5050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-X"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S02-Y": {
+      "mm": 2500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S02-Z": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Z"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S03-X": {
+      "mm": 6170.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-X"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S03-Y": {
+      "mm": 3750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S03-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S04-X": {
+      "mm": 6600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-X"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S04-Y": {
+      "mm": 4550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S04-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:E01-X": {
+      "mm": 3000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E01-Y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E01-Z": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E02-X": {
+      "mm": 4400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E02-Y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E02-Z": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E03-X": {
+      "mm": 4800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E03-Y": {
+      "mm": 1760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E03-Z": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E04-X": {
+      "mm": 3700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E04-Y": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E04-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:Q01-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q01-Y": {
+      "mm": 1120.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q01-Z": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q02-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q02-Y": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q02-Z": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q03-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q03-Y": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q03-Z": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q04-X": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q04-Y": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q04-Z": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q05-X": {
+      "mm": 1220.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q05-Y": {
+      "mm": 2480.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q05-Z": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q06-X": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-X"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q06-Y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Y"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:Q06-Z": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Z"
+      ],
+      "movel": "quarto",
+      "prancha": "PT2"
+    },
+    "PT2:S05-X": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-X"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S05-Y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Y"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:S05-Z": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Z"
+      ],
+      "movel": "sala",
+      "prancha": "PT2"
+    },
+    "PT2:E05-X": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E05-Y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E05-Z": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E06-X": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-X"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E06-Y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "PT2:E06-Z": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "PT2"
+    },
+    "E01:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:P05-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "E01"
+    },
+    "E01:P05-base": {
+      "mm": 180.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "E01"
+    },
+    "E01:P05-topo": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "E01"
+    },
+    "E01:P05-folga": {
+      "mm": 1700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "E01"
+    },
+    "E01:P05-largura": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "E01"
+    },
+    "E01:P06-L": {
+      "mm": 619.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "E01"
+    },
+    "E01:P06-base": {
+      "mm": 180.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "E01"
+    },
+    "E01:P06-topo": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "E01"
+    },
+    "E01:P06-folga": {
+      "mm": 1700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "E01"
+    },
+    "E01:P06-largura": {
+      "mm": 619.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "E01"
+    },
+    "E01:P07-L": {
+      "mm": 613.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "E01"
+    },
+    "E01:P07-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "E01"
+    },
+    "E01:P07-topo": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "E01"
+    },
+    "E01:P07-folga": {
+      "mm": 1700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "E01"
+    },
+    "E01:P07-largura": {
+      "mm": 613.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P07"
+      ],
+      "movel": "P07",
+      "prancha": "E01"
+    },
+    "E01:P08-L": {
+      "mm": 1269.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "E01"
+    },
+    "E01:P08-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "E01"
+    },
+    "E01:P08-topo": {
+      "mm": 180.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "E01"
+    },
+    "E01:P08-folga": {
+      "mm": 2420.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "E01"
+    },
+    "E01:P08-largura": {
+      "mm": 1269.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P08"
+      ],
+      "movel": "P08",
+      "prancha": "E01"
+    },
+    "E01:P09-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-base": {
+      "mm": 1958.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-topo": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-folga": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-largura": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-altura-parametrica": {
+      "mm": 592.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P09:folga nominal",
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P09-topo-parametrico": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P09:folga nominal"
+      ],
+      "movel": "P09",
+      "prancha": "E01"
+    },
+    "E01:P10-L": {
+      "mm": 547.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-base": {
+      "mm": 1532.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-topo": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-folga": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-largura": {
+      "mm": 547.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-altura-parametrica": {
+      "mm": 1018.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P10:folga nominal",
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P10-topo-parametrico": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P10:folga nominal"
+      ],
+      "movel": "P10",
+      "prancha": "E01"
+    },
+    "E01:P11-L": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-base": {
+      "mm": 1940.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-topo": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-folga": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-largura": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-altura-parametrica": {
+      "mm": 610.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P11:folga nominal",
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P11-topo-parametrico": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P11:folga nominal"
+      ],
+      "movel": "P11",
+      "prancha": "E01"
+    },
+    "E01:P12-L": {
+      "mm": 801.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-base": {
+      "mm": 1966.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-topo": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-folga": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-largura": {
+      "mm": 801.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-altura-parametrica": {
+      "mm": 584.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P12:folga nominal",
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P12-topo-parametrico": {
+      "mm": 2550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P12:folga nominal"
+      ],
+      "movel": "P12",
+      "prancha": "E01"
+    },
+    "E01:P13-L": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "E01"
+    },
+    "E01:P13-base": {
+      "mm": 1532.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "E01"
+    },
+    "E01:P13-topo": {
+      "mm": 1550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "E01"
+    },
+    "E01:P13-folga": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "E01"
+    },
+    "E01:P13-largura": {
+      "mm": 697.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P13"
+      ],
+      "movel": "P13",
+      "prancha": "E01"
+    },
+    "E01:Peca138-L": {
+      "mm": 601.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca138"
+      ],
+      "movel": "Peca138",
+      "prancha": "E01"
+    },
+    "E01:Peca138-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca138"
+      ],
+      "movel": "Peca138",
+      "prancha": "E01"
+    },
+    "E01:Peca138-topo": {
+      "mm": 1866.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca138"
+      ],
+      "movel": "Peca138",
+      "prancha": "E01"
+    },
+    "E01:Peca138-folga": {
+      "mm": 734.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca138"
+      ],
+      "movel": "Peca138",
+      "prancha": "E01"
+    },
+    "E01:Peca351-L": {
+      "mm": 461.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca351"
+      ],
+      "movel": "Peca351",
+      "prancha": "E01"
+    },
+    "E01:Peca351-base": {
+      "mm": 1550.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca351"
+      ],
+      "movel": "Peca351",
+      "prancha": "E01"
+    },
+    "E01:Peca351-topo": {
+      "mm": 1840.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca351"
+      ],
+      "movel": "Peca351",
+      "prancha": "E01"
+    },
+    "E01:Peca351-folga": {
+      "mm": 760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca351"
+      ],
+      "movel": "Peca351",
+      "prancha": "E01"
+    },
+    "E01:Peca134-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca134"
+      ],
+      "movel": "Peca134",
+      "prancha": "E01"
+    },
+    "E01:Peca134-base": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca134"
+      ],
+      "movel": "Peca134",
+      "prancha": "E01"
+    },
+    "E01:Peca134-topo": {
+      "mm": 935.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca134"
+      ],
+      "movel": "Peca134",
+      "prancha": "E01"
+    },
+    "E01:Peca134-folga": {
+      "mm": 1665.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca134"
+      ],
+      "movel": "Peca134",
+      "prancha": "E01"
+    },
+    "E01:Peca139-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca139"
+      ],
+      "movel": "Peca139",
+      "prancha": "E01"
+    },
+    "E01:Peca139-base": {
+      "mm": 1740.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca139"
+      ],
+      "movel": "Peca139",
+      "prancha": "E01"
+    },
+    "E01:Peca139-topo": {
+      "mm": 1916.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca139"
+      ],
+      "movel": "Peca139",
+      "prancha": "E01"
+    },
+    "E01:Peca139-folga": {
+      "mm": 684.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca139"
+      ],
+      "movel": "Peca139",
+      "prancha": "E01"
+    },
+    "E01:Peca308-L": {
+      "mm": 1869.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca308"
+      ],
+      "movel": "Peca308",
+      "prancha": "E01"
+    },
+    "E01:Peca308-base": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca308"
+      ],
+      "movel": "Peca308",
+      "prancha": "E01"
+    },
+    "E01:Peca308-topo": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca308"
+      ],
+      "movel": "Peca308",
+      "prancha": "E01"
+    },
+    "E01:Peca308-folga": {
+      "mm": 1680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca308"
+      ],
+      "movel": "Peca308",
+      "prancha": "E01"
+    },
+    "E01:FischerFrenteR31-L": {
+      "mm": 595.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:FischerFrenteR31"
+      ],
+      "movel": "FischerFrenteR31",
+      "prancha": "E01"
+    },
+    "E01:FischerFrenteR31-base": {
+      "mm": 123.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:FischerFrenteR31"
+      ],
+      "movel": "FischerFrenteR31",
+      "prancha": "E01"
+    },
+    "E01:FischerFrenteR31-topo": {
+      "mm": 570.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:FischerFrenteR31"
+      ],
+      "movel": "FischerFrenteR31",
+      "prancha": "E01"
+    },
+    "E01:FischerFrenteR31-folga": {
+      "mm": 2030.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:FischerFrenteR31"
+      ],
+      "movel": "FischerFrenteR31",
+      "prancha": "E01"
+    },
+    "E01:C01-altura": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C01-posicao-x": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C02-altura": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C02-posicao-x": {
+      "mm": 4050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C03-altura": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C03-posicao-x": {
+      "mm": 4320.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C04-altura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C04-posicao-x": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C05-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C05-posicao-x": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C06-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C06-posicao-x": {
+      "mm": 4860.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C07-altura": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C07-posicao-x": {
+      "mm": 4780.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C08-altura": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C08-posicao-x": {
+      "mm": 5280.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C09-altura": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C09-posicao-x": {
+      "mm": 5390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C10-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C10-posicao-x": {
+      "mm": 5600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C11-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C11-posicao-x": {
+      "mm": 5520.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C12-altura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C12-posicao-x": {
+      "mm": 6150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C13-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C13-posicao-x": {
+      "mm": 5210.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C14-altura": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-Z"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E01:C14-posicao-x": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-X"
+      ],
+      "movel": "P05,P06,P07,P08,P09,P10,P11,P12,P13",
+      "prancha": "E01"
+    },
+    "E02:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:Peca144-L": {
+      "mm": 340.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca144"
+      ],
+      "movel": "Peca144",
+      "prancha": "E02"
+    },
+    "E02:Peca144-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca144"
+      ],
+      "movel": "Peca144",
+      "prancha": "E02"
+    },
+    "E02:Peca144-topo": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca144"
+      ],
+      "movel": "Peca144",
+      "prancha": "E02"
+    },
+    "E02:Peca144-folga": {
+      "mm": 2150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca144"
+      ],
+      "movel": "Peca144",
+      "prancha": "E02"
+    },
+    "E02:Peca145-L": {
+      "mm": 340.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca145"
+      ],
+      "movel": "Peca145",
+      "prancha": "E02"
+    },
+    "E02:Peca145-base": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca145"
+      ],
+      "movel": "Peca145",
+      "prancha": "E02"
+    },
+    "E02:Peca145-topo": {
+      "mm": 470.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca145"
+      ],
+      "movel": "Peca145",
+      "prancha": "E02"
+    },
+    "E02:Peca145-folga": {
+      "mm": 2130.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ",
+        "R53:Peca145"
+      ],
+      "movel": "Peca145",
+      "prancha": "E02"
+    },
+    "E02:C01-altura": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C01-posicao-x": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C01-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C02-altura": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C02-posicao-x": {
+      "mm": 4050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C02-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C03-altura": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C03-posicao-x": {
+      "mm": 4320.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C03-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C04-altura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C04-posicao-x": {
+      "mm": 4180.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C04-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C05-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C05-posicao-x": {
+      "mm": 4700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C05-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C06-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C06-posicao-x": {
+      "mm": 4860.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C06-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C07-altura": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C07-posicao-x": {
+      "mm": 4780.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C07-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C08-altura": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C08-posicao-x": {
+      "mm": 5280.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C08-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C09-altura": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C09-posicao-x": {
+      "mm": 5390.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C09-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C10-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C10-posicao-x": {
+      "mm": 5600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C10-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C11-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C11-posicao-x": {
+      "mm": 5520.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C11-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C12-altura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C12-posicao-x": {
+      "mm": 6150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C12-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C13-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-COZ"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C13-posicao-x": {
+      "mm": 5210.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C13-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C14-altura": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-Z"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E02:C14-posicao-x": {
+      "mm": 5150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-C14-X"
+      ],
+      "movel": "cozinha",
+      "prancha": "E02"
+    },
+    "E03:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:P14-L": {
+      "mm": 590.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "E03"
+    },
+    "E03:P14-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "E03"
+    },
+    "E03:P14-topo": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "E03"
+    },
+    "E03:P14-folga": {
+      "mm": 1680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "E03"
+    },
+    "E03:P14-largura": {
+      "mm": 590.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "E03"
+    },
+    "E03:P15-L": {
+      "mm": 835.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-base": {
+      "mm": 1650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-topo": {
+      "mm": 2230.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-folga": {
+      "mm": 370.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-largura": {
+      "mm": 835.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-altura-parametrica": {
+      "mm": 580.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:P15:folga nominal",
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:P15-topo-parametrico": {
+      "mm": 2230.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:P15:folga nominal"
+      ],
+      "movel": "P15",
+      "prancha": "E03"
+    },
+    "E03:Peca152-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca152"
+      ],
+      "movel": "Peca152",
+      "prancha": "E03"
+    },
+    "E03:Peca152-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca152"
+      ],
+      "movel": "Peca152",
+      "prancha": "E03"
+    },
+    "E03:Peca152-topo": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca152"
+      ],
+      "movel": "Peca152",
+      "prancha": "E03"
+    },
+    "E03:Peca152-folga": {
+      "mm": 1750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:Peca152"
+      ],
+      "movel": "Peca152",
+      "prancha": "E03"
+    },
+    "E03:Peca357-L": {
+      "mm": 1330.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca357"
+      ],
+      "movel": "Peca357",
+      "prancha": "E03"
+    },
+    "E03:Peca357-base": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca357"
+      ],
+      "movel": "Peca357",
+      "prancha": "E03"
+    },
+    "E03:Peca357-topo": {
+      "mm": 920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca357"
+      ],
+      "movel": "Peca357",
+      "prancha": "E03"
+    },
+    "E03:Peca357-folga": {
+      "mm": 1680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:Peca357"
+      ],
+      "movel": "Peca357",
+      "prancha": "E03"
+    },
+    "E03:Peca155-L": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca155"
+      ],
+      "movel": "Peca155",
+      "prancha": "E03"
+    },
+    "E03:Peca155-base": {
+      "mm": 1570.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca155"
+      ],
+      "movel": "Peca155",
+      "prancha": "E03"
+    },
+    "E03:Peca155-topo": {
+      "mm": 2100.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca155"
+      ],
+      "movel": "Peca155",
+      "prancha": "E03"
+    },
+    "E03:Peca155-folga": {
+      "mm": 500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV",
+        "R53:Peca155"
+      ],
+      "movel": "Peca155",
+      "prancha": "E03"
+    },
+    "E03:L01-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L01-posicao-x": {
+      "mm": 3500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L01-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L02-altura": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L02-posicao-x": {
+      "mm": 3400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L02-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L03-altura": {
+      "mm": 800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L03-posicao-x": {
+      "mm": 3620.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L03-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L04-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L04-posicao-x": {
+      "mm": 2760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L04-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L05-altura": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L05-posicao-x": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L05-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L06-altura": {
+      "mm": 1400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L06-posicao-x": {
+      "mm": 2680.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L06-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L07-altura": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L07-posicao-x": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L07-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L08-altura": {
+      "mm": 2150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L08-posicao-x": {
+      "mm": 2790.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L08-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L09-altura": {
+      "mm": 1400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L09-posicao-x": {
+      "mm": 2840.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L09-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L10-altura": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-Z"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L10-posicao-x": {
+      "mm": 3050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L10-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L11-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-LAV"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E03:L11-posicao-x": {
+      "mm": 3200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-L11-X"
+      ],
+      "movel": "P14,P15",
+      "prancha": "E03"
+    },
+    "E04:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:P18-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "E04"
+    },
+    "E04:P18-base": {
+      "mm": 200.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "E04"
+    },
+    "E04:P18-topo": {
+      "mm": 745.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "E04"
+    },
+    "E04:P18-folga": {
+      "mm": 1855.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "E04"
+    },
+    "E04:P18-largura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P18"
+      ],
+      "movel": "P18",
+      "prancha": "E04"
+    },
+    "E04:P19-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-base": {
+      "mm": 1150.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-topo": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-folga": {
+      "mm": 700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-largura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-altura-parametrica": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:P19:folga nominal",
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:P19-topo-parametrico": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:P19:folga nominal"
+      ],
+      "movel": "P19",
+      "prancha": "E04"
+    },
+    "E04:Peca399-L": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca399"
+      ],
+      "movel": "Peca399",
+      "prancha": "E04"
+    },
+    "E04:Peca399-base": {
+      "mm": 745.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca399"
+      ],
+      "movel": "Peca399",
+      "prancha": "E04"
+    },
+    "E04:Peca399-topo": {
+      "mm": 765.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca399"
+      ],
+      "movel": "Peca399",
+      "prancha": "E04"
+    },
+    "E04:Peca399-folga": {
+      "mm": 1835.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:Peca399"
+      ],
+      "movel": "Peca399",
+      "prancha": "E04"
+    },
+    "E04:Peca185-L": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca185"
+      ],
+      "movel": "Peca185",
+      "prancha": "E04"
+    },
+    "E04:Peca185-base": {
+      "mm": 765.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca185"
+      ],
+      "movel": "Peca185",
+      "prancha": "E04"
+    },
+    "E04:Peca185-topo": {
+      "mm": 900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca185"
+      ],
+      "movel": "Peca185",
+      "prancha": "E04"
+    },
+    "E04:Peca185-folga": {
+      "mm": 1700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN",
+        "R53:Peca185"
+      ],
+      "movel": "Peca185",
+      "prancha": "E04"
+    },
+    "E04:B01-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B01-posicao-x": {
+      "mm": 4260.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B01-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B02-altura": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B02-posicao-x": {
+      "mm": 4420.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B02-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B03-altura": {
+      "mm": 450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B03-posicao-x": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B03-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B04-altura": {
+      "mm": 200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B04-posicao-x": {
+      "mm": 3690.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B04-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B05-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B05-posicao-x": {
+      "mm": 3960.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B05-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B06-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B06-posicao-x": {
+      "mm": 4040.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B06-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B07-altura": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B07-posicao-x": {
+      "mm": 2900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B07-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B08-altura": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B08-posicao-x": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B08-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B09-altura": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B09-posicao-x": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B09-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B10-altura": {
+      "mm": 2300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-Z"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B10-posicao-x": {
+      "mm": 4340.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B10-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B11-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-BAN"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E04:B11-posicao-x": {
+      "mm": 3950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-B11-X"
+      ],
+      "movel": "P18,P19",
+      "prancha": "E04"
+    },
+    "E05:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:P01-L": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "E05"
+    },
+    "E05:P01-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "E05"
+    },
+    "E05:P01-topo": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "E05"
+    },
+    "E05:P01-folga": {
+      "mm": 468.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "E05"
+    },
+    "E05:P01-largura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P01"
+      ],
+      "movel": "P01",
+      "prancha": "E05"
+    },
+    "E05:P02-L": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-base": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-topo": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-folga": {
+      "mm": 160.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-largura": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-altura-parametrica": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02:folga nominal",
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P02-topo-parametrico": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02:folga nominal"
+      ],
+      "movel": "P02",
+      "prancha": "E05"
+    },
+    "E05:P03-L": {
+      "mm": 1350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-base": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-topo": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-folga": {
+      "mm": 160.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-largura": {
+      "mm": 1350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-altura-parametrica": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P03:folga nominal",
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:P03-topo-parametrico": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P03:folga nominal"
+      ],
+      "movel": "P03",
+      "prancha": "E05"
+    },
+    "E05:Q01-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Z"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q01-posicao-x": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q02-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Z"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q02-posicao-x": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q03-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Z"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q03-posicao-x": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q04-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Z"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q04-posicao-x": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q05-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q05-posicao-x": {
+      "mm": 1220.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Z"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E05:Q06-posicao-x": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-X"
+      ],
+      "movel": "P01,P02,P03",
+      "prancha": "E05"
+    },
+    "E06:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-L": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-base": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-topo": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-folga": {
+      "mm": 160.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-largura": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-altura-parametrica": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02:folga nominal",
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:P02-topo-parametrico": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P02:folga nominal"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q01-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Z"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q01-posicao-y": {
+      "mm": 1120.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q02-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Z"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q02-posicao-y": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q03-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Z"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q03-posicao-y": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q04-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Z"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q04-posicao-y": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q05-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q05-posicao-y": {
+      "mm": 2480.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Z"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E06:Q06-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Y"
+      ],
+      "movel": "P02",
+      "prancha": "E06"
+    },
+    "E07:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-L": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-base": {
+      "mm": 2132.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-topo": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-folga": {
+      "mm": 160.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-largura": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-altura-parametrica": {
+      "mm": 308.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P04:folga nominal",
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:P04-topo-parametrico": {
+      "mm": 2440.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P04:folga nominal"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:CabeceiraDoisPaineisR25-L": {
+      "mm": 1600.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:CabeceiraDoisPaineisR25"
+      ],
+      "movel": "CabeceiraDoisPaineisR25",
+      "prancha": "E07"
+    },
+    "E07:CabeceiraDoisPaineisR25-base": {
+      "mm": 200.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:CabeceiraDoisPaineisR25"
+      ],
+      "movel": "CabeceiraDoisPaineisR25",
+      "prancha": "E07"
+    },
+    "E07:CabeceiraDoisPaineisR25-topo": {
+      "mm": 1150.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:CabeceiraDoisPaineisR25"
+      ],
+      "movel": "CabeceiraDoisPaineisR25",
+      "prancha": "E07"
+    },
+    "E07:CabeceiraDoisPaineisR25-folga": {
+      "mm": 1450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:CabeceiraDoisPaineisR25"
+      ],
+      "movel": "CabeceiraDoisPaineisR25",
+      "prancha": "E07"
+    },
+    "E07:Q01-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Z"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q01-posicao-y": {
+      "mm": 1120.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q01-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q02-altura": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Z"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q02-posicao-y": {
+      "mm": 2880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q02-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q03-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Z"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q03-posicao-y": {
+      "mm": 1050.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q03-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q04-altura": {
+      "mm": 600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Z"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q04-posicao-y": {
+      "mm": 2950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q04-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q05-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q05-posicao-y": {
+      "mm": 2480.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q05-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Z"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E07:Q06-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-Q06-Y"
+      ],
+      "movel": "P04",
+      "prancha": "E07"
+    },
+    "E08:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:P16-L": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:P16-base": {
+      "mm": 480.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:P16-topo": {
+      "mm": 720.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:P16-folga": {
+      "mm": 1880.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:P16-largura": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:Peca110-L": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca110"
+      ],
+      "movel": "Peca110",
+      "prancha": "E08"
+    },
+    "E08:Peca110-base": {
+      "mm": 720.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca110"
+      ],
+      "movel": "Peca110",
+      "prancha": "E08"
+    },
+    "E08:Peca110-topo": {
+      "mm": 750.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca110"
+      ],
+      "movel": "Peca110",
+      "prancha": "E08"
+    },
+    "E08:Peca110-folga": {
+      "mm": 1850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:Peca110"
+      ],
+      "movel": "Peca110",
+      "prancha": "E08"
+    },
+    "E08:E01-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Z"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E01-posicao-x": {
+      "mm": 3000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E02-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Z"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E02-posicao-x": {
+      "mm": 4400.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E03-altura": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Z"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E03-posicao-x": {
+      "mm": 4800.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E04-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E04-posicao-x": {
+      "mm": 3700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E05-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Z"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E05-posicao-x": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Z"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E08:E06-posicao-x": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-X"
+      ],
+      "movel": "P16",
+      "prancha": "E08"
+    },
+    "E09:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-L": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-base": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-topo": {
+      "mm": 2450.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-folga": {
+      "mm": 150.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-largura": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-altura-parametrica": {
+      "mm": 550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:P17:folga nominal",
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:P17-topo-parametrico": {
+      "mm": 2450.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:P17:folga nominal"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E01-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Z"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E01-posicao-y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E02-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Z"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E02-posicao-y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E03-altura": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Z"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E03-posicao-y": {
+      "mm": 1760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E04-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E04-posicao-y": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E05-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Z"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E05-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Z"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E09:E06-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Y"
+      ],
+      "movel": "P17",
+      "prancha": "E09"
+    },
+    "E10:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:Peca130-L": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca130"
+      ],
+      "movel": "Peca130",
+      "prancha": "E10"
+    },
+    "E10:Peca130-base": {
+      "mm": 1920.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca130"
+      ],
+      "movel": "Peca130",
+      "prancha": "E10"
+    },
+    "E10:Peca130-topo": {
+      "mm": 1950.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca130"
+      ],
+      "movel": "Peca130",
+      "prancha": "E10"
+    },
+    "E10:Peca130-folga": {
+      "mm": 650.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:Peca130"
+      ],
+      "movel": "Peca130",
+      "prancha": "E10"
+    },
+    "E10:Peca131-L": {
+      "mm": 970.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca131"
+      ],
+      "movel": "Peca131",
+      "prancha": "E10"
+    },
+    "E10:Peca131-base": {
+      "mm": 820.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca131"
+      ],
+      "movel": "Peca131",
+      "prancha": "E10"
+    },
+    "E10:Peca131-topo": {
+      "mm": 1380.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca131"
+      ],
+      "movel": "Peca131",
+      "prancha": "E10"
+    },
+    "E10:Peca131-folga": {
+      "mm": 1220.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC",
+        "R53:Peca131"
+      ],
+      "movel": "Peca131",
+      "prancha": "E10"
+    },
+    "E10:E01-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E01-posicao-y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E01-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E02-altura": {
+      "mm": 850.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E02-posicao-y": {
+      "mm": 50.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E02-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E03-altura": {
+      "mm": 1000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E03-posicao-y": {
+      "mm": 1760.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E03-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E04-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-ESC"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E04-posicao-y": {
+      "mm": 1500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E04-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E05-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E05-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E05-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E06-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Z"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E10:E06-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-E06-Y"
+      ],
+      "movel": "escritorio",
+      "prancha": "E10"
+    },
+    "E11:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:Peca084-L": {
+      "mm": 1150.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca084"
+      ],
+      "movel": "Peca084",
+      "prancha": "E11"
+    },
+    "E11:Peca084-base": {
+      "mm": 250.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca084"
+      ],
+      "movel": "Peca084",
+      "prancha": "E11"
+    },
+    "E11:Peca084-topo": {
+      "mm": 1900.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca084"
+      ],
+      "movel": "Peca084",
+      "prancha": "E11"
+    },
+    "E11:Peca084-folga": {
+      "mm": 700.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL",
+        "R53:Peca084"
+      ],
+      "movel": "Peca084",
+      "prancha": "E11"
+    },
+    "E11:Peca085-L": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca085"
+      ],
+      "movel": "Peca085",
+      "prancha": "E11"
+    },
+    "E11:Peca085-base": {
+      "mm": 320.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca085"
+      ],
+      "movel": "Peca085",
+      "prancha": "E11"
+    },
+    "E11:Peca085-topo": {
+      "mm": 350.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca085"
+      ],
+      "movel": "Peca085",
+      "prancha": "E11"
+    },
+    "E11:Peca085-folga": {
+      "mm": 2250.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL",
+        "R53:Peca085"
+      ],
+      "movel": "Peca085",
+      "prancha": "E11"
+    },
+    "E11:Peca086-L": {
+      "mm": 1100.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca086"
+      ],
+      "movel": "Peca086",
+      "prancha": "E11"
+    },
+    "E11:Peca086-base": {
+      "mm": 1620.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca086"
+      ],
+      "movel": "Peca086",
+      "prancha": "E11"
+    },
+    "E11:Peca086-topo": {
+      "mm": 1650.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca086"
+      ],
+      "movel": "Peca086",
+      "prancha": "E11"
+    },
+    "E11:Peca086-folga": {
+      "mm": 950.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL",
+        "R53:Peca086"
+      ],
+      "movel": "Peca086",
+      "prancha": "E11"
+    },
+    "E11:Peca088-L": {
+      "mm": 1111.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca088"
+      ],
+      "movel": "Peca088",
+      "prancha": "E11"
+    },
+    "E11:Peca088-base": {
+      "mm": 770.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca088"
+      ],
+      "movel": "Peca088",
+      "prancha": "E11"
+    },
+    "E11:Peca088-topo": {
+      "mm": 1419.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:Peca088"
+      ],
+      "movel": "Peca088",
+      "prancha": "E11"
+    },
+    "E11:Peca088-folga": {
+      "mm": 1181.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL",
+        "R53:Peca088"
+      ],
+      "movel": "Peca088",
+      "prancha": "E11"
+    },
+    "E11:S01-altura": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Z"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S01-posicao-y": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Y"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S02-altura": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Z"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S02-posicao-y": {
+      "mm": 2500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Y"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S03-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S03-posicao-y": {
+      "mm": 3750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-Y"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S04-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S04-posicao-y": {
+      "mm": 4550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-Y"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S05-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Z"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E11:S05-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Y"
+      ],
+      "movel": "sala",
+      "prancha": "E11"
+    },
+    "E12:pe-direito": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:P20-L": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:P20-base": {
+      "mm": 0.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:P20-topo": {
+      "mm": 400.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:P20-folga": {
+      "mm": 2200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL",
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:P20-largura": {
+      "mm": 1800.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P20"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S01-altura": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Z"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S01-posicao-y": {
+      "mm": 2000.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S01-Y"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S02-altura": {
+      "mm": 1200.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Z"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S02-posicao-y": {
+      "mm": 2500.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S02-Y"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S03-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S03-posicao-y": {
+      "mm": 3750.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S03-Y"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S04-altura": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-SAL"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S04-posicao-y": {
+      "mm": 4550.0,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S04-Y"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S05-altura": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Z"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "E12:S05-posicao-y": {
+      "mm": null,
+      "origem": "nominal",
+      "fontes": [
+        "PR-PONTO-S05-Y"
+      ],
+      "movel": "P20",
+      "prancha": "E12"
+    },
+    "NC1:P02-vao-0": {
+      "mm": 272.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P02"
+      ],
+      "movel": "P02",
+      "prancha": "NC1"
+    },
+    "NC1:P03-vao-0": {
+      "mm": 272.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "NC1"
+    },
+    "NC1:P04-vao-0": {
+      "mm": 272.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P04"
+      ],
+      "movel": "P04",
+      "prancha": "NC1"
+    },
+    "NC1:P05-vao-0": {
+      "mm": 284.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P05"
+      ],
+      "movel": "P05",
+      "prancha": "NC1"
+    },
+    "NC1:P06-vao-0": {
+      "mm": 31.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "NC1"
+    },
+    "NC1:P06-vao-1": {
+      "mm": 369.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P06"
+      ],
+      "movel": "P06",
+      "prancha": "NC1"
+    },
+    "NC1:P09-vao-0": {
+      "mm": 556.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P09"
+      ],
+      "movel": "P09",
+      "prancha": "NC1"
+    },
+    "NC1:P10-vao-0": {
+      "mm": 180.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "NC1"
+    },
+    "NC1:P10-vao-1": {
+      "mm": 192.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "NC1"
+    },
+    "NC1:P10-vao-2": {
+      "mm": 258.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "NC1"
+    },
+    "NC1:P10-vao-3": {
+      "mm": 298.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P10"
+      ],
+      "movel": "P10",
+      "prancha": "NC1"
+    },
+    "NC1:P11-vao-0": {
+      "mm": 258.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "NC1"
+    },
+    "NC1:P11-vao-1": {
+      "mm": 298.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P11"
+      ],
+      "movel": "P11",
+      "prancha": "NC1"
+    },
+    "NC1:P12-vao-0": {
+      "mm": 548.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P12"
+      ],
+      "movel": "P12",
+      "prancha": "NC1"
+    },
+    "NC1:P14-vao-0": {
+      "mm": 532.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P14"
+      ],
+      "movel": "P14",
+      "prancha": "NC1"
+    },
+    "NC1:P15-vao-0": {
+      "mm": 544.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P15"
+      ],
+      "movel": "P15",
+      "prancha": "NC1"
+    },
+    "NC1:P16-vao-0": {
+      "mm": 204.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P16"
+      ],
+      "movel": "P16",
+      "prancha": "NC1"
+    },
+    "NC1:P17-vao-0": {
+      "mm": 514.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P17"
+      ],
+      "movel": "P17",
+      "prancha": "NC1"
+    },
+    "NC1:P19-vao-0": {
+      "mm": 226.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "NC1"
+    },
+    "NC1:P19-vao-1": {
+      "mm": 226.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "NC1"
+    },
+    "NC1:P19-vao-2": {
+      "mm": 226.0,
+      "origem": "nominal",
+      "fontes": [
+        "R53:P19"
+      ],
+      "movel": "P19",
+      "prancha": "NC1"
+    },
+    "DT1:PD": {
+      "mm": 2600.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA"
+      ],
+      "movel": "P03",
+      "prancha": "DT1"
+    },
+    "DT1:fechamento": {
+      "mm": 160.0,
+      "origem": "nominal",
+      "fontes": [
+        "PD-QUA",
+        "R53:P03"
+      ],
+      "movel": "P03",
+      "prancha": "DT1"
+    }
+  }
+}

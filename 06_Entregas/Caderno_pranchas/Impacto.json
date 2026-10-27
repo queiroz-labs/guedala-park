@@ -1,0 +1,160 @@
+{
+  "revisao": "R02",
+  "cad_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "primeira_geracao": false,
+  "alteracoes": [],
+  "avisos": [
+    {
+      "prancha": "PL3",
+      "mensagem": "Q06: sem coordenadas R01"
+    },
+    {
+      "prancha": "PL3",
+      "mensagem": "S05: sem coordenadas R01"
+    },
+    {
+      "prancha": "PL3",
+      "mensagem": "E05: sem coordenadas R01"
+    },
+    {
+      "prancha": "PL3",
+      "mensagem": "E06: sem coordenadas R01"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "Q06-X: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "Q06-Y: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "Q06-Z: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "S05-X: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "S05-Y: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "S05-Z: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E05-X: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E05-Y: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E05-Z: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E06-X: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E06-Y: a levantar"
+    },
+    {
+      "prancha": "PT2",
+      "mensagem": "E06-Z: a levantar"
+    },
+    {
+      "prancha": "E05",
+      "mensagem": "Q06-altura: a levantar"
+    },
+    {
+      "prancha": "E05",
+      "mensagem": "Q06-posicao-x: a levantar"
+    },
+    {
+      "prancha": "E06",
+      "mensagem": "Q06-altura: a levantar"
+    },
+    {
+      "prancha": "E06",
+      "mensagem": "Q06-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E07",
+      "mensagem": "Q06-altura: a levantar"
+    },
+    {
+      "prancha": "E07",
+      "mensagem": "Q06-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E08",
+      "mensagem": "E05-altura: a levantar"
+    },
+    {
+      "prancha": "E08",
+      "mensagem": "E05-posicao-x: a levantar"
+    },
+    {
+      "prancha": "E08",
+      "mensagem": "E06-altura: a levantar"
+    },
+    {
+      "prancha": "E08",
+      "mensagem": "E06-posicao-x: a levantar"
+    },
+    {
+      "prancha": "E09",
+      "mensagem": "E05-altura: a levantar"
+    },
+    {
+      "prancha": "E09",
+      "mensagem": "E05-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E09",
+      "mensagem": "E06-altura: a levantar"
+    },
+    {
+      "prancha": "E09",
+      "mensagem": "E06-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E10",
+      "mensagem": "E05-altura: a levantar"
+    },
+    {
+      "prancha": "E10",
+      "mensagem": "E05-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E10",
+      "mensagem": "E06-altura: a levantar"
+    },
+    {
+      "prancha": "E10",
+      "mensagem": "E06-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E11",
+      "mensagem": "S05-altura: a levantar"
+    },
+    {
+      "prancha": "E11",
+      "mensagem": "S05-posicao-y: a levantar"
+    },
+    {
+      "prancha": "E12",
+      "mensagem": "S05-altura: a levantar"
+    },
+    {
+      "prancha": "E12",
+      "mensagem": "S05-posicao-y: a levantar"
+    }
+  ]
+}
