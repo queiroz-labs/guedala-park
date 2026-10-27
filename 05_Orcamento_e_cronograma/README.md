@@ -38,3 +38,5 @@ P13: F13=A, Arenza liso nas duas faces (Elias,27/10/2026, resposta “a”); [pl
 Lixeiras: LIX=A (Elias,27/10/2026, resposta “A”); manter modelos e aceitar avanços7/6cm/retirada temporária da Loop se demonstrada. [Plano](Plano_execucao_ate_31_10.md) atualizado; gabarito físico pendente.
 
 Integração27/10 solicitada por Elias: R53 e fichas R15 incorporam as quatro decisões; pacote local R24, sem novo envio. Gabaritos, produtos e comprovações físicas continuam pendentes.
+
+**Anteprojeto, 27/10/2026:** [D01: três cenários de faseamento](Orcamento/Orcamento_R43.md#fechamento-aritmético-para-decisão-d01--27102026), execução condicional de R$118.937,84 a R$119.787,84, TV e reserva preservadas. Dependem de R$17.317,45 de negociação e decisão de faseamento; não são orçamento contratado. Redução comprovada ainda insuficiente.
