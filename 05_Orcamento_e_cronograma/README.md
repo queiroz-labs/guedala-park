@@ -27,6 +27,6 @@ T07 — memória anterior à proposta smart/Shelly: [consolidado](Orcamento/Orca
 
 T07 — agenda27/10: [cenários A/B](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam ou adiam TV da sala, com valores/perdas e metas separadas de descontos. A memória de iluminação4.415,94 é histórica; proposta vigente parcial4.938,62. R44 permanece137.748,11. Pergunta de faseamento no LEIA-ME do orçamento; nenhuma escolha adotada.
 
-Coerência26/10: M09/cortina do quarto é provisão indevida frente ao Registro21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira.
+Coerência26/10: M09/cortina do quarto é provisão indevida frente ao Registro21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira. A pergunta de faseamento no README do orçamento já usa os cenários corrigidos, sem contar essa retirada como desconto.
 
 **Controle diário27/10 preenchido antecipadamente em26/10:** entregas documentais, verificações, decisões e bloqueios separados no [plano](Plano_execucao_ate_31_10.md#9-controle-diário). Oficina/medidas não foram marcadas como concluídas. Janela de trabalho desta conversa termina27/10 às07:30 de Brasília; sem publicação/envios.

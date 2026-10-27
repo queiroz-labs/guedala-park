@@ -97,7 +97,7 @@ Preparados em26/10/2026, **sem adoção nem nova oferta negociada**. A base cont
 
 **Reserva:**10.000 fora de todos os valores. Totais com reserva: A131.729,28; B129.540,30 nesta fase. A margem459,70 de B não demonstra cobertura de acessórios/fretes/preços ainda desconhecidos. Não declarar orçamento fechado no teto. O adiamento da TV sozinho, sem as negociações, deixa135.559,13 de execução na base R44 e ainda excede em15.559,13.
 
-**Decisão R44 para Elias (também no README da área):** A — preservar tudo e pedir redução adicional de pelo menos1.729,28 mais lacunas; B — admitir faseamento da TV da sala, condicionado às negociações e à cobertura das lacunas. Resposta=__; data/fonte=__. Nenhuma alternativa retira equipamentos, cortinas ou armazenamento automaticamente. Não cortar RT, testes, proteção elétrica/gás, juntas ou ancoragens para fechar aritmética.
+**Decisão R44 para Elias (também no README da área):** A — preservar o escopo vigente e pedir redução adicional de pelo menos R$1.179,28 mais lacunas, já retirando M09 conforme a correção abaixo; B — admitir faseamento da TV da sala, condicionado às negociações e à cobertura das lacunas. Resposta=__; data/fonte=__. Nenhuma alternativa retira equipamentos, cortinas ou armazenamento automaticamente. Não cortar RT, testes, proteção elétrica/gás, juntas ou ancoragens para fechar aritmética.
 
 ## Divergência de escopo M09 — corrigir na próxima consolidação
 
