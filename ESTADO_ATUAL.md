@@ -82,7 +82,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
 | Banheiro | [Acesso ao quadro BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) | Desenho de acesso e vistoria |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
-| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | P13/Peca350 sem acabamento; nenhum corte ou compra aprovado |
+| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | P13/Peca350: pergunta F13 (Arenza ou Branco TX nas duas faces) no README; nenhum corte ou compra aprovado |
 
 ## Próximos passos
 
