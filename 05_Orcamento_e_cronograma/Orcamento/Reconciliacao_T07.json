@@ -1,0 +1,205 @@
+{
+  "status": "CENARIO_CONDICIONADO_NAO_ADOTADO",
+  "source_date": "2026-10-24",
+  "source": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json",
+  "groups_brl": {
+    "L01": "665.66",
+    "L02": "794.04",
+    "L03": "239.4",
+    "L04": "283.80",
+    "L05": "288.72",
+    "L06": "2002.00",
+    "L07": "142.32"
+  },
+  "items": [
+    {
+      "product": "Stella EVO STH21967/30",
+      "source_group": "C1",
+      "amount_brl": "239.4",
+      "allocation_brl": {
+        "L03": "239.4"
+      },
+      "condition": "Recomendado; confirmar lote, disponibilidade e giro dos armários"
+    },
+    {
+      "product": "Galaxy Firefly quadrado 9607 3000K",
+      "source_group": "L1",
+      "amount_brl": "141.9",
+      "allocation_brl": {
+        "L04": "141.9"
+      },
+      "condition": "Proposta coordenada com a cozinha; distribuição com varal pendente"
+    },
+    {
+      "product": "Nordecor EVY 2054 branca",
+      "source_group": "Q01/Q02",
+      "amount_brl": "142.32",
+      "allocation_brl": {
+        "L07": "142.32"
+      },
+      "condition": "Recomendado; confirmar interruptor próprio e envelope no lote"
+    },
+    {
+      "product": "Taschibra Jurerê branco 30cm 2xE27",
+      "source_group": "S1/E04",
+      "amount_brl": "101.8",
+      "allocation_brl": {
+        "L02": "101.8"
+      },
+      "condition": "Sala: corpo já escolhido; escritório: proposta. Uso com smart depende de encaixe/temperatura"
+    },
+    {
+      "product": "WiZ A60 RGB/brancos 806lm anunciada bivolt",
+      "source_group": "S1/E04",
+      "amount_brl": "395.88",
+      "allocation_brl": {
+        "L02": "395.88"
+      },
+      "condition": "Conciliar SKU/manual com unidade nacional; estoque não confirmado"
+    },
+    {
+      "product": "WiZmote",
+      "source_group": "S1/E04/E-TV/E-prateleiras",
+      "amount_brl": "372.96",
+      "allocation_brl": {
+        "L02": "186.48",
+        "L06": "186.48"
+      },
+      "condition": "Um comando para sala geral; três independentes no escritório. Suportes/pilhas a conferir"
+    },
+    {
+      "product": "WiZ Pro LED Strip RGBTW 2M Kit-C",
+      "source_group": "E-TV/E-prateleiras",
+      "amount_brl": "453.5",
+      "allocation_brl": {
+        "L06": "453.5"
+      },
+      "condition": "Kit com fonte/controlador segundo lojista; reconciliar EAN/manual/cortes e comprimento das prateleiras"
+    },
+    {
+      "product": "Arevo Jabuticaba C82P3",
+      "source_group": "S2",
+      "amount_brl": "359.73",
+      "allocation_brl": {
+        "L01": "359.73"
+      },
+      "condition": "Preservar vidro âmbar; preço da variante a confirmar"
+    },
+    {
+      "product": "Brilia MINI G9 314450 3,5W 3000K 127V",
+      "source_group": "S2",
+      "amount_brl": "86.13",
+      "allocation_brl": {
+        "L01": "86.13"
+      },
+      "condition": "Trio 10,5W: ensaio de dimerização obrigatório para fechar conjunto"
+    },
+    {
+      "product": "Sonoff D1",
+      "source_group": "S2",
+      "amount_brl": "109.9",
+      "allocation_brl": {
+        "L01": "109.9"
+      },
+      "condition": "Candidato de ensaio, compatibilidade do trio Brilia não comprovada"
+    },
+    {
+      "product": "Sonoff RM433 com base",
+      "source_group": "S2",
+      "amount_brl": "109.9",
+      "allocation_brl": {
+        "L01": "109.9"
+      },
+      "condition": "Conferir revisão compatível; não contar novamente base avulsa"
+    },
+    {
+      "product": "Cristallux COB CLX-FT431230, código 221506, rolo 5m",
+      "source_group": "C2/S3/Q06",
+      "amount_brl": "164.8",
+      "allocation_brl": {
+        "L06": "164.8"
+      },
+      "condition": "12V,12W/m,1200lm/m,IRC>90,corte25mm; um rolo para três grupos se comprimentos finais permitirem"
+    },
+    {
+      "product": "Opus OPS31002 12V 3A 36W",
+      "source_group": "C2/S3/Q06",
+      "amount_brl": "255.15",
+      "allocation_brl": {
+        "L06": "255.15"
+      },
+      "condition": "Uma por grupo; reservar maior envelope 276x21x20mm e conferir lote"
+    },
+    {
+      "product": "Nordecor MOV4329 branco, barra 2m",
+      "source_group": "C2/S3/Q06/E-prateleiras",
+      "amount_brl": "172.05",
+      "allocation_brl": {
+        "L06": "172.05"
+      },
+      "condition": "3 barras warm + provisão 2 barras escritório; largura interna/dissipação/pontas e cortes a verificar"
+    },
+    {
+      "product": "Controlador WT1 Tuya + Push-Dim",
+      "source_group": "C2/S3/Q06",
+      "amount_brl": "588",
+      "allocation_brl": {
+        "L06": "588"
+      },
+      "condition": "Um por grupo; exigir versão correspondente ao manual Skydance com entrada PUSH/GND"
+    },
+    {
+      "product": "Banheiro completo L02 já selecionado",
+      "source_group": "B09/B10/B11",
+      "amount_brl": "612.64",
+      "allocation_brl": {
+        "L04": "141.90",
+        "L05": "288.72",
+        "L06": "182.02"
+      },
+      "condition": "Inclui seus rolos/perfis/duas fontes; não duplicar em outros itens"
+    },
+    {
+      "product": "Taschibra Jurerê branco30cm2xE27",
+      "source_group": "Q-geral",
+      "amount_brl": "50.9",
+      "allocation_brl": {
+        "L02": "50.9"
+      },
+      "condition": "Corpo candidato para solução econômica do quarto; confirmar acomodação e uso das lâmpadas"
+    },
+    {
+      "product": "Philips SceneSwitch9W E27 branco-quente, três níveis",
+      "source_group": "Q-geral",
+      "amount_brl": "58.98",
+      "allocation_brl": {
+        "L02": "58.98"
+      },
+      "condition": "Exigir variante branco-quente3000K, mesma referência no par e manual do SKU nacional; anúncio agrega códigos quente/frio. Sem dimmer externo."
+    }
+  ],
+  "lighting_scenario_brl": "4415.94",
+  "lighting_budget_brl": "3540.00",
+  "difference_brl": "875.94",
+  "execution_budget_brl": "137748.11",
+  "execution_if_scenario_adopted_brl": "138624.05",
+  "old_bathroom_delta_brl": "10.62",
+  "old_delta_added_again": false,
+  "carpentry_provision_brl": {
+    "materials": "20800",
+    "hardware": "9200",
+    "services": "16500",
+    "total": "46500"
+  },
+  "exclusions": [
+    "Frete",
+    "Instalação, já tratada em I01",
+    "Botões de pressão e placas dos 3 WT1",
+    "Cabos, conectores, caixas, terminais e fixações complementares",
+    "Suportes/pilhas não confirmados nos kits",
+    "Perfis e extensões adicionais caso as medidas excedam as provisões"
+  ],
+  "new_prices_researched": false,
+  "cad_changed": false,
+  "global_budget_changed": false
+}

@@ -147,7 +147,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T07 — Orçamento e pacote para cotação | P1 | 29/10
 
-**Situação em 26/10:** parcial; [consolidado R44](Orcamento/Orcamento_R43.md) com estimativa de execução R$ 137.748,11 e divergências explícitas. Bloqueios: reconciliar iluminação (R$ 10,62), composição da marcenaria e [quantitativos das propostas](../04_Moveis/Quantitativos/README.md) com T03–T06; pacote de cotação em espera, metas sem economia obtida.
+**Situação em26/10:** reconciliação documental concluída nesta etapa no [consolidado R44](Orcamento/Orcamento_R43.md). CB02 por L01–L07:4.415,94 versus provisão3.540, diferença875,94 sem duplicar10,62. Marcenaria46.500 mantida como provisão; pedido/formulário separam base R52 e propostas condicionadas. Restam escolha/composição completa T06, preços comparáveis, planilha antiga e integração; pacote em espera, nenhuma cotação enviada ou economia obtida.
 
 - Consolidar a composição com os quantitativos resultantes de T03–T06. Usar a reconciliação de ferragens existente; incorporar Blum/calços/limitadores, Minifix e banco/cesto sem duplicar verbas.
 - Desdobrar a iluminação L02 nas linhas correspondentes; não somar seu total novamente ao orçamento.

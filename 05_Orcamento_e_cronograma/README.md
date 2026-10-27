@@ -22,3 +22,5 @@ T04/T05, 26/10: margens de engate do banco/cesto e cadeia dimensional do micro c
 T05 — P08/varal: percurso nominal P08 de 400 mm conferido contra obstáculos fixos; retirada e guias/batente delimitados. No varal, três cenários com roupa longa atingem o envelope da lixeira; distinguir curso vazio/carregado. Resultados e próximas entradas no [plano](Plano_execucao_ate_31_10.md).
 
 T05 — P01/P06 e banheiro: divergências das sete caixas versus FGVTN 500 identificadas por objeto; faixas de retirada e ferramenta do BC43 calculadas. [Plano e próximas ações](Plano_execucao_ate_31_10.md). Montagens ainda condicionadas, sem mudança da R52.
+
+T07 — reconciliação vigente: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença875,94), sem duplicar banheiro/10,62. Provisão marcenaria46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
