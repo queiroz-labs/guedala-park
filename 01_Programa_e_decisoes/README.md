@@ -31,3 +31,5 @@ IL07 complementada com Brilia 318939 para substituir a fita sem oferta; [roteiro
 Pedido preliminar R15 preserva estratégia comercial: três propostas comparáveis, sem revelar meta antes das respostas.
 
 [Pacote para Elias enviar hoje](../06_Entregas/Cotacao/index.html): páginas por destinatário, prazo, exclusões e retorno comercial/técnico. Não enviado.
+
+**Pranchas R02, 27/10/2026:** [20 folhas A3 e critérios](../06_Entregas/Caderno_pranchas/README.md); estimativa formal 80% após escalas, fonte CSV, R53, impacto e teste externo 2,60→2,47. Anteprojeto mantém avaliação independente; levantamento/interfaces/RT pendentes.

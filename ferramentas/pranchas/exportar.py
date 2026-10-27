@@ -79,10 +79,11 @@ def exportar():
 if os.environ.get('GP_PRANCHAS_FREECAD') == '1':
     exportar()
 elif __name__ == '__main__':
+    previous_mtime = OUT.stat().st_mtime_ns if OUT.exists() else None
     binary = Path(os.environ['LOCALAPPDATA']) / 'Programs/FreeCAD-1.1.4/bin/freecadcmd.exe'
     if not binary.exists():
         binary = Path.home() / 'AppData/Local/Programs/FreeCAD-1.1.4/bin/freecadcmd.exe'
     subprocess.run([str(binary), str(Path(__file__).resolve())],
                    env=dict(os.environ, GP_PRANCHAS_FREECAD='1', PYTHONDONTWRITEBYTECODE='1'), check=True)
-    if not OUT.exists():
+    if not OUT.exists() or OUT.stat().st_mtime_ns == previous_mtime:
         raise SystemExit('FreeCAD não produziu a exportação')

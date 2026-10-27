@@ -6,7 +6,7 @@
 
 [Roteiro do dia das chaves](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
 
-São **173 registros**, cobrindo os itens originais do roteiro e as verificações complementares. Não representam 173 medições feitas: incluem preparação, vistoria, documentos e referências. **Nenhum valor de campo preenchido.**
+São **530 registros**: 173 do roteiro e verificações complementares, mais 357 entradas escalares PR da geração A3 R02. Não representam medições feitas: incluem preparação, vistoria, documentos, referências e coordenadas nominais. **Nenhum valor de campo preenchido.**
 
 | Grupo | Cobertura |
 |---|---|
@@ -17,6 +17,7 @@ São **173 registros**, cobrindo os itens originais do roteiro e as verificaçõ
 | ANC e PISO | 8 paredes/ancoragens e 4 verificações de piso/nivelamento |
 | PTO-* | 50 códigos da planta de pontos; coordenadas reais a definir pelo RT |
 | OBS-* | 23 observações de outra unidade, sem correspondência presumida com PTO-* |
+| PR-* | Contornos, vãos, peitoris e eixos XYZ dos pontos para as pranchas R02; nominal/planta com fonte |
 
 Cada linha traz código, ambiente, valor nominal e sua natureza/fonte, tolerância e quem a define, Pxx, arquivos de ficha/prancha/README/orçamento e quem valida. Caminhos são relativos à raiz do repositório; `|` separa vários arquivos ou móveis. “a definir” é ausência de dado, nunca zero. Papéis de Elias, RT e oficina são indicações de validação, não contratação. `valor_medido` e `evidencia_campo` ficam vazios até a visita.
 
@@ -57,3 +58,5 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 **Histórico:** relatório R00 em HTML e texto R00. Use R01 com as correções de R02 para continuar. Os códigos dos quartos nas fotos foram mantidos para rastreabilidade; a identificação corrigida está no complemento.
 
 O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, somente no PC, fora do Git/site) foi recuperado da pasta antiga na unificação de 25/09/2026. Os pacotes originais dos levantamentos também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.
+
+**Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.

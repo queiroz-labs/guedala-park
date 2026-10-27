@@ -17,8 +17,8 @@
       "scope": "Medidas da parte principal do quarto. A área recuada não está incluída.",
       "match": "As medidas da planta correspondem à parte principal do desenho.",
       "medidas_csv": [
-        "PR-COTA-QUARTO-0",
-        "PR-COTA-QUARTO-1"
+        "DIM-01/0",
+        "DIM-01/1"
       ]
     },
     {
@@ -32,8 +32,8 @@
       "scope": "Distância entre as paredes internas da parte principal.",
       "match": "As medidas da planta correspondem ao desenho.",
       "medidas_csv": [
-        "PR-COTA-ESCRITORIO-0",
-        "PR-COTA-ESCRITORIO-1"
+        "DIM-02/0",
+        "DIM-02/1"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "scope": "Largura da sala. A medida de 5,15 m inclui sala e cozinha.",
       "match": "Os 5,15 m incluem a sala e a cozinha.",
       "medidas_csv": [
-        "PR-COTA-SALA-0"
+        "DIM-03/0"
       ]
     },
     {
@@ -59,7 +59,7 @@
       "scope": "Distância total entre a parede da sala e a parede da cozinha, pelo lado direito.",
       "match": "No desenho, corresponde ao trecho de y185 a700 cm.",
       "medidas_csv": [
-        "PR-COTA-SALA-COZINHA-0"
+        "DIM-04/0"
       ]
     },
     {
@@ -73,8 +73,8 @@
       "scope": "Medidas internas do banheiro. Esta vista não mostra os equipamentos.",
       "match": "As medidas da planta correspondem ao desenho.",
       "medidas_csv": [
-        "PR-COTA-BANHO-0",
-        "PR-COTA-BANHO-1"
+        "DIM-05/0",
+        "DIM-05/1"
       ]
     },
     {
@@ -88,8 +88,8 @@
       "scope": "Medidas internas indicadas na planta; o desenho foi compatibilizado com 1,54 m.",
       "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento.",
       "medidas_csv": [
-        "PR-COTA-LAVANDERIA-0",
-        "PR-COTA-LAVANDERIA-1"
+        "DIM-06/0",
+        "DIM-06/1"
       ]
     },
     {
@@ -103,8 +103,8 @@
       "scope": "Medidas da faixa indicada na planta. Elas não confirmam uma parede entre cozinha e lavanderia.",
       "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes.",
       "medidas_csv": [
-        "PR-COTA-COZINHA-0",
-        "PR-COTA-COZINHA-1"
+        "DIM-07/0",
+        "DIM-07/1"
       ]
     },
     {
@@ -118,8 +118,8 @@
       "scope": "0,90 m entre os acessos aos dormitórios e banheiro; 1,05 m do acesso ao quarto ao alinhamento lateral do banheiro. A ligação aberta com a sala aparece separada.",
       "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial.",
       "medidas_csv": [
-        "PR-COTA-CIRCULACAO-0",
-        "PR-COTA-CIRCULACAO-1"
+        "DIM-08/0",
+        "DIM-08/1"
       ]
     }
   ],
@@ -392,8 +392,8 @@
         "refs": [
           "PR-FLOORS-00-X",
           "PR-FLOORS-00-Y",
-          "PR-COTA-QUARTO-0",
-          "PR-COTA-QUARTO-1"
+          "DIM-01/0",
+          "DIM-01/1"
         ]
       },
       {
@@ -419,8 +419,8 @@
         "refs": [
           "PR-FLOORS-03-X",
           "PR-FLOORS-03-Y",
-          "PR-COTA-ESCRITORIO-0",
-          "PR-COTA-ESCRITORIO-1"
+          "DIM-02/0",
+          "DIM-02/1"
         ]
       },
       {
@@ -428,7 +428,7 @@
         "refs": [
           "PR-FLOORS-04-X",
           "PR-FLOORS-04-Y",
-          "PR-COTA-SALA-0",
+          "DIM-03/0",
           "PR-FLOORS-04-D"
         ]
       },
@@ -455,8 +455,8 @@
         "refs": [
           "PR-FLOORS-07-X",
           "PR-FLOORS-07-Y",
-          "PR-COTA-CIRCULACAO-0",
-          "PR-COTA-CIRCULACAO-1"
+          "DIM-08/0",
+          "DIM-08/1"
         ]
       },
       {
@@ -464,8 +464,8 @@
         "refs": [
           "PR-FLOORS-08-X",
           "PR-FLOORS-08-Y",
-          "PR-COTA-COZINHA-0",
-          "PR-COTA-COZINHA-1"
+          "DIM-07/0",
+          "DIM-07/1"
         ]
       },
       {
@@ -482,8 +482,8 @@
         "refs": [
           "PR-FLOORS-10-X",
           "PR-FLOORS-10-Y",
-          "PR-COTA-LAVANDERIA-0",
-          "PR-COTA-LAVANDERIA-1"
+          "DIM-06/0",
+          "DIM-06/1"
         ]
       },
       {
@@ -491,8 +491,8 @@
         "refs": [
           "PR-FLOORS-11-X",
           "PR-FLOORS-11-Y",
-          "PR-COTA-BANHO-0",
-          "PR-COTA-BANHO-1"
+          "DIM-05/0",
+          "DIM-05/1"
         ]
       },
       {

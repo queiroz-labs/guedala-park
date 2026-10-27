@@ -16,7 +16,7 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 2. Preencha `valor_medido` com unidade, por exemplo `2470 mm`, e registre origem/data em `evidencia_campo`; preserve o nominal.
 3. Rode o comando acima e abra `Impacto.html` e o PDF R02; confira avisos antes de encaminhar.
 
-`valor_medido` preenchido vence `valor_nominal_atual`. Vazio significa pendência. Entradas inválidas interrompem a geração com o código da medida. Cotas.json é o mapa entre contornos, cotas e códigos CSV; seus arrays antigos continuam como evidência da planta oficial, não são outra entrada de campo do gerador R02. Para medir posições PR, use os eixos X/Y indicados em PL1; não confundir coordenada com distância ao móvel. PR-WALLS identifica cada retângulo de parede da reconstrução; PR-PORTA/PR-JANELA identifica vão e peitoril. A medição de largura de ambiente não é suficiente para determinar todos os alinhamentos de paredes e vãos: levantar também esses registros.
+`valor_medido` preenchido vence `valor_nominal_atual`. Vazio significa pendência. Entradas inválidas interrompem a geração com o código da medida. Cotas.json é o mapa entre contornos, cotas e códigos CSV; seus arrays antigos continuam como evidência da planta oficial, não são outra entrada de campo do gerador R02. As dimensões oficiais usam os registros DIM-* existentes, inclusive cotas compostas (`2450 × 2950 mm`); cada eixo é vinculado em Cotas.json sem duplicar a entrada. Para medir posições PR, use os eixos X/Y indicados em PL1; não confundir coordenada com distância ao móvel. PR-WALLS identifica cada retângulo de parede da reconstrução; PR-PORTA/PR-JANELA identifica vão e peitoril. A medição de largura de ambiente não é suficiente para determinar todos os alinhamentos de paredes e vãos: levantar também esses registros.
 
 ## Índice
 
@@ -51,4 +51,12 @@ NC1 é triagem por envelopes de planos horizontais: não certifica vãos úteis 
 
 ## Verificações
 
-A3 conferido em PDF (20 páginas). Teste paramétrico externo e revisão visual final registrados após sua execução; não usar este parágrafo como comprovação de teste ainda pendente.
+**Teste externo 2,60 → 2,47 m, 27/10/2026: passou.** Cópia mínima descartável fora do repositório; seis registros PD receberam `valor_medido = 2470 mm`. As 12 elevações e DT1 mudaram; 99 cotas alteradas com antes/depois, prancha e móvel. P09–P12: folga de +50 para −80 mm, quatro avisos de ultrapassagem do teto. Suas alturas de estudo diminuíram 130 mm; as caixas R53 ficaram explícitas. Fechamento P03: 160 → 30 mm. Cópia apagada; CSV, FCStd e fatos originais conferidos por SHA.
+
+Repetição sem mudanças: zero alterações e PDF binariamente idêntico. Entrada de pé-direito negativo foi recusada sem substituir PDF/retrato anterior. Conversões m/cm/mm, zero versus vazio, precedência do medido e origem nominal das derivadas mistas conferidas. A linha de 2470 mm na elevação mede exatamente 98,8 mm no SVG 1:25.
+
+PDF: 20 páginas A3 (420 × 297 mm), carimbos em todas, textos dentro da moldura. Revisão visual por rasterização das folhas; chamadas de cotas distribuídas para eliminar sobreposição. PDF R00, FCStd e fatos sem diferença em relação ao início da tarefa.
+
+Repetir o teste: `python ferramentas/pranchas/testar.py --temporarios CAMINHO_FORA_DO_REPOSITORIO`. O script cria e apaga somente a própria cópia, sem alterar a base.
+
+**Pranchas formais: 80% estimados**, maturidade documental: fonte/rastreio 20, geração/escala 20, cobertura de plantas/elevações 25, impacto/ensaio 15. Os 20 restantes dependem de levantamento, fechamento das interfaces e revisão técnica. Não equivale a executivo de fabricação; o percentual de anteprojeto permanece separado.

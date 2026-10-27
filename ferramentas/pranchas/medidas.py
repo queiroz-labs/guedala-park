@@ -38,11 +38,24 @@ def carregar(root):
 
 
 def resolver(rows, code):
-    row = rows[code]
+    parent, _, component = code.partition('/')
+    row = rows[parent]
     measured = bool(row['valor_medido'].strip())
     raw = row['valor_medido'] if measured else row['valor_nominal_atual']
     try:
-        value = numero(raw, nominal=not measured)
+        if component:
+            # DIM-* já reúne cotas oficiais. Lê um eixo sem duplicá-lo em outra linha.
+            tokens=re.findall(r'(-?\d+(?:[.,]\d+)?)\s*(mm|cm|m)?',raw)
+            tokens=[(n,u) for n,u in tokens if n]
+            if measured and not re.fullmatch(r'\s*-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)?(?:\s*[×x;]\s*-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)?)*\s*',raw):
+                raise ValueError('Use cotas separadas por ×, com unidade: 2450 × 2950 mm')
+            index=int(component)
+            if index>=len(tokens):
+                raise ValueError('Falta um eixo na medida composta')
+            unit=tokens[index][1] or (tokens[-1][1] if tokens else '')
+            value=numero(tokens[index][0]+' '+unit)
+        else:
+            value = numero(raw, nominal=not measured)
     except ValueError as exc:
         raise ValueError(f'{code}: {exc}') from exc
     return Medida(value, 'medido' if measured else 'nominal', (code,))
