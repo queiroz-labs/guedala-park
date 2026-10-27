@@ -150,6 +150,36 @@ Shelly **R$223,25 no Pix**, reconferido em 26/10 na [4Tronics](https://loja.4tro
 
 **Limites e pendências:** Shelly tem limite de 4 A por canal, inferior aos 5 A do WT1; não transferir a capacidade automaticamente. Fontes 12 V/3 A/36 W permanecem candidatas: conferir carga final, perdas, consumo do controlador (<1,2 W) e condição térmica com instalador. Não redimensionar comprimentos nominais nesta etapa. Confirmar etiqueta SNDC-0D4P10WW, manual do lote e pulsador; depois conferir montagem, funcionamento do toque/pressão longa, retorno de energia e dimerização. Sem ensaio nesta etapa. A fonte permanece energizada para o controle funcionar. WiZ do escritório e SceneSwitch do quarto não entram nessa substituição.
 
+### Fontes Opus OPS 31002 — conferência documental
+
+Conferência em 26/10/2026 para os três conjuntos Shelly + COB quente, sem novos comprimentos, ensaios ou alteração do FreeCAD. **Manter três fontes como candidatas: tensão e potência nominais coerentes com o cenário existente; compatibilidade completa ainda depende da documentação do lote e da instalação.** Não há justificativa nominal nesta etapa para comprar fonte maior.
+
+| Item | Evidência e consequência |
+|---|---|
+| Identificação Opus | [Página oficial](https://opusled.com.br/produto/fonte-blindada-32w-12v/) e [ficha OPS 31002](https://opusled.com.br/datasheet/?produto=4160): **36 W, 3 A máximos, saída 12 V CC, entrada 100–240 V CA/50–60 Hz**, EAN 7898589031002 na página. Entrada nominal abrange os 127 V do projeto. O texto antigo “32w” no endereço não substitui os dados da ficha |
+| Revisão física | Ficha atual: **172 × 21 × 20 mm**, policarbonato, IP67, garantia de três anos. A [oferta usada na composição](https://luzdecasa.com.br/produto/fonte-12v-slim-opus-36-watts-3a-ip67-270x20x20mm-ac-31002/24454) identifica 270 × 20 × 20 mm no título/endereço. Não presumir mesmo corpo ou revisão; exigir etiqueta/fotos e manual do lote antes de definir alojamento |
+| Shelly | [Plus RGBW PM SNDC-0D4P10WW](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm): alimentação 12/24 V CC, consumo próprio <1,2 W; limite 4 A/canal e 10 A total. A fonte de 3 A limita o conjunto antes do limite agregado do controlador; suas saídas não aumentam a capacidade da fonte |
+| Fita | [Cristallux CLX-FT431230 / 221506 / EAN 7908024221506](https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-3000k-1200lm-m-ip65-480led-m-irc-90): 12 V, 12 W/m e dimerizável. A página ainda informa **0,1 A/m**, divergindo de **12 W/m ÷ 12 V = 1 A/m**; manter cálculo por potência e pedir correção/confirmar etiqueta, sem reduzir carga com base no campo inconsistente |
+
+**Conferência aritmética das cargas já registradas na CB01:** apenas inclusão do consumo do novo controlador, sem redimensionar trechos. Usa-se 1,2 W por Shelly como provisão conservadora frente ao valor publicado “<1,2 W”. Não inclui perdas dos cabos nem tolerâncias da fita/fonte.
+
+| Zona | Fita no cenário existente | Fita + provisão Shelly | Corrente equivalente a 12 V | Parcela nominal de 36 W |
+|---|---:|---:|---:|---:|
+| C2 bancada | 13,2 W | 14,4 W | 1,20 A | 40% |
+| S3 TV da sala | 12,0 W | 13,2 W | 1,10 A | 36,7% |
+| Q06 cabeceira | 24,0 W | 25,2 W | 2,10 A | 70% |
+
+O maior caso conserva **10,8 W de diferença nominal**, não uma margem térmica garantida. Essas cargas vêm dos trechos hipotéticos existentes, não de medições. A corrente equivalente inclui o controlador para conferir a fonte; a saída O1 conduz a corrente da fita. Um rolo inteiro de 5 m a 12 W/m exige 60 W só de fita e **não cabe em uma fonte de 36 W**; o rolo proposto será distribuído entre os três grupos se os cortes finais permitirem.
+
+**O que falta no produto:** a ficha Opus consultada não fornece tolerância/regulação dos 12 V, ripple, comportamento sem carga, carga mínima, curva de redução de potência com temperatura, classe de isolação/SELV ou descrição das proteções e da resposta a carga PWM. Não afirmar ausência dessas características: estão sem comprovação nos documentos consultados. O [catálogo oficial 2026, seção Fonte Blindada](https://opusled.com.br/wp-content/uploads/2026/03/catalogo26.pdf), no trecho indexado, indica operação de 0–40 °C para OPS 31002; o PDF integral excedeu o limite da ferramenta. Essa faixa não autoriza 36 W contínuos em qualquer alojamento, e IP67 não dispensa dissipação ou protege automaticamente as emendas.
+
+**Perguntas exatas para fechar documentalmente, ainda não enviadas:**
+
+- **Opus/revenda:** o lote oferecido é OPS 31002/EAN 7898589031002 de 36 W? Enviar etiqueta, dimensões e manual correspondentes; esclarecer corpo de 172 mm versus 270 mm. A saída é de tensão constante regulada? Quais tolerância, ripple, carga mínima, operação sem carga, potência contínua/curva térmica, proteções, isolação e requisitos de fixação/ventilação/conexões? É admitida alimentação permanente de controlador PWM a jusante, inclusive com a fita desligada? Considerar PWM Shelly de 833 Hz e opção de 22 kHz, sem presumir que ambas foram testadas.
+- **Cristallux:** confirmar 12 W/m e corrente real do código 221506, corrigindo a divergência 0,1 A/m; informar tolerância de potência e condições de dimerização PWM da revisão entregue.
+
+**Instalação e custo:** manter uma fonte por zona e a cadeia rede → fonte 12 V CC → Shelly → fita. Não pôr dimmer de corte de fase na entrada da fonte nem alimentar os kits WiZ por essas Opus; eles já incluem suas fontes. Seções, quedas de tensão, proteção das emendas, acesso e temperatura instalada ficam com RT/instalador após levantamento. Permanecem **3 × R$85,05 = R$255,15**, referência histórica da composição, sem preço/estoque reconfirmados nesta consulta. Cenário Shelly de R$4.554,72 e orçamento R44 preservados; nenhum acessório ou fonte adicional incluído.
+
 ## Consultas aos fornecedores — rascunhos não enviados
 
 Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos fornecedores da SceneSwitch, WiZ e Jurerê, pedindo as etiquetas e manuais que faltam, sem enviar ainda”. IL04–IL05 acrescentadas a pedido de Elias em 26/10/2026: “preparando as consultas à Tramontina e à Shelly […] sem enviar ainda”. Textos para copiar após revisão; nenhum envio, pedido de compra ou reserva de estoque realizado. Destinatário/canal deve ser conferido antes de eventual envio. Não anexar o projeto completo ou dados pessoais.
