@@ -91,3 +91,5 @@ Estudos P01/P02/P03: scripts em `roupeiro/`, com geometria extraída, conferênc
 R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI sobre R52; `site/exportar_cad.py` extrai o CAD vigente para fichas/site sem salvar. Verificação completa e relatório obrigatórios.
 
 `verificar_site.py` valida R24 como artefato local quando `publicationStatus=local_only`; não altera autorização. Teste específico mantém bloqueio de `--publication-ready` sem autorização.
+
+[Recálculo de medidas](medidas/README.md): dependências R53, cenários isolados e reprodução obrigatória no verificador geral.

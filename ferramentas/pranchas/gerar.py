@@ -4,6 +4,7 @@ Não abre nem modifica o CAD. As dimensões de construção vêm do CSV/JSON;
 constantes neste arquivo são somente paginação, escalas e estilos de desenho.
 """
 import hashlib
+import argparse
 from io import BytesIO
 from html import escape
 import json
@@ -62,11 +63,17 @@ def chamada(f, x, y, text, occupied, color='#263238'):
 
 
 class Projeto:
-    def __init__(self):
+    def __init__(self, cenario=None):
         self.rows = carregar(ROOT)
+        self.recalculo = None
+        if cenario:
+            sys.path.insert(0, str(ROOT/'ferramentas/medidas'))
+            from recalcular import entradas, base, calcular
+            self.rows = entradas(ROOT, cenario)
+            self.recalculo = calcular(self.rows, base(ROOT))
         self.doc = json.loads((ROOT/'06_Entregas/Planta_cotada/Cotas.json').read_text(encoding='utf-8'))
         self.data = self.doc['pranchas']
-        self.geo = json.loads((OUT/'Geometria.json').read_text(encoding='utf-8'))
+        self.geo = json.loads((ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))
         path = ROOT/self.geo['cad_path']
         if hashlib.sha256(path.read_bytes()).hexdigest() != self.geo['cad_sha256']:
             raise ValueError('Exportação desatualizada: executar exportar.py e verificação completa do modelo.')
@@ -81,6 +88,17 @@ class Projeto:
             boxes = [o['box'] for o in objs]
             self.modules[name] = dict(id=name, room=objs[0]['room'], label=name,
                 box=[min(b[i] for b in boxes) if i<3 else max(b[i] for b in boxes) for i in range(6)])
+        self.alterados = set()
+        if self.recalculo:
+            for name, box in self.recalculo['envelopes'].items():
+                obj = self.modules.get(name, self.objects.get(name))
+                if obj is None:
+                    raise ValueError('Alvo recalculado ausente da exportação: '+name)
+                if box != obj['box']:
+                    self.alterados.add(name)
+                if any(box[j+3] <= box[j] for j in range(3)):
+                    raise ValueError('Envelope recalculado não positivo: '+name)
+                obj['box'] = box
 
     def m(self, code):
         return resolver(self.rows, code)
@@ -119,6 +137,8 @@ class Projeto:
         if kind=='layout':
             for obj in self.objects.values():
                 b=obj['box']
+                if obj['module'] in self.alterados:
+                    continue  # Nunca esticar painéis, ferragens ou espessuras.
                 if b[5]<=0 or obj['label'].startswith(('glass','door','floor')):
                     continue
                 rect([b[0],b[1],b[3]-b[0],b[4]-b[1]],'#96a0a2')
@@ -209,7 +229,7 @@ class Projeto:
             name=obj['id'];b=obj['box']
             tag=name if name in names else 'A'+str(extras.index(name)+1)
             f.caixa(*project(b),'#405863',None,.35)
-            if name in self.modules:
+            if name in self.modules and name not in self.alterados:
                 for part in self.objects.values():
                     if part['module']==name:
                         f.caixa(*project(part['box']),'#a2aaac',None,.10)
@@ -229,7 +249,12 @@ class Projeto:
                 cota(f,name+'-largura',width,left,188+lane*7,right,188+lane*7,name)
             if gap.mm<0:
                 f.avisos.append(f'{name}: R53 ultrapassa o teto em {-gap.mm:g} mm; revisar peça/implantação.')
-            if name in upper:
+            if self.recalculo and name in upper:
+                # Cenário: fechamento real ao teto; não inventar redimensionamento da caixa.
+                valor(f,name+'-fechamento-recalculado',gap,name)
+                if gap.mm >= 0:
+                    f.caixa(ox+(b[a]-lo)/25,by-pe.mm/25,(b[a+3]-b[a])/25,gap.mm/25,'#25658c',None,.3)
+            if name in upper and not self.recalculo:
                 # Preserva a folga nominal de referência; ajusta a altura útil ao PD atual.
                 nominal_gap=cad(nominal_pe-b[5],name+':folga nominal')
                 target_top=pe.menos(nominal_gap)
@@ -242,7 +267,7 @@ class Projeto:
                     f.linha(ox+(b[a]-lo)/25,by-target_top.mm/25,ox+(b[a+3]-lo)/25,by-target_top.mm/25,'#25658c',.6,True)
                     f.texto(213,126+list(n for n in names if n in upper).index(name)*5,
                             name+' H estudo = '+valor(f,name+'-altura-parametrica',target_height,name)+'; base fixa / topo segue PD',2.5,'#25658c')
-        f.texto(25,217,'Traço azul: topo paramétrico; caixas cinza: R53 fixa.',3)
+        f.texto(25,217,'Azul: fechamento recalculado, não modelado; caixas conforme regras.' if self.recalculo else 'Traço azul: topo paramétrico; caixas cinza: R53 fixa.',3)
         f.texto(25,223,'Ajuste dimensional não define corte, fixação ou montagem.',3)
         for i,name in enumerate(extras):
             f.texto(213,158+i*4.5,'A'+str(i+1)+': '+self.objects[name]['label'][:95],2.4)
@@ -280,7 +305,7 @@ class Projeto:
         notes=['Envelope de estudo; espessura, juntas e acesso de montagem com oficina/RT.',
                'Não representa nova peça incorporada ao FCStd.',
                'Não reduzir automaticamente peças existentes para ocultar conflito.',
-               'P03 e aéreos: altura de estudo = PD - folga nominal - base R53.',
+               ('Cenário: caixa fixa; fechamento recalculado, não modelado.' if self.recalculo else 'P03 e aéreos: altura de estudo = PD - folga nominal - base R53.'),
                'Conferir teto em vários pontos; usar altura livre limitante no CSV.']
         yy=92
         for note in notes:
@@ -293,6 +318,9 @@ class Projeto:
         f.texto(15,40,'Módulo',3);f.texto(45,40,'Vãos verticais entre envelopes / de baixo para cima / mm',3)
         for i,(name,obj) in enumerate(self.modules.items()):
             b=obj['box']; parts=[]
+            if name in self.alterados:
+                f.texto(15,49+i*8,name+' — envelope alterado; vãos internos dependem de remodelagem.',2.7)
+                continue
             for o in self.objects.values():
                 if o['module']!=name:continue
                 bb=o['box'];dx,dy,dz=(bb[j+3]-bb[j] for j in range(3))
@@ -346,8 +374,8 @@ def finalizar(f, total, sha):
         f.texto(335,287,f'50 mm no papel = {50*f.escala:g} mm reais',2.4)
 
 
-def gerar():
-    p=Projeto()
+def gerar(cenario=None):
+    p=Projeto(cenario)
     pages=[p.plano('PL1','Planta cotada - paredes e aberturas','paredes'),
            p.plano('PL2','Planta de layout - envelopes R53','layout'),
            p.plano('PL3','Planta de pontos R01','pontos')]
@@ -367,8 +395,16 @@ def gerar():
                              'R00 preservado; esta revisão não foi publicada.',
                              'Ver Impacto.json: alterações, fontes e conflitos.']):cover.texto(240,60+i*10,line,3)
     pages.insert(0,cover)
+    if p.recalculo:
+        for f in pages:
+            f.texto(15,34,'CENÁRIO — recalculado, não modelado; conferir Impacto_moveis.json',2.5,'#9d2925')
+            for r in p.recalculo['resultados']:
+                if f.codigo in r['pranchas'] and r['status'] != 'OK':
+                    f.avisos.append(r['movel']+'/'+r['cota']+': '+r['status'])
     current={f.codigo+':'+k:v for f in pages for k,v in f.cotas.items()}
     previous_path=OUT/'Ultima_geracao.json'
+    if cenario and not previous_path.exists():
+        previous_path=ROOT/'06_Entregas/Caderno_pranchas/Ultima_geracao.json'
     previous=json.loads(previous_path.read_text(encoding='utf-8'))['cotas'] if previous_path.exists() else {}
     changes=[]
     for key in sorted(set(current)|set(previous)):
@@ -379,6 +415,7 @@ def gerar():
     for f in pages:finalizar(f,len(pages),p.geo['cad_sha256'])
     # PDF primeiro; nenhuma referência anterior avança se a renderização falhar.
     dest=BytesIO();pdf(pages,dest)
+    OUT.mkdir(parents=True,exist_ok=True)
     (OUT/'Guedala_Park_Pranchas_R02.pdf').write_bytes(dest.getvalue())
     for f in pages:(OUT/(f.codigo+'.svg')).write_text(f.svg(),encoding='utf-8')
     body=''.join(f'<section><img src="{f.codigo}.svg" alt="{escape(f.titulo)}"></section>' for f in pages)
@@ -395,6 +432,8 @@ def gerar():
     warnings=''.join('<li>'+escape(a['prancha']+': '+a['mensagem'])+'</li>' for a in report['avisos'])
     (OUT/'Impacto.html').write_text('<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Impacto R02</title><style>body{font:15px Arial;max-width:1100px;margin:30px auto}td,th{padding:8px;border-bottom:1px solid #ccc;text-align:left}li{margin:6px}</style><h1>Impacto da última geração R02</h1><p>'+str(len(changes))+' cotas alteradas. Comparação com a geração imediatamente anterior; primeira execução registra inclusão.</p><h2>Avisos</h2><ul>'+warnings+'</ul><h2>Antes → depois</h2><table><tr><th>Prancha:cota</th><th>Móvel</th><th>Alteração</th></tr>'+''.join(rows)+'</table></html>',encoding='utf-8')
     (OUT/'Ultima_geracao.json').write_text(json.dumps(dict(revisao='R02',cotas=current),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    if p.recalculo:
+        (OUT/'Impacto_moveis.json').write_text(json.dumps(p.recalculo,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'R02: {len(pages)} folhas; {len(current)} cotas; {len(changes)} alterações; {len(report["avisos"])} avisos.')
 
 
@@ -405,5 +444,16 @@ if __name__=='__main__':
         runtime=Path.home()/'.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
         if not runtime.exists():
             raise SystemExit('Instale reportlab no Python: python -m pip install reportlab')
-        raise SystemExit(subprocess.call([str(runtime),'-B',str(Path(__file__).resolve())],env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1')))
-    gerar()
+        raise SystemExit(subprocess.call([str(runtime),'-B',str(Path(__file__).resolve()),*sys.argv[1:]],env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1')))
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--cenario',type=Path)
+    parser.add_argument('--saida',type=Path)
+    args=parser.parse_args()
+    if args.cenario and not args.saida:
+        parser.error('--cenario exige --saida fora do repositório')
+    if args.saida:
+        output=args.saida.resolve()
+        if output==ROOT or ROOT in output.parents:
+            parser.error('--saida deve ficar fora do repositório')
+        OUT=output
+    gerar(args.cenario)

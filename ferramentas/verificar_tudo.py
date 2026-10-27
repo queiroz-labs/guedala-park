@@ -69,6 +69,7 @@ def main():
     tem_staged = any(git('diff', '--cached', '--name-only'))
     so_commit = ['--staged'] if (tem_staged and not ci) else []
     passos = [('modelo', ['ferramentas/verificar_modelo/verificar_modelo.py']),
+              ('dependencias', ['ferramentas/medidas/test_recalcular.py']),
               ('links', ['ferramentas/verificar_links.py'] + so_commit),
               ('tamanho', ['ferramentas/verificar_tamanho.py'] + so_commit),
               ('privacidade', ['ferramentas/verificar_privacidade.py'] + so_commit),

@@ -1787,7 +1787,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 940.0,
@@ -1812,7 +1813,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P05",
@@ -2406,7 +2408,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 940.0,
@@ -2431,7 +2434,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P06",
@@ -3025,7 +3029,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 952.5,
@@ -3050,7 +3055,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P07",
@@ -3644,7 +3650,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1020.0,
@@ -3669,7 +3676,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P08",
@@ -4263,7 +4271,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1200.0,
@@ -4288,7 +4297,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P09",
@@ -4911,7 +4921,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1200.0,
@@ -4936,7 +4947,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P10",
@@ -5559,7 +5571,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1200.0,
@@ -5584,7 +5597,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P11",
@@ -6207,7 +6221,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1200.0,
@@ -6232,7 +6247,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P12",
@@ -6855,7 +6871,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 1080.0,
@@ -6880,7 +6897,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "P13",
@@ -11917,7 +11935,8 @@
       "formula": "m(\"DIM-07/1\") - folga_inicio - folga_fim",
       "medidas": [
         "PR-FLOORS-08-Y",
-        "DIM-07/1"
+        "DIM-07/1",
+        "DEP-COZ-PRUMO"
       ],
       "folgas": {
         "folga_inicio": 920.0,
@@ -11940,7 +11959,8 @@
       "eixo": 1,
       "origem": "PR-FLOORS-08-Y",
       "dimensao": "DIM-07/1",
-      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados."
+      "justificativa_modo": "Sem decisão de redimensionar caixa; eletros, gavetas, ferragens e interfaces preservados. Folgas incluem espaço livre, outros módulos e circulação; não são arremates adotados.",
+      "prumo": "DEP-COZ-PRUMO"
     },
     {
       "movel": "Peca308",

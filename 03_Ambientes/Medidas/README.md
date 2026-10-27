@@ -26,3 +26,5 @@ Teste externo de 27/10/2026: seis PD medidos fictícios de 2470 mm prevaleceram 
 ## Dependências dos móveis
 
 [Regras da R53](../../04_Moveis/Dependencias/README.md) vinculam envelopes, teto, vãos e instalações ao CSV. DEP-COZ-PRUMO registra o desvio base/topo da parede da cozinha; zero nominal não comprova prumo.
+
+Recálculo disponível: `python ferramentas/medidas/recalcular.py`; [relatório nominal](../../04_Moveis/Dependencias/Impacto.md). Cenários com `--cenario` são sobreposições isoladas; pranchas exigem `--saida` externa. Teste de reprodução integrado ao verificador geral.

@@ -116,3 +116,9 @@ Calculadas como posição inicial menos origem do ambiente e fim do ambiente men
 As três extensões de cada envelope são fixas; o recálculo verifica encaixe nos limites do ambiente. Nove fechamentos seguem o teto. Portas/janelas e pontos hidráulicos/gás do ambiente são monitorados em coordenadas relativas, inclusive quando fora da projeção do móvel: não significam colisão. Bancadas: Peca308 cozinha, Peca357 lavanderia, Peca399 banheiro, Peca110 escritório.
 
 Mesa, sofá e cadeiras: independentes, fora das regras. Peças internas, furações, recortes, espessuras, movimento de portas, alinhamentos entre módulos e distribuição de sobras permanecem manuais: não há dependência executiva documentada para inferi-los. O desvio DEP-COZ-PRUMO é nominal zero (parede plana do modelo); medir base/topo com sinal positivo para dentro. Outros trechos precisam de levantamento próprio.
+
+## Executar e interpretar
+
+[Relatório nominal](Impacto.md) · [resultado completo](Impacto.json) · [comandos e testes](../../ferramentas/medidas/README.md). Reprodução: 469 fórmulas sem diferença nominal; 72 cotas de envelope conferidas diretamente contra R53. Os nove fechamentos e 388 referências são distâncias derivadas, não 397 peças modeladas.
+
+Prumo positivo reduz a folga de fundo dos módulos da cozinha: se a parede avançar 12 mm sobre uma caixa sem folga nominal, NÃO CABE, mesmo preservando sua dimensão. Limites de fabricação não documentados ficam nulos; não foi inventada tolerância de 50 mm. Esse número apenas seleciona perguntas de folga.

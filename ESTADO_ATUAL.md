@@ -103,3 +103,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
 **Medidas → móveis (27/10):** [dependências R53](04_Moveis/Dependencias/README.md), caixas fixas por padrão e referências de teto/vãos/pontos; sem medição real ou alteração CAD.
+
+**Recálculo dimensional:** comando e relatório nominal em [Dependências](04_Moveis/Dependencias/README.md); reprodução R53 integrada ao verificador e pranchas aceitam cenário isolado. Não altera fichas/CAD.
