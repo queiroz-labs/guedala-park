@@ -71,7 +71,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 | Móvel | Estudo | Falta |
 |---|---|---|
-| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | Produto/ensaio MDF, rigidez das juntas, soco e piso, carga do P02, fundo P01 inteiro (emenda) |
+| P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [Perguntas U1–U4](04_Moveis/Proximas_decisoes/P01_P03/README.md) de uso/carga P02; produto/ensaio MDF, juntas, soco/piso e fundo P01 inteiro |
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
 | P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
 | P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |

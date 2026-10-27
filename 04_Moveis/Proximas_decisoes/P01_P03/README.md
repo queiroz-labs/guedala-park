@@ -1,5 +1,21 @@
 # P01/P03 — equilíbrio da caixa completa e ligações compartilhadas
 
+## Decisões de uso P02 — agenda 27/10
+
+Preparado em 26/10/2026. **Sem resposta registrada; nenhuma opção adotada.** Escolher requisitos de uso não comprova capacidade do móvel. O projeto só volta ao dimensionamento quando houver uso definido e dados reais de material/juntas; não repetir as varreduras existentes para tentar escolher por Elias.
+
+| Pergunta fechada | Opção A | Opção B | Consequência que precisa ficar explícita |
+|---|---|---|---|
+| U1 — Qual conteúdo quer priorizar no P02? | Roupa de cama/volumes leves de uso eventual | Caixas/objetos densos e uso frequente | B exige atender concentrações e acesso repetido; A não significa peso nulo. As duas malas de10kg são requisito do P03, não carga automaticamente transferida para P02 |
+| U2 — Qual massa total de conteúdo quer solicitar como requisito inicial? | Até10kg no P02 inteiro | Até20kg no P02 inteiro | Valores incluem recipientes e conteúdo, além do peso próprio/ferragens tratado pelo projeto. Nenhum dos dois foi demonstrado como capacidade. Se os itens pesarem mais, suspender esta escolha e pesar/inventariar antes de definir outro requisito |
+| U3 — Aceita restringir objetos mais pesados à região apoiada, deixando a ponta do retorno para volumes leves? | Sim; aceita uma organização com zonas identificadas | Não; quer liberdade para colocar o conteúdo também na ponta | A reduz liberdade de armazenamento, mas não elimina ligação positiva e ensaio. B mantém o caso de ponta como requisito; os20kg na ponta já investigados não ficaram demonstrados |
+| U4 — Se a solução exigir mudança visível ou perda de vão para atender ao uso, qual caminho deve ser apresentado primeiro? | Preservar vãos/aparência e rever a carga/organização | Apresentar uma alternativa de detalhe com perda de vão/custo quantificados para nova decisão | B autoriza somente preparar comparação; não autoriza aplicar reforço, reduzir móvel ou modificar CAD |
+
+**Como registrar a resposta depois:** U1=__; U2=__; U3=__; U4=__; data/fonte=__. Até lá, manter pendência de uso/carga. Não rotular10kg como alternativa segura e20kg como alternativa insegura: falta demonstração do conjunto em ambos os casos.
+
+**O que não cabe a Elias dimensionar:** tipo/quantidade de fixador, rigidez C01, apoio ao piso, ensaio da chapa e corte do fundo P01. Projeto/oficina precisam apresentar produto, montagem e resultado; usuário decide uso e concessões. Não reabrir as duas portas independentes e a quina fixa do P02 nem a preferência A do P03 já registrada. No P01, permanecem fundo inteiro/fornecimento, juntas, soco e nivelamento; no P03, deformação e ferragens. [Bloqueios técnicos vigentes](../../P03/README.md).
+
+
 **P03/P02/piso:** [1728 casos acoplados](../../P03/README.md). C01:seis posições passantes candidatas;201N tração/33N cisalhamento na hipótese central. Divisória→base18→soco62:9900mm² nominais, base≈0,05mm. Produto/ensaioMDF, nivelamento, juntas e deformação superior pendentes;20kg não demonstrados. R52 preservada sem abrirCAD.
 
 25/10/2026. **P02 agora também está individualizado: o retorno exige uma ligação positiva no caso de carga concentrada investigado.** Foi preparada a topologia nominal P01/P03/P02, com proposta separada de topo P03 inteiro mais profundo. Não é dimensionamento das juntas, cálculo de flecha ou liberação de fabricação. A etapa anterior de equilíbrio P03 continua documentada abaixo e não deve ser confundida com este novo corte.
@@ -50,80 +66,15 @@ Dados novos: [geometria por painel](Geometria_P02_individual.json), [mapa de jun
 
 **Conferência:** hashR52 preservado. A execução completa anterior foi interrompida sem resultado; não está aprovada. A base de comparação hoje existe, mas não foi criada/ajustada neste estudo. Antes de integrarCAD, concluir as verificações exigidas. A matriz usa `organizar_entregas.py --somente-roupeiro`, preservando os demais17 móveis.
 
-## Etapa anterior — o que entrou no modelo de equilíbrio P03
+## Etapa anterior — consulta, sem nova varredura
 
-| Corpo P03 | Geometria nominal | Aplicação do peso |
-|---|---|---|
-| Laterais Peca259/Peca260 |18×650×308mm cada | No CG próprio de cada lateral |
-| Fundo Peca261 |1314×18×272mm | No CG próprio do fundo |
-| Base Peca262 |1314×632×18mm atual;1314×650×18 no cenário traseiro | Peso próprio, conteúdo e resultantes das duas folhas |
-| Topo Peca263 |1314×632×18mm | No CG próprio, sem transferi-lo previamente à base |
-| Folhas Peca264/Peca265 |670×237×18mm cada | Resultantes gravitacionais independentes nos seus CG; equivalentes na base pelo caminho inferiorRO62 |
+O estudo anterior tratava P03 por painéis e P02 como resultante agregada; não individualizava flexão/uniões do retorno. As três topologias eram R52 sem soco, soco sem traseiro e soco com fundo P01+18/base P03+18. Geometrias e hipóteses estão em [Geometria_interfaces.json](Geometria_interfaces.json) e [Interfaces_nominais.json](Interfaces_nominais.json); os54 cortes e12 equilíbrios em [Resultados_caixa.json](Resultados_caixa.json). O peso de todo o roupeiro não está contido nesse submodelo:38 madeiras inferiores, ferragens, conteúdos e espelho exigem o inventário global.
 
-As folhas não foram uniformizadas sobre a base. O modelo ainda não distribui a carga por carro/trilho: suas posições e massas comerciais não foram inferidas. A pose das folhas é a salva na R52; movimento e cargas horizontais não foram ensaiados aqui.
+Os [envelopes superiores](Envelopes_superiores.csv) mostram que o novo contato traseiro não garante alívio frontal; soco muda o caminho inferior, não o apoio superior. Limites por receptor não podem ser somados entre cenários. O acoplamento P02/P03 só vale com ligação positiva demonstrada.
 
-P01 entra com nove corpos portantes: lateraisP206/P207, fundoP208, baseP209, divisóriaP210, duas continuações laterais frontais e as faixas frontal inferior/superior. O P02 entra como **uma resultante agregada das suas dez madeiras**, com CG obtido por volumes BREP; a base emL real serve para localizar os contatos. Não se substituiu o L pelo seu retângulo envolvente. Não se calculou a flexão nem as ligações internas do retornoP02.
+Os12 [exemplos de ligação](Ligacoes_exemplos.csv) são soluções algébricas de norma mínima, normalizadas com1000mm; não representam rigidez, capacidade, partilha prevista nem quantidade de parafusos. O autoequilíbrio não nulo mostra que equilíbrio sozinho não determina envelope finito de esforços de junta: faltam curvas reais e compatibilidade. Contatos apenas normais não fecham as três topologias; isso exige especificar juntas, sem inferir falha física a partir desse modelo incompleto.
 
-As outras38 madeiras inferioresP01, equivalentes a129,557kg na hipótese800kg/m³, ficam fora deste submodelo por painel. Seu inventário global anterior continua necessário. As reações ao piso deste arquivo **não são o peso completo do roupeiro**; conteúdos inferiores, espelho e massas de ferragens também não foram acrescentados por presunção.
-
-## Três topologias comparadas
-
-| Variante | Corpos | Interfaces de face | Regiões de piso | Situação |
-|---|---:|---:|---:|---|
-| R52_sem_soco |15 |30 |2 | Geometria corrente dos corpos selecionados; apenas as duas laterais chegam ao piso |
-| soco_sem_traseiro |36 |98 |23 | Acrescenta21 peças do socoR01, ainda separado |
-| soco_e_traseiro |36 |102 |23 | Acrescenta o soco, fundoP01+18 de altura e baseP03+18 de profundidade, como no estudo anterior |
-
-As interfaces foram extraídas por interseção de faces BREP. Nas superfícies horizontais, quatro ou mais vértices delimitam a distribuição de contato: as forças são apenas compressivas. Ações tangenciais e pares em encontros laterais são incógnitas de **juntas positivas a projetar**, não propriedades de um conector escolhido.
-
-A extração completa também encontra uma pequena rota traseira que não deve ser perdida ao simplificar: o fundoP01 alongado apoia diretamente a lateralP03P259 em324mm², além dos23652mm² sob a baseP03 e11376mm² sob a baseP02. As três parcelas somam35352mm² da face superior do fundoP01. A lateral e a base não recebem duas referências inferiores independentes: descarregam na mesma chapaP208. O modelo preserva esse compartilhamento.
-
-Em cada corpo foram impostas seis equações: três forças e três momentos. Cada ação de interface entra com sinal oposto no corpo vizinho e no mesmo ponto global. A base/divisória, a travessa frontal, o fundo e o soco compartilham essas equações; não foram contados apoios independentes para uma mesma peça inferior.
-
-## Demandas que agora podem ser consultadas
-
-Foram calculados54 casos: três topologias, densidades hipotéticas650/800/900kg/m³, conteúdo0/10/20kg **em cada caixa superior** e conteúdoP03 distribuído ou na faixa frontal60mm. O conteúdoP02 usa o CG de estudo anterior(7115,3300,2290). São hipóteses de investigação, não pesos reais nem cargas autorizadas.
-
-O envelope no corteZ2132 satisfaz exatamente peso e dois momentos gravitacionais. Enumeram-se os vértices básicos admissíveis das pressões compressivas sobre os contatos: isso fornece limites estáticos de cada receptor, sem escolher rigidez de apoio. Um extremo concentrado num vértice é um limite ideal; não comprova pressão ou contato físico local. Os extremos de receptores diferentes não podem ser somados como se ocorressem juntos.
-
-Exemplo800kg/m³,20kg no P03 junto à frente e20kg no P02: as massas superiores são59,402kgP03 e47,841kgP02; com baseP03 alongada,59,743kgP03. Sem uma ligação positivaP02↔P03 demonstrada:
-
-| Topologia | Travessa frontal P01, soma simultânea P03+P02 | Fundo P01, soma simultânea |
-|---|---:|---:|
-| Geometria corrente |193,9–870,3N | Sem contato direto superior |
-| Soco, sem alongamento traseiro |193,9–870,3N | Sem contato direto superior |
-| Soco e alongamentos traseiros |107,1–870,4N |0–302,8N |
-
-Esses intervalos dependem da hipótese de contato superior compressivo e das resultantes dos dois módulos. O soco sozinho muda o caminho inferior, mas não a geometria do corte superior. O novo contato traseiro **não assegura** que a travessa frontal passe a receber pouca carga; o máximo estático praticamente não muda.
-
-Há uma alternativa de projeto distinta: uma junta positiva entre o P02 e a lateralP03 na faceX6740 permitiria que as duas caixas transferissem cargas entre si. No corte agregado, o mínimo estático frontal passa a0N; o máximo permanece cerca de870N nesse exemplo. Isso exige uma ligação a projetar, incluindo cisalhamento e pares. Não se adotou essa junta como existente apenas porque as faces encostam. O mínimo193,9/107,1N não é universal para qualquer construção possível.
-
-Os intervalos por receptor, por caixa e por caso estão em [Envelopes_superiores.csv](Envelopes_superiores.csv). O caso com ligaçãoP02↔P03 está separado no JSON, em `if_P02_P03_positive_cross_joint_is_designed`.
-
-## Por que a presença das chapas não fecha a resistência
-
-Um contracheque anterior do topo considerou, como concessão, um apoio traseiro emY3922–3940. A800, o topoP03 pesa117,272N e tem CGY3606, ficando316mm antes dessa região e exigindo ao menos37,058Nm através das ligações. **Correção geométrica da continuação:** esse apoio de face não existe no topo632 da R52; o encontro é somente uma aresta1314. O valor anterior deve ser lido como argumento hipotético, não como apoio BREP extraído. A nova hipótese topo650 cria a face, mas muda massa/CG e não herda automaticamente aquele número. Em nenhum caso encostar chapas encerra a resistência.
-
-O modelo só com contatos normais sem atrito é incompatível nas três topologias; mesmo liberando artificialmente os sinais das normais, as equações não fecham. Isso não prova que o móvel real falha: ele precisa de juntas, e é justamente a transmissão dessas juntas que ainda falta especificar.
-
-Com incógnitas positivas de junta, foram demonstrados12 equilíbrios completos: mínimo frontal, máximo frontal, máximo traseiro e mínimo frontal com acoplamentoP02↔P03, nas três topologias. Todos preservam compressão nos contatos horizontais e fecham forças/momentos individualmente em cada corpo. Os valores por interface estão em [Ligacoes_exemplos.csv](Ligacoes_exemplos.csv).
-
-Esses12 resultados são representantes algébricos de norma mínima, usando uma escala declarada de1000mm para comparar forças e momentos. **Não são partilha prevista, deslocamentos ou envelope de dimensionamento.** A escala é normalização numérica, não rigidez, resistência ou propriedade material.
-
-Foi construído um autoequilíbrio não nulo na própria caixaP03, envolvendo por exemplo a união lateralP259–fundoP261. Somá-lo ao resultado altera as forças/momentos das juntas sem mudar peso, reações de contato ou equilíbrio de qualquer corpo. O verificador somou1000 vezes esse modo e confirmou novamente os balanços. Logo as solicitações de juntas não têm um envelope finito determinado só por equilíbrio quando essas incógnitas são ilimitadas. É necessário introduzir a compatibilidade/curva real de ligação para escolher uma partilha física; nenhum valor mínimo obtido por pseudoinversa deve virar capacidade ou lista de parafusos.
-
-## Entrega fechada e próximo passo de projeto
-
-Ficam disponíveis agora:
-
-1. Geometria nominal e interfaces reais da caixa completaP03 e seus caminhosP01, sem uniformizar topo/fundo/laterais.
-2. Envelopes estáticos dos contatos superiores e solicitações simultâneas na travessa/fundo compartilhados, com e sem possível acoplamentoP02↔P03.
-3. Doze estados de forças/momentos por corpo e por junta, demonstrando os caminhos até o piso para os corpos selecionados.
-4. Prova quantitativa de que contatos normais não bastam e de que equilíbrio sozinho não especifica as juntas nem a flecha.
-
-Na continuação acima, a topologia passou a recomendar C01 positivo e o novo topo650 como estudos. O próximo passo permanece obter/desenhar os grupos reais e suas propriedades nas orientações de uso, incluindo a travessaP01; não atribuir uma mola por aresta e outra ao fundo como se fossem caminhos independentes.
-
-Para calcular deformação, faltam a constituição/propriedades direcionais da chapa e a lei das juntas escolhidas. A extensão matemática para uma “caixa rígida” que eliminasse a flecha anterior seria inválida sem esses dados. Esta entrega não repetiu esse atalho. O formato do fundoP01, detalhamento de emenda se necessária, aparência do soco, nivelamento/piso e retenção continuam condições separadas. Não houve contato externo ou ensaio físico.
+**Correção preservada:** o apoio traseiro do topo P03 emY3922–3940 era concessão hipotética; na R52 topo632 encontra fundo apenas em aresta1314. O estudo topo650 cria face, alterando massa/CG; não herda automaticamente os37,058Nm do argumento anterior. Os dados do P03 acoplado prevalecem sobre a antiga caixa isolada. Para deformação/resistência, obter chapa e lei de juntas, demonstrar fundo inteiro ou emenda, nivelamento, piso e retenção. Não presumir caixa rígida nem acrescentar molas sem fonte.
 
 ## Reprodução e verificação
 
