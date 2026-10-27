@@ -104,7 +104,7 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 ### T04 — Banco e cesto | P0 | 27/10
 
-**Situação em 26/10:** condicionada a componentes reais, corte axial dos pivôs, ligações e ensaio; [P20](../04_Moveis/P20/Assento_fechado/README.md) e [P14](../04_Moveis/P14/Reacoes_e_operacao/README.md) têm montagem nominal e [roteiro conjunto](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md), sem execução física. Oficina indisponível; consultas preparadas, não enviadas.
+**Agenda27/10 preparada em26/10:** [kit de oficina P20/P14](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md) com desenho de montagem/corte axial a completar, lista de amostras com fontes (subtotal conhecido260,52; não é custo completo) e12 registros vazios. Montagem definitiva/compra bloqueadas em perfil/apoio da piano, produto D/E, terminais, pilha do pivô e ligações; ensaio depende de oficina e plano do responsável. Zero ensaios, sem nova varredura ou alteração CAD.
 
 - P20: fechar nominalmente eixo/apoio da dobradiça piano, terminais dos articuladores, trava, batentes, fixações e acesso para destravar. Preservar duas tampas, duas almofadas e armazenamento.
 - P14: fechar pivôs, limitadores a 55°, retenção e retirada do saco. Verificar operação cheio/vazio e acesso de manutenção.
@@ -113,6 +113,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 **Pronto quando:** existe montagem nominal completa e um roteiro que permita à oficina testar sem redescobrir o projeto. Marcar ensaio concluído somente com evidência. Se faltarem dados do produto, salvar a pergunta exata e a versão condicionada.
 
 **Avanço documental T04, 26/10:** [margens de engate P14/P20](../04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026): 36 sensibilidades e 12 inversões conferidas. Condição geométrica para receber dados da trava explicitada, sem novos furos/ângulos, ensaio ou CAD. Componentes reais, eixo, curso de liberação e juntas continuam pendentes.
+
+**Continuidade27/10:** P02 tem [perguntas fechadas U1–U4](../04_Moveis/Proximas_decisoes/P01_P03/README.md) sobre uso, massa, concentração na ponta e concessões; nenhuma resposta inferida. Rigidez, juntas e produto seguem para projeto/oficina, sem nova varredura.
 
 ### T05 — Gavetas e interfaces dos ambientes | P0/P1 | 28/10
 
@@ -134,6 +136,8 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 **P01/P06 e banheiro — T05, 26/10:** [sete caixas](../04_Moveis/Inventario_dimensional/Gavetas/README.md) reconciliadas com a instrução FGVTN 500: P1 cabe, mas profundidade490/largura interna e engates representados não fecham a montagem. Proposta de 42 peças preparada: caixas 344/572 ×500, sete frentes preservadas; G2 conferido em sólidos (fundo 15, sem volume comum com bandejas); engate convencional sem gabarito, opcional 54TNOC12GAT3D com compatibilidade pendente. Consulta específica pronta/não enviada. [132 casos de ajuste/retirada](../04_Moveis/Inventario_dimensional/Gavetas/Ajuste_vertical_e_retirada.md): +3 com frente solidária conflita no P01 superior e zera folga superior P06; [fixação candidata](../04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md) com 28 pontos e dois alojamentos baixos G2 detalhada. Validação parcial: 512 combinações; seção11 não demonstrada, comparação de rebaixo3,5 não adotada, par candidato RECA01814 25/Ettinger003.06.941 identificado, sem tolerâncias/encaixe comprovados; matriz de10 requisitos de produto preparada, não enviada. Dianteira16 rastreada na extração R42, sem material/SKU e sem linha própria na lista P06; seis comparações15/16/18 documentadas, sem substituir chapa. Produto/chapa/retencão, usinagem e retirada após destrave pendentes antes de incorporar. [BC43](../03_Ambientes/Banheiro/Conferencia_bancada_porta.md#t05--manutenção-do-quadro-bc43-na-r52-26102026): faixas de retirada/manuseio e ferramentas explícitas; porta real, pega/apoio e produtos seguem condicionados. Nenhuma correção geométrica ou prova física declarada.
 
+**Lixeiras, preparação27/10:** [encaixe nominal proposto](../03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7cm Biovis/+6cm Loop remove sobreposições de parede no desenho, com1cm nominal. Pedal/tampa, passagem, varal e destino temporário exigem gabarito/medição. Nenhuma posição aplicada ao FreeCAD/site.
+
 ### T06 — Acabamentos, iluminação e equipamentos | P1 | 28–29/10
 
 **Situação em 26/10:** parcial; [corte por chapa física](../04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) reconciliado, sem compra/corte autorizado. Bloqueios: P13 e demais códigos/constituições, formato/substrato, veios, bordas/processo, componentes de iluminação e equipamentos; nenhuma segunda chapa 15 acrescentada automaticamente.
@@ -145,9 +149,11 @@ As tarefas abaixo são planejadas. A existência deste plano não marca sua exec
 
 **Pronto quando:** não há componentes indispensáveis omitidos; amostras e confirmação em campo aparecem como condições específicas. Posições executivas e dimensionamento de instalações seguem para revisão profissional.
 
+**Preparação27/10:** [pergunta F13](../04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) para Arenza ou Branco TX nas duas faces de Peca350, sem escolha; permanece excluída do corte. [Lista curta vigente](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md) agora traz16 subtotais, fontes/datas e bloqueios, sem reabrir requisitos smart/comandos comuns.
+
 ### T07 — Orçamento e pacote para cotação | P1 | 29/10
 
-**Situação em26/10:** reconciliação documental concluída nesta etapa no [consolidado R44](Orcamento/Orcamento_R43.md). CB02 por L01–L07:4.415,94 versus provisão3.540, diferença875,94 sem duplicar10,62. Marcenaria46.500 mantida como provisão; pedido/formulário separam base R52 e propostas condicionadas. Restam escolha/composição completa T06, preços comparáveis, planilha antiga e integração; pacote em espera, nenhuma cotação enviada ou economia obtida.
+**Agenda27/10 preparada em26/10:** [cenários A/B e perdas](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam escopo ou adiam TV; R44 mantida137.748,11. Proposta parcial de iluminação4.938,62, ainda não adotada; a memória4.415,94 é histórica. M09/cortina do quarto é provisão indevida frente ao Registro21/09: delta650 na estimativa/550 na meta, sem dupla contagem. Cenários corrigidos por escopo121.179,28/118.990,30 antes de lacunas, condicionados às negociações e decisão de faseamento. Marcenaria46.500 permanece provisão, pacote em espera.
 
 - Consolidar a composição com os quantitativos resultantes de T03–T06. Usar a reconciliação de ferragens existente; incorporar Blum/calços/limitadores, Minifix e banco/cesto sem duplicar verbas.
 - Desdobrar a iluminação L02 nas linhas correspondentes; não somar seu total novamente ao orçamento.
@@ -191,7 +197,7 @@ Cada sessão começa com um resultado delimitado e termina com arquivos salvos, 
 
 Usar IA de maior capacidade para cálculos, diagnósticos, conflitos entre fontes e compatibilização. Usar scripts já conferidos para extrações, regeneração e validação repetitivas. Limitar pesquisa ao dado que falta; quando duas opções viáveis bastarem, apresentar recomendação e consequência concreta.
 
-O plano original organizava sessões iniciadas pelo usuário. A autorização registrada neste plano em 25/10/2026 limitava as continuações no mesmo chat às 07:00 (America/Sao_Paulo); janela encerrada e automação pausada. Essa autorização não agenda o restante da semana; novas etapas seguem as instruções atuais do projeto.
+O plano original organizava sessões iniciadas pelo usuário. A autorização registrada neste plano em 25/10/2026 limitava as continuações no mesmo chat às 07:00 (America/Sao_Paulo); janela encerrada e automação pausada. Essa autorização não agenda o restante da semana. Nova janela nesta conversa,26/10/2026: “Trabalhe sozinho, sem parar, até as 07:30 de 27/10/2026 (horário de Brasília)”; sem push/publicação/envios ou alteração do FCStd, perguntas nos READMEs e mudança de frente em até30min de bloqueio. Às07:30, apenas relatório final; não autoriza continuação posterior.
 
 ## 6. Dependências e regras de corte
 
@@ -240,7 +246,7 @@ Preencher ao encerrar cada dia. “Concluído” exige o critério de aceite da 
 | 24/10 | Plano de execução criado | Links locais e estrutura conferidos na entrega | Execução técnica ainda planejada | T01 e consolidação das conclusões P11 |
 | 25/10 | Fechamento documental registrado em 26/10: [matriz 20/20](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md); P11 consolidado, P15/P04 desenvolvidos, P01/P20 iniciados; lote A/B e consultas locais preparados; R52 preservada | Memórias e conferências referenciadas por móvel; não equivalem a ensaios. Roupeiro 1728 casos condicionais e corte 249 IDs/215 incluídos/34 excluídos permanecem estudos | Projeto: rigidez superior P01/P03, mapas restantes; produto/oficina: juntas, composição P15, suspensão; Elias: carga P02, aparência e acabamentos; RT/imóvel: contatos, piso e parede | T02/T03: qualificar juntas/suspensão e preparar execução física P04; avançar implantação P17/P12 sem esperar genericamente pela Bigfer |
 | 26/10 | Em andamento: matriz 20/20 e registro 25/10; suspensão P17/P12 implantada nominalmente, com fontes e consultas locais; pacote físico P04 preparado | P17: 765 equilíbrios/1530 vetores; P12: 225/450, conferência independente; 19 verificações gerais sem atenção. Nenhum ensaio físico | Produto/oficina: Bigfer/fixadores/ferramenta, juntas/rigidez e contato inferior. Projeto: demais caminhos resistentes. Imóvel/RT: parede/ancoragens | Qualificar montagem e caixa dos aéreos; executar retalho T0/P04 em oficina. Dia 26 segue aberto; preservar agenda27–31 |
-| 27/10 | A preencher | A preencher | A preencher | A preencher |
+| 27/10 | Preparação antecipada em26/10: [kit P20/P14](../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md), perguntas U1–U4/F13, cenários R44 A/B, lista curta e [encaixe das lixeiras](../03_Ambientes/Cozinha/Encaixe_lixeiras.md). Coerência: quarto smart/Firefly, envelope versus saco, R23 e cortina M09 indevida. Etapa documental entregue; execução física condicionada | verificar_tudo.py:19 verificações,0 com atenção, OK nos commits;12 registros vazios, somas de custos e SVG/XML conferidos. Sem nova varredura ou ensaio | Elias: uso/carga P02, acabamento P13, faseamento e concessões das lixeiras. Produto/oficina: ferragens, ligações/pivôs, preços completos e ensaio. Imóvel: folgas/piso/instalações | Responder opções nos READMEs; obter dados sem presumir envio e executar gabarito/protótipo com responsável. Integrar somente após condições atendidas; preservar30–31/10 |
 | 28/10 | A preencher | A preencher | A preencher | A preencher |
 | 29/10 | A preencher | A preencher | A preencher | A preencher |
 | 30/10 | A preencher | A preencher | A preencher | A preencher |
