@@ -62,4 +62,4 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.
 
-Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R25** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). Publicação R53/R25 autorizada por Elias em 27/10/2026; conferência remota registrada em [Entregas](06_Entregas/README.md).
+Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R25** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). R53/R25 publicado com autorização de Elias em 27/10/2026; alturas, PDF e ZIP conferidos, evidência registrada em [Entregas](06_Entregas/README.md).

@@ -18,10 +18,10 @@
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "publication_authorized",
+  "publicationStatus": "published",
   "lastPublishedCadRevision": "R53",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
-  "lastPublishedPackageRevision": "R24",
+  "lastPublishedPackageRevision": "R25",
   "notes": "R25: alturas nominais por ambiente, 2,60 m nos cômodos e 2,50 m no banheiro; fonte CSV comum ao site e pranchas A3 R02. Medidas a confirmar; CAD R53 e fichas R15 preservados. Elias, 27/10/2026, nesta conversa: altera a altura de todos os comodos para 2,6 e o banheiro para 2,5; pode dar commit push e atualizar o site.",
   "technicalDocuments": [
     {
