@@ -164,3 +164,43 @@ Para verificar a robustez de D01, retirar **somente** a correção M09=650 e os 
 - Manter D01-C como direção de cotação, não autorização de contratação. Receber três propostas comparáveis antes de negociar a meta; os [rascunhos](../../01_Programa_e_decisoes/Rascunhos_emails.md) não revelam os valores-alvo no texto enviado.
 
 Os cortes concretos de escopo precificados nessa contraprova somam **R$2.141,44** (650+641,44+300+550); saldo necessário **R$16.945,70**, além das lacunas. Não há base documental para chamá-lo de desconto obtido. Se as propostas não couberem, Elias terá de decidir uma mudança maior de escopo/prazo; não reduzir armazenamento, ferragens ou reserva silenciosamente.
+
+
+## D05 — plano de escopo sem descontos presumidos
+
+27/10/2026. **Aguardando Elias; nenhum móvel retirado do projeto.** D03-B reduz a luz em R$241,49: o teto anterior de marcenaria R$29.312,81 passa a **R$29.554,30 instalado**. A base fora da marcenaria é R$90.445,70, já com M09 retirado e M05/M06/M08 adiados para cotação. Estes três adiamentos não se repetem na tabela abaixo. O C04 aparece uma única vez em cada caminho.
+
+**Como ler os valores:** não há orçamento R15 por móvel. A provisão atual de R$46.500 é global (materiais20.800 + ferragens9.200 + serviços16.500). Os valores por móvel abaixo são **créditos-alvo de escopo**, ancorados na coluna histórica “Antes” do [plano de22/10](Marcenaria_35mil/Plano_marcenaria_35mil.md#distribuição-para-cotação), cuja soma era46.550. Não se transporta esse rateio para a R15 como preço: a diferença histórica50 e os custos comuns tornam indispensável a proposta discriminada. Não são descontos, preços de móveis prontos nem economia comprovada. Para os totais fecharem, a oficina deve oferecer o pacote remanescente pelo teto de cada caminho, instalado, sem transferir custos para outras rubricas.
+
+### Móveis a adiar e efeito explícito
+
+| Móvel / intervenção proposta | Crédito-alvo (R$) | Caminhos | Perda nesta fase e ferragens afetadas | Reversibilidade / condição |
+|---|---:|---|---|---|
+| C01 cabeceira estofada |1.500,00| A/B/C | Sem painel/estofamento e apoio macio; cama existente mantida | Comprar depois; D04 deverá usar suporte/perfil independente acessível, com custo adicional cotado, sem depender da cabeceira ausente |
+| C03 encosto e duas almofadas do banco |1.400,00| A/B/C | A/C: banco sem encosto acolchoado; B: banco também adiado | Compra posterior; proteger parede e conferir uso sem encosto; não retirar apoio estrutural do banco |
+| C04 painel e duas prateleiras TV |1.600,00| A/B/C | Perde ocultação de fios e duas prateleiras; TV e suporte A02 mantidos | Instalação independente e PS5/régua precisam solução cotada; alvo histórico1.600 não acumula com meta850 da D01 |
+| C05 prateleiras e suportes de acessórios do escritório |600,00| A/B/C | Perde todo armazenamento aberto deste complemento e suas ferragens; não retirar sustentação da TV | Só adiar se TV/acessórios puderem ficar em suporte independente/bancada existente no escopo, sem custo omitido |
+| P16 duas gavetas sob bancada |1.300,00| B/C | Perde as duas gavetas e os dois conjuntos MOVENTO400 nesta fase; objetos sem esse armazenamento | Preservar bancada C02 e seus apoios próprios; cotar interface para acrescentar gavetas depois |
+| P17 aéreo fechado do escritório |3.100,00| B/C | Perde todo o volume fechado e suas prateleiras/portas/ferragens; bancada permanece | Comprar após nova verba; conteúdo não pode ser presumido acomodado em outro móvel; nada de trocar ferragem por inferior |
+| P02 canto em L |1.300,00| B | Perde o armazenamento de canto e as duas portas/ferragens; uso leve definido anteriormente fica sem destino | Somente se oficina demonstrar independência dos módulos retidos; não eliminar suporte ou fechamento necessário de P01/P03 |
+| P03 maleiro |1.800,00| B | Perde espaço previsto para duas malas de bordo e portas/ferragens do módulo | Guardar malas exige destino aceito por Elias; não reduzir portas ou capacidade silenciosamente |
+| P04 aéreo da cabeceira |1.400,00| B | Perde todo armazenamento superior do quarto, portas e ferragens | Reinstalação futura com nova mobilização; indireta D04 precisa suporte independente acessível |
+| P20 banco-baú |3.500,00| B | Perde assentos do banco, todo volume do baú e mecanismos/piano/articuladores; mesa e três cadeiras mantidas | Comprar depois; não substituir por banco sem baú presumindo mesma função; C03 já está adiado, sem dupla contagem |
+
+Todos os módulos **retidos** conservam espessuras, cores, armazenamento interno, ferragens e fechamento ao teto especificados, incluindo roupeiro P01, cozinha P05–P13, lavanderia P14/P15, banheiro P18/P19 e bancada C02. Não há tubos ou quadro metálico substituto. C06/arremates e serviços necessários permanecem; não aplicar desconto proporcional de montagem. Adiar um módulo até o teto altera o escopo da primeira etapa, não autoriza encurtar os demais. Se a independência de um módulo não for demonstrada, não usar seu crédito.
+
+### Três caminhos comparáveis
+
+| Caminho | Escopo adiado na marcenaria | Crédito-alvo | Teto do pacote remanescente | Execução estimada | Decisão financeira necessária |
+|---|---|---:|---:|---:|---|
+| A — cortes leves | C01+C03+C04+C05 |5.100,00|41.400,00|131.845,70| Subir execução em11.845,70; reserva10.000 preservada, total de recursos141.845,70 |
+| B — faseamento amplo | A + P16+P17+P02+P03+P04+P20 |17.500,00|29.000,00|119.445,70| Mantém teto120.000 e reserva10.000; margem apenas554,30, antes das lacunas |
+| C — intermediário | A + P16+P17 |9.500,00|37.000,00|127.445,70| Subir execução em7.445,70 **ou** usar7.445,70 da reserva, deixando2.554,30 |
+
+Aritmética: execução =90.445,70 + pacote remanescente. Em C com aumento de verba, recursos totais137.445,70 preservam reserva10.000; com uso da reserva, recursos totais130.000, execução127.445,70 e reserva2.554,30. **São alternativas, não soma das duas.** Em A, usar toda a reserva ainda deixaria déficit1.845,70; parte da reserva não basta. Em B, não tratar554,30 como sobra disponível: suporte da TV/indireta, fretes, acessórios e segunda mobilização ainda sem preço podem excedê-la. Cada R$1 de crédito não obtido ou custo novo acrescenta R$1 ao total.
+
+**D05 — Qual mudança de escopo/verba desenvolver para cotação, sem contar descontos? A) cortes leves C01/C03/C04/C05 (R$131.845,70; aumentar verba emR$11.845,70, preserva armazenamento fechado); B) faseamento amplo de10 módulos/complementos (R$119.445,70; perde maleiro/canto/aéreo do quarto, armazenamento do escritório e banco-baú, reserva intacta); C) cortes leves mais P16/P17 (R$127.445,70; perde armazenamento do escritório, preserva quarto e banco; aumentar verba emR$7.445,70 ou usar esse valor da reserva, restandoR$2.554,30). Recomendação: C para cotação com aumento explícito da verba, se esse aporte for possível, porque preserva armazenamento do quarto e assento/baú sem consumir a reserva. SeR$120mil for rígido, cotar B somente após aceitar as perdas e obter pacote≤R$29mil; não substituir silenciosamente C por B.** Fonte dos valores e limites na tabela acima. Ao responder C, indicar “aumento de verba” ou “reserva”; nenhuma opção altera a verba vigente antes da resposta.
+
+**Referência solicitada do pacote35mil:** se vier uma proposta real instalada de35.000, sem outros descontos, execução125.445,70 exige aumentar verba em5.445,70 ou usar5.445,70 da reserva (saldo4.554,30). Isso é uma condição de proposta futura, não um quarto caminho garantido. Mantendo os46.500 integrais, execução136.945,70 exige aporte16.945,70 com reserva preservada; mesmo usar toda a reserva deixa6.945,70 a financiar. Nenhum desses números inclui lacunas ainda sem cotação.
+
+Não se propõe móvel pronto sem produto, preço entregue e encaixe confirmados. Os caminhos acima são adiamentos concretos, reversíveis após as chaves e nova verba, com perda temporária de função explícita. Retomar interfaces somente com escolha de Elias e dados de oficina, sem refinar estudos nominais nesta janela.

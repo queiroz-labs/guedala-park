@@ -41,7 +41,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; SVG conferido visualmente; coordenadas nominais, D04/saída de luz e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias27/10; SKUs e escolha final pendentes |
-| Orçamento | 60% | R44: R$137.748,11. [D01](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários condicionaisR$118.878,25–119.728,25 com luz4.879,03; dependem de17.317,45 de negociação e faseamento. TV mantida (Elias27/10, “A”); reserva intocada; sem descontos, teto marcenaria29.554,30; não fechado |
+| Orçamento | 60% | R44: R$137.748,11. D01-C para cotação (Elias27/10), não contratação. Luz4.879,03; teto marcenaria sem descontos29.554,30. [D05](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A131.845,70/B119.445,70/C127.445,70, com perdas e créditos condicionais; aguarda Elias; reserva intocada |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
