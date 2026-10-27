@@ -44,12 +44,12 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 | Ver o cronograma da obra e o que comprar antes | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) |
 | Imprimir as pranchas (A3) | [Caderno de pranchas R00 (PDF)](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
 | Escolher luminárias | [Lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md) |
-| Ver luminárias nos ambientes | [Simulações CB02](https://queiroz-labs.github.io/guedala-park/docs/09_Referencias/Iluminacao_CB02/Galeria.md.html) · [quarto econômico e três níveis de brilho](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md) |
+| Ver luminárias nos ambientes | [Simulações CB02](https://queiroz-labs.github.io/guedala-park/docs/09_Referencias/Iluminacao_CB02/Galeria.md.html) · [quarto smart, custo e condições de uso](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md) |
 | Ver o que falta para virar projeto oficial | [Roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md) |
 | Conferir o que falta resolver | [Pendências de projeto, oficina e apartamento](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/Pendencias.html) |
 | Continuar antes de receber o apartamento | [Avanços, resultados e pendências sem medidas reais](04_Moveis/Proximas_decisoes/README.md) |
 | Anotar as medidas reais do apartamento | [Folha de levantamento por móvel](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/Levantamento.html) |
-| Conferir os acabamentos definidos | [Branco TX nos interiores e padrões nas faces aparentes](https://queiroz-labs.github.io/guedala-park/docs/ferramentas/site/fabrication/Decisao_acabamentos_R13.md.html) |
+| Conferir os acabamentos definidos | [Um padrão por chapa física; interiores separados quando detalhados](https://queiroz-labs.github.io/guedala-park/docs/ferramentas/site/fabrication/Decisao_acabamentos_R13.md.html) |
 | Consultar a planta de origem | [Planta oficial em PDF](https://queiroz-labs.github.io/guedala-park/docs/09_Referencias/Plantas_e_manuais/Planta_oficial.pdf) |
 
 ## Para encaminhar ao montador

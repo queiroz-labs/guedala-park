@@ -21,8 +21,8 @@ Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização
 | P03 maleiro — duas malas de bordo | [Volume, passagem e dobradiças](P03/README.md): Elias prefereA672 ×306; corredor nominal602/1203 em86° com uma/duas abertas. Grupo3/extremos202 em estudo; produto, fixações/caixa e terceira mala condicionados |
 | P04 / P15 | [Suspensão P04/P15](P04/Suspensao_P04_P15/README.md) · [Composição parcial P15](P15/Composicao_parcial/README.md) |
 | P09 / P11 / P12 / P17 | [Suspensão dos aéreos](Aereos_suspensao/README.md) · [P11 sem tubos](P11/Ligacoes_sem_tubos/Resultado_R00.md) · [P17 base e fundo](P17/Base_fundo_ligacoes/README.md) |
-| P12 acima da geladeira | [Caixa e suspensão candidata](P12/README.md):fundo548 preservado; acesso e225equilíbrios nominais; produto/juntas/ensaios pendentes |
-| P14 / P20 (cesto e banco) | [Reações e operação do cesto](P14/Reacoes_e_operacao/README.md) · [Assento fechado](P20/Assento_fechado/README.md) · [Cesto simples](Banco_e_cesto/Cesto_simples) · [Fixação Southco](Banco_e_cesto/Fixacao_Southco) |
+| P12 acima da geladeira | [Caixa e suspensão candidata](P12/README.md):fundo548 preservado; acesso e 225 equilíbrios nominais; produto/juntas/ensaios pendentes |
+| P14 / P20 (cesto e banco) | [Reações e operação do cesto](P14/Reacoes_e_operacao/README.md) · [Assento fechado](P20/Assento_fechado/README.md) · [kit de oficina vigente](P20/Assento_fechado/Roteiro_banco_cesto.md) · [Southco histórico](Banco_e_cesto/Fixacao_Southco) |
 | P16 e bancada | [Gavetas e estabilidade](P16/Gavetas_estabilidade/README.md) · [Interface guia–fundo](P16/Interface_guia_fundo/README.md) · [Bancada](Bancada/README.md) |
 | Banheiro, gavetas, mesa e portas (estudos de 21/10) | [Avanço de pendências](Avanco_pendencias/Avanco_pendencias.html) |
 
@@ -32,7 +32,7 @@ Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização
 
 Cada chapa física tem um padrão igual nas duas faces. Duas peças separadas podem usar cores diferentes: externa18mm no padrão do projeto e interna15mm BrancoTX, desde que existam e sejam identificadas. Não presumir que todo móvel já tenha caixa dupla; conferir os33mm e seus efeitos antes de acrescentá-la. P03 atual tem chapas únicas18, sem caixa interna15 contínua.
 
-[Regra vigente](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) · [auditoria de248 IDs](Acabamentos_por_peca.csv) · [resumo por móvel](Acabamentos_por_peca.json). Foram identificadas88 atribuições anteriores de cores opostas em umID, em19móveis; espelhos aplicados são componentes separados. O inventário distingue intenção anterior e padrão atual, sem alterar geometria ou liberar fabricação.
+[Regra vigente](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md) · [auditoria de248 IDs](Acabamentos_por_peca.csv) · [resumo por móvel](Acabamentos_por_peca.json). Foram identificadas88 atribuições anteriores de cores opostas em umID, em 19 móveis; espelhos aplicados são componentes separados. O inventário distingue intenção anterior e padrão atual, sem alterar geometria ou liberar fabricação.
 
 ## Diretriz de fechamento até o teto — 26/10/2026
 

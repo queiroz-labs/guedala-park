@@ -1,6 +1,6 @@
 # Pacote R17 selado — registro da entrega anterior
 
-**Publicação corrente R52/R18:** pacote R18 · [estado do envio e conferência remota](../../../ESTADO_ATUAL.md). O R17 documentado abaixo fica selado, com bytes e hash preservados. Os comandos e verificações abaixo são o registro do preparoR17; a configuração corrente passa àR18 e não deve ser usada para regenerar este ZIP histórico.
+**Publicação corrente R52/R23:** pacote R23 · [estado do envio e conferência remota](../../../ESTADO_ATUAL.md). O R17 documentado abaixo fica selado, com bytes e hash preservados. Os comandos e verificações abaixo são o registro do preparoR17; a configuração corrente é R23 e não deve ser usada para regenerar este ZIP histórico.
 
 25/10/2026. **Entregue um novo pacote local R17 com o FreeCAD R52**, as fichas R14 atuais, a planta, o caderno de especificações e o visualizador que funciona sem internet. Nenhum envio, commit, push ou deploy foi realizado. R16, aliases antigos e a pasta `.site` anterior foram preservados byte a byte.
 
