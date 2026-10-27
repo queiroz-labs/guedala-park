@@ -1,6 +1,6 @@
 # Lista curta vigente — luminárias e madeira do banheiro
 
-Revisão comercial de 27/10/2026. Esta lista substitui as sugestões R00 de Liny/ECO para toda a casa; segue a [proposta vigente](README.md), sem escolher por Elias nem alterar a R44. Preços sem frete/instalação; oferta não comprova compatibilidade. **Cenário parcial do conjunto: R$5.041,60**, com exclusões abaixo.
+Revisão comercial de 27/10/2026. Esta lista substitui as sugestões R00 de Liny/ECO para toda a casa; segue a [proposta vigente](README.md), sem escolher por Elias nem alterar a R44. Preços sem frete/instalação; oferta não comprova compatibilidade. **Cenário parcial do conjunto: R$5.120,52**, com exclusões abaixo.
 
 ## Luminárias, lâmpadas e controles — onde comprar e o que falta
 
@@ -17,7 +17,7 @@ Consulta web em 27/10/2026; páginas podem estar em cache. Comprar/estoque anunc
 | Brilia miniG9 314450,3,5W3000K127V | 3 | R$28,71 / R$86,13 | [André Iluminação](https://www.andreiluminacao.com.br/lampadas-led/lampada-led-mini-g9-dimerizavel-3-5w-127v-314450-brilia), reconsultado27/10, à vista; prazo anunciado5dias úteis não inclui transporte. Compatibilidade D1 exige ensaio |
 | Sonoff D1 / RM433 com base | 1 de cada | R$109,90 cada / R$219,80 | Analphabot: [D1, SKU de loja KWC6QBJS5](https://analphabot.lojaintegrada.com.br/sonoff-d1-dimmer-inteligente-compativel-com-alexa-e-google-assistant) e [RM433+base, SKU MQU8G25TG](https://analphabot.lojaintegrada.com.br/sonoff-rm433-controle-remoto-8-teclas-rf-433mhz), oferta nacional disponível27/10; ensaio com G9 permanece pendente |
 | Leitura, Nordecor EVY2054 branca | 2 | R$71,16 / R$142,32 | [LED RS](https://www.ledrs.net/arandela-led-evy-3000k-3w-bivolt-30x7-5cm-aluminio-branco-nordecor-2054), reconsultado27/10, boleto. Confirmar interruptor e envelope do lote; uma por lado |
-| Banheiro, pacote L02 atualizado comercialmente | 1 | R$625,72 / R$625,72 | Teto9605 R$129,00 + COB4000 rolo R$169,26 + SMD3000 rolo R$62,56 (provisão antiga) +2fontes R$98,91 +2perfis R$33,54. Fontes abaixo; substituir apenas preços da composição histórica, sem duplicar componentes |
+| Banheiro, pacote L02 atualizado comercialmente | 1 | R$704,64 / R$704,64 | Teto9605 R$129,00 + COB4000 rolo R$169,26 + Brilia318939 rolo R$141,48 +2fontes R$98,91 +2perfis R$33,54. Fontes abaixo; substituir apenas preços da composição histórica, sem duplicar componentes |
 
 ## Indiretas e componentes necessários
 
@@ -30,14 +30,14 @@ Consulta web em 27/10/2026; páginas podem estar em cache. Comprar/estoque anunc
 | Shelly Plus RGBW PM SNDC-0D4P10WW | 3 ×R$223,25 =R$669,75 | [4Tronics](https://loja.4tronics.com.br/produtos/shelly-plus-rgbw-pm/), referência26/10 no CB02, Pix. Substituem os3WT1; fontes continuam separadas |
 | Pulsadores e placas candidatos | 3 ×(R$9,00 +R$6,90) =R$47,70 | Elétrica Cotia: [57115027](https://eletricacotia.lojaintegrada.com.br/modulo-pulsador-para-campainha-tramontina-10-a-250-v-branco-57115027) e [57106204](https://eletricacotia.lojaintegrada.com.br/placa-4x2-1-posto-horizontal-tramontina-liz-c-sup-br-ref57106204). Oferta nacional; contato no sinal CC específico depende IL04/05 |
 
-**Soma dos subtotais: R$5.041,60.** Atualiza os preços das fontes, perfis, pulsadores e Firefly; não acrescenta itens duplicados. DiferençaR$1.501,60 frente aosR$3.540 da R44 não foi incorporada. Faltam frete, conexões, cabos, caixas, terminações, fixações, comandos comuns não reaproveitáveis, pilhas/suportes ausentes e possíveis adaptações/extensões. Mão de obra elétrica em I01, cobertura a conferir. Ausência de preço não vale zero.
+**Soma dos subtotais: R$5.120,52.** Atualiza os preços das fontes, perfis, pulsadores, Firefly e substituição da fita do banheiro; não acrescenta itens duplicados. DiferençaR$1.580,52 frente aosR$3.540 da R44 não foi incorporada. Faltam frete, conexões, cabos, caixas, terminações, fixações, comandos comuns não reaproveitáveis, pilhas/suportes ausentes e possíveis adaptações/extensões. Mão de obra elétrica em I01, cobertura a conferir. Ausência de preço não vale zero.
 
 **Bloqueios para comprar:** IL02/IL03 (SKU e uso WiZ/Jurerê), IL04/IL05 (pulsador), IL06/IL07 (fontes/fitas) e IL08/IL09 (kits/variantes/luminárias). [Rascunhos prontos, não enviados](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados). Não repetir estudo nominal nem trocar para Liny/ECO/SceneSwitch para ignorar os bloqueios. Cozinha/lavanderia/banheiro continuam com interruptor comum; quarto smart continua requisito.
 
 
 ### Rastreio do banheiro e correção Firefly
 
-Teto: [9605 redondo3000K, Paris Luz/Leroy](https://www.leroymerlin.com.br/plafon-de-sobrepor-firefly-redondo-branco-30cm-led-25w-3000k-bivolt_1572798083), R$129 anunciado, validade exibida17/10: revalidar antes de compra. Espelho: [COB4000 Cristallux, loja3R código1513](https://www.3reletrica.com.br/fita-de-led-cob-480led/m-ip65-4000k-12v-5-metros-dimerizavel-cristallux), R$169,26 à vista, oferta nacional. Indireta: CLX-FT200530/021965, R$62,56 é provisão24/10, página da3R não recuperada em27/10; não chamar de oferta confirmada. [Fabricante identifica produto e3000K](https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-5mt-12v-4-8w-m-3000k-460lm-m-ip65-60led-m-irc-80). Cotar substituto12V3000K de mesma função com fornecedor, sem presumir intercambialidade elétrica.
+Teto: [9605 redondo3000K, Paris Luz/Leroy](https://www.leroymerlin.com.br/plafon-de-sobrepor-firefly-redondo-branco-30cm-led-25w-3000k-bivolt_1572798083), R$129 anunciado, validade exibida17/10: revalidar antes de compra. Espelho: [COB4000 Cristallux, loja3R código1513](https://www.3reletrica.com.br/fita-de-led-cob-480led/m-ip65-4000k-12v-5-metros-dimerizavel-cristallux), R$169,26 à vista, oferta nacional. Indireta: **Brilia318939**, substituta proposta da Cristallux021965 sem oferta recuperada. [Fabricante](https://brilia.com/produtos/residencial-e-comercial/fita-led-48wm-ip65) confirma12V,4,8W/m,3000K,IP65, rolo5m, largura8mm. [Belluce, SKU BLL604418](https://www.belluce.com.br/bll604418-fita-de-led-4-8wm-3000k-irc-80-530lmm-12v-angulo-120-brilia-318939): **R$141,48 Pix**, compra disponível, prazo anunciado7dias úteis, consulta27/10. Troca preserva função3000K e comando comum; muda fluxo declarado e passo de corte. Fonte/perfil, montagem e proteção das terminações devem ser conferidos pelo fornecedor/RT; não afirmar equivalência de iluminância. Acréscimo **R$78,92** frente à provisão62,56, já incluído no total704,64 do banheiro e5.120,52 geral. Não somar a fita antiga.
 
 [Catálogo Galaxy do quadrado3000K](https://galaxyled.com.br/produtos?product=PLAFON+FIREFLY+25W+3000K+QUADRADO&uniqMod=000108&uniqProd=0000025892&uniqTp=00080) identifica9608. Oferta9607 não serve para essa especificação.
 
@@ -47,9 +47,9 @@ Teto: [9605 redondo3000K, Paris Luz/Leroy](https://www.leroymerlin.com.br/plafon
 
 Cada Jurerê+2WiZ+WiZmote custa provisoriamenteR$376,32; candidatoElgin reduzR$241,49 por ambiente. Dois kitsWiZ do escritório e seus dois controles permanecem, com SKU de fábrica/compatibilidade pendentes; identificação do anúncio do kit: **kf72hc7016**, não é código do fabricante.
 
-**D03 — Como tratar as gerais smart sem oferta nacional com SKU conciliado? A) manter Jurerê/WiZ aguardando IL02/03 (conjunto parcialR$5.041,60; preserva aparência e comando proposto); B) propor Elgin somente no quarto (R$4.800,11; muda uma luminária e exige resolver comando físico); C) propor Elgin nas três gerais (R$4.317,13; economiaR$724,47, muda as três e exige resolver comando físico). Recomendação: A enquanto se consulta fabricante/revenda, pois B/C não comprovam equivalência do comando físico.** Se Elias aceitar mudar esse requisito, C tem a maior economia. Nenhuma alternativa fecha ainda todos os acessórios, fretes ou respostas técnicas.
+**D03 — Como tratar as gerais smart sem oferta nacional com SKU conciliado? A) manter Jurerê/WiZ aguardando IL02/03 (conjunto parcialR$5.120,52; preserva aparência e comando proposto); B) propor Elgin somente no quarto (R$4.879,03; muda uma luminária e exige resolver comando físico); C) propor Elgin nas três gerais (R$4.396,05; economiaR$724,47, muda as três e exige resolver comando físico). Recomendação: A enquanto se consulta fabricante/revenda, pois B/C não comprovam equivalência do comando físico.** Se Elias aceitar mudar esse requisito, C tem a maior economia. Nenhuma alternativa fecha ainda todos os acessórios, fretes ou respostas técnicas.
 
-Não foi possível fechar oferta nacional equivalente integral para WiZ/WiZmote e SMD3000 nesta consulta. Esses itens ficam **aguardando decisão/consulta**, com custo provisionado, e não contam como seleção comercial concluída. Preços antigos nos estudos CB02/L02 são memória; esta lista prevalece para comparação de27/10.
+Não foi possível fechar oferta nacional equivalente integral para WiZ/WiZmote nesta consulta. Esses itens ficam **aguardando decisão/consulta**, com custo provisionado, e não contam como seleção comercial concluída. Preços antigos nos estudos CB02/L02 são memória; esta lista prevalece para comparação de27/10.
 
 ## Madeira do banheiro — escolha preservada
 

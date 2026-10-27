@@ -165,6 +165,8 @@ Enviar os subpedidos separadamente:
 
 **Arevo — assunto: Jabuticaba triplo âmbar.** Olá! Confirmem SKU da variante preta de três globos âmbar/3G9 e preço completo. O anúncio2623 tem “2xG9” no endereço e preço anterior à escolha do vidro. Enviem foto da etiqueta, dimensões, acessórios e manual. Obrigado!
 
+**Brilia — complemento IL07, não enviado.** Olá! Confirmem a fita31893912V3000K como candidata à indireta do banheiro com comando comum: manual, corte/conexões, dissipação, montagem no MOV4329 e manutenção da proteção após corte. Cotem um rolo5m completo e acessórios. A fonte previstaOPS31002 e o trecho real serão conferidos pelo RT; não é pedido de compra. Obrigado!
+
 **Brilia/Sonoff — assunto: três G9 314450 e D1/RM433.** Olá! Para três G9 Brilia314450 de127V com D1, enviem documentação de dimerização/carga mínima e compatibilidade, ou restrição. Cotem os produtos e RM433 com base, bateria e revisão identificados. Não consideraremos o conjunto fechado sem documentação e ensaio aplicável. Obrigado!
 
 **Elgin/Avanti — assunto: alternativa48D18WSRWIFI.** Olá! Confirmem oferta e manual do plafon smart48D18WSRWIFI, branco, uso127V. Qual comando físico permite ligar/desligar e regular sem celular? Está incluído ou exige SKU/acessório adicional? Funciona sem internet e após retorno de energia? Cotem uma e três unidades com todos os comandos necessários, indicando diferenças para WiZ/WiZmote. Obrigado!

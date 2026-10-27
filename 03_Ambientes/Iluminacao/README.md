@@ -21,14 +21,14 @@ Detalhes técnicos e consultas: [CB02](Fechamento_custo_beneficio/Revisao_quarto
 
 ## Custo e quantidades
 
-**R$5.041,60 é o cenário parcial atualizado**, diferençaR$1.501,60 sobre provisãoR44 de3.540. Aumento de102,98 sobre4.938,62: Firefly quadrado+62,00; cinco fontes+69,30; sete perfis−6,09; teto banheiro−12,90; três pulsadores/placas−9,33. Fontes, perfis e comandos estão discriminados sem duplicar L02. Teto do banheiro tem validade anunciada anterior à consulta; SMD3000 mantém provisão antiga.
+**R$5.120,52 é o cenário parcial atualizado**, diferençaR$1.580,52 sobre provisãoR44 de3.540. Aumento de181,90 sobre4.938,62: Firefly quadrado+62,00; cinco fontes+69,30; sete perfis−6,09; teto banheiro−12,90; três pulsadores/placas−9,33; Brilia318939 substitui SMD sem oferta+78,92. Fontes, perfis e comandos estão discriminados sem duplicar L02. Teto do banheiro tem validade anunciada anterior à consulta; indireta3000K passa à Brilia318939 como substituta proposta, com oferta nacional e ficha oficial.
 
-**D03 aguarda Elias:** manter Jurerê/WiZ (5.041,60), Elgin48D18WSRWIFI só no quarto (4.800,11), ou nas três gerais (4.317,13). Alternativa nacional com compra, mas muda aparência e comando físico; não é equivalente integral. Recomendação: obter IL02/03 antes de substituir o comando. Referências documentais WiZ929002424712 e WiZmote929002426812 continuam sem conciliação com SKU/estoque nacional. Detalhes, fontes e efeitos na lista curta; não declarar esta frente concluída.
+**D03 aguarda Elias:** manter Jurerê/WiZ (5.120,52), Elgin48D18WSRWIFI só no quarto (4.879,03), ou nas três gerais (4.396,05). Alternativa nacional com compra, mas muda aparência e comando físico; não é equivalente integral. Recomendação: obter IL02/03 antes de substituir o comando. Referências documentais WiZ929002424712 e WiZmote929002426812 continuam sem conciliação com SKU/estoque nacional. Detalhes, fontes e efeitos na lista curta; não declarar esta frente concluída.
 
 - Seis plafons gerais, um pendente triplo e duas arandelas; três Jurerê recebem seis WiZ E27. SceneSwitch não entra na compra proposta.
 - Cinco WiZmotes (sala, quarto e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
 - Três Shelly, três pulsadores/placas candidatos e **cinco fontes Opus avulsas no total**: três nos grupos com Shelly e duas já incluídas na L02 do banheiro.
-- Banheiro L02 atualizado R$625,72 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
+- Banheiro L02 atualizado R$704,64 contado uma única vez; rolos, perfis e fontes próprios já incluídos. Barras fora do banheiro continuam provisão, sem plano final de cortes.
 
 Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos convencionais que não puderem ser reaproveitados, cabos, caixas, conexões, terminações, fixações e possíveis adaptações/extensões. Mão de obra pertence a I01, sem duplicação. Não atribuir preço zero aos itens pendentes.
 

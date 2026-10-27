@@ -32,7 +32,7 @@
 | B01–B04 | Lavatório fria/quente/esgoto e vaso fria | Existentes/novo quente a levantar; acesso às conexões |
 | B05–B06 | Ducha quente/fria, produto ainda indefinido | Vazão/temperatura e misturador dependem fornecedor/RT; nenhum cálculo novo |
 | B07–B08 | Livo e ralo; B07 codificado sóAQ | B07 é função quente+fria, não contagem de bocais; ambos a levantar |
-| B09–B11 | L02 espelho4000K, indireta/teto3000K | Três comandos comuns separados; fontes/manutenção, volumes e espelho/torneira pendentes |
+| B09–B11 | L02 espelho4000K, indireta Brilia318939/teto3000K | Três comandos comuns separados; fontes/manutenção, volumes e espelho/torneira pendentes |
 | S01–S02 | TV/PS5/soundbar; posições ligadas ao painel | TV mantida; D01 eventual adiamento do painel exige implantação independente e crédito da oficina |
 | S03–S04 | Gerais e jantar sem produto na R00 | Jurerê/WiZ e Jabuticaba/G9/D1 candidatos; IL02/03/09 e D03 |
 | E01–E03 | Computadores/TV existentes | Etiquetas, quantidade de tomadas e acesso com armários até teto pendentes |
@@ -92,7 +92,7 @@ As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E0
 | B07 | Água quente | Chuveiro / misturador Livo (quente e fria) | 120 cm (nominal) | Um código funcional; conferir ambas as alimentações, não só AQ |
 | B08 | Esgoto / ralo | Ralo do box | 0 cm (nominal) | Existente |
 | B09 | Luz de parede / indireta | Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W | 190 cm (nominal) | L02: Opus OPS31002 e perfil MOV; posição/montagem a validar |
-| B10 | Luz de parede / indireta | Indireta 3000 K: Cristallux SMD até 2 m /9,6 W | 230 cm (nominal) | L02: Opus OPS31002, comando próprio; trecho real a medir |
+| B10 | Luz de parede / indireta | Indireta 3000 K: Brilia318939 até 2 m /9,6 W | 230 cm (nominal) | L02: Opus OPS31002, comando próprio; trecho real a medir |
 | B11 | Luz no teto | Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 | teto a confirmar | Selecionado L02; ponto e volumes a conferir |
 | S01 | Tomada 127 V | Régua no compartimento ventilado: TV, PS5, soundbar | 30 cm (nominal) | Posição de estudo |
 | S02 | Tomada 127 V | TV 50″ atrás do painel | 120 cm (nominal) | Altura a conferir |

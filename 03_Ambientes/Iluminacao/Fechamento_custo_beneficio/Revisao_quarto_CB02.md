@@ -1,6 +1,6 @@
 # Iluminação — composição CB02 e complementos T06
 
-> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizadoR$5.041,60; D03 pendente.
+> Revisão comercial27/10: código quadrado3000K corrigido para9608; preços históricos abaixo são substituídos pela [lista curta vigente](../Lista_curta_luminarias_e_madeira.md). Total parcial atualizadoR$5.120,52; D03 pendente.
 
 24/10/2026. Elias rejeitou o plafon Nordecor Liny90046 de cerca de R$500 e respondeu à alternativa: **“Três níveis pelo interruptor”**. Esta foi a diretriz de 24/10, superada pelo requisito smart de 26/10 descrito abaixo. Preservar plafon branco discreto, branco quente, arandelas independentes e indireta da cabeceira.
 

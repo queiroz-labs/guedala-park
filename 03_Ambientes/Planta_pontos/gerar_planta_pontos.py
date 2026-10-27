@@ -71,7 +71,7 @@ P = [
     ('B07', 'AQ', 290, 526, 120, 'Chuveiro / misturador Livo (quente e fria)', 'Um código funcional; conferir ambas as alimentações, não só AQ'),
     ('B08', 'E', 295, 470, 0, 'Ralo do box', 'Existente'),
     ('B09', 'A', 434, 513, 190, 'Espelho 4000 K: Cristallux COB 2x550 mm /13,2 W', 'L02: Opus OPS31002 e perfil MOV; posição/montagem a validar'),
-    ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Cristallux SMD até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
+    ('B10', 'A', 434, 510, 230, 'Indireta 3000 K: Brilia318939 até 2 m /9,6 W', 'L02: Opus OPS31002, comando próprio; trecho real a medir'),
     ('B11', 'L', 395, 450, None, 'Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44', 'Selecionado L02; ponto e volumes a conferir'),
     # Sala
     ('S01', 'T', 505, 200, 30, 'Régua no compartimento ventilado: TV, PS5, soundbar', 'Posição de estudo'),

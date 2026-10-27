@@ -4,10 +4,10 @@
 
 Estado atual do banheiro. Nada aqui libera compra ou execução. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [imagem do banheiro](../../09_Referencias/Banheiro_referencia_aprovada_2026-09-18.png).
 
-## Situação em 24/10
+## Situação atual, revisão comercial27/10
 
 - **Gabinete BC43** com portas de correr e frente/quadro removível; as portas inferiores de abrir são históricas. Chapas **Arauco Beige Matt** e **Louro Freijó Poro**. [Fechamento pré-entrega](Fechamento_pre_entrega/Fechamento.html).
-- **Iluminação L02**, componentes R$ 612,64 à vista sem frete e instalação: teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240 (IRC > 90); indireta 3000 K Cristallux SMD CLX-FT200530 4,8 W/m, perfis MOV4329 e duas fontes Opus OPS31002. Três comandos físicos. [Seleção L02](Fechamento_pre_entrega/Luminarias_selecao_L02.html).
+- **Iluminação L02**, componentes propostos R$ 704,64 à vista sem frete e instalação: teto 3000 K Galaxy Firefly 9605; espelho 4000 K Cristallux COB CLX-FT331240 (IRC > 90); indireta 3000 K Brilia318939 4,8 W/m, substituta proposta, perfis MOV4329 e duas fontes Opus OPS31002. Três comandos físicos. [Lista comercial27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md); [L02 histórica](Fechamento_pre_entrega/Luminarias_selecao_L02.html).
 - Caixa do espelheiro (P19) mapeada em estudo separado; suspensão, oficina e levantamento real pendentes.
 
 T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manutenção-do-quadro-bc43-na-r52-26102026), com faixas de retirada, passagem lateral e ferramenta; R52 preservada.
@@ -32,7 +32,7 @@ T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manu
 | Gabinete inferior | **Suspenso e totalmente fechado**, sem nichos; frentes bege foscas lisas, sem ripado ou puxadores salientes; madeira clara nas laterais | Portas/gavetas, interior, ferragens, padrão exato, acesso ao sifão e conexões |
 | Armário do espelho | **Raso**, toda a frente espelhada, sem nichos abertos; madeira clara nas laterais | Dimensões, número de portas, divisões e passagem hidráulica se adotada |
 | Conteúdo atrás do espelho | Escovas, pasta, desodorante e pequenos cosméticos | Profundidade útil a partir das embalagens |
-| Iluminação | **Teto3000 K, espelho4000 K e indireta3000 K**, três comandos físicos. L02: componentesR$612,64 à vista. Firefly9605; espelho Cristallux COB CLX-FT331240/IRC>90; indireta SMD CLX-FT200530/4,8 W/m; MOV4329 e2 fontes Opus OPS31002 | Sem frete/instalação. Encaixe/dissipação, terminais/proteção e luz no rosto a conferir. Barra inferior condicionada à torneira; até2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |
+| Iluminação | **Teto3000 K, espelho4000 K e indireta3000 K**, três comandos físicos. L02: componentes propostosR$704,64 à vista. Firefly9605; espelho Cristallux COB CLX-FT331240/IRC>90; indireta Brilia318939/4,8 W/m, substituta proposta; MOV4329 e2 fontes Opus OPS31002 | Sem frete/instalação. Encaixe/dissipação, terminais/proteção e luz no rosto a conferir. Barra inferior condicionada à torneira; até2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |
 | Paredes fora do box | **Algodão Egípcio** | Marca, código, produto, preparo e proteção nas regiões de respingo |
 | Parede verde | **Somente uma parede do box**, fundo/chuveiro no estudo; referência Portobello Vivant Sauge Mate7 ×24,4 | Amostra, paginação e quantidade; demais paredes internas não ficam todas verdes |
 | Parede da janela no box | Aparência clara/bege da referência revisada | Revestimento exato ainda não escolhido |

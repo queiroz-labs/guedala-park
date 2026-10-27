@@ -18,7 +18,7 @@ Valores em reais. A data junto à fonte vale para os valores da respectiva linha
 | Instalações | 10.100,00 | 9.300,00 | | 22/10/2026, [análise](Instalacoes/Analise_instalacoes.md). Meta: R$ 650 em pacotes e R$ 150 estimados no cooktop; conversão gratuita depende de elegibilidade. Elétrica, torre/ponto 20 A, E21 instalado, medidor/ativação, água quente e testes preservados. |
 | Pedras e box | 6.700,00 | 6.200,00 | | 22/10/2026, [análise](Pedras_e_box/Analise_pedras_box.md). Meta: pedras R$ 5.000 + box R$ 1.200; sem cotação sob medida. Branco Itaúnas, tanque, prateleira S04, vidro transparente e perfis pretos preservados. |
 | Louças e metais | 5.057,71 | 4.490,26 | | 22/10/2026, [análise](Loucas_e_metais/Analise_loucas_metais.md). Estimativa incorpora Deca/Telca −R$ 187,54 e Livo +R$ 299,90. Meta depende de Dora R$ 414 no acabamento correto, Arion R$ 640 e Livo completo R$ 650; acessórios necessários mantidos. |
-| Iluminação | 3.540,00 | 2.800,00 | | Estimativa e meta: 22/10/2026, [otimização](Analise_otimizacao_130mil.md); composição do banheiro: 24/10/2026, [reconciliação L02](Reconciliacao_iluminacao_banheiro_L02.json). Provisão histórica preservada; Memória CB02 de24/10 abaixo; proposta vigente smart/Shelly R$5.041,60 parcial, ainda não adotada no total. |
+| Iluminação | 3.540,00 | 2.800,00 | | Estimativa e meta: 22/10/2026, [otimização](Analise_otimizacao_130mil.md); composição do banheiro: 24/10/2026, [reconciliação L02](Reconciliacao_iluminacao_banheiro_L02.json). Provisão histórica preservada; Memória CB02 de24/10 abaixo; proposta vigente smart/Shelly R$5.120,52 parcial, ainda não adotada no total. |
 | Complementos | 750,00 | 750,00 | | 22/10/2026, [otimização](Analise_otimizacao_130mil.md) e base R43 ali referenciada. Escopo: varal R$ 350 e suportes/instalação de duas TVs R$ 400. |
 | Coordenação e logística | 7.850,00 | 7.000,00 | | 22/10/2026, [otimização](Analise_otimizacao_130mil.md). Estimativa: projeto R$ 4.500, fretes/montagens de varejo R$ 1.800, limpeza R$ 650 e mudança R$ 900. Meta ainda sem proposta. |
 | **Total** | **137.748,11** | **120.340,70** | | Soma das onze categorias; reserva fora da tabela. |
@@ -27,7 +27,7 @@ A soma das metas acima excede o teto de execução em **R$ 340,70**. Ela reúne 
 
 ## T07 — iluminação reconciliada por grupo (memória anterior de 24/10)
 
-**Esta composição é memória anterior à geral smart do quarto e à troca WT1/Shelly.** O cenário parcial vigente de iluminação é R$5.041,60, conforme [README da iluminação](../../03_Ambientes/Iluminacao/README.md), sem alterar a provisão R44 de R$3.540. SceneSwitch/WT1 abaixo não compõem a compra proposta. A aritmética antiga é preservada para rastrear os R$875,94 e evitar duplicações.
+**Esta composição é memória anterior à geral smart do quarto e à troca WT1/Shelly.** O cenário parcial vigente de iluminação é R$5.120,52, conforme [README da iluminação](../../03_Ambientes/Iluminacao/README.md), sem alterar a provisão R44 de R$3.540. SceneSwitch/WT1 abaixo não compõem a compra proposta. A aritmética antiga é preservada para rastrear os R$875,94 e evitar duplicações.
 
 Conferência documental em 26/10/2026 sobre [CB02](../../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json), referências de 24/10, **sem pesquisa nova de preços**. A escolha dos três níveis no quarto não equivale à aprovação de todos os produtos candidatos. A provisão R44 permanece R$ 3.540; o cenário detalhado não é preço instalado nem compra autorizada.
 
@@ -75,7 +75,7 @@ Contra a distribuição inicial de R$ 120 mil em [Limite_e_metas_130mil.json](Li
 
 - **Agregado anterior:** R$ 137.798,11 nos registros de 22/10 e no JSON de limites usa marcenaria de R$ 46.550. As revisões de 23–24/10 mantêm provisão de R$ 46.500. A diferença de **R$ 50** explica integralmente o novo agregado R$ 137.748,11; é atualização da referência, não desconto obtido. O JSON e análises cumulativas anteriores permanecem como fontes históricas; esta tabela prevalece para o consolidado.
 - **Marcenaria ainda sem preço por escopo vigente:** [materiais de 23/10](Marcenaria_35mil/Revisao_materiais_2026-10-23.md) usam levantamento anterior; a lista atual de corte e mudanças de acabamento precisam de composição comparável. A [reconciliação de ferragens de 24/10](Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md) aponta Blum versus FGVTN, 52 conjuntos Minifix versus 20 na base e piano/trava versus Southco. Faixas de ajuste não são propostas; não somadas à provisão nem usadas como desconto. Serviços mantêm R$ 16.500 até separar o escopo sem tubos; nenhuma economia presumida pela decisão estrutural.
-- **Iluminação:** memória CB02 antiga de4.415,94 não é o conjunto smart/Shelly vigente. Atual proposta parcial5.041,60, diferença1.501,60 sobre provisão3.540; preços/SKUs e acessórios seguem incompletos. Não somar875,94,1.398,62 e10,62: são comparações distintas, não parcelas.
+- **Iluminação:** memória CB02 antiga de4.415,94 não é o conjunto smart/Shelly vigente. Atual proposta parcial5.120,52, diferença1.580,52 sobre provisão3.540; preços/SKUs e acessórios seguem incompletos. Não somar875,94,1.398,62 e10,62: são comparações distintas, não parcelas.
 - **Alternativas de louças:** [comparação de 23/10](Alternativas_equivalentes/Comparacao_2026-10-23.md) é condicionada a compatibilidade; não substitui automaticamente modelos e preços da estimativa. Dora, Arion e Livo nas metas exigem condições comerciais e técnicas completas.
 - **Serviços e medidas:** box de referência 1,24 × 2,10 m não equivale ao kit pesquisado de 1,20 × 1,90 m. Pisos dependem de medidas reais. R$ 1.800 de logística de varejo não demonstram cobertura de todos os fretes; transporte de marcenaria contido nos serviços não deve ser cobrado duas vezes. Cama queen futura não ganha preço inventado; bens existentes continuam excluídos.
 - **Planilha divergente, preservada:** [Orcamento_apartamento_R43.xlsx](Orcamento_apartamento_R43.xlsx), aba `Resumo`, ainda contém teto R$ 105.000 (D5), reserva percentual 10% (D6), execução R$ 142.927,12 (D21), reserva R$ 14.292,71 (D22) e total R$ 157.219,83 (D23). Valores armazenados e fórmulas foram lidos sem recalcular ou editar a planilha. As categorias D9:D19 também são anteriores às revisões. A planilha não representa a R44 e não deve orientar compra pelo total antigo.
@@ -111,7 +111,7 @@ T07: memória anterior de iluminação identificada como histórica; direção A
 
 ## Fechamento aritmético para decisão D01 — 27/10/2026
 
-**Aguardando Elias. Nenhum corte adotado.** Pedido desta conversa de 27/10/2026: preparar cenários preservando TV, reserva e decisões existentes. Base comparável com luz parcial: 137.748,11 + 1.501,60 = **R$139.249,71**. Redução mínima: **R$19.249,71**. Os três cenários abaixo fecham a soma, mas **não comprovam preço contratado**: dependem das negociações discriminadas e de autorizar apenas o faseamento dos itens, mantendo seus modelos/acabamentos para compra futura. O escopo vigente permanece integral até resposta.
+**Aguardando Elias. Nenhum corte adotado.** Pedido desta conversa de 27/10/2026: preparar cenários preservando TV, reserva e decisões existentes. Base comparável com luz parcial: 137.748,11 + 1.580,52 = **R$139.328,63**. Redução mínima: **R$19.328,63**. Os três cenários abaixo fecham a soma, mas **não comprovam preço contratado**: dependem das negociações discriminadas e de autorizar apenas o faseamento dos itens, mantendo seus modelos/acabamentos para compra futura. O escopo vigente permanece integral até resposta.
 
 ### Parcela comum aos três cenários
 
@@ -129,7 +129,7 @@ T07: memória anterior de iluminação identificada como histórica; direção A
 | Correção M09: retirar cortina do quarto indevida | 650,00 | Sem perda de uso do programa: quarto já não tem cortina adicional; não é desconto | Registro 21/09, rastreado na seção M09 acima |
 | **Total comum** | **17.967,45** | **17.317,45 de metas condicionais + 650 de correção** | Não inclui adiamentos abaixo |
 
-As negociações não são compras futuras nem cortes de função. Se não forem obtidas, recompor a diferença integralmente antes de contratar. Total após parcela comum: **R$121.282,26**. Não somar novamente os descontos históricos dos eletros/sofás já contidos na R44.
+As negociações não são compras futuras nem cortes de função. Se não forem obtidas, recompor a diferença integralmente antes de contratar. Total após parcela comum: **R$121.361,18**. Não somar novamente os descontos históricos dos eletros/sofás já contidos na R44.
 
 ### Adiamentos reversíveis, sem retirar a TV
 
@@ -142,14 +142,14 @@ As negociações não são compras futuras nem cortes de função. Se não forem
 
 Fontes dos valores: [M05/M06/M08](Moveis_e_tecidos/Analise_moveis.md) e [C04](Marcenaria_35mil/Plano_marcenaria_35mil.md), referências 22/10. C04 não gera crédito automático: fornecedor deve confirmar 850 fora do pacote de 35.000. M05/M06/M08/C04 continuam escolhidos no projeto; adiar é uma nova decisão pendente, não cancelamento.
 
-| Cenário | Adiamentos adicionais | Redução total contra 139.249,71 | Execução desta fase | Margem até 120.000 |
+| Cenário | Adiamentos adicionais | Redução total contra 139.328,63 | Execução desta fase | Margem até 120.000 |
 |---|---|---:|---:|---:|
-| A — preservar painel/prateleiras | M06 + M05 + M08 = 1.391,44 | 19.358,89 | 119.890,82 | 109,18 |
-| B — preservar sofá-cama | M06 + M08 + C04 = 1.600,00 | 19.567,45 | 119.682,26 | 317,74 |
-| C — maior margem provisória | M06 + M05 + M08 + C04 = 2.241,44 | 20.208,89 | 119.040,82 | 959,18 |
+| A — preservar painel/prateleiras | M06 + M05 + M08 = 1.391,44 | 19.358,89 | 119.969,74 | 30,26 |
+| B — preservar sofá-cama | M06 + M08 + C04 = 1.600,00 | 19.567,45 | 119.761,18 | 238,82 |
+| C — maior margem provisória | M06 + M05 + M08 + C04 = 2.241,44 | 20.208,89 | 119.119,74 | 880,26 |
 
-Reserva intocada **R$10.000** em todos: totais com reserva 129.890,82 / 129.682,26 / 129.040,82. Comprar depois pelo mesmo preço devolve o custo acumulado a **121.282,26**, antes de reajustes e segunda mobilização. Logo faseamento não torna o escopo completo mais barato.
+Reserva intocada **R$10.000** em todos: totais com reserva 129.969,74 / 129.761,18 / 129.119,74. Comprar depois pelo mesmo preço devolve o custo acumulado a **121.361,18**, antes de reajustes e segunda mobilização. Logo faseamento não torna o escopo completo mais barato.
 
-**D01 — Qual faseamento autorizar para cotação, mantendo a TV? A) adiar tapete, Daiane e cortina do escritório (R$119.890,82; sem sofá de hóspedes); B) adiar tapete, cortina do escritório e painel/prateleiras da TV (R$119.682,26; preserva Daiane, exige instalação independente da TV); C) adiar os quatro (R$119.040,82; margem provisória R$959,18). Recomendação: C para cotação, porque oferece a maior margem, somente se a implantação independente da TV for viável.** Sem resposta, conservar escopo. Fontes e efeitos acima.
+**D01 — Qual faseamento autorizar para cotação, mantendo a TV? A) adiar tapete, Daiane e cortina do escritório (R$119.969,74; sem sofá de hóspedes); B) adiar tapete, cortina do escritório e painel/prateleiras da TV (R$119.761,18; preserva Daiane, exige instalação independente da TV); C) adiar os quatro (R$119.119,74; margem provisória R$880,26). Recomendação: C para cotação, porque oferece a maior margem, somente se a implantação independente da TV for viável.** Sem resposta, conservar escopo. Fontes e efeitos acima.
 
-**Limite do aceite:** a solicitação de cortes comprovados ≥19.249,71 continua aberta; somente650 de correção de escopo está fundamentado como retirada vigente. Os demais valores são metas e propostas para Elias. Não declarar orçamento dentro da verba nem anteprojeto financeiro concluído. Custos faltantes da iluminação/frete consomem as margens; a comparação usa a lista curta de27/10, R$5.041,60; alternativasD03 não adotadas. Se M03 não vier incluído, somar800 aos cenários; se a marcenaria ficar em40.000, somar5.000. Sem resposta comercial não há cenário incondicional demonstrado.
+**Limite do aceite:** a solicitação de cortes comprovados ≥19.328,63 continua aberta; somente650 de correção de escopo está fundamentado como retirada vigente. Os demais valores são metas e propostas para Elias. Não declarar orçamento dentro da verba nem anteprojeto financeiro concluído. Custos faltantes da iluminação/frete consomem as margens; a comparação usa a lista curta de27/10, R$5.120,52; alternativasD03 não adotadas. Se M03 não vier incluído, somar800 aos cenários; se a marcenaria ficar em40.000, somar5.000. Sem resposta comercial não há cenário incondicional demonstrado.

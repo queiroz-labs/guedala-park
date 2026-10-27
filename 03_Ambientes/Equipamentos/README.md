@@ -49,3 +49,5 @@ A regra também vale para futuras especificações de eletrodomésticos com tens
 IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes. Acabamento vigente Inox Look conforme F160; pesquisa F161.
 
 Compatibilização27/10: CSV corrige Q05 para smart e L11 paraFirefly9608; inclui S05/E05/E06 sem coordenadas inventadas. [Auditoria R01 dos50 códigos originais](../Planta_pontos/README.md); circuitos/implantação continuam com RT.
+
+B10/EQ32: Brilia318939 substituta proposta em27/10, com oferta nacional e fabricante identificados na lista de iluminação; instalação ainda condicionada.
