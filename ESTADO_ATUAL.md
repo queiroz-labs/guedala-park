@@ -22,7 +22,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Cargas, ligações e cálculos por móvel | Estudos separados, não incorporados ao modelo | [Índice dos móveis](04_Moveis/README.md) · [matriz dos 20 móveis](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) |
 | Programa | R01 | [Programa de necessidades](01_Programa_e_decisoes/Programa_de_necessidades.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
-| Especificações | R01 | [Caderno de especificações](01_Programa_e_decisoes/Caderno_de_especificacoes.md) |
+| Especificações | R01 + catálogo comercial 27/10, amostras pendentes | [Caderno de especificações](01_Programa_e_decisoes/Caderno_de_especificacoes.md) |
 | Pontos (elétrica, água, gás) | R00, preliminar | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
@@ -40,7 +40,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Anteprojeto | 75% | T06: [iluminação consolidada](03_Ambientes/Iluminacao/README.md), quarto smart com Alexa/celular; cozinha/lavanderia/banheiro com interruptor comum (Elias, 26/10/2026). Cenário parcial R$4.938,62 (busca por SKU sem oferta nacional confirmada; uso no Jurerê com vidro depende de resposta IL02/IL03); IL02–IL09 prontas, não enviadas. SKUs, respostas, cotação, instalação e ensaios pendentes |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
-| Especificações | 70% | Caderno gerado a partir dos dados do site |
+| Especificações | 70% | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02 e SKUs faltantes aguardam amostra/fornecedor |
 | Orçamento | 60% | R44: R$ 137.748,11; excesso R$ 17.748,11. [T07 reconciliada](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários A/B preparados com iluminação parcial4.938,62; A: manter TV nesta etapa (Elias27/10/2026, resposta “A”); D01: três cenários condicionais de R$118.937,84–119.787,84, aguardando faseamento e R$17.317,45 de negociação; M09 corrigida nos cenários; lacunas de luz/frete pendentes |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |

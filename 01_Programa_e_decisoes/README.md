@@ -19,3 +19,5 @@ As decisões atuais estão resumidas no [ESTADO_ATUAL.md](../ESTADO_ATUAL.md); e
 Conferência T09, 26/10/2026: roteiro oficial aponta ao modelo R52 e orçamento R44; referência financeira do rascunho de reforma alinhada. [Divergências documentais preservadas](../06_Entregas/README.md#referências-antigas--triagem-t09): bases R45 do programa/vistas e rótulos históricos do painel ainda não demonstram integração integral.
 
 Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publicação R52 como histórico. [Estado vigente](../ESTADO_ATUAL.md).
+
+**Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02 compara Lume/Nuvem/Areia; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes e preço Nuvem seguem na consulta. O gerador preserva essa seção documental.

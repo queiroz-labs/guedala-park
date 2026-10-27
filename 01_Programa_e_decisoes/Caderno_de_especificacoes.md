@@ -1,6 +1,6 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-27 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R53). Para atualizar, corrija `src/data.js` e rode o script de novo; não edite este arquivo à mão.
+Gerado em 2026-10-27 por `Estudo_interativo/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R53). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -135,4 +135,35 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 66 itens: 33 decididos, 20 decididos com execução em desenvolvimento e 13 parciais, futuros, existentes ou em revisão.
 
-Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R14](../06_Entregas/Fichas_fabricacao/index.html).
+Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).
+
+<!-- ESPECIFICACOES_COMERCIAIS -->
+## 4. Chapas comerciais — anteprojeto, conferência 27/10/2026
+
+**Proposto, depende de amostra.** Preservam-se as cores decididas; fabricante/variante/substrato e lote só entram no pedido após confirmação. As espessuras abaixo constam do catálogo, não são estoque reservado. Exigir duas faces do mesmo padrão por chapa física; Branco TX interno somente em peça separada explicitamente prevista. Não acrescentar 15 mm automaticamente nem alterar espessuras das fichas R15. Não confundir código de revenda ou fita de borda com código da chapa.
+
+| Aplicação / fabricante | Nome comercial e textura | Código identificável | 15 / 18 mm | Fonte oficial |
+|---|---|---|---|---|
+| Arenza existente — Greenplac | Arenza, linha Colore, textura Lizze; unicolor areia/fendi, não veio de madeira | Catálogo: **Arenza / Colore / Lizze**; código numérico da fábrica não publicado na página; revenda Fabi **00004872** identifica 18 mm 2 faces | Sim / sim; chapa 2750 × 1850 mm | [Greenplac Arenza](https://greenplac.com.br/products/mdf-arenza-linha-colore) |
+| Aéreos cozinha — Guararapes | Azul Petróleo, Colors, Matt superfosco | Catálogo: **Azul Petróleo / Colors / Matt**; número da fábrica não publicado; fita REHAU **1060S / P01** é apenas referência de borda | Sim / sim; 2750 × 1850 | [Guararapes](https://www.guararapes.com.br/produto/azul-petroleo/) |
+| Off-white opção A — Guararapes | Lume, Colors, Matt, subtom quente | Catálogo: **Lume / Colors / Matt**; revenda Madeiramar **10520**, 18 mm comum | Sim / sim; 2750 × 1850 | [Lume](https://www.guararapes.com.br/produto/lume/) |
+| Off-white opção B — Guararapes | Nuvem, Colors, Matt, subtom cinza | Catálogo: **Nuvem / Colors / Matt**; revenda Madeiramar **10522**, 18 mm | Sim / sim; 2750 × 1850 | [Nuvem](https://www.guararapes.com.br/produto/nuvem/) |
+| Off-white/bege opção C — Guararapes | Areia, Colors, Matt, nude mais marcado | Catálogo: **Areia / Colors / Matt**; revenda Madeiramar **6734**, 18 mm; borda REHAU **154135 / P01** | Sim / sim; 2750 × 1850 | [Areia](https://www.guararapes.com.br/produto/areia/) |
+| Frentes banheiro — Arauco | Beige, textura Matt, escolha de referência preservada | Fabricante **BR_BEIGE_MDF_18**; 15 mm consta do catálogo, código individual ainda a solicitar; borda REHAU **154588 / P01** | Sim / sim; 2750 × 1850 | [Catálogo Beige](https://arauco.com.br/produto/beige/) · [SKU oficial 18 mm](https://lojaonline.arauco.com/produtos/p/beige-chapa-de-mdf-arauco-18mm-BR_BEIGE_MDF_18) |
+| Branco TX opção A — Guararapes | Branco TX, textura granulada, brilho discreto | Catálogo: **Branco TX**; número da fábrica por espessura a solicitar | Sim / sim; 2750 × 1850 | [Guararapes Branco TX](https://www.guararapes.com.br/produto/branco-tx/) |
+| Branco TX opção B — Berneck | Branco TX, BP; exigir substrato MDF na cotação | Catálogo: **Branco TX / MDF BP**; SKU individual a solicitar | Sim / sim, catálogo indexado; acesso direto retornou 403 | [Berneck](https://berneck.com.br/products/bp-berneck/catalog/branco-tx) |
+| Branco TX opção C — Sudati | Branco, TX | Catálogo: **Branco / TX**; SKU individual a solicitar | Sim / sim, catálogo indexado; acesso direto expirou | [Sudati](https://sudatimdf.com.br/produtos-sudati/branco-tx/) |
+
+**Nomenclatura de compra:** fabricante + padrão + textura + MDF + espessura + duas faces iguais + dimensão + classe comum/HR/RUC + lote. Os nomes comerciais acima permitem pedir amostras; onde não há SKU oficial, a ficha ainda está pendente de resposta, não se inventa um código. Alternativas são equivalências de função/paleta propostas, não cores idênticas nem substituições adotadas. Branco TX não é acabamento Matt e não substitui o off-white aparente.
+
+**Arenza comum versus HR:** a pesquisa anterior citava HR; a página comum atual confirma Lizze e 15/18 mm. Solicitar amostras e ficha separadas da [versão HR](https://greenplac.com.br/products/arenza-hr-2-750-x-1-850-mm-02-faces), sem assumir mesma textura, preço ou espessuras de estoque. Nas áreas úmidas, a escolha do substrato e vedação de bordas depende do fornecedor/RT; HR não autoriza contato direto com água. Não mudar a decisão Arenza por alternativa de cor sem Elias.
+
+**Louro Freijó Poro do banheiro:** preservar; SKU oficial de 15 mm **BR_LOURO_FREIJO_PORO_MDF_15**, [ficha Arauco](https://lojaonline.arauco.com/produtos/p/louro-freijo-poro-chapa-de-mdf-arauco-15mm-BR_LOURO_FREIJO_PORO_MDF_15). Exigir confirmação da variante Poro de 18 mm da ficha do móvel; Trend não é troca automática.
+
+### Amostras e custo comparável — D02
+
+Consulta web 27/10/2026, preços anunciados/indexados, sem frete/corte/borda, sem reservar estoque: [Lume 18 mm / SKU10520](https://www.madeiramar.com.br/produto/mdf-lume-matt-guararapes-18mm-2750x1850-1-10520/) **R$589,47/chapa**; [Areia 18 mm / SKU6734](https://www.madeiramar.com.br/produto/mdf-areia-matt-guararapes-18mm-2750x1850-1-6734/) **R$643,98/chapa**; [Nuvem / SKU10522](https://www.madeiramar.com.br/mdf/madeirados/naturale-confort-i-dual-t-i-collors/mdf-nuvem-matt-guararapes-18mm-2750x1850-1-10522/) preço ainda não recuperado. São referências unitárias; não multiplicar por quantidade de chapas não validada nem somar à provisão de marcenaria.
+
+**D02 — Qual amostra priorizar para o off-white aparente? A) Lume Matt (R$589,47/chapa de18, quente); B) Nuvem Matt (preço a cotar, cinza sutil); C) Areia Matt (R$643,98/chapa de18, mais bege). Recomendação: A, comparada fisicamente com Arenza, Beige e Algodão Egípcio, por manter a intenção clara/quente com menor referência de preço que C.** Pedido de amostras não é escolha final. Custo das amostras/envio ainda a cotar; não registrar R$0.
+
+Conferir frente e verso, textura sob luz natural e 3000 K, borda junto à chapa, etiquetas e lote. [REHAU Guararapes](https://www.rehau.com/br-pt/equivalencias/guararapes) e [REHAU Arauco](https://www.rehau.com/br-pt/equivalencias/arauco) sustentam somente as referências de bordas. [Fabi](https://www.fabicompensados.com.br/grupo/186/painel-greenplac) sustenta o código de revenda de Arenza. Solicitar códigos de fábrica faltantes junto com catálogo/amostras; consulta não enviada.

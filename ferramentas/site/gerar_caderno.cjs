@@ -1,6 +1,10 @@
 // Gera 01_Programa_e_decisoes/Caderno_de_especificacoes.md a partir de src/data.js (mesma fonte do site).
 // Uso: node gerar_caderno.cjs
 const fs=require('fs'),path=require('path');
+const target=path.join(__dirname,'..','..','01_Programa_e_decisoes','Caderno_de_especificacoes.md');
+const marker='<!-- ESPECIFICACOES_COMERCIAIS -->';
+const previous=fs.existsSync(target)?fs.readFileSync(target,'utf8'):'';
+const commercial=previous.includes(marker)?previous.slice(previous.indexOf(marker)):'';
 const src=fs.readFileSync(path.join(__dirname,'src/data.js'),'utf8');
 const {PROJECT,ITEMS}=new Function(src+';return {PROJECT,ITEMS};')();
 const cadSrc=fs.readFileSync(path.join(__dirname,'src/cad-data.js'),'utf8');
@@ -13,7 +17,7 @@ const rooms=PROJECT.rooms.filter(r=>r.id!=='all');
 
 let out=`# Caderno de especificações — R01
 
-Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${CAD_DATA.current_revision}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; não edite este arquivo à mão.
+Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${CAD_DATA.current_revision}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -38,6 +42,6 @@ for(const r of rooms){
 }
 const kind=c=>/desenvolver|Direção|plano/.test(c)?'dev':/^(Aprovado|Escolhido|Modelo escolhido|Primeira opção|Temperaturas)/.test(c)?'ok':'open';
 const tally=k=>ITEMS.filter(i=>kind(i.choice||'')===k).length;
-out+=`\n## 3. Resumo\n\n${ITEMS.length} itens: ${tally('ok')} decididos, ${tally('dev')} decididos com execução em desenvolvimento e ${tally('open')} parciais, futuros, existentes ou em revisão.\n\nEspecificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R14](../06_Entregas/Fichas_fabricacao/index.html).\n`;
-fs.writeFileSync(path.join(__dirname,'..','..','01_Programa_e_decisoes','Caderno_de_especificacoes.md'),out,'utf8');
+out+=`\n## 3. Resumo\n\n${ITEMS.length} itens: ${tally('ok')} decididos, ${tally('dev')} decididos com execução em desenvolvimento e ${tally('open')} parciais, futuros, existentes ou em revisão.\n\nEspecificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).\n`;
+fs.writeFileSync(target,out+(commercial?'\n'+commercial:''),'utf8');
 console.log('ok',ITEMS.length,'itens');

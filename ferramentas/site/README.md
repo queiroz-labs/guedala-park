@@ -1,6 +1,6 @@
 # Apartamento interativo — R53 e pacote R24
 
-**Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal. Pendência geométrica: envelopes das lixeiras da cozinha/lavanderia sobrepõem os fechamentos em cerca de 6/5 cm; posições preservadas, encaixe a rever, não medição real.
+**Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce273ee835081919acefb805f637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal. Lixeiras: posições nominais atualizadas na R53; validar no local.
 
 **Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. O site representa paredes gerais a 260 cm e o cenário separado do escritório a 247 cm; isso não define tetos acabados. Móveis e FreeCAD R52 preservados.
 
@@ -24,7 +24,7 @@ Atualização26/10: biblioteca e fichasP17/P12 apontam para os estudos de suspen
 
 ## Registros anteriores
 
-Os textos abaixo preservam etapas antigas e não substituem a configuração corrente ou o estado atual do projeto.
+Histórico; prevalecem a configuração corrente e o estado atual.
 
 ## Luz e sombras de contato — 17/10/2026
 
@@ -105,3 +105,5 @@ Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de
 ## Verificação R05
 
 Teste de oclusão com duas faces cruzadas e seleção pela profundidade real; órbita de 360° com 24 vistas; sete ambientes nas três vistas; animações intermediárias, finais e reversas, redução de movimento, 12 fichas de interiores, 59 decisões, cópia HTML independente e telas de 1440, 412 e 340 px. Renderização WebGL sem erros JavaScript. Animações são ilustrativas e não certificam colisões ou execução.
+
+Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
