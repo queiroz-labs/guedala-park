@@ -108,7 +108,7 @@ Os relatórios históricos em `Componentes/Estudos/` preservam os caminhos antig
 | `Verificacao_R52.json`, `Verificacao_posicoes_R52.json`, `Auditoria_estatica_R52.json` | Evidências do arquivo vigente |
 | `Comparacao_colisoes_R51_R52.json` | Colisões antes e depois |
 | `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
-| `Historico/` | Estudos R46–R49 que o site ainda referencia |
+| `Historico/` | Estudos R46–R49 que o site ainda referencia; os binários R45 e R48 foram removidos em 26/10/2026 (recuperáveis no git) |
 | `Componentes/` | Ferragens, STEP e estudos de origem (grande; buscas o ignoram) |
 
 ## Contadores históricos para rastreabilidade

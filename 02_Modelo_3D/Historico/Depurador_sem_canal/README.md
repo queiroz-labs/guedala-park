@@ -1,6 +1,6 @@
 # FreeCAD R48 — depurador sem canal de duto
 
-24/10/2026. **[Guedala_Park_R48_Depurador_sem_canal.FCStd](Guedala_Park_R48_Depurador_sem_canal.FCStd)** parte da [R46](../Fichas_no_CAD/README.md), preservada. (R47 já nomeia o estudo Southco do banco; por isso esta revisão é R48.)
+24/10/2026. **`Guedala_Park_R48_Depurador_sem_canal.FCStd` (binário removido em 26/10/2026; recuperável no git)** parte da [R46](../Fichas_no_CAD/README.md), preservada. (R47 já nomeia o estudo Southco do banco; por isso esta revisão é R48.)
 
 **Continuação técnica25/10, sem alterar a R51:** [carga e interface de montagemP09](../../../04_Moveis/Aereos_suspensao/README.md). ManualREV.0025 informa6,00 kg para60 cm e fixação à parede+gabinete. Entre o gabaritoPeca139 e a base há42 mm nominais; abas/adaptação e transferência de esforços ainda não estão demonstradas. Retorno de ar20 mm e ausência do canal permanecem; posições preservadas.
 

@@ -1,6 +1,6 @@
 # FreeCAD com cores atualizadas · R16
 
-23/10/2026. Modelo principal: [Guedala_Park_R45_Cores_R16.FCStd](Guedala_Park_R45_Cores_R16.FCStd).
+23/10/2026. Modelo principal: `Guedala_Park_R45_Cores_R16.FCStd` (binário removido em 26/10/2026; recuperável no git).
 
 A geometria continua sendo a consolidação R45. Esta revisão aplica ao FreeCAD a paleta visual R15 do site e os acabamentos registrados nas fichas R14. Abra o arquivo no FreeCAD 1.1 ou versão compatível. A gravação e a conferência foram feitas com FreeCAD 1.1.4 / 20260928.
 
