@@ -8,7 +8,7 @@ Os valores abaixo são **resultados de modelos nominais**, com materiais e junta
 
 ## Controle vigente
 
-**Agenda27/10, preparada em26/10:** [matriz](Andamento_20_moveis.md) aponta kit P20/P14 (desenho, lista e12 registros vazios) e F13; P02 U1–U4=A (Elias,27/10/2026), requisito10kg não demonstrado. Montagem definitiva continua em produto/oficina; zero ensaios e nenhuma nova varredura.
+**Agenda27/10, preparada em26/10:** [matriz](Andamento_20_moveis.md) aponta kit P20/P14 (desenho, lista e12 registros vazios) e F13=A (Elias27/10/2026: Arenza liso); P02 U1–U4=A (Elias,27/10/2026), requisito10kg não demonstrado. Montagem definitiva continua em produto/oficina; zero ensaios e nenhuma nova varredura.
 
 [Matriz20/20](Andamento_20_moveis.md) consolidada em26/10: controle25/10 e T01 documentais concluídos; T02/T03 parciais. LoteB atualizado; P04 preparado para laboratório, sem ensaios. Regerar: `python -B ferramentas/estudos/consolidar_matriz.py`. Estudos históricos abaixo preservados.
 

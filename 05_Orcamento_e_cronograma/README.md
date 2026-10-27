@@ -32,3 +32,5 @@ Coerência26/10: M09/cortina do quarto é provisão indevida frente ao Registro2
 **Controle diário27/10 preenchido antecipadamente em26/10:** entregas documentais, verificações, decisões e bloqueios separados no [plano](Plano_execucao_ate_31_10.md#9-controle-diário). Oficina/medidas não foram marcadas como concluídas. Janela de trabalho desta conversa termina27/10 às07:30 de Brasília; sem publicação/envios.
 
 P02: uso definido por Elias em27/10/2026 (U1–U4=A); [plano](Plano_execucao_ate_31_10.md) atualizado. Requisito10kg, organização por zonas e preservação de vãos/aparência; comprovação técnica pendente.
+
+P13: F13=A, Arenza liso nas duas faces (Elias,27/10/2026, resposta “a”); [plano](Plano_execucao_ate_31_10.md) atualizado. Produto18, bordas e inclusão no corte pendentes.

@@ -2,22 +2,17 @@
 
 **Regra vigente 25/10 aplicada aos agrupamentos:** um padrão por chapa física, igual nas duas faces. Duas peças separadas 18+15 podem ter cores distintas, com IDs/constituição definidos; nenhuma segunda chapa foi acrescentada. Os CSV/JSON e 16 desenhos vigentes foram reemitidos com a [regra por peça](../../../ferramentas/site/fabrication/Decisao_acabamentos_R13.md). São arranjos geométricos virtuais, não compra/corte aprovados.
 
-**Base reconciliada:**249 painéis das fichas, 248 na auditoria de acabamentos; o apoio P13/Peca350 não tem entrada nessa auditoria e permanece excluído por acabamento indefinido. 215 painéis entram no ensaio, 34 continuam com bloqueio identificado. Dimensões/IDs dos 249 e área 59,262776 m² preservados; CAD/fichas/orçamento não alterados. As 36 peças de sete propostas continuam separadas. [Conferência por ID e fontes](Reconciliacao_acabamentos.json).
+**Base reconciliada:**249 painéis das fichas, 248 na auditoria de acabamentos; o apoio P13/Peca350 não tem entrada nessa auditoria e permanece excluído até identificar produto18/bordas e atualizar a auditoria; padrão Arenza liso definido em27/10. 215 painéis entram no ensaio, 34 continuam com bloqueio identificado. Dimensões/IDs dos 249 e área 59,262776 m² preservados; CAD/fichas/orçamento não alterados. As 36 peças de sete propostas continuam separadas. [Conferência por ID e fontes](Reconciliacao_acabamentos.json).
 
-## P13 / Peca350 — escolha de acabamento pendente
+## P13 / Peca350 — Arenza liso nas duas faces
 
-Agenda 27/10, preparada em 26/10/2026. Prateleira de apoio do micro: **697×470×18mm**, área de envelope0,327590m², topo nominal1550. Fonte: [ficha por ID](../../../06_Entregas/Fichas_fabricacao/P13-pecas.csv). A ficha menciona Greenplac Arenza como referência CAD, mas mantém acabamento parcial; não converter essa referência em escolha executiva.
+**F13=A. Fonte: Elias, 27/10/2026, resposta “a” nesta conversa à escolha A — Arenza liso nas duas faces.** Acabamento definido para o apoio do micro, preservando espessura18 e aparência coordenada com a cozinha.
 
-**Pergunta fechada F13 para Elias: qual padrão quer nas duas faces da Peca350?**
+Prateleira **697×470×18mm**, área de envelope0,327590m², topo nominal1550. [Ficha por ID](../../../06_Entregas/Fichas_fabricacao/P13-pecas.csv). Referência de produto: Greenplac Arenza liso; código/substrato18, bordas e preço ainda precisam de fornecedor/amostra. Não presumir aproveitamento de sobra da chapa virtual.
 
-| Opção | Aparência / consequência | Custo e condição |
-|---|---|---|
-| A — Greenplac Arenza liso nas duas faces | Coordena o apoio aberto e a face inferior visível com a marcenaria da cozinha; preserva a referência visual do CAD | Código/substrato18, bordas e preço ainda precisam de fornecedor/amostra; não assumir que sobra da chapa virtual cubra a peça |
-| B — Branco TX nas duas faces | Clareia a face inferior e diferencia o apoio aberto do Arenza adjacente | Mesmo envelope18; economia não quantificada e não presumida. Oficina deve cotar mesma constituição/processo para comparar |
+A mesma chapa terá Arenza liso nas duas faces; não acrescentar interna15 automaticamente. Fornecedor identifica produto18 e bordas; projeto inclui Peca350 na auditoria por ID e reconcilia o grupo de corte. Até isso ocorrer, os dados gerados mantêm a peça entre os34 excluídos; a justificativa antiga de acabamento indefinido está superada por esta decisão, sem equivaler a compra ou corte autorizado.
 
-Resposta F13=__; data/fonte=__. **Nenhuma opção adotada.** Não propor Arenza numa face e Branco TX na outra da mesma chapa, nem acrescentar interna15 automaticamente. Uma eventual segunda peça teria de ter ID, espessura, vão, ligações e custo próprios e não integra esta pergunta.
-
-Depois da resposta: fornecedor identifica produto18 e acabamento de bordas; projeto inclui Peca350 na auditoria por ID e só então reconcilia o grupo de corte. A escolha estética não resolve suporte/juntas nem a divergência100mm desejados versus300mm do manual do micro; esses bloqueios permanecem em [instalação](../Instalacao_e_P16/README.md). Até lá, Peca350 continua entre os34 excluídos, sem regeneração ou corte de chapa por hipótese.
+A escolha estética não resolve suporte/juntas nem a divergência100mm desejados versus300mm do manual do micro; esses bloqueios permanecem em [instalação](../Instalacao_e_P16/README.md). CAD, fichas e arranjos de corte não foram alterados nesta decisão.
 
 ## O que cabe nos formatos examinados
 
