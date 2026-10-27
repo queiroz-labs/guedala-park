@@ -26,7 +26,7 @@ Estofada lisa em dois painéis, sem capitonê ou ripado, tecido **E2 Suede Areia
 
 ## Iluminação e tecidos
 
-- Plafon branco, difuso, 3000 K, com três níveis de brilho pelo interruptor; conjunto Jurerê/SceneSwitch candidato, ~R$ 110. [Revisão CB02](../Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md).
+- Geral smart com brilho regulável, Alexa/celular (Elias,26/10/2026: “conecta-las na alexa e celular”); proposta Jurerê +2WiZ +WiZmote, cenário parcialR$376,32. SKU/uso com vidro e preço entregue pendentes; SceneSwitch/R$110 são históricos. [Revisão CB02](../Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md).
 - LED indireto escondido na cabeceira; duas arandelas brancas, compactas e direcionáveis, uma por pessoa, comandos independentes. [Iluminação](Iluminacao.md).
 - **Sem cortina:** janela com esquadria branca e persiana integrada.
 - Roupa de cama off-white e bege com verde-oliva suave na manta e almofadas.

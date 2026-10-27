@@ -53,3 +53,5 @@ Para apagar rapidamente a geral smart, usar o botão de desligar do controle pro
 Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md), ilustrativa e anterior à mudança smart do quarto. [Estudo integrado](Estudo_integrado.md). CAD e site publicado preservados.
 
 **Decisão comercial pendente para Elias:** após respostas IL02–IL09, A — manter os candidatos que cumprirem os requisitos e cotar o conjunto completo; B — solicitar substituição somente dos candidatos cuja compatibilidade/preço não fechar, preservando smart e comandos já definidos. Nenhuma seleção de produto inferida; antes das respostas, a ação é fechar dados, não repetir comparação nominal.
+
+Coerência documental26/10: READMEs do quarto/lavanderia alinhados à proposta smart/Firefly; a seleção de27–28/09 fica identificada como memória histórica. Sem alterar decisões comerciais, CAD ou publicação.

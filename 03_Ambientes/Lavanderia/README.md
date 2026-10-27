@@ -17,7 +17,7 @@ Estado atual da lavanderia. Nada aqui libera fabricação, compra ou instalaçã
 - **Tanque** embutido na pedra contínua da cozinha (Branco Itaúnas esculpido): 38 × 35 cm internos, 20 cm de profundidade útil; fundo externo a 70 cm (hipótese). Uso: lavagens pontuais, molho e apoio da roupa tirada da máquina. [Dimensionamento](Tanque.md).
 - **Escoamento:** tampão removível para molho, retentor de fiapos removível, acabamento baixo; saída posterior. [Posição e alcance](Escoamento.md).
 - **Torneira:** Telca Flex preta, ducha extraível, quente/fria. Mangueira e contrapeso livres do sifão e do cesto. [Escolha](Torneira.md).
-- **Cesto basculante** sob o tanque: 45 × 25 × 45 cm (L × P × A), abertura 55°, saco removível e lavável com alças, frente lisa Greenplac Arenza com pega discreta e ventilação. Remoção fácil para manutenção do sifão. Mecanismo ainda não escolhido. [Cálculo](Cesto_basculante.md) · [compatibilização com o tanque](Tanque_e_cesto.md) · [cesto R41 no modelo](../../02_Modelo_3D/Componentes/Atual/Cesto_R41_2026-10-20/README.md) (saco para 8 kg; consultas a Häfele e FGVTN enviadas).
+- **Cesto basculante P14:** envelope de referência do cesto/armação **45 × 25 × 45 cm**, distinto da frente550×521×18mm e do saco **400×200×400mm**; abertura nominal55°; **8 kg** é conteúdo de estudo, não capacidade demonstrada. Diretriz manual com dois pivôs, limitadores e retenção; produtos completos e montagem ainda condicionados. [Estado técnico vigente](../../04_Moveis/P14/Reacoes_e_operacao/README.md) · [kit de oficina e ensaio vazio](../../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md). O envelope45×25×45 inclui armação/alças/recipiente, não é molde do saco; mecanismos BV0/Southco anteriores não são a direção vigente. Preservar retirada do saco/armação e acesso ao sifão.
 - Bancada a 75 cm no modelo. Hidráulica até 28 cm da parede.
 
 ## Varal
@@ -32,7 +32,7 @@ Sequência de uso aprovada: retirar a roupa e fechar a máquina → baixar o qua
 - Dobradiças reguláveis com amortecimento; perfil de alumínio preto fosco nas frentes, coordenado à pega do cesto.
 - O fundo do armário inferior fica na divisa com o vizinho; prever proteção mínima de 1 cm na lateral externa junto à janela.
 - Lixeira de recicláveis Tramontina Loop 20 L (94547020) no chão, fora do armário.
-- Luz 3000 K com comando próprio; plafon branco de sobrepor com difusor, coordenado à cozinha (Decorlux LP1233 em avaliação). [Seleção](../Iluminacao/Cozinha_e_lavanderia.md).
+- Luz 3000 K com comando próprio; plafon branco de sobrepor com difusor, proposta vigente Galaxy Firefly9607 quadrado3000K com interruptor comum. [Lista e preço de referência](../Iluminacao/Lista_curta_luminarias_e_madeira.md); lote/posição com varal pendentes. Decorlux LP1233 é alternativa histórica.
 
 **T05, 26/10:** [percurso com roupa](Varal.md#t05--percurso-nominal-com-roupa-26102026): 30 cenários; três envelopes com descida 860 mm e roupa pendente de 1200 mm encontram a lixeira na posição salva. Percursos vazio/carregado precisam de posições próprias a conferir; nenhum batente, mudança de posição ou capacidade definidos. R52 preservada.
 
@@ -44,7 +44,7 @@ Banco escada BTF ESC0071, alumínio, três degraus (aberto 64,5 cm; fechado 39,5
 
 - Mecanismo e fornecedor do varal; base resistente e ancoragem (forro, aquecedor e duto não são suporte).
 - Válvula, sifão e curso da mangueira da Telca no mesmo corte do cesto.
-- Mecanismo do cesto basculante.
+- P14: produto D/E, corte axial dos pivôs, terminais, retenção e ensaio de oficina; diretriz manual já definida, sem capacidade física demonstrada.
 - Arranjo E21 + varal: no trecho de 129 cm ensaiado não cabem lado a lado; duto e afastamentos do E21 a confirmar.
 - Lista de medidas a levantar no apartamento: [Levantamento](Levantamento.md).
 
