@@ -9,7 +9,7 @@
 ## Fontes e limites
 
 - [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE11X,09/09](../Cozinha/Equipamentos_e_instalacao.md#purificador-de-água--electrolux-pe11x-cinzaprata-escolhido), [iluminação27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).
-- Marcadores/alturas da R00 são referências nominais herdadas da R45; **não foram reposicionados nem validados contra R53**. Contorno atual lido do site; envelopes antigos de aparelhos omitidos para não sugerir encaixe vigente. Nenhum CAD aberto/alterado.
+- Marcadores/alturas da R00 são referências nominais herdadas da R45; **não foram validados contra R53; Q06 perdeu a posição antiga porque D04 mudou sua implantação**. Contorno atual lido do site; envelopes antigos de aparelhos omitidos para não sugerir encaixe vigente. Nenhum CAD aberto/alterado.
 - Tensão de uso127V (F102,12/09), aparelhos bivolt preservados; GN para KE4GC/E21. Identificação da alimentação não dimensiona circuito, proteção, cabo, simultaneidade nem tomada real.
 - RT confere pontos da construtora, quadro, circuitos, água quente, GN, exaustão e implantação; oficina garante acesso removível às conexões/fontes sem interferir no fechamento até o teto. [Roteiro das chaves](../../07_Imovel/Roteiro_dia_das_chaves_R01.md).
 
@@ -33,26 +33,26 @@
 | B05–B06 | Ducha quente/fria, produto ainda indefinido | Vazão/temperatura e misturador dependem fornecedor/RT; nenhum cálculo novo |
 | B07–B08 | Livo e ralo; B07 codificado sóAQ | B07 é função quente+fria, não contagem de bocais; ambos a levantar |
 | B09–B11 | L02 espelho4000K, indireta Brilia318939/teto3000K | Três comandos comuns separados; fontes/manutenção, volumes e espelho/torneira pendentes |
-| S01–S02 | TV/PS5/soundbar; posições ligadas ao painel | TV mantida; D01 eventual adiamento do painel exige implantação independente e crédito da oficina |
-| S03–S04 | Gerais e jantar sem produto na R00 | Jurerê/WiZ e Jabuticaba/G9/D1 candidatos; IL02/03/09 e D03 |
+| S01–S02 | TV/PS5/soundbar; posições ligadas ao painel | TV mantida; D01-C para cotação do adiamento (Elias27/10) exige implantação independente e crédito da oficina |
+| S03–S04 | Gerais e jantar sem produto na R00 | Jurerê/WiZ e Jabuticaba/G9/D1 candidatos; IL02/03/09 |
 | E01–E03 | Computadores/TV existentes | Etiquetas, quantidade de tomadas e acesso com armários até teto pendentes |
-| E04 | Geral sem produto na R00 | Jurerê/WiZ candidato; IL02/03 e D03 |
+| E04 | Geral sem produto na R00 | Jurerê/WiZ candidato; IL02/03 |
 | Q01–Q04 | Arandelas e tomadas cabeceira | EVY2054 com comando próprio por lado; confirmar interruptor do produto/alcance |
-| Q05–Q06 | Geral antiga não expressava smart; indireta antiga nos aéreos | Q05 smart (Elias26/10); Q06 não pode presumir fresta acima de armário até teto; posição/saída de luz e fonte acessível pendentes |
+| Q05–Q06 | Geral antiga não expressava smart; indireta antiga nos aéreos | Q05 Elgin D03-B; Q06 cabeceira/face inferior D04-A (Elias27/10), sem coordenadas; fonte e montagem acessíveis pendentes |
 
-As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E01–04(4), Q01–06(6): **50/50**. Três funções faltantes cadastradas sem posição: S05 indiretaTV sala; E05 indiretaTV escritório; E06 indireta prateleiras. Não confundir53 funções com53 circuitos ou53 caixas.
+As faixas acima cobrem C01–14(14), L01–11(11), B01–11(11), S01–04(4), E01–04(4), Q01–06(6): **50/50**. Q06 e três funções adicionais estão sem posição: S05 indiretaTV sala; E05 indiretaTV escritório; E06 indireta prateleiras. Não confundir53 funções com53 circuitos ou53 caixas.
 
 ## Comandos de anteprojeto, sem circuitos
 
 - C13/L11/B09/B10/B11: liga/desliga comum; os três do banheiro separados.
 - C14/S05/Q06: Shelly+fonte+pulsador candidato, grupo independente, compatibilidade IL04–07.
-- S03/E04/Q05: smart/Alexa/celular e comando físico proposto; produto/alternativa D03 pendente.
+- S03/E04: Jurerê/WiZ smart; Q05: Elgin48D18WSRWIFI, D03-B de Elias27/10/2026, manual/comando físico IL09 pendentes.
 - S04: D1+RM433 propostos; ensaio com trêsG9. Q01/Q02: leitura independente por lado.
 - E05/E06: dois kitsWiZ, dois controles separados; corte e acessórios IL08. Não duplicar fontes próprias.
 
-**D04 — Onde desenvolver a saída da indiretaQ06, preservando armários até o teto? A) na cabeceira/face inferior acessível (componentes provisionados, acréscimo de marcenaria a cotar); B) rebaixo/perfil na face frontal do aéreo (mesma provisão de componentes, usinagem/acesso a cotar); C) aguardar amostra montada da oficina antes de escolher (sem crédito de corte; custo de amostra a cotar). Recomendação: A para consulta, por evitar pressupor fresta no teto e facilitar manutenção; não executar antes da solução da oficina/RT.** Os componentes Q06 estão no total da iluminação, sem rateio por metro validado; custo adicional desconhecido não vale zero. Fonte: requisito de armários até teto26/10 e composição27/10 acima. Nenhuma nova dimensão de móvel adotada.
+**D04 — Elias,27/10/2026: "A — indireta na cabeceira/face inferior acessível".** Q06 sai da coordenada/altura antiga213cm e fica sem posição até compatibilização. Componentes provisionados; acréscimos de marcenaria/instalação a cotar. D05 poderá adiar cabeceira/aéreo: nesse caso, cotar suporte independente antes de executar. Não inventar nova coordenada nem fresta sobre armário.
 
-Conferência27/10: SVG renderizado e inspecionado visualmente, XML válido,53 IDs únicos e cobertos no CSV. Não verifica posições reais.
+Conferência anterior27/10: SVG inspecionado. Revisão D03/D04 mantém53 funções, agora quatro sem posição (Q06/S05/E05/E06); conferir na regeneração A3. Não verifica posições reais.
 
 ## Pontos
 
@@ -98,18 +98,18 @@ Conferência27/10: SVG renderizado e inspecionado visualmente, XML válido,53 ID
 | B11 | Luz no teto | Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 | teto a confirmar | Selecionado L02; ponto e volumes a conferir |
 | S01 | Tomada 127 V | Régua no compartimento ventilado: TV, PS5, soundbar | 30 cm (nominal) | Posição de estudo |
 | S02 | Tomada 127 V | TV 50″ atrás do painel | 120 cm (nominal) | Altura a conferir |
-| S03 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 e alternativa D03 pendentes |
+| S03 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 pendentes; D03-B mantém sala/escritório |
 | S04 | Luz no teto | Jabuticaba triplo +3Brilia314450 +D1/RM433 | teto a confirmar | Vidro âmbar e dimerização a confirmar, grupo próprio |
 | E01 | Tomada 127 V | Bancada · notebook | 85 cm (nominal) | Quantidade a definir |
 | E02 | Tomada 127 V | Bancada · PC CH360, monitores | 85 cm (nominal) | Quantidade a definir |
 | E03 | Tomada 127 V | TV 43″ existente | 100 cm (nominal) | Conferir |
-| E04 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 e alternativa D03 pendentes |
+| E04 | Luz no teto | Geral smart: Jurerê +2WiZ +WiZmote, candidata | teto a confirmar | IL02/03 pendentes; D03-B mantém sala/escritório |
 | Q01 | Luz de parede / indireta | Nordecor EVY2054 branca · lado 1 | 110 cm (nominal) | Comando independente |
 | Q02 | Luz de parede / indireta | Nordecor EVY2054 branca · lado 2 | 110 cm (nominal) | Comando independente |
 | Q03 | Tomada 127 V | Tomada de cabeceira · lado 1 | 60 cm (nominal) | Conferir |
 | Q04 | Tomada 127 V | Tomada de cabeceira · lado 2 | 60 cm (nominal) | Conferir |
-| Q05 | Luz no teto | Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato | teto a confirmar | Requisito Elias26/10; IL02/03 e D03 pendentes |
-| Q06 | Luz de parede / indireta | COB3000K +Opus/Shelly/pulsador, indireta do quarto | 213 cm (nominal) | Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes |
+| Q05 | Luz no teto | Geral smart Elgin48D18WSRWIFI: brilho, Alexa/celular | teto a confirmar | D03-B Elias27/10; manual/comando físico IL09 pendentes |
+| Q06 | Luz de parede / indireta | Cabeceira/face inferior: COB3000K +Opus/Shelly | a levantar | D04-A Elias27/10; posição/acesso/pulsador a compatibilizar |
 | S05 | Luz de parede / indireta | TV sala: COB3000K +Opus/Shelly/pulsador | a levantar | Novo grupo; posição/acesso a levantar, compatibilizar faseamento D01 |
 | E05 | Luz de parede / indireta | TV escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |
 | E06 | Luz de parede / indireta | Prateleiras escritório: kit WiZ2m e WiZmote próprio | a levantar | Novo grupo; posição/cortes/manuais IL08 pendentes |

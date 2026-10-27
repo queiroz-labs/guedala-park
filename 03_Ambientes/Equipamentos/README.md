@@ -51,3 +51,5 @@ IB6S e LG VC4 CV5012PC4: preços, parcelamento e fontes. Acabamento vigente Inox
 Compatibilização27/10: CSV corrige Q05 para smart e L11 paraFirefly9608; inclui S05/E05/E06 sem coordenadas inventadas. [Auditoria R01 dos50 códigos originais](../Planta_pontos/README.md); circuitos/implantação continuam com RT.
 
 B10/EQ32: Brilia318939 substituta proposta em27/10, com oferta nacional e fabricante identificados na lista de iluminação; instalação ainda condicionada.
+
+D03/D04, Elias27/10/2026: EQ43 registra Elgin48D18WSRWIFI no quarto; EQ42 registra cabeceira/face inferior acessível. Citações no CSV e na lista de iluminação; dimensões/manuais e implantação permanecem condicionados.

@@ -39,7 +39,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
 | Anteprojeto | 83% estimado | Antes75%; +8 de avanço documental, sem contar perguntas como decisões. [Critério e seis frentes](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D04 respondidas por Elias27/10; custos/pontos em integração; orçamento impede90–95% |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
-| Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; SVG conferido visualmente; coordenadas nominais, D04/saída de luz e circuitos com RT/oficina |
+| Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04 integradas; Q06 sem coordenada, implantação e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias27/10; SKUs e escolha final pendentes |
 | Orçamento | 60% | R44: R$137.748,11. D01-C para cotação (Elias27/10), não contratação. Luz4.879,03; teto marcenaria sem descontos29.554,30. [D05](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos): A131.845,70/B119.445,70/C127.445,70, com perdas e créditos condicionais; aguarda Elias; reserva intocada |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |

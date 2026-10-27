@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 940" font-family="Arial, sans-serif">
-<rect x="-40" y="-40" width="950" height="940" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 955" font-family="Arial, sans-serif">
+<rect x="-40" y="-40" width="950" height="955" fill="#fff"/>
 <rect x="0" y="100" width="245" height="295" fill="#efe7da"/>
 <rect x="245" y="305" width="120" height="90" fill="#efe7da"/>
 <rect x="365" y="315" width="10" height="75" fill="#efe7da"/>
@@ -83,31 +83,31 @@
 <g><title>B11 · Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44 · Selecionado L02; ponto e volumes a conferir</title><circle cx="395" cy="450" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M390,445L400,455M400,445L390,455" stroke="#b7791f" stroke-width="1.5"/><text x="403" y="444" font-size="9" font-weight="bold" fill="#222">B11</text></g>
 <g><title>S01 · Régua no compartimento ventilado: TV, PS5, soundbar · Posição de estudo</title><rect x="500" y="195" width="10" height="10" fill="#2b6cb0"/><text x="513" y="194" font-size="9" font-weight="bold" fill="#222">S01</text></g>
 <g><title>S02 · TV 50″ atrás do painel · Altura a conferir</title><rect x="500" y="245" width="10" height="10" fill="#2b6cb0"/><text x="513" y="244" font-size="9" font-weight="bold" fill="#222">S02</text></g>
-<g><title>S03 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 e alternativa D03 pendentes</title><circle cx="617" cy="375" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M612,370L622,380M622,370L612,380" stroke="#b7791f" stroke-width="1.5"/><text x="625" y="369" font-size="9" font-weight="bold" fill="#222">S03</text></g>
+<g><title>S03 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 pendentes; D03-B mantém sala/escritório</title><circle cx="617" cy="375" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M612,370L622,380M622,370L612,380" stroke="#b7791f" stroke-width="1.5"/><text x="625" y="369" font-size="9" font-weight="bold" fill="#222">S03</text></g>
 <g><title>S04 · Jabuticaba triplo +3Brilia314450 +D1/RM433 · Vidro âmbar e dimerização a confirmar, grupo próprio</title><circle cx="660" cy="455" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M655,450L665,460M665,450L655,460" stroke="#b7791f" stroke-width="1.5"/><text x="668" y="449" font-size="9" font-weight="bold" fill="#222">S04</text></g>
 <g><title>E01 · Bancada · notebook · Quantidade a definir</title><rect x="295" y="0" width="10" height="10" fill="#2b6cb0"/><text x="308" y="-1" font-size="9" font-weight="bold" fill="#222">E01</text></g>
 <g><title>E02 · Bancada · PC CH360, monitores · Quantidade a definir</title><rect x="435" y="0" width="10" height="10" fill="#2b6cb0"/><text x="448" y="-1" font-size="9" font-weight="bold" fill="#222">E02</text></g>
 <g><title>E03 · TV 43″ existente · Conferir</title><rect x="475" y="171" width="10" height="10" fill="#2b6cb0"/><text x="488" y="170" font-size="9" font-weight="bold" fill="#222">E03</text></g>
-<g><title>E04 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 e alternativa D03 pendentes</title><circle cx="370" cy="150" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M365,145L375,155M375,145L365,155" stroke="#b7791f" stroke-width="1.5"/><text x="378" y="144" font-size="9" font-weight="bold" fill="#222">E04</text></g>
+<g><title>E04 · Geral smart: Jurerê +2WiZ +WiZmote, candidata · IL02/03 pendentes; D03-B mantém sala/escritório</title><circle cx="370" cy="150" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M365,145L375,155M375,145L365,155" stroke="#b7791f" stroke-width="1.5"/><text x="378" y="144" font-size="9" font-weight="bold" fill="#222">E04</text></g>
 <g><title>Q01 · Nordecor EVY2054 branca · lado 1 · Comando independente</title><path d="M-1,116L5,106L11,116Z" fill="#d69e2e"/><text x="13" y="106" font-size="9" font-weight="bold" fill="#222">Q01</text></g>
 <g><title>Q02 · Nordecor EVY2054 branca · lado 2 · Comando independente</title><path d="M-1,292L5,282L11,292Z" fill="#d69e2e"/><text x="13" y="282" font-size="9" font-weight="bold" fill="#222">Q02</text></g>
 <g><title>Q03 · Tomada de cabeceira · lado 1 · Conferir</title><rect x="0" y="100" width="10" height="10" fill="#2b6cb0"/><text x="13" y="117" font-size="9" font-weight="bold" fill="#222">Q03</text></g>
 <g><title>Q04 · Tomada de cabeceira · lado 2 · Conferir</title><rect x="0" y="290" width="10" height="10" fill="#2b6cb0"/><text x="13" y="307" font-size="9" font-weight="bold" fill="#222">Q04</text></g>
-<g><title>Q05 · Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato · Requisito Elias26/10; IL02/03 e D03 pendentes</title><circle cx="122" cy="248" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M117,243L127,253M127,243L117,253" stroke="#b7791f" stroke-width="1.5"/><text x="130" y="242" font-size="9" font-weight="bold" fill="#222">Q05</text></g>
-<g><title>Q06 · COB3000K +Opus/Shelly/pulsador, indireta do quarto · Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes</title><path d="M94,334L100,324L106,334Z" fill="#d69e2e"/><text x="108" y="324" font-size="9" font-weight="bold" fill="#222">Q06</text></g>
-<text x="0" y="752" font-size="10">S05: TV sala: COB3000K +Opus/Shelly/pulsador — posição a levantar</text>
-<text x="0" y="763" font-size="10">E05: TV escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
-<text x="0" y="774" font-size="10">E06: Prateleiras escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
-<text x="0" y="793" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>
-<rect x="1" y="810" width="10" height="10" fill="#2b6cb0"/><text x="18" y="819" font-size="11">Tomada 127 V</text>
-<rect x="180" y="809" width="12" height="12" fill="#1a365d"/><circle cx="186" cy="815" r="2" fill="#fff"/><text x="198" y="819" font-size="11">Tomada 20 A / 127 V</text>
-<rect x="360" y="809" width="12" height="12" fill="#742a2a"/><circle cx="366" cy="815" r="2" fill="#fff"/><text x="378" y="819" font-size="11">Ponto dedicado / RT</text>
-<circle cx="546" cy="815" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M541,810L551,820M551,810L541,820" stroke="#b7791f" stroke-width="1.5"/><text x="558" y="819" font-size="11">Luz no teto</text>
-<path d="M720,819L726,809L732,819Z" fill="#d69e2e"/><text x="738" y="819" font-size="11">Luz de parede / indireta</text>
-<circle cx="6" cy="837" r="4.5" fill="#3182ce"/><text x="18" y="841" font-size="11">Água fria</text>
-<circle cx="186" cy="837" r="4.5" fill="#e53e3e"/><text x="198" y="841" font-size="11">Água quente</text>
-<circle cx="366" cy="837" r="4.5" fill="#4a5568"/><text x="378" y="841" font-size="11">Esgoto / ralo</text>
-<path d="M546,831L552,837L546,843L540,837Z" fill="#d69e2e" stroke="#744210"/><text x="558" y="841" font-size="11">Gás GN</text>
-<circle cx="726" cy="837" r="5" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="2 2"/><text x="738" y="841" font-size="11">Exaustão</text>
-<text x="0" y="867" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Marcadores herdados da R45; contorno atual do site. Não são posições R53 validadas nem medidas reais.</text>
+<g><title>Q05 · Geral smart Elgin48D18WSRWIFI: brilho, Alexa/celular · D03-B Elias27/10; manual/comando físico IL09 pendentes</title><circle cx="122" cy="248" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M117,243L127,253M127,243L117,253" stroke="#b7791f" stroke-width="1.5"/><text x="130" y="242" font-size="9" font-weight="bold" fill="#222">Q05</text></g>
+<text x="0" y="752" font-size="10">Q06: Cabeceira/face inferior: COB3000K +Opus/Shelly — posição a levantar</text>
+<text x="0" y="763" font-size="10">S05: TV sala: COB3000K +Opus/Shelly/pulsador — posição a levantar</text>
+<text x="0" y="774" font-size="10">E05: TV escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
+<text x="0" y="785" font-size="10">E06: Prateleiras escritório: kit WiZ2m e WiZmote próprio — posição a levantar</text>
+<text x="0" y="808" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>
+<rect x="1" y="825" width="10" height="10" fill="#2b6cb0"/><text x="18" y="834" font-size="11">Tomada 127 V</text>
+<rect x="180" y="824" width="12" height="12" fill="#1a365d"/><circle cx="186" cy="830" r="2" fill="#fff"/><text x="198" y="834" font-size="11">Tomada 20 A / 127 V</text>
+<rect x="360" y="824" width="12" height="12" fill="#742a2a"/><circle cx="366" cy="830" r="2" fill="#fff"/><text x="378" y="834" font-size="11">Ponto dedicado / RT</text>
+<circle cx="546" cy="830" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M541,825L551,835M551,825L541,835" stroke="#b7791f" stroke-width="1.5"/><text x="558" y="834" font-size="11">Luz no teto</text>
+<path d="M720,834L726,824L732,834Z" fill="#d69e2e"/><text x="738" y="834" font-size="11">Luz de parede / indireta</text>
+<circle cx="6" cy="852" r="4.5" fill="#3182ce"/><text x="18" y="856" font-size="11">Água fria</text>
+<circle cx="186" cy="852" r="4.5" fill="#e53e3e"/><text x="198" y="856" font-size="11">Água quente</text>
+<circle cx="366" cy="852" r="4.5" fill="#4a5568"/><text x="378" y="856" font-size="11">Esgoto / ralo</text>
+<path d="M546,846L552,852L546,858L540,852Z" fill="#d69e2e" stroke="#744210"/><text x="558" y="856" font-size="11">Gás GN</text>
+<circle cx="726" cy="852" r="5" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="2 2"/><text x="738" y="856" font-size="11">Exaustão</text>
+<text x="0" y="882" font-size="10" fill="#7a2e2e">Estudo para o responsável técnico. Marcadores herdados da R45; contorno atual do site. Não são posições R53 validadas nem medidas reais.</text>
 </svg>

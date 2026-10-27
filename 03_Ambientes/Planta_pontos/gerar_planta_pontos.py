@@ -76,20 +76,20 @@ P = [
     # Sala
     ('S01', 'T', 505, 200, 30, 'Régua no compartimento ventilado: TV, PS5, soundbar', 'Posição de estudo'),
     ('S02', 'T', 505, 250, 120, 'TV 50″ atrás do painel', 'Altura a conferir'),
-    ('S03', 'L', 617, 375, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 e alternativa D03 pendentes'),
+    ('S03', 'L', 617, 375, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
     ('S04', 'L', 660, 455, None, 'Jabuticaba triplo +3Brilia314450 +D1/RM433', 'Vidro âmbar e dimerização a confirmar, grupo próprio'),
     # Escritório
     ('E01', 'T', 300, 5, 85, 'Bancada · notebook', 'Quantidade a definir'),
     ('E02', 'T', 440, 5, 85, 'Bancada · PC CH360, monitores', 'Quantidade a definir'),
     ('E03', 'T', 480, 176, 100, 'TV 43″ existente', 'Conferir'),
-    ('E04', 'L', 370, 150, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 e alternativa D03 pendentes'),
+    ('E04', 'L', 370, 150, None, 'Geral smart: Jurerê +2WiZ +WiZmote, candidata', 'IL02/03 pendentes; D03-B mantém sala/escritório'),
     # Quarto
     ('Q01', 'A', 5, 112, 110, 'Nordecor EVY2054 branca · lado 1', 'Comando independente'),
     ('Q02', 'A', 5, 288, 110, 'Nordecor EVY2054 branca · lado 2', 'Comando independente'),
     ('Q03', 'T', 5, 105, 60, 'Tomada de cabeceira · lado 1', 'Conferir'),
     ('Q04', 'T', 5, 295, 60, 'Tomada de cabeceira · lado 2', 'Conferir'),
-    ('Q05', 'L', 122, 248, None, 'Geral smart: brilho, Alexa/celular; Jurerê/WiZ candidato', 'Requisito Elias26/10; IL02/03 e D03 pendentes'),
-    ('Q06', 'A', 100, 330, 213, 'COB3000K +Opus/Shelly/pulsador, indireta do quarto', 'Altura antiga213 não define montagem: armários até teto, acesso e saída de luz pendentes'),
+    ('Q05', 'L', 122, 248, None, 'Geral smart Elgin48D18WSRWIFI: brilho, Alexa/celular', 'D03-B Elias27/10; manual/comando físico IL09 pendentes'),
+    ('Q06', 'A', None, None, None, 'Cabeceira/face inferior: COB3000K +Opus/Shelly', 'D04-A Elias27/10; posição/acesso/pulsador a compatibilizar'),
 ]
 
 P += [
@@ -126,8 +126,8 @@ def symbol(t, x, z):
 
 
 def build():
-    s = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 940" font-family="Arial, sans-serif">',
-         '<rect x="-40" y="-40" width="950" height="940" fill="#fff"/>']
+    s = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 950 955" font-family="Arial, sans-serif">',
+         '<rect x="-40" y="-40" width="950" height="955" fill="#fff"/>']
     for room, x, z, w, d, mat in floors:
         s.append(f'<rect x="{x}" y="{z}" width="{w}" height="{d}" fill="{FLOOR_FILL.get(mat, "#eee")}"/>')
     for name, x, z, w, d in []:  # envelopes R45 omitidos: não validados contra R53
@@ -175,7 +175,7 @@ def build():
     for i, point in enumerate(q for q in P if q[2] is None):
         code, _, _, _, _, desc, _ = point
         s.append(f'<text x="0" y="{752+i*11}" font-size="10">{code}: {escape(desc)} — posição a levantar</text>')
-    ly = 805
+    ly = 820
     s.append(f'<text x="0" y="{ly - 12}" font-size="13" font-weight="bold">Planta de pontos de anteprojeto R01 · Guedala Park · sem escala de execução</text>')
     for i, (t, (c, label)) in enumerate(STYLE.items()):
         lx = (i % 5) * 180
