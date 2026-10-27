@@ -1,7 +1,7 @@
 """Triagem continua de envelopes para ajuste/retirada, sem abrir CAD."""
 from pathlib import Path
 import gzip,hashlib,json
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
 def overlap(a,b): return all(min(a[i+3],b[i+3])-max(a[i],b[i])>1e-6 for i in range(3))
 def move(b,axis,d):

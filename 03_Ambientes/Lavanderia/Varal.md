@@ -48,4 +48,4 @@ Os outros 27 cenários não têm candidatos de volume no conjunto testado. Sobre
 
 O teste usa caixas de peças sólidas Part/PartDesign com visibilidade na cadeia de pais salva; contêineres agregados não são obstáculos duplicados. Movimentos de janela, portas, máquina e cesto não foram combinados. Cordas, roldanas, suportes, comando, pessoas e volumes comerciais ausentes continuam por representar. A base conserva alturas anteriores: a hipótese geral de 2600 mm não foi aplicada silenciosamente à R52. Nenhum afastamento de gases/calor, capacidade, retenção ou ancoragem foi validado.
 
-Reproduzir: `python -B ferramentas/conferir_interfaces_t05.py`. O script confere o hash do modelo, varre caixas por translação e inclui controles de obstáculo intermediário e contato tangente. Nenhum ensaio físico.
+Reproduzir: `python -B ferramentas/estudos/conferir_interfaces_t05.py`. O script confere o hash do modelo, varre caixas por translação e inclui controles de obstáculo intermediário e contato tangente. Nenhum ensaio físico.

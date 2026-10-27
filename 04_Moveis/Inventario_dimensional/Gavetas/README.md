@@ -61,7 +61,7 @@ Os grupos incluem **dez peças de bandeja e nove envelopes de utensílios**. Cad
 
 A distância zero e a ausência de volume comum são coerentes com assentamento no plano Z628, mas **não medem área de apoio efetiva nem resistência**: a operação `common()` devolveu área zero nesses pares. A ressalva C0 da representação importada permanece conforme a [análise do modelo](../../../02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026); `isValid()` não substitui análise BOP. Não escalar a peça importada inteira. O fundo alongado/alargado continua uma proposta de envelope, sem sólidos corrigidos ou usinagem demonstrados.
 
-Reproduzir a inspeção com `FreeCADCmd.exe ferramentas/conferir_solidos_g2.py`, seguido de `python -B ferramentas/verificar_modelo/verificar_modelo.py --completo`, conforme AGENTS.md. O script abre, copia as formas para cálculo e fecha sem salvar; confere o hash antes/depois. A base de verificação não é regravada. Verificação completa desta etapa: **OK**, 5.832 objetos, 1.133 formas ativas e 106 cenários de movimento; hash R52 preservado. Isso confere a geometria atual, não a proposta ainda não aplicada.
+Reproduzir a inspeção com `FreeCADCmd.exe ferramentas/estudos/conferir_solidos_g2.py`, seguido de `python -B ferramentas/verificar_modelo/verificar_modelo.py --completo`, conforme AGENTS.md. O script abre, copia as formas para cálculo e fecha sem salvar; confere o hash antes/depois. A base de verificação não é regravada. Verificação completa desta etapa: **OK**, 5.832 objetos, 1.133 formas ativas e 106 cenários de movimento; hash R52 preservado. Isso confere a geometria atual, não a proposta ainda não aplicada.
 
 ### Sequência antes de aplicar no CAD
 
@@ -70,7 +70,7 @@ Reproduzir a inspeção com `FreeCADCmd.exe ferramentas/conferir_solidos_g2.py`,
 3. Conferir ajuste vertical +3, frentes vizinhas, corpos reais, abertura/retirada e acesso às mãos. As folgas desta tabela valem para a caixa fechada, sem ferragens novas; não comprovam percurso.
 4. Apresentar a solução de montagem para decisão sobre aplicação. Somente após pedido de alteração do modelo, editar os parâmetros/peças e executar a verificação completa, sem alterar a base para ocultar falhas.
 
-Reproduzir a proposta: `python -B ferramentas/propor_caixas_fgvtn.py`. O script confere hashes do CAD, base e desenho contra a auditoria, relações entre as 42 peças, frentes e Z preservados e folgas horizontais das bandejas. Não abre o FreeCAD, não calcula capacidade nem valida colisões de sólidos.
+Reproduzir a proposta: `python -B ferramentas/estudos/propor_caixas_fgvtn.py`. O script confere hashes do CAD, base e desenho contra a auditoria, relações entre as 42 peças, frentes e Z preservados e folgas horizontais das bandejas. Não abre o FreeCAD, não calcula capacidade nem valida colisões de sólidos.
 
 Os 14 objetos de engate nas sete gavetas ainda trazem referência **T51.7601**. São evidência da representação existente, não configuração FGVTN demonstrada. Não usar os corpos nem os furos dessa referência como gabarito da FGVTN.
 
@@ -122,4 +122,4 @@ A instrução exige **destrave simultâneo dos dois lados** para retirar a gavet
 
 As sete faces laterais e planos de fundo usados no levantamento antigo foram reconferidos numericamente na base atual. Não se repetiu o ensaio de raios nem se tratou a caixa envolvente como inspeção de furos. Capacidade, rigidez, fabricação e compatibilidade de ferragem continuam pendentes.
 
-Reproduzir na raiz: `python -B ferramentas/conferir_gavetas_p01_p06.py`. Usa somente a biblioteca padrão, confere hash R52 e as faces de referência; gera os dados sem abrir CAD.
+Reproduzir na raiz: `python -B ferramentas/estudos/conferir_gavetas_p01_p06.py`. Usa somente a biblioteca padrão, confere hash R52 e as faces de referência; gera os dados sem abrir CAD.

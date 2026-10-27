@@ -4,7 +4,7 @@ import hashlib
 import itertools
 import json
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT/'04_Moveis/Proximas_decisoes/Instalacao_e_P16'
 SOURCE = OUT/'Micro_estudo.json'
 

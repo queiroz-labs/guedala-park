@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json
 import FreeCAD as App
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas/Conferencia_solidos_G2.json'
 def bounds(sh,optimal=True):
     b=sh.optimalBoundingBox() if optimal else sh.BoundBox

@@ -2,6 +2,8 @@
 
 Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
+Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de estudo vão para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script novo solto).
+
 | Comando | O que faz | Tempo |
 |---|---|---|
 | `python -B ferramentas/aereos/preparar_ensaios_p04.py` | Pacote PDF de quatro páginas, cinco retalhos T0/oito Minifix e 15 registros vazios; ReportLab/NumPy no Python embutido, sem ensaio físico | segundos |

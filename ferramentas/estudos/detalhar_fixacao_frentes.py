@@ -1,7 +1,7 @@
 """Geometria candidata da fixacao das frentes, sem CAD nem produto homologado."""
 from pathlib import Path
 import gzip,hashlib,json,math
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
 def overlap(a,b):return all(min(a[i+3],b[i+3])-max(a[i],b[i])>1e-6 for i in range(3))
 def main():
  b=json.loads(gzip.decompress((ROOT/'02_Modelo_3D/Base_verificacao.json.gz').read_bytes()));obs=b['objetos']

@@ -109,7 +109,7 @@ Cotas em mm. A sobra externa após um piloto hipotético1 mm além da ponta cair
 
 O rebaixo3,5 deixa **12,5 mm nominais** e mantém o ligamento inferior5 mm, pois diâmetro/posição não mudam. A cabeça pode ficar saliente, mas dentro do vão testado. A condição geral é `vão mínimo − max(0, cabeça máxima + arruela máxima − rebaixo mínimo) > reserva exigida`. Nesta sensibilidade, o resultado mínimo é0,5 mm; não há tolerância extra a acrescentar sem recalcular. A menor entrada de rosca e a mesma borda inferior ainda exigem verificação: mais espessura local não prova uma ligação melhor em todos os modos.
 
-**Próximo passo independente da FGVTN:** fechar o conjunto dimensional parafuso/arruela e o substrato real; só então escolher entre rebaixo5, comparação3,5 ou outra implantação. Reproduzir a sensibilidade com `python -B ferramentas/validar_fixadores_g2.py`. A validação física da retenção e da região usinada continua pendente; não fabricar nem incorporar o alojamento com base apenas nestes números.
+**Próximo passo independente da FGVTN:** fechar o conjunto dimensional parafuso/arruela e o substrato real; só então escolher entre rebaixo5, comparação3,5 ou outra implantação. Reproduzir a sensibilidade com `python -B ferramentas/estudos/validar_fixadores_g2.py`. A validação física da retenção e da região usinada continua pendente; não fabricar nem incorporar o alojamento com base apenas nestes números.
 
 ## Como a compensação funciona
 
@@ -175,7 +175,7 @@ Para os28 pontos, os envelopes de arruela/cabeça cobrem a faixa relativa vertic
 
 A haste auxiliar Ø12 ×100 encontra conteúdos e, nos pontos baixos G2, as paredes frontais das bandejas. **Esvaziar antes do serviço e retirar as duas bandejas G2**. Após excluir conteúdos/bandejas, não houve encontros com as madeiras selecionadas da própria caixa. Isso não comprova acesso do cabo/mão, abertura da porta, espaço externo ou presença de furos e fixadores antigos.
 
-Foram usados apenas os dados salvos, sem novas booleanas. Engates T51 e corpos FGVTN não integram essa prova. Fixação frontal e engates ficam em regiões diferentes, mas ainda é preciso conferir o produto real; não inferir independência espacial absoluta. Reproduzir: `python -B ferramentas/detalhar_fixacao_frentes.py`.
+Foram usados apenas os dados salvos, sem novas booleanas. Engates T51 e corpos FGVTN não integram essa prova. Fixação frontal e engates ficam em regiões diferentes, mas ainda é preciso conferir o produto real; não inferir independência espacial absoluta. Reproduzir: `python -B ferramentas/estudos/detalhar_fixacao_frentes.py`.
 
 ## Sequência e pendências
 

@@ -2,7 +2,7 @@
 import csv
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 HERE = ROOT / '04_Moveis/Cargas_e_ligacoes'
 UPDATES = {
  'P08': ('336 cenarios de equilibrio; 1292 distribuicoes extremas; 26 casos inviaveis ao excluir uma roda de canto; seis contatos admitem os 48 casos de carga; R52 preservada',
@@ -47,7 +47,7 @@ def main():
   lines.append('| '+clean(r['module']+' '+r['name'])+' | '+clean(r['status'])+' | '+clean(r['next_action'])+' | '+clean(r['proposed_owner']+' / '+r['planned_work_block_2026'])+' | [Relatorio](../'+r['evidence']+') |')
  lines += ['', 'Pendencias por tipo: projeto agora = caminhos resistentes, mapas e rigidez; produto/oficina = ferragens, materiais, juntas e ensaios; Elias = carga P02, aparencia do soco62 e acabamentos ainda abertos (incluindo P13); apartamento/RT = medidas, parede, piso e ancoragens reais. Nao converter trabalho de projeto em espera generica pelas chaves.',
  '', 'Datas sao blocos planejados, nao datas de aprovacao. Consultas prontas nao foram enviadas; nenhum ensaio fisico executado. No P04, as15 linhas do formulario continuam NAO_EXECUTADO. Responsaveis sao propostos, nao contratados.',
- '', 'Fonte vigente: este CSV para as linhas preservadas e atualizacoes em [consolidar_matriz.py](../../ferramentas/consolidar_matriz.py). Regerar: `python -B ferramentas/consolidar_matriz.py` (tambem disponivel em `organizar_entregas.py --consolidar`). [Retomada](../../ESTADO_ATUAL.md).', '']
+ '', 'Fonte vigente: este CSV para as linhas preservadas e atualizacoes em [consolidar_matriz.py](../../ferramentas/estudos/consolidar_matriz.py). Regerar: `python -B ferramentas/estudos/consolidar_matriz.py` (tambem disponivel em `organizar_entregas.py --consolidar`). [Retomada](../../ESTADO_ATUAL.md).', '']
  with (HERE/'Andamento_20_moveis.csv').open('w',encoding='utf-8-sig',newline='') as f:
   writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader();writer.writerows(rows)
  (HERE/'Andamento_20_moveis.md').write_text('\n'.join(lines),encoding='utf-8')

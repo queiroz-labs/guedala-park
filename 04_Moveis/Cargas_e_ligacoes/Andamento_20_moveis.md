@@ -31,4 +31,4 @@ Pendencias por tipo: projeto agora = caminhos resistentes, mapas e rigidez; prod
 
 Datas sao blocos planejados, nao datas de aprovacao. Consultas prontas nao foram enviadas; nenhum ensaio fisico executado. No P04, as15 linhas do formulario continuam NAO_EXECUTADO. Responsaveis sao propostos, nao contratados.
 
-Fonte vigente: este CSV para as linhas preservadas e atualizacoes em [consolidar_matriz.py](../../ferramentas/consolidar_matriz.py). Regerar: `python -B ferramentas/consolidar_matriz.py` (tambem disponivel em `organizar_entregas.py --consolidar`). [Retomada](../../ESTADO_ATUAL.md).
+Fonte vigente: este CSV para as linhas preservadas e atualizacoes em [consolidar_matriz.py](../../ferramentas/estudos/consolidar_matriz.py). Regerar: `python -B ferramentas/estudos/consolidar_matriz.py` (tambem disponivel em `organizar_entregas.py --consolidar`). [Retomada](../../ESTADO_ATUAL.md).

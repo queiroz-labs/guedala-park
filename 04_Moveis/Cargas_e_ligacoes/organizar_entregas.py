@@ -5,7 +5,7 @@ HERE=Path(__file__).resolve().parent
 # Consolidacao documental: preserva os dados existentes e nao gera eixos historicos.
 if '--consolidar' in sys.argv:
  from importlib.util import spec_from_file_location, module_from_spec
- spec=spec_from_file_location('matriz',HERE.parents[1]/'ferramentas'/'consolidar_matriz.py')
+ spec=spec_from_file_location('matriz',HERE.parents[1]/'ferramentas'/'estudos'/'consolidar_matriz.py')
  mod=module_from_spec(spec);spec.loader.exec_module(mod);mod.main()
  sys.exit(0)
 ROUPEIRO={

@@ -1,7 +1,7 @@
 """Proposta de envelopes, sem abrir ou modificar CAD; nao e lista de corte."""
 from pathlib import Path
 import csv,gzip,hashlib,json
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
 def main():
     bp=ROOT/'02_Modelo_3D/Base_verificacao.json.gz'

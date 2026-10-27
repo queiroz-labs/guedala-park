@@ -27,7 +27,7 @@ A traseira ainda fica **60 mm além do plano da frente fechada**. Isso é compar
 
 As caixas foram varridas continuamente por translação; um controle com obstáculo somente no meio do percurso confirmou que a rotina não examina apenas as pontas. Contato tangente não conta como sobreposição de volume. Foram excluídos contêineres agregados, mantendo peças sólidas Part/PartDesign com visibilidade na cadeia de pais salva. Outros móveis ficam nas poses da base; não foram conferidas aberturas simultâneas, pessoas ou ferragens ainda ausentes. O resultado não modifica os cálculos de rodas, estabilidade e resistência.
 
-Reproduzir: `python -B ferramentas/conferir_interfaces_t05.py`. Lê a base persistida, verifica o hash R52 e não abre o FreeCAD.
+Reproduzir: `python -B ferramentas/estudos/conferir_interfaces_t05.py`. Lê a base persistida, verifica o hash R52 e não abre o FreeCAD.
 
 ## Geometria e massa conhecidas
 

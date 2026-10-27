@@ -87,4 +87,4 @@ O topo do quadro está Z743 e a face inferior da pedra Z745: **somente 2 mm nomi
 
 Aberturas cotidianas esquerda/direita de 270/235 mm e a retirada integral do quadro têm funções diferentes. O cenário antigo de sifão/recorte Ø100 permanece hipótese, não produto instalado ou mapa para furar. Antes de localizar registros/conexões, sobrepor seus envelopes e as ferramentas necessárias à abertura efetiva; se a união precisar do vão integral, registrar expressamente a remoção do quadro como etapa anterior. Não acrescentar uma divisória/faixa fixa para resolver um acesso ainda sem geometria.
 
-Reproduzir: `python -B ferramentas/conferir_acesso_banheiro.py`. Hash R52 conferido; geometria lida da base persistida, sem abrir CAD e sem ensaio físico. As faixas foram conferidas por substituição direta nas desigualdades; não representam percurso novo aprovado.
+Reproduzir: `python -B ferramentas/estudos/conferir_acesso_banheiro.py`. Hash R52 conferido; geometria lida da base persistida, sem abrir CAD e sem ensaio físico. As faixas foram conferidas por substituição direta nas desigualdades; não representam percurso novo aprovado.

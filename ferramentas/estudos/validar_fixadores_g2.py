@@ -1,7 +1,7 @@
 """Sensibilidades dimensionais dos alojamentos; nao calcula capacidade de MDF."""
 from pathlib import Path
 import itertools,json,hashlib,math
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
 def main():
  src=json.loads((OUT/'Fixacao_frentes.json').read_text(encoding='utf-8'))
  rel=json.loads((ROOT/'ferramentas/site/current_release.json').read_text(encoding='utf-8'))

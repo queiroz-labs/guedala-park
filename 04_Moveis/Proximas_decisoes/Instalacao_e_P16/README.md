@@ -22,7 +22,7 @@ As caixas das duas peças propostas ficaram separadas das caixas dos1.131 sólid
 
 ## T05 — cadeia dimensional e margens, 26/10/2026
 
-[Memória e nove cenários](Margens_instalacao.json). Reproduzir: `python -B ferramentas/analisar_interface_micro.py`. Conferência por 288 combinações extremas de cinco grandezas; sem abrir o FreeCAD ou modificar a alternativa existente. Valores de instalação são os do estudo salvo, não nova medição nem revisão do manual.
+[Memória e nove cenários](Margens_instalacao.json). Reproduzir: `python -B ferramentas/estudos/analisar_interface_micro.py`. Conferência por 288 combinações extremas de cinco grandezas; sem abrir o FreeCAD ou modificar a alternativa existente. Valores de instalação são os do estudo salvo, não nova medição nem revisão do manual.
 
 **Referências verticais:** bancada Z920 → face inferior da prateleira → prateleira 18 → aparelho 290 → vão superior → base do aéreo Z1940. O apoio do aparelho coincide com a base do envelope na fonte; pés/altura instalada precisam de confirmação própria. Abaixar a prateleira em **δ** aumenta a folga superior e reduz, na mesma medida, o espaço de trabalho abaixo.
 

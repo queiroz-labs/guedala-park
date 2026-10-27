@@ -65,7 +65,7 @@ Foram **132 casos e 1.078.560 pares de envelopes**: R52/proposta, frente acompan
 
 Obstáculos: peças Part/PartDesign com sólidos e visibilidade na cadeia de pais da base salva, sem agregados duplicados. As referências GuiasComuns/GuiasG2 e T51 foram **explicitamente excluídas** e listadas no JSON, pois não representam a montagem FGVTN demonstrada. Logo, ausência de encontros não prova folga com a corrediça. Aberturas simultâneas, mãos, ferramentas, pessoas, tolerâncias, cargas e inclinação não estão no teste. Sobreposição de envelopes é triagem; não uma colisão BRep confirmada.
 
-Reproduzir na raiz: `python -B ferramentas/conferir_ajuste_retirada_gavetas.py`. O script verifica o SHA do CAD contra a base e proposta, as expressões de movimento e a presença dos cenários de porta 600. Lê somente dados; não altera controlador, forma, base ou arquivo CAD.
+Reproduzir na raiz: `python -B ferramentas/estudos/conferir_ajuste_retirada_gavetas.py`. O script verifica o SHA do CAD contra a base e proposta, as expressões de movimento e a presença dos cenários de porta 600. Lê somente dados; não altera controlador, forma, base ou arquivo CAD.
 
 ## Melhor momento para alterar o FreeCAD
 

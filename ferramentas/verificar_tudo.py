@@ -37,6 +37,10 @@ def estrutura():
                     and not f.startswith(LEGADO))
     if copias:
         erros.append('Copias lado a lado em vez de versao unica (regra 3): ' + ', '.join(copias[:10]))
+    soltos = sorted(f for f in arquivos if re.fullmatch(r'ferramentas/[^/]+\.py', f)
+                    and not re.match(r'ferramentas/(verificar_|test_)', f))
+    if soltos:
+        erros.append('Script solto na raiz de ferramentas/ (regra 5): ponha em ferramentas/estudos/ ou na pasta do tema: ' + ', '.join(soltos[:10]))
     sem_readme = sorted(p for p in pastas if p.count('/') == 0 and p[:2].isdigit() and not (RAIZ / p / 'README.md').exists())
     if sem_readme:
         erros.append('Pasta de topo sem README.md: ' + ', '.join(sem_readme))

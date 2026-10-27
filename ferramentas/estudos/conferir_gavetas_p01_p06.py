@@ -2,7 +2,7 @@
 from pathlib import Path
 import gzip, hashlib, json
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'04_Moveis/Inventario_dimensional/Gavetas'
 
 

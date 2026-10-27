@@ -12,7 +12,7 @@ Os valores abaixo são **resultados de modelos nominais**, com materiais e junta
 
 **26/10:** montagem P20/P14 atualizada na [matriz](Andamento_20_moveis.md); zero ensaios.
 
-[Matriz20/20](Andamento_20_moveis.md) consolidada em26/10: controle25/10 e T01 documentais concluídos; T02/T03 parciais. LoteB atualizado; P04 preparado para laboratório, sem ensaios. Regerar: `python -B ferramentas/consolidar_matriz.py`. Estudos históricos abaixo preservados.
+[Matriz20/20](Andamento_20_moveis.md) consolidada em26/10: controle25/10 e T01 documentais concluídos; T02/T03 parciais. LoteB atualizado; P04 preparado para laboratório, sem ensaios. Regerar: `python -B ferramentas/estudos/consolidar_matriz.py`. Estudos históricos abaixo preservados.
 
 ## Entregas desta rodada
 
