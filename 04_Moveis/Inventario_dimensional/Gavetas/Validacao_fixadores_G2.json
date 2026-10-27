@@ -1,0 +1,351 @@
+{
+  "status": "VALIDACAO_DIMENSIONAL_PARCIAL_RESISTENCIA_NAO_DEMONSTRADA",
+  "cad_sha256": "941da02d367c5f6ce2992f72985f86c3aceba23f899a4c394cf3569f19d7b4da",
+  "cad_opened": false,
+  "cad_changed": false,
+  "physical_tests_executed": 0,
+  "assumptions": "All tolerance intervals below are sensitivity hypotheses, not measured values or manufacturer tolerances.",
+  "sensitivity_intervals_mm": {
+    "internal_board": [
+      15.7,
+      16.3
+    ],
+    "decorative_board": [
+      17.7,
+      18.3
+    ],
+    "depth_error": [
+      -0.2,
+      0.2
+    ],
+    "length_error": [
+      -0.3,
+      0.3
+    ],
+    "washer": [
+      1,
+      1.4
+    ],
+    "head": [
+      2.7,
+      2.9
+    ],
+    "tray_gap": [
+      1.5,
+      2.5
+    ]
+  },
+  "depth_cases": [
+    {
+      "case": "base_5_L25",
+      "nominal_depth_mm": 5,
+      "nominal_length_mm": 25,
+      "combinations": 128,
+      "nominal": {
+        "residual_mm": 11,
+        "penetration_including_tip_mm": 12.8,
+        "outer_skin_mm": 5.199999999999999,
+        "tray_clearance_mm": 2
+      },
+      "ranges": {
+        "residual_mm": [
+          10.5,
+          11.5
+        ],
+        "penetration_including_tip_mm": [
+          11.799999999999999,
+          13.8
+        ],
+        "outer_skin_mm": [
+          3.8999999999999986,
+          6.500000000000002
+        ],
+        "skin_after_pilot_plus1_mm": [
+          2.8999999999999986,
+          5.500000000000002
+        ],
+        "tray_clearance_mm": [
+          1.5,
+          2.5
+        ]
+      },
+      "worst_outer_skin_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 5.2,
+        "length": 25.3,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 10.5,
+        "penetration_including_tip_mm": 13.8,
+        "outer_skin_mm": 3.8999999999999986,
+        "skin_after_pilot_plus1_mm": 2.8999999999999986,
+        "tray_clearance_mm": 1.5
+      },
+      "worst_tray_clearance_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 4.8,
+        "length": 24.7,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 10.899999999999999,
+        "penetration_including_tip_mm": 12.8,
+        "outer_skin_mm": 4.899999999999999,
+        "skin_after_pilot_plus1_mm": 3.8999999999999986,
+        "tray_clearance_mm": 1.5
+      },
+      "through_front_cases": 0,
+      "zero_or_negative_tray_clearance_cases": 0
+    },
+    {
+      "case": "comparacao_3p5_L25",
+      "nominal_depth_mm": 3.5,
+      "nominal_length_mm": 25,
+      "combinations": 128,
+      "nominal": {
+        "residual_mm": 12.5,
+        "penetration_including_tip_mm": 11.3,
+        "outer_skin_mm": 6.699999999999999,
+        "tray_clearance_mm": 1.4000000000000004
+      },
+      "ranges": {
+        "residual_mm": [
+          12.0,
+          13.0
+        ],
+        "penetration_including_tip_mm": [
+          10.299999999999999,
+          12.3
+        ],
+        "outer_skin_mm": [
+          5.399999999999999,
+          8.000000000000002
+        ],
+        "skin_after_pilot_plus1_mm": [
+          4.399999999999999,
+          7.000000000000002
+        ],
+        "tray_clearance_mm": [
+          0.5,
+          2.5
+        ]
+      },
+      "worst_outer_skin_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 3.7,
+        "length": 25.3,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 12.0,
+        "penetration_including_tip_mm": 12.3,
+        "outer_skin_mm": 5.399999999999999,
+        "skin_after_pilot_plus1_mm": 4.399999999999999,
+        "tray_clearance_mm": 1.5
+      },
+      "worst_tray_clearance_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 3.3,
+        "length": 24.7,
+        "washer_t": 1.4,
+        "head_h": 2.9,
+        "tray_gap": 1.5,
+        "residual_mm": 12.399999999999999,
+        "penetration_including_tip_mm": 10.9,
+        "outer_skin_mm": 6.799999999999999,
+        "skin_after_pilot_plus1_mm": 5.799999999999999,
+        "tray_clearance_mm": 0.5
+      },
+      "through_front_cases": 0,
+      "zero_or_negative_tray_clearance_cases": 0
+    },
+    {
+      "case": "comparacao_3_L25",
+      "nominal_depth_mm": 3,
+      "nominal_length_mm": 25,
+      "combinations": 128,
+      "nominal": {
+        "residual_mm": 13,
+        "penetration_including_tip_mm": 10.8,
+        "outer_skin_mm": 7.199999999999999,
+        "tray_clearance_mm": 0.9000000000000004
+      },
+      "ranges": {
+        "residual_mm": [
+          12.5,
+          13.5
+        ],
+        "penetration_including_tip_mm": [
+          9.799999999999999,
+          11.8
+        ],
+        "outer_skin_mm": [
+          5.899999999999999,
+          8.500000000000002
+        ],
+        "skin_after_pilot_plus1_mm": [
+          4.899999999999999,
+          7.500000000000002
+        ],
+        "tray_clearance_mm": [
+          0.0,
+          2.0
+        ]
+      },
+      "worst_outer_skin_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 3.2,
+        "length": 25.3,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 12.5,
+        "penetration_including_tip_mm": 11.8,
+        "outer_skin_mm": 5.899999999999999,
+        "skin_after_pilot_plus1_mm": 4.899999999999999,
+        "tray_clearance_mm": 1.0
+      },
+      "worst_tray_clearance_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 2.8,
+        "length": 24.7,
+        "washer_t": 1.4,
+        "head_h": 2.9,
+        "tray_gap": 1.5,
+        "residual_mm": 12.899999999999999,
+        "penetration_including_tip_mm": 10.4,
+        "outer_skin_mm": 7.299999999999999,
+        "skin_after_pilot_plus1_mm": 6.299999999999999,
+        "tray_clearance_mm": 0.0
+      },
+      "through_front_cases": 0,
+      "zero_or_negative_tray_clearance_cases": 8
+    },
+    {
+      "case": "erro_5_L30",
+      "nominal_depth_mm": 5,
+      "nominal_length_mm": 30,
+      "combinations": 128,
+      "nominal": {
+        "residual_mm": 11,
+        "penetration_including_tip_mm": 17.8,
+        "outer_skin_mm": 0.1999999999999993,
+        "tray_clearance_mm": 2
+      },
+      "ranges": {
+        "residual_mm": [
+          10.5,
+          11.5
+        ],
+        "penetration_including_tip_mm": [
+          16.8,
+          18.8
+        ],
+        "outer_skin_mm": [
+          -1.1000000000000014,
+          1.5
+        ],
+        "skin_after_pilot_plus1_mm": [
+          -2.1000000000000014,
+          0.5
+        ],
+        "tray_clearance_mm": [
+          1.5,
+          2.5
+        ]
+      },
+      "worst_outer_skin_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 5.2,
+        "length": 30.3,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 10.5,
+        "penetration_including_tip_mm": 18.8,
+        "outer_skin_mm": -1.1000000000000014,
+        "skin_after_pilot_plus1_mm": -2.1000000000000014,
+        "tray_clearance_mm": 1.5
+      },
+      "worst_tray_clearance_case": {
+        "internal_t": 15.7,
+        "decor_t": 17.7,
+        "depth": 4.8,
+        "length": 29.7,
+        "washer_t": 1,
+        "head_h": 2.7,
+        "tray_gap": 1.5,
+        "residual_mm": 10.899999999999999,
+        "penetration_including_tip_mm": 17.8,
+        "outer_skin_mm": -0.10000000000000142,
+        "skin_after_pilot_plus1_mm": -1.1000000000000014,
+        "tray_clearance_mm": 1.5
+      },
+      "through_front_cases": 52,
+      "zero_or_negative_tray_clearance_cases": 0
+    }
+  ],
+  "washer_cases": [
+    {
+      "case": "envelope_anterior",
+      "assumed_centering_diameter_mm": 4,
+      "eccentricity_mm": 0.3999999999999999,
+      "washer_cover_mm": 1.2188611699158105,
+      "recess_wall_clearance_mm": 0.5188611699158103,
+      "note": "Geometry only, no procurement approval"
+    },
+    {
+      "case": "M4_catalogo_ACCU",
+      "assumed_centering_diameter_mm": 4,
+      "eccentricity_mm": 0.2400000000000002,
+      "washer_cover_mm": -0.03613883008418983,
+      "recess_wall_clearance_mm": 2.17886116991581,
+      "note": "Geometry only, no procurement approval"
+    },
+    {
+      "case": "M5_nominal_apenas",
+      "assumed_centering_diameter_mm": 4,
+      "eccentricity_mm": 0.6499999999999999,
+      "washer_cover_mm": 1.2688611699158103,
+      "recess_wall_clearance_mm": 0.2688611699158103,
+      "note": "M5 only nominal catalog sizes, not toleranced acceptance"
+    },
+    {
+      "case": "M5_nominal_pescoco3",
+      "assumed_centering_diameter_mm": 3,
+      "eccentricity_mm": 1.15,
+      "washer_cover_mm": 0.7688611699158103,
+      "recess_wall_clearance_mm": -0.23113883008418967,
+      "note": "M5 only nominal catalog sizes, not toleranced acceptance"
+    }
+  ],
+  "material_load_path": {
+    "internal": "Washer bearing and local pull-through around clearance hole; no screw withdrawal engagement.",
+    "decorative": "Blind screw thread engagement; nominal penetration includes point."
+  },
+  "conservative_flat_bearing_area_lower_bound_mm2": 94.499107019981,
+  "assumed_preload_pressures": [
+    {
+      "assumed_preload_per_fastener_N": 100,
+      "average_pressure_upper_bound_N_per_mm2": 1.058211057791857
+    },
+    {
+      "assumed_preload_per_fastener_N": 250,
+      "average_pressure_upper_bound_N_per_mm2": 2.645527644479643
+    },
+    {
+      "assumed_preload_per_fastener_N": 500,
+      "average_pressure_upper_bound_N_per_mm2": 5.291055288959286
+    }
+  ],
+  "pressure_limits": "No allowable compression, preload or torque assigned; flat bearing area assumes undamaged continuous material and rigid seated washer. No local peak prediction.",
+  "decision": "Do not qualify remaining 11 mm. Compare 3.5 mm recess (12.5 nominal remaining), conditional on actual gap, hardware and thread engagement; baseline proposal unchanged."
+}

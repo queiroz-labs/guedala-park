@@ -103,7 +103,7 @@ O pedido atual não inclui envio de correspondência, compra nem mudança de fer
 
 ## Fixação das frentes — proposta independente
 
-[28 pontos candidatos](Fixacao_frentes.md): quatro por frente, passagemØ8 e eixo a±1,5 para compensar0…3. Em G2, duas cabeças baixas encontram as bandejas; alternativa com alojamentoØ20×5, seção residual11 e parafuso nominal25 (30 nos demais) mantém sobra externa nominal5,2. Não há encontros nos envelopes instalados testados; serviço exige retirar conteúdo e bandejas G2. Produto, piloto, torque, usinagem, resistência e acesso real pendentes; nenhuma furação/CAD executada.
+[28 pontos e validação parcial](Fixacao_frentes.md): passagemØ8; dois alojamentosØ20×5 G2 evitam cabeças contra bandejas, mas os11 mm não têm resistência demonstrada. 512 combinações: residual pode cair a10,5; comparação3,5 preserva12,5 nominais com folga mínima0,5 na hipótese, sem adoção. RECA4×25/30 identificados nominalmente; arruela15/furo4,4–4,8 continua sem conjunto comercial comprovado. M4 larga consultada não cobre integralmente oØ8 no extremo. Produto, chapa, aperto, usinagem e ensaio pendentes; CAD intacto.
 
 ## Curso, engates e manutenção
 
