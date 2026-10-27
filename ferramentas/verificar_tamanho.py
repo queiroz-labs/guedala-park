@@ -15,6 +15,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 BASE = RAIZ / 'ferramentas/limites_base.json'
 KB = 1024
 LIMITES = [  # (descricao, teste de nome, bytes)
+    ('ESTADO_ATUAL.md', lambda n: n == 'ESTADO_ATUAL.md', 14 * KB),
     ('README.md', lambda n: n.endswith('README.md'), 16 * KB),
     ('.md', lambda n: n.endswith('.md'), 60 * KB),
     ('.html', lambda n: n.endswith(('.html', '.htm')), 1024 * KB),
