@@ -37,10 +37,10 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 75% | Frentes em revisão27/10: [luz parcialR$5.041,60](03_Ambientes/Iluminacao/README.md); Firefly9608 corrigido, preços revistos; D03 compara substituição smart e perda de comando físico. SKUs/respostas/frete/instalação pendentes |
+| Anteprojeto | 83% estimado | Antes75%; +8 de avanço documental, sem contar perguntas como decisões. [Critério e seis frentes](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D04 aguardam Elias; orçamento/seleção comercial impedem90–95%; luz parcialR$5.041,60 |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções,50 originais auditadas; coordenadas nominais, D04/saída de luz e circuitos com RT/oficina |
-| Especificações | 70% | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02 e SKUs faltantes aguardam amostra/fornecedor |
+| Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02 e SKUs faltantes aguardam amostra/fornecedor |
 | Orçamento | 60% | R44: R$137.748,11. [D01](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários condicionaisR$119.040,82–119.890,82 com luz5.041,60; dependem de17.317,45 de negociação e faseamento. TV mantida (Elias27/10, “A”); reserva intocada; não fechado |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
@@ -49,7 +49,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 ## Decisões tomadas
 
-- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Tampos com ligações para 18 mm ficam em Branco TX nas duas faces, sem chapa decorativa sobreposta; encontro ao teto acabado a compatibilizar. [Diretriz e cotas atuais](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), ainda não aplicada à R52/fichas.
+- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Tampos com ligações para 18 mm ficam em Branco TX nas duas faces, sem chapa decorativa sobreposta; encontro ao teto acabado a compatibilizar. [Diretriz e cotas atuais](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), compatibilização física de teto/acessos pendente; verificar escopo R53 no README do modelo.
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).

@@ -23,3 +23,5 @@ Integração27/10: entrada do roteiro aponta ao modelo R53; painel mantém publi
 **Chapas, 27/10/2026:** seção comercial do [Caderno](Caderno_de_especificacoes.md#4-chapas-comerciais--anteprojeto-conferência-27102026) lista fabricantes, padrões, espessuras 15/18 e códigos disponíveis. D02 compara Lume/Nuvem/Areia; Branco TX tem três fabricantes candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem18 com referênciaR$607,15 em27/10. O gerador preserva essa seção documental.
 
 **Consultas27/10:** [Rascunhos R01](Rascunhos_emails.md) reúne pedido de amostras/catálogos, IL02–IL09 revisadas e orçamento preliminar das fichasR15. Todos não enviados; custos/validades e inclusões devem vir nas respostas, sem ordem de compra/fabricação.
+
+**Anteprojeto27/10:** [roteiro revisado](Roteiro_para_projeto_oficial.md) estima75→83%, com ganho documental discriminado e sem crédito por perguntas/negociação. D01–D04 aguardam Elias;90–95% depende principalmente do orçamento e fechamento comercial.
