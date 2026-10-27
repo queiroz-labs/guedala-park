@@ -1,5 +1,7 @@
 # Equipamentos e instalação
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **F104 — 12/09/2026:** Elias decide manter o ME23P com **10 cm livres acima**, mesmo após conhecer a exigência de 30 cm do manual. Registrar como escolha de layout, **em desacordo com o fabricante e sem validação técnica**. Não afirmar que folgas laterais/traseiras compensam a redução. Permanecem 10 cm laterais e traseiros, frente aberta e circuito exclusivo de 20 A em 127 V. Nenhuma alteração foi solicitada para os 20 cm entre cooktop e forno.
 
 **Atualização F103:** [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md) registra a conferência atual e os manuais recém-arquivados. Trechos históricos abaixo que dizem não haver manual do ME23P ou mantêm tensão pendente foram superados. Folgas de 10 cm seguem sem atendimento ao manual: adotar 30 cm no estudo do ME23P e 20 cm sob o cooktop no estudo do Venax.

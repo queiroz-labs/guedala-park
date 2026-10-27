@@ -1,5 +1,7 @@
 # Iluminação de sala e jantar — estudo R01
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **Atualização vigente — 22/09/2026:** Elias retirou o teto de R$1.200 e pediu foco no projeto com bom custo-benefício, sem orçamento máximo predefinido. Todos os limites e saldos abaixo são históricos. Preservar funções e escolhas estéticas, comparar custos completos e justificar diferenças por benefício real. Continuidade no [estudo integrado](../Iluminacao/Estudo_integrado.md). Não há compra ou substituição automática de produtos autorizada por esta atualização.
 
 ## Continuidade do estudo — 20/09/2026

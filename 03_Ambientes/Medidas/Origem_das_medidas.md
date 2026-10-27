@@ -102,7 +102,7 @@ Os identificadores originais da R02 foram preservados. T-I01 abrange também o s
 
 - O A04.1 R00 tratava a direção de 1,29/1,54 m como pendência. A leitura documental desta etapa resolve a orientação; continua faltando a medida acabada, não qual direção cada cota representa.
 - As conclusões de cabimento do A04.1 R00 baseadas em dimensões típicas de máquina e tanque não são adotadas como prova de viabilidade. A mudança de posição do tanque ou um degrau na pedra não ficam autorizados por essas hipóteses.
-- A estimativa anterior de pé-direito de 2,60 m não foi incorporada.
+- Pé-direito nominal incorporado à fonte CSV, por Elias em 27/10/2026: 2,60 m em todos os cômodos e 2,50 m no banheiro; medida a confirmar, sem alterar cotas oficiais.
 - O apoio de aproximadamente 15 cm é requisito do briefing. Não foi encontrado nem medido em P01 ou no vídeo. A direção e a forma desse apoio deverão aparecer no próximo estudo.
 - A R01 permanece a referência documental, complementada pela R02. O frame de 11:06 ainda mostra A; a associação provável é A → Dormitório 02 e B → Dormitório 01.
 - Permanecem preservadas as decisões do memorial e do briefing, inclusive a ausência de azul nos móveis do quarto.

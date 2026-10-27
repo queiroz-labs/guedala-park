@@ -1,5 +1,7 @@
 # Alteração vigente — 22/10/2026
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 Elias solicitou remover os dois apoios para celular e óculos, inclusive do FreeCAD. Esta decisão substitui as menções à manutenção desses apoios no histórico abaixo. Cabeceira, armário superior e iluminação permanecem no escopo; não reduzir armazenamento.
 
 ---

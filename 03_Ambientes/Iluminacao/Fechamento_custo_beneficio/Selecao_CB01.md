@@ -1,5 +1,7 @@
 > **Atualização CB02 — 24/10/2026:** Elias rejeitou o preço do Liny e escolheu três níveis de brilho pelo interruptor no quarto. O Liny abaixo saiu da proposta. [Revisão econômica e imagens](Revisao_quarto_CB02.md). Demais componentes preservados; CB01 é histórico comparativo.
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 # Iluminação — proposta de custo-benefício CB01
 
 24/10/2026. Pesquisa solicitada por Elias. **Proposta de seleção para decisão; modelos novos ainda não aprovados pelo usuário.** Preserva as funções já escolhidas. Não altera CAD, site publicado, orçamento global ou autoriza compra/instalação.
@@ -46,7 +48,7 @@ O perfil MOV4329 é uma referência de acabamento. Seção externa17 ×7 mm não
 - **Pendente:** o trio Brilia soma10,5 W. Não foi comprovada curva/carga mínima do D1 para esse conjunto. Testar partida em brilho baixo, tremulação, ruído e desligamento antes de fechar. Não usar o Shelly Dimmer Gen3 europeu220–240 V no circuito127 V. Vidro âmbar e preço da variante precisam constar do pedido.
 - **WiZ do escritório:** o lojista descreve fonte e controlador inclusos no kit2 m porR$226,75. EAN/manual e corte por lote precisam ser conciliados; não tratar o texto comercial como ficha oficial de montagem. Não ligar sobras cortadas em dois locais e prometer independência com um só controlador. Trechos maiores podem exigir extensão.
 - **Comandos independentes:** a [WiZ documenta selecionar quais luzes respondem a cada WiZmote](https://faq.wizconnected.com/hc/en/7-wiz-v2/faq/628-changing-which-lights-are-controlled-by-the-wizmote/). No cenário abaixo há um na sala geral e três no escritório, direcionados separadamente a geral, TV e prateleiras. Configurar e ensaiar; um controle de cenas compartilhadas não substitui a regulagem independente. Suportes/pilhas ainda a conferir.
-- **Implantação:** cozinha fora do giro completo dos armários; lavanderia fora da sombra do varal; cabeceira sem LED visível ao deitar; fontes acessíveis; passagem dos botões a conferir. Pé-direito2,47 m é hipótese do modelo, não medição. Novo forro permite estudar posições, sem fechar altura final.
+- **Implantação:** cozinha fora do giro completo dos armários; lavanderia fora da sombra do varal; cabeceira sem LED visível ao deitar; fontes acessíveis; passagem dos botões a conferir. Pé-direito nominal vigente do escritório: 2,60 m (Elias, 27/10/2026), medida a confirmar; substitui a hipótese de 2,47 m usada no modelo de estudo. Compatibilizar forro e posições após levantamento.
 - **Escritório:** conservar3 grupos aceitos emF67. TV/prateleiras não apareciam detalhadas no mapa de pontos: precisam entrar na próxima compatibilização elétrica, sem alterar o CAD nesta rodada.
 
 ## Composição comparável

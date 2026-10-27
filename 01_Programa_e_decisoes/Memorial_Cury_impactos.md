@@ -1,5 +1,7 @@
 # Memorial oficial Cury — entrega e impactos no projeto
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 12/09/2026 · F101 · Documento encontrado por Elias no portal da Cury e incorporado ao projeto por sua solicitação.
 
 [Início](../README.md) · [Resumo](../ESTADO_ATUAL.md) · [Registro de decisões](Registro_de_decisoes.md) · [Memorial oficial original](../09_Referencias/Plantas_e_manuais/Memorial_descritivo_Cury_Guedala_Park_III_R00_2023-04-03.pdf)
@@ -36,7 +38,7 @@ Para a unidade de dois dormitórios, usar a seção **2.1 — Área privativa: a
 
 ## Teto e medidas: o que permanece pendente
 
-O acabamento de teto está documentado por ambiente; **pé-direito e dimensões dos rebaixos não estão**. A página 15 condiciona forros/sancas aos projetos executivos. Para novos testes, vale a hipótese de 2,60 m, medida a confirmar (Elias, 26/10/2026; [fonte e limites](Pesquisa_pe_direito.md)). O cálculo anterior de 2,57 m menos 10 cm fica como histórico; o escritório mantém cenário separado de 2,47 m com forro, sem validação da altura entregue, execução, espessura da lã ou desempenho acústico/térmico. Não aplicar 2,60 m como altura sob sancas ou forros existentes.
+O acabamento de teto está documentado por ambiente; **pé-direito e dimensões dos rebaixos não estão**. A página 15 condiciona forros/sancas aos projetos executivos. Para novos testes, vale a hipótese de 2,60 m, medida a confirmar (Elias, 26/10/2026; [fonte e limites](Pesquisa_pe_direito.md)). O cálculo anterior de 2,57 m menos 10 cm fica como histórico; o cenário de 2,47 m do escritório foi substituído em 27/10/2026 por 2,60 m, e o banheiro adota 2,50 m. Altura entregue, execução, espessura da lã e desempenho acústico/térmico não foram validados. Não aplicar 2,60 m como altura sob sancas ou forros existentes.
 
 O item k da p. 19 informa que as cotas comerciais são de face a face com acabamento. Isso não transforma cotas de planta em levantamento real. Não aplicar automaticamente desconto ou acréscimo de 5% às medidas: a ressalva do documento não é tolerância de fabricação de móveis. O item g admite diferenças de localização de pontos em relação ao decorado.
 

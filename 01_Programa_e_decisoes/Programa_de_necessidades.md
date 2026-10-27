@@ -1,5 +1,7 @@
 # Programa de necessidades — R01
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 24/10/2026. Reúne num só lugar **o que** cada ambiente precisa fazer. **Como** fazer (ferragens, montagem, furação, instalação) fica nas [fichas R14](../06_Entregas/Fichas_fabricacao/index.html) e nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html).
 
 Fontes:
@@ -13,7 +15,7 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 | Item | Definição |
 |---|---|
 | Unidade | Cury Guedala Park III · Torre 2 · final 06 · 8º andar · 40,18 m² · dois dormitórios |
-| Situação | Ainda não entregue. Medidas baseadas na planta oficial; pé-direito geral de teste de 260 cm, medida a confirmar (Elias, 26/10/2026); escritório: cenário separado de 247 cm com forro, também não conferido |
+| Situação | Ainda não entregue. Medidas baseadas na planta oficial; pé-direito geral de teste de 260 cm, medida a confirmar (Elias, 26/10/2026); escritório: 260 cm; banheiro: 250 cm, a confirmar (Elias, 27/10/2026) |
 | Objetivo | Mudar com todos os ambientes prontos |
 | Prazo-meta | Dois meses de execução após as chaves e mudança no terceiro mês, com um profissional coordenando as equipes |
 | Verba | R$120.000 de execução + R$10.000 de reserva intocada = R$130.000 |

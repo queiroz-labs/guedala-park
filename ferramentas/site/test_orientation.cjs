@@ -57,7 +57,8 @@ for(let x=300;x<=450;x+=.5)assert(covered(x,620),'laundry/kitchen floor continui
 const plan=JSON.parse(fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/Cotas.json'),'utf8'));
 assert.deepEqual(plan.cotas.find(r=>r.id==='lavanderia').mm,[1290,1540]);
 assert.deepEqual(plan.cotas.find(r=>r.id==='circulacao').mm,[900,1050]);
-assert.equal(plan.heightStudy.mm,2600);assert.equal(plan.heightStudy.officeCeilingScenarioMm,2470);
+for(const [room,value]of Object.entries(plan.heightStudy.byRoom))assert.equal(value.mm,room==='banho'?2500:2600);
+assert.equal(plan.pranchas.ceiling.banho,'PD-BAN');assert.equal(plan.pranchas.ceiling.circulacao,'PD-CIR');
 const guide=fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/index.html'),'utf8').split('<script>')[0];
 assert(guide.includes('id="planta-pe-direito"'));assert(guide.includes('medida a confirmar'));assert(guide.includes('não fabricação'));
 console.log(JSON.stringify({officialLaundryCm:[129,154],circulationSpansCm:[90,105],floorConnections:true,heightStudyMm:2600,measured:false}));

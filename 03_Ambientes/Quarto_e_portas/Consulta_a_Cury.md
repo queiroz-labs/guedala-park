@@ -1,5 +1,7 @@
 > **Atualização de 12/09/2026 (F53):** layout-base com portas originais; alterações de portas adiadas até fechar o apartamento. Escritório com sofá-cama móvel e TV/PS5, sem cama de parede. Este documento retrata um estudo anterior; consultar o [resumo vigente](../../ESTADO_ATUAL.md).
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 # Consulta à Cury
 
 > **Rascunho ainda não enviado.** Tipologias atualizadas conforme F52: duas portas de correr externas com trilho oculto e porta camarão no dormitório. O PDF anexo registra o teste anterior à escolha; suas medidas continuam hipotéticas.

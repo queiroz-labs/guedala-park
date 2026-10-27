@@ -1,5 +1,7 @@
 > **Correção de referência F119:** para a interface IB6/entrada, prevalece o ensaio F38 em [Layout da pia R02](Layout_da_pia_R02.md): faixa de entrada85 cm e corpo da geladeira fora do giro hipotético. O conflito descrito nesta revisão anterior é histórico; medidas reais, portas da própria IB6 e circulação ainda precisam de conferência.
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 # Ordem dos móveis
 
 [Voltar ao assunto](README.md) · [Resumo do projeto](../../ESTADO_ATUAL.md)

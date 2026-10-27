@@ -1,8 +1,8 @@
 # Pesquisa do pé-direito — R01
 
-**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente.
+**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
 
-O escritório conserva o cenário separado de **2,47 m após forro**, ainda não validado. O cálculo histórico 2,57 − 0,10 = 2,47 m não comprova altura entregue nem espessura possível. A nova hipótese de 2,60 m não define automaticamente 2,50 m após forro, nem confirma 13 cm de rebaixo para chegar a 2,47 m. DIM-001 continua pendente. Os estudos anteriores abaixo são históricos e não substituem o parâmetro atual de testes.
+A decisão atual substitui os cenários gerais de 2,57 m e de 2,47 m após forro no escritório. O banheiro passa a 2,50 m por decisão de projeto, sem deduzir espessura de forro. As pesquisas e cálculos abaixo permanecem históricos; não são os valores vigentes. DIM-001 continua pendente de comprovação documental ou medição.
 
 ## Pesquisa e cenários anteriores — preservados como histórico
 
@@ -43,6 +43,6 @@ Mensagem preparada apenas como caminho de confirmação; não enviada. Um corte 
 
 Elias aceita 2,57 m como cenário e quer gesso com o menor rebaixo possível, incluindo lã de rocha se viável. Meta proposta para investigação: perda total de 10 cm → altura livre de 2,47 m; alternativas aritméticas de 12/15 cm → 2,45/2,42 m. Não são mínimos executivos validados: guia Placo F530 exige consulta para plenum inferior a 15 cm. Espessura da lã, estrutura, iluminação e acabamentos ainda precisam ser compatibilizados. Ver fontes e ressalvas em F78 do registro.
 
-## Atualização F79 — cenário final aceito
+## Histórico F79 — cenário substituído em 27/10/2026
 
-Elias aceita **2,47 m de altura final de projeto**, com gesso e tratamento acústico/térmico no teto, buscando reduzir ruído de cima, transmissão do som do escritório e calor. A altura entregue de 2,57 m permanece hipótese; viabilidade de acomodar todo o sistema em 10 cm permanece pendente. Lã de rocha é direção do estudo, sem espessura/densidade ou desempenho fechado. Prosseguir com 2,47 m nos estudos, sem tratar como medida executiva.
+Elias aceita **2,47 m de altura final de projeto**, com gesso e tratamento acústico/térmico no teto, buscando reduzir ruído de cima, transmissão do som do escritório e calor. A altura entregue de 2,57 m permanece hipótese; viabilidade de acomodar todo o sistema em 10 cm permanece pendente. Lã de rocha é direção do estudo, sem espessura/densidade ou desempenho fechado. Esse cenário de 2,47 m foi substituído em 27/10/2026 por 2,60 m no escritório; não usar como parâmetro vigente.

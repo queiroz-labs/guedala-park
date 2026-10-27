@@ -17,8 +17,8 @@ Consultar estudos anteriores. Os estudos não liberam fabricação ou instalaç�
 
 ## Fonte das pranchas R02
 
-O CSV [Medidas e impactos](../../07_Imovel/Medidas_e_impactos.csv) concentra as entradas de campo e nominais das pranchas: pé-direito PD por ambiente, contornos PR, vãos/peitoris e posições dos 53 pontos R01. `valor_medido` preenchido vence `valor_nominal_atual`; usar número com unidade (mm, cm ou m). Coordenadas e aberturas reconstituídas são nominais, não levantamento. Cotas.json contém os vínculos; Geometria.json registra os envelopes e SHA da R53.
+O CSV [Medidas e impactos](../../07_Imovel/Medidas_e_impactos.csv) concentra as entradas de campo e nominais das pranchas: pé-direito PD por ambiente, incluindo circulação, contornos PR, vãos/peitoris e posições dos 53 pontos R01. `valor_medido` preenchido vence `valor_nominal_atual`; usar número com unidade (mm, cm ou m). Coordenadas e aberturas reconstituídas são nominais, não levantamento. Cotas.json contém os vínculos; Geometria.json registra os envelopes e SHA da R53.
 
 Regenerar: `python ferramentas/pranchas/gerar.py`. [Guia em três passos e limites](../../06_Entregas/Caderno_pranchas/README.md). O PDF R02 distingue N/M e informa cotas nominais por folha; alturas de estudo e fechamento dependem do pé-direito do ambiente. Alteração não salva o CAD.
 
-Teste externo de 27/10/2026: seis PD medidos fictícios de 2470 mm prevaleceram sobre os nominais de 2600 mm; 99 cotas mudaram e quatro conflitos ao teto foram avisados. Foi apenas ensaio em cópia apagada: **nenhuma medição real incorporada**; nominal do projeto permanece 2,60 m, a confirmar.
+Teste externo de 27/10/2026: seis PD medidos fictícios de 2470 mm prevaleceram sobre os nominais de 2600 mm; 99 cotas mudaram e quatro conflitos ao teto foram avisados. Foi apenas ensaio em cópia apagada: **nenhuma medição real incorporada**; esse teste histórico usou nominal de 2,60 m. Desde 27/10/2026, o nominal é 2,60 m nos cômodos e 2,50 m no banheiro, a confirmar.

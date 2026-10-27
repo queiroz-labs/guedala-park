@@ -27,7 +27,7 @@ def source_paths(release):
  paths=list(dict.fromkeys(paths))
  for name in paths:
   p=Path(name)
-  if p.is_absolute()or'..'in p.parts or p.parts[0]not in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']:raise ValueError('File outside technical allowlist: '+name)
+  if p.is_absolute()or'..'in p.parts or (name!='07_Imovel/Medidas_e_impactos.csv' and p.parts[0]not in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']):raise ValueError('File outside technical allowlist: '+name)
   if any(x.lower()in name.lower()for x in ['contrato','reembolso','protocolo','guedala-pessoal','blum_g2_pagina_'])or p.suffix.lower()in ['.msg','.eml']:raise ValueError('Private material excluded: '+name)
   if not(ROOT/name).is_file():raise FileNotFoundError(ROOT/name)
  return paths

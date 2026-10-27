@@ -1,5 +1,7 @@
 # Sala — ajustes integrados R01
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **Base da mesa aprovada — 20/09/2026:** Elias confirmou coluna central única redonda e apoio oval baixo, alongado no sentido do comprimento da mesa, em metal preto fosco, sob medida. Tampo Arenza 180 × 75 cm com cantos R15 preservado. Aparência definida; diâmetro da coluna, dimensões/espessura da chapa, estabilidade e espaço para pernas/cadeiras continuam a conferir antes da fabricação.
 
 20/09/2026. Estudo solicitado por Elias para preparar a imagem. Cotas em centímetros a partir do piso acabado. Propostas de estudo, não medidas de fabricação nem escolhas adicionais atribuídas ao usuário. Fonte geométrica: modelo atual em `../../ferramentas/site/src/app.js`.

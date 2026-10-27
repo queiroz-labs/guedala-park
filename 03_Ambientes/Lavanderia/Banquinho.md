@@ -1,5 +1,7 @@
 # Banquinho — modelo escolhido para projeto, 25/09/2026
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **Conferência de acesso do banquinho — 25/09/2026:** modelo BTF ESC0071 mantido como referência. Guarda proposta na parede final da lavanderia: fechado, borda inferior10 cm e superior85 cm; reserva45 cm de largura e até25 cm de projeção, condicionada à janela, retorno de pedra, instalações e retirada. Acesso universal não validado; principal conflito é o aéreo sobre a cama. Corrigida a análise anterior: módulo da caixa do PC já foi excluído, não é obstáculo vigente. Ver Banquinho_guarda_e_acesso_2026-09-25.md na pasta Lavanderia. Nenhuma mudança automática no quarto ou fixação autorizada.
 
 Elias delegou escolher um modelo e altura para acesso aos armários da casa. Escolhido como referência: Banco Escada 3 Degraus em Alumínio BTF (Botafogo), código ESC0071. Seleção de projeto, sem compra e sem comprovação de acesso universal.
@@ -15,7 +17,7 @@ Elias delegou escolher um modelo e altura para acesso aos armários da casa. Esc
 
 ## Conferência com o projeto
 
-Altura de Elias registrada: 175 cm. Ganho nominal de 64,5 cm leva o topo da cabeça a aproximadamente 239,5 cm, sem calçado. Não é medida de olhos, mãos ou alcance confortável. Teto de 247 cm no cenário de quartos/escritório deixaria somente 7,5 cm nominais acima da cabeça: conferir teto acabado e obstáculos. Usar o degrau necessário, sem subir ao patamar máximo por rotina.
+Altura de Elias registrada: 175 cm. Ganho nominal de 64,5 cm leva o topo da cabeça a aproximadamente 239,5 cm, sem calçado. Não é medida de olhos, mãos ou alcance confortável. Teto nominal vigente de 260 cm no quarto/escritório deixaria 20,5 cm nominais acima da cabeça: conferir teto acabado e obstáculos. Usar o degrau necessário, sem subir ao patamar máximo por rotina.
 
 Cozinha: B2/C4 têm apoio a 223,4 cm e topo do conjunto a 255 cm na hipótese local de laje257. Com o ganho nominal, essas prateleiras ficam a158,9 cm acima dos pés. Isso melhora o alcance vertical, mas a bancada e a profundidade continuam impedimentos possíveis; não garantir retirada do fundo por esse cálculo.
 
@@ -23,7 +25,7 @@ Guarda-roupa: maleiro historicamente a215 cm, altura final até o teto ainda em 
 
 Cabeceira: aéreo com base~205 cm e profundidade25 cm, acima da cama. A cama impede aproximação frontal pelo piso; banquinho mais alto não resolve alcance horizontal. Conferir acesso pelos lados/extremidades e, se necessário, rever solução de acesso. Nunca posicionar banquinho sobre cama ou móvel.
 
-Escritório: aéreo comum perto de192 cm na base e teto de estudo247 cm; módulo da caixa perto de187 cm, sobreposição com bancada/equipamentos. Sofá e bancada podem impedir aproximação. Não considerar acesso à caixa ou ao fundo resolvido pela altura do banquinho.
+Escritório: teto nominal de 260 cm; caixa R53 com topo a 245 cm e altura de 55 cm, base a 190 cm. O módulo dedicado à caixa do gabinete foi cancelado; compatibilizar fechamento superior e acesso. Sofá e bancada podem impedir aproximação. Não considerar acesso à caixa ou ao fundo resolvido pela altura do banquinho.
 
 Conclusão: modelo definido para dimensionar a guarda e testar os ambientes. Não existe comprovação, no projeto disponível, de acesso a todos os armários com um único banquinho. Os obstáculos horizontais exigem compatibilização do mobiliário, não apenas outra altura de escada.
 

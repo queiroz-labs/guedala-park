@@ -55,14 +55,15 @@ assert.equal(run('PROJECT.revision'),'Consulta de marcenaria · FreeCAD R53 · i
 console.log(JSON.stringify({revision:'R53',sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
 // Height study is separate from confirmed site measurements and furniture geometry.
 assert.equal(run('PROJECT.ceiling'),260);
-assert.equal(run('PROJECT.officeCeilingStudy'),247);
-assert.match(shell,/2,60 m = 260 cm = 2600 mm/);
-assert.match(shell,/medida a confirmar/);
-assert.match(shell,/não fabricação/);
+assert.equal(run('PROJECT.ceilingByRoom.escritorio'),260);
+assert.equal(run('PROJECT.ceilingByRoom.banho'),250);
+assert.match(shell,/\{\{HEIGHT_STUDY\}\}/);
+assert.match(run('PROJECT.heightStudy'),/medida a confirmar/);
+assert.match(run('PROJECT.heightStudy'),/não fabricação/);
 const tallWalls=scene({walls:true}).filter(n=>n.kind==='wall'&&n.y===0);
 assert(tallWalls.some(n=>n.room==='escritorio'));
-for(const n of tallWalls)assert.equal(n.h,n.room==='escritorio'?247:260);
-console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:247,measured:false,manufacturing:false}));
+for(const n of tallWalls)assert.equal(n.h,n.room==='banho'?250:260);
+console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:260,bathroomCeilingStudyCm:250,measured:false,manufacturing:false}));
 
 // LIX=A: all bodies/lids/pedals move together; units in centimetres.
 const bins=scene({});

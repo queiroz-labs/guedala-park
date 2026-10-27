@@ -1,5 +1,7 @@
 # Roteiro para projeto oficial de arquitetura de interiores
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 Revisão 27/10/2026. **Anteprojeto estimado em 87%, antes 75%; meta 90–95% ainda não demonstrada.** Percentual gerencial de maturidade documental, não laudo, medição física ou autorização de execução. Pergunta pronta é **aguardando Elias**, não decisão concluída. Preços-alvo não são descontos obtidos.
 
 ## Critério e justificativa do avanço

@@ -2918,7 +2918,7 @@
       "prancha": "PT2"
     },
     "PT2:B11-Z": {
-      "mm": 2600.0,
+      "mm": 2500.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"
@@ -5133,7 +5133,7 @@
       "prancha": "E03"
     },
     "E04:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2500.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"
@@ -5169,7 +5169,7 @@
       "prancha": "E04"
     },
     "E04:P18-folga": {
-      "mm": 1855.0,
+      "mm": 1755.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5215,7 +5215,7 @@
       "prancha": "E04"
     },
     "E04:P19-folga": {
-      "mm": 700.0,
+      "mm": 600.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5234,7 +5234,7 @@
       "prancha": "E04"
     },
     "E04:P19-altura-parametrica": {
-      "mm": 750.0,
+      "mm": 650.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5245,7 +5245,7 @@
       "prancha": "E04"
     },
     "E04:P19-topo-parametrico": {
-      "mm": 1900.0,
+      "mm": 1800.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5282,7 +5282,7 @@
       "prancha": "E04"
     },
     "E04:Peca399-folga": {
-      "mm": 1835.0,
+      "mm": 1735.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5319,7 +5319,7 @@
       "prancha": "E04"
     },
     "E04:Peca185-folga": {
-      "mm": 1700.0,
+      "mm": 1600.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5509,7 +5509,7 @@
       "prancha": "E04"
     },
     "E04:B11-altura": {
-      "mm": 2600.0,
+      "mm": 2500.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"

@@ -1,5 +1,7 @@
 # Convenção e ata: informações úteis para o projeto
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 25/09/2026. Leitura dos dois documentos fornecidos por Elias, cruzada com o memorial de entrega e as escolhas atuais do apartamento.
 
 [Início](../README.md) · [Resumo](../ESTADO_ATUAL.md) · [Memorial de entrega](Memorial_Cury_impactos.md) · [Documentos originais](../09_Referencias/Plantas_e_manuais/README.md)

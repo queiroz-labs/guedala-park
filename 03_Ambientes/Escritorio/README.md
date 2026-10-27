@@ -1,6 +1,6 @@
 # Escritório
 
-**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
 
 Estado atual do escritório (dormitório 02, 2,30 × 2,95 m). Prioridade: conforto para trabalhar, depois hóspedes, depois armazenamento. Medidas de estudo não liberam fabricação. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git.
 

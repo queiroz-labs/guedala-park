@@ -55,11 +55,11 @@ def testar(parent):
         codes=[]
         for row in rows:
             if row['codigo_medida'].startswith('PD-'):
-                assert numero(row['valor_nominal_atual'],nominal=True)==2600
+                assert numero(row['valor_nominal_atual'],nominal=True)==(2500 if row['codigo_medida']=='PD-BAN' else 2600)
                 row['valor_medido']='2470 mm'
                 row['evidencia_campo']='TESTE TEMPORARIO; não representa medição real'
                 codes.append(row['codigo_medida'])
-        assert len(codes)==6
+        assert len(codes)==7
         with measure.open('w',encoding='utf-8',newline='') as f:
             w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
         run()
@@ -102,7 +102,7 @@ def testar(parent):
         assert failed.returncode!=0 and sha(out/'Ultima_geracao.json')==snapshot_hash
         assert sha(out/'Guedala_Park_Pranchas_R02.pdf')==stable_pdf
         assert all(sha(ROOT/name)==before[name] for name in source_files)
-        result=dict(pe_direito='2600 -> 2470 mm',ambientes=len(codes),elevacoes_alteradas=len(changed_elevations),
+        result=dict(pe_direito='2600 (banheiro 2500) -> 2470 mm',ambientes=len(codes),elevacoes_alteradas=len(changed_elevations),
                     cotas_alteradas=len(changed_values),conflitos=conflicts,fechamento_P03='160 -> 30 mm',
                     repeticao_sem_mudancas=0,originais_preservados=True,folhas=20,
                     escala_vetorial_1_25=True,pdf_deterministico=True,entrada_invalida_preserva_saida=True)

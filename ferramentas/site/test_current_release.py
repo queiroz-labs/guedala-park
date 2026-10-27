@@ -8,7 +8,7 @@ from preparar_pages import build as prepare_web
 TESTROOT=Path(os.environ.get('GUEDALA_TEST_ROOT',ROOT.parent/'outputs/Publicacao/Testes'))
 class CurrentReleaseTests(unittest.TestCase):
  def test_cad_and_project_agree_with_release(self):
-  r=validate_sources(load_release());self.assertEqual(r['cadRevision'],'R53');self.assertEqual(r['packageRevision'],'R24')
+  r=validate_sources(load_release());self.assertEqual(r['cadRevision'],'R53');self.assertEqual(r['packageRevision'],'R25')
  def test_current_document_labels_use_same_release(self):
   from plain_language import DOCUMENT_COPY
   r=load_release();self.assertIn(r['cadRevision'],DOCUMENT_COPY['cad'][0]);self.assertIn(r['packageRevision'],DOCUMENT_COPY['pacote-compartilhar'][0]);self.assertIn(r['cadRevision'],DOCUMENT_COPY['pacote-compartilhar'][1]);self.assertNotIn('R49',DOCUMENT_COPY['cad'][0])
@@ -19,7 +19,7 @@ class CurrentReleaseTests(unittest.TestCase):
     prepare_web(TESTROOT/'not-authorized',publication_ready=True)
  def test_package_technical_allowlist(self):
   paths=source_paths(load_release());self.assertEqual(len(paths),len(set(paths)))
-  self.assertTrue(all(Path(p).parts[0]in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']for p in paths))
+  self.assertTrue(all(p=='07_Imovel/Medidas_e_impactos.csv' or Path(p).parts[0]in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']for p in paths))
   self.assertFalse(any('06_Contratos' in p or'guedala-pessoal'in p for p in paths))
  def test_immutable_write_and_mismatch_rejection(self):
   TESTROOT.mkdir(parents=True,exist_ok=True);p=TESTROOT/'immutable.txt'

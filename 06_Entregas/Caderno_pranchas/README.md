@@ -1,6 +1,6 @@
 # Caderno formal A3 — R02
 
-[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 preservado em [PDF histórico](Guedala_Park_Pranchas_R00.pdf), sem substituição publicada.
+[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 preservado em [PDF histórico](Guedala_Park_Pranchas_R00.pdf); R02 incluído na publicação R25.
 
 Gerar na raiz do repositório:
 
@@ -12,7 +12,7 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 
 ## Atualizar uma medida em três linhas
 
-1. Abra `07_Imovel/Medidas_e_impactos.csv` e localize `codigo_medida` (pé-direito: PD-QUA, PD-COZ, PD-LAV, PD-ESC, PD-BAN ou PD-SAL).
+1. Abra `07_Imovel/Medidas_e_impactos.csv` e localize `codigo_medida` (pé-direito: PD-QUA, PD-COZ, PD-LAV, PD-ESC, PD-BAN, PD-SAL ou PD-CIR).
 2. Preencha `valor_medido` com unidade, por exemplo `2470 mm`, e registre origem/data em `evidencia_campo`; preserve o nominal.
 3. Rode o comando acima e abra `Impacto.html` e o PDF R02; confira avisos antes de encaminhar.
 
@@ -32,6 +32,10 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 | E11–E12 | Sala/TV e banco P20 |
 | NC1 | Triagem de vãos entre planos horizontais dos módulos |
 | DT1 | Detalhe-tipo de fechamento ao teto |
+
+## Alturas vigentes — 27/10/2026
+
+Elias solicitou 2,60 m em todos os cômodos e 2,50 m no banheiro. CSV atualizado como nominal/planta, sem preencher medição fictícia. O cenário de 2,47 m do escritório foi substituído. Site e pranchas leem a mesma fonte; caixas R53 continuam como referência, e as cotas dependentes do teto são recalculadas.
 
 ## Origem e parametrização
 
@@ -60,3 +64,5 @@ PDF: 20 páginas A3 (420 × 297 mm), carimbos em todas, textos dentro da moldura
 Repetir o teste: `python ferramentas/pranchas/testar.py --temporarios CAMINHO_FORA_DO_REPOSITORIO`. O script cria e apaga somente a própria cópia, sem alterar a base.
 
 **Pranchas formais: 80% estimados**, maturidade documental: fonte/rastreio 20, geração/escala 20, cobertura de plantas/elevações 25, impacto/ensaio 15. Os 20 restantes dependem de levantamento, fechamento das interfaces e revisão técnica. Não equivale a executivo de fabricação; o percentual de anteprojeto permanece separado.
+
+Validação das alturas de 27/10/2026: banheiro 2600 → 2500 mm gerou nove alterações de cotas em E04/PT2 e nenhum conflito novo ao teto. Ensaio externo atualizado: sete registros PD para 2470 mm, 12 elevações/99 cotas alteradas e os quatro conflitos esperados P09–P12. Entradas inválidas, precedência, escala e repetição determinística passaram.

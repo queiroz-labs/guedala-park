@@ -1,5 +1,7 @@
 # Roteiro do dia das chaves — R01
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 Criado em 24/10/2026; relação de medidas e impactos atualizada em 26/10/2026. Junta, numa ordem só, as duas coisas a fazer quando o apartamento for entregue:
 
 - **A. Vistoria de recebimento:** encontrar defeitos e reclamar com a Cury **antes** de aceitar a unidade e antes de qualquer obra. Depois que a reforma começa, fica difícil provar que o defeito veio da construtora.
@@ -86,7 +88,7 @@ Usar as folhas já preparadas, nesta ordem:
 
 ### Medidas que mais destravam (se o tempo for curto)
 
-1. **PD-QUA/COZ/LAV/ESC/BAN/SAL — Pé-direito real** em pelo menos 3 pontos de cada ambiente, incluindo forro, vigas e sancas. Referência para novos testes: **2600 mm, a confirmar**; escritório mantém cenário separado de **2470 mm sob forro**, também a confirmar. Fonte: [Estado atual](../ESTADO_ATUAL.md) e [hipóteses e limites](../01_Programa_e_decisoes/Pesquisa_pe_direito.md). Não calcular rebaixo ou modificar móveis por diferença aritmética.
+1. **PD-QUA/COZ/LAV/ESC/BAN/SAL/CIR — Pé-direito real** em pelo menos 3 pontos de cada ambiente, incluindo forro, vigas e sancas. Referência para novos testes: **2600 mm nos cômodos, inclusive escritório/circulação, e 2500 mm no banheiro, a confirmar** (Elias, 27/10/2026). Fonte: [Estado atual](../ESTADO_ATUAL.md) e [hipóteses e limites](../01_Programa_e_decisoes/Pesquisa_pe_direito.md). Não calcular rebaixo ou modificar móveis por diferença aritmética.
 2. **B-02 —** Cozinha: comprimento da parede da bancada, posição dos pontos de água, esgoto, gás e tomadas.
 3. **B-03 —** Quarto: parede do roupeiro (largura em baixo, no meio e em cima) e o canto do aéreo em L.
 4. **B-04 —** Banheiro: largura do gabinete, porta de entrada aberta (interferência com as portas de correr e retirada da frente do gabinete vigente) e enchimento do box.

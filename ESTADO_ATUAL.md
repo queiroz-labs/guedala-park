@@ -10,7 +10,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
 - **Regra fixa de Elias:** nenhum tubo sustentando chapas de madeira, nem quadro metálico substituto. Qualquer proposta desse tipo exige autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
 - **Chapas e cores:** um acabamento por chapa física, igual nas duas faces; duas peças distintas podem ter cores diferentes (externa 18 mm no padrão, interna 15 mm BrancoTX), com conferência de geometria, ligações e cargas. Não presumir caixa dupla nem inserir 15 mm automaticamente. [Regra e auditoria por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
-- **Pé-direito de teste: 2,60 m = 260 cm = 2600 mm, medida a confirmar** (Elias, 26/10/2026: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60"). Não é medição nem autoriza fabricação; o escritório mantém cenário separado de 2,47 m com forro. [Referências e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+- **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026, nesta conversa). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 ## Versões vigentes
 
@@ -27,8 +27,8 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
-| Pranchas A3 | R02 local: 20 folhas; 1:50/1:25; teste 2,60→2,47 passou | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site e pacote para o montador | R53/R24, fichas R15; publicação autorizada em 27/10; situação e evidência em Entregas | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
+| Site e pacote para o montador | R53/R25, fichas R15; alturas 2,60/2,50 m; publicação autorizada em 27/10 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias 27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 

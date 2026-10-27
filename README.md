@@ -1,6 +1,6 @@
 # Guedala Park · projeto do apartamento
 
-**Pé-direito para testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar (Elias, 26/10/2026).** Hipótese, não medição nem autorização de fabricação. Escritório: cenário separado de 2,47 m com forro. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+**Pé-direito de projeto: cômodos 2,60 m; banheiro 2,50 m, medidas a confirmar (Elias, 27/10/2026).** Inclui escritório e circulação; substitui o cenário de 2,47 m. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).** Para continuar uma sessão, use a [retomada curta T09](ESTADO_ATUAL.md#como-trabalhar-nesta-pasta): versões, cinco decisões recentes, responsáveis, próximo passo e verificações comprovadas.
 
@@ -62,4 +62,4 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.
 
-Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R24** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). Publicação R53/R24 autorizada por Elias em 27/10/2026; conferência remota registrada em [Entregas](06_Entregas/README.md).
+Revisão local27/10: **FreeCAD R53, fichas R15 e pacote R25** incorporam as decisões P02/P13/TV/lixeiras. [Integração e limites](02_Modelo_3D/README.md). Publicação R53/R25 autorizada por Elias em 27/10/2026; conferência remota registrada em [Entregas](06_Entregas/README.md).

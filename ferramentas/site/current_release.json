@@ -11,26 +11,29 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R24",
+  "packageRevision": "R25",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R24.zip",
-  "archiveRoot": "Guedala_Park_R24",
+  "packageFile": "Guedala_Park_R25.zip",
+  "archiveRoot": "Guedala_Park_R25",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "published",
+  "publicationStatus": "publication_authorized",
   "lastPublishedCadRevision": "R53",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
   "lastPublishedPackageRevision": "R24",
-  "notes": "R53: decisoes P02 (uso leve, requisito10kg), P13 (Arenza liso duas faces), TV mantida e deslocamentos nominais das lixeiras. Elias27/10/2026 solicitou aplicar decisoes e criar R53. Produto/oficina, gabaritos e ensaios pendentes; Publicacao autorizada por Elias em 27/10/2026: Pode fazer push e publicar a R53 com as fichas R15 e o pacote R24.",
+  "notes": "R25: alturas nominais por ambiente, 2,60 m nos cômodos e 2,50 m no banheiro; fonte CSV comum ao site e pranchas A3 R02. Medidas a confirmar; CAD R53 e fichas R15 preservados. Elias, 27/10/2026, nesta conversa: altera a altura de todos os comodos para 2,6 e o banheiro para 2,5; pode dar commit push e atualizar o site.",
   "technicalDocuments": [
     {
       "id": "pe-direito",
-      "title": "Pé-direito: 2,60 m para testes, medida a confirmar",
+      "title": "Pé-direito: cômodos 2,60 m; banheiro 2,50 m",
       "room": "all",
       "path": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
-      "summary": "Hipótese de estudo de 26/10/2026; não medição do Guedala nem média do Vila das Belezas 3. Escritório e rebaixos separados; não fabricação.",
-      "files": []
+      "summary": "Decisão de Elias, 27/10/2026. Valores nominais a confirmar; substitui o cenário de 2,47 m do escritório.",
+      "files": [
+        "07_Imovel/Medidas_e_impactos.csv",
+        "03_Ambientes/Medidas/README.md"
+      ]
     },
     {
       "id": "avancos-pendencias",
@@ -239,6 +242,41 @@
         "04_Moveis/P20/Assento_fechado/Montagem_prototipo.svg",
         "04_Moveis/P20/Assento_fechado/Registro_ensaio.csv",
         "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md"
+      ]
+    },
+    {
+      "id": "pranchas-a3",
+      "title": "Caderno A3 — plantas e elevações R02",
+      "room": "all",
+      "path": "06_Entregas/Caderno_pranchas/index.html",
+      "summary": "20 folhas em escala; alturas 2,60/2,50 m, cotas nominais/medidas e relatório de impacto. ESTUDO — NÃO EXECUTAR.",
+      "files": [
+        "06_Entregas/Caderno_pranchas/00.svg",
+        "06_Entregas/Caderno_pranchas/DT1.svg",
+        "06_Entregas/Caderno_pranchas/E01.svg",
+        "06_Entregas/Caderno_pranchas/E02.svg",
+        "06_Entregas/Caderno_pranchas/E03.svg",
+        "06_Entregas/Caderno_pranchas/E04.svg",
+        "06_Entregas/Caderno_pranchas/E05.svg",
+        "06_Entregas/Caderno_pranchas/E06.svg",
+        "06_Entregas/Caderno_pranchas/E07.svg",
+        "06_Entregas/Caderno_pranchas/E08.svg",
+        "06_Entregas/Caderno_pranchas/E09.svg",
+        "06_Entregas/Caderno_pranchas/E10.svg",
+        "06_Entregas/Caderno_pranchas/E11.svg",
+        "06_Entregas/Caderno_pranchas/E12.svg",
+        "06_Entregas/Caderno_pranchas/NC1.svg",
+        "06_Entregas/Caderno_pranchas/PL1.svg",
+        "06_Entregas/Caderno_pranchas/PL2.svg",
+        "06_Entregas/Caderno_pranchas/PL3.svg",
+        "06_Entregas/Caderno_pranchas/PT1.svg",
+        "06_Entregas/Caderno_pranchas/PT2.svg",
+        "06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf",
+        "06_Entregas/Caderno_pranchas/README.md",
+        "06_Entregas/Caderno_pranchas/Impacto.html",
+        "06_Entregas/Caderno_pranchas/Impacto.json",
+        "06_Entregas/Caderno_pranchas/Geometria.json",
+        "06_Entregas/Caderno_pranchas/Ultima_geracao.json"
       ]
     }
   ]

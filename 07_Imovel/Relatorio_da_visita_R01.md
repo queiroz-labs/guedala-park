@@ -1,5 +1,7 @@
 # A01.1 — Levantamento visual e confronto com a planta
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **Guedala Park III · Torre 02 · Final 06 · R01 · 07/09/2026**
 
 **Status: confronto documental e visual concluído, com ressalva de espelhamento.** Esta revisão substitui a R00 como referência de levantamento. O PDF permanece a verdade geométrica; o vídeo é referência complementar de outra unidade.

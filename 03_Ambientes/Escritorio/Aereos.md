@@ -1,6 +1,6 @@
 # Redistribuição dos aéreos — ensaio F97
 
-**Pé-direito para novos testes: 2,60 m = 260 cm = 2600 mm, medida a confirmar.** Hipótese de estudo adotada por Elias, 26/10/2026, mensagem Sentinel_e1e1f7bf1de48191af94cb4b830efa99: "coloca no meu projeto o pe direito como medida a confirmar e deixa 2.60". Não é medição do Guedala nem média observada no Vila das Belezas 3. Não autoriza fabricação. Forros, sancas, vigas e alturas livres por ambiente precisam de conferência própria; não descontar um rebaixo presumido nem alterar móveis automaticamente. Os cálculos abaixo que usam 257/247 cm permanecem cenários anteriores identificados; não comprovam folgas com a nova hipótese. Dimensões e posições dos móveis foram preservadas. No escritório, 247 cm continua cenário separado sob novo forro, não altura geral do apartamento.
+**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
 
 **Compatibilização com a convenção — 25/09/2026:** aéreo principal preservado em 200 × 55 × 35 cm. A implantação sugere faixa inicial de cerca de 10 cm junto à parede externa; restante em divisa com dormitório. Medir transição e compatibilizar proteção mínima de 1 cm sem aplicar automaticamente à parede inteira. Gabinete dedicado ao PC continua excluído. Revisão.
 
@@ -8,18 +8,18 @@
 
 Elias retira a exigência do módulo dedicado à caixa do gabinete. Guardará a caixa em lugar a definir, possivelmente na cama-baú queen; não considerar cabimento comprovado. Excluir do projeto o módulo64 ×60 ×43 cm na parede direita próximo à janela, sem substituí-lo automaticamente por outro armário.
 
-Aprovado o restante da distribuição apresentada: aéreo principal200 ×55 ×35 cm acima do sofá e região aberta sobre a prateleira dos consoles. Topo da prateleira a195 cm já aprovado em F154. Posição longitudinal, fixações, carga, folgas superiores e movimento das portas devem ser compatibilizados; cinco módulos de40 cm e divisões internas abaixo continuam hipóteses de detalhamento, não escolhas adicionais. Teto247 cm é cenário, não medida acabada. Se mantido, base do aéreo192 cm menos folga superior, como no ensaio. Seções seguintes são histórico na parte referente ao módulo eliminado.
+Aprovado o restante da distribuição apresentada: aéreo principal200 ×55 ×35 cm acima do sofá e região aberta sobre a prateleira dos consoles. Topo da prateleira a195 cm já aprovado em F154. Posição longitudinal, fixações, carga, folgas superiores e movimento das portas devem ser compatibilizados; cinco módulos de40 cm e divisões internas abaixo continuam hipóteses de detalhamento, não escolhas adicionais. Teto vigente: 260 cm, medida a confirmar (Elias, 27/10/2026). Para altura de caixa de 55 cm, base de estudo = 205 cm menos folga superior; não é implantação executiva. Seções seguintes são histórico na parte referente ao módulo eliminado.
 
 Continuidade autorizada por Elias após F96. Proposta dimensional do assistente, não aprovação das novas dimensões. Mantém prateleira dos consoles acima da TV e guarda da caixa ocupada do CH360.
 
 ## Distribuição proposta
 
-Medidas externas em cm, comprimento ao longo da parede × altura × profundidade. Teto 247 cm é cenário. As bases abaixo devem ser reduzidas pela folga técnica superior efetivamente necessária, ainda desconhecida; acabamento fecha visualmente até o teto.
+Medidas externas em cm, comprimento ao longo da parede × altura × profundidade. Teto nominal vigente: 260 cm, medida a confirmar. As bases abaixo devem ser reduzidas pela folga técnica superior efetivamente necessária, ainda desconhecida; acabamento fecha visualmente até o teto.
 
 | Peça | Dimensões de estudo | Posição em planta | Base vertical |
 |---|---|---|---|
-| Aéreo comum na parede do sofá | 200 × 55 × 35 | x0..35, y90..290 | 192 cm menos folga |
-| Módulo dedicado à caixa na parede direita, perto da janela | 64 × 60 × 43 | x187..230, y25..89 | 187 cm menos folga |
+| Aéreo comum na parede do sofá | 200 × 55 × 35 | x0..35, y90..290 | 205 cm menos folga |
+| Módulo dedicado à caixa na parede direita, perto da janela | 64 × 60 × 43 | x187..230, y25..89 | 200 cm menos folga (módulo cancelado) |
 | Prateleira aberta dos consoles na parede direita | 110 × 35 de superfície; espessura hipotética 3 | x195..230, y105..215 | face inferior 192 cm; topo 195 cm |
 
 Conjunto comum: cinco módulos externos de aproximadamente 40 cm de largura, portas convencionais off-white fosco, ferragens e perfil já escolhidos. Cinco divisões são hipótese de cálculo e orçamento; ajustar ao conteúdo. Prateleiras internas reguláveis/removíveis. Prateleira dos consoles em Arenza. Módulo da caixa sem divisória atravessando o vão, abertura útil a conferir.

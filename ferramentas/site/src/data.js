@@ -6,9 +6,8 @@ const PROJECT={
   "name": "Guedala Park",
   "area": "40,18 m²",
   "unit": "Torre 2 · final 06",
-  "ceiling": 260,
-  "officeCeilingStudy": 247,
-  "heightStudy": "2,60 m = 260 cm = 2600 mm — medida a confirmar; hipótese para testes, não fabricação. Elias, 26/10/2026. Não é medição do Guedala nem média do Vila das Belezas 3. Escritório: cenário separado de 2,47 m com forro, a confirmar. Forros, sancas e rebaixos não têm alturas verificadas.",
+  "ceiling": 260.0,
+  "heightStudy": "Quarto: 2,60 m (medida a confirmar); Cozinha: 2,60 m (medida a confirmar); Lavanderia: 2,60 m (medida a confirmar); Escritório: 2,60 m (medida a confirmar); Banheiro: 2,50 m (medida a confirmar); Sala/jantar: 2,60 m (medida a confirmar); Circulação: 2,60 m (medida a confirmar). Valores de projeto para estudo, não fabricação.",
   "note": "Projeto inteiro pronto antes da mudança. Escolhas de programa preservadas. Medidas, produtos candidatos, estudos de construção e fabricação continuam condicionados.",
   "rooms": [
     {
@@ -349,7 +348,16 @@ const PROJECT={
       "status": "Escolhido",
       "note": "Código escolhido em 24/10/2026 para laterais aparentes do gabinete e espelheiro. Poro tem leve brilho acetinado. Amostra a conferir. Interiores Branco TX preservados."
     }
-  ]
+  ],
+  "ceilingByRoom": {
+    "quarto": 260.0,
+    "cozinha": 260.0,
+    "lavanderia": 260.0,
+    "escritorio": 260.0,
+    "banho": 250.0,
+    "sala": 260.0,
+    "circulacao": 260.0
+  }
 };
 const ITEMS=[
   {
@@ -593,7 +601,7 @@ const ITEMS=[
     "measure": "Projeto aprovado",
     "material": "offwhite",
     "source": "R28/R31 e decisão17/10/2026",
-    "notes": "Aéreo20 mm mais baixo que a referência antiga, com 20 mm nominais de folga ao teto de 247 cm no cenário separado de forro do escritório, a confirmar. A hipótese geral de 260 cm para novos testes (Elias, 26/10/2026) não muda esse móvel nem valida o forro. Setor para um capacete, uma sapatilha e um kit de ferramentas, com prateleiras reguláveis e ferramentas no estojo. Não criar módulo baixo ou móvel para caixa do PC. Dimensões dos objetos, carga e alcance a conferir."
+    "notes": "Aéreo com topo nominal a 245 cm; pé-direito de projeto de 260 cm, medida a confirmar (Elias, 27/10/2026): diferença de 15 cm até o teto. Caixa preservada; fechamento superior e montagem a compatibilizar. Setor para um capacete, uma sapatilha e um kit de ferramentas, com prateleiras reguláveis e ferramentas no estojo. Não criar módulo baixo ou móvel para caixa do PC. Dimensões dos objetos, carga e alcance a conferir."
   },
   {
     "id": "officeshelf",

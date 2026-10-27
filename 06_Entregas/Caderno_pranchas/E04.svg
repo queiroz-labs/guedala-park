@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
 <rect width="420" height="297" fill="white"/>
 <line x1="25" y1="180" x2="66.0" y2="180" stroke="#263238" stroke-width="0.5"/>
-<line x1="25" y1="76.0" x2="66.0" y2="76.0" stroke="#94621c" stroke-width="0.4"/>
-<line x1="17" y1="180" x2="17" y2="76.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="25" y1="80.0" x2="66.0" y2="80.0" stroke="#94621c" stroke-width="0.4"/>
+<line x1="17" y1="180" x2="17" y2="80.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="16" y1="181" x2="18" y2="179" stroke="#94621c" stroke-width="0.2"/>
-<line x1="16" y1="77.0" x2="18" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
-<text x="18.0" y="127.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
-<text x="25" y="71.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
+<line x1="16" y1="81.0" x2="18" y2="79.0" stroke="#94621c" stroke-width="0.2"/>
+<text x="18.0" y="129.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2500 N</text>
+<text x="25" y="75.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
 <text x="213" y="40" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">MÓDULO / L / BASE / TOPO R53 / FOLGA TETO</text>
 <rect x="32.0" y="150.2" width="24.0" height="21.8" stroke="#405863" fill="none" stroke-width="0.35"/>
 <rect x="32.72" y="150.92000000000002" width="22.56" height="20.36" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
@@ -86,7 +86,7 @@
 <text x="247" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
 <text x="282" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">200 N</text>
 <text x="321" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">745 N</text>
-<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1855 N</text>
+<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1755 N</text>
 <line x1="32.0" y1="188" x2="56.0" y2="188" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="31.0" y1="189" x2="33.0" y2="187" stroke="#94621c" stroke-width="0.2"/>
 <line x1="55.0" y1="189" x2="57.0" y2="187" stroke="#94621c" stroke-width="0.2"/>
@@ -144,25 +144,25 @@
 <text x="247" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
 <text x="282" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1150 N</text>
 <text x="321" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1900 N</text>
-<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">700 N</text>
+<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
 <line x1="32.0" y1="195" x2="56.0" y2="195" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="31.0" y1="196" x2="33.0" y2="194" stroke="#94621c" stroke-width="0.2"/>
 <line x1="55.0" y1="196" x2="57.0" y2="194" stroke="#94621c" stroke-width="0.2"/>
 <text x="45.0" y="194.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
-<line x1="32.0" y1="104.0" x2="56.0" y2="104.0" stroke="#25658c" stroke-width="0.6" stroke-dasharray="1.5 1"/>
-<text x="213" y="126" font-family="Arial, sans-serif" font-size="2.5" fill="#25658c">P19 H estudo = 750 N; base fixa / topo segue PD</text>
+<line x1="32.0" y1="108.0" x2="56.0" y2="108.0" stroke="#25658c" stroke-width="0.6" stroke-dasharray="1.5 1"/>
+<text x="213" y="126" font-family="Arial, sans-serif" font-size="2.5" fill="#25658c">P19 H estudo = 650 N; base fixa / topo segue PD</text>
 <rect x="32.0" y="149.4" width="24.0" height="0.8" stroke="#405863" fill="none" stroke-width="0.35"/>
 <text x="213" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A1</text>
 <text x="247" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
 <text x="282" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">745 N</text>
 <text x="321" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">765 N</text>
-<text x="365" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1835 N</text>
+<text x="365" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1735 N</text>
 <rect x="36.0" y="144.0" width="16.0" height="5.4" stroke="#405863" fill="none" stroke-width="0.35"/>
 <text x="213" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A2</text>
 <text x="247" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">400 N</text>
 <text x="282" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">765 N</text>
 <text x="321" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">900 N</text>
-<text x="365" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1700 N</text>
+<text x="365" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1600 N</text>
 <text x="25" y="217" font-family="Arial, sans-serif" font-size="3" fill="#263238">Traço azul: topo paramétrico; caixas cinza: R53 fixa.</text>
 <text x="25" y="223" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajuste dimensional não define corte, fixação ou montagem.</text>
 <text x="213" y="158.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A1: Bancada banheiro · cuba a recortar</text>
@@ -196,7 +196,7 @@
 <rect x="43.0" y="87.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
 <line x1="44.0" y1="88.0" x2="48.0" y2="84.0" stroke="#94621c" stroke-width="0.1"/>
 <text x="48.0" y="85.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">B10</text>
-<text x="275" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">B11 2600 N</text>
+<text x="275" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">B11 2500 N</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
 <text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">E04 | Banheiro - gabinete, bancada e espelho</text>
 <text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>

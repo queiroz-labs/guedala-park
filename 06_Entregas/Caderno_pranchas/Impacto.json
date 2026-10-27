@@ -2,7 +2,211 @@
   "revisao": "R02",
   "cad_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
   "primeira_geracao": false,
-  "alteracoes": [],
+  "alteracoes": [
+    {
+      "cota": "E04:B11-altura",
+      "antes": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "P18,P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 2500.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "P18,P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P18-folga",
+      "antes": {
+        "mm": 1855.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1755.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-altura-parametrica",
+      "antes": {
+        "mm": 750.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19:folga nominal",
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19:folga nominal",
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-folga",
+      "antes": {
+        "mm": 700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-topo-parametrico",
+      "antes": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19:folga nominal"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:P19:folga nominal"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:Peca185-folga",
+      "antes": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1600.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:Peca399-folga",
+      "antes": {
+        "mm": 1835.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1735.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN",
+          "R53:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:pe-direito",
+      "antes": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "P18,P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 2500.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "P18,P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "PT2:B11-Z",
+      "antes": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "banho",
+        "prancha": "PT2"
+      },
+      "depois": {
+        "mm": 2500.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-BAN"
+        ],
+        "movel": "banho",
+        "prancha": "PT2"
+      }
+    }
+  ],
   "avisos": [
     {
       "prancha": "PL3",

@@ -1,6 +1,7 @@
 """Prepare a local web artifact from the current release; no deploy or legacy writes."""
 from pathlib import Path
 import argparse,json,os,runpy,shutil,subprocess
+from height_data import heights
 from current_release import ROOT,STUDY,load_release,validate_sources
 
 def build(output_dir=None,regenerate=False,package_mode='auto',publication_ready=False):
@@ -25,6 +26,7 @@ def build(output_dir=None,regenerate=False,package_mode='auto',publication_ready
  subprocess.run(['node',str(STUDY/'build_web.mjs'),str(site)],check=True)
  (site/'.nojekyll').write_text('',encoding='utf8')
  metadata=dict(revisao=release['cadRevision']+'-'+release['packageRevision'],cad=release['cadRevision'],cadSHA256=release['cadSHA256'],pacote=release['packageRevision'],fichas=release['fabricationRevision'],cores=release['appearanceRevision'],iluminacao=release['lightingRevision'],publicationStatus=release['publicationStatus'],publicationReady=publication_ready,commit=os.environ.get('GITHUB_SHA','local'))
+ metadata['peDireitoMm']={room: v['mm'] for room,v in heights().items()}
  (site/'versao.json').write_text(json.dumps(metadata,indent=2)+'\n',encoding='utf8')
  print(json.dumps(dict(directory=str(site),metadata=metadata,remotePublication=False),ensure_ascii=False));return metadata
 

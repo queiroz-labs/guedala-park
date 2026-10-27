@@ -1,5 +1,7 @@
 # Rascunhos de e-mail — R03
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 27/10/2026 · **Rascunhos. Nada foi enviado.** Revise, ajuste os dados entre colchetes e envie pelo canal oficial de cada destinatário: o portal ou atendimento do cliente da Cury, e o e-mail da administração ou do síndico depois da entrega.
 
 Base: [Memorial Cury e impactos](Memorial_Cury_impactos.md), [Convenção e ata](Convencao_e_ata_impactos.md) e [plano de reforma](Plano_de_reforma_NBR16280.md).

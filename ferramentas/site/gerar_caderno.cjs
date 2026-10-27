@@ -17,7 +17,7 @@ const rooms=PROJECT.rooms.filter(r=>r.id!=='all');
 
 let out=`# Caderno de especificações — R01
 
-Gerado em ${new Date().toISOString().slice(0,10)} por \`Estudo_interativo/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${CAD_DATA.current_revision}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
+Gerado em ${new Date().toISOString().slice(0,10)} por \`ferramentas/site/gerar_caderno.cjs\`, a partir dos mesmos dados do site interativo (geometria ${CAD_DATA.current_revision}). Para atualizar, corrija \`src/data.js\` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 

@@ -15,11 +15,7 @@
         2950
       ],
       "scope": "Medidas da parte principal do quarto. A área recuada não está incluída.",
-      "match": "As medidas da planta correspondem à parte principal do desenho.",
-      "medidas_csv": [
-        "DIM-01/0",
-        "DIM-01/1"
-      ]
+      "match": "As medidas da planta correspondem à parte principal do desenho."
     },
     {
       "id": "escritorio",
@@ -30,11 +26,7 @@
         2950
       ],
       "scope": "Distância entre as paredes internas da parte principal.",
-      "match": "As medidas da planta correspondem ao desenho.",
-      "medidas_csv": [
-        "DIM-02/0",
-        "DIM-02/1"
-      ]
+      "match": "As medidas da planta correspondem ao desenho."
     },
     {
       "id": "sala",
@@ -44,10 +36,7 @@
         2450
       ],
       "scope": "Largura da sala. A medida de 5,15 m inclui sala e cozinha.",
-      "match": "Os 5,15 m incluem a sala e a cozinha.",
-      "medidas_csv": [
-        "DIM-03/0"
-      ]
+      "match": "Os 5,15 m incluem a sala e a cozinha."
     },
     {
       "id": "sala cozinha",
@@ -57,10 +46,7 @@
         5150
       ],
       "scope": "Distância total entre a parede da sala e a parede da cozinha, pelo lado direito.",
-      "match": "No desenho, corresponde ao trecho de y185 a700 cm.",
-      "medidas_csv": [
-        "DIM-04/0"
-      ]
+      "match": "No desenho, corresponde ao trecho de y185 a700 cm."
     },
     {
       "id": "banho",
@@ -71,11 +57,7 @@
         1240
       ],
       "scope": "Medidas internas do banheiro. Esta vista não mostra os equipamentos.",
-      "match": "As medidas da planta correspondem ao desenho.",
-      "medidas_csv": [
-        "DIM-05/0",
-        "DIM-05/1"
-      ]
+      "match": "As medidas da planta correspondem ao desenho."
     },
     {
       "id": "lavanderia",
@@ -86,11 +68,7 @@
         1540
       ],
       "scope": "Medidas internas indicadas na planta; o desenho foi compatibilizado com 1,54 m.",
-      "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento.",
-      "medidas_csv": [
-        "DIM-06/0",
-        "DIM-06/1"
-      ]
+      "match": "Desenho corrigido para 1,29 × 1,54 m. A parede de fechamento é reconstruída; confira dimensões e acabamentos no apartamento."
     },
     {
       "id": "cozinha",
@@ -101,11 +79,7 @@
         1550
       ],
       "scope": "Medidas da faixa indicada na planta. Elas não confirmam uma parede entre cozinha e lavanderia.",
-      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes.",
-      "medidas_csv": [
-        "DIM-07/0",
-        "DIM-07/1"
-      ]
+      "match": "Essa faixa aparece no desenho. As linhas abertas não representam paredes."
     },
     {
       "id": "circulacao",
@@ -116,20 +90,51 @@
         1050
       ],
       "scope": "0,90 m entre os acessos aos dormitórios e banheiro; 1,05 m do acesso ao quarto ao alinhamento lateral do banheiro. A ligação aberta com a sala aparece separada.",
-      "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial.",
-      "medidas_csv": [
-        "DIM-08/0",
-        "DIM-08/1"
-      ]
+      "match": "Os dois trechos cotados estão representados em sentidos perpendiculares. Posições de portas e espessuras continuam reconstruídas, sem confirmação presencial."
     }
   ],
   "reconstructionSource": "ferramentas/site/src/app.js: floors/walls",
   "note": "Medidas da página 1 da planta oficial. O desenho do site é uma aproximação. Confira as medidas após os acabamentos, antes de fabricar.",
   "heightStudy": {
-    "mm": 2600,
-    "status": "medida a confirmar; hipótese para testes, não fabricação",
-    "source": "Elias, 26/10/2026, Sentinel_e1e1f7bf1de48191af94cb4b830efa99",
-    "officeCeilingScenarioMm": 2470
+    "byRoom": {
+      "quarto": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-QUA"
+      },
+      "cozinha": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-COZ"
+      },
+      "lavanderia": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-LAV"
+      },
+      "escritorio": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-ESC"
+      },
+      "banho": {
+        "mm": 2500.0,
+        "origem": "nominal",
+        "codigo": "PD-BAN"
+      },
+      "sala": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-SAL"
+      },
+      "circulacao": {
+        "mm": 2600.0,
+        "origem": "nominal",
+        "codigo": "PD-CIR"
+      }
+    },
+    "status": "nominal/planta, medida a confirmar",
+    "source": "07_Imovel/Medidas_e_impactos.csv; Elias, 27/10/2026"
   },
   "graphicClosure": {
     "units": "cm",
@@ -147,7 +152,8 @@
       "lavanderia": "PD-LAV",
       "escritorio": "PD-ESC",
       "banho": "PD-BAN",
-      "sala": "PD-SAL"
+      "sala": "PD-SAL",
+      "circulacao": "PD-CIR"
     },
     "mirror": "PR-EIXO-X",
     "walls": [

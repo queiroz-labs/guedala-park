@@ -1,5 +1,7 @@
 # TV, porta e PS5 — conferência R08
 
+**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+
 **F154 — altura aprovada:** Elias mantém o topo da prateleira dos consoles a195 cm do piso, priorizando circulação, mesmo com uso do PS5 nos dois ambientes. Encerra pendência de escolha dessa altura; conferir instalação, acesso e ventilação no detalhamento. Não reabrir frequência de transporte como condição para prosseguir. Dimensões110 ×35 cm seguem referência de estudo com reserva para possível Xbox; altura aprovada não é aprovação automática de carga/fixação ou posição longitudinal.
 
 **Complemento F153:** Elias quer usar o PS5 tanto na sala quanto no escritório. Preservar apoio nos dois ambientes; proposta de transporte com cabos acessíveis em cada um precisa considerar frequência. Topo195 cm abaixo é estudo, não altura aprovada, e dificulta manuseio repetido do aparelho. A opção baixa também permanece limitada pela passagem53 cm com cama aberta. Resolver esse compromisso antes de fixar posição; não inferir segundo PS5 ou eliminar possível Xbox.
@@ -69,7 +71,7 @@ Mantida TV de estudo com centro a 110 cm e borda superior hipotética a 139 cm. 
 | 180 cm | 177 cm | Apenas 2 cm acima da altura de Elias (1,75 m registrada). Base do aéreo comum a 207 cm menos folga deixa menos de 11,9 cm sobre Series X. Descartar como solução confortável de passagem. |
 | 195 cm | 192 cm | Alternativa prioritária: 17 cm acima de Elias, melhor passagem sob a peça; exige retirar ou redimensionar aéreos nesse trecho. Acesso a cabos/limpeza fica alto. Não garante passagem para pessoas mais altas. |
 
-Na opção a 195 cm, Series X atinge aproximadamente 210,1 cm e requer reserva até 225,1 cm com 15 cm acima, antes de tolerâncias. Teto de cenário 247 cm deixa 21,9 cm restantes: corpo aéreo de 40 cm e módulo da caixa de 60 cm não cabem sobre esse conjunto. Preferir testar esse trecho sem armário diretamente acima, redistribuindo armazenamento; nenhuma perda de capacidade foi aceita automaticamente. PS5 atinge 203 cm antes de pés/saliências, também muito próximo da base original do aéreo.
+Na opção a 195 cm, Series X atinge aproximadamente 210,1 cm e requer reserva até 225,1 cm com 15 cm acima, antes de tolerâncias. Teto nominal vigente de 260 cm deixa 34,9 cm restantes, a confirmar: corpo aéreo de 40 cm e módulo da caixa de 60 cm não cabem sobre esse conjunto. Preferir testar esse trecho sem armário diretamente acima, redistribuindo armazenamento; nenhuma perda de capacidade foi aceita automaticamente. PS5 atinge 203 cm antes de pés/saliências, também muito próximo da base original do aéreo.
 
 Ensaio em planta para 110 × 35 cm: x195..230, y105..215. Termina 5 cm antes do giro estimado da porta. Sobrepõe longitudinalmente cadeira estacionada y75..148, mas face inferior a 192 cm fica acima da altura máxima publicada de 133 cm da Ultra Comfort. Isso não valida usuário em pé, suportes inferiores ou percurso de montagem. Cama permanece x2..142: 88 cm brutos disponíveis abaixo da prateleira, mas apenas 53 cm na altura dela; TV e suporte ainda podem reduzir passagem em outras alturas. Não declarar corredor integralmente livre.
 

@@ -246,7 +246,7 @@
     },
     {
       "id": "pe_direito_estudo",
-      "descricao": "Elias, 26/10/2026: hipótese de teste 2,60 m = 260 cm = 2600 mm, medida a confirmar; cenário de forro do escritório separado",
+      "descricao": "Elias, 27/10/2026: 2,60 m em todos os cômodos, inclusive escritório e circulação; banheiro 2,50 m. Medidas de projeto a confirmar.",
       "exigir": [
         {
           "arquivo": "ESTADO_ATUAL.md",
@@ -261,8 +261,16 @@
           "regex": "\"ceiling\": 260"
         },
         {
+          "arquivo": "ESTADO_ATUAL.md",
+          "regex": "2,50 m = 250 cm = 2500 mm"
+        },
+        {
           "arquivo": "ferramentas/site/src/data.js",
-          "regex": "\"officeCeilingStudy\": 247"
+          "regex": "\"banho\": 250"
+        },
+        {
+          "arquivo": "ferramentas/site/src/data.js",
+          "regex": "\"escritorio\": 260"
         }
       ]
     }
