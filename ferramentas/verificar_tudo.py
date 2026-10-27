@@ -10,8 +10,11 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 PY = sys.executable
 DATA = re.compile(r'(_\d{4}-\d{2}-\d{2}|_\d{2}_\d{2}_\d{4}|_R\d{2,3})$')
-# Pastas historicas que ja existiam com data/revisao no nome (nao crescer esta lista)
-LEGADO = ('02_Modelo_3D/Componentes/', '06_Entregas/', 'ferramentas/site/', '04_Moveis/Inventario_dimensional/',
+DATA_CALENDARIO = re.compile(r'\d{4}-\d{2}-\d{2}|\d{2}_\d{2}_\d{4}')
+# Entregas publicadas e acervo explicitamente preservado pelo projeto.
+ACERVO = ('06_Entregas/', '02_Modelo_3D/Historico/')
+# Excecoes antigas apenas para revisoes/copias; datas so podem ficar no ACERVO.
+LEGADO = ('06_Entregas/', '04_Moveis/Inventario_dimensional/',
           '04_Moveis/Avanco_pendencias/', '04_Moveis/Proximas_decisoes/', '03_Ambientes/Cozinha/Fechamento/',
           '09_Referencias/', '07_Imovel/', '08_Contratos_e_atraso/')
 
@@ -27,7 +30,9 @@ def estrutura():
     no_commit = '--ci' not in sys.argv and any(git('diff', '--cached', '--name-only'))
     arquivos = [f for f in (git('ls-files') if no_commit else git('ls-files', '-co', '--exclude-standard')) if f]
     pastas = {'/'.join(f.split('/')[:i]) for f in arquivos for i in range(1, f.count('/') + 1)}
-    datadas = sorted(p for p in pastas if DATA.search(p.split('/')[-1]) and not p.startswith(LEGADO))
+    datadas = sorted(p for p in pastas if (
+        DATA_CALENDARIO.search(p.split('/')[-1]) and not (p + '/').startswith(ACERVO)
+    ) or (DATA.search(p.split('/')[-1]) and not (p + '/').startswith(LEGADO + ACERVO)))
     if datadas:
         erros.append('Pasta com data/revisao no nome (regra 2 do AGENTS.md): ' + ', '.join(datadas[:10]))
     proibidos = sorted(f for f in arquivos if re.search(r'(^|/)(__pycache__|node_modules|\.venv|venv)/|\.pyc$|\.FCBak$', f))

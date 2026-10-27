@@ -125,7 +125,7 @@ As evidências citadas estão em [Componentes por assunto](Componentes/README.md
 | `Comparacao_colisoes_R51_R52.json` | Colisões antes e depois |
 | `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
 | `Historico/` | Estudos R46–R49 que o site ainda referencia; os binários R45 e R48 foram removidos em 26/10/2026 (recuperáveis no git) |
-| `Componentes/` | Evidências por tema; Atual e Estudos reorganizados sem pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
+| `Componentes/` | Evidências por tema; Atual e Estudos por tema, com trava no verificador contra pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
 
 ## Contadores históricos para rastreabilidade
 

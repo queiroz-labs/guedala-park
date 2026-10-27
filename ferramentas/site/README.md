@@ -110,4 +110,4 @@ Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
 
 ## Organização das fontes
 
-Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removida. ZIP: 264 entradas preservadas; CAD intacto.
+Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removida. ZIP: 264 entradas preservadas; CAD intacto. Pastas datadas bloqueadas no verificador.

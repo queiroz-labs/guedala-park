@@ -2,6 +2,8 @@
 
 Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
+O verificador bloqueia pastas datadas fora de `06_Entregas/` e `02_Modelo_3D/Historico/`, inclusive em Componentes e no site. Teste de regressão em 27/10/2026: três pastas temporárias com arquivo (Componentes, site e Inventario_dimensional) reprovaram com saída 1; removidas, a verificação passou. Não há exceção ampla para Componentes ou site.
+
 Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de estudo vão para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script novo solto).
 
 Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` gera as páginas por destinatário, checklist e ZIP com fichas R15; não envia mensagens nem altera CAD.
