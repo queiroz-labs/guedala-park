@@ -10,7 +10,22 @@
 
 **Uso diário:** SceneSwitch apaga ao desligar o interruptor e deixá-lo desligado; religar é que participa da mudança de nível. Na solução smart, usar comando de desligar do WiZmote, aplicativo ou Alexa mantém a lâmpada alimentada e disponível para religar remotamente. Se cortar a energia no interruptor convencional, Alexa/celular não poderão religá-la até restabelecer alimentação. Prever comando físico acessível e identificar o interruptor de alimentação; não depender exclusivamente de voz/celular. Configuração e comportamento após falta de energia serão conferidos no comissionamento.
 
-**Reconciliação de referência, sem cotação nova:** CB02 histórica R$4.415,94 + pulsadores/placas R$57,03 + substituição WT1/Shelly R$81,75 = R$4.554,72. Retirar duas SceneSwitch (R$58,98), provisionar duas WiZ (2 × R$98,97) e um WiZmote (R$93,24): **+R$232,20; cenário atualizado R$4.786,92**. Geral do quarto: R$342,08 de referência. Os R$98,97 vêm da oferta ainda sem SKU conciliado; são provisão comparativa, não preço confirmado da referência 127 V. Diferença para a provisão global de R$3.540: R$1.246,92. R44 e JSON histórico preservados; faltam fretes, acessórios e eventuais adaptações. Não contar WT1/SceneSwitch junto dos substitutos.
+**Reconciliação vigente — consulta web de 26/10/2026:** cenário anterior R$4.786,92, com cinco WiZmotes a R$93,24 e três Jurerê a R$50,90. Reprecificar os cinco controles a R$117,73 (+R$122,45) e os três plafons a R$60,65 (+R$29,25): **cenário parcial R$4.938,62**, diferença R$1.398,62 para a provisão global de R$3.540. Demais itens mantêm referências anteriores; não é cotação integral nem alteração do R44/JSON histórico. Não duplicar WT1/SceneSwitch com seus substitutos.
+
+### Conferência comercial WiZ / WiZmote / Jurerê
+
+| Item | Identificação e evidência em 26/10/2026 | Preço e limite |
+|---|---|---|
+| WiZ A60 de referência | 12NC **929002424712**, EAN **8718699787370**, 127 V, 8,8 W, 800 lm; [fabricante](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) | [Leroy com esse EAN](https://www.leroymerlin.com.br/lampada-led-smart-wifi-philips-8-8w-wiz-bulbo-a60-127v-base_1568132424) indisponível. Não obtivemos preço atual comprável vinculado ao SKU |
+| Oferta WiZ usada no custo | [Abastece](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz): bivolt, 8,5 W, 806 lm; texto sem 12NC/EAN | **R$98,97/un. à vista**, compra direcionada a WhatsApp; estoque e identidade pendentes. Não atribuir esse preço ao SKU 127 V |
+| WiZmote de referência | 12NC **929002426812**, EAN **8719514552647**, na [ficha oficial regional WiZ](https://www.wizconnected.com/es-pe/p/accesorio-wizmote/8719514552647); pilhas incluídas nessa versão | [Abastece](https://www.abastece.com.br/products/wizmote-controle-remoto-para-iluminacao-wiz): **R$117,73/un. à vista**, sem código no texto. Confirmar se entrega esse SKU; não assumir identidade pela aparência |
+| Jurerê 30 cm, branco, 2×E27 | Loja vinculada pelo fabricante: ref. **52040021-01**, [Taschibra Store](https://taschibrastore.com.br/produtos/detalhes/plafon-taschibra-redondo-jurere-30cm-vidro-fosco-2xe27/) | **R$60,65/un. exibidos**, condição de pagamento/frete/estoque a confirmar. Substitui a provisão de R$50,90 |
+
+**Quarto:** 2 × R$98,97 + R$117,73 = **R$315,67** em lâmpadas/controle; com plafon R$60,65, **R$376,32**. A troca dos componentes SceneSwitch (R$58,98) por WiZ/controle acrescenta **R$256,69 mantendo o mesmo plafon**. Contra o antigo conjunto de R$109,88, o aumento é **R$266,44**, incluindo R$9,75 de atualização do plafon. São valores anunciados misturados a provisões, sem entrega, montagem ou garantia de SKU/estoque; não representam pedido fechado.
+
+**Compatibilidade parcial:** a [Taschibra](https://www.taschibra.com.br/public/index.php/pt_BR/produto/teto/plafon-sobrepor-slamp/plafon-redondo-jurere-30cm-vidro-fosco-2xe27-branca/14837) confirma E27, 40 W por soquete, 250 V máximos e envelope externo 300 × 300 × 100 mm. A WiZ 127 V/8,8 W atende nominalmente base e limite de potência, mas isso não comprova encaixe, ventilação ou uso com vidro montado. A ficha do plafon marca “Dimerizável: Não”; pedir em IL03 esclarecimento sobre lâmpada com regulagem eletrônica própria. Não concluir nem permissão nem proibição do conjunto a partir desse campo. Manual aplicável e autorização de uso continuam pendentes; restrições de outras WiZ (por exemplo E14/230 V) não podem ser transferidas a esta A60.
+
+**Comando:** o [suporte WiZ](https://faq.wizconnected.com/hc/en/7-wiz-v2/faq/623-what-is-the-wizmote/) confirma compatibilidade do WiZmote com luzes WiZ, desligamento direto, brilho e comunicação com as lâmpadas mesmo sem roteador funcionando. Configurar as duas lâmpadas como alvo; alimentação deve permanecer ligada. É uma solução funcional para o quarto, mas ainda não uma compra confirmada para o Jurerê. Próximo passo útil: etiqueta e resposta técnica em IL02/IL03; nenhum contato enviado.
 
 **Inventário consolidado da proposta:** seis plafons gerais (três Jurerê, um EVO e dois Firefly), um pendente triplo, duas arandelas; seis WiZ E27 e três G9; cinco WiZmotes; dois kits WiZ completos; três Shelly e três pulsadores/placas candidatos. Fontes Opus avulsas: **cinco no apartamento**, sendo três para as indiretas com Shelly e duas já incluídas no banheiro L02. Não acrescentar fontes aos kits WiZ nem duplicar os R$612,64 do banheiro. Cinco barras MOV fora do banheiro continuam provisão; perfis/rolos do banheiro já pertencem à L02. Metros finais e consumíveis não estão fechados.
 
@@ -66,7 +81,7 @@ Proposta para completar a lista, sem compra ou comprovação de instalação. Va
 |---|---|---|
 | Pulsadores WT1 | 3: C2 bancada, S3 TV da sala, Q06 cabeceira | Candidato **Tramontina 57115/027**, branco. Exigir contato momentâneo normalmente aberto, sem iluminação, adequado à entrada de comando do WT1 |
 | Placas e suportes | Até 3, se cada pulsador tiver caixa própria | Candidato **Liz 57106/204**, 4×2, um posto horizontal, com suporte/parafusos. Se compartilhar placa ou aproveitar outra linha, substituir na cotação; não somar as duas soluções |
-| Pilhas WiZmote | 8 LR03 AAA alcalinas de 1,5 V para quatro controles da versão com duas pilhas | Necessidade de operação; comprar somente as ausentes das embalagens. Confirmar SKU, não generalizar para outra revisão nem substituir por R03 zinco-carbono |
+| Pilhas WiZmote | 10 LR03 AAA alcalinas de 1,5 V para cinco controles da versão com duas pilhas | Necessidade de operação; comprar somente as ausentes das embalagens. Confirmar SKU, não generalizar para outra revisão nem substituir por R03 zinco-carbono |
 | Bateria RM433 | 1 conforme revisão | Original: 27A de 12 V; RM433R2: CR2450 de 3 V no campo de alimentação do fabricante. A página Sonoff mistura especificações: exigir foto do compartimento e manual do lote antes de cotar |
 | Suportes dos controles | Base RM433 já na oferta; suportes WiZmote opcionais | Não recomprar base incluída. Fixação de WiZmote depende de suporte compatível/local desejado; não é placa de interruptor |
 | Comandos do banheiro | 3 funções: teto, espelho e indireta | Conferir módulos/placa existentes com instalador; não adicionar WT1/dimmer automaticamente. Arranjo de teclas e caixas a definir |
@@ -224,6 +239,8 @@ A [oferta consultada](https://www.abastece.com.br/products/lampada-smart-bulbo-w
 3. Permissão ou restrição documentada para **duas unidades no mesmo Jurerê com o vidro instalado**: luminária fechada/com difusor, orientação dos soquetes, ventilação, temperatura admissível e eventuais folgas exigidas. Indicar página/cláusula; se necessário, encaminhar ao suporte técnico WiZ/Signify.
 4. Confirmar, para a revisão oferecida, controle de intensidade e cor pelo aplicativo e compatibilidade com WiZmote/Alexa, além das restrições a dimmer de rede. Nosso projeto prevê comando WiZ, sem adicionar dimmer de potência a essas lâmpadas.
 
+5. Cotar também cinco WiZmotes, um para o quarto: a referência oficial regional é 929002426812 / EAN 8719514552647. A oferta mostra R$117,73 e pilhas incluídas; confirmar código entregue, quantidade/tipo de pilhas, garantia, estoque, frete e preço das seis lâmpadas identificadas.
+
 Se a aplicação depender de informação do plafon, indiquem qual documento precisam receber. Esta é uma consulta documental prévia, sem pedido de compra. Obrigado!
 
 ### IL03 — Jurerê
@@ -236,6 +253,8 @@ Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois s
 2. Manual de instalação e ficha/desenho técnico da mesma versão, mostrando disposição/orientação dos soquetes, espaço útil para lâmpadas, fixação do vidro e aberturas de ventilação. As medidas externas não permitem conferir o espaço interno.
 3. Limites por soquete e restrições específicas para LED: formatos/dimensões admitidos, folgas, orientação e condições térmicas. Com o vidro montado, como o fabricante caracteriza o fechamento/ventilação do plafon para seleção de lâmpadas?
 4. Há documentação de compatibilidade ou restrição para WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
+
+5. A loja Taschibra mostra referência 52040021-01 a R$60,65; a ficha oficial informa 40 W por soquete e “Dimerizável: Não”. Confirmar código/EAN do lote e esclarecer se esse campo restringe lâmpadas WiZ com regulagem própria, sem dimmer de rede.
 
 Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
 

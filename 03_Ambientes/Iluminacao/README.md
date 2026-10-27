@@ -21,7 +21,9 @@ Detalhes, fontes e consultas: [CB02 vigente e conferências](Fechamento_custo_be
 
 ## Custo e quantidades
 
-**R$4.786,92 é cenário parcial de referência**, ainda sem cotação completa: CB02 R$4.415,94 + pulsadores/placas R$57,03 + diferença Shelly R$81,75 + mudança da geral do quarto R$232,20. A última parcela retira duas SceneSwitch e provisiona duas WiZ e um WiZmote, usando preços históricos de ofertas ainda condicionadas ao SKU. Não é compra nem alteração do R44. Frente à provisão global de R$3.540, diferença de R$1.246,92 antes das exclusões.
+**R$4.938,62 é cenário parcial**, sem cotação completa: cenário anterior R$4.786,92 + R$122,45 pela atualização dos cinco WiZmotes + R$29,25 pelos três Jurerê. Consulta em 26/10/2026: WiZ anunciada R$98,97 (SKU não identificado), WiZmote R$117,73 (SKU da oferta pendente), Jurerê ref.52040021-01 R$60,65. Quarto: R$376,32; troca das lâmpadas/comando +R$256,69, ou +R$266,44 contra o conjunto antigo incluindo reajuste do plafon. Demais itens mantêm preços anteriores. Diferença para a provisão global de R$3.540: R$1.398,62; R44 preservado.
+
+Referências documentais: WiZ 929002424712 / EAN8718699787370, 127 V; WiZmote 929002426812 / EAN8719514552647. Os preços anunciados não estão vinculados comprovadamente a esses códigos. Jurerê confirma E27/40 W por soquete, mas encaixe e uso da WiZ com vidro continuam pendentes; esclarecer também o campo “Dimerizável: Não” da ficha. Fontes e cálculo na [conferência comercial CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#conferência-comercial-wiz--wizmote--jurerê).
 
 - Seis plafons gerais, um pendente triplo e duas arandelas; três Jurerê recebem seis WiZ E27. SceneSwitch não entra na compra proposta.
 - Cinco WiZmotes (sala, quarto e três grupos do escritório); dois kits WiZ completos, sem repetir suas fontes/controladores.
