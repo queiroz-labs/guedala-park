@@ -1,4 +1,4 @@
-"""Caderno de pranchas R00: HTML para imprimir em A3 paisagem, com carimbo.
+"""Caderno de pranchas R01: HTML para imprimir em A3 paisagem, com carimbo.
 
 Reúne desenhos já gerados no projeto; não desenha nada novo. Para atualizar, gere
 os desenhos de origem e rode: python gerar_caderno_pranchas.py
@@ -18,7 +18,7 @@ PRANCHAS = [
     ('02', 'Planta de layout — mobiliário', 'img', '03_Ambientes/Planta_mobiliada/Planta_mobiliada_R02.png',
      'Geometria FreeCAD R45, cores aproximadas.'),
     ('03', 'Planta de pontos — elétrica, iluminação, água, esgoto e gás', 'img', '03_Ambientes/Planta_pontos/Planta_pontos_R00.svg',
-     'Preliminar. Circuitos e traçados a definir pelo responsável técnico. Tabela de pontos em 03_Ambientes/Planta_pontos.'),
+     'R01: 50 pontos auditados +3 funções; D03/D04 integradas. Q06/S05/E05/E06 sem posição. Circuitos e implantação pelo RT.'),
     ('04', 'Vistas — sala e jantar · quarto', 'pair', ('03_Ambientes/Planta_mobiliada/Vistas/01_Sala_e_jantar.png', '03_Ambientes/Planta_mobiliada/Vistas/02_Quarto.png'),
      'Perspectivas isométricas do modelo R45.'),
     ('05', 'Vistas — escritório · cozinha', 'pair', ('03_Ambientes/Planta_mobiliada/Vistas/03_Escritorio.png', '03_Ambientes/Planta_mobiliada/Vistas/04_Cozinha.png'),
@@ -38,7 +38,7 @@ def carimbo(num, titulo, obs):
   <div class="c-tit"><small>Prancha</small><b>{escape(titulo)}</b><span>{escape(obs)}</span></div>
   <div class="c-meta">
     <div><small>Nº</small><b>{num}/{len(PRANCHAS):02d}</b></div>
-    <div><small>Revisão</small><b>R00</b></div>
+    <div><small>Revisão</small><b>R01</b></div>
     <div><small>Data</small><b>{DATA}</b></div>
     <div><small>Escala</small><b>Sem escala</b></div>
   </div>
@@ -56,14 +56,14 @@ def build():
         pages.append(f'<section class="prancha">{body}{carimbo(num, titulo, obs)}</section>')
     indice = ''.join(f'<tr><td>{n}</td><td>{escape(t)}</td></tr>' for n, t, *_ in PRANCHAS)
     capa = f'''<section class="prancha capa">
-  <div class="capa-txt"><h1>Guedala Park</h1><p>Projeto de interiores · caderno de pranchas R00 · {DATA}</p>
+  <div class="capa-txt"><h1>Guedala Park</h1><p>Projeto de interiores · caderno de pranchas R01 · {DATA}</p>
   <table><thead><tr><th>Nº</th><th>Prancha</th></tr></thead><tbody>{indice}</tbody></table>
-  <p class="nota">Documentos complementares: programa de necessidades R01, caderno de especificações R01, fichas de fabricação R14,
+  <p class="nota">Documentos complementares: programa de necessidades R01, caderno de especificações R01, fichas de fabricação R15,
   cronograma R00 e plano de reforma (rascunho), na pasta do projeto. Estudo preliminar para o responsável técnico:
-  medidas a conferir no imóvel; não liberado para execução ou fabricação.</p></div>
-  {carimbo('00', 'Capa e índice', 'Conjunto de pranchas do estudo, gerado a partir do modelo R45.')}
+  medidas a conferir no imóvel; não executar. Esta revisão integra a planta de pontos R01 e as decisões D03/D04 de27/10. Layout e vistas permanecem referências R45; não representam a geometria R53. Modelo FCStd preservado.</p></div>
+  {carimbo('00', 'Capa e índice', 'R01 parcial: planta de pontos atualizada; layout e vistas continuam R45, sem validação contra R53.')}
 </section>'''
-    html = f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Guedala Park · Pranchas R00</title>
+    html = f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Guedala Park · Pranchas R01</title>
 <style>
 @page {{ size: A3 landscape; margin: 8mm; }}
 * {{ box-sizing: border-box; }}
