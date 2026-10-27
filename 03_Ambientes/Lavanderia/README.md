@@ -47,3 +47,7 @@ Banco escada BTF ESC0071, alumínio, três degraus (aberto 64,5 cm; fechado 39,5
 - Mecanismo do cesto basculante.
 - Arranjo E21 + varal: no trecho de 129 cm ensaiado não cabem lado a lado; duto e afastamentos do E21 a confirmar.
 - Lista de medidas a levantar no apartamento: [Levantamento](Levantamento.md).
+
+## Encaixe das lixeiras — agenda 27/10
+
+[Proposta e formulário](../Cozinha/Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **Pergunta LIX para Elias:** A — aceitar esses avanços e retirada temporária da Loop se demonstrada; B — pedir alternativa mais estreita para preservar posição/rotina, com perda de volume e preço a apresentar. Sem opção adotada; a concessão não substitui a conferência física.

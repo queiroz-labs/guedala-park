@@ -78,3 +78,7 @@ Micro/C2: apoio aberto 69,7 × 47 cm, topo 155. Alternativa separada de 300 mm p
 - Posição da torre de tomadas sem interferir nas gavetas ou no acesso ao filtro.
 - Cabimento real de potes, louças e embalagens (só envelopes de teste até agora).
 - Medidas do apartamento: teto/laje, paredes, pontos hidráulicos e elétricos.
+
+## Encaixe das lixeiras — agenda 27/10
+
+[Proposta e formulário](Encaixe_lixeiras.md): afastar Biovis7cm e Loop6cm dos fechamentos do desenho, deixando1cm nominal; produto/rodapé, pedal/tampa, passagem e varal ainda precisam de gabarito. Sem alterar FreeCAD/site. **Pergunta LIX para Elias:** A — aceitar esses avanços e retirada temporária da Loop se demonstrada; B — pedir alternativa mais estreita para preservar posição/rotina, com perda de volume e preço a apresentar. Sem opção adotada; a concessão não substitui a conferência física.
