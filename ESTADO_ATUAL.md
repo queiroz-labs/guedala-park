@@ -37,7 +37,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 75% | T06: [complementos de iluminação](03_Ambientes/Iluminacao/README.md) identificados (+R$57,03); WiZ 127 V diverge da oferta bivolt, SceneSwitch sem ficha vinculada ao SKU; consultas IL01–IL03 preparadas, não enviadas; Kit WiZ identificado, substituição WT1→Shelly conferida (+R$81,75), pulsador 12 V CC condicionado; manuais/lotes, uso no Jurerê, ensaios e levantamento pendentes |
+| Anteprojeto | 75% | T06: [complementos de iluminação](03_Ambientes/Iluminacao/README.md) identificados (+R$57,03); WiZ 127 V diverge da oferta bivolt, SceneSwitch sem ficha vinculada ao SKU; consultas IL01–IL03 preparadas, não enviadas; Kit WiZ identificado, substituição WT1→Shelly conferida (+R$81,75), Tramontina sem comprovação CC, alternativa Wall Switch 1 condicionada; manuais/lotes, uso no Jurerê, ensaios e levantamento pendentes |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
