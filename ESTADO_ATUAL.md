@@ -41,7 +41,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 30% | [Lista de equipamentos](03_Ambientes/Equipamentos/Lista_equipamentos.csv); circuitos, encaixes e retirada com RT/oficina |
 | Especificações | 70% | Caderno gerado a partir dos dados do site |
-| Orçamento | 60% | R44: R$ 137.748,11; excesso R$ 17.748,11. [T07 reconciliada](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenário de iluminação +875,94 ainda não adotado; marcenaria em espera, escopo de cotação atualizado |
+| Orçamento | 60% | R44: R$ 137.748,11; excesso R$ 17.748,11. [T07 reconciliada](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md): cenários A/B preparados com iluminação parcial4.938,62; faseamento da TV pendente, sem adotar metas; cotação em espera |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [173 registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
