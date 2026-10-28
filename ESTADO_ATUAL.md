@@ -105,3 +105,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 **Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R54 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.
 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
+
+**Furação por peça (28/10):** [coordenadas e limites](04_Moveis/Furacao/README.md): 249 IDs, 2.286 posições propostas, 319 faces; parâmetros incompletos explícitos, CAD preservado.

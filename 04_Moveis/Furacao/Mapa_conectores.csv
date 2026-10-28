@@ -1,0 +1,219 @@
+﻿movel;junta;a;b;eixo;contato_mm;conector;quantidade;cavilhas;situacao
+P01;P01-J001;Peca206;Peca208;X;2096.0;Confirmat 7x50;7;7;nominal/proposta
+P01;P01-J002;Peca206;Peca209;X;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J003;Peca206;Peca211;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J004;Peca206;Peca212;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J005;Peca206;Peca213;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J006;Peca206;Peca245;X;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J007;Peca207;Peca208;X;2096.0;Confirmat 7x50;7;7;nominal/proposta
+P01;P01-J008;Peca207;Peca209;X;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J009;Peca207;Peca226;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J010;Peca207;Peca227;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J011;Peca207;Peca228;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J012;Peca207;Peca246;X;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J013;Peca208;Peca209;Y;1964.0;Confirmat 7x50;7;7;nominal/proposta
+P01;P01-J014;Peca208;Peca210;Y;2034.0;Confirmat 7x50;7;7;nominal/proposta
+P01;P01-J015;Peca208;Peca241;Y;1002.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J016;Peca208;Peca242;Y;1002.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J017;Peca208;Peca243;Y;1002.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J018;Peca208;Peca244;Y;1002.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J019;Peca208;Peca245;Y;705.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J020;Peca208;Peca246;Y;705.0;Confirmat 7x50;4;4;nominal/proposta
+P01;P01-J021;Peca209;Peca210;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J022;Peca209;Peca241;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J023;Peca209;Peca242;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J024;Peca209;Peca243;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J025;Peca209;Peca244;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J026;Peca211;Peca241;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J027;Peca212;Peca241;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J028;Peca213;Peca241;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J029;Peca226;Peca244;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J030;Peca227;Peca244;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J031;Peca228;Peca244;X;400.0;Minifix 15;2;2;nominal/proposta
+P01;P01-J032;Peca241;Peca245;Z;550.0;Minifix 15;3;3;nominal/proposta
+P01;P01-J033;Peca244;Peca246;Z;550.0;Minifix 15;3;3;nominal/proposta
+P02;P02-J001;Peca255;LateralApoioPrincipal;Y;272.0;Confirmat 7x50;2;2;nominal/proposta
+P02;P02-J002;Peca256;ApoioPortaBR04;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P02;P02-J003;FaixaQuinaAR04;FaixaQuinaBR04;Y;306.0;Minifix 15;2;2;nominal/proposta
+P03;P03-J001;Peca259;Peca261;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P03;P03-J002;Peca259;Peca262;X;632.0;Minifix 15;3;3;nominal/proposta
+P03;P03-J003;Peca259;Peca263;X;632.0;Minifix 15;3;3;nominal/proposta
+P03;P03-J004;Peca260;Peca261;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P03;P03-J005;Peca260;Peca262;X;632.0;Minifix 15;3;3;nominal/proposta
+P03;P03-J006;Peca260;Peca263;X;632.0;Minifix 15;3;3;nominal/proposta
+P04;P04-J001;Peca266;Peca268;Y;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J002;Peca266;Peca269;Y;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J003;Peca266;Peca270;Y;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J004;Peca267;Peca268;Y;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J005;Peca267;Peca269;Y;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J006;Peca267;Peca270;Y;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J007;Peca267;FaixaFixaEstudo;Y;272.0;Parafuso face a face;4;0;parâmetro a confirmar
+P04;P04-J008;Peca268;ApoioComumR003;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J009;Peca268;ApoioComumR004;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J010;Peca268;ApoioOpostoR001;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J011;Peca268;ApoioOpostoR002;X;272.0;Confirmat 7x50;2;2;nominal/proposta
+P04;P04-J012;Peca269;FaixaFixaEstudo;Z;18.0;Minifix 15;2;2;parâmetro a confirmar
+P04;P04-J013;Peca269;ApoioComumR003;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J014;Peca269;ApoioComumR004;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J015;Peca269;ApoioOpostoR001;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J016;Peca269;ApoioOpostoR002;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J017;Peca270;FaixaFixaEstudo;Z;18.0;Minifix 15;2;2;parâmetro a confirmar
+P04;P04-J018;Peca270;ApoioComumR003;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J019;Peca270;ApoioComumR004;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J020;Peca270;ApoioOpostoR001;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J021;Peca270;ApoioOpostoR002;Z;212.0;Minifix 15;2;2;nominal/proposta
+P04;P04-J022;FaixaFixaEstudo;ApoioOpostoR002;Y;272.0;Parafuso face a face;4;0;parâmetro a confirmar
+P04;P04-J023;ApoioComumR004;ApoioOpostoR001;Y;272.0;Parafuso face a face;4;0;parâmetro a confirmar
+P05;P05-J001;Peca276;Peca278;X;684.0;Confirmat 7x50;3;3;nominal/proposta
+P05;P05-J002;Peca276;Peca279;X;572.0;Minifix 15;3;3;nominal/proposta
+P05;P05-J003;Peca276;Peca280;X;572.0;Minifix 15;3;3;nominal/proposta
+P05;P05-J004;Peca277;Peca278;X;684.0;Confirmat 7x50;3;3;nominal/proposta
+P05;P05-J005;Peca277;Peca279;X;572.0;Minifix 15;3;3;nominal/proposta
+P05;P05-J006;Peca277;Peca280;X;572.0;Minifix 15;3;3;nominal/proposta
+P05;P05-J007;Peca278;Peca280;Y;614.0;Confirmat 7x50;3;3;nominal/proposta
+P06;P06-J001;Peca283;Peca285;X;684.0;Confirmat 7x50;3;3;nominal/proposta
+P06;P06-J002;Peca283;Peca286;X;572.0;Minifix 15;3;3;nominal/proposta
+P06;P06-J003;Peca284;Peca285;X;684.0;Confirmat 7x50;3;3;nominal/proposta
+P06;P06-J004;Peca284;Peca286;X;572.0;Minifix 15;3;3;nominal/proposta
+P07;P07-J001;Peca305;Peca307;X;212.0;Minifix 15;2;2;nominal/proposta
+P07;P07-J002;Peca305;BasePlanaR31;X;535.0;Minifix 15;3;3;nominal/proposta
+P07;P07-J003;Peca305;ApoioDireitoR31;X;505.0;Parafuso face a face;4;0;parâmetro a confirmar
+P07;P07-J004;Peca306;Peca307;X;212.0;Minifix 15;2;2;nominal/proposta
+P07;P07-J005;Peca306;BasePlanaR31;X;535.0;Minifix 15;3;3;nominal/proposta
+P07;P07-J006;Peca306;ApoioEsquerdoR31;X;505.0;Parafuso face a face;4;0;parâmetro a confirmar
+P07;P07-J007;BasePlanaR31;ApoioEsquerdoR31;Z;505.0;Minifix 15;3;3;nominal/proposta
+P07;P07-J008;BasePlanaR31;ApoioCentralR31;Z;505.0;Minifix 15;3;3;nominal/proposta
+P07;P07-J009;BasePlanaR31;ApoioDireitoR31;Z;505.0;Minifix 15;3;3;nominal/proposta
+P09;P09-J001;Peca315;Peca317;X;556.0;Confirmat 7x50;3;3;nominal/proposta
+P09;P09-J002;Peca315;Peca318;X;312.0;Minifix 15;2;2;nominal/proposta
+P09;P09-J003;Peca315;Peca319;X;312.0;Minifix 15;2;2;nominal/proposta
+P09;P09-J004;Peca316;Peca317;X;556.0;Confirmat 7x50;3;3;nominal/proposta
+P09;P09-J005;Peca316;Peca318;X;312.0;Minifix 15;2;2;nominal/proposta
+P09;P09-J006;Peca316;Peca319;X;312.0;Minifix 15;2;2;nominal/proposta
+P09;P09-J007;Peca317;Peca320;Y;556.0;Confirmat 7x50;3;3;nominal/proposta
+P09;P09-J008;Peca318;Peca320;Z;312.0;Minifix 15;2;2;nominal/proposta
+P09;P09-J009;Peca319;Peca320;Z;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J001;Peca324;Peca326;X;982.0;Confirmat 7x50;4;4;nominal/proposta
+P10;P10-J002;Peca324;Peca327;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J003;Peca324;Peca328;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J004;Peca324;Peca329;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J005;Peca324;Peca330;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J006;Peca324;Peca331;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J007;Peca325;Peca326;X;982.0;Confirmat 7x50;4;4;nominal/proposta
+P10;P10-J008;Peca325;Peca327;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J009;Peca325;Peca328;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J010;Peca325;Peca329;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J011;Peca325;Peca330;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J012;Peca325;Peca331;X;312.0;Minifix 15;2;2;nominal/proposta
+P10;P10-J013;Peca326;Peca329;Y;511.0;Confirmat 7x50;3;3;nominal/proposta
+P10;P10-J014;Peca326;Peca330;Y;511.0;Confirmat 7x50;3;3;nominal/proposta
+P10;P10-J015;Peca326;Peca331;Y;511.0;Confirmat 7x50;3;3;nominal/proposta
+P11;P11-J001;Peca334;Peca336;X;574.0;Confirmat 7x50;3;3;nominal/proposta
+P11;P11-J002;Peca334;Peca337;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J003;Peca334;Peca338;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J004;Peca334;Peca339;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J005;Peca335;Peca336;X;574.0;Confirmat 7x50;3;3;nominal/proposta
+P11;P11-J006;Peca335;Peca337;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J007;Peca335;Peca338;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J008;Peca335;Peca339;X;312.0;Minifix 15;2;2;nominal/proposta
+P11;P11-J009;Peca336;Peca339;Y;661.0;Confirmat 7x50;3;3;nominal/proposta
+P12;P12-J001;Peca342;Peca344;X;548.0;Confirmat 7x50;3;3;nominal/proposta
+P12;P12-J002;Peca342;Peca345;X;312.0;Minifix 15;2;2;nominal/proposta
+P12;P12-J003;Peca342;Peca346;X;312.0;Minifix 15;2;2;nominal/proposta
+P12;P12-J004;Peca343;Peca344;X;548.0;Confirmat 7x50;3;3;nominal/proposta
+P12;P12-J005;Peca343;Peca345;X;312.0;Minifix 15;2;2;nominal/proposta
+P12;P12-J006;Peca343;Peca346;X;312.0;Minifix 15;2;2;nominal/proposta
+P12;P12-J007;Peca344;Peca347;Y;548.0;Confirmat 7x50;3;3;nominal/proposta
+P12;P12-J008;Peca345;Peca347;Z;312.0;Minifix 15;2;2;nominal/proposta
+P12;P12-J009;Peca346;Peca347;Z;312.0;Minifix 15;2;2;nominal/proposta
+P14;P14-J001;Peca352;ApoioCestoC01R31;Z;580.0;Minifix 15;3;3;parâmetro a confirmar
+P14;P14-J002;Peca353;ApoioCestoC02R31;Z;580.0;Minifix 15;3;3;parâmetro a confirmar
+P14;P14-J003;PecaCestoR15;PecaCestoR001;Z;554.0;Minifix 15;3;3;nominal/proposta
+P14;P14-J004;PecaCestoR15;ApoioCestoC01R31;X;562.0;Minifix 15;3;3;nominal/proposta
+P14;P14-J005;PecaCestoR15;ApoioCestoC02R31;X;562.0;Minifix 15;3;3;nominal/proposta
+P14;P14-J006;PecaCestoR15;ApoioCestoC03R31;Z;554.0;Minifix 15;3;3;nominal/proposta
+P14;P14-J007;PecaCestoR001;ApoioCestoC01R31;X;80.0;Minifix 15;2;2;parâmetro a confirmar
+P14;P14-J008;PecaCestoR001;ApoioCestoC02R31;X;80.0;Minifix 15;2;2;parâmetro a confirmar
+P14;P14-J009;ApoioCestoC01R31;ApoioCestoC03R31;X;80.0;Minifix 15;2;2;parâmetro a confirmar
+P14;P14-J010;ApoioCestoC02R31;ApoioCestoC03R31;X;80.0;Minifix 15;2;2;parâmetro a confirmar
+P15;P15-J001;Peca359;Peca361;X;544.0;Confirmat 7x50;3;3;nominal/proposta
+P15;P15-J002;Peca359;Peca362;X;312.0;Minifix 15;2;2;nominal/proposta
+P15;P15-J003;Peca359;Peca363;X;312.0;Minifix 15;2;2;nominal/proposta
+P15;P15-J004;Peca360;Peca361;X;544.0;Confirmat 7x50;3;3;nominal/proposta
+P15;P15-J005;Peca360;Peca362;X;312.0;Minifix 15;2;2;nominal/proposta
+P15;P15-J006;Peca360;Peca363;X;312.0;Minifix 15;2;2;nominal/proposta
+P16;P16-J001;Peca367;Peca369;X;204.0;Confirmat 7x50;2;2;nominal/proposta
+P16;P16-J002;Peca367;Peca370;X;412.0;Minifix 15;3;3;nominal/proposta
+P16;P16-J003;Peca367;Peca371;X;412.0;Minifix 15;3;3;nominal/proposta
+P16;P16-J004;Peca368;Peca369;X;204.0;Confirmat 7x50;2;2;nominal/proposta
+P16;P16-J005;Peca368;Peca370;X;412.0;Minifix 15;3;3;nominal/proposta
+P16;P16-J006;Peca368;Peca371;X;412.0;Minifix 15;3;3;nominal/proposta
+P17;P17-J001;Peca384;Peca386;Y;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J002;Peca384;Peca387;Y;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J003;Peca384;Peca388;Y;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J004;Peca385;Peca386;Y;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J005;Peca385;Peca387;Y;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J006;Peca385;Peca388;Y;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J007;Peca386;ApoioComumR11;X;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J008;Peca386;ApoioComumR001;X;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J009;Peca386;ApoioComumR002;X;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J010;Peca386;ApoioOpostoR18;X;514.0;Confirmat 7x50;3;3;nominal/proposta
+P17;P17-J011;Peca387;ApoioComumR11;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J012;Peca387;ApoioComumR001;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J013;Peca387;ApoioComumR002;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J014;Peca387;ApoioOpostoR18;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J015;Peca388;ApoioComumR11;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J016;Peca388;ApoioComumR001;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J017;Peca388;ApoioComumR002;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J018;Peca388;ApoioOpostoR18;Z;312.0;Minifix 15;2;2;nominal/proposta
+P17;P17-J019;ApoioComumR001;ApoioOpostoR18;Y;514.0;Parafuso face a face;4;0;parâmetro a confirmar
+P19;P19-J001;Peca400;Peca402;X;714.0;Confirmat 7x50;4;4;nominal/proposta
+P19;P19-J002;Peca400;Peca403;X;108.0;Minifix 15;2;2;parâmetro a confirmar
+P19;P19-J003;Peca400;Peca404;X;108.0;Minifix 15;2;2;parâmetro a confirmar
+P19;P19-J004;Peca401;Peca402;X;714.0;Confirmat 7x50;4;4;nominal/proposta
+P19;P19-J005;Peca401;Peca403;X;108.0;Minifix 15;2;2;parâmetro a confirmar
+P19;P19-J006;Peca401;Peca404;X;108.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J001;Peca407;Peca408;Y;382.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J002;Peca407;PecaBancoR16;Y;400.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J003;Peca407;PecaBancoR001;Y;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J004;Peca407;Ref_Apoio_B04R31;Y;18.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J005;Peca407;Ref_Sarrafo_frente3R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J006;Peca407;Ref_Sarrafo_tras3R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J007;Peca408;Peca406AtualR31;Y;382.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J008;Peca408;Ref_Apoio_B04R31;Z;1764.0;Confirmat 7x50;7;7;nominal/proposta
+P20;P20-J009;Peca408;Ref_Sarrafo_tras0R31;X;800.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J010;Peca408;Ref_Sarrafo_tras1R31;X;198.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J011;Peca408;Ref_Sarrafo_tras2R31;X;350.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J012;Peca408;Ref_Sarrafo_tras3R31;X;362.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J013;PecaBancoR16;PecaBancoR001;X;362.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J014;PecaBancoR16;PecaBancoR002;X;1384.0;Confirmat 7x50;5;5;nominal/proposta
+P20;P20-J015;PecaBancoR16;PecaBancoR003;X;320.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J016;PecaBancoR16;PecaBancoR004;X;300.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J017;PecaBancoR16;PecaBancoR005;X;300.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J018;PecaBancoR16;Peca406AtualR31;Y;400.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J019;PecaBancoR16;PecaBancoR006AtualR31;X;192.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J020;PecaBancoR16;Ref_Apoio_B01R31;X;80.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J021;PecaBancoR16;Ref_Apoio_B02R31;X;82.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J022;PecaBancoR16;Ref_Apoio_B03R31;X;82.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J023;PecaBancoR16;Ref_Sarrafo_frente1R31;X;198.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J024;PecaBancoR16;Ref_Sarrafo_frente2R31;X;350.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J025;PecaBancoR16;Ref_Sarrafo_frente3R31;X;362.0;Parafuso face a face;4;0;parâmetro a confirmar
+P20;P20-J026;PecaBancoR001;Ref_Apoio_B01R31;Y;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J027;PecaBancoR002;PecaBancoR003;Y;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J028;PecaBancoR002;PecaBancoR004;Z;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J029;PecaBancoR002;PecaBancoR005;Z;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J030;PecaBancoR002;Peca406AtualR31;Y;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J031;PecaBancoR002;PecaBancoR006AtualR31;Z;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J032;PecaBancoR002;Ref_Apoio_B02R31;Z;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J033;PecaBancoR002;Ref_Apoio_B03R31;Z;390.0;Confirmat 7x50;2;2;nominal/proposta
+P20;P20-J034;PecaBancoR003;Ref_Apoio_B01R31;Z;390.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J035;PecaBancoR003;Ref_Sarrafo_frente2R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J036;PecaBancoR003;Ref_Sarrafo_frente3R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J037;PecaBancoR004;Ref_Sarrafo_frente1R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J038;PecaBancoR004;Ref_Sarrafo_frente2R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J039;PecaBancoR005;PecaBancoR007AtualR31;Y;372.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J040;PecaBancoR005;Ref_Sarrafo_frente1R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J041;Peca406AtualR31;PecaBancoR007AtualR31;Y;372.0;Minifix 15;2;2;nominal/proposta
+P20;P20-J042;Peca406AtualR31;Ref_Apoio_B04R31;Y;18.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J043;Peca406AtualR31;Ref_Sarrafo_tras0R31;Y;126.0;Minifix 15;2;2;parâmetro a confirmar
+P20;P20-J044;PecaBancoR007AtualR31;PecaBancoR006AtualR31;Z;372.0;Minifix 15;2;2;nominal/proposta
