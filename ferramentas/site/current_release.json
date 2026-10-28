@@ -674,5 +674,597 @@
         "04_Moveis/Furacao/Horas_alternativa.csv"
       ]
     }
-  ]
+  ],
+  "documentLibrary": {
+    "cards": [
+      {
+        "id": "biblioteca-visao",
+        "title": "Visão do projeto",
+        "category": "Começar",
+        "status": "Atual",
+        "summary": "Entenda o projeto, as escolhas atuais, os custos e os próximos passos.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Projeto e próximos passos",
+            "documents": [
+              "decisoes-vigentes",
+              "avancos-pendencias",
+              "andamento20",
+              "orcamento-r44"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-plantas",
+        "title": "Planta com medidas",
+        "category": "Começar",
+        "status": "Atual",
+        "summary": "Consulte medidas, planta oficial, pisos, rodapés e desenhos em escala.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Medidas e desenhos",
+            "documents": [
+              "planta-cotada",
+              "planta",
+              "pranchas-a3"
+            ]
+          },
+          {
+            "title": "Acabamentos da obra",
+            "documents": [
+              "pisos"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-pacote",
+        "title": "Pacote para baixar",
+        "category": "Começar",
+        "status": "Atual",
+        "summary": "Baixe o conjunto para consultar o projeto e as fichas sem internet.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [],
+        "direct": "pacote-compartilhar"
+      },
+      {
+        "id": "biblioteca-moveis",
+        "title": "Fichas dos 20 móveis",
+        "category": "Móveis",
+        "status": "Atual",
+        "summary": "Abra as fichas, os estudos de cada móvel e os furos previstos por peça.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Consulta geral",
+            "documents": [
+              "fichas",
+              "dossie",
+              "matriz",
+              "cinematica-r52"
+            ]
+          }
+        ],
+        "modules": true
+      },
+      {
+        "id": "biblioteca-conferir",
+        "title": "Antes de fabricar",
+        "category": "Preparar a fabricação",
+        "status": "Pendente",
+        "summary": "Reúna as medidas, os testes e os detalhes que ainda precisam ser conferidos.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "O que conferir",
+            "documents": [
+              "pendencias-r14",
+              "campo",
+              "roteiro-chaves",
+              "dependencias-medidas",
+              "pe-direito"
+            ]
+          },
+          {
+            "title": "Desenhos e preparação",
+            "documents": [
+              "corte-formatos"
+            ]
+          }
+        ],
+        "notes": [
+          "As medidas reais, os pontos de água, gás e energia e os desenhos finais ainda precisam ser conferidos."
+        ]
+      },
+      {
+        "id": "biblioteca-cozinha",
+        "title": "Cozinha",
+        "category": "Por ambiente",
+        "status": "Em estudo",
+        "summary": "Confira cubas, torneiras, forno, lixeiras e os estudos dos armários.",
+        "rooms": [
+          "cozinha"
+        ],
+        "sections": [
+          {
+            "title": "Escolhas e encaixes",
+            "documents": [
+              "ambiente-cozinha",
+              "torneiras",
+              "forno",
+              "lixeiras-r53",
+              "micro-p16-instalacao"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-banheiro",
+        "title": "Banheiro",
+        "category": "Por ambiente",
+        "status": "Em estudo",
+        "summary": "Veja as escolhas, os encaixes e as luzes do banheiro.",
+        "rooms": [
+          "banho"
+        ],
+        "sections": [
+          {
+            "title": "Escolhas e luzes",
+            "documents": [
+              "banheiro-fechamento",
+              "luz-banho",
+              "torneiras"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-sala",
+        "title": "Sala",
+        "category": "Por ambiente",
+        "status": "Em estudo",
+        "summary": "Consulte a mesa extensível, as cadeiras e o banco com baú.",
+        "rooms": [
+          "sala"
+        ],
+        "sections": [
+          {
+            "title": "Mesa e convivência",
+            "documents": [
+              "ambiente-sala",
+              "mesa-varal",
+              "berlin-pedestal"
+            ]
+          },
+          {
+            "title": "Banco com baú",
+            "documents": [
+              "banco-atual",
+              "banco",
+              "kit-p20-p14"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-quarto",
+        "title": "Quarto",
+        "category": "Por ambiente",
+        "status": "Em estudo",
+        "summary": "Confira o guarda-roupa, a cabeceira e os armários do quarto.",
+        "rooms": [
+          "quarto"
+        ],
+        "sections": [
+          {
+            "title": "Organização e móveis",
+            "documents": [
+              "ambiente-quarto",
+              "quarto-roupeiro",
+              "quarto-cabeceira"
+            ]
+          },
+          {
+            "title": "Montagem em estudo",
+            "documents": [
+              "p01-p03-ligacoes",
+              "p03-estudos"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-lavanderia",
+        "title": "Lavanderia",
+        "category": "Por ambiente",
+        "status": "Em estudo",
+        "summary": "Consulte tanque, cesto de roupas, varal e os encaixes com a cozinha.",
+        "rooms": [
+          "lavanderia"
+        ],
+        "sections": [
+          {
+            "title": "Equipamentos e espaço",
+            "documents": [
+              "ambiente-lavanderia",
+              "cesto",
+              "varal",
+              "mesa-varal",
+              "lixeiras-r53",
+              "kit-p20-p14"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-cores",
+        "title": "Cores e acabamentos",
+        "category": "Escolhas para a casa",
+        "status": "Em estudo",
+        "summary": "Compare os tons, o acabamento interno e as amostras da marcenaria.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Tons e amostras",
+            "documents": [
+              "cores-escolhidas",
+              "acabamentos-r13",
+              "marfim-codigo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-tecidos",
+        "title": "Tecidos",
+        "category": "Escolhas para a casa",
+        "status": "Em estudo",
+        "summary": "Veja cortinas, estofados e referências para pedir amostras.",
+        "rooms": [
+          "sala",
+          "quarto",
+          "escritorio"
+        ],
+        "sections": [
+          {
+            "title": "Cortinas e estofados",
+            "documents": [
+              "tecidos-escolhas",
+              "tecidos-codigos"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-luz",
+        "title": "Iluminação",
+        "category": "Escolhas para a casa",
+        "status": "Em estudo",
+        "summary": "Consulte as luzes por ambiente, os preços e a opção econômica do quarto.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Escolhas, preços e imagens",
+            "documents": [
+              "luz-imagens",
+              "luz-quarto",
+              "luz-economica",
+              "luz-banho"
+            ]
+          },
+          {
+            "title": "Composição para conferir",
+            "documents": [
+              "luz-selecao"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-oficina",
+        "title": "Oficina e compras",
+        "category": "Preparar a fabricação",
+        "status": "Pendente",
+        "summary": "Reúna ensaios, conectores, furação e quantidades para pedir orçamento.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Ensaios de oficina",
+            "documents": [
+              "ensaios-oficina",
+              "kit-p20-p14"
+            ]
+          },
+          {
+            "title": "Ferragens e montagem",
+            "documents": [
+              "interfaces",
+              "fixas",
+              "varoes",
+              "minifix",
+              "portas"
+            ]
+          },
+          {
+            "title": "Furação e quantidades",
+            "documents": [
+              "furacao-pecas",
+              "furacao-relatorio",
+              "furacao-quantitativos"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-modelo",
+        "title": "Modelo 3D",
+        "category": "Consultar o modelo",
+        "status": "Atual",
+        "summary": "Baixe o modelo atual do apartamento e veja como abrir e consultar.",
+        "rooms": [
+          "all"
+        ],
+        "sections": [
+          {
+            "title": "Modelo atual",
+            "documents": [
+              "cad",
+              "cad-atual-notas"
+            ]
+          }
+        ]
+      }
+    ],
+    "hiddenHistory": [
+      "southco",
+      "batente",
+      "cad-southco",
+      "cad-r49",
+      "cad-r48",
+      "cad-cores",
+      "cad-purangi",
+      "cad-p19",
+      "purangi"
+    ],
+    "moduleStudies": {
+      "P01": [
+        "p01-p03-ligacoes",
+        "varoes",
+        "gavetas",
+        "portas"
+      ],
+      "P02": [
+        "p01-p03-ligacoes",
+        "portas"
+      ],
+      "P03": [
+        "p01-p03-ligacoes",
+        "p03-estudos",
+        "portas"
+      ],
+      "P04": [
+        "portas"
+      ],
+      "P05": [
+        "torneiras",
+        "portas"
+      ],
+      "P06": [
+        "gavetas",
+        "rodizios-p08"
+      ],
+      "P07": [
+        "forno",
+        "fixas"
+      ],
+      "P08": [
+        "rodizios-p08",
+        "gavetas"
+      ],
+      "P09": [
+        "portas"
+      ],
+      "P10": [
+        "minifix",
+        "portas"
+      ],
+      "P11": [
+        "fixas",
+        "portas"
+      ],
+      "P12": [
+        "suspensao-p12",
+        "portas"
+      ],
+      "P13": [
+        "fixas"
+      ],
+      "P14": [
+        "cesto",
+        "kit-p20-p14"
+      ],
+      "P15": [
+        "fixas"
+      ],
+      "P16": [
+        "gavetas",
+        "movento",
+        "bancada",
+        "micro-p16-instalacao"
+      ],
+      "P17": [
+        "suspensao-p17",
+        "bancada",
+        "portas"
+      ],
+      "P18": [
+        "banheiro-fechamento",
+        "torneiras",
+        "portas"
+      ],
+      "P19": [
+        "espelheiro",
+        "banheiro-fechamento",
+        "portas"
+      ],
+      "P20": [
+        "banco",
+        "banco-atual",
+        "kit-p20-p14",
+        "mesa-varal"
+      ]
+    },
+    "labels": {
+      "dossie": "Guia de montagem e atalhos para as fichas",
+      "cad-atual-notas": "Como abrir o modelo e seus limites",
+      "luz-selecao": "Composição por ambiente — conferir atualização",
+      "cinematica-r52": "Estudo dos movimentos — conferir referência do modelo",
+      "p01-p03-ligacoes": "Guarda-roupa e armários: apoios e ligações",
+      "suspensao-p17": "Armário do escritório: fixação e ligações",
+      "suspensao-p12": "Armário da geladeira: fixação e ligações",
+      "p03-estudos": "Armário sobre o guarda-roupa: portas e apoios",
+      "micro-p16-instalacao": "Micro-ondas e gavetas: encaixes em estudo",
+      "decisoes-vigentes": "Estado atual do projeto",
+      "avancos-pendencias": "Decisões e próximos passos",
+      "corte-formatos": "Corte e formatos de chapa em estudo",
+      "andamento20": "O que falta em cada móvel",
+      "orcamento-r44": "Orçamento e limites da etapa",
+      "lixeiras-r53": "Lixeiras: encaixes e conferências",
+      "kit-p20-p14": "Banco e cesto: preparação dos ensaios",
+      "berlin-pedestal": "Mesa extensível e varal",
+      "cad": "Baixar modelo atual · FreeCAD",
+      "pe-direito": "Alturas dos ambientes a conferir"
+    },
+    "extraDocuments": [
+      {
+        "id": "ambiente-cozinha",
+        "title": "Visão da cozinha",
+        "path": "03_Ambientes/Cozinha/README.md",
+        "rooms": [
+          "cozinha"
+        ],
+        "status": "Em estudo",
+        "summary": "Escolhas e pontos a conferir na cozinha."
+      },
+      {
+        "id": "ambiente-sala",
+        "title": "Visão da sala",
+        "path": "03_Ambientes/Sala_e_jantar/README.md",
+        "rooms": [
+          "sala"
+        ],
+        "status": "Em estudo",
+        "summary": "Organização, móveis e passagens da sala."
+      },
+      {
+        "id": "ambiente-quarto",
+        "title": "Visão do quarto",
+        "path": "03_Ambientes/Quarto_e_portas/README.md",
+        "rooms": [
+          "quarto"
+        ],
+        "status": "Em estudo",
+        "summary": "Organização e móveis do quarto."
+      },
+      {
+        "id": "quarto-roupeiro",
+        "title": "Interior do guarda-roupa",
+        "path": "03_Ambientes/Quarto_e_portas/Guarda_roupa_interior.md",
+        "rooms": [
+          "quarto"
+        ],
+        "status": "Em estudo",
+        "summary": "Divisões e organização do guarda-roupa."
+      },
+      {
+        "id": "quarto-cabeceira",
+        "title": "Cabeceira e armário superior",
+        "path": "03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md",
+        "rooms": [
+          "quarto"
+        ],
+        "status": "Em estudo",
+        "summary": "Organização junto à cama."
+      },
+      {
+        "id": "ambiente-lavanderia",
+        "title": "Visão da lavanderia",
+        "path": "03_Ambientes/Lavanderia/README.md",
+        "rooms": [
+          "lavanderia"
+        ],
+        "status": "Em estudo",
+        "summary": "Tanque, varal e cesto em conjunto."
+      },
+      {
+        "id": "varal",
+        "title": "Varal e espaço para as roupas",
+        "path": "03_Ambientes/Lavanderia/Varal.md",
+        "rooms": [
+          "lavanderia"
+        ],
+        "status": "Em estudo",
+        "summary": "Percurso com roupa e espaço a conferir."
+      },
+      {
+        "id": "roteiro-chaves",
+        "title": "Folha de campo: medidas prioritárias",
+        "path": "07_Imovel/Roteiro_dia_das_chaves_R01.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Pendente",
+        "summary": "Marcos físicos e medidas para o dia das chaves."
+      },
+      {
+        "id": "dependencias-medidas",
+        "title": "Como propagar as medidas reais",
+        "path": "04_Moveis/Dependencias/README.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Pendente",
+        "summary": "Comando, mapeamento físico e limites da regeneração."
+      },
+      {
+        "id": "furacao-relatorio",
+        "title": "Conferência dos furos",
+        "path": "04_Moveis/Furacao/Conferencia.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Pendente",
+        "summary": "Conflitos, acesso de ferramenta e cobertura pendente."
+      },
+      {
+        "id": "furacao-quantitativos",
+        "title": "Fita, ferragens e horas",
+        "path": "04_Moveis/Furacao/Quantitativos.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Cenários nominais para cotação."
+      }
+    ]
+  }
 }

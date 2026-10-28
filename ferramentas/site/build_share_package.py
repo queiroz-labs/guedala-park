@@ -5,6 +5,7 @@ from urllib.parse import urlsplit,unquote,quote
 import hashlib,io,json,posixpath,re,zipfile
 from current_release import ROOT,STUDY,load_release,validate_sources,normalized_payload,canonical_source
 from plain_language import plain_html
+from document_library import selected_sources,PUBLIC_IMOVEL,HOME as LIBRARY_HOME
 FBASE='06_Entregas/Fichas_fabricacao/'
 PBASE='06_Entregas/Planta_cotada/'
 BATH='03_Ambientes/Banheiro/Fechamento_pre_entrega/'
@@ -24,25 +25,32 @@ def source_paths(release):
  paths += [BATH+n for n in ['Fechamento.html','Escolhas.json','Situacao.json','Iluminacao_e_materiais.json','Luminarias_selecao_L02.html','Luminarias_selecao_L02.json','Verificacao_luminarias_L02.json','Hidraulica_cenarios.json','Verificacao_unioes_P19.json','P19_Unioes_nominais.csv','Espelheiro_P19_Unioes_NOMINAIS.FCStd']]
  paths += [LIGHT+n for n in ['Revisao_quarto_CB02.md','Composicao_CB02.json']]+[VISUAL+n for n in ['Galeria.md','01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
  paths += [p for item in release.get('technicalDocuments',[])for p in [item['path']]+item.get('files',[])]
+ paths += selected_sources(release,STUDY)
  paths=list(dict.fromkeys(paths))
  for name in paths:
   p=Path(name)
-  if p.is_absolute()or'..'in p.parts or (name!='07_Imovel/Medidas_e_impactos.csv' and p.parts[0]not in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']):raise ValueError('File outside technical allowlist: '+name)
+  if p.is_absolute()or'..'in p.parts or (name not in PUBLIC_IMOVEL and p.parts[0]not in ['ESTADO_ATUAL.md','01_Programa_e_decisoes','02_Modelo_3D','03_Ambientes','04_Moveis','05_Orcamento_e_cronograma','06_Entregas','09_Referencias','ferramentas']):raise ValueError('File outside technical allowlist: '+name)
   if any(x.lower()in name.lower()for x in ['contrato','reembolso','protocolo','guedala-pessoal','blum_g2_pagina_'])or p.suffix.lower()in ['.msg','.eml']:raise ValueError('Private material excluded: '+name)
   if not(ROOT/name).is_file():raise FileNotFoundError(ROOT/name)
  return paths
 
 def package_payload(release):
  from build_workshop_docs import markdown,page
+ import build_workshop_docs as docs
+ docs.build(export_docs=False)
  paths=source_paths(release);raw={p:(ROOT/p).read_bytes()for p in paths};payload={p:normalized_payload(p,b)for p,b in raw.items()};source_hash={p:hashlib.sha256(b).hexdigest()for p,b in raw.items()};canonical_hash={p:hashlib.sha256(canonical_source(p,b)).hexdigest()for p,b in raw.items()};source_path={p:p for p in paths}
  for p in paths:
   if p.endswith('.md'):
    payload[p+'.html']=page(Path(p).stem,markdown(payload[p].decode('utf-8-sig'))).encode('utf8');source_path[p+'.html']=p
  mapping={p:p+'.html'if p.endswith('.md')else p for p in paths}
+ payload.update({p:content.encode('utf8') for p,content in docs.GENERATED_PAGES.items()})
+ mapping.update({p:p for p in docs.GENERATED_PAGES})
  omissions=[];local_links=[];external_links=[]
  def html_links(src,content):
   def link(m):
    attr,delimiter,url=m.group(1,2,3);parsed=urlsplit(unquote(url))
+   if src in docs.GENERATED_PAGES and url==LIBRARY_HOME:
+    return attr+'='+delimiter+quote(posixpath.relpath(SITE,posixpath.dirname(src)),safe='/')+'?aba=documentos'+delimiter
    if parsed.scheme in ['data','mailto','tel']or url.startswith('#')or not url:return m[0]
    if parsed.scheme in ['http','https']:
     external_links.append(dict(source=src,reference=url));return m[0]

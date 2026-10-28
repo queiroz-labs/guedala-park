@@ -12,7 +12,7 @@ Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechament
 
 A configuração corrente é `current_release.json`: FreeCAD R54, pacote R28, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
 
-T09, 26/10/2026: entradas antigas de consulta R12/R45 encaminham agora às fichas R14 e ao estado atual. [Manifesto e referências ainda divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09). Fontes e artefatos do site preservados; revisão documental não confirma a publicação remota.
+Entradas antigas encaminham às fichas e ao estado atual; [referências divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09).
 
 Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 
@@ -26,37 +26,21 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 Atualização 26/10: biblioteca e fichas P17/P12 apontam para os estudos de suspensão separados, desenhos e requisitos; matriz 20/20 disponível. Pacote R21 inclui esses documentos. Geometria R52 e comprovações físicas continuam conformeEstadoAtual.
 
-**Integração 27/10:** `exportar_cad.py` lê o documento vigente aberto na GUI, sem salvá-lo, e extrai os 20 módulos/249 painéis com eixos e SHA. Fichas R15 incorporam P02/P13; lixeiras no site seguem os deslocamentos R53. Mapas de furação R14 mantêm fontes e condições; produto/oficina e ensaios pendentes. Publicação R24 autorizada por Elias em 27/10/2026: “Pode fazer push e publicar a R53 com as fichas R15 e o pacote R24”; conferência remota em [Entregas](../../06_Entregas/README.md).
+**Integração:**20 módulos/249 painéis com eixos e SHA nas fichas. Produtos, furação, medidas reais e ensaios continuam condicionados; [histórico de publicação](../../06_Entregas/README.md).
 
-## Registros anteriores
+## Verificações anteriores
 
-Histórico; prevalecem a configuração corrente e o estado atual.
+[Luz e contatos](Luz_e_contato/README.md): efeitos aproximados, controles e movimentos preservados. Prevalecem a configuração corrente e os limites atuais.
 
-## Luz e sombras de contato — 17/10/2026
+## Referências da interface
 
-Sala e cozinha receberam comparação **Antes / Depois** na vista 3D, com luz suave e contatos aproximados calculados sobre os móveis atuais. Controles e personalização preservados; configuração visual separada em `src/lighting.js`. [Comparação e conferências](Luz_e_contato/README.md). HTML e artefato Pages regenerados. Publicação da R10 autorizada por Elias em 18/10/2026.
+As revisões anteriores de iluminação, interiores e compatibilização ficam no git. Permanecem os controles de movimentos e as verificações de produtos, medidas, instalações e oficina descritas nas fichas atuais. As autorizações de publicação anteriores não se estendem a alterações locais novas.
 
-## Revisão R09 — cozinha e lavanderia, 27/09/2026
+## Navegação e referências anteriores
 
-Site e moodboard atualizados com as decisões até o aceite do formato quadrado do plafon, condicionado à abertura livre dos aéreos. Fichas, materiais e interiores incluem gavetas 16/16/40 cm, cabos fixos com cabeças retiradas, cesto liso com saco removível, ferragens, pintura fosca, faixa de pedra, tomadas 20 A e três comandos de luz 3000 K. O desenho usa o cenário de bancada 63 cm e módulos 60/65/61,9 cm; aéreos C/D e frente do forno são estudos condicionais identificados nas fichas. Tanque 38 × 35 cm em planta, cesto em corte e chapa única do varal atualizados. Torre, tomada da lavanderia e sua luminária não recebem posições inventadas no 3D. Plafon da cozinha tem eixo transversal conferido; posição longitudinal e cobertura ainda ilustrativas.
+A navegação mantém ambientes, fichas, Materiais e Escolhas, visitas guiadas e controles de movimentos. [Verificação inicial](Verificacao_interface_R08.json): computador/celular, teclado, abas e21 combinações de vistas. Referências anteriores de planta e publicação ficam no histórico do git; prevalecem a configuração corrente e as instruções abaixo.
 
-Nesta rodada, Elias autorizou também publicar todo o trabalho acumulado no repositório. Isso supera as restrições históricas de envio apenas do site/moodboard abaixo. Caches e temporários ficam locais; o artefato Pages permanece restrito aos arquivos do site.
-
-## Navegação reformulada — 26/09/2026
-
-A abertura apresenta o projeto e explica como explorar. Ambientes em cartões com ícones; mudanças de sofá, mesa, cadeiras, escritório, PS5 e varal em botões visuais, mostrados conforme o cômodo. No computador, o desenho permanece ao lado das opções. No celular, os controles ficam abaixo e “Ver no desenho” retorna à cena.
-
-Visita guiada por seis ambientes, cenas “Dia a dia”, “Receber amigos” e “Hospedar”, botão Recomeçar e ajuda acessível a qualquer momento. A abertura não seleciona um móvel automaticamente. Medidas e ajustes ficam em seções expansíveis. Cores e materiais e Escolhas continuam disponíveis no menu.
-
-Fichas da lavanderia atualizadas com tanque 38 × 35 × 20 cm úteis, cesto basculante removível 45 × 25 × 45 cm, Telca Flex preta e escoamento posterior com tampão/retentor removíveis. O percurso ilustrativo do varal é vertical; posições, alturas, fixações e encaixes continuam para conferência. Não foi produzido detalhamento executivo em 3D.
-
-Verificação: [registro R08](Verificacao_interface_R08.json), incluindo 21 combinações de ambientes/vistas, tour completo, controles, fichas, teclado, abas e tamanhos de computador/celular. As seções abaixo descrevem a base geométrica e recursos mantidos; a experiência inicial e os seletores foram substituídos pela R08.
-
-18/09/2026 · Navegação 3D com profundidade por pixel, transições animadas de estados, consulta aos interiores e decisões do banheiro/pisos incorporadas. O estudo mantém medidas e percursos hidráulicos pendentes identificados.
-
-**GitHub Pages:** [site](https://queiroz-labs.github.io/guedala-park/) · [moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/). O [registro inicial de publicação](Publicacao_GitHub_Pages.md) descreve uma etapa histórica; a autorização foi ampliada em 27/09, como registrado acima. A publicação da R10 de iluminação foi autorizada em 18/10/2026. Um push para `main` aciona a publicação automática do site e moodboard.
-
-[Abrir o apartamento](Guedala_Park_Interativo.html) · [Moodboard com medidas](../../09_Referencias/Moodboard_atualizado_R01.html) · [Painel visual atualizado](../../09_Referencias/Moodboard_visual_atualizado_R01.png) · [Resumo do projeto](../../ESTADO_ATUAL.md)
+[Apartamento](Guedala_Park_Interativo.html) · [Moodboard](../../09_Referencias/Moodboard_atualizado_R01.html) · [Estado atual](../../ESTADO_ATUAL.md).
 
 ## Como usar
 
@@ -121,3 +105,20 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 [Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. R27 atualiza HTML/especificações; R26 preservado. Elias, 28/10/2026: "Aprovado, pode commitar e dar push."
 
 Sincronia documental: entrada `furacao-pecas` incluída nos três artefatos versionados. Regerar com `python -B ferramentas/site/construir.py`; `verificar_site.py` deve preservar seus bytes.
+
+## Documentos por intenção
+
+**15 cartões**, definidos em `current_release.json → documentLibrary`:3 para começar,1 de móveis,1 antes de fabricar,5 ambientes,3 de escolhas,1 oficina/compras e1 modelo. Arquitetura fica em Planta com medidas; ensaios e ferragens ficam em Oficina e compras. Essas duas junções reduzem os17 cartões da estrutura sugerida para15 sem retirar conteúdo vigente.
+
+[Antes → depois das88 entradas](Documentos_antes_depois.csv). A fonte anterior tinha88 entradas,65 visíveis e23 internas. Três entradas sem arquivo viraram pendências em Antes de fabricar. Nove referências de histórico/estudos antigos ficam fora da lista pública, preservadas no repositório e nos vínculos existentes. Nenhum documento foi movido ou apagado. O catálogo técnico permanece separado dos cartões.
+
+`document_library.py` gera14 páginas de agrupamento no build, nos mesmos tons, fontes e links do site; o15º acesso baixa o ZIP. O índice dos móveis reúne Estudos deste móvel para os20 módulos e furação por peça, sem alterar fichas, dimensões ou arquivos técnicos. As duas referências de mesa/varal apontam para uma única entrada por agrupamento. A busca consulta também os subitens; status dos cartões: Atual, Em estudo ou Pendente. No pacote extraído, o cartão do ZIP abre seu índice, sem tentar baixar o próprio arquivo.
+
+As páginas geradas entram tanto em docs/ do preview quanto no pacote offline, com a mesma seleção explícita de fontes. Não escrever HTML à mão em .site/. Regerar: `python -B ferramentas/site/build_workshop_docs.py --sources-only` e `python -B ferramentas/site/construir.py`. Testes: `python -B ferramentas/site/test_document_library.py`, `node ferramentas/site/test_document_library.cjs` e `python -B ferramentas/verificar_site.py`. Os testes conferem88 destinos,15 cartões,20 móveis, links dos grupos, busca, filtros e navegação offline. ZIPs selados não são sobrescritos; o verificador usa uma reconstrução temporária. Nada nesta alteração autoriza publicação.
+
+**Perguntas para Elias — documentos a reconciliar, sem alterar as fontes:**
+
+- Guia de montagem: o arquivo ainda se chama Dossie_marcenaria_R45, mas seu conteúdo é um índice das fichas atuais. Manter esse atalho de compatibilidade? Continua dentro de Fichas dos20 móveis.
+- A composição de iluminação CB01 se declara histórica comparativa e encaminha à opção econômica. Manter a comparação dentro de Iluminação ou apontar somente para a seleção atual? Sua função comparativa é indicada no link.
+- O estudo de movimentos está vinculado à R52, enquanto o modelo atual é R54. Manter como referência numérica separada? Continua dentro das fichas, identificado como referência a conferir.
+- O estado atual chama a composição de luz do banheiro L02 de histórica. Ela ainda é a referência de componentes/preços, ou há outra composição vigente? O link permanece no Banheiro e em Iluminação, sem tratar preço antigo como cotação atual.

@@ -1,0 +1,89 @@
+id;antes;depois
+dossie;Guia de montagem;Fichas dos 20 móveis → Consulta geral
+pacote-compartilhar;Pacote R28 · pacote de consulta;Pacote para baixar
+matriz;Medidas dos 20 móveis;Fichas dos 20 móveis → Consulta geral
+interfaces;Como unir as peças;Oficina e compras → Ferragens e montagem
+fixas;Conectores e suportes dos armários;Fichas dos 20 móveis → P07 → Estudos deste móvel / Fichas dos 20 móveis → P11 → Estudos deste móvel / Fichas dos 20 móveis → P13 → Estudos deste móvel / Fichas dos 20 móveis → P15 → Estudos deste móvel / Oficina e compras → Ferragens e montagem
+varoes;Cabideiros do guarda-roupa;Fichas dos 20 móveis → P01 → Estudos deste móvel / Oficina e compras → Ferragens e montagem
+bancada;Apoios da bancada do escritório;Fichas dos 20 móveis → P16 → Estudos deste móvel / Fichas dos 20 móveis → P17 → Estudos deste móvel
+minifix;Conectores do armário sobre a pia;Fichas dos 20 móveis → P10 → Estudos deste móvel / Oficina e compras → Ferragens e montagem
+espelheiro;Prateleiras do armário com espelho;Fichas dos 20 móveis → P19 → Estudos deste móvel
+gavetas;Montagem das gavetas;Fichas dos 20 móveis → P01 → Estudos deste móvel / Fichas dos 20 móveis → P06 → Estudos deste móvel / Fichas dos 20 móveis → P08 → Estudos deste móvel / Fichas dos 20 móveis → P16 → Estudos deste móvel
+rodizios-p08;Rodas da gaveta de limpeza;Fichas dos 20 móveis → P06 → Estudos deste móvel / Fichas dos 20 móveis → P08 → Estudos deste móvel
+banheiro-fechamento;Escolhas do banheiro;Fichas dos 20 móveis → P18 → Estudos deste móvel / Fichas dos 20 móveis → P19 → Estudos deste móvel / Banheiro → Escolhas e luzes
+cad-p19;Modelo de estudo do armário com espelho;oculto: histórico
+luz-banho;Luzes do banheiro e preços;Banheiro → Escolhas e luzes / Iluminação → Escolhas, preços e imagens
+movento;Corrediças MOVENTO para as gavetas;Fichas dos 20 móveis → P16 → Estudos deste móvel
+portas;Abertura de portas e tampas;Fichas dos 20 móveis → P01 → Estudos deste móvel / Fichas dos 20 móveis → P02 → Estudos deste móvel / Fichas dos 20 móveis → P03 → Estudos deste móvel / Fichas dos 20 móveis → P04 → Estudos deste móvel / Fichas dos 20 móveis → P05 → Estudos deste móvel / Fichas dos 20 móveis → P09 → Estudos deste móvel / Fichas dos 20 móveis → P10 → Estudos deste móvel / Fichas dos 20 móveis → P11 → Estudos deste móvel / Fichas dos 20 móveis → P12 → Estudos deste móvel / Fichas dos 20 móveis → P17 → Estudos deste móvel / Fichas dos 20 móveis → P18 → Estudos deste móvel / Fichas dos 20 móveis → P19 → Estudos deste móvel / Oficina e compras → Ferragens e montagem
+cesto;Abertura do cesto de roupas;Fichas dos 20 móveis → P14 → Estudos deste móvel / Lavanderia → Equipamentos e espaço
+mesa-varal;Mesa extensível e varal;Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Mesa e convivência / Lavanderia → Equipamentos e espaço
+banco;Estrutura do banco com baú;Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Banco com baú
+southco;Alternativa de dobradiça para o banco;oculto: histórico
+batente;Limite de abertura do banco;oculto: histórico
+torneiras;Encaixe das cubas e torneiras;Fichas dos 20 móveis → P05 → Estudos deste móvel / Fichas dos 20 móveis → P18 → Estudos deste móvel / Cozinha → Escolhas e encaixes / Banheiro → Escolhas e luzes
+purangi;Torneira Purangi · opção em estudo;oculto: histórico
+forno;Apoios e ventilação do forno;Fichas dos 20 móveis → P07 → Estudos deste móvel / Cozinha → Escolhas e encaixes
+cad;FreeCAD R54 · modelo atual;Modelo 3D → Modelo atual
+cad-atual-notas;O que mudou na R54;Modelo 3D → Modelo atual
+cad-r49;O que mudou na R49;oculto: histórico
+cad-r48;Depurador sem canal de duto;oculto: histórico
+cad-cores;Cores do modelo 3D;oculto: histórico
+cad-southco;Modelo da alternativa Southco;oculto: histórico
+cad-purangi;Modelo de estudo da torneira Purangi;oculto: histórico
+executivo;Desenhos e medidas antes de fabricar;"Antes de fabricar → pendência incorporada; sem cartão ou link vazio"
+planta;Planta oficial do apartamento;Planta com medidas → Medidas e desenhos
+pisos;Pisos e rodapés;Planta com medidas → Acabamentos da obra
+luz-quarto;Luzes do quarto;Iluminação → Escolhas, preços e imagens
+luz-economica;Luzes do quarto · opção econômica;Iluminação → Escolhas, preços e imagens
+luz-imagens;Luminárias nos ambientes;Iluminação → Escolhas, preços e imagens
+luz-selecao;Iluminação: composição e pendências;Iluminação → Composição para conferir
+tecidos-escolhas;Cortinas e estofados escolhidos;Tecidos → Cortinas e estofados
+tecidos-codigos;Tecidos: códigos para amostra;Tecidos → Cortinas e estofados
+cores-escolhidas;Tons escolhidos para a marcenaria;Cores e acabamentos → Tons e amostras
+marfim-codigo;Marfim do escritório: amostra comercial;Cores e acabamentos → Tons e amostras
+instalacoes;Água, gás, tomadas e ventilação;"Antes de fabricar → pendência incorporada; sem cartão ou link vazio"
+levantamento;O que medir antes de fabricar;"Antes de fabricar → pendência incorporada; sem cartão ou link vazio"
+acabamentos-r13;Acabamento interno dos armários;Cores e acabamentos → Tons e amostras
+planta-cotada;Planta com medidas;Planta com medidas → Medidas e desenhos
+banco-atual;Banco com baú: assento e apoios;Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Banco com baú
+pe-direito;Pé-direito: cômodos 2,60 m. Banheiro 2,50 m;Antes de fabricar → O que conferir
+avancos-pendencias;Avanços e pendências após a revisão integral;Visão do projeto → Projeto e próximos passos
+corte-formatos;Corte preliminar e formatos de chapa;Antes de fabricar → Desenhos e preparação
+p01-p03-ligacoes;P01/P03: caixa, apoios e ligações;Fichas dos 20 móveis → P01 → Estudos deste móvel / Fichas dos 20 móveis → P02 → Estudos deste móvel / Fichas dos 20 móveis → P03 → Estudos deste móvel / Quarto → Montagem em estudo
+micro-p16-instalacao;Instalação: micro-ondas e união entre peças das gavetas;Fichas dos 20 móveis → P16 → Estudos deste móvel / Cozinha → Escolhas e encaixes
+cinematica-r52;Forma de abertura consultável da R52;Fichas dos 20 móveis → Consulta geral
+andamento20;Andamento dos 20 moveis;Visão do projeto → Projeto e próximos passos
+suspensao-p17;P17 · suspensao em estudo;Fichas dos 20 móveis → P17 → Estudos deste móvel
+suspensao-p12;P12 · suspensao em estudo;Fichas dos 20 móveis → P12 → Estudos deste móvel
+p03-estudos;P03: portas, malas, caixa e ligações — estudos condicionais;Fichas dos 20 móveis → P03 → Estudos deste móvel / Quarto → Montagem em estudo
+decisoes-vigentes;Estado vigente e decisoes;Visão do projeto → Projeto e próximos passos
+lixeiras-r53;Lixeiras: implantacao nominal R53;Cozinha → Escolhas e encaixes / Lavanderia → Equipamentos e espaço
+orcamento-r44;Orcamento: manter TV nesta etapa;Visão do projeto → Projeto e próximos passos
+kit-p20-p14;Banco e cesto: preparacao de oficina;Fichas dos 20 móveis → P14 → Estudos deste móvel / Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Banco com baú / Lavanderia → Equipamentos e espaço / Oficina e compras → Ensaios de oficina
+pranchas-a3;Plantas e elevações · caderno A3;Planta com medidas → Medidas e desenhos
+berlin-pedestal;Mesa Berlin: pedestal e cadeira lateral;Sala → Mesa e convivência
+ensaios-oficina;Ensaios de oficina;Oficina e compras → Ensaios de oficina
+furacao-pecas;Furos previstos no projeto por peça;Oficina e compras → Furação e quantidades
+fichas;Fichas dos 20 móveis;Fichas dos 20 móveis → Consulta geral
+pendencias-r14;O que falta conferir;Antes de fabricar → O que conferir
+campo;Folha para medir o apartamento;Antes de fabricar → O que conferir
+ficha-P01;P01 · Guarda-roupa;Fichas dos 20 móveis → P01
+ficha-P02;P02 · Armário de canto do quarto;Fichas dos 20 móveis → P02
+ficha-P03;P03 · Armário sobre o guarda-roupa;Fichas dos 20 móveis → P03
+ficha-P04;P04 · Armário sobre a cabeceira;Fichas dos 20 móveis → P04
+ficha-P05;P05 · Gabinete da pia;Fichas dos 20 móveis → P05
+ficha-P06;P06 · Três gavetas da cozinha;Fichas dos 20 móveis → P06
+ficha-P07;P07 · Móvel do forno e cooktop;Fichas dos 20 móveis → P07
+ficha-P08;P08 · Gaveta de limpeza;Fichas dos 20 móveis → P08
+ficha-P09;P09 · Armário superior D · depurador;Fichas dos 20 móveis → P09
+ficha-P10;P10 · Armário superior C · pia;Fichas dos 20 móveis → P10
+ficha-P11;P11 · Armário superior B · micro-ondas;Fichas dos 20 móveis → P11
+ficha-P12;P12 · Armário superior A · geladeira;Fichas dos 20 móveis → P12
+ficha-P13;P13 · Prateleira do micro-ondas;Fichas dos 20 móveis → P13
+ficha-P14;P14 · Tanque e cesto de roupas;Fichas dos 20 móveis → P14
+ficha-P15;P15 · Armário superior da lavanderia;Fichas dos 20 móveis → P15
+ficha-P16;P16 · Gavetas do escritório;Fichas dos 20 móveis → P16
+ficha-P17;P17 · Armário superior do escritório;Fichas dos 20 móveis → P17
+ficha-P18;P18 · Gabinete do banheiro;Fichas dos 20 móveis → P18
+ficha-P19;P19 · Armário com espelho;Fichas dos 20 móveis → P19
+ficha-P20;P20 · Banco com baú;Fichas dos 20 móveis → P20

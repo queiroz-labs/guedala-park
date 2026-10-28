@@ -15,7 +15,7 @@ PY = sys.executable
 NODE = shutil.which('node')
 
 TESTES_NODE = ['test_orientation.cjs', 'test_scene_revision.cjs', 'test_lighting.cjs',
-               'test_part_groups_ui.cjs', 'test_storage.cjs']
+               'test_part_groups_ui.cjs', 'test_storage.cjs', 'test_document_library.cjs']
 
 
 def passo(nome, cmd, env=None):
@@ -48,6 +48,7 @@ def main():
     for t in TESTES_NODE:
         ok &= passo(t, [NODE, str(SITE / t)])
     ok &= passo('test_part_groups.py', [PY, '-B', str(SITE / 'test_part_groups.py')])
+    ok &= passo('test_document_library.py', [PY, '-B', str(SITE / 'test_document_library.py')])
     tmp = Path(tempfile.mkdtemp(prefix='gp_site_'))
     antes = git('status', '--porcelain')
     guardados = []

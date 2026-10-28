@@ -6,7 +6,8 @@ são publicados em .site/docs. Links locais fora da seleção ficam sem navegaç
 from pathlib import Path
 from html import escape
 from urllib.parse import urlsplit, unquote, quote
-import json, re, shutil, posixpath, runpy
+import json, re, shutil, posixpath, runpy, copy
+from document_library import configure as configure_library, HOME as LIBRARY_HOME
 from current_release import load_release
 RELEASE = load_release()
 
@@ -26,6 +27,7 @@ FABRICS = '09_Referencias/Cortinas_estofados/'
 FINISHES = '09_Referencias/Tons_marcenaria/'
 DOCS = []
 FABRICATION = {}
+GENERATED_PAGES = {}
 def doc(id, title, category, rooms, status, summary, path):
     DOCS.append(dict(id=id,title=title,category=category,rooms=rooms.split(','),status=status,summary=summary,path=path))
 
@@ -190,8 +192,9 @@ def markdown(text):
     return '\n'.join(out)
 
 def write_if_changed(path,content):
-    if path.exists() and path.read_text(encoding='utf8')==content:return False
-    path.write_text(content,encoding='utf8');return True
+    data=content.replace('\r\n','\n').encode('utf8')
+    if path.exists() and path.read_bytes()==data:return False
+    path.write_bytes(data);return True
 
 
 def write_sources():
@@ -212,6 +215,9 @@ def write_sources():
         guidance[code]['documentIds'].append('suspensao-'+code.lower())
         guidance[code]['hardware'].append('Suspensão compacta candidata: implantação nominal; ferragem, fixadores e capacidade ainda em qualificação.')
         guidance[code]['pending'].insert(0,'Conferir ferramenta do auxiliar traseiro, juntas/rigidez da caixa e contato inferior; executar qualificação física antes de adotar a suspensão.')
+    config=RELEASE['documentLibrary']
+    for code,g in guidance.items():
+        g['documentIds']=list(dict.fromkeys(['ficha-'+code]+config['moduleStudies'][code]+['furacao-pecas','acabamentos-r13']))
     guidance = plain_data(guidance)
     write_if_changed(STUDY/'src/workshop-docs.js','/* Fontes explícitas. Conferir as medidas antes de fabricar. */\nconst WORKSHOP_DOCS = '+json.dumps(DOCS,ensure_ascii=False,separators=(',',':'))+';\nconst MODULE_GUIDANCE = '+json.dumps(guidance,ensure_ascii=False,indent=2)+';\nfunction WORKSHOP_DOC_URL(doc){return doc.path ? "docs/"+doc.path+(doc.path.endsWith(".md") ? ".html" : "") : null;}\n')
     body='<h1>Guia do montador</h1><p>Modelo '+escape(RELEASE['cadRevision'])+'; consultar fichas e condições atuais antes da fabricação.</p>'
@@ -221,8 +227,14 @@ def write_sources():
             body+='<section id="'+code+'"><h3><a href="Fichas_fabricacao/'+code+'.html">'+code+' · '+escape(f['name'])+'</a></h3><p>'+escape(f['finishSummary'])+'</p><p>'+str(len(f['panels']))+' peças com medidas nominais. Fechamentos técnicos na ficha; condições físicas do apartamento na folha de levantamento.</p></section>'
     write_if_changed(ROOT/'06_Entregas/Dossie_marcenaria_R45.html',page('Guedala Park · guia do montador',body))
 
+BASE_DOCS=copy.deepcopy(DOCS)
+BASE_ASSETS=list(ASSETS)
+
+
 def build(target=None, regenerate=False, build_package=False, export_docs=True):
-    global FABRICATION
+    global FABRICATION,GENERATED_PAGES
+    DOCS[:]=copy.deepcopy(BASE_DOCS)
+    ASSETS[:]=BASE_ASSETS
     if export_docs and target is None and (ROOT/'.site/docs').exists() and any((ROOT/'.site/docs').iterdir()):
         raise FileExistsError('Existing .site/docs preserved. Choose --output-dir or --sources-only.')
     from plain_language import plain_data, plain_html, document_intro, DOCUMENT_COPY, public_document
@@ -253,28 +265,32 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
         public_document(d)
     for d in DOCS:
         if d.get('path'):d['available']=d['id']=='pacote-compartilhar' or (ROOT/d['path']).is_file()
+    GENERATED_PAGES,migration,_=configure_library(DOCS,RELEASE,FABRICATION,ROOT,page)
+    write_if_changed(STUDY/'Documentos_antes_depois.csv',migration)
     write_sources()
     if not export_docs:return dict(modules=20,documents=len(DOCS),exported=False)
-    mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path']}
+    mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path'] and not d.get('generated')}
     mapping.update({p:p for p in ASSETS})
     missing_sources=[src for src in mapping if not(ROOT/src).is_file()]
     mapping={src:dst for src,dst in mapping.items()if(ROOT/src).is_file()}
+    mapping.update({p:p for p in GENERATED_PAGES})
     materialized=set(mapping.values())
     document_by_path = {d['path']:d for d in DOCS if d.get('path')}
     target=Path(target)if target else ROOT/'.site/docs'
     published=[]; omitted=[dict(source=src,reference=src,reason='Historical source not present locally; excluded from artifact')for src in missing_sources]
     for src, dst in mapping.items():
         source=ROOT/src
-        if not source.is_file():
+        if not source.is_file() and src not in GENERATED_PAGES:
             omitted.append(dict(source=src,reference=src,reason='Historical source not present locally; no archive extracted'))
             continue
         dest=target/dst; dest.parent.mkdir(parents=True,exist_ok=True)
         if source.suffix.lower() in ['.md','.html']:
-            content=source.read_text(encoding='utf-8')
+            content=GENERATED_PAGES[src] if src in GENERATED_PAGES else source.read_text(encoding='utf-8')
             if source.suffix=='.md': content=page(source.stem,markdown(content))
             def local_link(m):
                 attr,delimiter,url=m.group(1,2,3)
                 parsed=urlsplit(unquote(url))
+                if src in GENERATED_PAGES and url==LIBRARY_HOME:return m[0]
                 if parsed.scheme in ['http','https','mailto','data'] or url.startswith('#'): return m[0]
                 resolved=posixpath.normpath(posixpath.join(posixpath.dirname(src),parsed.path))
                 if resolved in mapping or resolved in materialized:

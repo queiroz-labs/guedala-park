@@ -30,3 +30,6 @@
 .fab-parts .fab-part-qty{font-size:14px;text-align:center;vertical-align:top}.fab-part-members{white-space:normal;min-width:125px}.fab-part-members summary{cursor:pointer;font-size:10px;padding:7px 0;min-height:32px}.fab-part-members ul{list-style:none;padding:0;margin:0}.fab-part-members button{overflow-wrap:anywhere}.fab-parts td:first-child>small{white-space:normal;max-width:170px}
 
 .storage-view-controls{display:flex;gap:8px;margin:18px 0 10px}.storage-view-controls [aria-pressed=true]{background:var(--ink);color:white}.storage-preview-wrap{position:relative;background:#eeece3;border:1px solid var(--line);border-radius:10px;overflow:hidden}.storage-preview-wrap canvas{display:block;width:100%;height:clamp(280px,52vh,480px)}.storage-preview-wrap p{position:absolute;inset:40% 12px auto;text-align:center;background:var(--card);padding:12px}.storage-preview-wrap p[hidden]{display:none}
+
+/* Biblioteca: resumo visível e navegação por intenção, nos mesmos tokens do site. */
+.work-doc{display:flex;flex-direction:column;align-items:flex-start}.work-doc h2{margin-top:0;text-wrap:balance}.work-doc .work-doc-summary{font-size:13px;line-height:1.55;margin:14px 0;flex:1}.work-doc>a{min-height:32px;padding:6px 0;margin-top:auto}.work-doc>a:focus-visible{outline:2px solid var(--ink);outline-offset:4px}.work-library h1{text-wrap:balance}
