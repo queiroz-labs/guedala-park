@@ -61,4 +61,4 @@ O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, s
 
 **Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.
 
-O roteiro inclui criticidade e limiar geométrico por código (532 do índice+14 canais auxiliares), separados da tolerância de obra. Após medir: `python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`. Saída externa; caixas fixas e pendências preservadas. [Ranking e limites](../04_Moveis/Dependencias/README.md).
+A folha de campo contém 15 verificações físicas e comando único; 546 códigos foram para CSV em Dependencias. Coordenadas sem datum físico estão marcadas descrição pendente. [Mapeamento](../04_Moveis/Dependencias/Descricao_fisica.csv).

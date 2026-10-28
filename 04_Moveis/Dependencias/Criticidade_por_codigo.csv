@@ -1,0 +1,547 @@
+﻿codigo_medida;criticidade_anterior;limiar_anterior;tolerancia_obra
+CAMPO-COZ-ESQUADRO;alta;aumentar >0 grau;pendente
+PR-FLOORS-10-X;alta;aumentar >0 mm;pendente
+DEP-COZ-PRUMO;alta;aumentar >0 mm;pendente
+DIM-07;alta;reduzir >0 mm (DIM-07/1);pendente
+PR-FLOORS-00-X;média;aumentar >10 mm;pendente
+PR-FLOORS-08-Y;alta;reduzir >0 mm;pendente
+CAMPO-QUA-ESQUADRO;média;aumentar >0.286477 grau;pendente
+DIM-05;alta;reduzir >0 mm (DIM-05/0);pendente
+CAMPO-BAN-ESQUADRO;alta;aumentar >0 grau;pendente
+CAMPO-LAV-ESQUADRO;alta;aumentar >0 grau;pendente
+PR-FLOORS-03-Y;alta;aumentar >0 mm;pendente
+PR-FLOORS-03-X;alta;aumentar >0 mm;pendente
+PR-FLOORS-08-X;alta;aumentar >0 mm;pendente
+PR-FLOORS-11-X;alta;reduzir >0 mm;pendente
+DIM-01;média;reduzir >10 mm (DIM-01/1);pendente
+PR-FLOORS-11-Y;alta;reduzir >0 mm;pendente
+PR-FLOORS-10-Y;alta;reduzir >0 mm;pendente
+PR-FLOORS-00-Y;média;reduzir >10 mm;pendente
+DIM-06;alta;reduzir >0 mm (DIM-06/1);pendente
+CAMPO-COZ-PISO;revisão de referência;aumentar >50 mm;pendente
+PD-COZ;revisão de referência;reduzir >50 mm;pendente
+PR-PONTO-C02-X;revisão de referência;não quantificado;pendente
+PR-PONTO-C02-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-C02-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-C05-X;revisão de referência;não quantificado;pendente
+PR-PONTO-C05-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-C05-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-C06-X;revisão de referência;não quantificado;pendente
+PR-PONTO-C06-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-C06-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-C07-X;revisão de referência;não quantificado;pendente
+PR-PONTO-C07-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-C07-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-C11-X;revisão de referência;não quantificado;pendente
+PR-PONTO-C11-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-C11-Z;revisão de referência;não quantificado;pendente
+PR-PORTA-4-X;revisão de referência;não quantificado;pendente
+PR-PORTA-4-Y;revisão de referência;não quantificado;pendente
+PR-PORTA-4-Z;revisão de referência;não quantificado;pendente
+CAMPO-QUA-PISO;revisão de referência;aumentar >160 mm;pendente
+PD-QUA;revisão de referência;reduzir >160 mm;pendente
+PR-JANELA-1-X;revisão de referência;não quantificado;pendente
+PR-JANELA-1-Y;revisão de referência;não quantificado;pendente
+PR-JANELA-1-Z;revisão de referência;não quantificado;pendente
+PR-PORTA-2-X;revisão de referência;não quantificado;pendente
+PR-PORTA-2-Y;revisão de referência;não quantificado;pendente
+PR-PORTA-2-Z;revisão de referência;não quantificado;pendente
+CAMPO-ESC-ESQUADRO;revisão de referência;aumentar >8.1301 grau;pendente
+CAMPO-ESC-PISO;revisão de referência;aumentar >150 mm;pendente
+DIM-02;revisão de referência;reduzir >50 mm (DIM-02/1);pendente
+PD-ESC;revisão de referência;reduzir >150 mm;pendente
+PR-JANELA-2-X;revisão de referência;não quantificado;pendente
+PR-JANELA-2-Y;revisão de referência;não quantificado;pendente
+PR-JANELA-2-Z;revisão de referência;não quantificado;pendente
+PR-PORTA-1-X;revisão de referência;não quantificado;pendente
+PR-PORTA-1-Y;revisão de referência;não quantificado;pendente
+PR-PORTA-1-Z;revisão de referência;não quantificado;pendente
+CAMPO-SAL-ESQUADRO;revisão de referência;aumentar >3.17983 grau;pendente
+CAMPO-SAL-PISO;revisão de referência;aumentar >2200 mm;pendente
+DIM-03;revisão de referência;reduzir >100 mm (DIM-03/0);pendente
+PD-SAL;revisão de referência;reduzir >2200 mm;pendente
+PR-FLOORS-04-D;revisão de referência;reduzir >100 mm;pendente
+PR-FLOORS-04-X;revisão de referência;reduzir >100 mm;pendente
+PR-FLOORS-04-Y;revisão de referência;reduzir >100 mm;pendente
+PR-JANELA-3-X;revisão de referência;não quantificado;pendente
+PR-JANELA-3-Y;revisão de referência;não quantificado;pendente
+PR-JANELA-3-Z;revisão de referência;não quantificado;pendente
+CAMPO-BAN-PISO;revisão de referência;aumentar >600 mm;pendente
+PD-BAN;revisão de referência;reduzir >600 mm;pendente
+PR-JANELA-5-X;revisão de referência;não quantificado;pendente
+PR-JANELA-5-Y;revisão de referência;não quantificado;pendente
+PR-JANELA-5-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B01-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B01-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B01-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B02-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B02-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B02-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B03-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B03-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B03-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B04-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B04-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B04-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B05-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B05-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B05-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B06-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B06-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B06-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B07-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B07-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B07-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-B08-X;revisão de referência;não quantificado;pendente
+PR-PONTO-B08-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-B08-Z;revisão de referência;não quantificado;pendente
+PR-PORTA-3-X;revisão de referência;não quantificado;pendente
+PR-PORTA-3-Y;revisão de referência;não quantificado;pendente
+PR-PORTA-3-Z;revisão de referência;não quantificado;pendente
+CAMPO-LAV-PISO;revisão de referência;aumentar >370 mm;pendente
+PD-LAV;revisão de referência;reduzir >370 mm;pendente
+PR-JANELA-4-X;revisão de referência;não quantificado;pendente
+PR-JANELA-4-Y;revisão de referência;não quantificado;pendente
+PR-JANELA-4-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L02-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L02-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L02-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L03-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L03-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L03-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L04-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L04-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L04-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L05-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L05-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L05-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L06-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L06-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L06-Z;revisão de referência;não quantificado;pendente
+PR-PONTO-L09-X;revisão de referência;não quantificado;pendente
+PR-PONTO-L09-Y;revisão de referência;não quantificado;pendente
+PR-PONTO-L09-Z;revisão de referência;não quantificado;pendente
+A1-01;sem equação;não quantificado;pendente
+A1-02;sem equação;não quantificado;pendente
+A1-03;sem equação;não quantificado;pendente
+A1-04;sem equação;não quantificado;pendente
+A1-05;sem equação;não quantificado;pendente
+A1-06;sem equação;não quantificado;pendente
+A2-01;sem equação;não quantificado;pendente
+A2-02;sem equação;não quantificado;pendente
+A2-03;sem equação;não quantificado;pendente
+A2-04;sem equação;não quantificado;pendente
+A2-05;sem equação;não quantificado;pendente
+A3-01;sem equação;não quantificado;pendente
+A3-02;sem equação;não quantificado;pendente
+A3-03;sem equação;não quantificado;pendente
+A3-04;sem equação;não quantificado;pendente
+A3-05;sem equação;não quantificado;pendente
+A3-06;sem equação;não quantificado;pendente
+A3-07;sem equação;não quantificado;pendente
+A4-01;sem equação;não quantificado;pendente
+A4-02;sem equação;não quantificado;pendente
+A4-03;sem equação;não quantificado;pendente
+A5-01;sem equação;não quantificado;pendente
+A5-02;sem equação;não quantificado;pendente
+A5-03;sem equação;não quantificado;pendente
+A6-01;sem equação;não quantificado;pendente
+A6-02;sem equação;não quantificado;pendente
+A6-03;sem equação;não quantificado;pendente
+A6-04;sem equação;não quantificado;pendente
+ANC-P04;sem equação;não quantificado;pendente
+ANC-P09;sem equação;não quantificado;pendente
+ANC-P11;sem equação;não quantificado;pendente
+ANC-P12;sem equação;não quantificado;pendente
+ANC-P15;sem equação;não quantificado;pendente
+ANC-P17;sem equação;não quantificado;pendente
+ANC-P18;sem equação;não quantificado;pendente
+ANC-P19;sem equação;não quantificado;pendente
+B-02;sem equação;não quantificado;pendente
+B-03;sem equação;não quantificado;pendente
+B-04;sem equação;não quantificado;pendente
+B-05;sem equação;não quantificado;pendente
+B-06;sem equação;não quantificado;pendente
+CAMPO-CIR-ESQUADRO;sem equação;não quantificado;pendente
+CAMPO-CIR-PISO;sem equação;não quantificado;pendente
+COMP-01;sem equação;não quantificado;pendente
+COMP-02;sem equação;não quantificado;pendente
+COMP-03;sem equação;não quantificado;pendente
+COMP-04;sem equação;não quantificado;pendente
+COMP-05;sem equação;não quantificado;pendente
+COMP-06;sem equação;não quantificado;pendente
+COZ-ACESSO;sem equação;não quantificado;pendente
+COZ-FAIXA;sem equação;não quantificado;pendente
+DIM-04;sem equação;não quantificado;pendente
+DIM-08;sem equação;não quantificado;pendente
+GER-ID;sem equação;não quantificado;pendente
+LAV-TEC;sem equação;não quantificado;pendente
+LOG-01;sem equação;não quantificado;pendente
+LOG-02;sem equação;não quantificado;pendente
+LOG-03;sem equação;não quantificado;pendente
+LOG-04;sem equação;não quantificado;pendente
+LOG-05;sem equação;não quantificado;pendente
+LOG-06;sem equação;não quantificado;pendente
+LOG-07;sem equação;não quantificado;pendente
+MOV-P01;sem equação;não quantificado;pendente
+MOV-P02;sem equação;não quantificado;pendente
+MOV-P03;sem equação;não quantificado;pendente
+MOV-P04;sem equação;não quantificado;pendente
+MOV-P05;sem equação;não quantificado;pendente
+MOV-P06;sem equação;não quantificado;pendente
+MOV-P07;sem equação;não quantificado;pendente
+MOV-P08;sem equação;não quantificado;pendente
+MOV-P09;sem equação;não quantificado;pendente
+MOV-P10;sem equação;não quantificado;pendente
+MOV-P11;sem equação;não quantificado;pendente
+MOV-P12;sem equação;não quantificado;pendente
+MOV-P13;sem equação;não quantificado;pendente
+MOV-P14;sem equação;não quantificado;pendente
+MOV-P15;sem equação;não quantificado;pendente
+MOV-P16;sem equação;não quantificado;pendente
+MOV-P17;sem equação;não quantificado;pendente
+MOV-P18;sem equação;não quantificado;pendente
+MOV-P19;sem equação;não quantificado;pendente
+MOV-P20;sem equação;não quantificado;pendente
+OBS-E-C02;sem equação;não quantificado;pendente
+OBS-K-E01;sem equação;não quantificado;pendente
+OBS-K-E02;sem equação;não quantificado;pendente
+OBS-K-E03;sem equação;não quantificado;pendente
+OBS-K-E04;sem equação;não quantificado;pendente
+OBS-K-E05;sem equação;não quantificado;pendente
+OBS-K-E06;sem equação;não quantificado;pendente
+OBS-K-E07;sem equação;não quantificado;pendente
+OBS-K-G01;sem equação;não quantificado;pendente
+OBS-K-H01;sem equação;não quantificado;pendente
+OBS-K-H02;sem equação;não quantificado;pendente
+OBS-L-C01;sem equação;não quantificado;pendente
+OBS-L-D01;sem equação;não quantificado;pendente
+OBS-L-G01;sem equação;não quantificado;pendente
+OBS-L-G02;sem equação;não quantificado;pendente
+OBS-L-H01;sem equação;não quantificado;pendente
+OBS-L-H02;sem equação;não quantificado;pendente
+OBS-L-H03;sem equação;não quantificado;pendente
+OBS-L-H04;sem equação;não quantificado;pendente
+OBS-L-I01;sem equação;não quantificado;pendente
+OBS-L-V01;sem equação;não quantificado;pendente
+OBS-L-V02;sem equação;não quantificado;pendente
+OBS-T-I01;sem equação;não quantificado;pendente
+PD-CIR;sem equação;não quantificado;pendente
+PISO-P01-P03;sem equação;não quantificado;pendente
+PISO-P08;sem equação;não quantificado;pendente
+PISO-P16;sem equação;não quantificado;pendente
+PISO-P20;sem equação;não quantificado;pendente
+POS-01;sem equação;não quantificado;pendente
+POS-02;sem equação;não quantificado;pendente
+POS-03;sem equação;não quantificado;pendente
+PR-EIXO-X;sem equação;não quantificado;pendente
+PR-FLOORS-01-D;sem equação;não quantificado;pendente
+PR-FLOORS-01-W;sem equação;não quantificado;pendente
+PR-FLOORS-01-X;sem equação;não quantificado;pendente
+PR-FLOORS-01-Y;sem equação;não quantificado;pendente
+PR-FLOORS-02-D;sem equação;não quantificado;pendente
+PR-FLOORS-02-W;sem equação;não quantificado;pendente
+PR-FLOORS-02-X;sem equação;não quantificado;pendente
+PR-FLOORS-02-Y;sem equação;não quantificado;pendente
+PR-FLOORS-05-D;sem equação;não quantificado;pendente
+PR-FLOORS-05-W;sem equação;não quantificado;pendente
+PR-FLOORS-05-X;sem equação;não quantificado;pendente
+PR-FLOORS-05-Y;sem equação;não quantificado;pendente
+PR-FLOORS-06-D;sem equação;não quantificado;pendente
+PR-FLOORS-06-W;sem equação;não quantificado;pendente
+PR-FLOORS-06-X;sem equação;não quantificado;pendente
+PR-FLOORS-06-Y;sem equação;não quantificado;pendente
+PR-FLOORS-07-X;sem equação;não quantificado;pendente
+PR-FLOORS-07-Y;sem equação;não quantificado;pendente
+PR-FLOORS-09-D;sem equação;não quantificado;pendente
+PR-FLOORS-09-W;sem equação;não quantificado;pendente
+PR-FLOORS-09-X;sem equação;não quantificado;pendente
+PR-FLOORS-09-Y;sem equação;não quantificado;pendente
+PR-FLOORS-12-D;sem equação;não quantificado;pendente
+PR-FLOORS-12-W;sem equação;não quantificado;pendente
+PR-FLOORS-12-X;sem equação;não quantificado;pendente
+PR-FLOORS-12-Y;sem equação;não quantificado;pendente
+PR-JANELA-1-D;sem equação;não quantificado;pendente
+PR-JANELA-1-H;sem equação;não quantificado;pendente
+PR-JANELA-1-W;sem equação;não quantificado;pendente
+PR-JANELA-2-D;sem equação;não quantificado;pendente
+PR-JANELA-2-H;sem equação;não quantificado;pendente
+PR-JANELA-2-W;sem equação;não quantificado;pendente
+PR-JANELA-3-D;sem equação;não quantificado;pendente
+PR-JANELA-3-H;sem equação;não quantificado;pendente
+PR-JANELA-3-W;sem equação;não quantificado;pendente
+PR-JANELA-4-D;sem equação;não quantificado;pendente
+PR-JANELA-4-H;sem equação;não quantificado;pendente
+PR-JANELA-4-W;sem equação;não quantificado;pendente
+PR-JANELA-5-D;sem equação;não quantificado;pendente
+PR-JANELA-5-H;sem equação;não quantificado;pendente
+PR-JANELA-5-W;sem equação;não quantificado;pendente
+PR-PONTO-B09-X;sem equação;não quantificado;pendente
+PR-PONTO-B09-Y;sem equação;não quantificado;pendente
+PR-PONTO-B09-Z;sem equação;não quantificado;pendente
+PR-PONTO-B10-X;sem equação;não quantificado;pendente
+PR-PONTO-B10-Y;sem equação;não quantificado;pendente
+PR-PONTO-B10-Z;sem equação;não quantificado;pendente
+PR-PONTO-B11-X;sem equação;não quantificado;pendente
+PR-PONTO-B11-Y;sem equação;não quantificado;pendente
+PR-PONTO-B11-Z;sem equação;não quantificado;pendente
+PR-PONTO-C01-X;sem equação;não quantificado;pendente
+PR-PONTO-C01-Y;sem equação;não quantificado;pendente
+PR-PONTO-C01-Z;sem equação;não quantificado;pendente
+PR-PONTO-C03-X;sem equação;não quantificado;pendente
+PR-PONTO-C03-Y;sem equação;não quantificado;pendente
+PR-PONTO-C03-Z;sem equação;não quantificado;pendente
+PR-PONTO-C04-X;sem equação;não quantificado;pendente
+PR-PONTO-C04-Y;sem equação;não quantificado;pendente
+PR-PONTO-C04-Z;sem equação;não quantificado;pendente
+PR-PONTO-C08-X;sem equação;não quantificado;pendente
+PR-PONTO-C08-Y;sem equação;não quantificado;pendente
+PR-PONTO-C08-Z;sem equação;não quantificado;pendente
+PR-PONTO-C09-X;sem equação;não quantificado;pendente
+PR-PONTO-C09-Y;sem equação;não quantificado;pendente
+PR-PONTO-C09-Z;sem equação;não quantificado;pendente
+PR-PONTO-C10-X;sem equação;não quantificado;pendente
+PR-PONTO-C10-Y;sem equação;não quantificado;pendente
+PR-PONTO-C10-Z;sem equação;não quantificado;pendente
+PR-PONTO-C12-X;sem equação;não quantificado;pendente
+PR-PONTO-C12-Y;sem equação;não quantificado;pendente
+PR-PONTO-C12-Z;sem equação;não quantificado;pendente
+PR-PONTO-C13-X;sem equação;não quantificado;pendente
+PR-PONTO-C13-Y;sem equação;não quantificado;pendente
+PR-PONTO-C13-Z;sem equação;não quantificado;pendente
+PR-PONTO-C14-X;sem equação;não quantificado;pendente
+PR-PONTO-C14-Y;sem equação;não quantificado;pendente
+PR-PONTO-C14-Z;sem equação;não quantificado;pendente
+PR-PONTO-E01-X;sem equação;não quantificado;pendente
+PR-PONTO-E01-Y;sem equação;não quantificado;pendente
+PR-PONTO-E01-Z;sem equação;não quantificado;pendente
+PR-PONTO-E02-X;sem equação;não quantificado;pendente
+PR-PONTO-E02-Y;sem equação;não quantificado;pendente
+PR-PONTO-E02-Z;sem equação;não quantificado;pendente
+PR-PONTO-E03-X;sem equação;não quantificado;pendente
+PR-PONTO-E03-Y;sem equação;não quantificado;pendente
+PR-PONTO-E03-Z;sem equação;não quantificado;pendente
+PR-PONTO-E04-X;sem equação;não quantificado;pendente
+PR-PONTO-E04-Y;sem equação;não quantificado;pendente
+PR-PONTO-E04-Z;sem equação;não quantificado;pendente
+PR-PONTO-E05-X;sem equação;não quantificado;pendente
+PR-PONTO-E05-Y;sem equação;não quantificado;pendente
+PR-PONTO-E05-Z;sem equação;não quantificado;pendente
+PR-PONTO-E06-X;sem equação;não quantificado;pendente
+PR-PONTO-E06-Y;sem equação;não quantificado;pendente
+PR-PONTO-E06-Z;sem equação;não quantificado;pendente
+PR-PONTO-L01-X;sem equação;não quantificado;pendente
+PR-PONTO-L01-Y;sem equação;não quantificado;pendente
+PR-PONTO-L01-Z;sem equação;não quantificado;pendente
+PR-PONTO-L07-X;sem equação;não quantificado;pendente
+PR-PONTO-L07-Y;sem equação;não quantificado;pendente
+PR-PONTO-L07-Z;sem equação;não quantificado;pendente
+PR-PONTO-L08-X;sem equação;não quantificado;pendente
+PR-PONTO-L08-Y;sem equação;não quantificado;pendente
+PR-PONTO-L08-Z;sem equação;não quantificado;pendente
+PR-PONTO-L10-X;sem equação;não quantificado;pendente
+PR-PONTO-L10-Y;sem equação;não quantificado;pendente
+PR-PONTO-L10-Z;sem equação;não quantificado;pendente
+PR-PONTO-L11-X;sem equação;não quantificado;pendente
+PR-PONTO-L11-Y;sem equação;não quantificado;pendente
+PR-PONTO-L11-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q01-X;sem equação;não quantificado;pendente
+PR-PONTO-Q01-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q01-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q02-X;sem equação;não quantificado;pendente
+PR-PONTO-Q02-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q02-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q03-X;sem equação;não quantificado;pendente
+PR-PONTO-Q03-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q03-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q04-X;sem equação;não quantificado;pendente
+PR-PONTO-Q04-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q04-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q05-X;sem equação;não quantificado;pendente
+PR-PONTO-Q05-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q05-Z;sem equação;não quantificado;pendente
+PR-PONTO-Q06-X;sem equação;não quantificado;pendente
+PR-PONTO-Q06-Y;sem equação;não quantificado;pendente
+PR-PONTO-Q06-Z;sem equação;não quantificado;pendente
+PR-PONTO-S01-X;sem equação;não quantificado;pendente
+PR-PONTO-S01-Y;sem equação;não quantificado;pendente
+PR-PONTO-S01-Z;sem equação;não quantificado;pendente
+PR-PONTO-S02-X;sem equação;não quantificado;pendente
+PR-PONTO-S02-Y;sem equação;não quantificado;pendente
+PR-PONTO-S02-Z;sem equação;não quantificado;pendente
+PR-PONTO-S03-X;sem equação;não quantificado;pendente
+PR-PONTO-S03-Y;sem equação;não quantificado;pendente
+PR-PONTO-S03-Z;sem equação;não quantificado;pendente
+PR-PONTO-S04-X;sem equação;não quantificado;pendente
+PR-PONTO-S04-Y;sem equação;não quantificado;pendente
+PR-PONTO-S04-Z;sem equação;não quantificado;pendente
+PR-PONTO-S05-X;sem equação;não quantificado;pendente
+PR-PONTO-S05-Y;sem equação;não quantificado;pendente
+PR-PONTO-S05-Z;sem equação;não quantificado;pendente
+PR-PORTA-1-D;sem equação;não quantificado;pendente
+PR-PORTA-1-H;sem equação;não quantificado;pendente
+PR-PORTA-1-W;sem equação;não quantificado;pendente
+PR-PORTA-2-D;sem equação;não quantificado;pendente
+PR-PORTA-2-H;sem equação;não quantificado;pendente
+PR-PORTA-2-W;sem equação;não quantificado;pendente
+PR-PORTA-3-D;sem equação;não quantificado;pendente
+PR-PORTA-3-H;sem equação;não quantificado;pendente
+PR-PORTA-3-W;sem equação;não quantificado;pendente
+PR-PORTA-4-D;sem equação;não quantificado;pendente
+PR-PORTA-4-H;sem equação;não quantificado;pendente
+PR-PORTA-4-W;sem equação;não quantificado;pendente
+PR-WALLS-00-D;sem equação;não quantificado;pendente
+PR-WALLS-00-W;sem equação;não quantificado;pendente
+PR-WALLS-00-X;sem equação;não quantificado;pendente
+PR-WALLS-00-Y;sem equação;não quantificado;pendente
+PR-WALLS-01-D;sem equação;não quantificado;pendente
+PR-WALLS-01-W;sem equação;não quantificado;pendente
+PR-WALLS-01-X;sem equação;não quantificado;pendente
+PR-WALLS-01-Y;sem equação;não quantificado;pendente
+PR-WALLS-02-D;sem equação;não quantificado;pendente
+PR-WALLS-02-W;sem equação;não quantificado;pendente
+PR-WALLS-02-X;sem equação;não quantificado;pendente
+PR-WALLS-02-Y;sem equação;não quantificado;pendente
+PR-WALLS-03-D;sem equação;não quantificado;pendente
+PR-WALLS-03-W;sem equação;não quantificado;pendente
+PR-WALLS-03-X;sem equação;não quantificado;pendente
+PR-WALLS-03-Y;sem equação;não quantificado;pendente
+PR-WALLS-04-D;sem equação;não quantificado;pendente
+PR-WALLS-04-W;sem equação;não quantificado;pendente
+PR-WALLS-04-X;sem equação;não quantificado;pendente
+PR-WALLS-04-Y;sem equação;não quantificado;pendente
+PR-WALLS-05-D;sem equação;não quantificado;pendente
+PR-WALLS-05-W;sem equação;não quantificado;pendente
+PR-WALLS-05-X;sem equação;não quantificado;pendente
+PR-WALLS-05-Y;sem equação;não quantificado;pendente
+PR-WALLS-06-D;sem equação;não quantificado;pendente
+PR-WALLS-06-W;sem equação;não quantificado;pendente
+PR-WALLS-06-X;sem equação;não quantificado;pendente
+PR-WALLS-06-Y;sem equação;não quantificado;pendente
+PR-WALLS-07-D;sem equação;não quantificado;pendente
+PR-WALLS-07-W;sem equação;não quantificado;pendente
+PR-WALLS-07-X;sem equação;não quantificado;pendente
+PR-WALLS-07-Y;sem equação;não quantificado;pendente
+PR-WALLS-08-D;sem equação;não quantificado;pendente
+PR-WALLS-08-W;sem equação;não quantificado;pendente
+PR-WALLS-08-X;sem equação;não quantificado;pendente
+PR-WALLS-08-Y;sem equação;não quantificado;pendente
+PR-WALLS-09-D;sem equação;não quantificado;pendente
+PR-WALLS-09-W;sem equação;não quantificado;pendente
+PR-WALLS-09-X;sem equação;não quantificado;pendente
+PR-WALLS-09-Y;sem equação;não quantificado;pendente
+PR-WALLS-10-D;sem equação;não quantificado;pendente
+PR-WALLS-10-W;sem equação;não quantificado;pendente
+PR-WALLS-10-X;sem equação;não quantificado;pendente
+PR-WALLS-10-Y;sem equação;não quantificado;pendente
+PR-WALLS-11-D;sem equação;não quantificado;pendente
+PR-WALLS-11-W;sem equação;não quantificado;pendente
+PR-WALLS-11-X;sem equação;não quantificado;pendente
+PR-WALLS-11-Y;sem equação;não quantificado;pendente
+PR-WALLS-12-D;sem equação;não quantificado;pendente
+PR-WALLS-12-W;sem equação;não quantificado;pendente
+PR-WALLS-12-X;sem equação;não quantificado;pendente
+PR-WALLS-12-Y;sem equação;não quantificado;pendente
+PR-WALLS-13-D;sem equação;não quantificado;pendente
+PR-WALLS-13-W;sem equação;não quantificado;pendente
+PR-WALLS-13-X;sem equação;não quantificado;pendente
+PR-WALLS-13-Y;sem equação;não quantificado;pendente
+PR-WALLS-14-D;sem equação;não quantificado;pendente
+PR-WALLS-14-W;sem equação;não quantificado;pendente
+PR-WALLS-14-X;sem equação;não quantificado;pendente
+PR-WALLS-14-Y;sem equação;não quantificado;pendente
+PR-WALLS-15-D;sem equação;não quantificado;pendente
+PR-WALLS-15-W;sem equação;não quantificado;pendente
+PR-WALLS-15-X;sem equação;não quantificado;pendente
+PR-WALLS-15-Y;sem equação;não quantificado;pendente
+PR-WALLS-16-D;sem equação;não quantificado;pendente
+PR-WALLS-16-W;sem equação;não quantificado;pendente
+PR-WALLS-16-X;sem equação;não quantificado;pendente
+PR-WALLS-16-Y;sem equação;não quantificado;pendente
+PR-WALLS-17-D;sem equação;não quantificado;pendente
+PR-WALLS-17-W;sem equação;não quantificado;pendente
+PR-WALLS-17-X;sem equação;não quantificado;pendente
+PR-WALLS-17-Y;sem equação;não quantificado;pendente
+PR-WALLS-18-D;sem equação;não quantificado;pendente
+PR-WALLS-18-W;sem equação;não quantificado;pendente
+PR-WALLS-18-X;sem equação;não quantificado;pendente
+PR-WALLS-18-Y;sem equação;não quantificado;pendente
+PR-WALLS-19-D;sem equação;não quantificado;pendente
+PR-WALLS-19-W;sem equação;não quantificado;pendente
+PR-WALLS-19-X;sem equação;não quantificado;pendente
+PR-WALLS-19-Y;sem equação;não quantificado;pendente
+PR-WALLS-20-D;sem equação;não quantificado;pendente
+PR-WALLS-20-W;sem equação;não quantificado;pendente
+PR-WALLS-20-X;sem equação;não quantificado;pendente
+PR-WALLS-20-Y;sem equação;não quantificado;pendente
+PR-WALLS-21-D;sem equação;não quantificado;pendente
+PR-WALLS-21-W;sem equação;não quantificado;pendente
+PR-WALLS-21-X;sem equação;não quantificado;pendente
+PR-WALLS-21-Y;sem equação;não quantificado;pendente
+PR-WALLS-22-D;sem equação;não quantificado;pendente
+PR-WALLS-22-W;sem equação;não quantificado;pendente
+PR-WALLS-22-X;sem equação;não quantificado;pendente
+PR-WALLS-22-Y;sem equação;não quantificado;pendente
+PR-WALLS-23-D;sem equação;não quantificado;pendente
+PR-WALLS-23-W;sem equação;não quantificado;pendente
+PR-WALLS-23-X;sem equação;não quantificado;pendente
+PR-WALLS-23-Y;sem equação;não quantificado;pendente
+PR-WALLS-24-D;sem equação;não quantificado;pendente
+PR-WALLS-24-W;sem equação;não quantificado;pendente
+PR-WALLS-24-X;sem equação;não quantificado;pendente
+PR-WALLS-24-Y;sem equação;não quantificado;pendente
+PR-WALLS-25-D;sem equação;não quantificado;pendente
+PR-WALLS-25-W;sem equação;não quantificado;pendente
+PR-WALLS-25-X;sem equação;não quantificado;pendente
+PR-WALLS-25-Y;sem equação;não quantificado;pendente
+PTO-B01;sem equação;não quantificado;pendente
+PTO-B02;sem equação;não quantificado;pendente
+PTO-B03;sem equação;não quantificado;pendente
+PTO-B04;sem equação;não quantificado;pendente
+PTO-B05;sem equação;não quantificado;pendente
+PTO-B06;sem equação;não quantificado;pendente
+PTO-B07;sem equação;não quantificado;pendente
+PTO-B08;sem equação;não quantificado;pendente
+PTO-B09;sem equação;não quantificado;pendente
+PTO-B10;sem equação;não quantificado;pendente
+PTO-B11;sem equação;não quantificado;pendente
+PTO-C01;sem equação;não quantificado;pendente
+PTO-C02;sem equação;não quantificado;pendente
+PTO-C03;sem equação;não quantificado;pendente
+PTO-C04;sem equação;não quantificado;pendente
+PTO-C05;sem equação;não quantificado;pendente
+PTO-C06;sem equação;não quantificado;pendente
+PTO-C07;sem equação;não quantificado;pendente
+PTO-C08;sem equação;não quantificado;pendente
+PTO-C09;sem equação;não quantificado;pendente
+PTO-C10;sem equação;não quantificado;pendente
+PTO-C11;sem equação;não quantificado;pendente
+PTO-C12;sem equação;não quantificado;pendente
+PTO-C13;sem equação;não quantificado;pendente
+PTO-C14;sem equação;não quantificado;pendente
+PTO-E01;sem equação;não quantificado;pendente
+PTO-E02;sem equação;não quantificado;pendente
+PTO-E03;sem equação;não quantificado;pendente
+PTO-E04;sem equação;não quantificado;pendente
+PTO-L01;sem equação;não quantificado;pendente
+PTO-L02;sem equação;não quantificado;pendente
+PTO-L03;sem equação;não quantificado;pendente
+PTO-L04;sem equação;não quantificado;pendente
+PTO-L05;sem equação;não quantificado;pendente
+PTO-L06;sem equação;não quantificado;pendente
+PTO-L07;sem equação;não quantificado;pendente
+PTO-L08;sem equação;não quantificado;pendente
+PTO-L09;sem equação;não quantificado;pendente
+PTO-L10;sem equação;não quantificado;pendente
+PTO-L11;sem equação;não quantificado;pendente
+PTO-Q01;sem equação;não quantificado;pendente
+PTO-Q02;sem equação;não quantificado;pendente
+PTO-Q03;sem equação;não quantificado;pendente
+PTO-Q04;sem equação;não quantificado;pendente
+PTO-Q05;sem equação;não quantificado;pendente
+PTO-Q06;sem equação;não quantificado;pendente
+PTO-S01;sem equação;não quantificado;pendente
+PTO-S02;sem equação;não quantificado;pendente
+PTO-S03;sem equação;não quantificado;pendente
+PTO-S04;sem equação;não quantificado;pendente
+SAL-COND;sem equação;não quantificado;pendente
