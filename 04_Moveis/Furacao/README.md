@@ -34,3 +34,11 @@ Os SVGs têm uma face por arquivo e lista de centros/IDs; círculo tracejado rep
 ## Escopo preservado
 
 Suspensão de aéreos, ancoragem, cargas de uso, teto, micro-ondas T05 e rodízios P08 não foram refinados. Perguntas de oficina/RT permanecem nas fontes. Não houve leitura nem alteração do FreeCAD. A pasta `06_Entregas/Fichas_fabricacao/Execucao_ate_07h_2026-10-25/` foi apenas sinalizada ao usuário; não apagada nem movida.
+
+## Conferência e montagem
+
+[Relatório e dez ocorrências prioritárias](Conferencia.md) · [todas as ocorrências](Conflitos.csv) · [distâncias por par](Distancias.csv) · [portas e dobradiças](Portas.csv) · [sequência proposta dos 20 móveis](Montagem.csv).
+
+Executar `python -B ferramentas/estudos/conferir_furacao.py`: resultado REPROVADO, 46 ocorrências (1 sobreposição, 2 distâncias, 43 acessos) e 2.130 posições incompletas; quatro portas baixas/largas P04 fora da orientação do gráfico Blum. Não foram detectadas violações de profundidade ou pares quebrados **nos furos verificáveis**; os incompletos não passam por omissão. Dez testes adversariais em `python -B ferramentas/estudos/test_furacao.py` cobrem espessura15/reserva3, tolerância0,5, par ausente, faces/topos cruzados e tipos sobrepostos. Distância mínima3 e envelope de ferramenta raio10/curso100 são hipóteses de projeto configuráveis, não valores de catálogo.
+
+Acesso avaliado sobre caixas nominais: precedências de aperto aparecem na sequência. Ciclos e peças sem topologia impedem uma sequência executiva completa; não resolver montagem ocultando alertas. Linha System32/base/corrediça sem centros não foi declarada verificada.

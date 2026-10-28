@@ -1,0 +1,58 @@
+"""Casos adversariais: rejeicao de pares quebrados e interferencias internas."""
+import unittest
+from conferir_furacao import audit,required_hinges,segment_distance
+
+
+class Conferencia(unittest.TestCase):
+    def panel(self):
+        return dict(id='fixture',mod='P01',c=200,l=200,t=15,box=[0,0,0,200,200,15],axes=[0,1,2])
+
+    def h(self,**kw):
+        h=dict(movel='P01',peca='fixture',furo='A',face='A',x=50,y=50,diametro=8,profundidade=8,situacao='nominal/proposta',parametros='',par='',papel='',grupo='',gx=50,gy=50,gz=0,nx=0,ny=0,nz=1,curso_material=15,tipo='cavilha')
+        h.update(kw);return h
+
+    def codes(self,holes):
+        return {i['tipo'] for i in audit(holes,{'fixture':self.panel()})[0]}
+
+    def test_15mm_reserva_3mm_inclusiva(self):
+        self.assertIn('PROFUNDIDADE',self.codes([self.h(profundidade=12)]))
+        self.assertNotIn('PROFUNDIDADE',self.codes([self.h(profundidade=11.9)]))
+
+    def test_par_ausente(self):
+        self.assertIn('PAR_AUSENTE',self.codes([self.h(par='P',papel='topo')]))
+
+    def test_tolerancia_de_par(self):
+        a=self.h(par='P',papel='topo');b=self.h(furo='B',par='P',papel='face',gx=50.51,nz=-1)
+        self.assertIn('PAR_DESALINHADO',self.codes([a,b]))
+        b['gx']=50.5;self.assertNotIn('PAR_DESALINHADO',self.codes([a,b]))
+
+    def test_faces_opostas(self):
+        a=self.h();b=self.h(furo='B',face='B',gz=15,nz=-1)
+        self.assertIn('CRUZAMENTO_INTERNO',self.codes([a,b]))
+        b.update(x=82,gx=82);self.assertNotIn('CRUZAMENTO_INTERNO',self.codes([a,b]))
+
+    def test_cruzamento_topos(self):
+        a=self.h(face='topo-C0',gx=0,gy=50,gz=7.5,nx=1,nz=0,profundidade=80,curso_material=200)
+        b=self.h(furo='B',face='topo-L0',gx=50,gy=0,gz=7.5,ny=1,nz=0,profundidade=80,curso_material=200)
+        self.assertIn('CRUZAMENTO_INTERNO',self.codes([a,b]))
+        self.assertEqual(segment_distance([0,50,0],[80,50,0],[50,0,0],[50,80,0]),0)
+
+    def test_cup_runner_overlap(self):
+        self.assertIn('SOBREPOSICAO_FACE',self.codes([self.h(tipo='caneco',diametro=35),self.h(furo='B',tipo='corredica',x=54,diametro=5)]))
+
+    def test_grupo_intencional(self):
+        self.assertNotIn('SOBREPOSICAO_FACE',self.codes([self.h(grupo='G'),self.h(furo='B',grupo='G')]))
+
+    def test_dado_ausente_nao_passa(self):
+        self.assertIn('PARAMETRO',self.codes([self.h(profundidade='')]))
+
+    def test_borda(self):
+        self.assertIn('BORDA',self.codes([self.h(x=3)]))
+
+    def test_envelope_blum(self):
+        self.assertEqual(required_hinges(500,1016,4),3)
+        self.assertEqual(required_hinges(620,750,5),3)
+        self.assertIsNone(required_hinges(700,750,5))
+
+
+if __name__=='__main__':unittest.main()
