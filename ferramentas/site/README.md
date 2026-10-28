@@ -1,5 +1,7 @@
 # Apartamento interativo — R53 e pacote R25
 
+**Textos públicos:** o site é visto por outras pessoas. Fichas, Escolhas, Planta e Documentos descrevem o estado atual, sem datas, códigos de revisão, "substitui"/"anterior" nem atribuições. Fontes (`source` em `src/data.js`) ficam nos dados, fora da tela. Registros internos e "o que mudou" saem da biblioteca via `INTERNAL_DOCS` em `plain_language.py`, mas seguem no repositório e nas fichas que os citam.
+
 **Pé-direito, 27/10/2026:** Elias solicitou 2,60 m em todos os cômodos e 2,50 m no banheiro, com commit/push e atualização do site. CSV `07_Imovel/Medidas_e_impactos.csv` alimenta paredes, guia e pranchas; medido prevalece sobre nominal. Medidas a confirmar. Escritório 2,47 m substituído; mobiliário e FCStd R53 preservados. R25 inclui caderno A3 R02 atualizado. Publicado e conferido em 27/10: alturas remotas corretas, PDF e ZIP com 295 entradas íntegros; [evidência](../../06_Entregas/README.md).
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.

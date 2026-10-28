@@ -1,4 +1,5 @@
 """Pé-direito do site usa a mesma fonte e precedência das pranchas."""
+from collections import Counter
 from html import escape
 import json
 from pathlib import Path
@@ -23,15 +24,16 @@ def heights(root=ROOT):
 
 
 def summary(values):
-    labels = {'quarto': 'Quarto', 'cozinha': 'Cozinha', 'lavanderia': 'Lavanderia',
-              'escritorio': 'Escritório', 'banho': 'Banheiro', 'sala': 'Sala/jantar',
-              'circulacao': 'Circulação'}
-    parts = []
-    for room, value in values.items():
-        metres = f"{value['mm'] / 1000:.2f}".replace('.', ',')
-        origin = 'medido' if value['origem'] == 'medido' else 'medida a confirmar'
-        parts.append(f"{labels[room]}: {metres} m ({origin})")
-    return '; '.join(parts) + '. Valores de projeto para estudo, não fabricação.'
+    """Uma frase curta: valor comum aos cômodos e exceções por ambiente."""
+    labels = {'quarto': 'no quarto', 'cozinha': 'na cozinha', 'lavanderia': 'na lavanderia',
+              'escritorio': 'no escritório', 'banho': 'no banheiro', 'sala': 'na sala',
+              'circulacao': 'na circulação'}
+    metres = lambda mm: f"{mm / 1000:.2f}".replace('.', ',') + ' m'
+    common = Counter(v['mm'] for v in values.values()).most_common(1)[0][0]
+    others = [f"{metres(v['mm'])} {labels[room]}" for room, v in values.items() if v['mm'] != common]
+    text = 'Pé-direito: ' + metres(common) + (' nos cômodos e ' + ' e '.join(others) if others else ' em todos os ambientes')
+    measured = all(v['origem'] == 'medido' for v in values.values())
+    return text + (', medido no imóvel.' if measured else ', medida a confirmar no imóvel.') + ' Valores para estudo, não fabricação.'
 
 
 def build():

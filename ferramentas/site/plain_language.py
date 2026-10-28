@@ -100,7 +100,7 @@ DOCUMENT_COPY = {
     'torneiras': ('Encaixe das cubas e torneiras', 'Confira as medidas dos produtos e o espaço para abrir as torneiras.'),
     'purangi': ('Torneira Purangi · opção em estudo', 'A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.'),
     'forno': ('Apoios e ventilação do forno', 'Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.'),
-    'cad': ('FreeCAD '+_RELEASE['cadRevision']+' · modelo atual', _RELEASE['notes']),
+    'cad': ('FreeCAD '+_RELEASE['cadRevision']+' · modelo atual', 'Modelo 3D do apartamento com os 20 móveis. Abra no FreeCAD para consultar as peças.'),
     'cad-cores': ('Cores do modelo 3D', 'Veja os acabamentos representados. Compare as cores com amostras reais.'),
     'cad-southco': ('Modelo da alternativa Southco', 'Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.'),
     'cad-purangi': ('Modelo de estudo da torneira Purangi', 'Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.'),
@@ -114,8 +114,35 @@ DOCUMENT_COPY = {
     'planta-cotada': ('Planta com medidas', 'Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site.'),
     'fichas': ('Fichas dos 20 móveis', 'Medidas, materiais, peças de montagem e furos de cada móvel.'),
     'pendencias-r14': ('O que falta conferir', 'Veja o que falta definir, testar na oficina e medir no apartamento.'),
+    'luz-economica': ('Luzes do quarto · opção econômica', 'Composição com controle pelo celular. Referência parcial de R$ 376,32, sem frete e instalação.'),
+    'luz-imagens': ('Luminárias nos ambientes', 'Simulações de cada ambiente com as luminárias escolhidas. Luz e escala aproximadas.'),
+    'banco-atual': ('Banco com baú: assento e apoios', 'Tampas com dobradiça contínua e trava. As uniões e o peso suportado dependem de protótipo.'),
+    'pranchas-a3': ('Plantas e elevações · caderno A3', 'Folhas em escala com plantas e elevações de cada ambiente. Desenhos de estudo, não de execução.'),
     'campo': ('Folha para medir o apartamento', 'Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar.'),
 }
+
+# Registros internos ficam no repositório e nas fichas que os citam, fora da biblioteca do site.
+INTERNAL_DOCS = {'southco', 'batente', 'cad-southco', 'cad-atual-notas', 'cad-r49', 'cad-r48', 'luz-selecao'}
+PUBLIC_DOCS = {'pranchas-a3': 'Arquitetura'}
+STATUS_COPY = {
+    'L02 · R$612,64': 'R$ 612,64', 'R01 · 24/10': 'Escolhido', 'Areia · 24/10': 'Escolhido',
+    'CB02 · 26/10': 'Proposta', 'Simulações CB02': 'Simulações', 'R16': 'Referência',
+    'Estudo separado': 'Estudo', 'Preencher em campo': 'Para preencher',
+}
+
+
+def public_document(d):
+    """Rótulos do site sem códigos de revisão nem datas de registro."""
+    if d['id'] in PUBLIC_DOCS:
+        d['category'] = PUBLIC_DOCS[d['id']]
+    elif d['id'] in INTERNAL_DOCS or d['category'] == 'Avanços e pendências':
+        d['internal'] = True
+    status = STATUS_COPY.get(d['status'], d['status'])
+    if re.search(r'\b(?:R\d{2}|CB\d\d)\b|\d\d/\d\d|\d{4}-\d\d-\d\d', status):
+        status = 'Atual'
+    d['status'] = status
+    return d
+
 
 # Frases recorrentes, reescritas por inteiro para manter o sentido.
 EXACT = {

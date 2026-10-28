@@ -225,7 +225,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
     global FABRICATION
     if export_docs and target is None and (ROOT/'.site/docs').exists() and any((ROOT/'.site/docs').iterdir()):
         raise FileExistsError('Existing .site/docs preserved. Choose --output-dir or --sources-only.')
-    from plain_language import plain_data, plain_html, document_intro, DOCUMENT_COPY
+    from plain_language import plain_data, plain_html, document_intro, DOCUMENT_COPY, public_document
     if regenerate:
         generated=runpy.run_path(str(STUDY/'build_fabrication.py'))
         FABRICATION,assets=generated['build']()
@@ -250,6 +250,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
             code = d['id'][6:]
             d['title'] = code+' · '+FABRICATION[code]['name']
             d['summary'] = 'Consulte as medidas, os materiais, a montagem e o que falta conferir.'
+        public_document(d)
     for d in DOCS:
         if d.get('path'):d['available']=d['id']=='pacote-compartilhar' or (ROOT/d['path']).is_file()
     write_sources()

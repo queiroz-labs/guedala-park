@@ -7,8 +7,8 @@ const PROJECT={
   "area": "40,18 m²",
   "unit": "Torre 2 · final 06",
   "ceiling": 260.0,
-  "heightStudy": "Quarto: 2,60 m (medida a confirmar); Cozinha: 2,60 m (medida a confirmar); Lavanderia: 2,60 m (medida a confirmar); Escritório: 2,60 m (medida a confirmar); Banheiro: 2,50 m (medida a confirmar); Sala/jantar: 2,60 m (medida a confirmar); Circulação: 2,60 m (medida a confirmar). Valores de projeto para estudo, não fabricação.",
-  "note": "Projeto inteiro pronto antes da mudança. Escolhas de programa preservadas. Medidas, produtos candidatos, estudos de construção e fabricação continuam condicionados.",
+  "heightStudy": "Pé-direito: 2,60 m nos cômodos e 2,50 m no banheiro, medida a confirmar no imóvel. Valores para estudo, não fabricação.",
+  "note": "Projeto completo do apartamento, para ficar pronto antes da mudança. Medidas, produtos e detalhes de fabricação ainda serão conferidos.",
   "rooms": [
     {
       "id": "all",
@@ -105,7 +105,7 @@ const PROJECT={
         "sala"
       ],
       "status": "Referência aprovada",
-      "note": "Composição clara com estrutura amadeirada, recuperada da representação R43/R45. Conferir tecido e acabamento do produto real."
+      "note": "Composição clara com estrutura amadeirada. Conferir tecido e acabamento do produto real."
     },
     {
       "id": "whiteTX",
@@ -167,7 +167,7 @@ const PROJECT={
         "cozinha"
       ],
       "status": "Escolhido",
-      "note": "Superiores contínuos da geladeira ao cooktop. Lavanderia em Arenza. Duratex Azul Profundo é alternativa, não substituição aprovada."
+      "note": "Armários superiores contínuos da geladeira ao cooktop. A lavanderia fica em Arenza. Duratex Azul Profundo é a alternativa."
     },
     {
       "id": "altblue",
@@ -335,7 +335,7 @@ const PROJECT={
         "banho"
       ],
       "status": "Escolhido",
-      "note": "Código escolhido em 24/10/2026. Frentes fechadas e foscas, sem ripado nem puxadores salientes. Tom digital aproximado. Amostra e composição com Branco TX a conferir."
+      "note": "Frentes fechadas e foscas, sem ripado nem puxadores salientes. Tom digital aproximado; conferir amostra e combinação com o Branco TX."
     },
     {
       "id": "lightwood",
@@ -346,7 +346,7 @@ const PROJECT={
         "banho"
       ],
       "status": "Escolhido",
-      "note": "Código escolhido em 24/10/2026 para laterais aparentes do gabinete e espelheiro. Poro tem leve brilho acetinado. Amostra a conferir. Interiores Branco TX preservados."
+      "note": "Laterais aparentes do gabinete e do armário com espelho. Leve brilho acetinado. Interior em Branco TX. Conferir amostra."
     }
   ],
   "ceilingByRoom": {
@@ -395,7 +395,7 @@ const ITEMS=[
     "measure": "Posições a definir",
     "material": "wood",
     "source": "F148 / F149 / F159",
-    "notes": "A disposição vigente tem uma prateleira acima e outra abaixo da TV, sem gavetas. A implantação anterior com as duas abaixo foi superada. Alturas, equipamentos, cargas e fixação ainda precisam de conferência de encaixe e montagem."
+    "notes": "Uma prateleira acima e outra abaixo da TV, sem gavetas. Faltam definir alturas, equipamentos, peso suportado e fixação."
   },
   {
     "id": "power",
@@ -419,7 +419,7 @@ const ITEMS=[
     "measure": "Duas candidatas. Modelo final pendente",
     "material": "black",
     "source": "17/10/2026",
-    "notes": "Preferência principalPhilips Ambilight50PUG8100/78. Usuário aceitaStremioLite e quer aplicativos diretamente naTV, sem aparelho externo. Segunda candidataTCL50P7K comGoogle TV eStremioAndroidTV. Nenhuma substitui a preferência ou aprova compra. Teste de uso pendente. Borda inferior77 cm é hipótese.",
+    "notes": "Preferência: Philips Ambilight 50PUG8100/78, com aplicativos direto na TV (inclusive Stremio Lite), sem aparelho externo. Alternativa: TCL 50P7K com Google TV. O modelo final depende de um teste de uso. A altura da borda inferior, 77 cm, ainda é uma hipótese.",
     "budget": "Até R$ 3.000 · TV apenas"
   },
   {
@@ -456,7 +456,7 @@ const ITEMS=[
     "measure": "Medidas gerais do desenho. Conferir produto",
     "material": "wood",
     "source": "Consolidação R43/R45",
-    "notes": "Berlin substitui a mesa sob medida antiga. No cenário fechado, duas cadeiras nas pontas e uma na lateral. Na abertura de 170 cm, conferir o arranjo lateral e a proximidade do sofá. Estrutura e espessura industrial não definidas pelo volume do desenho. Não fabricar com base na superfície do modelo. Aparência de referência: tampo amadeirado aproximado Arenza e base preta. Conferir o acabamento comercial da Berlin."
+    "notes": "Mesa pronta, extensível de 110 para 170 cm. Fechada, recebe duas cadeiras nas pontas e uma na lateral. Aberta, falta conferir o arranjo das cadeiras e a distância até o sofá. Tampo amadeirado próximo ao Arenza e base preta; conferir o acabamento do produto."
   },
   {
     "id": "bench",
@@ -468,43 +468,43 @@ const ITEMS=[
     "measure": "Ferragens e ligações em estudo",
     "material": "head",
     "source": "FreeCAD R45 · 23/10/2026",
-    "notes": "Duas tampas e duas almofadas removíveis, com armazenamento preservado. Retirar almofadas antes de abrir. Tampas presas por dobradiças: diretriz atual de dobradiça piano com suporte e trava (23/10/2026). Seleção, eixo e fixações ainda pendentes. Southco R47 fica como estudo histórico. A bandeja lateral antiga está superada. Não há capacidade liberada para fabricação."
+    "notes": "Duas tampas com almofadas removíveis e espaço de guarda embaixo. Retire as almofadas antes de abrir. Cada tampa abre com dobradiça contínua, suporte e trava; modelo, eixo e fixações ainda a definir."
   },
   {
     "id": "diningchairs",
     "room": "sala",
-    "name": "Três cadeiras · cenário Berlin",
+    "name": "Três cadeiras de jantar",
     "kind": "chairs",
     "dimensions": "Envelopes de uso; conferir produto real",
     "choice": "Aprovado como plano",
     "measure": "Encaixe e passagem pendentes",
     "material": "head",
     "source": "Consolidação R43/R45",
-    "notes": "Cenário salvo com duas cadeiras nas pontas e uma na lateral da Berlin fechada. Na mesa aberta, alternativa de três na lateral para conferir fisicamente. O desenho não comprova circulação com pessoas. Madeira em aproximação Arenza e estofado claro, conforme consolidação R43."
+    "notes": "Com a mesa fechada, duas cadeiras nas pontas e uma na lateral. Com a mesa aberta, as três vão para a lateral, arranjo a testar no local. O desenho não comprova a passagem com pessoas sentadas. Madeira em tom próximo ao Arenza e estofado claro."
   },
   {
     "id": "queen",
     "room": "quarto",
-    "name": "Queen com baú futura · cenário do quarto",
+    "name": "Cama queen com baú · futura",
     "kind": "bed",
     "dimensions": "Reserva 200 × 160 cm · colchão padrão 198 × 158",
     "choice": "Tamanho futuro escolhido",
     "measure": "Base futura e cama atual não medidas",
     "material": "offwhite",
     "source": "16/10/2026",
-    "notes": "A cama existente é de viúvo com baú, para a mudança. Suas medidas são desconhecidas. Queen com baú foi escolhida para a troca posterior. O desenho usa volume do desenho de estudo160 ×200 cm e altura ilustrativa60, sem representar a cama atual nem uma compra. Manter o mesmo eixo para estudar as duas fases. Mala grande futura deve caber em compartimento real do baú. Não presumir soma de duas metades."
+    "notes": "Na mudança vai a cama de viúvo com baú que já existe, ainda sem medidas. Depois, ela será trocada por uma queen com baú. O desenho usa um volume de 160 × 200 cm, com 60 cm de altura, no mesmo eixo para as duas fases. A mala grande deve caber em um compartimento do baú."
   },
   {
     "id": "wardrobe",
     "room": "quarto",
-    "name": "Roupeiro 65 cm · interior aprovado e canto atual",
+    "name": "Guarda-roupa de 65 cm e armário de canto",
     "kind": "wardrobe",
     "dimensions": "200 ×65 cm · conjunto superior até 244 cm no cenário",
     "choice": "Aprovado",
     "measure": "Medidas a conferir",
     "material": "wood",
     "source": "FreeCAD R30/R31 · geometria consolidada",
-    "notes": "Profundidade 65 cm preservada. Metade para cada pessoa, quatro gavetas, dez pares até 42, dois casacos longos e programa de cabides mantidos. Face inferior dos armários superiores alinhada em 213,2 cm. Canto com portas independentes conforme estudo atual. Portas de correr, ferragens e giros são propostas condicionadas. Modelo não libera fabricação."
+    "notes": "Profundidade de 65 cm. Metade para cada pessoa, com quatro gavetas, espaço para dez pares de sapatos até o número 42, dois casacos longos e cabides. A face inferior dos armários superiores fica a 213,2 cm. O armário de canto tem portas próprias. Portas de correr e ferragens ainda a conferir."
   },
   {
     "id": "headboard",
@@ -516,19 +516,19 @@ const ITEMS=[
     "measure": "Dimensões em estudo",
     "material": "head",
     "source": "R25–R31 · consolidação20/10",
-    "notes": "Composição clara preservada, dividida em dois painéis conforme FreeCAD. Preparada para a queen futura, mantendo cama de viúvo no mesmo eixo como direção de uso. Medidas da base atual, alcance dos apoios, conforto e fixação pendentes."
+    "notes": "Cabeceira clara estofada, em dois painéis. Foi pensada para a futura queen e funciona também com a cama de viúvo, no mesmo eixo. Faltam as medidas da cama atual, o conforto e a fixação."
   },
   {
     "id": "bedcabinet",
     "room": "quarto",
-    "name": "Aéreos em L alinhados · canto independente",
+    "name": "Armários superiores em L",
     "kind": "upper",
-    "dimensions": "Profundidades65/25 cm · base213,2 · topo244 cm de estudo",
+    "dimensions": "Profundidades 65 e 25 cm · base a 213,2 cm · topo a 244 cm",
     "choice": "Aprovado para desenvolver",
     "measure": "Encontro e medidas em estudo",
     "material": "wood",
     "source": "FreeCAD R30/R31",
-    "notes": "Armário sobre o guarda-roupa e armário superior da cabeceira alinhados na mesma face inferior, sem móvel extra empilhado. Canto com duas portas independentes. Quatro faixas da cabeceira e juntas4 mm conforme R30. Material, ferragens, movimentos, teto e medidas acabadas ainda precisam de conferência. Alturas205/215 diferentes da versão antiga foram superadas."
+    "notes": "O armário sobre o guarda-roupa e o da cabeceira ficam alinhados pela mesma face inferior, sem móvel empilhado. O canto tem duas portas independentes. A cabeceira tem quatro faixas com juntas de 4 mm. Material, ferragens, abertura das portas e folga até o teto ainda a conferir."
   },
   {
     "id": "desk",
@@ -552,7 +552,7 @@ const ITEMS=[
     "measure": "Dimensões em estudo",
     "material": "wood",
     "source": "F92 / F99",
-    "notes": "Quantidade/lado/aparência aprovados. Abertura total, pega discreta. Não garantir abertura com cama preparada."
+    "notes": "Duas gavetas à esquerda, com abertura total e puxador discreto. Com a cama de hóspedes aberta, a abertura das gavetas não é garantida."
   },
   {
     "id": "setup",
@@ -582,26 +582,26 @@ const ITEMS=[
   {
     "id": "officechair",
     "room": "escritorio",
-    "name": "Cadeira · cenário Ultra Comfort",
+    "name": "Cadeira de escritório",
     "kind": "chair",
     "dimensions": "74,5 × 73 cm · altura 120 ilustrativa",
     "choice": "Em estudo",
     "measure": "Candidata",
     "material": "black",
     "source": "F89 / F94",
-    "notes": "Ultra Comfort não escolhida. LiberNovo também candidata. Fica estacionada no escritório durante visitas. Altura mínima dos braços pendente."
+    "notes": "Ultra Comfort e LiberNovo são as candidatas. Durante visitas, a cadeira fica no próprio escritório. Falta definir a altura mínima dos braços."
   },
   {
     "id": "officecab",
     "room": "escritorio",
-    "name": "Aéreo principal sobre sofá",
+    "name": "Armário superior sobre o sofá-cama",
     "kind": "upper",
     "dimensions": "200 ×35 ×55 cm · base190 e topo245 no cenário",
     "choice": "Aprovado",
     "measure": "Projeto aprovado",
     "material": "offwhite",
     "source": "R28/R31 e decisão17/10/2026",
-    "notes": "Aéreo com topo nominal a 245 cm; pé-direito de projeto de 260 cm, medida a confirmar (Elias, 27/10/2026): diferença de 15 cm até o teto. Caixa preservada; fechamento superior e montagem a compatibilizar. Setor para um capacete, uma sapatilha e um kit de ferramentas, com prateleiras reguláveis e ferramentas no estojo. Não criar módulo baixo ou móvel para caixa do PC. Dimensões dos objetos, carga e alcance a conferir."
+    "notes": "Topo a 245 cm, 15 cm abaixo do pé-direito de projeto de 2,60 m (a confirmar no imóvel). Guarda o equipamento de ciclismo, com capacete, sapatilha e kit de ferramentas, em prateleiras reguláveis. Faltam o acabamento superior, a montagem, o peso suportado e o alcance."
   },
   {
     "id": "officeshelf",
@@ -613,7 +613,7 @@ const ITEMS=[
     "measure": "Altura aprovada",
     "material": "wood",
     "source": "F154 / F155",
-    "notes": "Altura aprovada por circulação. Largura é reserva de estudo para possível Xbox. Sem armário acima. Acesso/carga/posição longitudinal a conferir."
+    "notes": "Altura definida para não atrapalhar a passagem. A largura deixa espaço para um possível Xbox. Sem armário acima. Acesso, peso e posição a conferir."
   },
   {
     "id": "tv43",
@@ -649,7 +649,7 @@ const ITEMS=[
     "measure": "Redistribuição dimensional em estudo",
     "material": "wood",
     "source": "R30/R31 ·20/10/2026",
-    "notes": "G1/G2/G3 preservados. Abertura total e amortecimento escolhidos, ferragens propostas no FreeCAD. Cocção com 613 mm externos e577 internos, abertura nominal560. Apoios e grelhas de estudo integrados, sem aprovação de carga ou fabricação. A bancada mantém63 cm de profundidade. Recortes e emenda com lavanderia dependem do executivo."
+    "notes": "Três gavetas com abertura total e fechamento amortecido. O vão do forno tem 613 mm externos, 577 mm internos e abertura de 560 mm, com base e grelhas removíveis. A bancada tem 63 cm de profundidade. Recortes e a emenda com a lavanderia dependem do desenho de fabricação."
   },
   {
     "id": "sinkstorage",
@@ -678,14 +678,14 @@ const ITEMS=[
   {
     "id": "kitchenupper",
     "room": "cozinha",
-    "name": "Aéreos A/B/C/D em Azul Petróleo",
+    "name": "Armários superiores em Azul Petróleo",
     "kind": "upper",
-    "dimensions": "80,1 + 69,7 + 54,7 + 65 cm · proposta R03",
+    "dimensions": "80,1 + 69,7 + 54,7 + 65 cm · proposta",
     "choice": "Aprovado para desenvolver",
     "measure": "Transição com lavanderia a conferir",
     "material": "petrol",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "A/D com divisória vertical. B com uma prateleira. C com três. D continua com 65 cm e avança 2,5 cm rumo à lavanderia. C cresce a 54,7 cm na proposta. Topo 255 cm preservado. Teto 257 cm pertence ao cenário anterior; novos testes usam 260 cm, medida a confirmar (Elias, 26/10/2026). A diferença aritmética de 5 cm não valida instalação ou folga. Perfil preto fosco na borda inferior, dobradiças amortecidas. Abertura integral preservada junto ao plafon."
+    "notes": "Armários A e D com divisória vertical, B com uma prateleira e C com três. O D tem 65 cm e avança 2,5 cm em direção à lavanderia; o C tem 54,7 cm. Topo a 255 cm, com pé-direito de projeto de 2,60 m a confirmar. Perfil preto fosco na borda inferior e dobradiças com amortecimento. As portas abrem livres junto ao plafon."
   },
   {
     "id": "fridge",
@@ -697,7 +697,7 @@ const ITEMS=[
     "measure": "Código de compra a conferir",
     "material": "inox",
     "source": "F119 / F160 / F161",
-    "notes": "Acabamento inox aprovado, substituindo o branco. Reserva de largura 80,1 cm e recuo traseiro de 10 cm são cenário. Abertura, medidas do código final e ventilação ainda precisam de validação."
+    "notes": "Acabamento Inox Look. Reserva de 80,1 cm de largura e 10 cm de recuo atrás. Conferir a abertura da porta, as medidas do código final e a ventilação."
   },
   {
     "id": "cooktop",
@@ -709,7 +709,7 @@ const ITEMS=[
     "measure": "Instalação ainda condicionada",
     "material": "black",
     "source": "Manual Electrolux · compatibilização19–20/10/2026",
-    "notes": "KE4GC preservado, gás GN já confirmado. Mesa60 ×45. Recorte52 ×39 cm. Altura total13,1 não é projeção inferior instalada. No cenário conservador131 mm inteiros abaixo da bancada, restam219 mm até o forno;209 após10 de tolerância de estudo. Caixa, fixações, gás/cabo, pedra e ventilação ainda a conferir."
+    "notes": "Gás natural. Mesa de 60 × 45 cm e recorte de 52 × 39 cm. Com 131 mm abaixo da bancada, restam cerca de 209 mm livres até o forno, já com margem. Conferir caixa, fixações, ligação de gás, pedra e ventilação."
   },
   {
     "id": "oven",
@@ -721,7 +721,7 @@ const ITEMS=[
     "measure": "Instalação e medidas a conferir",
     "material": "black",
     "source": "19–20/10/2026 · Fischer 28349-64929 · R02",
-    "notes": "Preto 127 V, elétrico 2061 W/16,22 A. Compra ainda não realizada. Substitui o Venax. Topo conservador 57 cm e base candidata 13,8 cm. Base plana apoiada em três nervuras até o piso, faixa traseira 45 ×560 mm e duas grelhas removíveis 600 ×90 mm, com 272,43 cm² abertos cada. Capacidade do apoio, montagem real, grelhas, circuito e temperatura não homologados. Manter 200 mm ao fundo do cooktop instalado."
+    "notes": "Preto, 127 V, elétrico (2061 W / 16,22 A). Ainda não comprado. Topo a 57 cm e base de 13,8 cm, apoiada em três nervuras até o piso, com faixa traseira de 45 × 560 mm e duas grelhas removíveis de 600 × 90 mm para ventilação. Manter 200 mm até o fundo do cooktop. Apoio, circuito e temperatura ainda a conferir."
   },
   {
     "id": "microwave",
@@ -733,7 +733,7 @@ const ITEMS=[
     "measure": "Conferência de encaixe e montagem pendente",
     "material": "black",
     "source": "F103 / F104 / 15/09",
-    "notes": "127 V. Mantidos 10 cm acima como escolha de layout, apesar da divergência com os 30 cm do manual. Instalação não validada."
+    "notes": "127 V. Fica com 10 cm livres acima, embora o manual indique 30 cm. A instalação ainda precisa ser conferida."
   },
   {
     "id": "hood",
@@ -769,7 +769,7 @@ const ITEMS=[
     "measure": "Conferência posterior",
     "material": "black",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Faz café por caneca. Rotina para duas canecas. Uso previsto na lavanderia sem roupas no varal. Espaço a definir: modelo e dimensões adiados; sem volume no desenho e sem encaixe simultâneo demonstrado na bancada da cozinha. Não presumir funcionamento simultâneo com air fryer."
+    "notes": "Faz café por caneca, duas por vez. Será usada na lavanderia quando o varal estiver sem roupas. O desenho não reserva espaço para ela: modelo e medidas ficam para depois. Não usar junto com a air fryer."
   },
   {
     "id": "sink",
@@ -818,7 +818,7 @@ const ITEMS=[
     "measure": "Hidráulica e apoios em estudo",
     "material": "stone",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Branco Itaúnas contínuo com a cozinha, com faixa de 10 cm na parede e arestas suavizadas. Telca Flex preta com cabeça extraível. Saída posterior com tampão, retentor removível e acabamento baixo. Reserva geométrica localizada de 7 cm para conexão na R08. Válvula, sifão e mangueira reais ainda não comprovados."
+    "notes": "Pedra Branco Itaúnas contínua com a cozinha, com faixa de 10 cm na parede e arestas suavizadas. Torneira Telca Flex preta com bica extraível. Saída de água atrás, com tampão e retentor removíveis. Válvula, sifão e mangueira a conferir."
   },
   {
     "id": "laundryupper",
@@ -830,7 +830,7 @@ const ITEMS=[
     "measure": "Hipótese",
     "material": "wood",
     "source": "F158",
-    "notes": "Transição após o cooktop. Testeira alinhada ao topo da cozinha. Espaço do aquecedor e varal preservado como estudo, com ventilação, exaustão e mecanismo a detalhar."
+    "notes": "Transição após o cooktop. Testeira alinhada ao topo da cozinha. Espaço reservado para o aquecedor e o varal, com ventilação, exaustão e mecanismo a detalhar."
   },
   {
     "id": "heater",
@@ -842,7 +842,7 @@ const ITEMS=[
     "measure": "Instalação pendente",
     "material": "offwhite",
     "source": "F106 / F107",
-    "notes": "GN confirmado. Aparelho e exaustão continuam candidatos de conferência de encaixe e montagem. Não foi comprado. Reserva desenhada não comprova funcionamento, ventilação ou instalação. Pressão/vazão e projetos da unidade pendentes."
+    "notes": "Gás natural. Aparelho e exaustão ainda a conferir; não foi comprado. O espaço desenhado não comprova ventilação nem instalação. Faltam os dados de pressão e vazão do prédio."
   },
   {
     "id": "drying",
@@ -854,7 +854,7 @@ const ITEMS=[
     "measure": "Mecanismo, carga e fixações pendentes",
     "material": "wood",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Movimento vertical, acionamento manual por manivela. Placa de ocultação removida na R35. Sem caixa fechada. Tanque limpo e livre serve de apoio à roupa da máquina. Curso, retenção, carga pretendida de 30 kg, janela e E21 a conferir. Alturas de uso mostradas são cenários."
+    "notes": "Varal que sobe e desce por manivela, sem caixa fechada. Com o tanque limpo, ele serve de apoio para as roupas da máquina. Faltam curso, trava, carga prevista de 30 kg e a relação com a janela e o aquecedor. As alturas mostradas são exemplos."
   },
   {
     "id": "bathvanity",
@@ -866,7 +866,7 @@ const ITEMS=[
     "measure": "Ferragens e hidráulica pendentes",
     "material": "bathbeige",
     "source": "BC43 incorporado à R45",
-    "notes": "Duas folhas de correr e quadro removível. Trilhos RM026 e RO25 são referências de estudo. Quatro M6 × 100 na proposta de fixação da frente. Abertura frontal livre 507 mm conforme R45. Quatro dobradiças antigas excluídas. Instalação, resistência, tolerâncias e hidráulica continuam a conferir."
+    "notes": "Duas portas de correr e frente removível para manutenção. Trilhos RM026 e RO25 como referência e quatro parafusos M6 × 100 para prender a frente. Abertura frontal livre de 507 mm. Instalação, folgas e hidráulica a conferir."
   },
   {
     "id": "basin",
@@ -903,7 +903,7 @@ const ITEMS=[
     "measure": "Dimensões e divisões em estudo",
     "material": "lightwood",
     "source": "18/09/2026",
-    "notes": "Frente toda espelhada, laterais Arauco Louro Freijó Poro e interior Branco TX. Duas portas e duas prateleiras removíveis preservadas. Desenho de montagem do projeto separado de 12Minifix para a caixa. Oito apoios.711 mantidos. Fixação dos espelhos e fixação na parede a dimensionar. Protótipo pendente. Teto3000 K, espelho 4000 K e indireta 3000 K, com comandos separados."
+    "notes": "Frente toda espelhada, laterais Arauco Louro Freijó Poro e interior Branco TX. Duas portas e duas prateleiras removíveis. A caixa é unida por 12 conectores Minifix. Fixação do espelho e da parede a definir; protótipo pendente. Luz de teto 3000 K, espelho 4000 K e indireta 3000 K, com comandos separados."
   },
   {
     "id": "bathlight",
@@ -911,11 +911,11 @@ const ITEMS=[
     "name": "Teto 3000 K +espelho 4000 K +indireta 3000 K",
     "kind": "lighting",
     "dimensions": "Firefly25 W; espelho2×550 mm /13,2 W; indireta até2 m /9,6 W",
-    "choice": "L02: componentes R$612,64 à vista; custo-benefício",
+    "choice": "Escolhido · custo-benefício",
     "measure": "Montagem e posições a validar. Frete/instalação fora do total",
     "material": "offwhite",
     "source": "24/10/2026",
-    "notes": "Teto Galaxy Firefly9605 branco IP44,3000 K. Espelho: mesma Cristallux COB CLX-FT331240,4000 K,IRC>90,1,10 m. Indireta: Cristallux SMD CLX-FT200530,3000 K,4,8 W/m,IRC>80,até 2 m.2 fontes Opus OPS31002 12 V/3 A/36 W/IP67,2 perfis MOV4329 com difusores. Três comandos separados. Total de componentesR$612,64 à vista, rolos inteiros incluídos;R$202,45 abaixo da L01 com espelho precificado. Perfil IP20 não viraIP65 pela fita. Encaixe interno, terminais, dissipação e luz no rosto a conferir. Barra inferior depende da torneira. Reservar até 276 mm por fonte até conferir o lote. Links: Banheiro/Fechamento_pre_entrega_2026-10-24/Luminarias_selecao_L02.html. Sem compra ou alteração no CAD."
+    "notes": "Teto: Galaxy Firefly 9605 branco, IP44, 3000 K. Espelho: fita Cristallux COB CLX-FT331240, 4000 K, IRC acima de 90, 1,10 m. Indireta: fita Cristallux SMD CLX-FT200530, 3000 K, 4,8 W/m, até 2 m. Duas fontes Opus OPS31002 de 12 V e dois perfis MOV4329 com difusores. Três comandos separados. Componentes: R$ 612,64 à vista, sem frete e instalação. Faltam conferir o encaixe, os terminais, a dissipação de calor e a luz no rosto."
   },
   {
     "id": "shower",
@@ -952,7 +952,7 @@ const ITEMS=[
     "measure": "Volume ilustrativo",
     "material": "greige",
     "source": "P01 / 18/09/2026",
-    "notes": "P01 identifica enchimento. A faixa de 30 cm e altura mostrada são apenas reserva gráfica. Elias informa fechamento de gesso e propõe acessar o ramal quente nessa região. Não remover automaticamente nem inferir o traçado exato das tubulações."
+    "notes": "Enchimento indicado na planta oficial, fechado em gesso. A faixa de 30 cm e a altura mostradas são aproximadas. Há a proposta de acessar o ramal de água quente por ali; o traçado real das tubulações precisa ser conferido."
   },
   {
     "id": "toilet",
@@ -964,7 +964,7 @@ const ITEMS=[
     "measure": "Esgoto e afastamentos a conferir",
     "material": "offwhite",
     "source": "18/09/2026",
-    "notes": "Caixa acoplada, assento PP de queda amortecida e Rimless. Substitui Elite. Frente nominal 65 cm na profundidade de 124 cm, ganho de 7 cm sobre Elite. Resultado instalado depende de eixo/folga traseira."
+    "notes": "Caixa acoplada, assento com queda amortecida e bacia Rimless. Frente a 65 cm, na profundidade de 124 cm do banheiro. O resultado depende do eixo do esgoto e da folga traseira."
   },
   {
     "id": "hygiene",
@@ -1024,7 +1024,7 @@ const ITEMS=[
     "measure": "Guarda a conferir",
     "material": "black",
     "source": "15/09/2026",
-    "notes": "Referência 61537000. Tradicional compacto, porta-talheres removível e bandeja inclinada. Usar junto à cuba e guardar limpo e seco no gabinete inferior. Substitui a esteira Mimo."
+    "notes": "Referência 61537000. Compacto, com porta-talheres removível e bandeja inclinada. Usar junto à cuba e guardar limpo e seco no gabinete inferior."
   },
   {
     "id": "pressurecooker",
@@ -1048,7 +1048,7 @@ const ITEMS=[
     "measure": "Implantação a conferir",
     "material": "inox",
     "source": "15/09/2026",
-    "notes": "Inox escovado, pedal e balde removível. No chão, na parede externa do banheiro, voltada para a mesa, no ponto verde aprovado. Substitui a Loop 12 L. Passagem nominal de ~107 cm até a mesa. Conferir rodapé, tampa e pedal."
+    "notes": "Inox escovado, pedal e balde removível. No chão, na parede externa do banheiro, voltada para a mesa. Deixa cerca de 107 cm de passagem até a mesa. Conferir rodapé, tampa e pedal."
   },
   {
     "id": "recycling",
@@ -1060,7 +1060,7 @@ const ITEMS=[
     "measure": "Implantação a conferir",
     "material": "inox",
     "source": "15/09/2026",
-    "notes": "Referência 94547020. Inox polido, pedal, fechamento suave e balde removível. No chão da lavanderia, no ponto vermelho aprovado. Libera o armário sob o tanque para o cesto de roupas. Conferir tampa, pedal e circulação."
+    "notes": "Referência 94547020. Inox polido, pedal, fechamento suave e balde removível. Fica no chão da lavanderia e deixa o armário sob o tanque livre para o cesto de roupas. Conferir tampa, pedal e circulação."
   },
   {
     "id": "kitchenfinish",
@@ -1120,7 +1120,7 @@ const ITEMS=[
     "measure": "Ferragem e retirada a conferir",
     "material": "wood",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Frente lisa Arenza, pega superior e ventilação discretas, mantendo continuidade da cozinha. Saco removível e lavável com alças e engates simples. Armação/frente também removíveis para manutenção do sifão. A geometria da R08 preserva os tamanhos. Mecanismo e peças hidráulicas continuam pendentes."
+    "notes": "Frente lisa Arenza, com puxador superior e ventilação discretos, em continuidade com a cozinha. Saco removível e lavável, com alças e engates simples. A armação e a frente também saem para a manutenção do sifão. Mecanismo e peças hidráulicas a conferir."
   },
   {
     "id": "laundrypower",
@@ -1144,7 +1144,7 @@ const ITEMS=[
     "measure": "Modelo e posição em seleção",
     "material": "offwhite",
     "source": "Decisões de 25–27/09/2026",
-    "notes": "Cor e aparência geral escolhidas. Testar posição fora da projeção da grelha para reduzir sombras das roupas, sem interferir em portas, chapa ou E21. Par definitivo ainda não escolhido. Não há ponto executivo representado."
+    "notes": "Cor e aparência geral escolhidas. Testar uma posição fora da projeção do varal para reduzir a sombra das roupas, sem interferir nas portas nem no aquecedor. Modelo ainda a escolher."
   },
   {
     "id": "laundryfinish",
@@ -1161,8 +1161,8 @@ const ITEMS=[
 ];
 const INTERNALS={
   "kitchenupper": {
-    "title": "Armários superiores da cozinha · interiores atuais",
-    "status": "Módulos P09 a P12 · modelo R45",
+    "title": "Armários superiores da cozinha · por dentro",
+    "status": "Módulos P09 a P12",
     "rows": [
       [
         "A · geladeira",
@@ -1181,10 +1181,10 @@ const INTERNALS={
         "Divisor na faixa dianteira de 118 mm. Reserva posterior para o duto."
       ]
     ],
-    "note": "Prévia derivada dos quatro módulos atuais. Profundidade externa nominal 350 mm. Conferir duto, ventilação, alcance e compatibilidade dos eletrodomésticos. O desenho não comprova instalação."
+    "note": "Prévia dos quatro módulos. Profundidade externa nominal 350 mm. Conferir duto, ventilação, alcance e compatibilidade dos eletrodomésticos. O desenho não comprova instalação."
   },
   "sinkstorage": {
-    "title": "Gabinete da pia · interior atual",
+    "title": "Gabinete da pia · por dentro",
     "status": "Prateleira de estudo. Hidráulica a conferir",
     "rows": [
       [
@@ -1246,11 +1246,11 @@ const INTERNALS={
         "Abaixo dos gabinetes, sem extensão sob o forno."
       ]
     ],
-    "note": "Kit Leão Aço selecionado: 6 fixos de 38 mm + 6 espaçadores metálicos de 1 mm = 39 mm. Útil 1187 × 406 × 88 mm preservado. Conferir peça recebida, fixação, guias, carga e percurso antes de fabricar."
+    "note": "Kit Leão Aço selecionado: 6 fixos de 38 mm + 6 espaçadores metálicos de 1 mm = 39 mm. Espaço útil de 1187 × 406 × 88 mm. Conferir peça recebida, fixação, guias, carga e percurso antes de fabricar."
   },
   "wardrobe": {
-    "title": "Guarda-roupa · interior atual",
-    "status": "Modelo R45. Medidas e ferragens a conferir",
+    "title": "Guarda-roupa · por dentro",
+    "status": "Medidas e ferragens a conferir",
     "rows": [
       [
         "Divisão",
@@ -1291,7 +1291,7 @@ const INTERNALS={
     "note": "Conjunto nominal 590 × 630 × 920 mm. Reservas e volumes do modelo não comprovam giro, mangueira ou instalação dos produtos reais."
   },
   "laundryupper": {
-    "title": "Armário superior da lavanderia · interior atual",
+    "title": "Armário superior da lavanderia · por dentro",
     "status": "Modelo P15 · vão único",
     "rows": [
       [
@@ -1310,7 +1310,7 @@ const INTERNALS={
     "note": "835 × 350 × 580 mm externos. Divisórias futuras exigem definição. Não estão representadas como existentes."
   },
   "officecab": {
-    "title": "Armário superior do escritório · interior atual",
+    "title": "Armário superior do escritório · por dentro",
     "status": "Modelo P17 · quatro vãos",
     "rows": [
       [
@@ -1329,7 +1329,7 @@ const INTERNALS={
     "note": "2.000 × 350 × 550 mm nominais. A prévia mostra os apoios presentes no CAD. Carga, alcance e distribuição de guarda continuam a conferir."
   },
   "drawers": {
-    "title": "Gaveteiro do escritório · interior atual",
+    "title": "Gaveteiro do escritório · por dentro",
     "status": "Modelo P16 · duas gavetas",
     "rows": [
       [
@@ -1345,7 +1345,7 @@ const INTERNALS={
         "Abertura total. Conferir ferragem, folgas e espaço dos braços da cadeira."
       ]
     ],
-    "note": "400 × 450 × 240 mm nominais no conjunto. A prévia preserva as peças atuais. Não define capacidade ou amortecimento."
+    "note": "400 × 450 × 240 mm nominais no conjunto. Não define capacidade ou amortecimento."
   },
   "bathvanity": {
     "title": "Gabinete do banheiro · portas de correr",
@@ -1364,10 +1364,10 @@ const INTERNALS={
         "Preservar acesso ao sifão e à água quente/fria."
       ]
     ],
-    "note": "Modelo BC43 incorporado à R45: conjunto 600 × 470 × 545 mm e abertura frontal nominal de 507 mm. Trilhos, fixações, hidráulica e tolerâncias ainda exigem conferência."
+    "note": "Conjunto de 600 × 470 × 545 mm e abertura frontal nominal de 507 mm. Trilhos, fixações, hidráulica e tolerâncias ainda exigem conferência."
   },
   "bathmirror": {
-    "title": "Espelheiro · interior atual",
+    "title": "Espelheiro · por dentro",
     "status": "Modelo P19 · duas prateleiras",
     "rows": [
       [
@@ -1383,7 +1383,7 @@ const INTERNALS={
         "Duas portas espelhadas, sem nichos abertos. Luz frontal 4000 K e indireta 3000 K."
       ]
     ],
-    "note": "600 × 150 × 750 mm externos. Conferir capacidade, alcance, fixação e eventual passagem de tubulação. A prévia segue o modelo atual."
+    "note": "600 × 150 × 750 mm externos. Conferir capacidade, alcance, fixação e eventual passagem de tubulação. "
   },
   "bedcabinet": {
     "title": "Armários superiores do quarto e canto em L",
@@ -1406,61 +1406,37 @@ const INTERNALS={
   }
 };
 const ROOM_NOTES={
-  "all": "Orientação da planta oficial (Torre 2, final 06). Consolidado com FreeCAD R45 e decisões até 24/10/2026. Todos os ambientes devem ficar prontos antes da mudança. Aparelhos escolhidos, ainda sem compra. Medidas e instalações reais pendentes.",
-  "sala": "Elias não gostou da bandeja lateral: a preferência é retomar depois a guarda convencional abrindo o baú. Apenas anotado em 20/10, sem aplicar a reversão agora. Até três jogos futuros; organização de aspirador, balde, potes e bebidas preservada. TV com apps na própria tela, Ambilight preferida e TCL alternativa.",
-  "quarto": "Queen com baú escolhida para o futuro; cama atual de viúvo, ainda não medida, para a mudança. Roupeiro 65 cm, aéreos alinhados em 213,2 cm e canto independente conforme modelo atual. Mala grande futura no baú, sem cabimento comprovado.",
-  "escritorio": "Prioridade de trabalho e Daiane preservadas. Aéreo com20 mm nominais de folga ao teto no cenário; ciclismo no próprio armário, com prateleiras reguláveis. Quantidades confirmadas, dimensões/carga/alcance pendentes.",
-  "cozinha": "Fischer Infinity com grill sem turbo substitui o Venax. Módulo613 mm, base em três nervuras e grelhas removíveis integrados como estudo. KE4GC preservado; GN confirmado. Falta conferir montagem real, elétrica, gás/conexões, pedra e temperatura.",
-  "lavanderia": "Tanque integrado 38 × 35 × 20 cm, cesto de frente lisa Arenza com saco removível e varal vertical 100 × 50 cm com chapa única. Continuidade da pedra e pintura fosca; tomada fixa 20 A e luz 3000 K independente. Air fryer/cafeteira só operam aqui sem roupas. Hidráulica, ferragens, E21 e pontos ainda em estudo.",
-  "banho": "Espelho4000 K e indireta3000 K, com comandos separados. VIP, Slim, Arion, gabinete fechado, uma parede verde e Livo preservados. Água quente, medidas de box/porta, luminárias e instalações ainda em desenvolvimento."
+  "all": "Planta oficial da Torre 2, final 06. Todos os ambientes ficam prontos antes da mudança. Aparelhos escolhidos, ainda sem compra. Medidas e instalações reais a conferir no imóvel.",
+  "sala": "Sofá-cama Bonnie, mesa extensível Berlin e banco com baú. Espaço de guarda para até três jogos, aspirador, balde, potes e bebidas. TV com aplicativos na própria tela: Philips Ambilight preferida, TCL como alternativa.",
+  "quarto": "Cama de viúvo atual na mudança e queen com baú no futuro. Guarda-roupa de 65 cm, armários superiores alinhados a 213,2 cm e armário de canto independente. A mala grande deve caber no baú da cama.",
+  "escritorio": "Prioridade para o trabalho, com o sofá-cama Daiane para hóspedes. O armário superior guarda o equipamento de ciclismo em prateleiras reguláveis. Medidas, peso e alcance a conferir.",
+  "cozinha": "Forno Fischer Infinity com grill, cooktop Electrolux KE4GC a gás natural, armários superiores em Azul Petróleo e base em Arenza. Faltam conferir montagem, elétrica, gás, pedra e ventilação.",
+  "lavanderia": "Tanque integrado de 38 × 35 × 20 cm, cesto de frente lisa Arenza com saco removível e varal vertical de 100 × 50 cm. Pedra contínua e pintura fosca; tomada fixa de 20 A e luz 3000 K independente. Air fryer e cafeteira só funcionam aqui sem roupas no varal. Hidráulica, ferragens, aquecedor e pontos em estudo.",
+  "banho": "Luz de espelho 4000 K e indireta 3000 K, com comandos separados. Bacia VIP, cuba Slim, torneira Arion, gabinete fechado, ducha Livo e uma parede verde no box. Água quente, box, luminárias e instalações em desenvolvimento."
 };
 const SOURCES=[
   [
-    "20/10 · consolidação R11 / FreeCAD R31",
-    "Fischer, apoios e grelhas, banco híbrido, armários superiores/guarda-roupa, cama atual/futura, ciclismo, inventário, luz do banheiro e TV. Escolhas separadas de propostas técnicas."
-  ],
-  [
-    "25–27/09 · cozinha e lavanderia",
-    "Gavetas, cabos fixos, tanque/cesto, bancada de 63 cm em estudo, pegas, ferragens, pintura, tomadas e iluminação."
-  ],
-  [
-    "P01 · Planta oficial",
+    "Planta oficial",
     "Contorno, medidas e distribuição original."
   ],
   [
-    "F126–135",
-    "Bonnie e guarda-roupa interno R02."
+    "Sala e quarto",
+    "Sofá Bonnie, TV 50″, mesa, prateleiras, cabeceira e guarda-roupa."
   ],
   [
-    "F139–159",
-    "TV 50″, mesa e prateleiras acima/abaixo da TV."
+    "Escritório",
+    "Armário superior, prateleira dos consoles, sofá-cama e ciclismo."
   ],
   [
-    "F150–155",
-    "Cabeceira, armário superior do escritório e prateleira dos consoles."
+    "Cozinha e lavanderia",
+    "Aparelhos, gavetas, tanque, cesto, varal, pedra, pintura, tomadas e iluminação."
   ],
   [
-    "F158–161",
-    "Correções de implantação e acabamentos Inox Look."
+    "Banheiro",
+    "Bacia, cuba, gabinete, espelho, cores, luz e água quente."
   ],
   [
-    "F162 · 15/09",
-    "Organização da cozinha/lavanderia e rotina dos aparelhos."
-  ],
-  [
-    "Consolidação 15/09",
-    "Armários superiores A/B/C/D, gabinete da pia e gaveta baixa com rodas."
-  ],
-  [
-    "F103–116",
-    "Equipamentos, limitações de instalação e ciclo do varal."
-  ],
-  [
-    "18/09 · banheiro",
-    "VIP, Slim, Arion, gabinete/espelho, cores, luz e rotas de água quente."
-  ],
-  [
-    "15/09 · pisos",
-    "Vinílico, Olmo como preferência. Aveia/Bétula para amostras."
+    "Pisos",
+    "Vinílico Olmo como preferência; Aveia e Bétula para comparar."
   ]
 ];
