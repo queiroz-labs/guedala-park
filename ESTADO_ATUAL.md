@@ -28,7 +28,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site e pacote para o montador | R54/R27; galeria Dia/Noite; publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site e pacote para o montador | R54/R28; galeria e ensaios de oficina; publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias 27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 
@@ -76,7 +76,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
 | P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
 | P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |
-| Ensaios de oficina, incluindo P14/P20 | [Caderno e registro único](04_Moveis/Ensaios_oficina/README.md) | Preparado em 28/10: 13 frentes sem depender das chaves; execução pendente, desenhos/protocolos e cotação a fechar; instalação real após levantamento |
+| Ensaios de oficina | [Caderno, PDF e ZIP](06_Entregas/Ensaios_oficina/README.md) | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |
 | P08 | [Rodízios e estabilidade](04_Moveis/P08/README.md) | Massas, contato, guias, batente, retirada completa |
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Proposta FGVTN 500, fixação das frentes, consulta não enviada |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |

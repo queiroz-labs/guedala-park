@@ -4,6 +4,8 @@ Pacote preparado em 28/10/2026 a pedido de Elias nesta conversa. **Todos os ensa
 
 [Caderno único: procedimentos, compras e mensagem](Caderno.md) · [Registro único de medições](Registro.csv) · [Verificador](../../ferramentas/estudos/verificar_ensaios_oficina.py).
 
+[PDF e ZIP para enviar à oficina](../../06_Entregas/Ensaios_oficina/README.md): extraia o pacote e abra `COMECE_AQUI.html`. Execução física pendente; fontes selecionadas e registro vazio incluídos.
+
 Entregar esta pasta com os documentos de origem abaixo, mantendo os caminhos relativos. O caderno é a ordem de serviço para preparação e orçamento. Onde faltam produto, corte, furação ou protocolo, ele identifica o bloqueio: não é possível prometer execução integral imediata sem essas definições. “Não depende do apartamento” não significa que já tenha ferragens e protocolo fechados.
 
 ## Levantamento e decisão que cada ensaio atende

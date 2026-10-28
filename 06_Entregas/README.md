@@ -1,5 +1,7 @@
 # Entregas — manifesto e versões
 
+**Ensaios de oficina, 28/10/2026:** [PDF e ZIP](Ensaios_oficina/README.md) com caderno, CSV vazio, verificador e fontes selecionadas. Todos pendentes de execução. Publicação no site autorizada por Elias nesta conversa: “pode fazer o push e atualizar o site com essas infos”.
+
 **Moodboard / pacote R27, 28/10/2026:** [seis pares, painéis 4K e A3](../09_Referencias/README.md), galeria Dia/Noite e ducha à esquerda do vaso no site/especificações. R27 renova o HTML e documentos do ZIP; R26 permanece preservado. CAD R54 intacto. Elias, nesta conversa: “Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.”
 
 **Berlin R54 / pacote R26, 27/10/2026:** pedestais aproximados e cadeira lateral fechada afastada 15 mm. Verificação completa: 106 cenários, sem colisões novas. Publicação autorizada por Elias nesta tarefa, 27/10/2026: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Modelo e relatório](../02_Modelo_3D/README.md). Publicado e conferido em 28/10/2026: [workflow concluído](https://github.com/queiroz-labs/guedala-park/actions/runs/40624910383), metadados R54/R26 e SHA do CAD `4a2996ee63dd`; [ZIP remoto R26](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R26.zip) com 297 entradas, CRC e hashes íntegros. `verificar_tudo.py`, clone limpo `--ci` e `verificar_site.py`: OK.

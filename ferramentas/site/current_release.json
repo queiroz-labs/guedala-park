@@ -11,10 +11,10 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R27",
+  "packageRevision": "R28",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R27.zip",
-  "archiveRoot": "Guedala_Park_R27",
+  "packageFile": "Guedala_Park_R28.zip",
+  "archiveRoot": "Guedala_Park_R28",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
@@ -22,7 +22,7 @@
   "lastPublishedCadRevision": "R54",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
   "lastPublishedPackageRevision": "R26",
-  "notes": "R27: galeria Dia/Noite e PDFs do moodboard aprovados; ducha à esquerda do vaso no site e especificações. CAD R54 preservado. Elias, 28/10/2026: \"Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.\"",
+  "notes": "Pacote R28 com caderno PDF e ZIP de ensaios de oficina; todos pendentes de execução. CAD R54 preservado. Elias, 28/10/2026, nesta conversa: \"pode fazer o push e atualizar o site com essas infos\".",
   "technicalDocuments": [
     {
       "id": "pe-direito",
@@ -286,6 +286,21 @@
       "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md",
       "summary": "Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado; medidas do produto sem desenho técnico.",
       "files": []
+    },
+    {
+      "id": "ensaios-oficina",
+      "title": "Ensaios de oficina",
+      "room": "all",
+      "category": "Oficina",
+      "status": "Pendente de execução",
+      "summary": "Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem.",
+      "path": "06_Entregas/Ensaios_oficina/index.html",
+      "files": [
+        "06_Entregas/Ensaios_oficina/Caderno_ensaios_oficina.pdf",
+        "06_Entregas/Ensaios_oficina/Pacote_ensaios_oficina.zip",
+        "06_Entregas/Ensaios_oficina/Manifesto.json",
+        "04_Moveis/Ensaios_oficina/Registro.csv"
+      ]
     }
   ]
 }

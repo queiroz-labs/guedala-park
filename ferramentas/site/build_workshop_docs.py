@@ -80,7 +80,7 @@ doc('planta-cotada','Planta cotada · distâncias entre paredes','Arquitetura','
 
 doc('banco-atual','Banco P20: assento, apoios e operação','Montagem','sala','Condicionado','Direção piano e trava; composição, ligações e capacidade ainda dependem de detalhamento e protótipo.','04_Moveis/P20/Assento_fechado/README.md')
 for item in RELEASE.get('technicalDocuments',[]):
-    doc(item['id'],item['title'],'Avanços e pendências',item['room'],'Estudo separado',item['summary'],item['path'])
+    doc(item['id'],item['title'],item.get('category','Avanços e pendências'),item['room'],item.get('status','Estudo separado'),item['summary'],item['path'])
 
 ASSETS = [
     'ferramentas/site/current_release.json',

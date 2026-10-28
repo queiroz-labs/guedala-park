@@ -1,0 +1,943 @@
+{
+  "estado": "pendente de execução",
+  "fontes": [
+    "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+    "04_Moveis/Aereos_suspensao/Corpos_prova_fundo_laterais.csv",
+    "04_Moveis/Aereos_suspensao/Lote_B_fontes_Minifix.json",
+    "04_Moveis/Aereos_suspensao/Lote_B_ligacoes_internas.csv",
+    "04_Moveis/Aereos_suspensao/Lote_B_ligacoes_traseiras.csv",
+    "04_Moveis/Aereos_suspensao/Lote_B_mapa_reconciliado.csv",
+    "04_Moveis/Aereos_suspensao/P04_acesso_e_suspensao.png",
+    "04_Moveis/Aereos_suspensao/P04_casos_qualificacao.csv",
+    "04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf",
+    "04_Moveis/Aereos_suspensao/P04_preparacao_ensaios.json",
+    "04_Moveis/Aereos_suspensao/P04_registro_laboratorio.csv",
+    "04_Moveis/Aereos_suspensao/P04_retalhos_T0.csv",
+    "04_Moveis/Aereos_suspensao/P04_roteiro_validacao.txt",
+    "04_Moveis/Aereos_suspensao/P12_eixos_fixadores.csv",
+    "04_Moveis/Aereos_suspensao/P12_mapa_juntas.csv",
+    "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.csv",
+    "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.txt",
+    "04_Moveis/Aereos_suspensao/P12_suspensao.png",
+    "04_Moveis/Aereos_suspensao/P17_eixos_fixadores.csv",
+    "04_Moveis/Aereos_suspensao/P17_mapa_juntas.csv",
+    "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.csv",
+    "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.txt",
+    "04_Moveis/Aereos_suspensao/P17_suspensao.png",
+    "04_Moveis/Aereos_suspensao/README.md",
+    "04_Moveis/Aereos_suspensao/Roteiro_apoio_caixa.txt",
+    "04_Moveis/Avanco_pendencias/Ferragens/FGVTN_Oculta_ET_montagem_Set24.png",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Bigfer_112.pdf",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Mahler_54_2000.pdf",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Omega_7379.pdf",
+    "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md",
+    "04_Moveis/Cargas_e_ligacoes/Dados_para_fornecedor_e_oficina.md",
+    "04_Moveis/Ensaios_oficina/Caderno.md",
+    "04_Moveis/Ensaios_oficina/README.md",
+    "04_Moveis/Inventario_dimensional/Gavetas/Ajuste_vertical_e_retirada.md",
+    "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Blum_MOVENTO_oficial.pdf",
+    "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+    "04_Moveis/Inventario_dimensional/Gavetas/Pecas_proposta_FGVTN_500.csv",
+    "04_Moveis/Inventario_dimensional/Gavetas/README.md",
+    "04_Moveis/Inventario_dimensional/Gavetas/Requisitos_conjunto_G2.csv",
+    "04_Moveis/Ligacoes_sem_tubos/Roteiro_ensaios_e_requisitos.md",
+    "04_Moveis/P04/Suspensao_P04_P15/README.md",
+    "04_Moveis/P08/Apoios.png",
+    "04_Moveis/P08/README.md",
+    "04_Moveis/P14/Reacoes_e_operacao/Montagem_nominal.json",
+    "04_Moveis/P14/Reacoes_e_operacao/README.md",
+    "04_Moveis/P14/Reacoes_e_operacao/Reacoes_parada_55.png",
+    "04_Moveis/P14/Reacoes_e_operacao/Registro_montagem.csv",
+    "04_Moveis/P15/Composicao_parcial/README.md",
+    "04_Moveis/P16/Gavetas_estabilidade/Planta_movimento_apoios.png",
+    "04_Moveis/P16/Gavetas_estabilidade/README.md",
+    "04_Moveis/P16/Interface_guia_fundo/Mapa_intersecoes.png",
+    "04_Moveis/P16/Interface_guia_fundo/README.md",
+    "04_Moveis/P16/Interface_guia_fundo/Referencia_G2_e_furos_P16.json",
+    "04_Moveis/P20/Assento_fechado/Interfaces_montagem.csv",
+    "04_Moveis/P20/Assento_fechado/Mapa_contatos.png",
+    "04_Moveis/P20/Assento_fechado/Montagem_aberta.png",
+    "04_Moveis/P20/Assento_fechado/Montagem_prototipo.svg",
+    "04_Moveis/P20/Assento_fechado/README.md",
+    "04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+    "09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Bigfer_suportes_aereos.pdf"
+  ],
+  "referencias_complementares_nao_incluidas": [
+    {
+      "fonte": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "referencia": "Selecao.json"
+    },
+    {
+      "fonte": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "referencia": "Guedala_Park_R45_Rodizios_P08.FCStd"
+    },
+    {
+      "fonte": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "referencia": "Verificacao_CAD.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../P17/Base_fundo_ligacoes/README.md"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../P12/README.md"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Lote_B_premissas.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Lote_B_caixa_e_ligacoes.png"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Lote_B_geometria.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Lote_B_detalhamento.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Lote_B_verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "P04_validacao.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "P04_verificacao_validacao.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../../AGENTS.md"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Selecao_ferragem.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Selecao_ferragem.png"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Detalhamento_P09_P11_P15.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Apoio_e_caixa.png"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Apoio_e_caixa.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Verificacao_apoio_caixa.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Reacoes_apoio_inferior.csv"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Requisitos_suporte_L.csv"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Solicitacoes_suporte_L.csv"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Verificacao_selecao.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../../09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/README.md"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../../09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/README.md"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Consulta_suspensao_lote_A.txt"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Consulta_depurador_P09.txt"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Detalhamento_P09_P11_P15.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Mapa_ligacoes_P09_P11_P15.csv"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Solicitacoes_fixacao_direta.csv"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Verificacao_ligacoes_P09_P11_P15.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Interface_depurador_42mm.png"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "../../09_Referencias/Plantas_e_manuais/Manuais/Suggar_DE61IX_DE62IX.pdf"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Depurador_dados_e_pendencias.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Geometria_R51.json"
+    },
+    {
+      "fonte": "04_Moveis/Aereos_suspensao/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md",
+      "referencia": "Diretriz.md"
+    },
+    {
+      "fonte": "04_Moveis/Ensaios_oficina/README.md",
+      "referencia": "../../ferramentas/estudos/verificar_ensaios_oficina.py"
+    },
+    {
+      "fonte": "04_Moveis/Ensaios_oficina/README.md",
+      "referencia": "../../06_Entregas/Ensaios_oficina/README.md"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Ajuste_vertical_e_retirada.md",
+      "referencia": "Ajuste_vertical_retirada.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "Fixacao_frentes.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "../../Avanco_pendencias/Gavetas/Geometria_extraida_R42.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "Conferencia_solidos_G2.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "../../../06_Entregas/Fichas_fabricacao/P06-pecas.csv"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "../../Acabamentos_por_peca.csv"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "../../../ferramentas/site/fabrication/Decisao_acabamentos_R13.md"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "referencia": "Validacao_fixadores_G2.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/README.md",
+      "referencia": "Conferencia_P01_P06.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/README.md",
+      "referencia": "Proposta_FGVTN_500.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/README.md",
+      "referencia": "Conferencia_solidos_G2.json"
+    },
+    {
+      "fonte": "04_Moveis/Inventario_dimensional/Gavetas/README.md",
+      "referencia": "../../../02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026"
+    },
+    {
+      "fonte": "04_Moveis/Ligacoes_sem_tubos/Roteiro_ensaios_e_requisitos.md",
+      "referencia": "P04_auditoria_referencias.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Aereos_suspensao/P04_validacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Aereos_suspensao/P04_verificacao_validacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Aereos_suspensao/P04_verificacao_preparacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Aereos_suspensao/Lote_B_premissas.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Ligacoes_sem_tubos/README.md"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "Binario_suspensao.png"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../Inventario_dimensional/Inventario/Ferragens_fixas.md"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "Geometria_e_portas_R51.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "calcular.py"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "Metadado_a_reconciliar.json"
+    },
+    {
+      "fonte": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "referencia": "../../../ferramentas/cinematica/README.md"
+    },
+    {
+      "fonte": "04_Moveis/P08/README.md",
+      "referencia": "Conferencia_percurso.json"
+    },
+    {
+      "fonte": "04_Moveis/P08/README.md",
+      "referencia": "Reacoes.csv"
+    },
+    {
+      "fonte": "04_Moveis/P08/README.md",
+      "referencia": "Apoios.json"
+    },
+    {
+      "fonte": "04_Moveis/P08/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Verificacao_montagem.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "../../Inventario_dimensional/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Componentes_pendentes.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Geometria_R51.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "calcular.py"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "verificar.py"
+    },
+    {
+      "fonte": "04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P15/Composicao_parcial/README.md",
+      "referencia": "../../Ligacoes_sem_tubos/README.md"
+    },
+    {
+      "fonte": "04_Moveis/P15/Composicao_parcial/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/P15/Composicao_parcial/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P15/Composicao_parcial/README.md",
+      "referencia": "Fontes.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "../../Bancada/README.md"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Correcao_metadado_preparada.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Geometria_R51.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Conferencia_movimento.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Estabilidade.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "referencia": "Correcao_metadado_preparada.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Interface_guia_fundo/README.md",
+      "referencia": "Intersecoes_localizadas.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Interface_guia_fundo/README.md",
+      "referencia": "Diagnostico.json"
+    },
+    {
+      "fonte": "04_Moveis/P16/Interface_guia_fundo/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md#margens-geométricas-de-engate--t04-26102026"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Montagem_aberta.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Reacoes_abertas.csv"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Trava_distancia_angulo.csv"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Verificacao_montagem_aberta.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../Cargas_e_ligacoes/README.md"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Caminho_e_massas.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Caminho_e_massas.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../../03_Ambientes/Sala_e_jantar/Retirada_ponta/Materiais_ligacoes_trava_R02.html"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Consulta_tecnica.md"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Geometria_R51.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Resultados.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "Verificacao.json"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "extrair.py"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "calcular.py"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/README.md",
+      "referencia": "fechar.py"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+      "referencia": "../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md"
+    },
+    {
+      "fonte": "04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+      "referencia": "Registro_ensaio.csv"
+    }
+  ],
+  "arquivos": [
+    {
+      "caminho": "COMECE_AQUI.html",
+      "bytes": 10204,
+      "sha256": "e122c68fe14ae216f2cb921287a7cf847d287307f0cd756814decf78da21b73f"
+    },
+    {
+      "caminho": "Caderno_ensaios_oficina.pdf",
+      "bytes": 132421,
+      "sha256": "6d499a7c93f8fe40bebc34e992a6cf4d74351fa525510e8a324031be73e263c5"
+    },
+    {
+      "caminho": "Fontes/03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "bytes": 3178,
+      "sha256": "1c2d8f58963fcb4dca16a89cd6f4f6e68cce8100163ffa3972563f85a1832aea"
+    },
+    {
+      "caminho": "Fontes/03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md.html",
+      "bytes": 4220,
+      "sha256": "3c481180e06e3421c4099bf4479a69096e9d35b78e4b883201b53a8acfbf4b25"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Corpos_prova_fundo_laterais.csv",
+      "bytes": 6903,
+      "sha256": "7c9eb1e8faad0f9cd538aa7298f64eb111c8957e26c4d678761ea12bde5073bd"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Lote_B_fontes_Minifix.json",
+      "bytes": 943,
+      "sha256": "7bc98543adeb941a42ad65b7e8f3288ef8d4a71250e6ef4e0d2bf7b43e132d8c"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Lote_B_ligacoes_internas.csv",
+      "bytes": 17928,
+      "sha256": "a4dfb7d476d2a0a5acfc2ffcf00704f14aa82abe24d0f3b1013413443aae6fe9"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Lote_B_ligacoes_traseiras.csv",
+      "bytes": 15737,
+      "sha256": "0d4e7267f4dee78605db4a6bce8746ffba301bbbc35844e79fd58d00d541be32"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Lote_B_mapa_reconciliado.csv",
+      "bytes": 7243,
+      "sha256": "a14b70f2d0b3f59be1ebc0e2cc3bf6d36c82358b95000796cea6b973748083e5"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_acesso_e_suspensao.png",
+      "bytes": 101126,
+      "sha256": "ffd3fbff82ac471641428fd507f8ca916b9ef8b8aff2d39ef1419d1a64a4f839"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_casos_qualificacao.csv",
+      "bytes": 1713,
+      "sha256": "1db2b198bd635c89e6ed5ad2b8fec6008ed38ad33a1c0041294f47d492151343"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_ensaios_laboratorio.pdf",
+      "bytes": 12971,
+      "sha256": "33a70f142727f63b3ae6d5b9c7cd5f4fa9f503cbb5638e544a613b6c15158439"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_preparacao_ensaios.json",
+      "bytes": 31686,
+      "sha256": "cb6623b3df1d25c9124c009c8f7ef89a6b625f9bd17cd60f7264535870c84769"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_registro_laboratorio.csv",
+      "bytes": 1480,
+      "sha256": "56d72f45a644bfd62dcff66dd40f997b88e7cce4af1cc26e4894602ac3f30467"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_retalhos_T0.csv",
+      "bytes": 917,
+      "sha256": "116202815ec2a59f8236e5fed96f4a22c9bc34cf897797532b178cb5d459d3d3"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P04_roteiro_validacao.txt",
+      "bytes": 5003,
+      "sha256": "81acd6f86175fc6861506fd1878555e4e075c1121a5e88077512b5aa459c6270"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P12_eixos_fixadores.csv",
+      "bytes": 6842,
+      "sha256": "e3325bf59dbd5b020332681b34647b27e78f6abdf45aaae2641bb8c429bf1ff5"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P12_mapa_juntas.csv",
+      "bytes": 3766,
+      "sha256": "3b14307600dca07302743c251953079d2361320cb0aed559e3abb9e5a0a7d97b"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.csv",
+      "bytes": 1279,
+      "sha256": "86a3ffc1da0ab110f9ffbe2d99d60d2e85c6f567452652001914ea3d13e536a7"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.txt",
+      "bytes": 1870,
+      "sha256": "950adcb62585bba58a4a7acdcb476f764d70a9ab5372c7766794934640f548b0"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P12_suspensao.png",
+      "bytes": 88146,
+      "sha256": "df80f885b5104353526b8ca070bac8fea752a298be596ad76fb4ab1554df0359"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P17_eixos_fixadores.csv",
+      "bytes": 22918,
+      "sha256": "93fece132a97813a7e50d6efe4ccd6efda22d73efcbe098d8b4abdd97ed4c781"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P17_mapa_juntas.csv",
+      "bytes": 9394,
+      "sha256": "8eb457c620050b314c3e46b2d5a7ded6dcb68a9d2fc6f8b61afd03941e7e7c45"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.csv",
+      "bytes": 1339,
+      "sha256": "237f4486e07b663fcf51fe19338168860322fcc96495e0f0590091ca8694203e"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.txt",
+      "bytes": 1889,
+      "sha256": "5d0c3293f84c06e6f9fc50aa021a1a97eb2e19db44dfc85ccb8cd238b55248c7"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/P17_suspensao.png",
+      "bytes": 87249,
+      "sha256": "6162d9a70014d7ffb84e1d791194bf3fecd33aa00fe585ca687aab0663d76fe3"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/README.md",
+      "bytes": 16497,
+      "sha256": "b623c9de64b623827b0ffcbf01ebf152fd1edfefcad238f54807cf60bf1756bf"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/README.md.html",
+      "bytes": 19504,
+      "sha256": "dcc9e74dfa939390f8e289bf6f5f990fcd37b0dfba5697668e75e46d73a30372"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Aereos_suspensao/Roteiro_apoio_caixa.txt",
+      "bytes": 4028,
+      "sha256": "a52f5b6dc121bb2a62e59c9d16340753e5d9826757286d00acf339c3ac65c500"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Avanco_pendencias/Ferragens/FGVTN_Oculta_ET_montagem_Set24.png",
+      "bytes": 210665,
+      "sha256": "0b84e65decc81414b368755795365b7d0ec13b9ee12ce22252a11f636b640e7e"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Bigfer_112.pdf",
+      "bytes": 1546595,
+      "sha256": "629ba00ac5c4fe878deeb6730da829156aabb16914aadb35b9cad7108d6c9f86"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Mahler_54_2000.pdf",
+      "bytes": 751945,
+      "sha256": "87a3b72438f4aa6ae7bf6ada508b4833bc77c108deff47f3c0eaf99588badc6d"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Banco_e_cesto/Cesto_simples/Conferencia/Fontes/Omega_7379.pdf",
+      "bytes": 322103,
+      "sha256": "735a955472aa1e5a4a71b7f9e92bcbef6fd74ae4de5d2f1bb92f038d0cca4151"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md",
+      "bytes": 6158,
+      "sha256": "614460763997d32705d305eff39a44e90c81393a481afcb229206d37162b0f46"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md.html",
+      "bytes": 7575,
+      "sha256": "1e9da74f079ec57db93b2c1937736e3eb7868a402603dc59ef8a5f0d939a31eb"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Cargas_e_ligacoes/Dados_para_fornecedor_e_oficina.md",
+      "bytes": 3434,
+      "sha256": "e9568f8e0a329e69347812ee515cce91a7a21aae662d34b608b7199a4bf29cdc"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Cargas_e_ligacoes/Dados_para_fornecedor_e_oficina.md.html",
+      "bytes": 4391,
+      "sha256": "7d9c26f0356f1d7fb515edd515d28f0b06e35a8b14685bc8c62cee5321650f9c"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ensaios_oficina/Caderno.md",
+      "bytes": 42341,
+      "sha256": "0283fa10b496e32a3418ee9b5df211a6e591e7d08c3fe069a86b05f31651bae1"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ensaios_oficina/Caderno.md.html",
+      "bytes": 47290,
+      "sha256": "c48b66d66c5321a9ebb493bbfdad974887bebb1a365b82a1aa1c0717f8b85d84"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ensaios_oficina/README.md",
+      "bytes": 6579,
+      "sha256": "37bd2bf81280054e8ad1f3156f3d993c90364be92e91ea6163a85224d0cb56d6"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ensaios_oficina/README.md.html",
+      "bytes": 8610,
+      "sha256": "40ecab37d68ee61736261d7ac55b802afb6dc5ffd964ef9a1dc2911aafb0fe31"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Ajuste_vertical_e_retirada.md",
+      "bytes": 8377,
+      "sha256": "f4bd962fdb1daecf441a17d52acaf2962a95bf70cd2ab8e065010ae57623aab8"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Ajuste_vertical_e_retirada.md.html",
+      "bytes": 9955,
+      "sha256": "24492eed6168e2f67d36493e2b0dffb12e902c1f2ebef1202a8982b76ce5a8b0"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Blum_MOVENTO_oficial.pdf",
+      "bytes": 5336768,
+      "sha256": "0424b89186f02c2d165498b0ca33f8a9a67b59650f1c3a14db0862cec9ab7192"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md",
+      "bytes": 25802,
+      "sha256": "88f747b66960199859649418ba062f5ffc6dc567ee54f187894827b0acc6a31c"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Fixacao_frentes.md.html",
+      "bytes": 29278,
+      "sha256": "b7aad3299c921fd59d6b2c1392a250a57df19550eeb99f528af49322e3c20f50"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Pecas_proposta_FGVTN_500.csv",
+      "bytes": 8766,
+      "sha256": "abb4f35d5c3b4c4ea4a2dcfb7e4ea3f0961b844513fe5f1fa5fd961e3a70e08a"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/README.md",
+      "bytes": 15439,
+      "sha256": "da189e8fc3a332b3c32dfd3677065181db2749b6122da44608a777aea2a1bff1"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/README.md.html",
+      "bytes": 17988,
+      "sha256": "2a5f5238da4f40a61323f3ffa24807c3a451a4cd5ee9f657d572dafc0f0cfc73"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Inventario_dimensional/Gavetas/Requisitos_conjunto_G2.csv",
+      "bytes": 1761,
+      "sha256": "7058ec01bbde359e467a5ee042efc3fac3244c5edf417ea50cb333150b29448d"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ligacoes_sem_tubos/Roteiro_ensaios_e_requisitos.md",
+      "bytes": 8357,
+      "sha256": "f83ab1fda971a34eddd2e2c1344fa4ec7cf9e8db8b5babfc5d45716523fb0fde"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/Ligacoes_sem_tubos/Roteiro_ensaios_e_requisitos.md.html",
+      "bytes": 9596,
+      "sha256": "2a7e287f0d43c0970890257a7759b00f8df64e91ca6605bbdbee29f47137ba9b"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "bytes": 16057,
+      "sha256": "6ea11a3389b0541ac85e4ead26d6a7d0aeac2d223d5ab32943c1da2bcc65f660"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P04/Suspensao_P04_P15/README.md.html",
+      "bytes": 18398,
+      "sha256": "507fd5e2f82c1472d975de05015642ed6152c7144cc28b6af1858101203cccd3"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P08/Apoios.png",
+      "bytes": 45602,
+      "sha256": "1a54545d2934f114e7ccf2ef1be1885eeea372af2057a36cb2258be84aeb014b"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P08/README.md",
+      "bytes": 8683,
+      "sha256": "d51b4f23c19da094d3614ef176c4a89d6e9270aba6cc8c6e62327ee97927b2b3"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P08/README.md.html",
+      "bytes": 10225,
+      "sha256": "fc03f84f92da7aff661d26795050d66ce39d5cb73d4fc10da1b22904626dd79a"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P14/Reacoes_e_operacao/Montagem_nominal.json",
+      "bytes": 8199,
+      "sha256": "c59d87ef23379f1f88c8bc558d261e1d0d87efd22e95aeaaca14a22b0ded0969"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P14/Reacoes_e_operacao/README.md",
+      "bytes": 13906,
+      "sha256": "c01fa636a70ac52ddc5d0105fbac7209e41500c57d68296dbde0dfec993dfc8e"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P14/Reacoes_e_operacao/README.md.html",
+      "bytes": 16033,
+      "sha256": "f43197b413bda2d365bf81d223b9cb7711180ccd861a57cd87ed63c55510e9c6"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P14/Reacoes_e_operacao/Reacoes_parada_55.png",
+      "bytes": 92847,
+      "sha256": "12619a724347cd513411eb2265bcc997e909bd89e13979c52a2f1e7a76076f52"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P14/Reacoes_e_operacao/Registro_montagem.csv",
+      "bytes": 700,
+      "sha256": "4efead09be1461b85b490b35cfa3242992bf6e9ccf7bdd53c7d98e796e661837"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P15/Composicao_parcial/README.md",
+      "bytes": 7768,
+      "sha256": "cfad72e8155b2a089befd3ad1da7cd3e9149b7630d067748b5343814c2a74ea5"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P15/Composicao_parcial/README.md.html",
+      "bytes": 9274,
+      "sha256": "bc1e789bb9954bcd473bd8ac8ad55c431676f434e56636d21363e054f1be11a4"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Gavetas_estabilidade/Planta_movimento_apoios.png",
+      "bytes": 47022,
+      "sha256": "b5d626808a6ac8f3d08b6d7d8af6601c8fe3063d9e7b424c11a3407df60be932"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Gavetas_estabilidade/README.md",
+      "bytes": 9259,
+      "sha256": "0fbc363aa4ec5178dc52d79f4b7566f698e36be28cbe05db8f2b0fec5314bac2"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Gavetas_estabilidade/README.md.html",
+      "bytes": 11028,
+      "sha256": "90a52685f19c3a36819f37c7168166ba065dc50c5b654a26c7e7620219070142"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Interface_guia_fundo/Mapa_intersecoes.png",
+      "bytes": 84612,
+      "sha256": "d33124be89b96eed9b3556db37e4cd1471377bdc6a876db5fa9b9b12f91dcd47"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Interface_guia_fundo/README.md",
+      "bytes": 5556,
+      "sha256": "8e535272a7eb4a04f371ba70b69ada81e258ad8d01359eaef5e1369813922c29"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Interface_guia_fundo/README.md.html",
+      "bytes": 6803,
+      "sha256": "478301eae7404eb782b1127d0f0c403c38595ae3ae2da74e19699598127d2851"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P16/Interface_guia_fundo/Referencia_G2_e_furos_P16.json",
+      "bytes": 6833,
+      "sha256": "d83b2c759e37ae468565c77ecad6dd0218a42c47075c9acdcf68e0715e4ed82e"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Interfaces_montagem.csv",
+      "bytes": 1390,
+      "sha256": "9819a2b013a9a87d91bf23613383c0cf0e64a9e2f552539860618799b0f61dae"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Mapa_contatos.png",
+      "bytes": 40626,
+      "sha256": "82c088abeb1c4050174fb35d855f0b4165aea21450b89d11816d99a4528e0d2f"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Montagem_aberta.png",
+      "bytes": 100670,
+      "sha256": "771c2fad7642b38afe2e5ce0a8920c69dc73743d7ff894d2dbba2d50e3144e05"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Montagem_prototipo.svg",
+      "bytes": 4052,
+      "sha256": "cac0dd87c523e14adbe147e75fb743f31a41fd26fef432c2c816545d4bb6e0f9"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/README.md",
+      "bytes": 13860,
+      "sha256": "e121ab1973bf19fabe769e88eac6725098b39c0fb0e3774097a43d12c8f9463c"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/README.md.html",
+      "bytes": 16242,
+      "sha256": "5299f1e4efd65ce2ad47c891cf3f9420e339ab0b9b2ab6647ba62e44ebda19e8"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+      "bytes": 8232,
+      "sha256": "d02816e7f9b1d1aa926458cbe2f809e7a3220c45767d6c15bff7f0689f70b085"
+    },
+    {
+      "caminho": "Fontes/04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md.html",
+      "bytes": 9696,
+      "sha256": "41f51e19a4a28802d26ed8f8bb25e2b9417cd62caafbca771bf4a4c27e994e6f"
+    },
+    {
+      "caminho": "Fontes/09_Referencias/Plantas_e_manuais/Manuais/Ferragens_suspensao/Bigfer_suportes_aereos.pdf",
+      "bytes": 958243,
+      "sha256": "3bb42a79d7138aa2a146dcb1cda9e6ee2600787f79f1f29e8bedd645547c078b"
+    },
+    {
+      "caminho": "Registro.csv",
+      "bytes": 40037,
+      "sha256": "cccf0e86a84c2e41865bc24ef803de435c290ded8c828bb60a702f30ef903160"
+    },
+    {
+      "caminho": "verificar_ensaios_oficina.py",
+      "bytes": 12733,
+      "sha256": "96a300f8f56c7cdd2a4e6a10e69be7913323766c055c9d47240524f722ae65d8"
+    }
+  ]
+}
