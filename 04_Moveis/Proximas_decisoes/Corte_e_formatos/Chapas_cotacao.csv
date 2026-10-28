@@ -1,0 +1,17 @@
+﻿padrao;espessura_mm;formato;pecas;chapas_encontradas;limite_inferior_area;lacuna_chapas;aproveitamento_util_pct;aproveitamento_bruto_pct;sobras_maiores_300x300;area_sobras_m2;nao_cabem;escopo
+Arenza;18.0;2750x1850;39;3;3;0;70.71;69.44;7;3.5766;;grupo completo
+Arenza;18.0;2750x2100;39;3;2;1;62.21;61.17;7;5.7288;;grupo completo
+Azul Petroleo;18.0;2750x1850;20;2;1;1;44.63;43.82;7;5.0637;;grupo completo
+Azul Petroleo;18.0;2750x2100;20;1;1;0;78.53;77.21;5;0.7239;;grupo completo
+Beige Matt;18.0;2750x1850;2;1;1;0;5.84;5.74;2;4.6948;;grupo completo
+Beige Matt;18.0;2750x2100;2;1;1;0;5.14;5.06;2;5.3765;;grupo completo
+Branco TX;15.0;2750x1850;35;1;1;0;55.13;54.13;2;2.0321;;grupo completo
+Branco TX;15.0;2750x2100;35;1;1;0;48.5;47.69;2;2.7258;;grupo completo
+Branco TX;16.0;2750x1850;8;1;1;0;6.0;5.9;2;4.5878;;grupo completo
+Branco TX;16.0;2750x2100;8;1;1;0;5.28;5.19;2;5.2695;;grupo completo
+Branco TX;18.0;2750x1850;100;5;5;0;90.99;89.36;1;0.8263;Peca208;"subconjunto; grupo integral inviavel"
+Branco TX;18.0;2750x2100;101;5;5;0;94.56;92.97;0;0.0;;grupo completo
+Louro Freijo Poro;18.0;2750x1850;4;1;1;0;12.51;12.29;2;4.2687;;grupo completo
+Louro Freijo Poro;18.0;2750x2100;4;1;1;0;11.01;10.82;2;4.9504;;grupo completo
+Off-white fosco;18.0;2750x1850;7;1;1;0;41.29;40.55;5;2.9002;;grupo completo
+Off-white fosco;18.0;2750x2100;7;1;1;0;36.33;35.72;4;3.5251;;grupo completo

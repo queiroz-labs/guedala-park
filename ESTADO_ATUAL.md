@@ -83,7 +83,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
 | Banheiro | [Acesso ao quadro BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) | Desenho de acesso e vistoria |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
-| Todos | [Corte por chapa física](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | P13/Peca 350: Arenza liso nas duas faces (Elias 27/10/2026, F13=A); acabamento integrado à R53/fichas R15; produto 18/bordas e corte pendentes |
+| Todos | [Corte guilhotinado R54](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | 216 painéis/14 chapas encontradas; 33 excluídos. P13 incluído; produto, formatos e blanks a confirmar (28/10) |
 
 ## Próximos passos
 
