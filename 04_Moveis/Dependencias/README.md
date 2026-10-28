@@ -24,3 +24,5 @@ A saída externa contém peças preservadas, furação, conflitos completos, qua
 Ranking Sobol de primeira ordem (pick-freeze), ponderado pela variância da menor folga de cada módulo. Estimador bruto preservado; índice exibido truncado0–1 por erro amostral. Interações não se somam à primeira ordem. Brutos ficam externos; hash no resumo. Testes de datum/translação/pano compartilhado em test_sensibilidade.py.
 
 **Pergunta para Elias:** adotar folga de montagem de 10 mm com arremate nos lados hoje com 0 mm? [Impacto por móvel](Pergunta_folga_zero.csv): perda de largura útil e profundidade, sem alterar cotas. Distinguir panos abertos/parede antes de adotar; os conflitos negativos existentes não são resolvidos pela pergunta. Paredes/ancoragem e resistência continuam fora do estudo.
+
+Leituras de campo são duas visadas distância/azimute por pano, desde M0 e direção M0→M1; vínculo ao datum nominal ainda pendente. A conversão para deslocamento normal assinado/ângulo exige esse vínculo; a cadeia recebe esses parâmetros, não presume que distância absoluta do laser seja deslocamento da parede.

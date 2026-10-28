@@ -62,3 +62,5 @@ O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, s
 **Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.
 
 A folha de campo contém 15 verificações físicas e comando único; 546 códigos foram para CSV em Dependencias. Coordenadas sem datum físico estão marcadas descrição pendente. [Mapeamento](../04_Moveis/Dependencias/Descricao_fisica.csv).
+
+Levantamento dos panos no roteiro: duas visadas com distância e azimute desde M0/M0→M1, a1m do piso; não são duas perpendiculares a partir do mesmo ponto. Identificar M0/M1/E1/E2 e vinculá-los ao datum nominal antes de converter a reta para deslocamento normal assinado/ângulo no CSV da cadeia. Esse vínculo ainda é descrição pendente, sem transformação inventada.
