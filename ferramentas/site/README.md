@@ -1,6 +1,6 @@
-# Apartamento interativo — R54 e pacote R28
+# Apartamento interativo — R54 e pacote R29
 
-**Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R28 autorizada por Elias em 28/10/2026: “pode fazer o push e atualizar o site com essas infos”.
+**Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
 **Berlin R54, 27/10/2026:** pedestal preto aproximado nos dois estados; cadeira lateral +15 mm. 106 cenários sem colisões novas. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Relatório](../../02_Modelo_3D/Relatorio_mudanca.md) · [publicação](../../06_Entregas/README.md). Publicado e conferido em 28/10/2026. Controle da mesa acessível na sala. Malha da cadeira preservada: só mudou a diagonal de uma face plana; materiais reconciliados. Testes em `test_scene_revision.cjs`.
 
@@ -10,7 +10,7 @@
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-A configuração corrente é `current_release.json`: FreeCAD R54, pacote R28, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
+A configuração corrente é `current_release.json`: FreeCAD R54, pacote R29, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
 
 Entradas antigas encaminham às fichas e ao estado atual; [referências divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09).
 

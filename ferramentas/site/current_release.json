@@ -11,10 +11,10 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R28",
+  "packageRevision": "R29",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R28.zip",
-  "archiveRoot": "Guedala_Park_R28",
+  "packageFile": "Guedala_Park_R29.zip",
+  "archiveRoot": "Guedala_Park_R29",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
@@ -22,7 +22,7 @@
   "lastPublishedCadRevision": "R54",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
   "lastPublishedPackageRevision": "R26",
-  "notes": "Pacote R28 com caderno PDF e ZIP de ensaios de oficina; todos pendentes de execução. CAD R54 preservado. Elias, 28/10/2026, nesta conversa: \"pode fazer o push e atualizar o site com essas infos\".",
+  "notes": "Pacote R29: navegação em quatro abas por cômodo, selo único de situação, biblioteca com 15 acessos e furação por peça (nominal). CAD R54 preservado. Elias, 28/10/2026, nesta conversa: \"Sim, publicar\".",
   "technicalDocuments": [
     {
       "id": "pe-direito",
