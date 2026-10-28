@@ -209,3 +209,11 @@ Saída temporária externa, caminho impresso; `--saida DIR` exige pasta nova/vaz
 Base R54: 72 extensões fixas, 249 IDs preservados. Nove fechamentos são referências sem ID de corte: não viram painéis. Recortes manuais e referências alteradas vão para Pendencias_propagacao.csv. Custo total fica desconhecido sem composição/preços; delta conhecido não significa custo total zero. Esquadro e piso usam canais CAMPO por ambiente, descritos no relatório; não descontar piso novamente quando PD já for local.
 
 Ensaio fictício existente: cadeia completa 0,794 s, 0 peças/furos alterados, 10 folgas negativas novas. Tempo desta máquina, sem medição, remodelagem ou montagem. Testar: `python -B 04_Moveis/Dependencias/test_cadeia.py` (4 casos, saída descartada). Derivados permanecem nominais/incompletos onde a fonte não tem centros, fita, recortes ou preços.
+
+## Sensibilidade das medidas
+
+[Ranking das 15 medidas](Ranking_15.csv) · [resumo e hashes](Sensibilidade.json). `python -B 04_Moveis/Dependencias/sensibilidade.py --saida C:/Temp/sensibilidade` gera 5000 cenários, seed 28102026, 237 variáveis; 5,6 s nesta máquina. Brutos e Todas_medidas.csv (546 códigos: 532 da base+14 canais de esquadro/piso) ficam externos. Duas execuções repetiram o hash dos cenários.
+
+Uniformes independentes: paredes/origens/dimensões±20mm, teto2580–2620/BAN2480–2520, esquadro0–1°, piso0–10mm. Não representam distribuição da obra nem polígono físico coerente: manter datum comum ao medir origens. Resposta extraída do motor e conferida em 32 cenários completos, erro<1e-8mm. Mesma chave dos 249 painéis fixos permite cache da cadeia: 0 peças C×L alteradas, 0 conflitos de furação novos e 0 chapas extras no universo coberto. Fechamentos sem ID continuam desconhecidos.
+
+4998 cenários com folga nova negativa; máximo 30. Ranking por ocorrências atribuídas ao retirar uma variável do cenário, depois ocorrências isoladas e IDs a revisar. A soma não é total único nem probabilidade. Peças afetadas significa revisão dos vínculos, não redimensionamento. Limiar 0 é qualquer variação adversa; tolerância de obra permanece RT/oficina. Códigos sem equação não ganham tolerância numérica. Testes: `python -B 04_Moveis/Dependencias/test_sensibilidade.py`.
