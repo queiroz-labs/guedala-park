@@ -102,7 +102,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
-**Medidas → derivados (28/10):** [cadeia e sensibilidade](04_Moveis/Dependencias/README.md): 5.000 cenários; ranking15; caixas fixas, lacunas por peça explícitas; cadeia 0,79 s, externa.
+**Medidas → derivados (28/10):** [cadeia, ranking e roteiro](04_Moveis/Dependencias/README.md): 5.000 cenários; criticidade por código; caixas fixas e lacunas explícitas; cadeia externa 0,79 s.
 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
 

@@ -6,7 +6,7 @@
 
 [Roteiro do dia das chaves](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
 
-São **530 registros**: 173 do roteiro e verificações complementares, mais 357 entradas escalares PR da geração A3 R02. Não representam medições feitas: incluem preparação, vistoria, documentos, referências e coordenadas nominais. **Nenhum valor de campo preenchido.**
+São **532 registros** no índice atual de levantamento, incluindo verificações e coordenadas PR da geração A3 R02. Não representam medições feitas: incluem preparação, vistoria, documentos, referências e coordenadas nominais. **Nenhum valor de campo preenchido.**
 
 | Grupo | Cobertura |
 |---|---|
@@ -60,3 +60,5 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, somente no PC, fora do Git/site) foi recuperado da pasta antiga na unificação de 25/09/2026. Os pacotes originais dos levantamentos também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.
 
 **Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.
+
+O roteiro inclui criticidade e limiar geométrico por código (532 do índice+14 canais auxiliares), separados da tolerância de obra. Após medir: `python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`. Saída externa; caixas fixas e pendências preservadas. [Ranking e limites](../04_Moveis/Dependencias/README.md).
